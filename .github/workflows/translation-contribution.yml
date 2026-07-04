@@ -1,0 +1,39 @@
+name: Translation contribution
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  review:
+    if: contains(github.event.issue.labels.*.name, 'translation-contribution')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout translation library
+        uses: actions/checkout@v4
+
+      - name: Guard issue label
+        run: python workflow-scripts/github_issue_guard.py "$GITHUB_EVENT_PATH"
+
+      - name: Validate submission and update library files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python workflow-scripts/library_submission_bot.py --event "$GITHUB_EVENT_PATH"
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: translation-library/issue-${{ github.event.issue.number }}
+          title-path: pr_title.txt
+          body-path: pr_body.md
+          commit-message: 添加 Steam 成就翻译投稿 #${{ github.event.issue.number }}
+          labels: translation-contribution

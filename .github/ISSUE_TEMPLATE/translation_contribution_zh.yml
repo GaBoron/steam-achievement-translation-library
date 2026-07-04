@@ -1,0 +1,55 @@
+name: 提交 Steam 成就翻译（中文）
+description: 上传一个已翻译的 UserGameStatsSchema_<app_id>.zip
+title: "[翻译投稿] <游戏名> (<Steam app ID>)"
+labels: [translation-contribution]
+body:
+  - type: input
+    id: game_name
+    attributes:
+      label: 游戏名
+      placeholder: The Binding of Isaac: Rebirth 以撒的结合：重生
+    validations:
+      required: true
+  - type: input
+    id: app_id
+    attributes:
+      label: Steam app ID
+      placeholder: "250900"
+    validations:
+      required: true
+  - type: input
+    id: store_url
+    attributes:
+      label: Steam 商店地址
+      placeholder: https://store.steampowered.com/app/250900/
+    validations:
+      required: true
+  - type: checkboxes
+    id: languages
+    attributes:
+      label: 上传文件包含的语言
+      options:
+        - label: schinese
+        - label: tchinese
+        - label: english
+        - label: japanese
+        - label: koreana
+  - type: input
+    id: extra_languages
+    attributes:
+      label: 其他 Steam 语言代码
+      description: 如有多个，请用逗号分隔；没有则填写 none。
+      placeholder: none
+  - type: textarea
+    id: schema_zip
+    attributes:
+      label: 成就 schema ZIP
+      description: 上传 `UserGameStatsSchema_<app_id>.zip`，ZIP 内必须只包含一个同名 `.bin` 文件。
+      placeholder: 请把 ZIP 拖到这里。
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 备注
+      description: 可填写翻译来源、术语说明或需要维护者注意的内容。

@@ -1,0 +1,32 @@
+name: Submit Steam achievement translation (English helper)
+description: Auxiliary English form; Chinese form is preferred.
+title: "[Translation] <Game name> (<Steam app ID>)"
+labels: [translation-contribution]
+body:
+  - type: markdown
+    attributes:
+      value: Please use the Chinese template if possible. Upload `UserGameStatsSchema_<app_id>.zip` containing exactly one matching `.bin` file.
+  - type: input
+    id: game_name
+    attributes:
+      label: Game name
+    validations:
+      required: true
+  - type: input
+    id: app_id
+    attributes:
+      label: Steam app ID
+    validations:
+      required: true
+  - type: input
+    id: store_url
+    attributes:
+      label: Steam store URL
+    validations:
+      required: true
+  - type: textarea
+    id: schema_zip
+    attributes:
+      label: Achievement schema ZIP
+    validations:
+      required: true
