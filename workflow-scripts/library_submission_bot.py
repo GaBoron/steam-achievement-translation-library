@@ -385,6 +385,11 @@ def github_link(url: str, label: str) -> str:
     return f"[{label}]({url})" if url else ""
 
 
+def pull_request_label(url: str) -> str:
+    match = re.search(r"/pull/(\d+)(?:[#?].*)?$", url)
+    return f"#{match.group(1)}" if match else "PR"
+
+
 def contributor_markdown(contributors: list[str]) -> str:
     links: list[str] = []
     for contributor in contributors:
@@ -451,7 +456,7 @@ def write_human_index(index: dict[str, Any]) -> None:
                 f"| `{game_id}` | {escape_table(str(entry.get('game_name', '')))} | {status_text(entry, 'zh')} | "
                 f"{escape_table(str(entry.get('updated_at') or entry.get('submitted_at') or ''))} | {contributor_markdown(entry_contributors(entry))} | "
                 f"{escape_table(', '.join(entry.get('languages', [])))} | {entry.get('achievement_count', '')} | "
-                f"[`{escape_table(schema_name)}`]({schema_download_url(schema_file)}) | {github_link(source_pr, 'PR') if source_pr else ''} | "
+                f"[`{escape_table(schema_name)}`]({schema_download_url(schema_file)}) | {github_link(source_pr, pull_request_label(source_pr)) if source_pr else ''} | "
                 f"{github_link(outdated_link, '报告') if outdated_link else ''} | [Steam]({entry.get('store_url', '')}) |"
             )
             zh_lines.append(row)
@@ -459,7 +464,7 @@ def write_human_index(index: dict[str, Any]) -> None:
                 f"| `{game_id}` | {escape_table(str(entry.get('game_name', '')))} | {status_text(entry, 'en')} | "
                 f"{escape_table(str(entry.get('updated_at') or entry.get('submitted_at') or ''))} | {contributor_markdown(entry_contributors(entry))} | "
                 f"{escape_table(', '.join(entry.get('languages', [])))} | {entry.get('achievement_count', '')} | "
-                f"[`{escape_table(schema_name)}`]({schema_download_url(schema_file)}) | {github_link(source_pr, 'PR') if source_pr else ''} | "
+                f"[`{escape_table(schema_name)}`]({schema_download_url(schema_file)}) | {github_link(source_pr, pull_request_label(source_pr)) if source_pr else ''} | "
                 f"{github_link(outdated_link, 'Report') if outdated_link else ''} | [Steam]({entry.get('store_url', '')}) |"
             )
     else:
