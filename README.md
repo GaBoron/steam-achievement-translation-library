@@ -16,11 +16,78 @@
 | 报告文件过期 | 使用 issue 模板“报告成就文件过期” |
 | 查看填写规范 | 阅读 [贡献指南](CONTRIBUTING.md) |
 
-## 使用提示
+## 使用流程
 
-下载文件前请查看索引里的“状态”和“最近更新”。如果某个游戏被标记为“可能过期”，说明已有用户报告 Steam schema 可能变化，建议等待更新 PR 合并后再使用。
+### 1. 找到游戏
 
-下载 `UserGameStatsSchema_<app_id>.bin` 后，请使用你信任的本地工具应用到 Steam 本地成就 schema。替换本地 Steam 文件前请自行备份。
+优先使用 Steam app ID。打开游戏的 Steam 商店页，网址里 `/app/` 后面的数字就是 app ID，例如 `https://store.steampowered.com/app/250900/...` 对应 `250900`。
+
+打开 [翻译库索引](INDEX.md) 后，用浏览器或 GitHub 页面搜索：
+
+| 搜索内容 | 适合场景 |
+| --- | --- |
+| Steam app ID | 最准确，推荐优先使用 |
+| 游戏名 | 不确定 app ID 时使用；部分条目会同时写原名和中文名 |
+| 语言代码 | 例如 `schinese`、`tchinese`、`japanese` |
+| 贡献者 | 想查某位贡献者提交过哪些文件 |
+
+找到条目后，先看“状态”和“最近更新”。如果状态是“可能过期”，说明已有用户报告 Steam schema 可能变化；除非你明确知道仍然适用，否则建议等待更新 PR 合并后再下载。
+
+### 2. 下载文件
+
+在索引表格的“文件”列点击 `UserGameStatsSchema_<app_id>.bin`。这是指向当前 `main` 分支的 raw 下载链接。
+
+下载后确认三件事：
+
+| 检查项 | 说明 |
+| --- | --- |
+| 文件名 | 应保持 `UserGameStatsSchema_<app_id>.bin`，不要保存成 `.txt`、`.html` 或带额外后缀 |
+| app ID | 文件名里的数字必须和你要替换的游戏一致 |
+| 更新时间 | 和索引里的“最近更新”对应；太旧的文件建议谨慎使用 |
+
+如果浏览器直接显示乱码或二进制内容，可以在文件链接上右键另存为，或进入 raw 页面后使用浏览器保存功能。
+
+### 3. 找到 Steam 本地文件
+
+Steam 本地 schema 通常在 Steam 安装目录下：
+
+```text
+<Steam 安装目录>/appcache/stats/UserGameStatsSchema_<app_id>.bin
+```
+
+Windows 常见位置：
+
+```text
+C:/Program Files (x86)/Steam/appcache/stats/UserGameStatsSchema_<app_id>.bin
+C:/Program Files/Steam/appcache/stats/UserGameStatsSchema_<app_id>.bin
+```
+
+注意：这个文件通常不在游戏安装目录，也不在 `steamapps/common/<游戏名>` 下面。自定义 Steam 游戏库位置一般不会改变 `appcache/stats` 的位置。
+
+如果找不到文件：
+
+1. 启动 Steam。
+2. 启动对应游戏并进入一次成就或主菜单流程，让 Steam 生成/刷新 schema 缓存。
+3. 关闭游戏和 Steam。
+4. 在 Steam 安装目录下搜索 `UserGameStatsSchema_<app_id>.bin`。
+
+也可以使用 [steam-achievement-localizer-skill](https://github.com/GaBoron/steam-achievement-localizer-skill) 里的工具定位：
+
+```bash
+python scripts/steam_bkv_tool.py find-schema --game-id <app_id>
+```
+
+### 4. 替换并使用
+
+替换前请先关闭 Steam 和游戏，并备份原文件，例如复制成：
+
+```text
+UserGameStatsSchema_<app_id>.bin.bak
+```
+
+然后把从本仓库下载的 `UserGameStatsSchema_<app_id>.bin` 放到本地 `appcache/stats` 目录，覆盖同名文件。确认文件名完全一致后重新启动 Steam 和游戏。
+
+如果游戏更新、Steam 刷新缓存或成就数量变化，Steam 可能重新生成该文件。遇到翻译失效、成就缺失或索引状态过旧时，请使用“报告成就文件过期”模板；如果你已经有新版文件，请使用“更新已有 Steam 成就翻译”模板。
 
 ## 许可证与权利
 

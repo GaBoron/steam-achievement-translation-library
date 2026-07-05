@@ -4,6 +4,15 @@
 
 > Before downloading, check both Status and Last updated. Steam updates may change achievement schemas; files marked as possibly outdated should be used with extra care.
 
+## Using This Index
+
+1. Search with your browser or GitHub page search by Steam app ID, game name, contributor, or language code.
+2. Check Status and Last updated in the matching row. Use possibly outdated files carefully or wait for an update.
+3. Click `UserGameStatsSchema_<app_id>.bin` in the File column to download the raw file.
+4. Place it in the matching local Steam file under `<Steam install directory>/appcache/stats/`; close Steam and the game first, and back up the original file.
+
+See [README_EN.md](README_EN.md) for the full find, download, and replacement flow.
+
 ## Games
 
 | Steam app ID | Game | Status | Last updated | Contributors | Languages | Achievements | File | Source PR | Outdated report | Store |
