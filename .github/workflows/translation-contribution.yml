@@ -1,39 +1,121 @@
-name: Translation contribution
+name: Translation library automation
 
 on:
   issues:
-    types: [opened, edited, labeled]
-  issue_comment:
-    types: [created]
+    types: [opened, edited, labeled, reopened]
+  pull_request:
+    types: [closed]
 
 permissions:
   contents: write
   issues: write
   pull-requests: write
 
+concurrency:
+  group: translation-library-${{ github.event.issue.number || github.event.pull_request.number || github.run_id }}
+  cancel-in-progress: false
+
 jobs:
-  review:
-    if: contains(github.event.issue.labels.*.name, 'translation-contribution')
+  issue-review:
+    if: ${{ github.event_name == 'issues' && !github.event.issue.pull_request && (contains(github.event.issue.labels.*.name, 'translation-contribution') || contains(github.event.issue.labels.*.name, 'update') || contains(github.event.issue.labels.*.name, 'outdated')) }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout translation library
         uses: actions/checkout@v4
 
-      - name: Guard issue label
-        run: python workflow-scripts/github_issue_guard.py "$GITHUB_EVENT_PATH"
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
 
-      - name: Validate submission and update library files
+      - name: Guard issue label
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python workflow-scripts/library_submission_bot.py --event "$GITHUB_EVENT_PATH"
+        run: python workflow-scripts/github_issue_guard.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN"
+
+      - name: Validate issue and update library files
+        id: validate
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python workflow-scripts/library_submission_bot.py --event "$GITHUB_EVENT_PATH" --token "$GITHUB_TOKEN"
+
+      - name: Comment on failed review
+        if: ${{ steps.validate.outcome == 'failure' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          if [ -f submission_result.json ]; then
+            python - <<'PY' > issue-comment.md
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path("submission_result.json").read_text(encoding="utf-8"))
+          if data.get("retry_allowed"):
+              print("自动检查发现了可以修正的问题。请按下面的检查详情更新 issue 或重新上传文件。")
+              print()
+          else:
+              print("自动检查无法继续，此 issue 将被关闭。")
+              print()
+          print("检查详情：")
+          for item in data.get("errors", []):
+              print(f"- {item}")
+          PY
+          else
+            printf "自动检查失败，但没有生成详细报告。\n" > issue-comment.md
+          fi
+          gh issue comment "$ISSUE_NUMBER" --body-file issue-comment.md
+          if [ -f submission_result.json ] && [ "$(python -c 'import json; print(str(json.load(open("submission_result.json", encoding="utf-8")).get("close_issue", False)).lower())')" = "true" ]; then
+            gh issue close "$ISSUE_NUMBER" --reason "not planned"
+          fi
+
+      - name: Export PR metadata
+        id: meta
+        if: ${{ steps.validate.outcome == 'success' }}
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path("submission_result.json").read_text(encoding="utf-8"))
+          for key in ("branch", "pr_labels", "commit_message"):
+              print(f"{key}={data[key]}")
+          PY
 
       - name: Create pull request
+        if: ${{ steps.validate.outcome == 'success' }}
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: translation-library/issue-${{ github.event.issue.number }}
+          branch: ${{ steps.meta.outputs.branch }}
           title-path: pr_title.txt
           body-path: pr_body.md
-          commit-message: 添加 Steam 成就翻译投稿 #${{ github.event.issue.number }}
-          labels: translation-contribution
+          commit-message: ${{ steps.meta.outputs.commit_message }}
+          labels: ${{ steps.meta.outputs.pr_labels }}
+          reviewers: GaBoron
+          add-paths: |
+            files/**
+            index.json
+            INDEX.md
+            INDEX_EN.md
+
+  record-source-pr:
+    if: ${{ github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main' && startsWith(github.event.pull_request.head.ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Record source PR in index
+        run: python workflow-scripts/translation_pr_maintenance.py --event "$GITHUB_EVENT_PATH" --mark-source-pr

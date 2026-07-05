@@ -1,14 +1,14 @@
-name: 提交 Steam 成就翻译
-description: 上传一个新的 UserGameStatsSchema_<app_id>.zip
-title: "[翻译投稿] <游戏名> (<Steam app ID>)"
-labels: [translation-contribution]
+name: 更新已有 Steam 成就翻译
+description: 上传一个已收录游戏的新版 UserGameStatsSchema_<app_id>.zip
+title: "[翻译更新] <游戏名> (<Steam app ID>)"
+labels: [update]
 body:
   - type: markdown
     attributes:
       value: |
-        请先在 `INDEX.md` 或 `index.json` 搜索 Steam app ID，确认库里还没有这个游戏。
+        此模板只用于更新已经合并进库的游戏。机器人会按 Steam app ID 检查 `index.json`；正在打开的 PR 不算已收录。
 
-        上传文件必须是 `UserGameStatsSchema_<app_id>.zip`，ZIP 内只放一个同名 `.bin` 文件。
+        如果上传文件与库里的当前文件完全相同，自动检查会拒绝创建 PR。
   - type: input
     id: game_name
     attributes:
@@ -21,7 +21,6 @@ body:
     id: app_id
     attributes:
       label: Steam app ID
-      description: 只填写数字，可从 Steam 商店地址 `/app/<id>/` 取得。
       placeholder: "123456"
     validations:
       required: true
@@ -29,8 +28,15 @@ body:
     id: store_url
     attributes:
       label: Steam 商店地址
-      description: 必须是 `https://store.steampowered.com/app/<Steam app ID>/...`。
       placeholder: https://store.steampowered.com/app/123456/
+    validations:
+      required: true
+  - type: textarea
+    id: update_summary
+    attributes:
+      label: 更新内容摘要
+      description: 说明这次更新了什么，例如游戏更新后新增成就、删除旧成就、修正翻译、补充语言字段等。
+      placeholder: 请简要列出新增、删除、修改或修正的内容。
     validations:
       required: true
   - type: checkboxes
@@ -54,7 +60,7 @@ body:
     id: schema_zip
     attributes:
       label: 成就 schema ZIP
-      description: 上传 `UserGameStatsSchema_<app_id>.zip`；ZIP 内必须只包含一个 `UserGameStatsSchema_<app_id>.bin`。
+      description: 上传新版 `UserGameStatsSchema_<app_id>.zip`；ZIP 内必须只包含一个同名 `.bin`。
       placeholder: 请把 ZIP 拖到这里。
     validations:
       required: true
@@ -62,4 +68,4 @@ body:
     id: notes
     attributes:
       label: 备注
-      description: 可填写翻译来源、术语说明、已自行测试的结果，或需要维护者注意的内容。
+      description: 可填写来源、测试情况，或维护者需要额外核对的内容。

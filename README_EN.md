@@ -2,18 +2,26 @@
 
 [简体中文](README.md) | English
 
-This repository is the standalone Steam achievement translation data library split from `steam-achievement-localizer-skill`. It no longer hosts the Codex skill runtime, installer, packaging workflow, or usage docs. The default entry point is the Chinese README; this file is an auxiliary English summary.
+This project is a **Steam achievement translation data repository**. It collects community-submitted `UserGameStatsSchema_<app_id>.bin` translation files and maintains searchable indexes, issue templates, and automated first-review workflows.
 
-## Layout
+> Translation scripts, the Codex skill, installation guidance, and local application workflows are maintained in [GaBoron/steam-achievement-localizer-skill](https://github.com/GaBoron/steam-achievement-localizer-skill). This repository hosts translation data and contribution automation.
 
-- `files/`: community-submitted `UserGameStatsSchema_<app_id>.bin` files.
-- `index.json`: machine-readable index.
-- `README.md`: primary Chinese index and project documentation.
-- `CONTRIBUTING.md`: primary Chinese contribution guide.
-- `workflow-scripts/`: GitHub Actions helpers for submission review and index maintenance.
+## Quick Links
 
-Paths were flattened from the original `achievement-library/` subtree: `achievement-library/files/` became `files/`, and `achievement-library/index.json` became `index.json`.
+| Task | Where to go |
+| --- | --- |
+| Find a translation | Open [the library index](INDEX_EN.md) and search by Steam app ID, game name, contributor, or language code |
+| Submit a new game | Use the "Submit Steam achievement translation" issue template |
+| Update an accepted file | Use the "Update existing Steam achievement translation" issue template |
+| Report an outdated file | Use the "Report outdated achievement file" issue template |
+| Read contribution rules | See [CONTRIBUTING_EN.md](CONTRIBUTING_EN.md) |
 
-## What was not migrated
+## Usage Notes
 
-Codex skill files such as `SKILL.md`, `VERSION`, `scripts/steam_bkv_tool.py`, skill installation docs, packaging assets, and skill release workflows are intentionally not part of this repository.
+Before downloading, check the index Status and Last updated columns. If a game is marked as possibly outdated, someone has reported that the Steam schema may have changed.
+
+After downloading a `UserGameStatsSchema_<app_id>.bin` file, apply it with a local tool you trust. Back up your local Steam file before replacing anything.
+
+## License And Rights
+
+This repository uses a mixed rights notice. See [LICENSE.md](LICENSE.md). In short: workflow scripts are provided under MIT; contributor-owned translation portions are licensed under CC BY 4.0; original game content, achievement text, Steam schema content, and related files remain the property of their respective rights holders.

@@ -1,14 +1,14 @@
-name: Submit Steam achievement translation
-description: Upload a new UserGameStatsSchema_<app_id>.zip
-title: "[Translation] <Game name> (<Steam app ID>)"
-labels: [translation-contribution]
+name: Update existing Steam achievement translation
+description: Upload a newer schema ZIP for an accepted game
+title: "[Translation update] <Game name> (<Steam app ID>)"
+labels: [update]
 body:
   - type: markdown
     attributes:
       value: |
-        Search `INDEX.md` or `index.json` for the Steam app ID before opening this issue.
+        Use this template only for games already accepted into `index.json`. Open PRs do not count as accepted entries.
 
-        Upload `UserGameStatsSchema_<app_id>.zip`; the ZIP must contain exactly one matching `.bin` file.
+        If the uploaded file is identical to the current library file, automation will reject the update.
   - type: input
     id: game_name
     attributes:
@@ -21,7 +21,6 @@ body:
     id: app_id
     attributes:
       label: Steam app ID
-      description: Use digits only.
       placeholder: "123456"
     validations:
       required: true
@@ -30,6 +29,14 @@ body:
     attributes:
       label: Steam store URL
       placeholder: https://store.steampowered.com/app/123456/
+    validations:
+      required: true
+  - type: textarea
+    id: update_summary
+    attributes:
+      label: Update summary
+      description: Describe what changed, such as new achievements, removed achievements, translation fixes, or added language fields.
+      placeholder: List the additions, removals, changes, or fixes.
     validations:
       required: true
   - type: checkboxes
@@ -52,7 +59,7 @@ body:
     id: schema_zip
     attributes:
       label: Achievement schema ZIP
-      description: Upload `UserGameStatsSchema_<app_id>.zip` containing exactly one matching `.bin` file.
+      description: Upload the new `UserGameStatsSchema_<app_id>.zip` containing exactly one matching `.bin` file.
       placeholder: Drag the ZIP here.
     validations:
       required: true
@@ -60,4 +67,4 @@ body:
     id: notes
     attributes:
       label: Notes
-      description: Translation source, terminology notes, local testing notes, or anything maintainers should review.
+      description: Source, local testing notes, or details maintainers should verify.

@@ -1,0 +1,48 @@
+name: Report outdated achievement file
+description: Mark an accepted game's schema file as possibly outdated
+title: "[Outdated file] <Game name> (<Steam app ID>)"
+labels: [outdated]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to report that an accepted library file may be outdated, for example after a game update changes the local Steam schema.
+
+        This only marks the index entry as possibly outdated. To replace the file, use the update template.
+  - type: input
+    id: game_name
+    attributes:
+      label: Game name
+      description: Use the Steam store name. If the store name is not Chinese, you may append a Chinese translation after a space.
+      placeholder: Steam store name optional translated name
+    validations:
+      required: true
+  - type: input
+    id: app_id
+    attributes:
+      label: Steam app ID
+      description: Must already exist in the accepted library index.
+      placeholder: "123456"
+    validations:
+      required: true
+  - type: input
+    id: store_url
+    attributes:
+      label: Steam store URL
+      placeholder: https://store.steampowered.com/app/123456/
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why do you think the file is outdated?
+      description: Mention the observed change, date, version, achievement count change, local schema timestamp, or missing achievements.
+      placeholder: Describe the evidence.
+    validations:
+      required: true
+  - type: input
+    id: reference
+    attributes:
+      label: Reference or source
+      description: Steam news, update notes, screenshots, discussion links, or local file timestamp. Leave blank if unavailable.
+      placeholder: https://store.steampowered.com/news/app/123456/
