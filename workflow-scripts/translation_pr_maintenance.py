@@ -230,8 +230,10 @@ def checkout_pr_branch(pr: dict[str, Any]) -> str:
     branch = str((pr.get("head") or {}).get("ref") or "")
     if not branch.startswith("translation-library/"):
         raise RuntimeError("Only translation-library PR branches can be updated by automation.")
+    run(["git", "fetch", "origin", "main"], check=False)
     run(["git", "fetch", "origin", branch], check=False)
     run(["git", "checkout", "-B", branch, f"origin/{branch}"])
+    run(["git", "rebase", "origin/main"])
     return branch
 
 
