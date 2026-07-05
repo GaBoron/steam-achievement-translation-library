@@ -11,9 +11,9 @@
 | 你想做什么 | 入口 |
 | --- | --- |
 | 查找翻译 | 打开 [翻译库索引](INDEX.md)，可搜索 Steam app ID、游戏名、贡献者或语言代码 |
-| 提交新游戏 | 使用 issue 模板“提交 Steam 成就翻译” |
-| 更新已收录文件 | 使用 issue 模板“更新已有 Steam 成就翻译” |
-| 报告文件过期 | 使用 issue 模板“报告成就文件过期” |
+| 提交新游戏 | 使用 issue 模板 [“提交 Steam 成就翻译”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_contribution_zh.yml) |
+| 更新已收录文件 | 使用 issue 模板 [“更新已有 Steam 成就翻译”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_zh.yml) |
+| 报告文件过期 | 使用 issue 模板 [“报告成就文件过期”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_zh.yml) |
 | 查看填写规范 | 阅读 [贡献指南](CONTRIBUTING.md) |
 
 ## 使用流程

@@ -11,9 +11,9 @@ This project is a **Steam achievement translation data repository**. It collects
 | Task | Where to go |
 | --- | --- |
 | Find a translation | Open [the library index](INDEX_EN.md) and search by Steam app ID, game name, contributor, or language code |
-| Submit a new game | Use the "Submit Steam achievement translation" issue template |
-| Update an accepted file | Use the "Update existing Steam achievement translation" issue template |
-| Report an outdated file | Use the "Report outdated achievement file" issue template |
+| Submit a new game | Use the ["Submit Steam achievement translation"](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_contribution_en.yml) issue template |
+| Update an accepted file | Use the ["Update existing Steam achievement translation"](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_en.yml) issue template |
+| Report an outdated file | Use the ["Report outdated achievement file"](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_en.yml) issue template |
 | Read contribution rules | See [CONTRIBUTING_EN.md](CONTRIBUTING_EN.md) |
 
 ## Usage Flow
