@@ -416,12 +416,15 @@ def status_text(entry: dict[str, Any], language: str) -> str:
 
 def write_human_index(index: dict[str, Any]) -> None:
     entries = sort_entries(index.get("entries", []))
+    entry_count = len(entries)
     zh_lines = [
         "# Steam 成就翻译库索引",
         "",
         "简体中文 | [English](INDEX_EN.md) | [项目说明](README.md)",
         "",
         "> 下载前请同时查看“状态”和“最近更新”。Steam 更新可能改变成就 schema，标记为“可能过期”的文件建议等待更新 PR 合并后再使用。",
+        "",
+        f"当前收录：**{entry_count}** 个游戏。",
         "",
         "## 使用这个索引",
         "",
@@ -441,6 +444,8 @@ def write_human_index(index: dict[str, Any]) -> None:
         "[简体中文](INDEX.md) | English | [Project README](README_EN.md)",
         "",
         "> Before downloading, check both Status and Last updated. Steam updates may change achievement schemas; files marked as possibly outdated should be used with extra care.",
+        "",
+        f"Accepted games: **{entry_count}**.",
         "",
         "## Using This Index",
         "",

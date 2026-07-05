@@ -4,6 +4,8 @@
 
 > Before downloading, check both Status and Last updated. Steam updates may change achievement schemas; files marked as possibly outdated should be used with extra care.
 
+Accepted games: **26**.
+
 ## Using This Index
 
 1. Search with your browser or GitHub page search by Steam app ID, game name, contributor, or language code.
