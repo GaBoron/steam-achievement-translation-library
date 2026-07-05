@@ -590,6 +590,38 @@ def delete_pr_branch(repo: str, token: str, pr: dict[str, Any]) -> None:
     github_request("DELETE", repo, token, f"/git/refs/heads/{encoded}", allow_404=True, allow_422=True)
 
 
+def merged_thanks_comment(pr: dict[str, Any]) -> str:
+    meta = parse_pr_metadata(pr)
+    kind = pr_kind(pr)
+    contributors = [f"@{contributor}" for contributor in meta.get("contributors", []) if contributor]
+    contributor_text = "、".join(contributors) if contributors else "本次贡献者"
+    game_name = str(meta.get("game_name") or "该游戏")
+    game_id = str(meta.get("game_id") or "")
+    game_text = f"{game_name}（{game_id}）" if game_id else game_name
+    source_issue = str(meta.get("source_issue") or "")
+
+    if kind == "outdated":
+        action_text = f"已将 {game_text} 标记为可能过期，并同步到翻译库索引。"
+        follow_up = "如果之后准备好了新版成就文件，可以直接提交“更新已有 Steam 成就翻译”issue。"
+    elif kind == "update":
+        action_text = f"已合并 {game_text} 的成就翻译更新，并同步到翻译库索引。"
+        follow_up = "后续如果游戏再次更新或发现翻译需要修正，可以继续提交更新 issue。"
+    else:
+        action_text = f"已收录 {game_text} 的 Steam 成就翻译文件，并同步到翻译库索引。"
+        follow_up = "后续如果游戏更新导致 schema 变化，可以提交“更新已有 Steam 成就翻译”或“报告成就文件过期”。"
+
+    lines = [
+        "<!-- translation-library-merged-thanks -->",
+        f"感谢 {contributor_text} 的贡献！",
+        "",
+        action_text,
+        follow_up,
+    ]
+    if source_issue:
+        lines.extend(["", f"来源 issue：{source_issue}"])
+    return "\n".join(lines)
+
+
 def finalize_merged_pr(event: dict[str, Any], repo: str, token: str) -> None:
     pr = event.get("pull_request") or {}
     pr_number = int(pr["number"])
@@ -597,8 +629,8 @@ def finalize_merged_pr(event: dict[str, Any], repo: str, token: str) -> None:
         repo,
         token,
         pr_number,
-        "感谢贡献！这个 PR 已通过审核并合并。",
-        "这个 PR 已通过审核并合并",
+        merged_thanks_comment(pr),
+        "translation-library-merged-thanks",
     )
     delete_pr_branch(repo, token, pr)
     lock_issue(repo, token, pr_number)

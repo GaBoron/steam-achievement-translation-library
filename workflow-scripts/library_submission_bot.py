@@ -548,10 +548,20 @@ def summarize_update_diff(old_rows: list[dict[str, str]], new_rows: list[dict[st
     compare_keys = ["english_name", "english_description"]
     for language in languages:
         compare_keys.extend([f"{language}_name", f"{language}_description"])
-    changed: list[str] = []
+    changed: list[dict[str, Any]] = []
     for achievement_id in sorted(old_ids & new_ids):
-        if any(old_by_id[achievement_id].get(key, "") != new_by_id[achievement_id].get(key, "") for key in compare_keys):
-            changed.append(achievement_id)
+        field_changes = []
+        for key in compare_keys:
+            old_value = old_by_id[achievement_id].get(key, "")
+            new_value = new_by_id[achievement_id].get(key, "")
+            if old_value != new_value:
+                field_changes.append({
+                    "field": key,
+                    "old": old_value,
+                    "new": new_value,
+                })
+        if field_changes:
+            changed.append({"id": achievement_id, "fields": field_changes})
     return {
         "added": sorted(new_ids - old_ids),
         "deleted": sorted(old_ids - new_ids),
@@ -566,6 +576,36 @@ def markdown_list(values: list[str], empty_text: str = "None") -> str:
     if len(values) > 100:
         lines.append(f"- ... and {len(values) - 100} more")
     return "\n".join(lines)
+
+
+def markdown_changed_details(values: list[Any], empty_text: str = "None") -> str:
+    if not values:
+        return f"- {empty_text}"
+    if all(isinstance(value, str) for value in values):
+        return markdown_list(values, empty_text)
+
+    lines = [
+        "| Achievement ID | Field | Before | After |",
+        "| --- | --- | --- | --- |",
+    ]
+    rendered = 0
+    for item in values:
+        if not isinstance(item, dict):
+            continue
+        achievement_id = escape_table(str(item.get("id") or ""))
+        fields = item.get("fields") if isinstance(item.get("fields"), list) else []
+        for field in fields:
+            if not isinstance(field, dict):
+                continue
+            lines.append(
+                f"| `{achievement_id}` | `{escape_table(str(field.get('field') or ''))}` | "
+                f"{escape_table(str(field.get('old') or ''))} | {escape_table(str(field.get('new') or ''))} |"
+            )
+            rendered += 1
+            if rendered >= 100:
+                lines.append("| ... | ... | ... | ... |")
+                return "\n".join(lines)
+    return "\n".join(lines) if rendered else f"- {empty_text}"
 
 
 def build_review_table(rows: list[dict[str, str]], languages: list[str]) -> str:
@@ -727,7 +767,7 @@ def build_submission_pr_body(
 
 ### Changed
 
-{markdown_list(update_diff['changed'])}
+{markdown_changed_details(update_diff['changed'])}
 """
     return f"""## {title}
 
