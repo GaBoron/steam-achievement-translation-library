@@ -71,6 +71,11 @@ jobs:
           else
             printf "自动检查失败，但没有生成详细报告。\n" > issue-comment.md
           fi
+          ISSUE_LOCKED="$(gh api "repos/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER" --jq '.locked')"
+          if [ "$ISSUE_LOCKED" = "true" ]; then
+            echo "Issue #$ISSUE_NUMBER is already locked; skipping failure comment."
+            exit 0
+          fi
           gh issue comment "$ISSUE_NUMBER" --body-file issue-comment.md
           if [ -f submission_result.json ] && [ "$(python -c 'import json; print(str(json.load(open("submission_result.json", encoding="utf-8")).get("close_issue", False)).lower())')" = "true" ]; then
             gh issue close "$ISSUE_NUMBER" --reason "not planned"
@@ -120,8 +125,16 @@ jobs:
             printf "%s\n\n" "$PR_URL"
             printf "此 issue 已关闭并锁定。后续如需修改 PR 内容，请在 PR 下评论 \`/update\` 命令。\n"
           } > issue-comment.md
+          ISSUE_STATE="$(gh api "repos/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER" --jq '.state')"
+          ISSUE_LOCKED="$(gh api "repos/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER" --jq '.locked')"
+          if [ "$ISSUE_LOCKED" = "true" ]; then
+            echo "Issue #$ISSUE_NUMBER is already locked; skipping close-and-lock notification."
+            exit 0
+          fi
           gh issue comment "$ISSUE_NUMBER" --body-file issue-comment.md
-          gh issue close "$ISSUE_NUMBER" --reason "completed"
+          if [ "$ISSUE_STATE" != "CLOSED" ]; then
+            gh issue close "$ISSUE_NUMBER" --reason "completed"
+          fi
           gh api -X PUT "repos/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER/lock" -f lock_reason=resolved
 
   pr-review-requested-changes:

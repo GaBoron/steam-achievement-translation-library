@@ -815,8 +815,6 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
         contributor=issue_author(issue),
         timestamp=timestamp,
     )
-    upsert_index_entry(entry)
-
     issue_number = int(issue["number"])
     branch_prefix = "translation-library/update" if kind == "update" else "translation-library/issue"
     title_prefix = "Update" if kind == "update" else "Add"

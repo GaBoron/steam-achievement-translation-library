@@ -306,6 +306,7 @@ def entry_from_metadata(meta: dict[str, Any]) -> dict[str, Any]:
         "updated_at": meta.get("updated_at") or now_utc(),
         "status": "current",
     })
+    entry.pop("outdated", None)
     return entry
 
 
@@ -337,10 +338,10 @@ def update_pr_title_and_body(repo: str, token: str, pr_number: int, title: str, 
     github_request("PATCH", repo, token, f"/pulls/{pr_number}", {"title": title, "body": body})
 
 
-def commit_and_push(branch: str, message: str) -> bool:
+def commit_and_push(branch: str, message: str, add_paths: list[str] | None = None) -> bool:
     run(["git", "config", "user.name", "github-actions[bot]"])
     run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"])
-    run(["git", "add", "files", "index.json", "INDEX.md", "INDEX_EN.md"])
+    run(["git", "add", *(add_paths or ["files", "index.json", "INDEX.md", "INDEX_EN.md"])])
     if run(["git", "diff", "--cached", "--quiet"], check=False).returncode == 0:
         return False
     run(["git", "commit", "-m", message])
@@ -467,7 +468,6 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             validate_store_url(str(meta["game_id"]), str(meta["store_url"]))
             entry = entry_from_metadata(meta)
             entry["achievement_count"] = int(str(meta["achievement_count"]))
-            upsert_entry_for_pr(old_game_id, entry)
             pr_title = f"{'Update' if kind == 'update' else 'Add'} achievement translations for {meta['game_name']} ({meta['game_id']})"
             pr_body = build_submission_pr_body(
                 kind=kind,
@@ -484,7 +484,8 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
         comment_issue(repo, token, pr_number, f"`/update` 未通过检查，PR 未更新。\n\n- {escape_table(str(exc))}")
         return
 
-    changed = commit_and_push(branch, f"data: apply PR update command #{pr_number}")
+    add_paths = ["index.json", "INDEX.md", "INDEX_EN.md"] if kind == "outdated" else ["files"]
+    changed = commit_and_push(branch, f"data: apply PR update command #{pr_number}", add_paths)
     update_pr_title_and_body(repo, token, pr_number, pr_title, pr_body)
     suffix = "投稿分支和 PR 描述已更新。" if changed else "PR 描述已更新；文件内容没有产生新的提交。"
     comment_issue(repo, token, pr_number, f"`/update` 已处理完成，{suffix}")
@@ -523,26 +524,36 @@ def mark_source_pr(event: dict[str, Any], repo: str, token: str) -> bool:
 
     index = load_index()
     entry = next((item for item in index.get("entries", []) if str(item.get("game_id")) == game_id), None)
-    if not entry:
-        return False
 
     pr_url = str(pr.get("html_url") or "")
     merged_at = str(pr.get("merged_at") or "")
     changed = False
 
     if labels & OUTDATED_LABELS:
+        if not entry:
+            return False
         outdated = entry.get("outdated") if isinstance(entry.get("outdated"), dict) else {}
         if pr_url and outdated.get("source_pr") != pr_url:
             outdated["source_pr"] = pr_url
             entry["outdated"] = outdated
             changed = True
     else:
+        meta = parse_pr_metadata(pr)
+        entry = entry_from_metadata(meta)
+        schema_path = ROOT / str(entry.get("schema_file") or "")
+        if not schema_path.is_file():
+            raise RuntimeError(f"merged PR schema file is missing from main: {entry.get('schema_file') or '<empty>'}")
+        data, nodes = load_schema(schema_path)
+        if sha256(data) != str(entry.get("sha256") or ""):
+            raise RuntimeError(f"merged PR schema SHA-256 does not match PR metadata for {entry.get('schema_file')}")
+        entry["achievement_count"] = len(achievement_rows(nodes, list(entry.get("languages", []))))
         if pr_url and entry.get("source_pr") != pr_url:
             entry["source_pr"] = pr_url
             changed = True
         if merged_at and entry.get("updated_at") != merged_at:
             entry["updated_at"] = merged_at
             changed = True
+        changed = True
 
     if not changed:
         return False
