@@ -106,6 +106,14 @@ def comment_issue(repo: str, token: str, issue_number: int, body: str) -> None:
     github_request("POST", repo, token, f"/issues/{issue_number}/comments", {"body": body})
 
 
+def comment_issue_once(repo: str, token: str, issue_number: int, body: str, marker: str) -> None:
+    comments = github_request("GET", repo, token, f"/issues/{issue_number}/comments?per_page=100") or []
+    for comment in comments:
+        if marker in str(comment.get("body") or ""):
+            return
+    comment_issue(repo, token, issue_number, body)
+
+
 def lock_issue(repo: str, token: str, issue_number: int) -> None:
     github_request("PUT", repo, token, f"/issues/{issue_number}/lock", {"lock_reason": "resolved"}, allow_422=True)
 
@@ -568,6 +576,32 @@ def mark_source_pr(event: dict[str, Any], repo: str, token: str) -> bool:
     return True
 
 
+def delete_pr_branch(repo: str, token: str, pr: dict[str, Any]) -> None:
+    head = pr.get("head") if isinstance(pr.get("head"), dict) else {}
+    head_repo = head.get("repo") if isinstance(head.get("repo"), dict) else {}
+    if str(head_repo.get("full_name") or "") != repo:
+        return
+    branch = str(head.get("ref") or "")
+    if not branch.startswith("translation-library/"):
+        return
+    encoded = urllib.parse.quote(branch, safe="/")
+    github_request("DELETE", repo, token, f"/git/refs/heads/{encoded}", allow_404=True, allow_422=True)
+
+
+def finalize_merged_pr(event: dict[str, Any], repo: str, token: str) -> None:
+    pr = event.get("pull_request") or {}
+    pr_number = int(pr["number"])
+    comment_issue_once(
+        repo,
+        token,
+        pr_number,
+        "感谢贡献！这个 PR 已通过审核并合并。",
+        "这个 PR 已通过审核并合并",
+    )
+    delete_pr_branch(repo, token, pr)
+    lock_issue(repo, token, pr_number)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Maintain translation PR metadata, comments, and labels.")
     parser.add_argument("--event", type=Path, required=True, help="GitHub event JSON path")
@@ -587,7 +621,7 @@ def main() -> None:
     if args.lock_merged_pr:
         if not args.repo or not args.token:
             raise SystemExit("--repo and --token are required")
-        lock_issue(args.repo, args.token, int((event.get("pull_request") or {})["number"]))
+        finalize_merged_pr(event, args.repo, args.token)
     if args.mark_wait_for_update:
         if not args.repo or not args.token:
             raise SystemExit("--repo and --token are required")

@@ -91,7 +91,7 @@ jobs:
           from pathlib import Path
 
           data = json.loads(Path("submission_result.json").read_text(encoding="utf-8"))
-          for key in ("branch", "pr_labels", "commit_message"):
+          for key in ("branch", "pr_labels", "commit_message", "pr_title"):
               print(f"{key}={data[key]}")
           PY
 
@@ -102,7 +102,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ steps.meta.outputs.branch }}
-          title-path: pr_title.txt
+          title: ${{ steps.meta.outputs.pr_title }}
           body-path: pr_body.md
           commit-message: ${{ steps.meta.outputs.commit_message }}
           labels: ${{ steps.meta.outputs.pr_labels }}
@@ -154,6 +154,30 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python workflow-scripts/translation_pr_maintenance.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --mark-wait-for-update
+
+  pr-review-approved:
+    if: ${{ github.event_name == 'pull_request_review' && github.event.review.state == 'approved' && github.event.pull_request.base.ref == 'main' && startsWith(github.event.pull_request.head.ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge approved PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REVIEW_AUTHOR: ${{ github.event.review.user.login }}
+        run: |
+          STATE="$(gh pr view "$PR_NUMBER" --json state --jq '.state')"
+          if [ "$STATE" != "OPEN" ]; then
+            echo "PR #$PR_NUMBER is already $STATE; skipping merge."
+            exit 0
+          fi
+          DRAFT="$(gh pr view "$PR_NUMBER" --json isDraft --jq '.isDraft')"
+          if [ "$DRAFT" = "true" ]; then
+            echo "PR #$PR_NUMBER is still a draft; skipping merge."
+            exit 0
+          fi
+          TITLE="$(gh pr view "$PR_NUMBER" --json title --jq '.title')"
+          gh pr merge "$PR_NUMBER" --squash --delete-branch --subject "$TITLE" --body "Automatically merged after approval by @$REVIEW_AUTHOR."
 
   pr-comment-maintenance:
     if: ${{ github.event_name == 'issue_comment' && github.event.issue.pull_request }}
