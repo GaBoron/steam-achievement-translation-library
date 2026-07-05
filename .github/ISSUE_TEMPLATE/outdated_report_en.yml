@@ -1,6 +1,6 @@
 name: Report outdated achievement file
 description: Mark an accepted game's schema file as possibly outdated
-title: "[Outdated file] <Game name> (<Steam app ID>)"
+title: "[Outdated file] Game name (Steam app ID)"
 labels: [报告过期]
 body:
   - type: markdown
