@@ -4,7 +4,7 @@
 
 > 下载前请同时查看“状态”和“最近更新”。Steam 更新可能改变成就 schema，标记为“可能过期”的文件建议等待更新 PR 合并后再使用。
 
-当前收录：**29** 个游戏。
+当前收录：**30** 个游戏。
 
 ## 使用这个索引
 
@@ -26,6 +26,7 @@
 | `2567870` | Chained Together | 可用 | 2026-07-04T17:19:37Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 16 | [`UserGameStatsSchema_2567870.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/2567870/UserGameStatsSchema_2567870.bin) | [#26](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/26) |  | [Steam](https://store.steampowered.com/app/2567870/Chained_Together/) |
 | `678960` | CODE VEIN | 可用 | 2026-07-04T17:21:08Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 43 | [`UserGameStatsSchema_678960.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/678960/UserGameStatsSchema_678960.bin) | [#24](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/24) |  | [Steam](https://store.steampowered.com/app/678960/CODE_VEIN/) |
 | `1259420` | Days Gone 往日不再 | 可用 | 2026-07-04T14:47:03Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 67 | [`UserGameStatsSchema_1259420.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/1259420/UserGameStatsSchema_1259420.bin) | [#6](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/6) |  | [Steam](https://store.steampowered.com/app/1259420/Days_Gone/) |
+| `220440` | DmC: Devil May Cry 鬼泣：Dmc | 可用 | 2026-07-05T23:58:43Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 58 | [`UserGameStatsSchema_220440.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/220440/UserGameStatsSchema_220440.bin) | [#16](https://github.com/GaBoron/steam-achievement-translation-library/pull/16) |  | [Steam](https://store.steampowered.com/app/220440/DmC_Devil_May_Cry/) |
 | `240720` | Getting Over It with Bennett Foddy 掘地求升 | 可用 | 2026-07-05T09:52:20Z | [@GaBoron](https://github.com/GaBoron) | english, schinese | 3 | [`UserGameStatsSchema_240720.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/240720/UserGameStatsSchema_240720.bin) | [#4](https://github.com/GaBoron/steam-achievement-translation-library/pull/4) |  | [Steam](https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/) |
 | `1593500` | God of War 战神4 | 可用 | 2026-07-05T12:05:40Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 37 | [`UserGameStatsSchema_1593500.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/1593500/UserGameStatsSchema_1593500.bin) | [#12](https://github.com/GaBoron/steam-achievement-translation-library/pull/12) |  | [Steam](https://store.steampowered.com/app/1593500/God_of_War/) |
 | `394360` | Hearts of Iron IV 钢铁雄心4 | 可用 | 2026-07-05T11:41:19Z | [@sane801](https://github.com/sane801) | schinese | 293 | [`UserGameStatsSchema_394360.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/394360/UserGameStatsSchema_394360.bin) | [#8](https://github.com/GaBoron/steam-achievement-translation-library/pull/8) |  | [Steam](https://store.steampowered.com/app/394360/) |
