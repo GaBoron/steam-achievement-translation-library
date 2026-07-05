@@ -636,18 +636,34 @@ def finalize_merged_pr(event: dict[str, Any], repo: str, token: str) -> None:
     lock_issue(repo, token, pr_number)
 
 
+def finalize_pr_number(repo: str, token: str, pr_number: int) -> None:
+    pr = github_request("GET", repo, token, f"/pulls/{pr_number}")
+    if not pr:
+        raise RuntimeError(f"Pull request #{pr_number} was not found.")
+    if not pr.get("merged"):
+        raise RuntimeError(f"Pull request #{pr_number} is not merged.")
+    event = {"pull_request": pr}
+    mark_source_pr(event, repo, token)
+    finalize_merged_pr(event, repo, token)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Maintain translation PR metadata, comments, and labels.")
-    parser.add_argument("--event", type=Path, required=True, help="GitHub event JSON path")
+    parser.add_argument("--event", type=Path, help="GitHub event JSON path")
     parser.add_argument("--repo", default="", help="owner/repo")
     parser.add_argument("--token", default="", help="GitHub token")
     parser.add_argument("--mark-source-pr", action="store_true")
     parser.add_argument("--lock-merged-pr", action="store_true")
     parser.add_argument("--mark-wait-for-update", action="store_true")
     parser.add_argument("--handle-comment", action="store_true")
+    parser.add_argument("--finalize-pr", type=int, default=0, help="Fetch and finalize a merged PR by number")
     args = parser.parse_args()
 
-    event = json.loads(args.event.read_text(encoding="utf-8"))
+    event = json.loads(args.event.read_text(encoding="utf-8")) if args.event else {}
+    if args.finalize_pr:
+        if not args.repo or not args.token:
+            raise SystemExit("--repo and --token are required")
+        finalize_pr_number(args.repo, args.token, args.finalize_pr)
     if args.mark_source_pr:
         if not args.repo or not args.token:
             raise SystemExit("--repo and --token are required")

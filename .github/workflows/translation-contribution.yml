@@ -162,6 +162,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
       - name: Merge approved PR
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -181,6 +186,22 @@ jobs:
           fi
           TITLE="$(gh pr view "$PR_NUMBER" --json title --jq '.title')"
           gh pr merge "$PR_NUMBER" --squash --delete-branch --subject "$TITLE" --body "Automatically merged after approval by @$REVIEW_AUTHOR."
+
+      - name: Finalize merged PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          MERGED="$(gh api "repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER" --jq '.merged')"
+          if [ "$MERGED" != "true" ]; then
+            echo "PR #$PR_NUMBER is not merged; skipping finalization."
+            exit 0
+          fi
+          git fetch origin main
+          git checkout -B main origin/main
+          python workflow-scripts/translation_pr_maintenance.py --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --finalize-pr "$PR_NUMBER"
 
   pr-comment-maintenance:
     if: ${{ github.event_name == 'issue_comment' && github.event.issue.pull_request }}
