@@ -11,18 +11,33 @@ from pathlib import Path
 from typing import Any
 
 LABELS = {
-    "translation-contribution": {
+    "翻译投稿": {
         "color": "2da44e",
-        "description": "New Steam achievement translation submission",
+        "description": "新的 Steam 成就翻译投稿",
     },
-    "update": {
+    "更新文件": {
         "color": "0969da",
-        "description": "Update an existing achievement translation file",
+        "description": "更新已收录的成就翻译文件",
     },
-    "outdated": {
+    "报告过期": {
         "color": "bf8700",
-        "description": "Report that an accepted translation file may be outdated",
+        "description": "报告已收录文件可能过期",
     },
+    "等待更新": {
+        "color": "d29922",
+        "description": "维护者要求修改，等待投稿者更新",
+    },
+}
+
+KIND_LABELS = {
+    "translation-contribution": "翻译投稿",
+    "update": "更新文件",
+    "outdated": "报告过期",
+}
+LEGACY_LABELS = {
+    "translation-contribution": "translation-contribution",
+    "update": "update",
+    "outdated": "outdated",
 }
 
 
@@ -79,6 +94,31 @@ def issue_labels(issue: dict[str, Any]) -> set[str]:
     return {str(label.get("name") or "") for label in issue.get("labels", []) if isinstance(label, dict)}
 
 
+def issue_text(issue: dict[str, Any]) -> str:
+    return f"{issue.get('title') or ''}\n{issue.get('body') or ''}"
+
+
+def infer_issue_kind(issue: dict[str, Any]) -> str | None:
+    labels = issue_labels(issue)
+    for kind, label in KIND_LABELS.items():
+        if label in labels or LEGACY_LABELS[kind] in labels:
+            return kind
+    text = issue_text(issue)
+    if "### 过期说明" in text or "### Why do you think the file is outdated?" in text:
+        return "outdated"
+    if "### 更新内容摘要" in text or "### Update summary" in text:
+        return "update"
+    if "### 成就 schema ZIP" in text or "### Achievement schema ZIP" in text:
+        return "translation-contribution"
+    return None
+
+
+def add_issue_labels(repo: str, token: str, issue_number: int, labels: list[str]) -> None:
+    for label in labels:
+        ensure_label(repo, token, label)
+    github_request("POST", repo, token, f"/issues/{issue_number}/labels", {"labels": labels})
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Validate translation library automation labels.")
     parser.add_argument("--event", type=Path, required=True, help="GitHub event JSON path")
@@ -91,13 +131,18 @@ def main() -> None:
     event = json.loads(args.event.read_text(encoding="utf-8"))
     issue = event.get("issue") or {}
     labels = issue_labels(issue)
-    active = sorted(labels & set(LABELS))
     for label in LABELS:
         ensure_label(args.repo, args.token, label)
-    if not active:
-        raise SystemExit("This workflow only handles issues labeled translation-contribution, update, or outdated.")
+    kind = infer_issue_kind(issue)
+    if not kind:
+        raise SystemExit("This workflow only handles translation submission, file update, or outdated report issues.")
+    expected = KIND_LABELS[kind]
+    if expected not in labels:
+        add_issue_labels(args.repo, args.token, int(issue["number"]), [expected])
+        labels.add(expected)
+    active = sorted(label for label in KIND_LABELS.values() if label in labels)
     if len(active) > 1:
-        raise SystemExit("Use exactly one automation label per issue: " + ", ".join(active))
+        raise SystemExit("每个 issue 只能使用一个自动化标签: " + ", ".join(active))
 
 
 if __name__ == "__main__":

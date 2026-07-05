@@ -21,6 +21,13 @@ HUMAN_INDEX_PATH = REPO_ROOT / "INDEX.md"
 HUMAN_INDEX_EN_PATH = REPO_ROOT / "INDEX_EN.md"
 FILES_ROOT = REPO_ROOT / "files"
 
+NEW_LABEL = "翻译投稿"
+UPDATE_LABEL = "更新文件"
+OUTDATED_LABEL = "报告过期"
+LEGACY_NEW_LABEL = "translation-contribution"
+LEGACY_UPDATE_LABEL = "update"
+LEGACY_OUTDATED_LABEL = "outdated"
+
 MAX_DOWNLOAD_BYTES = 32 * 1024 * 1024
 MAX_SCHEMA_BYTES = 32 * 1024 * 1024
 LANGUAGE_RE = re.compile(r"^[a-z][a-z0-9_]{1,31}$")
@@ -473,9 +480,14 @@ def issue_labels(issue: dict[str, Any]) -> set[str]:
 
 def issue_kind(issue: dict[str, Any]) -> str:
     labels = issue_labels(issue)
-    if "outdated" in labels:
+    if OUTDATED_LABEL in labels or LEGACY_OUTDATED_LABEL in labels:
         return "outdated"
-    if "update" in labels:
+    if UPDATE_LABEL in labels or LEGACY_UPDATE_LABEL in labels:
+        return "update"
+    text = f"{issue.get('title') or ''}\n{issue.get('body') or ''}"
+    if "### 过期说明" in text or "### Why do you think the file is outdated?" in text:
+        return "outdated"
+    if "### 更新内容摘要" in text or "### Update summary" in text:
         return "update"
     return "translation-contribution"
 
@@ -790,7 +802,7 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
         "kind": kind,
         "branch": f"{branch_prefix}-{issue_number}",
         "pr_title": f"{title_prefix} achievement translations for {game_name} ({game_id})",
-        "pr_labels": "translation-contribution,update" if kind == "update" else "translation-contribution",
+        "pr_labels": f"{NEW_LABEL},{UPDATE_LABEL}" if kind == "update" else NEW_LABEL,
         "commit_message": f"data: {'update' if kind == 'update' else 'add'} achievement translations from issue #{issue_number}",
         "game_id": game_id,
         "game_name": game_name,
@@ -851,7 +863,7 @@ def validate_outdated_report(event: dict[str, Any]) -> dict[str, Any]:
         "kind": "outdated",
         "branch": f"translation-library/outdated-{issue_number}",
         "pr_title": f"Mark achievement translations for {entry['game_name']} ({game_id}) as outdated",
-        "pr_labels": "outdated",
+        "pr_labels": OUTDATED_LABEL,
         "commit_message": f"data: mark achievement translation outdated from issue #{issue_number}",
         "game_id": game_id,
         "game_name": entry["game_name"],

@@ -1,7 +1,7 @@
 name: 更新已有 Steam 成就翻译
 description: 上传一个已收录游戏的新版 UserGameStatsSchema_<app_id>.zip
 title: "[翻译更新] <游戏名> (<Steam app ID>)"
-labels: [update]
+labels: [更新文件]
 body:
   - type: markdown
     attributes:

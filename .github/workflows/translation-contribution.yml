@@ -3,6 +3,10 @@ name: Translation library automation
 on:
   issues:
     types: [opened, edited, labeled, reopened]
+  issue_comment:
+    types: [created, edited]
+  pull_request_review:
+    types: [submitted]
   pull_request:
     types: [closed]
 
@@ -17,7 +21,7 @@ concurrency:
 
 jobs:
   issue-review:
-    if: ${{ github.event_name == 'issues' && !github.event.issue.pull_request && (contains(github.event.issue.labels.*.name, 'translation-contribution') || contains(github.event.issue.labels.*.name, 'update') || contains(github.event.issue.labels.*.name, 'outdated')) }}
+    if: ${{ github.event_name == 'issues' && !github.event.issue.pull_request }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout translation library
@@ -70,6 +74,7 @@ jobs:
           gh issue comment "$ISSUE_NUMBER" --body-file issue-comment.md
           if [ -f submission_result.json ] && [ "$(python -c 'import json; print(str(json.load(open("submission_result.json", encoding="utf-8")).get("close_issue", False)).lower())')" = "true" ]; then
             gh issue close "$ISSUE_NUMBER" --reason "not planned"
+            gh api -X PUT "repos/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER/lock" -f lock_reason=resolved
           fi
 
       - name: Export PR metadata
@@ -86,6 +91,7 @@ jobs:
           PY
 
       - name: Create pull request
+        id: cpr
         if: ${{ steps.validate.outcome == 'success' }}
         uses: peter-evans/create-pull-request@v6
         with:
@@ -101,6 +107,60 @@ jobs:
             index.json
             INDEX.md
             INDEX_EN.md
+
+      - name: Close and lock source issue
+        if: ${{ steps.validate.outcome == 'success' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          PR_URL: ${{ steps.cpr.outputs.pull-request-url }}
+        run: |
+          {
+            printf "自动检查已通过，PR 已创建并等待维护者审核：\n\n"
+            printf "%s\n\n" "$PR_URL"
+            printf "此 issue 已关闭并锁定。后续如需修改 PR 内容，请在 PR 下评论 \`/update\` 命令。\n"
+          } > issue-comment.md
+          gh issue comment "$ISSUE_NUMBER" --body-file issue-comment.md
+          gh issue close "$ISSUE_NUMBER" --reason "completed"
+          gh api -X PUT "repos/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER/lock" -f lock_reason=resolved
+
+  pr-review-requested-changes:
+    if: ${{ github.event_name == 'pull_request_review' && github.event.review.state == 'changes_requested' && github.event.pull_request.base.ref == 'main' && startsWith(github.event.pull_request.head.ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Mark PR as waiting for update
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python workflow-scripts/translation_pr_maintenance.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --mark-wait-for-update
+
+  pr-comment-maintenance:
+    if: ${{ github.event_name == 'issue_comment' && github.event.issue.pull_request }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Handle PR comment
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python workflow-scripts/translation_pr_maintenance.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --handle-comment
 
   record-source-pr:
     if: ${{ github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main' && startsWith(github.event.pull_request.head.ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
@@ -118,4 +178,7 @@ jobs:
           python-version: "3.x"
 
       - name: Record source PR in index
-        run: python workflow-scripts/translation_pr_maintenance.py --event "$GITHUB_EVENT_PATH" --mark-source-pr
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python workflow-scripts/translation_pr_maintenance.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --mark-source-pr --lock-merged-pr

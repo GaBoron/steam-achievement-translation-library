@@ -24,6 +24,8 @@
 
 如果库里已经有该 app ID，新投稿会被拒绝；请改用“更新已有 Steam 成就翻译”模板。
 
+初审通过后，来源 issue 会被关闭并锁定。此后不要编辑 issue 正文；如果 PR 需要改内容，请在 PR 下评论 `/update` 命令。
+
 ## 更新已有文件
 
 适用于库里已经合并过该 Steam app ID，但游戏更新或翻译修正后需要替换文件。
@@ -34,6 +36,26 @@
 4. 上传新版 `UserGameStatsSchema_<app_id>.zip`。
 5. 自动化会先和库里的当前文件做字节级比较；如果完全相同，会拒绝创建 PR。
 6. 如果文件不同，PR 描述会列出新增、删除和修改的成就 ID，方便维护者审核。
+
+## PR 中的 `/update` 命令
+
+PR 创建后，PR 标题和描述由机器人维护。需要修改时，在 PR 评论区使用下面的命令；机器人会更新文件、索引和 PR 描述。
+
+| 命令 | 作用 |
+| --- | --- |
+| `/update doc` + 附件 | 替换当前 PR 中的 `UserGameStatsSchema_<app_id>.bin` 文件；同一条评论必须附加 `UserGameStatsSchema_<app_id>.zip` |
+| `/update` + 附件 | 等同于 `/update doc`，用于只上传替换文件的情况 |
+| `/update id <Steam app ID>` | 修改 Steam app ID，并在普通投稿/更新 PR 中同步重命名文件路径 |
+| `/update name <游戏名>` | 修改游戏名；如果 Steam 显示名不是中文，可以写“Steam 原名 中文译名” |
+| `/update store <Steam 商店地址>` | 修改 Steam 商店地址，地址中的 app ID 必须和当前 app ID 一致 |
+| `/update languages <语言代码>` | 修改语言代码列表，多个代码可用逗号或空格分隔 |
+| `/update summary <摘要>` | 修改更新 PR 中的“更新内容摘要” |
+| `/update reason <说明>` | 修改报告过期 PR 的过期说明 |
+| `/update reference <来源>` | 修改报告过期 PR 的参考来源 |
+
+当维护者请求修改时，PR 会自动加上 `等待更新` label。之后有人在 PR 下评论，机器人会自动移除这个 label；如果评论是 `/update` 命令，机器人还会尝试同步更新 PR。
+
+来源 issue 关闭后会锁定；PR 合并后也会锁定。除非是重新提交一个“更新已有 Steam 成就翻译”issue，否则不要再修改已关闭的讨论。
 
 ## 报告文件过期
 
