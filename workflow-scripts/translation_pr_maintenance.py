@@ -363,6 +363,15 @@ def commit_and_push(branch: str, message: str, add_paths: list[str] | None = Non
     return True
 
 
+def push_main_with_retry() -> None:
+    push = run(["git", "push", "origin", "HEAD:main"], check=False)
+    if push.returncode == 0:
+        return
+    run(["git", "fetch", "origin", "main"])
+    run(["git", "rebase", "origin/main"])
+    run(["git", "push", "origin", "HEAD:main"])
+
+
 def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
     issue = event.get("issue") or {}
     comment = event.get("comment") or {}
@@ -574,7 +583,7 @@ def mark_source_pr(event: dict[str, Any], repo: str, token: str) -> bool:
     if run(["git", "diff", "--cached", "--quiet"], check=False).returncode == 0:
         return False
     run(["git", "commit", "-m", f"data: record source PR for translation entry #{int(pr.get('number') or 0)}"])
-    run(["git", "push", "origin", "main"])
+    push_main_with_retry()
     return True
 
 

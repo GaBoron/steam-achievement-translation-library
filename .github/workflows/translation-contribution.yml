@@ -158,6 +158,9 @@ jobs:
   pr-review-approved:
     if: ${{ github.event_name == 'pull_request_review' && github.event.review.state == 'approved' && github.event.pull_request.base.ref == 'main' && startsWith(github.event.pull_request.head.ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
     runs-on: ubuntu-latest
+    concurrency:
+      group: translation-library-main-finalize
+      cancel-in-progress: false
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -226,6 +229,9 @@ jobs:
   record-source-pr:
     if: ${{ github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main' && startsWith(github.event.pull_request.head.ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
     runs-on: ubuntu-latest
+    concurrency:
+      group: translation-library-main-finalize
+      cancel-in-progress: false
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
