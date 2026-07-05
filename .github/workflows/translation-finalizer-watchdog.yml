@@ -1,0 +1,69 @@
+name: Translation finalizer watchdog
+
+on:
+  workflow_run:
+    workflows: ["Translation library automation"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "Merged PR number to finalize"
+        required: false
+        type: string
+      head_branch:
+        description: "Translation PR head branch to finalize, for example translation-library/issue-14"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: translation-library-main-finalize
+  cancel-in-progress: false
+
+jobs:
+  finalize-merged-pr:
+    if: >-
+      ${{
+        github.event_name == 'workflow_dispatch' ||
+        (
+          github.event.workflow_run.event == 'pull_request_review' &&
+          github.event.workflow_run.conclusion == 'success' &&
+          startsWith(github.event.workflow_run.head_branch, 'translation-library/')
+        )
+      }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Finalize merged translation PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          WORKFLOW_HEAD_BRANCH: ${{ github.event.workflow_run.head_branch }}
+          DISPATCH_PR_NUMBER: ${{ github.event.inputs.pr_number }}
+          DISPATCH_HEAD_BRANCH: ${{ github.event.inputs.head_branch }}
+        run: |
+          if [ -n "$DISPATCH_PR_NUMBER" ]; then
+            python workflow-scripts/translation_pr_maintenance.py --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --finalize-pr "$DISPATCH_PR_NUMBER"
+            exit 0
+          fi
+
+          HEAD_BRANCH="${DISPATCH_HEAD_BRANCH:-$WORKFLOW_HEAD_BRANCH}"
+          if [ -z "$HEAD_BRANCH" ]; then
+            echo "No translation branch was provided; nothing to finalize."
+            exit 0
+          fi
+          python workflow-scripts/translation_pr_maintenance.py --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --finalize-head-branch "$HEAD_BRANCH"
