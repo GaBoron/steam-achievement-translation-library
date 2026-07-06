@@ -22,7 +22,7 @@ Use the "Update existing Steam achievement translation" template when the app ID
 
 ## PR `/update` Commands
 
-After automation creates a PR, the source issue is closed and locked. Do not edit the issue body. To change an open PR, comment one of these commands on the PR. After a successful update, the bot comments back in a fixed format with each changed item, its previous value, and its updated value.
+After automation creates a PR, the source issue is closed and locked. Do not edit the issue body. To change an open PR, comment one of these commands on the PR:
 
 | Command | Effect |
 | --- | --- |
