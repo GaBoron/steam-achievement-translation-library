@@ -4,7 +4,7 @@
 
 > Before downloading, check both Status and Last updated. Steam updates may change achievement schemas; files marked as possibly outdated should be used with extra care.
 
-Accepted games: **30**.
+Accepted games: **31**.
 
 ## Using This Index
 
@@ -48,4 +48,5 @@ See [README_EN.md](README_EN.md) for the full find, download, and replacement fl
 | `277590` | 刺客信条：自由呐喊 | Current | 2026-07-05T00:26:47Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 12 | [`UserGameStatsSchema_277590.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/277590/UserGameStatsSchema_277590.bin) | [#43](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/43) |  | [Steam](https://store.steampowered.com/app/277590/Assassins_Creed_Freedom_Cry/) |
 | `286690` | 地铁2033 重制版 | Current | 2026-07-05T07:37:25Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 49 | [`UserGameStatsSchema_286690.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/286690/UserGameStatsSchema_286690.bin) | [#35](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/35) |  | [Steam](https://store.steampowered.com/app/286690/2033/) |
 | `287390` | 地铁：最后的曙光 重制版 | Current | 2026-07-04T16:57:28Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 49 | [`UserGameStatsSchema_287390.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/287390/UserGameStatsSchema_287390.bin) | [#28](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/28) |  | [Steam](https://store.steampowered.com/app/287390/_/) |
+| `1796220` | 莱卡：鲜血铸就 | Current | 2026-07-06T00:01:19Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 42 | [`UserGameStatsSchema_1796220.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/1796220/UserGameStatsSchema_1796220.bin) | [#24](https://github.com/GaBoron/steam-achievement-translation-library/pull/24) |  | [Steam](https://store.steampowered.com/app/1796220/_/) |
 | `1237950` | 星球大战：前线2（2017） | Current | 2026-07-05T00:28:44Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 43 | [`UserGameStatsSchema_1237950.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/1237950/UserGameStatsSchema_1237950.bin) | [#53](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/53) |  | [Steam](https://store.steampowered.com/app/1237950/STAR_WARS__II/) |
