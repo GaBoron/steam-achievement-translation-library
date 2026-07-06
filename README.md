@@ -4,7 +4,9 @@
 
 本项目是 **Steam 成就翻译数据仓库**，用于集中收录社区提交的 `UserGameStatsSchema_<app_id>.bin` 翻译文件，并维护可搜索索引、投稿模板和自动化初审流程。
 
-> 翻译脚本、Codex skill、安装和本地应用流程在 [GaBoron/steam-achievement-localizer-skill](https://github.com/GaBoron/steam-achievement-localizer-skill) 维护；本仓库只保存翻译数据和数据投稿流程。
+> - 使用 AI skill 自动进行本地化操作请前往 [GaBoron/steam-achievement-localizer-skill](https://github.com/GaBoron/steam-achievement-localizer-skill) **(推荐)**  
+> - 使用本地软件手动进行本地化操作请前往 [PanVena/SteamAchievementLocalizer](https://github.com/PanVena/SteamAchievementLocalizer)  
+> 本仓库只保存翻译数据和数据投稿流程。
 
 ## 快速入口
 
@@ -15,6 +17,7 @@
 | 更新已收录文件 | 使用 issue 模板 [“更新已有 Steam 成就翻译”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_zh.yml) |
 | 报告文件过期 | 使用 issue 模板 [“报告成就文件过期”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_zh.yml) |
 | 查看填写规范 | 阅读 [贡献指南](CONTRIBUTING.md) |
+| 新功能请愿 | 使用 issue 模板 [“新功能请愿”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=feature_petition_zh.yml) |
 
 ## 使用流程
 

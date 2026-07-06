@@ -4,7 +4,9 @@
 
 This project is a **Steam achievement translation data repository**. It collects community-submitted `UserGameStatsSchema_<app_id>.bin` translation files and maintains searchable indexes, issue templates, and automated first-review workflows.
 
-> Translation scripts, the Codex skill, installation guidance, and local application workflows are maintained in [GaBoron/steam-achievement-localizer-skill](https://github.com/GaBoron/steam-achievement-localizer-skill). This repository hosts translation data and contribution automation.
+> - To perform localization automatically using an AI skill, please visit [GaBoron/steam-achievement-localizer-skill](https://github.com/GaBoron/steam-achievement-localizer-skill) **(Recommended)**
+> - To perform localization manually using local software, please visit [PanVena/SteamAchievementLocalizer](https://github.com/PanVena/SteamAchievementLocalizer)  
+> This repository stores only the translation data and the data submission process.
 
 ## Quick Links
 
@@ -15,6 +17,7 @@ This project is a **Steam achievement translation data repository**. It collects
 | Update an accepted file | Use the ["Update existing Steam achievement translation"](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_en.yml) issue template |
 | Report an outdated file | Use the ["Report outdated achievement file"](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_en.yml) issue template |
 | Read contribution rules | See [CONTRIBUTING_EN.md](CONTRIBUTING_EN.md) |
+| Feature Request | Use the [“Feature petition”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=feature_petition_en.yml) issue template |
 
 ## Usage Flow
 
