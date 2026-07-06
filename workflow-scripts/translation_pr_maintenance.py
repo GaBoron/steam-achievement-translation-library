@@ -191,39 +191,66 @@ def section_after_heading(body: str, heading: str) -> str:
     return tail.strip()
 
 
-def parse_update_command(body: str) -> tuple[str, str]:
-    first = body.strip().splitlines()[0].strip() if body.strip() else ""
-    if not first.lower().startswith("/update"):
-        return "", ""
+UPDATE_COMMAND_ALIASES = {
+    "doc": "doc",
+    "file": "doc",
+    "schema": "doc",
+    "id": "id",
+    "app": "id",
+    "appid": "id",
+    "app-id": "id",
+    "name": "name",
+    "title": "name",
+    "store": "store",
+    "url": "store",
+    "store_url": "store",
+    "languages": "languages",
+    "language": "languages",
+    "lang": "languages",
+    "summary": "summary",
+    "note": "summary",
+    "reason": "reason",
+    "reference": "reference",
+    "ref": "reference",
+}
+UPDATE_VALUE_COMMANDS = {"id", "name", "store", "languages", "summary", "reason", "reference"}
+UPDATE_COMMAND_HELP = (
+    "支持的类型：`doc`、`id`、`name`、`store`、`languages`、`summary`、`reason`、`reference`。"
+)
+
+
+def update_first_line(body: str) -> str:
+    return body.strip().splitlines()[0].strip() if body.strip() else ""
+
+
+def is_update_command(body: str) -> bool:
+    first = update_first_line(body).lower()
+    return first == "/update" or first.startswith("/update ")
+
+
+def parse_update_command_detail(body: str) -> tuple[str, str, str]:
+    first = update_first_line(body)
+    if not is_update_command(body):
+        return "", "", ""
     rest = first[len("/update"):].strip()
     if not rest:
-        return "doc", ""
+        return "", "", "`/update` 后面必须写明类型，例如 `/update doc` 或 `/update name <游戏名>`。"
     parts = rest.split(maxsplit=1)
-    command = parts[0].lower()
+    raw_command = parts[0].lower()
     value = parts[1].strip() if len(parts) > 1 else ""
-    aliases = {
-        "doc": "doc",
-        "file": "doc",
-        "schema": "doc",
-        "id": "id",
-        "app": "id",
-        "appid": "id",
-        "app-id": "id",
-        "name": "name",
-        "title": "name",
-        "store": "store",
-        "url": "store",
-        "store_url": "store",
-        "languages": "languages",
-        "language": "languages",
-        "lang": "languages",
-        "summary": "summary",
-        "note": "summary",
-        "reason": "reason",
-        "reference": "reference",
-        "ref": "reference",
-    }
-    return aliases.get(command, ""), value
+    command = UPDATE_COMMAND_ALIASES.get(raw_command, "")
+    if not command:
+        return "", "", f"不支持的 `/update {parts[0]}` 类型。{UPDATE_COMMAND_HELP}"
+    if command in UPDATE_VALUE_COMMANDS and not value:
+        return "", "", f"`/update {raw_command}` 后面缺少参数。{UPDATE_COMMAND_HELP}"
+    return command, value, ""
+
+
+def parse_update_command(body: str) -> tuple[str, str]:
+    command, value, error = parse_update_command_detail(body)
+    if error:
+        return "", ""
+    return command, value
 
 
 def checkout_pr_branch(pr: dict[str, Any]) -> str:
@@ -378,6 +405,16 @@ def update_success_comment(command_text: str, result_text: str, changes: list[di
     return "\n".join(lines)
 
 
+def update_error_comment(message: str) -> str:
+    return "\n".join([
+        "`/update` 未通过检查，PR 未更新。",
+        "",
+        f"- 错误：{escape_table(message)}",
+        f"- 用法：`/update <类型> <参数>`。`/update doc` 的参数是同一条评论中的 `UserGameStatsSchema_<app_id>.zip` 附件。",
+        f"- {UPDATE_COMMAND_HELP}",
+    ])
+
+
 def commit_and_push(branch: str, message: str, add_paths: list[str] | None = None) -> bool:
     run(["git", "config", "user.name", "github-actions[bot]"])
     run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"])
@@ -406,14 +443,17 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
     issue = event.get("issue") or {}
     comment = event.get("comment") or {}
     pr_number = int(issue["number"])
+    comment_body = str(comment.get("body") or "")
+    command, value, command_error = parse_update_command_detail(comment_body)
+    if command_error:
+        comment_issue(repo, token, pr_number, update_error_comment(command_error))
+        return
+    if not command:
+        return
+
     pr = github_request("GET", repo, token, f"/pulls/{pr_number}")
     if not pr or str(pr.get("state") or "") != "open":
         comment_issue(repo, token, pr_number, "`/update` 只能用于打开状态的翻译 PR。")
-        return
-
-    comment_body = str(comment.get("body") or "")
-    command, value = parse_update_command(comment_body)
-    if not command:
         return
 
     branch = checkout_pr_branch(pr)
@@ -576,7 +616,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
                 issue_url=str(meta.get("source_issue") or ""),
             )
     except Exception as exc:  # noqa: BLE001 - user-facing automation report.
-        comment_issue(repo, token, pr_number, f"`/update` 未通过检查，PR 未更新。\n\n- {escape_table(str(exc))}")
+        comment_issue(repo, token, pr_number, update_error_comment(str(exc)))
         return
 
     add_paths = ["index.json", "INDEX.md", "INDEX_EN.md"] if kind == "outdated" else ["files"]
@@ -601,7 +641,7 @@ def clear_wait_for_update_from_comment(repo: str, token: str, event: dict[str, A
 def handle_comment(repo: str, token: str, event: dict[str, Any]) -> None:
     clear_wait_for_update_from_comment(repo, token, event)
     body = str((event.get("comment") or {}).get("body") or "").strip()
-    if parse_update_command(body)[0]:
+    if is_update_command(body):
         apply_pr_update(repo, token, event)
 
 

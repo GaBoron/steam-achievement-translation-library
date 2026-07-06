@@ -24,10 +24,12 @@ Use the "Update existing Steam achievement translation" template when the app ID
 
 After automation creates a PR, the source issue is closed and locked. Do not edit the issue body. To change an open PR, comment one of these commands on the PR:
 
+> [!IMPORTANT]
+> `/update` must include a type. A bare `/update` comment does not update the file; automation replies with the exact error. Except for `doc`, every type also needs a value on the same line.
+
 | Command | Effect |
 | --- | --- |
 | `/update doc` plus attachment | Replace the PR's `UserGameStatsSchema_<app_id>.bin`; attach `UserGameStatsSchema_<app_id>.zip` to the same comment |
-| `/update` plus attachment | Same as `/update doc` |
 | `/update id <Steam app ID>` | Change the Steam app ID and rename file paths for normal submission or update PRs |
 | `/update name <game name>` | Change the game name |
 | `/update store <Steam store URL>` | Change the store URL; the URL app ID must match the current app ID |
@@ -35,6 +37,15 @@ After automation creates a PR, the source issue is closed and locked. Do not edi
 | `/update summary <summary>` | Change the update summary on an update PR |
 | `/update reason <reason>` | Change the reason on an outdated-report PR |
 | `/update reference <source>` | Change the reference on an outdated-report PR |
+
+For file replacement, put the command and attachment in the same PR comment:
+
+```markdown
+/update doc
+[UserGameStatsSchema_123456.zip](https://github.com/user-attachments/files/.../UserGameStatsSchema_123456.zip)
+```
+
+If the type is unsupported, a required value is missing, or `/update doc` has no ZIP attachment, automation comments with the specific error and leaves the PR unchanged.
 
 When a maintainer requests changes, automation adds the `等待更新` label. A later PR comment removes that label automatically; `/update` comments also refresh the PR branch and body. Merged PR conversations are locked.
 

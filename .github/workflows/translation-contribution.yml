@@ -123,7 +123,7 @@ jobs:
           {
             printf "自动检查已通过，PR 已创建并等待维护者审核：\n\n"
             printf "%s\n\n" "$PR_URL"
-            printf "此 issue 已关闭并锁定。后续如需修改 PR 内容，请在 PR 下评论 \`/update\` 命令。\n"
+            printf "此 issue 已关闭并锁定。后续如需修改 PR 内容，请在 PR 下评论 \`/update <类型> <参数>\` 命令。\n"
           } > issue-comment.md
           ISSUE_STATE="$(gh api "repos/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER" --jq '.state')"
           ISSUE_LOCKED="$(gh api "repos/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER" --jq '.locked')"
