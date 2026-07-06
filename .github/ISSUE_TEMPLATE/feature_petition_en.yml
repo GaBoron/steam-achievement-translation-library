@@ -1,0 +1,43 @@
+name: Feature petition
+description: Request a new feature for the library, contribution flow, or automation
+title: "[Feature petition] Short summary"
+labels: [功能请愿]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to request a new feature for the repository, index, contribution flow, automation checks, or maintainer tooling.
+
+        If you want to submit or update achievement translation files for a specific game, use the translation contribution or update template instead.
+  - type: textarea
+    id: request
+    attributes:
+      label: What feature do you want?
+      description: Describe the new capability or workflow change directly.
+      placeholder: "Example: add language filtering to the index, or make the submission bot check another field."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the current friction, repeated work, misuse risk, or maintenance cost.
+      placeholder: What is inconvenient today, and why is this feature needed?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Expected solution
+      description: If you have a concrete interaction, field, output format, or automation rule in mind, describe it here.
+      placeholder: You can include user flows, UI copy, validation rules, sample input, or sample output.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Workarounds you tried, or why existing templates and workflows do not cover this case.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Related issues, PRs, screenshots, sample games, community discussions, or other background.

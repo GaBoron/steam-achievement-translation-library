@@ -1,0 +1,43 @@
+name: 新功能请愿
+description: 提议翻译库、投稿流程或自动化支持的新功能
+title: "[功能请愿] 简要说明"
+labels: [功能请愿]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        这个模板用于提出仓库、索引、投稿流程、自动化检查或维护工具的新功能建议。
+
+        如果你要提交或更新具体游戏的成就翻译文件，请使用翻译投稿或更新文件模板。
+  - type: textarea
+    id: request
+    attributes:
+      label: 想增加什么功能
+      description: 请直接说明你希望新增的能力或流程变化。
+      placeholder: 例如：希望索引支持按语言筛选，或希望投稿机器人检查某类字段。
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 解决什么问题
+      description: 描述现在遇到的不便、重复操作、误用风险或维护成本。
+      placeholder: 现在的流程中哪里不够方便，为什么需要这个功能？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 期望方案
+      description: 如果你有具体交互、字段、输出格式或自动化规则设想，请写在这里。
+      placeholder: 可以写用户流程、界面文案、校验规则、示例输入输出等。
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 已考虑的替代方案
+      description: 可填写你尝试过的绕行方式，或为什么现有模板/流程不能覆盖。
+  - type: textarea
+    id: context
+    attributes:
+      label: 补充信息
+      description: 可填写相关 issue、PR、截图、示例游戏、社区讨论或其他背景。

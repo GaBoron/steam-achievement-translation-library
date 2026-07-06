@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   issue-review:
-    if: ${{ github.event_name == 'issues' && !github.event.issue.pull_request && github.event.issue.state == 'open' }}
+    if: ${{ github.event_name == 'issues' && !github.event.issue.pull_request && github.event.issue.state == 'open' && !contains(github.event.issue.labels.*.name, '功能请愿') }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout translation library

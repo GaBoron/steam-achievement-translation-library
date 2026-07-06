@@ -28,6 +28,10 @@ LABELS = {
         "color": "d29922",
         "description": "维护者要求修改，等待投稿者更新",
     },
+    "功能请愿": {
+        "color": "a2eeef",
+        "description": "请求翻译库、投稿流程或自动化支持的新功能",
+    },
 }
 
 KIND_LABELS = {
