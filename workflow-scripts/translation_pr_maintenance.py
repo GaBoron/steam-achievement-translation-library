@@ -154,7 +154,10 @@ def body_field(body: str, label: str) -> str:
 
 
 def split_languages(value: str) -> list[str]:
-    return sorted({item.strip().lower() for item in re.split(r"[,;\s，；]+", value) if item.strip()})
+    text = value.strip().lower()
+    if any(separator in text for separator in [";", "；", "，"]):
+        raise ValueError("语言代码必须使用半角逗号 `,` 分隔。")
+    return sorted({item.strip() for item in text.split(",") if item.strip()})
 
 
 def parse_pr_metadata(pr: dict[str, Any]) -> dict[str, Any]:
@@ -267,17 +270,17 @@ def checkout_pr_branch(pr: dict[str, Any]) -> str:
 def validate_store_url(game_id: str, store_url: str) -> None:
     store_id = steam_store_id(store_url)
     if not store_id:
-        raise ValueError("Steam store URL must be a store.steampowered.com/app/<id>/ URL.")
+        raise ValueError("Steam 商店地址必须是 store.steampowered.com/app/<id>/ 格式。")
     if store_id != game_id:
-        raise ValueError(f"Steam store URL app ID {store_id} does not match Steam app ID {game_id}.")
+        raise ValueError(f"Steam 商店地址中的 app ID {store_id} 与 Steam app ID {game_id} 不一致。")
 
 
 def validate_languages_for_schema(schema_file: str, languages: list[str]) -> tuple[list[dict[str, str]], dict[str, int]]:
     invalid = [language for language in languages if not LANGUAGE_RE.fullmatch(language)]
     if invalid:
-        raise ValueError("Invalid Steam language code(s): " + ", ".join(invalid))
+        raise ValueError("无效的 Steam 语言代码：" + ", ".join(invalid))
     if not languages:
-        raise ValueError("At least one Steam language code is required.")
+        raise ValueError("至少填写一个 Steam 语言代码。")
     data, nodes = load_schema(ROOT / schema_file)
     rows = achievement_rows(nodes, languages)
     coverage, missing = language_coverage(rows, languages)
@@ -285,9 +288,9 @@ def validate_languages_for_schema(schema_file: str, languages: list[str]) -> tup
     for language, missing_ids in missing.items():
         if missing_ids:
             preview = ", ".join(missing_ids[:10])
-            missing_messages.append(f"{language}: {len(missing_ids)} missing achievement(s): {preview}")
+            missing_messages.append(f"{language}: 缺少 {len(missing_ids)} 个成就文本：{preview}")
     if missing_messages:
-        raise ValueError("Language coverage is incomplete. " + "; ".join(missing_messages))
+        raise ValueError("语言覆盖不完整。" + "；".join(missing_messages))
     if sha256(data) == "":
         raise ValueError("Schema hash could not be calculated.")
     return rows, coverage
@@ -312,7 +315,7 @@ def rename_schema_file(old_game_id: str, new_game_id: str, schema_file: str) -> 
         return schema_file
     old_path = ROOT / schema_file
     if not old_path.is_file():
-        raise ValueError(f"Current schema file is missing: {schema_file}")
+        raise ValueError(f"当前 schema 文件不存在：{schema_file}")
     new_dir = FILES_ROOT / new_game_id
     new_dir.mkdir(parents=True, exist_ok=True)
     new_path = new_dir / f"UserGameStatsSchema_{new_game_id}.bin"

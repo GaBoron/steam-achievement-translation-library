@@ -39,22 +39,14 @@ body:
       placeholder: List the additions, removals, changes, or fixes.
     validations:
       required: true
-  - type: checkboxes
+  - type: input
     id: languages
     attributes:
       label: Languages included in the uploaded file
-      options:
-        - label: schinese
-        - label: tchinese
-        - label: english
-        - label: japanese
-        - label: koreana
-  - type: input
-    id: extra_languages
-    attributes:
-      label: Additional Steam language codes
-      description: Separate multiple codes with commas. Enter none if not applicable.
-      placeholder: none
+      description: List every Steam language code that exists completely in the file. Use half-width commas only. Omitted languages are treated as absent.
+      placeholder: schinese, english, japanese
+    validations:
+      required: true
   - type: textarea
     id: schema_zip
     attributes:

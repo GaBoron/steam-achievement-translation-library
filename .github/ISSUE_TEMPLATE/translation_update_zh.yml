@@ -39,23 +39,14 @@ body:
       placeholder: 请简要列出新增、删除、修改或修正的内容。
     validations:
       required: true
-  - type: checkboxes
+  - type: input
     id: languages
     attributes:
       label: 上传文件包含的语言
-      description: 勾选文件中已经完整包含成就名称和描述的 Steam 语言字段。
-      options:
-        - label: schinese
-        - label: tchinese
-        - label: english
-        - label: japanese
-        - label: koreana
-  - type: input
-    id: extra_languages
-    attributes:
-      label: 其他 Steam 语言代码
-      description: 如有多个，请用逗号分隔；没有则填写 none。
-      placeholder: none
+      description: 写出文件中已经完整包含成就名称和描述的全部 Steam 语言代码；必须使用半角逗号分隔。没写的语言会视为不存在。
+      placeholder: schinese, english, japanese
+    validations:
+      required: true
   - type: textarea
     id: schema_zip
     attributes:

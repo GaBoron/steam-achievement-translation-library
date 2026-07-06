@@ -9,7 +9,7 @@ Thank you for contributing to the Steam Achievement Translation Library. Follow 
 | Steam app ID | Search [INDEX_EN.md](INDEX_EN.md) or `index.json` to choose either a new submission or an update |
 | File name | Use `UserGameStatsSchema_<app_id>.bin` |
 | ZIP | Upload `UserGameStatsSchema_<app_id>.zip` containing exactly one matching `.bin` file |
-| Languages | Select or enter only languages that have complete achievement names and descriptions |
+| Languages | List every language code that has complete achievement names and descriptions; separate multiple codes with half-width commas |
 | Game name | Use the Steam store name; if it is not Chinese, you may append a Chinese translation after a space |
 
 ## New Submissions
@@ -22,7 +22,7 @@ Use the "Update existing Steam achievement translation" template when the app ID
 
 ## PR `/update` Commands
 
-After automation creates a PR, the source issue is closed and locked. Do not edit the issue body. To change an open PR, comment one of these commands on the PR:
+If validation fails while the issue is still open, you may edit field values in the issue body or comment `/update <type> <value>`; do not rename the `###` field headings. After automation creates a PR, the source issue is closed and locked. To change an open PR, comment one of these commands on the PR:
 
 > [!IMPORTANT]
 > `/update` must include a type. A bare `/update` comment does not update the file; automation replies with the exact error. Except for `doc`, every type also needs a value on the same line.
@@ -33,7 +33,7 @@ After automation creates a PR, the source issue is closed and locked. Do not edi
 | `/update id <Steam app ID>` | Change the Steam app ID and rename file paths for normal submission or update PRs |
 | `/update name <game name>` | Change the game name |
 | `/update store <Steam store URL>` | Change the store URL; the URL app ID must match the current app ID |
-| `/update languages <codes>` | Change language codes, separated by commas or spaces |
+| `/update languages <codes>` | Replace the full language list; list every language that exists in the file and separate codes with half-width commas |
 | `/update summary <summary>` | Change the update summary on an update PR |
 | `/update reason <reason>` | Change the reason on an outdated-report PR |
 | `/update reference <source>` | Change the reference on an outdated-report PR |
@@ -46,6 +46,8 @@ For file replacement, put the command and attachment in the same PR comment:
 ```
 
 If the type is unsupported, a required value is missing, or `/update doc` has no ZIP attachment, automation comments with the specific error and leaves the PR unchanged.
+
+Language updates are not incremental. `/update languages schinese, english` means the file contains only `schinese` and `english`; omitted languages are treated as absent.
 
 When a maintainer requests changes, automation adds the `等待更新` label. A later PR comment removes that label automatically; `/update` comments also refresh the PR branch and body. Merged PR conversations are locked.
 

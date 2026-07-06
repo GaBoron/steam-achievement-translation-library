@@ -239,20 +239,26 @@ def field_value(fields: dict[str, str], names: list[str]) -> str:
     return ""
 
 
+def parse_comma_language_list(value: str) -> list[str]:
+    text = first_line(value).lower()
+    if not text or text in {"none", "n/a", "na", "no", "无"}:
+        return []
+    return [part.strip() for part in text.split(",") if part.strip()]
+
+
 def parse_checked_languages(value: str) -> list[str]:
     languages: list[str] = []
     for line in value.splitlines():
         match = re.match(r"- \[[xX]\]\s*([a-z][a-z0-9_]*)\b", line.strip())
         if match:
             languages.append(match.group(1).lower())
+    if not languages:
+        languages.extend(parse_comma_language_list(value))
     return languages
 
 
 def parse_extra_languages(value: str) -> list[str]:
-    text = first_line(value).lower()
-    if not text or text in {"none", "n/a", "na", "no", "无"}:
-        return []
-    return [part.strip() for part in re.split(r"[,;\s，；]+", text) if part.strip()]
+    return parse_comma_language_list(value)
 
 
 def parse_languages(checked: str, extra: str) -> list[str]:
@@ -283,7 +289,7 @@ def download_attachment(attachment: Attachment, token: str | None, destination: 
                     break
                 total += len(chunk)
                 if total > MAX_DOWNLOAD_BYTES:
-                    raise ValueError("uploaded file is larger than the 32 MiB review limit")
+                    raise ValueError("上传文件超过 32 MiB 检查上限")
                 handle.write(chunk)
 
 
@@ -295,9 +301,9 @@ def safe_archive_members(archive: zipfile.ZipFile) -> list[zipfile.ZipInfo]:
             continue
         parts = [part for part in normalized.split("/") if part]
         if not parts or any(part in {".", ".."} for part in parts):
-            raise ValueError("ZIP archive contains an unsafe file path")
+            raise ValueError("ZIP 内包含不安全的文件路径")
         if normalized.startswith("/") or re.match(r"^[A-Za-z]:", normalized):
-            raise ValueError("ZIP archive contains an absolute file path")
+            raise ValueError("ZIP 内包含绝对路径")
         members.append(member)
     return members
 
@@ -306,22 +312,22 @@ def resolve_schema_upload(downloaded: Path, attachment: Attachment, game_id: str
     expected_name = f"UserGameStatsSchema_{game_id}.bin"
     expected_zip = f"UserGameStatsSchema_{game_id}.zip"
     if not attachment.filename_from_url and attachment.filename != expected_zip:
-        raise ValueError(f"uploaded file must be {expected_zip}; got {attachment.filename}")
+        raise ValueError(f"上传文件名必须是 {expected_zip}，当前是 {attachment.filename}")
     if zipfile.is_zipfile(downloaded):
         with zipfile.ZipFile(downloaded) as archive:
             members = safe_archive_members(archive)
             if len(members) != 1:
-                raise ValueError("ZIP upload must contain exactly one schema file")
+                raise ValueError("ZIP 内必须且只能包含一个 schema 文件")
             member = members[0]
             member_name = Path(member.filename.replace("\\", "/")).name
             if member_name != expected_name:
-                raise ValueError(f"ZIP upload must contain {expected_name}; got {member_name}")
+                raise ValueError(f"ZIP 内必须包含 {expected_name}，当前是 {member_name}")
             if member.file_size > MAX_SCHEMA_BYTES:
-                raise ValueError("schema file inside ZIP is larger than the 32 MiB review limit")
+                raise ValueError("ZIP 内的 schema 文件超过 32 MiB 检查上限")
             output_path = output_dir / expected_name
             output_path.write_bytes(archive.read(member))
             return output_path
-    raise ValueError(f"uploaded file must be a ZIP containing {expected_name}")
+    raise ValueError(f"上传文件必须是包含 {expected_name} 的 ZIP")
 
 
 def load_index() -> dict[str, Any]:
@@ -642,25 +648,30 @@ def validate_common_fields(fields: dict[str, str], *, require_languages: bool) -
     game_name = first_line(field_value(fields, ["Game name", "游戏名"]))
     game_id = first_line(field_value(fields, ["Steam app ID"]))
     store_url = first_line(field_value(fields, ["Steam store URL", "Steam 商店地址"]))
+    language_field = field_value(fields, ["Languages included in the uploaded file", "上传文件包含的语言"])
+    extra_language_field = field_value(fields, ["Additional Steam language codes", "其他 Steam 语言代码"])
     languages = parse_languages(
-        field_value(fields, ["Languages included in the uploaded file", "上传文件包含的语言"]),
-        field_value(fields, ["Additional Steam language codes", "其他 Steam 语言代码"]),
+        language_field,
+        extra_language_field,
     )
     errors: list[str] = []
     if not game_name:
-        errors.append("Game name is required.")
+        errors.append("必须填写游戏名。")
     if not re.fullmatch(r"\d+", game_id):
-        errors.append("Steam app ID must be numeric.")
+        errors.append("Steam app ID 必须只包含数字。")
     store_id = steam_store_id(store_url)
     if not store_id:
-        errors.append("Steam store URL must be a store.steampowered.com/app/<id>/ URL.")
+        errors.append("Steam 商店地址必须是 store.steampowered.com/app/<id>/ 格式。")
     elif game_id and store_id != game_id:
-        errors.append(f"Steam store URL app ID {store_id} does not match submitted app ID {game_id}.")
+        errors.append(f"Steam 商店地址中的 app ID {store_id} 与填写的 app ID {game_id} 不一致。")
+    language_text = "\n".join([language_field, extra_language_field]).lower()
+    if any(separator in language_text for separator in [";", "；", "，"]):
+        errors.append("语言代码必须使用半角逗号 `,` 分隔；请写出文件中实际存在的全部语言。")
     invalid_languages = [language for language in languages if not LANGUAGE_RE.fullmatch(language)]
     if require_languages and not languages:
-        errors.append("Select or enter at least one Steam language code.")
+        errors.append("至少填写一个 Steam 语言代码。")
     if invalid_languages:
-        errors.append("Invalid Steam language code(s): " + ", ".join(invalid_languages))
+        errors.append("无效的 Steam 语言代码：" + ", ".join(invalid_languages))
     return game_name, game_id, store_url, languages, errors
 
 
@@ -678,24 +689,24 @@ def validate_schema_submission(
         data, nodes = load_schema(schema_path)
         rebuilt = serialize(nodes)
         if data != rebuilt:
-            raise ValueError("uploaded schema does not roundtrip byte-identically through the Binary KeyValues parser")
+            raise ValueError("上传的 schema 无法通过 Binary KeyValues 解析器保持字节级 roundtrip")
         rows = achievement_rows(nodes, languages)
         if not rows:
-            raise ValueError("uploaded schema does not contain any Steam achievement display name/description records")
+            raise ValueError("上传的 schema 中没有找到 Steam 成就名称/描述记录")
         achievement_ids = [row.get("api_name", "") for row in rows]
         if any(not achievement_id for achievement_id in achievement_ids):
-            raise ValueError("every achievement must have a non-empty API name")
+            raise ValueError("每个成就都必须有非空的 API name")
         if len(set(achievement_ids)) != len(achievement_ids):
-            raise ValueError("achievement API names must be unique")
+            raise ValueError("成就 API name 必须唯一")
         coverage, missing = language_coverage(rows, languages)
         missing_messages: list[str] = []
         for language, missing_ids in missing.items():
             if missing_ids:
                 preview = ", ".join(missing_ids[:10])
                 suffix = " ..." if len(missing_ids) > 10 else ""
-                missing_messages.append(f"{language}: {len(missing_ids)} missing achievement(s): {preview}{suffix}")
+                missing_messages.append(f"{language}: 缺少 {len(missing_ids)} 个成就文本：{preview}{suffix}")
         if missing_messages:
-            raise ValueError("uploaded schema has incomplete language coverage. " + "; ".join(missing_messages))
+            raise ValueError("上传的 schema 语言覆盖不完整。" + "；".join(missing_messages))
         return data, nodes, rows, coverage
 
 
@@ -809,13 +820,13 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
     existing = existing_entry(index, game_id) if game_id else None
 
     if kind == "translation-contribution" and existing:
-        errors.append(f"Steam app ID {game_id} already exists in index.json. Use the update template if you want to replace an existing file.")
+        errors.append(f"Steam app ID {game_id} 已经存在于 index.json；如需替换已收录文件，请使用“更新已有 Steam 成就翻译”模板。")
     if kind == "update" and not existing:
-        errors.append(f"Steam app ID {game_id} does not exist in index.json. Open pull requests do not count as accepted library entries.")
+        errors.append(f"Steam app ID {game_id} 不存在于 index.json；正在打开的 PR 不算已收录条目。")
     if kind == "update" and not update_summary:
-        errors.append("Update summary is required.")
+        errors.append("必须填写更新内容摘要。")
     if not attachment:
-        errors.append("Attach exactly one UserGameStatsSchema_<app_id>.zip file.")
+        errors.append("必须附加且只能附加一个 UserGameStatsSchema_<app_id>.zip 文件。")
     if errors:
         write_failure(errors, retry_allowed=True)
 
@@ -823,7 +834,7 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
     try:
         data, nodes, rows, coverage = validate_schema_submission(attachment, token, game_id, languages)
     except Exception as exc:  # noqa: BLE001 - this becomes a user-facing review message.
-        write_failure([f"Could not validate uploaded schema: {exc}."], retry_allowed=True)
+        write_failure([f"无法校验上传的 schema：{exc}。"], retry_allowed=True)
 
     previous_hash = ""
     update_diff: dict[str, Any] | None = None
@@ -831,11 +842,11 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
         assert existing is not None
         old_schema = REPO_ROOT / str(existing.get("schema_file") or "")
         if not old_schema.is_file():
-            write_failure([f"Existing schema file is missing from the repository: {existing.get('schema_file')}."], retry_allowed=False)
+            write_failure([f"仓库中找不到当前已收录的 schema 文件：{existing.get('schema_file')}。"], retry_allowed=False)
         old_data, old_nodes = load_schema(old_schema)
         previous_hash = sha256(old_data)
         if old_data == data:
-            write_failure(["Uploaded schema is byte-identical to the current library file; no update PR was created."], retry_allowed=True)
+            write_failure(["上传的 schema 与库里当前文件字节级完全相同，因此没有创建更新 PR。"], retry_allowed=True)
         diff_languages = sorted(set(languages + list(existing.get("languages", []))))
         old_rows = achievement_rows(old_nodes, diff_languages)
         new_rows = achievement_rows(nodes, diff_languages)
@@ -901,9 +912,9 @@ def validate_outdated_report(event: dict[str, Any]) -> dict[str, Any]:
     index = load_index()
     existing = existing_entry(index, game_id) if game_id else None
     if not existing:
-        errors.append(f"Steam app ID {game_id} does not exist in index.json, so it cannot be marked outdated.")
+        errors.append(f"Steam app ID {game_id} 不存在于 index.json，不能标记为过期。")
     if not reason or reason == "_No response_":
-        errors.append("Outdated reason is required.")
+        errors.append("必须填写过期说明。")
     if errors:
         write_failure(errors, retry_allowed=True)
 

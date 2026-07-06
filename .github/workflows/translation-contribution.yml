@@ -2,7 +2,7 @@ name: Translation library automation
 
 on:
   issues:
-    types: [opened, edited, labeled, reopened]
+    types: [opened, edited, reopened]
   issue_comment:
     types: [created, edited]
   pull_request_review:
@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   issue-review:
-    if: ${{ github.event_name == 'issues' && !github.event.issue.pull_request }}
+    if: ${{ github.event_name == 'issues' && !github.event.issue.pull_request && github.event.issue.state == 'open' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout translation library
@@ -54,19 +54,38 @@ jobs:
         run: |
           if [ -f submission_result.json ]; then
             python - <<'PY' > issue-comment.md
+          import hashlib
           import json
           from pathlib import Path
+          from datetime import UTC, datetime
 
           data = json.loads(Path("submission_result.json").read_text(encoding="utf-8"))
+          errors = [str(item) for item in data.get("errors", [])]
+          fingerprint = hashlib.sha256("\n".join(errors).encode("utf-8")).hexdigest()[:16]
+          checked_at = datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+          print(f"<!-- translation-library-issue-check:{fingerprint} -->")
           if data.get("retry_allowed"):
-              print("自动检查发现了可以修正的问题。请按下面的检查详情更新 issue 或重新上传文件。")
+              print("自动检查未通过，但这些问题可以修正。")
               print()
           else:
               print("自动检查无法继续，此 issue 将被关闭。")
               print()
-          print("检查详情：")
-          for item in data.get("errors", []):
+          print(f"- 检查时间：`{checked_at}`")
+          if data.get("retry_allowed"):
+              print("- 你可以直接编辑 open issue 的描述，或在评论区使用 `/update <类型> <参数>` 修正。")
+              print("- 编辑描述时请只改字段内容，不要改 `### 字段标题`，否则机器人可能无法读取。")
+          print()
+          print("## 问题说明")
+          print()
+          for item in errors:
               print(f"- {item}")
+          if data.get("retry_allowed"):
+              print()
+              print("## 常用修正命令")
+              print()
+              print("- `/update doc`：同一条评论附加新的 `UserGameStatsSchema_<app_id>.zip`")
+              print("- `/update languages schinese, english, japanese`：用半角逗号写出文件里实际存在的全部语言")
+              print("- `/update name <游戏名>`、`/update id <Steam app ID>`、`/update store <Steam 商店地址>`：修正基础信息")
           PY
           else
             printf "自动检查失败，但没有生成详细报告。\n" > issue-comment.md
@@ -75,6 +94,13 @@ jobs:
           if [ "$ISSUE_LOCKED" = "true" ]; then
             echo "Issue #$ISSUE_NUMBER is already locked; skipping failure comment."
             exit 0
+          fi
+          ISSUE_MARKER="$(python -c 'from pathlib import Path; import re; text=Path("issue-comment.md").read_text(encoding="utf-8"); print(re.search(r"translation-library-issue-check:[0-9a-f]+", text).group(0) if "translation-library-issue-check:" in text else "")')"
+          if [ -n "$ISSUE_MARKER" ] && gh api "repos/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER/comments" --jq '.[].body' > issue-comments.txt; then
+            if grep -Fq "$ISSUE_MARKER" issue-comments.txt; then
+              echo "Issue #$ISSUE_NUMBER already has a failure comment for $ISSUE_MARKER; skipping duplicate."
+              exit 0
+            fi
           fi
           gh issue comment "$ISSUE_NUMBER" --body-file issue-comment.md
           if [ -f submission_result.json ] && [ "$(python -c 'import json; print(str(json.load(open("submission_result.json", encoding="utf-8")).get("close_issue", False)).lower())')" = "true" ]; then
@@ -225,6 +251,24 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python workflow-scripts/translation_pr_maintenance.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --handle-comment
+
+  issue-comment-maintenance:
+    if: ${{ github.event_name == 'issue_comment' && !github.event.issue.pull_request }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Handle issue comment
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python workflow-scripts/github_issue_guard.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --handle-comment
 
   record-source-pr:
     if: ${{ github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main' && startsWith(github.event.pull_request.head.ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
