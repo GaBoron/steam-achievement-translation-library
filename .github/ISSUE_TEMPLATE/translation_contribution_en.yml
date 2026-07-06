@@ -32,12 +32,6 @@ body:
       placeholder: https://store.steampowered.com/app/123456/
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        Common language codes: `schinese` Simplified Chinese, `tchinese` Traditional Chinese, `english` English, `japanese` Japanese, `koreana` Korean, `french` French, `german` German, `italian` Italian, `spanish` Spanish.
-
-        Only list languages that are complete in the file. Separate multiple codes with half-width commas.
   - type: input
     id: languages
     attributes:
@@ -46,6 +40,12 @@ body:
       placeholder: schinese, english, japanese
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        Common language codes: `schinese` Simplified Chinese, `tchinese` Traditional Chinese, `english` English, `japanese` Japanese, `koreana` Korean, `french` French, `german` German, `italian` Italian, `spanish` Spanish.
+
+        Only list languages that are complete in the file. Separate multiple codes with half-width commas.
   - type: textarea
     id: schema_zip
     attributes:
