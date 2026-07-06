@@ -348,6 +348,36 @@ def update_pr_title_and_body(repo: str, token: str, pr_number: int, title: str, 
     github_request("PATCH", repo, token, f"/pulls/{pr_number}", {"title": title, "body": body})
 
 
+def update_comment_value(value: Any) -> str:
+    if isinstance(value, list):
+        text = ", ".join(str(item) for item in value)
+    elif value is None:
+        text = ""
+    else:
+        text = str(value)
+    text = escape_table(text.strip())
+    return text if text else "_空_"
+
+
+def update_success_comment(command_text: str, result_text: str, changes: list[dict[str, Any]]) -> str:
+    lines = [
+        "<!-- translation-library-update-success -->",
+        "`/update` 已处理完成。",
+        "",
+        f"- 命令：`{escape_table(command_text)}`",
+        f"- 结果：{escape_table(result_text)}",
+        "",
+        "| 项目 | 原内容 | 更新后 |",
+        "| --- | --- | --- |",
+    ]
+    for change in changes:
+        lines.append(
+            f"| {escape_table(str(change.get('field') or ''))} | "
+            f"{update_comment_value(change.get('before'))} | {update_comment_value(change.get('after'))} |"
+        )
+    return "\n".join(lines)
+
+
 def commit_and_push(branch: str, message: str, add_paths: list[str] | None = None) -> bool:
     run(["git", "config", "user.name", "github-actions[bot]"])
     run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"])
@@ -381,15 +411,22 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
         comment_issue(repo, token, pr_number, "`/update` 只能用于打开状态的翻译 PR。")
         return
 
-    command, value = parse_update_command(str(comment.get("body") or ""))
+    comment_body = str(comment.get("body") or "")
+    command, value = parse_update_command(comment_body)
     if not command:
         return
 
     branch = checkout_pr_branch(pr)
     meta = parse_pr_metadata(pr)
+    original_meta = dict(meta)
     old_game_id = str(meta.get("game_id") or "")
     kind = str(meta["kind"])
-    attachment = extract_attachment(str(comment.get("body") or ""))
+    attachment = extract_attachment(comment_body)
+    command_text = comment_body.strip().splitlines()[0].strip() if comment_body.strip() else "/update"
+    changes: list[dict[str, Any]] = []
+
+    def record_change(field: str, before: Any, after: Any) -> None:
+        changes.append({"field": field, "before": before, "after": after})
 
     try:
         if command == "doc":
@@ -400,15 +437,33 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             schema_path.parent.mkdir(parents=True, exist_ok=True)
             previous_rows = achievement_rows(load_schema(schema_path)[1], list(meta["languages"])) if schema_path.is_file() else []
             previous_hash = sha256(schema_path.read_bytes()) if schema_path.is_file() else ""
+            previous_schema_file = str(meta.get("schema_file") or "")
+            previous_count = str(meta.get("achievement_count") or "")
+            previous_updated_at = str(meta.get("updated_at") or "")
             schema_path.write_bytes(data)
             meta["schema_file"] = str(schema_path.relative_to(ROOT)).replace("\\", "/")
             meta["sha256"] = sha256(data)
             meta["achievement_count"] = str(len(rows))
             meta["updated_at"] = now_utc()
             update_diff = summarize_update_diff(previous_rows, rows, list(meta["languages"])) if previous_rows else None
+            record_change("schema file", previous_schema_file, meta["schema_file"])
+            record_change("SHA-256", previous_hash or str(original_meta.get("sha256") or ""), meta["sha256"])
+            record_change("achievement count", previous_count, meta["achievement_count"])
+            record_change("updated at", previous_updated_at, meta["updated_at"])
+            if update_diff is not None:
+                record_change(
+                    "achievement diff",
+                    "current PR file",
+                    f"+{len(update_diff['added'])} / -{len(update_diff['deleted'])} / ~{len(update_diff['changed'])}",
+                )
         elif command == "id":
             if not re.fullmatch(r"\d+", value):
                 raise ValueError("`/update id` 后面必须是数字 Steam app ID。")
+            previous_schema_file = str(meta.get("schema_file") or "")
+            previous_store_url = str(meta.get("store_url") or "")
+            previous_hash = str(meta.get("sha256") or "")
+            previous_count = str(meta.get("achievement_count") or "")
+            previous_updated_at = str(meta.get("updated_at") or "")
             if kind == "outdated":
                 replacement = existing_entry(load_index(), value)
                 if not replacement:
@@ -429,32 +484,49 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             meta["achievement_count"] = str(len(rows))
             meta["updated_at"] = now_utc()
             update_diff = None
+            record_change("Steam app ID", old_game_id, meta["game_id"])
+            if kind != "outdated":
+                record_change("Steam store URL", previous_store_url, meta["store_url"])
+                record_change("schema file", previous_schema_file, meta["schema_file"])
+                record_change("SHA-256", previous_hash, meta["sha256"])
+                record_change("achievement count", previous_count, meta["achievement_count"])
+                record_change("updated at", previous_updated_at, meta["updated_at"])
         elif command == "name":
             if not value:
                 raise ValueError("`/update name` 后面必须填写游戏名。")
+            previous_name = str(meta.get("game_name") or "")
             meta["game_name"] = value
             rows, coverage = validate_languages_for_schema(str(meta["schema_file"]), list(meta["languages"]))
             previous_hash = str(meta.get("sha256") or "")
             update_diff = None
+            if kind != "outdated":
+                record_change("game name", previous_name, meta["game_name"])
         elif command == "store":
+            previous_store_url = str(meta.get("store_url") or "")
             validate_store_url(str(meta["game_id"]), value)
             meta["store_url"] = value
             rows, coverage = validate_languages_for_schema(str(meta["schema_file"]), list(meta["languages"]))
             previous_hash = str(meta.get("sha256") or "")
             update_diff = None
+            if kind != "outdated":
+                record_change("Steam store URL", previous_store_url, meta["store_url"])
         elif command == "languages":
+            previous_languages = list(meta.get("languages") or [])
             languages = split_languages(value)
             rows, coverage = validate_languages_for_schema(str(meta["schema_file"]), languages)
             meta["languages"] = languages
             previous_hash = str(meta.get("sha256") or "")
             update_diff = None
+            record_change("supported languages", previous_languages, meta["languages"])
         elif command == "summary":
             if not value:
                 raise ValueError("`/update summary` 后面必须填写更新摘要。")
+            previous_summary = str(meta.get("update_summary") or "")
             meta["update_summary"] = value
             rows, coverage = validate_languages_for_schema(str(meta["schema_file"]), list(meta["languages"]))
             previous_hash = str(meta.get("sha256") or "")
             update_diff = None
+            record_change("update summary", previous_summary, meta["update_summary"])
         elif command in {"reason", "reference"}:
             if kind != "outdated":
                 raise ValueError(f"`/update {command}` 只适用于报告过期 PR。")
@@ -468,16 +540,20 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             entry = existing_entry(load_index(), old_game_id) or {}
             if not entry:
                 raise ValueError("找不到该 PR 对应的索引条目。")
+            outdated = entry.get("outdated") if isinstance(entry.get("outdated"), dict) else {}
             if command == "id":
                 entry["game_id"] = meta["game_id"]
             if command == "name":
+                record_change("game name", entry.get("game_name", ""), meta["game_name"])
                 entry["game_name"] = meta["game_name"]
             if command == "store":
+                record_change("Steam store URL", entry.get("store_url", ""), meta["store_url"])
                 entry["store_url"] = meta["store_url"]
-            outdated = entry.get("outdated") if isinstance(entry.get("outdated"), dict) else {}
             if command == "reason":
+                record_change("outdated reason", outdated.get("reason", ""), value)
                 outdated["reason"] = value
             if command == "reference":
+                record_change("outdated reference", outdated.get("reference", ""), value)
                 outdated["reference"] = value
             entry["outdated"] = outdated
             upsert_entry_for_pr(old_game_id, entry)
@@ -507,7 +583,9 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
     changed = commit_and_push(branch, f"data: apply PR update command #{pr_number}", add_paths)
     update_pr_title_and_body(repo, token, pr_number, pr_title, pr_body)
     suffix = "投稿分支和 PR 描述已更新。" if changed else "PR 描述已更新；文件内容没有产生新的提交。"
-    comment_issue(repo, token, pr_number, f"`/update` 已处理完成，{suffix}")
+    if not changes:
+        changes.append({"field": "requested update", "before": "未记录", "after": "已处理"})
+    comment_issue(repo, token, pr_number, update_success_comment(command_text, suffix, changes))
 
 
 def clear_wait_for_update_from_comment(repo: str, token: str, event: dict[str, Any]) -> None:
