@@ -6,6 +6,7 @@ import argparse
 import json
 import re
 import subprocess
+import sys
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -41,7 +42,21 @@ OUTDATED_LABELS = {"报告过期", "outdated"}
 
 
 def run(args: list[str], *, check: bool = True) -> subprocess.CompletedProcess[str]:
-    return subprocess.run(args, cwd=ROOT, check=check, text=True, capture_output=True)
+    result = subprocess.run(args, cwd=ROOT, check=False, text=True, capture_output=True)
+    if check and result.returncode != 0:
+        command = " ".join(args)
+        print(f"Command failed: {command}", file=sys.stderr)
+        if result.stdout:
+            print(result.stdout, file=sys.stderr)
+        if result.stderr:
+            print(result.stderr, file=sys.stderr)
+        result.check_returncode()
+    return result
+
+
+def configure_git_identity() -> None:
+    run(["git", "config", "user.name", "github-actions[bot]"])
+    run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"])
 
 
 def github_request(
@@ -260,6 +275,7 @@ def checkout_pr_branch(pr: dict[str, Any]) -> str:
     branch = str((pr.get("head") or {}).get("ref") or "")
     if not branch.startswith("translation-library/"):
         raise RuntimeError("Only translation-library PR branches can be updated by automation.")
+    configure_git_identity()
     run(["git", "fetch", "origin", "main"], check=False)
     run(["git", "fetch", "origin", branch], check=False)
     run(["git", "checkout", "-B", branch, f"origin/{branch}"])
@@ -419,8 +435,7 @@ def update_error_comment(message: str) -> str:
 
 
 def commit_and_push(branch: str, message: str, add_paths: list[str] | None = None) -> bool:
-    run(["git", "config", "user.name", "github-actions[bot]"])
-    run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"])
+    configure_git_identity()
     run(["git", "add", *(add_paths or ["files", "index.json", "INDEX.md", "INDEX_EN.md"])])
     if run(["git", "diff", "--cached", "--quiet"], check=False).returncode == 0:
         return False
