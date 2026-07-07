@@ -4,7 +4,7 @@
 
 > 下载前请同时查看“状态”和“最近更新”。Steam 更新可能改变成就 schema，标记为“可能过期”的文件建议等待更新 PR 合并后再使用。
 
-当前收录：**45** 个游戏。
+当前收录：**46** 个游戏。
 
 ## 使用这个索引
 
@@ -63,4 +63,5 @@
 | `287390` | 地铁：最后的曙光 重制版 | 可用 | 2026-07-04T16:57:28Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 49 | [`UserGameStatsSchema_287390.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/287390/UserGameStatsSchema_287390.bin) | [#28](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/28) |  | [Steam](https://store.steampowered.com/app/287390/_/) |
 | `219990` | 恐怖黎明 | 可用 | 2026-07-07T12:36:16Z | [@Lelectfly](https://github.com/Lelectfly) | schinese | 185 | [`UserGameStatsSchema_219990.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/219990/UserGameStatsSchema_219990.bin) | [#55](https://github.com/GaBoron/steam-achievement-translation-library/pull/55) |  | [Steam](https://store.steampowered.com/app/219990/Grim_Dawn/) |
 | `1796220` | 莱卡：鲜血铸就 | 可用 | 2026-07-06T00:01:19Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 42 | [`UserGameStatsSchema_1796220.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/1796220/UserGameStatsSchema_1796220.bin) | [#24](https://github.com/GaBoron/steam-achievement-translation-library/pull/24) |  | [Steam](https://store.steampowered.com/app/1796220/_/) |
+| `49520` | 无主之地2 | 可用 | 2026-07-07T12:37:07Z | [@Lelectfly](https://github.com/Lelectfly) | schinese | 75 | [`UserGameStatsSchema_49520.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/49520/UserGameStatsSchema_49520.bin) | [#57](https://github.com/GaBoron/steam-achievement-translation-library/pull/57) |  | [Steam](https://store.steampowered.com/app/49520/Borderlands_2/) |
 | `1237950` | 星球大战：前线2（2017） | 可用 | 2026-07-05T00:28:44Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 43 | [`UserGameStatsSchema_1237950.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/1237950/UserGameStatsSchema_1237950.bin) | [#53](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/53) |  | [Steam](https://store.steampowered.com/app/1237950/STAR_WARS__II/) |
