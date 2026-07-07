@@ -371,6 +371,10 @@ def existing_entry(index: dict[str, Any], game_id: str) -> dict[str, Any] | None
 def upsert_index_entry(entry: dict[str, Any]) -> None:
     index = load_index()
     game_id = str(entry.get("game_id") or "")
+    existing = existing_entry(index, game_id)
+    if existing and "schema_files" in existing and "schema_files" not in entry:
+        entry = dict(entry)
+        entry["schema_files"] = existing["schema_files"]
     index["entries"] = [item for item in index.get("entries", []) if str(item.get("game_id")) != game_id] + [entry]
     write_index(index)
     write_human_index(index)
@@ -385,6 +389,32 @@ def schema_download_url(schema_file: str) -> str:
     encoded_path = urllib.parse.quote(normalized, safe="/")
     repo = os.environ.get("GITHUB_REPOSITORY", "GaBoron/steam-achievement-translation-library")
     return f"https://raw.githubusercontent.com/{repo}/main/{encoded_path}"
+
+
+def schema_file_links(entry: dict[str, Any], language: str) -> str:
+    variants = entry.get("schema_files")
+    links: list[str] = []
+    if isinstance(variants, list):
+        for variant in variants:
+            if not isinstance(variant, dict):
+                continue
+            schema_file = str(variant.get("schema_file") or variant.get("path") or "").strip()
+            if not schema_file:
+                continue
+            label = str(
+                variant.get(f"label_{language}")
+                or variant.get("label")
+                or PurePosixPath(schema_file).name
+            )
+            links.append(f"[`{escape_table(label)}`]({schema_download_url(schema_file)})")
+    if links:
+        return "<br>".join(links)
+
+    schema_file = str(entry.get("schema_file", "")).strip()
+    if not schema_file:
+        return ""
+    schema_name = PurePosixPath(schema_file).name
+    return f"[`{escape_table(schema_name)}`]({schema_download_url(schema_file)})"
 
 
 def github_link(url: str, label: str) -> str:
@@ -481,8 +511,8 @@ def write_human_index(index: dict[str, Any]) -> None:
         ])
         for entry in entries:
             game_id = str(entry.get("game_id", ""))
-            schema_file = str(entry.get("schema_file", ""))
-            schema_name = PurePosixPath(schema_file).name if schema_file else ""
+            schema_links_zh = schema_file_links(entry, "zh")
+            schema_links_en = schema_file_links(entry, "en")
             outdated = entry.get("outdated") if isinstance(entry.get("outdated"), dict) else {}
             source_pr = str(entry.get("source_pr") or "")
             outdated_link = str(outdated.get("source_pr") or outdated.get("source_issue") or "")
@@ -490,7 +520,7 @@ def write_human_index(index: dict[str, Any]) -> None:
                 f"| `{game_id}` | {escape_table(str(entry.get('game_name', '')))} | {status_text(entry, 'zh')} | "
                 f"{escape_table(str(entry.get('updated_at') or entry.get('submitted_at') or ''))} | {contributor_markdown(entry_contributors(entry))} | "
                 f"{escape_table(', '.join(entry.get('languages', [])))} | {entry.get('achievement_count', '')} | "
-                f"[`{escape_table(schema_name)}`]({schema_download_url(schema_file)}) | {github_link(source_pr, pull_request_label(source_pr)) if source_pr else ''} | "
+                f"{schema_links_zh} | {github_link(source_pr, pull_request_label(source_pr)) if source_pr else ''} | "
                 f"{github_link(outdated_link, github_item_label(outdated_link, '报告')) if outdated_link else ''} | [Steam]({entry.get('store_url', '')}) |"
             )
             zh_lines.append(row)
@@ -498,7 +528,7 @@ def write_human_index(index: dict[str, Any]) -> None:
                 f"| `{game_id}` | {escape_table(str(entry.get('game_name', '')))} | {status_text(entry, 'en')} | "
                 f"{escape_table(str(entry.get('updated_at') or entry.get('submitted_at') or ''))} | {contributor_markdown(entry_contributors(entry))} | "
                 f"{escape_table(', '.join(entry.get('languages', [])))} | {entry.get('achievement_count', '')} | "
-                f"[`{escape_table(schema_name)}`]({schema_download_url(schema_file)}) | {github_link(source_pr, pull_request_label(source_pr)) if source_pr else ''} | "
+                f"{schema_links_en} | {github_link(source_pr, pull_request_label(source_pr)) if source_pr else ''} | "
                 f"{github_link(outdated_link, github_item_label(outdated_link, 'Report')) if outdated_link else ''} | [Steam]({entry.get('store_url', '')}) |"
             )
     else:

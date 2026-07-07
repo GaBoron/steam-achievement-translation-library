@@ -744,6 +744,18 @@
         "schinese"
       ],
       "schema_file": "files/250900/UserGameStatsSchema_250900.bin",
+      "schema_files": [
+        {
+          "schema_file": "files/250900/UserGameStatsSchema_250900.bin",
+          "label_zh": "UserGameStatsSchema_250900.bin (原版）",
+          "label_en": "UserGameStatsSchema_250900.bin (original)"
+        },
+        {
+          "schema_file": "files/250900/with-unlock-conditions/UserGameStatsSchema_250900.bin",
+          "label_zh": "UserGameStatsSchema_250900.bin (含解锁条件)",
+          "label_en": "UserGameStatsSchema_250900.bin (with unlock conditions)"
+        }
+      ],
       "achievement_count": 641,
       "sha256": "205589740a8a06b0fc053d89026c01f2e6123b2bec427a1ccb5d13c0db047981",
       "source_issue": "https://github.com/GaBoron/steam-achievement-localizer-skill/issues/4",
