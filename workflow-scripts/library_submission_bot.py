@@ -401,12 +401,16 @@ def schema_file_links(entry: dict[str, Any], language: str) -> str:
             schema_file = str(variant.get("schema_file") or variant.get("path") or "").strip()
             if not schema_file:
                 continue
-            label = str(
-                variant.get(f"label_{language}")
-                or variant.get("label")
-                or PurePosixPath(schema_file).name
-            )
-            links.append(f"[`{escape_table(label)}`]({schema_download_url(schema_file)})")
+            schema_name = PurePosixPath(schema_file).name
+            note = str(
+                variant.get(f"note_{language}")
+                or variant.get("note")
+                or variant.get(f"description_{language}")
+                or variant.get("description")
+                or ""
+            ).strip()
+            suffix = f" {escape_table(note)}" if note else ""
+            links.append(f"[`{escape_table(schema_name)}`]({schema_download_url(schema_file)}){suffix}")
     if links:
         return "<br>".join(links)
 
