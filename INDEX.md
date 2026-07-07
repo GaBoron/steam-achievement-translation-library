@@ -4,7 +4,7 @@
 
 > 下载前请同时查看“状态”和“最近更新”。Steam 更新可能改变成就 schema，标记为“可能过期”的文件建议等待更新 PR 合并后再使用。
 
-当前收录：**52** 个游戏。
+当前收录：**53** 个游戏。
 
 ## 使用这个索引
 
@@ -21,6 +21,7 @@
 | --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- | --- |
 | `1222700` | A Way Out 逃出生天 | 可用 | 2026-07-07T12:39:35Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 14 | [`UserGameStatsSchema_1222700.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/1222700/UserGameStatsSchema_1222700.bin) | [#61](https://github.com/GaBoron/steam-achievement-translation-library/pull/61) |  | [Steam](https://store.steampowered.com/app/1222700/A_Way_Out/) |
 | `260210` | Assassin’s Creed® Liberation HD/刺客信条：解放 | 可用 | 2026-07-05T00:24:23Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 30 | [`UserGameStatsSchema_260210.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/260210/UserGameStatsSchema_260210.bin) | [#39](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/39) |  | [Steam](https://store.steampowered.com/app/260210/Assassins_Creed_Liberation_HD/) |
+| `244210` | Assetto Corsa 神力科莎 | 可用 | 2026-07-07T14:43:24Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 709 | [`UserGameStatsSchema_244210.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/244210/UserGameStatsSchema_244210.bin) | [#67](https://github.com/GaBoron/steam-achievement-translation-library/pull/67) |  | [Steam](https://store.steampowered.com/app/244210/Assetto_Corsa/) |
 | `35140` | Batman: Arkham Asylum Game of the Year Edition | 可用 | 2026-07-04T17:45:48Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 47 | [`UserGameStatsSchema_35140.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/35140/UserGameStatsSchema_35140.bin) | [#34](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/34) |  | [Steam](https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/) |
 | `200260` | Batman: Arkham City - Game of the Year Edition | 可用 | 2026-07-04T17:03:19Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 64 | [`UserGameStatsSchema_200260.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/200260/UserGameStatsSchema_200260.bin) | [#20](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/20) |  | [Steam](https://store.steampowered.com/app/200260/Batman_Arkham_City__Game_of_the_Year_Edition/) |
 | `208650` | Batman™: Arkham Knight | 可用 | 2026-07-04T16:48:24Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 113 | [`UserGameStatsSchema_208650.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/208650/UserGameStatsSchema_208650.bin) | [#16](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/16) |  | [Steam](https://store.steampowered.com/app/208650/Batman_Arkham_Knight/) |
