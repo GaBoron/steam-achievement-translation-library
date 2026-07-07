@@ -4,7 +4,7 @@
 
 > Before downloading, check both Status and Last updated. Steam updates may change achievement schemas; files marked as possibly outdated should be used with extra care.
 
-Accepted games: **47**.
+Accepted games: **48**.
 
 ## Using This Index
 
@@ -19,6 +19,7 @@ See [README_EN.md](README_EN.md) for the full find, download, and replacement fl
 
 | Steam app ID | Game | Status | Last updated | Contributors | Languages | Achievements | File | Source PR | Outdated report | Store |
 | --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- | --- |
+| `1222700` | A Way Out 逃出生天 | Current | 2026-07-07T12:39:35Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 14 | [`UserGameStatsSchema_1222700.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/1222700/UserGameStatsSchema_1222700.bin) | [#61](https://github.com/GaBoron/steam-achievement-translation-library/pull/61) |  | [Steam](https://store.steampowered.com/app/1222700/A_Way_Out/) |
 | `260210` | Assassin’s Creed® Liberation HD/刺客信条：解放 | Current | 2026-07-05T00:24:23Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 30 | [`UserGameStatsSchema_260210.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/260210/UserGameStatsSchema_260210.bin) | [#39](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/39) |  | [Steam](https://store.steampowered.com/app/260210/Assassins_Creed_Liberation_HD/) |
 | `35140` | Batman: Arkham Asylum Game of the Year Edition | Current | 2026-07-04T17:45:48Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 47 | [`UserGameStatsSchema_35140.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/35140/UserGameStatsSchema_35140.bin) | [#34](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/34) |  | [Steam](https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/) |
 | `200260` | Batman: Arkham City - Game of the Year Edition | Current | 2026-07-04T17:03:19Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 64 | [`UserGameStatsSchema_200260.bin`](https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/main/files/200260/UserGameStatsSchema_200260.bin) | [#20](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/20) |  | [Steam](https://store.steampowered.com/app/200260/Batman_Arkham_City__Game_of_the_Year_Edition/) |

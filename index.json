@@ -3,6 +3,26 @@
   "description": "Community-submitted Steam achievement schema translations.",
   "entries": [
     {
+      "game_name": "A Way Out 逃出生天",
+      "game_id": "1222700",
+      "store_url": "https://store.steampowered.com/app/1222700/A_Way_Out/",
+      "languages": [
+        "schinese"
+      ],
+      "schema_file": "files/1222700/UserGameStatsSchema_1222700.bin",
+      "achievement_count": 14,
+      "sha256": "63769dae9497b8d6ff53ed0fd92abe469101d33b8acf0692201edfb3bc67cc7b",
+      "source_issue": "https://github.com/GaBoron/steam-achievement-translation-library/issues/60",
+      "contributors": [
+        "Rui-CC1225"
+      ],
+      "contributor_id": "Rui-CC1225",
+      "submitted_at": "2026-07-07T05:24:41Z",
+      "updated_at": "2026-07-07T12:39:35Z",
+      "status": "current",
+      "source_pr": "https://github.com/GaBoron/steam-achievement-translation-library/pull/61"
+    },
+    {
       "game_name": "Assassin’s Creed® Liberation HD/刺客信条：解放",
       "game_id": "260210",
       "store_url": "https://store.steampowered.com/app/260210/Assassins_Creed_Liberation_HD/",
