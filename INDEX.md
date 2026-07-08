@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能过期”的文件建议等待更新后再使用。
 
-当前收录：**56** 个游戏。
+当前收录：**57** 个游戏。
 
 ## 使用这个索引
 
@@ -60,6 +60,7 @@
 | `1237970` | Titanfall® 2 泰坦陨落2 | 可用 | 2026-07-07T12:53:22Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese, tchinese | 50 | [UserGameStatsSchema_1237970.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1237970/UserGameStatsSchema_1237970.bin)（68 KB） | [#71](https://github.com/GaBoron/steam-achievement-translation-library/pull/71) |  | [Steam](https://store.steampowered.com/app/1237970/Titanfall_2/) |
 | `243470` | Watch_Dogs™ 看门狗 | 可用 | 2026-07-04T16:15:50Z | [@dexyrezz](https://github.com/dexyrezz) | schinese, tchinese | 49 | [UserGameStatsSchema_243470.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/243470/UserGameStatsSchema_243470.bin)（79 KB） | [#12](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/12) |  | [Steam](https://store.steampowered.com/app/243470/Watch_Dogs/) |
 | `552700` | WORLD OF FINAL FANTASY | 可用 | 2026-07-05T23:47:51Z | [@AioriaRegulus](https://github.com/AioriaRegulus) | english, french, german, italian, japanese, koreana, schinese, spanish | 49 | [UserGameStatsSchema_552700.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/552700/UserGameStatsSchema_552700.bin)（44 KB） | [#15](https://github.com/GaBoron/steam-achievement-translation-library/pull/15) |  | [Steam](https://store.steampowered.com/app/552700/) |
+| `252230` | YAIBA: NINJA GAIDEN Z | 可用 | 2026-07-08T10:44:01Z | [@AioriaRegulus](https://github.com/AioriaRegulus) | english, french, german, italian, japanese, schinese, spanish | 49 | [UserGameStatsSchema_252230.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/252230/UserGameStatsSchema_252230.bin)（38 KB） | [#81](https://github.com/GaBoron/steam-achievement-translation-library/pull/81) |  | [Steam](https://store.steampowered.com/app/252230/) |
 | `1328660` | 《极品飞车：热力追踪》重制版 | 可用 | 2026-07-05T07:38:59Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 66 | [UserGameStatsSchema_1328660.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1328660/UserGameStatsSchema_1328660.bin)（94 KB） | [#22](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/22) |  | [Steam](https://store.steampowered.com/app/1328660/_/) |
 | `242050` | 刺客信条4：黑旗 | 可用 | 2026-07-05T00:25:59Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 60 | [UserGameStatsSchema_242050.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/242050/UserGameStatsSchema_242050.bin)（99 KB） | [#41](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/41) |  | [Steam](https://store.steampowered.com/app/242050/4/) |
 | `359600` | 刺客信条：编年史 俄罗斯 | 可用 | 2026-07-05T07:39:45Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 17 | [UserGameStatsSchema_359600.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/359600/UserGameStatsSchema_359600.bin)（26 KB） | [#51](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/51) |  | [Steam](https://store.steampowered.com/app/359600/Assassins_Creed_Chronicles_Russia/) |
