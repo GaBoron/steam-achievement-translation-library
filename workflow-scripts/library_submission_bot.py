@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import math
 import os
 import re
 import tempfile
@@ -354,9 +355,45 @@ def sort_entries(entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return sorted(entries, key=entry_sort_key)
 
 
+def normalized_schema_file(schema_file: str) -> str:
+    return schema_file.replace("\\", "/").lstrip("/")
+
+
+def schema_file_size_bytes(schema_file: str) -> int:
+    normalized = normalized_schema_file(schema_file)
+    path = REPO_ROOT / normalized
+    if not path.is_file():
+        raise FileNotFoundError(f"schema file is missing: {normalized}")
+    return path.stat().st_size
+
+
+def schema_file_size_label(size_bytes: int) -> str:
+    if size_bytes < 1024:
+        return f"{size_bytes} B"
+    return f"{math.floor((size_bytes / 1024) + 0.5)} KB"
+
+
+def refresh_index_file_sizes(index: dict[str, Any]) -> None:
+    for entry in index.get("entries", []):
+        if not isinstance(entry, dict):
+            continue
+        variants = entry.get("schema_files")
+        if isinstance(variants, list):
+            for variant in variants:
+                if not isinstance(variant, dict):
+                    continue
+                schema_file = str(variant.get("schema_file") or variant.get("path") or "").strip()
+                if schema_file:
+                    variant["file_size_bytes"] = schema_file_size_bytes(schema_file)
+        schema_file = str(entry.get("schema_file") or "").strip()
+        if schema_file:
+            entry["file_size_bytes"] = schema_file_size_bytes(schema_file)
+
+
 def write_index(index: dict[str, Any]) -> None:
     index.setdefault("version", 1)
     index.setdefault("description", "Community-submitted Steam achievement schema translations.")
+    refresh_index_file_sizes(index)
     index["entries"] = sort_entries(index.get("entries", []))
     INDEX_PATH.write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -385,10 +422,57 @@ def escape_table(value: str) -> str:
 
 
 def schema_download_url(schema_file: str) -> str:
-    normalized = schema_file.replace("\\", "/").lstrip("/")
+    normalized = normalized_schema_file(schema_file)
     encoded_path = urllib.parse.quote(normalized, safe="/")
     repo = os.environ.get("GITHUB_REPOSITORY", "GaBoron/steam-achievement-translation-library")
-    return f"https://raw.githubusercontent.com/{repo}/main/{encoded_path}"
+    return f"https://cdn.jsdelivr.net/gh/{repo}@main/{encoded_path}"
+
+
+def variant_file_size_bytes(entry: dict[str, Any], variant: dict[str, Any], schema_file: str) -> int:
+    raw_size = variant.get("file_size_bytes")
+    if isinstance(raw_size, int):
+        return raw_size
+    if isinstance(raw_size, str) and raw_size.isdigit():
+        return int(raw_size)
+    if schema_file == str(entry.get("schema_file") or "").strip():
+        entry_size = entry.get("file_size_bytes")
+        if isinstance(entry_size, int):
+            return entry_size
+        if isinstance(entry_size, str) and entry_size.isdigit():
+            return int(entry_size)
+    return schema_file_size_bytes(schema_file)
+
+
+def entry_file_size_bytes(entry: dict[str, Any], schema_file: str) -> int:
+    raw_size = entry.get("file_size_bytes")
+    if isinstance(raw_size, int):
+        return raw_size
+    if isinstance(raw_size, str) and raw_size.isdigit():
+        return int(raw_size)
+    return schema_file_size_bytes(schema_file)
+
+
+def note_text(value: str, language: str) -> str:
+    note = value.strip()
+    if not note:
+        return ""
+    if language == "zh":
+        return note.removeprefix("（").removesuffix("）")
+    return note.removeprefix("(").removesuffix(")")
+
+
+def file_link_with_details(schema_file: str, size_bytes: int, language: str, note: str = "") -> str:
+    schema_name = PurePosixPath(schema_file).name
+    link = f"[{escape_table(schema_name)}]({schema_download_url(schema_file)})"
+    size = schema_file_size_label(size_bytes)
+    clean_note = note_text(note, language)
+    if clean_note:
+        if language == "zh":
+            return f"{link}（{escape_table(clean_note)}，{size}）"
+        return f"{link} ({escape_table(clean_note)}, {size})"
+    if language == "zh":
+        return f"{link}（{size}）"
+    return f"{link} ({size})"
 
 
 def schema_file_links(entry: dict[str, Any], language: str) -> str:
@@ -401,7 +485,6 @@ def schema_file_links(entry: dict[str, Any], language: str) -> str:
             schema_file = str(variant.get("schema_file") or variant.get("path") or "").strip()
             if not schema_file:
                 continue
-            schema_name = PurePosixPath(schema_file).name
             note = str(
                 variant.get(f"note_{language}")
                 or variant.get("note")
@@ -409,16 +492,16 @@ def schema_file_links(entry: dict[str, Any], language: str) -> str:
                 or variant.get("description")
                 or ""
             ).strip()
-            suffix = f" {escape_table(note)}" if note else ""
-            links.append(f"[`{escape_table(schema_name)}`]({schema_download_url(schema_file)}){suffix}")
+            size_bytes = variant_file_size_bytes(entry, variant, schema_file)
+            links.append(file_link_with_details(schema_file, size_bytes, language, note))
     if links:
         return "<br>".join(links)
 
     schema_file = str(entry.get("schema_file", "")).strip()
     if not schema_file:
         return ""
-    schema_name = PurePosixPath(schema_file).name
-    return f"[`{escape_table(schema_name)}`]({schema_download_url(schema_file)})"
+    size_bytes = entry_file_size_bytes(entry, schema_file)
+    return file_link_with_details(schema_file, size_bytes, language)
 
 
 def github_link(url: str, label: str) -> str:
@@ -467,7 +550,7 @@ def write_human_index(index: dict[str, Any]) -> None:
         "",
         "简体中文 | [English](INDEX_EN.md) | [项目说明](README.md)",
         "",
-        "> 下载前请同时查看“状态”和“最近更新”。Steam 更新可能改变成就 schema，标记为“可能过期”的文件建议等待更新 PR 合并后再使用。",
+        "> 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能过期”的文件建议等待更新后再使用。",
         "",
         f"当前收录：**{entry_count}** 个游戏。",
         "",
@@ -475,8 +558,8 @@ def write_human_index(index: dict[str, Any]) -> None:
         "",
         "1. 用浏览器或 GitHub 搜索 Steam app ID、游戏名、贡献者或语言代码。",
         "2. 在目标行确认“状态”和“最近更新”。状态为“可能过期”时，请谨慎使用或等待更新。",
-        "3. 点击“文件”列里的 `UserGameStatsSchema_<app_id>.bin` 下载 raw 文件。",
-        "4. 将文件放到 Steam 本地 `<Steam 安装目录>/appcache/stats/` 中的同名位置；替换前请先关闭 Steam 和游戏并备份原文件。",
+        "3. 点击“文件”列里的文件名下载，并在下载后核对索引标注的文件大小。",
+        "4. 文件大小明显不对时不要替换本地文件；确认无误后再放到 Steam 本地 `<Steam 安装目录>/appcache/stats/` 中的同名位置。",
         "",
         "更完整的查找、下载和替换流程见 [README.md](README.md)。",
         "",
@@ -488,7 +571,7 @@ def write_human_index(index: dict[str, Any]) -> None:
         "",
         "[简体中文](INDEX.md) | English | [Project README](README_EN.md)",
         "",
-        "> Before downloading, check both Status and Last updated. Steam updates may change achievement schemas; files marked as possibly outdated should be used with extra care.",
+        "> After downloading, compare the file size with the index. If the size is clearly wrong, do not replace your local file. Files marked as possibly outdated should be used with extra care.",
         "",
         f"Accepted games: **{entry_count}**.",
         "",
@@ -496,8 +579,8 @@ def write_human_index(index: dict[str, Any]) -> None:
         "",
         "1. Search with your browser or GitHub page search by Steam app ID, game name, contributor, or language code.",
         "2. Check Status and Last updated in the matching row. Use possibly outdated files carefully or wait for an update.",
-        "3. Click `UserGameStatsSchema_<app_id>.bin` in the File column to download the raw file.",
-        "4. Place it in the matching local Steam file under `<Steam install directory>/appcache/stats/`; close Steam and the game first, and back up the original file.",
+        "3. Click the filename in the File column to download it, then compare the downloaded size with the index.",
+        "4. If the size is clearly wrong, do not replace your local file. After confirming it, place it under the matching local Steam file path in `<Steam install directory>/appcache/stats/`.",
         "",
         "See [README_EN.md](README_EN.md) for the full find, download, and replacement flow.",
         "",
@@ -773,6 +856,7 @@ def build_entry(
         "store_url": store_url,
         "languages": languages,
         "schema_file": schema_file,
+        "file_size_bytes": schema_file_size_bytes(schema_file),
         "achievement_count": achievement_count,
         "sha256": schema_hash,
         "source_issue": source_issue,

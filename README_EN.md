@@ -38,7 +38,7 @@ After finding a row, check both Status and Last updated. If the status is possib
 
 ### 2. Download The File
 
-Click `UserGameStatsSchema_<app_id>.bin` in the File column. The link points to the raw file on the current `main` branch.
+Prefer clicking `UserGameStatsSchema_<app_id>.bin` in the File column. The index uses jsDelivr as the main download entry and points to the matching file on the current `main` branch.
 
 After downloading, check:
 
@@ -46,9 +46,9 @@ After downloading, check:
 | --- | --- |
 | File name | It should stay `UserGameStatsSchema_<app_id>.bin`, not `.txt`, `.html`, or an extra-suffixed file |
 | App ID | The number in the file name must match the game you are replacing |
-| Last updated | Compare it with the index; use very old files carefully |
+| File size | Compare it with the size shown in the index File column; if the size is clearly wrong, do not replace your local file |
 
-If your browser displays binary text instead of downloading, right-click the file link and save it, or save the raw page from the browser.
+If an index download link does not work, open the repository's `files/<app_id>/` directory, find the matching `UserGameStatsSchema_<app_id>.bin` by game app ID, and download it manually.
 
 ### 3. Find The Local Steam File
 
