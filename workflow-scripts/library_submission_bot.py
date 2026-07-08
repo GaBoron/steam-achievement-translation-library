@@ -475,6 +475,13 @@ def file_link_with_details(schema_file: str, size_bytes: int, language: str, not
     return f"{link} ({size})"
 
 
+def entry_file_size_label(entry: dict[str, Any]) -> str:
+    schema_file = str(entry.get("schema_file") or "").strip()
+    if not schema_file:
+        return ""
+    return schema_file_size_label(entry_file_size_bytes(entry, schema_file))
+
+
 def schema_file_links(entry: dict[str, Any], language: str) -> str:
     variants = entry.get("schema_files")
     links: list[str] = []
@@ -884,6 +891,7 @@ def build_submission_pr_body(
 ) -> str:
     title = "Translation Library Update" if kind == "update" else "Translation Library Submission"
     coverage_lines = "\n".join(f"- `{language}`: {count}/{entry['achievement_count']} achievements" for language, count in coverage.items())
+    file_size = entry_file_size_label(entry)
     update_section = ""
     if kind == "update" and update_diff is not None:
         update_section = f"""
@@ -918,6 +926,7 @@ def build_submission_pr_body(
 - Supported languages: {', '.join(languages)}
 - Achievement count: {entry['achievement_count']}
 - Schema file: `{entry['schema_file']}`
+- File size: {file_size}
 - SHA-256: `{entry['sha256']}`
 - Submitted at: {entry.get('submitted_at', '')}
 - Updated at: {entry.get('updated_at', '')}
@@ -1077,6 +1086,7 @@ def validate_outdated_report(event: dict[str, Any]) -> dict[str, Any]:
 - Steam app ID: `{game_id}`
 - Steam store URL: {entry.get('store_url', '')}
 - Current schema file: `{entry.get('schema_file', '')}`
+- Current file size: {entry_file_size_label(entry)}
 - Current SHA-256: `{entry.get('sha256', '')}`
 - Last library update: {entry.get('updated_at', '')}
 - Source issue: {issue.get('html_url', '')}

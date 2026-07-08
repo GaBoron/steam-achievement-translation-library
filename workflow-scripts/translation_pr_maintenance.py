@@ -17,6 +17,7 @@ from library_submission_bot import (
     LANGUAGE_RE,
     achievement_rows,
     build_submission_pr_body,
+    entry_file_size_label,
     escape_table,
     existing_entry,
     extract_attachment,
@@ -24,6 +25,8 @@ from library_submission_bot import (
     load_index,
     load_schema,
     now_utc,
+    schema_file_size_bytes,
+    schema_file_size_label,
     sha256,
     steam_store_id,
     summarize_update_diff,
@@ -190,6 +193,7 @@ def parse_pr_metadata(pr: dict[str, Any]) -> dict[str, Any]:
         "languages": languages,
         "achievement_count": body_field(body, "Achievement count"),
         "schema_file": body_field(body, "Schema file"),
+        "file_size": body_field(body, "File size"),
         "sha256": body_field(body, "SHA-256"),
         "submitted_at": body_field(body, "Submitted at"),
         "updated_at": body_field(body, "Updated at"),
@@ -353,6 +357,7 @@ def entry_from_metadata(meta: dict[str, Any]) -> dict[str, Any]:
         "store_url": meta["store_url"],
         "languages": meta["languages"],
         "schema_file": meta["schema_file"],
+        "file_size_bytes": schema_file_size_bytes(str(meta["schema_file"])),
         "achievement_count": int(str(meta.get("achievement_count") or "0") or 0),
         "sha256": meta["sha256"],
         "source_issue": meta["source_issue"],
@@ -374,6 +379,7 @@ def build_outdated_body(entry: dict[str, Any], meta: dict[str, Any]) -> str:
 - Steam app ID: `{entry['game_id']}`
 - Steam store URL: {entry.get('store_url', '')}
 - Current schema file: `{entry.get('schema_file', '')}`
+- Current file size: {entry_file_size_label(entry)}
 - Current SHA-256: `{entry.get('sha256', '')}`
 - Last library update: {entry.get('updated_at', '')}
 - Source issue: {meta.get('source_issue', '')}
@@ -496,15 +502,18 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             previous_rows = achievement_rows(load_schema(schema_path)[1], list(meta["languages"])) if schema_path.is_file() else []
             previous_hash = sha256(schema_path.read_bytes()) if schema_path.is_file() else ""
             previous_schema_file = str(meta.get("schema_file") or "")
+            previous_file_size = schema_file_size_label(schema_path.stat().st_size) if schema_path.is_file() else str(meta.get("file_size") or "")
             previous_count = str(meta.get("achievement_count") or "")
             previous_updated_at = str(meta.get("updated_at") or "")
             schema_path.write_bytes(data)
             meta["schema_file"] = str(schema_path.relative_to(ROOT)).replace("\\", "/")
+            meta["file_size"] = schema_file_size_label(len(data))
             meta["sha256"] = sha256(data)
             meta["achievement_count"] = str(len(rows))
             meta["updated_at"] = now_utc()
             update_diff = summarize_update_diff(previous_rows, rows, list(meta["languages"])) if previous_rows else None
             record_change("schema file", previous_schema_file, meta["schema_file"])
+            record_change("file size", previous_file_size, meta["file_size"])
             record_change("SHA-256", previous_hash or str(original_meta.get("sha256") or ""), meta["sha256"])
             record_change("achievement count", previous_count, meta["achievement_count"])
             record_change("updated at", previous_updated_at, meta["updated_at"])
@@ -518,6 +527,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             if not re.fullmatch(r"\d+", value):
                 raise ValueError("`/update id` 后面必须是数字 Steam app ID。")
             previous_schema_file = str(meta.get("schema_file") or "")
+            previous_file_size = str(meta.get("file_size") or "")
             previous_store_url = str(meta.get("store_url") or "")
             previous_hash = str(meta.get("sha256") or "")
             previous_count = str(meta.get("achievement_count") or "")
@@ -527,6 +537,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
                 if not replacement:
                     raise ValueError("报告过期 PR 的 `/update id` 必须指向库里已经收录的 Steam app ID。")
                 meta["schema_file"] = str(replacement.get("schema_file") or "")
+                meta["file_size"] = entry_file_size_label(replacement)
                 meta["sha256"] = str(replacement.get("sha256") or "")
                 meta["achievement_count"] = str(replacement.get("achievement_count") or "")
                 meta["languages"] = list(replacement.get("languages", []))
@@ -538,6 +549,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             validate_store_url(value, str(meta["store_url"]))
             rows, coverage = validate_languages_for_schema(str(meta["schema_file"]), list(meta["languages"]))
             previous_hash = str(meta.get("sha256") or "")
+            meta["file_size"] = schema_file_size_label(schema_file_size_bytes(str(meta["schema_file"])))
             meta["sha256"] = sha256((ROOT / str(meta["schema_file"])).read_bytes())
             meta["achievement_count"] = str(len(rows))
             meta["updated_at"] = now_utc()
@@ -546,6 +558,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             if kind != "outdated":
                 record_change("Steam store URL", previous_store_url, meta["store_url"])
                 record_change("schema file", previous_schema_file, meta["schema_file"])
+                record_change("file size", previous_file_size, meta["file_size"])
                 record_change("SHA-256", previous_hash, meta["sha256"])
                 record_change("achievement count", previous_count, meta["achievement_count"])
                 record_change("updated at", previous_updated_at, meta["updated_at"])
