@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能过期”的文件建议等待更新后再使用。
 
-当前收录：**60** 个游戏。
+当前收录：**61** 个游戏。
 
 ## 使用这个索引
 
@@ -27,6 +27,7 @@
 | `208650` | Batman™: Arkham Knight | 可用 | 2026-07-04T16:48:24Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 113 | [UserGameStatsSchema_208650.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/208650/UserGameStatsSchema_208650.bin)（140 KB） | [#16](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/16) |  | [Steam](https://store.steampowered.com/app/208650/Batman_Arkham_Knight/) |
 | `2567870` | Chained Together | 可用 | 2026-07-04T17:19:37Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 16 | [UserGameStatsSchema_2567870.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2567870/UserGameStatsSchema_2567870.bin)（6 KB） | [#26](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/26) |  | [Steam](https://store.steampowered.com/app/2567870/Chained_Together/) |
 | `678960` | CODE VEIN | 可用 | 2026-07-04T17:21:08Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 43 | [UserGameStatsSchema_678960.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/678960/UserGameStatsSchema_678960.bin)（55 KB） | [#24](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/24) |  | [Steam](https://store.steampowered.com/app/678960/CODE_VEIN/) |
+| `1715130` | Crysis Remastered 孤岛危机：复刻版 | 可用 | 2026-07-09T16:31:39Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 40 | [UserGameStatsSchema_1715130.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1715130/UserGameStatsSchema_1715130.bin)（39 KB） | [#89](https://github.com/GaBoron/steam-achievement-translation-library/pull/89) |  | [Steam](https://store.steampowered.com/app/1715130/Crysis_Remastered/) |
 | `335300` | DARK SOULS™ II: Scholar of the First Sin 黑暗之魂2：原罪学者 | 可用 | 2026-07-08T14:02:48Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 38 | [UserGameStatsSchema_335300.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/335300/UserGameStatsSchema_335300.bin)（42 KB） | [#83](https://github.com/GaBoron/steam-achievement-translation-library/pull/83) |  | [Steam](https://store.steampowered.com/app/335300/DARK_SOULS_II_Scholar_of_the_First_Sin/) |
 | `1259420` | Days Gone 往日不再 | 可用 | 2026-07-04T14:47:03Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 67 | [UserGameStatsSchema_1259420.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1259420/UserGameStatsSchema_1259420.bin)（160 KB） | [#6](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/6) |  | [Steam](https://store.steampowered.com/app/1259420/Days_Gone/) |
 | `220440` | DmC: Devil May Cry 鬼泣：Dmc | 可用 | 2026-07-05T23:58:43Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 58 | [UserGameStatsSchema_220440.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/220440/UserGameStatsSchema_220440.bin)（72 KB） | [#16](https://github.com/GaBoron/steam-achievement-translation-library/pull/16) |  | [Steam](https://store.steampowered.com/app/220440/DmC_Devil_May_Cry/) |
