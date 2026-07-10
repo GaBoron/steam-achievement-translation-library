@@ -965,16 +965,24 @@
       "schema_file": "files/250900/UserGameStatsSchema_250900.bin",
       "schema_files": [
         {
+          "variant_id": "default",
+          "primary": true,
           "schema_file": "files/250900/UserGameStatsSchema_250900.bin",
           "note_zh": "（原版）",
           "note_en": "(original)",
-          "file_size_bytes": 222153
+          "file_size_bytes": 222153,
+          "sha256": "205589740a8a06b0fc053d89026c01f2e6123b2bec427a1ccb5d13c0db047981",
+          "achievement_count": 641
         },
         {
+          "variant_id": "with-unlock-conditions",
+          "primary": false,
           "schema_file": "files/250900/with-unlock-conditions/UserGameStatsSchema_250900.bin",
           "note_zh": "（含解锁条件）",
           "note_en": "(with unlock conditions)",
-          "file_size_bytes": 250434
+          "file_size_bytes": 250434,
+          "sha256": "bfb6cdf82ff0fd1d408367444ece55231473afe7cb2942b284e65e28324b4440",
+          "achievement_count": 641
         }
       ],
       "achievement_count": 641,

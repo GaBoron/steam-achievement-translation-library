@@ -18,22 +18,27 @@ from library_submission_bot import (
     achievement_rows,
     build_submission_pr_body,
     entry_file_size_label,
+    entry_schema_variants,
     escape_table,
     existing_entry,
     extract_attachment,
     load_index,
     load_schema,
     now_utc,
+    parse_schema_variants_marker,
     repository_path,
     require_language_coverage,
+    save_schema_package,
     schema_file_size_bytes,
     schema_file_size_label,
+    schema_variant_relative_path,
     sha256,
     steam_store_id,
     summarize_update_diff,
     upsert_index_entry,
-    validate_schema_submission,
+    validate_schema_package,
     validate_schema_structure,
+    validated_entry_schema_variants,
     write_human_index,
     write_index,
 )
@@ -210,6 +215,7 @@ def parse_pr_metadata(pr: dict[str, Any]) -> dict[str, Any]:
     contributor_value = body_field(body, "Contributors")
     contributors = [item.strip().lstrip("@") for item in contributor_value.split(",") if item.strip()]
     languages = split_languages(body_field(body, "Supported languages"))
+    schema_files = parse_schema_variants_marker(body)
     return {
         "kind": pr_kind(pr),
         "game_name": body_field(body, "Game name"),
@@ -221,6 +227,7 @@ def parse_pr_metadata(pr: dict[str, Any]) -> dict[str, Any]:
         "languages": languages,
         "achievement_count": body_field(body, "Achievement count"),
         "schema_file": body_field(body, "Schema file") or body_field(body, "Current schema file"),
+        "schema_files": schema_files,
         "file_size": body_field(body, "File size") or body_field(body, "Current file size"),
         "sha256": body_field(body, "SHA-256") or body_field(body, "Current SHA-256"),
         "submitted_at": body_field(body, "Submitted at"),
@@ -341,6 +348,27 @@ def validate_languages_for_schema(schema_file: str, languages: list[str]) -> tup
     return rows, coverage
 
 
+def validate_metadata_variants(meta: dict[str, Any], languages: list[str]) -> tuple[list[dict[str, str]], dict[str, int]]:
+    entry = {
+        "schema_file": meta.get("schema_file"),
+        "schema_files": meta.get("schema_files"),
+        "file_size_bytes": 0,
+        "sha256": meta.get("sha256"),
+        "achievement_count": meta.get("achievement_count"),
+    }
+    variants = validated_entry_schema_variants(entry)
+    if not variants:
+        raise ValueError("PR 描述中没有可用的 schema 版本元数据。")
+    primary_result: tuple[list[dict[str, str]], dict[str, int]] | None = None
+    for variant in variants:
+        result = validate_languages_for_schema(str(variant["schema_file"]), languages)
+        if variant.get("primary"):
+            primary_result = result
+    if primary_result is None:
+        raise ValueError("PR 的 schema 版本元数据缺少主版本。")
+    return primary_result
+
+
 def remove_index_entries(game_ids: set[str]) -> dict[str, Any]:
     index = load_index()
     index["entries"] = [entry for entry in index.get("entries", []) if str(entry.get("game_id")) not in game_ids]
@@ -355,22 +383,69 @@ def upsert_entry_for_pr(old_game_id: str, entry: dict[str, Any]) -> None:
     upsert_index_entry(entry)
 
 
-def rename_schema_file(old_game_id: str, new_game_id: str, schema_file: str) -> str:
+def rename_schema_variants(
+    old_game_id: str,
+    new_game_id: str,
+    meta: dict[str, Any],
+) -> tuple[str, list[dict[str, Any]] | None]:
     if old_game_id == new_game_id:
-        return schema_file
-    old_path = repository_path(schema_file)
-    if not old_path.is_file():
-        raise ValueError(f"当前 schema 文件不存在：{schema_file}")
-    new_dir = FILES_ROOT / new_game_id
-    new_dir.mkdir(parents=True, exist_ok=True)
-    new_path = new_dir / f"UserGameStatsSchema_{new_game_id}.bin"
-    old_path.replace(new_path)
-    old_dir = old_path.parent
-    try:
-        old_dir.rmdir()
-    except OSError:
-        pass
-    return str(new_path.relative_to(ROOT)).replace("\\", "/")
+        return str(meta["schema_file"]), meta.get("schema_files")
+    schema_files = meta.get("schema_files")
+    if schema_files is None:
+        indexed = existing_entry(load_index(), old_game_id)
+        if indexed and isinstance(indexed.get("schema_files"), list):
+            schema_files = entry_schema_variants(indexed)
+            for record in schema_files:
+                if record.get("primary"):
+                    record.update({
+                        "schema_file": meta.get("schema_file"),
+                        "file_size_bytes": schema_file_size_bytes(str(meta.get("schema_file") or "")),
+                        "sha256": meta.get("sha256"),
+                        "achievement_count": int(str(meta.get("achievement_count") or 0)),
+                    })
+    entry = {
+        "schema_file": meta.get("schema_file"),
+        "schema_files": schema_files,
+        "file_size_bytes": 0,
+        "sha256": meta.get("sha256"),
+        "achievement_count": meta.get("achievement_count"),
+    }
+    records = validated_entry_schema_variants(entry)
+    if not records:
+        raise ValueError("当前 PR 没有可重命名的 schema 文件。")
+    moves: list[tuple[Path, Path, dict[str, Any]]] = []
+    for record in records:
+        source = repository_path(str(record["schema_file"]))
+        if not source.is_file():
+            raise ValueError(f"当前 schema 文件不存在：{record['schema_file']}")
+        destination_relative = schema_variant_relative_path(
+            new_game_id,
+            str(record["variant_id"]),
+            bool(record.get("primary")),
+        )
+        destination = repository_path(destination_relative)
+        if destination.exists() and destination != source:
+            raise ValueError(f"目标 schema 文件已存在：{destination_relative}")
+        updated = dict(record)
+        updated["schema_file"] = destination_relative
+        moves.append((source, destination, updated))
+    for source, destination, _record in moves:
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        source.replace(destination)
+    old_root = (FILES_ROOT / old_game_id).resolve()
+    for directory in sorted({source.parent for source, _destination, _record in moves}, key=lambda path: len(path.parts), reverse=True):
+        current = directory
+        while current != old_root.parent and current.is_relative_to(old_root):
+            try:
+                current.rmdir()
+            except OSError:
+                break
+            current = current.parent
+    updated_records = [record for _source, _destination, record in moves]
+    updated_records.sort(key=lambda record: (not bool(record.get("primary")), str(record.get("variant_id"))))
+    primary = next(record for record in updated_records if record.get("primary"))
+    keep_records = updated_records if schema_files is not None else None
+    return str(primary["schema_file"]), keep_records
 
 
 def entry_from_metadata(meta: dict[str, Any]) -> dict[str, Any]:
@@ -393,6 +468,20 @@ def entry_from_metadata(meta: dict[str, Any]) -> dict[str, Any]:
         "status": "current",
     })
     entry.pop("outdated", None)
+    if meta.get("schema_files") is not None:
+        entry["schema_files"] = list(meta["schema_files"])
+    elif isinstance(entry.get("schema_files"), list):
+        # Compatibility for PRs created before machine-readable variant metadata existed.
+        records = entry_schema_variants(entry)
+        for record in records:
+            if record.get("primary"):
+                record.update({
+                    "schema_file": entry["schema_file"],
+                    "file_size_bytes": entry["file_size_bytes"],
+                    "sha256": entry["sha256"],
+                    "achievement_count": entry["achievement_count"],
+                })
+        entry["schema_files"] = records
     return entry
 
 
@@ -460,7 +549,8 @@ def update_error_comment(message: str) -> str:
         "`/update` 未通过检查，PR 未更新。",
         "",
         f"- 错误：{escape_table(message)}",
-        f"- 用法：`/update <类型> <参数>`。`/update doc` 的参数是同一条评论中的 `UserGameStatsSchema_<app_id>.zip` 附件。",
+        "- 用法：`/update <类型> <参数>`。`/update doc` 接收完整包；"
+        "`/update doc <variant_id>` 接收指定版本的单文件 ZIP，附件必须在同一条评论中。",
         f"- {UPDATE_COMMAND_HELP}",
     ])
 
@@ -525,6 +615,9 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
     attachment = extract_attachment(comment_body)
     command_text = comment_body.strip().splitlines()[0].strip() if comment_body.strip() else "/update"
     changes: list[dict[str, Any]] = []
+    variant_changes: dict[str, list[str]] | None = None
+    review_variant_id = "default"
+    review_variant_hash = ""
 
     def record_change(field: str, before: Any, after: Any) -> None:
         changes.append({"field": field, "before": before, "after": after})
@@ -533,33 +626,110 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
         if command == "doc":
             if not attachment:
                 raise ValueError("`/update doc` 需要在同一条评论中附加 `UserGameStatsSchema_<app_id>.zip`。")
-            data, _nodes, rows, coverage = validate_schema_submission(attachment, token, old_game_id, list(meta["languages"]))
-            schema_path = FILES_ROOT / old_game_id / f"UserGameStatsSchema_{old_game_id}.bin"
-            schema_path.parent.mkdir(parents=True, exist_ok=True)
-            previous_rows = achievement_rows(load_schema(schema_path)[1], list(meta["languages"])) if schema_path.is_file() else []
-            previous_hash = sha256(schema_path.read_bytes()) if schema_path.is_file() else ""
+            target_variant_id = value.lower()
+            if target_variant_id and not re.fullmatch(r"^[a-z0-9][a-z0-9-]{0,63}$", target_variant_id):
+                raise ValueError("variant_id 只能包含小写字母、数字和连字符，最长 64 个字符。")
+            package = validate_schema_package(attachment, token, old_game_id, list(meta["languages"]))
+            current_entry = {
+                "schema_file": meta.get("schema_file"),
+                "schema_files": meta.get("schema_files"),
+                "file_size_bytes": 0,
+                "sha256": meta.get("sha256"),
+                "achievement_count": meta.get("achievement_count"),
+            }
+            existing_records = validated_entry_schema_variants(current_entry)
+            existing_by_id = {str(record["variant_id"]): record for record in existing_records}
+            review_variant_id = target_variant_id or "default"
+            update_diff = None
+            if target_variant_id:
+                current = existing_by_id.get(target_variant_id)
+                if current is None:
+                    raise ValueError(f"找不到 variant_id={target_variant_id}；新增版本请提交完整多版本包。")
+                if package.has_manifest:
+                    raise ValueError("指定 variant_id 时只能上传不含多版本清单的单版本 ZIP。")
+                old_data, old_nodes = load_schema(repository_path(str(current["schema_file"])))
+                uploaded = package.variants[0]
+                previous_hash = sha256(old_data)
+                if old_data == uploaded.data:
+                    raise ValueError(f"上传文件与当前 {target_variant_id} 版本字节级完全相同。")
+                update_diff = summarize_update_diff(
+                    achievement_rows(old_nodes, list(meta["languages"])),
+                    achievement_rows(uploaded.nodes, list(meta["languages"])),
+                    list(meta["languages"]),
+                )
+                variant_changes = {"added": [], "removed": [], "changed": [target_variant_id]}
+            else:
+                if len(existing_records) > 1 and not package.has_manifest:
+                    raise ValueError(
+                        "该 PR 包含多个版本；请上传带 translation-variants.json 的完整多版本包，"
+                        "或使用 `/update doc <variant_id>` 单独更新一个版本。"
+                    )
+                new_by_id = {variant.variant_id: variant for variant in package.variants}
+                old_ids = set(existing_by_id)
+                new_ids = set(new_by_id)
+                changed_ids = [
+                    variant_id
+                    for variant_id in sorted(old_ids & new_ids)
+                    if repository_path(str(existing_by_id[variant_id]["schema_file"])).read_bytes()
+                    != new_by_id[variant_id].data
+                ]
+                variant_changes = {
+                    "added": sorted(new_ids - old_ids),
+                    "removed": sorted(old_ids - new_ids),
+                    "changed": changed_ids,
+                }
+                if not any(variant_changes.values()):
+                    raise ValueError("上传包中的所有版本都与当前 PR 字节级完全相同。")
+                review_variant_id = changed_ids[0] if changed_ids else ("default" if "default" in new_by_id else sorted(new_ids)[0])
+                old_record = existing_by_id.get(review_variant_id)
+                if old_record:
+                    old_data, old_nodes = load_schema(repository_path(str(old_record["schema_file"])))
+                    previous_hash = sha256(old_data)
+                    update_diff = summarize_update_diff(
+                        achievement_rows(old_nodes, list(meta["languages"])),
+                        achievement_rows(new_by_id[review_variant_id].nodes, list(meta["languages"])),
+                        list(meta["languages"]),
+                    )
+                else:
+                    previous_hash = ""
+
+            effective_variants, schema_files = save_schema_package(
+                package,
+                old_game_id,
+                current_entry,
+                target_variant_id=target_variant_id,
+            )
+            primary_record = next(record for record in schema_files if record.get("primary"))
+            review_variant = next(
+                (variant for variant in effective_variants if variant.variant_id == review_variant_id),
+                effective_variants[0],
+            )
+            rows, coverage = review_variant.rows, review_variant.coverage
+            review_variant_hash = sha256(review_variant.data)
             previous_schema_file = str(meta.get("schema_file") or "")
-            previous_file_size = schema_file_size_label(schema_path.stat().st_size) if schema_path.is_file() else str(meta.get("file_size") or "")
+            previous_file_size = str(meta.get("file_size") or "")
             previous_count = str(meta.get("achievement_count") or "")
             previous_updated_at = str(meta.get("updated_at") or "")
-            schema_path.write_bytes(data)
-            meta["schema_file"] = str(schema_path.relative_to(ROOT)).replace("\\", "/")
-            meta["file_size"] = schema_file_size_label(len(data))
-            meta["sha256"] = sha256(data)
-            meta["achievement_count"] = str(len(rows))
+            meta["schema_file"] = str(primary_record["schema_file"])
+            meta["schema_files"] = schema_files if package.has_manifest or target_variant_id or meta.get("schema_files") is not None else None
+            meta["file_size"] = schema_file_size_label(int(primary_record["file_size_bytes"]))
+            meta["sha256"] = str(primary_record["sha256"])
+            meta["achievement_count"] = str(primary_record["achievement_count"])
             meta["updated_at"] = now_utc()
-            update_diff = summarize_update_diff(previous_rows, rows, list(meta["languages"])) if previous_rows else None
             record_change("schema file", previous_schema_file, meta["schema_file"])
             record_change("file size", previous_file_size, meta["file_size"])
-            record_change("SHA-256", previous_hash or str(original_meta.get("sha256") or ""), meta["sha256"])
+            record_change(
+                f"{review_variant_id} SHA-256",
+                previous_hash or str(original_meta.get("sha256") or ""),
+                review_variant_hash,
+            )
             record_change("achievement count", previous_count, meta["achievement_count"])
             record_change("updated at", previous_updated_at, meta["updated_at"])
-            if update_diff is not None:
-                record_change(
-                    "achievement diff",
-                    "current PR file",
-                    f"+{len(update_diff['added'])} / -{len(update_diff['deleted'])} / ~{len(update_diff['changed'])}",
-                )
+            record_change(
+                "schema variants",
+                ", ".join(sorted(existing_by_id)),
+                ", ".join(str(record["variant_id"]) for record in schema_files),
+            )
         elif command == "id":
             if not re.fullmatch(r"\d+", value):
                 raise ValueError("`/update id` 后面必须是数字 Steam app ID。")
@@ -579,12 +749,12 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
                 meta["achievement_count"] = str(replacement.get("achievement_count") or "")
                 meta["languages"] = list(replacement.get("languages", []))
             else:
-                meta["schema_file"] = rename_schema_file(old_game_id, value, str(meta["schema_file"]))
+                meta["schema_file"], meta["schema_files"] = rename_schema_variants(old_game_id, value, meta)
             meta["game_id"] = value
             if old_game_id and old_game_id in str(meta["store_url"]):
                 meta["store_url"] = str(meta["store_url"]).replace(f"/app/{old_game_id}", f"/app/{value}")
             validate_store_url(value, str(meta["store_url"]))
-            rows, coverage = validate_languages_for_schema(str(meta["schema_file"]), list(meta["languages"]))
+            rows, coverage = validate_metadata_variants(meta, list(meta["languages"]))
             previous_hash = str(meta.get("sha256") or "")
             meta["file_size"] = schema_file_size_label(schema_file_size_bytes(str(meta["schema_file"])))
             meta["sha256"] = sha256(repository_path(str(meta["schema_file"])).read_bytes())
@@ -607,7 +777,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             if kind == "outdated":
                 rows, coverage = [], {}
             else:
-                rows, coverage = validate_languages_for_schema(str(meta["schema_file"]), list(meta["languages"]))
+                rows, coverage = validate_metadata_variants(meta, list(meta["languages"]))
             previous_hash = str(meta.get("sha256") or "")
             update_diff = None
             if kind != "outdated":
@@ -619,7 +789,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             if kind == "outdated":
                 rows, coverage = [], {}
             else:
-                rows, coverage = validate_languages_for_schema(str(meta["schema_file"]), list(meta["languages"]))
+                rows, coverage = validate_metadata_variants(meta, list(meta["languages"]))
             previous_hash = str(meta.get("sha256") or "")
             update_diff = None
             if kind != "outdated":
@@ -627,7 +797,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
         elif command == "languages":
             previous_languages = list(meta.get("languages") or [])
             languages = split_languages(value)
-            rows, coverage = validate_languages_for_schema(str(meta["schema_file"]), languages)
+            rows, coverage = validate_metadata_variants(meta, languages)
             meta["languages"] = languages
             previous_hash = str(meta.get("sha256") or "")
             update_diff = None
@@ -637,7 +807,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
                 raise ValueError("`/update summary` 后面必须填写更新摘要。")
             previous_summary = str(meta.get("update_summary") or "")
             meta["update_summary"] = value
-            rows, coverage = validate_languages_for_schema(str(meta["schema_file"]), list(meta["languages"]))
+            rows, coverage = validate_metadata_variants(meta, list(meta["languages"]))
             previous_hash = str(meta.get("sha256") or "")
             update_diff = None
             record_change("update summary", previous_summary, meta["update_summary"])
@@ -688,6 +858,9 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
                 update_diff=update_diff,
                 previous_hash=previous_hash,
                 issue_url=str(meta.get("source_issue") or ""),
+                review_variant_id=review_variant_id,
+                review_variant_hash=review_variant_hash,
+                variant_changes=variant_changes,
             )
     except Exception as exc:  # noqa: BLE001 - user-facing automation report.
         comment_issue(repo, token, pr_number, update_error_comment(str(exc)))
@@ -750,13 +923,43 @@ def mark_source_pr(event: dict[str, Any], repo: str, token: str) -> bool:
     else:
         meta = parse_pr_metadata(pr)
         entry = entry_from_metadata(meta)
-        schema_path = repository_path(str(entry.get("schema_file") or ""))
-        if not schema_path.is_file():
-            raise RuntimeError(f"merged PR schema file is missing from main: {entry.get('schema_file') or '<empty>'}")
-        data, nodes = load_schema(schema_path)
-        if sha256(data) != str(entry.get("sha256") or ""):
-            raise RuntimeError(f"merged PR schema SHA-256 does not match PR metadata for {entry.get('schema_file')}")
-        entry["achievement_count"] = len(achievement_rows(nodes, list(entry.get("languages", []))))
+        primary_rows: list[dict[str, str]] | None = None
+        primary_variant: dict[str, Any] | None = None
+        primary_digest = ""
+        seen_variant_hashes: dict[str, str] = {}
+        for variant in validated_entry_schema_variants(entry, require_metadata=True):
+            schema_path = repository_path(str(variant.get("schema_file") or ""))
+            if not schema_path.is_file():
+                raise RuntimeError(f"merged PR schema file is missing from main: {variant.get('schema_file') or '<empty>'}")
+            data, nodes = load_schema(schema_path)
+            validate_schema_structure(data, nodes)
+            rows = achievement_rows(nodes, list(entry.get("languages", [])))
+            require_language_coverage(rows, list(entry.get("languages", [])))
+            expected_hash = str(variant.get("sha256") or "")
+            if expected_hash and sha256(data) != expected_hash:
+                raise RuntimeError(f"merged PR schema SHA-256 does not match PR metadata for {variant.get('schema_file')}")
+            digest = sha256(data)
+            duplicate_id = seen_variant_hashes.get(digest)
+            if duplicate_id is not None:
+                raise RuntimeError(
+                    f"merged PR variants {duplicate_id} and {variant.get('variant_id')} contain identical files"
+                )
+            seen_variant_hashes[digest] = str(variant.get("variant_id"))
+            expected_count = variant.get("achievement_count")
+            if expected_count not in (None, "") and int(str(expected_count)) != len(rows):
+                raise RuntimeError(f"merged PR achievement count does not match PR metadata for {variant.get('schema_file')}")
+            if variant.get("primary"):
+                primary_rows = rows
+                primary_variant = variant
+                primary_digest = digest
+        if primary_rows is None:
+            raise RuntimeError("merged PR schema metadata has no primary variant")
+        assert primary_variant is not None
+        if str(entry.get("schema_file") or "") != str(primary_variant.get("schema_file") or ""):
+            raise RuntimeError("merged PR primary schema path does not match top-level metadata")
+        if str(entry.get("sha256") or "") != primary_digest:
+            raise RuntimeError("merged PR primary schema SHA-256 does not match top-level metadata")
+        entry["achievement_count"] = len(primary_rows)
         if pr_url and entry.get("source_pr") != pr_url:
             entry["source_pr"] = pr_url
             changed = True

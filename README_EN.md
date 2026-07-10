@@ -36,6 +36,8 @@ Open [the library index](INDEX_EN.md), then search with your browser or GitHub p
 
 After finding a row, check both Status and Last updated. If the status is possibly outdated, someone has reported that the Steam schema may have changed. Unless you know the file still applies, wait for an update PR before downloading.
 
+A game may provide multiple versions. In that case, the File column shows multiple links with English version notes. Choose the file matching your game branch or use case; the filenames alone do not distinguish variants.
+
 ### 2. Download The File
 
 Prefer clicking `UserGameStatsSchema_<app_id>.bin` in the File column. The index uses jsDelivr as the main download entry and points to the matching file on the current `main` branch.

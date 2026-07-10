@@ -20,6 +20,50 @@ Use the "Submit Steam achievement translation" template when the Steam app ID is
 
 Use the "Update existing Steam achievement translation" template when the app ID already exists in `index.json`. Open PRs do not count as accepted entries. The uploaded file must differ from the current library file; otherwise automation rejects the issue. Accepted update PRs include added, deleted, and changed achievement IDs in the PR body.
 
+## Multiple Versions For One Game
+
+When one Steam app ID needs multiple independently usable schemas, place the complete version set in one `UserGameStatsSchema_<app_id>.zip` and add `translation-variants.json` at the ZIP root:
+
+```text
+UserGameStatsSchema_123456.zip
+├── translation-variants.json
+├── UserGameStatsSchema_123456.bin
+└── with-unlock-conditions/
+    └── UserGameStatsSchema_123456.bin
+```
+
+Manifest format:
+
+```json
+{
+  "version": 1,
+  "variants": [
+    {
+      "variant_id": "default",
+      "primary": true,
+      "file": "UserGameStatsSchema_123456.bin",
+      "note_zh": "原版",
+      "note_en": "Original"
+    },
+    {
+      "variant_id": "with-unlock-conditions",
+      "primary": false,
+      "file": "with-unlock-conditions/UserGameStatsSchema_123456.bin",
+      "note_zh": "含解锁条件",
+      "note_en": "With unlock conditions"
+    }
+  ]
+}
+```
+
+- A manifest supports 1–16 versions and must have exactly one `primary: true` entry whose ID is `default`. Normally only multi-version submissions need a manifest, but use a one-entry manifest when collapsing an existing version set to one file.
+- Other `variant_id` values use lowercase letters, digits, and hyphens only, and their files live in matching subdirectories.
+- Every version needs short, single-line `note_zh` and `note_en` labels so users can choose the right download.
+- The issue's language list applies to every version. Automation validates roundtrips, unique achievement IDs, language coverage, SHA-256, and achievement counts separately for each file.
+- Steam's original `english` field may intentionally have an empty description, but its name is still required. Every other declared language requires both names and descriptions.
+- Different `variant_id` values cannot contain byte-identical files; duplicate versions with no actual file difference are rejected.
+- A full update resubmits the complete manifest and atomically changes the version set. To replace one existing version, fill in "Version ID to update" and upload a normal single-version ZIP; targeted updates cannot change the global language list.
+
 ## PR `/update` Commands
 
 If validation fails while the issue is still open, you may edit field values in the issue body or comment `/update <type> <value>`; do not rename the `###` field headings. After automation creates a PR, the source issue is closed and locked. To change an open PR, comment one of these commands on the PR:
@@ -29,7 +73,8 @@ If validation fails while the issue is still open, you may edit field values in 
 
 | Command | Effect |
 | --- | --- |
-| `/update doc` plus attachment | Replace the PR's `UserGameStatsSchema_<app_id>.bin`; attach `UserGameStatsSchema_<app_id>.zip` to the same comment |
+| `/update doc` plus attachment | Replace a single-version file, or atomically replace the complete version set with a manifest package |
+| `/update doc <variant_id>` plus attachment | Replace one existing version in a multi-version PR; add versions through a complete manifest package |
 | `/update id <Steam app ID>` | Change the Steam app ID and rename file paths for a normal submission or update PR; outdated-report PRs do not support this command |
 | `/update name <game name>` | Change the game name |
 | `/update store <Steam store URL>` | Change the store URL; the URL app ID must match the current app ID |
@@ -46,6 +91,8 @@ For file replacement, put the command and attachment in the same PR comment:
 ```
 
 If the type is unsupported, a required value is missing, or `/update doc` has no ZIP attachment, automation comments with the specific error and leaves the PR unchanged.
+
+While the source issue is still open, use `/update variant <variant_id>` to change "Version ID to update" or `/update variant clear` to clear it. `/update doc <variant_id>` plus an attachment updates both the attachment and version ID.
 
 To prevent third-party changes, issue `/update` commands are accepted only from the original issue author or a repository maintainer. PR `/update` commands are accepted only from contributors listed in the PR body, the reporter named on an outdated-report PR, or a repository maintainer. Each PR type accepts only relevant commands: new submissions do not accept `summary`, and outdated-report PRs accept only `name`, `store`, `reason`, and `reference`.
 

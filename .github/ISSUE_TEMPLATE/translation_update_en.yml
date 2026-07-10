@@ -53,11 +53,17 @@ body:
         Common language codes: `schinese` Simplified Chinese, `tchinese` Traditional Chinese, `english` English, `japanese` Japanese, `koreana` Korean, `french` French, `german` German, `italian` Italian, `spanish` Spanish.
 
         Only list languages that are complete in the file. Separate multiple codes with half-width commas.
+  - type: input
+    id: variant_id
+    attributes:
+      label: Version ID to update
+      description: Fill this only when replacing one version of a game that already has multiple versions. Leave it blank for a full package update or a single-version game.
+      placeholder: with-unlock-conditions
   - type: textarea
     id: schema_zip
     attributes:
       label: Achievement schema ZIP
-      description: Upload the new `UserGameStatsSchema_<app_id>.zip` containing exactly one matching `.bin` file.
+      description: For one version, upload a ZIP containing one matching `.bin`. To replace the complete version set, include `translation-variants.json` in the ZIP.
       placeholder: Drag the ZIP here.
     validations:
       required: true

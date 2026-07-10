@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "workflow-scripts"))
 
 import github_issue_guard as issue_guard  # noqa: E402
+import library_submission_bot as bot  # noqa: E402
 import translation_pr_maintenance as pr_maintenance  # noqa: E402
 
 
@@ -41,6 +42,7 @@ class IssueCommentAuthorizationTests(unittest.TestCase):
 
     def test_issue_author_can_update_issue(self) -> None:
         event = self.event("contributor")
+        event["issue"]["labels"] = [{"name": "更新文件"}]
         with (
             mock.patch.object(issue_guard, "github_request", return_value=event["issue"]),
             mock.patch.object(issue_guard, "comment_issue") as comment,
@@ -54,6 +56,33 @@ class IssueCommentAuthorizationTests(unittest.TestCase):
 
     def test_collaborator_can_update_issue(self) -> None:
         self.assertTrue(issue_guard.comment_is_authorized(self.event("maintainer", "COLLABORATOR")))
+
+    def test_doc_command_can_set_target_variant(self) -> None:
+        event = self.event("contributor")
+        event["issue"]["labels"] = [{"name": "更新文件"}]
+        event["comment"]["body"] = "\n".join([
+            "/update doc beta",
+            "[UserGameStatsSchema_12.zip](https://github.com/user-attachments/example)",
+        ])
+        event["issue"]["body"] = "\n".join([
+            "### 成就 schema ZIP",
+            "",
+            "old",
+            "",
+            "### 要更新的版本 ID",
+            "",
+            "_No response_",
+        ])
+        with (
+            mock.patch.object(issue_guard, "github_request", return_value=event["issue"]),
+            mock.patch.object(issue_guard, "comment_issue"),
+            mock.patch.object(issue_guard, "patch_issue_body") as patch_body,
+        ):
+            issue_guard.apply_issue_update("owner/repo", "token", event)
+
+        updated_body = patch_body.call_args.args[-1]
+        self.assertIn("[UserGameStatsSchema_12.zip]", updated_body)
+        self.assertIn("### 要更新的版本 ID\n\nbeta", updated_body)
 
 
 class PullRequestCommentAuthorizationTests(unittest.TestCase):
@@ -119,6 +148,109 @@ class PullRequestCommentAuthorizationTests(unittest.TestCase):
         self.assertEqual("abc", metadata["sha256"])
         self.assertEqual("2026-01-01T00:00:00Z", metadata["updated_at"])
 
+    def test_pr_body_preserves_machine_readable_variant_metadata(self) -> None:
+        records = [
+            {
+                "variant_id": "default",
+                "primary": True,
+                "schema_file": "files/123/UserGameStatsSchema_123.bin",
+                "note_zh": "原版",
+                "note_en": "Original",
+                "file_size_bytes": 10,
+                "sha256": "a" * 64,
+                "achievement_count": 1,
+            },
+            {
+                "variant_id": "beta",
+                "primary": False,
+                "schema_file": "files/123/beta/UserGameStatsSchema_123.bin",
+                "note_zh": "测试版",
+                "note_en": "Beta",
+                "file_size_bytes": 11,
+                "sha256": "b" * 64,
+                "achievement_count": 1,
+            },
+        ]
+        entry = {
+            "game_name": "Game",
+            "game_id": "123",
+            "store_url": "https://store.steampowered.com/app/123/",
+            "languages": ["schinese"],
+            "schema_file": records[0]["schema_file"],
+            "schema_files": records,
+            "file_size_bytes": 10,
+            "achievement_count": 1,
+            "sha256": records[0]["sha256"],
+            "contributors": ["contributor"],
+            "submitted_at": "2026-01-01T00:00:00Z",
+            "updated_at": "2026-01-01T00:00:00Z",
+        }
+        rows = [{"api_name": "ACH", "schinese_name": "名称", "schinese_description": "描述"}]
+
+        body = bot.build_submission_pr_body(
+            kind="translation-contribution",
+            entry=entry,
+            coverage={"schinese": 1},
+            rows=rows,
+            languages=["schinese"],
+        )
+        metadata = pr_maintenance.parse_pr_metadata({"body": body, "labels": []})
+
+        self.assertEqual(records, metadata["schema_files"])
+        self.assertIn("## Schema Variants", body)
+
+    def test_legacy_multi_version_pr_updates_primary_variant_metadata(self) -> None:
+        existing = {
+            "game_id": "123",
+            "schema_file": "files/123/UserGameStatsSchema_123.bin",
+            "schema_files": [
+                {
+                    "variant_id": "default",
+                    "primary": True,
+                    "schema_file": "files/123/UserGameStatsSchema_123.bin",
+                    "note_zh": "原版",
+                    "note_en": "Original",
+                    "file_size_bytes": 10,
+                    "sha256": "a" * 64,
+                    "achievement_count": 1,
+                },
+                {
+                    "variant_id": "beta",
+                    "primary": False,
+                    "schema_file": "files/123/beta/UserGameStatsSchema_123.bin",
+                    "note_zh": "测试版",
+                    "note_en": "Beta",
+                    "file_size_bytes": 11,
+                    "sha256": "b" * 64,
+                    "achievement_count": 1,
+                },
+            ],
+        }
+        meta = {
+            "game_id": "123",
+            "game_name": "Game",
+            "store_url": "https://store.steampowered.com/app/123/",
+            "languages": ["schinese"],
+            "schema_file": existing["schema_file"],
+            "schema_files": None,
+            "achievement_count": "2",
+            "sha256": "c" * 64,
+            "source_issue": "",
+            "contributors": ["contributor"],
+            "submitted_at": "2026-01-01T00:00:00Z",
+            "updated_at": "2026-01-02T00:00:00Z",
+        }
+        with (
+            mock.patch.object(pr_maintenance, "load_index", return_value={"entries": [existing]}),
+            mock.patch.object(pr_maintenance, "schema_file_size_bytes", return_value=12),
+        ):
+            entry = pr_maintenance.entry_from_metadata(meta)
+
+        primary, beta = entry["schema_files"]
+        self.assertEqual("c" * 64, primary["sha256"])
+        self.assertEqual(2, primary["achievement_count"])
+        self.assertEqual("b" * 64, beta["sha256"])
+
     def test_invalid_outdated_command_does_not_checkout_branch(self) -> None:
         event = self.event("reporter")
         event["comment"]["body"] = "/update doc"
@@ -153,6 +285,48 @@ class PullRequestCommentAuthorizationTests(unittest.TestCase):
 
             with self.assertRaisesRegex(ValueError, "没有找到 Steam 成就"):
                 pr_maintenance.validate_languages_for_schema(relative, ["schinese"])
+
+    def test_app_id_change_renames_every_schema_variant(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            primary = root / "files/123/UserGameStatsSchema_123.bin"
+            beta = root / "files/123/beta/UserGameStatsSchema_123.bin"
+            primary.parent.mkdir(parents=True)
+            beta.parent.mkdir(parents=True)
+            primary.write_bytes(b"primary")
+            beta.write_bytes(b"beta")
+            meta = {
+                "schema_file": "files/123/UserGameStatsSchema_123.bin",
+                "schema_files": [
+                    {
+                        "variant_id": "default",
+                        "primary": True,
+                        "schema_file": "files/123/UserGameStatsSchema_123.bin",
+                        "note_zh": "原版",
+                        "note_en": "Original",
+                    },
+                    {
+                        "variant_id": "beta",
+                        "primary": False,
+                        "schema_file": "files/123/beta/UserGameStatsSchema_123.bin",
+                        "note_zh": "测试版",
+                        "note_en": "Beta",
+                    },
+                ],
+            }
+            with (
+                mock.patch.object(bot, "REPO_ROOT", root),
+                mock.patch.object(bot, "FILES_ROOT", root / "files"),
+                mock.patch.object(pr_maintenance, "ROOT", root),
+                mock.patch.object(pr_maintenance, "FILES_ROOT", root / "files"),
+            ):
+                schema_file, records = pr_maintenance.rename_schema_variants("123", "456", meta)
+
+            self.assertEqual("files/456/UserGameStatsSchema_456.bin", schema_file)
+            self.assertIsNotNone(records)
+            self.assertEqual(b"primary", (root / schema_file).read_bytes())
+            self.assertEqual(b"beta", (root / "files/456/beta/UserGameStatsSchema_456.bin").read_bytes())
+            self.assertFalse((root / "files/123").exists())
 
 
 if __name__ == "__main__":

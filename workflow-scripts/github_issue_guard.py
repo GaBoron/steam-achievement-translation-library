@@ -44,11 +44,13 @@ LEGACY_LABELS = {
     "update": "update",
     "outdated": "outdated",
 }
-UPDATE_HELP = "支持的类型：`doc`、`id`、`name`、`store`、`languages`、`summary`、`reason`、`reference`、`notes`。"
+UPDATE_HELP = "支持的类型：`doc`、`variant`、`id`、`name`、`store`、`languages`、`summary`、`reason`、`reference`、`notes`。"
 UPDATE_ALIASES = {
     "doc": "doc",
     "file": "doc",
     "schema": "doc",
+    "variant": "variant",
+    "version": "variant",
     "id": "id",
     "app": "id",
     "appid": "id",
@@ -68,7 +70,7 @@ UPDATE_ALIASES = {
     "reference": "reference",
     "ref": "reference",
 }
-VALUE_COMMANDS = {"id", "name", "store", "languages", "summary", "reason", "reference", "notes"}
+VALUE_COMMANDS = {"variant", "id", "name", "store", "languages", "summary", "reason", "reference", "notes"}
 FIELD_LABELS = {
     "id": ["Steam app ID"],
     "name": ["游戏名", "Game name"],
@@ -80,6 +82,7 @@ FIELD_LABELS = {
     "reference": ["参考来源", "Reference or source"],
     "notes": ["备注", "Notes"],
     "doc": ["成就 schema ZIP", "Achievement schema ZIP"],
+    "variant": ["要更新的版本 ID", "Version ID to update"],
 }
 ATTACHMENT_RE = re.compile(
     r"\[([^\]]+)\]\((https://github\.com/user-attachments/[^\s)]+)\)|(?<!\()(?P<url>https://github\.com/user-attachments/[^\s)]+)"
@@ -324,6 +327,10 @@ def apply_issue_update(repo: str, token: str, event: dict[str, Any]) -> None:
     if str(issue.get("state") or "") != "open":
         comment_issue(repo, token, issue_number, update_error_comment("`/update` 只能用于打开状态的 issue。"))
         return
+    issue_kind = infer_issue_kind(issue)
+    if (command == "variant" or (command == "doc" and value)) and issue_kind != "update":
+        comment_issue(repo, token, issue_number, update_error_comment("版本 ID 只适用于更新已有文件的 issue。"))
+        return
 
     latest_issue = github_request("GET", repo, token, f"/issues/{issue_number}") or issue
     body = str(latest_issue.get("body") or "")
@@ -334,6 +341,12 @@ def apply_issue_update(repo: str, token: str, event: dict[str, Any]) -> None:
             new_value = extract_attachment_markdown(comment_body)
             body, before, after = replace_section(body, FIELD_LABELS["doc"], new_value)
             changes.append({"field": "成就 schema ZIP", "before": before, "after": after})
+            if value:
+                variant_id = value.lower()
+                if not re.fullmatch(r"^[a-z0-9][a-z0-9-]{0,63}$", variant_id):
+                    raise ValueError("版本 ID 只能包含小写字母、数字和连字符，最长 64 个字符。")
+                body, variant_before, variant_after = replace_section(body, FIELD_LABELS["variant"], variant_id)
+                changes.append({"field": "要更新的版本 ID", "before": variant_before, "after": variant_after})
         elif command == "languages":
             languages = comma_languages(value)
             body, before, after = replace_section(body, FIELD_LABELS["languages"], ", ".join(languages))
@@ -341,6 +354,12 @@ def apply_issue_update(repo: str, token: str, event: dict[str, Any]) -> None:
             if find_section(body, FIELD_LABELS["extra_languages"]) is not None:
                 body, extra_before, extra_after = replace_section(body, FIELD_LABELS["extra_languages"], "none")
                 changes.append({"field": "其他 Steam 语言代码", "before": extra_before, "after": extra_after})
+        elif command == "variant":
+            replacement = "" if value.lower() in {"none", "clear", "无"} else value.lower()
+            if replacement and not re.fullmatch(r"^[a-z0-9][a-z0-9-]{0,63}$", replacement):
+                raise ValueError("版本 ID 只能包含小写字母、数字和连字符，最长 64 个字符。")
+            body, before, after = replace_section(body, FIELD_LABELS["variant"], replacement)
+            changes.append({"field": "要更新的版本 ID", "before": before, "after": after})
         else:
             field_labels = FIELD_LABELS[command]
             body, before, after = replace_section(body, field_labels, value)

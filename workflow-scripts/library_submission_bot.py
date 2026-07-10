@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import base64
 import hashlib
 import json
 import math
@@ -31,7 +32,12 @@ LEGACY_OUTDATED_LABEL = "outdated"
 
 MAX_DOWNLOAD_BYTES = 32 * 1024 * 1024
 MAX_SCHEMA_BYTES = 32 * 1024 * 1024
+MAX_PACKAGE_BYTES = 64 * 1024 * 1024
+MAX_MANIFEST_BYTES = 64 * 1024
+MAX_SCHEMA_VARIANTS = 16
 LANGUAGE_RE = re.compile(r"^[a-z][a-z0-9_]{1,31}$")
+VARIANT_ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]{0,63}$")
+VARIANT_MANIFEST_NAME = "translation-variants.json"
 ATTACHMENT_RE = re.compile(
     r"\[([^\]]+)\]\((https://github\.com/user-attachments/[^\s)]+)\)|(?<!\()(?P<url>https://github\.com/user-attachments/[^\s)]+)"
 )
@@ -52,6 +58,33 @@ class Node:
     children: list["Node"] = field(default_factory=list)
     value: str | None = None
     raw_value: bytes = b""
+
+
+@dataclass
+class ResolvedSchemaVariant:
+    variant_id: str
+    path: Path
+    primary: bool
+    note_zh: str = ""
+    note_en: str = ""
+
+
+@dataclass
+class ValidatedSchemaVariant:
+    variant_id: str
+    primary: bool
+    note_zh: str
+    note_en: str
+    data: bytes
+    nodes: list[Node]
+    rows: list[dict[str, str]]
+    coverage: dict[str, int]
+
+
+@dataclass
+class ValidatedSchemaPackage:
+    variants: list[ValidatedSchemaVariant]
+    has_manifest: bool
 
 
 class Reader:
@@ -343,26 +376,120 @@ def safe_archive_members(archive: zipfile.ZipFile) -> list[zipfile.ZipInfo]:
     return members
 
 
-def resolve_schema_upload(downloaded: Path, attachment: Attachment, game_id: str, output_dir: Path) -> Path:
+def clean_variant_note(value: Any, field_name: str) -> str:
+    note = str(value or "").strip()
+    if not note:
+        raise ValueError(f"多版本清单中的 {field_name} 不能为空")
+    if len(note) > 120:
+        raise ValueError(f"多版本清单中的 {field_name} 不能超过 120 个字符")
+    if any(ord(character) < 32 for character in note):
+        raise ValueError(f"多版本清单中的 {field_name} 必须是单行文本")
+    return note
+
+
+def resolve_schema_package(
+    downloaded: Path,
+    attachment: Attachment,
+    game_id: str,
+    output_dir: Path,
+) -> tuple[list[ResolvedSchemaVariant], bool]:
     expected_name = f"UserGameStatsSchema_{game_id}.bin"
     expected_zip = f"UserGameStatsSchema_{game_id}.zip"
     if not attachment.filename_from_url and attachment.filename != expected_zip:
         raise ValueError(f"上传文件名必须是 {expected_zip}，当前是 {attachment.filename}")
-    if zipfile.is_zipfile(downloaded):
-        with zipfile.ZipFile(downloaded) as archive:
-            members = safe_archive_members(archive)
+    if not zipfile.is_zipfile(downloaded):
+        raise ValueError(f"上传文件必须是包含 {expected_name} 的 ZIP")
+
+    with zipfile.ZipFile(downloaded) as archive:
+        members = safe_archive_members(archive)
+        members_by_name = {member.filename.replace("\\", "/"): member for member in members}
+        if len(members_by_name) != len(members):
+            raise ValueError("ZIP 内包含重复文件路径")
+        manifest_member = members_by_name.get(VARIANT_MANIFEST_NAME)
+        if manifest_member is None:
             if len(members) != 1:
-                raise ValueError("ZIP 内必须且只能包含一个 schema 文件")
+                raise ValueError(
+                    f"单版本 ZIP 内必须且只能包含一个 schema；多版本 ZIP 必须包含 {VARIANT_MANIFEST_NAME}"
+                )
             member = members[0]
-            member_name = Path(member.filename.replace("\\", "/")).name
+            member_name = member.filename.replace("\\", "/")
             if member_name != expected_name:
                 raise ValueError(f"ZIP 内必须包含 {expected_name}，当前是 {member_name}")
             if member.file_size > MAX_SCHEMA_BYTES:
                 raise ValueError("ZIP 内的 schema 文件超过 32 MiB 检查上限")
             output_path = output_dir / expected_name
             output_path.write_bytes(archive.read(member))
-            return output_path
-    raise ValueError(f"上传文件必须是包含 {expected_name} 的 ZIP")
+            return [ResolvedSchemaVariant("default", output_path, True)], False
+
+        if manifest_member.file_size > MAX_MANIFEST_BYTES:
+            raise ValueError(f"{VARIANT_MANIFEST_NAME} 超过 64 KiB 上限")
+        try:
+            manifest = json.loads(archive.read(manifest_member).decode("utf-8"))
+        except (UnicodeError, json.JSONDecodeError) as exc:
+            raise ValueError(f"{VARIANT_MANIFEST_NAME} 不是有效的 UTF-8 JSON：{exc}") from exc
+        if not isinstance(manifest, dict) or manifest.get("version") != 1:
+            raise ValueError(f"{VARIANT_MANIFEST_NAME} 必须是 version=1 的 JSON 对象")
+        raw_variants = manifest.get("variants")
+        if not isinstance(raw_variants, list) or not 1 <= len(raw_variants) <= MAX_SCHEMA_VARIANTS:
+            raise ValueError(f"版本清单必须包含 1 到 {MAX_SCHEMA_VARIANTS} 个 variants")
+
+        resolved: list[ResolvedSchemaVariant] = []
+        declared_files: set[str] = set()
+        seen_ids: set[str] = set()
+        primary_count = 0
+        total_schema_bytes = 0
+        for index, raw_variant in enumerate(raw_variants, 1):
+            if not isinstance(raw_variant, dict):
+                raise ValueError(f"variants[{index}] 必须是 JSON 对象")
+            variant_id = str(raw_variant.get("variant_id") or "").strip().lower()
+            if not VARIANT_ID_RE.fullmatch(variant_id):
+                raise ValueError(f"无效的 variant_id：{variant_id or '<empty>'}")
+            if variant_id in seen_ids:
+                raise ValueError(f"重复的 variant_id：{variant_id}")
+            seen_ids.add(variant_id)
+            primary = raw_variant.get("primary") is True
+            primary_count += int(primary)
+            if primary and variant_id != "default":
+                raise ValueError("主版本的 variant_id 必须是 default")
+            if not primary and variant_id == "default":
+                raise ValueError("variant_id=default 只能用于主版本")
+            expected_file = expected_name if primary else f"{variant_id}/{expected_name}"
+            schema_file = str(raw_variant.get("file") or "").strip().replace("\\", "/")
+            if schema_file != expected_file:
+                raise ValueError(f"版本 {variant_id} 的 file 必须是 {expected_file}")
+            member = members_by_name.get(schema_file)
+            if member is None:
+                raise ValueError(f"ZIP 缺少清单声明的文件：{schema_file}")
+            if member.file_size > MAX_SCHEMA_BYTES:
+                raise ValueError(f"版本 {variant_id} 的 schema 超过 32 MiB 检查上限")
+            total_schema_bytes += member.file_size
+            if total_schema_bytes > MAX_PACKAGE_BYTES:
+                raise ValueError("多版本 schema 解压后总大小超过 64 MiB 检查上限")
+            declared_files.add(schema_file)
+            destination = output_dir / Path(*PurePosixPath(schema_file).parts)
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_bytes(archive.read(member))
+            resolved.append(ResolvedSchemaVariant(
+                variant_id=variant_id,
+                path=destination,
+                primary=primary,
+                note_zh=clean_variant_note(raw_variant.get("note_zh"), f"variants[{index}].note_zh"),
+                note_en=clean_variant_note(raw_variant.get("note_en"), f"variants[{index}].note_en"),
+            ))
+        if primary_count != 1:
+            raise ValueError("多版本清单必须且只能声明一个 primary=true 的主版本")
+        extra_files = set(members_by_name) - declared_files - {VARIANT_MANIFEST_NAME}
+        if extra_files:
+            raise ValueError("ZIP 包含清单未声明的文件：" + ", ".join(sorted(extra_files)))
+        resolved.sort(key=lambda variant: (not variant.primary, variant.variant_id))
+        return resolved, True
+
+
+def resolve_schema_upload(downloaded: Path, attachment: Attachment, game_id: str, output_dir: Path) -> Path:
+    variants, has_manifest = resolve_schema_package(downloaded, attachment, game_id, output_dir)
+    if has_manifest or len(variants) != 1:
+        raise ValueError("此操作只接受单版本 ZIP")
+    return variants[0].path
 
 
 def load_index() -> dict[str, Any]:
@@ -424,6 +551,178 @@ def schema_file_size_label(size_bytes: int) -> str:
     if size_bytes < 1024:
         return f"{size_bytes} B"
     return f"{math.floor((size_bytes / 1024) + 0.5)} KB"
+
+
+def schema_variant_relative_path(game_id: str, variant_id: str, primary: bool) -> str:
+    filename = f"UserGameStatsSchema_{game_id}.bin"
+    return f"files/{game_id}/{filename}" if primary else f"files/{game_id}/{variant_id}/{filename}"
+
+
+def entry_schema_variants(entry: dict[str, Any]) -> list[dict[str, Any]]:
+    """Return normalized variant records while accepting the legacy schema_files shape."""
+    primary_file = str(entry.get("schema_file") or "").strip()
+    raw_variants = entry.get("schema_files")
+    variants = raw_variants if isinstance(raw_variants, list) and raw_variants else [{"schema_file": primary_file}]
+    normalized: list[dict[str, Any]] = []
+    seen_ids: set[str] = set()
+    for raw_variant in variants:
+        if not isinstance(raw_variant, dict):
+            continue
+        schema_file = str(raw_variant.get("schema_file") or raw_variant.get("path") or "").strip().replace("\\", "/")
+        if not schema_file:
+            continue
+        primary = schema_file == primary_file or raw_variant.get("primary") is True
+        inferred_id = "default" if primary else PurePosixPath(schema_file).parent.name
+        variant_id = str(raw_variant.get("variant_id") or inferred_id).strip().lower()
+        if not VARIANT_ID_RE.fullmatch(variant_id) or variant_id in seen_ids:
+            continue
+        seen_ids.add(variant_id)
+        record = dict(raw_variant)
+        record.update({
+            "variant_id": variant_id,
+            "primary": primary,
+            "schema_file": schema_file,
+        })
+        if primary:
+            record.setdefault("file_size_bytes", entry.get("file_size_bytes"))
+            record.setdefault("sha256", entry.get("sha256"))
+            record.setdefault("achievement_count", entry.get("achievement_count"))
+        normalized.append(record)
+    normalized.sort(key=lambda variant: (not bool(variant.get("primary")), str(variant.get("variant_id"))))
+    return normalized
+
+
+def validated_entry_schema_variants(
+    entry: dict[str, Any],
+    *,
+    require_metadata: bool = False,
+) -> list[dict[str, Any]]:
+    records = entry_schema_variants(entry)
+    raw_variants = entry.get("schema_files")
+    if isinstance(raw_variants, list) and len(records) != len(raw_variants):
+        raise ValueError("schema_files 包含无效或重复的版本记录")
+    if not records:
+        raise ValueError("没有可用的 schema 版本记录")
+    primary_records = [record for record in records if record.get("primary")]
+    if len(primary_records) != 1 or str(primary_records[0].get("variant_id")) != "default":
+        raise ValueError("版本记录必须且只能包含一个 variant_id=default 的主版本")
+    game_id = str(entry.get("game_id") or PurePosixPath(str(entry.get("schema_file") or "")).parent.name)
+    explicit_variants = isinstance(raw_variants, list)
+    for record in records:
+        variant_id = str(record.get("variant_id") or "")
+        expected_path = schema_variant_relative_path(game_id, variant_id, bool(record.get("primary")))
+        if str(record.get("schema_file") or "") != expected_path:
+            raise ValueError(f"版本 {variant_id} 的路径必须是 {expected_path}")
+        if explicit_variants:
+            clean_variant_note(record.get("note_zh"), f"版本 {variant_id} 的 note_zh")
+            clean_variant_note(record.get("note_en"), f"版本 {variant_id} 的 note_en")
+        if require_metadata:
+            file_size = record.get("file_size_bytes")
+            count = record.get("achievement_count")
+            digest = str(record.get("sha256") or "")
+            if not isinstance(file_size, int) or isinstance(file_size, bool) or file_size < 0:
+                raise ValueError(f"版本 {variant_id} 的 file_size_bytes 无效")
+            if not isinstance(count, int) or isinstance(count, bool) or count < 0:
+                raise ValueError(f"版本 {variant_id} 的 achievement_count 无效")
+            if not re.fullmatch(r"[0-9a-f]{64}", digest):
+                raise ValueError(f"版本 {variant_id} 的 sha256 无效")
+    return records
+
+
+def validated_variant_record(game_id: str, variant: ValidatedSchemaVariant) -> dict[str, Any]:
+    return {
+        "variant_id": variant.variant_id,
+        "primary": variant.primary,
+        "schema_file": schema_variant_relative_path(game_id, variant.variant_id, variant.primary),
+        "note_zh": variant.note_zh,
+        "note_en": variant.note_en,
+        "file_size_bytes": len(variant.data),
+        "sha256": sha256(variant.data),
+        "achievement_count": len(variant.rows),
+    }
+
+
+def _write_bytes_atomic(path: Path, data: bytes) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_name(f".{path.name}.tmp")
+    try:
+        temporary.write_bytes(data)
+        temporary.replace(path)
+    finally:
+        if temporary.exists():
+            temporary.unlink()
+
+
+def _remove_obsolete_variant_files(existing_records: list[dict[str, Any]], keep_files: set[str], game_id: str) -> None:
+    game_root = (FILES_ROOT / game_id).resolve()
+    for record in existing_records:
+        schema_file = str(record.get("schema_file") or "")
+        if not schema_file or schema_file in keep_files:
+            continue
+        path = repository_path(schema_file)
+        try:
+            path.relative_to(game_root)
+        except ValueError as exc:
+            raise ValueError(f"版本文件不在 files/{game_id}/ 范围内：{schema_file}") from exc
+        if path.is_file():
+            path.unlink()
+        parent = path.parent
+        while parent != game_root and parent.is_relative_to(game_root):
+            try:
+                parent.rmdir()
+            except OSError:
+                break
+            parent = parent.parent
+
+
+def save_schema_package(
+    package: ValidatedSchemaPackage,
+    game_id: str,
+    existing_entry: dict[str, Any] | None = None,
+    *,
+    target_variant_id: str = "",
+) -> tuple[list[ValidatedSchemaVariant], list[dict[str, Any]]]:
+    existing_records = entry_schema_variants(existing_entry or {})
+    if target_variant_id:
+        if len(existing_records) < 2:
+            raise ValueError("只有已包含多个版本的游戏才能指定 variant_id 进行单独更新")
+        if package.has_manifest or len(package.variants) != 1:
+            raise ValueError("指定 variant_id 时只能上传不含多版本清单的单版本 ZIP")
+        existing_by_id = {str(record["variant_id"]): record for record in existing_records}
+        current = existing_by_id.get(target_variant_id)
+        if current is None:
+            raise ValueError(f"找不到 variant_id={target_variant_id}；新增版本请提交完整多版本包")
+        uploaded = package.variants[0]
+        effective = ValidatedSchemaVariant(
+            variant_id=target_variant_id,
+            primary=bool(current.get("primary")),
+            note_zh=str(current.get("note_zh") or ""),
+            note_en=str(current.get("note_en") or ""),
+            data=uploaded.data,
+            nodes=uploaded.nodes,
+            rows=uploaded.rows,
+            coverage=uploaded.coverage,
+        )
+        record = validated_variant_record(game_id, effective)
+        existing_by_id[target_variant_id] = record
+        records = list(existing_by_id.values())
+        records.sort(key=lambda variant: (not bool(variant.get("primary")), str(variant.get("variant_id"))))
+        path = repository_path(record["schema_file"])
+        _write_bytes_atomic(path, effective.data)
+        return [effective], records
+
+    if not package.has_manifest and len(existing_records) > 1:
+        raise ValueError(
+            "该游戏包含多个版本；请上传带 translation-variants.json 的完整多版本包，"
+            "或在“要更新的版本 ID”中指定一个 variant_id"
+        )
+    effective_variants = package.variants
+    records = [validated_variant_record(game_id, variant) for variant in effective_variants]
+    keep_files = {str(record["schema_file"]) for record in records}
+    for variant, record in zip(effective_variants, records, strict=True):
+        _write_bytes_atomic(repository_path(str(record["schema_file"])), variant.data)
+    _remove_obsolete_variant_files(existing_records, keep_files, game_id)
+    return effective_variants, records
 
 
 def refresh_index_file_sizes(index: dict[str, Any]) -> None:
@@ -721,15 +1020,21 @@ def language_coverage(rows: list[dict[str, str]], languages: list[str]) -> tuple
     coverage: dict[str, int] = {}
     missing: dict[str, list[str]] = {}
     for language in languages:
+        def is_complete(row: dict[str, str]) -> bool:
+            name_present = bool(row.get(f"{language}_name", "").strip())
+            description_present = bool(row.get(f"{language}_description", "").strip())
+            # Steam may intentionally leave the original English description empty.
+            return name_present and (description_present or language == "english")
+
         present = [
             row for row in rows
-            if row.get(f"{language}_name", "").strip() and row.get(f"{language}_description", "").strip()
+            if is_complete(row)
         ]
         coverage[language] = len(present)
         missing[language] = [
             row.get("api_name", "")
             for row in rows
-            if not row.get(f"{language}_name", "").strip() or not row.get(f"{language}_description", "").strip()
+            if not is_complete(row)
         ]
     return coverage, missing
 
@@ -862,23 +1167,56 @@ def validate_common_fields(fields: dict[str, str], *, require_languages: bool) -
     return game_name, game_id, store_url, languages, errors
 
 
+def validate_schema_package(
+    attachment: Attachment,
+    token: str | None,
+    game_id: str,
+    languages: list[str],
+) -> ValidatedSchemaPackage:
+    with tempfile.TemporaryDirectory() as tmp:
+        tmp_dir = Path(tmp)
+        # The Markdown label is untrusted user input; never use it as a path.
+        downloaded = tmp_dir / "attachment.zip"
+        download_attachment(attachment, token, downloaded)
+        resolved_variants, has_manifest = resolve_schema_package(downloaded, attachment, game_id, tmp_dir)
+        variants: list[ValidatedSchemaVariant] = []
+        for resolved in resolved_variants:
+            data, nodes = load_schema(resolved.path)
+            validate_schema_structure(data, nodes)
+            rows = achievement_rows(nodes, languages)
+            coverage = require_language_coverage(rows, languages)
+            variants.append(ValidatedSchemaVariant(
+                variant_id=resolved.variant_id,
+                primary=resolved.primary,
+                note_zh=resolved.note_zh,
+                note_en=resolved.note_en,
+                data=data,
+                nodes=nodes,
+                rows=rows,
+                coverage=coverage,
+            ))
+        hashes: dict[str, str] = {}
+        for variant in variants:
+            digest = sha256(variant.data)
+            previous_id = hashes.get(digest)
+            if previous_id is not None:
+                raise ValueError(f"版本 {variant.variant_id} 与 {previous_id} 的文件内容完全相同")
+            hashes[digest] = variant.variant_id
+        return ValidatedSchemaPackage(variants=variants, has_manifest=has_manifest)
+
+
 def validate_schema_submission(
     attachment: Attachment,
     token: str | None,
     game_id: str,
     languages: list[str],
 ) -> tuple[bytes, list[Node], list[dict[str, str]], dict[str, int]]:
-    with tempfile.TemporaryDirectory() as tmp:
-        tmp_dir = Path(tmp)
-        # The Markdown label is untrusted user input; never use it as a path.
-        downloaded = tmp_dir / "attachment.zip"
-        download_attachment(attachment, token, downloaded)
-        schema_path = resolve_schema_upload(downloaded, attachment, game_id, tmp_dir)
-        data, nodes = load_schema(schema_path)
-        validate_schema_structure(data, nodes)
-        rows = achievement_rows(nodes, languages)
-        coverage = require_language_coverage(rows, languages)
-        return data, nodes, rows, coverage
+    """Compatibility wrapper for call sites that intentionally accept one schema only."""
+    package = validate_schema_package(attachment, token, game_id, languages)
+    if package.has_manifest or len(package.variants) != 1:
+        raise ValueError("此操作只接受单版本 ZIP")
+    variant = package.variants[0]
+    return variant.data, variant.nodes, variant.rows, variant.coverage
 
 
 def build_entry(
@@ -894,6 +1232,7 @@ def build_entry(
     source_issue: str,
     contributor: str,
     timestamp: str,
+    schema_files: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     contributors = entry_contributors(existing or {})
     if contributor:
@@ -915,8 +1254,53 @@ def build_entry(
         "status": "current",
     })
     entry.setdefault("submitted_at", timestamp)
+    if schema_files is not None:
+        entry["schema_files"] = schema_files
     entry.pop("outdated", None)
     return entry
+
+
+def schema_variants_marker(schema_files: list[dict[str, Any]]) -> str:
+    payload = json.dumps(schema_files, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+    encoded = base64.urlsafe_b64encode(payload).decode("ascii")
+    return f"<!-- translation-library-schema-variants:{encoded} -->"
+
+
+def parse_schema_variants_marker(body: str) -> list[dict[str, Any]] | None:
+    match = re.search(r"<!-- translation-library-schema-variants:([A-Za-z0-9_=-]+) -->", body)
+    if not match:
+        return None
+    try:
+        decoded = base64.urlsafe_b64decode(match.group(1).encode("ascii"))
+        value = json.loads(decoded.decode("utf-8"))
+    except (ValueError, UnicodeError, json.JSONDecodeError) as exc:
+        raise ValueError(f"PR 中的 schema 版本元数据无效：{exc}") from exc
+    if not isinstance(value, list) or not all(isinstance(item, dict) for item in value):
+        raise ValueError("PR 中的 schema 版本元数据必须是对象数组")
+    return value
+
+
+def build_schema_variants_section(entry: dict[str, Any]) -> str:
+    raw_variants = entry.get("schema_files")
+    if not isinstance(raw_variants, list) or not raw_variants:
+        return ""
+    variants = validated_entry_schema_variants(entry, require_metadata=True)
+    lines = [
+        "## Schema Variants",
+        "",
+        "| Variant ID | Role | Chinese note | English note | Achievements | Size | SHA-256 | File |",
+        "| --- | --- | --- | --- | ---: | ---: | --- | --- |",
+    ]
+    for variant in variants:
+        role = "Primary" if variant.get("primary") else "Variant"
+        size = schema_file_size_label(int(variant.get("file_size_bytes") or 0))
+        lines.append(
+            f"| `{variant.get('variant_id', '')}` | {role} | {escape_table(str(variant.get('note_zh') or ''))} | "
+            f"{escape_table(str(variant.get('note_en') or ''))} | {variant.get('achievement_count', '')} | {size} | "
+            f"`{variant.get('sha256', '')}` | `{variant.get('schema_file', '')}` |"
+        )
+    lines.extend(["", schema_variants_marker(variants)])
+    return "\n".join(lines)
 
 
 def build_submission_pr_body(
@@ -930,18 +1314,28 @@ def build_submission_pr_body(
     update_diff: dict[str, Any] | None = None,
     previous_hash: str = "",
     issue_url: str = "",
+    review_variant_id: str = "default",
+    review_variant_hash: str = "",
+    variant_changes: dict[str, list[str]] | None = None,
 ) -> str:
     title = "Translation Library Update" if kind == "update" else "Translation Library Submission"
-    coverage_lines = "\n".join(f"- `{language}`: {count}/{entry['achievement_count']} achievements" for language, count in coverage.items())
+    coverage_lines = "\n".join(f"- `{language}`: {count}/{len(rows)} achievements" for language, count in coverage.items())
     file_size = entry_file_size_label(entry)
+    variants_section = build_schema_variants_section(entry)
     update_section = ""
-    if kind == "update" and update_diff is not None:
+    if kind == "update" and (update_diff is not None or variant_changes is not None):
+        variant_changes = variant_changes or {"added": [], "removed": [], "changed": [review_variant_id]}
+        update_diff = update_diff or {"added": [], "deleted": [], "changed": []}
         update_section = f"""
 ## Update Check
 
 - Contributor summary: {escape_table(update_summary)}
+- Reviewed variant: `{review_variant_id}`
 - Previous SHA-256: `{previous_hash}`
-- New SHA-256: `{entry['sha256']}`
+- New SHA-256: `{review_variant_hash or entry['sha256']}`
+- Added variants: {', '.join(f'`{item}`' for item in variant_changes['added']) or 'None'}
+- Removed variants: {', '.join(f'`{item}`' for item in variant_changes['removed']) or 'None'}
+- Changed variants: {', '.join(f'`{item}`' for item in variant_changes['changed']) or 'None'}
 - Added achievements: {len(update_diff['added'])}
 - Deleted achievements: {len(update_diff['deleted'])}
 - Changed achievements: {len(update_diff['changed'])}
@@ -973,12 +1367,14 @@ def build_submission_pr_body(
 - Submitted at: {entry.get('submitted_at', '')}
 - Updated at: {entry.get('updated_at', '')}
 
+{variants_section}
+
 ## Language Coverage
 
 {coverage_lines}
 {update_section}
 
-## Achievement Text
+## Achievement Text (`{review_variant_id}`)
 
 {build_review_table(rows, languages)}
 """
@@ -990,6 +1386,7 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
     game_name, game_id, store_url, languages, errors = validate_common_fields(fields, require_languages=True)
     attachment = extract_attachment(field_value(fields, ["Achievement schema ZIP", "成就 schema ZIP"]))
     update_summary = first_line(field_value(fields, ["Update summary", "更新内容摘要"]))
+    target_variant_id = first_line(field_value(fields, ["Version ID to update", "要更新的版本 ID"])).lower()
     index = load_index()
     existing = existing_entry(index, game_id) if game_id else None
 
@@ -999,6 +1396,10 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
         errors.append(f"Steam app ID {game_id} 不存在于 index.json；正在打开的 PR 不算已收录条目。")
     if kind == "update" and not update_summary:
         errors.append("必须填写更新内容摘要。")
+    if target_variant_id and kind != "update":
+        errors.append("只有更新已有文件时才能指定版本 ID。")
+    if target_variant_id and not VARIANT_ID_RE.fullmatch(target_variant_id):
+        errors.append("版本 ID 只能包含小写字母、数字和连字符，最长 64 个字符。")
     if not attachment:
         errors.append("必须附加且只能附加一个 UserGameStatsSchema_<app_id>.zip 文件。")
     if errors:
@@ -1006,44 +1407,104 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
 
     assert attachment is not None
     try:
-        data, nodes, rows, coverage = validate_schema_submission(attachment, token, game_id, languages)
+        package = validate_schema_package(attachment, token, game_id, languages)
     except Exception as exc:  # noqa: BLE001 - this becomes a user-facing review message.
         write_failure([f"无法校验上传的 schema：{exc}。"], retry_allowed=True)
 
     previous_hash = ""
     update_diff: dict[str, Any] | None = None
+    variant_changes: dict[str, list[str]] | None = None
+    review_variant_id = target_variant_id or "default"
     if kind == "update":
         assert existing is not None
-        old_schema = repository_path(str(existing.get("schema_file") or ""))
-        if not old_schema.is_file():
-            write_failure([f"仓库中找不到当前已收录的 schema 文件：{existing.get('schema_file')}。"], retry_allowed=False)
-        old_data, old_nodes = load_schema(old_schema)
-        previous_hash = sha256(old_data)
-        if old_data == data:
-            write_failure(["上传的 schema 与库里当前文件字节级完全相同，因此没有创建更新 PR。"], retry_allowed=True)
-        diff_languages = sorted(set(languages + list(existing.get("languages", []))))
-        old_rows = achievement_rows(old_nodes, diff_languages)
-        new_rows = achievement_rows(nodes, diff_languages)
-        update_diff = summarize_update_diff(old_rows, new_rows, diff_languages)
+        existing_records = validated_entry_schema_variants(existing, require_metadata=True)
+        existing_by_id = {str(record["variant_id"]): record for record in existing_records}
+        if target_variant_id:
+            if languages != sorted(set(str(item) for item in existing.get("languages", []))):
+                write_failure(["单独更新一个版本时不能修改全局语言列表；请提交完整多版本包。"], retry_allowed=True)
+            current = existing_by_id.get(target_variant_id)
+            if current is None:
+                write_failure([f"找不到 variant_id={target_variant_id}；新增版本请提交完整多版本包。"], retry_allowed=True)
+            if package.has_manifest:
+                write_failure(["指定版本 ID 时只能上传不含多版本清单的单版本 ZIP。"], retry_allowed=True)
+            old_data, old_nodes = load_schema(repository_path(str(current["schema_file"])))
+            uploaded = package.variants[0]
+            previous_hash = sha256(old_data)
+            if old_data == uploaded.data:
+                write_failure([f"上传文件与当前 {target_variant_id} 版本字节级完全相同。"], retry_allowed=True)
+            diff_languages = sorted(set(languages + list(existing.get("languages", []))))
+            update_diff = summarize_update_diff(
+                achievement_rows(old_nodes, diff_languages),
+                achievement_rows(uploaded.nodes, diff_languages),
+                diff_languages,
+            )
+            variant_changes = {"added": [], "removed": [], "changed": [target_variant_id]}
+        else:
+            if len(existing_records) > 1 and not package.has_manifest:
+                write_failure([
+                    "该游戏包含多个版本。请上传带 translation-variants.json 的完整多版本包，"
+                    "或填写“要更新的版本 ID”以单独更新一个版本。"
+                ], retry_allowed=True)
+            new_by_id = {variant.variant_id: variant for variant in package.variants}
+            old_ids = set(existing_by_id)
+            new_ids = set(new_by_id)
+            changed_ids: list[str] = []
+            for variant_id in sorted(old_ids & new_ids):
+                old_data = repository_path(str(existing_by_id[variant_id]["schema_file"])).read_bytes()
+                if old_data != new_by_id[variant_id].data:
+                    changed_ids.append(variant_id)
+            variant_changes = {
+                "added": sorted(new_ids - old_ids),
+                "removed": sorted(old_ids - new_ids),
+                "changed": changed_ids,
+            }
+            if not any(variant_changes.values()):
+                write_failure(["上传包中的所有版本都与当前翻译库字节级完全相同。"], retry_allowed=True)
+            review_variant_id = changed_ids[0] if changed_ids else ("default" if "default" in new_by_id else sorted(new_ids)[0])
+            review_variant = new_by_id[review_variant_id]
+            old_record = existing_by_id.get(review_variant_id)
+            if old_record:
+                old_data, old_nodes = load_schema(repository_path(str(old_record["schema_file"])))
+                previous_hash = sha256(old_data)
+                diff_languages = sorted(set(languages + list(existing.get("languages", []))))
+                update_diff = summarize_update_diff(
+                    achievement_rows(old_nodes, diff_languages),
+                    achievement_rows(review_variant.nodes, diff_languages),
+                    diff_languages,
+                )
 
-    target_dir = FILES_ROOT / game_id
-    target_dir.mkdir(parents=True, exist_ok=True)
-    target_file = target_dir / f"UserGameStatsSchema_{game_id}.bin"
-    target_file.write_bytes(data)
+    try:
+        effective_variants, schema_files = save_schema_package(
+            package,
+            game_id,
+            existing,
+            target_variant_id=target_variant_id,
+        )
+    except Exception as exc:  # noqa: BLE001 - this becomes a user-facing review message.
+        write_failure([f"无法保存 schema 版本：{exc}。"], retry_allowed=True)
+
+    primary_record = next((record for record in schema_files if record.get("primary")), None)
+    if primary_record is None:
+        write_failure(["保存后的版本集合缺少主版本。"], retry_allowed=False)
+    review_variant = next((variant for variant in effective_variants if variant.variant_id == review_variant_id), effective_variants[0])
+    rows = review_variant.rows
+    coverage = review_variant.coverage
 
     timestamp = now_utc()
+    keep_schema_files = package.has_manifest or target_variant_id or isinstance((existing or {}).get("schema_files"), list)
     entry = build_entry(
         existing,
         game_name=game_name,
         game_id=game_id,
         store_url=store_url,
         languages=languages,
-        schema_file=str(target_file.relative_to(REPO_ROOT)).replace("\\", "/"),
-        achievement_count=len(rows),
-        schema_hash=sha256(data),
+        schema_file=str(primary_record["schema_file"]),
+        achievement_count=int(primary_record["achievement_count"]),
+        schema_hash=str(primary_record["sha256"]),
         source_issue=issue.get("html_url", ""),
         contributor=issue_author(issue),
         timestamp=timestamp,
+        schema_files=schema_files if keep_schema_files else None,
     )
     issue_number = int(issue["number"])
     branch_prefix = "translation-library/update" if kind == "update" else "translation-library/issue"
@@ -1057,6 +1518,8 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
         "commit_message": f"data: {'update' if kind == 'update' else 'add'} achievement translations from issue #{issue_number}",
         "game_id": game_id,
         "game_name": game_name,
+        "schema_variant_count": len(schema_files),
+        "updated_variant_id": target_variant_id or None,
     }
     Path("submission_result.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     Path("pr_title.txt").write_text(result["pr_title"] + "\n", encoding="utf-8")
@@ -1071,6 +1534,9 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
             update_diff=update_diff,
             previous_hash=previous_hash,
             issue_url=issue.get("html_url", ""),
+            review_variant_id=review_variant.variant_id,
+            review_variant_hash=sha256(review_variant.data),
+            variant_changes=variant_changes,
         ),
         encoding="utf-8",
     )

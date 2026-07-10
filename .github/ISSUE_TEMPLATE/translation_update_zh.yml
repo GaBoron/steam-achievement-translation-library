@@ -53,11 +53,17 @@ body:
         常用语言代码：`schinese` 简体中文、`tchinese` 繁体中文、`english` 英语、`japanese` 日语、`koreana` 韩语、`french` 法语、`german` 德语、`italian` 意大利语、`spanish` 西班牙语。
 
         只填写文件里实际完整存在的语言；多个代码用半角逗号分隔。
+  - type: input
+    id: variant_id
+    attributes:
+      label: 要更新的版本 ID
+      description: 仅在游戏已有多个版本、且本次只替换其中一个版本时填写；整包更新或单版本游戏留空。
+      placeholder: with-unlock-conditions
   - type: textarea
     id: schema_zip
     attributes:
       label: 成就 schema ZIP
-      description: 上传新版 `UserGameStatsSchema_<app_id>.zip`；ZIP 内必须只包含一个同名 `.bin`。
+      description: 单版本更新上传只含同名 `.bin` 的 ZIP；整包更新多个版本时，ZIP 必须包含 `translation-variants.json`。
       placeholder: 请把 ZIP 拖到这里。
     validations:
       required: true

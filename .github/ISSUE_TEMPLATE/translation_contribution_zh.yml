@@ -8,7 +8,7 @@ body:
       value: |
         请先在 `INDEX.md` 或 `index.json` 搜索 Steam app ID，确认库里还没有这个游戏。
 
-        上传文件必须是 `UserGameStatsSchema_<app_id>.zip`，ZIP 内只放一个同名 `.bin` 文件。
+        上传文件必须是 `UserGameStatsSchema_<app_id>.zip`。单版本 ZIP 只放一个同名 `.bin`；多版本 ZIP 使用 `translation-variants.json` 声明全部版本。
   - type: input
     id: game_name
     attributes:
@@ -51,7 +51,7 @@ body:
     id: schema_zip
     attributes:
       label: 成就 schema ZIP
-      description: 上传 `UserGameStatsSchema_<app_id>.zip`；ZIP 内必须只包含一个 `UserGameStatsSchema_<app_id>.bin`。
+      description: 上传 `UserGameStatsSchema_<app_id>.zip`；单版本包只含一个同名 `.bin`，多版本包还需包含 `translation-variants.json`。
       placeholder: 请把 ZIP 拖到这里。
     validations:
       required: true

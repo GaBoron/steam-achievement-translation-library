@@ -23,6 +23,7 @@ from library_submission_bot import (
     sort_entries,
     steam_store_id,
     validate_schema_structure,
+    validated_entry_schema_variants,
 )
 
 
@@ -48,32 +49,13 @@ def _integer(value: Any) -> int | None:
     return None
 
 
-def _schema_variants(entry: dict[str, Any]) -> list[tuple[str, int | None]]:
-    variants: list[tuple[str, int | None]] = []
-    schema_file = str(entry.get("schema_file") or "").strip()
-    if schema_file:
-        variants.append((schema_file, _integer(entry.get("file_size_bytes"))))
-    raw_variants = entry.get("schema_files")
-    if isinstance(raw_variants, list):
-        for variant in raw_variants:
-            if not isinstance(variant, dict):
-                continue
-            path = str(variant.get("schema_file") or variant.get("path") or "").strip()
-            if path:
-                variants.append((path, _integer(variant.get("file_size_bytes"))))
-    deduplicated: dict[str, int | None] = {}
-    for path, size in variants:
-        deduplicated[path] = size if size is not None else deduplicated.get(path)
-    return list(deduplicated.items())
-
-
 def _check_schema_path(
     report: CheckReport,
     game_id: str,
-    schema_file: str,
-    expected_size: int | None,
+    variant: dict[str, Any],
     expected_paths: set[Path],
 ) -> tuple[bytes, list[Any]] | None:
+    schema_file = str(variant.get("schema_file") or "")
     try:
         path = repository_path(schema_file)
         path.relative_to(FILES_ROOT.resolve())
@@ -85,6 +67,7 @@ def _check_schema_path(
         report.error(f"{game_id}: indexed schema is missing: {schema_file}")
         return None
     actual_size = path.stat().st_size
+    expected_size = _integer(variant.get("file_size_bytes"))
     if expected_size is None:
         report.error(f"{game_id}: file_size_bytes is missing or invalid for {schema_file}")
     elif expected_size != actual_size:
@@ -96,6 +79,18 @@ def _check_schema_path(
         report.error(f"{game_id}: invalid schema {schema_file}: {exc}")
         return None
     report.checked_files += 1
+    expected_hash = str(variant.get("sha256") or "")
+    if not expected_hash:
+        report.error(f"{game_id}: SHA-256 is missing for variant {variant.get('variant_id')}")
+    elif sha256(data) != expected_hash:
+        report.error(f"{game_id}: SHA-256 mismatch for variant {variant.get('variant_id')}")
+    rows = achievement_rows(nodes, [])
+    expected_count = _integer(variant.get("achievement_count"))
+    if expected_count is None or expected_count != len(rows):
+        report.error(
+            f"{game_id}: achievement_count mismatch for variant {variant.get('variant_id')}: "
+            f"index={variant.get('achievement_count')!r}, actual={len(rows)}"
+        )
     return data, nodes
 
 
@@ -144,16 +139,40 @@ def check_repository(*, strict_language_coverage: bool = False) -> CheckReport:
         if len(normalized_languages) != len(set(normalized_languages)):
             report.error(f"{game_id}: duplicate language codes")
 
-        variants = _schema_variants(raw_entry)
-        if not variants:
-            report.error(f"{game_id}: no schema file is indexed")
+        try:
+            variants = validated_entry_schema_variants(raw_entry, require_metadata=True)
+        except ValueError as exc:
+            report.error(f"{game_id}: invalid schema variant metadata: {exc}")
             continue
-        primary_file = str(raw_entry.get("schema_file") or "")
         primary_result: tuple[bytes, list[Any]] | None = None
-        for schema_file, expected_size in variants:
-            result = _check_schema_path(report, game_id, schema_file, expected_size, expected_paths)
-            if schema_file == primary_file:
+        variant_hashes: dict[str, str] = {}
+        for variant in variants:
+            schema_file = str(variant.get("schema_file") or "")
+            result = _check_schema_path(report, game_id, variant, expected_paths)
+            if variant.get("primary"):
                 primary_result = result
+            if result is not None:
+                variant_data, variant_nodes = result
+                digest = sha256(variant_data)
+                duplicate_id = variant_hashes.get(digest)
+                if duplicate_id is not None:
+                    report.error(
+                        f"{game_id}: variants {duplicate_id} and {variant.get('variant_id')} have identical files"
+                    )
+                variant_hashes[digest] = str(variant.get("variant_id"))
+                variant_rows = achievement_rows(variant_nodes, normalized_languages)
+                _coverage, missing = language_coverage(variant_rows, normalized_languages)
+                for language, missing_ids in missing.items():
+                    if not missing_ids:
+                        continue
+                    message = (
+                        f"{game_id}/{variant.get('variant_id')}: {language} is incomplete for "
+                        f"{len(missing_ids)} achievements ({', '.join(missing_ids[:5])})"
+                    )
+                    if strict_language_coverage:
+                        report.error(message)
+                    else:
+                        report.warn(message)
         if primary_result is None:
             continue
 
@@ -164,15 +183,6 @@ def check_repository(*, strict_language_coverage: bool = False) -> CheckReport:
         expected_count = _integer(raw_entry.get("achievement_count"))
         if expected_count is None or expected_count != len(rows):
             report.error(f"{game_id}: achievement_count mismatch: index={raw_entry.get('achievement_count')!r}, actual={len(rows)}")
-        _coverage, missing = language_coverage(rows, normalized_languages)
-        for language, missing_ids in missing.items():
-            if not missing_ids:
-                continue
-            message = f"{game_id}: {language} is incomplete for {len(missing_ids)} achievements ({', '.join(missing_ids[:5])})"
-            if strict_language_coverage:
-                report.error(message)
-            else:
-                report.warn(message)
 
     actual_paths = {path.resolve() for path in FILES_ROOT.rglob("*.bin") if path.is_file()}
     for path in sorted(actual_paths - expected_paths):
