@@ -8,7 +8,7 @@ Thank you for contributing to the Steam Achievement Translation Library. Follow 
 | --- | --- |
 | Steam app ID | Search [INDEX_EN.md](INDEX_EN.md) or `index.json` to choose either a new submission or an update |
 | File name | Use `UserGameStatsSchema_<app_id>.bin` |
-| ZIP | Upload `UserGameStatsSchema_<app_id>.zip` containing exactly one matching `.bin` file |
+| ZIP | Upload `UserGameStatsSchema_<app_id>.zip` . A single-version ZIP contains one matching `.bin` ; a multi-version ZIP declares every version in `translation-variants.json` |
 | Languages | List every language code that has complete achievement names and descriptions; separate multiple codes with half-width commas |
 | Game name | Use the Steam store name; if it is not Chinese, you may append a Chinese translation after a space |
 
