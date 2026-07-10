@@ -21,10 +21,11 @@ from library_submission_bot import (
     escape_table,
     existing_entry,
     extract_attachment,
-    language_coverage,
     load_index,
     load_schema,
     now_utc,
+    repository_path,
+    require_language_coverage,
     schema_file_size_bytes,
     schema_file_size_label,
     sha256,
@@ -32,6 +33,7 @@ from library_submission_bot import (
     summarize_update_diff,
     upsert_index_entry,
     validate_schema_submission,
+    validate_schema_structure,
     write_human_index,
     write_index,
 )
@@ -40,6 +42,7 @@ ROOT = Path(__file__).resolve().parent.parent
 FILES_ROOT = ROOT / "files"
 WAIT_FOR_UPDATE_LABEL = "等待更新"
 BOT_USERS = {"github-actions[bot]"}
+TRUSTED_ASSOCIATIONS = {"OWNER", "MEMBER", "COLLABORATOR"}
 UPDATE_LABELS = {"更新文件", "update"}
 OUTDATED_LABELS = {"报告过期", "outdated"}
 
@@ -158,6 +161,30 @@ def is_bot(actor: str) -> bool:
     return actor in BOT_USERS or actor.endswith("[bot]")
 
 
+def comment_actor(event: dict[str, Any]) -> str:
+    return str(((event.get("comment") or {}).get("user") or {}).get("login") or "")
+
+
+def comment_is_authorized(event: dict[str, Any]) -> bool:
+    comment = event.get("comment") or {}
+    actor = comment_actor(event)
+    if not actor or is_bot(actor):
+        return False
+    association = str(comment.get("author_association") or "").upper()
+    if association in TRUSTED_ASSOCIATIONS:
+        return True
+    issue = event.get("issue") or {}
+    try:
+        metadata = parse_pr_metadata(issue)
+        allowed_users = set(metadata.get("contributors", []))
+        reporter = str(metadata.get("reporter") or "")
+        if reporter:
+            allowed_users.add(reporter)
+    except (TypeError, ValueError):
+        allowed_users = set()
+    return actor in allowed_users
+
+
 def strip_inline_code(value: str) -> str:
     text = value.strip()
     if len(text) >= 2 and text.startswith("`") and text.endswith("`"):
@@ -190,13 +217,14 @@ def parse_pr_metadata(pr: dict[str, Any]) -> dict[str, Any]:
         "store_url": body_field(body, "Steam store URL"),
         "contributors": contributors,
         "source_issue": body_field(body, "Source issue"),
+        "reporter": body_field(body, "Reporter").lstrip("@"),
         "languages": languages,
         "achievement_count": body_field(body, "Achievement count"),
-        "schema_file": body_field(body, "Schema file"),
-        "file_size": body_field(body, "File size"),
-        "sha256": body_field(body, "SHA-256"),
+        "schema_file": body_field(body, "Schema file") or body_field(body, "Current schema file"),
+        "file_size": body_field(body, "File size") or body_field(body, "Current file size"),
+        "sha256": body_field(body, "SHA-256") or body_field(body, "Current SHA-256"),
         "submitted_at": body_field(body, "Submitted at"),
-        "updated_at": body_field(body, "Updated at"),
+        "updated_at": body_field(body, "Updated at") or body_field(body, "Last library update"),
         "update_summary": body_field(body, "Contributor summary"),
         "reason": section_after_heading(body, "## Reason"),
         "reference": section_after_heading(body, "## Reference"),
@@ -239,6 +267,11 @@ UPDATE_VALUE_COMMANDS = {"id", "name", "store", "languages", "summary", "reason"
 UPDATE_COMMAND_HELP = (
     "支持的类型：`doc`、`id`、`name`、`store`、`languages`、`summary`、`reason`、`reference`。"
 )
+UPDATE_COMMANDS_BY_KIND = {
+    "translation-contribution": {"doc", "id", "name", "store", "languages"},
+    "update": {"doc", "id", "name", "store", "languages", "summary"},
+    "outdated": {"name", "store", "reason", "reference"},
+}
 
 
 def update_first_line(body: str) -> str:
@@ -301,18 +334,10 @@ def validate_languages_for_schema(schema_file: str, languages: list[str]) -> tup
         raise ValueError("无效的 Steam 语言代码：" + ", ".join(invalid))
     if not languages:
         raise ValueError("至少填写一个 Steam 语言代码。")
-    data, nodes = load_schema(ROOT / schema_file)
+    data, nodes = load_schema(repository_path(schema_file))
+    validate_schema_structure(data, nodes)
     rows = achievement_rows(nodes, languages)
-    coverage, missing = language_coverage(rows, languages)
-    missing_messages = []
-    for language, missing_ids in missing.items():
-        if missing_ids:
-            preview = ", ".join(missing_ids[:10])
-            missing_messages.append(f"{language}: 缺少 {len(missing_ids)} 个成就文本：{preview}")
-    if missing_messages:
-        raise ValueError("语言覆盖不完整。" + "；".join(missing_messages))
-    if sha256(data) == "":
-        raise ValueError("Schema hash could not be calculated.")
+    coverage = require_language_coverage(rows, languages)
     return rows, coverage
 
 
@@ -333,7 +358,7 @@ def upsert_entry_for_pr(old_game_id: str, entry: dict[str, Any]) -> None:
 def rename_schema_file(old_game_id: str, new_game_id: str, schema_file: str) -> str:
     if old_game_id == new_game_id:
         return schema_file
-    old_path = ROOT / schema_file
+    old_path = repository_path(schema_file)
     if not old_path.is_file():
         raise ValueError(f"当前 schema 文件不存在：{schema_file}")
     new_dir = FILES_ROOT / new_game_id
@@ -468,23 +493,35 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
     comment = event.get("comment") or {}
     pr_number = int(issue["number"])
     comment_body = str(comment.get("body") or "")
+    if is_update_command(comment_body) and not comment_is_authorized(event):
+        comment_issue(repo, token, pr_number, "`/update` 只能由该投稿的贡献者或仓库维护者执行。")
+        return
     command, value, command_error = parse_update_command_detail(comment_body)
     if command_error:
         comment_issue(repo, token, pr_number, update_error_comment(command_error))
         return
     if not command:
         return
-
     pr = github_request("GET", repo, token, f"/pulls/{pr_number}")
     if not pr or str(pr.get("state") or "") != "open":
         comment_issue(repo, token, pr_number, "`/update` 只能用于打开状态的翻译 PR。")
         return
 
-    branch = checkout_pr_branch(pr)
     meta = parse_pr_metadata(pr)
     original_meta = dict(meta)
     old_game_id = str(meta.get("game_id") or "")
     kind = str(meta["kind"])
+    if command not in UPDATE_COMMANDS_BY_KIND.get(kind, set()):
+        if kind == "outdated":
+            message = "报告过期 PR 仅支持 `name`、`store`、`reason` 和 `reference`。"
+        elif kind == "translation-contribution":
+            message = "新投稿 PR 不支持 `summary`；该字段仅用于更新已有文件。"
+        else:
+            message = f"`/update {command}` 不适用于当前 PR 类型。"
+        comment_issue(repo, token, pr_number, update_error_comment(message))
+        return
+
+    branch = checkout_pr_branch(pr)
     attachment = extract_attachment(comment_body)
     command_text = comment_body.strip().splitlines()[0].strip() if comment_body.strip() else "/update"
     changes: list[dict[str, Any]] = []
@@ -550,7 +587,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             rows, coverage = validate_languages_for_schema(str(meta["schema_file"]), list(meta["languages"]))
             previous_hash = str(meta.get("sha256") or "")
             meta["file_size"] = schema_file_size_label(schema_file_size_bytes(str(meta["schema_file"])))
-            meta["sha256"] = sha256((ROOT / str(meta["schema_file"])).read_bytes())
+            meta["sha256"] = sha256(repository_path(str(meta["schema_file"])).read_bytes())
             meta["achievement_count"] = str(len(rows))
             meta["updated_at"] = now_utc()
             update_diff = None
@@ -567,7 +604,10 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
                 raise ValueError("`/update name` 后面必须填写游戏名。")
             previous_name = str(meta.get("game_name") or "")
             meta["game_name"] = value
-            rows, coverage = validate_languages_for_schema(str(meta["schema_file"]), list(meta["languages"]))
+            if kind == "outdated":
+                rows, coverage = [], {}
+            else:
+                rows, coverage = validate_languages_for_schema(str(meta["schema_file"]), list(meta["languages"]))
             previous_hash = str(meta.get("sha256") or "")
             update_diff = None
             if kind != "outdated":
@@ -576,7 +616,10 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             previous_store_url = str(meta.get("store_url") or "")
             validate_store_url(str(meta["game_id"]), value)
             meta["store_url"] = value
-            rows, coverage = validate_languages_for_schema(str(meta["schema_file"]), list(meta["languages"]))
+            if kind == "outdated":
+                rows, coverage = [], {}
+            else:
+                rows, coverage = validate_languages_for_schema(str(meta["schema_file"]), list(meta["languages"]))
             previous_hash = str(meta.get("sha256") or "")
             update_diff = None
             if kind != "outdated":
@@ -663,8 +706,7 @@ def clear_wait_for_update_from_comment(repo: str, token: str, event: dict[str, A
     issue = event.get("issue") or {}
     if WAIT_FOR_UPDATE_LABEL not in pr_labels(issue):
         return
-    actor = str(((event.get("comment") or {}).get("user") or {}).get("login") or "")
-    if is_bot(actor):
+    if not comment_is_authorized(event):
         return
     remove_issue_label(repo, token, int(issue["number"]), WAIT_FOR_UPDATE_LABEL)
 
@@ -708,7 +750,7 @@ def mark_source_pr(event: dict[str, Any], repo: str, token: str) -> bool:
     else:
         meta = parse_pr_metadata(pr)
         entry = entry_from_metadata(meta)
-        schema_path = ROOT / str(entry.get("schema_file") or "")
+        schema_path = repository_path(str(entry.get("schema_file") or ""))
         if not schema_path.is_file():
             raise RuntimeError(f"merged PR schema file is missing from main: {entry.get('schema_file') or '<empty>'}")
         data, nodes = load_schema(schema_path)

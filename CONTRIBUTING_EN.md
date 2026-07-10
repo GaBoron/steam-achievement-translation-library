@@ -30,7 +30,7 @@ If validation fails while the issue is still open, you may edit field values in 
 | Command | Effect |
 | --- | --- |
 | `/update doc` plus attachment | Replace the PR's `UserGameStatsSchema_<app_id>.bin`; attach `UserGameStatsSchema_<app_id>.zip` to the same comment |
-| `/update id <Steam app ID>` | Change the Steam app ID and rename file paths for normal submission or update PRs |
+| `/update id <Steam app ID>` | Change the Steam app ID and rename file paths for a normal submission or update PR; outdated-report PRs do not support this command |
 | `/update name <game name>` | Change the game name |
 | `/update store <Steam store URL>` | Change the store URL; the URL app ID must match the current app ID |
 | `/update languages <codes>` | Replace the full language list; list every language that exists in the file and separate codes with half-width commas |
@@ -47,13 +47,27 @@ For file replacement, put the command and attachment in the same PR comment:
 
 If the type is unsupported, a required value is missing, or `/update doc` has no ZIP attachment, automation comments with the specific error and leaves the PR unchanged.
 
+To prevent third-party changes, issue `/update` commands are accepted only from the original issue author or a repository maintainer. PR `/update` commands are accepted only from contributors listed in the PR body, the reporter named on an outdated-report PR, or a repository maintainer. Each PR type accepts only relevant commands: new submissions do not accept `summary`, and outdated-report PRs accept only `name`, `store`, `reason`, and `reference`.
+
 Language updates are not incremental. `/update languages schinese, english` means the file contains only `schinese` and `english`; omitted languages are treated as absent.
 
-When a maintainer requests changes, automation adds the `等待更新` label. A later PR comment removes that label automatically; `/update` comments also refresh the PR branch and body. Merged PR conversations are locked.
+When a maintainer requests changes, automation adds the `等待更新` label. A later comment from a listed contributor, an outdated-report reporter, or a repository maintainer removes that label; `/update` comments also refresh the PR branch and body. Comments from unrelated users do not change labels or submission content. Merged PR conversations are locked.
 
 ## Outdated Reports
 
 Use the "Report outdated achievement file" template when an accepted file may be stale but you do not have a replacement file yet. Include evidence such as game update dates, achievement count changes, local schema timestamps, missing achievements, or update notes.
+
+## Repository Maintenance And Local Checks
+
+The workflow scripts use only the Python standard library, and automation is pinned to Python 3.13. Before submitting changes to scripts, workflows, indexes, or `files/`, run these commands from the repository root:
+
+```bash
+python -m compileall -q workflow-scripts tests
+python -m unittest discover -s tests -v
+python workflow-scripts/check_repository.py
+```
+
+The repository checker validates `index.json` structure and ordering, every indexed path and file size, SHA-256 hashes, byte-identical Binary KeyValues roundtrips, achievement IDs and counts, language coverage, and synchronization of `INDEX.md` / `INDEX_EN.md`. Incomplete fields in legacy data are warnings by default to preserve existing compatibility; after legacy data is corrected, use `--strict-language-coverage` to treat them as errors. GitHub Actions runs the same checks on pushes and pull requests targeting `main`.
 
 ## Rights
 

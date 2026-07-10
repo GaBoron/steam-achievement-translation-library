@@ -84,6 +84,7 @@ FIELD_LABELS = {
 ATTACHMENT_RE = re.compile(
     r"\[([^\]]+)\]\((https://github\.com/user-attachments/[^\s)]+)\)|(?<!\()(?P<url>https://github\.com/user-attachments/[^\s)]+)"
 )
+TRUSTED_ASSOCIATIONS = {"OWNER", "MEMBER", "COLLABORATOR"}
 
 
 def github_request(
@@ -179,6 +180,15 @@ def update_first_line(body: str) -> str:
 def is_update_command(body: str) -> bool:
     first = update_first_line(body).lower()
     return first == "/update" or first.startswith("/update ")
+
+
+def comment_is_authorized(event: dict[str, Any]) -> bool:
+    issue = event.get("issue") or {}
+    comment = event.get("comment") or {}
+    actor = str((comment.get("user") or {}).get("login") or "")
+    issue_author = str((issue.get("user") or {}).get("login") or "")
+    association = str(comment.get("author_association") or "").upper()
+    return bool(actor) and (actor == issue_author or association in TRUSTED_ASSOCIATIONS)
 
 
 def parse_update_command(body: str) -> tuple[str, str, str]:
@@ -302,6 +312,9 @@ def apply_issue_update(repo: str, token: str, event: dict[str, Any]) -> None:
     comment = event.get("comment") or {}
     issue_number = int(issue["number"])
     comment_body = str(comment.get("body") or "")
+    if is_update_command(comment_body) and not comment_is_authorized(event):
+        comment_issue(repo, token, issue_number, "`/update` 只能由 issue 投稿者或仓库维护者执行。")
+        return
     command, value, error = parse_update_command(comment_body)
     if error:
         comment_issue(repo, token, issue_number, update_error_comment(error))

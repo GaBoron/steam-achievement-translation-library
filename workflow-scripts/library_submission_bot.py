@@ -183,6 +183,37 @@ def load_schema(path: Path) -> tuple[bytes, list[Node]]:
     return data, nodes
 
 
+def validate_schema_structure(data: bytes, nodes: list[Node]) -> list[dict[str, str]]:
+    """Validate invariants that every accepted schema must preserve."""
+    if data != serialize(nodes):
+        raise ValueError("schema 无法通过 Binary KeyValues 解析器保持字节级 roundtrip")
+    rows = achievement_rows(nodes, [])
+    if not rows:
+        raise ValueError("schema 中没有找到 Steam 成就名称/描述记录")
+    achievement_ids = [row.get("api_name", "") for row in rows]
+    if any(not achievement_id for achievement_id in achievement_ids):
+        raise ValueError("每个成就都必须有非空的 API name")
+    if len(set(achievement_ids)) != len(achievement_ids):
+        raise ValueError("成就 API name 必须唯一")
+    return rows
+
+
+def require_language_coverage(
+    rows: list[dict[str, str]],
+    languages: list[str],
+) -> dict[str, int]:
+    coverage, missing = language_coverage(rows, languages)
+    missing_messages: list[str] = []
+    for language, missing_ids in missing.items():
+        if missing_ids:
+            preview = ", ".join(missing_ids[:10])
+            suffix = " ..." if len(missing_ids) > 10 else ""
+            missing_messages.append(f"{language}: 缺少 {len(missing_ids)} 个成就文本：{preview}{suffix}")
+    if missing_messages:
+        raise ValueError("schema 语言覆盖不完整。" + "；".join(missing_messages))
+    return coverage
+
+
 def achievement_rows(nodes: list[Node], languages: list[str]) -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
     for index, achievement in enumerate(achievement_nodes(nodes), 1):
@@ -282,6 +313,9 @@ def download_attachment(attachment: Attachment, token: str | None, destination: 
     if token:
         request.add_header("Authorization", f"Bearer {token}")
     with urllib.request.urlopen(request, timeout=45) as response:
+        content_length = response.headers.get("Content-Length")
+        if content_length and content_length.isdigit() and int(content_length) > MAX_DOWNLOAD_BYTES:
+            raise ValueError("上传文件超过 32 MiB 检查上限")
         total = 0
         with destination.open("wb") as handle:
             while True:
@@ -359,9 +393,28 @@ def normalized_schema_file(schema_file: str) -> str:
     return schema_file.replace("\\", "/").lstrip("/")
 
 
+def repository_path(relative_path: str) -> Path:
+    """Resolve a repository-relative path without allowing path traversal."""
+    raw = relative_path.strip().replace("\\", "/")
+    pure_path = PurePosixPath(raw)
+    if (
+        not raw
+        or pure_path.is_absolute()
+        or any(part in {"", ".", ".."} for part in pure_path.parts)
+        or re.match(r"^[A-Za-z]:", raw)
+    ):
+        raise ValueError(f"不安全的仓库相对路径：{relative_path or '<empty>'}")
+    path = (REPO_ROOT / Path(*pure_path.parts)).resolve()
+    try:
+        path.relative_to(REPO_ROOT.resolve())
+    except ValueError as exc:
+        raise ValueError(f"路径超出仓库范围：{relative_path}") from exc
+    return path
+
+
 def schema_file_size_bytes(schema_file: str) -> int:
     normalized = normalized_schema_file(schema_file)
-    path = REPO_ROOT / normalized
+    path = repository_path(schema_file)
     if not path.is_file():
         raise FileNotFoundError(f"schema file is missing: {normalized}")
     return path.stat().st_size
@@ -549,7 +602,7 @@ def status_text(entry: dict[str, Any], language: str) -> str:
     return "可用" if language == "zh" else "Current"
 
 
-def write_human_index(index: dict[str, Any]) -> None:
+def render_human_index(index: dict[str, Any]) -> tuple[str, str]:
     entries = sort_entries(index.get("entries", []))
     entry_count = len(entries)
     zh_lines = [
@@ -628,8 +681,13 @@ def write_human_index(index: dict[str, Any]) -> None:
     else:
         zh_lines.append("暂无已收录游戏。")
         en_lines.append("No accepted games yet.")
-    HUMAN_INDEX_PATH.write_text("\n".join(zh_lines) + "\n", encoding="utf-8")
-    HUMAN_INDEX_EN_PATH.write_text("\n".join(en_lines) + "\n", encoding="utf-8")
+    return "\n".join(zh_lines) + "\n", "\n".join(en_lines) + "\n"
+
+
+def write_human_index(index: dict[str, Any]) -> None:
+    zh_index, en_index = render_human_index(index)
+    HUMAN_INDEX_PATH.write_text(zh_index, encoding="utf-8")
+    HUMAN_INDEX_EN_PATH.write_text(en_index, encoding="utf-8")
 
 
 def steam_store_id(url: str) -> str | None:
@@ -812,30 +870,14 @@ def validate_schema_submission(
 ) -> tuple[bytes, list[Node], list[dict[str, str]], dict[str, int]]:
     with tempfile.TemporaryDirectory() as tmp:
         tmp_dir = Path(tmp)
-        downloaded = tmp_dir / attachment.filename
+        # The Markdown label is untrusted user input; never use it as a path.
+        downloaded = tmp_dir / "attachment.zip"
         download_attachment(attachment, token, downloaded)
         schema_path = resolve_schema_upload(downloaded, attachment, game_id, tmp_dir)
         data, nodes = load_schema(schema_path)
-        rebuilt = serialize(nodes)
-        if data != rebuilt:
-            raise ValueError("上传的 schema 无法通过 Binary KeyValues 解析器保持字节级 roundtrip")
+        validate_schema_structure(data, nodes)
         rows = achievement_rows(nodes, languages)
-        if not rows:
-            raise ValueError("上传的 schema 中没有找到 Steam 成就名称/描述记录")
-        achievement_ids = [row.get("api_name", "") for row in rows]
-        if any(not achievement_id for achievement_id in achievement_ids):
-            raise ValueError("每个成就都必须有非空的 API name")
-        if len(set(achievement_ids)) != len(achievement_ids):
-            raise ValueError("成就 API name 必须唯一")
-        coverage, missing = language_coverage(rows, languages)
-        missing_messages: list[str] = []
-        for language, missing_ids in missing.items():
-            if missing_ids:
-                preview = ", ".join(missing_ids[:10])
-                suffix = " ..." if len(missing_ids) > 10 else ""
-                missing_messages.append(f"{language}: 缺少 {len(missing_ids)} 个成就文本：{preview}{suffix}")
-        if missing_messages:
-            raise ValueError("上传的 schema 语言覆盖不完整。" + "；".join(missing_messages))
+        coverage = require_language_coverage(rows, languages)
         return data, nodes, rows, coverage
 
 
@@ -972,7 +1014,7 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
     update_diff: dict[str, Any] | None = None
     if kind == "update":
         assert existing is not None
-        old_schema = REPO_ROOT / str(existing.get("schema_file") or "")
+        old_schema = repository_path(str(existing.get("schema_file") or ""))
         if not old_schema.is_file():
             write_failure([f"仓库中找不到当前已收录的 schema 文件：{existing.get('schema_file')}。"], retry_allowed=False)
         old_data, old_nodes = load_schema(old_schema)
