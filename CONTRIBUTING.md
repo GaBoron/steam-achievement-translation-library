@@ -8,7 +8,7 @@
 | --- | --- |
 | Steam app ID | 在 [INDEX.md](INDEX.md) 或 `index.json` 搜索数字 ID，确认应使用“新投稿”还是“更新已有文件” |
 | 文件名 | 必须是 `UserGameStatsSchema_<app_id>.bin` |
-| 压缩包 | 上传 `UserGameStatsSchema_<app_id>.zip`，ZIP 内只放一个同名 `.bin` 文件 |
+| 压缩包 | 上传文件必须是 `UserGameStatsSchema_<app_id>.zip` 。单版本 ZIP 只放一个同名 `.bin` ；多版本 ZIP 使用 `translation-variants.json` 声明全部版本。 |
 | 语言字段 | 写出文件中已经完整包含“成就名称”和“成就描述”的全部 Steam 语言代码；多个代码必须用半角逗号分隔 |
 | 游戏名 | 按 Steam 商店显示填写；如果 Steam 显示名不是中文，可以写成“Steam 原名 中文译名” |
 
