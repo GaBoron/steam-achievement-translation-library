@@ -58,7 +58,7 @@ body:
     attributes:
       label: 要更新的版本 ID
       description: 仅在游戏已有多个版本、且本次只替换其中一个版本时填写；整包更新或单版本游戏留空。
-      placeholder: with-unlock-conditions
+      placeholder: version-description
   - type: textarea
     id: schema_zip
     attributes:

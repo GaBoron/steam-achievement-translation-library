@@ -58,7 +58,7 @@ body:
     attributes:
       label: Version ID to update
       description: Fill this only when replacing one version of a game that already has multiple versions. Leave it blank for a full package update or a single-version game.
-      placeholder: with-unlock-conditions
+      placeholder: version-description
   - type: textarea
     id: schema_zip
     attributes:

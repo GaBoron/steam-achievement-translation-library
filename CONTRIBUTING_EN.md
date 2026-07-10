@@ -28,7 +28,7 @@ When one Steam app ID needs multiple independently usable schemas, place the com
 UserGameStatsSchema_123456.zip
 ├── translation-variants.json
 ├── UserGameStatsSchema_123456.bin
-└── with-unlock-conditions/
+└── version-description/
     └── UserGameStatsSchema_123456.bin
 ```
 
@@ -46,11 +46,11 @@ Manifest format:
       "note_en": "Original"
     },
     {
-      "variant_id": "with-unlock-conditions",
+      "variant_id": "version-description",
       "primary": false,
-      "file": "with-unlock-conditions/UserGameStatsSchema_123456.bin",
-      "note_zh": "含解锁条件",
-      "note_en": "With unlock conditions"
+      "file": "version-description/UserGameStatsSchema_123456.bin",
+      "note_zh": "版本描述",
+      "note_en": "version description"
     }
   ]
 }
