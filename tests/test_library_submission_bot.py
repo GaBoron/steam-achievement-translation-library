@@ -1,9 +1,10 @@
 from __future__ import annotations
 
+import json
+import os
 import sys
 import tempfile
 import unittest
-import json
 import zipfile
 from pathlib import Path
 from unittest import mock
@@ -298,11 +299,69 @@ class SchemaValidationTests(unittest.TestCase):
 
 class RepositoryIntegrityTests(unittest.TestCase):
     def test_current_repository_has_no_integrity_errors(self) -> None:
-        report = check_repository.check_repository()
+        allow_unindexed_schema_files = os.environ.get("ALLOW_UNINDEXED_SCHEMA_FILES", "").lower() == "true"
+        report = check_repository.check_repository(
+            allow_unindexed_schema_files=allow_unindexed_schema_files,
+        )
 
         self.assertEqual([], report.errors)
         self.assertGreater(report.checked_entries, 0)
         self.assertGreaterEqual(report.checked_files, report.checked_entries)
+
+    def test_unindexed_schema_is_rejected_in_strict_mode(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            files_root = Path(tmp) / "files"
+            schema_path = files_root / "123" / "UserGameStatsSchema_123.bin"
+            schema_path.parent.mkdir(parents=True)
+            schema_path.write_bytes(bot.serialize(schema_nodes(achievement_node())))
+            report = check_repository.CheckReport()
+
+            with mock.patch.object(check_repository, "FILES_ROOT", files_root):
+                check_repository.check_unindexed_schema_files(
+                    report,
+                    {schema_path.resolve()},
+                    allow_unindexed_schema_files=False,
+                )
+
+        self.assertEqual(["unindexed schema file: files/123/UserGameStatsSchema_123.bin"], report.errors)
+        self.assertEqual(0, report.checked_files)
+
+    def test_valid_unindexed_schema_is_checked_in_translation_pr_mode(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            files_root = Path(tmp) / "files"
+            schema_path = files_root / "123" / "UserGameStatsSchema_123.bin"
+            schema_path.parent.mkdir(parents=True)
+            schema_path.write_bytes(bot.serialize(schema_nodes(achievement_node())))
+            report = check_repository.CheckReport()
+
+            with mock.patch.object(check_repository, "FILES_ROOT", files_root):
+                check_repository.check_unindexed_schema_files(
+                    report,
+                    {schema_path.resolve()},
+                    allow_unindexed_schema_files=True,
+                )
+
+        self.assertEqual([], report.errors)
+        self.assertEqual(1, report.checked_files)
+
+    def test_invalid_unindexed_schema_still_fails_in_translation_pr_mode(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            files_root = Path(tmp) / "files"
+            schema_path = files_root / "123" / "UserGameStatsSchema_123.bin"
+            schema_path.parent.mkdir(parents=True)
+            schema_path.write_bytes(b"not a Binary KeyValues schema")
+            report = check_repository.CheckReport()
+
+            with mock.patch.object(check_repository, "FILES_ROOT", files_root):
+                check_repository.check_unindexed_schema_files(
+                    report,
+                    {schema_path.resolve()},
+                    allow_unindexed_schema_files=True,
+                )
+
+        self.assertEqual(1, len(report.errors))
+        self.assertIn("invalid unindexed schema files/123/UserGameStatsSchema_123.bin", report.errors[0])
+        self.assertEqual(0, report.checked_files)
 
 
 class PullRequestBodyTests(unittest.TestCase):

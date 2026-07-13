@@ -94,7 +94,31 @@ def _check_schema_path(
     return data, nodes
 
 
-def check_repository(*, strict_language_coverage: bool = False) -> CheckReport:
+def check_unindexed_schema_files(
+    report: CheckReport,
+    paths: set[Path],
+    *,
+    allow_unindexed_schema_files: bool,
+) -> None:
+    for path in sorted(paths):
+        relative_path = path.relative_to(FILES_ROOT.parent.resolve()).as_posix()
+        if not allow_unindexed_schema_files:
+            report.error(f"unindexed schema file: {relative_path}")
+            continue
+        try:
+            data, nodes = load_schema(path)
+            validate_schema_structure(data, nodes)
+        except (OSError, UnicodeError, EOFError, ValueError, NotImplementedError) as exc:
+            report.error(f"invalid unindexed schema {relative_path}: {exc}")
+            continue
+        report.checked_files += 1
+
+
+def check_repository(
+    *,
+    strict_language_coverage: bool = False,
+    allow_unindexed_schema_files: bool = False,
+) -> CheckReport:
     report = CheckReport()
     try:
         index = json.loads(INDEX_PATH.read_text(encoding="utf-8"))
@@ -185,8 +209,11 @@ def check_repository(*, strict_language_coverage: bool = False) -> CheckReport:
             report.error(f"{game_id}: achievement_count mismatch: index={raw_entry.get('achievement_count')!r}, actual={len(rows)}")
 
     actual_paths = {path.resolve() for path in FILES_ROOT.rglob("*.bin") if path.is_file()}
-    for path in sorted(actual_paths - expected_paths):
-        report.error(f"unindexed schema file: {path.relative_to(FILES_ROOT.parent).as_posix()}")
+    check_unindexed_schema_files(
+        report,
+        actual_paths - expected_paths,
+        allow_unindexed_schema_files=allow_unindexed_schema_files,
+    )
 
     try:
         expected_zh, expected_en = render_human_index(index)
@@ -206,8 +233,16 @@ def main() -> None:
         action="store_true",
         help="Treat legacy incomplete language fields as errors instead of warnings.",
     )
+    parser.add_argument(
+        "--allow-unindexed-schema-files",
+        action="store_true",
+        help="Allow structurally valid unindexed schemas in translation-only pull requests.",
+    )
     args = parser.parse_args()
-    report = check_repository(strict_language_coverage=args.strict_language_coverage)
+    report = check_repository(
+        strict_language_coverage=args.strict_language_coverage,
+        allow_unindexed_schema_files=args.allow_unindexed_schema_files,
+    )
     for warning in report.warnings:
         print(f"WARNING: {warning}")
     for error in report.errors:

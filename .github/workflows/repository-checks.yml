@@ -18,6 +18,8 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      ALLOW_UNINDEXED_SCHEMA_FILES: ${{ github.event_name == 'pull_request' && startsWith(github.head_ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -36,4 +38,9 @@ jobs:
         run: python -m unittest discover -s tests -v
 
       - name: Verify translation data and generated indexes
-        run: python workflow-scripts/check_repository.py
+        run: |
+          if [ "$ALLOW_UNINDEXED_SCHEMA_FILES" = "true" ]; then
+            python workflow-scripts/check_repository.py --allow-unindexed-schema-files
+          else
+            python workflow-scripts/check_repository.py
+          fi
