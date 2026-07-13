@@ -1,9 +1,10 @@
 from __future__ import annotations
 
+import json
+import os
 import sys
 import tempfile
 import unittest
-import json
 import zipfile
 from pathlib import Path
 from unittest import mock
@@ -298,11 +299,121 @@ class SchemaValidationTests(unittest.TestCase):
 
 class RepositoryIntegrityTests(unittest.TestCase):
     def test_current_repository_has_no_integrity_errors(self) -> None:
-        report = check_repository.check_repository()
+        allow_unindexed_schema_files = os.environ.get("ALLOW_UNINDEXED_SCHEMA_FILES", "").lower() == "true"
+        report = check_repository.check_repository(
+            allow_unindexed_schema_files=allow_unindexed_schema_files,
+        )
 
         self.assertEqual([], report.errors)
         self.assertGreater(report.checked_entries, 0)
         self.assertGreaterEqual(report.checked_files, report.checked_entries)
+
+    def test_unindexed_schema_is_rejected_in_strict_mode(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            files_root = Path(tmp) / "files"
+            schema_path = files_root / "123" / "UserGameStatsSchema_123.bin"
+            schema_path.parent.mkdir(parents=True)
+            schema_path.write_bytes(bot.serialize(schema_nodes(achievement_node())))
+            report = check_repository.CheckReport()
+
+            with mock.patch.object(check_repository, "FILES_ROOT", files_root):
+                check_repository.check_unindexed_schema_files(
+                    report,
+                    {schema_path.resolve()},
+                    allow_unindexed_schema_files=False,
+                )
+
+        self.assertEqual(["unindexed schema file: files/123/UserGameStatsSchema_123.bin"], report.errors)
+        self.assertEqual(0, report.checked_files)
+
+    def test_valid_unindexed_schema_is_checked_in_translation_pr_mode(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            files_root = Path(tmp) / "files"
+            schema_path = files_root / "123" / "UserGameStatsSchema_123.bin"
+            schema_path.parent.mkdir(parents=True)
+            schema_path.write_bytes(bot.serialize(schema_nodes(achievement_node())))
+            report = check_repository.CheckReport()
+
+            with mock.patch.object(check_repository, "FILES_ROOT", files_root):
+                check_repository.check_unindexed_schema_files(
+                    report,
+                    {schema_path.resolve()},
+                    allow_unindexed_schema_files=True,
+                )
+
+        self.assertEqual([], report.errors)
+        self.assertEqual(1, report.checked_files)
+
+    def test_invalid_unindexed_schema_still_fails_in_translation_pr_mode(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            files_root = Path(tmp) / "files"
+            schema_path = files_root / "123" / "UserGameStatsSchema_123.bin"
+            schema_path.parent.mkdir(parents=True)
+            schema_path.write_bytes(b"not a Binary KeyValues schema")
+            report = check_repository.CheckReport()
+
+            with mock.patch.object(check_repository, "FILES_ROOT", files_root):
+                check_repository.check_unindexed_schema_files(
+                    report,
+                    {schema_path.resolve()},
+                    allow_unindexed_schema_files=True,
+                )
+
+        self.assertEqual(1, len(report.errors))
+        self.assertIn("invalid unindexed schema files/123/UserGameStatsSchema_123.bin", report.errors[0])
+        self.assertEqual(0, report.checked_files)
+
+
+class PullRequestBodyTests(unittest.TestCase):
+    def build_body(self, contributor_notes: str = "") -> str:
+        entry = {
+            "game_name": "Example Game",
+            "game_id": "123",
+            "store_url": "https://store.steampowered.com/app/123/",
+            "languages": ["schinese"],
+            "schema_file": "files/123/UserGameStatsSchema_123.bin",
+            "file_size_bytes": 42,
+            "achievement_count": 1,
+            "sha256": "abc123",
+            "contributor_id": "translator",
+            "contributors": ["translator"],
+            "submitted_at": "2026-07-13T00:00:00Z",
+            "updated_at": "2026-07-13T00:00:00Z",
+        }
+        rows = [{
+            "index": "1",
+            "api_name": "ACH_ONE",
+            "english_name": "Name",
+            "english_description": "Description",
+            "schinese_name": "名称",
+            "schinese_description": "描述",
+        }]
+        return bot.build_submission_pr_body(
+            kind="translation-contribution",
+            entry=entry,
+            coverage={"schinese": 1},
+            rows=rows,
+            languages=["schinese"],
+            issue_url="https://github.com/example/repo/issues/1",
+            contributor_notes=contributor_notes,
+        )
+
+    def test_multiline_issue_notes_are_transferred_to_pr_body(self) -> None:
+        fields = bot.parse_issue_form("### 备注\n\n翻译来源：官方文本\n\n已在 Steam 中测试。")
+        notes = bot.optional_field_value(fields, ["Notes", "备注"])
+
+        body = self.build_body(notes)
+
+        self.assertIn("## Contributor Notes\n\n翻译来源：官方文本\n\n已在 Steam 中测试。", body)
+
+    def test_no_response_placeholder_does_not_create_notes_section(self) -> None:
+        fields = bot.parse_issue_form("### Notes\n\n_No response_")
+        notes = bot.optional_field_value(fields, ["Notes", "备注"])
+
+        body = self.build_body(notes)
+
+        self.assertEqual("", notes)
+        self.assertNotIn("## Contributor Notes", body)
 
 
 if __name__ == "__main__":

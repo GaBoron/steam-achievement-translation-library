@@ -304,6 +304,11 @@ def field_value(fields: dict[str, str], names: list[str]) -> str:
     return ""
 
 
+def optional_field_value(fields: dict[str, str], names: list[str]) -> str:
+    value = field_value(fields, names).strip()
+    return "" if value == "_No response_" else value
+
+
 def parse_comma_language_list(value: str) -> list[str]:
     text = first_line(value).lower()
     if not text or text in {"none", "n/a", "na", "no", "无"}:
@@ -1314,6 +1319,7 @@ def build_submission_pr_body(
     update_diff: dict[str, Any] | None = None,
     previous_hash: str = "",
     issue_url: str = "",
+    contributor_notes: str = "",
     review_variant_id: str = "default",
     review_variant_hash: str = "",
     variant_changes: dict[str, list[str]] | None = None,
@@ -1322,6 +1328,13 @@ def build_submission_pr_body(
     coverage_lines = "\n".join(f"- `{language}`: {count}/{len(rows)} achievements" for language, count in coverage.items())
     file_size = entry_file_size_label(entry)
     variants_section = build_schema_variants_section(entry)
+    notes_section = ""
+    if contributor_notes:
+        notes_section = f"""
+## Contributor Notes
+
+{contributor_notes}
+"""
     update_section = ""
     if kind == "update" and (update_diff is not None or variant_changes is not None):
         variant_changes = variant_changes or {"added": [], "removed": [], "changed": [review_variant_id]}
@@ -1368,6 +1381,7 @@ def build_submission_pr_body(
 - Updated at: {entry.get('updated_at', '')}
 
 {variants_section}
+{notes_section}
 
 ## Language Coverage
 
@@ -1387,6 +1401,7 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
     attachment = extract_attachment(field_value(fields, ["Achievement schema ZIP", "成就 schema ZIP"]))
     update_summary = first_line(field_value(fields, ["Update summary", "更新内容摘要"]))
     target_variant_id = first_line(field_value(fields, ["Version ID to update", "要更新的版本 ID"])).lower()
+    contributor_notes = optional_field_value(fields, ["Notes", "备注"])
     index = load_index()
     existing = existing_entry(index, game_id) if game_id else None
 
@@ -1534,6 +1549,7 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
             update_diff=update_diff,
             previous_hash=previous_hash,
             issue_url=issue.get("html_url", ""),
+            contributor_notes=contributor_notes,
             review_variant_id=review_variant.variant_id,
             review_variant_hash=sha256(review_variant.data),
             variant_changes=variant_changes,
