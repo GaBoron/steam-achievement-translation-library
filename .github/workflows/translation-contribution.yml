@@ -211,7 +211,7 @@ jobs:
             exit 0
           fi
           TITLE="$(gh pr view "$PR_NUMBER" --json title --jq '.title')"
-          gh pr merge "$PR_NUMBER" --squash --delete-branch --subject "$TITLE" --body "Automatically merged after approval by @$REVIEW_AUTHOR."
+          gh pr merge "$PR_NUMBER" --auto --squash --delete-branch --subject "$TITLE" --body "Automatically merged after approval by @$REVIEW_AUTHOR."
 
       - name: Finalize merged PR
         env:
