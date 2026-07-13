@@ -25,7 +25,7 @@
 
 ### 1. 找到游戏
 
-优先使用 Steam app ID。打开游戏的 Steam 商店页，网址里 `/app/` 后面的数字就是 app ID，例如 `https://store.steampowered.com/app/250900/...` 对应 `250900`。
+优先使用 Steam app ID。打开游戏的 Steam 商店页，网址里 `/app/` 后面的数字就是 app ID，例如 `https://store.steampowered.com/app/123456/...` 对应 `123456`。
 
 打开 [翻译库索引](INDEX.md) 后，用浏览器或 GitHub 页面搜索：
 
