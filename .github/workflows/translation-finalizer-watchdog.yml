@@ -37,11 +37,21 @@ jobs:
       }}
     runs-on: ubuntu-latest
     steps:
+      - name: Generate short-lived finalizer token
+        id: finalizer-token
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
+        with:
+          app-id: ${{ secrets.SATL_PR_BOT_APP_ID }}
+          private-key: ${{ secrets.SATL_PR_BOT_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: steam-achievement-translation-library
+
       - name: Checkout main
         uses: actions/checkout@v6
         with:
           ref: main
           fetch-depth: 0
+          token: ${{ steps.finalizer-token.outputs.token }}
 
       - name: Set up Python
         uses: actions/setup-python@v6

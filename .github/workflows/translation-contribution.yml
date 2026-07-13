@@ -181,6 +181,7 @@ jobs:
   pr-review-approved:
     if: ${{ github.event_name == 'pull_request_review' && github.event.review.state == 'approved' && github.event.pull_request.base.ref == 'main' && startsWith(github.event.pull_request.head.ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
     runs-on: ubuntu-latest
+    timeout-minutes: 35
     concurrency:
       group: translation-library-main-finalize
       cancel-in-progress: false
@@ -213,21 +214,51 @@ jobs:
           TITLE="$(gh pr view "$PR_NUMBER" --json title --jq '.title')"
           gh pr merge "$PR_NUMBER" --auto --squash --delete-branch --subject "$TITLE" --body "Automatically merged after approval by @$REVIEW_AUTHOR."
 
-      - name: Finalize merged PR
+      - name: Wait for automatic merge
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
-          MERGED="$(gh api "repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER" --jq '.merged')"
-          if [ "$MERGED" != "true" ]; then
-            echo "PR #$PR_NUMBER is not merged; skipping finalization."
-            exit 0
-          fi
-          git fetch origin main
-          git checkout -B main origin/main
-          python workflow-scripts/translation_pr_maintenance.py --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --finalize-pr "$PR_NUMBER"
+          for attempt in $(seq 1 180); do
+            MERGED="$(gh api "repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER" --jq '.merged')"
+            if [ "$MERGED" = "true" ]; then
+              echo "PR #$PR_NUMBER has merged."
+              exit 0
+            fi
+            STATE="$(gh api "repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER" --jq '.state')"
+            if [ "$STATE" != "open" ]; then
+              echo "PR #$PR_NUMBER closed without merging."
+              exit 1
+            fi
+            echo "PR #$PR_NUMBER is waiting for required checks; attempt $attempt/180."
+            sleep 10
+          done
+          echo "Timed out waiting for PR #$PR_NUMBER to merge."
+          exit 1
+
+      - name: Generate short-lived finalizer token
+        id: finalizer-token
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
+        with:
+          app-id: ${{ secrets.SATL_PR_BOT_APP_ID }}
+          private-key: ${{ secrets.SATL_PR_BOT_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: steam-achievement-translation-library
+
+      - name: Checkout main for finalization
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ steps.finalizer-token.outputs.token }}
+
+      - name: Finalize merged PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: python workflow-scripts/translation_pr_maintenance.py --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --finalize-pr "$PR_NUMBER"
 
   pr-comment-maintenance:
     if: ${{ github.event_name == 'issue_comment' && github.event.issue.pull_request }}
@@ -274,11 +305,21 @@ jobs:
       group: translation-library-main-finalize
       cancel-in-progress: false
     steps:
+      - name: Generate short-lived finalizer token
+        id: finalizer-token
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
+        with:
+          app-id: ${{ secrets.SATL_PR_BOT_APP_ID }}
+          private-key: ${{ secrets.SATL_PR_BOT_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: steam-achievement-translation-library
+
       - name: Checkout main
         uses: actions/checkout@v6
         with:
           ref: main
           fetch-depth: 0
+          token: ${{ steps.finalizer-token.outputs.token }}
 
       - name: Set up Python
         uses: actions/setup-python@v6
