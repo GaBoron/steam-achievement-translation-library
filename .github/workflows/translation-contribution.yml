@@ -26,6 +26,8 @@ jobs:
     steps:
       - name: Checkout translation library
         uses: actions/checkout@v6
+        with:
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -105,16 +107,27 @@ jobs:
               print(f"{key}={data[key]}")
           PY
 
+      - name: Generate short-lived PR bot token
+        id: pr-bot-token
+        if: ${{ steps.validate.outcome == 'success' }}
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
+        with:
+          app-id: ${{ secrets.SATL_PR_BOT_APP_ID }}
+          private-key: ${{ secrets.SATL_PR_BOT_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: steam-achievement-translation-library
+
       - name: Create pull request
         id: cpr
         if: ${{ steps.validate.outcome == 'success' }}
-        uses: peter-evans/create-pull-request@v8
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ steps.pr-bot-token.outputs.token }}
           branch: ${{ steps.meta.outputs.branch }}
           title: ${{ steps.meta.outputs.pr_title }}
           body-path: pr_body.md
           commit-message: ${{ steps.meta.outputs.commit_message }}
+          sign-commits: true
           labels: ${{ steps.meta.outputs.pr_labels }}
           reviewers: GaBoron
           add-paths: |
