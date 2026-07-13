@@ -25,7 +25,7 @@ This project is a **Steam achievement translation data repository**. It collects
 
 ### 1. Find The Game
 
-Prefer the Steam app ID. Open the game's Steam store page; the number after `/app/` is the app ID. For example, `https://store.steampowered.com/app/250900/...` maps to `250900`.
+Prefer the Steam app ID. Open the game's Steam store page; the number after `/app/` is the app ID. For example, `https://store.steampowered.com/app/123456/...` maps to `123456`.
 
 Open [the library index](INDEX_EN.md), then search with your browser or GitHub page search:
 
