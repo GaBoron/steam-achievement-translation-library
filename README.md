@@ -4,7 +4,8 @@
 
 本项目是 **Steam 成就翻译数据仓库**，用于集中收录社区提交的 `UserGameStatsSchema_<app_id>.bin` 翻译文件，并维护可搜索索引、投稿模板和自动化初审流程。
 
-> - 使用 AI skill 自动进行本地化操作请前往 [GaBoron/steam-achievement-localizer-skill](https://github.com/GaBoron/steam-achievement-localizer-skill) **(推荐)**  
+> - 想直接查找、安装和恢复现成翻译，请使用 [Steam 成就翻译安装器](https://github.com/GaBoron/steam-achievement-translation-installer) **（推荐普通用户）**
+> - 使用 AI skill 制作或审核翻译请前往 [GaBoron/steam-achievement-localizer-skill](https://github.com/GaBoron/steam-achievement-localizer-skill)
 > - 使用本地软件手动进行本地化操作请前往 [PanVena/SteamAchievementLocalizer](https://github.com/PanVena/SteamAchievementLocalizer)  
 > 本仓库只保存翻译数据和数据投稿流程。
 
@@ -13,6 +14,7 @@
 | 你想做什么 | 入口 |
 | --- | --- |
 | 查找翻译 | 打开 [翻译库索引](INDEX.md)，可搜索 Steam app ID、游戏名、贡献者或语言代码 |
+| 安装现成翻译 | 下载 [Steam 成就翻译安装器](https://github.com/GaBoron/steam-achievement-translation-installer/releases/latest)，自动扫描、安装并安全恢复 |
 | 提交新游戏 | 使用 issue 模板 [“提交 Steam 成就翻译”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_contribution_zh.yml) |
 | 更新已收录文件 | 使用 issue 模板 [“更新已有 Steam 成就翻译”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_zh.yml) |
 | 报告文件过期 | 使用 issue 模板 [“报告成就文件过期”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_zh.yml) |

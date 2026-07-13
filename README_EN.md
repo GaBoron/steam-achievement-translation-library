@@ -4,7 +4,8 @@
 
 This project is a **Steam achievement translation data repository**. It collects community-submitted `UserGameStatsSchema_<app_id>.bin` translation files and maintains searchable indexes, issue templates, and automated first-review workflows.
 
-> - To perform localization automatically using an AI skill, please visit [GaBoron/steam-achievement-localizer-skill](https://github.com/GaBoron/steam-achievement-localizer-skill) **(Recommended)**
+> - To find, install, and restore existing translations on Windows, use [Steam Achievement Translation Installer](https://github.com/GaBoron/steam-achievement-translation-installer) **(Recommended for most users)**
+> - To create or review translations with an AI skill, visit [GaBoron/steam-achievement-localizer-skill](https://github.com/GaBoron/steam-achievement-localizer-skill)
 > - To perform localization manually using local software, please visit [PanVena/SteamAchievementLocalizer](https://github.com/PanVena/SteamAchievementLocalizer)  
 > This repository stores only the translation data and the data submission process.
 
@@ -13,6 +14,7 @@ This project is a **Steam achievement translation data repository**. It collects
 | Task | Where to go |
 | --- | --- |
 | Find a translation | Open [the library index](INDEX_EN.md) and search by Steam app ID, game name, contributor, or language code |
+| Install an existing translation | Download [Steam Achievement Translation Installer](https://github.com/GaBoron/steam-achievement-translation-installer/releases/latest) to scan, install, and safely restore translations |
 | Submit a new game | Use the ["Submit Steam achievement translation"](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_contribution_en.yml) issue template |
 | Update an accepted file | Use the ["Update existing Steam achievement translation"](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_en.yml) issue template |
 | Report an outdated file | Use the ["Report outdated achievement file"](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_en.yml) issue template |
