@@ -44,6 +44,12 @@ class WorkflowSecurityTests(unittest.TestCase):
         self.assertIn("workflow-scripts/translation_petition_bot.py", workflow)
         issue_review = workflow[workflow.index("  issue-review:"):workflow.index("  translation-petition-review:")]
         self.assertIn("!contains(github.event.issue.labels.*.name, '翻译请愿')", issue_review)
+        petition_job = workflow[workflow.index("  translation-petition-review:"):workflow.index("  pr-review-requested-changes:")]
+        self.assertIn("contains(github.event.issue.body, '### 需要翻译的成就 schema ZIP')", petition_job)
+        self.assertLess(
+            petition_job.index("workflow-scripts/github_issue_guard.py"),
+            petition_job.index("workflow-scripts/translation_petition_bot.py"),
+        )
 
 
 if __name__ == "__main__":

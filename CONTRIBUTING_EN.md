@@ -18,9 +18,10 @@ If the library does not yet have a translation for a game and you only have the 
 
 1. Enter the game name, Steam app ID, Steam store URL, and requested Steam target-language codes.
 2. Compress the original `UserGameStatsSchema_<app_id>.bin` as `UserGameStatsSchema_<app_id>.zip` and upload it. The ZIP must contain exactly that one matching BIN, and the app ID must match the form.
-3. Automation checks the form, ZIP structure, filenames, Binary KeyValues parsing, byte-identical roundtrip, achievement records, and unique achievement IDs.
-4. After successful recognition, the bot confirms receipt and leaves the issue open.
-5. When a new-translation PR for the same Steam app ID is merged, the bot mentions the contributor, provides a download link, and closes every matching petition issue.
+3. The issue automatically receives the `翻译请愿` label. If the label does not exist yet, the workflow creates it first.
+4. Automation checks the form, ZIP structure, filenames, Binary KeyValues parsing, byte-identical roundtrip, achievement records, and unique achievement IDs.
+5. After successful recognition, the bot confirms receipt and leaves the issue open.
+6. When a new-translation PR for the same Steam app ID is merged, the bot mentions the contributor, provides a download link, and closes every matching petition issue.
 
 A translation petition only records demand; it does not add the untranslated source file to the library. A completed translation must still be submitted and reviewed through the “Submit Steam achievement translation” template.
 

@@ -74,6 +74,22 @@ class TranslationPetitionValidationTests(unittest.TestCase):
 
         self.assertEqual("translation-petition", issue_guard.infer_issue_kind(issue))
 
+    def test_guard_creates_and_adds_translation_petition_label(self) -> None:
+        with (
+            mock.patch.object(issue_guard, "ensure_label") as ensure_label,
+            mock.patch.object(issue_guard, "github_request") as request,
+        ):
+            issue_guard.add_issue_labels("owner/repo", "token", 7, ["翻译请愿"])
+
+        ensure_label.assert_called_once_with("owner/repo", "token", "翻译请愿")
+        request.assert_called_once_with(
+            "POST",
+            "owner/repo",
+            "token",
+            "/issues/7/labels",
+            {"labels": ["翻译请愿"]},
+        )
+
     def test_valid_zip_with_one_matching_bin_is_recognized(self) -> None:
         def fake_download(_attachment, _token, destination: Path) -> None:
             with zipfile.ZipFile(destination, "w") as archive:
