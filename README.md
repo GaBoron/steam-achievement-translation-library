@@ -15,6 +15,7 @@
 | --- | --- |
 | 查找翻译 | 打开 [翻译库索引](INDEX.md)，可搜索 Steam app ID、游戏名、贡献者或语言代码 |
 | 安装现成翻译 | 下载 [Steam 成就翻译安装器](https://github.com/GaBoron/steam-achievement-translation-installer/releases/latest)，自动扫描、安装并安全恢复 |
+| 请求尚未收录的翻译 | 使用 issue 模板 [“翻译请愿”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_petition_zh.yml)，上传需要翻译的原始 `.bin` 文件 |
 | 提交新游戏 | 使用 issue 模板 [“提交 Steam 成就翻译”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_contribution_zh.yml) |
 | 更新已收录文件 | 使用 issue 模板 [“更新已有 Steam 成就翻译”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_zh.yml) |
 | 报告文件过期 | 使用 issue 模板 [“报告成就文件过期”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_zh.yml) |

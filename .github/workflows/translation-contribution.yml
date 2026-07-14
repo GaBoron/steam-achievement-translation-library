@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   issue-review:
-    if: ${{ github.event_name == 'issues' && !github.event.issue.pull_request && github.event.issue.state == 'open' && !contains(github.event.issue.labels.*.name, '功能请愿') }}
+    if: ${{ github.event_name == 'issues' && !github.event.issue.pull_request && github.event.issue.state == 'open' && !contains(github.event.issue.labels.*.name, '功能请愿') && !contains(github.event.issue.labels.*.name, '翻译请愿') && !contains(github.event.issue.body, '### 需要翻译的成就 schema BIN') && !contains(github.event.issue.body, '### Achievement schema BIN to translate') }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout translation library
@@ -159,6 +159,30 @@ jobs:
             gh issue close "$ISSUE_NUMBER" --reason "completed"
           fi
           gh api -X PUT "repos/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER/lock" -f lock_reason=resolved
+
+  translation-petition-review:
+    if: ${{ github.event_name == 'issues' && !github.event.issue.pull_request && github.event.issue.state == 'open' && (contains(github.event.issue.labels.*.name, '翻译请愿') || contains(github.event.issue.body, '### 需要翻译的成就 schema BIN') || contains(github.event.issue.body, '### Achievement schema BIN to translate')) }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout translation library
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Guard issue label
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python workflow-scripts/github_issue_guard.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN"
+
+      - name: Validate and acknowledge translation petition
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python workflow-scripts/translation_petition_bot.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN"
 
   pr-review-requested-changes:
     if: ${{ github.event_name == 'pull_request_review' && github.event.review.state == 'changes_requested' && github.event.pull_request.base.ref == 'main' && startsWith(github.event.pull_request.head.ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}

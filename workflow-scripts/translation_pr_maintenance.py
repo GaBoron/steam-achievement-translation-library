@@ -22,9 +22,12 @@ from library_submission_bot import (
     escape_table,
     existing_entry,
     extract_attachment,
+    field_value,
+    first_line,
     load_index,
     load_schema,
     now_utc,
+    parse_issue_form,
     parse_schema_variants_marker,
     repository_path,
     require_language_coverage,
@@ -50,6 +53,8 @@ BOT_USERS = {"github-actions[bot]"}
 TRUSTED_ASSOCIATIONS = {"OWNER", "MEMBER", "COLLABORATOR"}
 UPDATE_LABELS = {"更新文件", "update"}
 OUTDATED_LABELS = {"报告过期", "outdated"}
+TRANSLATION_PETITION_LABEL = "翻译请愿"
+TRANSLATION_PETITION_FULFILLED_MARKER = "translation-library-petition-fulfilled"
 
 
 def run(args: list[str], *, check: bool = True) -> subprocess.CompletedProcess[str]:
@@ -142,6 +147,16 @@ def comment_issue_once(repo: str, token: str, issue_number: int, body: str, mark
 
 def lock_issue(repo: str, token: str, issue_number: int) -> None:
     github_request("PUT", repo, token, f"/issues/{issue_number}/lock", {"lock_reason": "resolved"}, allow_422=True)
+
+
+def close_issue(repo: str, token: str, issue_number: int) -> None:
+    github_request(
+        "PATCH",
+        repo,
+        token,
+        f"/issues/{issue_number}",
+        {"state": "closed", "state_reason": "completed"},
+    )
 
 
 def pr_labels(pr_or_issue: dict[str, Any]) -> set[str]:
@@ -1025,6 +1040,73 @@ def merged_thanks_comment(pr: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
+def translation_petition_game_id(issue: dict[str, Any]) -> str:
+    fields = parse_issue_form(str(issue.get("body") or ""))
+    return first_line(field_value(fields, ["Steam app ID"]))
+
+
+def open_translation_petitions(repo: str, token: str) -> list[dict[str, Any]]:
+    petitions: list[dict[str, Any]] = []
+    page = 1
+    while True:
+        query = urllib.parse.urlencode({
+            "state": "open",
+            "labels": TRANSLATION_PETITION_LABEL,
+            "per_page": "100",
+            "page": str(page),
+        })
+        batch = github_request("GET", repo, token, f"/issues?{query}") or []
+        petitions.extend(
+            issue for issue in batch
+            if not issue.get("pull_request") and TRANSLATION_PETITION_LABEL in pr_labels(issue)
+        )
+        if len(batch) < 100:
+            break
+        page += 1
+    return petitions
+
+
+def fulfilled_petition_comment(meta: dict[str, Any], repo: str) -> str:
+    contributors = [f"@{item}" for item in meta.get("contributors", []) if item]
+    contributor_text = "、".join(contributors) if contributors else "贡献者"
+    game_name = str(meta.get("game_name") or "该游戏")
+    game_id = str(meta.get("game_id") or "")
+    schema_file = str(meta.get("schema_file") or "")
+    filename = Path(schema_file).name or f"UserGameStatsSchema_{game_id}.bin"
+    download_url = f"https://github.com/{repo}/raw/refs/heads/main/{urllib.parse.quote(schema_file, safe='/')}"
+    return "\n".join([
+        f"<!-- {TRANSLATION_PETITION_FULFILLED_MARKER} -->",
+        f"你请愿的 {game_name}（Steam app ID `{game_id}`）翻译已由 {contributor_text} 上传并通过审核，现在可以下载了。",
+        "",
+        f"[下载 `{filename}`]({download_url})",
+    ])
+
+
+def notify_fulfilled_translation_petitions(pr: dict[str, Any], repo: str, token: str) -> int:
+    if pr_kind(pr) != "translation-contribution":
+        return 0
+    meta = parse_pr_metadata(pr)
+    game_id = str(meta.get("game_id") or "")
+    if not game_id:
+        return 0
+    body = fulfilled_petition_comment(meta, repo)
+    notified = 0
+    for petition in open_translation_petitions(repo, token):
+        if translation_petition_game_id(petition) != game_id:
+            continue
+        issue_number = int(petition["number"])
+        comment_issue_once(
+            repo,
+            token,
+            issue_number,
+            body,
+            TRANSLATION_PETITION_FULFILLED_MARKER,
+        )
+        close_issue(repo, token, issue_number)
+        notified += 1
+    return notified
+
+
 def finalize_merged_pr(event: dict[str, Any], repo: str, token: str) -> None:
     pr = event.get("pull_request") or {}
     pr_number = int(pr["number"])
@@ -1035,6 +1117,7 @@ def finalize_merged_pr(event: dict[str, Any], repo: str, token: str) -> None:
         merged_thanks_comment(pr),
         "translation-library-merged-thanks",
     )
+    notify_fulfilled_translation_petitions(pr, repo, token)
     delete_pr_branch(repo, token, pr)
     lock_issue(repo, token, pr_number)
 

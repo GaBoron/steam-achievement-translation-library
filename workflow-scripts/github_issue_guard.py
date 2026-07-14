@@ -32,17 +32,23 @@ LABELS = {
         "color": "a2eeef",
         "description": "请求翻译库、投稿流程或自动化支持的新功能",
     },
+    "翻译请愿": {
+        "color": "d4c5f9",
+        "description": "请求社区翻译指定 Steam 游戏的成就 schema",
+    },
 }
 
 KIND_LABELS = {
     "translation-contribution": "翻译投稿",
     "update": "更新文件",
     "outdated": "报告过期",
+    "translation-petition": "翻译请愿",
 }
 LEGACY_LABELS = {
     "translation-contribution": "translation-contribution",
     "update": "update",
     "outdated": "outdated",
+    "translation-petition": "translation-petition",
 }
 UPDATE_HELP = "支持的类型：`doc`、`variant`、`id`、`name`、`store`、`languages`、`summary`、`reason`、`reference`、`notes`。"
 UPDATE_ALIASES = {
@@ -157,6 +163,8 @@ def infer_issue_kind(issue: dict[str, Any]) -> str | None:
         return "outdated"
     if "### 更新内容摘要" in text or "### Update summary" in text:
         return "update"
+    if "### 需要翻译的成就 schema BIN" in text or "### Achievement schema BIN to translate" in text:
+        return "translation-petition"
     if "### 成就 schema ZIP" in text or "### Achievement schema ZIP" in text:
         return "translation-contribution"
     return None
@@ -393,7 +401,7 @@ def main() -> None:
         ensure_label(args.repo, args.token, label)
     kind = infer_issue_kind(issue)
     if not kind:
-        raise SystemExit("This workflow only handles translation submission, file update, or outdated report issues.")
+        raise SystemExit("This workflow only handles translation submissions, translation petitions, file updates, or outdated reports.")
     expected = KIND_LABELS[kind]
     if expected not in labels:
         add_issue_labels(args.repo, args.token, int(issue["number"]), [expected])

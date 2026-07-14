@@ -35,6 +35,16 @@ class WorkflowSecurityTests(unittest.TestCase):
         self.assertIn('MERGED="$(gh api', wait_block)
         self.assertIn("sleep 10", wait_block)
 
+    def test_translation_petitions_use_their_own_validation_job(self) -> None:
+        workflow = (ROOT / ".github" / "workflows" / "translation-contribution.yml").read_text(
+            encoding="utf-8"
+        )
+
+        self.assertIn("translation-petition-review:", workflow)
+        self.assertIn("workflow-scripts/translation_petition_bot.py", workflow)
+        issue_review = workflow[workflow.index("  issue-review:"):workflow.index("  translation-petition-review:")]
+        self.assertIn("!contains(github.event.issue.labels.*.name, '翻译请愿')", issue_review)
+
 
 if __name__ == "__main__":
     unittest.main()

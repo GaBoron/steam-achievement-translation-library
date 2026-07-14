@@ -199,6 +199,52 @@ class PullRequestCommentAuthorizationTests(unittest.TestCase):
         self.assertEqual(records, metadata["schema_files"])
         self.assertIn("## Schema Variants", body)
 
+    def test_merged_translation_notifies_and_closes_matching_petitions(self) -> None:
+        body = "\n".join([
+            "## Translation Library Submission",
+            "",
+            "- Game name: Example Game",
+            "- Steam app ID: `123`",
+            "- Contributors: @contributor",
+            "- Schema file: `files/123/UserGameStatsSchema_123.bin`",
+        ])
+        pr = {"body": body, "labels": [{"name": "翻译投稿"}]}
+        matching = {
+            "number": 90,
+            "labels": [{"name": "翻译请愿"}],
+            "body": "### Steam app ID\n\n123\n",
+        }
+        unrelated = {
+            "number": 91,
+            "labels": [{"name": "翻译请愿"}],
+            "body": "### Steam app ID\n\n456\n",
+        }
+        with (
+            mock.patch.object(pr_maintenance, "open_translation_petitions", return_value=[matching, unrelated]),
+            mock.patch.object(pr_maintenance, "comment_issue_once") as comment_once,
+            mock.patch.object(pr_maintenance, "close_issue") as close,
+        ):
+            notified = pr_maintenance.notify_fulfilled_translation_petitions(pr, "owner/repo", "token")
+
+        self.assertEqual(1, notified)
+        self.assertEqual(90, comment_once.call_args.args[2])
+        self.assertIn("@contributor", comment_once.call_args.args[3])
+        self.assertIn("现在可以下载了", comment_once.call_args.args[3])
+        close.assert_called_once_with("owner/repo", "token", 90)
+
+    def test_pr_finalization_runs_petition_notification(self) -> None:
+        pr = {"number": 34, "body": "", "labels": []}
+        event = {"pull_request": pr}
+        with (
+            mock.patch.object(pr_maintenance, "comment_issue_once"),
+            mock.patch.object(pr_maintenance, "notify_fulfilled_translation_petitions") as notify,
+            mock.patch.object(pr_maintenance, "delete_pr_branch"),
+            mock.patch.object(pr_maintenance, "lock_issue"),
+        ):
+            pr_maintenance.finalize_merged_pr(event, "owner/repo", "token")
+
+        notify.assert_called_once_with(pr, "owner/repo", "token")
+
     def test_legacy_multi_version_pr_updates_primary_variant_metadata(self) -> None:
         existing = {
             "game_id": "123",

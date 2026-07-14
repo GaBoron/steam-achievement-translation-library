@@ -1,0 +1,55 @@
+name: 翻译请愿
+description: 上传需要翻译的 UserGameStatsSchema_<app_id>.bin，并在翻译收录后接收通知
+title: "[翻译请愿] 游戏名 (Steam app ID)"
+labels: [翻译请愿]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        此模板用于请求社区翻译尚未收录的 Steam 成就 schema。请直接上传 Steam 生成的原始 `.bin` 文件，不要压缩。
+
+        机器人成功识别文件后会确认请愿已收到；同一 Steam app ID 的翻译投稿 PR 合并后，会在此通知并自动关闭 issue。
+  - type: input
+    id: game_name
+    attributes:
+      label: 游戏名
+      description: 按 Steam 商店显示填写。
+      placeholder: Steam 商店中的游戏名
+    validations:
+      required: true
+  - type: input
+    id: app_id
+    attributes:
+      label: Steam app ID
+      description: 只填写数字，并确保与上传文件名中的 ID 一致。
+      placeholder: "123456"
+    validations:
+      required: true
+  - type: input
+    id: store_url
+    attributes:
+      label: Steam 商店地址
+      placeholder: https://store.steampowered.com/app/123456/
+    validations:
+      required: true
+  - type: input
+    id: target_languages
+    attributes:
+      label: 希望翻译到的语言
+      description: 使用 Steam 语言代码；多个代码用半角逗号分隔。
+      placeholder: schinese
+    validations:
+      required: true
+  - type: textarea
+    id: schema_bin
+    attributes:
+      label: 需要翻译的成就 schema BIN
+      description: 上传未经压缩的 `UserGameStatsSchema_<app_id>.bin`，文件名中的 app ID 必须与上方一致。
+      placeholder: 请把 BIN 文件拖到这里。
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 备注
+      description: 可填写术语偏好、参考资料或其他希望译者注意的内容。
