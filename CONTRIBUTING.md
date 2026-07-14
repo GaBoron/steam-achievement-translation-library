@@ -17,8 +17,8 @@
 如果翻译库还没有某个游戏的翻译，而你只有 Steam 生成的原始 schema，可以使用“翻译请愿”issue 模板：
 
 1. 填写游戏名、Steam app ID、Steam 商店地址和希望翻译到的 Steam 语言代码。
-2. 直接上传未经压缩的 `UserGameStatsSchema_<app_id>.bin`；文件名中的 app ID 必须与表单一致。
-3. 自动化会检查表单、文件名、Binary KeyValues 可解析性、字节级 roundtrip、成就记录和成就 ID 唯一性。
+2. 把原始 `UserGameStatsSchema_<app_id>.bin` 压缩为 `UserGameStatsSchema_<app_id>.zip` 后上传；ZIP 内必须且只能包含这个同名 BIN，app ID 必须与表单一致。
+3. 自动化会检查表单、ZIP 结构、文件名、Binary KeyValues 可解析性、字节级 roundtrip、成就记录和成就 ID 唯一性。
 4. 识别成功后，机器人会评论确认请愿已收到，issue 保持打开。
 5. 同一 Steam app ID 的新翻译投稿 PR 合并后，机器人会 @贡献者、提供下载链接并自动关闭所有匹配的请愿 issue。
 

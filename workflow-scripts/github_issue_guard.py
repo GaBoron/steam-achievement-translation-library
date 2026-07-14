@@ -163,7 +163,7 @@ def infer_issue_kind(issue: dict[str, Any]) -> str | None:
         return "outdated"
     if "### 更新内容摘要" in text or "### Update summary" in text:
         return "update"
-    if "### 需要翻译的成就 schema BIN" in text or "### Achievement schema BIN to translate" in text:
+    if "### 需要翻译的成就 schema ZIP" in text or "### Achievement schema ZIP to translate" in text:
         return "translation-petition"
     if "### 成就 schema ZIP" in text or "### Achievement schema ZIP" in text:
         return "translation-contribution"

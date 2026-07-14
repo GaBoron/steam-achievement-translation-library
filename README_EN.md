@@ -15,7 +15,7 @@ This project is a **Steam achievement translation data repository**. It collects
 | --- | --- |
 | Find a translation | Open [the library index](INDEX_EN.md) and search by Steam app ID, game name, contributor, or language code |
 | Install an existing translation | Download [Steam Achievement Translation Installer](https://github.com/GaBoron/steam-achievement-translation-installer/releases/latest) to scan, install, and safely restore translations |
-| Request a missing translation | Use the [“Translation petition”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_petition_en.yml) issue template and upload the original `.bin` that needs translation |
+| Request a missing translation | Use the [“Translation petition”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_petition_en.yml) issue template and upload a ZIP containing the original `.bin` that needs translation |
 | Submit a new game | Use the ["Submit Steam achievement translation"](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_contribution_en.yml) issue template |
 | Update an accepted file | Use the ["Update existing Steam achievement translation"](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_en.yml) issue template |
 | Report an outdated file | Use the ["Report outdated achievement file"](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_en.yml) issue template |

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate translation petitions and acknowledge recognized schema files."""
+"""Validate translation-petition ZIPs and acknowledge recognized schemas."""
 from __future__ import annotations
 
 import argparse
@@ -22,6 +22,7 @@ from library_submission_bot import (
     load_schema,
     parse_comma_language_list,
     parse_issue_form,
+    resolve_schema_upload,
     steam_store_id,
     validate_schema_structure,
 )
@@ -75,7 +76,7 @@ def validate_petition(issue: dict[str, Any], token: str | None) -> dict[str, Any
     store_url = first_line(field_value(fields, ["Steam store URL", "Steam 商店地址"]))
     target_text = field_value(fields, ["Requested target languages", "希望翻译到的语言"])
     attachment = extract_attachment(
-        field_value(fields, ["Achievement schema BIN to translate", "需要翻译的成就 schema BIN"])
+        field_value(fields, ["Achievement schema ZIP to translate", "需要翻译的成就 schema ZIP"])
     )
     errors: list[str] = []
 
@@ -98,9 +99,9 @@ def validate_petition(issue: dict[str, Any], token: str | None) -> dict[str, Any
     if any(separator in target_text for separator in [";", "；", "，"]):
         errors.append("目标语言必须使用半角逗号 `,` 分隔。")
 
-    expected_name = f"UserGameStatsSchema_{game_id}.bin" if game_id else "UserGameStatsSchema_<app_id>.bin"
+    expected_name = f"UserGameStatsSchema_{game_id}.zip" if game_id else "UserGameStatsSchema_<app_id>.zip"
     if attachment is None:
-        errors.append("必须附加且只能附加一个未经压缩的 UserGameStatsSchema_<app_id>.bin 文件。")
+        errors.append("必须附加且只能附加一个 UserGameStatsSchema_<app_id>.zip 文件。")
     elif attachment.filename != expected_name:
         errors.append(f"上传文件名必须是 {expected_name}，当前识别为 {attachment.filename}。")
 
@@ -108,12 +109,14 @@ def validate_petition(issue: dict[str, Any], token: str | None) -> dict[str, Any
     if not errors and attachment is not None:
         try:
             with tempfile.TemporaryDirectory() as tmp:
-                schema_path = Path(tmp) / "petition-schema.bin"
-                download_attachment(attachment, token, schema_path)
+                tmp_path = Path(tmp)
+                archive_path = tmp_path / "petition-schema.zip"
+                download_attachment(attachment, token, archive_path)
+                schema_path = resolve_schema_upload(archive_path, attachment, game_id, tmp_path)
                 data, nodes = load_schema(schema_path)
                 achievement_count = len(validate_schema_structure(data, nodes))
         except Exception as exc:  # noqa: BLE001 - reported as an actionable issue validation error.
-            errors.append(f"无法识别上传的 BIN：{exc}")
+            errors.append(f"无法识别上传的 ZIP：{exc}")
 
     return {
         "ok": not errors,

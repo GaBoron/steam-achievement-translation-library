@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import sys
 import unittest
+import zipfile
 from pathlib import Path
 from unittest import mock
 
@@ -38,7 +39,7 @@ def valid_schema() -> bytes:
     ])
 
 
-def petition_issue(filename: str = "UserGameStatsSchema_123.bin") -> dict:
+def petition_issue(filename: str = "UserGameStatsSchema_123.zip") -> dict:
     return {
         "number": 7,
         "labels": [{"name": "翻译请愿"}],
@@ -59,7 +60,7 @@ def petition_issue(filename: str = "UserGameStatsSchema_123.bin") -> dict:
             "",
             "schinese, japanese",
             "",
-            "### 需要翻译的成就 schema BIN",
+            "### 需要翻译的成就 schema ZIP",
             "",
             f"[{filename}](https://github.com/user-attachments/assets/example)",
         ]),
@@ -73,9 +74,10 @@ class TranslationPetitionValidationTests(unittest.TestCase):
 
         self.assertEqual("translation-petition", issue_guard.infer_issue_kind(issue))
 
-    def test_valid_bin_is_recognized(self) -> None:
+    def test_valid_zip_with_one_matching_bin_is_recognized(self) -> None:
         def fake_download(_attachment, _token, destination: Path) -> None:
-            destination.write_bytes(valid_schema())
+            with zipfile.ZipFile(destination, "w") as archive:
+                archive.writestr("UserGameStatsSchema_123.bin", valid_schema())
 
         with mock.patch.object(petition_bot, "download_attachment", side_effect=fake_download):
             result = petition_bot.validate_petition(petition_issue(), "token")
@@ -86,10 +88,22 @@ class TranslationPetitionValidationTests(unittest.TestCase):
         self.assertEqual(["schinese", "japanese"], result["target_languages"])
 
     def test_filename_must_match_app_id(self) -> None:
-        result = petition_bot.validate_petition(petition_issue("UserGameStatsSchema_456.bin"), "token")
+        result = petition_bot.validate_petition(petition_issue("UserGameStatsSchema_456.zip"), "token")
 
         self.assertFalse(result["ok"])
-        self.assertIn("UserGameStatsSchema_123.bin", "\n".join(result["errors"]))
+        self.assertIn("UserGameStatsSchema_123.zip", "\n".join(result["errors"]))
+
+    def test_zip_must_contain_exactly_one_matching_bin(self) -> None:
+        def fake_download(_attachment, _token, destination: Path) -> None:
+            with zipfile.ZipFile(destination, "w") as archive:
+                archive.writestr("UserGameStatsSchema_123.bin", valid_schema())
+                archive.writestr("notes.txt", "extra")
+
+        with mock.patch.object(petition_bot, "download_attachment", side_effect=fake_download):
+            result = petition_bot.validate_petition(petition_issue(), "token")
+
+        self.assertFalse(result["ok"])
+        self.assertIn("必须且只能包含一个 schema", "\n".join(result["errors"]))
 
     def test_success_acknowledgement_is_idempotent(self) -> None:
         result = {

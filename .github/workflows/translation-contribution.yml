@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   issue-review:
-    if: ${{ github.event_name == 'issues' && !github.event.issue.pull_request && github.event.issue.state == 'open' && !contains(github.event.issue.labels.*.name, '功能请愿') && !contains(github.event.issue.labels.*.name, '翻译请愿') && !contains(github.event.issue.body, '### 需要翻译的成就 schema BIN') && !contains(github.event.issue.body, '### Achievement schema BIN to translate') }}
+    if: ${{ github.event_name == 'issues' && !github.event.issue.pull_request && github.event.issue.state == 'open' && !contains(github.event.issue.labels.*.name, '功能请愿') && !contains(github.event.issue.labels.*.name, '翻译请愿') && !contains(github.event.issue.body, '### 需要翻译的成就 schema ZIP') && !contains(github.event.issue.body, '### Achievement schema ZIP to translate') }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout translation library
@@ -161,7 +161,7 @@ jobs:
           gh api -X PUT "repos/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER/lock" -f lock_reason=resolved
 
   translation-petition-review:
-    if: ${{ github.event_name == 'issues' && !github.event.issue.pull_request && github.event.issue.state == 'open' && (contains(github.event.issue.labels.*.name, '翻译请愿') || contains(github.event.issue.body, '### 需要翻译的成就 schema BIN') || contains(github.event.issue.body, '### Achievement schema BIN to translate')) }}
+    if: ${{ github.event_name == 'issues' && !github.event.issue.pull_request && github.event.issue.state == 'open' && (contains(github.event.issue.labels.*.name, '翻译请愿') || contains(github.event.issue.body, '### 需要翻译的成就 schema ZIP') || contains(github.event.issue.body, '### Achievement schema ZIP to translate')) }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout translation library
