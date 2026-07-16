@@ -92,6 +92,21 @@ class IssueCommentAuthorizationTests(unittest.TestCase):
         close.assert_not_called()
         self.assertIn("等待机器人确认回复", comment.call_args.args[-1])
 
+    def test_issue_close_confirmation_without_request_is_rejected(self) -> None:
+        event = self.event("contributor")
+        event["comment"]["body"] = "/close confirm"
+        with (
+            mock.patch.object(issue_guard, "issue_comments", return_value=[]),
+            mock.patch.object(issue_guard, "comment_issue") as comment,
+            mock.patch.object(issue_guard, "close_issue") as close,
+            mock.patch.object(issue_guard, "lock_issue") as lock,
+        ):
+            issue_guard.handle_issue_close("owner/repo", "token", event)
+
+        close.assert_not_called()
+        lock.assert_not_called()
+        self.assertIn("请先输入 `/close 关闭原因`", comment.call_args.args[-1])
+
     def test_issue_close_confirmation_closes_and_locks(self) -> None:
         event = self.event("contributor")
         event["comment"].update({"body": "/close confirm", "created_at": "2026-07-16T02:00:02Z"})
@@ -249,6 +264,23 @@ class PullRequestCommentAuthorizationTests(unittest.TestCase):
         self.assertIn("投稿重复", comment.call_args.args[-1])
         close.assert_called_once_with("owner/repo", "token", 34)
         lock.assert_called_once_with("owner/repo", "token", 34)
+
+    def test_pr_close_confirmation_without_request_is_rejected(self) -> None:
+        event = self.event("contributor")
+        event["comment"]["body"] = "/close confirm"
+        with (
+            mock.patch.object(pr_maintenance, "github_request", return_value=self.close_pr()),
+            mock.patch.object(pr_maintenance, "close_comment_is_authorized", return_value=True),
+            mock.patch.object(pr_maintenance, "issue_comments", return_value=[]),
+            mock.patch.object(pr_maintenance, "comment_issue") as comment,
+            mock.patch.object(pr_maintenance, "close_pull_request") as close,
+            mock.patch.object(pr_maintenance, "lock_issue") as lock,
+        ):
+            pr_maintenance.handle_pr_close("owner/repo", "token", event)
+
+        close.assert_not_called()
+        lock.assert_not_called()
+        self.assertIn("请先输入 `/close 关闭原因`", comment.call_args.args[-1])
 
     def test_only_contributor_or_maintainer_clears_wait_label(self) -> None:
         with mock.patch.object(pr_maintenance, "remove_issue_label") as remove:
