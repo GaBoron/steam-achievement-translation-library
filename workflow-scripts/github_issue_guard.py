@@ -115,12 +115,13 @@ def github_request(
     *,
     allow_404: bool = False,
     allow_422: bool = False,
+    api_version: str = "2022-11-28",
 ) -> dict[str, Any] | None:
     data = None
     headers = {
         "Accept": "application/vnd.github+json",
         "User-Agent": "steam-achievement-translation-library-issue-guard",
-        "X-GitHub-Api-Version": "2022-11-28",
+        "X-GitHub-Api-Version": api_version,
         "Authorization": f"Bearer {token}",
     }
     if payload is not None:
@@ -178,6 +179,119 @@ def infer_issue_kind(issue: dict[str, Any]) -> str | None:
     if "### 成就 schema ZIP" in text or "### Achievement schema ZIP" in text:
         return "translation-contribution"
     return None
+
+
+def issue_game_id(issue: dict[str, Any]) -> str:
+    value = section_value(str(issue.get("body") or ""), FIELD_LABELS["id"])
+    first = value.strip().splitlines()[0].strip() if value.strip() else ""
+    return first if re.fullmatch(r"\d+", first) else ""
+
+
+def list_open_issues(repo: str, token: str) -> list[dict[str, Any]]:
+    issues: list[dict[str, Any]] = []
+    for page in range(1, 11):
+        query = urllib.parse.urlencode({
+            "state": "open",
+            "sort": "created",
+            "direction": "desc",
+            "per_page": "100",
+            "page": str(page),
+        })
+        batch = github_request("GET", repo, token, f"/issues?{query}") or []
+        if not isinstance(batch, list):
+            raise RuntimeError("GitHub open issues API 返回了无效数据")
+        issues.extend(issue for issue in batch if isinstance(issue, dict))
+        if len(batch) < 100:
+            return issues
+    raise RuntimeError("open issue 数量超过自动检查上限")
+
+
+def older_open_duplicate_issues(current: dict[str, Any], issues: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    current_number = int(current.get("number") or 0)
+    current_kind = infer_issue_kind(current)
+    game_id = issue_game_id(current)
+    if not current_number or not current_kind or not game_id:
+        return []
+    duplicates: list[dict[str, Any]] = []
+    for issue in issues:
+        if "pull_request" in issue or str(issue.get("state") or "") != "open":
+            continue
+        issue_number = int(issue.get("number") or 0)
+        if not issue_number or issue_number >= current_number:
+            continue
+        if infer_issue_kind(issue) != current_kind or issue_game_id(issue) != game_id:
+            continue
+        duplicates.append(issue)
+    return sorted(duplicates, key=lambda issue: int(issue.get("number") or 0))
+
+
+def close_duplicate_issue(repo: str, token: str, issue_number: int, canonical_issue_id: int) -> None:
+    github_request(
+        "PATCH",
+        repo,
+        token,
+        f"/issues/{issue_number}",
+        {
+            "state": "closed",
+            "state_reason": "duplicate",
+            "duplicate_issue_id": canonical_issue_id,
+        },
+        api_version="2026-03-10",
+    )
+
+
+def revalidate_open_duplicate_issue(
+    repo: str,
+    token: str,
+    current: dict[str, Any],
+    issue_number: int,
+) -> dict[str, Any] | None:
+    latest = github_request("GET", repo, token, f"/issues/{issue_number}")
+    if not isinstance(latest, dict):
+        return None
+    matches = older_open_duplicate_issues(current, [latest])
+    return matches[0] if matches else None
+
+
+def close_older_duplicate_issues(repo: str, token: str, event: dict[str, Any]) -> list[int]:
+    if str(event.get("action") or "") != "opened":
+        return []
+    current = event.get("issue") or {}
+    if "pull_request" in current or str(current.get("state") or "") != "open":
+        return []
+    canonical_issue_id = int(current.get("id") or 0)
+    current_number = int(current.get("number") or 0)
+    if not canonical_issue_id or not current_number:
+        return []
+    game_id = issue_game_id(current)
+    if not game_id or not infer_issue_kind(current):
+        return []
+    duplicates = older_open_duplicate_issues(current, list_open_issues(repo, token))
+    closed: list[int] = []
+    for duplicate in duplicates:
+        issue_number = int(duplicate["number"])
+        latest = revalidate_open_duplicate_issue(repo, token, current, issue_number)
+        if latest is None:
+            continue
+        close_duplicate_issue(repo, token, issue_number, canonical_issue_id)
+        closed.append(issue_number)
+        try:
+            comment_issue(
+                repo,
+                token,
+                issue_number,
+                "\n".join([
+                    "<!-- translation-library-duplicate-issue -->",
+                    f"此 issue 已由更新的同类型投稿 #{current_number} 替代，因此被标记为重复项并自动关闭。",
+                    "",
+                    f"- Steam app ID：`{game_id}`",
+                    f"- 保留的 issue：#{current_number}",
+                    "- 自动化只关闭当时仍为 open 的旧 issue。",
+                ]),
+            )
+        except RuntimeError as exc:
+            print(f"Warning: duplicate issue #{issue_number} was closed but could not be commented: {exc}")
+    return closed
 
 
 def add_issue_labels(repo: str, token: str, issue_number: int, labels: list[str]) -> None:
@@ -495,6 +609,7 @@ def main() -> None:
     active = sorted(label for label in KIND_LABELS.values() if label in labels)
     if len(active) > 1:
         raise SystemExit("每个 issue 只能使用一个自动化标签: " + ", ".join(active))
+    close_older_duplicate_issues(args.repo, args.token, event)
 
 
 if __name__ == "__main__":
