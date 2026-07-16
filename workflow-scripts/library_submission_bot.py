@@ -42,6 +42,7 @@ ATTACHMENT_RE = re.compile(
     r"\[([^\]]+)\]\((https://github\.com/user-attachments/[^\s)]+)\)|(?<!\()(?P<url>https://github\.com/user-attachments/[^\s)]+)"
 )
 TYPE_NAMES = {0: "BEGIN", 1: "STRING", 2: "INT32", 3: "FLOAT32", 4: "POINTER", 5: "WIDESTRING", 6: "COLOR", 7: "UINT64", 8: "END"}
+PR_GAME_ID_RE = re.compile(r"(?mi)^-\s*Steam app ID:\s*`?(\d+)`?\s*$")
 
 
 @dataclass
@@ -364,6 +365,46 @@ def download_attachment(attachment: Attachment, token: str | None, destination: 
                 if total > MAX_DOWNLOAD_BYTES:
                     raise ValueError("上传文件超过 32 MiB 检查上限")
                 handle.write(chunk)
+
+
+def github_api_get(repo: str, token: str, path: str) -> Any:
+    if not token:
+        raise RuntimeError("缺少 GitHub token")
+    encoded_repo = urllib.parse.quote(repo, safe="/")
+    request = urllib.request.Request(
+        f"https://api.github.com/repos/{encoded_repo}{path}",
+        headers={
+            "Accept": "application/vnd.github+json",
+            "Authorization": f"Bearer {token}",
+            "User-Agent": "steam-achievement-translation-library-bot",
+            "X-GitHub-Api-Version": "2022-11-28",
+        },
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return json.load(response)
+
+
+def pull_request_game_id(pull_request: dict[str, Any]) -> str:
+    match = PR_GAME_ID_RE.search(str(pull_request.get("body") or ""))
+    return match.group(1) if match else ""
+
+
+def find_open_translation_pr(repo: str, token: str, game_id: str) -> dict[str, Any] | None:
+    for page in range(1, 11):
+        pulls = github_api_get(repo, token, f"/pulls?state=open&base=main&per_page=100&page={page}")
+        if not isinstance(pulls, list):
+            raise RuntimeError("GitHub open PR API 返回了无效数据")
+        for pull_request in pulls:
+            if not isinstance(pull_request, dict):
+                continue
+            head = pull_request.get("head") if isinstance(pull_request.get("head"), dict) else {}
+            if not str(head.get("ref") or "").startswith("translation-library/"):
+                continue
+            if pull_request_game_id(pull_request) == game_id:
+                return pull_request
+        if len(pulls) < 100:
+            return None
+    raise RuntimeError("open PR 数量超过自动检查上限")
 
 
 def safe_archive_members(archive: zipfile.ZipFile) -> list[zipfile.ZipInfo]:
@@ -1406,7 +1447,29 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
     existing = existing_entry(index, game_id) if game_id else None
 
     if kind == "translation-contribution" and existing:
-        errors.append(f"Steam app ID {game_id} 已经存在于 index.json；如需替换已收录文件，请使用“更新已有 Steam 成就翻译”模板。")
+        write_failure(
+            [f"Steam app ID {game_id} 已经存在于 index.json；如需替换已收录文件，请使用“更新已有 Steam 成就翻译”模板。"],
+            retry_allowed=False,
+        )
+    if kind == "translation-contribution" and game_id and re.fullmatch(r"\d+", game_id):
+        repository = event.get("repository") if isinstance(event.get("repository"), dict) else {}
+        repo = str(repository.get("full_name") or os.environ.get("GITHUB_REPOSITORY") or "").strip()
+        if not repo:
+            errors.append("无法确定 GitHub 仓库，不能检查正在打开的同 ID PR。")
+        else:
+            try:
+                open_pr = find_open_translation_pr(repo, token or "", game_id)
+            except Exception as exc:  # noqa: BLE001 - this becomes a user-facing review message.
+                errors.append(f"无法检查正在打开的同 ID PR：{exc}。请稍后重试。")
+            else:
+                if open_pr:
+                    pr_number = int(open_pr.get("number") or 0)
+                    pr_url = str(open_pr.get("html_url") or "").strip()
+                    pr_reference = pr_url or (f"PR #{pr_number}" if pr_number else "现有 PR")
+                    write_failure(
+                        [f"Steam app ID {game_id} 已有正在审核的投稿 PR：{pr_reference}。请在该 PR 中继续处理，不要重复投稿。"],
+                        retry_allowed=False,
+                    )
     if kind == "update" and not existing:
         errors.append(f"Steam app ID {game_id} 不存在于 index.json；正在打开的 PR 不算已收录条目。")
     if kind == "update" and not update_summary:

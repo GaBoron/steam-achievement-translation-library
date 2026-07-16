@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        请先在 `INDEX.md` 或 `index.json` 搜索 Steam app ID，确认库里还没有这个游戏。
+        请先在 `INDEX.md`、`index.json` 和正在打开的翻译投稿 PR 中搜索 Steam app ID，确认没有相同游戏。自动化发现重复 ID 后会评论并关闭此 issue。
 
         上传文件必须是 `UserGameStatsSchema_<app_id>.zip`。单版本 ZIP 只放一个同名 `.bin`；多版本 ZIP 使用 `translation-variants.json` 声明全部版本。
   - type: input

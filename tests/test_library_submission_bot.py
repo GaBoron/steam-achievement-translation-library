@@ -43,6 +43,108 @@ def schema_nodes(*achievements: bot.Node) -> list[bot.Node]:
 
 
 class SchemaValidationTests(unittest.TestCase):
+    def test_open_translation_pr_is_found_by_game_id(self) -> None:
+        pulls = [{
+            "number": 42,
+            "html_url": "https://github.com/example/repo/pull/42",
+            "body": "## Translation Library Submission\n\n- Steam app ID: `123`\n",
+            "head": {"ref": "translation-library/issue-41"},
+        }]
+
+        with mock.patch.object(bot, "github_api_get", return_value=pulls):
+            result = bot.find_open_translation_pr("example/repo", "token", "123")
+
+        self.assertIsNotNone(result)
+        self.assertEqual(42, result["number"])
+
+    def test_unrelated_or_non_automation_pr_is_ignored(self) -> None:
+        pulls = [
+            {
+                "number": 42,
+                "body": "- Steam app ID: `456`",
+                "head": {"ref": "translation-library/issue-41"},
+            },
+            {
+                "number": 43,
+                "body": "- Steam app ID: `123`",
+                "head": {"ref": "feature/manual-change"},
+            },
+        ]
+
+        with mock.patch.object(bot, "github_api_get", return_value=pulls):
+            result = bot.find_open_translation_pr("example/repo", "token", "123")
+
+        self.assertIsNone(result)
+
+    def test_duplicate_open_pr_is_non_retryable(self) -> None:
+        event = {
+            "issue": {
+                "number": 99,
+                "html_url": "https://github.com/example/repo/issues/99",
+                "body": """### 游戏名
+
+示例游戏
+
+### Steam app ID
+
+123
+
+### Steam 商店地址
+
+https://store.steampowered.com/app/123/
+
+### 上传文件包含的语言
+
+schinese
+
+### 成就 schema ZIP
+
+[UserGameStatsSchema_123.zip](https://github.com/user-attachments/files/1/UserGameStatsSchema_123.zip)
+""",
+            },
+            "repository": {"full_name": "example/repo"},
+        }
+        duplicate = {"number": 42, "html_url": "https://github.com/example/repo/pull/42"}
+
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.object(
+            bot, "load_index", return_value={"entries": []}
+        ), mock.patch.object(bot, "find_open_translation_pr", return_value=duplicate):
+            old_cwd = Path.cwd()
+            try:
+                os.chdir(tmp)
+                with self.assertRaises(SystemExit):
+                    bot.validate_translation_or_update(event, "token", "translation-contribution")
+                result = json.loads(Path("submission_result.json").read_text(encoding="utf-8"))
+            finally:
+                os.chdir(old_cwd)
+
+        self.assertFalse(result["retry_allowed"])
+        self.assertTrue(result["close_issue"])
+        self.assertIn("https://github.com/example/repo/pull/42", result["errors"][0])
+
+    def test_duplicate_index_entry_is_non_retryable(self) -> None:
+        event = {
+            "issue": {
+                "number": 99,
+                "body": "### Steam app ID\n\n123\n",
+            },
+        }
+
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.object(
+            bot, "load_index", return_value={"entries": [{"game_id": "123"}]}
+        ):
+            old_cwd = Path.cwd()
+            try:
+                os.chdir(tmp)
+                with self.assertRaises(SystemExit):
+                    bot.validate_translation_or_update(event, None, "translation-contribution")
+                result = json.loads(Path("submission_result.json").read_text(encoding="utf-8"))
+            finally:
+                os.chdir(old_cwd)
+
+        self.assertFalse(result["retry_allowed"])
+        self.assertTrue(result["close_issue"])
+
     def test_schema_roundtrip_and_language_coverage(self) -> None:
         nodes = schema_nodes(achievement_node())
         data = bot.serialize(nodes)

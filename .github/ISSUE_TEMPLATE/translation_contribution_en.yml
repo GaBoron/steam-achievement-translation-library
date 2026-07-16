@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Search `INDEX.md` or `index.json` for the Steam app ID before opening this issue.
+        Search `INDEX.md`, `index.json`, and open translation PRs for the Steam app ID before opening this issue. If automation finds a duplicate ID, it will comment and close this issue.
 
         Upload `UserGameStatsSchema_<app_id>.zip`. A single-version ZIP contains one matching `.bin`; a multi-version ZIP declares every version in `translation-variants.json`.
   - type: input
