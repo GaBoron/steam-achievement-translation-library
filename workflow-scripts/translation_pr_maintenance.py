@@ -13,6 +13,16 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+from close_command import (
+    close_command_error,
+    close_completed_comment,
+    close_request_comment,
+    confirmation_follows_reply,
+    is_close_command,
+    latest_close_request,
+    parse_close_command,
+)
+
 from library_submission_bot import (
     LANGUAGE_RE,
     achievement_rows,
@@ -159,6 +169,27 @@ def close_issue(repo: str, token: str, issue_number: int) -> None:
     )
 
 
+def close_pull_request(repo: str, token: str, pr_number: int) -> None:
+    github_request("PATCH", repo, token, f"/pulls/{pr_number}", {"state": "closed"})
+
+
+def issue_comments(repo: str, token: str, issue_number: int) -> list[dict[str, Any]]:
+    comments: list[dict[str, Any]] = []
+    for page in range(1, 11):
+        batch = github_request(
+            "GET",
+            repo,
+            token,
+            f"/issues/{issue_number}/comments?per_page=100&page={page}",
+        ) or []
+        if not isinstance(batch, list):
+            raise RuntimeError("GitHub PR comments API 返回了无效数据")
+        comments.extend(comment for comment in batch if isinstance(comment, dict))
+        if len(batch) < 100:
+            return comments
+    raise RuntimeError("PR 评论数量超过自动检查上限")
+
+
 def pr_labels(pr_or_issue: dict[str, Any]) -> set[str]:
     return {str(label.get("name") or "") for label in pr_or_issue.get("labels", []) if isinstance(label, dict)}
 
@@ -203,6 +234,69 @@ def comment_is_authorized(event: dict[str, Any]) -> bool:
     except (TypeError, ValueError):
         allowed_users = set()
     return actor in allowed_users
+
+
+def source_issue_number(pr: dict[str, Any]) -> int:
+    try:
+        source_issue = str(parse_pr_metadata(pr).get("source_issue") or "")
+    except (TypeError, ValueError):
+        return 0
+    match = re.search(r"/issues/(\d+)(?:[/?#]|$)", source_issue)
+    return int(match.group(1)) if match else 0
+
+
+def close_comment_is_authorized(repo: str, token: str, pr: dict[str, Any], actor: str) -> bool:
+    if not actor or is_bot(actor):
+        return False
+    issue_number = source_issue_number(pr)
+    if issue_number:
+        source_issue = github_request("GET", repo, token, f"/issues/{issue_number}") or {}
+        source_author = str((source_issue.get("user") or {}).get("login") or "")
+        return actor == source_author
+    try:
+        reporter = str(parse_pr_metadata(pr).get("reporter") or "")
+    except (TypeError, ValueError):
+        reporter = ""
+    if reporter:
+        return actor == reporter
+    pr_author = str((pr.get("user") or {}).get("login") or "")
+    return bool(pr_author) and not is_bot(pr_author) and actor == pr_author
+
+
+def handle_pr_close(repo: str, token: str, event: dict[str, Any]) -> bool:
+    issue = event.get("issue") or {}
+    comment = event.get("comment") or {}
+    comment_body = str(comment.get("body") or "")
+    if not is_close_command(comment_body):
+        return False
+    pr_number = int(issue["number"])
+    pr = github_request("GET", repo, token, f"/pulls/{pr_number}") or issue
+    actor = comment_actor(event)
+    if not close_comment_is_authorized(repo, token, pr, actor):
+        comment_issue(repo, token, pr_number, close_command_error("`/close` 只能由该 PR 对应来源 issue 的原投稿者执行。"))
+        return True
+    if str(pr.get("state") or "") != "open":
+        comment_issue(repo, token, pr_number, close_command_error("`/close` 只能用于打开状态的 PR。"))
+        return True
+    action, reason, error = parse_close_command(comment_body)
+    if error:
+        comment_issue(repo, token, pr_number, close_command_error(error))
+        return True
+    if action == "request":
+        comment_issue(repo, token, pr_number, close_request_comment(actor, reason, "PR"))
+        return True
+    comments = issue_comments(repo, token, pr_number)
+    request = latest_close_request(comments, actor)
+    if request is None:
+        comment_issue(repo, token, pr_number, close_command_error("没有找到你尚待确认的关闭请求。请先输入 `/close 关闭原因`。"))
+        return True
+    if not confirmation_follows_reply(comment, request):
+        comment_issue(repo, token, pr_number, close_command_error("必须等待机器人确认回复出现后，再新建评论输入 `/close confirm`。"))
+        return True
+    comment_issue(repo, token, pr_number, close_completed_comment(actor, request["reason"], "PR"))
+    close_pull_request(repo, token, pr_number)
+    lock_issue(repo, token, pr_number)
+    return True
 
 
 def strip_inline_code(value: str) -> str:
@@ -900,6 +994,8 @@ def clear_wait_for_update_from_comment(repo: str, token: str, event: dict[str, A
 
 
 def handle_comment(repo: str, token: str, event: dict[str, Any]) -> None:
+    if handle_pr_close(repo, token, event):
+        return
     clear_wait_for_update_from_comment(repo, token, event)
     body = str((event.get("comment") or {}).get("body") or "").strip()
     if is_update_command(body):

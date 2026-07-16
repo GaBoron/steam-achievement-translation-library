@@ -12,6 +12,7 @@ sys.path.insert(0, str(ROOT / "workflow-scripts"))
 import github_issue_guard as issue_guard  # noqa: E402
 import library_submission_bot as bot  # noqa: E402
 import translation_pr_maintenance as pr_maintenance  # noqa: E402
+from close_command import close_request_comment, parse_close_command  # noqa: E402
 
 
 class IssueCommentAuthorizationTests(unittest.TestCase):
@@ -25,10 +26,93 @@ class IssueCommentAuthorizationTests(unittest.TestCase):
             },
             "comment": {
                 "body": "/update name New name",
+                "created_at": "2026-07-16T02:00:00Z",
                 "author_association": association,
                 "user": {"login": actor},
             },
         }
+
+    def test_close_check_is_a_reason_not_confirmation(self) -> None:
+        self.assertEqual(("request", "check", ""), parse_close_command("/close check"))
+        self.assertEqual(("confirm", "", ""), parse_close_command("/close confirm"))
+
+    def test_close_requires_a_reason(self) -> None:
+        action, reason, error = parse_close_command("/close")
+
+        self.assertEqual("", action)
+        self.assertEqual("", reason)
+        self.assertIn("必须填写关闭原因", error)
+
+    def test_issue_close_request_only_allows_original_submitter(self) -> None:
+        event = self.event("maintainer", "OWNER")
+        event["comment"]["body"] = "/close no longer needed"
+        with (
+            mock.patch.object(issue_guard, "comment_issue") as comment,
+            mock.patch.object(issue_guard, "close_issue") as close,
+        ):
+            handled = issue_guard.handle_issue_close("owner/repo", "token", event)
+
+        self.assertTrue(handled)
+        close.assert_not_called()
+        self.assertIn("原投稿者", comment.call_args.args[-1])
+
+    def test_issue_close_request_replies_without_closing(self) -> None:
+        event = self.event("contributor")
+        event["comment"]["body"] = "/close 已有更完整的投稿"
+        with (
+            mock.patch.object(issue_guard, "comment_issue") as comment,
+            mock.patch.object(issue_guard, "close_issue") as close,
+            mock.patch.object(issue_guard, "lock_issue") as lock,
+        ):
+            handled = issue_guard.handle_issue_close("owner/repo", "token", event)
+
+        self.assertTrue(handled)
+        close.assert_not_called()
+        lock.assert_not_called()
+        self.assertIn("尚未关闭", comment.call_args.args[-1])
+        self.assertIn("/close confirm", comment.call_args.args[-1])
+
+    def test_issue_close_confirmation_must_follow_bot_reply(self) -> None:
+        event = self.event("contributor")
+        event["comment"].update({"body": "/close confirm", "created_at": "2026-07-16T02:00:00Z"})
+        acknowledgement = {
+            "id": 101,
+            "body": close_request_comment("contributor", "已有更完整的投稿", "issue"),
+            "created_at": "2026-07-16T02:00:01Z",
+            "user": {"login": "github-actions[bot]"},
+        }
+        event["comment"]["id"] = 100
+        with (
+            mock.patch.object(issue_guard, "issue_comments", return_value=[acknowledgement]),
+            mock.patch.object(issue_guard, "comment_issue") as comment,
+            mock.patch.object(issue_guard, "close_issue") as close,
+        ):
+            issue_guard.handle_issue_close("owner/repo", "token", event)
+
+        close.assert_not_called()
+        self.assertIn("等待机器人确认回复", comment.call_args.args[-1])
+
+    def test_issue_close_confirmation_closes_and_locks(self) -> None:
+        event = self.event("contributor")
+        event["comment"].update({"body": "/close confirm", "created_at": "2026-07-16T02:00:02Z"})
+        acknowledgement = {
+            "id": 100,
+            "body": close_request_comment("contributor", "已有更完整的投稿", "issue"),
+            "created_at": "2026-07-16T02:00:01Z",
+            "user": {"login": "github-actions[bot]"},
+        }
+        event["comment"]["id"] = 101
+        with (
+            mock.patch.object(issue_guard, "issue_comments", return_value=[acknowledgement]),
+            mock.patch.object(issue_guard, "comment_issue") as comment,
+            mock.patch.object(issue_guard, "close_issue") as close,
+            mock.patch.object(issue_guard, "lock_issue") as lock,
+        ):
+            issue_guard.handle_issue_close("owner/repo", "token", event)
+
+        self.assertIn("已有更完整的投稿", comment.call_args.args[-1])
+        close.assert_called_once_with("owner/repo", "token", 12)
+        lock.assert_called_once_with("owner/repo", "token", 12)
 
     def test_unrelated_user_cannot_update_issue(self) -> None:
         with (
@@ -100,10 +184,71 @@ class PullRequestCommentAuthorizationTests(unittest.TestCase):
             },
             "comment": {
                 "body": "looks good",
+                "created_at": "2026-07-16T02:00:00Z",
                 "author_association": association,
                 "user": {"login": actor},
             },
         }
+
+    def close_pr(self) -> dict:
+        return {
+            "number": 34,
+            "state": "open",
+            "body": "\n".join([
+                "## Translation Library Submission",
+                "",
+                "- Contributors: @contributor",
+                "- Source issue: https://github.com/owner/repo/issues/12",
+            ]),
+            "user": {"login": "translation-bot[bot]"},
+        }
+
+    def test_pr_close_only_allows_source_issue_submitter(self) -> None:
+        pr = self.close_pr()
+        source_issue = {"user": {"login": "contributor"}}
+        with mock.patch.object(pr_maintenance, "github_request", return_value=source_issue):
+            self.assertTrue(pr_maintenance.close_comment_is_authorized("owner/repo", "token", pr, "contributor"))
+            self.assertFalse(pr_maintenance.close_comment_is_authorized("owner/repo", "token", pr, "maintainer"))
+
+    def test_pr_close_request_replies_without_closing(self) -> None:
+        event = self.event("contributor")
+        event["comment"]["body"] = "/close 投稿重复"
+        with (
+            mock.patch.object(pr_maintenance, "github_request", return_value=self.close_pr()),
+            mock.patch.object(pr_maintenance, "close_comment_is_authorized", return_value=True),
+            mock.patch.object(pr_maintenance, "comment_issue") as comment,
+            mock.patch.object(pr_maintenance, "close_pull_request") as close,
+        ):
+            handled = pr_maintenance.handle_pr_close("owner/repo", "token", event)
+
+        self.assertTrue(handled)
+        close.assert_not_called()
+        self.assertIn("尚未关闭", comment.call_args.args[-1])
+
+    def test_pr_close_confirmation_closes_and_locks(self) -> None:
+        event = self.event("contributor")
+        event["comment"].update({"body": "/close confirm", "created_at": "2026-07-16T02:00:02Z"})
+        acknowledgement = {
+            "id": 100,
+            "body": close_request_comment("contributor", "投稿重复", "PR"),
+            "created_at": "2026-07-16T02:00:01Z",
+            "user": {"login": "github-actions[bot]"},
+        }
+        event["comment"]["id"] = 101
+        with (
+            mock.patch.object(pr_maintenance, "github_request", return_value=self.close_pr()),
+            mock.patch.object(pr_maintenance, "close_comment_is_authorized", return_value=True),
+            mock.patch.object(pr_maintenance, "issue_comments", return_value=[acknowledgement]),
+            mock.patch.object(pr_maintenance, "comment_issue") as comment,
+            mock.patch.object(pr_maintenance, "close_pull_request") as close,
+            mock.patch.object(pr_maintenance, "lock_issue") as lock,
+        ):
+            handled = pr_maintenance.handle_pr_close("owner/repo", "token", event)
+
+        self.assertTrue(handled)
+        self.assertIn("投稿重复", comment.call_args.args[-1])
+        close.assert_called_once_with("owner/repo", "token", 34)
+        lock.assert_called_once_with("owner/repo", "token", 34)
 
     def test_only_contributor_or_maintainer_clears_wait_label(self) -> None:
         with mock.patch.object(pr_maintenance, "remove_issue_label") as remove:

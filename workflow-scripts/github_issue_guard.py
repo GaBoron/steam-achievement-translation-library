@@ -11,6 +11,16 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+from close_command import (
+    close_command_error,
+    close_completed_comment,
+    close_request_comment,
+    confirmation_follows_reply,
+    is_close_command,
+    latest_close_request,
+    parse_close_command,
+)
+
 LABELS = {
     "翻译投稿": {
         "color": "2da44e",
@@ -184,6 +194,37 @@ def patch_issue_body(repo: str, token: str, issue_number: int, body: str) -> Non
     github_request("PATCH", repo, token, f"/issues/{issue_number}", {"body": body})
 
 
+def close_issue(repo: str, token: str, issue_number: int) -> None:
+    github_request(
+        "PATCH",
+        repo,
+        token,
+        f"/issues/{issue_number}",
+        {"state": "closed", "state_reason": "not_planned"},
+    )
+
+
+def lock_issue(repo: str, token: str, issue_number: int) -> None:
+    github_request("PUT", repo, token, f"/issues/{issue_number}/lock", {"lock_reason": "resolved"}, allow_422=True)
+
+
+def issue_comments(repo: str, token: str, issue_number: int) -> list[dict[str, Any]]:
+    comments: list[dict[str, Any]] = []
+    for page in range(1, 11):
+        batch = github_request(
+            "GET",
+            repo,
+            token,
+            f"/issues/{issue_number}/comments?per_page=100&page={page}",
+        ) or []
+        if not isinstance(batch, list):
+            raise RuntimeError("GitHub issue comments API 返回了无效数据")
+        comments.extend(comment for comment in batch if isinstance(comment, dict))
+        if len(batch) < 100:
+            return comments
+    raise RuntimeError("issue 评论数量超过自动检查上限")
+
+
 def update_first_line(body: str) -> str:
     return body.strip().splitlines()[0].strip() if body.strip() else ""
 
@@ -200,6 +241,49 @@ def comment_is_authorized(event: dict[str, Any]) -> bool:
     issue_author = str((issue.get("user") or {}).get("login") or "")
     association = str(comment.get("author_association") or "").upper()
     return bool(actor) and (actor == issue_author or association in TRUSTED_ASSOCIATIONS)
+
+
+def close_comment_is_authorized(event: dict[str, Any]) -> bool:
+    issue = event.get("issue") or {}
+    comment = event.get("comment") or {}
+    actor = str((comment.get("user") or {}).get("login") or "")
+    issue_author = str((issue.get("user") or {}).get("login") or "")
+    return bool(actor) and not actor.endswith("[bot]") and actor == issue_author
+
+
+def handle_issue_close(repo: str, token: str, event: dict[str, Any]) -> bool:
+    issue = event.get("issue") or {}
+    comment = event.get("comment") or {}
+    comment_body = str(comment.get("body") or "")
+    if not is_close_command(comment_body):
+        return False
+    issue_number = int(issue["number"])
+    if not close_comment_is_authorized(event):
+        comment_issue(repo, token, issue_number, close_command_error("`/close` 只能由该 issue 的原投稿者执行。"))
+        return True
+    if str(issue.get("state") or "") != "open":
+        comment_issue(repo, token, issue_number, close_command_error("`/close` 只能用于打开状态的 issue。"))
+        return True
+    action, reason, error = parse_close_command(comment_body)
+    if error:
+        comment_issue(repo, token, issue_number, close_command_error(error))
+        return True
+    actor = str((comment.get("user") or {}).get("login") or "")
+    if action == "request":
+        comment_issue(repo, token, issue_number, close_request_comment(actor, reason, "issue"))
+        return True
+    comments = issue_comments(repo, token, issue_number)
+    request = latest_close_request(comments, actor)
+    if request is None:
+        comment_issue(repo, token, issue_number, close_command_error("没有找到你尚待确认的关闭请求。请先输入 `/close 关闭原因`。"))
+        return True
+    if not confirmation_follows_reply(comment, request):
+        comment_issue(repo, token, issue_number, close_command_error("必须等待机器人确认回复出现后，再新建评论输入 `/close confirm`。"))
+        return True
+    comment_issue(repo, token, issue_number, close_completed_comment(actor, request["reason"], "issue"))
+    close_issue(repo, token, issue_number)
+    lock_issue(repo, token, issue_number)
+    return True
 
 
 def parse_update_command(body: str) -> tuple[str, str, str]:
@@ -393,6 +477,8 @@ def main() -> None:
         raise SystemExit("Both --repo and --token are required.")
     event = json.loads(args.event.read_text(encoding="utf-8"))
     if args.handle_comment:
+        if handle_issue_close(args.repo, args.token, event):
+            return
         apply_issue_update(args.repo, args.token, event)
         return
     issue = event.get("issue") or {}
