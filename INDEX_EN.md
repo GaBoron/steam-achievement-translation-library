@@ -4,7 +4,7 @@
 
 > After downloading, compare the file size with the index. If the size is clearly wrong, do not replace your local file. Files marked as possibly outdated should be used with extra care.
 
-Accepted games: **83**.
+Accepted games: **84**.
 
 ## Using This Index
 
@@ -100,5 +100,6 @@ See [README_EN.md](README_EN.md) for the full find, download, and replacement fl
 | `457140` | 缺氧 | Current | 2026-07-07T12:38:30Z | [@Lelectfly](https://github.com/Lelectfly) | schinese | 51 | [UserGameStatsSchema_457140.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/457140/UserGameStatsSchema_457140.bin) (22 KB) | [#59](https://github.com/GaBoron/steam-achievement-translation-library/pull/59) |  | [Steam](https://store.steampowered.com/app/457140/_/) |
 | `49520` | 无主之地2 | Current | 2026-07-07T12:37:07Z | [@Lelectfly](https://github.com/Lelectfly) | schinese | 75 | [UserGameStatsSchema_49520.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/49520/UserGameStatsSchema_49520.bin) (85 KB) | [#57](https://github.com/GaBoron/steam-achievement-translation-library/pull/57) |  | [Steam](https://store.steampowered.com/app/49520/Borderlands_2/) |
 | `1237950` | 星球大战：前线2（2017） | Current | 2026-07-05T00:28:44Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 43 | [UserGameStatsSchema_1237950.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1237950/UserGameStatsSchema_1237950.bin) (62 KB) | [#53](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/53) |  | [Steam](https://store.steampowered.com/app/1237950/STAR_WARS__II/) |
+| `1449690` | 行尸走肉：终极系列合集 | Current | 2026-07-16T03:39:16Z | [@dexyrezz](https://github.com/dexyrezz) | english, schinese | 23 | [UserGameStatsSchema_1449690.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1449690/UserGameStatsSchema_1449690.bin) (8 KB) | [#156](https://github.com/GaBoron/steam-achievement-translation-library/pull/156) |  | [Steam](https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/) |
 | `579180` | 伊苏VIII：丹娜的陨涕日 | Current | 2026-07-13T10:06:55Z | [@Zerosaves](https://github.com/Zerosaves) | english, japanese, schinese | 54 | [UserGameStatsSchema_579180.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/579180/UserGameStatsSchema_579180.bin) (30 KB) | [#99](https://github.com/GaBoron/steam-achievement-translation-library/pull/99) |  | [Steam](https://store.steampowered.com/app/579180/Ys_VIII_Lacrimosa_of_DANA/) |
 | `3336590` | 噗哟！动脑子 | Current | 2026-07-14T02:39:21Z | [@GaBoron](https://github.com/GaBoron) | english, schinese | 6 | [UserGameStatsSchema_3336590.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/3336590/UserGameStatsSchema_3336590.bin) (2 KB) | [#111](https://github.com/GaBoron/steam-achievement-translation-library/pull/111) |  | [Steam](https://store.steampowered.com/app/3336590/) |
