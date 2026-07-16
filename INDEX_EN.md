@@ -4,7 +4,7 @@
 
 > After downloading, compare the file size with the index. If the size is clearly wrong, do not replace your local file. Files marked as possibly outdated should be used with extra care.
 
-Accepted games: **89**.
+Accepted games: **90**.
 
 ## Using This Index
 
@@ -21,6 +21,7 @@ See [README_EN.md](README_EN.md) for the full find, download, and replacement fl
 | --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- | --- |
 | `1055540` | A Short Hike 短途旅行 | Current | 2026-07-16T03:35:24Z | [@TomCatis0123](https://github.com/TomCatis0123) | brazilian, english, french, japanese, schinese | 12 | [UserGameStatsSchema_1055540.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1055540/UserGameStatsSchema_1055540.bin) (7 KB) | [#148](https://github.com/GaBoron/steam-achievement-translation-library/pull/148) |  | [Steam](https://store.steampowered.com/app/1055540/A_Short_Hike/) |
 | `1222700` | A Way Out 逃出生天 | Current | 2026-07-07T12:39:35Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 14 | [UserGameStatsSchema_1222700.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1222700/UserGameStatsSchema_1222700.bin) (14 KB) | [#61](https://github.com/GaBoron/steam-achievement-translation-library/pull/61) |  | [Steam](https://store.steampowered.com/app/1222700/A_Way_Out/) |
+| `289650` | Assassin's Creed Unity 刺客信条：大革命 | Current | 2026-07-16T03:47:09Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 57 | [UserGameStatsSchema_289650.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/289650/UserGameStatsSchema_289650.bin) (77 KB) | [#133](https://github.com/GaBoron/steam-achievement-translation-library/pull/133) |  | [Steam](https://store.steampowered.com/app/289650/_/) |
 | `260210` | Assassin’s Creed® Liberation HD 刺客信条：解放 | Current | 2026-07-05T00:24:23Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 30 | [UserGameStatsSchema_260210.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/260210/UserGameStatsSchema_260210.bin) (29 KB) | [#39](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/39) |  | [Steam](https://store.steampowered.com/app/260210/Assassins_Creed_Liberation_HD/) |
 | `244210` | Assetto Corsa 神力科莎 | Current | 2026-07-07T14:43:24Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 709 | [UserGameStatsSchema_244210.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/244210/UserGameStatsSchema_244210.bin) (280 KB) | [#67](https://github.com/GaBoron/steam-achievement-translation-library/pull/67) |  | [Steam](https://store.steampowered.com/app/244210/Assetto_Corsa/) |
 | `35140` | Batman: Arkham Asylum Game of the Year Edition 蝙蝠侠：阿卡姆疯人院 年度版 | Current | 2026-07-04T17:45:48Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 47 | [UserGameStatsSchema_35140.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/35140/UserGameStatsSchema_35140.bin) (18 KB) | [#34](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/34) |  | [Steam](https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/) |
