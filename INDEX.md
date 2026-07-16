@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能过期”的文件建议等待更新后再使用。
 
-当前收录：**85** 个游戏。
+当前收录：**86** 个游戏。
 
 ## 使用这个索引
 
@@ -72,6 +72,7 @@
 | `1144200` | Ready or Not 严阵以待 | 可用 | 2026-07-07T12:42:17Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 66 | [UserGameStatsSchema_1144200.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1144200/UserGameStatsSchema_1144200.bin)（33 KB） | [#65](https://github.com/GaBoron/steam-achievement-translation-library/pull/65) |  | [Steam](https://store.steampowered.com/app/1144200/Ready_or_Not/) |
 | `202170` | Sleeping Dogs 热血无赖：原版 | 可用 | 2026-07-05T23:31:03Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 59 | [UserGameStatsSchema_202170.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/202170/UserGameStatsSchema_202170.bin)（50 KB） | [#22](https://github.com/GaBoron/steam-achievement-translation-library/pull/22) |  | [Steam](https://store.steampowered.com/app/202170/Sleeping_Dogs/) |
 | `307690` | Sleeping Dogs: Definitive Edition 热血无赖：终极版 | 可用 | 2026-07-05T23:09:09Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 59 | [UserGameStatsSchema_307690.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/307690/UserGameStatsSchema_307690.bin)（57 KB） | [#20](https://github.com/GaBoron/steam-achievement-translation-library/pull/20) |  | [Steam](https://store.steampowered.com/app/307690/Sleeping_Dogs_Definitive_Edition/) |
+| `433340` | Slime Rancher 史莱姆牧场 | 可用 | 2026-07-16T03:42:23Z | [@OlderBiao](https://github.com/OlderBiao) | schinese | 57 | [UserGameStatsSchema_433340.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/433340/UserGameStatsSchema_433340.bin)（22 KB） | [#144](https://github.com/GaBoron/steam-achievement-translation-library/pull/144) |  | [Steam](https://store.steampowered.com/app/433340/Slime_Rancher/) |
 | `1031500` | Super Robot Wars V 超级机器人大战V | 可用 | 2026-07-07T12:52:11Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 35 | [UserGameStatsSchema_1031500.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1031500/UserGameStatsSchema_1031500.bin)（25 KB） | [#69](https://github.com/GaBoron/steam-achievement-translation-library/pull/69) |  | [Steam](https://store.steampowered.com/app/1031500/Super_Robot_Wars_V/) |
 | `286160` | Tabletop Simulator 桌游模拟器 | 可用 | 2026-07-07T12:41:02Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 26 | [UserGameStatsSchema_286160.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/286160/UserGameStatsSchema_286160.bin)（12 KB） | [#63](https://github.com/GaBoron/steam-achievement-translation-library/pull/63) |  | [Steam](https://store.steampowered.com/app/286160/Tabletop_Simulator/) |
 | `1180660` | Tell Me Why 谓何 | 可用 | 2026-07-15T03:59:19Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 30 | [UserGameStatsSchema_1180660.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1180660/UserGameStatsSchema_1180660.bin)（29 KB） | [#119](https://github.com/GaBoron/steam-achievement-translation-library/pull/119) |  | [Steam](https://store.steampowered.com/app/1180660/Tell_Me_Why/) |
