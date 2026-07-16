@@ -4,7 +4,7 @@
 
 > After downloading, compare the file size with the index. If the size is clearly wrong, do not replace your local file. Files marked as possibly outdated should be used with extra care.
 
-Accepted games: **82**.
+Accepted games: **83**.
 
 ## Using This Index
 
@@ -19,6 +19,7 @@ See [README_EN.md](README_EN.md) for the full find, download, and replacement fl
 
 | Steam app ID | Game | Status | Last updated | Contributors | Languages | Achievements | File | Source PR | Outdated report | Store |
 | --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- | --- |
+| `1055540` | A Short Hike 短途旅行 | Current | 2026-07-16T03:35:24Z | [@TomCatis0123](https://github.com/TomCatis0123) | brazilian, english, french, japanese, schinese | 12 | [UserGameStatsSchema_1055540.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1055540/UserGameStatsSchema_1055540.bin) (7 KB) | [#148](https://github.com/GaBoron/steam-achievement-translation-library/pull/148) |  | [Steam](https://store.steampowered.com/app/1055540/A_Short_Hike/) |
 | `1222700` | A Way Out 逃出生天 | Current | 2026-07-07T12:39:35Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 14 | [UserGameStatsSchema_1222700.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1222700/UserGameStatsSchema_1222700.bin) (14 KB) | [#61](https://github.com/GaBoron/steam-achievement-translation-library/pull/61) |  | [Steam](https://store.steampowered.com/app/1222700/A_Way_Out/) |
 | `260210` | Assassin’s Creed® Liberation HD 刺客信条：解放 | Current | 2026-07-05T00:24:23Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 30 | [UserGameStatsSchema_260210.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/260210/UserGameStatsSchema_260210.bin) (29 KB) | [#39](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/39) |  | [Steam](https://store.steampowered.com/app/260210/Assassins_Creed_Liberation_HD/) |
 | `244210` | Assetto Corsa 神力科莎 | Current | 2026-07-07T14:43:24Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 709 | [UserGameStatsSchema_244210.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/244210/UserGameStatsSchema_244210.bin) (280 KB) | [#67](https://github.com/GaBoron/steam-achievement-translation-library/pull/67) |  | [Steam](https://store.steampowered.com/app/244210/Assetto_Corsa/) |

@@ -3,6 +3,31 @@
   "description": "Community-submitted Steam achievement schema translations.",
   "entries": [
     {
+      "game_name": "A Short Hike 短途旅行",
+      "game_id": "1055540",
+      "store_url": "https://store.steampowered.com/app/1055540/A_Short_Hike/",
+      "languages": [
+        "brazilian",
+        "english",
+        "french",
+        "japanese",
+        "schinese"
+      ],
+      "schema_file": "files/1055540/UserGameStatsSchema_1055540.bin",
+      "file_size_bytes": 7622,
+      "achievement_count": 12,
+      "sha256": "3b492eec2111dbbbe13c603f8407eb9db54f48001a28ba61edecfabbdff09707",
+      "source_issue": "https://github.com/GaBoron/steam-achievement-translation-library/issues/147",
+      "contributors": [
+        "TomCatis0123"
+      ],
+      "contributor_id": "TomCatis0123",
+      "submitted_at": "2026-07-15T10:34:34Z",
+      "updated_at": "2026-07-16T03:35:24Z",
+      "status": "current",
+      "source_pr": "https://github.com/GaBoron/steam-achievement-translation-library/pull/148"
+    },
+    {
       "game_name": "A Way Out 逃出生天",
       "game_id": "1222700",
       "store_url": "https://store.steampowered.com/app/1222700/A_Way_Out/",
