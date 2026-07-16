@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能过期”的文件建议等待更新后再使用。
 
-当前收录：**79** 个游戏。
+当前收录：**80** 个游戏。
 
 ## 使用这个索引
 
@@ -43,6 +43,7 @@
 | `1259420` | Days Gone 往日不再 | 可用 | 2026-07-04T14:47:03Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 67 | [UserGameStatsSchema_1259420.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1259420/UserGameStatsSchema_1259420.bin)（160 KB） | [#6](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/6) |  | [Steam](https://store.steampowered.com/app/1259420/Days_Gone/) |
 | `2213190` | DEATH NOTE 死亡笔记：暗影任务 | 可用 | 2026-07-15T04:13:35Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 40 | [UserGameStatsSchema_2213190.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2213190/UserGameStatsSchema_2213190.bin)（51 KB） | [#123](https://github.com/GaBoron/steam-achievement-translation-library/pull/123) |  | [Steam](https://store.steampowered.com/app/2213190/DEATH_NOTE/) |
 | `220440` | DmC: Devil May Cry 鬼泣：Dmc | 可用 | 2026-07-05T23:58:43Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 58 | [UserGameStatsSchema_220440.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/220440/UserGameStatsSchema_220440.bin)（72 KB） | [#16](https://github.com/GaBoron/steam-achievement-translation-library/pull/16) |  | [Steam](https://store.steampowered.com/app/220440/DmC_Devil_May_Cry/) |
+| `379720` | DOOM (2016) | 可用 | 2026-07-16T03:21:03Z | [@b1516717676](https://github.com/b1516717676) | schinese | 54 | [UserGameStatsSchema_379720.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/379720/UserGameStatsSchema_379720.bin)（64 KB） | [#163](https://github.com/GaBoron/steam-achievement-translation-library/pull/163) |  | [Steam](https://store.steampowered.com/app/379720/DOOM/) |
 | `367500` | Dragon's Dogma: Dark Arisen 龙之信条：黑暗觉者 | 可用 | 2026-07-09T16:29:06Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 59 | [UserGameStatsSchema_367500.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/367500/UserGameStatsSchema_367500.bin)（45 KB） | [#87](https://github.com/GaBoron/steam-achievement-translation-library/pull/87) |  | [Steam](https://store.steampowered.com/app/367500/Dragons_Dogma_Dark_Arisen/) |
 | `1812620` | DSX | 可用 | 2026-07-13T17:31:36Z | [@wzq050619](https://github.com/wzq050619) | schinese | 35 | [UserGameStatsSchema_1812620.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1812620/UserGameStatsSchema_1812620.bin)（16 KB） | [#108](https://github.com/GaBoron/steam-achievement-translation-library/pull/108) |  | [Steam](https://store.steampowered.com/app/1812620/DSX/) |
 | `239120` | Final Fantasy III (3D Remake) 最终幻想3（3D重制版） | 可用 | 2026-07-07T12:35:16Z | [@AioriaRegulus](https://github.com/AioriaRegulus) | english, french, german, italian, japanese, schinese, spanish | 18 | [UserGameStatsSchema_239120.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/239120/UserGameStatsSchema_239120.bin)（14 KB） | [#51](https://github.com/GaBoron/steam-achievement-translation-library/pull/51) |  | [Steam](https://store.steampowered.com/app/239120/) |
