@@ -4,7 +4,7 @@ This repository contains different kinds of material, so a single blanket open-s
 
 ## Workflow Scripts
 
-Files under `.github/` and `workflow-scripts/` are licensed under the MIT License.
+Except for the third-party font assets identified below, files under `.github/` and `workflow-scripts/` are licensed under the MIT License.
 
 ```text
 MIT License
@@ -28,6 +28,10 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
+
+## Bundled Font
+
+`workflow-scripts/assets/ZCOOLKuaiLe-Subset.ttf` is a subset of [ZCOOL KuaiLe](https://github.com/google/fonts/tree/main/ofl/zcoolkuaile), copyright 2018 The ZCOOL KuaiLe Project Authors. It is distributed under the SIL Open Font License, Version 1.1, rather than the MIT License above. The complete font license is included at `workflow-scripts/assets/ZCOOLKuaiLe-OFL.txt`.
 
 ## Translation Data
 

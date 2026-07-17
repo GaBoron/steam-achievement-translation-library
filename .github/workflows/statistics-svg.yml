@@ -6,6 +6,7 @@ on:
     paths:
       - index.json
       - workflow-scripts/generate_statistics_svg.py
+      - workflow-scripts/assets/**
   workflow_dispatch:
 
 permissions:

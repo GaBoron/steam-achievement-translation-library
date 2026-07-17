@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import argparse
+import base64
 import html
 import json
 import math
+import random
 from collections import Counter
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta, timezone
@@ -14,6 +16,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_INDEX_PATH = ROOT / "index.json"
 DEFAULT_OUTPUT_PATH = ROOT / "docs" / "statistics" / "library-statistics.svg"
+FONT_PATH = ROOT / "workflow-scripts" / "assets" / "ZCOOLKuaiLe-Subset.ttf"
 
 
 @dataclass(frozen=True)
@@ -131,6 +134,67 @@ def path_from_points(points: list[tuple[float, float]], close: bool = False) -> 
     return " ".join(commands)
 
 
+def pencil_polyline(
+    points: list[tuple[float, float]],
+    *,
+    seed: int,
+    jitter: float = 2.8,
+    subdivisions: int = 4,
+) -> list[tuple[float, float]]:
+    """Add deterministic, small perpendicular wobbles without changing the data shape."""
+    if len(points) < 2:
+        return points.copy()
+
+    rng = random.Random(seed)
+    pencilled = [points[0]]
+    for segment_index, ((start_x, start_y), (end_x, end_y)) in enumerate(zip(points, points[1:])):
+        delta_x = end_x - start_x
+        delta_y = end_y - start_y
+        length = math.hypot(delta_x, delta_y) or 1.0
+        normal_x = -delta_y / length
+        normal_y = delta_x / length
+
+        for step in range(1, subdivisions + 1):
+            progress = step / subdivisions
+            is_last_point = segment_index == len(points) - 2 and step == subdivisions
+            offset = 0.0 if is_last_point else rng.uniform(-jitter, jitter)
+            along = 0.0 if step == subdivisions else rng.uniform(-0.7, 0.7)
+            x = start_x + delta_x * progress + normal_x * offset + (delta_x / length) * along
+            y = start_y + delta_y * progress + normal_y * offset + (delta_y / length) * along
+            pencilled.append((x, y))
+    return pencilled
+
+
+def rough_bar_path(x: float, y: float, width: float, height: float, seed: int) -> str:
+    """Build a closed bar whose four edges bend independently like a hand-drawn box."""
+    rng = random.Random(seed)
+
+    def wobble(amount: float = 2.2) -> float:
+        return rng.uniform(-amount, amount)
+
+    points = [
+        (x + wobble(1.2), y + wobble()),
+        (x + width * 0.33, y + wobble()),
+        (x + width * 0.68, y + wobble()),
+        (x + width + wobble(1.6), y + wobble()),
+        (x + width + wobble(), y + height * 0.48),
+        (x + width + wobble(1.6), y + height + wobble()),
+        (x + width * 0.66, y + height + wobble()),
+        (x + width * 0.31, y + height + wobble()),
+        (x + wobble(1.2), y + height + wobble()),
+        (x + wobble(), y + height * 0.52),
+    ]
+    return path_from_points(points, close=True)
+
+
+def embedded_font_data() -> str:
+    try:
+        font_bytes = FONT_PATH.read_bytes()
+    except OSError as exc:
+        raise ValueError(f"cannot read embedded font subset {FONT_PATH}: {exc}") from exc
+    return base64.b64encode(font_bytes).decode("ascii")
+
+
 def render_svg(statistics: Statistics) -> str:
     width = 1440
     height = 760
@@ -150,8 +214,9 @@ def render_svg(statistics: Statistics) -> str:
         y = plot_bottom - (total / axis_max) * plot_height
         trend_points.append((x, y))
 
-    area_points = [(plot_left, plot_bottom), *trend_points, (plot_right, plot_bottom)]
+    pencilled_trend_points = pencil_polyline(trend_points, seed=20260717)
     latest_x, latest_y = trend_points[-1]
+    font_data = embedded_font_data()
 
     svg: list[str] = [
         '<?xml version="1.0" encoding="UTF-8"?>',
@@ -162,6 +227,14 @@ def render_svg(statistics: Statistics) -> str:
             "右侧为贡献者贡献量前十名横向条形图。</desc>"
         ),
         "  <defs>",
+        "    <style>",
+        "      @font-face {",
+        "        font-family: 'ZCOOL KuaiLe Embedded';",
+        f"        src: url(data:font/ttf;base64,{font_data}) format('truetype');",
+        "        font-style: normal;",
+        "        font-weight: 400;",
+        "      }",
+        "    </style>",
         "    <filter id=\"paper\" x=\"-5%\" y=\"-5%\" width=\"110%\" height=\"110%\">",
         "      <feTurbulence type=\"fractalNoise\" baseFrequency=\"0.72\" numOctaves=\"3\" seed=\"17\" result=\"noise\"/>",
         "      <feColorMatrix in=\"noise\" type=\"matrix\" values=\"0 0 0 0 0.84 0 0 0 0 0.80 0 0 0 0 0.70 0 0 0 0.10 0\" result=\"grain\"/>",
@@ -170,6 +243,14 @@ def render_svg(statistics: Statistics) -> str:
         "    <filter id=\"roughen\" x=\"-4%\" y=\"-4%\" width=\"108%\" height=\"108%\">",
         "      <feTurbulence type=\"fractalNoise\" baseFrequency=\"0.018 0.085\" numOctaves=\"1\" seed=\"9\" result=\"noise\"/>",
         "      <feDisplacementMap in=\"SourceGraphic\" in2=\"noise\" scale=\"2.1\" xChannelSelector=\"R\" yChannelSelector=\"G\"/>",
+        "    </filter>",
+        "    <filter id=\"border-wobble\" x=\"-5%\" y=\"-5%\" width=\"110%\" height=\"110%\">",
+        "      <feTurbulence type=\"fractalNoise\" baseFrequency=\"0.012 0.065\" numOctaves=\"2\" seed=\"23\" result=\"noise\"/>",
+        "      <feDisplacementMap in=\"SourceGraphic\" in2=\"noise\" scale=\"4.8\" xChannelSelector=\"R\" yChannelSelector=\"G\"/>",
+        "    </filter>",
+        "    <filter id=\"pencil-wobble\" x=\"-4%\" y=\"-8%\" width=\"108%\" height=\"116%\">",
+        "      <feTurbulence type=\"fractalNoise\" baseFrequency=\"0.035 0.12\" numOctaves=\"1\" seed=\"31\" result=\"noise\"/>",
+        "      <feDisplacementMap in=\"SourceGraphic\" in2=\"noise\" scale=\"1.4\" xChannelSelector=\"R\" yChannelSelector=\"G\"/>",
         "    </filter>",
         "    <pattern id=\"blue-hatch\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\" patternTransform=\"rotate(12)\">",
         "      <rect width=\"10\" height=\"10\" fill=\"#cfe8f8\"/>",
@@ -196,17 +277,17 @@ def render_svg(statistics: Statistics) -> str:
         "      <path d=\"M 1 10 L 7 0 M 7 10 L 13 0\" stroke=\"#aaa184\" stroke-width=\"1.5\" opacity=\"0.72\"/>",
         "    </pattern>",
         "    <style>",
-        "      .hand { font-family: 'Segoe Print', 'Comic Sans MS', 'Microsoft YaHei', 'Noto Sans SC', sans-serif; fill: #242424; }",
-        "      .title { font-size: 34px; font-weight: 700; letter-spacing: 1px; }",
-        "      .label { font-size: 20px; font-weight: 600; }",
+        "      .hand { font-family: 'ZCOOL KuaiLe Embedded', 'Microsoft YaHei', sans-serif; fill: #242424; font-weight: 400; }",
+        "      .title { font-size: 36px; letter-spacing: 1px; }",
+        "      .label { font-size: 21px; }",
         "      .small { font-size: 17px; }",
         "      .ink { fill: none; stroke: #252525; stroke-linecap: round; stroke-linejoin: round; }",
         "    </style>",
         "  </defs>",
         "  <rect width=\"1440\" height=\"760\" fill=\"#fbf7ec\" filter=\"url(#paper)\"/>",
-        "  <g filter=\"url(#roughen)\">",
-        "    <path d=\"M 54 25 C 36 36 31 61 32 96 L 38 681 C 38 716 55 733 87 735 L 675 731 C 699 730 710 711 710 679 L 704 75 C 703 43 686 27 654 27 Z\" fill=\"#fffdf7\" fill-opacity=\"0.82\" stroke=\"#262626\" stroke-width=\"4\"/>",
-        "    <path d=\"M 757 28 C 738 42 733 63 734 96 L 739 682 C 740 716 758 733 789 734 L 1380 730 C 1403 728 1411 709 1409 678 L 1404 75 C 1402 45 1384 28 1354 29 Z\" fill=\"#fffdf7\" fill-opacity=\"0.82\" stroke=\"#262626\" stroke-width=\"4\"/>",
+        "  <g filter=\"url(#border-wobble)\">",
+        "    <path class=\"panel-border\" d=\"M 75 25 C 53 24 42 35 36 55 C 29 82 36 116 34 151 C 31 201 39 238 35 288 C 32 344 40 399 36 454 C 32 512 40 570 37 621 L 38 679 C 39 715 56 733 88 735 C 178 731 260 739 347 734 C 443 729 563 738 671 730 C 698 727 709 708 707 677 C 703 578 712 490 706 399 C 702 314 710 230 704 146 C 701 111 711 78 701 55 C 691 33 675 27 650 28 C 522 31 410 23 291 27 C 210 30 138 23 75 25 Z\" fill=\"#fffdf7\" fill-opacity=\"0.82\" stroke=\"#262626\" stroke-width=\"4\"/>",
+        "    <path class=\"panel-border\" d=\"M 778 29 C 754 30 741 43 736 66 C 731 102 738 134 735 175 C 732 224 740 270 736 321 C 733 376 742 428 737 480 C 734 540 742 594 739 647 L 740 683 C 742 717 759 733 790 734 C 885 730 970 738 1054 733 C 1150 728 1267 737 1379 730 C 1403 728 1412 707 1409 676 C 1404 588 1413 492 1407 405 C 1402 313 1412 231 1405 145 C 1402 112 1412 79 1402 56 C 1392 34 1376 28 1353 29 C 1224 33 1118 24 997 29 C 920 32 842 26 778 29 Z\" fill=\"#fffdf7\" fill-opacity=\"0.82\" stroke=\"#262626\" stroke-width=\"4\"/>",
         "  </g>",
         "  <g class=\"ink\" stroke-width=\"3\" filter=\"url(#roughen)\">",
         "    <rect x=\"70\" y=\"56\" width=\"58\" height=\"50\" rx=\"3\"/>",
@@ -251,16 +332,9 @@ def render_svg(statistics: Statistics) -> str:
             f"    <path d=\"M {plot_left:.1f} {plot_bottom:.1f} C 270 {plot_bottom + 2:.1f} 500 {plot_bottom - 2:.1f} {plot_right + 8:.1f} {plot_bottom:.1f}\"/>",
             f"    <path d=\"M {plot_right + 1:.1f} {plot_bottom - 9:.1f} L {plot_right + 10:.1f} {plot_bottom:.1f} L {plot_right + 1:.1f} {plot_bottom + 9:.1f}\"/>",
             "  </g>",
-            f'  <path d="{path_from_points(area_points, close=True)}" fill="#b9dff3" opacity="0.34"/>',
-            f'  <path d="{path_from_points(trend_points)}" fill="none" stroke="#6aaed6" stroke-width="8" opacity="0.28" stroke-linecap="round" stroke-linejoin="round" filter="url(#roughen)"/>',
-            f'  <path d="{path_from_points(trend_points)}" fill="none" stroke="#242424" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" filter="url(#roughen)"/>',
+            f'  <path id="trend-line" d="{path_from_points(pencilled_trend_points)}" fill="none" stroke="#343230" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#pencil-wobble)"/>',
         ]
     )
-
-    for x, y in trend_points:
-        svg.append(
-            f'  <circle cx="{x:.1f}" cy="{y:.1f}" r="5.4" fill="#fffdf7" stroke="#242424" stroke-width="3" filter="url(#roughen)"/>'
-        )
 
     for index in evenly_spaced_indices(trend_count, 5):
         day, _ = statistics.daily_totals[index]
@@ -302,13 +376,14 @@ def render_svg(statistics: Statistics) -> str:
         bar_width = max(8.0, (count / largest_contribution) * bar_max_width)
         pattern = patterns[(rank - 1) % len(patterns)]
         rank_fill = "#ffe28a" if rank == 1 else "#fffdf7"
-        name_size = 20 if len(contributor) <= 16 else 17
+        name_size = 21 if len(contributor) <= 16 else 18
+        bar_path = rough_bar_path(bar_left, y, bar_width, bar_height, seed=7000 + rank)
         svg.extend(
             [
                 f'  <circle cx="774" cy="{y + bar_height / 2:.1f}" r="16" fill="{rank_fill}" stroke="#242424" stroke-width="2.5" filter="url(#roughen)"/>',
                 f'  <text x="774" y="{y + bar_height / 2 + 7:.1f}" text-anchor="middle" class="hand label">{rank}</text>',
-                f'  <text x="1018" y="{y + bar_height / 2 + 7:.1f}" text-anchor="end" class="hand" font-size="{name_size}px" font-weight="600">{svg_text(contributor)}</text>',
-                f'  <rect x="{bar_left:.1f}" y="{y:.1f}" width="{bar_width:.1f}" height="{bar_height:.1f}" rx="3" fill="url(#{pattern})" stroke="#242424" stroke-width="2.5" filter="url(#roughen)"/>',
+                f'  <text x="1018" y="{y + bar_height / 2 + 7:.1f}" text-anchor="end" class="hand" font-size="{name_size}px">{svg_text(contributor)}</text>',
+                f'  <path class="contributor-bar" d="{bar_path}" fill="url(#{pattern})" stroke="#242424" stroke-width="2.5" stroke-linejoin="round" filter="url(#pencil-wobble)"/>',
                 f'  <text x="{bar_left + bar_width + 15:.1f}" y="{y + bar_height / 2 + 7:.1f}" class="hand label">{count} 款</text>',
             ]
         )
