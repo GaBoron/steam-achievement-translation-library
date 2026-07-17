@@ -9,6 +9,10 @@
 > - 使用本地软件手动进行本地化操作请前往 [PanVena/SteamAchievementLocalizer](https://github.com/PanVena/SteamAchievementLocalizer)  
 > 本仓库只保存翻译数据和数据投稿流程。
 
+## 收录统计
+
+![收录游戏数量趋势与贡献者贡献量排行](docs/statistics/library-statistics.svg)
+
 ## 快速入口
 
 | 你想做什么 | 入口 |

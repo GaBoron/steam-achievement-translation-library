@@ -1,0 +1,44 @@
+name: Update README statistics
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.json
+      - workflow-scripts/generate_statistics_svg.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: statistics-svg-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Generate statistics SVG
+        run: python workflow-scripts/generate_statistics_svg.py
+
+      - name: Commit updated SVG
+        run: |
+          if [ -z "$(git status --porcelain -- docs/statistics/library-statistics.svg)" ]; then
+            echo "Statistics SVG is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/statistics/library-statistics.svg
+          git commit -m "docs: update README statistics"
+          git push
