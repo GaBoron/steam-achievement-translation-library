@@ -13,6 +13,10 @@ import generate_statistics_svg as statistics_svg  # noqa: E402
 
 
 class StatisticsTests(unittest.TestCase):
+    def test_axis_ceiling_does_not_double_just_above_one_hundred(self) -> None:
+        self.assertEqual(100, statistics_svg.nice_axis_max(100))
+        self.assertEqual(125, statistics_svg.nice_axis_max(101))
+
     def test_pencil_curve_is_smooth_and_has_no_jagged_line_segments(self) -> None:
         path = statistics_svg.pencil_curve_path(
             [(0.0, 10.0), (10.0, 5.0), (20.0, 2.0)],

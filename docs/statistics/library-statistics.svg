@@ -91,22 +91,22 @@
   <text x="75" y="151" class="hand label">数量（款）</text>
   <text x="88.0" y="657.0" text-anchor="end" class="hand label">0</text>
   <path d="M 108.0 556.0 C 250 554.8 515 557.0 682.0 556.0" fill="none" stroke="#b8bdba" stroke-width="1.4" stroke-dasharray="6 9" opacity="0.65"/>
-  <text x="88.0" y="563.0" text-anchor="end" class="hand label">20</text>
+  <text x="88.0" y="563.0" text-anchor="end" class="hand label">25</text>
   <path d="M 108.0 462.0 C 250 460.8 515 463.0 682.0 462.0" fill="none" stroke="#b8bdba" stroke-width="1.4" stroke-dasharray="6 9" opacity="0.65"/>
-  <text x="88.0" y="469.0" text-anchor="end" class="hand label">40</text>
+  <text x="88.0" y="469.0" text-anchor="end" class="hand label">50</text>
   <path d="M 108.0 368.0 C 250 366.8 515 369.0 682.0 368.0" fill="none" stroke="#b8bdba" stroke-width="1.4" stroke-dasharray="6 9" opacity="0.65"/>
-  <text x="88.0" y="375.0" text-anchor="end" class="hand label">60</text>
+  <text x="88.0" y="375.0" text-anchor="end" class="hand label">75</text>
   <path d="M 108.0 274.0 C 250 272.8 515 275.0 682.0 274.0" fill="none" stroke="#b8bdba" stroke-width="1.4" stroke-dasharray="6 9" opacity="0.65"/>
-  <text x="88.0" y="281.0" text-anchor="end" class="hand label">80</text>
+  <text x="88.0" y="281.0" text-anchor="end" class="hand label">100</text>
   <path d="M 108.0 180.0 C 250 178.8 515 181.0 682.0 180.0" fill="none" stroke="#b8bdba" stroke-width="1.4" stroke-dasharray="6 9" opacity="0.65"/>
-  <text x="88.0" y="187.0" text-anchor="end" class="hand label">100</text>
+  <text x="88.0" y="187.0" text-anchor="end" class="hand label">125</text>
   <g class="ink" stroke-width="3.2" filter="url(#roughen)">
     <path d="M 108.0 172.0 C 106.0 330 110.0 510 108.0 650.0"/>
     <path id="vertical-axis-arrow" d="M 100.0 181.0 L 108.0 171.0 L 116.0 181.0"/>
     <path d="M 108.0 650.0 C 270 652.0 500 648.0 690.0 650.0"/>
     <path d="M 683.0 641.0 L 692.0 650.0 L 683.0 659.0"/>
   </g>
-  <path id="trend-line" d="M 108.0 593.6 C 113.3 582.3 141.4 516.6 152.1 499.0 C 162.7 481.5 186.0 459.1 196.6 447.4 C 207.2 435.7 230.0 410.2 240.5 401.3 C 251.1 392.4 274.0 379.1 284.6 373.4 C 295.1 367.7 317.9 356.1 328.5 353.7 C 339.1 351.3 362.4 354.0 373.1 353.5 C 383.7 353.0 406.5 350.7 417.1 349.7 C 427.7 348.7 450.5 348.0 461.0 345.2 C 471.6 342.4 494.5 332.7 505.1 326.5 C 515.7 320.2 539.0 304.2 549.6 293.5 C 560.2 282.8 582.9 249.8 593.5 237.2 C 604.1 224.7 627.0 196.1 637.6 189.2 C 648.2 182.3 676.7 181.1 682.0 180.0" fill="none" stroke="#343230" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#pencil-wobble)"/>
+  <path id="trend-line" d="M 108.0 604.9 C 113.3 595.8 141.4 543.2 152.1 529.1 C 162.7 515.1 186.0 497.2 196.6 487.8 C 207.2 478.5 230.0 458.2 240.5 451.1 C 251.1 444.1 274.0 433.5 284.6 428.9 C 295.1 424.3 317.9 414.9 328.5 412.9 C 339.1 411.0 362.4 413.1 373.1 412.7 C 383.7 412.4 406.5 410.7 417.1 409.9 C 427.7 409.1 450.5 408.5 461.0 406.3 C 471.6 404.1 494.5 396.3 505.1 391.3 C 515.7 386.3 539.0 373.5 549.6 364.9 C 560.2 356.4 582.9 330.0 593.5 320.0 C 604.1 309.9 627.0 287.3 637.6 281.3 C 648.2 275.4 676.7 271.6 682.0 270.2" fill="none" stroke="#343230" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#pencil-wobble)"/>
   <path d="M 108.0 644.0 L 108.0 657.0" stroke="#242424" stroke-width="2.4" stroke-linecap="round" filter="url(#roughen)"/>
   <text x="108.0" y="687.0" text-anchor="middle" class="hand small">07/04</text>
   <path d="M 240.5 644.0 L 240.5 657.0" stroke="#242424" stroke-width="2.4" stroke-linecap="round" filter="url(#roughen)"/>
@@ -117,9 +117,9 @@
   <text x="549.5" y="687.0" text-anchor="middle" class="hand small">07/14</text>
   <path d="M 682.0 644.0 L 682.0 657.0" stroke="#242424" stroke-width="2.4" stroke-linecap="round" filter="url(#roughen)"/>
   <text x="682.0" y="687.0" text-anchor="middle" class="hand small">07/17</text>
-  <text x="493" y="145" class="hand label">最新：100 款</text>
-  <path id="latest-value-arrow" d="M 620 149 C 642 146 659 154 680.0 178.0" fill="none" stroke="#242424" stroke-width="2.5" stroke-linecap="round" marker-end="url(#latest-arrowhead)"/>
-  <path d="M 678.0 161.0 L 681.0 151.0 M 690.0 164.0 L 698.0 156.0 M 696.0 173.0 L 707.0 172.0" stroke="#e2aa15" stroke-width="3" stroke-linecap="round"/>
+  <text x="493" y="234.2" class="hand label">最新：101 款</text>
+  <path id="latest-value-arrow" d="M 620 238.2 C 642 235.2 659 244.2 680.0 268.2" fill="none" stroke="#242424" stroke-width="2.5" stroke-linecap="round" marker-end="url(#latest-arrowhead)"/>
+  <path d="M 678.0 251.2 L 681.0 241.2 M 690.0 254.2 L 698.0 246.2 M 696.0 263.2 L 707.0 262.2" stroke="#e2aa15" stroke-width="3" stroke-linecap="round"/>
   <path d="M 1037.0 145 C 1035.0 300 1039.0 520 1037.0 684" fill="none" stroke="#242424" stroke-width="3" stroke-linecap="round" filter="url(#roughen)"/>
   <circle cx="774" cy="173.0" r="16" fill="#ffe28a" stroke="#242424" stroke-width="2.5" filter="url(#roughen)"/>
   <text x="774" y="180.0" text-anchor="middle" class="hand label">1</text>
@@ -144,8 +144,8 @@
   <circle cx="774" cy="381.0" r="16" fill="#fffdf7" stroke="#242424" stroke-width="2.5" filter="url(#roughen)"/>
   <text x="774" y="388.0" text-anchor="middle" class="hand label">5</text>
   <text x="1018" y="388.0" text-anchor="end" class="hand" font-size="21px">GaBoron</text>
-  <path class="contributor-bar" d="M 1045.0 364.8 Q 1069.5 365.1 1093.8 365.2 Q 1093.8 381.0 1094.2 396.8 Q 1069.5 397.4 1044.9 396.8 Q 1045.4 381.0 1045.0 364.8 Z" fill="url(#rose-hatch)" stroke="#242424" stroke-width="2.5" stroke-linejoin="round" filter="url(#pencil-wobble)"/>
-  <text x="1109.0" y="388.0" class="hand label">6 款</text>
+  <path class="contributor-bar" d="M 1045.0 364.8 Q 1073.6 365.1 1101.9 365.2 Q 1101.9 381.0 1102.4 396.8 Q 1073.6 397.4 1044.9 396.8 Q 1045.4 381.0 1045.0 364.8 Z" fill="url(#rose-hatch)" stroke="#242424" stroke-width="2.5" stroke-linejoin="round" filter="url(#pencil-wobble)"/>
+  <text x="1117.2" y="388.0" class="hand label">7 款</text>
   <circle cx="774" cy="433.0" r="16" fill="#fffdf7" stroke="#242424" stroke-width="2.5" filter="url(#roughen)"/>
   <text x="774" y="440.0" text-anchor="middle" class="hand label">6</text>
   <text x="1018" y="440.0" text-anchor="end" class="hand" font-size="21px">b1516717676</text>

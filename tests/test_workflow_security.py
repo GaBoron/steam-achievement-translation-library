@@ -6,6 +6,17 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class WorkflowSecurityTests(unittest.TestCase):
+    def test_statistics_updates_use_repository_scoped_app_credentials(self) -> None:
+        statistics = (ROOT / ".github" / "workflows" / "statistics-svg.yml").read_text(
+            encoding="utf-8"
+        )
+
+        self.assertIn("id: statistics-token", statistics)
+        self.assertIn("app-id: ${{ secrets.SATL_PR_BOT_APP_ID }}", statistics)
+        self.assertIn("private-key: ${{ secrets.SATL_PR_BOT_PRIVATE_KEY }}", statistics)
+        self.assertIn("repositories: steam-achievement-translation-library", statistics)
+        self.assertIn("token: ${{ steps.statistics-token.outputs.token }}", statistics)
+
     def test_finalizers_use_repository_scoped_app_credentials(self) -> None:
         contribution = (ROOT / ".github" / "workflows" / "translation-contribution.yml").read_text(
             encoding="utf-8"

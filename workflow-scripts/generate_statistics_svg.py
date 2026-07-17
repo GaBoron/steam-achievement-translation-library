@@ -97,9 +97,10 @@ def build_statistics(index_data: dict[str, Any], contributor_limit: int = 10) ->
 def nice_axis_max(value: int) -> int:
     if value <= 0:
         return 1
-    exponent = math.floor(math.log10(value))
+    raw_step = value / 5
+    exponent = math.floor(math.log10(raw_step))
     magnitude = 10**exponent
-    fraction = value / magnitude
+    fraction = raw_step / magnitude
     if fraction <= 1:
         nice_fraction = 1
     elif fraction <= 2:
@@ -110,7 +111,7 @@ def nice_axis_max(value: int) -> int:
         nice_fraction = 5
     else:
         nice_fraction = 10
-    return max(5, int(nice_fraction * magnitude))
+    return max(5, int(nice_fraction * magnitude * 5))
 
 
 def evenly_spaced_indices(length: int, count: int) -> tuple[int, ...]:
@@ -360,13 +361,13 @@ def render_svg(statistics: Statistics) -> str:
         )
 
     annotation_x = 493
-    annotation_y = 145
+    annotation_y = max(145, latest_y - 36)
     arrow_tip_x = latest_x - 2
     arrow_tip_y = latest_y - 2
     svg.extend(
         [
-            f'  <text x="{annotation_x}" y="{annotation_y}" class="hand label">最新：{statistics.latest_total} 款</text>',
-            f'  <path id="latest-value-arrow" d="M 620 149 C 642 146 659 154 {arrow_tip_x:.1f} {arrow_tip_y:.1f}" fill="none" stroke="#242424" stroke-width="2.5" stroke-linecap="round" marker-end="url(#latest-arrowhead)"/>',
+            f'  <text x="{annotation_x}" y="{annotation_y:.1f}" class="hand label">最新：{statistics.latest_total} 款</text>',
+            f'  <path id="latest-value-arrow" d="M 620 {annotation_y + 4:.1f} C 642 {annotation_y + 1:.1f} 659 {arrow_tip_y - 24:.1f} {arrow_tip_x:.1f} {arrow_tip_y:.1f}" fill="none" stroke="#242424" stroke-width="2.5" stroke-linecap="round" marker-end="url(#latest-arrowhead)"/>',
             f'  <path d="M {latest_x - 4:.1f} {latest_y - 19:.1f} L {latest_x - 1:.1f} {latest_y - 29:.1f} M {latest_x + 8:.1f} {latest_y - 16:.1f} L {latest_x + 16:.1f} {latest_y - 24:.1f} M {latest_x + 14:.1f} {latest_y - 7:.1f} L {latest_x + 25:.1f} {latest_y - 8:.1f}" stroke="#e2aa15" stroke-width="3" stroke-linecap="round"/>',
         ]
     )
