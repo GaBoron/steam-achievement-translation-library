@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能过期”的文件建议等待更新后再使用。
 
-当前收录：**90** 个游戏。
+当前收录：**91** 个游戏。
 
 ## 使用这个索引
 
@@ -97,6 +97,7 @@
 | `311560` | 刺客信条：叛变 | 可用 | 2026-07-05T07:41:37Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 46 | [UserGameStatsSchema_311560.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/311560/UserGameStatsSchema_311560.bin)（57 KB） | [#45](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/45) |  | [Steam](https://store.steampowered.com/app/311560/Assassins_Creed_Rogue/) |
 | `201870` | 刺客信条：启示录 | 可用 | 2026-07-05T01:10:00Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 48 | [UserGameStatsSchema_201870.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/201870/UserGameStatsSchema_201870.bin)（70 KB） | [#31](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/31) |  | [Steam](https://store.steampowered.com/app/201870/_/) |
 | `277590` | 刺客信条：自由呐喊 | 可用 | 2026-07-05T00:26:47Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 12 | [UserGameStatsSchema_277590.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/277590/UserGameStatsSchema_277590.bin)（19 KB） | [#43](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/43) |  | [Steam](https://store.steampowered.com/app/277590/Assassins_Creed_Freedom_Cry/) |
+| `1222140` | 底特律：化身为人 | 可用 | 2026-07-17T15:02:11Z | [@b1516717676](https://github.com/b1516717676) | schinese | 48 | [UserGameStatsSchema_1222140.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1222140/UserGameStatsSchema_1222140.bin)（96 KB） | [#168](https://github.com/GaBoron/steam-achievement-translation-library/pull/168) |  | [Steam](https://store.steampowered.com/app/1222140/_/) |
 | `286690` | 地铁2033 重制版 | 可用 | 2026-07-05T07:37:25Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 49 | [UserGameStatsSchema_286690.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/286690/UserGameStatsSchema_286690.bin)（56 KB） | [#35](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/35) |  | [Steam](https://store.steampowered.com/app/286690/2033/) |
 | `287390` | 地铁：最后的曙光 重制版 | 可用 | 2026-07-04T16:57:28Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 49 | [UserGameStatsSchema_287390.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/287390/UserGameStatsSchema_287390.bin)（55 KB） | [#28](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/28) |  | [Steam](https://store.steampowered.com/app/287390/_/) |
 | `203160` | 古墓丽影：年度版 | 可用 | 2026-07-16T03:31:57Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 50 | [UserGameStatsSchema_203160.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/203160/UserGameStatsSchema_203160.bin)（74 KB） | [#158](https://github.com/GaBoron/steam-achievement-translation-library/pull/158) |  | [Steam](https://store.steampowered.com/app/203160/Tomb_Raider_Game_of_the_Year/) |
