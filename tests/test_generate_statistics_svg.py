@@ -13,6 +13,22 @@ import generate_statistics_svg as statistics_svg  # noqa: E402
 
 
 class StatisticsTests(unittest.TestCase):
+    def test_pencil_curve_is_smooth_and_has_no_jagged_line_segments(self) -> None:
+        path = statistics_svg.pencil_curve_path(
+            [(0.0, 10.0), (10.0, 5.0), (20.0, 2.0)],
+            seed=1,
+        )
+
+        self.assertTrue(path.startswith("M "))
+        self.assertEqual(2, path.count(" C "))
+        self.assertNotIn(" L ", path)
+
+    def test_rough_bar_uses_four_gently_curved_sides(self) -> None:
+        path = statistics_svg.rough_bar_path(10.0, 20.0, 100.0, 30.0, seed=1)
+
+        self.assertEqual(4, path.count(" Q "))
+        self.assertTrue(path.endswith(" Z"))
+
     def test_build_statistics_counts_unique_games_by_first_submission(self) -> None:
         index_data = {
             "entries": [

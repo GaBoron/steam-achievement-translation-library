@@ -134,57 +134,66 @@ def path_from_points(points: list[tuple[float, float]], close: bool = False) -> 
     return " ".join(commands)
 
 
-def pencil_polyline(
+def pencil_curve_path(
     points: list[tuple[float, float]],
     *,
     seed: int,
-    jitter: float = 2.8,
-    subdivisions: int = 4,
-) -> list[tuple[float, float]]:
-    """Add deterministic, small perpendicular wobbles without changing the data shape."""
+    jitter: float = 0.9,
+) -> str:
+    """Create one smooth curve with a restrained, deterministic pencil wobble."""
     if len(points) < 2:
-        return points.copy()
+        return path_from_points(points)
 
     rng = random.Random(seed)
-    pencilled = [points[0]]
-    for segment_index, ((start_x, start_y), (end_x, end_y)) in enumerate(zip(points, points[1:])):
-        delta_x = end_x - start_x
-        delta_y = end_y - start_y
-        length = math.hypot(delta_x, delta_y) or 1.0
-        normal_x = -delta_y / length
-        normal_y = delta_x / length
+    softened = [points[0]]
+    for x, y in points[1:-1]:
+        softened.append((x + rng.uniform(-0.35, 0.35), y + rng.uniform(-jitter, jitter)))
+    softened.append(points[-1])
 
-        for step in range(1, subdivisions + 1):
-            progress = step / subdivisions
-            is_last_point = segment_index == len(points) - 2 and step == subdivisions
-            offset = 0.0 if is_last_point else rng.uniform(-jitter, jitter)
-            along = 0.0 if step == subdivisions else rng.uniform(-0.7, 0.7)
-            x = start_x + delta_x * progress + normal_x * offset + (delta_x / length) * along
-            y = start_y + delta_y * progress + normal_y * offset + (delta_y / length) * along
-            pencilled.append((x, y))
-    return pencilled
+    commands = [f"M {softened[0][0]:.1f} {softened[0][1]:.1f}"]
+    control_factor = 0.12
+    for index in range(len(softened) - 1):
+        previous = softened[max(0, index - 1)]
+        start = softened[index]
+        end = softened[index + 1]
+        following = softened[min(len(softened) - 1, index + 2)]
+        control_1 = (
+            start[0] + (end[0] - previous[0]) * control_factor,
+            start[1] + (end[1] - previous[1]) * control_factor,
+        )
+        control_2 = (
+            end[0] - (following[0] - start[0]) * control_factor,
+            end[1] - (following[1] - start[1]) * control_factor,
+        )
+        commands.append(
+            f"C {control_1[0]:.1f} {control_1[1]:.1f} "
+            f"{control_2[0]:.1f} {control_2[1]:.1f} {end[0]:.1f} {end[1]:.1f}"
+        )
+    return " ".join(commands)
 
 
 def rough_bar_path(x: float, y: float, width: float, height: float, seed: int) -> str:
-    """Build a closed bar whose four edges bend independently like a hand-drawn box."""
+    """Build a gently imperfect bar with four subtly curved sides."""
     rng = random.Random(seed)
+    top_left = (x + rng.uniform(-0.25, 0.25), y + rng.uniform(-0.55, 0.55))
+    top_right = (x + width + rng.uniform(-0.25, 0.25), y + rng.uniform(-0.55, 0.55))
+    bottom_right = (
+        x + width + rng.uniform(-0.25, 0.25),
+        y + height + rng.uniform(-0.55, 0.55),
+    )
+    bottom_left = (x + rng.uniform(-0.25, 0.25), y + height + rng.uniform(-0.55, 0.55))
+    top_mid = (x + width * 0.5, y + rng.uniform(-0.7, 0.7))
+    right_mid = (x + width + rng.uniform(-0.45, 0.45), y + height * 0.5)
+    bottom_mid = (x + width * 0.5, y + height + rng.uniform(-0.7, 0.7))
+    left_mid = (x + rng.uniform(-0.45, 0.45), y + height * 0.5)
 
-    def wobble(amount: float = 2.2) -> float:
-        return rng.uniform(-amount, amount)
-
-    points = [
-        (x + wobble(1.2), y + wobble()),
-        (x + width * 0.33, y + wobble()),
-        (x + width * 0.68, y + wobble()),
-        (x + width + wobble(1.6), y + wobble()),
-        (x + width + wobble(), y + height * 0.48),
-        (x + width + wobble(1.6), y + height + wobble()),
-        (x + width * 0.66, y + height + wobble()),
-        (x + width * 0.31, y + height + wobble()),
-        (x + wobble(1.2), y + height + wobble()),
-        (x + wobble(), y + height * 0.52),
-    ]
-    return path_from_points(points, close=True)
+    return (
+        f"M {top_left[0]:.1f} {top_left[1]:.1f} "
+        f"Q {top_mid[0]:.1f} {top_mid[1]:.1f} {top_right[0]:.1f} {top_right[1]:.1f} "
+        f"Q {right_mid[0]:.1f} {right_mid[1]:.1f} {bottom_right[0]:.1f} {bottom_right[1]:.1f} "
+        f"Q {bottom_mid[0]:.1f} {bottom_mid[1]:.1f} {bottom_left[0]:.1f} {bottom_left[1]:.1f} "
+        f"Q {left_mid[0]:.1f} {left_mid[1]:.1f} {top_left[0]:.1f} {top_left[1]:.1f} Z"
+    )
 
 
 def embedded_font_data() -> str:
@@ -214,7 +223,7 @@ def render_svg(statistics: Statistics) -> str:
         y = plot_bottom - (total / axis_max) * plot_height
         trend_points.append((x, y))
 
-    pencilled_trend_points = pencil_polyline(trend_points, seed=20260717)
+    pencilled_trend_path = pencil_curve_path(trend_points, seed=20260717)
     latest_x, latest_y = trend_points[-1]
     font_data = embedded_font_data()
 
@@ -250,7 +259,7 @@ def render_svg(statistics: Statistics) -> str:
         "    </filter>",
         "    <filter id=\"pencil-wobble\" x=\"-4%\" y=\"-8%\" width=\"108%\" height=\"116%\">",
         "      <feTurbulence type=\"fractalNoise\" baseFrequency=\"0.035 0.12\" numOctaves=\"1\" seed=\"31\" result=\"noise\"/>",
-        "      <feDisplacementMap in=\"SourceGraphic\" in2=\"noise\" scale=\"1.4\" xChannelSelector=\"R\" yChannelSelector=\"G\"/>",
+        "      <feDisplacementMap in=\"SourceGraphic\" in2=\"noise\" scale=\"0.65\" xChannelSelector=\"R\" yChannelSelector=\"G\"/>",
         "    </filter>",
         "    <pattern id=\"blue-hatch\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\" patternTransform=\"rotate(12)\">",
         "      <rect width=\"10\" height=\"10\" fill=\"#cfe8f8\"/>",
@@ -332,7 +341,7 @@ def render_svg(statistics: Statistics) -> str:
             f"    <path d=\"M {plot_left:.1f} {plot_bottom:.1f} C 270 {plot_bottom + 2:.1f} 500 {plot_bottom - 2:.1f} {plot_right + 8:.1f} {plot_bottom:.1f}\"/>",
             f"    <path d=\"M {plot_right + 1:.1f} {plot_bottom - 9:.1f} L {plot_right + 10:.1f} {plot_bottom:.1f} L {plot_right + 1:.1f} {plot_bottom + 9:.1f}\"/>",
             "  </g>",
-            f'  <path id="trend-line" d="{path_from_points(pencilled_trend_points)}" fill="none" stroke="#343230" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#pencil-wobble)"/>',
+            f'  <path id="trend-line" d="{pencilled_trend_path}" fill="none" stroke="#343230" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#pencil-wobble)"/>',
         ]
     )
 

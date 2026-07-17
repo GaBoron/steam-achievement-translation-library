@@ -9,10 +9,6 @@
 > - 使用本地软件手动进行本地化操作请前往 [PanVena/SteamAchievementLocalizer](https://github.com/PanVena/SteamAchievementLocalizer)  
 > 本仓库只保存翻译数据和数据投稿流程。
 
-## 收录统计
-
-![收录游戏数量趋势与贡献者贡献量排行](docs/statistics/library-statistics.svg)
-
 ## 快速入口
 
 | 你想做什么 | 入口 |
@@ -100,6 +96,10 @@ UserGameStatsSchema_<app_id>.bin.bak
 然后把从本仓库下载的 `UserGameStatsSchema_<app_id>.bin` 放到本地 `appcache/stats` 目录，覆盖同名文件。确认文件名完全一致后重新启动 Steam 和游戏。
 
 如果游戏更新、Steam 刷新缓存或成就数量变化，Steam 可能重新生成该文件。遇到翻译失效、成就缺失或索引状态过旧时，请使用“报告成就文件过期”模板；如果你已经有新版文件，请使用“更新已有 Steam 成就翻译”模板。
+
+## 收录统计
+
+![收录游戏数量趋势与贡献者贡献量排行](docs/statistics/library-statistics.svg)
 
 ## 许可证与权利
 
