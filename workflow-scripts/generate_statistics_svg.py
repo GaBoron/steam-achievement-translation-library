@@ -338,6 +338,7 @@ def render_svg(statistics: Statistics) -> str:
         [
             "  <g class=\"ink\" stroke-width=\"3.2\" filter=\"url(#roughen)\">",
             f"    <path d=\"M {plot_left:.1f} {plot_top - 8:.1f} C {plot_left - 2:.1f} 330 {plot_left + 2:.1f} 510 {plot_left:.1f} {plot_bottom:.1f}\"/>",
+            f"    <path id=\"vertical-axis-arrow\" d=\"M {plot_left - 8:.1f} {plot_top + 1:.1f} L {plot_left:.1f} {plot_top - 9:.1f} L {plot_left + 8:.1f} {plot_top + 1:.1f}\"/>",
             f"    <path d=\"M {plot_left:.1f} {plot_bottom:.1f} C 270 {plot_bottom + 2:.1f} 500 {plot_bottom - 2:.1f} {plot_right + 8:.1f} {plot_bottom:.1f}\"/>",
             f"    <path d=\"M {plot_right + 1:.1f} {plot_bottom - 9:.1f} L {plot_right + 10:.1f} {plot_bottom:.1f} L {plot_right + 1:.1f} {plot_bottom + 9:.1f}\"/>",
             "  </g>",
