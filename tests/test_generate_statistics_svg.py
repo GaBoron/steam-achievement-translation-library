@@ -97,6 +97,8 @@ class StatisticsTests(unittest.TestCase):
         self.assertIn("data:font/ttf;base64,", rendered)
         self.assertEqual(1, rendered.count('id="trend-line"'))
         self.assertEqual(1, rendered.count('id="vertical-axis-arrow"'))
+        self.assertEqual(1, rendered.count('id="latest-value-arrow"'))
+        self.assertIn('marker-end="url(#latest-arrowhead)"', rendered)
         self.assertNotIn('fill="#b9dff3"', rendered)
         self.assertEqual(2, rendered.count('class="contributor-bar"'))
 

@@ -261,6 +261,9 @@ def render_svg(statistics: Statistics) -> str:
         "      <feTurbulence type=\"fractalNoise\" baseFrequency=\"0.035 0.12\" numOctaves=\"1\" seed=\"31\" result=\"noise\"/>",
         "      <feDisplacementMap in=\"SourceGraphic\" in2=\"noise\" scale=\"0.65\" xChannelSelector=\"R\" yChannelSelector=\"G\"/>",
         "    </filter>",
+        "    <marker id=\"latest-arrowhead\" viewBox=\"0 0 12 12\" refX=\"10\" refY=\"6\" markerWidth=\"12\" markerHeight=\"12\" markerUnits=\"userSpaceOnUse\" orient=\"auto\">",
+        "      <path d=\"M 2 1 L 10 6 L 2 11\" fill=\"none\" stroke=\"#242424\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+        "    </marker>",
         "    <pattern id=\"blue-hatch\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\" patternTransform=\"rotate(12)\">",
         "      <rect width=\"10\" height=\"10\" fill=\"#cfe8f8\"/>",
         "      <path d=\"M 1 10 L 7 0 M 7 10 L 13 0\" stroke=\"#6baed6\" stroke-width=\"1.5\" opacity=\"0.72\"/>",
@@ -358,12 +361,12 @@ def render_svg(statistics: Statistics) -> str:
 
     annotation_x = 493
     annotation_y = 145
-    arrow_target_y = max(plot_top - 4, latest_y - 7)
+    arrow_tip_x = latest_x - 2
+    arrow_tip_y = latest_y - 2
     svg.extend(
         [
             f'  <text x="{annotation_x}" y="{annotation_y}" class="hand label">最新：{statistics.latest_total} 款</text>',
-            f'  <path d="M 620 149 Q 642 151 {latest_x - 13:.1f} {arrow_target_y:.1f}" fill="none" stroke="#242424" stroke-width="2.5" stroke-linecap="round" filter="url(#roughen)"/>',
-            f'  <path d="M {latest_x - 21:.1f} {arrow_target_y - 3:.1f} L {latest_x - 12:.1f} {arrow_target_y:.1f} L {latest_x - 16:.1f} {arrow_target_y + 8:.1f}" fill="none" stroke="#242424" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>',
+            f'  <path id="latest-value-arrow" d="M 620 149 C 642 146 659 154 {arrow_tip_x:.1f} {arrow_tip_y:.1f}" fill="none" stroke="#242424" stroke-width="2.5" stroke-linecap="round" marker-end="url(#latest-arrowhead)"/>',
             f'  <path d="M {latest_x - 4:.1f} {latest_y - 19:.1f} L {latest_x - 1:.1f} {latest_y - 29:.1f} M {latest_x + 8:.1f} {latest_y - 16:.1f} L {latest_x + 16:.1f} {latest_y - 24:.1f} M {latest_x + 14:.1f} {latest_y - 7:.1f} L {latest_x + 25:.1f} {latest_y - 8:.1f}" stroke="#e2aa15" stroke-width="3" stroke-linecap="round"/>',
         ]
     )
