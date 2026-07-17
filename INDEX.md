@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能过期”的文件建议等待更新后再使用。
 
-当前收录：**100** 个游戏。
+当前收录：**101** 个游戏。
 
 ## 使用这个索引
 
@@ -113,6 +113,7 @@
 | `219990` | 恐怖黎明 | 可用 | 2026-07-07T12:36:16Z | [@Lelectfly](https://github.com/Lelectfly) | schinese | 185 | [UserGameStatsSchema_219990.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/219990/UserGameStatsSchema_219990.bin)（71 KB） | [#55](https://github.com/GaBoron/steam-achievement-translation-library/pull/55) |  | [Steam](https://store.steampowered.com/app/219990/Grim_Dawn/) |
 | `1796220` | 莱卡：鲜血铸就 | 可用 | 2026-07-06T00:01:19Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 42 | [UserGameStatsSchema_1796220.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1796220/UserGameStatsSchema_1796220.bin)（16 KB） | [#24](https://github.com/GaBoron/steam-achievement-translation-library/pull/24) |  | [Steam](https://store.steampowered.com/app/1796220/_/) |
 | `920210` | 乐高星球大战：天行者传奇 | 可用 | 2026-07-16T03:26:27Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 45 | [UserGameStatsSchema_920210.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/920210/UserGameStatsSchema_920210.bin)（79 KB） | [#160](https://github.com/GaBoron/steam-achievement-translation-library/pull/160) |  | [Steam](https://store.steampowered.com/app/920210/LEGO_Star_Wars/) |
+| `236850` | 欧陆风云 IV | 可用 | 2026-07-17T17:31:59Z | [@GaBoron](https://github.com/GaBoron) | english, french, schinese | 373 | [UserGameStatsSchema_236850.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/236850/UserGameStatsSchema_236850.bin)（294 KB） | [#191](https://github.com/GaBoron/steam-achievement-translation-library/pull/191) |  | [Steam](https://store.steampowered.com/app/236850) |
 | `457140` | 缺氧 | 可用 | 2026-07-07T12:38:30Z | [@Lelectfly](https://github.com/Lelectfly) | schinese | 51 | [UserGameStatsSchema_457140.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/457140/UserGameStatsSchema_457140.bin)（22 KB） | [#59](https://github.com/GaBoron/steam-achievement-translation-library/pull/59) |  | [Steam](https://store.steampowered.com/app/457140/_/) |
 | `49520` | 无主之地2 | 可用 | 2026-07-07T12:37:07Z | [@Lelectfly](https://github.com/Lelectfly) | schinese | 75 | [UserGameStatsSchema_49520.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/49520/UserGameStatsSchema_49520.bin)（85 KB） | [#57](https://github.com/GaBoron/steam-achievement-translation-library/pull/57) |  | [Steam](https://store.steampowered.com/app/49520/Borderlands_2/) |
 | `1237950` | 星球大战：前线2（2017） | 可用 | 2026-07-05T00:28:44Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 43 | [UserGameStatsSchema_1237950.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1237950/UserGameStatsSchema_1237950.bin)（62 KB） | [#53](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/53) |  | [Steam](https://store.steampowered.com/app/1237950/STAR_WARS__II/) |
