@@ -106,7 +106,7 @@
     <path d="M 108.0 650.0 C 270 652.0 500 648.0 690.0 650.0"/>
     <path d="M 683.0 641.0 L 692.0 650.0 L 683.0 659.0"/>
   </g>
-  <path id="trend-line" d="M 108.0 604.9 C 112.9 595.8 139.0 543.2 148.9 529.1 C 158.8 515.1 180.4 497.2 190.3 487.8 C 200.2 478.5 221.3 458.2 231.1 451.1 C 240.9 444.1 262.2 433.5 272.0 428.9 C 281.8 424.3 302.9 414.9 312.7 412.9 C 322.6 411.0 344.3 413.1 354.1 412.7 C 364.0 412.4 385.2 410.7 395.0 409.9 C 404.8 409.1 426.0 408.5 435.8 406.3 C 445.6 404.1 466.8 396.3 476.7 391.3 C 486.6 386.3 508.2 373.5 518.0 364.9 C 527.9 356.4 549.0 330.0 558.8 320.0 C 568.6 309.9 589.9 287.7 599.8 281.3 C 609.7 275.0 631.5 270.9 641.3 267.3 C 651.2 263.7 677.1 253.3 682.0 251.4" fill="none" stroke="#343230" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#pencil-wobble)"/>
+  <path id="trend-line" d="M 108.0 604.9 C 112.9 595.8 139.0 543.2 148.9 529.1 C 158.8 515.1 180.4 497.2 190.3 487.8 C 200.2 478.5 221.3 458.2 231.1 451.1 C 240.9 444.1 262.2 433.5 272.0 428.9 C 281.8 424.3 302.9 414.9 312.7 412.9 C 322.6 411.0 344.3 413.1 354.1 412.7 C 364.0 412.4 385.2 410.7 395.0 409.9 C 404.8 409.1 426.0 408.5 435.8 406.3 C 445.6 404.1 466.8 396.3 476.7 391.3 C 486.6 386.3 508.2 373.5 518.0 364.9 C 527.9 356.4 549.0 330.0 558.8 320.0 C 568.6 309.9 589.9 287.7 599.8 281.3 C 609.7 275.0 631.5 271.4 641.3 267.3 C 651.2 263.3 677.1 250.0 682.0 247.7" fill="none" stroke="#343230" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#pencil-wobble)"/>
   <path d="M 108.0 644.0 L 108.0 657.0" stroke="#242424" stroke-width="2.4" stroke-linecap="round" filter="url(#roughen)"/>
   <text x="108.0" y="687.0" text-anchor="middle" class="hand small">07/04</text>
   <path d="M 272.0 644.0 L 272.0 657.0" stroke="#242424" stroke-width="2.4" stroke-linecap="round" filter="url(#roughen)"/>
@@ -117,9 +117,9 @@
   <text x="518.0" y="687.0" text-anchor="middle" class="hand small">07/14</text>
   <path d="M 682.0 644.0 L 682.0 657.0" stroke="#242424" stroke-width="2.4" stroke-linecap="round" filter="url(#roughen)"/>
   <text x="682.0" y="687.0" text-anchor="middle" class="hand small">07/18</text>
-  <text x="493" y="215.4" class="hand label">最新：106 款</text>
-  <path id="latest-value-arrow" d="M 620 219.4 C 642 216.4 659 225.4 680.0 249.4" fill="none" stroke="#242424" stroke-width="2.5" stroke-linecap="round" marker-end="url(#latest-arrowhead)"/>
-  <path d="M 678.0 232.4 L 681.0 222.4 M 690.0 235.4 L 698.0 227.4 M 696.0 244.4 L 707.0 243.4" stroke="#e2aa15" stroke-width="3" stroke-linecap="round"/>
+  <text x="493" y="211.7" class="hand label">最新：107 款</text>
+  <path id="latest-value-arrow" d="M 620 215.7 C 642 212.7 659 221.7 680.0 245.7" fill="none" stroke="#242424" stroke-width="2.5" stroke-linecap="round" marker-end="url(#latest-arrowhead)"/>
+  <path d="M 678.0 228.7 L 681.0 218.7 M 690.0 231.7 L 698.0 223.7 M 696.0 240.7 L 707.0 239.7" stroke="#e2aa15" stroke-width="3" stroke-linecap="round"/>
   <path d="M 1037.0 145 C 1035.0 300 1039.0 520 1037.0 684" fill="none" stroke="#242424" stroke-width="3" stroke-linecap="round" filter="url(#roughen)"/>
   <circle cx="774" cy="173.0" r="16" fill="#ffe28a" stroke="#242424" stroke-width="2.5" filter="url(#roughen)"/>
   <text x="774" y="180.0" text-anchor="middle" class="hand label">1</text>
@@ -138,14 +138,14 @@
   <text x="1198.8" y="284.0" class="hand label">17 款</text>
   <circle cx="774" cy="329.0" r="16" fill="#fffdf7" stroke="#242424" stroke-width="2.5" filter="url(#roughen)"/>
   <text x="774" y="336.0" text-anchor="middle" class="hand label">4</text>
-  <text x="1018" y="336.0" text-anchor="end" class="hand" font-size="21px">luoxiaogaung</text>
+  <text x="1018" y="336.0" text-anchor="end" class="hand" font-size="21px">GaBoron</text>
   <path class="contributor-bar" d="M 1044.8 312.6 Q 1085.8 312.7 1126.8 312.7 Q 1126.8 329.0 1126.8 344.5 Q 1085.8 344.6 1045.2 345.5 Q 1045.4 329.0 1044.8 312.6 Z" fill="url(#lilac-hatch)" stroke="#242424" stroke-width="2.5" stroke-linejoin="round" filter="url(#pencil-wobble)"/>
   <text x="1141.7" y="336.0" class="hand label">10 款</text>
   <circle cx="774" cy="381.0" r="16" fill="#fffdf7" stroke="#242424" stroke-width="2.5" filter="url(#roughen)"/>
   <text x="774" y="388.0" text-anchor="middle" class="hand label">5</text>
-  <text x="1018" y="388.0" text-anchor="end" class="hand" font-size="21px">GaBoron</text>
-  <path class="contributor-bar" d="M 1045.0 364.8 Q 1081.8 365.1 1118.3 365.2 Q 1118.3 381.0 1118.7 396.8 Q 1081.8 397.4 1044.9 396.8 Q 1045.4 381.0 1045.0 364.8 Z" fill="url(#rose-hatch)" stroke="#242424" stroke-width="2.5" stroke-linejoin="round" filter="url(#pencil-wobble)"/>
-  <text x="1133.5" y="388.0" class="hand label">9 款</text>
+  <text x="1018" y="388.0" text-anchor="end" class="hand" font-size="21px">luoxiaogaung</text>
+  <path class="contributor-bar" d="M 1045.0 364.8 Q 1085.8 365.1 1126.4 365.2 Q 1126.4 381.0 1126.9 396.8 Q 1085.8 397.4 1044.9 396.8 Q 1045.4 381.0 1045.0 364.8 Z" fill="url(#rose-hatch)" stroke="#242424" stroke-width="2.5" stroke-linejoin="round" filter="url(#pencil-wobble)"/>
+  <text x="1141.7" y="388.0" class="hand label">10 款</text>
   <circle cx="774" cy="433.0" r="16" fill="#fffdf7" stroke="#242424" stroke-width="2.5" filter="url(#roughen)"/>
   <text x="774" y="440.0" text-anchor="middle" class="hand label">6</text>
   <text x="1018" y="440.0" text-anchor="end" class="hand" font-size="21px">b1516717676</text>
