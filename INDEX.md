@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能过期”的文件建议等待更新后再使用。
 
-当前收录：**109** 个游戏。
+当前收录：**110** 个游戏。
 
 ## 使用这个索引
 
@@ -117,6 +117,7 @@
 | `1222140` | 底特律：化身为人 | 可用 | 2026-07-17T15:02:11Z | [@b1516717676](https://github.com/b1516717676) | schinese | 48 | [UserGameStatsSchema_1222140.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1222140/UserGameStatsSchema_1222140.bin)（96 KB） | [#168](https://github.com/GaBoron/steam-achievement-translation-library/pull/168) |  | [Steam](https://store.steampowered.com/app/1222140/_/) |
 | `286690` | 地铁2033 重制版 | 可用 | 2026-07-05T07:37:25Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 49 | [UserGameStatsSchema_286690.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/286690/UserGameStatsSchema_286690.bin)（56 KB） | [#35](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/35) |  | [Steam](https://store.steampowered.com/app/286690/2033/) |
 | `287390` | 地铁：最后的曙光 重制版 | 可用 | 2026-07-04T16:57:28Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 49 | [UserGameStatsSchema_287390.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/287390/UserGameStatsSchema_287390.bin)（55 KB） | [#28](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/28) |  | [Steam](https://store.steampowered.com/app/287390/_/) |
+| `798460` | 二之国 白色圣灰的女王 | 可用 | 2026-07-18T09:49:46Z | [@GaBoron](https://github.com/GaBoron) | schinese | 33 | [UserGameStatsSchema_798460.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/798460/UserGameStatsSchema_798460.bin)（31 KB） | [#204](https://github.com/GaBoron/steam-achievement-translation-library/pull/204) |  | [Steam](https://store.steampowered.com/app/798460) |
 | `203160` | 古墓丽影：年度版 | 可用 | 2026-07-16T03:31:57Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 50 | [UserGameStatsSchema_203160.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/203160/UserGameStatsSchema_203160.bin)（74 KB） | [#158](https://github.com/GaBoron/steam-achievement-translation-library/pull/158) |  | [Steam](https://store.steampowered.com/app/203160/Tomb_Raider_Game_of_the_Year/) |
 | `219990` | 恐怖黎明 | 可用 | 2026-07-07T12:36:16Z | [@Lelectfly](https://github.com/Lelectfly) | schinese | 185 | [UserGameStatsSchema_219990.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/219990/UserGameStatsSchema_219990.bin)（71 KB） | [#55](https://github.com/GaBoron/steam-achievement-translation-library/pull/55) |  | [Steam](https://store.steampowered.com/app/219990/Grim_Dawn/) |
 | `1796220` | 莱卡：鲜血铸就 | 可用 | 2026-07-06T00:01:19Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 42 | [UserGameStatsSchema_1796220.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1796220/UserGameStatsSchema_1796220.bin)（16 KB） | [#24](https://github.com/GaBoron/steam-achievement-translation-library/pull/24) |  | [Steam](https://store.steampowered.com/app/1796220/_/) |
