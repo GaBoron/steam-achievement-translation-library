@@ -467,7 +467,11 @@ class RepositoryIntegrityTests(unittest.TestCase):
 
 
 class PullRequestBodyTests(unittest.TestCase):
-    def build_body(self, contributor_notes: str = "") -> str:
+    def build_body(
+        self,
+        contributor_notes: str = "",
+        rows_by_variant: dict[str, list[dict[str, str]]] | None = None,
+    ) -> str:
         entry = {
             "game_name": "Example Game",
             "game_id": "123",
@@ -498,6 +502,7 @@ class PullRequestBodyTests(unittest.TestCase):
             languages=["schinese"],
             issue_url="https://github.com/example/repo/issues/1",
             contributor_notes=contributor_notes,
+            rows_by_variant=rows_by_variant,
         )
 
     def test_multiline_issue_notes_are_transferred_to_pr_body(self) -> None:
@@ -516,6 +521,33 @@ class PullRequestBodyTests(unittest.TestCase):
 
         self.assertEqual("", notes)
         self.assertNotIn("## Contributor Notes", body)
+
+    def test_multi_version_body_lists_achievement_text_for_every_variant(self) -> None:
+        default_rows = [{
+            "api_name": "ACH_ONE",
+            "schinese_name": "原文版名称",
+            "schinese_description": "原文版描述",
+        }]
+        clean_rows = [{
+            "api_name": "ACH_ONE",
+            "schinese_name": "和谐版名称",
+            "schinese_description": "和谐版描述",
+        }]
+
+        body = self.build_body(rows_by_variant={
+            "default": default_rows,
+            "clean": clean_rows,
+        })
+
+        self.assertIn("## Achievement Text (`default`)", body)
+        self.assertIn("原文版名称", body)
+        self.assertIn("## Achievement Text (`clean`)", body)
+        self.assertIn("和谐版名称", body)
+
+    def test_single_version_body_keeps_one_achievement_text_section(self) -> None:
+        body = self.build_body()
+
+        self.assertEqual(1, body.count("## Achievement Text ("))
 
 
 if __name__ == "__main__":

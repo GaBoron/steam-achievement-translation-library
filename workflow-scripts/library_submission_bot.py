@@ -1349,6 +1349,34 @@ def build_schema_variants_section(entry: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
+def variant_achievement_rows(
+    entry: dict[str, Any],
+    languages: list[str],
+) -> dict[str, list[dict[str, str]]]:
+    rows_by_variant: dict[str, list[dict[str, str]]] = {}
+    for variant in validated_entry_schema_variants(entry):
+        schema_file = str(variant["schema_file"])
+        data, nodes = load_schema(repository_path(schema_file))
+        validate_schema_structure(data, nodes)
+        rows = achievement_rows(nodes, languages)
+        require_language_coverage(rows, languages)
+        rows_by_variant[str(variant["variant_id"])] = rows
+    return rows_by_variant
+
+
+def build_achievement_text_sections(
+    rows: list[dict[str, str]],
+    languages: list[str],
+    review_variant_id: str,
+    rows_by_variant: dict[str, list[dict[str, str]]] | None = None,
+) -> str:
+    variants = rows_by_variant or {review_variant_id: rows}
+    return "\n\n".join(
+        f"## Achievement Text (`{variant_id}`)\n\n{build_review_table(variant_rows, languages)}"
+        for variant_id, variant_rows in variants.items()
+    )
+
+
 def build_submission_pr_body(
     *,
     kind: str,
@@ -1364,6 +1392,7 @@ def build_submission_pr_body(
     review_variant_id: str = "default",
     review_variant_hash: str = "",
     variant_changes: dict[str, list[str]] | None = None,
+    rows_by_variant: dict[str, list[dict[str, str]]] | None = None,
 ) -> str:
     title = "Translation Library Update" if kind == "update" else "Translation Library Submission"
     coverage_lines = "\n".join(f"- `{language}`: {count}/{len(rows)} achievements" for language, count in coverage.items())
@@ -1406,6 +1435,12 @@ def build_submission_pr_body(
 
 {markdown_changed_details(update_diff['changed'])}
 """
+    achievement_sections = build_achievement_text_sections(
+        rows,
+        languages,
+        review_variant_id,
+        rows_by_variant,
+    )
     return f"""## {title}
 
 - Game name: {entry['game_name']}
@@ -1429,9 +1464,7 @@ def build_submission_pr_body(
 {coverage_lines}
 {update_section}
 
-## Achievement Text (`{review_variant_id}`)
-
-{build_review_table(rows, languages)}
+{achievement_sections}
 """
 
 
@@ -1584,6 +1617,7 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
         timestamp=timestamp,
         schema_files=schema_files if keep_schema_files else None,
     )
+    rows_by_variant = variant_achievement_rows(entry, languages)
     issue_number = int(issue["number"])
     branch_prefix = "translation-library/update" if kind == "update" else "translation-library/issue"
     title_prefix = "Update" if kind == "update" else "Add"
@@ -1616,6 +1650,7 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
             review_variant_id=review_variant.variant_id,
             review_variant_hash=sha256(review_variant.data),
             variant_changes=variant_changes,
+            rows_by_variant=rows_by_variant,
         ),
         encoding="utf-8",
     )

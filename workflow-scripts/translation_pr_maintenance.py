@@ -52,6 +52,7 @@ from library_submission_bot import (
     validate_schema_package,
     validate_schema_structure,
     validated_entry_schema_variants,
+    variant_achievement_rows,
     write_human_index,
     write_index,
 )
@@ -956,6 +957,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             validate_store_url(str(meta["game_id"]), str(meta["store_url"]))
             entry = entry_from_metadata(meta)
             entry["achievement_count"] = int(str(meta["achievement_count"]))
+            rows_by_variant = variant_achievement_rows(entry, list(meta["languages"]))
             pr_title = f"{'Update' if kind == 'update' else 'Add'} achievement translations for {meta['game_name']} ({meta['game_id']})"
             pr_body = build_submission_pr_body(
                 kind=kind,
@@ -970,6 +972,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
                 review_variant_id=review_variant_id,
                 review_variant_hash=review_variant_hash,
                 variant_changes=variant_changes,
+                rows_by_variant=rows_by_variant,
             )
     except Exception as exc:  # noqa: BLE001 - user-facing automation report.
         comment_issue(repo, token, pr_number, update_error_comment(str(exc)))
