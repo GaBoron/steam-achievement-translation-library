@@ -3,6 +3,49 @@
   "description": "Community-submitted Steam achievement schema translations.",
   "entries": [
     {
+      "game_name": "77p egg: Eggwife 77 便士蛋：蛋妻",
+      "game_id": "1317020",
+      "store_url": "https://store.steampowered.com/app/1317020",
+      "languages": [
+        "schinese"
+      ],
+      "schema_file": "files/1317020/UserGameStatsSchema_1317020.bin",
+      "file_size_bytes": 37968,
+      "achievement_count": 90,
+      "sha256": "6a2352d68b7d1ef8c0757802978ab07778b23abcdb831548db0b872cb58a4659",
+      "source_issue": "https://github.com/GaBoron/steam-achievement-translation-library/issues/209",
+      "contributors": [
+        "GaBoron"
+      ],
+      "contributor_id": "GaBoron",
+      "submitted_at": "2026-07-18T09:11:55Z",
+      "updated_at": "2026-07-18T09:43:13Z",
+      "status": "current",
+      "schema_files": [
+        {
+          "variant_id": "default",
+          "primary": true,
+          "schema_file": "files/1317020/UserGameStatsSchema_1317020.bin",
+          "note_zh": "原文风格",
+          "note_en": "Literal-style",
+          "file_size_bytes": 37968,
+          "sha256": "6a2352d68b7d1ef8c0757802978ab07778b23abcdb831548db0b872cb58a4659",
+          "achievement_count": 90
+        },
+        {
+          "variant_id": "clean",
+          "primary": false,
+          "schema_file": "files/1317020/clean/UserGameStatsSchema_1317020.bin",
+          "note_zh": "和谐版",
+          "note_en": "Clean",
+          "file_size_bytes": 38101,
+          "sha256": "7547b16a6fb7f20d82278b4b5638ce55b53f0811230b01a64ee7f721715ea025",
+          "achievement_count": 90
+        }
+      ],
+      "source_pr": "https://github.com/GaBoron/steam-achievement-translation-library/pull/210"
+    },
+    {
       "game_name": "A Short Hike 短途旅行",
       "game_id": "1055540",
       "store_url": "https://store.steampowered.com/app/1055540/A_Short_Hike/",

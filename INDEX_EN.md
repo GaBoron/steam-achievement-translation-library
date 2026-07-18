@@ -4,7 +4,7 @@
 
 > After downloading, compare the file size with the index. If the size is clearly wrong, do not replace your local file. Files marked as possibly outdated should be used with extra care.
 
-Accepted games: **104**.
+Accepted games: **105**.
 
 ## Using This Index
 
@@ -19,6 +19,7 @@ See [README_EN.md](README_EN.md) for the full find, download, and replacement fl
 
 | Steam app ID | Game | Status | Last updated | Contributors | Languages | Achievements | File | Source PR | Outdated report | Store |
 | --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- | --- |
+| `1317020` | 77p egg: Eggwife 77 便士蛋：蛋妻 | Current | 2026-07-18T09:43:13Z | [@GaBoron](https://github.com/GaBoron) | schinese | 90 | [UserGameStatsSchema_1317020.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1317020/UserGameStatsSchema_1317020.bin) (Literal-style, 37 KB)<br>[UserGameStatsSchema_1317020.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1317020/clean/UserGameStatsSchema_1317020.bin) (Clean, 37 KB) | [#210](https://github.com/GaBoron/steam-achievement-translation-library/pull/210) |  | [Steam](https://store.steampowered.com/app/1317020) |
 | `1055540` | A Short Hike 短途旅行 | Current | 2026-07-16T03:35:24Z | [@TomCatis0123](https://github.com/TomCatis0123) | brazilian, english, french, japanese, schinese | 12 | [UserGameStatsSchema_1055540.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1055540/UserGameStatsSchema_1055540.bin) (7 KB) | [#148](https://github.com/GaBoron/steam-achievement-translation-library/pull/148) |  | [Steam](https://store.steampowered.com/app/1055540/A_Short_Hike/) |
 | `1222700` | A Way Out 逃出生天 | Current | 2026-07-07T12:39:35Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 14 | [UserGameStatsSchema_1222700.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1222700/UserGameStatsSchema_1222700.bin) (14 KB) | [#61](https://github.com/GaBoron/steam-achievement-translation-library/pull/61) |  | [Steam](https://store.steampowered.com/app/1222700/A_Way_Out/) |
 | `289650` | Assassin's Creed Unity 刺客信条：大革命 | Current | 2026-07-16T03:47:09Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 57 | [UserGameStatsSchema_289650.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/289650/UserGameStatsSchema_289650.bin) (77 KB) | [#133](https://github.com/GaBoron/steam-achievement-translation-library/pull/133) |  | [Steam](https://store.steampowered.com/app/289650/_/) |

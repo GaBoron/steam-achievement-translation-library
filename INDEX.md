@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能过期”的文件建议等待更新后再使用。
 
-当前收录：**104** 个游戏。
+当前收录：**105** 个游戏。
 
 ## 使用这个索引
 
@@ -19,6 +19,7 @@
 
 | Steam app ID | 游戏 | 状态 | 最近更新 | 贡献者 | 语言 | 成就数 | 文件 | 原 PR | 过期报告 | 商店 |
 | --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- | --- |
+| `1317020` | 77p egg: Eggwife 77 便士蛋：蛋妻 | 可用 | 2026-07-18T09:43:13Z | [@GaBoron](https://github.com/GaBoron) | schinese | 90 | [UserGameStatsSchema_1317020.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1317020/UserGameStatsSchema_1317020.bin)（原文风格，37 KB）<br>[UserGameStatsSchema_1317020.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1317020/clean/UserGameStatsSchema_1317020.bin)（和谐版，37 KB） | [#210](https://github.com/GaBoron/steam-achievement-translation-library/pull/210) |  | [Steam](https://store.steampowered.com/app/1317020) |
 | `1055540` | A Short Hike 短途旅行 | 可用 | 2026-07-16T03:35:24Z | [@TomCatis0123](https://github.com/TomCatis0123) | brazilian, english, french, japanese, schinese | 12 | [UserGameStatsSchema_1055540.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1055540/UserGameStatsSchema_1055540.bin)（7 KB） | [#148](https://github.com/GaBoron/steam-achievement-translation-library/pull/148) |  | [Steam](https://store.steampowered.com/app/1055540/A_Short_Hike/) |
 | `1222700` | A Way Out 逃出生天 | 可用 | 2026-07-07T12:39:35Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 14 | [UserGameStatsSchema_1222700.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1222700/UserGameStatsSchema_1222700.bin)（14 KB） | [#61](https://github.com/GaBoron/steam-achievement-translation-library/pull/61) |  | [Steam](https://store.steampowered.com/app/1222700/A_Way_Out/) |
 | `289650` | Assassin's Creed Unity 刺客信条：大革命 | 可用 | 2026-07-16T03:47:09Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 57 | [UserGameStatsSchema_289650.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/289650/UserGameStatsSchema_289650.bin)（77 KB） | [#133](https://github.com/GaBoron/steam-achievement-translation-library/pull/133) |  | [Steam](https://store.steampowered.com/app/289650/_/) |
