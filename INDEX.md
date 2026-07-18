@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能过期”的文件建议等待更新后再使用。
 
-当前收录：**106** 个游戏。
+当前收录：**107** 个游戏。
 
 ## 使用这个索引
 
@@ -85,6 +85,7 @@
 | `1580780` | NINJA GAIDEN Σ 忍者龙剑传Σ | 可用 | 2026-07-08T10:40:39Z | [@AioriaRegulus](https://github.com/AioriaRegulus) | english, french, german, italian, japanese, schinese, spanish | 51 | [UserGameStatsSchema_1580780.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1580780/UserGameStatsSchema_1580780.bin)（42 KB） | [#75](https://github.com/GaBoron/steam-achievement-translation-library/pull/75) |  | [Steam](https://store.steampowered.com/app/1580780/) |
 | `1580790` | NINJA GAIDEN Σ2 忍者龙剑传Σ2 | 可用 | 2026-07-08T10:41:57Z | [@AioriaRegulus](https://github.com/AioriaRegulus) | english, french, german, italian, japanese, schinese, spanish | 41 | [UserGameStatsSchema_1580790.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1580790/UserGameStatsSchema_1580790.bin)（37 KB） | [#77](https://github.com/GaBoron/steam-achievement-translation-library/pull/77) |  | [Steam](https://store.steampowered.com/app/1580790/) |
 | `238320` | Outlast 逃生1 | 可用 | 2026-07-16T03:43:59Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 14 | [UserGameStatsSchema_238320.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/238320/UserGameStatsSchema_238320.bin)（12 KB） | [#142](https://github.com/GaBoron/steam-achievement-translation-library/pull/142) |  | [Steam](https://store.steampowered.com/app/238320/Outlast/) |
+| `648800` | Raft 木筏 | 可用 | 2026-07-18T09:46:20Z | [@GaBoron](https://github.com/GaBoron) | schinese | 104 | [UserGameStatsSchema_648800.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/648800/UserGameStatsSchema_648800.bin)（46 KB） | [#212](https://github.com/GaBoron/steam-achievement-translation-library/pull/212) |  | [Steam](https://store.steampowered.com/app/648800) |
 | `314410` | Rampage Knights 暴虐骑士 | 可用 | 2026-07-15T04:02:54Z | [@aumt](https://github.com/aumt) | schinese | 84 | [UserGameStatsSchema_314410.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/314410/UserGameStatsSchema_314410.bin)（29 KB） | [#121](https://github.com/GaBoron/steam-achievement-translation-library/pull/121) |  | [Steam](store.steampowered.com/app/314410) |
 | `1144200` | Ready or Not 严阵以待 | 可用 | 2026-07-07T12:42:17Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 66 | [UserGameStatsSchema_1144200.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1144200/UserGameStatsSchema_1144200.bin)（33 KB） | [#65](https://github.com/GaBoron/steam-achievement-translation-library/pull/65) |  | [Steam](https://store.steampowered.com/app/1144200/Ready_or_Not/) |
 | `202170` | Sleeping Dogs 热血无赖：原版 | 可用 | 2026-07-05T23:31:03Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 59 | [UserGameStatsSchema_202170.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/202170/UserGameStatsSchema_202170.bin)（50 KB） | [#22](https://github.com/GaBoron/steam-achievement-translation-library/pull/22) |  | [Steam](https://store.steampowered.com/app/202170/Sleeping_Dogs/) |
