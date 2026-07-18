@@ -6,6 +6,14 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class WorkflowSecurityTests(unittest.TestCase):
+    def test_repository_checks_do_not_cancel_in_progress_runs(self) -> None:
+        repository_checks = (
+            ROOT / ".github" / "workflows" / "repository-checks.yml"
+        ).read_text(encoding="utf-8")
+
+        self.assertIn("group: repository-checks-${{ github.ref }}", repository_checks)
+        self.assertIn("cancel-in-progress: false", repository_checks)
+
     def test_statistics_updates_use_repository_scoped_app_credentials(self) -> None:
         statistics = (ROOT / ".github" / "workflows" / "statistics-svg.yml").read_text(
             encoding="utf-8"
