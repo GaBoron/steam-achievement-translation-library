@@ -131,6 +131,8 @@ class TranslationPetitionValidationTests(unittest.TestCase):
             "achievement_count": 1,
         }
         with (
+            mock.patch.object(petition_bot, "load_index", return_value={"entries": []}),
+            mock.patch.object(petition_bot, "find_open_translation_pr", return_value=None),
             mock.patch.object(petition_bot, "validate_petition", return_value=result),
             mock.patch.object(petition_bot, "comment_issue_once") as comment_once,
         ):
@@ -139,6 +141,68 @@ class TranslationPetitionValidationTests(unittest.TestCase):
         comment_once.assert_called_once()
         self.assertIn("翻译请愿已收到", comment_once.call_args.args[3])
         self.assertEqual(petition_bot.RECEIVED_MARKER, comment_once.call_args.args[4])
+
+    def test_indexed_game_comments_download_and_closes_issue(self) -> None:
+        entry = {
+            "game_id": "123",
+            "game_name": "Example Game",
+            "schema_file": "files/123/UserGameStatsSchema_123.bin",
+        }
+        with (
+            mock.patch.object(petition_bot, "load_index", return_value={"entries": [entry]}),
+            mock.patch.object(petition_bot, "find_open_translation_pr") as find_open_pr,
+            mock.patch.object(petition_bot, "validate_petition") as validate,
+            mock.patch.object(petition_bot, "comment_issue_once") as comment_once,
+            mock.patch.object(petition_bot, "close_issue") as close,
+        ):
+            result = petition_bot.handle_petition({"issue": petition_issue()}, "owner/repo", "token")
+
+        self.assertEqual("indexed", result["reason"])
+        self.assertTrue(result["closed"])
+        find_open_pr.assert_not_called()
+        validate.assert_not_called()
+        comment_body = comment_once.call_args.args[3]
+        self.assertIn("UserGameStatsSchema_123.bin", comment_body)
+        self.assertIn("https://cdn.jsdelivr.net/gh/owner/repo@main/files/123/", comment_body)
+        self.assertIn("INDEX.md", comment_body)
+        close.assert_called_once_with("owner/repo", "token", 7)
+
+    def test_open_translation_pr_comments_pr_url_and_closes_issue(self) -> None:
+        open_pr = {"number": 42, "html_url": "https://github.com/owner/repo/pull/42"}
+        with (
+            mock.patch.object(petition_bot, "load_index", return_value={"entries": []}),
+            mock.patch.object(petition_bot, "find_open_translation_pr", return_value=open_pr),
+            mock.patch.object(petition_bot, "validate_petition") as validate,
+            mock.patch.object(petition_bot, "comment_issue_once") as comment_once,
+            mock.patch.object(petition_bot, "close_issue") as close,
+        ):
+            result = petition_bot.handle_petition({"issue": petition_issue()}, "owner/repo", "token")
+
+        self.assertEqual("open-pr", result["reason"])
+        self.assertTrue(result["closed"])
+        validate.assert_not_called()
+        self.assertIn("https://github.com/owner/repo/pull/42", comment_once.call_args.args[3])
+        close.assert_called_once_with("owner/repo", "token", 7)
+
+    def test_open_pr_check_failure_keeps_issue_open(self) -> None:
+        with (
+            mock.patch.object(petition_bot, "load_index", return_value={"entries": []}),
+            mock.patch.object(
+                petition_bot,
+                "find_open_translation_pr",
+                side_effect=RuntimeError("temporary API failure"),
+            ),
+            mock.patch.object(petition_bot, "validate_petition") as validate,
+            mock.patch.object(petition_bot, "comment_issue_once") as comment_once,
+            mock.patch.object(petition_bot, "close_issue") as close,
+        ):
+            result = petition_bot.handle_petition({"issue": petition_issue()}, "owner/repo", "token")
+
+        self.assertFalse(result["ok"])
+        self.assertFalse(result["closed"])
+        validate.assert_not_called()
+        self.assertIn("temporary API failure", comment_once.call_args.args[3])
+        close.assert_not_called()
 
 
 if __name__ == "__main__":

@@ -819,10 +819,10 @@ def escape_table(value: str) -> str:
     return value.replace("|", "\\|").replace("\r", " ").replace("\n", " ").strip()
 
 
-def schema_download_url(schema_file: str) -> str:
+def schema_download_url(schema_file: str, repository: str | None = None) -> str:
     normalized = normalized_schema_file(schema_file)
     encoded_path = urllib.parse.quote(normalized, safe="/")
-    repo = os.environ.get("GITHUB_REPOSITORY", "GaBoron/steam-achievement-translation-library")
+    repo = repository or os.environ.get("GITHUB_REPOSITORY", "GaBoron/steam-achievement-translation-library")
     return f"https://cdn.jsdelivr.net/gh/{repo}@main/{encoded_path}"
 
 

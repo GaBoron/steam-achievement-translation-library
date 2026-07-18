@@ -16,19 +16,26 @@ from typing import Any
 from library_submission_bot import (
     LANGUAGE_RE,
     download_attachment,
+    entry_schema_variants,
+    existing_entry,
     extract_attachment,
     field_value,
+    find_open_translation_pr,
     first_line,
+    load_index,
     load_schema,
     parse_comma_language_list,
     parse_issue_form,
     resolve_schema_upload,
+    schema_download_url,
     steam_store_id,
     validate_schema_structure,
 )
 
 RECEIVED_MARKER = "<!-- translation-library-petition-received -->"
 FAILURE_MARKER_PREFIX = "translation-library-petition-invalid"
+INDEXED_MARKER = "<!-- translation-library-petition-indexed -->"
+OPEN_PR_MARKER = "<!-- translation-library-petition-open-pr -->"
 
 
 def github_request(
@@ -67,6 +74,98 @@ def comment_issue_once(repo: str, token: str, issue_number: int, body: str, mark
     if any(marker in str(comment.get("body") or "") for comment in comments):
         return
     github_request("POST", repo, token, f"/issues/{issue_number}/comments", {"body": body})
+
+
+def close_issue(repo: str, token: str, issue_number: int) -> None:
+    github_request(
+        "PATCH",
+        repo,
+        token,
+        f"/issues/{issue_number}",
+        {"state": "closed", "state_reason": "completed"},
+    )
+
+
+def petition_game_id(issue: dict[str, Any]) -> str:
+    fields = parse_issue_form(str(issue.get("body") or ""))
+    return first_line(field_value(fields, ["Steam app ID"]))
+
+
+def indexed_resource_comment(entry: dict[str, Any], game_id: str, repo: str) -> str:
+    game_name = str(entry.get("game_name") or "该游戏")
+    variants = entry_schema_variants(entry)
+    lines = [
+        INDEXED_MARKER,
+        f"{game_name}（Steam app ID `{game_id}`）已经收录，无需再提交翻译请愿。",
+        "",
+        "## 可用资源",
+        "",
+    ]
+    for variant in variants:
+        schema_file = str(variant.get("schema_file") or "").strip()
+        if not schema_file:
+            continue
+        variant_id = str(variant.get("variant_id") or "default")
+        note = str(variant.get("note_zh") or variant_id).strip()
+        filename = Path(schema_file).name
+        lines.append(f"- {note}（`{variant_id}`）：[下载 `{filename}`]({schema_download_url(schema_file, repo)})")
+    lines.extend([
+        f"- 翻译库索引：[INDEX.md](https://github.com/{repo}/blob/main/INDEX.md)",
+        "",
+        "此 issue 已自动关闭。",
+    ])
+    return "\n".join(lines)
+
+
+def open_pr_resource_comment(open_pr: dict[str, Any], game_id: str) -> str:
+    pr_number = int(open_pr.get("number") or 0)
+    pr_url = str(open_pr.get("html_url") or "").strip()
+    pr_label = f"PR #{pr_number}" if pr_number else "开放 PR"
+    pr_link = f"[{pr_label}]({pr_url})" if pr_url else pr_label
+    return "\n".join([
+        OPEN_PR_MARKER,
+        f"Steam app ID `{game_id}` 已有正在审核的翻译投稿，无需重复提交翻译请愿。",
+        "",
+        f"- 投稿资源：{pr_link}",
+        "- PR 合并后即可从翻译库下载；机器人也会在相关请愿中发送通知。",
+        "",
+        "此 issue 已自动关闭。",
+    ])
+
+
+def close_if_resource_exists(
+    issue: dict[str, Any],
+    repo: str,
+    token: str,
+) -> dict[str, Any] | None:
+    game_id = petition_game_id(issue)
+    if not re.fullmatch(r"\d+", game_id):
+        return None
+    issue_number = int(issue["number"])
+    indexed = existing_entry(load_index(), game_id)
+    if indexed:
+        comment_issue_once(
+            repo,
+            token,
+            issue_number,
+            indexed_resource_comment(indexed, game_id, repo),
+            INDEXED_MARKER,
+        )
+        close_issue(repo, token, issue_number)
+        return {"ok": False, "closed": True, "reason": "indexed", "game_id": game_id, "errors": []}
+
+    open_pr = find_open_translation_pr(repo, token, game_id)
+    if open_pr:
+        comment_issue_once(
+            repo,
+            token,
+            issue_number,
+            open_pr_resource_comment(open_pr, game_id),
+            OPEN_PR_MARKER,
+        )
+        close_issue(repo, token, issue_number)
+        return {"ok": False, "closed": True, "reason": "open-pr", "game_id": game_id, "errors": []}
+    return None
 
 
 def validate_petition(issue: dict[str, Any], token: str | None) -> dict[str, Any]:
@@ -159,6 +258,15 @@ def invalid_comment(errors: list[str]) -> tuple[str, str]:
 def handle_petition(event: dict[str, Any], repo: str, token: str) -> dict[str, Any]:
     issue = event.get("issue") or {}
     issue_number = int(issue["number"])
+    try:
+        resource_result = close_if_resource_exists(issue, repo, token)
+    except Exception as exc:  # noqa: BLE001 - keep the petition open when duplicate checks are unavailable.
+        errors = [f"无法检查索引或正在打开的同 ID PR：{exc}。请稍后编辑或重新打开 issue 以重试。"]
+        body, marker = invalid_comment(errors)
+        comment_issue_once(repo, token, issue_number, body, marker)
+        return {"ok": False, "closed": False, "game_id": petition_game_id(issue), "errors": errors}
+    if resource_result is not None:
+        return resource_result
     result = validate_petition(issue, token)
     if result["ok"]:
         comment_issue_once(repo, token, issue_number, received_comment(result), RECEIVED_MARKER)

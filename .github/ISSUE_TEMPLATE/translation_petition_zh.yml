@@ -9,6 +9,8 @@ body:
         此模板用于请求社区翻译尚未收录的 Steam 成就 schema。GitHub 不支持直接上传 `.bin`，请先把 Steam 生成的原始文件压缩为 ZIP。
 
         机器人成功识别文件后会确认请愿已收到；同一 Steam app ID 的翻译投稿 PR 合并后，会在此通知并自动关闭 issue。
+
+        如果该 app ID 已经收录或已有正在审核的翻译 PR，机器人会评论现有下载地址或 PR 地址，并自动关闭此 issue。
   - type: input
     id: game_name
     attributes:
