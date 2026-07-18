@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能过期”的文件建议等待更新后再使用。
 
-当前收录：**108** 个游戏。
+当前收录：**109** 个游戏。
 
 ## 使用这个索引
 
@@ -106,6 +106,7 @@
 | `552700` | WORLD OF FINAL FANTASY 最终幻想世界 | 可用 | 2026-07-05T23:47:51Z | [@AioriaRegulus](https://github.com/AioriaRegulus) | english, french, german, italian, japanese, koreana, schinese, spanish | 49 | [UserGameStatsSchema_552700.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/552700/UserGameStatsSchema_552700.bin)（44 KB） | [#15](https://github.com/GaBoron/steam-achievement-translation-library/pull/15) |  | [Steam](https://store.steampowered.com/app/552700/) |
 | `252230` | YAIBA: NINJA GAIDEN Z 刃牙：忍者龙剑传Z | 可用 | 2026-07-08T10:44:01Z | [@AioriaRegulus](https://github.com/AioriaRegulus) | english, french, german, italian, japanese, schinese, spanish | 49 | [UserGameStatsSchema_252230.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/252230/UserGameStatsSchema_252230.bin)（38 KB） | [#81](https://github.com/GaBoron/steam-achievement-translation-library/pull/81) |  | [Steam](https://store.steampowered.com/app/252230/) |
 | `1328660` | 《极品飞车：热力追踪》重制版 | 可用 | 2026-07-05T07:38:59Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 66 | [UserGameStatsSchema_1328660.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1328660/UserGameStatsSchema_1328660.bin)（94 KB） | [#22](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/22) |  | [Steam](https://store.steampowered.com/app/1328660/_/) |
+| `2102450` | 艾诺提亚：失落之歌 | 可用 | 2026-07-18T09:48:37Z | [@GaBoron](https://github.com/GaBoron) | schinese | 43 | [UserGameStatsSchema_2102450.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2102450/UserGameStatsSchema_2102450.bin)（16 KB） | [#206](https://github.com/GaBoron/steam-achievement-translation-library/pull/206) |  | [Steam](https://store.steampowered.com/app/2102450) |
 | `242050` | 刺客信条4：黑旗 | 可用 | 2026-07-05T00:25:59Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 60 | [UserGameStatsSchema_242050.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/242050/UserGameStatsSchema_242050.bin)（99 KB） | [#41](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/41) |  | [Steam](https://store.steampowered.com/app/242050/4/) |
 | `359600` | 刺客信条：编年史 俄罗斯 | 可用 | 2026-07-05T07:39:45Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 17 | [UserGameStatsSchema_359600.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/359600/UserGameStatsSchema_359600.bin)（26 KB） | [#51](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/51) |  | [Steam](https://store.steampowered.com/app/359600/Assassins_Creed_Chronicles_Russia/) |
 | `359610` | 刺客信条：编年史 印度 | 可用 | 2026-07-05T07:40:18Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 18 | [UserGameStatsSchema_359610.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/359610/UserGameStatsSchema_359610.bin)（29 KB） | [#49](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/49) |  | [Steam](https://store.steampowered.com/app/359610/Assassins_Creed_Chronicles_India/) |
