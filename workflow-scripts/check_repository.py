@@ -49,11 +49,25 @@ def _integer(value: Any) -> int | None:
     return None
 
 
+def _report_index_metadata_mismatch(
+    report: CheckReport,
+    message: str,
+    *,
+    allow_stale_index_metadata: bool,
+) -> None:
+    if allow_stale_index_metadata:
+        report.warn(f"stale index metadata allowed for translation PR: {message}")
+    else:
+        report.error(message)
+
+
 def _check_schema_path(
     report: CheckReport,
     game_id: str,
     variant: dict[str, Any],
     expected_paths: set[Path],
+    *,
+    allow_stale_index_metadata: bool,
 ) -> tuple[bytes, list[Any]] | None:
     schema_file = str(variant.get("schema_file") or "")
     try:
@@ -71,7 +85,11 @@ def _check_schema_path(
     if expected_size is None:
         report.error(f"{game_id}: file_size_bytes is missing or invalid for {schema_file}")
     elif expected_size != actual_size:
-        report.error(f"{game_id}: file size mismatch for {schema_file}: index={expected_size}, actual={actual_size}")
+        _report_index_metadata_mismatch(
+            report,
+            f"{game_id}: file size mismatch for {schema_file}: index={expected_size}, actual={actual_size}",
+            allow_stale_index_metadata=allow_stale_index_metadata,
+        )
     try:
         data, nodes = load_schema(path)
         validate_schema_structure(data, nodes)
@@ -83,13 +101,21 @@ def _check_schema_path(
     if not expected_hash:
         report.error(f"{game_id}: SHA-256 is missing for variant {variant.get('variant_id')}")
     elif sha256(data) != expected_hash:
-        report.error(f"{game_id}: SHA-256 mismatch for variant {variant.get('variant_id')}")
+        _report_index_metadata_mismatch(
+            report,
+            f"{game_id}: SHA-256 mismatch for variant {variant.get('variant_id')}",
+            allow_stale_index_metadata=allow_stale_index_metadata,
+        )
     rows = achievement_rows(nodes, [])
     expected_count = _integer(variant.get("achievement_count"))
-    if expected_count is None or expected_count != len(rows):
-        report.error(
+    if expected_count is None:
+        report.error(f"{game_id}: achievement_count is missing or invalid for variant {variant.get('variant_id')}")
+    elif expected_count != len(rows):
+        _report_index_metadata_mismatch(
+            report,
             f"{game_id}: achievement_count mismatch for variant {variant.get('variant_id')}: "
-            f"index={variant.get('achievement_count')!r}, actual={len(rows)}"
+            f"index={expected_count}, actual={len(rows)}",
+            allow_stale_index_metadata=allow_stale_index_metadata,
         )
     return data, nodes
 
@@ -118,6 +144,7 @@ def check_repository(
     *,
     strict_language_coverage: bool = False,
     allow_unindexed_schema_files: bool = False,
+    allow_stale_index_metadata: bool = False,
 ) -> CheckReport:
     report = CheckReport()
     try:
@@ -172,7 +199,13 @@ def check_repository(
         variant_hashes: dict[str, str] = {}
         for variant in variants:
             schema_file = str(variant.get("schema_file") or "")
-            result = _check_schema_path(report, game_id, variant, expected_paths)
+            result = _check_schema_path(
+                report,
+                game_id,
+                variant,
+                expected_paths,
+                allow_stale_index_metadata=allow_stale_index_metadata,
+            )
             if variant.get("primary"):
                 primary_result = result
             if result is not None:
@@ -202,11 +235,21 @@ def check_repository(
 
         data, nodes = primary_result
         if sha256(data) != str(raw_entry.get("sha256") or ""):
-            report.error(f"{game_id}: primary schema SHA-256 does not match index.json")
+            _report_index_metadata_mismatch(
+                report,
+                f"{game_id}: primary schema SHA-256 does not match index.json",
+                allow_stale_index_metadata=allow_stale_index_metadata,
+            )
         rows = achievement_rows(nodes, normalized_languages)
         expected_count = _integer(raw_entry.get("achievement_count"))
-        if expected_count is None or expected_count != len(rows):
-            report.error(f"{game_id}: achievement_count mismatch: index={raw_entry.get('achievement_count')!r}, actual={len(rows)}")
+        if expected_count is None:
+            report.error(f"{game_id}: achievement_count is missing or invalid")
+        elif expected_count != len(rows):
+            _report_index_metadata_mismatch(
+                report,
+                f"{game_id}: achievement_count mismatch: index={expected_count}, actual={len(rows)}",
+                allow_stale_index_metadata=allow_stale_index_metadata,
+            )
 
     actual_paths = {path.resolve() for path in FILES_ROOT.rglob("*.bin") if path.is_file()}
     check_unindexed_schema_files(
@@ -238,10 +281,16 @@ def main() -> None:
         action="store_true",
         help="Allow structurally valid unindexed schemas in translation-only pull requests.",
     )
+    parser.add_argument(
+        "--allow-stale-index-metadata",
+        action="store_true",
+        help="Allow valid updated schemas to temporarily differ from index metadata in translation-only pull requests.",
+    )
     args = parser.parse_args()
     report = check_repository(
         strict_language_coverage=args.strict_language_coverage,
         allow_unindexed_schema_files=args.allow_unindexed_schema_files,
+        allow_stale_index_metadata=args.allow_stale_index_metadata,
     )
     for warning in report.warnings:
         print(f"WARNING: {warning}")

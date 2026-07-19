@@ -40,7 +40,9 @@ jobs:
       - name: Verify translation data and generated indexes
         run: |
           if [ "$ALLOW_UNINDEXED_SCHEMA_FILES" = "true" ]; then
-            python workflow-scripts/check_repository.py --allow-unindexed-schema-files
+            python workflow-scripts/check_repository.py \
+              --allow-unindexed-schema-files \
+              --allow-stale-index-metadata
           else
             python workflow-scripts/check_repository.py
           fi
