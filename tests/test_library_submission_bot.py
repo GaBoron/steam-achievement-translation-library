@@ -401,9 +401,10 @@ schinese
 
 class RepositoryIntegrityTests(unittest.TestCase):
     def test_current_repository_has_no_integrity_errors(self) -> None:
-        allow_unindexed_schema_files = os.environ.get("ALLOW_UNINDEXED_SCHEMA_FILES", "").lower() == "true"
+        translation_pr_mode = os.environ.get("ALLOW_UNINDEXED_SCHEMA_FILES", "").lower() == "true"
         report = check_repository.check_repository(
-            allow_unindexed_schema_files=allow_unindexed_schema_files,
+            allow_unindexed_schema_files=translation_pr_mode,
+            allow_stale_index_metadata=translation_pr_mode,
         )
 
         self.assertEqual([], report.errors)
@@ -464,6 +465,54 @@ class RepositoryIntegrityTests(unittest.TestCase):
         self.assertEqual(1, len(report.errors))
         self.assertIn("invalid unindexed schema files/123/UserGameStatsSchema_123.bin", report.errors[0])
         self.assertEqual(0, report.checked_files)
+
+    def test_stale_index_metadata_is_allowed_only_in_translation_pr_mode(self) -> None:
+        data = bot.serialize(schema_nodes(achievement_node()))
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            files_root = root / "files"
+            schema_path = files_root / "123" / "UserGameStatsSchema_123.bin"
+            schema_path.parent.mkdir(parents=True)
+            schema_path.write_bytes(data)
+            variant = {
+                "variant_id": "default",
+                "primary": True,
+                "schema_file": "files/123/UserGameStatsSchema_123.bin",
+                "file_size_bytes": len(data) + 1,
+                "sha256": "0" * 64,
+                "achievement_count": 2,
+            }
+
+            with mock.patch.object(bot, "REPO_ROOT", root), mock.patch.object(
+                check_repository, "FILES_ROOT", files_root
+            ):
+                strict_report = check_repository.CheckReport()
+                check_repository._check_schema_path(
+                    strict_report,
+                    "123",
+                    variant,
+                    set(),
+                    allow_stale_index_metadata=False,
+                )
+                translation_pr_report = check_repository.CheckReport()
+                check_repository._check_schema_path(
+                    translation_pr_report,
+                    "123",
+                    variant,
+                    set(),
+                    allow_stale_index_metadata=True,
+                )
+
+        self.assertEqual(3, len(strict_report.errors))
+        self.assertEqual([], strict_report.warnings)
+        self.assertEqual([], translation_pr_report.errors)
+        self.assertEqual(3, len(translation_pr_report.warnings))
+        self.assertTrue(
+            all(
+                warning.startswith("stale index metadata allowed for translation PR: 123:")
+                for warning in translation_pr_report.warnings
+            )
+        )
 
 
 class PullRequestBodyTests(unittest.TestCase):

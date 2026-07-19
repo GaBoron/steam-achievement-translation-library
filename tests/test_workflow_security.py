@@ -13,6 +13,8 @@ class WorkflowSecurityTests(unittest.TestCase):
 
         self.assertIn("group: repository-checks-${{ github.ref }}", repository_checks)
         self.assertIn("cancel-in-progress: false", repository_checks)
+        self.assertIn("--allow-unindexed-schema-files", repository_checks)
+        self.assertIn("--allow-stale-index-metadata", repository_checks)
 
     def test_statistics_updates_use_repository_scoped_app_credentials(self) -> None:
         statistics = (ROOT / ".github" / "workflows" / "statistics-svg.yml").read_text(
