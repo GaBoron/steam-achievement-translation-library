@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能过期”的文件建议等待更新后再使用。
 
-当前收录：**118** 个游戏。
+当前收录：**119** 个游戏。
 
 ## 使用这个索引
 
@@ -93,6 +93,7 @@
 | `648800` | Raft 木筏 | 可用 | 2026-07-18T09:46:20Z | [@GaBoron](https://github.com/GaBoron) | schinese | 104 | [UserGameStatsSchema_648800.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/648800/UserGameStatsSchema_648800.bin)（46 KB） | [#212](https://github.com/GaBoron/steam-achievement-translation-library/pull/212) |  | [Steam](https://store.steampowered.com/app/648800) |
 | `314410` | Rampage Knights 暴虐骑士 | 可用 | 2026-07-15T04:02:54Z | [@aumt](https://github.com/aumt) | schinese | 84 | [UserGameStatsSchema_314410.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/314410/UserGameStatsSchema_314410.bin)（29 KB） | [#121](https://github.com/GaBoron/steam-achievement-translation-library/pull/121) |  | [Steam](store.steampowered.com/app/314410) |
 | `1144200` | Ready or Not 严阵以待 | 可用 | 2026-07-07T12:42:17Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 66 | [UserGameStatsSchema_1144200.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1144200/UserGameStatsSchema_1144200.bin)（33 KB） | [#65](https://github.com/GaBoron/steam-achievement-translation-library/pull/65) |  | [Steam](https://store.steampowered.com/app/1144200/Ready_or_Not/) |
+| `91600` | Sanctum 幽闭圣地 | 可用 | 2026-07-20T12:14:51Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 100 | [UserGameStatsSchema_91600.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/91600/UserGameStatsSchema_91600.bin)（45 KB） | [#240](https://github.com/GaBoron/steam-achievement-translation-library/pull/240) |  | [Steam](https://store.steampowered.com/app/91600/Sanctum/) |
 | `8930` | Sid Meier's Civilization® V 文明5 | 可用 | 2026-07-18T09:51:24Z | [@GaBoron](https://github.com/GaBoron) | schinese | 286 | [UserGameStatsSchema_8930.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/8930/UserGameStatsSchema_8930.bin)（415 KB） | [#202](https://github.com/GaBoron/steam-achievement-translation-library/pull/202) |  | [Steam](https://store.steampowered.com/app/8930/) |
 | `202170` | Sleeping Dogs 热血无赖：原版 | 可用 | 2026-07-05T23:31:03Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 59 | [UserGameStatsSchema_202170.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/202170/UserGameStatsSchema_202170.bin)（50 KB） | [#22](https://github.com/GaBoron/steam-achievement-translation-library/pull/22) |  | [Steam](https://store.steampowered.com/app/202170/Sleeping_Dogs/) |
 | `307690` | Sleeping Dogs: Definitive Edition 热血无赖：终极版 | 可用 | 2026-07-05T23:09:09Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 59 | [UserGameStatsSchema_307690.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/307690/UserGameStatsSchema_307690.bin)（57 KB） | [#20](https://github.com/GaBoron/steam-achievement-translation-library/pull/20) |  | [Steam](https://store.steampowered.com/app/307690/Sleeping_Dogs_Definitive_Edition/) |
