@@ -66,6 +66,7 @@ UPDATE_LABELS = {"更新文件", "update"}
 OUTDATED_LABELS = {"报告过期", "outdated"}
 TRANSLATION_PETITION_LABEL = "翻译请愿"
 TRANSLATION_PETITION_FULFILLED_MARKER = "translation-library-petition-fulfilled"
+DEFAULT_REVIEWERS = ["GaBoron"]
 
 
 def run(args: list[str], *, check: bool = True) -> subprocess.CompletedProcess[str]:
@@ -400,6 +401,10 @@ def is_update_command(body: str) -> bool:
     return first == "/update" or first.startswith("/update ")
 
 
+def is_force_refresh_command(body: str) -> bool:
+    return body.strip().lower() == "/force-refresh"
+
+
 def parse_update_command_detail(body: str) -> tuple[str, str, str]:
     first = update_first_line(body)
     if not is_update_command(body):
@@ -671,12 +676,66 @@ def commit_and_push(branch: str, message: str, add_paths: list[str] | None = Non
     if run(["git", "diff", "--cached", "--quiet"], check=False).returncode == 0:
         return False
     run(["git", "commit", "-m", message])
+    push_branch(branch)
+    return True
+
+
+def push_branch(branch: str) -> None:
     run(["git", "fetch", "origin", branch], check=False)
     push = run(["git", "push", "--force-with-lease", "--set-upstream", "origin", branch], check=False)
     if push.returncode != 0:
         run(["git", "fetch", "origin", branch], check=False)
         run(["git", "push", "--force-with-lease", "--set-upstream", "origin", branch])
-    return True
+
+
+def force_refresh_pr(repo: str, token: str, event: dict[str, Any]) -> None:
+    issue = event.get("issue") or {}
+    pr_number = int(issue["number"])
+    if not comment_is_authorized(event):
+        comment_issue(repo, token, pr_number, "`/force-refresh` 只能由该投稿的贡献者、报告者或仓库维护者执行。")
+        return
+    pr = github_request("GET", repo, token, f"/pulls/{pr_number}")
+    if not pr or str(pr.get("state") or "") != "open":
+        comment_issue(repo, token, pr_number, "`/force-refresh` 只能用于打开状态的翻译 PR。")
+        return
+    head = pr.get("head") or {}
+    base = pr.get("base") or {}
+    if (
+        str(base.get("ref") or "") != "main"
+        or str((head.get("repo") or {}).get("full_name") or "") != repo
+        or not str(head.get("ref") or "").startswith("translation-library/")
+    ):
+        comment_issue(repo, token, pr_number, "`/force-refresh` 只适用于本仓库以 `translation-library/` 开头、目标为 `main` 的翻译 PR。")
+        return
+    try:
+        branch = checkout_pr_branch(pr)
+        run(["git", "commit", "--allow-empty", "-m", f"chore: force refresh PR #{pr_number}"])
+        push_branch(branch)
+        github_request(
+            "POST",
+            repo,
+            token,
+            f"/pulls/{pr_number}/requested_reviewers",
+            {"reviewers": DEFAULT_REVIEWERS},
+            allow_422=True,
+        )
+        if WAIT_FOR_UPDATE_LABEL in pr_labels(issue):
+            remove_issue_label(repo, token, pr_number, WAIT_FOR_UPDATE_LABEL)
+    except Exception as exc:  # noqa: BLE001 - user-facing automation report.
+        comment_issue(repo, token, pr_number, f"`/force-refresh` 执行失败：{escape_table(str(exc))}")
+        return
+    comment_issue(
+        repo,
+        token,
+        pr_number,
+        "\n".join([
+            "<!-- translation-library-force-refresh -->",
+            "`/force-refresh` 已处理完成。",
+            "",
+            "- 已将投稿分支变基到最新 `main`，并推送新的空提交以重新触发自动检查。",
+            "- 已重新请求维护者校对；通过检查和批准后，PR 会继续自动合并与入库推送流程。",
+        ]),
+    )
 
 
 def push_main_with_retry() -> None:
@@ -999,8 +1058,11 @@ def clear_wait_for_update_from_comment(repo: str, token: str, event: dict[str, A
 def handle_comment(repo: str, token: str, event: dict[str, Any]) -> None:
     if handle_pr_close(repo, token, event):
         return
-    clear_wait_for_update_from_comment(repo, token, event)
     body = str((event.get("comment") or {}).get("body") or "").strip()
+    if is_force_refresh_command(body):
+        force_refresh_pr(repo, token, event)
+        return
+    clear_wait_for_update_from_comment(repo, token, event)
     if is_update_command(body):
         apply_pr_update(repo, token, event)
 

@@ -113,6 +113,16 @@ To prevent third-party changes, issue `/update` commands are accepted only from 
 
 Language updates are not incremental. `/update languages schinese, english` means the file contains only `schinese` and `english`; omitted languages are treated as absent.
 
+## `/force-refresh` Command
+
+If automation needs a complete retry because of a transient failure, stale check state, or a lost review request, post `/force-refresh` as the entire comment on an open submission issue or a bot-created translation PR:
+
+- On an issue, automation validates and reviews the current form again, then re-enters PR creation and push when validation succeeds.
+- On a PR, automation rebases the bot branch onto the latest `main`, pushes a new empty commit to retrigger checks, and requests maintainer review again. Automatic merge and library finalization continue after checks and approval pass.
+- Authorization matches `/update`: issue authors or maintainers may refresh issues; listed contributors, outdated-report reporters, or maintainers may refresh PRs.
+
+The command takes no arguments and does not replace content fixes. Use `/update` first when a validation report identifies an incorrect field or file.
+
 When a maintainer requests changes, automation adds the `等待更新` label. A later comment from a listed contributor, an outdated-report reporter, or a repository maintainer removes that label; `/update` comments also refresh the PR branch and body. Comments from unrelated users do not change labels or submission content. Merged PR conversations are locked.
 
 ## Outdated Reports

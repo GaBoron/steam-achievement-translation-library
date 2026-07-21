@@ -156,6 +156,26 @@ class IssueCommentAuthorizationTests(unittest.TestCase):
     def test_collaborator_can_update_issue(self) -> None:
         self.assertTrue(issue_guard.comment_is_authorized(self.event("maintainer", "COLLABORATOR")))
 
+    def test_issue_force_refresh_requires_authorization(self) -> None:
+        event = self.event("stranger")
+        event["comment"]["body"] = "/force-refresh"
+        event["issue"]["labels"] = [{"name": "翻译投稿"}]
+        with mock.patch.object(issue_guard, "comment_issue") as comment:
+            handled = issue_guard.handle_issue_force_refresh("owner/repo", "token", event)
+
+        self.assertTrue(handled)
+        self.assertIn("投稿者或仓库维护者", comment.call_args.args[-1])
+
+    def test_issue_author_can_force_refresh_open_submission(self) -> None:
+        event = self.event("contributor")
+        event["comment"]["body"] = "/force-refresh"
+        event["issue"]["labels"] = [{"name": "翻译投稿"}]
+        with mock.patch.object(issue_guard, "comment_issue") as comment:
+            handled = issue_guard.handle_issue_force_refresh("owner/repo", "token", event)
+
+        self.assertTrue(handled)
+        self.assertIn("重新运行检查与校对流程", comment.call_args.args[-1])
+
     def test_doc_command_can_set_target_variant(self) -> None:
         event = self.event("contributor")
         event["issue"]["labels"] = [{"name": "更新文件"}]
@@ -428,6 +448,53 @@ class PullRequestCommentAuthorizationTests(unittest.TestCase):
 
             pr_maintenance.clear_wait_for_update_from_comment("owner/repo", "token", self.event("contributor"))
             remove.assert_called_once_with("owner/repo", "token", 34, pr_maintenance.WAIT_FOR_UPDATE_LABEL)
+
+    def test_unrelated_user_cannot_force_refresh_pr(self) -> None:
+        event = self.event("stranger")
+        event["comment"]["body"] = "/force-refresh"
+        with (
+            mock.patch.object(pr_maintenance, "comment_issue") as comment,
+            mock.patch.object(pr_maintenance, "github_request") as request,
+            mock.patch.object(pr_maintenance, "checkout_pr_branch") as checkout,
+        ):
+            pr_maintenance.force_refresh_pr("owner/repo", "token", event)
+
+        request.assert_not_called()
+        checkout.assert_not_called()
+        self.assertIn("贡献者、报告者或仓库维护者", comment.call_args.args[-1])
+
+    def test_contributor_can_force_refresh_pr_checks_and_review(self) -> None:
+        event = self.event("contributor")
+        event["comment"]["body"] = "/force-refresh"
+        pr = {
+            "number": 34,
+            "state": "open",
+            "head": {"ref": "translation-library/issue-12", "repo": {"full_name": "owner/repo"}},
+            "base": {"ref": "main"},
+        }
+        with (
+            mock.patch.object(pr_maintenance, "github_request", side_effect=[pr, None]) as request,
+            mock.patch.object(pr_maintenance, "checkout_pr_branch", return_value="translation-library/issue-12") as checkout,
+            mock.patch.object(pr_maintenance, "run") as run,
+            mock.patch.object(pr_maintenance, "push_branch") as push,
+            mock.patch.object(pr_maintenance, "remove_issue_label") as remove_label,
+            mock.patch.object(pr_maintenance, "comment_issue") as comment,
+        ):
+            pr_maintenance.force_refresh_pr("owner/repo", "token", event)
+
+        checkout.assert_called_once_with(pr)
+        run.assert_called_once_with(["git", "commit", "--allow-empty", "-m", "chore: force refresh PR #34"])
+        push.assert_called_once_with("translation-library/issue-12")
+        request.assert_any_call(
+            "POST",
+            "owner/repo",
+            "token",
+            "/pulls/34/requested_reviewers",
+            {"reviewers": pr_maintenance.DEFAULT_REVIEWERS},
+            allow_422=True,
+        )
+        remove_label.assert_called_once_with("owner/repo", "token", 34, pr_maintenance.WAIT_FOR_UPDATE_LABEL)
+        self.assertIn("重新触发自动检查", comment.call_args.args[-1])
 
     def test_unrelated_user_cannot_trigger_pr_checkout(self) -> None:
         event = self.event("stranger")

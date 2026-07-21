@@ -72,6 +72,19 @@ class WorkflowSecurityTests(unittest.TestCase):
             petition_job.index("workflow-scripts/translation_petition_bot.py"),
         )
 
+    def test_force_refresh_reuses_issue_review_and_app_authenticated_pr_pushes(self) -> None:
+        workflow = (ROOT / ".github" / "workflows" / "translation-contribution.yml").read_text(
+            encoding="utf-8"
+        )
+
+        issue_review = workflow[workflow.index("  issue-review:"):workflow.index("  translation-petition-review:")]
+        petition_job = workflow[workflow.index("  translation-petition-review:"):workflow.index("  pr-review-requested-changes:")]
+        pr_comments = workflow[workflow.index("  pr-comment-maintenance:"):workflow.index("  issue-comment-maintenance:")]
+        self.assertIn("github.event.comment.body == '/force-refresh'", issue_review)
+        self.assertIn("github.event.comment.body == '/force-refresh'", petition_job)
+        self.assertIn("id: pr-bot-token", pr_comments)
+        self.assertIn("token: ${{ steps.pr-bot-token.outputs.token }}", pr_comments)
+
 
 if __name__ == "__main__":
     unittest.main()

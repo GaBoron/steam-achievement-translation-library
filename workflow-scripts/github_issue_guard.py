@@ -348,6 +348,12 @@ def is_update_command(body: str) -> bool:
     return first == "/update" or first.startswith("/update ")
 
 
+def is_force_refresh_command(body: str) -> bool:
+    # Keep this exact match aligned with the workflow job condition so an
+    # acknowledgement can never be posted without the review job also running.
+    return body == "/force-refresh"
+
+
 def comment_is_authorized(event: dict[str, Any]) -> bool:
     issue = event.get("issue") or {}
     comment = event.get("comment") or {}
@@ -363,6 +369,36 @@ def close_comment_is_authorized(event: dict[str, Any]) -> bool:
     actor = str((comment.get("user") or {}).get("login") or "")
     issue_author = str((issue.get("user") or {}).get("login") or "")
     return bool(actor) and not actor.endswith("[bot]") and actor == issue_author
+
+
+def handle_issue_force_refresh(repo: str, token: str, event: dict[str, Any]) -> bool:
+    issue = event.get("issue") or {}
+    comment_body = str((event.get("comment") or {}).get("body") or "")
+    if not is_force_refresh_command(comment_body):
+        return False
+    issue_number = int(issue["number"])
+    if not comment_is_authorized(event):
+        comment_issue(repo, token, issue_number, "`/force-refresh` 只能由 issue 投稿者或仓库维护者执行。")
+        return True
+    if str(issue.get("state") or "") != "open":
+        comment_issue(repo, token, issue_number, "`/force-refresh` 只能用于打开状态的投稿 issue。")
+        return True
+    if not infer_issue_kind(issue):
+        comment_issue(repo, token, issue_number, "`/force-refresh` 只适用于翻译投稿、更新文件、报告过期或翻译请愿 issue。")
+        return True
+    comment_issue(
+        repo,
+        token,
+        issue_number,
+        "\n".join([
+            "<!-- translation-library-force-refresh -->",
+            "已接收 `/force-refresh` 命令。",
+            "",
+            "- 机器人将基于 issue 当前内容重新运行检查与校对流程。",
+            "- 检查通过后会重新进入创建 PR 和推送流程；未通过时会发布新的检查报告。",
+        ]),
+    )
+    return True
 
 
 def handle_issue_close(repo: str, token: str, event: dict[str, Any]) -> bool:
@@ -593,8 +629,17 @@ def main() -> None:
     if args.handle_comment:
         if handle_issue_close(args.repo, args.token, event):
             return
+        if handle_issue_force_refresh(args.repo, args.token, event):
+            return
         apply_issue_update(args.repo, args.token, event)
         return
+    comment_body = str((event.get("comment") or {}).get("body") or "")
+    if is_force_refresh_command(comment_body):
+        if not comment_is_authorized(event):
+            raise SystemExit("Unauthorized /force-refresh command.")
+        issue = event.get("issue") or {}
+        if str(issue.get("state") or "") != "open":
+            raise SystemExit("/force-refresh only supports open issues.")
     issue = event.get("issue") or {}
     labels = issue_labels(issue)
     for label in LABELS:

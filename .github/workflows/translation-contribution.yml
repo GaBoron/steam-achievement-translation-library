@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   issue-review:
-    if: ${{ github.event_name == 'issues' && !github.event.issue.pull_request && github.event.issue.state == 'open' && !contains(github.event.issue.labels.*.name, '功能请愿') && !contains(github.event.issue.labels.*.name, '翻译请愿') && !contains(github.event.issue.body, '### 需要翻译的成就 schema ZIP') && !contains(github.event.issue.body, '### Achievement schema ZIP to translate') }}
+    if: ${{ (github.event_name == 'issues' || (github.event_name == 'issue_comment' && github.event.comment.body == '/force-refresh')) && !github.event.issue.pull_request && github.event.issue.state == 'open' && !contains(github.event.issue.labels.*.name, '功能请愿') && !contains(github.event.issue.labels.*.name, '翻译请愿') && !contains(github.event.issue.body, '### 需要翻译的成就 schema ZIP') && !contains(github.event.issue.body, '### Achievement schema ZIP to translate') }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout translation library
@@ -161,7 +161,7 @@ jobs:
           gh api -X PUT "repos/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER/lock" -f lock_reason=resolved
 
   translation-petition-review:
-    if: ${{ github.event_name == 'issues' && !github.event.issue.pull_request && github.event.issue.state == 'open' && (contains(github.event.issue.labels.*.name, '翻译请愿') || contains(github.event.issue.body, '### 需要翻译的成就 schema ZIP') || contains(github.event.issue.body, '### Achievement schema ZIP to translate')) }}
+    if: ${{ (github.event_name == 'issues' || (github.event_name == 'issue_comment' && github.event.comment.body == '/force-refresh')) && !github.event.issue.pull_request && github.event.issue.state == 'open' && (contains(github.event.issue.labels.*.name, '翻译请愿') || contains(github.event.issue.body, '### 需要翻译的成就 schema ZIP') || contains(github.event.issue.body, '### Achievement schema ZIP to translate')) }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout translation library
@@ -288,10 +288,20 @@ jobs:
     if: ${{ github.event_name == 'issue_comment' && github.event.issue.pull_request }}
     runs-on: ubuntu-latest
     steps:
+      - name: Generate short-lived PR bot token
+        id: pr-bot-token
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
+        with:
+          app-id: ${{ secrets.SATL_PR_BOT_APP_ID }}
+          private-key: ${{ secrets.SATL_PR_BOT_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: steam-achievement-translation-library
+
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
+          token: ${{ steps.pr-bot-token.outputs.token }}
 
       - name: Set up Python
         uses: actions/setup-python@v6
