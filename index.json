@@ -1,6 +1,20 @@
 {
   "version": 1,
   "description": "Community-submitted Steam achievement schema translations.",
+  "states": {
+    "current": {
+      "label_zh": "可用",
+      "label_en": "Current"
+    },
+    "possibly_ineffective": {
+      "label_zh": "可能不生效",
+      "label_en": "May not work"
+    },
+    "outdated": {
+      "label_zh": "可能过期",
+      "label_en": "Possibly outdated"
+    }
+  },
   "entries": [
     {
       "game_name": "77p egg: Eggwife 77 便士蛋：蛋妻",

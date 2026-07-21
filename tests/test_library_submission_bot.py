@@ -400,6 +400,42 @@ schinese
 
 
 class RepositoryIntegrityTests(unittest.TestCase):
+    def test_possibly_ineffective_state_is_rendered(self) -> None:
+        index = {
+            "states": {
+                "current": {"label_zh": "可用", "label_en": "Current"},
+                "possibly_ineffective": {"label_zh": "可能不生效", "label_en": "May not work"},
+                "outdated": {"label_zh": "可能过期", "label_en": "Possibly outdated"},
+            },
+            "entries": [{
+                "game_name": "Example Game",
+                "game_id": "123",
+                "store_url": "https://store.steampowered.com/app/123/",
+                "languages": ["schinese"],
+                "schema_file": "files/123/UserGameStatsSchema_123.bin",
+                "file_size_bytes": 42,
+                "achievement_count": 1,
+                "contributors": ["translator"],
+                "updated_at": "2026-07-21T00:00:00Z",
+                "status": "possibly_ineffective",
+            }],
+        }
+
+        zh_index, en_index = bot.render_human_index(index)
+
+        self.assertIn("| 可能不生效 |", zh_index)
+        self.assertIn("| May not work |", en_index)
+
+    def test_unknown_index_state_is_rejected(self) -> None:
+        states = {
+            "current": {"zh": "可用", "en": "Current"},
+            "possibly_ineffective": {"zh": "可能不生效", "en": "May not work"},
+            "outdated": {"zh": "可能过期", "en": "Possibly outdated"},
+        }
+
+        with self.assertRaisesRegex(ValueError, "unknown index state"):
+            bot.status_text({"game_id": "123", "status": "unknown"}, "zh", states)
+
     def test_current_repository_has_no_integrity_errors(self) -> None:
         translation_pr_mode = os.environ.get("ALLOW_UNINDEXED_SCHEMA_FILES", "").lower() == "true"
         report = check_repository.check_repository(

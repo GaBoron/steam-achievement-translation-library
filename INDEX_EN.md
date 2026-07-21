@@ -2,14 +2,16 @@
 
 [简体中文](INDEX.md) | English | [Project README](README_EN.md)
 
-> After downloading, compare the file size with the index. If the size is clearly wrong, do not replace your local file. Files marked as possibly outdated should be used with extra care.
+> After downloading, compare the file size with the index. If the size is clearly wrong, do not replace your local file. Use files marked as “May not work” or “Possibly outdated” with extra care.
 
 Accepted games: **122**.
+
+Status guide: Current; May not work (the file passes repository checks, but game or platform behavior may prevent it from taking effect); Possibly outdated (a game update may have invalidated the file).
 
 ## Using This Index
 
 1. Search with your browser or GitHub page search by Steam app ID, game name, contributor, or language code.
-2. Check Status and Last updated in the matching row. Use possibly outdated files carefully or wait for an update.
+2. Check Status and Last updated in the matching row. Use files marked as May not work or Possibly outdated carefully.
 3. Click the filename in the File column to download it, then compare the downloaded size with the index.
 4. If the size is clearly wrong, do not replace your local file. After confirming it, place it under the matching local Steam file path in `<Steam install directory>/appcache/stats/`.
 

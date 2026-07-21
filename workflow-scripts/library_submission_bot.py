@@ -36,6 +36,7 @@ MAX_PACKAGE_BYTES = 64 * 1024 * 1024
 MAX_MANIFEST_BYTES = 64 * 1024
 MAX_SCHEMA_VARIANTS = 16
 LANGUAGE_RE = re.compile(r"^[a-z][a-z0-9_]{1,31}$")
+STATE_RE = re.compile(r"^[a-z][a-z0-9_]{1,31}$")
 VARIANT_ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]{0,63}$")
 VARIANT_MANIFEST_NAME = "translation-variants.json"
 ATTACHMENT_RE = re.compile(
@@ -941,28 +942,61 @@ def entry_contributors(entry: dict[str, Any]) -> list[str]:
     return sorted(set(contributors), key=str.casefold)
 
 
-def status_text(entry: dict[str, Any], language: str) -> str:
-    if str(entry.get("status") or "current") == "outdated" or entry.get("outdated"):
-        return "可能过期" if language == "zh" else "Possibly outdated"
-    return "可用" if language == "zh" else "Current"
+def index_states(index: dict[str, Any]) -> dict[str, dict[str, str]]:
+    raw_states = index.get("states")
+    if not isinstance(raw_states, dict) or not raw_states:
+        raise ValueError("index.json states must be a non-empty object")
+    states: dict[str, dict[str, str]] = {}
+    for state_id, raw_labels in raw_states.items():
+        if not isinstance(state_id, str) or not STATE_RE.fullmatch(state_id):
+            raise ValueError(f"invalid index state ID: {state_id!r}")
+        if not isinstance(raw_labels, dict):
+            raise ValueError(f"index state {state_id!r} must contain label_zh and label_en")
+        labels = {
+            "zh": str(raw_labels.get("label_zh") or "").strip(),
+            "en": str(raw_labels.get("label_en") or "").strip(),
+        }
+        if not all(labels.values()):
+            raise ValueError(f"index state {state_id!r} must contain non-empty label_zh and label_en")
+        states[state_id] = labels
+    for required_state in ("current", "possibly_ineffective", "outdated"):
+        if required_state not in states:
+            raise ValueError(f"index.json states is missing required state {required_state!r}")
+    return states
+
+
+def status_text(entry: dict[str, Any], language: str, states: dict[str, dict[str, str]]) -> str:
+    state_id = "outdated" if entry.get("outdated") else str(entry.get("status") or "current")
+    if state_id not in states:
+        raise ValueError(f"unknown index state {state_id!r} for Steam app ID {entry.get('game_id', '')}")
+    return states[state_id][language]
 
 
 def render_human_index(index: dict[str, Any]) -> tuple[str, str]:
     entries = sort_entries(index.get("entries", []))
+    states = index_states(index)
     entry_count = len(entries)
+    current_zh = states["current"]["zh"]
+    ineffective_zh = states["possibly_ineffective"]["zh"]
+    outdated_zh = states["outdated"]["zh"]
+    current_en = states["current"]["en"]
+    ineffective_en = states["possibly_ineffective"]["en"]
+    outdated_en = states["outdated"]["en"]
     zh_lines = [
         "# Steam 成就翻译库索引",
         "",
         "简体中文 | [English](INDEX_EN.md) | [项目说明](README.md)",
         "",
-        "> 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能过期”的文件建议等待更新后再使用。",
+        f"> 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“{ineffective_zh}”或“{outdated_zh}”的文件请谨慎使用。",
         "",
         f"当前收录：**{entry_count}** 个游戏。",
+        "",
+        f"状态说明：{current_zh}；{ineffective_zh}（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；{outdated_zh}（游戏更新后，文件内容可能已经失效）。",
         "",
         "## 使用这个索引",
         "",
         "1. 用浏览器或 GitHub 搜索 Steam app ID、游戏名、贡献者或语言代码。",
-        "2. 在目标行确认“状态”和“最近更新”。状态为“可能过期”时，请谨慎使用或等待更新。",
+        f"2. 在目标行确认“状态”和“最近更新”。状态为“{ineffective_zh}”或“{outdated_zh}”时，请谨慎使用。",
         "3. 点击“文件”列里的文件名下载，并在下载后核对索引标注的文件大小。",
         "4. 文件大小明显不对时不要替换本地文件；确认无误后再放到 Steam 本地 `<Steam 安装目录>/appcache/stats/` 中的同名位置。",
         "",
@@ -976,14 +1010,16 @@ def render_human_index(index: dict[str, Any]) -> tuple[str, str]:
         "",
         "[简体中文](INDEX.md) | English | [Project README](README_EN.md)",
         "",
-        "> After downloading, compare the file size with the index. If the size is clearly wrong, do not replace your local file. Files marked as possibly outdated should be used with extra care.",
+        f"> After downloading, compare the file size with the index. If the size is clearly wrong, do not replace your local file. Use files marked as “{ineffective_en}” or “{outdated_en}” with extra care.",
         "",
         f"Accepted games: **{entry_count}**.",
+        "",
+        f"Status guide: {current_en}; {ineffective_en} (the file passes repository checks, but game or platform behavior may prevent it from taking effect); {outdated_en} (a game update may have invalidated the file).",
         "",
         "## Using This Index",
         "",
         "1. Search with your browser or GitHub page search by Steam app ID, game name, contributor, or language code.",
-        "2. Check Status and Last updated in the matching row. Use possibly outdated files carefully or wait for an update.",
+        f"2. Check Status and Last updated in the matching row. Use files marked as {ineffective_en} or {outdated_en} carefully.",
         "3. Click the filename in the File column to download it, then compare the downloaded size with the index.",
         "4. If the size is clearly wrong, do not replace your local file. After confirming it, place it under the matching local Steam file path in `<Steam install directory>/appcache/stats/`.",
         "",
@@ -1009,7 +1045,7 @@ def render_human_index(index: dict[str, Any]) -> tuple[str, str]:
             source_pr = str(entry.get("source_pr") or "")
             outdated_link = str(outdated.get("source_pr") or outdated.get("source_issue") or "")
             row = (
-                f"| `{game_id}` | {escape_table(str(entry.get('game_name', '')))} | {status_text(entry, 'zh')} | "
+                f"| `{game_id}` | {escape_table(str(entry.get('game_name', '')))} | {status_text(entry, 'zh', states)} | "
                 f"{escape_table(str(entry.get('updated_at') or entry.get('submitted_at') or ''))} | {contributor_markdown(entry_contributors(entry))} | "
                 f"{escape_table(', '.join(entry.get('languages', [])))} | {entry.get('achievement_count', '')} | "
                 f"{schema_links_zh} | {github_link(source_pr, pull_request_label(source_pr)) if source_pr else ''} | "
@@ -1017,7 +1053,7 @@ def render_human_index(index: dict[str, Any]) -> tuple[str, str]:
             )
             zh_lines.append(row)
             en_lines.append(
-                f"| `{game_id}` | {escape_table(str(entry.get('game_name', '')))} | {status_text(entry, 'en')} | "
+                f"| `{game_id}` | {escape_table(str(entry.get('game_name', '')))} | {status_text(entry, 'en', states)} | "
                 f"{escape_table(str(entry.get('updated_at') or entry.get('submitted_at') or ''))} | {contributor_markdown(entry_contributors(entry))} | "
                 f"{escape_table(', '.join(entry.get('languages', [])))} | {entry.get('achievement_count', '')} | "
                 f"{schema_links_en} | {github_link(source_pr, pull_request_label(source_pr)) if source_pr else ''} | "
