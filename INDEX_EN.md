@@ -19,7 +19,7 @@ See [README_EN.md](README_EN.md) for the full find, download, and replacement fl
 
 ## Games
 
-| Steam app ID | Game | Status | Last updated | Contributors | Languages | Achievements | File | Source PR | Outdated report | Store |
+| Steam app ID | Game | Status | Last updated | Contributors | Languages | Achievements | File | Source PR | Issue report | Store |
 | --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- | --- |
 | `1317020` | 77p egg: Eggwife 77 便士蛋：蛋妻 | Current | 2026-07-18T09:43:13Z | [@GaBoron](https://github.com/GaBoron) | schinese | 90 | [UserGameStatsSchema_1317020.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1317020/UserGameStatsSchema_1317020.bin) (Literal-style, 37 KB)<br>[UserGameStatsSchema_1317020.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1317020/clean/UserGameStatsSchema_1317020.bin) (Clean, 37 KB) | [#210](https://github.com/GaBoron/steam-achievement-translation-library/pull/210) |  | [Steam](https://store.steampowered.com/app/1317020) |
 | `1055540` | A Short Hike 短途旅行 | Current | 2026-07-16T03:35:24Z | [@TomCatis0123](https://github.com/TomCatis0123) | brazilian, english, french, japanese, schinese | 12 | [UserGameStatsSchema_1055540.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1055540/UserGameStatsSchema_1055540.bin) (7 KB) | [#148](https://github.com/GaBoron/steam-achievement-translation-library/pull/148) |  | [Steam](https://store.steampowered.com/app/1055540/A_Short_Hike/) |

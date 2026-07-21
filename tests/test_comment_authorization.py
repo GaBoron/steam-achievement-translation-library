@@ -680,6 +680,15 @@ class PullRequestCommentAuthorizationTests(unittest.TestCase):
         self.assertEqual(2, primary["achievement_count"])
         self.assertEqual("b" * 64, beta["sha256"])
 
+    def test_file_issue_template_is_detected(self) -> None:
+        issue = {
+            "labels": [{"name": "报告错误"}],
+            "body": "### 错误类型\n\n文件可能不生效\n\n### 错误说明\n\n无法生效",
+        }
+
+        self.assertEqual("outdated", issue_guard.infer_issue_kind(issue))
+        self.assertEqual("outdated", bot.issue_kind(issue))
+
     def test_invalid_outdated_command_does_not_checkout_branch(self) -> None:
         event = self.event("reporter")
         event["comment"]["body"] = "/update doc"
@@ -698,13 +707,19 @@ class PullRequestCommentAuthorizationTests(unittest.TestCase):
             pr_maintenance.apply_pr_update("owner/repo", "token", event)
 
         checkout.assert_not_called()
-        self.assertIn("报告过期 PR 仅支持", comment.call_args.args[-1])
+        self.assertIn("报告错误 PR 仅支持", comment.call_args.args[-1])
 
     def test_outdated_pr_rejects_file_and_id_mutations(self) -> None:
         allowed = pr_maintenance.UPDATE_COMMANDS_BY_KIND["outdated"]
         self.assertNotIn("doc", allowed)
         self.assertNotIn("id", allowed)
-        self.assertEqual({"name", "store", "reason", "reference"}, allowed)
+        self.assertEqual({"name", "store", "type", "reason", "reference"}, allowed)
+
+    def test_file_issue_type_update_command_is_parsed(self) -> None:
+        self.assertEqual(
+            ("type", "possibly_ineffective", ""),
+            pr_maintenance.parse_update_command_detail("/update type possibly_ineffective"),
+        )
 
     def test_pr_revalidation_rejects_schema_without_achievements(self) -> None:
         with tempfile.TemporaryDirectory(dir=ROOT) as tmp:

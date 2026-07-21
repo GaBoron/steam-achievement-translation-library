@@ -30,9 +30,9 @@ LABELS = {
         "color": "0969da",
         "description": "更新已收录的成就翻译文件",
     },
-    "报告过期": {
+    "报告错误": {
         "color": "bf8700",
-        "description": "报告已收录文件可能过期",
+        "description": "报告已收录文件可能过期或可能不生效",
     },
     "等待更新": {
         "color": "d29922",
@@ -51,7 +51,7 @@ LABELS = {
 KIND_LABELS = {
     "translation-contribution": "翻译投稿",
     "update": "更新文件",
-    "outdated": "报告过期",
+    "outdated": "报告错误",
     "translation-petition": "翻译请愿",
 }
 LEGACY_LABELS = {
@@ -60,7 +60,7 @@ LEGACY_LABELS = {
     "outdated": "outdated",
     "translation-petition": "translation-petition",
 }
-UPDATE_HELP = "支持的类型：`doc`、`variant`、`id`、`name`、`store`、`languages`、`summary`、`reason`、`reference`、`notes`。"
+UPDATE_HELP = "支持的类型：`doc`、`variant`、`id`、`name`、`store`、`languages`、`summary`、`type`、`reason`、`reference`、`notes`。"
 UPDATE_ALIASES = {
     "doc": "doc",
     "file": "doc",
@@ -80,13 +80,14 @@ UPDATE_ALIASES = {
     "language": "languages",
     "lang": "languages",
     "summary": "summary",
+    "type": "type",
     "note": "notes",
     "notes": "notes",
     "reason": "reason",
     "reference": "reference",
     "ref": "reference",
 }
-VALUE_COMMANDS = {"variant", "id", "name", "store", "languages", "summary", "reason", "reference", "notes"}
+VALUE_COMMANDS = {"variant", "id", "name", "store", "languages", "summary", "type", "reason", "reference", "notes"}
 FIELD_LABELS = {
     "id": ["Steam app ID"],
     "name": ["游戏名", "Game name"],
@@ -94,7 +95,8 @@ FIELD_LABELS = {
     "languages": ["上传文件包含的语言", "Languages included in the uploaded file"],
     "extra_languages": ["其他 Steam 语言代码", "Additional Steam language codes"],
     "summary": ["更新内容摘要", "Update summary"],
-    "reason": ["过期说明", "Why do you think the file is outdated?"],
+    "type": ["错误类型", "Issue type"],
+    "reason": ["错误说明", "Issue details", "过期说明", "Why do you think the file is outdated?"],
     "reference": ["参考来源", "Reference or source"],
     "notes": ["备注", "Notes"],
     "doc": ["成就 schema ZIP", "Achievement schema ZIP"],
@@ -167,10 +169,10 @@ def issue_text(issue: dict[str, Any]) -> str:
 def infer_issue_kind(issue: dict[str, Any]) -> str | None:
     labels = issue_labels(issue)
     for kind, label in KIND_LABELS.items():
-        if label in labels or LEGACY_LABELS[kind] in labels:
+        if label in labels or LEGACY_LABELS[kind] in labels or (kind == "outdated" and "报告过期" in labels):
             return kind
     text = issue_text(issue)
-    if "### 过期说明" in text or "### Why do you think the file is outdated?" in text:
+    if any(heading in text for heading in ("### 错误类型", "### Issue type", "### 错误说明", "### Issue details", "### 过期说明", "### Why do you think the file is outdated?")):
         return "outdated"
     if "### 更新内容摘要" in text or "### Update summary" in text:
         return "update"
@@ -384,7 +386,7 @@ def handle_issue_force_refresh(repo: str, token: str, event: dict[str, Any]) -> 
         comment_issue(repo, token, issue_number, "`/force-refresh` 只能用于打开状态的投稿 issue。")
         return True
     if not infer_issue_kind(issue):
-        comment_issue(repo, token, issue_number, "`/force-refresh` 只适用于翻译投稿、更新文件、报告过期或翻译请愿 issue。")
+        comment_issue(repo, token, issue_number, "`/force-refresh` 只适用于翻译投稿、更新文件、报告错误或翻译请愿 issue。")
         return True
     comment_issue(
         repo,
@@ -646,7 +648,7 @@ def main() -> None:
         ensure_label(args.repo, args.token, label)
     kind = infer_issue_kind(issue)
     if not kind:
-        raise SystemExit("This workflow only handles translation submissions, translation petitions, file updates, or outdated reports.")
+        raise SystemExit("This workflow only handles translation submissions, translation petitions, file updates, or file issue reports.")
     expected = KIND_LABELS[kind]
     if expected not in labels:
         add_issue_labels(args.repo, args.token, int(issue["number"]), [expected])

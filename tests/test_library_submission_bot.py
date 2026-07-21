@@ -43,6 +43,77 @@ def schema_nodes(*achievements: bot.Node) -> list[bot.Node]:
 
 
 class SchemaValidationTests(unittest.TestCase):
+    def test_report_type_maps_to_index_states(self) -> None:
+        self.assertEqual("outdated", bot.report_state("文件可能过期"))
+        self.assertEqual("outdated", bot.report_state("File may be outdated"))
+        self.assertEqual("possibly_ineffective", bot.report_state("文件可能不生效"))
+        self.assertEqual("possibly_ineffective", bot.report_state("File may not work"))
+
+    def test_error_report_marks_file_as_possibly_ineffective(self) -> None:
+        event = {
+            "issue": {
+                "number": 42,
+                "html_url": "https://github.com/example/repo/issues/42",
+                "user": {"login": "reporter"},
+                "body": """### 游戏名
+
+示例游戏
+
+### Steam app ID
+
+123
+
+### Steam 商店地址
+
+https://store.steampowered.com/app/123/
+
+### 错误类型
+
+文件可能不生效
+
+### 错误说明
+
+替换并重启后仍显示英文。
+
+### 参考来源
+
+_No response_
+""",
+            },
+        }
+        existing = {
+            "game_name": "示例游戏",
+            "game_id": "123",
+            "store_url": "https://store.steampowered.com/app/123/",
+            "schema_file": "files/123/UserGameStatsSchema_123.bin",
+            "file_size_bytes": 42,
+            "sha256": "abc",
+            "updated_at": "2026-07-21T00:00:00Z",
+            "status": "current",
+        }
+        saved_entry: dict = {}
+
+        def capture_entry(entry: dict) -> None:
+            saved_entry.update(entry)
+
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.object(
+            bot, "load_index", return_value={"entries": [existing]}
+        ), mock.patch.object(bot, "upsert_index_entry", side_effect=capture_entry):
+            old_cwd = Path.cwd()
+            try:
+                os.chdir(tmp)
+                result = bot.validate_outdated_report(event)
+                pr_body = Path("pr_body.md").read_text(encoding="utf-8")
+            finally:
+                os.chdir(old_cwd)
+
+        self.assertEqual("possibly_ineffective", saved_entry["status"])
+        self.assertEqual("possibly_ineffective", saved_entry["report"]["type"])
+        self.assertNotIn("outdated", saved_entry)
+        self.assertEqual("报告错误", result["pr_labels"])
+        self.assertIn("## Achievement Translation Error Report", pr_body)
+        self.assertIn("- Report type: `possibly_ineffective`", pr_body)
+
     def test_open_translation_pr_is_found_by_game_id(self) -> None:
         pulls = [{
             "number": 42,

@@ -1,14 +1,14 @@
-name: 报告成就文件过期
-description: 标记某个已收录游戏的成就文件可能需要更新
-title: "[文件过期] 游戏名 (Steam app ID)"
-labels: [报告过期]
+name: 报告成就文件错误
+description: 报告已收录文件可能过期或替换后可能不生效
+title: "[文件错误] 游戏名 (Steam app ID)"
+labels: [报告错误]
 body:
   - type: markdown
     attributes:
       value: |
-        此模板用于报告库中已经收录的文件可能过期，例如游戏更新后 Steam 本地 schema 发生变化。
+        此模板用于报告库中已经收录的文件可能过期，或文件替换后可能不生效。
 
-        这里只标记“可能过期”，不会替换文件。若你已经有新版文件，请使用“更新已有 Steam 成就翻译”模板。
+        此操作只会修改索引状态，不会替换文件。若你已经有新版文件，请使用“更新已有 Steam 成就翻译”模板。
   - type: input
     id: game_name
     attributes:
@@ -32,11 +32,21 @@ body:
       placeholder: https://store.steampowered.com/app/123456/
     validations:
       required: true
+  - type: dropdown
+    id: error_type
+    attributes:
+      label: 错误类型
+      description: 选择最符合当前情况的类型。
+      options:
+        - 文件可能过期
+        - 文件可能不生效
+    validations:
+      required: true
   - type: textarea
     id: reason
     attributes:
-      label: 过期说明
-      description: 说明你为什么认为文件过期，例如游戏最近更新、成就数量变化、本地 schema 时间更新、使用时缺少新成就等。
+      label: 错误说明
+      description: 说明观察到的问题；过期类可提供游戏更新或成就变化证据，不生效类请提供替换步骤、实际结果和复现环境。
       placeholder: 请写清观察到的变化、日期、版本号或复现信息。
     validations:
       required: true

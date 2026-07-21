@@ -18,7 +18,7 @@ This project is a **Steam achievement translation data repository**. It collects
 | Request a missing translation | Use the [“Translation petition”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_petition_en.yml) issue template and upload a ZIP containing the original `.bin` that needs translation |
 | Submit a new game | Use the ["Submit Steam achievement translation"](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_contribution_en.yml) issue template |
 | Update an accepted file | Use the ["Update existing Steam achievement translation"](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_en.yml) issue template |
-| Report an outdated file | Use the ["Report outdated achievement file"](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_en.yml) issue template |
+| Report a file issue | Use the ["Report achievement file issue"](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_en.yml) template and select whether the file may be outdated or may not work |
 | Read contribution rules | See [CONTRIBUTING_EN.md](CONTRIBUTING_EN.md) |
 | Feature Request | Use the [“Feature petition”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=feature_petition_en.yml) issue template |
 
@@ -37,7 +37,7 @@ Open [the library index](INDEX_EN.md), then search with your browser or GitHub p
 | Language code | For example `schinese`, `tchinese`, or `japanese` |
 | Contributor | Use when checking files submitted by a specific contributor |
 
-After finding a row, check both Status and Last updated. If the status is possibly outdated, someone has reported that the Steam schema may have changed. Unless you know the file still applies, wait for an update PR before downloading.
+After finding a row, check both Status and Last updated. Possibly outdated means the Steam schema may have changed. May not work means the file passed repository checks, but someone reported that replacement may not take effect. Use either status with care.
 
 A game may provide multiple versions. In that case, the File column shows multiple links with English version notes. Choose the file matching your game branch or use case; the filenames alone do not distinguish variants.
 
@@ -95,7 +95,7 @@ UserGameStatsSchema_<app_id>.bin.bak
 
 Place the downloaded `UserGameStatsSchema_<app_id>.bin` into the local `appcache/stats` directory and overwrite the matching file. Make sure the file name is exactly the same, then restart Steam and the game.
 
-Steam may regenerate this file after a game update, Steam cache refresh, or achievement schema change. If translations stop working, achievements are missing, or the index entry looks stale, use the outdated-report issue template. If you already have a new file, use the update template instead.
+Steam may regenerate this file after a game update, Steam cache refresh, or achievement schema change. If translations stop working, achievements are missing, replacement does not take effect, or the index entry looks stale, use the file-issue template and select the matching type. If you already have a new file, use the update template instead.
 
 ## License And Rights
 

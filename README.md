@@ -18,7 +18,7 @@
 | 请求尚未收录的翻译 | 使用 issue 模板 [“翻译请愿”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_petition_zh.yml)，上传包含待翻译原始 `.bin` 的 ZIP |
 | 提交新游戏 | 使用 issue 模板 [“提交 Steam 成就翻译”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_contribution_zh.yml) |
 | 更新已收录文件 | 使用 issue 模板 [“更新已有 Steam 成就翻译”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_zh.yml) |
-| 报告文件过期 | 使用 issue 模板 [“报告成就文件过期”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_zh.yml) |
+| 报告文件错误 | 使用 issue 模板 [“报告成就文件错误”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_zh.yml)，可选择“文件可能过期”或“文件可能不生效” |
 | 查看填写规范 | 阅读 [贡献指南](CONTRIBUTING.md) |
 | 新功能请愿 | 使用 issue 模板 [“新功能请愿”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=feature_petition_zh.yml) |
 
@@ -37,7 +37,7 @@
 | 语言代码 | 例如 `schinese`、`tchinese`、`japanese` |
 | 贡献者 | 想查某位贡献者提交过哪些文件 |
 
-找到条目后，先看“状态”和“最近更新”。如果状态是“可能过期”，说明已有用户报告 Steam schema 可能变化；除非你明确知道仍然适用，否则建议等待更新 PR 合并后再下载。
+找到条目后，先看“状态”和“最近更新”。“可能过期”表示已有用户报告 Steam schema 可能变化；“可能不生效”表示文件通过仓库校验，但已有报告称替换后可能不起作用。两种状态都应谨慎使用。
 
 同一个游戏可能提供多个版本。此时“文件”列会显示多个链接及中文版本说明；请选择与你的游戏分支或用途匹配的文件，不能只凭文件名区分。
 
@@ -95,7 +95,7 @@ UserGameStatsSchema_<app_id>.bin.bak
 
 然后把从本仓库下载的 `UserGameStatsSchema_<app_id>.bin` 放到本地 `appcache/stats` 目录，覆盖同名文件。确认文件名完全一致后重新启动 Steam 和游戏。
 
-如果游戏更新、Steam 刷新缓存或成就数量变化，Steam 可能重新生成该文件。遇到翻译失效、成就缺失或索引状态过旧时，请使用“报告成就文件过期”模板；如果你已经有新版文件，请使用“更新已有 Steam 成就翻译”模板。
+如果游戏更新、Steam 刷新缓存或成就数量变化，Steam 可能重新生成该文件。遇到翻译失效、成就缺失、替换后不生效或索引状态过旧时，请使用“报告成就文件错误”模板并选择对应类型；如果你已经有新版文件，请使用“更新已有 Steam 成就翻译”模板。
 
 ## 收录统计
 

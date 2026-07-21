@@ -90,13 +90,14 @@ If validation fails while the issue is still open, you may edit field values in 
 | --- | --- |
 | `/update doc` plus attachment | Replace a single-version file, or atomically replace the complete version set with a manifest package |
 | `/update doc <variant_id>` plus attachment | Replace one existing version in a multi-version PR; add versions through a complete manifest package |
-| `/update id <Steam app ID>` | Change the Steam app ID and rename file paths for a normal submission or update PR; outdated-report PRs do not support this command |
+| `/update id <Steam app ID>` | Change the Steam app ID and rename file paths for a normal submission or update PR; file-issue PRs do not support this command |
 | `/update name <game name>` | Change the game name |
 | `/update store <Steam store URL>` | Change the store URL; the URL app ID must match the current app ID |
 | `/update languages <codes>` | Replace the full language list; list every language that exists in the file and separate codes with half-width commas |
 | `/update summary <summary>` | Change the update summary on an update PR |
-| `/update reason <reason>` | Change the reason on an outdated-report PR |
-| `/update reference <source>` | Change the reference on an outdated-report PR |
+| `/update type <outdated or possibly_ineffective>` | Change the issue type on a file-issue PR |
+| `/update reason <reason>` | Change the details on a file-issue PR |
+| `/update reference <source>` | Change the reference on a file-issue PR |
 
 For file replacement, put the command and attachment in the same PR comment:
 
@@ -109,7 +110,7 @@ If the type is unsupported, a required value is missing, or `/update doc` has no
 
 While the source issue is still open, use `/update variant <variant_id>` to change "Version ID to update" or `/update variant clear` to clear it. `/update doc <variant_id>` plus an attachment updates both the attachment and version ID.
 
-To prevent third-party changes, issue `/update` commands are accepted only from the original issue author or a repository maintainer. PR `/update` commands are accepted only from contributors listed in the PR body, the reporter named on an outdated-report PR, or a repository maintainer. Each PR type accepts only relevant commands: new submissions do not accept `summary`, and outdated-report PRs accept only `name`, `store`, `reason`, and `reference`.
+To prevent third-party changes, issue `/update` commands are accepted only from the original issue author or a repository maintainer. PR `/update` commands are accepted only from contributors listed in the PR body, the reporter named on a file-issue PR, or a repository maintainer. Each PR type accepts only relevant commands: new submissions do not accept `summary`, and file-issue PRs accept only `name`, `store`, `type`, `reason`, and `reference`.
 
 Language updates are not incremental. `/update languages schinese, english` means the file contains only `schinese` and `english`; omitted languages are treated as absent.
 
@@ -119,15 +120,15 @@ If automation needs a complete retry because of a transient failure, stale check
 
 - On an issue, automation validates and reviews the current form again, then re-enters PR creation and push when validation succeeds.
 - On a PR, automation rebases the bot branch onto the latest `main`, pushes a new empty commit to retrigger checks, and requests maintainer review again. Automatic merge and library finalization continue after checks and approval pass.
-- Authorization matches `/update`: issue authors or maintainers may refresh issues; listed contributors, outdated-report reporters, or maintainers may refresh PRs.
+- Authorization matches `/update`: issue authors or maintainers may refresh issues; listed contributors, file-issue reporters, or maintainers may refresh PRs.
 
 The command takes no arguments and does not replace content fixes. Use `/update` first when a validation report identifies an incorrect field or file.
 
-When a maintainer requests changes, automation adds the `等待更新` label. A later comment from a listed contributor, an outdated-report reporter, or a repository maintainer removes that label; `/update` comments also refresh the PR branch and body. Comments from unrelated users do not change labels or submission content. Merged PR conversations are locked.
+When a maintainer requests changes, automation adds the `等待更新` label. A later comment from a listed contributor, a file-issue reporter, or a repository maintainer removes that label; `/update` comments also refresh the PR branch and body. Comments from unrelated users do not change labels or submission content. Merged PR conversations are locked.
 
-## Outdated Reports
+## File Issue Reports
 
-Use the "Report outdated achievement file" template when an accepted file may be stale but you do not have a replacement file yet. Include evidence such as game update dates, achievement count changes, local schema timestamps, missing achievements, or update notes.
+Use the "Report achievement file issue" template when an accepted file may be outdated or may not work and you do not have a replacement file yet. Select the matching type. For outdated files, include update or achievement-change evidence; for files that may not work, include replacement steps, observed behavior, and environment details.
 
 ## Repository Maintenance And Local Checks
 

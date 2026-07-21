@@ -27,6 +27,7 @@ from library_submission_bot import (
     LANGUAGE_RE,
     achievement_rows,
     build_submission_pr_body,
+    entry_problem_report,
     entry_file_size_label,
     entry_schema_variants,
     escape_table,
@@ -41,6 +42,7 @@ from library_submission_bot import (
     parse_schema_variants_marker,
     repository_path,
     require_language_coverage,
+    report_state,
     save_schema_package,
     schema_file_size_bytes,
     schema_file_size_label,
@@ -63,7 +65,7 @@ WAIT_FOR_UPDATE_LABEL = "等待更新"
 BOT_USERS = {"github-actions[bot]"}
 TRUSTED_ASSOCIATIONS = {"OWNER", "MEMBER", "COLLABORATOR"}
 UPDATE_LABELS = {"更新文件", "update"}
-OUTDATED_LABELS = {"报告过期", "outdated"}
+OUTDATED_LABELS = {"报告错误", "报告过期", "outdated"}
 TRANSLATION_PETITION_LABEL = "翻译请愿"
 TRANSLATION_PETITION_FULFILLED_MARKER = "translation-library-petition-fulfilled"
 DEFAULT_REVIEWERS = ["GaBoron"]
@@ -203,7 +205,7 @@ def pr_kind(pr: dict[str, Any]) -> str:
     if labels & UPDATE_LABELS:
         return "update"
     body = str(pr.get("body") or "")
-    if "## Outdated Translation Report" in body:
+    if "## Achievement Translation Error Report" in body or "## Outdated Translation Report" in body:
         return "outdated"
     if "## Translation Library Update" in body:
         return "update"
@@ -346,6 +348,7 @@ def parse_pr_metadata(pr: dict[str, Any]) -> dict[str, Any]:
         "update_summary": body_field(body, "Contributor summary"),
         "reason": section_after_heading(body, "## Reason"),
         "reference": section_after_heading(body, "## Reference"),
+        "report_type": body_field(body, "Report type"),
     }
 
 
@@ -377,18 +380,19 @@ UPDATE_COMMAND_ALIASES = {
     "lang": "languages",
     "summary": "summary",
     "note": "summary",
+    "type": "type",
     "reason": "reason",
     "reference": "reference",
     "ref": "reference",
 }
-UPDATE_VALUE_COMMANDS = {"id", "name", "store", "languages", "summary", "reason", "reference"}
+UPDATE_VALUE_COMMANDS = {"id", "name", "store", "languages", "summary", "type", "reason", "reference"}
 UPDATE_COMMAND_HELP = (
-    "支持的类型：`doc`、`id`、`name`、`store`、`languages`、`summary`、`reason`、`reference`。"
+    "支持的类型：`doc`、`id`、`name`、`store`、`languages`、`summary`、`type`、`reason`、`reference`。"
 )
 UPDATE_COMMANDS_BY_KIND = {
     "translation-contribution": {"doc", "id", "name", "store", "languages"},
     "update": {"doc", "id", "name", "store", "languages", "summary"},
-    "outdated": {"name", "store", "reason", "reference"},
+    "outdated": {"name", "store", "type", "reason", "reference"},
 }
 
 
@@ -583,6 +587,7 @@ def entry_from_metadata(meta: dict[str, Any]) -> dict[str, Any]:
         "status": "current",
     })
     entry.pop("outdated", None)
+    entry.pop("report", None)
     if meta.get("schema_files") is not None:
         entry["schema_files"] = list(meta["schema_files"])
     elif isinstance(entry.get("schema_files"), list):
@@ -601,8 +606,8 @@ def entry_from_metadata(meta: dict[str, Any]) -> dict[str, Any]:
 
 
 def build_outdated_body(entry: dict[str, Any], meta: dict[str, Any]) -> str:
-    outdated = entry.get("outdated") if isinstance(entry.get("outdated"), dict) else {}
-    return f"""## Outdated Translation Report
+    report = entry_problem_report(entry)
+    return f"""## Achievement Translation Error Report
 
 - Game name: {entry['game_name']}
 - Steam app ID: `{entry['game_id']}`
@@ -612,16 +617,17 @@ def build_outdated_body(entry: dict[str, Any], meta: dict[str, Any]) -> str:
 - Current SHA-256: `{entry.get('sha256', '')}`
 - Last library update: {entry.get('updated_at', '')}
 - Source issue: {meta.get('source_issue', '')}
-- Reporter: @{outdated.get('reporter_id', '')}
-- Reported at: {outdated.get('reported_at', '')}
+- Reporter: @{report.get('reporter_id', '')}
+- Reported at: {report.get('reported_at', '')}
+- Report type: `{report.get('type', entry.get('status', 'outdated'))}`
 
 ## Reason
 
-{outdated.get('reason', '')}
+{report.get('reason', '')}
 
 ## Reference
 
-{outdated.get('reference', '') or 'No external reference provided.'}
+{report.get('reference', '') or 'No external reference provided.'}
 """
 
 
@@ -772,7 +778,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
     kind = str(meta["kind"])
     if command not in UPDATE_COMMANDS_BY_KIND.get(kind, set()):
         if kind == "outdated":
-            message = "报告过期 PR 仅支持 `name`、`store`、`reason` 和 `reference`。"
+            message = "报告错误 PR 仅支持 `name`、`store`、`type`、`reason` 和 `reference`。"
         elif kind == "translation-contribution":
             message = "新投稿 PR 不支持 `summary`；该字段仅用于更新已有文件。"
         else:
@@ -911,7 +917,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             if kind == "outdated":
                 replacement = existing_entry(load_index(), value)
                 if not replacement:
-                    raise ValueError("报告过期 PR 的 `/update id` 必须指向库里已经收录的 Steam app ID。")
+                    raise ValueError("报告错误 PR 的 `/update id` 必须指向库里已经收录的 Steam app ID。")
                 meta["schema_file"] = str(replacement.get("schema_file") or "")
                 meta["file_size"] = entry_file_size_label(replacement)
                 meta["sha256"] = str(replacement.get("sha256") or "")
@@ -980,9 +986,9 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             previous_hash = str(meta.get("sha256") or "")
             update_diff = None
             record_change("update summary", previous_summary, meta["update_summary"])
-        elif command in {"reason", "reference"}:
+        elif command in {"type", "reason", "reference"}:
             if kind != "outdated":
-                raise ValueError(f"`/update {command}` 只适用于报告过期 PR。")
+                raise ValueError(f"`/update {command}` 只适用于报告错误 PR。")
             rows, coverage = [], {}
             previous_hash = str(meta.get("sha256") or "")
             update_diff = None
@@ -993,7 +999,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             entry = existing_entry(load_index(), old_game_id) or {}
             if not entry:
                 raise ValueError("找不到该 PR 对应的索引条目。")
-            outdated = entry.get("outdated") if isinstance(entry.get("outdated"), dict) else {}
+            report = entry_problem_report(entry)
             if command == "id":
                 entry["game_id"] = meta["game_id"]
             if command == "name":
@@ -1002,15 +1008,22 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             if command == "store":
                 record_change("Steam store URL", entry.get("store_url", ""), meta["store_url"])
                 entry["store_url"] = meta["store_url"]
+            if command == "type":
+                previous_type = str(report.get("type") or entry.get("status") or "outdated")
+                new_type = report_state(value)
+                record_change("report type", previous_type, new_type)
+                report["type"] = new_type
+                entry["status"] = new_type
             if command == "reason":
-                record_change("outdated reason", outdated.get("reason", ""), value)
-                outdated["reason"] = value
+                record_change("report reason", report.get("reason", ""), value)
+                report["reason"] = value
             if command == "reference":
-                record_change("outdated reference", outdated.get("reference", ""), value)
-                outdated["reference"] = value
-            entry["outdated"] = outdated
+                record_change("report reference", report.get("reference", ""), value)
+                report["reference"] = value
+            entry["report"] = report
+            entry.pop("outdated", None)
             upsert_entry_for_pr(old_game_id, entry)
-            pr_title = f"Mark achievement translations for {entry['game_name']} ({entry['game_id']}) as outdated"
+            pr_title = f"Report achievement translation issue for {entry['game_name']} ({entry['game_id']})"
             pr_body = build_outdated_body(entry, meta)
         else:
             validate_store_url(str(meta["game_id"]), str(meta["store_url"]))
@@ -1091,10 +1104,11 @@ def mark_source_pr(event: dict[str, Any], repo: str, token: str) -> bool:
     if labels & OUTDATED_LABELS:
         if not entry:
             return False
-        outdated = entry.get("outdated") if isinstance(entry.get("outdated"), dict) else {}
-        if pr_url and outdated.get("source_pr") != pr_url:
-            outdated["source_pr"] = pr_url
-            entry["outdated"] = outdated
+        report = entry_problem_report(entry)
+        if pr_url and report.get("source_pr") != pr_url:
+            report["source_pr"] = pr_url
+            entry["report"] = report
+            entry.pop("outdated", None)
             changed = True
     else:
         meta = parse_pr_metadata(pr)
@@ -1180,14 +1194,15 @@ def merged_thanks_comment(pr: dict[str, Any]) -> str:
     source_issue = str(meta.get("source_issue") or "")
 
     if kind == "outdated":
-        action_text = f"已将 {game_text} 标记为可能过期，并同步到翻译库索引。"
+        state_text = "可能不生效" if report_state(str(meta.get("report_type") or "")) == "possibly_ineffective" else "可能过期"
+        action_text = f"已将 {game_text} 标记为{state_text}，并同步到翻译库索引。"
         follow_up = "如果之后准备好了新版成就文件，可以直接提交“更新已有 Steam 成就翻译”issue。"
     elif kind == "update":
         action_text = f"已合并 {game_text} 的成就翻译更新，并同步到翻译库索引。"
         follow_up = "后续如果游戏再次更新或发现翻译需要修正，可以继续提交更新 issue。"
     else:
         action_text = f"已收录 {game_text} 的 Steam 成就翻译文件，并同步到翻译库索引。"
-        follow_up = "后续如果游戏更新导致 schema 变化，可以提交“更新已有 Steam 成就翻译”或“报告成就文件过期”。"
+        follow_up = "后续如果文件过期或替换后不生效，可以提交“更新已有 Steam 成就翻译”或“报告成就文件错误”。"
 
     lines = [
         "<!-- translation-library-merged-thanks -->",

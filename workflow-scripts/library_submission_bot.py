@@ -25,10 +25,10 @@ FILES_ROOT = REPO_ROOT / "files"
 
 NEW_LABEL = "翻译投稿"
 UPDATE_LABEL = "更新文件"
-OUTDATED_LABEL = "报告过期"
+OUTDATED_LABEL = "报告错误"
 LEGACY_NEW_LABEL = "translation-contribution"
 LEGACY_UPDATE_LABEL = "update"
-LEGACY_OUTDATED_LABEL = "outdated"
+LEGACY_OUTDATED_LABELS = {"报告过期", "outdated"}
 
 MAX_DOWNLOAD_BYTES = 32 * 1024 * 1024
 MAX_SCHEMA_BYTES = 32 * 1024 * 1024
@@ -942,6 +942,40 @@ def entry_contributors(entry: dict[str, Any]) -> list[str]:
     return sorted(set(contributors), key=str.casefold)
 
 
+REPORT_STATE_ALIASES = {
+    "文件可能过期": "outdated",
+    "file may be outdated": "outdated",
+    "outdated": "outdated",
+    "可能过期": "outdated",
+    "文件可能不生效": "possibly_ineffective",
+    "file may not work": "possibly_ineffective",
+    "possibly_ineffective": "possibly_ineffective",
+    "可能不生效": "possibly_ineffective",
+}
+
+
+def report_state(value: str) -> str:
+    clean = value.strip().casefold()
+    if not clean:
+        return "outdated"  # Legacy reports did not include an issue type.
+    state = REPORT_STATE_ALIASES.get(clean)
+    if state is None:
+        raise ValueError("错误类型必须选择“文件可能过期”或“文件可能不生效”。")
+    return state
+
+
+def entry_problem_report(entry: dict[str, Any]) -> dict[str, Any]:
+    report = entry.get("report")
+    if isinstance(report, dict):
+        return dict(report)
+    outdated = entry.get("outdated")
+    if isinstance(outdated, dict):
+        legacy = dict(outdated)
+        legacy.setdefault("type", "outdated")
+        return legacy
+    return {}
+
+
 def index_states(index: dict[str, Any]) -> dict[str, dict[str, str]]:
     raw_states = index.get("states")
     if not isinstance(raw_states, dict) or not raw_states:
@@ -966,7 +1000,7 @@ def index_states(index: dict[str, Any]) -> dict[str, dict[str, str]]:
 
 
 def status_text(entry: dict[str, Any], language: str, states: dict[str, dict[str, str]]) -> str:
-    state_id = "outdated" if entry.get("outdated") else str(entry.get("status") or "current")
+    state_id = "outdated" if entry.get("outdated") and not entry.get("report") else str(entry.get("status") or "current")
     if state_id not in states:
         raise ValueError(f"unknown index state {state_id!r} for Steam app ID {entry.get('game_id', '')}")
     return states[state_id][language]
@@ -1030,26 +1064,26 @@ def render_human_index(index: dict[str, Any]) -> tuple[str, str]:
     ]
     if entries:
         zh_lines.extend([
-            "| Steam app ID | 游戏 | 状态 | 最近更新 | 贡献者 | 语言 | 成就数 | 文件 | 原 PR | 过期报告 | 商店 |",
+            "| Steam app ID | 游戏 | 状态 | 最近更新 | 贡献者 | 语言 | 成就数 | 文件 | 原 PR | 错误报告 | 商店 |",
             "| --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- | --- |",
         ])
         en_lines.extend([
-            "| Steam app ID | Game | Status | Last updated | Contributors | Languages | Achievements | File | Source PR | Outdated report | Store |",
+            "| Steam app ID | Game | Status | Last updated | Contributors | Languages | Achievements | File | Source PR | Issue report | Store |",
             "| --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- | --- |",
         ])
         for entry in entries:
             game_id = str(entry.get("game_id", ""))
             schema_links_zh = schema_file_links(entry, "zh")
             schema_links_en = schema_file_links(entry, "en")
-            outdated = entry.get("outdated") if isinstance(entry.get("outdated"), dict) else {}
+            report = entry_problem_report(entry)
             source_pr = str(entry.get("source_pr") or "")
-            outdated_link = str(outdated.get("source_pr") or outdated.get("source_issue") or "")
+            report_link = str(report.get("source_pr") or report.get("source_issue") or "")
             row = (
                 f"| `{game_id}` | {escape_table(str(entry.get('game_name', '')))} | {status_text(entry, 'zh', states)} | "
                 f"{escape_table(str(entry.get('updated_at') or entry.get('submitted_at') or ''))} | {contributor_markdown(entry_contributors(entry))} | "
                 f"{escape_table(', '.join(entry.get('languages', [])))} | {entry.get('achievement_count', '')} | "
                 f"{schema_links_zh} | {github_link(source_pr, pull_request_label(source_pr)) if source_pr else ''} | "
-                f"{github_link(outdated_link, github_item_label(outdated_link, '报告')) if outdated_link else ''} | [Steam]({entry.get('store_url', '')}) |"
+                f"{github_link(report_link, github_item_label(report_link, '报告')) if report_link else ''} | [Steam]({entry.get('store_url', '')}) |"
             )
             zh_lines.append(row)
             en_lines.append(
@@ -1057,7 +1091,7 @@ def render_human_index(index: dict[str, Any]) -> tuple[str, str]:
                 f"{escape_table(str(entry.get('updated_at') or entry.get('submitted_at') or ''))} | {contributor_markdown(entry_contributors(entry))} | "
                 f"{escape_table(', '.join(entry.get('languages', [])))} | {entry.get('achievement_count', '')} | "
                 f"{schema_links_en} | {github_link(source_pr, pull_request_label(source_pr)) if source_pr else ''} | "
-                f"{github_link(outdated_link, github_item_label(outdated_link, 'Report')) if outdated_link else ''} | [Steam]({entry.get('store_url', '')}) |"
+                f"{github_link(report_link, github_item_label(report_link, 'Report')) if report_link else ''} | [Steam]({entry.get('store_url', '')}) |"
             )
     else:
         zh_lines.append("暂无已收录游戏。")
@@ -1082,12 +1116,12 @@ def issue_labels(issue: dict[str, Any]) -> set[str]:
 
 def issue_kind(issue: dict[str, Any]) -> str:
     labels = issue_labels(issue)
-    if OUTDATED_LABEL in labels or LEGACY_OUTDATED_LABEL in labels:
+    if OUTDATED_LABEL in labels or labels & LEGACY_OUTDATED_LABELS:
         return "outdated"
     if UPDATE_LABEL in labels or LEGACY_UPDATE_LABEL in labels:
         return "update"
     text = f"{issue.get('title') or ''}\n{issue.get('body') or ''}"
-    if "### 过期说明" in text or "### Why do you think the file is outdated?" in text:
+    if any(heading in text for heading in ("### 错误类型", "### Issue type", "### 错误说明", "### Issue details", "### 过期说明", "### Why do you think the file is outdated?")):
         return "outdated"
     if "### 更新内容摘要" in text or "### Update summary" in text:
         return "update"
@@ -1339,6 +1373,7 @@ def build_entry(
     if schema_files is not None:
         entry["schema_files"] = schema_files
     entry.pop("outdated", None)
+    entry.pop("report", None)
     return entry
 
 
@@ -1697,14 +1732,20 @@ def validate_outdated_report(event: dict[str, Any]) -> dict[str, Any]:
     issue = event["issue"]
     fields = parse_issue_form(issue.get("body") or "")
     game_name, game_id, store_url, _languages, errors = validate_common_fields(fields, require_languages=False)
-    reason = field_value(fields, ["Why do you think the file is outdated?", "过期说明"]).strip()
+    report_type = field_value(fields, ["Issue type", "错误类型"])
+    reason = field_value(fields, ["Issue details", "错误说明", "Why do you think the file is outdated?", "过期说明"]).strip()
     source = first_line(field_value(fields, ["Reference or source", "参考来源"]))
+    try:
+        state = report_state(report_type)
+    except ValueError as exc:
+        errors.append(str(exc))
+        state = "outdated"
     index = load_index()
     existing = existing_entry(index, game_id) if game_id else None
     if not existing:
-        errors.append(f"Steam app ID {game_id} 不存在于 index.json，不能标记为过期。")
+        errors.append(f"Steam app ID {game_id} 不存在于 index.json，不能报告错误。")
     if not reason or reason == "_No response_":
-        errors.append("必须填写过期说明。")
+        errors.append("必须填写错误说明。")
     if errors:
         write_failure(errors, retry_allowed=True)
 
@@ -1713,8 +1754,9 @@ def validate_outdated_report(event: dict[str, Any]) -> dict[str, Any]:
     entry = dict(existing)
     entry["game_name"] = game_name or existing.get("game_name", "")
     entry["store_url"] = store_url or existing.get("store_url", "")
-    entry["status"] = "outdated"
-    entry["outdated"] = {
+    entry["status"] = state
+    entry["report"] = {
+        "type": state,
         "reported_at": timestamp,
         "source_issue": issue.get("html_url", ""),
         "source_pr": None,
@@ -1722,23 +1764,25 @@ def validate_outdated_report(event: dict[str, Any]) -> dict[str, Any]:
         "reason": reason,
         "reference": source,
     }
+    entry.pop("outdated", None)
     upsert_index_entry(entry)
 
     issue_number = int(issue["number"])
     result = {
         "ok": True,
         "kind": "outdated",
-        "branch": f"translation-library/outdated-{issue_number}",
-        "pr_title": f"Mark achievement translations for {entry['game_name']} ({game_id}) as outdated",
+        "branch": f"translation-library/report-{issue_number}",
+        "pr_title": f"Report achievement translation issue for {entry['game_name']} ({game_id})",
         "pr_labels": OUTDATED_LABEL,
-        "commit_message": f"data: mark achievement translation outdated from issue #{issue_number}",
+        "commit_message": f"data: report achievement translation issue from issue #{issue_number}",
         "game_id": game_id,
         "game_name": entry["game_name"],
+        "report_state": state,
     }
     Path("submission_result.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     Path("pr_title.txt").write_text(result["pr_title"] + "\n", encoding="utf-8")
     Path("pr_body.md").write_text(
-        f"""## Outdated Translation Report
+        f"""## Achievement Translation Error Report
 
 - Game name: {entry['game_name']}
 - Steam app ID: `{game_id}`
@@ -1750,6 +1794,7 @@ def validate_outdated_report(event: dict[str, Any]) -> dict[str, Any]:
 - Source issue: {issue.get('html_url', '')}
 - Reporter: @{issue_author(issue)}
 - Reported at: {timestamp}
+- Report type: `{state}`
 
 ## Reason
 
