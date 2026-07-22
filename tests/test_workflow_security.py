@@ -44,12 +44,8 @@ class WorkflowSecurityTests(unittest.TestCase):
         contribution = (ROOT / ".github" / "workflows" / "translation-contribution.yml").read_text(
             encoding="utf-8"
         )
-        create_pr = (ROOT / "workflow-scripts" / "create_translation_pr.py").read_text(
-            encoding="utf-8"
-        )
 
-        self.assertIn("workflow-scripts/create_translation_pr.py", contribution)
-        self.assertIn('".github/translation-reports"', create_pr)
+        self.assertIn(".github/translation-reports/**", contribution)
 
     def test_merge_remains_ruleset_gated_and_waits_before_finalizing(self) -> None:
         workflow = (ROOT / ".github" / "workflows" / "translation-contribution.yml").read_text(
