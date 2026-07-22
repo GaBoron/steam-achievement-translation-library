@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**128** 个游戏。
+当前收录：**129** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -142,6 +142,7 @@
 | `647830` | 乐高漫威：超级英雄2 | 可用 | 2026-07-21T06:32:32Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 75 | [UserGameStatsSchema_647830.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/647830/UserGameStatsSchema_647830.bin)（126 KB） | [#244](https://github.com/GaBoron/steam-achievement-translation-library/pull/244) |  | [Steam](https://store.steampowered.com/app/647830/LEGO_Marvel_Super_Heroes_2/) |
 | `405310` | 乐高漫威：复仇者联盟 | 可用 | 2026-07-21T06:33:35Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 70 | [UserGameStatsSchema_405310.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/405310/UserGameStatsSchema_405310.bin)（111 KB） | [#246](https://github.com/GaBoron/steam-achievement-translation-library/pull/246) |  | [Steam](https://store.steampowered.com/app/405310/LEGO_MARVELs_Avengers/) |
 | `920210` | 乐高星球大战：天行者传奇 | 可用 | 2026-07-16T03:26:27Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 45 | [UserGameStatsSchema_920210.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/920210/UserGameStatsSchema_920210.bin)（79 KB） | [#160](https://github.com/GaBoron/steam-achievement-translation-library/pull/160) |  | [Steam](https://store.steampowered.com/app/920210/LEGO_Star_Wars/) |
+| `438640` | 乐高星球大战：原力觉醒 | 可用 | 2026-07-22T06:34:40Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 69 | [UserGameStatsSchema_438640.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/438640/UserGameStatsSchema_438640.bin)（99 KB） | [#261](https://github.com/GaBoron/steam-achievement-translation-library/pull/261) |  | [Steam](https://store.steampowered.com/app/438640/LEGO_STAR_WARS_The_Force_Awakens/) |
 | `236850` | 欧陆风云 IV | 可用 | 2026-07-17T17:31:59Z | [@GaBoron](https://github.com/GaBoron) | english, french, schinese | 373 | [UserGameStatsSchema_236850.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/236850/UserGameStatsSchema_236850.bin)（294 KB） | [#191](https://github.com/GaBoron/steam-achievement-translation-library/pull/191) |  | [Steam](https://store.steampowered.com/app/236850) |
 | `457140` | 缺氧 | 可用 | 2026-07-07T12:38:30Z | [@Lelectfly](https://github.com/Lelectfly) | schinese | 51 | [UserGameStatsSchema_457140.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/457140/UserGameStatsSchema_457140.bin)（22 KB） | [#59](https://github.com/GaBoron/steam-achievement-translation-library/pull/59) |  | [Steam](https://store.steampowered.com/app/457140/_/) |
 | `49520` | 无主之地2 | 可用 | 2026-07-07T12:37:07Z | [@Lelectfly](https://github.com/Lelectfly) | schinese | 75 | [UserGameStatsSchema_49520.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/49520/UserGameStatsSchema_49520.bin)（85 KB） | [#57](https://github.com/GaBoron/steam-achievement-translation-library/pull/57) |  | [Steam](https://store.steampowered.com/app/49520/Borderlands_2/) |
