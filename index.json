@@ -1061,30 +1061,21 @@
       "game_id": "220240",
       "store_url": "https://store.steampowered.com/app/220240/Far_Cry_3/",
       "languages": [
-        "english"
+        "schinese"
       ],
       "schema_file": "files/220240/UserGameStatsSchema_220240.bin",
-      "file_size_bytes": 57076,
+      "file_size_bytes": 60325,
       "achievement_count": 44,
-      "sha256": "1992ac041801ca800443a710e455555b4e0e7f75b2c370c6ca67e04566333df0",
-      "source_issue": "https://github.com/GaBoron/steam-achievement-translation-library/issues/231",
+      "sha256": "be7ba47608d4fbd8bea750fd031fe8f62082dc280c81ce48c2a8ad187a2359cb",
+      "source_issue": "https://github.com/GaBoron/steam-achievement-translation-library/issues/264",
       "contributors": [
         "HideonOcean"
       ],
       "contributor_id": "HideonOcean",
       "submitted_at": "2026-07-19T15:26:46Z",
-      "updated_at": "2026-07-21T15:17:43Z",
-      "status": "possibly_ineffective",
-      "source_pr": "https://github.com/GaBoron/steam-achievement-translation-library/pull/232",
-      "report": {
-        "type": "possibly_ineffective",
-        "reported_at": "2026-07-21T17:48:26Z",
-        "source_issue": "https://github.com/GaBoron/steam-achievement-translation-library/issues/256",
-        "source_pr": "https://github.com/GaBoron/steam-achievement-translation-library/pull/257",
-        "reporter_id": "GaBoron",
-        "reason": "该文件将中文成就填入`english`字段",
-        "reference": ""
-      }
+      "updated_at": "2026-07-22T05:48:26Z",
+      "status": "current",
+      "source_pr": "https://github.com/GaBoron/steam-achievement-translation-library/pull/265"
     },
     {
       "game_name": "Final Fantasy III (3D Remake) 最终幻想3（3D重制版）",
