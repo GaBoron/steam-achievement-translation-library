@@ -120,10 +120,22 @@ jobs:
       - name: Create pull request
         id: cpr
         if: ${{ steps.validate.outcome == 'success' }}
-        env:
-          PR_BOT_TOKEN: ${{ steps.pr-bot-token.outputs.token }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python workflow-scripts/create_translation_pr.py --repo "$GITHUB_REPOSITORY" --token "$PR_BOT_TOKEN"
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        with:
+          token: ${{ steps.pr-bot-token.outputs.token }}
+          branch: ${{ steps.meta.outputs.branch }}
+          title: ${{ steps.meta.outputs.pr_title }}
+          body-path: pr_body.md
+          commit-message: ${{ steps.meta.outputs.commit_message }}
+          sign-commits: true
+          labels: ${{ steps.meta.outputs.pr_labels }}
+          reviewers: GaBoron
+          add-paths: |
+            files/**
+            .github/translation-reports/**
+            index.json
+            INDEX.md
+            INDEX_EN.md
 
       - name: Close and lock source issue
         if: ${{ steps.validate.outcome == 'success' }}
