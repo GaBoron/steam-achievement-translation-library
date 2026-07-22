@@ -101,17 +101,17 @@ def nice_axis_max(value: int) -> int:
     exponent = math.floor(math.log10(raw_step))
     magnitude = 10**exponent
     fraction = raw_step / magnitude
-    if fraction <= 1:
-        nice_fraction = 1
-    elif fraction <= 2:
-        nice_fraction = 2
-    elif fraction <= 2.5:
-        nice_fraction = 2.5
-    elif fraction <= 5:
-        nice_fraction = 5
-    else:
-        nice_fraction = 10
-    return max(5, int(nice_fraction * magnitude * 5))
+    # Keep five readable intervals without letting a value just above a common
+    # boundary double the visible range. The denser middle steps are especially
+    # important for totals such as 126, which should use 0..150 rather than
+    # jumping from 0..125 straight to 0..250.
+    nice_fraction = next(
+        candidate
+        for candidate in (1, 1.2, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10)
+        if fraction <= candidate
+    )
+    tick_step = max(1, math.ceil(nice_fraction * magnitude))
+    return tick_step * 5
 
 
 def evenly_spaced_indices(length: int, count: int) -> tuple[int, ...]:

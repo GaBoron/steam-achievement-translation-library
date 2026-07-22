@@ -16,6 +16,14 @@ class StatisticsTests(unittest.TestCase):
     def test_axis_ceiling_does_not_double_just_above_one_hundred(self) -> None:
         self.assertEqual(100, statistics_svg.nice_axis_max(100))
         self.assertEqual(125, statistics_svg.nice_axis_max(101))
+        self.assertEqual(150, statistics_svg.nice_axis_max(126))
+        self.assertEqual(300, statistics_svg.nice_axis_max(251))
+
+    def test_axis_ceiling_always_covers_the_total_with_uniform_integer_ticks(self) -> None:
+        for total in range(1, 1_001):
+            axis_max = statistics_svg.nice_axis_max(total)
+            self.assertGreaterEqual(axis_max, total)
+            self.assertEqual(0, axis_max % 5)
 
     def test_pencil_curve_is_smooth_and_has_no_jagged_line_segments(self) -> None:
         path = statistics_svg.pencil_curve_path(

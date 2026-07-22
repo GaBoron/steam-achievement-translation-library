@@ -40,6 +40,7 @@ from library_submission_bot import (
     now_utc,
     parse_issue_form,
     parse_schema_variants_marker,
+    pending_report_relative_path,
     repository_path,
     require_language_coverage,
     report_state,
@@ -57,6 +58,7 @@ from library_submission_bot import (
     variant_achievement_rows,
     write_human_index,
     write_index,
+    write_pending_report,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -337,6 +339,7 @@ def parse_pr_metadata(pr: dict[str, Any]) -> dict[str, Any]:
         "contributors": contributors,
         "source_issue": body_field(body, "Source issue"),
         "reporter": body_field(body, "Reporter").lstrip("@"),
+        "reported_at": body_field(body, "Reported at"),
         "languages": languages,
         "achievement_count": body_field(body, "Achievement count"),
         "schema_file": body_field(body, "Schema file") or body_field(body, "Current schema file"),
@@ -629,6 +632,37 @@ def build_outdated_body(entry: dict[str, Any], meta: dict[str, Any]) -> str:
 
 {report.get('reference', '') or 'No external reference provided.'}
 """
+
+
+def reported_entry_from_metadata(
+    existing: dict[str, Any],
+    meta: dict[str, Any],
+    *,
+    source_pr: str | None = None,
+) -> dict[str, Any]:
+    """Apply an approved report to the latest indexed entry."""
+    entry = dict(existing)
+    current_report = entry_problem_report(entry)
+    state = report_state(str(meta.get("report_type") or current_report.get("type") or ""))
+    if meta.get("game_name"):
+        entry["game_name"] = str(meta["game_name"])
+    if meta.get("store_url"):
+        entry["store_url"] = str(meta["store_url"])
+    reference = str(meta.get("reference") or current_report.get("reference") or "")
+    if reference == "No external reference provided.":
+        reference = ""
+    entry["status"] = state
+    entry["report"] = {
+        "type": state,
+        "reported_at": str(meta.get("reported_at") or current_report.get("reported_at") or now_utc()),
+        "source_issue": str(meta.get("source_issue") or current_report.get("source_issue") or ""),
+        "source_pr": source_pr,
+        "reporter_id": str(meta.get("reporter") or current_report.get("reporter_id") or ""),
+        "reason": str(meta.get("reason") or current_report.get("reason") or ""),
+        "reference": reference,
+    }
+    entry.pop("outdated", None)
+    return entry
 
 
 def update_pr_title_and_body(repo: str, token: str, pr_number: int, title: str, body: str) -> None:
@@ -999,6 +1033,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             entry = existing_entry(load_index(), old_game_id) or {}
             if not entry:
                 raise ValueError("找不到该 PR 对应的索引条目。")
+            entry = reported_entry_from_metadata(entry, meta)
             report = entry_problem_report(entry)
             if command == "id":
                 entry["game_id"] = meta["game_id"]
@@ -1022,7 +1057,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
                 report["reference"] = value
             entry["report"] = report
             entry.pop("outdated", None)
-            upsert_entry_for_pr(old_game_id, entry)
+            report_path = write_pending_report(entry, source_issue_number(pr) or pr_number)
             pr_title = f"Report achievement translation issue for {entry['game_name']} ({entry['game_id']})"
             pr_body = build_outdated_body(entry, meta)
         else:
@@ -1050,7 +1085,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
         comment_issue(repo, token, pr_number, update_error_comment(str(exc)))
         return
 
-    add_paths = ["index.json", "INDEX.md", "INDEX_EN.md"] if kind == "outdated" else ["files"]
+    add_paths = [report_path] if kind == "outdated" else ["files"]
     changed = commit_and_push(branch, f"data: apply PR update command #{pr_number}", add_paths)
     update_pr_title_and_body(repo, token, pr_number, pr_title, pr_body)
     suffix = "投稿分支和 PR 描述已更新。" if changed else "PR 描述已更新；文件内容没有产生新的提交。"
@@ -1088,7 +1123,6 @@ def mark_wait_for_update(repo: str, token: str, event: dict[str, Any]) -> None:
 
 def mark_source_pr(event: dict[str, Any], repo: str, token: str) -> bool:
     pr = event.get("pull_request") or {}
-    labels = pr_labels(pr)
     body = str(pr.get("body") or "")
     game_id = body_field(body, "Steam app ID")
     if not game_id:
@@ -1100,16 +1134,21 @@ def mark_source_pr(event: dict[str, Any], repo: str, token: str) -> bool:
     pr_url = str(pr.get("html_url") or "")
     merged_at = str(pr.get("merged_at") or "")
     changed = False
+    pending_report_path: Path | None = None
 
-    if labels & OUTDATED_LABELS:
+    if pr_kind(pr) == "outdated":
         if not entry:
             return False
-        report = entry_problem_report(entry)
-        if pr_url and report.get("source_pr") != pr_url:
-            report["source_pr"] = pr_url
-            entry["report"] = report
-            entry.pop("outdated", None)
-            changed = True
+        meta = parse_pr_metadata(pr)
+        updated_entry = reported_entry_from_metadata(entry, meta, source_pr=pr_url or None)
+        changed = updated_entry != entry
+        entry = updated_entry
+        issue_number = source_issue_number(pr)
+        if issue_number:
+            pending_report_path = ROOT / pending_report_relative_path(issue_number)
+            if pending_report_path.is_file():
+                pending_report_path.unlink()
+                changed = True
     else:
         meta = parse_pr_metadata(pr)
         entry = entry_from_metadata(meta)
@@ -1163,7 +1202,10 @@ def mark_source_pr(event: dict[str, Any], repo: str, token: str) -> bool:
     upsert_index_entry(entry)
     run(["git", "config", "user.name", "github-actions[bot]"])
     run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"])
-    run(["git", "add", "index.json", "INDEX.md", "INDEX_EN.md"])
+    add_paths = ["index.json", "INDEX.md", "INDEX_EN.md"]
+    if pending_report_path is not None:
+        add_paths.append(pending_report_path.relative_to(ROOT).as_posix())
+    run(["git", "add", "-A", "--", *add_paths])
     if run(["git", "diff", "--cached", "--quiet"], check=False).returncode == 0:
         return False
     run(["git", "commit", "-m", f"data: record source PR for translation entry #{int(pr.get('number') or 0)}"])
@@ -1186,7 +1228,10 @@ def delete_pr_branch(repo: str, token: str, pr: dict[str, Any]) -> None:
 def merged_thanks_comment(pr: dict[str, Any]) -> str:
     meta = parse_pr_metadata(pr)
     kind = pr_kind(pr)
-    contributors = [f"@{contributor}" for contributor in meta.get("contributors", []) if contributor]
+    contributor_ids = [str(contributor) for contributor in meta.get("contributors", []) if contributor]
+    if not contributor_ids and kind == "outdated" and meta.get("reporter"):
+        contributor_ids = [str(meta["reporter"])]
+    contributors = [f"@{contributor}" for contributor in contributor_ids]
     contributor_text = "、".join(contributors) if contributors else "本次贡献者"
     game_name = str(meta.get("game_name") or "该游戏")
     game_id = str(meta.get("game_id") or "")

@@ -132,6 +132,7 @@ jobs:
           reviewers: GaBoron
           add-paths: |
             files/**
+            .github/translation-reports/**
             index.json
             INDEX.md
             INDEX_EN.md

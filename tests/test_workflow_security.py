@@ -40,6 +40,13 @@ class WorkflowSecurityTests(unittest.TestCase):
         self.assertIn("id: finalizer-token", watchdog)
         self.assertIn("token: ${{ steps.finalizer-token.outputs.token }}", watchdog)
 
+    def test_error_report_prs_use_isolated_review_artifacts(self) -> None:
+        contribution = (ROOT / ".github" / "workflows" / "translation-contribution.yml").read_text(
+            encoding="utf-8"
+        )
+
+        self.assertIn(".github/translation-reports/**", contribution)
+
     def test_merge_remains_ruleset_gated_and_waits_before_finalizing(self) -> None:
         workflow = (ROOT / ".github" / "workflows" / "translation-contribution.yml").read_text(
             encoding="utf-8"

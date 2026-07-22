@@ -531,6 +531,123 @@ class PullRequestCommentAuthorizationTests(unittest.TestCase):
         self.assertEqual("abc", metadata["sha256"])
         self.assertEqual("2026-01-01T00:00:00Z", metadata["updated_at"])
 
+    def test_outdated_report_uses_latest_index_entry_and_report_metadata(self) -> None:
+        existing = {
+            "game_id": "123",
+            "game_name": "Latest Name",
+            "store_url": "https://store.steampowered.com/app/123/",
+            "schema_file": "files/123/UserGameStatsSchema_123.bin",
+            "sha256": "latest-sha",
+            "contributors": ["translator"],
+            "status": "current",
+        }
+        meta = {
+            "game_id": "123",
+            "game_name": "Reviewed Name",
+            "store_url": "https://store.steampowered.com/app/123/Reviewed/",
+            "reporter": "reporter",
+            "reported_at": "2026-07-21T17:48:26Z",
+            "source_issue": "https://github.com/owner/repo/issues/42",
+            "report_type": "possibly_ineffective",
+            "reason": "Does not work",
+            "reference": "No external reference provided.",
+        }
+
+        result = pr_maintenance.reported_entry_from_metadata(
+            existing,
+            meta,
+            source_pr="https://github.com/owner/repo/pull/43",
+        )
+
+        self.assertEqual("latest-sha", result["sha256"])
+        self.assertEqual(["translator"], result["contributors"])
+        self.assertEqual("Reviewed Name", result["game_name"])
+        self.assertEqual("possibly_ineffective", result["status"])
+        self.assertEqual("reporter", result["report"]["reporter_id"])
+        self.assertEqual("", result["report"]["reference"])
+        self.assertEqual("https://github.com/owner/repo/pull/43", result["report"]["source_pr"])
+
+    def test_outdated_merge_thanks_the_reporter(self) -> None:
+        pr = {
+            "body": "\n".join([
+                "## Achievement Translation Error Report",
+                "",
+                "- Game name: Example Game",
+                "- Steam app ID: `123`",
+                "- Reporter: @reporter",
+                "- Report type: `outdated`",
+            ]),
+            "labels": [{"name": "报告错误"}],
+        }
+
+        comment = pr_maintenance.merged_thanks_comment(pr)
+
+        self.assertIn("感谢 @reporter 的贡献！", comment)
+        self.assertNotIn("本次贡献者", comment)
+
+    def test_outdated_finalizer_updates_latest_index_and_removes_review_artifact(self) -> None:
+        latest_entry = {
+            "game_id": "123",
+            "game_name": "Latest Name",
+            "store_url": "https://store.steampowered.com/app/123/",
+            "schema_file": "files/123/UserGameStatsSchema_123.bin",
+            "sha256": "latest-sha",
+            "contributors": ["translator"],
+            "status": "current",
+        }
+        pr = {
+            "number": 43,
+            "html_url": "https://github.com/owner/repo/pull/43",
+            "merged_at": "2026-07-22T00:00:00Z",
+            "body": "\n".join([
+                "## Achievement Translation Error Report",
+                "",
+                "- Game name: Reviewed Name",
+                "- Steam app ID: `123`",
+                "- Steam store URL: https://store.steampowered.com/app/123/",
+                "- Source issue: https://github.com/owner/repo/issues/42",
+                "- Reporter: @reporter",
+                "- Reported at: 2026-07-21T17:48:26Z",
+                "- Report type: `outdated`",
+                "",
+                "## Reason",
+                "",
+                "Outdated achievements",
+                "",
+                "## Reference",
+                "",
+                "No external reference provided.",
+            ]),
+            "labels": [{"name": "报告错误"}],
+        }
+
+        def fake_run(args: list[str], *, check: bool = True) -> mock.Mock:
+            return mock.Mock(returncode=1 if args[:3] == ["git", "diff", "--cached"] else 0)
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            artifact = root / ".github" / "translation-reports" / "42.json"
+            artifact.parent.mkdir(parents=True)
+            artifact.write_text("{}\n", encoding="utf-8")
+            with (
+                mock.patch.object(pr_maintenance, "ROOT", root),
+                mock.patch.object(pr_maintenance, "load_index", return_value={"entries": [latest_entry]}),
+                mock.patch.object(pr_maintenance, "upsert_index_entry") as upsert,
+                mock.patch.object(pr_maintenance, "run", side_effect=fake_run) as run,
+                mock.patch.object(pr_maintenance, "push_main_with_retry") as push,
+            ):
+                changed = pr_maintenance.mark_source_pr({"pull_request": pr}, "owner/repo", "token")
+                self.assertFalse(artifact.exists())
+
+        self.assertTrue(changed)
+        saved_entry = upsert.call_args.args[0]
+        self.assertEqual("latest-sha", saved_entry["sha256"])
+        self.assertEqual("outdated", saved_entry["status"])
+        self.assertEqual("reporter", saved_entry["report"]["reporter_id"])
+        self.assertEqual("https://github.com/owner/repo/pull/43", saved_entry["report"]["source_pr"])
+        self.assertTrue(any(call.args[0][:4] == ["git", "add", "-A", "--"] for call in run.call_args_list))
+        push.assert_called_once_with()
+
     def test_pr_body_preserves_machine_readable_variant_metadata(self) -> None:
         records = [
             {

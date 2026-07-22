@@ -93,12 +93,16 @@ _No response_
         }
         saved_entry: dict = {}
 
-        def capture_entry(entry: dict) -> None:
+        def capture_entry(entry: dict, issue_number: int) -> str:
             saved_entry.update(entry)
+            self.assertEqual(42, issue_number)
+            return ".github/translation-reports/42.json"
 
         with tempfile.TemporaryDirectory() as tmp, mock.patch.object(
             bot, "load_index", return_value={"entries": [existing]}
-        ), mock.patch.object(bot, "upsert_index_entry", side_effect=capture_entry):
+        ), mock.patch.object(bot, "write_pending_report", side_effect=capture_entry), mock.patch.object(
+            bot, "upsert_index_entry"
+        ) as upsert_index:
             old_cwd = Path.cwd()
             try:
                 os.chdir(tmp)
@@ -111,6 +115,8 @@ _No response_
         self.assertEqual("possibly_ineffective", saved_entry["report"]["type"])
         self.assertNotIn("outdated", saved_entry)
         self.assertEqual("报告错误", result["pr_labels"])
+        self.assertEqual(".github/translation-reports/42.json", result["report_path"])
+        upsert_index.assert_not_called()
         self.assertIn("## Achievement Translation Error Report", pr_body)
         self.assertIn("- Report type: `possibly_ineffective`", pr_body)
 

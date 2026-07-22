@@ -22,6 +22,7 @@ INDEX_PATH = REPO_ROOT / "index.json"
 HUMAN_INDEX_PATH = REPO_ROOT / "INDEX.md"
 HUMAN_INDEX_EN_PATH = REPO_ROOT / "INDEX_EN.md"
 FILES_ROOT = REPO_ROOT / "files"
+PENDING_REPORTS_DIR = Path(".github") / "translation-reports"
 
 NEW_LABEL = "翻译投稿"
 UPDATE_LABEL = "更新文件"
@@ -814,6 +815,29 @@ def upsert_index_entry(entry: dict[str, Any]) -> None:
     index["entries"] = [item for item in index.get("entries", []) if str(item.get("game_id")) != game_id] + [entry]
     write_index(index)
     write_human_index(index)
+
+
+def pending_report_relative_path(issue_number: int) -> Path:
+    if issue_number < 1:
+        raise ValueError("source issue number must be positive")
+    return PENDING_REPORTS_DIR / f"{issue_number}.json"
+
+
+def write_pending_report(entry: dict[str, Any], issue_number: int) -> str:
+    """Write the review artifact without changing the live library index."""
+    relative_path = pending_report_relative_path(issue_number)
+    path = REPO_ROOT / relative_path
+    report = entry_problem_report(entry)
+    payload = {
+        "format_version": "1.0.0",
+        "game_id": str(entry.get("game_id") or ""),
+        "game_name": str(entry.get("game_name") or ""),
+        "store_url": str(entry.get("store_url") or ""),
+        "report": report,
+    }
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return relative_path.as_posix()
 
 
 def escape_table(value: str) -> str:
@@ -1764,10 +1788,9 @@ def validate_outdated_report(event: dict[str, Any]) -> dict[str, Any]:
         "reason": reason,
         "reference": source,
     }
-    entry.pop("outdated", None)
-    upsert_index_entry(entry)
-
     issue_number = int(issue["number"])
+    entry.pop("outdated", None)
+    report_path = write_pending_report(entry, issue_number)
     result = {
         "ok": True,
         "kind": "outdated",
@@ -1778,6 +1801,7 @@ def validate_outdated_report(event: dict[str, Any]) -> dict[str, Any]:
         "game_id": game_id,
         "game_name": entry["game_name"],
         "report_state": state,
+        "report_path": report_path,
     }
     Path("submission_result.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     Path("pr_title.txt").write_text(result["pr_title"] + "\n", encoding="utf-8")
