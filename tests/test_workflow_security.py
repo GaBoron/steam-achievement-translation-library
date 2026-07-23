@@ -44,8 +44,13 @@ class WorkflowSecurityTests(unittest.TestCase):
         contribution = (ROOT / ".github" / "workflows" / "translation-contribution.yml").read_text(
             encoding="utf-8"
         )
+        report_directory_anchor = ROOT / ".github" / "translation-reports" / ".gitkeep"
 
         self.assertIn(".github/translation-reports/**", contribution)
+        self.assertTrue(
+            report_directory_anchor.is_file(),
+            "The optional report path must exist so translation-only PR creation can stage it safely.",
+        )
 
     def test_merge_remains_ruleset_gated_and_waits_before_finalizing(self) -> None:
         workflow = (ROOT / ".github" / "workflows" / "translation-contribution.yml").read_text(
