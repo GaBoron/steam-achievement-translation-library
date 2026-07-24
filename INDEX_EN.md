@@ -4,7 +4,7 @@
 
 > After downloading, compare the file size with the index. If the size is clearly wrong, do not replace your local file. Use files marked as “May not work” or “Possibly outdated” with extra care.
 
-Accepted games: **285**.
+Accepted games: **286**.
 
 Status guide: Current; May not work (the file passes repository checks, but game or platform behavior may prevent it from taking effect); Possibly outdated (a game update may have invalidated the file).
 
@@ -22,6 +22,7 @@ See [README_EN.md](README_EN.md) for the full find, download, and replacement fl
 | Steam app ID | Game | Status | Last updated | Contributors | Languages | Achievements | File | Source PR | Issue report | Store |
 | --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- | --- |
 | `2667970` | 100 Asian Cats 100只亚洲猫 | Current | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 100 | [UserGameStatsSchema_2667970.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2667970/UserGameStatsSchema_2667970.bin) (30 KB) | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/2667970/) |
+| `1966900` | 20 Minutes Till Dawn 黎明前20分钟 | Current | 2026-07-24T12:56:33Z | [@skeyep](https://github.com/skeyep) | schinese | 34 | [UserGameStatsSchema_1966900.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1966900/UserGameStatsSchema_1966900.bin) (15 KB) | [#283](https://github.com/GaBoron/steam-achievement-translation-library/pull/283) |  | [Steam](https://store.steampowered.com/app/1966900/20_Minutes_Till_Dawn/) |
 | `2570630` | 20 Small Mazes 20个小迷宫 | Current | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 1 | [UserGameStatsSchema_2570630.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2570630/UserGameStatsSchema_2570630.bin) (513 B) | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/2570630/) |
 | `335190` | 200% Mixed Juice! 200%混合果汁！ | Current | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 23 | [UserGameStatsSchema_335190.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/335190/UserGameStatsSchema_335190.bin) (10 KB) | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/335190/) |
 | `648580` | 428: Shibuya Scramble 428：被封锁的涩谷 | Current | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 27 | [UserGameStatsSchema_648580.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/648580/UserGameStatsSchema_648580.bin) (13 KB) | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/648580/) |

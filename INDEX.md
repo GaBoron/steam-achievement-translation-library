@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**285** 个游戏。
+当前收录：**286** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -22,6 +22,7 @@
 | Steam app ID | 游戏 | 状态 | 最近更新 | 贡献者 | 语言 | 成就数 | 文件 | 原 PR | 错误报告 | 商店 |
 | --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- | --- |
 | `2667970` | 100 Asian Cats 100只亚洲猫 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 100 | [UserGameStatsSchema_2667970.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2667970/UserGameStatsSchema_2667970.bin)（30 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/2667970/) |
+| `1966900` | 20 Minutes Till Dawn 黎明前20分钟 | 可用 | 2026-07-24T12:56:33Z | [@skeyep](https://github.com/skeyep) | schinese | 34 | [UserGameStatsSchema_1966900.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1966900/UserGameStatsSchema_1966900.bin)（15 KB） | [#283](https://github.com/GaBoron/steam-achievement-translation-library/pull/283) |  | [Steam](https://store.steampowered.com/app/1966900/20_Minutes_Till_Dawn/) |
 | `2570630` | 20 Small Mazes 20个小迷宫 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 1 | [UserGameStatsSchema_2570630.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2570630/UserGameStatsSchema_2570630.bin)（513 B） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/2570630/) |
 | `335190` | 200% Mixed Juice! 200%混合果汁！ | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 23 | [UserGameStatsSchema_335190.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/335190/UserGameStatsSchema_335190.bin)（10 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/335190/) |
 | `648580` | 428: Shibuya Scramble 428：被封锁的涩谷 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 27 | [UserGameStatsSchema_648580.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/648580/UserGameStatsSchema_648580.bin)（13 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/648580/) |
