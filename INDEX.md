@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**294** 个游戏。
+当前收录：**295** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -146,6 +146,7 @@
 | `220240` | Far Cry 3 孤岛惊魂3 | 可用 | 2026-07-22T05:48:26Z | [@HideonOcean](https://github.com/HideonOcean) | schinese | 44 | [UserGameStatsSchema_220240.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/220240/UserGameStatsSchema_220240.bin)（59 KB） | [#265](https://github.com/GaBoron/steam-achievement-translation-library/pull/265) |  | [Steam](https://store.steampowered.com/app/220240/Far_Cry_3/) |
 | `298110` | Far Cry 4 孤岛惊魂4 | 可用 | 2026-07-22T06:30:40Z | [@HideonOcean](https://github.com/HideonOcean) | schinese | 57 | [UserGameStatsSchema_298110.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/298110/UserGameStatsSchema_298110.bin)（111 KB） | [#254](https://github.com/GaBoron/steam-achievement-translation-library/pull/254) |  | [Steam](https://store.steampowered.com/app/298110) |
 | `233270` | Far Cry: Blood Dragon 孤岛惊魂:血龙 | 可用 | 2026-07-22T06:32:16Z | [@HideonOcean](https://github.com/HideonOcean) | schinese | 19 | [UserGameStatsSchema_233270.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/233270/UserGameStatsSchema_233270.bin)（17 KB） | [#255](https://github.com/GaBoron/steam-achievement-translation-library/pull/255) |  | [Steam](https://store.steampowered.com/app/233270/Far_Cry_3__Blood_Dragon/) |
+| `678030` | FAST & FURIOUS CROSSROADS 玩命关头：十字路口 | 可用 | 2026-07-24T13:09:59Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 51 | [UserGameStatsSchema_678030.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/678030/UserGameStatsSchema_678030.bin)（60 KB） | [#304](https://github.com/GaBoron/steam-achievement-translation-library/pull/304) |  | [Steam](https://store.steampowered.com/app/678030/FAST_and_FURIOUS_CROSSROADS/) |
 | `511680` | Fate/EXTELLA 命运/新章 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 53 | [UserGameStatsSchema_511680.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/511680/UserGameStatsSchema_511680.bin)（34 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/511680/) |
 | `224760` | FEZ 菲斯 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 12 | [UserGameStatsSchema_224760.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/224760/UserGameStatsSchema_224760.bin)（11 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/224760/) |
 | `239120` | Final Fantasy III (3D Remake) 最终幻想3（3D重制版） | 可用 | 2026-07-07T12:35:16Z | [@AioriaRegulus](https://github.com/AioriaRegulus) | english, french, german, italian, japanese, schinese, spanish | 18 | [UserGameStatsSchema_239120.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/239120/UserGameStatsSchema_239120.bin)（14 KB） | [#51](https://github.com/GaBoron/steam-achievement-translation-library/pull/51) |  | [Steam](https://store.steampowered.com/app/239120/) |
