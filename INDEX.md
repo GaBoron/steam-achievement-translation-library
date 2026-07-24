@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**289** 个游戏。
+当前收录：**290** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -102,6 +102,7 @@
 | `970570` | CHAOS;CHILD 混沌之子 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 34 | [UserGameStatsSchema_970570.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/970570/UserGameStatsSchema_970570.bin)（15 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/970570/) |
 | `518060` | Chess Ultra 终极国际象棋 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 38 | [UserGameStatsSchema_518060.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/518060/UserGameStatsSchema_518060.bin)（39 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/518060/) |
 | `678960` | CODE VEIN 噬血代码 | 可用 | 2026-07-04T17:21:08Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 43 | [UserGameStatsSchema_678960.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/678960/UserGameStatsSchema_678960.bin)（55 KB） | [#24](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/24) |  | [Steam](https://store.steampowered.com/app/678960/CODE_VEIN/) |
+| `231430` | Company of Heroes 2 英雄连2 | 可用 | 2026-07-24T13:02:32Z | [@skeyep](https://github.com/skeyep) | schinese | 452 | [UserGameStatsSchema_231430.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/231430/UserGameStatsSchema_231430.bin)（600 KB） | [#291](https://github.com/GaBoron/steam-achievement-translation-library/pull/291) |  | [Steam](https://store.steampowered.com/app/231430/) |
 | `1273260` | Corpse Party (2021) 尸体派对（2021） | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 33 | [UserGameStatsSchema_1273260.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1273260/UserGameStatsSchema_1273260.bin)（24 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1273260/) |
 | `2096600` | Crysis 2 Remastered 孤岛危机2：复刻版 | 可用 | 2026-07-09T16:32:36Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 35 | [UserGameStatsSchema_2096600.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2096600/UserGameStatsSchema_2096600.bin)（39 KB） | [#91](https://github.com/GaBoron/steam-achievement-translation-library/pull/91) |  | [Steam](https://store.steampowered.com/app/2096600/Crysis_2_Remastered/) |
 | `2096610` | Crysis 3 Remastered 孤岛危机3：复刻版 | 可用 | 2026-07-09T16:33:32Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 37 | [UserGameStatsSchema_2096610.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2096610/UserGameStatsSchema_2096610.bin)（41 KB） | [#93](https://github.com/GaBoron/steam-achievement-translation-library/pull/93) |  | [Steam](https://store.steampowered.com/app/2096610/Crysis_3_Remastered/) |
