@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**279** 个游戏。
+当前收录：**280** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -117,6 +117,7 @@
 | `2213190` | DEATH NOTE 死亡笔记：暗影任务 | 可用 | 2026-07-15T04:13:35Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 40 | [UserGameStatsSchema_2213190.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2213190/UserGameStatsSchema_2213190.bin)（51 KB） | [#123](https://github.com/GaBoron/steam-achievement-translation-library/pull/123) |  | [Steam](https://store.steampowered.com/app/2213190/DEATH_NOTE/) |
 | `871980` | Digimon Survive 数码宝贝 绝境求生 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 46 | [UserGameStatsSchema_871980.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/871980/UserGameStatsSchema_871980.bin)（46 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/871980/) |
 | `321040` | DiRT 3 Complete Edition 尘埃3 | 可用 | 2026-07-24T12:45:07Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 60 | [UserGameStatsSchema_321040.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/321040/UserGameStatsSchema_321040.bin)（46 KB） | [#296](https://github.com/GaBoron/steam-achievement-translation-library/pull/296) |  | [Steam](https://store.steampowered.com/app/321040/) |
+| `421020` | DiRT 4 尘埃4 | 可用 | 2026-07-24T12:47:42Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 48 | [UserGameStatsSchema_421020.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/421020/UserGameStatsSchema_421020.bin)（46 KB） | [#273](https://github.com/GaBoron/steam-achievement-translation-library/pull/273) |  | [Steam](https://store.steampowered.com/app/421020/DiRT_4/) |
 | `405900` | Disgaea PC 魔界战记 PC | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 30 | [UserGameStatsSchema_405900.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/405900/UserGameStatsSchema_405900.bin)（19 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/405900/) |
 | `403640` | Dishonored 2 耻辱2 | 可用 | 2026-07-17T15:05:57Z | [@leoncranston777](https://github.com/leoncranston777) | schinese | 50 | [UserGameStatsSchema_403640.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/403640/UserGameStatsSchema_403640.bin)（49 KB） | [#176](https://github.com/GaBoron/steam-achievement-translation-library/pull/176) |  | [Steam](https://store.steampowered.com/app/403640/Dishonored_2/) |
 | `205100` | Dishonored 耻辱 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 80 | [UserGameStatsSchema_205100.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/205100/UserGameStatsSchema_205100.bin)（60 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/205100/) |
