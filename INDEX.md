@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**282** 个游戏。
+当前收录：**283** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -216,6 +216,7 @@
 | `91600` | Sanctum 幽闭圣地 | 可用 | 2026-07-20T12:14:51Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 100 | [UserGameStatsSchema_91600.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/91600/UserGameStatsSchema_91600.bin)（45 KB） | [#240](https://github.com/GaBoron/steam-achievement-translation-library/pull/240) |  | [Steam](https://store.steampowered.com/app/91600/Sanctum/) |
 | `8930` | Sid Meier's Civilization® V 文明5 | 可用 | 2026-07-18T09:51:24Z | [@GaBoron](https://github.com/GaBoron) | schinese | 286 | [UserGameStatsSchema_8930.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/8930/UserGameStatsSchema_8930.bin)（415 KB） | [#202](https://github.com/GaBoron/steam-achievement-translation-library/pull/202) |  | [Steam](https://store.steampowered.com/app/8930/) |
 | `282210` | Sid Meier's Starships 席德·梅尔的星际战舰 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 31 | [UserGameStatsSchema_282210.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/282210/UserGameStatsSchema_282210.bin)（39 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/282210/) |
+| `1802720` | Sixtar Gate: STARTRAIL 六星门：星轨 | 可用 | 2026-07-24T12:54:05Z | [@skeyep](https://github.com/skeyep) | schinese | 95 | [UserGameStatsSchema_1802720.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1802720/UserGameStatsSchema_1802720.bin)（56 KB） | [#277](https://github.com/GaBoron/steam-achievement-translation-library/pull/277) |  | [Steam](https://store.steampowered.com/app/1802720/) |
 | `202170` | Sleeping Dogs 热血无赖：原版 | 可用 | 2026-07-05T23:31:03Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 59 | [UserGameStatsSchema_202170.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/202170/UserGameStatsSchema_202170.bin)（50 KB） | [#22](https://github.com/GaBoron/steam-achievement-translation-library/pull/22) |  | [Steam](https://store.steampowered.com/app/202170/Sleeping_Dogs/) |
 | `307690` | Sleeping Dogs: Definitive Edition 热血无赖：终极版 | 可用 | 2026-07-05T23:09:09Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 59 | [UserGameStatsSchema_307690.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/307690/UserGameStatsSchema_307690.bin)（57 KB） | [#20](https://github.com/GaBoron/steam-achievement-translation-library/pull/20) |  | [Steam](https://store.steampowered.com/app/307690/Sleeping_Dogs_Definitive_Edition/) |
 | `433340` | Slime Rancher 史莱姆牧场 | 可用 | 2026-07-16T03:42:23Z | [@OlderBiao](https://github.com/OlderBiao) | schinese | 57 | [UserGameStatsSchema_433340.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/433340/UserGameStatsSchema_433340.bin)（22 KB） | [#144](https://github.com/GaBoron/steam-achievement-translation-library/pull/144) |  | [Steam](https://store.steampowered.com/app/433340/Slime_Rancher/) |
