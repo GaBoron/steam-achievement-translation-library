@@ -4,9 +4,8 @@
 
 本项目是 **Steam 成就翻译数据仓库**，用于集中收录社区提交的 `UserGameStatsSchema_<app_id>.bin` 翻译文件，并维护可搜索索引、投稿模板和自动化初审流程。
 
-> - 想直接查找、安装和恢复现成翻译，请使用 [Steam 成就翻译安装器](https://github.com/GaBoron/steam-achievement-translation-installer) **（推荐普通用户）**
-> - 使用 AI skill 制作或审核翻译请前往 [GaBoron/steam-achievement-localizer-skill](https://github.com/GaBoron/steam-achievement-localizer-skill)
-> - 使用本地软件手动进行本地化操作请前往 [PanVena/SteamAchievementLocalizer](https://github.com/PanVena/SteamAchievementLocalizer)  
+> - 想直接查找、安装、恢复和编辑现成翻译，请使用 [Steam 成就翻译安装器](https://github.com/GaBoron/steam-achievement-translation-installer) **（推荐普通用户）**
+> - 使用 AI skill 制作或审核翻译请前往 [GaBoron/steam-achievement-localizer-skill](https://github.com/GaBoron/steam-achievement-localizer-skill) 
 > 本仓库只保存翻译数据和数据投稿流程。
 
 ## 快速入口
