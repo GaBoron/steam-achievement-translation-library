@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**299** 个游戏。
+当前收录：**300** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -225,6 +225,7 @@
 | `497780` | Recursed 递归 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 17 | [UserGameStatsSchema_497780.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/497780/UserGameStatsSchema_497780.bin)（16 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/497780/) |
 | `1580240` | Rune Factory 4 Special 符文工房4 豪华版 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 38 | [UserGameStatsSchema_1580240.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1580240/UserGameStatsSchema_1580240.bin)（38 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1580240/) |
 | `91600` | Sanctum 幽闭圣地 | 可用 | 2026-07-20T12:14:51Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 100 | [UserGameStatsSchema_91600.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/91600/UserGameStatsSchema_91600.bin)（45 KB） | [#240](https://github.com/GaBoron/steam-achievement-translation-library/pull/240) |  | [Steam](https://store.steampowered.com/app/91600/Sanctum/) |
+| `1769170` | Shattered Pixel Dungeon 破碎的像素地牢 | 可用 | 2026-07-26T09:25:35Z | [@GaBoron](https://github.com/GaBoron) | english, schinese | 98 | [UserGameStatsSchema_1769170.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1769170/UserGameStatsSchema_1769170.bin)（38 KB） | [#326](https://github.com/GaBoron/steam-achievement-translation-library/pull/326) |  | [Steam](https://store.steampowered.com/app/1769170/Shattered_Pixel_Dungeon/) |
 | `8930` | Sid Meier's Civilization® V 文明5 | 可用 | 2026-07-18T09:51:24Z | [@GaBoron](https://github.com/GaBoron) | schinese | 286 | [UserGameStatsSchema_8930.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/8930/UserGameStatsSchema_8930.bin)（415 KB） | [#202](https://github.com/GaBoron/steam-achievement-translation-library/pull/202) |  | [Steam](https://store.steampowered.com/app/8930/) |
 | `282210` | Sid Meier's Starships 席德·梅尔的星际战舰 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 31 | [UserGameStatsSchema_282210.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/282210/UserGameStatsSchema_282210.bin)（39 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/282210/) |
 | `1802720` | Sixtar Gate: STARTRAIL 六星门：星轨 | 可用 | 2026-07-24T12:54:05Z | [@skeyep](https://github.com/skeyep) | schinese | 95 | [UserGameStatsSchema_1802720.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1802720/UserGameStatsSchema_1802720.bin)（56 KB） | [#277](https://github.com/GaBoron/steam-achievement-translation-library/pull/277) |  | [Steam](https://store.steampowered.com/app/1802720/) |
