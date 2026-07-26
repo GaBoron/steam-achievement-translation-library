@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**296** 个游戏。
+当前收录：**297** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -315,5 +315,6 @@
 | `1237950` | 星球大战：前线2（2017） | 可用 | 2026-07-05T00:28:44Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 43 | [UserGameStatsSchema_1237950.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1237950/UserGameStatsSchema_1237950.bin)（62 KB） | [#53](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/53) |  | [Steam](https://store.steampowered.com/app/1237950/STAR_WARS__II/) |
 | `1449690` | 行尸走肉：终极系列合集 | 可用 | 2026-07-16T03:39:16Z | [@dexyrezz](https://github.com/dexyrezz) | english, schinese | 23 | [UserGameStatsSchema_1449690.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1449690/UserGameStatsSchema_1449690.bin)（8 KB） | [#156](https://github.com/GaBoron/steam-achievement-translation-library/pull/156) |  | [Steam](https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/) |
 | `579180` | 伊苏VIII：丹娜的陨涕日 | 可用 | 2026-07-13T10:06:55Z | [@Zerosaves](https://github.com/Zerosaves) | english, japanese, schinese | 54 | [UserGameStatsSchema_579180.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/579180/UserGameStatsSchema_579180.bin)（30 KB） | [#99](https://github.com/GaBoron/steam-achievement-translation-library/pull/99) |  | [Steam](https://store.steampowered.com/app/579180/Ys_VIII_Lacrimosa_of_DANA/) |
+| `233130` | 影子武士1 | 可用 | 2026-07-26T03:37:10Z | [@Dadada2323](https://github.com/Dadada2323) | schinese | 92 | [UserGameStatsSchema_233130.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/233130/UserGameStatsSchema_233130.bin)（110 KB） | [#314](https://github.com/GaBoron/steam-achievement-translation-library/pull/314) |  | [Steam](https://store.steampowered.com/app/233130/_/) |
 | `1776970` | 月に寄りそう乙女の作法 近月少女的礼仪 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 38 | [UserGameStatsSchema_1776970.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1776970/UserGameStatsSchema_1776970.bin)（17 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1776970/) |
 | `3336590` | 噗哟！动脑子 | 可用 | 2026-07-14T02:39:21Z | [@GaBoron](https://github.com/GaBoron) | english, schinese | 6 | [UserGameStatsSchema_3336590.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/3336590/UserGameStatsSchema_3336590.bin)（2 KB） | [#111](https://github.com/GaBoron/steam-achievement-translation-library/pull/111) |  | [Steam](https://store.steampowered.com/app/3336590/) |
