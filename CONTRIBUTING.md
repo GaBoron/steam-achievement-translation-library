@@ -2,7 +2,7 @@
 
 感谢你为 Steam 成就翻译库投稿。为了让文件能被自动检查并进入索引，请尽量按下面的格式准备 issue 和附件。
 
-如果你还不知道如何翻译，可以前往 [Steam 成就翻译管理器](github.com/GaBoron?steam-achievement-translation-installer) 进行手动翻译或使用 [AI Skill](github.com/Gaboron/steam-achievement-localizer-skill) 进行自动化翻译。
+如果你还不知道如何翻译，可以前往 [Steam 成就翻译管理器](https://github.com/GaBoron?steam-achievement-translation-installer) 进行手动翻译或使用 [AI Skill](https://github.com/Gaboron/steam-achievement-localizer-skill) 进行自动化翻译。
 
 ## 投稿前检查
 
