@@ -1,74 +1,67 @@
 # 贡献指南
 
-感谢你为 Steam 成就翻译库投稿。为了让文件能被自动检查并进入索引，请尽量按下面的格式准备 issue 和附件。
+感谢你为 Steam 成就翻译库投稿。表单提交后，机器人会校验附件并创建审核 PR；通常不需要手工 fork 仓库。
 
-如果你还不知道如何翻译，可以前往 [Steam 成就翻译管理器](https://github.com/GaBoron/steam-achievement-translation-installer) 进行手动翻译或使用 [AI Skill](https://github.com/Gaboron/steam-achievement-localizer-skill) 进行自动化翻译。
+## 1. 准备译本
 
-## 投稿前检查
+推荐使用以下工具生成符合投稿格式的文件：
+
+- [Steam 成就翻译管理器](https://github.com/GaBoron/steam-achievement-translation-installer)：适合本地可视化编辑，可直接导出标准 BIN 或投稿 ZIP。
+- [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill)：适合使用 Codex 研究、翻译和验证，成品位于项目的 `final/` 目录。
+
+也可以使用其他编辑器，但提交前必须满足：
 
 | 检查项 | 要求 |
 | --- | --- |
-| Steam app ID | 在 [INDEX.md](INDEX.md) 或 `index.json` 搜索数字 ID，确认应使用“新投稿”还是“更新已有文件” |
-| 文件名 | 必须是 `UserGameStatsSchema_<app_id>.bin` |
-| 压缩包 | 上传文件必须是 `UserGameStatsSchema_<app_id>.zip` 。单版本 ZIP 只放一个同名 `.bin` ；多版本 ZIP 使用 `translation-variants.json` 声明全部版本 |
-| 语言字段 | 写出文件中已经完整包含“成就名称”和“成就描述”的全部 Steam 语言代码；多个代码必须用半角逗号分隔 |
-| 游戏名 | 按 Steam 商店显示填写；如果 Steam 显示名不是中文，可以写成“Steam 原名 中文译名” |
+| Steam app ID | 与商店地址、BIN 文件名和 ZIP 文件名中的数字一致 |
+| BIN 文件名 | `UserGameStatsSchema_<app_id>.bin` |
+| ZIP 文件名 | `UserGameStatsSchema_<app_id>.zip` |
+| 单版本 ZIP | 根目录只能包含一个同名 BIN |
+| 语言列表 | 填写文件中名称和描述均完整的全部 Steam 语言代码，以半角逗号分隔 |
+| 游戏名 | 使用 Steam 商店名称；需要时可在原名后补充中文译名 |
 
-## 翻译请愿
+先在 [INDEX.md](INDEX.md) 搜索 app ID，确认这是新游戏还是已有条目的更新。
 
-如果翻译库还没有某个游戏的翻译，而你只有 Steam 生成的原始 schema，可以使用“翻译请愿”issue 模板：
+## 2. 选择入口
 
-1. 填写游戏名、Steam app ID、Steam 商店地址和希望翻译到的 Steam 语言代码。
-2. 把原始 `UserGameStatsSchema_<app_id>.bin` 压缩为 `UserGameStatsSchema_<app_id>.zip` 后上传；ZIP 内必须且只能包含这个同名 BIN，app ID 必须与表单一致。
-3. 提交后会自动添加 `翻译请愿` 标签；如果仓库中还没有这个标签，工作流会先自动创建。
-4. 自动化会先检查 `index.json` 和以 `main` 为目标的开放翻译 PR。只有两处都没有该 Steam app ID 时，请愿才会继续处理。
-5. 如果已经收录，机器人会评论现有翻译的下载地址并关闭 issue；如果已有开放投稿 PR，则会评论 PR 地址并关闭 issue。
-6. 通过重复检查后，自动化会检查表单、ZIP 结构、文件名、Binary KeyValues 可解析性、字节级 roundtrip、成就记录和成就 ID 唯一性。
-7. 识别成功后，机器人会评论确认请愿已收到，issue 保持打开。
-8. 同一 Steam app ID 的新翻译投稿 PR 合并后，机器人会 @贡献者、提供下载链接并自动关闭所有匹配的请愿 issue。
+| 情况 | 提交入口 |
+| --- | --- |
+| 只有 Steam 原始 schema，希望有人翻译 | [翻译请愿](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_petition_zh.yml) |
+| 已完成翻译，索引中没有该 app ID | [提交新翻译](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_contribution_zh.yml) |
+| 已完成翻译，索引中已有该 app ID | [更新已有翻译](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_zh.yml) |
+| 译本可能过期或不生效，但没有新版文件 | [报告文件错误](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_zh.yml) |
 
-翻译请愿只用于提出需求，不会直接把原始文件加入翻译库。已经完成翻译的文件仍须通过“提交 Steam 成就翻译”模板投稿和审核。
+翻译请愿只记录需求，原始 schema 不会直接进入翻译库。更新已有译本时，请在摘要中说明新增、删除或修改了哪些内容。
 
-## 新投稿
+## 3. 提交与修正
 
-适用于库里还没有该 Steam app ID 的游戏。
+1. 填写对应 issue 表单并上传 ZIP。
+2. 等待机器人检查文件结构、Binary KeyValues roundtrip、成就 ID 和语言覆盖。
+3. 检查通过后，机器人会创建 PR 并请求维护者审核。
 
-1. 打开 issue 模板“提交 Steam 成就翻译”。
-2. 填写游戏名、Steam app ID、Steam 商店地址和语言代码。
-3. 上传 `UserGameStatsSchema_<app_id>.zip`。
-4. 自动化会检查 app ID、商店链接、ZIP 结构、schema 可解析性、成就 ID 唯一性和语言覆盖。
-5. 检查通过后会创建 PR，并自动请求维护者审查。
+检查失败时，直接按机器人评论修正。来源 issue 仍打开时可以编辑表单内容；PR 创建后，请在 PR 评论中使用命令：
 
-如果 `index.json` 或正在打开的翻译投稿 PR 中已经有该 app ID，新投稿会被自动评论、关闭并锁定。已合并的游戏请改用“更新已有 Steam 成就翻译”模板；尚未合并的游戏请在现有 PR 中继续处理。
+| 命令 | 用途 |
+| --- | --- |
+| `/update doc` + ZIP 附件 | 替换提交文件或完整多版本包 |
+| `/update doc <variant_id>` + ZIP 附件 | 只替换已有的指定版本 |
+| `/update id`、`name`、`store`、`languages` + 新值 | 修改对应字段；`languages` 会替换完整语言列表 |
+| `/update summary <摘要>` | 修改更新已有译本的摘要 |
+| `/force-refresh` | 内容正确但自动化状态异常时，完整重试检查 |
 
-如果同一类型、同一 Steam app ID 的旧 issue 仍处于 open 状态，而投稿者又新建了一个 issue，机器人会保留编号较大的新 issue，并把所有编号更小且仍为 open 的同类 issue 标记为重复项后关闭。自动化不会关闭已经 closed 的 issue、PR、不同类型的 issue、不同 Steam app ID 的 issue，也不会因为编辑或重新打开 issue 而触发这项清理。
+命令和附件必须放在同一条评论中。只有原投稿者、PR 中列出的贡献者或维护者可以修改投稿；具体错误和可用命令以机器人回复为准。
 
-如果自动检查未通过且 issue 仍然 open，可以直接编辑 issue 描述修正字段内容，也可以在评论区使用 `/update <类型> <参数>`；编辑描述时不要改 `###` 字段标题。初审通过后，来源 issue 会被关闭并锁定。此后如果 PR 需要改内容，请在 PR 下评论 `/update <类型> <参数>` 命令。
+## 多版本游戏
 
-## 更新已有文件
-
-适用于库里已经合并过该 Steam app ID，但游戏更新或翻译修正后需要替换文件。
-
-1. 打开 issue 模板“更新已有 Steam 成就翻译”。
-2. 填写同一个 Steam app ID。自动化只检查 `index.json` 中已合并的条目，正在打开的 PR 不算已收录。
-3. 在“更新内容摘要”中说明变化：新增成就、删除成就、修改翻译、补充语言字段或修正错误。
-4. 上传新版 `UserGameStatsSchema_<app_id>.zip`。
-5. 自动化会先和库里的当前文件做字节级比较；如果完全相同，会拒绝创建 PR。
-6. 如果文件不同，PR 描述会列出新增、删除和修改的成就 ID，方便维护者审核。
-
-## 一个游戏包含多个版本
-
-如果同一个 Steam app ID 需要保存多个可独立使用的 schema（例如原版、带解锁条件版或不同发行分支），请把全部版本放进同一个 `UserGameStatsSchema_<app_id>.zip`，并在 ZIP 根目录加入 `translation-variants.json`：
+同一 app ID 需要保存多个可独立使用的 schema 时，把完整版本集合放进一个 ZIP，并在根目录加入 `translation-variants.json`：
 
 ```text
 UserGameStatsSchema_123456.zip
 ├── translation-variants.json
 ├── UserGameStatsSchema_123456.bin
-└── version-description/
+└── branch-name/
     └── UserGameStatsSchema_123456.bin
 ```
-
-清单格式：
 
 ```json
 {
@@ -82,112 +75,27 @@ UserGameStatsSchema_123456.zip
       "note_en": "Original"
     },
     {
-      "variant_id": "version-description",
+      "variant_id": "branch-name",
       "primary": false,
-      "file": "version-description/UserGameStatsSchema_123456.bin",
-      "note_zh": "版本描述",
-      "note_en": "version description"
+      "file": "branch-name/UserGameStatsSchema_123456.bin",
+      "note_zh": "分支版本",
+      "note_en": "Branch version"
     }
   ]
 }
 ```
 
-- 清单支持 1–16 个版本，必须且只能有一个 `primary: true` 的主版本；主版本 ID 固定为 `default`。通常只有多版本投稿需要清单，但把多版本集合缩减为单版本时也应提交只含主版本的清单。
-- 其他 `variant_id` 只能使用小写字母、数字和连字符，文件必须放在同名子目录中。
-- `note_zh` 和 `note_en` 必须填写简短的单行版本说明；索引会用它们帮助用户选择文件。
-- 表单中的语言列表适用于包内所有版本。机器人会逐个检查 roundtrip、唯一成就 ID、语言覆盖、SHA-256 和成就数。
-- Steam 原始 `english` 字段允许官方有意留空描述，但英文名称仍不能为空；其他声明语言仍要求名称和描述都完整。
-- 不同 `variant_id` 不能提交字节级完全相同的文件；没有实际差异的重复版本不会进入索引。
-- 多版本游戏的整包更新必须再次提交完整清单，新增、删除和替换会作为一个版本集合处理。只替换一个现有版本时，在更新模板填写“要更新的版本 ID”，并上传普通单版本 ZIP；此时不能修改全局语言列表。
+- 支持 1–16 个版本，必须且只能有一个 `primary: true` 的 `default` 主版本。
+- 其他 `variant_id` 只能包含小写字母、数字和连字符，并与子目录同名。
+- 每个版本都要填写简短的中英文说明；不同版本不能是相同文件。
+- 完整更新必须重新提交整个版本集合。只替换一个已有版本时，在更新表单填写版本 ID 并上传普通单版本 ZIP。
+- 表单中的语言列表适用于所有版本；单独替换版本时不能修改全局语言列表。
 
-## PR 中的 `/update` 命令
+## 自动检查
 
-PR 创建后，PR 标题和描述由机器人维护。需要修改时，在 PR 评论区使用下面的命令；机器人会更新文件、索引和 PR 描述。
+机器人会检查 app ID 与商店链接、ZIP 安全与大小、Binary KeyValues 解析及字节级 roundtrip、成就 ID 唯一性、语言覆盖和更新差异。请只提交你有权分享的翻译成果。
 
-> [!IMPORTANT]
-> `/update` 后面必须写明类型。单独评论 `/update` 不会更新文件；机器人会回复具体错误。除 `doc` 外，其他类型还必须在同一行写参数。
-
-| 命令 | 作用 |
-| --- | --- |
-| `/update doc` + 附件 | 替换单版本文件，或用带清单的多版本包原子替换完整版本集合 |
-| `/update doc <variant_id>` + 附件 | 只替换多版本 PR 中指定的现有版本；新增版本必须提交完整多版本包 |
-| `/update id <Steam app ID>` | 修改普通投稿/更新 PR 的 Steam app ID，并同步重命名文件路径；报告错误 PR 不支持此命令 |
-| `/update name <游戏名>` | 修改游戏名；如果 Steam 显示名不是中文，可以写“Steam 原名 中文译名” |
-| `/update store <Steam 商店地址>` | 修改 Steam 商店地址，地址中的 app ID 必须和当前 app ID 一致 |
-| `/update languages <语言代码>` | 替换语言代码列表；必须写出文件中实际存在的全部语言，多个代码用半角逗号分隔 |
-| `/update summary <摘要>` | 修改更新 PR 中的“更新内容摘要” |
-| `/update type <outdated 或 possibly_ineffective>` | 修改报告错误 PR 的错误类型 |
-| `/update reason <说明>` | 修改报告错误 PR 的错误说明 |
-| `/update reference <来源>` | 修改报告错误 PR 的参考来源 |
-
-替换文件时，请把命令和附件放在同一条 PR 评论里，例如：
-
-```markdown
-/update doc
-[UserGameStatsSchema_123456.zip](https://github.com/user-attachments/files/.../UserGameStatsSchema_123456.zip)
-```
-
-如果命令类型写错、漏写参数、`/update doc` 没有附加 ZIP，机器人会评论说明错误位置，PR 不会被修改。
-
-在来源 issue 仍然打开时，可使用 `/update variant <variant_id>` 修改“要更新的版本 ID”，使用 `/update variant clear` 清空它；也可以直接使用 `/update doc <variant_id>` 并附加 ZIP，同时更新附件和版本 ID。
-
-为防止第三方篡改投稿，issue 中的 `/update` 仅允许原 issue 投稿者或仓库维护者执行；PR 中的 `/update` 仅允许 PR 描述列出的贡献者、报告错误 PR 的报告者或仓库维护者执行。不同 PR 类型只接受与其内容相关的命令：新投稿不接受 `summary`，报告错误 PR 只接受 `name`、`store`、`type`、`reason` 和 `reference`。
-
-语言更新不是增删模式。评论 `/update languages schinese, english` 表示文件只包含 `schinese` 和 `english`；没写的语言会视为不存在。
-
-## 强制刷新命令
-
-当自动化因临时故障、检查状态未更新或校对请求丢失而需要完整重试时，可在打开的投稿 issue 或机器人创建的翻译 PR 下单独评论 `/force-refresh`：
-
-- Issue：按当前表单内容重新运行检查和校对；通过后重新进入创建 PR 与推送流程。
-- PR：将机器人分支变基到最新 `main`，推送一个新的空提交以重新触发检查，并重新请求维护者校对；检查和批准均通过后继续自动合并与入库推送。
-- 权限与 `/update` 相同：Issue 仅限原投稿者或仓库维护者；PR 仅限 PR 描述中的贡献者、错误报告者或仓库维护者。
-
-命令必须独占评论内容且不带参数。它不会替代内容修正；如果检查报告指出字段或文件有误，请先使用 `/update` 修正。
-
-当维护者请求修改时，PR 会自动加上 `等待更新` label。之后由该投稿的贡献者、错误报告者或仓库维护者在 PR 下评论，机器人会自动移除这个 label；如果评论是 `/update` 命令，机器人还会尝试同步更新 PR。无关用户的评论不会改变标签或投稿内容。
-
-来源 issue 关闭后会锁定；PR 合并后也会锁定。除非是重新提交一个“更新已有 Steam 成就翻译”issue，否则不要再修改已关闭的讨论。
-
-## 投稿者主动关闭 Issue 或 PR
-
-只有原 issue 投稿者可以主动关闭自己的 issue，以及由该 issue 创建的 PR。仓库维护者、机器人、PR 描述中的其他历史贡献者和无关用户都不能执行此命令。
-
-关闭采用两步确认，必须填写原因：
-
-1. 在需要关闭的 issue 或 PR 下新建评论 `/close 关闭原因`。
-2. 等待机器人回复并核对机器人显示的关闭原因。
-3. 机器人回复后，再新建一条评论 `/close confirm`。
-4. 机器人会记录关闭原因，然后立即关闭并锁定该 issue 或 PR。
-
-`confirm` 是唯一的确认词。第一次直接输入 `/close confirm` 会被拒绝，并提示先填写关闭原因。`/close` 缺少关闭原因时不会进入确认流程。
-
-## 报告文件错误
-
-适用于你发现某个已收录文件可能已经过期，或替换后可能不生效，但暂时没有新版文件。
-
-1. 打开 issue 模板“报告成就文件错误”。
-2. 填写已收录的 Steam app ID、商店地址，并选择“文件可能过期”或“文件可能不生效”。
-3. 填写错误说明。过期类可提供游戏更新日期、成就数量变化或公告；不生效类请提供替换步骤、实际结果和复现环境。
-4. 自动化会创建 PR，并按所选类型把索引状态改为“可能过期”或“可能不生效”。
-
-如果你已经准备好新版文件，请直接使用更新模板，不需要先开错误报告。
-
-## 自动化会检查什么
-
-| 检查 | 说明 |
-| --- | --- |
-| ID 与链接 | Steam 商店地址中的 app ID 必须和表单填写一致 |
-| ZIP 安全 | ZIP 内不能有目录穿越、绝对路径、重复路径或清单未声明的文件；多版本解压后总大小不超过 64 MiB |
-| 文件大小 | 上传文件和 schema 文件都有 32 MiB 上限 |
-| 二进制解析 | schema 必须能被 Binary KeyValues 解析器读取并字节级 roundtrip |
-| 成就结构 | 必须能找到成就名称、描述和非空唯一的 API name |
-| 语言覆盖 | 勾选的每个语言字段都必须在每个版本中为每个成就提供名称和描述 |
-| 更新差异 | 更新 issue 必须和库中现有文件不同，并在 PR 中展示新增、删除、修改 |
-
-## 仓库维护与本地检查
-
-本仓库的 workflow 脚本只使用 Python 标准库，自动化固定使用 Python 3.13。提交脚本、工作流、索引或 `files/` 数据修改前，请在仓库根目录运行：
+修改工作流、脚本、索引或 `files/` 数据时，请在仓库根目录运行：
 
 ```bash
 python -m compileall -q workflow-scripts tests
@@ -195,8 +103,4 @@ python -m unittest discover -s tests -v
 python workflow-scripts/check_repository.py
 ```
 
-最后一条命令会检查 `index.json` 结构与排序、所有索引文件路径和大小、SHA-256、Binary KeyValues 字节级 roundtrip、成就 ID/数量、语言覆盖，以及 `INDEX.md` / `INDEX_EN.md` 是否与 JSON 同步。历史数据中的不完整语言字段默认报告为警告，以免破坏已有兼容性；清理完历史数据后可用 `--strict-language-coverage` 将其升级为错误。GitHub Actions 会在 `main` 的 push 和 pull request 上运行同一组检查。
-
-## 版权与来源
-
-请只提交你有权分享的翻译成果。原始游戏内容、成就文本、Steam schema 内容及相关文件仍归对应权利方所有；你提交的自有翻译部分会按 [LICENSE.md](LICENSE.md) 中的贡献许可供社区使用。
+权利与贡献许可见 [LICENSE.md](LICENSE.md)。

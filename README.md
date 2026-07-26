@@ -2,99 +2,35 @@
 
 简体中文 | [English](README_EN.md)
 
-本项目是 **Steam 成就翻译数据仓库**，用于集中收录社区提交的 `UserGameStatsSchema_<app_id>.bin` 翻译文件，并维护可搜索索引、投稿模板和自动化初审流程。
+社区维护的 Steam 成就翻译数据仓库，收录 `UserGameStatsSchema_<app_id>.bin` 文件并生成可搜索索引。
 
-> - 想直接查找、安装、恢复和编辑现成翻译，请使用 [Steam 成就翻译安装器](https://github.com/GaBoron/steam-achievement-translation-installer) **（推荐普通用户）**
-> - 使用 AI skill 制作或审核翻译请前往 [GaBoron/steam-achievement-localizer-skill](https://github.com/GaBoron/steam-achievement-localizer-skill)  
-> 本仓库只保存翻译数据和数据投稿流程。
+## 从这里开始
 
-## 快速入口
-
-| 你想做什么 | 入口 |
+| 需求 | 推荐入口 |
 | --- | --- |
-| 查找翻译 | 打开 [翻译库索引](INDEX.md)，可搜索 Steam app ID、游戏名、贡献者或语言代码 |
-| 安装现成翻译 | 下载 [Steam 成就翻译安装器](https://github.com/GaBoron/steam-achievement-translation-installer/releases/latest)，自动扫描、安装并安全恢复 |
-| 请求尚未收录的翻译 | 使用 issue 模板 [“翻译请愿”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_petition_zh.yml)，上传包含待翻译原始 `.bin` 的 ZIP |
-| 提交新游戏 | 使用 issue 模板 [“提交 Steam 成就翻译”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_contribution_zh.yml) |
-| 更新已收录文件 | 使用 issue 模板 [“更新已有 Steam 成就翻译”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_zh.yml) |
-| 报告文件错误 | 使用 issue 模板 [“报告成就文件错误”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_zh.yml)，可选择“文件可能过期”或“文件可能不生效” |
-| 查看填写规范 | 阅读 [贡献指南](CONTRIBUTING.md) |
-| 新功能请愿 | 使用 issue 模板 [“新功能请愿”](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=feature_petition_zh.yml) |
+| 查找、安装或恢复翻译 | [Steam 成就翻译管理器](https://github.com/GaBoron/steam-achievement-translation-installer/releases/latest) |
+| 编辑本地成就文本 | [Steam 成就翻译管理器](https://github.com/GaBoron/steam-achievement-translation-installer) 的“本地”页面 |
+| 使用 Codex 制作或审核翻译 | [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill) |
+| 浏览或提交社区译本 | [翻译库索引](INDEX.md) · [贡献指南](CONTRIBUTING.md) |
 
-## 使用流程
+## 翻译库操作
 
-### 1. 找到游戏
+- **找译本：**在 [INDEX.md](INDEX.md) 中搜索 Steam app ID；这是最准确的检索方式。多版本游戏请按版本说明选择文件，并留意“可能过期”或“可能不生效”状态。
+- **没有译本：**提交[翻译请愿](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_petition_zh.yml)，并附上 Steam 生成的原始 schema ZIP。
+- **贡献译本：**按照 [贡献指南](CONTRIBUTING.md) 提交[新游戏](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_contribution_zh.yml)或[更新已有文件](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_zh.yml)。
+- **发现问题：**使用[文件错误报告](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_zh.yml)标记过期或不生效的译本；有新版文件时请直接提交更新。
 
-优先使用 Steam app ID。打开游戏的 Steam 商店页，网址里 `/app/` 后面的数字就是 app ID，例如 `https://store.steampowered.com/app/123456/...` 对应 `123456`。
+直接下载文件时，请确认文件名和 app ID 一致。安装、备份与恢复建议交给 [Steam 成就翻译管理器](https://github.com/GaBoron/steam-achievement-translation-installer)，避免手工覆盖错误文件。
 
-打开 [翻译库索引](INDEX.md) 后，用浏览器或 GitHub 页面搜索：
+## 项目协作
 
-| 搜索内容 | 适合场景 |
+| 项目 | 职责 |
 | --- | --- |
-| Steam app ID | 最准确，推荐优先使用 |
-| 游戏名 | 不确定 app ID 时使用；部分条目会同时写原名和中文名 |
-| 语言代码 | 例如 `schinese`、`tchinese`、`japanese` |
-| 贡献者 | 想查某位贡献者提交过哪些文件 |
+| **本仓库** | 保存社区译本、索引和投稿记录 |
+| [Steam 成就翻译管理器](https://github.com/GaBoron/steam-achievement-translation-installer) | 使用本仓库数据完成扫描、预览、安装、编辑、备份与恢复，并可导出投稿 ZIP |
+| [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill) | 查询本仓库参考译本，通过 Codex 研究和制作翻译，输出可由管理器导入或向本仓库投稿的 BIN/ZIP |
 
-找到条目后，先看“状态”和“最近更新”。“可能过期”表示已有用户报告 Steam schema 可能变化；“可能不生效”表示文件通过仓库校验，但已有报告称替换后可能不起作用。两种状态都应谨慎使用。
-
-同一个游戏可能提供多个版本。此时“文件”列会显示多个链接及中文版本说明；请选择与你的游戏分支或用途匹配的文件，不能只凭文件名区分。
-
-### 2. 下载文件
-
-优先在索引表格的“文件”列点击 `UserGameStatsSchema_<app_id>.bin`。索引中的主下载入口使用 jsDelivr，并指向当前 `main` 分支的对应文件。
-
-下载后确认三件事：
-
-| 检查项 | 说明 |
-| --- | --- |
-| 文件名 | 应保持 `UserGameStatsSchema_<app_id>.bin`，不要保存成 `.txt`、`.html` 或带额外后缀 |
-| app ID | 文件名里的数字必须和你要替换的游戏一致 |
-| 文件大小 | 应和索引“文件”列标注的大小一致；大小明显不对时不要替换本地文件 |
-
-如果索引里的下载链接无法使用，可以进入仓库的 `files/<app_id>/` 目录，根据游戏 app ID 找到对应 `UserGameStatsSchema_<app_id>.bin` 并自行下载。
-
-### 3. 找到 Steam 本地文件
-
-Steam 本地 schema 通常在 Steam 安装目录下：
-
-```text
-<Steam 安装目录>/appcache/stats/UserGameStatsSchema_<app_id>.bin
-```
-
-Windows 常见位置：
-
-```text
-C:/Program Files (x86)/Steam/appcache/stats/UserGameStatsSchema_<app_id>.bin
-C:/Program Files/Steam/appcache/stats/UserGameStatsSchema_<app_id>.bin
-```
-
-注意：这个文件通常不在游戏安装目录，也不在 `steamapps/common/<游戏名>` 下面。自定义 Steam 游戏库位置一般不会改变 `appcache/stats` 的位置。
-
-如果找不到文件：
-
-1. 启动 Steam。
-2. 启动对应游戏并进入一次成就或主菜单流程，让 Steam 生成/刷新 schema 缓存。
-3. 关闭游戏和 Steam。
-4. 在 Steam 安装目录下搜索 `UserGameStatsSchema_<app_id>.bin`。
-
-也可以使用 [steam-achievement-localizer-skill](https://github.com/GaBoron/steam-achievement-localizer-skill) 里的工具定位：
-
-```bash
-python scripts/steam_bkv_tool.py find-schema --game-id <app_id>
-```
-
-### 4. 替换并使用
-
-替换前请先关闭 Steam 和游戏，并备份原文件，例如复制成：
-
-```text
-UserGameStatsSchema_<app_id>.bin.bak
-```
-
-然后把从本仓库下载的 `UserGameStatsSchema_<app_id>.bin` 放到本地 `appcache/stats` 目录，覆盖同名文件。确认文件名完全一致后重新启动 Steam 和游戏。
-
-如果游戏更新、Steam 刷新缓存或成就数量变化，Steam 可能重新生成该文件。遇到翻译失效、成就缺失、替换后不生效或索引状态过旧时，请使用“报告成就文件错误”模板并选择对应类型；如果你已经有新版文件，请使用“更新已有 Steam 成就翻译”模板。
+偏好独立的本地可视化编辑器时，也可以使用 [PanVena/SteamAchievementLocalizer](https://github.com/PanVena/SteamAchievementLocalizer)。
 
 ## 收录统计
 
@@ -102,4 +38,4 @@ UserGameStatsSchema_<app_id>.bin.bak
 
 ## 许可证与权利
 
-本仓库采用混合权利说明，详见 [LICENSE.md](LICENSE.md)。简要来说：workflow 脚本按 MIT 许可提供；贡献者提交的自有翻译部分按 CC BY 4.0 授权给社区使用；原始游戏内容、成就文本、Steam schema 内容及相关文件仍归对应权利方所有。
+详见 [LICENSE.md](LICENSE.md)。工作流脚本采用 MIT；贡献者自有翻译部分采用 CC BY 4.0；原始游戏内容、成就文本和 Steam schema 仍归对应权利方所有。
