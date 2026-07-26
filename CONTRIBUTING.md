@@ -2,12 +2,12 @@
 
 感谢你为 Steam 成就翻译库投稿。表单提交后，机器人会校验附件并创建审核 PR；通常不需要手工 fork 仓库。
 
-## 1. 准备译本
+## 🧰 1. 准备译本
 
 推荐使用以下工具生成符合投稿格式的文件：
 
-- [Steam 成就翻译管理器](https://github.com/GaBoron/steam-achievement-translation-installer)：适合本地可视化编辑，可直接导出标准 BIN 或投稿 ZIP。
-- [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill)：适合使用 Codex 研究、翻译和验证，成品位于项目的 `final/` 目录。
+- 🖥️ [Steam 成就翻译管理器](https://github.com/GaBoron/steam-achievement-translation-installer)：适合本地可视化编辑，可直接导出标准 BIN 或投稿 ZIP。
+- 🤖 [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill)：适合使用 Codex 研究、翻译和验证，成品位于项目的 `final/` 目录。
 
 也可以使用其他编辑器，但提交前必须满足：
 
@@ -22,18 +22,18 @@
 
 先在 [INDEX.md](INDEX.md) 搜索 app ID，确认这是新游戏还是已有条目的更新。
 
-## 2. 选择入口
+## 🧭 2. 选择入口
 
 | 情况 | 提交入口 |
 | --- | --- |
-| 只有 Steam 原始 schema，希望有人翻译 | [翻译请愿](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_petition_zh.yml) |
-| 已完成翻译，索引中没有该 app ID | [提交新翻译](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_contribution_zh.yml) |
-| 已完成翻译，索引中已有该 app ID | [更新已有翻译](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_zh.yml) |
-| 译本可能过期或不生效，但没有新版文件 | [报告文件错误](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_zh.yml) |
+| 💬 只有 Steam 原始 schema，希望有人翻译 | [翻译请愿](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_petition_zh.yml) |
+| ➕ 已完成翻译，索引中没有该 app ID | [提交新翻译](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_contribution_zh.yml) |
+| 🔄 已完成翻译，索引中已有该 app ID | [更新已有翻译](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_zh.yml) |
+| ⚠️ 译本可能过期或不生效，但没有新版文件 | [报告文件错误](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_zh.yml) |
 
 翻译请愿只记录需求，原始 schema 不会直接进入翻译库。更新已有译本时，请在摘要中说明新增、删除或修改了哪些内容。
 
-## 3. 提交与修正
+## 📤 3. 提交与修正
 
 1. 填写对应 issue 表单并上传 ZIP。
 2. 等待机器人检查文件结构、Binary KeyValues roundtrip、成就 ID 和语言覆盖。
@@ -49,9 +49,10 @@
 | `/update summary <摘要>` | 修改更新已有译本的摘要 |
 | `/force-refresh` | 内容正确但自动化状态异常时，完整重试检查 |
 
-命令和附件必须放在同一条评论中。只有原投稿者、PR 中列出的贡献者或维护者可以修改投稿；具体错误和可用命令以机器人回复为准。
+> [!IMPORTANT]
+> 命令和附件必须放在同一条评论中。只有原投稿者、PR 中列出的贡献者或维护者可以修改投稿；具体错误和可用命令以机器人回复为准。
 
-## 多版本游戏
+## 🗂️ 多版本游戏
 
 同一 app ID 需要保存多个可独立使用的 schema 时，把完整版本集合放进一个 ZIP，并在根目录加入 `translation-variants.json`：
 
@@ -91,7 +92,7 @@ UserGameStatsSchema_123456.zip
 - 完整更新必须重新提交整个版本集合。只替换一个已有版本时，在更新表单填写版本 ID 并上传普通单版本 ZIP。
 - 表单中的语言列表适用于所有版本；单独替换版本时不能修改全局语言列表。
 
-## 自动检查
+## ✅ 自动检查
 
 机器人会检查 app ID 与商店链接、ZIP 安全与大小、Binary KeyValues 解析及字节级 roundtrip、成就 ID 唯一性、语言覆盖和更新差异。请只提交你有权分享的翻译成果。
 

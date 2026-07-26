@@ -2,12 +2,12 @@
 
 Thank you for contributing to the Steam Achievement Translation Library. After you submit an issue form, automation validates the attachment and creates a review PR; you normally do not need to fork the repository.
 
-## 1. Prepare A Translation
+## 🧰 1. Prepare A Translation
 
 These tools can produce files in the expected submission format:
 
-- [Steam Achievement Translation Manager](https://github.com/GaBoron/steam-achievement-translation-installer): a visual local editor that exports standard BIN files and submission ZIP files.
-- [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill): researches, translates, and validates files with Codex; completed files are written to the project's `final/` directory.
+- 🖥️ [Steam Achievement Translation Manager](https://github.com/GaBoron/steam-achievement-translation-installer): a visual local editor that exports standard BIN files and submission ZIP files.
+- 🤖 [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill): researches, translates, and validates files with Codex; completed files are written to the project's `final/` directory.
 
 Other editors are also supported, but every submission must meet these requirements:
 
@@ -22,18 +22,18 @@ Other editors are also supported, but every submission must meet these requireme
 
 Search [INDEX_EN.md](INDEX_EN.md) by app ID first to determine whether you are submitting a new game or updating an accepted entry.
 
-## 2. Choose A Submission
+## 🧭 2. Choose A Submission
 
 | Situation | Entry |
 | --- | --- |
-| You only have the original Steam schema and want a translation | [Translation petition](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_petition_en.yml) |
-| Your translation is complete and the app ID is not indexed | [Submit a new translation](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_contribution_en.yml) |
-| Your translation is complete and the app ID is already indexed | [Update an accepted translation](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_en.yml) |
-| A file may be outdated or ineffective, but you have no replacement | [Report a file issue](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_en.yml) |
+| 💬 You only have the original Steam schema and want a translation | [Translation petition](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_petition_en.yml) |
+| ➕ Your translation is complete and the app ID is not indexed | [Submit a new translation](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_contribution_en.yml) |
+| 🔄 Your translation is complete and the app ID is already indexed | [Update an accepted translation](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_en.yml) |
+| ⚠️ A file may be outdated or ineffective, but you have no replacement | [Report a file issue](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_en.yml) |
 
 A petition records demand only; its untranslated schema is not added to the library. For an update, briefly describe the added, removed, or changed content.
 
-## 3. Submit And Correct
+## 📤 3. Submit And Correct
 
 1. Complete the matching issue form and attach the ZIP.
 2. Wait for checks covering file structure, Binary KeyValues roundtrip, achievement IDs, and language coverage.
@@ -49,9 +49,10 @@ Follow the bot's comment when validation fails. While the source issue is open, 
 | `/update summary <summary>` | Change the summary for an accepted-file update |
 | `/force-refresh` | Retry all checks when the content is correct but automation state is stale |
 
-Put the command and attachment in the same comment. Only the original issue author, contributors listed in the PR, or maintainers can modify a submission. The bot's response is the source of truth for a specific error and its available commands.
+> [!IMPORTANT]
+> Put the command and attachment in the same comment. Only the original issue author, contributors listed in the PR, or maintainers can modify a submission. The bot's response is the source of truth for a specific error and its available commands.
 
-## Multiple Versions For One Game
+## 🗂️ Multiple Versions For One Game
 
 If one app ID needs multiple independently usable schemas, put the complete version set in one ZIP and add `translation-variants.json` at the root:
 
@@ -91,7 +92,7 @@ UserGameStatsSchema_123456.zip
 - A full update resubmits the complete version set. To replace one existing variant, enter its ID in the update form and upload a normal single-version ZIP.
 - The form's language list applies to every variant and cannot be changed by a targeted variant update.
 
-## Automated Checks
+## ✅ Automated Checks
 
 Automation checks the app ID and store URL, ZIP safety and size, Binary KeyValues parsing and byte-identical roundtrip, unique achievement IDs, language coverage, and update differences. Submit only translations you are allowed to share.
 
