@@ -1,3 +1,6 @@
+import ast
+import builtins
+import symtable
 import unittest
 from pathlib import Path
 
@@ -6,6 +9,46 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class WorkflowSecurityTests(unittest.TestCase):
+    def test_workflow_modules_have_no_unresolved_global_dependencies(self) -> None:
+        unresolved: dict[str, list[str]] = {}
+        for path in sorted((ROOT / "workflow-scripts").glob("*.py")):
+            source = path.read_text(encoding="utf-8")
+            tree = ast.parse(source, filename=str(path))
+            module_bindings = set(dir(builtins))
+            for node in tree.body:
+                if isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef, ast.ClassDef)):
+                    module_bindings.add(node.name)
+                elif isinstance(node, ast.Import):
+                    module_bindings.update(alias.asname or alias.name.split(".")[0] for alias in node.names)
+                elif isinstance(node, ast.ImportFrom):
+                    module_bindings.update(alias.asname or alias.name for alias in node.names)
+                elif isinstance(node, (ast.Assign, ast.AnnAssign)):
+                    targets = node.targets if isinstance(node, ast.Assign) else [node.target]
+                    for target in targets:
+                        module_bindings.update(
+                            child.id for child in ast.walk(target) if isinstance(child, ast.Name)
+                        )
+
+            missing: set[str] = set()
+
+            def inspect_scope(scope: symtable.SymbolTable) -> None:
+                if scope.get_type() != "module":
+                    missing.update(
+                        symbol.get_name()
+                        for symbol in scope.get_symbols()
+                        if symbol.is_referenced()
+                        and symbol.is_global()
+                        and symbol.get_name() not in module_bindings
+                    )
+                for child in scope.get_children():
+                    inspect_scope(child)
+
+            inspect_scope(symtable.symtable(source, str(path), "exec"))
+            if missing:
+                unresolved[path.relative_to(ROOT).as_posix()] = sorted(missing)
+
+        self.assertEqual({}, unresolved)
+
     def test_python_modules_stay_below_modular_size_limit(self) -> None:
         python_files = [
             *sorted((ROOT / "workflow-scripts").glob("*.py")),

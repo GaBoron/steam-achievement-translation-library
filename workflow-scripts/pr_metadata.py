@@ -19,8 +19,8 @@ from library_index import (
     validated_entry_schema_variants,
 )
 from steam_schema import achievement_rows, load_schema, require_language_coverage, validate_schema_structure
-from submission_inputs import field_value, first_line, parse_issue_form
-from submission_presentation import parse_schema_variants_marker
+from submission_inputs import field_value, first_line, now_utc, parse_issue_form
+from submission_presentation import parse_schema_variants_marker, steam_store_id
 
 
 BOT_USERS = {"github-actions[bot]"}

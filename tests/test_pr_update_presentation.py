@@ -67,7 +67,6 @@ class PullRequestUpdatePresentationTests(unittest.TestCase):
             mock.patch.object(pr_comment_workflow, "github_request", return_value=pr),
             mock.patch.object(pr_comment_workflow, "checkout_pr_branch", return_value="translation-library/issue-12"),
             mock.patch.object(pr_comment_workflow, "validate_metadata_variants", return_value=(rows, {"schinese": 1})),
-            mock.patch.object(pr_comment_workflow, "validate_store_url"),
             mock.patch.object(pr_comment_workflow, "entry_from_metadata", return_value=entry),
             mock.patch.object(pr_comment_workflow, "variant_achievement_rows", return_value={"default": rows}),
             mock.patch.object(pr_comment_workflow, "build_submission_pr_body", return_value="rebuilt") as build_body,
