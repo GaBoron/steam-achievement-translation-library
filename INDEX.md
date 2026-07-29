@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**303** 个游戏。
+当前收录：**302** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -173,7 +173,6 @@
 | `394360` | Hearts of Iron IV 钢铁雄心4 | 可用 | 2026-07-05T11:41:19Z | [@sane801](https://github.com/sane801) | schinese | 293 | [UserGameStatsSchema_394360.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/394360/UserGameStatsSchema_394360.bin)（129 KB） | [#8](https://github.com/GaBoron/steam-achievement-translation-library/pull/8) |  | [Steam](https://store.steampowered.com/app/394360/) |
 | `394510` | HELLDIVERS Dive Harder Edition 绝地潜兵：深入敌后版 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 39 | [UserGameStatsSchema_394510.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/394510/UserGameStatsSchema_394510.bin)（91 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/394510/) |
 | `1289310` | Helltaker 地狱把妹王 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 10 | [UserGameStatsSchema_1289310.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1289310/UserGameStatsSchema_1289310.bin)（3 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1289310/) |
-| `203140` | Hitman: Absolution 杀手：赦免 | 可用 | 2026-07-28T15:41:25Z | [@wowwot](https://github.com/wowwot) | english | 47 | [UserGameStatsSchema_203140.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/203140/UserGameStatsSchema_203140.bin)（46 KB） | [#350](https://github.com/GaBoron/steam-achievement-translation-library/pull/350) |  | [Steam](https://store.steampowered.com/app/203140/Hitman_Absolution/) |
 | `55100` | Homefront 国土防线 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 47 | [UserGameStatsSchema_55100.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/55100/UserGameStatsSchema_55100.bin)（102 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/55100/) |
 | `351710` | Hyperdimension Neptunia Re;Birth2: Sisters Generation 超次次元游戏 海王星重生2：姐妹时代 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 41 | [UserGameStatsSchema_351710.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/351710/UserGameStatsSchema_351710.bin)（20 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/351710/) |
 | `353270` | Hyperdimension Neptunia Re;Birth3 V Generation 神次次元游戏 海王星重生3 V世纪 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 42 | [UserGameStatsSchema_353270.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/353270/UserGameStatsSchema_353270.bin)（18 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/353270/) |

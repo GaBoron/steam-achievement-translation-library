@@ -256,6 +256,14 @@ jobs:
               echo "PR #$PR_NUMBER closed without merging."
               exit 1
             fi
+            FAILED_CHECKS="$(
+              gh pr checks "$PR_NUMBER" --required --json name,bucket \
+                --jq '[.[] | select(.bucket == "fail") | .name] | join(", ")' 2>/dev/null || true
+            )"
+            if [ -n "$FAILED_CHECKS" ]; then
+              echo "Required checks failed for PR #$PR_NUMBER: $FAILED_CHECKS"
+              exit 1
+            fi
             echo "PR #$PR_NUMBER is waiting for required checks; attempt $attempt/180."
             sleep 10
           done

@@ -15,6 +15,18 @@ class WorkflowSecurityTests(unittest.TestCase):
         self.assertIn("cancel-in-progress: false", repository_checks)
         self.assertIn("--allow-unindexed-schema-files", repository_checks)
         self.assertIn("--allow-stale-index-metadata", repository_checks)
+        self.assertIn("ALLOW_STALE_HUMAN_INDEXES", repository_checks)
+        self.assertIn("--allow-stale-human-indexes", repository_checks)
+
+    def test_direct_index_edits_regenerate_indexes_and_delete_removed_entry_files(self) -> None:
+        repository_checks = (
+            ROOT / ".github" / "workflows" / "repository-checks.yml"
+        ).read_text(encoding="utf-8")
+
+        self.assertIn("id: index-maintenance-token", repository_checks)
+        self.assertIn("workflow-scripts/index_maintenance.py", repository_checks)
+        self.assertIn('git add -A -- index.json INDEX.md INDEX_EN.md files', repository_checks)
+        self.assertIn('git push origin HEAD:main', repository_checks)
 
     def test_statistics_updates_use_repository_scoped_app_credentials(self) -> None:
         statistics = (ROOT / ".github" / "workflows" / "statistics-svg.yml").read_text(
@@ -66,6 +78,8 @@ class WorkflowSecurityTests(unittest.TestCase):
         self.assertIn("GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}", merge_block)
         self.assertNotIn("steps.finalizer-token.outputs.token", merge_block)
         self.assertIn('MERGED="$(gh api', wait_block)
+        self.assertIn('gh pr checks "$PR_NUMBER" --required', wait_block)
+        self.assertIn("Required checks failed", wait_block)
         self.assertIn("sleep 10", wait_block)
 
     def test_translation_petitions_use_their_own_validation_job(self) -> None:
