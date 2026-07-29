@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**310** 个游戏。
+当前收录：**311** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -78,6 +78,7 @@
 | `362890` | Black Mesa 黑山 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 50 | [UserGameStatsSchema_362890.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/362890/UserGameStatsSchema_362890.bin)（20 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/362890/) |
 | `716340` | Blackberry Honey 黑莓甜心 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 14 | [UserGameStatsSchema_716340.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/716340/UserGameStatsSchema_716340.bin)（6 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/716340/) |
 | `1569580` | Blue Prince 蓝途王子 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 16 | [UserGameStatsSchema_1569580.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1569580/UserGameStatsSchema_1569580.bin)（6 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1569580/) |
+| `2735620` | BoardLand 萌棋大陆 | 可用 | 2026-07-29T11:58:58Z | [@skeyep](https://github.com/skeyep) | schinese | 24 | [UserGameStatsSchema_2735620.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2735620/UserGameStatsSchema_2735620.bin)（13 KB） | [#365](https://github.com/GaBoron/steam-achievement-translation-library/pull/365) |  | [Steam](https://store.steampowered.com/app/2735620/) |
 | `1353230` | Bomb Rush Cyberfunk 炸弹冲刺赛博放克 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 23 | [UserGameStatsSchema_1353230.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1353230/UserGameStatsSchema_1353230.bin)（9 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1353230/) |
 | `1944570` | Boneraiser Minions 唤骨者的仆从 | 可用 | 2026-07-23T05:16:36Z | [@skeyep](https://github.com/skeyep) | schinese | 202 | [UserGameStatsSchema_1944570.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1944570/UserGameStatsSchema_1944570.bin)（90 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1944570/) |
 | `3419430` | Bongo Cat 邦戈猫 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 28 | [UserGameStatsSchema_3419430.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/3419430/UserGameStatsSchema_3419430.bin)（15 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/3419430/) |
