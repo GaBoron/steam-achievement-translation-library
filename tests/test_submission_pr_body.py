@@ -17,6 +17,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import check_repository  # noqa: E402
 import library_submission_bot as bot  # noqa: E402
 import library_index  # noqa: E402
+import pr_metadata  # noqa: E402
 import schema_package  # noqa: E402
 import submission_inputs  # noqa: E402
 from library_test_support import achievement_node, schema_nodes, string_node  # noqa: E402
@@ -77,6 +78,16 @@ class PullRequestBodyTests(unittest.TestCase):
 
         self.assertEqual("", notes)
         self.assertNotIn("## Contributor Notes", body)
+
+    def test_contributor_notes_survive_pr_body_round_trip(self) -> None:
+        notes = "#### 翻译思路\n- 使用官方术语\n\n#### 翻译来源\n- 人工校对"
+        body = self.build_body(notes)
+
+        metadata = pr_metadata.parse_pr_metadata({"body": body, "labels": []})
+        rebuilt = self.build_body(str(metadata["contributor_notes"]))
+
+        self.assertEqual(notes, metadata["contributor_notes"])
+        self.assertIn(f"## Contributor Notes\n\n{notes}", rebuilt)
 
     def test_multi_version_body_lists_achievement_text_for_every_variant(self) -> None:
         default_rows = [{

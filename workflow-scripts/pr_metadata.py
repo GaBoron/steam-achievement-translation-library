@@ -157,6 +157,7 @@ def parse_pr_metadata(pr: dict[str, Any]) -> dict[str, Any]:
         "submitted_at": body_field(body, "Submitted at"),
         "updated_at": body_field(body, "Updated at") or body_field(body, "Last library update"),
         "update_summary": body_field(body, "Contributor summary"),
+        "contributor_notes": section_after_heading(body, "## Contributor Notes"),
         "reason": section_after_heading(body, "## Reason"),
         "reference": section_after_heading(body, "## Reference"),
         "report_type": body_field(body, "Report type"),

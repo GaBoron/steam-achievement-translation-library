@@ -468,6 +468,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
                 update_diff=update_diff,
                 previous_hash=previous_hash,
                 issue_url=str(meta.get("source_issue") or ""),
+                contributor_notes=str(meta.get("contributor_notes") or ""),
                 review_variant_id=review_variant_id,
                 review_variant_hash=review_variant_hash,
                 variant_changes=variant_changes,
