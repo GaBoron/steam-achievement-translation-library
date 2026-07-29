@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**312** 个游戏。
+当前收录：**313** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -52,6 +52,7 @@
 | `208480` | Assassin’s Creed® III 刺客信条3 | 可用 | 2026-07-26T03:38:27Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 44 | [UserGameStatsSchema_208480.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/208480/UserGameStatsSchema_208480.bin)（73 KB） | [#309](https://github.com/GaBoron/steam-achievement-translation-library/pull/309) |  | [Steam](https://store.steampowered.com/app/208480/Assassins_Creed_III/) |
 | `260210` | Assassin’s Creed® Liberation HD 刺客信条：解放 | 可用 | 2026-07-05T00:24:23Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 30 | [UserGameStatsSchema_260210.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/260210/UserGameStatsSchema_260210.bin)（29 KB） | [#39](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/39) |  | [Steam](https://store.steampowered.com/app/260210/Assassins_Creed_Liberation_HD/) |
 | `244210` | Assetto Corsa 神力科莎 | 可用 | 2026-07-07T14:43:24Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 709 | [UserGameStatsSchema_244210.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/244210/UserGameStatsSchema_244210.bin)（280 KB） | [#67](https://github.com/GaBoron/steam-achievement-translation-library/pull/67) |  | [Steam](https://store.steampowered.com/app/244210/Assetto_Corsa/) |
+| `400020` | Atari Vault 雅达利宝库 | 可用 | 2026-07-29T12:55:31Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 24 | [UserGameStatsSchema_400020.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/400020/UserGameStatsSchema_400020.bin)（21 KB） | [#330](https://github.com/GaBoron/steam-achievement-translation-library/pull/330) |  | [Steam](https://store.steampowered.com/app/400020/Atari_Vault/) |
 | `2296550` | Axon TD: Uprising 轴突塔防：起义 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 82 | [UserGameStatsSchema_2296550.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2296550/UserGameStatsSchema_2296550.bin)（88 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/2296550/) |
 | `1258780` | B100X - Auto Dungeon RPG B100X - 自动地牢RPG | 可用 | 2026-07-23T02:32:30Z | [@skeyep](https://github.com/skeyep) | schinese | 43 | [UserGameStatsSchema_1258780.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1258780/UserGameStatsSchema_1258780.bin)（20 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1258780/) |
 | `736260` | Baba Is You Baba是你 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 18 | [UserGameStatsSchema_736260.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/736260/UserGameStatsSchema_736260.bin)（22 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/736260/) |
