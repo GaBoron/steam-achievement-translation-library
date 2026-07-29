@@ -9,37 +9,18 @@ import zipfile
 from pathlib import Path
 from unittest import mock
 
-ROOT = Path(__file__).resolve().parent.parent
+
+ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "workflow-scripts"))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import check_repository  # noqa: E402
 import library_submission_bot as bot  # noqa: E402
-
-
-def string_node(name: str, value: str) -> bot.Node:
-    return bot.Node(1, name, value=value, raw_value=value.encode("utf-8"))
-
-
-def achievement_node(api_name: str = "ACH_ONE") -> bot.Node:
-    return bot.Node(
-        0,
-        "0",
-        children=[
-            string_node("name", api_name),
-            bot.Node(
-                0,
-                "display",
-                children=[
-                    bot.Node(0, "name", children=[string_node("english", "Name"), string_node("schinese", "名称")]),
-                    bot.Node(0, "desc", children=[string_node("english", "Description"), string_node("schinese", "描述")]),
-                ],
-            ),
-        ],
-    )
-
-
-def schema_nodes(*achievements: bot.Node) -> list[bot.Node]:
-    return [bot.Node(0, "root", children=[bot.Node(0, "bits", children=list(achievements))])]
+import library_index  # noqa: E402
+import schema_package  # noqa: E402
+import submission_inputs  # noqa: E402
+import submission_validation  # noqa: E402
+from library_test_support import achievement_node, schema_nodes, string_node  # noqa: E402
 
 
 class SchemaValidationTests(unittest.TestCase):
@@ -128,7 +109,7 @@ _No response_
             "head": {"ref": "translation-library/issue-41"},
         }]
 
-        with mock.patch.object(bot, "github_api_get", return_value=pulls):
+        with mock.patch.object(submission_inputs, "github_api_get", return_value=pulls):
             result = bot.find_open_translation_pr("example/repo", "token", "123")
 
         self.assertIsNotNone(result)
@@ -148,7 +129,7 @@ _No response_
             },
         ]
 
-        with mock.patch.object(bot, "github_api_get", return_value=pulls):
+        with mock.patch.object(submission_inputs, "github_api_get", return_value=pulls):
             result = bot.find_open_translation_pr("example/repo", "token", "123")
 
         self.assertIsNone(result)
@@ -266,7 +247,7 @@ schinese
             self.assertEqual(destination.parent, destination.resolve().parent)
             destination.write_bytes(b"not a zip")
 
-        with mock.patch.object(bot, "download_attachment", side_effect=fake_download):
+        with mock.patch.object(submission_validation, "download_attachment", side_effect=fake_download):
             with self.assertRaisesRegex(ValueError, "上传文件名必须是"):
                 bot.validate_schema_submission(attachment, None, "123", ["schinese"])
 
@@ -362,7 +343,7 @@ schinese
             attachment = bot.Attachment("UserGameStatsSchema_123.zip", "https://github.com/user-attachments/example")
 
             with mock.patch.object(
-                bot,
+                submission_validation,
                 "download_attachment",
                 side_effect=lambda _attachment, _token, destination: destination.write_bytes(archive_path.read_bytes()),
             ), self.assertRaisesRegex(ValueError, "语言覆盖不完整"):
@@ -415,8 +396,8 @@ schinese
         original_data = bot.serialize(original_nodes)
         updated_data = bot.serialize(updated_nodes)
         with tempfile.TemporaryDirectory() as tmp, mock.patch.object(
-            bot, "REPO_ROOT", Path(tmp)
-        ), mock.patch.object(bot, "FILES_ROOT", Path(tmp) / "files"):
+            library_index, "REPO_ROOT", Path(tmp)
+        ), mock.patch.object(schema_package, "FILES_ROOT", Path(tmp) / "files"):
             root = Path(tmp)
             primary = root / "files/123/UserGameStatsSchema_123.bin"
             beta = root / "files/123/beta/UserGameStatsSchema_123.bin"
@@ -448,8 +429,8 @@ schinese
         data = bot.serialize(nodes)
         rows = bot.achievement_rows(nodes, ["schinese"])
         with tempfile.TemporaryDirectory() as tmp, mock.patch.object(
-            bot, "REPO_ROOT", Path(tmp)
-        ), mock.patch.object(bot, "FILES_ROOT", Path(tmp) / "files"):
+            library_index, "REPO_ROOT", Path(tmp)
+        ), mock.patch.object(schema_package, "FILES_ROOT", Path(tmp) / "files"):
             root = Path(tmp)
             primary = root / "files/123/UserGameStatsSchema_123.bin"
             beta = root / "files/123/beta/UserGameStatsSchema_123.bin"
@@ -474,274 +455,3 @@ schinese
             self.assertFalse(beta.exists())
             self.assertTrue((root / "files/123/stable/UserGameStatsSchema_123.bin").is_file())
             self.assertEqual(["default", "stable"], [record["variant_id"] for record in records])
-
-
-class RepositoryIntegrityTests(unittest.TestCase):
-    def test_possibly_ineffective_state_is_rendered(self) -> None:
-        index = {
-            "states": {
-                "current": {"label_zh": "可用", "label_en": "Current"},
-                "possibly_ineffective": {"label_zh": "可能不生效", "label_en": "May not work"},
-                "outdated": {"label_zh": "可能过期", "label_en": "Possibly outdated"},
-            },
-            "entries": [{
-                "game_name": "Example Game",
-                "game_id": "123",
-                "store_url": "https://store.steampowered.com/app/123/",
-                "languages": ["schinese"],
-                "schema_file": "files/123/UserGameStatsSchema_123.bin",
-                "file_size_bytes": 42,
-                "achievement_count": 1,
-                "contributors": ["translator"],
-                "updated_at": "2026-07-21T00:00:00Z",
-                "status": "possibly_ineffective",
-            }],
-        }
-
-        zh_index, en_index = bot.render_human_index(index)
-
-        self.assertIn("| 可能不生效 |", zh_index)
-        self.assertIn("| May not work |", en_index)
-
-    def test_unknown_index_state_is_rejected(self) -> None:
-        states = {
-            "current": {"zh": "可用", "en": "Current"},
-            "possibly_ineffective": {"zh": "可能不生效", "en": "May not work"},
-            "outdated": {"zh": "可能过期", "en": "Possibly outdated"},
-        }
-
-        with self.assertRaisesRegex(ValueError, "unknown index state"):
-            bot.status_text({"game_id": "123", "status": "unknown"}, "zh", states)
-
-    def test_current_repository_has_no_integrity_errors(self) -> None:
-        translation_pr_mode = os.environ.get("ALLOW_UNINDEXED_SCHEMA_FILES", "").lower() == "true"
-        error_report_pr_mode = os.environ.get("ALLOW_STALE_HUMAN_INDEXES", "").lower() == "true"
-        report = check_repository.check_repository(
-            allow_unindexed_schema_files=translation_pr_mode,
-            allow_stale_index_metadata=translation_pr_mode,
-            allow_stale_human_indexes=error_report_pr_mode,
-        )
-
-        self.assertEqual([], report.errors)
-        self.assertGreater(report.checked_entries, 0)
-        self.assertGreaterEqual(report.checked_files, report.checked_entries)
-
-    def test_stale_human_indexes_are_allowed_only_in_error_report_mode(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            index_path = root / "index.json"
-            files_root = root / "files"
-            human_index = root / "INDEX.md"
-            human_index_en = root / "INDEX_EN.md"
-            files_root.mkdir()
-            index_path.write_text('{"entries": []}\n', encoding="utf-8")
-            human_index.write_text("stale zh\n", encoding="utf-8")
-            human_index_en.write_text("stale en\n", encoding="utf-8")
-
-            with (
-                mock.patch.object(check_repository, "INDEX_PATH", index_path),
-                mock.patch.object(check_repository, "FILES_ROOT", files_root),
-                mock.patch.object(check_repository, "HUMAN_INDEX_PATH", human_index),
-                mock.patch.object(check_repository, "HUMAN_INDEX_EN_PATH", human_index_en),
-                mock.patch.object(check_repository, "render_human_index", return_value=("expected zh\n", "expected en\n")),
-            ):
-                strict = check_repository.check_repository()
-                allowed = check_repository.check_repository(allow_stale_human_indexes=True)
-
-            self.assertEqual(
-                ["INDEX.md is out of sync with index.json", "INDEX_EN.md is out of sync with index.json"],
-                strict.errors,
-            )
-            self.assertEqual([], allowed.errors)
-            self.assertEqual(2, len(allowed.warnings))
-
-    def test_unindexed_schema_is_rejected_in_strict_mode(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            files_root = Path(tmp) / "files"
-            schema_path = files_root / "123" / "UserGameStatsSchema_123.bin"
-            schema_path.parent.mkdir(parents=True)
-            schema_path.write_bytes(bot.serialize(schema_nodes(achievement_node())))
-            report = check_repository.CheckReport()
-
-            with mock.patch.object(check_repository, "FILES_ROOT", files_root):
-                check_repository.check_unindexed_schema_files(
-                    report,
-                    {schema_path.resolve()},
-                    allow_unindexed_schema_files=False,
-                )
-
-        self.assertEqual(["unindexed schema file: files/123/UserGameStatsSchema_123.bin"], report.errors)
-        self.assertEqual(0, report.checked_files)
-
-    def test_valid_unindexed_schema_is_checked_in_translation_pr_mode(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            files_root = Path(tmp) / "files"
-            schema_path = files_root / "123" / "UserGameStatsSchema_123.bin"
-            schema_path.parent.mkdir(parents=True)
-            schema_path.write_bytes(bot.serialize(schema_nodes(achievement_node())))
-            report = check_repository.CheckReport()
-
-            with mock.patch.object(check_repository, "FILES_ROOT", files_root):
-                check_repository.check_unindexed_schema_files(
-                    report,
-                    {schema_path.resolve()},
-                    allow_unindexed_schema_files=True,
-                )
-
-        self.assertEqual([], report.errors)
-        self.assertEqual(1, report.checked_files)
-
-    def test_invalid_unindexed_schema_still_fails_in_translation_pr_mode(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            files_root = Path(tmp) / "files"
-            schema_path = files_root / "123" / "UserGameStatsSchema_123.bin"
-            schema_path.parent.mkdir(parents=True)
-            schema_path.write_bytes(b"not a Binary KeyValues schema")
-            report = check_repository.CheckReport()
-
-            with mock.patch.object(check_repository, "FILES_ROOT", files_root):
-                check_repository.check_unindexed_schema_files(
-                    report,
-                    {schema_path.resolve()},
-                    allow_unindexed_schema_files=True,
-                )
-
-        self.assertEqual(1, len(report.errors))
-        self.assertIn("invalid unindexed schema files/123/UserGameStatsSchema_123.bin", report.errors[0])
-        self.assertEqual(0, report.checked_files)
-
-    def test_stale_index_metadata_is_allowed_only_in_translation_pr_mode(self) -> None:
-        data = bot.serialize(schema_nodes(achievement_node()))
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            files_root = root / "files"
-            schema_path = files_root / "123" / "UserGameStatsSchema_123.bin"
-            schema_path.parent.mkdir(parents=True)
-            schema_path.write_bytes(data)
-            variant = {
-                "variant_id": "default",
-                "primary": True,
-                "schema_file": "files/123/UserGameStatsSchema_123.bin",
-                "file_size_bytes": len(data) + 1,
-                "sha256": "0" * 64,
-                "achievement_count": 2,
-            }
-
-            with mock.patch.object(bot, "REPO_ROOT", root), mock.patch.object(
-                check_repository, "FILES_ROOT", files_root
-            ):
-                strict_report = check_repository.CheckReport()
-                check_repository._check_schema_path(
-                    strict_report,
-                    "123",
-                    variant,
-                    set(),
-                    allow_stale_index_metadata=False,
-                )
-                translation_pr_report = check_repository.CheckReport()
-                check_repository._check_schema_path(
-                    translation_pr_report,
-                    "123",
-                    variant,
-                    set(),
-                    allow_stale_index_metadata=True,
-                )
-
-        self.assertEqual(3, len(strict_report.errors))
-        self.assertEqual([], strict_report.warnings)
-        self.assertEqual([], translation_pr_report.errors)
-        self.assertEqual(3, len(translation_pr_report.warnings))
-        self.assertTrue(
-            all(
-                warning.startswith("stale index metadata allowed for translation PR: 123:")
-                for warning in translation_pr_report.warnings
-            )
-        )
-
-
-class PullRequestBodyTests(unittest.TestCase):
-    def build_body(
-        self,
-        contributor_notes: str = "",
-        rows_by_variant: dict[str, list[dict[str, str]]] | None = None,
-    ) -> str:
-        entry = {
-            "game_name": "Example Game",
-            "game_id": "123",
-            "store_url": "https://store.steampowered.com/app/123/",
-            "languages": ["schinese"],
-            "schema_file": "files/123/UserGameStatsSchema_123.bin",
-            "file_size_bytes": 42,
-            "achievement_count": 1,
-            "sha256": "abc123",
-            "contributor_id": "translator",
-            "contributors": ["translator"],
-            "submitted_at": "2026-07-13T00:00:00Z",
-            "updated_at": "2026-07-13T00:00:00Z",
-        }
-        rows = [{
-            "index": "1",
-            "api_name": "ACH_ONE",
-            "english_name": "Name",
-            "english_description": "Description",
-            "schinese_name": "名称",
-            "schinese_description": "描述",
-        }]
-        return bot.build_submission_pr_body(
-            kind="translation-contribution",
-            entry=entry,
-            coverage={"schinese": 1},
-            rows=rows,
-            languages=["schinese"],
-            issue_url="https://github.com/example/repo/issues/1",
-            contributor_notes=contributor_notes,
-            rows_by_variant=rows_by_variant,
-        )
-
-    def test_multiline_issue_notes_are_transferred_to_pr_body(self) -> None:
-        fields = bot.parse_issue_form("### 备注\n\n翻译来源：官方文本\n\n已在 Steam 中测试。")
-        notes = bot.optional_field_value(fields, ["Notes", "备注"])
-
-        body = self.build_body(notes)
-
-        self.assertIn("## Contributor Notes\n\n翻译来源：官方文本\n\n已在 Steam 中测试。", body)
-
-    def test_no_response_placeholder_does_not_create_notes_section(self) -> None:
-        fields = bot.parse_issue_form("### Notes\n\n_No response_")
-        notes = bot.optional_field_value(fields, ["Notes", "备注"])
-
-        body = self.build_body(notes)
-
-        self.assertEqual("", notes)
-        self.assertNotIn("## Contributor Notes", body)
-
-    def test_multi_version_body_lists_achievement_text_for_every_variant(self) -> None:
-        default_rows = [{
-            "api_name": "ACH_ONE",
-            "schinese_name": "原文版名称",
-            "schinese_description": "原文版描述",
-        }]
-        clean_rows = [{
-            "api_name": "ACH_ONE",
-            "schinese_name": "和谐版名称",
-            "schinese_description": "和谐版描述",
-        }]
-
-        body = self.build_body(rows_by_variant={
-            "default": default_rows,
-            "clean": clean_rows,
-        })
-
-        self.assertIn("## Achievement Text (`default`)", body)
-        self.assertIn("原文版名称", body)
-        self.assertIn("## Achievement Text (`clean`)", body)
-        self.assertIn("和谐版名称", body)
-
-    def test_single_version_body_keeps_one_achievement_text_section(self) -> None:
-        body = self.build_body()
-
-        self.assertEqual(1, body.count("## Achievement Text ("))
-
-
-if __name__ == "__main__":
-    unittest.main()

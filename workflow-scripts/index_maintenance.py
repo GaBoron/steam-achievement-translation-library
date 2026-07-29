@@ -162,7 +162,7 @@ def synchronize(previous_ref: str, *, root: Path = ROOT) -> tuple[str, ...]:
     removed = remove_deleted_entry_files(root, previous_index, current_index)
 
     # Import at the composition boundary so deletion planning remains independently testable.
-    import library_submission_bot as library
+    import library_index as library
 
     library.write_index(current_index)
     library.write_human_index(current_index)

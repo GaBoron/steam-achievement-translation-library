@@ -6,6 +6,19 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class WorkflowSecurityTests(unittest.TestCase):
+    def test_python_modules_stay_below_modular_size_limit(self) -> None:
+        python_files = [
+            *sorted((ROOT / "workflow-scripts").glob("*.py")),
+            *sorted((ROOT / "tests").glob("*.py")),
+        ]
+        oversized = {
+            path.relative_to(ROOT).as_posix(): len(path.read_text(encoding="utf-8").splitlines())
+            for path in python_files
+            if len(path.read_text(encoding="utf-8").splitlines()) > 600
+        }
+
+        self.assertEqual({}, oversized)
+
     def test_repository_checks_do_not_cancel_in_progress_runs(self) -> None:
         repository_checks = (
             ROOT / ".github" / "workflows" / "repository-checks.yml"
