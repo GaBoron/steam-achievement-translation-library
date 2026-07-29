@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**307** 个游戏。
+当前收录：**308** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -293,6 +293,7 @@
 | `1105500` | Yakuza 4 Remastered 人中之龙4：继承传说者 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 47 | [UserGameStatsSchema_1105500.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1105500/UserGameStatsSchema_1105500.bin)（30 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1105500/) |
 | `761700` | your diary+ 你的日记+ | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 8 | [UserGameStatsSchema_761700.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/761700/UserGameStatsSchema_761700.bin)（4 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/761700/) |
 | `311240` | Zero Escape: Zero Time Dilemma 极限脱出：零时困境 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 33 | [UserGameStatsSchema_311240.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/311240/UserGameStatsSchema_311240.bin)（15 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/311240/) |
+| `595740` | 戰國無雙 〜真田丸〜 战国无双: 真田丸 | 可用 | 2026-07-29T11:11:38Z | [@HideonOcean](https://github.com/HideonOcean) | schinese | 51 | [UserGameStatsSchema_595740.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/595740/UserGameStatsSchema_595740.bin)（23 KB） | [#336](https://github.com/GaBoron/steam-achievement-translation-library/pull/336) |  | [Steam](https://store.steampowered.com/app/595740/_/) |
 | `1328660` | 《极品飞车：热力追踪》重制版 | 可用 | 2026-07-05T07:38:59Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 66 | [UserGameStatsSchema_1328660.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1328660/UserGameStatsSchema_1328660.bin)（94 KB） | [#22](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/22) |  | [Steam](https://store.steampowered.com/app/1328660/_/) |
 | `1328670` | 《质量效应》传奇版 | 可用 | 2026-07-24T12:53:04Z | [@HideonOcean](https://github.com/HideonOcean) | schinese | 127 | [UserGameStatsSchema_1328670.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1328670/UserGameStatsSchema_1328670.bin)（149 KB） | [#275](https://github.com/GaBoron/steam-achievement-translation-library/pull/275) |  | [Steam](https://store.steampowered.com/app/1328670/_/) |
 | `543240` | √Letter - Root Letter - 方根书简 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 26 | [UserGameStatsSchema_543240.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/543240/UserGameStatsSchema_543240.bin)（13 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/543240/) |
