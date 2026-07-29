@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**319** 个游戏。
+当前收录：**320** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -237,6 +237,7 @@
 | `1144200` | Ready or Not 严阵以待 | 可用 | 2026-07-07T12:42:17Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 66 | [UserGameStatsSchema_1144200.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1144200/UserGameStatsSchema_1144200.bin)（33 KB） | [#65](https://github.com/GaBoron/steam-achievement-translation-library/pull/65) |  | [Steam](https://store.steampowered.com/app/1144200/Ready_or_Not/) |
 | `497780` | Recursed 递归 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 17 | [UserGameStatsSchema_497780.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/497780/UserGameStatsSchema_497780.bin)（16 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/497780/) |
 | `1580240` | Rune Factory 4 Special 符文工房4 豪华版 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 38 | [UserGameStatsSchema_1580240.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1580240/UserGameStatsSchema_1580240.bin)（38 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1580240/) |
+| `2719200` | SAMURAI WARRIORS 4 DX 战国无双4 DX | 可用 | 2026-07-29T13:14:28Z | [@HideonOcean](https://github.com/HideonOcean) | schinese | 54 | [UserGameStatsSchema_2719200.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2719200/UserGameStatsSchema_2719200.bin)（26 KB） | [#334](https://github.com/GaBoron/steam-achievement-translation-library/pull/334) |  | [Steam](https://store.steampowered.com/app/2719200/SAMURAI_WARRIORS_4_DX/) |
 | `348470` | SAMURAI WARRIORS 4-II 战国无双4-II | 可用 | 2026-07-29T10:36:39Z | [@HideonOcean](https://github.com/HideonOcean) | schinese | 54 | [UserGameStatsSchema_348470.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/348470/UserGameStatsSchema_348470.bin)（21 KB） | [#332](https://github.com/GaBoron/steam-achievement-translation-library/pull/332) |  | [Steam](https://store.steampowered.com/app/348470/SAMURAI_WARRIORS_4II/) |
 | `91600` | Sanctum 幽闭圣地 | 可用 | 2026-07-20T12:14:51Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 100 | [UserGameStatsSchema_91600.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/91600/UserGameStatsSchema_91600.bin)（45 KB） | [#240](https://github.com/GaBoron/steam-achievement-translation-library/pull/240) |  | [Steam](https://store.steampowered.com/app/91600/Sanctum/) |
 | `1769170` | Shattered Pixel Dungeon 破碎的像素地牢 | 可用 | 2026-07-26T09:25:35Z | [@GaBoron](https://github.com/GaBoron) | english, schinese | 98 | [UserGameStatsSchema_1769170.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1769170/UserGameStatsSchema_1769170.bin)（38 KB） | [#326](https://github.com/GaBoron/steam-achievement-translation-library/pull/326) |  | [Steam](https://store.steampowered.com/app/1769170/Shattered_Pixel_Dungeon/) |
