@@ -515,14 +515,45 @@ class RepositoryIntegrityTests(unittest.TestCase):
 
     def test_current_repository_has_no_integrity_errors(self) -> None:
         translation_pr_mode = os.environ.get("ALLOW_UNINDEXED_SCHEMA_FILES", "").lower() == "true"
+        error_report_pr_mode = os.environ.get("ALLOW_STALE_HUMAN_INDEXES", "").lower() == "true"
         report = check_repository.check_repository(
             allow_unindexed_schema_files=translation_pr_mode,
             allow_stale_index_metadata=translation_pr_mode,
+            allow_stale_human_indexes=error_report_pr_mode,
         )
 
         self.assertEqual([], report.errors)
         self.assertGreater(report.checked_entries, 0)
         self.assertGreaterEqual(report.checked_files, report.checked_entries)
+
+    def test_stale_human_indexes_are_allowed_only_in_error_report_mode(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            index_path = root / "index.json"
+            files_root = root / "files"
+            human_index = root / "INDEX.md"
+            human_index_en = root / "INDEX_EN.md"
+            files_root.mkdir()
+            index_path.write_text('{"entries": []}\n', encoding="utf-8")
+            human_index.write_text("stale zh\n", encoding="utf-8")
+            human_index_en.write_text("stale en\n", encoding="utf-8")
+
+            with (
+                mock.patch.object(check_repository, "INDEX_PATH", index_path),
+                mock.patch.object(check_repository, "FILES_ROOT", files_root),
+                mock.patch.object(check_repository, "HUMAN_INDEX_PATH", human_index),
+                mock.patch.object(check_repository, "HUMAN_INDEX_EN_PATH", human_index_en),
+                mock.patch.object(check_repository, "render_human_index", return_value=("expected zh\n", "expected en\n")),
+            ):
+                strict = check_repository.check_repository()
+                allowed = check_repository.check_repository(allow_stale_human_indexes=True)
+
+            self.assertEqual(
+                ["INDEX.md is out of sync with index.json", "INDEX_EN.md is out of sync with index.json"],
+                strict.errors,
+            )
+            self.assertEqual([], allowed.errors)
+            self.assertEqual(2, len(allowed.warnings))
 
     def test_unindexed_schema_is_rejected_in_strict_mode(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

@@ -145,6 +145,7 @@ def check_repository(
     strict_language_coverage: bool = False,
     allow_unindexed_schema_files: bool = False,
     allow_stale_index_metadata: bool = False,
+    allow_stale_human_indexes: bool = False,
 ) -> CheckReport:
     report = CheckReport()
     try:
@@ -261,9 +262,17 @@ def check_repository(
     try:
         expected_zh, expected_en = render_human_index(index)
         if HUMAN_INDEX_PATH.read_text(encoding="utf-8") != expected_zh:
-            report.error("INDEX.md is out of sync with index.json")
+            message = "INDEX.md is out of sync with index.json"
+            if allow_stale_human_indexes:
+                report.warn(f"stale human index allowed for error-report PR: {message}")
+            else:
+                report.error(message)
         if HUMAN_INDEX_EN_PATH.read_text(encoding="utf-8") != expected_en:
-            report.error("INDEX_EN.md is out of sync with index.json")
+            message = "INDEX_EN.md is out of sync with index.json"
+            if allow_stale_human_indexes:
+                report.warn(f"stale human index allowed for error-report PR: {message}")
+            else:
+                report.error(message)
     except (OSError, UnicodeError, TypeError, ValueError, AttributeError) as exc:
         report.error(f"cannot verify generated Markdown indexes: {exc}")
     return report
@@ -286,11 +295,17 @@ def main() -> None:
         action="store_true",
         help="Allow valid updated schemas to temporarily differ from index metadata in translation-only pull requests.",
     )
+    parser.add_argument(
+        "--allow-stale-human-indexes",
+        action="store_true",
+        help="Allow generated Markdown indexes to lag behind index.json in isolated error-report pull requests.",
+    )
     args = parser.parse_args()
     report = check_repository(
         strict_language_coverage=args.strict_language_coverage,
         allow_unindexed_schema_files=args.allow_unindexed_schema_files,
         allow_stale_index_metadata=args.allow_stale_index_metadata,
+        allow_stale_human_indexes=args.allow_stale_human_indexes,
     )
     for warning in report.warnings:
         print(f"WARNING: {warning}")

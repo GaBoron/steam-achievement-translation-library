@@ -20,16 +20,48 @@ jobs:
     timeout-minutes: 10
     env:
       ALLOW_UNINDEXED_SCHEMA_FILES: ${{ github.event_name == 'pull_request' && startsWith(github.head_ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
+      ALLOW_STALE_HUMAN_INDEXES: ${{ github.event_name == 'pull_request' && startsWith(github.head_ref, 'translation-library/report-') && github.event.pull_request.head.repo.full_name == github.repository }}
     steps:
+      - name: Generate index maintenance token
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+        id: index-maintenance-token
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
+        with:
+          app-id: ${{ secrets.SATL_PR_BOT_APP_ID }}
+          private-key: ${{ secrets.SATL_PR_BOT_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: steam-achievement-translation-library
+
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
-          persist-credentials: false
+          fetch-depth: 0
+          persist-credentials: ${{ github.event_name == 'push' }}
+          token: ${{ steps.index-maintenance-token.outputs.token || github.token }}
 
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.13"
+
+      - name: Detect direct index changes
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+        id: index-change
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+        run: |
+          if git diff --quiet "$BEFORE_SHA" "$AFTER_SHA" -- index.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Synchronize index-derived files
+        if: ${{ steps.index-change.outputs.changed == 'true' }}
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+        run: python workflow-scripts/index_maintenance.py --previous-ref "$BEFORE_SHA"
 
       - name: Compile workflow scripts and tests
         run: python -m compileall -q workflow-scripts tests
@@ -39,10 +71,24 @@ jobs:
 
       - name: Verify translation data and generated indexes
         run: |
+          args=()
           if [ "$ALLOW_UNINDEXED_SCHEMA_FILES" = "true" ]; then
-            python workflow-scripts/check_repository.py \
-              --allow-unindexed-schema-files \
-              --allow-stale-index-metadata
-          else
-            python workflow-scripts/check_repository.py
+            args+=(--allow-unindexed-schema-files --allow-stale-index-metadata)
           fi
+          if [ "$ALLOW_STALE_HUMAN_INDEXES" = "true" ]; then
+            args+=(--allow-stale-human-indexes)
+          fi
+          python workflow-scripts/check_repository.py "${args[@]}"
+
+      - name: Commit synchronized index artifacts
+        if: ${{ steps.index-change.outputs.changed == 'true' }}
+        run: |
+          git add -A -- index.json INDEX.md INDEX_EN.md files
+          if git diff --cached --quiet; then
+            echo "Index-derived files are already synchronized."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "data: synchronize index artifacts"
+          git push origin HEAD:main
