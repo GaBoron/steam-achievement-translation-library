@@ -90,6 +90,8 @@ class WorkflowSecurityTests(unittest.TestCase):
 
         self.assertIn("GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}", merge_block)
         self.assertNotIn("steps.finalizer-token.outputs.token", merge_block)
+        self.assertIn('gh pr merge "$PR_NUMBER" --auto --merge', merge_block)
+        self.assertNotIn("--squash", merge_block)
         self.assertIn('MERGED="$(gh api', wait_block)
         self.assertIn('gh pr checks "$PR_NUMBER" --required', wait_block)
         self.assertIn("Required checks failed", wait_block)
