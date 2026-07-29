@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**320** 个游戏。
+当前收录：**321** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -278,6 +278,7 @@
 | `2477010` | Ticket to Ride 车票之旅 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 97 | [UserGameStatsSchema_2477010.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2477010/UserGameStatsSchema_2477010.bin)（43 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/2477010/) |
 | `1237970` | Titanfall® 2 泰坦陨落2 | 可用 | 2026-07-07T12:53:22Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese, tchinese | 50 | [UserGameStatsSchema_1237970.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1237970/UserGameStatsSchema_1237970.bin)（68 KB） | [#71](https://github.com/GaBoron/steam-achievement-translation-library/pull/71) |  | [Steam](https://store.steampowered.com/app/1237970/Titanfall_2/) |
 | `363130` | Toukiden: Kiwami 讨鬼传：极 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 50 | [UserGameStatsSchema_363130.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/363130/UserGameStatsSchema_363130.bin)（30 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/363130/) |
+| `2313250` | Travellin Cats in Paris 巴黎旅猫 | 可用 | 2026-07-29T13:16:10Z | [@skeyep](https://github.com/skeyep) | schinese | 101 | [UserGameStatsSchema_2313250.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2313250/UserGameStatsSchema_2313250.bin)（74 KB） | [#369](https://github.com/GaBoron/steam-achievement-translation-library/pull/369) |  | [Steam](https://store.steampowered.com/app/2313250/Travellin_Cats_in_Paris/) |
 | `35720` | Trine 2: Complete Story 三位一体2：完整故事 | 可用 | 2026-07-23T05:16:36Z | [@skeyep](https://github.com/skeyep) | schinese | 97 | [UserGameStatsSchema_35720.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/35720/UserGameStatsSchema_35720.bin)（114 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/35720/) |
 | `319910` | Trine 3: The Artifacts of Power 三位一体3：权力圣器 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 28 | [UserGameStatsSchema_319910.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/319910/UserGameStatsSchema_319910.bin)（14 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/319910/) |
 | `35700` | Trine Enchanted Edition 三位一体：魔法版 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 33 | [UserGameStatsSchema_35700.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/35700/UserGameStatsSchema_35700.bin)（14 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/35700/) |
