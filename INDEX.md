@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**324** 个游戏。
+当前收录：**325** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -178,6 +178,7 @@
 | `1425730` | Gal*Gun Returns 少女☆射击 回归初心 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 41 | [UserGameStatsSchema_1425730.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1425730/UserGameStatsSchema_1425730.bin)（30 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1425730/) |
 | `240720` | Getting Over It 掘地求升 | 可用 | 2026-07-06T07:02:11Z | [@GaBoron](https://github.com/GaBoron) | schinese | 3 | [UserGameStatsSchema_240720.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/240720/UserGameStatsSchema_240720.bin)（2 KB） | [#37](https://github.com/GaBoron/steam-achievement-translation-library/pull/37) |  | [Steam](https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/) |
 | `780290` | Gloomhaven 幽港迷城 | 可用 | 2026-07-23T02:32:30Z | [@skeyep](https://github.com/skeyep) | schinese | 61 | [UserGameStatsSchema_780290.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/780290/UserGameStatsSchema_780290.bin)（25 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/780290/) |
+| `265930` | Goat Simulator 模拟山羊 | 可用 | 2026-07-29T20:39:17Z | [@wowwot](https://github.com/wowwot) | schinese | 127 | [UserGameStatsSchema_265930.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/265930/UserGameStatsSchema_265930.bin)（108 KB） | [#379](https://github.com/GaBoron/steam-achievement-translation-library/pull/379) |  | [Steam](https://store.steampowered.com/app/265930/Goat_Simulator/) |
 | `899440` | GOD EATER 3 噬神者3 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 32 | [UserGameStatsSchema_899440.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/899440/UserGameStatsSchema_899440.bin)（40 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/899440/) |
 | `1593500` | God of War 战神4 | 可用 | 2026-07-05T12:05:40Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 37 | [UserGameStatsSchema_1593500.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1593500/UserGameStatsSchema_1593500.bin)（63 KB） | [#12](https://github.com/GaBoron/steam-achievement-translation-library/pull/12) |  | [Steam](https://store.steampowered.com/app/1593500/God_of_War/) |
 | `12210` | Grand Theft Auto IV: The Complete Edition 侠盗猎车手4：完整版 | 可用 | 2026-07-29T11:27:09Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 55 | [UserGameStatsSchema_12210.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/12210/UserGameStatsSchema_12210.bin)（54 KB） | [#338](https://github.com/GaBoron/steam-achievement-translation-library/pull/338) |  | [Steam](https://store.steampowered.com/app/12210/Grand_Theft_Auto_IV_The_Complete_Edition/) |
