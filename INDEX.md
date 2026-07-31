@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**328** 个游戏。
+当前收录：**329** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -318,6 +318,7 @@
 | `1328670` | 《质量效应》传奇版 | 可用 | 2026-07-24T12:53:04Z | [@HideonOcean](https://github.com/HideonOcean) | schinese | 127 | [UserGameStatsSchema_1328670.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1328670/UserGameStatsSchema_1328670.bin)（149 KB） | [#275](https://github.com/GaBoron/steam-achievement-translation-library/pull/275) |  | [Steam](https://store.steampowered.com/app/1328670/_/) |
 | `543240` | √Letter - Root Letter - 方根书简 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 26 | [UserGameStatsSchema_543240.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/543240/UserGameStatsSchema_543240.bin)（13 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/543240/) |
 | `2102450` | 艾诺提亚：失落之歌 | 可用 | 2026-07-18T09:48:37Z | [@GaBoron](https://github.com/GaBoron) | schinese | 43 | [UserGameStatsSchema_2102450.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2102450/UserGameStatsSchema_2102450.bin)（16 KB） | [#206](https://github.com/GaBoron/steam-achievement-translation-library/pull/206) |  | [Steam](https://store.steampowered.com/app/2102450) |
+| `1147550` | 不予播出 ( Not For Broadcast ) | 可用 | 2026-07-31T14:32:00Z | [@wowwot](https://github.com/wowwot) | english, schinese | 95 | [UserGameStatsSchema_1147550.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1147550/UserGameStatsSchema_1147550.bin)（40 KB） | [#396](https://github.com/GaBoron/steam-achievement-translation-library/pull/396) |  | [Steam](https://store.steampowered.com/app/1147550/) |
 | `242050` | 刺客信条4：黑旗 | 可用 | 2026-07-05T00:25:59Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 60 | [UserGameStatsSchema_242050.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/242050/UserGameStatsSchema_242050.bin)（99 KB） | [#41](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/41) |  | [Steam](https://store.steampowered.com/app/242050/4/) |
 | `359600` | 刺客信条：编年史 俄罗斯 | 可用 | 2026-07-05T07:39:45Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 17 | [UserGameStatsSchema_359600.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/359600/UserGameStatsSchema_359600.bin)（26 KB） | [#51](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/51) |  | [Steam](https://store.steampowered.com/app/359600/Assassins_Creed_Chronicles_Russia/) |
 | `359610` | 刺客信条：编年史 印度 | 可用 | 2026-07-05T07:40:18Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 18 | [UserGameStatsSchema_359610.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/359610/UserGameStatsSchema_359610.bin)（29 KB） | [#49](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/49) |  | [Steam](https://store.steampowered.com/app/359610/Assassins_Creed_Chronicles_India/) |
