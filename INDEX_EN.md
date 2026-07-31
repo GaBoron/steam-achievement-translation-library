@@ -4,7 +4,7 @@
 
 > After downloading, compare the file size with the index. If the size is clearly wrong, do not replace your local file. Use files marked as “May not work” or “Possibly outdated” with extra care.
 
-Accepted games: **325**.
+Accepted games: **326**.
 
 Status guide: Current; May not work (the file passes repository checks, but game or platform behavior may prevent it from taking effect); Possibly outdated (a game update may have invalidated the file).
 
@@ -345,4 +345,5 @@ See [README_EN.md](README_EN.md) for the full find, download, and replacement fl
 | `579180` | 伊苏VIII：丹娜的陨涕日 | Current | 2026-07-13T10:06:55Z | [@Zerosaves](https://github.com/Zerosaves) | english, japanese, schinese | 54 | [UserGameStatsSchema_579180.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/579180/UserGameStatsSchema_579180.bin) (30 KB) | [#99](https://github.com/GaBoron/steam-achievement-translation-library/pull/99) |  | [Steam](https://store.steampowered.com/app/579180/Ys_VIII_Lacrimosa_of_DANA/) |
 | `233130` | 影子武士1 | Current | 2026-07-26T03:37:10Z | [@Dadada2323](https://github.com/Dadada2323) | schinese | 92 | [UserGameStatsSchema_233130.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/233130/UserGameStatsSchema_233130.bin) (110 KB) | [#314](https://github.com/GaBoron/steam-achievement-translation-library/pull/314) |  | [Steam](https://store.steampowered.com/app/233130/_/) |
 | `1776970` | 月に寄りそう乙女の作法 近月少女的礼仪 | Current | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 38 | [UserGameStatsSchema_1776970.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1776970/UserGameStatsSchema_1776970.bin) (17 KB) | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1776970/) |
+| `1413480` | 真・女神转生III NOCTURNE HD REMASTER | Current | 2026-07-31T02:20:33Z | [@HideonOcean](https://github.com/HideonOcean) | schinese | 37 | [UserGameStatsSchema_1413480.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1413480/UserGameStatsSchema_1413480.bin) (34 KB) | [#344](https://github.com/GaBoron/steam-achievement-translation-library/pull/344) |  | [Steam](https://store.steampowered.com/app/1413480/III_NOCTURNE_HD_REMASTER/) |
 | `3336590` | 噗哟！动脑子 | Current | 2026-07-14T02:39:21Z | [@GaBoron](https://github.com/GaBoron) | english, schinese | 6 | [UserGameStatsSchema_3336590.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/3336590/UserGameStatsSchema_3336590.bin) (2 KB) | [#111](https://github.com/GaBoron/steam-achievement-translation-library/pull/111) |  | [Steam](https://store.steampowered.com/app/3336590/) |
