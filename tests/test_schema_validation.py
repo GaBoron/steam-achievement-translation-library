@@ -178,7 +178,11 @@ schinese
 
         self.assertFalse(result["retry_allowed"])
         self.assertTrue(result["close_issue"])
-        self.assertIn("https://github.com/example/repo/pull/42", result["errors"][0])
+        self.assertEqual(
+            "Steam app ID 123 已有正在审核的投稿 PR：#42。请在该 PR 中继续处理，不要重复投稿。",
+            result["errors"][0],
+        )
+        self.assertNotIn("https://github.com/example/repo/pull/42", result["errors"][0])
 
     def test_duplicate_index_entry_is_non_retryable(self) -> None:
         event = {

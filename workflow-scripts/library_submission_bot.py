@@ -203,8 +203,7 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
             else:
                 if open_pr:
                     pr_number = int(open_pr.get("number") or 0)
-                    pr_url = str(open_pr.get("html_url") or "").strip()
-                    pr_reference = pr_url or (f"PR #{pr_number}" if pr_number else "现有 PR")
+                    pr_reference = f"#{pr_number}" if pr_number else "现有 PR"
                     write_failure(
                         [f"Steam app ID {game_id} 已有正在审核的投稿 PR：{pr_reference}。请在该 PR 中继续处理，不要重复投稿。"],
                         retry_allowed=False,

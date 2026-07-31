@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   issue-review:
-    if: ${{ (github.event_name == 'issues' || (github.event_name == 'issue_comment' && github.event.comment.body == '/force-refresh')) && !github.event.issue.pull_request && github.event.issue.state == 'open' && !contains(github.event.issue.labels.*.name, '功能请愿') && !contains(github.event.issue.labels.*.name, '翻译请愿') && !contains(github.event.issue.body, '### 需要翻译的成就 schema ZIP') && !contains(github.event.issue.body, '### Achievement schema ZIP to translate') }}
+    if: ${{ (github.event_name == 'issues' || (github.event_name == 'issue_comment' && github.event.comment.body == '/force-refresh')) && !github.event.issue.pull_request && github.event.issue.state == 'open' && (contains(github.event.issue.labels.*.name, '翻译投稿') || contains(github.event.issue.labels.*.name, '更新文件') || contains(github.event.issue.labels.*.name, '报告错误')) }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout translation library
