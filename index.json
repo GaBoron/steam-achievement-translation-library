@@ -4879,6 +4879,49 @@
       "source_pr": "https://github.com/GaBoron/steam-achievement-translation-library/pull/269"
     },
     {
+      "game_name": "Rewrite+ 改写",
+      "game_id": "1680000",
+      "store_url": "https://store.steampowered.com/app/1680000/Rewrite/",
+      "languages": [
+        "schinese"
+      ],
+      "schema_file": "files/1680000/UserGameStatsSchema_1680000.bin",
+      "file_size_bytes": 17856,
+      "achievement_count": 43,
+      "sha256": "ae20b317c06783e0718de69c7c9aa3dd8ebc02609c1500d9091b3a80ae76fefc",
+      "source_issue": "https://github.com/GaBoron/steam-achievement-translation-library/issues/347",
+      "contributors": [
+        "Septem25"
+      ],
+      "contributor_id": "Septem25",
+      "submitted_at": "2026-07-28T04:35:56Z",
+      "updated_at": "2026-08-03T08:03:03Z",
+      "status": "current",
+      "schema_files": [
+        {
+          "variant_id": "default",
+          "primary": true,
+          "schema_file": "files/1680000/UserGameStatsSchema_1680000.bin",
+          "note_zh": "原投稿版本：保留游戏内汉化组未翻译的英文成就标题",
+          "note_en": "Original submission retaining untranslated in-game achievement titles",
+          "file_size_bytes": 17856,
+          "sha256": "ae20b317c06783e0718de69c7c9aa3dd8ebc02609c1500d9091b3a80ae76fefc",
+          "achievement_count": 43
+        },
+        {
+          "variant_id": "full-schinese",
+          "primary": false,
+          "schema_file": "files/1680000/full-schinese/UserGameStatsSchema_1680000.bin",
+          "note_zh": "完整简体中文版本：补译英文标题并统一中文表达",
+          "note_en": "Complete Simplified Chinese version with all achievement titles localized",
+          "file_size_bytes": 17834,
+          "sha256": "de90dd9447e8a248bc93edd47348a0a8bdfe5725a66f2ce0f877768ee0847272",
+          "achievement_count": 43
+        }
+      ],
+      "source_pr": "https://github.com/GaBoron/steam-achievement-translation-library/pull/348"
+    },
+    {
       "game_name": "Rune Factory 4 Special 符文工房4 豪华版",
       "game_id": "1580240",
       "store_url": "https://store.steampowered.com/app/1580240/",
