@@ -151,8 +151,14 @@ class WorkflowSecurityTests(unittest.TestCase):
         self.assertIn("contains(github.event.issue.labels.*.name, '翻译投稿')", issue_review)
         self.assertIn("contains(github.event.issue.labels.*.name, '更新文件')", issue_review)
         self.assertIn("contains(github.event.issue.labels.*.name, '报告错误')", issue_review)
+        self.assertIn("contains(github.event.issue.body, '### 上传文件包含的语言')", issue_review)
+        self.assertIn("contains(github.event.issue.body, '### Languages included in the uploaded file')", issue_review)
+        self.assertIn("contains(github.event.issue.body, '### 错误类型')", issue_review)
+        self.assertIn("contains(github.event.issue.body, '### Issue type')", issue_review)
         self.assertNotIn("contains(github.event.issue.labels.*.name, '自动化错误')", issue_review)
         self.assertNotIn("contains(github.event.issue.labels.*.name, '翻译请愿')", issue_review)
+        self.assertNotIn("contains(github.event.issue.body, '### 需要翻译的成就 schema ZIP')", issue_review)
+        self.assertNotIn("contains(github.event.issue.body, '### Achievement schema ZIP to translate')", issue_review)
         petition_job = workflow[workflow.index("  translation-petition-review:"):workflow.index("  pr-review-requested-changes:")]
         self.assertIn("contains(github.event.issue.body, '### 需要翻译的成就 schema ZIP')", petition_job)
         self.assertLess(
