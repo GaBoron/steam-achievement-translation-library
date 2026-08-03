@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**334** 个游戏。
+当前收录：**335** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -208,6 +208,7 @@
 | `230700` | La-Mulana 穆拉纳秘宝 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 64 | [UserGameStatsSchema_230700.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/230700/UserGameStatsSchema_230700.bin)（61 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/230700/) |
 | `373770` | LiEat 谎言吞噬者 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 30 | [UserGameStatsSchema_373770.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/373770/UserGameStatsSchema_373770.bin)（21 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/373770/) |
 | `345350` | LIGHTNING RETURNS: FINAL FANTASY® XIII 雷霆归来：最终幻想 XIII | 可用 | 2026-07-07T15:24:03Z | [@AioriaRegulus](https://github.com/AioriaRegulus) | english, french, german, italian, japanese, koreana, schinese, spanish | 42 | [UserGameStatsSchema_345350.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/345350/UserGameStatsSchema_345350.bin)（51 KB） | [#73](https://github.com/GaBoron/steam-achievement-translation-library/pull/73) |  | [Steam](https://store.steampowered.com/app/345350/) |
+| `635940` | Little Busters English Edition 小小克星 | 可用 | 2026-08-03T11:35:42Z | [@Septem25](https://github.com/Septem25) | schinese | 27 | [UserGameStatsSchema_635940.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/635940/UserGameStatsSchema_635940.bin)（13 KB） | [#346](https://github.com/GaBoron/steam-achievement-translation-library/pull/346) |  | [Steam](https://store.steampowered.com/app/635940/Little_Busters_English_Edition/) |
 | `424840` | Little Nightmares 小小梦魇 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 22 | [UserGameStatsSchema_424840.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/424840/UserGameStatsSchema_424840.bin)（31 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/424840/) |
 | `234140` | Mad Max 疯狂的麦克斯 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 49 | [UserGameStatsSchema_234140.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/234140/UserGameStatsSchema_234140.bin)（52 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/234140/) |
 | `50130` | Mafia II (Classic) 四海兄弟2：原版 | 可用 | 2026-07-17T15:08:37Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 67 | [UserGameStatsSchema_50130.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/50130/UserGameStatsSchema_50130.bin)（63 KB） | [#182](https://github.com/GaBoron/steam-achievement-translation-library/pull/182) |  | [Steam](https://store.steampowered.com/app/50130/Mafia_II_Classic/) |
