@@ -4891,7 +4891,8 @@
       "sha256": "ae20b317c06783e0718de69c7c9aa3dd8ebc02609c1500d9091b3a80ae76fefc",
       "source_issue": "https://github.com/GaBoron/steam-achievement-translation-library/issues/347",
       "contributors": [
-        "Septem25"
+        "Septem25",
+        "skeyep"
       ],
       "contributor_id": "Septem25",
       "submitted_at": "2026-07-28T04:35:56Z",
@@ -4902,8 +4903,8 @@
           "variant_id": "default",
           "primary": true,
           "schema_file": "files/1680000/UserGameStatsSchema_1680000.bin",
-          "note_zh": "原投稿版本：保留游戏内汉化组未翻译的英文成就标题",
-          "note_en": "Original submission retaining untranslated in-game achievement titles",
+          "note_zh": "原版",
+          "note_en": "Original Edition",
           "file_size_bytes": 17856,
           "sha256": "ae20b317c06783e0718de69c7c9aa3dd8ebc02609c1500d9091b3a80ae76fefc",
           "achievement_count": 43
@@ -4912,8 +4913,8 @@
           "variant_id": "full-schinese",
           "primary": false,
           "schema_file": "files/1680000/full-schinese/UserGameStatsSchema_1680000.bin",
-          "note_zh": "完整简体中文版本：补译英文标题并统一中文表达",
-          "note_en": "Complete Simplified Chinese version with all achievement titles localized",
+          "note_zh": "完整版",
+          "note_en": "Full Edition",
           "file_size_bytes": 17834,
           "sha256": "de90dd9447e8a248bc93edd47348a0a8bdfe5725a66f2ce0f877768ee0847272",
           "achievement_count": 43
