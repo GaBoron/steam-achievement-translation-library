@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**338** 个游戏。
+当前收录：**339** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -225,6 +225,7 @@
 | `287700` | METAL GEAR SOLID V: THE PHANTOM PAIN 合金装备5: 幻痛 | 可用 | 2026-07-29T12:54:44Z | [@HideonOcean](https://github.com/HideonOcean) | schinese | 42 | [UserGameStatsSchema_287700.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/287700/UserGameStatsSchema_287700.bin)（37 KB） | [#340](https://github.com/GaBoron/steam-achievement-translation-library/pull/340) |  | [Steam](https://store.steampowered.com/app/287700/METAL_GEAR_SOLID_V_THE_PHANTOM_PAIN/) |
 | `686060` | Mewgenics 喵喵的结合 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 281 | [UserGameStatsSchema_686060.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/686060/UserGameStatsSchema_686060.bin)（205 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/686060/) |
 | `802880` | Muv-Luv | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 15 | [UserGameStatsSchema_802880.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/802880/UserGameStatsSchema_802880.bin)（6 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/802880/) |
+| `802890` | Muv-Luv Alternative 真爱 替代计划 | 可用 | 2026-08-04T14:15:45Z | [@Septem25](https://github.com/Septem25) | english, japanese, schinese | 19 | [UserGameStatsSchema_802890.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/802890/UserGameStatsSchema_802890.bin)（7 KB） | [#421](https://github.com/GaBoron/steam-achievement-translation-library/pull/421) |  | [Steam](https://store.steampowered.com/app/802890/) |
 | `899970` | NEKOPARA Extra 猫娘乐园 Extra | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 13 | [UserGameStatsSchema_899970.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/899970/UserGameStatsSchema_899970.bin)（6 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/899970/) |
 | `385800` | NEKOPARA Vol. 0 猫娘乐园 Vol.0 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 13 | [UserGameStatsSchema_385800.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/385800/UserGameStatsSchema_385800.bin)（6 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/385800/) |
 | `333600` | NEKOPARA Vol. 1 猫娘乐园 Vol.1 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 14 | [UserGameStatsSchema_333600.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/333600/UserGameStatsSchema_333600.bin)（7 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/333600/) |
