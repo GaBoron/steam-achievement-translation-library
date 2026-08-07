@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="INDEX.md"><img alt="浏览翻译库" src="https://img.shields.io/badge/%E6%B5%8F%E8%A7%88%E7%BF%BB%E8%AF%91%E5%BA%93-%E6%89%93%E5%BC%80%E7%B4%A2%E5%BC%95-1f6feb?style=for-the-badge&amp;logo=steam&amp;logoColor=white"></a>
-  <a href="https://github.com/GaBoron/steam-achievement-translation-installer/releases/latest"><img alt="下载翻译管理器" src="https://img.shields.io/badge/%E7%BF%BB%E8%AF%91%E7%AE%A1%E7%90%86%E5%99%A8-Windows-0078D4?style=for-the-badge&amp;logo=windows11&amp;logoColor=white"></a>
+  <a href="https://github.com/GaBoron/steam-achievement-translation-installer"><img alt="下载翻译管理器" src="https://img.shields.io/badge/%E7%BF%BB%E8%AF%91%E7%AE%A1%E7%90%86%E5%99%A8-Windows-0078D4?style=for-the-badge&amp;logo=windows11&amp;logoColor=white"></a>
   <a href="https://github.com/GaBoron/steam-achievement-localizer-skill"><img alt="使用 Codex Skill 制作翻译" src="https://img.shields.io/badge/Codex%20Skill-%E5%88%B6%E4%BD%9C%E7%BF%BB%E8%AF%91-412991?style=for-the-badge&amp;logo=openai&amp;logoColor=white"></a>
   <a href="CONTRIBUTING.md"><img alt="阅读投稿指南" src="https://img.shields.io/badge/%E8%B4%A1%E7%8C%AE%E7%BF%BB%E8%AF%91-%E6%8A%95%E7%A8%BF%E6%8C%87%E5%8D%97-2DA44E?style=for-the-badge&amp;logo=github&amp;logoColor=white"></a>
 </p>
