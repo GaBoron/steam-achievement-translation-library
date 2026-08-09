@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**347** 个游戏。
+当前收录：**348** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -38,6 +38,7 @@
 | `745960` | A Sky Full of Stars 仰望夜空的星辰 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 20 | [UserGameStatsSchema_745960.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/745960/UserGameStatsSchema_745960.bin)（7 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/745960/) |
 | `278360` | A Story About My Uncle 我的叔叔的故事 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 15 | [UserGameStatsSchema_278360.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/278360/UserGameStatsSchema_278360.bin)（11 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/278360/) |
 | `1222700` | A Way Out 逃出生天 | 可用 | 2026-07-07T12:39:35Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 14 | [UserGameStatsSchema_1222700.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1222700/UserGameStatsSchema_1222700.bin)（14 KB） | [#61](https://github.com/GaBoron/steam-achievement-translation-library/pull/61) |  | [Steam](https://store.steampowered.com/app/1222700/A_Way_Out/) |
+| `473690` | Absolver 赦免者 | 可用 | 2026-08-09T05:17:49Z | [@wowwot](https://github.com/wowwot) | schinese | 22 | [UserGameStatsSchema_473690.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/473690/UserGameStatsSchema_473690.bin)（19 KB） | [#425](https://github.com/GaBoron/steam-achievement-translation-library/pull/425) |  | [Steam](https://store.steampowered.com/app/473690/Absolver/) |
 | `1385380` | Across the Obelisk 穿越方尖碑 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 148 | [UserGameStatsSchema_1385380.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1385380/UserGameStatsSchema_1385380.bin)（54 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1385380/) |
 | `820730` | Adventure of a Lifetime 一生一次的冒险 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 20 | [UserGameStatsSchema_820730.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/820730/UserGameStatsSchema_820730.bin)（7 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/820730/) |
 | `610160` | Aeronautica Imperialis: Flight Command 航空帝国主义：飞行指挥 | 可用 | 2026-07-26T03:39:19Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 48 | [UserGameStatsSchema_610160.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/610160/UserGameStatsSchema_610160.bin)（24 KB） | [#307](https://github.com/GaBoron/steam-achievement-translation-library/pull/307) |  | [Steam](https://store.steampowered.com/app/610160/Aeronautica_Imperialis_Flight_Command/) |
