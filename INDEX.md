@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**346** 个游戏。
+当前收录：**347** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -270,6 +270,7 @@
 | `433340` | Slime Rancher 史莱姆牧场 | 可用 | 2026-07-16T03:42:23Z | [@OlderBiao](https://github.com/OlderBiao) | schinese | 57 | [UserGameStatsSchema_433340.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/433340/UserGameStatsSchema_433340.bin)（22 KB） | [#144](https://github.com/GaBoron/steam-achievement-translation-library/pull/144) |  | [Steam](https://store.steampowered.com/app/433340/Slime_Rancher/) |
 | `930910` | STEINS;GATE: Linear Bounded Phenogram 命运石之门：线形拘束的表征图 | 可用 | 2026-07-23T00:00:00Z | [@skeyep](https://github.com/skeyep) | schinese | 35 | [UserGameStatsSchema_930910.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/930910/UserGameStatsSchema_930910.bin)（17 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/930910/) |
 | `970560` | STEINS;GATE: My Darling's Embrace 命运石之门：比翼恋理的爱人 | 可用 | 2026-07-23T01:39:56Z | [@skeyep](https://github.com/skeyep) | schinese | 50 | [UserGameStatsSchema_970560.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/970560/UserGameStatsSchema_970560.bin)（26 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/970560/) |
+| `674940` | Stick Fight: The Game 火柴人大乱斗 | 可用 | 2026-08-09T05:13:02Z | [@wowwot](https://github.com/wowwot) | schinese | 28 | [UserGameStatsSchema_674940.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/674940/UserGameStatsSchema_674940.bin)（11 KB） | [#415](https://github.com/GaBoron/steam-achievement-translation-library/pull/415) |  | [Steam](https://store.steampowered.com/app/674940/Stick_Fight_The_Game/) |
 | `2533960` | SUMMERHOUSE 夏日小屋 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 10 | [UserGameStatsSchema_2533960.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2533960/UserGameStatsSchema_2533960.bin)（3 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/2533960/) |
 | `304650` | SUNLESS SEA 无光之海 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 54 | [UserGameStatsSchema_304650.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/304650/UserGameStatsSchema_304650.bin)（19 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/304650/) |
 | `1031500` | Super Robot Wars V 超级机器人大战V | 可用 | 2026-07-07T12:52:11Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 35 | [UserGameStatsSchema_1031500.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1031500/UserGameStatsSchema_1031500.bin)（25 KB） | [#69](https://github.com/GaBoron/steam-achievement-translation-library/pull/69) |  | [Steam](https://store.steampowered.com/app/1031500/Super_Robot_Wars_V/) |
