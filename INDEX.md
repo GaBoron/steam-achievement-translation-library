@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**361** 个游戏。
+当前收录：**362** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -116,6 +116,7 @@
 | `1229240` | Chained Echoes 宿命残响 | 可用 | 2026-07-29T13:17:12Z | [@skeyep](https://github.com/skeyep) | schinese | 37 | [UserGameStatsSchema_1229240.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1229240/UserGameStatsSchema_1229240.bin)（13 KB） | [#375](https://github.com/GaBoron/steam-achievement-translation-library/pull/375) |  | [Steam](https://store.steampowered.com/app/1229240/Chained_Echoes/) |
 | `2567870` | Chained Together 链在一起 | 可用 | 2026-07-04T17:19:37Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 16 | [UserGameStatsSchema_2567870.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2567870/UserGameStatsSchema_2567870.bin)（6 KB） | [#26](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/26) |  | [Steam](https://store.steampowered.com/app/2567870/Chained_Together/) |
 | `970570` | CHAOS;CHILD 混沌之子 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 34 | [UserGameStatsSchema_970570.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/970570/UserGameStatsSchema_970570.bin)（15 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/970570/) |
+| `1961950` | CHAOS;HEAD NOAH 混沌之脑 诺亚 | 可用 | 2026-08-09T07:53:01Z | [@GaBoron](https://github.com/GaBoron) | english, japanese, schinese | 34 | [UserGameStatsSchema_1961950.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1961950/UserGameStatsSchema_1961950.bin)（14 KB） | [#469](https://github.com/GaBoron/steam-achievement-translation-library/pull/469) |  | [Steam](https://store.steampowered.com/app/1961950/CHAOSHEAD_NOAH/) |
 | `405290` | Charlie Murder 查理谋杀案 | 可用 | 2026-07-29T13:04:12Z | [@skeyep](https://github.com/skeyep) | schinese | 30 | [UserGameStatsSchema_405290.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/405290/UserGameStatsSchema_405290.bin)（11 KB） | [#378](https://github.com/GaBoron/steam-achievement-translation-library/pull/378) |  | [Steam](https://store.steampowered.com/app/405290/Charlie_Murder/) |
 | `518060` | Chess Ultra 终极国际象棋 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 38 | [UserGameStatsSchema_518060.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/518060/UserGameStatsSchema_518060.bin)（39 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/518060/) |
 | `1831830` | Chessarama 棋境漫游 | 可用 | 2026-07-29T13:05:19Z | [@skeyep](https://github.com/skeyep) | schinese | 48 | [UserGameStatsSchema_1831830.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1831830/UserGameStatsSchema_1831830.bin)（20 KB） | [#381](https://github.com/GaBoron/steam-achievement-translation-library/pull/381) |  | [Steam](https://store.steampowered.com/app/1831830/Chessarama/) |
