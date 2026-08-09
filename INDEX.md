@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**367** 个游戏。
+当前收录：**368** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -260,6 +260,7 @@
 | `1929870` | Nomad Survival 游牧生存 | 可用 | 2026-07-23T02:32:30Z | [@skeyep](https://github.com/skeyep) | schinese | 116 | [UserGameStatsSchema_1929870.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1929870/UserGameStatsSchema_1929870.bin)（44 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1929870/) |
 | `1163600` | Omega Labyrinth Life 欧米伽迷宫 Life | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 46 | [UserGameStatsSchema_1163600.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1163600/UserGameStatsSchema_1163600.bin)（27 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1163600/) |
 | `238320` | Outlast 逃生1 | 可用 | 2026-07-16T03:43:59Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 14 | [UserGameStatsSchema_238320.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/238320/UserGameStatsSchema_238320.bin)（12 KB） | [#142](https://github.com/GaBoron/steam-achievement-translation-library/pull/142) |  | [Steam](https://store.steampowered.com/app/238320/Outlast/) |
+| `448510` | Overcooked 胡闹厨房 | 可用 | 2026-08-09T11:57:30Z | [@wowwot](https://github.com/wowwot) | schinese | 12 | [UserGameStatsSchema_448510.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/448510/UserGameStatsSchema_448510.bin)（9 KB） | [#481](https://github.com/GaBoron/steam-achievement-translation-library/pull/481) |  | [Steam](https://store.steampowered.com/app/448510/Overcooked/) |
 | `1260520` | Patrick's Parabox 帕特里克的箱子无穷奇遇 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 22 | [UserGameStatsSchema_1260520.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1260520/UserGameStatsSchema_1260520.bin)（8 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1260520/) |
 | `1205520` | Pentiment 隐迹渐现 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 41 | [UserGameStatsSchema_1205520.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1205520/UserGameStatsSchema_1205520.bin)（32 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1205520/) |
 | `1382330` | Persona 5 Strikers 女神异闻录5 乱战：魅影攻手 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 47 | [UserGameStatsSchema_1382330.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1382330/UserGameStatsSchema_1382330.bin)（43 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1382330/) |
