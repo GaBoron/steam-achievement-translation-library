@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**351** 个游戏。
+当前收录：**352** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -163,6 +163,7 @@
 | `3932890` | Escape from Tarkov 逃离塔科夫 | 可能不生效 | 2026-07-21T06:25:41Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 84 | [UserGameStatsSchema_3932890.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/3932890/UserGameStatsSchema_3932890.bin)（50 KB） | [#242](https://github.com/GaBoron/steam-achievement-translation-library/pull/242) |  | [Steam](https://store.steampowered.com/app/3932890/Escape_from_Tarkov/) |
 | `1416960` | Everafter Falls 永恒之后的瀑布 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 38 | [UserGameStatsSchema_1416960.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1416960/UserGameStatsSchema_1416960.bin)（29 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1416960/) |
 | `1984020` | Everhood 2 永恒之路2 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 130 | [UserGameStatsSchema_1984020.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1984020/UserGameStatsSchema_1984020.bin)（69 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1984020/) |
+| `312840` | Fahrenheit: Indigo Prophecy Remastered 幻象杀手：重制版 | 可用 | 2026-08-09T06:06:00Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 17 | [UserGameStatsSchema_312840.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/312840/UserGameStatsSchema_312840.bin)（10 KB） | [#429](https://github.com/GaBoron/steam-achievement-translation-library/pull/429) |  | [Steam](https://store.steampowered.com/app/312840/Fahrenheit_Indigo_Prophecy_Remastered/) |
 | `377160` | Fallout 4 辐射 4 | 可用 | 2026-07-17T15:04:59Z | [@b1516717676](https://github.com/b1516717676) | schinese | 84 | [UserGameStatsSchema_377160.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/377160/UserGameStatsSchema_377160.bin)（87 KB） | [#174](https://github.com/GaBoron/steam-achievement-translation-library/pull/174) |  | [Steam](https://store.steampowered.com/app/377160/Fallout_4/) |
 | `22380` | Fallout: New Vegas 辐射：新维加斯 | 可用 | 2026-07-17T15:07:47Z | [@leoncranston777](https://github.com/leoncranston777) | schinese | 75 | [UserGameStatsSchema_22380.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/22380/UserGameStatsSchema_22380.bin)（50 KB） | [#180](https://github.com/GaBoron/steam-achievement-translation-library/pull/180) |  | [Steam](https://store.steampowered.com/app/22380/Fallout_New_Vegas/) |
 | `220240` | Far Cry 3 孤岛惊魂3 | 可用 | 2026-07-22T05:48:26Z | [@HideonOcean](https://github.com/HideonOcean) | schinese | 44 | [UserGameStatsSchema_220240.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/220240/UserGameStatsSchema_220240.bin)（59 KB） | [#265](https://github.com/GaBoron/steam-achievement-translation-library/pull/265) |  | [Steam](https://store.steampowered.com/app/220240/Far_Cry_3/) |
