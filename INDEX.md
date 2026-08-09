@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**359** 个游戏。
+当前收录：**360** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -69,6 +69,7 @@
 | `267490` | Batman: Arkham Origins Blackgate - Deluxe Edition 蝙蝠侠：阿卡姆起源 黑门 豪华版 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 30 | [UserGameStatsSchema_267490.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/267490/UserGameStatsSchema_267490.bin)（22 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/267490/) |
 | `209000` | Batman: Arkham Origins 蝙蝠侠：阿卡姆起源 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 60 | [UserGameStatsSchema_209000.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/209000/UserGameStatsSchema_209000.bin)（96 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/209000/) |
 | `208650` | Batman™: Arkham Knight 蝙蝠侠：阿卡姆骑士 | 可用 | 2026-07-04T16:48:24Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese | 113 | [UserGameStatsSchema_208650.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/208650/UserGameStatsSchema_208650.bin)（140 KB） | [#16](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/16) |  | [Steam](https://store.steampowered.com/app/208650/Batman_Arkham_Knight/) |
+| `365360` | Battle Brothers 战场兄弟 | 可用 | 2026-08-09T06:44:07Z | [@roundbell](https://github.com/roundbell) | schinese | 101 | [UserGameStatsSchema_365360.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/365360/UserGameStatsSchema_365360.bin)（36 KB） | [#437](https://github.com/GaBoron/steam-achievement-translation-library/pull/437) |  | [Steam](https://store.steampowered.com/app/365360/) |
 | `1238840` | Battlefield 1 战地1 | 可用 | 2026-07-15T04:14:26Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 50 | [UserGameStatsSchema_1238840.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1238840/UserGameStatsSchema_1238840.bin)（82 KB） | [#125](https://github.com/GaBoron/steam-achievement-translation-library/pull/125) |  | [Steam](https://store.steampowered.com/app/1238840/Battlefield_1/) |
 | `1238820` | Battlefield 3 战地3 | 可用 | 2026-07-15T04:15:31Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 34 | [UserGameStatsSchema_1238820.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1238820/UserGameStatsSchema_1238820.bin)（47 KB） | [#127](https://github.com/GaBoron/steam-achievement-translation-library/pull/127) |  | [Steam](https://store.steampowered.com/app/1238820/Battlefield_3/) |
 | `1238860` | Battlefield 4 战地4 | 可用 | 2026-07-15T04:16:35Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 67 | [UserGameStatsSchema_1238860.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1238860/UserGameStatsSchema_1238860.bin)（107 KB） | [#129](https://github.com/GaBoron/steam-achievement-translation-library/pull/129) |  | [Steam](https://store.steampowered.com/app/1238860/Battlefield_4/) |
