@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**348** 个游戏。
+当前收录：**349** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -251,6 +251,7 @@
 | `1382330` | Persona 5 Strikers 女神异闻录5 乱战：魅影攻手 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 47 | [UserGameStatsSchema_1382330.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1382330/UserGameStatsSchema_1382330.bin)（43 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1382330/) |
 | `3590` | Plants vs. Zombies: Game of the Year 植物大战僵尸：年度版 | 可用 | 2026-07-19T13:23:25Z | [@DANWN1675SJ](https://github.com/DANWN1675SJ) | english, schinese | 21 | [UserGameStatsSchema_3590.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/3590/UserGameStatsSchema_3590.bin)（8 KB） | [#227](https://github.com/GaBoron/steam-achievement-translation-library/pull/227) |  | [Steam](https://store.steampowered.com/app/3590/Plants_vs_Zombies_GOTY_Edition/) |
 | `2903560` | Platform 8 8号站台 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 3 | [UserGameStatsSchema_2903560.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2903560/UserGameStatsSchema_2903560.bin)（2 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/2903560/) |
+| `2600140` | Please, Touch The Artwork 2 请触摸艺术品2 | 可用 | 2026-08-09T05:24:48Z | [@wowwot](https://github.com/wowwot) | schinese | 30 | [UserGameStatsSchema_2600140.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2600140/UserGameStatsSchema_2600140.bin)（10 KB） | [#427](https://github.com/GaBoron/steam-achievement-translation-library/pull/427) |  | [Steam](https://store.steampowered.com/app/2600140/Please_Touch_The_Artwork_2/) |
 | `205610` | Port Royale 3 海商王3 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 64 | [UserGameStatsSchema_205610.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/205610/UserGameStatsSchema_205610.bin)（46 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/205610/) |
 | `474960` | Quantum Break 量子破碎 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 42 | [UserGameStatsSchema_474960.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/474960/UserGameStatsSchema_474960.bin)（55 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/474960/) |
 | `648800` | Raft 木筏 | 可用 | 2026-07-18T09:46:20Z | [@GaBoron](https://github.com/GaBoron) | schinese | 104 | [UserGameStatsSchema_648800.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/648800/UserGameStatsSchema_648800.bin)（46 KB） | [#212](https://github.com/GaBoron/steam-achievement-translation-library/pull/212) |  | [Steam](https://store.steampowered.com/app/648800) |
