@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "app_id": "3934250",
+  "target_language": "schinese",
+  "network_access": "available",
+  "source_schema_languages": [
+    "english",
+    "tchinese",
+    "french",
+    "japanese",
+    "koreana",
+    "spanish"
+  ],
+  "consulted_schema_languages": [
+    "english",
+    "tchinese",
+    "french",
+    "japanese",
+    "koreana",
+    "spanish"
+  ],
+  "online_sources": [
+    {
+      "url": "https://github.com/GaBoron/steam-achievement-translation-library/issues/405",
+      "kind": "petition",
+      "note": "Open translation petition and attached source schema."
+    },
+    {
+      "url": "https://store.steampowered.com/app/3934250/_/?l=schinese",
+      "kind": "official_store",
+      "note": "Official Simplified Chinese title 静谧田园 and game terminology."
+    },
+    {
+      "url": "https://store.steampowered.com/app/3934250/Village_in_the_Shade/",
+      "kind": "official_store",
+      "note": "Official English game description and setting context."
+    }
+  ],
+  "notes": [
+    "The official Simplified Chinese Steam store title 静谧田园 is used consistently; all achievement conditions retain the game's 静谧田园模式 context and Japanese rural terminology.",
+    "The connected translation library has no entry for this app ID."
+  ]
+}

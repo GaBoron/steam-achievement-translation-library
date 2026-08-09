@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "app_id": "1961950",
+  "target_language": "schinese",
+  "original_source": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\1961950-schinese-request-inputs\\input\\zip-extracted\\UserGameStatsSchema_1961950.bin",
+  "original_was_modified": false,
+  "source_sha256": "1527e5d56f451437c5cdbc17a89403e4cecc5c15dbf008f3e0a9a186ed6b2d37",
+  "localized_sha256": "72db13f92917ef79e209e3e39557402350e5147bbd1f10c73e654a0572e73ec7",
+  "localized_size": 14757,
+  "roundtrip_equal": true,
+  "achievement_count": 34,
+  "target_language_coverage_count": 34,
+  "target_language_nodes_changed": 68,
+  "source_languages_consulted": [
+    "english",
+    "japanese"
+  ],
+  "online_sources": [
+    {
+      "url": "https://github.com/GaBoron/steam-achievement-translation-library/issues/466",
+      "kind": "petition",
+      "note": "Open translation petition and attached source schema."
+    },
+    {
+      "url": "https://store.steampowered.com/app/1961950/CHAOSHEAD_NOAH/",
+      "kind": "official_store",
+      "note": "Official game title and franchise context."
+    },
+    {
+      "url": "https://steamcommunity.com/stats/1961950/achievements",
+      "kind": "achievement_list",
+      "note": "Steam achievement names and completion wording."
+    }
+  ],
+  "translation_library": {
+    "checked": true,
+    "match": null
+  },
+  "final_bin": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\1961950-schinese\\final\\UserGameStatsSchema_1961950.bin",
+  "final_zip": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\1961950-schinese\\final\\UserGameStatsSchema_1961950.zip",
+  "report": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\1961950-schinese\\final\\report.json",
+  "final_zip_sha256": "73586cf66473be24755be5a1bab29b922787e297397de17cb92a52b5295e998c"
+}

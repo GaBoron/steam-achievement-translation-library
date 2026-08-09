@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "app_id": "63380",
+  "target_language": "schinese",
+  "network_access": "available",
+  "source_schema_languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "polish",
+    "russian",
+    "spanish"
+  ],
+  "consulted_schema_languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "polish",
+    "russian",
+    "spanish"
+  ],
+  "online_sources": [
+    {
+      "url": "https://github.com/GaBoron/steam-achievement-translation-library/issues/464",
+      "kind": "petition",
+      "note": "Open translation petition and attached source schema."
+    },
+    {
+      "url": "https://store.steampowered.com/app/63380/Sniper_Elite_V2/",
+      "kind": "official_store",
+      "note": "Official game setting, terminology, and achievement count."
+    },
+    {
+      "url": "https://www.trueachievements.com/game/Sniper-Elite-V2/achievements",
+      "kind": "achievement_list",
+      "note": "Cross-checked the complete achievement names and conditions."
+    },
+    {
+      "url": "https://www.powerpyx.com/guides/sniper_elite_v2.html",
+      "kind": "guide",
+      "note": "Cross-checked mission names, sniper terms, and DLC context."
+    }
+  ],
+  "notes": [
+    "Military terminology follows the English conditions and is cross-checked against the complete achievement list; character and location names remain in their recognizable romanized forms.",
+    "The connected translation library has no entry for this app ID."
+  ]
+}

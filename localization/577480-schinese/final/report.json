@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "app_id": "577480",
+  "target_language": "schinese",
+  "original_source": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\577480-schinese-request-inputs\\input\\zip-extracted\\UserGameStatsSchema_577480.bin",
+  "original_was_modified": false,
+  "source_sha256": "53e837025ee4b475dc25635e5b35455d7eddccce15721a388b1c86095d929971",
+  "localized_sha256": "2263e0c591309f0c6139f3c5315292023f0cb6f1da5bc1b6f2ecc2309884bd89",
+  "localized_size": 7313,
+  "roundtrip_equal": true,
+  "achievement_count": 16,
+  "target_language_coverage_count": 16,
+  "target_language_nodes_changed": 32,
+  "source_languages_consulted": [
+    "english",
+    "japanese"
+  ],
+  "online_sources": [
+    {
+      "url": "https://github.com/GaBoron/steam-achievement-translation-library/issues/442",
+      "kind": "petition",
+      "note": "Open translation petition and attached source schema."
+    },
+    {
+      "url": "https://store.steampowered.com/app/577480/Higurashi_When_They_Cry_Hou__Ch5_Meakashi/?l=japanese",
+      "kind": "official_store",
+      "note": "Official Japanese title and chapter context."
+    },
+    {
+      "url": "https://steamcommunity.com/stats/577480/achievements",
+      "kind": "achievement_list",
+      "note": "Steam achievement list used to verify the 16 story and extra achievements."
+    }
+  ],
+  "translation_library": {
+    "checked": true,
+    "match": null
+  },
+  "final_bin": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\577480-schinese\\final\\UserGameStatsSchema_577480.bin",
+  "final_zip": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\577480-schinese\\final\\UserGameStatsSchema_577480.zip",
+  "report": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\577480-schinese\\final\\report.json",
+  "final_zip_sha256": "594cc67ccd264c57ca12688322660b62e607e329adacefb639c1cfa1663c87d2"
+}

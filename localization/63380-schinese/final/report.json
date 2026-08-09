@@ -1,0 +1,54 @@
+{
+  "status": "complete",
+  "app_id": "63380",
+  "target_language": "schinese",
+  "original_source": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\63380-schinese-request-inputs\\input\\zip-extracted\\UserGameStatsSchema_63380.bin",
+  "original_was_modified": false,
+  "source_sha256": "206e89dd1b0a76a6d679dd9c58a60c8304d1e094ae8cbc70b0a316ea266450b6",
+  "localized_sha256": "dde7fc7bc3aed2f7be877a33749913999637af80b35615947fe504fdfef3a769",
+  "localized_size": 60588,
+  "roundtrip_equal": true,
+  "achievement_count": 47,
+  "target_language_coverage_count": 47,
+  "target_language_nodes_changed": 94,
+  "source_languages_consulted": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "polish",
+    "russian",
+    "spanish"
+  ],
+  "online_sources": [
+    {
+      "url": "https://github.com/GaBoron/steam-achievement-translation-library/issues/464",
+      "kind": "petition",
+      "note": "Open translation petition and attached source schema."
+    },
+    {
+      "url": "https://store.steampowered.com/app/63380/Sniper_Elite_V2/",
+      "kind": "official_store",
+      "note": "Official game setting, terminology, and achievement count."
+    },
+    {
+      "url": "https://www.trueachievements.com/game/Sniper-Elite-V2/achievements",
+      "kind": "achievement_list",
+      "note": "Cross-checked the complete achievement names and conditions."
+    },
+    {
+      "url": "https://www.powerpyx.com/guides/sniper_elite_v2.html",
+      "kind": "guide",
+      "note": "Cross-checked mission names, sniper terms, and DLC context."
+    }
+  ],
+  "translation_library": {
+    "checked": true,
+    "match": null
+  },
+  "final_bin": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\63380-schinese\\final\\UserGameStatsSchema_63380.bin",
+  "final_zip": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\63380-schinese\\final\\UserGameStatsSchema_63380.zip",
+  "report": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\63380-schinese\\final\\report.json",
+  "final_zip_sha256": "11fe4d524e9c315939296b092f0a766186fe31b86b86f59a9d15b6b03b1cfea1"
+}

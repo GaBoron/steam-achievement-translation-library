@@ -1,0 +1,47 @@
+{
+  "status": "complete",
+  "app_id": "3934250",
+  "target_language": "schinese",
+  "original_source": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\3934250-schinese-request-inputs\\input\\zip-extracted\\UserGameStatsSchema_3934250.bin",
+  "original_was_modified": false,
+  "source_sha256": "b9774702b239711e5467ed68e089226966d842036f85f2943fd048b76a485348",
+  "localized_sha256": "4640babf85ad9f4f1d803f04ae5d8da7549ebea160a4c03b3a1ab61f496f22fa",
+  "localized_size": 43658,
+  "roundtrip_equal": true,
+  "achievement_count": 52,
+  "target_language_coverage_count": 52,
+  "target_language_nodes_changed": 104,
+  "source_languages_consulted": [
+    "english",
+    "tchinese",
+    "french",
+    "japanese",
+    "koreana",
+    "spanish"
+  ],
+  "online_sources": [
+    {
+      "url": "https://github.com/GaBoron/steam-achievement-translation-library/issues/405",
+      "kind": "petition",
+      "note": "Open translation petition and attached source schema."
+    },
+    {
+      "url": "https://store.steampowered.com/app/3934250/_/?l=schinese",
+      "kind": "official_store",
+      "note": "Official Simplified Chinese title 静谧田园 and game terminology."
+    },
+    {
+      "url": "https://store.steampowered.com/app/3934250/Village_in_the_Shade/",
+      "kind": "official_store",
+      "note": "Official English game description and setting context."
+    }
+  ],
+  "translation_library": {
+    "checked": true,
+    "match": null
+  },
+  "final_bin": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\3934250-schinese\\final\\UserGameStatsSchema_3934250.bin",
+  "final_zip": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\3934250-schinese\\final\\UserGameStatsSchema_3934250.zip",
+  "report": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\3934250-schinese\\final\\report.json",
+  "final_zip_sha256": "1e1026a312c86e0f5f4f467585b99329cabd0e0565dda25245914f1191bdb1c5"
+}

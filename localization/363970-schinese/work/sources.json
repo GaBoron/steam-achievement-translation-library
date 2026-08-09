@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "app_id": "363970",
+  "target_language": "schinese",
+  "network_access": "available",
+  "source_schema_languages": [
+    "english"
+  ],
+  "consulted_schema_languages": [
+    "english"
+  ],
+  "online_sources": [
+    {
+      "url": "https://github.com/GaBoron/steam-achievement-translation-library/issues/463",
+      "kind": "petition",
+      "note": "Open translation petition and attached source schema."
+    },
+    {
+      "url": "https://store.steampowered.com/app/363970/Clicker_Heroes/",
+      "kind": "official_store",
+      "note": "Official game context and feature terminology."
+    },
+    {
+      "url": "https://steamcommunity.com/stats/363970/achievements",
+      "kind": "achievement_list",
+      "note": "Steam list used to verify all 111 achievement names and conditions."
+    },
+    {
+      "url": "https://clickerheroes.fandom.com/wiki/Achievements",
+      "kind": "community_reference",
+      "note": "Cross-checked Zone, Ascension, Transcension, quest, and mercenary terminology."
+    }
+  ],
+  "notes": [
+    "Clicker Heroes terminology is kept consistent across repeated milestone achievements: Zone is translated as 区, Ascend as 转生, Transcend as 超越, and the game's named currencies and units are preserved.",
+    "The connected translation library has no entry for this app ID."
+  ]
+}

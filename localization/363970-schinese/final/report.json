@@ -1,0 +1,47 @@
+{
+  "status": "complete",
+  "app_id": "363970",
+  "target_language": "schinese",
+  "original_source": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\363970-schinese-request-inputs\\input\\zip-extracted\\UserGameStatsSchema_363970.bin",
+  "original_was_modified": false,
+  "source_sha256": "7d5c8f78ce6a4dec2c2c04fabfc5f2e9cff9962c664ec83c44438d88cb0f5931",
+  "localized_sha256": "dc2cc00bdb2fd89d3057766a68e623334b5e03e590f23841fc469f4db4209d2a",
+  "localized_size": 52900,
+  "roundtrip_equal": true,
+  "achievement_count": 111,
+  "target_language_coverage_count": 111,
+  "target_language_nodes_changed": 222,
+  "source_languages_consulted": [
+    "english"
+  ],
+  "online_sources": [
+    {
+      "url": "https://github.com/GaBoron/steam-achievement-translation-library/issues/463",
+      "kind": "petition",
+      "note": "Open translation petition and attached source schema."
+    },
+    {
+      "url": "https://store.steampowered.com/app/363970/Clicker_Heroes/",
+      "kind": "official_store",
+      "note": "Official game context and feature terminology."
+    },
+    {
+      "url": "https://steamcommunity.com/stats/363970/achievements",
+      "kind": "achievement_list",
+      "note": "Steam list used to verify all 111 achievement names and conditions."
+    },
+    {
+      "url": "https://clickerheroes.fandom.com/wiki/Achievements",
+      "kind": "community_reference",
+      "note": "Cross-checked Zone, Ascension, Transcension, quest, and mercenary terminology."
+    }
+  ],
+  "translation_library": {
+    "checked": true,
+    "match": null
+  },
+  "final_bin": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\363970-schinese\\final\\UserGameStatsSchema_363970.bin",
+  "final_zip": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\363970-schinese\\final\\UserGameStatsSchema_363970.zip",
+  "report": "C:\\Users\\GaBoron\\Documents\\Project\\Steam Achievement Translation Library\\localization\\363970-schinese\\final\\report.json",
+  "final_zip_sha256": "c7e1bbb89f651e5d41a13f43a64d4a77462ae8d7809214b178c49e33c95e7fd0"
+}

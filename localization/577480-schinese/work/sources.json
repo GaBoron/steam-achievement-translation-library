@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "app_id": "577480",
+  "target_language": "schinese",
+  "network_access": "available",
+  "source_schema_languages": [
+    "english",
+    "japanese"
+  ],
+  "consulted_schema_languages": [
+    "english",
+    "japanese"
+  ],
+  "online_sources": [
+    {
+      "url": "https://github.com/GaBoron/steam-achievement-translation-library/issues/442",
+      "kind": "petition",
+      "note": "Open translation petition and attached source schema."
+    },
+    {
+      "url": "https://store.steampowered.com/app/577480/Higurashi_When_They_Cry_Hou__Ch5_Meakashi/?l=japanese",
+      "kind": "official_store",
+      "note": "Official Japanese title and chapter context."
+    },
+    {
+      "url": "https://steamcommunity.com/stats/577480/achievements",
+      "kind": "achievement_list",
+      "note": "Steam achievement list used to verify the 16 story and extra achievements."
+    }
+  ],
+  "notes": [
+    "The established Chinese terms 目明篇, 御社神, and 龙骑士07 are used for Higurashi-specific names while preserving the English achievement tone.",
+    "The connected translation library has no entry for this app ID."
+  ]
+}

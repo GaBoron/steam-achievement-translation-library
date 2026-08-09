@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "app_id": "1961950",
+  "target_language": "schinese",
+  "network_access": "available",
+  "source_schema_languages": [
+    "english",
+    "japanese"
+  ],
+  "consulted_schema_languages": [
+    "english",
+    "japanese"
+  ],
+  "online_sources": [
+    {
+      "url": "https://github.com/GaBoron/steam-achievement-translation-library/issues/466",
+      "kind": "petition",
+      "note": "Open translation petition and attached source schema."
+    },
+    {
+      "url": "https://store.steampowered.com/app/1961950/CHAOSHEAD_NOAH/",
+      "kind": "official_store",
+      "note": "Official game title and franchise context."
+    },
+    {
+      "url": "https://steamcommunity.com/stats/1961950/achievements",
+      "kind": "achievement_list",
+      "note": "Steam achievement names and completion wording."
+    }
+  ],
+  "notes": [
+    "Chapter, route, ending, and Science Adventure terminology was cross-checked against the Japanese source and the official title; proper nouns and stylized subtitles remain recognizable.",
+    "The connected translation library has no entry for this app ID."
+  ]
+}
