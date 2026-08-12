@@ -24,6 +24,19 @@ from library_test_support import achievement_node, schema_nodes, string_node  # 
 
 
 class SchemaValidationTests(unittest.TestCase):
+    def test_common_fields_derive_canonical_store_url_from_app_id(self) -> None:
+        fields = {
+            "游戏名": "示例游戏",
+            "Steam app ID": "123",
+        }
+
+        game_name, game_id, store_url, errors = submission_validation.validate_common_fields(fields)
+
+        self.assertEqual("示例游戏", game_name)
+        self.assertEqual("123", game_id)
+        self.assertEqual("https://store.steampowered.com/app/123/", store_url)
+        self.assertEqual([], errors)
+
     def test_report_type_maps_to_index_states(self) -> None:
         self.assertEqual("outdated", bot.report_state("文件可能过期"))
         self.assertEqual("outdated", bot.report_state("File may be outdated"))
@@ -43,10 +56,6 @@ class SchemaValidationTests(unittest.TestCase):
 ### Steam app ID
 
 123
-
-### Steam 商店地址
-
-https://store.steampowered.com/app/123/
 
 ### 错误类型
 
@@ -93,6 +102,7 @@ _No response_
                 os.chdir(old_cwd)
 
         self.assertEqual("possibly_ineffective", saved_entry["status"])
+        self.assertEqual("https://store.steampowered.com/app/123/", saved_entry["store_url"])
         self.assertEqual("possibly_ineffective", saved_entry["report"]["type"])
         self.assertNotIn("outdated", saved_entry)
         self.assertEqual("报告错误", result["pr_labels"])
@@ -215,7 +225,34 @@ schinese
         rows = bot.achievement_rows(nodes, ["schinese"])
 
         self.assertEqual(["ACH_ONE"], [row["api_name"] for row in base_rows])
+        self.assertEqual(["english", "schinese"], bot.schema_languages(nodes))
         self.assertEqual({"schinese": 1}, bot.require_language_coverage(rows, ["schinese"]))
+
+    def test_language_detection_ignores_reserved_and_partial_nodes(self) -> None:
+        first = achievement_node("FIRST")
+        second = achievement_node("SECOND")
+        first_name = bot.nested(first, "display", "name")
+        first_desc = bot.nested(first, "display", "desc")
+        assert first_name is not None and first_desc is not None
+        first_name.children.extend([string_node("japanese", "名前"), string_node("token", "#NAME")])
+        first_desc.children.extend([string_node("japanese", "説明"), string_node("token", "#DESC")])
+
+        self.assertEqual(
+            ["english", "schinese"],
+            bot.schema_languages(schema_nodes(first, second)),
+        )
+
+    def test_language_detection_keeps_empty_complete_fields(self) -> None:
+        achievement = achievement_node()
+        display_desc = bot.nested(achievement, "display", "desc")
+        assert display_desc is not None
+        for child in display_desc.children:
+            child.value = ""
+
+        self.assertEqual(
+            ["english", "schinese"],
+            bot.schema_languages(schema_nodes(achievement)),
+        )
 
     def test_names_and_descriptions_may_be_empty_in_every_language(self) -> None:
         rows = [{
@@ -300,7 +337,7 @@ schinese
 
         with mock.patch.object(submission_validation, "download_attachment", side_effect=fake_download):
             with self.assertRaisesRegex(ValueError, "上传文件名必须是"):
-                bot.validate_schema_submission(attachment, None, "123", ["schinese"])
+                bot.validate_schema_submission(attachment, None, "123")
 
     def test_zip_must_contain_only_safe_expected_schema(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -350,6 +387,54 @@ schinese
         self.assertTrue(resolved[0].primary)
         self.assertEqual("With unlock conditions", resolved[1].note_en)
 
+    def test_schema_package_detects_languages_without_form_input(self) -> None:
+        schema_data = bot.serialize(schema_nodes(achievement_node()))
+        with tempfile.TemporaryDirectory() as tmp:
+            archive_path = Path(tmp) / "package.zip"
+            with zipfile.ZipFile(archive_path, "w") as archive:
+                archive.writestr("UserGameStatsSchema_123.bin", schema_data)
+            attachment = bot.Attachment("UserGameStatsSchema_123.zip", "https://github.com/user-attachments/example")
+
+            with mock.patch.object(
+                submission_validation,
+                "download_attachment",
+                side_effect=lambda _attachment, _token, destination: destination.write_bytes(archive_path.read_bytes()),
+            ):
+                package = bot.validate_schema_package(attachment, None, "123")
+
+        self.assertEqual(["english", "schinese"], package.languages)
+        self.assertEqual({"english": 1, "schinese": 1}, package.variants[0].coverage)
+
+    def test_multi_version_package_requires_same_detected_languages(self) -> None:
+        default_nodes = schema_nodes(achievement_node())
+        japanese_achievement = achievement_node()
+        japanese_name = bot.nested(japanese_achievement, "display", "name")
+        japanese_desc = bot.nested(japanese_achievement, "display", "desc")
+        assert japanese_name is not None and japanese_desc is not None
+        japanese_name.children.append(string_node("japanese", "名前"))
+        japanese_desc.children.append(string_node("japanese", "説明"))
+        manifest = {
+            "version": 1,
+            "variants": [
+                {"variant_id": "default", "primary": True, "file": "UserGameStatsSchema_123.bin", "note_zh": "原版", "note_en": "Original"},
+                {"variant_id": "japanese", "primary": False, "file": "japanese/UserGameStatsSchema_123.bin", "note_zh": "日文版", "note_en": "Japanese"},
+            ],
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            archive_path = Path(tmp) / "package.zip"
+            with zipfile.ZipFile(archive_path, "w") as archive:
+                archive.writestr(bot.VARIANT_MANIFEST_NAME, json.dumps(manifest, ensure_ascii=False))
+                archive.writestr("UserGameStatsSchema_123.bin", bot.serialize(default_nodes))
+                archive.writestr("japanese/UserGameStatsSchema_123.bin", bot.serialize(schema_nodes(japanese_achievement)))
+            attachment = bot.Attachment("UserGameStatsSchema_123.zip", "https://github.com/user-attachments/example")
+
+            with mock.patch.object(
+                submission_validation,
+                "download_attachment",
+                side_effect=lambda _attachment, _token, destination: destination.write_bytes(archive_path.read_bytes()),
+            ), self.assertRaisesRegex(ValueError, "与主版本不一致"):
+                bot.validate_schema_package(attachment, None, "123")
+
     def test_multi_version_manifest_rejects_undeclared_files(self) -> None:
         manifest = {
             "version": 1,
@@ -398,7 +483,7 @@ schinese
                 "download_attachment",
                 side_effect=lambda _attachment, _token, destination: destination.write_bytes(archive_path.read_bytes()),
             ), self.assertRaisesRegex(ValueError, "语言覆盖不完整"):
-                bot.validate_schema_package(attachment, None, "123", ["english", "schinese"])
+                bot.validate_schema_package(attachment, None, "123")
 
     def test_schema_variant_marker_roundtrip(self) -> None:
         records = [{
@@ -466,7 +551,7 @@ schinese
             rows = bot.achievement_rows(updated_nodes, ["schinese"])
             package = bot.ValidatedSchemaPackage([
                 bot.ValidatedSchemaVariant("default", True, "", "", updated_data, updated_nodes, rows, {"schinese": 1})
-            ], False)
+            ], False, ["schinese"])
 
             effective, records = bot.save_schema_package(package, "123", existing, target_variant_id="beta")
 
@@ -499,7 +584,7 @@ schinese
             package = bot.ValidatedSchemaPackage([
                 bot.ValidatedSchemaVariant("default", True, "原版", "Original", data, nodes, rows, {"schinese": 1}),
                 bot.ValidatedSchemaVariant("stable", False, "稳定版", "Stable", data, nodes, rows, {"schinese": 1}),
-            ], True)
+            ], True, ["schinese"])
 
             _effective, records = bot.save_schema_package(package, "123", existing)
 

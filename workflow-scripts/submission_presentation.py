@@ -28,6 +28,10 @@ def steam_store_id(url: str) -> str | None:
     return match.group(1) if match else None
 
 
+def steam_store_url(app_id: str) -> str:
+    return f"https://store.steampowered.com/app/{app_id}/"
+
+
 def issue_labels(issue: dict[str, Any]) -> set[str]:
     return {str(label.get("name") or "") for label in issue.get("labels", []) if isinstance(label, dict)}
 

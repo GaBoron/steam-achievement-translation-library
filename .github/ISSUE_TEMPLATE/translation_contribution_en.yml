@@ -8,7 +8,7 @@ body:
       value: |
         Search `INDEX.md`, `index.json`, and open translation PRs for the Steam app ID before opening this issue. If automation finds a duplicate ID, it will comment and close this issue.
 
-        Upload `UserGameStatsSchema_<app_id>.zip`. A single-version ZIP contains one matching `.bin`; a multi-version ZIP declares every version in `translation-variants.json`.
+        Upload `UserGameStatsSchema_<app_id>.zip`. A single-version ZIP contains one matching `.bin`; a multi-version ZIP declares every version in `translation-variants.json`. Automation derives the store URL from the app ID and detects languages from the schema.
   - type: input
     id: game_name
     attributes:
@@ -25,31 +25,10 @@ body:
       placeholder: "123456"
     validations:
       required: true
-  - type: input
-    id: store_url
-    attributes:
-      label: Steam store URL
-      placeholder: https://store.steampowered.com/app/123456/
-    validations:
-      required: true
-  - type: input
-    id: languages
-    attributes:
-      label: Languages included in the uploaded file
-      description: List every Steam language code in the file. For each achievement, names and descriptions are checked independently; each field must contain text in every listed language or be empty in every listed language. Use half-width commas only; omitted languages are treated as absent.
-      placeholder: schinese, english, japanese
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: |
-        Common language codes: `schinese` Simplified Chinese, `tchinese` Traditional Chinese, `english` English, `japanese` Japanese, `koreana` Korean, `french` French, `german` German, `italian` Italian, `spanish` Spanish.
-
-        Only list languages that are complete in the file. Separate multiple codes with half-width commas.
   - type: textarea
     id: schema_zip
     attributes:
-      label: Achievement schema ZIP
+      label: Uploaded achievement schema ZIP
       description: Upload `UserGameStatsSchema_<app_id>.zip`; use one matching `.bin` for a single version, or include `translation-variants.json` for multiple versions.
       placeholder: Drag the ZIP here.
     validations:

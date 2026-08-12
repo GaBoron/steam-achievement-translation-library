@@ -8,7 +8,7 @@ body:
       value: |
         Use this template only for games already accepted into `index.json`. Open PRs do not count as accepted entries.
 
-        If the uploaded file is identical to the current library file, automation will reject the update.
+        If the uploaded file is identical to the current library file, automation will reject the update. Automation derives the store URL from the app ID and detects languages from the schema.
   - type: input
     id: game_name
     attributes:
@@ -24,13 +24,6 @@ body:
       placeholder: "123456"
     validations:
       required: true
-  - type: input
-    id: store_url
-    attributes:
-      label: Steam store URL
-      placeholder: https://store.steampowered.com/app/123456/
-    validations:
-      required: true
   - type: textarea
     id: update_summary
     attributes:
@@ -40,20 +33,6 @@ body:
     validations:
       required: true
   - type: input
-    id: languages
-    attributes:
-      label: Languages included in the uploaded file
-      description: List every Steam language code in the file. For each achievement, names and descriptions are checked independently; each field must contain text in every listed language or be empty in every listed language. Use half-width commas only; omitted languages are treated as absent.
-      placeholder: schinese, english, japanese
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: |
-        Common language codes: `schinese` Simplified Chinese, `tchinese` Traditional Chinese, `english` English, `japanese` Japanese, `koreana` Korean, `french` French, `german` German, `italian` Italian, `spanish` Spanish.
-
-        Only list languages that are complete in the file. Separate multiple codes with half-width commas.
-  - type: input
     id: variant_id
     attributes:
       label: Version ID to update
@@ -62,7 +41,7 @@ body:
   - type: textarea
     id: schema_zip
     attributes:
-      label: Achievement schema ZIP
+      label: Uploaded achievement schema ZIP
       description: For one version, upload a ZIP containing one matching `.bin`. To replace the complete version set, include `translation-variants.json` in the ZIP.
       placeholder: Drag the ZIP here.
     validations:

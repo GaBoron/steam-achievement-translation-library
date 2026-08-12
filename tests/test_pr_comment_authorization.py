@@ -510,13 +510,20 @@ class PullRequestCommentAuthorizationTests(unittest.TestCase):
         allowed = pr_maintenance.UPDATE_COMMANDS_BY_KIND["outdated"]
         self.assertNotIn("doc", allowed)
         self.assertNotIn("id", allowed)
-        self.assertEqual({"name", "store", "type", "reason", "reference"}, allowed)
+        self.assertEqual({"name", "type", "reason", "reference"}, allowed)
 
     def test_file_issue_type_update_command_is_parsed(self) -> None:
         self.assertEqual(
             ("type", "possibly_ineffective", ""),
             pr_maintenance.parse_update_command_detail("/update type possibly_ineffective"),
         )
+
+    def test_derived_pr_metadata_cannot_be_manually_overridden(self) -> None:
+        for body in ("/update store https://example.com", "/update languages english,schinese"):
+            with self.subTest(body=body):
+                command, _value, error = pr_maintenance.parse_update_command_detail(body)
+                self.assertEqual("", command)
+                self.assertIn("不支持", error)
 
     def test_pr_revalidation_rejects_schema_without_achievements(self) -> None:
         with tempfile.TemporaryDirectory(dir=ROOT) as tmp:

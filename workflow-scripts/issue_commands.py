@@ -5,15 +5,14 @@ import re
 from typing import Any
 
 
-UPDATE_HELP = "支持的类型：`doc`、`variant`、`id`、`name`、`store`、`languages`、`summary`、`type`、`reason`、`reference`、`notes`。"
+UPDATE_HELP = "支持的类型：`doc`、`variant`、`id`、`name`、`summary`、`type`、`reason`、`reference`、`notes`。"
 UPDATE_ALIASES = {
     "doc": "doc", "file": "doc", "schema": "doc", "variant": "variant", "version": "variant",
     "id": "id", "app": "id", "appid": "id", "app-id": "id", "name": "name", "title": "name",
-    "store": "store", "url": "store", "store_url": "store", "languages": "languages",
-    "language": "languages", "lang": "languages", "summary": "summary", "type": "type",
+    "summary": "summary", "type": "type",
     "note": "notes", "notes": "notes", "reason": "reason", "reference": "reference", "ref": "reference",
 }
-VALUE_COMMANDS = {"variant", "id", "name", "store", "languages", "summary", "type", "reason", "reference", "notes"}
+VALUE_COMMANDS = {"variant", "id", "name", "summary", "type", "reason", "reference", "notes"}
 ATTACHMENT_RE = re.compile(
     r"\[([^\]]+)\]\((https://github\.com/user-attachments/[^\s)]+)\)|(?<!\()(?P<url>https://github\.com/user-attachments/[^\s)]+)"
 )
@@ -68,21 +67,6 @@ def parse_update_command(body: str) -> tuple[str, str, str]:
     if command in VALUE_COMMANDS and not value:
         return "", "", f"`/update {raw_command}` 后面缺少参数。{UPDATE_HELP}"
     return command, value, ""
-
-
-def comma_languages(value: str) -> list[str]:
-    text = value.strip().lower()
-    if not text:
-        raise ValueError("`/update languages` 后面必须写出该文件包含的全部语言代码。")
-    if any(separator in text for separator in [";", "；", "，"]):
-        raise ValueError("语言代码必须使用半角逗号 `,` 分隔。")
-    languages = [part.strip() for part in text.split(",") if part.strip()]
-    if not languages:
-        raise ValueError("`/update languages` 后面必须写出该文件包含的全部语言代码。")
-    invalid = [language for language in languages if not re.fullmatch(r"^[a-z][a-z0-9_]{1,31}$", language)]
-    if invalid:
-        raise ValueError("无效的 Steam 语言代码：" + ", ".join(invalid))
-    return sorted(set(languages))
 
 
 def extract_attachment_markdown(body: str) -> str:
@@ -163,6 +147,6 @@ def update_error_comment(message: str) -> str:
         "",
         f"- 错误：{escape_table(message)}",
         "- 用法：`/update <类型> <参数>`。替换文件时使用 `/update doc`，并在同一条评论中附加 ZIP。",
-        "- 语言列表必须写出该文件包含的全部语言代码，并使用半角逗号分隔，例如 `schinese, english, japanese`。",
+        "- 商店地址由 App ID 生成，语言列表由上传的 schema 自动识别。",
         f"- {UPDATE_HELP}",
     ])

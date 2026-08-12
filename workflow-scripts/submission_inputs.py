@@ -72,25 +72,6 @@ def parse_comma_language_list(value: str) -> list[str]:
     return [part.strip() for part in text.split(",") if part.strip()]
 
 
-def parse_checked_languages(value: str) -> list[str]:
-    languages: list[str] = []
-    for line in value.splitlines():
-        match = re.match(r"- \[[xX]\]\s*([a-z][a-z0-9_]*)\b", line.strip())
-        if match:
-            languages.append(match.group(1).lower())
-    if not languages:
-        languages.extend(parse_comma_language_list(value))
-    return languages
-
-
-def parse_extra_languages(value: str) -> list[str]:
-    return parse_comma_language_list(value)
-
-
-def parse_languages(checked: str, extra: str) -> list[str]:
-    return sorted(set(parse_checked_languages(checked) + parse_extra_languages(extra)))
-
-
 def extract_attachment(value: str) -> Attachment | None:
     matches = list(ATTACHMENT_RE.finditer(value))
     if len(matches) != 1:

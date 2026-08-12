@@ -25,13 +25,6 @@ body:
       placeholder: "123456"
     validations:
       required: true
-  - type: input
-    id: store_url
-    attributes:
-      label: Steam store URL
-      placeholder: https://store.steampowered.com/app/123456/
-    validations:
-      required: true
   - type: dropdown
     id: error_type
     attributes:

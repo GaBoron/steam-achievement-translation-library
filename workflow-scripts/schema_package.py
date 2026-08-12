@@ -52,6 +52,7 @@ class ValidatedSchemaVariant:
 class ValidatedSchemaPackage:
     variants: list[ValidatedSchemaVariant]
     has_manifest: bool
+    languages: list[str]
 
 
 def safe_archive_members(archive: zipfile.ZipFile) -> list[zipfile.ZipInfo]:

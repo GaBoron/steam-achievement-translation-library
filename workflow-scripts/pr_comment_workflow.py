@@ -49,7 +49,6 @@ from pr_metadata import (
     pr_labels,
     reported_entry_from_metadata,
     source_issue_number,
-    split_languages,
     update_error_comment,
     update_success_comment,
     validate_metadata_variants,
@@ -58,16 +57,16 @@ from pr_metadata import (
 from schema_package import save_schema_package
 from steam_schema import achievement_rows, load_schema, sha256, summarize_update_diff
 from submission_inputs import extract_attachment, now_utc
-from submission_presentation import build_submission_pr_body, variant_achievement_rows
+from submission_presentation import build_submission_pr_body, steam_store_url, variant_achievement_rows
 from submission_validation import validate_schema_package
 
 
 WAIT_FOR_UPDATE_LABEL = "等待更新"
 DEFAULT_REVIEWERS = ["GaBoron"]
 UPDATE_COMMANDS_BY_KIND = {
-    "translation-contribution": {"doc", "id", "name", "store", "languages"},
-    "update": {"doc", "id", "name", "store", "languages", "summary"},
-    "outdated": {"name", "store", "type", "reason", "reference"},
+    "translation-contribution": {"doc", "id", "name"},
+    "update": {"doc", "id", "name", "summary"},
+    "outdated": {"name", "type", "reason", "reference"},
 }
 
 
@@ -204,7 +203,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
     kind = str(meta["kind"])
     if command not in UPDATE_COMMANDS_BY_KIND.get(kind, set()):
         if kind == "outdated":
-            message = "报告错误 PR 仅支持 `name`、`store`、`type`、`reason` 和 `reference`。"
+            message = "报告错误 PR 仅支持 `name`、`type`、`reason` 和 `reference`。"
         elif kind == "translation-contribution":
             message = "新投稿 PR 不支持 `summary`；该字段仅用于更新已有文件。"
         else:
@@ -230,7 +229,9 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             target_variant_id = value.lower()
             if target_variant_id and not re.fullmatch(r"^[a-z0-9][a-z0-9-]{0,63}$", target_variant_id):
                 raise ValueError("variant_id 只能包含小写字母、数字和连字符，最长 64 个字符。")
-            package = validate_schema_package(attachment, token, old_game_id, list(meta["languages"]))
+            package = validate_schema_package(attachment, token, old_game_id)
+            previous_languages = list(meta["languages"])
+            detected_languages = package.languages
             current_entry = {
                 "schema_file": meta.get("schema_file"),
                 "schema_files": meta.get("schema_files"),
@@ -248,15 +249,17 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
                     raise ValueError(f"找不到 variant_id={target_variant_id}；新增版本请提交完整多版本包。")
                 if package.has_manifest:
                     raise ValueError("指定 variant_id 时只能上传不含多版本清单的单版本 ZIP。")
+                if detected_languages != previous_languages:
+                    raise ValueError("单独更新一个版本时不能修改自动识别的全局语言；请提交完整多版本包。")
                 old_data, old_nodes = load_schema(repository_path(str(current["schema_file"])))
                 uploaded = package.variants[0]
                 previous_hash = sha256(old_data)
                 if old_data == uploaded.data:
                     raise ValueError(f"上传文件与当前 {target_variant_id} 版本字节级完全相同。")
                 update_diff = summarize_update_diff(
-                    achievement_rows(old_nodes, list(meta["languages"])),
-                    achievement_rows(uploaded.nodes, list(meta["languages"])),
-                    list(meta["languages"]),
+                    achievement_rows(old_nodes, previous_languages),
+                    achievement_rows(uploaded.nodes, previous_languages),
+                    previous_languages,
                 )
                 variant_changes = {"added": [], "removed": [], "changed": [target_variant_id]}
             else:
@@ -286,10 +289,11 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
                 if old_record:
                     old_data, old_nodes = load_schema(repository_path(str(old_record["schema_file"])))
                     previous_hash = sha256(old_data)
+                    diff_languages = sorted(set(previous_languages + detected_languages))
                     update_diff = summarize_update_diff(
-                        achievement_rows(old_nodes, list(meta["languages"])),
-                        achievement_rows(new_by_id[review_variant_id].nodes, list(meta["languages"])),
-                        list(meta["languages"]),
+                        achievement_rows(old_nodes, diff_languages),
+                        achievement_rows(new_by_id[review_variant_id].nodes, diff_languages),
+                        diff_languages,
                     )
                 else:
                     previous_hash = ""
@@ -317,6 +321,8 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             meta["sha256"] = str(primary_record["sha256"])
             meta["achievement_count"] = str(primary_record["achievement_count"])
             meta["updated_at"] = now_utc()
+            if not target_variant_id:
+                meta["languages"] = detected_languages
             record_change("schema file", previous_schema_file, meta["schema_file"])
             record_change("file size", previous_file_size, meta["file_size"])
             record_change(
@@ -326,6 +332,8 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             )
             record_change("achievement count", previous_count, meta["achievement_count"])
             record_change("updated at", previous_updated_at, meta["updated_at"])
+            if not target_variant_id and previous_languages != meta["languages"]:
+                record_change("automatically detected languages", previous_languages, meta["languages"])
             record_change(
                 "schema variants",
                 ", ".join(sorted(existing_by_id)),
@@ -352,8 +360,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             else:
                 meta["schema_file"], meta["schema_files"] = rename_schema_variants(old_game_id, value, meta)
             meta["game_id"] = value
-            if old_game_id and old_game_id in str(meta["store_url"]):
-                meta["store_url"] = str(meta["store_url"]).replace(f"/app/{old_game_id}", f"/app/{value}")
+            meta["store_url"] = steam_store_url(value)
             validate_store_url(value, str(meta["store_url"]))
             rows, coverage = validate_metadata_variants(meta, list(meta["languages"]))
             previous_hash = str(meta.get("sha256") or "")
@@ -383,26 +390,6 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             update_diff = None
             if kind != "outdated":
                 record_change("game name", previous_name, meta["game_name"])
-        elif command == "store":
-            previous_store_url = str(meta.get("store_url") or "")
-            validate_store_url(str(meta["game_id"]), value)
-            meta["store_url"] = value
-            if kind == "outdated":
-                rows, coverage = [], {}
-            else:
-                rows, coverage = validate_metadata_variants(meta, list(meta["languages"]))
-            previous_hash = str(meta.get("sha256") or "")
-            update_diff = None
-            if kind != "outdated":
-                record_change("Steam store URL", previous_store_url, meta["store_url"])
-        elif command == "languages":
-            previous_languages = list(meta.get("languages") or [])
-            languages = split_languages(value)
-            rows, coverage = validate_metadata_variants(meta, languages)
-            meta["languages"] = languages
-            previous_hash = str(meta.get("sha256") or "")
-            update_diff = None
-            record_change("supported languages", previous_languages, meta["languages"])
         elif command == "summary":
             if not value:
                 raise ValueError("`/update summary` 后面必须填写更新摘要。")
@@ -432,9 +419,6 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             if command == "name":
                 record_change("game name", entry.get("game_name", ""), meta["game_name"])
                 entry["game_name"] = meta["game_name"]
-            if command == "store":
-                record_change("Steam store URL", entry.get("store_url", ""), meta["store_url"])
-                entry["store_url"] = meta["store_url"]
             if command == "type":
                 previous_type = str(report.get("type") or entry.get("status") or "outdated")
                 new_type = report_state(value)

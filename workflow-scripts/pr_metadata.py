@@ -39,12 +39,6 @@ UPDATE_COMMAND_ALIASES = {
     "app-id": "id",
     "name": "name",
     "title": "name",
-    "store": "store",
-    "url": "store",
-    "store_url": "store",
-    "languages": "languages",
-    "language": "languages",
-    "lang": "languages",
     "summary": "summary",
     "note": "summary",
     "type": "type",
@@ -52,9 +46,9 @@ UPDATE_COMMAND_ALIASES = {
     "reference": "reference",
     "ref": "reference",
 }
-UPDATE_VALUE_COMMANDS = {"id", "name", "store", "languages", "summary", "type", "reason", "reference"}
+UPDATE_VALUE_COMMANDS = {"id", "name", "summary", "type", "reason", "reference"}
 UPDATE_COMMAND_HELP = (
-    "支持的类型：`doc`、`id`、`name`、`store`、`languages`、`summary`、`type`、`reason`、`reference`。"
+    "支持的类型：`doc`、`id`、`name`、`summary`、`type`、`reason`、`reference`。"
 )
 
 

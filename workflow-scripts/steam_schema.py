@@ -2,12 +2,15 @@
 from __future__ import annotations
 
 import hashlib
+import re
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
 
 TYPE_NAMES = {0: "BEGIN", 1: "STRING", 2: "INT32", 3: "FLOAT32", 4: "POINTER", 5: "WIDESTRING", 6: "COLOR", 7: "UINT64", 8: "END"}
+LANGUAGE_NAME_RE = re.compile(r"^[a-z][a-z0-9_]{1,31}$")
+RESERVED_DISPLAY_KEYS = {"token"}
 
 
 @dataclass
@@ -198,6 +201,37 @@ def achievement_rows(nodes: list[Node], languages: list[str]) -> list[dict[str, 
             row[f"{language}_description"] = first_str(display_desc, language)
         rows.append(row)
     return rows
+
+
+def schema_languages(nodes: list[Node]) -> list[str]:
+    """Detect structurally complete Steam languages in achievement display fields."""
+    achievements = achievement_nodes(nodes)
+    candidates: set[str] = set()
+    field_languages: list[tuple[set[str], set[str]]] = []
+    for achievement in achievements:
+        fields: list[set[str]] = []
+        for field in ("name", "desc"):
+            display = nested(achievement, "display", field)
+            languages = {
+                child.name
+                for child in (display.children if display is not None else [])
+                if child.type_id == 1
+                and LANGUAGE_NAME_RE.fullmatch(child.name)
+                and child.name not in RESERVED_DISPLAY_KEYS
+            }
+            candidates.update(languages)
+            fields.append(languages)
+        field_languages.append((fields[0], fields[1]))
+
+    detected: list[str] = []
+    for language in sorted(candidates):
+        if all(
+            all(language in fields[field_index] for fields in field_languages)
+            or all(language not in fields[field_index] for fields in field_languages)
+            for field_index in (0, 1)
+        ):
+            detected.append(language)
+    return detected
 
 
 def language_coverage(rows: list[dict[str, str]], languages: list[str]) -> tuple[dict[str, int], dict[str, list[str]]]:

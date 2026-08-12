@@ -151,8 +151,9 @@ class WorkflowSecurityTests(unittest.TestCase):
         self.assertIn("contains(github.event.issue.labels.*.name, '翻译投稿')", issue_review)
         self.assertIn("contains(github.event.issue.labels.*.name, '更新文件')", issue_review)
         self.assertIn("contains(github.event.issue.labels.*.name, '报告错误')", issue_review)
-        self.assertIn("contains(github.event.issue.body, '### 上传文件包含的语言')", issue_review)
-        self.assertIn("contains(github.event.issue.body, '### Languages included in the uploaded file')", issue_review)
+        self.assertIn("contains(github.event.issue.body, '### 成就 schema ZIP')", issue_review)
+        self.assertIn("contains(github.event.issue.body, '### Uploaded achievement schema ZIP')", issue_review)
+        self.assertNotIn("contains(github.event.issue.body, '### Achievement schema ZIP')", issue_review)
         self.assertIn("contains(github.event.issue.body, '### 错误类型')", issue_review)
         self.assertIn("contains(github.event.issue.body, '### Issue type')", issue_review)
         self.assertNotIn("contains(github.event.issue.labels.*.name, '自动化错误')", issue_review)
@@ -165,6 +166,27 @@ class WorkflowSecurityTests(unittest.TestCase):
             petition_job.index("workflow-scripts/github_issue_guard.py"),
             petition_job.index("workflow-scripts/translation_petition_bot.py"),
         )
+
+    def test_issue_templates_do_not_request_derived_metadata(self) -> None:
+        template_root = ROOT / ".github" / "ISSUE_TEMPLATE"
+        all_templates = [
+            "translation_contribution_zh.yml",
+            "translation_contribution_en.yml",
+            "translation_update_zh.yml",
+            "translation_update_en.yml",
+            "translation_petition_zh.yml",
+            "translation_petition_en.yml",
+            "outdated_report_zh.yml",
+            "outdated_report_en.yml",
+        ]
+        for filename in all_templates:
+            with self.subTest(filename=filename):
+                text = (template_root / filename).read_text(encoding="utf-8")
+                self.assertNotIn("id: store_url", text)
+        for filename in all_templates[:4]:
+            with self.subTest(filename=filename):
+                text = (template_root / filename).read_text(encoding="utf-8")
+                self.assertNotIn("id: languages", text)
 
     def test_force_refresh_reuses_issue_review_and_app_authenticated_pr_pushes(self) -> None:
         workflow = (ROOT / ".github" / "workflows" / "translation-contribution.yml").read_text(

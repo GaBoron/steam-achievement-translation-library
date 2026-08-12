@@ -38,6 +38,7 @@ from submission_presentation import (
     parse_schema_variants_marker,
     schema_variants_marker,
     steam_store_id,
+    steam_store_url,
     variant_achievement_rows,
 )
 
@@ -102,11 +103,8 @@ from submission_inputs import (
     github_api_get,
     now_utc,
     optional_field_value,
-    parse_checked_languages,
     parse_comma_language_list,
-    parse_extra_languages,
     parse_issue_form,
-    parse_languages,
     pull_request_game_id,
 )
 
@@ -124,6 +122,7 @@ from steam_schema import (
     parse_nodes,
     require_language_coverage,
     row_map,
+    schema_languages,
     serialize,
     sha256,
     strings,
@@ -177,8 +176,12 @@ REPORT_STATE_ALIASES = {
 def validate_translation_or_update(event: dict[str, Any], token: str | None, kind: str) -> dict[str, Any]:
     issue = event["issue"]
     fields = parse_issue_form(issue.get("body") or "")
-    game_name, game_id, store_url, languages, errors = validate_common_fields(fields, require_languages=True)
-    attachment = extract_attachment(field_value(fields, ["Achievement schema ZIP", "成就 schema ZIP"]))
+    game_name, game_id, store_url, errors = validate_common_fields(fields)
+    attachment = extract_attachment(field_value(fields, [
+        "Uploaded achievement schema ZIP",
+        "Achievement schema ZIP",
+        "成就 schema ZIP",
+    ]))
     update_summary = first_line(field_value(fields, ["Update summary", "更新内容摘要"]))
     target_variant_id = first_line(field_value(fields, ["Version ID to update", "要更新的版本 ID"])).lower()
     contributor_notes = optional_field_value(fields, ["Notes", "备注"])
@@ -223,9 +226,10 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
 
     assert attachment is not None
     try:
-        package = validate_schema_package(attachment, token, game_id, languages)
+        package = validate_schema_package(attachment, token, game_id)
     except Exception as exc:  # noqa: BLE001 - this becomes a user-facing review message.
         write_failure([f"无法校验上传的 schema：{exc}。"], retry_allowed=True)
+    languages = package.languages
 
     previous_hash = ""
     update_diff: dict[str, Any] | None = None
@@ -365,7 +369,7 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
 def validate_outdated_report(event: dict[str, Any]) -> dict[str, Any]:
     issue = event["issue"]
     fields = parse_issue_form(issue.get("body") or "")
-    game_name, game_id, store_url, _languages, errors = validate_common_fields(fields, require_languages=False)
+    game_name, game_id, store_url, errors = validate_common_fields(fields)
     report_type = field_value(fields, ["Issue type", "错误类型"])
     reason = field_value(fields, ["Issue details", "错误说明", "Why do you think the file is outdated?", "过期说明"]).strip()
     source = first_line(field_value(fields, ["Reference or source", "参考来源"]))

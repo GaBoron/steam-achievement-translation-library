@@ -13,11 +13,9 @@ from typing import Any
 
 from issue_commands import (
     close_comment_is_authorized,
-    comma_languages,
     comment_is_authorized,
     escape_table,
     extract_attachment_markdown,
-    find_section,
     is_force_refresh_command,
     is_update_command,
     parse_update_command,
@@ -77,46 +75,15 @@ LEGACY_LABELS = {
     "outdated": "outdated",
     "translation-petition": "translation-petition",
 }
-UPDATE_HELP = "支持的类型：`doc`、`variant`、`id`、`name`、`store`、`languages`、`summary`、`type`、`reason`、`reference`、`notes`。"
-UPDATE_ALIASES = {
-    "doc": "doc",
-    "file": "doc",
-    "schema": "doc",
-    "variant": "variant",
-    "version": "variant",
-    "id": "id",
-    "app": "id",
-    "appid": "id",
-    "app-id": "id",
-    "name": "name",
-    "title": "name",
-    "store": "store",
-    "url": "store",
-    "store_url": "store",
-    "languages": "languages",
-    "language": "languages",
-    "lang": "languages",
-    "summary": "summary",
-    "type": "type",
-    "note": "notes",
-    "notes": "notes",
-    "reason": "reason",
-    "reference": "reference",
-    "ref": "reference",
-}
-VALUE_COMMANDS = {"variant", "id", "name", "store", "languages", "summary", "type", "reason", "reference", "notes"}
 FIELD_LABELS = {
     "id": ["Steam app ID"],
     "name": ["游戏名", "Game name"],
-    "store": ["Steam 商店地址", "Steam store URL"],
-    "languages": ["上传文件包含的语言", "Languages included in the uploaded file"],
-    "extra_languages": ["其他 Steam 语言代码", "Additional Steam language codes"],
     "summary": ["更新内容摘要", "Update summary"],
     "type": ["错误类型", "Issue type"],
     "reason": ["错误说明", "Issue details", "过期说明", "Why do you think the file is outdated?"],
     "reference": ["参考来源", "Reference or source"],
     "notes": ["备注", "Notes"],
-    "doc": ["成就 schema ZIP", "Achievement schema ZIP"],
+    "doc": ["成就 schema ZIP", "Uploaded achievement schema ZIP", "Achievement schema ZIP"],
     "variant": ["要更新的版本 ID", "Version ID to update"],
 }
 ATTACHMENT_RE = re.compile(
@@ -195,7 +162,7 @@ def infer_issue_kind(issue: dict[str, Any]) -> str | None:
         return "update"
     if "### 需要翻译的成就 schema ZIP" in text or "### Achievement schema ZIP to translate" in text:
         return "translation-petition"
-    if "### 成就 schema ZIP" in text or "### Achievement schema ZIP" in text:
+    if "### 成就 schema ZIP" in text or "### Uploaded achievement schema ZIP" in text:
         return "translation-contribution"
     return None
 
@@ -460,13 +427,6 @@ def apply_issue_update(repo: str, token: str, event: dict[str, Any]) -> None:
                     raise ValueError("版本 ID 只能包含小写字母、数字和连字符，最长 64 个字符。")
                 body, variant_before, variant_after = replace_section(body, FIELD_LABELS["variant"], variant_id)
                 changes.append({"field": "要更新的版本 ID", "before": variant_before, "after": variant_after})
-        elif command == "languages":
-            languages = comma_languages(value)
-            body, before, after = replace_section(body, FIELD_LABELS["languages"], ", ".join(languages))
-            changes.append({"field": "上传文件包含的语言", "before": before, "after": after})
-            if find_section(body, FIELD_LABELS["extra_languages"]) is not None:
-                body, extra_before, extra_after = replace_section(body, FIELD_LABELS["extra_languages"], "none")
-                changes.append({"field": "其他 Steam 语言代码", "before": extra_before, "after": extra_after})
         elif command == "variant":
             replacement = "" if value.lower() in {"none", "clear", "无"} else value.lower()
             if replacement and not re.fullmatch(r"^[a-z0-9][a-z0-9-]{0,63}$", replacement):

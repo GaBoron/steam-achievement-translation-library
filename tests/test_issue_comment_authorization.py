@@ -210,3 +210,10 @@ class IssueCommentAuthorizationTests(unittest.TestCase):
         updated_body = patch_body.call_args.args[-1]
         self.assertIn("[UserGameStatsSchema_12.zip]", updated_body)
         self.assertIn("### 要更新的版本 ID\n\nbeta", updated_body)
+
+    def test_derived_issue_metadata_cannot_be_manually_overridden(self) -> None:
+        for body in ("/update store https://example.com", "/update languages english,schinese"):
+            with self.subTest(body=body):
+                command, _value, error = issue_guard.parse_update_command(body)
+                self.assertEqual("", command)
+                self.assertIn("不支持", error)

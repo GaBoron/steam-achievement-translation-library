@@ -13,11 +13,11 @@ Other editors are also supported, but every submission must meet these requireme
 
 | Check | Requirement |
 | --- | --- |
-| Steam app ID | Matches the store URL and the number in both file names |
+| Steam app ID | Matches the number in both file names; automation derives the store URL from it |
 | BIN name | `UserGameStatsSchema_<app_id>.bin` |
 | ZIP name | `UserGameStatsSchema_<app_id>.zip` |
 | Single-version ZIP | Contains only the matching BIN at its root |
-| Languages | Lists every Steam language in the file, separated by half-width commas; for each achievement, names and descriptions are checked independently and each field must either contain text in every listed language or be empty in every listed language |
+| Languages | Detected automatically from the schema; for each achievement, names and descriptions are checked independently and each field must either contain text in every detected language or be empty in every detected language |
 | Game name | Uses the Steam store name; a Chinese translation may follow the original name when useful |
 
 Search [INDEX_EN.md](INDEX_EN.md) by app ID first to determine whether you are submitting a new game or updating an accepted entry.
@@ -45,7 +45,7 @@ Follow the bot's comment when validation fails. While the source issue is open, 
 | --- | --- |
 | `/update doc` plus a ZIP attachment | Replace the submitted file or complete multi-version package |
 | `/update doc <variant_id>` plus a ZIP attachment | Replace one existing variant |
-| `/update id`, `name`, `store`, or `languages` plus a new value | Change that field; `languages` replaces the complete language list |
+| `/update id` or `name` plus a new value | Change the app ID or game name; changing the app ID also regenerates the store URL |
 | `/update summary <summary>` | Change the summary for an accepted-file update |
 | `/force-refresh` | Retry all checks when the content is correct but automation state is stale |
 
@@ -90,11 +90,11 @@ UserGameStatsSchema_123456.zip
 - Other `variant_id` values use lowercase letters, numbers, and hyphens only, and match their subdirectory names.
 - Every variant needs short Chinese and English notes; two variants cannot contain identical files.
 - A full update resubmits the complete version set. To replace one existing variant, enter its ID in the update form and upload a normal single-version ZIP.
-- The form's language list applies to every variant and cannot be changed by a targeted variant update.
+- Every variant must produce the same automatically detected language list; a targeted variant update cannot change that list.
 
 ## ✅ Automated Checks
 
-Automation checks the app ID and store URL, ZIP safety and size, Binary KeyValues parsing and byte-identical roundtrip, unique achievement IDs, language coverage, and update differences. Submit only translations you are allowed to share.
+Automation derives the store URL from the app ID and checks ZIP safety and size, Binary KeyValues parsing and byte-identical roundtrip, unique achievement IDs, automatically detected language coverage, and update differences. Submit only translations you are allowed to share.
 
 For workflow, script, index, or `files/` changes, run from the repository root:
 

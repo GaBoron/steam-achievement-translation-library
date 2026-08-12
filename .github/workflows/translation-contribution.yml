@@ -30,8 +30,8 @@ jobs:
           contains(github.event.issue.labels.*.name, '翻译投稿') ||
           contains(github.event.issue.labels.*.name, '更新文件') ||
           contains(github.event.issue.labels.*.name, '报告错误') ||
-          contains(github.event.issue.body, '### 上传文件包含的语言') ||
-          contains(github.event.issue.body, '### Languages included in the uploaded file') ||
+          contains(github.event.issue.body, '### 成就 schema ZIP') ||
+          contains(github.event.issue.body, '### Uploaded achievement schema ZIP') ||
           contains(github.event.issue.body, '### 错误类型') ||
           contains(github.event.issue.body, '### Issue type')
         )

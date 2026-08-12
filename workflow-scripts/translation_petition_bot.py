@@ -28,7 +28,6 @@ from library_submission_bot import (
     parse_issue_form,
     resolve_schema_upload,
     schema_download_url,
-    steam_store_id,
     validate_schema_structure,
 )
 
@@ -172,7 +171,6 @@ def validate_petition(issue: dict[str, Any], token: str | None) -> dict[str, Any
     fields = parse_issue_form(str(issue.get("body") or ""))
     game_name = first_line(field_value(fields, ["Game name", "游戏名"]))
     game_id = first_line(field_value(fields, ["Steam app ID"]))
-    store_url = first_line(field_value(fields, ["Steam store URL", "Steam 商店地址"]))
     target_text = field_value(fields, ["Requested target languages", "希望翻译到的语言"])
     attachment = extract_attachment(
         field_value(fields, ["Achievement schema ZIP to translate", "需要翻译的成就 schema ZIP"])
@@ -183,11 +181,6 @@ def validate_petition(issue: dict[str, Any], token: str | None) -> dict[str, Any
         errors.append("必须填写游戏名。")
     if not re.fullmatch(r"\d+", game_id):
         errors.append("Steam app ID 必须只包含数字。")
-    store_id = steam_store_id(store_url)
-    if not store_id:
-        errors.append("Steam 商店地址必须是 store.steampowered.com/app/<id>/ 格式。")
-    elif game_id and store_id != game_id:
-        errors.append(f"Steam 商店地址中的 app ID {store_id} 与填写的 app ID {game_id} 不一致。")
 
     target_languages = parse_comma_language_list(target_text)
     invalid_languages = [language for language in target_languages if not LANGUAGE_RE.fullmatch(language)]
