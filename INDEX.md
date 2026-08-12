@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**370** 个游戏。
+当前收录：**371** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -217,6 +217,7 @@
 | `222880` | Insurgency 叛乱 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 100 | [UserGameStatsSchema_222880.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/222880/UserGameStatsSchema_222880.bin)（79 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/222880/) |
 | `1559760` | Island Diary 岛之日记 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 7 | [UserGameStatsSchema_1559760.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1559760/UserGameStatsSchema_1559760.bin)（3 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1559760/) |
 | `1338460` | Jiangshi x Daoshi 僵尸×道士 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 5 | [UserGameStatsSchema_1338460.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1338460/UserGameStatsSchema_1338460.bin)（2 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1338460/) |
+| `2673080` | Jurassic Park Classic Games Collection 侏罗纪公园：经典游戏合集 | 可用 | 2026-08-12T10:23:05Z | [@wowwot](https://github.com/wowwot) | schinese | 14 | [UserGameStatsSchema_2673080.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2673080/UserGameStatsSchema_2673080.bin)（6 KB） | [#504](https://github.com/GaBoron/steam-achievement-translation-library/pull/504) |  | [Steam](https://store.steampowered.com/app/2673080/Jurassic_Park_Classic_Games_Collection/) |
 | `225540` | Just Cause 3 正当防卫 3 | 可用 | 2026-08-09T05:09:28Z | [@suika-cake](https://github.com/suika-cake) | brazilian, english, french, german, italian, japanese, polish, russian, schinese, spanish | 66 | [UserGameStatsSchema_225540.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/225540/UserGameStatsSchema_225540.bin)（79 KB） | [#433](https://github.com/GaBoron/steam-achievement-translation-library/pull/433) |  | [Steam](https://store.steampowered.com/app/225540/) |
 | `460950` | Katana ZERO 武士零 | 可用 | 2026-07-31T14:29:22Z | [@wowwot](https://github.com/wowwot) | schinese | 22 | [UserGameStatsSchema_460950.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/460950/UserGameStatsSchema_460950.bin)（9 KB） | [#400](https://github.com/GaBoron/steam-achievement-translation-library/pull/400) |  | [Steam](https://store.steampowered.com/app/460950/) |
 | `2142680` | Kiki 琪琪 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 10 | [UserGameStatsSchema_2142680.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2142680/UserGameStatsSchema_2142680.bin)（4 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/2142680/) |
