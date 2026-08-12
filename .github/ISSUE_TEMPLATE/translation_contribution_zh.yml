@@ -37,7 +37,7 @@ body:
     id: languages
     attributes:
       label: 上传文件包含的语言
-      description: 写出文件中已经完整包含成就名称和描述的全部 Steam 语言代码；必须使用半角逗号分隔。没写的语言会视为不存在。
+      description: 写出文件中成就名称完整，且原版存在描述时描述也完整的全部 Steam 语言代码；原版只有名称的成就可以不填写描述。必须使用半角逗号分隔，没写的语言会视为不存在。
       placeholder: schinese, english, japanese
     validations:
       required: true

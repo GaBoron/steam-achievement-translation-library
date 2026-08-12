@@ -207,8 +207,9 @@ def language_coverage(rows: list[dict[str, str]], languages: list[str]) -> tuple
         def is_complete(row: dict[str, str]) -> bool:
             name_present = bool(row.get(f"{language}_name", "").strip())
             description_present = bool(row.get(f"{language}_description", "").strip())
-            # Steam may intentionally leave the original English description empty.
-            return name_present and (description_present or language == "english")
+            original_has_description = bool(row.get("english_description", "").strip())
+            # Some games intentionally define achievements with a name only.
+            return name_present and (description_present or not original_has_description)
 
         present = [
             row for row in rows

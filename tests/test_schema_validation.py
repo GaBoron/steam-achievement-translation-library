@@ -217,7 +217,7 @@ schinese
         self.assertEqual(["ACH_ONE"], [row["api_name"] for row in base_rows])
         self.assertEqual({"schinese": 1}, bot.require_language_coverage(rows, ["schinese"]))
 
-    def test_empty_official_english_description_is_allowed(self) -> None:
+    def test_empty_official_description_is_allowed_in_every_language(self) -> None:
         rows = [{
             "api_name": "ACH",
             "english_name": "Hidden achievement",
@@ -230,6 +230,21 @@ schinese
 
         self.assertEqual(1, coverage["english"])
         self.assertEqual([], missing["english"])
+        self.assertEqual(1, coverage["schinese"])
+        self.assertEqual([], missing["schinese"])
+
+    def test_translated_description_is_required_when_original_has_one(self) -> None:
+        rows = [{
+            "api_name": "ACH",
+            "english_name": "Achievement",
+            "english_description": "Original description",
+            "schinese_name": "成就",
+            "schinese_description": "",
+        }]
+
+        coverage, missing = bot.language_coverage(rows, ["schinese"])
+
+        self.assertEqual(0, coverage["schinese"])
         self.assertEqual(["ACH"], missing["schinese"])
 
     def test_duplicate_achievement_ids_are_rejected(self) -> None:

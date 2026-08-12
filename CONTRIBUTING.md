@@ -17,7 +17,7 @@
 | BIN 文件名 | `UserGameStatsSchema_<app_id>.bin` |
 | ZIP 文件名 | `UserGameStatsSchema_<app_id>.zip` |
 | 单版本 ZIP | 根目录只能包含一个同名 BIN |
-| 语言列表 | 填写文件中名称和描述均完整的全部 Steam 语言代码，以半角逗号分隔 |
+| 语言列表 | 填写文件中成就名称完整，且原版存在描述时描述也完整的全部 Steam 语言代码，以半角逗号分隔；原版只有名称的成就可以不填写描述 |
 | 游戏名 | 使用 Steam 商店名称；需要时可在原名后补充中文译名 |
 
 先在 [INDEX.md](INDEX.md) 搜索 app ID，确认这是新游戏还是已有条目的更新。
