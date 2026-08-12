@@ -17,7 +17,7 @@ Other editors are also supported, but every submission must meet these requireme
 | BIN name | `UserGameStatsSchema_<app_id>.bin` |
 | ZIP name | `UserGameStatsSchema_<app_id>.zip` |
 | Single-version ZIP | Contains only the matching BIN at its root |
-| Languages | Lists every Steam language with complete achievement names and, when the original has descriptions, complete descriptions, separated by half-width commas; descriptions may remain empty for achievements that originally have names only |
+| Languages | Lists every Steam language in the file, separated by half-width commas; for each achievement, names and descriptions are checked independently and each field must either contain text in every listed language or be empty in every listed language |
 | Game name | Uses the Steam store name; a Chinese translation may follow the original name when useful |
 
 Search [INDEX_EN.md](INDEX_EN.md) by app ID first to determine whether you are submitting a new game or updating an accepted entry.

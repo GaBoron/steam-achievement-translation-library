@@ -205,11 +205,16 @@ def language_coverage(rows: list[dict[str, str]], languages: list[str]) -> tuple
     missing: dict[str, list[str]] = {}
     for language in languages:
         def is_complete(row: dict[str, str]) -> bool:
-            name_present = bool(row.get(f"{language}_name", "").strip())
-            description_present = bool(row.get(f"{language}_description", "").strip())
-            original_has_description = bool(row.get("english_description", "").strip())
-            # Some games intentionally define achievements with a name only.
-            return name_present and (description_present or not original_has_description)
+            def field_is_consistent(field: str) -> bool:
+                values_present = [
+                    bool(row.get(f"{candidate}_{field}", "").strip())
+                    for candidate in languages
+                ]
+                return not any(values_present) or bool(row.get(f"{language}_{field}", "").strip())
+
+            # Each field is optional, but it must be filled for every declared
+            # language or left empty for every declared language.
+            return field_is_consistent("name") and field_is_consistent("description")
 
         present = [
             row for row in rows

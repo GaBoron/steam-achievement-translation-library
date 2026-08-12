@@ -36,7 +36,7 @@ body:
     id: languages
     attributes:
       label: Languages included in the uploaded file
-      description: List every Steam language code with complete achievement names and, when the original has descriptions, complete descriptions. Descriptions may remain empty for achievements that originally have names only. Use half-width commas only; omitted languages are treated as absent.
+      description: List every Steam language code in the file. For each achievement, names and descriptions are checked independently; each field must contain text in every listed language or be empty in every listed language. Use half-width commas only; omitted languages are treated as absent.
       placeholder: schinese, english, japanese
     validations:
       required: true

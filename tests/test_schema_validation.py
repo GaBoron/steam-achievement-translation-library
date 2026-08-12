@@ -217,12 +217,12 @@ schinese
         self.assertEqual(["ACH_ONE"], [row["api_name"] for row in base_rows])
         self.assertEqual({"schinese": 1}, bot.require_language_coverage(rows, ["schinese"]))
 
-    def test_empty_official_description_is_allowed_in_every_language(self) -> None:
+    def test_names_and_descriptions_may_be_empty_in_every_language(self) -> None:
         rows = [{
             "api_name": "ACH",
-            "english_name": "Hidden achievement",
+            "english_name": "",
             "english_description": "",
-            "schinese_name": "隐藏成就",
+            "schinese_name": "",
             "schinese_description": "",
         }]
 
@@ -233,7 +233,21 @@ schinese
         self.assertEqual(1, coverage["schinese"])
         self.assertEqual([], missing["schinese"])
 
-    def test_translated_description_is_required_when_original_has_one(self) -> None:
+    def test_names_and_descriptions_are_checked_independently(self) -> None:
+        rows = [{
+            "api_name": "ACH",
+            "english_name": "Achievement",
+            "english_description": "",
+            "schinese_name": "成就",
+            "schinese_description": "",
+        }]
+
+        coverage, missing = bot.language_coverage(rows, ["english", "schinese"])
+
+        self.assertEqual({"english": 1, "schinese": 1}, coverage)
+        self.assertEqual({"english": [], "schinese": []}, missing)
+
+    def test_description_must_exist_in_every_language_or_none(self) -> None:
         rows = [{
             "api_name": "ACH",
             "english_name": "Achievement",
@@ -242,9 +256,27 @@ schinese
             "schinese_description": "",
         }]
 
-        coverage, missing = bot.language_coverage(rows, ["schinese"])
+        coverage, missing = bot.language_coverage(rows, ["english", "schinese"])
 
+        self.assertEqual(1, coverage["english"])
         self.assertEqual(0, coverage["schinese"])
+        self.assertEqual([], missing["english"])
+        self.assertEqual(["ACH"], missing["schinese"])
+
+    def test_name_must_exist_in_every_language_or_none(self) -> None:
+        rows = [{
+            "api_name": "ACH",
+            "english_name": "Achievement",
+            "english_description": "Description",
+            "schinese_name": "",
+            "schinese_description": "描述",
+        }]
+
+        coverage, missing = bot.language_coverage(rows, ["english", "schinese"])
+
+        self.assertEqual(1, coverage["english"])
+        self.assertEqual(0, coverage["schinese"])
+        self.assertEqual([], missing["english"])
         self.assertEqual(["ACH"], missing["schinese"])
 
     def test_duplicate_achievement_ids_are_rejected(self) -> None:
@@ -366,7 +398,7 @@ schinese
                 "download_attachment",
                 side_effect=lambda _attachment, _token, destination: destination.write_bytes(archive_path.read_bytes()),
             ), self.assertRaisesRegex(ValueError, "语言覆盖不完整"):
-                bot.validate_schema_package(attachment, None, "123", ["schinese"])
+                bot.validate_schema_package(attachment, None, "123", ["english", "schinese"])
 
     def test_schema_variant_marker_roundtrip(self) -> None:
         records = [{
