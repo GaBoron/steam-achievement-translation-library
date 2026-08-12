@@ -39,6 +39,10 @@ For a standalone visual editor, see [PanVena/SteamAchievementLocalizer](https://
 
 ![Library growth and contributor ranking](docs/statistics/library-statistics.svg)
 
+## 💬 Support
+
+For help, email [SATLI.support@proton.me](mailto:SATLI.support@proton.me).
+
 ## ⚖️ License And Rights
 
 See [LICENSE.md](LICENSE.md). Workflow scripts use MIT; contributor-owned translation portions use CC BY 4.0; original game content, achievement text, and Steam schema data remain the property of their respective rights holders.

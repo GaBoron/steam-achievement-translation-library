@@ -39,6 +39,10 @@
 
 ![收录游戏数量趋势与贡献者贡献量排行](docs/statistics/library-statistics.svg)
 
+## 💬 联系支持
+
+需要帮助时，请发送邮件至 [SATLI.support@proton.me](mailto:SATLI.support@proton.me)。
+
 ## ⚖️ 许可证与权利
 
 详见 [LICENSE.md](LICENSE.md)。工作流脚本采用 MIT；贡献者自有翻译部分采用 CC BY 4.0；原始游戏内容、成就文本和 Steam schema 仍归对应权利方所有。
