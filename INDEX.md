@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**373** 个游戏。
+当前收录：**374** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -61,6 +61,7 @@
 | `736260` | Baba Is You Baba是你 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 18 | [UserGameStatsSchema_736260.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/736260/UserGameStatsSchema_736260.bin)（22 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/736260/) |
 | `1970580` | Backpack Hero 背包英雄 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 35 | [UserGameStatsSchema_1970580.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1970580/UserGameStatsSchema_1970580.bin)（12 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1970580/) |
 | `741140` | Baldr Sky 巴德尔之空 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 25 | [UserGameStatsSchema_741140.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/741140/UserGameStatsSchema_741140.bin)（10 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/741140/) |
+| `2923300` | Banana 香蕉 | 可用 | 2026-08-13T02:48:46Z | [@GaBoron](https://github.com/GaBoron) | schinese | 76 | [UserGameStatsSchema_2923300.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2923300/UserGameStatsSchema_2923300.bin)（35 KB） | [#535](https://github.com/GaBoron/steam-achievement-translation-library/pull/535) |  | [Steam](https://store.steampowered.com/app/2923300/) |
 | `242920` | Banished 放逐之城 | 可用 | 2026-07-23T02:32:30Z | [@skeyep](https://github.com/skeyep) | schinese | 36 | [UserGameStatsSchema_242920.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/242920/UserGameStatsSchema_242920.bin)（15 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/242920/) |
 | `602960` | Barotrauma 潜渊症 | 可用 | 2026-07-23T02:32:30Z | [@skeyep](https://github.com/skeyep) | schinese | 76 | [UserGameStatsSchema_602960.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/602960/UserGameStatsSchema_602960.bin)（30 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/602960/) |
 | `2102490` | Basketball Club Story 篮球俱乐部物语 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 6 | [UserGameStatsSchema_2102490.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2102490/UserGameStatsSchema_2102490.bin)（3 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/2102490/) |
