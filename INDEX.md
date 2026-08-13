@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**372** 个游戏。
+当前收录：**373** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -383,6 +383,7 @@
 | `438640` | 乐高星球大战：原力觉醒 | 可用 | 2026-07-22T06:34:40Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 69 | [UserGameStatsSchema_438640.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/438640/UserGameStatsSchema_438640.bin)（99 KB） | [#261](https://github.com/GaBoron/steam-achievement-translation-library/pull/261) |  | [Steam](https://store.steampowered.com/app/438640/LEGO_STAR_WARS_The_Force_Awakens/) |
 | `236850` | 欧陆风云 IV | 可用 | 2026-07-17T17:31:59Z | [@GaBoron](https://github.com/GaBoron) | english, french, schinese | 373 | [UserGameStatsSchema_236850.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/236850/UserGameStatsSchema_236850.bin)（294 KB） | [#191](https://github.com/GaBoron/steam-achievement-translation-library/pull/191) |  | [Steam](https://store.steampowered.com/app/236850) |
 | `457140` | 缺氧 | 可用 | 2026-07-07T12:38:30Z | [@Lelectfly](https://github.com/Lelectfly) | schinese | 51 | [UserGameStatsSchema_457140.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/457140/UserGameStatsSchema_457140.bin)（22 KB） | [#59](https://github.com/GaBoron/steam-achievement-translation-library/pull/59) |  | [Steam](https://store.steampowered.com/app/457140/_/) |
+| `2950790` | 铁巢重炮 | 可用 | 2026-08-13T02:43:01Z | [@GaBoron](https://github.com/GaBoron) | english, schinese | 33 | [UserGameStatsSchema_2950790.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2950790/UserGameStatsSchema_2950790.bin)（12 KB） | [#527](https://github.com/GaBoron/steam-achievement-translation-library/pull/527) |  | [Steam](https://store.steampowered.com/app/2950790/) |
 | `49520` | 无主之地2 | 可用 | 2026-07-07T12:37:07Z | [@Lelectfly](https://github.com/Lelectfly) | schinese | 75 | [UserGameStatsSchema_49520.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/49520/UserGameStatsSchema_49520.bin)（85 KB） | [#57](https://github.com/GaBoron/steam-achievement-translation-library/pull/57) |  | [Steam](https://store.steampowered.com/app/49520/Borderlands_2/) |
 | `3722330` | 午夜轮班 | 可用 | 2026-07-29T10:07:54Z | [@wowwot](https://github.com/wowwot) | schinese | 10 | [UserGameStatsSchema_3722330.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/3722330/UserGameStatsSchema_3722330.bin)（4 KB） | [#356](https://github.com/GaBoron/steam-achievement-translation-library/pull/356) |  | [Steam](https://store.steampowered.com/app/3722330/_/) |
 | `235600` | 细胞分裂：黑名单 | 可用 | 2026-07-26T09:46:04Z | [@HideonOcean](https://github.com/HideonOcean) | schinese | 28 | [UserGameStatsSchema_235600.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/235600/UserGameStatsSchema_235600.bin)（58 KB） | [#325](https://github.com/GaBoron/steam-achievement-translation-library/pull/325) |  | [Steam](https://store.steampowered.com/app/235600/_/) |
