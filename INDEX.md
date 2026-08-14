@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**377** 个游戏。
+当前收录：**378** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -322,6 +322,7 @@
 | `301150` | The Treasures of Montezuma 4 蒙特祖玛的宝藏4 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 32 | [UserGameStatsSchema_301150.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/301150/UserGameStatsSchema_301150.bin)（24 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/301150/) |
 | `20920` | The Witcher 2: Assassins of Kings Enhanced Edition 巫师2：国王刺客 增强版 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 52 | [UserGameStatsSchema_20920.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/20920/UserGameStatsSchema_20920.bin)（39 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/20920/) |
 | `210970` | The Witness 见证者 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 2 | [UserGameStatsSchema_210970.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/210970/UserGameStatsSchema_210970.bin)（715 B） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/210970/) |
+| `704850` | Thief Simulator 小偷模拟器 | 可用 | 2026-08-14T13:45:08Z | [@wowwot](https://github.com/wowwot) | schinese | 33 | [UserGameStatsSchema_704850.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/704850/UserGameStatsSchema_704850.bin)（12 KB） | [#490](https://github.com/GaBoron/steam-achievement-translation-library/pull/490) |  | [Steam](https://store.steampowered.com/app/704850/Thief_Simulator/) |
 | `2239150` | Thronefall 王座陨落 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 34 | [UserGameStatsSchema_2239150.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2239150/UserGameStatsSchema_2239150.bin)（13 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/2239150/) |
 | `2477010` | Ticket to Ride 车票之旅 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 97 | [UserGameStatsSchema_2477010.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2477010/UserGameStatsSchema_2477010.bin)（43 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/2477010/) |
 | `1237970` | Titanfall® 2 泰坦陨落2 | 可用 | 2026-07-07T12:53:22Z | [@luoxiaogaung](https://github.com/luoxiaogaung) | schinese, tchinese | 50 | [UserGameStatsSchema_1237970.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1237970/UserGameStatsSchema_1237970.bin)（68 KB） | [#71](https://github.com/GaBoron/steam-achievement-translation-library/pull/71) |  | [Steam](https://store.steampowered.com/app/1237970/Titanfall_2/) |
