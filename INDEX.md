@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**378** 个游戏。
+当前收录：**379** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -144,6 +144,7 @@
 | `1259420` | Days Gone 往日不再 | 可用 | 2026-07-04T14:47:03Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 67 | [UserGameStatsSchema_1259420.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1259420/UserGameStatsSchema_1259420.bin)（160 KB） | [#6](https://github.com/GaBoron/steam-achievement-localizer-skill/pull/6) |  | [Steam](https://store.steampowered.com/app/1259420/Days_Gone/) |
 | `383180` | Dead Island: Riptide Definitive Edition 死亡岛：激流 终极版 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 35 | [UserGameStatsSchema_383180.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/383180/UserGameStatsSchema_383180.bin)（38 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/383180/) |
 | `45740` | Dead Rising 2 丧尸围城2 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 50 | [UserGameStatsSchema_45740.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/45740/UserGameStatsSchema_45740.bin)（49 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/45740/) |
+| `1238060` | Dead Space™ 3 死亡空间3 | 可用 | 2026-08-14T13:49:22Z | [@GaBoron](https://github.com/GaBoron) | english, french, german, italian, latam, russian, schinese, spanish | 58 | [UserGameStatsSchema_1238060.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1238060/UserGameStatsSchema_1238060.bin)（61 KB） | [#537](https://github.com/GaBoron/steam-achievement-translation-library/pull/537) |  | [Steam](https://store.steampowered.com/app/1238060/) |
 | `2213190` | DEATH NOTE 死亡笔记：暗影任务 | 可用 | 2026-07-15T04:13:35Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 40 | [UserGameStatsSchema_2213190.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2213190/UserGameStatsSchema_2213190.bin)（51 KB） | [#123](https://github.com/GaBoron/steam-achievement-translation-library/pull/123) |  | [Steam](https://store.steampowered.com/app/2213190/DEATH_NOTE/) |
 | `871980` | Digimon Survive 数码宝贝 绝境求生 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 46 | [UserGameStatsSchema_871980.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/871980/UserGameStatsSchema_871980.bin)（46 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/871980/) |
 | `321040` | DiRT 3 Complete Edition 尘埃3 | 可用 | 2026-07-24T12:45:07Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 60 | [UserGameStatsSchema_321040.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/321040/UserGameStatsSchema_321040.bin)（46 KB） | [#296](https://github.com/GaBoron/steam-achievement-translation-library/pull/296) |  | [Steam](https://store.steampowered.com/app/321040/) |
