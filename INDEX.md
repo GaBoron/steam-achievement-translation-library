@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**379** 个游戏。
+当前收录：**380** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -47,6 +47,7 @@
 | `948740` | AI: The Somnium Files AI：梦境档案 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 45 | [UserGameStatsSchema_948740.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/948740/UserGameStatsSchema_948740.bin)（26 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/948740/) |
 | `108710` | Alan Wake 心灵杀手 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 67 | [UserGameStatsSchema_108710.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/108710/UserGameStatsSchema_108710.bin)（86 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/108710/) |
 | `202750` | Alan Wake's American Nightmare 心灵杀手：美国噩梦 | 可用 | 2026-07-23T00:00:00Z | [@skeyep](https://github.com/skeyep) | schinese | 12 | [UserGameStatsSchema_202750.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/202750/UserGameStatsSchema_202750.bin)（21 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/202750/) |
+| `630` | Alien Swarm 异星虫群 | 可用 | 2026-08-14T13:51:20Z | [@JM508](https://github.com/JM508) | english, schinese | 66 | [UserGameStatsSchema_630.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/630/UserGameStatsSchema_630.bin)（93 KB） | [#507](https://github.com/GaBoron/steam-achievement-translation-library/pull/507) |  | [Steam](https://store.steampowered.com/app/630/) |
 | `239200` | Amnesia: A Machine for Pigs 失忆症：猪猡的机器 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 7 | [UserGameStatsSchema_239200.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/239200/UserGameStatsSchema_239200.bin)（6 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/239200/) |
 | `2368470` | An Arcade Full of Cats 猫咪满满的街机厅 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 50 | [UserGameStatsSchema_2368470.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2368470/UserGameStatsSchema_2368470.bin)（18 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/2368470/) |
 | `1399720` | Antimatter Dimensions 反物质维度 | 可用 | 2026-07-23T02:32:30Z | [@skeyep](https://github.com/skeyep) | schinese | 100 | [UserGameStatsSchema_1399720.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1399720/UserGameStatsSchema_1399720.bin)（41 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1399720/) |
