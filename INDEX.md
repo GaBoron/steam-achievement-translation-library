@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**387** 个游戏。
+当前收录：**388** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -241,6 +241,7 @@
 | `50130` | Mafia II (Classic) 四海兄弟2：原版 | 可用 | 2026-07-17T15:08:37Z | [@Rui-CC1225](https://github.com/Rui-CC1225) | schinese | 67 | [UserGameStatsSchema_50130.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/50130/UserGameStatsSchema_50130.bin)（63 KB） | [#182](https://github.com/GaBoron/steam-achievement-translation-library/pull/182) |  | [Steam](https://store.steampowered.com/app/50130/Mafia_II_Classic/) |
 | `1799380` | MAGLAM LORD 魔剑物语 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 27 | [UserGameStatsSchema_1799380.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1799380/UserGameStatsSchema_1799380.bin)（16 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1799380/) |
 | `204100` | Max Payne 3 马克思佩恩3 | 可用 | 2026-07-31T14:20:36Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 67 | [UserGameStatsSchema_204100.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/204100/UserGameStatsSchema_204100.bin)（69 KB） | [#391](https://github.com/GaBoron/steam-achievement-translation-library/pull/391) |  | [Steam](https://store.steampowered.com/app/204100/Max_Payne_3/) |
+| `1983700` | Mega Mall Story 2 百货商店物语2 | 可用 | 2026-08-15T03:08:47Z | [@suika-cake](https://github.com/suika-cake) | english, japanese, schinese | 6 | [UserGameStatsSchema_1983700.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1983700/UserGameStatsSchema_1983700.bin)（3 KB） | [#546](https://github.com/GaBoron/steam-achievement-translation-library/pull/546) |  | [Steam](https://store.steampowered.com/app/1983700/) |
 | `495050` | Mega Man Legacy Collection 2 洛克人传奇合集2 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 21 | [UserGameStatsSchema_495050.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/495050/UserGameStatsSchema_495050.bin)（20 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/495050/) |
 | `363440` | Mega Man Legacy Collection 洛克人传奇合集 | 可用 | 2026-07-24T12:57:40Z | [@skeyep](https://github.com/skeyep) | schinese | 24 | [UserGameStatsSchema_363440.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/363440/UserGameStatsSchema_363440.bin)（25 KB） | [#285](https://github.com/GaBoron/steam-achievement-translation-library/pull/285) |  | [Steam](https://store.steampowered.com/app/363440/) |
 | `3405340` | Megabonk | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 139 | [UserGameStatsSchema_3405340.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/3405340/UserGameStatsSchema_3405340.bin)（58 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/3405340/) |
