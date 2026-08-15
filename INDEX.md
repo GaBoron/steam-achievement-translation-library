@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**393** 个游戏。
+当前收录：**394** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -165,6 +165,7 @@
 | `379720` | DOOM (2016) | 可用 | 2026-07-16T03:21:03Z | [@b1516717676](https://github.com/b1516717676), [@Ifover](https://github.com/Ifover) | schinese | 54 | [UserGameStatsSchema_379720.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/379720/UserGameStatsSchema_379720.bin)（64 KB） | [#163](https://github.com/GaBoron/steam-achievement-translation-library/pull/163) |  | [Steam](https://store.steampowered.com/app/379720/DOOM/) |
 | `367500` | Dragon's Dogma: Dark Arisen 龙之信条：黑暗觉者 | 可用 | 2026-07-09T16:29:06Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 59 | [UserGameStatsSchema_367500.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/367500/UserGameStatsSchema_367500.bin)（45 KB） | [#87](https://github.com/GaBoron/steam-achievement-translation-library/pull/87) |  | [Steam](https://store.steampowered.com/app/367500/Dragons_Dogma_Dark_Arisen/) |
 | `635730` | Dragonia 龙姬 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 46 | [UserGameStatsSchema_635730.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/635730/UserGameStatsSchema_635730.bin)（19 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/635730/) |
+| `2488340` | Dream Town Island 创造都市岛物语 | 可用 | 2026-08-15T03:17:13Z | [@suika-cake](https://github.com/suika-cake) | english, japanese, schinese | 6 | [UserGameStatsSchema_2488340.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2488340/UserGameStatsSchema_2488340.bin)（3 KB） | [#550](https://github.com/GaBoron/steam-achievement-translation-library/pull/550) |  | [Steam](https://store.steampowered.com/app/2488340/) |
 | `1812620` | DSX | 可用 | 2026-07-13T17:31:36Z | [@wzq050619](https://github.com/wzq050619) | schinese | 35 | [UserGameStatsSchema_1812620.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1812620/UserGameStatsSchema_1812620.bin)（16 KB） | [#108](https://github.com/GaBoron/steam-achievement-translation-library/pull/108) |  | [Steam](https://store.steampowered.com/app/1812620/DSX/) |
 | `249050` | Dungeon of the ENDLESS 无尽地牢 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 33 | [UserGameStatsSchema_249050.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/249050/UserGameStatsSchema_249050.bin)（22 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/249050/) |
 | `1901620` | Dungeon Travelers: To Heart 2 in Another World 迷宫旅人：To Heart 2 异世界 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 30 | [UserGameStatsSchema_1901620.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1901620/UserGameStatsSchema_1901620.bin)（15 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1901620/) |
