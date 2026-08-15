@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**388** 个游戏。
+当前收录：**389** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -342,6 +342,7 @@
 | `319910` | Trine 3: The Artifacts of Power 三位一体3：权力圣器 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 28 | [UserGameStatsSchema_319910.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/319910/UserGameStatsSchema_319910.bin)（14 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/319910/) |
 | `35700` | Trine Enchanted Edition 三位一体：魔法版 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 33 | [UserGameStatsSchema_35700.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/35700/UserGameStatsSchema_35700.bin)（14 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/35700/) |
 | `1059990` | Trombone Champ 长号冠军 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 25 | [UserGameStatsSchema_1059990.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1059990/UserGameStatsSchema_1059990.bin)（9 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1059990/) |
+| `2119680` | Tropical Resort Story 南国度假岛物语 | 可用 | 2026-08-15T03:09:46Z | [@suika-cake](https://github.com/suika-cake) | english, japanese, schinese | 6 | [UserGameStatsSchema_2119680.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2119680/UserGameStatsSchema_2119680.bin)（3 KB） | [#560](https://github.com/GaBoron/steam-achievement-translation-library/pull/560) |  | [Steam](https://store.steampowered.com/app/2119680/) |
 | `57690` | Tropico 4 海岛大亨4 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 70 | [UserGameStatsSchema_57690.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/57690/UserGameStatsSchema_57690.bin)（57 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/57690/) |
 | `7520` | Two Worlds II HD 两个世界2 HD | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 66 | [UserGameStatsSchema_7520.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/7520/UserGameStatsSchema_7520.bin)（25 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/7520/) |
 | `1147860` | UFO 50 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 30 | [UserGameStatsSchema_1147860.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1147860/UserGameStatsSchema_1147860.bin)（11 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1147860/) |
