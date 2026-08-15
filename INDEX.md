@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**392** 个游戏。
+当前收录：**393** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -329,6 +329,7 @@
 | `1920490` | The Outer Worlds: Spacer's Choice Edition 天外世界：太空人之选版 | 可用 | 2026-07-06T08:15:32Z | [@KneeArcher](https://github.com/KneeArcher) | schinese | 68 | [UserGameStatsSchema_1920490.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1920490/UserGameStatsSchema_1920490.bin)（26 KB） | [#43](https://github.com/GaBoron/steam-achievement-translation-library/pull/43) |  | [Steam](https://store.steampowered.com/app/1920490/) |
 | `250600` | The Plan 计划 | 可用 | 2026-08-15T02:33:22Z | [@JM508](https://github.com/JM508) | english, schinese | 1 | [UserGameStatsSchema_250600.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/250600/UserGameStatsSchema_250600.bin)（525 B） | [#509](https://github.com/GaBoron/steam-achievement-translation-library/pull/509) |  | [Steam](https://store.steampowered.com/app/250600/) |
 | `3074200` | The Rookery 鸦巢 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 43 | [UserGameStatsSchema_3074200.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/3074200/UserGameStatsSchema_3074200.bin)（16 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/3074200/) |
+| `1921780` | The Sushi Spinnery 海鲜寿司物语 | 可用 | 2026-08-15T03:15:57Z | [@suika-cake](https://github.com/suika-cake) | english, japanese, schinese | 6 | [UserGameStatsSchema_1921780.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1921780/UserGameStatsSchema_1921780.bin)（3 KB） | [#552](https://github.com/GaBoron/steam-achievement-translation-library/pull/552) |  | [Steam](https://store.steampowered.com/app/1921780/) |
 | `231160` | The Swapper 交换者 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 10 | [UserGameStatsSchema_231160.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/231160/UserGameStatsSchema_231160.bin)（3 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/231160/) |
 | `301150` | The Treasures of Montezuma 4 蒙特祖玛的宝藏4 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 32 | [UserGameStatsSchema_301150.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/301150/UserGameStatsSchema_301150.bin)（24 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/301150/) |
 | `20920` | The Witcher 2: Assassins of Kings Enhanced Edition 巫师2：国王刺客 增强版 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 52 | [UserGameStatsSchema_20920.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/20920/UserGameStatsSchema_20920.bin)（39 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/20920/) |
