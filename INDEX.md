@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**385** 个游戏。
+当前收录：**386** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -343,6 +343,7 @@
 | `57690` | Tropico 4 海岛大亨4 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 70 | [UserGameStatsSchema_57690.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/57690/UserGameStatsSchema_57690.bin)（57 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/57690/) |
 | `7520` | Two Worlds II HD 两个世界2 HD | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 66 | [UserGameStatsSchema_7520.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/7520/UserGameStatsSchema_7520.bin)（25 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/7520/) |
 | `1147860` | UFO 50 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 30 | [UserGameStatsSchema_1147860.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1147860/UserGameStatsSchema_1147860.bin)（11 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1147860/) |
+| `304930` | Unturned 未转变者 | 可用 | 2026-08-15T03:06:39Z | [@GaBoron](https://github.com/GaBoron) | english, schinese | 95 | [UserGameStatsSchema_304930.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/304930/UserGameStatsSchema_304930.bin)（38 KB） | [#533](https://github.com/GaBoron/steam-achievement-translation-library/pull/533) |  | [Steam](https://store.steampowered.com/app/304930/) |
 | `1149550` | Utawarerumono: Mask of Deception 传颂之物：虚伪的假面 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 44 | [UserGameStatsSchema_1149550.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1149550/UserGameStatsSchema_1149550.bin)（30 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1149550/) |
 | `1151440` | Utawarerumono: Mask of Truth 传颂之物：二人的白皇 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 57 | [UserGameStatsSchema_1151440.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1151440/UserGameStatsSchema_1151440.bin)（29 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1151440/) |
 | `1151450` | Utawarerumono: Prelude to the Fallen 传颂之物：致逝者的摇篮曲 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | schinese | 49 | [UserGameStatsSchema_1151450.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1151450/UserGameStatsSchema_1151450.bin)（24 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1151450/) |
