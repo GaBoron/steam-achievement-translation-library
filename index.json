@@ -4517,9 +4517,18 @@
       "contributor_id": "AioriaRegulus",
       "submitted_at": "2026-07-06T08:43:59Z",
       "updated_at": "2026-07-06T11:11:07Z",
-      "status": "current",
+      "status": "possibly_ineffective",
       "source_pr": "https://github.com/GaBoron/steam-achievement-translation-library/pull/45",
-      "file_size_bytes": 21021
+      "file_size_bytes": 21021,
+      "report": {
+        "type": "possibly_ineffective",
+        "reported_at": "2026-08-23T15:29:52Z",
+        "source_issue": "https://github.com/GaBoron/steam-achievement-translation-library/issues/617",
+        "source_pr": "https://github.com/GaBoron/steam-achievement-translation-library/pull/618",
+        "reporter_id": "momomo-1118",
+        "reason": "文件不生效，成就还是英文的",
+        "reference": ""
+      }
     },
     {
       "game_name": "FINAL FANTASY VIII - REMASTERED 最终幻想8 - 重制版",
