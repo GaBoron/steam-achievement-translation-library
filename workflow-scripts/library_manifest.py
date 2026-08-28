@@ -478,7 +478,18 @@ def write_manifests_from_legacy_index(index: dict[str, Any], *, root: Path = REP
 
 
 def write_catalogs(manifests: Iterable[dict[str, Any]], *, root: Path = REPO_ROOT) -> tuple[Path, Path]:
-    manifest_list = list(manifests)
+    # Keep generated catalogs deterministic regardless of whether callers loaded
+    # manifests from disk (App-ID order) or assembled them from an index
+    # (usually game-name order).  This is the same canonical ordering used by
+    # ``library_index.sort_entries`` without introducing a module cycle.
+    manifest_list = sorted(
+        manifests,
+        key=lambda manifest: (
+            str(manifest.get("game_name") or "").strip().casefold().encode("gb18030", errors="ignore"),
+            str(manifest.get("game_name") or "").strip().casefold(),
+            int(str(manifest.get("game_id") or "0")),
+        ),
+    )
     for manifest in manifest_list:
         game_id = str(manifest["game_id"])
         source = root / Path(*PurePosixPath(schema_relative_path(game_id, "default")).parts)
