@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        此模板只用于更新已经合并进库的游戏。机器人会按 Steam app ID 检查 `index.json`；正在打开的 PR 不算已收录。
+        此模板只用于更新已经合并进库的游戏。机器人会按 Steam app ID 检查权威游戏 manifest；正在打开的 PR 不算已收录。
 
         如果上传文件与库里的当前文件完全相同，自动检查会拒绝创建 PR。机器人会根据 app ID 生成商店地址，并从 schema 自动识别语言。
   - type: input

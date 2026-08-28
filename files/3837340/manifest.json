@@ -1,0 +1,31 @@
+{
+  "game_id": "3837340",
+  "game_name": "FINAL FANTASY VII 最终幻想7",
+  "status": "possibly_ineffective",
+  "contributors": [ "AioriaRegulus" ],
+  "source": {
+    "issue": 44,
+    "pr": 45
+  },
+  "submitted_at": "2026-07-06T08:43:59Z",
+  "updated_at": "2026-07-06T11:11:07Z",
+  "variants": {
+    "default": {
+      "languages": [ "english", "french", "german", "japanese", "schinese", "spanish" ],
+      "sha256": "020ce790396a5729d953abe9534eaa9b9da2f5c385b2ce6c5bc1a3262cd8364c",
+      "size": 21021,
+      "achievements": 31
+    }
+  },
+  "report": {
+    "type": "possibly_ineffective",
+    "reported_at": "2026-08-23T15:29:52Z",
+    "reason": "文件不生效，成就还是英文的",
+    "reference": "",
+    "reporter": "momomo-1118",
+    "source": {
+      "issue": 617,
+      "pr": 618
+    }
+  }
+}

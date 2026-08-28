@@ -66,41 +66,42 @@ UserGameStatsSchema_123456.zip
 
 ```json
 {
-  "version": 1,
-  "variants": [
-    {
-      "variant_id": "default",
-      "primary": true,
-      "file": "UserGameStatsSchema_123456.bin",
-      "note_zh": "原版",
-      "note_en": "Original"
+  "variants": {
+    "default": {
+      "label": {
+        "zh": "正式分支",
+        "en": "Stable branch"
+      }
     },
-    {
-      "variant_id": "branch-name",
-      "primary": false,
-      "file": "branch-name/UserGameStatsSchema_123456.bin",
-      "note_zh": "分支版本",
-      "note_en": "Branch version"
+    "branch-name": {
+      "label": {
+        "zh": "测试分支",
+        "en": "Beta branch"
+      },
+      "description": {
+        "zh": "适用于游戏的公开测试分支",
+        "en": "For the game's public beta branch"
+      }
     }
-  ]
+  }
 }
 ```
 
-- A package supports 1–16 variants and must have exactly one `primary: true` entry named `default`.
-- Other `variant_id` values use lowercase letters, numbers, and hyphens only, and match their subdirectory names.
-- Every variant needs short Chinese and English notes; two variants cannot contain identical files.
+- A package supports 1–16 variants and must contain `default`. Each object key is the variant ID, and `default` is the default choice.
+- Other variant IDs use lowercase letters, numbers, and hyphens only, and match their subdirectory names. File paths are derived from the IDs and must not be declared in the manifest.
+- Every variant needs a short bilingual `label`. Add a bilingual `description` only when its compatibility or purpose needs more explanation.
+- Do not declare a format version, `primary`, file paths, hashes, sizes, achievement counts, languages, app IDs, contributors, timestamps, or Issue/PR data; automation derives them. Two variants cannot contain identical files.
 - A full update resubmits the complete version set. To replace one existing variant, enter its ID in the update form and upload a normal single-version ZIP.
-- Every variant must produce the same automatically detected language list; a targeted variant update cannot change that list.
+- Languages and achievement counts are detected for each variant independently and may differ when the variants target different game versions.
 
 ## ✅ Automated Checks
 
 Automation derives the store URL from the app ID and checks ZIP safety and size, Binary KeyValues parsing and byte-identical roundtrip, unique achievement IDs, automatically detected language coverage, and update differences. Submit only translations you are allowed to share.
 
-For workflow, script, index, or `files/` changes, run from the repository root:
+For workflow, script, manifest, generated index, or `files/` changes, run from the repository root:
 
 ```bash
-python -m compileall -q workflow-scripts tests
-python -m unittest discover -s tests -v
+python -m compileall -q workflow-scripts
 python workflow-scripts/check_repository.py
 ```
 

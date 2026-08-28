@@ -66,41 +66,42 @@ UserGameStatsSchema_123456.zip
 
 ```json
 {
-  "version": 1,
-  "variants": [
-    {
-      "variant_id": "default",
-      "primary": true,
-      "file": "UserGameStatsSchema_123456.bin",
-      "note_zh": "原版",
-      "note_en": "Original"
+  "variants": {
+    "default": {
+      "label": {
+        "zh": "正式分支",
+        "en": "Stable branch"
+      }
     },
-    {
-      "variant_id": "branch-name",
-      "primary": false,
-      "file": "branch-name/UserGameStatsSchema_123456.bin",
-      "note_zh": "分支版本",
-      "note_en": "Branch version"
+    "branch-name": {
+      "label": {
+        "zh": "测试分支",
+        "en": "Beta branch"
+      },
+      "description": {
+        "zh": "适用于游戏的公开测试分支",
+        "en": "For the game's public beta branch"
+      }
     }
-  ]
+  }
 }
 ```
 
-- 支持 1–16 个版本，必须且只能有一个 `primary: true` 的 `default` 主版本。
-- 其他 `variant_id` 只能包含小写字母、数字和连字符，并与子目录同名。
-- 每个版本都要填写简短的中英文说明；不同版本不能是相同文件。
+- 支持 1–16 个版本，必须包含 `default`；对象 key 就是版本 ID，`default` 是默认选择。
+- 其他版本 ID 只能包含小写字母、数字和连字符，并与子目录同名。文件路径由版本 ID 自动推导，不要在清单中填写。
+- 每个版本都要填写简短的双语 `label`；只有确实需要进一步解释适用范围时才添加双语 `description`。
+- 不要填写版本号、`primary`、文件路径、哈希、大小、成就数、语言、App ID、贡献者、时间或 Issue/PR；这些都由自动化推导。不同版本不能是相同文件。
 - 完整更新必须重新提交整个版本集合。只替换一个已有版本时，在更新表单填写版本 ID 并上传普通单版本 ZIP。
-- 所有版本必须自动识别出相同的语言列表；单独替换版本时不能改变全局语言列表。
+- 每个版本分别自动识别语言和成就数；它们可以因适用的游戏版本不同而不同。
 
 ## ✅ 自动检查
 
 机器人会根据 app ID 生成商店链接，并检查 ZIP 安全与大小、Binary KeyValues 解析及字节级 roundtrip、成就 ID 唯一性、自动识别的语言覆盖和更新差异。请只提交你有权分享的翻译成果。
 
-修改工作流、脚本、索引或 `files/` 数据时，请在仓库根目录运行：
+修改工作流、脚本、manifest、派生索引或 `files/` 数据时，请在仓库根目录运行：
 
 ```bash
-python -m compileall -q workflow-scripts tests
-python -m unittest discover -s tests -v
+python -m compileall -q workflow-scripts
 python workflow-scripts/check_repository.py
 ```
 

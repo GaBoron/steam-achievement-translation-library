@@ -12,6 +12,8 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
+import library_manifest
+
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_INDEX_PATH = ROOT / "index.json"
@@ -70,10 +72,13 @@ def build_statistics(index_data: dict[str, Any], contributor_limit: int = 10) ->
         if previous is None or submitted_on < previous:
             first_submission_by_game[game_id] = submitted_on
 
-        contributor_id = entry.get("contributor_id")
-        if not isinstance(contributor_id, str) or not contributor_id.strip():
-            raise ValueError(f"entry {position} has an invalid contributor_id")
-        contribution_counts[contributor_id.strip()] += 1
+        contributors = entry.get("contributors")
+        if not isinstance(contributors, list) or not contributors:
+            contributors = [entry.get("contributor_id")]
+        cleaned = {str(value).strip() for value in contributors if isinstance(value, str) and value.strip()}
+        if not cleaned:
+            raise ValueError(f"entry {position} has no valid contributors")
+        contribution_counts.update(cleaned)
 
     submissions_per_day = Counter(first_submission_by_game.values())
     first_day = min(submissions_per_day)
@@ -432,12 +437,17 @@ def write_if_changed(path: Path, content: str) -> bool:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Generate the README statistics SVG from index.json.")
-    parser.add_argument("--index", type=Path, default=DEFAULT_INDEX_PATH, help="Path to index.json.")
+    parser = argparse.ArgumentParser(description="Generate the README statistics SVG from authoritative manifests.")
+    parser.add_argument("--index", type=Path, help="Legacy compatibility input; defaults to files/*/manifest.json.")
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT_PATH, help="Path to the generated SVG.")
     args = parser.parse_args()
 
-    statistics = build_statistics(load_index(args.index))
+    if args.index is None:
+        manifests = library_manifest.load_manifests(root=ROOT)
+        source = library_manifest.legacy_index_from_manifests(manifests)
+    else:
+        source = load_index(args.index)
+    statistics = build_statistics(source)
     changed = write_if_changed(args.output, render_svg(statistics))
     state = "updated" if changed else "already up to date"
     print(

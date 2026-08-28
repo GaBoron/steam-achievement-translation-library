@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - .github/workflows/statistics-svg.yml
-      - index.json
+      - files/*/manifest.json
       - workflow-scripts/generate_statistics_svg.py
       - workflow-scripts/assets/**
   workflow_dispatch:

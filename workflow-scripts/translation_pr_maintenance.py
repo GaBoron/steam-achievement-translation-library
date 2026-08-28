@@ -216,8 +216,9 @@ def mark_source_pr(event: dict[str, Any], repo: str, token: str) -> bool:
                 raise RuntimeError(f"merged PR schema file is missing from main: {variant.get('schema_file') or '<empty>'}")
             data, nodes = load_schema(schema_path)
             validate_schema_structure(data, nodes)
-            rows = achievement_rows(nodes, list(entry.get("languages", [])))
-            require_language_coverage(rows, list(entry.get("languages", [])))
+            variant_languages = [str(value) for value in variant.get("languages") or entry.get("languages", [])]
+            rows = achievement_rows(nodes, variant_languages)
+            require_language_coverage(rows, variant_languages)
             expected_hash = str(variant.get("sha256") or "")
             if expected_hash and sha256(data) != expected_hash:
                 raise RuntimeError(f"merged PR schema SHA-256 does not match PR metadata for {variant.get('schema_file')}")
@@ -256,7 +257,7 @@ def mark_source_pr(event: dict[str, Any], repo: str, token: str) -> bool:
     upsert_index_entry(entry)
     run(["git", "config", "user.name", "github-actions[bot]"])
     run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"])
-    add_paths = ["index.json", "INDEX.md", "INDEX_EN.md"]
+    add_paths = ["files", "index.json", "index-v2.json", "INDEX.md", "INDEX_EN.md"]
     if pending_report_path is not None:
         add_paths.append(pending_report_path.relative_to(ROOT).as_posix())
     run(["git", "add", "-A", "--", *add_paths])

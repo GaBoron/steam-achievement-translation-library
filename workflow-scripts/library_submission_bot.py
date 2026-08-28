@@ -190,7 +190,7 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
 
     if kind == "translation-contribution" and existing:
         write_failure(
-            [f"Steam app ID {game_id} 已经存在于 index.json；如需替换已收录文件，请使用“更新已有 Steam 成就翻译”模板。"],
+            [f"Steam app ID {game_id} 已经存在于翻译库；如需替换已收录文件，请使用“更新已有 Steam 成就翻译”模板。"],
             retry_allowed=False,
         )
     if kind == "translation-contribution" and game_id and re.fullmatch(r"\d+", game_id):
@@ -212,7 +212,7 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
                         retry_allowed=False,
                     )
     if kind == "update" and not existing:
-        errors.append(f"Steam app ID {game_id} 不存在于 index.json；正在打开的 PR 不算已收录条目。")
+        errors.append(f"Steam app ID {game_id} 不存在于翻译库；正在打开的 PR 不算已收录条目。")
     if kind == "update" and not update_summary:
         errors.append("必须填写更新内容摘要。")
     if target_variant_id and kind != "update":
@@ -381,7 +381,7 @@ def validate_outdated_report(event: dict[str, Any]) -> dict[str, Any]:
     index = load_index()
     existing = existing_entry(index, game_id) if game_id else None
     if not existing:
-        errors.append(f"Steam app ID {game_id} 不存在于 index.json，不能报告错误。")
+        errors.append(f"Steam app ID {game_id} 不存在于翻译库，不能报告错误。")
     if not reason or reason == "_No response_":
         errors.append("必须填写错误说明。")
     if errors:

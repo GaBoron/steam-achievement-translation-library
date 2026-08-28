@@ -4,7 +4,7 @@ from __future__ import annotations
 import json
 import re
 import zipfile
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path, PurePosixPath
 from typing import Any
 
@@ -34,6 +34,8 @@ class ResolvedSchemaVariant:
     primary: bool
     note_zh: str = ""
     note_en: str = ""
+    description_zh: str = ""
+    description_en: str = ""
 
 
 @dataclass
@@ -46,6 +48,9 @@ class ValidatedSchemaVariant:
     nodes: list[Node]
     rows: list[dict[str, str]]
     coverage: dict[str, int]
+    description_zh: str = ""
+    description_en: str = ""
+    languages: list[str] = field(default_factory=list)
 
 
 @dataclass
@@ -110,62 +115,80 @@ def resolve_schema_package(
             manifest = json.loads(archive.read(manifest_member).decode("utf-8"))
         except (UnicodeError, json.JSONDecodeError) as exc:
             raise ValueError(f"{VARIANT_MANIFEST_NAME} 不是有效的 UTF-8 JSON：{exc}") from exc
-        if not isinstance(manifest, dict) or manifest.get("version") != 1:
-            raise ValueError(f"{VARIANT_MANIFEST_NAME} 必须是 version=1 的 JSON 对象")
+        if not isinstance(manifest, dict) or set(manifest) != {"variants"}:
+            raise ValueError(f"{VARIANT_MANIFEST_NAME} 只能包含 variants 对象")
         raw_variants = manifest.get("variants")
-        if not isinstance(raw_variants, list) or not 1 <= len(raw_variants) <= MAX_SCHEMA_VARIANTS:
+        if not isinstance(raw_variants, dict) or not 1 <= len(raw_variants) <= MAX_SCHEMA_VARIANTS:
             raise ValueError(f"版本清单必须包含 1 到 {MAX_SCHEMA_VARIANTS} 个 variants")
+        if "default" not in raw_variants:
+            raise ValueError("版本清单必须包含 default")
 
         resolved: list[ResolvedSchemaVariant] = []
         declared_files: set[str] = set()
         seen_ids: set[str] = set()
-        primary_count = 0
         total_schema_bytes = 0
-        for index, raw_variant in enumerate(raw_variants, 1):
+        for variant_id, raw_variant in raw_variants.items():
             if not isinstance(raw_variant, dict):
-                raise ValueError(f"variants[{index}] 必须是 JSON 对象")
-            variant_id = str(raw_variant.get("variant_id") or "").strip().lower()
+                raise ValueError(f"variants.{variant_id} 必须是 JSON 对象")
             if not VARIANT_ID_RE.fullmatch(variant_id):
                 raise ValueError(f"无效的 variant_id：{variant_id or '<empty>'}")
             if variant_id in seen_ids:
                 raise ValueError(f"重复的 variant_id：{variant_id}")
             seen_ids.add(variant_id)
-            primary = raw_variant.get("primary") is True
-            primary_count += int(primary)
-            if primary and variant_id != "default":
-                raise ValueError("主版本的 variant_id 必须是 default")
-            if not primary and variant_id == "default":
-                raise ValueError("variant_id=default 只能用于主版本")
+            unexpected = set(raw_variant) - {"label", "description"}
+            if unexpected:
+                raise ValueError(
+                    f"版本 {variant_id} 包含可由自动化推导的字段：{', '.join(sorted(unexpected))}"
+                )
+            primary = variant_id == "default"
             expected_file = expected_name if primary else f"{variant_id}/{expected_name}"
-            schema_file = str(raw_variant.get("file") or "").strip().replace("\\", "/")
-            if schema_file != expected_file:
-                raise ValueError(f"版本 {variant_id} 的 file 必须是 {expected_file}")
-            member = members_by_name.get(schema_file)
+            member = members_by_name.get(expected_file)
             if member is None:
-                raise ValueError(f"ZIP 缺少清单声明的文件：{schema_file}")
+                raise ValueError(f"ZIP 缺少版本 {variant_id} 的文件：{expected_file}")
             if member.file_size > MAX_SCHEMA_BYTES:
                 raise ValueError(f"版本 {variant_id} 的 schema 超过 32 MiB 检查上限")
             total_schema_bytes += member.file_size
             if total_schema_bytes > MAX_PACKAGE_BYTES:
                 raise ValueError("多版本 schema 解压后总大小超过 64 MiB 检查上限")
-            declared_files.add(schema_file)
-            destination = output_dir / Path(*PurePosixPath(schema_file).parts)
+            declared_files.add(expected_file)
+            destination = output_dir / Path(*PurePosixPath(expected_file).parts)
             destination.parent.mkdir(parents=True, exist_ok=True)
             destination.write_bytes(archive.read(member))
+            label = raw_variant.get("label")
+            if not isinstance(label, dict) or set(label) != {"zh", "en"}:
+                raise ValueError(f"版本 {variant_id} 的 label 必须包含且只能包含 zh 和 en")
+            description = raw_variant.get("description")
+            if description is not None and (not isinstance(description, dict) or set(description) != {"zh", "en"}):
+                raise ValueError(f"版本 {variant_id} 的 description 必须包含且只能包含 zh 和 en")
             resolved.append(ResolvedSchemaVariant(
                 variant_id=variant_id,
                 path=destination,
                 primary=primary,
-                note_zh=clean_variant_note(raw_variant.get("note_zh"), f"variants[{index}].note_zh"),
-                note_en=clean_variant_note(raw_variant.get("note_en"), f"variants[{index}].note_en"),
+                note_zh=clean_variant_note(label.get("zh"), f"variants.{variant_id}.label.zh"),
+                note_en=clean_variant_note(label.get("en"), f"variants.{variant_id}.label.en"),
+                description_zh=_clean_description(
+                    (description or {}).get("zh"), f"variants.{variant_id}.description.zh"
+                ),
+                description_en=_clean_description(
+                    (description or {}).get("en"), f"variants.{variant_id}.description.en"
+                ),
             ))
-        if primary_count != 1:
-            raise ValueError("多版本清单必须且只能声明一个 primary=true 的主版本")
         extra_files = set(members_by_name) - declared_files - {VARIANT_MANIFEST_NAME}
         if extra_files:
             raise ValueError("ZIP 包含清单未声明的文件：" + ", ".join(sorted(extra_files)))
         resolved.sort(key=lambda variant: (not variant.primary, variant.variant_id))
         return resolved, True
+
+
+def _clean_description(value: Any, field_name: str) -> str:
+    text = str(value or "").strip()
+    if not text:
+        return ""
+    if len(text) > 1000:
+        raise ValueError(f"多版本清单中的 {field_name} 不能超过 1000 个字符")
+    if any(ord(character) < 32 and character not in "\n\r\t" for character in text):
+        raise ValueError(f"多版本清单中的 {field_name} 包含无效控制字符")
+    return text
 
 
 def resolve_schema_upload(downloaded: Path, attachment: Attachment, game_id: str, output_dir: Path) -> Path:
@@ -176,7 +199,7 @@ def resolve_schema_upload(downloaded: Path, attachment: Attachment, game_id: str
 
 
 def validated_variant_record(game_id: str, variant: ValidatedSchemaVariant) -> dict[str, Any]:
-    return {
+    record = {
         "variant_id": variant.variant_id,
         "primary": variant.primary,
         "schema_file": schema_variant_relative_path(game_id, variant.variant_id, variant.primary),
@@ -185,7 +208,12 @@ def validated_variant_record(game_id: str, variant: ValidatedSchemaVariant) -> d
         "file_size_bytes": len(variant.data),
         "sha256": sha256(variant.data),
         "achievement_count": len(variant.rows),
+        "languages": list(variant.languages),
     }
+    if variant.description_zh or variant.description_en:
+        record["description_zh"] = variant.description_zh
+        record["description_en"] = variant.description_en
+    return record
 
 
 def _write_bytes_atomic(path: Path, data: bytes) -> None:
@@ -248,6 +276,9 @@ def save_schema_package(
             nodes=uploaded.nodes,
             rows=uploaded.rows,
             coverage=uploaded.coverage,
+            description_zh=str(current.get("description_zh") or ""),
+            description_en=str(current.get("description_en") or ""),
+            languages=list(uploaded.languages),
         )
         record = validated_variant_record(game_id, effective)
         existing_by_id[target_variant_id] = record

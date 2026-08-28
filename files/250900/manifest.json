@@ -1,0 +1,34 @@
+{
+  "game_id": "250900",
+  "game_name": "The Binding of Isaac: Rebirth 以撒的结合：重生",
+  "status": "current",
+  "contributors": [ "GaBoron" ],
+  "source": {
+    "issue": 422,
+    "pr": 423
+  },
+  "submitted_at": "2026-07-04T14:01:03Z",
+  "updated_at": "2026-08-03T15:24:11Z",
+  "variants": {
+    "default": {
+      "label": {
+        "zh": "原版",
+        "en": "original"
+      },
+      "languages": [ "schinese" ],
+      "sha256": "205589740a8a06b0fc053d89026c01f2e6123b2bec427a1ccb5d13c0db047981",
+      "size": 222153,
+      "achievements": 641
+    },
+    "with-unlock-conditions": {
+      "label": {
+        "zh": "含解锁条件",
+        "en": "with unlock conditions"
+      },
+      "languages": [ "schinese" ],
+      "sha256": "e3301de4127e4331fb67ef1d92fae08480b62d7a5f39e04c7091a437d1af63a1",
+      "size": 250326,
+      "achievements": 641
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "game_id": "448510",
+  "game_name": "Overcooked 胡闹厨房",
+  "status": "possibly_ineffective",
+  "contributors": [ "wowwot" ],
+  "source": {
+    "issue": 480,
+    "pr": 481
+  },
+  "submitted_at": "2026-08-09T09:58:40Z",
+  "updated_at": "2026-08-09T11:57:30Z",
+  "variants": {
+    "default": {
+      "languages": [ "english", "french", "german", "italian", "schiese", "schinese", "spanish" ],
+      "sha256": "9eeb4541bfa1627da187dce1c0cfdbd67af2f238ad07c4a5a831e1dfd88dfa5f",
+      "size": 9290,
+      "achievements": 12
+    }
+  },
+  "report": {
+    "type": "possibly_ineffective",
+    "reported_at": "2026-08-15T03:39:09Z",
+    "reason": "语言`schinese`被填成了`schiese`，可能导致steam无法读取",
+    "reference": "",
+    "reporter": "GaBoron"
+  }
+}

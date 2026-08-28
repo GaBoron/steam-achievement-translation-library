@@ -5,8 +5,10 @@ from __future__ import annotations
 import argparse
 import json
 from dataclasses import dataclass, field
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 from typing import Any
+
+import library_manifest
 
 from library_submission_bot import (
     FILES_ROOT,
@@ -149,13 +151,35 @@ def check_repository(
 ) -> CheckReport:
     report = CheckReport()
     try:
-        index = json.loads(INDEX_PATH.read_text(encoding="utf-8"))
+        manifests = library_manifest.load_manifests(root=library_manifest.REPO_ROOT)
+    except (OSError, UnicodeError, ValueError) as exc:
+        report.error(f"cannot read authoritative manifests: {exc}")
+        return report
+    if not manifests:
+        report.error("files/*/manifest.json must contain at least one game manifest")
+        return report
+    index = library_manifest.legacy_index_from_manifests(manifests)
+    index["entries"] = sort_entries(index["entries"])
+    v1_index = library_manifest.legacy_index_from_manifests(
+        manifests,
+        v1_compatibility_paths=True,
+    )
+    v1_index["entries"] = sort_entries(v1_index["entries"])
+    runtime_index = library_manifest.runtime_index_from_manifests(manifests)
+
+    try:
+        actual_legacy = json.loads(INDEX_PATH.read_text(encoding="utf-8"))
+        if actual_legacy != v1_index:
+            report.error("index.json is out of sync with manifests")
     except (OSError, UnicodeError, json.JSONDecodeError) as exc:
-        report.error(f"cannot read index.json: {exc}")
-        return report
-    if not isinstance(index, dict) or not isinstance(index.get("entries"), list):
-        report.error("index.json must contain an object with an entries array")
-        return report
+        report.error(f"cannot read generated index.json: {exc}")
+    try:
+        runtime_path = library_manifest.REPO_ROOT / library_manifest.RUNTIME_INDEX_PATH.name
+        actual_runtime = json.loads(runtime_path.read_text(encoding="utf-8"))
+        if actual_runtime != runtime_index:
+            report.error("index-v2.json is out of sync with manifests")
+    except (OSError, UnicodeError, json.JSONDecodeError) as exc:
+        report.error(f"cannot read generated index-v2.json: {exc}")
 
     entries = index["entries"]
     if all(isinstance(entry, dict) for entry in entries) and entries != sort_entries(entries):
@@ -163,6 +187,23 @@ def check_repository(
 
     seen_ids: set[str] = set()
     expected_paths: set[Path] = set()
+    for manifest in manifests:
+        game_id = str(manifest["game_id"])
+        compatibility_path = library_manifest.REPO_ROOT / Path(*PurePosixPath(
+            library_manifest.v1_schema_relative_path(game_id, "default")
+        ).parts)
+        expected_paths.add(compatibility_path.resolve())
+        if not compatibility_path.is_file():
+            report.error(f"{game_id}: missing v1 compatibility schema: {compatibility_path.relative_to(library_manifest.REPO_ROOT)}")
+            continue
+        expected_hash = str(manifest["variants"]["default"]["sha256"])
+        try:
+            actual_hash = sha256(compatibility_path.read_bytes())
+        except OSError as exc:
+            report.error(f"{game_id}: cannot read v1 compatibility schema: {exc}")
+            continue
+        if actual_hash != expected_hash:
+            report.error(f"{game_id}: v1 compatibility schema does not match default variant")
     for raw_entry in entries:
         if not isinstance(raw_entry, dict):
             report.error("index.json contains a non-object entry")
@@ -218,8 +259,9 @@ def check_repository(
                         f"{game_id}: variants {duplicate_id} and {variant.get('variant_id')} have identical files"
                     )
                 variant_hashes[digest] = str(variant.get("variant_id"))
-                variant_rows = achievement_rows(variant_nodes, normalized_languages)
-                _coverage, missing = language_coverage(variant_rows, normalized_languages)
+                variant_languages = [str(value) for value in variant.get("languages") or normalized_languages]
+                variant_rows = achievement_rows(variant_nodes, variant_languages)
+                _coverage, missing = language_coverage(variant_rows, variant_languages)
                 for language, missing_ids in missing.items():
                     if not missing_ids:
                         continue
@@ -262,13 +304,13 @@ def check_repository(
     try:
         expected_zh, expected_en = render_human_index(index)
         if HUMAN_INDEX_PATH.read_text(encoding="utf-8") != expected_zh:
-            message = "INDEX.md is out of sync with index.json"
+            message = "INDEX.md is out of sync with manifests"
             if allow_stale_human_indexes:
                 report.warn(f"stale human index allowed for error-report PR: {message}")
             else:
                 report.error(message)
         if HUMAN_INDEX_EN_PATH.read_text(encoding="utf-8") != expected_en:
-            message = "INDEX_EN.md is out of sync with index.json"
+            message = "INDEX_EN.md is out of sync with manifests"
             if allow_stale_human_indexes:
                 report.warn(f"stale human index allowed for error-report PR: {message}")
             else:

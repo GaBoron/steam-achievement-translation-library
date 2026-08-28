@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use this template only for games already accepted into `index.json`. Open PRs do not count as accepted entries.
+        Use this template only for games already accepted into the library's authoritative manifests. Open PRs do not count as accepted entries.
 
         If the uploaded file is identical to the current library file, automation will reject the update. Automation derives the store URL from the app ID and detects languages from the schema.
   - type: input

@@ -137,7 +137,7 @@ def rename_schema_variants(
 
 def commit_and_push(branch: str, message: str, add_paths: list[str] | None = None) -> bool:
     configure_git_identity()
-    run(["git", "add", *(add_paths or ["files", "index.json", "INDEX.md", "INDEX_EN.md"])])
+    run(["git", "add", *(add_paths or ["files", "index.json", "index-v2.json", "INDEX.md", "INDEX_EN.md"])])
     if run(["git", "diff", "--cached", "--quiet"], check=False).returncode == 0:
         return False
     run(["git", "commit", "-m", message])

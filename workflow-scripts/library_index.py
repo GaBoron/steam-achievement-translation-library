@@ -9,15 +9,19 @@ import urllib.parse
 from pathlib import Path, PurePosixPath
 from typing import Any
 
+import library_manifest
+
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 INDEX_PATH = REPO_ROOT / "index.json"
+RUNTIME_INDEX_PATH = REPO_ROOT / "index-v2.json"
 HUMAN_INDEX_PATH = REPO_ROOT / "INDEX.md"
 HUMAN_INDEX_EN_PATH = REPO_ROOT / "INDEX_EN.md"
 FILES_ROOT = REPO_ROOT / "files"
 PENDING_REPORTS_DIR = Path(".github") / "translation-reports"
 STATE_RE = re.compile(r"^[a-z][a-z0-9_]{1,31}$")
 VARIANT_ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]{0,63}$")
+LANGUAGE_RE = re.compile(r"^[a-z][a-z0-9_]{1,31}$")
 REPORT_STATE_ALIASES = {
     "文件可能过期": "outdated",
     "file may be outdated": "outdated",
@@ -42,6 +46,11 @@ def clean_variant_note(value: Any, field_name: str) -> str:
 
 
 def load_index() -> dict[str, Any]:
+    if library_manifest.has_manifests(root=REPO_ROOT):
+        manifests = library_manifest.load_manifests(root=REPO_ROOT)
+        index = library_manifest.legacy_index_from_manifests(manifests)
+        index["entries"] = sort_entries(index["entries"])
+        return index
     if not INDEX_PATH.exists():
         return {"version": 1, "description": "Community-submitted Steam achievement schema translations.", "entries": []}
     return json.loads(INDEX_PATH.read_text(encoding="utf-8"))
@@ -103,8 +112,8 @@ def schema_file_size_label(size_bytes: int) -> str:
 
 
 def schema_variant_relative_path(game_id: str, variant_id: str, primary: bool) -> str:
-    filename = f"UserGameStatsSchema_{game_id}.bin"
-    return f"files/{game_id}/{filename}" if primary else f"files/{game_id}/{variant_id}/{filename}"
+    del primary  # Kept for compatibility with existing workflow call sites.
+    return library_manifest.schema_relative_path(game_id, variant_id)
 
 
 def entry_schema_variants(entry: dict[str, Any]) -> list[dict[str, Any]]:
@@ -132,6 +141,7 @@ def entry_schema_variants(entry: dict[str, Any]) -> list[dict[str, Any]]:
             "primary": primary,
             "schema_file": schema_file,
         })
+        record.setdefault("languages", entry.get("languages"))
         if primary:
             record.setdefault("file_size_bytes", entry.get("file_size_bytes"))
             record.setdefault("sha256", entry.get("sha256"))
@@ -155,7 +165,9 @@ def validated_entry_schema_variants(
     primary_records = [record for record in records if record.get("primary")]
     if len(primary_records) != 1 or str(primary_records[0].get("variant_id")) != "default":
         raise ValueError("版本记录必须且只能包含一个 variant_id=default 的主版本")
-    game_id = str(entry.get("game_id") or PurePosixPath(str(entry.get("schema_file") or "")).parent.name)
+    primary_path = PurePosixPath(str(entry.get("schema_file") or ""))
+    inferred_game_id = primary_path.parts[1] if len(primary_path.parts) >= 2 else ""
+    game_id = str(entry.get("game_id") or inferred_game_id)
     explicit_variants = isinstance(raw_variants, list)
     for record in records:
         variant_id = str(record.get("variant_id") or "")
@@ -175,6 +187,14 @@ def validated_entry_schema_variants(
                 raise ValueError(f"版本 {variant_id} 的 achievement_count 无效")
             if not re.fullmatch(r"[0-9a-f]{64}", digest):
                 raise ValueError(f"版本 {variant_id} 的 sha256 无效")
+            languages = record.get("languages")
+            if not isinstance(languages, list) or not languages:
+                raise ValueError(f"版本 {variant_id} 的 languages 无效")
+            normalized_languages = [str(language) for language in languages]
+            if normalized_languages != sorted(set(normalized_languages)) or any(
+                not LANGUAGE_RE.fullmatch(language) for language in normalized_languages
+            ):
+                raise ValueError(f"版本 {variant_id} 的 languages 无效")
     return records
 
 
@@ -200,7 +220,8 @@ def write_index(index: dict[str, Any]) -> None:
     index.setdefault("description", "Community-submitted Steam achievement schema translations.")
     refresh_index_file_sizes(index)
     index["entries"] = sort_entries(index.get("entries", []))
-    INDEX_PATH.write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    manifests = library_manifest.write_manifests_from_legacy_index(index, root=REPO_ROOT)
+    library_manifest.write_catalogs(manifests, root=REPO_ROOT)
 
 
 def existing_entry(index: dict[str, Any], game_id: str) -> dict[str, Any] | None:
@@ -517,6 +538,8 @@ def render_human_index(index: dict[str, Any]) -> tuple[str, str]:
 
 
 def write_human_index(index: dict[str, Any]) -> None:
+    if library_manifest.has_manifests(root=REPO_ROOT):
+        index = load_index()
     zh_index, en_index = render_human_index(index)
     HUMAN_INDEX_PATH.write_text(zh_index, encoding="utf-8")
     HUMAN_INDEX_EN_PATH.write_text(en_index, encoding="utf-8")

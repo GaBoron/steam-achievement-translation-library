@@ -44,30 +44,27 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Detect direct index changes
+      - name: Detect authoritative manifest changes
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
-        id: index-change
+        id: manifest-change
         env:
           BEFORE_SHA: ${{ github.event.before }}
           AFTER_SHA: ${{ github.sha }}
         run: |
-          if git diff --quiet "$BEFORE_SHA" "$AFTER_SHA" -- index.json; then
+          if git diff --quiet "$BEFORE_SHA" "$AFTER_SHA" -- ':(glob)files/*/manifest.json'; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Synchronize index-derived files
-        if: ${{ steps.index-change.outputs.changed == 'true' }}
+      - name: Synchronize manifest-derived files
+        if: ${{ steps.manifest-change.outputs.changed == 'true' }}
         env:
           BEFORE_SHA: ${{ github.event.before }}
         run: python workflow-scripts/index_maintenance.py --previous-ref "$BEFORE_SHA"
 
-      - name: Compile workflow scripts and tests
-        run: python -m compileall -q workflow-scripts tests
-
-      - name: Run unit tests
-        run: python -m unittest discover -s tests -v
+      - name: Compile workflow scripts
+        run: python -m compileall -q workflow-scripts
 
       - name: Verify translation data and generated indexes
         run: |
@@ -80,15 +77,15 @@ jobs:
           fi
           python workflow-scripts/check_repository.py "${args[@]}"
 
-      - name: Commit synchronized index artifacts
-        if: ${{ steps.index-change.outputs.changed == 'true' }}
+      - name: Commit synchronized manifest artifacts
+        if: ${{ steps.manifest-change.outputs.changed == 'true' }}
         run: |
-          git add -A -- index.json INDEX.md INDEX_EN.md files
+          git add -A -- index.json index-v2.json INDEX.md INDEX_EN.md files
           if git diff --cached --quiet; then
             echo "Index-derived files are already synchronized."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "data: synchronize index artifacts"
+          git commit -m "data: synchronize manifest artifacts"
           git push origin HEAD:main

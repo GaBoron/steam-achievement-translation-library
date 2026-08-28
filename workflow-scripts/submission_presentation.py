@@ -159,8 +159,9 @@ def variant_achievement_rows(
         schema_file = str(variant["schema_file"])
         data, nodes = load_schema(repository_path(schema_file))
         validate_schema_structure(data, nodes)
-        rows = achievement_rows(nodes, languages)
-        require_language_coverage(rows, languages)
+        variant_languages = [str(value) for value in variant.get("languages") or languages]
+        rows = achievement_rows(nodes, variant_languages)
+        require_language_coverage(rows, variant_languages)
         rows_by_variant[str(variant["variant_id"])] = rows
     return rows_by_variant
 

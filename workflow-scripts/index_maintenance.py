@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Synchronize generated index files after a direct index.json edit."""
+"""Synchronize generated artifacts after an authoritative manifest edit."""
 from __future__ import annotations
 
 import argparse
@@ -8,6 +8,8 @@ import re
 import subprocess
 from pathlib import Path, PurePosixPath
 from typing import Any
+
+import library_manifest
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -53,6 +55,7 @@ def entries_by_game_id(index: dict[str, Any]) -> dict[str, dict[str, Any]]:
 
 
 def _validated_schema_path(game_id: str, value: Any, *, multi_file: bool) -> str:
+    del multi_file  # Retained for compatibility with independently tested callers.
     raw_path = str(value or "").strip().replace("\\", "/")
     path = PurePosixPath(raw_path)
     expected_name = f"UserGameStatsSchema_{game_id}.bin"
@@ -60,12 +63,12 @@ def _validated_schema_path(game_id: str, value: Any, *, multi_file: bool) -> str
         not raw_path
         or path.is_absolute()
         or any(part in {"", ".", ".."} for part in path.parts)
-        or len(path.parts) not in ({3, 4} if multi_file else {3})
+        or len(path.parts) != 4
         or path.parts[:2] != ("files", game_id)
         or path.name != expected_name
     ):
         raise ValueError(f"unsafe or non-canonical schema path for {game_id}: {raw_path!r}")
-    if len(path.parts) == 4 and not VARIANT_ID_RE.fullmatch(path.parts[2]):
+    if not VARIANT_ID_RE.fullmatch(path.parts[2]):
         raise ValueError(f"invalid schema variant directory for {game_id}: {path.parts[2]!r}")
     return path.as_posix()
 
@@ -76,6 +79,8 @@ def entry_schema_files(entry: dict[str, Any]) -> tuple[str, ...]:
     if not game_id.isdigit():
         raise ValueError(f"entry has an invalid Steam app ID: {game_id!r}")
     primary_file = _validated_schema_path(game_id, entry.get("schema_file"), multi_file=False)
+    if PurePosixPath(primary_file).parts[2] != "default":
+        raise ValueError(f"primary schema path for {game_id} must use the default directory")
     raw_variants = entry.get("schema_files")
     if not isinstance(raw_variants, list) or not raw_variants:
         return (primary_file,)
@@ -157,21 +162,23 @@ def remove_deleted_entry_files(
 
 
 def synchronize(previous_ref: str, *, root: Path = ROOT) -> tuple[str, ...]:
-    current_index = load_index(root / "index.json")
+    manifests = library_manifest.load_manifests(root=root)
+    current_index = library_manifest.legacy_index_from_manifests(manifests)
     previous_index = index_at_ref(previous_ref, root=root)
     removed = remove_deleted_entry_files(root, previous_index, current_index)
 
     # Import at the composition boundary so deletion planning remains independently testable.
     import library_index as library
 
-    library.write_index(current_index)
+    current_index["entries"] = library.sort_entries(current_index["entries"])
+    library_manifest.write_catalogs(manifests, root=root)
     library.write_human_index(current_index)
     return removed
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--previous-ref", required=True, help="Git ref containing index.json before the edit.")
+    parser.add_argument("--previous-ref", required=True, help="Git ref before the manifest edit.")
     args = parser.parse_args()
     removed = synchronize(args.previous_ref)
     if removed:
@@ -180,7 +187,7 @@ def main() -> None:
             print(f"- {path}")
     else:
         print("No indexed schema files needed removal.")
-    print("Synchronized index.json, INDEX.md, and INDEX_EN.md.")
+    print("Synchronized index.json, index-v2.json, INDEX.md, and INDEX_EN.md from manifests.")
 
 
 if __name__ == "__main__":

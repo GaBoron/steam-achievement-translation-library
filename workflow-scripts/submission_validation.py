@@ -57,20 +57,14 @@ def validate_schema_package(
         download_attachment(attachment, token, downloaded)
         resolved_variants, has_manifest = resolve_schema_package(downloaded, attachment, game_id, tmp_dir)
         variants: list[ValidatedSchemaVariant] = []
-        package_languages: list[str] | None = None
+        package_languages: set[str] = set()
         for resolved in resolved_variants:
             data, nodes = load_schema(resolved.path)
             validate_schema_structure(data, nodes)
             languages = schema_languages(nodes)
             if not languages:
                 raise ValueError(f"版本 {resolved.variant_id} 未检测到完整的 Steam 语言")
-            if package_languages is None:
-                package_languages = languages
-            elif languages != package_languages:
-                raise ValueError(
-                    f"版本 {resolved.variant_id} 检测到的语言与主版本不一致："
-                    f"{', '.join(languages)}；主版本：{', '.join(package_languages)}"
-                )
+            package_languages.update(languages)
             rows = achievement_rows(nodes, languages)
             coverage = require_language_coverage(rows, languages)
             variants.append(ValidatedSchemaVariant(
@@ -82,6 +76,9 @@ def validate_schema_package(
                 nodes=nodes,
                 rows=rows,
                 coverage=coverage,
+                description_zh=resolved.description_zh,
+                description_en=resolved.description_en,
+                languages=languages,
             ))
         hashes: dict[str, str] = {}
         for variant in variants:
@@ -93,7 +90,7 @@ def validate_schema_package(
         return ValidatedSchemaPackage(
             variants=variants,
             has_manifest=has_manifest,
-            languages=package_languages or [],
+            languages=sorted(package_languages),
         )
 
 

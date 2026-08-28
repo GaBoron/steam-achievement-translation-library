@@ -240,7 +240,8 @@ def validate_metadata_variants(meta: dict[str, Any], languages: list[str]) -> tu
         raise ValueError("PR 描述中没有可用的 schema 版本元数据。")
     primary_result: tuple[list[dict[str, str]], dict[str, int]] | None = None
     for variant in variants:
-        result = validate_languages_for_schema(str(variant["schema_file"]), languages)
+        variant_languages = [str(value) for value in variant.get("languages") or languages]
+        result = validate_languages_for_schema(str(variant["schema_file"]), variant_languages)
         if variant.get("primary"):
             primary_result = result
     if primary_result is None:
