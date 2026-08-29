@@ -22,6 +22,9 @@ Other editors are also supported, but every submission must meet these requireme
 
 Search [INDEX_EN.md](INDEX_EN.md) by app ID first to determine whether you are submitting a new game or updating an accepted entry.
 
+> [!NOTE]
+> The repository is currently in a parallel V1/V2 migration period. Contributors still upload one ZIP; automation generates both authoritative V2 data and V1 compatibility data. See the [V2 migration status in the README](README_EN.md#-v2-migration-status) for the deadline and legacy-format removal schedule.
+
 ## 🧭 2. Choose A Submission
 
 | Situation | Entry |

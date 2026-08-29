@@ -25,6 +25,18 @@
 
 直接下载文件时，请确认文件名和 app ID 一致。安装、备份与恢复建议交给 [Steam 成就翻译管理器](https://github.com/GaBoron/steam-achievement-translation-installer)，避免手工覆盖错误文件。
 
+## 🧭 V2 迁移状态
+
+仓库端 Catalog V2 已上线，目前处于 V1/V2 并行迁移阶段：
+
+- 每个游戏目录中的 `files/<app_id>/manifest.json` 是完整元数据的权威来源；各版本文件使用 `files/<app_id>/<variant_id>/UserGameStatsSchema_<app_id>.bin` 固定路径。
+- `index-v2.json` 是面向客户端的精简 V2 运行时索引。
+- V1 `index.json` 和 `files/<app_id>/UserGameStatsSchema_<app_id>.bin` 默认文件旧路径继续生成，供仅支持 V1 的 SATLI 版本使用。
+- 迁移期间，新投稿和更新只需提交一次；自动化会同时生成 V2 权威数据与 V1 兼容数据。
+
+> [!IMPORTANT]
+> **迁移截止时间为 2026 年 12 月 31 日 23:59（UTC+8）。** 自 2027 年 1 月 1 日起，本仓库不再保证继续提供 V1 `index.json` 和默认文件旧路径；仍使用 V1 的客户端须在截止前升级。客户端适配进度见 [SATLI #14](https://github.com/GaBoron/SATLI/issues/14)。
+
 ## 🔄 项目协作
 
 | 项目 | 职责 |

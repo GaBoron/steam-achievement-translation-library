@@ -25,6 +25,18 @@ A community-maintained data repository for translated Steam `UserGameStatsSchema
 
 For direct downloads, make sure the file name and app ID match. Use [Steam Achievement Translation Manager](https://github.com/GaBoron/steam-achievement-translation-installer) for installation, backup, and recovery to avoid replacing the wrong local file.
 
+## 🧭 V2 Migration Status
+
+Catalog V2 is live in this repository, which is currently in a parallel V1/V2 migration period:
+
+- `files/<app_id>/manifest.json` in each game directory is the authoritative source for complete metadata. Variant files use the fixed path `files/<app_id>/<variant_id>/UserGameStatsSchema_<app_id>.bin`.
+- `index-v2.json` is the compact V2 runtime catalog for clients.
+- The V1 `index.json` and legacy default path `files/<app_id>/UserGameStatsSchema_<app_id>.bin` continue to be generated for SATLI versions that only support V1.
+- During the migration, each new submission or update is submitted once; automation generates both the authoritative V2 data and V1 compatibility data.
+
+> [!IMPORTANT]
+> **The migration deadline is December 31, 2026, at 23:59 (UTC+8).** Starting January 1, 2027, this repository will no longer guarantee the V1 `index.json` or legacy default file paths. Clients still using V1 must upgrade before the deadline. Client migration progress is tracked in [SATLI #14](https://github.com/GaBoron/SATLI/issues/14).
+
 ## 🔄 How The Projects Work Together
 
 | Project | Role |
