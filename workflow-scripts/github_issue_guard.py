@@ -390,27 +390,27 @@ def handle_issue_close(repo: str, token: str, event: dict[str, Any]) -> bool:
     return True
 
 
-def apply_issue_update(repo: str, token: str, event: dict[str, Any]) -> None:
+def apply_issue_update(repo: str, token: str, event: dict[str, Any]) -> bool:
     issue = event.get("issue") or {}
     comment = event.get("comment") or {}
     issue_number = int(issue["number"])
     comment_body = str(comment.get("body") or "")
     if is_update_command(comment_body) and not comment_is_authorized(event):
         comment_issue(repo, token, issue_number, "`/update` 只能由 issue 投稿者或仓库维护者执行。")
-        return
+        return False
     command, value, error = parse_update_command(comment_body)
     if error:
         comment_issue(repo, token, issue_number, update_error_comment(error))
-        return
+        return False
     if not command:
-        return
+        return False
     if str(issue.get("state") or "") != "open":
         comment_issue(repo, token, issue_number, update_error_comment("`/update` 只能用于打开状态的 issue。"))
-        return
+        return False
     issue_kind = infer_issue_kind(issue)
     if (command == "variant" or (command == "doc" and value)) and issue_kind != "update":
         comment_issue(repo, token, issue_number, update_error_comment("版本 ID 只适用于更新已有文件的 issue。"))
-        return
+        return False
 
     latest_issue = github_request("GET", repo, token, f"/issues/{issue_number}") or issue
     body = str(latest_issue.get("body") or "")
@@ -439,11 +439,12 @@ def apply_issue_update(repo: str, token: str, event: dict[str, Any]) -> None:
             changes.append({"field": field_labels[0], "before": before, "after": after})
     except Exception as exc:  # noqa: BLE001 - user-facing issue update error.
         comment_issue(repo, token, issue_number, update_error_comment(str(exc)))
-        return
+        return False
 
     patch_issue_body(repo, token, issue_number, body)
     command_text = update_first_line(comment_body)
     comment_issue(repo, token, issue_number, update_success_comment(command_text, changes))
+    return True
 
 
 def main() -> None:
@@ -452,17 +453,21 @@ def main() -> None:
     parser.add_argument("--repo", default=os.environ.get("GITHUB_REPOSITORY", ""), help="owner/repo")
     parser.add_argument("--token", default=os.environ.get("GITHUB_TOKEN"), help="GitHub token")
     parser.add_argument("--handle-comment", action="store_true")
+    parser.add_argument("--result", type=Path, help="Optional JSON result path for comment handling")
     args = parser.parse_args()
 
     if not args.repo or not args.token:
         raise SystemExit("Both --repo and --token are required.")
     event = json.loads(args.event.read_text(encoding="utf-8"))
     if args.handle_comment:
-        if handle_issue_close(args.repo, args.token, event):
-            return
-        if handle_issue_force_refresh(args.repo, args.token, event):
-            return
-        apply_issue_update(args.repo, args.token, event)
+        review_required = False
+        if not handle_issue_close(args.repo, args.token, event) and not handle_issue_force_refresh(args.repo, args.token, event):
+            review_required = apply_issue_update(args.repo, args.token, event)
+        if args.result:
+            args.result.write_text(
+                json.dumps({"review_required": review_required}, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
         return
     comment_body = str((event.get("comment") or {}).get("body") or "")
     if is_force_refresh_command(comment_body):

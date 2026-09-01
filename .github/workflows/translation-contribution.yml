@@ -21,9 +21,20 @@ concurrency:
 
 jobs:
   issue-review:
+    needs: issue-comment-maintenance
     if: >-
       ${{
-        (github.event_name == 'issues' || (github.event_name == 'issue_comment' && github.event.comment.body == '/force-refresh')) &&
+        always() &&
+        (
+          github.event_name == 'issues' ||
+          (
+            github.event_name == 'issue_comment' &&
+            (
+              github.event.comment.body == '/force-refresh' ||
+              needs.issue-comment-maintenance.outputs.review-required == 'true'
+            )
+          )
+        ) &&
         !github.event.issue.pull_request &&
         github.event.issue.state == 'open' &&
         (
@@ -48,11 +59,17 @@ jobs:
         with:
           python-version: "3.13"
 
+      - name: Refresh issue event
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python workflow-scripts/issue_review_event.py --event "$GITHUB_EVENT_PATH" --output "$RUNNER_TEMP/issue-review-event.json" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN"
+
       - name: Guard issue label
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python workflow-scripts/github_issue_guard.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN"
+        run: python workflow-scripts/github_issue_guard.py --event "$RUNNER_TEMP/issue-review-event.json" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN"
 
       - name: Validate issue and update library files
         id: validate
@@ -60,7 +77,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python workflow-scripts/library_submission_bot.py --event "$GITHUB_EVENT_PATH" --token "$GITHUB_TOKEN"
+        run: python workflow-scripts/library_submission_bot.py --event "$RUNNER_TEMP/issue-review-event.json" --token "$GITHUB_TOKEN"
 
       - name: Comment on failed review
         if: ${{ steps.validate.outcome == 'failure' }}
@@ -341,6 +358,8 @@ jobs:
   issue-comment-maintenance:
     if: ${{ github.event_name == 'issue_comment' && !github.event.issue.pull_request }}
     runs-on: ubuntu-latest
+    outputs:
+      review-required: ${{ steps.command-result.outputs.review-required }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -354,7 +373,19 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python workflow-scripts/github_issue_guard.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --handle-comment
+        run: python workflow-scripts/github_issue_guard.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --handle-comment --result "$RUNNER_TEMP/issue-comment-result.json"
+
+      - name: Export comment result
+        id: command-result
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          import os
+          from pathlib import Path
+
+          result = json.loads((Path(os.environ["RUNNER_TEMP"]) / "issue-comment-result.json").read_text(encoding="utf-8"))
+          print(f"review-required={str(bool(result.get('review_required'))).lower()}")
+          PY
 
   record-source-pr:
     if: ${{ github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main' && startsWith(github.event.pull_request.head.ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
