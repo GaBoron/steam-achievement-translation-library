@@ -35,6 +35,7 @@ from library_index import (
     validated_entry_schema_variants,
     write_pending_report,
 )
+from legacy_pr_schema import normalize_legacy_pr_schema_paths
 from pr_git import checkout_pr_branch, commit_and_push, push_branch, rename_schema_variants, run
 from pr_metadata import (
     build_outdated_body,
@@ -223,6 +224,10 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
         changes.append({"field": field, "before": before, "after": after})
 
     try:
+        if kind != "outdated":
+            previous_schema_file = str(meta.get("schema_file") or "")
+            if normalize_legacy_pr_schema_paths(meta):
+                record_change("schema file", previous_schema_file, meta["schema_file"])
         if command == "doc":
             if not attachment:
                 raise ValueError("`/update doc` 需要在同一条评论中附加 `UserGameStatsSchema_<app_id>.zip`。")

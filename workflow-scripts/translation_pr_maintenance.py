@@ -5,7 +5,6 @@ from __future__ import annotations
 import argparse
 import json
 import re
-import shutil
 import subprocess
 import sys
 import urllib.error
@@ -30,6 +29,8 @@ from pr_finalization import (
     notify_fulfilled_translation_petitions,
     open_translation_petitions,
 )
+
+from legacy_pr_schema import normalize_legacy_pr_schema_paths
 
 from pr_metadata import (
     body_field,
@@ -122,7 +123,6 @@ from library_submission_bot import (
     save_schema_package,
     schema_file_size_bytes,
     schema_file_size_label,
-    schema_variant_relative_path,
     sha256,
     steam_store_id,
     summarize_update_diff,
@@ -137,7 +137,6 @@ from library_submission_bot import (
 )
 
 ROOT = Path(__file__).resolve().parent.parent
-FILES_ROOT = ROOT / "files"
 WAIT_FOR_UPDATE_LABEL = "等待更新"
 BOT_USERS = {"github-actions[bot]"}
 TRUSTED_ASSOCIATIONS = {"OWNER", "MEMBER", "COLLABORATOR"}
@@ -146,43 +145,6 @@ OUTDATED_LABELS = {"报告错误", "报告过期", "outdated"}
 TRANSLATION_PETITION_LABEL = "翻译请愿"
 TRANSLATION_PETITION_FULFILLED_MARKER = "translation-library-petition-fulfilled"
 DEFAULT_REVIEWERS = ["GaBoron"]
-
-
-def normalize_merged_pr_schema_paths(entry: dict[str, Any]) -> None:
-    """Promote a pre-v2 PR's default file to the canonical manifest path.
-
-    PRs created before the manifest migration still describe the primary schema
-    at ``files/<app_id>/UserGameStatsSchema_<app_id>.bin``.  Once such a PR is
-    merged, finalization must copy that V1 path into the V2 ``default``
-    directory before validating and writing the authoritative manifest.
-    """
-    game_id = str(entry.get("game_id") or "").strip()
-    legacy_path = f"files/{game_id}/UserGameStatsSchema_{game_id}.bin"
-    canonical_path = schema_variant_relative_path(game_id, "default", True)
-    records = entry.get("schema_files")
-    legacy_seen = str(entry.get("schema_file") or "") == legacy_path
-    if isinstance(records, list):
-        legacy_seen = legacy_seen or any(
-            isinstance(record, dict) and str(record.get("schema_file") or record.get("path") or "") == legacy_path
-            for record in records
-        )
-    if not legacy_seen:
-        return
-
-    source = repository_path(legacy_path)
-    destination = repository_path(canonical_path)
-    if not source.is_file():
-        raise RuntimeError(f"merged PR legacy schema file is missing from main: {legacy_path}")
-    destination.parent.mkdir(parents=True, exist_ok=True)
-    if source.resolve() != destination.resolve():
-        shutil.copyfile(source, destination)
-
-    if str(entry.get("schema_file") or "") == legacy_path:
-        entry["schema_file"] = canonical_path
-    if isinstance(records, list):
-        for record in records:
-            if isinstance(record, dict) and str(record.get("schema_file") or record.get("path") or "") == legacy_path:
-                record["schema_file"] = canonical_path
 
 
 UPDATE_COMMAND_ALIASES = {
@@ -244,7 +206,7 @@ def mark_source_pr(event: dict[str, Any], repo: str, token: str) -> bool:
     else:
         meta = parse_pr_metadata(pr)
         entry = entry_from_metadata(meta)
-        normalize_merged_pr_schema_paths(entry)
+        normalize_legacy_pr_schema_paths(entry, context="merged PR")
         primary_rows: list[dict[str, str]] | None = None
         primary_variant: dict[str, Any] | None = None
         primary_digest = ""
