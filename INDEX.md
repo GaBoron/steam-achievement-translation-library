@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**431** 个游戏。
+当前收录：**432** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -450,5 +450,6 @@
 | `233130` | 影子武士1 | 可用 | 2026-07-26T03:37:10Z | [@Dadada2323](https://github.com/Dadada2323) | brazilian, english, french, german, hungarian, italian, japanese, polish, russian, schinese, spanish | 92 | [UserGameStatsSchema_233130.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/233130/default/UserGameStatsSchema_233130.bin)（110 KB） | [#314](https://github.com/GaBoron/steam-achievement-translation-library/pull/314) |  | [Steam](https://store.steampowered.com/app/233130/) |
 | `1776970` | 月に寄りそう乙女の作法 近月少女的礼仪 | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | english, schinese, tchinese | 38 | [UserGameStatsSchema_1776970.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1776970/default/UserGameStatsSchema_1776970.bin)（17 KB） | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/1776970/) |
 | `1413480` | 真・女神转生III NOCTURNE HD REMASTER | 可用 | 2026-07-31T02:20:33Z | [@HideonOcean](https://github.com/HideonOcean) | english, french, german, italian, japanese, koreana, schinese, spanish, tchinese | 37 | [UserGameStatsSchema_1413480.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1413480/default/UserGameStatsSchema_1413480.bin)（34 KB） | [#344](https://github.com/GaBoron/steam-achievement-translation-library/pull/344) |  | [Steam](https://store.steampowered.com/app/1413480/) |
+| `278080` | 真・三国无双７ with 猛将传 | 可用 | 2026-09-05T09:17:47Z | [@fsypal-cyber](https://github.com/fsypal-cyber) | english, french, german, japanese, schinese, tchinese | 44 | [UserGameStatsSchema_278080.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/278080/default/UserGameStatsSchema_278080.bin)（35 KB） | [#690](https://github.com/GaBoron/steam-achievement-translation-library/pull/690) |  | [Steam](https://store.steampowered.com/app/278080/) |
 | `1889740` | 纸间谜迹 Paper Trail | 可用 | 2026-09-02T06:44:05Z | [@GaBoron](https://github.com/GaBoron) | english, schinese | 35 | [UserGameStatsSchema_1889740.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1889740/default/UserGameStatsSchema_1889740.bin)（14 KB） | [#674](https://github.com/GaBoron/steam-achievement-translation-library/pull/674) |  | [Steam](https://store.steampowered.com/app/1889740/) |
 | `3336590` | 噗哟！动脑子 | 可用 | 2026-07-14T02:39:21Z | [@GaBoron](https://github.com/GaBoron) | english, schinese | 6 | [UserGameStatsSchema_3336590.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/3336590/default/UserGameStatsSchema_3336590.bin)（2 KB） | [#111](https://github.com/GaBoron/steam-achievement-translation-library/pull/111) |  | [Steam](https://store.steampowered.com/app/3336590/) |
