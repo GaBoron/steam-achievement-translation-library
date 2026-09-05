@@ -119,6 +119,10 @@ def rename_schema_variants(
     for source, destination, _record in moves:
         destination.parent.mkdir(parents=True, exist_ok=True)
         source.replace(destination)
+        source_catalog = source.with_name("achievements.md")
+        destination_catalog = destination.with_name("achievements.md")
+        if source_catalog.is_file():
+            source_catalog.replace(destination_catalog)
     old_root = (FILES_ROOT / old_game_id).resolve()
     for directory in sorted({source.parent for source, _destination, _record in moves}, key=lambda path: len(path.parts), reverse=True):
         current = directory

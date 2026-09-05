@@ -12,7 +12,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
-import library_manifest
+import catalog_v2
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -437,14 +437,14 @@ def write_if_changed(path: Path, content: str) -> bool:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Generate the README statistics SVG from authoritative manifests.")
-    parser.add_argument("--index", type=Path, help="Legacy compatibility input; defaults to files/*/manifest.json.")
+    parser = argparse.ArgumentParser(description="Generate the README statistics SVG from authoritative Catalog V2 data.")
+    parser.add_argument("--index", type=Path, help="Legacy compatibility input; defaults to index-v2.json.")
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT_PATH, help="Path to the generated SVG.")
     args = parser.parse_args()
 
     if args.index is None:
-        manifests = library_manifest.load_manifests(root=ROOT)
-        source = library_manifest.legacy_index_from_manifests(manifests)
+        catalog = catalog_v2.load_catalog(root=ROOT)
+        source = catalog_v2.legacy_index_from_catalog(catalog)
     else:
         source = load_index(args.index)
     statistics = build_statistics(source)

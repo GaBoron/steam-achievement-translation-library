@@ -8,7 +8,6 @@ from typing import Any
 
 from library_index import (
     entry_file_size_label,
-    entry_problem_report,
     entry_schema_variants,
     escape_table,
     existing_entry,
@@ -20,7 +19,7 @@ from library_index import (
 )
 from steam_schema import achievement_rows, load_schema, require_language_coverage, validate_schema_structure
 from submission_inputs import field_value, first_line, now_utc, parse_issue_form
-from submission_presentation import parse_schema_variants_marker, steam_store_id
+from submission_presentation import parse_schema_variants_marker, steam_store_id, steam_store_url
 
 
 BOT_USERS = {"github-actions[bot]"}
@@ -99,6 +98,10 @@ def comment_is_authorized(event: dict[str, Any]) -> bool:
 
 
 def source_issue_number(pr: dict[str, Any]) -> int:
+    body = str(pr.get("body") or "")
+    closes = re.search(r"(?mi)^\s*(?:close[sd]?|fix(?:e[sd])?|resolve[sd]?)\s+#(\d+)\s*$", body)
+    if closes:
+        return int(closes.group(1))
     try:
         source_issue = str(parse_pr_metadata(pr).get("source_issue") or "")
     except (TypeError, ValueError):
@@ -124,30 +127,39 @@ def split_languages(value: str) -> list[str]:
     text = value.strip().lower()
     if any(separator in text for separator in [";", "；", "，"]):
         raise ValueError("语言代码必须使用半角逗号 `,` 分隔。")
-    return sorted({item.strip() for item in text.split(",") if item.strip()})
+    return sorted({item.strip().strip("`") for item in text.split(",") if item.strip().strip("`")})
+
+
+def linked_game_name(value: str) -> str:
+    match = re.fullmatch(r"\[([^]]+)]\([^)]+\)", value.strip())
+    return match.group(1).strip() if match else value.strip()
 
 
 def parse_pr_metadata(pr: dict[str, Any]) -> dict[str, Any]:
     body = str(pr.get("body") or "")
     contributor_value = body_field(body, "Contributors")
     contributors = [item.strip().lstrip("@") for item in contributor_value.split(",") if item.strip()]
-    languages = split_languages(body_field(body, "Supported languages"))
+    languages = split_languages(body_field(body, "Languages") or body_field(body, "Supported languages"))
     schema_files = parse_schema_variants_marker(body)
+    primary = next((item for item in schema_files or [] if item.get("primary")), {})
+    game_id = body_field(body, "Steam app ID")
+    closes_match = re.search(r"(?mi)^\s*(?:close[sd]?|fix(?:e[sd])?|resolve[sd]?)\s+#(\d+)\s*$", body)
+    source_issue = body_field(body, "Source issue") or (f"#{closes_match.group(1)}" if closes_match else "")
     return {
         "kind": pr_kind(pr),
-        "game_name": body_field(body, "Game name"),
-        "game_id": body_field(body, "Steam app ID"),
-        "store_url": body_field(body, "Steam store URL"),
+        "game_name": linked_game_name(body_field(body, "Game") or body_field(body, "Game name")),
+        "game_id": game_id,
+        "store_url": body_field(body, "Steam store URL") or steam_store_url(game_id),
         "contributors": contributors,
-        "source_issue": body_field(body, "Source issue"),
+        "source_issue": source_issue,
         "reporter": body_field(body, "Reporter").lstrip("@"),
         "reported_at": body_field(body, "Reported at"),
         "languages": languages,
-        "achievement_count": body_field(body, "Achievement count"),
-        "schema_file": body_field(body, "Schema file") or body_field(body, "Current schema file"),
+        "achievement_count": body_field(body, "Achievements") or body_field(body, "Achievement count") or primary.get("achievement_count"),
+        "schema_file": body_field(body, "Schema file") or body_field(body, "Current schema file") or primary.get("schema_file"),
         "schema_files": schema_files,
         "file_size": body_field(body, "File size") or body_field(body, "Current file size"),
-        "sha256": body_field(body, "SHA-256") or body_field(body, "Current SHA-256"),
+        "sha256": body_field(body, "SHA-256") or body_field(body, "Current SHA-256") or primary.get("sha256"),
         "submitted_at": body_field(body, "Submitted at"),
         "updated_at": body_field(body, "Updated at") or body_field(body, "Last library update"),
         "update_summary": body_field(body, "Contributor summary"),
@@ -165,6 +177,11 @@ def section_after_heading(body: str, heading: str) -> str:
     match = re.search(r"\n##\s+", tail)
     if match:
         tail = tail[:match.start()].strip()
+    tail = re.sub(
+        r"(?mi)\n+\s*(?:close[sd]?|fix(?:e[sd])?|resolve[sd]?)\s+#\d+\s*$",
+        "",
+        tail,
+    )
     return tail.strip()
 
 
@@ -261,15 +278,16 @@ def entry_from_metadata(meta: dict[str, Any]) -> dict[str, Any]:
         "file_size_bytes": schema_file_size_bytes(str(meta["schema_file"])),
         "achievement_count": int(str(meta.get("achievement_count") or "0") or 0),
         "sha256": meta["sha256"],
-        "source_issue": meta["source_issue"],
         "contributors": meta.get("contributors", []),
         "contributor_id": (meta.get("contributors") or [""])[0] if meta.get("contributors") else "",
-        "submitted_at": meta.get("submitted_at") or now_utc(),
-        "updated_at": meta.get("updated_at") or now_utc(),
+        "submitted_at": meta.get("submitted_at") or index_entry.get("submitted_at") or now_utc(),
+        "updated_at": meta.get("updated_at") or index_entry.get("updated_at") or now_utc(),
         "status": "current",
     })
     entry.pop("outdated", None)
     entry.pop("report", None)
+    entry.pop("source_issue", None)
+    entry.pop("source_pr", None)
     if meta.get("schema_files") is not None:
         entry["schema_files"] = list(meta["schema_files"])
     elif isinstance(entry.get("schema_files"), list):
@@ -288,59 +306,47 @@ def entry_from_metadata(meta: dict[str, Any]) -> dict[str, Any]:
 
 
 def build_outdated_body(entry: dict[str, Any], meta: dict[str, Any]) -> str:
-    report = entry_problem_report(entry)
+    issue_match = re.search(r"(?:/issues/|#)(\d+)(?:[/?#]|$)", str(meta.get("source_issue") or ""))
+    issue_number = int(issue_match.group(1)) if issue_match else 0
+    closes = f"\n\nCloses #{issue_number}" if issue_number else ""
     return f"""## Achievement Translation Error Report
 
-- Game name: {entry['game_name']}
+- Game: [{entry['game_name']}]({steam_store_url(str(entry['game_id']))})
 - Steam app ID: `{entry['game_id']}`
-- Steam store URL: {entry.get('store_url', '')}
 - Current schema file: `{entry.get('schema_file', '')}`
 - Current file size: {entry_file_size_label(entry)}
 - Current SHA-256: `{entry.get('sha256', '')}`
 - Last library update: {entry.get('updated_at', '')}
-- Source issue: {meta.get('source_issue', '')}
-- Reporter: @{report.get('reporter_id', '')}
-- Reported at: {report.get('reported_at', '')}
-- Report type: `{report.get('type', entry.get('status', 'outdated'))}`
+- Reporter: @{meta.get('reporter', '')}
+- Reported at: {meta.get('reported_at', '')}
+- Report type: `{meta.get('report_type', entry.get('status', 'outdated'))}`
 
 ## Reason
 
-{report.get('reason', '')}
+{meta.get('reason', '')}
 
 ## Reference
 
-{report.get('reference', '') or 'No external reference provided.'}
+{meta.get('reference', '') or 'No external reference provided.'}{closes}
 """
 
 
 def reported_entry_from_metadata(
     existing: dict[str, Any],
     meta: dict[str, Any],
-    *,
-    source_pr: str | None = None,
 ) -> dict[str, Any]:
     """Apply an approved report to the latest indexed entry."""
     entry = dict(existing)
-    current_report = entry_problem_report(entry)
-    state = report_state(str(meta.get("report_type") or current_report.get("type") or ""))
+    state = report_state(str(meta.get("report_type") or entry.get("status") or ""))
     if meta.get("game_name"):
         entry["game_name"] = str(meta["game_name"])
     if meta.get("store_url"):
         entry["store_url"] = str(meta["store_url"])
-    reference = str(meta.get("reference") or current_report.get("reference") or "")
-    if reference == "No external reference provided.":
-        reference = ""
     entry["status"] = state
-    entry["report"] = {
-        "type": state,
-        "reported_at": str(meta.get("reported_at") or current_report.get("reported_at") or now_utc()),
-        "source_issue": str(meta.get("source_issue") or current_report.get("source_issue") or ""),
-        "source_pr": source_pr,
-        "reporter_id": str(meta.get("reporter") or current_report.get("reporter_id") or ""),
-        "reason": str(meta.get("reason") or current_report.get("reason") or ""),
-        "reference": reference,
-    }
+    entry.pop("report", None)
     entry.pop("outdated", None)
+    entry.pop("source_issue", None)
+    entry.pop("source_pr", None)
     return entry
 
 

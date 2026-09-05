@@ -240,6 +240,9 @@ def _remove_obsolete_variant_files(existing_records: list[dict[str, Any]], keep_
             raise ValueError(f"版本文件不在 files/{game_id}/ 范围内：{schema_file}") from exc
         if path.is_file():
             path.unlink()
+        catalog_path = path.with_name("achievements.md")
+        if catalog_path.is_file():
+            catalog_path.unlink()
         parent = path.parent
         while parent != game_root and parent.is_relative_to(game_root):
             try:

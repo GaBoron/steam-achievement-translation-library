@@ -163,11 +163,7 @@ jobs:
           reviewers: GaBoron
           add-paths: |
             files/**
-            .github/translation-reports/**
-            index.json
             index-v2.json
-            INDEX.md
-            INDEX_EN.md
 
       - name: Close and lock source issue
         if: ${{ steps.validate.outcome == 'success' }}
@@ -302,29 +298,6 @@ jobs:
           echo "Timed out waiting for PR #$PR_NUMBER to merge."
           exit 1
 
-      - name: Generate short-lived finalizer token
-        id: finalizer-token
-        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
-        with:
-          app-id: ${{ secrets.SATL_PR_BOT_APP_ID }}
-          private-key: ${{ secrets.SATL_PR_BOT_PRIVATE_KEY }}
-          owner: ${{ github.repository_owner }}
-          repositories: steam-achievement-translation-library
-
-      - name: Checkout main for finalization
-        uses: actions/checkout@v6
-        with:
-          ref: main
-          fetch-depth: 0
-          token: ${{ steps.finalizer-token.outputs.token }}
-
-      - name: Finalize merged PR
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-        run: python workflow-scripts/translation_pr_maintenance.py --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --finalize-pr "$PR_NUMBER"
-
   pr-comment-maintenance:
     if: ${{ github.event_name == 'issue_comment' && github.event.issue.pull_request }}
     runs-on: ubuntu-latest
@@ -387,7 +360,7 @@ jobs:
           print(f"review-required={str(bool(result.get('review_required'))).lower()}")
           PY
 
-  record-source-pr:
+  refresh-catalog-after-merge:
     if: ${{ github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main' && startsWith(github.event.pull_request.head.ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
     runs-on: ubuntu-latest
     concurrency:
@@ -415,8 +388,8 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Record source PR in index
+      - name: Refresh all Catalog V2 derivatives
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python workflow-scripts/translation_pr_maintenance.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --mark-source-pr --lock-merged-pr
+        run: python workflow-scripts/translation_pr_maintenance.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --refresh-merged-pr --lock-merged-pr

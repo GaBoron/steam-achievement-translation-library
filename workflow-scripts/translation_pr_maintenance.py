@@ -13,6 +13,9 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+import catalog_v2
+from catalog_refresh import refresh_catalog
+
 from pr_comment_workflow import (
     apply_pr_update,
     clear_wait_for_update_from_comment,
@@ -103,7 +106,6 @@ from library_submission_bot import (
     LANGUAGE_RE,
     achievement_rows,
     build_submission_pr_body,
-    entry_problem_report,
     entry_file_size_label,
     entry_schema_variants,
     escape_table,
@@ -116,7 +118,6 @@ from library_submission_bot import (
     now_utc,
     parse_issue_form,
     parse_schema_variants_marker,
-    pending_report_relative_path,
     repository_path,
     require_language_coverage,
     report_state,
@@ -133,7 +134,6 @@ from library_submission_bot import (
     variant_achievement_rows,
     write_human_index,
     write_index,
-    write_pending_report,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -175,7 +175,7 @@ UPDATE_COMMANDS_BY_KIND = {
 }
 
 
-def mark_source_pr(event: dict[str, Any], repo: str, token: str) -> bool:
+def refresh_merged_pr_catalog(event: dict[str, Any], repo: str, token: str) -> bool:
     pr = event.get("pull_request") or {}
     body = str(pr.get("body") or "")
     game_id = body_field(body, "Steam app ID")
@@ -185,24 +185,16 @@ def mark_source_pr(event: dict[str, Any], repo: str, token: str) -> bool:
     index = load_index()
     entry = next((item for item in index.get("entries", []) if str(item.get("game_id")) == game_id), None)
 
-    pr_url = str(pr.get("html_url") or "")
     merged_at = str(pr.get("merged_at") or "")
     changed = False
-    pending_report_path: Path | None = None
 
     if pr_kind(pr) == "outdated":
         if not entry:
             return False
         meta = parse_pr_metadata(pr)
-        updated_entry = reported_entry_from_metadata(entry, meta, source_pr=pr_url or None)
+        updated_entry = reported_entry_from_metadata(entry, meta)
         changed = updated_entry != entry
         entry = updated_entry
-        issue_number = source_issue_number(pr)
-        if issue_number:
-            pending_report_path = ROOT / pending_report_relative_path(issue_number)
-            if pending_report_path.is_file():
-                pending_report_path.unlink()
-                changed = True
     else:
         meta = parse_pr_metadata(pr)
         entry = entry_from_metadata(meta)
@@ -245,26 +237,34 @@ def mark_source_pr(event: dict[str, Any], repo: str, token: str) -> bool:
         if str(entry.get("sha256") or "") != primary_digest:
             raise RuntimeError("merged PR primary schema SHA-256 does not match top-level metadata")
         entry["achievement_count"] = len(primary_rows)
-        if pr_url and entry.get("source_pr") != pr_url:
-            entry["source_pr"] = pr_url
-            changed = True
-        if merged_at and entry.get("updated_at") != merged_at:
-            entry["updated_at"] = merged_at
-            changed = True
         changed = True
+
+    if merged_at and entry.get("updated_at") != merged_at:
+        entry["updated_at"] = merged_at
+        changed = True
+    entry.pop("source_issue", None)
+    entry.pop("source_pr", None)
+    entry.pop("report", None)
 
     if not changed:
         return False
     upsert_index_entry(entry)
+    refresh_catalog(catalog_v2.load_catalog(root=ROOT), root=ROOT)
+    run([sys.executable, "workflow-scripts/check_repository.py"])
     run(["git", "config", "user.name", "github-actions[bot]"])
     run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"])
-    add_paths = ["files", "index.json", "index-v2.json", "INDEX.md", "INDEX_EN.md"]
-    if pending_report_path is not None:
-        add_paths.append(pending_report_path.relative_to(ROOT).as_posix())
+    add_paths = [
+        "files",
+        "index.json",
+        "index-v2.json",
+        "INDEX.md",
+        "INDEX_EN.md",
+        "docs/statistics/library-statistics.svg",
+    ]
     run(["git", "add", "-A", "--", *add_paths])
     if run(["git", "diff", "--cached", "--quiet"], check=False).returncode == 0:
         return False
-    run(["git", "commit", "-m", f"data: record source PR for translation entry #{int(pr.get('number') or 0)}"])
+    run(["git", "commit", "-m", "chore: refresh catalog metadata"])
     push_main_with_retry()
     return True
 
@@ -276,7 +276,7 @@ def finalize_pr_number(repo: str, token: str, pr_number: int) -> None:
     if not pr.get("merged"):
         raise RuntimeError(f"Pull request #{pr_number} is not merged.")
     event = {"pull_request": pr}
-    mark_source_pr(event, repo, token)
+    refresh_merged_pr_catalog(event, repo, token)
     finalize_merged_pr(event, repo, token)
 
 
@@ -306,7 +306,7 @@ def main() -> None:
     parser.add_argument("--event", type=Path, help="GitHub event JSON path")
     parser.add_argument("--repo", default="", help="owner/repo")
     parser.add_argument("--token", default="", help="GitHub token")
-    parser.add_argument("--mark-source-pr", action="store_true")
+    parser.add_argument("--refresh-merged-pr", action="store_true")
     parser.add_argument("--lock-merged-pr", action="store_true")
     parser.add_argument("--mark-wait-for-update", action="store_true")
     parser.add_argument("--handle-comment", action="store_true")
@@ -323,10 +323,10 @@ def main() -> None:
         if not args.repo or not args.token:
             raise SystemExit("--repo and --token are required")
         finalize_head_branch(args.repo, args.token, args.finalize_head_branch)
-    if args.mark_source_pr:
+    if args.refresh_merged_pr:
         if not args.repo or not args.token:
             raise SystemExit("--repo and --token are required")
-        mark_source_pr(event, args.repo, args.token)
+        refresh_merged_pr_catalog(event, args.repo, args.token)
     if args.lock_merged_pr:
         if not args.repo or not args.token:
             raise SystemExit("--repo and --token are required")

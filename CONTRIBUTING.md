@@ -99,9 +99,9 @@ UserGameStatsSchema_123456.zip
 
 ## ✅ 自动检查
 
-机器人会根据 app ID 生成商店链接，并检查 ZIP 安全与大小、Binary KeyValues 解析及字节级 roundtrip、成就 ID 唯一性、自动识别的语言覆盖和更新差异。请只提交你有权分享的翻译成果。
+机器人会根据 app ID 生成商店链接，并检查 ZIP 安全与大小、Binary KeyValues 解析及字节级 roundtrip、成就 ID 唯一性、自动识别的语言覆盖、生成的 `achievements.md` 与更新差异。请只提交你有权分享的翻译成果。
 
-修改工作流、脚本、manifest、派生索引或 `files/` 数据时，请在仓库根目录运行：
+修改工作流、脚本、Catalog、派生索引或 `files/` 数据时，请在仓库根目录运行：
 
 ```bash
 python -m compileall -q workflow-scripts

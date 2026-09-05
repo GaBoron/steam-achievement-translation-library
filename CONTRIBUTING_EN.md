@@ -99,9 +99,9 @@ UserGameStatsSchema_123456.zip
 
 ## ✅ Automated Checks
 
-Automation derives the store URL from the app ID and checks ZIP safety and size, Binary KeyValues parsing and byte-identical roundtrip, unique achievement IDs, automatically detected language coverage, and update differences. Submit only translations you are allowed to share.
+Automation derives the store URL from the app ID and checks ZIP safety and size, Binary KeyValues parsing and byte-identical roundtrip, unique achievement IDs, automatically detected language coverage, generated `achievements.md` files, and update differences. Submit only translations you are allowed to share.
 
-For workflow, script, manifest, generated index, or `files/` changes, run from the repository root:
+For workflow, script, catalog, generated index, or `files/` changes, run from the repository root:
 
 ```bash
 python -m compileall -q workflow-scripts

@@ -4,11 +4,11 @@ from __future__ import annotations
 import base64
 import json
 import re
+from pathlib import PurePosixPath
 from typing import Any
 
 from library_index import (
     entry_contributors,
-    entry_file_size_label,
     escape_table,
     repository_path,
     schema_file_size_label,
@@ -93,20 +93,6 @@ def markdown_changed_details(values: list[Any], empty_text: str = "None") -> str
     return "\n".join(lines) if rendered else f"- {empty_text}"
 
 
-def build_review_table(rows: list[dict[str, str]], languages: list[str]) -> str:
-    header = ["Achievement ID"]
-    for language in languages:
-        header.extend([f"{language} name", f"{language} description"])
-    lines = ["| " + " | ".join(header) + " |", "| " + " | ".join(["---"] * len(header)) + " |"]
-    for row in rows:
-        cells = [escape_table(row.get("api_name", ""))]
-        for language in languages:
-            cells.append(escape_table(row.get(f"{language}_name", "")))
-            cells.append(escape_table(row.get(f"{language}_description", "")))
-        lines.append("| " + " | ".join(cells) + " |")
-    return "\n".join(lines)
-
-
 def schema_variants_marker(schema_files: list[dict[str, Any]]) -> str:
     payload = json.dumps(schema_files, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
     encoded = base64.urlsafe_b64encode(payload).decode("ascii")
@@ -128,23 +114,21 @@ def parse_schema_variants_marker(body: str) -> list[dict[str, Any]] | None:
 
 
 def build_schema_variants_section(entry: dict[str, Any]) -> str:
-    raw_variants = entry.get("schema_files")
-    if not isinstance(raw_variants, list) or not raw_variants:
-        return ""
     variants = validated_entry_schema_variants(entry, require_metadata=True)
     lines = [
         "## Schema Variants",
         "",
-        "| Variant ID | Role | Chinese note | English note | Achievements | Size | SHA-256 | File |",
-        "| --- | --- | --- | --- | ---: | ---: | --- | --- |",
+        "| Variant | Languages | Achievements | Size | SHA-256 | Files |",
+        "| --- | --- | ---: | ---: | --- | --- |",
     ]
     for variant in variants:
-        role = "Primary" if variant.get("primary") else "Variant"
         size = schema_file_size_label(int(variant.get("file_size_bytes") or 0))
+        schema_file = str(variant.get("schema_file") or "")
+        catalog_file = str(PurePosixPath(schema_file).with_name("achievements.md"))
         lines.append(
-            f"| `{variant.get('variant_id', '')}` | {role} | {escape_table(str(variant.get('note_zh') or ''))} | "
-            f"{escape_table(str(variant.get('note_en') or ''))} | {variant.get('achievement_count', '')} | {size} | "
-            f"`{variant.get('sha256', '')}` | `{variant.get('schema_file', '')}` |"
+            f"| `{variant.get('variant_id', '')}` | {escape_table(', '.join(variant.get('languages') or []))} | "
+            f"{variant.get('achievement_count', '')} | {size} | `{variant.get('sha256', '')}` | "
+            f"[bin]({schema_file}) · [achievements]({catalog_file}) |"
         )
     lines.extend(["", schema_variants_marker(variants)])
     return "\n".join(lines)
@@ -166,19 +150,6 @@ def variant_achievement_rows(
     return rows_by_variant
 
 
-def build_achievement_text_sections(
-    rows: list[dict[str, str]],
-    languages: list[str],
-    review_variant_id: str,
-    rows_by_variant: dict[str, list[dict[str, str]]] | None = None,
-) -> str:
-    variants = rows_by_variant or {review_variant_id: rows}
-    return "\n\n".join(
-        f"## Achievement Text (`{variant_id}`)\n\n{build_review_table(variant_rows, languages)}"
-        for variant_id, variant_rows in variants.items()
-    )
-
-
 def build_submission_pr_body(
     *,
     kind: str,
@@ -196,9 +167,8 @@ def build_submission_pr_body(
     variant_changes: dict[str, list[str]] | None = None,
     rows_by_variant: dict[str, list[dict[str, str]]] | None = None,
 ) -> str:
+    del coverage, rows, rows_by_variant
     title = "Translation Library Update" if kind == "update" else "Translation Library Submission"
-    coverage_lines = "\n".join(f"- `{language}`: {count}/{len(rows)} achievements" for language, count in coverage.items())
-    file_size = entry_file_size_label(entry)
     variants_section = build_schema_variants_section(entry)
     notes_section = ""
     if contributor_notes:
@@ -212,7 +182,7 @@ def build_submission_pr_body(
         variant_changes = variant_changes or {"added": [], "removed": [], "changed": [review_variant_id]}
         update_diff = update_diff or {"added": [], "deleted": [], "changed": []}
         update_section = f"""
-## Update Check
+## Update Summary
 
 - Contributor summary: {escape_table(update_summary)}
 - Reviewed variant: `{review_variant_id}`
@@ -237,34 +207,24 @@ def build_submission_pr_body(
 
 {markdown_changed_details(update_diff['changed'])}
 """
-    achievement_sections = build_achievement_text_sections(
-        rows,
-        languages,
-        review_variant_id,
-        rows_by_variant,
-    )
+    issue_match = re.search(r"(?:/issues/|#)(\d+)(?:[/?#]|$)", issue_url)
+    closes = f"\n\nCloses #{issue_match.group(1)}" if issue_match else ""
+    game_link = f"[{entry['game_name']}]({steam_store_url(str(entry['game_id']))})"
     return f"""## {title}
 
-- Game name: {entry['game_name']}
+- Game: {game_link}
 - Steam app ID: `{entry['game_id']}`
-- Steam store URL: {entry['store_url']}
 - Contributors: {', '.join('@' + contributor for contributor in entry_contributors(entry)) or 'unknown'}
-- Source issue: {issue_url}
-- Supported languages: {', '.join(languages)}
-- Achievement count: {entry['achievement_count']}
-- Schema file: `{entry['schema_file']}`
-- File size: {file_size}
-- SHA-256: `{entry['sha256']}`
-- Submitted at: {entry.get('submitted_at', '')}
-- Updated at: {entry.get('updated_at', '')}
+- Variants: {len(validated_entry_schema_variants(entry))}
+- Languages: {', '.join(f'`{language}`' for language in languages)}
+- Achievements: {entry['achievement_count']}
 
 {variants_section}
 {notes_section}
-
-## Language Coverage
-
-{coverage_lines}
 {update_section}
 
-{achievement_sections}
+## Review
+
+The human-readable achievement catalog is generated from each submitted BIN file.
+Review the corresponding `achievements.md` file for names and descriptions.{closes}
 """

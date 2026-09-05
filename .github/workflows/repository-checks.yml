@@ -3,8 +3,6 @@ name: Repository checks
 on:
   pull_request:
     branches: [main]
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -20,48 +18,17 @@ jobs:
     timeout-minutes: 10
     env:
       ALLOW_UNINDEXED_SCHEMA_FILES: ${{ github.event_name == 'pull_request' && startsWith(github.head_ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
-      ALLOW_STALE_HUMAN_INDEXES: ${{ github.event_name == 'pull_request' && startsWith(github.head_ref, 'translation-library/report-') && github.event.pull_request.head.repo.full_name == github.repository }}
+      ALLOW_STALE_DERIVED_ARTIFACTS: ${{ github.event_name == 'pull_request' && startsWith(github.head_ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
     steps:
-      - name: Generate index maintenance token
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
-        id: index-maintenance-token
-        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
-        with:
-          app-id: ${{ secrets.SATL_PR_BOT_APP_ID }}
-          private-key: ${{ secrets.SATL_PR_BOT_PRIVATE_KEY }}
-          owner: ${{ github.repository_owner }}
-          repositories: steam-achievement-translation-library
-
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
-          fetch-depth: 0
-          persist-credentials: ${{ github.event_name == 'push' }}
-          token: ${{ steps.index-maintenance-token.outputs.token || github.token }}
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.13"
-
-      - name: Detect authoritative manifest changes
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
-        id: manifest-change
-        env:
-          BEFORE_SHA: ${{ github.event.before }}
-          AFTER_SHA: ${{ github.sha }}
-        run: |
-          if git diff --quiet "$BEFORE_SHA" "$AFTER_SHA" -- ':(glob)files/*/manifest.json'; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Synchronize manifest-derived files
-        if: ${{ steps.manifest-change.outputs.changed == 'true' }}
-        env:
-          BEFORE_SHA: ${{ github.event.before }}
-        run: python workflow-scripts/index_maintenance.py --previous-ref "$BEFORE_SHA"
 
       - name: Compile workflow scripts
         run: python -m compileall -q workflow-scripts
@@ -72,20 +39,7 @@ jobs:
           if [ "$ALLOW_UNINDEXED_SCHEMA_FILES" = "true" ]; then
             args+=(--allow-unindexed-schema-files --allow-stale-index-metadata)
           fi
-          if [ "$ALLOW_STALE_HUMAN_INDEXES" = "true" ]; then
-            args+=(--allow-stale-human-indexes)
+          if [ "$ALLOW_STALE_DERIVED_ARTIFACTS" = "true" ]; then
+            args+=(--allow-stale-derived-artifacts)
           fi
           python workflow-scripts/check_repository.py "${args[@]}"
-
-      - name: Commit synchronized manifest artifacts
-        if: ${{ steps.manifest-change.outputs.changed == 'true' }}
-        run: |
-          git add -A -- index.json index-v2.json INDEX.md INDEX_EN.md files
-          if git diff --cached --quiet; then
-            echo "Index-derived files are already synchronized."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "data: synchronize manifest artifacts"
-          git push origin HEAD:main

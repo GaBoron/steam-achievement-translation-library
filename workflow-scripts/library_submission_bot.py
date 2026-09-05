@@ -26,8 +26,6 @@ from submission_validation import (
 )
 
 from submission_presentation import (
-    build_achievement_text_sections,
-    build_review_table,
     build_schema_variants_section,
     build_submission_pr_body,
     issue_author,
@@ -59,7 +57,6 @@ from library_index import (
     entry_contributors,
     entry_file_size_bytes,
     entry_file_size_label,
-    entry_problem_report,
     entry_schema_variants,
     entry_sort_key,
     escape_table,
@@ -71,7 +68,6 @@ from library_index import (
     load_index,
     normalized_schema_file,
     note_text,
-    pending_report_relative_path,
     pinyin_sort_key,
     pull_request_label,
     refresh_index_file_sizes,
@@ -86,11 +82,11 @@ from library_index import (
     sort_entries,
     status_text,
     upsert_index_entry,
+    upsert_catalog_entry,
     validated_entry_schema_variants,
     variant_file_size_bytes,
     write_human_index,
     write_index,
-    write_pending_report,
 )
 
 from submission_inputs import (
@@ -130,13 +126,13 @@ from steam_schema import (
     validate_schema_structure,
     walk,
 )
+from achievement_catalog import write_entry_achievement_catalogs
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 INDEX_PATH = REPO_ROOT / "index.json"
 HUMAN_INDEX_PATH = REPO_ROOT / "INDEX.md"
 HUMAN_INDEX_EN_PATH = REPO_ROOT / "INDEX_EN.md"
 FILES_ROOT = REPO_ROOT / "files"
-PENDING_REPORTS_DIR = Path(".github") / "translation-reports"
 
 NEW_LABEL = "翻译投稿"
 UPDATE_LABEL = "更新文件"
@@ -326,6 +322,7 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
         timestamp=timestamp,
         schema_files=schema_files if keep_schema_files else None,
     )
+    write_entry_achievement_catalogs(entry)
     rows_by_variant = variant_achievement_rows(entry, languages)
     issue_number = int(issue["number"])
     branch_prefix = "translation-library/update" if kind == "update" else "translation-library/issue"
@@ -393,18 +390,13 @@ def validate_outdated_report(event: dict[str, Any]) -> dict[str, Any]:
     entry["game_name"] = game_name or existing.get("game_name", "")
     entry["store_url"] = store_url or existing.get("store_url", "")
     entry["status"] = state
-    entry["report"] = {
-        "type": state,
-        "reported_at": timestamp,
-        "source_issue": issue.get("html_url", ""),
-        "source_pr": None,
-        "reporter_id": issue_author(issue),
-        "reason": reason,
-        "reference": source,
-    }
     issue_number = int(issue["number"])
     entry.pop("outdated", None)
-    report_path = write_pending_report(entry, issue_number)
+    entry.pop("report", None)
+    entry.pop("source_issue", None)
+    entry.pop("source_pr", None)
+    entry["updated_at"] = timestamp
+    upsert_catalog_entry(entry)
     result = {
         "ok": True,
         "kind": "outdated",
@@ -415,21 +407,18 @@ def validate_outdated_report(event: dict[str, Any]) -> dict[str, Any]:
         "game_id": game_id,
         "game_name": entry["game_name"],
         "report_state": state,
-        "report_path": report_path,
     }
     Path("submission_result.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     Path("pr_title.txt").write_text(result["pr_title"] + "\n", encoding="utf-8")
     Path("pr_body.md").write_text(
         f"""## Achievement Translation Error Report
 
-- Game name: {entry['game_name']}
+- Game: [{entry['game_name']}](https://store.steampowered.com/app/{game_id}/)
 - Steam app ID: `{game_id}`
-- Steam store URL: {entry.get('store_url', '')}
 - Current schema file: `{entry.get('schema_file', '')}`
 - Current file size: {entry_file_size_label(entry)}
 - Current SHA-256: `{entry.get('sha256', '')}`
 - Last library update: {entry.get('updated_at', '')}
-- Source issue: {issue.get('html_url', '')}
 - Reporter: @{issue_author(issue)}
 - Reported at: {timestamp}
 - Report type: `{state}`
@@ -441,6 +430,8 @@ def validate_outdated_report(event: dict[str, Any]) -> dict[str, Any]:
 ## Reference
 
 {source or 'No external reference provided.'}
+
+Closes #{issue_number}
 """,
         encoding="utf-8",
     )

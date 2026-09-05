@@ -29,10 +29,10 @@
 
 仓库端 Catalog V2 已上线，目前处于 V1/V2 并行迁移阶段：
 
-- 每个游戏目录中的 `files/<app_id>/manifest.json` 是完整元数据的权威来源；各版本文件使用 `files/<app_id>/<variant_id>/UserGameStatsSchema_<app_id>.bin` 固定路径。
-- `index-v2.json` 是面向客户端的精简 V2 运行时索引。
+- `index-v2.json` 是游戏级权威索引，也是面向 SATLI 的公开 Catalog V2 接口；可从 BIN 推导的哈希、大小、语言和成就数均由自动化计算。
+- 各版本固定使用 `files/<app_id>/<variant_id>/UserGameStatsSchema_<app_id>.bin`，并由对应 BIN 自动生成同目录下的 `achievements.md`，方便直接在 GitHub 浏览成就文本。
 - V1 `index.json` 和 `files/<app_id>/UserGameStatsSchema_<app_id>.bin` 默认文件旧路径继续生成，供仅支持 V1 的 SATLI 版本使用。
-- 迁移期间，新投稿和更新只需提交一次；自动化会同时生成 V2 权威数据与 V1 兼容数据。
+- 迁移期间，新投稿和更新只需提交一次；合并后自动化会在一次刷新中生成 Catalog V2、人类可读索引、统计图和 V1 兼容数据。
 
 > [!IMPORTANT]
 > **迁移截止时间为 2026 年 12 月 31 日 23:59（UTC+8）。** 自 2027 年 1 月 1 日起，本仓库不再保证继续提供 V1 `index.json` 和默认文件旧路径；仍使用 V1 的客户端须在截止前升级。客户端适配进度见 [SATLI #14](https://github.com/GaBoron/SATLI/issues/14)。
@@ -41,7 +41,7 @@
 
 | 项目 | 职责 |
 | --- | --- |
-| **本仓库** | 保存社区译本、索引和投稿记录 |
+| **本仓库** | 保存社区译本、Catalog 和人类可读成就目录 |
 | [Steam 成就翻译管理器](https://github.com/GaBoron/steam-achievement-translation-installer) | 使用本仓库数据完成扫描、预览、安装、编辑、备份与恢复，并可导出投稿 ZIP |
 | [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill) | 查询本仓库参考译本，通过 Codex 研究和制作翻译，输出可由管理器导入或向本仓库投稿的 BIN/ZIP |
 

@@ -29,10 +29,10 @@ For direct downloads, make sure the file name and app ID match. Use [Steam Achie
 
 Catalog V2 is live in this repository, which is currently in a parallel V1/V2 migration period:
 
-- `files/<app_id>/manifest.json` in each game directory is the authoritative source for complete metadata. Variant files use the fixed path `files/<app_id>/<variant_id>/UserGameStatsSchema_<app_id>.bin`.
-- `index-v2.json` is the compact V2 runtime catalog for clients.
+- `index-v2.json` is the authoritative game-level index and the public Catalog V2 interface used by SATLI. Automation derives hashes, sizes, languages, and achievement counts from the BIN files.
+- Each variant uses `files/<app_id>/<variant_id>/UserGameStatsSchema_<app_id>.bin`. Automation generates an `achievements.md` beside each BIN so its achievement text can be reviewed directly on GitHub.
 - The V1 `index.json` and legacy default path `files/<app_id>/UserGameStatsSchema_<app_id>.bin` continue to be generated for SATLI versions that only support V1.
-- During the migration, each new submission or update is submitted once; automation generates both the authoritative V2 data and V1 compatibility data.
+- During the migration, each new submission or update is submitted once. After merge, one refresh generates Catalog V2, the human-readable indexes, statistics, and V1 compatibility data.
 
 > [!IMPORTANT]
 > **The migration deadline is December 31, 2026, at 23:59 (UTC+8).** Starting January 1, 2027, this repository will no longer guarantee the V1 `index.json` or legacy default file paths. Clients still using V1 must upgrade before the deadline. Client migration progress is tracked in [SATLI #14](https://github.com/GaBoron/SATLI/issues/14).
@@ -41,7 +41,7 @@ Catalog V2 is live in this repository, which is currently in a parallel V1/V2 mi
 
 | Project | Role |
 | --- | --- |
-| **This repository** | Stores community translations, the index, and submission records |
+| **This repository** | Stores community translations, the catalog, and human-readable achievement catalogs |
 | [Steam Achievement Translation Manager](https://github.com/GaBoron/steam-achievement-translation-installer) | Uses this library to scan, preview, install, edit, back up, and restore files; it can also export submission-ready ZIP files |
 | [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill) | Looks up reference files in this library, researches and produces translations with Codex, and outputs BIN/ZIP files for the manager or this repository |
 

@@ -9,7 +9,7 @@ import urllib.parse
 from pathlib import Path, PurePosixPath
 from typing import Any
 
-import library_manifest
+import catalog_v2
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -18,7 +18,6 @@ RUNTIME_INDEX_PATH = REPO_ROOT / "index-v2.json"
 HUMAN_INDEX_PATH = REPO_ROOT / "INDEX.md"
 HUMAN_INDEX_EN_PATH = REPO_ROOT / "INDEX_EN.md"
 FILES_ROOT = REPO_ROOT / "files"
-PENDING_REPORTS_DIR = Path(".github") / "translation-reports"
 STATE_RE = re.compile(r"^[a-z][a-z0-9_]{1,31}$")
 VARIANT_ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]{0,63}$")
 LANGUAGE_RE = re.compile(r"^[a-z][a-z0-9_]{1,31}$")
@@ -46,14 +45,10 @@ def clean_variant_note(value: Any, field_name: str) -> str:
 
 
 def load_index() -> dict[str, Any]:
-    if library_manifest.has_manifests(root=REPO_ROOT):
-        manifests = library_manifest.load_manifests(root=REPO_ROOT)
-        index = library_manifest.legacy_index_from_manifests(manifests)
-        index["entries"] = sort_entries(index["entries"])
-        return index
-    if not INDEX_PATH.exists():
-        return {"version": 1, "description": "Community-submitted Steam achievement schema translations.", "entries": []}
-    return json.loads(INDEX_PATH.read_text(encoding="utf-8"))
+    catalog = catalog_v2.load_catalog(root=REPO_ROOT)
+    index = catalog_v2.legacy_index_from_catalog(catalog)
+    index["entries"] = sort_entries(index["entries"])
+    return index
 
 
 def pinyin_sort_key(value: str) -> tuple[bytes, str]:
@@ -113,7 +108,7 @@ def schema_file_size_label(size_bytes: int) -> str:
 
 def schema_variant_relative_path(game_id: str, variant_id: str, primary: bool) -> str:
     del primary  # Kept for compatibility with existing workflow call sites.
-    return library_manifest.schema_relative_path(game_id, variant_id)
+    return catalog_v2.schema_relative_path(game_id, variant_id)
 
 
 def entry_schema_variants(entry: dict[str, Any]) -> list[dict[str, Any]]:
@@ -220,8 +215,9 @@ def write_index(index: dict[str, Any]) -> None:
     index.setdefault("description", "Community-submitted Steam achievement schema translations.")
     refresh_index_file_sizes(index)
     index["entries"] = sort_entries(index.get("entries", []))
-    manifests = library_manifest.write_manifests_from_legacy_index(index, root=REPO_ROOT)
-    library_manifest.write_catalogs(manifests, root=REPO_ROOT)
+    catalog = catalog_v2.catalog_from_legacy_index(index)
+    catalog_v2.write_catalog(catalog, root=REPO_ROOT)
+    catalog_v2.write_legacy_index(catalog, root=REPO_ROOT)
 
 
 def existing_entry(index: dict[str, Any], game_id: str) -> dict[str, Any] | None:
@@ -243,27 +239,17 @@ def upsert_index_entry(entry: dict[str, Any]) -> None:
     write_human_index(index)
 
 
-def pending_report_relative_path(issue_number: int) -> Path:
-    if issue_number < 1:
-        raise ValueError("source issue number must be positive")
-    return PENDING_REPORTS_DIR / f"{issue_number}.json"
-
-
-def write_pending_report(entry: dict[str, Any], issue_number: int) -> str:
-    """Write the review artifact without changing the live library index."""
-    relative_path = pending_report_relative_path(issue_number)
-    path = REPO_ROOT / relative_path
-    report = entry_problem_report(entry)
-    payload = {
-        "format_version": "1.0.0",
-        "game_id": str(entry.get("game_id") or ""),
-        "game_name": str(entry.get("game_name") or ""),
-        "store_url": str(entry.get("store_url") or ""),
-        "report": report,
-    }
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    return relative_path.as_posix()
+def upsert_catalog_entry(entry: dict[str, Any]) -> None:
+    """Update only the authoritative catalog for an in-flight business PR."""
+    index = load_index()
+    game_id = str(entry.get("game_id") or "")
+    existing = existing_entry(index, game_id)
+    if existing and "schema_files" in existing and "schema_files" not in entry:
+        entry = dict(entry)
+        entry["schema_files"] = existing["schema_files"]
+    index["entries"] = [item for item in index.get("entries", []) if str(item.get("game_id")) != game_id] + [entry]
+    index["entries"] = sort_entries(index["entries"])
+    catalog_v2.write_catalog(catalog_v2.catalog_from_legacy_index(index), root=REPO_ROOT)
 
 
 def escape_table(value: str) -> str:
@@ -360,6 +346,48 @@ def schema_file_links(entry: dict[str, Any], language: str) -> str:
     return file_link_with_details(schema_file, size_bytes, language)
 
 
+def _variant_note(variant: dict[str, Any], language: str) -> str:
+    return note_text(str(variant.get(f"note_{language}") or variant.get("note") or ""), language)
+
+
+def variant_languages_text(entry: dict[str, Any], language: str) -> str:
+    variants = entry_schema_variants(entry)
+    if len(variants) == 1:
+        return escape_table(", ".join(str(value) for value in variants[0].get("languages") or entry.get("languages", [])))
+    lines = []
+    for variant in variants:
+        note = _variant_note(variant, language) or str(variant.get("variant_id") or "")
+        values = ", ".join(str(value) for value in variant.get("languages") or entry.get("languages", []))
+        lines.append(f"{escape_table(note)}: {escape_table(values)}")
+    return "<br>".join(lines)
+
+
+def variant_achievement_counts(entry: dict[str, Any], language: str) -> str:
+    variants = entry_schema_variants(entry)
+    if len(variants) == 1:
+        return str(variants[0].get("achievement_count") or entry.get("achievement_count") or "")
+    lines = []
+    for variant in variants:
+        note = _variant_note(variant, language) or str(variant.get("variant_id") or "")
+        lines.append(f"{escape_table(note)}: {variant.get('achievement_count', '')}")
+    return "<br>".join(lines)
+
+
+def achievement_catalog_links(entry: dict[str, Any], language: str) -> str:
+    game_id = str(entry.get("game_id") or "")
+    variants = entry_schema_variants(entry)
+    links: list[str] = []
+    for variant in variants:
+        variant_id = str(variant.get("variant_id") or "default")
+        note = _variant_note(variant, language)
+        label = note or ("成就目录" if language == "zh" else "Achievement catalog")
+        if len(variants) > 1 and not note:
+            label = variant_id
+        path = f"files/{game_id}/{variant_id}/achievements.md"
+        links.append(f"[{escape_table(label)}]({path})")
+    return "<br>".join(links)
+
+
 def github_link(url: str, label: str) -> str:
     return f"[{label}]({url})" if url else ""
 
@@ -402,18 +430,6 @@ def report_state(value: str) -> str:
     return state
 
 
-def entry_problem_report(entry: dict[str, Any]) -> dict[str, Any]:
-    report = entry.get("report")
-    if isinstance(report, dict):
-        return dict(report)
-    outdated = entry.get("outdated")
-    if isinstance(outdated, dict):
-        legacy = dict(outdated)
-        legacy.setdefault("type", "outdated")
-        return legacy
-    return {}
-
-
 def index_states(index: dict[str, Any]) -> dict[str, dict[str, str]]:
     raw_states = index.get("states")
     if not isinstance(raw_states, dict) or not raw_states:
@@ -438,7 +454,7 @@ def index_states(index: dict[str, Any]) -> dict[str, dict[str, str]]:
 
 
 def status_text(entry: dict[str, Any], language: str, states: dict[str, dict[str, str]]) -> str:
-    state_id = "outdated" if entry.get("outdated") and not entry.get("report") else str(entry.get("status") or "current")
+    state_id = str(entry.get("status") or "current")
     if state_id not in states:
         raise ValueError(f"unknown index state {state_id!r} for Steam app ID {entry.get('game_id', '')}")
     return states[state_id][language]
@@ -502,34 +518,31 @@ def render_human_index(index: dict[str, Any]) -> tuple[str, str]:
     ]
     if entries:
         zh_lines.extend([
-            "| Steam app ID | 游戏 | 状态 | 最近更新 | 贡献者 | 语言 | 成就数 | 文件 | 原 PR | 错误报告 | 商店 |",
-            "| --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- | --- |",
+            "| Steam app ID | 游戏 | 状态 | 最近更新 | 贡献者 | 语言 | 成就数 | 文件 | 成就目录 |",
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
         ])
         en_lines.extend([
-            "| Steam app ID | Game | Status | Last updated | Contributors | Languages | Achievements | File | Source PR | Issue report | Store |",
-            "| --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- | --- |",
+            "| Steam app ID | Game | Status | Last updated | Contributors | Languages | Achievements | File | Achievement catalog |",
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
         ])
         for entry in entries:
             game_id = str(entry.get("game_id", ""))
             schema_links_zh = schema_file_links(entry, "zh")
             schema_links_en = schema_file_links(entry, "en")
-            report = entry_problem_report(entry)
-            source_pr = str(entry.get("source_pr") or "")
-            report_link = str(report.get("source_pr") or report.get("source_issue") or "")
+            game_name = escape_table(str(entry.get("game_name", "")))
+            game_link = f"[{game_name}](https://store.steampowered.com/app/{game_id}/)"
             row = (
-                f"| `{game_id}` | {escape_table(str(entry.get('game_name', '')))} | {status_text(entry, 'zh', states)} | "
+                f"| `{game_id}` | {game_link} | {status_text(entry, 'zh', states)} | "
                 f"{escape_table(str(entry.get('updated_at') or entry.get('submitted_at') or ''))} | {contributor_markdown(entry_contributors(entry))} | "
-                f"{escape_table(', '.join(entry.get('languages', [])))} | {entry.get('achievement_count', '')} | "
-                f"{schema_links_zh} | {github_link(source_pr, pull_request_label(source_pr)) if source_pr else ''} | "
-                f"{github_link(report_link, github_item_label(report_link, '报告')) if report_link else ''} | [Steam]({entry.get('store_url', '')}) |"
+                f"{variant_languages_text(entry, 'zh')} | {variant_achievement_counts(entry, 'zh')} | "
+                f"{schema_links_zh} | {achievement_catalog_links(entry, 'zh')} |"
             )
             zh_lines.append(row)
             en_lines.append(
-                f"| `{game_id}` | {escape_table(str(entry.get('game_name', '')))} | {status_text(entry, 'en', states)} | "
+                f"| `{game_id}` | {game_link} | {status_text(entry, 'en', states)} | "
                 f"{escape_table(str(entry.get('updated_at') or entry.get('submitted_at') or ''))} | {contributor_markdown(entry_contributors(entry))} | "
-                f"{escape_table(', '.join(entry.get('languages', [])))} | {entry.get('achievement_count', '')} | "
-                f"{schema_links_en} | {github_link(source_pr, pull_request_label(source_pr)) if source_pr else ''} | "
-                f"{github_link(report_link, github_item_label(report_link, 'Report')) if report_link else ''} | [Steam]({entry.get('store_url', '')}) |"
+                f"{variant_languages_text(entry, 'en')} | {variant_achievement_counts(entry, 'en')} | "
+                f"{schema_links_en} | {achievement_catalog_links(entry, 'en')} |"
             )
     else:
         zh_lines.append("暂无已收录游戏。")
@@ -538,8 +551,6 @@ def render_human_index(index: dict[str, Any]) -> tuple[str, str]:
 
 
 def write_human_index(index: dict[str, Any]) -> None:
-    if library_manifest.has_manifests(root=REPO_ROOT):
-        index = load_index()
     zh_index, en_index = render_human_index(index)
     HUMAN_INDEX_PATH.write_text(zh_index, encoding="utf-8")
     HUMAN_INDEX_EN_PATH.write_text(en_index, encoding="utf-8")

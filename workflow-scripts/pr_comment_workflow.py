@@ -4,6 +4,8 @@ from __future__ import annotations
 import re
 from typing import Any
 
+from achievement_catalog import write_entry_achievement_catalogs
+
 from close_command import (
     close_command_error,
     close_completed_comment,
@@ -24,7 +26,6 @@ from github_repository import (
 )
 from library_index import (
     entry_file_size_label,
-    entry_problem_report,
     escape_table,
     existing_entry,
     load_index,
@@ -32,8 +33,8 @@ from library_index import (
     repository_path,
     schema_file_size_bytes,
     schema_file_size_label,
+    upsert_catalog_entry,
     validated_entry_schema_variants,
-    write_pending_report,
 )
 from legacy_pr_schema import normalize_legacy_pr_schema_paths
 from pr_git import checkout_pr_branch, commit_and_push, push_branch, rename_schema_variants, run
@@ -183,7 +184,7 @@ def force_refresh_pr(repo: str, token: str, event: dict[str, Any]) -> None:
             "`/force-refresh` 已处理完成。",
             "",
             "- 已将投稿分支变基到最新 `main`，并推送新的空提交以重新触发自动检查。",
-            "- 已根据投稿分支中的当前 schema 重新生成 PR 描述和成就审核表。",
+            "- 已根据投稿分支中的当前 schema 重新生成 PR 描述和人类可读成就目录。",
             "- 已重新请求维护者校对；通过检查和批准后，PR 会继续自动合并与入库推送流程。",
         ]),
     )
@@ -428,27 +429,27 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             if not entry:
                 raise ValueError("找不到该 PR 对应的索引条目。")
             entry = reported_entry_from_metadata(entry, meta)
-            report = entry_problem_report(entry)
             if command == "id":
                 entry["game_id"] = meta["game_id"]
             if command == "name":
                 record_change("game name", entry.get("game_name", ""), meta["game_name"])
                 entry["game_name"] = meta["game_name"]
             if command == "type":
-                previous_type = str(report.get("type") or entry.get("status") or "outdated")
+                previous_type = str(entry.get("status") or "outdated")
                 new_type = report_state(value)
                 record_change("report type", previous_type, new_type)
-                report["type"] = new_type
+                meta["report_type"] = new_type
                 entry["status"] = new_type
             if command == "reason":
-                record_change("report reason", report.get("reason", ""), value)
-                report["reason"] = value
+                record_change("report reason", meta.get("reason", ""), value)
+                meta["reason"] = value
             if command == "reference":
-                record_change("report reference", report.get("reference", ""), value)
-                report["reference"] = value
-            entry["report"] = report
+                record_change("report reference", meta.get("reference", ""), value)
+                meta["reference"] = value
             entry.pop("outdated", None)
-            report_path = write_pending_report(entry, source_issue_number(pr) or pr_number)
+            entry.pop("report", None)
+            entry["updated_at"] = now_utc()
+            upsert_catalog_entry(entry)
             pr_title = f"Report achievement translation issue for {entry['game_name']} ({entry['game_id']})"
             pr_body = build_outdated_body(entry, meta)
         else:
@@ -457,6 +458,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             entry["achievement_count"] = int(str(meta["achievement_count"]))
             rows_by_variant = variant_achievement_rows(entry, list(meta["languages"]))
             pr_title = f"{'Update' if kind == 'update' else 'Add'} achievement translations for {meta['game_name']} ({meta['game_id']})"
+            write_entry_achievement_catalogs(entry)
             pr_body = build_submission_pr_body(
                 kind=kind,
                 entry=entry,
@@ -466,7 +468,10 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
                 update_summary=str(meta.get("update_summary") or "Updated from PR comment."),
                 update_diff=update_diff,
                 previous_hash=previous_hash,
-                issue_url=str(meta.get("source_issue") or ""),
+                issue_url=(
+                    str(meta.get("source_issue") or "")
+                    or f"https://github.com/{repo}/issues/{source_issue_number(pr)}"
+                ),
                 contributor_notes=str(meta.get("contributor_notes") or ""),
                 review_variant_id=review_variant_id,
                 review_variant_hash=review_variant_hash,
@@ -477,7 +482,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
         comment_issue(repo, token, pr_number, update_error_comment(str(exc)))
         return
 
-    add_paths = [report_path] if kind == "outdated" else ["files"]
+    add_paths = ["index-v2.json"] if kind == "outdated" else ["files"]
     changed = commit_and_push(branch, f"data: apply PR update command #{pr_number}", add_paths)
     update_pr_title_and_body(repo, token, pr_number, pr_title, pr_body)
     suffix = "投稿分支和 PR 描述已更新。" if changed else "PR 描述已更新；文件内容没有产生新的提交。"
