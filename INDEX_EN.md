@@ -4,7 +4,7 @@
 
 > After downloading, compare the file size with the index. If the size is clearly wrong, do not replace your local file. Use files marked as “May not work” or “Possibly outdated” with extra care.
 
-Accepted games: **432**.
+Accepted games: **433**.
 
 Status guide: Current; May not work (the file passes repository checks, but game or platform behavior may prevent it from taking effect); Possibly outdated (a game update may have invalidated the file).
 
@@ -21,6 +21,7 @@ See [README_EN.md](README_EN.md) for the full find, download, and replacement fl
 
 | Steam app ID | Game | Status | Last updated | Contributors | Languages | Achievements | File | Source PR | Issue report | Store |
 | --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- | --- |
+| `3768760` | 007 初露锋芒 | Current | 2026-09-05T09:18:37Z | [@184353324](https://github.com/184353324) | brazilian, english, french, german, italian, japanese, koreana, polish, russian, schinese, spanish, tchinese, turkish | 37 | [UserGameStatsSchema_3768760.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/3768760/default/UserGameStatsSchema_3768760.bin) (47 KB) | [#681](https://github.com/GaBoron/steam-achievement-translation-library/pull/681) |  | [Steam](https://store.steampowered.com/app/3768760/) |
 | `2667970` | 100 Asian Cats 100只亚洲猫 | Current | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | english, schinese | 100 | [UserGameStatsSchema_2667970.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2667970/default/UserGameStatsSchema_2667970.bin) (30 KB) | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/2667970/) |
 | `1966900` | 20 Minutes Till Dawn 黎明前20分钟 | Current | 2026-07-24T12:56:33Z | [@skeyep](https://github.com/skeyep) | english, schinese | 34 | [UserGameStatsSchema_1966900.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1966900/default/UserGameStatsSchema_1966900.bin) (15 KB) | [#283](https://github.com/GaBoron/steam-achievement-translation-library/pull/283) |  | [Steam](https://store.steampowered.com/app/1966900/) |
 | `2570630` | 20 Small Mazes 20个小迷宫 | Current | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | english, schinese | 1 | [UserGameStatsSchema_2570630.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2570630/default/UserGameStatsSchema_2570630.bin) (513 B) | [#269](https://github.com/GaBoron/steam-achievement-translation-library/pull/269) |  | [Steam](https://store.steampowered.com/app/2570630/) |
