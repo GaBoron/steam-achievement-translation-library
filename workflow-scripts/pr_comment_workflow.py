@@ -55,6 +55,7 @@ from pr_metadata import (
     validate_metadata_variants,
     validate_store_url,
 )
+from pr_presentation_refresh import build_refreshed_translation_pr_presentation
 from schema_package import save_schema_package
 from steam_schema import achievement_rows, load_schema, sha256, summarize_update_diff
 from submission_inputs import extract_attachment, now_utc
@@ -150,8 +151,16 @@ def force_refresh_pr(repo: str, token: str, event: dict[str, Any]) -> None:
         return
     try:
         branch = checkout_pr_branch(pr)
+        presentation = build_refreshed_translation_pr_presentation(pr)
         run(["git", "commit", "--allow-empty", "-m", f"chore: force refresh PR #{pr_number}"])
         push_branch(branch)
+        update_pr_title_and_body(
+            repo,
+            token,
+            pr_number,
+            presentation.title,
+            presentation.body,
+        )
         github_request(
             "POST",
             repo,
@@ -174,6 +183,7 @@ def force_refresh_pr(repo: str, token: str, event: dict[str, Any]) -> None:
             "`/force-refresh` 已处理完成。",
             "",
             "- 已将投稿分支变基到最新 `main`，并推送新的空提交以重新触发自动检查。",
+            "- 已根据投稿分支中的当前 schema 重新生成 PR 描述和成就审核表。",
             "- 已重新请求维护者校对；通过检查和批准后，PR 会继续自动合并与入库推送流程。",
         ]),
     )

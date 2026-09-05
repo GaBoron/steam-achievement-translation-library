@@ -50,7 +50,7 @@ Follow the bot's comment when validation fails. While the source issue is open, 
 | `/update doc <variant_id>` plus a ZIP attachment | Replace one existing variant |
 | `/update id` or `name` plus a new value | Change the app ID or game name; changing the app ID also regenerates the store URL |
 | `/update summary <summary>` | Change the summary for an accepted-file update |
-| `/force-refresh` | Retry all checks when the content is correct but automation state is stale |
+| `/force-refresh` | Resync with the base branch, refresh current schema metadata and achievement review tables, and retry checks when automation state is stale |
 
 > [!IMPORTANT]
 > Put the command and attachment in the same comment. Only the original issue author, contributors listed in the PR, or maintainers can modify a submission. The bot's response is the source of truth for a specific error and its available commands.
