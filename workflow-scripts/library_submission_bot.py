@@ -31,8 +31,6 @@ from submission_presentation import (
     issue_author,
     issue_kind,
     issue_labels,
-    markdown_changed_details,
-    markdown_list,
     parse_schema_variants_marker,
     schema_variants_marker,
     steam_store_id,
