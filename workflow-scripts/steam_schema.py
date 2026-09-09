@@ -270,27 +270,33 @@ def row_map(rows: list[dict[str, str]]) -> dict[str, dict[str, str]]:
 def summarize_update_diff(old_rows: list[dict[str, str]], new_rows: list[dict[str, str]], languages: list[str]) -> dict[str, Any]:
     old_by_id = row_map(old_rows)
     new_by_id = row_map(new_rows)
-    old_ids = set(old_by_id)
-    new_ids = set(new_by_id)
-    compare_keys = ["english_name", "english_description"]
-    for language in languages:
-        compare_keys.extend([f"{language}_name", f"{language}_description"])
+    compare_languages = sorted(set(languages) | {"english"})
+    added: list[dict[str, str]] = []
+    deleted: list[dict[str, str]] = []
     changed: list[dict[str, Any]] = []
-    for achievement_id in sorted(old_ids & new_ids):
-        field_changes = []
-        for key in compare_keys:
-            old_value = old_by_id[achievement_id].get(key, "")
-            new_value = new_by_id[achievement_id].get(key, "")
-            if old_value != new_value:
-                field_changes.append({
-                    "field": key,
-                    "old": old_value,
-                    "new": new_value,
-                })
-        if field_changes:
-            changed.append({"id": achievement_id, "fields": field_changes})
+    for achievement_id in sorted(set(old_by_id) | set(new_by_id)):
+        old_row = old_by_id.get(achievement_id, {})
+        new_row = new_by_id.get(achievement_id, {})
+        for language in compare_languages:
+            keys = (f"{language}_name", f"{language}_description")
+            old_values = tuple(old_row.get(key, "") for key in keys)
+            new_values = tuple(new_row.get(key, "") for key in keys)
+            old_present = any(old_values)
+            new_present = any(new_values)
+            summary = {"id": achievement_id, "language": language}
+            if not old_present and new_present:
+                added.append(summary)
+            elif old_present and not new_present:
+                deleted.append(summary)
+            elif old_present and new_present and old_values != new_values:
+                field_changes = [
+                    {"field": key, "old": old_value, "new": new_value}
+                    for key, old_value, new_value in zip(keys, old_values, new_values, strict=True)
+                    if old_value != new_value
+                ]
+                changed.append({**summary, "fields": field_changes})
     return {
-        "added": sorted(new_ids - old_ids),
-        "deleted": sorted(old_ids - new_ids),
+        "added": added,
+        "deleted": deleted,
         "changed": changed,
     }

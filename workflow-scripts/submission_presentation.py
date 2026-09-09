@@ -152,9 +152,9 @@ def build_submission_pr_body(
 - Added variants: {', '.join(f'`{item}`' for item in variant_changes['added']) or 'None'}
 - Removed variants: {', '.join(f'`{item}`' for item in variant_changes['removed']) or 'None'}
 - Changed variants: {', '.join(f'`{item}`' for item in variant_changes['changed']) or 'None'}
-- Added achievements: {len(update_diff['added'])}
-- Deleted achievements: {len(update_diff['deleted'])}
-- Changed achievements: {len(update_diff['changed'])}
+- Added translations: {len(update_diff['added'])}
+- Deleted translations: {len(update_diff['deleted'])}
+- Changed translations: {len(update_diff['changed'])}
 """
     issue_match = re.search(r"(?:/issues/|#)(\d+)(?:[/?#]|$)", issue_url)
     closes = f"\n\nCloses #{issue_match.group(1)}" if issue_match else ""
