@@ -169,7 +169,7 @@ def validated_entry_schema_variants(
         expected_path = schema_variant_relative_path(game_id, variant_id, bool(record.get("primary")))
         if str(record.get("schema_file") or "") != expected_path:
             raise ValueError(f"版本 {variant_id} 的路径必须是 {expected_path}")
-        if explicit_variants:
+        if explicit_variants and not record.get("primary"):
             clean_variant_note(record.get("note_zh"), f"版本 {variant_id} 的 note_zh")
             clean_variant_note(record.get("note_en"), f"版本 {variant_id} 的 note_en")
         if require_metadata:
