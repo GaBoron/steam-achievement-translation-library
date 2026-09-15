@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**434** 个游戏。
+当前收录：**435** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -235,6 +235,7 @@
 | `282900` | [Hyperdimension Neptunia Re;Birth1 超次次元游戏 海王星重生1](https://store.steampowered.com/app/282900/) | 可用 | 2026-08-03T15:39:39Z | [@Septem25](https://github.com/Septem25) | english, schinese | 45 | [UserGameStatsSchema_282900.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/282900/default/UserGameStatsSchema_282900.bin)（16 KB） | [成就目录](files/282900/default/achievements.md) |
 | `351710` | [Hyperdimension Neptunia Re;Birth2: Sisters Generation 超次次元游戏 海王星重生2：姐妹时代](https://store.steampowered.com/app/351710/) | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | english, japanese, schinese, tchinese | 41 | [UserGameStatsSchema_351710.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/351710/default/UserGameStatsSchema_351710.bin)（20 KB） | [成就目录](files/351710/default/achievements.md) |
 | `353270` | [Hyperdimension Neptunia Re;Birth3 V Generation 神次次元游戏 海王星重生3 V世纪](https://store.steampowered.com/app/353270/) | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | english, schinese, tchinese | 42 | [UserGameStatsSchema_353270.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/353270/default/UserGameStatsSchema_353270.bin)（18 KB） | [成就目录](files/353270/default/achievements.md) |
+| `245390` | [I Have No Mouth, and I Must Scream 无声狂啸](https://store.steampowered.com/app/245390/) | 可用 | 2026-09-15T15:14:29Z | [@wowwot](https://github.com/wowwot) | english, french, german, italian, schinese, spanish | 13 | [UserGameStatsSchema_245390.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/245390/default/UserGameStatsSchema_245390.bin)（9 KB） | [成就目录](files/245390/default/achievements.md) |
 | `95400` | [ibb & obb 艾波 & 欧波](https://store.steampowered.com/app/95400/) | 可用 | 2026-07-26T13:11:17Z | [@GaBoron](https://github.com/GaBoron) | english, schinese | 10 | [UserGameStatsSchema_95400.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/95400/default/UserGameStatsSchema_95400.bin)（4 KB） | [成就目录](files/95400/default/achievements.md) |
 | `326480` | [If My Heart Had Wings 在这苍穹展翅](https://store.steampowered.com/app/326480/) | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | english, schinese | 20 | [UserGameStatsSchema_326480.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/326480/default/UserGameStatsSchema_326480.bin)（7 KB） | [成就目录](files/326480/default/achievements.md) |
 | `937310` | [Infinitode 2 无限塔防2](https://store.steampowered.com/app/937310/) | 可用 | 2026-07-05T10:20:36Z | [@GaBoron](https://github.com/GaBoron) | english, schinese | 45 | [UserGameStatsSchema_937310.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/937310/default/UserGameStatsSchema_937310.bin)（17 KB） | [成就目录](files/937310/default/achievements.md) |
