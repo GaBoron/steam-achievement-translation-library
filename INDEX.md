@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**435** 个游戏。
+当前收录：**436** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -275,6 +275,7 @@
 | `1625450` | [Muck 泥巴](https://store.steampowered.com/app/1625450/) | 可用 | 2026-09-02T06:42:08Z | [@GaBoron](https://github.com/GaBoron) | english, schinese | 49 | [UserGameStatsSchema_1625450.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1625450/default/UserGameStatsSchema_1625450.bin)（28 KB） | [成就目录](files/1625450/default/achievements.md) |
 | `802880` | [Muv-Luv](https://store.steampowered.com/app/802880/) | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | english, japanese, schinese | 15 | [UserGameStatsSchema_802880.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/802880/default/UserGameStatsSchema_802880.bin)（6 KB） | [成就目录](files/802880/default/achievements.md) |
 | `802890` | [Muv-Luv Alternative 真爱 替代计划](https://store.steampowered.com/app/802890/) | 可用 | 2026-08-04T14:15:45Z | [@Septem25](https://github.com/Septem25) | english, japanese, schinese | 19 | [UserGameStatsSchema_802890.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/802890/default/UserGameStatsSchema_802890.bin)（7 KB） | [成就目录](files/802890/default/achievements.md) |
+| `889700` | [Muv-Luv photonflowers* Muv-Luv 光子之花](https://store.steampowered.com/app/889700/) | 可用 | 2026-09-17T00:57:23Z | [@Septem25](https://github.com/Septem25) | english, japanese, schinese | 22 | [UserGameStatsSchema_889700.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/889700/default/UserGameStatsSchema_889700.bin)（10 KB） | [成就目录](files/889700/default/achievements.md) |
 | `264380` | [Narcissu 1st & 2nd 水仙1+2](https://store.steampowered.com/app/264380/) | 可用 | 2026-08-07T09:39:09Z | [@xjp66666](https://github.com/xjp66666) | english, schinese | 5 | [UserGameStatsSchema_264380.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/264380/default/UserGameStatsSchema_264380.bin)（2 KB） | [成就目录](files/264380/default/achievements.md) |
 | `543870` | [NARUTO SHIPPUDEN: Ultimate Ninja STORM 2 火影忍者疾风传：究极忍者风暴2](https://store.steampowered.com/app/543870/) | 可用 | 2026-08-09T05:07:36Z | [@xjp66666](https://github.com/xjp66666) | english, french, german, italian, schinese, spanish | 50 | [UserGameStatsSchema_543870.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/543870/default/UserGameStatsSchema_543870.bin)（35 KB） | [成就目录](files/543870/default/achievements.md) |
 | `899970` | [NEKOPARA Extra 猫娘乐园 Extra](https://store.steampowered.com/app/899970/) | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | english, japanese, schinese, tchinese | 13 | [UserGameStatsSchema_899970.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/899970/default/UserGameStatsSchema_899970.bin)（6 KB） | [成就目录](files/899970/default/achievements.md) |
