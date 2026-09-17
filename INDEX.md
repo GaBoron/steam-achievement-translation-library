@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**436** 个游戏。
+当前收录：**437** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -118,6 +118,7 @@
 | `204450` | [Call of Juarez: Gunslinger 狂野西部：枪手](https://store.steampowered.com/app/204450/) | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | brazilian, english, french, german, italian, japanese, polish, russian, schinese, spanish | 26 | [UserGameStatsSchema_204450.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/204450/default/UserGameStatsSchema_204450.bin)（31 KB） | [成就目录](files/204450/default/achievements.md) |
 | `645630` | [Car Mechanic Simulator 2018 汽车修理工模拟器 2018](https://store.steampowered.com/app/645630/) | 可用 | 2026-08-31T05:34:44Z | [@Z1RUl](https://github.com/Z1RUl) | english, schinese | 60 | [UserGameStatsSchema_645630.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/645630/default/UserGameStatsSchema_645630.bin)（25 KB） | [成就目录](files/645630/default/achievements.md) |
 | `1018130` | [Castle Break 摧毁城墙](https://store.steampowered.com/app/1018130/) | 可用 | 2026-07-29T13:07:24Z | [@skeyep](https://github.com/skeyep) | english, schinese | 18 | [UserGameStatsSchema_1018130.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1018130/default/UserGameStatsSchema_1018130.bin)（7 KB） | [成就目录](files/1018130/default/achievements.md) |
+| `2369900` | [Castlevania Dominus Collection 恶魔城多米纳斯合集](https://store.steampowered.com/app/2369900/) | 可用 | 2026-09-17T08:59:25Z | [@Aoisonic](https://github.com/Aoisonic) | english, french, german, italian, japanese, schinese, spanish | 52 | [UserGameStatsSchema_2369900.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2369900/default/UserGameStatsSchema_2369900.bin)（34 KB） | [成就目录](files/2369900/default/achievements.md) |
 | `893180` | [Catherine Classic 凯瑟琳：经典版](https://store.steampowered.com/app/893180/) | 可用 | 2026-09-05T00:19:28Z | [@Aoisonic](https://github.com/Aoisonic) | english, schinese | 50 | [UserGameStatsSchema_893180.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/893180/default/UserGameStatsSchema_893180.bin)（19 KB） | [成就目录](files/893180/default/achievements.md) |
 | `2059660` | [Cavern of Dreams 梦幻洞窟](https://store.steampowered.com/app/2059660/) | 可用 | 2026-07-29T13:00:11Z | [@skeyep](https://github.com/skeyep) | english, schinese | 2 | [UserGameStatsSchema_2059660.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2059660/default/UserGameStatsSchema_2059660.bin)（851 B） | [成就目录](files/2059660/default/achievements.md) |
 | `504230` | [Celeste 蔚蓝](https://store.steampowered.com/app/504230/) | 可用 | 2026-07-29T13:08:37Z | [@skeyep](https://github.com/skeyep) | english, schinese | 32 | [UserGameStatsSchema_504230.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/504230/default/UserGameStatsSchema_504230.bin)（26 KB） | [成就目录](files/504230/default/achievements.md) |
