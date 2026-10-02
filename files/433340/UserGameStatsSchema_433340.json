@@ -1,0 +1,696 @@
+{
+  "version": 1,
+  "app_id": "433340",
+  "variant_id": "default",
+  "source_sha256": "17f198cb58066340db454a70b0e1e1190c546fb19080519717c1c8d7e4f62bd8",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "SELL_PLORTS_A": {
+      "translations": {
+        "english": {
+          "name": "Plort Peddler",
+          "description": "Sell 100 plorts at the Plort Market"
+        },
+        "schinese": {
+          "name": "结晶小贩",
+          "description": "在结晶市场出售100个结晶"
+        }
+      }
+    },
+    "SELL_PLORTS_B": {
+      "translations": {
+        "english": {
+          "name": "Transplorter",
+          "description": "Sell 500 plorts at the Plort Market"
+        },
+        "schinese": {
+          "name": "结晶商人",
+          "description": "在结晶市场出售500个结晶"
+        }
+      }
+    },
+    "SELL_PLORTS_C": {
+      "translations": {
+        "english": {
+          "name": "Plort Authority",
+          "description": "Sell 1,000 plorts at the Plort Market"
+        },
+        "schinese": {
+          "name": "结晶权威",
+          "description": "在结晶市场出售1000个结晶"
+        }
+      }
+    },
+    "SELL_PLORTS_D": {
+      "translations": {
+        "english": {
+          "name": "Plort Powerhouse",
+          "description": "Sell 2,500 plorts at the Plort Market"
+        },
+        "schinese": {
+          "name": "结晶贵族",
+          "description": "在结晶市场出售2500个结晶"
+        }
+      }
+    },
+    "SELL_PLORTS_E": {
+      "translations": {
+        "english": {
+          "name": "Plort Tycoon",
+          "description": "Sell 5,000 plorts at the Plort Market"
+        },
+        "schinese": {
+          "name": "结晶大亨",
+          "description": "在结晶市场出售5000个结晶"
+        }
+      }
+    },
+    "FEED_SLIMES_CHICKENS": {
+      "translations": {
+        "english": {
+          "name": "Buck Buck Bagu-",
+          "description": "Feed 100 chickens to slimes on the Ranch"
+        },
+        "schinese": {
+          "name": "咯咯哒",
+          "description": "喂给牧场里的史莱姆100只鸡"
+        }
+      }
+    },
+    "FRUIT_TREE_TYPES": {
+      "translations": {
+        "english": {
+          "name": "Fruit Cocktail",
+          "description": "Have 3 different fruit trees on the Ranch at the same time"
+        },
+        "schinese": {
+          "name": "水果拼盘",
+          "description": "在牧场上同时种植3种不同的果树"
+        }
+      }
+    },
+    "VEGGIE_PATCH_TYPES": {
+      "translations": {
+        "english": {
+          "name": "Salad Bar",
+          "description": "Have 3 different veggie gardens on the Ranch at the same time"
+        },
+        "schinese": {
+          "name": "色拉自助",
+          "description": "在牧场上同时拥有3个不同的菜园"
+        }
+      }
+    },
+    "EARN_CURRENCY_A": {
+      "translations": {
+        "english": {
+          "name": "Fortunate",
+          "description": "Earn over 5,000 newbucks"
+        },
+        "schinese": {
+          "name": "小赚一笔",
+          "description": "赚取超过5000新币"
+        }
+      }
+    },
+    "EARN_CURRENCY_B": {
+      "translations": {
+        "english": {
+          "name": "Well-Off Rancher",
+          "description": "Earn over 25,000 newbucks"
+        },
+        "schinese": {
+          "name": "风生水起",
+          "description": "赚取超过25000新币"
+        }
+      }
+    },
+    "EARN_CURRENCY_C": {
+      "translations": {
+        "english": {
+          "name": "Upper Crust",
+          "description": "Earn over 100,000 newbucks"
+        },
+        "schinese": {
+          "name": "盆满钵满",
+          "description": "赚取超过100000新币"
+        }
+      }
+    },
+    "DAY_CURRENCY": {
+      "translations": {
+        "english": {
+          "name": "A Quick Newbuck",
+          "description": "Earn 5,000 newbucks in a single day"
+        },
+        "schinese": {
+          "name": "日进斗金",
+          "description": "一日内收入超过5000新币"
+        }
+      }
+    },
+    "AWAKE_UNTIL_MORNING": {
+      "translations": {
+        "english": {
+          "name": "Up All Night",
+          "description": "Stay awake from 6 AM to 6 AM the next day"
+        },
+        "schinese": {
+          "name": "彻夜不眠",
+          "description": "从早上6点到第二天早上6点一直不眠不休"
+        }
+      }
+    },
+    "KNOCKOUT_MORNING": {
+      "translations": {
+        "english": {
+          "name": "Not My Morning",
+          "description": "Be knocked out before 10 AM"
+        },
+        "schinese": {
+          "name": "出师不捷",
+          "description": "在早上10点前耗尽体力"
+        }
+      }
+    },
+    "AWAY_FROM_RANCH": {
+      "translations": {
+        "english": {
+          "name": "While You Were Away",
+          "description": "Return to the Ranch after more than 24 hours"
+        },
+        "schinese": {
+          "name": "出门在外时",
+          "description": "超过24小时之后返回牧场"
+        }
+      }
+    },
+    "FEED_AIRBORNE": {
+      "translations": {
+        "english": {
+          "name": "Catch!",
+          "description": "Shoot food into an airborne slime's mouth"
+        },
+        "schinese": {
+          "name": "接好啦！",
+          "description": "将食物发射到在空中的史莱姆嘴里"
+        }
+      }
+    },
+    "PINK_SLIMES_FOOD_TYPES": {
+      "translations": {
+        "english": {
+          "name": "Omnivorous",
+          "description": "Feed pink slimes on the Ranch 10 different types of food"
+        },
+        "schinese": {
+          "name": "杂食动物",
+          "description": "喂给牧场里的 粉红史莱姆 10种 食物"
+        }
+      }
+    },
+    "FEED_FAVORITES": {
+      "translations": {
+        "english": {
+          "name": "Tasty!",
+          "description": "Feed 50 slimes on the Ranch their favorite food"
+        },
+        "schinese": {
+          "name": "好香！",
+          "description": "喂给牧场里的50只史莱姆们最爱吃的食物"
+        }
+      }
+    },
+    "DISCOVERED_QUARRY": {
+      "translations": {
+        "english": {
+          "name": "Mine, All Mine",
+          "description": "Discovered the Quarry"
+        },
+        "schinese": {
+          "name": "拎筐下矿",
+          "description": "发现靛蓝采石场"
+        }
+      }
+    },
+    "DISCOVERED_MOSS": {
+      "translations": {
+        "english": {
+          "name": "On the Other Side",
+          "description": "Discovered the Moss Blanket"
+        },
+        "schinese": {
+          "name": "在水一方",
+          "description": "发现被苔岛"
+        }
+      }
+    },
+    "DISCOVERED_DESERT": {
+      "translations": {
+        "english": {
+          "name": "Smoke, Fire, and Mirrors",
+          "description": "Discovered the Glass Desert"
+        },
+        "schinese": {
+          "name": "烟，火，镜",
+          "description": "发现玻璃荒漠"
+        }
+      }
+    },
+    "BURST_GORDO": {
+      "translations": {
+        "english": {
+          "name": "Jelly Belly Burst",
+          "description": "Burst a gordo slime"
+        },
+        "schinese": {
+          "name": "果冻大爆炸",
+          "description": "撑爆一个巨型史莱姆"
+        }
+      }
+    },
+    "OPEN_SLIME_GATE": {
+      "translations": {
+        "english": {
+          "name": "Open Says Me",
+          "description": "Open a slime gate"
+        },
+        "schinese": {
+          "name": "芝麻开门",
+          "description": "打开一扇史莱姆大门"
+        }
+      }
+    },
+    "INCINERATE_ELDER_CHICKEN": {
+      "translations": {
+        "english": {
+          "name": "Carousel",
+          "description": "Incinerate an elder chicken"
+        },
+        "schinese": {
+          "name": "鸡肉烧烤",
+          "description": "焚烧一只老年鸡"
+        }
+      }
+    },
+    "INCINERATE_CHICK": {
+      "translations": {
+        "english": {
+          "name": "You... Monster!",
+          "description": "Send an adorable chick to a fiery end, the same place you're now destined to go"
+        },
+        "schinese": {
+          "name": "你这……禽兽！",
+          "description": "小鸡这么可爱竟然拿来烧烤，你的良心不会痛吗？"
+        }
+      }
+    },
+    "FILLED_SILO": {
+      "translations": {
+        "english": {
+          "name": "Burstin' at the Seams",
+          "description": "Put at least 50 units into each slot of a fully upgraded silo"
+        },
+        "schinese": {
+          "name": "大满仓",
+          "description": "在升满级的仓储塔每个空位上放置至少50个单位"
+        }
+      }
+    },
+    "RANCH_UPGRADED_STORAGE": {
+      "translations": {
+        "english": {
+          "name": "Fully Loaded",
+          "description": "Have a maximally upgraded corral, coop, and silo on the Ranch"
+        },
+        "schinese": {
+          "name": "全副武装",
+          "description": "牧场上拥有升满级的牧栏、鸡圈和仓储塔"
+        }
+      }
+    },
+    "FULFILL_EXCHANGE_EARLY": {
+      "translations": {
+        "english": {
+          "name": "Hasty Exchange",
+          "description": "Fulfill a Range Exchange request between Noon and 2 PM"
+        },
+        "schinese": {
+          "name": "飞速交易",
+          "description": "收到牧场交易所任务后，在2小时之内完成"
+        }
+      }
+    },
+    "DAY_COLLECT_PLORTS": {
+      "translations": {
+        "english": {
+          "name": "Free Rangin'",
+          "description": "Collect 50 plorts on the Range in a single day"
+        },
+        "schinese": {
+          "name": "遍地生财",
+          "description": "一天之内在牧场外收集50个结晶"
+        }
+      }
+    },
+    "GOLD_SLIME_TRIPLE_PLORT": {
+      "translations": {
+        "english": {
+          "name": "Hat Trick",
+          "description": "Obtain at least 3 gold plorts from a single gold slime"
+        },
+        "schinese": {
+          "name": "帽子戏法",
+          "description": "从同一只黄金史莱姆获得至少3个黄金结晶"
+        }
+      }
+    },
+    "EXTENDED_RAD_EXPOSURE": {
+      "translations": {
+        "english": {
+          "name": "That Only Works in Comic Books",
+          "description": "Stand inside a rad aura for at least 15 seconds"
+        },
+        "schinese": {
+          "name": "漫画看多了",
+          "description": "在辐射光线中站立至少15秒"
+        }
+      }
+    },
+    "EXTENDED_TARR_HOLD": {
+      "translations": {
+        "english": {
+          "name": "Once Bitten, Twice... Bitten",
+          "description": "Hold onto a tarr for 15 seconds"
+        },
+        "schinese": {
+          "name": "吃一堑不长一智",
+          "description": "吸住一只焦油怪15秒"
+        }
+      }
+    },
+    "TABBY_HEADBUTT": {
+      "translations": {
+        "english": {
+          "name": "Boop!",
+          "description": "Let a tabby slime headbutt you right on the nose"
+        },
+        "schinese": {
+          "name": "嘭！",
+          "description": "被喵喵史莱姆撞一下"
+        }
+      }
+    },
+    "LAUNCHED_BOOM_EXPLODE": {
+      "translations": {
+        "english": {
+          "name": "Fireworks",
+          "description": "Shoot a boom slime largo into the air that explodes before landing"
+        },
+        "schinese": {
+          "name": "烟花",
+          "description": "将大型史莱姆射向空中，让它在落地前爆炸"
+        }
+      }
+    },
+    "MANY_SLIMES_IN_VAC": {
+      "translations": {
+        "english": {
+          "name": "Controlling the Chaos",
+          "description": "Constrain more than 15 slimes in your vac stream at once while on the range"
+        },
+        "schinese": {
+          "name": "控制局面",
+          "description": "在牧场以外的地区，用真空吸流同时卷入超过15只史莱姆"
+        }
+      }
+    },
+    "CORRAL_SLIME_TYPES": {
+      "translations": {
+        "english": {
+          "name": "Six Pack",
+          "description": "Have at least 6 different types of slimes in the same corral"
+        },
+        "schinese": {
+          "name": "666",
+          "description": "在同一牧栏中放入至少6种史莱姆"
+        }
+      }
+    },
+    "CORRAL_LARGO_TYPES": {
+      "translations": {
+        "english": {
+          "name": "Risky Business",
+          "description": "Have at least 3 different types of largos in the same corral"
+        },
+        "schinese": {
+          "name": "铤而走险",
+          "description": "在同一牧栏中放入至少3种大型史莱姆"
+        }
+      }
+    },
+    "POND_SLIME_TYPES": {
+      "translations": {
+        "english": {
+          "name": "Pool Party",
+          "description": "Fill a pond on the Ranch with at least 5 different types of slimes"
+        },
+        "schinese": {
+          "name": "泳池派对",
+          "description": "在牧场的一个池塘中放入至少5种史莱姆"
+        }
+      }
+    },
+    "RANCH_LARGO_TYPES": {
+      "translations": {
+        "english": {
+          "name": "Diversification",
+          "description": "Have at least 10 types of largos on the Ranch"
+        },
+        "schinese": {
+          "name": "多元化",
+          "description": "牧场拥有至少10种大型史莱姆"
+        }
+      }
+    },
+    "ENTERED_CORRAL_SLIMES": {
+      "translations": {
+        "english": {
+          "name": "Ball Pit",
+          "description": "Jump into a corral containing at least 40 slimes"
+        },
+        "schinese": {
+          "name": "海洋球",
+          "description": "跳到一个至少装有40只史莱姆的牧栏里"
+        }
+      }
+    },
+    "TIME_LIMIT_CURRENCY_A": {
+      "translations": {
+        "english": {
+          "name": "Rush Challenger",
+          "description": "Reach at least 10,000 newbucks in Rush Mode"
+        },
+        "schinese": {
+          "name": "快攻挑战者",
+          "description": "在快攻模式下赚取至少10,000新币"
+        }
+      }
+    },
+    "TIME_LIMIT_CURRENCY_B": {
+      "translations": {
+        "english": {
+          "name": "Rush Champion",
+          "description": "Reach at least 35,000 newbucks in Rush Mode"
+        },
+        "schinese": {
+          "name": "快攻冠军",
+          "description": "在快攻模式下赚取至少35,000新币"
+        }
+      }
+    },
+    "TIME_LIMIT_CURRENCY_C": {
+      "translations": {
+        "english": {
+          "name": "Rush Plortmaster",
+          "description": "Reach at least 75,000 newbucks in Rush Mode"
+        },
+        "schinese": {
+          "name": "快攻大师",
+          "description": "在快攻模式下赚取至少75,000新币"
+        }
+      }
+    },
+    "DISCOVERED_RUINS": {
+      "translations": {
+        "english": {
+          "name": "Into the Past",
+          "description": "Discover the Ancient Ruins"
+        },
+        "schinese": {
+          "name": "回到过去",
+          "description": "发现古代遗迹"
+        }
+      }
+    },
+    "FABRICATE_GADGETS_A": {
+      "translations": {
+        "english": {
+          "name": "Onward... to SCIENCE!",
+          "description": "Fabricate your first Slime Science gadget"
+        },
+        "schinese": {
+          "name": "下一站，科技时代！",
+          "description": "制造你的第一台史莱姆科技装置"
+        }
+      }
+    },
+    "FABRICATE_GADGETS_B": {
+      "translations": {
+        "english": {
+          "name": "Bea the Builder",
+          "description": "Fabricate 35 Slime Science gadgets"
+        },
+        "schinese": {
+          "name": "科技大师",
+          "description": "制造35个史莱姆科技装置"
+        }
+      }
+    },
+    "FABRICATE_GADGETS_C": {
+      "translations": {
+        "english": {
+          "name": "Never Stop Creating",
+          "description": "Fabricate 100 Slime Science gadgets"
+        },
+        "schinese": {
+          "name": "创造不止",
+          "description": "制造100个史莱姆科技装置"
+        }
+      }
+    },
+    "SLIME_STAGE_TARR": {
+      "translations": {
+        "english": {
+          "name": "Best of the Worst",
+          "description": "Place a tarr on the #1 Slime Stage"
+        },
+        "schinese": {
+          "name": "恶中之极",
+          "description": "在No.1史莱姆展示台上放置焦油怪"
+        }
+      }
+    },
+    "SLIMEBALL_SCORE": {
+      "translations": {
+        "english": {
+          "name": "She's on Fire!",
+          "description": "Score 50 points in a single game of slimeball"
+        },
+        "schinese": {
+          "name": "得分王",
+          "description": "在一局史莱姆篮球游戏中获得50分"
+        }
+      }
+    },
+    "JOIN_REWARDS_CLUB": {
+      "translations": {
+        "english": {
+          "name": "One Person at a Time",
+          "description": "Join the 7Zee Rewards Club"
+        },
+        "schinese": {
+          "name": "特别优待",
+          "description": "加入7Z奖励俱乐部"
+        }
+      }
+    },
+    "USE_CHROMAS": {
+      "translations": {
+        "english": {
+          "name": "Color Me Impressed",
+          "description": "Use chroma packs to change the color of the ranch house, tech, and vacpack"
+        },
+        "schinese": {
+          "name": "焕然一新",
+          "description": "用调色包改变牧场小屋、科技和真空枪的颜色"
+        }
+      }
+    },
+    "COLLECT_SLIME_TOYS": {
+      "translations": {
+        "english": {
+          "name": "Mint in Box",
+          "description": "Purchase at least 10 different types of slime toys"
+        },
+        "schinese": {
+          "name": "未开封新品",
+          "description": "购买至少10种不同的史莱姆玩具"
+        }
+      }
+    },
+    "SNARE_HUNTER_GORDO": {
+      "translations": {
+        "english": {
+          "name": "The Hunter Has Become... The Other Thing",
+          "description": "Snare a Hunter Gordo"
+        },
+        "schinese": {
+          "name": "大号猎猫",
+          "description": "用陷阱捕捉一只巨型猎猫史莱姆"
+        }
+      }
+    },
+    "ACTIVATE_OASIS": {
+      "translations": {
+        "english": {
+          "name": "Renewal",
+          "description": "Start bringing life back to the Glass Desert"
+        },
+        "schinese": {
+          "name": "万物复苏",
+          "description": "让玻璃荒漠恢复生机"
+        }
+      }
+    },
+    "COMPLETE_SLIMEPEDIA": {
+      "translations": {
+        "english": {
+          "name": "Pro Style",
+          "description": "Complete the Slimepedia"
+        },
+        "schinese": {
+          "name": "高手范儿",
+          "description": "集齐史莱姆百科"
+        }
+      }
+    },
+    "FIND_HOBSONS_END": {
+      "translations": {
+        "english": {
+          "name": "Doors Like These",
+          "description": "Discover where Hobson's journey ended, and started once again."
+        },
+        "schinese": {
+          "name": "人生之门",
+          "description": "发现霍布森终结旅途，并再次启程的地方"
+        }
+      }
+    },
+    "FINISH_ADVENTURE": {
+      "translations": {
+        "english": {
+          "name": "The Adventure Continues!",
+          "description": "Complete Adventure Mode and set out for what's next."
+        },
+        "schinese": {
+          "name": "继续征途！",
+          "description": "完成冒险模式并开始新的旅程"
+        }
+      }
+    }
+  }
+}

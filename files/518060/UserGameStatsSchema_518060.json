@@ -1,0 +1,1692 @@
+{
+  "version": 1,
+  "app_id": "518060",
+  "variant_id": "default",
+  "source_sha256": "5086fa1ee48f182f56461b521729f6e34b91db6ae012950903bfdd561f3f3ad7",
+  "languages": [
+    "brazilian",
+    "dutch",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "portuguese",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "AbsolutePin": {
+      "translations": {
+        "brazilian": {
+          "name": "Cravadura absoluta",
+          "description": "Crave uma peça em frente ao Rei do seu oponente"
+        },
+        "dutch": {
+          "name": "Absolute penning",
+          "description": "Pen een stuk tegen de koning van je tegenstander"
+        },
+        "english": {
+          "name": "Absolute Pin",
+          "description": "Pin a piece against your opponent's King"
+        },
+        "french": {
+          "name": "Clouage suprême",
+          "description": "Clouez une pièce contre le roi de votre adversaire"
+        },
+        "german": {
+          "name": "Absoluter Spieß",
+          "description": "Spießen Sie eine Figur gegen den König Ihres Gegners"
+        },
+        "italian": {
+          "name": "Inchiodatura assoluta",
+          "description": "Inchioda un pezzo contro il Re dell'avversario"
+        },
+        "portuguese": {
+          "name": "Cravadura absoluta",
+          "description": "Crave uma peça em frente ao Rei do seu oponente"
+        },
+        "russian": {
+          "name": "Идеальная связка",
+          "description": "Свяжите фигуру соперника с его королем"
+        },
+        "schinese": {
+          "name": "绝对牵制",
+          "description": "将棋子牵制在对手的王前。"
+        },
+        "spanish": {
+          "name": "Clavada absoluta",
+          "description": "Clava al rey de tu contrincante con una pieza"
+        }
+      }
+    },
+    "AlekhinesGun": {
+      "translations": {
+        "brazilian": {
+          "name": "A arma de Alekhine",
+          "description": "Empilhe duas Torres uma atrás da outra na mesma fila com a Dama ao fundo"
+        },
+        "dutch": {
+          "name": "Aljechins kanon",
+          "description": "Zet twee torens achter elkaar op dezelfde lijn met de dame erachter"
+        },
+        "english": {
+          "name": "Alekhine’s Gun",
+          "description": "Stack two Rooks one behind another in the same file with the Queen at the rear"
+        },
+        "french": {
+          "name": "Coup d'Alekhine",
+          "description": "Alignez deux tours l'une derrière l'autre sur la même colonne avec la dame à l'arrière"
+        },
+        "german": {
+          "name": "Alekhines Kanone",
+          "description": "Stellen Sie zwei Türme auf einer Linie vor der Dame auf"
+        },
+        "italian": {
+          "name": "Il cannone di Alechin",
+          "description": "Poni due Torri una dietro l'altra nella stessa colonna, con la Regina dietro di loro"
+        },
+        "portuguese": {
+          "name": "A arma de Alekhine",
+          "description": "Empilhe duas Torres uma atrás da outra na mesma fila com a Dama ao fundo"
+        },
+        "russian": {
+          "name": "Пушка Алехина",
+          "description": "Соберите на одной вертикали две ладьи и ферзя позади них"
+        },
+        "schinese": {
+          "name": "阿廖欣炮",
+          "description": "在同一路纵线上让两个车前后相叠，并把后方交给后。"
+        },
+        "spanish": {
+          "name": "El cañón de Alekhine",
+          "description": "Coloca dos torres una detrás de otra en la misma fila con la dama detrás"
+        }
+      }
+    },
+    "BackRankMate": {
+      "translations": {
+        "brazilian": {
+          "name": "Mate em fileira posterior",
+          "description": "Dê um xeque-mate com uma Torre ou com a Dama em uma fileira posterior"
+        },
+        "dutch": {
+          "name": "Mat vanaf de achterste rij",
+          "description": "Geef schaakmat met een toren of dame langs een achterste rij"
+        },
+        "english": {
+          "name": "Back-rank Mate",
+          "description": "Deliver checkmate by a Rook or Queen along a back rank, with the King's escape blocked by friendly pieces"
+        },
+        "french": {
+          "name": "Mat à l'arrière",
+          "description": "Faites un mat sur la rangée arrière avec une tour ou une dame"
+        },
+        "german": {
+          "name": "Hinterhalt",
+          "description": "Setzen Sie den Gegner mit einem Turm oder einer Dame aus der hinteren Reihe Schachmatt"
+        },
+        "italian": {
+          "name": "Matto del corridoio",
+          "description": "Esegui uno scacco matto con una Torre o una Regina lungo una traversa posteriore"
+        },
+        "portuguese": {
+          "name": "Mate em fileira posterior",
+          "description": "Dê um xeque-mate com uma Torre ou com a Dama em uma fileira posterior"
+        },
+        "russian": {
+          "name": "Мат на последней горизонтали",
+          "description": "Поставьте мат ладьей или ферзем на последней горизонтали"
+        },
+        "schinese": {
+          "name": "底线将杀",
+          "description": "用车或后沿底线将杀，且王的退路被己方棋子堵住。"
+        },
+        "spanish": {
+          "name": "Mate del pasillo",
+          "description": "Haz jaque mate con una torre o una dama en la octava fila"
+        }
+      }
+    },
+    "DoubledPawn": {
+      "translations": {
+        "brazilian": {
+          "name": "Peão duplicado",
+          "description": "Coloque dois peões da mesma cor na mesma fila"
+        },
+        "dutch": {
+          "name": "Dubbele pion",
+          "description": "Zet twee pionnen van dezelfde veldkleur op dezelfde lijn"
+        },
+        "english": {
+          "name": "Doubled Pawn",
+          "description": "Have two pawns of the same colour on the same file"
+        },
+        "french": {
+          "name": "Double pion",
+          "description": "Placez deux pions de la même couleur sur la même colonne"
+        },
+        "german": {
+          "name": "Doppelter Bauer",
+          "description": "Stellen Sie zwei Bauern der gleichen Farbe auf einer Linie auf"
+        },
+        "italian": {
+          "name": "Pedone raddoppiato",
+          "description": "Posiziona due pedoni dello stesso colore sulla medesima colonna"
+        },
+        "portuguese": {
+          "name": "Peão duplicado",
+          "description": "Coloque dois peões da mesma cor na mesma fila"
+        },
+        "russian": {
+          "name": "Сдвоенная пешка",
+          "description": "Соберите на одной вертикали две пешки одного цвета"
+        },
+        "schinese": {
+          "name": "叠兵",
+          "description": "让两个同色兵位于同一路纵线。"
+        },
+        "spanish": {
+          "name": "Peón doblado",
+          "description": "Ten a dos peones del mismo color en la misma fila"
+        }
+      }
+    },
+    "O-O-O": {
+      "translations": {
+        "brazilian": {
+          "name": "O-O-O",
+          "description": "Roque grande"
+        },
+        "dutch": {
+          "name": "O-O-O",
+          "description": "Voer een lange rokade uit"
+        },
+        "english": {
+          "name": "O-O-O",
+          "description": "Castle queenside"
+        },
+        "french": {
+          "name": "O-O-O",
+          "description": "Faites un grand roque"
+        },
+        "german": {
+          "name": "O-O-O",
+          "description": "Lange Rochade"
+        },
+        "italian": {
+          "name": "O-O-O",
+          "description": "Arrocco lungo"
+        },
+        "portuguese": {
+          "name": "O-O-O",
+          "description": "Roque grande"
+        },
+        "russian": {
+          "name": "O-O-O",
+          "description": "Сделайте длинную рокировку (на ферзевый фланг)"
+        },
+        "schinese": {
+          "name": "长易位",
+          "description": "完成后翼易位。"
+        },
+        "spanish": {
+          "name": "O-O-O",
+          "description": "Enroque largo"
+        }
+      }
+    },
+    "O-O": {
+      "translations": {
+        "brazilian": {
+          "name": "O-O",
+          "description": "Roque pequeno"
+        },
+        "dutch": {
+          "name": "O-O",
+          "description": "Voer een korte rokade uit"
+        },
+        "english": {
+          "name": "O-O",
+          "description": "Castle kingside"
+        },
+        "french": {
+          "name": "O-O",
+          "description": "Faites un petit roque"
+        },
+        "german": {
+          "name": "O-O",
+          "description": "Kurze Rochade"
+        },
+        "italian": {
+          "name": "O-O",
+          "description": "Arrocco corto"
+        },
+        "portuguese": {
+          "name": "O-O",
+          "description": "Roque pequeno"
+        },
+        "russian": {
+          "name": "O-O",
+          "description": "Сделайте короткую рокировку (на королевский фланг)"
+        },
+        "schinese": {
+          "name": "短易位",
+          "description": "完成王翼易位。"
+        },
+        "spanish": {
+          "name": "O-O",
+          "description": "Enroque corto"
+        }
+      }
+    },
+    "Check": {
+      "translations": {
+        "brazilian": {
+          "name": "Xeque",
+          "description": "Coloque o oponente em xeque"
+        },
+        "dutch": {
+          "name": "Schaak",
+          "description": "Zet een tegenstander schaak"
+        },
+        "english": {
+          "name": "Check",
+          "description": "Put an opponent in check"
+        },
+        "french": {
+          "name": "Échec",
+          "description": "Mettez un adversaire en échec"
+        },
+        "german": {
+          "name": "Schach",
+          "description": "Biete einem Gegner Schach"
+        },
+        "italian": {
+          "name": "Scacco",
+          "description": "Metti l'avversario in scacco"
+        },
+        "portuguese": {
+          "name": "Xeque",
+          "description": "Coloque o oponente em xeque"
+        },
+        "russian": {
+          "name": "Шах",
+          "description": "Поставьте сопернику шах"
+        },
+        "schinese": {
+          "name": "将军",
+          "description": "对对手形成将军。"
+        },
+        "spanish": {
+          "name": "Jaque",
+          "description": "Pon a un oponente en jaque"
+        }
+      }
+    },
+    "Checkmate": {
+      "translations": {
+        "brazilian": {
+          "name": "Xeque-mate",
+          "description": "Ganhe uma partida"
+        },
+        "dutch": {
+          "name": "Schaakmat",
+          "description": "Win een partij"
+        },
+        "english": {
+          "name": "Checkmate",
+          "description": "Win a game"
+        },
+        "french": {
+          "name": "Échec et mat",
+          "description": "Gagnez la partie"
+        },
+        "german": {
+          "name": "Schachmatt",
+          "description": "Gewinnen Sie ein Spiel"
+        },
+        "italian": {
+          "name": "Scacco matto",
+          "description": "Vinci una partita"
+        },
+        "portuguese": {
+          "name": "Xeque-mate",
+          "description": "Ganhe uma partida"
+        },
+        "russian": {
+          "name": "Мат",
+          "description": "Выиграйте партию"
+        },
+        "schinese": {
+          "name": "将杀",
+          "description": "赢得一局游戏。"
+        },
+        "spanish": {
+          "name": "Jaque mate",
+          "description": "Gana una partida"
+        }
+      }
+    },
+    "ChopWood": {
+      "translations": {
+        "brazilian": {
+          "name": "Cortando lenha",
+          "description": "Faça uma captura ou uma troca"
+        },
+        "dutch": {
+          "name": "Handel",
+          "description": "Sla of ruil een stuk"
+        },
+        "english": {
+          "name": "Chop Wood",
+          "description": "Make a capture or exchange"
+        },
+        "french": {
+          "name": "Échange",
+          "description": "Effectuez une prise ou un échange"
+        },
+        "german": {
+          "name": "Holzhacker",
+          "description": "Schlagen Sie eine Figur oder machen Sie einen Tausch"
+        },
+        "italian": {
+          "name": "Taglialegna",
+          "description": "Esegui una cattura o uno scambio"
+        },
+        "portuguese": {
+          "name": "Cortando lenha",
+          "description": "Faça uma captura ou uma troca"
+        },
+        "russian": {
+          "name": "Лес рубят — щепки летят",
+          "description": "Возьмите или разменяйте фигуру"
+        },
+        "schinese": {
+          "name": "吃子",
+          "description": "完成一次吃子或兑子。"
+        },
+        "spanish": {
+          "name": "Corta madera",
+          "description": "Haz una captura o un intercambio"
+        }
+      }
+    },
+    "Promotion": {
+      "translations": {
+        "brazilian": {
+          "name": "Promoção",
+          "description": "Avance um peão até a oitava fileira"
+        },
+        "dutch": {
+          "name": "Promotie",
+          "description": "Zorg dat een pion de achtste rij bereikt"
+        },
+        "english": {
+          "name": "Promotion",
+          "description": "Advance a pawn to the eighth rank"
+        },
+        "french": {
+          "name": "Promotion",
+          "description": "Faites remonter un pion jusqu'à la huitième rangée"
+        },
+        "german": {
+          "name": "Beförderung",
+          "description": "Ziehen Sie einen Bauern auf die 8..."
+        },
+        "italian": {
+          "name": "Promozione",
+          "description": "Fai avanzare un pedone all'ottava traversa"
+        },
+        "portuguese": {
+          "name": "Promoção",
+          "description": "Avance um peão até a oitava fileira"
+        },
+        "russian": {
+          "name": "Превращение",
+          "description": "Проведите пешку на восьмую горизонталь"
+        },
+        "schinese": {
+          "name": "升变",
+          "description": "将一个兵推进到第八横线。"
+        },
+        "spanish": {
+          "name": "Coronación",
+          "description": "Haz avanzar a un peón hasta la octava fila"
+        }
+      }
+    },
+    "Underpromote": {
+      "translations": {
+        "brazilian": {
+          "name": "Subpromoção",
+          "description": "Promova um peão a uma Torre, um Bispo ou um Cavalo em vez de uma Dama"
+        },
+        "dutch": {
+          "name": "Minorpromotie",
+          "description": "Promoveer een pion tot toren, loper of paard in plaats van een dame"
+        },
+        "english": {
+          "name": "Underpromote",
+          "description": "Promote a pawn to a Rook, Bishop, or Knight instead of a Queen"
+        },
+        "french": {
+          "name": "Sous-promotion",
+          "description": "Promulguez un pion au rang de tour, de fou ou de cavalier plutôt que de dame"
+        },
+        "german": {
+          "name": "Unterforderung",
+          "description": "Wandeln Sie einen Bauern in einen Turm, Läufer oder Springer statt einer Dame um"
+        },
+        "italian": {
+          "name": "Promozione ridotta",
+          "description": "Promuovi un Pedone in Torre, Alfiere o Cavallo invece che in Regina"
+        },
+        "portuguese": {
+          "name": "Subpromoção",
+          "description": "Promova um peão a uma Torre, um Bispo ou um Cavalo em vez de uma Dama"
+        },
+        "russian": {
+          "name": "Превращение не на полную",
+          "description": "Проведите пешку в ладью, слона или коня, а не в ферзя"
+        },
+        "schinese": {
+          "name": "欠升变",
+          "description": "将兵升变为车、象或马，而不是后。"
+        },
+        "spanish": {
+          "name": "Coronación inferior",
+          "description": "Corona a un peón como una torre, un alfil o un caballo en lugar de una dama"
+        }
+      }
+    },
+    "EnPassant": {
+      "translations": {
+        "brazilian": {
+          "name": "En Passant",
+          "description": "Faça uma captura en passant"
+        },
+        "dutch": {
+          "name": "En passant",
+          "description": "Sla en passant"
+        },
+        "english": {
+          "name": "En Passant",
+          "description": "Perform an en passant capture"
+        },
+        "french": {
+          "name": "En Passant",
+          "description": "Effectuez une prise en passant"
+        },
+        "german": {
+          "name": "En-Passant",
+          "description": "Schlagen Sie einen Bauern en-passant"
+        },
+        "italian": {
+          "name": "En passant",
+          "description": "Esegui una cattura en passant"
+        },
+        "portuguese": {
+          "name": "En Passant",
+          "description": "Faça uma captura en passant"
+        },
+        "russian": {
+          "name": "На проходе",
+          "description": "Выполните взятие на проходе"
+        },
+        "schinese": {
+          "name": "吃过路兵",
+          "description": "完成一次吃过路兵。"
+        },
+        "spanish": {
+          "name": "Captura al paso",
+          "description": "Realiza una captura al paso"
+        }
+      }
+    },
+    "DoubleCheck": {
+      "translations": {
+        "brazilian": {
+          "name": "Xeque duplo",
+          "description": "Dê um xeque com duas peças ao mesmo tempo"
+        },
+        "dutch": {
+          "name": "Dubbele schaak",
+          "description": "Geef schaak met twee stukken tegelijk"
+        },
+        "english": {
+          "name": "Double Check",
+          "description": "Deliver a check by two pieces at the same time"
+        },
+        "french": {
+          "name": "Double échec",
+          "description": "Effectuez un échec avec deux pièces en même temps"
+        },
+        "german": {
+          "name": "Doppelt hält besser",
+          "description": "Bieten Sie mit zwei Figuren gleichzeitig Schach"
+        },
+        "italian": {
+          "name": "Scacco doppio",
+          "description": "Esegui uno scacco usando due pezzi contemporaneamente"
+        },
+        "portuguese": {
+          "name": "Xeque duplo",
+          "description": "Dê um xeque com duas peças ao mesmo tempo"
+        },
+        "russian": {
+          "name": "Двойной шах",
+          "description": "Поставьте шах двумя фигурами сразу"
+        },
+        "schinese": {
+          "name": "双将",
+          "description": "同时用两个棋子形成将军。"
+        },
+        "spanish": {
+          "name": "Jaque doble",
+          "description": "Haz un jaque con dos piezas a la vez"
+        }
+      }
+    },
+    "Learner": {
+      "translations": {
+        "brazilian": {
+          "name": "Aprendiz",
+          "description": "Termine todos os tutoriais"
+        },
+        "dutch": {
+          "name": "Student",
+          "description": "Voltooi alle tutorials"
+        },
+        "english": {
+          "name": "Learner",
+          "description": "Complete all the tutorials"
+        },
+        "french": {
+          "name": "Débutant",
+          "description": "Terminez tous les didacticiels"
+        },
+        "german": {
+          "name": "Schüler",
+          "description": "Schließen Sie alle Tutorials ab"
+        },
+        "italian": {
+          "name": "Studente",
+          "description": "Completa tutti i tutorial"
+        },
+        "portuguese": {
+          "name": "Aprendiz",
+          "description": "Termine todos os tutoriais"
+        },
+        "russian": {
+          "name": "Ученик",
+          "description": "Пройдите всё обучение"
+        },
+        "schinese": {
+          "name": "学习者",
+          "description": "完成所有教程。"
+        },
+        "spanish": {
+          "name": "Aprendiz",
+          "description": "Completa todos los tutoriales"
+        }
+      }
+    },
+    "PieceCollector": {
+      "translations": {
+        "brazilian": {
+          "name": "Colecionador de peças",
+          "description": "Capture 100 peças"
+        },
+        "dutch": {
+          "name": "Stukkenverzamelaar",
+          "description": "Sla 100 stukken"
+        },
+        "english": {
+          "name": "Piece Collector",
+          "description": "Capture 100 pieces"
+        },
+        "french": {
+          "name": "Collectionneur",
+          "description": "Prenez 100 pièces"
+        },
+        "german": {
+          "name": "Sammler",
+          "description": "Schlagen Sie 100 Figuren"
+        },
+        "italian": {
+          "name": "Collezionista di pezzi",
+          "description": "Cattura 100 pezzi"
+        },
+        "portuguese": {
+          "name": "Colecionador de peças",
+          "description": "Capture 100 peças"
+        },
+        "russian": {
+          "name": "Собиратель фигур",
+          "description": "Возьмите 100 фигур"
+        },
+        "schinese": {
+          "name": "棋子收藏家",
+          "description": "吃掉 100 个棋子。"
+        },
+        "spanish": {
+          "name": "Coleccionista de piezas",
+          "description": "Captura 100 piezas"
+        }
+      }
+    },
+    "EpauletteMate": {
+      "translations": {
+        "brazilian": {
+          "name": "Mate de Epaulette",
+          "description": "Dê o xeque-mate quando o Rei estiver bloqueado em ambos os lados por suas próprias Torres"
+        },
+        "dutch": {
+          "name": "Epaulettenmat",
+          "description": "Geef schaakmat waarbij de koning aan beide kanten wordt geblokkeerd door zijn eigen torens"
+        },
+        "english": {
+          "name": "Epaulette Mate",
+          "description": "Deliver checkmate where the King is blocked on both sides by his own Rooks"
+        },
+        "french": {
+          "name": "Mat des épaulettes",
+          "description": "Mettez l'adversaire en mat en bloquant le roi de chaque côté avec ses propres tours"
+        },
+        "german": {
+          "name": "In der Klemme",
+          "description": "Bieten Sie Schach während der gegnerische König zwischen seinen beiden Türmen steht"
+        },
+        "italian": {
+          "name": "Matto delle spalline",
+          "description": "Esegui uno scacco dove il Re è bloccato su entrambi i lati dalle proprie Torri"
+        },
+        "portuguese": {
+          "name": "Mate de Epaulette",
+          "description": "Dê o xeque-mate quando o Rei estiver bloqueado em ambos os lados por suas próprias Torres"
+        },
+        "russian": {
+          "name": "Эполетный мат",
+          "description": "Поставьте мат, при котором король с двух сторон блокирован своими же ладьями"
+        },
+        "schinese": {
+          "name": "肩章将杀",
+          "description": "在王的两侧被自己的车堵住时完成将杀。"
+        },
+        "spanish": {
+          "name": "Mate de charretera",
+          "description": "Haz un jaque mate en el que el rey esté bloqueado por ambos lados por sus propias torres"
+        }
+      }
+    },
+    "FoolsMate": {
+      "translations": {
+        "brazilian": {
+          "name": "Mate do Louco",
+          "description": "Ganhe uma partida em três lances"
+        },
+        "dutch": {
+          "name": "Narrenmat",
+          "description": "Win een partij in drie zetten"
+        },
+        "english": {
+          "name": "Fool's Mate",
+          "description": "Win a game in three moves"
+        },
+        "french": {
+          "name": "Mat du sot",
+          "description": "Gagnez une partie en trois coups"
+        },
+        "german": {
+          "name": "Narren-Matt",
+          "description": "Gewinnnen Sie eine Partie in drei Zügen"
+        },
+        "italian": {
+          "name": "Matto dell'imbecille",
+          "description": "Vinci una partita in tre mosse"
+        },
+        "portuguese": {
+          "name": "Mate do Louco",
+          "description": "Ganhe uma partida em três lances"
+        },
+        "russian": {
+          "name": "Дурацкий мат",
+          "description": "Выиграйте партию за три хода"
+        },
+        "schinese": {
+          "name": "愚者将杀",
+          "description": "三步内赢得一局游戏。"
+        },
+        "spanish": {
+          "name": "Mate del loco",
+          "description": "Gana una partida en tres movimientos"
+        }
+      }
+    },
+    "ScholarsMate": {
+      "translations": {
+        "brazilian": {
+          "name": "Mate Pastor",
+          "description": "Ganhe uma partida em quatro lances"
+        },
+        "dutch": {
+          "name": "Herdersmat",
+          "description": "Win een partij in vier zetten"
+        },
+        "english": {
+          "name": "Scholar's Mate",
+          "description": "Win a game in four moves"
+        },
+        "french": {
+          "name": "Mat du berger",
+          "description": "Gagnez une partie en quatre coups"
+        },
+        "german": {
+          "name": "Gelehrten-Matt",
+          "description": "Gewinnnen Sie eine Partie in vier Zügen"
+        },
+        "italian": {
+          "name": "Matto del barbiere",
+          "description": "Vinci una partita in quattro mosse"
+        },
+        "portuguese": {
+          "name": "Mate Pastor",
+          "description": "Ganhe uma partida em quatro lances"
+        },
+        "russian": {
+          "name": "Детский мат",
+          "description": "Выиграйте партию за четыре хода"
+        },
+        "schinese": {
+          "name": "学者将杀",
+          "description": "四步内赢得一局游戏。"
+        },
+        "spanish": {
+          "name": "Mate del pastor",
+          "description": "Gana una partida en cuatro movimientos"
+        }
+      }
+    },
+    "Octopus": {
+      "translations": {
+        "brazilian": {
+          "name": "Polvo",
+          "description": "Posicione um Cavalo Branco em e6"
+        },
+        "dutch": {
+          "name": "Octopus",
+          "description": "Plaats een wit paard op e6"
+        },
+        "english": {
+          "name": "Octopus",
+          "description": "Place a White Knight on e6"
+        },
+        "french": {
+          "name": "Pieuvre",
+          "description": "Placez un cavalier blanc en e6"
+        },
+        "german": {
+          "name": "Oktopus",
+          "description": "Ziehen Sie einen Springer auf e6"
+        },
+        "italian": {
+          "name": "Piovra",
+          "description": "Posiziona un Cavallo bianco su e6"
+        },
+        "portuguese": {
+          "name": "Polvo",
+          "description": "Posicione um Cavalo Branco em e6"
+        },
+        "russian": {
+          "name": "Осьминог",
+          "description": "Пойдите белым конем на e6"
+        },
+        "schinese": {
+          "name": "章鱼马",
+          "description": "将白马放到 e6。"
+        },
+        "spanish": {
+          "name": "Pulpo",
+          "description": "Coloca a un caballo blanco en e6"
+        }
+      }
+    },
+    "SpanishBishop": {
+      "translations": {
+        "brazilian": {
+          "name": "Bispo espanhol",
+          "description": "Movimente um Bispo branco do lado do Rei para b5"
+        },
+        "dutch": {
+          "name": "Spaanse loper",
+          "description": "Ontwikkel een witte loper aan de koningskant naar b5"
+        },
+        "english": {
+          "name": "Spanish Bishop",
+          "description": "Develop a White King Bishop to b5"
+        },
+        "french": {
+          "name": "Fou espagnol",
+          "description": "Placez le fou du roi blanc en b5"
+        },
+        "german": {
+          "name": "Spanischer Läufer",
+          "description": "Ziehen Sie den weißen Läufer der Königsseite nach b5"
+        },
+        "italian": {
+          "name": "Apertura spagnola",
+          "description": "Sviluppa un Alfiere bianco su b5"
+        },
+        "portuguese": {
+          "name": "Bispo espanhol",
+          "description": "Movimente um Bispo branco do lado do Rei para b5"
+        },
+        "russian": {
+          "name": "Испанский слон",
+          "description": "Пойдите белым белопольным слоном на b5"
+        },
+        "schinese": {
+          "name": "西班牙象",
+          "description": "把白方王翼象出到 b5。"
+        },
+        "spanish": {
+          "name": "Alfil español",
+          "description": "Desarrolla a un alfil de rey blanco a b5"
+        }
+      }
+    },
+    "TournamentAmateur": {
+      "translations": {
+        "brazilian": {
+          "name": "Amador",
+          "description": "Vença um torneio"
+        },
+        "dutch": {
+          "name": "Toernooiamateur",
+          "description": "Win een toernooi"
+        },
+        "english": {
+          "name": "Tournament Amateur",
+          "description": "Win a tournament"
+        },
+        "french": {
+          "name": "Tournoi Amateur",
+          "description": "Gagnez un tournoi"
+        },
+        "german": {
+          "name": "Turnier-Amateur",
+          "description": "Gewnnen Sie ein Turnier"
+        },
+        "italian": {
+          "name": "Principiante dei tornei",
+          "description": "Vinci un torneo"
+        },
+        "portuguese": {
+          "name": "Amador",
+          "description": "Vença um torneio"
+        },
+        "russian": {
+          "name": "Любитель турниров",
+          "description": "Выиграйте турнир"
+        },
+        "schinese": {
+          "name": "锦标赛业余选手",
+          "description": "赢得一场锦标赛。"
+        },
+        "spanish": {
+          "name": "Principiante de los torneos",
+          "description": "Gana un torneo"
+        }
+      }
+    },
+    "ProblemSolver": {
+      "translations": {
+        "brazilian": {
+          "name": "Solucionador de problemas",
+          "description": "Conclua 50% dos desafios de xadrez"
+        },
+        "dutch": {
+          "name": "Probleemoplosser",
+          "description": "Voltooi 50% van de schaakuitdagingen"
+        },
+        "english": {
+          "name": "Problem Solver",
+          "description": "Complete 50% of the chess challenges"
+        },
+        "french": {
+          "name": "Solutionneur",
+          "description": "Terminez 50 % des défis d'échecs"
+        },
+        "german": {
+          "name": "Problemlöser",
+          "description": "Lösen Sie 50% der Schach-Herausforderungen"
+        },
+        "italian": {
+          "name": "Risolutore",
+          "description": "Completa il 50% delle sfide scacchistiche"
+        },
+        "portuguese": {
+          "name": "Solucionador de problemas",
+          "description": "Conclua 50% dos desafios de xadrez"
+        },
+        "russian": {
+          "name": "Любитель загадок",
+          "description": "Решите половину всех задач"
+        },
+        "schinese": {
+          "name": "解题者",
+          "description": "完成 50% 的国际象棋挑战。"
+        },
+        "spanish": {
+          "name": "Solucionador de problemas",
+          "description": "Completa el 50% de los desafíos de ajedrez"
+        }
+      }
+    },
+    "Elo": {
+      "translations": {
+        "brazilian": {
+          "name": "Elo",
+          "description": "Vença um oponente com uma classificação Elo superior à sua"
+        },
+        "dutch": {
+          "name": "Elo",
+          "description": "Versla een tegenstander met een hogere Elo-rating dan jij hebt"
+        },
+        "english": {
+          "name": "Elo",
+          "description": "Beat an opponent with an Elo rating higher than yours"
+        },
+        "french": {
+          "name": "Elo",
+          "description": "Battez un adversaire ayant un classement Elo supérieur au vôtre"
+        },
+        "german": {
+          "name": "Elo",
+          "description": "Schlagen Sie einen Gegner, der einen höheren Elo-Wert als Sie hat"
+        },
+        "italian": {
+          "name": "Elo",
+          "description": "Sconfiggi un avversario con un Rating Elo più alto del tuo"
+        },
+        "portuguese": {
+          "name": "Elo",
+          "description": "Vença um oponente com uma classificação Elo superior à sua"
+        },
+        "russian": {
+          "name": "Эло",
+          "description": "Победите соперника с рейтингом Эло выше, чем у вас"
+        },
+        "schinese": {
+          "name": "Elo",
+          "description": "击败 Elo 等级分高于你的对手。"
+        },
+        "spanish": {
+          "name": "Elo",
+          "description": "Gana a un oponente con una clasificación Elo superior a la tuya"
+        }
+      }
+    },
+    "StrangerDanger": {
+      "translations": {
+        "brazilian": {
+          "name": "Jogatina perigosa",
+          "description": "Crie uma partida aleatória online"
+        },
+        "dutch": {
+          "name": "Vreemdelingenliefde",
+          "description": "Maak een willekeurige online partij aan"
+        },
+        "english": {
+          "name": "Stranger Danger",
+          "description": "Create a random online game"
+        },
+        "french": {
+          "name": "Peur de l'inconnu",
+          "description": "Créez une partie aléatoire en ligne"
+        },
+        "german": {
+          "name": "Unbekannte Welten",
+          "description": "Erstellen Sie eine zufällige Online-Partie"
+        },
+        "italian": {
+          "name": "Pericoloso sconosciuto",
+          "description": "Crea una partita casuale online"
+        },
+        "portuguese": {
+          "name": "Jogatina perigosa",
+          "description": "Crie uma partida aleatória online"
+        },
+        "russian": {
+          "name": "Опасные связи",
+          "description": "Сыграйте по сети со случайным соперником"
+        },
+        "schinese": {
+          "name": "陌生对局",
+          "description": "创建一局随机线上游戏。"
+        },
+        "spanish": {
+          "name": "Peligro con desconocidos",
+          "description": "Crea una partida en línea aleatoria"
+        }
+      }
+    },
+    "FriendlyFire": {
+      "translations": {
+        "brazilian": {
+          "name": "Fogo amigo",
+          "description": "Desafie um amigo online"
+        },
+        "dutch": {
+          "name": "Vriendelijk vuur",
+          "description": "Geef een vriend een online uitdaging"
+        },
+        "english": {
+          "name": "Friendly Fire",
+          "description": "Issue an online challenge to a friend"
+        },
+        "french": {
+          "name": "Meilleur ennemi",
+          "description": "Défiez un ami en ligne"
+        },
+        "german": {
+          "name": "Teambeschuss",
+          "description": "Fordern Sie online einen Freund heraus"
+        },
+        "italian": {
+          "name": "Fuoco amico",
+          "description": "Sfida a una partita online un amico"
+        },
+        "portuguese": {
+          "name": "Fogo amigo",
+          "description": "Desafie um amigo online"
+        },
+        "russian": {
+          "name": "Бей своих",
+          "description": "Отправьте вызов другу"
+        },
+        "schinese": {
+          "name": "好友挑战",
+          "description": "向好友发起线上挑战。"
+        },
+        "spanish": {
+          "name": "Fuego amigo",
+          "description": "Envíale un desafío en línea a un amigo"
+        }
+      }
+    },
+    "BobbyTime": {
+      "translations": {
+        "brazilian": {
+          "name": "O relógio de Bobby",
+          "description": "Jogue uma partida usando o cronômetro Fischer"
+        },
+        "dutch": {
+          "name": "Tijd voor Bobby",
+          "description": "Speel een partij met de Fischerklok"
+        },
+        "english": {
+          "name": "Bobby Time",
+          "description": "Play a game using the Fischer timer"
+        },
+        "french": {
+          "name": "À l'heure de Bobby",
+          "description": "Disputez une partie avec la cadence Fischer"
+        },
+        "german": {
+          "name": "Bobby",
+          "description": "Spielen Sie eine Partie, in der Sie den Fischer-Timer nutzen"
+        },
+        "italian": {
+          "name": "L'ora di Bobby",
+          "description": "Gioca una partita usando l'orologio di Fischer"
+        },
+        "portuguese": {
+          "name": "O relógio de Bobby",
+          "description": "Jogue uma partida usando o cronômetro Fischer"
+        },
+        "russian": {
+          "name": "Сколько времени по Фишеру?",
+          "description": "Сыграйте партию с часами Фишера"
+        },
+        "schinese": {
+          "name": "鲍比时间",
+          "description": "使用 Fischer 计时器进行一局游戏。"
+        },
+        "spanish": {
+          "name": "Hora de Bobby",
+          "description": "Juega una partida usando el reloj de Fischer"
+        }
+      }
+    },
+    "QueenSacrifice": {
+      "translations": {
+        "brazilian": {
+          "name": "Sacrifício da Dama",
+          "description": "Sacrifique a Dama para ganhar a partida"
+        },
+        "dutch": {
+          "name": "Dame-offer",
+          "description": "Offer de dame en win de partij toch"
+        },
+        "english": {
+          "name": "Queen Sacrifice",
+          "description": "Sacrifice the Queen then go on to win the game"
+        },
+        "french": {
+          "name": "Dame sacrifiée",
+          "description": "Sacrifiez la dame et gagnez la partie"
+        },
+        "german": {
+          "name": "Damenopfer",
+          "description": "Opfern Sie Ihre Dame und gewinnen Sie dann die Partie"
+        },
+        "italian": {
+          "name": "Sacrificio della Regina",
+          "description": "Sacrifica la Regina e poi vinci la partita"
+        },
+        "portuguese": {
+          "name": "Sacrifício da Dama",
+          "description": "Sacrifique a Dama para ganhar a partida"
+        },
+        "russian": {
+          "name": "Жертва ферзя",
+          "description": "Пожертвуйте ферзя и продолжите партию"
+        },
+        "schinese": {
+          "name": "弃后",
+          "description": "牺牲后并最终赢得游戏。"
+        },
+        "spanish": {
+          "name": "Sacrificio de la dama",
+          "description": "Sacrifica a la dama y sigue ganando la partida"
+        }
+      }
+    },
+    "FamilyFork": {
+      "translations": {
+        "brazilian": {
+          "name": "Forquilha familiar",
+          "description": "Usando um Cavalo, ataque simultaneamente o Rei e a Dama do oponente"
+        },
+        "dutch": {
+          "name": "Familieschaak",
+          "description": "Gebruik het paard om de koning en dame van je tegenstander tegelijk aan te vallen"
+        },
+        "english": {
+          "name": "Family Fork",
+          "description": "Using a Knight simultaneously attack the enemy King and Queen"
+        },
+        "french": {
+          "name": "Fourchette multiple",
+          "description": "Attaquez simultanément le roi et la dame avec un cavalier"
+        },
+        "german": {
+          "name": "Familiengabel",
+          "description": "Attackieren Sie mit einem Springer gleichzeitig König und Dame des Gegners"
+        },
+        "italian": {
+          "name": "Forchetta di famiglia",
+          "description": "Usando un Cavallo, attacca simultaneamente un Re e una Regina avversari"
+        },
+        "portuguese": {
+          "name": "Forquilha familiar",
+          "description": "Usando um Cavalo, ataque simultaneamente o Rei e a Dama do oponente"
+        },
+        "russian": {
+          "name": "Королевская вилка",
+          "description": "Поставьте конем вилку королю и ферзю соперника"
+        },
+        "schinese": {
+          "name": "家庭叉击",
+          "description": "用马同时攻击敌方王和后。"
+        },
+        "spanish": {
+          "name": "Horquilla familiar",
+          "description": "Ataca con un caballo al rey y a la dama enemigos a la vez"
+        }
+      }
+    },
+    "EloElo": {
+      "translations": {
+        "brazilian": {
+          "name": "Elo Elo",
+          "description": "Vença um oponente com uma classificação Elo superior a 75 a mais que a sua"
+        },
+        "dutch": {
+          "name": "Elo Elo",
+          "description": "Versla een tegenstander met een Elo-rating die meer dan 75 punten hoger is dan de jouwe"
+        },
+        "english": {
+          "name": "Elo Elo",
+          "description": "Beat an opponent with an Elo rating more than 75 higher than yours"
+        },
+        "french": {
+          "name": "Super Elo",
+          "description": "Battez un adversaire dont le classement Elo dépasse le vôtre de plus de 75"
+        },
+        "german": {
+          "name": "Elo Elo",
+          "description": "Schlagen Sie einen Gegner, dessen Elo-Wert 75 Punkte über Ihrem liegt"
+        },
+        "italian": {
+          "name": "Elo Elo",
+          "description": "Sconfiggi un avversario con un Rating Elo più alto del tuo di più di 75 punti"
+        },
+        "portuguese": {
+          "name": "Elo Elo",
+          "description": "Vença um oponente com uma classificação Elo superior a 75 a mais que a sua"
+        },
+        "russian": {
+          "name": "Эло-Эло",
+          "description": "Победите соперника с рейтингом Эло на 75 ед. выше, чем у вас"
+        },
+        "schinese": {
+          "name": "Elo Elo",
+          "description": "击败 Elo 等级分比你高 75 以上的对手。"
+        },
+        "spanish": {
+          "name": "Elo Elo",
+          "description": "Gana a un oponente con una clasificación Elo 75 mayor que la tuya"
+        }
+      }
+    },
+    "TournamentPro": {
+      "translations": {
+        "brazilian": {
+          "name": "Profissional",
+          "description": "Vença 5 torneios"
+        },
+        "dutch": {
+          "name": "Toernooi-pro",
+          "description": "Win 5 toernooien"
+        },
+        "english": {
+          "name": "Tournament Pro",
+          "description": "Win 5 tournaments"
+        },
+        "french": {
+          "name": "Pro des tournois",
+          "description": "Gagnez 5 tournois"
+        },
+        "german": {
+          "name": "Turnierprofi",
+          "description": "Gewinnen Sie fünf Turniere"
+        },
+        "italian": {
+          "name": "Professionista dei tornei",
+          "description": "Vinci 5 tornei"
+        },
+        "portuguese": {
+          "name": "Profissional",
+          "description": "Vença 5 torneios"
+        },
+        "russian": {
+          "name": "Турнирный боец",
+          "description": "Выиграйте 5 турниров"
+        },
+        "schinese": {
+          "name": "锦标赛职业选手",
+          "description": "赢得 5 场锦标赛。"
+        },
+        "spanish": {
+          "name": "Profesional de los torneos",
+          "description": "Gana 5 torneos"
+        }
+      }
+    },
+    "BlindPigs": {
+      "translations": {
+        "brazilian": {
+          "name": "Porcos cegos",
+          "description": "Manobre um par de Torres até a segunda fileira do seu oponente"
+        },
+        "dutch": {
+          "name": "De twee torens",
+          "description": "Manoeuvreer twee torens naar de tweede rij van je tegenstander"
+        },
+        "english": {
+          "name": "Blind Pigs",
+          "description": "Manoeuvre a pair of Rooks onto your opponent’s second rank"
+        },
+        "french": {
+          "name": "Prise de contrôle",
+          "description": "Placez deux tours sur la deuxième rangée de votre adversaire"
+        },
+        "german": {
+          "name": "Blinde Schweinchen",
+          "description": "Manövrieren Sie ein Paar Türme in die zweite Reihe Ihres Gegners"
+        },
+        "italian": {
+          "name": "Maiali ciechi",
+          "description": "Manovra due Torri fino alla seconda traversa del tuo avversario"
+        },
+        "portuguese": {
+          "name": "Porcos cegos",
+          "description": "Manobre um par de Torres até a segunda fileira do seu oponente"
+        },
+        "russian": {
+          "name": "Жадные ладьи",
+          "description": "Поставьте обе ладьи на вторую горизонталь соперника"
+        },
+        "schinese": {
+          "name": "盲猪",
+          "description": "把一对车调动到对手第二横线。"
+        },
+        "spanish": {
+          "name": "Torres en séptima",
+          "description": "Coloca un par de torres en la segunda fila de tu oponente"
+        }
+      }
+    },
+    "Stalemate": {
+      "translations": {
+        "brazilian": {
+          "name": "Afogamento",
+          "description": "Empate uma partida por afogamento"
+        },
+        "dutch": {
+          "name": "Patstelling",
+          "description": "Bereik remise door een patstelling"
+        },
+        "english": {
+          "name": "Stalemate",
+          "description": "Draw a game by stalemate"
+        },
+        "french": {
+          "name": "Pat",
+          "description": "Faites un nul par pat"
+        },
+        "german": {
+          "name": "Patt",
+          "description": "Erzielen Sie ein Remis durch Patt"
+        },
+        "italian": {
+          "name": "Stallo",
+          "description": "Concludi una partita in patta con uno stallo"
+        },
+        "portuguese": {
+          "name": "Afogamento",
+          "description": "Empate uma partida por afogamento"
+        },
+        "russian": {
+          "name": "Пат",
+          "description": "Сведите партию вничью патом"
+        },
+        "schinese": {
+          "name": "逼和",
+          "description": "以逼和方式打成平局。"
+        },
+        "spanish": {
+          "name": "Ahogado",
+          "description": "Empata una partida con un ahogado"
+        }
+      }
+    },
+    "BodensMate": {
+      "translations": {
+        "brazilian": {
+          "name": "Mate de Boden",
+          "description": "Dê o xeque-mate quando o Rei tiver feito um roque grande e sofrer um xeque-mate por dois Bispos entrecruzados"
+        },
+        "dutch": {
+          "name": "Boden-mat",
+          "description": "Geef schaakmat waarbij de koning een lange rokade heeft uitgevoerd en schaakmat wordt gezet door twee kruisende lopers"
+        },
+        "english": {
+          "name": "Boden's Mate",
+          "description": "Deliver checkmate by two crisscrossing Bishops, with the King's escape blocked by friendly pieces"
+        },
+        "french": {
+          "name": "Mat de Boden",
+          "description": "Faites un mat en attaquant avec deux fous en forme de croix après que le roi a effectué un grand roque"
+        },
+        "german": {
+          "name": "Bodens Matt",
+          "description": "Gewinnen Sie eine Partie, bei der der König eine lange Rochade gemacht hat und dann von Ihren zwei Läufern mit sich kreuzenden Bahnen schachmatt gesetzt wird"
+        },
+        "italian": {
+          "name": "Matto di Boden",
+          "description": "Esegui uno scacco matto dove il Re ha eseguito un arrocco lungo ed è sotto scacco matto da due Alfieri incrociati"
+        },
+        "portuguese": {
+          "name": "Mate de Boden",
+          "description": "Dê o xeque-mate quando o Rei tiver feito um roque grande e sofrer um xeque-mate por dois Bispos entrecruzados"
+        },
+        "russian": {
+          "name": "Мат Бодена",
+          "description": "Поставьте мат двумя слонами королю, который рокировался в длинную сторону"
+        },
+        "schinese": {
+          "name": "博登将杀",
+          "description": "用两只交叉控制的象完成将杀，且王的退路被己方棋子堵住。"
+        },
+        "spanish": {
+          "name": "Mate de Boden",
+          "description": "Haz un jaque mate en el que el rey haya hecho un enroque largo y recibido un jaque mate de dos alfiles entrecruzados"
+        }
+      }
+    },
+    "TournamentChampion": {
+      "translations": {
+        "brazilian": {
+          "name": "Campeão",
+          "description": "Vença um torneio de 32 jogadores"
+        },
+        "dutch": {
+          "name": "Toernooikampioen",
+          "description": "Win een toernooi met 32 spelers"
+        },
+        "english": {
+          "name": "Tournament Champion",
+          "description": "Win a 32 player tournament"
+        },
+        "french": {
+          "name": "Champion du tournoi",
+          "description": "Gagnez un tournoi de 32 joueurs"
+        },
+        "german": {
+          "name": "Turniersieger",
+          "description": "Gewinnen Sie ein Turnier mit 32 Teilnehmern"
+        },
+        "italian": {
+          "name": "Campione del torneo",
+          "description": "Vinci un torneo da 32 giocatori"
+        },
+        "portuguese": {
+          "name": "Campeão",
+          "description": "Vença um torneio de 32 jogadores"
+        },
+        "russian": {
+          "name": "Лучший из 32",
+          "description": "Выиграйте турнир на 32 игрока"
+        },
+        "schinese": {
+          "name": "锦标赛冠军",
+          "description": "赢得一场 32 人锦标赛。"
+        },
+        "spanish": {
+          "name": "Campeón de los torneos",
+          "description": "Gana un torneo de 32 jugadores"
+        }
+      }
+    },
+    "EloEloElo": {
+      "translations": {
+        "brazilian": {
+          "name": "Elo Elo Elo",
+          "description": "Vença um oponente com uma classificação Elo superior a 150 a mais que a sua"
+        },
+        "dutch": {
+          "name": "Elo Elo Elo",
+          "description": "Versla een tegenstander met een Elo-rating die meer dan 150 punten hoger is dan de jouwe"
+        },
+        "english": {
+          "name": "Elo Elo Elo",
+          "description": "Beat an opponent with an Elo rating more than 150 higher than yours"
+        },
+        "french": {
+          "name": "Méga Elo",
+          "description": "Battez un adversaire dont le classement Elo dépasse le vôtre de plus de 150"
+        },
+        "german": {
+          "name": "Elo Elo Elo",
+          "description": "Schlagen Sie einen Gegner, dessen Elo-Wert 150 Punkte über Ihrem liegt"
+        },
+        "italian": {
+          "name": "Elo Elo Elo",
+          "description": "Sconfiggi un avversario con un Rating Elo più alto del tuo di più di 150 punti"
+        },
+        "portuguese": {
+          "name": "Elo Elo Elo",
+          "description": "Vença um oponente com uma classificação Elo superior a 150 a mais que a sua"
+        },
+        "russian": {
+          "name": "Эло-Эло-Эло!",
+          "description": "Победите соперника с рейтингом Эло на 150 ед. выше, чем у вас"
+        },
+        "schinese": {
+          "name": "Elo Elo Elo",
+          "description": "击败 Elo 等级分比你高 150 以上的对手。"
+        },
+        "spanish": {
+          "name": "Elo Elo Elo",
+          "description": "Gana a un oponente con una clasificación Elo 150 mayor que la tuya"
+        }
+      }
+    },
+    "ChessChampion": {
+      "translations": {
+        "brazilian": {
+          "name": "Campeão de Xadrez",
+          "description": "Vença o computador na dificuldade Grande Mestre"
+        },
+        "dutch": {
+          "name": "Schaakkampioen",
+          "description": "Versla de computer op niveau Grootmeester"
+        },
+        "english": {
+          "name": "Chess Champion",
+          "description": "Beat the computer on Grandmaster difficulty"
+        },
+        "french": {
+          "name": "Champion d'échecs",
+          "description": "Battez l'ordinateur en difficulté Grand maître"
+        },
+        "german": {
+          "name": "Schach-Champion",
+          "description": "Schlagen Sie den Computer auf der Schwierigkeitsstufe Großmeister"
+        },
+        "italian": {
+          "name": "Campione di scacchi",
+          "description": "Sconfiggi il computer alla difficoltà Gran maestro"
+        },
+        "portuguese": {
+          "name": "Campeão de Xadrez",
+          "description": "Vença o computador na dificuldade Grande Mestre"
+        },
+        "russian": {
+          "name": "Чемпион по шахматам",
+          "description": "Победите компьютерного соперника на уровне сложности «Гроссмейстер»"
+        },
+        "schinese": {
+          "name": "国际象棋冠军",
+          "description": "在特级大师难度击败电脑。"
+        },
+        "spanish": {
+          "name": "Campeón de ajedrez",
+          "description": "Gana al ordenador en dificultad Gran Maestro"
+        }
+      }
+    },
+    "ProblemSolved": {
+      "translations": {
+        "brazilian": {
+          "name": "Problema resolvido",
+          "description": "Conclua todos os desafios de xadrez"
+        },
+        "dutch": {
+          "name": "Probleem opgelost",
+          "description": "Voltooi alle schaakuitdagingen"
+        },
+        "english": {
+          "name": "Problem Solved",
+          "description": "Complete all the chess challenges"
+        },
+        "french": {
+          "name": "Problème résolu",
+          "description": "Terminez tous les défis d'échecs"
+        },
+        "german": {
+          "name": "Problem gelöst",
+          "description": "Lösen Sie alle Schach-Herausforderungen"
+        },
+        "italian": {
+          "name": "Problema risolto",
+          "description": "Completa tutte le sfide scacchistiche"
+        },
+        "portuguese": {
+          "name": "Problema resolvido",
+          "description": "Conclua todos os desafios de xadrez"
+        },
+        "russian": {
+          "name": "Проблема решена",
+          "description": "Решите все задачи"
+        },
+        "schinese": {
+          "name": "难题已解",
+          "description": "完成所有国际象棋挑战。"
+        },
+        "spanish": {
+          "name": "Problema resuelto",
+          "description": "Completa todos los desafíos de ajedrez"
+        }
+      }
+    },
+    "TournamentMaster": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre",
+          "description": "Vença 20 torneios"
+        },
+        "dutch": {
+          "name": "Toernooimeester",
+          "description": "Win 20 toernooien"
+        },
+        "english": {
+          "name": "Tournament Master",
+          "description": "Win 20 tournaments"
+        },
+        "french": {
+          "name": "Maître des tournois",
+          "description": "Gagnez 20 tournois"
+        },
+        "german": {
+          "name": "Turniermeister",
+          "description": "Gewinnen Sie 20 Turniere"
+        },
+        "italian": {
+          "name": "Maestro dei tornei",
+          "description": "Vinci 20 tornei"
+        },
+        "portuguese": {
+          "name": "Mestre",
+          "description": "Vença 20 torneios"
+        },
+        "russian": {
+          "name": "Гроза турниров",
+          "description": "Выиграйте 20 турниров"
+        },
+        "schinese": {
+          "name": "锦标赛大师",
+          "description": "赢得 20 场锦标赛。"
+        },
+        "spanish": {
+          "name": "Maestro de los torneos",
+          "description": "Gana 20 torneos"
+        }
+      }
+    }
+  }
+}

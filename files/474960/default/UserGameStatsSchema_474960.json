@@ -1,0 +1,2037 @@
+{
+  "version": 1,
+  "app_id": "474960",
+  "variant_id": "default",
+  "source_sha256": "7a9bbca246629584df22a1bc2eff87afd751c2891b77a971b85db4762304f86a",
+  "languages": [
+    "brazilian",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "koreana",
+    "russian",
+    "schinese",
+    "spanish",
+    "tchinese"
+  ],
+  "achievements": {
+    "ACH_EVERYBODY_GATHER_AROUND": {
+      "translations": {
+        "brazilian": {
+          "name": "Todo mundo aqui",
+          "description": "Matar 3 inimigos com um único Estouro Temporal."
+        },
+        "english": {
+          "name": "Everybody Gather Around",
+          "description": "Kill 3 enemies with a single Time Blast."
+        },
+        "french": {
+          "name": "Approchez-vous tous",
+          "description": "Tuer 3 ennemis avec une seule déflagration temporelle."
+        },
+        "german": {
+          "name": "Kommt mal alle her",
+          "description": "Erledige 3 Gegner mit einer einzigen Zeitexplosion."
+        },
+        "italian": {
+          "name": "Tutti insieme",
+          "description": "Uccidi tre nemici con un'esplosione temporale."
+        },
+        "japanese": {
+          "name": "まとめてかかって来い",
+          "description": "1 発のタイム ブラストで 3 人の敵をキル。"
+        },
+        "koreana": {
+          "name": "다들 모여 봐",
+          "description": "시간 폭발로 3명의 적을 처치합니다."
+        },
+        "russian": {
+          "name": "Встаньте в круг",
+          "description": "Убить 3-х врагов одним Хроновзрывом."
+        },
+        "schinese": {
+          "name": "大家聚集过来",
+          "description": "用时间爆炸同时杀死3个敌人。"
+        },
+        "spanish": {
+          "name": "Acérquense todos",
+          "description": "Mata 3 enemigos con Explosión temporal."
+        },
+        "tchinese": {
+          "name": "大家聚集過來",
+          "description": "用時間爆炸同時殺死3個敵人。"
+        }
+      }
+    },
+    "ACH_FOCUS_AIM_PULL": {
+      "translations": {
+        "brazilian": {
+          "name": "Focar. Mirar. Puxar",
+          "description": "Matar 10 inimigos com um tiro na cabeça enquanto estiver usando o Foco de Esquiva."
+        },
+        "english": {
+          "name": "Focus. Aim. Pull.",
+          "description": "Kill 10 enemies with a head shot while using Dodge Focus."
+        },
+        "french": {
+          "name": "Concentration, visée et exécution",
+          "description": "Tuer 10 ennemis d'une balle dans la tête en utilisant la concentration d'esquive."
+        },
+        "german": {
+          "name": "Fokussieren. Zielen. Abdrücken.",
+          "description": "Töte 10 Feinde mit einem Kopfschuss, während du Whooshen-Fokus verwendest."
+        },
+        "italian": {
+          "name": "Concentrati, mira e... fuoco!",
+          "description": "Effettua 10 colpi alla testa durante il tempo di concentrazione."
+        },
+        "japanese": {
+          "name": "構え　狙え　撃て",
+          "description": "ドッジ フォーカス使用中にヘッドショットで 10 人の敵をキル。"
+        },
+        "koreana": {
+          "name": "집중하고, 조준하고, 당겨라.",
+          "description": "회피 집중을 사용하여 헤드샷으로 10명의 적을 처치합니다."
+        },
+        "russian": {
+          "name": "Соберись. Прицелься. Огонь.",
+          "description": "Убить 10 врагов выстрелами в голову во время действия Фокуса уклонения."
+        },
+        "schinese": {
+          "name": "聚焦、瞄准、射击。",
+          "description": "在使用闪避聚焦的情况下，用子弹爆头杀死10个敌人。"
+        },
+        "spanish": {
+          "name": "Concentren. Apunten. Fuego.",
+          "description": "Mata 10 enemigos con disparos a la cabeza mientras usas Regate concentrado."
+        },
+        "tchinese": {
+          "name": "聚焦、瞄準、射擊。",
+          "description": "在使用閃避聚焦的情況下，用子彈爆頭殺死10個敵人。"
+        }
+      }
+    },
+    "ACH_ONE_FOOT_IN_FRONT_OF_ANOTHER": {
+      "translations": {
+        "brazilian": {
+          "name": "Um pé na frente do outro",
+          "description": "Usar Aceleração Temporal por um total de 100 metros."
+        },
+        "english": {
+          "name": "One Foot in Front of Another",
+          "description": "Traverse a total of 100 meters using the Time Rush."
+        },
+        "french": {
+          "name": "Un pied devant l'autre",
+          "description": "Effectuer une accélération temporelle sur un total de 100 mètres."
+        },
+        "german": {
+          "name": "Ein Schritt nach dem anderen",
+          "description": "Lege insgesamt 100 Meter mit Flashen zurück."
+        },
+        "italian": {
+          "name": "Un passo alla volta",
+          "description": "Percorri un totale di 100 metri con lo scatto temporale."
+        },
+        "japanese": {
+          "name": "もう一歩前へ",
+          "description": "タイム ラッシュを使用して合計 100 メートルの距離を移動。"
+        },
+        "koreana": {
+          "name": "한발 한발 전진",
+          "description": "시간 돌진을 사용하여 총 100미터를 이동합니다."
+        },
+        "russian": {
+          "name": "Левой, правой",
+          "description": "Преодолеть в общей сложности 100 метров с помощью Хронорывка."
+        },
+        "schinese": {
+          "name": "循序渐进",
+          "description": "用时光冲刺，共穿越100公尺。"
+        },
+        "spanish": {
+          "name": "Un pie por delante del otro",
+          "description": "Recorre un total de 100 metros con Aceleración temporal."
+        },
+        "tchinese": {
+          "name": "循序漸進",
+          "description": "用時光衝刺，共穿越100公尺。"
+        }
+      }
+    },
+    "ACH_FROZEN_LEAD": {
+      "translations": {
+        "brazilian": {
+          "name": "Chumbo congelado",
+          "description": "Acumular um total de 1000 balas."
+        },
+        "english": {
+          "name": "Frozen Lead",
+          "description": "Use Time Stop to stack a total of 1000 bullets."
+        },
+        "french": {
+          "name": "Du plomb dans l'air",
+          "description": "Accumuler un total de 1 000 balles à l'aide de la bulle temporelle."
+        },
+        "german": {
+          "name": "Gefrorenes Blei",
+          "description": "Setze Zeitstopper ein, um 1000 Projektile zu bündeln."
+        },
+        "italian": {
+          "name": "Piombo statico",
+          "description": "Accumula un totale di 1000 proiettili con il blocco temporale."
+        },
+        "japanese": {
+          "name": "動かぬ弾丸",
+          "description": "タイム ストップで合計 1,000 発の弾丸を空中に留める。"
+        },
+        "koreana": {
+          "name": "정지된 탄환",
+          "description": "시간 정지를 사용하여 총 1,000개의 탄환을 중첩합니다."
+        },
+        "russian": {
+          "name": "Застывший свинец",
+          "description": "Заморозить в общей сложности 1000 пуль с помощью Хронозаморозки."
+        },
+        "schinese": {
+          "name": "冻结子弹",
+          "description": "用时间停止，共堆叠1,000颗子弹。"
+        },
+        "spanish": {
+          "name": "Plomo congelado",
+          "description": "Usa Detener el tiempo para acumular un total de 1,000 balas."
+        },
+        "tchinese": {
+          "name": "凍結子彈",
+          "description": "用時間停止，共堆疊1,000顆子彈。"
+        }
+      }
+    },
+    "ACH_DAYLIGHT_SAVING_TIME": {
+      "translations": {
+        "brazilian": {
+          "name": "Horário de verão",
+          "description": "Parar uma hora acumulada de tempo com Parar o Tempo."
+        },
+        "english": {
+          "name": "Daylight Saving Time",
+          "description": "Time Stop one hour's worth of accumulated time."
+        },
+        "french": {
+          "name": "Changement d'heure",
+          "description": "Figer le temps pendant un total d'une heure à l'aide de la bulle temporelle."
+        },
+        "german": {
+          "name": "Sommerzeit",
+          "description": "Verwende für insgesamt eine Stunde Zeitstopper"
+        },
+        "italian": {
+          "name": "Ora legale",
+          "description": "Genera blocchi temporali per un totale di un'ora."
+        },
+        "japanese": {
+          "name": "サマー タイムのおかげ？",
+          "description": "タイム ストップを累計 1 時間実行。"
+        },
+        "koreana": {
+          "name": "서머 타임",
+          "description": "누적 시간 1시간 동안 시간 정지를 사용합니다."
+        },
+        "russian": {
+          "name": "Перевод часов",
+          "description": "Заморозить время в общей сложности на один час."
+        },
+        "schinese": {
+          "name": "日光节约时间",
+          "description": "使用时间停止的累计时数达到1小时。"
+        },
+        "spanish": {
+          "name": "Horario de verano",
+          "description": "Detén el tiempo durante el equivalente a una hora de tiempo acumulado."
+        },
+        "tchinese": {
+          "name": "日光節約時間",
+          "description": "使用時間停止的累計時數達到1小時。"
+        }
+      }
+    },
+    "ACH_BREAK_ALL_THE_TOYS": {
+      "translations": {
+        "brazilian": {
+          "name": "Quebre todos os brinquedos",
+          "description": "Destruir 15 coletes de cronum de inimigos."
+        },
+        "english": {
+          "name": "Break All the Toys",
+          "description": "Destroy 15 enemy chronon harnesses."
+        },
+        "french": {
+          "name": "Mettre leurs jouets en pièces",
+          "description": "Détruire 15 harnais à chronons d'ennemis."
+        },
+        "german": {
+          "name": "Zerbrich alle Spielsachen",
+          "description": "Zerstöre 15 gegnerische Chronon-Schutzanzüge."
+        },
+        "italian": {
+          "name": "Rompi i loro giocattoli",
+          "description": "Distruggi 15 giubbotti al chronon dei nemici."
+        },
+        "japanese": {
+          "name": "お遊びはここまで",
+          "description": "敵のクロノン ハーネスを 15 着破壊。"
+        },
+        "koreana": {
+          "name": "장난감은 부숴버려",
+          "description": "적의 크로논 장비 15개를 파괴합니다."
+        },
+        "russian": {
+          "name": "Поломанные игрушки",
+          "description": "Уничтожить 15 хроножилетов противника."
+        },
+        "schinese": {
+          "name": "弄坏所有玩具",
+          "description": "摧毁15件敌人的时元背心。"
+        },
+        "spanish": {
+          "name": "Rompe todos los juguetes",
+          "description": "Destruye 15 arneses de chronon enemigos."
+        },
+        "tchinese": {
+          "name": "弄壞所有玩具",
+          "description": "摧毀15件敵人的時元背心。"
+        }
+      }
+    },
+    "ACH_AREA_EFFECT": {
+      "translations": {
+        "brazilian": {
+          "name": "Efeito em área",
+          "description": "Matar 15 inimigos com explosões no ambiente."
+        },
+        "english": {
+          "name": "Area Effect",
+          "description": "Kill 15 enemies with environmental explosions."
+        },
+        "french": {
+          "name": "Effet secondaire",
+          "description": "Tuer 15 ennemis en faisant sauter leur environnement."
+        },
+        "german": {
+          "name": "Explosive Umwelt",
+          "description": "Erledige 15 Gegner mit Explosionen von Objekten in ihrer Umgebung."
+        },
+        "italian": {
+          "name": "Area d'effetto",
+          "description": "Uccidi 15 nemici con esplosioni ambientali."
+        },
+        "japanese": {
+          "name": "範囲攻撃",
+          "description": "周辺の爆発に巻き込んで 15 人の敵をキル。"
+        },
+        "koreana": {
+          "name": "유효 지역",
+          "description": "환경 폭발을 활용해 15명의 적을 처치합니다."
+        },
+        "russian": {
+          "name": "Урон по площади",
+          "description": "Взорвать 15 врагов с помощью разрушаемых объектов."
+        },
+        "schinese": {
+          "name": "区域效果",
+          "description": "用环境爆炸物杀死15个敌人。"
+        },
+        "spanish": {
+          "name": "Efecto de área",
+          "description": "Mata 15 enemigos con explosiones de entorno."
+        },
+        "tchinese": {
+          "name": "區域效果",
+          "description": "用環境爆炸物殺死15個敵人。"
+        }
+      }
+    },
+    "ACH_ACT1_COMPLETED": {
+      "translations": {
+        "brazilian": {
+          "name": "Agarre-se à esperança e queime",
+          "description": "Completar o Ato 1."
+        },
+        "english": {
+          "name": "Hold on to Your Hope and Burn",
+          "description": "Complete Act 1."
+        },
+        "french": {
+          "name": "Cramponne-toi à ton rêve et disparais",
+          "description": "Terminer l'acte 1"
+        },
+        "german": {
+          "name": "Mit deiner Hoffnung sterben",
+          "description": "Schließe Akt 1 ab."
+        },
+        "italian": {
+          "name": "Affonda con le tue speranze",
+          "description": "Completa l'atto 1."
+        },
+        "japanese": {
+          "name": "わずかな希望にしがみつくなら燃えよ",
+          "description": "第 1 章をクリアする。"
+        },
+        "koreana": {
+          "name": "희망에 매달린 채 불타 버리든지",
+          "description": "1막을 완료합니다."
+        },
+        "russian": {
+          "name": "Умри со своей надеждой",
+          "description": "Пройти 1-й акт."
+        },
+        "schinese": {
+          "name": "抱持希望并发光发热",
+          "description": "完成第1幕。"
+        },
+        "spanish": {
+          "name": "Aférrate a tu esperanza y arde",
+          "description": "Completa el acto 1."
+        },
+        "tchinese": {
+          "name": "抱持希望並發光發熱",
+          "description": "完成第1幕。"
+        }
+      }
+    },
+    "ACH_ACT2_COMPLETED": {
+      "translations": {
+        "brazilian": {
+          "name": "Não é um convite amigável",
+          "description": "Completar o Ato 2."
+        },
+        "english": {
+          "name": "Not a Friendly Invitation",
+          "description": "Complete Act 2."
+        },
+        "french": {
+          "name": "Ce n'est pas une invitation amicale",
+          "description": "Terminer l'acte 2"
+        },
+        "german": {
+          "name": "Keine freundliche Einladung",
+          "description": "Schließe Akt 2 ab."
+        },
+        "italian": {
+          "name": "Un invito non amichevole",
+          "description": "Completa l'atto 2."
+        },
+        "japanese": {
+          "name": "友好的な招待ではないけれど",
+          "description": "第 2 章をクリアする。"
+        },
+        "koreana": {
+          "name": "우호적이지 않은 초대",
+          "description": "2막을 완료합니다."
+        },
+        "russian": {
+          "name": "Бессердечное приглашение",
+          "description": "Пройти 2-й акт."
+        },
+        "schinese": {
+          "name": "不友善的邀请",
+          "description": "完成第2幕。"
+        },
+        "spanish": {
+          "name": "Una invitación poco amistosa",
+          "description": "Completa el acto 2."
+        },
+        "tchinese": {
+          "name": "不友善的邀請",
+          "description": "完成第2幕。"
+        }
+      }
+    },
+    "ACH_ACT3_COMPLETED": {
+      "translations": {
+        "brazilian": {
+          "name": "Você vem conosco",
+          "description": "Completar o Ato 3."
+        },
+        "english": {
+          "name": "You're Coming With Us",
+          "description": "Complete Act 3."
+        },
+        "french": {
+          "name": "Vous venez avec nous",
+          "description": "Terminer l'acte 3"
+        },
+        "german": {
+          "name": "Du kommst mit uns",
+          "description": "Schließe Akt 3 ab."
+        },
+        "italian": {
+          "name": "Devi venire con noi",
+          "description": "Completa l'atto 3."
+        },
+        "japanese": {
+          "name": "連行",
+          "description": "第 3 章をクリアする。"
+        },
+        "koreana": {
+          "name": "함께 가주셔야겠습니다",
+          "description": "3막을 완료합니다."
+        },
+        "russian": {
+          "name": "Пройдемте",
+          "description": "Пройти 3-й акт."
+        },
+        "schinese": {
+          "name": "跟我们一起去",
+          "description": "完成第3幕。"
+        },
+        "spanish": {
+          "name": "Vienes con nosotros",
+          "description": "Completa el acto 3."
+        },
+        "tchinese": {
+          "name": "跟我們一起去",
+          "description": "完成第3幕。"
+        }
+      }
+    },
+    "ACH_ACT4_COMPLETED": {
+      "translations": {
+        "brazilian": {
+          "name": "Vamos morrer tentando descobrir",
+          "description": "Completar o Ato 4."
+        },
+        "english": {
+          "name": "Then We'll Die Finding Out",
+          "description": "Complete Act 4."
+        },
+        "french": {
+          "name": "Alors, on mourra en essayant",
+          "description": "Terminer l'acte 4"
+        },
+        "german": {
+          "name": "Wir sterben beim Versuch",
+          "description": "Schließe Akt 4 ab."
+        },
+        "italian": {
+          "name": "Ad ogni costo, lo scopriremo",
+          "description": "Completa l'atto 4."
+        },
+        "japanese": {
+          "name": "命がけの挑戦",
+          "description": "第 4 章をクリアする。"
+        },
+        "koreana": {
+          "name": "그렇다면 죽더라도 알아보는 거죠",
+          "description": "4막을 완료합니다."
+        },
+        "russian": {
+          "name": "Узнать любой ценой",
+          "description": "Пройти 4-й акт."
+        },
+        "schinese": {
+          "name": "我们至死方休",
+          "description": "完成第4幕。"
+        },
+        "spanish": {
+          "name": "Lo descubriremos, así nos cueste la vida.",
+          "description": "Completa el acto 4."
+        },
+        "tchinese": {
+          "name": "我們至死方休",
+          "description": "完成第4幕。"
+        }
+      }
+    },
+    "ACH_ACT5_COMPLETED": {
+      "translations": {
+        "brazilian": {
+          "name": "Suas qualidades excepcionais são óbvias",
+          "description": "Completar o Ato 5."
+        },
+        "english": {
+          "name": "Your Exceptional Qualities Are Obvious",
+          "description": "Complete Act 5."
+        },
+        "french": {
+          "name": "Vos capacités exceptionnelles sont évidentes",
+          "description": "Terminer l'acte 5"
+        },
+        "german": {
+          "name": "Offensichtlich außergewöhnlich",
+          "description": "Schließe Akt 5 ab."
+        },
+        "italian": {
+          "name": "Possiedi qualità eccezionali",
+          "description": "Completa l'atto 5."
+        },
+        "japanese": {
+          "name": "一目置かれる存在",
+          "description": "第 5 章をクリアする。"
+        },
+        "koreana": {
+          "name": "자네의 능력이 출중하다는 건 명확해",
+          "description": "5막을 완료합니다."
+        },
+        "russian": {
+          "name": "Поразительные таланты",
+          "description": "Пройти 5-й акт."
+        },
+        "schinese": {
+          "name": "您拥有非常显著的卓越才能",
+          "description": "完成第5幕。"
+        },
+        "spanish": {
+          "name": "Atributos más que obvios",
+          "description": "Completa el acto 5."
+        },
+        "tchinese": {
+          "name": "您擁有非常顯著的卓越才能",
+          "description": "完成第5幕。"
+        }
+      }
+    },
+    "ACH_MYSTERIOUS_STRANGER": {
+      "translations": {
+        "brazilian": {
+          "name": "Estranho misterioso",
+          "description": "Você conheceu Beth Wilder, que poderia ter atirado em você, mas não o fez."
+        },
+        "english": {
+          "name": "Mysterious Stranger",
+          "description": "You met Beth Wilder, who could've shot you… but didn't."
+        },
+        "french": {
+          "name": "Mystérieuse inconnue",
+          "description": "Vous avez rencontré Beth Wilder, qui aurait pu vous tuer... mais ne l'a pas fait."
+        },
+        "german": {
+          "name": "Geheimnisvoller Fremder",
+          "description": "Du hast Beth Wilder getroffen, die dich hätte erschießen können ... es aber nicht getan hat."
+        },
+        "italian": {
+          "name": "Una figura misteriosa",
+          "description": "Hai incontrato Beth Wilder, che avrebbe potuto spararti... ma non l'ha fatto."
+        },
+        "japanese": {
+          "name": "謎の女",
+          "description": "ベス・ワイルダーに会った。彼女はあなたを撃てたのに、そうしなかった..."
+        },
+        "koreana": {
+          "name": "수수께끼의 이방인",
+          "description": "베스 와일더를 만났습니다. 당신을 쏠 수도 있었는데... 그러지 않았죠."
+        },
+        "russian": {
+          "name": "Таинственная незнакомка",
+          "description": "Вы встретили Бет Уайлдер, которая могла застрелить вас... но не стала."
+        },
+        "schinese": {
+          "name": "神秘的陌生人",
+          "description": "您遇到了本打算杀您的贝丝·瓦尔德，但她没有。"
+        },
+        "spanish": {
+          "name": "Extraño misterioso",
+          "description": "Conociste a Beth Wilder, estuvo a punto de dispararte... pero no lo hizo."
+        },
+        "tchinese": {
+          "name": "神秘的陌生人",
+          "description": "您遇到了本打算殺您的貝絲·瓦爾德，但她沒有。"
+        }
+      }
+    },
+    "ACH_TAKE_THAT_TRIP": {
+      "translations": {
+        "brazilian": {
+          "name": "Viaja fundo",
+          "description": "Você entrou na máquina do tempo."
+        },
+        "english": {
+          "name": "Take That Trip",
+          "description": "You entered the time machine."
+        },
+        "french": {
+          "name": "Voyage voyage",
+          "description": "Vous êtes entré dans la machine à voyager dans le temps."
+        },
+        "german": {
+          "name": "Auf die Reise",
+          "description": "Du hast die Zeitmaschine betreten."
+        },
+        "italian": {
+          "name": "Il viaggio ha inizio",
+          "description": "Sei entrato nella macchina del tempo."
+        },
+        "japanese": {
+          "name": "旅立ちの時",
+          "description": "タイム マシンに入った。"
+        },
+        "koreana": {
+          "name": "여행을 하자",
+          "description": "타임머신에 들어갔습니다."
+        },
+        "russian": {
+          "name": "Невероятное путешествие",
+          "description": "Вы вошли в машину времени."
+        },
+        "schinese": {
+          "name": "参加那趟旅行",
+          "description": "您已进入时光机。"
+        },
+        "spanish": {
+          "name": "Haz el viaje",
+          "description": "Entraste a la máquina del tiempo."
+        },
+        "tchinese": {
+          "name": "參加那趟旅行",
+          "description": "您已進入時光機。"
+        }
+      }
+    },
+    "ACH_THE_COUNTERMEASURE": {
+      "translations": {
+        "brazilian": {
+          "name": "Medida de resposta",
+          "description": "Você finalmente conseguiu pegar a medida de resposta do Will."
+        },
+        "english": {
+          "name": "The Countermeasure",
+          "description": "You finally got your hands on Will's Countermeasure."
+        },
+        "french": {
+          "name": "La contre-mesure",
+          "description": "Vous avez enfin mis la main sur la contre-mesure de Will."
+        },
+        "german": {
+          "name": "Die Gegenmaßnahme",
+          "description": "Du hast endlich Wills Gegenmaßnahme an dich gebracht."
+        },
+        "italian": {
+          "name": "La contromisura",
+          "description": "Hai finalmente ottenuto la contromisura di Will."
+        },
+        "japanese": {
+          "name": "対抗手段",
+          "description": "ついにウィルの対抗手段を入手した。"
+        },
+        "koreana": {
+          "name": "대항책",
+          "description": "드디어 윌의 대항책을 손에 넣었습니다."
+        },
+        "russian": {
+          "name": "Противовес",
+          "description": "Вы наконец-то завладели противовесом Уилла."
+        },
+        "schinese": {
+          "name": "反制对策",
+          "description": "您手上终于拿到了威廉的反制对策。"
+        },
+        "spanish": {
+          "name": "La contramedida",
+          "description": "Por fin tienes la contramedida de Will."
+        },
+        "tchinese": {
+          "name": "反制對策",
+          "description": "您手上終於拿到了威廉的反制對策。"
+        }
+      }
+    },
+    "ACH_A_FRACTURE_IN_TIME": {
+      "translations": {
+        "brazilian": {
+          "name": "Ruptura no tempo",
+          "description": "Você estava lá quando o tempo foi destruído."
+        },
+        "english": {
+          "name": "A Fracture in Time",
+          "description": "You were there when time broke."
+        },
+        "french": {
+          "name": "Fracture temporelle",
+          "description": "Vous étiez présent lorsque le temps s'est effondré."
+        },
+        "german": {
+          "name": "Ein Riss in der Zeit",
+          "description": "Du hast erlebt, wie die Zeit auseinanderbrach."
+        },
+        "italian": {
+          "name": "Una frattura nel tempo",
+          "description": "Eri presente quando il tempo si è disgregato."
+        },
+        "japanese": {
+          "name": "時間の断裂",
+          "description": "時間の崩壊に立ち会った。"
+        },
+        "koreana": {
+          "name": "시간의 균열",
+          "description": "시간이 깨져버린 그 곳에 있었습니다."
+        },
+        "russian": {
+          "name": "Временной разлом",
+          "description": "Вы увидели разлом времени."
+        },
+        "schinese": {
+          "name": "时间的断裂",
+          "description": "时间破裂时，您曾在那。"
+        },
+        "spanish": {
+          "name": "Una fractura en el tiempo",
+          "description": "Estuviste ahí cuando el tiempo se rompió."
+        },
+        "tchinese": {
+          "name": "時間的斷裂",
+          "description": "時間破裂時，您曾在那。"
+        }
+      }
+    },
+    "ACH_MANUFACTURED_BY_WILLIAM_JOYCE": {
+      "translations": {
+        "brazilian": {
+          "name": "Produzido por William Joyce",
+          "description": "Você encontrou a máquina do tempo original do Will."
+        },
+        "english": {
+          "name": "Manufactured by William Joyce",
+          "description": "You found Will's original time machine."
+        },
+        "french": {
+          "name": "Fabriqué par William Joyce",
+          "description": "Vous avez trouvé la machine à voyager dans le temps originale de Will."
+        },
+        "german": {
+          "name": "Hergestellt von William Joyce",
+          "description": "Du hast Wills ursprüngliche Zeitmaschine gefunden."
+        },
+        "italian": {
+          "name": "Costruita da William Joyce",
+          "description": "Hai trovato la macchina del tempo originale di Will."
+        },
+        "japanese": {
+          "name": "ウィリアム ジョイス製",
+          "description": "ウィルの造ったタイム マシンを見つけた。"
+        },
+        "koreana": {
+          "name": "윌리엄 조이스 제작",
+          "description": "윌이 제작한 오리지널 타임머신을 발견했습니다."
+        },
+        "russian": {
+          "name": "Производитель — Уильям Джойс",
+          "description": "Вы нашли первую машину времени Уилла."
+        },
+        "schinese": {
+          "name": "威廉·乔伊斯制作",
+          "description": "您已找到威廉的原版时光机。"
+        },
+        "spanish": {
+          "name": "Fabricado por William Joyce",
+          "description": "Encontraste la máquina del tiempo original de Will."
+        },
+        "tchinese": {
+          "name": "威廉·喬伊斯製作",
+          "description": "您已找到威廉的原版時光機。"
+        }
+      }
+    },
+    "ACH_SOMETHING_FASHIONABLE": {
+      "translations": {
+        "brazilian": {
+          "name": "Algo na moda",
+          "description": "Você pegou o colete de cronum para a Beth."
+        },
+        "english": {
+          "name": "Something Fashionable",
+          "description": "You got the chronon harness for Beth."
+        },
+        "french": {
+          "name": "Une fille dans le vent",
+          "description": "Vous avez récupéré le harnais à chronons pour Beth."
+        },
+        "german": {
+          "name": "Etwas Schickes zum Anziehen",
+          "description": "Du hast Beth einen Chronon-Schutzanzug besorgt."
+        },
+        "italian": {
+          "name": "Accessorio di tendenza",
+          "description": "Hai procurato a Beth un giubbotto al chronon."
+        },
+        "japanese": {
+          "name": "流行りのファッション",
+          "description": "べスのためにクロノン ハーネスを入手した。"
+        },
+        "koreana": {
+          "name": "패셔너블한 장비",
+          "description": "베스를 위한 크로논 장비를 획득했습니다."
+        },
+        "russian": {
+          "name": "Модный прикид",
+          "description": "Вы добыли хроножилет для Бет."
+        },
+        "schinese": {
+          "name": "时髦的东西",
+          "description": "您已取得要给贝丝的时元背心。"
+        },
+        "spanish": {
+          "name": "Algo a la moda",
+          "description": "Obtuviste el arnés de chronon para Beth."
+        },
+        "tchinese": {
+          "name": "時髦的東西",
+          "description": "您已取得要給貝絲的時元背心。"
+        }
+      }
+    },
+    "ACH_TOTO": {
+      "translations": {
+        "brazilian": {
+          "name": "Toto",
+          "description": "Beth contou a você como ela encontrou a si mesma."
+        },
+        "english": {
+          "name": "Toto",
+          "description": "Beth told you about how she met herself."
+        },
+        "french": {
+          "name": "Toto",
+          "description": "Beth vous a raconté sa rencontre avec elle-même."
+        },
+        "german": {
+          "name": "Toto",
+          "description": "Beth hat dir erzählt, wie sie sich selbst getroffen hat."
+        },
+        "italian": {
+          "name": "Toto",
+          "description": "Beth ti ha raccontato del suo incontro con sé stessa."
+        },
+        "japanese": {
+          "name": "トト",
+          "description": "べスが、未来から来た自分自身と会った事について話した。"
+        },
+        "koreana": {
+          "name": "토토",
+          "description": "베스가 자기 자신을 어떻게 만나게 되었는지 이야기해주었습니다."
+        },
+        "russian": {
+          "name": "Тотошка",
+          "description": "Бет рассказала вам о встрече с самой собой."
+        },
+        "schinese": {
+          "name": "托托",
+          "description": "贝丝已告诉您她是如何遇见自己的。"
+        },
+        "spanish": {
+          "name": "Toto",
+          "description": "Beth te contó sobre cómo se conoció a sí misma."
+        },
+        "tchinese": {
+          "name": "托托",
+          "description": "貝絲已告訴您她是如何遇見自己的。"
+        }
+      }
+    },
+    "ACH_LAST_SECOND_RESCUE": {
+      "translations": {
+        "brazilian": {
+          "name": "Resgate de última hora",
+          "description": "Você conseguiu chegar ao Will a tempo... na segunda tentativa."
+        },
+        "english": {
+          "name": "Last-Second Rescue",
+          "description": "You managed to get to Will in time... on the second try."
+        },
+        "french": {
+          "name": "Sauvetage à la dernière seconde",
+          "description": "Vous avez réussi à retrouver Will à temps... lors de votre seconde tentative."
+        },
+        "german": {
+          "name": "Rettung in letzter Sekunde",
+          "description": "Du hast Will rechtzeitig erreicht ... beim zweiten Versuch."
+        },
+        "italian": {
+          "name": "Salvataggio all'ultimo... secondo",
+          "description": "Hai raggiunto Will in tempo... al secondo tentativo."
+        },
+        "japanese": {
+          "name": "土壇場のレスキュー",
+          "description": "2 度目の挑戦にして、何とか時間内にウィルの所へたどり着けた..."
+        },
+        "koreana": {
+          "name": "마지막이자 두 번째 구출",
+          "description": "두 번째 시도 끝에 겨우... 제시간에 윌을 구했습니다."
+        },
+        "russian": {
+          "name": "Последний второй шанс",
+          "description": "Вам удалось вовремя добраться до Уилла... со второй попытки."
+        },
+        "schinese": {
+          "name": "最后一刻的救援",
+          "description": "您已再次尝试及时找到威廉。"
+        },
+        "spanish": {
+          "name": "Rescate de último segundo",
+          "description": "Lograste rescatar a Will a tiempo... en el segundo intento."
+        },
+        "tchinese": {
+          "name": "最後一刻的救援",
+          "description": "您已再次嘗試及時找到威廉。"
+        }
+      }
+    },
+    "ACH_IRON_FIST": {
+      "translations": {
+        "brazilian": {
+          "name": "Punho de ferro",
+          "description": "Paul escolheu seguir o caminho linha dura para a Monarch Solutions."
+        },
+        "english": {
+          "name": "Iron Fist",
+          "description": "Paul chose the Hardline path for Monarch Solutions."
+        },
+        "french": {
+          "name": "D'une main de fer",
+          "description": "Paul a choisi la manière forte pour Monarch Solutions."
+        },
+        "german": {
+          "name": "Eiserne Faust",
+          "description": "Paul hat für Monarch Solutions die kompromisslose Lösung gewählt."
+        },
+        "italian": {
+          "name": "Pugno di ferro",
+          "description": "Paul ha stabilito che la Monarch Solutions debba seguire la linea dura."
+        },
+        "japanese": {
+          "name": "過酷な支配",
+          "description": "ポールがモナーク ソリューションズに強行策をとらせる事を選択した。"
+        },
+        "koreana": {
+          "name": "철권통치",
+          "description": "폴이 모나크 솔루션스를 위해 강경책을 선택했습니다."
+        },
+        "russian": {
+          "name": "Ежовые рукавицы",
+          "description": "Пол выбрал для «Монарх Солюшенз» жесткий подход."
+        },
+        "schinese": {
+          "name": "铁腕手段",
+          "description": "保罗已为了莫纳其集团选择强硬手段。"
+        },
+        "spanish": {
+          "name": "Puño de hierro",
+          "description": "Paul escogió la postura dura para Monarch Solutions."
+        },
+        "tchinese": {
+          "name": "鐵腕手段",
+          "description": "保羅已為了莫納其集團選擇強硬手段。"
+        }
+      }
+    },
+    "ACH_THE_SOFT_TOUCH": {
+      "translations": {
+        "brazilian": {
+          "name": "Toque suave",
+          "description": "Paul escolheu seguir o caminho RP para a Monarch Solutions."
+        },
+        "english": {
+          "name": "The Soft Touch",
+          "description": "Paul chose the PR path for Monarch Solutions."
+        },
+        "french": {
+          "name": "Tout en douceur",
+          "description": "Paul a choisi la communication pour Monarch Solutions."
+        },
+        "german": {
+          "name": "Die sanfte Berührung",
+          "description": "Paul hat für Monarch Solutions die PR-Lösung gewählt."
+        },
+        "italian": {
+          "name": "Soluzione morbida",
+          "description": "Paul ha stabilito che la Monarch Solutions debba avviare una campagna mediatica."
+        },
+        "japanese": {
+          "name": "穏健派",
+          "description": "ポールがモナーク ソリューションズに PR作戦 を実行させる選択をした。"
+        },
+        "koreana": {
+          "name": "부드러운 접근",
+          "description": "폴이 모나크 솔루션스를 위해 PR 접근 방식을 선택했습니다."
+        },
+        "russian": {
+          "name": "С человеческим лицом",
+          "description": "Пол начал пиар-кампанию."
+        },
+        "schinese": {
+          "name": "怀柔手段",
+          "description": "保罗已为了莫纳其集团选择公关手法。"
+        },
+        "spanish": {
+          "name": "Un toque sutil",
+          "description": "Paul escogió el camino de las relaciones públicas para Monarch Solutions."
+        },
+        "tchinese": {
+          "name": "懷柔手段",
+          "description": "保羅已為了莫納其集團選擇公關手法。"
+        }
+      }
+    },
+    "ACH_YOU_AND_ME": {
+      "translations": {
+        "brazilian": {
+          "name": "Você e eu",
+          "description": "Paul escolheu se concentrar na sua ligação pessoal com Jack."
+        },
+        "english": {
+          "name": "You and Me",
+          "description": "Paul chose to concenrate on his personal connection with Jack."
+        },
+        "french": {
+          "name": "Toi et moi",
+          "description": "Paul a choisi de se concentrer sur ses liens personnels avec Jack."
+        },
+        "german": {
+          "name": "Du und ich",
+          "description": "Paul entschied sich, sich auf seine persönliche Verbindung mit Jack zu konzentrieren."
+        },
+        "italian": {
+          "name": "Tu e io",
+          "description": "Paul ha scelto il suo legame personale con Jack."
+        },
+        "japanese": {
+          "name": "パートナー",
+          "description": "ポールがジャックとの個人的な関係維持を選択した。"
+        },
+        "koreana": {
+          "name": "너와 나",
+          "description": "폴이 윌과의 개인적 관계에 집중하기로 선택했습니다."
+        },
+        "russian": {
+          "name": "Ты и я",
+          "description": "Пол решил, что его дружба с Джеком важнее."
+        },
+        "schinese": {
+          "name": "您跟我",
+          "description": "保罗已选择专注于他个人跟杰克的关系。"
+        },
+        "spanish": {
+          "name": "Tú y yo",
+          "description": "Paul eligió concentrarse en su conexión personal con Jack."
+        },
+        "tchinese": {
+          "name": "您跟我",
+          "description": "保羅已選擇專注於他個人跟傑克的關係。"
+        }
+      }
+    },
+    "ACH_BIGGER_FISH_TO_FRY": {
+      "translations": {
+        "brazilian": {
+          "name": "Maiores problemas para se preocupar",
+          "description": "Paul concentrou as energias na Monarch Solutions e em seu plano."
+        },
+        "english": {
+          "name": "Bigger Fish to Fry",
+          "description": "Paul focused his energies on Monarch Solutions and his plan."
+        },
+        "french": {
+          "name": "De plus gros poissons à ferrer",
+          "description": "Paul a concentré son énergie sur Monarch Solutions et son plan."
+        },
+        "german": {
+          "name": "Es gibt Wichtigeres zu tun",
+          "description": "Paul hat sich auf Monarch Solutions und seinen Plan konzentriert."
+        },
+        "italian": {
+          "name": "Una minaccia più grande",
+          "description": "Paul ha concentrato le sue energie sulla Monarch Solutions e sull'attuazione del piano."
+        },
+        "japanese": {
+          "name": "もっと大切なもの",
+          "description": "ポールがモナーク ソリューションズと自らの計画に精力を注ぐことを決意した。"
+        },
+        "koreana": {
+          "name": "더 중요한 일",
+          "description": "폴이 모나크 솔루션스와 계획에 집중하기로 선택했습니다."
+        },
+        "russian": {
+          "name": "Дела поважнее",
+          "description": "Пол решил, что управление «Монарх Солюшенз» и его план важнее."
+        },
+        "schinese": {
+          "name": "钓更大的鱼",
+          "description": "保罗已全力专注于莫纳其集团跟他的计划。"
+        },
+        "spanish": {
+          "name": "Asuntos más importantes",
+          "description": "Paul concentró sus energías en Monarch Solutions y su plan."
+        },
+        "tchinese": {
+          "name": "釣更大的魚",
+          "description": "保羅已全力專注於莫納其集團跟他的計畫。"
+        }
+      }
+    },
+    "ACH_THE_RIGHT_HAND_MAN": {
+      "translations": {
+        "brazilian": {
+          "name": "O braço direito",
+          "description": "Paul decidiu confiar em Martin Hatch."
+        },
+        "english": {
+          "name": "The Right-Hand Man",
+          "description": "Paul decided to trust Martin Hatch."
+        },
+        "french": {
+          "name": "Le bras droit",
+          "description": "Paul a décidé de faire confiance à Martin Hatch."
+        },
+        "german": {
+          "name": "Die rechte Hand",
+          "description": "Paul hat sich entschlossen, Martin Hatch zu vertrauen."
+        },
+        "italian": {
+          "name": "Il braccio destro",
+          "description": "Paul ha scelto di fidarsi di Martin Hatch."
+        },
+        "japanese": {
+          "name": "腹心",
+          "description": "ポールがマーティン・ハッチへの信頼を選んだ。"
+        },
+        "koreana": {
+          "name": "오른팔",
+          "description": "폴이 마틴 해치를 믿기로 결정했습니다."
+        },
+        "russian": {
+          "name": "Правая рука",
+          "description": "Пол доверился Мартину Хэтчу."
+        },
+        "schinese": {
+          "name": "左右手",
+          "description": "保罗已决定相信马丁·哈奇。"
+        },
+        "spanish": {
+          "name": "La mano derecha",
+          "description": "Paul decide confiar en Martin Hatch."
+        },
+        "tchinese": {
+          "name": "左右手",
+          "description": "保羅已決定相信馬丁·哈奇。"
+        }
+      }
+    },
+    "ACH_THE_DOCTOR": {
+      "translations": {
+        "brazilian": {
+          "name": "A Doutora",
+          "description": "Paul escolheu confiar na Dra Sofia Amaral."
+        },
+        "english": {
+          "name": "The Doctor",
+          "description": "Paul decided to have faith in Dr. Sofia Amaral."
+        },
+        "french": {
+          "name": "Le docteur",
+          "description": "Paul a décidé de faire confiance au Dr. Sofia Amaral."
+        },
+        "german": {
+          "name": "Die Doktorin",
+          "description": "Paul hat sich entschlossen, Dr. Sofia Amaral zu vertrauen."
+        },
+        "italian": {
+          "name": "La dottoressa",
+          "description": "Paul ha scelto di riporre la sua fiducia nella dottoressa Sofia Amaral."
+        },
+        "japanese": {
+          "name": "博士",
+          "description": "ポールがソフィア・アマラル博士への信頼を選んだ。"
+        },
+        "koreana": {
+          "name": "박사",
+          "description": "폴이 소피아 아마랄 박사를 믿기로 결정했습니다."
+        },
+        "russian": {
+          "name": "Доктор",
+          "description": "Пол доверился доктору Софии Эмерал."
+        },
+        "schinese": {
+          "name": "博士",
+          "description": "保罗已决定信任索菲亚·阿马拉尔博士。"
+        },
+        "spanish": {
+          "name": "La doctora",
+          "description": "Paul decidió tener fe en la Dra. Sofia Amaral."
+        },
+        "tchinese": {
+          "name": "博士",
+          "description": "保羅已決定信任索菲亞·阿馬拉爾博士。"
+        }
+      }
+    },
+    "ACH_RATIONAL_THOUGHT": {
+      "translations": {
+        "brazilian": {
+          "name": "Pensamento racional",
+          "description": "Apesar dos conflitos internos, Paul permaneceu racional e no controle de suas faculdades mentais."
+        },
+        "english": {
+          "name": "Rational Thought",
+          "description": "Despite the pain and turmoil within, Paul remained rational and in control of his faculties."
+        },
+        "french": {
+          "name": "Pensée rationnelle",
+          "description": "Malgré sa douleur et son désarroi, Paul est resté lucide et en pleine possession de ses moyens."
+        },
+        "german": {
+          "name": "Rationales Denken",
+          "description": "Trotz seiner inneren Aufruhr und Qualen hat Paul seine Fähigkeiten mit Rationalität kontrolliert."
+        },
+        "italian": {
+          "name": "Pensiero razionale",
+          "description": "Nonostante la sofferenza e i dilemmi interiori, Paul è rimasto lucido e ha mantenuto il controllo."
+        },
+        "japanese": {
+          "name": "思考明瞭",
+          "description": "苦痛と不安を乗り越え、ポールが正気と自制を保った。"
+        },
+        "koreana": {
+          "name": "이성적 사고",
+          "description": "고통과 혼란에도 불구하고, 폴은 이성을 유지하고 능력을 제어하기로 결정했습니다."
+        },
+        "russian": {
+          "name": "Рациональное мышление",
+          "description": "Несмотря на боль и усталость, Пол собрал волю в кулак и сохранил рассудок."
+        },
+        "schinese": {
+          "name": "理性思维",
+          "description": "尽管心中充满痛苦跟混乱，保罗仍然保持理性跟自我控制。"
+        },
+        "spanish": {
+          "name": "Pensamiento racional",
+          "description": "Pese al dolor y confusión en su interior, Paul conservó su juicio y el control de sus facultades."
+        },
+        "tchinese": {
+          "name": "理性思維",
+          "description": "儘管心中充滿痛苦跟混亂，保羅仍然保持理性跟自我控制。"
+        }
+      }
+    },
+    "ACH_PARANOIA": {
+      "translations": {
+        "brazilian": {
+          "name": "Paranoia",
+          "description": "Paul escolheu se render à raiva e paranoia."
+        },
+        "english": {
+          "name": "Paranoia",
+          "description": "Paul chose to give in to his rage and paranoia."
+        },
+        "french": {
+          "name": "Paranoïa",
+          "description": "Paul a choisi de céder à la colère et à la paranoïa."
+        },
+        "german": {
+          "name": "Paranoia",
+          "description": "Paul hat sich seiner Wut und Paranoia ergeben."
+        },
+        "italian": {
+          "name": "Paranoia",
+          "description": "Paul ha scelto di cedere alla collera e alla paranoia."
+        },
+        "japanese": {
+          "name": "パラノイア",
+          "description": "ポールが病による激情と妄想に屈服した。"
+        },
+        "koreana": {
+          "name": "망상",
+          "description": "폴이 분노와 망상에 굴복하기로 선택했습니다."
+        },
+        "russian": {
+          "name": "Паранойя",
+          "description": "Пол позволил ярости и паранойе взять верх."
+        },
+        "schinese": {
+          "name": "偏执狂",
+          "description": "保罗已选择陷入他的愤怒及偏执。"
+        },
+        "spanish": {
+          "name": "Paranoia",
+          "description": "Paul eligió rendirse ante su ira y paranoia."
+        },
+        "tchinese": {
+          "name": "偏執狂",
+          "description": "保羅已選擇陷入他的憤怒及偏執。"
+        }
+      }
+    },
+    "ACH_PAUL_PRESENTATION": {
+      "translations": {
+        "brazilian": {
+          "name": "Ladainha de marketing",
+          "description": "Tomar um chá de cadeira, ver toda a apresentação do Paul na Universidade."
+        },
+        "english": {
+          "name": "Marketing Spiel",
+          "description": "Sit a spell, take in Paul's presentation at the University."
+        },
+        "french": {
+          "name": "Blabla marketing",
+          "description": "S'asseoir un moment pour suivre la présentation de Paul à l'université."
+        },
+        "german": {
+          "name": "Marketing-Geschwafel",
+          "description": "Mach's dir gemütlich und schau dir Pauls Präsentation an der Uni an."
+        },
+        "italian": {
+          "name": "Modalità marketing",
+          "description": "Mettiti comodo e segui la presentazione di Paul all'università."
+        },
+        "japanese": {
+          "name": "客寄せ口上",
+          "description": "少し時間を取って、大学でポールのプレゼンテーションを聞く。"
+        },
+        "koreana": {
+          "name": "마케팅 선전",
+          "description": "대학교에서 앉아서 폴의 프레젠테이션을 듣습니다."
+        },
+        "russian": {
+          "name": "Лапша на уши",
+          "description": "Присесть на минутку, поглядеть презентацию Пола в университете."
+        },
+        "schinese": {
+          "name": "行销大会",
+          "description": "出席保罗在大学的演讲。"
+        },
+        "spanish": {
+          "name": "Discurso de mercadeo",
+          "description": "Siéntate y escucha la presentación de Paul en la universidad."
+        },
+        "tchinese": {
+          "name": "行銷大會",
+          "description": "出席保羅在大學的演講。"
+        }
+      }
+    },
+    "ACH_CASUAL_DIFFICULTY": {
+      "translations": {
+        "brazilian": {
+          "name": "Bandido do tempo",
+          "description": "Completou o jogo na dificuldade casual."
+        },
+        "english": {
+          "name": "Time Bandit",
+          "description": "Complete the game on Casual Difficulty."
+        },
+        "french": {
+          "name": "Bandit du temps",
+          "description": "Terminer le jeu en difficulté Facile."
+        },
+        "german": {
+          "name": "Time Bandit",
+          "description": "Schließe das Spiel auf dem Schwierigkeitsgrad Leicht ab."
+        },
+        "italian": {
+          "name": "Corsaro del tempo",
+          "description": "Hai completato il gioco a livello Facile."
+        },
+        "japanese": {
+          "name": "時間強盗",
+          "description": "ゲームを難易度イージーでクリアした。"
+        },
+        "koreana": {
+          "name": "시간의 악당",
+          "description": "쉬움 난이도로 게임을 완료했습니다."
+        },
+        "russian": {
+          "name": "Воришка времени",
+          "description": "Игра пройдена на уровне сложности: Легкий."
+        },
+        "schinese": {
+          "name": "时间恶棍",
+          "description": "您已用「简单」困难度完成游戏。"
+        },
+        "spanish": {
+          "name": "Bandido del tiempo",
+          "description": "Completaste el juego en dificultad casual."
+        },
+        "tchinese": {
+          "name": "時間惡棍",
+          "description": "您已用「簡單」困難度完成遊戲。"
+        }
+      }
+    },
+    "ACH_NORMAL_DIFFICULTY": {
+      "translations": {
+        "brazilian": {
+          "name": "Policial do tempo",
+          "description": "Completou o jogo na dificuldade normal."
+        },
+        "english": {
+          "name": "Time Cop",
+          "description": "Complete the game on Normal Difficulty."
+        },
+        "french": {
+          "name": "Flic du temps",
+          "description": "Terminer le jeu en difficulté Normale."
+        },
+        "german": {
+          "name": "Time Cop",
+          "description": "Schließe das Spiel auf dem Schwierigkeitsgrad Normal ab."
+        },
+        "italian": {
+          "name": "Paladino del tempo",
+          "description": "Hai completato il gioco a livello Normale."
+        },
+        "japanese": {
+          "name": "時間警察",
+          "description": "ゲームを難易度ノーマルでクリアした。"
+        },
+        "koreana": {
+          "name": "시간 경찰관",
+          "description": "일반 난이도로 게임을 완료했습니다."
+        },
+        "russian": {
+          "name": "Патрульный времени",
+          "description": "Игра пройдена на уровне сложности: Обычный."
+        },
+        "schinese": {
+          "name": "时间警察",
+          "description": "您已用「普通」困难度完成游戏。"
+        },
+        "spanish": {
+          "name": "Policía del tiempo",
+          "description": "Completaste el juego en dificultad normal."
+        },
+        "tchinese": {
+          "name": "時間警察",
+          "description": "您已用「普通」困難度完成遊戲。"
+        }
+      }
+    },
+    "ACH_HARD_DIFFICULTY": {
+      "translations": {
+        "brazilian": {
+          "name": "Senhor do tempo",
+          "description": "Completou o jogo na dificuldade difícil."
+        },
+        "english": {
+          "name": "Time Lord",
+          "description": "Complete the game on Hard Difficulty."
+        },
+        "french": {
+          "name": "Seigneur du temps",
+          "description": "Terminer le jeu en difficulté Difficile."
+        },
+        "german": {
+          "name": "Time Lord",
+          "description": "Schließe das Spiel auf dem Schwierigkeitsgrad Schwer ab."
+        },
+        "italian": {
+          "name": "Signore del tempo",
+          "description": "Hai completato il gioco a livello Difficile."
+        },
+        "japanese": {
+          "name": "時を統べる者",
+          "description": "ゲームを難易度ハードでクリアした。"
+        },
+        "koreana": {
+          "name": "시간의 제왕",
+          "description": "어려움 난이도로 게임을 완료했습니다."
+        },
+        "russian": {
+          "name": "Повелитель времени",
+          "description": "Игра пройдена на уровне сложности: Тяжелый."
+        },
+        "schinese": {
+          "name": "时间领主",
+          "description": "您已用「困难」困难度完成游戏。"
+        },
+        "spanish": {
+          "name": "Señor del tiempo",
+          "description": "Completaste el juego en dificultad difícil."
+        },
+        "tchinese": {
+          "name": "時間領主",
+          "description": "您已用「困難」困難度完成遊戲。"
+        }
+      }
+    },
+    "ACH_SPREADING_RIPPLES": {
+      "translations": {
+        "brazilian": {
+          "name": "Espalhando ondulações",
+          "description": "Assistir a um novo episódio com todas as ondulações quânticas desbloqueadas."
+        },
+        "english": {
+          "name": "Spreading Ripples",
+          "description": "Watch a show episode with all of its Quantum Ripples unlocked."
+        },
+        "french": {
+          "name": "Propagation de l'écho",
+          "description": "Regarder un épisode de la série avec tous les échos quantiques déverrouillés."
+        },
+        "german": {
+          "name": "Sich ausbreitende Wellen",
+          "description": "Du hast dir eine Serienepisode angesehen, deren Quantenwellen alle freigeschaltet sind."
+        },
+        "italian": {
+          "name": "Onde di propagazione",
+          "description": "Guarda un episodio della serie TV dopo averne sbloccato tutte le propagazioni quantiche."
+        },
+        "japanese": {
+          "name": "広がる波紋",
+          "description": "クォンタム リップルをすべて解除した状態で、実写ムービーのエピソード を 1 つ視聴する。"
+        },
+        "koreana": {
+          "name": "파급 효과",
+          "description": "양자 파동을 모두 잠금 해제하여 쇼 프로 에피소드를 시청합니다."
+        },
+        "russian": {
+          "name": "Волны на воде",
+          "description": "Просмотреть эпизод сериала со всеми открытыми квантовыми волнами."
+        },
+        "schinese": {
+          "name": "散播涟漪",
+          "description": "解除所有量子涟漪的锁定后，观看一集节目。"
+        },
+        "spanish": {
+          "name": "Ondas en expansión",
+          "description": "Ve un episodio del programa con todas las ondas cuánticas desbloqueadas."
+        },
+        "tchinese": {
+          "name": "散播漣漪",
+          "description": "解除所有量子漣漪的鎖定後，觀看一集節目。"
+        }
+      }
+    },
+    "ACH_CHRONON_SURGE": {
+      "translations": {
+        "brazilian": {
+          "name": "Pico de cronum",
+          "description": "Melhorar um poder temporal."
+        },
+        "english": {
+          "name": "Chronon Surge",
+          "description": "Upgrade a time power."
+        },
+        "french": {
+          "name": "Poussée de chronons",
+          "description": "Améliorer un pouvoir temporel."
+        },
+        "german": {
+          "name": "Chrononanstieg",
+          "description": "Verbessere eine Zeitkraft."
+        },
+        "italian": {
+          "name": "Picco di chronon",
+          "description": "Potenzia un potere temporale."
+        },
+        "japanese": {
+          "name": "クロノン サージ",
+          "description": "タイム パワーをアップグレード。"
+        },
+        "koreana": {
+          "name": "크로논 서지",
+          "description": "시간 능력을 업그레이드합니다."
+        },
+        "russian": {
+          "name": "Всплеск хрононов",
+          "description": "Улучшить хроноспособность."
+        },
+        "schinese": {
+          "name": "时元突波",
+          "description": "升级时空能量。"
+        },
+        "spanish": {
+          "name": "Sobrecarga de chronon",
+          "description": "Mejora un poder temporal."
+        },
+        "tchinese": {
+          "name": "時元突波",
+          "description": "升級時空能量。"
+        }
+      }
+    },
+    "ACH_STOP_GO": {
+      "translations": {
+        "brazilian": {
+          "name": "Para / vai",
+          "description": "Melhorar completamente Parar o Tempo ou Esquiva Temporal."
+        },
+        "english": {
+          "name": "Stop / Go",
+          "description": "Fully upgrade Time Stop or Time Dodge."
+        },
+        "french": {
+          "name": "Avec le temps",
+          "description": "Améliorer au maximum la bulle temporelle ou l'esquive temporelle."
+        },
+        "german": {
+          "name": "Stop-and-go",
+          "description": "Erreiche bei Zeitstopper oder Whooshen die Maximalstufe."
+        },
+        "italian": {
+          "name": "Blocca e vai",
+          "description": "Potenzia al massimo il blocco temporale o la schivata temporale."
+        },
+        "japanese": {
+          "name": "止めたり避けたり",
+          "description": "タイム ストップまたはタイム ドッジを完全アップグレード。"
+        },
+        "koreana": {
+          "name": "스톱/고",
+          "description": "시간 정지 또는 시간 회피를 완전히 업그레이드합니다."
+        },
+        "russian": {
+          "name": "Стой / иди",
+          "description": "Полностью улучшить Хронозаморозку или Хроноуровот."
+        },
+        "schinese": {
+          "name": "停 / 走",
+          "description": "完全升级时间停止或时光闪避。"
+        },
+        "spanish": {
+          "name": "Para / Sigue",
+          "description": "Mejora por completo Detener el tiempo y Regate temporal."
+        },
+        "tchinese": {
+          "name": "停 / 走",
+          "description": "完全升級時間停止或時光閃避。"
+        }
+      }
+    },
+    "ACH_SUCH_UPGRADE": {
+      "translations": {
+        "brazilian": {
+          "name": "Uau, melhoria",
+          "description": "Melhorar completamente todos os seus poderes temporais."
+        },
+        "english": {
+          "name": "Such Upgrade",
+          "description": "Fully upgrade all time powers."
+        },
+        "french": {
+          "name": "Quelle amélioration",
+          "description": "Améliorer au maximum tous les pouvoirs temporels."
+        },
+        "german": {
+          "name": "Welch Upgrade",
+          "description": "Erreiche bei allen deinen Zeitkräften die Maximalstufe."
+        },
+        "italian": {
+          "name": "Che potenza!",
+          "description": "Potenzia al massimo tutti i poteri temporali."
+        },
+        "japanese": {
+          "name": "そこまでアップグレードしたか",
+          "description": "すべてのタイム パワーを完全アップグレード。"
+        },
+        "koreana": {
+          "name": "멋진 업그레이드",
+          "description": "모든 시간 능력을 완전히 업그레이드합니다."
+        },
+        "russian": {
+          "name": "Такое улучшение",
+          "description": "Полностью улучшить все хроноспособности."
+        },
+        "schinese": {
+          "name": "好个升级",
+          "description": "完全升级所有的时空能量。"
+        },
+        "spanish": {
+          "name": "Qué mejora",
+          "description": "Mejora por completo todos los poderes temporales."
+        },
+        "tchinese": {
+          "name": "好個升級",
+          "description": "完全升級所有的時空能量。"
+        }
+      }
+    },
+    "ACH_TIME_MASTER": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre do tempo",
+          "description": "Completar 100% do jogo. Encontrar todas as coisas escondidas, fazer todas as escolhas. FAZER TUDÃO."
+        },
+        "english": {
+          "name": "Time Master",
+          "description": "Complete 100% of the game. Find every hidden thing, make every choice. DO ALL THE THINGS."
+        },
+        "french": {
+          "name": "Maître du temps",
+          "description": "Terminer l'intégralité de Quantum Break. Trouver tous les éléments, faire tous les choix possibles."
+        },
+        "german": {
+          "name": "Meister der Zeit",
+          "description": "Schließe 100 % des Spiels ab. Finde jedes versteckte Ding, triff alle Entscheidungen. MACH EINFACH ALLES."
+        },
+        "italian": {
+          "name": "Padrone del tempo",
+          "description": "Completa il gioco al 100%. Trova tutti i segreti ed effettua ogni scelta. SCOPRI TUTTO."
+        },
+        "japanese": {
+          "name": "時間マスター",
+          "description": "ゲームを完全クリアする。隠しアイテムをすべて発見し、すべての選択を完了し、何もかもをすべて完了させる。"
+        },
+        "koreana": {
+          "name": "시간의 주인",
+          "description": "게임을 100% 완료합니다. 숨겨져 있는 모든 것들을 찾아내고, 모든 선택을 확인하십시오. 모든 것을 해야 합니다."
+        },
+        "russian": {
+          "name": "Владыка времени",
+          "description": "Пройти игру на 100%. Найти каждый секрет, выбрать каждый вариант. СДЕЛАТЬ ВООБЩЕ ВСЕ."
+        },
+        "schinese": {
+          "name": "时空专家",
+          "description": "完成所有游戏内容。找到所有隐藏元素，选择每一个分歧。把每件事做过一遍。"
+        },
+        "spanish": {
+          "name": "Maestro del tiempo",
+          "description": "Completa el juego al 100%. Encuentra cada elemento escondido, toma cada decisión. HAZLO TODO."
+        },
+        "tchinese": {
+          "name": "時空專家",
+          "description": "完成所有遊戲內容。找到所有隱藏元素，選擇每一個分歧。把每件事做過一遍。"
+        }
+      }
+    },
+    "ACH_TOSSING_STONES_IN_A_POND": {
+      "translations": {
+        "brazilian": {
+          "name": "Jogando pedras na lagoa",
+          "description": "Acionar todas as Ondulações Quânticas."
+        },
+        "english": {
+          "name": "Tossing Stones in a Pond",
+          "description": "Trigger all Quantum Ripples."
+        },
+        "french": {
+          "name": "Un pavé dans la mare",
+          "description": "Activer tous les échos quantiques."
+        },
+        "german": {
+          "name": "Steine in einen Teich werfen",
+          "description": "Löse alle Quantenwellen aus."
+        },
+        "italian": {
+          "name": "Sassi nello stagno",
+          "description": "Attiva tutte le propagazioni quantiche."
+        },
+        "japanese": {
+          "name": "投じられた一石",
+          "description": "すべてのクォンタム リップルを発生させる。"
+        },
+        "koreana": {
+          "name": "연못에 던진 돌",
+          "description": "모든 양자 파동을 촉발합니다."
+        },
+        "russian": {
+          "name": "Эффект бабочки",
+          "description": "Задействовать все квантовые волны."
+        },
+        "schinese": {
+          "name": "投石入湖",
+          "description": "触发所有量子涟漪。"
+        },
+        "spanish": {
+          "name": "Lanzando rocas en un estanque",
+          "description": "Activa todas las ondas cuánticas."
+        },
+        "tchinese": {
+          "name": "投石入湖",
+          "description": "觸發所有量子漣漪。"
+        }
+      }
+    },
+    "ACH_KNOWLEDGE_IS_POWER": {
+      "translations": {
+        "brazilian": {
+          "name": "Conhecimento é poder",
+          "description": "Localizar todos os itens de de informação."
+        },
+        "english": {
+          "name": "Knowledge Is Power",
+          "description": "Locate all Intel Items."
+        },
+        "french": {
+          "name": "Le savoir, c'est le pouvoir",
+          "description": "Trouver tous les éléments de renseignement."
+        },
+        "german": {
+          "name": "Wissen ist Macht",
+          "description": "Finde alle Info-Objekte."
+        },
+        "italian": {
+          "name": "La conoscenza è potere",
+          "description": "Trova tutte le informazioni."
+        },
+        "japanese": {
+          "name": "知は力なり",
+          "description": "すべての情報アイテムの在り処を特定。"
+        },
+        "koreana": {
+          "name": "지식이 힘이다",
+          "description": "모든 정보 아이템을 발견합니다."
+        },
+        "russian": {
+          "name": "Знание — сила",
+          "description": "Найти все носители данных."
+        },
+        "schinese": {
+          "name": "知识就是力量",
+          "description": "找到所有情报物品。"
+        },
+        "spanish": {
+          "name": "El conocimiento es poder",
+          "description": "Encuentra todos los objetos de información."
+        },
+        "tchinese": {
+          "name": "知識就是力量",
+          "description": "找到所有情報物品。"
+        }
+      }
+    },
+    "ACH_A_LINK_TO_THE_FUTURE": {
+      "translations": {
+        "brazilian": {
+          "name": "Uma ligação com o futuro",
+          "description": "Localizar 1 Ondulação Quântica e 1 item de informação."
+        },
+        "english": {
+          "name": "A Link To The Future",
+          "description": "Locate 1 Quantum Ripple and 1 Intel Item."
+        },
+        "french": {
+          "name": "Un lien avec le futur",
+          "description": "Trouver 1 écho quantique et 1 élément de renseignement."
+        },
+        "german": {
+          "name": "Eine Verbindung in die Zukunft",
+          "description": "Finde eine Quantenwelle und ein Info-Objekt."
+        },
+        "italian": {
+          "name": "Connesso al futuro",
+          "description": "Trova una propagazione quantica e un'informazione."
+        },
+        "japanese": {
+          "name": "未来への糸口",
+          "description": "クォンタム リップルを 1 か所、および情報アイテムを 1 つ発見。"
+        },
+        "koreana": {
+          "name": "미래로의 링크",
+          "description": "양자 파동 1개와 정보 아이템 1개를 발견합니다."
+        },
+        "russian": {
+          "name": "Связь с будущим",
+          "description": "Найти 1 квантовую волну и 1 носитель данных."
+        },
+        "schinese": {
+          "name": "与未来的连结",
+          "description": "找到1个量子涟漪和1个情报物品。"
+        },
+        "spanish": {
+          "name": "Un vínculo con el futuro",
+          "description": "Encuentra 1 onda cuántica y 1 objeto de información."
+        },
+        "tchinese": {
+          "name": "與未來的連結",
+          "description": "找到1個量子漣漪和1個情報物品。"
+        }
+      }
+    },
+    "ACH_MEDIA_BARON": {
+      "translations": {
+        "brazilian": {
+          "name": "Barão da mídia",
+          "description": "Encontrar todos os e-mails, apresentações, séries de TV, programas de rádio e pôsteres."
+        },
+        "english": {
+          "name": "Media Baron",
+          "description": "Find all e-mails, presentations, TV shows, radios and posters."
+        },
+        "french": {
+          "name": "Baron des médias",
+          "description": "Trouver l'ensemble des e-mails, présentations, programmes TV, radios et affiches."
+        },
+        "german": {
+          "name": "Medienzar",
+          "description": "Finde alle E-Mails, Präsentationen, TV-Sendungen, Radios und Poster."
+        },
+        "italian": {
+          "name": "Magnate dell'informazione",
+          "description": "Trova tutte le email, le presentazioni, le locandine e i programmi TV e radio."
+        },
+        "japanese": {
+          "name": "メディア界の大物",
+          "description": "E メール、プレゼンテーション、テレビ番組、ラジオ番組、およびポスターをすべて見つける。"
+        },
+        "koreana": {
+          "name": "미디어계의 거물",
+          "description": "모든 이메일, 프레젠테이션, TV 쇼 프로, 라디오, 포스터를 발견합니다."
+        },
+        "russian": {
+          "name": "Медиамагнат",
+          "description": "Найти все электронные письма, презентации, эпизоды сериала, радиопередачи и плакаты."
+        },
+        "schinese": {
+          "name": "媒体巨头",
+          "description": "找到所有电子邮件、简报、电视节目、广播及海报。"
+        },
+        "spanish": {
+          "name": "Barón de los medios",
+          "description": "Encuentra todos los correos, presentaciones, programas de TV, radios y afiches."
+        },
+        "tchinese": {
+          "name": "媒體巨頭",
+          "description": "找到所有電子郵件、簡報、電視節目、廣播及海報。"
+        }
+      }
+    },
+    "ACH_PERSONAL_SPACE": {
+      "translations": {
+        "brazilian": {
+          "name": "Espaço pessoal",
+          "description": "Defletir um total de 200 balas com o Escudo Temporal."
+        },
+        "english": {
+          "name": "Personal Space",
+          "description": "Deflect a total of 200 bullets with the Time Shield."
+        },
+        "french": {
+          "name": "Espace vital",
+          "description": "Dévier 200 balles à l'aide du bouclier temporel."
+        },
+        "german": {
+          "name": "Diskretionsabstand",
+          "description": "Lass insgesamt 200 Projektile am Zeitschild abprallen"
+        },
+        "italian": {
+          "name": "Spazio personale",
+          "description": "Respingi un totale di 200 proiettili con lo scudo temporale."
+        },
+        "japanese": {
+          "name": "パーソナル スペース",
+          "description": "タイム シールドで合計 200 発の弾丸を防ぐ。"
+        },
+        "koreana": {
+          "name": "개인적인 공간",
+          "description": "시간 방어막을 사용하여 탄환 총 200개의 방향을 바꿉니다."
+        },
+        "russian": {
+          "name": "Личное пространство",
+          "description": "Отразить в общей сложности 200 пуль с помощью Хронощита."
+        },
+        "schinese": {
+          "name": "个人空间",
+          "description": "用时间护盾，共弹开200颗子弹。"
+        },
+        "spanish": {
+          "name": "Espacio personal",
+          "description": "Desvía un total de 200 balas con Escudo temporal."
+        },
+        "tchinese": {
+          "name": "個人空間",
+          "description": "用時間護盾，共彈開200顆子彈。"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "version": 1,
+  "app_id": "1970580",
+  "variant_id": "default",
+  "source_sha256": "ed2245ffe8dea9969de014c12995be6d632d3682c3cafe52ad01f1291197f832",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "WonAQuickRun": {
+      "translations": {
+        "english": {
+          "name": "Quick Hero",
+          "description": "Win a Quick Run"
+        },
+        "schinese": {
+          "name": "快速英雄",
+          "description": "赢得快速冒险"
+        }
+      }
+    },
+    "WonAQuickRunAsPurse": {
+      "translations": {
+        "english": {
+          "name": "Purse Hero",
+          "description": "Win a Quick Run as Purse"
+        },
+        "schinese": {
+          "name": "Purse 英雄",
+          "description": "使用 Purse 赢得快速冒险"
+        }
+      }
+    },
+    "WonAQuickRunAsSatchel": {
+      "translations": {
+        "english": {
+          "name": "Satchel Hero",
+          "description": "Win a Quick Run as Satchel"
+        },
+        "schinese": {
+          "name": "Satchel 英雄",
+          "description": "使用 Satchel 赢得快速冒险"
+        }
+      }
+    },
+    "WonAQuickRunAsTote": {
+      "translations": {
+        "english": {
+          "name": "Tote Hero",
+          "description": "Win a Quick Run as Tote"
+        },
+        "schinese": {
+          "name": "Tote 英雄",
+          "description": "使用 Tote 赢得快速冒险"
+        }
+      }
+    },
+    "WonAQuickRunAsPochette": {
+      "translations": {
+        "english": {
+          "name": "Pochette Hero",
+          "description": "Win a Quick Run as Pochette"
+        },
+        "schinese": {
+          "name": "Pochette 英雄",
+          "description": "使用 Pochette 赢得快速冒险"
+        }
+      }
+    },
+    "WonAQuickRunAsCR8": {
+      "translations": {
+        "english": {
+          "name": "CR-8 Hero",
+          "description": "Win a Quick Run as CR-8"
+        },
+        "schinese": {
+          "name": "CR-8 英雄",
+          "description": "使用 CR-8 赢得快速冒险"
+        }
+      }
+    },
+    "GotPradasLocket": {
+      "translations": {
+        "english": {
+          "name": "Prada's Locket",
+          "description": "Find Prada's Locket"
+        },
+        "schinese": {
+          "name": "Prada 的吊坠",
+          "description": "找到 Prada 的吊坠"
+        }
+      }
+    },
+    "BuiltTownHall": {
+      "translations": {
+        "english": {
+          "name": "Town Hall",
+          "description": "Unlock the Town Hall"
+        },
+        "schinese": {
+          "name": "市政厅",
+          "description": "解锁市政厅"
+        }
+      }
+    },
+    "SurvivedTheRaid": {
+      "translations": {
+        "english": {
+          "name": "Resilient Town",
+          "description": "Survive the Raid"
+        },
+        "schinese": {
+          "name": "坚韧小镇",
+          "description": "在突袭中存活下来"
+        }
+      }
+    },
+    "UnlockedSatchel": {
+      "translations": {
+        "english": {
+          "name": "Bird Hero",
+          "description": "Unlock Satchel"
+        },
+        "schinese": {
+          "name": "鸟类英雄",
+          "description": "解锁 Satchel"
+        }
+      }
+    },
+    "UnlockedTote": {
+      "translations": {
+        "english": {
+          "name": "Toad Hero",
+          "description": "Unlock Tote"
+        },
+        "schinese": {
+          "name": "蟾蜍英雄",
+          "description": "解锁 Tote"
+        }
+      }
+    },
+    "UnlockedPochette": {
+      "translations": {
+        "english": {
+          "name": "Porcupine Hero",
+          "description": "Unlock Pochette"
+        },
+        "schinese": {
+          "name": "豪猪英雄",
+          "description": "解锁 Pochette"
+        }
+      }
+    },
+    "UnlockedCR8": {
+      "translations": {
+        "english": {
+          "name": "Robotic Hero",
+          "description": "Unlock CR-8"
+        },
+        "schinese": {
+          "name": "机器人英雄",
+          "description": "解锁 CR-8"
+        }
+      }
+    },
+    "UnlockedDeepCave": {
+      "translations": {
+        "english": {
+          "name": "Deep Explorer",
+          "description": "Discover the Deep Caves"
+        },
+        "schinese": {
+          "name": "深洞探险家",
+          "description": "发现 Deep Caves"
+        }
+      }
+    },
+    "UnlockedBramble": {
+      "translations": {
+        "english": {
+          "name": "Thorny",
+          "description": "Discover the Bramble"
+        },
+        "schinese": {
+          "name": "荆棘丛生",
+          "description": "发现 Bramble"
+        }
+      }
+    },
+    "UnlockedEnchantedSwamp": {
+      "translations": {
+        "english": {
+          "name": "Swampland",
+          "description": "Discover the Enchanted Swamp"
+        },
+        "schinese": {
+          "name": "沼泽地",
+          "description": "发现 Enchanted Swamp"
+        }
+      }
+    },
+    "UnlockedMagmaCore": {
+      "translations": {
+        "english": {
+          "name": "Toasty",
+          "description": "Discover the Magma Core"
+        },
+        "schinese": {
+          "name": "烫手",
+          "description": "发现 Magma Core"
+        }
+      }
+    },
+    "UnlockedFrozenHeart": {
+      "translations": {
+        "english": {
+          "name": "Shivers",
+          "description": "Discover the Frozen Heart"
+        },
+        "schinese": {
+          "name": "寒颤",
+          "description": "发现 Frozen Heart"
+        }
+      }
+    },
+    "DefeatedChaos": {
+      "translations": {
+        "english": {
+          "name": "Backpack Hero",
+          "description": "Defeat Disorder"
+        },
+        "schinese": {
+          "name": "背包英雄",
+          "description": "击败 Disorder"
+        }
+      }
+    },
+    "BeatAHardMode": {
+      "translations": {
+        "english": {
+          "name": "Tough Times",
+          "description": "Win a Run in Hardmode"
+        },
+        "schinese": {
+          "name": "艰难时刻",
+          "description": "在困难模式赢得一局"
+        }
+      }
+    },
+    "ItemDiscoverer": {
+      "translations": {
+        "english": {
+          "name": "Discoverer",
+          "description": "Discover at least 200 items"
+        },
+        "schinese": {
+          "name": "发现者",
+          "description": "发现至少 200 件物品"
+        }
+      }
+    },
+    "ItemExpert": {
+      "translations": {
+        "english": {
+          "name": "Expert",
+          "description": "Discover at least 400 items"
+        },
+        "schinese": {
+          "name": "专家",
+          "description": "发现至少 400 件物品"
+        }
+      }
+    },
+    "ItemHero": {
+      "translations": {
+        "english": {
+          "name": "Hero",
+          "description": "Discover at least 700 items"
+        },
+        "schinese": {
+          "name": "英雄",
+          "description": "发现至少 700 件物品"
+        }
+      }
+    },
+    "Popular": {
+      "translations": {
+        "english": {
+          "name": "Popular",
+          "description": "Attract at least 40 residents to Haversack Hill"
+        },
+        "schinese": {
+          "name": "受欢迎",
+          "description": "吸引至少 40 名居民来到 Haversack Hill"
+        }
+      }
+    },
+    "ShivMaster": {
+      "translations": {
+        "english": {
+          "name": "Shiv Master",
+          "description": "Carry at least 5 shivs"
+        },
+        "schinese": {
+          "name": "小刀大师",
+          "description": "携带至少 5 个shivs"
+        }
+      }
+    },
+    "Builder": {
+      "translations": {
+        "english": {
+          "name": "Builder",
+          "description": "Carry at least 5 structures"
+        },
+        "schinese": {
+          "name": "建造者",
+          "description": "携带至少 5 个structures"
+        }
+      }
+    },
+    "Haggler": {
+      "translations": {
+        "english": {
+          "name": "Haggler",
+          "description": "Give a Tasty Fly to a merchant"
+        },
+        "schinese": {
+          "name": "砍价者",
+          "description": "给商人一只 Tasty Fly"
+        }
+      }
+    },
+    "Multipurpose": {
+      "translations": {
+        "english": {
+          "name": "Multipurpose",
+          "description": "Wear a shoehat on your head and one on your feet at the same time"
+        },
+        "schinese": {
+          "name": "一物多用",
+          "description": "同时在头上和脚上穿戴 shoehat"
+        }
+      }
+    },
+    "Mage": {
+      "translations": {
+        "english": {
+          "name": "Mage",
+          "description": "Carry at least 5 manastones"
+        },
+        "schinese": {
+          "name": "法师",
+          "description": "携带至少 5 个manastones"
+        }
+      }
+    },
+    "Archer": {
+      "translations": {
+        "english": {
+          "name": "Archer",
+          "description": "Carry at least 5 arrows"
+        },
+        "schinese": {
+          "name": "弓箭手",
+          "description": "携带至少 5 个arrows"
+        }
+      }
+    },
+    "Glutton": {
+      "translations": {
+        "english": {
+          "name": "Glutton",
+          "description": "Carry at least 7 consumables"
+        },
+        "schinese": {
+          "name": "贪吃鬼",
+          "description": "携带至少 7 个consumables"
+        }
+      }
+    },
+    "StatusMaster": {
+      "translations": {
+        "english": {
+          "name": "Status Master",
+          "description": "Have at least 5 status effects at the same time"
+        },
+        "schinese": {
+          "name": "状态大师",
+          "description": "同时拥有至少 5 种状态效果"
+        }
+      }
+    },
+    "CursedRun": {
+      "translations": {
+        "english": {
+          "name": "Cursed Run",
+          "description": "Carry at least 4 cursed items"
+        },
+        "schinese": {
+          "name": "诅咒之旅",
+          "description": "携带至少 4 个cursed items"
+        }
+      }
+    },
+    "PoisonStack": {
+      "translations": {
+        "english": {
+          "name": "Poison Stack",
+          "description": "Stack at least 50 poison"
+        },
+        "schinese": {
+          "name": "毒素叠加",
+          "description": "叠加至少 50 层中毒"
+        }
+      }
+    },
+    "FullyArmored": {
+      "translations": {
+        "english": {
+          "name": "Fully Armored",
+          "description": "Carry a helmet, clothing, two gloves, and footwear"
+        },
+        "schinese": {
+          "name": "全副武装",
+          "description": "携带头盔、衣服、两只手套和鞋类"
+        }
+      }
+    }
+  }
+}

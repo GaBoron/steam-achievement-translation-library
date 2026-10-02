@@ -1,0 +1,779 @@
+{
+  "version": 1,
+  "app_id": "233270",
+  "variant_id": "default",
+  "source_sha256": "390b65624e870d172531160f78882af2a47c1285c95d3ca308f4fb685d3c55cd",
+  "languages": [
+    "brazilian",
+    "dutch",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "FC3BD_Ach_1": {
+      "translations": {
+        "brazilian": {
+          "name": "Bem-vindo à festa, amigo",
+          "description": "Entrada de helicóptero terminada"
+        },
+        "dutch": {
+          "name": "Het feest kan beginnen",
+          "description": "Voltooi de aankomst met de helikopter."
+        },
+        "english": {
+          "name": "Welcome to the party, pal",
+          "description": "Finished Helicopter Entry"
+        },
+        "french": {
+          "name": "Bienvenue au club, mec.",
+          "description": "Terminez l'approche en hélico"
+        },
+        "german": {
+          "name": "Willkommen zur Party, Kumpel",
+          "description": "Beende die Helikopter-Ankunft"
+        },
+        "italian": {
+          "name": "Benvenuto alla festa",
+          "description": "Completato l'arrivo con l'elicottero"
+        },
+        "russian": {
+          "name": "Добро пожаловать, дружок",
+          "description": "Высадитесь с вертолета"
+        },
+        "schinese": {
+          "name": "欢迎来开趴体,兄弟",
+          "description": "完成直升机进场"
+        },
+        "spanish": {
+          "name": "Bienvenido a la fiesta, amigo",
+          "description": "Completa la llegada en helicóptero."
+        }
+      }
+    },
+    "FC3BD_Ach_2": {
+      "translations": {
+        "brazilian": {
+          "name": "Um Pequeno Passo",
+          "description": "Primeira fortaleza terminada"
+        },
+        "dutch": {
+          "name": "Kleine stapjes",
+          "description": "Bevrijd het eerste garnizoen."
+        },
+        "english": {
+          "name": "One Small Step",
+          "description": "Finished First Garrison"
+        },
+        "french": {
+          "name": "Un petit pas",
+          "description": "Terminez la première garnison"
+        },
+        "german": {
+          "name": "Ein kleiner Schritt",
+          "description": "Erledige die erste Garnison"
+        },
+        "italian": {
+          "name": "Un piccolo passo",
+          "description": "Completato il primo presidio"
+        },
+        "russian": {
+          "name": "Первый шаг",
+          "description": "Захватите первую базу"
+        },
+        "schinese": {
+          "name": "一小步",
+          "description": "完成第一个要塞"
+        },
+        "spanish": {
+          "name": "Un pequeño paso",
+          "description": "Libera la primera guarnición."
+        }
+      }
+    },
+    "FC3BD_Ach_3": {
+      "translations": {
+        "brazilian": {
+          "name": "Muito bem, seu Forta-lesado",
+          "description": "Termine todas as fortalezas"
+        },
+        "dutch": {
+          "name": "Garnizoen, schmarnizoen",
+          "description": "Bevrijd alle garnizoenen."
+        },
+        "english": {
+          "name": "Way to Go, Garri-Son",
+          "description": "Finish all the Garrisons"
+        },
+        "french": {
+          "name": "Un pas de géant",
+          "description": "Terminez toutes les garnisons"
+        },
+        "german": {
+          "name": "Erste Sahne, Garni-Sohn",
+          "description": "Erledige alle Garnisonen"
+        },
+        "italian": {
+          "name": "Signor presidiente",
+          "description": "Completa tutti i presidi"
+        },
+        "russian": {
+          "name": "Тотальный контроль",
+          "description": "Захватите все базы"
+        },
+        "schinese": {
+          "name": "干得好小子",
+          "description": "完成所有要塞"
+        },
+        "spanish": {
+          "name": "Un buen pollo con guarnición",
+          "description": "Libera todas las guarniciones."
+        }
+      }
+    },
+    "FC3BD_Ach_4": {
+      "translations": {
+        "brazilian": {
+          "name": "Matem Todos",
+          "description": "Termine todas as tarefas de Caminho do Predador"
+        },
+        "dutch": {
+          "name": "Maak ze af",
+          "description": "Voltooi alle rooftochtmissies."
+        },
+        "english": {
+          "name": "Kill Them All",
+          "description": "Finish all the Predator's Path Quests"
+        },
+        "french": {
+          "name": "Tuez-les tous",
+          "description": "Terminez toutes les quêtes Voie du prédateur"
+        },
+        "german": {
+          "name": "Töte sie alle",
+          "description": "Alle Pfad des Raubtiers-Aufgaben beenden"
+        },
+        "italian": {
+          "name": "Uccidili tutti",
+          "description": "Compi tutte le ricerche della Via del predatore"
+        },
+        "russian": {
+          "name": "Убить всех",
+          "description": "Выполнить все задания \"Пути хищника\""
+        },
+        "schinese": {
+          "name": "杀无赦",
+          "description": "完成所有铁血战士之路任务"
+        },
+        "spanish": {
+          "name": "Mátalos a todos",
+          "description": "Completa todos los encargos de Senda del depredador."
+        }
+      }
+    },
+    "FC3BD_Ach_5": {
+      "translations": {
+        "brazilian": {
+          "name": "Fim de Jogo",
+          "description": "Confronto Final terminado"
+        },
+        "dutch": {
+          "name": "Eind goed, al goed",
+          "description": "Voltooi het laatste gevecht."
+        },
+        "english": {
+          "name": "End Game",
+          "description": "Finished Final Showdown"
+        },
+        "french": {
+          "name": "Fin du jeu",
+          "description": "Terminez l'affrontement final"
+        },
+        "german": {
+          "name": "Spielende",
+          "description": "Beende den finalen Showdown"
+        },
+        "italian": {
+          "name": "Gran finale",
+          "description": "Supera lo scontro finale"
+        },
+        "russian": {
+          "name": "Конец игры",
+          "description": "Пройдите последний бой"
+        },
+        "schinese": {
+          "name": "游戏终局",
+          "description": "完成最后大结局"
+        },
+        "spanish": {
+          "name": "Fin del juego",
+          "description": "Completa el enfrentamiento final."
+        }
+      }
+    },
+    "FC3BD_Ach_6": {
+      "translations": {
+        "brazilian": {
+          "name": "Gentil Como Jesus",
+          "description": "Termine todas as situações com reféns"
+        },
+        "dutch": {
+          "name": "Zo zou Jezus het ook doen",
+          "description": "Breng alle gijzelingen tot een goed einde."
+        },
+        "english": {
+          "name": "Nice Like Jesus",
+          "description": "Finish all the Hostages Situations"
+        },
+        "french": {
+          "name": "Bon Samaritain",
+          "description": "Terminez toutes les quêtes Prise d'otage"
+        },
+        "german": {
+          "name": "So nett wie Jesus",
+          "description": "Beende alle Geisel-Dramen"
+        },
+        "italian": {
+          "name": "Buon samaritano",
+          "description": "Libera tutti gli ostaggi"
+        },
+        "russian": {
+          "name": "Спаситель",
+          "description": "Пройдите все миссии со спасением заложников"
+        },
+        "schinese": {
+          "name": "大善人",
+          "description": "完成所有人质任务"
+        },
+        "spanish": {
+          "name": "2013: Rescate en el Quinto Pino",
+          "description": "Completa todos los rescates de rehenes."
+        }
+      }
+    },
+    "FC3BD_Ach_7": {
+      "translations": {
+        "brazilian": {
+          "name": "Natureza Assassina",
+          "description": "Mate todos os tipos de animais"
+        },
+        "dutch": {
+          "name": "Wild wil wel",
+          "description": "Dood alle soorten dieren."
+        },
+        "english": {
+          "name": "Murder Nature",
+          "description": "Kill all the Animal Types"
+        },
+        "french": {
+          "name": "Meurtrier de la faune",
+          "description": "Tuez tous les types d'animaux"
+        },
+        "german": {
+          "name": "Anti-Naturalist",
+          "description": "Töte alle Arten von Tieren"
+        },
+        "italian": {
+          "name": "Madre tortura",
+          "description": "Uccidi tutti i tipi di animali"
+        },
+        "russian": {
+          "name": "Живодер",
+          "description": "Убейте животных всех видов"
+        },
+        "schinese": {
+          "name": "谋杀大自然",
+          "description": "杀死过所有种类的动物"
+        },
+        "spanish": {
+          "name": "Animalicidio",
+          "description": "Mata animales de todos los tipos."
+        }
+      }
+    },
+    "FC3BD_Ach_8": {
+      "translations": {
+        "brazilian": {
+          "name": "Liberte-os",
+          "description": "Destrua 5 Jaulas Cerebrais"
+        },
+        "dutch": {
+          "name": "Apenkooien",
+          "description": "Vernietig 5 hersenkooien."
+        },
+        "english": {
+          "name": "Set Them Free",
+          "description": "Destroy 5 Braincages"
+        },
+        "french": {
+          "name": "Libération",
+          "description": "Détruisez 5 cages cérébrales"
+        },
+        "german": {
+          "name": "Befreiung",
+          "description": "Zerstöre 5 Hirnschirme"
+        },
+        "italian": {
+          "name": "Libera tutti",
+          "description": "Distruggi 5 gabbie cerebrali"
+        },
+        "russian": {
+          "name": "Свободу драконам!",
+          "description": "Уничтожьте 5 мозгоблоков"
+        },
+        "schinese": {
+          "name": "放他们自由",
+          "description": "摧毁 5 个脑笼"
+        },
+        "spanish": {
+          "name": "Libera sus mentes",
+          "description": "Destruye 5 jaulas cerebrales."
+        }
+      }
+    },
+    "FC3BD_Ach_9": {
+      "translations": {
+        "brazilian": {
+          "name": "Só a Pontinha",
+          "description": "Mate um dragão com o arco"
+        },
+        "dutch": {
+          "name": "Draconisch",
+          "description": "Dood een draak met de pijl-en-boog."
+        },
+        "english": {
+          "name": "Just the Tip",
+          "description": "Kill a Dragon with the Bow"
+        },
+        "french": {
+          "name": "Dans le mille",
+          "description": "Tuez un dragon avec l'arc"
+        },
+        "german": {
+          "name": "Nadelstich",
+          "description": "Töte einen Drachen mit dem Bogen"
+        },
+        "italian": {
+          "name": "Scocco matto",
+          "description": "Uccidi un drago con l'arco"
+        },
+        "russian": {
+          "name": "Робин Гуд",
+          "description": "Убейте дракона из лука"
+        },
+        "schinese": {
+          "name": "尖锐物品",
+          "description": "使用弓箭杀死一只血龙"
+        },
+        "spanish": {
+          "name": "El arquero del dragón",
+          "description": "Mata un dragón con el arco."
+        }
+      }
+    },
+    "FC3BD_Ach_10": {
+      "translations": {
+        "brazilian": {
+          "name": "Dragão de Sangue Derrubado",
+          "description": "Mate o seu primeiro dragão"
+        },
+        "dutch": {
+          "name": "Bloedende bloeddraak",
+          "description": "Dood je eerste bloeddraak."
+        },
+        "english": {
+          "name": "Blood Dragon Down",
+          "description": "Kill Your First Dragon"
+        },
+        "french": {
+          "name": "Dragon de sang à terre",
+          "description": "Tuez votre premier dragon"
+        },
+        "german": {
+          "name": "Erstes Drachenblut",
+          "description": "Töte deinen ersten Blutdrachen"
+        },
+        "italian": {
+          "name": "Blood Dragon a terra",
+          "description": "Uccidi il tuo primo drago"
+        },
+        "russian": {
+          "name": "Ланцелот",
+          "description": "Убейте своего первого дракона"
+        },
+        "schinese": {
+          "name": "血龙驾崩啦",
+          "description": "杀死第一只血龙"
+        },
+        "spanish": {
+          "name": "Dragón Sangriento derribado",
+          "description": "Mata tu primer dragón."
+        }
+      }
+    },
+    "FC3BD_Ach_11": {
+      "translations": {
+        "brazilian": {
+          "name": "Matador de Dragões",
+          "description": "Mate 25 dragões"
+        },
+        "dutch": {
+          "name": "Drakenslachter",
+          "description": "Dood 25 draken."
+        },
+        "english": {
+          "name": "Dragon Slayer",
+          "description": "Kill 25 Dragons"
+        },
+        "french": {
+          "name": "Assassin de dragons",
+          "description": "Tuez 25 dragons"
+        },
+        "german": {
+          "name": "Drachentöter",
+          "description": "Töte 25 Drachen"
+        },
+        "italian": {
+          "name": "Ammazzadraghi",
+          "description": "Uccidi 25 draghi"
+        },
+        "russian": {
+          "name": "Истребитель драконов",
+          "description": "Убейте 25 драконов"
+        },
+        "schinese": {
+          "name": "屠龙者",
+          "description": "杀死 25 只血龙"
+        },
+        "spanish": {
+          "name": "El matadragones",
+          "description": "Mata 25 dragones."
+        }
+      }
+    },
+    "FC3BD_Ach_12": {
+      "translations": {
+        "brazilian": {
+          "name": "Pra que Você está Lendo?",
+          "description": "Ache todas as anotações do Dr. Carlyle"
+        },
+        "dutch": {
+          "name": "Literatuurprijs",
+          "description": "Vind alle aantekeningen van dr. Carlyle."
+        },
+        "english": {
+          "name": "What are You Reading For?",
+          "description": "Find all of Dr. Carlyle's Notes"
+        },
+        "french": {
+          "name": "Que lisez-vous ?",
+          "description": "Trouvez toutes les notes du Dr Carlyle"
+        },
+        "german": {
+          "name": "Warum liest du das?",
+          "description": "Finde alle Notizen von Dr. Carlyle"
+        },
+        "italian": {
+          "name": "Topo da biblioteca",
+          "description": "Trova tutte le note del dottor Carlyle"
+        },
+        "russian": {
+          "name": "Скажи, что ты читаешь",
+          "description": "Найдите все записки д-ра Карлайла"
+        },
+        "schinese": {
+          "name": "读书要干嘛?",
+          "description": "找到所有卡莱尔博士的字条"
+        },
+        "spanish": {
+          "name": "Querido diario",
+          "description": "Encuentra todas las notas de Carlyle."
+        }
+      }
+    },
+    "FC3BD_Ach_13": {
+      "translations": {
+        "brazilian": {
+          "name": "O Melhor Tipo de Vídeo",
+          "description": "Ache todas as fitas VHS"
+        },
+        "dutch": {
+          "name": "De opvolger van de LP, of zoiets",
+          "description": "Vind alle videobanden"
+        },
+        "english": {
+          "name": "The Greatest Format of all Time",
+          "description": "Find all VHS Tapes"
+        },
+        "french": {
+          "name": "La crème des formats",
+          "description": "Trouvez toutes les cassettes VHS"
+        },
+        "german": {
+          "name": "Das beste Format aller Zeiten",
+          "description": "Finde alle VHS-Kassetten"
+        },
+        "italian": {
+          "name": "Il più grande formato di sempre",
+          "description": "Trova tutti i VHS"
+        },
+        "russian": {
+          "name": "Это классика!",
+          "description": "Найдите все видеокассеты"
+        },
+        "schinese": {
+          "name": "史上最伟大的格式",
+          "description": "找出所有VHS录像带"
+        },
+        "spanish": {
+          "name": "Formato de vídeo por excelencia",
+          "description": "Encuentra todas las cintas de VHS."
+        }
+      }
+    },
+    "FC3BD_Ach_14": {
+      "translations": {
+        "brazilian": {
+          "name": "Salve o Rei",
+          "description": "Chegue ao nível máximo e torne-se o fodão derradeiro"
+        },
+        "dutch": {
+          "name": "Badass",
+          "description": "Bereik het maximale niveau en word de ultieme badass"
+        },
+        "english": {
+          "name": "Hail to the King",
+          "description": "Reach Maximum Level and Become the Ultimate Badass"
+        },
+        "french": {
+          "name": "Vive le roi",
+          "description": "Atteignez le niveau maximum et devenez le héros ultime"
+        },
+        "german": {
+          "name": "Lang lebe der König",
+          "description": "Erreiche den maximalen Level und werde zur ultimativ krassen Kampfsau"
+        },
+        "italian": {
+          "name": "Gloria al re",
+          "description": "Raggiungi il livello massimo e diventa il duro definitivo"
+        },
+        "russian": {
+          "name": "Слава королю!",
+          "description": "Получите максимальный уровень и станьте Настоящим Монстром"
+        },
+        "schinese": {
+          "name": "向国王致敬",
+          "description": "达到最高等级,成为终极狠角色"
+        },
+        "spanish": {
+          "name": "Saluda al rey, muñeca",
+          "description": "Alcanza el nivel máximo y conviértete en el tipo duro definitivo."
+        }
+      }
+    },
+    "FC3BD_Ach_15": {
+      "translations": {
+        "brazilian": {
+          "name": "Sobrevivente",
+          "description": "Depois de salvar Darling, entre em modo de combate com um dragão e volte à furtividade"
+        },
+        "dutch": {
+          "name": "Toch maar niet",
+          "description": "Vecht na het redden van Darling met een draak en ga daarna weer sluipen."
+        },
+        "english": {
+          "name": "Running man",
+          "description": "After saving Darling, enter Combat Mode with a Dragon and Return to Stealth"
+        },
+        "french": {
+          "name": "Girouette",
+          "description": "Après avoir sauvé Darling, combattez contre un dragon et repassez en furtivité"
+        },
+        "german": {
+          "name": "Auf der Flucht",
+          "description": "Beginne nach Darlings Rettung einen Kampf mit einem Drachen und tarne dich dann erfolgreich wieder"
+        },
+        "italian": {
+          "name": "In corsa",
+          "description": "Dopo aver salvato Darling, entra in combattimento con un drago e ritorna furtivo"
+        },
+        "russian": {
+          "name": "Бегущий человек",
+          "description": "После спасения Дарлинг войдите в режим боя с драконом и вернитесь в скрытный режим"
+        },
+        "schinese": {
+          "name": "鬼抓人",
+          "description": "拯救达令后,与一只血龙进入战斗再回到潜行状态"
+        },
+        "spanish": {
+          "name": "Perseguido",
+          "description": "Tras salvar a Darling, entra en modo de combate contra un dragón y vuelve al sigilo."
+        }
+      }
+    },
+    "FC3BD_Ach_16": {
+      "translations": {
+        "brazilian": {
+          "name": "Equipado",
+          "description": "Obtenha todos os anexos de armas"
+        },
+        "dutch": {
+          "name": "Eigen wapen in puin",
+          "description": "Bezit alle wapenuitbreidingen."
+        },
+        "english": {
+          "name": "Tooled Up",
+          "description": "Own all Weapons Attachments"
+        },
+        "french": {
+          "name": "Bien outillé",
+          "description": "Possédez tous les accessoires d'armes"
+        },
+        "german": {
+          "name": "Bis an die Zähne",
+          "description": "Erwerbe alle Waffen-Aufsätze"
+        },
+        "italian": {
+          "name": "Armato fino ai denti",
+          "description": "Ottieni tutti gli accessori per le armi"
+        },
+        "russian": {
+          "name": "Вооружен до зубов",
+          "description": "Соберите все приспособления к оружию"
+        },
+        "schinese": {
+          "name": "装备齐全",
+          "description": "拥有所有武器配件"
+        },
+        "spanish": {
+          "name": "Bien equipado",
+          "description": "Hazte con todos los accesorios de armas."
+        }
+      }
+    },
+    "FC3BD_Ach_17": {
+      "translations": {
+        "brazilian": {
+          "name": "Retardado",
+          "description": "Pule de uma altura de 50 metros "
+        },
+        "dutch": {
+          "name": "Zwaartekracht vergeten?",
+          "description": "Spring 50 meter de diepte in."
+        },
+        "english": {
+          "name": "Derp",
+          "description": "Jump Down from 50 Meters "
+        },
+        "french": {
+          "name": "Chute libre",
+          "description": "Sautez 50 mètres plus bas"
+        },
+        "german": {
+          "name": "Optimist",
+          "description": "Springe aus 50 Metern herab"
+        },
+        "italian": {
+          "name": "Derp",
+          "description": "Cadi per 50 metri "
+        },
+        "russian": {
+          "name": "Ума не надо",
+          "description": "Спрыгните с высоты 50 м"
+        },
+        "schinese": {
+          "name": "傻瓜",
+          "description": "从 50 米处跳下"
+        },
+        "spanish": {
+          "name": "Corky",
+          "description": "Salta desde una altura de 50 metros. "
+        }
+      }
+    },
+    "FC3BD_Ach_18": {
+      "translations": {
+        "brazilian": {
+          "name": "A Droga da Nação",
+          "description": "Ache todas as TELEVISÕES para decifrar a mensagem oculta"
+        },
+        "dutch": {
+          "name": "Zapmoment",
+          "description": "Vind alle tv's om het verborgen bericht te ontcijferen."
+        },
+        "english": {
+          "name": "The Drug of the Nation",
+          "description": "Find all TV SETS to Decrypt the Hidden Message"
+        },
+        "french": {
+          "name": "La drogue de la nation",
+          "description": "Trouvez toutes les télés pour décrypter le message caché"
+        },
+        "german": {
+          "name": "Opium fürs Volk",
+          "description": "Finde alle TV-Geräte, um die versteckte Botschaft zu entschlüsseln"
+        },
+        "italian": {
+          "name": "L'oppio dei popoli",
+          "description": "Trova tutte le TV e decifra il messaggio"
+        },
+        "russian": {
+          "name": "Опиум для народа",
+          "description": "Найдите все телевизоры и расшифруйте скрытое сообщение"
+        },
+        "schinese": {
+          "name": "国民毒品",
+          "description": "找到所有的电视来解开隐藏消息"
+        },
+        "spanish": {
+          "name": "La caja tonta",
+          "description": "Encuentra todos los televisores para descodificar el mensaje oculto."
+        }
+      }
+    },
+    "FC3BD_Ach_19": {
+      "translations": {
+        "brazilian": {
+          "name": "O Único que Funciona de Verdade",
+          "description": "Acerte na cabeça de todos os tipos de inimigo"
+        },
+        "dutch": {
+          "name": "Kop die kogel dan!",
+          "description": "Dood alle soorten vijanden met een headshot."
+        },
+        "english": {
+          "name": "The Only True Stopper",
+          "description": "Headshot Every Type of Enemy"
+        },
+        "french": {
+          "name": "Le seul vrai remède",
+          "description": "Tirez sur tous les types d'ennemis en pleine tête"
+        },
+        "german": {
+          "name": "Das einzig Wahre",
+          "description": "Verpasse jedem Gegnertyp einen Kopfschuss"
+        },
+        "italian": {
+          "name": "Non si scappa",
+          "description": "Uccidi con un colpo alla testa tutti i tipi di nemici"
+        },
+        "russian": {
+          "name": "Пораскинь мозгами",
+          "description": "Убейте выстрелом в голову врага каждого типа"
+        },
+        "schinese": {
+          "name": "唯一真正的阻止方法",
+          "description": "爆过每一种类型敌人的头"
+        },
+        "spanish": {
+          "name": "Solo les para un tiro",
+          "description": "Pégales un tiro en la cabeza a todos los tipos de enemigos."
+        }
+      }
+    }
+  }
+}

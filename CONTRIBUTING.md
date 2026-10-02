@@ -101,6 +101,8 @@ UserGameStatsSchema_123456.zip
 
 机器人会根据 app ID 生成商店链接，并检查 ZIP 安全与大小、Binary KeyValues 解析及字节级 roundtrip、成就 ID 唯一性、自动识别的语言覆盖、生成的 `achievements.md` 与更新差异。请只提交你有权分享的翻译成果。
 
+每个版本还会自动生成同名 `.json`，供 Millennium 等客户端使用。投稿仍只上传 BIN/ZIP；不要手工修改生成的 JSON。刷新、PR 文件更新和 App ID 重命名都会同步这些文件，仓库检查会核对它们与 BIN、V2 元数据的一致性。
+
 修改工作流、脚本、Catalog、派生索引或 `files/` 数据时，请在仓库根目录运行：
 
 ```bash

@@ -44,6 +44,10 @@ def achievement_catalog_relative_path(game_id: str, variant_id: str) -> str:
     return f"files/{game_id}/{variant_id}/achievements.md"
 
 
+def translation_json_relative_path(game_id: str, variant_id: str) -> str:
+    return f"files/{game_id}/{variant_id}/UserGameStatsSchema_{game_id}.json"
+
+
 def _text(value: Any, field: str, *, maximum: int | None = None) -> str:
     text = str(value or "").strip()
     if not text:
@@ -121,6 +125,13 @@ def validate_catalog(catalog: Any) -> dict[str, Any]:
             count = variant.get("achievements")
             if not isinstance(count, int) or isinstance(count, bool) or count < 1:
                 raise ValueError(f"{game_id}/{variant_id}.achievements is invalid")
+            if "json" in variant:
+                metadata = variant["json"]
+                if not isinstance(metadata, dict) or type(metadata.get("version")) is not int or metadata["version"] != 1:
+                    raise ValueError(f"{game_id}/{variant_id}.json must use format 1")
+                json_size = metadata.get("size")
+                if not isinstance(json_size, int) or isinstance(json_size, bool) or not 0 < json_size <= MAX_SCHEMA_BYTES:
+                    raise ValueError(f"{game_id}/{variant_id}.json.size is invalid")
     return catalog
 
 
@@ -150,6 +161,8 @@ def _variant_record(game_id: str, variant_id: str, variant: dict[str, Any], *, v
     if description:
         record["description_zh"] = str(description.get("zh") or "")
         record["description_en"] = str(description.get("en") or "")
+    if not v1 and "json" in variant:
+        record["json"] = dict(variant["json"])
     return record
 
 
@@ -180,6 +193,8 @@ def legacy_index_from_catalog(catalog: dict[str, Any], *, v1_compatibility_paths
         }
         if len(records) > 1:
             entry["schema_files"] = records
+        if not v1_compatibility_paths and "json" in primary:
+            entry["json"] = dict(primary["json"])
         entries.append(entry)
     return {"version": 1, "description": DESCRIPTION, "states": STATES, "entries": entries}
 
@@ -196,6 +211,7 @@ def _records(entry: dict[str, Any]) -> list[dict[str, Any]]:
         "sha256": entry.get("sha256"),
         "achievement_count": entry.get("achievement_count"),
         "languages": entry.get("languages"),
+        "json": entry.get("json"),
     }]
 
 
@@ -219,6 +235,8 @@ def catalog_from_legacy_index(index: dict[str, Any]) -> dict[str, Any]:
                 "achievements": int(record.get("achievement_count") or (entry.get("achievement_count") if variant_id == "default" else 0)),
                 "size": int(record.get("file_size_bytes") or (entry.get("file_size_bytes") if variant_id == "default" else 0)),
             }
+            if isinstance(record.get("json"), dict):
+                variant["json"] = dict(record["json"])
             if len(_records(entry)) > 1 or label_zh or label_en:
                 variant["label"] = {"zh": label_zh or variant_id, "en": label_en or variant_id}
             description_zh = str(record.get("description_zh") or "").strip()
@@ -259,7 +277,7 @@ def catalog_from_manifests(manifests: Iterable[dict[str, Any]]) -> dict[str, Any
         for variant_id, raw in manifest["variants"].items():
             variant = {
                 key: raw[key]
-                for key in ("sha256", "languages", "achievements", "size", "label", "description")
+                for key in ("sha256", "languages", "achievements", "size", "label", "description", "json")
                 if key in raw
             }
             game["variants"][variant_id] = variant

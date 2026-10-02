@@ -1,0 +1,1293 @@
+{
+  "version": 1,
+  "app_id": "1218210",
+  "variant_id": "default",
+  "source_sha256": "90b1573900360a4093fe9c53c79e33c5abcca138dc2f05a99e93ea6045eb827b",
+  "languages": [
+    "english",
+    "russian",
+    "schinese"
+  ],
+  "achievements": {
+    "START_WEATHER_TWILIGHT": {
+      "translations": {
+        "english": {
+          "name": "Alone in the Dark",
+          "description": "Trigger Twilight in a battle."
+        },
+        "russian": {
+          "name": "Один в Темноте",
+          "description": "Вызовите Сумерки в бою."
+        },
+        "schinese": {
+          "name": "暗夜独行",
+          "description": "在战斗中触发暮光天气。"
+        }
+      }
+    },
+    "START_WEATHER_RAIN": {
+      "translations": {
+        "english": {
+          "name": "Raindance",
+          "description": "Trigger Rain in a battle."
+        },
+        "russian": {
+          "name": "Танцы под Дождём",
+          "description": "Вызовите Дождь в бою."
+        },
+        "schinese": {
+          "name": "祈雨舞",
+          "description": "在战斗中触发雨天。"
+        }
+      }
+    },
+    "START_WEATHER_SANDSTORM": {
+      "translations": {
+        "english": {
+          "name": "It's Coarse and Rough and Gets Everywhere",
+          "description": "Trigger a Sandstorm in a battle."
+        },
+        "russian": {
+          "name": "Он Грубый и Жёсткий и Проникает повсюду ",
+          "description": "Вызовите Песчаную бурю в бою."
+        },
+        "schinese": {
+          "name": "又粗又糙，还到处都是",
+          "description": "在战斗中触发沙暴。"
+        }
+      }
+    },
+    "START_WEATHER_HEATWAVE": {
+      "translations": {
+        "english": {
+          "name": "It's Getting Hot in Here",
+          "description": "Trigger a Heatwave in a battle."
+        },
+        "russian": {
+          "name": "Здесь становится жарко",
+          "description": "Вызовите Жаровую волну в бою."
+        },
+        "schinese": {
+          "name": "这里越来越热了",
+          "description": "在战斗中触发热浪。"
+        }
+      }
+    },
+    "START_WEATHER_SNOW": {
+      "translations": {
+        "english": {
+          "name": "Let's Make Snow Seraphaces!",
+          "description": "Trigger Snow in a battle."
+        },
+        "russian": {
+          "name": "Слепим Снежных Серафасов!",
+          "description": "Вызовите снег в бою."
+        },
+        "schinese": {
+          "name": "一起堆雪 Seraphace！",
+          "description": "在战斗中触发雪天。"
+        }
+      }
+    },
+    "REROLL_POTENTIAL": {
+      "translations": {
+        "english": {
+          "name": "Potentiflator",
+          "description": "Potentiflate a Coromon."
+        },
+        "russian": {
+          "name": "Потенциатор",
+          "description": "Потенциировать Коромона."
+        },
+        "schinese": {
+          "name": "潜能膨胀器",
+          "description": "对一只 Coromon 进行潜能膨胀。"
+        }
+      }
+    },
+    "REROLL_TRAIT": {
+      "translations": {
+        "english": {
+          "name": "Traitformator",
+          "description": "Traitformate a Coromon."
+        },
+        "russian": {
+          "name": "Талантформатор",
+          "description": "Талантформировать Коромона."
+        },
+        "schinese": {
+          "name": "特性变换器",
+          "description": "对一只 Coromon 进行特性变换。"
+        }
+      }
+    },
+    "USE_RESETINATOR": {
+      "translations": {
+        "english": {
+          "name": "Resetinator",
+          "description": "Resetinate a Coromon."
+        },
+        "russian": {
+          "name": "Обнулитель",
+          "description": "Обнулите Коромона."
+        },
+        "schinese": {
+          "name": "重置器",
+          "description": "对一只 Coromon 进行重置。"
+        }
+      }
+    },
+    "EVOLVE_A_COROMON": {
+      "translations": {
+        "english": {
+          "name": "Harder, Better, Faster, Stronger",
+          "description": "Evolve a Coromon."
+        },
+        "russian": {
+          "name": "Быстрее, Выше, Сильнее ",
+          "description": "Эволюционируйте Коромона."
+        },
+        "schinese": {
+          "name": "更强、更好、更快",
+          "description": "让一只 Coromon 进化。"
+        }
+      }
+    },
+    "SQUAD_OF_DIFFERENT_TYPES": {
+      "translations": {
+        "english": {
+          "name": "Diversify",
+          "description": "Have 6 Coromon of different types in your Squad."
+        },
+        "russian": {
+          "name": "Разнообразие",
+          "description": "Имейте в отряде 6 Коромонов разного типа."
+        },
+        "schinese": {
+          "name": "多样化",
+          "description": "队伍中拥有6只不同属性的 Coromon。"
+        }
+      }
+    },
+    "SQUAD_OF_SAME_MONSTER": {
+      "translations": {
+        "english": {
+          "name": "Ultimate fan",
+          "description": "Have 6 Coromon of the same species in your Squad."
+        },
+        "russian": {
+          "name": "Абсолютный фанат",
+          "description": "Имейте в отряде 6 Коромонов одного вида."
+        },
+        "schinese": {
+          "name": "终极粉丝",
+          "description": "队伍中拥有6只同一物种的 Coromon。"
+        }
+      }
+    },
+    "REDEEM_SHOP_COUPON": {
+      "translations": {
+        "english": {
+          "name": "Shopaholic",
+          "description": "Redeem a Shop coupon."
+        },
+        "russian": {
+          "name": "Шопаголик",
+          "description": "Используйте Купон магазина."
+        },
+        "schinese": {
+          "name": "购物狂",
+          "description": "兑换一张商店优惠券。"
+        }
+      }
+    },
+    "CONSUME_FRUIT": {
+      "translations": {
+        "english": {
+          "name": "Feeding Time",
+          "description": "Give a Fruit to a Coromon."
+        },
+        "russian": {
+          "name": "Время Кормёжки",
+          "description": "Дайте Фрукт Коромону."
+        },
+        "schinese": {
+          "name": "喂食时间",
+          "description": "给一只 Coromon 喂食水果。"
+        }
+      }
+    },
+    "DIG_UP_HOLD_ITEM": {
+      "translations": {
+        "english": {
+          "name": "Found it!",
+          "description": "Dig up a Hold item."
+        },
+        "russian": {
+          "name": "Нашёл!",
+          "description": "Выкопайте Удерживаемый Предмет ."
+        },
+        "schinese": {
+          "name": "找到了！",
+          "description": "挖出一件携带道具。"
+        }
+      }
+    },
+    "SQUAD_IN_SAME_SPINNER": {
+      "translations": {
+        "english": {
+          "name": "Stylized",
+          "description": "Have all Squad members in the same Spinner type."
+        },
+        "russian": {
+          "name": "Стилизованный",
+          "description": "Имейте в отряде 6 Коромонов в Спиннере одного типа."
+        },
+        "schinese": {
+          "name": "统一风格",
+          "description": "让所有队伍成员使用同一种 Spinner。"
+        }
+      }
+    },
+    "USE_SKILL_FLASH": {
+      "translations": {
+        "english": {
+          "name": "Flash 'em All",
+          "description": "Use a Skill Flash on one of your Coromon."
+        },
+        "russian": {
+          "name": "Научить их Всех!",
+          "description": "Используйте Ядро Навыков на одного из ваших Коромонов ."
+        },
+        "schinese": {
+          "name": "技能闪光，全员安排",
+          "description": "对你的任一 Coromon 使用技能闪光。"
+        }
+      }
+    },
+    "PROGRESS_1_PICK_STARTER": {
+      "translations": {
+        "english": {
+          "name": "Adventure Awaits!",
+          "description": "Pick your starter."
+        },
+        "russian": {
+          "name": "Приключенья ждут!",
+          "description": "Выбери своего стартера."
+        },
+        "schinese": {
+          "name": "冒险在前方！",
+          "description": "选择你的初始 Coromon。"
+        }
+      }
+    },
+    "PROGRESS_2_DEFEAT_MYSTERIOUS_INTRUDER": {
+      "translations": {
+        "english": {
+          "name": "Dark Tides",
+          "description": "Defeat the mysterious intruder."
+        },
+        "russian": {
+          "name": "Тёмные Приливы",
+          "description": "Одолейте загадочного вторженца."
+        },
+        "schinese": {
+          "name": "暗潮涌动",
+          "description": "击败神秘入侵者。"
+        }
+      }
+    },
+    "PROGRESS_3_DEFEAT_TITAN_ELECTRIC": {
+      "translations": {
+        "english": {
+          "name": "The Spark is Gone",
+          "description": "Defeat Voltgar."
+        },
+        "russian": {
+          "name": "Искра погасла",
+          "description": "Победите Вольтгара."
+        },
+        "schinese": {
+          "name": "电火花熄灭",
+          "description": "击败 Voltgar。"
+        }
+      }
+    },
+    "PROGRESS_4_DEFEAT_TITAN_GHOST": {
+      "translations": {
+        "english": {
+          "name": "Spooky Time is Over",
+          "description": "Defeat Illuginn."
+        },
+        "russian": {
+          "name": "Конец ночной смены",
+          "description": "Победите Иллюджинн."
+        },
+        "schinese": {
+          "name": "鬼魅时刻结束",
+          "description": "击败 Illuginn。"
+        }
+      }
+    },
+    "PROGRESS_5_DEFEAT_TITAN_SAND": {
+      "translations": {
+        "english": {
+          "name": "Shifted The Sands",
+          "description": "Defeat Sart."
+        },
+        "russian": {
+          "name": "Сдвижение Песков",
+          "description": "Победите Сарта."
+        },
+        "schinese": {
+          "name": "沙海易势",
+          "description": "击败 Sart。"
+        }
+      }
+    },
+    "PROGRESS_6_WIN_MIRROR_CHALLENGE": {
+      "translations": {
+        "english": {
+          "name": "I Am Overcome",
+          "description": "Win the Mirror Challenge."
+        },
+        "russian": {
+          "name": "Со Мной Покончено",
+          "description": "Победите в Зеркальном Вызове."
+        },
+        "schinese": {
+          "name": "我战胜了自己",
+          "description": "赢得镜像挑战。"
+        }
+      }
+    },
+    "PROGRESS_7_DEFEAT_TITAN_FIRE": {
+      "translations": {
+        "english": {
+          "name": "The Flame Extinguished",
+          "description": "Defeat Hozai."
+        },
+        "russian": {
+          "name": "Огонь потух",
+          "description": "Победите Хозая."
+        },
+        "schinese": {
+          "name": "火焰熄灭",
+          "description": "击败 Hozai。"
+        }
+      }
+    },
+    "PROGRESS_8_ICETOWN_FESTIVAL": {
+      "translations": {
+        "english": {
+          "name": "Party Time!",
+          "description": "Join the Alavi festivities."
+        },
+        "russian": {
+          "name": "Время Веселиться!",
+          "description": "Присоединитесь к празднику в Алави."
+        },
+        "schinese": {
+          "name": "派对时间！",
+          "description": "参加 Alavi 庆典。"
+        }
+      }
+    },
+    "PROGRESS_9_DEFEAT_TITAN_ICE": {
+      "translations": {
+        "english": {
+          "name": "Melt Down",
+          "description": "Defeat Vørst."
+        },
+        "russian": {
+          "name": "Сердце Растаяло",
+          "description": "Победите Вøрста."
+        },
+        "schinese": {
+          "name": "融化瓦解",
+          "description": "击败 Vørst。"
+        }
+      }
+    },
+    "PROGRESS_10_DEFEAT_TITAN_WATER": {
+      "translations": {
+        "english": {
+          "name": "Turning The Tide",
+          "description": "Defeat Chalchiu."
+        },
+        "russian": {
+          "name": "Переломный Момент",
+          "description": "Победите Чалчу."
+        },
+        "schinese": {
+          "name": "扭转潮汐",
+          "description": "击败 Chalchiu。"
+        }
+      }
+    },
+    "COMPLETE_5_SIDEQUESTS": {
+      "translations": {
+        "english": {
+          "name": "Helping Hand",
+          "description": "Complete 5 side quests."
+        },
+        "russian": {
+          "name": "Рука Помощи",
+          "description": "Выполните 5 побочных квестов."
+        },
+        "schinese": {
+          "name": "援手相助",
+          "description": "完成5个支线任务。"
+        }
+      }
+    },
+    "REACH_LUX_SOLIS_RANK_50": {
+      "translations": {
+        "english": {
+          "name": "Junior Researcher",
+          "description": "Reach Researcher Level 50."
+        },
+        "russian": {
+          "name": "Младший Исследователь",
+          "description": "Достигните уровня Исследователя 50."
+        },
+        "schinese": {
+          "name": "初级研究员",
+          "description": "达到研究员等级50。"
+        }
+      }
+    },
+    "REACH_LUX_SOLIS_RANK_100": {
+      "translations": {
+        "english": {
+          "name": "Senior Researcher",
+          "description": "Reach Researcher Level 100."
+        },
+        "russian": {
+          "name": "Старший Исследователь",
+          "description": "Достигните уровня Исследователя 100."
+        },
+        "schinese": {
+          "name": "高级研究员",
+          "description": "达到研究员等级100。"
+        }
+      }
+    },
+    "FINISH_GAME_WITHOUT_MONSTER_FAINTED": {
+      "translations": {
+        "english": {
+          "name": "Caretaker",
+          "description": "Complete the story without letting one of your Coromon faint."
+        },
+        "russian": {
+          "name": "Попечитель",
+          "description": "Завершите игру, не дав ни одному из ваших Коромонов упасть в обморок."
+        },
+        "schinese": {
+          "name": "照料者",
+          "description": "通关剧情，且没有让任何一只 Coromon 昏厥。"
+        }
+      }
+    },
+    "CATCH_ALL_MONSTER_FAMILIES": {
+      "translations": {
+        "english": {
+          "name": "Who's the Hoarder Now?",
+          "description": "Catch every Coromon species."
+        },
+        "russian": {
+          "name": "Ну и кто теперь Скряга?",
+          "description": "Поймайте все виды Коромонов."
+        },
+        "schinese": {
+          "name": "现在谁才是囤货王？",
+          "description": "捕获每一种 Coromon。"
+        }
+      }
+    },
+    "FINISH_GAME_ON_EASY": {
+      "translations": {
+        "english": {
+          "name": "Hold my Hand",
+          "description": "Complete the game on Easy or higher."
+        },
+        "russian": {
+          "name": "Держите меня за ручку",
+          "description": "Пройдите игру на сложности Легко или выше."
+        },
+        "schinese": {
+          "name": "牵着我的手",
+          "description": "以简单或更高难度通关游戏。"
+        }
+      }
+    },
+    "FINISH_GAME_ON_NORMAL": {
+      "translations": {
+        "english": {
+          "name": "The Regular Experience",
+          "description": "Complete the game on Normal or higher."
+        },
+        "russian": {
+          "name": "Обычный Опыт",
+          "description": "Пройдите игру на сложности Нормально или выше."
+        },
+        "schinese": {
+          "name": "常规体验",
+          "description": "以普通或更高难度通关游戏。"
+        }
+      }
+    },
+    "FINISH_GAME_ON_HARD": {
+      "translations": {
+        "english": {
+          "name": "Up for a Challenge",
+          "description": "Complete the game on Hard or higher."
+        },
+        "russian": {
+          "name": "Вызов Принят",
+          "description": "Пройдите игру на сложности Сложно или выше."
+        },
+        "schinese": {
+          "name": "迎接挑战",
+          "description": "以困难或更高难度通关游戏。"
+        }
+      }
+    },
+    "FINISH_GAME_ON_INSANE": {
+      "translations": {
+        "english": {
+          "name": "Unstoppable",
+          "description": "Complete the game on Insane."
+        },
+        "russian": {
+          "name": "Неудержимый",
+          "description": "Пройдите игру на Безумной сложности."
+        },
+        "schinese": {
+          "name": "势不可挡",
+          "description": "以疯狂难度通关游戏。"
+        }
+      }
+    },
+    "FIND_HEADGEAR_BUNNY": {
+      "translations": {
+        "english": {
+          "name": "...and my Eggs!",
+          "description": "Collect the hidden bunny ears."
+        },
+        "russian": {
+          "name": "...И мой Кулич!",
+          "description": "Найдите спрятанные кроличьи ушки."
+        },
+        "schinese": {
+          "name": "……还有我的彩蛋！",
+          "description": "收集隐藏兔耳。"
+        }
+      }
+    },
+    "FIND_HEADGEAR_SANTA": {
+      "translations": {
+        "english": {
+          "name": "Santa is Coming",
+          "description": "Collect the hidden santa outfit."
+        },
+        "russian": {
+          "name": "Санта Идёт",
+          "description": "Получите спрятанный наряд Санты."
+        },
+        "schinese": {
+          "name": "圣诞老人来了",
+          "description": "收集隐藏圣诞老人装束。"
+        }
+      }
+    },
+    "FIND_OUTFIT_WALDO": {
+      "translations": {
+        "english": {
+          "name": "Where do I Look?!",
+          "description": "Collect the well-hidden sneak outfit."
+        },
+        "russian": {
+          "name": "Где я выгляжу?!",
+          "description": "Получите хорошо спрятанный костюм скрытности."
+        },
+        "schinese": {
+          "name": "我该看哪儿？！",
+          "description": "收集藏得很深的潜行装束。"
+        }
+      }
+    },
+    "CROSS_DESERTROUTE_3_BRIDGE": {
+      "translations": {
+        "english": {
+          "name": "A Bridge too Far",
+          "description": "Cross the bridge in the Scorching Sands safely."
+        },
+        "russian": {
+          "name": "Мост Длинною в Жизнь",
+          "description": "Благополучно пересеките мост в Жгучих Песках."
+        },
+        "schinese": {
+          "name": "太远的一座桥",
+          "description": "安全穿过灼热沙漠中的桥。"
+        }
+      }
+    },
+    "PLANT_FRUITS_IN_ALL_POTS": {
+      "translations": {
+        "english": {
+          "name": "Botanist",
+          "description": "Plant fruits, everywhere!"
+        },
+        "russian": {
+          "name": "Ботаник",
+          "description": "Посадите фрукты, везде!"
+        },
+        "schinese": {
+          "name": "植物学家",
+          "description": "到处都种下水果！"
+        }
+      }
+    },
+    "GET_HIGHSCORE_1000_IN_SWURMY_RUSH": {
+      "translations": {
+        "english": {
+          "name": "Rush Master",
+          "description": "Get a score of 1000 in Swurmy Rush."
+        },
+        "russian": {
+          "name": "Мастер Рывка",
+          "description": "Получить 1000 очков в СвурмиРывке."
+        },
+        "schinese": {
+          "name": "冲刺大师",
+          "description": "在 Swurmy Rush 中获得1000分。"
+        }
+      }
+    },
+    "GET_HIGHSCORE_500_IN_FLAPPY_SWURMY": {
+      "translations": {
+        "english": {
+          "name": "Flappy Master",
+          "description": "Get a score of 500 in Flappy Swurmy."
+        },
+        "russian": {
+          "name": "Мастер Полёта",
+          "description": "Получить 500 очков в Порхающем Свурми."
+        },
+        "schinese": {
+          "name": "飞行大师",
+          "description": "在 Flappy Swurmy 中获得500分。"
+        }
+      }
+    },
+    "WATCH_CREDITS": {
+      "translations": {
+        "english": {
+          "name": "Give Credit",
+          "description": "Watch the credits."
+        },
+        "russian": {
+          "name": "Отдав должное",
+          "description": "Посмотрите титры."
+        },
+        "schinese": {
+          "name": "给点鸣谢",
+          "description": "观看制作人员名单。"
+        }
+      }
+    },
+    "OPEN_ALL_DOORS_IN_TOWN": {
+      "translations": {
+        "english": {
+          "name": "Open Door Policy",
+          "description": "Open all doors in a town."
+        },
+        "russian": {
+          "name": "День Открытых Дверей",
+          "description": "Откройте все двери в городе."
+        },
+        "schinese": {
+          "name": "门户开放政策",
+          "description": "打开一座城镇里的所有门。"
+        }
+      }
+    },
+    "GIVE_STARTER_TO_JEROME": {
+      "translations": {
+        "english": {
+          "name": "Thanks for the Memories",
+          "description": "Give your starter to Jerome."
+        },
+        "russian": {
+          "name": "Спасибо за воспоминания",
+          "description": "Отдайте своего стартера Джерому."
+        },
+        "schinese": {
+          "name": "感谢回忆",
+          "description": "把你的初始 Coromon 交给 Jerome。"
+        }
+      }
+    },
+    "UNLOCK_MAGNETIC_LOCK": {
+      "translations": {
+        "english": {
+          "name": "Push it Real Good",
+          "description": "Unlock the electro magnetic lock in the R&D lab."
+        },
+        "russian": {
+          "name": "Толкни его хорошенько",
+          "description": "Откройте электромагнитный замок в Исследовательской Лаборатории."
+        },
+        "schinese": {
+          "name": "用力推就对了",
+          "description": "解开研发实验室中的电磁锁。"
+        }
+      }
+    },
+    "BREW_POTENT_SCENT": {
+      "translations": {
+        "english": {
+          "name": "Brewmaster",
+          "description": "Brew a Potent Scent."
+        },
+        "russian": {
+          "name": "Мастер Варки",
+          "description": "Сварите запах потенциала."
+        },
+        "schinese": {
+          "name": "酿造大师",
+          "description": "调制一份强效香气。"
+        }
+      }
+    },
+    "EARLY_EVOLVE_GHOST_OCTO_1": {
+      "translations": {
+        "english": {
+          "name": "Toss a Spinner to your Witch",
+          "description": "Evolve a Squidly before level 37."
+        },
+        "russian": {
+          "name": "Ведьме заплатите Чеканным спиннером ",
+          "description": "Эволюционируйте Сквидли до 37 уровня."
+        },
+        "schinese": {
+          "name": "给你的女巫丢个 Spinner",
+          "description": "在37级前让 Squidly 进化。"
+        }
+      }
+    },
+    "EARLY_EVOLVE_GHOST_CAT_1": {
+      "translations": {
+        "english": {
+          "name": "Snack Time",
+          "description": "Evolve a Purrgy before level 30."
+        },
+        "russian": {
+          "name": "Пора Перекусить",
+          "description": "Эволюционируйте Мурлыку до 30 уровня."
+        },
+        "schinese": {
+          "name": "点心时间",
+          "description": "在30级前让 Purrgy 进化。"
+        }
+      }
+    },
+    "EARLY_EVOLVE_NORMAL_BEE_1": {
+      "translations": {
+        "english": {
+          "name": "Ultimate Rage",
+          "description": "Evolve a Swurmy before level 14."
+        },
+        "russian": {
+          "name": "Предельная Ярость",
+          "description": "Эволюционируйте Свурми до 14 уровня."
+        },
+        "schinese": {
+          "name": "终极怒火",
+          "description": "在14级前让 Swurmy 进化。"
+        }
+      }
+    },
+    "EARLY_EVOLVE_NORMAL_ADDER_1": {
+      "translations": {
+        "english": {
+          "name": "Hot Noodles",
+          "description": "Evolve a Slitherpin before level 25."
+        },
+        "russian": {
+          "name": "Горячая Лапша",
+          "description": "Эволюционируйте Слизерпина до 25 уровня."
+        },
+        "schinese": {
+          "name": "热辣面条",
+          "description": "在25级前让 Slitherpin 进化。"
+        }
+      }
+    },
+    "EARLY_EVOLVE_GHOST_WOLF_2": {
+      "translations": {
+        "english": {
+          "name": "Howl at the Moon",
+          "description": "Evolve a Lunarwulf before level 39."
+        },
+        "russian": {
+          "name": "Вой на Луну",
+          "description": "Эволюционируйте Лунарвулфа до 39 уровня."
+        },
+        "schinese": {
+          "name": "对月长嚎",
+          "description": "在39级前让 Lunarwulf 进化。"
+        }
+      }
+    },
+    "READ_MOMS_DIARY": {
+      "translations": {
+        "english": {
+          "name": "Privacy? What’s That?",
+          "description": "Read your mother’s diary."
+        },
+        "russian": {
+          "name": "Личное пространство? Что это такое?",
+          "description": "Прочитай дневник своей матери."
+        },
+        "schinese": {
+          "name": "隐私？那是什么？",
+          "description": "阅读你母亲的日记。"
+        }
+      }
+    },
+    "FIND_CAKES_IN_OVEN": {
+      "translations": {
+        "english": {
+          "name": "Hotel Mom",
+          "description": "Get some free cakes."
+        },
+        "russian": {
+          "name": "Мамин Нахлебник",
+          "description": "Получи бесплатные тортики."
+        },
+        "schinese": {
+          "name": "妈妈旅馆",
+          "description": "拿到一些免费蛋糕。"
+        }
+      }
+    },
+    "PET_PAWBURY_SWURMY_TOO_MANY_TIMES": {
+      "translations": {
+        "english": {
+          "name": "Pet Pet Pet",
+          "description": "Pet a Swurmy into madness."
+        },
+        "russian": {
+          "name": "Гладить Гладить Гладить",
+          "description": "Погладьте Свурми до Безумия."
+        },
+        "schinese": {
+          "name": "摸摸摸",
+          "description": "把一只 Swurmy 摸到发狂。"
+        }
+      }
+    },
+    "CATCH_FIRE_TURTLE_1": {
+      "translations": {
+        "english": {
+          "name": "Flaming Start",
+          "description": "Catch a Toruga where the last track ends."
+        },
+        "russian": {
+          "name": "Пылающее Начало",
+          "description": "Поймайте Торугу там, где кончается последний путь."
+        },
+        "schinese": {
+          "name": "火热开局",
+          "description": "在最后一条轨迹结束处捕获一只 Toruga。"
+        }
+      }
+    },
+    "CATCH_WATER_SHARK_1": {
+      "translations": {
+        "english": {
+          "name": "Fluid Start",
+          "description": "Catch a Nibblegar in the painter's cave."
+        },
+        "russian": {
+          "name": "Текучее Начало",
+          "description": "Поймайте Ниблгара в пещере художника."
+        },
+        "schinese": {
+          "name": "流动开局",
+          "description": "在画家的洞穴中捕获一只 Nibblegar。"
+        }
+      }
+    },
+    "CATCH_ICE_BEAR_1": {
+      "translations": {
+        "english": {
+          "name": "Cool Start",
+          "description": "Catch a Cubzero on the highest mountain."
+        },
+        "russian": {
+          "name": "Прохладное Начало",
+          "description": "Поймайте Кабзиро на самой высокой горе."
+        },
+        "schinese": {
+          "name": "酷寒开局",
+          "description": "在最高的山上捕获一只 Cubzero。"
+        }
+      }
+    },
+    "WEAR_TOWEL_AND_GO_TO_SHOP": {
+      "translations": {
+        "english": {
+          "name": "No Shoes, No Shirt",
+          "description": "And I still get service."
+        },
+        "russian": {
+          "name": "Без обуви и без майки",
+          "description": "Меня всё равно обслужат."
+        },
+        "schinese": {
+          "name": "没鞋没衫",
+          "description": "但我还是能被服务。"
+        }
+      }
+    },
+    "WEAR_TOWEL_AND_WALK_IN_SNOW": {
+      "translations": {
+        "english": {
+          "name": "I’m Not Cold!",
+          "description": "Prove you’re weatherproof."
+        },
+        "russian": {
+          "name": "Мне не холодно!",
+          "description": "Докажи свою погодостойкость."
+        },
+        "schinese": {
+          "name": "我不冷！",
+          "description": "证明你不怕天气。"
+        }
+      }
+    },
+    "WEAR_TOWEL_AND_TALK_WITH_RIGEL": {
+      "translations": {
+        "english": {
+          "name": "Casual Friday",
+          "description": "What’s up boss?"
+        },
+        "russian": {
+          "name": "Типичная Пятница",
+          "description": "Как дела босс?"
+        },
+        "schinese": {
+          "name": "休闲星期五",
+          "description": "老板，最近怎么样？"
+        }
+      }
+    },
+    "WEAR_TOWEL_AND_GET_OVERHEATED_IN_DESERTROUTE": {
+      "translations": {
+        "english": {
+          "name": "Hyperthermia",
+          "description": "This sauna is too much."
+        },
+        "russian": {
+          "name": "Гипертермия",
+          "description": "Эта сауна уже перебор."
+        },
+        "schinese": {
+          "name": "高热症",
+          "description": "这桑拿也太过头了。"
+        }
+      }
+    },
+    "CHANGE_HAIRSTYLE": {
+      "translations": {
+        "english": {
+          "name": "Frosted Tips",
+          "description": "Time for a new look! Who needs a barber? "
+        },
+        "russian": {
+          "name": "Смороженные кончики",
+          "description": "Пора поменять внешность! Кому парикмахера? "
+        },
+        "schinese": {
+          "name": "挑染发梢",
+          "description": "该换个新造型了！谁还需要理发师？"
+        }
+      }
+    },
+    "SPEND_ALL_GOLD_IN_SHOP": {
+      "translations": {
+        "english": {
+          "name": "Inflation Hits Hard",
+          "description": "Spend your last penny in a shop."
+        },
+        "russian": {
+          "name": "Инфляция бьёт больно",
+          "description": "Потрать последний рубль в магазине."
+        },
+        "schinese": {
+          "name": "通胀来得真狠",
+          "description": "在商店花掉你最后一枚金币。"
+        }
+      }
+    },
+    "SPEND_LESS_THAN_50_GOLD_IN_SHOP": {
+      "translations": {
+        "english": {
+          "name": "Extreme Couponing",
+          "description": "Spend less than 50 gold on a purchase in a shop."
+        },
+        "russian": {
+          "name": "Экстремальное Купонирование",
+          "description": "Потратьте меньше 50 золота на покупку в магазине."
+        },
+        "schinese": {
+          "name": "极限优惠券",
+          "description": "在商店一次购物花费少于50金币。"
+        }
+      }
+    },
+    "CREATE_A_CROP_CIRCLE": {
+      "translations": {
+        "english": {
+          "name": "The Aliens Are Here!",
+          "description": "Create a crop circle."
+        },
+        "russian": {
+          "name": "Пришельцы здесь!",
+          "description": "Создай круг на полях."
+        },
+        "schinese": {
+          "name": "外星人来了！",
+          "description": "制造一个麦田圈。"
+        }
+      }
+    },
+    "TRY_RANDOMIZER": {
+      "translations": {
+        "english": {
+          "name": "I'm So Random!",
+          "description": "Try out the randomizer mode."
+        },
+        "russian": {
+          "name": "Я такой Случайный!",
+          "description": "Попробуй режим рандомайзера."
+        },
+        "schinese": {
+          "name": "我真是太随机了！",
+          "description": "尝试随机模式。"
+        }
+      }
+    },
+    "SELL_GEMS_FOR_5000_GOLD": {
+      "translations": {
+        "english": {
+          "name": "Riches From the Earth",
+          "description": "Earn 5000 Gold from Gems."
+        },
+        "russian": {
+          "name": "Богатства из под Земли",
+          "description": "Заработайте 5000 на камнях."
+        },
+        "schinese": {
+          "name": "大地馈赠的财富",
+          "description": "通过出售宝石赚取5000金币。"
+        }
+      }
+    },
+    "REACH_COROMON_LEVEL_99": {
+      "translations": {
+        "english": {
+          "name": "To the Max!",
+          "description": "Reach level 99 with a Coromon."
+        },
+        "russian": {
+          "name": "К Максимуму!",
+          "description": "Достигните 99 уровня Коромона."
+        },
+        "schinese": {
+          "name": "登峰造极！",
+          "description": "让一只 Coromon 达到99级。"
+        }
+      }
+    },
+    "COMPLETE_TRAINING_THROWING_ARM": {
+      "translations": {
+        "english": {
+          "name": "That's It!",
+          "description": "Complete the Throwing Arm training."
+        },
+        "russian": {
+          "name": "Это оно!",
+          "description": "Завершите тренировку Меткой Руки."
+        },
+        "schinese": {
+          "name": "就是这样！",
+          "description": "完成投掷臂训练。"
+        }
+      }
+    },
+    "COMPLETE_TRAINING_HAGGLE": {
+      "translations": {
+        "english": {
+          "name": "What a Voice!",
+          "description": "Complete the Haggle training."
+        },
+        "russian": {
+          "name": "Какой Голос!",
+          "description": "Завершите тренировку Торговли."
+        },
+        "schinese": {
+          "name": "好嗓门！",
+          "description": "完成砍价训练。"
+        }
+      }
+    },
+    "FIND_150_HIDDEN_ITEMS": {
+      "translations": {
+        "english": {
+          "name": "No Trashcan Left Unturned",
+          "description": "Find 150 Hidden items."
+        },
+        "russian": {
+          "name": "Не единой Урны без внимания",
+          "description": "Найдите 150 спрятанных предметов."
+        },
+        "schinese": {
+          "name": "垃圾桶也不放过",
+          "description": "找到150件隐藏物品。"
+        }
+      }
+    },
+    "DEFEAT_60_TRAINERS": {
+      "translations": {
+        "english": {
+          "name": "Undefeated",
+          "description": "Defeat 60 trainers."
+        },
+        "russian": {
+          "name": "Непобедимый",
+          "description": "Одолейте 60 тренеров."
+        },
+        "schinese": {
+          "name": "不败",
+          "description": "击败60名训练师。"
+        }
+      }
+    },
+    "SQUAD_WITH_WHOLE_FAMILY": {
+      "translations": {
+        "english": {
+          "name": "Big Happy Family",
+          "description": "Have three different Coromon of the same family in your Squad."
+        },
+        "russian": {
+          "name": "Большая Счастливая Семья",
+          "description": "Имейте в отряде три разных Коромона из одного семейства."
+        },
+        "schinese": {
+          "name": "幸福大家庭",
+          "description": "队伍中拥有同一家族的3只不同 Coromon。"
+        }
+      }
+    },
+    "SQUAD_OF_POTENT": {
+      "translations": {
+        "english": {
+          "name": "This Has Potential",
+          "description": "Have six Potent Squad members."
+        },
+        "russian": {
+          "name": "У них есть потенциал",
+          "description": "Имейте в отряде 6 Мощных Коромонов."
+        },
+        "schinese": {
+          "name": "潜力无限",
+          "description": "队伍中拥有6名强潜能成员。"
+        }
+      }
+    },
+    "SQUAD_WITH_HOUNDOS_AND_PURRGY": {
+      "translations": {
+        "english": {
+          "name": "Frenemies",
+          "description": "Have a Purrgy and a Houndos in your Squad"
+        },
+        "russian": {
+          "name": "Заклятые друзья",
+          "description": "Имейте в отряде Мурлыку и Хаундоса одновременно"
+        },
+        "schinese": {
+          "name": "亦敌亦友",
+          "description": "队伍中同时拥有 Purrgy 和 Houndos。"
+        }
+      }
+    },
+    "FIND_CAVE_WITHIN_A_CAVE": {
+      "translations": {
+        "english": {
+          "name": "Cave-ception",
+          "description": "Find the cave within the cave within the cave."
+        },
+        "russian": {
+          "name": "Пещерение",
+          "description": "Найдите пещеру в пещере в пещере."
+        },
+        "schinese": {
+          "name": "洞中洞中洞",
+          "description": "找到洞中洞里的洞。"
+        }
+      }
+    },
+    "DEVOLVE_A_COROMON": {
+      "translations": {
+        "english": {
+          "name": "Cuteness overload",
+          "description": "Devolve a Coromon."
+        },
+        "russian": {
+          "name": "Сверхмилота",
+          "description": "Деволюционируйте Коромона."
+        },
+        "schinese": {
+          "name": "可爱过载",
+          "description": "让一只 Coromon 退化。"
+        }
+      }
+    },
+    "TRAIT_PLUS": {
+      "translations": {
+        "english": {
+          "name": "Enhance!",
+          "description": "Keep a Coromon from evolving."
+        },
+        "russian": {
+          "name": "Возвышение!",
+          "description": "Не дайте Коромону эволюционировать."
+        },
+        "schinese": {
+          "name": "强化！",
+          "description": "阻止一只 Coromon 进化。"
+        }
+      }
+    },
+    "TRAIT_PLUS_PLUS": {
+      "translations": {
+        "english": {
+          "name": "Enhance++!",
+          "description": "Keep a Coromon from evolving twice."
+        },
+        "russian": {
+          "name": "Возвышение++!",
+          "description": "Не дайте Коромону эволюционировать дважды."
+        },
+        "schinese": {
+          "name": "强化++！",
+          "description": "阻止一只 Coromon 进化两次。"
+        }
+      }
+    }
+  }
+}

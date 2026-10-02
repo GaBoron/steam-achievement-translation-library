@@ -1,0 +1,588 @@
+{
+  "version": 1,
+  "app_id": "1831830",
+  "variant_id": "default",
+  "source_sha256": "e82520b7a7bdb4fb26743a825be86718868f7396c566138dbcebe4d36333e17f",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "FirstStep": {
+      "translations": {
+        "english": {
+          "name": "First step",
+          "description": "Complete your first level"
+        },
+        "schinese": {
+          "name": "第一步",
+          "description": "完成你的第一个关卡"
+        }
+      }
+    },
+    "AimToTheGoal": {
+      "translations": {
+        "english": {
+          "name": "Aim to the goal",
+          "description": "Unlock Street Soccer"
+        },
+        "schinese": {
+          "name": "瞄准球门",
+          "description": "解锁街头足球"
+        }
+      }
+    },
+    "ADistantTime": {
+      "translations": {
+        "english": {
+          "name": "A distant time",
+          "description": "Unlock Lady Ronin"
+        },
+        "schinese": {
+          "name": "遥远的时代",
+          "description": "解锁浪人小姐"
+        }
+      }
+    },
+    "ADistantLand": {
+      "translations": {
+        "english": {
+          "name": "A distant land",
+          "description": "Unlock Dragon Slayers"
+        },
+        "schinese": {
+          "name": "遥远的国度",
+          "description": "解锁屠龙勇士"
+        }
+      }
+    },
+    "KnightVersusKnight": {
+      "translations": {
+        "english": {
+          "name": "Knight versus Knight",
+          "description": "Unlock Knight Supreme"
+        },
+        "schinese": {
+          "name": "骑士对骑士",
+          "description": "解锁至高骑士"
+        }
+      }
+    },
+    "FirstHalf": {
+      "translations": {
+        "english": {
+          "name": "First half",
+          "description": "Unlock Soccer Chess"
+        },
+        "schinese": {
+          "name": "上半场",
+          "description": "解锁足球棋局"
+        }
+      }
+    },
+    "FiercefulStrife": {
+      "translations": {
+        "english": {
+          "name": "Fierceful strife",
+          "description": "Unlock Last Stand"
+        },
+        "schinese": {
+          "name": "激烈对峙",
+          "description": "解锁最后防线"
+        }
+      }
+    },
+    "WhoPromotesFirst": {
+      "translations": {
+        "english": {
+          "name": "Who promotes first?",
+          "description": "Unlock Pawn Mania"
+        },
+        "schinese": {
+          "name": "谁先升变？",
+          "description": "解锁兵卒狂热"
+        }
+      }
+    },
+    "NoMoreMrCapybaraGuy": {
+      "translations": {
+        "english": {
+          "name": "No More Mr. Capybara Guy",
+          "description": "Get the first title"
+        },
+        "schinese": {
+          "name": "别再叫我水豚先生",
+          "description": "获得第一个头衔"
+        }
+      }
+    },
+    "FirstOfMany": {
+      "translations": {
+        "english": {
+          "name": "First of many",
+          "description": "Obtain your first piece"
+        },
+        "schinese": {
+          "name": "收藏伊始",
+          "description": "获得你的第一枚棋子"
+        }
+      }
+    },
+    "FarmExpert": {
+      "translations": {
+        "english": {
+          "name": "Farm expert",
+          "description": "Obtain the Farmer set"
+        },
+        "schinese": {
+          "name": "农场专家",
+          "description": "获得农夫套装"
+        }
+      }
+    },
+    "SoccerExpert": {
+      "translations": {
+        "english": {
+          "name": "Soccer expert",
+          "description": "Obtain the Soccer set"
+        },
+        "schinese": {
+          "name": "足球专家",
+          "description": "获得足球套装"
+        }
+      }
+    },
+    "SamuraiExpert": {
+      "translations": {
+        "english": {
+          "name": "Samurai expert",
+          "description": "Obtain the Samurai set"
+        },
+        "schinese": {
+          "name": "武士专家",
+          "description": "获得武士套装"
+        }
+      }
+    },
+    "DragonExpert": {
+      "translations": {
+        "english": {
+          "name": "Dragon expert",
+          "description": "Obtain the Dragon set"
+        },
+        "schinese": {
+          "name": "龙族专家",
+          "description": "获得龙族套装"
+        }
+      }
+    },
+    "KnowledgeConversion": {
+      "translations": {
+        "english": {
+          "name": "Knowledge conversion",
+          "description": "Unlock Chess Match"
+        },
+        "schinese": {
+          "name": "知识转化",
+          "description": "解锁棋局对弈"
+        }
+      }
+    },
+    "NotABeginnerAnymore": {
+      "translations": {
+        "english": {
+          "name": "Not a beginner anymore",
+          "description": "Win a Chess Match for the first time"
+        },
+        "schinese": {
+          "name": "不再是新手",
+          "description": "首次赢得棋局对弈"
+        }
+      }
+    },
+    "GetOffMyLand": {
+      "translations": {
+        "english": {
+          "name": "Get off my land",
+          "description": "Win a Knight Supreme match for the first time"
+        },
+        "schinese": {
+          "name": "离开我的地盘",
+          "description": "首次赢得至高骑士对局"
+        }
+      }
+    },
+    "OneNil": {
+      "translations": {
+        "english": {
+          "name": "One nil",
+          "description": "Win a Soccer Chess match for the first time"
+        },
+        "schinese": {
+          "name": "一比零",
+          "description": "首次赢得足球棋局对局"
+        }
+      }
+    },
+    "QueenSupremacy": {
+      "translations": {
+        "english": {
+          "name": "Queen Supremacy",
+          "description": "Win a Last Stand match for the first time"
+        },
+        "schinese": {
+          "name": "女王至上",
+          "description": "首次赢得最后防线对局"
+        }
+      }
+    },
+    "PassedPawnPower": {
+      "translations": {
+        "english": {
+          "name": "Passed Pawn power",
+          "description": "Win a Pawn Mania match for the first time"
+        },
+        "schinese": {
+          "name": "通路兵的力量",
+          "description": "首次赢得兵卒狂热对局"
+        }
+      }
+    },
+    "Expanding": {
+      "translations": {
+        "english": {
+          "name": "Expanding",
+          "description": "Obtain 5 pieces"
+        },
+        "schinese": {
+          "name": "不断扩充",
+          "description": "获得 5 枚棋子"
+        }
+      }
+    },
+    "CollectingWood": {
+      "translations": {
+        "english": {
+          "name": "Collecting wood",
+          "description": "Obtain 10 pieces"
+        },
+        "schinese": {
+          "name": "收集木料",
+          "description": "获得 10 枚棋子"
+        }
+      }
+    },
+    "RobustCollection": {
+      "translations": {
+        "english": {
+          "name": "Robust collection",
+          "description": "Obtain 15 pieces"
+        },
+        "schinese": {
+          "name": "收藏渐丰",
+          "description": "获得 15 枚棋子"
+        }
+      }
+    },
+    "BeautifulShelf": {
+      "translations": {
+        "english": {
+          "name": "Beautiful shelf",
+          "description": "Obtain 20 pieces"
+        },
+        "schinese": {
+          "name": "漂亮的展示架",
+          "description": "获得 20 枚棋子"
+        }
+      }
+    },
+    "TrainingTheBrain": {
+      "translations": {
+        "english": {
+          "name": "Training the brain",
+          "description": "Complete a Daily Challenge"
+        },
+        "schinese": {
+          "name": "锻炼大脑",
+          "description": "完成一次每日挑战"
+        }
+      }
+    },
+    "FoodForTheBrain": {
+      "translations": {
+        "english": {
+          "name": "Food for the brain",
+          "description": "Complete a Weekly Challenge"
+        },
+        "schinese": {
+          "name": "大脑补给",
+          "description": "完成一次每周挑战"
+        }
+      }
+    },
+    "MentalExerciseOfTheDay": {
+      "translations": {
+        "english": {
+          "name": "Mental exercise of the day",
+          "description": "Complete all Daily Challenges of a day"
+        },
+        "schinese": {
+          "name": "今日脑力操",
+          "description": "完成一天内的全部每日挑战"
+        }
+      }
+    },
+    "MentalExerciseOfTheWeek": {
+      "translations": {
+        "english": {
+          "name": "Mental exercise of the week",
+          "description": "Complete all Weekly Challenges of a week"
+        },
+        "schinese": {
+          "name": "本周脑力操",
+          "description": "完成一周内的全部每周挑战"
+        }
+      }
+    },
+    "ALandOfTomatoes": {
+      "translations": {
+        "english": {
+          "name": "A land of tomatoes",
+          "description": "Complete all Farm Life levels"
+        },
+        "schinese": {
+          "name": "番茄之乡",
+          "description": "完成农场生活的全部关卡"
+        }
+      }
+    },
+    "WhatAGoal": {
+      "translations": {
+        "english": {
+          "name": "What a goal!",
+          "description": "Complete all Street Soccer levels"
+        },
+        "schinese": {
+          "name": "好一记进球！",
+          "description": "完成街头足球的全部关卡"
+        }
+      }
+    },
+    "TaintedSword": {
+      "translations": {
+        "english": {
+          "name": "Tainted sword",
+          "description": "Complete all Lady Ronin levels"
+        },
+        "schinese": {
+          "name": "染血之刃",
+          "description": "完成浪人小姐的全部关卡"
+        }
+      }
+    },
+    "NoArrowInYourKnee": {
+      "translations": {
+        "english": {
+          "name": "No arrow in your knee",
+          "description": "Complete all Dragon Slayers levels"
+        },
+        "schinese": {
+          "name": "膝盖不中箭",
+          "description": "完成屠龙勇士的全部关卡"
+        }
+      }
+    },
+    "TheGrandfathersFarm": {
+      "translations": {
+        "english": {
+          "name": "The grandfather's farm",
+          "description": "Complete all Farm Life challenges"
+        },
+        "schinese": {
+          "name": "祖父的农场",
+          "description": "完成农场生活的全部挑战"
+        }
+      }
+    },
+    "ReadyForWorldCup": {
+      "translations": {
+        "english": {
+          "name": "Ready for world cup",
+          "description": "Complete all Street Soccer challenges"
+        },
+        "schinese": {
+          "name": "准备征战世界杯",
+          "description": "完成街头足球的全部挑战"
+        }
+      }
+    },
+    "KatanaMaster": {
+      "translations": {
+        "english": {
+          "name": "Katana master",
+          "description": "Complete all Lady Ronin challenges"
+        },
+        "schinese": {
+          "name": "太刀大师",
+          "description": "完成浪人小姐的全部挑战"
+        }
+      }
+    },
+    "AntiDovahkiin": {
+      "translations": {
+        "english": {
+          "name": "Anti-dovahkiin",
+          "description": "Complete all Dragon Slayers challenges"
+        },
+        "schinese": {
+          "name": "反龙裔",
+          "description": "完成屠龙勇士的全部挑战"
+        }
+      }
+    },
+    "PuzzleSolver": {
+      "translations": {
+        "english": {
+          "name": "Puzzle solver",
+          "description": "Complete 50 Campaign levels "
+        },
+        "schinese": {
+          "name": "解谜能手",
+          "description": "完成 50 个战役关卡"
+        }
+      }
+    },
+    "PuzzleMaster": {
+      "translations": {
+        "english": {
+          "name": "Puzzle master",
+          "description": "Complete 100 Campaign levels"
+        },
+        "schinese": {
+          "name": "解谜大师",
+          "description": "完成 100 个战役关卡"
+        }
+      }
+    },
+    "ElegantSolution": {
+      "translations": {
+        "english": {
+          "name": "Elegant solution",
+          "description": "Complete your first challenge in Campaigns"
+        },
+        "schinese": {
+          "name": "优雅解法",
+          "description": "完成你的第一个战役挑战"
+        }
+      }
+    },
+    "ElegantVictory": {
+      "translations": {
+        "english": {
+          "name": "Elegant victory",
+          "description": "Complete your first challenge in Battles"
+        },
+        "schinese": {
+          "name": "优雅胜利",
+          "description": "完成你的第一个对战挑战"
+        }
+      }
+    },
+    "WhatTheDots": {
+      "translations": {
+        "english": {
+          "name": "What the...",
+          "description": "See an animal being abducted"
+        },
+        "schinese": {
+          "name": "这是什么……",
+          "description": "目睹一只动物被绑架"
+        }
+      }
+    },
+    "ConspiracyTheory": {
+      "translations": {
+        "english": {
+          "name": "Conspiracy theory",
+          "description": "Check out the hidden OVNI"
+        },
+        "schinese": {
+          "name": "阴谋论",
+          "description": "查看隐藏的不明飞行物"
+        }
+      }
+    },
+    "OneMoreStep": {
+      "translations": {
+        "english": {
+          "name": "One more step",
+          "description": "Get the second title"
+        },
+        "schinese": {
+          "name": "再进一步",
+          "description": "获得第二个头衔"
+        }
+      }
+    },
+    "Advancing": {
+      "translations": {
+        "english": {
+          "name": "Advancing",
+          "description": "Get the third title"
+        },
+        "schinese": {
+          "name": "稳步前进",
+          "description": "获得第三个头衔"
+        }
+      }
+    },
+    "BetterAndBetter": {
+      "translations": {
+        "english": {
+          "name": "Better and better",
+          "description": "Get the fourth title"
+        },
+        "schinese": {
+          "name": "越来越好",
+          "description": "获得第四个头衔"
+        }
+      }
+    },
+    "MorphysPride": {
+      "translations": {
+        "english": {
+          "name": "Morphy's pride",
+          "description": "Get the fifth title"
+        },
+        "schinese": {
+          "name": "莫菲的骄傲",
+          "description": "获得第五个头衔"
+        }
+      }
+    },
+    "CarlsensPride": {
+      "translations": {
+        "english": {
+          "name": "Carlsen's pride",
+          "description": "Get the sixth title"
+        },
+        "schinese": {
+          "name": "卡尔森的骄傲",
+          "description": "获得第六个头衔"
+        }
+      }
+    },
+    "LastStep": {
+      "translations": {
+        "english": {
+          "name": "Last step",
+          "description": "Get the last title"
+        },
+        "schinese": {
+          "name": "最后一步",
+          "description": "获得最后一个头衔"
+        }
+      }
+    }
+  }
+}

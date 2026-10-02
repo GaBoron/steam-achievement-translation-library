@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "app_id": "1945220",
+  "variant_id": "default",
+  "source_sha256": "f5d4fcd01a667c53d3b488400f96d0b525ef3ff3a253795fe0166a00f7c43be6",
+  "languages": [
+    "english",
+    "koreana",
+    "schinese"
+  ],
+  "achievements": {
+    "MAIN_TRACKS_CLEAR": {
+      "translations": {
+        "english": {
+          "name": "Clear!",
+          "description": "Clear all of the main and the collab tracks (1-21). But the shield is for beginners."
+        },
+        "koreana": {
+          "name": "클리어!",
+          "description": "모든 메인 및 콜라보 트랙(1~21)을 클리어. 하지만 방어 아이템은 입문자용이에요."
+        },
+        "schinese": {
+          "name": "通关！",
+          "description": "通关所有主线及联动关卡（1-21）。不过，护盾是为新手准备的。"
+        }
+      }
+    },
+    "MAIN_TRACKS_EXCELLENT": {
+      "translations": {
+        "english": {
+          "name": "Excellent!",
+          "description": "Clear all of the main and the collab tracks (1-21) without using the shield"
+        },
+        "koreana": {
+          "name": "엑설런트!",
+          "description": "모든 메인 및 콜라보 트랙(1~21)을 방어 아이템 없이 클리어"
+        },
+        "schinese": {
+          "name": "优秀！",
+          "description": "在不使用护盾的情况下，通关所有主线及联动关卡（1-21）。"
+        }
+      }
+    },
+    "MAIN_TRACKS_PERFECT": {
+      "translations": {
+        "english": {
+          "name": "Perfect!",
+          "description": "Get perfects in all of the main and the collab tracks (1-21)"
+        },
+        "koreana": {
+          "name": "퍼펙트!",
+          "description": "모든 메인 및 콜라보 트랙(1~21)을 완벽한 성공으로 클리어"
+        },
+        "schinese": {
+          "name": "完美！",
+          "description": "在所有主线及联动曲目（1-21）中取得 Perfect 评价。"
+        }
+      }
+    },
+    "MAIN_TRACKS_SPEED": {
+      "translations": {
+        "english": {
+          "name": "1.5x!",
+          "description": "Clear all of the main and the collab tracks (1-21) at 1.5x the speed"
+        },
+        "koreana": {
+          "name": "1.5배!",
+          "description": "모든 메인 및 콜라보 트랙(1~21)을 1.5배속으로 클리어"
+        },
+        "schinese": {
+          "name": "1.5 倍！",
+          "description": "以 1.5 倍速通关所有主线及联动曲目（1-21）。"
+        }
+      }
+    },
+    "BONUS_TRACKS_CLEAR": {
+      "translations": {
+        "english": {
+          "name": "Clear!!",
+          "description": "Clear all of the bonus tracks except XHARD and LONG (22-29)"
+        },
+        "koreana": {
+          "name": "클리어!!",
+          "description": "XHARD와 LONG을 제외한 보너스 트랙(22~29)을 클리어"
+        },
+        "schinese": {
+          "name": "通关！！",
+          "description": "通关除 XHARD 和 LONG（22-29）以外的所有奖励曲目。"
+        }
+      }
+    },
+    "BONUS_TRACKS_EXCELLENT": {
+      "translations": {
+        "english": {
+          "name": "Excellent!!",
+          "description": "Clear all of the bonus tracks except XHARD and LONG (22-29) without using the shield"
+        },
+        "koreana": {
+          "name": "엑설런트!!",
+          "description": "XHARD와 LONG을 제외한 모든 보너스 트랙(22~29)을 방어 아이템 없이 클리어"
+        },
+        "schinese": {
+          "name": "优秀！！",
+          "description": "在不使用护盾的情况下，通关除 XHARD 和 LONG（曲目 22-29）以外的所有奖励曲目。"
+        }
+      }
+    },
+    "BONUS_TRACKS_PERFECT": {
+      "translations": {
+        "english": {
+          "name": "Perfect!!",
+          "description": "Get perfects in all of the bonus tracks except XHARD and LONG (22-29)"
+        },
+        "koreana": {
+          "name": "퍼펙트!!",
+          "description": "XHARD와 LONG을 제외한 모든 보너스 트랙(22~29)을 완벽한 성공으로 클리어"
+        },
+        "schinese": {
+          "name": "完美！！",
+          "description": "在除 XHARD 和 LONG（22-29）以外的所有奖励曲目中获得 Perfect 评价。"
+        }
+      }
+    },
+    "BONUS_TRACKS_SPEED": {
+      "translations": {
+        "english": {
+          "name": "1.5x!!",
+          "description": "Clear all of the bonus tracks except xhard and long (22-29) at 1.5x the speed"
+        },
+        "koreana": {
+          "name": "1.5배!!",
+          "description": "XHARD와 LONG을 제외한 모든 보너스 트랙(22~29)을 1.5배속으로 클리어"
+        },
+        "schinese": {
+          "name": "1.5 倍！！",
+          "description": "以 1.5 倍速通关除 XHARD 和 LONG（关卡 22-29）以外的所有奖励曲目。"
+        }
+      }
+    },
+    "XHARD_TRACKS_CLEAR": {
+      "translations": {
+        "english": {
+          "name": "Clear!!!",
+          "description": "Clear the XHARD and the LONG tracks (30-32)"
+        },
+        "koreana": {
+          "name": "클리어!!!",
+          "description": "XHARD와 LONG 트랙(30~32)을 클리어"
+        },
+        "schinese": {
+          "name": "通关！！！",
+          "description": "通关 XHARD 和 LONG 曲目（30-32）"
+        }
+      }
+    },
+    "XHARD_TRACKS_EXCELLENT": {
+      "translations": {
+        "english": {
+          "name": "Excellent!!!",
+          "description": "Clear the XHARD and the LONG tracks (30-32) without using the shield"
+        },
+        "koreana": {
+          "name": "엑설런트!!",
+          "description": "XHARD와 LONG 트랙(30~32)을 방어 아이템 없이 클리어"
+        },
+        "schinese": {
+          "name": "优秀！！！",
+          "description": "在不使用护盾的情况下通关 XHARD 和 LONG 曲目（30-32）。"
+        }
+      }
+    },
+    "XHARD_TRACKS_PERFECT": {
+      "translations": {
+        "english": {
+          "name": "Perfect!!!",
+          "description": "Get perfects in the XHARD and the LONG tracks (30-32)"
+        },
+        "koreana": {
+          "name": "퍼펙트!!!",
+          "description": "XHARD와 LONG 트랙(30~32)을 완벽한 성공으로 클리어"
+        },
+        "schinese": {
+          "name": "完美！！！",
+          "description": "在 XHARD 和 LONG 曲目（30-32）中获得 Perfect 评价。"
+        }
+      }
+    },
+    "XHARD_TRACKS_SPEED": {
+      "translations": {
+        "english": {
+          "name": "1.5x!!!",
+          "description": "Clear the XHARD and the LONG tracks (30-32) at 1.5x the speed"
+        },
+        "koreana": {
+          "name": "1.5배!!!",
+          "description": "XHARD와 LONG 트랙(30~32)을 1.5배속으로 클리어"
+        },
+        "schinese": {
+          "name": "1.5 倍！！！",
+          "description": "以 1.5 倍速通关 XHARD 和 LONG 曲目（30-32）。"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,660 @@
+{
+  "version": 1,
+  "app_id": "348470",
+  "variant_id": "default",
+  "source_sha256": "b36c8fdce4d3fb360ea934ba5ff654e7c6733aaf15ca5e00c9bcdddbb3b3af61",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "eACH_STEAM_PLATINUM": {
+      "translations": {
+        "english": {
+          "name": "Unrivaled Warrior",
+          "description": "Complete all achievements."
+        },
+        "schinese": {
+          "name": "天下无双",
+          "description": "获得所有成就"
+        }
+      }
+    },
+    "eACH_CLEAR_MISSION_FISRT": {
+      "translations": {
+        "english": {
+          "name": "The Path to Greatness",
+          "description": "Clear an objective."
+        },
+        "schinese": {
+          "name": "天下无双的第一步",
+          "description": "第一次达成任务"
+        }
+      }
+    },
+    "eACH_CLEAR_SCENARIO_FIRST": {
+      "translations": {
+        "english": {
+          "name": "The First of Many",
+          "description": "Claim victory in a battle."
+        },
+        "schinese": {
+          "name": "初阵纪念",
+          "description": "第一次在合战中获胜"
+        }
+      }
+    },
+    "eACH_CLEAR_CHAPTER_SHINSEI": {
+      "translations": {
+        "english": {
+          "name": "Rising Star",
+          "description": "Clear \"Clash of Wills\" in Story Mode."
+        },
+        "schinese": {
+          "name": "成为巨星",
+          "description": "在无双演武中完成「新星之章」"
+        }
+      }
+    },
+    "eACH_CLEAR_CHAPTER_KIZUNA": {
+      "translations": {
+        "english": {
+          "name": "Vow of Eternal Love",
+          "description": "Clear \"Trials of Trust\" in Story Mode."
+        },
+        "schinese": {
+          "name": "比翼连理",
+          "description": "在无双演武中完成「羁绊之章」"
+        }
+      }
+    },
+    "eACH_CLEAR_CHAPTER_HANGYAKU": {
+      "translations": {
+        "english": {
+          "name": "The True Villain",
+          "description": "Clear \"Sparks of Rebellion\" in Story Mode."
+        },
+        "schinese": {
+          "name": "真正的恶党",
+          "description": "在无双演武中完成「反叛之章」"
+        }
+      }
+    },
+    "eACH_CLEAR_CHAPTER_JOUAI": {
+      "translations": {
+        "english": {
+          "name": "Loved Ones",
+          "description": "Clear \"Love and Fear\" in Story Mode."
+        },
+        "schinese": {
+          "name": "重要之人",
+          "description": "在无双演武中完成「情爱之章」"
+        }
+      }
+    },
+    "eACH_CLEAR_CHAPTER_RISOU": {
+      "translations": {
+        "english": {
+          "name": "Pure of Thought",
+          "description": "Clear \"Visions of Hope\" in Story Mode."
+        },
+        "schinese": {
+          "name": "坚定的理念",
+          "description": "在无双演武中完成「理想之章」"
+        }
+      }
+    },
+    "eACH_CLEAR_CHAPTER_MEIYU": {
+      "translations": {
+        "english": {
+          "name": "That's What Friends Are For",
+          "description": "Clear \"Tides of Fate\" in Story Mode."
+        },
+        "schinese": {
+          "name": "为友两肋插刀",
+          "description": "在无双演武中完成「盟友之章」"
+        }
+      }
+    },
+    "eACH_CLEAR_CHAPTER_SYUJU": {
+      "translations": {
+        "english": {
+          "name": "Loyal Retainers",
+          "description": "Clear \"Signs of Greatness\" in Story Mode."
+        },
+        "schinese": {
+          "name": "忠臣的报恩",
+          "description": "在无双演武中完成「主从之章」"
+        }
+      }
+    },
+    "eACH_CLEAR_CHAPTER_TAIJU": {
+      "translations": {
+        "english": {
+          "name": "Unwavering Support",
+          "description": "Clear \"Duty and Respect\" in Story Mode."
+        },
+        "schinese": {
+          "name": "屹立不摇的支柱",
+          "description": "在无双演武中完成「大树之章」"
+        }
+      }
+    },
+    "eACH_CLEAR_CHAPTER_KENJIN": {
+      "translations": {
+        "english": {
+          "name": "Inherited Ambition",
+          "description": "Clear \"Wisdom and Grace\" in Story Mode."
+        },
+        "schinese": {
+          "name": "传承下来的意志",
+          "description": "在无双演武中完成「贤者之章」"
+        }
+      }
+    },
+    "eACH_CLEAR_CHAPTER_KOUTEKISYU": {
+      "translations": {
+        "english": {
+          "name": "Never Give In",
+          "description": "Clear \"Friends and Rivals\" in Story Mode."
+        },
+        "schinese": {
+          "name": "互不相让",
+          "description": "在无双演武中完成「劲敌之章」"
+        }
+      }
+    },
+    "eACH_CLEAR_CHAPTER_YAKUSOKU": {
+      "translations": {
+        "english": {
+          "name": "Shared Treasure",
+          "description": "Clear \"Pledges of Honor\" in Story Mode."
+        },
+        "schinese": {
+          "name": "两人间的宝物",
+          "description": "在无双演武中完成「约定之章」"
+        }
+      }
+    },
+    "eACH_CLEAR_CHAPTER_CHUSETSU": {
+      "translations": {
+        "english": {
+          "name": "A Life of Loyalty",
+          "description": "Clear \"Bonds of Fealty\" in Story Mode."
+        },
+        "schinese": {
+          "name": "尽忠尽义",
+          "description": "在无双演武中完成「忠节之章」"
+        }
+      }
+    },
+    "eACH_CLEAR_CHAPTER_HYAKKARYORAN": {
+      "translations": {
+        "english": {
+          "name": "Battlefield of Dreams",
+          "description": "Clear \"Women of War\" in Story Mode."
+        },
+        "schinese": {
+          "name": "梦幻舞台",
+          "description": "在无双演武中完成「百花缭乱之章」"
+        }
+      }
+    },
+    "eACH_CLEAR_ALL_SCENARIO": {
+      "translations": {
+        "english": {
+          "name": "Unstoppable Force",
+          "description": "Claim victory in all Story Mode battles."
+        },
+        "schinese": {
+          "name": "常胜不败",
+          "description": "在无双演武所有合战中获得胜利"
+        }
+      }
+    },
+    "eACH_CLEAR_ALL_SCENARIO_CHARA": {
+      "translations": {
+        "english": {
+          "name": "Total Domination",
+          "description": "Claim victory in all Story Mode battles using all available characters."
+        },
+        "schinese": {
+          "name": "天下布武",
+          "description": "用所有角色在无双演武所有合战中获得胜利"
+        }
+      }
+    },
+    "eACH_MUGENJOU_100F": {
+      "translations": {
+        "english": {
+          "name": "Beyond Infinity",
+          "description": "Reach Level 100 in Survival Mode."
+        },
+        "schinese": {
+          "name": "到达无限",
+          "description": "在无限城中达到 100 层"
+        }
+      }
+    },
+    "eACH_MUGENJOU_50F": {
+      "translations": {
+        "english": {
+          "name": "Meet Me Half Way",
+          "description": "Reach Level 50 in Survival Mode."
+        },
+        "schinese": {
+          "name": "无限的半途",
+          "description": "在无限城中达到 50 层"
+        }
+      }
+    },
+    "eACH_MUGENJOU_5F": {
+      "translations": {
+        "english": {
+          "name": "The Endless Voyage",
+          "description": "Reach Level 5 in Survival Mode."
+        },
+        "schinese": {
+          "name": "无限的第一步",
+          "description": "在无限城中达到 5 层"
+        }
+      }
+    },
+    "eACH_MUGENJOU_ANNEX_RANK_S": {
+      "translations": {
+        "english": {
+          "name": "Challenge Accepted",
+          "description": "Achieve an S Ranking in at least one of the Challenges in Survival Mode."
+        },
+        "schinese": {
+          "name": "武勋超群",
+          "description": "在无限城任一别馆中达成Rank 「S」"
+        }
+      }
+    },
+    "eACH_MUGENJOU_ANNEX_RANK_S_ALL": {
+      "translations": {
+        "english": {
+          "name": "Challenge Conquered",
+          "description": "Achieve an S Ranking in all of the Challenges in Survival Mode."
+        },
+        "schinese": {
+          "name": "称霸别馆",
+          "description": "在无限城所有别馆中达成Rank 「S」"
+        }
+      }
+    },
+    "eACH_RAREWEAPON_FIRST": {
+      "translations": {
+        "english": {
+          "name": "The Weapon of Legend",
+          "description": "Obtain a rare weapon."
+        },
+        "schinese": {
+          "name": "最强的武器",
+          "description": "第一次获得稀有武器"
+        }
+      }
+    },
+    "eACH_RAREWEAPON_20": {
+      "translations": {
+        "english": {
+          "name": "Swords, Lots of Swords",
+          "description": "Obtain 20 different types of rare weapons."
+        },
+        "schinese": {
+          "name": "数种极品",
+          "description": "获得 20 种稀有武器"
+        }
+      }
+    },
+    "eACH_RAREWEAPON_ALL": {
+      "translations": {
+        "english": {
+          "name": "Works of Art",
+          "description": "Obtain all rare weapons."
+        },
+        "schinese": {
+          "name": "无数神品",
+          "description": "获得所有稀有武器"
+        }
+      }
+    },
+    "eACH_KAKUSEI_SKILL_FIRST": {
+      "translations": {
+        "english": {
+          "name": "Open Your Eyes",
+          "description": "Learn an Epiphany Skill for the first time."
+        },
+        "schinese": {
+          "name": "觉醒之人",
+          "description": "第一次修得觉醒技能"
+        }
+      }
+    },
+    "eACH_KAKUSEI_SKILL_20": {
+      "translations": {
+        "english": {
+          "name": "Heightened Awareness",
+          "description": "Learn 20 Epiphany Skills."
+        },
+        "schinese": {
+          "name": "沉醉于觉醒之人",
+          "description": "修得 20 种觉醒技能"
+        }
+      }
+    },
+    "eACH_KAKUSEI_SKILL_ALL": {
+      "translations": {
+        "english": {
+          "name": "A Soul Awakened",
+          "description": "Learn all of the Epiphany Skills."
+        },
+        "schinese": {
+          "name": "觉醒巅峰之人",
+          "description": "修得所有觉醒技能"
+        }
+      }
+    },
+    "eACH_WEAPON_POWER_UP_FIRST": {
+      "translations": {
+        "english": {
+          "name": "Forged of Steel",
+          "description": "Upgrade a weapon for the first time."
+        },
+        "schinese": {
+          "name": "锻造炙钢!",
+          "description": "第一次强化武器"
+        }
+      }
+    },
+    "eACH_HORSE_POWER_UP_FIRST": {
+      "translations": {
+        "english": {
+          "name": "Apprentice Jockey",
+          "description": "Upgrade a mount for the first time."
+        },
+        "schinese": {
+          "name": "调教师",
+          "description": "第一次强化军马"
+        }
+      }
+    },
+    "eACH_LIMIT_BREAK_WEAPON_HORSE": {
+      "translations": {
+        "english": {
+          "name": "Breaking Down Barriers",
+          "description": "Successfully activate a Compatibility Bonus."
+        },
+        "schinese": {
+          "name": "无尽的强化",
+          "description": "使突破极限机会成功"
+        }
+      }
+    },
+    "eACH_CLEAR_HELL_FIRST": {
+      "translations": {
+        "english": {
+          "name": "Outlast the Nightmare",
+          "description": "Clear a stage on the \"Nightmare\" difficulty level."
+        },
+        "schinese": {
+          "name": "从地狱中生还",
+          "description": "用难度「地狱」完成任一关卡"
+        }
+      }
+    },
+    "eACH_KO_1000": {
+      "translations": {
+        "english": {
+          "name": "One Man Army",
+          "description": "Achieve 1,000 K.O.s in a single battle."
+        },
+        "schinese": {
+          "name": "以一挡千",
+          "description": "在一场合战中击破 1,000 人"
+        }
+      }
+    },
+    "eACH_SHINSOKU_KO_1000": {
+      "translations": {
+        "english": {
+          "name": "War Machine",
+          "description": "Defeat 1,000 enemies using Hyper Attacks in a single battle."
+        },
+        "schinese": {
+          "name": "神速无双",
+          "description": "在一场合战中以神速攻击击破 1,000 人"
+        }
+      }
+    },
+    "eACH_KYOURYOKU_OUGI_KO_150": {
+      "translations": {
+        "english": {
+          "name": "Perfect Harmony",
+          "description": "Defeat 150 enemies using a Multi Musou Attack with both player characters in a single battle."
+        },
+        "schinese": {
+          "name": "最佳拍档",
+          "description": "在一场合战中,与玩家武将以协力奥义击破 150 人"
+        }
+      }
+    },
+    "eACH_TATE_KO_5": {
+      "translations": {
+        "english": {
+          "name": "Duel Master",
+          "description": "Defeat five enemy officers using Mighty Strikes in a single battle."
+        },
+        "schinese": {
+          "name": "杀阵高手",
+          "description": "在一场合战中,用杀阵击破 5 名武将"
+        }
+      }
+    },
+    "eACH_SHINSOKU_JUST_GUARD": {
+      "translations": {
+        "english": {
+          "name": "Lightning Reflexes",
+          "description": "Execute a Perfect Block against an enemy officer's Hyper Attack."
+        },
+        "schinese": {
+          "name": "刹那的反应",
+          "description": "完美防御敌方武将的神速攻击"
+        }
+      }
+    },
+    "eACH_TSUKIMARU": {
+      "translations": {
+        "english": {
+          "name": "Tsukimaru in Action",
+          "description": "See Tsukimaru while fighting in battle."
+        },
+        "schinese": {
+          "name": "月丸登场!",
+          "description": "在合战中看到月丸"
+        }
+      }
+    },
+    "eACH_COSTUME_CHANGE_FIRST": {
+      "translations": {
+        "english": {
+          "name": "Clotheshorse",
+          "description": "Change a famous officer's costume and then fight in a battle."
+        },
+        "schinese": {
+          "name": "时髦无双",
+          "description": "第一次更换无双武将的服装并进行战斗"
+        }
+      }
+    },
+    "eACH_BREAK_TAKETABA_10": {
+      "translations": {
+        "english": {
+          "name": "Bamboo Splitter",
+          "description": "Destroy 10 bamboo barricades."
+        },
+        "schinese": {
+          "name": "势如破竹",
+          "description": "破环 10 次竹束"
+        }
+      }
+    },
+    "eACH_MUGENJOU_ESCAPE_FIRST": {
+      "translations": {
+        "english": {
+          "name": "Welcome Home",
+          "description": "Escape from Survival Mode for the first time."
+        },
+        "schinese": {
+          "name": "欢迎回家",
+          "description": "第一次离开无限城"
+        }
+      }
+    },
+    "eACH_GET_1000_MONEY_GOLDEN_TIME": {
+      "translations": {
+        "english": {
+          "name": "Make It Rain",
+          "description": "Obtain 1,000 Gold during a single Golden Time."
+        },
+        "schinese": {
+          "name": "嗨!千两巨星!",
+          "description": "在一次黄金时间中获得 1,000两"
+        }
+      }
+    },
+    "eACH_COMBO_1000": {
+      "translations": {
+        "english": {
+          "name": "Master Juggler",
+          "description": "Achieve a combo count of 1,000 or more."
+        },
+        "schinese": {
+          "name": "暴雨连击",
+          "description": "达成 1,000 连击"
+        }
+      }
+    },
+    "eACH_RANKING_ENTRY_FIRTST": {
+      "translations": {
+        "english": {
+          "name": "Your Saga Begins",
+          "description": "Register your score in the online rankings for the first time."
+        },
+        "schinese": {
+          "name": "武名昭告天下",
+          "description": "第一次登录排行榜"
+        }
+      }
+    },
+    "eACH_PLAY_ALL_MUSOU_BUSHOU": {
+      "translations": {
+        "english": {
+          "name": "Variety is the Spice of Life",
+          "description": "Play as all of the famous officers in the game at least once."
+        },
+        "schinese": {
+          "name": "群雄闪耀",
+          "description": "使用过所有无双武将"
+        }
+      }
+    },
+    "eACH_USE_MONEY_100000": {
+      "translations": {
+        "english": {
+          "name": "The Top One Percent",
+          "description": "Spend a cumulative total of 100,000 Gold at the Shop."
+        },
+        "schinese": {
+          "name": "战国第一富豪",
+          "description": "在杂货店消费的金额超过 100,000 两"
+        }
+      }
+    },
+    "eACH_TOTAL_KO_100000": {
+      "translations": {
+        "english": {
+          "name": "Go Down in History",
+          "description": "Attain a total K.O. count (as displayed in the Vault) of 100,000."
+        },
+        "schinese": {
+          "name": "古今无双",
+          "description": "宝物库的总击破人数超过 100,000 人"
+        }
+      }
+    },
+    "eACH_MISSION_HALF": {
+      "translations": {
+        "english": {
+          "name": "A Warrior of Action",
+          "description": "Attain an objective clearance rate (as displayed in the Vault) of 50% or higher."
+        },
+        "schinese": {
+          "name": "达成任务",
+          "description": "宝物库的任务达成率超过 50%"
+        }
+      }
+    },
+    "eACH_MISSION_ALL": {
+      "translations": {
+        "english": {
+          "name": "Completionist",
+          "description": "Attain an objective clearance rate (as displayed in the Vault) of 100%."
+        },
+        "schinese": {
+          "name": "完美达成任务",
+          "description": "宝物库的任务达成率超过 100%"
+        }
+      }
+    },
+    "eACH_EVENT_HALF": {
+      "translations": {
+        "english": {
+          "name": "A Tale of War",
+          "description": "Unlock 50% of all events for viewing in the Vault."
+        },
+        "schinese": {
+          "name": "合战绘卷",
+          "description": "宝物库的事件收集率超过 50%"
+        }
+      }
+    },
+    "eACH_EVENT_ALL": {
+      "translations": {
+        "english": {
+          "name": "A Tale of Unification",
+          "description": "Unlock 100% of all events for viewing in the Vault."
+        },
+        "schinese": {
+          "name": "战国绘卷",
+          "description": "宝物库的事件收集率超过 100%"
+        }
+      }
+    },
+    "eACH_SOUND_HALF": {
+      "translations": {
+        "english": {
+          "name": "The Finer Things",
+          "description": "Unlock 50% of all music tracks for listening to in the Vault."
+        },
+        "schinese": {
+          "name": "优雅曲调",
+          "description": "宝物库的音乐收集率超过 50%"
+        }
+      }
+    },
+    "eACH_SOUND_ALL": {
+      "translations": {
+        "english": {
+          "name": "Cultured Endeavors",
+          "description": "Unlock 100% of all music tracks for listening to in the Vault."
+        },
+        "schinese": {
+          "name": "绚烂曲调",
+          "description": "宝物库的音乐收集率超过 100%"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "version": 1,
+  "app_id": "381780",
+  "variant_id": "default",
+  "source_sha256": "028539e1c2d3da37ebaa4f3f4c1e38ff28c5dfe4c8372da7c8d5bf59332b42b1",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "completed_trip": {
+      "translations": {
+        "english": {
+          "name": "Completed Trip",
+          "description": "Travelled all the way around the world"
+        },
+        "schinese": {
+          "name": "完成旅程",
+          "description": "完成环球旅行"
+        }
+      }
+    },
+    "not_used_bank": {
+      "translations": {
+        "english": {
+          "name": "No Banks",
+          "description": "Travelled all the way around the world without using a bank"
+        },
+        "schinese": {
+          "name": "不用银行",
+          "description": "不使用银行完成环球旅行"
+        }
+      }
+    },
+    "not_used_hotel": {
+      "translations": {
+        "english": {
+          "name": "No Hotels",
+          "description": "Travelled all the way around the world without using a hotel"
+        },
+        "schinese": {
+          "name": "不用旅馆",
+          "description": "不使用旅馆完成环球旅行"
+        }
+      }
+    },
+    "20_cities_or_more": {
+      "translations": {
+        "english": {
+          "name": "20 Cities",
+          "description": "Visited at least 20 cities in a single trip"
+        },
+        "schinese": {
+          "name": "20 座城市",
+          "description": "在单次旅程中造访至少 20 座城市"
+        }
+      }
+    },
+    "30_cities_or_more": {
+      "translations": {
+        "english": {
+          "name": "30 Cities",
+          "description": "Visited at least 30 cities in a single trip"
+        },
+        "schinese": {
+          "name": "30 座城市",
+          "description": "在单次旅程中造访至少 30 座城市"
+        }
+      }
+    },
+    "80_days_or_less": {
+      "translations": {
+        "english": {
+          "name": "80 Days",
+          "description": "Completed trip in 80 days or less"
+        },
+        "schinese": {
+          "name": "80 天",
+          "description": "在 80 天或更短时间内完成旅程"
+        }
+      }
+    },
+    "70_days_or_less": {
+      "translations": {
+        "english": {
+          "name": "70 Days",
+          "description": "Completed trip in 70 days or less"
+        },
+        "schinese": {
+          "name": "70 天",
+          "description": "在 70 天或更短时间内完成旅程"
+        }
+      }
+    },
+    "60_days_or_less": {
+      "translations": {
+        "english": {
+          "name": "60 Days",
+          "description": "Completed trip in 60 days or less"
+        },
+        "schinese": {
+          "name": "60 天",
+          "description": "在 60 天或更短时间内完成旅程"
+        }
+      }
+    },
+    "50_days_or_less": {
+      "translations": {
+        "english": {
+          "name": "50 Days",
+          "description": "Completed trip in 50 days or less"
+        },
+        "schinese": {
+          "name": "50 天",
+          "description": "在 50 天或更短时间内完成旅程"
+        }
+      }
+    },
+    "40_days_or_less": {
+      "translations": {
+        "english": {
+          "name": "40 Days",
+          "description": "Completed trip in 40 days or less"
+        },
+        "schinese": {
+          "name": "40 天",
+          "description": "在 40 天或更短时间内完成旅程"
+        }
+      }
+    },
+    "distance_to_the_moon": {
+      "translations": {
+        "english": {
+          "name": "As Far As The Moon",
+          "description": "Travelled over 239,000 miles in total"
+        },
+        "schinese": {
+          "name": "远至月球",
+          "description": "累计旅行超过 239,000 英里"
+        }
+      }
+    },
+    "boarded_the_reservation": {
+      "translations": {
+        "english": {
+          "name": "Aboard the Kahwoka Othunwe",
+          "description": "Travelled across the northern wastes aboard the Floating Reservation"
+        },
+        "schinese": {
+          "name": "登上 Kahwoka Othunwe",
+          "description": "搭乘 Floating Reservation 穿越北方荒原"
+        }
+      }
+    },
+    "love_in_london": {
+      "translations": {
+        "english": {
+          "name": "Love in London",
+          "description": "Find true love waiting for you on your return to London"
+        },
+        "schinese": {
+          "name": "伦敦之爱",
+          "description": "返回伦敦时发现真爱正在等你"
+        }
+      }
+    },
+    "a_life_of_crime_awaits": {
+      "translations": {
+        "english": {
+          "name": "A Life of Crime",
+          "description": "Embark on a life of crime in the company of the world's greatest jewel thief"
+        },
+        "schinese": {
+          "name": "犯罪人生",
+          "description": "与世界最伟大的珠宝大盗一起踏上犯罪人生"
+        }
+      }
+    },
+    "reunion_of_a_frozen_romance": {
+      "translations": {
+        "english": {
+          "name": "Love in the Ice",
+          "description": "Reignite love in the frozen north"
+        },
+        "schinese": {
+          "name": "冰中之爱",
+          "description": "在冰封北方重燃爱火"
+        }
+      }
+    },
+    "betrayed_a_living_soul": {
+      "translations": {
+        "english": {
+          "name": "Betray a Soul",
+          "description": "Betray a living being to the Didacian nuns"
+        },
+        "schinese": {
+          "name": "背叛灵魂",
+          "description": "将一个活物出卖给 Didacian 修女"
+        }
+      }
+    },
+    "the_centre_of_the_earth": {
+      "translations": {
+        "english": {
+          "name": "Journey to the Centre of the Earth",
+          "description": "Descend into the heart of the earth itself"
+        },
+        "schinese": {
+          "name": "地心之旅",
+          "description": "深入地球核心"
+        }
+      }
+    },
+    "observatory_of_mount_elbrus": {
+      "translations": {
+        "english": {
+          "name": "The Summit of Mount Elbrus",
+          "description": "Visit the secret observatory of Mount Elbrus"
+        },
+        "schinese": {
+          "name": "厄尔布鲁士山之巅",
+          "description": "造访厄尔布鲁士山的秘密天文台"
+        }
+      }
+    },
+    "aboard_the_nautilus": {
+      "translations": {
+        "english": {
+          "name": "Under the Sea",
+          "description": "Travel beneath the ocean waves with a certain infamous Captain"
+        },
+        "schinese": {
+          "name": "海底之下",
+          "description": "与某位声名狼藉的船长一起在海浪下航行"
+        }
+      }
+    },
+    "destroyed_herr_danzer": {
+      "translations": {
+        "english": {
+          "name": "Despair in Vienna",
+          "description": "Ruin the life of a man of Vienna"
+        },
+        "schinese": {
+          "name": "维也纳的绝望",
+          "description": "毁掉一名维也纳男子的人生"
+        }
+      }
+    },
+    "punched_jesse_james": {
+      "translations": {
+        "english": {
+          "name": "Take That Varmit",
+          "description": "Knock out Jesse James"
+        },
+        "schinese": {
+          "name": "吃我一拳，恶棍",
+          "description": "击倒 Jesse James"
+        }
+      }
+    },
+    "saved_surya_from_torture": {
+      "translations": {
+        "english": {
+          "name": "Saved from the Noose",
+          "description": "Rescue a man from hanging"
+        },
+        "schinese": {
+          "name": "绞索下获救",
+          "description": "从绞刑中救下一名男子"
+        }
+      }
+    },
+    "rescued_helena_the_scientist": {
+      "translations": {
+        "english": {
+          "name": "The Artificer's Rescue",
+          "description": "Save an Artificer and her device from falling into the wrong hands"
+        },
+        "schinese": {
+          "name": "救出 Artificer",
+          "description": "拯救一名 Artificer 和她的装置，避免落入坏人之手"
+        }
+      }
+    },
+    "lightweight_champion_of_america": {
+      "translations": {
+        "english": {
+          "name": "Lightweight Champion",
+          "description": "Become an American boxing champion"
+        },
+        "schinese": {
+          "name": "轻量级冠军",
+          "description": "成为美国拳击冠军"
+        }
+      }
+    },
+    "cracked_the_case": {
+      "translations": {
+        "english": {
+          "name": "Crack the Case",
+          "description": "Bring a murderer to justice using your powers of deduction"
+        },
+        "schinese": {
+          "name": "破案",
+          "description": "用你的推理能力将凶手绳之以法"
+        }
+      }
+    },
+    "aided_the_belgrade_rebels": {
+      "translations": {
+        "english": {
+          "name": "Turn the Tide of War",
+          "description": "Aid the Belgrade resistance"
+        },
+        "schinese": {
+          "name": "扭转战局",
+          "description": "援助贝尔格莱德抵抗组织"
+        }
+      }
+    },
+    "launched_for_the_moon": {
+      "translations": {
+        "english": {
+          "name": "From the Earth to the Moon",
+          "description": "Launch for the Moon!"
+        },
+        "schinese": {
+          "name": "从地球到月球",
+          "description": "发射前往月球！"
+        }
+      }
+    },
+    "filed_a_story_in_the_times": {
+      "translations": {
+        "english": {
+          "name": "A Career in Journalism",
+          "description": "File a news story in the Times"
+        },
+        "schinese": {
+          "name": "新闻事业",
+          "description": "向《泰晤士报》投递一篇新闻报道"
+        }
+      }
+    },
+    "become_one_with_an_airship": {
+      "translations": {
+        "english": {
+          "name": "Flying High",
+          "description": "Become intimate with an airship"
+        },
+        "schinese": {
+          "name": "高飞",
+          "description": "与一艘飞艇建立亲密联系"
+        }
+      }
+    },
+    "visited_the_vault_of_the_artificers": {
+      "translations": {
+        "english": {
+          "name": "The Greatest Treasure",
+          "description": "Enter the secret vault of the Artificers"
+        },
+        "schinese": {
+          "name": "最伟大的宝藏",
+          "description": "进入 Artificers 的秘密宝库"
+        }
+      }
+    },
+    "over_falls_in_a_barrel": {
+      "translations": {
+        "english": {
+          "name": "Barrelling Forward!",
+          "description": "Go over Niagara Falls!"
+        },
+        "schinese": {
+          "name": "木桶向前！",
+          "description": "越过尼亚加拉瀑布！"
+        }
+      }
+    },
+    "walked_on_the_ocean_floor": {
+      "translations": {
+        "english": {
+          "name": "The Ocean Floor",
+          "description": "Walk the ocean floor"
+        },
+        "schinese": {
+          "name": "海床",
+          "description": "行走在海床上"
+        }
+      }
+    },
+    "the_worlds_fair": {
+      "translations": {
+        "english": {
+          "name": "The World's Fair",
+          "description": "Visited the World's Fair in Paris"
+        },
+        "schinese": {
+          "name": "世界博览会",
+          "description": "造访巴黎世界博览会"
+        }
+      }
+    },
+    "fogg_dead": {
+      "translations": {
+        "english": {
+          "name": "He is Lost!",
+          "description": "Have Monsieur Fogg die"
+        },
+        "schinese": {
+          "name": "他迷失了！",
+          "description": "让 Fogg 先生死亡"
+        }
+      }
+    },
+    "spent_the_night_in_machu_picchu": {
+      "translations": {
+        "english": {
+          "name": "A Night In the Ruins",
+          "description": "Spend the night in Machu Picchu"
+        },
+        "schinese": {
+          "name": "遗迹一夜",
+          "description": "在马丘比丘过夜"
+        }
+      }
+    }
+  }
+}

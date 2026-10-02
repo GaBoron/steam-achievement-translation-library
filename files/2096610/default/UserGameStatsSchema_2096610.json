@@ -1,0 +1,1499 @@
+{
+  "version": 1,
+  "app_id": "2096610",
+  "variant_id": "default",
+  "source_sha256": "a9e9261ecfd82935ccb11ee3120489ea1a85bb6e5077a8cd9c6c38e9d889d8eb",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "AchEvt_Tutorial": {
+      "translations": {
+        "english": {
+          "name": "Staying Sharp",
+          "description": "Complete Tutorial"
+        },
+        "french": {
+          "name": "Aux abois",
+          "description": "Terminer le didacticiel"
+        },
+        "german": {
+          "name": "Volle Konzentration",
+          "description": "Meistere das Tutorial"
+        },
+        "italian": {
+          "name": "In campana",
+          "description": "Completa il tutorial"
+        },
+        "japanese": {
+          "name": "油断するな",
+          "description": "チュートリアルをクリアする"
+        },
+        "polish": {
+          "name": "Bystry umysł",
+          "description": "Ukończ samouczek"
+        },
+        "russian": {
+          "name": "Оставаясь в форме",
+          "description": "Завершите обучение"
+        },
+        "schinese": {
+          "name": "保持敏锐",
+          "description": "完成教学。"
+        },
+        "spanish": {
+          "name": "Seguir siendo hábil",
+          "description": "Completar el tutorial"
+        }
+      }
+    },
+    "AchEvt_Jailbreak": {
+      "translations": {
+        "english": {
+          "name": "Welcome to the Jungle!",
+          "description": "Complete Post-Human"
+        },
+        "french": {
+          "name": "Bienvenue dans la jungle !",
+          "description": "Terminer surhumain"
+        },
+        "german": {
+          "name": "Willkommen im Dschungel!",
+          "description": "Meistere 'Post-human'"
+        },
+        "italian": {
+          "name": "Benvenuto nella giungla!",
+          "description": "Completa Post-umano"
+        },
+        "japanese": {
+          "name": "ジャングルにようこそ！",
+          "description": "「人類滅亡後」をクリアする"
+        },
+        "polish": {
+          "name": "Witaj w dżungli!",
+          "description": "Ukończ misję Epoka postludzka"
+        },
+        "russian": {
+          "name": "Добро пожаловать в джунгли!",
+          "description": "Завершите уровень 'Пост-человек'"
+        },
+        "schinese": {
+          "name": "欢迎来到丛林！",
+          "description": "完成章节：人类灭绝后。"
+        },
+        "spanish": {
+          "name": "¡Bienvenido a la jungla!",
+          "description": "Completar Poshumano"
+        }
+      }
+    },
+    "AchEvt_Fields": {
+      "translations": {
+        "english": {
+          "name": "A Flawless Getaway",
+          "description": "Complete Welcome to the Jungle"
+        },
+        "french": {
+          "name": "Fuite sans accroc",
+          "description": "Terminer Bienvenue dans la jungle"
+        },
+        "german": {
+          "name": "Eine saubere Flucht",
+          "description": "Meistere 'Willkommen im Dschungel'"
+        },
+        "italian": {
+          "name": "Fuga perfetta",
+          "description": "Completa Benvenuto nella giungla"
+        },
+        "japanese": {
+          "name": "完璧な逃避行",
+          "description": "「ジャングルにようこそ」をクリアする"
+        },
+        "polish": {
+          "name": "Perfekcyjna ucieczka",
+          "description": "Ukończ misję Witaj w dżungli"
+        },
+        "russian": {
+          "name": "Безупречный уход",
+          "description": "Завершите уровень 'Добро пожаловать в джунгли'"
+        },
+        "schinese": {
+          "name": "完美逃脱",
+          "description": "完成章节：欢迎来到丛林。"
+        },
+        "spanish": {
+          "name": "Una fuga perfecta",
+          "description": "Completar Bienvenido a la jungla"
+        }
+      }
+    },
+    "AchEvt_Canyon": {
+      "translations": {
+        "english": {
+          "name": "Off the Grid",
+          "description": "Complete The Root of All Evil"
+        },
+        "french": {
+          "name": "Discrétion absolue",
+          "description": "Terminer L’origine du mal"
+        },
+        "german": {
+          "name": "Außer Konkurrenz",
+          "description": "Meistere 'Die Wurzel allen Übels'"
+        },
+        "italian": {
+          "name": "Irrintracciabile",
+          "description": "Completa La causa di tutti i mali"
+        },
+        "japanese": {
+          "name": "網の目をくぐる",
+          "description": "「あらゆる悪の根源」をクリアする"
+        },
+        "polish": {
+          "name": "Bez zasilania",
+          "description": "Ukończ misję Korzenie wszelkiego zła"
+        },
+        "russian": {
+          "name": "Со сцены",
+          "description": "Завершите уровень 'Корень зла'"
+        },
+        "schinese": {
+          "name": "脱离电网",
+          "description": "完成章节：万恶渊薮。"
+        },
+        "spanish": {
+          "name": "Fuera del mapa",
+          "description": "Completar La raíz de todo mal"
+        }
+      }
+    },
+    "AchEvt_Swamp": {
+      "translations": {
+        "english": {
+          "name": "Turning the Tide",
+          "description": "Complete Safeties Off"
+        },
+        "french": {
+          "name": "Inversion de vapeur",
+          "description": "Terminer À balles réelles"
+        },
+        "german": {
+          "name": "Das Blatt wendet sich",
+          "description": "Meistere 'Waffen entsichern'"
+        },
+        "italian": {
+          "name": "Cambio di rotta",
+          "description": "Completa Via le sicure"
+        },
+        "japanese": {
+          "name": "潮目を変える",
+          "description": "「セイフティ解除」をクリアする"
+        },
+        "polish": {
+          "name": "Odwrócony bieg",
+          "description": "Ukończ misję Bez bezpieczeństwa"
+        },
+        "russian": {
+          "name": "Перелом",
+          "description": "Завершите уровень 'Снять с предохранителя'"
+        },
+        "schinese": {
+          "name": "扭转战局",
+          "description": "完成章节：解除武装。"
+        },
+        "spanish": {
+          "name": "Cambiar las tornas",
+          "description": "Completar Seguros fuera"
+        }
+      }
+    },
+    "AchEvt_River": {
+      "translations": {
+        "english": {
+          "name": "Brink of Apocalypse",
+          "description": "Complete Red Star Rising"
+        },
+        "french": {
+          "name": "Au bord de l’apocalypse",
+          "description": "Terminer Étoile rouge"
+        },
+        "german": {
+          "name": "Drohende Apokalypse",
+          "description": "Meistere 'Roter Stern steigt auf'"
+        },
+        "italian": {
+          "name": "Orlo dell'apocalisse",
+          "description": "Completa L'ascesa della stella rossa"
+        },
+        "japanese": {
+          "name": "絶体絶命の危機",
+          "description": "「レッドスター・ライジング」をクリアする"
+        },
+        "polish": {
+          "name": "Na krawędzi apokalipsy",
+          "description": "Ukończ misję Wschodząca czerwona gwiazda"
+        },
+        "russian": {
+          "name": "Порог Апокалипсиса",
+          "description": "Завершите уровень 'Восход Алой Звезды'"
+        },
+        "schinese": {
+          "name": "末日边缘",
+          "description": "完成章节：火星高升。"
+        },
+        "spanish": {
+          "name": "El umbral del Apocalipsis",
+          "description": "Completar La ascensión de la estrella roja"
+        }
+      }
+    },
+    "AchEvt_Island": {
+      "translations": {
+        "english": {
+          "name": "Belly of the Beast",
+          "description": "Complete Only Human"
+        },
+        "french": {
+          "name": "La gueule du loup",
+          "description": "Terminer Humanité"
+        },
+        "german": {
+          "name": "Bauch der Bestie",
+          "description": "Meistere 'Nur ein Mensch'"
+        },
+        "italian": {
+          "name": "Nella tana del lupo",
+          "description": "Completa Solo umano"
+        },
+        "japanese": {
+          "name": "窮地に追い込まれて",
+          "description": "「唯一の人間」をクリアする"
+        },
+        "polish": {
+          "name": "Bebechy bestii",
+          "description": "Ukończ misję Tylko ludzkość"
+        },
+        "russian": {
+          "name": "Утроба зверя",
+          "description": "Завершите уровень 'Всего лишь человек'"
+        },
+        "schinese": {
+          "name": "深入虎穴",
+          "description": "完成章节：幸存的人类。"
+        },
+        "spanish": {
+          "name": "El vientre de la bestia",
+          "description": "Completar Simplemente humano"
+        }
+      }
+    },
+    "AchEvt_Cave": {
+      "translations": {
+        "english": {
+          "name": "The True Measure of a Hero",
+          "description": "Complete Gods and Monsters"
+        },
+        "french": {
+          "name": "La trempe des héros",
+          "description": "Terminer Dieux et monstres"
+        },
+        "german": {
+          "name": "Ein wahrer Held",
+          "description": "Meistere 'Götter und Monster'"
+        },
+        "italian": {
+          "name": "La vera misura di un eroe",
+          "description": "Completa Dei e mostri"
+        },
+        "japanese": {
+          "name": "真の英雄",
+          "description": "「神々とモンスターズ」をクリアする"
+        },
+        "polish": {
+          "name": "Prawdziwa miara bohatera",
+          "description": "Ukończ misję Bogowie i potwory"
+        },
+        "russian": {
+          "name": "Мера героизма",
+          "description": "Завершите уровень 'Боги и монстры'"
+        },
+        "schinese": {
+          "name": "英雄本色",
+          "description": "完成章节：众神与野兽。"
+        },
+        "spanish": {
+          "name": "La verdadera medida de un héroe",
+          "description": "Completar Dioses y monstruos"
+        }
+      }
+    },
+    "AchEvt_Half_Veteran": {
+      "translations": {
+        "english": {
+          "name": "Nanosuit Veteran",
+          "description": "Complete 3 of 7 levels on Veteran difficulty"
+        },
+        "french": {
+          "name": "Vétéran en nanocombinaison",
+          "description": "Terminer 3 des 7 niveaux en difficulté Vétéran"
+        },
+        "german": {
+          "name": "Nanosuit-Veteran",
+          "description": "Meistere 3 von 7 Leveln im Schwierigkeitsgrad 'Veteran'"
+        },
+        "italian": {
+          "name": "Veterano della Nanotuta",
+          "description": "Completa 3 dei 7 livelli con livello di difficoltà Veterano"
+        },
+        "japanese": {
+          "name": "ナノスーツのベテラン",
+          "description": "難易度「ベテラン」で7ステージ中3ステージをクリアする"
+        },
+        "polish": {
+          "name": "Weteran w nanokombinezonie",
+          "description": "Ukończ 3 z 7 etapów na poziomie trudności Weterana"
+        },
+        "russian": {
+          "name": "Ветеран нанокостюма",
+          "description": "Завершите 3 из 7 уровней на уровне сложности 'Ветеран'"
+        },
+        "schinese": {
+          "name": "纳米服老兵",
+          "description": "以老兵难度完成三个章节。"
+        },
+        "spanish": {
+          "name": "Veterano de nanotraje",
+          "description": "Completar 3 de 7 niveles en dificultad Veterano"
+        }
+      }
+    },
+    "AchEvt_Half_Supersoldier": {
+      "translations": {
+        "english": {
+          "name": "Halfway to Hell",
+          "description": "Complete 3 of 7 levels on Supersoldier difficulty"
+        },
+        "french": {
+          "name": "À mi calvaire",
+          "description": "Terminer 3 des 7 niveaux en difficulté Super-soldat"
+        },
+        "german": {
+          "name": "Halber Weg zur Hölle",
+          "description": "Meistere 3 von 7 Leveln im Schwierigkeitsgrad 'Supersoldat'"
+        },
+        "italian": {
+          "name": "A metà strada per l'inferno",
+          "description": "Completa 3 dei 7 livelli con livello di difficoltà Super soldato"
+        },
+        "japanese": {
+          "name": "地獄への道半ば",
+          "description": "難易度「スーパーソルジャー」で7ステージ中3ステージをクリアする"
+        },
+        "polish": {
+          "name": "W pół drogi do piekła",
+          "description": "Ukończ 3 z 7 etapów na poziomie trudności Superżołnierza"
+        },
+        "russian": {
+          "name": "На полпути в ад",
+          "description": "Завершите 3 из 7 уровней на уровне сложности 'Суперсолдат'"
+        },
+        "schinese": {
+          "name": "地狱中途",
+          "description": "以超级士兵难度完成三个章节。"
+        },
+        "spanish": {
+          "name": "A medio camino del infierno",
+          "description": "Completar 3 de 7 niveles en dificultad Supersoldado"
+        }
+      }
+    },
+    "AchEvt_Complete_Campaign": {
+      "translations": {
+        "english": {
+          "name": "World Saver",
+          "description": "Finish the campaign in any difficulty"
+        },
+        "french": {
+          "name": "Sauveur du monde",
+          "description": "Terminer la campagne dans n’importe quel niveau de difficulté"
+        },
+        "german": {
+          "name": "Weltretter",
+          "description": "Meistere die Kampagne in einem beliebigen Schwierigkeitsgrad"
+        },
+        "italian": {
+          "name": "Salvatore del mondo",
+          "description": "Finisci la campagna con qualsiasi livello di difficoltà"
+        },
+        "japanese": {
+          "name": "救世主",
+          "description": "いずれかの難易度でキャンペーンをクリアする"
+        },
+        "polish": {
+          "name": "Zbawca świata",
+          "description": "Ukończ kampanię na dowolnym poziomie trudności"
+        },
+        "russian": {
+          "name": "Спаситель мира",
+          "description": "Завершите кампанию на любом уровне сложности"
+        },
+        "schinese": {
+          "name": "世界拯救者",
+          "description": "完成任意难度的战役模式。"
+        },
+        "spanish": {
+          "name": "Salvador del mundo",
+          "description": "Terminar la campaña en cualquier dificultad"
+        }
+      }
+    },
+    "AchEvt_Veteran": {
+      "translations": {
+        "english": {
+          "name": "Bring it On",
+          "description": "Complete the campaign on Veteran difficulty"
+        },
+        "french": {
+          "name": "Vieux routard",
+          "description": "Terminer la campagne en difficulté Vétéran"
+        },
+        "german": {
+          "name": "Versuch's doch",
+          "description": "Meistere die Kampagne im Schwierigkeitsgrad 'Veteran'"
+        },
+        "italian": {
+          "name": "Fatti sotto",
+          "description": "Completa la campagna con livello di difficoltà Veterano"
+        },
+        "japanese": {
+          "name": "かかってこい",
+          "description": "難易度「ベテラン」でキャンペーンをクリアする"
+        },
+        "polish": {
+          "name": "Dawaj to",
+          "description": "Ukończ kampanię na poziomie trudności Weterana"
+        },
+        "russian": {
+          "name": "Дайте мне врага",
+          "description": "Завершите кампанию на уровне сложности 'Ветеран'"
+        },
+        "schinese": {
+          "name": "放马过来",
+          "description": "以老兵难度完成战役模式。"
+        },
+        "spanish": {
+          "name": "Adelante",
+          "description": "Completar la campaña en dificultad Veterano"
+        }
+      }
+    },
+    "AchEvt_Supersoldier": {
+      "translations": {
+        "english": {
+          "name": "Professional Superhero",
+          "description": "Complete the campaign on Supersoldier difficulty"
+        },
+        "french": {
+          "name": "Le plein de super",
+          "description": "Terminer la campagne en difficulté Super-soldat"
+        },
+        "german": {
+          "name": "Profi-Superheld",
+          "description": "Meistere die Kampagne im Schwierigkeitsgrad 'Supersoldat'"
+        },
+        "italian": {
+          "name": "Supereroe professionista",
+          "description": "Completa la campagna con livello di difficoltà Super soldato"
+        },
+        "japanese": {
+          "name": "プロのスーパーヒーロー",
+          "description": "難易度「スーパーソルジャー」でキャンペーンをクリアする"
+        },
+        "polish": {
+          "name": "Profesjonalny superbohater",
+          "description": "Ukończ kampanię na poziomie trudności Superżołnierza"
+        },
+        "russian": {
+          "name": "Профессиональный супергерой",
+          "description": "Завершите кампанию на уровне сложности 'Суперсолдат'"
+        },
+        "schinese": {
+          "name": "专业超级英雄",
+          "description": "以超级士兵难度完成单人战役。"
+        },
+        "spanish": {
+          "name": "Superhéroe profesional",
+          "description": "Completar la campaña en dificultad Supersoldado"
+        }
+      }
+    },
+    "AchEvt_PerkOfTheJob": {
+      "translations": {
+        "english": {
+          "name": "Perk Of The Job",
+          "description": "Save a Nanosuit module package"
+        },
+        "french": {
+          "name": "Avantage professionnel",
+          "description": "Sauvegarder un pack de modules de la nanocombinaison"
+        },
+        "german": {
+          "name": "Vorteil des Jobs",
+          "description": "Speichere ein Nanosuitmodul-Paket"
+        },
+        "italian": {
+          "name": "Vantaggio del lavoro",
+          "description": "Conserva un pacchetto modulo per Nanotuta"
+        },
+        "japanese": {
+          "name": "ジョブの特性",
+          "description": "ナノスーツのモジュールのパッケージを保存する"
+        },
+        "polish": {
+          "name": "Korzyść z pracy",
+          "description": "Ocal pakiet modułu nanokombinezonu"
+        },
+        "russian": {
+          "name": "Особенность работы",
+          "description": "Сохраните модуль нанокостюма"
+        },
+        "schinese": {
+          "name": "工作专长",
+          "description": "储存一组纳米服模块组合包。"
+        },
+        "spanish": {
+          "name": "Ventajas del trabajo",
+          "description": "Guardar un paquete de módulo de nanotraje"
+        }
+      }
+    },
+    "AchEvt_Geared_Up": {
+      "translations": {
+        "english": {
+          "name": "Geared-up",
+          "description": "Unlock all weapon attachments"
+        },
+        "french": {
+          "name": "Armurerie ambulante",
+          "description": "Déverrouiller tous les accessoires d’armement"
+        },
+        "german": {
+          "name": "Aufgerüstet",
+          "description": "Schalte alle Waffenaufsätze frei"
+        },
+        "italian": {
+          "name": "Armato fino ai denti",
+          "description": "Sblocca tutti gli accessori delle armi"
+        },
+        "japanese": {
+          "name": "準備万端",
+          "description": "武器のアクセサリーをアンロックする"
+        },
+        "polish": {
+          "name": "Pełne wyposażenie",
+          "description": "Odblokuj wszystkie dodatki do broni"
+        },
+        "russian": {
+          "name": "До зубов",
+          "description": "Разблокируйте все модули оружия"
+        },
+        "schinese": {
+          "name": "全副武装",
+          "description": "解锁所有武器配件。"
+        },
+        "spanish": {
+          "name": "Equipado",
+          "description": "Desbloquear todos los acoplamientos de armas"
+        }
+      }
+    },
+    "AchEvt_Suited_Up": {
+      "translations": {
+        "english": {
+          "name": "Suited-up",
+          "description": "Upgrade all Nanosuit modules to Maximum level"
+        },
+        "french": {
+          "name": "Évolutivité",
+          "description": "Optimiser au maximum tous les modules de nanocombinaison"
+        },
+        "german": {
+          "name": "Aufgemotzt",
+          "description": "Werte alle Nanosuitmodule auf die Maximalstufe auf"
+        },
+        "italian": {
+          "name": "Tuta pronta",
+          "description": "Aggiorna tutti i moduli della Nanotuta al livello massimo"
+        },
+        "japanese": {
+          "name": "正装",
+          "description": "すべてのナノスーツのモジュールを最大レベルにまでアップグレードする"
+        },
+        "polish": {
+          "name": "Pełny rynsztunek",
+          "description": "Zmodernizuj wszystkie moduły nanokombinezonu do maksymalnego poziomu"
+        },
+        "russian": {
+          "name": "Костюмчик сидит",
+          "description": "Улучшите все модули нанокостюма до максимального уровня"
+        },
+        "schinese": {
+          "name": "装备齐全",
+          "description": "将所有纳米服模块升级至最高。"
+        },
+        "spanish": {
+          "name": "Vestido",
+          "description": "Mejorar todos los módulos de nanotraje al nivel máximo"
+        }
+      }
+    },
+    "AchEvt_Pro_Bow": {
+      "translations": {
+        "english": {
+          "name": "Be a Pro, use a Bow!",
+          "description": "Kill 10 enemies with every arrow type"
+        },
+        "french": {
+          "name": "Plus d’une corde",
+          "description": "Abattre 10 ennemis avec chaque type de flèche"
+        },
+        "german": {
+          "name": "Robin Hood",
+          "description": "Töte mit jedem Pfeiltyp 10 Gegner"
+        },
+        "italian": {
+          "name": "Impara l'arco e mettilo da parte",
+          "description": "Uccidi 10 nemici con ogni tipo di freccia"
+        },
+        "japanese": {
+          "name": "プロになり、弓を使おう！",
+          "description": "あらゆるタイプの弓で敵を10体倒す"
+        },
+        "polish": {
+          "name": "Bądź profesjonalistą, użyj Łuku!",
+          "description": "Zabij 10 wrogów każdym typem strzały"
+        },
+        "russian": {
+          "name": "Будь про, используй лук",
+          "description": "Убейте 10 врагов каждым типом стрел"
+        },
+        "schinese": {
+          "name": "专业弓手",
+          "description": "使用每一种箭头各杀死10名敌人。"
+        },
+        "spanish": {
+          "name": "¡Sé un pro, usa un arco!",
+          "description": "Matar a 10 enemigos con todos los tipos de flechas"
+        }
+      }
+    },
+    "AchEvt_Maximum_Strength": {
+      "translations": {
+        "english": {
+          "name": "Maximum Strength",
+          "description": "Kill 25 enemies using only the Nanosuit's enhanced powers instead of guns"
+        },
+        "french": {
+          "name": "Force maximum",
+          "description": "Abattre 25 ennemis sans arme avec uniquement les pouvoirs améliorés de la nanocombinaison"
+        },
+        "german": {
+          "name": "Maximale Stärke",
+          "description": "Töte 25 Gegner nur mit den verbesserten Kräften des Nanosuits, anstatt von Waffen"
+        },
+        "italian": {
+          "name": "Forza massima",
+          "description": "Uccidi 25 nemici utilizzando solo i poteri potenziati della Nanotuta anziché le armi"
+        },
+        "japanese": {
+          "name": "剛腕",
+          "description": "銃を使わずにナノスーツが強化機能のみで敵を25体倒す"
+        },
+        "polish": {
+          "name": "Maksymalna siła",
+          "description": "Zabij 25 wrogów, używając wyłącznie wzmocnionych mocy nanokombinezonu zamiast broni"
+        },
+        "russian": {
+          "name": "Максимум силы",
+          "description": "Убейте 25 врагов без оружия, используя улучшенные возможности нанокостюма"
+        },
+        "schinese": {
+          "name": "极限力量",
+          "description": "在无武器情况下用纳米服击杀25名敌人。"
+        },
+        "spanish": {
+          "name": "Fuerza máxima",
+          "description": "Matar a 25 enemigos usando solo los poderes aumentados del nanotraje en lugar de armas"
+        }
+      }
+    },
+    "AchEvt_Hunter_Gatherer": {
+      "translations": {
+        "english": {
+          "name": "Hunter-Gatherer",
+          "description": "Retrieve 10 arrows from pinned enemies"
+        },
+        "french": {
+          "name": "Chasseur-cueilleur",
+          "description": "Récupérer 10 flèches sur les ennemis cloués"
+        },
+        "german": {
+          "name": "Jäger und Sammler",
+          "description": "Ziehe 10 Pfeile aus festgenagelten Gegnern"
+        },
+        "italian": {
+          "name": "Cacciatore-raccoglitore",
+          "description": "Recupera 10 frecce dai nemici su cui le hai scoccate"
+        },
+        "japanese": {
+          "name": "狩猟採集",
+          "description": "磔になった敵から矢を10本回収する"
+        },
+        "polish": {
+          "name": "Poszukiwacz łowców",
+          "description": "Odzyskaj 10 strzał, którymi trafiono wrogów"
+        },
+        "russian": {
+          "name": "Охотник-сборщик",
+          "description": "Вытащите 10 стрел из пригвожденных врагов"
+        },
+        "schinese": {
+          "name": "猎人-采集者",
+          "description": "从被钉住的敌人身上取回10支箭矢。"
+        },
+        "spanish": {
+          "name": "Reclutador de cazadores",
+          "description": "Recupera 10 flechas de enemigos clavados"
+        }
+      }
+    },
+    "AchEvt_Hacking": {
+      "translations": {
+        "english": {
+          "name": "The Gibson",
+          "description": "Complete 20 hacking challenges"
+        },
+        "french": {
+          "name": "Pirates !",
+          "description": "Terminer 20 défis de piratage"
+        },
+        "german": {
+          "name": "Hackedicht",
+          "description": "Meistere 20 Hacken-Herausforderungen"
+        },
+        "italian": {
+          "name": "Il Gibson",
+          "description": "Completa 20 sfide di hackeraggio"
+        },
+        "japanese": {
+          "name": "ギブソン",
+          "description": "ハッキングを20回成功させる"
+        },
+        "polish": {
+          "name": "Gibson",
+          "description": "Ukończ 20 wyzwań hakerskich"
+        },
+        "russian": {
+          "name": "Гибсон",
+          "description": "Завершите 20 испытаний на взлом"
+        },
+        "schinese": {
+          "name": "骇客",
+          "description": "完成20项入侵挑战。"
+        },
+        "spanish": {
+          "name": "El Gibson",
+          "description": "Completar 20 retos de pirateo"
+        }
+      }
+    },
+    "AchEvt_Ill_Have_That": {
+      "translations": {
+        "english": {
+          "name": "I'll Have That!",
+          "description": "Rip off and use all alien weapon types"
+        },
+        "french": {
+          "name": "Par ici le matos",
+          "description": "Arracher et utiliser tous les types d’armes extraterrestres"
+        },
+        "german": {
+          "name": "Her damit!",
+          "description": "Reiße alle Alien-Waffentypen heraus und benutze sie"
+        },
+        "italian": {
+          "name": "Lo voglio anch'io!",
+          "description": "Strappa le armi agli alieni e usane tutti i tipi"
+        },
+        "japanese": {
+          "name": "お前のものは俺のもの",
+          "description": "エイリアンの武器の全種類を略奪する"
+        },
+        "polish": {
+          "name": "Wezmę to!",
+          "description": "Zdobądź wszystkie typy broni kosmitów i użyj ich"
+        },
+        "russian": {
+          "name": "Я возьму это",
+          "description": "Оторвите и используйте все виды инопланетного оружия"
+        },
+        "schinese": {
+          "name": "那个归我！",
+          "description": "撕下并使用所有种类的异形武器。"
+        },
+        "spanish": {
+          "name": "¡Me lo quedo!",
+          "description": "Arranca y usa todos los tipos de armas alienígenas"
+        }
+      }
+    },
+    "AchEvt_Supercharge": {
+      "translations": {
+        "english": {
+          "name": "Taste Of Your Own Medicine",
+          "description": "Kill 25 enemies while supercharged"
+        },
+        "french": {
+          "name": "Retour de bâton",
+          "description": "Abattre 25 ennemis en état superchargé"
+        },
+        "german": {
+          "name": "Mit gleicher Münze heimgezahlt",
+          "description": "Töte 25 Gegner, während du überladen bist"
+        },
+        "italian": {
+          "name": "Un assaggio della tua medicina",
+          "description": "Uccidi 25 nemici durante un sovraccarico"
+        },
+        "japanese": {
+          "name": "自業自得",
+          "description": "スーパーチャージ中に敵を25体倒す"
+        },
+        "polish": {
+          "name": "Posmakuj własnego lekarstwa",
+          "description": "Zabij 25 wrogów, używając superdoładowaniam"
+        },
+        "russian": {
+          "name": "Их же оружием",
+          "description": "Убейте 25 противников во время сверхзаряда"
+        },
+        "schinese": {
+          "name": "自食其果",
+          "description": "增压状态下击杀25名敌人。"
+        },
+        "spanish": {
+          "name": "Prueba de tu propia medicina",
+          "description": "Matar a 25 enemigos mientras se tiene supercarga"
+        }
+      }
+    },
+    "AchEvt_Collector": {
+      "translations": {
+        "english": {
+          "name": "Breaking the Lore",
+          "description": "Retrieve all CELL Intel"
+        },
+        "french": {
+          "name": "Intelligence",
+          "description": "Récupérer tous les renseignements du CELL"
+        },
+        "german": {
+          "name": "Geheimnisträger",
+          "description": "Birg alle CELL-Geheimdaten"
+        },
+        "italian": {
+          "name": "Leggenda rotta",
+          "description": "Ottieni tutte le informazioni sulla C.E.L.L."
+        },
+        "japanese": {
+          "name": "秘密を暴く",
+          "description": "CELLの情報をすべて回収する"
+        },
+        "polish": {
+          "name": "Przerwa w grze",
+          "description": "Odzyskaj całą inteligencję CELL"
+        },
+        "russian": {
+          "name": "Обретая знания",
+          "description": "Получите все разведданные CELL"
+        },
+        "schinese": {
+          "name": "打破常规",
+          "description": "回收所有CELL情报。"
+        },
+        "spanish": {
+          "name": "Romper el trasfondo",
+          "description": "Recoger toda la información de C.E.L.L."
+        }
+      }
+    },
+    "AchEvt_BangForTheBuck": {
+      "translations": {
+        "english": {
+          "name": "Bang For The Buck",
+          "description": "Kill a deer using explosive arrows"
+        },
+        "french": {
+          "name": "Paf le daim",
+          "description": "Abattre un cerf avec des flèches explosives"
+        },
+        "german": {
+          "name": "Zwölfender",
+          "description": "Töte einen Hirsch mit Sprengpfeilen"
+        },
+        "italian": {
+          "name": "Boom boom, Bambi!",
+          "description": "Uccidi un cervo usando le frecce esplosive"
+        },
+        "japanese": {
+          "name": "シカハンター",
+          "description": "爆発アローを使ってシカを倒す"
+        },
+        "polish": {
+          "name": "Walka za kasę",
+          "description": "Zabij jelenia, używając wybuchowych strzał"
+        },
+        "russian": {
+          "name": "Взрыв для сохатого",
+          "description": "Убейте оленя взрывной стрелой"
+        },
+        "schinese": {
+          "name": "物超所值",
+          "description": "使用铝热剂箭头射杀一只鹿。"
+        },
+        "spanish": {
+          "name": "Disparar por dinero",
+          "description": "Matar un ciervo con flechas explosivas"
+        }
+      }
+    },
+    "AchEvt_CanYouHearMe": {
+      "translations": {
+        "english": {
+          "name": "Can You Hear Me Now",
+          "description": "Disable the Nanosuit Jammer"
+        },
+        "french": {
+          "name": "Parasitage",
+          "description": "Bienvenue dans la jungle : désactiver le brouilleur en nanocombinaison"
+        },
+        "german": {
+          "name": "Hörst du mich jetzt?",
+          "description": "Willkommen im Dschungel: Deaktiviere den Nanosuit-Störsender"
+        },
+        "italian": {
+          "name": "Ora mi ricevi?",
+          "description": "Benvenuto nella giungla: disattiva il jammer della Nanotuta"
+        },
+        "japanese": {
+          "name": "俺の声が聞こえるか",
+          "description": "「ジャングルにようこそ」でナノスーツジャマーを無力化する"
+        },
+        "polish": {
+          "name": "Czy teraz mnie słyszysz",
+          "description": "Witaj w dżungli: Wyłącz zagłuszacz nanokombinezonu"
+        },
+        "russian": {
+          "name": "Теперь вы меня слышите?",
+          "description": "Добро пожаловать в джунгли: Отключите блок нанокостюма"
+        },
+        "schinese": {
+          "name": "听得到吗？",
+          "description": "在「欢迎来到丛林」章节中关闭纳米服干扰器。"
+        },
+        "spanish": {
+          "name": "¿Me oyes ahora?",
+          "description": "Bienvenido a la jungla: Desactivar el inhibidor del nanotraje"
+        }
+      }
+    },
+    "AchEvt_Jailbreak_Rockets": {
+      "translations": {
+        "english": {
+          "name": "Who Needs Rockets?",
+          "description": "Take out an attack helicopter using the Predator Bow"
+        },
+        "french": {
+          "name": "C’était pas ma guerre",
+          "description": "Surhumain : abattre un hélicoptère d’assaut avec l’arc Prédateur"
+        },
+        "german": {
+          "name": "Wer braucht schon Raketen?",
+          "description": "Post-Human: Schalte mit dem Predator-Bogen einen Kampfhubschrauber aus"
+        },
+        "italian": {
+          "name": "Che te ne fai dei missili?",
+          "description": "Post-umano: abbatti un elicottero da attacco usando l'Arco di predatore."
+        },
+        "japanese": {
+          "name": "ロケットいらず",
+          "description": "「人類滅亡後」でプレデターボウを使って攻撃ヘリを撃墜する"
+        },
+        "polish": {
+          "name": "Kto potrzebuje rakiet?",
+          "description": "Epoka postludzka: Strąć atakujący helikopter, używając Łuku Drapieżnika"
+        },
+        "russian": {
+          "name": "Зачем нужны ракеты",
+          "description": "Пост-человек: Сбейте вертолет, используя лук 'Хищник'"
+        },
+        "schinese": {
+          "name": "谁还需要火箭？",
+          "description": "在「人类灭绝后」章节中使用狩猎弓击毁攻击直升机。"
+        },
+        "spanish": {
+          "name": "¿Quién necesita cohetes?",
+          "description": "Poshumano: Derribar un helicóptero de ataque con un arco de Depredador"
+        }
+      }
+    },
+    "AchEvt_Donut_Surf": {
+      "translations": {
+        "english": {
+          "name": "White Rider",
+          "description": "Surf the donut down the river for 20 seconds"
+        },
+        "french": {
+          "name": "Ooh, un donut",
+          "description": "L’origine du mal : descendre la rivière sur le donut pendant 20 secondes"
+        },
+        "german": {
+          "name": "Weißer Reiter",
+          "description": "Die Wurzel allen Übels: Surfe auf dem Donut 20 Sekunden lang flussabwärts"
+        },
+        "italian": {
+          "name": "Cavaliere bianco",
+          "description": "La causa di tutti i mali: naviga sul fiume con la ciambella per 20 secondi"
+        },
+        "japanese": {
+          "name": "急流下り",
+          "description": "「あらゆる悪の根源」で20秒間ドーナツサーフィンで川を下る"
+        },
+        "polish": {
+          "name": "Biały jeździec",
+          "description": "Korzenie wszelkiego zła: Surfuj w dół rzeki przez 20 sekund"
+        },
+        "russian": {
+          "name": "Белый всадник",
+          "description": "Корень зла: Проплывите на круге вниз по реке 20 секунд"
+        },
+        "schinese": {
+          "name": "白浪骑士",
+          "description": "在「万恶渊薮」章节中搭乘充气甜甜圈顺流泛舟20秒。"
+        },
+        "spanish": {
+          "name": "Jinete blanco",
+          "description": "La raíz de todo mal: Baja el río en el dónut durante 20 segundos"
+        }
+      }
+    },
+    "AchEvt_Roadkill": {
+      "translations": {
+        "english": {
+          "name": "Roadkill",
+          "description": "Crush 5 enemies with the Buggy"
+        },
+        "french": {
+          "name": "Du gras dans les jantes",
+          "description": "Étoile rouge : écraser 5 ennemis avec le buggy"
+        },
+        "german": {
+          "name": "Verkehrstod",
+          "description": "Roter Stern steigt auf: Zermalme 5 Gegner mit dem Buggy"
+        },
+        "italian": {
+          "name": "Carcassa",
+          "description": "L'ascesa della stella rossa: usa il buggy per investire 5 nemici"
+        },
+        "japanese": {
+          "name": "ロードキル",
+          "description": "「レッドスター・ライジング」でバギーで敵5体をひき殺す"
+        },
+        "polish": {
+          "name": "Padlina",
+          "description": "Wschodząca czerwona gwiazda: Zgnieć 5 wrogów terenówką"
+        },
+        "russian": {
+          "name": "ДТП",
+          "description": "Восход Алой Звезды: Раздавите 5 врагов с помощью вездехода"
+        },
+        "schinese": {
+          "name": "马路杀手",
+          "description": "在「火星高升」章节中使用越野车撞死五名敌人。"
+        },
+        "spanish": {
+          "name": "Asesinato en carretera",
+          "description": "La ascensión de la estrella roja: Atropella a 5 enemigos con el Buggy"
+        }
+      }
+    },
+    "AchEvt_Pingers": {
+      "translations": {
+        "english": {
+          "name": "Ping Pong!",
+          "description": "Kill all Pingers"
+        },
+        "french": {
+          "name": "Ping Pong",
+          "description": "Humanité : détruire tous les Pingers"
+        },
+        "german": {
+          "name": "Ping Pong!",
+          "description": "Nur ein Mensch: Töte alle Pinger"
+        },
+        "italian": {
+          "name": "Ping-pong",
+          "description": "Solo umano: uccidi tutti i pinger"
+        },
+        "japanese": {
+          "name": "ピンポン！",
+          "description": "「唯一の人間」でピンガーを全機破壊する"
+        },
+        "polish": {
+          "name": "Ping pong!",
+          "description": "Tylko ludzkość: Zabij wszystkich graczy!"
+        },
+        "russian": {
+          "name": "Крик-понг",
+          "description": "Всего лишь человек: Убейте всех крикунов"
+        },
+        "schinese": {
+          "name": "乒乓球！",
+          "description": "在「幸存的人类」章节中击杀所有声波轰炸异形。"
+        },
+        "spanish": {
+          "name": "¡Ping Pong!",
+          "description": "Simplemente humano: Matar a todos los Silbadores"
+        }
+      }
+    },
+    "AchEvt_InsideJob": {
+      "translations": {
+        "english": {
+          "name": "Inside Job",
+          "description": "Kill 10 enemies using hacked sentry guns"
+        },
+        "french": {
+          "name": "L’arroseur arrosé",
+          "description": "Abattre 10 ennemis à l’aide de tourelles piratées"
+        },
+        "german": {
+          "name": "Insider-Job",
+          "description": "Töte 10 Gegner mit gehackten Wachgeschützen"
+        },
+        "italian": {
+          "name": "Infiltrato",
+          "description": "Uccidi 10 nemici usando le armi hackerate delle sentinelle"
+        },
+        "japanese": {
+          "name": "内部の犯行",
+          "description": "ハッキングしたセントリー・ガンで敵を10体倒す"
+        },
+        "polish": {
+          "name": "Wewnętrzna robota",
+          "description": "Zabij 10 wrogów, używając zhakowanych dział strażniczych"
+        },
+        "russian": {
+          "name": "Работа изнутри",
+          "description": "Убейте 10 врагов взломанными турелями"
+        },
+        "schinese": {
+          "name": "借刀杀人",
+          "description": "使用被入侵控制的哨兵枪击杀10名敌人。"
+        },
+        "spanish": {
+          "name": "Desde dentro",
+          "description": "Matar a 10 enemigos usando armas centinela pirateadas"
+        }
+      }
+    },
+    "AchEvt_Post_Human": {
+      "translations": {
+        "english": {
+          "name": "Post-Human Warrior",
+          "description": "Kill 10 enemies in a single Supercharge boost"
+        },
+        "french": {
+          "name": "Guerrier surhumain",
+          "description": "Abattre 10 ennemis en un seul boost superchargé"
+        },
+        "german": {
+          "name": "Post-humaner Krieger",
+          "description": "Töte 10 Gegner während eines einzigen Supercharge-Boosts"
+        },
+        "italian": {
+          "name": "Guerrieri post-umano",
+          "description": "Uccidi 10 nemici con una singola esplosione di Sovraccarico"
+        },
+        "japanese": {
+          "name": "人類最後の超人",
+          "description": "1回のスーパーチャージ中に敵をを10体倒す"
+        },
+        "polish": {
+          "name": "Wojownik Epoki postludzkiej",
+          "description": "Zabij 10 wrogów w pojedynczym superataku"
+        },
+        "russian": {
+          "name": "Воин будущего",
+          "description": "Убейте 10 противников во время одного сверхзаряда"
+        },
+        "schinese": {
+          "name": "超人类战士",
+          "description": "单次增压状态下击杀10名敌人。"
+        },
+        "spanish": {
+          "name": "Guerrero poshumano",
+          "description": "Matar a 10 enemigos en un solo golpe de supercarga"
+        }
+      }
+    },
+    "AchEvt_Arrow_Knee": {
+      "translations": {
+        "english": {
+          "name": "Arrow to the Knee!",
+          "description": "End an enemy's career as a CELL operative by wounding him in the knee with an arrow!"
+        },
+        "french": {
+          "name": "Il dit qu’il a plus de genou",
+          "description": "Mettre un terme à la carrière d’un soldat du CELL en le blessant d’une flèche dans le genou !"
+        },
+        "german": {
+          "name": "Knieschuss",
+          "description": "Beende die Karriere einer gegnerischen CELL-Einheit mit einer Pfeilwunde am Knie"
+        },
+        "italian": {
+          "name": "Freccia al ginocchio!",
+          "description": "Metti fine alla carriera di agente CELL di un nemico ferendolo a un ginocchio con una freccia."
+        },
+        "japanese": {
+          "name": "膝に矢を受けてしまってな",
+          "description": "矢を膝に命中させて、CELL要員としての能力を奪う"
+        },
+        "polish": {
+          "name": "Strzała w kolano!",
+          "description": "Zakończ karierę wroga jako agenta CELL, trafiając strzałą w jego kolano!"
+        },
+        "russian": {
+          "name": "Стрела в колене",
+          "description": "Закончите карьеру бойцу CELL, попав ему стрелой в колено!"
+        },
+        "schinese": {
+          "name": "膝盖中箭！",
+          "description": "用箭射伤一名敌人膝盖，终结其CELL探员职业生涯。"
+        },
+        "spanish": {
+          "name": "¡Flecha a la rodilla!",
+          "description": "¡Acaba con la carrera de un enemigo como agente de C.E.L.L. hiriéndolo en la rodilla con una flecha!"
+        }
+      }
+    },
+    "AchEvt_Improviser": {
+      "translations": {
+        "english": {
+          "name": "Improviser",
+          "description": "Kill two enemies in one strike using the environment"
+        },
+        "french": {
+          "name": "D’une pierre deux coups",
+          "description": "Tuer deux ennemis d’un coup à l’aide de l’environnement"
+        },
+        "german": {
+          "name": "Improvisator",
+          "description": "Töte zwei Gegner mithilfe der Umgebung mit einem Schlag"
+        },
+        "italian": {
+          "name": "Improvvisazione",
+          "description": "Uccidi due nemici con un solo colpo approfittando dell'ambiente circostante"
+        },
+        "japanese": {
+          "name": "応用名人",
+          "description": "周囲の地形やオブジェクトを利用して2体の敵を同時に倒す"
+        },
+        "polish": {
+          "name": "Improwizator",
+          "description": "Zabij dwóch wrogów jednym strzałem, korzystając z otaczającego środowiska"
+        },
+        "russian": {
+          "name": "Импровизация",
+          "description": "Убейте двух врагов одним ударом, используя окружающие предметы"
+        },
+        "schinese": {
+          "name": "即兴发挥",
+          "description": "利用环境发动攻击并一次性击杀两名敌人。"
+        },
+        "spanish": {
+          "name": "Improvisador",
+          "description": "Matar a dos enemigos de un solo golpe usando el entorno"
+        }
+      }
+    },
+    "AchEvt_From_Behind": {
+      "translations": {
+        "english": {
+          "name": "Nanosuit Ninja",
+          "description": "Perform 20 Stealth Kills without alerting nearby enemies"
+        },
+        "french": {
+          "name": "Ninja en nanocombinaison",
+          "description": "Signer 20 frags furtifs sans alerter les ennemis à proximité"
+        },
+        "german": {
+          "name": "Nanosuit-Ninja",
+          "description": "Mache 20 Tarnkills, ohne Gegner in der Nähe zu alarmieren"
+        },
+        "italian": {
+          "name": "Ninja in Nanotuta",
+          "description": "Uccidi 20 nemici in modalità furtiva senza allertare quelli vicini"
+        },
+        "japanese": {
+          "name": "ナノスーツを着た忍者",
+          "description": "近隣の敵を察知されずに20体倒す"
+        },
+        "polish": {
+          "name": "Ninja w nanokombinezonie",
+          "description": "Dokonaj 20 skrytych zabójstw bez zaalarmowania pobliskich wrogów"
+        },
+        "russian": {
+          "name": "Нанокостюмный ниндзя",
+          "description": "Совершите 20 бесшумных убийств, не привлекая внимания"
+        },
+        "schinese": {
+          "name": "纳米忍者",
+          "description": "进行20次隐匿击杀而不引起周围敌人注意。"
+        },
+        "spanish": {
+          "name": "Nanotraje ninja",
+          "description": "Matar a 20 objetivos con sigilo sin alertar a los enemigos cercanos"
+        }
+      }
+    },
+    "AchEvt_Stick_Around": {
+      "translations": {
+        "english": {
+          "name": "Stick Around",
+          "description": "Using the Predator Bow, pin 10 enemies to walls with arrows"
+        },
+        "french": {
+          "name": "Entomologiste",
+          "description": "Avec l’arc Prédateur, clouer 10 ennemis au mur avec des flèches"
+        },
+        "german": {
+          "name": "Nagelprobe",
+          "description": "Benutze den Predator-Bogen, um 10 Gegner mit Pfeilen an Mauern 'festzunageln'"
+        },
+        "italian": {
+          "name": "Un po' più a sinistra",
+          "description": "Appendi al muro 10 nemici usando le frecce dell'Arco di predatore"
+        },
+        "japanese": {
+          "name": "スティックアラウンド",
+          "description": "プレデターボウを使ってアローで敵10体を壁に串刺しにする"
+        },
+        "polish": {
+          "name": "Trzymaj się blisko",
+          "description": "Przykuj 10 wrogów do muru strzałami z Łuku Drapieżnika"
+        },
+        "russian": {
+          "name": "Посиди тут",
+          "description": "Используя лук 'Хищник', приколите 10 врагов к стенам стрелами"
+        },
+        "schinese": {
+          "name": "钉住别动",
+          "description": "使用狩猎弓将10名敌人钉在墙上。"
+        },
+        "spanish": {
+          "name": "Quedarse por aquí",
+          "description": "Usar el arco de Depredador, clava a 10 enemigos a las paredes con flechas"
+        }
+      }
+    },
+    "AchEvt_Clever_Girl": {
+      "translations": {
+        "english": {
+          "name": "Clever Girl!",
+          "description": "Stealth kill a Ceph Stalker"
+        },
+        "french": {
+          "name": "Tapi dans l’ombre",
+          "description": "Éliminer un Ceph Stalker"
+        },
+        "german": {
+          "name": "Kluges Mädchen!",
+          "description": "Töte einen Ceph-Stalker per Tarnkill"
+        },
+        "italian": {
+          "name": "Ragazza sveglia!",
+          "description": "Uccidi un cacciatore Ceph in modalità furtiva"
+        },
+        "japanese": {
+          "name": "よくできました",
+          "description": "セフ・ストーカーをステルスキルする"
+        },
+        "polish": {
+          "name": "Bystra dziewczyna!",
+          "description": "Dokonaj skrytego zabójstwa prześladowcy Ceph"
+        },
+        "russian": {
+          "name": "Умница!",
+          "description": "Бесшумно убейте Сталкера цефов"
+        },
+        "schinese": {
+          "name": "聪明女孩！",
+          "description": "隐匿击杀一只Ceph潜行者。"
+        },
+        "spanish": {
+          "name": "¡Chica lista!",
+          "description": "Mata con sigilo a un Acechador Céfalo"
+        }
+      }
+    },
+    "AchEvt_Poltergeist": {
+      "translations": {
+        "english": {
+          "name": "Poltergeist",
+          "description": "Kill 10 enemies with thrown objects without being detected"
+        },
+        "french": {
+          "name": "Poltergeist",
+          "description": "Abattre 10 ennemis en lançant des objets sans se faire détecter"
+        },
+        "german": {
+          "name": "Poltergeist",
+          "description": "Töte 10 Gegner mit Wurfobjekten, ohne entdeckt zu werden"
+        },
+        "italian": {
+          "name": "Poltergeist",
+          "description": "Uccidi 10 nemici lanciando oggetti senza farti rilevare"
+        },
+        "japanese": {
+          "name": "ポルターガイスト",
+          "description": "気づかれずに物を投げて敵を10体倒す"
+        },
+        "polish": {
+          "name": "Złośliwy duch",
+          "description": "Zabij 10 wrogów, rzucając przedmiotami, i nie daj się wykryć"
+        },
+        "russian": {
+          "name": "Полтергейст",
+          "description": "Убейте 10 врагов метательными объектами, оставшись незамеченным"
+        },
+        "schinese": {
+          "name": "鬼魂",
+          "description": "在未被发觉的情况下投掷物品击杀10人。"
+        },
+        "spanish": {
+          "name": "Poltergeist",
+          "description": "Matar a 10 enemigos con objetos lanzados sin ser detectado"
+        }
+      }
+    }
+  }
+}

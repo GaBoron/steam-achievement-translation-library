@@ -1,0 +1,2269 @@
+{
+  "version": 1,
+  "app_id": "235600",
+  "variant_id": "default",
+  "source_sha256": "2ce24c36f84ecce2b9afc1494d74858f2bcfb321d4f87d17ddc9fda3f185ded9",
+  "languages": [
+    "brazilian",
+    "czech",
+    "danish",
+    "dutch",
+    "english",
+    "french",
+    "german",
+    "hungarian",
+    "italian",
+    "japanese",
+    "koreana",
+    "norwegian",
+    "polish",
+    "portuguese",
+    "russian",
+    "schinese",
+    "spanish",
+    "swedish",
+    "tchinese"
+  ],
+  "achievements": {
+    "SCBL_Ach_1": {
+      "translations": {
+        "brazilian": {
+          "name": "Recuperação de ativo",
+          "description": "Complete Casa-forte em qualquer dificuldade"
+        },
+        "czech": {
+          "name": "Získání majetku",
+          "description": "Dokončete úkryt na jakoukoli obtížnost."
+        },
+        "danish": {
+          "name": "Ressourceindsamling",
+          "description": "Gennemfør Skjulested på en vilkårlig sværhedsgrad"
+        },
+        "dutch": {
+          "name": "De buit is binnen",
+          "description": "Voltooi 'Schuilplaats' op een willekeurig niveau."
+        },
+        "english": {
+          "name": "Asset Retrieval",
+          "description": "Complete Safehouse on any difficulty"
+        },
+        "french": {
+          "name": "Récupération",
+          "description": "Terminer la Planque à n'importe quel niveau de difficulté"
+        },
+        "german": {
+          "name": "Vorteilsbeschaffung",
+          "description": "Versteck auf einem beliebigen Schwierigkeitsgrad abschließen"
+        },
+        "hungarian": {
+          "name": "Utánpótlás gyűjtés",
+          "description": "Teljesítsd a Menedékházat bármely nehézségi fokozaton"
+        },
+        "italian": {
+          "name": "Salvataggio",
+          "description": "Completa la missione Rifugio a qualunque difficoltà"
+        },
+        "japanese": {
+          "name": "アセット入手",
+          "description": "任意の難易度で、セーフハウスを完了する"
+        },
+        "koreana": {
+          "name": "인재 회수",
+          "description": "난이도 관계없이 은신처 미션 완료하기"
+        },
+        "norwegian": {
+          "name": "Innhenting",
+          "description": "Fullfør Skjulestedet på hvilken som helst vanskelighetsgrad"
+        },
+        "polish": {
+          "name": "Zabezpieczenie Aktywów",
+          "description": "Ukończ misję Kryjówka na dowolnym poziomie trudności"
+        },
+        "portuguese": {
+          "name": "Recuperação de ativo",
+          "description": "Complete Casa-forte em qualquer dificuldade"
+        },
+        "russian": {
+          "name": "Ценный кадр",
+          "description": "Выполнить задание \"Убежище\" на любой сложности"
+        },
+        "schinese": {
+          "name": "取回资产",
+          "description": "以任意难度完成安全屋"
+        },
+        "spanish": {
+          "name": "Una recogida importante",
+          "description": "Completar la misión del Piso franco en cualquier dificultad"
+        },
+        "swedish": {
+          "name": "Upphämtning",
+          "description": "Klara av uppdraget Gömstället på valfri svårighetsgrad"
+        },
+        "tchinese": {
+          "name": "取回資產",
+          "description": "以任意難度完成安全屋"
+        }
+      }
+    },
+    "SCBL_Ach_2": {
+      "translations": {
+        "brazilian": {
+          "name": "Fuga da emboscada",
+          "description": "Complete Fortificação rebelde em qualquer dificuldade"
+        },
+        "czech": {
+          "name": "Útěk během přepadení",
+          "description": "Dokončete pevnost povstalců na jakoukoli obtížnost."
+        },
+        "danish": {
+          "name": "Undslap baghold",
+          "description": "Gennemfør Oprørsbase på en vilkårlig sværhedsgrad"
+        },
+        "dutch": {
+          "name": "Ontsnapt aan een hinderlaag",
+          "description": "Voltooi 'Rebellenvesting' op een willekeurig niveau."
+        },
+        "english": {
+          "name": "Ambush Escaped",
+          "description": "Complete Insurgent Stronghold on any difficulty"
+        },
+        "french": {
+          "name": "Embuscade surmontée",
+          "description": "Terminer la Forteresse des insurgés à n'importe quel niveau de difficulté"
+        },
+        "german": {
+          "name": "Hinterhalt entkommen",
+          "description": "Stützpunkt der Rebellen auf einem beliebigen Schwierigkeitsgrad abschließen"
+        },
+        "hungarian": {
+          "name": "Meglépett a rajtaütésből",
+          "description": "Teljesítsd a Lázadó erődítményt bármely nehézségi fokozaton"
+        },
+        "italian": {
+          "name": "Fuga dall'imboscata",
+          "description": "Completa la missione Base ribelle a qualunque difficoltà"
+        },
+        "japanese": {
+          "name": "待ち伏せ回避",
+          "description": "任意の難易度で、反乱軍拠点を完了する"
+        },
+        "koreana": {
+          "name": "매복에서 탈출",
+          "description": "난이도 관계없이 반란군 요새 미션 완료하기"
+        },
+        "norwegian": {
+          "name": "Unnsluppet bakhold",
+          "description": "Fullfør Opprørerfestningen på hvilken som helst vanskelighetsgrad"
+        },
+        "polish": {
+          "name": "Zasadzka!",
+          "description": "Ukończ misję Twierdza Partyzantów na dowolnym poziomie trudności"
+        },
+        "portuguese": {
+          "name": "Fuga da emboscada",
+          "description": "Complete Fortificação rebelde em qualquer dificuldade"
+        },
+        "russian": {
+          "name": "В обход засады",
+          "description": "Выполнить задание \"База боевиков\" на любой сложности"
+        },
+        "schinese": {
+          "name": "逃脱伏击",
+          "description": "以任意难度完成叛乱分子堡垒"
+        },
+        "spanish": {
+          "name": "Huida de la embajada",
+          "description": "Completar la misión de la Fortaleza insurgente en cualquier dificultad"
+        },
+        "swedish": {
+          "name": "Undkom bakhållet",
+          "description": "Klara av uppdraget Upprorsfästet på valfri svårighetsgrad"
+        },
+        "tchinese": {
+          "name": "逃脫伏擊",
+          "description": "以任意難度完成叛亂份子堡壘"
+        }
+      }
+    },
+    "SCBL_Ach_3": {
+      "translations": {
+        "brazilian": {
+          "name": "Consumo Americano impedido",
+          "description": "Complete Consumo Americano em qualquer dificuldade"
+        },
+        "czech": {
+          "name": "Zabránění americké spotřebě",
+          "description": "Dokončete americkou spotřebu na jakoukoli obtížnost."
+        },
+        "danish": {
+          "name": "American Consumption forhindret",
+          "description": "Gennemfør American Consumption på en vilkårlig sværhedsgrad"
+        },
+        "dutch": {
+          "name": "American Consumption voorkomen",
+          "description": "Voltooi 'American Consumption' op een willekeurig niveau."
+        },
+        "english": {
+          "name": "American Consumption Prevented",
+          "description": "Complete American Consumption on any difficulty"
+        },
+        "french": {
+          "name": "American Consumption stoppée",
+          "description": "Terminer American Consumption à n'importe quel niveau de difficulté"
+        },
+        "german": {
+          "name": "Amerikas Konsum verhindert",
+          "description": "Amerikas Konsum auf einem beliebigen Schwierigkeitsgrad abschließen"
+        },
+        "hungarian": {
+          "name": "Amerikai fogyasztás leállítva",
+          "description": "Teljesítsd az Amerikai fogyasztást bármely nehézségi fokozaton"
+        },
+        "italian": {
+          "name": "Consumi americani",
+          "description": "Completa la missione Consumi americani a qualunque difficoltà"
+        },
+        "japanese": {
+          "name": "アメリカンコンサンプション阻止",
+          "description": "任意の難易度で、アメリカンコンサンプションを完了する"
+        },
+        "koreana": {
+          "name": "미국의 소비 근절",
+          "description": "난이도 관계없이 미국의 소비 미션 완료하기"
+        },
+        "norwegian": {
+          "name": "American Consumption forhindret",
+          "description": "Fullfør American Consumption på hvilken som helst vanskelighetsgrad"
+        },
+        "polish": {
+          "name": "Amerykańska Konsumpcja",
+          "description": "Ukończ Amerykańską Konsumpcję na dowolnym poziomie trudności"
+        },
+        "portuguese": {
+          "name": "Consumo Americano impedido",
+          "description": "Complete Consumo Americano em qualquer dificuldade"
+        },
+        "russian": {
+          "name": "Живая вода",
+          "description": "Выполнить задание \"Американская жизнь\" на любой сложности"
+        },
+        "schinese": {
+          "name": "阻止美国消费",
+          "description": "以任意难度完成美国消费"
+        },
+        "spanish": {
+          "name": "Consumo Americano, evitado",
+          "description": "Completar la misión de Consumo Americano en cualquier dificultad."
+        },
+        "swedish": {
+          "name": "Amerikansk förbrukning stoppad",
+          "description": "Klara av uppdraget Amerikansk förbrukning på valfri svårighetsgrad"
+        },
+        "tchinese": {
+          "name": "阻止美國消費",
+          "description": "以任意難度完成美國消費"
+        }
+      }
+    },
+    "SCBL_Ach_4": {
+      "translations": {
+        "brazilian": {
+          "name": "Conversão do agente terrorista",
+          "description": "Complete Propriedade privada em qualquer dificuldade"
+        },
+        "czech": {
+          "name": "Otočení teroristického faktoru",
+          "description": "Dokončete soukromý pozemek na jakoukoli obtížnost."
+        },
+        "danish": {
+          "name": "Terroristfaktor vendt",
+          "description": "Gennemfør Privat ejendom på en vilkårlig sværhedsgrad"
+        },
+        "dutch": {
+          "name": "Een klap voor het terrorisme",
+          "description": "Voltooi 'Privélandgoed' op een willekeurig niveau."
+        },
+        "english": {
+          "name": "Terrorist Factor Turned",
+          "description": "Complete Private Estate on any difficulty"
+        },
+        "french": {
+          "name": "Nouri",
+          "description": "Terminer la Propriété privée à n'importe quel niveau de difficulté"
+        },
+        "german": {
+          "name": "Terroristenfaktor umgewandelt",
+          "description": "Privates Anwesen auf einem beliebigen Schwierigkeitsgrad abschließen"
+        },
+        "hungarian": {
+          "name": "Terroristafaktor átállítva",
+          "description": "Teljesítsd a Magánbirtokot bármely nehézségi szinten"
+        },
+        "italian": {
+          "name": "Villa del terrore",
+          "description": "Completa la missione Villa privata a qualunque difficoltà"
+        },
+        "japanese": {
+          "name": "テロ資金流用",
+          "description": "任意の難易度で、私邸を完了する"
+        },
+        "koreana": {
+          "name": "테러 요인의 투항",
+          "description": "난이도 관계없이 사유지 미션 완료하기"
+        },
+        "norwegian": {
+          "name": "Terroristfaktor snudd",
+          "description": "Fullfør Privat eiendom på hvilken som helst vanskelighetsgrad"
+        },
+        "polish": {
+          "name": "Czynnik Terroru",
+          "description": "Ukończ misję Prywatna Posiadłość na dowolnym poziomie trudności"
+        },
+        "portuguese": {
+          "name": "Conversão do agente terrorista",
+          "description": "Complete Propriedade privada em qualquer dificuldade"
+        },
+        "russian": {
+          "name": "\"Обработка\" посредника",
+          "description": "Выполнить задание \"Частное поместье\" на любой сложности"
+        },
+        "schinese": {
+          "name": "恐怖分子情势逆转",
+          "description": "以任意难度完成私人庄园"
+        },
+        "spanish": {
+          "name": "Terroristas sin apoyo",
+          "description": "Completar la misión de la Propiedad privada en cualquier dificultad"
+        },
+        "swedish": {
+          "name": "Kontraterrorism",
+          "description": "Klara av uppdraget Privata herrgården på valfri svårighetsgrad"
+        },
+        "tchinese": {
+          "name": "恐怖分子情勢逆轉",
+          "description": "以任意難度完成私人莊園"
+        }
+      }
+    },
+    "SCBL_Ach_5": {
+      "translations": {
+        "brazilian": {
+          "name": "Rastreador no lugar",
+          "description": "Complete Moinho abandonado em qualquer dificuldade"
+        },
+        "czech": {
+          "name": "Umístění slídiče",
+          "description": "Dokončete opuštěnou továrnu na jakoukoli obtížnost."
+        },
+        "danish": {
+          "name": "Sporer placeret",
+          "description": "Gennemfør Forladt mølle på en vilkårlig sværhedsgrad"
+        },
+        "dutch": {
+          "name": "Zender geplaatst",
+          "description": "Voltooi 'Verlaten molen' op een willekeurig niveau."
+        },
+        "english": {
+          "name": "Tracker Placed",
+          "description": "Complete Abandoned Mill on any difficulty"
+        },
+        "french": {
+          "name": "Mouchard posé",
+          "description": "Terminer l'Usine désaffectée à n'importe quel niveau de difficulté"
+        },
+        "german": {
+          "name": "Peilsender platziert",
+          "description": "Verlassene Mühle auf einem beliebigen Schwierigkeitsgrad abschließen"
+        },
+        "hungarian": {
+          "name": "Nyomkövető elhelyezve",
+          "description": "Teljesítsd az Elhagyott malmot bármely nehézségi fokozaton"
+        },
+        "italian": {
+          "name": "Tracciante piazzato",
+          "description": "Completa la missione Fabbrica abbandonata a qualunque difficoltà"
+        },
+        "japanese": {
+          "name": "トラッカー配置",
+          "description": "任意の難易度で、廃工場を完了する"
+        },
+        "koreana": {
+          "name": "추적기 설치",
+          "description": "난이도 관계없이 버려진 공장 미션 완료하기"
+        },
+        "norwegian": {
+          "name": "Sporing plassert",
+          "description": "Fullfør Forlatt mølle på hvilken som helst vanskelighetsgrad"
+        },
+        "polish": {
+          "name": "Namierzenie",
+          "description": "Ukończ misję Opuszczony Młyn na dowolnym poziomie trudności"
+        },
+        "portuguese": {
+          "name": "Rastreador no lugar",
+          "description": "Complete Moinho abandonado em qualquer dificuldade"
+        },
+        "russian": {
+          "name": "Установка \"маячка\"",
+          "description": "Выполнить задание \"Брошенный завод\" на любой сложности"
+        },
+        "schinese": {
+          "name": "放置追踪装置",
+          "description": "以任意难度完成废弃工厂"
+        },
+        "spanish": {
+          "name": "Rastreador puesto",
+          "description": "Completar la misión de la Fábrica abandonada en cualquier dificultad."
+        },
+        "swedish": {
+          "name": "Spårare utplacerad",
+          "description": "Klara av uppdraget Övergivna fabriken på valfri svårighetsgrad"
+        },
+        "tchinese": {
+          "name": "放置追蹤裝置",
+          "description": "以任意難度完成廢棄工廠"
+        }
+      }
+    },
+    "SCBL_Ach_6": {
+      "translations": {
+        "brazilian": {
+          "name": "Informação iraniana recuperada",
+          "description": "Complete QG de Missões Especiais em qualquer dificuldade"
+        },
+        "czech": {
+          "name": "Navrácení íránských informací",
+          "description": "Dokončete velitelství speciálních jednotek na jakoukoli obtížnost."
+        },
+        "danish": {
+          "name": "Iranske efterretninger fundet",
+          "description": "Gennemfør Specialmissioner-hovedkvarter på en vilkårlig sværhedsgrad"
+        },
+        "dutch": {
+          "name": "Iraanse inlichtingen bemachtigd",
+          "description": "Voltooi 'Hoofdkwartier Speciale Missies' op een willekeurig niveau."
+        },
+        "english": {
+          "name": "Iranian Intel Retrieved",
+          "description": "Complete Special Missions HQ on any difficulty"
+        },
+        "french": {
+          "name": "Infos iraniennes récupérées",
+          "description": "Terminer le Q.G. missions spéciales à n'importe quel niveau de difficulté"
+        },
+        "german": {
+          "name": "Iranische Daten beschafft",
+          "description": "Spezialmissionen-HQ auf einem beliebigen Schwierigkeitsgrad abschließen"
+        },
+        "hungarian": {
+          "name": "Iráni infó megszerezve",
+          "description": "Teljesítsd a Különleges műveleti központot bármely nehézségi fokozaton"
+        },
+        "italian": {
+          "name": "Dati iraniani ottenuti",
+          "description": "Completa QG Missioni speciali a qualunque difficoltà"
+        },
+        "japanese": {
+          "name": "イランの情報を回収",
+          "description": "任意の難易度で、特殊作戦本部を完了する"
+        },
+        "koreana": {
+          "name": "이란군 정보 회수",
+          "description": "난이도 관계없이 특수 임무 본부 미션 완료하기"
+        },
+        "norwegian": {
+          "name": "Iransk informasjon hentet",
+          "description": "Fullfør spesialoppdrag-hovedkvarteret på hvilken som helst vanskelighetsgrad"
+        },
+        "polish": {
+          "name": "Irański Wywiad",
+          "description": "Ukończ HQ Wydziału Specjalnego na dowolnym poziomie trudności"
+        },
+        "portuguese": {
+          "name": "Informação iraniana recuperada",
+          "description": "Complete QG de Missões Especiais em qualquer dificuldade"
+        },
+        "russian": {
+          "name": "Захват информации у иранцев",
+          "description": "Выполнить задание \"Штаб спецопераций\" на любой сложности"
+        },
+        "schinese": {
+          "name": "取回伊朗情报",
+          "description": "以任意难度完成特战总部"
+        },
+        "spanish": {
+          "name": "Información sobre Irán",
+          "description": "Completar el Cuartel general de misiones especiales en cualquier dificultad."
+        },
+        "swedish": {
+          "name": "Iransk information hämtad",
+          "description": "Klara av uppdraget Specialstyrkornas hk på valfri svårighetsgrad"
+        },
+        "tchinese": {
+          "name": "取回伊朗情報",
+          "description": "以任意難度完成特戰總部"
+        }
+      }
+    },
+    "SCBL_Ach_7": {
+      "translations": {
+        "brazilian": {
+          "name": "Liberdade Americana impedida",
+          "description": "Complete Pátio Ferroviário em qualquer dificuldade"
+        },
+        "czech": {
+          "name": "Odvrácení americké svobody",
+          "description": "Dokončete dopravní stanici na jakoukoli obtížnost."
+        },
+        "danish": {
+          "name": "American Freedom forhindret",
+          "description": "Gennemfør Transportplads på en vilkårlig sværhedsgrad"
+        },
+        "dutch": {
+          "name": "American Freedom voorkomen",
+          "description": "Voltooi 'Rangeerterreinen' op een willekeurig niveau."
+        },
+        "english": {
+          "name": "American Freedom Averted",
+          "description": "Complete Transit Yards on any difficulty"
+        },
+        "french": {
+          "name": "American Freedom stoppée",
+          "description": "Terminer le Dépôt ferroviaire à n'importe quel niveau de difficulté"
+        },
+        "german": {
+          "name": "Amerikanische Freiheit verhindert",
+          "description": "Verkehrshof auf einem beliebigen Schwierigkeitsgrad abschließen"
+        },
+        "hungarian": {
+          "name": "Amerikai szabadság elhárítva",
+          "description": "Teljesítsd a Rendezőpályaudvart bármely nehézségi fokozaton"
+        },
+        "italian": {
+          "name": "Libertà americana",
+          "description": "Completa Rimessa treni a qualunque difficoltà"
+        },
+        "japanese": {
+          "name": "アメリカンフリーダム回避",
+          "description": "任意の難易度で、車両基地を完了する"
+        },
+        "koreana": {
+          "name": "미국의 자유 방해",
+          "description": "난이도 관계없이 환승장 미션 완료하기"
+        },
+        "norwegian": {
+          "name": "American Freedom unngått",
+          "description": "Fullfør T-baneanlegget på hvilken som helst vanskelighetsgrad"
+        },
+        "polish": {
+          "name": "Amerykańska Wolność",
+          "description": "Ukończ misję Transport na dowolnym poziomie trudności"
+        },
+        "portuguese": {
+          "name": "Liberdade Americana impedida",
+          "description": "Complete Pátio Ferroviário em qualquer dificuldade"
+        },
+        "russian": {
+          "name": "Свежий воздух",
+          "description": "Выполнить задание \"Метродепо\" на любой сложности"
+        },
+        "schinese": {
+          "name": "避免美国自由",
+          "description": "以任意难度完成调车场"
+        },
+        "spanish": {
+          "name": "Libertad Americana, impedido",
+          "description": "Completar la misión de las Cocheras del tren en cualquier dificultad."
+        },
+        "swedish": {
+          "name": "Amerikansk frihet avstyrd",
+          "description": "Klara av uppdraget Bangården på valfri svårighetsgrad"
+        },
+        "tchinese": {
+          "name": "避免美國自由",
+          "description": "以任意難度完成調車場"
+        }
+      }
+    },
+    "SCBL_Ach_8": {
+      "translations": {
+        "brazilian": {
+          "name": "Infiltração/Interrogatório",
+          "description": "Complete Centro de detenção em qualquer dificuldade"
+        },
+        "czech": {
+          "name": "Infiltrace/Výslech",
+          "description": "Dokončete věznici na jakoukoli obtížnost."
+        },
+        "danish": {
+          "name": "Infiltration/Forhør",
+          "description": "Gennemfør Fængselsanlæg på en vilkårlig sværhedsgrad"
+        },
+        "dutch": {
+          "name": "Infiltreren en ondervragen",
+          "description": "Voltooi 'Gevangenis' op een willekeurig niveau."
+        },
+        "english": {
+          "name": "Infiltration/Interrogation",
+          "description": "Complete Detention Facility on any difficulty"
+        },
+        "french": {
+          "name": "Infiltration/Interrogatoire",
+          "description": "Terminer le Centre de détention à n'importe quel niveau de difficulté"
+        },
+        "german": {
+          "name": "Infiltrierung/Befragung",
+          "description": "Gefangenenlager auf einem beliebigen Schwierigkeitsgrad abschließen"
+        },
+        "hungarian": {
+          "name": "Beszivárgás/Kihallgatás",
+          "description": "Teljesítsd a Börtönt bármely nehézségi fokozaton"
+        },
+        "italian": {
+          "name": "Infiltrazione/Interrogatorio",
+          "description": "Completa la missione Struttura di detenzione a qualunque difficoltà"
+        },
+        "japanese": {
+          "name": "侵入/拷問",
+          "description": "任意の難易度で、収容所を完了する"
+        },
+        "koreana": {
+          "name": "잠입/심문",
+          "description": "난이도 관계없이 수용시설 미션 완료하기"
+        },
+        "norwegian": {
+          "name": "Infiltrering/Forhør",
+          "description": "Fullfør Forhørsanlegg på hvilken som helst vanskelighetsgrad"
+        },
+        "polish": {
+          "name": "Infiltracja/Przesłuchanie",
+          "description": "Ukończ Ośrodek Więzienny na dowolnym poziomie trudności"
+        },
+        "portuguese": {
+          "name": "Infiltração/Interrogatório",
+          "description": "Complete Centro de detenção em qualquer dificuldade"
+        },
+        "russian": {
+          "name": "Проникновение/допрос",
+          "description": "Выполнить задание \"Военная тюрьма\" на любой сложности"
+        },
+        "schinese": {
+          "name": "渗透/审问",
+          "description": "以任意难度完成拘留所"
+        },
+        "spanish": {
+          "name": "Infiltración e interrogatorio",
+          "description": "Completar la misión del Centro de detención en cualquier dificultad."
+        },
+        "swedish": {
+          "name": "Infiltrera och förhör",
+          "description": "Klara av uppdraget Fånglägret på valfri svårighetsgrad"
+        },
+        "tchinese": {
+          "name": "滲透/審問",
+          "description": "以任意難度完成拘留所"
+        }
+      }
+    },
+    "SCBL_Ach_9": {
+      "translations": {
+        "brazilian": {
+          "name": "Paladin restaurado",
+          "description": "Escapar do ataque ao Paladin"
+        },
+        "czech": {
+          "name": "Obnovení Paladina",
+          "description": "Přežijte útok na Paladina."
+        },
+        "danish": {
+          "name": "Paladin reddet",
+          "description": "Overlev angrebet på Paladin"
+        },
+        "dutch": {
+          "name": "Paladin naar de garage",
+          "description": "Overleef de aanval op de Paladin."
+        },
+        "english": {
+          "name": "Paladin Restored",
+          "description": "Survive the attack on Paladin"
+        },
+        "french": {
+          "name": "Paladin sauvé",
+          "description": "Survivre à l'attaque du Paladin"
+        },
+        "german": {
+          "name": "Paladin wiederhergestellt",
+          "description": "Angriff auf Paladin überleben"
+        },
+        "hungarian": {
+          "name": "Paladin helyreállítva",
+          "description": "Éld túl a Paladin elleni támadást"
+        },
+        "italian": {
+          "name": "Paladin operativo",
+          "description": "Sopravvivi all'attacco al Paladin"
+        },
+        "japanese": {
+          "name": "パラディン修復完了",
+          "description": "パラディンへの攻撃に耐える"
+        },
+        "koreana": {
+          "name": "팔라딘 복구",
+          "description": "팔라딘 공격에서 살아남기"
+        },
+        "norwegian": {
+          "name": "Paladin fikset",
+          "description": "Overlev angrepet på Paladin"
+        },
+        "polish": {
+          "name": "Moc Paladyna",
+          "description": "Przeżyj atak na Paladyna"
+        },
+        "portuguese": {
+          "name": "Paladin restaurado",
+          "description": "Escapar do ataque ao Paladin"
+        },
+        "russian": {
+          "name": "Оборона \"Паладина\"",
+          "description": "Отбить атаку на \"Паладин\""
+        },
+        "schinese": {
+          "name": "救回帕拉丁",
+          "description": "从帕拉丁攻击中存活"
+        },
+        "spanish": {
+          "name": "Paladín recuperado",
+          "description": "Sobrevivir al ataque contra el Paladín."
+        },
+        "swedish": {
+          "name": "Paladin har återställts",
+          "description": "Överlev attentatet mot Paladin"
+        },
+        "tchinese": {
+          "name": "救回帕拉丁",
+          "description": "從帕拉丁攻擊中存活"
+        }
+      }
+    },
+    "SCBL_Ach_10": {
+      "translations": {
+        "brazilian": {
+          "name": "Combustível Americano ativado",
+          "description": "Complete Terminal de GNL em qualquer dificuldade"
+        },
+        "czech": {
+          "name": "Americké palivo",
+          "description": "Dokončete plynový terminál na jakoukoli obtížnost."
+        },
+        "danish": {
+          "name": "American Fuel startet",
+          "description": "Gennemfør LNG-terminal på en vilkårlig sværhedsgrad"
+        },
+        "dutch": {
+          "name": "American Fuel bestreden",
+          "description": "Voltooi 'Aardgasfabriek' op een willekeurig niveau."
+        },
+        "english": {
+          "name": "American Fuel Engaged",
+          "description": "Complete LNG Terminal on any difficulty"
+        },
+        "french": {
+          "name": "American Fuel",
+          "description": "Terminer le Terminal méthanier à n'importe quel niveau de difficulté"
+        },
+        "german": {
+          "name": "Amerikas Benzin angegriffen",
+          "description": "Flüssiggas-Terminal auf einem beliebigen Schwierigkeitsgrad abschließen"
+        },
+        "hungarian": {
+          "name": "Amerikai üzemanyag elindítva",
+          "description": "Teljesítsd a Gázterminált bármely nehézségi fokozaton"
+        },
+        "italian": {
+          "name": "Benzina americana",
+          "description": "Completa la missione Impianto gas a qualunque difficoltà"
+        },
+        "japanese": {
+          "name": "アメリカンフューエル交戦",
+          "description": "任意の難易度で、LNGターミナルを完了する"
+        },
+        "koreana": {
+          "name": "미국의 연료 교전",
+          "description": "난이도 관계없이 LNG 터미널 미션 완료하기"
+        },
+        "norwegian": {
+          "name": "American Fuel iverksatt",
+          "description": "Fullfør Naturgassterminalen på hvilken som helst vanskelighetsgrad"
+        },
+        "polish": {
+          "name": "Amerykańskie Paliwo",
+          "description": "Ukończ misję Terminal Gazowy na dowolnym poziomie trudności"
+        },
+        "portuguese": {
+          "name": "Combustível Americano ativado",
+          "description": "Complete Terminal de GNL em qualquer dificuldade"
+        },
+        "russian": {
+          "name": "Бой за \"Американский огонь\"",
+          "description": "Выполнить задание \"Газовый терминал\" на любой сложности"
+        },
+        "schinese": {
+          "name": "美国油罐交手",
+          "description": "以任意难度完成液化天然气工厂"
+        },
+        "spanish": {
+          "name": "Combustible Americano en marcha",
+          "description": "Completar la misión de la Planta de gas natural en cualquier dificultad."
+        },
+        "swedish": {
+          "name": "Amerikanskt bränsle har inletts",
+          "description": "Klara av uppdraget LNG-terminalen på valfri svårighetsgrad"
+        },
+        "tchinese": {
+          "name": "美國油罐交手",
+          "description": "以任意難度完成液化天然氣工廠"
+        }
+      }
+    },
+    "SCBL_Ach_11": {
+      "translations": {
+        "brazilian": {
+          "name": "Status do Fourth Echelon confirmado",
+          "description": "Complete a campanha para Um jogador"
+        },
+        "czech": {
+          "name": "Stav 4. Echelonu potvrzen",
+          "description": "Dokončete kampaň pro jednoho hráče."
+        },
+        "danish": {
+          "name": "4th Echelon-status bekræftet",
+          "description": "Gennemfør singleplayer-kampagnen"
+        },
+        "dutch": {
+          "name": "4th Echelon-status",
+          "description": "Voltooi de singleplayer."
+        },
+        "english": {
+          "name": "4th Echelon Status Confirmed",
+          "description": "Complete the single player campaign"
+        },
+        "french": {
+          "name": "Statut Échelon 4 confirmé",
+          "description": "Terminer la campagne Solo"
+        },
+        "german": {
+          "name": "Status 4th Echelon bestätigt",
+          "description": "Einzelspielerkampagne abschließen"
+        },
+        "hungarian": {
+          "name": "4. Hadoszlop státusz megerősítve",
+          "description": "Teljesítsd az egyszemélyes módú hadjáratot"
+        },
+        "italian": {
+          "name": "Stato 4th Echelon confermato",
+          "description": "Completa la campagna per giocatore singolo"
+        },
+        "japanese": {
+          "name": "フォースエシュロンステータス決定",
+          "description": "シングルプレイキャンペーンを完了する"
+        },
+        "koreana": {
+          "name": "포스 에셜론 상태 확인",
+          "description": "싱글 플레이 캠페인 완료하기"
+        },
+        "norwegian": {
+          "name": "4th Echelon-status bekreftet",
+          "description": "Fullfør historiespillet for én spiller"
+        },
+        "polish": {
+          "name": "Czwarty Eszelon",
+          "description": "Ukończ kampanię dla pojedynczego gracza"
+        },
+        "portuguese": {
+          "name": "Status do Fourth Echelon confirmado",
+          "description": "Complete a campanha para Um jogador"
+        },
+        "russian": {
+          "name": "Боец \"4 эшелона\"",
+          "description": "Пройти одиночную кампанию"
+        },
+        "schinese": {
+          "name": "第四梯队状态确认",
+          "description": "完成单人游戏战役"
+        },
+        "spanish": {
+          "name": "Confirmación de 4th Echelon",
+          "description": "Completar la campaña de un jugador."
+        },
+        "swedish": {
+          "name": "4th Echelon-status bekräftad",
+          "description": "Klara av enspelarkampanjen"
+        },
+        "tchinese": {
+          "name": "第四梯隊狀態確認",
+          "description": "完成單人遊戲戰役"
+        }
+      }
+    },
+    "SCBL_Ach_12": {
+      "translations": {
+        "brazilian": {
+          "name": "Louvor do Fourth Echelon",
+          "description": "Complete todas as missões para Um jogador na dificuldade Realista"
+        },
+        "czech": {
+          "name": "Pochvala 4. Echelonu",
+          "description": "Dokončete všechny mise pro jednoho hráče na obtížnost realistická."
+        },
+        "danish": {
+          "name": "4th Echelon-udmærkelse",
+          "description": "Gennemfør alle singleplayer-missioner på sværhedsgraden Realistisk"
+        },
+        "dutch": {
+          "name": "4th Echelon-aanbeveling",
+          "description": "Voltooi elke solomissie op het niveau Realist."
+        },
+        "english": {
+          "name": "4th Echelon Commendation",
+          "description": "Complete every single player mission on Realistic difficulty"
+        },
+        "french": {
+          "name": "Recommandation Échelon 4",
+          "description": "Terminer toutes les missions Solo en difficulté Réaliste"
+        },
+        "german": {
+          "name": "4th Echelon-Belobigung",
+          "description": "Jede Einzelspielermission mit der Schwierigkeit Realistisch abschließen"
+        },
+        "hungarian": {
+          "name": "4. Hadoszlop felterjesztés",
+          "description": "Teljesíts minden egyszemélyes küldetést Valósághű nehézségen"
+        },
+        "italian": {
+          "name": "Onorificenza 4th Echelon",
+          "description": "Completa tutte le missioni in singolo a livello Realistico"
+        },
+        "japanese": {
+          "name": "フォースエシュロン推薦",
+          "description": "難易度リアルで、シングルプレイのミッションをすべて完了する"
+        },
+        "koreana": {
+          "name": "포스 에셜론 표창장",
+          "description": "모든 싱글 플레이 임무를 현실적 난이도에서 완료하기"
+        },
+        "norwegian": {
+          "name": "4th Echelon-anbefaling",
+          "description": "Fullfør alle enspilleroppdragene på vanskelighetsgraden Realistisk"
+        },
+        "polish": {
+          "name": "Czwarty Eszelon, Wyróżnienie",
+          "description": "Ukończ wszystkie misje kampanii dla pojedynczego gracza na poziomie trudności Realistyczny"
+        },
+        "portuguese": {
+          "name": "Louvor do Fourth Echelon",
+          "description": "Complete todas as missões para Um jogador na dificuldade Realista"
+        },
+        "russian": {
+          "name": "Благодарность \"4 эшелона\"",
+          "description": "Выполнить все задания одиночной кампании на уровне сложности \"Офицер\""
+        },
+        "schinese": {
+          "name": "第四梯队奖励",
+          "description": "以\"真实\"难度完成所有单人游戏任务"
+        },
+        "spanish": {
+          "name": "Recomendación de 4th Echelon",
+          "description": "Completar todas las misiones de un jugador en dificultad realista."
+        },
+        "swedish": {
+          "name": "4th Echelon-utmärkelse",
+          "description": "Klara av alla enspelaruppdrag på svårighetsgraden Realistiskt"
+        },
+        "tchinese": {
+          "name": "第四梯隊獎勵",
+          "description": "以\"真實\"難度完成所有單人遊戲任務"
+        }
+      }
+    },
+    "SCBL_Ach_13": {
+      "translations": {
+        "brazilian": {
+          "name": "Oficial do Fourth Echelon",
+          "description": "Complete cada missão para um jogador na dificuldade Perfeccionista"
+        },
+        "czech": {
+          "name": "Agent 4. Echelonu",
+          "description": "Dokončete všechny mise pro jednoho hráče na obtížnost perfekcionista."
+        },
+        "danish": {
+          "name": "4th Echelon-officer",
+          "description": "Gennemfør alle singleplayer-missioner på sværhedsgraden Perfektionist"
+        },
+        "dutch": {
+          "name": "4th Echelon-officier",
+          "description": "Voltooi elke solomissie op het niveau Perfectionist."
+        },
+        "english": {
+          "name": "4th Echelon Officer",
+          "description": "Complete every single player mission on Perfectionist difficulty"
+        },
+        "french": {
+          "name": "Officier Échelon 4",
+          "description": "Terminer toutes les missions Solo en difficulté Perfectionniste"
+        },
+        "german": {
+          "name": "4th Echelon-Offizier",
+          "description": "Jede Einzelspielermission mit der Schwierigkeit Perfektionist abschließen"
+        },
+        "hungarian": {
+          "name": "4. Hadoszlop tiszt",
+          "description": "Teljesíts minden egyszemélyes küldetést Tökélyhajhász nehézségi fokozaton"
+        },
+        "italian": {
+          "name": "Agente 4th Echelon",
+          "description": "Completa tutte le missioni in singolo a livello Perfezionista"
+        },
+        "japanese": {
+          "name": "フォースエシュロン隊員",
+          "description": "難易度パーフェクトで、シングルプレイのミッションをすべて完了する"
+        },
+        "koreana": {
+          "name": "포스 에셜론 장교",
+          "description": "모든 싱글 플레이 임무를 완벽주의자 난이도에서 완료하기"
+        },
+        "norwegian": {
+          "name": "4th Echelon-offiser",
+          "description": "Fullfør alle enspilleroppdragene på vanskelighetsgraden Perfeksjonist"
+        },
+        "polish": {
+          "name": "Czwarty Eszelon, Oficer",
+          "description": "Ukończ wszystkie misje kampanii dla pojedynczego gracza na poziomie trudności Perfekcjonista"
+        },
+        "portuguese": {
+          "name": "Oficial do Fourth Echelon",
+          "description": "Complete cada missão para um jogador na dificuldade Perfeccionista"
+        },
+        "russian": {
+          "name": "Ветеран \"4 эшелона\"",
+          "description": "Выполнить все задания одиночной кампании на уровне сложности \"Ветеран\""
+        },
+        "schinese": {
+          "name": "第四梯队军官",
+          "description": "以\"完美\"难度完成所有单人游戏任务"
+        },
+        "spanish": {
+          "name": "Oficial de 4th Echelon",
+          "description": "Completar todas las misiones de un jugador en dificultad perfeccionista."
+        },
+        "swedish": {
+          "name": "4th Echelon-befäl",
+          "description": "Klara av alla enspelaruppdrag på svårighetsgraden Perfektionist"
+        },
+        "tchinese": {
+          "name": "第四梯隊軍官",
+          "description": "以\"完美\"難度完成所有單人遊戲任務"
+        }
+      }
+    },
+    "SCBL_Ach_18": {
+      "translations": {
+        "brazilian": {
+          "name": "C&C otimizado",
+          "description": "Faça todas as melhorias no seu quartel-general"
+        },
+        "czech": {
+          "name": "Optimalizace velína",
+          "description": "Kompletně vylepšete své velitelství."
+        },
+        "danish": {
+          "name": "Kommandocentral optimeret",
+          "description": "Opgradér dit hovedkvarter fuldt ud"
+        },
+        "dutch": {
+          "name": "Helemaal af",
+          "description": "Verbeter je hoofdkwartier volledig."
+        },
+        "english": {
+          "name": "C&C Optimized",
+          "description": "Fully upgrade your headquarters"
+        },
+        "french": {
+          "name": "Q.G. optimisé",
+          "description": "Améliorer au maximum votre Q.G."
+        },
+        "german": {
+          "name": "C&C-optimiert",
+          "description": "Hauptquartier vollständig upgraden"
+        },
+        "hungarian": {
+          "name": "Vezérlő optimalizálva",
+          "description": "Fejleszd fel teljesen főhadiszállásodat"
+        },
+        "italian": {
+          "name": "Centro di comando ottimizzato",
+          "description": "Potenzia al massimo il quartier generale"
+        },
+        "japanese": {
+          "name": "C&C最適化",
+          "description": "本部を限界までアップグレードする"
+        },
+        "koreana": {
+          "name": "작전사령실 최적화",
+          "description": "본부를 완전히 업그레이드하기"
+        },
+        "norwegian": {
+          "name": "Optimalisert kommandosentral",
+          "description": "Oppgrader hovedkvarteret fullstendig"
+        },
+        "polish": {
+          "name": "Optymalizacja Parametrów",
+          "description": "Ulepsz w całości swój sztab"
+        },
+        "portuguese": {
+          "name": "C&C otimizado",
+          "description": "Faça todas as melhorias no seu quartel-general"
+        },
+        "russian": {
+          "name": "Идеальный штаб",
+          "description": "Полностью улучшить \"Паладин\""
+        },
+        "schinese": {
+          "name": "\"指挥&控制\"最佳化",
+          "description": "完整升级你的总部"
+        },
+        "spanish": {
+          "name": "Centro de mando mejorado",
+          "description": "Mejorar al máximo tu cuartel general."
+        },
+        "swedish": {
+          "name": "Optimala förutsättningar",
+          "description": "Skaffa alla uppgraderingar till högkvarteret"
+        },
+        "tchinese": {
+          "name": "\"指揮&控制\"最佳化",
+          "description": "完整升級你的總部"
+        }
+      }
+    },
+    "SCBL_Ach_19": {
+      "translations": {
+        "brazilian": {
+          "name": "Estilo tático: Fantasma",
+          "description": "Domine o estilo de jogo Fantasma em 7 missões"
+        },
+        "czech": {
+          "name": "Taktický styl: Duch",
+          "description": "Ovládněte herní styl ducha v 7 misích."
+        },
+        "danish": {
+          "name": "Taktisk stil: Spøgelse",
+          "description": "Bliv mester i Spøgelse-spillestilen på syv missioner"
+        },
+        "dutch": {
+          "name": "Tactische stijl: geest",
+          "description": "Hanteer de speelstijl 'geest' in 7 missies."
+        },
+        "english": {
+          "name": "Tactical Style: Ghost",
+          "description": "Master Ghost playstyle on 7 missions"
+        },
+        "french": {
+          "name": "Style tactique : Fantôme",
+          "description": "Maîtriser le style de jeu Fantôme dans 7 missions"
+        },
+        "german": {
+          "name": "Taktikstil: Ghost",
+          "description": "In 7 Missionen Ghost-Spielstil meistern"
+        },
+        "hungarian": {
+          "name": "Taktika stílusa: Fantom",
+          "description": "Légy a Fantom játékstílus mestere 7 küldetésben"
+        },
+        "italian": {
+          "name": "Stile tattico: fantasma",
+          "description": "Domina lo stile fantasma in 7 missioni"
+        },
+        "japanese": {
+          "name": "戦術スタイル: ゴースト",
+          "description": "プレイスタイル「ゴースト」を7つのミッションでマスターする"
+        },
+        "koreana": {
+          "name": "전술 스타일: 고스트",
+          "description": "7개의 미션에서 고스트 스타일 정복하기"
+        },
+        "norwegian": {
+          "name": "Taktisk stil: spøkelse",
+          "description": "Mestre spøkelsesspillestilen i 7 oppdrag"
+        },
+        "polish": {
+          "name": "Styl Taktyczny: Duch",
+          "description": "Uzyskaj status mistrza stylu Ducha w 7 misjach"
+        },
+        "portuguese": {
+          "name": "Estilo tático: Fantasma",
+          "description": "Domine o estilo de jogo Fantasma em 7 missões"
+        },
+        "russian": {
+          "name": "Игровой стиль \"Призрак\"",
+          "description": "Освоить стиль \"Призрак\" в 7 заданиях"
+        },
+        "schinese": {
+          "name": "战术风格: 魅影",
+          "description": "在七个任务中精通魅影玩家风格"
+        },
+        "spanish": {
+          "name": "Estilo táctico: Fantasma",
+          "description": "Dominar el estilo de juego Fantasma en las siete misiones."
+        },
+        "swedish": {
+          "name": "Taktisk stil: Spöke",
+          "description": "Bemästra spökstilen på 7 uppdrag"
+        },
+        "tchinese": {
+          "name": "戰術風格:鬼魂",
+          "description": "在七個任務中精通鬼魂玩家風格"
+        }
+      }
+    },
+    "SCBL_Ach_20": {
+      "translations": {
+        "brazilian": {
+          "name": "Estilo tático: Pantera",
+          "description": "Domine o estilo de jogo Pantera em 7 missões"
+        },
+        "czech": {
+          "name": "Taktický styl: Panter",
+          "description": "Ovládněte herní styl pantera v 7 misích."
+        },
+        "danish": {
+          "name": "Taktisk stil: Panter",
+          "description": "Bliv mester i Panter-spillestilen på syv missioner"
+        },
+        "dutch": {
+          "name": "Tactische stijl: panter",
+          "description": "Hanteer de speelstijl 'panter' in 7 missies."
+        },
+        "english": {
+          "name": "Tactical Style: Panther",
+          "description": "Master Panther playstyle on 7 missions"
+        },
+        "french": {
+          "name": "Style tactique : Panthère",
+          "description": "Maîtriser le style de jeu Panthère dans 7 missions"
+        },
+        "german": {
+          "name": "Taktikstil: Panther",
+          "description": "In 7 Missionen Panther-Spielstil meistern"
+        },
+        "hungarian": {
+          "name": "Taktika stílusa: Párduc",
+          "description": "Légy a Párduc játékstílus mestere 7 küldetésben"
+        },
+        "italian": {
+          "name": "Stile tattico: pantera",
+          "description": "Domina lo stile pantera in 7 missioni"
+        },
+        "japanese": {
+          "name": "戦術スタイル: パンサー",
+          "description": "プレイスタイル「パンサー」を7つのミッションでマスターする"
+        },
+        "koreana": {
+          "name": "전술 스타일: 팬서",
+          "description": "7개의 미션에서 팬서 스타일 정복하기"
+        },
+        "norwegian": {
+          "name": "Taktisk stil: panter",
+          "description": "Mestre panterspillestilen i 7 oppdrag"
+        },
+        "polish": {
+          "name": "Styl Taktyczny: Pantera",
+          "description": "Uzyskaj status mistrza stylu Pantery w 7 misjach"
+        },
+        "portuguese": {
+          "name": "Estilo tático: Pantera",
+          "description": "Domine o estilo de jogo Pantera em 7 missões"
+        },
+        "russian": {
+          "name": "Игровой стиль \"Пантера\"",
+          "description": "Освоить стиль \"Пантера\" в 7 заданиях"
+        },
+        "schinese": {
+          "name": "战术风格: 猎豹",
+          "description": "在七个任务中精通猎豹玩家风格"
+        },
+        "spanish": {
+          "name": "Estilo táctico: Pantera",
+          "description": "Dominar el estilo de juego Pantera en las siete misiones."
+        },
+        "swedish": {
+          "name": "Taktisk stil: Panter",
+          "description": "Bemästra panterstilen på 7 uppdrag"
+        },
+        "tchinese": {
+          "name": "戰術風格:黑豹",
+          "description": "在七個任務中精通黑豹玩家風格"
+        }
+      }
+    },
+    "SCBL_Ach_21": {
+      "translations": {
+        "brazilian": {
+          "name": "Estilo tático: Assalto",
+          "description": "Domine o estilo de jogo Assalto em 7 missões"
+        },
+        "czech": {
+          "name": "Taktický styl: Útočník",
+          "description": "Ovládněte herní styl útočníka v 7 misích."
+        },
+        "danish": {
+          "name": "Taktisk stil: Kamp",
+          "description": "Bliv mester i Kamp-spillestilen på syv missioner"
+        },
+        "dutch": {
+          "name": "Tactische stijl: agressie",
+          "description": "Hanteer de speelstijl 'agressie' in 7 missies."
+        },
+        "english": {
+          "name": "Tactical Style: Assault",
+          "description": "Master Assault playstyle on 7 missions"
+        },
+        "french": {
+          "name": "Style tactique : Assaut",
+          "description": "Maîtriser le style de jeu Assaut dans 7 missions"
+        },
+        "german": {
+          "name": "Taktikstil: Assault",
+          "description": "In 7 Missionen Assault-Spielstil meistern"
+        },
+        "hungarian": {
+          "name": "Taktika stílusa: Támadó",
+          "description": "Légy a Támadó játékstílus mestere 7 küldetésben"
+        },
+        "italian": {
+          "name": "Stile tattico: assalto",
+          "description": "Domina lo stile assalto in 7 missioni"
+        },
+        "japanese": {
+          "name": "戦術スタイル: アサルト",
+          "description": "プレイスタイル「アサルト」を7つのミッションでマスターする"
+        },
+        "koreana": {
+          "name": "전술 스타일: 어설트",
+          "description": "7개의 미션에서 어설트 스타일 정복하기"
+        },
+        "norwegian": {
+          "name": "Taktisk stil: angrep",
+          "description": "Mestre angrepsspillestilen i 7 oppdrag"
+        },
+        "polish": {
+          "name": "Styl Taktyczny: Szturmowiec",
+          "description": "Uzyskaj status mistrza stylu Szturmowca w 7 misjach"
+        },
+        "portuguese": {
+          "name": "Estilo tático: Assalto",
+          "description": "Domine o estilo de jogo Assalto em 7 missões"
+        },
+        "russian": {
+          "name": "Игровой стиль \"Штурм\"",
+          "description": "Освоить стиль \"Штурм\" в 7 заданиях"
+        },
+        "schinese": {
+          "name": "战术风格: 突击",
+          "description": "在七个任务中精通突击玩家风格"
+        },
+        "spanish": {
+          "name": "Estilo táctico: Asalto",
+          "description": "Dominar el estilo de juego Asalto en las siete misiones."
+        },
+        "swedish": {
+          "name": "Taktisk stil: Anfall",
+          "description": "Bemästra anfallsstilen på 7 uppdrag"
+        },
+        "tchinese": {
+          "name": "戰術風格:突擊",
+          "description": "在七個任務中精通突擊玩家風格"
+        }
+      }
+    },
+    "SCBL_Ach_22": {
+      "translations": {
+        "brazilian": {
+          "name": "Evidência escondida",
+          "description": "Esconda 5 corpos em contêineres"
+        },
+        "czech": {
+          "name": "Ukrytí důkazů",
+          "description": "Skryjte 5 těl v kontejnerech."
+        },
+        "danish": {
+          "name": "Beviser skjult",
+          "description": "Skjul fem lig i en container"
+        },
+        "dutch": {
+          "name": "Bewijs weggewerkt",
+          "description": "Verberg 5 lichamen in een container."
+        },
+        "english": {
+          "name": "Evidence Concealed",
+          "description": "Hide 5 bodies in containers"
+        },
+        "french": {
+          "name": "Preuve dissimulée",
+          "description": "Cacher 5 corps dans des conteneurs"
+        },
+        "german": {
+          "name": "Beweise versteckt",
+          "description": "5 Leiche in Containern verstecken"
+        },
+        "hungarian": {
+          "name": "Bizonyíték elrejtve",
+          "description": "Rejts el 5 hullát konténerekben"
+        },
+        "italian": {
+          "name": "Prove nascoste",
+          "description": "Nascondi 5 corpi nei cassonetti"
+        },
+        "japanese": {
+          "name": "証拠隠滅",
+          "description": "死体や気絶中の敵を5体コンテナに隠す"
+        },
+        "koreana": {
+          "name": "증거 인멸",
+          "description": "통 속에 쓰러진 적 5명 숨기기"
+        },
+        "norwegian": {
+          "name": "Bevis skjult",
+          "description": "Gjem 5 fiender i containere"
+        },
+        "polish": {
+          "name": "Niespodzianka w pojemniku",
+          "description": "Schowaj 5 ciał w pojemnikach"
+        },
+        "portuguese": {
+          "name": "Evidência escondida",
+          "description": "Esconda 5 corpos em contêineres"
+        },
+        "russian": {
+          "name": "Скрытые улики",
+          "description": "Спрятать 5 тел в контейнерах"
+        },
+        "schinese": {
+          "name": "证据隐藏",
+          "description": "藏 5 具躯体到容器中"
+        },
+        "spanish": {
+          "name": "Pruebas ocultas",
+          "description": "Esconder 5 cuerpos en contenedores."
+        },
+        "swedish": {
+          "name": "Bevis undanröjda",
+          "description": "Göm fem kroppar i containrar"
+        },
+        "tchinese": {
+          "name": "證據隱藏",
+          "description": "藏5個身體到容器中"
+        }
+      }
+    },
+    "SCBL_Ach_23": {
+      "translations": {
+        "brazilian": {
+          "name": "Opção sem mortes ativada",
+          "description": "Complete a campanha para um jogador como Sam Fisher sem matar ninguém"
+        },
+        "czech": {
+          "name": "Není povoleno zabíjet",
+          "description": "Dokončete kampaň pro jednoho hráče v roli Sama Fishera bez jediného zabití."
+        },
+        "danish": {
+          "name": "Ingen drab",
+          "description": "Gennemfør singleplayer-kampagnen uden at dræbe nogen som Sam Fisher"
+        },
+        "dutch": {
+          "name": "Uitgemoord",
+          "description": "Voltooi de singleplayer als Sam Fisher zonder te moorden."
+        },
+        "english": {
+          "name": "No Kill Option Engaged",
+          "description": "Complete the single player campaign without killing anyone as Sam Fisher"
+        },
+        "french": {
+          "name": "Pacifiste endurci",
+          "description": "Terminer la campagne Solo sans tuer personne avec Sam Fisher "
+        },
+        "german": {
+          "name": "Keine Toten",
+          "description": "Einzelspieler-Kampagne als Sam Fisher abschließen, ohne jemanden zu töten"
+        },
+        "hungarian": {
+          "name": "Ölés nélküli opció bekapcsolva",
+          "description": "\"Teljesítsd az egyszemélyes hadjáratot anélkül, hogy Sam Fisher szerepében bárkit is megölnél\""
+        },
+        "italian": {
+          "name": "Nessun morto",
+          "description": "Completa la campagna in singolo senza uccidere nessuno nei panni di Sam Fisher"
+        },
+        "japanese": {
+          "name": "平和主義者",
+          "description": "シングルプレイキャンペーンをサム・フィッシャーでプレイし、誰も殺さずに完了する"
+        },
+        "koreana": {
+          "name": "죽이면 끝이다",
+          "description": "싱글 플레이 캠페인에서 샘 피셔로 한명도 죽이지 않고 완료하기"
+        },
+        "norwegian": {
+          "name": "Tillatelse til å drepe inndratt",
+          "description": "Fullfør enspiller uten å drepe noen som Sam Fisher"
+        },
+        "polish": {
+          "name": "Bez Zabijania",
+          "description": "Ukończ kampanię dla pojedynczego gracza jako Sam Fisher, nie zabijając nikogo"
+        },
+        "portuguese": {
+          "name": "Opção sem mortes ativada",
+          "description": "Complete a campanha para um jogador como Sam Fisher sem matar ninguém"
+        },
+        "russian": {
+          "name": "Без убийств",
+          "description": "Пройти одиночную кампанию Сэма Фишера без убийств"
+        },
+        "schinese": {
+          "name": "不下毒手",
+          "description": "扮演山姆·费雪不杀任何一个人完成单人游戏战役"
+        },
+        "spanish": {
+          "name": "Misión cumplida sin bajas",
+          "description": "Completar la campaña de un jugador, como Sam Fisher, sin matar a nadie."
+        },
+        "swedish": {
+          "name": "Utan dödsfall",
+          "description": "Klara av enspelarkampanjen utan att döda någon som Sam Fisher"
+        },
+        "tchinese": {
+          "name": "不下毒手",
+          "description": "扮演山姆費雪不殺任何一個人完成單人遊戲戰役"
+        }
+      }
+    },
+    "SCBL_Ach_24": {
+      "translations": {
+        "brazilian": {
+          "name": "Tática de distração",
+          "description": "Chame um inimigo, então elimine-o sem ser detectado quando ele for investigar"
+        },
+        "czech": {
+          "name": "Taktik v rozptýlení pozornosti",
+          "description": "Zavolejte na nepřítele a poté ho během jeho vyšetřování nepozorovaně sundejte."
+        },
+        "danish": {
+          "name": "Afledningstaktiker",
+          "description": "Kald på en fjende, og nedlæg ham uopdaget, når han kommer over"
+        },
+        "dutch": {
+          "name": "Aandachtstrekker",
+          "description": "Trek de aandacht van een vijand en schakel hem onopgemerkt uit."
+        },
+        "english": {
+          "name": "Distraction Tactician",
+          "description": "Call an enemy over, then take them down undetected when they investigate"
+        },
+        "french": {
+          "name": "Spécialiste de la diversion",
+          "description": "Appeler un ennemi puis l'éliminer discrètement"
+        },
+        "german": {
+          "name": "Ablenkungsstratege",
+          "description": "Gegner rufen und dann getarnt erledigen, während sie der Sache auf den Grund gehen wollen"
+        },
+        "hungarian": {
+          "name": "Figyelemelterelési taktikus ",
+          "description": "\"Szólíts magadhoz egy ellenfelet, majd észrevétlenül semlegesítsd őket, amikor odaérnek vizsgálódni.\""
+        },
+        "italian": {
+          "name": "Diversivo tattico",
+          "description": "Attira un nemico, poi abbattilo senza farti scoprire mentre indaga"
+        },
+        "japanese": {
+          "name": "罠の達人",
+          "description": "おびき寄せた敵を気づかれずに倒す"
+        },
+        "koreana": {
+          "name": "교란 전술",
+          "description": "소리로 적을 유인하여, 그가 조사할 때 들키지 않고 처치하기"
+        },
+        "norwegian": {
+          "name": "Distraksjonstaktiker",
+          "description": "Rop på en fiende, og ta ham når han undersøker uten å bli oppdaget"
+        },
+        "polish": {
+          "name": "Mistrz Odwracania Uwagi",
+          "description": "Przywołaj wroga, a potem obezwładnij go nie dając się wykryć, gdy sprawdza źródło hałasu"
+        },
+        "portuguese": {
+          "name": "Tática de distração",
+          "description": "Chame um inimigo, então elimine-o sem ser detectado quando ele for investigar"
+        },
+        "russian": {
+          "name": "Отвлекающий маневр",
+          "description": "Приманить противника и незаметно устранить, когда они придут на звук"
+        },
+        "schinese": {
+          "name": "牵引战术家",
+          "description": "让敌人过来,然后在他们调查时,不被发现下击败他们"
+        },
+        "spanish": {
+          "name": "Distracción táctica",
+          "description": "Engañar a un enemigo con un sonido señuelo, y luego neutralízale mientras investiga."
+        },
+        "swedish": {
+          "name": "Distraherande taktiker",
+          "description": "Locka över en fiende och slå ut honom medan han undersöker utan att bli upptäckt"
+        },
+        "tchinese": {
+          "name": "牽引戰術家",
+          "description": "讓敵人過來,然後在他們調查時,不被發現下擊倒他們"
+        }
+      }
+    },
+    "SCBL_Ach_25": {
+      "translations": {
+        "brazilian": {
+          "name": "Funcionalidade do Trirrotor",
+          "description": "Desative um dispositivo de segurança usando o Trirrotor"
+        },
+        "czech": {
+          "name": "Funkce trirotoru",
+          "description": "Vyřaďte zabezpečení pomocí trirotoru."
+        },
+        "danish": {
+          "name": "Tri-rotor-funktionalitet",
+          "description": "Deaktivér en sikkerhedsenhed med tri-rotoren"
+        },
+        "dutch": {
+          "name": "Fan van de tri-rotor",
+          "description": "Schakel een beveiligingsapparaat uit met de tri-rotor."
+        },
+        "english": {
+          "name": "Tri-Rotor Functionality",
+          "description": "Disable a security device using the Tri-Rotor"
+        },
+        "french": {
+          "name": "Fonctionnalité trirotor",
+          "description": "Utiliser un trirotor pour désactiver un système de sécurité"
+        },
+        "german": {
+          "name": "Tricopterfunktionen",
+          "description": "Sicherheitseinrichtung mit Tricopter deaktivieren"
+        },
+        "hungarian": {
+          "name": "Drónrepülő funkcionalitás",
+          "description": "Iktass ki egy biztonsági eszközt a drónrepülő segítségével"
+        },
+        "italian": {
+          "name": "Funzionalità trirotore",
+          "description": "Usa il trirotore per disattivare un dispositivo di sicurezza"
+        },
+        "japanese": {
+          "name": "トライローター障害",
+          "description": "セキュリティ装置を破壊するため、トライローターを利用する"
+        },
+        "koreana": {
+          "name": "만능 트라이로터",
+          "description": "트라이로터를 이용해 보안장치 무력화"
+        },
+        "norwegian": {
+          "name": "Trirotor-funksjonalitet",
+          "description": "Deaktiver en sikkerhetsinnretning med trirotoren"
+        },
+        "polish": {
+          "name": "Pilot Trirotora",
+          "description": "Wyłącz urządzenie systemu bezpieczeństwa za pomocą trirotora"
+        },
+        "portuguese": {
+          "name": "Funcionalidade do Trirrotor",
+          "description": "Desative um dispositivo de segurança usando o Trirrotor"
+        },
+        "russian": {
+          "name": "Эффективность трикоптера",
+          "description": "Отключить систему безопасности с помощью трикоптера"
+        },
+        "schinese": {
+          "name": "三旋翼无人机好手",
+          "description": "使用三旋翼无人机关闭一个安全装置"
+        },
+        "spanish": {
+          "name": "Funcionalidad del trirrotor",
+          "description": "Desactivar un dispositivo de seguridad usando el trirrotor."
+        },
+        "swedish": {
+          "name": "Trippelrotor-operatör",
+          "description": "Slå ut en enhet med trippelrotorn"
+        },
+        "tchinese": {
+          "name": "三旋無人機好手",
+          "description": "使用三旋無人機關閉一個安全裝置"
+        }
+      }
+    },
+    "SCBL_Ach_26": {
+      "translations": {
+        "brazilian": {
+          "name": "Mais letalidade demonstrada",
+          "description": "Usando Marcar e Executar, elimine 6 inimigos em menos de 14 segundos"
+        },
+        "czech": {
+          "name": "Demonstrace smrtícího účinku",
+          "description": "Pomocí označení a likvidace zlikvidujte 6 nepřátel do 14 sekund."
+        },
+        "danish": {
+          "name": "Dødbringende agent",
+          "description": "Nedlæg seks fjender på under 14 sekunder med Markér og henret"
+        },
+        "dutch": {
+          "name": "Wervelwind",
+          "description": "Schakel binnen 14 seconden 6 vijanden uit met markeren & executeren."
+        },
+        "english": {
+          "name": "Enhanced Lethality Demonstrated",
+          "description": "Using Mark & Execute, take down 6 enemies in under 14 seconds"
+        },
+        "french": {
+          "name": "Démonstration de force",
+          "description": "Éliminer 6 ennemis en moins de 14 secondes à l'aide d'un Marquer-Exécuter"
+        },
+        "german": {
+          "name": "Erhöhte Tödlichkeit vorgeführt",
+          "description": "Mit Markieren und Ausführen 6 Gegner in weniger als 14 Sekunden erledigen"
+        },
+        "hungarian": {
+          "name": "Halálos technikák bemutatója",
+          "description": "Megjelölés és kivégzés használatával szedj le 6 ellenfelet 14 másodperc alatt"
+        },
+        "italian": {
+          "name": "Perfezione letale",
+          "description": "Usando il Marca e Colpisci, abbatti 6 nemici in meno di 14 secondi"
+        },
+        "japanese": {
+          "name": "死亡率上昇",
+          "description": "マーク＆エクスキュートで、14秒以内に6人の敵を倒す"
+        },
+        "koreana": {
+          "name": "살인 기술 뽐내기",
+          "description": "지정&처형을 이용해, 14초 안에 적 6명 제압하기"
+        },
+        "norwegian": {
+          "name": "Økt dødelighet demonstrert",
+          "description": "Bruk merk og eliminer til å eliminere 6 fiender på under 14 sekunder"
+        },
+        "polish": {
+          "name": "Pokaz Zabójczej Siły",
+          "description": "Za pomocą systemu Zaznacz i Usuń pokonaj 6 wrogów w czasie poniżej 14 sekund"
+        },
+        "portuguese": {
+          "name": "Mais letalidade demonstrada",
+          "description": "Usando Marcar e Executar, elimine 6 inimigos em menos de 14 segundos"
+        },
+        "russian": {
+          "name": "Убойная сила",
+          "description": "Используя прием \"Отметить и устранить\", убить 6 врагов за 14 секунд"
+        },
+        "schinese": {
+          "name": "加强杀伤力显示",
+          "description": "使用标记和处决,在 14 秒内击倒 6 名敌人"
+        },
+        "spanish": {
+          "name": "Demostración de fuerza letal",
+          "description": "Usando la habilidad de Marcar y ejecutar, eliminar a 6 enemigos en menos de 14 segundos."
+        },
+        "swedish": {
+          "name": "Dödlighetsuppvisning",
+          "description": "Använd Markera & avrätta för att slå ut 6 fiender på mindre än 14 sekunder"
+        },
+        "tchinese": {
+          "name": "加強殺傷力顯示",
+          "description": "使用標識和處決,在14秒內擊倒6名敵人"
+        }
+      }
+    },
+    "SCBL_Ach_27": {
+      "translations": {
+        "brazilian": {
+          "name": "Escudo do hostil garantido",
+          "description": "Elimine um Soldado de Infantaria blindado mano a mano e roube seu escudo"
+        },
+        "czech": {
+          "name": "Zajištění nepřátelského štítu",
+          "description": "Zlikvidujte kontaktním bojem nepřítele se štítem a jeho štít si vezměte."
+        },
+        "danish": {
+          "name": "Skjold overtaget",
+          "description": "Nedlæg en infanterist med skjold i nærkamp, og tag hans skjold"
+        },
+        "dutch": {
+          "name": "Sam voert iets in zijn schild",
+          "description": "Schakel een infanterist uit met je handen en pak zijn schild."
+        },
+        "english": {
+          "name": "Hostile Shield Secured",
+          "description": "Take down a Shielded Infantryman hand to hand and take his shield"
+        },
+        "french": {
+          "name": "Vol de bouclier ennemi",
+          "description": "Éliminer un soldat lourd au corps à corps et prendre son bouclier"
+        },
+        "german": {
+          "name": "Gegnerschild gesichert",
+          "description": "Soldat mit Schild im Nahkampf erledigen und Schild stehlen"
+        },
+        "hungarian": {
+          "name": "Ellenséges pajzs megszerezve",
+          "description": "\"Iktass ki egy pajzsos gyalogost kézitusában, és vedd el a pajzsát\""
+        },
+        "italian": {
+          "name": "Scudo nemico ottenuto",
+          "description": "Abbatti in corpo a corpo un soldato con scudo e rubaglielo"
+        },
+        "japanese": {
+          "name": "盗っ人",
+          "description": "シールド兵を近接攻撃で倒して、シールドを奪う"
+        },
+        "koreana": {
+          "name": "이제 방패는 내 것",
+          "description": "방패를 든 보병을 제압하고 방패 빼앗기"
+        },
+        "norwegian": {
+          "name": "Fiendeskjold sikret",
+          "description": "Drep en infanterist med skjold med nærkampteknikk og ta skjoldet hans"
+        },
+        "polish": {
+          "name": "To Moja Tarcza!",
+          "description": "Obezwładnij piechura z tarczą w walce wręcz i zabierz jego tarczę"
+        },
+        "portuguese": {
+          "name": "Escudo do hostil garantido",
+          "description": "Elimine um Soldado de Infantaria blindado mano a mano e roube seu escudo"
+        },
+        "russian": {
+          "name": "Захват вражеского щита",
+          "description": "Врукопашную нейтрализовать бойца в броне и забрать у него щит"
+        },
+        "schinese": {
+          "name": "获取敌人盾牌",
+          "description": "徒手击倒一名带盾的重装兵并取走他的盾牌"
+        },
+        "spanish": {
+          "name": "Escudo enemigo asegurado",
+          "description": "Abatir mano a mano a un soldado de infantería con protección y robarle el escudo."
+        },
+        "swedish": {
+          "name": "Fientlig sköld erhållen",
+          "description": "Slå ut en tung infanterist med sköld i närstrid och ta hans sköld"
+        },
+        "tchinese": {
+          "name": "獲取敵人盾牌",
+          "description": "徒手擊倒一名帶盾的重裝兵並取走他的盾牌"
+        }
+      }
+    },
+    "SCBL_Ach_28": {
+      "translations": {
+        "brazilian": {
+          "name": "Reféns protegidos",
+          "description": "Salve os reféns no Pátio Ferroviário"
+        },
+        "czech": {
+          "name": "Záchrana rukojmích",
+          "description": "Zachraňte rukojmí v dopravní stanici."
+        },
+        "danish": {
+          "name": "Gidsler reddet",
+          "description": "Red gidslerne i Transportplads"
+        },
+        "dutch": {
+          "name": "Bevrijdingsdag",
+          "description": "Red de gijzelaars op de rangeerterreinen."
+        },
+        "english": {
+          "name": "Hostages Secured",
+          "description": "Save the hostages in the Transit Yards"
+        },
+        "french": {
+          "name": "Otages sécurisés",
+          "description": "Sauver les otages du dépôt ferroviaire"
+        },
+        "german": {
+          "name": "Geiseln sichergestellt",
+          "description": "Geiseln im Verkehrshof retten"
+        },
+        "hungarian": {
+          "name": "Túszok biztonságba helyezve",
+          "description": "Mentsd meg a túszokat a rendezőpályaudvaron"
+        },
+        "italian": {
+          "name": "Ostaggi salvati",
+          "description": "Salva gli ostaggi in Rimessa treni"
+        },
+        "japanese": {
+          "name": "人質救出",
+          "description": "車両基地で人質を救出する"
+        },
+        "koreana": {
+          "name": "인질은 확보했다",
+          "description": "환승장 안의 인질 구출하기"
+        },
+        "norwegian": {
+          "name": "Gisler reddet",
+          "description": "Redd gislene i T-baneanlegget"
+        },
+        "polish": {
+          "name": "Wybawca Zakładników",
+          "description": "Uratuj zakładników w misji Transport"
+        },
+        "portuguese": {
+          "name": "Reféns protegidos",
+          "description": "Salve os reféns no Pátio Ferroviário"
+        },
+        "russian": {
+          "name": "Спасение заложников",
+          "description": "Освободить заложников в метродепо"
+        },
+        "schinese": {
+          "name": "人质救援",
+          "description": "拯救在调车场的人质"
+        },
+        "spanish": {
+          "name": "Rehenes salvados",
+          "description": "Salvar a los rehenes en la misión de las Cocheras del tren."
+        },
+        "swedish": {
+          "name": "Gisslan säkrad",
+          "description": "Rädda gisslan på bangården"
+        },
+        "tchinese": {
+          "name": "人質救援",
+          "description": "拯救在調車場的人質"
+        }
+      }
+    },
+    "SCBL_Ach_29": {
+      "translations": {
+        "brazilian": {
+          "name": "Missão Sem pegadas",
+          "description": "Complete uma missão para um jogador sem ser detectado durante o jogo"
+        },
+        "czech": {
+          "name": "Beze stopy",
+          "description": "\"Dokončete kampaň pro jednoho hráče bez toho, abyste byli odhaleni.\""
+        },
+        "danish": {
+          "name": "Fuldstændigt uopdaget",
+          "description": "Gennemfør en singleplayer-mission uden at blive opdaget"
+        },
+        "dutch": {
+          "name": "Alsof hij er nooit is geweest",
+          "description": "Voltooi onopgemerkt een solomissie."
+        },
+        "english": {
+          "name": "Mission Footprint Zero",
+          "description": "Complete a single player mission without being detected during gameplay"
+        },
+        "french": {
+          "name": "Comme une ombre",
+          "description": "Terminer une mission Solo sans vous faire repérer"
+        },
+        "german": {
+          "name": "Mission Keine Spuren",
+          "description": "Eine Einzelspielermission abschließen, ohne während des Spielens bemerkt zu werden"
+        },
+        "hungarian": {
+          "name": "Küldetéslábnyom nulla",
+          "description": "Teljesíts egy egyszemélyes küldetést észrevétlenül"
+        },
+        "italian": {
+          "name": "Nessuna traccia",
+          "description": "Completa una missione in singolo senza farti scoprire"
+        },
+        "japanese": {
+          "name": "立つ鳥跡を濁さず",
+          "description": "シングルプレイのミッションを探知されずに完了する"
+        },
+        "koreana": {
+          "name": "완전범죄",
+          "description": "들키지 않고 하나의 싱글플레이 미션를 완료하기"
+        },
+        "norwegian": {
+          "name": "Skyggeoppdrag",
+          "description": "Fullfør et enspilleroppdrag uten å bli oppdaget mens du spiller"
+        },
+        "polish": {
+          "name": "Niewykrywalny",
+          "description": "Ukończ misję w kampanii dla pojedynczego gracza, nie dając się wykryć, gdy kontrolujesz postać"
+        },
+        "portuguese": {
+          "name": "Missão Sem pegadas",
+          "description": "Complete uma missão para um jogador sem ser detectado durante o jogo"
+        },
+        "russian": {
+          "name": "Операция \"Невидимка\"",
+          "description": "Выполнить задание одиночной кампании, оставаясь незамеченным"
+        },
+        "schinese": {
+          "name": "任务无足迹",
+          "description": "完成单人游戏的游戏过程中不被发现"
+        },
+        "spanish": {
+          "name": "Misión sin huellas",
+          "description": "Completar una misión de un jugador sin que te detecten durante todo el juego."
+        },
+        "swedish": {
+          "name": "Inga spår",
+          "description": "Klara av ett enspelaruppdrag utan att bli upptäckt"
+        },
+        "tchinese": {
+          "name": "任務無足跡",
+          "description": "完成單人遊戲的遊戲過程中不被發現"
+        }
+      }
+    },
+    "SCBL_Ach_31": {
+      "translations": {
+        "brazilian": {
+          "name": "Caçador",
+          "description": "Complete todas as Missões do Andriy Kobin para o Fourth Echelon"
+        },
+        "czech": {
+          "name": "Lovec",
+          "description": "Dokončete všechny mise 4. Echelonu od Andreje Kobina."
+        },
+        "danish": {
+          "name": "Jægeragent",
+          "description": "Gennemfør alle 4th Echelon-missioner fra Andriy Kobin"
+        },
+        "dutch": {
+          "name": "Jager",
+          "description": "Voltooi alle 4th Echelon-missie van Andriy Kobin."
+        },
+        "english": {
+          "name": "Hunter Operator",
+          "description": "Complete all 4th Echelon Missions from Andriy Kobin"
+        },
+        "french": {
+          "name": "Spécialité : chasse",
+          "description": "Terminer toutes les missions Échelon 4 d'Andriy Kobin"
+        },
+        "german": {
+          "name": "Jäger",
+          "description": "Alle 4th Echelon-Missionen von Andriy Kobin abschließen"
+        },
+        "hungarian": {
+          "name": "Vadászó ügynök",
+          "description": "Teljesíts minden 4. Hadoszlop küldetést Andriy Kobintól"
+        },
+        "italian": {
+          "name": "Agente cacciatore",
+          "description": "Completa tutte le missioni 4th Echelon di Andriy Kobin"
+        },
+        "japanese": {
+          "name": "狩猟の名手",
+          "description": "コビンの4Eミッションをすべて完了する"
+        },
+        "koreana": {
+          "name": "사냥 전문요원",
+          "description": "앤드리 코빈이 주는 모든 포스 에셜론 임무 완료하기"
+        },
+        "norwegian": {
+          "name": "Jegeragent",
+          "description": "Fullfør alle 4th Echelon-oppdragene fra Andrej Kobin"
+        },
+        "polish": {
+          "name": "Operator: Myśliwy",
+          "description": "Ukończ wszystkie misje 4. Eszelonu od Andrieja Kobina"
+        },
+        "portuguese": {
+          "name": "Caçador",
+          "description": "Complete todas as Missões do Andriy Kobin para o Fourth Echelon"
+        },
+        "russian": {
+          "name": "Охотник",
+          "description": "Выполнить все задания \"4 эшелона\" от Андрея Кобина"
+        },
+        "schinese": {
+          "name": "猎人执行者",
+          "description": "完成所有安德烈·科宾的第四梯队任务"
+        },
+        "spanish": {
+          "name": "Operación de caza",
+          "description": "Completar todas las misiones de Andriy Kobin para 4th Echelon."
+        },
+        "swedish": {
+          "name": "Jägare",
+          "description": "Klara av alla 4th Echelon-uppdrag från Andrej Kobin"
+        },
+        "tchinese": {
+          "name": "獵人執行者",
+          "description": "完成所有安德烈．科賓的第四梯隊任務"
+        }
+      }
+    },
+    "SCBL_Ach_32": {
+      "translations": {
+        "brazilian": {
+          "name": "Infiltração",
+          "description": "Complete todas as Missões da Anna Grímsdóttir para o Fourth Echelon"
+        },
+        "czech": {
+          "name": "Infiltrace",
+          "description": "Dokončete všechny mise 4. Echelonu od Anny Grímsdóttirové."
+        },
+        "danish": {
+          "name": "Infiltrationsagent",
+          "description": "Gennemfør alle 4th Echelon-missioner fra Anna Grímsdottír"
+        },
+        "dutch": {
+          "name": "Infiltrant",
+          "description": "Voltooi alle 4th Echelon-missie van Anna Grímsdóttir."
+        },
+        "english": {
+          "name": "Infiltration Operator",
+          "description": "Complete all 4th Echelon Missions from Anna Grímsdóttir"
+        },
+        "french": {
+          "name": "Spécialité : infiltration",
+          "description": "Terminer toutes les missions Échelon 4 d'Anna Grímsdóttir"
+        },
+        "german": {
+          "name": "Eindringling",
+          "description": "Alle 4th Echelon-Missionen von Anna Grímsdóttir abschließen"
+        },
+        "hungarian": {
+          "name": "Beszivárgó ügynök",
+          "description": "Teljesíts minden 4. Hadoszlop küldetést Anna Grímsdóttirtól"
+        },
+        "italian": {
+          "name": "Agente incursore",
+          "description": "Completa tutte le missioni 4th Echelon di Anna Grimsdottir"
+        },
+        "japanese": {
+          "name": "侵入の名手",
+          "description": "グリムの4Eミッションをすべて完了する"
+        },
+        "koreana": {
+          "name": "잠입 전문요원",
+          "description": "안나 그림스도티가 주는 모든 포스 에셜론 임무 완료하기"
+        },
+        "norwegian": {
+          "name": "Infiltreringsagent",
+          "description": "Fullfør alle 4th Echelon-oppdragene fra Anna Grímsdóttir"
+        },
+        "polish": {
+          "name": "Operator: Szpieg",
+          "description": "Ukończ wszystkie misje 4. Eszelonu od Anny Grímsdóttir"
+        },
+        "portuguese": {
+          "name": "Infiltração",
+          "description": "Complete todas as Missões da Anna Grímsdóttir para o Fourth Echelon"
+        },
+        "russian": {
+          "name": "Лазутчик",
+          "description": "Выполнить все задания \"4 эшелона\" от Анны Гримсдоттир"
+        },
+        "schinese": {
+          "name": "渗透执行者",
+          "description": "完成所有安娜·格林斯多蒂尔的第四梯队任务"
+        },
+        "spanish": {
+          "name": "Operación de infiltración",
+          "description": "Completar todas las misiones de Anna Grimsdottir para 4th Echelon."
+        },
+        "swedish": {
+          "name": "Infiltratör",
+          "description": "Klara av alla 4th Echelon-uppdrag från Anna Grímsdóttir"
+        },
+        "tchinese": {
+          "name": "滲透執行者",
+          "description": "完成所有安娜．格里姆斯多蒂爾的第四梯隊任務"
+        }
+      }
+    },
+    "SCBL_Ach_33": {
+      "translations": {
+        "brazilian": {
+          "name": "Extração",
+          "description": "Complete todas as Missões do Charlie Cole para o Fourth Echelon"
+        },
+        "czech": {
+          "name": "Vyzvednutí",
+          "description": "Dokončete všechny mise 4. Echelonu od Charlieho Colea."
+        },
+        "danish": {
+          "name": "Opsamlingsagent",
+          "description": "Gennemfør alle 4th Echelon-missioner fra Charlie Cole"
+        },
+        "dutch": {
+          "name": "Ontsnappingsexpert",
+          "description": "Voltooi alle 4th Echelon-missies van Charlie Cole."
+        },
+        "english": {
+          "name": "Extraction Operator",
+          "description": "Complete all 4th Echelon Missions from Charlie Cole"
+        },
+        "french": {
+          "name": "Spécialité : extraction",
+          "description": "Terminer toutes les missions Échelon 4 de Charlie Cole"
+        },
+        "german": {
+          "name": "Abholer",
+          "description": "Alle 4th Echelon-Missionen von Charlie Cole abschließen"
+        },
+        "hungarian": {
+          "name": "Kimenekítő ügynök",
+          "description": "Teljesíts minden 4. Hadoszlop küldetést Charlie Cole-tól"
+        },
+        "italian": {
+          "name": "Agente da recupero",
+          "description": "Completa tutte le missioni 4th Echelon di Charlie Cole"
+        },
+        "japanese": {
+          "name": "脱出の名手",
+          "description": "チャーリーの4Eミッションをすべて完了する"
+        },
+        "koreana": {
+          "name": "탈출 전문요원",
+          "description": "찰리 콜이 주는 모든 포스 에셜론 임무 완료하기"
+        },
+        "norwegian": {
+          "name": "Uthentingsagent",
+          "description": "Fullfør alle 4th Echelon-oppdragene fra Charlie Cole"
+        },
+        "polish": {
+          "name": "Operator: Agent",
+          "description": "Ukończ wszystkie misje 4. Eszelonu od Charliego Cole'a"
+        },
+        "portuguese": {
+          "name": "Extração",
+          "description": "Complete todas as Missões do Charlie Cole para o Fourth Echelon"
+        },
+        "russian": {
+          "name": "Информатор",
+          "description": "Выполнить все задания \"4 эшелона\" от Чарли Коула"
+        },
+        "schinese": {
+          "name": "撤出执行者",
+          "description": "完成所有查理·科尔的第四梯队任务"
+        },
+        "spanish": {
+          "name": "Operación de extracción",
+          "description": "Completar todas las misiones de Charlie Cole para 4th Echelon."
+        },
+        "swedish": {
+          "name": "Upphämtare",
+          "description": "Klara av alla 4th Echelon-uppdrag från Charlie Cole"
+        },
+        "tchinese": {
+          "name": "撤出執行者",
+          "description": "完成所有查理．科爾的第四梯隊任務"
+        }
+      }
+    }
+  }
+}

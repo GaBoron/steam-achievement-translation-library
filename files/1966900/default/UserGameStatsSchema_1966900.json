@@ -1,0 +1,420 @@
+{
+  "version": 1,
+  "app_id": "1966900",
+  "variant_id": "default",
+  "source_sha256": "2d05fa3495367ec5f83267d7b80eef972043bd756a9af8d574a21d6b2fac4815",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "ACH_SURVIVE20": {
+      "translations": {
+        "english": {
+          "name": "Sunrise",
+          "description": "Survive the full 20 minutes."
+        },
+        "schinese": {
+          "name": "曙光",
+          "description": "生存满 20 分钟。"
+        }
+      }
+    },
+    "ACH_DARKNESS1": {
+      "translations": {
+        "english": {
+          "name": "Dark Night",
+          "description": "Survive the night on Darkness 1."
+        },
+        "schinese": {
+          "name": "漆黑之夜",
+          "description": "通关“难度 1”。"
+        }
+      }
+    },
+    "ACH_DARKNESS5": {
+      "translations": {
+        "english": {
+          "name": "Darker Night",
+          "description": "Survive the night on Darkness 5."
+        },
+        "schinese": {
+          "name": "暗黑之夜",
+          "description": "通关“难度 5”。"
+        }
+      }
+    },
+    "ACH_DARKNESS10": {
+      "translations": {
+        "english": {
+          "name": "Darkest Night",
+          "description": "Survive the night on Darkness 10."
+        },
+        "schinese": {
+          "name": "至暗之夜",
+          "description": "通关“难度 10”。"
+        }
+      }
+    },
+    "ACH_DARKNESS15": {
+      "translations": {
+        "english": {
+          "name": "Pitch Black",
+          "description": "Survive the night on Darkness 15."
+        },
+        "schinese": {
+          "name": "鬼泣之夜",
+          "description": "通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_REVOLVER": {
+      "translations": {
+        "english": {
+          "name": "Revolver Mastery",
+          "description": "Use the Revolver to survive Darkness 15."
+        },
+        "schinese": {
+          "name": "左轮专精",
+          "description": "使用“左轮手枪”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_SHOTGUN": {
+      "translations": {
+        "english": {
+          "name": "Shotgun Mastery",
+          "description": "Use the Shotgun to survive Darkness 15."
+        },
+        "schinese": {
+          "name": "霰弹专精",
+          "description": "使用“霰弹枪”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_CROSSBOW": {
+      "translations": {
+        "english": {
+          "name": "Crossbow Mastery",
+          "description": "Use the Crossbow to survive Darkness 15."
+        },
+        "schinese": {
+          "name": "十字弩专精",
+          "description": "使用“十字弩”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_FLAME_CANNON": {
+      "translations": {
+        "english": {
+          "name": "Flame Cannon Mastery",
+          "description": "Use the Flame Cannon to survive Darkness 15."
+        },
+        "schinese": {
+          "name": "火炮专精",
+          "description": "使用“火焰炮”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_SMGS": {
+      "translations": {
+        "english": {
+          "name": "SMG Mastery",
+          "description": "Use Dual SMGs to survive Darkness 15."
+        },
+        "schinese": {
+          "name": "双枪专精",
+          "description": "使用“双持冲锋枪”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_BATGUN": {
+      "translations": {
+        "english": {
+          "name": "Batgun Mastery",
+          "description": "Use the Batgun to survive  Darkness 15."
+        },
+        "schinese": {
+          "name": "蝙蝠枪专精",
+          "description": "使用“蝙蝠枪”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_GRENADE_LAUNCHER": {
+      "translations": {
+        "english": {
+          "name": "Grenade Launcher Mastery",
+          "description": "Use the Grenade Launch to survive Darkness 15."
+        },
+        "schinese": {
+          "name": "榴弹专精",
+          "description": "使用“榴弹发射器”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_SHANA": {
+      "translations": {
+        "english": {
+          "name": "Fallen Angel",
+          "description": "Survive Darkness 15 with Shana."
+        },
+        "schinese": {
+          "name": "堕落天使",
+          "description": "使用“夏娜”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_DIAMOND": {
+      "translations": {
+        "english": {
+          "name": "Strongwoman",
+          "description": "Survive Darkness 15 with Diamond."
+        },
+        "schinese": {
+          "name": "金刚芭比",
+          "description": "使用“黛蒙德”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_SCARLETT": {
+      "translations": {
+        "english": {
+          "name": "Pyromaniac",
+          "description": "Survive Darkness 15 with Scarlett."
+        },
+        "schinese": {
+          "name": "凤火燎原",
+          "description": "使用“斯嘉丽”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_HINA": {
+      "translations": {
+        "english": {
+          "name": "Master Ninja",
+          "description": "Survive Darkness 15 with Hina."
+        },
+        "schinese": {
+          "name": "影流之主",
+          "description": "使用“阳菜”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_SPARK": {
+      "translations": {
+        "english": {
+          "name": "Thunder God",
+          "description": "Survive Darkness 15 with Spark."
+        },
+        "schinese": {
+          "name": "雷神降世",
+          "description": "使用“花火”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_LILITH": {
+      "translations": {
+        "english": {
+          "name": "Necromastery",
+          "description": "Survive Darkness 15 with Lilith."
+        },
+        "schinese": {
+          "name": "死灵大师",
+          "description": "使用“莉莉丝”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_ABBY": {
+      "translations": {
+        "english": {
+          "name": "Bullet Mania",
+          "description": "Survive Darkness 15 with Abby."
+        },
+        "schinese": {
+          "name": "暴走游侠",
+          "description": "使用“艾比”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_ON_THE_EDGE": {
+      "translations": {
+        "english": {
+          "name": "On the Edge",
+          "description": "Survive the night with 1 Max HP at the end."
+        },
+        "schinese": {
+          "name": "刀尖之上",
+          "description": "通关时最大生命值仅为 1。"
+        }
+      }
+    },
+    "ACH_RECKLESS": {
+      "translations": {
+        "english": {
+          "name": "Reckless",
+          "description": "Survive the night with Abby and the Grenade Launcher, and only using Abby's special ability to fire."
+        },
+        "schinese": {
+          "name": "无畏莽夫",
+          "description": "使用“艾比”和“榴弹发射器”，且只通过艾比的特殊能力开火并通关。"
+        }
+      }
+    },
+    "ACH_NIMBLE": {
+      "translations": {
+        "english": {
+          "name": "Nimble",
+          "description": "Survive the night without getting hit."
+        },
+        "schinese": {
+          "name": "安全第一",
+          "description": "无伤通关。"
+        }
+      }
+    },
+    "ACH_PACIFIST": {
+      "translations": {
+        "english": {
+          "name": "Pacifist",
+          "description": "Survive the night without firing your gun."
+        },
+        "schinese": {
+          "name": "和平主义",
+          "description": "不开枪通关。"
+        }
+      }
+    },
+    "ACH_CATCH_THEM_ALL": {
+      "translations": {
+        "english": {
+          "name": "Gotta Catch 'Em ALL",
+          "description": "Survive the night with 8 summons as the end."
+        },
+        "schinese": {
+          "name": "召唤达人",
+          "description": "通关时拥有 8 个召唤物。"
+        }
+      }
+    },
+    "ACH_YUKI": {
+      "translations": {
+        "english": {
+          "name": "Yokai",
+          "description": "Survive Darkness 15 with Yuki."
+        },
+        "schinese": {
+          "name": "妖怪",
+          "description": "使用“有希”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_MAGIC_BOW": {
+      "translations": {
+        "english": {
+          "name": "Magic Bow Mastery",
+          "description": "Use the Magic Bow to survive Darkness 15."
+        },
+        "schinese": {
+          "name": "魔法弓精通",
+          "description": "使用“魔法弓”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_LUNA": {
+      "translations": {
+        "english": {
+          "name": "Celestial",
+          "description": "Survive Darkness 15 with Luna."
+        },
+        "schinese": {
+          "name": "天界",
+          "description": "使用“露娜”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_HASTUR": {
+      "translations": {
+        "english": {
+          "name": "Elder God",
+          "description": "Survive Darkness 15 with Hastur"
+        },
+        "schinese": {
+          "name": "旧日神明",
+          "description": "使用“哈斯塔”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_Raven": {
+      "translations": {
+        "english": {
+          "name": "Witch",
+          "description": "Survive Darkness 15 with Raven."
+        },
+        "schinese": {
+          "name": "女巫",
+          "description": "使用“瑞文”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_DASHER": {
+      "translations": {
+        "english": {
+          "name": "Reindeer",
+          "description": "Survive Darkness 15 with Dasher."
+        },
+        "schinese": {
+          "name": "驯鹿",
+          "description": "使用“黛雪儿”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_CYCLONE_SWORD": {
+      "translations": {
+        "english": {
+          "name": "Cyclone Sword Mastery",
+          "description": "Use the Cyclone Sword to survive Darkness 15."
+        },
+        "schinese": {
+          "name": "旋风剑精通",
+          "description": "使用“旋风剑”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_SALVO_KNIVES": {
+      "translations": {
+        "english": {
+          "name": "Salvo Knives Mastery",
+          "description": "Use the Salvo Knives to survive Darkness 15."
+        },
+        "schinese": {
+          "name": "齐射飞刀精通",
+          "description": "使用“齐射飞刀”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_WATERING_GUN": {
+      "translations": {
+        "english": {
+          "name": "Watering Gun Mastery",
+          "description": "Use the Watering Gun to survive Darkness 15."
+        },
+        "schinese": {
+          "name": "浇水枪精通",
+          "description": "使用“浇水枪”通关“难度 15”。"
+        }
+      }
+    },
+    "ACH_KATANA": {
+      "translations": {
+        "english": {
+          "name": "Master of the Blade",
+          "description": "Use Katana to survive Darkness 15."
+        },
+        "schinese": {
+          "name": "刀刃大师",
+          "description": "使用“武士刀”通关“难度 15”。"
+        }
+      }
+    }
+  }
+}

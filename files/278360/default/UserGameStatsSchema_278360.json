@@ -1,0 +1,436 @@
+{
+  "version": 1,
+  "app_id": "278360",
+  "variant_id": "default",
+  "source_sha256": "ea714b62c022faa26a71d2387d183cfe1ba1edfe0aa48960a8a126fe4b5b1e20",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "polish",
+    "schinese"
+  ],
+  "achievements": {
+    "MADDIE_CHALLENGE": {
+      "translations": {
+        "english": {
+          "name": "Maddie's Challenge",
+          "description": "Complete Maddie's little game"
+        },
+        "french": {
+          "name": "Le succès de Maddie",
+          "description": "Jouez le petit jeu de Maddie"
+        },
+        "german": {
+          "name": "Maddie's Herausforderung",
+          "description": "Schließe Maddie's kleines Spiel ab"
+        },
+        "italian": {
+          "name": "La Sfida di Maddie",
+          "description": "Completa il piccolo gioco di Maddie"
+        },
+        "polish": {
+          "name": "Wyzwanie Maliny",
+          "description": "Ukończ małe wyzwanie Maliny"
+        },
+        "schinese": {
+          "name": "Maddie 的挑战",
+          "description": "完成 Maddie 的小游戏。"
+        }
+      }
+    },
+    "SANCTUARY_GRAPPLE_CHALLENGE": {
+      "translations": {
+        "english": {
+          "name": "Sanctuary Grapple Challenge",
+          "description": "Complete Sanctuary using less than 23 Grapples"
+        },
+        "french": {
+          "name": "Succès du sanctuaire",
+          "description": "Terminez le sanctuaire en utilisant moins de 23 grappins"
+        },
+        "german": {
+          "name": "Heiligtum - Greif-Herausforderung",
+          "description": "Beende Heiligtum mit weniger als 23 Griffen"
+        },
+        "italian": {
+          "name": "Sfida Rampino del Santuario",
+          "description": "Completa Santuario usando meno di 23 volte il Rampino"
+        },
+        "polish": {
+          "name": "Sanktuarium - Wyzwanie Chwytaka",
+          "description": "Ukończ poziom Sanktuarium używając mniej niż 23 chwycenia"
+        },
+        "schinese": {
+          "name": "Sanctuary 抓钩挑战",
+          "description": "使用少于 23 次抓钩完成 Sanctuary。"
+        }
+      }
+    },
+    "VILLAGE_GRAPPLE_CHALLENGE": {
+      "translations": {
+        "english": {
+          "name": "Village Grapple Challenge",
+          "description": "Complete Village using less than 20 Grapples"
+        },
+        "french": {
+          "name": "Succès du village",
+          "description": "Terminez le village en utilisant moins de 20 grappins"
+        },
+        "german": {
+          "name": "Dorf - Greif-Herausforderung",
+          "description": "Beende Dorf mit weniger als 20 Griffen"
+        },
+        "italian": {
+          "name": "Sfida Rampino del Villaggio",
+          "description": "Completa Villaggio usando meno di 20 volte il Rampino"
+        },
+        "polish": {
+          "name": "Wioska - Wyzwanie Chwytaka",
+          "description": "Ukończ poziom Wioska używając mniej niż 20 chwyceń"
+        },
+        "schinese": {
+          "name": "Village 抓钩挑战",
+          "description": "使用少于 20 次抓钩完成 Village。"
+        }
+      }
+    },
+    "CHASMS_GRAPPLE_CHALLENGE": {
+      "translations": {
+        "english": {
+          "name": "Chasms Grapple Challenge",
+          "description": "Complete Chasms using less than 34 Grapples"
+        },
+        "french": {
+          "name": "Succès des gouffres",
+          "description": "Terminez les gouffres en utilisant moins de 34 grappins"
+        },
+        "german": {
+          "name": "Abgründe - Greif-Herausforderung",
+          "description": "Beende Abgründe mit weniger als 34 Griffen"
+        },
+        "italian": {
+          "name": "Sfida Rampini degli Abissi",
+          "description": "Completa Abissi usando meno di 34 volte il Rampino"
+        },
+        "polish": {
+          "name": "Rozpadliny - Wyzwanie Chwytaka",
+          "description": "Ukończ poziom Rozpadliny używając mniej niż 34 chwycenia"
+        },
+        "schinese": {
+          "name": "Chasms 抓钩挑战",
+          "description": "使用少于 34 次抓钩完成 Chasms。"
+        }
+      }
+    },
+    "STARHAVEN_GRAPPLE_CHALLENGE": {
+      "translations": {
+        "english": {
+          "name": "Star Haven Grapple Challenge",
+          "description": "Complete Star Haven using less than 55 Grapples"
+        },
+        "french": {
+          "name": "Succès de Star Haven",
+          "description": "Terminez Star Haven en utilisant moins de 55 grappins"
+        },
+        "german": {
+          "name": "Sternoase -  Greif-Herausforderung",
+          "description": "Beende Sternoase mit weniger als 55 Griffen"
+        },
+        "italian": {
+          "name": "Sfida Rampini di Oasi Stellare",
+          "description": "Completa Oasi Stellare usando meno di 55 volte il Rampino"
+        },
+        "polish": {
+          "name": "Gwiezdna Przystań - Wyzwanie Chwytaka",
+          "description": "Ukończ poziom Gwiezdna Przystań używając mniej niż 55 chwyceń"
+        },
+        "schinese": {
+          "name": "Star Haven 抓钩挑战",
+          "description": "使用少于 55 次抓钩完成 Star Haven。"
+        }
+      }
+    },
+    "ICECAVE_GRAPPLE_CHALLENGE": {
+      "translations": {
+        "english": {
+          "name": "Ice Cave Grapple Challenge",
+          "description": "Complete Ice Cave using less than 115 Grapples"
+        },
+        "french": {
+          "name": "Succès de la grotte de glace",
+          "description": "Terminez la grotte de glace en utilisant moins de 115 grappins"
+        },
+        "german": {
+          "name": "Eishöhle - Greif-Herausforderung",
+          "description": "Beende Eishöhle mit weniger als 115 Griffen"
+        },
+        "italian": {
+          "name": "Sfida Rampini Caverna di Ghiaccio",
+          "description": "Completa Caverna di Ghiaccio usando meno di 115 volte il Rampino"
+        },
+        "polish": {
+          "name": "Lodowa Grota - Wyzwanie Chwytaka",
+          "description": "Ukończ poziom Lodowa Grota używając mniej niż 115 chwyceń"
+        },
+        "schinese": {
+          "name": "Ice Cave 抓钩挑战",
+          "description": "使用少于 115 次抓钩完成 Ice Cave。"
+        }
+      }
+    },
+    "FLOOR_IS_LAVA": {
+      "translations": {
+        "english": {
+          "name": "\"If he could do it, I could do it too\"",
+          "description": "The floor is lava.. or well, ice."
+        },
+        "french": {
+          "name": "\"Si il peut le faire, je peux le faire aussi\"",
+          "description": "Le sol est de la lave... Ou, eh bien, de la glace."
+        },
+        "german": {
+          "name": "\"Wenn er es tun konnte, konnte ich das auch tun\"",
+          "description": "Der Boden ist Lava.. oder nun ja, Eis."
+        },
+        "italian": {
+          "name": "\"Se ha potuto farlo lui, posso farlo anch'io\"",
+          "description": "Il pavimento è lava... o meglio, ghiaccio."
+        },
+        "polish": {
+          "name": "\"Jeśli on potrafił, to ja też\"",
+          "description": "Podłoga jest lawą... no, lodem."
+        },
+        "schinese": {
+          "name": "他能做到，我也能做到",
+          "description": "地板是熔岩……或者说，是冰。"
+        }
+      }
+    },
+    "ALL_GOLD_MEDALS": {
+      "translations": {
+        "english": {
+          "name": "\"That's gold, Maddie! Gold!\"",
+          "description": "Earn Gold medals on all Time Trial levels"
+        },
+        "french": {
+          "name": "\"C'est de l'or, Maddie! De l'or!\"",
+          "description": "Gagnez la médaille d'or à chaque course contre la montre"
+        },
+        "german": {
+          "name": "\"Das ist Gold, Maddie! Gold!\"",
+          "description": "Verdiene Goldmedaillen auf allen Zeitstrecken"
+        },
+        "italian": {
+          "name": "\"Questo è oro, Maddie! Oro!\"",
+          "description": "Questo è oro, Maddie! Oro!"
+        },
+        "polish": {
+          "name": "\"To złoto, Malino! Złoto!\"",
+          "description": "Zdobądź złote medale we wszystkich Próbach Czasowych"
+        },
+        "schinese": {
+          "name": "那可是金牌，Maddie！金牌！",
+          "description": "在所有计时挑战关卡中获得金牌。"
+        }
+      }
+    },
+    "ALL_COLLECTIBLES_FOUND": {
+      "translations": {
+        "english": {
+          "name": "All Collectibles Found",
+          "description": "Find all 25 Collectables in the game"
+        },
+        "french": {
+          "name": "\"Trésors, trésors...\"",
+          "description": "Trouvez les 25 trésors du jeu"
+        },
+        "german": {
+          "name": "Alle Sammelobjekte gefunden",
+          "description": "Finde alle 25 Sammelobjekte im Spiel"
+        },
+        "italian": {
+          "name": "Tutti i Collezionabili Trovati",
+          "description": "Trova tutti i 25 Collezionabili del gioco"
+        },
+        "polish": {
+          "name": "Znaleziono Wszystkie Maszyny Freda",
+          "description": "Znajdź wszystkie 25 maszyn Freda w grze"
+        },
+        "schinese": {
+          "name": "找到全部收集品",
+          "description": "找到游戏中的全部 25 个收集品。"
+        }
+      }
+    },
+    "SANCTUARY_NO_FAIL": {
+      "translations": {
+        "english": {
+          "name": "Sanctuary Perfect Run",
+          "description": "Complete Sanctuary without failing"
+        },
+        "french": {
+          "name": "Course parfaite au Sanctuaire",
+          "description": "Terminez le sanctuaire sans tomber"
+        },
+        "german": {
+          "name": "Heiligtum - Perfekter Lauf",
+          "description": "Beende Heiligtum ohne zu scheitern"
+        },
+        "italian": {
+          "name": "Santuario, Corsa Perfetta",
+          "description": "Completa Santuario senza cadere"
+        },
+        "polish": {
+          "name": "Sanktuarium - Zero Zgonów",
+          "description": "Ukończ poziom Sanktuarium nie ginąc ani razu"
+        },
+        "schinese": {
+          "name": "Sanctuary 完美通关",
+          "description": "无失败完成 Sanctuary。"
+        }
+      }
+    },
+    "VILLAGE_NO_FAIL": {
+      "translations": {
+        "english": {
+          "name": "Village Perfect Run",
+          "description": "Complete Village without failing"
+        },
+        "french": {
+          "name": "Course parfaite au village",
+          "description": "Terminez le village sans tomber"
+        },
+        "german": {
+          "name": "Dorf - Perfekter Lauf",
+          "description": "Beende Dorf ohne zu scheitern"
+        },
+        "italian": {
+          "name": "Villaggio, Corsa Perfetta",
+          "description": "Completa Villaggio senza cadere"
+        },
+        "polish": {
+          "name": "Wioska - Zero Zgonów",
+          "description": "Ukończ poziom Wioska nie ginąc ani razu"
+        },
+        "schinese": {
+          "name": "Village 完美通关",
+          "description": "无失败完成 Village。"
+        }
+      }
+    },
+    "CHASMS_NO_FAIL": {
+      "translations": {
+        "english": {
+          "name": "Chasms Perfect Run",
+          "description": "Complete Chasms without failing"
+        },
+        "french": {
+          "name": "Course parfaite aux gouffres",
+          "description": "Terminez les gouffres sans tomber"
+        },
+        "german": {
+          "name": "Abgründe - Perfekter Lauf",
+          "description": "Beende Abgründe ohne zu scheitern"
+        },
+        "italian": {
+          "name": "Abissi, Corsa Perfetta",
+          "description": "Completa Abissi senza cadere"
+        },
+        "polish": {
+          "name": "Rozpadliny - Zero Zgonów",
+          "description": "Ukończ poziom Rozpadliny nie ginąc ani razu"
+        },
+        "schinese": {
+          "name": "Chasms 完美通关",
+          "description": "无失败完成 Chasms。"
+        }
+      }
+    },
+    "STARHAVEN_NO_FAIL": {
+      "translations": {
+        "english": {
+          "name": "Star Haven Perfect Run",
+          "description": "Complete Star Haven without failing"
+        },
+        "french": {
+          "name": "Course parfaite à Star Haven",
+          "description": "Terminez Star Haven sans tomber"
+        },
+        "german": {
+          "name": "Sternoase - Perfekter Lauf",
+          "description": "Beende Sternoase ohne zu scheitern"
+        },
+        "italian": {
+          "name": "Oasi Stellare, Corsa Perfetta",
+          "description": "Completa Oasi Stellare senza cadere"
+        },
+        "polish": {
+          "name": "Gwiezdna Przystań - Zero Zgonów",
+          "description": "Ukończ poziom Gwiezdna Przystań nie ginąc ani razu"
+        },
+        "schinese": {
+          "name": "Star Haven 完美通关",
+          "description": "无失败完成 Star Haven。"
+        }
+      }
+    },
+    "ICECAVE_NO_FAIL": {
+      "translations": {
+        "english": {
+          "name": "Ice Cave Perfect Run",
+          "description": "Complete Ice Cave without failing"
+        },
+        "french": {
+          "name": "Course parfaite dans la grotte de glace",
+          "description": "Terminez la grotte de glace sans tomber"
+        },
+        "german": {
+          "name": "Eishöhle - Perfekter Lauf",
+          "description": "Beende Eishöhle ohne zu scheitern"
+        },
+        "italian": {
+          "name": "Caverna di Ghiaccio, Corsa Perfetta",
+          "description": "Completa Caverna di Ghiaccio senza cadere"
+        },
+        "polish": {
+          "name": "Lodowa Grota - Zero Zgonów",
+          "description": "Ukończ poziom Lodowa Grota nie ginąc ani razu"
+        },
+        "schinese": {
+          "name": "Ice Cave 完美通关",
+          "description": "无失败完成 Ice Cave。"
+        }
+      }
+    },
+    "INTERACT_ALL_STORY": {
+      "translations": {
+        "english": {
+          "name": "Filled with Wanderlust",
+          "description": "Interact with all the optional story objects"
+        },
+        "french": {
+          "name": "Rempli de nostalgie",
+          "description": "Interagissez avec tous les objets liés à l'histoire"
+        },
+        "german": {
+          "name": "Gefüllt mit Fernweh",
+          "description": "Interagiere mit allen optionalen Geschichtsobjekten"
+        },
+        "italian": {
+          "name": "Pieno di voglia di viaggiare",
+          "description": "Interagisci con tutti gli oggetti facoltativi della storia"
+        },
+        "polish": {
+          "name": "Żądza Eksploracji",
+          "description": "Wejdź w interakcję ze wszystkimi opcjonalnymi obiektami dotyczącymi opowieści"
+        },
+        "schinese": {
+          "name": "满怀远行渴望",
+          "description": "与所有可选剧情物件互动。"
+        }
+      }
+    }
+  }
+}

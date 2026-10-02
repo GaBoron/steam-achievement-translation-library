@@ -1,0 +1,4360 @@
+{
+  "version": 1,
+  "app_id": "298110",
+  "variant_id": "default",
+  "source_sha256": "44ccc79de8a29e08f1969c087e76516d3b9906327ffe9789e03e357f86b31202",
+  "languages": [
+    "brazilian",
+    "czech",
+    "danish",
+    "dutch",
+    "english",
+    "finnish",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "koreana",
+    "norwegian",
+    "polish",
+    "portuguese",
+    "russian",
+    "schinese",
+    "spanish",
+    "swedish"
+  ],
+  "achievements": {
+    "FarCry4_Ach_1": {
+      "translations": {
+        "brazilian": {
+          "name": "Bem-vindo a Kyrat",
+          "description": "Junte-se ao Caminho Dourado (somente Campanha)."
+        },
+        "czech": {
+          "name": "Vítejte v Kyratu",
+          "description": "Pripojte se ke Zlaté stezce (pouze kampan)."
+        },
+        "danish": {
+          "name": "Velkommen til Kyrat",
+          "description": "Slut dig til Den gyldne sti (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Welkom in Kyrat",
+          "description": "Sluit je aan bij het Gouden Pad (alleen campagne)."
+        },
+        "english": {
+          "name": "Welcome to Kyrat",
+          "description": "Join the Golden Path (Campaign only)."
+        },
+        "finnish": {
+          "name": "Tervetuloa Kyratiin",
+          "description": "Liity Kultaiseen polkuun (vain kampanja)."
+        },
+        "french": {
+          "name": "Bienvenue au Kyrat",
+          "description": "Rejoindre le Sentier d'Or (campagne uniquement)."
+        },
+        "german": {
+          "name": "Willkommen in Kyrat",
+          "description": "Schließe dich dem Goldenen Pfad an (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Benvenuto nel Kyrat",
+          "description": "Unisciti al Sentiero d'oro (solo Campagna)."
+        },
+        "japanese": {
+          "name": "キラットへようこそ",
+          "description": "ゴールデン・パスに参加する（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "키라트에 오신 것을 환영합니다.",
+          "description": "골든 패스에 합류하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Velkommen til Kyrat",
+          "description": "Bli med i Den gylne sti (bare historien)."
+        },
+        "polish": {
+          "name": "Witaj w Kyracie",
+          "description": "Dołącz do Złotego Szlaku (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Bem-vindo a Kyrat",
+          "description": "Junte-se ao Caminho Dourado (somente Campanha)."
+        },
+        "russian": {
+          "name": "Добро пожаловать в Кират",
+          "description": "Присоединитесь к Золотому пути. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "欢迎来到凯拉特",
+          "description": "加入黄金之路"
+        },
+        "spanish": {
+          "name": "Bienvenido a Kyrat",
+          "description": "Únete a la Senda Dorada (solo campaña)."
+        },
+        "swedish": {
+          "name": "Välkommen till Kyrat",
+          "description": "Gå med i Gyllene stigen (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_2": {
+      "translations": {
+        "brazilian": {
+          "name": "Um a Menos",
+          "description": "Decida o destino do De Pleur (somente Campanha)."
+        },
+        "czech": {
+          "name": "Jeden je z krku",
+          "description": "Rozhodnete o De Pleurove osudu (pouze kampan)."
+        },
+        "danish": {
+          "name": "Det var én",
+          "description": "Afgør De Pleurs skæbne (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Dat is één",
+          "description": "Beslis over het lot van De Pleur (alleen campagne)."
+        },
+        "english": {
+          "name": "One Down",
+          "description": "Decide De Pleur's fate (Campaign only)."
+        },
+        "finnish": {
+          "name": "Yksi hoidettu",
+          "description": "Päätä de Pleurin kohtalo (vain kampanja)."
+        },
+        "french": {
+          "name": "Et de un",
+          "description": "Décider du sort de De Pleur (campagne uniquement)."
+        },
+        "german": {
+          "name": "Einer weniger",
+          "description": "Entscheide über de Pleurs Schicksal (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Meno uno",
+          "description": "Decidi il destino di De Pleur (solo Campagna)."
+        },
+        "japanese": {
+          "name": "ワンダウン",
+          "description": "デプルールの運命を決める（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "원 아웃",
+          "description": "드 플뢰르의 운명을 결정하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Én nede",
+          "description": "Bestem De Pleurs skjebne (bare historien)."
+        },
+        "polish": {
+          "name": "Jeden do zera",
+          "description": "Zdecyduj o losie De Pleura (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Um a Menos",
+          "description": "Decida o destino do De Pleur (somente Campanha)."
+        },
+        "russian": {
+          "name": "Минус один",
+          "description": "Определите участь де Плера. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "先下一城",
+          "description": "决定德普勒的命运"
+        },
+        "spanish": {
+          "name": "Uno menos",
+          "description": "Decide el destino de De Pleur (solo campaña)."
+        },
+        "swedish": {
+          "name": "En nere",
+          "description": "Bestäm De Pleurs öde (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_3": {
+      "translations": {
+        "brazilian": {
+          "name": "Overdose",
+          "description": "Descubra Shangri-La (somente Campanha)."
+        },
+        "czech": {
+          "name": "Predávkování",
+          "description": "Objevte Šangri-La (pouze kampan)."
+        },
+        "danish": {
+          "name": "Psykedelisk",
+          "description": "Find Shangri-La (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Overdosis",
+          "description": "Ontdek Shangri-La (alleen campagne)."
+        },
+        "english": {
+          "name": "Overdose",
+          "description": "Discover Shangri-La (Campaign only)."
+        },
+        "finnish": {
+          "name": "Henkinen yliannostus",
+          "description": "Löydä Shangri-La (vain kampanja)."
+        },
+        "french": {
+          "name": "Overdose",
+          "description": "Découvrir Shangri-La (campagne uniquement)."
+        },
+        "german": {
+          "name": "Überdosis",
+          "description": "Entdecke Shangri-La (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Siringa",
+          "description": "Scopri lo Shangri-La (solo Campagna)."
+        },
+        "japanese": {
+          "name": "オーバードース",
+          "description": "シャングリラを発見する（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "정신 중독",
+          "description": "샹그릴라를 탐험하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Overdose",
+          "description": "Oppdag Shangri-La (bare historien)."
+        },
+        "polish": {
+          "name": "Przedawkowanie",
+          "description": "Odkryj Shangri-La (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Overdose",
+          "description": "Descubra Shangri-La (somente Campanha)."
+        },
+        "russian": {
+          "name": "Передозировка",
+          "description": "Попадите в Шангри-Ла"
+        },
+        "schinese": {
+          "name": "用药过量",
+          "description": "找到香格里拉"
+        },
+        "spanish": {
+          "name": "Sobredosis",
+          "description": "Descubre Shangri-La (solo campaña)."
+        },
+        "swedish": {
+          "name": "Överdos",
+          "description": "Upptäck Shangri-La (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_5": {
+      "translations": {
+        "brazilian": {
+          "name": "Dois a Menos",
+          "description": "Decida o destino de Noore (somente Campanha)."
+        },
+        "czech": {
+          "name": "Dva jsou z krku",
+          "description": "Rozhodnete o osudu Noore (pouze kampan)."
+        },
+        "danish": {
+          "name": "Det var to",
+          "description": "Afgør Noores skæbne (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Dat is twee",
+          "description": "Beslis over het lot van Noore (alleen campagne)."
+        },
+        "english": {
+          "name": "Two Down",
+          "description": "Decide Noore's fate (Campaign only)."
+        },
+        "finnish": {
+          "name": "Kaksi hoidettu",
+          "description": "Päätä Nooren kohtalo (vain kampanja)."
+        },
+        "french": {
+          "name": "Et de deux",
+          "description": "Décider du sort de Noore (campagne uniquement)."
+        },
+        "german": {
+          "name": "Zwei weniger",
+          "description": "Entscheide über Noores Schicksal (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Meno due",
+          "description": "Decidi il destino di Noore (solo Campagna)."
+        },
+        "japanese": {
+          "name": "ツーダウン",
+          "description": "ヌーアの運命を決める（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "투 아웃",
+          "description": "누르의 운명을 결정하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "To nede",
+          "description": "Bestem Noores skjebne (bare historien)."
+        },
+        "polish": {
+          "name": "Dwa do zera",
+          "description": "Zdecyduj o losie Noore (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Dois a Menos",
+          "description": "Decida o destino de Noore (somente Campanha)."
+        },
+        "russian": {
+          "name": "Минус два",
+          "description": "Определите участь Нур. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "再下一城",
+          "description": "决定诺尔的命运"
+        },
+        "spanish": {
+          "name": "Dos menos",
+          "description": "Decide el destino de Noore (solo campaña)."
+        },
+        "swedish": {
+          "name": "Två nere",
+          "description": "Bestäm Noores öde (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_7": {
+      "translations": {
+        "brazilian": {
+          "name": "Sucesso Triplo",
+          "description": "Decida o destino de Yuma (somente Campanha)."
+        },
+        "czech": {
+          "name": "Hattrick",
+          "description": "Rozhodnete o osudu Yumy (pouze kampan)."
+        },
+        "danish": {
+          "name": "Hattrick",
+          "description": "Afgør Yumas skæbne (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Dat is drie",
+          "description": "Beslis over het lot van Yuma (alleen campagne)."
+        },
+        "english": {
+          "name": "Hat-Trick",
+          "description": "Decide Yuma's fate (Campaign only)."
+        },
+        "finnish": {
+          "name": "Hattutemppu",
+          "description": "Päätä Yuman kohtalo (vain kampanja)."
+        },
+        "french": {
+          "name": "Coup du chapeau",
+          "description": "Décider du sort de Yuma (campagne uniquement)."
+        },
+        "german": {
+          "name": "Hattrick",
+          "description": "Entscheide über Yumas Schicksal (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Tripletta",
+          "description": "Decidi il destino di Yuma (solo Campagna)."
+        },
+        "japanese": {
+          "name": "ハットトリック",
+          "description": "ユマの運命を決める（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "해트 트릭",
+          "description": "유마의 운명을 결정하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Hat trick",
+          "description": "Bestem Yumas skjebne (bare historien)."
+        },
+        "polish": {
+          "name": "Hat-trick",
+          "description": "Zdecyduj o losie Yumy (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Sucesso Triplo",
+          "description": "Decida o destino de Yuma (somente Campanha)."
+        },
+        "russian": {
+          "name": "Хет-трик",
+          "description": "Определите участь Юмы. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "帽子戏法",
+          "description": "决定悠玛的命运"
+        },
+        "spanish": {
+          "name": "Tres seguidos",
+          "description": "Decide el destino de Yuma (solo campaña)."
+        },
+        "swedish": {
+          "name": "Hat trick",
+          "description": "Bestäm Yumas öde (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_8": {
+      "translations": {
+        "brazilian": {
+          "name": "O Rei Está Morto",
+          "description": "Decida o destino de Pagan Min (somente Campanha)."
+        },
+        "czech": {
+          "name": "Král je mrtev",
+          "description": "Rozhodnete o osudu Pagan Mina (pouze kampan)."
+        },
+        "danish": {
+          "name": "Kongens fald",
+          "description": "Afgør Pagan Mins skæbne (kun kampagne)."
+        },
+        "dutch": {
+          "name": "De koning is dood",
+          "description": "Beslis over het lot van Pagan Min (alleen campagne)."
+        },
+        "english": {
+          "name": "The King Is Dead",
+          "description": "Decide Pagan Min's fate (Campaign only)."
+        },
+        "finnish": {
+          "name": "Kuningas on kuollut",
+          "description": "Päätä Pakana Minin kohtalo (vain kampanja)."
+        },
+        "french": {
+          "name": "Le roi est mort",
+          "description": "Décider du sort de Pagan Min (campagne uniquement)."
+        },
+        "german": {
+          "name": "Der König ist tot",
+          "description": "Entscheide über Pagan Mins Schicksal (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Il re è morto",
+          "description": "Decidi il destino di Pagan Min (solo Campagna)."
+        },
+        "japanese": {
+          "name": "王は死んだ",
+          "description": "パガン・ミンの運命を決める（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "왕의 죽음",
+          "description": "페이건 민의 운명을 결정하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Kongen er død",
+          "description": "Bestem Pagan Mins skjebne (bare historien)."
+        },
+        "polish": {
+          "name": "Król nie żyje",
+          "description": "Zdecyduj o losie Pagana Mina (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "O Rei Está Morto",
+          "description": "Decida o destino de Pagan Min (somente Campanha)."
+        },
+        "russian": {
+          "name": "Король умер",
+          "description": "Определите участь Пэйгана Мина. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "国王已死",
+          "description": "决定贝根明的命运"
+        },
+        "spanish": {
+          "name": "El rey ha muerto",
+          "description": "Decide el destino de Pagan Min (solo campaña)."
+        },
+        "swedish": {
+          "name": "Kungen är död",
+          "description": "Bestäm Pagan Mins öde (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_9": {
+      "translations": {
+        "brazilian": {
+          "name": "Livrai-nos do Mal",
+          "description": "Liberte 12 postos avançados (somente Campanha)."
+        },
+        "czech": {
+          "name": "Zbav nás od zlého",
+          "description": "Osvobodte 14 stanovišt (pouze kampan)."
+        },
+        "danish": {
+          "name": "Fri os fra det onde",
+          "description": "Befri 12 forposter (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Verlos ons van het kwaad",
+          "description": "Bevrijd 12 buitenposten (alleen campagne)."
+        },
+        "english": {
+          "name": "Deliver Us From Evil",
+          "description": "Liberate 12 Outposts (Campaign only)."
+        },
+        "finnish": {
+          "name": "Päästä meidät pahasta",
+          "description": "Vapauta 12 etuvartiota (vain kampanja)."
+        },
+        "french": {
+          "name": "Délivrez-nous du mal",
+          "description": "Libérer 12 avant-postes (campagne uniquement)."
+        },
+        "german": {
+          "name": "Erlöse uns von dem Bösen",
+          "description": "Befreie 12 Außenposten (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Liberaci dal male",
+          "description": "Libera 12 avamposti (solo Campagna)."
+        },
+        "japanese": {
+          "name": "我々を悪から救いたまえ",
+          "description": "12の基地を解放する（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "악에서 구원하소서",
+          "description": "전초기지 12곳을 해방하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Frels oss fra det onde",
+          "description": "Frigjør 12 utposter (bare historien)."
+        },
+        "polish": {
+          "name": "Zbaw nas ode złego",
+          "description": "Wyzwól 12 strażnic (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Livrai-nos do Mal",
+          "description": "Liberte 12 postos avançados (somente Campanha)."
+        },
+        "russian": {
+          "name": "Избави нас от лукавого",
+          "description": "Освободите 12 аванпостов. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "助我们远离恶人",
+          "description": "解放 12 个哨站"
+        },
+        "spanish": {
+          "name": "Líbranos del mal",
+          "description": "Libera 12 puestos (solo campaña)."
+        },
+        "swedish": {
+          "name": "Befria oss från ondskan",
+          "description": "Befria 12 utposter (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_10": {
+      "translations": {
+        "brazilian": {
+          "name": "Tudo Livre",
+          "description": "Liberte todos os postos avançados (somente Campanha)."
+        },
+        "czech": {
+          "name": "Cistý vzduch",
+          "description": "Osvobodte všechna stanovište (pouze kampan)."
+        },
+        "danish": {
+          "name": "Alt vel",
+          "description": "Befri alle forposter (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Alles veilig",
+          "description": "Bevrijd alle buitenposten (alleen campagne)."
+        },
+        "english": {
+          "name": "All Clear",
+          "description": "Liberate all Outposts (Campaign only)."
+        },
+        "finnish": {
+          "name": "Vaara ohi",
+          "description": "Vapauta kaikki etuvartiot (vain kampanja)."
+        },
+        "french": {
+          "name": "Libération totale",
+          "description": "Libérer tous les avant-postes (campagne uniquement)."
+        },
+        "german": {
+          "name": "Alles gesichert",
+          "description": "Befreie alle Außenposten (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Tana libera tutti",
+          "description": "Libera tutti gli avamposti (solo Campagna)."
+        },
+        "japanese": {
+          "name": "オールクリア",
+          "description": "すべての基地を解放する（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "경보 해제",
+          "description": "모든 전초기지를 해방하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Rent bord",
+          "description": "Frigjør alle utpostene (bare historien)."
+        },
+        "polish": {
+          "name": "Czysto",
+          "description": "Wyzwól wszystkie strażnice (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Tudo Livre",
+          "description": "Liberte todos os postos avançados (somente Campanha)."
+        },
+        "russian": {
+          "name": "Все свободны",
+          "description": "Освободите все аванпосты. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "全线肃清",
+          "description": "解放所有哨站"
+        },
+        "spanish": {
+          "name": "Todo despejado",
+          "description": "Libera todos los puestos (solo campaña)."
+        },
+        "swedish": {
+          "name": "Befriat och klart",
+          "description": "Befria alla utposter (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_11": {
+      "translations": {
+        "brazilian": {
+          "name": "Ande com Cuidado",
+          "description": "Liberte qualquer posto avançado sem ativar um alarme em qualquer modo (somente Campanha)."
+        },
+        "czech": {
+          "name": "Opatrné nakracování",
+          "description": "Osvobodte stanovište v jakémkoli režimu bez spuštení poplachu (pouze kampan)."
+        },
+        "danish": {
+          "name": "Helt forsigtigt",
+          "description": "Befri en forpost uden at udløse alarmen (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Muisstil",
+          "description": "Bevrijd een buitenpost zonder alarmen te laten afgaan in een willekeurig speltype (alleen campagne)."
+        },
+        "english": {
+          "name": "Tread Lightly",
+          "description": "Liberate any Outpost without triggering an alarm in any mode (Campaign only)."
+        },
+        "finnish": {
+          "name": "Liiku varovaisesti",
+          "description": "Vapauta mikä tahansa etuvartio ilman hälytystä missä tahansa tilassa (vain kampanja)."
+        },
+        "french": {
+          "name": "À pas de loup",
+          "description": "Libérer un avant-poste sans déclencher d'alarme (mode indifférent ; campagne uniquement)."
+        },
+        "german": {
+          "name": "Vorsicht geboten",
+          "description": "Befreie einen beliebigen Außenposten in einem beliebigen Modus, ohne Alarm auszulösen (Kampagne)."
+        },
+        "italian": {
+          "name": "Passi felpati",
+          "description": "Libera un avamposto in qualsiasi modalità senza far scattare l'allarme (solo Campagna)."
+        },
+        "japanese": {
+          "name": "忍び足",
+          "description": "いずれかのモードで警報器を鳴らすことなく基地を解放する（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "살금살금",
+          "description": "어떤 모드에서도 경보를 울리지 않고 전초기지를 해방하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Trå varsomt",
+          "description": "Frigjør en utpost uten å utløse en alarm i hvilken som helst modus (bare historien)."
+        },
+        "polish": {
+          "name": "Stąpaj ostrożnie",
+          "description": "Wyzwól dowolną strażnicę bez wywoływania alarmu (dowolny tryb,  tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Ande com Cuidado",
+          "description": "Liberte qualquer posto avançado sem ativar um alarme em qualquer modo (somente Campanha)."
+        },
+        "russian": {
+          "name": "Легкие шаги",
+          "description": "Освободите аванпост, не подняв тревогу. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "轻手轻脚",
+          "description": "不触发警报的情况下解放一个哨站"
+        },
+        "spanish": {
+          "name": "Anda con cuidado",
+          "description": "Libera cualquier puesto en cualquier modo sin activar ninguna alarma (solo campaña)."
+        },
+        "swedish": {
+          "name": "Konflikträdd",
+          "description": "Befria valfri utpost utan att aktivera ett alarm i valfritt läge (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_12": {
+      "translations": {
+        "brazilian": {
+          "name": "Fim da Transmissão",
+          "description": "Liberte 8 torres do sino (somente Campanha)."
+        },
+        "czech": {
+          "name": "Konec vysílání",
+          "description": "Osvobodte 8 zvonic (pouze kampan)."
+        },
+        "danish": {
+          "name": "Radiotavshed",
+          "description": "Befri otte klokketårne (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Ik weet waar de klepel hangt",
+          "description": "Bevrijd 8 klokkentorens (alleen campagne)."
+        },
+        "english": {
+          "name": "End Transmission",
+          "description": "Liberate 8 Bell Towers (Campaign only)."
+        },
+        "finnish": {
+          "name": "Lähetys päättyi",
+          "description": "Vapauta 8 kellotornia (vain kampanja)."
+        },
+        "french": {
+          "name": "Fin de la transmission",
+          "description": "Libérer 8 clochers (campagne uniquement)."
+        },
+        "german": {
+          "name": "Sendeschluss",
+          "description": "Befreie 8 Glockentürme (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Fine delle trasmissioni",
+          "description": "Libera 8 torri (solo Campagna)."
+        },
+        "japanese": {
+          "name": "放送終了",
+          "description": "8つのベルタワーを解放する（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "방송 종료",
+          "description": "종탑 8곳을 해방하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Over og ut",
+          "description": "Frigjør 8 klokketårn (bare historien)."
+        },
+        "polish": {
+          "name": "Koniec przekazu",
+          "description": "Wyzwól 8 dzwonnic (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Fim da Transmissão",
+          "description": "Liberte 8 torres do sino (somente Campanha)."
+        },
+        "russian": {
+          "name": "Передача окончена",
+          "description": "Освободите 8 колоколен. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "信号中断",
+          "description": "解放 8 个钟楼"
+        },
+        "spanish": {
+          "name": "Fin de la transmisión",
+          "description": "Libera 8 campanarios (solo campaña)."
+        },
+        "swedish": {
+          "name": "Radiotystnad",
+          "description": "Befria 8 klocktorn (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_13": {
+      "translations": {
+        "brazilian": {
+          "name": "Exibição de Força",
+          "description": "Conquiste 2 fortalezas (somente Campanha)."
+        },
+        "czech": {
+          "name": "Dukaz síly",
+          "description": "Obsadte 2 pevnosti (pouze kampan)."
+        },
+        "danish": {
+          "name": "Bolværker og sjælestyrke",
+          "description": "Indtag to fæstninger (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Fortuinlijk",
+          "description": "Verover 2 forten (alleen campagne)."
+        },
+        "english": {
+          "name": "Display Of Fortitude",
+          "description": "Conquer 2 Fortresses (Campaign only)."
+        },
+        "finnish": {
+          "name": "Voimanosoitus",
+          "description": "Valloita 2 linnoitusta (vain kampanja)."
+        },
+        "french": {
+          "name": "Étalage de force",
+          "description": "Conquérir 2 forteresses (campagne uniquement)."
+        },
+        "german": {
+          "name": "Ein Zeichen der Stärke",
+          "description": "Erobere 2 Festungen (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Dimostrazione di fortezza",
+          "description": "Conquista 2 fortezze (solo Campagna)."
+        },
+        "japanese": {
+          "name": "勇気の証明",
+          "description": "2つの要塞を征服する（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "꿋꿋함의 표상",
+          "description": "요새 2곳을 점령하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Befest posisjonen",
+          "description": "Erobre 2 festninger (bare historien)."
+        },
+        "polish": {
+          "name": "Pokaz siły",
+          "description": "Podbij 2 fortece (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Exibição de Força",
+          "description": "Conquiste 2 fortalezas (somente Campanha)."
+        },
+        "russian": {
+          "name": "Демонстрация силы",
+          "description": "Захватите 2 крепости. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "坚毅之举",
+          "description": "征服 2 个要塞"
+        },
+        "spanish": {
+          "name": "Exhibición de fuerza",
+          "description": "Conquista 2 fortalezas (solo campaña)."
+        },
+        "swedish": {
+          "name": "Styrkebevis",
+          "description": "Erövra 2 fästningar (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_14": {
+      "translations": {
+        "brazilian": {
+          "name": "Eclético",
+          "description": "Complete quaisquer 6 tarefas de Caça (Entrega, Controle, Sobrevivência) (somente Campanha)."
+        },
+        "czech": {
+          "name": "Pravý univerzál",
+          "description": "Dokoncete 6 loveckých úkolu (typy Zásoby, Snižování stavu, Prežití) (pouze kampan)."
+        },
+        "danish": {
+          "name": "I ét med naturen",
+          "description": "Gennemfør seks Jagt-sideopgaver (forsyninger, kontrol, overlevelse) (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Alleskunner",
+          "description": "Voltooi 6 willekeurige optionele jachtopdrachten (Voorraden, Controle, Overleven) (alleen campagne)."
+        },
+        "english": {
+          "name": "Well-Rounded",
+          "description": "Complete any 6 Hunting quests (Supplies, Control, Survival) (Campaign only)."
+        },
+        "finnish": {
+          "name": "Yleismies",
+          "description": "Suorita 6 mitä tahansa Metsästys-sivutehtävää (Tarvikkeet, Hallinta, Selviytyminen) (vain kampanja)."
+        },
+        "french": {
+          "name": "Bel équilibre",
+          "description": "Terminer 6 quêtes de chasse (Réserves, Contrôle, Survie ; campagne uniquement)."
+        },
+        "german": {
+          "name": "Vielseitigkeitsjäger",
+          "description": "Schließe 6 beliebige Jagd-Aufgaben (Vorräte, Kontrolle, Überleben) ab (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Tuttofare",
+          "description": "Completa 6 missioni Caccia qualsiasi (Scorte, Disinfestazione, Sopravvivenza) (solo Campagna)."
+        },
+        "japanese": {
+          "name": "多才",
+          "description": "6つの狩りクエストを完了する（物資、駆除、サバイバル）（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "다재다능",
+          "description": "사냥 관련 퀘스트(보급, 통제, 생존) 6개를 완료하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Allsidig jeger",
+          "description": "Fullfør 6 jaktoppgaver (Forsyninger, Kontroll, Overlevelse) (bare historien)."
+        },
+        "polish": {
+          "name": "Wszechstronny",
+          "description": "Ukończ 6 dowolnych zadań typu Polowanie (Zapasy, Oczyszczanie, Przeżycie) (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Eclético",
+          "description": "Complete quaisquer 6 tarefas de Caça (Entrega, Controle, Sobrevivência) (somente Campanha)."
+        },
+        "russian": {
+          "name": "Универсальный охотник",
+          "description": "Выполните 6 заданий \"Охота\": поставки, выживание или контроль популяции. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "全能猎人",
+          "description": "完成任意 6 个猎杀任务(供给,控制,生存)"
+        },
+        "spanish": {
+          "name": "Equilibrado",
+          "description": "Completa 6 encargos de Caza (Suministros, Control, Supervivencia) (solo campaña)."
+        },
+        "swedish": {
+          "name": "Fullkomlig",
+          "description": "Klara av 6 jaktuppgifter (resurser, utrota, överlevnad) (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_15": {
+      "translations": {
+        "brazilian": {
+          "name": "Homem do Gatilho",
+          "description": "Complete 3 tarefas de Assassinato ou Olho por Olho (somente Campanha)."
+        },
+        "czech": {
+          "name": "Strílející hrdina",
+          "description": "Dokoncete 3 úkoly typu Vražda a Oko za oko (pouze kampan)."
+        },
+        "danish": {
+          "name": "Bødlen",
+          "description": "Gennemfør tre Snigmord- eller Øje for øje-sideopgaver (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Koele kikker",
+          "description": "Voltooi 3 optionele moord- of oog-om-oog-opdrachten (alleen campagne)."
+        },
+        "english": {
+          "name": "Trigger-Man",
+          "description": "Complete 3 Assassination or Eye for an Eye quests (Campaign only)."
+        },
+        "finnish": {
+          "name": "Liipaisinsormi",
+          "description": "Suorita 3 Salamurha- tai Silmä silmästä -sivutehtävää (vain kampanja)."
+        },
+        "french": {
+          "name": "Gâchette facile",
+          "description": "Terminer 3 quêtes Assassinat ou Œil pour œil (campagne uniquement)."
+        },
+        "german": {
+          "name": "Den Finger am Abzug",
+          "description": "Schließe 3 „Attentat”- oder „Auge um Auge“-Aufgaben ab (nur Kampagne)."
+        },
+        "italian": {
+          "name": "L'uomo dietro il mirino",
+          "description": "Completa 3 missioni Assassinio oppure Occhio per occhio (solo Campagna)."
+        },
+        "japanese": {
+          "name": "殺し屋",
+          "description": "3つの暗殺または目には目をクエストを完了する（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "암살자",
+          "description": "눈에는 눈 퀘스트에서 암살이나 감시 3건을 완료하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Fingeren på avtrekkeren",
+          "description": "Fullfør 3 sideoppgaver i Attentat- eller Øye for øye-serien (bare historien)."
+        },
+        "polish": {
+          "name": "Cyngiel",
+          "description": "Ukończ 3 zadania typu Zabójstwo lub Oko za oko (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Homem do Gatilho",
+          "description": "Complete 3 tarefas de Assassinato ou Olho por Olho (somente Campanha)."
+        },
+        "russian": {
+          "name": "Стрелок",
+          "description": "Выполните 3 задания \"Устранение\" или \"Око за око\". (Только в кампании)"
+        },
+        "schinese": {
+          "name": "杀手",
+          "description": "完成 3 个以牙还牙或者刺杀任务"
+        },
+        "spanish": {
+          "name": "Ejecutor",
+          "description": "Completa 3 encargos de Ojo por ojo o Asesinato (solo campaña)."
+        },
+        "swedish": {
+          "name": "Lite våld löser det mesta",
+          "description": "Klara av 3 lönnmord- eller öga för öga-uppgifter (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_16": {
+      "translations": {
+        "brazilian": {
+          "name": "Ninguém Fica para Trás",
+          "description": "Resgate 15 reféns em tarefas de Resgate de Reféns (somente Campanha)."
+        },
+        "czech": {
+          "name": "Nikoho tu nenecháme",
+          "description": "Zachrante 15 rukojmí v úkolech typu Záchrana rukojmí (pouze kampan)."
+        },
+        "danish": {
+          "name": "Én for alle",
+          "description": "Red 15 gidsler i Gidsel-opgaver (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Geen achterblijvers",
+          "description": "Red 15 gijzelaars tijdens gijzelaarsopdrachten (alleen campagne)."
+        },
+        "english": {
+          "name": "No One Left Behind",
+          "description": "Rescue 15 hostages in Hostage Rescue quests (Campaign only)."
+        },
+        "finnish": {
+          "name": "Toveria ei jätetä",
+          "description": "Pelasta 15 panttivankia Panttivangin pelastus -sivutehtävissä (vain kampanja)."
+        },
+        "french": {
+          "name": "Sauveteur au grand cœur",
+          "description": "Sauver 15 otages dans des quêtes Libération d'otages (campagne uniquement)."
+        },
+        "german": {
+          "name": "Keiner bleibt zurück",
+          "description": "Rette 15 Geiseln in Geiselrettungs-Aufgaben (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Non abbandono nessuno",
+          "description": "Salva 15 ostaggi in missioni Salvataggio ostaggi (solo Campagna)."
+        },
+        "japanese": {
+          "name": "置き去り禁止",
+          "description": "15人の人質を人質救助クエストで救出する（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "전원 구출",
+          "description": "인질 퀘스트에서 인질 15명을 구하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Alle skal med",
+          "description": "Redd 15 gisler i gisseloppgaver (bare historien)."
+        },
+        "polish": {
+          "name": "Nikogo nie zostawiamy",
+          "description": "Wyzwól 15 zakładników w zadaniach typu Zakładnicy (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Ninguém Fica para Trás",
+          "description": "Resgate 15 reféns em tarefas de Resgate de Reféns (somente Campanha)."
+        },
+        "russian": {
+          "name": "Своих не бросаем",
+          "description": "Спасите 15 заложников в заданиях \"Спасение заложников\". (Только в кампании)"
+        },
+        "schinese": {
+          "name": "一个不落",
+          "description": "在人质救援任务里总共营救15名人质"
+        },
+        "spanish": {
+          "name": "Sin olvidar a nadie",
+          "description": "Rescata a 15 rehenes en encargos de Rescate de rehenes (solo campaña)."
+        },
+        "swedish": {
+          "name": "Vi lämnar ingen bakom",
+          "description": "Rädda 15 gisslan i gisslanräddningsuppgifter (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_17": {
+      "translations": {
+        "brazilian": {
+          "name": "Louco por Carros",
+          "description": "Complete 3 atividades de Filmes Kyrati: Corrida ou Filmes Kyrati: Sobrevivência (somente Campanha)."
+        },
+        "czech": {
+          "name": "Závodní nadšenec",
+          "description": "Dokoncete 3 aktivity Kyrati Films: Závod nebo Kyrati Films: Prežití (pouze kampan)."
+        },
+        "danish": {
+          "name": "Motornørd",
+          "description": "Gennemfør tre Kyratisk Film: Racerløb- eller Overlevelses-udfordringer (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Filmster",
+          "description": "Voltooi 3 racen- of overleven-uitdagingen van Kyratifilms (alleen campagne)."
+        },
+        "english": {
+          "name": "Gearhead",
+          "description": "Complete 3 Kyrati Films: Racing or Kyrati Films: Survival activities (Campaign only)."
+        },
+        "finnish": {
+          "name": "Rasvanäppi",
+          "description": "Suorita 3 Kyrati Filmsin Kilpa-ajo- tai Selviytyminen-haastetta (vain kampanja)."
+        },
+        "french": {
+          "name": "Cinéphile",
+          "description": "Terminer 3 activités Films kyratis : Course ou Survie (campagne uniquement)."
+        },
+        "german": {
+          "name": "Benzin im Blut",
+          "description": "Schließe 3 „Kyrati Films: Rennen”- oder „Kyrati Films: Überleben”-Aktivitäten ab (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Patito di motori",
+          "description": "Completa 3 attività Kyrati Films: Corse o Sopravvivenza (solo Campagna)."
+        },
+        "japanese": {
+          "name": "ギアヘッド",
+          "description": "3つのキラット・フィルムを完了する：レースまたはキラット・フィルム：サバイバル活動（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "기어 헤드",
+          "description": "샤르마 필름(레이싱 또는 생존 활동) 3건을 완료하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Fartsfantast",
+          "description": "Fullfør 3 Kyrat Film: Kappløp- eller Overlevelse-utfordringer (bare historien)."
+        },
+        "polish": {
+          "name": "Rajdowiec",
+          "description": "Ukończ 3 wyzwania Kyrati Films - Wyścigi lub Przeżycie (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Louco por Carros",
+          "description": "Complete 3 atividades de Filmes Kyrati: Corrida ou Filmes Kyrati: Sobrevivência (somente Campanha)."
+        },
+        "russian": {
+          "name": "Гонщик",
+          "description": "Выполните 3 задания киностудии \"Кират\": гонки или гонки на выживание. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "飙车狂",
+          "description": "完成 3 个凯拉特影业(竞速,生存)"
+        },
+        "spanish": {
+          "name": "Loco del motor",
+          "description": "Completa 3 actividades de Kyrati Films: Carreras o Kyrati Films: Supervivencia (solo campaña)."
+        },
+        "swedish": {
+          "name": "Äventyrare",
+          "description": "Klara av 3 Kyrati Films: Racing- eller överlevnadsutmaningar (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_18": {
+      "translations": {
+        "brazilian": {
+          "name": "Defensor",
+          "description": "Afaste 3 grupos de retaliação do posto avançado (somente Campanha)."
+        },
+        "czech": {
+          "name": "Obránce",
+          "description": "Odrazte 3 trestné oddíly na základne (pouze kampan)."
+        },
+        "danish": {
+          "name": "Forsvarer",
+          "description": "Slå tre gengældelsesekspeditioner tilbage (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Verdediger",
+          "description": "Sla 3 aanvallen van vergeldingstroepen af (alleen campagne)."
+        },
+        "english": {
+          "name": "Defender",
+          "description": "Repel 3 Outpost Retaliation Parties (Campaign only)."
+        },
+        "finnish": {
+          "name": "Puolustaja",
+          "description": "Torju 3 kostopartiota (vain kampanja)."
+        },
+        "french": {
+          "name": "Défenseur",
+          "description": "Repousser 3 contre-attaques d'avant-poste (campagne uniquement)."
+        },
+        "german": {
+          "name": "Fels in der Brandung",
+          "description": "Wehre 3 Konterangriffe gegen Außenposten ab (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Baluardo",
+          "description": "Respingi 3 spedizioni di Rappresaglia (solo Campagna)."
+        },
+        "japanese": {
+          "name": "ディフェンダー",
+          "description": "3つの基地報復パーティを撃退する（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "방어자",
+          "description": "전초기지에서 보복하려는 무리 셋을 격퇴하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Forsvarer",
+          "description": "Slå tilbake 3 utpost-hevntropper (bare historien)."
+        },
+        "polish": {
+          "name": "Obrońca",
+          "description": "Odeprzyj 3 razy atak ekspedycji karnej (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Defensor",
+          "description": "Afaste 3 grupos de retaliação do posto avançado (somente Campanha)."
+        },
+        "russian": {
+          "name": "Защитник",
+          "description": "Уничтожьте 3 карательных отряда. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "守卫者",
+          "description": "击退 3 次哨站的反攻"
+        },
+        "spanish": {
+          "name": "Defensor",
+          "description": "Rechaza a 3 equipos de represalia en los puestos (solo campaña)."
+        },
+        "swedish": {
+          "name": "Försvarare",
+          "description": "Stoppa 3 utpost-motoffensiver (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_19": {
+      "translations": {
+        "brazilian": {
+          "name": "Robin Hood",
+          "description": "Sequestre 3 caminhões de carga real e leve-os até um posto avançado livre (somente Campanha)."
+        },
+        "czech": {
+          "name": "Robin Hood",
+          "description": "Uneste 3 královské zásobovací nákladáky a vratte je na osvobozené stanovište (pouze kampan)."
+        },
+        "danish": {
+          "name": "Robin Hood",
+          "description": "Stjæl tre kongelige fragtbiler, og kør dem hen til en befriet forpost (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Robin Hood",
+          "description": "Steel 3 koninklijke vrachtwagens en breng ze naar een bevrijde buitenpost (alleen campagne)."
+        },
+        "english": {
+          "name": "Robin Hood",
+          "description": "Hijack 3 Royal Cargo Trucks and return them to a liberated Outpost (Campaign only)."
+        },
+        "finnish": {
+          "name": "Robin Hood",
+          "description": "Varasta 3 kuninkaallista kuorma-autoa ja palauta ne vapautetulle etuvartiolle (vain kampanja)."
+        },
+        "french": {
+          "name": "Robin des bois",
+          "description": "Détourner et conduire 3 camions de transport royal à un avant-poste libéré (campagne uniquement)."
+        },
+        "german": {
+          "name": "Robin Hood",
+          "description": "Entführe 3 königliche Fracht-Trucks und bringe sie zu einem befreiten Außenposten (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Robin Hood",
+          "description": "Dirotta 3 camion con il carico reale e consegnali in un avamposto liberato (solo Campagna)."
+        },
+        "japanese": {
+          "name": "ロビン・フッド",
+          "description": "3台の王立貨物トラックを盗んで解放された基地に戻す（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "의적 로빈 훗",
+          "description": "왕실 화물 트럭 3대를 탈취해 해방된 전초기지에 돌려주십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Robin Hood",
+          "description": "Kapre 3 kongelige lastebiler, og lever dem til en frigjort utpost (bare historien)."
+        },
+        "polish": {
+          "name": "Robin Hood",
+          "description": "Ukradnij 3 ciężarówki z królewskim ładunkiem i odstaw je do wyzwolonej strażnicy (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Robin Hood",
+          "description": "Sequestre 3 caminhões de carga real e leve-os até um posto avançado livre (somente Campanha)."
+        },
+        "russian": {
+          "name": "Робин Гуд",
+          "description": "Доставьте на освобожденный аванпост 3 грузовика с королевским грузом. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "罗宾汉",
+          "description": "劫持 3 辆皇家运输卡车并带回己方哨站"
+        },
+        "spanish": {
+          "name": "Robin Hood",
+          "description": "Roba 3 camiones de Carga real y llévalos a un puesto liberado (solo campaña)."
+        },
+        "swedish": {
+          "name": "Robin Hood",
+          "description": "Kapa 3 kungliga laster och återlämna dem till en befriad utpost (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_20": {
+      "translations": {
+        "brazilian": {
+          "name": "A Mão da Justiça",
+          "description": "Elimine 3 comboios da Ira de Pagan (somente Campanha)."
+        },
+        "czech": {
+          "name": "Ruka spravedlnosti",
+          "description": "Zlikvidujte 3 konvoje Paganova hnevu (pouze kampan)."
+        },
+        "danish": {
+          "name": "Retfærdighedens næve",
+          "description": "Udslet tre Pagans vrede-konvojer (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Gerechtigheid",
+          "description": "Schakel drie Woede-van-Pagan-konvooien uit (alleen campagne)."
+        },
+        "english": {
+          "name": "Hand Of Justice",
+          "description": "Eliminate 3 Pagan's Wrath convoys (Campaign only)."
+        },
+        "finnish": {
+          "name": "Oikeuden käsi",
+          "description": "Eliminoi 3 Pakanan raivo -saattuetta (vain kampanja)."
+        },
+        "french": {
+          "name": "La main de la justice",
+          "description": "Éliminer 3 convois de la colère de Pagan (campagne uniquement)."
+        },
+        "german": {
+          "name": "Der Arm des Gesetzes",
+          "description": "Schalte 3 „Pagans Zorn”-Strafexpeditionen aus (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Uomo di giustizia",
+          "description": "Distruggi 3 convogli dell'Ira di Pagan (solo Campagna)."
+        },
+        "japanese": {
+          "name": "正義の手",
+          "description": "パガンの怒りの車両を3つ破壊する（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "정의의 손길",
+          "description": "3개의 \"페이건의 분노\" 수송대를 제거하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Rettferdighetens hånd",
+          "description": "Eliminer 3 Pagans vrede-konvoier (bare historien)."
+        },
+        "polish": {
+          "name": "Ręka sprawiedliwości",
+          "description": "Wyeliminuj 3 konwoje Gniewu Pagana (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "A Mão da Justiça",
+          "description": "Elimine 3 comboios da Ira de Pagan (somente Campanha)."
+        },
+        "russian": {
+          "name": "Рука правосудия",
+          "description": "Уничтожьте 3 конвоя \"Гнев Пэйгана\". (Только в кампании)"
+        },
+        "schinese": {
+          "name": "正义之手",
+          "description": "歼灭 3 次贝根之怒"
+        },
+        "spanish": {
+          "name": "Mano justiciera",
+          "description": "Elimina 3 convoyes de La ira de Pagan (solo campaña)."
+        },
+        "swedish": {
+          "name": "Rättvisans hand",
+          "description": "Eliminera 3 Pagans vrede-konvojer (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_21": {
+      "translations": {
+        "brazilian": {
+          "name": "Companheiro de Armas",
+          "description": "Liberte 1 posto avançado jogando como Hurk (somente COOP. de Campanha)."
+        },
+        "czech": {
+          "name": "Bratri ve zbrani",
+          "description": "Osvobodte 1 stanovište jako Hurk (Kampan - pouze Kooperace)."
+        },
+        "danish": {
+          "name": "Våbenbrødre",
+          "description": "Befri en forpost som Hurk (kun samarbejdsspil i kampagne)."
+        },
+        "dutch": {
+          "name": "Strijdbroeder",
+          "description": "Bevrijd 1 buitenpost als Hurk (alleen coöpcampagne)."
+        },
+        "english": {
+          "name": "Brother In Arms",
+          "description": "Liberate 1 Outpost playing as Hurk (Campaign Co-op only)."
+        },
+        "finnish": {
+          "name": "Aseveli",
+          "description": "Vapauta 1 etuvartio Hurkilla pelaten (vain kampanjan yhteistyö)."
+        },
+        "french": {
+          "name": "Frères d'armes",
+          "description": "Libérer un avant-poste en incarnant Hurk (Coop campagne uniquement)."
+        },
+        "german": {
+          "name": "Waffenbruder",
+          "description": "Befreie 1 Außenposten als Hurk (nur Kampagne - Coop)."
+        },
+        "italian": {
+          "name": "Fratelli d'armi",
+          "description": "Libera 1 avamposto giocando come Hurk (solo Coop Campagna)."
+        },
+        "japanese": {
+          "name": "戦友",
+          "description": "1つの基地をハークとして開放する（キャンペーン中CO-OPのみ）"
+        },
+        "koreana": {
+          "name": "전우",
+          "description": "헐크로 플레이하여 전초기지 1곳을 해방하십시오. (협동 캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Våpenbrødre",
+          "description": "Befri 1 utpost som Hurk (kun historiespill i samarbeid)."
+        },
+        "polish": {
+          "name": "Towarzysz broni",
+          "description": "Wyzwól 1 strażnicę, grając jako Hurk (tylko kampania, tryb współpracy)."
+        },
+        "portuguese": {
+          "name": "Companheiro de Armas",
+          "description": "Liberte 1 posto avançado jogando como Hurk (somente COOP. de Campanha)."
+        },
+        "russian": {
+          "name": "Братья по оружию",
+          "description": "Освободите 1 аванпост, играя за Хёрка. (Только в совместной кампании)"
+        },
+        "schinese": {
+          "name": "兄弟并肩",
+          "description": "扮演赫克攻占一个哨站"
+        },
+        "spanish": {
+          "name": "Hermano en la lucha",
+          "description": "Libera 1 puesto jugando como Hurk (solo campaña cooperativa)."
+        },
+        "swedish": {
+          "name": "Vapenbröder",
+          "description": "Befria 1 utpost som Hurk (endast samarbetskampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_22": {
+      "translations": {
+        "brazilian": {
+          "name": "Desarmador",
+          "description": "Complete 3 tarefas de Desarmar Bomba (somente Campanha)."
+        },
+        "czech": {
+          "name": "Pyrotechnik",
+          "description": "Dokoncete 3 úkoly typu Zneškodnení bomby (pouze kampan)."
+        },
+        "danish": {
+          "name": "Desarmering",
+          "description": "Gennemfør tre Bombedesarmering-sideopgaver (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Nog zo gezegd: geen bommetje",
+          "description": "Voltooi 3 optionele bom-ontmantelen-opdrachten (alleen campagne)."
+        },
+        "english": {
+          "name": "Defuser",
+          "description": "Complete 3 Bomb Defusal quests (Campaign only)."
+        },
+        "finnish": {
+          "name": "Purkaja",
+          "description": "Suorita 3 Pomminpurku-sivutehtävää (vain kampanja)."
+        },
+        "french": {
+          "name": "Expert en explosifs",
+          "description": "Terminer 3 quêtes Désamorçage (campagne uniquement)."
+        },
+        "german": {
+          "name": "Entschärfung",
+          "description": "Schließe 3 Bombenentschärfungs-Aufgaben ab (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Artificiere",
+          "description": "Completa 3 missioni Disinnesco bombe (solo Campagna)."
+        },
+        "japanese": {
+          "name": "解除係",
+          "description": "3つの爆弾解除クエストを完了する（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "폭탄 해체 전문가",
+          "description": "폭탄 해체 퀘스트 3건을 완료하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Bombeekspert",
+          "description": "Fullfør 3 bombedesarmeringer (bare historien)."
+        },
+        "polish": {
+          "name": "Saper",
+          "description": "Ukończ 3 zadania typu Rozbrojenie (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Desarmador",
+          "description": "Complete 3 tarefas de Desarmar Bomba (somente Campanha)."
+        },
+        "russian": {
+          "name": "Сапер",
+          "description": "Выполните 3 дополнительных задания по обезвреживанию бомбы. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "拆弹专家",
+          "description": "完成 3 次炸弹拆除任务"
+        },
+        "spanish": {
+          "name": "Desactivador",
+          "description": "Completa 3 encargos de Desactivación de bombas (solo campaña)."
+        },
+        "swedish": {
+          "name": "Bombexpert",
+          "description": "Klara av 3 desarmeringsuppgifter (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_23": {
+      "translations": {
+        "brazilian": {
+          "name": "Trocando de Pistas",
+          "description": "Execute um nocaute de veículo do assento do passageiro de um veículo (somente COOP. de Campanha)."
+        },
+        "czech": {
+          "name": "Presednutí",
+          "description": "Provedte likvidaci vozidla z místa spolujezdce (Kampan - pouze Kooperace)."
+        },
+        "danish": {
+          "name": "SKIFTER SPOR",
+          "description": "Udfør en kørselsnedlægning fra passagersædet i et køretøj (kun samarbejdsspil i kampagne)."
+        },
+        "dutch": {
+          "name": "Agressie in het verkeer",
+          "description": "Elimineer iemand tijdens het rijden vanaf de passagiersstoel (alleen coöpcampagne)."
+        },
+        "english": {
+          "name": "Changing Lanes",
+          "description": "Perform a Vehicle Takedown from the passenger seat of a vehicle (Campaign Co-op only)."
+        },
+        "finnish": {
+          "name": "Kaistan vaihto",
+          "description": "Suorita ajokaato ajoneuvon pelkääjän paikalta (vain kampanjan yhteistyö)."
+        },
+        "french": {
+          "name": "Changement de voie",
+          "description": "Effectuer une exécution en véhicule depuis le siège passager (Coop campagne uniquement)."
+        },
+        "german": {
+          "name": "Spurwechsel",
+          "description": "Führe einen Fahrzeug-Takedown vom Beifahrersitz eines Fahrzeugs aus (nur Kampagne - Coop)."
+        },
+        "italian": {
+          "name": "Cambio di corsia",
+          "description": "Esegui un abbattimento veicolo dal sedile del passeggero (solo Coop Campagna)."
+        },
+        "japanese": {
+          "name": "車線変更",
+          "description": "車の助手席から車両テイクダウンを行う（キャンペーン中CO-OPのみ）"
+        },
+        "koreana": {
+          "name": "차선 바꾸기",
+          "description": "차량 조수석에서 운전 중 테이크다운을 수행하십시오. (협동 캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Filbytte",
+          "description": "Gjør en kjøretøysfelling fra passasjersetet på et kjøretøy (kun historiespill i samarbeid)."
+        },
+        "polish": {
+          "name": "Zmiana pasa",
+          "description": "Wykonaj eliminację-pojazd podczas jazdy, z fotela pasażera (tylko kampania, tryb współpracy)."
+        },
+        "portuguese": {
+          "name": "Trocando de Pistas",
+          "description": "Execute um nocaute de veículo do assento do passageiro de um veículo (somente COOP. de Campanha)."
+        },
+        "russian": {
+          "name": "Пересадка",
+          "description": "Совершите убийство с пассажирского сиденья. (Только в совместной кампании)"
+        },
+        "schinese": {
+          "name": "变道行驶",
+          "description": "在副驾驶完成一次载具击倒"
+        },
+        "spanish": {
+          "name": "Cambio de carril",
+          "description": "Realiza una eliminación con vehículo desde el asiento del pasajero (solo campaña cooperativa)."
+        },
+        "swedish": {
+          "name": "Filbyte",
+          "description": "Utför ett överfall från bil från passagerarsätet i ett fordon (endast samarbetskampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_24": {
+      "translations": {
+        "brazilian": {
+          "name": "Reformas",
+          "description": "Compre 3 itens para a Residência Ghale (somente Campanha)."
+        },
+        "czech": {
+          "name": "Domácí kutil",
+          "description": "Zakupte 3 predmety pro Ghaleuv dum (pouze kampan)."
+        },
+        "danish": {
+          "name": "Gør-det-selv-mand",
+          "description": "Udfør tre opgraderinger af Ghale-gården (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Doe-het-zelver",
+          "description": "Voer 3 upgrades door van het huis van Ghale (alleen campagne)."
+        },
+        "english": {
+          "name": "Fixer-Upper",
+          "description": "Purchase 3 items for the Ghale Homestead (Campaign only)."
+        },
+        "finnish": {
+          "name": "Remontti-Reiska",
+          "description": "Suorita 3 päivitystä Ghalen kotitilalla (vain kampanja)."
+        },
+        "french": {
+          "name": "Décoration d'intérieur",
+          "description": "Acheter 3 objets pour la propriété des Ghale (campagne uniquement)."
+        },
+        "german": {
+          "name": "Heimwerker",
+          "description": "Kaufe 3 Gegenstände für das Haus der Ghales (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Restauratore",
+          "description": "Acquista 3 oggetti per Casa Ghale (solo Campagna)."
+        },
+        "japanese": {
+          "name": "要修理物件",
+          "description": "3つのアイテムをゲールの家用に買う（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "만능 수리공",
+          "description": "가일의 농장을 3회 업그레이드하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Gjør det selv-entusiast",
+          "description": "Kjøp 3 gjenstander til Ghale-boligen (bare historien)."
+        },
+        "polish": {
+          "name": "Złota rączka",
+          "description": "Rozbuduj 3 razy domostwo Ghale'ów (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Reformas",
+          "description": "Compre 3 itens para a Residência Ghale (somente Campanha)."
+        },
+        "russian": {
+          "name": "Дом, милый дом",
+          "description": "Купите 3 предмета для дома Гейлов. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "修缮家园",
+          "description": "为格尔的家园进行 3 次装修"
+        },
+        "spanish": {
+          "name": "Bricomaníaco",
+          "description": "Compra 3 objetos para la hacienda Ghale (solo campaña)."
+        },
+        "swedish": {
+          "name": "Renoverare",
+          "description": "Köp 3 uppgraderingar till Ghales gård (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_25": {
+      "translations": {
+        "brazilian": {
+          "name": "Exorcista",
+          "description": "Destrua 15 máscaras de Yalung (somente Campanha)."
+        },
+        "czech": {
+          "name": "Vymítac",
+          "description": "Znicte 15 Yalungských masek (pouze kampan)."
+        },
+        "danish": {
+          "name": "Eksorcist",
+          "description": "Ødelæg 15 dæmonmasker (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Exorcist",
+          "description": "Vernietig 15 demonenmaskers (alleen campagne)."
+        },
+        "english": {
+          "name": "Exorcist",
+          "description": "Destroy 15 Masks of Yalung (Campaign only)."
+        },
+        "finnish": {
+          "name": "Manaaja",
+          "description": "Tuhoa 15 Yalung-naamiota (vain kampanja)."
+        },
+        "french": {
+          "name": "Exorciste",
+          "description": "Détruire 15 masques de Yalung (campagne uniquement)."
+        },
+        "german": {
+          "name": "Exorzist",
+          "description": "Zerstöre 15 Masken von Yalung (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Esorcista",
+          "description": "Distruggi 15 maschere di Yalung (solo Campagna)."
+        },
+        "japanese": {
+          "name": "エクソシスト",
+          "description": "15個のヤルンのマスクを破壊する（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "퇴마사",
+          "description": "얄룽의 마스크 15개를 파괴하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Djevelutdriver",
+          "description": "Ødelegg 15 Yalung-masker (bare historien)."
+        },
+        "polish": {
+          "name": "Egzorcysta",
+          "description": "Zniszcz 15 masek Yalunga (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Exorcista",
+          "description": "Destrua 15 máscaras de Yalung (somente Campanha)."
+        },
+        "russian": {
+          "name": "Экзорцист",
+          "description": "Уничтожьте 15 масок Ялунга"
+        },
+        "schinese": {
+          "name": "驱魔人",
+          "description": "摧毁 15 个亚隆的面具"
+        },
+        "spanish": {
+          "name": "Exorcista",
+          "description": "Destruye 15 máscaras de Yalung (solo campaña)."
+        },
+        "swedish": {
+          "name": "Exorcist",
+          "description": "Förstör 15 av Yalungs masker (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_26": {
+      "translations": {
+        "brazilian": {
+          "name": "Reescrevendo a História",
+          "description": "Remova 30 cartazes da propaganda (somente Campanha)."
+        },
+        "czech": {
+          "name": "Prepisování historie",
+          "description": "Odstrante 30 propagandistických plakátu (pouze kampan)."
+        },
+        "danish": {
+          "name": "Historien omskrives",
+          "description": "Fjern 30 propagandaplakater (kun kampagne)."
+        },
+        "dutch": {
+          "name": "De geschiedenis herschrijven",
+          "description": "Verwijder 30 propagandaposters (alleen campagne)."
+        },
+        "english": {
+          "name": "Rewriting History",
+          "description": "Remove 30 Propaganda Posters (Campaign only)."
+        },
+        "finnish": {
+          "name": "Historian uusiksi kirjoittaminen",
+          "description": "Poista 30 propagandajulistetta (vain kampanja)."
+        },
+        "french": {
+          "name": "Réécrire l'histoire",
+          "description": "Arracher 30 affiches de propagande (campagne uniquement)."
+        },
+        "german": {
+          "name": "Die Geschichte neu schreiben",
+          "description": "Entferne 30 Propagandaposter (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Riscrivi la storia",
+          "description": "Strappa 30 manifesti di propaganda (solo Campagna)."
+        },
+        "japanese": {
+          "name": "歴史の書き換え",
+          "description": "30枚のプロパガンダポスターをはがす（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "다시 쓰는 역사",
+          "description": "선전 포스터 30장을 제거하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Historien skrives om",
+          "description": "Fjern 30 propagandaplakater (bare historien)."
+        },
+        "polish": {
+          "name": "Zmieniając historię",
+          "description": "Usuń 30 plakatów propagandowych (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Reescrevendo a História",
+          "description": "Remova 30 cartazes da propaganda (somente Campanha)."
+        },
+        "russian": {
+          "name": "Переписывая историю",
+          "description": "Сорвите 30 агитплакатов. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "改写历史",
+          "description": "清除 30 张宣传海报"
+        },
+        "spanish": {
+          "name": "Reescribir la historia",
+          "description": "Quita 30 carteles de propaganda (solo campaña)."
+        },
+        "swedish": {
+          "name": "Slut på lögnerna",
+          "description": "Riv ned 30 propagandaaffischer (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_27": {
+      "translations": {
+        "brazilian": {
+          "name": "Guardião de Memórias",
+          "description": "Encontre 10 cartas perdidas (somente Campanha)."
+        },
+        "czech": {
+          "name": "Pecovatel o historii",
+          "description": "Najdete 10 ztracených dopisu (pouze kampan)."
+        },
+        "danish": {
+          "name": "Mindernes postmand",
+          "description": "Find ti forsvundne breve (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Huwelijksproblemen",
+          "description": "Vind 10 verloren brieven (alleen campagne)."
+        },
+        "english": {
+          "name": "Caretaker Of Memory",
+          "description": "Find 10 Lost Letters (Campaign only)."
+        },
+        "finnish": {
+          "name": "Muistojen säilyttäjä",
+          "description": "Löydä 10 kadonnutta kirjettä (vain kampanja)."
+        },
+        "french": {
+          "name": "Devoir de mémoire",
+          "description": "Trouver 10 lettres perdues (campagne uniquement)."
+        },
+        "german": {
+          "name": "Das Andenken bewahren",
+          "description": "Finde 10 Verlorene Briefe (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Il passato è importante",
+          "description": "Trova 10 lettere perdute (solo Campagna)."
+        },
+        "japanese": {
+          "name": "記憶の管理人",
+          "description": "10通の失われた手紙を見つける（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "추억을 되새기며",
+          "description": "사라진 편지 10개를 찾으십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Minnenes vokter",
+          "description": "Finn 10 tapte brev (bare historien)."
+        },
+        "polish": {
+          "name": "Kustosz wspomnień",
+          "description": "Znajdź 10 zaginionych listów (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Guardião de Memórias",
+          "description": "Encontre 10 cartas perdidas (somente Campanha)."
+        },
+        "russian": {
+          "name": "Почта Кирата",
+          "description": "Найдите 10 потерянных писем. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "记忆守护者",
+          "description": "找到 10 封遗失的信件"
+        },
+        "spanish": {
+          "name": "Protector de la memoria",
+          "description": "Encuentra 10 cartas perdidas (solo campaña)."
+        },
+        "swedish": {
+          "name": "Brevvän",
+          "description": "Hitta 10 förlorade brev (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_28": {
+      "translations": {
+        "brazilian": {
+          "name": "Tributos Corretos",
+          "description": "Gire 10 Rodas Mani (somente Campanha)."
+        },
+        "czech": {
+          "name": "Správné uctívání",
+          "description": "Roztocte 10 modlitebních mlýnku (pouze kampan)."
+        },
+        "danish": {
+          "name": "Fordrejet",
+          "description": "Drej ti bedemøller (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Mantra",
+          "description": "Draai aan 10 gebedsmolens (alleen campagne)."
+        },
+        "english": {
+          "name": "Right Tributes",
+          "description": "Spin 10 Mani Wheels (Campaign only)."
+        },
+        "finnish": {
+          "name": "Oikeat uhrilahjat",
+          "description": "Pyöritä 10 rukousmyllyä (vain kampanja)."
+        },
+        "french": {
+          "name": "Hommages adéquats",
+          "description": "Faire tourner 10 moulins à prières (campagne uniquement)."
+        },
+        "german": {
+          "name": "Aufrichtige Ehrerbietung",
+          "description": "Drehe 10 Manimühlen (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Tributi divini",
+          "description": "Gira 10 ruote di preghiera (solo Campagna)."
+        },
+        "japanese": {
+          "name": "相応しい敬意",
+          "description": "10回マニ車を回す（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "극진한 공물",
+          "description": "마니차 10개를 돌리십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Snefssnurremester",
+          "description": "Snurr 10 mani-hjul"
+        },
+        "polish": {
+          "name": "Stosowny hołd",
+          "description": "Zakręć 10 młynkami Mani (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Tributos Corretos",
+          "description": "Gire 10 Rodas Mani (somente Campanha)."
+        },
+        "russian": {
+          "name": "Дар богам",
+          "description": "Поверните 10 молитвенных барабанов. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "向右转",
+          "description": "转动 10 个转经筒"
+        },
+        "spanish": {
+          "name": "Tributos adecuados",
+          "description": "Haz girar 10 ruedas Mani (solo campaña)."
+        },
+        "swedish": {
+          "name": "Manisk",
+          "description": "Snurra 10 manicylindrar (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_29": {
+      "translations": {
+        "brazilian": {
+          "name": "A Presa Mais Rara",
+          "description": "Complete 3 tarefas da Kyrat Fashion Week (somente Campanha)."
+        },
+        "czech": {
+          "name": "Nejvzácnejší korist",
+          "description": "Dokoncete 3 úkoly kyratského týdne módy (pouze kampan)."
+        },
+        "danish": {
+          "name": "Sjældent bytte",
+          "description": "Gennemfør tre Kyrats modeuge-sideopgaver (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Wild en zeldzaam",
+          "description": "Voltooi 3 optionele Modeweek-van-Kyrat-opdrachten (alleen campagne)."
+        },
+        "english": {
+          "name": "The Rarest Game",
+          "description": "Complete 3 Kyrat Fashion Week quests (Campaign only)."
+        },
+        "finnish": {
+          "name": "Harvinaisin saalis",
+          "description": "Suorita 3 Kyratin muotiviikko -sivutehtävää (vain kampanja)."
+        },
+        "french": {
+          "name": "Gibier plus que rare",
+          "description": "Terminer 3 quêtes Fashion Week du Kyrat (campagne uniquement)."
+        },
+        "german": {
+          "name": "Das seltenste Wild",
+          "description": "Schließe 3 „Kyrat Fashion Week“-Aufgaben ab (nur Kampagne)."
+        },
+        "italian": {
+          "name": "La preda più rara",
+          "description": "Completa 3 missioni Settimana della moda del Kyrat (solo Campagna)."
+        },
+        "japanese": {
+          "name": "最もレアなゲーム",
+          "description": "3つのキラットのファッション週間クエストを完了する（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "가장 희귀한 게임",
+          "description": "키라트 패션 위크 퀘스트 3건을 완료하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Sjeldent vilt",
+          "description": "Fullfør 3 oppgaver i serien om Moteuken i Kyrat (bare historien)."
+        },
+        "polish": {
+          "name": "Najrzadszy zwierz",
+          "description": "Ukończ 3 zadania typu Kyracki Tydzień Mody (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "A Presa Mais Rara",
+          "description": "Complete 3 tarefas da Kyrat Fashion Week (somente Campanha)."
+        },
+        "russian": {
+          "name": "Редкая птица",
+          "description": "Выполните 3 дополнительных задания \"Неделя моды Кирата\". (Только в кампании)"
+        },
+        "schinese": {
+          "name": "至珍猎物",
+          "description": "完成 3 个凯拉特的时尚周任务"
+        },
+        "spanish": {
+          "name": "Lo más exótico",
+          "description": "Completa 3 encargos de la Semana de la moda de Kyrat (solo campaña)."
+        },
+        "swedish": {
+          "name": "Sällsynta skapelser",
+          "description": "Klara av 3 Kyrats modevecka-uppgifter (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_30": {
+      "translations": {
+        "brazilian": {
+          "name": "Letrado",
+          "description": "Leia 10 notas (somente Campanha)."
+        },
+        "czech": {
+          "name": "Shromaždovatel",
+          "description": "Prectete si 10 zpráv (pouze kampan)."
+        },
+        "danish": {
+          "name": "Belæst",
+          "description": "Læs ti noter (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Nieuwsgierig",
+          "description": "Lees 10 briefjes (alleen campagne)."
+        },
+        "english": {
+          "name": "Well Read",
+          "description": "Read 10 notes (Campaign only)."
+        },
+        "finnish": {
+          "name": "Luettu on",
+          "description": "Lue 10 muistiinpanoa (vain kampanja)."
+        },
+        "french": {
+          "name": "Douce lecture",
+          "description": "Lire 10 messages (campagne uniquement)."
+        },
+        "german": {
+          "name": "Leseratte",
+          "description": "Lies 10 Notizen (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Avido lettore",
+          "description": "Leggi 10 appunti (solo Campagna)."
+        },
+        "japanese": {
+          "name": "多読",
+          "description": "10のメモを読む（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "수집하기",
+          "description": "메모 10개를 읽으십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Belest",
+          "description": "Les 10 notater (bare historien)."
+        },
+        "polish": {
+          "name": "Zbieracz",
+          "description": "Przeczytaj 10 notatek (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Letrado",
+          "description": "Leia 10 notas (somente Campanha)."
+        },
+        "russian": {
+          "name": "Начитанный",
+          "description": "Прочитайте 10 заметок. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "博学多识",
+          "description": "阅读 10 个笔记"
+        },
+        "spanish": {
+          "name": "Ilustrado",
+          "description": "Lee 10 notas (solo campaña)."
+        },
+        "swedish": {
+          "name": "Bokmal",
+          "description": "Läs 10 anteckningar (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_31": {
+      "translations": {
+        "brazilian": {
+          "name": "Aprende-rápido",
+          "description": "Aprenda 10 habilidades (somente Campanha)."
+        },
+        "czech": {
+          "name": "Rychlý student",
+          "description": "Naucte se 10 dovednostem (pouze kampan)."
+        },
+        "danish": {
+          "name": "Flittig elev",
+          "description": "Lær ti evner (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Leergierig",
+          "description": "Leer 10 vaardigheden (alleen campagne)."
+        },
+        "english": {
+          "name": "Quick Learner",
+          "description": "Learn 10 skills (Campaign only)."
+        },
+        "finnish": {
+          "name": "Nopea oppimaan",
+          "description": "Opettele 10 taitoa (vain kampanja)."
+        },
+        "french": {
+          "name": "Élève appliqué",
+          "description": "Apprendre 10 compétences (campagne uniquement)."
+        },
+        "german": {
+          "name": "Schnelle Auffassungsgabe",
+          "description": "Erlerne 10 Fähigkeiten (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Tipo sveglio",
+          "description": "Apprendi 10 abilità (solo Campagna)."
+        },
+        "japanese": {
+          "name": "高速学習",
+          "description": "10のスキルを学ぶ（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "수제자",
+          "description": "스킬 10개를 배우십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Lærevillig",
+          "description": "Lær 10 ferdigheter (bare historien)."
+        },
+        "polish": {
+          "name": "Pojętny uczeń",
+          "description": "Poznaj 10 umiejętności (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Aprende-rápido",
+          "description": "Aprenda 10 habilidades (somente Campanha)."
+        },
+        "russian": {
+          "name": "Способный ученик",
+          "description": "Получите 10 навыков. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "天赋异禀",
+          "description": "学习 10 个技能"
+        },
+        "spanish": {
+          "name": "Buen estudiante",
+          "description": "Aprende 10 habilidades (solo campaña)."
+        },
+        "swedish": {
+          "name": "Snabblärd",
+          "description": "Lär dig 10 färdigheter (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_32": {
+      "translations": {
+        "brazilian": {
+          "name": "Totalmente Preparado",
+          "description": "Aprenda todas as habilidades (somente Campanha)."
+        },
+        "czech": {
+          "name": "Plná výbava",
+          "description": "Naucte se všechny dovednosti (pouze kampan)."
+        },
+        "danish": {
+          "name": "Bedrevidende",
+          "description": "Lær alle evner (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Bepakt en bezakt",
+          "description": "Leer alle vaardigheden (alleen campagne)."
+        },
+        "english": {
+          "name": "Fully Loaded",
+          "description": "Learn all skills (Campaign only)."
+        },
+        "finnish": {
+          "name": "Täysin varusteltu",
+          "description": "Opettele kaikki taidot (vain kampanja)."
+        },
+        "french": {
+          "name": "Gonflé à bloc",
+          "description": "Apprendre toutes les compétences (campagne uniquement)."
+        },
+        "german": {
+          "name": "Voll ausgestattet",
+          "description": "Erlerne alle Fähigkeiten (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Onnisciente",
+          "description": "Apprendi tutte le abilità (solo Campagna)."
+        },
+        "japanese": {
+          "name": "フル機能",
+          "description": "すべてのスキルを学ぶ（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "스킬 마스터",
+          "description": "모든 스킬을 배우십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Fullstappet",
+          "description": "Lær alle ferdighetene (bare historien)."
+        },
+        "polish": {
+          "name": "Uzbrojony po zęby",
+          "description": "Poznaj wszystkie umiejętności (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Totalmente Preparado",
+          "description": "Aprenda todas as habilidades (somente Campanha)."
+        },
+        "russian": {
+          "name": "Полный комплект",
+          "description": "Получите все навыки. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "全能精通",
+          "description": "习得所有技能"
+        },
+        "spanish": {
+          "name": "A tope",
+          "description": "Aprende todas las habilidades (solo campaña)."
+        },
+        "swedish": {
+          "name": "Fullärd",
+          "description": "Lär dig alla färdigheter (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_33": {
+      "translations": {
+        "brazilian": {
+          "name": "Tunado",
+          "description": "Crie 5 melhorias para seu equipamento (somente Campanha)."
+        },
+        "czech": {
+          "name": "Vyšperkované veci",
+          "description": "Vyrobte 5 vylepšení svého vybavení (pouze kampan)."
+        },
+        "danish": {
+          "name": "Majet ud",
+          "description": "Fremstil fem opgraderinger til dit udstyr (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Trukendoos",
+          "description": "Maak 5 upgrades voor je uitrusting (alleen campagne)."
+        },
+        "english": {
+          "name": "Tricked Out",
+          "description": "Craft 5 upgrades for your equipment (Campaign only)."
+        },
+        "finnish": {
+          "name": "Tuunattu",
+          "description": "Valmista 5 varustepäivitystä (vain kampanja)."
+        },
+        "french": {
+          "name": "Loisirs créatifs",
+          "description": "Confectionner 5 améliorations d'équipement (campagne uniquement)."
+        },
+        "german": {
+          "name": "Hochgerüstet",
+          "description": "Stelle 5 Upgrades für deine Ausrüstung her (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Modifiche",
+          "description": "Crea 5 potenziamenti per la tua attrezzatura (solo Campagna)."
+        },
+        "japanese": {
+          "name": "ド派手カスタム",
+          "description": "5つの装備のアップグレードをクラフトする（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "장비 보강",
+          "description": "장비에 대한 업그레이드 5개를 제조하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Velutstyrt",
+          "description": "Lag 5 oppgraderinger for utstyret ditt (bare historien)."
+        },
+        "polish": {
+          "name": "Na bogato",
+          "description": "Wytwórz 5 ulepszeń swojego wyposażenia (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Tunado",
+          "description": "Crie 5 melhorias para seu equipamento (somente Campanha)."
+        },
+        "russian": {
+          "name": "Модифицируй это",
+          "description": "Изготовьте 5 модификаций для оружия. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "改装达人",
+          "description": "给你的武器升级 5 次"
+        },
+        "spanish": {
+          "name": "Hecho un pincel",
+          "description": "Crea 5 mejoras para tu equipo (solo campaña)."
+        },
+        "swedish": {
+          "name": "Utrustad",
+          "description": "Tillverka 5 uppgraderingar till din utrustning (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_34": {
+      "translations": {
+        "brazilian": {
+          "name": "Dr. Feelgood",
+          "description": "Crie 15 seringas (somente Campanha)."
+        },
+        "czech": {
+          "name": "Doktor bezbolestný",
+          "description": "Vyrobte 15 injekcí (pouze kampan)."
+        },
+        "danish": {
+          "name": "Held i sprøjten",
+          "description": "Fremstil 15 kanyler (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Spuiten en slikken",
+          "description": "Maak 15 spuiten (alleen campagne)."
+        },
+        "english": {
+          "name": "Dr. Feelgood",
+          "description": "Craft 15 syringes (Campaign only)."
+        },
+        "finnish": {
+          "name": "Tohtori Sykerö",
+          "description": "Valmista 15 ruiskua (vain kampanja)."
+        },
+        "french": {
+          "name": "En pleine forme",
+          "description": "Confectionner 15 seringues (campagne uniquement)."
+        },
+        "german": {
+          "name": "Dr. Aufputsch",
+          "description": "Stelle 15 Spritzen her (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Una siringa al giorno...",
+          "description": "Prepara 15 siringhe (solo Campagna)."
+        },
+        "japanese": {
+          "name": "ドクター・フィールグッド",
+          "description": "15個のシリンジをクラフトする（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "최고의 기분",
+          "description": "주사기 15개를 제조하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Sprøyte gal",
+          "description": "Lag 15 sprøyter (bare historien)."
+        },
+        "polish": {
+          "name": "Dr Odlot",
+          "description": "Wytwórz 15 mikstur (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Dr. Feelgood",
+          "description": "Crie 15 seringas (somente Campanha)."
+        },
+        "russian": {
+          "name": "Сам себе фармацевт",
+          "description": "Изготовьте 15 инъекторов. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "药剂师",
+          "description": "制作 15 个针剂"
+        },
+        "spanish": {
+          "name": "Curandero",
+          "description": "Crea 15 jeringuillas (solo campaña)."
+        },
+        "swedish": {
+          "name": "Ingen sprutskräck",
+          "description": "Tillverka 15 sprutor (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_35": {
+      "translations": {
+        "brazilian": {
+          "name": "Faça Chover",
+          "description": "Gaste 500.000 rupias nos postos de troca (somente Campanha)."
+        },
+        "czech": {
+          "name": "Pouštení žilou",
+          "description": "Utratte celkem 500 000 rupií v obchodních stanicích (pouze kampan)."
+        },
+        "danish": {
+          "name": "På med spenderbukserne",
+          "description": "Brug 500.000 rupier i butikken (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Geld moet rollen",
+          "description": "Geef in totaal 500.000 roepies uit in de winkel (alleen campagne)."
+        },
+        "english": {
+          "name": "Make It Rain",
+          "description": "Spend 500,000 rupees total at Trading Posts (Campaign only)."
+        },
+        "finnish": {
+          "name": "Anna sataa",
+          "description": "Käytä yhteensä 500 000 rupiaa kaupassa (vain kampanja)."
+        },
+        "french": {
+          "name": "Grand seigneur",
+          "description": "Dépenser 500 000 roupies en tout dans les comptoirs (campagne uniquement)."
+        },
+        "german": {
+          "name": "Geldregen",
+          "description": "Gib insgesamt 500.000 Rupien an Handelsposten aus (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Piovono soldi",
+          "description": "Spendi 500.000 rupie nei punti di scambio (solo Campagna)."
+        },
+        "japanese": {
+          "name": "札束の雨",
+          "description": "交易所で合計500,000ルピーを使う（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "돈벼락",
+          "description": "교역소에서 500,000루피를 사용하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Handledilla",
+          "description": "Bruk totalt 500 000 rupier i butikkautomater (bare historien)."
+        },
+        "polish": {
+          "name": "Złoto z nieba",
+          "description": "Wydaj w sumie 500.000 rupii w sklepach (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Faça Chover",
+          "description": "Gaste 500.000 rupias nos postos de troca (somente Campanha)."
+        },
+        "russian": {
+          "name": "Золотой дождь",
+          "description": "Потратьте в магазине 500 000 рупий. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "挥金如土",
+          "description": "在贸易站总共消费500,000"
+        },
+        "spanish": {
+          "name": "Dinero a raudales",
+          "description": "Gasta un total de 500 000 rupias en las tiendas (solo campaña)."
+        },
+        "swedish": {
+          "name": "Rik på rupier",
+          "description": "Spendera totalt 500 000 rupier vid handelsstationer (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_36": {
+      "translations": {
+        "brazilian": {
+          "name": "Personalizado",
+          "description": "Compre todos os anexos e padrões de pintura para uma única arma (somente Campanha)."
+        },
+        "czech": {
+          "name": "Rešení na míru",
+          "description": "Nakupte všechny doplnky a kamufláže pro jednu zbran (pouze kampan)."
+        },
+        "danish": {
+          "name": "Personligt tilpasset",
+          "description": "Køb alt tilbehør og alle lakeringer til et våben (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Wapenfetisj",
+          "description": "Koop alle uitbreidingen en skins van één wapen (alleen campagne)."
+        },
+        "english": {
+          "name": "Custom-Fitted",
+          "description": "Buy all attachments and paint schemes for a single weapon (Campaign only)."
+        },
+        "finnish": {
+          "name": "Täysin muokattu",
+          "description": "Osta kaikki lisälaitteet ja maalipinnat yhteen aseeseen (vain kampanja)."
+        },
+        "french": {
+          "name": "Sur mesure",
+          "description": "Acheter tous les accessoires et toutes les peintures d'une arme (campagne uniquement)."
+        },
+        "german": {
+          "name": "Maßgeschneidert",
+          "description": "Kaufe alle Aufsätze und Lackierungen für eine einzelne Waffe (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Customizzata",
+          "description": "Compra tutti gli accessori e le colorazioni per un'arma (solo Campagna)."
+        },
+        "japanese": {
+          "name": "カスタムフィット",
+          "description": "1つの武器のすべてのアタッチメントとペイントカラーを買う（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "맞춤 장비",
+          "description": "무기 하나의 모든 부착물과 장식 문양을 구매하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Spesialtilpasset",
+          "description": "Kjøp alt tilbehør og alle lakkeringer for ett enkelt våpen (bare historien)."
+        },
+        "polish": {
+          "name": "Spluwa na miarę",
+          "description": "Kup wszystkie dodatki i malowania dla jednej broni (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Personalizado",
+          "description": "Compre todos os anexos e padrões de pintura para uma única arma (somente Campanha)."
+        },
+        "russian": {
+          "name": "Полный фарш",
+          "description": "Приобретите все модификации и схемы раскраски для одного оружия. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "私人定制",
+          "description": "购买任意一把武器所有的配件及其皮肤"
+        },
+        "spanish": {
+          "name": "A medida",
+          "description": "Compra todos los accesorios y diseños de pintura de un arma (solo campaña)."
+        },
+        "swedish": {
+          "name": "Anpassat",
+          "description": "Köp alla tillbehör och färgscheman till ett vapen (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_37": {
+      "translations": {
+        "brazilian": {
+          "name": "Domador de Elefantes",
+          "description": "Mate 30 inimigos com um elefante (somente Campanha)."
+        },
+        "czech": {
+          "name": "Sloní stvura",
+          "description": "Zabijte 30 neprátel slonem (pouze kampan)."
+        },
+        "danish": {
+          "name": "Blod på stødtanden",
+          "description": "Dræb 30 fjender med en elefant (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Stampertje",
+          "description": "Dood 30 vijanden met een olifant (alleen campagne)."
+        },
+        "english": {
+          "name": "Tusker",
+          "description": "Kill 30 enemies with an elephant (Campaign only)."
+        },
+        "finnish": {
+          "name": "Syöksyhammastaja",
+          "description": "Tapa 30 vihollista norsulla (vain kampanja)."
+        },
+        "french": {
+          "name": "Sans défense",
+          "description": "Tuer 30 ennemis avec un éléphant (campagne uniquement)."
+        },
+        "german": {
+          "name": "Elefanten-Reiter",
+          "description": "Töte 30 Gegner mit einem Elefanten (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Zanna bianca",
+          "description": "Uccidi 30 nemici con un elefante (solo Campagna)."
+        },
+        "japanese": {
+          "name": "牙動物",
+          "description": "30人の敵をゾウで倒す（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "코끼리",
+          "description": "코끼리로 적 30명을 죽이십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Tungt kavaleri",
+          "description": "Drep 30 fiender med en elefant (bare historien)."
+        },
+        "polish": {
+          "name": "Kły grozy",
+          "description": "Zabij 30 wrogów za pomocą słonia (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Domador de Elefantes",
+          "description": "Mate 30 inimigos com um elefante (somente Campanha)."
+        },
+        "russian": {
+          "name": "Бивень",
+          "description": "Убейте 30 врагов с помощью слона. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "长牙象",
+          "description": "骑乘大象的状态下击杀 30 名敌人"
+        },
+        "spanish": {
+          "name": "Con colmillos",
+          "description": "Mata a 30 enemigos con un elefante (solo campaña)."
+        },
+        "swedish": {
+          "name": "Betig",
+          "description": "Döda 30 fiender med en elefant (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_38": {
+      "translations": {
+        "brazilian": {
+          "name": "Morte Quádrupla",
+          "description": "Mate 4 inimigos ao mesmo tempo com uma única explosão (somente Campanha)."
+        },
+        "czech": {
+          "name": "Ctyrnásobné zabití",
+          "description": "Zabijte jediným výbuchem 4 neprátele najednou (pouze kampan)."
+        },
+        "danish": {
+          "name": "Firedobbelt drab",
+          "description": "Dræb fire fjender på én gang med en enkelt eksplosion (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Vierklapper",
+          "description": "Dood 4 vijanden tegelijk met één ontploffing (alleen campagne)."
+        },
+        "english": {
+          "name": "Quad Kill",
+          "description": "Kill 4 enemies simultaneously with a single explosion (Campaign only)."
+        },
+        "finnish": {
+          "name": "Nelitappo",
+          "description": "Tapa 4 vihollista samanaikaisesti yhdellä räjähdyksellä (vain kampanja)."
+        },
+        "french": {
+          "name": "Quadruple mort",
+          "description": "Tuer 4 ennemis simultanément dans une explosion (campagne uniquement)."
+        },
+        "german": {
+          "name": "Vierfach-Kill",
+          "description": "Töte 4 Gegner gleichzeitig mit einer einzigen Explosion (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Quattro è il numero perfetto",
+          "description": "Uccidi 4 nemici contemporaneamente con una sola esplosione (solo Campagna)."
+        },
+        "japanese": {
+          "name": "クアッドキル",
+          "description": "1つの爆発で4人の敵を同時に倒す（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "한방에 네명",
+          "description": "폭발 한 번으로 동시에 4명의 적을 죽이십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Kvadruppeldrap",
+          "description": "Drep 4 fiender samtidig med én enkelt eksplosjon (bare historien)."
+        },
+        "polish": {
+          "name": "Czwórbój",
+          "description": "Zabij 4 wrogów pojedynczą eksplozją (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Morte Quádrupla",
+          "description": "Mate 4 inimigos ao mesmo tempo com uma única explosão (somente Campanha)."
+        },
+        "russian": {
+          "name": "Четыре трупа",
+          "description": "Убейте 4 врагов одним взрывом. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "炸裂四杀",
+          "description": "一次爆炸炸死 4 名敌人"
+        },
+        "spanish": {
+          "name": "Cuatro pájaros de un tiro",
+          "description": "Mata a 4 enemigos simultáneamente con una explosión (solo campaña)."
+        },
+        "swedish": {
+          "name": "Fyrtal",
+          "description": "Döda 4 fiender med en och samma explosion (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_39": {
+      "translations": {
+        "brazilian": {
+          "name": "Desorientação",
+          "description": "Distraia 15 inimigos com pedras (somente Campanha)."
+        },
+        "czech": {
+          "name": "Odvedení pozornosti",
+          "description": "Odlákejte kamením pozornost 15 neprátel (pouze kampan)."
+        },
+        "danish": {
+          "name": "Afledning",
+          "description": "Distrahér 15 fjender med sten (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Steengoed",
+          "description": "Leid 15 vijanden af met stenen (alleen campagne)."
+        },
+        "english": {
+          "name": "Misdirection",
+          "description": "Distract 15 enemies with rocks (Campaign only)."
+        },
+        "finnish": {
+          "name": "Harhautus",
+          "description": "Harhauta 15 vihollista kivillä (vain kampanja)."
+        },
+        "french": {
+          "name": "Diversion",
+          "description": "Distraire 15 ennemis avec des cailloux (campagne uniquement)."
+        },
+        "german": {
+          "name": "Falsche Fährte",
+          "description": "Lenke 15 Gegner mit Steinen ab (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Diversivo",
+          "description": "Distrai 15 nemici lanciando sassi (solo Campagna)."
+        },
+        "japanese": {
+          "name": "誤指示",
+          "description": "15人の敵の注意を投石でそらす（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "적 유인",
+          "description": "돌을 던져 15명의 적을 유인하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Der borte, kompis",
+          "description": "Avled 15 fiender med steiner (bare historien)."
+        },
+        "polish": {
+          "name": "Zmyłka",
+          "description": "Rozprosz 15 wrogów rzucanymi kamieniami (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Desorientação",
+          "description": "Distraia 15 inimigos com pedras (somente Campanha)."
+        },
+        "russian": {
+          "name": "Перенаправление",
+          "description": "Отвлеките 15 врагов с помощью камня. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "声东击西",
+          "description": "使用石头吸引 15 名敌人"
+        },
+        "spanish": {
+          "name": "Engaño",
+          "description": "Distrae a 15 enemigos con piedras (solo campaña)."
+        },
+        "swedish": {
+          "name": "Kast med liten sten",
+          "description": "Distrahera 15 fiender med stenar (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_40": {
+      "translations": {
+        "brazilian": {
+          "name": "Fotógrafo",
+          "description": "Marque 25 inimigos com a câmera (somente Campanha)."
+        },
+        "czech": {
+          "name": "Japonský turista",
+          "description": "Oznacte 25 neprátel fotoaparátem (pouze kampan)."
+        },
+        "danish": {
+          "name": "Linselus",
+          "description": "Markér 25 fjender med kameraet (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Paparazzo",
+          "description": "Markeer 25 vijanden met de camera (alleen campagne)."
+        },
+        "english": {
+          "name": "Shutterbug",
+          "description": "Tag 25 enemies using the camera (Campaign only)."
+        },
+        "finnish": {
+          "name": "Reportteri",
+          "description": "Merkitse 25 vihollista kameraa käyttämällä (vain kampanja)."
+        },
+        "french": {
+          "name": "Accro à l'objectif",
+          "description": "Marquer 25 ennemis avec la caméra (campagne uniquement)."
+        },
+        "german": {
+          "name": "Hobbyfotograf",
+          "description": "Markiere 25 Gegner mit der Kamera (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Appassionato di fotografia",
+          "description": "Marca 25 nemici con la fotocamera (solo Campagna)."
+        },
+        "japanese": {
+          "name": "写真愛好家",
+          "description": "カメラを使用して25人の敵をタグする（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "사진광",
+          "description": "카메라로 25명의 적을 태그하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Fotofrik",
+          "description": "Merk 25 fiender med kameraet (bare historien)."
+        },
+        "polish": {
+          "name": "Paparazzo",
+          "description": "Oznacz 25 wrogów za pomocą aparatu (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Fotógrafo",
+          "description": "Marque 25 inimigos com a câmera (somente Campanha)."
+        },
+        "russian": {
+          "name": "Папарацци",
+          "description": "Отметьте 25 врагов с помощью фотоаппарата. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "摄影迷",
+          "description": "使用相机标记 25 名敌人"
+        },
+        "spanish": {
+          "name": "Fotógrafo profesional",
+          "description": "Marca a 25 enemigos con la cámara (solo campaña)."
+        },
+        "swedish": {
+          "name": "Kameraövervakning",
+          "description": "Markera 25 fiender med kameran (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_41": {
+      "translations": {
+        "brazilian": {
+          "name": "Reino da Morte",
+          "description": "Mate 30 inimigos com tiros de morteiro (somente Campanha)."
+        },
+        "czech": {
+          "name": "Vláda smrti",
+          "description": "Zabijte 30 neprátel strelou z minometu (pouze kampan)."
+        },
+        "danish": {
+          "name": "Dødbringende regn",
+          "description": "Dræb 30 fjender med et mortérskud (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Knalfuif",
+          "description": "Dood 30 vijanden met één mortier (alleen campagne)."
+        },
+        "english": {
+          "name": "Reign Of Death",
+          "description": "Kill 30 enemies with Mortar rounds (Campaign only)."
+        },
+        "finnish": {
+          "name": "Kuoleman valtakausi",
+          "description": "Tapa 30 vihollista kranaatinheittimen kranaatilla (vain kampanja)."
+        },
+        "french": {
+          "name": "Règne de terreur",
+          "description": "Tuer 30 ennemis au mortier (campagne uniquement)."
+        },
+        "german": {
+          "name": "Tod von oben",
+          "description": "Töte 30 Gegner mit Mörser-Granaten (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Pioggia letale",
+          "description": "Uccidi 30 nemici con colpi di mortaio (solo Campagna)."
+        },
+        "japanese": {
+          "name": "死の王朝",
+          "description": "30人の敵を迫撃砲1発で倒す（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "죽음의 시대",
+          "description": "박격포로 적 30명을 죽이십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Eksplosiv nedbør",
+          "description": "Drep 30 fiender med bombekastergranater (bare historien)."
+        },
+        "polish": {
+          "name": "Deszcz śmierci",
+          "description": "Zabij 30 wrogów pociskiem z moździerza (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Reino da Morte",
+          "description": "Mate 30 inimigos com tiros de morteiro (somente Campanha)."
+        },
+        "russian": {
+          "name": "Несущий смерть",
+          "description": "Убейте 30 врагов с помощью миномета. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "炮火统治",
+          "description": "使用迫击炮击杀 30 名敌人"
+        },
+        "spanish": {
+          "name": "Reino de muerte",
+          "description": "Mata a 30 enemigos con proyectiles de mortero (solo campaña)."
+        },
+        "swedish": {
+          "name": "Mörsare",
+          "description": "Döda 30 fiender med en granatkastare (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_42": {
+      "translations": {
+        "brazilian": {
+          "name": "A Distância",
+          "description": "Mate um alvo a 60 m ou mais com uma flecha ou virote (somente Campanha)."
+        },
+        "czech": {
+          "name": "Z dálky",
+          "description": "Zabijte cíl šípem na více než 60 metru (pouze kampan)."
+        },
+        "danish": {
+          "name": "På afstand",
+          "description": "Dræb et mål, der er over 60 meter væk, med pil eller armbrøstbolt (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Van een afstandje",
+          "description": "Dood een doelwit van een afstand van minstens 60 meter met een (korte) pijl (alleen campagne)."
+        },
+        "english": {
+          "name": "From A Distance",
+          "description": "Kill a target from 60m or more with an arrow or bolt (Campaign only)."
+        },
+        "finnish": {
+          "name": "Kaukaa",
+          "description": "Tapa vihollinen vähintään 60 metrin päästä nuolella tai vasamalla (vain kampanja)."
+        },
+        "french": {
+          "name": "À distance",
+          "description": "Tuer une cible à 60 m ou plus avec une flèche ou un carreau (campagne uniquement)."
+        },
+        "german": {
+          "name": "Von Weitem",
+          "description": "Töte einen Gegner aus mindestens 60 Metern Entfernung mit einem Pfeil oder Bolzen (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Lunga distanza",
+          "description": "Uccidi un bersaglio da 60 o più metri con una freccia o un dardo (solo Campagna)."
+        },
+        "japanese": {
+          "name": "フロム・ア・ディスタンス",
+          "description": "60m以上離れたターゲットを矢またはボルトで倒す（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "원거리 공격",
+          "description": "60m 이상 떨어진 상태에서, 활이나 석궁으로 적을 죽이십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Fra avstand",
+          "description": "Drep et mål fra en avstand på minst 60 meter med en pil eller en bolt (bare historien)."
+        },
+        "polish": {
+          "name": "Z dystansu",
+          "description": "Zabij cel strzałą lub bełtem z odległości ponad 60 metrów (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "A Distância",
+          "description": "Mate um alvo a 60 m ou mais com uma flecha ou virote (somente Campanha)."
+        },
+        "russian": {
+          "name": "Смерть издалека",
+          "description": "Убейте врага стрелой или болтом с расстояния в 60 метров или больше. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "百步穿杨",
+          "description": "使用弓箭在 60 米外击杀一名敌人"
+        },
+        "spanish": {
+          "name": "A distancia",
+          "description": "Mata a un blanco con una flecha o un virote desde 60 m o más (solo campaña)."
+        },
+        "swedish": {
+          "name": "Långsiktigt",
+          "description": "Döda en fiende på minst 60 meters avstånd med en pil (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_43": {
+      "translations": {
+        "brazilian": {
+          "name": "Dois Pássaros",
+          "description": "Usando um fuzil de precisão, mate 2 alvos com um único tiro (somente Campanha)."
+        },
+        "czech": {
+          "name": "2 mouchy",
+          "description": "Odstrelovací puškou zabijte 2 cíle jedinou ranou (pouze kampan)."
+        },
+        "danish": {
+          "name": "To fugle …",
+          "description": "Dræb to mål med ét skud fra en snigskytteriffel (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Twee vliegen",
+          "description": "Dood 2 doelwitten in één schot met een sluipschuttersgeweer (alleen campagne)."
+        },
+        "english": {
+          "name": "Two Birds",
+          "description": "Using a sniper rifle, kill 2 targets with a single shot (Campaign only)."
+        },
+        "finnish": {
+          "name": "Kaksi kärpästä",
+          "description": "Tapa 2 vihollista yhdellä kiikarikiväärin laukauksella (vain kampanja)."
+        },
+        "french": {
+          "name": "D'une pierre deux coups",
+          "description": "Tuer 2 ennemis avec une même balle au fusil de sniper (campagne uniquement)."
+        },
+        "german": {
+          "name": "Zwei Fliegen",
+          "description": "Töte 2 Ziele mit einem einzigen Schuss eines Präzisionsgewehrs (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Due piccioni...",
+          "description": "Uccidi due bersagli con un colpo solo usando un fucile di precisione (solo Campagna)."
+        },
+        "japanese": {
+          "name": "二鳥",
+          "description": "スナイパーの武器を使用して、1発で2人のターゲットを倒す（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "일거양득",
+          "description": "스나이퍼 라이플을 사용해서, 두 목표물을 한 방에 죽이십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "To fluer i én smekk",
+          "description": "Drep 2 mål med ett enkelt skudd med et skarpskyttergevær (bare historien)."
+        },
+        "polish": {
+          "name": "Dwie pieczenie",
+          "description": "Zabij 2 cele jednym strzałem z karabinu snajperskiego (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Dois Pássaros",
+          "description": "Usando um fuzil de precisão, mate 2 alvos com um único tiro (somente Campanha)."
+        },
+        "russian": {
+          "name": "Два в одном",
+          "description": "Убейте 2 врагов одним выстрелом из снайперской винтовки. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "一石二鸟",
+          "description": "使用狙击枪一枪击杀2个目标"
+        },
+        "spanish": {
+          "name": "Dos pájaros",
+          "description": "Usa un rifle de francotirador para matar a 2 blancos de un disparo (solo campaña)."
+        },
+        "swedish": {
+          "name": "Två fåglar",
+          "description": "Använd ett prickskyttegevär och döda 2 måltavlor med ett skott (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_44": {
+      "translations": {
+        "brazilian": {
+          "name": "O Céu Está Caindo",
+          "description": "Execute um nocaute de um Buzzer (somente Campanha)."
+        },
+        "czech": {
+          "name": "Padající nebe",
+          "description": "Provedte likvidaci z rogala (pouze kampan)."
+        },
+        "danish": {
+          "name": "Himlen falder ned",
+          "description": "Udfør en nedlægning fra en gyrokopter (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Luchtige moord",
+          "description": "Elimineer iemand vanuit een gyrocopter (alleen campagne)."
+        },
+        "english": {
+          "name": "The Sky Is Falling",
+          "description": "Perform a takedown from a Buzzer (Campaign only)."
+        },
+        "finnish": {
+          "name": "Taivas putoaa",
+          "description": "Suorita kaato autogirosta käsin (vain kampanja)."
+        },
+        "french": {
+          "name": "La mort vient du ciel",
+          "description": "Effectuer une exécution depuis un Buzzer (campagne uniquement)."
+        },
+        "german": {
+          "name": "Wie ein Meister vom Himmel",
+          "description": "Führe einen Takedown aus einem Gyrokopter aus (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Stella cadente",
+          "description": "Esegui un abbattimento dal girocottero (solo Campagna)."
+        },
+        "japanese": {
+          "name": "空が落ちてくる",
+          "description": "ブザーからテイクダウンを行う（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "하늘이 무너진다",
+          "description": "자이로콥터에서 테이크다운을 수행하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Himmelen faller ned",
+          "description": "Utfør en felling fra et gyrokopter (bare historien)."
+        },
+        "polish": {
+          "name": "Operator terminator",
+          "description": "Wykonaj eliminację z pokładu Brzęczyka (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "O Céu Está Caindo",
+          "description": "Execute um nocaute de um Buzzer (somente Campanha)."
+        },
+        "russian": {
+          "name": "Сошедший с небес",
+          "description": "Совершите убийство, сидя в гирокоптере. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "天塌了",
+          "description": "在滑翔机上完成一次载具击倒"
+        },
+        "spanish": {
+          "name": "El cielo se cae",
+          "description": "Realiza una eliminación desde un Buzzer (solo campaña)."
+        },
+        "swedish": {
+          "name": "Skyfall",
+          "description": "Utför ett överfall från gyrokoptern (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_45": {
+      "translations": {
+        "brazilian": {
+          "name": "Em Chamas!",
+          "description": "Mate 50 inimigos com fogo (somente Campanha)."
+        },
+        "czech": {
+          "name": "At horí!",
+          "description": "Zabijte 50 neprátel ohnem (pouze kampan)."
+        },
+        "danish": {
+          "name": "Skru op for blusset",
+          "description": "Dræb 50 fjender med ild (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Vuurspuwer",
+          "description": "Dood 50 vijanden met vuur (alleen campagne)."
+        },
+        "english": {
+          "name": "Flame On!",
+          "description": "Kill 50 enemies with fire (Campaign only)."
+        },
+        "finnish": {
+          "name": "Antaa palaa!",
+          "description": "Tapa 50 vihollista tulella (vain kampanja)."
+        },
+        "french": {
+          "name": "Ça chauffe !",
+          "description": "Tuer 50 ennemis avec le feu (campagne uniquement)."
+        },
+        "german": {
+          "name": "Flammen marsch!",
+          "description": "Töte 50 Gegner mit Feuer (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Fiamma!",
+          "description": "Uccidi 50 nemici con il fuoco (solo Campagna)."
+        },
+        "japanese": {
+          "name": "燃やせ！",
+          "description": "50人の敵を炎で倒す（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "태워버려!",
+          "description": "화염 공격으로 적 50명을 죽이십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Brannfare",
+          "description": "Drep 50 fiender med ild (bare historien)."
+        },
+        "polish": {
+          "name": "Pali się!",
+          "description": "Zabij 50 wrogów za pomocą ognia (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Em Chamas!",
+          "description": "Mate 50 inimigos com fogo (somente Campanha)."
+        },
+        "russian": {
+          "name": "Жги!",
+          "description": "Убейте 50 врагов с помощью огня. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "着火啦!",
+          "description": "用火烧死 50 名敌人"
+        },
+        "spanish": {
+          "name": "¡Llamas a mí!",
+          "description": "Mata a 50 enemigos con fuego (solo campaña)."
+        },
+        "swedish": {
+          "name": "Tänt var det här!",
+          "description": "Döda 50 fiender med eld (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_46": {
+      "translations": {
+        "brazilian": {
+          "name": "Tiroteio Motorizado",
+          "description": "Mate 25 inimigos atirando enquanto dirige (somente Campanha)."
+        },
+        "czech": {
+          "name": "Prujezd",
+          "description": "Zabijte 25 neprátel strelbou za jízdy (pouze kampan)."
+        },
+        "danish": {
+          "name": "Mord på hjul",
+          "description": "Dræb 25 fjender mens du skyder og kører (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Rijden en schieten",
+          "description": "Dood 25 vijanden van achter het stuur (alleen campagne)."
+        },
+        "english": {
+          "name": "Drive-By",
+          "description": "Kill 25 enemies while shooting and driving (Campaign only)."
+        },
+        "finnish": {
+          "name": "Autoisku",
+          "description": "Tapa 25 vihollista ampumalla ajaessasi (vain kampanja)."
+        },
+        "french": {
+          "name": "En passant",
+          "description": "Tuer 25 ennemis en tirant au volant d'un véhicule (campagne uniquement)."
+        },
+        "german": {
+          "name": "Drive-By",
+          "description": "Erschieße 25 Gegner während der Fahrt (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Drive-By",
+          "description": "Uccidi 25 nemici mentre spari e guidi contemporaneamente (solo Campagna)."
+        },
+        "japanese": {
+          "name": "走行銃撃",
+          "description": "25人の敵をドライビング&シューティングで倒す（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "달리면서 탕탕",
+          "description": "운전하면서 사격으로 적 25명을 죽이십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Tut og kjør",
+          "description": "Drep 25 fiender mens du skyter og kjører (bare historien)."
+        },
+        "polish": {
+          "name": "Zabójczy kierowca",
+          "description": "Zabij 25 wrogów, strzelając zza kierownicy (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Tiroteio Motorizado",
+          "description": "Mate 25 inimigos atirando enquanto dirige (somente Campanha)."
+        },
+        "russian": {
+          "name": "Смерть по дороге",
+          "description": "Убейте 25 врагов, стреляя из транспорта. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "飞车射击",
+          "description": "驾驶状态下使用武器击杀 25 名敌人"
+        },
+        "spanish": {
+          "name": "Tiroteo al volante",
+          "description": "Mata a 25 enemigos mientras disparas y conduces (solo campaña)."
+        },
+        "swedish": {
+          "name": "Drive-by",
+          "description": "Skjut ihjäl 25 fiender medan du kör (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_47": {
+      "translations": {
+        "brazilian": {
+          "name": "A Boa Luta",
+          "description": "Alcance o nível 2 de Karma e compre qualquer melhoria de Armas de Aluguel (somente Campanha)."
+        },
+        "czech": {
+          "name": "Dobrý boj",
+          "description": "Dosáhnete 2. karmické úrovne a kupte si žoldnérské vylepšení (pouze kampan)."
+        },
+        "danish": {
+          "name": "Kampen for det gode",
+          "description": "Nå karmaniveau 2, og køb en lejesoldatsopgradering (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Goedzak",
+          "description": "Bereik karmaniveau 2 en koop een huurlingenupgrade (alleen campagne)."
+        },
+        "english": {
+          "name": "The Good Fight",
+          "description": "Reach Karma Level 2, and purchase any Guns For Hire upgrade (Campaign only)."
+        },
+        "finnish": {
+          "name": "Kunniakas taistelu",
+          "description": "Saavuta karmataso 2 ja osta mikä tahansa Palkkasoturi-päivitys (vain kampanja)."
+        },
+        "french": {
+          "name": "Juste cause",
+          "description": "Atteindre le niveau 2 de karma et acheter l'amélioration Mercenaires (campagne uniquement)."
+        },
+        "german": {
+          "name": "Die gerechte Sache",
+          "description": "Erreiche Karma-Level 2 und kaufe ein beliebiges Schützenhilfe-Upgrade (nur Kampagne)."
+        },
+        "italian": {
+          "name": "La giusta causa",
+          "description": "Raggiungi il livello Karma 2 e acquista un potenziamento Mercenari (solo Campagna)."
+        },
+        "japanese": {
+          "name": "力戦",
+          "description": "カルマLv2に到達していずれかのGuns For Hireアップグレードを買う（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "잘 싸웠어",
+          "description": "카르마 2레벨을 달성하고 청부업자 업그레이드를 구매하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Den gode sak",
+          "description": "Nå karmanivå 2, og kjøp en Leiesoldat-oppgradering (bare historien)."
+        },
+        "polish": {
+          "name": "Dobra walka",
+          "description": "Osiągnij 2 poziom karmy i kup dowolne ulepszenie Spluw do wynajęcia (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "A Boa Luta",
+          "description": "Alcance o nível 2 de Karma e compre qualquer melhoria de Armas de Aluguel (somente Campanha)."
+        },
+        "russian": {
+          "name": "Добрый бой",
+          "description": "Получите второй уровень кармы и приобретите любое улучшение для наемников. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "为义而战",
+          "description": "业力等级达到 2 级后购买任意雇佣兵升级"
+        },
+        "spanish": {
+          "name": "Luchar por el bien",
+          "description": "Llega al nivel de karma 2 y compra cualquier mejora de Aliados a sueldo (solo campaña)."
+        },
+        "swedish": {
+          "name": "Uppror",
+          "description": "Nå karmanivå 2 och köpa valfri rebelluppgradering (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_48": {
+      "translations": {
+        "brazilian": {
+          "name": "Como um Pássaro",
+          "description": "Voe 5.000 m com o Wingsuit (somente Campanha)."
+        },
+        "czech": {
+          "name": "Jako pták",
+          "description": "Ulette v létajícím obleku celkem 5000 metru (pouze kampan)."
+        },
+        "danish": {
+          "name": "Fri som fuglen",
+          "description": "Flyv i alt 5000 meter med din wingsuit (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Als een vogel",
+          "description": "Vlieg in totaal 5000 meter met een wingsuit (alleen campagne)."
+        },
+        "english": {
+          "name": "Like A Bird",
+          "description": "Fly 5000m total in the Wingsuit (Campaign only)."
+        },
+        "finnish": {
+          "name": "Kuin lintu",
+          "description": "Lennä liitopuvulla yhteensä 5 000 metriä (vain kampanja)."
+        },
+        "french": {
+          "name": "Fais comme l'oiseau",
+          "description": "Voler sur 5 000 m en tout en wingsuit (campagne uniquement)."
+        },
+        "german": {
+          "name": "Wie ein Vogel",
+          "description": "Fliege insgesamt 5.000 Meter in einem Wingsuit (nur Kampagne)."
+        },
+        "italian": {
+          "name": "È un uccello?",
+          "description": "Percorri 5.000 m con la tuta alare (solo Campagna)."
+        },
+        "japanese": {
+          "name": "鳥のように",
+          "description": "ウィングスーツで合計5000m飛行する（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "창공의 새처럼",
+          "description": "윙수트로 총 5000m를 비행하십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Som en fugl",
+          "description": "Fly totalt 5000 meter i vingedrakten"
+        },
+        "polish": {
+          "name": "Niczym ptak",
+          "description": "Przeleć w sumie 5000 metrów w kombinezonie do latania (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Como um Pássaro",
+          "description": "Voe 5.000 m com o Wingsuit (somente Campanha)."
+        },
+        "russian": {
+          "name": "Птица счастья",
+          "description": "Пролетите 5000 метров в костюме-крыле. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "像鸟儿一样",
+          "description": "使用滑翔衣累计飞行 5,000 米"
+        },
+        "spanish": {
+          "name": "Como un pájaro",
+          "description": "Vuela 5000 metros con el traje aéreo (solo campaña)."
+        },
+        "swedish": {
+          "name": "Fri som en fågel",
+          "description": "Flyg 5 000 meter med vingdräkten (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_49": {
+      "translations": {
+        "brazilian": {
+          "name": "Atropelamentos",
+          "description": "Atropele 25 pessoas (somente Campanha)."
+        },
+        "czech": {
+          "name": "Nemyslíš, zaplatíš",
+          "description": "Prejedte 25 lidí (pouze kampan)."
+        },
+        "danish": {
+          "name": "Dødsbilist",
+          "description": "Kør 25 mennesker over (kun kampagne)."
+        },
+        "dutch": {
+          "name": "Schoft in het verkeer",
+          "description": "Rij 25 mensen omver (alleen campagne)."
+        },
+        "english": {
+          "name": "Roadkill",
+          "description": "Run over 25 people (Campaign only)."
+        },
+        "finnish": {
+          "name": "Liikenneturma",
+          "description": "Aja 25 ihmisen yli (vain kampanja)."
+        },
+        "french": {
+          "name": "Chiens écrasés",
+          "description": "Écraser 25 personnes (campagne uniquement)."
+        },
+        "german": {
+          "name": "Verkehrstote",
+          "description": "Überfahre 25 Menschen (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Pirata della strada",
+          "description": "Investi 25 persone (solo Campagna)."
+        },
+        "japanese": {
+          "name": "ロードキル",
+          "description": "車で25人轢く（キャンペーン中のみ）"
+        },
+        "koreana": {
+          "name": "로드킬",
+          "description": "차량으로 25명의 사람을 치십시오. (캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Trafikkbølle",
+          "description": "Kjør over 25 personer (bare historien)."
+        },
+        "polish": {
+          "name": "Śmierć na drodze",
+          "description": "Przejedź 25 osób (tylko kampania)."
+        },
+        "portuguese": {
+          "name": "Atropelamentos",
+          "description": "Atropele 25 pessoas (somente Campanha)."
+        },
+        "russian": {
+          "name": "Смерть за рулем",
+          "description": "Сбейте 25 человек. (Только в кампании)"
+        },
+        "schinese": {
+          "name": "马路杀手",
+          "description": "开车撞死 25 个人"
+        },
+        "spanish": {
+          "name": "Atropello",
+          "description": "Atropella a 25 personas (solo campaña)."
+        },
+        "swedish": {
+          "name": "Inget företräde",
+          "description": "Kör över 25 personer (endast kampanjen)."
+        }
+      }
+    },
+    "FarCry4_Ach_50": {
+      "translations": {
+        "brazilian": {
+          "name": "O Campeão do Povo",
+          "description": "Alcance a posição 5 na Arena (somente Arena da Campanha)."
+        },
+        "czech": {
+          "name": "Oblíbenec davu",
+          "description": "Dosáhnete v aréne na 5. úroven (Kampan - pouze Aréna)."
+        },
+        "danish": {
+          "name": "Folkehelt",
+          "description": "Nå arenarang 5 (kun kampagnearena)."
+        },
+        "dutch": {
+          "name": "Kampioen van het volk",
+          "description": "Bereik arena-rang 5 (alleen arenacampagne)."
+        },
+        "english": {
+          "name": "The People's Champ",
+          "description": "Reach Arena Rank 5 (Campaign Arena only)."
+        },
+        "finnish": {
+          "name": "Kansanmestari",
+          "description": "Saavuta areenasijoitus 5 (vain kampanjan areena)."
+        },
+        "french": {
+          "name": "Champion du peuple",
+          "description": "Atteindre le niveau 5 dans l'Arène (Arène campagne uniquement)."
+        },
+        "german": {
+          "name": "Volksheld",
+          "description": "Erreiche Arena-Rang 5 (nur Kampagne - Arena)."
+        },
+        "italian": {
+          "name": "Il beniamino della gente",
+          "description": "Raggiungi il livello dell'arena 5 (solo Arena Campagna)."
+        },
+        "japanese": {
+          "name": "ピープルズ・チャンプ",
+          "description": "アリーナランク5に到達する（キャンペーン中アリーナのみ）"
+        },
+        "koreana": {
+          "name": "우리들의 챔피언",
+          "description": "아레나에서 5위를 기록해 보십시오. (아레나 캠페인 전용)"
+        },
+        "norwegian": {
+          "name": "Folkets mester",
+          "description": "Kom til arenarangering 5 (kun arena i historiespillet)."
+        },
+        "polish": {
+          "name": "Ulubieniec tłumów",
+          "description": "Osiągnij 5 rangę na Arenie (tylko kampania, tryb Areny)."
+        },
+        "portuguese": {
+          "name": "O Campeão do Povo",
+          "description": "Alcance a posição 5 na Arena (somente Arena da Campanha)."
+        },
+        "russian": {
+          "name": "Любимец публики",
+          "description": "Получите 5 ранг на Арене. (Только на Арене в кампании)"
+        },
+        "schinese": {
+          "name": "人民英雄",
+          "description": "夏南竞技场排名达到 5"
+        },
+        "spanish": {
+          "name": "Campeón popular",
+          "description": "Llega al rango 5 de la arena (solo campaña de arena)."
+        },
+        "swedish": {
+          "name": "Folkets kämpe",
+          "description": "Nå arenarang 5 (endast kampanjarenan)."
+        }
+      }
+    },
+    "FarCry4_Ach_51": {
+      "translations": {
+        "brazilian": {
+          "name": "Homem da Renascença",
+          "description": "Termine uma partida pública de cada tipo no modo Batalhas de Kyrat (somente Batalhas de Kyrat)."
+        },
+        "czech": {
+          "name": "Renesancní clovek",
+          "description": "Dokoncete verejný zápas ve všech typech her v herním režimu Bitvy o Kyrat (pouze Bitvy o Kyrat)."
+        },
+        "danish": {
+          "name": "Renæssancemand",
+          "description": "Gennemfør en offentlig match i hver spiltype i Slagene om Kyrat (kun Slagene om Kyrat)."
+        },
+        "dutch": {
+          "name": "Wedergeboorte",
+          "description": "Voltooi een openbare match van elk speltype van Gevechten van Kyrat (alleen Gevechten van Kyrat)."
+        },
+        "english": {
+          "name": "Renaissance Man",
+          "description": "Finish a public match of each game type in the Battles of Kyrat game mode (Battles of Kyrat only)."
+        },
+        "finnish": {
+          "name": "Yleisnero",
+          "description": "Pelaa julkisen pelin läpi jokaisessa Battles of Kyrat -pelityypissä (vain Battles of Kyrat)."
+        },
+        "french": {
+          "name": "Homme moderne",
+          "description": "Terminer une partie publique pour chaque mode de Bataille pour le Kyrat (Bataille Kyrat seulement)."
+        },
+        "german": {
+          "name": "Renaissancemensch",
+          "description": "Beende ein öffentliches Match jedes Typs von den „Schlachten von Kyrat” (nur Schlachten von Kyrat)."
+        },
+        "italian": {
+          "name": "Uomo del rinascimento",
+          "description": "Completa una partita pubblica in ogni modalità Battaglie del Kyrat (solo Battaglie del Kyrat)."
+        },
+        "japanese": {
+          "name": "ルネッサンスマン",
+          "description": "キラットの戦いゲームモードの各ゲームタイプのパブリックマッチを完了する（キラットの戦いのみ）"
+        },
+        "koreana": {
+          "name": "다재다능한 인재",
+          "description": "모든 방식의 전투에서 공개 매치를 완료하십시오. (키라트 전투 전용)"
+        },
+        "norwegian": {
+          "name": "Renessansemannen",
+          "description": "Gjennomfør en offentlig kamp i hver spilltype i Slag om Kyrat-spillmodus (bare Slag om Kyrat)."
+        },
+        "polish": {
+          "name": "Człowiek Renesansu",
+          "description": "Ukończ publiczny mecz każdego typu w trybie Bitwy o Kyrat (tylko Bitwa o Kyrat)."
+        },
+        "portuguese": {
+          "name": "Homem da Renascença",
+          "description": "Termine uma partida pública de cada tipo no modo Batalhas de Kyrat (somente Batalhas de Kyrat)."
+        },
+        "russian": {
+          "name": "Мастер на все руки",
+          "description": "Поучаствуйте в открытой игре \"Битвы Кирата\" каждого типа (Только в \"Битвах Кирата\")."
+        },
+        "schinese": {
+          "name": "全才",
+          "description": "在凯拉特之战中完成过每种游戏模式的公开对局(哨站,恶魔面具,宣传工具)"
+        },
+        "spanish": {
+          "name": "Hombre del renacimiento",
+          "description": "Acaba una partida pública de cada tipo de juego del modo Batallas de Kyrat (solo Batallas de Kyrat)."
+        },
+        "swedish": {
+          "name": "Ju fler desto bättre",
+          "description": "Slutför en öppen match i alla Kyrats strider-lägen (endast Kyrats strider)."
+        }
+      }
+    },
+    "FarCry4_Ach_52": {
+      "translations": {
+        "brazilian": {
+          "name": "Surpresa da Comunidade",
+          "description": "Jogue um mapa com as melhores avaliações do Navegador de Mapas (somente Navegador de Mapas)."
+        },
+        "czech": {
+          "name": "Komunitní prekvapení",
+          "description": "Zahrajte si nejlépe hodnocené mapy v prohlížeci map (pouze prohlížec map)."
+        },
+        "danish": {
+          "name": "En overraskelse fra fællesskabet",
+          "description": "Spil en af de bedst bedømte baner i banefremviser (kun banefremviser)."
+        },
+        "dutch": {
+          "name": "Van de community",
+          "description": "Speel een best beoordeelde map in de map-browser (alleen map-browser)."
+        },
+        "english": {
+          "name": "Community Surprise",
+          "description": "Play a Top Rated map in the Map Browser (Map Browser only)."
+        },
+        "finnish": {
+          "name": "Yhteisön yllätys",
+          "description": "Pelaa parhaisiin kuuluvaa karttaa karttaselaimessa (vain karttaselain)."
+        },
+        "french": {
+          "name": "Surprise de la communauté",
+          "description": "Jouer une carte personnalisée classée dans le navigateur de cartes (Navigateur de cartes seulement)."
+        },
+        "german": {
+          "name": "Community-Überraschung",
+          "description": "Spiele eine Map mit Top-Bewertung aus dem Map-Browser (nur Map-Browser)."
+        },
+        "italian": {
+          "name": "Sorpresa comunitaria",
+          "description": "Gioca una delle mappe più votate nel browser di mappe (solo browser di mappe)."
+        },
+        "japanese": {
+          "name": "コミュニティ・サプライズ",
+          "description": "マップブラウザ内のトップ評価マップをプレイする（マップブラウザのみ）"
+        },
+        "koreana": {
+          "name": "신나는 커뮤니티",
+          "description": "맵 브라우저에서 가장 인기있는 맵을 플레이하십시오. (맵 브라우저 전용)"
+        },
+        "norwegian": {
+          "name": "Nettoverraskelse",
+          "description": "Spill et topprangert kart i kartfinneren (bare Kartfinner)."
+        },
+        "polish": {
+          "name": "Społecznościowa niespodzianka",
+          "description": "Zagraj na najwyżej ocenionej mapie w Przeglądarce map (tylko Przeglądarka map)."
+        },
+        "portuguese": {
+          "name": "Surpresa da Comunidade",
+          "description": "Jogue um mapa com as melhores avaliações do Navegador de Mapas (somente Navegador de Mapas)."
+        },
+        "russian": {
+          "name": "Сюрприз от сообщества",
+          "description": "Сыграйте на карте с самым высоким рейтингом из списка карт. (Только в \"Списке карт\")"
+        },
+        "schinese": {
+          "name": "社区惊喜",
+          "description": "在地图浏览器里游玩一张评价最高的地图"
+        },
+        "spanish": {
+          "name": "Sorpresa comunitaria",
+          "description": "Juega en un mapa mejor valorado del navegador de mapas (solo navegador de mapas)."
+        },
+        "swedish": {
+          "name": "Communityöverraskning",
+          "description": "Spela en högt betygsatt karta via kartväljaren (endast kartväljaren)."
+        }
+      }
+    },
+    "FarCry4_Ach_54": {
+      "translations": {
+        "brazilian": {
+          "name": "Lar Doce Lar",
+          "description": "Ocupe a estação de transmissão (Vale dos Yetis)."
+        },
+        "czech": {
+          "name": "Domov Sladký Domov",
+          "description": "Zabírají relé Station (Údolí Yeti)."
+        },
+        "danish": {
+          "name": "Hjem, kære hjem",
+          "description": "Indtag relæstationen (Yetiernes dal)."
+        },
+        "dutch": {
+          "name": "Oost, west, thuis best",
+          "description": "Neem het relaisstation in (Yetivallei)."
+        },
+        "english": {
+          "name": "Home Sweet Home",
+          "description": "Occupy The Relay Station (Valley Of The Yetis)."
+        },
+        "finnish": {
+          "name": "Oma koti kullan kallis",
+          "description": "Valtaa releasema (Jetilaakso)."
+        },
+        "french": {
+          "name": "Doux foyer",
+          "description": "Occuper la station-relais (Vallée des yétis)."
+        },
+        "german": {
+          "name": "Trautes Heim …",
+          "description": "Erobere die Relaisstation (Tal der Yetis)."
+        },
+        "italian": {
+          "name": "Casa dolce casa",
+          "description": "Occupa la stazione radio (Valle degli yeti)."
+        },
+        "japanese": {
+          "name": "いとしの我が家",
+          "description": "中継基地を占領する（イェティの谷）"
+        },
+        "koreana": {
+          "name": "거운 나의 집",
+          "description": "중계국을 장악하십시오. (설인의 계곡)"
+        },
+        "norwegian": {
+          "name": "Kjem, kjære hjem",
+          "description": "Okkuper reléstasjonen (Yetienes dal)."
+        },
+        "polish": {
+          "name": "Nie ma jak w domu",
+          "description": "Zajmij stację przekaźnikową (Dolina Yeti)."
+        },
+        "portuguese": {
+          "name": "Lar Doce Lar",
+          "description": "Ocupe a estação de transmissão (Vale dos Yetis)."
+        },
+        "russian": {
+          "name": "Дом, милый дом",
+          "description": "Захватите радиостанцию (Долина йети)."
+        },
+        "schinese": {
+          "name": "甜蜜家园",
+          "description": "占领中继站(雪人谷DLC)"
+        },
+        "spanish": {
+          "name": "Hogar, dulce hogar",
+          "description": "Ocupa la estación repetidora (El valle de los yetis)."
+        },
+        "swedish": {
+          "name": "Hem ljuva hem",
+          "description": "Ta över relästationen (Snömännens dal)."
+        }
+      }
+    },
+    "FarCry4_Ach_55": {
+      "translations": {
+        "brazilian": {
+          "name": "Sobrevivente da Noite",
+          "description": "Defenda a estação de transmissão e sobreviva à primeira noite (Vale dos Yetis)."
+        },
+        "czech": {
+          "name": "Noční přeživší",
+          "description": "Ubraňte vysílací stanici a přežijte první noc (Údolí yettiů)."
+        },
+        "danish": {
+          "name": "Overlever af natten",
+          "description": "Forsvar relæstationen, og overlev den første nat (Yetiernes dal)."
+        },
+        "dutch": {
+          "name": "Nachtdier",
+          "description": "Verdedig het relaisstation en overleef de eerste nacht (Yetivallei)."
+        },
+        "english": {
+          "name": "Night Survivor",
+          "description": "Defend The Relay Station And Survive The First Night (Valley Of The Yetis)."
+        },
+        "finnish": {
+          "name": "Yön selviytyjä",
+          "description": "Puolusta releasemaa ja selviydy ensimmäisen yön yli (Jetilaakso)."
+        },
+        "french": {
+          "name": "Survivant",
+          "description": "Protéger la station-relais et survivre à la première nuit (Vallée des yétis)."
+        },
+        "german": {
+          "name": "Nacht-Überlebender",
+          "description": "Verteidige die Relaisstation und überlebe die erste Nacht (Tal der Yetis)."
+        },
+        "italian": {
+          "name": "Sopravvissuto notturno",
+          "description": "Difendi la stazione radio e sopravvivi alla prima notte (Valle degli yeti)."
+        },
+        "japanese": {
+          "name": "ナイトサバイバー",
+          "description": "中継基地を防御して第一夜を生き延びる（イェティの谷）"
+        },
+        "koreana": {
+          "name": "야간 생존",
+          "description": "중계국을 방어하고 첫날 밤을 무사히 버티십시오. (설인의 계곡)"
+        },
+        "norwegian": {
+          "name": "En hard natt",
+          "description": "Forsvar reléstasjonen og overlev den første natten (Yetienes dal)."
+        },
+        "polish": {
+          "name": "Ocalony",
+          "description": "Obroń stację przekaźnikową i przeżyj pierwszą noc (Dolina Yeti)."
+        },
+        "portuguese": {
+          "name": "Sobrevivente da Noite",
+          "description": "Defenda a estação de transmissão e sobreviva à primeira noite (Vale dos Yetis)."
+        },
+        "russian": {
+          "name": "Доброе утро",
+          "description": "Защитите радиостанцию и переживите первую ночь (Долина йети)."
+        },
+        "schinese": {
+          "name": "守夜人",
+          "description": "守住中继站并挺过第一个晚上(雪人谷DLC)"
+        },
+        "spanish": {
+          "name": "Superviviente nocturno",
+          "description": "Defiende la estación repetidora y sobrevive a la primera noche (El valle de los yetis)."
+        },
+        "swedish": {
+          "name": "Nattkämpe",
+          "description": "Försvara relästationen och överlev den första natten (Snömännens dal)."
+        }
+      }
+    },
+    "FarCry4_Ach_56": {
+      "translations": {
+        "brazilian": {
+          "name": "Construtor",
+          "description": "Complete uma tarefa de melhoria da estação de transmissão (Vale dos Yetis, somente jogo individual)."
+        },
+        "czech": {
+          "name": "Stavitel",
+          "description": "Dokončete jeden vylepšovací úkol na vysílací stanici (Údolí yettiů, pouze hra pro jednoho hráče)."
+        },
+        "danish": {
+          "name": "Bygger",
+          "description": "Gennemfør en opgraderingsopgave for relæstationen (Yetiernes dal, kun singleplayer)."
+        },
+        "dutch": {
+          "name": "Bouwer",
+          "description": "Volbreng een upgrade-opdracht voor het relaisstation (Yetivallei, alleen singleplayer)."
+        },
+        "english": {
+          "name": "Builder",
+          "description": "Complete One Relay Station Upgrade Quest (Valley Of The Yetis, Single Player Only)."
+        },
+        "finnish": {
+          "name": "Rakentaja",
+          "description": "Suorita yksi releaseman päivitystehtävä (Jetilaakso, vain yksinpeli)."
+        },
+        "french": {
+          "name": "Constructeur",
+          "description": "Terminer une quête d'amélioration de la station-relais (Vallée des yétis et Solo)."
+        },
+        "german": {
+          "name": "Bauherr",
+          "description": "Beende eine Upgrade-Aufgabe an der Relaisstation (Tal der Yetis, nur Einzelspieler)."
+        },
+        "italian": {
+          "name": "Costruttore",
+          "description": "Completa una missione potenziamento per la stazione radio (Valle degli yeti, solo in singolo)."
+        },
+        "japanese": {
+          "name": "ビルダー",
+          "description": "中継基地のアップグレードクエストを１つ完了する（イェティの谷、シングルプレイのみ）"
+        },
+        "koreana": {
+          "name": "빌더",
+          "description": "하나의 중계국 업그레이드 퀘스트를 완료하십시오. (설인의 계곡, 싱글플레이 전용)"
+        },
+        "norwegian": {
+          "name": "Bygglærling",
+          "description": "Gjør én reléstasjon-oppgradering (Yetienes dal, bare enkeltspiller)."
+        },
+        "polish": {
+          "name": "Budowniczy",
+          "description": "Ukończ 1 zadanie związane z rozbudową stacji (Dolina Yeti, tylko poj. gracz)."
+        },
+        "portuguese": {
+          "name": "Construtor",
+          "description": "Complete uma tarefa de melhoria da estação de transmissão (Vale dos Yetis, somente jogo individual)."
+        },
+        "russian": {
+          "name": "Строитель",
+          "description": "Выполните задание по улучшению радиостанции (Долина йети, только в одиночной игре)."
+        },
+        "schinese": {
+          "name": "建造者",
+          "description": "完成一个中继站升级任务(雪人谷DLC)"
+        },
+        "spanish": {
+          "name": "Albañil",
+          "description": "Completa un encargo de mejora de la estación repetidora (El valle de los yetis, solo un jugador)."
+        },
+        "swedish": {
+          "name": "Byggare",
+          "description": "Klara av ett uppgraderingsuppdrag för relästationen (Snömännens dal, "
+        }
+      }
+    },
+    "FarCry4_Ach_57": {
+      "translations": {
+        "brazilian": {
+          "name": "Construtor Mestre",
+          "description": "Complete as tarefas de melhoria da estação de transmissão (Vale dos Yetis, somente jogo individual)."
+        },
+        "czech": {
+          "name": "Mistr stavitel",
+          "description": "Dokončete všechny vylepšovací úkoly na vysílací stanici (Údolí yettiů, pouze hra pro jednoho hráče)."
+        },
+        "danish": {
+          "name": "Bygherre",
+          "description": "Gennemfør alle opgraderingsopgaverne for relæstationen (Yetiernes dal, kun singleplayer)."
+        },
+        "dutch": {
+          "name": "Meesterbouwer",
+          "description": "Volbreng alle upgrade-opdrachten voor het relaisstation (Yetivallei, alleen singleplayer)."
+        },
+        "english": {
+          "name": "Master Builder",
+          "description": "Complete All Relay Station Upgrade Quests (Valley Of The Yetis, Single Player Only)."
+        },
+        "finnish": {
+          "name": "Mestarirakentaja",
+          "description": "Suorita kaikki releaseman päivitystehtävät (Jetilaakso, vain yksinpeli)."
+        },
+        "french": {
+          "name": "Maître constructeur",
+          "description": "Terminer toutes les quêtes d'amélioration de la station-relais (Vallée des yétis et Solo)."
+        },
+        "german": {
+          "name": "Baumeister",
+          "description": "Beende alle Upgrade-Aufgaben an der Relaisstation (Tal der Yetis, nur Einzelspieler)."
+        },
+        "italian": {
+          "name": "Mastro costruttore",
+          "description": "Completa tutte le missioni potenziamento per la stazione radio (Valle degli yeti, solo in singolo)."
+        },
+        "japanese": {
+          "name": "マスタービルダー",
+          "description": "中継基地のアップグレードクエストを全て完了する（イェティの谷、シングルプレイのみ）"
+        },
+        "koreana": {
+          "name": "마스터 빌더",
+          "description": "모든 중계국 업그레이드 퀘스트를 완료하십시오. (설인의 계곡, 싱글플레이 전용)"
+        },
+        "norwegian": {
+          "name": "Byggmester",
+          "description": "Gjør alle reléstasjon-oppgraderingene (Yetienes dal, bare enkeltspiller)."
+        },
+        "polish": {
+          "name": "Mistrz budowy",
+          "description": "Ukończ wszystkie zadania związane z rozbudową stacji (Dolina Yeti, tylko poj. gracz)."
+        },
+        "portuguese": {
+          "name": "Construtor Mestre",
+          "description": "Complete as tarefas de melhoria da estação de transmissão (Vale dos Yetis, somente jogo individual)."
+        },
+        "russian": {
+          "name": "Строитель-эксперт",
+          "description": "Выполните все задания по улучшению радиостанции (Долина йети, только в одиночной игре)."
+        },
+        "schinese": {
+          "name": "建筑大师",
+          "description": "完成所有中继站升级任务(雪人谷DLC)"
+        },
+        "spanish": {
+          "name": "Maestro albañil",
+          "description": "Completa todos los encargos de mejora de la estación rep. (El valle de los yetis, solo un jugador)."
+        },
+        "swedish": {
+          "name": "Mästerbyggare",
+          "description": "Klara av alla uppgraderingsuppdrag för relästationen (Snömännens dal, endast en spelare)."
+        }
+      }
+    },
+    "FarCry4_Ach_58": {
+      "translations": {
+        "brazilian": {
+          "name": "Desperto!",
+          "description": "Complete a campanha Vale dos Yetis (Vale dos Yetis)."
+        },
+        "czech": {
+          "name": "Probuzený!",
+          "description": "Dokončete kampaň Údolí yettiů (Údolí yettiů)."
+        },
+        "danish": {
+          "name": "Vækket!",
+          "description": "Gennemfør kampagnen Yetiernes dal (Yetiernes dal)."
+        },
+        "dutch": {
+          "name": "Ontwaakt",
+          "description": "Voltooi de Yetivallei-campagne (Yetivallei)."
+        },
+        "english": {
+          "name": "Awakened!",
+          "description": "Complete The Valley Of The Yetis Campaign (Valley Of The Yetis)."
+        },
+        "finnish": {
+          "name": "Herännyt!",
+          "description": "Suorita Jetilaakso-kampanja (Jetilaakso)."
+        },
+        "french": {
+          "name": "Éveillé !",
+          "description": "Terminer la campagne La Vallée des yétis (Vallée des yétis)."
+        },
+        "german": {
+          "name": "Erwacht!",
+          "description": "Beende die Kampagne von Tal der Yetis (Tal der Yetis)."
+        },
+        "italian": {
+          "name": "Risvegliato!",
+          "description": "Completa la campagna della Valle degli yeti (Valle degli yeti)."
+        },
+        "japanese": {
+          "name": "覚醒！",
+          "description": "イェティの谷のキャンペーンモードを完了する（イェティの谷）"
+        },
+        "koreana": {
+          "name": "각성!",
+          "description": "설인의 계곡 캠페인을 완료하십시오. (설인의 계곡)"
+        },
+        "norwegian": {
+          "name": "Oppvåknet",
+          "description": "Fullfør Yetienes dal-historien (Yetienes dal)."
+        },
+        "polish": {
+          "name": "Przebudzony!",
+          "description": "Ukończ kampanię w dodatku Dolina Yeti (Dolina Yeti)."
+        },
+        "portuguese": {
+          "name": "Desperto!",
+          "description": "Complete a campanha Vale dos Yetis (Vale dos Yetis)."
+        },
+        "russian": {
+          "name": "Пробудившийся!",
+          "description": "Завершите кампанию \"Долина йети\""
+        },
+        "schinese": {
+          "name": "觉醒!",
+          "description": "完成雪人谷战役(雪人谷DLC)"
+        },
+        "spanish": {
+          "name": "¡Despierto!",
+          "description": "Completa la campaña El valle de los yetis (El valle de los yetis)."
+        },
+        "swedish": {
+          "name": "Vaken!",
+          "description": "Klara av Snömännens dal-kampanjen (Snömännens dal)."
+        }
+      }
+    },
+    "FarCry4_Ach_59": {
+      "translations": {
+        "brazilian": {
+          "name": "Caçador Espiritual",
+          "description": "Mate um Yeti (Vale dos Yetis, somente jogo individual)."
+        },
+        "czech": {
+          "name": "Spirituální lovec",
+          "description": "Zabijte yettiho (Údolí yettiů, pouze hra pro jednoho hráče)."
+        },
+        "danish": {
+          "name": "Åndejæger",
+          "description": "Dræb en yeti (Yetiernes dal, kun singleplayer)."
+        },
+        "dutch": {
+          "name": "Spirituele jager",
+          "description": "Dood een yeti (Yetivallei, alleen singleplayer)."
+        },
+        "english": {
+          "name": "Spiritual Hunter",
+          "description": "Kill A Yeti (Valley Of The Yetis, Single Player Only)."
+        },
+        "finnish": {
+          "name": "Henkimetsästäjä",
+          "description": "Tapa jeti (Jetilaakso, vain yksinpeli)."
+        },
+        "french": {
+          "name": "Chasseur spirituel",
+          "description": "Tuer un yéti (Vallée des yétis et Solo)."
+        },
+        "german": {
+          "name": "Spiritueller Jäger",
+          "description": "Töte einen Yeti (Tal der Yetis, nur Einzelspieler)."
+        },
+        "italian": {
+          "name": "Cacciatore spirituale",
+          "description": "Uccidi uno yeti (Valle degli yeti, solo in singolo)."
+        },
+        "japanese": {
+          "name": "スピリチュアルハンター",
+          "description": "イェティを倒す（イェティの谷、シングルプレイのみ）"
+        },
+        "koreana": {
+          "name": "영혼 사냥꾼",
+          "description": "설인 한 명을 처치하십시오. (설인의 계곡, 싱글플레이 전용)"
+        },
+        "norwegian": {
+          "name": "Allsidig jeger",
+          "description": "Drep en yeti (Yetienes dal, bare enkeltspiller)."
+        },
+        "polish": {
+          "name": "Duchowy łowca",
+          "description": "Zabij yeti (Dolina Yeti, tylko poj. gracz)."
+        },
+        "portuguese": {
+          "name": "Caçador Espiritual",
+          "description": "Mate um Yeti (Vale dos Yetis, somente jogo individual)."
+        },
+        "russian": {
+          "name": "Охотник на духов",
+          "description": "Убейте йети (Долина йети, только в одиночной игре)."
+        },
+        "schinese": {
+          "name": "精神猎人",
+          "description": "杀死一个雪人(雪人谷DLC)"
+        },
+        "spanish": {
+          "name": "Cazador espiritual",
+          "description": "Mata a un yeti (El valle de los yetis, solo un jugador)."
+        },
+        "swedish": {
+          "name": "Spirituell jakt",
+          "description": "Döda en snöman (Snömännens dal, endast en spelare)."
+        }
+      }
+    },
+    "FarCry4_Ach_60": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre dos Despertos",
+          "description": "Mate 5 Yetis (Vale dos Yetis, somente jogo individual)."
+        },
+        "czech": {
+          "name": "Mistr Probuzených",
+          "description": "Zabijte 5 yettiů (Údolí yettiů, pouze hra pro jednoho hráče)."
+        },
+        "danish": {
+          "name": "De vækkedes mester",
+          "description": "Dræb fem yetier (Yetiernes dal, kun singleplayer)."
+        },
+        "dutch": {
+          "name": "Meester der Ontwaakten",
+          "description": "Dood 5 yeti's (Yetivallei, alleen singleplayer)."
+        },
+        "english": {
+          "name": "Master of the Awakened",
+          "description": "Kill 5 Yetis (Valley Of The Yetis, Single Player Only)."
+        },
+        "finnish": {
+          "name": "Heränneiden mestari",
+          "description": "Tapa 5 jetiä (Jetilaakso, vain yksinpeli)."
+        },
+        "french": {
+          "name": "Maître des Éveillés",
+          "description": "Tuer 5 yétis (Vallée des yétis et Solo)."
+        },
+        "german": {
+          "name": "Meister der Erwachten",
+          "description": "Töte 5 Yetis (Tal der Yetis, nur Einzelspieler)."
+        },
+        "italian": {
+          "name": "Maestro della sveglia",
+          "description": "Uccidi 5 yeti (Valle degli yeti, solo in singolo)."
+        },
+        "japanese": {
+          "name": "目覚めし者",
+          "description": "イェティを5体倒す（イェティの谷、シングルプレイのみ）"
+        },
+        "koreana": {
+          "name": "각성의 마스터",
+          "description": "설인 5명을 처치하십시오. (설인의 계곡, 싱글플레이 전용)"
+        },
+        "norwegian": {
+          "name": "De oppvåknedes overmann",
+          "description": "Drep 5 yetier (Yetienes dal, bare enkeltspiller)."
+        },
+        "polish": {
+          "name": "Mistrz Przebudzonych",
+          "description": "Zabij 5 yeti (Dolina Yeti, tylko poj. gracz)."
+        },
+        "portuguese": {
+          "name": "Mestre dos Despertos",
+          "description": "Mate 5 Yetis (Vale dos Yetis, somente jogo individual)."
+        },
+        "russian": {
+          "name": "Гроза Пробудившихся",
+          "description": "Убейте 5 йети (Долина йети, только в одиночной игре)."
+        },
+        "schinese": {
+          "name": "觉醒大师",
+          "description": "杀死 5 个雪人(雪人谷DLC)"
+        },
+        "spanish": {
+          "name": "Maestro de los Despiertos",
+          "description": "Mata a 5 yetis (El valle de los yetis, solo un jugador)."
+        },
+        "swedish": {
+          "name": "De vaknas mästare",
+          "description": "Döda fem snömän (Snömännens dal, endast en spelare)."
+        }
+      }
+    }
+  }
+}

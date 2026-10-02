@@ -1,0 +1,735 @@
+{
+  "version": 1,
+  "app_id": "1654660",
+  "variant_id": "default",
+  "source_sha256": "f1c069e526052554626438460ed9aafd6c1b1dd87725261566052ca9ffe0734d",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "COMPLETE_EPISODE_1": {
+      "translations": {
+        "english": {
+          "name": "El Vigilante's Trials",
+          "description": "Complete Episode 1 and defeat El Vigilante. (Any difficulty.)"
+        },
+        "french": {
+          "name": "Épreuves d'El Vigilante",
+          "description": "Terminez l'épisode 1 et triomphez d'El Vigilante (difficulté au choix)."
+        },
+        "german": {
+          "name": "Die Prüfungen von El Vigilante",
+          "description": "Schließt Kapitel 1 ab und besiegt El Vigilante. (Beliebiger Schwierigkeitsgrad.)"
+        },
+        "schinese": {
+          "name": "义警的试炼",
+          "description": "完成第一章并击败义警。（任意难度。）"
+        },
+        "spanish": {
+          "name": "Las pruebas de El Vigilante",
+          "description": "Completa el episodio 1 y derrota al Vigilante. (Cualquier dificultad)."
+        }
+      }
+    },
+    "COMPLETE_EPISODE_2": {
+      "translations": {
+        "english": {
+          "name": "Preposterous Portraits",
+          "description": "Complete Episode 2 and defeat the Count-Duke. (Any difficulty.)"
+        },
+        "french": {
+          "name": "Folles effigies",
+          "description": "Terminez l'épisode 2 et triomphez du comte-duc (difficulté au choix)."
+        },
+        "german": {
+          "name": "Pikante Porträts",
+          "description": "Schließt Kapitel 2 ab und besiegt den Conde-Duque. (Beliebiger Schwierigkeitsgrad.)"
+        },
+        "schinese": {
+          "name": "荒诞肖像",
+          "description": "完成第二章并击败伯-公爵。（任意难度。）"
+        },
+        "spanish": {
+          "name": "Retratos rocambolescos",
+          "description": "Completa el episodio 2 y derrota al Conde-duque. (Cualquier dificultad)."
+        }
+      }
+    },
+    "COMPLETE_EPISODE_3": {
+      "translations": {
+        "english": {
+          "name": "Midnight Mischief",
+          "description": "Complete Episode 3 and defeat Zaida. (Any difficulty.)"
+        },
+        "french": {
+          "name": "Malice de minuit",
+          "description": "Terminez l'épisode 3 et triomphez de Zaida (difficulté au choix)."
+        },
+        "german": {
+          "name": "Mitternächtliche Machenschaften",
+          "description": "Schließt Kapitel 3 ab und besiegt Zaida. (Beliebiger Schwierigkeitsgrad.)"
+        },
+        "schinese": {
+          "name": "午夜恶作剧",
+          "description": "完成第三章并击败赛伊塔。（任意难度。）"
+        },
+        "spanish": {
+          "name": "Trastada a las tantas",
+          "description": "Completa el episodio 3 y derrota a Zaida. (Cualquier dificultad)."
+        }
+      }
+    },
+    "COMPLETE_EPISODE_4": {
+      "translations": {
+        "english": {
+          "name": "Mystery Island",
+          "description": "Complete Episode 4 and stop the Count-Duke's conspiracy! (Any difficulty.)"
+        },
+        "french": {
+          "name": "Île mystère",
+          "description": "Terminez l'épisode 4 et déjouez la conspiration du Comte-duc (difficulté au choix) !"
+        },
+        "german": {
+          "name": "Mysteriöse Insel",
+          "description": "Schließt Kapitel 4 ab und beendet die Verschwörung des Conde-Duque. (Beliebiger Schwierigkeitsgrad.)"
+        },
+        "schinese": {
+          "name": "神秘岛",
+          "description": "完成第四章，粉碎伯-公爵的阴谋！（任意难度。）"
+        },
+        "spanish": {
+          "name": "La isla de los misterios",
+          "description": "Completa el episodio 4 y detén la conspiración del Conde-duque. (Cualquier dificultad)."
+        }
+      }
+    },
+    "SPEEDRUN_EPISODE_1": {
+      "translations": {
+        "english": {
+          "name": "Trial Skipper",
+          "description": "Complete Episode 1 in less than 30 minutes."
+        },
+        "french": {
+          "name": "Brûler les étapes",
+          "description": "Terminez l'épisode 1 en moins de 30 minutes."
+        },
+        "german": {
+          "name": "Prüfungsprofi",
+          "description": "Schließt Kapitel 1 in weniger als 30 Minuten ab."
+        },
+        "schinese": {
+          "name": "试炼逃课王",
+          "description": "在30分钟内完成第一章。"
+        },
+        "spanish": {
+          "name": "Los juegos del ansia",
+          "description": "Completa el episodio 1 en menos de 30 minutos."
+        }
+      }
+    },
+    "SPEEDRUN_EPISODE_2": {
+      "translations": {
+        "english": {
+          "name": "Fire Emergency",
+          "description": "Complete Episode 2 in less than 30 minutes."
+        },
+        "french": {
+          "name": "Y'a le feu",
+          "description": "Terminez l'épisode 2 en moins de 30 minutes."
+        },
+        "german": {
+          "name": "Feuriger Notfall",
+          "description": "Schließt Kapitel 2 in weniger als 30 Minuten ab."
+        },
+        "schinese": {
+          "name": "十万火急",
+          "description": "在30分钟内完成第二章。"
+        },
+        "spanish": {
+          "name": "Emergencia contra incendios",
+          "description": "Completa el episodio 2 en menos de 30 minutos."
+        }
+      }
+    },
+    "SPEEDRUN_EPISODE_3": {
+      "translations": {
+        "english": {
+          "name": "Speed Dating",
+          "description": "Complete Episode 3 in less than 30 minutes."
+        },
+        "french": {
+          "name": "Ça urge",
+          "description": "Terminez l'épisode 3 en moins de 30 minutes."
+        },
+        "german": {
+          "name": "Speed-Dating",
+          "description": "Schließt Kapitel 3 in weniger als 30 Minuten ab."
+        },
+        "schinese": {
+          "name": "闪电约会",
+          "description": "在30分钟内完成第三章。"
+        },
+        "spanish": {
+          "name": "Cita relámpago",
+          "description": "Completa el episodio 3 en menos de 30 minutos."
+        }
+      }
+    },
+    "SPEEDRUN_EPISODE_4": {
+      "translations": {
+        "english": {
+          "name": "Conspiraspeedster",
+          "description": "Complete Episode 4 in less than 30 minutes."
+        },
+        "french": {
+          "name": "Pas une seconde à perdre",
+          "description": "Terminez l'épisode 4 en moins de 30 minutes."
+        },
+        "german": {
+          "name": "Verschwörungsflitzer",
+          "description": "Schließt Kapitel 4 in weniger als 30 Minuten ab."
+        },
+        "schinese": {
+          "name": "阴谋飞毛腿",
+          "description": "在30分钟内完成第四章。"
+        },
+        "spanish": {
+          "name": "Velocista conspiranoica",
+          "description": "Completa el episodio 4 en menos de 30 minutos."
+        }
+      }
+    },
+    "PET_CHICKEN": {
+      "translations": {
+        "english": {
+          "name": "Can You Pet the Chicken?",
+          "description": "Interact with a chicken. They are just so cute!"
+        },
+        "french": {
+          "name": "Peut-on caresser la poule ?",
+          "description": "Interagissez avec une poule. Elles sont si mignonnes !"
+        },
+        "german": {
+          "name": "Auf Kuschelkurs mit Federvieh",
+          "description": "Interagiert mit einem Huhn. Die sind einfach zu niedlich!"
+        },
+        "schinese": {
+          "name": "可以摸摸鸡吗？",
+          "description": "与一只鸡互动。它们实在太可爱了！"
+        },
+        "spanish": {
+          "name": "¿Me dejáis acariciar a la gallina?",
+          "description": "Interactúa con una gallina. ¿A que son monísimas?"
+        }
+      }
+    },
+    "PRISON_HANDMAID": {
+      "translations": {
+        "english": {
+          "name": "Prison Handmaid",
+          "description": "Set the Captain’s pants on fire in the prison kitchen."
+        },
+        "french": {
+          "name": "Servante de prison",
+          "description": "Mettez le feu au pantalon de la capitaine dans les cuisines de la prison."
+        },
+        "german": {
+          "name": "Zuchthaus-Zündstoff",
+          "description": "Setzt in der Gefängnisküche die Hose der Kommandantin in Brand."
+        },
+        "schinese": {
+          "name": "监狱烧火丫头",
+          "description": "在监狱厨房里点燃队长的裤子。"
+        },
+        "spanish": {
+          "name": "Capitana, a tus fogones",
+          "description": "En la cocina de la cárcel, prende fuego a los pantalones de la capitana."
+        }
+      }
+    },
+    "PROFOUND_HUMILITY": {
+      "translations": {
+        "english": {
+          "name": "Profound Humility",
+          "description": "Listen to the Count-Duke’s speech rehearsal entirely."
+        },
+        "french": {
+          "name": "Profonde humilité",
+          "description": "Écoutez le Comte-duc répéter son discours entièrement."
+        },
+        "german": {
+          "name": "Tiefe Demut",
+          "description": "Hört Euch die Probe für die Rede des Conde-Duque vollständig an."
+        },
+        "schinese": {
+          "name": "谦卑至极",
+          "description": "完整听完伯-公爵排练演讲。"
+        },
+        "spanish": {
+          "name": "Me llena de orgullo...",
+          "description": "Escucha el ensayo del discurso del Conde-duque de principio a fin."
+        }
+      }
+    },
+    "MOON_KINGDOM": {
+      "translations": {
+        "english": {
+          "name": "Annex the Moon Kingdom!",
+          "description": "Witness the shaping of a conspiracy. They surely have something."
+        },
+        "french": {
+          "name": "Annexer le royaume de la lune !",
+          "description": "Soyez témoin des débuts d'une conspiration. Quelque chose se trame…"
+        },
+        "german": {
+          "name": "Annektiert das Mondkönigreich!",
+          "description": "Werdet Zeuge der Entstehung einer Verschwörung. Ziemlich aufregend!"
+        },
+        "schinese": {
+          "name": "吞并月亮王国！",
+          "description": "见证一场阴谋逐渐成形。他们肯定在谋划什么。"
+        },
+        "spanish": {
+          "name": "¡La anexión del reino lunar!",
+          "description": "Asiste a la creación de una conspiración... la mar de lunática."
+        }
+      }
+    },
+    "DISCOVER_FIRST_POI": {
+      "translations": {
+        "english": {
+          "name": "Interesting…",
+          "description": "Discover a Point of Interest for the first time. Curious aren’t you?"
+        },
+        "french": {
+          "name": "Intéressant…",
+          "description": "Découvrez un lieu digne d'intérêt pour la première fois. C'est que vous êtes une petite curieuse…"
+        },
+        "german": {
+          "name": "Interessant …",
+          "description": "Entdeckt zum ersten Mal einen Ort von Interesse. Neugierig, was?"
+        },
+        "schinese": {
+          "name": "有点意思……",
+          "description": "首次发现一个兴趣点。很好奇，对吧？"
+        },
+        "spanish": {
+          "name": "Interesante...",
+          "description": "Descubre un punto de interés por primera vez. ¿No te pica la curiosidad?"
+        }
+      }
+    },
+    "DISCOVER_EPISODE_1_POI": {
+      "translations": {
+        "english": {
+          "name": "Barrio Busybody",
+          "description": "Discover all Points of Interest in Episode 1."
+        },
+        "french": {
+          "name": "Fouineuse des faubourgs",
+          "description": "Découvrez tous les lieux dignes d'intérêt de l'épisode 1."
+        },
+        "german": {
+          "name": "Barrio-Besessene",
+          "description": "Entdeckt alle Orte von Interesse in Kapitel 1."
+        },
+        "schinese": {
+          "name": "街坊包打听",
+          "description": "发现第一章的所有兴趣点。"
+        },
+        "spanish": {
+          "name": "Cotilla de barrio",
+          "description": "Descubre todos los puntos de interés del episodio 1."
+        }
+      }
+    },
+    "DISCOVER_EPISODE_2_POI": {
+      "translations": {
+        "english": {
+          "name": "Seditious Snoop",
+          "description": "Discover all Points of Interest in Episode 2."
+        },
+        "french": {
+          "name": "Rôdeuse rebelle",
+          "description": "Découvrez tous les lieux dignes d'intérêt de l'épisode 2."
+        },
+        "german": {
+          "name": "Schwunghafte Schnüfflerin",
+          "description": "Entdeckt alle Orte von Interesse in Kapitel 2."
+        },
+        "schinese": {
+          "name": "叛乱包打听",
+          "description": "发现第二章的所有兴趣点。"
+        },
+        "spanish": {
+          "name": "Fisgona facciosa",
+          "description": "Descubre todos los puntos de interés del episodio 2."
+        }
+      }
+    },
+    "DISCOVER_EPISODE_3_POI": {
+      "translations": {
+        "english": {
+          "name": "Midnight Meddler",
+          "description": "Discover all Points of Interest in Episode 3."
+        },
+        "french": {
+          "name": "Fureteuse de minuit",
+          "description": "Découvrez tous les lieux dignes d'intérêt de l'épisode 3."
+        },
+        "german": {
+          "name": "Mitternächtliche Missetäterin",
+          "description": "Entdeckt alle Orte von Interesse in Kapitel 3."
+        },
+        "schinese": {
+          "name": "午夜搅局者",
+          "description": "发现第三章的所有兴趣点。"
+        },
+        "spanish": {
+          "name": "Metiche de medianoche",
+          "description": "Descubre todos los puntos de interés del episodio 3."
+        }
+      }
+    },
+    "DISCOVER_EPISODE_4_POI": {
+      "translations": {
+        "english": {
+          "name": "Cove Conspirator",
+          "description": "Discover all Points of Interest in Episode 4."
+        },
+        "french": {
+          "name": "Conspiratrice des alcôves",
+          "description": "Découvrez tous les lieux dignes d'intérêt de l'épisode 4."
+        },
+        "german": {
+          "name": "Der Bucht verschworen",
+          "description": "Entdeckt alle Orte von Interesse in Kapitel 4."
+        },
+        "schinese": {
+          "name": "海湾阴谋家",
+          "description": "发现第四章的所有兴趣点。"
+        },
+        "spanish": {
+          "name": "Conspiradora de la cala",
+          "description": "Descubre todos los puntos de interés del episodio 4."
+        }
+      }
+    },
+    "DISCOVER_ALL_POI": {
+      "translations": {
+        "english": {
+          "name": "Loremaster",
+          "description": "All Points of Interest have been discovered!"
+        },
+        "french": {
+          "name": "Maîtresse des secrets",
+          "description": "Tous les lieux dignes d'intérêt ont été découverts !"
+        },
+        "german": {
+          "name": "Spürnase",
+          "description": "Alle Orte von Interesse sind entdeckt worden!"
+        },
+        "schinese": {
+          "name": "博闻大师",
+          "description": "发现所有兴趣点！"
+        },
+        "spanish": {
+          "name": "El saber no ocupa lugar",
+          "description": "¡Has descubierto todos los puntos de interés!"
+        }
+      }
+    },
+    "DISCOVER_FIRST_SECRET_AREA": {
+      "translations": {
+        "english": {
+          "name": "Not So Secret",
+          "description": "Discover a Secret Area for the first time. Exploration is key."
+        },
+        "french": {
+          "name": "Pas si secrète",
+          "description": "Découvrez une zone secrète pour la première fois. Explorer le monde est fondamental."
+        },
+        "german": {
+          "name": "Gar nicht so geheim",
+          "description": "Entdeckt zum ersten Mal einen geheimen Bereich. Erkundung ist der Schlüssel."
+        },
+        "schinese": {
+          "name": "没那么秘密",
+          "description": "首次发现一个秘密区域。探索是关键。"
+        },
+        "spanish": {
+          "name": "Tan secreta no será...",
+          "description": "Descubre una ubicación secreta por primera vez. Explorar es fundamental."
+        }
+      }
+    },
+    "DISCOVER_ALL_SECRET_AREAS": {
+      "translations": {
+        "english": {
+          "name": "Every Nook and Cranny",
+          "description": "All Secret Areas have been discovered!"
+        },
+        "french": {
+          "name": "Au peigne fin",
+          "description": "Toutes les zones secrètes ont été découvertes !"
+        },
+        "german": {
+          "name": "In jedem Winkel",
+          "description": "Alle geheimen Bereiche sind entdeckt worden!"
+        },
+        "schinese": {
+          "name": "犄角旮旯",
+          "description": "发现所有秘密区域！"
+        },
+        "spanish": {
+          "name": "Hasta el último rincón",
+          "description": "¡Has descubierto todas las áreas secretas!"
+        }
+      }
+    },
+    "COMPLETE_FIRST_CHALLENGE": {
+      "translations": {
+        "english": {
+          "name": "Aspiring Swashbuckler",
+          "description": "Complete a Challenge for the first time. Complete them all!"
+        },
+        "french": {
+          "name": "Aspirante bretteuse",
+          "description": "Terminez un défi pour la première fois. Terminez-les tous !"
+        },
+        "german": {
+          "name": "Angehender Haudegen",
+          "description": "Schließt zum ersten Mal eine Herausforderung ab. Schließt alle ab!"
+        },
+        "schinese": {
+          "name": "侠盗新秀",
+          "description": "首次完成一项挑战。接着把它们全部完成吧！"
+        },
+        "spanish": {
+          "name": "Espadachina en ciernes",
+          "description": "Completa un desafío por primera vez. ¡Complétalos todos!"
+        }
+      }
+    },
+    "COMPLETE_ALL_CHALLENGES": {
+      "translations": {
+        "english": {
+          "name": "Legendary Swordmaster",
+          "description": "All Challenges have been completed!"
+        },
+        "french": {
+          "name": "Épéiste légendaire",
+          "description": "Tous les défis ont été terminés !"
+        },
+        "german": {
+          "name": "Legendäre Schwertmeisterin",
+          "description": "Alle Herausforderungen wurden abgeschlossen!"
+        },
+        "schinese": {
+          "name": "传奇剑术大师",
+          "description": "完成所有挑战！"
+        },
+        "spanish": {
+          "name": "Esgrimista legendario",
+          "description": "¡Has completado todos los desafíos!"
+        }
+      }
+    },
+    "NO_DEFEAT_BOSS": {
+      "translations": {
+        "english": {
+          "name": "First Try",
+          "description": "Beat any Episode Boss without being defeated. (Any difficulty.)"
+        },
+        "french": {
+          "name": "Du premier coup",
+          "description": "Triomphez d'un boss d'épisode sans être vaincue (difficulté au choix)."
+        },
+        "german": {
+          "name": "Beim ersten Versuch",
+          "description": "Besiegt den Boss eines beliebigen Kapitels, ohne besiegt zu werden. (Beliebiger Schwierigkeitsgrad.)"
+        },
+        "schinese": {
+          "name": "一次成功",
+          "description": "在未被击败的情况下战胜任意章节首领。（任意难度。）"
+        },
+        "spanish": {
+          "name": "A la primera",
+          "description": "Derrota a un jefe de episodio sin perder una sola vez. (Cualquier dificultad)."
+        }
+      }
+    },
+    "NO_DAMAGE_EPISODE": {
+      "translations": {
+        "english": {
+          "name": "Inconceivable!",
+          "description": "Complete an Episode without taking any damage. (Any difficulty.)"
+        },
+        "french": {
+          "name": "Inconcevable !",
+          "description": "Terminez un épisode sans subir aucun dégât (difficulté au choix)."
+        },
+        "german": {
+          "name": "Unvorstellbar!",
+          "description": "Schließt ein Kapitel ab, ohne Schaden zu nehmen. (Beliebiger Schwierigkeitsgrad.)"
+        },
+        "schinese": {
+          "name": "难以置信！",
+          "description": "在不受任何伤害的情况下完成任意章节。（任意难度。）"
+        },
+        "spanish": {
+          "name": "¡Inconcebible!",
+          "description": "Completa un episodio sin recibir daño. (Cualquier dificultad)."
+        }
+      }
+    },
+    "COMPLETE_ARENA_CADET": {
+      "translations": {
+        "english": {
+          "name": "Twisted Tales",
+          "description": "Finish a Cadet run in Arena Mode."
+        },
+        "french": {
+          "name": "Récits tortueux",
+          "description": "Terminez une partie Cadet en mode Arène."
+        },
+        "german": {
+          "name": "Verworrene Geschichten",
+          "description": "Schließt einen Durchgang als Kadettin im Arenamodus ab."
+        },
+        "schinese": {
+          "name": "荒诞奇谈",
+          "description": "在竞技模式中完成一次新手难度流程。"
+        },
+        "spanish": {
+          "name": "Versos perversos",
+          "description": "En el Modo Arena, completa una partida en dificultad Cadete."
+        }
+      }
+    },
+    "COMPLETE_ARENA_LEGEND": {
+      "translations": {
+        "english": {
+          "name": "Arena Legend",
+          "description": "Finish a Legend run in Arena Mode."
+        },
+        "french": {
+          "name": "Légende de l'arène",
+          "description": "Terminez une partie Légende en mode Arène."
+        },
+        "german": {
+          "name": "Legende der Arena",
+          "description": "Schließt einen Durchgang als Legende im Arenamodus ab."
+        },
+        "schinese": {
+          "name": "竞技传奇",
+          "description": "在竞技模式中完成一次传奇难度流程。"
+        },
+        "spanish": {
+          "name": "Leyenda de la arena",
+          "description": "En el Modo Arena, completa una partida en dificultad Leyenda."
+        }
+      }
+    },
+    "NO_DAMAGE_ARENA": {
+      "translations": {
+        "english": {
+          "name": "Absolutely, Totally, Inconceivable!",
+          "description": "Complete an Arena Mode run without taking any damage. (Any difficulty.)"
+        },
+        "french": {
+          "name": "Absolument, totalement, inconcevable !",
+          "description": "Terminez une session du mode Arène sans subir aucun dégât (difficulté au choix)."
+        },
+        "german": {
+          "name": "Absolut, total, unvorstellbar!",
+          "description": "Schließt einen Durchlauf im Arenamodus ab, ohne Schaden zu nehmen. (Beliebiger Schwierigkeitsgrad.)"
+        },
+        "schinese": {
+          "name": "绝对、完全、难以置信！",
+          "description": "在不受任何伤害的情况下完成一次竞技模式流程。（任意难度。）"
+        },
+        "spanish": {
+          "name": "¡Total y absolutamente inconcebible!",
+          "description": "Completa una partida en el Modo Arena sin recibir daño. (Cualquier dificultad)."
+        }
+      }
+    },
+    "COMPLETE_MODIFIERS": {
+      "translations": {
+        "english": {
+          "name": "All-rounder",
+          "description": "Complete the Modifiers Codex in Arena Mode."
+        },
+        "french": {
+          "name": "Touche-à-tout",
+          "description": "Terminez le codex des modificateurs en mode Arène."
+        },
+        "german": {
+          "name": "Erkunderin",
+          "description": "Schließt den Modifikatoren-Kodex im Arenamodus ab."
+        },
+        "schinese": {
+          "name": "全能选手",
+          "description": "在竞技模式中补全参数图鉴。"
+        },
+        "spanish": {
+          "name": "Todoterreno",
+          "description": "Completa el códice de modificadores del Modo Arena."
+        }
+      }
+    },
+    "WATCH_CREDITS": {
+      "translations": {
+        "english": {
+          "name": "Curtain Call",
+          "description": "Watch the credits till the end."
+        },
+        "french": {
+          "name": "Lever de rideau",
+          "description": "Regardez les crédits jusqu'à la fin."
+        },
+        "german": {
+          "name": "Schlussapplaus",
+          "description": "Seht Euch den Abspann bis zum Ende an."
+        },
+        "schinese": {
+          "name": "谢幕",
+          "description": "观看制作人员名单直到结束。"
+        },
+        "spanish": {
+          "name": "Ovación final",
+          "description": "Quédate a ver los créditos hasta el final."
+        }
+      }
+    },
+    "COMPLETE_ALL_ACHIEVEMENTS": {
+      "translations": {
+        "english": {
+          "name": "En Garde!",
+          "description": "All achievements completed! Thank you for playing En Garde!"
+        },
+        "french": {
+          "name": "En garde!",
+          "description": "Tous les exploits ont été terminés ! Merci d'avoir joué à « En Garde! » !"
+        },
+        "german": {
+          "name": "En garde!",
+          "description": "Alle Erfolge abgeschlossen! Danke fürs Spielen von En Garde!"
+        },
+        "schinese": {
+          "name": "击剑预备！",
+          "description": "完成所有成就！感谢游玩《击剑预备！》！"
+        },
+        "spanish": {
+          "name": "¡En Garde!",
+          "description": "¡Has completado todos los logros! ¡Gracias por jugar a En Garde!"
+        }
+      }
+    }
+  }
+}

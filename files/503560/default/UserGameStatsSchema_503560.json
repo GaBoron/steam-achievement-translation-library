@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "app_id": "503560",
+  "variant_id": "default",
+  "source_sha256": "858ae8848460f6b4c184661b8235e5e19186db567ec6f4268a9d604b892681ff",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "achiv_heart": {
+      "translations": {
+        "english": {
+          "name": "Purple Heart",
+          "description": "Awarded to those wounded or killed while serving"
+        },
+        "schinese": {
+          "name": "紫心勋章",
+          "description": "授予在执勤中受伤或牺牲者"
+        }
+      }
+    },
+    "achiv_field": {
+      "translations": {
+        "english": {
+          "name": "Field Training Officer Medal",
+          "description": "Awarded after finishing the training"
+        },
+        "schinese": {
+          "name": "现场训练官勋章",
+          "description": "完成训练后授予"
+        }
+      }
+    },
+    "achiv_meritorius": {
+      "translations": {
+        "english": {
+          "name": "Medal of Meritorious Service",
+          "description": "Awarded for long service (30 duties)"
+        },
+        "schinese": {
+          "name": "功绩服务勋章",
+          "description": "因长期服务而授予（30 次勤务）"
+        }
+      }
+    },
+    "achiv_valor": {
+      "translations": {
+        "english": {
+          "name": "Medal of Valor",
+          "description": "Awarded for finishing 3 duties in a row without any death or major mistakes (less than -3 reputation)"
+        },
+        "schinese": {
+          "name": "英勇勋章",
+          "description": "因连续完成 3 次勤务且无死亡或重大失误而授予（声望损失少于 3）"
+        }
+      }
+    },
+    "achiv_community": {
+      "translations": {
+        "english": {
+          "name": "Community Policing Medal",
+          "description": "Awarded for gaining 100 reputation points on one duty"
+        },
+        "schinese": {
+          "name": "社区警务勋章",
+          "description": "因在一次勤务中获得 100 点声望而授予"
+        }
+      }
+    },
+    "achiv_lifesaving": {
+      "translations": {
+        "english": {
+          "name": "Lifesaving Medal",
+          "description": "Awarded for saving a life by giving proper first aid instructions"
+        },
+        "schinese": {
+          "name": "救生勋章",
+          "description": "因通过正确急救指导挽救生命而授予"
+        }
+      }
+    },
+    "achiv_driving": {
+      "translations": {
+        "english": {
+          "name": "Safe Driving Medal",
+          "description": "Awarded for keeping the roads safe (Resolve 50 driving reports)"
+        },
+        "schinese": {
+          "name": "安全驾驶勋章",
+          "description": "因维护道路安全而授予（处理 50 起驾驶相关报告）"
+        }
+      }
+    },
+    "achiv_tactical": {
+      "translations": {
+        "english": {
+          "name": "Tactical Squad Service Medal",
+          "description": "Awarded for special tactical skills (gather 3 police teams before shooting starts)"
+        },
+        "schinese": {
+          "name": "战术小队服务勋章",
+          "description": "因特殊战术能力而授予（枪击开始前集结 3 支警队）"
+        }
+      }
+    },
+    "achiv_advanced": {
+      "translations": {
+        "english": {
+          "name": "Advanced Certification Medal",
+          "description": "Awarded for reaching high experience level (any team member)"
+        },
+        "schinese": {
+          "name": "高级认证勋章",
+          "description": "因任意队员达到高经验等级而授予"
+        }
+      }
+    },
+    "achiv_sacrefice": {
+      "translations": {
+        "english": {
+          "name": "Sacrifice Medal",
+          "description": "Awarded for resolving a case despite death of your team member"
+        },
+        "schinese": {
+          "name": "牺牲勋章",
+          "description": "因在队员死亡的情况下仍解决案件而授予"
+        }
+      }
+    },
+    "achiv_honor": {
+      "translations": {
+        "english": {
+          "name": "Medal of Honor",
+          "description": "Awarded for finishing the campaign"
+        },
+        "schinese": {
+          "name": "荣誉勋章",
+          "description": "完成战役后授予"
+        }
+      }
+    },
+    "achiv_smile": {
+      "translations": {
+        "english": {
+          "name": "Order of Smile",
+          "description": "Awarded for a sense of humor ;)"
+        },
+        "schinese": {
+          "name": "微笑勋章",
+          "description": "因幽默感而授予 ;)"
+        }
+      }
+    },
+    "achiv_meds": {
+      "translations": {
+        "english": {
+          "name": "Exemplary Medical Service Medal",
+          "description": "Awarded for saving 50 people by driving them to a hospital."
+        },
+        "schinese": {
+          "name": "模范医疗服务勋章",
+          "description": "因将 50 人送往医院获救而授予。"
+        }
+      }
+    },
+    "achiv_fires": {
+      "translations": {
+        "english": {
+          "name": "Exemplary Fire Service Medal",
+          "description": "Awarded for resolving 50 fire or technical cases."
+        },
+        "schinese": {
+          "name": "模范消防服务勋章",
+          "description": "因处理 50 起火灾或技术案件而授予。"
+        }
+      }
+    },
+    "achiv_intern": {
+      "translations": {
+        "english": {
+          "name": "International Service Medal",
+          "description": "Awarded for working in 15 different cities."
+        },
+        "schinese": {
+          "name": "国际服务勋章",
+          "description": "因在 15 个不同城市工作而授予。"
+        }
+      }
+    },
+    "achiv_honorary": {
+      "translations": {
+        "english": {
+          "name": "Honorary Citizenship",
+          "description": "Complete the Single City Run"
+        },
+        "schinese": {
+          "name": "荣誉市民",
+          "description": "完成单城挑战"
+        }
+      }
+    },
+    "achiv_above": {
+      "translations": {
+        "english": {
+          "name": "Above and Beyond",
+          "description": "Complete the game on Expert difficulty"
+        },
+        "schinese": {
+          "name": "超越职责",
+          "description": "在专家难度完成游戏"
+        }
+      }
+    },
+    "achiv_overtime": {
+      "translations": {
+        "english": {
+          "name": "Perfect Time Manager",
+          "description": "Complete a duty without overtime on Hard/Expert difficulty"
+        },
+        "schinese": {
+          "name": "完美时间管理者",
+          "description": "在困难/专家难度无加班完成一次勤务"
+        }
+      }
+    }
+  }
+}

@@ -101,6 +101,8 @@ UserGameStatsSchema_123456.zip
 
 Automation derives the store URL from the app ID and checks ZIP safety and size, Binary KeyValues parsing and byte-identical roundtrip, unique achievement IDs, automatically detected language coverage, generated `achievements.md` files, and update differences. Submit only translations you are allowed to share.
 
+Each variant also generates a same-name `.json` for Millennium and other clients. Continue submitting only BIN/ZIP files; do not edit generated JSON. Refreshes, PR file updates, and app ID renames synchronize these files, and repository checks compare them with the BIN and V2 metadata.
+
 For workflow, script, catalog, generated index, or `files/` changes, run from the repository root:
 
 ```bash

@@ -1,0 +1,1619 @@
+{
+  "version": 1,
+  "app_id": "2213190",
+  "variant_id": "default",
+  "source_sha256": "dfca1a408743ee20b8c9f8ccd162de361a131e503bd8de164e37a0cffbfb9548",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "koreana",
+    "schinese",
+    "spanish",
+    "tchinese"
+  ],
+  "achievements": {
+    "CustomizePlayer": {
+      "translations": {
+        "english": {
+          "name": "Was that adequate?",
+          "description": "Receive an item by raising your Customization Track level"
+        },
+        "french": {
+          "name": "C'était adéquat ?",
+          "description": "Obtenir un objet en augmentant le niveau du Chemin de récompenses"
+        },
+        "german": {
+          "name": "Was das so richtig?",
+          "description": "Erhalte einen Gegenstand, indem du die Stufe des Belohnungspfads erhöhst"
+        },
+        "italian": {
+          "name": "È stato adeguato?",
+          "description": "Ricevi un oggetto aumentando il tuo livello del Percorso Ricompense"
+        },
+        "japanese": {
+          "name": "お気に召しました？",
+          "description": "バトルパスのレベルを上げてアイテムを獲得する"
+        },
+        "koreana": {
+          "name": "마음에 드십니까?",
+          "description": "커스터마이징 트랙의 레벨을 올려 아이템을 획득한다"
+        },
+        "schinese": {
+          "name": "你喜欢就好",
+          "description": "提升自定义通行证等级并取得道具"
+        },
+        "spanish": {
+          "name": "¿Eso ha sido adecuado?",
+          "description": "Recibe un objeto al aumentar tu nivel de senda de recompensa"
+        },
+        "tchinese": {
+          "name": "你喜歡就好",
+          "description": "提升客製化通行證等級並取得道具"
+        }
+      }
+    },
+    "KillPlayerC": {
+      "translations": {
+        "english": {
+          "name": "Death Note User",
+          "description": "Judge a player with the Death Note *This count increases for players who possess the Death Note after another player is judged and dies."
+        },
+        "french": {
+          "name": "Utilisateur du Death Note",
+          "description": "Juger un joueur avec un Death Note *Ce décompte augmente pour les joueurs possédant le Death Note lorsqu'un autre joueur est jugé et meurt."
+        },
+        "german": {
+          "name": "Nutzer des Death Note",
+          "description": "Verurteile 1 Person mit einem Death Note*Zählt nur, wenn der Spieler, der einen Spieler verurteilt hat, ein Death Note hat"
+        },
+        "italian": {
+          "name": "Utilizzatore di Death Note",
+          "description": "Giudica un giocatore con il Death Note *Questo numero aumenta per i giocatori che possiedono il Death Note dopo che un altro giocatore è stato giudicato ed è morto."
+        },
+        "japanese": {
+          "name": "デスノートを使った人間",
+          "description": "デスノートでプレイヤーを1人裁く※人数カウントは、裁いた対象の死亡時にデスノートを所持しているプレイヤーに対して行われます。"
+        },
+        "koreana": {
+          "name": "데스노트를 사용한 인간",
+          "description": "데스노트로 플레이어를 1명 심판한다※인원수는 심판한 대상이 사망할 때 데스노트를 소지한 플레이어에게만 카운트됩니다"
+        },
+        "schinese": {
+          "name": "使用死亡笔记本的人",
+          "description": "使用死亡笔记本制裁 1 名玩家 ※制裁对象死亡后，持有死亡笔记本的玩家将会列入此人数计算"
+        },
+        "spanish": {
+          "name": "Usuario de Death Note",
+          "description": "Juzga a un jugador con un Death Note*Solo se contabiliza para los jugadores que posean un Death Note cuando muere el jugador juzgado"
+        },
+        "tchinese": {
+          "name": "使用死亡筆記本的人",
+          "description": "使用死亡筆記本制裁1名玩家 ※制裁對象死亡後，持有死亡筆記本的玩家將會列入此人數計算。"
+        }
+      }
+    },
+    "CompleteTrophy": {
+      "translations": {
+        "english": {
+          "name": "DEATH NOTE",
+          "description": "Unlocked all achievements"
+        },
+        "french": {
+          "name": "DEATH NOTE",
+          "description": "Tous les succès sont débloqués"
+        },
+        "german": {
+          "name": "DEATH NOTE",
+          "description": "Alle Erfolge freigeschaltet"
+        },
+        "italian": {
+          "name": "DEATH NOTE",
+          "description": "Hai sbloccato tutti gli obiettivi"
+        },
+        "japanese": {
+          "name": "DEATH NOTE",
+          "description": "全ての実績を解除した"
+        },
+        "koreana": {
+          "name": "DEATH NOTE",
+          "description": "모든 도전 과제를 해제했다"
+        },
+        "schinese": {
+          "name": "DEATH NOTE",
+          "description": "解锁所有成就"
+        },
+        "spanish": {
+          "name": "DEATH NOTE",
+          "description": "Has desbloqueado todos los logros"
+        },
+        "tchinese": {
+          "name": "DEATH NOTE",
+          "description": "解鎖所有成就"
+        }
+      }
+    },
+    "LteamWinA": {
+      "translations": {
+        "english": {
+          "name": "Justice will prevail",
+          "description": "Win 80 times as part of Team L"
+        },
+        "french": {
+          "name": "Le bien finit toujours par l'emporter",
+          "description": "Gagner 80 fois avec l'équipe de L"
+        },
+        "german": {
+          "name": "Gerechtigkeit siegt immer",
+          "description": "Gewinne 80-mal in Ls Team"
+        },
+        "italian": {
+          "name": "La giustizia vincerà",
+          "description": "Vinci 80 volte come parte del team L"
+        },
+        "japanese": {
+          "name": "正義は必ず勝つ",
+          "description": "L陣営で80回勝利"
+        },
+        "koreana": {
+          "name": "정의는 반드시 승리한다",
+          "description": "L 진영에서 80회 승리"
+        },
+        "schinese": {
+          "name": "正义必胜",
+          "description": "以 L 阵营获胜 80 次"
+        },
+        "spanish": {
+          "name": "La justicia siempre acaba venciendo",
+          "description": "Gana 80 veces con el equipo L"
+        },
+        "tchinese": {
+          "name": "正義必勝",
+          "description": "以L陣營獲勝80次"
+        }
+      }
+    },
+    "KirateamWinA": {
+      "translations": {
+        "english": {
+          "name": "Become the God of the New World",
+          "description": "Win 20 times as part of Team Kira"
+        },
+        "french": {
+          "name": "Devenir le dieu du Nouveau Monde",
+          "description": "Gagner 20 fois avec l'équipe de Kira"
+        },
+        "german": {
+          "name": "Werde der Gott der neuen Welt",
+          "description": "Gewinne 20-mal in Kiras Team"
+        },
+        "italian": {
+          "name": "Diventa il dio del Nuovo Mondo",
+          "description": "Vinci 20 volte come parte del team Kira"
+        },
+        "japanese": {
+          "name": "新世界の神となる",
+          "description": "キラ陣営で20回勝利"
+        },
+        "koreana": {
+          "name": "신세계의 신이 되겠어",
+          "description": "키라 진영에서 20회 승리"
+        },
+        "schinese": {
+          "name": "成为新世界的神",
+          "description": "以基拉阵营获胜 20 次"
+        },
+        "spanish": {
+          "name": "¡Conviértete en el dios del Nuevo Mundo!",
+          "description": "Gana 20 veces con el equipo Kira"
+        },
+        "tchinese": {
+          "name": "成為新世界的神",
+          "description": "以奇樂陣營獲勝20次"
+        }
+      }
+    },
+    "ClearTaskA": {
+      "translations": {
+        "english": {
+          "name": "Ace Investigator",
+          "description": "Perform 100 Canvassing Tasks"
+        },
+        "french": {
+          "name": "Enquêteur en or",
+          "description": "Effectuer 100 missions d'interrogation"
+        },
+        "german": {
+          "name": "Ermittler-Ass",
+          "description": "Erledige 100 Nachforschungsaufträge"
+        },
+        "italian": {
+          "name": "Detective supremo",
+          "description": "Svolgi 100 compiti ricerca"
+        },
+        "japanese": {
+          "name": "エース捜査員",
+          "description": "聞き込みタスクを100回行う"
+        },
+        "koreana": {
+          "name": "에이스 조사원",
+          "description": "탐문 임무를 100회 한다"
+        },
+        "schinese": {
+          "name": "王牌搜查员",
+          "description": "执行 100 次打听任务"
+        },
+        "spanish": {
+          "name": "Investigador as",
+          "description": "Realiza 100 tareas de sondeo"
+        },
+        "tchinese": {
+          "name": "王牌搜查員",
+          "description": "執行100次打聽任務"
+        }
+      }
+    },
+    "KillNPCA": {
+      "translations": {
+        "english": {
+          "name": "Deleeeete!",
+          "description": "Judge 100 criminals with a Death Note"
+        },
+        "french": {
+          "name": "Éliminatioooon !",
+          "description": "Juger 100 criminels avec un Death Note"
+        },
+        "german": {
+          "name": "Ausgelöscht!",
+          "description": "Verurteile 100 Verbrecher mit einem Death Note"
+        },
+        "italian": {
+          "name": "Eliminatooo!",
+          "description": "Giudica 100 criminali con un Death Note"
+        },
+        "japanese": {
+          "name": "削除ォォォォォオオオ",
+          "description": "デスノートで犯罪者を100人裁く"
+        },
+        "koreana": {
+          "name": "삭제에에에에에에에에",
+          "description": "데스노트로 범죄자를 100명 심판한다"
+        },
+        "schinese": {
+          "name": "削除",
+          "description": "使用死亡笔记本制裁 100 名罪犯"
+        },
+        "spanish": {
+          "name": "¡Eliminado!",
+          "description": "Juzga a 100 criminales con un Death Note"
+        },
+        "tchinese": {
+          "name": "削除",
+          "description": "使用死亡筆記本制裁100名罪犯"
+        }
+      }
+    },
+    "GIveIDA": {
+      "translations": {
+        "english": {
+          "name": "I will become your eyes",
+          "description": "Pass IDs to allies 50 times"
+        },
+        "french": {
+          "name": "Je deviendrai tes yeux",
+          "description": "Passer 50 fois des identifiants à des alliés"
+        },
+        "german": {
+          "name": "Ich werde für dich sehen",
+          "description": "Gib 50-mal eine ID an Verbündete weiter"
+        },
+        "italian": {
+          "name": "Io sarò i tuoi occhi",
+          "description": "Passa degli ID agli alleati 50 volte"
+        },
+        "japanese": {
+          "name": "私はあなたの目になる",
+          "description": "味方に身分証を50回渡す"
+        },
+        "koreana": {
+          "name": "난 당신의 눈이 되겠어",
+          "description": "아군에게 신분증을 50회 건넨다"
+        },
+        "schinese": {
+          "name": "我愿意成为你的眼睛",
+          "description": "将身份证交给同伴 50 次"
+        },
+        "spanish": {
+          "name": "Seré tus ojos",
+          "description": "Pásale una ID a los aliados 50 veces"
+        },
+        "tchinese": {
+          "name": "我願意成為你的眼睛",
+          "description": "將身分證交給同伴50次"
+        }
+      }
+    },
+    "KillPlayerA": {
+      "translations": {
+        "english": {
+          "name": "Exactly as planned!",
+          "description": "Judge 100 players with a Death Note *This count increases for players who possess the Death Note after another player is judged and dies."
+        },
+        "french": {
+          "name": "Exactement comme je l'avais prévu",
+          "description": "Juger 100 joueurs avec un Death Note *Ce décompte augmente pour les joueurs possédant le Death Note lorsqu'un autre joueur est jugé et meurt."
+        },
+        "german": {
+          "name": "Genau nach Plan",
+          "description": "Verurteile 100 Spieler mit einem Death Note*Zählt nur, wenn der Spieler, der einen Spieler verurteilt hat, ein Death Note hat"
+        },
+        "italian": {
+          "name": "Tutto secondo i miei piani",
+          "description": "Giudica 100 giocatori con un Death Note *Questo numero aumenta per i giocatori che possiedono il Death Note dopo che un altro giocatore è stato giudicato ed è morto."
+        },
+        "japanese": {
+          "name": "計画通り",
+          "description": "デスノートでプレイヤーを100人裁く※人数カウントは、裁いた対象の死亡時にデスノートを所持しているプレイヤーに対して行われます。"
+        },
+        "koreana": {
+          "name": "계획대로",
+          "description": "데스노트로 플레이어를 100명 심판한다※인원수는 심판한 대상이 사망할 때 데스노트를 소지한 플레이어에게만 카운트됩니다"
+        },
+        "schinese": {
+          "name": "跟计划的一样",
+          "description": "使用死亡笔记本制裁 100 名玩家 ※制裁对象死亡后，持有死亡笔记本的玩家将会列入此人数计算"
+        },
+        "spanish": {
+          "name": "Tal y como había planeado",
+          "description": "Juzga a 100 jugadores con un Death Note*Solo se contabilizan para los jugadores que posean un Death Note cuando muere el jugador juzgado"
+        },
+        "tchinese": {
+          "name": "跟計畫的一樣",
+          "description": "使用死亡筆記本制裁100名玩家 ※制裁對象死亡後，持有死亡筆記本的玩家將會列入此人數計算。"
+        }
+      }
+    },
+    "LteamWinB": {
+      "translations": {
+        "english": {
+          "name": "Our trump card",
+          "description": "Win 40 times as part of Team L"
+        },
+        "french": {
+          "name": "Notre joker",
+          "description": "Gagner 40 fois avec l'équipe de L"
+        },
+        "german": {
+          "name": "Unsere Trumpfkarte",
+          "description": "Gewinne 40-mal in Ls Team"
+        },
+        "italian": {
+          "name": "Il nostro asso nella manica",
+          "description": "Vinci 40 volte come parte del team L"
+        },
+        "japanese": {
+          "name": "この世界の影のトップ",
+          "description": "L陣営で40回勝利"
+        },
+        "koreana": {
+          "name": "이 세계 어둠의 탑",
+          "description": "L 진영에서 40회 승리"
+        },
+        "schinese": {
+          "name": "世界隐形高手",
+          "description": "以 L 阵营获胜 40 次"
+        },
+        "spanish": {
+          "name": "Nuestro as bajo la manga",
+          "description": "Gana 40 veces con el equipo L"
+        },
+        "tchinese": {
+          "name": "世界隱形高手",
+          "description": "以L陣營獲勝40次"
+        }
+      }
+    },
+    "KirateamWinB": {
+      "translations": {
+        "english": {
+          "name": "That's right, I'm Kira",
+          "description": "Win 10 times as part of Team Kira"
+        },
+        "french": {
+          "name": "C'est vrai. Je suis Kira",
+          "description": "Gagner 10 fois avec l'équipe de Kira"
+        },
+        "german": {
+          "name": "Ganz genau. Ich bin Kira.",
+          "description": "Gewinne 10-mal in Kiras Team"
+        },
+        "italian": {
+          "name": "È vero, io sono Kira",
+          "description": "Vinci 10 volte come parte del team Kira"
+        },
+        "japanese": {
+          "name": "そうだ僕がキラだ",
+          "description": "キラ陣営で10回勝利"
+        },
+        "koreana": {
+          "name": "그래, 내가 키라다",
+          "description": "키라 진영에서 10회 승리"
+        },
+        "schinese": {
+          "name": "没错，我就是基拉",
+          "description": "以基拉阵营获胜 10 次"
+        },
+        "spanish": {
+          "name": "Eso es. Yo soy Kira",
+          "description": "Gana 10 veces con el equipo Kira"
+        },
+        "tchinese": {
+          "name": "沒錯，我就是奇樂",
+          "description": "以奇樂陣營獲勝10次"
+        }
+      }
+    },
+    "InvestigationOrderA": {
+      "translations": {
+        "english": {
+          "name": "I'm L",
+          "description": "Complete 10 joint investigations"
+        },
+        "french": {
+          "name": "C'est moi, L",
+          "description": "Terminer 10 missions d'investigation"
+        },
+        "german": {
+          "name": "Ich bin L",
+          "description": "Erledige 10 Ermittlungsaufträge"
+        },
+        "italian": {
+          "name": "Sono L",
+          "description": "Completa 10 indagini congiunte"
+        },
+        "japanese": {
+          "name": "私はLです",
+          "description": "捜査指示を10回行う"
+        },
+        "koreana": {
+          "name": "제가 L입니다",
+          "description": "수사 지시를 10회 한다"
+        },
+        "schinese": {
+          "name": "我就是 L",
+          "description": "执行 10 次搜查命令"
+        },
+        "spanish": {
+          "name": "Yo soy L",
+          "description": "Completa 10 investigaciones conjuntas"
+        },
+        "tchinese": {
+          "name": "我就是L",
+          "description": "執行10次搜查命令"
+        }
+      }
+    },
+    "ClearTaskB": {
+      "translations": {
+        "english": {
+          "name": "Veteran Investigator",
+          "description": "Perform 50 Canvassing Tasks"
+        },
+        "french": {
+          "name": "Enquêteur vétéran",
+          "description": "Effectuer 50 missions d'interrogation"
+        },
+        "german": {
+          "name": "Erfahrener Ermittler",
+          "description": "Erledige 50 Nachforschungsaufträge"
+        },
+        "italian": {
+          "name": "Detective veterano",
+          "description": "Svolgi 50 compiti ricerca"
+        },
+        "japanese": {
+          "name": "ベテラン捜査員",
+          "description": "聞き込みタスクを50回行う"
+        },
+        "koreana": {
+          "name": "베테랑 조사원",
+          "description": "탐문 임무를 50회 한다"
+        },
+        "schinese": {
+          "name": "资深搜查员",
+          "description": "执行 50 次打听任务"
+        },
+        "spanish": {
+          "name": "Investigador veterano",
+          "description": "Realiza 50 tareas de sondeo"
+        },
+        "tchinese": {
+          "name": "資深搜查員",
+          "description": "執行50次打聽任務"
+        }
+      }
+    },
+    "KillNPCB": {
+      "translations": {
+        "english": {
+          "name": "Delete...",
+          "description": "Judge 50 criminals with a Death Note"
+        },
+        "french": {
+          "name": "Élimination...",
+          "description": "Juger 50 criminels avec un Death Note"
+        },
+        "german": {
+          "name": "Auslöschen ...",
+          "description": "Verurteile 50 Verbrecher mit einem Death Note"
+        },
+        "italian": {
+          "name": "Eliminato...",
+          "description": "Giudica 50 criminali con un Death Note"
+        },
+        "japanese": {
+          "name": "削除...",
+          "description": "デスノートで犯罪者を50人裁く"
+        },
+        "koreana": {
+          "name": "삭제…",
+          "description": "데스노트로 범죄자를 50명 심판한다"
+        },
+        "schinese": {
+          "name": "削除",
+          "description": "使用死亡笔记本制裁 50 名罪犯"
+        },
+        "spanish": {
+          "name": "Eliminado...",
+          "description": "Juzga a 50 criminales con un Death Note"
+        },
+        "tchinese": {
+          "name": "削除…",
+          "description": "使用死亡筆記本制裁50名罪犯"
+        }
+      }
+    },
+    "GIveIDB": {
+      "translations": {
+        "english": {
+          "name": "Delivering an important notebook",
+          "description": "Pass IDs to allies 10 times"
+        },
+        "french": {
+          "name": "Livraison d'un carnet important",
+          "description": "Passer 10 fois un identifiant à des alliés"
+        },
+        "german": {
+          "name": "Überbringer eines wichtigen Notizbuchs",
+          "description": "Gib 10-mal eine ID an Verbündete weiter"
+        },
+        "italian": {
+          "name": "Consegna di un quaderno importante",
+          "description": "Passa degli ID agli alleati 10 volte"
+        },
+        "japanese": {
+          "name": "ノートを届けに…",
+          "description": "味方に身分証を10回渡す"
+        },
+        "koreana": {
+          "name": "노트를 주러…",
+          "description": "아군에게 신분증을 10회 건넨다"
+        },
+        "schinese": {
+          "name": "笔记本…我帮他送来了",
+          "description": "将身份证交给同伴 10 次"
+        },
+        "spanish": {
+          "name": "Entregando un cuaderno importante",
+          "description": "Pásales una ID a los aliados 10 veces"
+        },
+        "tchinese": {
+          "name": "筆記本…我幫他送來了…",
+          "description": "將身分證交給同伴10次"
+        }
+      }
+    },
+    "KillPlayerB": {
+      "translations": {
+        "english": {
+          "name": "Goodbye, Raye Penber",
+          "description": "Judge 25 players with a Death Note *This count increases for players who possess the Death Note after another player is judged and dies."
+        },
+        "french": {
+          "name": "Adieu, Raye Penber",
+          "description": "Juger 25 joueurs avec un Death Note *Ce décompte augmente pour les joueurs possédant le Death Note lorsqu'un autre joueur est jugé et meurt."
+        },
+        "german": {
+          "name": "Lebewohl, Raye Penber",
+          "description": "Verurteile 25 Spieler mit einem Death Note*Zählt nur, wenn der Spieler, der einen Spieler verurteilt hat, ein Death Note hat"
+        },
+        "italian": {
+          "name": "Addio per sempre, Raye Penber",
+          "description": "Giudica 25 giocatori con un Death Note *Questo numero aumenta per i giocatori che possiedono il Death Note dopo che un altro giocatore è stato giudicato ed è morto."
+        },
+        "japanese": {
+          "name": "さよならレイ=ペンバー",
+          "description": "デスノートでプレイヤーを25人裁く※人数カウントは、裁いた対象の死亡時にデスノートを所持しているプレイヤーに対して行われます。"
+        },
+        "koreana": {
+          "name": "잘 가라, 레이 펜버",
+          "description": "데스노트로 플레이어를 25명 심판한다※인원수는 심판한 대상이 사망할 때 데스노트를 소지한 플레이어에게만 카운트됩니다"
+        },
+        "schinese": {
+          "name": "再见了，雷·彭巴",
+          "description": "使用死亡笔记本制裁 25 名玩家 ※制裁对象死亡后，持有死亡笔记本的玩家将会列入此人数计算"
+        },
+        "spanish": {
+          "name": "Adiós, Raye Penber",
+          "description": "Juzga a 25 jugadores con un Death Note*Solo se contabilizan para los jugadores que posean un Death Note cuando muere el jugador juzgado"
+        },
+        "tchinese": {
+          "name": "再見了，雷·潘柏",
+          "description": "使用死亡筆記本制裁25名玩家 ※制裁對象死亡後，持有死亡筆記本的玩家將會列入此人數計算。"
+        }
+      }
+    },
+    "LteamWinC": {
+      "translations": {
+        "english": {
+          "name": "You are Kira",
+          "description": "Win a match as part of Team L"
+        },
+        "french": {
+          "name": "Tu es Kira",
+          "description": "Gagner une fois avec l'équipe de L"
+        },
+        "german": {
+          "name": "Du bist Kira",
+          "description": "Gewinne ein Spiel in Ls Team"
+        },
+        "italian": {
+          "name": "Tu sei Kira",
+          "description": "Vinci una partita come parte del team L"
+        },
+        "japanese": {
+          "name": "あなたがキラです",
+          "description": "L陣営で1回勝利"
+        },
+        "koreana": {
+          "name": "당신이 키라입니다",
+          "description": "L 진영에서 1회 승리"
+        },
+        "schinese": {
+          "name": "你就是基拉",
+          "description": "以 L 阵营获胜 1 次"
+        },
+        "spanish": {
+          "name": "Tú eres Kira",
+          "description": "Gana con el equipo L"
+        },
+        "tchinese": {
+          "name": "你就是奇樂",
+          "description": "以L陣營獲勝1次"
+        }
+      }
+    },
+    "KirateamWinC": {
+      "translations": {
+        "english": {
+          "name": "One step closer to the New World",
+          "description": "Win a match as part of Team Kira"
+        },
+        "french": {
+          "name": "Un pas de plus vers le Nouveau Monde",
+          "description": "Gagner une fois avec l'équipe de Kira"
+        },
+        "german": {
+          "name": "Der erste Schritt in die Neue Welt",
+          "description": "Gewinne ein Spiel in Kiras Team"
+        },
+        "italian": {
+          "name": "Più vicino al Nuovo Mondo",
+          "description": "Vinci una partita come parte del team Kira"
+        },
+        "japanese": {
+          "name": "新世界への第一歩",
+          "description": "キラ陣営で1回勝利"
+        },
+        "koreana": {
+          "name": "신세계를 향한 첫 발걸음",
+          "description": "키라 진영에서 1회 승리"
+        },
+        "schinese": {
+          "name": "新世界的第一步",
+          "description": "以基拉阵营获胜 1 次"
+        },
+        "spanish": {
+          "name": "Un paso más cerca del Nuevo Mundo",
+          "description": "Gana con el equipo Kira"
+        },
+        "tchinese": {
+          "name": "新世界的第一步",
+          "description": "以奇樂陣營獲勝1次"
+        }
+      }
+    },
+    "InvestigationOrderB": {
+      "translations": {
+        "english": {
+          "name": "The first time I've put my life on the line",
+          "description": "Complete all joint investigations fo the day"
+        },
+        "french": {
+          "name": "La première fois que je mets ma vie en jeu",
+          "description": "Terminer toutes les missions d'investigation de la journée"
+        },
+        "german": {
+          "name": "Mein erstes Spiel um Leben und Tod",
+          "description": "Schließe alle Ermittlungsaufträge für einen Tag ab"
+        },
+        "italian": {
+          "name": "Mi gioco tutto per la prima volta",
+          "description": "Completa tutte le indagini congiunte del giorno"
+        },
+        "japanese": {
+          "name": "私も命を懸けた勝負は初めてです",
+          "description": "捜査指示を1回行う"
+        },
+        "koreana": {
+          "name": "저도 목숨을 건 승부는 처음입니다",
+          "description": "수사 지시를 1회 한다"
+        },
+        "schinese": {
+          "name": "这种豁出性命的对决，我也是第一次参与",
+          "description": "执行 1 次搜查命令"
+        },
+        "spanish": {
+          "name": "Es la primera vez que arriesgo mi vida en un caso",
+          "description": "Completa todas las investigaciones conjuntas del día."
+        },
+        "tchinese": {
+          "name": "這種豁出性命的對決，我也是第一次參與",
+          "description": "執行1次搜查命令"
+        }
+      }
+    },
+    "ClearTaskAll": {
+      "translations": {
+        "english": {
+          "name": "I need some help from the police",
+          "description": "Finish all your Canvassing Tasks for the day"
+        },
+        "french": {
+          "name": "J'ai besoin de l'aide de la police",
+          "description": "Terminer toutes les missions d'interrogation de la journée"
+        },
+        "german": {
+          "name": "Die Polizei, mein Freund und Helfer",
+          "description": "Erledige all deine Nachforschungsaufträge für den Tag"
+        },
+        "italian": {
+          "name": "Ho bisogno dell'aiuto della polizia",
+          "description": "Completa tutti i compiti ricerca del giorno"
+        },
+        "japanese": {
+          "name": "警察の手を借りないわけにはいくまい",
+          "description": "1日の聞き込みタスクを全て終わらせる"
+        },
+        "koreana": {
+          "name": "경찰의 손을 빌려야겠어",
+          "description": "일일 탐문 임무를 전부 끝낸다"
+        },
+        "schinese": {
+          "name": "得借助警察的力量才行",
+          "description": "完成单日的所有打听任务"
+        },
+        "spanish": {
+          "name": "Necesitaré la ayuda de la policía",
+          "description": "Acaba todas tus tareas de sondeo del día"
+        },
+        "tchinese": {
+          "name": "得借助警察的力量才行",
+          "description": "完成單日的所有打聽任務"
+        }
+      }
+    },
+    "KillNpcAll": {
+      "translations": {
+        "english": {
+          "name": "L, do you know...",
+          "description": "Judge all criminals for the day"
+        },
+        "french": {
+          "name": "L, le sais-tu...",
+          "description": "Juger tous les criminels durant une journée"
+        },
+        "german": {
+          "name": "L, was weißt du?",
+          "description": "Verurteile an einem Tag alle Verbrecher"
+        },
+        "italian": {
+          "name": "L, lo sai che...",
+          "description": "Giudica tutti i criminali del giorno"
+        },
+        "japanese": {
+          "name": "えるしっているか",
+          "description": "1日の犯罪者を全て裁く"
+        },
+        "koreana": {
+          "name": "L, 그거 알아?",
+          "description": "일일 범죄자 심판을 전부 끝낸다"
+        },
+        "schinese": {
+          "name": "你知道吗，L",
+          "description": "制裁单日的所有罪犯"
+        },
+        "spanish": {
+          "name": "L, ¿sabes una cosa?",
+          "description": "Juzga a todos los criminales por un día"
+        },
+        "tchinese": {
+          "name": "你知道嗎，L",
+          "description": "制裁單日的所有罪犯"
+        }
+      }
+    },
+    "GIveIDC": {
+      "translations": {
+        "english": {
+          "name": "Comparing notebooks in Aoyama",
+          "description": "Pass an ID to an ally"
+        },
+        "french": {
+          "name": "Comparaison de carnets à Aoyama",
+          "description": "Passer un identifiant à un allié"
+        },
+        "german": {
+          "name": "Zeigen wir uns unsere Notizbücher in Aoyama",
+          "description": "Gib eine ID an einen Verbündeten weiter"
+        },
+        "italian": {
+          "name": "Confronto di quaderni ad Aoyama",
+          "description": "Passa un ID a un alleato"
+        },
+        "japanese": {
+          "name": "友人と青山で待合せ。ノートを見せ合う。",
+          "description": "味方に身分証を1回渡す"
+        },
+        "koreana": {
+          "name": "친구와 아오야마에서 약속. 서로의 노트를 보여준다",
+          "description": "아군에게 신분증을 1회 건넨다"
+        },
+        "schinese": {
+          "name": "约朋友在青山见面，互相查看笔记",
+          "description": "将身份证交给同伴 1 次"
+        },
+        "spanish": {
+          "name": "Comparando cuadernos en Aoyama",
+          "description": "Pásale una ID a un aliado"
+        },
+        "tchinese": {
+          "name": "和朋友約在青山見面。互相抄看筆記。",
+          "description": "將身分證交給同伴1次"
+        }
+      }
+    },
+    "ClearTutorialAll": {
+      "translations": {
+        "english": {
+          "name": "HOW TO USE IT",
+          "description": "Complete the full tutorial"
+        },
+        "french": {
+          "name": "Guide d'utilisation",
+          "description": "Terminer tout le didacticiel"
+        },
+        "german": {
+          "name": "Anleitung",
+          "description": "Schließe das gesamte Tutorial ab"
+        },
+        "italian": {
+          "name": "Istruzioni per l'uso",
+          "description": "Completa tutto il tutorial"
+        },
+        "japanese": {
+          "name": "HOW TO USE IT",
+          "description": "全てのチュートリアルをクリアする"
+        },
+        "koreana": {
+          "name": "HOW TO USE IT",
+          "description": "모든 튜토리얼을 클리어한다"
+        },
+        "schinese": {
+          "name": "如何使用它",
+          "description": "完成所有教学"
+        },
+        "spanish": {
+          "name": "Instrucciones de uso",
+          "description": "Completa todo el tutorial"
+        },
+        "tchinese": {
+          "name": "HOW TO USE IT",
+          "description": "完成所有教學"
+        }
+      }
+    },
+    "SelectedArrester": {
+      "translations": {
+        "english": {
+          "name": "I trust you all",
+          "description": "Be chosen to confiscate a suspect's items"
+        },
+        "french": {
+          "name": "J'ai confiance en vous tous",
+          "description": "Être choisi comme la personne confisquant les objets"
+        },
+        "german": {
+          "name": "Ich vertraue euch allen",
+          "description": "Werde als die Person gewählt, die Gegenstände eines Verdächtigen beschlagnahmt"
+        },
+        "italian": {
+          "name": "Confido in tutti voi",
+          "description": "Fatti scegliere per confiscare gli oggetti di un sospettato"
+        },
+        "japanese": {
+          "name": "あなた方を信用する",
+          "description": "アイテムを押収する人に1回選ばれる"
+        },
+        "koreana": {
+          "name": "당신들을 믿겠다",
+          "description": "아이템을 압수할 사람으로 1회 선택된다"
+        },
+        "schinese": {
+          "name": "我信任你们",
+          "description": "被选为扣押道具的人 1 次"
+        },
+        "spanish": {
+          "name": "Confío en vosotros",
+          "description": "Sé elegido para confiscar objetos"
+        },
+        "tchinese": {
+          "name": "我信任你們",
+          "description": "被選為扣押道具的人1次"
+        }
+      }
+    },
+    "KillByTruck": {
+      "translations": {
+        "english": {
+          "name": "The Death Note... It's real!",
+          "description": "Judge someone via a traffic accident *This count increases for players who possess the Death Note after another player is judged and dies."
+        },
+        "french": {
+          "name": "Le Death Note... est réel !",
+          "description": "Juger une personne avec un accident de la route *Ce décompte augmente pour les joueurs possédant le Death Note lorsqu'un autre joueur est jugé et meurt."
+        },
+        "german": {
+          "name": "Dieses Death Note ... ist echt!",
+          "description": "Verurteile jemanden über einen Verkehrsunfall*Zählt nur, wenn der Spieler, der einen Spieler verurteilt hat, ein Death Note hat"
+        },
+        "italian": {
+          "name": "Il Death Note... è reale!",
+          "description": "Giudica qualcuno con un incidente stradale *Questo numero aumenta per i giocatori che possiedono il Death Note dopo che un altro giocatore è stato giudicato ed è morto."
+        },
+        "japanese": {
+          "name": "デスノート…本物だ！",
+          "description": "交通事故で1人を裁く※人数カウントは、裁いた対象の死亡時にデスノートを所持しているプレイヤーに対して行われます。"
+        },
+        "koreana": {
+          "name": "데스노트… 진짜다!",
+          "description": "교통사고로 1명을 심판한다※인원수는 심판한 대상이 사망할 때 데스노트를 소지한 플레이어에게만 카운트됩니다"
+        },
+        "schinese": {
+          "name": "这本死亡笔记本…是真货",
+          "description": "利用交通事故制裁一个人 ※制裁对象死亡后，持有死亡笔记本的玩家将会列入此人数计算"
+        },
+        "spanish": {
+          "name": "Este Death Note... ¡es real!",
+          "description": "Juzga a alguien mediante un accidente de tráfico*Solo se contabiliza para los jugadores que posean un Death Note cuando muere el jugador juzgado"
+        },
+        "tchinese": {
+          "name": "這本死亡筆記本…是真貨！",
+          "description": "利用交通事故制裁一個人 ※制裁對象死亡後，持有死亡筆記本的玩家將會列入此人數計算。"
+        }
+      }
+    },
+    "ClearLTaskAll": {
+      "translations": {
+        "english": {
+          "name": "Gevanni did it overnight",
+          "description": "Complete a joint investigation"
+        },
+        "french": {
+          "name": "Gevanni l'a fait en une seule nuit",
+          "description": "Terminer une mission d'investigation"
+        },
+        "german": {
+          "name": "Gevanni hat das über Nacht erledigt",
+          "description": "Schließe einen Ermittlungsauftrag ab"
+        },
+        "italian": {
+          "name": "Gevanni ci è riuscito in una notte",
+          "description": "Completa un'indagine congiunta"
+        },
+        "japanese": {
+          "name": "ジェバンニが一晩で　やってくれました",
+          "description": "1日の捜査指示を全て達成する"
+        },
+        "koreana": {
+          "name": "제반니가 하룻밤 만에 만들었습니다",
+          "description": "일일 수사 지시를 전부 달성한다"
+        },
+        "schinese": {
+          "name": "杰邦尼在一晚内就完成了",
+          "description": "完成单日的所有搜查命令"
+        },
+        "spanish": {
+          "name": "Gevanni lo hizo en una noche",
+          "description": "Completa una investigación conjunta"
+        },
+        "tchinese": {
+          "name": "傑邦尼在一晚內就完成了",
+          "description": "完成單日的所有搜查命令"
+        }
+      }
+    },
+    "GetIDInCommand": {
+      "translations": {
+        "english": {
+          "name": "I don't understand what's going on...",
+          "description": "Steal 1 ID while using a Kira Command Card"
+        },
+        "french": {
+          "name": "Je n'y comprends plus rien...",
+          "description": "Voler 1 identifiant en utilisant une carte de directives de Kira"
+        },
+        "german": {
+          "name": "Jetzt kapier ich gar nichts mehr ...",
+          "description": "Stiehl 1 ID, während du eine Kira-Befehlskarte nutzt"
+        },
+        "italian": {
+          "name": "C'è qualcosa che mi sfugge...",
+          "description": "Ruba 1 ID usando una carta ordine di Kira"
+        },
+        "japanese": {
+          "name": "何が何だかわからない...",
+          "description": "キラのコマンドカード使用中に身分証を1回盗む"
+        },
+        "koreana": {
+          "name": "뭐가 어떻게 된 건지 모르겠어…",
+          "description": "키라가 커맨드 카드 사용 중에 신분증을 1회 훔친다"
+        },
+        "schinese": {
+          "name": "为什么事情会变成这样",
+          "description": "使用基拉的指令卡偷走身份证 1 次"
+        },
+        "spanish": {
+          "name": "No entiendo nada...",
+          "description": "Roba una ID mientras usas una carta de mando de Kira"
+        },
+        "tchinese": {
+          "name": "為什麼事情會變成這樣……",
+          "description": "使用奇樂的指令卡偷走身分證1次"
+        }
+      }
+    },
+    "KillFakeL": {
+      "translations": {
+        "english": {
+          "name": "Lind L. Tailor",
+          "description": "Judge a fake L"
+        },
+        "french": {
+          "name": "Lind L. Tailor",
+          "description": "Juger un faux L"
+        },
+        "german": {
+          "name": "Lind L. Tailor",
+          "description": "Verurteile einen falschen L"
+        },
+        "italian": {
+          "name": "Lind L. Tailor",
+          "description": "Giudica un falso L"
+        },
+        "japanese": {
+          "name": "リンド・L・テイラー",
+          "description": "偽のLを裁く"
+        },
+        "koreana": {
+          "name": "린드 L 테일러",
+          "description": "가짜 L을 심판한다"
+        },
+        "schinese": {
+          "name": "LIND・L・TAILOR",
+          "description": "制裁假的 L"
+        },
+        "spanish": {
+          "name": "Lind L. Tailor",
+          "description": "Juzga a un señuelo de L"
+        },
+        "tchinese": {
+          "name": "LIND・L・TAILOR",
+          "description": "制裁假的L"
+        }
+      }
+    },
+    "CameraReport": {
+      "translations": {
+        "english": {
+          "name": "L will now speak",
+          "description": "Make a surveillance camera announcement"
+        },
+        "french": {
+          "name": "L va prendre la parole",
+          "description": "Faire une annonce en utilisant une caméra de surveillance"
+        },
+        "german": {
+          "name": "Hör auf die Stimme von L",
+          "description": "Nutze eine Sicherheitskamera, um etwas zu melden"
+        },
+        "italian": {
+          "name": "La parola a L",
+          "description": "Fai un annuncio usando una telecamera"
+        },
+        "japanese": {
+          "name": "Lの声を今お聞かせ致します",
+          "description": "監視カメラで1回報告する"
+        },
+        "koreana": {
+          "name": "L의 목소리를 지금 들려드리겠습니다",
+          "description": "감시 카메라로 1회 보고한다"
+        },
+        "schinese": {
+          "name": "我现在就把 L 的声音放出来",
+          "description": "使用监视摄像机报告 1 次"
+        },
+        "spanish": {
+          "name": "Ahora escucha a la voz de L",
+          "description": "Haz un anuncio de cámara de vigilancia"
+        },
+        "tchinese": {
+          "name": "我現在就把L的聲音放出來",
+          "description": "使用監視攝影機報告1次"
+        }
+      }
+    },
+    "InvestigationReachedMax": {
+      "translations": {
+        "english": {
+          "name": "Let's see you talk your way out of this",
+          "description": "Win a match by reaching max Investigation Progress"
+        },
+        "french": {
+          "name": "Essaie de te trouver une échappatoire, je suis tout ouïe",
+          "description": "Gagner une fois en atteignant la progression maximum de l'enquête"
+        },
+        "german": {
+          "name": "Mal sehen, wie du dich da rausreden willst",
+          "description": "Gewinne ein Spiel durch max. Ermittlungsfortschritt"
+        },
+        "italian": {
+          "name": "Avanti, prova a discolparti se ci riesci",
+          "description": "Vinci una partita raggiungendo il massimo del Progresso indagine"
+        },
+        "japanese": {
+          "name": "言い逃れられるのなら　言い逃れてみせてください",
+          "description": "捜査進捗レベルを最大にして1回勝利する"
+        },
+        "koreana": {
+          "name": "변명할 수 있으면 얼마든지 해보십시오",
+          "description": "수사 진척 레벨을 최대로 올려 1회 승리한다"
+        },
+        "schinese": {
+          "name": "如果还想找借口逃避的话，就请你说说看吧",
+          "description": "将搜查进度等级提升到最高并取得胜利 1 次"
+        },
+        "spanish": {
+          "name": "Si crees que puedes rebatirla, adelante, hazlo",
+          "description": "Gana alcanzando el nivel máximo de progreso de la investigación"
+        },
+        "tchinese": {
+          "name": "如果還想找藉口逃避的話，就請你說說看吧",
+          "description": "將搜查進度等級提升到最高並取得勝利1次"
+        }
+      }
+    },
+    "NewWorldReachedMax": {
+      "translations": {
+        "english": {
+          "name": "The Legend of Kira the Savior",
+          "description": "Win a match by reaching max New World Progress"
+        },
+        "french": {
+          "name": "La légende de Kira le Sauveur",
+          "description": "Gagner une fois en atteignant la progression maximum du Nouveau Monde"
+        },
+        "german": {
+          "name": "Die Legende von Kira dem Erlöser",
+          "description": "Gewinne ein Spiel durch max. Fortschritt zur Neuen Welt"
+        },
+        "italian": {
+          "name": "La leggenda di Kira il salvatore",
+          "description": "Vinci una partita raggiungendo il massimo del Progresso nuovo mondo"
+        },
+        "japanese": {
+          "name": "救世主キラ伝説",
+          "description": "新世界進捗レベルを最大にして1回勝利する"
+        },
+        "koreana": {
+          "name": "구세주 키라 전설",
+          "description": "신세계 진척 레벨을 최대로 올려 1회 승리한다"
+        },
+        "schinese": {
+          "name": "救世主基拉传说",
+          "description": "将新世界进度等级提升到最高并取得胜利 1 次"
+        },
+        "spanish": {
+          "name": "La leyenda de Kira, el mesías",
+          "description": "Gana alcanzando el nivel máximo de progreso del Nuevo Mundo"
+        },
+        "tchinese": {
+          "name": "救世主奇樂傳說",
+          "description": "將新世界進度等級提升到最高並取得勝利1次"
+        }
+      }
+    },
+    "ArrestedAfterPass": {
+      "translations": {
+        "english": {
+          "name": "I might be Kira...",
+          "description": "Get arrested after handing off a Death Note"
+        },
+        "french": {
+          "name": "Je suis peut-être Kira...",
+          "description": "Être arrêté après avoir donné un Death Note"
+        },
+        "german": {
+          "name": "Vielleicht bin ich Kira...",
+          "description": "Lass dich festnehmen, nachdem du ein Death Note weitergegeben hast"
+        },
+        "italian": {
+          "name": "Potrei essere Kira...",
+          "description": "Fatti arrestare dopo aver passato un Death Note"
+        },
+        "japanese": {
+          "name": "僕がキラかもしれない",
+          "description": "デスノートを渡した後に逮捕される"
+        },
+        "koreana": {
+          "name": "내가 키라일지도 몰라",
+          "description": "데스노트를 건넨 후에 체포된다"
+        },
+        "schinese": {
+          "name": "搞不好我就是基拉呢",
+          "description": "交出死亡笔记本后才被逮捕"
+        },
+        "spanish": {
+          "name": "Yo podría ser Kira...",
+          "description": "Sé arrestado tras entregar un Death Note"
+        },
+        "tchinese": {
+          "name": "我搞不好就是奇樂呢",
+          "description": "交出死亡筆記本後才被逮捕"
+        }
+      }
+    },
+    "KillteamKiraAll": {
+      "translations": {
+        "english": {
+          "name": "Well, then, if I don't do it…",
+          "description": "Win by killing two members of Team Kira"
+        },
+        "french": {
+          "name": "Si je ne m'en occupe pas moi-même...",
+          "description": "Gagner en tuant deux membres de l'équipe de Kira"
+        },
+        "german": {
+          "name": "Alles muss man selbst machen",
+          "description": "Gewinne, indem du zwei Mitglieder aus Kiras Team tötest"
+        },
+        "italian": {
+          "name": "Dovrò pensarci da me...",
+          "description": "Vinci uccidendo due membri del team Kira"
+        },
+        "japanese": {
+          "name": "俺がやるしかないな",
+          "description": "キラ陣営の2人を殺害して勝利する"
+        },
+        "koreana": {
+          "name": "내가 할 수밖에 없겠군",
+          "description": "키라 진영 2명을 살해하고 승리한다"
+        },
+        "schinese": {
+          "name": "只好由我来做了",
+          "description": "杀害 2 名基拉阵营的人并取得胜利"
+        },
+        "spanish": {
+          "name": "Tendré que hacerlo yo",
+          "description": "Gana tras matar a dos miembros del equipo Kira"
+        },
+        "tchinese": {
+          "name": "只好由我來做了",
+          "description": "殺害2名奇樂陣營的人並取得勝利"
+        }
+      }
+    },
+    "KillKira": {
+      "translations": {
+        "english": {
+          "name": "Be the best",
+          "description": "Win by killing Kira"
+        },
+        "french": {
+          "name": "Devenir le meilleur",
+          "description": "Gagner en tuant Kira"
+        },
+        "german": {
+          "name": "Ich will der Allerbeste sein",
+          "description": "Gewinne, indem du Kira tötest"
+        },
+        "italian": {
+          "name": "Puntare al top",
+          "description": "Vinci uccidendo Kira"
+        },
+        "japanese": {
+          "name": "一番になる",
+          "description": "キラを殺害して勝利する"
+        },
+        "koreana": {
+          "name": "제일이 되겠어",
+          "description": "키라를 살해하고 승리한다"
+        },
+        "schinese": {
+          "name": "我要当第一名",
+          "description": "杀害基拉并取得胜利"
+        },
+        "spanish": {
+          "name": "Conviértete en el mejor",
+          "description": "Gana tras matar a Kira"
+        },
+        "tchinese": {
+          "name": "我要當第一名",
+          "description": "殺害奇樂並取得勝利"
+        }
+      }
+    },
+    "WinByAnnounce": {
+      "translations": {
+        "english": {
+          "name": "All data deletion",
+          "description": "As Watari, have your team win during the meeting on the day you were killed"
+        },
+        "french": {
+          "name": "Suppression de toutes les données",
+          "description": "En tant que Watari, remportez la victoire lors de la réunion le jour où vous êtes tué"
+        },
+        "german": {
+          "name": "Weg mit den Daten",
+          "description": "Dein Team gewinnt das Spiel in der Besprechung an dem Tag, an dem du als Watari getötet wurdest"
+        },
+        "italian": {
+          "name": "Cancellazione di tutti i dati",
+          "description": "Quando sei Watari, vinci con il tuo team in una riunione nel giorno in cui vieni ucciso"
+        },
+        "japanese": {
+          "name": "All data deletion",
+          "description": "自分がワタリとして殺害された日の会議で勝利する"
+        },
+        "koreana": {
+          "name": "All data deletion",
+          "description": "자신이 와타리로 살해된 날의 회의에서 승리한다"
+        },
+        "schinese": {
+          "name": "删除所有数据",
+          "description": "身为渡遭到杀害的当天，在会议上取得胜利"
+        },
+        "spanish": {
+          "name": "Eliminación de todos los datos",
+          "description": "Como Watari, haz que tu equipo gane en la reunión del día en que te asesinen"
+        },
+        "tchinese": {
+          "name": "All data deletion",
+          "description": "身為渡時遭到殺害的當天，在會議上取得勝利"
+        }
+      }
+    },
+    "WinByEmergency": {
+      "translations": {
+        "english": {
+          "name": "Soichiro Yagami",
+          "description": "Win during an Emergency Meeting you called"
+        },
+        "french": {
+          "name": "Soichiro Yagami",
+          "description": "Gagner lors d'une réunion d'urgence que vous avez organisée"
+        },
+        "german": {
+          "name": "Soichiro Yagami",
+          "description": "Gewinne eine Notfallbesprechung, die du einberufen hast"
+        },
+        "italian": {
+          "name": "Soichiro Yagami",
+          "description": "Vinci in una riunione d'emergenza che hai indetto"
+        },
+        "japanese": {
+          "name": "夜神総一郎",
+          "description": "自分が招集した緊急会議で勝利する"
+        },
+        "koreana": {
+          "name": "야가미 소이치로",
+          "description": "자신이 소집한 긴급회의에서 승리한다"
+        },
+        "schinese": {
+          "name": "夜神总一郎",
+          "description": "在自己召开的紧急会议上取得胜利"
+        },
+        "spanish": {
+          "name": "Soichiro Yagami",
+          "description": "Gana en una reunión de emergencia que hayas convocado"
+        },
+        "tchinese": {
+          "name": "夜神總一郎",
+          "description": "在自己召開的緊急會議上取得勝利"
+        }
+      }
+    },
+    "ArresterAsProxy": {
+      "translations": {
+        "english": {
+          "name": "The Only Man Who can Contact L",
+          "description": "As Watari, be chosen to confiscate a suspect's items"
+        },
+        "french": {
+          "name": "Le seul homme pouvant contacter L",
+          "description": "En tant que Watari, être choisi comme la personne confisquant les objets"
+        },
+        "german": {
+          "name": "Nur ein Mann mit Kontakt zu L",
+          "description": "Werde als Watari als die Person gewählt, die Gegenstände beschlagnahmt"
+        },
+        "italian": {
+          "name": "L'unico uomo in grado di contattare L",
+          "description": "Quando sei Watari, fatti scegliere per confiscare gli oggetti di un sospettato"
+        },
+        "japanese": {
+          "name": "Lとコンタクトをとれるただ一人の男",
+          "description": "ワタリのときにアイテムを押収する人に選ばれる"
+        },
+        "koreana": {
+          "name": "L과 유일하게 연락이 가능한 한 남자",
+          "description": "와타리일 때 아이템을 압수할 사람으로 선택된다"
+        },
+        "schinese": {
+          "name": "他是唯一能够联络 L 的男人",
+          "description": "身为渡时被选为扣押道具的人"
+        },
+        "spanish": {
+          "name": "El único hombre que puede ponerse en contacto con L",
+          "description": "Como Watari, sé elegido como la persona que confisca objetos"
+        },
+        "tchinese": {
+          "name": "他是唯一能夠聯絡L的男人",
+          "description": "身為渡時被選為扣押道具的人"
+        }
+      }
+    },
+    "ExileL": {
+      "translations": {
+        "english": {
+          "name": "If they don't give you anything, then get creative",
+          "description": "Win by using Kira's Kingdom Card to get L ejected from the match*This trophy is given only to the player who is Kira's Spokesperson when the match is won."
+        },
+        "french": {
+          "name": "Vous n'avez pas d'infos ? Inventez-en !",
+          "description": "Gagner en éloignant L de l'enquête grâce à une carte du royaume de Kira*Débloqué uniquement par le joueur qui incarne le porte-parole de Kira lors d'une victoire."
+        },
+        "german": {
+          "name": "Ohne Anhaltspunkt ist Kreativität gefragt",
+          "description": "Gewinne, indem du eine Kiras-Reich-Karte einsetzt, um L aus dem Spiel zu werfen*Nur für den Spieler, der Kiras Vertreter ist, wenn das Spiel gewonnen wird"
+        },
+        "italian": {
+          "name": "Se non hai niente, basta inventare qualcosa!",
+          "description": "Vinci usando una tessera del Regno di Kira per espellere L dalla partita*Sbloccabile solo da chi ha il ruolo di Portavoce di Kira quando la partita è vinta"
+        },
+        "japanese": {
+          "name": "ネタがなきゃガセでもいいから自分で作れっつーの！！",
+          "description": "キラ王国カードでLを追放して勝利する※勝利時にキラの代弁者であるプレイヤーがこの実績を獲得します。"
+        },
+        "koreana": {
+          "name": "소재가 없으면 거짓말이라도 상관없으니까 직접 만들란 말이야!!",
+          "description": "키라 왕국 카드로 L을 추방하여 승리한다※승리 시 키라의 대변인을 맡은 플레이어가 이 트로피를 획득합니다"
+        },
+        "schinese": {
+          "name": "如果没有好内容，自己制造假消息就行啦",
+          "description": "使用基拉王国卡驱逐 L 并取得胜利 ※胜利时身为基拉代言人的玩家可获得此成就"
+        },
+        "spanish": {
+          "name": "Habrá que tirar de creatividad",
+          "description": "Gana usando una carta del reino de Kira para expulsar a L de la partida*Este logro se desbloquea para el jugador que sea el Portavoz de Kira cuando se gana la partida"
+        },
+        "tchinese": {
+          "name": "如果沒有好題材，自己製造假消息就行啦！",
+          "description": "使用奇樂王國卡驅逐L並取得勝利※勝利時身為奇樂代言人的玩家可獲得此獎盃。"
+        }
+      }
+    },
+    "WinAfterTailed": {
+      "translations": {
+        "english": {
+          "name": "Secret Provision for Kira",
+          "description": "Win by having a player targeted by a SPK Tracker arrested*This achievement is unlocked only for the player who is N when the match is won."
+        },
+        "french": {
+          "name": "Special Provision for Kira",
+          "description": "Gagner en faisant arrêter un joueur ciblé par un traceur SPK*Débloqué uniquement par le joueur qui incarne N lors d'une victoire."
+        },
+        "german": {
+          "name": "Special Provision for Kira",
+          "description": "Gewinne, wenn die Person, der du einen SPK-Tracker gegeben hast, festgenommen wird*Nur für den Spieler, der N ist, wenn das Spiel gewonnen wird"
+        },
+        "italian": {
+          "name": "Secret Provision for Kira",
+          "description": "Vinci quando il giocatore su cui hai piazzato una spia SPK viene arrestato*Sbloccabile solo da chi ha il ruolo di N quando la partita è vinta"
+        },
+        "japanese": {
+          "name": "Secret Provision for KIRA",
+          "description": "SPKの尾行の対象者が逮捕され勝利する※勝利時にNであるプレイヤーがこの実績を獲得します。"
+        },
+        "koreana": {
+          "name": "Secret Provision for KIRA",
+          "description": "SPK의 미행 대상자가 체포되어 승리한다※승리 시 N을 맡은 플레이어가 이 도전 과제를 획득합니다"
+        },
+        "schinese": {
+          "name": "KIRA 的秘密条款",
+          "description": "逮捕 SPK 的跟踪对象并取得胜利 ※胜利时，作为 N 的玩家会获得此成就"
+        },
+        "spanish": {
+          "name": "Grupo Especial contra Kira (SPK)",
+          "description": "Gana cuando arresten a alguien al que pusiste un rastreador de la SPK*Este logro se desbloquea para el jugador que sea N cuando se gana la partida"
+        },
+        "tchinese": {
+          "name": "Secret Provision for KIRA",
+          "description": "逮捕SPK的跟蹤對象並取得勝利※勝利時，作為N的玩家會獲得此成就。"
+        }
+      }
+    },
+    "AppointFollower": {
+      "translations": {
+        "english": {
+          "name": "Are you a god?",
+          "description": "Turn a player whose role has been revealed into a Kira follower"
+        },
+        "french": {
+          "name": "Vous êtes un dieu ?",
+          "description": "Nommer comme adepte de Kira un joueur au rôle révélé"
+        },
+        "german": {
+          "name": "Bist du ein Gott?",
+          "description": "Bekehre einen Spieler, dessen Rolle offenbart wurde, zu einem Anhänger Kiras"
+        },
+        "italian": {
+          "name": "Sei un dio?",
+          "description": "Fai diventare seguace di Kira un giocatore il cui ruolo è stato rivelato"
+        },
+        "japanese": {
+          "name": "あなたが神か？",
+          "description": "役職が公開されているプレイヤーをキラ信者に任命する"
+        },
+        "koreana": {
+          "name": "당신이 신인가?",
+          "description": "역할이 공개된 플레이어를 키라 신자로 임명한다"
+        },
+        "schinese": {
+          "name": "你就是神吗",
+          "description": "将身份公开的玩家任命为基拉崇拜者"
+        },
+        "spanish": {
+          "name": "¿Eres dios?",
+          "description": "Convierte a un jugador con rol revelado en simpatizante de Kira"
+        },
+        "tchinese": {
+          "name": "你就是神嗎？",
+          "description": "將身分公開的玩家任命為奇樂崇拜者"
+        }
+      }
+    }
+  }
+}

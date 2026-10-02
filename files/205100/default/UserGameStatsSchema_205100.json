@@ -1,0 +1,2256 @@
+{
+  "version": 1,
+  "app_id": "205100",
+  "variant_id": "default",
+  "source_sha256": "66e9d9c03047090f87fba55fe130c3067f39bc4a53cbf747a7f322b458fbfff1",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "ACHIEVEMENT_0": {
+      "translations": {
+        "english": {
+          "name": "Thief",
+          "description": "Pickpocket items worth a total of 200 coins"
+        },
+        "french": {
+          "name": "Voleur",
+          "description": "Volez des objets pour une valeur totale de 200 pièces"
+        },
+        "german": {
+          "name": "Dieb",
+          "description": "Stiehl Gegenstände im Wert von 200 Münzen"
+        },
+        "italian": {
+          "name": "Ladro",
+          "description": "Ruba oggetti per un valore di 200 monete"
+        },
+        "schinese": {
+          "name": "盗贼",
+          "description": "扒窃总价值 200 枚硬币的物品。"
+        },
+        "spanish": {
+          "name": "Ladrón",
+          "description": "Roba objetos por un valor total de 200 monedas"
+        }
+      }
+    },
+    "ACHIEVEMENT_1": {
+      "translations": {
+        "english": {
+          "name": "Versatile",
+          "description": "Kill characters with each weapon and offensive gadget"
+        },
+        "french": {
+          "name": "Polyvalent",
+          "description": "Tuez des personnages avec chaque arme et objet offensif"
+        },
+        "german": {
+          "name": "Vielseitig",
+          "description": "Eliminiere Gegner mit allen verfügbaren Waffen und Gerätschaften"
+        },
+        "italian": {
+          "name": "Versatile",
+          "description": "Uccidi i nemici usando tutte le armi e tutti gli oggetti"
+        },
+        "schinese": {
+          "name": "多面手",
+          "description": "用每种武器和进攻型装置击杀角色。"
+        },
+        "spanish": {
+          "name": "Versátil",
+          "description": "Mata a personajes con cada arma y artilugio ofensivo"
+        }
+      }
+    },
+    "ACHIEVEMENT_2": {
+      "translations": {
+        "english": {
+          "name": "Ghost",
+          "description": "Complete all missions after the prologue, alerting no one or killing no one but key targets"
+        },
+        "french": {
+          "name": "Fantôme",
+          "description": "Finissez les missions après le prologue en n’alertant personne et en ne tuant que les cibles clés"
+        },
+        "german": {
+          "name": "Geist",
+          "description": "Beende alle Missionen nach dem Prolog, alarmiere niemanden & eliminiere nur Zielpersonen"
+        },
+        "italian": {
+          "name": "Fantasma",
+          "description": "Completa le missioni dopo il prologo senza farti scoprire e uccidendo solo i bersagli chiave"
+        },
+        "schinese": {
+          "name": "幽灵",
+          "description": "完成序章后的所有任务，不惊动任何人，且除关键目标外不杀任何人。"
+        },
+        "spanish": {
+          "name": "Fantasma",
+          "description": "Termina todas las misiones tras el prólogo sin alertar a nadie y matando solo a los objetivos clave"
+        }
+      }
+    },
+    "ACHIEVEMENT_3": {
+      "translations": {
+        "english": {
+          "name": "Shadow",
+          "description": "Complete all missions after the prologue without alerting anyone"
+        },
+        "french": {
+          "name": "Ombre",
+          "description": "Terminez toutes les missions après le prologue sans alerter quiconque"
+        },
+        "german": {
+          "name": "Schatten",
+          "description": "Schließe alle Missionen nach dem Prolog ab, ohne jemanden zu alarmieren"
+        },
+        "italian": {
+          "name": "Ombra",
+          "description": "Completa tutte le missioni dopo il prologo senza allertare nessuno"
+        },
+        "schinese": {
+          "name": "阴影",
+          "description": "完成序章后的所有任务，不惊动任何人。"
+        },
+        "spanish": {
+          "name": "Sombra",
+          "description": "Termina todas las misiones tras el prólogo sin alertar a nadie"
+        }
+      }
+    },
+    "ACHIEVEMENT_4": {
+      "translations": {
+        "english": {
+          "name": "Mostly Flesh and Steel",
+          "description": "Finish the game without purchasing any supernatural powers or enhancements, besides Blink"
+        },
+        "french": {
+          "name": "Chair et acier",
+          "description": "Terminez le jeu sans acheter de pouvoirs surnaturels ou d'améliorations, mis à part le Clignement"
+        },
+        "german": {
+          "name": "Ganz natürlich",
+          "description": "Schließe das Spiel ab, ohne übernatürliche Kräfte oder Verstärkungen zu erwerben - mit Ausnahme von Teleportieren"
+        },
+        "italian": {
+          "name": "Carne e acciaio",
+          "description": "Finisci il gioco senza acquisire alcun potere soprannaturale o potenziamento, eccetto Traslazione"
+        },
+        "schinese": {
+          "name": "血肉与钢铁为主",
+          "description": "除了 Blink 外，不购买任何超自然能力或强化并完成游戏。"
+        },
+        "spanish": {
+          "name": "Carne y acero principalmente",
+          "description": "Termina el juego sin comprar ningún poder ni mejora sobrenatural, salvo Guiño"
+        }
+      }
+    },
+    "ACHIEVEMENT_5": {
+      "translations": {
+        "english": {
+          "name": "Wall of Sparks",
+          "description": "Kill an enemy using a Wall of Light"
+        },
+        "french": {
+          "name": "Portail d'étincelles",
+          "description": "Tuez un ennemi en utilisant un Portail foudroyant"
+        },
+        "german": {
+          "name": "Wand der Funken",
+          "description": "Eliminiere einen Gegner mit einer Lichtwand"
+        },
+        "italian": {
+          "name": "Muro di scintille",
+          "description": "Uccidi un nemico usando un Muro di luce"
+        },
+        "schinese": {
+          "name": "电光之墙",
+          "description": "使用光墙杀死一名敌人。"
+        },
+        "spanish": {
+          "name": "Arco de chispas",
+          "description": "Mata a un enemigo por medio de un arco voltaico"
+        }
+      }
+    },
+    "ACHIEVEMENT_6": {
+      "translations": {
+        "english": {
+          "name": "Rogue",
+          "description": "Assassinate 10 unaware enemies"
+        },
+        "french": {
+          "name": "Filou",
+          "description": "Assassinez 10 ennemis sans qu'ils ne vous voient"
+        },
+        "german": {
+          "name": "Schurke",
+          "description": "Eliminiere 10 ahnungslose Gegner"
+        },
+        "italian": {
+          "name": "Canaglia",
+          "description": "Assassina 10 nemici ignari"
+        },
+        "schinese": {
+          "name": "游荡者",
+          "description": "刺杀 10 名毫无察觉的敌人。"
+        },
+        "spanish": {
+          "name": "Matón",
+          "description": "Asesina a 10 enemigos desprevenidos"
+        }
+      }
+    },
+    "ACHIEVEMENT_7": {
+      "translations": {
+        "english": {
+          "name": "Specter",
+          "description": "After escaping prison, complete a mission without alerting anyone, and kill less than 5 people"
+        },
+        "french": {
+          "name": "Spectre",
+          "description": "Sorti de prison, terminez la mission sans alerter personne et tuez moins de 5 ennemis"
+        },
+        "german": {
+          "name": "Schemen",
+          "description": "Flüchte aus dem Gefängnis, beende eine Mission ohne Alarm und eliminiere weniger als 5 Personen"
+        },
+        "italian": {
+          "name": "Spettro",
+          "description": "Dopo la fuga di prigione, completa una missione senza allertare nemici e uccidendone meno di 5"
+        },
+        "schinese": {
+          "name": "幽影",
+          "description": "逃出监狱后，在不惊动任何人的情况下完成一个任务，并杀死少于 5 人。"
+        },
+        "spanish": {
+          "name": "Espectro",
+          "description": "Tras huir de prisión, completa una misión sin alertar a nadie y matando a menos de 5 personas"
+        }
+      }
+    },
+    "ACHIEVEMENT_8": {
+      "translations": {
+        "english": {
+          "name": "Faceless",
+          "description": "After escaping Coldridge Prison, complete a single mission without alerting anyone"
+        },
+        "french": {
+          "name": "Anonyme",
+          "description": "Après vous être évadé du bagne de Coldridge, terminez une mission sans alerter quiconque"
+        },
+        "german": {
+          "name": "Gesichtslos",
+          "description": "Schließe eine einzelne Mission ab, ohne jemanden zu alarmieren, nachdem du aus dem Gefängnis von Coldridge entkommen bist"
+        },
+        "italian": {
+          "name": "Senza volto",
+          "description": "Dopo essere fuggito dalla prigione di Coldridge, completa una singola missione senza allertare nessuno"
+        },
+        "schinese": {
+          "name": "无面者",
+          "description": "逃出 Coldridge 监狱后，在不惊动任何人的情况下完成一个任务。"
+        },
+        "spanish": {
+          "name": "Anónimo",
+          "description": "Tras escapar de la prisión de Coldridge, termina una misión sin alertar a nadie"
+        }
+      }
+    },
+    "ACHIEVEMENT_9": {
+      "translations": {
+        "english": {
+          "name": "Manipulator",
+          "description": "Make others kill 5 of their own allies"
+        },
+        "french": {
+          "name": "Manipulateur",
+          "description": "Poussez des personnages à tuer 5 de leurs propres alliés"
+        },
+        "german": {
+          "name": "Manipulator",
+          "description": "Bringe andere dazu, 5 ihrer eigenen Verbündeten zu eliminieren"
+        },
+        "italian": {
+          "name": "Manipolatore",
+          "description": "Fai in modo che siano altri a uccidere 5 dei loro alleati"
+        },
+        "schinese": {
+          "name": "操纵者",
+          "description": "让他人杀死 5 名自己的盟友。"
+        },
+        "spanish": {
+          "name": "Manipulador",
+          "description": "Haz que otros maten a 5 de sus aliados"
+        }
+      }
+    },
+    "ACHIEVEMENT_10": {
+      "translations": {
+        "english": {
+          "name": "Razor Rain",
+          "description": "Kill 5 characters with Drop Assassination"
+        },
+        "french": {
+          "name": "Pluie de lames",
+          "description": "Tuez 5 personnages avec une chute assassine"
+        },
+        "german": {
+          "name": "Messerregen",
+          "description": "Eliminiere 5 Gegner per Falkenangriff"
+        },
+        "italian": {
+          "name": "Morte dall'alto",
+          "description": "Uccidi 5 nemici con il Salto Omicida"
+        },
+        "schinese": {
+          "name": "剃刀雨",
+          "description": "用下落刺杀杀死 5 名角色。"
+        },
+        "spanish": {
+          "name": "Lluvia de cuchillas",
+          "description": "Mata a 5 personajes con caída letal"
+        }
+      }
+    },
+    "ACHIEVEMENT_11": {
+      "translations": {
+        "english": {
+          "name": "Surgical",
+          "description": "Play from the first mission through Kaldwin's Bridge killing fewer than 10 characters"
+        },
+        "french": {
+          "name": "Frappe chirurgicale",
+          "description": "Jouez de la première mission jusqu'à Kaldwin's Bridge en tuant moins de 10 personnages"
+        },
+        "german": {
+          "name": "Chirurg",
+          "description": "Spiele von der ersten Mission bis zur Kaldwinbrücke und eliminiere dabei weniger als 10 Gegner"
+        },
+        "italian": {
+          "name": "Chirurgo",
+          "description": "Gioca dalla prima missione fino al ponte di Kaldwyn uccidendo meno di 10 nemici"
+        },
+        "schinese": {
+          "name": "外科手术",
+          "description": "从第一个任务一直玩到 Kaldwin's Bridge，击杀少于 10 名角色。"
+        },
+        "spanish": {
+          "name": "Quirúrgico",
+          "description": "Juega desde la primera misión hasta el puente de Kaldwin y mata a menos de 10 personajes"
+        }
+      }
+    },
+    "ACHIEVEMENT_12": {
+      "translations": {
+        "english": {
+          "name": "Clean Hands",
+          "description": "Complete the game without killing anyone"
+        },
+        "french": {
+          "name": "Mains propres",
+          "description": "Terminez le jeu sans tuer quiconque"
+        },
+        "german": {
+          "name": "Saubere Hände",
+          "description": "Schließe das Spiel ab, ohne jemanden zu eliminieren"
+        },
+        "italian": {
+          "name": "Mani pulite",
+          "description": "Completa il gioco senza uccidere nessuno"
+        },
+        "schinese": {
+          "name": "干净的手",
+          "description": "不杀任何人完成游戏。"
+        },
+        "spanish": {
+          "name": "Manos limpias",
+          "description": "Termina el juego sin matar a nadie"
+        }
+      }
+    },
+    "ACHIEVEMENT_13": {
+      "translations": {
+        "english": {
+          "name": "Harm's Way",
+          "description": "Cause 5 unintentional suicides"
+        },
+        "french": {
+          "name": "Exposition au danger",
+          "description": "Causez 5 suicides involontaires"
+        },
+        "german": {
+          "name": "Berufsrisiko",
+          "description": "Verursache 5 unabsichtliche Selbstmorde"
+        },
+        "italian": {
+          "name": "Sentiero pericoloso",
+          "description": "Causa 5 suicidi non intenzionali"
+        },
+        "schinese": {
+          "name": "险境",
+          "description": "造成 5 起意外自杀。"
+        },
+        "spanish": {
+          "name": "En peligro",
+          "description": "Provoca 5 suicidios involuntarios"
+        }
+      }
+    },
+    "ACHIEVEMENT_14": {
+      "translations": {
+        "english": {
+          "name": "Inhabitant",
+          "description": "Stay in possession of others for most of a 3 minute period"
+        },
+        "french": {
+          "name": "Habitant",
+          "description": "Restez le plus longtemps possible en possession d'autres personnes sur une période de 3 minutes"
+        },
+        "german": {
+          "name": "Bewohner",
+          "description": "Beherrsche andere für einen Zeitraum von 3 Minuten"
+        },
+        "italian": {
+          "name": "Residente",
+          "description": "Possiedi qualcuno per più di 3 minuti"
+        },
+        "schinese": {
+          "name": "寄居者",
+          "description": "在 3 分钟内的大部分时间里附身于他人。"
+        },
+        "spanish": {
+          "name": "Habitante",
+          "description": "Mantén una posesión de otros personajes durante la mayor parte de un período de 3 minutos"
+        }
+      }
+    },
+    "ACHIEVEMENT_15": {
+      "translations": {
+        "english": {
+          "name": "Hornets' Nest",
+          "description": "Kill 4 enemies in less than 1 second using the crossbow"
+        },
+        "french": {
+          "name": "Nid de guêpes",
+          "description": "Tuez 4 ennemis en moins d'une seconde en utilisant l'arbalète"
+        },
+        "german": {
+          "name": "Hornissennest",
+          "description": "Eliminiere 4 Gegner in weniger als 1 Sekunde mit der Armbrust"
+        },
+        "italian": {
+          "name": "Nido di vespe",
+          "description": "Uccidi 4 nemici in meno di un secondo usando la balestra"
+        },
+        "schinese": {
+          "name": "蜂巢",
+          "description": "在不到 1 秒内用弩杀死 4 名敌人。"
+        },
+        "spanish": {
+          "name": "Avispero",
+          "description": "Mata a 4 enemigos en menos de 1 segundo con la ballesta"
+        }
+      }
+    },
+    "ACHIEVEMENT_16": {
+      "translations": {
+        "english": {
+          "name": "Speed of Darkness",
+          "description": "Travel 30 meters in less than 1 second"
+        },
+        "french": {
+          "name": "Vitesse des ténèbres",
+          "description": "Parcourez 30 mètres en moins d'une seconde"
+        },
+        "german": {
+          "name": "Blitz der Finsternis",
+          "description": "Lege 30 Meter in weniger als 1 Sekunde zurück"
+        },
+        "italian": {
+          "name": "Velocità oscura",
+          "description": "Percorri 30 metri in meno di 1 secondo"
+        },
+        "schinese": {
+          "name": "黑暗之速",
+          "description": "在不到 1 秒内移动 30 米。"
+        },
+        "spanish": {
+          "name": "Velocidad de las tinieblas",
+          "description": "Recorre 30 metros en menos de 1 segundo"
+        }
+      }
+    },
+    "ACHIEVEMENT_17": {
+      "translations": {
+        "english": {
+          "name": "Tempest",
+          "description": "Kill 6 enemies in less than 1 second"
+        },
+        "french": {
+          "name": "Tempête",
+          "description": "Tuez 6 ennemis en moins d'1 seconde"
+        },
+        "german": {
+          "name": "Orkan",
+          "description": "Eliminiere 6 Gegner in weniger als 1 Sekunde"
+        },
+        "italian": {
+          "name": "Tempesta",
+          "description": "Uccidi 6 nemici in meno di 1 secondo"
+        },
+        "schinese": {
+          "name": "暴风",
+          "description": "在不到 1 秒内杀死 6 名敌人。"
+        },
+        "spanish": {
+          "name": "Tempestad",
+          "description": "Mata a 6 enemigos en menos de 1 segundo"
+        }
+      }
+    },
+    "ACHIEVEMENT_18": {
+      "translations": {
+        "english": {
+          "name": "Merchant of Disorder",
+          "description": "Acquire 15 equipment upgrades"
+        },
+        "french": {
+          "name": "Marchand de bazar",
+          "description": "Obtenez 15 améliorations d'équipement"
+        },
+        "german": {
+          "name": "Händler des Chaos",
+          "description": "Kaufe 15 Ausrüstungsverbesserungen"
+        },
+        "italian": {
+          "name": "Mercante del disordine",
+          "description": "Ottieni 15 potenziamenti per l'equipaggiamento"
+        },
+        "schinese": {
+          "name": "混乱商人",
+          "description": "获得 15 项装备升级。"
+        },
+        "spanish": {
+          "name": "Mercader del desorden",
+          "description": "Adquiere 15 mejoras de equipo"
+        }
+      }
+    },
+    "ACHIEVEMENT_19": {
+      "translations": {
+        "english": {
+          "name": "Art Dealer",
+          "description": "Collect all the Sokolov paintings"
+        },
+        "french": {
+          "name": "Marchand de tableaux",
+          "description": "Récupérez tous les tableaux de Sokolov"
+        },
+        "german": {
+          "name": "Kunsthändler",
+          "description": "Sammle alle Gemälde von Sokolov"
+        },
+        "italian": {
+          "name": "Mercante d'arte",
+          "description": "Trova tutti i quadri di Sokolov"
+        },
+        "schinese": {
+          "name": "艺术商",
+          "description": "收集所有 Sokolov 画作。"
+        },
+        "spanish": {
+          "name": "Marchante de arte",
+          "description": "Consigue todos los cuadros de Sokolov"
+        }
+      }
+    },
+    "ACHIEVEMENT_20": {
+      "translations": {
+        "english": {
+          "name": "Occultist",
+          "description": "Collect 10 bone charms"
+        },
+        "french": {
+          "name": "Occultiste",
+          "description": "Récupérez 10 charmes d'os"
+        },
+        "german": {
+          "name": "Okkultist",
+          "description": "Sammle 10 Knochenartefakte"
+        },
+        "italian": {
+          "name": "Occultista",
+          "description": "Raccogli 10 Amuleti d'Osso"
+        },
+        "schinese": {
+          "name": "神秘学者",
+          "description": "收集 10 个骨符。"
+        },
+        "spanish": {
+          "name": "Ocultista",
+          "description": "Consigue 10 talismanes de hueso"
+        }
+      }
+    },
+    "ACHIEVEMENT_21": {
+      "translations": {
+        "english": {
+          "name": "The Escapist",
+          "description": "After Coldridge Prison, elude 5 pursuers at once without killing them or leaving the map"
+        },
+        "french": {
+          "name": "Fugitif",
+          "description": "Après le bagne de Coldridge, échappez à 5 poursuivants à la fois sans les tuer ou sans quitter la carte"
+        },
+        "german": {
+          "name": "Auf der Flucht",
+          "description": "Entkomme nach der Flucht aus dem Gefängnis von Coldridge 5 Verfolgern, ohne sie zu eliminieren oder die Karte zu verlassen"
+        },
+        "italian": {
+          "name": "Il fuggitivo",
+          "description": "Dopo la prigione di Coldridge, fuggi da 5 inseguitori contemporaneamente senza ucciderli e senza abbandonare la mappa"
+        },
+        "schinese": {
+          "name": "逃脱专家",
+          "description": "离开 Coldridge 监狱后，同时甩开 5 名追兵，不杀死他们也不离开地图。"
+        },
+        "spanish": {
+          "name": "El escapista",
+          "description": "Tras la prisión de Coldridge, escapa de 5 perseguidores sin matarlos ni abandonar el mapa"
+        }
+      }
+    },
+    "ACHIEVEMENT_22": {
+      "translations": {
+        "english": {
+          "name": "Cleaner",
+          "description": "Fight with 5 enemies at once, without any of them surviving"
+        },
+        "french": {
+          "name": "Nettoyeur",
+          "description": "Combattez 5 ennemis en même temps, sans qu'aucun ne survive"
+        },
+        "german": {
+          "name": "Saubermann",
+          "description": "Kämpfe gegen 5 Gegner gleichzeitig und lass keinen von ihnen am Leben"
+        },
+        "italian": {
+          "name": "Piazza pulita",
+          "description": "Combatti contro 5 nemici contemporaneamente senza lasciarne in vita nessuno"
+        },
+        "schinese": {
+          "name": "清理者",
+          "description": "同时与 5 名敌人战斗，并让他们无人生还。"
+        },
+        "spanish": {
+          "name": "Limpiador",
+          "description": "Enfréntate a 5 enemigos a la vez, sin que sobreviva ninguno"
+        }
+      }
+    },
+    "ACHIEVEMENT_23": {
+      "translations": {
+        "english": {
+          "name": "Dishonored",
+          "description": "Complete the Intro missions"
+        },
+        "french": {
+          "name": "Déshonoré",
+          "description": "Terminez les missions d'Intro"
+        },
+        "german": {
+          "name": "Entehrt",
+          "description": "Schließe die Einführungsmissionen ab"
+        },
+        "italian": {
+          "name": "Senza onore",
+          "description": "Completa la missione introduttiva"
+        },
+        "schinese": {
+          "name": "耻辱",
+          "description": "完成开场任务。"
+        },
+        "spanish": {
+          "name": "Deshonrado",
+          "description": "Termina las misiones de introducción"
+        }
+      }
+    },
+    "ACHIEVEMENT_24": {
+      "translations": {
+        "english": {
+          "name": "Excommunication",
+          "description": "Eliminate High Overseer Campbell"
+        },
+        "french": {
+          "name": "Excommunication",
+          "description": "Éliminez le Grand Superviseur Campbell"
+        },
+        "german": {
+          "name": "Exkommunikation",
+          "description": "Eliminiere Oberaufseher Campbell"
+        },
+        "italian": {
+          "name": "Scomunica",
+          "description": "Elimina l'Alto Sacerdote Campbell"
+        },
+        "schinese": {
+          "name": "逐出教会",
+          "description": "解决 High Overseer Campbell。"
+        },
+        "spanish": {
+          "name": "Excomunión",
+          "description": "Elimina al Decano supremo Campbell"
+        }
+      }
+    },
+    "ACHIEVEMENT_25": {
+      "translations": {
+        "english": {
+          "name": "Child Care",
+          "description": "Find Emily Kaldwin"
+        },
+        "french": {
+          "name": "Garderie",
+          "description": "Trouvez Emily Kaldwin"
+        },
+        "german": {
+          "name": "Kindermädchen",
+          "description": "Finde Emily Kaldwin"
+        },
+        "italian": {
+          "name": "Assistenza pediatrica",
+          "description": "Trova Emily Kaldwin"
+        },
+        "schinese": {
+          "name": "照看孩子",
+          "description": "找到 Emily Kaldwin。"
+        },
+        "spanish": {
+          "name": "Cuidados infantiles",
+          "description": "Localiza a Emily Kaldwin"
+        }
+      }
+    },
+    "ACHIEVEMENT_26": {
+      "translations": {
+        "english": {
+          "name": "Capturing Genius and Madness",
+          "description": "Complete the Bridge mission"
+        },
+        "french": {
+          "name": "Le génie et la folie",
+          "description": "Terminez la mission du pont"
+        },
+        "german": {
+          "name": "Genie und Wahnsinn",
+          "description": "Schließe die Brückenmission ab"
+        },
+        "italian": {
+          "name": "Genio e sregolatezza",
+          "description": "Completa la missione del ponte"
+        },
+        "schinese": {
+          "name": "捕获天才与疯狂",
+          "description": "完成大桥任务。"
+        },
+        "spanish": {
+          "name": "Captar el genio y la locura",
+          "description": "Termina la misión del puente"
+        }
+      }
+    },
+    "ACHIEVEMENT_27": {
+      "translations": {
+        "english": {
+          "name": "Regicide",
+          "description": "Assassinate the Lord Regent, Hiram Burrows"
+        },
+        "french": {
+          "name": "Régicide",
+          "description": "Assassinez le Lord Régent, Hiram Burrows"
+        },
+        "german": {
+          "name": "Herschermord",
+          "description": "Eliminiere Lordregent Hiram Burrows"
+        },
+        "italian": {
+          "name": "Regicidio",
+          "description": "Uccidi il Lord Reggente, Hiram Burrows"
+        },
+        "schinese": {
+          "name": "弑君",
+          "description": "刺杀摄政王 Hiram Burrows。"
+        },
+        "spanish": {
+          "name": "Regicidio",
+          "description": "Mata al lord Regente, Hiram Burrows"
+        }
+      }
+    },
+    "ACHIEVEMENT_28": {
+      "translations": {
+        "english": {
+          "name": "Political Suicide",
+          "description": "Expose the Lord Regent's crimes and bring about his arrest"
+        },
+        "french": {
+          "name": "Suicide politique",
+          "description": "Dénoncez les crimes du Lord Regent et entraînez son arrestation"
+        },
+        "german": {
+          "name": "Politischer Selbstmord",
+          "description": "Bringe die Verbrechen des Lordregenten ans Licht und sorge für seine Gefangenschaft"
+        },
+        "italian": {
+          "name": "Suicidio politico",
+          "description": "Rivela i crimini del Lord Reggente e fallo arrestare"
+        },
+        "schinese": {
+          "name": "政治自杀",
+          "description": "揭露摄政王的罪行并促成他的逮捕。"
+        },
+        "spanish": {
+          "name": "Suicidio político",
+          "description": "Saca a la luz los crímenes del lord Regente y consigue que lo arresten"
+        }
+      }
+    },
+    "ACHIEVEMENT_29": {
+      "translations": {
+        "english": {
+          "name": "This Is Mine",
+          "description": "Recover your belongings"
+        },
+        "french": {
+          "name": "C'est à moi",
+          "description": "Retrouvez vos affaires"
+        },
+        "german": {
+          "name": "Das gehört mir!",
+          "description": "Hol dir deine Habseligkeiten zurück"
+        },
+        "italian": {
+          "name": "Ciò che è mio",
+          "description": "Recupera i tuoi averi"
+        },
+        "schinese": {
+          "name": "这是我的",
+          "description": "取回你的物品。"
+        },
+        "spanish": {
+          "name": "Esto es mío",
+          "description": "Recupera tus pertenencias"
+        }
+      }
+    },
+    "ACHIEVEMENT_30": {
+      "translations": {
+        "english": {
+          "name": "Resolution",
+          "description": "Complete the game"
+        },
+        "french": {
+          "name": "Résolution",
+          "description": "Terminez le jeu"
+        },
+        "german": {
+          "name": "Auflösung",
+          "description": "Schließe das Spiel ab"
+        },
+        "italian": {
+          "name": "Risoluzione",
+          "description": "Completa il gioco"
+        },
+        "schinese": {
+          "name": "解决",
+          "description": "完成游戏。"
+        },
+        "spanish": {
+          "name": "Resolución",
+          "description": "Termina el juego"
+        }
+      }
+    },
+    "ACHIEVEMENT_31": {
+      "translations": {
+        "english": {
+          "name": "Dunwall in Chaos",
+          "description": "You completed the game in high chaos"
+        },
+        "french": {
+          "name": "Dunwall chaotique",
+          "description": "Vous avez terminé le jeu en mode chaos total"
+        },
+        "german": {
+          "name": "Dunwall im Chaos",
+          "description": "Du hast das Spiel mit hohem Chaosfaktor abgeschlossen"
+        },
+        "italian": {
+          "name": "Dunwall nel caos",
+          "description": "Hai completato il gioco creando molta confusione"
+        },
+        "schinese": {
+          "name": "混乱中的 Dunwall",
+          "description": "以高混乱度完成游戏。"
+        },
+        "spanish": {
+          "name": "Dunwall en el caos",
+          "description": "Has terminado el juego con caos elevado"
+        }
+      }
+    },
+    "ACHIEVEMENT_32": {
+      "translations": {
+        "english": {
+          "name": "Just Dark Enough",
+          "description": "You completed the game in low chaos"
+        },
+        "french": {
+          "name": "Suffisamment sombre",
+          "description": "Vous avez terminé le jeu en mode chaos léger"
+        },
+        "german": {
+          "name": "Gerade düster genug",
+          "description": "Du hast das Spiel mit niedrigem Chaosfaktor abgeschlossen"
+        },
+        "italian": {
+          "name": "Sufficientemente oscuro",
+          "description": "Hai completato il gioco creando poca confusione"
+        },
+        "schinese": {
+          "name": "黑暗刚刚好",
+          "description": "以低混乱度完成游戏。"
+        },
+        "spanish": {
+          "name": "Lo bastante oscuro",
+          "description": "Has terminado el juego con caos reducido"
+        }
+      }
+    },
+    "ACHIEVEMENT_33": {
+      "translations": {
+        "english": {
+          "name": "Vanished",
+          "description": "You escaped prison and navigated the sewers undetected"
+        },
+        "french": {
+          "name": "Disparition",
+          "description": "Vous vous êtes évadé de prison et avez parcouru les égouts sans vous faire repérer"
+        },
+        "german": {
+          "name": "Verschwunden",
+          "description": "Du bist aus dem Gefängnis entkommen und unentdeckt in die Kanalisation abgetaucht"
+        },
+        "italian": {
+          "name": "Svanito",
+          "description": "Sei fuggito dalla prigione e hai superato le fogne senza farti individuare"
+        },
+        "schinese": {
+          "name": "消失无踪",
+          "description": "逃出监狱并在未被发现的情况下穿过下水道。"
+        },
+        "spanish": {
+          "name": "Desaparecido",
+          "description": "Has escapado de la prisión y te has movido por las cloacas sin ser descubierto"
+        }
+      }
+    },
+    "ACHIEVEMENT_34": {
+      "translations": {
+        "english": {
+          "name": "Gentleman Caller",
+          "description": "You completed all the Granny Rags side missions"
+        },
+        "french": {
+          "name": "Visiteur",
+          "description": "Vous avez terminé toutes les missions secondaires de Mamie Chiffons"
+        },
+        "german": {
+          "name": "Verehrer",
+          "description": "Du hast alle Nebenmissionen der Lumpengräfin abgeschlossen"
+        },
+        "italian": {
+          "name": "Pretendente",
+          "description": "Hai completato tutte le missioni secondarie di Nonna Cencia"
+        },
+        "schinese": {
+          "name": "绅士来客",
+          "description": "完成所有 Granny Rags 支线任务。"
+        },
+        "spanish": {
+          "name": "Pretendiente",
+          "description": "Has completado todas las misiones secundarias de doña andrajos"
+        }
+      }
+    },
+    "ACHIEVEMENT_35": {
+      "translations": {
+        "english": {
+          "name": "Street Conspiracy",
+          "description": "You completed all the Slackjaw side missions"
+        },
+        "french": {
+          "name": "Conspiration de la rue",
+          "description": "Vous avez terminé toutes les missions secondaires de Slackjaw"
+        },
+        "german": {
+          "name": "Verschwörung der Straße",
+          "description": "Du hast alle Nebenmissionen Slackjaws abgeschlossen"
+        },
+        "italian": {
+          "name": "Cospirazione di strada",
+          "description": "Hai completato tutte le missioni secondarie di Slackjaw"
+        },
+        "schinese": {
+          "name": "街头阴谋",
+          "description": "完成所有 Slackjaw 支线任务。"
+        },
+        "spanish": {
+          "name": "Conspiración callejera",
+          "description": "Has terminado todas las misiones secundarias de Slackjaw"
+        }
+      }
+    },
+    "ACHIEVEMENT_36": {
+      "translations": {
+        "english": {
+          "name": "The Art of the Steal",
+          "description": "You got the Art Dealer's safe combination for Slackjaw, but robbed the safe first"
+        },
+        "french": {
+          "name": "L'art du vol",
+          "description": "Vous avez obtenu la combinaison du coffre du marchand de tableaux pour Slackjaw, mais l'avez vidé en premier"
+        },
+        "german": {
+          "name": "Die Kunst des Stehlens",
+          "description": "Du hast die Tresorkombination des Kunsthändlers für Slackjaw herausgefunden, aber den Tresor vor ihm geleert"
+        },
+        "italian": {
+          "name": "L'arte del furto",
+          "description": "Hai ottenuto la combinazione della cassaforte del mercante d'arte per Slackjaw, ma prima l'hai svuotata"
+        },
+        "schinese": {
+          "name": "偷窃的艺术",
+          "description": "为 Slackjaw 取得艺术商保险箱密码，但先洗劫保险箱。"
+        },
+        "spanish": {
+          "name": "El arte del robo",
+          "description": "Has conseguido la combinación de la caja fuerte del marchante de arte, robando antes su contenido"
+        }
+      }
+    },
+    "ACHIEVEMENT_37": {
+      "translations": {
+        "english": {
+          "name": "An Unfortunate Accident",
+          "description": "You killed Morgan Pendleton with steam"
+        },
+        "french": {
+          "name": "Un accident malencontreux",
+          "description": "Vous avez tué Morgan Pendleton avec de la vapeur"
+        },
+        "german": {
+          "name": "Ein schlimmer Unfall",
+          "description": "Du hast Morgan Pendleton mit Dampf eliminiert"
+        },
+        "italian": {
+          "name": "Uno sfortunato incidente",
+          "description": "Hai ucciso Morgan Pendleton col vapore"
+        },
+        "schinese": {
+          "name": "不幸事故",
+          "description": "用蒸汽杀死 Morgan Pendleton。"
+        },
+        "spanish": {
+          "name": "Un lamentable accidente",
+          "description": "Has matado a Morgan Pendleton con vapor"
+        }
+      }
+    },
+    "ACHIEVEMENT_38": {
+      "translations": {
+        "english": {
+          "name": "Well Mannered",
+          "description": "You completed the Boyle Estate mission without spoiling the party"
+        },
+        "french": {
+          "name": "Bonne éducation",
+          "description": "Vous avez terminé la mission du manoir des Boyle sans gâcher la fête"
+        },
+        "german": {
+          "name": "Gut erzogen",
+          "description": "Du hast die Boyle-Anwesen-Mission abgeschlossen, ohne die Party zu sprengen"
+        },
+        "italian": {
+          "name": "Buone maniere",
+          "description": "Hai completato la missione di Villa Boyle senza rovinare la festa"
+        },
+        "schinese": {
+          "name": "举止得体",
+          "description": "完成 Boyle Estate 任务且不破坏派对。"
+        },
+        "spanish": {
+          "name": "Buenos modales",
+          "description": "Has terminado la misión de la mansión Boyle sin estropear la fiesta"
+        }
+      }
+    },
+    "ACHIEVEMENT_39": {
+      "translations": {
+        "english": {
+          "name": "King of the World",
+          "description": "You reached the top of Kaldwin's Bridge"
+        },
+        "french": {
+          "name": "Roi du monde",
+          "description": "Vous avez atteint le sommet du Kaldwin's Bridge"
+        },
+        "german": {
+          "name": "König der Welt",
+          "description": "Du hast die Spitze der Kaldwinbrücke erklommen"
+        },
+        "italian": {
+          "name": "Re del mondo",
+          "description": "Hai raggiunto la sommità del ponte di Kaldwin"
+        },
+        "schinese": {
+          "name": "世界之王",
+          "description": "到达 Kaldwin's Bridge 顶端。"
+        },
+        "spanish": {
+          "name": "El rey del mundo",
+          "description": "Has llegado a lo más alto del puente de Kaldwin"
+        }
+      }
+    },
+    "ACHIEVEMENT_40": {
+      "translations": {
+        "english": {
+          "name": "Bodyguard",
+          "description": "You protected Callista's uncle, Captain Geoff Curnow"
+        },
+        "french": {
+          "name": "Garde du corps",
+          "description": "Vous avez protégé l'oncle de Callista, le capitaine Geoff Curnow"
+        },
+        "german": {
+          "name": "Leibwächter",
+          "description": "Du hast Callistas Onkel, Hauptmann Geoff Curnow, beschützt"
+        },
+        "italian": {
+          "name": "Guardia del corpo",
+          "description": "Hai protetto lo zio di Kalista, il capitano Geoff Curnow"
+        },
+        "schinese": {
+          "name": "保镖",
+          "description": "保护 Callista 的叔叔 Geoff Curnow 船长。"
+        },
+        "spanish": {
+          "name": "Guardaespaldas",
+          "description": "Has protegido al tío de Kalista, el capitán Geoff Curnow"
+        }
+      }
+    },
+    "ACHIEVEMENT_41": {
+      "translations": {
+        "english": {
+          "name": "Mercy is the Mark",
+          "description": "You spared Daud’s life"
+        },
+        "french": {
+          "name": "La clémence comme Marque de fabrique",
+          "description": "Vous avez épargné Daud"
+        },
+        "german": {
+          "name": "Gnade vor Recht",
+          "description": "Du hast Dauds Leben verschont"
+        },
+        "italian": {
+          "name": "Il marchio della pietà",
+          "description": "Hai risparmiato la vita a Daud"
+        },
+        "schinese": {
+          "name": "仁慈为印",
+          "description": "饶 Daud 一命。"
+        },
+        "spanish": {
+          "name": "Clemencia es la señal",
+          "description": "Le has perdonado la vida a Daud"
+        }
+      }
+    },
+    "ACHIEVEMENT_42": {
+      "translations": {
+        "english": {
+          "name": "Lights Out",
+          "description": "You deactivated at least 5 security systems on Kingsparrow Island"
+        },
+        "french": {
+          "name": "Toutes lumières éteintes",
+          "description": "Vous avez désactivé au moins 5 systèmes de sécurité sur l'Île de Kingsparrow"
+        },
+        "german": {
+          "name": "Licht aus",
+          "description": "Du hast mindestens 5 Sicherheitssysteme auf Kingsparrow Island deaktiviert"
+        },
+        "italian": {
+          "name": "Luci!",
+          "description": "Hai disattivato almeno 5 sistemi di sicurezza sull'isola di Kingsparrow"
+        },
+        "schinese": {
+          "name": "熄灯",
+          "description": "在 Kingsparrow Island 关闭至少 5 个安保系统。"
+        },
+        "spanish": {
+          "name": "Apagón",
+          "description": "Has desactivado al menos 5 sistemas de seguridad en la isla Kingsparrow"
+        }
+      }
+    },
+    "ACHIEVEMENT_43": {
+      "translations": {
+        "english": {
+          "name": "Long Live the Empress",
+          "description": "You saved Empress Emily Kaldwin"
+        },
+        "french": {
+          "name": "Longue vie à l'Impératrice",
+          "description": "Vous avez sauvé l'Impératrice Emily Kaldwin"
+        },
+        "german": {
+          "name": "Lang lebe die Kaiserin!",
+          "description": "Du hast Kaiserin Emily Kaldwin gerettet"
+        },
+        "italian": {
+          "name": "Lunga vita all'Imperatrice",
+          "description": "Hai salvato l'imperatrice Emily Kaldwin"
+        },
+        "schinese": {
+          "name": "女皇万岁",
+          "description": "救下 Emily Kaldwin 女皇。"
+        },
+        "spanish": {
+          "name": "Larga vida a la emperatriz",
+          "description": "Has salvado a la emperatriz Emily Kaldwin"
+        }
+      }
+    },
+    "ACHIEVEMENT_44": {
+      "translations": {
+        "english": {
+          "name": "Poetic Justice",
+          "description": "You neutralized all key targets using indirect means"
+        },
+        "french": {
+          "name": "Juste retour des choses",
+          "description": "Vous avez neutralisé toutes les cibles clés en utilisant des moyens indirects"
+        },
+        "german": {
+          "name": "Ausgleichende Gerechtigkeit",
+          "description": "Du hast alle Zielpersonen auf indirekte Weise neutralisiert"
+        },
+        "italian": {
+          "name": "Giustizia poetica",
+          "description": "Hai neutralizzato i bersagli chiave usando metodi indiretti"
+        },
+        "schinese": {
+          "name": "诗意正义",
+          "description": "用间接手段解决所有关键目标。"
+        },
+        "spanish": {
+          "name": "Justicia divina",
+          "description": "Has neutralizado a todos los objetivos clave por medios indirectos"
+        }
+      }
+    },
+    "ACHIEVEMENT_45": {
+      "translations": {
+        "english": {
+          "name": "Food Chain",
+          "description": "You assassinated an assassin"
+        },
+        "french": {
+          "name": "Chaîne alimentaire",
+          "description": "Vous avez assassiné un assassin"
+        },
+        "german": {
+          "name": "Nahrungskette",
+          "description": "Du hast einen Attentäter eliminiert"
+        },
+        "italian": {
+          "name": "Catena alimentare",
+          "description": "Hai assassinato un assassino"
+        },
+        "schinese": {
+          "name": "食物链",
+          "description": "刺杀一名刺客。"
+        },
+        "spanish": {
+          "name": "Cadena alimentaria",
+          "description": "Has asesinado a un asesino"
+        }
+      }
+    },
+    "ACHIEVEMENT_46": {
+      "translations": {
+        "english": {
+          "name": "Alive Without Breath",
+          "description": "You took possession of a fish"
+        },
+        "french": {
+          "name": "Vivant sans oxygène",
+          "description": "Vous avez pris possession d'un poisson"
+        },
+        "german": {
+          "name": "Atemlos",
+          "description": "Du hast Beherrschung bei einem Fisch angewendet"
+        },
+        "italian": {
+          "name": "Vivo senza fiato",
+          "description": "Hai posseduto un pesce"
+        },
+        "schinese": {
+          "name": "无息而生",
+          "description": "附身一条鱼。"
+        },
+        "spanish": {
+          "name": "Vivo sin aliento",
+          "description": "Has poseído a un pez"
+        }
+      }
+    },
+    "ACHIEVEMENT_47": {
+      "translations": {
+        "english": {
+          "name": "Creepy Crawly",
+          "description": "You used a rat tunnel "
+        },
+        "french": {
+          "name": "Sale bestiole",
+          "description": "Vous avez utilisé un tunnel à rats "
+        },
+        "german": {
+          "name": "Kriecher",
+          "description": "Du hast einen Rattentunnel benutzt"
+        },
+        "italian": {
+          "name": "Lurido topo di fogna",
+          "description": "Hai usato un cunicolo dei ratti "
+        },
+        "schinese": {
+          "name": "阴森爬行",
+          "description": "使用老鼠通道。"
+        },
+        "spanish": {
+          "name": "Bicho inmundo",
+          "description": "Has utilizado un túnel de ratas"
+        }
+      }
+    },
+    "ACHIEVEMENT_48": {
+      "translations": {
+        "english": {
+          "name": "Back Home",
+          "description": "Grab a live grenade and use it to kill an attacker"
+        },
+        "french": {
+          "name": "Retour à l'envoyeur",
+          "description": "Attrapez une grenade active et relancez-la pour tuer un attaquant"
+        },
+        "german": {
+          "name": "Ab nach Hause",
+          "description": "Fange eine scharfe Granate und eliminiere damit einen Angreifer"
+        },
+        "italian": {
+          "name": "Rispedito al mittente",
+          "description": "Afferra al volo una granata attiva e usala per uccidere un nemico"
+        },
+        "schinese": {
+          "name": "回敬上门",
+          "description": "抓起一枚活手雷并用它杀死攻击者。"
+        },
+        "spanish": {
+          "name": "Vuelta al hogar",
+          "description": "Coge una granada activa en el aire y úsala para matar a un atacante"
+        }
+      }
+    },
+    "ACHIEVEMENT_49": {
+      "translations": {
+        "english": {
+          "name": "Big Boy",
+          "description": "Kill a tallboy with only your sword"
+        },
+        "french": {
+          "name": "Grand garçon",
+          "description": "Tuer un Tall Boy en utilisant uniquement votre épée"
+        },
+        "german": {
+          "name": "Großer Junge",
+          "description": "Vernichte einen Tall Boy mit deinem Schwert"
+        },
+        "italian": {
+          "name": "Ragazzone",
+          "description": "Uccidi un Tall Boy usando solo la spada"
+        },
+        "schinese": {
+          "name": "大块头",
+          "description": "只用剑杀死一名 tallboy。"
+        },
+        "spanish": {
+          "name": "Niño grande",
+          "description": "Mata a un tall boy solo con tu espada"
+        }
+      }
+    },
+    "ACHIEVEMENT_50": {
+      "translations": {
+        "english": {
+          "name": "Mrs Pilsen's Remorse",
+          "description": "Find Emily's doll hidden in each of the 10 challenges"
+        },
+        "french": {
+          "name": "Les remords de Mme Pilsen",
+          "description": "Trouvez la poupée d'Emily cachée dans chacun des 10 défis"
+        },
+        "german": {
+          "name": "Mrs. Pilsens Reue",
+          "description": "Finde Emilys versteckte Puppe in jeder der zehn Prüfungen."
+        },
+        "italian": {
+          "name": "Rimpianto della signora Pilsen",
+          "description": "Trova le bambole di Emily, nascoste in ognuna delle 10 sfide"
+        },
+        "schinese": {
+          "name": "Pilsen 夫人的悔意",
+          "description": "找到 10 个挑战中每个挑战里隐藏的 Emily 娃娃。"
+        },
+        "spanish": {
+          "name": "Los remordimientos de Pilsen",
+          "description": "Encuentra la muñeca de Emily que hay escondida en cada uno de los 10 desafíos."
+        }
+      }
+    },
+    "ACHIEVEMENT_51": {
+      "translations": {
+        "english": {
+          "name": "Void Star",
+          "description": "Complete all Normal and Expert challenges with a 3-Stars rating"
+        },
+        "french": {
+          "name": "Les étoiles du Grand Vide",
+          "description": "Terminez tous les défis de niveaux Normal et Expert avec 3 étoiles"
+        },
+        "german": {
+          "name": "Star des Nichts",
+          "description": "Schließe alle Prüfungen in \"Normal\" und \"Experte\" mit Drei Sternen ab."
+        },
+        "italian": {
+          "name": "Stella vuota",
+          "description": "Supera tutte le sfide a livello Normale ed Esperto con una valutazione a 3 stelle"
+        },
+        "schinese": {
+          "name": "虚空之星",
+          "description": "以 3 星评价完成所有普通和专家挑战。"
+        },
+        "spanish": {
+          "name": "Estrella del Vacío",
+          "description": "Completa todos los desafíos en modo Normal y Experto con una valoración de 3 estrellas."
+        }
+      }
+    },
+    "ACHIEVEMENT_52": {
+      "translations": {
+        "english": {
+          "name": "By My Hand Alone",
+          "description": "Get to Wave 13 in Back Alley Brawl killing all combatants personally"
+        },
+        "french": {
+          "name": "Seul contre tous",
+          "description": "Atteignez le round 13 dans Bagarres de Rue en tuant tous les combattants vous-même"
+        },
+        "german": {
+          "name": "Selbst ist der Mann",
+          "description": "Erreiche Runde 13 im \"Hinterhofkampf\" und eliminiere alle Gegner persönlich."
+        },
+        "italian": {
+          "name": "Solo per mia mano",
+          "description": "Raggiungi il round 13 in Rissa nel vicolo uccidendo personalmente tutti i combattenti"
+        },
+        "schinese": {
+          "name": "只凭我手",
+          "description": "在 Back Alley Brawl 中到达第 13 波，并亲手杀死所有战斗者。"
+        },
+        "spanish": {
+          "name": "Por mi propia mano",
+          "description": "Consigue llegar a la ronda 13 en Pelea callejera matando tú mismo a todos los luchadores."
+        }
+      }
+    },
+    "ACHIEVEMENT_53": {
+      "translations": {
+        "english": {
+          "name": "Assassin Vs. Machine",
+          "description": "Complete Train Runner before the train arrives at the station"
+        },
+        "french": {
+          "name": "L'assassin contre la machine",
+          "description": "Terminez Train d'Enfer avant que le train n'arrive à la gare"
+        },
+        "german": {
+          "name": "Assassine gegen Maschine",
+          "description": "Schließe \"Zugläufer\" ab, bevor der Zug den Bahnhof erreicht."
+        },
+        "italian": {
+          "name": "Assassino contro macchina",
+          "description": "Completa La grande corsa prima che il treno raggiunga la stazione"
+        },
+        "schinese": {
+          "name": "刺客对机器",
+          "description": "在列车到站前完成 Train Runner。"
+        },
+        "spanish": {
+          "name": "Asesino contra máquina",
+          "description": "Completa A todo tren antes de que el tren llegue a la estación."
+        }
+      }
+    },
+    "ACHIEVEMENT_54": {
+      "translations": {
+        "english": {
+          "name": "Rare Collector",
+          "description": "Find all of the collectable figurines in Burglar on Expert"
+        },
+        "french": {
+          "name": "Collectionneur",
+          "description": "Trouvez toutes les figurines spéciales du défi Cambrioleur en Expert"
+        },
+        "german": {
+          "name": "Raritätensammler",
+          "description": "Finde alle sammelbaren Figuren in Einbrecher in der Schwierigkeitsstufe \"Experte\"."
+        },
+        "italian": {
+          "name": "Collezionista di rarità",
+          "description": "Trova tutte le statuine da collezione in Ladro a livello Esperto"
+        },
+        "schinese": {
+          "name": "稀有收藏家",
+          "description": "在专家难度的 Burglar 中找到所有可收集小雕像。"
+        },
+        "spanish": {
+          "name": "Coleccionista exquisito",
+          "description": "Encuentra todas las figuras coleccionables de Ladrón en modo Experto."
+        }
+      }
+    },
+    "ACHIEVEMENT_55": {
+      "translations": {
+        "english": {
+          "name": "Long Way Down",
+          "description": "Perform a drop assassination of at least 150 meters in the Kill Cascade challenge"
+        },
+        "french": {
+          "name": "Plus dure sera la chute",
+          "description": "Réalisez une chute assassine d'une hauteur de plus de 150 mètres dans le défi Meurtres en Cascade"
+        },
+        "german": {
+          "name": "Ein langer Abstieg",
+          "description": "Vollführe einen Falkenangriff über mindestens 150 Meter."
+        },
+        "italian": {
+          "name": "In picchiata",
+          "description": "Esegui un Salto Omicida da un'altezza di almeno 150 metri nella sfida Valanga di uccisioni"
+        },
+        "schinese": {
+          "name": "漫长坠落",
+          "description": "在 Kill Cascade 挑战中完成至少 150 米的下落刺杀。"
+        },
+        "spanish": {
+          "name": "Más dura será la caída",
+          "description": "Ejecuta una caída letal desde al menos 150 metros en el desafío Asesinatos en cascada."
+        }
+      }
+    },
+    "ACHIEVEMENT_56": {
+      "translations": {
+        "english": {
+          "name": "Headhunter",
+          "description": "Complete Assassin's Run with 100% accuracy using only head shots"
+        },
+        "french": {
+          "name": "Chasseur de têtes",
+          "description": "Terminez Parcours de l'Assassin avec 100 % de précision et 100 % de tirs en pleine tête"
+        },
+        "german": {
+          "name": "Kopfjäger",
+          "description": "Schließe \"Assassinensturmlauf\" mit 100% Zielgenauigkeit ab, wobei du nur auf den Kopf zielst."
+        },
+        "italian": {
+          "name": "Cacciatore di teste",
+          "description": "Completa Fuga dell'assassino con il 100% di precisione, usando solo colpi alla testa"
+        },
+        "schinese": {
+          "name": "猎头者",
+          "description": "在 Assassin's Run 中只用爆头并以 100% 命中率完成。"
+        },
+        "spanish": {
+          "name": "Cazador de cabezas",
+          "description": "Completa Carrera del asesino con un 100% de precisión usando solo tiros a la cabeza."
+        }
+      }
+    },
+    "ACHIEVEMENT_57": {
+      "translations": {
+        "english": {
+          "name": "Daredevil",
+          "description": "In Bonfires, perform all the special combination jumps in 1 round"
+        },
+        "french": {
+          "name": "Casse-cou",
+          "description": "Dans Flambeaux, effectuez toutes les combinaisons de sauts spéciaux en un seul passage"
+        },
+        "german": {
+          "name": "Teufelskerl",
+          "description": "Vollführe in \"Freudenfeuer\" alle speziellen Sprungkombinationen in nur einer Runde."
+        },
+        "italian": {
+          "name": "Scavezzacollo",
+          "description": "In Falò, esegui tutte le combinazioni speciali di salti in un round"
+        },
+        "schinese": {
+          "name": "胆大妄为",
+          "description": "在 Bonfires 中，于 1 回合内完成所有特殊组合跳跃。"
+        },
+        "spanish": {
+          "name": "Temerario",
+          "description": "En Hogueras, realiza todos los saltos de combinación especiales en 1 ronda."
+        }
+      }
+    },
+    "ACHIEVEMENT_58": {
+      "translations": {
+        "english": {
+          "name": "Natural Talent",
+          "description": "Finish Mystery Foe without using any active supernatural powers"
+        },
+        "french": {
+          "name": "Talent naturel",
+          "description": "Terminez le défi Cible Mystère sans utiliser de pouvoirs surnaturels"
+        },
+        "german": {
+          "name": "Naturtalent",
+          "description": "Schließe \"Geheimnisvoller Feind\" ab, ohne übernatürliche Kräfte einzusetzen."
+        },
+        "italian": {
+          "name": "Talento naturale",
+          "description": "Completa Nemico misterioso senza usare alcun potere soprannaturale"
+        },
+        "schinese": {
+          "name": "天赋异禀",
+          "description": "不使用任何主动超自然能力完成 Mystery Foe。"
+        },
+        "spanish": {
+          "name": "Talento natural",
+          "description": "Termina Enemigo misterioso sin usar ninguno de los poderes sobrenatural activos."
+        }
+      }
+    },
+    "ACHIEVEMENT_59": {
+      "translations": {
+        "english": {
+          "name": "Time Management",
+          "description": "Finish Chain Kill or Bend Time Massacre without failing any wave, including bonuses"
+        },
+        "french": {
+          "name": "Gestion du temps",
+          "description": "Terminez Exécutions en Chaîne ou Massacre Temporel sans rater aucun round (même bonus)"
+        },
+        "german": {
+          "name": "Zeitgefühl",
+          "description": "Schließe \"Serientäter\" oder \"Zeitlupen-Massaker\" ab, ohne Runden oder Boni auszulassen."
+        },
+        "italian": {
+          "name": "Gestione dei tempi",
+          "description": "Completa Catena di uccisioni o Strage con Distorsione completando ogni round, bonus inclusi"
+        },
+        "schinese": {
+          "name": "时间管理",
+          "description": "完成 Chain Kill 或 Bend Time Massacre，且不失败任何波次，包括奖励波。"
+        },
+        "spanish": {
+          "name": "Gestión del tiempo",
+          "description": "Acaba Asesinatos en cadena o Masacre a ralentí sin fallar ninguna de las rondas, incluyendo extras."
+        }
+      }
+    },
+    "ACHIEVEMENT_60": {
+      "translations": {
+        "english": {
+          "name": "Just Business ",
+          "description": "Get the information you need from the Rothwild Slaughterhouse"
+        },
+        "french": {
+          "name": "Les affaires sont les affaires",
+          "description": "Obtenez les informations nécessaires à l'Abattoir Rothwild"
+        },
+        "german": {
+          "name": "Geschäft ist Geschäft ",
+          "description": "Beschaffe die benötigten Informationen aus dem Rothwild-Schlachthaus."
+        },
+        "italian": {
+          "name": "Niente di personale",
+          "description": "Ottieni le informazioni che cerchi nel mattatoio Rothwild"
+        },
+        "schinese": {
+          "name": "只是生意",
+          "description": "从 Rothwild Slaughterhouse 取得你需要的情报。"
+        },
+        "spanish": {
+          "name": "Son solo negocios ",
+          "description": "Consigue la información que necesitas del matadero Rothwild."
+        }
+      }
+    },
+    "ACHIEVEMENT_61": {
+      "translations": {
+        "english": {
+          "name": "Missing Pieces",
+          "description": "Meet with Thalia Timsh, the Barrister's Niece"
+        },
+        "french": {
+          "name": "Morceaux manquants",
+          "description": "Retrouvez Thalia Timsh, la nièce de l'avocat"
+        },
+        "german": {
+          "name": "Fehlende Teile",
+          "description": "Triff dich mit Thalia Timsh, der Nichte des Justiziars"
+        },
+        "italian": {
+          "name": "Pezzi mancanti",
+          "description": "Incontra Thalia Timsh, la nipote del procuratore"
+        },
+        "schinese": {
+          "name": "缺失的碎片",
+          "description": "见到大律师的侄女 Thalia Timsh。"
+        },
+        "spanish": {
+          "name": "Piezas que faltan",
+          "description": "Reúnete con Thalia Timsh, sobrina del procurador."
+        }
+      }
+    },
+    "ACHIEVEMENT_62": {
+      "translations": {
+        "english": {
+          "name": "Well Connected",
+          "description": "Purchase all of the Favors in The Knife of Dunwall"
+        },
+        "french": {
+          "name": "Le bras long",
+          "description": "Achetez toutes les faveurs dans la Lame de Dunwall"
+        },
+        "german": {
+          "name": "Gute Verbindungen",
+          "description": "Kaufe alle Gefallen in \"The Knife of Dunwall\"."
+        },
+        "italian": {
+          "name": "Contatti influenti",
+          "description": "Acquista tutti i favori in Il Pugnale di Dunwall"
+        },
+        "schinese": {
+          "name": "关系广泛",
+          "description": "购买 The Knife of Dunwall 中的所有 Favor。"
+        },
+        "spanish": {
+          "name": "Bien relacionado",
+          "description": "Compra todos los favores de El puñal de Dunwall."
+        }
+      }
+    },
+    "ACHIEVEMENT_63": {
+      "translations": {
+        "english": {
+          "name": "No Regrets",
+          "description": "Complete The Knife of Dunwall in High Chaos"
+        },
+        "french": {
+          "name": "Sans regrets",
+          "description": "Terminez la Lame de Dunwall en Chaos élevé"
+        },
+        "german": {
+          "name": "Kein Mitleid",
+          "description": "Schließe \"The Knife of Dunwall\" mit hohem Chaosfaktor ab."
+        },
+        "italian": {
+          "name": "Nessun rimpianto",
+          "description": "Completa Il Pugnale di Dunwall con caos alto"
+        },
+        "schinese": {
+          "name": "无怨无悔",
+          "description": "以高混乱度完成 The Knife of Dunwall。"
+        },
+        "spanish": {
+          "name": "Sin remordimientos",
+          "description": "Termina El puñal de Dunwall en Caos elevado."
+        }
+      }
+    },
+    "ACHIEVEMENT_64": {
+      "translations": {
+        "english": {
+          "name": "Redemptive Path",
+          "description": "Complete The Knife of Dunwall in Low Chaos"
+        },
+        "french": {
+          "name": "Le chemin de la rédemption",
+          "description": "Terminez la Lame de Dunwall en Chaos faible"
+        },
+        "german": {
+          "name": "Der Pfad der Vergeltung",
+          "description": "Schließe \"The Knife of Dunwall\" mit niedrigem Chaosfaktor ab."
+        },
+        "italian": {
+          "name": "La via della redenzione",
+          "description": "Completa Il Pugnale di Dunwall con caos basso"
+        },
+        "schinese": {
+          "name": "救赎之路",
+          "description": "以低混乱度完成 The Knife of Dunwall。"
+        },
+        "spanish": {
+          "name": "Camino de redención",
+          "description": "Termina El puñal de Dunwall en Caos reducido."
+        }
+      }
+    },
+    "ACHIEVEMENT_65": {
+      "translations": {
+        "english": {
+          "name": "Whisper Ways",
+          "description": "Complete The Knife of Dunwall without alerting anyone"
+        },
+        "french": {
+          "name": "Puissance des murmures",
+          "description": "Terminez la Lame de Dunwall sans vous faire repérer"
+        },
+        "german": {
+          "name": "Lautlose Wege",
+          "description": "Schließe \"The Knife of Dunwall\" ab, ohne jemanden zu alarmieren."
+        },
+        "italian": {
+          "name": "Come un sussurro",
+          "description": "Completa Il Pugnale di Dunwall senza allarmare nessuno"
+        },
+        "schinese": {
+          "name": "低语之道",
+          "description": "完成 The Knife of Dunwall 而不惊动任何人。"
+        },
+        "spanish": {
+          "name": "Como un susurro",
+          "description": "Termina El puñal de Dunwall sin alertar a nadie."
+        }
+      }
+    },
+    "ACHIEVEMENT_66": {
+      "translations": {
+        "english": {
+          "name": "Cleaner Hands",
+          "description": "Complete The Knife of Dunwall without killing anyone"
+        },
+        "french": {
+          "name": "Des mains plus propres",
+          "description": "Terminez la Lame de Dunwall sans tuer personne"
+        },
+        "german": {
+          "name": "Saubere Hände",
+          "description": "Schließe \"The Knife of Dunwall\" ab, ohne jemanden zu eliminieren."
+        },
+        "italian": {
+          "name": "Mani pulite",
+          "description": "Completa Il Pugnale di Dunwall senza uccidere nessuno"
+        },
+        "schinese": {
+          "name": "更干净的手",
+          "description": "完成 The Knife of Dunwall 而不杀任何人。"
+        },
+        "spanish": {
+          "name": "Manos más limpias",
+          "description": "Termina El puñal de Dunwall sin matar a nadie."
+        }
+      }
+    },
+    "ACHIEVEMENT_67": {
+      "translations": {
+        "english": {
+          "name": "Rats and Ashes",
+          "description": "Attach an arc mine to a rat, resulting in a kill"
+        },
+        "french": {
+          "name": "Rats et cendres",
+          "description": "Provoquer une mort en attachant une mine foudroyante à un rat"
+        },
+        "german": {
+          "name": "Ratte zu Asche",
+          "description": "Bringe eine Blitzmine an einer Ratte an und eliminiere damit einen Gegner."
+        },
+        "italian": {
+          "name": "Ratti e ceneri",
+          "description": "Esegui un'uccisione attaccando un arco esplosivo a un ratto"
+        },
+        "schinese": {
+          "name": "老鼠与灰烬",
+          "description": "将弧雷附在老鼠身上并造成击杀。"
+        },
+        "spanish": {
+          "name": "Ratas y cenizas",
+          "description": "Coloca una mina fulminante a una rata, y consigue matar a alguien."
+        }
+      }
+    },
+    "ACHIEVEMENT_68": {
+      "translations": {
+        "english": {
+          "name": "Message from the Empress",
+          "description": "Perform a drop assassination from atop the Empress statue in The Knife of Dunwall"
+        },
+        "french": {
+          "name": "Message de l'Impératrice",
+          "description": "Réalisez une chute assassine depuis le haut de la statue de l'Impératrice dans la Lame de Dunwall"
+        },
+        "german": {
+          "name": "Botschaft der Kaiserin",
+          "description": "Führe erfolgreich einen Falkenangriff von der Statue der Kaiserin in \"The Knife of Dunwall\" aus."
+        },
+        "italian": {
+          "name": "Un messaggio dall'Imperatrice",
+          "description": "Esegui un Salto Omicida dalla cima della statua dell'Imperatrice ne Il Pugnale di Dunwall"
+        },
+        "schinese": {
+          "name": "女皇的讯息",
+          "description": "在 The Knife of Dunwall 中从女皇雕像顶部执行下落刺杀。"
+        },
+        "spanish": {
+          "name": "Mensaje de la emperatriz",
+          "description": "Realiza una caída letal desde lo alto de la estatua de la emperatriz en El puñal de Dunwall."
+        }
+      }
+    },
+    "ACHIEVEMENT_69": {
+      "translations": {
+        "english": {
+          "name": "Stone Cold Heart",
+          "description": "Speak with the statue of Delilah Copperspoon in Timsh's estate"
+        },
+        "french": {
+          "name": "Cœur de pierre",
+          "description": "Parlez avec la statue de Delilah Copperspoon dans le manoir de Timsh"
+        },
+        "german": {
+          "name": "Ein Herz aus Stein",
+          "description": "Sprich mit der Statue von Delilah Copperspoon in Timshs Anwesen."
+        },
+        "italian": {
+          "name": "Cuore di pietra",
+          "description": "Parla con la statua di Delilah Copperspoon nella villa di Timsh"
+        },
+        "schinese": {
+          "name": "冷酷之心",
+          "description": "在 Timsh 的宅邸中与 Delilah Copperspoon 雕像交谈。"
+        },
+        "spanish": {
+          "name": "Corazón de piedra",
+          "description": "Habla con la estatua de Delilah Copperspoon de la finca de Timsh."
+        }
+      }
+    },
+    "ACHIEVEMENT_70": {
+      "translations": {
+        "english": {
+          "name": "Parting Shot",
+          "description": "Deliver (or attempt) the killing blow on Corvo"
+        },
+        "french": {
+          "name": "Coup de grâce",
+          "description": "Portez le coup de grâce à Corvo (ou tentez de le faire)"
+        },
+        "german": {
+          "name": "Das letzte Wort",
+          "description": "Lande den tödlichen Schlag gegen Corvo oder versuche es."
+        },
+        "italian": {
+          "name": "Colpo di grazia",
+          "description": "Sferra (o tenta di sferrare) il colpo finale a Corvo"
+        },
+        "schinese": {
+          "name": "临别一击",
+          "description": "对 Corvo 送出或尝试送出致命一击。"
+        },
+        "spanish": {
+          "name": "Tiro de gracia",
+          "description": "Asesta el golpe final a Corvo (o inténtalo)."
+        }
+      }
+    },
+    "ACHIEVEMENT_71": {
+      "translations": {
+        "english": {
+          "name": "Breakout",
+          "description": "Break Lizzy Stride out of Coldridge Prison"
+        },
+        "french": {
+          "name": "Liberté retrouvée",
+          "description": "Aidez Lizzy Stride à s'évader du bagne de Coldridge"
+        },
+        "german": {
+          "name": "Ausbruch",
+          "description": "Befreie Lizzy Stride aus Coldridge."
+        },
+        "italian": {
+          "name": "La grande fuga",
+          "description": "Fai evadere Lizzy Stride dalla prigione di Coldridge"
+        },
+        "schinese": {
+          "name": "越狱",
+          "description": "将 Lizzy Stride 从 Coldridge 监狱救出。"
+        },
+        "spanish": {
+          "name": "Fuga",
+          "description": "Saca a Lizzy Stride de la prisión de Coldridge."
+        }
+      }
+    },
+    "ACHIEVEMENT_72": {
+      "translations": {
+        "english": {
+          "name": "Gangs of Dunwall",
+          "description": "Restore the Undine to working condition"
+        },
+        "french": {
+          "name": "Gangs de Dunwall",
+          "description": "Remettez l'Undine en état de marche"
+        },
+        "german": {
+          "name": "Banden von Dunwall",
+          "description": "Mache die Undine wieder fahrtüchtig."
+        },
+        "italian": {
+          "name": "Le bande di Dunwall",
+          "description": "Rimetti in funzione l'Undine"
+        },
+        "schinese": {
+          "name": "Dunwall 帮派",
+          "description": "让 Undine 恢复运作。"
+        },
+        "spanish": {
+          "name": "Bandas de Dunwall",
+          "description": "Haz que el Undine funcione de nuevo."
+        }
+      }
+    },
+    "ACHIEVEMENT_73": {
+      "translations": {
+        "english": {
+          "name": "Deal Maker",
+          "description": "Purchase at least 8 favors in The Brigmore Witches"
+        },
+        "french": {
+          "name": "Traitement de faveur",
+          "description": "Achetez au moins 8 faveurs dans Les sorcières de Brigmore"
+        },
+        "german": {
+          "name": "Geschäftemacher",
+          "description": "Kaufe mindestens 8 Gefallen in \"The Brigmore Witches\"."
+        },
+        "italian": {
+          "name": "Mago degli affari",
+          "description": "Acquista almeno 8 favori in Le Streghe di Brigmore"
+        },
+        "schinese": {
+          "name": "交易人",
+          "description": "在 The Brigmore Witches 中购买至少 8 个 Favor。"
+        },
+        "spanish": {
+          "name": "Negociador",
+          "description": "Compra al menos 8 favores en Las brujas de Brigmore."
+        }
+      }
+    },
+    "ACHIEVEMENT_74": {
+      "translations": {
+        "english": {
+          "name": "All Come To Ruin",
+          "description": "Complete The Brigmore Witches in High Chaos"
+        },
+        "french": {
+          "name": "Calamité",
+          "description": "Terminez Les sorcières de Brigmore en Chaos élevé"
+        },
+        "german": {
+          "name": "Totale Zerstörung",
+          "description": "Schließe \"The Brigmore Witches\" mit hohem Chaosfaktor ab."
+        },
+        "italian": {
+          "name": "Va tutto in rovina",
+          "description": "Completa Le Streghe di Brigmore con caos alto"
+        },
+        "schinese": {
+          "name": "万物归于毁灭",
+          "description": "以高混乱度完成 The Brigmore Witches。"
+        },
+        "spanish": {
+          "name": "Todo se ha venido abajo",
+          "description": "Termina Las brujas de Brigmore en Caos elevado."
+        }
+      }
+    },
+    "ACHIEVEMENT_75": {
+      "translations": {
+        "english": {
+          "name": "Changed Ways",
+          "description": "Complete The Brigmore Witches in Low Chaos"
+        },
+        "french": {
+          "name": "Pacificateur",
+          "description": "Terminez Les sorcières de Brigmore en Chaos faible"
+        },
+        "german": {
+          "name": "Neue Wege",
+          "description": "Schließe \"The Brigmore Witches\" mit niedrigem Chaosfaktor ab."
+        },
+        "italian": {
+          "name": "Un approccio diverso",
+          "description": "Completa Le Streghe di Brigmore con caos basso"
+        },
+        "schinese": {
+          "name": "改弦易辙",
+          "description": "以低混乱度完成 The Brigmore Witches。"
+        },
+        "spanish": {
+          "name": "Nuevos métodos",
+          "description": "Termina Las brujas de Brigmore en Caos reducido."
+        }
+      }
+    },
+    "ACHIEVEMENT_76": {
+      "translations": {
+        "english": {
+          "name": "Silence is Golden",
+          "description": "Complete The Brigmore Witches without alerting anyone"
+        },
+        "french": {
+          "name": "Le silence est d'or",
+          "description": "Terminez Les sorcières de Brigmore sans alerter qui que ce soit"
+        },
+        "german": {
+          "name": "Schweigen ist Gold",
+          "description": "Schließe \"The Brigmore Witches\" ab, ohne jemanden zu alarmieren."
+        },
+        "italian": {
+          "name": "Il silenzio è d'oro",
+          "description": "Completa Le Streghe di Brigmore senza mettere in allarme nessuno"
+        },
+        "schinese": {
+          "name": "沉默是金",
+          "description": "完成 The Brigmore Witches 而不惊动任何人。"
+        },
+        "spanish": {
+          "name": "Bendito silencio",
+          "description": "Termina Las brujas de Brigmore sin alertar a nadie."
+        }
+      }
+    },
+    "ACHIEVEMENT_77": {
+      "translations": {
+        "english": {
+          "name": "Cleanest Hands",
+          "description": "Complete The Brigmore Witches without killing anyone"
+        },
+        "french": {
+          "name": "Mains propres",
+          "description": "Terminez Les sorcières de Brigmore sans tuer qui que ce soit"
+        },
+        "german": {
+          "name": "Saubere Hände",
+          "description": "Schließe \"The Brigmore Witches\" ab, ohne jemanden zu eliminieren."
+        },
+        "italian": {
+          "name": "Mani pulitissime",
+          "description": "Completa Le Streghe di Brigmore senza uccidere nessuno"
+        },
+        "schinese": {
+          "name": "最干净的手",
+          "description": "完成 The Brigmore Witches 而不杀任何人。"
+        },
+        "spanish": {
+          "name": "Manos impolutas",
+          "description": "Termina Las brujas de Brigmore sin matar a nadie."
+        }
+      }
+    },
+    "ACHIEVEMENT_78": {
+      "translations": {
+        "english": {
+          "name": "Enough Coin to Disappear",
+          "description": "Survive The Brigmore Witches in low chaos with 10,000 coins"
+        },
+        "french": {
+          "name": "Assez pour disparaître",
+          "description": "Terminez Les sorcières de Brigmore en Chaos faible avec 10 000 pièces en poche"
+        },
+        "german": {
+          "name": "Genügend Geld um abzuhauen",
+          "description": "Überlebe \"The Brigmore Witches\" mit niedrigem Chaosfaktor und  10.000 Münzen."
+        },
+        "italian": {
+          "name": "Denaro per scomparire",
+          "description": "Sopravvivi a Le Streghe di Brigmore con caos basso e con 10.000 monete"
+        },
+        "schinese": {
+          "name": "足够消失的硬币",
+          "description": "以低混乱度在 The Brigmore Witches 中幸存，并拥有 10,000 枚硬币。"
+        },
+        "spanish": {
+          "name": "Suficiente dinero para escapar",
+          "description": "Sobrevive a Las brujas de Brigmore en Caos reducido con 10.000 monedas."
+        }
+      }
+    },
+    "ACHIEVEMENT_79": {
+      "translations": {
+        "english": {
+          "name": "Wall of Flesh",
+          "description": "Use an enemy lifted with Pull as a shield"
+        },
+        "french": {
+          "name": "Bouclier humain",
+          "description": "Utilisez un ennemi comme bouclier après l'avoir soulevé à l'aide du pouvoir Attraction"
+        },
+        "german": {
+          "name": "Mauer aus Fleisch",
+          "description": "Benutze einen Gegner mit \"Anziehen\" als schwebenden Schild."
+        },
+        "italian": {
+          "name": "Muro di carne",
+          "description": "Usa come scudo umano un nemico sollevato con Attrazione"
+        },
+        "schinese": {
+          "name": "血肉之墙",
+          "description": "把被 Pull 提起的敌人当作盾牌。"
+        },
+        "spanish": {
+          "name": "Muralla de carne",
+          "description": "Utiliza como escudo a un enemigo que hayas levantado mediante Tirar."
+        }
+      }
+    }
+  }
+}

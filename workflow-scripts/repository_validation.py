@@ -7,6 +7,7 @@ from pathlib import Path, PurePosixPath
 
 import achievement_catalog
 import catalog_v2
+import translation_json
 from generate_statistics_svg import build_statistics, render_svg
 from library_index import HUMAN_INDEX_EN_PATH, HUMAN_INDEX_PATH, render_human_index, sort_entries
 from steam_schema import achievement_rows, language_coverage, load_schema, schema_languages, sha256, validate_schema_structure
@@ -104,6 +105,13 @@ def _check_schema(
         path,
         achievement_catalog.render_achievement_catalog(path.name, checked_rows, derived_languages),
     )
+    expected_json = translation_json.render_translation(game_id, variant_id, data, nodes)
+    json_error = translation_json.check_translation(path, expected_json)
+    if json_error:
+        report.error(f"{game_id}/{variant_id}: {json_error}")
+    expected_metadata = {"version": 1, "size": len(expected_json.encode("utf-8"))}
+    if variant.get("json") != expected_metadata:
+        _metadata_mismatch(report, f"{game_id}/{variant_id}: JSON metadata mismatch", allowed=allow_stale_index_metadata)
 
 
 def _check_unindexed_schemas(report: CheckReport, paths: set[Path], *, allowed: bool) -> None:
@@ -126,6 +134,13 @@ def _check_unindexed_schemas(report: CheckReport, paths: set[Path], *, allowed: 
             continue
         report.checked_files += 1
         _check_achievement_catalog(report, path, expected)
+        # Contribution PRs generate their own JSON before the catalog refresh.
+        game_id = path.stem.removeprefix("UserGameStatsSchema_")
+        variant_id = path.parent.name
+        expected_json = translation_json.render_translation(game_id, variant_id, data, nodes)
+        json_error = translation_json.check_translation(path, expected_json)
+        if json_error:
+            report.error(f"{relative}: {json_error}")
 
 
 def check_repository(
@@ -178,6 +193,9 @@ def check_repository(
             report.error(f"{game_id}: missing v1 compatibility schema")
         elif default_path.is_file() and compatibility.read_bytes() != default_path.read_bytes():
             report.error(f"{game_id}: v1 compatibility schema does not match default variant")
+        if compatibility.is_file() and default_path.with_suffix(".json").is_file():
+            if not compatibility.with_suffix(".json").is_file() or compatibility.with_suffix(".json").read_bytes() != default_path.with_suffix(".json").read_bytes():
+                derived_mismatch(f"{game_id}: compatibility JSON does not match default variant")
         for variant_id, variant in game["variants"].items():
             _check_schema(
                 report,
@@ -191,6 +209,9 @@ def check_repository(
 
     actual_schemas = {path.resolve() for path in FILES_ROOT.rglob("*.bin") if path.is_file()}
     _check_unindexed_schemas(report, actual_schemas - expected_paths, allowed=allow_unindexed_schema_files)
+    for path in FILES_ROOT.rglob("UserGameStatsSchema_*.json"):
+        if not path.with_suffix(".bin").is_file():
+            report.error(f"orphan translation JSON: {path.relative_to(ROOT).as_posix()}")
     actual_catalogs = {path.resolve() for path in FILES_ROOT.rglob("achievements.md") if path.is_file()}
     expected_catalogs = {
         (ROOT / Path(*PurePosixPath(catalog_v2.achievement_catalog_relative_path(game_id, variant_id)).parts)).resolve()

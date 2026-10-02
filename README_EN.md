@@ -31,6 +31,7 @@ Catalog V2 is live in this repository, which is currently in a parallel V1/V2 mi
 
 - `index-v2.json` is the authoritative game-level index and the public Catalog V2 interface used by SATLI. Automation derives hashes, sizes, languages, and achievement counts from the BIN files.
 - Each variant uses `files/<app_id>/<variant_id>/UserGameStatsSchema_<app_id>.bin`. Automation generates an `achievements.md` beside each BIN so its achievement text can be reviewed directly on GitHub.
+- Every BIN also produces a same-name `.json` for display clients such as [SATLI lite](https://github.com/GaBoron/SATLI-lite). The variant's `json` field declares the format version and UTF-8 byte count. JSON contains names and descriptions for every language, keyed by achievement API name; see [the JSON interface](docs/translation-json.md#english).
 - The V1 `index.json` and legacy default path `files/<app_id>/UserGameStatsSchema_<app_id>.bin` continue to be generated for SATLI versions that only support V1.
 - During the migration, each new submission or update is submitted once. After merge, one refresh generates Catalog V2, the human-readable indexes, statistics, and V1 compatibility data.
 
@@ -43,6 +44,7 @@ Catalog V2 is live in this repository, which is currently in a parallel V1/V2 mi
 | --- | --- |
 | **This repository** | Stores community translations, the catalog, and human-readable achievement catalogs |
 | [Steam Achievement Translation Manager](https://github.com/GaBoron/steam-achievement-translation-installer) | Uses this library to scan, preview, install, edit, back up, and restore files; it can also export submission-ready ZIP files |
+| [SATLI lite](https://github.com/GaBoron/SATLI-lite) | Downloads JSON inside Millennium and applies translations in Steam's library and achievement views |
 | [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill) | Looks up reference files in this library, researches and produces translations with Codex, and outputs BIN/ZIP files for the manager or this repository |
 
 For a standalone visual editor, see [PanVena/SteamAchievementLocalizer](https://github.com/PanVena/SteamAchievementLocalizer).

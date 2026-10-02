@@ -1,0 +1,420 @@
+{
+  "version": 1,
+  "app_id": "2239150",
+  "variant_id": "default",
+  "source_sha256": "d113492ae7b87c41029224803f3fc1cb0fd111d1b8a4745497380f0926e9a398",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "START_TUTORIAL": {
+      "translations": {
+        "english": {
+          "name": "Your Throne Awaits",
+          "description": "Destroy a practice target in the tutorial."
+        },
+        "schinese": {
+          "name": "王座在等待",
+          "description": "在教程中摧毁一个练习目标。"
+        }
+      }
+    },
+    "COMPLETE_TUTORIAL": {
+      "translations": {
+        "english": {
+          "name": "A New King",
+          "description": "Complete your training."
+        },
+        "schinese": {
+          "name": "新王登基",
+          "description": "完成训练。"
+        }
+      }
+    },
+    "NORDFELS_BEATEN": {
+      "translations": {
+        "english": {
+          "name": "Nordfels",
+          "description": "Win on Nordfels"
+        },
+        "schinese": {
+          "name": "Nordfels",
+          "description": "在 Nordfels 获胜。"
+        }
+      }
+    },
+    "NORDFELS_QUESTSCOMPLETE": {
+      "translations": {
+        "english": {
+          "name": "Ruler of Nordfels",
+          "description": "Complete all quests on Nordfels"
+        },
+        "schinese": {
+          "name": "Nordfels 的统治者",
+          "description": "完成 Nordfels 的所有任务。"
+        }
+      }
+    },
+    "DURSTSTEIN_BEATEN": {
+      "translations": {
+        "english": {
+          "name": "Durststein",
+          "description": "Win on Durststein"
+        },
+        "schinese": {
+          "name": "Durststein",
+          "description": "在 Durststein 获胜。"
+        }
+      }
+    },
+    "DURSTSTEIN_QUESTSCOMPLETE": {
+      "translations": {
+        "english": {
+          "name": "Ruler of Durststein",
+          "description": "Complete all quests on Durststein"
+        },
+        "schinese": {
+          "name": "Durststein 的统治者",
+          "description": "完成 Durststein 的所有任务。"
+        }
+      }
+    },
+    "FROSTSEE_BEATEN": {
+      "translations": {
+        "english": {
+          "name": "Frostsee",
+          "description": "Win on Frostsee"
+        },
+        "schinese": {
+          "name": "Frostsee",
+          "description": "在 Frostsee 获胜。"
+        }
+      }
+    },
+    "FROSTSEE_QUESTSCOMPLETE": {
+      "translations": {
+        "english": {
+          "name": "Ruler of Frostsee",
+          "description": "Complete all quests on Frostsee"
+        },
+        "schinese": {
+          "name": "Frostsee 的统治者",
+          "description": "完成 Frostsee 的所有任务。"
+        }
+      }
+    },
+    "MAXLEVEL_REACHED": {
+      "translations": {
+        "english": {
+          "name": "All Equipment Unlocked",
+          "description": "Unlock all buildings, perks, mutators and weapons"
+        },
+        "schinese": {
+          "name": "全装备解锁",
+          "description": "解锁所有建筑、特长、变异因子和武器。"
+        }
+      }
+    },
+    "UFERWIND_BEATEN": {
+      "translations": {
+        "english": {
+          "name": "Uferwind",
+          "description": "Win on Uferwind"
+        },
+        "schinese": {
+          "name": "Uferwind",
+          "description": "在 Uferwind 获胜。"
+        }
+      }
+    },
+    "UFERWIND_QUESTSCOMPLETE": {
+      "translations": {
+        "english": {
+          "name": "Ruler of Uferwind",
+          "description": "Complete all quests on Uferwind"
+        },
+        "schinese": {
+          "name": "Uferwind 的统治者",
+          "description": "完成 Uferwind 的所有任务。"
+        }
+      }
+    },
+    "ET_STAGE_1": {
+      "translations": {
+        "english": {
+          "name": "Eternal Peasant",
+          "description": "Win stage 1 in the eternal trials."
+        },
+        "schinese": {
+          "name": "永恒农民",
+          "description": "赢得永恒试炼第 1 阶段。"
+        }
+      }
+    },
+    "ET_STAGE_2": {
+      "translations": {
+        "english": {
+          "name": "Eternal Squire",
+          "description": "Win stage 2 in the eternal trials."
+        },
+        "schinese": {
+          "name": "永恒侍从",
+          "description": "赢得永恒试炼第 2 阶段。"
+        }
+      }
+    },
+    "ET_STAGE_3": {
+      "translations": {
+        "english": {
+          "name": "Eternal Knight",
+          "description": "Win stage 3 in the eternal trials."
+        },
+        "schinese": {
+          "name": "永恒骑士",
+          "description": "赢得永恒试炼第 3 阶段。"
+        }
+      }
+    },
+    "ET_STAGE_4": {
+      "translations": {
+        "english": {
+          "name": "Eternal Baron",
+          "description": "Win stage 4 in the eternal trials."
+        },
+        "schinese": {
+          "name": "永恒男爵",
+          "description": "赢得永恒试炼第 4 阶段。"
+        }
+      }
+    },
+    "ET_STAGE_5": {
+      "translations": {
+        "english": {
+          "name": "Eternal Warlord",
+          "description": "Win stage 5 in the eternal trials."
+        },
+        "schinese": {
+          "name": "永恒军阀",
+          "description": "赢得永恒试炼第 5 阶段。"
+        }
+      }
+    },
+    "ET_STAGE_6": {
+      "translations": {
+        "english": {
+          "name": "Eternal Conqueror",
+          "description": "Win stage 6 in the eternal trials."
+        },
+        "schinese": {
+          "name": "永恒征服者",
+          "description": "赢得永恒试炼第 6 阶段。"
+        }
+      }
+    },
+    "ET_STAGE_7": {
+      "translations": {
+        "english": {
+          "name": "Eternal Legend",
+          "description": "Win stage 7 in the eternal trials."
+        },
+        "schinese": {
+          "name": "永恒传奇",
+          "description": "赢得永恒试炼第 7 阶段。"
+        }
+      }
+    },
+    "STURMKLAMM_BEATEN": {
+      "translations": {
+        "english": {
+          "name": "Sturmklamm",
+          "description": "Win on Sturmklamm"
+        },
+        "schinese": {
+          "name": "Sturmklamm",
+          "description": "在 Sturmklamm 获胜。"
+        }
+      }
+    },
+    "STURMKLAMM_QUESTSCOMPLETE": {
+      "translations": {
+        "english": {
+          "name": "Ruler of Sturmklamm",
+          "description": "Complete all quests on Sturmklamm"
+        },
+        "schinese": {
+          "name": "Sturmklamm 的统治者",
+          "description": "完成 Sturmklamm 的所有任务。"
+        }
+      }
+    },
+    "CROWNS_5": {
+      "translations": {
+        "english": {
+          "name": "5 Crowns",
+          "description": "Collect a total of 5 crowns."
+        },
+        "schinese": {
+          "name": "5 顶王冠",
+          "description": "累计收集 5 顶王冠。"
+        }
+      }
+    },
+    "CROWNS_10": {
+      "translations": {
+        "english": {
+          "name": "10 Crowns",
+          "description": "Collect a total of 10 crowns."
+        },
+        "schinese": {
+          "name": "10 顶王冠",
+          "description": "累计收集 10 顶王冠。"
+        }
+      }
+    },
+    "CROWNS_20": {
+      "translations": {
+        "english": {
+          "name": "20 Crowns",
+          "description": "Collect a total of 20 crowns."
+        },
+        "schinese": {
+          "name": "20 顶王冠",
+          "description": "累计收集 20 顶王冠。"
+        }
+      }
+    },
+    "CROWNS_30": {
+      "translations": {
+        "english": {
+          "name": "30 Crowns",
+          "description": "Collect a total of 30 crowns."
+        },
+        "schinese": {
+          "name": "30 顶王冠",
+          "description": "累计收集 30 顶王冠。"
+        }
+      }
+    },
+    "WILDBACH_BEATEN": {
+      "translations": {
+        "english": {
+          "name": "Wildbach",
+          "description": "Win on Wildbach"
+        },
+        "schinese": {
+          "name": "Wildbach",
+          "description": "在 Wildbach 获胜。"
+        }
+      }
+    },
+    "WILDBACH_QUESTSCOMPLETE": {
+      "translations": {
+        "english": {
+          "name": "Ruler of Wildbach",
+          "description": "Complete all quests on Wildbach"
+        },
+        "schinese": {
+          "name": "Wildbach 的统治者",
+          "description": "完成 Wildbach 的所有任务。"
+        }
+      }
+    },
+    "MOORWEG_BEATEN": {
+      "translations": {
+        "english": {
+          "name": "Moorweg",
+          "description": "Win on Moorweg"
+        },
+        "schinese": {
+          "name": "Moorweg",
+          "description": "在 Moorweg 获胜。"
+        }
+      }
+    },
+    "MOORWEG_QUESTSCOMPLETE": {
+      "translations": {
+        "english": {
+          "name": "Ruler of Moorweg",
+          "description": "Complete all quests on Moorweg"
+        },
+        "schinese": {
+          "name": "Moorweg 的统治者",
+          "description": "完成 Moorweg 的所有任务。"
+        }
+      }
+    },
+    "FREIFORT_BEATEN": {
+      "translations": {
+        "english": {
+          "name": "Freifort",
+          "description": "Win on Freifort"
+        },
+        "schinese": {
+          "name": "Freifort",
+          "description": "在 Freifort 获胜。"
+        }
+      }
+    },
+    "FREIFORT_QUESTSCOMPLETE": {
+      "translations": {
+        "english": {
+          "name": "Ruler of Freifort",
+          "description": "Complete all quests on Freifort"
+        },
+        "schinese": {
+          "name": "Freifort 的统治者",
+          "description": "完成 Freifort 的所有任务。"
+        }
+      }
+    },
+    "TOTEND_BEATEN": {
+      "translations": {
+        "english": {
+          "name": "Totend",
+          "description": "Win on Totend"
+        },
+        "schinese": {
+          "name": "Totend",
+          "description": "在 Totend 获胜。"
+        }
+      }
+    },
+    "TOTEND_QUESTSCOMPLETE": {
+      "translations": {
+        "english": {
+          "name": "Ruler of Totend",
+          "description": "Complete all quests on Totend"
+        },
+        "schinese": {
+          "name": "Totend 的统治者",
+          "description": "完成 Totend 的所有任务。"
+        }
+      }
+    },
+    "CROWNS_40": {
+      "translations": {
+        "english": {
+          "name": "40 Crowns",
+          "description": "Collect a total of 40 crowns."
+        },
+        "schinese": {
+          "name": "40 顶王冠",
+          "description": "累计收集 40 顶王冠。"
+        }
+      }
+    },
+    "CROWNS_50": {
+      "translations": {
+        "english": {
+          "name": "50 Crowns",
+          "description": "Collect a total of 50 crowns."
+        },
+        "schinese": {
+          "name": "50 顶王冠",
+          "description": "累计收集 50 顶王冠。"
+        }
+      }
+    }
+  }
+}

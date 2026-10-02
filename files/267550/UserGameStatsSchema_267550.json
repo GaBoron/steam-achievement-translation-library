@@ -1,0 +1,1489 @@
+{
+  "version": 1,
+  "app_id": "267550",
+  "variant_id": "default",
+  "source_sha256": "939b05694a4937496fb207c105c8d74d3f20531ec85c7842e7a49d33a97e2d06",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "CompleteGameHero": {
+      "translations": {
+        "english": {
+          "name": "Human",
+          "description": "Completed the game on Human difficulty"
+        },
+        "french": {
+          "name": "Humain",
+          "description": "Tu as terminé le jeu en difficulté Humain"
+        },
+        "german": {
+          "name": "Mensch",
+          "description": "Du hast das Spiel mit der Schwierigkeit 'Mensch' abgeschlossen"
+        },
+        "italian": {
+          "name": "Umano",
+          "description": "Hai completato il gioco a difficoltà Umano"
+        },
+        "russian": {
+          "name": "Человек",
+          "description": "Игра пройдена на сложности Человек"
+        },
+        "schinese": {
+          "name": "人类",
+          "description": "以人类难度通关"
+        },
+        "spanish": {
+          "name": "Humano",
+          "description": "Has completado el juego en dificultad Humano"
+        }
+      }
+    },
+    "CompleteGameSuperHero": {
+      "translations": {
+        "english": {
+          "name": "Hero",
+          "description": "Completed the game on Hero difficulty"
+        },
+        "french": {
+          "name": "Héros",
+          "description": "Tu as terminé le jeu en difficulté Héros"
+        },
+        "german": {
+          "name": "Held",
+          "description": "Du hast das Spiel mit der Schwierigkeit 'Held' abgeschlossen"
+        },
+        "italian": {
+          "name": "Eroe",
+          "description": "Hai completato il gioco a difficoltà Eroe"
+        },
+        "russian": {
+          "name": "Герой",
+          "description": "Игра пройдена на сложности Герой"
+        },
+        "schinese": {
+          "name": "英雄",
+          "description": "以英雄难度通关"
+        },
+        "spanish": {
+          "name": "Héroe",
+          "description": "Has completado el juego en dificultad Héroe"
+        }
+      }
+    },
+    "CompleteGameLegend": {
+      "translations": {
+        "english": {
+          "name": "Super Hero",
+          "description": "Completed the game on Super Hero difficulty"
+        },
+        "french": {
+          "name": "Super-héros",
+          "description": "Tu as terminé le jeu en difficulté Super-héros"
+        },
+        "german": {
+          "name": "Superheld",
+          "description": "Du hast das Spiel mit der Schwierigkeit 'Superheld' abgeschlossen"
+        },
+        "italian": {
+          "name": "Supereroe",
+          "description": "Hai completato il gioco a difficoltà Supereroe"
+        },
+        "russian": {
+          "name": "Супергерой",
+          "description": "Игра пройдена на сложности Супергерой"
+        },
+        "schinese": {
+          "name": "超级英雄",
+          "description": "以超级英雄难度通关"
+        },
+        "spanish": {
+          "name": "Superhéroe",
+          "description": "Has completado el juego en dificultad Superhéroe"
+        }
+      }
+    },
+    "UnlockAllComics": {
+      "translations": {
+        "english": {
+          "name": "Bookworm",
+          "description": "Collected all Spider-Man comic books"
+        },
+        "french": {
+          "name": "Rat de bibliothèque",
+          "description": "Tu as récupéré tous les comics de Spider-Man"
+        },
+        "german": {
+          "name": "Bücherwurm",
+          "description": "Du hast alle Spider-Man-Comics gesammelt"
+        },
+        "italian": {
+          "name": "Secchione",
+          "description": "Hai ottenuto tutti i fumetti di Spider-Man"
+        },
+        "russian": {
+          "name": "Заядлый читатель",
+          "description": "Собраны все комиксы о Человеке-Пауке"
+        },
+        "schinese": {
+          "name": "书虫",
+          "description": "收集所有蜘蛛侠漫画"
+        },
+        "spanish": {
+          "name": "Ratón de biblioteca",
+          "description": "Has reunido todos los cómics de Spiderman"
+        }
+      }
+    },
+    "CollectAllBlackCatPage": {
+      "translations": {
+        "english": {
+          "name": "Lover",
+          "description": "Retrieved all parts of Black Cat's journal"
+        },
+        "french": {
+          "name": "Amant",
+          "description": "Tu as récupéré tous les éléments du journal de la Chatte noire"
+        },
+        "german": {
+          "name": "Liebhaber",
+          "description": "Du hast alle Teile von Black Cats Aufzeichnungen gefunden"
+        },
+        "italian": {
+          "name": "Amante",
+          "description": "Hai recuperato tutte le parti del dario di Gatta Nera"
+        },
+        "russian": {
+          "name": "Любовник",
+          "description": "Собраны все части журнала Черной Кошки"
+        },
+        "schinese": {
+          "name": "情人",
+          "description": "找回黑猫的所有日记碎片"
+        },
+        "spanish": {
+          "name": "Amante",
+          "description": "Has recuperado todas las partes del diario de la Gata Negra"
+        }
+      }
+    },
+    "CollectAllMenkenAudioLogs": {
+      "translations": {
+        "english": {
+          "name": "Special Agent",
+          "description": "Retrieved all parts of Menken's journal"
+        },
+        "french": {
+          "name": "Agent spécial",
+          "description": "Tu as récupéré tous les éléments du journal de Menken"
+        },
+        "german": {
+          "name": "Spezialagent",
+          "description": "Du hast alle Teile von Menkens Aufzeichnungen gefunden"
+        },
+        "italian": {
+          "name": "Agente speciale",
+          "description": "Hai recuperato tutte le parti del dario di Menken"
+        },
+        "russian": {
+          "name": "Спецагент",
+          "description": "Собраны все части журнала Менкена"
+        },
+        "schinese": {
+          "name": "特工",
+          "description": "找回门肯的所有日记碎片"
+        },
+        "spanish": {
+          "name": "Agente especial",
+          "description": "Has recuperado todas las partes del diario de Menken"
+        }
+      }
+    },
+    "CollectAllDetectiveAudioLogs": {
+      "translations": {
+        "english": {
+          "name": "Investigator",
+          "description": "Retrieved all parts of Detective's journal"
+        },
+        "french": {
+          "name": "Enquêteur",
+          "description": "Tu as récupéré tous les éléments du journal de l'inspecteur"
+        },
+        "german": {
+          "name": "Ermittler",
+          "description": "Du hast alle Teile der Aufzeichnungen des Detectives gefunden"
+        },
+        "italian": {
+          "name": "Investigatore",
+          "description": "Hai recuperato tutte le parti del dario della detective"
+        },
+        "russian": {
+          "name": "Сыщик",
+          "description": "Собраны все части журнала детектива"
+        },
+        "schinese": {
+          "name": "调查员",
+          "description": "找回侦探的所有日记碎片"
+        },
+        "spanish": {
+          "name": "Investigador",
+          "description": "Has recuperado todas las partes del diario de la detective"
+        }
+      }
+    },
+    "AcheiveCombo42": {
+      "translations": {
+        "english": {
+          "name": "I'm on a Roll!",
+          "description": "Achieved a combo streak of 42"
+        },
+        "french": {
+          "name": "Inarrêtable",
+          "description": "Tu as réussi un combo x42"
+        },
+        "german": {
+          "name": "Ich hab einen Lauf!",
+          "description": "Du hast eine Kombo-Serie von 42 gemeistert"
+        },
+        "italian": {
+          "name": "Sono un dio dorato!",
+          "description": "Hai eseguito una combo da 42"
+        },
+        "russian": {
+          "name": "Я в ударе!",
+          "description": "Сделано комбо из 42-х ударов"
+        },
+        "schinese": {
+          "name": "势不可挡！",
+          "description": "达成42连击"
+        },
+        "spanish": {
+          "name": "¡Estoy en racha!",
+          "description": "Has conseguido una racha de 42 golpes"
+        }
+      }
+    },
+    "Perform15SignatureMoves": {
+      "translations": {
+        "english": {
+          "name": "Stay Down!",
+          "description": "Performed 15 signature moves"
+        },
+        "french": {
+          "name": "Au tapis !",
+          "description": "Tu as réalisé 15 coups spéciaux"
+        },
+        "german": {
+          "name": "Unten bleiben!",
+          "description": "Du hast 15 Signatur-Moves ausgeführt"
+        },
+        "italian": {
+          "name": "Sta' giù!",
+          "description": "Hai eseguito 15 mosse speciali"
+        },
+        "russian": {
+          "name": "Так и лежи!",
+          "description": "Проведено 15 фирменных приемов"
+        },
+        "schinese": {
+          "name": "趴下！",
+          "description": "施展15个标志性动作"
+        },
+        "spanish": {
+          "name": "¡Al suelo!",
+          "description": "Has realizado 15 movimientos característicos"
+        }
+      }
+    },
+    "Destroy20ShieldOrArmors": {
+      "translations": {
+        "english": {
+          "name": "Breaker",
+          "description": "Destroyed 20 body armors"
+        },
+        "french": {
+          "name": "Destructeur",
+          "description": "Tu as détruit 20 armures"
+        },
+        "german": {
+          "name": "Brecher",
+          "description": "Du hast 20 Körper-Rüstungen zerstört"
+        },
+        "italian": {
+          "name": "Distruttore",
+          "description": "Hai distrutto 20 corazze"
+        },
+        "russian": {
+          "name": "Металлолом",
+          "description": "Уничтожено 20 бронежилетов"
+        },
+        "schinese": {
+          "name": "破坏者",
+          "description": "摧毁20套敌方护甲"
+        },
+        "spanish": {
+          "name": "Devastador",
+          "description": "Has destruido 20 armaduras"
+        }
+      }
+    },
+    "UnlockAllCharsBios": {
+      "translations": {
+        "english": {
+          "name": "Know Your Enemies",
+          "description": "Unlocked all character bios"
+        },
+        "french": {
+          "name": "Connais ton ennemi",
+          "description": "Tu as débloqué toutes les biographies de personnages"
+        },
+        "german": {
+          "name": "Kenne deine Feinde",
+          "description": "Du hast alle Charakterbiografien freigeschaltet"
+        },
+        "italian": {
+          "name": "Conosci il tuo nemico",
+          "description": "Hai sbloccato tutte le biografie dei personaggi"
+        },
+        "russian": {
+          "name": "Изучи своих врагов",
+          "description": "Открыты все биографии персонажей"
+        },
+        "schinese": {
+          "name": "知己知彼",
+          "description": "解锁所有角色资料"
+        },
+        "spanish": {
+          "name": "Conoce a tus enemigos",
+          "description": "Has desbloqueado las biografías de todos los personajes"
+        }
+      }
+    },
+    "CompleteAllPhotosChallenges": {
+      "translations": {
+        "english": {
+          "name": "Reporter",
+          "description": "Completed all photo challenges"
+        },
+        "french": {
+          "name": "Reporter",
+          "description": "Tu as terminé tous les défis photo"
+        },
+        "german": {
+          "name": "Reporter",
+          "description": "Du hast alle Foto-Herausforderungen abgeschlossen"
+        },
+        "italian": {
+          "name": "Reporter",
+          "description": "Hai completato tutte le sfide fotografiche"
+        },
+        "russian": {
+          "name": "Репортер",
+          "description": "Выполнены все фотозадания"
+        },
+        "schinese": {
+          "name": "记者",
+          "description": "完成所有拍照挑战"
+        },
+        "spanish": {
+          "name": "Reportero",
+          "description": "Has completado todos los desafíos fotográficos"
+        }
+      }
+    },
+    "Defeat25EnemiesStealthTakedown": {
+      "translations": {
+        "english": {
+          "name": "All Tied Up",
+          "description": "Defeated 25 enemies by performing stealth takedowns"
+        },
+        "french": {
+          "name": "Tout est lié",
+          "description": "Tu as vaincu 25 ennemis avec une élimination furtive"
+        },
+        "german": {
+          "name": "Fest gebunden",
+          "description": "Du hast 25 Feinde mit Tarnattacken besiegt"
+        },
+        "italian": {
+          "name": "Peter mani di ragno",
+          "description": "Hai sconfitto 25 nemici usando le immobilizzazioni furtive"
+        },
+        "russian": {
+          "name": "Все схвачено",
+          "description": "Скрытно устранено 25 врагов"
+        },
+        "schinese": {
+          "name": "全部缠住",
+          "description": "以潜行击倒击败25名敌人"
+        },
+        "spanish": {
+          "name": "Atado",
+          "description": "Has derrotado a 25 enemigos realizando eliminaciones sigilosas"
+        }
+      }
+    },
+    "PhotoAllCletusSymbols": {
+      "translations": {
+        "english": {
+          "name": "Hunter of Killers",
+          "description": "Photographed all Cletus Kasady symbols"
+        },
+        "french": {
+          "name": "Chasseur de criminels",
+          "description": "Tu as photographié tous les symboles de Cletus Kasady"
+        },
+        "german": {
+          "name": "Killerjäger",
+          "description": "Du hast alle Cletus-Kasady-Symbole fotografiert"
+        },
+        "italian": {
+          "name": "Cacciatore di killer",
+          "description": "Hai fotografato tutti i simboli di Cletus Kasady"
+        },
+        "russian": {
+          "name": "Охотник на убийц",
+          "description": "Все символы Клитуса Кэссиди сфотографированы"
+        },
+        "schinese": {
+          "name": "杀手猎人",
+          "description": "拍下所有克莱图斯·卡萨迪的符号"
+        },
+        "spanish": {
+          "name": "Cazador de asesinos",
+          "description": "Has fotografiado todos los símbolos de Cletus Kasady"
+        }
+      }
+    },
+    "Disarm50Enemies": {
+      "translations": {
+        "english": {
+          "name": "Drop It!",
+          "description": "Disarmed 50 enemies"
+        },
+        "french": {
+          "name": "Lâche ton arme !",
+          "description": "Tu as désarmé 50 ennemis"
+        },
+        "german": {
+          "name": "Fallenlassen!",
+          "description": "Du hast 50 Feinde entwaffnet"
+        },
+        "italian": {
+          "name": "Getta l'arma!",
+          "description": "Hai disarmato 50 nemici"
+        },
+        "russian": {
+          "name": "Брось!",
+          "description": "Разоружено 50 врагов"
+        },
+        "schinese": {
+          "name": "放下武器！",
+          "description": "解除50名敌人的武装"
+        },
+        "spanish": {
+          "name": "¡Suéltala!",
+          "description": "Has desarmado a 50 enemigos"
+        }
+      }
+    },
+    "DefeatShocker": {
+      "translations": {
+        "english": {
+          "name": "Shocking!",
+          "description": "Defeated Shocker"
+        },
+        "french": {
+          "name": "Choquant !",
+          "description": "Tu as vaincu le Shocker"
+        },
+        "german": {
+          "name": "Schockierend!",
+          "description": "Du hast Shocker besiegt"
+        },
+        "italian": {
+          "name": "Che shock!",
+          "description": "Hai sconfitto Shocker"
+        },
+        "russian": {
+          "name": "Я в шоке!",
+          "description": "Шокер побежден"
+        },
+        "schinese": {
+          "name": "震感十足！",
+          "description": "击败惊悚人"
+        },
+        "spanish": {
+          "name": "¡Conmoción!",
+          "description": "Has derrotado a Conmocionador"
+        }
+      }
+    },
+    "DefeatKraven": {
+      "translations": {
+        "english": {
+          "name": "The Hunter, Hunted",
+          "description": "Defeated Kraven"
+        },
+        "french": {
+          "name": "Chasseur chassé",
+          "description": "Tu as vaincu Kraven"
+        },
+        "german": {
+          "name": "Gejagter Jäger",
+          "description": "Du hast Kraven besiegt"
+        },
+        "italian": {
+          "name": "Cacciatore e preda",
+          "description": "Hai sconfitto Kraven"
+        },
+        "russian": {
+          "name": "Охота на охотника",
+          "description": "Крэйвен побежден"
+        },
+        "schinese": {
+          "name": "猎人变猎物",
+          "description": "击败猎人克莱文"
+        },
+        "spanish": {
+          "name": "El cazador cazado",
+          "description": "Has derrotado a Kraven"
+        }
+      }
+    },
+    "DefeatBlackCat": {
+      "translations": {
+        "english": {
+          "name": "Lovers' Quarrel",
+          "description": "Defeated Black Cat"
+        },
+        "french": {
+          "name": "Dispute conjugale",
+          "description": "Tu as vaincu la Chatte noire"
+        },
+        "german": {
+          "name": "Streit unter Verliebten",
+          "description": "Du hast Black Cat besiegt"
+        },
+        "italian": {
+          "name": "Amore litigarello",
+          "description": "Hai sconfitto Gatta Nera"
+        },
+        "russian": {
+          "name": "Милые бранятся",
+          "description": "Черная Кошка побеждена"
+        },
+        "schinese": {
+          "name": "欢喜冤家",
+          "description": "击败黑猫"
+        },
+        "spanish": {
+          "name": "Pelea de enamorados",
+          "description": "Has derrotado a la Gata Negra"
+        }
+      }
+    },
+    "DefeatCletus": {
+      "translations": {
+        "english": {
+          "name": "Is It Over?",
+          "description": "Defeated Cletus Kasady"
+        },
+        "french": {
+          "name": "C'est fini ?",
+          "description": "Tu as vaincu Cletus Kasady"
+        },
+        "german": {
+          "name": "Ist es vorbei?",
+          "description": "Du hast Cletus Kasady besiegt"
+        },
+        "italian": {
+          "name": "È finita?",
+          "description": "Hai sconfitto Cletus Kasady"
+        },
+        "russian": {
+          "name": "Все кончено?",
+          "description": "Клитус Кэссиди побежден"
+        },
+        "schinese": {
+          "name": "结束了？",
+          "description": "击败克莱图斯·卡萨迪"
+        },
+        "spanish": {
+          "name": "¿Se acabó?",
+          "description": "Has derrotado a Cletus Kasady"
+        }
+      }
+    },
+    "DefeatKingPin": {
+      "translations": {
+        "english": {
+          "name": "You Are Under Arrest",
+          "description": "Defeated Kingpin"
+        },
+        "french": {
+          "name": "Vous êtes en état d'arrestation",
+          "description": "Tu as vaincu le Caïd"
+        },
+        "german": {
+          "name": "Sie sind verhaftet",
+          "description": "Du hast Kingpin besiegt"
+        },
+        "italian": {
+          "name": "Sei in arresto",
+          "description": "Hai sconfitto Kingpin"
+        },
+        "russian": {
+          "name": "Вы арестованы",
+          "description": "Кингпин побежден"
+        },
+        "schinese": {
+          "name": "你被捕了",
+          "description": "击败金并"
+        },
+        "spanish": {
+          "name": "Estás detenido",
+          "description": "Has derrotado a Kingpin"
+        }
+      }
+    },
+    "DefeatGoblin": {
+      "translations": {
+        "english": {
+          "name": "The Green Goblin",
+          "description": "Defeated Green Goblin"
+        },
+        "french": {
+          "name": "Le Bouffon Vert",
+          "description": "Tu as terrassé le Bouffon Vert"
+        },
+        "german": {
+          "name": "Der Grüne Kobold",
+          "description": "Du hast den Grünen Kobold besiegt"
+        },
+        "italian": {
+          "name": "Goblin",
+          "description": "Hai sconfitto Goblin"
+        },
+        "russian": {
+          "name": "Зеленый Гоблин",
+          "description": "Зеленый Гоблин побежден"
+        },
+        "schinese": {
+          "name": "绿魔",
+          "description": "击败绿魔"
+        },
+        "spanish": {
+          "name": "El Duende Verde",
+          "description": "Has derrotado al Duende Verde"
+        }
+      }
+    },
+    "DefeatElectro": {
+      "translations": {
+        "english": {
+          "name": "Switch Off",
+          "description": "Defeated Electro"
+        },
+        "french": {
+          "name": "Débranche",
+          "description": "Tu as vaincu Electro"
+        },
+        "german": {
+          "name": "Knips - aus!",
+          "description": "Du hast Electro besiegt"
+        },
+        "italian": {
+          "name": "Spegniti",
+          "description": "Hai sconfitto Electro"
+        },
+        "russian": {
+          "name": "Гаси свет",
+          "description": "Электро побежден"
+        },
+        "schinese": {
+          "name": "切断电源",
+          "description": "击败电光人"
+        },
+        "spanish": {
+          "name": "Apagado",
+          "description": "Has derrotado a Electro"
+        }
+      }
+    },
+    "DefeatCarnage": {
+      "translations": {
+        "english": {
+          "name": "Now It Is Over",
+          "description": "Defeated Carnage"
+        },
+        "french": {
+          "name": "C'est fini maintenant",
+          "description": "Tu as vaincu Carnage"
+        },
+        "german": {
+          "name": "Jetzt ist es vorbei",
+          "description": "Du hast Carnage besiegt"
+        },
+        "italian": {
+          "name": "Ora è finita",
+          "description": "Hai sconfitto Carnage"
+        },
+        "russian": {
+          "name": "Вот теперь все кончено",
+          "description": "Карнаж побежден"
+        },
+        "schinese": {
+          "name": "现在结束了",
+          "description": "击败屠杀"
+        },
+        "spanish": {
+          "name": "Se acabó",
+          "description": "Has derrotado a Carnage"
+        }
+      }
+    },
+    "UnlockAllSuits": {
+      "translations": {
+        "english": {
+          "name": "Fashionista",
+          "description": "Unlocked all suits"
+        },
+        "french": {
+          "name": "Fashionista",
+          "description": "Tu as débloqué tous les costumes"
+        },
+        "german": {
+          "name": "Modenarr",
+          "description": "Du hast alle Kostüme freigeschaltet"
+        },
+        "italian": {
+          "name": "Modaiolo",
+          "description": "Hai sbloccato tutti i costumi"
+        },
+        "russian": {
+          "name": "Модник",
+          "description": "Все костюмы открыты"
+        },
+        "schinese": {
+          "name": "时尚达人",
+          "description": "解锁所有战衣"
+        },
+        "spanish": {
+          "name": "A la moda",
+          "description": "Has desbloqueado todos los trajes"
+        }
+      }
+    },
+    "CompleteAllHideouts": {
+      "translations": {
+        "english": {
+          "name": "Infiltration",
+          "description": "Completed all hideouts"
+        },
+        "french": {
+          "name": "Infiltration",
+          "description": "Tu as terminé tous les repaires"
+        },
+        "german": {
+          "name": "Infiltration",
+          "description": "Du hast alle Verstecke abgeschlossen"
+        },
+        "italian": {
+          "name": "Incursione",
+          "description": "Hai completato tutti i nascondigli"
+        },
+        "russian": {
+          "name": "Лазутчик",
+          "description": "Пройдены все убежища"
+        },
+        "schinese": {
+          "name": "潜入",
+          "description": "捣毁所有藏身处据点"
+        },
+        "spanish": {
+          "name": "Infiltración",
+          "description": "Has completado todos los escondites"
+        }
+      }
+    },
+    "CollectAllBrawlerRooms": {
+      "translations": {
+        "english": {
+          "name": "Luchador!",
+          "description": "Completed all combat challenges"
+        },
+        "french": {
+          "name": "Lutteur",
+          "description": "Tu as terminé tous les défis de combat"
+        },
+        "german": {
+          "name": "Luchador!",
+          "description": "Du hast alle Kampf-Herausforderungen abgeschlossen"
+        },
+        "italian": {
+          "name": "Lottatore!",
+          "description": "Hai completato tutte le sfide Arcade"
+        },
+        "russian": {
+          "name": "Лучадор!",
+          "description": "Пройдены все боевые испытания"
+        },
+        "schinese": {
+          "name": "摔角手！",
+          "description": "完成所有战斗挑战"
+        },
+        "spanish": {
+          "name": "¡Luchador!",
+          "description": "Has completado todos los desafíos de combate"
+        }
+      }
+    },
+    "Achieve30Multidoge": {
+      "translations": {
+        "english": {
+          "name": "Can't Hit Me",
+          "description": "Achieved 30 multidodges"
+        },
+        "french": {
+          "name": "Invulnérable",
+          "description": "Tu as réussi 30 esquives multiples"
+        },
+        "german": {
+          "name": "Triffst mich nicht",
+          "description": "Du hast 30-malMulti-Ausweichen gemeistert"
+        },
+        "italian": {
+          "name": "Non mi prendi",
+          "description": "Hai eseguito 30 schivate multiple"
+        },
+        "russian": {
+          "name": "Врешь - не попадешь!",
+          "description": "Совершено 30 мультиуклонений"
+        },
+        "schinese": {
+          "name": "打不到我",
+          "description": "达成30次多重闪避"
+        },
+        "spanish": {
+          "name": "No puedes alcanzarme",
+          "description": "Has conseguido 30 evasiones múltiples"
+        }
+      }
+    },
+    "Achieve100CriticalHits": {
+      "translations": {
+        "english": {
+          "name": "Timing Is Everything",
+          "description": "Achieved 100 critical hits"
+        },
+        "french": {
+          "name": "Tout est dans le timing",
+          "description": "Tu as réussi 100 coups critiques"
+        },
+        "german": {
+          "name": "Timing ist alles",
+          "description": "Du hast 100 kritische Treffer erreicht"
+        },
+        "italian": {
+          "name": "Il tempismo è tutto",
+          "description": "Hai eseguito 100 colpi critici"
+        },
+        "russian": {
+          "name": "Своевременность",
+          "description": "Сделано 100 критических попаданий"
+        },
+        "schinese": {
+          "name": "时机至上",
+          "description": "达成100次暴击"
+        },
+        "spanish": {
+          "name": "La clave está en elegir el momento",
+          "description": "Has conseguido 100 impactos críticos"
+        }
+      }
+    },
+    "Defeat100Enemies": {
+      "translations": {
+        "english": {
+          "name": "Lightweight Champion",
+          "description": "Defeated 100 enemies"
+        },
+        "french": {
+          "name": "Champion poids plume",
+          "description": "Tu as vaincu 100 ennemis"
+        },
+        "german": {
+          "name": "Leichtgewichtsmeister",
+          "description": "Du hast 100 Feinde besiegt"
+        },
+        "italian": {
+          "name": "Campione dei pesi piuma",
+          "description": "Hai sconfitto 100 nemici"
+        },
+        "russian": {
+          "name": "Чемпион в легком весе",
+          "description": "Побеждено 100 противников"
+        },
+        "schinese": {
+          "name": "轻量级冠军",
+          "description": "击败100名敌人"
+        },
+        "spanish": {
+          "name": "Peso ligero",
+          "description": "Has derrotado a 100 enemigos"
+        }
+      }
+    },
+    "Defeat300Enemies": {
+      "translations": {
+        "english": {
+          "name": "Middleweight Champion",
+          "description": "Defeated 300 enemies"
+        },
+        "french": {
+          "name": "Champion poids moyen",
+          "description": "Tu as vaincu 300 ennemis"
+        },
+        "german": {
+          "name": "Mittelgewichtsmeister",
+          "description": "Du hast 300 Feinde besiegt"
+        },
+        "italian": {
+          "name": "Campione dei pesi medi",
+          "description": "Hai sconfitto 300 nemici"
+        },
+        "russian": {
+          "name": "Чемпион в среднем весе",
+          "description": "Побеждено 300 противников"
+        },
+        "schinese": {
+          "name": "中量级冠军",
+          "description": "击败300名敌人"
+        },
+        "spanish": {
+          "name": "Peso medio",
+          "description": "Has derrotado a 300 enemigos"
+        }
+      }
+    },
+    "Defeat500Enemies": {
+      "translations": {
+        "english": {
+          "name": "Heavyweight Champion",
+          "description": "Defeated 500 enemies"
+        },
+        "french": {
+          "name": "Champion poids lourd",
+          "description": "Tu as vaincu 500 ennemis"
+        },
+        "german": {
+          "name": "Schwergewichtsmeister",
+          "description": "Du hast 500 Feinde besiegt"
+        },
+        "italian": {
+          "name": "Campione dei pesi massimi",
+          "description": "Hai sconfitto 500 nemici"
+        },
+        "russian": {
+          "name": "Чемпион в тяжелом весе",
+          "description": "Побеждено 500 противников"
+        },
+        "schinese": {
+          "name": "重量级冠军",
+          "description": "击败500名敌人"
+        },
+        "spanish": {
+          "name": "Peso pesado",
+          "description": "Has derrotado a 500 enemigos"
+        }
+      }
+    },
+    "Save50Civilians": {
+      "translations": {
+        "english": {
+          "name": "Hero of the People",
+          "description": "Saved 50 civilians"
+        },
+        "french": {
+          "name": "Héros du peuple",
+          "description": "Tu as secouru 50 civils"
+        },
+        "german": {
+          "name": "Volksheld",
+          "description": "Du hast 50 Zivilisten gerettet"
+        },
+        "italian": {
+          "name": "Eroe del popolo",
+          "description": "Hai salvato 50 civili"
+        },
+        "russian": {
+          "name": "Народный герой",
+          "description": "Спасено 50 горожан"
+        },
+        "schinese": {
+          "name": "人民英雄",
+          "description": "营救50名平民"
+        },
+        "spanish": {
+          "name": "Héroe del pueblo",
+          "description": "Has salvado a 50 civiles"
+        }
+      }
+    },
+    "ReachMaxLevelOnAllSuits": {
+      "translations": {
+        "english": {
+          "name": "Ultimate Spider-Man",
+          "description": "Reached maximum levels for all suits"
+        },
+        "french": {
+          "name": "Ultimate Spider-Man",
+          "description": "Tu as atteint le niveau maximum pour tous les costumes"
+        },
+        "german": {
+          "name": "Ultimativer Spider-Man",
+          "description": "Du hast die höchste Stufe für alle Kostüme erreicht"
+        },
+        "italian": {
+          "name": "Ultimate Spider-Man",
+          "description": "Hai raggiunto il livello massimo con tutti i costumi"
+        },
+        "russian": {
+          "name": "Совершенный Человек-Паук",
+          "description": "Все костюмы доведены до максимального уровня"
+        },
+        "schinese": {
+          "name": "终极蜘蛛侠",
+          "description": "所有战衣升至最高等级"
+        },
+        "spanish": {
+          "name": "Ultimate Spiderman",
+          "description": "Has alcanzado el nivel máximo con todos los trajes"
+        }
+      }
+    },
+    "UnlockAllConceptArts": {
+      "translations": {
+        "english": {
+          "name": "State of the Art",
+          "description": "Unlocked all concept art"
+        },
+        "french": {
+          "name": "L'art et la manière",
+          "description": "Tu as débloqué tous les croquis"
+        },
+        "german": {
+          "name": "Stand der Kunst",
+          "description": "Du hast alle Entwürfe freigeschaltet"
+        },
+        "italian": {
+          "name": "Vena artistica",
+          "description": "Hai sbloccato tutti i bozzetti"
+        },
+        "russian": {
+          "name": "Искусствовед",
+          "description": "Открыты все эскизы"
+        },
+        "schinese": {
+          "name": "艺术臻境",
+          "description": "解锁所有设定画集"
+        },
+        "spanish": {
+          "name": "Vena artística",
+          "description": "Has desbloqueado todos los diseños"
+        }
+      }
+    },
+    "GetHeroisToMax": {
+      "translations": {
+        "english": {
+          "name": "True Hero",
+          "description": "Heroism to the maximum"
+        },
+        "french": {
+          "name": "Un vrai héros",
+          "description": "Tu as atteint le niveau d'héroïsme maximum"
+        },
+        "german": {
+          "name": "Wahrer Held",
+          "description": "Maximales Heldentum"
+        },
+        "italian": {
+          "name": "Vero eroe",
+          "description": "Hai ottenuto il massimo dell'eroismo"
+        },
+        "russian": {
+          "name": "Истинный герой",
+          "description": "Героизм на максимуме"
+        },
+        "schinese": {
+          "name": "真正的英雄",
+          "description": "将英雄威望升至满级"
+        },
+        "spanish": {
+          "name": "Héroe auténtico",
+          "description": "Heroísmo al máximo"
+        }
+      }
+    },
+    "Complete10Deadlock": {
+      "translations": {
+        "english": {
+          "name": "Enforcer",
+          "description": "Completed 10 deadlock situations"
+        },
+        "french": {
+          "name": "Exécuteur",
+          "description": "Tu as résolu 10 affaires de police"
+        },
+        "german": {
+          "name": "Vollstrecker",
+          "description": "Du hast 10 Blockade-Situationen abgeschlossen"
+        },
+        "italian": {
+          "name": "Arrivano i rinforzi!",
+          "description": "Hai completato 10 situazioni di stallo"
+        },
+        "russian": {
+          "name": "На страже!",
+          "description": "Прекращены 10 перестрелок"
+        },
+        "schinese": {
+          "name": "执法者",
+          "description": "解决10起警匪对峙事件"
+        },
+        "spanish": {
+          "name": "Agente del orden",
+          "description": "Has completado 10 situaciones de bloqueo"
+        }
+      }
+    },
+    "Complete10Arson": {
+      "translations": {
+        "english": {
+          "name": "Fireman",
+          "description": "Completed 10 building on fire situations"
+        },
+        "french": {
+          "name": "Pompier",
+          "description": "Tu as arrêté 10 incendies"
+        },
+        "german": {
+          "name": "Feuerwehrmann",
+          "description": "Du hast 10 Brennendes-Gebäude-Situationen abgeschlossen"
+        },
+        "italian": {
+          "name": "Pompiere",
+          "description": "Hai completato 10 situazioni con edifici in fiamme"
+        },
+        "russian": {
+          "name": "Пожарный",
+          "description": "Пройдено 10 пожаров"
+        },
+        "schinese": {
+          "name": "消防员",
+          "description": "平息10起火灾险情"
+        },
+        "spanish": {
+          "name": "Bombero",
+          "description": "Has completado 10 situaciones de edificio en llamas"
+        }
+      }
+    },
+    "Complete10Rescue": {
+      "translations": {
+        "english": {
+          "name": "Guardian Angel",
+          "description": "Completed 10 rescue situations"
+        },
+        "french": {
+          "name": "Ange gardien",
+          "description": "Tu as effectué 10 sauvetages"
+        },
+        "german": {
+          "name": "Schutzengel",
+          "description": "Du hast 10 Rettungs-Situationen abgeschlossen"
+        },
+        "italian": {
+          "name": "Angelo custode",
+          "description": "Hai completato 10 situazioni con ostaggio"
+        },
+        "russian": {
+          "name": "Ангел-хранитель",
+          "description": "Пройдено 10 спасательных операций"
+        },
+        "schinese": {
+          "name": "守护天使",
+          "description": "完成10次营救任务"
+        },
+        "spanish": {
+          "name": "Ángel guardián",
+          "description": "Has completado 10 situaciones de rescate"
+        }
+      }
+    },
+    "Complete10PettyCrimes": {
+      "translations": {
+        "english": {
+          "name": "Vigilante",
+          "description": "Completed 10 petty crime situations"
+        },
+        "french": {
+          "name": "Justicier",
+          "description": "Tu as mis fin à 10 infractions mineures"
+        },
+        "german": {
+          "name": "Vigilant",
+          "description": "Du hast 10 Verbrechens-Situationen abgeschlossen"
+        },
+        "italian": {
+          "name": "Giustiziere",
+          "description": "Hai sventato 10 crimini"
+        },
+        "russian": {
+          "name": "Патрульный",
+          "description": "Предотвращено 10 мелких преступлений"
+        },
+        "schinese": {
+          "name": "义警",
+          "description": "制止10起街头犯罪"
+        },
+        "spanish": {
+          "name": "Justiciero",
+          "description": "Has completado 10 situaciones de delitos menores"
+        }
+      }
+    },
+    "Complete5Races": {
+      "translations": {
+        "english": {
+          "name": "Fast-Tracker",
+          "description": "Completed 5 races"
+        },
+        "french": {
+          "name": "Vite fait, bien fait",
+          "description": "Tu as terminé 5 courses"
+        },
+        "german": {
+          "name": "Rasanter Raser",
+          "description": "Du hast 5 Rennen abgeschlossen"
+        },
+        "italian": {
+          "name": "Velocissimo",
+          "description": "Hai completato 5 corse"
+        },
+        "russian": {
+          "name": "Гонщик",
+          "description": "Проведено 5 Гонок"
+        },
+        "schinese": {
+          "name": "竞速达人",
+          "description": "完成5次竞速"
+        },
+        "spanish": {
+          "name": "Velocista",
+          "description": "Has completado 5 carreras"
+        }
+      }
+    },
+    "Perform50SignatureMoves": {
+      "translations": {
+        "english": {
+          "name": "Master of the Web",
+          "description": "Performed 50 signature moves"
+        },
+        "french": {
+          "name": "As de la toile",
+          "description": "Tu as réalisé 50 coups spéciaux"
+        },
+        "german": {
+          "name": "Meister des Netzes",
+          "description": "Du hast 50 Signatur-Moves ausgeführt"
+        },
+        "italian": {
+          "name": "Maestro della ragnatela",
+          "description": "Hai eseguito 50 mosse speciali"
+        },
+        "russian": {
+          "name": "Мастер Паутины",
+          "description": "Проведено 50 фирменных приемов"
+        },
+        "schinese": {
+          "name": "蛛网大师",
+          "description": "施展50个标志性动作"
+        },
+        "spanish": {
+          "name": "Maestro de la red",
+          "description": "Has realizado 50 movimientos característicos"
+        }
+      }
+    },
+    "DefeatCarnageUsingFireThreeTimes": {
+      "translations": {
+        "english": {
+          "name": "Friendly Fire",
+          "description": "Damaged Carnage with fire at least 3 times before defeating him"
+        },
+        "french": {
+          "name": "Feu ami",
+          "description": "Tu as blessé Carnage par le feu au moins 3 fois avant de le vaincre"
+        },
+        "german": {
+          "name": "Mein Freund das Feuer",
+          "description": "Du hast Carnage mindestens 3-mal Schaden mit Feuer zugefügt, bevor du ihn besiegt hast"
+        },
+        "italian": {
+          "name": "Fuoco amico",
+          "description": "Hai ferito Carnage almeno 3 volte col fuoco prima di sconfiggerlo"
+        },
+        "russian": {
+          "name": "Дружественный огонь",
+          "description": "Победить Каранажа нанеся ему урон огнем не менее 3 раз"
+        },
+        "schinese": {
+          "name": "借火伤人",
+          "description": "在击败屠杀前用火焰对其造成至少3次伤害"
+        },
+        "spanish": {
+          "name": "Fuego amigo",
+          "description": "Has dañado a Carnage con fuego al menos 3 veces antes de derrotarlo"
+        }
+      }
+    },
+    "AcquireWebBlast": {
+      "translations": {
+        "english": {
+          "name": "Shotgun",
+          "description": "Acquired the Seismic Blast ability"
+        },
+        "french": {
+          "name": "Fine gâchette",
+          "description": "Tu as obtenu la secousse sismique"
+        },
+        "german": {
+          "name": "Schrotflinte",
+          "description": "Du hast die Fähigkeit 'Seismische Explosion' erlangt"
+        },
+        "italian": {
+          "name": "Sparo",
+          "description": "Hai ottenuto l'abilità Scossa sismica"
+        },
+        "russian": {
+          "name": "Дробовик",
+          "description": "Получена способность Cейсмо-импульс"
+        },
+        "schinese": {
+          "name": "霰弹冲击",
+          "description": "获得震荡冲击能力"
+        },
+        "spanish": {
+          "name": "Escopeta",
+          "description": "Has conseguido la habilidad de estallido sísmico"
+        }
+      }
+    },
+    "AcquireIonicWeb": {
+      "translations": {
+        "english": {
+          "name": "Disintegrator",
+          "description": "Acquired the Ionic Web ablity"
+        },
+        "french": {
+          "name": "Désintégrateur",
+          "description": "Tu as obtenu la toile ionique"
+        },
+        "german": {
+          "name": "Auflösungserscheinung",
+          "description": "Du hast das ionische Netz erlangt"
+        },
+        "italian": {
+          "name": "Disintegratore",
+          "description": "Hai ottenuto la ragnatela ionica"
+        },
+        "russian": {
+          "name": "Дизинтегратор",
+          "description": "Получена Ионная паутина"
+        },
+        "schinese": {
+          "name": "瓦解者",
+          "description": "获得离子网能力"
+        },
+        "spanish": {
+          "name": "Desintegrador",
+          "description": "Has conseguido la habilidad de red iónica"
+        }
+      }
+    },
+    "DestroyShieldOrArmorUsingWebstrike": {
+      "translations": {
+        "english": {
+          "name": "Aerial Break",
+          "description": "Destroy any armored enemy using Web-Strike"
+        },
+        "french": {
+          "name": "Acrobaties aériennes",
+          "description": "Détruis tous les ennemis équipés d'un blindage avec une frappe de toile"
+        },
+        "german": {
+          "name": "Luftbrecher",
+          "description": "Zerstöre einen beliebigen gepanzerten Gegner mit dem Netzhieb"
+        },
+        "italian": {
+          "name": "Distruzione aerea",
+          "description": "Distruggi un nemico corazzato con il colpo di ragno"
+        },
+        "russian": {
+          "name": "Воздушный удар",
+          "description": "Уничтожь бронированного врага атакой в рывке"
+        },
+        "schinese": {
+          "name": "空中破甲",
+          "description": "使用蛛网冲刺摧毁任意重装敌人的护甲"
+        },
+        "spanish": {
+          "name": "Ataque aéreo",
+          "description": "Destruye a cualquier enemigo blindado usando un golpe con red"
+        }
+      }
+    },
+    "CompleteHideoutFullStealth": {
+      "translations": {
+        "english": {
+          "name": "Sneaky",
+          "description": "Completed a hideout without being spotted"
+        },
+        "french": {
+          "name": "Furtif",
+          "description": "Tu as terminé un repaire sans être repéré"
+        },
+        "german": {
+          "name": "Schleichgang",
+          "description": "Du hast ein Versteck abgeschlossen, ohne entdeckt zu werden"
+        },
+        "italian": {
+          "name": "Furtivo",
+          "description": "Hai completato un nascondiglio senza farti scoprire"
+        },
+        "russian": {
+          "name": "Тихоня",
+          "description": "Все убежища пройдены незамеченным"
+        },
+        "schinese": {
+          "name": "神出鬼没",
+          "description": "在未被发现的情况下完成一次藏身处任务"
+        },
+        "spanish": {
+          "name": "Sigiloso",
+          "description": "Has completado un escondite sin que te vean"
+        }
+      }
+    }
+  }
+}

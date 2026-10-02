@@ -31,6 +31,7 @@
 
 - `index-v2.json` 是游戏级权威索引，也是面向 SATLI 的公开 Catalog V2 接口；可从 BIN 推导的哈希、大小、语言和成就数均由自动化计算。
 - 各版本固定使用 `files/<app_id>/<variant_id>/UserGameStatsSchema_<app_id>.bin`，并由对应 BIN 自动生成同目录下的 `achievements.md`，方便直接在 GitHub 浏览成就文本。
+- 每份 BIN 同时生成同名 `.json`，供 [SATLI lite](https://github.com/GaBoron/SATLI-lite) 等显示覆盖客户端直接下载；V2 版本记录的 `json` 字段提供格式版本和 UTF-8 字节数。JSON 按成就 API name 保存所有语言的名称与描述，具体接口见 [JSON 数据格式](docs/translation-json.md)。
 - V1 `index.json` 和 `files/<app_id>/UserGameStatsSchema_<app_id>.bin` 默认文件旧路径继续生成，供仅支持 V1 的 SATLI 版本使用。
 - 迁移期间，新投稿和更新只需提交一次；合并后自动化会在一次刷新中生成 Catalog V2、人类可读索引、统计图和 V1 兼容数据。
 
@@ -43,6 +44,7 @@
 | --- | --- |
 | **本仓库** | 保存社区译本、Catalog 和人类可读成就目录 |
 | [Steam 成就翻译管理器](https://github.com/GaBoron/steam-achievement-translation-installer) | 使用本仓库数据完成扫描、预览、安装、编辑、备份与恢复，并可导出投稿 ZIP |
+| [SATLI lite](https://github.com/GaBoron/SATLI-lite) | 在 Millennium 内下载 JSON，并在 Steam 库存和成就界面应用翻译 |
 | [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill) | 查询本仓库参考译本，通过 Codex 研究和制作翻译，输出可由管理器导入或向本仓库投稿的 BIN/ZIP |
 
 偏好独立的本地可视化编辑器时，也可以使用 [PanVena/SteamAchievementLocalizer](https://github.com/PanVena/SteamAchievementLocalizer)。

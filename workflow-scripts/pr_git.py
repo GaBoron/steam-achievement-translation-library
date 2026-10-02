@@ -113,6 +113,9 @@ def rename_schema_variants(
         destination = repository_path(destination_relative)
         if destination.exists() and destination != source:
             raise ValueError(f"目标 schema 文件已存在：{destination_relative}")
+        for companion in (destination.with_name("achievements.md"), destination.with_suffix(".json")):
+            if companion.exists() and companion.parent != source.parent:
+                raise ValueError(f"目标派生文件已存在：{companion.relative_to(FILES_ROOT.parent).as_posix()}")
         updated = dict(record)
         updated["schema_file"] = destination_relative
         moves.append((source, destination, updated))
@@ -123,15 +126,10 @@ def rename_schema_variants(
         destination_catalog = destination.with_name("achievements.md")
         if source_catalog.is_file():
             source_catalog.replace(destination_catalog)
-    old_root = (FILES_ROOT / old_game_id).resolve()
-    for directory in sorted({source.parent for source, _destination, _record in moves}, key=lambda path: len(path.parts), reverse=True):
-        current = directory
-        while current != old_root.parent and current.is_relative_to(old_root):
-            try:
-                current.rmdir()
-            except OSError:
-                break
-            current = current.parent
+        source_json = source.with_suffix(".json")
+        if source_json.is_file():
+            source_json.replace(destination.with_suffix(".json"))
+    # Empty old directories may remain; Git does not track them.
     updated_records = [record for _source, _destination, record in moves]
     updated_records.sort(key=lambda record: (not bool(record.get("primary")), str(record.get("variant_id"))))
     primary = next(record for record in updated_records if record.get("primary"))
