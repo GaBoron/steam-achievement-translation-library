@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**439** 个游戏。
+当前收录：**440** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -184,6 +184,7 @@
 | `1859360` | [Dungeon Village 冒险村物语](https://store.steampowered.com/app/1859360/) | 可用 | 2026-07-24T12:54:53Z | [@skeyep](https://github.com/skeyep) | english, japanese, schinese | 6 | [UserGameStatsSchema_1859360.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1859360/default/UserGameStatsSchema_1859360.bin)（3 KB） | [成就目录](files/1859360/default/achievements.md) |
 | `3293010` | [Easy Delivery Co. 轻松送货公司](https://store.steampowered.com/app/3293010/) | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | english, schinese | 11 | [UserGameStatsSchema_3293010.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/3293010/default/UserGameStatsSchema_3293010.bin)（4 KB） | [成就目录](files/3293010/default/achievements.md) |
 | `1654660` | [En Garde! 击剑预备](https://store.steampowered.com/app/1654660/) | 可用 | 2026-07-17T18:17:44Z | [@GaBoron](https://github.com/GaBoron) | english, french, german, schinese, spanish | 30 | [UserGameStatsSchema_1654660.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1654660/default/UserGameStatsSchema_1654660.bin)（22 KB） | [成就目录](files/1654660/default/achievements.md) |
+| `245280` | [ENSLAVED™: Odyssey to the West™ Premium Edition 奴役：奥德赛西游](https://store.steampowered.com/app/245280/) | 可用 | 2026-10-02T00:15:13Z | [@KneeArcher](https://github.com/KneeArcher) | english, french, german, italian, schinese, spanish | 58 | [UserGameStatsSchema_245280.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/245280/default/UserGameStatsSchema_245280.bin)（39 KB） | [成就目录](files/245280/default/achievements.md) |
 | `311690` | [Enter the Gungeon 挺进地牢](https://store.steampowered.com/app/311690/) | 可用 | 2026-08-09T06:18:50Z | [@xjp66666](https://github.com/xjp66666) | brazilian, english, french, german, italian, japanese, koreana, polish, portuguese, russian, schinese, spanish | 54 | [UserGameStatsSchema_311690.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/311690/default/UserGameStatsSchema_311690.bin)（61 KB） | [成就目录](files/311690/default/achievements.md) |
 | `3932890` | [Escape from Tarkov 逃离塔可夫](https://store.steampowered.com/app/3932890/) | 可能不生效 | 2026-07-21T06:25:41Z | [@KneeArcher](https://github.com/KneeArcher) | english, russian, schinese | 84 | [UserGameStatsSchema_3932890.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/3932890/default/UserGameStatsSchema_3932890.bin)（50 KB） | [成就目录](files/3932890/default/achievements.md) |
 | `1416960` | [Everafter Falls 永恒之后的瀑布](https://store.steampowered.com/app/1416960/) | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | english, french, german, japanese, schinese, spanish, tchinese | 38 | [UserGameStatsSchema_1416960.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1416960/default/UserGameStatsSchema_1416960.bin)（29 KB） | [成就目录](files/1416960/default/achievements.md) |
