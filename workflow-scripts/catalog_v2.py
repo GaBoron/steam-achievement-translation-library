@@ -3,9 +3,10 @@ from __future__ import annotations
 
 import json
 import re
-import shutil
-from pathlib import Path, PurePosixPath
+from pathlib import Path
 from typing import Any, Iterable
+
+from schema_compatibility import synchronize_default_schema
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -314,11 +315,8 @@ def write_catalog(catalog: dict[str, Any], *, root: Path = REPO_ROOT) -> Path:
 
 
 def write_legacy_index(catalog: dict[str, Any], *, root: Path = REPO_ROOT) -> Path:
-    for game_id in catalog["games"]:
-        source = root / Path(*PurePosixPath(schema_relative_path(game_id, "default")).parts)
-        destination = root / Path(*PurePosixPath(v1_schema_relative_path(game_id)).parts)
-        if not destination.is_file() or destination.read_bytes() != source.read_bytes():
-            shutil.copyfile(source, destination)
+    for game_id, game in catalog["games"].items():
+        synchronize_default_schema(game_id, root=root, include_json="json" in game["variants"]["default"])
     index = legacy_index_from_catalog(catalog, v1_compatibility_paths=True)
     index["entries"].sort(key=lambda entry: _game_sort_key(str(entry["game_id"]), {"name": entry["game_name"]}))
     path = root / LEGACY_INDEX_PATH.name

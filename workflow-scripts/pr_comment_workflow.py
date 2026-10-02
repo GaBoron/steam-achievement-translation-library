@@ -153,6 +153,7 @@ def force_refresh_pr(repo: str, token: str, event: dict[str, Any]) -> None:
     try:
         branch = checkout_pr_branch(pr)
         presentation = build_refreshed_translation_pr_presentation(pr)
+        run(["git", "add", "--", "files", "index-v2.json"])
         run(["git", "commit", "--allow-empty", "-m", f"chore: force refresh PR #{pr_number}"])
         push_branch(branch)
         update_pr_title_and_body(
@@ -459,6 +460,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             rows_by_variant = variant_achievement_rows(entry, list(meta["languages"]))
             pr_title = f"{'Update' if kind == 'update' else 'Add'} achievement translations for {meta['game_name']} ({meta['game_id']})"
             write_entry_achievement_catalogs(entry)
+            upsert_catalog_entry(entry, previous_game_id=old_game_id)
             pr_body = build_submission_pr_body(
                 kind=kind,
                 entry=entry,
@@ -482,7 +484,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
         comment_issue(repo, token, pr_number, update_error_comment(str(exc)))
         return
 
-    add_paths = ["index-v2.json"] if kind == "outdated" else ["files"]
+    add_paths = ["index-v2.json"] if kind == "outdated" else ["files", "index-v2.json"]
     changed = commit_and_push(branch, f"data: apply PR update command #{pr_number}", add_paths)
     update_pr_title_and_body(repo, token, pr_number, pr_title, pr_body)
     suffix = "投稿分支和 PR 描述已更新。" if changed else "PR 描述已更新；文件内容没有产生新的提交。"

@@ -239,7 +239,7 @@ def upsert_index_entry(entry: dict[str, Any]) -> None:
     write_human_index(index)
 
 
-def upsert_catalog_entry(entry: dict[str, Any]) -> None:
+def upsert_catalog_entry(entry: dict[str, Any], *, previous_game_id: str = "") -> None:
     """Update only the authoritative catalog for an in-flight business PR."""
     index = load_index()
     game_id = str(entry.get("game_id") or "")
@@ -247,7 +247,8 @@ def upsert_catalog_entry(entry: dict[str, Any]) -> None:
     if existing and "schema_files" in existing and "schema_files" not in entry:
         entry = dict(entry)
         entry["schema_files"] = existing["schema_files"]
-    index["entries"] = [item for item in index.get("entries", []) if str(item.get("game_id")) != game_id] + [entry]
+    replaced_ids = {game_id, previous_game_id}
+    index["entries"] = [item for item in index.get("entries", []) if str(item.get("game_id")) not in replaced_ids] + [entry]
     index["entries"] = sort_entries(index["entries"])
     catalog_v2.write_catalog(catalog_v2.catalog_from_legacy_index(index), root=REPO_ROOT)
 

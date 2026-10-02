@@ -120,6 +120,14 @@ def _check_unindexed_schemas(report: CheckReport, paths: set[Path], *, allowed: 
         if not allowed:
             report.error(f"unindexed schema file: {relative}")
             continue
+        game_id = path.stem.removeprefix("UserGameStatsSchema_")
+        if relative == catalog_v2.v1_schema_relative_path(game_id):
+            canonical = ROOT / catalog_v2.schema_relative_path(game_id, "default")
+            if not canonical.is_file() or path.read_bytes() != canonical.read_bytes():
+                report.error(f"{game_id}: unindexed compatibility BIN does not match default variant")
+            if not path.with_suffix(".json").is_file() or not canonical.with_suffix(".json").is_file() or path.with_suffix(".json").read_bytes() != canonical.with_suffix(".json").read_bytes():
+                report.error(f"{game_id}: unindexed compatibility JSON does not match default variant")
+            continue
         try:
             data, nodes = load_schema(path)
             validate_schema_structure(data, nodes)
@@ -135,7 +143,6 @@ def _check_unindexed_schemas(report: CheckReport, paths: set[Path], *, allowed: 
         report.checked_files += 1
         _check_achievement_catalog(report, path, expected)
         # Contribution PRs generate their own JSON before the catalog refresh.
-        game_id = path.stem.removeprefix("UserGameStatsSchema_")
         variant_id = path.parent.name
         expected_json = translation_json.render_translation(game_id, variant_id, data, nodes)
         json_error = translation_json.check_translation(path, expected_json)
@@ -195,7 +202,7 @@ def check_repository(
             report.error(f"{game_id}: v1 compatibility schema does not match default variant")
         if compatibility.is_file() and default_path.with_suffix(".json").is_file():
             if not compatibility.with_suffix(".json").is_file() or compatibility.with_suffix(".json").read_bytes() != default_path.with_suffix(".json").read_bytes():
-                derived_mismatch(f"{game_id}: compatibility JSON does not match default variant")
+                report.error(f"{game_id}: compatibility JSON does not match default variant")
         for variant_id, variant in game["variants"].items():
             _check_schema(
                 report,

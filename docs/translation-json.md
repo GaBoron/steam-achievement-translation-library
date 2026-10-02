@@ -1,6 +1,8 @@
 # 翻译 JSON 接口
 
-JSON 是 BIN 的派生数据，源文件与投稿约定保持不变。运行 `python workflow-scripts/catalog_refresh.py` 会生成所有 V2 版本及默认旧路径的 JSON，并更新 `index-v2.json` 中各版本的 `json` 元数据。文件使用 UTF-8、LF 和结尾换行，输出不含生成时间，重复刷新结果一致。
+BIN 保留为 SATLI 本体使用的源文件，JSON 是新增的派生数据，源文件与投稿约定保持不变。运行 `python workflow-scripts/catalog_refresh.py` 会生成所有 V2 版本的 JSON，同步默认旧路径的 BIN/JSON，并更新 `index-v2.json` 中各版本的 `json` 元数据。文件使用 UTF-8、LF 和结尾换行，输出不含生成时间，重复刷新结果一致。
+
+投稿、PR 文件更新、App ID 重命名和 `/force-refresh` 在 PR 阶段同步并提交上述文件及 V2 元数据。合并后继续生成 `index.json`、人类可读索引和统计；PR 检查允许这些派生索引暂时未刷新，但 BIN、JSON 与默认旧路径必须一致。
 
 客户端下载 `index-v2.json` 后，按 App ID 与版本 ID 推导路径：
 
@@ -36,7 +38,9 @@ files/<app_id>/<variant_id>/UserGameStatsSchema_<app_id>.json
 
 ## English
 
-JSON is derived from the accepted BIN, without changing submissions or the V1/V2 BIN contract. Run `python workflow-scripts/catalog_refresh.py` to regenerate all variant and legacy-default sidecars and their V2 `json` metadata. Output uses UTF-8, LF, a final newline, and no generated timestamp, so repeated refreshes are deterministic.
+BIN remains the source file used by SATLI; JSON is an additional derivative, without changing submissions or the V1/V2 BIN contract. Run `python workflow-scripts/catalog_refresh.py` to regenerate all variant JSON sidecars, synchronize legacy-default BIN/JSON copies, and update V2 `json` metadata. Output uses UTF-8, LF, a final newline, and no generated timestamp, so repeated refreshes are deterministic.
+
+Submissions, PR file updates, app ID renames, and `/force-refresh` synchronize and commit these files and V2 metadata in the PR. Post-merge refreshes regenerate `index.json`, human-readable indexes, and statistics. PR checks permit those derived indexes to lag, while BIN, JSON, and legacy-default copies must agree.
 
 Derive `files/<app_id>/<variant_id>/UserGameStatsSchema_<app_id>.json` from Catalog V2. Each variant's `json` object contains `version: 1` and the JSON's UTF-8 byte `size`. The existing variant `sha256` still identifies the source BIN. Older catalogs without `json` metadata do not promise JSON downloads.
 

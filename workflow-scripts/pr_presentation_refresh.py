@@ -6,8 +6,9 @@ from dataclasses import dataclass
 from typing import Any
 
 from achievement_catalog import write_entry_achievement_catalogs
-from library_index import repository_path, validated_entry_schema_variants
-from pr_metadata import parse_pr_metadata, validate_store_url
+from legacy_pr_schema import normalize_legacy_pr_schema_paths
+from library_index import repository_path, upsert_catalog_entry, validated_entry_schema_variants
+from pr_metadata import entry_from_metadata, parse_pr_metadata, validate_store_url
 from steam_schema import achievement_rows, load_schema, require_language_coverage, schema_languages, sha256, validate_schema_structure
 from submission_presentation import build_schema_variants_section, build_submission_pr_body
 
@@ -35,15 +36,8 @@ def _replace_section(body: str, heading: str, replacement: str) -> str:
 
 def _refreshed_entry(meta: dict[str, Any]) -> tuple[dict[str, Any], bool]:
     game_id = str(meta.get("game_id") or "")
-    seed = {
-        "game_id": game_id,
-        "languages": list(meta.get("languages") or []),
-        "schema_file": meta.get("schema_file"),
-        "schema_files": meta.get("schema_files"),
-        "file_size_bytes": 0,
-        "sha256": meta.get("sha256"),
-        "achievement_count": meta.get("achievement_count"),
-    }
+    seed = entry_from_metadata(meta)
+    normalize_legacy_pr_schema_paths(seed, context="refresh PR")
     records = validated_entry_schema_variants(seed)
     refreshed: list[dict[str, Any]] = []
     all_languages: set[str] = set()
@@ -64,7 +58,8 @@ def _refreshed_entry(meta: dict[str, Any]) -> tuple[dict[str, Any], bool]:
         all_languages.update(languages)
     primary = next(record for record in refreshed if record.get("primary"))
     explicit = meta.get("schema_files") is not None
-    entry: dict[str, Any] = {
+    entry = seed
+    entry.update({
         "game_name": str(meta.get("game_name") or ""),
         "game_id": game_id,
         "store_url": str(meta.get("store_url") or ""),
@@ -74,11 +69,9 @@ def _refreshed_entry(meta: dict[str, Any]) -> tuple[dict[str, Any], bool]:
         "achievement_count": int(primary["achievement_count"]),
         "sha256": str(primary["sha256"]),
         "contributors": list(meta.get("contributors") or []),
-        "submitted_at": str(meta.get("submitted_at") or ""),
-        "updated_at": str(meta.get("updated_at") or ""),
         "status": "current",
-    }
-    if explicit:
+    })
+    if explicit or isinstance(entry.get("schema_files"), list):
         entry["schema_files"] = refreshed
     old = (meta.get("languages"), meta.get("sha256"), meta.get("achievement_count"), meta.get("schema_files"))
     new = (entry["languages"], entry["sha256"], str(entry["achievement_count"]), entry.get("schema_files"))
@@ -93,6 +86,7 @@ def build_refreshed_translation_pr_presentation(pr: dict[str, Any]) -> Refreshed
     validate_store_url(str(meta.get("game_id") or ""), str(meta.get("store_url") or ""))
     entry, changed = _refreshed_entry(meta)
     write_entry_achievement_catalogs(entry)
+    upsert_catalog_entry(entry)
     body = str(pr.get("body") or "")
     if "- Languages:" in body and "## Review" in body:
         body = _replace_line(body, "Languages", ", ".join(f"`{value}`" for value in entry["languages"]))

@@ -35,10 +35,6 @@ def refresh_catalog(catalog: dict[str, Any], *, root: Path = ROOT) -> dict[str, 
     catalog_v2.validate_catalog(catalog)
     catalog_v2.write_catalog(catalog, root=root)
     catalog_v2.write_legacy_index(catalog, root=root)
-    for game_id in catalog["games"]:
-        translation_json.write_translation(
-            root / catalog_v2.v1_schema_relative_path(game_id), game_id, "default",
-        )
     achievement_catalog.write_achievement_catalogs(catalog, root=root)
 
     index = catalog_v2.legacy_index_from_catalog(catalog)

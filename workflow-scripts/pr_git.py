@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any
 
 from github_repository import github_request
+from catalog_v2 import v1_schema_relative_path
 from library_index import (
     entry_schema_variants,
     existing_entry,
@@ -119,6 +120,14 @@ def rename_schema_variants(
         updated = dict(record)
         updated["schema_file"] = destination_relative
         moves.append((source, destination, updated))
+    compatibility_moves: list[tuple[Path, Path]] = []
+    legacy_source = repository_path(v1_schema_relative_path(old_game_id))
+    legacy_destination = repository_path(v1_schema_relative_path(new_game_id))
+    for source, destination in ((legacy_source, legacy_destination), (legacy_source.with_suffix(".json"), legacy_destination.with_suffix(".json"))):
+        if source.is_file():
+            if destination.exists():
+                raise ValueError(f"目标兼容文件已存在：{destination.relative_to(FILES_ROOT.parent).as_posix()}")
+            compatibility_moves.append((source, destination))
     for source, destination, _record in moves:
         destination.parent.mkdir(parents=True, exist_ok=True)
         source.replace(destination)
@@ -129,6 +138,9 @@ def rename_schema_variants(
         source_json = source.with_suffix(".json")
         if source_json.is_file():
             source_json.replace(destination.with_suffix(".json"))
+    for source, destination in compatibility_moves:
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        source.replace(destination)
     # Empty old directories may remain; Git does not track them.
     updated_records = [record for _source, _destination, record in moves]
     updated_records.sort(key=lambda record: (not bool(record.get("primary")), str(record.get("variant_id"))))

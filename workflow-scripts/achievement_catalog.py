@@ -6,6 +6,7 @@ from typing import Any
 
 import catalog_v2
 import translation_json
+from schema_compatibility import synchronize_default_schema
 from steam_schema import achievement_rows, load_schema, validate_schema_structure
 
 
@@ -110,4 +111,5 @@ def write_entry_achievement_catalogs(entry: dict[str, Any], *, root: Path = cata
             entry["json"] = dict(variant["json"])
     if isinstance(entry.get("schema_files"), list):
         entry["schema_files"] = variants
+    synchronize_default_schema(game_id, root=root, include_json=True)
     return written
