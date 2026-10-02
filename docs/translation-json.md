@@ -1,8 +1,8 @@
 # 翻译 JSON 接口
 
-BIN 保留为 SATLI 本体使用的源文件，JSON 是新增的派生数据，源文件与投稿约定保持不变。运行 `python workflow-scripts/catalog_refresh.py` 会生成所有 V2 版本的 JSON，同步默认旧路径的 BIN/JSON，并更新 `index-v2.json` 中各版本的 `json` 元数据。文件使用 UTF-8、LF 和结尾换行，输出不含生成时间，重复刷新结果一致。
+BIN 保留为 SATLI 本体使用的源文件，JSON 是新增的派生数据，源文件与投稿约定保持不变。运行 `python workflow-scripts/catalog_refresh.py` 会生成所有 V2 版本的 JSON，同步 V1 默认旧路径的 BIN，回收该路径的多余 JSON，并更新 `index-v2.json` 中各版本的 `json` 元数据。V1 兼容不生成 JSON。文件使用 UTF-8、LF 和结尾换行，输出不含生成时间，重复刷新结果一致。
 
-投稿、PR 文件更新、App ID 重命名和 `/force-refresh` 在 PR 阶段同步并提交上述文件及 V2 元数据。合并后继续生成 `index.json`、人类可读索引和统计；PR 检查允许这些派生索引暂时未刷新，但 BIN、JSON 与默认旧路径必须一致。
+投稿、PR 文件更新、App ID 重命名和 `/force-refresh` 在 PR 阶段同步并提交上述文件及 V2 元数据。合并后继续生成 `index.json`、人类可读索引和统计；PR 检查允许这些派生索引暂时未刷新，但 V2 BIN/JSON 和 V1 默认 BIN 必须一致，旧路径不能包含 JSON。
 
 客户端下载 `index-v2.json` 后，按 App ID 与版本 ID 推导路径：
 
@@ -34,13 +34,13 @@ files/<app_id>/<variant_id>/UserGameStatsSchema_<app_id>.json
 
 贡献者自有译文及第三方内容的权利说明仍适用，见 [LICENSE.md](../LICENSE.md)。客户端展示游戏条目时应保留 Catalog 中的贡献者与翻译库来源链接。
 
-更新 ZIP 移除旧版本时，自动化会将对应 BIN、JSON 和成就目录文件移到系统回收站。Windows 维护环境需有 `pywin32`，Linux 需有可用的 `gio trash`；回收站不可用时保留文件并报告具体路径。
+清理多余 V1 JSON 时，自动化会将文件移到系统回收站；更新 ZIP 移除旧版本时，对应 BIN、JSON 和成就目录文件也会回收。Windows 维护环境需有 `pywin32`，Linux 需有可用的 `gio trash`；回收站不可用时保留文件并报告具体路径。
 
 ## English
 
-BIN remains the source file used by SATLI; JSON is an additional derivative, without changing submissions or the V1/V2 BIN contract. Run `python workflow-scripts/catalog_refresh.py` to regenerate all variant JSON sidecars, synchronize legacy-default BIN/JSON copies, and update V2 `json` metadata. Output uses UTF-8, LF, a final newline, and no generated timestamp, so repeated refreshes are deterministic.
+BIN remains the source file used by SATLI; JSON is an additional derivative, without changing submissions or the V1/V2 BIN contract. Run `python workflow-scripts/catalog_refresh.py` to regenerate all V2 variant JSON sidecars, synchronize the V1 legacy-default BIN copies, recycle redundant JSON at those legacy paths, and update V2 `json` metadata. V1 compatibility does not generate JSON. Output uses UTF-8, LF, a final newline, and no generated timestamp, so repeated refreshes are deterministic.
 
-Submissions, PR file updates, app ID renames, and `/force-refresh` synchronize and commit these files and V2 metadata in the PR. Post-merge refreshes regenerate `index.json`, human-readable indexes, and statistics. PR checks permit those derived indexes to lag, while BIN, JSON, and legacy-default copies must agree.
+Submissions, PR file updates, app ID renames, and `/force-refresh` synchronize and commit these files and V2 metadata in the PR. Post-merge refreshes regenerate `index.json`, human-readable indexes, and statistics. PR checks permit those derived indexes to lag, while V2 BIN/JSON files and V1 default BIN copies must agree. Legacy paths must not contain JSON.
 
 Derive `files/<app_id>/<variant_id>/UserGameStatsSchema_<app_id>.json` from Catalog V2. Each variant's `json` object contains `version: 1` and the JSON's UTF-8 byte `size`. The existing variant `sha256` still identifies the source BIN. Older catalogs without `json` metadata do not promise JSON downloads.
 
@@ -48,4 +48,4 @@ The example above defines the format: `achievements` is keyed by API name; each 
 
 The [rights notice](../LICENSE.md) continues to apply. Display the catalog's contributors and a source link alongside game entries.
 
-Removing an obsolete variant sends its BIN, JSON, and achievement catalog to the system trash. Windows maintenance requires `pywin32`; Linux requires working `gio trash`. If recycling is unavailable, files remain in place and the operation reports the affected path.
+Cleaning redundant V1 JSON sends those files to the system trash. Removing an obsolete variant also recycles its BIN, JSON, and achievement catalog. Windows maintenance requires `pywin32`; Linux requires working `gio trash`. If recycling is unavailable, files remain in place and the operation reports the affected path.

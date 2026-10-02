@@ -125,8 +125,6 @@ def _check_unindexed_schemas(report: CheckReport, paths: set[Path], *, allowed: 
             canonical = ROOT / catalog_v2.schema_relative_path(game_id, "default")
             if not canonical.is_file() or path.read_bytes() != canonical.read_bytes():
                 report.error(f"{game_id}: unindexed compatibility BIN does not match default variant")
-            if not path.with_suffix(".json").is_file() or not canonical.with_suffix(".json").is_file() or path.with_suffix(".json").read_bytes() != canonical.with_suffix(".json").read_bytes():
-                report.error(f"{game_id}: unindexed compatibility JSON does not match default variant")
             continue
         try:
             data, nodes = load_schema(path)
@@ -200,9 +198,6 @@ def check_repository(
             report.error(f"{game_id}: missing v1 compatibility schema")
         elif default_path.is_file() and compatibility.read_bytes() != default_path.read_bytes():
             report.error(f"{game_id}: v1 compatibility schema does not match default variant")
-        if compatibility.is_file() and default_path.with_suffix(".json").is_file():
-            if not compatibility.with_suffix(".json").is_file() or compatibility.with_suffix(".json").read_bytes() != default_path.with_suffix(".json").read_bytes():
-                report.error(f"{game_id}: compatibility JSON does not match default variant")
         for variant_id, variant in game["variants"].items():
             _check_schema(
                 report,
@@ -217,7 +212,9 @@ def check_repository(
     actual_schemas = {path.resolve() for path in FILES_ROOT.rglob("*.bin") if path.is_file()}
     _check_unindexed_schemas(report, actual_schemas - expected_paths, allowed=allow_unindexed_schema_files)
     for path in FILES_ROOT.rglob("UserGameStatsSchema_*.json"):
-        if not path.with_suffix(".bin").is_file():
+        if len(path.relative_to(FILES_ROOT).parts) == 2:
+            report.error(f"V1 compatibility path must not contain JSON: {path.relative_to(ROOT).as_posix()}")
+        elif not path.with_suffix(".bin").is_file():
             report.error(f"orphan translation JSON: {path.relative_to(ROOT).as_posix()}")
     actual_catalogs = {path.resolve() for path in FILES_ROOT.rglob("achievements.md") if path.is_file()}
     expected_catalogs = {

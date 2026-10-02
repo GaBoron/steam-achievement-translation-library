@@ -111,5 +111,5 @@ def write_entry_achievement_catalogs(entry: dict[str, Any], *, root: Path = cata
             entry["json"] = dict(variant["json"])
     if isinstance(entry.get("schema_files"), list):
         entry["schema_files"] = variants
-    synchronize_default_schema(game_id, root=root, include_json=True)
+    synchronize_default_schema(game_id, root=root)
     return written

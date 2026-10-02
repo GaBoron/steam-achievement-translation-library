@@ -9,6 +9,7 @@ from typing import Any
 
 from github_repository import github_request
 from catalog_v2 import v1_schema_relative_path
+from schema_compatibility import recycle_legacy_translation_json
 from library_index import (
     entry_schema_variants,
     existing_entry,
@@ -123,11 +124,11 @@ def rename_schema_variants(
     compatibility_moves: list[tuple[Path, Path]] = []
     legacy_source = repository_path(v1_schema_relative_path(old_game_id))
     legacy_destination = repository_path(v1_schema_relative_path(new_game_id))
-    for source, destination in ((legacy_source, legacy_destination), (legacy_source.with_suffix(".json"), legacy_destination.with_suffix(".json"))):
-        if source.is_file():
-            if destination.exists():
-                raise ValueError(f"目标兼容文件已存在：{destination.relative_to(FILES_ROOT.parent).as_posix()}")
-            compatibility_moves.append((source, destination))
+    if legacy_source.is_file():
+        if legacy_destination.exists():
+            raise ValueError(f"目标兼容文件已存在：{legacy_destination.relative_to(FILES_ROOT.parent).as_posix()}")
+        compatibility_moves.append((legacy_source, legacy_destination))
+    recycle_legacy_translation_json(old_game_id, root=ROOT)
     for source, destination, _record in moves:
         destination.parent.mkdir(parents=True, exist_ok=True)
         source.replace(destination)

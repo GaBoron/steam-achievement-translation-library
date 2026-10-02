@@ -316,7 +316,7 @@ def write_catalog(catalog: dict[str, Any], *, root: Path = REPO_ROOT) -> Path:
 
 def write_legacy_index(catalog: dict[str, Any], *, root: Path = REPO_ROOT) -> Path:
     for game_id, game in catalog["games"].items():
-        synchronize_default_schema(game_id, root=root, include_json="json" in game["variants"]["default"])
+        synchronize_default_schema(game_id, root=root)
     index = legacy_index_from_catalog(catalog, v1_compatibility_paths=True)
     index["entries"].sort(key=lambda entry: _game_sort_key(str(entry["game_id"]), {"name": entry["game_name"]}))
     path = root / LEGACY_INDEX_PATH.name
