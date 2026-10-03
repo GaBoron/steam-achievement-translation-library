@@ -1,0 +1,876 @@
+{
+  "version": 1,
+  "app_id": "252610",
+  "variant_id": "default",
+  "source_sha256": "4f3a2c64331ba3412998448ab1f44ddb0cf24bc01d4b3c530b03732c52946296",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "TLB": {
+      "translations": {
+        "english": {
+          "name": "肌肉发达到，难以控制",
+          "description": "和“最后的健美运动员”一起赢。他太强壮了。"
+        },
+        "schinese": {
+          "name": "肌肉发达到，难以控制",
+          "description": "和“最后的健美运动员”一起赢。他太强壮了。"
+        }
+      }
+    },
+    "fencer": {
+      "translations": {
+        "english": {
+          "name": "致命一击",
+          "description": "与击剑手一同取胜。巧妙格挡，迅速反击！"
+        },
+        "schinese": {
+          "name": "致命一击",
+          "description": "与击剑手一同取胜。巧妙格挡，迅速反击！"
+        }
+      }
+    },
+    "mason": {
+      "translations": {
+        "english": {
+          "name": "欢迎先生",
+          "description": "与最友善的人一起取胜。"
+        },
+        "schinese": {
+          "name": "欢迎先生",
+          "description": "与最友善的人一起取胜。"
+        }
+      }
+    },
+    "santa": {
+      "translations": {
+        "english": {
+          "name": "圣诞快乐",
+          "description": "与圣诞老人一起赢，才是一个真正的圣诞奇迹。"
+        },
+        "schinese": {
+          "name": "圣诞快乐",
+          "description": "与圣诞老人一起赢，才是一个真正的圣诞奇迹。"
+        }
+      }
+    },
+    "alvis": {
+      "translations": {
+        "english": {
+          "name": "非常感谢",
+          "description": "与“僵尸末日”中的吟唱者阿尔维斯一同取胜。"
+        },
+        "schinese": {
+          "name": "非常感谢",
+          "description": "与“僵尸末日”中的吟唱者阿尔维斯一同取胜。"
+        }
+      }
+    },
+    "elsatan": {
+      "translations": {
+        "english": {
+          "name": "摔角手",
+          "description": "用恶魔撒旦的专利摔跤招式取胜。"
+        },
+        "schinese": {
+          "name": "摔角手",
+          "description": "用恶魔撒旦的专利摔跤招式取胜。"
+        }
+      }
+    },
+    "boxer": {
+      "translations": {
+        "english": {
+          "name": "世界冠军",
+          "description": "与拳击手一起获胜。坚持并行动！"
+        },
+        "schinese": {
+          "name": "世界冠军",
+          "description": "与拳击手一起获胜。坚持并行动！"
+        }
+      }
+    },
+    "clown": {
+      "translations": {
+        "english": {
+          "name": "哈！哈！",
+          "description": "与幽默的小丑一同获胜。*扭曲的叫声*"
+        },
+        "schinese": {
+          "name": "哈！哈！",
+          "description": "与幽默的小丑一同获胜。*扭曲的叫声*"
+        }
+      }
+    },
+    "valkyrie": {
+      "translations": {
+        "english": {
+          "name": "英灵殿",
+          "description": "用瓦尔基里赢。这应该很容易。"
+        },
+        "schinese": {
+          "name": "英灵殿",
+          "description": "用瓦尔基里赢。这应该很容易。"
+        }
+      }
+    },
+    "turkey": {
+      "translations": {
+        "english": {
+          "name": "感恩节快乐",
+          "description": "与土耳其队共赢。小贴士：别吃火鸡。"
+        },
+        "schinese": {
+          "name": "感恩节快乐",
+          "description": "与土耳其队共赢。小贴士：别吃火鸡。"
+        }
+      }
+    },
+    "horse": {
+      "translations": {
+        "english": {
+          "name": "我可爱的马",
+          "description": "与马同胜。你不再是匹小马了。"
+        },
+        "schinese": {
+          "name": "我可爱的马",
+          "description": "与马同胜。你不再是匹小马了。"
+        }
+      }
+    },
+    "gnomey": {
+      "translations": {
+        "english": {
+          "name": "地精能量",
+          "description": "用最强角色Gnomey取胜。官方排行榜S++。"
+        },
+        "schinese": {
+          "name": "地精能量",
+          "description": "用最强角色Gnomey取胜。官方排行榜S++。"
+        }
+      }
+    },
+    "panda": {
+      "translations": {
+        "english": {
+          "name": "最后的熊猫",
+          "description": "和熊猫一起赢。也许加拿大会是个不错的栖息地。"
+        },
+        "schinese": {
+          "name": "最后的熊猫",
+          "description": "和熊猫一起赢。也许加拿大会是个不错的栖息地。"
+        }
+      }
+    },
+    "gordo": {
+      "translations": {
+        "english": {
+          "name": "半条命3",
+          "description": "与戈登一起获胜。与任何其他角色的相似之处纯属巧合。"
+        },
+        "schinese": {
+          "name": "半条命3",
+          "description": "与戈登一起获胜。与任何其他角色的相似之处纯属巧合。"
+        }
+      }
+    },
+    "witch": {
+      "translations": {
+        "english": {
+          "name": "女巫的酿造",
+          "description": "与女巫一起取胜。魔法帽，魔法扫帚，魔法乌兹冲锋枪。"
+        },
+        "schinese": {
+          "name": "女巫的酿造",
+          "description": "与女巫一起取胜。魔法帽，魔法扫帚，魔法乌兹冲锋枪。"
+        }
+      }
+    },
+    "wizard": {
+      "translations": {
+        "english": {
+          "name": "阿布拉卡达布拉",
+          "description": "与巫师一起取胜！这是你的命运。"
+        },
+        "schinese": {
+          "name": "阿布拉卡达布拉",
+          "description": "与巫师一起取胜！这是你的命运。"
+        }
+      }
+    },
+    "vampire": {
+      "translations": {
+        "english": {
+          "name": "哇！",
+          "description": "用最原始的吸血鬼魅力取胜，而不是那些新奇闪亮的。"
+        },
+        "schinese": {
+          "name": "哇！",
+          "description": "用最原始的吸血鬼魅力取胜，而不是那些新奇闪亮的。"
+        }
+      }
+    },
+    "garf": {
+      "translations": {
+        "english": {
+          "name": "G#rfening",
+          "description": "用G#rf取胜。每一天……都像周一。"
+        },
+        "schinese": {
+          "name": "G#rfening",
+          "description": "用G#rf取胜。每一天……都像周一。"
+        }
+      }
+    },
+    "lnk": {
+      "translations": {
+        "english": {
+          "name": "哒 呐 呐 呐啊",
+          "description": "与L#nk一起获胜。每场比赛的元音都会被审查更改。"
+        },
+        "schinese": {
+          "name": "哒 呐 呐 呐啊",
+          "description": "与L#nk一起获胜。每场比赛的元音都会被审查更改。"
+        }
+      }
+    },
+    "catlady": {
+      "translations": {
+        "english": {
+          "name": "猫迷",
+          "description": "与猫女一起获胜。谁能想到囤猫竟如此有用？"
+        },
+        "schinese": {
+          "name": "猫迷",
+          "description": "与猫女一起获胜。谁能想到囤猫竟如此有用？"
+        }
+      }
+    },
+    "debutante": {
+      "translations": {
+        "english": {
+          "name": "时尚僵尸",
+          "description": "和黛比坦特一起赢吧。我觉得她长得有点像玛丽·波平斯。"
+        },
+        "schinese": {
+          "name": "时尚僵尸",
+          "description": "和黛比坦特一起赢吧。我觉得她长得有点像玛丽·波平斯。"
+        }
+      }
+    },
+    "sumo": {
+      "translations": {
+        "english": {
+          "name": "相扑解决方案",
+          "description": "与相扑选手一起获胜。相扑是终极的抗僵尸武术。"
+        },
+        "schinese": {
+          "name": "相扑解决方案",
+          "description": "与相扑选手一起获胜。相扑是终极的抗僵尸武术。"
+        }
+      }
+    },
+    "fairy": {
+      "translations": {
+        "english": {
+          "name": "精灵族",
+          "description": "与精灵女王一同获胜。为友谊许个愿。"
+        },
+        "schinese": {
+          "name": "精灵族",
+          "description": "与精灵女王一同获胜。为友谊许个愿。"
+        }
+      }
+    },
+    "rollerderby": {
+      "translations": {
+        "english": {
+          "name": "德比赛马冠军",
+          "description": "与“轮滑女侠”并肩作战，她已为僵尸末日做好充分准备。"
+        },
+        "schinese": {
+          "name": "德比赛马冠军",
+          "description": "与“轮滑女侠”并肩作战，她已为僵尸末日做好充分准备。"
+        }
+      }
+    },
+    "hermit": {
+      "translations": {
+        "english": {
+          "name": "白发隐者",
+          "description": "在劝说隐士走出他的隐士小屋后，与隐士一同获胜。"
+        },
+        "schinese": {
+          "name": "白发隐者",
+          "description": "在劝说隐士走出他的隐士小屋后，与隐士一同获胜。"
+        }
+      }
+    },
+    "kepa": {
+      "translations": {
+        "english": {
+          "name": "别让我去死",
+          "description": "和Kepa一起赢得K*E*P*A模式。请不要让我被杀。"
+        },
+        "schinese": {
+          "name": "别让我去死",
+          "description": "和Kepa一起赢得K*E*P*A模式。请不要让我被杀。"
+        }
+      }
+    },
+    "caaarl": {
+      "translations": {
+        "english": {
+          "name": "卡——尔！",
+          "description": "卡尔！卡——尔！"
+        },
+        "schinese": {
+          "name": "卡——尔！",
+          "description": "卡尔！卡——尔！"
+        }
+      }
+    },
+    "skeletons": {
+      "translations": {
+        "english": {
+          "name": "我讨厌骷髅",
+          "description": "用骷髅赢。内部骷髅不算数。"
+        },
+        "schinese": {
+          "name": "我讨厌骷髅",
+          "description": "用骷髅赢。内部骷髅不算数。"
+        }
+      }
+    },
+    "berserker": {
+      "translations": {
+        "english": {
+          "name": "狂战士",
+          "description": "用拥有“狂战士！”特性的角色取胜。他们相当容易阵亡。"
+        },
+        "schinese": {
+          "name": "狂战士",
+          "description": "用拥有“狂战士！”特性的角色取胜。他们相当容易阵亡。"
+        }
+      }
+    },
+    "fullteam": {
+      "translations": {
+        "english": {
+          "name": "不让任何一个混蛋掉队",
+          "description": "与4人/狗/生物组成的完整团队一起获胜。"
+        },
+        "schinese": {
+          "name": "不让任何一个混蛋掉队",
+          "description": "与4人/狗/生物组成的完整团队一起获胜。"
+        }
+      }
+    },
+    "dogsquad": {
+      "translations": {
+        "english": {
+          "name": "汪汪队",
+          "description": "汪汪队——。带着四只狗一起赢。"
+        },
+        "schinese": {
+          "name": "汪汪队",
+          "description": "汪汪队——。带着四只狗一起赢。"
+        }
+      }
+    },
+    "catattack": {
+      "translations": {
+        "english": {
+          "name": "小猫哈气",
+          "description": "在团队中拥有一只野猫，赢得比赛。"
+        },
+        "schinese": {
+          "name": "小猫哈气",
+          "description": "在团队中拥有一只野猫，赢得比赛。"
+        }
+      }
+    },
+    "allsolo": {
+      "translations": {
+        "english": {
+          "name": "最孤独之路",
+          "description": "纯单人胜利。从一名角色开始，永不招募其他角色。"
+        },
+        "schinese": {
+          "name": "最孤独之路",
+          "description": "纯单人胜利。从一名角色开始，永不招募其他角色。"
+        }
+      }
+    },
+    "nodeaths": {
+      "translations": {
+        "english": {
+          "name": "不让任何一个人掉队",
+          "description": "在无盟友阵亡的情况下获胜。这包括商贩和商场保安。"
+        },
+        "schinese": {
+          "name": "不让任何一个人掉队",
+          "description": "在无盟友阵亡的情况下获胜。这包括商贩和商场保安。"
+        }
+      }
+    },
+    "wins-normal": {
+      "translations": {
+        "english": {
+          "name": "首次加拿大之行",
+          "description": "在普通模式下赢得“死亡之路”游戏。"
+        },
+        "schinese": {
+          "name": "首次加拿大之行",
+          "description": "在普通模式下赢得“死亡之路”游戏。"
+        }
+      }
+    },
+    "wins-long": {
+      "translations": {
+        "english": {
+          "name": "我们到了吗？",
+          "description": "赢得漫长曲折之路模式。"
+        },
+        "schinese": {
+          "name": "我们到了吗？",
+          "description": "赢得漫长曲折之路模式。"
+        }
+      }
+    },
+    "wins-special": {
+      "translations": {
+        "english": {
+          "name": "一群怪人",
+          "description": "赢取稀有角色模式。"
+        },
+        "schinese": {
+          "name": "一群怪人",
+          "description": "赢取稀有角色模式。"
+        }
+      }
+    },
+    "wins-family": {
+      "translations": {
+        "english": {
+          "name": "来自朋友的帮助",
+          "description": "赢得熟悉角色模式。"
+        },
+        "schinese": {
+          "name": "来自朋友的帮助",
+          "description": "赢得熟悉角色模式。"
+        }
+      }
+    },
+    "wins-specialEX": {
+      "translations": {
+        "english": {
+          "name": "极端怪人",
+          "description": "在“极端模式”下赢取稀有角色。"
+        },
+        "schinese": {
+          "name": "极端怪人",
+          "description": "在“极端模式”下赢取稀有角色。"
+        }
+      }
+    },
+    "wins-familyEX": {
+      "translations": {
+        "english": {
+          "name": "钢铁纽带",
+          "description": "赢得“熟悉角色”极限模式。"
+        },
+        "schinese": {
+          "name": "钢铁纽带",
+          "description": "赢得“熟悉角色”极限模式。"
+        }
+      }
+    },
+    "wins-kepa": {
+      "translations": {
+        "english": {
+          "name": "The Kepaning",
+          "description": "赢得K*E*P*A模式。"
+        },
+        "schinese": {
+          "name": "The Kepaning",
+          "description": "赢得K*E*P*A模式。"
+        }
+      }
+    },
+    "wins-short": {
+      "translations": {
+        "english": {
+          "name": "小假期",
+          "description": "赢得“地狱短途旅行”模式。"
+        },
+        "schinese": {
+          "name": "小假期",
+          "description": "赢得“地狱短途旅行”模式。"
+        }
+      }
+    },
+    "wins-marathon": {
+      "translations": {
+        "english": {
+          "name": "艰难的胜利",
+          "description": "赢得马拉松模式。"
+        },
+        "schinese": {
+          "name": "艰难的胜利",
+          "description": "赢得马拉松模式。"
+        }
+      }
+    },
+    "wins-deadlier": {
+      "translations": {
+        "english": {
+          "name": "还不算太糟",
+          "description": "赢得更致命的道路模式。"
+        },
+        "schinese": {
+          "name": "还不算太糟",
+          "description": "赢得更致命的道路模式。"
+        }
+      }
+    },
+    "wins-all10": {
+      "translations": {
+        "english": {
+          "name": "模式专家",
+          "description": "赢得前10种游戏模式。"
+        },
+        "schinese": {
+          "name": "模式专家",
+          "description": "赢得前10种游戏模式。"
+        }
+      }
+    },
+    "alvis-leftbuilding": {
+      "translations": {
+        "english": {
+          "name": "已离场",
+          "description": "再见，阿尔维斯。"
+        },
+        "schinese": {
+          "name": "已离场",
+          "description": "再见，阿尔维斯。"
+        }
+      }
+    },
+    "anime-boom": {
+      "translations": {
+        "english": {
+          "name": "动画综合征",
+          "description": "动漫女孩把车画成了动漫风格。"
+        },
+        "schinese": {
+          "name": "动画综合征",
+          "description": "动漫女孩把车画成了动漫风格。"
+        }
+      }
+    },
+    "knight-leave": {
+      "translations": {
+        "english": {
+          "name": "英勇骑士",
+          "description": "骑士队以全胜战绩离开了赛场。"
+        },
+        "schinese": {
+          "name": "英勇骑士",
+          "description": "骑士队以全胜战绩离开了赛场。"
+        }
+      }
+    },
+    "clown-swarm": {
+      "translations": {
+        "english": {
+          "name": "马戏团之日",
+          "description": "就像我梦中的小丑一样。"
+        },
+        "schinese": {
+          "name": "马戏团之日",
+          "description": "就像我梦中的小丑一样。"
+        }
+      }
+    },
+    "pm-killer": {
+      "translations": {
+        "english": {
+          "name": "干 得 好 ，霍 瑟 ",
+          "description": "在最后一刻，你失去了获胜的机会。"
+        },
+        "schinese": {
+          "name": "干 得 好 ，霍 瑟 ",
+          "description": "在最后一刻，你失去了获胜的机会。"
+        }
+      }
+    },
+    "zomb100k": {
+      "translations": {
+        "english": {
+          "name": "百万僵尸富翁",
+          "description": "消灭100,000只僵尸！"
+        },
+        "schinese": {
+          "name": "百万僵尸富翁",
+          "description": "消灭100,000只僵尸！"
+        }
+      }
+    },
+    "medtotal": {
+      "translations": {
+        "english": {
+          "name": "人体维修",
+          "description": "训练医疗技能50次。"
+        },
+        "schinese": {
+          "name": "人体维修",
+          "description": "训练医疗技能50次。"
+        }
+      }
+    },
+    "mechtotal": {
+      "translations": {
+        "english": {
+          "name": "汽车维修",
+          "description": "进行50次机械训练。"
+        },
+        "schinese": {
+          "name": "汽车维修",
+          "description": "进行50次机械训练。"
+        }
+      }
+    },
+    "shoottotal": {
+      "translations": {
+        "english": {
+          "name": "靶场练习",
+          "description": "训练射击75次。"
+        },
+        "schinese": {
+          "name": "靶场练习",
+          "description": "训练射击75次。"
+        }
+      }
+    },
+    "fittotal": {
+      "translations": {
+        "english": {
+          "name": "塑形",
+          "description": "训练体能75次。"
+        },
+        "schinese": {
+          "name": "塑形",
+          "description": "训练体能75次。"
+        }
+      }
+    },
+    "strtotal": {
+      "translations": {
+        "english": {
+          "name": "必须变得巨大",
+          "description": "训练力量100次。增强肌肉，增加体积。"
+        },
+        "schinese": {
+          "name": "必须变得巨大",
+          "description": "训练力量100次。增强肌肉，增加体积。"
+        }
+      }
+    },
+    "healtotal": {
+      "translations": {
+        "english": {
+          "name": "把我修好",
+          "description": "为队友治疗75次。"
+        },
+        "schinese": {
+          "name": "把我修好",
+          "description": "为队友治疗75次。"
+        }
+      }
+    },
+    "toilettotal": {
+      "translations": {
+        "english": {
+          "name": "魔法许愿马桶",
+          "description": "打开100个厕所，释放厕所精灵。"
+        },
+        "schinese": {
+          "name": "魔法许愿马桶",
+          "description": "打开100个厕所，释放厕所精灵。"
+        }
+      }
+    },
+    "streak5": {
+      "translations": {
+        "english": {
+          "name": "五连胜",
+          "description": "连续赢得5场比赛且未输过。"
+        },
+        "schinese": {
+          "name": "五连胜",
+          "description": "连续赢得5场比赛且未输过。"
+        }
+      }
+    },
+    "streakall": {
+      "translations": {
+        "english": {
+          "name": "欧米茄连击",
+          "description": "连胜前10种游戏模式！"
+        },
+        "schinese": {
+          "name": "欧米茄连击",
+          "description": "连胜前10种游戏模式！"
+        }
+      }
+    },
+    "cooling-it": {
+      "translations": {
+        "english": {
+          "name": "冷却",
+          "description": "那天发生了一个奇迹..."
+        },
+        "schinese": {
+          "name": "冷却",
+          "description": "那天发生了一个奇迹..."
+        }
+      }
+    },
+    "goatwin": {
+      "translations": {
+        "english": {
+          "name": "山羊的胜利",
+          "description": "用山羊来赢得比赛。这会把车毁了的。"
+        },
+        "schinese": {
+          "name": "山羊的胜利",
+          "description": "用山羊来赢得比赛。这会把车毁了的。"
+        }
+      }
+    },
+    "americaday": {
+      "translations": {
+        "english": {
+          "name": "美国日",
+          "description": "与山姆大叔或肌肉老鹰一起赢得比赛。"
+        },
+        "schinese": {
+          "name": "美国日",
+          "description": "与山姆大叔或肌肉老鹰一起赢得比赛。"
+        }
+      }
+    },
+    "canadaday": {
+      "translations": {
+        "english": {
+          "name": "加拿大日",
+          "description": "与团队中的假日海狸一起赢得比赛。"
+        },
+        "schinese": {
+          "name": "加拿大日",
+          "description": "与团队中的假日海狸一起赢得比赛。"
+        }
+      }
+    },
+    "piratecap": {
+      "translations": {
+        "english": {
+          "name": "炮弹",
+          "description": "招募海盗船长稀有商人营地成员，赢得比赛。"
+        },
+        "schinese": {
+          "name": "炮弹",
+          "description": "招募海盗船长稀有商人营地成员，赢得比赛。"
+        }
+      }
+    },
+    "pigwin": {
+      "translations": {
+        "english": {
+          "name": "好 猪 ",
+          "description": "和团队中的猪猪一起赢。"
+        },
+        "schinese": {
+          "name": "好 猪 ",
+          "description": "和团队中的猪猪一起赢。"
+        }
+      }
+    },
+    "caveman": {
+      "translations": {
+        "english": {
+          "name": "原始人迷恋",
+          "description": "把穴居人从冰层中救出后，和他一起赢得一场比赛。"
+        },
+        "schinese": {
+          "name": "迷恋原始人",
+          "description": "把穴居人从冰层中救出后，和他一起赢得一场比赛。"
+        }
+      }
+    },
+    "renbard": {
+      "translations": {
+        "english": {
+          "name": "赞博之歌",
+          "description": "招募文艺复兴集市吟游诗人，助你取胜。"
+        },
+        "schinese": {
+          "name": "赞博之歌",
+          "description": "招募文艺复兴集市吟游诗人，助你取胜。"
+        }
+      }
+    },
+    "madsci": {
+      "translations": {
+        "english": {
+          "name": "科学的",
+          "description": "与掩体实验室的科学家一起获胜。"
+        },
+        "schinese": {
+          "name": "科学的",
+          "description": "与掩体实验室的科学家一起获胜。"
+        }
+      }
+    },
+    "ramcrossing": {
+      "translations": {
+        "english": {
+          "name": "撞击速度",
+          "description": "驾驶一辆可正常行驶的汽车到达终点区域。"
+        },
+        "schinese": {
+          "name": "撞击速度",
+          "description": "驾驶一辆可正常行驶的汽车到达终点区域。"
+        }
+      }
+    },
+    "freechicken": {
+      "translations": {
+        "english": {
+          "name": "免费鸡肉",
+          "description": "救了一只鸡。后来可能把它做成了鸡块。"
+        },
+        "schinese": {
+          "name": "免费鸡肉",
+          "description": "救了一只鸡。后来可能把它做成了鸡块。"
+        }
+      }
+    },
+    "ghostfound": {
+      "translations": {
+        "english": {
+          "name": "超自然",
+          "description": "证明了幽灵的存在。"
+        },
+        "schinese": {
+          "name": "超自然",
+          "description": "证明了幽灵的存在。"
+        }
+      }
+    }
+  }
+}
