@@ -1,0 +1,660 @@
+{
+  "version": 1,
+  "app_id": "1084020",
+  "variant_id": "default",
+  "source_sha256": "ce19aca89205df7024be172f1e0d249291dfde102e8582b81acffb6feb624f7e",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "issue_disaster": {
+      "translations": {
+        "english": {
+          "name": "Divine Wrath",
+          "description": "Manually summon a disaster."
+        },
+        "schinese": {
+          "name": "神圣之怒",
+          "description": "手动召唤一场灾难。"
+        }
+      }
+    },
+    "billion_cash": {
+      "translations": {
+        "english": {
+          "name": "Affluence Accolade",
+          "description": "Have 1B Theons in the city's treasury."
+        },
+        "schinese": {
+          "name": "富裕的赞誉",
+          "description": "城市国库拥有10亿元。"
+        }
+      }
+    },
+    "million_spend": {
+      "translations": {
+        "english": {
+          "name": "Down the Drain",
+          "description": "Spend 1M Theons at once."
+        },
+        "schinese": {
+          "name": "付诸东流",
+          "description": "一次性花费100万元。"
+        }
+      }
+    },
+    "happiness_100": {
+      "translations": {
+        "english": {
+          "name": "Houses of Glass",
+          "description": "Reach 100% happiness in a city."
+        },
+        "schinese": {
+          "name": "玻璃屋",
+          "description": "城市幸福度达到100%。"
+        }
+      }
+    },
+    "rank_max": {
+      "translations": {
+        "english": {
+          "name": "Is There a Limit to This?",
+          "description": "Reach the highest rank of a city."
+        },
+        "schinese": {
+          "name": "有极限吗？",
+          "description": "达到城市的最高等级。"
+        }
+      }
+    },
+    "reach_1k": {
+      "translations": {
+        "english": {
+          "name": "The Beginnings of a Town",
+          "description": "Reach 1k inhabitants in a city."
+        },
+        "schinese": {
+          "name": "城镇的雏形",
+          "description": "城市居民达到1000人。"
+        }
+      }
+    },
+    "reach_1m": {
+      "translations": {
+        "english": {
+          "name": "It Feels Cramped in Here!",
+          "description": "Reach 1M inhabitants in a city."
+        },
+        "schinese": {
+          "name": "这里感觉好拥挤！",
+          "description": "城市居民达到100万人。"
+        }
+      }
+    },
+    "nuclear_plant_explode": {
+      "translations": {
+        "english": {
+          "name": "Fission Fiasco",
+          "description": "Witness an explosion of a nuclear reactor."
+        },
+        "schinese": {
+          "name": "核裂变惨败",
+          "description": "目睹核反应堆爆炸。"
+        }
+      }
+    },
+    "tutorial_finish": {
+      "translations": {
+        "english": {
+          "name": "The Basics",
+          "description": "Finish the tutorial."
+        },
+        "schinese": {
+          "name": "基础",
+          "description": "完成教程。"
+        }
+      }
+    },
+    "dsa_other_planet": {
+      "translations": {
+        "english": {
+          "name": "We Need To Go Further!",
+          "description": "Successfully land on another celestial body using DSA spacecraft."
+        },
+        "schinese": {
+          "name": "我们得走得更远！",
+          "description": "使用DSA航天器成功降落在另一个天体上。"
+        }
+      }
+    },
+    "bankruptcy": {
+      "translations": {
+        "english": {
+          "name": "Insolvency Insignia",
+          "description": "Have a debt of 1M Theons and negative income."
+        },
+        "schinese": {
+          "name": "破产徽章",
+          "description": "负债100万元且收入为负。"
+        }
+      }
+    },
+    "easter_find_egg": {
+      "translations": {
+        "english": {
+          "name": "If It Isn’t an Egg",
+          "description": "Find 10 eggs during Easter."
+        },
+        "schinese": {
+          "name": "如果这不是彩蛋",
+          "description": "在复活节期间找到10个彩蛋。"
+        }
+      }
+    },
+    "pumpkin_duplicate": {
+      "translations": {
+        "english": {
+          "name": "Spooktober",
+          "description": "Get 10 demons floating above a pumpkin."
+        },
+        "schinese": {
+          "name": "惊悚十月",
+          "description": "让10个恶魔漂浮在南瓜上方。"
+        }
+      }
+    },
+    "no_services": {
+      "translations": {
+        "english": {
+          "name": "Living Dangerously",
+          "description": "Reach 10k inhabitants without providing any services."
+        },
+        "schinese": {
+          "name": "危险生活",
+          "description": "居民达到1万人但不提供任何服务。"
+        }
+      }
+    },
+    "giant_map_create": {
+      "translations": {
+        "english": {
+          "name": "Can We Go Bigger?",
+          "description": "Create a giant map."
+        },
+        "schinese": {
+          "name": "我们能做得更大吗？",
+          "description": "创建一张巨型地图。"
+        }
+      }
+    },
+    "gallery_upload": {
+      "translations": {
+        "english": {
+          "name": "Photographer",
+          "description": "Upload a picture to the in-game gallery."
+        },
+        "schinese": {
+          "name": "摄影师",
+          "description": "上传一张图片到游戏内画廊。"
+        }
+      }
+    },
+    "plugin_download": {
+      "translations": {
+        "english": {
+          "name": "Customizing the Experience",
+          "description": "Download a plugin from the plugin store."
+        },
+        "schinese": {
+          "name": "定制体验",
+          "description": "从插件商店下载一个插件。"
+        }
+      }
+    },
+    "christmas_build": {
+      "translations": {
+        "english": {
+          "name": "Ho Ho Ho",
+          "description": "Build a Christmas tree and Santa's house."
+        },
+        "schinese": {
+          "name": "嗬嗬嗬",
+          "description": "建造一棵圣诞树和圣诞老人的房子。"
+        }
+      }
+    },
+    "landmark_build": {
+      "translations": {
+        "english": {
+          "name": "Tourist Trap",
+          "description": "Build a landmark in your city."
+        },
+        "schinese": {
+          "name": "旅游陷阱",
+          "description": "在你的城市中建造一个地标。"
+        }
+      }
+    },
+    "terraform": {
+      "translations": {
+        "english": {
+          "name": "Terraformer",
+          "description": "Modify the terrain of your city."
+        },
+        "schinese": {
+          "name": "地形改造者",
+          "description": "修改你城市的地形。"
+        }
+      }
+    },
+    "education_100": {
+      "translations": {
+        "english": {
+          "name": "Education for Everyone",
+          "description": "Provide education to everyone and have education happiness of 100%."
+        },
+        "schinese": {
+          "name": "人人有教育",
+          "description": "为所有人提供教育并使教育幸福度达到100%。"
+        }
+      }
+    },
+    "pickle_anger": {
+      "translations": {
+        "english": {
+          "name": "The Fury of Pickles",
+          "description": "Anger a pickle."
+        },
+        "schinese": {
+          "name": "泡菜的愤怒",
+          "description": "激怒一个泡菜。"
+        }
+      }
+    },
+    "tollbooths_build": {
+      "translations": {
+        "english": {
+          "name": "Pay Up",
+          "description": "Place tollbooths to charge people for using the roads."
+        },
+        "schinese": {
+          "name": "付钱",
+          "description": "放置收费站向使用道路的人收费。"
+        }
+      }
+    },
+    "bunker_and_rocket_launcher": {
+      "translations": {
+        "english": {
+          "name": "Risein 67",
+          "description": "Build a bunker and a rocket launcher."
+        },
+        "schinese": {
+          "name": "第67次崛起",
+          "description": "建造一个地堡和一个火箭发射器。"
+        }
+      }
+    },
+    "mayor_villa_build": {
+      "translations": {
+        "english": {
+          "name": "A Place to Relax",
+          "description": "Build the Mayor's Villa."
+        },
+        "schinese": {
+          "name": "放松之地",
+          "description": "建造市长别墅。"
+        }
+      }
+    },
+    "firework_launch": {
+      "translations": {
+        "english": {
+          "name": "It's a Celebration",
+          "description": "Launch a firework."
+        },
+        "schinese": {
+          "name": "这是庆祝",
+          "description": "发射烟花。"
+        }
+      }
+    },
+    "bear_statue_build": {
+      "translations": {
+        "english": {
+          "name": "I Choose Bears",
+          "description": "Build a large bear statue."
+        },
+        "schinese": {
+          "name": "我选熊",
+          "description": "建造一个大熊雕像。"
+        }
+      }
+    },
+    "neighborhood_commercial_init": {
+      "translations": {
+        "english": {
+          "name": "Greener Grass",
+          "description": "Establish neighborhood commercial with an adjacent city."
+        },
+        "schinese": {
+          "name": "邻家草坪更绿",
+          "description": "与邻近城市建立社区商业。"
+        }
+      }
+    },
+    "gol_build": {
+      "translations": {
+        "english": {
+          "name": "Game Inside a Game",
+          "description": "Play the Game of Life."
+        },
+        "schinese": {
+          "name": "游戏中游戏",
+          "description": "玩“生命游戏”。"
+        }
+      }
+    },
+    "underground_build": {
+      "translations": {
+        "english": {
+          "name": "We’re Going Underground",
+          "description": "Build a metro or road tunnel."
+        },
+        "schinese": {
+          "name": "玩“生命游戏”。",
+          "description": "建造地铁或公路隧道。"
+        }
+      }
+    },
+    "circus_hh_build": {
+      "translations": {
+        "english": {
+          "name": "IT Is Here!",
+          "description": "Build a circus and a haunted house."
+        },
+        "schinese": {
+          "name": "它来了！",
+          "description": "建造一个马戏团和一个鬼屋。"
+        }
+      }
+    },
+    "ranger_build": {
+      "translations": {
+        "english": {
+          "name": "Saving the Environment",
+          "description": "Build the Forester's Lodge."
+        },
+        "schinese": {
+          "name": "拯救环境",
+          "description": "建造护林员小屋。"
+        }
+      }
+    },
+    "tree_build_20m": {
+      "translations": {
+        "english": {
+          "name": "#teamtrees",
+          "description": "Plant 20M tiles of trees in total."
+        },
+        "schinese": {
+          "name": "团队树木",
+          "description": "总共种植2000万格树木。"
+        }
+      }
+    },
+    "loan_take": {
+      "translations": {
+        "english": {
+          "name": "Borrowing Money",
+          "description": "Take a loan."
+        },
+        "schinese": {
+          "name": "借钱",
+          "description": "贷款。"
+        }
+      }
+    },
+    "rm_rf_console": {
+      "translations": {
+        "english": {
+          "name": "Oops...",
+          "description": "Cause all of the game files to be wiped by a single console command."
+        },
+        "schinese": {
+          "name": "哎呀……",
+          "description": "通过单个控制台命令导致所有游戏文件被清除。"
+        }
+      }
+    },
+    "swat_send": {
+      "translations": {
+        "english": {
+          "name": "De-Escalation",
+          "description": "Call in SWAT teams to quell a riot."
+        },
+        "schinese": {
+          "name": "降级",
+          "description": "呼叫特警队平息暴乱。"
+        }
+      }
+    },
+    "airport_build": {
+      "translations": {
+        "english": {
+          "name": "A Worthy Investment",
+          "description": "Have an airport earn at least 1k Theons per month."
+        },
+        "schinese": {
+          "name": "值得的投资",
+          "description": "使机场每月至少赚取1000元。"
+        }
+      }
+    },
+    "power_insufficient": {
+      "translations": {
+        "english": {
+          "name": "Blackout",
+          "description": "Have a lot of houses without access to electricity."
+        },
+        "schinese": {
+          "name": "停电",
+          "description": "有大量房屋无法获得电力。"
+        }
+      }
+    },
+    "bus_route_create": {
+      "translations": {
+        "english": {
+          "name": "Transport Tycoon",
+          "description": "Build a bus depot and assign a vehicle to a route."
+        },
+        "schinese": {
+          "name": "交通大亨",
+          "description": "建造一个公交车站并为一条路线分配车辆。"
+        }
+      }
+    },
+    "weather_change": {
+      "translations": {
+        "english": {
+          "name": "Master of Weather",
+          "description": "Build a weather machine and change weather."
+        },
+        "schinese": {
+          "name": "天气大师",
+          "description": "建造一个天气机器并改变天气。"
+        }
+      }
+    },
+    "region_generate": {
+      "translations": {
+        "english": {
+          "name": "Let There Be... a Region",
+          "description": "Create a region."
+        },
+        "schinese": {
+          "name": "要有……一个区域",
+          "description": "创建一个区域。"
+        }
+      }
+    },
+    "region_upload": {
+      "translations": {
+        "english": {
+          "name": "You’re All Invited!",
+          "description": "Upload your region to the online mode."
+        },
+        "schinese": {
+          "name": "你们都受邀了！",
+          "description": "将你的区域上传到在线模式。"
+        }
+      }
+    },
+    "online_city_acquire": {
+      "translations": {
+        "english": {
+          "name": "Founding a City",
+          "description": "Acquire a city in the online mode."
+        },
+        "schinese": {
+          "name": "将你的区域上传到在线模式。",
+          "description": "在在线模式中获取一个城市。"
+        }
+      }
+    },
+    "online_city_visit": {
+      "translations": {
+        "english": {
+          "name": "Hello There, Neighbor!",
+          "description": "Visit a city in the online mode."
+        },
+        "schinese": {
+          "name": "你好，邻居！",
+          "description": "在在线模式中访问一个城市。"
+        }
+      }
+    },
+    "pickles_aided": {
+      "translations": {
+        "english": {
+          "name": "Secret",
+          "description": "Help out the pickles."
+        },
+        "schinese": {
+          "name": "秘密",
+          "description": "帮助泡菜。"
+        }
+      }
+    },
+    "social_media": {
+      "translations": {
+        "english": {
+          "name": "Social, Aren’t We?",
+          "description": "Click on one of the social links in the game menu."
+        },
+        "schinese": {
+          "name": "社交达人，不是吗？",
+          "description": "点击游戏菜单中的某个社交链接。"
+        }
+      }
+    },
+    "plugin_addict": {
+      "translations": {
+        "english": {
+          "name": "Plugin Addict",
+          "description": "You really like plugins, don't you?"
+        },
+        "schinese": {
+          "name": "插件狂人",
+          "description": "你真的很喜欢插件，不是吗？"
+        }
+      }
+    },
+    "tool_undo": {
+      "translations": {
+        "english": {
+          "name": "Misfire",
+          "description": "Use the undo button."
+        },
+        "schinese": {
+          "name": "哑火",
+          "description": "使用撤销按钮。"
+        }
+      }
+    },
+    "solar_city": {
+      "translations": {
+        "english": {
+          "name": "Solaris",
+          "description": "Build a big city only using solar panels as the source of electricity."
+        },
+        "schinese": {
+          "name": "太阳能城市",
+          "description": "仅使用太阳能板作为电力来源建造一座大城市。"
+        }
+      }
+    },
+    "back_on_track": {
+      "translations": {
+        "english": {
+          "name": "Back on Track",
+          "description": "Build 1k railroad tracks in a city."
+        },
+        "schinese": {
+          "name": "重回正轨",
+          "description": "在城市中建造1000条铁轨。"
+        }
+      }
+    },
+    "city_in_15_minutes": {
+      "translations": {
+        "english": {
+          "name": "15-Minute City",
+          "description": "Reach 10k inhabitants within 15 minutes."
+        },
+        "schinese": {
+          "name": "15分钟城市",
+          "description": "在15分钟内达到1万居民。"
+        }
+      }
+    },
+    "tax_haven": {
+      "translations": {
+        "english": {
+          "name": "Tax Haven",
+          "description": "Go a full year with tax rates set to no higher than 1% for all inhabitants without going bankrupt. Minimum population of 10k required."
+        },
+        "schinese": {
+          "name": "避税天堂",
+          "description": "所有居民税率设置为不高于1%且不破产，持续一整年。至少需要1万人口。"
+        }
+      }
+    },
+    "black_gold": {
+      "translations": {
+        "english": {
+          "name": "Black Gold",
+          "description": "Have at least 50 oil rigs in your industrial zones simultaneously."
+        },
+        "schinese": {
+          "name": "黑金",
+          "description": "在你的工业区同时拥有至少50个石油钻井平台。"
+        }
+      }
+    },
+    "black_hole_of_failure": {
+      "translations": {
+        "english": {
+          "name": "Black Hole of Failure",
+          "description": "Observe three subsequent failed rocket starts."
+        },
+        "schinese": {
+          "name": "失败黑洞",
+          "description": "观察三次连续的火箭发射失败。"
+        }
+      }
+    }
+  }
+}

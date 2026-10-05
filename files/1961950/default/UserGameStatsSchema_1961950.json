@@ -1,0 +1,557 @@
+{
+  "version": 1,
+  "app_id": "1961950",
+  "variant_id": "default",
+  "source_sha256": "828e4687da2ed94e2ec7fa5b65dce5045c94128228a372cd59bfae38c585e2f5",
+  "languages": [
+    "english",
+    "japanese",
+    "schinese"
+  ],
+  "achievements": {
+    "ACH_ALL_UNLOCK": {
+      "translations": {
+        "english": {
+          "name": "CHAOS;HEAD NOAH",
+          "description": "Acquired all achievements."
+        },
+        "japanese": {
+          "name": "CHOAS;HEAD NOAH",
+          "description": "すべての実績を獲得した"
+        },
+        "schinese": {
+          "name": "CHAOS;HEAD NOAH",
+          "description": "获得全部成就。"
+        }
+      }
+    },
+    "ACH_PROLOGUE": {
+      "translations": {
+        "english": {
+          "name": "Prologue",
+          "description": "Finished the prologue."
+        },
+        "japanese": {
+          "name": "プロローグ",
+          "description": "プロローグをクリアした"
+        },
+        "schinese": {
+          "name": "序章",
+          "description": "完成序章。"
+        }
+      }
+    },
+    "ACH_END_CH01": {
+      "translations": {
+        "english": {
+          "name": "Chapter 1: Eyes in eyes",
+          "description": "Finished Chapter 1."
+        },
+        "japanese": {
+          "name": "第一章【Eyes in eyes】",
+          "description": "第一章をクリアした"
+        },
+        "schinese": {
+          "name": "第一章：Eyes in eyes",
+          "description": "完成第一章。"
+        }
+      }
+    },
+    "ACH_END_CH02": {
+      "translations": {
+        "english": {
+          "name": "Chapter 2: Click me",
+          "description": "Finished Chapter 2."
+        },
+        "japanese": {
+          "name": "第二章【Click me】",
+          "description": "第二章をクリアした"
+        },
+        "schinese": {
+          "name": "第二章：Click me",
+          "description": "完成第二章。"
+        }
+      }
+    },
+    "ACH_END_CH03": {
+      "translations": {
+        "english": {
+          "name": "Chapter 3: Shogun",
+          "description": "Finished Chapter 3."
+        },
+        "japanese": {
+          "name": "第三章【将軍】",
+          "description": "第三章をクリアした"
+        },
+        "schinese": {
+          "name": "第三章：将军",
+          "description": "完成第三章。"
+        }
+      }
+    },
+    "ACH_END_CH04": {
+      "translations": {
+        "english": {
+          "name": "Chapter 4: Di-Sword",
+          "description": "Finished Chapter 4."
+        },
+        "japanese": {
+          "name": "第四章【Di-Sword】",
+          "description": "第四章をクリアした"
+        },
+        "schinese": {
+          "name": "第四章：Di-Sword",
+          "description": "完成第四章。"
+        }
+      }
+    },
+    "ACH_END_CH05": {
+      "translations": {
+        "english": {
+          "name": "Chapter 5: Delusions",
+          "description": "Finished Chapter 5."
+        },
+        "japanese": {
+          "name": "第五章【妄想】",
+          "description": "第五章をクリアした"
+        },
+        "schinese": {
+          "name": "第五章：妄想",
+          "description": "完成第五章。"
+        }
+      }
+    },
+    "ACH_END_CH06": {
+      "translations": {
+        "english": {
+          "name": "Chapter 6: Noah",
+          "description": "Finished Chapter 6."
+        },
+        "japanese": {
+          "name": "第六章【Noah】",
+          "description": "第六章をクリアした"
+        },
+        "schinese": {
+          "name": "第六章：Noah",
+          "description": "完成第六章。"
+        }
+      }
+    },
+    "ACH_END_CH07": {
+      "translations": {
+        "english": {
+          "name": "Chapter 7: psychopath",
+          "description": "Finished Chapter 7."
+        },
+        "japanese": {
+          "name": " 第七章【psychopath】",
+          "description": "第七章をクリアした"
+        },
+        "schinese": {
+          "name": "第七章：精神病态者",
+          "description": "完成第七章。"
+        }
+      }
+    },
+    "ACH_END_CH08": {
+      "translations": {
+        "english": {
+          "name": "Chapter 8: Ir2",
+          "description": "Finished Chapter 8."
+        },
+        "japanese": {
+          "name": "第八章【Ir2】",
+          "description": "第八章をクリアした"
+        },
+        "schinese": {
+          "name": "第八章：Ir2",
+          "description": "完成第八章。"
+        }
+      }
+    },
+    "ACH_END_CH09": {
+      "translations": {
+        "english": {
+          "name": "Chapter 9: giga-lo-maniac",
+          "description": "Finished Chapter 9."
+        },
+        "japanese": {
+          "name": "第九章【giga-lo-maniac】",
+          "description": "第九章をクリアした"
+        },
+        "schinese": {
+          "name": "第九章：giga-lo-maniac",
+          "description": "完成第九章。"
+        }
+      }
+    },
+    "ACH_ROUTE_REM": {
+      "translations": {
+        "english": {
+          "name": "Snap!",
+          "description": "Discovered Rimi's Story."
+        },
+        "japanese": {
+          "name": "ビシィ！",
+          "description": "梨深編を発見した"
+        },
+        "schinese": {
+          "name": "啪！",
+          "description": "发现梨深篇。"
+        }
+      }
+    },
+    "ACH_ROUTE_NAN": {
+      "translations": {
+        "english": {
+          "name": "Brother, You Jerk!",
+          "description": "Discovered Nanami's story."
+        },
+        "japanese": {
+          "name": "おにぃのバカ！",
+          "description": "七海編を発見した"
+        },
+        "schinese": {
+          "name": "哥哥，你这个笨蛋！",
+          "description": "发现七海篇。"
+        }
+      }
+    },
+    "ACH_ROUTE_AYA": {
+      "translations": {
+        "english": {
+          "name": "Pound in the Stake!",
+          "description": "Discovered Ayase's story."
+        },
+        "japanese": {
+          "name": "杭を打て",
+          "description": "あやせ編を発見した"
+        },
+        "schinese": {
+          "name": "把桩子钉下去！",
+          "description": "发现绫濑篇。"
+        }
+      }
+    },
+    "ACH_ROUTE_SEN": {
+      "translations": {
+        "english": {
+          "name": "Soda-Flavored Garugari-kun",
+          "description": "Discovered Sena's story."
+        },
+        "japanese": {
+          "name": "ガルガリ君ソーダ味",
+          "description": "セナ編を発見した"
+        },
+        "schinese": {
+          "name": "苏打味嘎哩嘎哩君",
+          "description": "发现世莉架篇。"
+        }
+      }
+    },
+    "ACH_ROUTE_KOZ": {
+      "translations": {
+        "english": {
+          "name": "Ker-Bam-Schwing!！",
+          "description": "Discovered Kozue's story."
+        },
+        "japanese": {
+          "name": "ドカバキグシャーッ",
+          "description": "梢編を発見した"
+        },
+        "schinese": {
+          "name": "砰啪咔嚓！",
+          "description": "发现梢篇。"
+        }
+      }
+    },
+    "ACH_ROUTE_YUA": {
+      "translations": {
+        "english": {
+          "name": "YOU RECOGNIZE IT, RIGHT?",
+          "description": "Discovered Yua's story."
+        },
+        "japanese": {
+          "name": "知・っ・て・る・よ・ね？",
+          "description": "優愛編を発見した"
+        },
+        "schinese": {
+          "name": "你认得出来，对吧？",
+          "description": "发现优爱篇。"
+        }
+      }
+    },
+    "ACH_END_REM": {
+      "translations": {
+        "english": {
+          "name": "Anima Archetype",
+          "description": "Reached Rimi's ending."
+        },
+        "japanese": {
+          "name": "【アニマの像】",
+          "description": "梨深とのエンディングに到達した"
+        },
+        "schinese": {
+          "name": "阿尼玛原型",
+          "description": "到达梨深的结局。"
+        }
+      }
+    },
+    "ACH_END_NAN": {
+      "translations": {
+        "english": {
+          "name": "daydream",
+          "description": "Reached Nanami's ending."
+        },
+        "japanese": {
+          "name": "【daydream】",
+          "description": "七海とのエンディングに到達した"
+        },
+        "schinese": {
+          "name": "白日梦",
+          "description": "到达七海的结局。"
+        }
+      }
+    },
+    "ACH_END_AYA": {
+      "translations": {
+        "english": {
+          "name": "A Bloody Contract for Your Sins",
+          "description": "Reached Ayase's ending."
+        },
+        "japanese": {
+          "name": "【罪過に契約の血を】",
+          "description": "あやせとのエンディングに到達した"
+        },
+        "schinese": {
+          "name": "为你的罪孽染血的契约",
+          "description": "到达绫濑的结局。"
+        }
+      }
+    },
+    "ACH_END_SEN": {
+      "translations": {
+        "english": {
+          "name": "Deus Ex Machina",
+          "description": "Reached Sena's ending."
+        },
+        "japanese": {
+          "name": "【デウス・エクス・マキナ】",
+          "description": "セナとのエンディングに到達した"
+        },
+        "schinese": {
+          "name": "机械降神",
+          "description": "到达世莉架的结局。"
+        }
+      }
+    },
+    "ACH_END_KOZ": {
+      "translations": {
+        "english": {
+          "name": "A Disease that Leads to Slaughter",
+          "description": "Reached Kozue's ending."
+        },
+        "japanese": {
+          "name": "【殺戮に至る病】",
+          "description": "梢とのエンディングに到達した"
+        },
+        "schinese": {
+          "name": "通往杀戮的疾病",
+          "description": "到达梢的结局。"
+        }
+      }
+    },
+    "ACH_END_YUA": {
+      "translations": {
+        "english": {
+          "name": "Moon and Sun",
+          "description": "Reached Yua's ending."
+        },
+        "japanese": {
+          "name": "【月と太陽】",
+          "description": "優愛とのエンディングに到達した"
+        },
+        "schinese": {
+          "name": "月与太阳",
+          "description": "到达优爱的结局。"
+        }
+      }
+    },
+    "ACH_END_A": {
+      "translations": {
+        "english": {
+          "name": "silent sky",
+          "description": "Reached Ending A."
+        },
+        "japanese": {
+          "name": "【silent sky】",
+          "description": "エンディングAに到達した"
+        },
+        "schinese": {
+          "name": "寂静之空",
+          "description": "到达结局 A。"
+        }
+      }
+    },
+    "ACH_END_B": {
+      "translations": {
+        "english": {
+          "name": "crying sky",
+          "description": "Reached Ending B."
+        },
+        "japanese": {
+          "name": "【crying sky】",
+          "description": "エンディングBに到達した"
+        },
+        "schinese": {
+          "name": "哭泣之空",
+          "description": "到达结局 B。"
+        }
+      }
+    },
+    "ACH_END_CH": {
+      "translations": {
+        "english": {
+          "name": "blue sky",
+          "description": "Reached the final ending."
+        },
+        "japanese": {
+          "name": "【blue sky】",
+          "description": "最後のエンディングに到達した"
+        },
+        "schinese": {
+          "name": "蓝色天空",
+          "description": "到达最终结局。"
+        }
+      }
+    },
+    "ACH_END_ALL": {
+      "translations": {
+        "english": {
+          "name": "Ending Complete",
+          "description": "Reached All ending."
+        },
+        "japanese": {
+          "name": "エンディングコンプリート",
+          "description": "全てのエンディングに到達した"
+        },
+        "schinese": {
+          "name": "完成所有结局",
+          "description": "到达全部结局。"
+        }
+      }
+    },
+    "ACH_CG_OPEN": {
+      "translations": {
+        "english": {
+          "name": "CG Complete",
+          "description": "Found all event CGs."
+        },
+        "japanese": {
+          "name": "CGコンプリート",
+          "description": "全てのイベント絵を見た"
+        },
+        "schinese": {
+          "name": "CG收集完成",
+          "description": "找到全部事件 CG。"
+        }
+      }
+    },
+    "ACH_Whose_eyes": {
+      "translations": {
+        "english": {
+          "name": "Whose Eyes Are Those?",
+          "description": "Found all the \"Whose Eyes Are Those?\""
+        },
+        "japanese": {
+          "name": "その目だれの目？",
+          "description": "「その目だれの目？」を全て見た"
+        },
+        "schinese": {
+          "name": "那是谁的眼睛？",
+          "description": "找到全部“那是谁的眼睛？”。"
+        }
+      }
+    },
+    "ACH_TR_POSI": {
+      "translations": {
+        "english": {
+          "name": "Positive Person",
+          "description": "Found all positive delusions."
+        },
+        "japanese": {
+          "name": "ポジティブ人間",
+          "description": "全てのポジティブ妄想を見た"
+        },
+        "schinese": {
+          "name": "正面妄想者",
+          "description": "找到全部正面妄想。"
+        }
+      }
+    },
+    "ACH_TR_NEGA": {
+      "translations": {
+        "english": {
+          "name": "Negative Person",
+          "description": "Found all negative delusions."
+        },
+        "japanese": {
+          "name": "ネガティブ人間",
+          "description": "全てのネガティブ妄想を見た"
+        },
+        "schinese": {
+          "name": "负面妄想者",
+          "description": "找到全部负面妄想。"
+        }
+      }
+    },
+    "ACH_SYNC_100": {
+      "translations": {
+        "english": {
+          "name": "Gigalomaniac",
+          "description": "Delusion Synchro Rate 100%"
+        },
+        "japanese": {
+          "name": "誇大妄想家",
+          "description": "妄想シンクロ率100%"
+        },
+        "schinese": {
+          "name": "妄想狂",
+          "description": "妄想同步率达到 100%。"
+        }
+      }
+    },
+    "ACH_SYNC_000": {
+      "translations": {
+        "english": {
+          "name": "Ria-ju",
+          "description": "Delusion Synchro Rate 0%"
+        },
+        "japanese": {
+          "name": "リア充",
+          "description": "妄想シンクロ率0%"
+        },
+        "schinese": {
+          "name": "现充",
+          "description": "妄想同步率达到 0%。"
+        }
+      }
+    },
+    "ACH_GLA": {
+      "translations": {
+        "english": {
+          "name": "Four-Eyes Fan",
+          "description": "Made Hazuki wear glasses."
+        },
+        "japanese": {
+          "name": " メガネスキー",
+          "description": "葉月にメガネを掛けさせた"
+        },
+        "schinese": {
+          "name": "眼镜控",
+          "description": "让叶月戴上眼镜。"
+        }
+      }
+    }
+  }
+}

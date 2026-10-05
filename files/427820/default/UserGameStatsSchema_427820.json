@@ -1,0 +1,954 @@
+{
+  "version": 1,
+  "app_id": "427820",
+  "variant_id": "default",
+  "source_sha256": "f7dae5316ad8f7aa297dacf58111fa022a726c2658f3082adebcf67ed590a49d",
+  "languages": [
+    "brazilian",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "portuguese",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "SILENT_ASSASSIN": {
+      "translations": {
+        "brazilian": {
+          "name": "Assassino Silencioso",
+          "description": "Complete todos os objetivos em todos os capítulos sem usar dicas."
+        },
+        "english": {
+          "name": "Silent Assassin",
+          "description": "Complete all objectives in all chapters without using a single hint."
+        },
+        "french": {
+          "name": "Assassin silencieux",
+          "description": "Compléter tous les objectifs dans tous les chapitres sans utiliser un seul indice."
+        },
+        "german": {
+          "name": "Stiller Killer",
+          "description": "Schließe alle Ziele in jedem Kapitel ab, ohne einen einzigen Tipp zu benutzen."
+        },
+        "italian": {
+          "name": "Assassino silenzioso",
+          "description": "Completa tutti gli obiettivi in tutti i capitoli senza usare un solo suggerimento."
+        },
+        "portuguese": {
+          "name": "Assassino Silencioso",
+          "description": "Complete todos os objetivos nos primeiros 3 capítulos."
+        },
+        "schinese": {
+          "name": "沉默刺客",
+          "description": "在不借助提示的情况下完成所有章节目标"
+        },
+        "spanish": {
+          "name": "Matarlas callando",
+          "description": "Completa todos los objetivos de todos los capítulos sin usar pistas."
+        }
+      }
+    },
+    "GAME_SET_MATCH": {
+      "translations": {
+        "brazilian": {
+          "name": "Game-Set-Partida",
+          "description": "Complete todos os objetivos no primeiro capítulo."
+        },
+        "english": {
+          "name": "Game-Set-Match",
+          "description": "Complete all objectives in the first box."
+        },
+        "french": {
+          "name": "Grand Chelem",
+          "description": "Complétez tous les objectifs du chapitre 1."
+        },
+        "german": {
+          "name": "Spiel, Satz und Sieg",
+          "description": "Erfüllen Sie alle Ziele im ersten Kapitel."
+        },
+        "italian": {
+          "name": "Punto partita",
+          "description": "Completa tutti gli obiettivi del primo capitolo."
+        },
+        "portuguese": {
+          "name": "Game-Set-Partida",
+          "description": "Complete todos os objetivos no primeiro capítulo."
+        },
+        "schinese": {
+          "name": "赢下比赛",
+          "description": "完成第一个盒子里的所有目标"
+        },
+        "spanish": {
+          "name": "Juego, set y partido",
+          "description": "Completa todos los objetivos del primer capítulo."
+        }
+      }
+    },
+    "PARTYS_OVER": {
+      "translations": {
+        "brazilian": {
+          "name": "Acabou a Festa",
+          "description": "Complete todos os objetivos no segundo capítulo."
+        },
+        "english": {
+          "name": "Party's Over",
+          "description": "Complete all objectives in the second box."
+        },
+        "french": {
+          "name": "La fête est finie",
+          "description": "Complétez tous les objectifs du chapitre 2."
+        },
+        "german": {
+          "name": "Die Party ist vorbei",
+          "description": "Erfüllen Sie alle Ziele im zweiten Kapitel."
+        },
+        "italian": {
+          "name": "La festa è finita",
+          "description": "Completa tutti gli obiettivi del secondo capitolo."
+        },
+        "portuguese": {
+          "name": "Acabou a Festa",
+          "description": "Complete todos os objetivos no segundo capítulo."
+        },
+        "schinese": {
+          "name": "派对结束",
+          "description": "完成第二个盒子里的所有目标"
+        },
+        "spanish": {
+          "name": "Se acabó la fiesta",
+          "description": "Completa todos los objetivos del segundo capítulo."
+        }
+      }
+    },
+    "WEDDING_CRASHER": {
+      "translations": {
+        "brazilian": {
+          "name": "Os Penetras",
+          "description": "Complete todos os objetivos no terceiro capítulo."
+        },
+        "english": {
+          "name": "Wedding Crasher",
+          "description": "Complete all objectives in the third box."
+        },
+        "french": {
+          "name": "Enterrement de vie de garçon",
+          "description": "Complétez tous les objectifs du chapitre 3."
+        },
+        "german": {
+          "name": "Hochzeits-Crasher",
+          "description": "Erfüllen Sie alle Ziele im dritten Kapitel."
+        },
+        "italian": {
+          "name": "Imbucato",
+          "description": "Completa tutti gli obiettivi del terzo capitolo."
+        },
+        "portuguese": {
+          "name": "Os Penetras",
+          "description": "Complete todos os objetivos no terceiro capítulo."
+        },
+        "schinese": {
+          "name": "婚礼傲客",
+          "description": "完成第三个盒子里的所有目标"
+        },
+        "spanish": {
+          "name": "¿Por el novio o por la novia?",
+          "description": "Completa todos los objetivos del tercer capítulo."
+        }
+      }
+    },
+    "FLESH_WOUND": {
+      "translations": {
+        "brazilian": {
+          "name": "Ferida Aberta",
+          "description": "Morra pelo menos 200 vezes."
+        },
+        "english": {
+          "name": "Flesh Wound",
+          "description": "Die at least 200 times."
+        },
+        "french": {
+          "name": "Juste une égratignure",
+          "description": "Faites-vous tuer au moins 200 fois."
+        },
+        "german": {
+          "name": "Fleischwunde",
+          "description": "Sterben Sie mindestens 200-mal."
+        },
+        "italian": {
+          "name": "Ferito a morte",
+          "description": "Muori almeno 200 volte."
+        },
+        "portuguese": {
+          "name": "Ferida Aberta",
+          "description": "Morra pelo menos 200 vezes."
+        },
+        "schinese": {
+          "name": "皮肉之伤",
+          "description": "死至少 200 次"
+        },
+        "spanish": {
+          "name": "Algún que otro rasguño",
+          "description": "Muere al menos 200 veces."
+        }
+      }
+    },
+    "FLASH_MOB": {
+      "translations": {
+        "brazilian": {
+          "name": "Flashmob",
+          "description": "Mate 5 inimigos de uma vez."
+        },
+        "english": {
+          "name": "Flashmob",
+          "description": "Kill 5 enemies at once."
+        },
+        "french": {
+          "name": "Cinq d'un coup !",
+          "description": "Éliminez 5 ennemis d'un coup."
+        },
+        "german": {
+          "name": "Flashmob",
+          "description": "Töten Sie 5 Feinde gleichzeitig."
+        },
+        "italian": {
+          "name": "Blitz",
+          "description": "Uccidi 5 nemici in un colpo solo."
+        },
+        "portuguese": {
+          "name": "Flashmob",
+          "description": "Mate 5 inimigos de uma vez."
+        },
+        "schinese": {
+          "name": "快闪活动",
+          "description": "一次击杀 5 个人"
+        },
+        "spanish": {
+          "name": "Cinco pájaros de un tiro",
+          "description": "Mata a 5 enemigos a la vez."
+        }
+      }
+    },
+    "TIME_WASTER": {
+      "translations": {
+        "brazilian": {
+          "name": "Perda de Tempo",
+          "description": "Jogue pelo menos 100 turnos em um único nível."
+        },
+        "english": {
+          "name": "Time Waster",
+          "description": "Play for at least 100 turns in a single level."
+        },
+        "french": {
+          "name": "Indécis",
+          "description": "Effectuez au moins 100 tours dans un niveau."
+        },
+        "german": {
+          "name": "Zeitverschwendung",
+          "description": "Spielen Sie mindestens 100 Züge in einem einzigen Level."
+        },
+        "italian": {
+          "name": "Perditempo",
+          "description": "Gioca per almeno 100 turni in un solo livello."
+        },
+        "portuguese": {
+          "name": "Perda de Tempo",
+          "description": "Jogue pelo menos 100 turnos em um único nível."
+        },
+        "schinese": {
+          "name": "时间杀手",
+          "description": "在一个关卡中行走至少 100 步"
+        },
+        "spanish": {
+          "name": "Perdiendo el tiempo",
+          "description": "Juega al menos 100 turnos en un único nivel."
+        }
+      }
+    },
+    "MARATHON_RUNNER": {
+      "translations": {
+        "brazilian": {
+          "name": "Maratonista",
+          "description": "Jogue pelo menos 5.000 turnos."
+        },
+        "english": {
+          "name": "Marathon Runner",
+          "description": "Play for at least 5,000 turns."
+        },
+        "french": {
+          "name": "Coureur de fond",
+          "description": "Effectuez au moins 5 000 tours."
+        },
+        "german": {
+          "name": "Marathonläufer",
+          "description": "Spielen Sie mindestens 5.000 Züge."
+        },
+        "italian": {
+          "name": "Maratoneta",
+          "description": "Gioca per almeno 5000 turni."
+        },
+        "portuguese": {
+          "name": "Maratonista",
+          "description": "Jogue pelo menos 5.000 turnos."
+        },
+        "schinese": {
+          "name": "马拉松选手",
+          "description": "行走 5000 步"
+        },
+        "spanish": {
+          "name": "Zancada a zancada",
+          "description": "Juega al menos 5.000 turnos."
+        }
+      }
+    },
+    "THE_LONG_WALK": {
+      "translations": {
+        "brazilian": {
+          "name": "A Longa Marcha",
+          "description": "Jogue pelo menos 1.000 turnos."
+        },
+        "english": {
+          "name": "The Long Walk",
+          "description": "Play for at least 1,000 turns."
+        },
+        "french": {
+          "name": "Une longue balade",
+          "description": "Effectuez au moins 1 000 tours."
+        },
+        "german": {
+          "name": "Der lange Marsch",
+          "description": "Spielen Sie mindestens 1.000 Züge."
+        },
+        "italian": {
+          "name": "La lunga marcia",
+          "description": "Gioca per almeno 1000 turni."
+        },
+        "portuguese": {
+          "name": "A Longa Marcha",
+          "description": "Jogue pelo menos 1.000 turnos."
+        },
+        "schinese": {
+          "name": "漫漫长途",
+          "description": "行走 1000 步"
+        },
+        "spanish": {
+          "name": "Paso a paso",
+          "description": "Juega al menos 1.000 turnos."
+        }
+      }
+    },
+    "FASHIONISTA": {
+      "translations": {
+        "brazilian": {
+          "name": "Fashionista",
+          "description": "Use todos os três tipos de disfarces."
+        },
+        "english": {
+          "name": "Fashionista",
+          "description": "Worn all three disguise types."
+        },
+        "french": {
+          "name": "Victime de la mode",
+          "description": "Portez au moins trois déguisements."
+        },
+        "german": {
+          "name": "Fashionista",
+          "description": "Tragen Sie alle drei Verkleidungsarten."
+        },
+        "italian": {
+          "name": "Grande stile",
+          "description": "Indossa tre tipi di travestimenti."
+        },
+        "portuguese": {
+          "name": "Fashionista",
+          "description": "Use todos os três tipos de disfarces."
+        },
+        "schinese": {
+          "name": "时尚达人",
+          "description": "换上全部三件伪装"
+        },
+        "spanish": {
+          "name": "Vestido para la ocasión",
+          "description": "Usa los tres tipos de disfraces."
+        }
+      }
+    },
+    "DEAD_END": {
+      "translations": {
+        "brazilian": {
+          "name": "Sem Saída",
+          "description": "Mate 100 inimigos Patrulheiros (amarelo)."
+        },
+        "english": {
+          "name": "Dead End",
+          "description": "Kill 100 Patrol (Yellow) enemies."
+        },
+        "french": {
+          "name": "Impasse",
+          "description": "Éliminez 100 ennemis en patrouille (en jaune)."
+        },
+        "german": {
+          "name": "Sackgasse",
+          "description": "Töten Sie 100 patrouillierende Feinde (Gelb)."
+        },
+        "italian": {
+          "name": "Vicolo cieco",
+          "description": "Uccidi 100 nemici in movimento (gialli)."
+        },
+        "portuguese": {
+          "name": "Sem Saída",
+          "description": "Mate 100 inimigos Patrulheiros (amarelo)."
+        },
+        "schinese": {
+          "name": "死胡同",
+          "description": "杀死 100 名巡逻队（黄色）敌人"
+        },
+        "spanish": {
+          "name": "Callejón sin salida",
+          "description": "Mata a 100 enemigos patrulleros (amarillo)."
+        }
+      }
+    },
+    "BRAIN_FREEZE": {
+      "translations": {
+        "brazilian": {
+          "name": "Congelamento Cerebral",
+          "description": "Mate 100 inimigos Estáticos (azul)."
+        },
+        "english": {
+          "name": "Brain Freeze",
+          "description": "Kill 100 Static (Blue) enemies."
+        },
+        "french": {
+          "name": "Sueurs froides",
+          "description": "Éliminez 100 ennemis immobiles (en bleu)."
+        },
+        "german": {
+          "name": "Gehirnfrost",
+          "description": "Töten Sie 100 stationäre Feinde (Blau)."
+        },
+        "italian": {
+          "name": "A bruciapelo",
+          "description": "Uccidi 100 nemici immobili (blu)."
+        },
+        "portuguese": {
+          "name": "Congelamento Cerebral",
+          "description": "Mate 100 inimigos Estáticos (azul)."
+        },
+        "schinese": {
+          "name": "思维冻结",
+          "description": "消灭 100 个静止（蓝色）敌人"
+        },
+        "spanish": {
+          "name": "Más tieso que nunca",
+          "description": "Mata a 100 enemigos estáticos (azul)."
+        }
+      }
+    },
+    "NOW_YOU_SEE_ME": {
+      "translations": {
+        "brazilian": {
+          "name": "Agora Você Me Vê...",
+          "description": "Mate 100 inimigos de Esquina (verde-azulado)."
+        },
+        "english": {
+          "name": "Now You See Me...",
+          "description": "Kill 100 Turning (Teal) enemies."
+        },
+        "french": {
+          "name": "Tour de passe-passe",
+          "description": "Éliminez 100 ennemis pivotants (en turquoise)."
+        },
+        "german": {
+          "name": "Jetzt seht ihr mich ...",
+          "description": "Töten Sie 100 sich Ihnen zuwendende Feinde (Türkis)."
+        },
+        "italian": {
+          "name": "Ora mi vedi...",
+          "description": "Uccidi 100 nemici distratti (turchesi)."
+        },
+        "portuguese": {
+          "name": "Agora Você Me Vê...",
+          "description": "Mate 100 inimigos de Esquina (verde-azulado)."
+        },
+        "schinese": {
+          "name": "现在你看到我了……",
+          "description": "击杀 100 名转向（蓝绿色）的敌人"
+        },
+        "spanish": {
+          "name": "Ahora me ves, ahora no me ves",
+          "description": "Mata a 100 enemigos giratorios (verde azulado)."
+        }
+      }
+    },
+    "SALE_B2G1": {
+      "translations": {
+        "brazilian": {
+          "name": "Oferta: B2G1",
+          "description": "Mate 100 inimigos em Par (cinza)."
+        },
+        "english": {
+          "name": "Sale: B2G1",
+          "description": "Kill 100 Pair (Grey) enemies."
+        },
+        "french": {
+          "name": "Deux pour le prix d'un",
+          "description": "Éliminez 100 paires d'ennemis (en gris)."
+        },
+        "german": {
+          "name": "Zwei zum Preis von Einem",
+          "description": "Töten Sie 100 Paar-Feinde (Grau)."
+        },
+        "italian": {
+          "name": "Due al prezzo di uno",
+          "description": "Uccidi 100 coppie di nemici (grigi)."
+        },
+        "portuguese": {
+          "name": "Oferta: B2G1",
+          "description": "Mate 100 inimigos em Par (cinza)."
+        },
+        "schinese": {
+          "name": "买二赠一",
+          "description": "杀死 100 名成对（灰色）敌人"
+        },
+        "spanish": {
+          "name": "Oferta 2 x 1",
+          "description": "Mata a 100 enemigos emparejados (gris)."
+        }
+      }
+    },
+    "TRIGGER_HAPPY": {
+      "translations": {
+        "brazilian": {
+          "name": "Armas Engatilhadas",
+          "description": "Mate 100 inimigos usando as Silverballers."
+        },
+        "english": {
+          "name": "Trigger Happy",
+          "description": "Kill 100 enemies using the Silverballers."
+        },
+        "french": {
+          "name": "Tout feu tout flamme",
+          "description": "Éliminez 100 ennemis à l'aide des Silverballers."
+        },
+        "german": {
+          "name": "Schießfreudig",
+          "description": "Töten Sie 100 Feinde mit den Silverballers."
+        },
+        "italian": {
+          "name": "Grilletto facile",
+          "description": "Uccidi 100 nemici a colpi di Silverballer."
+        },
+        "portuguese": {
+          "name": "Armas Engatilhadas",
+          "description": "Mate 100 inimigos usando as Silverballers."
+        },
+        "schinese": {
+          "name": "好战的",
+          "description": "用银色舞者击杀 100 名敌人"
+        },
+        "spanish": {
+          "name": "De gatillo fácil",
+          "description": "Mata a 100 enemigos usando las pistolas Silverballers."
+        }
+      }
+    },
+    "TWO_FOR_ONE": {
+      "translations": {
+        "brazilian": {
+          "name": "Dois por Um",
+          "description": "Mate 2 inimigos de uma vez."
+        },
+        "english": {
+          "name": "Two For One",
+          "description": "Killed 2 enemies at once."
+        },
+        "french": {
+          "name": "D'une pierre deux coups",
+          "description": "Éliminez  2 ennemis d'un coup."
+        },
+        "german": {
+          "name": "Zwei Fliegen mit einer Klappe",
+          "description": "Töten Sie 2 Feinde gleichzeitig."
+        },
+        "italian": {
+          "name": "Due alla volta",
+          "description": "Uccidi 2 nemici in un colpo solo."
+        },
+        "portuguese": {
+          "name": "Dois por Um",
+          "description": "Mate 2 inimigos de uma vez."
+        },
+        "schinese": {
+          "name": "买一送一",
+          "description": "一次击杀 2 名敌人"
+        },
+        "spanish": {
+          "name": "Dos pájaros de un tiro",
+          "description": "Mata a 2 enemigos a la vez."
+        }
+      }
+    },
+    "CREEPY_CRAWLER": {
+      "translations": {
+        "brazilian": {
+          "name": "Rastejador Nojento",
+          "description": "Mate um inimigo ao sair de uma Passagem Secreta."
+        },
+        "english": {
+          "name": "Creepy Crawler",
+          "description": "Killed an enemy by emerging from a Secret Passage."
+        },
+        "french": {
+          "name": "Surprise !",
+          "description": "Éliminez un ennemi en sortant d'un passage secret."
+        },
+        "german": {
+          "name": "Gruseliger Kriecher",
+          "description": "Töten Sie einen Feind, indem Sie aus einem Geheimgang kommen."
+        },
+        "italian": {
+          "name": "Attacco a sorpresa",
+          "description": "Uccidi un nemico sbucando da un passaggio segreto."
+        },
+        "portuguese": {
+          "name": "Rastejador Nojento",
+          "description": "Mate um inimigo ao sair de uma Passagem Secreta."
+        },
+        "schinese": {
+          "name": "蠕行诡影",
+          "description": "从秘密通道突然出现并击杀一名敌人"
+        },
+        "spanish": {
+          "name": "Como salido de la nada",
+          "description": "Mata a un enemigo al salir de un pasadizo secreto."
+        }
+      }
+    },
+    "HINT_REBEL": {
+      "translations": {
+        "brazilian": {
+          "name": "Rebelde das Dicas",
+          "description": "Use uma dica, ignore as instruções, mas termine o nível ainda assim."
+        },
+        "english": {
+          "name": "Hint Rebel",
+          "description": "Used a hint, ignored the instructions but finished the level..."
+        },
+        "french": {
+          "name": "Borné",
+          "description": "Utilisez un indice, ignorez les instructions mais finissez le niveau."
+        },
+        "german": {
+          "name": "Hinweis-Rebell",
+          "description": "Nutzen Sie einen Hinweis, ignorieren die Anweisungen und schließen den Level trotzdem ab."
+        },
+        "italian": {
+          "name": "Ribelle",
+          "description": "Leggi un suggerimento, non seguirlo e completa lo stesso il livello."
+        },
+        "portuguese": {
+          "name": "Rebelde das Dicas",
+          "description": "Use uma dica, ignore as instruções, mas termine o nível ainda assim."
+        },
+        "schinese": {
+          "name": "反抗提示",
+          "description": "使用提示，忽略它但仍然完成了目标"
+        },
+        "spanish": {
+          "name": "¿Quién necesita pistas?",
+          "description": "Usa una pista y termina el nivel sin seguir las instrucciones."
+        }
+      }
+    },
+    "LITTERBUG": {
+      "translations": {
+        "brazilian": {
+          "name": "Sujão",
+          "description": "Jogue um objeto sem avisar ninguém."
+        },
+        "english": {
+          "name": "Litterbug",
+          "description": "Throw an object without alerting anyone."
+        },
+        "french": {
+          "name": "Pollueur",
+          "description": "Jetez un objet sans vous faire remarquer."
+        },
+        "german": {
+          "name": "Umweltverschmutzer",
+          "description": "Werfen Sie ein Objekt, ohne jemanden zu alarmieren."
+        },
+        "italian": {
+          "name": "Diversivo",
+          "description": "Lancia un oggetto senza farti notare."
+        },
+        "portuguese": {
+          "name": "Sujão",
+          "description": "Jogue um objeto sem avisar ninguém."
+        },
+        "schinese": {
+          "name": "垃圾虫",
+          "description": "扔一个东西没有引起任何人的警觉"
+        },
+        "spanish": {
+          "name": "De extranjis",
+          "description": "Lanza un objeto sin alertar a nadie."
+        }
+      }
+    },
+    "DEAL_BREAKER": {
+      "translations": {
+        "brazilian": {
+          "name": "Quebra de Acordo",
+          "description": "Complete todos os objetivos no quarto capítulo."
+        },
+        "english": {
+          "name": "Deal Breaker",
+          "description": "Complete all objectives in the fourth chapter."
+        },
+        "french": {
+          "name": "Un contrat est un contrat",
+          "description": "Complétez tous les objectifs du chapitre 4."
+        },
+        "german": {
+          "name": "Deal Breaker",
+          "description": "Erfüllen Sie alle Ziele im vierten Kapitel."
+        },
+        "italian": {
+          "name": "Punto di rottura",
+          "description": "Completa tutti gli obiettivi del quarto capitolo."
+        },
+        "portuguese": {
+          "name": "Quebra de Acordo",
+          "description": "Complete todos os objetivos no quarto capítulo."
+        },
+        "schinese": {
+          "name": "交易破坏者",
+          "description": "完成第四个盒子里的所有目标"
+        },
+        "spanish": {
+          "name": "Así no hay trato",
+          "description": "Completa todos los objetivos del cuarto capítulo."
+        }
+      }
+    },
+    "DOG_WHISPERER": {
+      "translations": {
+        "brazilian": {
+          "name": "Encantador de Cães",
+          "description": "Seja perseguido por três cães de guarda simultaneamente."
+        },
+        "english": {
+          "name": "Dog Whisperer",
+          "description": "Get chased by three guard dogs simultaneously."
+        },
+        "french": {
+          "name": "Chienne de vie",
+          "description": "Faites-vous pourchasser par trois chiens de garde à la fois."
+        },
+        "german": {
+          "name": "Hundeflüsterer",
+          "description": "Werden Sie von drei Wachhunden gleichzeitig gejagt."
+        },
+        "italian": {
+          "name": "Can che abbaia...",
+          "description": "Fatti inseguire da tre cani da guardia nello stesso momento."
+        },
+        "portuguese": {
+          "name": "Encantador de Cães",
+          "description": "Seja perseguido por três cães de guarda simultaneamente."
+        },
+        "schinese": {
+          "name": "狗语者",
+          "description": "同时被三只护卫犬追赶"
+        },
+        "spanish": {
+          "name": "El encantador de perros",
+          "description": "Sé perseguido por tres perros guardianes a la vez."
+        }
+      }
+    },
+    "CONTROLLED_DEMOLITION": {
+      "translations": {
+        "brazilian": {
+          "name": "Demolição Controlada",
+          "description": "Esmague três inimigos embaixo de uma estátua caindo."
+        },
+        "english": {
+          "name": "Controlled Demolition",
+          "description": "Crush three enemies under a falling statue."
+        },
+        "french": {
+          "name": "Pierre tombale",
+          "description": "Écrasez trois ennemis sous une statue."
+        },
+        "german": {
+          "name": "Kontrollierte Zerstörung",
+          "description": "Begraben Sie drei Feinde unter einer fallenden Statue."
+        },
+        "italian": {
+          "name": "Demolizione controllata",
+          "description": "Schiaccia tre nemici sotto una statua."
+        },
+        "portuguese": {
+          "name": "Demolição Controlada",
+          "description": "Esmague três inimigos embaixo de uma estátua caindo."
+        },
+        "schinese": {
+          "name": "定向爆破",
+          "description": "用倒下的雕像压死三个敌人"
+        },
+        "spanish": {
+          "name": "Derribo controlado",
+          "description": "Aplasta a tres enemigos al derribar una estatua."
+        }
+      }
+    },
+    "CURTAINS_DOWN": {
+      "translations": {
+        "brazilian": {
+          "name": "Cortinas Fechadas",
+          "description": "Complete todos os objetivos no quinto capítulo."
+        },
+        "english": {
+          "name": "Curtains Down",
+          "description": "Complete all objectives in the opera chapter."
+        },
+        "french": {
+          "name": "Dernier acte",
+          "description": "Complétez tous les objectifs du chapitre 5."
+        },
+        "german": {
+          "name": "Der letzte Akt",
+          "description": "Erfüllen Sie alle Ziele im fünften Kapitel."
+        },
+        "italian": {
+          "name": "Giù il sipario!",
+          "description": "Completa tutti gli obiettivi del quinto capitolo."
+        },
+        "portuguese": {
+          "name": "Cortinas Fechadas",
+          "description": "Complete todos os objetivos no quinto capítulo."
+        },
+        "schinese": {
+          "name": "落幕",
+          "description": "完成歌剧院章节中的所有目标"
+        },
+        "spanish": {
+          "name": "Abajo el telón",
+          "description": "Completa todos los objetivos del quinto capítulo."
+        }
+      }
+    },
+    "RED_EYE": {
+      "translations": {
+        "brazilian": {
+          "name": "Olho Vermelho",
+          "description": "Complete todos os objetivos no sexto capítulo."
+        },
+        "english": {
+          "name": "Red-Eye",
+          "description": "Complete all objectives in the sixth chapter."
+        },
+        "french": {
+          "name": "Vol de nuit",
+          "description": "Complétez tous les objectifs du chapitre 6."
+        },
+        "german": {
+          "name": "Rotes Auge",
+          "description": "Erfüllen Sie alle Ziele im sechsten Kapitel."
+        },
+        "italian": {
+          "name": "Occhi rossi",
+          "description": "Completa tutti gli obiettivi del sesto capitolo."
+        },
+        "portuguese": {
+          "name": "Olho Vermelho",
+          "description": "Complete todos os objetivos no sexto capítulo."
+        },
+        "schinese": {
+          "name": "红眼航班",
+          "description": "完成第六个盒子里的所有目标"
+        },
+        "spanish": {
+          "name": "Último vuelo",
+          "description": "Completa todos los objetivos del sexto capítulo."
+        }
+      }
+    },
+    "LAZY_47": {
+      "translations": {
+        "brazilian": {
+          "name": "47 Preguiçoso",
+          "description": "Seja empurrado por 100 passos."
+        },
+        "english": {
+          "name": "Lazy 47",
+          "description": "Get pushed 100 steps."
+        },
+        "french": {
+          "name": "Flemmard",
+          "description": "Faites-vous déplacer de 100 cases."
+        },
+        "german": {
+          "name": "Fauler 47",
+          "description": "Lassen Sie sich 100 Schritte bewegen."
+        },
+        "italian": {
+          "name": "Pigro 47",
+          "description": "Fatti trasportare per 100 posizioni."
+        },
+        "portuguese": {
+          "name": "47 Preguiçoso",
+          "description": "Seja empurrado por 100 passos."
+        },
+        "schinese": {
+          "name": "懒惰的 47",
+          "description": "被推着走100步"
+        },
+        "spanish": {
+          "name": "47 vago",
+          "description": "Pasa por 100 posiciones en un pasillo rodante."
+        }
+      }
+    },
+    "MEETING_ADJOURNED": {
+      "translations": {
+        "brazilian": {
+          "name": "Reunião Adiada",
+          "description": "Complete todos os objetivos no sétimo capítulo."
+        },
+        "english": {
+          "name": "Meeting Ajourned",
+          "description": "Complete all objectives in the St. Petersburg Stakeout Chapter."
+        },
+        "french": {
+          "name": "La séance est levée",
+          "description": "Complétez tous les objectifs du chapitre 7."
+        },
+        "german": {
+          "name": "Versammlung vertagt",
+          "description": "Erfüllen Sie alle Ziele im siebten Kapitel."
+        },
+        "italian": {
+          "name": "Incontro rimandato",
+          "description": "Completa tutti gli obiettivi del settimo capitolo."
+        },
+        "portuguese": {
+          "name": "Reunião Adiada",
+          "description": "Complete todos os objetivos no sétimo capítulo."
+        },
+        "schinese": {
+          "name": "任务中止",
+          "description": "完成圣彼得堡监视章节中的所有目标"
+        },
+        "spanish": {
+          "name": "Reunión aplazada",
+          "description": "Completa todos los objetivos del séptimo capítulo."
+        }
+      }
+    }
+  }
+}

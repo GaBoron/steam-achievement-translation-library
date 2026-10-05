@@ -1,0 +1,2073 @@
+{
+  "version": 1,
+  "app_id": "346110",
+  "variant_id": "default",
+  "source_sha256": "55a0ff19308f995e02f8b2a74057b5fb93a842d375bd84ac1e2349133f39c1d5",
+  "languages": [
+    "brazilian",
+    "czech",
+    "english",
+    "finnish",
+    "french",
+    "german",
+    "hungarian",
+    "italian",
+    "koreana",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish",
+    "turkish",
+    "ukrainian"
+  ],
+  "achievements": {
+    "ACHIEVEMENT_1": {
+      "translations": {
+        "brazilian": {
+          "name": "Paleontólogo Veterano",
+          "description": "Você encontrou os Dossiês de cada um dos espécimes iniciais do ARK!"
+        },
+        "czech": {
+          "name": "Paleontolog Veterán",
+          "description": "Našel jsi Spisy každého exempláře ARKu!"
+        },
+        "english": {
+          "name": "Veteran Paleontologist",
+          "description": "You found the Dossiers of each of ARK's initial Specimens!"
+        },
+        "finnish": {
+          "name": "Veteraani Paleontologi",
+          "description": "Löysit kaikkien ARKin eliöiden tiedot!"
+        },
+        "french": {
+          "name": "Paléontologue vétéran",
+          "description": "Vous avez trouvé les Dossiers de chacun des échantillons initiaux de ARK !"
+        },
+        "german": {
+          "name": "Veteran Paläontologe",
+          "description": "Du hast die Dossiers von allen ARK Spezies gefunden!"
+        },
+        "hungarian": {
+          "name": "Veterán Paleontológus",
+          "description": "Megtaláltad az ARK minden példányának a dossziéját!"
+        },
+        "italian": {
+          "name": "Paleontologo veterano",
+          "description": "Hai trovato i fascicoli di tutte le specie iniziali di ARK!"
+        },
+        "koreana": {
+          "name": "베테랑 고생물학자",
+          "description": "ARK의 초기 표본 각각에 대한 문서를 발견했습니다!"
+        },
+        "polish": {
+          "name": "Weteran Paleontolog",
+          "description": "Znalazłeś akta wszystkich gatunków z ARK!"
+        },
+        "russian": {
+          "name": "Заслуженный палеонтолог",
+          "description": "Вы собрали досье всех первоначальных существ!"
+        },
+        "schinese": {
+          "name": "资深古生物学家",
+          "description": "你找到了 ARK 初始物种的所有档案！"
+        },
+        "spanish": {
+          "name": "Paleontólogo Veterano",
+          "description": "¡Has encontrado los Dosieres de cada espécimen inicial de Ark!"
+        },
+        "turkish": {
+          "name": "Kıdemli Paleontolog",
+          "description": "ARK'ın ilk numunelerinin her bir dosyasını buldun!"
+        },
+        "ukrainian": {
+          "name": "Ветеран палеонтології",
+          "description": "Ви зібрали досьє на всіх істот!"
+        }
+      }
+    },
+    "ACHIEVEMENT_2": {
+      "translations": {
+        "brazilian": {
+          "name": "Sobrevivente Veterano",
+          "description": "Você derrotou o primeiro Guardião do ARK!"
+        },
+        "czech": {
+          "name": "Přeživší Veterán",
+          "description": "Porazil jsi prvního Strážce ARKu!"
+        },
+        "english": {
+          "name": "Veteran Survivor",
+          "description": "You defeated ARK's first Guardian!"
+        },
+        "finnish": {
+          "name": "Veteraani Selviytyjä",
+          "description": "Päihitit ARKin ensimmäisen Vartijan!"
+        },
+        "french": {
+          "name": "Survivant vétéran",
+          "description": "Vous avez vaincu le premier gardien !"
+        },
+        "german": {
+          "name": "Überlebensveteran",
+          "description": "Du hast ARKs ersten Wächter besiegt!"
+        },
+        "hungarian": {
+          "name": "Veterán Túlélő",
+          "description": "Legyőzted az ARK első Örzőjét!"
+        },
+        "italian": {
+          "name": "Sopravvissuto veterano",
+          "description": "Hai sconfitto il primo guardiano di ARK!"
+        },
+        "koreana": {
+          "name": "베테랑 생존가",
+          "description": "ARK의 첫 번째 수호자를 물리쳤습니다!"
+        },
+        "polish": {
+          "name": "Weteran Przetrwania",
+          "description": "Pokonaj pierwszego Strażnika ARK!"
+        },
+        "russian": {
+          "name": "Ветеран выживания",
+          "description": "Вы одолели первого стража!"
+        },
+        "schinese": {
+          "name": "资深幸存者",
+          "description": "你击败了 ARK 的第一位守护者！"
+        },
+        "spanish": {
+          "name": "Superviviente Veterano",
+          "description": "¡Has derrotado al primer Guardian del Ark!"
+        },
+        "turkish": {
+          "name": "Kıdemli Savaşçı",
+          "description": "ARK'ın ilk Muhafızını yendin!"
+        },
+        "ukrainian": {
+          "name": "Ветеран з виживання",
+          "description": "Ви здолали першого вартового!"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_4": {
+      "translations": {
+        "brazilian": {
+          "name": "Arqueólogo de Artefatos",
+          "description": "Você recuperou pessoalmente todos os Artefatos!"
+        },
+        "czech": {
+          "name": "Archeolog artefaktů",
+          "description": "Osobně jsi získal všechny artefakty!"
+        },
+        "english": {
+          "name": "Artifact Archaeologist",
+          "description": "You personally retrieved all the Artifacts!"
+        },
+        "finnish": {
+          "name": "Artefaktiarkeologi",
+          "description": "Keräsit kaikki Artefaktit!"
+        },
+        "french": {
+          "name": "Archéologue de l’artefact",
+          "description": "Vous avez récupéré tous les artefacts !"
+        },
+        "german": {
+          "name": "Artefakt Archäologe",
+          "description": "Du hast persönlich alle Artefakte gesammelt!"
+        },
+        "hungarian": {
+          "name": "Ereklye Régész",
+          "description": "Személyesen elhoztad az összes Ereklyét!"
+        },
+        "italian": {
+          "name": "Archeologo di artefatti",
+          "description": "Hai trovato tutti gli artefatti!"
+        },
+        "koreana": {
+          "name": "유물 고고학자",
+          "description": "당신은 모든 유물을 회수했습니다!"
+        },
+        "polish": {
+          "name": "Archeolog artefaktów",
+          "description": "Osobiście odnajdź wszystkie Artefakty!"
+        },
+        "russian": {
+          "name": "Коллекционер артефактов",
+          "description": "Вы собрали все артефакты!"
+        },
+        "schinese": {
+          "name": "神器考古学家",
+          "description": "你亲自取回了所有神器！"
+        },
+        "spanish": {
+          "name": "Arqueólogo de Artefactos",
+          "description": "¡Has conseguido personalmente todos los Artefactos!"
+        },
+        "turkish": {
+          "name": "Eser Arkeoloğu",
+          "description": "Bütün Eserleri topladın!"
+        },
+        "ukrainian": {
+          "name": "Археолог",
+          "description": "Ви особисто зібрали всі артефакти!"
+        }
+      }
+    },
+    "ACHIEVEMENT_5": {
+      "translations": {
+        "brazilian": {
+          "name": "Sobrevivente Especialista",
+          "description": "Você derrotou o segundo Guardião do ARK!"
+        },
+        "czech": {
+          "name": "Expertní přeživší",
+          "description": "Porazil jsi druhého Strážce ARKu!"
+        },
+        "english": {
+          "name": "Expert Survivor",
+          "description": "You defeated ARK's second Guardian!"
+        },
+        "finnish": {
+          "name": "Ekspertti Selviytyjä",
+          "description": "Päihitit ARKin toisen Vartijan!"
+        },
+        "french": {
+          "name": "Survivant expert",
+          "description": "Vous avez vaincu le second gardien !"
+        },
+        "german": {
+          "name": "Überlebensexperte",
+          "description": "Du hast ARKs zweiten Wächter besiegt!"
+        },
+        "hungarian": {
+          "name": "Szakértő Túlélő",
+          "description": "Legyőzted az ARK második Örzőjét!"
+        },
+        "italian": {
+          "name": "Sopravvissuto esperto",
+          "description": "Hai sconfitto il secondo guardiano di ARK!"
+        },
+        "koreana": {
+          "name": "전문 생존가",
+          "description": "ARK의 두 번째 수호자를 물리쳤습니다!"
+        },
+        "polish": {
+          "name": "Ekspert ds. przetrwania",
+          "description": "Pokonałeś drugiego Strażnika ARK!"
+        },
+        "russian": {
+          "name": "Эксперт выживания",
+          "description": "Вы одолели второго стража!"
+        },
+        "schinese": {
+          "name": "专家幸存者",
+          "description": "你击败了 ARK 的第二位守护者！"
+        },
+        "spanish": {
+          "name": "Superviviente Experto",
+          "description": "¡Has derrotado al segundo Guardian del Ark!"
+        },
+        "turkish": {
+          "name": "Uzman Savaşçı",
+          "description": "ARK'ın ikinci Muhafızını yendin!"
+        },
+        "ukrainian": {
+          "name": "Експерт з виживання",
+          "description": "Ви здолали другого вартового!"
+        }
+      }
+    },
+    "ACHIEVEMENT_6": {
+      "translations": {
+        "brazilian": {
+          "name": "Sobrevivente Mestre",
+          "description": "Você derrotou o terceiro Guardião do ARK!"
+        },
+        "czech": {
+          "name": "Mistr Přeživší",
+          "description": "Porazil jsi třetího Strážce ARKu!"
+        },
+        "english": {
+          "name": "Master Survivor",
+          "description": "You defeated ARK's third Guardian!"
+        },
+        "finnish": {
+          "name": "Mestari Selviytyjä",
+          "description": "Päihitit ARKin kolmannen Vartijan!"
+        },
+        "french": {
+          "name": "Maître survivant",
+          "description": "Vous avez vaincu le troisième gardien !"
+        },
+        "german": {
+          "name": "Überlebensmeister",
+          "description": "Du hast ARKs dritten Wächter besiegt!"
+        },
+        "hungarian": {
+          "name": "Mester Túlélő",
+          "description": "Legyőzted az ARK harmadik Örzőjét!"
+        },
+        "italian": {
+          "name": "Maestro della sopravvivenza",
+          "description": "Hai sconfitto il terzo guardiano di ARK!"
+        },
+        "koreana": {
+          "name": "마스터 생존가",
+          "description": "ARK의 세 번째 수호자를 물리쳤습니다!"
+        },
+        "polish": {
+          "name": "Mistrz Przetrwania",
+          "description": "Pokonaj trzeciego Strażnika ARK."
+        },
+        "russian": {
+          "name": "Мастер выживания",
+          "description": "Вы одолели третьего стража!"
+        },
+        "schinese": {
+          "name": "大师幸存者",
+          "description": "你击败了 ARK 的第三位守护者！"
+        },
+        "spanish": {
+          "name": "Superviviente Maestro",
+          "description": "¡Has derrotado al tercer Guardian del Ark!"
+        },
+        "turkish": {
+          "name": "Usta Savaşçı",
+          "description": "ARK'ın üçüncü Muhafızını yendin!"
+        },
+        "ukrainian": {
+          "name": "Майстер з виживання",
+          "description": "Ви здолали третього вартового!"
+        }
+      }
+    },
+    "ACHIEVEMENT_7": {
+      "translations": {
+        "brazilian": {
+          "name": "Sobrevivente Evoluído",
+          "description": "Você derrotou os três Guardiões do ARK! Mas..."
+        },
+        "czech": {
+          "name": "Vyvinutý Přeživší",
+          "description": "Porazil jsi tři Strážce ARKu! A přece..."
+        },
+        "english": {
+          "name": "Survivor Evolved",
+          "description": "You've defeated ARK's three Guardians! And yet..."
+        },
+        "finnish": {
+          "name": "Kehittynyt Selviytyjä",
+          "description": "Olet päihittänyt ARKin kolme Vartijaa! Ja vielä..."
+        },
+        "french": {
+          "name": "Survivant évolué",
+          "description": "Vous avez vaincu les trois gardiens ! Mais..."
+        },
+        "german": {
+          "name": "Entwickelter Überlebender",
+          "description": "Du hast die drei ARK-Wächter der besiegt! Aber..."
+        },
+        "hungarian": {
+          "name": "Fejlett Túlélő",
+          "description": "Legyőzted az ARK három Örzőjét! És még... "
+        },
+        "italian": {
+          "name": "Sopravvissuto evoluto",
+          "description": "Hai sconfitto i tre guardiani di ARK! E..."
+        },
+        "koreana": {
+          "name": "진화한 생존가",
+          "description": "ARK의 세 수호자를 모두 물리쳤습니다! 하지만 아직입니다..."
+        },
+        "polish": {
+          "name": "Ocalały wyewoluował",
+          "description": "Pokonałeś trzech Strażników ARK! Jednakże..."
+        },
+        "russian": {
+          "name": "Оставшийся в живых",
+          "description": "Вы одолели трех стражей! Но все же..."
+        },
+        "schinese": {
+          "name": "进化幸存者",
+          "description": "你击败了 ARK 的三位守护者！然而..."
+        },
+        "spanish": {
+          "name": "Superviviente Evolucionado",
+          "description": "¡Has derrotado a los tres Guardianes del Ark! Aunque..."
+        },
+        "turkish": {
+          "name": "Evrimleşmiş Savaşçı",
+          "description": "ARK'ın üç Muhafızını da yendin! Ve henüz..."
+        },
+        "ukrainian": {
+          "name": "Вцілілий",
+          "description": "Ви здолали трьох вартових! Але все ж..."
+        }
+      }
+    },
+    "ACHIEVEMENT_8": {
+      "translations": {
+        "brazilian": {
+          "name": "Seu primeiro dia...",
+          "description": "Você Sobreviveu um dia e uma noite inteira no ARK!"
+        },
+        "czech": {
+          "name": "Tvůj první den...",
+          "description": "Přežil jsi celý den i noc v ARKu!"
+        },
+        "english": {
+          "name": "Your first day...",
+          "description": "You Survived a full day and night on the ARK!"
+        },
+        "finnish": {
+          "name": "Ensimmäinen päiväsi...",
+          "description": "Selvisit täyden päivän ja yön ARKissa!"
+        },
+        "french": {
+          "name": "Votre premier jour...",
+          "description": "Vous avez survécu un jour et une nuit complète !"
+        },
+        "german": {
+          "name": "Dein erster Tag...",
+          "description": "Du hast 24 Stunden in ARK überlebt!"
+        },
+        "hungarian": {
+          "name": "Az első napod...",
+          "description": "Túléltél egy teljes napot és éjszakát az ARK-on!"
+        },
+        "italian": {
+          "name": "Il tuo primo giorno...",
+          "description": "Sei sopravvissuto un intero giorno e un'intera notte in ARK!"
+        },
+        "koreana": {
+          "name": "당신의 첫 번째 날입니다...",
+          "description": "ARK에서 하루 밤 낮을 온전히 생존하셨습니다!"
+        },
+        "polish": {
+          "name": "Twój pierwszy dzień...",
+          "description": "Przetrwałeś cały dzień w ARK!"
+        },
+        "russian": {
+          "name": "Мой первый день...",
+          "description": "Вы выжили в течение 24 игровых часов!"
+        },
+        "schinese": {
+          "name": "你的第一天...",
+          "description": "你在 ARK 上存活了一整个昼夜！"
+        },
+        "spanish": {
+          "name": "Tu primer día...",
+          "description": "¡Has sobrevivido un día y noche entera en el ARK!"
+        },
+        "turkish": {
+          "name": "İlk Günün...",
+          "description": "ARK'da bir gün ve gece hayatta kaldın!"
+        },
+        "ukrainian": {
+          "name": "Ваш перший день...",
+          "description": "Ви вціліли протягом 24 ігрових годин!"
+        }
+      }
+    },
+    "ACHIEVEMENT_9": {
+      "translations": {
+        "brazilian": {
+          "name": "Seu primeiro Dino...",
+          "description": "Você domesticou um dinossauro!"
+        },
+        "czech": {
+          "name": "Tvůj první Dino...",
+          "description": "Ochočil jsi dinosaura!"
+        },
+        "english": {
+          "name": "Your first Dino...",
+          "description": "You Tamed a Dinosaur!"
+        },
+        "finnish": {
+          "name": "Ensimmäinen Dinosi...",
+          "description": "Kesytit Dinosauruksen!"
+        },
+        "french": {
+          "name": "Votre premier Dino...",
+          "description": "Vous avez apprivoisé un dinosaure !"
+        },
+        "german": {
+          "name": "Dein erster Dino...",
+          "description": "Du hast einen Dinosaurier gezähmt!"
+        },
+        "hungarian": {
+          "name": "Az első Dínód...",
+          "description": "Megszelídítettél egy Dínoszauruszt!"
+        },
+        "italian": {
+          "name": "Il tuo primo dinosauro...",
+          "description": "Hai domato un dinosauro!"
+        },
+        "koreana": {
+          "name": "당신의 첫 번째 공룡...",
+          "description": "공룡을 길들였습니다!"
+        },
+        "polish": {
+          "name": "Twój pierwszy dinozaur...",
+          "description": "Oswój dinozaura."
+        },
+        "russian": {
+          "name": "Мой первый дино...",
+          "description": "Вы приручили динозавра!"
+        },
+        "schinese": {
+          "name": "你的第一只恐龙...",
+          "description": "你驯服了一只恐龙！"
+        },
+        "spanish": {
+          "name": "Tu primer Dino...",
+          "description": "¡Has Domesticado a un Dinosaurio!"
+        },
+        "turkish": {
+          "name": "İlk Dinozorun...",
+          "description": "Bir Dinozor evcilleştirdin!"
+        },
+        "ukrainian": {
+          "name": "Ваш перший динозавр…",
+          "description": "Ви приручили динозавра!"
+        }
+      }
+    },
+    "ACHIEVEMENT_10": {
+      "translations": {
+        "brazilian": {
+          "name": "Seu primeiro Passeio...",
+          "description": "Você montou em um dinossauro!"
+        },
+        "czech": {
+          "name": "Tvoje první jízda...",
+          "description": "Jezdil jsi na dinosaurovi!"
+        },
+        "english": {
+          "name": "Your first Ride...",
+          "description": "You Rode a Dinosaur!"
+        },
+        "finnish": {
+          "name": "Ensimmäinen Kyytisi...",
+          "description": "Ratsastit dinosauruksella!"
+        },
+        "french": {
+          "name": "Votre premiere monture...",
+          "description": "Vous avez chevauché un dinosaure !"
+        },
+        "german": {
+          "name": "Dein erster Ritt...",
+          "description": "Du bist auf einem Dinosaurier geritten!"
+        },
+        "hungarian": {
+          "name": "Az első Fuvar!",
+          "description": "Ültél egy Dínoszauruszon!"
+        },
+        "italian": {
+          "name": "La tua prima cavalcata...",
+          "description": "Hai cavalcato un dinosauro!"
+        },
+        "koreana": {
+          "name": "당신의 첫 번째 탑승...",
+          "description": "공룡에 탑승했습니다!"
+        },
+        "polish": {
+          "name": "Twoja pierwsza przejażdżka...",
+          "description": "Jechałeś dinozaurem!"
+        },
+        "russian": {
+          "name": "Моя первая поездка...",
+          "description": "Вы оседлали динозавра!"
+        },
+        "schinese": {
+          "name": "你的第一次骑乘...",
+          "description": "你骑上了一只恐龙！"
+        },
+        "spanish": {
+          "name": "Tu primera Montura...",
+          "description": "¡Has Montado en un Dinosaurio!"
+        },
+        "turkish": {
+          "name": "İlk Binişin...",
+          "description": "Bir Dinozora bindin!"
+        },
+        "ukrainian": {
+          "name": "Ваша перша поїздка…",
+          "description": "Ви осідлали динозавра!"
+        }
+      }
+    },
+    "ACHIEVEMENT_11": {
+      "translations": {
+        "brazilian": {
+          "name": "Sobrevivente máximo",
+          "description": "Você atingiu o Nível Máximo do Sobrevivente!"
+        },
+        "czech": {
+          "name": "Maximální Přeživší",
+          "description": "Dosáhnul jsi Maximální Úrovně Přeživšího!"
+        },
+        "english": {
+          "name": "Maximum Survivor",
+          "description": "You reached the Maximum Survivor Level!"
+        },
+        "finnish": {
+          "name": "Maksimi Selviytyjä",
+          "description": "Saavutit maksimin Selviytyjätason!"
+        },
+        "french": {
+          "name": "Survivant maximal",
+          "description": "Vous avez atteint le niveau maximum du survivant !"
+        },
+        "german": {
+          "name": "Maximaler Überlebender",
+          "description": "Du hast den höchsten Level erreicht!"
+        },
+        "hungarian": {
+          "name": "Maximális Túlélő",
+          "description": "Elérted a Maximum Túlélő Szintet!"
+        },
+        "italian": {
+          "name": "Sopravvissuto supremo",
+          "description": "Hai raggiunto il livello massimo!"
+        },
+        "koreana": {
+          "name": "최고의 생존가",
+          "description": "최고의 생존가 레벨에 도달하였습니다!"
+        },
+        "polish": {
+          "name": "Ocalały Mistrz",
+          "description": "Twoja postać osiągnęła najwyższy poziom w grze!"
+        },
+        "russian": {
+          "name": "Совершенный выживший",
+          "description": "Вы достигли максимального уровня!"
+        },
+        "schinese": {
+          "name": "满级幸存者",
+          "description": "你的幸存者达到了最高等级！"
+        },
+        "spanish": {
+          "name": "Superviviente Máximo",
+          "description": "¡Has alcanzado el Nivel Máximo de Superviviente!"
+        },
+        "turkish": {
+          "name": "Maksimum Savaşçı",
+          "description": "Maksimum seviyeye ulaştın!"
+        },
+        "ukrainian": {
+          "name": "Бог виживання",
+          "description": "Ви досягли максимального рівня!"
+        }
+      }
+    },
+    "ACHIEVEMENT_12": {
+      "translations": {
+        "brazilian": {
+          "name": "Dinossauro Máximo",
+          "description": "Um dos seus dinossauros atingiu o nível máximo!"
+        },
+        "czech": {
+          "name": "Maximální Dinosaurus",
+          "description": "Jeden z tvých dinosaurů dosáhl Maximální Úrovně!"
+        },
+        "english": {
+          "name": "Maximum Dinosaur",
+          "description": "One of your Dinosaurs reached Maximum Level!"
+        },
+        "finnish": {
+          "name": "Maksimi Dinosaurus",
+          "description": "Yksi Dinosauruksistasi saavutti Maksimitason!"
+        },
+        "french": {
+          "name": "Dinosaure maximal",
+          "description": "Un des vos dinosaures a atteint le niveau Maximum !"
+        },
+        "german": {
+          "name": "Maximaler Dinosaurier",
+          "description": "Einer deiner Dinosaurier hat den höchsten Level erreicht!"
+        },
+        "hungarian": {
+          "name": "Maximális Dínoszaurusz",
+          "description": "Az egyik Dínoszauruszod elérte a Maximum Szintet!"
+        },
+        "italian": {
+          "name": "Dinosauro supremo",
+          "description": "Uno dei tuoi dinosauri ha raggiunto il livello massimo!"
+        },
+        "koreana": {
+          "name": "최고의 공룡",
+          "description": "당신의 공룡 중 하나가 최고의 레벨이 되었습니다!"
+        },
+        "polish": {
+          "name": "Władca Dinozaurów",
+          "description": "Jeden z twoich dinozaurów osiągnął maksymalny poziom!"
+        },
+        "russian": {
+          "name": "Совершенный дино",
+          "description": "Один из ваших дино достиг максимального уровня!"
+        },
+        "schinese": {
+          "name": "满级恐龙",
+          "description": "你的一只恐龙达到了最高等级！"
+        },
+        "spanish": {
+          "name": "Dinosaurio Máximo",
+          "description": "¡Uno de tus Dinosaurios ha alcanzado el nivel máximo!"
+        },
+        "turkish": {
+          "name": "Maksimum Dinozor",
+          "description": "Dinozorlarından birisi maksimum seviyeye ulaştı!"
+        },
+        "ukrainian": {
+          "name": "Досконалий динозавр",
+          "description": "Один із ваших динозаврів досяг максимального рівня!"
+        }
+      }
+    },
+    "ACHIEVEMENT_13": {
+      "translations": {
+        "brazilian": {
+          "name": "Montador de Rex",
+          "description": "Você montou nas costas de um T-Rex!"
+        },
+        "czech": {
+          "name": "Jezdec na Rexovi",
+          "description": "Jezdil jsi na zádech T-Rexe!"
+        },
+        "english": {
+          "name": "Rex Rider",
+          "description": "You rode on the back of a T-Rex!"
+        },
+        "finnish": {
+          "name": "Rexratsastaja",
+          "description": "Ratsastit T-Rexin selässä!"
+        },
+        "french": {
+          "name": "Chevaucheur de Rex",
+          "description": "Vous êtes monté sur le dos d’un T-Rex !"
+        },
+        "german": {
+          "name": "Rex Reiter",
+          "description": "Du bist auf dem Rücken eines T-Rex geritten!"
+        },
+        "hungarian": {
+          "name": "Rex Lovas",
+          "description": "Ültél egy T-Rex hátán!"
+        },
+        "italian": {
+          "name": "Cavalcatore di Tirannosauri",
+          "description": "Hai cavalcato un Tirannosauro!"
+        },
+        "koreana": {
+          "name": "렉스 라이더",
+          "description": "티 렉스에 탑승하였습니다!"
+        },
+        "polish": {
+          "name": "Jeździec Tyranozaurów",
+          "description": "Jeździłeś na grzbiecie Tyranozaura!"
+        },
+        "russian": {
+          "name": "Наездник на Рексе",
+          "description": "Вы оседлали Тираннозавра!"
+        },
+        "schinese": {
+          "name": "霸王龙骑手",
+          "description": "你骑上了霸王龙！"
+        },
+        "spanish": {
+          "name": "Jinete de Rex",
+          "description": "¡Has montado en la espalda de un T-Rex!"
+        },
+        "turkish": {
+          "name": "Rex Binicisi",
+          "description": "Bir T-Rex'e bindin!"
+        },
+        "ukrainian": {
+          "name": "Наїзник на тиранозаврі",
+          "description": "Ви осідлали тиранозавра!"
+        }
+      }
+    },
+    "ACHIEVEMENT_14": {
+      "translations": {
+        "brazilian": {
+          "name": "Montador de Giga",
+          "description": "Você montou nas costas de um Giganotossauro!"
+        },
+        "czech": {
+          "name": "Jezdec na Gigovi",
+          "description": "Jezdil jsi na zádech Giganotosaura!"
+        },
+        "english": {
+          "name": "Giga Rider",
+          "description": "You rode on the back of a Giganotosaurus!"
+        },
+        "finnish": {
+          "name": "Gigaratsastaja",
+          "description": "Ratsastit Giganotosauruksen selässä!"
+        },
+        "french": {
+          "name": "Chevaucheur de Giga",
+          "description": "Vous êtes monté sur le dos d’un Giganotosaure !"
+        },
+        "german": {
+          "name": "Giga Reiter",
+          "description": "Du bist auf dem Rücken eines Giganotosaurus geritten!"
+        },
+        "hungarian": {
+          "name": "Giga Lovas",
+          "description": "Ültél egy Giganotoszaurusz hátán!"
+        },
+        "italian": {
+          "name": "Cavalcatore di Giganotosauri",
+          "description": "Hai cavalcato un Giganotosauro!"
+        },
+        "koreana": {
+          "name": "기가 라이더",
+          "description": "기가노토사우르스에 탑승하였습니다!"
+        },
+        "polish": {
+          "name": "Jeździec Giganotozaurów!",
+          "description": "Jeździłeś na grzbiecie Giganotozaurze!"
+        },
+        "russian": {
+          "name": "Наездник на Гиге",
+          "description": "Вы оседлали Гиганотозавра!"
+        },
+        "schinese": {
+          "name": "南方巨兽龙骑手",
+          "description": "你骑上了南方巨兽龙！"
+        },
+        "spanish": {
+          "name": "Jinete de Giga",
+          "description": "¡Has montado en la espalda de un Giganotosaurio!"
+        },
+        "turkish": {
+          "name": "Giga Binicisi",
+          "description": "Bir Giganotosaurus'a bindin!"
+        },
+        "ukrainian": {
+          "name": "Наїзник на гіганотозаврі",
+          "description": "Ви осідлали гіганотозавра!"
+        }
+      }
+    },
+    "ACHIEVEMENT_15": {
+      "translations": {
+        "brazilian": {
+          "name": "Criador de Mapas",
+          "description": "Você descobriu mais de 80% do Mini Mapa!"
+        },
+        "czech": {
+          "name": "Výrobce map",
+          "description": "Odkryl jsi více než 80% Minimapy!"
+        },
+        "english": {
+          "name": "Map Maker",
+          "description": "You uncovered more than 80% of the Mini-Map!"
+        },
+        "finnish": {
+          "name": "Karttatutkija",
+          "description": "Tutkit enemmän kuin 80% Pienoiskartasta!"
+        },
+        "french": {
+          "name": "Explorateur de carte",
+          "description": "Vous avez découvert plus de 80 % de la mini-Map !"
+        },
+        "german": {
+          "name": "Kartograf",
+          "description": "Du hast mehr als 80% der Karte aufgedeckt!"
+        },
+        "hungarian": {
+          "name": "Térkép Készítő",
+          "description": "Felfedezted több mint a 80%-át a Térképnek!"
+        },
+        "italian": {
+          "name": "Creatore di mappe",
+          "description": "Hai scoperto più dell'80% della minimappa!"
+        },
+        "koreana": {
+          "name": "지도 제작자",
+          "description": "미니맵의 80% 이상을 탐험하였습니다!"
+        },
+        "polish": {
+          "name": "Kartograf",
+          "description": "Odkryłeś ponad 80% mapy!"
+        },
+        "russian": {
+          "name": "Картограф",
+          "description": "Вы исследовали более 80% мини-карты!"
+        },
+        "schinese": {
+          "name": "地图绘制者",
+          "description": "你揭开了超过 80% 的小地图！"
+        },
+        "spanish": {
+          "name": "Cartógrafo",
+          "description": "¡Has descubierto más del 80% del Mini-Mapa!"
+        },
+        "turkish": {
+          "name": "Haritacı",
+          "description": "Mini Haritanın %80'inden fazlasını keşfettin!"
+        },
+        "ukrainian": {
+          "name": "Картограф",
+          "description": "Ви дослідили понад 80% міні-мапи!"
+        }
+      }
+    },
+    "ACHIEVEMENT_16": {
+      "translations": {
+        "brazilian": {
+          "name": "Pico Mais Alto",
+          "description": "Você chegou ao topo da montanha mais alta do ARK!"
+        },
+        "czech": {
+          "name": "Nejvyšší vrchol",
+          "description": "Dostal jsi se na vrchol nejvyšší hory ARKu!"
+        },
+        "english": {
+          "name": "Highest Peak",
+          "description": "You've reached the highest mountain peak of the ARK!"
+        },
+        "finnish": {
+          "name": "Korkein Huippu",
+          "description": "Olet saavuttanut ARKin korkeimman vuoren huipun!"
+        },
+        "french": {
+          "name": "Le plus haut sommet",
+          "description": "Vous avez atteint le plus haut sommet !"
+        },
+        "german": {
+          "name": "Höchster Gipfel",
+          "description": "Du hast den höchsten Gipfel der ARK erklommen!"
+        },
+        "hungarian": {
+          "name": "Legmagasabb Csúcs",
+          "description": "Elérted az ARK legmagasabb hegycsúcsát!"
+        },
+        "italian": {
+          "name": "La vetta più alta",
+          "description": "Hai raggiunto la vetta più alta di ARK!"
+        },
+        "koreana": {
+          "name": "최고봉",
+          "description": "ARK에서 가장 높은 산 꼭대기에 도달하였습니다!"
+        },
+        "polish": {
+          "name": "Najwyższy szczyt",
+          "description": "Dotarłeś do najwyższego szczytu w ARK!"
+        },
+        "russian": {
+          "name": "Альпинист",
+          "description": "Вы покорили самую высокую гору!"
+        },
+        "schinese": {
+          "name": "最高峰",
+          "description": "你到达了 ARK 的最高山峰！"
+        },
+        "spanish": {
+          "name": "Pico más alto",
+          "description": "¡Haz alcanzado el pico de montaña más alta de ARK!"
+        },
+        "turkish": {
+          "name": "Zirve Noktası",
+          "description": "ARK'ın en yüksek dağ zirvesine ulaştın!"
+        },
+        "ukrainian": {
+          "name": "Альпініст",
+          "description": "Ви підкорили найвищу гору!"
+        }
+      }
+    },
+    "ACHIEVEMENT_17": {
+      "translations": {
+        "brazilian": {
+          "name": "Mais Fundo",
+          "description": "Você alcançou o fundo dos oceanos do ARK!"
+        },
+        "czech": {
+          "name": "Nejnižší hloubka",
+          "description": "Dostal jsi se na dno oceánu ARKu!"
+        },
+        "english": {
+          "name": "Lowest Depth",
+          "description": "You've reached the bottom of the ARK's oceans!"
+        },
+        "finnish": {
+          "name": "Alhaisin Syvyys",
+          "description": "Olet saavuttanut ARKin merien pohjat!"
+        },
+        "french": {
+          "name": "Plus grande profondeur",
+          "description": "Vous avez atteint le fond des océans !"
+        },
+        "german": {
+          "name": "Tiefste Tiefe",
+          "description": "Du hast den Grund des ARK Ozeans erreicht!"
+        },
+        "hungarian": {
+          "name": "Legalacsonyabb Mélység",
+          "description": "Elérted az ARK óceánjának a fenekét!"
+        },
+        "italian": {
+          "name": "L'abisso",
+          "description": "Hai raggiunto il fondo degli oceani di ARK!"
+        },
+        "koreana": {
+          "name": "제일 낮은 곳",
+          "description": "ARK 바다의 밑바닥에 도달하였습니다!"
+        },
+        "polish": {
+          "name": "Najgłębsze wody",
+          "description": "Dotarłeś do dna oceanów w ARK!"
+        },
+        "russian": {
+          "name": "Дайвер",
+          "description": "Вы посетили самую глубокую точку океана!"
+        },
+        "schinese": {
+          "name": "最深处",
+          "description": "你到达了 ARK 海洋的最深处！"
+        },
+        "spanish": {
+          "name": "La mayor profundidad",
+          "description": "¡Haz llegado al fondo de los océanos de ARK!"
+        },
+        "turkish": {
+          "name": "En Derin Nokta",
+          "description": "ARK okyanuslarının en dibine ulaştın!"
+        },
+        "ukrainian": {
+          "name": "Пірнальник",
+          "description": "Ви відвідали найглибшу точку океану!"
+        }
+      }
+    },
+    "ACHIEVEMENT_18": {
+      "translations": {
+        "brazilian": {
+          "name": "Cura-Tudo",
+          "description": "Você se curou da Febre do Pântano!"
+        },
+        "czech": {
+          "name": "Všelék",
+          "description": "Vyléčil jsi se z Bažinové horečky!"
+        },
+        "english": {
+          "name": "Cure-All",
+          "description": "You've cured yourself of Swamp Fever!"
+        },
+        "finnish": {
+          "name": "Paranna kaikki",
+          "description": "Olet parantanut itsesi Suokuumeesta!"
+        },
+        "french": {
+          "name": "Remède",
+          "description": "Vous avez guéri de la fièvre des marais !"
+        },
+        "german": {
+          "name": "Allheilmittel",
+          "description": "Du hast dich selber vom Sumpffieber geheilt!"
+        },
+        "hungarian": {
+          "name": "Csodaszer",
+          "description": "Meggyógyítottad magad a Mocsári Lázból!"
+        },
+        "italian": {
+          "name": "Un toccasana",
+          "description": "Ti sei curato dalla febbre della palude!"
+        },
+        "koreana": {
+          "name": "만병통치",
+          "description": "습지 열병을 자가 치료하였습니다!"
+        },
+        "polish": {
+          "name": "Wyleczony",
+          "description": "Wyleczyłeś się z bagiennej gorączki!"
+        },
+        "russian": {
+          "name": "Панацея",
+          "description": "Вы вылечились от Болотной лихорадки!"
+        },
+        "schinese": {
+          "name": "万能疗法",
+          "description": "你治好了自己的沼泽热！"
+        },
+        "spanish": {
+          "name": "Curandero",
+          "description": "¡Te has curado de la Fiebre del Pantano!"
+        },
+        "turkish": {
+          "name": "Tedavi",
+          "description": "Bataklık Ateşi hastalığını tedavi ettin!"
+        },
+        "ukrainian": {
+          "name": "Панацея",
+          "description": "Ви вилікувалися від малярії!"
+        }
+      }
+    },
+    "ACHIEVEMENT_19": {
+      "translations": {
+        "brazilian": {
+          "name": "Ascensão Gama",
+          "description": "Você ascendeu ao ARK no nível Gama!"
+        },
+        "czech": {
+          "name": "Gamma Vzestup",
+          "description": "Vystoupal jsi z ARKu, na Gamma úrovni!"
+        },
+        "english": {
+          "name": "Gamma Ascension",
+          "description": "You Ascended off the ARK, at Gamma level!"
+        },
+        "finnish": {
+          "name": "Gammanousu",
+          "description": "Nousit ARKissa, Gammatasolla!"
+        },
+        "french": {
+          "name": "Ascension Gamma",
+          "description": "Vous êtes sorti de l'arche au niveau Gamma !"
+        },
+        "german": {
+          "name": "Gamma Aufstieg",
+          "description": "Du bist vom ARK aufgestiegen, Gamma Level!"
+        },
+        "hungarian": {
+          "name": "Gamma Felemelkedés",
+          "description": "Felemelkedtél az ARK-ról Gamma szinten!"
+        },
+        "italian": {
+          "name": "Ascensione gamma",
+          "description": "Sei asceso da ARK, al livello Gamma!"
+        },
+        "koreana": {
+          "name": "감마 승천",
+          "description": "당신은 ARK 에서 감마 레벨로 승천했습니다!"
+        },
+        "polish": {
+          "name": "Wyniesienie Gamma",
+          "description": "Zostałeś Wyniesiony w ARK, na poziom Gamma!"
+        },
+        "russian": {
+          "name": "Гамма-вознесение",
+          "description": "Вы вознеслись на Гамма-уровень!"
+        },
+        "schinese": {
+          "name": "Gamma 飞升",
+          "description": "你以 Gamma 等级从 ARK 飞升！"
+        },
+        "spanish": {
+          "name": "Ascensión Gamma",
+          "description": "Has Ascendido del ARK, ¡a nivel Gamma!"
+        },
+        "turkish": {
+          "name": "Gama Yükseliş",
+          "description": "ARK'ın Gama seviyesine yükseldin!"
+        },
+        "ukrainian": {
+          "name": "Гамма-вознесіння",
+          "description": "Ви вознеслися на гамма-рівень!"
+        }
+      }
+    },
+    "ACHIEVEMENT_20": {
+      "translations": {
+        "brazilian": {
+          "name": "Ascensão Beta",
+          "description": "Você ascendeu ao ARK no nível Beta!"
+        },
+        "czech": {
+          "name": "Beta Vzestup",
+          "description": "Vystoupal jsi z ARKu, na Beta úrovni!"
+        },
+        "english": {
+          "name": "Beta Ascension",
+          "description": "You Ascended off the ARK, at Beta level!"
+        },
+        "finnish": {
+          "name": "Beetanousu",
+          "description": "Nousit ARKissa, Beetatasolla!"
+        },
+        "french": {
+          "name": "Ascension Beta",
+          "description": "Vous êtes sorti de l'arche au niveau Beta !"
+        },
+        "german": {
+          "name": "Beta Aufstieg",
+          "description": "Du bist vom ARK aufgestiegen, Beta Level!"
+        },
+        "hungarian": {
+          "name": "Béta Felemelkedés",
+          "description": "Felemelkedtél az ARK-ról Béta szinten!"
+        },
+        "italian": {
+          "name": "Ascensione beta",
+          "description": "Sei asceso da ARK, al livello Beta!"
+        },
+        "koreana": {
+          "name": "베타 승천",
+          "description": "당신은 ARK 에서 베타 레벨로 승천했습니다!"
+        },
+        "polish": {
+          "name": "Wyniesienie Beta",
+          "description": "Zostałeś Wyniesiony w ARK, na poziom Beta!"
+        },
+        "russian": {
+          "name": "Бета-вознесение",
+          "description": "Вы вознеслись на Бета-уровень!"
+        },
+        "schinese": {
+          "name": "Beta 飞升",
+          "description": "你以 Beta 等级从 ARK 飞升！"
+        },
+        "spanish": {
+          "name": "Ascensión Beta",
+          "description": "Has Ascendido del ARK, ¡a nivel Beta!"
+        },
+        "turkish": {
+          "name": "Beta Yükseliş",
+          "description": "ARK'ın Beta seviyesine yükseldin!"
+        },
+        "ukrainian": {
+          "name": "Бета-вознесіння",
+          "description": "Ви вознеслися на бета-рівень!"
+        }
+      }
+    },
+    "ACHIEVEMENT_21": {
+      "translations": {
+        "brazilian": {
+          "name": "Ascensão Alfa",
+          "description": "Você ascendeu ao ARK no nível Alfa!"
+        },
+        "czech": {
+          "name": "Alfa Vzestup",
+          "description": "Vystoupal jsi z ARKu, na Alfa úrovni!"
+        },
+        "english": {
+          "name": "Alpha Ascension",
+          "description": "You Ascended off the ARK, at Alpha level!"
+        },
+        "finnish": {
+          "name": "Alfataso",
+          "description": "Nousit ARKissa, Alfatasolla!"
+        },
+        "french": {
+          "name": "Ascension Alpha",
+          "description": "Vous êtes sorti de l'arche au niveau Alpha !"
+        },
+        "german": {
+          "name": "Alpha Aufstieg",
+          "description": "Du bist vom ARK aufgestiegen, Alpha Level!"
+        },
+        "hungarian": {
+          "name": "Alfa Felemelkedés",
+          "description": "Felemelkedtél az ARK-ról Alfa szinten!"
+        },
+        "italian": {
+          "name": "Ascensione alfa",
+          "description": "Sei asceso da ARK, al livello Alfa!"
+        },
+        "koreana": {
+          "name": "알파 승천",
+          "description": "당신은 ARK 에서 알파 레벨로 승천했습니다!"
+        },
+        "polish": {
+          "name": "Wyniesienie Alfa",
+          "description": "Zostałeś Wyniesiony w ARK, na poziom Alpha!"
+        },
+        "russian": {
+          "name": "Альфа-вознесение",
+          "description": "Вы вознеслись на Альфа-уровень!"
+        },
+        "schinese": {
+          "name": "Alpha 飞升",
+          "description": "你以 Alpha 等级从 ARK 飞升！"
+        },
+        "spanish": {
+          "name": "Ascensión Alpha",
+          "description": "Has Ascendido del ARK, ¡a nivel Alpha!"
+        },
+        "turkish": {
+          "name": "Alfa Yükseliş",
+          "description": "ARK'ın Alfa seviyesine yükseldin!"
+        },
+        "ukrainian": {
+          "name": "Альфа-вознесіння",
+          "description": "Ви вознеслися на альфа-рівень!"
+        }
+      }
+    },
+    "ACHIEVEMENT_22": {
+      "translations": {
+        "brazilian": {
+          "name": "Explorador Iniciante",
+          "description": "Você descobriu 10% das Notas de Explorador no ARK!"
+        },
+        "czech": {
+          "name": "Začátečnický Průzkumník",
+          "description": "Objevil jsi 10% Poznámek Průzkumníka v ARKu!"
+        },
+        "english": {
+          "name": "Beginner Explorer",
+          "description": "You discovered 10% of the Explorer Notes on the ARK!"
+        },
+        "finnish": {
+          "name": "Aloitteleva Tutkija",
+          "description": "Löysit 10% Tutkijamerkinnöistä ARKissa!"
+        },
+        "french": {
+          "name": "Explorateur débutant",
+          "description": "Vous avez découvert 10 % des Notes des explorateurs !"
+        },
+        "german": {
+          "name": "Entdecker Anfänger",
+          "description": "Du hast 10% aller Entdeckernotizen auf dieser Insel gefunden!"
+        },
+        "hungarian": {
+          "name": "Kezdő Felfedező",
+          "description": "Felfedezted a Felfedező Jegyzetek 10%-át!"
+        },
+        "italian": {
+          "name": "Esploratore novizio",
+          "description": "Hai scoperto il 10% delle note dell'esploratore su ARK!"
+        },
+        "koreana": {
+          "name": "초보 탐험가",
+          "description": "ARK 에서 존재하는 탐험가 노트의 10% 를 발견했습니다!"
+        },
+        "polish": {
+          "name": "Raczkujący Odkrywca",
+          "description": "Odnalazłeś 10% Notatek Odkrywców w ARK!"
+        },
+        "russian": {
+          "name": "Начинающий исследователь",
+          "description": "Вы обнаружили 10% заметок первопроходцев!"
+        },
+        "schinese": {
+          "name": "初级探险家",
+          "description": "你发现了 ARK 上 10% 的探险笔记！"
+        },
+        "spanish": {
+          "name": "Explorador Principiante",
+          "description": "¡Has descubierto el 10% de las notas del explorador en ARK!"
+        },
+        "turkish": {
+          "name": "Acemi Kaşif",
+          "description": "ARK'daki Kaşif Notlarının %10'unu keşfettin!"
+        },
+        "ukrainian": {
+          "name": "Дослідник-початківець",
+          "description": "Ви знайшли 10% нотаток першопрохідців!"
+        }
+      }
+    },
+    "ACHIEVEMENT_23": {
+      "translations": {
+        "brazilian": {
+          "name": "Explorador Experiente",
+          "description": "Você descobriu 20% das Notas de Explorador no ARK!"
+        },
+        "czech": {
+          "name": "Zkušený Průzkumník",
+          "description": "Objevil jsi 20% Poznámek Průzkumníka v ARKu!"
+        },
+        "english": {
+          "name": "Experienced Explorer",
+          "description": "You've discovered 20% of the Explorer Notes on the ARK!"
+        },
+        "finnish": {
+          "name": "Kokenut Tutkimusmatkailija",
+          "description": "Olet löytänyt 20% Tutkijamerkinnöistä ARKissa!"
+        },
+        "french": {
+          "name": "Explorateur expérimenté",
+          "description": "Vous avez découvert 20 % des Notes des explorateurs !"
+        },
+        "german": {
+          "name": "Erfahrener Entdecker",
+          "description": "Du hast 20% aller Entdeckernotizen auf dieser Insel gefunden!"
+        },
+        "hungarian": {
+          "name": "Tapasztalt Felfedező",
+          "description": "Felfedezted a Felfedező Jegyzetek 20%-át!"
+        },
+        "italian": {
+          "name": "Esploratore con esperienza",
+          "description": "Hai scoperto il 20% delle note dell'esploratore su ARK!"
+        },
+        "koreana": {
+          "name": "숙련된 탐험가",
+          "description": "ARK 에서 존재하는 탐험가 노트의 20% 를 발견했습니다!"
+        },
+        "polish": {
+          "name": "Początkujący Odkrywca",
+          "description": "Odnalazłeś 20% Notatek Odkrywców w ARK!"
+        },
+        "russian": {
+          "name": "Искушенный исследователь",
+          "description": "Вы обнаружили 20% заметок первопроходцев!"
+        },
+        "schinese": {
+          "name": "熟练探险家",
+          "description": "你发现了 ARK 上 20% 的探险笔记！"
+        },
+        "spanish": {
+          "name": "Explorador Experimentado",
+          "description": "¡Has descubierto el 20% de las notas del explorador en ARK!"
+        },
+        "turkish": {
+          "name": "Deneyimli Kaşif",
+          "description": "ARK'daki Kaşif Notlarının %20'sini keşfettin!"
+        },
+        "ukrainian": {
+          "name": "Досвідчений дослідник",
+          "description": "Ви знайшли 20% нотаток першопрохідців!"
+        }
+      }
+    },
+    "ACHIEVEMENT_24": {
+      "translations": {
+        "brazilian": {
+          "name": "Explorador de Aventura",
+          "description": "Você descobriu 30% das Notas de Explorador no ARK!"
+        },
+        "czech": {
+          "name": "Dobrodružný Průzkumník",
+          "description": "Objevil jsi 30% Poznámek Průzkumníka v ARKu!"
+        },
+        "english": {
+          "name": "Adventurous Explorer",
+          "description": "You've discovered 30% of the Explorer Notes on the ARK!"
+        },
+        "finnish": {
+          "name": "Seikkailunhaluinen Tutkimusmatkailija",
+          "description": "Olet löytänyt 30% Tutkijamerkinnöistä ARKissa!"
+        },
+        "french": {
+          "name": "Explorateur aventureux",
+          "description": "Vous avez découvert 30 % des Notes des explorateurs !"
+        },
+        "german": {
+          "name": "Abenteuerlicher Entdecker",
+          "description": "Du hast 30% aller Entdeckernotizen auf dieser Insel gefunden!"
+        },
+        "hungarian": {
+          "name": "Kalandozó Felfedező",
+          "description": "Felfedezted a Felfedező Jegyzetek 30%-át!"
+        },
+        "italian": {
+          "name": "Esploratore avventuroso",
+          "description": "Hai scoperto il 30% delle note dell'esploratore su ARK!"
+        },
+        "koreana": {
+          "name": "모험적인 탐험가",
+          "description": "ARK 에서 존재하는 탐험가 노트의 30% 를 발견했습니다!"
+        },
+        "polish": {
+          "name": "Doświadczony Odkrywca",
+          "description": "Odnalazłeś 30% Notatek Odkrywców w ARK!"
+        },
+        "russian": {
+          "name": "Смелый исследователь",
+          "description": "Вы обнаружили 30% заметок первопроходцев!"
+        },
+        "schinese": {
+          "name": "冒险探险家",
+          "description": "你发现了 ARK 上 30% 的探险笔记！"
+        },
+        "spanish": {
+          "name": "Explorador Aventurero",
+          "description": "¡Has descubierto el 30% de las notas del explorador en ARK!"
+        },
+        "turkish": {
+          "name": "Maceracı Kaşif",
+          "description": "ARK'daki Kaşif Notlarının %30'unu keşfettin!"
+        },
+        "ukrainian": {
+          "name": "Заповзятливий дослідник",
+          "description": "Ви знайшли 30% нотаток першопрохідців!"
+        }
+      }
+    },
+    "ACHIEVEMENT_25": {
+      "translations": {
+        "brazilian": {
+          "name": "Explorador Estudioso",
+          "description": "Você descobriu 40% das Notas de Explorador no ARK!"
+        },
+        "czech": {
+          "name": "Snaživý Průzkumník",
+          "description": "Objevil jsi 40% Poznámek Průzkumníka v ARKu!"
+        },
+        "english": {
+          "name": "Studious Explorer",
+          "description": "You've discovered 40% of the Explorer Notes on the ARK!"
+        },
+        "finnish": {
+          "name": "Ahkera Tutkimusmatkailija",
+          "description": "Olet löytänyt 40% Tutkijamerkinnöistä ARKissa!!"
+        },
+        "french": {
+          "name": "Explorateur studieux",
+          "description": "Vous avez découvert 40 % des Notes des explorateurs !"
+        },
+        "german": {
+          "name": "Fleißiger Entdecker",
+          "description": "Du hast 40% aller Entdeckernotizen auf dieser Insel gefunden!"
+        },
+        "hungarian": {
+          "name": "Tanulmányozó Felfedező",
+          "description": "Felfedezted a Felfedező Jegyzetek 40%-át!"
+        },
+        "italian": {
+          "name": "Esploratore studioso",
+          "description": "Hai scoperto il 40% delle note dell'esploratore su ARK!"
+        },
+        "koreana": {
+          "name": "신중한 탐험가",
+          "description": "ARK 에서 존재하는 탐험가 노트의 40% 를 발견했습니다!"
+        },
+        "polish": {
+          "name": "Czujny Odkrywca",
+          "description": "Odnalazłeś 40% Notatek Odkrywców w ARK!"
+        },
+        "russian": {
+          "name": "Заядлый исследователь",
+          "description": "Вы обнаружили 40% заметок первопроходцев!"
+        },
+        "schinese": {
+          "name": "勤学探险家",
+          "description": "你发现了 ARK 上 40% 的探险笔记！"
+        },
+        "spanish": {
+          "name": "Explorador Estudioso",
+          "description": "¡Has descubierto el 40% de las notas del explorador en ARK!"
+        },
+        "turkish": {
+          "name": "Çalışkan Kaşif",
+          "description": "ARK'daki Kaşif Notlarının %40'ını keşfettin!"
+        },
+        "ukrainian": {
+          "name": "Старанний дослідник",
+          "description": "Ви знайшли 40% нотаток першопрохідців!"
+        }
+      }
+    },
+    "ACHIEVEMENT_26": {
+      "translations": {
+        "brazilian": {
+          "name": "Explorador Veterano",
+          "description": "Você descobriu 50% das Notas de Explorador no ARK!"
+        },
+        "czech": {
+          "name": "Průzkumník Veterán",
+          "description": "Objevil jsi 50% Poznámek Průzkumníka v ARKu!"
+        },
+        "english": {
+          "name": "Veteran Explorer",
+          "description": "You've discovered 50% of the Explorer Notes on the ARK!"
+        },
+        "finnish": {
+          "name": "Veteraani Tutkimusmatkailija",
+          "description": "Olet löytänyt 50% Tutkijamerkinnöistä ARKissa!"
+        },
+        "french": {
+          "name": "Explorateur vétéran",
+          "description": "Vous avez découvert 50 % des Notes des explorateurs !"
+        },
+        "german": {
+          "name": "Entdecker Veteran",
+          "description": "Du hast 50% aller Entdeckernotizen auf dieser Insel gefunden!"
+        },
+        "hungarian": {
+          "name": "Veterán Felfedező",
+          "description": "Felfedezted a Felfedező Jegyzetek 50%-át!"
+        },
+        "italian": {
+          "name": "Esploratore veterano",
+          "description": "Hai scoperto il 50% delle note dell'esploratore su ARK!"
+        },
+        "koreana": {
+          "name": "노련한 탐험가",
+          "description": "ARK 에서 존재하는 탐험가 노트의 50% 를 발견했습니다!"
+        },
+        "polish": {
+          "name": "Wprawiony Odkrywca",
+          "description": "Odnalazłeś 50% Notatek Odkrywców w ARK!"
+        },
+        "russian": {
+          "name": "Бывалый исследователь",
+          "description": "Вы обнаружили 50% заметок первопроходцев!"
+        },
+        "schinese": {
+          "name": "资深探险家",
+          "description": "你发现了 ARK 上 50% 的探险笔记！"
+        },
+        "spanish": {
+          "name": "Explorador Veterano",
+          "description": "¡Has descubierto el 50% de las notas del explorador en ARK!"
+        },
+        "turkish": {
+          "name": "Kıdemli Kaşif",
+          "description": "ARK'daki Kaşif Notlarının %50'sini keşfettin!"
+        },
+        "ukrainian": {
+          "name": "Бувалий дослідник",
+          "description": "Ви знайшли 50% нотаток першопрохідців!"
+        }
+      }
+    },
+    "ACHIEVEMENT_27": {
+      "translations": {
+        "brazilian": {
+          "name": "Explorador Perito",
+          "description": "Você descobriu 60% das Notas de Explorador no ARK!"
+        },
+        "czech": {
+          "name": "Průzkumník Adept",
+          "description": "Objevil jsi 60% Poznámek Průzkumníka v ARKu!"
+        },
+        "english": {
+          "name": "Adept Explorer",
+          "description": "You've discovered 60% of the Explorer Notes on the ARK!"
+        },
+        "finnish": {
+          "name": "Taitava Tutkimusmatkailija",
+          "description": "Olet löytänyt 60% Tutkijamerkinnöistä ARKissa!"
+        },
+        "french": {
+          "name": "Explorateur initié",
+          "description": "Vous avez découvert 60 % des Notes des explorateurs !"
+        },
+        "german": {
+          "name": "Geübter Entdecker",
+          "description": "Du hast 60% aller Entdeckernotizen auf dieser Insel gefunden!"
+        },
+        "hungarian": {
+          "name": "Ügyes Felfedező",
+          "description": "Felfedezted a Felfedező Jegyzetek 60%-át!"
+        },
+        "italian": {
+          "name": "Adepto esploratore",
+          "description": "Hai scoperto il 60% delle note dell'esploratore su ARK!"
+        },
+        "koreana": {
+          "name": "숙달된 탐험가",
+          "description": "ARK 에서 존재하는 탐험가 노트의 60% 를 발견했습니다!"
+        },
+        "polish": {
+          "name": "Biegły Odkrywca",
+          "description": "Odnalazłeś 60% Notatek Odkrywców w ARK!"
+        },
+        "russian": {
+          "name": "Опытный исследователь",
+          "description": "Вы обнаружили 60% заметок первопроходцев!"
+        },
+        "schinese": {
+          "name": "老练探险家",
+          "description": "你发现了 ARK 上 60% 的探险笔记！"
+        },
+        "spanish": {
+          "name": "Explorador Adepto",
+          "description": "¡Has descubierto el 60% de las notas del explorador en ARK!"
+        },
+        "turkish": {
+          "name": "Hünerli Kaşif",
+          "description": "ARK'daki Kaşif Notlarının %60'ını keşfettin!"
+        },
+        "ukrainian": {
+          "name": "Вмілий дослідник",
+          "description": "Ви знайшли 60% нотаток першопрохідців!"
+        }
+      }
+    },
+    "ACHIEVEMENT_28": {
+      "translations": {
+        "brazilian": {
+          "name": "Explorador Profissional",
+          "description": "Você descobriu 70% das Notas de Explorador no ARK!"
+        },
+        "czech": {
+          "name": "Profesionální Průzkumník",
+          "description": "Objevil jsi 70% Poznámek Průzkumníka v ARKu!"
+        },
+        "english": {
+          "name": "Professional Explorer",
+          "description": "You've discovered 70% of the Explorer Notes on the ARK!"
+        },
+        "finnish": {
+          "name": "Asiantunteva Tutkimusmatkailija",
+          "description": "Olet löytänyt 70% Tutkijamerkinnöistä ARKissa!"
+        },
+        "french": {
+          "name": "Explorateur professionnel",
+          "description": "Vous avez découvert 70 % des Notes des explorateurs !"
+        },
+        "german": {
+          "name": "Professioneller Entdecker",
+          "description": "Du hast 70% aller Entdeckernotizen auf dieser Insel gefunden!"
+        },
+        "hungarian": {
+          "name": "Szakmai Felfedező",
+          "description": "Felfedezted a Felfedező Jegyzetek 70%-át!"
+        },
+        "italian": {
+          "name": "Esploratore professionale",
+          "description": "Hai scoperto il 70% delle note dell'esploratore su ARK!"
+        },
+        "koreana": {
+          "name": "능숙한 탐험가",
+          "description": "ARK 에서 존재하는 탐험가 노트의 70% 를 발견했습니다!"
+        },
+        "polish": {
+          "name": "Profesjonalny Odkrywca",
+          "description": "Odnalazłeś 70% Notatek Odkrywców w ARK!"
+        },
+        "russian": {
+          "name": "Профессиональный исследователь",
+          "description": "Вы обнаружили 70% заметок первопроходцев!"
+        },
+        "schinese": {
+          "name": "专业探险家",
+          "description": "你发现了 ARK 上 70% 的探险笔记！"
+        },
+        "spanish": {
+          "name": "Explorador Profesional",
+          "description": "¡Has descubierto el 70% de las notas del explorador en ARK!"
+        },
+        "turkish": {
+          "name": "Profesyonel Kaşif",
+          "description": "ARK'daki Kaşif Notlarının %70'ini keşfettin!"
+        },
+        "ukrainian": {
+          "name": "Професійний дослідник",
+          "description": "Ви знайшли 70% нотаток першопрохідців!"
+        }
+      }
+    },
+    "ACHIEVEMENT_29": {
+      "translations": {
+        "brazilian": {
+          "name": "Explorador Especialista",
+          "description": "Você descobriu 80% das Notas de Explorador no ARK!"
+        },
+        "czech": {
+          "name": "Průzkumník Expert",
+          "description": "Objevil jsi 80% Poznámek Průzkumníka v ARKu!"
+        },
+        "english": {
+          "name": "Expert Explorer",
+          "description": "You've discovered 80% of the Explorer Notes on the ARK!"
+        },
+        "finnish": {
+          "name": "Ekspertti Tutkimusmatkailija",
+          "description": "Olet löytänyt 80% Tutkijamerkinnöistä ARKissa!"
+        },
+        "french": {
+          "name": "Explorateur expert",
+          "description": "Vous avez découvert 80 % des Notes des explorateurs !"
+        },
+        "german": {
+          "name": "Entdecker Experte",
+          "description": "Du hast 80% aller Entdeckernotizen auf dieser Insel gefunden!"
+        },
+        "hungarian": {
+          "name": "Szakértő Felfedező",
+          "description": "Felfedezted a Felfedező Jegyzetek 80%-át!"
+        },
+        "italian": {
+          "name": "Esperto esploratore",
+          "description": "Hai scoperto l'80% delle note dell'esploratore su ARK!"
+        },
+        "koreana": {
+          "name": "전문적인 탐험가",
+          "description": "ARK 에서 존재하는 탐험가 노트의 80% 를 발견했습니다!"
+        },
+        "polish": {
+          "name": "Specjalistyczny Odkrywca",
+          "description": "Odnalazłeś 80% Notatek Odkrywców w ARK!"
+        },
+        "russian": {
+          "name": "Искусный исследователь",
+          "description": "Вы обнаружили 80% заметок первопроходцев!"
+        },
+        "schinese": {
+          "name": "专家探险家",
+          "description": "你发现了 ARK 上 80% 的探险笔记！"
+        },
+        "spanish": {
+          "name": "Explorador Experto",
+          "description": "¡Has descubierto el 80% de las notas del explorador en ARK!"
+        },
+        "turkish": {
+          "name": "Uzman Kaşif",
+          "description": "ARK'daki Kaşif Notlarının %80'ini keşfettin!"
+        },
+        "ukrainian": {
+          "name": "Вправний дослідник",
+          "description": "Ви знайшли 80% нотаток першопрохідців!"
+        }
+      }
+    },
+    "ACHIEVEMENT_30": {
+      "translations": {
+        "brazilian": {
+          "name": "Explorador Mestre",
+          "description": "Você descobriu 90% das Notas de Explorador no ARK!"
+        },
+        "czech": {
+          "name": "Mistr Průzkumník",
+          "description": "Objevil jsi 90% Poznámek Průzkumníka v ARKu!"
+        },
+        "english": {
+          "name": "Master Explorer",
+          "description": "You've discovered 90% of the Explorer Notes on the ARK!"
+        },
+        "finnish": {
+          "name": "Mestari Tutkimusmatkailija",
+          "description": "Olet löytänyt 90% Tutkijamerkinnöistä ARKissa!"
+        },
+        "french": {
+          "name": "Maître explorateur",
+          "description": "Vous avez découvert 90 % des Notes des explorateurs !"
+        },
+        "german": {
+          "name": "Meisterhafter Entdecker",
+          "description": "Du hast 90% aller Entdeckernotizen auf dieser Insel gefunden!"
+        },
+        "hungarian": {
+          "name": "Mester Felfedező",
+          "description": "Felfedezted a Felfedező Jegyzetek 90%-át!"
+        },
+        "italian": {
+          "name": "Mastro esploratore",
+          "description": "Hai scoperto il 90% delle note dell'esploratore su ARK!"
+        },
+        "koreana": {
+          "name": "마스터 탐험가",
+          "description": "ARK 에서 존재하는 탐험가 노트의 90% 를 발견했습니다!"
+        },
+        "polish": {
+          "name": "Mistrzowski Odkrywca",
+          "description": "Odnalazłeś 90% Notatek Odkrywców w ARK!"
+        },
+        "russian": {
+          "name": "Старший исследователь",
+          "description": "Вы обнаружили 90% заметок первопроходцев!"
+        },
+        "schinese": {
+          "name": "探险大师",
+          "description": "你发现了 ARK 上 90% 的探险笔记！"
+        },
+        "spanish": {
+          "name": "Explorador Maestro",
+          "description": "¡Has descubierto el 90% de las notas del explorador en ARK!"
+        },
+        "turkish": {
+          "name": "Usta Kaşif",
+          "description": "ARK'daki Kaşif Notlarının %90'ını keşfettin!"
+        },
+        "ukrainian": {
+          "name": "Старший дослідник",
+          "description": "Ви знайшли 90% нотаток першопрохідців!"
+        }
+      }
+    },
+    "ACHIEVEMENT_31": {
+      "translations": {
+        "brazilian": {
+          "name": "Explorador Perfeito",
+          "description": "Você descobriu 100% das Notas de Explorador no ARK!"
+        },
+        "czech": {
+          "name": "Perfektní Průzkumník",
+          "description": "Objevil jsi 100% Poznámek Průzkumníka v ARKu!"
+        },
+        "english": {
+          "name": "Perfect Explorer",
+          "description": "You've discovered 100% of the Explorer Notes on the ARK!"
+        },
+        "finnish": {
+          "name": "Täydellinen Tutkimusmatkailija",
+          "description": "Olet löytänyt 100% Tutkijamerkinnöistä ARKissa!"
+        },
+        "french": {
+          "name": "Explorateur parfait",
+          "description": "Vous avez découvert 100 % des Notes des explorateurs !"
+        },
+        "german": {
+          "name": "Perfekter Entdecker",
+          "description": "Du hast alle Entdeckernotizen auf dieser Insel gefunden!"
+        },
+        "hungarian": {
+          "name": "Tökéletes Felfedező",
+          "description": "Felfedezted a Felfedező Jegyzetek 100%-át!"
+        },
+        "italian": {
+          "name": "Perfetto esploratore",
+          "description": "Hai scoperto il 100% delle note dell'esploratore su ARK!"
+        },
+        "koreana": {
+          "name": "완벽한 탐험가",
+          "description": "ARK 에서 존재하는 탐험가 노트의 100% 를 발견했습니다!"
+        },
+        "polish": {
+          "name": "Odkrywca Absolutny",
+          "description": "Odnalazłeś wszystkie Notatki Odkrywców w ARK!"
+        },
+        "russian": {
+          "name": "Превосходный исследователь",
+          "description": "Вы обнаружили 100% заметок первопроходцев!"
+        },
+        "schinese": {
+          "name": "完美探险家",
+          "description": "你发现了 ARK 上 100% 的探险笔记！"
+        },
+        "spanish": {
+          "name": "Explorador Perfecto",
+          "description": "¡Has descubierto el 100% de las notas de explorador en ARK!"
+        },
+        "turkish": {
+          "name": "Kusursuz Kaşif",
+          "description": "ARK'daki Kaşif Notlarının %100'ünü keşfettin!"
+        },
+        "ukrainian": {
+          "name": "Досконалий дослідник",
+          "description": "Ви знайшли 100% нотаток першопрохідців!"
+        }
+      }
+    },
+    "ACHIEVEMENT_32": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre Zoólogo",
+          "description": "Você domesticou todas as criaturas domésticaveis no ARK!"
+        },
+        "czech": {
+          "name": "Mistr Zoolog",
+          "description": "Ochočil jsi všechny domestikovatelné stvoření v ARKu!"
+        },
+        "english": {
+          "name": "Master Zoologist",
+          "description": "You tamed all of the domesticable creatures on the ARK!"
+        },
+        "finnish": {
+          "name": "Mestari Eläintieteilijä",
+          "description": "Kesytit kaikki kesyyntyvät olennot ARKissa!"
+        },
+        "french": {
+          "name": "Maître zoologiste",
+          "description": "Vous avez apprivoisé toutes les créatures domesticables !"
+        },
+        "german": {
+          "name": "Meisterhafter Zoologe",
+          "description": "Du hast alle zähmbaren Kreaturen des ARK´s gezähmt!"
+        },
+        "hungarian": {
+          "name": "Mester Zoológus",
+          "description": "Megszelídítetted az összes szelídíthető lényét az ARK-nak!"
+        },
+        "italian": {
+          "name": "Maestro zoologo",
+          "description": "Hai domato tutte le creature addomesticabili in ARK!"
+        },
+        "koreana": {
+          "name": "동물 마스터",
+          "description": "당신은 ARK 에서 존재하는 모든 생물을 길들였습니다!"
+        },
+        "polish": {
+          "name": "Mistrz Zoologii",
+          "description": "Udomowiłeś wszystkie oswajalne stworzenia w ARK!"
+        },
+        "russian": {
+          "name": "Главный зоолог",
+          "description": "Вы укротили всех приручаемых существ!"
+        },
+        "schinese": {
+          "name": "动物学大师",
+          "description": "你驯服了 ARK 上所有可驯养生物！"
+        },
+        "spanish": {
+          "name": "Zoólogo Maestro",
+          "description": "¡Has domesticado a todas las criaturas domesticables del ARK!"
+        },
+        "turkish": {
+          "name": "Uzman Zoolog",
+          "description": "ARK'daki evcilleştirilebilir bütün yaratıkları evcilleştirdin!"
+        },
+        "ukrainian": {
+          "name": "Головний зоолог",
+          "description": "Ви приручили всіх можливих істот!"
+        }
+      }
+    },
+    "ACHIEVEMENT_33": {
+      "translations": {
+        "brazilian": {
+          "name": "Sobrevivente do The Center",
+          "description": "Você derrotou os Guardiões do The Center!"
+        },
+        "czech": {
+          "name": "Přeživší The Centeru",
+          "description": "Pokořil jsi Strážce The Centeru!"
+        },
+        "english": {
+          "name": "Survivor of The Center",
+          "description": "You defeated the Guardians of The Center!"
+        },
+        "finnish": {
+          "name": "The Centerin Selviytyjä",
+          "description": "Päihitit The Centerin Vartijat!"
+        },
+        "french": {
+          "name": "Survivant de The Center",
+          "description": "Vous avez vaincu les gardiens de The Center !"
+        },
+        "german": {
+          "name": "Überlebender von The Center",
+          "description": "Besiege die Wächter auf The Center!"
+        },
+        "hungarian": {
+          "name": "A Központ túlélője",
+          "description": "Legyőzted a Központ összes Őrzőjét"
+        },
+        "italian": {
+          "name": "Sopravvissuto di The Center",
+          "description": "Hai sconfitto i Guardiani di The Center!"
+        },
+        "koreana": {
+          "name": "중앙의 생존자",
+          "description": "당신은 중앙의 수호자를 사살했습니다!"
+        },
+        "polish": {
+          "name": "Ocalały z Centrum",
+          "description": "Pokonałeś obrońców Centrum."
+        },
+        "russian": {
+          "name": "Выживший с карты The Center",
+          "description": "Вы одолели всех стражей на карте The Center!"
+        },
+        "schinese": {
+          "name": "The Center 幸存者",
+          "description": "你击败了 The Center 的守护者！"
+        },
+        "spanish": {
+          "name": "Superviviente de The Center",
+          "description": "¡Has derrotado a los guardianes de The Center!"
+        },
+        "turkish": {
+          "name": "The Center Savaşçısı",
+          "description": "The Center Muhafızlarını yendin!"
+        },
+        "ukrainian": {
+          "name": "Вцілілий із мапи The Center",
+          "description": "Ви здолали вартових мапи The Center!"
+        }
+      }
+    }
+  }
+}

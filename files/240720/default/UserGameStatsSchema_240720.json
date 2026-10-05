@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "app_id": "240720",
+  "variant_id": "default",
+  "source_sha256": "76120c049add46dc365ca9bf61480edee8c6c945e72150b8676acb3cbebbe12f",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "ASCENDED_ONCE": {
+      "translations": {
+        "english": {
+          "name": "Got Over It.",
+          "description": "You reached the top of the mountain."
+        },
+        "schinese": {
+          "name": "攻克难关",
+          "description": "你到达了山顶"
+        }
+      }
+    },
+    "ASCENDED_TWICE": {
+      "translations": {
+        "english": {
+          "name": "Got Over It, For Real This Time.",
+          "description": "Reached the top of the mountain twice."
+        },
+        "schinese": {
+          "name": "这次真的攻克难关了",
+          "description": "到达山顶两次"
+        }
+      }
+    },
+    "ASCENDED_LOTS": {
+      "translations": {
+        "english": {
+          "name": "So Over It.",
+          "description": "Reached the top of the mountain fifty times."
+        },
+        "schinese": {
+          "name": "彻底攻克难关了",
+          "description": "到达山顶五十次"
+        }
+      }
+    }
+  }
+}

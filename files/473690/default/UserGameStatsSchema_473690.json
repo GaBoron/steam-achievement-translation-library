@@ -1,0 +1,899 @@
+{
+  "version": 1,
+  "app_id": "473690",
+  "variant_id": "default",
+  "source_sha256": "98988babea4df321e547a4ee8d1b3d71f8e3845d88441750512b482b4fec47bb",
+  "languages": [
+    "brazilian",
+    "english",
+    "french",
+    "german",
+    "polish",
+    "russian",
+    "sc_schinese",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "ACH_WIN_1V1": {
+      "translations": {
+        "brazilian": {
+          "name": "O doce cheiro da vitória",
+          "description": "Vença 1 duelo PVP"
+        },
+        "english": {
+          "name": "Smells like Victory",
+          "description": "Win 1 PVP Duel"
+        },
+        "french": {
+          "name": "Le goût de la victoire",
+          "description": "Gagner un duel en 1 contre 1"
+        },
+        "german": {
+          "name": "Der Duft des Sieges",
+          "description": "Gewinne 1 PvP-Duell."
+        },
+        "polish": {
+          "name": "Smak zwycięstwa",
+          "description": "Wygraj 1 pojedynek PvP"
+        },
+        "russian": {
+          "name": "Запах победы",
+          "description": "Победить в одной PVP-дуэли"
+        },
+        "sc_schinese": {
+          "name": "胜利的气息",
+          "description": "赢得1次PvP决斗"
+        },
+        "schinese": {
+          "name": "闻起来像胜利",
+          "description": "赢得1场PVP对决"
+        },
+        "spanish": {
+          "name": "Aroma a victoria",
+          "description": "Gana un duelo JcJ"
+        }
+      }
+    },
+    "ACH_GM_LEVEL_5": {
+      "translations": {
+        "brazilian": {
+          "name": "Aquecimento",
+          "description": "Chegue ao nível 5 das Provas de Combate"
+        },
+        "english": {
+          "name": "Warming up!",
+          "description": "Reach Gamemode Level 5"
+        },
+        "french": {
+          "name": "Échauffement",
+          "description": "Atteindre le Niveau 5 des Épreuves"
+        },
+        "german": {
+          "name": "Aufwärmphase",
+          "description": "Erreiche Kampfprüfungen Stufe 5."
+        },
+        "polish": {
+          "name": "To dopiero rozgrzewka",
+          "description": "Osiągnij 5. poziom Prób walki"
+        },
+        "russian": {
+          "name": "Разминка",
+          "description": "Достичь 5 уровня в Боевых испытаниях"
+        },
+        "sc_schinese": {
+          "name": "热身中",
+          "description": "达到游戏模式等级5级"
+        },
+        "schinese": {
+          "name": "热身！",
+          "description": "将游戏等级提升至 5 级"
+        },
+        "spanish": {
+          "name": "Calentamiento",
+          "description": "Alcanza pruebas de combate de nivel 5"
+        }
+      }
+    },
+    "ACH_LOOT_ONE_WEAPON": {
+      "translations": {
+        "brazilian": {
+          "name": "Hora de se equipar",
+          "description": "Adquira 1 arma"
+        },
+        "english": {
+          "name": "Gear up",
+          "description": "Loot 1 weapon"
+        },
+        "french": {
+          "name": "Un nouvel équipement",
+          "description": "Récupérer une arme dans votre inventaire"
+        },
+        "german": {
+          "name": "Das gehört mir",
+          "description": "Plündere 1 Waffe."
+        },
+        "polish": {
+          "name": "Coś pod ręką",
+          "description": "Zdobądź 1 broń"
+        },
+        "russian": {
+          "name": "Снаряжаемся",
+          "description": "Подобрать одно оружие"
+        },
+        "sc_schinese": {
+          "name": "蓄势待发",
+          "description": "捡到1把武器"
+        },
+        "schinese": {
+          "name": "做好准备",
+          "description": "获得一把武器‌"
+        },
+        "spanish": {
+          "name": "¡A equiparse!",
+          "description": "Consigue un arma en tu inventario"
+        }
+      }
+    },
+    "ACH_MASTER_NEW_ATTACK": {
+      "translations": {
+        "brazilian": {
+          "name": "Hora de agir",
+          "description": "Domine 1 novo ataque"
+        },
+        "english": {
+          "name": "Make your Move",
+          "description": "Master 1 new Attack"
+        },
+        "french": {
+          "name": "Une nouvelle corde à votre arc",
+          "description": "Maîtriser 1 nouvelle attaque"
+        },
+        "german": {
+          "name": "Fortschritt durch Technik",
+          "description": "Meistere 1 neuen Angriff."
+        },
+        "polish": {
+          "name": "Twój ruch",
+          "description": "Opanuj 1 nowy atak"
+        },
+        "russian": {
+          "name": "Делай ход",
+          "description": "Овладеть одной новой атакой"
+        },
+        "sc_schinese": {
+          "name": "创建招式",
+          "description": "掌握1项新的攻击招式"
+        },
+        "schinese": {
+          "name": "行动起来",
+          "description": "掌握 1 种新的攻击方式"
+        },
+        "spanish": {
+          "name": "Toca moverse",
+          "description": "Domina un nuevo ataque"
+        }
+      }
+    },
+    "ACH_AI_OFF_LEDGE": {
+      "translations": {
+        "brazilian": {
+          "name": "Isso aqui é Adal!",
+          "description": "Empurre o NPC de cima da beirada"
+        },
+        "english": {
+          "name": "This is Adal!",
+          "description": "Push AI off ledge"
+        },
+        "french": {
+          "name": "Ici, c'est Adal !",
+          "description": "Faire tomber un PNJ d'une certaine hauteur"
+        },
+        "german": {
+          "name": "Das ist Adal!",
+          "description": "Schubse einen NSC über eine Kante."
+        },
+        "polish": {
+          "name": "To jest Adal!",
+          "description": "Zepchnij z urwiska postać NPC"
+        },
+        "russian": {
+          "name": "Это Адал!",
+          "description": "Столкнуть НИП с обрыва"
+        },
+        "sc_schinese": {
+          "name": "这就是阿达尔！",
+          "description": "把AI推下悬崖"
+        },
+        "schinese": {
+          "name": "这就是阿达尔！",
+          "description": "把 AI 推下悬崖"
+        },
+        "spanish": {
+          "name": "¡Esto es Adal!",
+          "description": "Despeña a un PNJ"
+        }
+      }
+    },
+    "ACH_JOIN_SCHOOL": {
+      "translations": {
+        "brazilian": {
+          "name": "Faixa branca",
+          "description": "Entre em uma Escola"
+        },
+        "english": {
+          "name": "White Belt",
+          "description": "Join a school"
+        },
+        "french": {
+          "name": "Ceinture blanche",
+          "description": "Rejoindre une École"
+        },
+        "german": {
+          "name": "Weißer Gürtel",
+          "description": "Tritt einer Schule bei."
+        },
+        "polish": {
+          "name": "Biały pas",
+          "description": "Dołącz do szkoły"
+        },
+        "russian": {
+          "name": "Белый пояс",
+          "description": "Присоединиться к школе"
+        },
+        "sc_schinese": {
+          "name": "白带选手",
+          "description": "加入一个流派"
+        },
+        "schinese": {
+          "name": "白带",
+          "description": "加入一所学校"
+        },
+        "spanish": {
+          "name": "Cinturón blanco",
+          "description": "Únete a una escuela"
+        }
+      }
+    },
+    "ACH_OPPONENT_WEAPON_KILL": {
+      "translations": {
+        "brazilian": {
+          "name": "Lâmina de dois gumes",
+          "description": "Mate seu adversário usando a arma dele no 1x1"
+        },
+        "english": {
+          "name": "Double-edged Sword ",
+          "description": "Kill opponent with their own weapon in 1v1"
+        },
+        "french": {
+          "name": "Une arme à double-tranchant",
+          "description": "Tuer votre adversaire avec sa propre arme en 1 contre 1"
+        },
+        "german": {
+          "name": "Zweischneidiges Schwert",
+          "description": "Töte deinen Gegner im 1g1 mit seiner eigenen Waffe."
+        },
+        "polish": {
+          "name": "Każdy miecz ma dwa końce",
+          "description": "Zabij przeciwnika jego własną bronią w walce 1-na-1"
+        },
+        "russian": {
+          "name": "Обоюдоострый клинок",
+          "description": "Убить противника 1 на 1 его же оружием"
+        },
+        "sc_schinese": {
+          "name": "双刃剑",
+          "description": "在1v1模式中，击败带武器的对手"
+        },
+        "schinese": {
+          "name": "双刃剑",
+          "description": "在 1v1 的战斗中，用对手自己的武器将其击败"
+        },
+        "spanish": {
+          "name": "Espada de doble filo",
+          "description": "Mata a tu rival con su propia arma en 1c1"
+        }
+      }
+    },
+    "ACH_ALL_CAIRNS": {
+      "translations": {
+        "brazilian": {
+          "name": "Segredo de Talem",
+          "description": "Abra todos os moledros com um personagem"
+        },
+        "english": {
+          "name": "Talem's Secret",
+          "description": "Open all cairns with one character"
+        },
+        "french": {
+          "name": "Le secret de Talem",
+          "description": "Ouvrir tous les Cairns avec un même personnage"
+        },
+        "german": {
+          "name": "Talems Geheimnis",
+          "description": "Öffne mit einem Charakter alle Steinhaufen."
+        },
+        "polish": {
+          "name": "Sekret Talema",
+          "description": "Otwórz wszystkie kopce jedną postacią"
+        },
+        "russian": {
+          "name": "Секрет Талема",
+          "description": "Открыть все пирамиды одним персонажем"
+        },
+        "sc_schinese": {
+          "name": "泰勒慕的秘密",
+          "description": "用一个角色打开所有石堆"
+        },
+        "schinese": {
+          "name": "塔莱姆之谜",
+          "description": "用同一个角色解锁所有石堆"
+        },
+        "spanish": {
+          "name": "El secreto de Talem",
+          "description": "Abre todos los montones de piedras con un personaje"
+        }
+      }
+    },
+    "ACH_BECOME_DISCIPLE": {
+      "translations": {
+        "brazilian": {
+          "name": "Faixa preta",
+          "description": "Torne-se discípulo da sua Escola"
+        },
+        "english": {
+          "name": "Black Belt",
+          "description": "Become a disciple of your school"
+        },
+        "french": {
+          "name": "Ceinture noire",
+          "description": "Devenir un Disciple de votre École"
+        },
+        "german": {
+          "name": "Schwarzer Gürtel",
+          "description": "Werde ein Eingeweihter deiner Schule."
+        },
+        "polish": {
+          "name": "Czarny pas",
+          "description": "Zostań adeptem swojej szkoły"
+        },
+        "russian": {
+          "name": "Черный пояс",
+          "description": "Стать учеником своей школы"
+        },
+        "sc_schinese": {
+          "name": "黑带选手",
+          "description": "成为你所在流派的一名弟子"
+        },
+        "schinese": {
+          "name": "黑带",
+          "description": "成为你所在学校的门徒"
+        },
+        "spanish": {
+          "name": "Cinturón negro",
+          "description": "Conviértete en discípulo de tu escuela"
+        }
+      }
+    },
+    "ACH_CREATE_SCHOOL": {
+      "translations": {
+        "brazilian": {
+          "name": "O aluno se torna o mestre",
+          "description": "Crie uma Escola"
+        },
+        "english": {
+          "name": "Student becomes Teacher",
+          "description": "Create a school"
+        },
+        "french": {
+          "name": "L'élève devient un maître",
+          "description": "Créer une École"
+        },
+        "german": {
+          "name": "Der Schüler wird Lehrer",
+          "description": "Erstelle eine Schule."
+        },
+        "polish": {
+          "name": "Uczeń zostaje nauczycielem",
+          "description": "Stwórz szkołę"
+        },
+        "russian": {
+          "name": "Ученик становится учителем",
+          "description": "Создать школу"
+        },
+        "sc_schinese": {
+          "name": "青出于蓝",
+          "description": "创建一个流派"
+        },
+        "schinese": {
+          "name": "学生变成了老师",
+          "description": "创建一所学校"
+        },
+        "spanish": {
+          "name": "Afán de enseñanza",
+          "description": "Crea una escuela"
+        }
+      }
+    },
+    "ACH_KILL_KURETZ": {
+      "translations": {
+        "brazilian": {
+          "name": "Kuretz",
+          "description": "Mate Kuretz"
+        },
+        "english": {
+          "name": "Kuretz",
+          "description": "Kill Kuretz"
+        },
+        "french": {
+          "name": "Kuretz",
+          "description": "Tuer Kuretz"
+        },
+        "german": {
+          "name": "Kuretz",
+          "description": "Töte Kuretz."
+        },
+        "polish": {
+          "name": "Kuretz",
+          "description": "Zabij Kuretza"
+        },
+        "russian": {
+          "name": "Куретц",
+          "description": "Убить Куретца"
+        },
+        "sc_schinese": {
+          "name": "库瑞兹，不过如此",
+          "description": "击败库瑞兹"
+        },
+        "schinese": {
+          "name": "库雷茨",
+          "description": "杀死库雷茨"
+        },
+        "spanish": {
+          "name": "Kuretz",
+          "description": "Mata a Kuretz"
+        }
+      }
+    },
+    "ACH_KILL_CARGAL_AND_KILNOR": {
+      "translations": {
+        "brazilian": {
+          "name": "Cargal e Kilnor",
+          "description": "Mate Cargal e Kilnor"
+        },
+        "english": {
+          "name": "Cargal & Kilnor",
+          "description": "Kill Cargal & Kilnor"
+        },
+        "french": {
+          "name": "Cargal et Kilnor",
+          "description": "Tuer Cargal et Kilnor"
+        },
+        "german": {
+          "name": "Cargal & Kilnor",
+          "description": "Töte Cargal & Kilnor."
+        },
+        "polish": {
+          "name": "Cargal i Kilnor",
+          "description": "Zabij Cargala i Kilnor"
+        },
+        "russian": {
+          "name": "Каргал и Килнор",
+          "description": "Убить Каргала и Килнора"
+        },
+        "sc_schinese": {
+          "name": "混合双打，不讲武德",
+          "description": "击败卡格和科勒"
+        },
+        "schinese": {
+          "name": "卡加尔与基尔诺尔",
+          "description": "杀死卡加尔和基尔诺尔"
+        },
+        "spanish": {
+          "name": "Cargal y Kilnor",
+          "description": "Mata a Cargal y Kilnor"
+        }
+      }
+    },
+    "ACH_KILL_RISRYN": {
+      "translations": {
+        "brazilian": {
+          "name": "Risryn",
+          "description": "Mate Risryn"
+        },
+        "english": {
+          "name": "Risryn",
+          "description": "Kill Risryn"
+        },
+        "french": {
+          "name": "Risryn",
+          "description": "Tuer Risryn"
+        },
+        "german": {
+          "name": "Risryn",
+          "description": "Töte Risryn."
+        },
+        "polish": {
+          "name": "Risryn",
+          "description": "Zabij Risryn"
+        },
+        "russian": {
+          "name": "Рисрин",
+          "description": "Убить Рисрин"
+        },
+        "sc_schinese": {
+          "name": "瑞斯润，起来再打啊",
+          "description": "击败瑞斯润"
+        },
+        "schinese": {
+          "name": "里斯林",
+          "description": "杀死里斯林"
+        },
+        "spanish": {
+          "name": "Risryn",
+          "description": "Mata a Risryn"
+        }
+      }
+    },
+    "ACH_KILL_ALL_MINIBOSSES": {
+      "translations": {
+        "brazilian": {
+          "name": "Removedor de marcas",
+          "description": "Mate todos os marcados com um personagem"
+        },
+        "english": {
+          "name": "Finding your Marks",
+          "description": "Kill all marked ones with one character"
+        },
+        "french": {
+          "name": "Grande démarque",
+          "description": "Tuer tous les Marqués avec un même personnage"
+        },
+        "german": {
+          "name": "Ausgelöschte Zeichen",
+          "description": "Töte mit einem Charakter alle Gezeichneten."
+        },
+        "polish": {
+          "name": "Trafić w cel",
+          "description": "Zabij wszystkich Naznaczonych jedną postacią"
+        },
+        "russian": {
+          "name": "Найти свои метки",
+          "description": "Убить всех меченых одним персонажем"
+        },
+        "sc_schinese": {
+          "name": "印记收割者",
+          "description": "用一个角色击败所有印记者"
+        },
+        "schinese": {
+          "name": "找到属于自己的位置",
+          "description": "用同一个角色杀死所有被标记的目标"
+        },
+        "spanish": {
+          "name": "En busca de marcas",
+          "description": "Mata a todos los Marcados con un personaje"
+        }
+      }
+    },
+    "ACH_CARGAL_KILNOR_FRATRICIDE": {
+      "translations": {
+        "brazilian": {
+          "name": "Você era um irmão pra mim!",
+          "description": "Faça com que Cargal mate Kilnor (ou vice-versa)"
+        },
+        "english": {
+          "name": "You were like a brother to me!",
+          "description": "Have Cargal kill Kilnor (or the opposite)"
+        },
+        "french": {
+          "name": "Amour fraternel",
+          "description": "Faire tuer Cargal par Kilnor (ou le contraire)"
+        },
+        "german": {
+          "name": "Du warst wie ein Bruder für mich!",
+          "description": "Lass Cargal Kilnor töten (oder umgekehrt)."
+        },
+        "polish": {
+          "name": "Byłeś mi jak brat!",
+          "description": "Spraw, aby Cargal zabił Kilnor (lub odwrotnie)"
+        },
+        "russian": {
+          "name": "Ты был мне как брат!",
+          "description": "Заставить Каргала убить Килнора (или наоборот)"
+        },
+        "sc_schinese": {
+          "name": "你待我如兄弟！",
+          "description": "让卡格击败科勒（或相反）"
+        },
+        "schinese": {
+          "name": "你对我就像兄弟一样！",
+          "description": "让卡加尔杀死基尔诺尔（或者反过来也行）"
+        },
+        "spanish": {
+          "name": "¡Eras un hermano para mí!",
+          "description": "Haz que Cargal mate a Kilnor (o viceversa)"
+        }
+      }
+    },
+    "ACH_KILL_100_PLAYERS": {
+      "translations": {
+        "brazilian": {
+          "name": "Lei do mais forte",
+          "description": "Mate 100 personagens de jogadores (com qualquer personagem)"
+        },
+        "english": {
+          "name": "Survival of the Fittest",
+          "description": "Kill 100 Players Character (Any Character)"
+        },
+        "french": {
+          "name": "La loi du plus fort",
+          "description": "Tuer 100 personnages de joueurs (tient compte de tous vos personnages)"
+        },
+        "german": {
+          "name": "Nur die Stärksten überleben",
+          "description": "Töte 100 Spielercharaktere (mit beliebigen Charakteren)."
+        },
+        "polish": {
+          "name": "Przetrwają tylko najsilniejsi",
+          "description": "Zabij 100 przeciwników kierowanych przez graczy (dowolną postacią)"
+        },
+        "russian": {
+          "name": "Выживает сильнейший",
+          "description": "Убить 100 персонажей игроков (любым персонажем)"
+        },
+        "sc_schinese": {
+          "name": "适者生存",
+          "description": "击败100个玩家角色（任意角色）"
+        },
+        "schinese": {
+          "name": "适者生存",
+          "description": "杀死 100 个玩家（任意角色）"
+        },
+        "spanish": {
+          "name": "Solo puedes quedar tú",
+          "description": "Mata a 100 personajes de jugadores (cualquier personaje)"
+        }
+      }
+    },
+    "ACH_KILL_ALL_BOSSES_LAST_LEVEL": {
+      "translations": {
+        "brazilian": {
+          "name": "Adversários à altura",
+          "description": "Mate todos os chefões no último nível com um personagem"
+        },
+        "english": {
+          "name": "Worthy Opponents",
+          "description": "Kill all bosses in their last level with one character"
+        },
+        "french": {
+          "name": "De glorieuses victoires",
+          "description": "Tuer tous les Boss à leur dernier niveau avec un même personnage"
+        },
+        "german": {
+          "name": "Würdige Gegner",
+          "description": "Töte mit einem Charakter alle Bosse auf ihrer letzten Stufe."
+        },
+        "polish": {
+          "name": "Godni przeciwnicy",
+          "description": "Zabij wszystkich bossów (najwyższy poziom) jedną postacią"
+        },
+        "russian": {
+          "name": "Достойные противники",
+          "description": "Убить всех боссов на их последнем уровне одним персонажем"
+        },
+        "sc_schinese": {
+          "name": "勇者之证",
+          "description": "用一个角色击败最后关卡的所有首领"
+        },
+        "schinese": {
+          "name": "棋逢对手",
+          "description": "用同一个角色，在所有首领的最高难度下将他们全部击败"
+        },
+        "spanish": {
+          "name": "Rivales dignos",
+          "description": "Mata a todos los jefes en su último nivel con un personaje"
+        }
+      }
+    },
+    "ACH_UNLOCK_ALL_FIGHTING_STYLES": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre dos estilos",
+          "description": "Desbloqueie todos os estilos de luta com um personagem"
+        },
+        "english": {
+          "name": "Master of Styles",
+          "description": "Unlock all fighting styles with one character"
+        },
+        "french": {
+          "name": "Maître des Styles",
+          "description": "Déverrouiller tous les Styles de Combat avec un même personnage"
+        },
+        "german": {
+          "name": "Meister der Stile",
+          "description": "Schalte mit einem Charakter alle Kampfstile frei."
+        },
+        "polish": {
+          "name": "Mistrz stylów",
+          "description": "Odblokuj wszystkie style walki jedną postacią"
+        },
+        "russian": {
+          "name": "Мастер стилей",
+          "description": "Открыть все боевые стили одним персонажем"
+        },
+        "sc_schinese": {
+          "name": "技多不压身！",
+          "description": "用一个角色解锁所有战斗风格"
+        },
+        "schinese": {
+          "name": "风格大师",
+          "description": "用同一个角色解锁所有战斗风格"
+        },
+        "spanish": {
+          "name": "As de los estilos",
+          "description": "Desbloquea todos los estilos de lucha con un personaje"
+        }
+      }
+    },
+    "ACH_ABSOLVER": {
+      "translations": {
+        "brazilian": {
+          "name": "Absolver",
+          "description": "Torne-se Absolver"
+        },
+        "english": {
+          "name": "Absolver",
+          "description": "Become an Absolver"
+        },
+        "french": {
+          "name": "Absolver",
+          "description": "Devenir Absolver"
+        },
+        "german": {
+          "name": "Absolver",
+          "description": "Werde ein Absolver."
+        },
+        "polish": {
+          "name": "Absolver",
+          "description": "Zostań Absolverem"
+        },
+        "russian": {
+          "name": "Абзолвер",
+          "description": "Стать Абзолвером"
+        },
+        "sc_schinese": {
+          "name": "赦免者",
+          "description": "成为一名赦免者"
+        },
+        "schinese": {
+          "name": "赦免者",
+          "description": "成为一名赦免者"
+        },
+        "spanish": {
+          "name": "Absolver",
+          "description": "Conviértete en Absolver"
+        }
+      }
+    },
+    "ACH_MASTER_ALL_ATTACKS": {
+      "translations": {
+        "brazilian": {
+          "name": "Grão-mestre",
+          "description": "Domine todos os ataques com um personagem"
+        },
+        "english": {
+          "name": "The Grandmaster",
+          "description": "Master all attacks with one character"
+        },
+        "french": {
+          "name": "Grand-maître",
+          "description": "Maîtriser toutes les attaques avec un même personnage"
+        },
+        "german": {
+          "name": "Großmeister",
+          "description": "Meistere mit einem Charakter alle Angriffe."
+        },
+        "polish": {
+          "name": "Wielki mistrz",
+          "description": "Opanuj wszystkie ataki jedną postacią"
+        },
+        "russian": {
+          "name": "Грандмастер",
+          "description": "Освоить все атаки одним персонажем"
+        },
+        "sc_schinese": {
+          "name": "一代宗师",
+          "description": "用一个角色掌握所有战斗招式"
+        },
+        "schinese": {
+          "name": "一代宗师",
+          "description": "用同一个角色掌握所有攻击方式"
+        },
+        "spanish": {
+          "name": "Gurú del ataque",
+          "description": "Domina todos los ataques con un personaje"
+        }
+      }
+    },
+    "ACH_UNLOCK_CALBOT": {
+      "translations": {
+        "brazilian": {
+          "name": "Hora de apelar",
+          "description": "Desbloqueie Calbot"
+        },
+        "english": {
+          "name": "Adding insult to injury",
+          "description": "Unlock Calbot"
+        },
+        "french": {
+          "name": "Ajouter l'insulte à l'affront",
+          "description": "Déverrouiller Calbot"
+        },
+        "german": {
+          "name": "Es kommt noch schlimmer",
+          "description": "Schalte Calbot frei."
+        },
+        "polish": {
+          "name": "Dodać oliwy do ognia",
+          "description": "Odblokuj Calbota"
+        },
+        "russian": {
+          "name": "Боль и оскорбление",
+          "description": "Открыть калбот"
+        },
+        "sc_schinese": {
+          "name": "别打脸啊",
+          "description": "解锁“耳光”"
+        },
+        "schinese": {
+          "name": "雪上加霜",
+          "description": "解锁卡尔博特"
+        },
+        "spanish": {
+          "name": "Actitud insultante",
+          "description": "Desbloquea Calbot"
+        }
+      }
+    },
+    "ACH_GM_LEVEL_100": {
+      "translations": {
+        "brazilian": {
+          "name": "Agora está ficando sério",
+          "description": "Chegue ao nível 100 das Provas de Combate"
+        },
+        "english": {
+          "name": "Getting serious",
+          "description": "Reach Gamemode Level 100"
+        },
+        "french": {
+          "name": "Les choses sérieuses commencent",
+          "description": "Atteindre le Niveau 100 des Épreuves"
+        },
+        "german": {
+          "name": "Jetzt wird's ernst",
+          "description": "Erreiche Kampfprüfungen Stufe 100."
+        },
+        "polish": {
+          "name": "Robi się poważnie",
+          "description": "Osiągnij 100. poziom Prób walki"
+        },
+        "russian": {
+          "name": "Все серьезно",
+          "description": "Достичь 100 уровня в Боевых испытаниях"
+        },
+        "sc_schinese": {
+          "name": "要动真格了",
+          "description": "达到游戏模式等级100级"
+        },
+        "schinese": {
+          "name": "认真起来",
+          "description": "将游戏等级提升到 100 级"
+        },
+        "spanish": {
+          "name": "Esto va en serio",
+          "description": "Alcanza pruebas de combate de nivel 100"
+        }
+      }
+    }
+  }
+}

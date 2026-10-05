@@ -1,0 +1,3899 @@
+{
+  "version": 1,
+  "app_id": "35720",
+  "variant_id": "default",
+  "source_sha256": "db36746fa8db240f8f12d50dbc25979b77e2ce2e25d9138cb85b7dd014b6770e",
+  "languages": [
+    "english",
+    "finnish",
+    "french",
+    "german",
+    "italian",
+    "koreana",
+    "polish",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "surf": {
+      "translations": {
+        "english": {
+          "name": "Surfboard Master",
+          "description": "Stand on a plank floating on a single airflow for four seconds"
+        },
+        "finnish": {
+          "name": "Surffimestari",
+          "description": "Seiso ilmavirrassa huojuvan lankun päällä neljä sekuntia"
+        },
+        "french": {
+          "name": "Le maître du surf",
+          "description": "Tenez 4 secondes sur une planche flottant sur un courant d'air."
+        },
+        "german": {
+          "name": "Surfchampion",
+          "description": "Stehe auf einer Planke und schwebe vier Sekunden auf einem Luftzug"
+        },
+        "italian": {
+          "name": "Re della tavola",
+          "description": "Stai su una tavola fluttuante su una singola corrente d'aria per quattro secondi"
+        },
+        "koreana": {
+          "name": "서프보드 마스터",
+          "description": "하나의 기류 위에 떠있는 널빤지 위에 4초 동안 서있기."
+        },
+        "polish": {
+          "name": "Mistrz surfingu",
+          "description": "Stój przez 4 sekundy na desce unoszącej się na pojedynczym podmuchu."
+        },
+        "schinese": {
+          "name": "冲浪板大师",
+          "description": "站在漂浮于单一气流的木板上四秒"
+        },
+        "spanish": {
+          "name": "Maestro surfista",
+          "description": "Situarte en un tablón sobre una sola corriente de aire durante 4 segundos."
+        }
+      }
+    },
+    "hazard": {
+      "translations": {
+        "english": {
+          "name": "I Didn't Do It",
+          "description": "Make goblins die of three different environmental hazards in a single level"
+        },
+        "finnish": {
+          "name": "Tuo sen teki",
+          "description": "Tapata peikot kolmella eri ympäristöansalla yhden tason aikana"
+        },
+        "french": {
+          "name": "Je n'ai pas fait ça !",
+          "description": "Au cours du même niveau, utilisez 3 dangers environnementaux différents pour tuer des gobelins."
+        },
+        "german": {
+          "name": "Das war nicht ich",
+          "description": "Lasse Goblins in einem Level an drei verschiedenen Umweltgefahren sterben"
+        },
+        "italian": {
+          "name": "Non sono stato io",
+          "description": "Elimina i goblin con tre diversi pericoli ambientali in un unico livello"
+        },
+        "koreana": {
+          "name": "내가 하지 않았어",
+          "description": "하나의 레벨에서 서로다른 3개의 주변 위험요소들로 고블린을 죽게 만들기."
+        },
+        "polish": {
+          "name": "To nie ja",
+          "description": "Spraw, aby gobliny zginęły od trzech różnych niebezpiecznych elementów świata na jednym poziomie."
+        },
+        "schinese": {
+          "name": "死都不干",
+          "description": "在单一关卡内让哥布林死于三种不同的危险环境中"
+        },
+        "spanish": {
+          "name": "No he sido yo",
+          "description": "Hacer que mueran duendes de tres peligros ambientales distintos en un mismo nivel."
+        }
+      }
+    },
+    "solo": {
+      "translations": {
+        "english": {
+          "name": "Flying Solo",
+          "description": "Complete a whole level playing one character only"
+        },
+        "finnish": {
+          "name": "Sooloilua",
+          "description": "Pelaa jokin kenttä läpi käyttäen vain yhtä hahmoa"
+        },
+        "french": {
+          "name": "Le vol en solo",
+          "description": "Accomplissez un niveau entier avec un seul personnage."
+        },
+        "german": {
+          "name": "Solist",
+          "description": "Vollende einen ganzen Level und spiele dabei mit nur einer Figur"
+        },
+        "italian": {
+          "name": "Io ballo da solo",
+          "description": "Completa un intero livello giocando con un solo personaggio"
+        },
+        "koreana": {
+          "name": "솔로 플라잉",
+          "description": "단 하나의 캐릭터로 한 단계를 모두 완료하기."
+        },
+        "polish": {
+          "name": "Pracuję samotnie",
+          "description": "Ukończ cały poziom, grając tylko jedną postacią."
+        },
+        "schinese": {
+          "name": "单飞",
+          "description": "只使用一个角色通过整个关卡"
+        },
+        "spanish": {
+          "name": "A solas",
+          "description": "Completar un nivel entero jugando con un solo personaje."
+        }
+      }
+    },
+    "carni": {
+      "translations": {
+        "english": {
+          "name": "A Floral Feast",
+          "description": "Feed carnivorous plants with three or more different kinds of treats"
+        },
+        "finnish": {
+          "name": "Kukkasyömingit",
+          "description": "Syötä lihansyöjäkasveille kolme erilaista herkkupalaa"
+        },
+        "french": {
+          "name": "Le festin floral",
+          "description": "Nourrissez les plantes carnivores avec au moins 3 types de denrées différentes."
+        },
+        "german": {
+          "name": "Ein Pflanzenschmaus",
+          "description": "Füttere fleischfressende Pflanzen mit drei oder mehr unterschiedlichen Leckerbissen"
+        },
+        "italian": {
+          "name": "Banchetto floreale",
+          "description": "Dai almeno tre tipi diversi di bocconcini alle piante carnivore"
+        },
+        "koreana": {
+          "name": "꽃의 잔치",
+          "description": "서로다른 3가지 또는 그 이상의 종류로 육식식물에게 먹이주기."
+        },
+        "polish": {
+          "name": "Roślinna uczta",
+          "description": "Nakarm mięsożerne rośliny trzema różnymi smakołykami."
+        },
+        "schinese": {
+          "name": "花卉盛宴",
+          "description": "用三种以上的糖果喂食肉食植物"
+        },
+        "spanish": {
+          "name": "Festín floral",
+          "description": "Alimentar a plantas carnívoras con tres tipos distintos de golosinas o más."
+        }
+      }
+    },
+    "shatter": {
+      "translations": {
+        "english": {
+          "name": "Icebreaker",
+          "description": "Shatter three frozen enemies within one second"
+        },
+        "finnish": {
+          "name": "Jäänsärkijä",
+          "description": "Hajota kolme jäätynyttä vihollista sekunnin sisällä"
+        },
+        "french": {
+          "name": "Le briseur de glace",
+          "description": "Disloquez 3 ennemis pétrifiés en une seconde."
+        },
+        "german": {
+          "name": "Eisbrecher",
+          "description": "Zerschmettere drei gefrorene Feinde innerhalb einer Sekunde"
+        },
+        "italian": {
+          "name": "Rompighiaccio",
+          "description": "Manda in pezzi tre nemici congelati in un secondo"
+        },
+        "koreana": {
+          "name": "아이스브레이커",
+          "description": "1초 안에 얼어붙은 적들을 산산이 부수기."
+        },
+        "polish": {
+          "name": "Lodołamacz",
+          "description": "Rozbij trzech zamarzniętych przeciwników w przeciągu sekundy."
+        },
+        "schinese": {
+          "name": "破冰",
+          "description": "一秒内打碎三个被冻结的敌人"
+        },
+        "spanish": {
+          "name": "Rompehielos",
+          "description": "Romper a tres enemigos congelados en un segundo."
+        }
+      }
+    },
+    "hammer": {
+      "translations": {
+        "english": {
+          "name": "Hammer Havoc",
+          "description": "Kill an enemy with a thrown hammer bouncing at least once before kill"
+        },
+        "finnish": {
+          "name": "Vasaravaara",
+          "description": "Tapa vihollinen vasaralla joka ponnahtaa ainakin kerran ennen osumaa"
+        },
+        "french": {
+          "name": "Le marteau dévastateur",
+          "description": "Éliminez un ennemi en faisant rebondir le marteau une fois avant de le frapper."
+        },
+        "german": {
+          "name": "Hammerchaos",
+          "description": "Wirf den Hammer, lass ihn aufspringen und töte so einen Feind"
+        },
+        "italian": {
+          "name": "Martellata",
+          "description": "Elimina un nemico lanciando il martello e facendolo rimbalzare almeno una volta prima di colpire"
+        },
+        "koreana": {
+          "name": "망치 혼란",
+          "description": "해머를 던져서 적어도 한번은 바운드하게 해서 적을 죽이기."
+        },
+        "polish": {
+          "name": "Kaczka młotem",
+          "description": "Zabij przeciwnika rzuconym młotem, który odbił się co najmniej raz przed trafieniem w cel."
+        },
+        "schinese": {
+          "name": "乱锤",
+          "description": "用弹跳一次以上的战锤杀死敌人"
+        },
+        "spanish": {
+          "name": "Martillo destructor",
+          "description": "Matar a un enemigo con un martillo lanzado que rebote antes al menos una vez."
+        }
+      }
+    },
+    "friendly_fire": {
+      "translations": {
+        "english": {
+          "name": "Dirty Tactics",
+          "description": "Get at least 10 enemies killed by other enemies' actions in a single level"
+        },
+        "finnish": {
+          "name": "Likaista peliä",
+          "description": "Tapata ainakin 10 vihollista muiden vihollisten toimilla tason aikana"
+        },
+        "french": {
+          "name": "Des tactiques déloyales",
+          "description": "Au cours du même niveau, contraignez des ennemis à éliminer au moins 10 autres ennemis."
+        },
+        "german": {
+          "name": "Schmutzige Tricks",
+          "description": "Töte in einem Level mindestens 10 Feinde durch Handlungen anderer Feinde"
+        },
+        "italian": {
+          "name": "Gioco sporco",
+          "description": "Elimina almeno 10 nemici mediante azioni di altri nemici in un livello"
+        },
+        "koreana": {
+          "name": "사악한 전략",
+          "description": "하나의 레벨에서 서로다른 적의 행동으로 인해 적어도 10명의 적들을 죽이기."
+        },
+        "polish": {
+          "name": "Brudne sztuczki",
+          "description": "Spraw, aby co najmniej 10 przeciwników na jednym poziomie zginęło w wyniku działań innych wrogów."
+        },
+        "schinese": {
+          "name": "贱招",
+          "description": "在单一关卡内，让十个以上的敌人死于其他敌人之手"
+        },
+        "spanish": {
+          "name": "Tácticas sucias",
+          "description": "Lograr que al menos 10 enemigos mueran por las acciones de otros enemigos en un mismo nivel."
+        }
+      }
+    },
+    "bounce": {
+      "translations": {
+        "english": {
+          "name": "Bouncy Bouncy",
+          "description": "Stand on a conjured box bouncing on any bouncy surface for 10 seconds"
+        },
+        "finnish": {
+          "name": "Pompu-pompu",
+          "description": "Seiso pomppualustan päällä pomppivan laatikon päällä 10 sekuntia"
+        },
+        "french": {
+          "name": "La boîte bondissante",
+          "description": "Tenez 10 secondes sur une boîte invoquée qui rebondit."
+        },
+        "german": {
+          "name": "Superhüpfer",
+          "description": "Stehe auf einer herbeigezauberten Kiste und hüpfe damit 10 Sekunden lang auf einer Oberfläche "
+        },
+        "italian": {
+          "name": "Rimbalzello",
+          "description": "Rimani per 10 secondi su una cassa evocata rimbalzando su qualsiasi superficie"
+        },
+        "koreana": {
+          "name": "바운시 바운시",
+          "description": "탄력적인 표면 위에서 튀고있는, 마법으로 만든 상자 위에서 10초 동안 서있기."
+        },
+        "polish": {
+          "name": "Hopsasa",
+          "description": "Stań na 10 sekund na przywołanym pudełku odbijającym się od dowolnej odbijającej powierzchni."
+        },
+        "schinese": {
+          "name": "弹跳",
+          "description": "召唤出箱子于任意弹跳表面弹跳十秒"
+        },
+        "spanish": {
+          "name": "Saltarín saltarín ",
+          "description": "Situarte sobre una caja conjurada rebotando en cualquier superficie de rebote durante 10 segundos."
+        }
+      }
+    },
+    "arrow": {
+      "translations": {
+        "english": {
+          "name": "A Hail of Arrows",
+          "description": "Shoot 3 arrows in the air and catch them all with the Knight's shield"
+        },
+        "finnish": {
+          "name": "Nuolisade",
+          "description": "Ammu kolme nuolta ilmaan ja ota kaikki kiinni Ritarin kilvellä  "
+        },
+        "french": {
+          "name": "L'averse de flèches",
+          "description": "Tirez 3 flèches en l'air et rattrapez-les toutes avec le bouclier du chevalier."
+        },
+        "german": {
+          "name": "Meister der Pfeile",
+          "description": "Schieße drei Pfeile in die Luft und fange sie alle mit dem Schild des Ritters auf"
+        },
+        "italian": {
+          "name": "Raffica di frecce",
+          "description": "Scocca 3 frecce in aria e prendile tutte con lo scudo del cavaliere"
+        },
+        "koreana": {
+          "name": "화살 구름",
+          "description": "공중으로 3개의 화살을 쏘고, 기사의 방패로 모두 막아내기."
+        },
+        "polish": {
+          "name": "Żonglerka strzałami",
+          "description": "Wystrzel trzy strzały w powietrze i złap je wszystkie tarczą rycerza."
+        },
+        "schinese": {
+          "name": "招呼箭",
+          "description": "往空中射出三只箭矢并以骑士的盾牌接下"
+        },
+        "spanish": {
+          "name": "Lluvia de flechas",
+          "description": "Disparar 3 flechas al aire y recogerlas todas con el escudo del caballero."
+        }
+      }
+    },
+    "tower": {
+      "translations": {
+        "english": {
+          "name": "High Rise",
+          "description": "Construct a tower made of eight objects and stand on top of it"
+        },
+        "finnish": {
+          "name": "Korkeuksiin",
+          "description": "Tee torni kahdeksasta esineestä ja seiso sen päällä"
+        },
+        "french": {
+          "name": "La tour",
+          "description": "Construisez une tour composée de 8 objets et placez-vous au sommet."
+        },
+        "german": {
+          "name": "Balancekünstler",
+          "description": "Konstruiere einen Turm aus acht Objekten und stehe dann ganz oben"
+        },
+        "italian": {
+          "name": "Su in cima",
+          "description": "Costruisci una torre composta da otto oggetti e poi sali in cima"
+        },
+        "koreana": {
+          "name": "하이 라이즈",
+          "description": "8개의 물건들 쌓은 후, 그 꼭대기 위에 서기."
+        },
+        "polish": {
+          "name": "Wysoka wieża",
+          "description": "Stwórz wieżę z ośmiu obiektów i stań na jej szczycie."
+        },
+        "schinese": {
+          "name": "高处",
+          "description": "用八个物件叠出高塔并站在最顶端"
+        },
+        "spanish": {
+          "name": "Rascacielos",
+          "description": "Construir una torre con ocho objetos y situarte encima de ella."
+        }
+      }
+    },
+    "rope": {
+      "translations": {
+        "english": {
+          "name": "Cirque de Zoya",
+          "description": "Using grapple, swing around an object and reattach grapple again without touching any surface"
+        },
+        "finnish": {
+          "name": "Cirque de Zoya",
+          "description": "Heilauta varas esineen ympäri; kiinnitä koukku uudelleen pintoja koskettamatta"
+        },
+        "french": {
+          "name": "Le cirque de Zoya",
+          "description": "Utilisez le grappin pour faire le tour d'un objet et raccrochez-le sans toucher aucune surface."
+        },
+        "german": {
+          "name": "Trapezartist",
+          "description": "Schwinge dich mithilfe des Enterhakens um ein Objekt und greife dann mit dem Enterhaken weiter"
+        },
+        "italian": {
+          "name": "Circo di Zoya",
+          "description": "Col rampino, oscilla intorno a un oggetto e poi riattacca il rampino senza toccare alcuna superficie"
+        },
+        "koreana": {
+          "name": "써케 더 조야",
+          "description": "갈고리를 이용해서, 다른 곳에 닿지 않은 채 물체 주위를 한바퀴 돌고 갈고리를 다시 걸기."
+        },
+        "polish": {
+          "name": "Cyrk Zoyi",
+          "description": "Używając haka, okręć się wokół obiektu i przyczep hak ponownie, nie dotykając żadnej powierzchni."
+        },
+        "schinese": {
+          "name": "卓雅之舞",
+          "description": "使用抓钩甩过物件并再以抓钩抓住而不碰到任何表面"
+        },
+        "spanish": {
+          "name": "Cirque de Zoya",
+          "description": "Con el gancho, rodear un objeto y volver a clavarlo sin tocar ninguna superficie."
+        }
+      }
+    },
+    "bubble": {
+      "translations": {
+        "english": {
+          "name": "This Wasn't the Plan",
+          "description": "Make a bubble sink for three seconds"
+        },
+        "finnish": {
+          "name": "Ei näin",
+          "description": "Saa kupla vajoamaan kolmen sekunnin ajaksi"
+        },
+        "french": {
+          "name": "Ce n'était pas prévu !",
+          "description": "Faites couler une bulle pendant 3 secondes."
+        },
+        "german": {
+          "name": "So war das nicht gedacht",
+          "description": "Lasse für drei Sekunden eine Luftblase sinken"
+        },
+        "italian": {
+          "name": "Imprevisto",
+          "description": "Fai affondare una bolla per tre secondi"
+        },
+        "koreana": {
+          "name": "계획이 아니었음",
+          "description": "버블을 3초 동안 가라앉게 만들기."
+        },
+        "polish": {
+          "name": "Nie taki był plan",
+          "description": "Spraw, by bańka zatonęła na trzy sekundy."
+        },
+        "schinese": {
+          "name": "计划外",
+          "description": "制造一个维持三秒的泡泡"
+        },
+        "spanish": {
+          "name": "Este no era el plan",
+          "description": "Hundir una burbuja durante tres segundos."
+        }
+      }
+    },
+    "platinum": {
+      "translations": {
+        "english": {
+          "name": "Trine 2 hard",
+          "description": "Earn all (original) Achievements in Trine 2"
+        },
+        "finnish": {
+          "name": "Trinen sankarit",
+          "description": "Kerää kaikki alkuperäiset Trine 2-saavutukset"
+        },
+        "french": {
+          "name": "Le héros de Trine 2",
+          "description": "Remportez tous les succés de Trine 2."
+        },
+        "german": {
+          "name": "Der Held von Trine 2",
+          "description": "Erziele alle Erfolge in Trine 2"
+        },
+        "italian": {
+          "name": "L'eroe di Trine 2",
+          "description": "Ottieni tutti i obiettivi di Trine 2"
+        },
+        "koreana": {
+          "name": "트라인 2 어려움",
+          "description": "트라인 2에서 달성한 성과"
+        },
+        "polish": {
+          "name": "Bohater Trine 2",
+          "description": "Zdobądź wszystkie osiągnięcia w Trine 2."
+        },
+        "schinese": {
+          "name": "狩魔师二英雄",
+          "description": "取得所有狩魔师二成就。"
+        },
+        "spanish": {
+          "name": "El héroe de Trine 2",
+          "description": "Consigue todos los logros de Trine 2"
+        }
+      }
+    },
+    "game_completed": {
+      "translations": {
+        "english": {
+          "name": "I want more!",
+          "description": "Complete the game"
+        },
+        "finnish": {
+          "name": "Haluan lisää!",
+          "description": "Läpäise koko peli"
+        },
+        "french": {
+          "name": "J'en veux encore !",
+          "description": "Accomplissez la partie."
+        },
+        "german": {
+          "name": "Ich will mehr!",
+          "description": "Schließe das Spiel ab"
+        },
+        "italian": {
+          "name": "Non è mai abbastanza!",
+          "description": "Completa il gioco"
+        },
+        "koreana": {
+          "name": "더 많은 것을 원함",
+          "description": "게임 완료"
+        },
+        "polish": {
+          "name": "Chcę więcej!",
+          "description": "Ukończ grę."
+        },
+        "schinese": {
+          "name": "我还要更多！",
+          "description": "完成游戏。"
+        },
+        "spanish": {
+          "name": "¡Quiero más!",
+          "description": "Completar el juego."
+        }
+      }
+    },
+    "level1_completed": {
+      "translations": {
+        "english": {
+          "name": "Into the Story",
+          "description": "Complete The Story Begins"
+        },
+        "finnish": {
+          "name": "Tarinan syövereihin",
+          "description": "Läpäise Tarinan alku"
+        },
+        "french": {
+          "name": "Au cœur de l'histoire",
+          "description": "Accomplissez L'histoire commence."
+        },
+        "german": {
+          "name": "Die Geschichte beginnt",
+          "description": "Schließe Die Geschichte beginnt ab"
+        },
+        "italian": {
+          "name": "Nel cuore della storia",
+          "description": "Completa L'inizio della storia"
+        },
+        "koreana": {
+          "name": "줄거리",
+          "description": "이야기의 시작 완료"
+        },
+        "polish": {
+          "name": "Śledząc wątek",
+          "description": "Ukończ początek opowieści."
+        },
+        "schinese": {
+          "name": "进入故事",
+          "description": "完成 The Story Begins。"
+        },
+        "spanish": {
+          "name": "En la historia",
+          "description": "Completar La historia comienza."
+        }
+      }
+    },
+    "level2_completed": {
+      "translations": {
+        "english": {
+          "name": "Wild in Wilderness",
+          "description": "Complete Forlorn Wilderness"
+        },
+        "finnish": {
+          "name": "Metsämaan mättähillä",
+          "description": "Läpäise Unohdettu metsämaa"
+        },
+        "french": {
+          "name": "À l'abandon",
+          "description": "Accomplissez La région abandonnée."
+        },
+        "german": {
+          "name": "Wild in der Wildnis",
+          "description": "Schließe Die triste Wildnis ab"
+        },
+        "italian": {
+          "name": "Viaggio selvaggio",
+          "description": "Completa Landa desolata"
+        },
+        "koreana": {
+          "name": "광란의 황야",
+          "description": "고독한 황야 완료"
+        },
+        "polish": {
+          "name": "Dzikość w dziczy",
+          "description": "Ukończ Zapomnianą Dzicz."
+        },
+        "schinese": {
+          "name": "荒野撒欢",
+          "description": "完成 Forlorn Wilderness。"
+        },
+        "spanish": {
+          "name": "Salvaje en tierra salvaje",
+          "description": "Completar Páramo olvidado."
+        }
+      }
+    },
+    "level3_completed": {
+      "translations": {
+        "english": {
+          "name": "Mudproof Hero",
+          "description": "Complete Mudwater Dale"
+        },
+        "finnish": {
+          "name": "Liejunvarma sankari",
+          "description": "Läpäise Liejulaakso"
+        },
+        "french": {
+          "name": "Un héros qui ne craint pas de se salir",
+          "description": "Accomplissez Le vallon boueux."
+        },
+        "german": {
+          "name": "Schlammfester Held",
+          "description": "Schließe Das Tal der Sümpfe ab"
+        },
+        "italian": {
+          "name": "L'eroe che non teme il fango",
+          "description": "Completa Valle fangosa"
+        },
+        "koreana": {
+          "name": "진흙을 견디는 영웅",
+          "description": "흙탕물 계곡 완료"
+        },
+        "polish": {
+          "name": "Błotoodporny bohater",
+          "description": "Ukończ Dolinę Błotowody."
+        },
+        "schinese": {
+          "name": "防泥英雄",
+          "description": "完成 Mudwater Dale。"
+        },
+        "spanish": {
+          "name": "Héroe a prueba de barro",
+          "description": "Completar Valle pantanoso."
+        }
+      }
+    },
+    "level4_completed": {
+      "translations": {
+        "english": {
+          "name": "March Through the Marsh",
+          "description": "Complete Mosslight Marsh"
+        },
+        "finnish": {
+          "name": "Suomarssi",
+          "description": "Läpäise Sammalainen suo"
+        },
+        "french": {
+          "name": "La traversée des marécages",
+          "description": "Accomplissez Le marais lugubre."
+        },
+        "german": {
+          "name": "Trumpf im Sumpf",
+          "description": "Schließe Das dunkle Moor ab"
+        },
+        "italian": {
+          "name": "Marcia tra le paludi",
+          "description": "Completa Palude muschiata"
+        },
+        "koreana": {
+          "name": "습지를 통과하는 행렬",
+          "description": "이끼 가득한 늪 완료"
+        },
+        "polish": {
+          "name": "Bagienny marsz",
+          "description": "Ukończ Bagno Światłomchu."
+        },
+        "schinese": {
+          "name": "穿越沼泽",
+          "description": "完成 Mosslight Marsh。"
+        },
+        "spanish": {
+          "name": "Marcha por el pantano",
+          "description": "Completar Ciénaga musgosa."
+        }
+      }
+    },
+    "level5_completed": {
+      "translations": {
+        "english": {
+          "name": "Treehouse Adventure",
+          "description": "Complete Petrified Tree"
+        },
+        "finnish": {
+          "name": "Puumajaseikkailu",
+          "description": "Läpäise Kivettynyt puu"
+        },
+        "french": {
+          "name": "Une aventure dans les arbres",
+          "description": "Accomplissez L'arbre pétrifié."
+        },
+        "german": {
+          "name": "Baumhausabenteuer",
+          "description": "Schließe Der versteinerte Baum ab"
+        },
+        "italian": {
+          "name": "La casa sull'albero",
+          "description": "Completa Albero pietrificato"
+        },
+        "koreana": {
+          "name": "나무 위 오두막 모험",
+          "description": "화석이 된 나무 완료"
+        },
+        "polish": {
+          "name": "Przygody w domku na drzewie",
+          "description": "Ukończ Skamieniałe Drzewo."
+        },
+        "schinese": {
+          "name": "树屋冒险",
+          "description": "完成 Petrified Tree。"
+        },
+        "spanish": {
+          "name": "Aventura en la casa del árbol",
+          "description": "Completar Árbol petrificado."
+        }
+      }
+    },
+    "level6_completed": {
+      "translations": {
+        "english": {
+          "name": "No More Lizard Soup",
+          "description": "Complete Shadowed Halls"
+        },
+        "finnish": {
+          "name": "Liskokeittoähky",
+          "description": "Läpäise Varjoisat käytävät"
+        },
+        "french": {
+          "name": "Finie la soupe aux lézards",
+          "description": "Accomplissez Les salles de l'ombre."
+        },
+        "german": {
+          "name": "Meine Echsensuppe ess ich nicht!",
+          "description": "Schließe Schattenbäume ab"
+        },
+        "italian": {
+          "name": "Basta zuppa di lucertole",
+          "description": "Completa Rocca ombrosa"
+        },
+        "koreana": {
+          "name": "더 이상 도마뱀 스프는 없음",
+          "description": "그늘진 공간 완료"
+        },
+        "polish": {
+          "name": "Nigdy więcej zupy z płazów",
+          "description": "Ukończ Cieniste Komnaty."
+        },
+        "schinese": {
+          "name": "不再有蜥蜴汤",
+          "description": "完成 Shadowed Halls。"
+        },
+        "spanish": {
+          "name": "Basta de sopa de lagarto",
+          "description": "Completar Salones sombríos."
+        }
+      }
+    },
+    "level7_completed": {
+      "translations": {
+        "english": {
+          "name": "Hostile Gardening",
+          "description": "Complete Hushing Grove"
+        },
+        "finnish": {
+          "name": "Haastavaa puutarhurointia",
+          "description": "Läpäise Hiljainen lehto"
+        },
+        "french": {
+          "name": "Jardinage dangereux",
+          "description": "Accomplissez Le bosquet silencieux."
+        },
+        "german": {
+          "name": "Der Feind in meinem Garten",
+          "description": "Schließe Das finstere Gehölz ab"
+        },
+        "italian": {
+          "name": "Giardinaggio ostile",
+          "description": "Completa Bosco frusciante"
+        },
+        "koreana": {
+          "name": "위험한 정원",
+          "description": "침묵의 숲 완료"
+        },
+        "polish": {
+          "name": "Nieprzyjazne ogrodnictwo",
+          "description": "Ukończ Cichy Zagajnik."
+        },
+        "schinese": {
+          "name": "敌意园艺",
+          "description": "完成 Hushing Grove。"
+        },
+        "spanish": {
+          "name": "Jardinería hostil",
+          "description": "Completar Bosque susurrante."
+        }
+      }
+    },
+    "level8_completed": {
+      "translations": {
+        "english": {
+          "name": "Funs with Fungi",
+          "description": "Complete Mushroom Caves"
+        },
+        "finnish": {
+          "name": "Sienihupia",
+          "description": "Läpäise Sieniluolat"
+        },
+        "french": {
+          "name": "La folie des champignons",
+          "description": "Accomplissez Les grottes aux champignons."
+        },
+        "german": {
+          "name": "Pilzparty",
+          "description": "Schließe Die Pilzhöhlen ab"
+        },
+        "italian": {
+          "name": "Funghi per tutti",
+          "description": "Completa Grotte dei funghi"
+        },
+        "koreana": {
+          "name": "펑기와 장난치다",
+          "description": "버섯 동굴 완료"
+        },
+        "polish": {
+          "name": "Zabawa z grzybkami",
+          "description": "Ukończ Grzybojaskinie."
+        },
+        "schinese": {
+          "name": "菌类乐趣",
+          "description": "完成 Mushroom Caves。"
+        },
+        "spanish": {
+          "name": "Diversión con los hongos",
+          "description": "Completar Cuevas de los hongos."
+        }
+      }
+    },
+    "level9_completed": {
+      "translations": {
+        "english": {
+          "name": "Shrooms and Glooms",
+          "description": "Complete Mushroom Murk"
+        },
+        "finnish": {
+          "name": "Sieniä ja synkkyyttä",
+          "description": "Läpäise Sienipimeys"
+        },
+        "french": {
+          "name": "Champignons et ténèbres",
+          "description": "Accomplissez Les ténèbres aux champignons."
+        },
+        "german": {
+          "name": "Pilze und bunte Lichter",
+          "description": "Schließe Die Pilze der Finsternis ab"
+        },
+        "italian": {
+          "name": "Funghi e tenebre",
+          "description": "Completa Loculo dei funghi"
+        },
+        "koreana": {
+          "name": "마법 버섯과 어둠",
+          "description": "버섯 안개 완료"
+        },
+        "polish": {
+          "name": "Grzyby i cienie",
+          "description": "Ukończ Grzybomrok."
+        },
+        "schinese": {
+          "name": "蘑菇与阴霾",
+          "description": "完成 Mushroom Murk。"
+        },
+        "spanish": {
+          "name": "Setas y tristezas",
+          "description": "Completar Oscuridad de los hongos."
+        }
+      }
+    },
+    "level10_completed": {
+      "translations": {
+        "english": {
+          "name": "Pearl Diver",
+          "description": "Complete Searock Castle"
+        },
+        "finnish": {
+          "name": "Helmenkalastaja",
+          "description": "Läpäise Merilinna"
+        },
+        "french": {
+          "name": "Chasseur de perles",
+          "description": "Accomplissez Le château du bord de mer."
+        },
+        "german": {
+          "name": "Perlentaucher",
+          "description": "Schließe Das Schloss am Meer ab"
+        },
+        "italian": {
+          "name": "Cercatore di perle",
+          "description": "Completa Castel Rocciamare"
+        },
+        "koreana": {
+          "name": "해녀",
+          "description": "바다바위 성 완료"
+        },
+        "polish": {
+          "name": "Poławiacz pereł",
+          "description": "Ukończ Zamek Morskiego Głazu."
+        },
+        "schinese": {
+          "name": "采珠潜水员",
+          "description": "完成 Searock Castle。"
+        },
+        "spanish": {
+          "name": "Buscador de perlas",
+          "description": "Completar Castillo de Rocamar."
+        }
+      }
+    },
+    "level11_completed": {
+      "translations": {
+        "english": {
+          "name": "Sinister Plumbing",
+          "description": "Complete Eldritch Passages"
+        },
+        "finnish": {
+          "name": "Synkkää viemäröintiä",
+          "description": "Läpäise Synkät käytävät"
+        },
+        "french": {
+          "name": "Sinistre plomberie",
+          "description": "Accomplissez Les passages surnaturels."
+        },
+        "german": {
+          "name": "Düstere Rohre",
+          "description": "Schließe Unheimliche Gänge ab"
+        },
+        "italian": {
+          "name": "Idraulica oscura",
+          "description": "Completa Passaggi di Eldritch"
+        },
+        "koreana": {
+          "name": "불길한 배관",
+          "description": "무시무시한 통로 완료"
+        },
+        "polish": {
+          "name": "Mroczny hydraulik",
+          "description": "Ukończ Upiorne Korytarze."
+        },
+        "schinese": {
+          "name": "险恶管道",
+          "description": "完成 Eldritch Passages。"
+        },
+        "spanish": {
+          "name": "Fontanería siniestra",
+          "description": "Completar Pasajes misteriosos."
+        }
+      }
+    },
+    "level12_completed": {
+      "translations": {
+        "english": {
+          "name": "Hot and Cold",
+          "description": "Complete Icewarden Keep"
+        },
+        "finnish": {
+          "name": "Kuumaa ja kylmää",
+          "description": "Läpäise Jäävartijan linnake"
+        },
+        "french": {
+          "name": "Chaud et froid",
+          "description": "Accomplissez Le donjon du gardien des glaces."
+        },
+        "german": {
+          "name": "Heiß und kalt",
+          "description": "Schließe Der Eiswächter ab"
+        },
+        "italian": {
+          "name": "Caldo e freddo",
+          "description": "Completa Fortezza del gelo"
+        },
+        "koreana": {
+          "name": "더운물과 찬물",
+          "description": "얼음 성 완료"
+        },
+        "polish": {
+          "name": "Zimno i ciepło",
+          "description": "Ukończ Twierdzę Strażnika Lodu."
+        },
+        "schinese": {
+          "name": "冷热交替",
+          "description": "完成 Icewarden Keep。"
+        },
+        "spanish": {
+          "name": "Caliente y frío",
+          "description": "Completar Fortaleza helada."
+        }
+      }
+    },
+    "level13_completed": {
+      "translations": {
+        "english": {
+          "name": "Through Dangers Untold",
+          "description": "Complete The Final Chapter"
+        },
+        "finnish": {
+          "name": "Läpi lukemattomien vaarojen",
+          "description": "Läpäise Viimeinen taistelu"
+        },
+        "french": {
+          "name": "Indicibles dangers",
+          "description": "Accomplissez Le chapitre final."
+        },
+        "german": {
+          "name": "Durch ungeahnte Gefahren",
+          "description": "Schließe Das letzte Kapitel ab"
+        },
+        "italian": {
+          "name": "Pericoli mai narrati",
+          "description": "Completa il capitolo finale"
+        },
+        "koreana": {
+          "name": "미지의 위험을 통과",
+          "description": "마지막 챕터 완료"
+        },
+        "polish": {
+          "name": "Niesłychane niebezpieczeństwa",
+          "description": "Ukończ ostatni rozdział."
+        },
+        "schinese": {
+          "name": "穿越无名危险",
+          "description": "完成 The Final Chapter。"
+        },
+        "spanish": {
+          "name": "Peligros sin cuento",
+          "description": "Completar El capítulo final."
+        }
+      }
+    },
+    "level1_exp": {
+      "translations": {
+        "english": {
+          "name": "The Story Begins Collector",
+          "description": "Collect all experience pickups in The Story Begins"
+        },
+        "finnish": {
+          "name": "Tarinakeräilijä",
+          "description": "Kerää kaikki kokemuspisteet Tarinan alusta"
+        },
+        "french": {
+          "name": "Collection L'histoire commence",
+          "description": "Accumulez toute l'expérience possible au niveau L'histoire commence."
+        },
+        "german": {
+          "name": "Die Geschichte beginnt-Sammler",
+          "description": "Sammle alle Levelerfahrung in Die Geschichte beginnt"
+        },
+        "italian": {
+          "name": "Collezionista di L'inizio della storia",
+          "description": "Raccogli tutta l'esperienza livello in L'inizio della storia"
+        },
+        "koreana": {
+          "name": "콜렉터의 이야기 시작",
+          "description": "이야기 시작에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Początek opowieści – kolekcjoner",
+          "description": "Zdobądź całe doświadczenie na poziomie początku opowieści."
+        },
+        "schinese": {
+          "name": "The Story Begins 收藏家",
+          "description": "收集 The Story Begins 中的所有经验拾取物。"
+        },
+        "spanish": {
+          "name": "Coleccionista de La historia comienza",
+          "description": "Conseguir toda la experiencia del nivel en La historia comienza."
+        }
+      }
+    },
+    "level2_exp": {
+      "translations": {
+        "english": {
+          "name": "Forlorn Wilderness Collector",
+          "description": "Collect all experience pickups in Forlorn Wilderness"
+        },
+        "finnish": {
+          "name": "Metsämaan keräilijä",
+          "description": "Kerää kaikki kokemuspisteet Unohdetulta metsämaalta"
+        },
+        "french": {
+          "name": "Collection La région abandonnée",
+          "description": "Accumulez toute l'expérience possible au niveau La région abandonnée."
+        },
+        "german": {
+          "name": "Triste Wildnis-Sammler",
+          "description": "Sammle alle Levelerfahrung in Die triste Wildnis"
+        },
+        "italian": {
+          "name": "Collezionista di Landa desolata",
+          "description": "Raccogli tutta l'esperienza livello in Landa desolata"
+        },
+        "koreana": {
+          "name": "고독한 황야의 콜렉터",
+          "description": "고독한 황야에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Zapomniana Dzicz – kolekcjoner",
+          "description": "Zdobądź całe doświadczenie na poziomie Zapomnianej Dziczy."
+        },
+        "schinese": {
+          "name": "Forlorn Wilderness 收藏家",
+          "description": "收集 Forlorn Wilderness 中的所有经验拾取物。"
+        },
+        "spanish": {
+          "name": "Coleccionista de Páramo olvidado",
+          "description": "Conseguir toda la experiencia del nivel en Páramo olvidado."
+        }
+      }
+    },
+    "level3_exp": {
+      "translations": {
+        "english": {
+          "name": "Mudwater Dale Collector",
+          "description": "Collect all experience pickups in Mudwater Dale"
+        },
+        "finnish": {
+          "name": "Liejulaakson keräilijä",
+          "description": "Kerää kaikki kokemuspisteet Liejulaaksosta"
+        },
+        "french": {
+          "name": "Collection Le vallon boueux",
+          "description": "Accumulez toute l'expérience possible au niveau Le vallon boueux."
+        },
+        "german": {
+          "name": "Tal der Sümpfe-Sammler",
+          "description": "Sammle alle Levelerfahrung in Das Tal der Sümpfe"
+        },
+        "italian": {
+          "name": "Collezionista di Valle fangosa",
+          "description": "Raccogli tutta l'esperienza livello in Valle fangosa"
+        },
+        "koreana": {
+          "name": "흙탕물 계곡의 콜렉터",
+          "description": "흙탕물 계곡에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Dolina Błotowody – kolekcjoner",
+          "description": "Zdobądź całe doświadczenie na poziomie Doliny Błotowody."
+        },
+        "schinese": {
+          "name": "Mudwater Dale 收藏家",
+          "description": "收集 Mudwater Dale 中的所有经验拾取物。"
+        },
+        "spanish": {
+          "name": "Coleccionista de Valle pantanoso",
+          "description": "Conseguir toda la experiencia del nivel en Valle pantanoso."
+        }
+      }
+    },
+    "level4_exp": {
+      "translations": {
+        "english": {
+          "name": "Mosslight Marsh Collector",
+          "description": "Collect all experience pickups in Mosslight Marsh"
+        },
+        "finnish": {
+          "name": "Sammaleisen suon keräilijä",
+          "description": "Kerää kaikki kokemuspisteet Sammaleiselta suolta"
+        },
+        "french": {
+          "name": "Collection Le marais lugubre",
+          "description": "Accumulez toute l'expérience possible au niveau Le marais lugubre."
+        },
+        "german": {
+          "name": "Dunkles Moor-Sammler",
+          "description": "Sammle alle Levelerfahrung in Das dunkle Moor"
+        },
+        "italian": {
+          "name": "Collezionista di Palude muschiata",
+          "description": "Raccogli tutta l'esperienza livello in Palude muschiata"
+        },
+        "koreana": {
+          "name": "이끼 가득한 늪의 콜렉터",
+          "description": "이끼 가득한 늪에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Bagno Światłomchu – kolekcjoner",
+          "description": "Zdobądź całe doświadczenie na poziomie Bagna Światłomchu."
+        },
+        "schinese": {
+          "name": "Mosslight Marsh 收藏家",
+          "description": "收集 Mosslight Marsh 中的所有经验拾取物。"
+        },
+        "spanish": {
+          "name": "Coleccionista de Ciénaga musgosa",
+          "description": "Conseguir toda la experiencia del nivel en Ciénaga musgosa."
+        }
+      }
+    },
+    "level5_exp": {
+      "translations": {
+        "english": {
+          "name": "Petrified Tree Collector",
+          "description": "Collect all experience pickups in Petrified Tree"
+        },
+        "finnish": {
+          "name": "Kivettyneen puun keräilijä",
+          "description": "Kerää kaikki kokemuspisteet Kivettyneestä puusta"
+        },
+        "french": {
+          "name": "Collection L'arbre pétrifié",
+          "description": "Accumulez toute l'expérience possible au niveau L'arbre pétrifié."
+        },
+        "german": {
+          "name": "Versteinerter Baum-Sammler",
+          "description": "Sammle alle Levelerfahrung in Der versteinerte Baum"
+        },
+        "italian": {
+          "name": "Collezionista di Albero pietrificato",
+          "description": "Raccogli tutta l'esperienza livello in Albero pietrificato"
+        },
+        "koreana": {
+          "name": "화석이 된 나무의 콜렉터",
+          "description": "화석이 된 나무에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Skamieniałe Drzewo – kolekcjoner",
+          "description": "Zdobądź całe doświadczenie na poziomie Skamieniałego Drzewa."
+        },
+        "schinese": {
+          "name": "Petrified Tree 收藏家",
+          "description": "收集 Petrified Tree 中的所有经验拾取物。"
+        },
+        "spanish": {
+          "name": "Coleccionista de Árbol petrificado",
+          "description": "Conseguir toda la experiencia del nivel en Árbol petrificado."
+        }
+      }
+    },
+    "level6_exp": {
+      "translations": {
+        "english": {
+          "name": "Shadowed Halls Collector",
+          "description": "Collect all experience pickups in Shadowed Halls"
+        },
+        "finnish": {
+          "name": "Varjoisten käytävien keräilijä",
+          "description": "Kerää kaikki kokemuspisteet Varjoisilta käytäviltä"
+        },
+        "french": {
+          "name": "Collection Les salles de l'ombre",
+          "description": "Accumulez toute l'expérience possible au niveau Les salles de l'ombre."
+        },
+        "german": {
+          "name": "Schattenbäume-Sammler",
+          "description": "Sammle alle Levelerfahrung in Schattenbäume"
+        },
+        "italian": {
+          "name": "Collezionista di Rocca ombrosa",
+          "description": "Raccogli tutta l'esperienza livello in Rocca ombrosa"
+        },
+        "koreana": {
+          "name": "그늘진 공간의 콜렉터",
+          "description": "그늘진 공간에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Cieniste Komnaty – kolekcjoner",
+          "description": "Zdobądź całe doświadczenie na poziomie Cienistych Komnat."
+        },
+        "schinese": {
+          "name": "Shadowed Halls 收藏家",
+          "description": "收集 Shadowed Halls 中的所有经验拾取物。"
+        },
+        "spanish": {
+          "name": "Coleccionista de Salones sombríos",
+          "description": "Conseguir toda la experiencia del nivel en Salones sombríos."
+        }
+      }
+    },
+    "level7_exp": {
+      "translations": {
+        "english": {
+          "name": "Hushing Grove Collector",
+          "description": "Collect all experience pickups in Hushing Grove"
+        },
+        "finnish": {
+          "name": "Hiljaisen lehdon keräilijä",
+          "description": "Kerää kaikki kokemuspisteet Hiljaisesta lehdosta"
+        },
+        "french": {
+          "name": "Collection Le bosquet silencieux",
+          "description": "Accumulez toute l'expérience possible au niveau Le bosquet silencieux."
+        },
+        "german": {
+          "name": "Finsteres Gehölz-Sammler",
+          "description": "Sammle alle Levelerfahrung in Das finstere Gehölz"
+        },
+        "italian": {
+          "name": "Collezionista di Bosco frusciante",
+          "description": "Raccogli tutta l'esperienza livello in Bosco frusciante"
+        },
+        "koreana": {
+          "name": "침묵의 숲의 콜렉터",
+          "description": "침묵의 숲에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Cichy Zagajnik – kolekcjoner",
+          "description": "Zdobądź całe doświadczenie na poziomie Cichego Zagajnika."
+        },
+        "schinese": {
+          "name": "Hushing Grove 收藏家",
+          "description": "收集 Hushing Grove 中的所有经验拾取物。"
+        },
+        "spanish": {
+          "name": "Coleccionista de Bosque susurrante",
+          "description": "Conseguir toda la experiencia del nivel en Bosque susurrante."
+        }
+      }
+    },
+    "level8_exp": {
+      "translations": {
+        "english": {
+          "name": "Mushroom Caves Collector",
+          "description": "Collect all experience pickups in Mushroom Caves"
+        },
+        "finnish": {
+          "name": "Sieniluolien keräilijä",
+          "description": "Kerää kaikki kokemuspisteet Sieniluolasta"
+        },
+        "french": {
+          "name": "Collection Les grottes aux champignons",
+          "description": "Accumulez toute l'expérience possible au niveau Les grottes aux champignons."
+        },
+        "german": {
+          "name": "Pilzhöhlen-Sammler",
+          "description": "Sammle alle Levelerfahrung in Die Pilzhöhlen"
+        },
+        "italian": {
+          "name": "Collezionista di Grotte dei funghi",
+          "description": "Raccogli tutta l'esperienza livello in Grotte dei funghi"
+        },
+        "koreana": {
+          "name": "버섯 동굴의 콜렉터",
+          "description": "버섯 동굴에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Grzybojaskinie – kolekcjoner",
+          "description": "Zdobądź całe doświadczenie na poziomie Grzybojaskiń."
+        },
+        "schinese": {
+          "name": "Mushroom Caves 收藏家",
+          "description": "收集 Mushroom Caves 中的所有经验拾取物。"
+        },
+        "spanish": {
+          "name": "Coleccionista de Cuevas de los hongos",
+          "description": "Conseguir toda la experiencia del nivel en Cuevas de los hongos."
+        }
+      }
+    },
+    "level9_exp": {
+      "translations": {
+        "english": {
+          "name": "Mushroom Murk Collector",
+          "description": "Collect all experience pickups in Mushroom Murk"
+        },
+        "finnish": {
+          "name": "Sienipimeyden keräilijä",
+          "description": "Kerää kaikki kokemuspisteet Sienipimeydestä"
+        },
+        "french": {
+          "name": "Collection Les ténèbres aux champignons",
+          "description": "Accumulez toute l'expérience possible au niveau Les ténèbres aux champignons."
+        },
+        "german": {
+          "name": "Pilze der Finsternis-Sammler",
+          "description": "Sammle alle Levelerfahrung in Die Pilze der Finsternis"
+        },
+        "italian": {
+          "name": "Collezionista di Loculo dei funghi",
+          "description": "Raccogli tutta l'esperienza livello in Loculo dei funghi"
+        },
+        "koreana": {
+          "name": "버섯 안개의 콜렉터",
+          "description": "버섯 안개에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Grzybomrok – kolekcjoner",
+          "description": "Zdobądź całe doświadczenie na poziomie Grzybomroku."
+        },
+        "schinese": {
+          "name": "Mushroom Murk 收藏家",
+          "description": "收集 Mushroom Murk 中的所有经验拾取物。"
+        },
+        "spanish": {
+          "name": "Coleccionista de Oscuridad de los hongos",
+          "description": "Conseguir toda la experiencia del nivel en Oscuridad de los hongos."
+        }
+      }
+    },
+    "level10_exp": {
+      "translations": {
+        "english": {
+          "name": "Searock Castle Collector",
+          "description": "Collect all experience pickups in Searock Castle"
+        },
+        "finnish": {
+          "name": "Merilinnan keräilijä",
+          "description": "Kerää kaikki kokemuspisteet Merilinnasta"
+        },
+        "french": {
+          "name": "Collection Le château du bord de mer",
+          "description": "Accumulez toute l'expérience possible au niveau Le château du bord de mer."
+        },
+        "german": {
+          "name": "Schloss am Meer-Sammler",
+          "description": "Sammle alle Levelerfahrung in Das Schloss am Meer"
+        },
+        "italian": {
+          "name": "Collezionista di Castel Rocciamare",
+          "description": "Raccogli tutta l'esperienza livello in Castel Rocciamare"
+        },
+        "koreana": {
+          "name": "바다바위 성의 콜렉터",
+          "description": "바다바위 성에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Zamek Morskiego Głazu – kolekcjoner",
+          "description": "Zdobądź całe doświadczenie na poziomie Zamku Morskiego Głazu."
+        },
+        "schinese": {
+          "name": "Searock Castle 收藏家",
+          "description": "收集 Searock Castle 中的所有经验拾取物。"
+        },
+        "spanish": {
+          "name": "Coleccionista de Castillo de Rocamar",
+          "description": "Conseguir toda la experiencia del nivel en Castillo de Rocamar."
+        }
+      }
+    },
+    "level11_exp": {
+      "translations": {
+        "english": {
+          "name": "Eldritch Passages Collector",
+          "description": "Collect all experience pickups in Eldritch Passages"
+        },
+        "finnish": {
+          "name": "Synkkien käytävien keräilijä",
+          "description": "Kerää kaikki kokemuspisteet Synkiltä käytäviltä"
+        },
+        "french": {
+          "name": "Collection Les passages surnaturels",
+          "description": "Accumulez toute l'expérience possible au niveau Les passages surnaturels."
+        },
+        "german": {
+          "name": "Unheimliche Gänge-Sammler",
+          "description": "Sammle alle Levelerfahrung in Unheimliche Gänge"
+        },
+        "italian": {
+          "name": "Collezionista di Passaggi di Eldritch",
+          "description": "Raccogli tutta l'esperienza livello in Passaggi di Eldritch"
+        },
+        "koreana": {
+          "name": "무시무시한 통로의 콜렉터",
+          "description": "무시무시한 통로에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Upiorne Korytarze – kolekcjoner",
+          "description": "Zdobądź całe doświadczenie na poziomie Upiornych Korytarzy."
+        },
+        "schinese": {
+          "name": "Eldritch Passages 收藏家",
+          "description": "收集 Eldritch Passages 中的所有经验拾取物。"
+        },
+        "spanish": {
+          "name": "Coleccionista de Pasajes misteriosos",
+          "description": "Conseguir toda la experiencia del nivel en Pasajes misteriosos."
+        }
+      }
+    },
+    "level12_exp": {
+      "translations": {
+        "english": {
+          "name": "Icewarden Keep Collector",
+          "description": "Collect all experience pickups in Icewarden Keep"
+        },
+        "finnish": {
+          "name": "Jäävartijan linnakkeen keräilijä",
+          "description": "Kerää kaikki kokemuspisteet Jäävartijan linnakkeesta"
+        },
+        "french": {
+          "name": "Collection Le donjon du gardien des glaces",
+          "description": "Accumulez toute l'expérience possible au niveau Le donjon du gardien des glaces."
+        },
+        "german": {
+          "name": "Eiswächter-Sammler",
+          "description": "Sammle alle Levelerfahrung in Der Eiswächter"
+        },
+        "italian": {
+          "name": "Collezionista di Fortezza del gelo",
+          "description": "Raccogli tutta l'esperienza livello in Fortezza del gelo"
+        },
+        "koreana": {
+          "name": "얼음 성의 콜렉터",
+          "description": "얼음 성에서 모든 레벨의 경험 수집"
+        },
+        "polish": {
+          "name": "Twierdza Strażnika Lodu – kolekcjoner",
+          "description": "Zdobądź całe doświadczenie na poziomie Twierdzy Strażnika Lodu."
+        },
+        "schinese": {
+          "name": "Icewarden Keep 收藏家",
+          "description": "收集 Icewarden Keep 中的所有经验拾取物。"
+        },
+        "spanish": {
+          "name": "Coleccionista de Fortaleza helada",
+          "description": "Conseguir toda la experiencia del nivel en Fortaleza helada."
+        }
+      }
+    },
+    "level2_chest": {
+      "translations": {
+        "english": {
+          "name": "Secrets of Forlorn Wilderness",
+          "description": "Find all chests in Forlorn Wilderness"
+        },
+        "finnish": {
+          "name": "Metsämaan salaisuudet",
+          "description": "Etsi kaikki aarteet Unohdetulta metsämaalta"
+        },
+        "french": {
+          "name": "Les secrets de La région abandonnée",
+          "description": "Trouvez tous les coffres du niveau La région abandonnée."
+        },
+        "german": {
+          "name": "Geheimnisse der tristen Wildnis",
+          "description": "Finde alle Truhen in Die triste Wildnis"
+        },
+        "italian": {
+          "name": "Segreti di Landa desolata",
+          "description": "Trova tutti gli scrigni in L'inizio della storia"
+        },
+        "koreana": {
+          "name": "고독한 황야의 비밀",
+          "description": "고독한 황야에서 모든 궤짝 찾음"
+        },
+        "polish": {
+          "name": "Sekrety Zapomnianej Dziczy",
+          "description": "Znajdź wszystkie kufry w Zapomnianej Dziczy."
+        },
+        "schinese": {
+          "name": "Forlorn Wilderness 的秘密",
+          "description": "找到 Forlorn Wilderness 中的所有宝箱。"
+        },
+        "spanish": {
+          "name": "Secretos de Páramo olvidado",
+          "description": "Encontrar todos los cofresl en Páramo olvidado."
+        }
+      }
+    },
+    "level3_chest": {
+      "translations": {
+        "english": {
+          "name": "Secrets of Mudwater Dale",
+          "description": "Find all chests in Mudwater Dale"
+        },
+        "finnish": {
+          "name": "Liejulaakson salaisuudet",
+          "description": "Etsi kaikki aarteet Liejulaaksosta"
+        },
+        "french": {
+          "name": "Les secrets du Vallon boueux",
+          "description": "Trouvez tous les coffres du niveau Le vallon boueux."
+        },
+        "german": {
+          "name": "Geheimnisse des Tals der Sümpfe",
+          "description": "Finde alle Truhen in Das Tal der Sümpfe"
+        },
+        "italian": {
+          "name": "Segreti di Valle fangosa",
+          "description": "Trova tutti gli scrigni in Landa desolata"
+        },
+        "koreana": {
+          "name": "흙탕물 계곡의 비밀",
+          "description": "흙탕물 계곡에서 모든 궤짝 찾음"
+        },
+        "polish": {
+          "name": "Sekrety Doliny Błotowody",
+          "description": "Znajdź wszystkie kufry w Dolinie Błotowody."
+        },
+        "schinese": {
+          "name": "Mudwater Dale 的秘密",
+          "description": "找到 Mudwater Dale 中的所有宝箱。"
+        },
+        "spanish": {
+          "name": "Secretos de Valle pantanoso",
+          "description": "Encontrar todos los cofres en Valle pantanoso."
+        }
+      }
+    },
+    "level4_chest": {
+      "translations": {
+        "english": {
+          "name": "Secrets of Mosslight Marsh",
+          "description": "Find all chests in Mosslight Marsh"
+        },
+        "finnish": {
+          "name": "Sammaleisen suon salaisuudet",
+          "description": "Etsi kaikki aarteet Sammaleiselta suolta"
+        },
+        "french": {
+          "name": "Les secrets du Marais lugubre",
+          "description": "Trouvez tous les coffres du niveau Le marais lugubre."
+        },
+        "german": {
+          "name": "Geheimnisse des dunklen Moors",
+          "description": "Finde alle Truhen in Das dunkle Moor"
+        },
+        "italian": {
+          "name": "Segreti di Palude muschiata",
+          "description": "Trova tutti gli scrigni in Valle fangosa"
+        },
+        "koreana": {
+          "name": "이끼 가득한 늪의 비밀",
+          "description": "이끼 가득한 늪에서 모든 궤짝 찾음"
+        },
+        "polish": {
+          "name": "Sekrety Bagna Światłomchu",
+          "description": "Znajdź wszystkie kufry na Bagnie Światłomchu."
+        },
+        "schinese": {
+          "name": "Mosslight Marsh 的秘密",
+          "description": "找到 Mosslight Marsh 中的所有宝箱。"
+        },
+        "spanish": {
+          "name": "Secretos de Ciénaga musgosa",
+          "description": "Encontrar todos los cofres en Ciénaga musgosa."
+        }
+      }
+    },
+    "level5_chest": {
+      "translations": {
+        "english": {
+          "name": "Secrets of Petrified Tree",
+          "description": "Find all chests in Petrified Tree"
+        },
+        "finnish": {
+          "name": "Kivettyneen puun salaisuudet",
+          "description": "Etsi kaikki aarteet Kivettyneestä puusta"
+        },
+        "french": {
+          "name": "Les secrets de L'arbre pétrifié",
+          "description": "Trouvez tous les coffres du niveau L'arbre pétrifié."
+        },
+        "german": {
+          "name": "Geheimnisse des versteinerten Baums",
+          "description": "Finde alle Truhen in Der versteinerte Baum"
+        },
+        "italian": {
+          "name": "Segreti di Albero pietrificato",
+          "description": "Trova tutti gli scrigni in Palude muschiata"
+        },
+        "koreana": {
+          "name": "화석이 된 나무의 비밀",
+          "description": "화석이 된 나무에서 모든 궤짝 찾음"
+        },
+        "polish": {
+          "name": "Sekrety Skamieniałego Drzewa",
+          "description": "Znajdź wszystkie kufry w Skamieniałym Drzewie."
+        },
+        "schinese": {
+          "name": "Petrified Tree 的秘密",
+          "description": "找到 Petrified Tree 中的所有宝箱。"
+        },
+        "spanish": {
+          "name": "Secretos de Árbol petrificado",
+          "description": "Encontrar todos los cofres en Árbol petrificado."
+        }
+      }
+    },
+    "level6_chest": {
+      "translations": {
+        "english": {
+          "name": "Secrets of Shadowed Halls",
+          "description": "Find all chests in Shadowed Halls"
+        },
+        "finnish": {
+          "name": "Varjoisten käytävien salaisuudet",
+          "description": "Etsi kaikki aarteet Varjoisilta käytäviltä"
+        },
+        "french": {
+          "name": "Les secrets des Salles de l'ombre",
+          "description": "Trouvez tous les coffres du niveau Les salles de l'ombre."
+        },
+        "german": {
+          "name": "Geheimnisse der Schattenbäume",
+          "description": "Finde alle Truhen in Schattenbäume"
+        },
+        "italian": {
+          "name": "Segreti di Rocca ombrosa",
+          "description": "Trova tutti gli scrigni in Albero pietrificato"
+        },
+        "koreana": {
+          "name": "그늘진 공간의 비밀",
+          "description": "그늘진 공간에서 모든 궤짝 찾음"
+        },
+        "polish": {
+          "name": "Sekrety Cienistych Komnat",
+          "description": "Znajdź wszystkie kufry w Cienistych Komnatach."
+        },
+        "schinese": {
+          "name": "Shadowed Halls 的秘密",
+          "description": "找到 Shadowed Halls 中的所有宝箱。"
+        },
+        "spanish": {
+          "name": "Secretos de Salones sombríos",
+          "description": "Encontrar todos los cofres en Salones sombríos."
+        }
+      }
+    },
+    "level7_chest": {
+      "translations": {
+        "english": {
+          "name": "Secrets of Hushing Grove",
+          "description": "Find all chests in Hushing Grove"
+        },
+        "finnish": {
+          "name": "Hiljaisen lehdon salaisuudet",
+          "description": "Etsi kaikki aarteet Hiljaisesta lehdosta"
+        },
+        "french": {
+          "name": "Les secrets du Bosquet silencieux",
+          "description": "Trouvez tous les coffres du niveau Le bosquet silencieux."
+        },
+        "german": {
+          "name": "Geheimnisse des finsteren Gehölzes",
+          "description": "Finde alle Truhen in Das finstere Gehölz"
+        },
+        "italian": {
+          "name": "Segreti di Bosco frusciante",
+          "description": "Trova tutti gli scrigni in Rocca ombrosa"
+        },
+        "koreana": {
+          "name": "침묵의 숲의 비밀",
+          "description": "침묵의 숲에서 모든 궤짝 찾음"
+        },
+        "polish": {
+          "name": "Sekrety Cichego Zagajnika",
+          "description": "Znajdź wszystkie kufry w Cichym Zagajniku."
+        },
+        "schinese": {
+          "name": "Hushing Grove 的秘密",
+          "description": "找到 Hushing Grove 中的所有宝箱。"
+        },
+        "spanish": {
+          "name": "Secretos de Bosque susurrante",
+          "description": "Encontrar todos los cofres en Bosque susurrante."
+        }
+      }
+    },
+    "level8_chest": {
+      "translations": {
+        "english": {
+          "name": "Secrets of Mushroom Caves",
+          "description": "Find all chests in Mushroom Caves"
+        },
+        "finnish": {
+          "name": "Sieniluolien salaisuudet",
+          "description": "Etsi kaikki aarteet Sieniluolista"
+        },
+        "french": {
+          "name": "Les secrets des Grottes aux champignons",
+          "description": "Trouvez tous les coffres du niveau Les grottes aux champignons."
+        },
+        "german": {
+          "name": "Geheimnisse der Pilzhöhlen",
+          "description": "Finde alle Truhen in Die Pilzhöhlen"
+        },
+        "italian": {
+          "name": "Segreti di Grotte dei funghi",
+          "description": "Trova tutti gli scrigni in Bosco frusciante"
+        },
+        "koreana": {
+          "name": "버섯 동굴의 비밀",
+          "description": "버섯 동굴에서 모든 궤짝 찾음"
+        },
+        "polish": {
+          "name": "Sekrety Grzybojaskiń",
+          "description": "Znajdź wszystkie kufry w Grzybojaskiniach."
+        },
+        "schinese": {
+          "name": "Mushroom Caves 的秘密",
+          "description": "找到 Mushroom Caves 中的所有宝箱。"
+        },
+        "spanish": {
+          "name": "Secretos de Cuevas de los hongos",
+          "description": "Encontrar todos los cofres en Cuevas de los hongos."
+        }
+      }
+    },
+    "level9_chest": {
+      "translations": {
+        "english": {
+          "name": "Secrets of Mushroom Murk",
+          "description": "Find all chests in Mushroom Murk"
+        },
+        "finnish": {
+          "name": "Sienipimeyden salaisuudet",
+          "description": "Etsi kaikki aarteet Sienipimeydestä"
+        },
+        "french": {
+          "name": "Les secrets des Ténèbres aux champignons",
+          "description": "Trouvez tous les coffres du niveau Les ténèbres aux champignons."
+        },
+        "german": {
+          "name": "Geheimnisse der Pilze der Finsternis",
+          "description": "Finde alle Truhen in Die Pilze der Finsternis"
+        },
+        "italian": {
+          "name": "Segreti di Loculo dei funghi",
+          "description": "Trova tutti gli scrigni in Grotte dei funghi"
+        },
+        "koreana": {
+          "name": "버섯 안개의 비밀",
+          "description": "버섯 안개에서 모든 궤짝 찾음"
+        },
+        "polish": {
+          "name": "Sekrety Grzybomroku",
+          "description": "Znajdź wszystkie kufry w Grzybomroku."
+        },
+        "schinese": {
+          "name": "Mushroom Murk 的秘密",
+          "description": "找到 Mushroom Murk 中的所有宝箱。"
+        },
+        "spanish": {
+          "name": "Secretos de Oscuridad de los hongos",
+          "description": "Encontrar todos los cofres en Oscuridad de los hongos."
+        }
+      }
+    },
+    "level10_chest": {
+      "translations": {
+        "english": {
+          "name": "Secrets of Searock Castle",
+          "description": "Find all chests in Searock Castle"
+        },
+        "finnish": {
+          "name": "Merilinnan salaisuudet",
+          "description": "Etsi kaikki aarteet Merilinnasta"
+        },
+        "french": {
+          "name": "Les secrets du Château du bord de mer",
+          "description": "Trouvez tous les coffres du niveau Le château du bord de mer."
+        },
+        "german": {
+          "name": "Geheimnisse des Schlosses am Meer",
+          "description": "Finde alle Truhen in Das Schloss am Meer"
+        },
+        "italian": {
+          "name": "Segreti di Castel Rocciamare",
+          "description": "Trova tutti gli scrigni in Loculo dei funghi"
+        },
+        "koreana": {
+          "name": "바다바위 성의 비밀",
+          "description": "바다바위 성에서 모든 궤짝 찾음"
+        },
+        "polish": {
+          "name": "Sekrety Zamku Morskiego Głazu",
+          "description": "Znajdź wszystkie kufry w Zamku Morskiego Głazu."
+        },
+        "schinese": {
+          "name": "Searock Castle 的秘密",
+          "description": "找到 Searock Castle 中的所有宝箱。"
+        },
+        "spanish": {
+          "name": "Secretos de Castillo de Rocamar",
+          "description": "Encontrar todos los cofres en Castillo de Rocamar."
+        }
+      }
+    },
+    "level11_chest": {
+      "translations": {
+        "english": {
+          "name": "Secrets of Eldritch Passages",
+          "description": "Find all chests in Eldritch Passages"
+        },
+        "finnish": {
+          "name": "Synkkien käytävien salaisuudet",
+          "description": "Etsi kaikki aarteet Synkiltä käytäviltä"
+        },
+        "french": {
+          "name": "Les secrets des Passages surnaturels",
+          "description": "Trouvez tous les coffres du niveau Les passages surnaturels."
+        },
+        "german": {
+          "name": "Geheimnisse der unheimlichen Gänge",
+          "description": "Finde alle Truhen in Unheimliche Gänge"
+        },
+        "italian": {
+          "name": "Segreti di Passaggi di Eldritch",
+          "description": "Trova tutti gli scrigni in Castel Rocciamare"
+        },
+        "koreana": {
+          "name": "무시무시한 통로의 비밀",
+          "description": "무시무시한 통로에서 모든 궤짝 찾음"
+        },
+        "polish": {
+          "name": "Sekrety Upiornych Korytarzy",
+          "description": "Znajdź wszystkie kufry w Upiornych Korytarzach."
+        },
+        "schinese": {
+          "name": "Eldritch Passages 的秘密",
+          "description": "找到 Eldritch Passages 中的所有宝箱。"
+        },
+        "spanish": {
+          "name": "Secretos de Pasajes misteriosos",
+          "description": "Encontrar todos los cofres en Pasajes misteriosos."
+        }
+      }
+    },
+    "level12_chest": {
+      "translations": {
+        "english": {
+          "name": "Secrets of Icewarden Keep",
+          "description": "Find all chests in Icewarden Keep"
+        },
+        "finnish": {
+          "name": "Jäävartijan linnakkeen salaisuudet",
+          "description": "Etsi kaikki aarteet Jäävartijan linnakkeesta"
+        },
+        "french": {
+          "name": "Les secrets du Donjon du gardien des glaces",
+          "description": "Trouvez tous les coffres du niveau Le donjon du gardien des glaces."
+        },
+        "german": {
+          "name": "Geheimnisse des Eiswächters",
+          "description": "Finde alle Truhen in Der Eiswächter"
+        },
+        "italian": {
+          "name": "Segreti di Fortezza del gelo",
+          "description": "Trova tutti gli scrigni in Passaggi di Eldritch"
+        },
+        "koreana": {
+          "name": "얼음 성의 비밀",
+          "description": "얼음 성에서 모든 궤짝 찾음"
+        },
+        "polish": {
+          "name": "Sekrety Twierdzy Strażnika Lodu",
+          "description": "Znajdź wszystkie kufry w Twierdzy Strażnika Lodu."
+        },
+        "schinese": {
+          "name": "Icewarden Keep 的秘密",
+          "description": "找到 Icewarden Keep 中的所有宝箱。"
+        },
+        "spanish": {
+          "name": "Secretos de Fortaleza helada",
+          "description": "Encontrar todos los cofres en Fortaleza helada."
+        }
+      }
+    },
+    "level13_chest": {
+      "translations": {
+        "english": {
+          "name": "Rosabel's Secrets",
+          "description": "Find all chests in The Final Chapter"
+        },
+        "finnish": {
+          "name": "Rosabelin salaisuudet",
+          "description": "Etsi kaikki aarteet Viimeisessä taistelussa"
+        },
+        "french": {
+          "name": "Les secrets de Rosabel",
+          "description": "Trouvez tous les coffres du niveau Le chapitre final."
+        },
+        "german": {
+          "name": "Rosabels Geheimnisse",
+          "description": "Finde alle Truhen in Das letzte Kapitel"
+        },
+        "italian": {
+          "name": "Segreti di Rosabel",
+          "description": "Trova tutti gli scrigni in Fortezza del gelo"
+        },
+        "koreana": {
+          "name": "로자벨의 비밀",
+          "description": "마지막 챕터에서 모든 궤짝 찾음"
+        },
+        "polish": {
+          "name": "Sekrety Rosabel",
+          "description": "Znajdź wszystkie kufry w ostatnim rozdziale."
+        },
+        "schinese": {
+          "name": "Rosabel 的秘密",
+          "description": "找到 The Final Chapter 中的所有宝箱。"
+        },
+        "spanish": {
+          "name": "Secretos de Rosabel",
+          "description": "Encontrar todos los cofres en El capítulo final."
+        }
+      }
+    },
+    "expbottle": {
+      "translations": {
+        "english": {
+          "name": "Sharp-Eyed",
+          "description": "Collect all experience pickups in any level"
+        },
+        "finnish": {
+          "name": "Tarkkasilmä",
+          "description": "Etsi kaikki kokemuspisteet missä tahansa kentässä"
+        },
+        "french": {
+          "name": "Vue perçante",
+          "description": "Accumulez toute l'expérience possible dans un niveau."
+        },
+        "german": {
+          "name": "Mit scharfem Auge",
+          "description": "Sammle in einem beliebigen Level alle Levelerfahrung"
+        },
+        "italian": {
+          "name": "Occhio di falco",
+          "description": "Raccogli tutta l'esperienza livello in un livello qualsiasi"
+        },
+        "koreana": {
+          "name": "날카로운-눈",
+          "description": "모든 레벨에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Bystre oko",
+          "description": "Zdobądź całe doświadczenie na dowolnym poziomie."
+        },
+        "schinese": {
+          "name": "眼尖",
+          "description": "收集任意关卡中的所有经验拾取物。"
+        },
+        "spanish": {
+          "name": "Vista de lince",
+          "description": "Conseguir toda la experiencia en cualquier nivel."
+        }
+      }
+    },
+    "allexp": {
+      "translations": {
+        "english": {
+          "name": "Master Collector",
+          "description": "Collect all experience pickups in the game"
+        },
+        "finnish": {
+          "name": "Mestarikeräilijä",
+          "description": "Kerää pelin kaikki kokemuspisteet"
+        },
+        "french": {
+          "name": "Maître des fioles",
+          "description": "Accumulez toute l'expérience possible dans le jeu."
+        },
+        "german": {
+          "name": "Meistersammler",
+          "description": "Sammle alle Levelerfahrung im ganzen Spiel"
+        },
+        "italian": {
+          "name": "Maestro collezionista",
+          "description": "Raccogli tutta l'esperienza livello del gioco"
+        },
+        "koreana": {
+          "name": "콜렉터 마스터",
+          "description": "게임에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Arcykolekcjoner",
+          "description": "Zdobądź całe doświadczenie w grze."
+        },
+        "schinese": {
+          "name": "收藏大师",
+          "description": "收集游戏中的所有经验拾取物。"
+        },
+        "spanish": {
+          "name": "Maestro coleccionista",
+          "description": "Conseguir toda la experiencia del juego."
+        }
+      }
+    },
+    "allchest": {
+      "translations": {
+        "english": {
+          "name": "Lost and Found",
+          "description": "Find all chests in the game"
+        },
+        "finnish": {
+          "name": "Hävinneet ja löydetyt",
+          "description": "Löydä pelin kaikki aarteet"
+        },
+        "french": {
+          "name": "Objets trouvés",
+          "description": "Trouvez tous les coffres du jeu."
+        },
+        "german": {
+          "name": "Fundsachen",
+          "description": "Finde alle Truhen im ganzen Spiel"
+        },
+        "italian": {
+          "name": "Oggetti smarriti",
+          "description": "Trova tutti gli scrigni nel gioco"
+        },
+        "koreana": {
+          "name": "분실물 취급소",
+          "description": "게임에서 모든 궤짝 찾음"
+        },
+        "polish": {
+          "name": "Biuro rzeczy znalezionych",
+          "description": "Znajdź wszystkie kufry w grze."
+        },
+        "schinese": {
+          "name": "失物招领",
+          "description": "找到游戏中的所有宝箱。"
+        },
+        "spanish": {
+          "name": "Objetos perdidos",
+          "description": "Encontrar todos los cofres del juego."
+        }
+      }
+    },
+    "frozen_tower": {
+      "translations": {
+        "english": {
+          "name": "Snowman",
+          "description": "Freeze two enemies and stack them on top of each other"
+        },
+        "finnish": {
+          "name": "Lumiukko",
+          "description": "Jäädytä kaksi vihollista ja pinoa ne toistensa päälle"
+        },
+        "french": {
+          "name": "Bonhomme de neige",
+          "description": "Pétrifiez deux ennemis et empilez-les l'un sur l'autre."
+        },
+        "german": {
+          "name": "Schneemann",
+          "description": "Friere zwei Feinde ein und staple sie übereinander"
+        },
+        "italian": {
+          "name": "Pupazzo di neve",
+          "description": "Congela due nemici e impilali uno sull'altro"
+        },
+        "koreana": {
+          "name": "눈사람",
+          "description": "적 둘을 얼리고 그들을 서로 겹치게 하였음"
+        },
+        "polish": {
+          "name": "Bałwan",
+          "description": "Zamroź dwóch przeciwników i ustaw jednego na drugim."
+        },
+        "schinese": {
+          "name": "雪人",
+          "description": "冻结两个敌人并把它们叠在一起。"
+        },
+        "spanish": {
+          "name": "Muñeco de nieve",
+          "description": "Congelar a dos enemigos y colocarlos uno encima del otro."
+        }
+      }
+    },
+    "hard_hc": {
+      "translations": {
+        "english": {
+          "name": "Challenge is My Middle Name",
+          "description": "Complete any level with hardcore mode on and difficulty set to hard"
+        },
+        "finnish": {
+          "name": "Haasteesta toiseen",
+          "description": "Läpäise mikä tahansa kenttä Hardcore-asetuksella vaikeustaso vaikeimmalla"
+        },
+        "french": {
+          "name": "Challenge est mon deuxième prénom",
+          "description": "Accomplissez un niveau en mode Difficile + Hardcore."
+        },
+        "german": {
+          "name": "Ich scheue keine Herausforderung",
+          "description": "Schließe einen beliebigen Level im Hardcore-Modus auf dem Schwierigkeitsgrad Schwer ab"
+        },
+        "italian": {
+          "name": "La sfida è il mio mestiere",
+          "description": "Completa un livello qualsiasi in modalità Hardcore e con difficoltà Difficile"
+        },
+        "koreana": {
+          "name": "내 이름은 도전",
+          "description": "하드코어 모드를 키고 어려운 난이도 설정으로 모든 레벨 완료"
+        },
+        "polish": {
+          "name": "Wyzwanie to moje drugie imię",
+          "description": "Ukończ dowolny poziom w trybie hardcore na poziomie trudnym."
+        },
+        "schinese": {
+          "name": "挑战是我的中间名",
+          "description": "开启 Hardcore 模式并将难度设为困难，完成任意关卡。"
+        },
+        "spanish": {
+          "name": "Desafío es mi segundo nombre",
+          "description": "Completar cualquier nivel con el modo Hardcore activado y dificultad difícil."
+        }
+      }
+    },
+    "allhc": {
+      "translations": {
+        "english": {
+          "name": "Walk in the Park",
+          "description": "Complete the game on hard using hardcore mode"
+        },
+        "finnish": {
+          "name": "Sunnuntaikävelyllä",
+          "description": "Läpäise peli vaikkeimmalla vaikeustasolla Hardcore-asetus päällä"
+        },
+        "french": {
+          "name": "Promenade dans le parc",
+          "description": "Accomplissez le jeu en mode Difficile + Hardcore."
+        },
+        "german": {
+          "name": "Spaziergang im Park",
+          "description": "Schließe das Spiel im Hardcore-Modus auf dem Schwierigkeitsgrad Schwer ab"
+        },
+        "italian": {
+          "name": "Passeggiata nel parco",
+          "description": "Completa il gioco con difficoltà Difficile e modalità Hardcore"
+        },
+        "koreana": {
+          "name": "공원 산책",
+          "description": "어려움 난이도 사용 하드코어 모드로 게임 완료"
+        },
+        "polish": {
+          "name": "Kaszka z mleczkiem",
+          "description": "Ukończ grę na poziomie trudnym w trybie hardcore."
+        },
+        "schinese": {
+          "name": "公园散步",
+          "description": "使用 Hardcore 模式以困难难度完成游戏。"
+        },
+        "spanish": {
+          "name": "Paseo por el parque",
+          "description": "Completar el juego en nivel difícil usando el modo Hardcore."
+        }
+      }
+    },
+    "solo_amadeus": {
+      "translations": {
+        "english": {
+          "name": "O Solo Mio",
+          "description": "Complete a level with only Amadeus"
+        },
+        "finnish": {
+          "name": "Sooloilua",
+          "description": "Läpäise mikä tahansa kenttä pelkästään Amadeuksen kanssa"
+        },
+        "french": {
+          "name": "O Solo Mio",
+          "description": "Accomplissez un niveau uniquement avec Amadeus."
+        },
+        "german": {
+          "name": "O Solo Mio",
+          "description": "Schließe einen beliebigen Level nur mit Amadeus ab"
+        },
+        "italian": {
+          "name": "O Solo Mio",
+          "description": "Completa un livello solo con Amadeus"
+        },
+        "koreana": {
+          "name": "맑은 햇빛",
+          "description": "아마데우스 만으로 모든 레벨 완료"
+        },
+        "polish": {
+          "name": "O Solo Mio",
+          "description": "Ukończ poziom, grając wyłącznie Amadeuszem."
+        },
+        "schinese": {
+          "name": "O Solo Mio",
+          "description": "只使用 Amadeus 完成一个关卡。"
+        },
+        "spanish": {
+          "name": "O solo mio",
+          "description": "Completar un nivel solo con Amadeus."
+        }
+      }
+    },
+    "solo_zoya": {
+      "translations": {
+        "english": {
+          "name": "Like a Shadow",
+          "description": "Complete a level with only Zoya"
+        },
+        "finnish": {
+          "name": "Varjon lailla",
+          "description": "Läpäise mikä tahansa kenttä pelkästään Zoyan kanssa"
+        },
+        "french": {
+          "name": "Comme une ombre",
+          "description": "Accomplissez un niveau uniquement avec Zoya."
+        },
+        "german": {
+          "name": "Wie ein Schatten",
+          "description": "Schließe einen beliebigen Level nur mit Zoya ab"
+        },
+        "italian": {
+          "name": "Come un'ombra",
+          "description": "Completa un livello solo con Zoya"
+        },
+        "koreana": {
+          "name": "그림자처럼",
+          "description": "조야 만으로 모든 레벨 완료"
+        },
+        "polish": {
+          "name": "Niczym cień",
+          "description": "Ukończ poziom, grając wyłącznie Zoyą."
+        },
+        "schinese": {
+          "name": "如影随形",
+          "description": "只使用 Zoya 完成一个关卡。"
+        },
+        "spanish": {
+          "name": "Como una sombra",
+          "description": "Completar un nivel solo con Zoya."
+        }
+      }
+    },
+    "solo_pontius": {
+      "translations": {
+        "english": {
+          "name": "Alone and Mighty",
+          "description": "Complete a level with only Pontius"
+        },
+        "finnish": {
+          "name": "Yksinään mahtava",
+          "description": "Läpäise mikä tahansa kenttä pelkästään Pontiuksen kanssa"
+        },
+        "french": {
+          "name": "Seul et puissant",
+          "description": "Accomplissez un niveau uniquement avec Pontius."
+        },
+        "german": {
+          "name": "Allein und mächtig",
+          "description": "Schließe einen beliebigen Level nur mit Pontius ab"
+        },
+        "italian": {
+          "name": "Solo e potente",
+          "description": "Completa un livello solo con Pontius"
+        },
+        "koreana": {
+          "name": "유일무이",
+          "description": "폰티우스 만으로 모든 레벨 완료"
+        },
+        "polish": {
+          "name": "Samotny i potężny",
+          "description": "Ukończ poziom, grając wyłącznie Poncjuszem."
+        },
+        "schinese": {
+          "name": "孤身强者",
+          "description": "只使用 Pontius 完成一个关卡。"
+        },
+        "spanish": {
+          "name": "Solo y poderoso",
+          "description": "Completar un nivel solo con Pontius."
+        }
+      }
+    },
+    "solo_all": {
+      "translations": {
+        "english": {
+          "name": "Trine Kaput?",
+          "description": "Complete a level with only Amadeus, a level with only Zoya and a level with only Pontius"
+        },
+        "finnish": {
+          "name": "Rikkäinen Trine?",
+          "description": "Läpäise mikä tahansa kenttä pelkästään Amadeuksella, toinen Zoyalla ja kolmas pelkästään Pontiuksella"
+        },
+        "french": {
+          "name": "Trine kaput ?",
+          "description": "Accomplissez un niveau avec Amadeus, un avec Zoya et un avec Pontius uniquement."
+        },
+        "german": {
+          "name": "Trine kaputt?",
+          "description": "Schließe einen Level nur mit Amadeus, einen Level nur mit Zoya und einen Level nur mit Pontius ab"
+        },
+        "italian": {
+          "name": "La fine di Trine?",
+          "description": "Completa un livello solo con Amadeus, un livello solo con Zoya e uno solo con Pontius"
+        },
+        "koreana": {
+          "name": "트라인 실패?",
+          "description": "아마데우스, 조야, 폰티우스 만으로 모든 레벨 완료"
+        },
+        "polish": {
+          "name": "Trine kaput?",
+          "description": "Ukończ jeden poziom, grając Amadeuszem, jeden – Zoyą i jeden – Poncjuszem."
+        },
+        "schinese": {
+          "name": "Trine 完蛋了？",
+          "description": "只使用 Amadeus 完成一个关卡，只使用 Zoya 完成一个关卡，并只使用 Pontius 完成一个关卡。"
+        },
+        "spanish": {
+          "name": "¿Trine kaput?",
+          "description": "Completar un nivel solo con Amadeus, un nivel solo con Zoya y un nivel solo con Pontius."
+        }
+      }
+    },
+    "charge": {
+      "translations": {
+        "english": {
+          "name": "Catch This!",
+          "description": "Kill an enemy with an airborne object tossed with the Knight's charge "
+        },
+        "finnish": {
+          "name": "Ota kiinni jos saat!",
+          "description": "Tapa vihollinen lentävällä esineellä jonka Ritarin ryntäystaidolla"
+        },
+        "french": {
+          "name": "Attrapez ça !",
+          "description": "Éliminez un ennemi en lançant un objet avec la charge du chevalier."
+        },
+        "german": {
+          "name": "Fang!",
+          "description": "Töte einen Feind mit einem Flugobjekt, das durch die Anstürmen-Fähigkeit des Ritters geworfen wird"
+        },
+        "italian": {
+          "name": "Prendi questo!",
+          "description": "Uccidi un nemico con un oggetto aereo scagliato con la carica del cavaliere"
+        },
+        "koreana": {
+          "name": "그것을 잡아요!",
+          "description": "기사의 돌경으로 적을 물리치고 떠있는 물체로 던지기"
+        },
+        "polish": {
+          "name": "Łap!",
+          "description": "Zabij przeciwnika przedmiotem wprawionym w ruch na skutek szarży."
+        },
+        "schinese": {
+          "name": "接招！",
+          "description": "用骑士冲锋抛出的空中物体击杀一名敌人。"
+        },
+        "spanish": {
+          "name": "¡Coge esto!",
+          "description": "Matar a un enemigo con un objeto lanzado con la carga de caballero."
+        }
+      }
+    },
+    "no_damage": {
+      "translations": {
+        "english": {
+          "name": "All Too Easy!",
+          "description": "Finish a level without taking any damage (Not the Tutorial)"
+        },
+        "finnish": {
+          "name": "Liian helppoa!",
+          "description": "Läpäise mikä tahansa kenttä (paitsi Tarina alkaa) saamatta vahinkoa"
+        },
+        "french": {
+          "name": "Trop facile !",
+          "description": "Terminez un niveau sans subir de dégâts (sauf dans L'histoire commence)."
+        },
+        "german": {
+          "name": "Viel zu leicht!",
+          "description": "Schließe einen Level ab, ohne Schaden zu erleiden (außer Die Geschichte beginnt)"
+        },
+        "italian": {
+          "name": "Fin troppo facile!",
+          "description": "Termina un livello senza subire danni (tranne che in L'inizio della storia)"
+        },
+        "koreana": {
+          "name": "너무 쉬워요!",
+          "description": "데미지 없이 레벨완료(이야기 시작 제외)"
+        },
+        "polish": {
+          "name": "Łatwizna!",
+          "description": "Ukończ poziom, nie otrzymując żadnych obrażeń (poza początkiem opowieści)."
+        },
+        "schinese": {
+          "name": "太简单了！",
+          "description": "完成一个关卡且不受任何伤害（教程除外）。"
+        },
+        "spanish": {
+          "name": "¡Demasiado fácil!",
+          "description": "Terminar un nivel sin recibir ningún daño (excepto en La historia comienza)."
+        }
+      }
+    },
+    "pontiustower": {
+      "translations": {
+        "english": {
+          "name": "The Leaning Tower of Pontius",
+          "description": "Build a three-piece or three-character tower where lowest part is Pontius and his shield, tower must stand at least five seconds"
+        },
+        "finnish": {
+          "name": "Pontiuksen kalteva torni",
+          "description": "Rakenna kolmiosainen torni hahmoista tai esineistä, missä alin osa on Pontius ja hänen kilpensä, tornin on seistävä 10 sekuntia"
+        },
+        "french": {
+          "name": "La tour penchée de Pontius",
+          "description": "Construisez une tour à trois étages ou trois personnages en plaçant Pontius et son bouclier au niveau inférieur. La tour doit tenir au moins cinq secondes."
+        },
+        "german": {
+          "name": "Der Lernturm des Pontius",
+          "description": "Errichte einen Turm aus drei Teilen oder drei Charakteren, bei dem Pontius und sein Schild ganz unten stehen und der mindestens fünf Sekunden lang steht"
+        },
+        "italian": {
+          "name": "La torre pendente di Pontius",
+          "description": "Costruisci una torre composta da tre oggetti o tre personaggi, con la parte inferiore costituita da Pontius e dal suo scudo. Deve restare in piedi per almeno cinque secondi"
+        },
+        "koreana": {
+          "name": "폰티우스의 사탑",
+          "description": "3-부분 아니면 3개-캐릭터 타워를 건설하세요.  폰티우스와 방패가 제일 낮은 부분이 되어야 합니다 그리고 타워는 최소한 5초 동안 서있어야 합니다."
+        },
+        "polish": {
+          "name": "Krzywa wieża Poncjusza",
+          "description": "Zbuduj trzyczęściową lub trzyosobową wieżę, której najniższym elementem jest Poncjusz i jego tarcza. Wieża musi stać przez przynajmniej pięć sekund."
+        },
+        "schinese": {
+          "name": "Pontius 斜塔",
+          "description": "建造一座由三件物体或三个角色组成的塔，最底部必须是 Pontius 和他的盾牌，并让塔保持至少五秒。"
+        },
+        "spanish": {
+          "name": "La torre inclinada de Pontius",
+          "description": "Formar un torre de tres piezas o tres personajes cuya parte inferior sea Pontius con su escudo. La torre debe mantenerse en pie al menos cinco segundos."
+        }
+      }
+    },
+    "level14_completed": {
+      "translations": {
+        "english": {
+          "name": "No Time to Change Clothes",
+          "description": "Complete The Heroes Return"
+        },
+        "finnish": {
+          "name": "Ei vaatteitakaan ehdi vaihtaa",
+          "description": "Läpäise Kotiinpaluu"
+        },
+        "french": {
+          "name": "Pas le temps de se changer",
+          "description": "Accomplissez Le retour des héros."
+        },
+        "german": {
+          "name": "Keine Zeit zum Umziehen",
+          "description": "Schließe Die Rückkehr der Helden ab"
+        },
+        "italian": {
+          "name": "Non c'è tempo per cambiarsi",
+          "description": "Completa Ritorno degli eroi"
+        },
+        "koreana": {
+          "name": "옷을 바꿀 시간 없음",
+          "description": "영웅의 귀환 완료"
+        },
+        "polish": {
+          "name": "Nie ma czasu na zmianę ciuchów",
+          "description": "Ukończ Powrót bohaterów."
+        },
+        "schinese": {
+          "name": "没时间换衣服",
+          "description": "完成 The Heroes Return。"
+        },
+        "spanish": {
+          "name": "Sin tiempo para cambiarse de ropa",
+          "description": "Completar Los héroes regresan."
+        }
+      }
+    },
+    "level15_completed": {
+      "translations": {
+        "english": {
+          "name": "Sunstroke",
+          "description": "Complete Deadly Dustland"
+        },
+        "finnish": {
+          "name": "Auringonpistos",
+          "description": "Läpäise Kalman hiekat"
+        },
+        "french": {
+          "name": "Insolation",
+          "description": "Accomplissez Le redoutable désert."
+        },
+        "german": {
+          "name": "Sonnenstich",
+          "description": "Schließe Tödliche Einöde ab"
+        },
+        "italian": {
+          "name": "Insolazione",
+          "description": "Completa Deserto della morte"
+        },
+        "koreana": {
+          "name": "열사병",
+          "description": "치명적인 황무지 완료"
+        },
+        "polish": {
+          "name": "Udar",
+          "description": "Ukończ Piekielne Pustkowie."
+        },
+        "schinese": {
+          "name": "中暑",
+          "description": "完成 Deadly Dustland。"
+        },
+        "spanish": {
+          "name": "Insolación",
+          "description": "Completar Desierto mortal."
+        }
+      }
+    },
+    "level16_completed": {
+      "translations": {
+        "english": {
+          "name": "Indigestion",
+          "description": "Complete Belly of the Beast"
+        },
+        "finnish": {
+          "name": "Närästystä",
+          "description": "Läpäise Pedon vatsa"
+        },
+        "french": {
+          "name": "Indigestion",
+          "description": "Accomplissez Le ventre de la bête."
+        },
+        "german": {
+          "name": "Verdauungsstörung",
+          "description": "Schließe Im Bauch der Bestie ab"
+        },
+        "italian": {
+          "name": "Indigestione",
+          "description": "Completa Viscere della bestia"
+        },
+        "koreana": {
+          "name": "소화불량",
+          "description": "야수의 배 완료"
+        },
+        "polish": {
+          "name": "Niestrawność",
+          "description": "Ukończ Brzuch bestii."
+        },
+        "schinese": {
+          "name": "消化不良",
+          "description": "完成 Belly of the Beast。"
+        },
+        "spanish": {
+          "name": "Indigestión",
+          "description": "Completar El vientre de la bestia."
+        }
+      }
+    },
+    "level17_completed": {
+      "translations": {
+        "english": {
+          "name": "Grand Theft Aviation",
+          "description": "Complete Brackenridge Rise"
+        },
+        "finnish": {
+          "name": "Lentoalusnäpistys",
+          "description": "Läpäise Saniaiskukkula"
+        },
+        "french": {
+          "name": "Air Grande Voleuse",
+          "description": "Accomplissez L'envol."
+        },
+        "german": {
+          "name": "Flugzeugentführung",
+          "description": "Schließe Farnhügel ab"
+        },
+        "italian": {
+          "name": "Furto d'aerei",
+          "description": "Completa Salita di Brackenridge"
+        },
+        "koreana": {
+          "name": "큰 도적의 비행술",
+          "description": "브래큰리지 등반 완료"
+        },
+        "polish": {
+          "name": "Grand Theft Aeroplan",
+          "description": "Ukończ Przełęcz Orlego Lotu."
+        },
+        "schinese": {
+          "name": "空中大盗",
+          "description": "完成 Brackenridge Rise。"
+        },
+        "spanish": {
+          "name": "Robo de aviones",
+          "description": "Completar La cima de Brackenridge."
+        }
+      }
+    },
+    "level18_completed": {
+      "translations": {
+        "english": {
+          "name": "I'm Walking in the Air",
+          "description": "Complete Cloudy Isles"
+        },
+        "finnish": {
+          "name": "Ilmakävelyllä",
+          "description": "Läpäise Taivaiset saaret"
+        },
+        "french": {
+          "name": "Je marche sur l'air",
+          "description": "Accomplissez Les Îles suspendues."
+        },
+        "german": {
+          "name": "Ich gehe auf Wolken",
+          "description": "Schließe Wolkeninseln ab"
+        },
+        "italian": {
+          "name": "A passeggio per aria",
+          "description": "Completa Isole nebulose"
+        },
+        "koreana": {
+          "name": "허공을 걸을 수 있음",
+          "description": "안개의 섬 완료"
+        },
+        "polish": {
+          "name": "Chodzę w powietrzu",
+          "description": "Ukończ Chmurne Wyspy."
+        },
+        "schinese": {
+          "name": "我在空中漫步",
+          "description": "完成 Cloudy Isles。"
+        },
+        "spanish": {
+          "name": "Caminando por el aire",
+          "description": "Completar Islas Nubosas."
+        }
+      }
+    },
+    "level19_completed": {
+      "translations": {
+        "english": {
+          "name": "Happy Reunion",
+          "description": "Complete Goblin Machinations"
+        },
+        "finnish": {
+          "name": "Iloinen jälleennäkeminen",
+          "description": "Läpäise Helvetinkone"
+        },
+        "french": {
+          "name": "Joyeuse réunion",
+          "description": "Accomplissez Les machinations des gobelins."
+        },
+        "german": {
+          "name": "Fröhliches Wiedersehen",
+          "description": "Schließe Koboldmaschinen ab"
+        },
+        "italian": {
+          "name": "Incontro felice",
+          "description": "Completa Macchinazioni goblin"
+        },
+        "koreana": {
+          "name": "행복한 재회",
+          "description": "고블린의 음모 완료"
+        },
+        "polish": {
+          "name": "Radosne spotkanie",
+          "description": "Ukończ Goblińskie machinacje."
+        },
+        "schinese": {
+          "name": "欢乐重逢",
+          "description": "完成 Goblin Machinations。"
+        },
+        "spanish": {
+          "name": "Feliz reunión",
+          "description": "Completar Maquinaciones goblin."
+        }
+      }
+    },
+    "level14_exp": {
+      "translations": {
+        "english": {
+          "name": "The Heroes Return Collector",
+          "description": "Collect all level experience in The Heroes Return"
+        },
+        "finnish": {
+          "name": "Kotiinpaluun keräilijä",
+          "description": "Kerää kaikki kokemuspisteet kentästä Kotiinpaluu"
+        },
+        "french": {
+          "name": "Collection Le retour des héros",
+          "description": "Accumulez toute l'expérience possible au niveau Le retour des héros."
+        },
+        "german": {
+          "name": "Die Rückkehr der Helden-Sammler",
+          "description": "Sammle alle Levelerfahrung in Die Rückkehr der Helden"
+        },
+        "italian": {
+          "name": "Collezionista di Ritorno degli eroi",
+          "description": "Raccogli tutta l'esperienza livello in Ritorno degli eroi"
+        },
+        "koreana": {
+          "name": "영웅의 귀환 콜렉터",
+          "description": "영웅의 귀환에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Powrót bohaterów – kolekcjoner",
+          "description": "Zdobądź całe doświadczenie na poziomie Powrotu bohaterów."
+        },
+        "schinese": {
+          "name": "The Heroes Return 收藏家",
+          "description": "收集 The Heroes Return 中的所有关卡经验。"
+        },
+        "spanish": {
+          "name": "Coleccionista de Los héroes regresan",
+          "description": "Conseguir toda la experiencia del nivel en Los héroes regresan."
+        }
+      }
+    },
+    "level15_exp": {
+      "translations": {
+        "english": {
+          "name": "Deadly Dustland Collector",
+          "description": "Collect all level experience in Deadly Dustland"
+        },
+        "finnish": {
+          "name": "Kalman hiekkojen keräilijä",
+          "description": "Kerää kaikki kokemuspisteet kentästä Kalman hiekat"
+        },
+        "french": {
+          "name": "Collection Le redoutable désert",
+          "description": "Accumulez toute l'expérience possible au niveau Le redoutable désert."
+        },
+        "german": {
+          "name": "Tödliche Einöde-Sammler",
+          "description": "Sammle alle Levelerfahrung in Tödliche Einöde"
+        },
+        "italian": {
+          "name": "Collezionista di Deserto della morte",
+          "description": "Raccogli tutta l'esperienza livello in Deserto della morte"
+        },
+        "koreana": {
+          "name": "치명적인 황무지 콜렉터",
+          "description": "치명적인 황무지에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Piekielne Pustkowie – kolekcjoner",
+          "description": "Zdobądź całe doświadczenie na poziomie Piekielnego Pustkowia."
+        },
+        "schinese": {
+          "name": "Deadly Dustland 收藏家",
+          "description": "收集 Deadly Dustland 中的所有关卡经验。"
+        },
+        "spanish": {
+          "name": "Coleccionista de Desierto mortal",
+          "description": "Conseguir toda la experiencia del nivel en Desierto mortal."
+        }
+      }
+    },
+    "level16_exp": {
+      "translations": {
+        "english": {
+          "name": "Belly of the Beast Collector",
+          "description": "Collect all level experience in Belly of the Beast"
+        },
+        "finnish": {
+          "name": "Pedon vatsa keräilijä",
+          "description": "Kerää kaikki kokemuspisteet kentästä Pedon vatsa"
+        },
+        "french": {
+          "name": "Collection Le ventre de la bête",
+          "description": "Accumulez toute l'expérience possible au niveau Le ventre de la bête."
+        },
+        "german": {
+          "name": "Bauch der Bestie-Sammler",
+          "description": "Sammle alle Levelerfahrung in Im Bauch der Bestie"
+        },
+        "italian": {
+          "name": "Collezionista di Viscere della bestia",
+          "description": "Raccogli tutta l'esperienza livello in Viscere della bestia"
+        },
+        "koreana": {
+          "name": "야수의 배 콜렉터",
+          "description": "야수의 배에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Brzuch bestii – kolekcjoner",
+          "description": "Zdobądź całe doświadczenie na poziomie Brzucha bestii."
+        },
+        "schinese": {
+          "name": "Belly of the Beast 收藏家",
+          "description": "收集 Belly of the Beast 中的所有关卡经验。"
+        },
+        "spanish": {
+          "name": "Coleccionista de El vientre de la bestia",
+          "description": "Conseguir toda la experiencia del nivel en El vientre de la bestia."
+        }
+      }
+    },
+    "level17_exp": {
+      "translations": {
+        "english": {
+          "name": "Brackenridge Rise Collector",
+          "description": "Collect all level experience in Brackenridge Rise"
+        },
+        "finnish": {
+          "name": "Saniaiskukkulan keräilijä",
+          "description": "Kerää kaikki kokemuspisteet kentästä Saniaiskukkula"
+        },
+        "french": {
+          "name": "Collection L'envol",
+          "description": "Accumulez toute l'expérience possible au niveau L'envol."
+        },
+        "german": {
+          "name": "Farnhügel-Sammler",
+          "description": "Sammle alle Levelerfahrung in Farnhügel"
+        },
+        "italian": {
+          "name": "Collezionista di Salita di Brackenridge",
+          "description": "Raccogli tutta l'esperienza livello in Salita di Brackenridge"
+        },
+        "koreana": {
+          "name": "브래큰리지 등반 콜렉터",
+          "description": "브래큰리지 등반에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Przełęcz Orlego Lotu – kolekcjoner",
+          "description": "Zdobądź całe doświadczenie na poziomie Przełęczy Orlego Lotu."
+        },
+        "schinese": {
+          "name": "Brackenridge Rise 收藏家",
+          "description": "收集 Brackenridge Rise 中的所有关卡经验。"
+        },
+        "spanish": {
+          "name": "Coleccionista de La cima de Brackenridge",
+          "description": "Conseguir toda la experiencia del nivel en La cima de Brackenridge."
+        }
+      }
+    },
+    "level18_exp": {
+      "translations": {
+        "english": {
+          "name": "Cloudy Isles Collector",
+          "description": "Collect all level experience in Cloudy Isles"
+        },
+        "finnish": {
+          "name": "Taivaisten saarten keräilijä",
+          "description": "Kerää kaikki kokemuspisteet kentästä Taivaiset saaret"
+        },
+        "french": {
+          "name": "Collection Les Îles suspendues",
+          "description": "Accumulez toute l'expérience possible au niveau Les Îles suspendues."
+        },
+        "german": {
+          "name": "Wolkeninseln-Sammler",
+          "description": "Sammle alle Levelerfahrung in Wolkeninseln"
+        },
+        "italian": {
+          "name": "Collezionista di Isole nebulose",
+          "description": "Raccogli tutta l'esperienza livello in Isole nebulose"
+        },
+        "koreana": {
+          "name": "안개의 섬 콜렉터",
+          "description": "안개의 섬에서 모든 수준의 경험 수집"
+        },
+        "polish": {
+          "name": "Chmurne Wyspy – kolekcjoner",
+          "description": "Zdobądź całe doświadczenie na poziomie Chmurnych Wysp."
+        },
+        "schinese": {
+          "name": "Cloudy Isles 收藏家",
+          "description": "收集 Cloudy Isles 中的所有关卡经验。"
+        },
+        "spanish": {
+          "name": "Coleccionista de Islas Nubosas",
+          "description": "Conseguir toda la experiencia del nivel en Islas Nubosas."
+        }
+      }
+    },
+    "allchest_dlc": {
+      "translations": {
+        "english": {
+          "name": "The Treasurer",
+          "description": "Find all chests in the Goblin Menace expansion"
+        },
+        "finnish": {
+          "name": "Aarteilija",
+          "description": "Löydä kaikki Goblin Menacen aarteet"
+        },
+        "french": {
+          "name": "Le trésorier",
+          "description": "Trouvez tous les coffres de l'extension Goblin Menace."
+        },
+        "german": {
+          "name": "Der Schatzmeister",
+          "description": "Finde alle Truhen in der Erweiterung Goblin Menace"
+        },
+        "italian": {
+          "name": "Il Tesoriere",
+          "description": "Trova tutti gli scrigni nell'espansione La minaccia dei goblin"
+        },
+        "koreana": {
+          "name": "보물 보관원",
+          "description": "고블린의 위협 확장팩에서 궤짝을 모두 찾음"
+        },
+        "polish": {
+          "name": "Skarbnik",
+          "description": "Znajdź wszystkie kufry w rozszerzeniu „Goblińska groźba”."
+        },
+        "schinese": {
+          "name": "财务官",
+          "description": "找到 Goblin Menace 扩展包中的所有宝箱。"
+        },
+        "spanish": {
+          "name": "El tesorero",
+          "description": "Encontrar todos los cofres en la expansión Amenaza goblin."
+        }
+      }
+    },
+    "expbottle_dlc": {
+      "translations": {
+        "english": {
+          "name": "Sharpeyed II (Goblin Menace Expansion)",
+          "description": "Find all level experience in any level in the expansion"
+        },
+        "finnish": {
+          "name": "Tarkkasilmä II (Goblin Menace)",
+          "description": "Löydä kaikki kokemuspisteet mistä tahansa Goblin Menacen kentistä"
+        },
+        "french": {
+          "name": "Vue perçante II (Extension Goblin Menace)",
+          "description": "Accumulez toute l'expérience possible dans un niveau de l'extension."
+        },
+        "german": {
+          "name": "Adlerauge II (Goblin Menace-Erweiterung)",
+          "description": "Sammle in einem beliebigen Level der Erweiterung alle Levelerfahrung"
+        },
+        "italian": {
+          "name": "Occhio di falco II (espansione di La minaccia dei goblin)",
+          "description": "Trova tutta l'esperienza livello in qualsiasi livello dell'espansione"
+        },
+        "koreana": {
+          "name": "날카로운눈 II (고블린 위협 확장팩)",
+          "description": "확장팩의 모든 레벨에서 모든 수준의 경험을 수집"
+        },
+        "polish": {
+          "name": "Bystre oko II (rozszerzenie „Goblińska groźba”)",
+          "description": "Zdobądź całe doświadczenie na dowolnym poziomie rozszerzenia."
+        },
+        "schinese": {
+          "name": "眼尖 II（Goblin Menace 扩展包）",
+          "description": "找到扩展包任意关卡中的所有关卡经验。"
+        },
+        "spanish": {
+          "name": "Vista de lince II (Expansión Amenaza goblin)",
+          "description": "Conseguir toda la experiencia en cualquier nivel de la expansión."
+        }
+      }
+    },
+    "allexp_dlc": {
+      "translations": {
+        "english": {
+          "name": "Goblin Menace Collector",
+          "description": "Collect all level experience in the Goblin Menace expansion"
+        },
+        "finnish": {
+          "name": "Goblin Menace -keräilijä",
+          "description": "Kerää kaikki Goblin Menacen kokemuspisteet"
+        },
+        "french": {
+          "name": "Collection Goblin Menace",
+          "description": "Accumulez toute l'expérience possible dans l'extension Goblin Menace."
+        },
+        "german": {
+          "name": "Goblin Menace-Sammler",
+          "description": "Sammle alle Levelerfahrung in der gesamten Erweiterung Goblin Menace"
+        },
+        "italian": {
+          "name": "Collezionista di La minaccia dei goblin",
+          "description": "Raccogli tutta l'esperienza nell'espansione La minaccia dei goblin"
+        },
+        "koreana": {
+          "name": "고블린 위협 콜렉터",
+          "description": "고블린의 위협 확장팩에서 모든 수준의 경험을 수집"
+        },
+        "polish": {
+          "name": "Kolekcjoner „Goblińskiej groźby”",
+          "description": "Zdobądź całe doświadczenie w rozszerzeniu „Goblińska groźba”."
+        },
+        "schinese": {
+          "name": "Goblin Menace 收藏家",
+          "description": "收集 Goblin Menace 扩展包中的所有关卡经验。"
+        },
+        "spanish": {
+          "name": "Coleccionista de Amenaza goblin",
+          "description": "Conseguir toda la experiencia de la expansión Amenaza goblin."
+        }
+      }
+    },
+    "platinum_dlc": {
+      "translations": {
+        "english": {
+          "name": "Trine 2 Hard II (Goblin Menace Expansion)",
+          "description": "Earn all Achievements in Trine 2: The Goblin Menace"
+        },
+        "finnish": {
+          "name": "Trinen sankarit II (Goblin Menace)",
+          "description": "Ansaitse kaikki Goblin Menace -saavutukset"
+        },
+        "french": {
+          "name": "Le héros de Trine 2 II (Extension Goblin Menace)",
+          "description": "Remportez tous les succès de Trine 2: Goblin Menace."
+        },
+        "german": {
+          "name": "Triumph über die Kobolde",
+          "description": "Verdiene alle Erfolge in Trine 2: The Goblin Menace"
+        },
+        "italian": {
+          "name": "L'eroe di Trine 2 II (espansione di La minaccia dei goblin)",
+          "description": "Raggiungi tutti gli obiettivi in Trine 2: La minaccia dei goblin"
+        },
+        "koreana": {
+          "name": "Trine 2 Hard II (고블린 위협 확장팩)",
+          "description": "트라인2: 고블린의 위협에서 모든 업적 달성"
+        },
+        "polish": {
+          "name": "Trine 2 - trudna II (rozszerzenie ”Goblińska groźba”)",
+          "description": "Zdobądź wszystkie osiągnięcia w Trine 2: Goblińska groźba."
+        },
+        "schinese": {
+          "name": "Trine 2 困难 II（Goblin Menace 扩展包）",
+          "description": "获得 Trine 2: The Goblin Menace 中的所有成就。"
+        },
+        "spanish": {
+          "name": "El héroe de Trine 2 II (Expansión Amenaza goblin)",
+          "description": "Conseguir todos los logros en Trine 2: Amenaza goblin."
+        }
+      }
+    },
+    "trapstack": {
+      "translations": {
+        "english": {
+          "name": "Wicked Collection",
+          "description": "Capture three different types of enemies inside boxes and stack them on top of another"
+        },
+        "finnish": {
+          "name": "Häijy kokoelma",
+          "description": "Vangitse kolme erilaista vihollista laatikoihin ja kasaa ne pinoksi"
+        },
+        "french": {
+          "name": "Super collection",
+          "description": "Mettez en boîte trois types d'ennemis différents et empilez-les les uns sur les autres."
+        },
+        "german": {
+          "name": "Wahnsinnige Sammlung",
+          "description": "Fange drei verschiedene Arten von Feinden in Kisten und staple sie übereinander"
+        },
+        "italian": {
+          "name": "Collezione perfida",
+          "description": "Cattura tre tipi diversi di nemici all'interno di casse e impilale una sull'altra"
+        },
+        "koreana": {
+          "name": "심술궂은 콜렉터",
+          "description": "상자 안의 세 가지 타입의 적을 포힉하여 그들을 서로 겹치게 함"
+        },
+        "polish": {
+          "name": "Wariacka kolekcja",
+          "description": "Schwytaj w pudła trzy różne rodzaje przeciwników i ustaw ich jednego na drugim."
+        },
+        "schinese": {
+          "name": "邪恶收藏",
+          "description": "将三种不同类型的敌人困在箱子里并把它们叠在一起。"
+        },
+        "spanish": {
+          "name": "Colección malvada",
+          "description": "Capturar tres tipos de enemigos en cajas y colocarlos unos encima de otros."
+        }
+      }
+    },
+    "allexp_both": {
+      "translations": {
+        "english": {
+          "name": "Grand Collector",
+          "description": "Collect all experience pickups in both the main game and the Goblin Menace expansion"
+        },
+        "finnish": {
+          "name": "Suurkeräilijä",
+          "description": "Kerää kaikki kokemuspisteet sekä pääpelistä että lisäosasta"
+        },
+        "french": {
+          "name": "Grand collectionneur",
+          "description": "Récupérez tous les bonus d'expérience du jeu principal et de l'extension Goblin Menace."
+        },
+        "german": {
+          "name": "Eifriger Sammler",
+          "description": "Sammle alle Erfahrungs-Extras im Hauptspiel und in der Erweiterung Goblin Menace"
+        },
+        "italian": {
+          "name": "Grande collezionista",
+          "description": "Raccogli tutti gli oggetti esperienza nel gioco principale e nell'espansione La minaccia dei goblin"
+        },
+        "koreana": {
+          "name": "위대한 콜렉터",
+          "description": "메인 게임과 고블린의 위협 확장팩에서 모든 경험을 수집"
+        },
+        "polish": {
+          "name": "Wielki kolekcjoner",
+          "description": "Zbierz wszystkie elementy doświadczenia zarówno w podstawowej grze, jak i w rozszerzeniu „Goblińska groźba”."
+        },
+        "schinese": {
+          "name": "大收藏家",
+          "description": "收集主游戏和 Goblin Menace 扩展包中的所有经验拾取物。"
+        },
+        "spanish": {
+          "name": "Gran coleccionista",
+          "description": "Conseguir todos los objetos de experiencia en el juego principal y en la expansión Amenaza goblin."
+        }
+      }
+    },
+    "grenade": {
+      "translations": {
+        "english": {
+          "name": "Cannonball Rebound",
+          "description": "Kill a grenadier goblin with its own cannonball"
+        },
+        "finnish": {
+          "name": "Kanuunankuulan paluu",
+          "description": "Tapa kanuunapeikko sen omalla kanuunankuulalla"
+        },
+        "french": {
+          "name": "Le rebond du boulet de canon",
+          "description": "Éliminez un grenadier gobelin avec son boulet de canon."
+        },
+        "german": {
+          "name": "Kanonenkugelabpraller",
+          "description": "Töte einen Grenadier-Kobold mit seiner eigenen Kanonenkugel"
+        },
+        "italian": {
+          "name": "Rimbalzo palla di cannone",
+          "description": "Uccidi un goblin granatiere con la sua palla di cannone"
+        },
+        "koreana": {
+          "name": "포탄 리바운드",
+          "description": "포탄으로 고블린 보병을 처치함"
+        },
+        "polish": {
+          "name": "Powracająca kula armatnia",
+          "description": "Zabij goblina grenadiera jego własną kulą armatnią."
+        },
+        "schinese": {
+          "name": "炮弹反弹",
+          "description": "用掷弹哥布林自己的炮弹击杀它。"
+        },
+        "spanish": {
+          "name": "Rebote de bala de cañón",
+          "description": "Matar a un granadero goblin con su propia bala de cañón."
+        }
+      }
+    },
+    "sandworm": {
+      "translations": {
+        "english": {
+          "name": "Mutually Assured Destruction",
+          "description": "Make a sandworm kill another sandworm"
+        },
+        "finnish": {
+          "name": "Yhdessä varmisteltu tuho",
+          "description": "Huijaa hiekkamato tappamaan toinen hiekkamato"
+        },
+        "french": {
+          "name": "Destruction mutuelle garantie",
+          "description": "Poussez un ver des sables à éliminer un de ses congénères."
+        },
+        "german": {
+          "name": "Gleichgewicht des Schreckens",
+          "description": "Lasse einen Sandwurm einen anderen Sandwurm töten"
+        },
+        "italian": {
+          "name": "Distruzione reciproca",
+          "description": "Fai uccidere un verme del deserto da un altro verme del deserto"
+        },
+        "koreana": {
+          "name": "상호 확실 파괴",
+          "description": "갯지렁이가 다른 갯지렁이를 물리치게 함"
+        },
+        "polish": {
+          "name": "Wzajemnie zapewnione zniszczenie",
+          "description": "Spraw, by czerw zabił innego czerwia."
+        },
+        "schinese": {
+          "name": "相互确保毁灭",
+          "description": "让一条沙虫杀死另一条沙虫。"
+        },
+        "spanish": {
+          "name": "Destrucción mutua asegurada",
+          "description": "Hacer que un gusano de arena mate a otro gusano de arena."
+        }
+      }
+    },
+    "air_hammer": {
+      "translations": {
+        "english": {
+          "name": "Pontius Baseball",
+          "description": "Launch an object with Knight's magnetic shield and break it with hammer before the object touches the ground"
+        },
+        "finnish": {
+          "name": "Pontiuksen pesäpalloa",
+          "description": "Ammu esine ritarin magneettikilvellä ja riko se ennen kuin se osuu maahan"
+        },
+        "french": {
+          "name": "Pontius joue au base-ball",
+          "description": "Lancez un objet avec le bouclier magnétique du chevalier et brisez-le à coups de marteau avant qu'il ne touche le sol."
+        },
+        "german": {
+          "name": "Pontius als Baseballspieler",
+          "description": "Schieße ein Objekt mit dem Magnetschild des Ritters los und zerschlage es mit dem Hammer, ehe es den Boden berührt"
+        },
+        "italian": {
+          "name": "Palla di Pontius",
+          "description": "Lancia un oggetto con lo scudo magnetico del cavaliere e rompilo con un martello prima che tocchi terra"
+        },
+        "koreana": {
+          "name": "폰티우스의 야구공",
+          "description": "물체가 땅에 닿기 전에 기사가 자신의 방패와 망치로 물체를 깨버림"
+        },
+        "polish": {
+          "name": "Poncjusz baseballista",
+          "description": "Wystrzel przedmiot magnetyczną tarczą rycerza i rozwal go młotem, nim spadnie na ziemię."
+        },
+        "schinese": {
+          "name": "Pontius 棒球",
+          "description": "用骑士的磁力盾发射一个物体，并在该物体落地前用锤子击碎它。"
+        },
+        "spanish": {
+          "name": "Béisbol de Pontius",
+          "description": "Lanzar un objeto con el escudo magnético del caballero y romperlo con el martillo antes de que el objeto toque el suelo."
+        }
+      }
+    },
+    "hard_hc_dlc": {
+      "translations": {
+        "english": {
+          "name": "Rise to the Challenge",
+          "description": "Complete any level of the Goblin Menace expansion with hardcore mode on and difficulty set to hard"
+        },
+        "finnish": {
+          "name": "Kohtaa haasteet",
+          "description": "Läpäise mikä tahansa Goblin Menacen kenttä hardcore-asetuksella vaikeimmalla vaikeusasteella"
+        },
+        "french": {
+          "name": "Le grand défi",
+          "description": "Accomplissez un niveau de l'extension Goblin Menace en mode Difficile + Hardcore."
+        },
+        "german": {
+          "name": "Stell dich der Herausforderung",
+          "description": "Schließe einen beliebigen Level der Erweiterung Goblin Menace im Hardcore-Modus auf dem Schwierigkeitsgrad Schwer ab"
+        },
+        "italian": {
+          "name": "Affronta la sfida",
+          "description": "Completa un livello qualsiasi dell'espansione La minaccia dei goblin in modalità Hardcore e con difficoltà Difficile"
+        },
+        "koreana": {
+          "name": "도전",
+          "description": "하드코어 모드를 키고 어려운 난이도 설정으로 고블린의 위협 확장팩의 모든 레벨 완료"
+        },
+        "polish": {
+          "name": "Na wysokości zadania",
+          "description": "Ukończ dowolny poziom rozszerzenia „Goblińska groźba” w trybie hardcore na poziomie trudnym."
+        },
+        "schinese": {
+          "name": "迎接挑战",
+          "description": "开启 Hardcore 模式并将难度设为困难，完成 Goblin Menace 扩展包的任意关卡。"
+        },
+        "spanish": {
+          "name": "Acepta el reto",
+          "description": "Completar cualquier nivel de la expansión Amenaza goblin con el modo Hardcore activado y dificultad difícil."
+        }
+      }
+    },
+    "solo_dlc_levels": {
+      "translations": {
+        "english": {
+          "name": "Trine Kaput For Good?",
+          "description": "Complete each expansion level using only one character"
+        },
+        "finnish": {
+          "name": "Trine todella rikki",
+          "description": "Läpäise jokainen lisäosan kenttä pelaamalla vain yhtä hahmoa"
+        },
+        "french": {
+          "name": "Trine kaput pour de bon ?",
+          "description": "Accomplissez tous les niveaux de l'extension avec un seul personnage."
+        },
+        "german": {
+          "name": "Trine endgültig kaputt?",
+          "description": "Schließe jeden Level der Erweiterung mit nur einem Charakter ab"
+        },
+        "italian": {
+          "name": "Trine è finita per sempre?",
+          "description": "Completa ogni livello di espansione usando solo un personaggio"
+        },
+        "koreana": {
+          "name": "Trine Kaput For Good?",
+          "description": "하나의 캐릭터로 확장팩의 각 레벨 완료"
+        },
+        "polish": {
+          "name": "Trine kaput na dobre?",
+          "description": "Ukończ każdy z poziomów rozszerzenia, grając tylko jedną postacią."
+        },
+        "schinese": {
+          "name": "Trine 彻底完蛋了？",
+          "description": "每个扩展包关卡都只使用一名角色完成。"
+        },
+        "spanish": {
+          "name": "¿Trine kaput para siempre?",
+          "description": "Completar cada nivel de la expansión usando solo un personaje."
+        }
+      }
+    },
+    "allhc_dlc": {
+      "translations": {
+        "english": {
+          "name": "Easy as Pie",
+          "description": "Complete the Goblin Menace expansion on hard using hardcore mode"
+        },
+        "finnish": {
+          "name": "Helppo nakki",
+          "description": "Läpäise Goblin menace hardcore-asetuksella vaikeimmalla vaikeustasolla"
+        },
+        "french": {
+          "name": "Simple comme bonjour",
+          "description": "Accomplissez l'extension Goblin Menace en mode Difficile + Hardcore."
+        },
+        "german": {
+          "name": "Kinderspiel",
+          "description": "Schließe die Erweiterung Goblin Menace im Hardcore-Modus auf dem Schwierigkeitsgrad Schwer ab"
+        },
+        "italian": {
+          "name": "Facile facile",
+          "description": "Completa l'espansione La minaccia dei goblin con difficoltà Difficile e modalità Hardcore"
+        },
+        "koreana": {
+          "name": "누워서 떡먹기",
+          "description": "어려움 난이도 사용 하드코어 모드로 고블린의 위협 확장팩 완료"
+        },
+        "polish": {
+          "name": "Prościzna",
+          "description": "Ukończ rozszerzenie „Goblińska groźba” na poziomie trudnym w trybie hardcore."
+        },
+        "schinese": {
+          "name": "易如反掌",
+          "description": "使用 Hardcore 模式以困难难度完成 Goblin Menace 扩展包。"
+        },
+        "spanish": {
+          "name": "Pan comido",
+          "description": "Completar la expansión Amenaza goblin con el modo Hardcore activado y dificultad difícil."
+        }
+      }
+    },
+    "catch": {
+      "translations": {
+        "english": {
+          "name": "Play Catch",
+          "description": "Throw a box with Pontius' magnetic shield and catch it or have another player catch it"
+        },
+        "finnish": {
+          "name": "Pallopeli",
+          "description": "Ammu laatikko toiselle pelaajalle ritarin magneettikilvellä"
+        },
+        "french": {
+          "name": "Lancer et rattraper",
+          "description": "Lancez une boîte avec le bouclier magnétique de Pontius et rattrapez-la, ou veillez à ce qu'un autre joueur la rattrape."
+        },
+        "german": {
+          "name": "Fangen spielen",
+          "description": "Wirf mit dem Magnetschild von Pontius eine Kiste und fange sie oder lasse sie von einem anderen Spieler fangen"
+        },
+        "italian": {
+          "name": "Prendi al volo",
+          "description": "Lancia una cassa con lo scudo magnetico di Pontius e prendila o falla prendere da un altro giocatore"
+        },
+        "koreana": {
+          "name": "잡기 놀이",
+          "description": "폰티우스의 마력에 싸인 상자를 던져 그것을 잡거나 다른 플레이어가 잡도록 함"
+        },
+        "polish": {
+          "name": "Złapiesz?",
+          "description": "Rzuć pudło magnetyczną tarczą Poncjusza, po czym złap je lub spraw, by złapał je inny gracz."
+        },
+        "schinese": {
+          "name": "玩接球",
+          "description": "用 Pontius 的磁力盾扔出箱子，然后接住它或让另一名玩家接住。"
+        },
+        "spanish": {
+          "name": "Jugar a la pelota",
+          "description": "Lanzar un objeto con el escudo magnético de Pontius y atraparlo con él o con otro personaje."
+        }
+      }
+    },
+    "raft": {
+      "translations": {
+        "english": {
+          "name": "Rafting",
+          "description": "Create a makeshift raft of three separate parts and have a goblin sail it for five seconds"
+        },
+        "finnish": {
+          "name": "Lauttailua",
+          "description": "Rakenna lautta kolmesta eri osasta ja laita peikko seilaamaan sillä ainakin viisi sekuntia"
+        },
+        "french": {
+          "name": "Rafting",
+          "description": "Fabriquez un radeau de fortune à partir de trois pièces distinctes et faites en sorte qu'un gobelin le navigue pendant cinq secondes."
+        },
+        "german": {
+          "name": "Rafting",
+          "description": "Baue aus drei verschiedenen Teilen ein notdürftiges Floß und lasse einen Kobold fünf Sekunden lang darauf fahren"
+        },
+        "italian": {
+          "name": "Rafting",
+          "description": "Crea una zattera con tre parti separate e falla navigare da un goblin per cinque secondi"
+        },
+        "koreana": {
+          "name": "래프팅",
+          "description": "분리된 세 부분으로 임시 뗏목을 만들고 고블린이 5초 동안 항해 하도록 함"
+        },
+        "polish": {
+          "name": "Rafting",
+          "description": "Stwórz improwizowaną tratwę z trzech oddzielnych elementów i spraw, by goblin płynął nią przez pięć sekund."
+        },
+        "schinese": {
+          "name": "漂流",
+          "description": "用三个独立部件做一艘临时木筏，并让一名哥布林乘坐它航行五秒。"
+        },
+        "spanish": {
+          "name": "En canoa",
+          "description": "Crear una balsa improvisada con tres piezas distintas y hacer que un goblin navegue con ella durante cinco segundos."
+        }
+      }
+    },
+    "pontiusglide": {
+      "translations": {
+        "english": {
+          "name": "Pontius Transportation Company",
+          "description": "Glide for five seconds with Kitesail Shield while having an object or character on top of the shield"
+        },
+        "finnish": {
+          "name": "Pontiuksen matkatoimisto",
+          "description": "Liidä viisi sekuntia Leijakilvellä samalla kun kannat kilven päällä jotain esinettä tai muuta pelaajaa"
+        },
+        "french": {
+          "name": "Compagnie de transport Pontius",
+          "description": "Planez pendant cinq secondes à l'aide du bouclier volant et avec un objet ou un personnage sur le bouclier."
+        },
+        "german": {
+          "name": "Pontius als Spediteur",
+          "description": "Gleite fünf Sekunden lang mit einem Lenkdrachenschild, während sich auf dem Schild ein Objekt oder ein Charakter befindet"
+        },
+        "italian": {
+          "name": "Società di trasporti di Pontius",
+          "description": "Plana per cinque secondi con lo scudo aliante con un oggetto o un personaggio sopra lo scudo"
+        },
+        "koreana": {
+          "name": "폰티우스 수송 회사",
+          "description": "방패 상단에 캐릭터나 물체를 실은 연글라이더 방패로 5초 이상 활강을 함"
+        },
+        "polish": {
+          "name": "Biuro transportowe „Poncjusz”",
+          "description": "Szybuj przez pięć sekund przy użyciu tarczy latawcowej, gdy znajduje się na niej przedmiot lub postać."
+        },
+        "schinese": {
+          "name": "Pontius 运输公司",
+          "description": "使用 Kitesail Shield 滑翔五秒，同时盾牌上方放有一个物体或角色。"
+        },
+        "spanish": {
+          "name": "Empresa de Transportes Pontius",
+          "description": "Planear durante cinco segundos con el escudo cometa con un objeto o personaje encima del escudo."
+        }
+      }
+    },
+    "pit": {
+      "translations": {
+        "english": {
+          "name": "This is Trine!",
+          "description": "Kick five enemies of the same kind into a bottomless pit with the Thief's grappling hook kick or the Knight's Kitesail Shield glide kick"
+        },
+        "finnish": {
+          "name": "Tämä on Trine!",
+          "description": "Potki viisi samanlaista vihollista pohjattomaan kuiluun käyttämällä varkaan heittokoukkupotkua tai ritarin leijakilpipotkua"
+        },
+        "french": {
+          "name": "C'est le Trine !",
+          "description": "Poussez cinq ennemis du même type dans un puits sans fond avec le coup de pied grappin de la voleuse ou le coup de pied planant du bouclier volant du chevalier."
+        },
+        "german": {
+          "name": "Das ist Trine!",
+          "description": "Tritt mit dem Enterhaken-Tritt der Diebin oder dem Lenkdrachenschild-Tritt des Ritters fünf Feinde derselben Art in eine endlos tiefe Grube"
+        },
+        "italian": {
+          "name": "Questa è Trine!",
+          "description": "Getta cinque nemici dello stesso tipo in un fosso senza fondo con il colpo del rampino o con il colpo planante dello scudo aliante"
+        },
+        "koreana": {
+          "name": "트라인입니다!",
+          "description": "도적의 갈고리 발차기 아니면 기사의 연글아이더 방패 발차기를 사용해 같은 적 5명을 무한한 구멍으로 넣으세요."
+        },
+        "polish": {
+          "name": "Tu jest Trine!",
+          "description": "Wepchnij kopniakiem pięciu przeciwników tego samego rodzaju do bezdennej dziury. Użyj złodziejskiego kopnięcia na linie lub rycerskiego szybującego kopnięcia z tarczą."
+        },
+        "schinese": {
+          "name": "这就是 Trine！",
+          "description": "用盗贼的抓钩踢或骑士的 Kitesail Shield 滑踢，把五个同类敌人踢进无底坑。"
+        },
+        "spanish": {
+          "name": "¡Esto es Trine!",
+          "description": "Lanzar a cinco enemigos del mismo tipo a un pozo sin fondo con la patada de gancho de la ladrona o con la patada planeadora del escudo cometa del caballero."
+        }
+      }
+    },
+    "catapult": {
+      "translations": {
+        "english": {
+          "name": "Off You Go",
+          "description": "Capture a goblin in a Monster Prison and then launch it with a catapult"
+        },
+        "finnish": {
+          "name": "Lähdepäs siitä",
+          "description": "Vangitse peikko laatikon sisään ja ammu se katapultilla"
+        },
+        "french": {
+          "name": "C'est parti !",
+          "description": "Mettez un gobelin dans une prison pour monstre et lancez-le avec une catapulte."
+        },
+        "german": {
+          "name": "Zisch ab",
+          "description": "Fange einen Kobold in einem Monsterkerker und schieße ihn dann mit einem Katapult davon"
+        },
+        "italian": {
+          "name": "Fuoco!",
+          "description": "Cattura un goblin in una prigione per mostri e poi lancialo con una catapulta"
+        },
+        "koreana": {
+          "name": "이동 끄기",
+          "description": "괴물의 감옥에서 고블린을 잡아서 투석기에 사용"
+        },
+        "polish": {
+          "name": "Miłego lotu",
+          "description": "Wsadź goblina do więzienia potworów i wystrzel go z katapulty."
+        },
+        "schinese": {
+          "name": "走你",
+          "description": "用 Monster Prison 困住一个哥布林，然后用投石机把它发射出去。"
+        },
+        "spanish": {
+          "name": "Allá vas",
+          "description": "Capturar a un goblin en una cárcel de monstruos y lanzarlo con una catapulta."
+        }
+      }
+    },
+    "level14_chest": {
+      "translations": {
+        "english": {
+          "name": "Secrets of the Heroes Return",
+          "description": "Find all secret chests in The Heroes Return"
+        },
+        "finnish": {
+          "name": "Kotiinpaluun salaisuudet",
+          "description": "Etsi kaikki aarteet kentästä Kotiinpaluu"
+        },
+        "french": {
+          "name": "Les secrets du Retour des héros",
+          "description": "Trouvez tous les coffres du niveau Le retour des héros."
+        },
+        "german": {
+          "name": "Geheimnisse der Rückkehr der Helden",
+          "description": "Finde alle geheimen Truhen in Die Rückkehr der Helden"
+        },
+        "italian": {
+          "name": "Segreti di Ritorno degli eroi",
+          "description": "Trova tutti gli scrigni in Ritorno degli eroi"
+        },
+        "koreana": {
+          "name": "영웅의 귀환의 비밀",
+          "description": "영웅의 귀환에서 비밀의 궤짝을 모두 찾음"
+        },
+        "polish": {
+          "name": "Sekrety Powrotu bohaterów",
+          "description": "Znajdź wszystkie tajne kufry w Powrocie bohaterów."
+        },
+        "schinese": {
+          "name": "The Heroes Return 的秘密",
+          "description": "找到 The Heroes Return 中的所有秘密宝箱。"
+        },
+        "spanish": {
+          "name": "Secretos de Los héroes regresan",
+          "description": "Encontrar todos los cofres en Los héroes regresan."
+        }
+      }
+    },
+    "level15_chest": {
+      "translations": {
+        "english": {
+          "name": "Secrets of Deadly Dustland",
+          "description": "Find all secret chests in Deadly Dustland"
+        },
+        "finnish": {
+          "name": "Kalman hiekkojen salaisuudet",
+          "description": "Etsi kaikki aarteet kentästä Kalman hiekat"
+        },
+        "french": {
+          "name": "Les secrets du Redoutable désert",
+          "description": "Trouvez tous les coffres du niveau Le redoutable désert."
+        },
+        "german": {
+          "name": "Geheimnisse der Tödlichen Einöde",
+          "description": "Finde alle geheimen Truhen in Tödliche Einöde"
+        },
+        "italian": {
+          "name": "Segreti di Deserto della morte",
+          "description": "Trova tutti gli scrigni in Deserto della morte"
+        },
+        "koreana": {
+          "name": "치명적인 황무지의 비밀",
+          "description": "치명적인 황무지에서 비밀의 궤짝을 모두 찾음"
+        },
+        "polish": {
+          "name": "Sekrety Piekielnego Pustkowia",
+          "description": "Znajdź wszystkie tajne kufry na Piekielnym Pustkowiu."
+        },
+        "schinese": {
+          "name": "Deadly Dustland 的秘密",
+          "description": "找到 Deadly Dustland 中的所有秘密宝箱。"
+        },
+        "spanish": {
+          "name": "Secretos de Desierto mortal",
+          "description": "Encontrar todos los cofres en Desierto mortal."
+        }
+      }
+    },
+    "level16_chest": {
+      "translations": {
+        "english": {
+          "name": "Secrets of Belly of the Beast",
+          "description": "Find all secret chests in Belly of the Beast"
+        },
+        "finnish": {
+          "name": "Pedon vatsan salaisuudet",
+          "description": "Etsi kaikki aarteet kentästä Pedon vatsa"
+        },
+        "french": {
+          "name": "Les secrets du Ventre de la bête",
+          "description": "Trouvez tous les coffres du niveau Le ventre de la bête."
+        },
+        "german": {
+          "name": "Geheimnisse des Bauchs der Bestie",
+          "description": "Finde alle geheimen Truhen in Im Bauch der Bestie"
+        },
+        "italian": {
+          "name": "Segreti di Viscere della bestia",
+          "description": "Trova tutti gli scrigni in Viscere della bestia"
+        },
+        "koreana": {
+          "name": "야수의 배의 비밀",
+          "description": "야수의 배에서 비밀의 궤짝을 모두 찾음"
+        },
+        "polish": {
+          "name": "Sekrety Brzucha bestii",
+          "description": "Znajdź wszystkie tajne kufry w Brzuchu bestii."
+        },
+        "schinese": {
+          "name": "Belly of the Beast 的秘密",
+          "description": "找到 Belly of the Beast 中的所有秘密宝箱。"
+        },
+        "spanish": {
+          "name": "Secretos de El vientre de la bestia",
+          "description": "Encontrar todos los cofres en El vientre de la bestia."
+        }
+      }
+    },
+    "level17_chest": {
+      "translations": {
+        "english": {
+          "name": "Secrets of Brackenridge Rise",
+          "description": "Find all secret chests in Brackenridge Rise"
+        },
+        "finnish": {
+          "name": "Saniaiskukkulan salaisuudet",
+          "description": "Etsi kaikki aarteet kentästä Saniaiskukkula"
+        },
+        "french": {
+          "name": "Les secrets de L'envol",
+          "description": "Trouvez tous les coffres du niveau L'envol."
+        },
+        "german": {
+          "name": "Geheimnisse des Farnhügels",
+          "description": "Finde alle geheimen Truhen in Farnhügel"
+        },
+        "italian": {
+          "name": "Segreti di Salita di Brackenridge",
+          "description": "Trova tutti gli scrigni in Salita di Brackenridge"
+        },
+        "koreana": {
+          "name": "브래큰리지 등반의 비밀",
+          "description": "브래큰리지 등반에서 비밀의 궤짝을 모두 찾음"
+        },
+        "polish": {
+          "name": "Sekrety Przełęczy Orlego Lotu",
+          "description": "Znajdź wszystkie tajne kufry na Przełęczy Orlego Lotu."
+        },
+        "schinese": {
+          "name": "Brackenridge Rise 的秘密",
+          "description": "找到 Brackenridge Rise 中的所有秘密宝箱。"
+        },
+        "spanish": {
+          "name": "Secretos de La cima de Brackenridge",
+          "description": "Encontrar todos los cofres en La cima de Brackenridge."
+        }
+      }
+    },
+    "level18_chest": {
+      "translations": {
+        "english": {
+          "name": "Secrets of Cloudy Isles",
+          "description": "Find all secret chests in Cloudy Isles"
+        },
+        "finnish": {
+          "name": "Taivaisten saarten salaisuudet",
+          "description": "Etsi kaikki aarteet kentästä Taivaiset saaret"
+        },
+        "french": {
+          "name": "Les secrets des Îles suspendues",
+          "description": "Trouvez tous les coffres du niveau Les Îles suspendues."
+        },
+        "german": {
+          "name": "Geheimnisse der Wolkeninseln",
+          "description": "Finde alle geheimen Truhen in Wolkeninseln"
+        },
+        "italian": {
+          "name": "Segreti di Isole nebulose",
+          "description": "Trova tutti gli scrigni in Isole nebulose"
+        },
+        "koreana": {
+          "name": "안개 섬의 비밀",
+          "description": "안개의 섬에서 비밀의 궤짝을 모두 찾음"
+        },
+        "polish": {
+          "name": "Sekrety Chmurnych Wysp",
+          "description": "Znajdź wszystkie tajne kufry na Chmurnych Wyspach."
+        },
+        "schinese": {
+          "name": "Cloudy Isles 的秘密",
+          "description": "找到 Cloudy Isles 中的所有秘密宝箱。"
+        },
+        "spanish": {
+          "name": "Secretos de Islas Nubosas",
+          "description": "Encontrar todos los cofres en Islas Nubosas."
+        }
+      }
+    }
+  }
+}

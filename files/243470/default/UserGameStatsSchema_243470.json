@@ -1,0 +1,3752 @@
+{
+  "version": 1,
+  "app_id": "243470",
+  "variant_id": "default",
+  "source_sha256": "2f6647a176a650dcacbab5f9b236e414f966f882583b68c3c04eebbe08fea624",
+  "languages": [
+    "brazilian",
+    "danish",
+    "dutch",
+    "english",
+    "finnish",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "koreana",
+    "norwegian",
+    "polish",
+    "portuguese",
+    "russian",
+    "schinese",
+    "spanish",
+    "swedish",
+    "tchinese"
+  ],
+  "achievements": {
+    "WatchDogs_Ach_1": {
+      "translations": {
+        "brazilian": {
+          "name": "Olá Mundo",
+          "description": "Derrote Maurice"
+        },
+        "danish": {
+          "name": "Hej verden",
+          "description": "Nedlæg Maurice"
+        },
+        "dutch": {
+          "name": "Hallo wereld",
+          "description": "Schakel Maurice uit."
+        },
+        "english": {
+          "name": "Hello World",
+          "description": "Take down Maurice"
+        },
+        "finnish": {
+          "name": "Terve, maailma",
+          "description": "Taltuta Maurice"
+        },
+        "french": {
+          "name": "Bonjour le monde",
+          "description": "Neutralisez Maurice."
+        },
+        "german": {
+          "name": "Hallo Welt",
+          "description": "Schalten Sie Maurice aus"
+        },
+        "italian": {
+          "name": "Benvenuto",
+          "description": "Neutralizza Maurice"
+        },
+        "japanese": {
+          "name": "ハローワールド",
+          "description": "モーリスを倒す"
+        },
+        "koreana": {
+          "name": "이제 시작해 볼까?",
+          "description": "모리스 제압"
+        },
+        "norwegian": {
+          "name": "Hallo, verden",
+          "description": "Nøytraliser Maurice"
+        },
+        "polish": {
+          "name": "Witaj, świecie",
+          "description": "Obezwładnij Maurice'a"
+        },
+        "portuguese": {
+          "name": "Olá, Mundo",
+          "description": "Incapacita o Maurice"
+        },
+        "russian": {
+          "name": "Всем привет",
+          "description": "Нейтрализуйте Мориса"
+        },
+        "schinese": {
+          "name": "你好世界",
+          "description": "撂倒莫里斯"
+        },
+        "spanish": {
+          "name": "Hola, mundo",
+          "description": "Acaba con Maurice"
+        },
+        "swedish": {
+          "name": "Hej världen",
+          "description": "Slå ut Maurice."
+        },
+        "tchinese": {
+          "name": "哈囉你好",
+          "description": "撂倒莫里斯"
+        }
+      }
+    },
+    "WatchDogs_Ach_2": {
+      "translations": {
+        "brazilian": {
+          "name": "Fim da Linha",
+          "description": "Complete 40 Contratos de Mercenário"
+        },
+        "danish": {
+          "name": "Endestationen",
+          "description": "Gennemfør 40 problemløserkontrakter"
+        },
+        "dutch": {
+          "name": "Tot hier en niet verder",
+          "description": "Voltooi 40 Fixer-contracten."
+        },
+        "english": {
+          "name": "End of Line",
+          "description": "Complete 40 Fixer Contracts"
+        },
+        "finnish": {
+          "name": "Matkan pää",
+          "description": "Suorita 40 fiksaajatoimeksiantoa"
+        },
+        "french": {
+          "name": "Fin du trajet",
+          "description": "Terminez 40 contrats de Fixeur."
+        },
+        "german": {
+          "name": "Endstation",
+          "description": "Schließen Sie 40 Fixer-Aufträge ab"
+        },
+        "italian": {
+          "name": "Fine della corsa",
+          "description": "Completa 40 contratti da fixer"
+        },
+        "japanese": {
+          "name": "道の終わり",
+          "description": "40件の「フィクサー契約」をクリアする"
+        },
+        "koreana": {
+          "name": "이 길의 끝",
+          "description": "해결사 청부 40개 완료"
+        },
+        "norwegian": {
+          "name": "Siste stopp",
+          "description": "Fullfør 40 fikserkontrakter"
+        },
+        "polish": {
+          "name": "Koniec trasy",
+          "description": "Ukończ 40 zleceń dla machera"
+        },
+        "portuguese": {
+          "name": "Fim da Linha",
+          "description": "Completa 40 Contratos de Mercenário"
+        },
+        "russian": {
+          "name": "Конец пути",
+          "description": "Выполните 40 контрактов устранителя"
+        },
+        "schinese": {
+          "name": "终点线",
+          "description": "完成 40 项收尾人合约"
+        },
+        "spanish": {
+          "name": "Fin de trayecto",
+          "description": "Completa 40 contratos de agente"
+        },
+        "swedish": {
+          "name": "Slutstation",
+          "description": "Klara av 40 fixarkontrakt."
+        },
+        "tchinese": {
+          "name": "終點線",
+          "description": "完成 40 項收尾人合約"
+        }
+      }
+    },
+    "WatchDogs_Ach_3": {
+      "translations": {
+        "brazilian": {
+          "name": "Baixo e Vil",
+          "description": "Complete cada Esconderijo de Gangue"
+        },
+        "danish": {
+          "name": "Værste base",
+          "description": "Gennemfør alle Bandens tilholdssteder"
+        },
+        "dutch": {
+          "name": "Baas onder de bazen",
+          "description": "Voltooi alle bendeschuilplaatsen."
+        },
+        "english": {
+          "name": "Basest Base",
+          "description": "Complete every Gang Hideout"
+        },
+        "finnish": {
+          "name": "Rujoista rujoin",
+          "description": "Suorita kaikki jengin piilopaikat"
+        },
+        "french": {
+          "name": "Droit dans les yeux",
+          "description": "Terminez toutes les missions Planque de gang."
+        },
+        "german": {
+          "name": "Ganz unten angekommen",
+          "description": "Schließen Sie alle Gang-Verstecke ab"
+        },
+        "italian": {
+          "name": "Brutto ceffo",
+          "description": "Completa tutti i covi delle bande"
+        },
+        "japanese": {
+          "name": "下の下",
+          "description": "全ての「ギャング・ハイドアウト」をクリアする"
+        },
+        "koreana": {
+          "name": "기본 중의 기본",
+          "description": "모든 갱의 은신처 발견"
+        },
+        "norwegian": {
+          "name": "Skremmende effektiv",
+          "description": "Fullfør alle infiltrasjoner"
+        },
+        "polish": {
+          "name": "Baza bazowa",
+          "description": "Ukończ wszystkie zlecenia związane z kryjówkami gangu"
+        },
+        "portuguese": {
+          "name": "Base Básica",
+          "description": "Completa todos os Esconderijos do Gang"
+        },
+        "russian": {
+          "name": "Страшила",
+          "description": "Выполните все задания расследования \"Бандитский притон\""
+        },
+        "schinese": {
+          "name": "卑劣之巢",
+          "description": "完成全部帮派据点"
+        },
+        "spanish": {
+          "name": "Tocando fondo",
+          "description": "Completa todos los escondites de banda"
+        },
+        "swedish": {
+          "name": "Inga tomma hot",
+          "description": "Klara av alla gänggömställen."
+        },
+        "tchinese": {
+          "name": "卑劣的基礎",
+          "description": "完成每個幫派據點"
+        }
+      }
+    },
+    "WatchDogs_Ach_4": {
+      "translations": {
+        "brazilian": {
+          "name": "Eles o Chamam de O Vigilante",
+          "description": "Complete cada Investigação"
+        },
+        "danish": {
+          "name": "De kalder ham Selvtægtsmanden",
+          "description": "Gennemfør alle Efterforskninger"
+        },
+        "dutch": {
+          "name": "Ze noemen hem de wreker",
+          "description": "Voltooi alle onderzoeken."
+        },
+        "english": {
+          "name": "They Call Him The Vigilante",
+          "description": "Complete every Investigation"
+        },
+        "finnish": {
+          "name": "He kutsuvat häntä Kostajaksi",
+          "description": "Suorita kaikki tutkimukset"
+        },
+        "french": {
+          "name": "On l’appelait le Justicier",
+          "description": "Terminez toutes les enquêtes."
+        },
+        "german": {
+          "name": "Sie nannten ihn Rächer",
+          "description": "Schließen Sie alle Untersuchungen ab"
+        },
+        "italian": {
+          "name": "Lo chiamavano il giustiziere",
+          "description": "Completa tutte le indagini"
+        },
+        "japanese": {
+          "name": "人呼んでビジランテ",
+          "description": "全ての「調査」をクリアする"
+        },
+        "koreana": {
+          "name": "자경단원이라 불리는 남자",
+          "description": "모든 조사 완료"
+        },
+        "norwegian": {
+          "name": "De kaller ham Borgerverneren",
+          "description": "Fullfør alle etterforskningene"
+        },
+        "polish": {
+          "name": "Nazywają go Mścicielem",
+          "description": "Ukończ wszystkie śledztwa"
+        },
+        "portuguese": {
+          "name": "Chamam-lhe Justiceiro",
+          "description": "Completa todas as Investigações"
+        },
+        "russian": {
+          "name": "Известный как \"мститель\"",
+          "description": "Завершите все расследования"
+        },
+        "schinese": {
+          "name": "人称私法制裁者",
+          "description": "完成全部调查"
+        },
+        "spanish": {
+          "name": "Le llaman el justiciero",
+          "description": "Completa todas las investigaciones"
+        },
+        "swedish": {
+          "name": "Han kallas för vigilanten",
+          "description": "Klara av alla utredningar."
+        },
+        "tchinese": {
+          "name": "大家都叫他私法制裁者",
+          "description": "完成每個調查"
+        }
+      }
+    },
+    "WatchDogs_Ach_5": {
+      "translations": {
+        "brazilian": {
+          "name": "Vigia",
+          "description": "Complete cada Invasão de Privacidade"
+        },
+        "danish": {
+          "name": "Kighul",
+          "description": "Gennemfør alle Private indtrængninger"
+        },
+        "dutch": {
+          "name": "Kijkgaatje",
+          "description": "Voltooi alle privacyinvasies."
+        },
+        "english": {
+          "name": "Peephole",
+          "description": "Complete every Privacy Invasion"
+        },
+        "finnish": {
+          "name": "Tirkistysreikä",
+          "description": "Suorita kaikki yksityisyyden loukkaukset"
+        },
+        "french": {
+          "name": "Voyeur",
+          "description": "Terminez toutes les intrusions vie privée."
+        },
+        "german": {
+          "name": "Guckloch",
+          "description": "Schließen Sie alle Privatsphären-Einbrüche ab"
+        },
+        "italian": {
+          "name": "Buco della serratura",
+          "description": "Completa tutte le invasioni della privacy"
+        },
+        "japanese": {
+          "name": "覗き穴",
+          "description": "全ての「プライバシー侵害」をクリアする"
+        },
+        "koreana": {
+          "name": "벌어진 틈",
+          "description": "모든 개인 정보에 침입 완료"
+        },
+        "norwegian": {
+          "name": "Kikkhull",
+          "description": "Fullfør alle privatliv-invasjoner"
+        },
+        "polish": {
+          "name": "Podglądacz",
+          "description": "Ukończ wszystkie naruszenia prywatności"
+        },
+        "portuguese": {
+          "name": "Olho Mágico",
+          "description": "Completa todas as Invasões de Privacidade"
+        },
+        "russian": {
+          "name": "Глазок",
+          "description": "Совершите все вторжения в частную жизнь"
+        },
+        "schinese": {
+          "name": "猫眼",
+          "description": "完成全部隐私入侵任务"
+        },
+        "spanish": {
+          "name": "Mirilla",
+          "description": "Completa todas las invasiones de la privacidad"
+        },
+        "swedish": {
+          "name": "Kikhål",
+          "description": "Klara av alla integritetsintrång."
+        },
+        "tchinese": {
+          "name": "窺視孔",
+          "description": "完成每個隱私入侵"
+        }
+      }
+    },
+    "WatchDogs_Ach_6": {
+      "translations": {
+        "brazilian": {
+          "name": "Ira na Estrada",
+          "description": "Complete cada Escolta Criminosa"
+        },
+        "danish": {
+          "name": "Vejvrede",
+          "description": "Gennemfør alle Kriminelle konvojer"
+        },
+        "dutch": {
+          "name": "Waanzin op de weg",
+          "description": "Voltooi alle criminele konvooien."
+        },
+        "english": {
+          "name": "Road Rage",
+          "description": "Complete every Criminal Convoy"
+        },
+        "finnish": {
+          "name": "Tieraivo",
+          "description": "Suorita kaikki rikollissaattueet"
+        },
+        "french": {
+          "name": "Froisseur de tôle",
+          "description": "Terminez toutes les escortes criminelles."
+        },
+        "german": {
+          "name": "Straßenfeger",
+          "description": "Schließen Sie alle Verbrecher-Konvois ab"
+        },
+        "italian": {
+          "name": "Furia stradale",
+          "description": "Completa tutti i convogli criminali"
+        },
+        "japanese": {
+          "name": "ロードレイジ",
+          "description": "全ての「車列襲撃」をクリアする"
+        },
+        "koreana": {
+          "name": "길 위의 무법자",
+          "description": "모든 범죄자 호송 완료"
+        },
+        "norwegian": {
+          "name": "Raseri bak rattet",
+          "description": "Fullfør alle forbryterkonvoier"
+        },
+        "polish": {
+          "name": "Szał drogowy",
+          "description": "Ukończ wszystkie zlecenia konwojowe"
+        },
+        "portuguese": {
+          "name": "Fúria Na Estrada",
+          "description": "Completa todas as Escoltas de Criminosos"
+        },
+        "russian": {
+          "name": "Дорожные войны",
+          "description": "Выполните все задания по устранению"
+        },
+        "schinese": {
+          "name": "路怒症",
+          "description": "完成全部罪犯车队任务"
+        },
+        "spanish": {
+          "name": "Furia al volante",
+          "description": "Completa todos los convoyes criminales"
+        },
+        "swedish": {
+          "name": "Kör hårt",
+          "description": "Klara av alla brottskonvojer."
+        },
+        "tchinese": {
+          "name": "開車發飆",
+          "description": "完成每個罪犯車隊"
+        }
+      }
+    },
+    "WatchDogs_Ach_7": {
+      "translations": {
+        "brazilian": {
+          "name": "Executor",
+          "description": "Use o Sistema de Detecção de Crimes para deter 20 criminosos confirmados"
+        },
+        "danish": {
+          "name": "Håndhæver",
+          "description": "Nedlæg 20 bekræftede forbrydere med kriminalitetssporing"
+        },
+        "dutch": {
+          "name": "Handhaver",
+          "description": "Gebruik het misdaaddetectiesysteem om 20 bevestigde criminelen te pakken."
+        },
+        "english": {
+          "name": "Enforcer",
+          "description": "Use the Crime Detection System to take down 20 confirmed criminals"
+        },
+        "finnish": {
+          "name": "Kovistelija",
+          "description": "Ota kiinni 20 varmistettua rikollista rikospaljastimen avulla"
+        },
+        "french": {
+          "name": "Justicier",
+          "description": "Utilisez le système de détection des crimes pour neutraliser 20 criminels confirmés."
+        },
+        "german": {
+          "name": "Vollstrecker",
+          "description": "Nutzen Sie das Verbrechenserkennungs-System, um 20 bestätigte Kriminelle auszuschalten"
+        },
+        "italian": {
+          "name": "Antisommossa",
+          "description": "Usa il sistema di rilevamento crimini per neutralizzare 20 criminali accertati"
+        },
+        "japanese": {
+          "name": "エンフォーサー",
+          "description": "犯罪探知システムで20人の常習犯を倒す"
+        },
+        "koreana": {
+          "name": "행동대원",
+          "description": "잠재적 범죄 탐지로 범죄자 20명 제압"
+        },
+        "norwegian": {
+          "name": "Lovens lange arm",
+          "description": "Bruk kriminalitetsdetektoren til å nøytralisere 20 bekreftede forbrytere"
+        },
+        "polish": {
+          "name": "Egzekutor",
+          "description": "Użyj systemu wykrywania przestępstw do schwytania 20 potwierdzonych przestępców"
+        },
+        "portuguese": {
+          "name": "Capanga",
+          "description": "Usa o Sistema de Deteção de Crime para neutralizar 20 criminosos confirmados"
+        },
+        "russian": {
+          "name": "Боец",
+          "description": "Задержите 20 преступников с помощью детектора преступлений"
+        },
+        "schinese": {
+          "name": "执法者",
+          "description": "使用犯罪侦测系统撂倒20 名已确认的罪犯"
+        },
+        "spanish": {
+          "name": "Justiciero",
+          "description": "Usa el sistema de detección de delitos para acabar con 20 criminales confirmados"
+        },
+        "swedish": {
+          "name": "Torped",
+          "description": "Stoppa 20 brottslingar via brottssystemet."
+        },
+        "tchinese": {
+          "name": "打手",
+          "description": "使用犯罪偵測系統撂倒 20 位已確認過的罪犯"
+        }
+      }
+    },
+    "WatchDogs_Ach_8": {
+      "translations": {
+        "brazilian": {
+          "name": "Homem de Família",
+          "description": "Complete o Ato 1"
+        },
+        "danish": {
+          "name": "Familiefar",
+          "description": "Gennemfør 1. akt"
+        },
+        "dutch": {
+          "name": "Familieman",
+          "description": "Voltooi deel 1."
+        },
+        "english": {
+          "name": "Family Man",
+          "description": "Complete Act 1"
+        },
+        "finnish": {
+          "name": "Kuulut perheeseen",
+          "description": "Suorita luku 1"
+        },
+        "french": {
+          "name": "La famille avant tout",
+          "description": "Terminez l’Acte 1."
+        },
+        "german": {
+          "name": "Familienmensch",
+          "description": "Schließen Sie Akt 1 ab"
+        },
+        "italian": {
+          "name": "Uomo di famiglia",
+          "description": "Completa l'atto 1"
+        },
+        "japanese": {
+          "name": "家庭的な男",
+          "description": "Act 1をクリアする"
+        },
+        "koreana": {
+          "name": "가정적인 남자",
+          "description": "1막 완료"
+        },
+        "norwegian": {
+          "name": "Familiemann",
+          "description": "Fullfør Akt 1"
+        },
+        "polish": {
+          "name": "Rodzinny człowiek",
+          "description": "Ukończ Akt 1"
+        },
+        "portuguese": {
+          "name": "Homem de Família",
+          "description": "Completa o Ato 1"
+        },
+        "russian": {
+          "name": "Семьянин",
+          "description": "Завершите часть 1."
+        },
+        "schinese": {
+          "name": "顾家的男人",
+          "description": "完成第 1 章"
+        },
+        "spanish": {
+          "name": "Hombre de familia",
+          "description": "Completa el acto 1"
+        },
+        "swedish": {
+          "name": "Familjen först",
+          "description": "Klara av den första akten."
+        },
+        "tchinese": {
+          "name": "顧家的男人",
+          "description": "完成第 1 章"
+        }
+      }
+    },
+    "WatchDogs_Ach_9": {
+      "translations": {
+        "brazilian": {
+          "name": "Quem é Raymond Kenney?",
+          "description": "Complete o Ato 2"
+        },
+        "danish": {
+          "name": "Hvem er Raymond Kenney?",
+          "description": "Gennemfør 2. akt"
+        },
+        "dutch": {
+          "name": "Wie is Raymond Kenney?",
+          "description": "Voltooi deel 2."
+        },
+        "english": {
+          "name": "Who Is Raymond Kenney?",
+          "description": "Complete Act 2"
+        },
+        "finnish": {
+          "name": "Kuka on Raymond Kenney?",
+          "description": "Suorita luku 2"
+        },
+        "french": {
+          "name": "Qui est Raymond Kenney ?",
+          "description": "Terminez l’Acte 2."
+        },
+        "german": {
+          "name": "Wer ist Raymond Kenney?",
+          "description": "Schließen Sie Akt 2 ab"
+        },
+        "italian": {
+          "name": "Chi è Raymond Kenney?",
+          "description": "Completa l'atto 2"
+        },
+        "japanese": {
+          "name": "レイモンド・ケニーとは何者か？",
+          "description": "Act 2をクリアする"
+        },
+        "koreana": {
+          "name": "레이몬드 케니는 누구?",
+          "description": "2막 완료"
+        },
+        "norwegian": {
+          "name": "Hvem er Raymond Kenney?",
+          "description": "Fullfør Akt 2"
+        },
+        "polish": {
+          "name": "Kim jest Raymond Kenney?",
+          "description": "Ukończ Akt 2"
+        },
+        "portuguese": {
+          "name": "Quem é Raymond Kenney?",
+          "description": "Completa o Ato 2"
+        },
+        "russian": {
+          "name": "Кто такой Рэймонд Кинни?",
+          "description": "Завершите часть 2."
+        },
+        "schinese": {
+          "name": "雷蒙德・肯尼是谁？",
+          "description": "完成第 2 章"
+        },
+        "spanish": {
+          "name": "¿Quién es Raymond Kenney?",
+          "description": "Completa el acto 2"
+        },
+        "swedish": {
+          "name": "Vem är Raymond Kenney?",
+          "description": "Klara av den andra akten."
+        },
+        "tchinese": {
+          "name": "雷蒙肯尼是誰？",
+          "description": "完成第 2 章"
+        }
+      }
+    },
+    "WatchDogs_Ach_10": {
+      "translations": {
+        "brazilian": {
+          "name": "Um Já Foi, Só Falta Um",
+          "description": "Complete o Ato 3"
+        },
+        "danish": {
+          "name": "Først den ene, så den anden",
+          "description": "Gennemfør 3. akt"
+        },
+        "dutch": {
+          "name": "Op de helft",
+          "description": "Voltooi deel 3."
+        },
+        "english": {
+          "name": "One Down, One to Go",
+          "description": "Complete Act 3"
+        },
+        "finnish": {
+          "name": "Yksi nurin, yksi jäljellä",
+          "description": "Suorita luku 3"
+        },
+        "french": {
+          "name": "Ça, c’est fait",
+          "description": "Terminez l’Acte 3."
+        },
+        "german": {
+          "name": "Einer erledigt, einer übrig",
+          "description": "Schließen Sie Akt 3 ab"
+        },
+        "italian": {
+          "name": "Meno uno, ancora uno",
+          "description": "Completa l'atto 3"
+        },
+        "japanese": {
+          "name": "1つ終わって、あともう1つ",
+          "description": "Act 3をクリアする"
+        },
+        "koreana": {
+          "name": "한 놈 잡고, 한 놈 더",
+          "description": "3막 완료"
+        },
+        "norwegian": {
+          "name": "Én nede, én igjen",
+          "description": "Fullfør Akt 3"
+        },
+        "polish": {
+          "name": "Jeden z głowy, został drugi",
+          "description": "Ukończ Akt 3"
+        },
+        "portuguese": {
+          "name": "Um Já Foi, Falta Outro",
+          "description": "Completa o Ato 3"
+        },
+        "russian": {
+          "name": "Между первой и второй",
+          "description": "Завершите часть 3."
+        },
+        "schinese": {
+          "name": "干掉一个，还有一个",
+          "description": "完成第 3 章"
+        },
+        "spanish": {
+          "name": "Uno menos, queda otro",
+          "description": "Completa el acto 3"
+        },
+        "swedish": {
+          "name": "Tredje gången gillt",
+          "description": "Klara av den tredje akten."
+        },
+        "tchinese": {
+          "name": "解決一個，還有另一個",
+          "description": "完成第 3 章"
+        }
+      }
+    },
+    "WatchDogs_Ach_11": {
+      "translations": {
+        "brazilian": {
+          "name": "Vingança",
+          "description": "Complete o Ato 4"
+        },
+        "danish": {
+          "name": "Hævn",
+          "description": "Gennemfør 4. akt"
+        },
+        "dutch": {
+          "name": "Wraak",
+          "description": "Voltooi deel 4."
+        },
+        "english": {
+          "name": "Vengeance",
+          "description": "Complete Act 4"
+        },
+        "finnish": {
+          "name": "Kosto",
+          "description": "Suorita luku 4"
+        },
+        "french": {
+          "name": "Vengeance",
+          "description": "Terminez l’Acte 4."
+        },
+        "german": {
+          "name": "Rache",
+          "description": "Schließen Sie Akt 4 ab"
+        },
+        "italian": {
+          "name": "Vendetta",
+          "description": "Completa l'atto 4"
+        },
+        "japanese": {
+          "name": "復讐",
+          "description": "Act 4をクリアする"
+        },
+        "koreana": {
+          "name": "복수",
+          "description": "4막 완료"
+        },
+        "norwegian": {
+          "name": "Hevn",
+          "description": "Fullfør Akt 4"
+        },
+        "polish": {
+          "name": "Odwet",
+          "description": "Ukończ Akt 4"
+        },
+        "portuguese": {
+          "name": "Vingança",
+          "description": "Completa o Ato 4"
+        },
+        "russian": {
+          "name": "Месть",
+          "description": "Завершите часть 4."
+        },
+        "schinese": {
+          "name": "复仇",
+          "description": "完成第 4 章"
+        },
+        "spanish": {
+          "name": "Venganza",
+          "description": "Completa el acto 4"
+        },
+        "swedish": {
+          "name": "Hämnd",
+          "description": "Klara av den fjärde akten."
+        },
+        "tchinese": {
+          "name": "復仇",
+          "description": "完成第 4 章"
+        }
+      }
+    },
+    "WatchDogs_Ach_12": {
+      "translations": {
+        "brazilian": {
+          "name": "Log Off",
+          "description": "Complete o Ato 5"
+        },
+        "danish": {
+          "name": "Log af",
+          "description": "Gennemfør 5. akt"
+        },
+        "dutch": {
+          "name": "Uitloggen",
+          "description": "Voltooi deel 5."
+        },
+        "english": {
+          "name": "Log Off",
+          "description": "Complete Act 5"
+        },
+        "finnish": {
+          "name": "Kirjaudu ulos",
+          "description": "Suorita luku 5"
+        },
+        "french": {
+          "name": "Déconnexion",
+          "description": "Terminez l’Acte 5."
+        },
+        "german": {
+          "name": "Ausloggen",
+          "description": "Schließen Sie Akt 5 ab"
+        },
+        "italian": {
+          "name": "Disconnessione",
+          "description": "Completa l'atto 5"
+        },
+        "japanese": {
+          "name": "ログオフ",
+          "description": "Act 5をクリアする"
+        },
+        "koreana": {
+          "name": "로그오프",
+          "description": "5막 완료"
+        },
+        "norwegian": {
+          "name": "Logg av",
+          "description": "Fullfør Akt 5"
+        },
+        "polish": {
+          "name": "Wylogowanie",
+          "description": "Ukończ Akt 5"
+        },
+        "portuguese": {
+          "name": "Terminar Sessão",
+          "description": "Completa o Ato 5"
+        },
+        "russian": {
+          "name": "Выход",
+          "description": "Завершите часть 5."
+        },
+        "schinese": {
+          "name": "下线",
+          "description": "完成第 5 章"
+        },
+        "spanish": {
+          "name": "Cerrar sesión",
+          "description": "Completa el acto 5"
+        },
+        "swedish": {
+          "name": "Logga ut",
+          "description": "Klara av den femte akten."
+        },
+        "tchinese": {
+          "name": "登出",
+          "description": "完成第 5 章"
+        }
+      }
+    },
+    "WatchDogs_Ach_13": {
+      "translations": {
+        "brazilian": {
+          "name": "Duro de Quebrar",
+          "description": "Realize 10 interceptações em veículos"
+        },
+        "danish": {
+          "name": "Hårdt sammenstød",
+          "description": "Udfør 10 nedlæggelser af køretøj"
+        },
+        "dutch": {
+          "name": "Zware botsing",
+          "description": "Voer 10 voertuigeliminaties uit."
+        },
+        "english": {
+          "name": "Hard Crash",
+          "description": "Perform 10 vehicle take downs"
+        },
+        "finnish": {
+          "name": "Kova rysäys",
+          "description": "Taltuta 10 kohdetta ajoneuvolla."
+        },
+        "french": {
+          "name": "L’écraseur",
+          "description": "Réalisez 10 éliminations de véhicule."
+        },
+        "german": {
+          "name": "Karambolage",
+          "description": "Führen Sie 10 Fahrzeug-Neutralisierungen durch"
+        },
+        "italian": {
+          "name": "Scontro pericoloso",
+          "description": "Esegui 10 neutralizzazioni di veicoli."
+        },
+        "japanese": {
+          "name": "激突",
+          "description": "車両テイクダウンを10回行う"
+        },
+        "koreana": {
+          "name": "과격한 충돌",
+          "description": "10대의 차량을 충돌로 제압"
+        },
+        "norwegian": {
+          "name": "Hard kollisjon",
+          "description": "Utfør 10 kjøretøy-nøytraliseringer"
+        },
+        "polish": {
+          "name": "Potężna kraksa",
+          "description": "Wykonaj 10 unieruchomień pojazdów"
+        },
+        "portuguese": {
+          "name": "Crash",
+          "description": "Efetua 10 neutralizações de veículos"
+        },
+        "russian": {
+          "name": "Металлолом",
+          "description": "Выведите из строя 10 машин."
+        },
+        "schinese": {
+          "name": "物理崩溃",
+          "description": "执行过 10 次车辆破坏"
+        },
+        "spanish": {
+          "name": "Volcado de memoria",
+          "description": "Realiza 10 destrucciones de vehículo"
+        },
+        "swedish": {
+          "name": "Till skroten",
+          "description": "Slå ut 10 fordon."
+        },
+        "tchinese": {
+          "name": "橫衝直撞",
+          "description": "執行過 10 次車輛破壞"
+        }
+      }
+    },
+    "WatchDogs_Ach_14": {
+      "translations": {
+        "brazilian": {
+          "name": "Falha na Comunicação",
+          "description": "Com métodos não-letais, impeça que 10 civis telefonem para denunciar você"
+        },
+        "danish": {
+          "name": "Kommunikationsbrist",
+          "description": "Afhold ti borgere fra at ringe og anmelde dig ved at bruge ikke-dræbende nedlæggelse"
+        },
+        "dutch": {
+          "name": "Communicatie van likmevestje",
+          "description": "Voorkom met niet-dodelijke eliminaties dat 10 burgers je telefonisch aangeven."
+        },
+        "english": {
+          "name": "Communication Fail",
+          "description": "Using non-lethal takedown, stop 10 civilians from calling to report you"
+        },
+        "finnish": {
+          "name": "Yhteysvirhe",
+          "description": "Estä 10 siviiliä tekemästä sinusta ilmiantoa käyttämällä ei-kuolettavaa taltutusta"
+        },
+        "french": {
+          "name": "Problème de communication",
+          "description": "Empêchez 10 civils de vous dénoncer avec des neutralisations non létales."
+        },
+        "german": {
+          "name": "Kommunikationsfehler",
+          "description": "Halten Sie 10 Zivilisten mit nicht-tödlichen Takedowns davon ab, Sie der Polizei zu melden"
+        },
+        "italian": {
+          "name": "Corto circuito comunicativo",
+          "description": "Impedisci a 10 civili di denunciarti usando neutralizzazioni non letali"
+        },
+        "japanese": {
+          "name": "通信トラブル",
+          "description": "殺害せずに市民の通報を10回阻止する"
+        },
+        "koreana": {
+          "name": "통신 불량",
+          "description": "과격하지 않은 방법으로 10명의 시민이 911에 신고하는 것을 차단"
+        },
+        "norwegian": {
+          "name": "Kommunikasjonssvikt",
+          "description": "Hindre 10 sivile i å ringe for å anmelde deg ved hjelp av ikke-dødelige nøytraliseringer"
+        },
+        "polish": {
+          "name": "Awaria komunikacji",
+          "description": "Powstrzymaj (nie zabijając) 10 cywilów przed doniesieniem na ciebie"
+        },
+        "portuguese": {
+          "name": "Falha de Comunicação",
+          "description": "Impede que 10 civis te denunciem com incapacitações não letais"
+        },
+        "russian": {
+          "name": "Ошибка связи",
+          "description": "Не дайте 10 горожанам позвонить в полицию, никого не убивая"
+        },
+        "schinese": {
+          "name": "通讯中断",
+          "description": "使用非致命撂倒，阻止 10 名市民拨通报警电话"
+        },
+        "spanish": {
+          "name": "Fallo de comunicación",
+          "description": "Usa una incapacitación no letal para impedir que 10 civiles llamen para informar sobre ti"
+        },
+        "swedish": {
+          "name": "Kommunikationsbrott",
+          "description": "Hindra 10 civila från att rapportera dig utan att använda dödligt våld."
+        },
+        "tchinese": {
+          "name": "通聯失敗",
+          "description": "使用非致命的撂倒方式，阻止 10 位平民打電話舉報你"
+        }
+      }
+    },
+    "WatchDogs_Ach_15": {
+      "translations": {
+        "brazilian": {
+          "name": "Marcado",
+          "description": "Marque 100 inimigos"
+        },
+        "danish": {
+          "name": "Stemplet",
+          "description": "Markér 100 fjender"
+        },
+        "dutch": {
+          "name": "Bookmarked",
+          "description": "Markeer 100 vijanden."
+        },
+        "english": {
+          "name": "Bookmarked",
+          "description": "Tag 100 enemies"
+        },
+        "finnish": {
+          "name": "Kirjanmerkitty",
+          "description": "Merkkaa 100 vihollista"
+        },
+        "french": {
+          "name": "Repérage",
+          "description": "Marquez 100 ennemis."
+        },
+        "german": {
+          "name": "Profiliert",
+          "description": "100 Gegner markieren"
+        },
+        "italian": {
+          "name": "Me lo segno",
+          "description": "Marca 100 nemici"
+        },
+        "japanese": {
+          "name": "ブックマーク",
+          "description": "敵100人にタグ付けする"
+        },
+        "koreana": {
+          "name": "책갈피",
+          "description": "100명의 적 인식표 수집"
+        },
+        "norwegian": {
+          "name": "Stemplet",
+          "description": "Merk 100 fiender"
+        },
+        "polish": {
+          "name": "Zaznaczony",
+          "description": "Oznacz 100 wrogów"
+        },
+        "portuguese": {
+          "name": "Favoritos",
+          "description": "Marca 100 inimigos"
+        },
+        "russian": {
+          "name": "Закладки",
+          "description": "Отметьте 100 врагов"
+        },
+        "schinese": {
+          "name": "加入书签",
+          "description": "标记 100 名敌人"
+        },
+        "spanish": {
+          "name": "A los marcadores",
+          "description": "Marca a 100 enemigos"
+        },
+        "swedish": {
+          "name": "Bokmärkt",
+          "description": "Tagga 100 fiender."
+        },
+        "tchinese": {
+          "name": "標記",
+          "description": "標記 100 名敵人"
+        }
+      }
+    },
+    "WatchDogs_Ach_16": {
+      "translations": {
+        "brazilian": {
+          "name": "Ciclo de Poder",
+          "description": "Participe de 5 diferentes Jogos da Cidade"
+        },
+        "danish": {
+          "name": "Kraftcyklus",
+          "description": "Deltag i 5 forskellige byspil"
+        },
+        "dutch": {
+          "name": "Ontspanning op zijn tijd",
+          "description": "Neem deel aan 5 verschillende stadsspellen."
+        },
+        "english": {
+          "name": "Power Cycle",
+          "description": "Participate in 5 different City Games"
+        },
+        "finnish": {
+          "name": "Voimakierros",
+          "description": "Osallistu 5 eri kaupunkipeliin"
+        },
+        "french": {
+          "name": "Remise sous tension",
+          "description": "Jouez à 5 jeux urbains différents."
+        },
+        "german": {
+          "name": "Ein- und abschalten",
+          "description": "Nehmen Sie an 5 verschiedenen City-Games teil"
+        },
+        "italian": {
+          "name": "Spegni e accendi",
+          "description": "Partecipa a 5 diversi giochi in città"
+        },
+        "japanese": {
+          "name": "パワーサイクル",
+          "description": "5種類のシティゲームに参加する"
+        },
+        "koreana": {
+          "name": "전력 순환",
+          "description": "서로 다른 5개 시티 게임에 참여"
+        },
+        "norwegian": {
+          "name": "Maktbalanse",
+          "description": "Delta i 5 ulike byspill"
+        },
+        "polish": {
+          "name": "Hazardzista",
+          "description": "Weź udział w 5 różnych grach miejskich"
+        },
+        "portuguese": {
+          "name": "Energia em Fluxo",
+          "description": "Participa em 5 Jogos da Cidade diferentes"
+        },
+        "russian": {
+          "name": "Игромания",
+          "description": "Поучаствуйте в 5 разных мини-играх"
+        },
+        "schinese": {
+          "name": "电力重启",
+          "description": "参与 5 种不同的城市小游戏"
+        },
+        "spanish": {
+          "name": "Ciclo de arranque",
+          "description": "Participa en 5 juegos de la ciudad diferentes"
+        },
+        "swedish": {
+          "name": "Spel i spelet",
+          "description": "Delta i 5 olika stadsspel."
+        },
+        "tchinese": {
+          "name": "動力循環",
+          "description": "參加 5 種不同的城市小遊戲"
+        }
+      }
+    },
+    "WatchDogs_Ach_17": {
+      "translations": {
+        "brazilian": {
+          "name": "Fumaça Mágica",
+          "description": "Mate 4 inimigos com uma única instância de Foco"
+        },
+        "danish": {
+          "name": "Magisk røg",
+          "description": "Dræb 4 fjender under en enkelt brug af fokus"
+        },
+        "dutch": {
+          "name": "Het lijkt wel magie",
+          "description": "Dood 4 vijanden met 1 Focus."
+        },
+        "english": {
+          "name": "Magic Smoke",
+          "description": "Kill 4 enemies within a single instance of Focus"
+        },
+        "finnish": {
+          "name": "Taikasavua",
+          "description": "Tapa 4 vihollista yhdellä Fokus-kerralla"
+        },
+        "french": {
+          "name": "Fumée magique",
+          "description": "Tuez 4 ennemis avec une seule utilisation du Focus."
+        },
+        "german": {
+          "name": "Magischer Rauch",
+          "description": "Töten Sie 4 Gegner bei einem einzigen Einsatz von Fokus"
+        },
+        "italian": {
+          "name": "Fumo magico",
+          "description": "Uccidi 4 nemici con una sola concentrazione"
+        },
+        "japanese": {
+          "name": "魔法の煙",
+          "description": "1回のフォーカスで敵を4人倒す"
+        },
+        "koreana": {
+          "name": "마법의 연기",
+          "description": "포커스를 사용하여 한 번에 4명의 적 처치"
+        },
+        "norwegian": {
+          "name": "Magisk røyk",
+          "description": "Drep 4 fiender innenfor ett enkelt fokus"
+        },
+        "polish": {
+          "name": "Magiczny dym",
+          "description": "Zabij 4 wrogów, używając jednej koncentracji"
+        },
+        "portuguese": {
+          "name": "Fumo Mágico",
+          "description": "Mata 4 inimigos com uma única utilização do Foco"
+        },
+        "russian": {
+          "name": "Волшебный дым",
+          "description": "Убейте 4 врагов, не прерывая концентрации"
+        },
+        "schinese": {
+          "name": "魔法烟雾",
+          "description": "单次开启专注模式期间击杀 4 名敌人"
+        },
+        "spanish": {
+          "name": "Humo mágico",
+          "description": "Mata a 4 enemigos con un solo uso de concentración"
+        },
+        "swedish": {
+          "name": "Fantastiskt fokus",
+          "description": "Döda fyra fiender vid ett och samma fokustillfälle."
+        },
+        "tchinese": {
+          "name": "魔幻煙霧",
+          "description": "在單次使用專注力期間殺掉 4 名敵人"
+        }
+      }
+    },
+    "WatchDogs_Ach_18": {
+      "translations": {
+        "brazilian": {
+          "name": "Loop de Fuga",
+          "description": "Fuja de 15 perseguições policiais"
+        },
+        "danish": {
+          "name": "Flugtloop",
+          "description": "Undslip 15 politijagter"
+        },
+        "dutch": {
+          "name": "Ontsnappingskunstenaar",
+          "description": "Ontsnap 15 keer aan een politieachtervolging."
+        },
+        "english": {
+          "name": "Escape Loop",
+          "description": "Escape 15 police chases"
+        },
+        "finnish": {
+          "name": "Karkulainen",
+          "description": "Pakene poliisin takaa-ajoa 15 kertaa"
+        },
+        "french": {
+          "name": "Papillon",
+          "description": "Échappez à 15 poursuites policières."
+        },
+        "german": {
+          "name": "Fluchtfahrt",
+          "description": "Entkommen Sie 15 Polizeiverfolgungen"
+        },
+        "italian": {
+          "name": "In fuga",
+          "description": "Sfuggi alla polizia in 15 inseguimenti"
+        },
+        "japanese": {
+          "name": "ループ脱出",
+          "description": "警察の追跡を15回振り切る"
+        },
+        "koreana": {
+          "name": "탈출로",
+          "description": "경찰 추적을 15회 회피"
+        },
+        "norwegian": {
+          "name": "Rømling",
+          "description": "Unnslipp 15 politijakter"
+        },
+        "polish": {
+          "name": "Spirala ucieczek",
+          "description": "Ucieknij przed 15 pościgami policyjnymi"
+        },
+        "portuguese": {
+          "name": "Fuga em Frente",
+          "description": "Escapa a 15 perseguições policiais"
+        },
+        "russian": {
+          "name": "Гудини",
+          "description": "Уйдите от полицейской погони 15 раз"
+        },
+        "schinese": {
+          "name": "跳出循环",
+          "description": "成功摆脱 15 次警方追捕"
+        },
+        "spanish": {
+          "name": "Bucle de salida",
+          "description": "Escapa de 15 persecuciones policiales"
+        },
+        "swedish": {
+          "name": "Flyktig",
+          "description": "Fly från 15 polisjakter."
+        },
+        "tchinese": {
+          "name": "逃脫輪迴",
+          "description": "逃離 15 次警方追捕"
+        }
+      }
+    },
+    "WatchDogs_Ach_19": {
+      "translations": {
+        "brazilian": {
+          "name": "Radical Livre",
+          "description": "Fuja de uma perseguição policial de nível 5"
+        },
+        "danish": {
+          "name": "Fri og radikal",
+          "description": "Undslip en politijagt på niveau 5"
+        },
+        "dutch": {
+          "name": "Radicaal",
+          "description": "Ontsnap aan een politieachtervolging van niveau 5."
+        },
+        "english": {
+          "name": "Free Radical",
+          "description": "Escape a level 5 police chase"
+        },
+        "finnish": {
+          "name": "Vapaa radikaali",
+          "description": "Pakene poliisin takaa-ajoa tasolla 5"
+        },
+        "french": {
+          "name": "Radical libre",
+          "description": "Échappez à une poursuite policière de niveau 5."
+        },
+        "german": {
+          "name": "Freies Radikal",
+          "description": "Entkommen Sie einer Polizeiverfolgung der Stufe 5"
+        },
+        "italian": {
+          "name": "Radicale libero",
+          "description": "Sfuggi alla polizia in un inseguimento di livello 5"
+        },
+        "japanese": {
+          "name": "フリーラジカル",
+          "description": "警察の追跡(レベル5)を振り切る"
+        },
+        "koreana": {
+          "name": "다람쥐",
+          "description": "레벨 5의 경찰 추적 회피"
+        },
+        "norwegian": {
+          "name": "Fri radikal",
+          "description": "Unnslipp en politijakt på nivå 5"
+        },
+        "polish": {
+          "name": "Wolny radykał",
+          "description": "Ucieknij przed pościgiem policyjnym poziomu 5"
+        },
+        "portuguese": {
+          "name": "Radical Livre",
+          "description": "Escapa a uma perseguição policial de nível 5"
+        },
+        "russian": {
+          "name": "Свободный радикал",
+          "description": "Уйдите от полицейской погони 5 уровня"
+        },
+        "schinese": {
+          "name": "自由基",
+          "description": "成功摆脱一次警方五级追捕"
+        },
+        "spanish": {
+          "name": "Radical libre",
+          "description": "Escapa de una persecución policial de nivel 5"
+        },
+        "swedish": {
+          "name": "Nu blåser vi snuten",
+          "description": "Fly från en nivå 5-polisjakt."
+        },
+        "tchinese": {
+          "name": "游離基",
+          "description": "逃離第 5 級警方追捕"
+        }
+      }
+    },
+    "WatchDogs_Ach_20": {
+      "translations": {
+        "brazilian": {
+          "name": "O Coelho Branco",
+          "description": "Fuja de 15 varreduras policiais"
+        },
+        "danish": {
+          "name": "Hvid kanin-objekt",
+          "description": "Undslip 15 politiscanninger"
+        },
+        "dutch": {
+          "name": "Het witte konijn",
+          "description": "Ontsnap 15 keer aan een politiescan."
+        },
+        "english": {
+          "name": "White Rabbit Object",
+          "description": "Escape 15 police scans"
+        },
+        "finnish": {
+          "name": "Valkoinen kani",
+          "description": "Pakene poliisin skannausta 15 kertaa"
+        },
+        "french": {
+          "name": "Lapin blanc",
+          "description": "Échappez à 15 contrôles policiers."
+        },
+        "german": {
+          "name": "Objekt: weißer Hase",
+          "description": "Entkommen Sie 15 Polizei-Scans"
+        },
+        "italian": {
+          "name": "Bianconiglio",
+          "description": "Sfuggi alla polizia in 15 scansioni"
+        },
+        "japanese": {
+          "name": "白ウサギのオブジェクト",
+          "description": "警察スキャンを15回かわす"
+        },
+        "koreana": {
+          "name": "도망자",
+          "description": "경찰 스캔을 15회 회피"
+        },
+        "norwegian": {
+          "name": "Hvit kanin",
+          "description": "Unnslipp 15 politisøk"
+        },
+        "polish": {
+          "name": "Biały królik",
+          "description": "Ucieknij przed 15 skanami policyjnymi"
+        },
+        "portuguese": {
+          "name": "Coelho Branco",
+          "description": "Escapa a 15 scans da polícia"
+        },
+        "russian": {
+          "name": "Объект \"Белый кролик\"",
+          "description": "Ускользните от 15 полицейских сканеров"
+        },
+        "schinese": {
+          "name": "白兔后门",
+          "description": "成功逃脱 15 次警方扫描"
+        },
+        "spanish": {
+          "name": "Objeto conejo blanco",
+          "description": "Escapa de 15 radares policiales"
+        },
+        "swedish": {
+          "name": "Skaningslös",
+          "description": "Fly undan 15 polisskanningar."
+        },
+        "tchinese": {
+          "name": "白兔物件",
+          "description": "逃離 15 次警方掃瞄"
+        }
+      }
+    },
+    "WatchDogs_Ach_21": {
+      "translations": {
+        "brazilian": {
+          "name": "À Prova de Varreduras",
+          "description": "Fuja de uma varredura policial de nível 5"
+        },
+        "danish": {
+          "name": "Scansikker",
+          "description": "Undslip en politiscanning på niveau 5"
+        },
+        "dutch": {
+          "name": "Scanbestendig",
+          "description": "Ontsnap aan een politiescan van niveau 5."
+        },
+        "english": {
+          "name": "Scanproof",
+          "description": "Escape a level 5 police scan"
+        },
+        "finnish": {
+          "name": "Skannaamaton",
+          "description": "Pakene poliisin skannausta tasolla 5"
+        },
+        "french": {
+          "name": "Indétectable",
+          "description": "Échappez à un contrôle policier de niveau 5."
+        },
+        "german": {
+          "name": "Unverscanbar",
+          "description": "Entkommen Sie einem Polizei-Scan der Stufe 5"
+        },
+        "italian": {
+          "name": "A prova di scansione",
+          "description": "Sfuggi alla polizia in una scansione di livello 5"
+        },
+        "japanese": {
+          "name": "スキャン防止",
+          "description": "警察スキャン(レベル5)をかわす"
+        },
+        "koreana": {
+          "name": "검문 검색",
+          "description": "레벨 5의 경찰 스캔 회피"
+        },
+        "norwegian": {
+          "name": "Søksikker",
+          "description": "Unnslipp et politisøk på nivå 5"
+        },
+        "polish": {
+          "name": "Odporny na skan",
+          "description": "Ucieknij przed skanem policyjnym poziomu 5"
+        },
+        "portuguese": {
+          "name": "À Prova de Scan",
+          "description": "Escapa a um scan da polícia de nível 5"
+        },
+        "russian": {
+          "name": "Невидимка",
+          "description": "Ускользните от полицейского сканера 5 уровня"
+        },
+        "schinese": {
+          "name": "无法扫描",
+          "description": "成功逃脱一次警方五级扫描"
+        },
+        "spanish": {
+          "name": "A prueba de radares",
+          "description": "Escapa de un radar policial de nivel 5"
+        },
+        "swedish": {
+          "name": "Skanndalöst",
+          "description": "Fly från en nivå 5-polisskanning."
+        },
+        "tchinese": {
+          "name": "無法掃瞄",
+          "description": "逃離第 5 級警方掃瞄"
+        }
+      }
+    },
+    "WatchDogs_Ach_22": {
+      "translations": {
+        "brazilian": {
+          "name": "Falha no Hardware",
+          "description": "Atire em um pneu de 15 veículos diferentes"
+        },
+        "danish": {
+          "name": "Hardwarefejl",
+          "description": "Skyd dæk i stykker på 15 forskellige biler"
+        },
+        "dutch": {
+          "name": "De banden verbreken",
+          "description": "Schiet van 15 verschillende auto's een band kapot."
+        },
+        "english": {
+          "name": "Hardware Fail",
+          "description": "Shoot out a tire on 15 different vehicles"
+        },
+        "finnish": {
+          "name": "Laitteistovirhe",
+          "description": "Ammu rengas 15 eri ajoneuvosta"
+        },
+        "french": {
+          "name": "Tombé à plat",
+          "description": "Faites éclater un pneu sur 15 véhicules différents."
+        },
+        "german": {
+          "name": "Hardwarefehler",
+          "description": "Schießen Sie an 15 verschiedenen Fahrzeugen einen Reifen platt"
+        },
+        "italian": {
+          "name": "Hardware bucato",
+          "description": "Spara a una gomma su 15 veicoli diversi"
+        },
+        "japanese": {
+          "name": "ハードウェアのトラブル",
+          "description": "15台の異なる車両のタイヤを撃つ"
+        },
+        "koreana": {
+          "name": "타이어 연쇄 킬러",
+          "description": "차량 15대의 타이어 사격"
+        },
+        "norwegian": {
+          "name": "Dekksgutt",
+          "description": "Skyt i stykker et dekk på 15 ulike kjøretøyer"
+        },
+        "polish": {
+          "name": "Awaria sprzętowa",
+          "description": "Przestrzel opony w 15 różnych pojazdach."
+        },
+        "portuguese": {
+          "name": "Falha do Hardware",
+          "description": "Dispara aos pneus de 15 veículos diferentes"
+        },
+        "russian": {
+          "name": "Сбой оборудования",
+          "description": "Прострелить шины 15 транспортных средств."
+        },
+        "schinese": {
+          "name": "硬件故障",
+          "description": "射爆 15 台不同车辆的轮胎"
+        },
+        "spanish": {
+          "name": "Fallo de hardware",
+          "description": "Revienta una rueda de 15 vehículos distintos a tiros"
+        },
+        "swedish": {
+          "name": "Punka-re",
+          "description": "Skjut sönder ett däck på 15 olika fordon."
+        },
+        "tchinese": {
+          "name": "硬體出錯",
+          "description": "射破 15 輛不同車的車胎。"
+        }
+      }
+    },
+    "WatchDogs_Ach_23": {
+      "translations": {
+        "brazilian": {
+          "name": "Truque da Cartola",
+          "description": "Mate 3 inimigos com um único explosivo"
+        },
+        "danish": {
+          "name": "Sort hattrick",
+          "description": "Dræb 3 fjender med et enkelt IED"
+        },
+        "dutch": {
+          "name": "Knalfuif",
+          "description": "Dood 3 vijanden met 1 geïmproviseerd explosief."
+        },
+        "english": {
+          "name": "Black Hat Trick",
+          "description": "Kill 3 enemies with a single IED"
+        },
+        "finnish": {
+          "name": "Hattutemppu",
+          "description": "Tapa 3 vihollista yhdellä OTR:llä"
+        },
+        "french": {
+          "name": "Le Black Hat frappe encore",
+          "description": "Tuez 3 ennemis avec un seul EEI."
+        },
+        "german": {
+          "name": "Black-Hat-Trick",
+          "description": "Töten Sie 3 Gegner mit einer einzelnen USV"
+        },
+        "italian": {
+          "name": "Tripletta hacker",
+          "description": "Uccidi 3 nemici con un solo IED"
+        },
+        "japanese": {
+          "name": "ブラック・ハットトリック",
+          "description": "粘着爆弾1つで敵3人を倒す"
+        },
+        "koreana": {
+          "name": "해커의 묘책",
+          "description": "근접폭발장치 1개로 적 3명 처치"
+        },
+        "norwegian": {
+          "name": "Svart hat-trick",
+          "description": "Drep 3 fiender med samme improviserte bombe"
+        },
+        "polish": {
+          "name": "Niezła sztuczka",
+          "description": "Zabij 3 wrogów pojedynczym ajdikiem"
+        },
+        "portuguese": {
+          "name": "Truques Sujos",
+          "description": "Mata 3 inimigos com um único EEI"
+        },
+        "russian": {
+          "name": "Взрывной хет-трик",
+          "description": "Убейте 3 врагов одним СВУ"
+        },
+        "schinese": {
+          "name": "黑帽戏法",
+          "description": "使用一颗土制炸弹一次性击杀三名敌人"
+        },
+        "spanish": {
+          "name": "Triplete letal",
+          "description": "Mata a 3 enemigos con un solo explosivo"
+        },
+        "swedish": {
+          "name": "Tänt var det här",
+          "description": "Döda tre fiender samtidigt med ett improviserat sprängmedel."
+        },
+        "tchinese": {
+          "name": "黑暗帽子戲法",
+          "description": "用一顆土製炸藥炸死 3 名敵人"
+        }
+      }
+    },
+    "WatchDogs_Ach_24": {
+      "translations": {
+        "brazilian": {
+          "name": "Revogando Privilégios do Cliente",
+          "description": "Complete a missão final na Investigação de Tráfico de Pessoas"
+        },
+        "danish": {
+          "name": "Tilbagekalder klienters fordele",
+          "description": "Gennemfør den sidste mission i Efterforskning: Trafficking"
+        },
+        "dutch": {
+          "name": "De klant is geen koning",
+          "description": "Voltooi de laatste missie van het onderzoek naar mensenhandel."
+        },
+        "english": {
+          "name": "Revoking Client Privileges",
+          "description": "Complete the final mission in the Human Traffic Investigation"
+        },
+        "finnish": {
+          "name": "Asiakasetuuksien peruuttaminen",
+          "description": "Suorita Ihmiskauppa-tutkimuksen viimeinen tehtävä"
+        },
+        "french": {
+          "name": "Abolition des privilèges",
+          "description": "Terminez la dernière mission de l’enquête Trafic d’êtres humains."
+        },
+        "german": {
+          "name": "Aufhebung der Kundenrechte",
+          "description": "Beenden Sie die letzte Mission bei der Untersuchung des Menschenhandels"
+        },
+        "italian": {
+          "name": "Il cliente non ha sempre ragione",
+          "description": "Completa l'ultima missione dell'indagine sul traffico di umani"
+        },
+        "japanese": {
+          "name": "特権はく奪",
+          "description": "「人身売買」調査で最後のミッションをクリアする"
+        },
+        "koreana": {
+          "name": "클라이언트 권한 취소",
+          "description": "인신매매 조사의 마지막 미션 완료"
+        },
+        "norwegian": {
+          "name": "Klientrettighetene trekkes tilbake",
+          "description": "Fullfør det siste oppdraget i etterforskningen av menneskehandel"
+        },
+        "polish": {
+          "name": "Unieważnienie praw klienta",
+          "description": "Ukończ finalną misję w śledztwie dotyczącym handlu ludźmi"
+        },
+        "portuguese": {
+          "name": "Privilégios de Cliente Revogados",
+          "description": "Completa a missão final na Investigação de Tráfico Humano"
+        },
+        "russian": {
+          "name": "Аннулирование клиентских прав",
+          "description": "Выполните последнее задание расследования \"Работорговля\""
+        },
+        "schinese": {
+          "name": "撤销客户端权限",
+          "description": "完成人口贩卖调查支线的最终任务"
+        },
+        "spanish": {
+          "name": "Retirando privilegios de cliente",
+          "description": "Completa la misión final de la investigación sobre tráfico de personas"
+        },
+        "swedish": {
+          "name": "Köttmarknad",
+          "description": "Klara av det sista uppdraget i utredningen gällande människosmuggling."
+        },
+        "tchinese": {
+          "name": "撤銷客戶端權限",
+          "description": "完成販賣人口調查的最後任務"
+        }
+      }
+    },
+    "WatchDogs_Ach_25": {
+      "translations": {
+        "brazilian": {
+          "name": "Especial de Sábado à Noite",
+          "description": "Complete a missão final na Investigação de Comércio de Armas"
+        },
+        "danish": {
+          "name": "Lørdag aftens særudgave",
+          "description": "Gennemfør den sidste mission i Efterforskning: Våbenhandel"
+        },
+        "dutch": {
+          "name": "Een speciale zaterdagavond",
+          "description": "Voltooi de laatste missie van het onderzoek naar wapenhandel."
+        },
+        "english": {
+          "name": "Saturday Night Special",
+          "description": "Complete the final mission in the Weapons Trade Investigation"
+        },
+        "finnish": {
+          "name": "Lauantai-illan erikoinen",
+          "description": "Suorita Asekauppa-tutkimuksen viimeinen tehtävä"
+        },
+        "french": {
+          "name": "Amateur de pétoires",
+          "description": "Terminez la dernière mission de l’enquête Trafic d’armes."
+        },
+        "german": {
+          "name": "Saturday Night Special",
+          "description": "Beenden Sie die letzte Mission bei der Untersuchung des Waffenhandels"
+        },
+        "italian": {
+          "name": "L'arma del sabato sera",
+          "description": "Completa l'ultima missione dell'indagine sul traffico d'armi"
+        },
+        "japanese": {
+          "name": "サタデー・ナイト・スペシャル",
+          "description": "「武器取引」調査で最後のミッションをクリアする"
+        },
+        "koreana": {
+          "name": "특별한 토요일 밤",
+          "description": "무기 거래 조사의 마지막 미션 완료"
+        },
+        "norwegian": {
+          "name": "Lørdagsspesial",
+          "description": "Fullfør siste oppdrag i etterforskningen av våpenhandel"
+        },
+        "polish": {
+          "name": "Tylko w sobotnią noc",
+          "description": "Ukończ finalną misję w śledztwie dotyczącym handlu bronią"
+        },
+        "portuguese": {
+          "name": "Febre de Sábado à Noite",
+          "description": "Completa a missão final na Investigação de Comércio de Armas"
+        },
+        "russian": {
+          "name": "Субботнее шоу",
+          "description": "Выполните последнее задание расследования \"Рынок оружия\""
+        },
+        "schinese": {
+          "name": "廉价黑枪",
+          "description": "完成军火交易调查支线的最终任务"
+        },
+        "spanish": {
+          "name": "Especial de sábado noche",
+          "description": "Completa la misión final de la investigación sobre comercio de armas"
+        },
+        "swedish": {
+          "name": "Dödligt vapen",
+          "description": "Klara av det sista uppdraget i utredningen gällande vapenhandel."
+        },
+        "tchinese": {
+          "name": "週末夜特務",
+          "description": "完成軍火交易調查的最後任務"
+        }
+      }
+    },
+    "WatchDogs_Ach_26": {
+      "translations": {
+        "brazilian": {
+          "name": "Teste de Sanidade",
+          "description": "Colete os 8 Telefones Descartáveis"
+        },
+        "danish": {
+          "name": "Forstandighedsundersøgelse",
+          "description": "Indsaml alle otte engangstelefoner"
+        },
+        "dutch": {
+          "name": "Getikt of niet?",
+          "description": "Verzamel alle 8 wegwerptelefoons."
+        },
+        "english": {
+          "name": "Sanity Check",
+          "description": "Collect all 8 Burner Phones"
+        },
+        "finnish": {
+          "name": "Mielenterveystutkimus",
+          "description": "Etsi kaikki 8 väliaikaista puhelinta"
+        },
+        "french": {
+          "name": "Garde-fous",
+          "description": "Récupérez les 8 téléphones jetables."
+        },
+        "german": {
+          "name": "Milieugeschädigt",
+          "description": "Sammeln Sie alle 8 Wegwerf-Telefone"
+        },
+        "italian": {
+          "name": "Test d'integrità",
+          "description": "Ottieni gli 8 telefoni usa e getta"
+        },
+        "japanese": {
+          "name": "健全性チェック",
+          "description": "8個の使い捨て携帯を全て集める"
+        },
+        "koreana": {
+          "name": "건전성 검증",
+          "description": "대포폰 8대 수집"
+        },
+        "norwegian": {
+          "name": "Familien først",
+          "description": "Finn alle de 8 bruk og kast-telefonene"
+        },
+        "polish": {
+          "name": "Test na normalność",
+          "description": "Zbierz wszystkie 8 telefonów na kartę"
+        },
+        "portuguese": {
+          "name": "Mente Sã",
+          "description": "Recolhe os 8 Telemóveis Descartáveis"
+        },
+        "russian": {
+          "name": "Проверка рассудка",
+          "description": "Соберите все 8 одноразовых телефонов"
+        },
+        "schinese": {
+          "name": "逻辑校验",
+          "description": "收集全部 8 部一次性匿名手机"
+        },
+        "spanish": {
+          "name": "Comprobación de integridad",
+          "description": "Obtén los 8 móviles desechables"
+        },
+        "swedish": {
+          "name": "Släktforskning",
+          "description": "Hitta alla 8 engångstelefoner."
+        },
+        "tchinese": {
+          "name": "心智檢查",
+          "description": "收集完 8 支拋棄式手機"
+        }
+      }
+    },
+    "WatchDogs_Ach_27": {
+      "translations": {
+        "brazilian": {
+          "name": "Somente Leitura",
+          "description": "Complete a missão final na Investigação de Código QR"
+        },
+        "danish": {
+          "name": "Kun til læsning",
+          "description": "Gennemfør den sidste mission i Efterforskning: QR-kode"
+        },
+        "dutch": {
+          "name": "Alleen lezen",
+          "description": "Voltooi de laatste missie van het onderzoek naar QR-codes."
+        },
+        "english": {
+          "name": "Read-only",
+          "description": "Complete the final mission in the QR Code Investigation"
+        },
+        "finnish": {
+          "name": "Vain luku",
+          "description": "Suorita QR-koodi-tutkimuksen viimeinen tehtävä"
+        },
+        "french": {
+          "name": "Lecture seule",
+          "description": "Terminez la dernière mission de l’enquête Codes QR."
+        },
+        "german": {
+          "name": "Nur Lesezugriff",
+          "description": "Beenden Sie die letzte Mission bei der QR-Code-Untersuchung"
+        },
+        "italian": {
+          "name": "Sola lettura",
+          "description": "Completa l'ultima missione dell'indagine sui codici QR"
+        },
+        "japanese": {
+          "name": "読み取り専用",
+          "description": "「QRコード」調査で最後のミッションをクリアする"
+        },
+        "koreana": {
+          "name": "읽기 전용",
+          "description": "QR 코드 조사의 마지막 미션 완료"
+        },
+        "norwegian": {
+          "name": "Skrivebeskyttet",
+          "description": "Fullfør siste oppdrag i QR-kodeetterforskningen"
+        },
+        "polish": {
+          "name": "Tylko do odczytu",
+          "description": "Ukończ finalną misję w śledztwie dotyczącym kodów QR"
+        },
+        "portuguese": {
+          "name": "Só de Leitura",
+          "description": "Completa a missão final na Investigação de Código QR"
+        },
+        "russian": {
+          "name": "Только для чтения",
+          "description": "Выполните последнее задание расследования \"QR-коды\""
+        },
+        "schinese": {
+          "name": "只读权限",
+          "description": "完成二维码线索调查支线的最终任务"
+        },
+        "spanish": {
+          "name": "Solo lectura",
+          "description": "Completa la misión final de la investigación de códigos QR"
+        },
+        "swedish": {
+          "name": "Skrivskyddad",
+          "description": "Klara av det sista uppdraget i utredningen gällande QR-koder."
+        },
+        "tchinese": {
+          "name": "僅限讀取",
+          "description": "完成 QR 碼調查的最後任務"
+        }
+      }
+    },
+    "WatchDogs_Ach_28": {
+      "translations": {
+        "brazilian": {
+          "name": "A Escuridão se Aproxima",
+          "description": "Complete a missão final na Investigação de Pessoas Desaparecidas"
+        },
+        "danish": {
+          "name": "Mørket truer",
+          "description": "Gennemfør den sidste mission i Efterforskning: Savnede personer"
+        },
+        "dutch": {
+          "name": "Dreigende duisternis",
+          "description": "Voltooi de laatste missie van het onderzoek naar vermiste personen."
+        },
+        "english": {
+          "name": "Darkness Looms",
+          "description": "Complete the final mission of the Missing Persons Investigation"
+        },
+        "finnish": {
+          "name": "Pimeys uhkaa",
+          "description": "Suorita Kadonneet henkilöt -tutkimuksen viimeinen tehtävä"
+        },
+        "french": {
+          "name": "La noirceur de l’âme",
+          "description": "Terminez la dernière mission de l’enquête Portées disparues."
+        },
+        "german": {
+          "name": "Die Finsternis lauert",
+          "description": "Beenden Sie die letzte Mission bei der Untersuchung der vermissten Personen"
+        },
+        "italian": {
+          "name": "L'oscurità che incombe",
+          "description": "Completa l'ultima missione dell'indagine sulle persone scomparse"
+        },
+        "japanese": {
+          "name": "不気味な闇",
+          "description": "「行方不明者」調査で最後のミッションをクリアする"
+        },
+        "koreana": {
+          "name": "드러난 어둠",
+          "description": "실종자 조사의 마지막 미션 완료"
+        },
+        "norwegian": {
+          "name": "Mørket truer",
+          "description": "Fullfør siste oppdrag i etterforskningen av savnede personer"
+        },
+        "polish": {
+          "name": "Nadciąga ciemność",
+          "description": "Ukończ finalną misję w śledztwie dotyczącym zaginionych osób"
+        },
+        "portuguese": {
+          "name": "Trevas à Espreita",
+          "description": "Completa a missão final na Investigação de Pessoas Desaparecidas"
+        },
+        "russian": {
+          "name": "Нити тьмы",
+          "description": "Выполните последнее задание расследования \"Пропавшие\""
+        },
+        "schinese": {
+          "name": "黑暗逼近",
+          "description": "完成失踪人口连环杀人案调查的最终任务"
+        },
+        "spanish": {
+          "name": "Se avecina la oscuridad",
+          "description": "Completa la misión final de la investigación sobre personas desaparecidas"
+        },
+        "swedish": {
+          "name": "Försvunnen",
+          "description": "Klara av det sista uppdraget i utredningen gällande försvunna personer."
+        },
+        "tchinese": {
+          "name": "完全沒有畫面",
+          "description": "完成失蹤人口調查的最後任務"
+        }
+      }
+    },
+    "WatchDogs_Ach_29": {
+      "translations": {
+        "brazilian": {
+          "name": "Geolocalizado",
+          "description": "Faça check-in em cada Hotspot"
+        },
+        "danish": {
+          "name": "Geografisk placeret",
+          "description": "Check ind på alle hotspots"
+        },
+        "dutch": {
+          "name": "Beroepstoerist",
+          "description": "Check in bij alle hotspots."
+        },
+        "english": {
+          "name": "Geolocated",
+          "description": "Check in at every Hotspot"
+        },
+        "finnish": {
+          "name": "Kartalla",
+          "description": "Ilmoittaudu kaikissa Hotspot-sijainneissa"
+        },
+        "french": {
+          "name": "Géolocalisé",
+          "description": "Publiez un check-in à tous les points d’intérêt."
+        },
+        "german": {
+          "name": "Geolokalisierung",
+          "description": "Melden Sie sich bei allen Sehenswürdigkeiten an"
+        },
+        "italian": {
+          "name": "Geolocalizzato",
+          "description": "Effettua il check-in in tutti gli Hotspot"
+        },
+        "japanese": {
+          "name": "ジオロケーション",
+          "description": "全てのシティホットスポットにチェックインする"
+        },
+        "koreana": {
+          "name": "지리적 위치",
+          "description": "모든 핫스팟에 체크인"
+        },
+        "norwegian": {
+          "name": "Geolokalisert",
+          "description": "Sjekk inn på samtlige fokuspunkter"
+        },
+        "polish": {
+          "name": "Zlokalizowany",
+          "description": "Zamelduj się w każdym hotspocie"
+        },
+        "portuguese": {
+          "name": "Geolocalizado",
+          "description": "Faz check-in em todos os Hotspots"
+        },
+        "russian": {
+          "name": "На позиции",
+          "description": "Отметьтесь в каждой точке City Hotspot"
+        },
+        "schinese": {
+          "name": "地理定位",
+          "description": "前往全部 100 处城市热点并完成打卡"
+        },
+        "spanish": {
+          "name": "Geolocalizado",
+          "description": "Señalízate en todos los puntos de interés"
+        },
+        "swedish": {
+          "name": "Belevad",
+          "description": "Checka in på varje hotspot."
+        },
+        "tchinese": {
+          "name": "地理定位",
+          "description": "在每個熱門景點打卡"
+        }
+      }
+    },
+    "WatchDogs_Ach_30": {
+      "translations": {
+        "brazilian": {
+          "name": "Espaço em Disco Cheio",
+          "description": "Desbloqueie todas as músicas do aplicativo SongSneak."
+        },
+        "danish": {
+          "name": "Disken er fuld",
+          "description": "Lås op for alle sange med Songsneak-appen"
+        },
+        "dutch": {
+          "name": "Volle harde schijf",
+          "description": "Speel alle nummers vrij met de SongSneak-app."
+        },
+        "english": {
+          "name": "Disk Space Full",
+          "description": "Unlock every song with the SongSneak app"
+        },
+        "finnish": {
+          "name": "Levytila täynnä",
+          "description": "Avaa kaikki kappaleet SongSneak-sovelluksella"
+        },
+        "french": {
+          "name": "Espace disque insuffisant",
+          "description": "Débloquez tous les morceaux avec l’app SongSneak."
+        },
+        "german": {
+          "name": "Festplattenspeicher voll",
+          "description": "Schalten Sie mit der App SongSneak alle Lieder frei"
+        },
+        "italian": {
+          "name": "Spazio su disco esaurito",
+          "description": "Sblocca tutte le canzoni con l'app SongSneak"
+        },
+        "japanese": {
+          "name": "ディスク容量不足",
+          "description": "アプリ「ソングスニーク」で全ての曲を解除する"
+        },
+        "koreana": {
+          "name": "디스크의 여유 공간이 부족합니다",
+          "description": "노래찾기 앱의 모든 노래 해제"
+        },
+        "norwegian": {
+          "name": "Diskplass full",
+          "description": "Lås opp alle sanger med SongSneak-appen"
+        },
+        "polish": {
+          "name": "Brak miejsca na dysku",
+          "description": "Odblokuj każdą piosenkę za pomocą aplikacji SongSneak"
+        },
+        "portuguese": {
+          "name": "Disco Cheio",
+          "description": "Desbloqueia todas as canções com a aplicação SongSneak"
+        },
+        "russian": {
+          "name": "Нет места на диске",
+          "description": "Откройте все песни с помощью приложения \"SongSneak\""
+        },
+        "schinese": {
+          "name": "磁盘已满",
+          "description": "使用偷歌App 解锁全部歌曲"
+        },
+        "spanish": {
+          "name": "Espacio en disco lleno",
+          "description": "Desbloquea todos los temas con la aplicación SongSneak"
+        },
+        "swedish": {
+          "name": "Slut på utrymme",
+          "description": "Lås upp alla låtar med SongSneak-appen."
+        },
+        "tchinese": {
+          "name": "儲存裝置空間已滿",
+          "description": "用偷歌 App 解開每首歌"
+        }
+      }
+    },
+    "WatchDogs_Ach_31": {
+      "translations": {
+        "brazilian": {
+          "name": "Lubrificante Social",
+          "description": "Conclua o nível 10 contra todos os 3 adversários no Jogo de Bebedeira."
+        },
+        "danish": {
+          "name": "Socialt smøremiddel",
+          "description": "Gennemfør niveau 10 imod alle 3 modstandere i drikkespillet"
+        },
+        "dutch": {
+          "name": "Sociaal glijmiddel",
+          "description": "Voltooi niveau 10 van het drinkspel tegen alle 3 de tegenstanders."
+        },
+        "english": {
+          "name": "Social Lubricant",
+          "description": "Complete level 10 against all 3 Drinking Game opponents"
+        },
+        "finnish": {
+          "name": "Sosiaalisuuden tehostaja",
+          "description": "Suorita 10. kierros kaikkia 3 Juomapelin vastustajaa vastaan"
+        },
+        "french": {
+          "name": "Buveur social",
+          "description": "Terminez le niveau 10 contre les 3 adversaires du jeu à boire."
+        },
+        "german": {
+          "name": "Soziales Schmiermittel",
+          "description": "Erreichen Sie die 10. Runde gegen alle 3 Trinkspiel-Gegner"
+        },
+        "italian": {
+          "name": "Collante sociale",
+          "description": "Completa il livello 10 contro tutti i 3 avversari del gioco alcolico"
+        },
+        "japanese": {
+          "name": "社会の潤滑剤",
+          "description": "ドリンクゲームで3人全員を相手にレベル10をクリアする"
+        },
+        "koreana": {
+          "name": "인간 관계의 윤활유",
+          "description": "술 마시기 게임에서 3명을 상대로 레벨 10 완료"
+        },
+        "norwegian": {
+          "name": "Festens midtpunkt",
+          "description": "Fullfør nivå 10 mot alle de 3 motstanderne i drikkespillet"
+        },
+        "polish": {
+          "name": "Popychacz",
+          "description": "Ukończ 10 poziom przeciwko wszystkim 3 przeciwnikom w grze w picie"
+        },
+        "portuguese": {
+          "name": "Lubrificante Social",
+          "description": "Completa o nível 10 contra os 3 adversários do Jogo de Bebida"
+        },
+        "russian": {
+          "name": "Язык развязался",
+          "description": "Пройдите 10 уровень игры \"Кто кого перепьет\" против 3 оппонентов"
+        },
+        "schinese": {
+          "name": "社交润滑剂",
+          "description": "喝酒比赛到达10级，击败全部3个对手"
+        },
+        "spanish": {
+          "name": "Lubricante social",
+          "description": "Completa el 10º nivel contra los 3 rivales del juego de beber"
+        },
+        "swedish": {
+          "name": "Festprisse",
+          "description": "Klara av den tionde nivån mot alla tre dryckesspelsmotståndare."
+        },
+        "tchinese": {
+          "name": "社交潤滑劑",
+          "description": "喝酒比賽完成等級 10，打敗所有 3 個對手"
+        }
+      }
+    },
+    "WatchDogs_Ach_32": {
+      "translations": {
+        "brazilian": {
+          "name": "Hackificação",
+          "description": "Invada e hackeie com êxito 10 Mercenários inimigos em Hackeamento Online"
+        },
+        "danish": {
+          "name": "Hackifikation",
+          "description": "Invadér, og hack succesfuldt 10 fjendtlige hackere i onlinehacking"
+        },
+        "dutch": {
+          "name": "Het hack van de dam",
+          "description": "Dring het spel van 10 vijandelijke Fixers binnen en hack ze met succes via online hacken."
+        },
+        "english": {
+          "name": "Hackification",
+          "description": "Invade and successfully hack 10 enemy Fixers in Online Hacking"
+        },
+        "finnish": {
+          "name": "Hakkeroidutus",
+          "description": "Tunkeudu 10 vihollisfiksaajan järjestelmään ja hakkeroi ne Hakkeroinnissa verkossa"
+        },
+        "french": {
+          "name": "Pro du piratage",
+          "description": "Infiltrez-vous dans la partie de 10 Fixeurs et piratez leurs données au cours de piratages en ligne."
+        },
+        "german": {
+          "name": "Hackifizierung",
+          "description": "Beim Online-Hacking erfolgreich in die Sessions von 10 feindlichen Fixern eindringen und sie hacken"
+        },
+        "italian": {
+          "name": "Hacker totale",
+          "description": "Invadi e hackera con successo 10 fixer nemici in un hacking online"
+        },
+        "japanese": {
+          "name": "ハッキング",
+          "description": "オンラインハッキングで敵フィクサー10人のハッキングに成功する"
+        },
+        "koreana": {
+          "name": "해킹의 정석",
+          "description": "온라인 해킹에서 적 해결사 10명을 해킹에 성공"
+        },
+        "norwegian": {
+          "name": "Hackifikasjon",
+          "description": "Invader og hack 10 fiendtlige fiksere i netthacking"
+        },
+        "polish": {
+          "name": "Hakofiksacja",
+          "description": "Zaatakuj i skutecznie zhakuj 10 wrogich macherów w hakowaniu online"
+        },
+        "portuguese": {
+          "name": "Hackificação",
+          "description": "Invade e faz um hack bem sucedido a 10 Mercenários inimigos durante um Hack Online"
+        },
+        "russian": {
+          "name": "Хакерство",
+          "description": "Хакните 10 девайсов устранителей во время сетевого взлома"
+        },
+        "schinese": {
+          "name": "黑客化",
+          "description": "在线上入侵模式中成功骇入 10 名敌方收尾人"
+        },
+        "spanish": {
+          "name": "Hackificación",
+          "description": "Invade y hackea con éxito a 10 agentes enemigos en hackeo en línea"
+        },
+        "swedish": {
+          "name": "Hacke Hackspett",
+          "description": "Invadera och hacka 10 fixare i onlinehackning."
+        },
+        "tchinese": {
+          "name": "駭客通告",
+          "description": "在線上駭進入侵並成功駭進 10 名敵方收尾人"
+        }
+      }
+    },
+    "WatchDogs_Ach_33": {
+      "translations": {
+        "brazilian": {
+          "name": "Na Cola",
+          "description": "Invada e observe com êxito 10 Mercenários inimigos em Perseguição Online"
+        },
+        "danish": {
+          "name": "Anhænger",
+          "description": "Invadér, og hack succesfuldt 10 fjendtlige hackere i onlineforfølgelse"
+        },
+        "dutch": {
+          "name": "Volhardend",
+          "description": "Breek in op het spel van 10 vijandelijke Fixers en observeer ze met succes in Online-achtervolging."
+        },
+        "english": {
+          "name": "Piggyback",
+          "description": "Invade and successfully observe 10 enemy Fixers in Online Tailing"
+        },
+        "finnish": {
+          "name": "Reppuselässä",
+          "description": "Tunkeudu 10 vihollisfiksaajan järjestelmään ja tarkkaile heitä Varjostuksessa verkossa"
+        },
+        "french": {
+          "name": "Comme son ombre",
+          "description": "Infiltrez-vous dans la partie de 10 Fixeurs et espionnez-les au cours de filatures en ligne."
+        },
+        "german": {
+          "name": "Wie ein Schatten",
+          "description": "Beim Online-Hacking erfolgreich in die Sessions von 10 Fixern eindringen und sie beschatten"
+        },
+        "italian": {
+          "name": "A cavalluccio",
+          "description": "Invadi e osserva con successo 10 fixer nemici in un pedinamento online"
+        },
+        "japanese": {
+          "name": "おんぶ",
+          "description": "オンライン尾行で敵フィクサー10人の監視に成功する"
+        },
+        "koreana": {
+          "name": "그림자 추적",
+          "description": "온라인 미행에서 적 해결사 10명 관찰에 성공"
+        },
+        "norwegian": {
+          "name": "På skyggesiden",
+          "description": "Invader og observer 10 fiendtlige fiksere i nettskygging"
+        },
+        "polish": {
+          "name": "Krok w krok",
+          "description": "Zaatakuj i skutecznie obserwuj 10 wrogich macherów w śledzeniu online"
+        },
+        "portuguese": {
+          "name": "Às Cavalitas",
+          "description": "Invade e observa com sucesso 10 Mercenários inimigos durante uma Perseguição Online"
+        },
+        "russian": {
+          "name": "На хвосте",
+          "description": "Проведите наблюдение за 10 устранителями во время сетевой слежки"
+        },
+        "schinese": {
+          "name": "尾随搭载",
+          "description": "在线上跟踪模式中成功观察 10 名敌方收尾人"
+        },
+        "spanish": {
+          "name": "A cuestas",
+          "description": "Invade y vigila con éxito a 10 agentes enemigos en seguimiento en línea."
+        },
+        "swedish": {
+          "name": "Oväntat besök",
+          "description": "Invadera och observera 10 fixare i onlineskuggning."
+        },
+        "tchinese": {
+          "name": "揹在後頭",
+          "description": "在線上跟蹤入侵並成功觀察 10 名敵方收尾人"
+        }
+      }
+    },
+    "WatchDogs_Ach_34": {
+      "translations": {
+        "brazilian": {
+          "name": "Supervia",
+          "description": "Complete 10 Corridas Online Públicas"
+        },
+        "danish": {
+          "name": "Motorvej",
+          "description": "Gennemfør 10 offentlige online-racerløb"
+        },
+        "dutch": {
+          "name": "Supersnelweg",
+          "description": "Voltooi 10 openbare onlineraces."
+        },
+        "english": {
+          "name": "Superhighway",
+          "description": "Complete 10 Public Online Races"
+        },
+        "finnish": {
+          "name": "Supermoottoritie",
+          "description": "Suorita 10 julkista Kilpa-ajoa verkossa."
+        },
+        "french": {
+          "name": "Autoroute 5 voies",
+          "description": "Terminez 10 courses en ligne publiques"
+        },
+        "german": {
+          "name": "Superautobahn",
+          "description": "Beenden Sie 10 öffentliche Online-Rennen"
+        },
+        "italian": {
+          "name": "Superstrada",
+          "description": "Completa 10 corse pubbliche online"
+        },
+        "japanese": {
+          "name": "スーパーハイウェイ",
+          "description": "パブリックオンラインレースを10回完走する"
+        },
+        "koreana": {
+          "name": "고속도로의 무법자",
+          "description": "공개 온라인 레이스 10개 완료"
+        },
+        "norwegian": {
+          "name": "Supermotorvei",
+          "description": "Fullfør 10 offentlige nettkappløp"
+        },
+        "polish": {
+          "name": "Superautostrada",
+          "description": "Ukończ 10 publicznych wyścigów online"
+        },
+        "portuguese": {
+          "name": "Super-autoestrada",
+          "description": "Completa 10 Corridas Online Públicas."
+        },
+        "russian": {
+          "name": "Автострада",
+          "description": "Завершите 10 открытых сетевых гонок"
+        },
+        "schinese": {
+          "name": "超级公路",
+          "description": "完成 10 场公开线上竞速赛"
+        },
+        "spanish": {
+          "name": "Superautopista",
+          "description": "Completa 10 carreras en línea públicas"
+        },
+        "swedish": {
+          "name": "Tävlingsinriktad",
+          "description": "Klara av 10 öppna onlinetävlingar."
+        },
+        "tchinese": {
+          "name": "超級公路",
+          "description": "完成 10 場公開線上競速賽"
+        }
+      }
+    },
+    "WatchDogs_Ach_35": {
+      "translations": {
+        "brazilian": {
+          "name": "Estralhaçador do Sistema",
+          "description": "Complete todas as Violações ctOS"
+        },
+        "danish": {
+          "name": "Systemødelægger",
+          "description": "Gennemfør alle ctOS-brud-kontrakter"
+        },
+        "dutch": {
+          "name": "Plaag voor het systeem",
+          "description": "Voltooi alle ctOS-inbraken."
+        },
+        "english": {
+          "name": "System Mangler",
+          "description": "Complete every ctOS Breach"
+        },
+        "finnish": {
+          "name": "Järjestelmän sekoittaja",
+          "description": "Suorita kaikki ctOS:n murtotoimeksiannot"
+        },
+        "french": {
+          "name": "Altération du système",
+          "description": "Terminez toutes les intrusions ctOS."
+        },
+        "german": {
+          "name": "Systemzersetzer",
+          "description": "Schließen Sie alle ctOS-Einbruch-Aufträge ab"
+        },
+        "italian": {
+          "name": "Spaccasistemi",
+          "description": "Completa tutti gli hacking del ctOS"
+        },
+        "japanese": {
+          "name": "システム管理者",
+          "description": "全ての「ctOS侵入」をクリアする"
+        },
+        "koreana": {
+          "name": "시스템 교란자",
+          "description": "모든 ctOS 공격 완료"
+        },
+        "norwegian": {
+          "name": "Systemfeil",
+          "description": "Fullfør alle ctOS-hackinger"
+        },
+        "polish": {
+          "name": "Niszczyciel systemu",
+          "description": "Ukończ wszystkie zlecenia włamań do ctOS-u"
+        },
+        "portuguese": {
+          "name": "Destruidor de Sistemas",
+          "description": "Completa todas as Transgressões do ctOS"
+        },
+        "russian": {
+          "name": "Сисадмин",
+          "description": "Выполните все взломы ctOS"
+        },
+        "schinese": {
+          "name": "系统管埋员",
+          "description": "完成所有 ctOS 限时渗透点"
+        },
+        "spanish": {
+          "name": "Trasteador de sistemas",
+          "description": "Completa todas las intrusiones en el ctOS"
+        },
+        "swedish": {
+          "name": "Inbrytarkungen",
+          "description": "Klara av alla ctOS-intrång."
+        },
+        "tchinese": {
+          "name": "系統殘害者",
+          "description": "完成所有 ctOS 破解"
+        }
+      }
+    },
+    "WatchDogs_Ach_36": {
+      "translations": {
+        "brazilian": {
+          "name": "Furtivo",
+          "description": "Complete uma Perseguição Online sem ser detectado"
+        },
+        "danish": {
+          "name": "Skjult cookie",
+          "description": "Gennemfør en onlineforfølgelse uden at blive opdaget"
+        },
+        "dutch": {
+          "name": "Cyberninja",
+          "description": "Voltooi onopgemerkt een online-achtervolging."
+        },
+        "english": {
+          "name": "Stealth Cookie",
+          "description": "Complete an Online Tailing without being detected"
+        },
+        "finnish": {
+          "name": "Salaeväste",
+          "description": "Suorita Varjostus verkossa huomaamatta"
+        },
+        "french": {
+          "name": "Ultrafurtif",
+          "description": "Terminez une filature en ligne sans être repéré."
+        },
+        "german": {
+          "name": "Stealth-Cookie",
+          "description": "Schließen Sie eine Online-Beschattung ab, ohne entdeckt zu werden"
+        },
+        "italian": {
+          "name": "Cookie invisibile",
+          "description": "Completa un pedinamento online senza farti scoprire."
+        },
+        "japanese": {
+          "name": "ステルスクッキー",
+          "description": "気づかれずに、オンライン尾行をクリアする"
+        },
+        "koreana": {
+          "name": "똑똑하게 은밀하게",
+          "description": "발각되지 않고 온라인 미행 완료"
+        },
+        "norwegian": {
+          "name": "I smug",
+          "description": "Fullfør en nettskygging uten å bli oppdaget"
+        },
+        "polish": {
+          "name": "Mistrz kamuflażu",
+          "description": "Ukończ śledzenie online, nie dając się wykryć"
+        },
+        "portuguese": {
+          "name": "De Mansinho",
+          "description": "Completa uma Perseguição Online sem seres detetado"
+        },
+        "russian": {
+          "name": "Фантом",
+          "description": "Проведите сетевую слежку, оставшись незамеченным"
+        },
+        "schinese": {
+          "name": "隐形 Cookie",
+          "description": "在没有被发现的情况下完成一局线上跟踪"
+        },
+        "spanish": {
+          "name": "Cookie invisible",
+          "description": "Completa un seguimiento en línea sin ser detectado"
+        },
+        "swedish": {
+          "name": "Ninja",
+          "description": "Klara av en onlineskuggning utan att bli upptäckt."
+        },
+        "tchinese": {
+          "name": "隱形餅乾",
+          "description": "在沒被發現的情況下完成線上跟蹤"
+        }
+      }
+    },
+    "WatchDogs_Ach_37": {
+      "translations": {
+        "brazilian": {
+          "name": "Freeware",
+          "description": "Desbloqueie cada Habilidade na Árvore de Habilidades"
+        },
+        "danish": {
+          "name": "Freeware",
+          "description": "Lås op for alle evner i evnetræet"
+        },
+        "dutch": {
+          "name": "Freeware",
+          "description": "Speel elke vaardigheid vrij in het vaardighedenschema."
+        },
+        "english": {
+          "name": "Freeware",
+          "description": "Unlock every Skill in the Skills Tree"
+        },
+        "finnish": {
+          "name": "Ilmaisohjelma",
+          "description": "Avaa kaikki taidot"
+        },
+        "french": {
+          "name": "Freeware",
+          "description": "Débloquez toutes les compétences de l’arbre de compétences."
+        },
+        "german": {
+          "name": "Freeware",
+          "description": "Schalten Sie alle Fähigkeiten im Fähigkeitenbaum frei"
+        },
+        "italian": {
+          "name": "Freeware",
+          "description": "Sblocca tutte le abilità dell'albero delle abilità"
+        },
+        "japanese": {
+          "name": "フリーウェア",
+          "description": "スキル・ツリーのスキルを全て解除する"
+        },
+        "koreana": {
+          "name": "프리웨어",
+          "description": "스킬 트리의 모든 스킬 해제"
+        },
+        "norwegian": {
+          "name": "Freeware",
+          "description": "Lås opp alle ferdigheter i ferdighetstreet"
+        },
+        "polish": {
+          "name": "Freeware",
+          "description": "Odblokuj wszystkie zdolności w drzewku zdolności"
+        },
+        "portuguese": {
+          "name": "Freeware",
+          "description": "Desbloqueia todas as Habilidades na Árvore de Habilidades"
+        },
+        "russian": {
+          "name": "Халява",
+          "description": "Разблокируйте все навыки в дереве навыков"
+        },
+        "schinese": {
+          "name": "免费软件",
+          "description": "解开技能树中的所有技能"
+        },
+        "spanish": {
+          "name": "Freeware",
+          "description": "Desbloquea todas las habilidades del árbol de habilidades"
+        },
+        "swedish": {
+          "name": "Bakdörrsaction",
+          "description": "Lås upp alla färdigheter i färdighetsträdet."
+        },
+        "tchinese": {
+          "name": "免費軟體",
+          "description": "解開所有在技能樹中的技能"
+        }
+      }
+    },
+    "WatchDogs_Ach_38": {
+      "translations": {
+        "brazilian": {
+          "name": "Rastreado",
+          "description": "Seja seguido 5 vezes"
+        },
+        "danish": {
+          "name": "Sporet",
+          "description": "Bliv forfulgt 5 gange"
+        },
+        "dutch": {
+          "name": "Getraceerd",
+          "description": "Word 5 keer achtervolgd."
+        },
+        "english": {
+          "name": "Traced",
+          "description": "Get tailed 5 times"
+        },
+        "finnish": {
+          "name": "Jäljitetty",
+          "description": "Joudu varjostetuksi 5 kertaa"
+        },
+        "french": {
+          "name": "Suivi",
+          "description": "Faites-vous suivre à 5 reprises."
+        },
+        "german": {
+          "name": "Zurückverfolgt",
+          "description": "Werden Sie 5 Mal verfolgt"
+        },
+        "italian": {
+          "name": "Tracciato",
+          "description": "Fatti seguire 5 volte"
+        },
+        "japanese": {
+          "name": "追跡",
+          "description": "5回尾行される"
+        },
+        "koreana": {
+          "name": "흔적",
+          "description": "미행 5번"
+        },
+        "norwegian": {
+          "name": "Forfulgt",
+          "description": "Bli skygget 5 ganger"
+        },
+        "polish": {
+          "name": "Śledzony",
+          "description": "Bądź śledzony 5 razy"
+        },
+        "portuguese": {
+          "name": "Seguido",
+          "description": "Sê seguido 5 vezes"
+        },
+        "russian": {
+          "name": "Преследуемый",
+          "description": "Станьте объектом слежки 5 раз."
+        },
+        "schinese": {
+          "name": "被追踪",
+          "description": "被跟踪 5 次"
+        },
+        "spanish": {
+          "name": "Rastreado",
+          "description": "Sé seguido 5 veces"
+        },
+        "swedish": {
+          "name": "Spårad",
+          "description": "Bli skuggad fem gånger."
+        },
+        "tchinese": {
+          "name": "追蹤",
+          "description": "被跟蹤 5 次"
+        }
+      }
+    },
+    "WatchDogs_Ach_39": {
+      "translations": {
+        "brazilian": {
+          "name": "Sinais Claros",
+          "description": "Desbloqueie todas as Torres ctOS"
+        },
+        "danish": {
+          "name": "Rene signaler",
+          "description": "Lås op for alle ctOS-tårne"
+        },
+        "dutch": {
+          "name": "Duidelijke signalen",
+          "description": "Speel alle ctOS-torens vrij."
+        },
+        "english": {
+          "name": "Clear Signals",
+          "description": "Unlock every ctOS Tower"
+        },
+        "finnish": {
+          "name": "Selkeät signaalit",
+          "description": "Avaa kaikki ctOS-tornit"
+        },
+        "french": {
+          "name": "Signal clair",
+          "description": "Débloquez toutes les tours ctOS."
+        },
+        "german": {
+          "name": "Saubere Signale",
+          "description": "Schalten Sie alle ctOS-Türme frei"
+        },
+        "italian": {
+          "name": "Ti ricevo forte e chiaro",
+          "description": "Sblocca tutte le antenne ctOS"
+        },
+        "japanese": {
+          "name": "クリアシグナル",
+          "description": "ctOSタワーを全て解除する"
+        },
+        "koreana": {
+          "name": "선명한 신호",
+          "description": "모든 ctOS 타워 해제"
+        },
+        "norwegian": {
+          "name": "Sterke signaler",
+          "description": "Lås opp alle ctOS-tårn"
+        },
+        "polish": {
+          "name": "Czyste sygnały",
+          "description": "Odblokuj wszystkie wieże ctOS-u"
+        },
+        "portuguese": {
+          "name": "Sinais Claros",
+          "description": "Desbloqueia todas as Torres do ctOS"
+        },
+        "russian": {
+          "name": "Четкий сигнал",
+          "description": "Разблокируйте все вышки ctOS"
+        },
+        "schinese": {
+          "name": "满格信号",
+          "description": "解开所有 ctOS 信号塔"
+        },
+        "spanish": {
+          "name": "Señales limpias",
+          "description": "Desbloquea todas las torres del ctOS"
+        },
+        "swedish": {
+          "name": "Lutande tornen i Chicago",
+          "description": "Lås upp alla ctOS-torn."
+        },
+        "tchinese": {
+          "name": "清楚的訊號",
+          "description": "解開每個 ctOS 塔"
+        }
+      }
+    },
+    "WatchDogs_Ach_40": {
+      "translations": {
+        "brazilian": {
+          "name": "T-Bone: Amigos com Necessidades",
+          "description": "Complete o Ato 1"
+        },
+        "danish": {
+          "name": "T-Bone: Venner i nød",
+          "description": "Gennemfør akt 1"
+        },
+        "dutch": {
+          "name": "T-Bone: Vrienden in nood",
+          "description": "Voltooi hoofdstuk 1."
+        },
+        "english": {
+          "name": "T-Bone: Friends in Need",
+          "description": "Complete Act 1"
+        },
+        "finnish": {
+          "name": "T-Bone: Ystävät hädässä",
+          "description": "Suorita luku 1"
+        },
+        "french": {
+          "name": "T-Bone: Amis dans le besoin",
+          "description": "Terminez l’Acte 1."
+        },
+        "german": {
+          "name": "T-Bone: Freunde in Not",
+          "description": "Beenden Sie Akt 1"
+        },
+        "italian": {
+          "name": "T-Bone: Amici bisognosi",
+          "description": "Completa l'atto 1"
+        },
+        "japanese": {
+          "name": "T-Bone: 困った時の友",
+          "description": "Act 1をクリアする"
+        },
+        "koreana": {
+          "name": "T-Bone: 도움이 필요한 친구",
+          "description": "1막 완료"
+        },
+        "norwegian": {
+          "name": "T-Bone: Venner i nød",
+          "description": "Fullfør akt 1"
+        },
+        "polish": {
+          "name": "T-Bone: Przyjaciele w potrzebie",
+          "description": "Ukończ Akt 1."
+        },
+        "portuguese": {
+          "name": "T-Bone: Amigos em Apuros",
+          "description": "Completa o Ato 1."
+        },
+        "russian": {
+          "name": "T-Bone: Друзья в беде",
+          "description": "Часть 1 завершена"
+        },
+        "schinese": {
+          "name": "T-Bone: 患难见真情",
+          "description": "完成第 1 章"
+        },
+        "spanish": {
+          "name": "T-Bone: Amigos en apuros",
+          "description": "Completa el acto 1"
+        },
+        "swedish": {
+          "name": "T-Bone: Vänner i nöd",
+          "description": "Klara av akt 1"
+        },
+        "tchinese": {
+          "name": "T-Bone: 患難見真情",
+          "description": "完成第 1 章"
+        }
+      }
+    },
+    "WatchDogs_Ach_41": {
+      "translations": {
+        "brazilian": {
+          "name": "T-Bone: Nada Vem Fácil",
+          "description": "Complete o Ato 2."
+        },
+        "danish": {
+          "name": "T-Bone: Ingen nem løsning",
+          "description": "Gennemfør akt 2"
+        },
+        "dutch": {
+          "name": "T-Bone: Niet makkelijk te fiksen",
+          "description": "Voltooi hoofdstuk 2."
+        },
+        "english": {
+          "name": "T-Bone: No Easy Fix",
+          "description": "Complete Act 2"
+        },
+        "finnish": {
+          "name": "T-Bone: Vaikea fiksata",
+          "description": "Suorita luku 2"
+        },
+        "french": {
+          "name": "T-Bone: Réparation ardue",
+          "description": "Terminez l’Acte 2."
+        },
+        "german": {
+          "name": "T-Bone: Fix und fertig",
+          "description": "Beenden Sie Akt 2"
+        },
+        "italian": {
+          "name": "T-Bone: Non è facile",
+          "description": "Completa l'atto 2"
+        },
+        "japanese": {
+          "name": "T-Bone: 修復困難",
+          "description": "Act 2をクリアする"
+        },
+        "koreana": {
+          "name": "T-Bone: 쉽지 않은 문제",
+          "description": "2막 완료"
+        },
+        "norwegian": {
+          "name": "T-Bone: Ingen enkle løsninger",
+          "description": "Fullfør akt 2"
+        },
+        "polish": {
+          "name": "T-Bone: Trudne do naprawienia",
+          "description": "Ukończ Akt 2."
+        },
+        "portuguese": {
+          "name": "T-Bone: Sem Saída Fácil",
+          "description": "Completa o Ato 2."
+        },
+        "russian": {
+          "name": "T-Bone: Нелегкая задача",
+          "description": "Часть 2 завершена"
+        },
+        "schinese": {
+          "name": "T-Bone: 不容易收尾",
+          "description": "完成第 2 章"
+        },
+        "spanish": {
+          "name": "T-Bone: Difícil de arreglar",
+          "description": "Completa el acto 2"
+        },
+        "swedish": {
+          "name": "T-Bone: Svårjobbat",
+          "description": "Klara av akt 2"
+        },
+        "tchinese": {
+          "name": "T-Bone: 不容易收尾",
+          "description": "完成第 2 章"
+        }
+      }
+    },
+    "WatchDogs_Ach_42": {
+      "translations": {
+        "brazilian": {
+          "name": "T-Bone: Controle de Pragas",
+          "description": "Complete o Ato 3."
+        },
+        "danish": {
+          "name": "T-Bone: Skadedyrsbekæmpelse",
+          "description": "Gennemfør akt 3"
+        },
+        "dutch": {
+          "name": "T-Bone: Ongediertebestrijding",
+          "description": "Voltooi hoofdstuk 3."
+        },
+        "english": {
+          "name": "T-Bone: Pest Control",
+          "description": "Complete Act 3"
+        },
+        "finnish": {
+          "name": "T-Bone: Tuholaistorjuntaa",
+          "description": "Suorita luku 3"
+        },
+        "french": {
+          "name": "T-Bone: Dératisation",
+          "description": "Terminez l’Acte 3."
+        },
+        "german": {
+          "name": "T-Bone: Schädlingsbekämpfung",
+          "description": "Beenden Sie Akt 3"
+        },
+        "italian": {
+          "name": "T-Bone: Disinfestazione",
+          "description": "Completa l'atto 3"
+        },
+        "japanese": {
+          "name": "T-Bone: 害虫対策",
+          "description": "Act 3をクリアする"
+        },
+        "koreana": {
+          "name": "T-Bone: 해충 억제",
+          "description": "3막 완료"
+        },
+        "norwegian": {
+          "name": "T-Bone: Skadedyrkontroll",
+          "description": "Fullfør akt 3"
+        },
+        "polish": {
+          "name": "T-Bone: Walka ze szkodnikami",
+          "description": "Ukończ Akt 3."
+        },
+        "portuguese": {
+          "name": "T-Bone: Controlo de Pragas",
+          "description": "Completa o Ato 3."
+        },
+        "russian": {
+          "name": "T-Bone: Борьба с вредителями",
+          "description": "Часть 3 завершена"
+        },
+        "schinese": {
+          "name": "T-Bone: 病虫害防治",
+          "description": "完成第 3 章"
+        },
+        "spanish": {
+          "name": "T-Bone: Control de plagas",
+          "description": "Completa el acto 3"
+        },
+        "swedish": {
+          "name": "T-Bone: Skadedjursbekämpning",
+          "description": "Klara av akt 3"
+        },
+        "tchinese": {
+          "name": "T-Bone: 病蟲害防治",
+          "description": "完成第 3 章"
+        }
+      }
+    },
+    "WatchDogs_Ach_43": {
+      "translations": {
+        "brazilian": {
+          "name": "T-Bone: Máfia Organizada",
+          "description": "Complete 20 Missões do Chicago South Club."
+        },
+        "danish": {
+          "name": "T-Bone: Mafiaen styrede",
+          "description": "Gennemfør 20 Chicago South Club-missioner"
+        },
+        "dutch": {
+          "name": "T-Bone: Wat een bende",
+          "description": "Voltooi 20 Chicago South Club-missies."
+        },
+        "english": {
+          "name": "T-Bone: Mob Ruled",
+          "description": "Complete 20 Chicago South Club contracts"
+        },
+        "finnish": {
+          "name": "T-Bone: Mafia jyllää",
+          "description": "Läpäise 20 Chicago South Club -tehtävää"
+        },
+        "french": {
+          "name": "T-Bone: Mort à la pègre",
+          "description": "Terminez 20 missions du Chicago South Club."
+        },
+        "german": {
+          "name": "T-Bone: Mafia in die Schranken gewiesen",
+          "description": "Beenden Sie 20 Chicago-South-Club-Missionen"
+        },
+        "italian": {
+          "name": "T-Bone: La legge della mala",
+          "description": "Completa 20 missioni del Chicago South Club"
+        },
+        "japanese": {
+          "name": "T-Bone: マフィア支配",
+          "description": "シカゴ・サウス・クラブミッションを20個完了する"
+        },
+        "koreana": {
+          "name": "T-Bone: 조직의 시대",
+          "description": "시카고 사우스 클럽 미션 20개 완료"
+        },
+        "norwegian": {
+          "name": "T-Bone: Mafiaen hersket",
+          "description": "Fullfør 20 Chicago South Club-oppdrag"
+        },
+        "polish": {
+          "name": "T-Bone: Mafia rządziła",
+          "description": "Ukończ 20 misji Chicago South Club"
+        },
+        "portuguese": {
+          "name": "T-Bone: Máfia Dominada",
+          "description": "Completa 20 Missões do Chicago South Club."
+        },
+        "russian": {
+          "name": "T-Bone: Самосуд",
+          "description": "20 заданий \"Chicago South Club\" выполнены"
+        },
+        "schinese": {
+          "name": "T-Bone: 黑帮统治",
+          "description": "完成 20 个芝加哥南方社团任务"
+        },
+        "spanish": {
+          "name": "T-Bone: Bajo el control de la mafia",
+          "description": "Completa 20 misiones del Chicago South Club"
+        },
+        "swedish": {
+          "name": "T-Bone: Maffian härskade",
+          "description": "Klara av 20 Chicagoklubben södra-uppdrag"
+        },
+        "tchinese": {
+          "name": "T-Bone: 黑幫統治",
+          "description": "完成 20 次芝加哥南方社團任務"
+        }
+      }
+    },
+    "WatchDogs_Ach_44": {
+      "translations": {
+        "brazilian": {
+          "name": "T-Bone: Segunda Emenda",
+          "description": "Complete 20 Missões da Milícia."
+        },
+        "danish": {
+          "name": "T-Bone: Andet forfatningspunkt",
+          "description": "Gennemfør 20 milits-missioner"
+        },
+        "dutch": {
+          "name": "T-Bone: Wapenlobby",
+          "description": "Voltooi 20 militiemissies."
+        },
+        "english": {
+          "name": "T-Bone: Second Amendment",
+          "description": "Complete 20 Militia contracts"
+        },
+        "finnish": {
+          "name": "T-Bone: Toinen lisäys",
+          "description": "Läpäise 20 yksityisarmeijatehtävää"
+        },
+        "french": {
+          "name": "T-Bone: Deuxième amendement",
+          "description": "Terminez 20 missions de la Milice."
+        },
+        "german": {
+          "name": "T-Bone: Zweiter Verfassungszusatz",
+          "description": "Beenden Sie 20 Miliz-Missionen"
+        },
+        "italian": {
+          "name": "T-Bone: Secondo emendamento",
+          "description": "Completa 20 missioni della milizia"
+        },
+        "japanese": {
+          "name": "T-Bone: 修正第2条",
+          "description": "傭兵ミッションを20個完了する"
+        },
+        "koreana": {
+          "name": "T-Bone: 헌법 제2조",
+          "description": "민병대 미션 20개 완료"
+        },
+        "norwegian": {
+          "name": "T-Bone: Andre grunnlovstillegg",
+          "description": "Fullfør 20 militia-oppdrag"
+        },
+        "polish": {
+          "name": "T-Bone: Druga poprawka",
+          "description": "Ukończ 20 misji Bojowników"
+        },
+        "portuguese": {
+          "name": "T-Bone: Segunda Emenda",
+          "description": "Completa 20 Missões da Milícia."
+        },
+        "russian": {
+          "name": "T-Bone: Вторая поправка",
+          "description": "20 заданий \"Патруль\" выполнены"
+        },
+        "schinese": {
+          "name": "T-Bone: 宪法第二修正案",
+          "description": "完成 20 个私人军队任务"
+        },
+        "spanish": {
+          "name": "T-Bone: Segunda enmienda",
+          "description": "Completa 20 misiones de Milicia"
+        },
+        "swedish": {
+          "name": "T-Bone: Andra tillägget",
+          "description": "Klara av 20 milisuppdrag"
+        },
+        "tchinese": {
+          "name": "T-Bone: 美國人權法案",
+          "description": "完成 20 次私人軍隊任務"
+        }
+      }
+    },
+    "WatchDogs_Ach_45": {
+      "translations": {
+        "brazilian": {
+          "name": "T-Bone: Gentalha",
+          "description": "Complete 20 Missões dos Agentes."
+        },
+        "danish": {
+          "name": "T-Bone: Uløselig",
+          "description": "Gennemfør 20 Problemløser-missioner"
+        },
+        "dutch": {
+          "name": "T-Bone: Niet te fiksen",
+          "description": "Voltooi 20 Fixer-missies."
+        },
+        "english": {
+          "name": "T-Bone: Unfixable",
+          "description": "Complete 20 Fixer contracts"
+        },
+        "finnish": {
+          "name": "T-Bone: Ei parane fiksaamalla",
+          "description": "Läpäise 20 fiksaajatehtävää"
+        },
+        "french": {
+          "name": "T-Bone: Irréparable",
+          "description": "Terminez 20 missions de Fixeur."
+        },
+        "german": {
+          "name": "T-Bone: Nicht zu fixen",
+          "description": "Beenden Sie 20 Fixer-Missionen"
+        },
+        "italian": {
+          "name": "T-Bone: Irreparabile",
+          "description": "Completa 20 missioni fixer"
+        },
+        "japanese": {
+          "name": "T-Bone: フィックス不可能",
+          "description": "フィクサーミッションを20個完了する"
+        },
+        "koreana": {
+          "name": "T-Bone: 난관",
+          "description": "해결사 미션 20개 완료"
+        },
+        "norwegian": {
+          "name": "T-Bone: Kan ikke fikses",
+          "description": "Fullfør 20 fikser-oppdrag"
+        },
+        "polish": {
+          "name": "T-Bone: Szacher macher",
+          "description": "Ukończ 20 misji Macherów"
+        },
+        "portuguese": {
+          "name": "T-Bone: Dispensáveis",
+          "description": "Completa 20 Missões dos Mercenários."
+        },
+        "russian": {
+          "name": "T-Bone: Вдрызг",
+          "description": "20 заданий \"Устранитель\" выполнены"
+        },
+        "schinese": {
+          "name": "T-Bone: 无法收尾",
+          "description": "完成 20 个收尾人任务"
+        },
+        "spanish": {
+          "name": "T-Bone: Irreparable",
+          "description": "Completa 20 misiones de agente"
+        },
+        "swedish": {
+          "name": "T-Bone: Ofixbart",
+          "description": "Klara av 20 fixaruppdrag"
+        },
+        "tchinese": {
+          "name": "T-Bone: 無法收尾",
+          "description": "完成 20 次收尾人任務"
+        }
+      }
+    },
+    "WatchDogs_Ach_46": {
+      "translations": {
+        "brazilian": {
+          "name": "T-Bone: Circuito Completo",
+          "description": "Complete 29 Missões de Pilotagem"
+        },
+        "danish": {
+          "name": "T-Bone: Fuldt løb",
+          "description": "Gennemfør 29 køremissioner"
+        },
+        "dutch": {
+          "name": "T-Bone: Klokje rond",
+          "description": "Voltooi 29 voertuigmissies."
+        },
+        "english": {
+          "name": "T-Bone: Full Circuit",
+          "description": "Complete 29 driving missions"
+        },
+        "finnish": {
+          "name": "T-Bone: Täysi kierros",
+          "description": "Läpäise 29 ajotehtävää"
+        },
+        "french": {
+          "name": "T-Bone: Tour complet",
+          "description": "Terminez 29 missions Chauffeur."
+        },
+        "german": {
+          "name": "T-Bone: Volle Runde",
+          "description": "Beenden Sie 29 Fahraufträge"
+        },
+        "italian": {
+          "name": "T-Bone: Circuito totale",
+          "description": "Completa 29 missioni di guida"
+        },
+        "japanese": {
+          "name": "T-Bone: フルサーキット",
+          "description": "ドライビングミッションを29個完了する"
+        },
+        "koreana": {
+          "name": "T-Bone: 완주",
+          "description": "운전 미션 29개 완료"
+        },
+        "norwegian": {
+          "name": "T-Bone: Hel runde",
+          "description": "Fullfør 29 kjøreoppdrag"
+        },
+        "polish": {
+          "name": "T-Bone: Pełne okrążenie",
+          "description": "Ukończ 29 zleceń kierowcy"
+        },
+        "portuguese": {
+          "name": "T-Bone: Circuito Completo",
+          "description": "Completa 29 Missões de Condução."
+        },
+        "russian": {
+          "name": "T-Bone: На всю катушку",
+          "description": "29 заданий водителя выполнены"
+        },
+        "schinese": {
+          "name": "T-Bone: 完整回路",
+          "description": "完成29 个驾车任务"
+        },
+        "spanish": {
+          "name": "T-Bone: Circuito completo",
+          "description": "Completa 29 misiones de conductor"
+        },
+        "swedish": {
+          "name": "T-Bone: Fullt varv",
+          "description": "Klara av 29 föraruppdrag"
+        },
+        "tchinese": {
+          "name": "T-Bone: 完整的電路",
+          "description": "完成 29 次駕車任務"
+        }
+      }
+    },
+    "WatchDogs_Ach_47": {
+      "translations": {
+        "brazilian": {
+          "name": "T-Bone: Trabalho em Equipe",
+          "description": "Complete 10 Missões Cooperativas."
+        },
+        "danish": {
+          "name": "T-Bone: Solidt hold",
+          "description": "Gennemfør 10 samarbejdsmissioner"
+        },
+        "dutch": {
+          "name": "T-Bone: Tagteam",
+          "description": "Voltooi 10 coöpmissies."
+        },
+        "english": {
+          "name": "T-Bone: Tag Team",
+          "description": "Complete 10 coop missions"
+        },
+        "finnish": {
+          "name": "T-Bone: Taistelupari",
+          "description": "Läpäise 10 yhteistehtävää"
+        },
+        "french": {
+          "name": "T-Bone: Travail d’équipe",
+          "description": "Terminez 10 missions en Coop."
+        },
+        "german": {
+          "name": "T-Bone: Teamerfolg",
+          "description": "Beenden Sie 10 Coop-Missionen"
+        },
+        "italian": {
+          "name": "T-Bone: In squadra",
+          "description": "Completa 10 missioni coop"
+        },
+        "japanese": {
+          "name": "T-Bone: タッグチーム",
+          "description": "協力ミッションを10個完了する"
+        },
+        "koreana": {
+          "name": "T-Bone: 팀 태그",
+          "description": "협동 플레이 미션 10개 완료"
+        },
+        "norwegian": {
+          "name": "T-Bone: Samarbeid",
+          "description": "Fullfør 10 Coop-oppdrag"
+        },
+        "polish": {
+          "name": "T-Bone: Nie ma jak ekipa",
+          "description": "Ukończ 10 misji w trybie współpracy"
+        },
+        "portuguese": {
+          "name": "T-Bone: Em Equipa",
+          "description": "Completa 10 Missões Cooperativas."
+        },
+        "russian": {
+          "name": "T-Bone: Команда",
+          "description": "10 совместных заданий выполнены"
+        },
+        "schinese": {
+          "name": "T-Bone: 合作无间",
+          "description": "完成 10 个多人合作任务"
+        },
+        "spanish": {
+          "name": "T-Bone: Equipo de lucha",
+          "description": "Completa 10 misiones cooperativas"
+        },
+        "swedish": {
+          "name": "T-Bone: Laget före jaget",
+          "description": "Klara av 10 samarbetsuppdrag"
+        },
+        "tchinese": {
+          "name": "T-Bone: 合作無間",
+          "description": "完成 10 次多人合作任務"
+        }
+      }
+    },
+    "WatchDogs_Ach_48": {
+      "translations": {
+        "brazilian": {
+          "name": "T-Bone: Procurando por Encrenca",
+          "description": "Complete todas as Investigações Opcionais"
+        },
+        "danish": {
+          "name": "T-Bone: På udkig efter problemer",
+          "description": "Gennemfør alle sideefterforskninger"
+        },
+        "dutch": {
+          "name": "T-Bone: Problemen zoeken",
+          "description": "Voltooi alle extra onderzoeken."
+        },
+        "english": {
+          "name": "T-Bone: Looking For Trouble",
+          "description": "Complete all side investigations"
+        },
+        "finnish": {
+          "name": "T-Bone: Ongelmia etsimässä",
+          "description": "Läpäise kaikki sivututkimukset"
+        },
+        "french": {
+          "name": "T-Bone: Quand on cherche les ennuis…",
+          "description": "Terminez toutes les enquêtes secondaires."
+        },
+        "german": {
+          "name": "T-Bone: Nach Ärger suchen",
+          "description": "Beenden Sie alle Neben-Untersuchungen"
+        },
+        "italian": {
+          "name": "T-Bone: In cerca di guai",
+          "description": "Completa tutte le indagini secondarie"
+        },
+        "japanese": {
+          "name": "T-Bone: トラブルを求めて",
+          "description": "サイドミッション調査を全て完了する"
+        },
+        "koreana": {
+          "name": "T-Bone: 골칫거리",
+          "description": "모든 보조 조사 완료"
+        },
+        "norwegian": {
+          "name": "T-Bone: På jakt etter trøbbel",
+          "description": "Fullfør alle sideetterforskninger"
+        },
+        "polish": {
+          "name": "T-Bone: Szukając kłopotów",
+          "description": "Ukończ wszystkie śledztwa poboczne"
+        },
+        "portuguese": {
+          "name": "T-Bone: À Procura de Problemas",
+          "description": "Completa todas as Investigações Secundárias."
+        },
+        "russian": {
+          "name": "T-Bone: Неосторожные действия",
+          "description": "Дополнительные расследования завершены"
+        },
+        "schinese": {
+          "name": "T-Bone: 没事惹事",
+          "description": "完成全部支线调查任务"
+        },
+        "spanish": {
+          "name": "T-Bone: Buscando problemas",
+          "description": "Completa todas las investigaciones secundarias"
+        },
+        "swedish": {
+          "name": "T-Bone: Letar problem",
+          "description": "Klara av alla sidouppdrag"
+        },
+        "tchinese": {
+          "name": "T-Bone: 自找麻煩",
+          "description": "完成所有的支線調查任務"
+        }
+      }
+    },
+    "WatchDogs_Ach_49": {
+      "translations": {
+        "brazilian": {
+          "name": "T-Bone: Eugenia Negativa",
+          "description": "Mate 4 inimigos de uma só vez explodindo o Carro de C/R."
+        },
+        "danish": {
+          "name": "T-Bone: Negativ eugenik",
+          "description": "Dræb fire fjender på én gang ved at sprænge den fjernstyrede bil i luften."
+        },
+        "dutch": {
+          "name": "T-Bone: Negatieve eugenetica",
+          "description": "Dood 4 vijanden tegelijk door de radiografisch bestuurbare auto op te blazen."
+        },
+        "english": {
+          "name": "T-Bone: Negative Eugenics",
+          "description": "Kill 4 enemies at once by blowing up the RC Car"
+        },
+        "finnish": {
+          "name": "T-Bone: Eugenistista karsintaa",
+          "description": "Tapa 4 vihollista kerralla räjäyttämällä radio-ohjattava auto"
+        },
+        "french": {
+          "name": "T-Bone: Amélioration de l’espèce",
+          "description": "Tuez 4 ennemis simultanément en faisant exploser la voiture RC."
+        },
+        "german": {
+          "name": "T-Bone: Negative Eugenik",
+          "description": "4 Gegner gleichzeitig bei Sprengung des ferngesteuerten Autos töten"
+        },
+        "italian": {
+          "name": "T-Bone: Cattiva eugenetica",
+          "description": "Uccidi 4 nemici contemporaneamente facendo saltare l'auto radiocomandata"
+        },
+        "japanese": {
+          "name": "T-Bone: 消極的優生学",
+          "description": "ラジコンカーを爆破して、4人の敵を一度に始末する"
+        },
+        "koreana": {
+          "name": "T-Bone: 열성 인자",
+          "description": "R/C 카를 폭파해 적 4명을 한 번에 처치하십시오."
+        },
+        "norwegian": {
+          "name": "T-Bone: Negativ eugenikk",
+          "description": "Drep 4 fiender samtidig ved å sprenge den radiostyrte bilen"
+        },
+        "polish": {
+          "name": "T-Bone: Eugenika negatywna",
+          "description": "Zabij 4 wrogów jedną eksplozją zdalnie sterowanego samochodu"
+        },
+        "portuguese": {
+          "name": "T-Bone: Eugenia Negativa",
+          "description": "Mata 4 inimigos de uma só vez com uma explosão do carro RC."
+        },
+        "russian": {
+          "name": "T-Bone: Отрицательная евгеника",
+          "description": "4 врага погибли от взрыва машинки"
+        },
+        "schinese": {
+          "name": "T-Bone: 消极优生学",
+          "description": "引爆遥控车一次性炸死 4 名敌人"
+        },
+        "spanish": {
+          "name": "T-Bone: Eugenesia negativa",
+          "description": "Haz estallar el coche de radiocontrol y mata a 4 enemigos de una vez."
+        },
+        "swedish": {
+          "name": "T-Bone: Negativ eugenik",
+          "description": "Döda fyra fiender samtidigt genom att spränga den radiostyrda bilen"
+        },
+        "tchinese": {
+          "name": "T-Bone: 尤金的消極作用",
+          "description": "透過引爆遙控車同時殺死 4 名敵人"
+        }
+      }
+    }
+  }
+}

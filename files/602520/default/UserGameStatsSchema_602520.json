@@ -1,0 +1,554 @@
+{
+  "version": 1,
+  "app_id": "602520",
+  "variant_id": "default",
+  "source_sha256": "28a2280ef0df741d3fc5b255e30d11d3d21131be1ca635b42a2227ffff169994",
+  "languages": [
+    "english",
+    "japanese",
+    "schinese",
+    "tchinese"
+  ],
+  "achievements": {
+    "ACHIEVEMENT_1_1": {
+      "translations": {
+        "english": {
+          "name": "First time running the game.",
+          "description": "Welcome to NekoPara!"
+        },
+        "japanese": {
+          "name": "最初の起動",
+          "description": "ネコぱらにようこそ！"
+        },
+        "schinese": {
+          "name": "第一次启动",
+          "description": "欢迎来到Nekopara！"
+        },
+        "tchinese": {
+          "name": "第一次啟動",
+          "description": "歡迎來到Nekopara！"
+        }
+      }
+    },
+    "ACHIEVEMENT_2_1": {
+      "translations": {
+        "english": {
+          "name": "The Second First Step",
+          "description": "Clear Chapter 1"
+        },
+        "japanese": {
+          "name": "２度目の新しい一歩。",
+          "description": "1章クリア"
+        },
+        "schinese": {
+          "name": "第二次，踏出崭新的一步",
+          "description": "完成第1章"
+        },
+        "tchinese": {
+          "name": "第二次，踏出嶄新的一步",
+          "description": "完成第1章"
+        }
+      }
+    },
+    "ACHIEVEMENT_2_2": {
+      "translations": {
+        "english": {
+          "name": "Chocolate & Vanilla",
+          "description": "Clear Chapter 2"
+        },
+        "japanese": {
+          "name": "チョコレート＆バニラ",
+          "description": "2章クリア"
+        },
+        "schinese": {
+          "name": "巧克力＆香草",
+          "description": "完成第2章"
+        },
+        "tchinese": {
+          "name": "巧克力＆香草",
+          "description": "完成第2章"
+        }
+      }
+    },
+    "ACHIEVEMENT_2_3": {
+      "translations": {
+        "english": {
+          "name": "The Minadukis Go to the Amusement Park",
+          "description": "Clear Chapter 3"
+        },
+        "japanese": {
+          "name": "水無月家と遊園地。",
+          "description": "3章クリア"
+        },
+        "schinese": {
+          "name": "水无月家和游乐园",
+          "description": "完成第3章"
+        },
+        "tchinese": {
+          "name": "水無月家和遊樂園",
+          "description": "完成第3章"
+        }
+      }
+    },
+    "ACHIEVEMENT_2_4": {
+      "translations": {
+        "english": {
+          "name": "Initial Courage",
+          "description": "Clear Chapter 4"
+        },
+        "japanese": {
+          "name": "最初の勇気。",
+          "description": "4章クリア"
+        },
+        "schinese": {
+          "name": "最初的勇气",
+          "description": "完成第4章"
+        },
+        "tchinese": {
+          "name": "最初的勇氣",
+          "description": "完成第4章"
+        }
+      }
+    },
+    "ACHIEVEMENT_2_5": {
+      "translations": {
+        "english": {
+          "name": "Short Nails from Today On",
+          "description": "Clear Chapter 5"
+        },
+        "japanese": {
+          "name": "今日から短い爪で。",
+          "description": "5章クリア"
+        },
+        "schinese": {
+          "name": "今天开始剪短指甲",
+          "description": "完成第5章"
+        },
+        "tchinese": {
+          "name": "今天開始剪短指甲",
+          "description": "完成第5章"
+        }
+      }
+    },
+    "ACHIEVEMENT_2_6": {
+      "translations": {
+        "english": {
+          "name": "Clandestine Outing",
+          "description": "Clear Chapter 6"
+        },
+        "japanese": {
+          "name": "お忍びのお出かけ。",
+          "description": "6章クリア"
+        },
+        "schinese": {
+          "name": "两人的秘密出游",
+          "description": "完成第6章"
+        },
+        "tchinese": {
+          "name": "兩人的秘密出遊",
+          "description": "完成第6章"
+        }
+      }
+    },
+    "ACHIEVEMENT_2_7": {
+      "translations": {
+        "english": {
+          "name": "What is Beyond Courage",
+          "description": "Clear Chapter 7"
+        },
+        "japanese": {
+          "name": "勇気のその先に。",
+          "description": "7章クリア"
+        },
+        "schinese": {
+          "name": "勇气所带来的景色",
+          "description": "完成第7章"
+        },
+        "tchinese": {
+          "name": "勇氣所帶來的景色",
+          "description": "完成第7章"
+        }
+      }
+    },
+    "ACHIEVEMENT_2_8": {
+      "translations": {
+        "english": {
+          "name": "Red Beans and Coconuts",
+          "description": "Clear Chapter 8"
+        },
+        "japanese": {
+          "name": "レッドビーンズ＆ココナッツ。",
+          "description": "8章クリア"
+        },
+        "schinese": {
+          "name": "红豆＆椰子",
+          "description": "完成第8章"
+        },
+        "tchinese": {
+          "name": "紅豆＆椰子",
+          "description": "完成第8章"
+        }
+      }
+    },
+    "ACHIEVEMENT_2_9": {
+      "translations": {
+        "english": {
+          "name": "BFFs",
+          "description": "Clear Chapter 9"
+        },
+        "japanese": {
+          "name": "昔のままの親友。",
+          "description": "9章クリア"
+        },
+        "schinese": {
+          "name": "不变的好友",
+          "description": "完成第9章"
+        },
+        "tchinese": {
+          "name": "不變的好友",
+          "description": "完成第9章"
+        }
+      }
+    },
+    "ACHIEVEMENT_2_10": {
+      "translations": {
+        "english": {
+          "name": "Whether a Neko or a Person",
+          "description": "Clear Chapter 10"
+        },
+        "japanese": {
+          "name": "ネコだとか、人だとか。",
+          "description": "10章クリア"
+        },
+        "schinese": {
+          "name": "猫娘、人类",
+          "description": "完成第10章"
+        },
+        "tchinese": {
+          "name": "貓娘、人類",
+          "description": "完成第10章"
+        }
+      }
+    },
+    "ACHIEVEMENT_2_11": {
+      "translations": {
+        "english": {
+          "name": "The Most Important",
+          "description": "Clear Chapter 11"
+        },
+        "japanese": {
+          "name": "一番大事な。",
+          "description": "11章クリア"
+        },
+        "schinese": {
+          "name": "最重要的事",
+          "description": "完成第11章"
+        },
+        "tchinese": {
+          "name": "最重要的事",
+          "description": "完成第11章"
+        }
+      }
+    },
+    "ACHIEVEMENT_2_12": {
+      "translations": {
+        "english": {
+          "name": "The Nekos' Aromatiss?",
+          "description": "Clear Chapter 12"
+        },
+        "japanese": {
+          "name": "ネコたちのアロマティゼ",
+          "description": "12章クリア"
+        },
+        "schinese": {
+          "name": "绽香猫娘姊妹",
+          "description": "完成第12章"
+        },
+        "tchinese": {
+          "name": "綻香貓娘姊妹",
+          "description": "完成第12章"
+        }
+      }
+    },
+    "ACHIEVEMENT_2_13": {
+      "translations": {
+        "english": {
+          "name": "Cinnamon and Maple",
+          "description": "Clear Chapter 13"
+        },
+        "japanese": {
+          "name": "シナモン＆メープル",
+          "description": "13章クリア"
+        },
+        "schinese": {
+          "name": "桂＆枫",
+          "description": "完成第13章"
+        },
+        "tchinese": {
+          "name": "桂＆楓",
+          "description": "完成第13章"
+        }
+      }
+    },
+    "ACHIEVEMENT_2_14": {
+      "translations": {
+        "english": {
+          "name": "As Friends, as Lovers",
+          "description": "Clear Chapter 14"
+        },
+        "japanese": {
+          "name": "親友と、恋人と。",
+          "description": "14章クリア"
+        },
+        "schinese": {
+          "name": "与好友一起，与恋人一起",
+          "description": "完成第14章"
+        },
+        "tchinese": {
+          "name": "與好友一起，與戀人一起",
+          "description": "完成第14章"
+        }
+      }
+    },
+    "ACHIEVEMENT_2_15": {
+      "translations": {
+        "english": {
+          "name": "A Snapshot of Neko Paradise",
+          "description": "Clear Chapter 15"
+        },
+        "japanese": {
+          "name": "ネコパラダイスの記念写真",
+          "description": "15章クリア"
+        },
+        "schinese": {
+          "name": "猫娘乐园纪念照",
+          "description": "完成第15章"
+        },
+        "tchinese": {
+          "name": "貓娘樂園紀念照",
+          "description": "完成第15章"
+        }
+      }
+    },
+    "ACHIEVEMENT_3_1": {
+      "translations": {
+        "english": {
+          "name": "Pet Chocola",
+          "description": "Petted Chocola"
+        },
+        "japanese": {
+          "name": "おさわりショコラ",
+          "description": "ショコラに触った"
+        },
+        "schinese": {
+          "name": "摸摸巧克力",
+          "description": "触碰了巧克力"
+        },
+        "tchinese": {
+          "name": "摸摸巧克力",
+          "description": "觸碰了巧克力"
+        }
+      }
+    },
+    "ACHIEVEMENT_3_2": {
+      "translations": {
+        "english": {
+          "name": "Pet Vanilla",
+          "description": "Petted Vanilla"
+        },
+        "japanese": {
+          "name": "おさわりバニラ",
+          "description": "バニラに触った"
+        },
+        "schinese": {
+          "name": "摸摸香草",
+          "description": "触碰了香草"
+        },
+        "tchinese": {
+          "name": "摸摸香草",
+          "description": "觸碰了香草"
+        }
+      }
+    },
+    "ACHIEVEMENT_3_3": {
+      "translations": {
+        "english": {
+          "name": "Pet Maple",
+          "description": "Petted Maple"
+        },
+        "japanese": {
+          "name": "おさわりメイプル",
+          "description": "メイプルに触った"
+        },
+        "schinese": {
+          "name": "摸摸枫",
+          "description": "触碰了枫"
+        },
+        "tchinese": {
+          "name": "摸摸楓",
+          "description": "觸碰了楓"
+        }
+      }
+    },
+    "ACHIEVEMENT_3_4": {
+      "translations": {
+        "english": {
+          "name": "Pet Cinnamon",
+          "description": "Petted Cinnamon"
+        },
+        "japanese": {
+          "name": "おさわりシナモン",
+          "description": "シナモンに触った"
+        },
+        "schinese": {
+          "name": "摸摸桂",
+          "description": "触碰了桂"
+        },
+        "tchinese": {
+          "name": "摸摸桂",
+          "description": "觸碰了桂"
+        }
+      }
+    },
+    "ACHIEVEMENT_3_5": {
+      "translations": {
+        "english": {
+          "name": "Pet Azuki",
+          "description": "Petted Azuki"
+        },
+        "japanese": {
+          "name": "おさわりアズキ",
+          "description": "アズキに触った"
+        },
+        "schinese": {
+          "name": "摸摸红豆",
+          "description": "触碰了红豆"
+        },
+        "tchinese": {
+          "name": "摸摸紅豆",
+          "description": "觸碰了紅豆"
+        }
+      }
+    },
+    "ACHIEVEMENT_3_6": {
+      "translations": {
+        "english": {
+          "name": "Pet Coconut",
+          "description": "Petted Coconut"
+        },
+        "japanese": {
+          "name": "おさわりココナツ",
+          "description": "ココナツに触った"
+        },
+        "schinese": {
+          "name": "摸摸椰子",
+          "description": "触碰了椰子"
+        },
+        "tchinese": {
+          "name": "摸摸椰子",
+          "description": "觸碰了椰子"
+        }
+      }
+    },
+    "ACHIEVEMENT_3_7": {
+      "translations": {
+        "english": {
+          "name": "Pet Shigure",
+          "description": "Petted Shigure"
+        },
+        "japanese": {
+          "name": "おさわり時雨",
+          "description": "時雨に触った"
+        },
+        "schinese": {
+          "name": "摸摸时雨",
+          "description": "触碰了时雨"
+        },
+        "tchinese": {
+          "name": "摸摸時雨",
+          "description": "觸碰了時雨"
+        }
+      }
+    },
+    "ACHIEVEMENT_4_1": {
+      "translations": {
+        "english": {
+          "name": "Play it in English!",
+          "description": "Try playing it in English!"
+        },
+        "japanese": {
+          "name": "英語でプレイ！",
+          "description": "英語でプレイしてみよう！"
+        },
+        "schinese": {
+          "name": "用英文游玩吧！",
+          "description": "将语言调成英文进行游戏"
+        },
+        "tchinese": {
+          "name": "用英文遊玩吧！",
+          "description": "將語言調成英文進行遊戲"
+        }
+      }
+    },
+    "ACHIEVEMENT_4_2": {
+      "translations": {
+        "english": {
+          "name": "Play it in Japanese!",
+          "description": "Try playing it in Japanese!"
+        },
+        "japanese": {
+          "name": "日本語でプレイ！",
+          "description": "日本語でプレイしてみよう"
+        },
+        "schinese": {
+          "name": "用日文游玩吧！",
+          "description": "将语言调成日文进行游戏"
+        },
+        "tchinese": {
+          "name": "用日文遊玩吧！",
+          "description": "將語言調成日文進行遊戲"
+        }
+      }
+    },
+    "ACHIEVEMENT_4_3": {
+      "translations": {
+        "english": {
+          "name": "Play it in Chinese!",
+          "description": "Try playing it in Chinese!"
+        },
+        "japanese": {
+          "name": "中国語でプレイ！",
+          "description": "中国語でプレイしてみよう"
+        },
+        "schinese": {
+          "name": "用中文游玩吧！",
+          "description": "将语言调成中文进行游戏"
+        },
+        "tchinese": {
+          "name": "用中文遊玩吧！",
+          "description": "將語言調成中文進行遊戲"
+        }
+      }
+    },
+    "ACHIEVEMENT_5_1": {
+      "translations": {
+        "english": {
+          "name": "That something that shakes...",
+          "description": "Bouncy, bouncy~"
+        },
+        "japanese": {
+          "name": "ゆれるアレ",
+          "description": "ボヨンボヨン"
+        },
+        "schinese": {
+          "name": "会摇的……？",
+          "description": "弹弹～"
+        },
+        "tchinese": {
+          "name": "會搖的……？",
+          "description": "彈彈～"
+        }
+      }
+    }
+  }
+}

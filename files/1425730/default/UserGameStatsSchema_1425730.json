@@ -1,0 +1,999 @@
+{
+  "version": 1,
+  "app_id": "1425730",
+  "variant_id": "default",
+  "source_sha256": "e12b9ab377b6f04cb484bf0adf341e7b88629fe536645a01d5e38a1d25bbe058",
+  "languages": [
+    "english",
+    "japanese",
+    "koreana",
+    "schinese",
+    "tchinese"
+  ],
+  "achievements": {
+    "NEW_ACHIEVEMENT_1_0": {
+      "translations": {
+        "english": {
+          "name": "Gal*Gun Master",
+          "description": "Obtain all other achievements."
+        },
+        "japanese": {
+          "name": "ぎゃるがんマスター",
+          "description": "これ以外の全ての実績を獲得した。"
+        },
+        "koreana": {
+          "name": "걸 건 마스터",
+          "description": "모든 업적을 획득했다."
+        },
+        "schinese": {
+          "name": "少女射击大师",
+          "description": "获得除此之外的所有成就。"
+        },
+        "tchinese": {
+          "name": "少女射擊大師",
+          "description": "獲得除此之外的所有成就。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_1": {
+      "translations": {
+        "english": {
+          "name": "Kaname - Good Ending",
+          "description": "Story Mode: Clear Kaname's route with the Good Ending."
+        },
+        "japanese": {
+          "name": "かなめグッドエンドクリア",
+          "description": "ストーリーモード：かなめルートをグッドエンドでクリアした。"
+        },
+        "koreana": {
+          "name": "카나메 굿 엔딩 클리어",
+          "description": "스토리 모드: 카나메 루트를 굿 엔딩으로 클리어했다."
+        },
+        "schinese": {
+          "name": "奏雨好结局通关",
+          "description": "通关故事模式：奏雨路线好结局。"
+        },
+        "tchinese": {
+          "name": "奏雨好結局通關",
+          "description": "通關故事模式：奏雨路線好結局。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_2": {
+      "translations": {
+        "english": {
+          "name": "Kaname - True Ending",
+          "description": "Story Mode: Clear Kaname's route with the True Ending."
+        },
+        "japanese": {
+          "name": "かなめトゥルーエンドクリア",
+          "description": "ストーリーモード：かなめルートをトゥルーエンドでクリアした。"
+        },
+        "koreana": {
+          "name": "카나메 트루 엔딩 클리어",
+          "description": "스토리 모드: 카나메 루트를 트루 엔딩으로 클리어했다."
+        },
+        "schinese": {
+          "name": "奏雨真结局通关",
+          "description": "通关故事模式：奏雨路线真结局。"
+        },
+        "tchinese": {
+          "name": "奏雨真結局通關",
+          "description": "通關故事模式：奏雨路線真結局。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_3": {
+      "translations": {
+        "english": {
+          "name": "Akira - Good Ending",
+          "description": "Story Mode: Clear Akira's route with the Good Ending."
+        },
+        "japanese": {
+          "name": "晶グッドエンドクリア",
+          "description": "ストーリーモード：晶ルートをグッドエンドでクリアした。"
+        },
+        "koreana": {
+          "name": "아키라 굿 엔딩 클리어",
+          "description": "스토리 모드: 아키라 루트를 굿 엔딩으로 클리어했다."
+        },
+        "schinese": {
+          "name": "晶好结局通关",
+          "description": "通关故事模式：晶路线好结局。"
+        },
+        "tchinese": {
+          "name": "晶好結局通關",
+          "description": "通關故事模式：晶路線好結局。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_4": {
+      "translations": {
+        "english": {
+          "name": "Akira - True Ending",
+          "description": "Story Mode: Clear Akira's route with the True Ending."
+        },
+        "japanese": {
+          "name": "晶トゥルーエンドクリア",
+          "description": "ストーリーモード：晶ルートをトゥルーエンドでクリアした。"
+        },
+        "koreana": {
+          "name": "아키라 트루 엔딩 클리어",
+          "description": "스토리 모드: 아키라 루트를 트루 엔딩으로 클리어했다."
+        },
+        "schinese": {
+          "name": "晶真结局通关",
+          "description": "通关故事模式：晶路线真结局。"
+        },
+        "tchinese": {
+          "name": "晶真結局通關",
+          "description": "通關故事模式：晶路線真結局。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_5": {
+      "translations": {
+        "english": {
+          "name": "Kaoruko - Good Ending",
+          "description": "Story Mode: Clear Kaoruko's route with the Good Ending."
+        },
+        "japanese": {
+          "name": "薫子グッドエンドクリア",
+          "description": "ストーリーモード：薫子ルートをグッドエンドでクリアした。"
+        },
+        "koreana": {
+          "name": "카오루코 굿 엔딩 클리어",
+          "description": "스토리 모드: 카오루코 루트를 굿 엔딩으로 클리어했다."
+        },
+        "schinese": {
+          "name": "薰子好结局通关",
+          "description": "通关故事模式：薰子路线好结局。"
+        },
+        "tchinese": {
+          "name": "薰子好結局通關",
+          "description": "通關故事模式：薰子路線好結局。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_6": {
+      "translations": {
+        "english": {
+          "name": "Kaoruko - True Ending",
+          "description": "Story Mode: Clear Kaoruko's route with the True Ending."
+        },
+        "japanese": {
+          "name": "薫子トゥルーエンドクリア",
+          "description": "ストーリーモード：薫子ルートをトゥルーエンドでクリアした。"
+        },
+        "koreana": {
+          "name": "카오루코 트루 엔딩 클리어",
+          "description": "스토리 모드: 카오루코 루트를 트루 엔딩으로 클리어했다."
+        },
+        "schinese": {
+          "name": "薰子真结局通关",
+          "description": "通关故事模式：薰子路线真结局。"
+        },
+        "tchinese": {
+          "name": "薰子真結局通關",
+          "description": "通關故事模式：薰子路線真結局。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_7": {
+      "translations": {
+        "english": {
+          "name": "Aoi - Good Ending",
+          "description": "Story Mode: Clear Aoi's route with the Good Ending."
+        },
+        "japanese": {
+          "name": "葵グッドエンドクリア",
+          "description": "ストーリーモード：葵ルートをグッドエンドでクリアした。"
+        },
+        "koreana": {
+          "name": "아오이 굿 엔딩 클리어",
+          "description": "스토리 모드: 아오이 루트를 굿 엔딩으로 클리어했다."
+        },
+        "schinese": {
+          "name": "葵好结局通关",
+          "description": "通关故事模式：葵路线好结局。"
+        },
+        "tchinese": {
+          "name": "葵好結局通關",
+          "description": "通關故事模式：葵路線好結局。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_8": {
+      "translations": {
+        "english": {
+          "name": "Aoi - True Ending",
+          "description": "Story Mode: Clear Aoi's route with the True Ending."
+        },
+        "japanese": {
+          "name": "葵トゥルーエンドクリア",
+          "description": "ストーリーモード：葵ルートをトゥルーエンドでクリアした。"
+        },
+        "koreana": {
+          "name": "아오이 트루 엔딩 클리어",
+          "description": "스토리 모드: 아오이 루트를 트루 엔딩으로 클리어했다."
+        },
+        "schinese": {
+          "name": "葵真结局通关",
+          "description": "通关故事模式：葵路线真结局。"
+        },
+        "tchinese": {
+          "name": "葵真結局通關",
+          "description": "通關故事模式：葵路線真結局。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_9": {
+      "translations": {
+        "english": {
+          "name": "DDC - Patako Route",
+          "description": "Doki Doki Carnival: Finish by giving Patako euphoria."
+        },
+        "japanese": {
+          "name": "DDCクリア　ぱたこルート",
+          "description": "ドキドキカーニバル：ぱたこを昇天させてクリアした。"
+        },
+        "koreana": {
+          "name": "DDC 클리어 파타코 루트",
+          "description": "두근두근 카니발: 파타코를 승천시키고 클리어했다."
+        },
+        "schinese": {
+          "name": "心跳嘉年华通关 帕塔可路线",
+          "description": "通关心跳嘉年华：让帕塔可升天。"
+        },
+        "tchinese": {
+          "name": "心跳嘉年華通關　帕塔可路線",
+          "description": "通關心跳嘉年華：讓帕塔可升天。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_10": {
+      "translations": {
+        "english": {
+          "name": "DDC - Ekoro Route",
+          "description": "Doki Doki Carnival: Finish by giving Ekoro euphoria."
+        },
+        "japanese": {
+          "name": "DDCクリア　えころルート",
+          "description": "ドキドキカーニバル：えころを昇天させてクリアした。"
+        },
+        "koreana": {
+          "name": "DDC 클리어 에코로 루트",
+          "description": "두근두근 카니발: 에코로를 승천시키고 클리어했다."
+        },
+        "schinese": {
+          "name": "心跳嘉年华通关 艾可萝路线",
+          "description": "通关心跳嘉年华：让艾可萝升天。"
+        },
+        "tchinese": {
+          "name": "心跳嘉年華通關　艾可蘿路線",
+          "description": "通關心跳嘉年華：讓艾可蘿升天。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_11": {
+      "translations": {
+        "english": {
+          "name": "DDC - Patako & Ekoro Route",
+          "description": "Doki Doki Carnival: Finish by giving Patako and Ekoro euphoria."
+        },
+        "japanese": {
+          "name": "DDCクリア　ぱたこ&えころルート",
+          "description": "ドキドキカーニバル：ぱたことえころを昇天させてクリアした。"
+        },
+        "koreana": {
+          "name": "DDC 클리어 파타코&에코로 루트",
+          "description": "두근두근 카니발: 파타코와 에코로를 승천시키고 클리어했다."
+        },
+        "schinese": {
+          "name": "心跳嘉年华通关 帕塔可＆艾可萝路线",
+          "description": "通关心跳嘉年华：让帕塔可和艾可萝升天。"
+        },
+        "tchinese": {
+          "name": "心跳嘉年華通關　帕塔可＆艾可蘿路線",
+          "description": "通關心跳嘉年華：讓帕塔可和艾可蘿升天。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_12": {
+      "translations": {
+        "english": {
+          "name": "DDC - All Routes",
+          "description": "Doki Doki Carnival: Clear all events."
+        },
+        "japanese": {
+          "name": "DDCオールクリア",
+          "description": "ドキドキカーニバルの全てのイベントをクリアした。"
+        },
+        "koreana": {
+          "name": "DDC 올 클리어",
+          "description": "두근두근 카니발의 모든 이벤트를 클리어했다."
+        },
+        "schinese": {
+          "name": "心跳嘉年华全通关",
+          "description": "通关心跳嘉年华的所有事件。"
+        },
+        "tchinese": {
+          "name": "心跳嘉年華全通關",
+          "description": "通關心跳嘉年華的所有事件。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_14": {
+      "translations": {
+        "english": {
+          "name": "Super Bookworm",
+          "description": "Action Event: Achieve a Perfect on Book Hunting with Kaname."
+        },
+        "japanese": {
+          "name": "スーパー読書家",
+          "description": "アクションイベント：かなめと本探しをパーフェクトでクリアした。"
+        },
+        "koreana": {
+          "name": "슈퍼 독서가",
+          "description": "액션 이벤트: 카나메와 책 찾기를 퍼펙트로 클리어했다."
+        },
+        "schinese": {
+          "name": "超级读书家",
+          "description": "以完美评价通关行动事件：和奏雨一起找书。"
+        },
+        "tchinese": {
+          "name": "超級讀書家",
+          "description": "以完美評價通關行動事件：和奏雨一起找書。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_15": {
+      "translations": {
+        "english": {
+          "name": "Super Monster Hunter",
+          "description": "Action Event: Achieve a Perfect on Kaname and the Strange Creature."
+        },
+        "japanese": {
+          "name": "スーパーモンスターハンター",
+          "description": "アクションイベント：かなめと召喚された怪物をパーフェクトでクリアした。"
+        },
+        "koreana": {
+          "name": "슈퍼 몬스터 헌터",
+          "description": "액션 이벤트: 카나메와 소환된 괴물을 퍼펙트로 클리어했다."
+        },
+        "schinese": {
+          "name": "超级怪物猎人",
+          "description": "以完美评价通关行动事件：奏雨和召唤出来的怪物。"
+        },
+        "tchinese": {
+          "name": "超級怪物獵人",
+          "description": "以完美評價通關行動事件：奏雨和召喚出來的怪物。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_16": {
+      "translations": {
+        "english": {
+          "name": "Super Trainer",
+          "description": "Action Event: Achieve a Perfect on Poolside Training with Akira."
+        },
+        "japanese": {
+          "name": "スーパー鉄球マスター",
+          "description": "アクションイベント：晶とプール特訓パーフェクトでクリアした。"
+        },
+        "koreana": {
+          "name": "슈퍼 쇠공 마스터",
+          "description": "액션 이벤트: 아키라와 수영장 특훈을 퍼펙트로 클리어했다."
+        },
+        "schinese": {
+          "name": "超级铁球大师",
+          "description": "以完美评价通关行动事件：和晶一起泳池特训。"
+        },
+        "tchinese": {
+          "name": "超級鐵球大師",
+          "description": "以完美評價通關行動事件：和晶一起泳池特訓。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_17": {
+      "translations": {
+        "english": {
+          "name": "Super Bully",
+          "description": "Action Event: Achieve a Perfect on Gale-Force Showdown with Akira."
+        },
+        "japanese": {
+          "name": "スーパーいじめっ子",
+          "description": "アクションイベント：晶と強風の闘いをパーフェクトでクリアした。"
+        },
+        "koreana": {
+          "name": "슈퍼 심술쟁이",
+          "description": "액션 이벤트: 아키라와 강풍의 싸움을 퍼펙트로 클리어했다."
+        },
+        "schinese": {
+          "name": "超级欺负人",
+          "description": "以完美评价通关行动事件：晶和强风的战斗。"
+        },
+        "tchinese": {
+          "name": "超級欺負人",
+          "description": "以完美評價通關行動事件：晶和強風的戰鬥。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_18": {
+      "translations": {
+        "english": {
+          "name": "Super Model",
+          "description": "Action Event: Achieve a Perfect on Art Modeling with Kaoruko."
+        },
+        "japanese": {
+          "name": "スーパーモデル",
+          "description": "アクションイベント：薫子と絵のモデルをパーフェクトでクリアした。"
+        },
+        "koreana": {
+          "name": "슈퍼 모델",
+          "description": "액션 이벤트: 카오루코와 그림 모델을 퍼펙트로 클리어했다."
+        },
+        "schinese": {
+          "name": "超级模特儿",
+          "description": "以完美评价通关行动事件：薰子和绘画模特儿。"
+        },
+        "tchinese": {
+          "name": "超級模特兒",
+          "description": "以完美評價通關行動事件：薰子和繪畫模特兒。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_19": {
+      "translations": {
+        "english": {
+          "name": "Super Escape Artist",
+          "description": "Action Event: Achieve a Perfect on Kaoruko Rescue Mission."
+        },
+        "japanese": {
+          "name": "スーパー檻破り",
+          "description": "アクションイベント：薫子救出大作戦をパーフェクトでクリアした。"
+        },
+        "koreana": {
+          "name": "슈퍼 감옥 파괴자",
+          "description": "액션 이벤트: 카오루코 구출 대작전을 퍼펙트로 클리어했다."
+        },
+        "schinese": {
+          "name": "超级脱逃家",
+          "description": "以完美评价通关行动事件：拯救薰子大作战。"
+        },
+        "tchinese": {
+          "name": "超級脫逃家",
+          "description": "以完美評價通關行動事件：拯救薰子大作戰。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_20": {
+      "translations": {
+        "english": {
+          "name": "Super Composer",
+          "description": "Action Event: Achieve a Perfect on Music Composition with Aoi."
+        },
+        "japanese": {
+          "name": "スーパー作曲家",
+          "description": "アクションイベント：葵と2人で曲作りをパーフェクトでクリアした。"
+        },
+        "koreana": {
+          "name": "슈퍼 작곡가",
+          "description": "액션 이벤트: 아오이와 둘이서 작곡을 퍼펙트로 클리어했다."
+        },
+        "schinese": {
+          "name": "超级作曲家",
+          "description": "以完美评价通关行动事件：和葵2人一起作曲。"
+        },
+        "tchinese": {
+          "name": "超級作曲家",
+          "description": "以完美評價通關行動事件：和葵２人一起作曲。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_21": {
+      "translations": {
+        "english": {
+          "name": "Super Producer",
+          "description": "Action Event: Achieve a Perfect on Aoi's Surprise Concert."
+        },
+        "japanese": {
+          "name": "スーパープロデューサー",
+          "description": "アクションイベント：葵のゲリラライブをパーフェクトでクリアした。"
+        },
+        "koreana": {
+          "name": "슈퍼 프로듀서",
+          "description": "액션 이벤트: 아오이의 게릴라 라이브를 퍼펙트로 클리어했다."
+        },
+        "schinese": {
+          "name": "超级制作人",
+          "description": "以完美评价通关行动事件：葵的突击演唱会。"
+        },
+        "tchinese": {
+          "name": "超級製作人",
+          "description": "以完美評價通關行動事件：葵的突擊演唱會。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_22": {
+      "translations": {
+        "english": {
+          "name": "Rank S",
+          "description": "Achieve S Rank."
+        },
+        "japanese": {
+          "name": "ランク達成　Ｓ",
+          "description": "Ｓランクに到達した。"
+        },
+        "koreana": {
+          "name": "랭크 달성 S",
+          "description": "S랭크에 도달했다."
+        },
+        "schinese": {
+          "name": "达成评等 S",
+          "description": "达成S评等。"
+        },
+        "tchinese": {
+          "name": "達成評等　Ｓ",
+          "description": "達成Ｓ評等。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_23": {
+      "translations": {
+        "english": {
+          "name": "Rank SS",
+          "description": "Achieve SS Rank."
+        },
+        "japanese": {
+          "name": "ランク達成　ＳＳ　",
+          "description": "ＳＳランクに到達した。"
+        },
+        "koreana": {
+          "name": "랭크 달성 SS",
+          "description": "SS랭크에 도달했다."
+        },
+        "schinese": {
+          "name": "达成评等 SS",
+          "description": "达成SS评等。"
+        },
+        "tchinese": {
+          "name": "達成評等　ＳＳ",
+          "description": "達成ＳＳ評等。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_24": {
+      "translations": {
+        "english": {
+          "name": "Godlike",
+          "description": "Achieve 神 Rank."
+        },
+        "japanese": {
+          "name": "ランク達成　神",
+          "description": "神ランクに到達した。"
+        },
+        "koreana": {
+          "name": "랭크 달성 신",
+          "description": "신 랭크에 도달했다."
+        },
+        "schinese": {
+          "name": "达成评等 神",
+          "description": "达成神评等。"
+        },
+        "tchinese": {
+          "name": "達成評等　神",
+          "description": "達成神評等。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_25": {
+      "translations": {
+        "english": {
+          "name": "Ecstacy Speedster",
+          "description": "Get 5 Speed Bonuses in a row in Score Attack Mode."
+        },
+        "japanese": {
+          "name": "スピードエクスタシーマスター",
+          "description": "スコアアタックモードで5回連続でスピードボーナスを獲得した。"
+        },
+        "koreana": {
+          "name": "스피드 엑스터시 마스터",
+          "description": "스코어 어택 모드에서 5회 연속으로 스피드 보너스를 획득했다."
+        },
+        "schinese": {
+          "name": "高速快感大师",
+          "description": "在分数竞赛模式中连续获得5次速度奖励。"
+        },
+        "tchinese": {
+          "name": "高速快感大師",
+          "description": "在分數競賽模式中連續獲得５次速度獎勵。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_26": {
+      "translations": {
+        "english": {
+          "name": "Ecstacy Combo Master",
+          "description": "Get 30 Ecstasy Shots in a row in Score Attack mode."
+        },
+        "japanese": {
+          "name": "エクスタシーコンボマスター",
+          "description": "スコアアタックモードでエクスタシーショットを30回連続で成功させた。"
+        },
+        "koreana": {
+          "name": "엑스터시 콤보 마스터",
+          "description": "스코어 어택 모드에서 엑스터시 샷을 30회 연속으로 성공시켰다."
+        },
+        "schinese": {
+          "name": "快感连击大师",
+          "description": "在分数竞赛模式中连续30次快感射击成功。"
+        },
+        "tchinese": {
+          "name": "快感連擊大師",
+          "description": "在分數競賽模式中連續３０次快感射擊成功。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_27": {
+      "translations": {
+        "english": {
+          "name": "Lovey-Dovey Kaname",
+          "description": "Finish with Kaname's Doki Doki Gauge at 200%."
+        },
+        "japanese": {
+          "name": "かなめとラブラブ",
+          "description": "クリア時のかなめのヒロインドキドキゲージが200％に到達した。"
+        },
+        "koreana": {
+          "name": "카나메와 러브러브",
+          "description": "클리어 시에 카나메의 히로인 두근두근 게이지가 200%에 도달했다."
+        },
+        "schinese": {
+          "name": "和奏雨甜甜蜜蜜",
+          "description": "在通关时奏雨的女主角心跳量值达到200%。"
+        },
+        "tchinese": {
+          "name": "和奏雨甜甜蜜蜜",
+          "description": "在通關時奏雨的女主角心跳量值達到200%。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_28": {
+      "translations": {
+        "english": {
+          "name": "Lovey-Dovey Akira",
+          "description": "Finish with Akira's Doki Doki Gauge at 200%."
+        },
+        "japanese": {
+          "name": "晶とラブラブ",
+          "description": "クリア時の晶のヒロインドキドキゲージが200％に到達した。"
+        },
+        "koreana": {
+          "name": "아키라와 러브러브",
+          "description": "클리어 시에 아키라의 히로인 두근두근 게이지가 200%에 도달했다."
+        },
+        "schinese": {
+          "name": "和晶甜甜蜜蜜",
+          "description": "在通关时晶的女主角心跳量值达到200%。"
+        },
+        "tchinese": {
+          "name": "和晶甜甜蜜蜜",
+          "description": "在通關時晶的女主角心跳量值達到200%。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_29": {
+      "translations": {
+        "english": {
+          "name": "Lovey-Dovey Kaoruko",
+          "description": "Finish with Kaoruko's Doki Doki Gauge at 200%."
+        },
+        "japanese": {
+          "name": "薫子とラブラブ",
+          "description": "クリア時の薫子のヒロインドキドキゲージが200％に到達した。"
+        },
+        "koreana": {
+          "name": "카오루코와 러브러브",
+          "description": "클리어 시에 카오루코의 히로인 두근두근 게이지가 200%에 도달했다."
+        },
+        "schinese": {
+          "name": "和薰子甜甜蜜蜜",
+          "description": "在通关时薰子的女主角心跳量值达到200%。"
+        },
+        "tchinese": {
+          "name": "和薰子甜甜蜜蜜",
+          "description": "在通關時薰子的女主角心跳量值達到200%。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_30": {
+      "translations": {
+        "english": {
+          "name": "Lovey-Dovey Aoi",
+          "description": "Finish with Aoi's Doki Doki Gauge at 200%."
+        },
+        "japanese": {
+          "name": "葵とラブラブ",
+          "description": "クリア時の葵のヒロインドキドキゲージが200％に到達した。"
+        },
+        "koreana": {
+          "name": "아오이와 러브러브",
+          "description": "클리어 시에 아오이의 히로인 두근두근 게이지가 200%에 도달했다."
+        },
+        "schinese": {
+          "name": "和葵甜甜蜜蜜",
+          "description": "在通关时葵的女主角心跳量值达到200%。"
+        },
+        "tchinese": {
+          "name": "和葵甜甜蜜蜜",
+          "description": "在通關時葵的女主角心跳量值達到200%。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_31": {
+      "translations": {
+        "english": {
+          "name": "Profile Completionist",
+          "description": "Obtain all profiles."
+        },
+        "japanese": {
+          "name": "プロフィール制覇",
+          "description": "プロフィールを全て獲得した。"
+        },
+        "koreana": {
+          "name": "프로필 제패",
+          "description": "프로필을 전부 획득했다."
+        },
+        "schinese": {
+          "name": "称霸个人信息",
+          "description": "获得所有个人信息。"
+        },
+        "tchinese": {
+          "name": "稱霸個人資訊",
+          "description": "獲得所有個人資訊。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_0": {
+      "translations": {
+        "english": {
+          "name": "1st Years' Secrets",
+          "description": "Obtain all 1st Year profiles."
+        },
+        "japanese": {
+          "name": "一年生の秘密",
+          "description": "一年生のプロフィールを全て獲得した。"
+        },
+        "koreana": {
+          "name": "1학년의 비밀",
+          "description": "1학년의 프로필을 전부 획득했다."
+        },
+        "schinese": {
+          "name": "一年级的秘密",
+          "description": "获得所有一年级生的个人信息。"
+        },
+        "tchinese": {
+          "name": "一年級的祕密",
+          "description": "獲得所有一年級生的個人資訊。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_1": {
+      "translations": {
+        "english": {
+          "name": "2nd Years' Secrets",
+          "description": "Obtain all 2nd Year profiles."
+        },
+        "japanese": {
+          "name": "二年生の秘密",
+          "description": "二年生のプロフィールを全て獲得した。"
+        },
+        "koreana": {
+          "name": "2학년의 비밀",
+          "description": "2학년의 프로필을 전부 획득했다."
+        },
+        "schinese": {
+          "name": "二年级的秘密",
+          "description": "获得所有二年级生的个人信息。"
+        },
+        "tchinese": {
+          "name": "二年級的祕密",
+          "description": "獲得所有二年級生的個人資訊。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_2": {
+      "translations": {
+        "english": {
+          "name": "3rd Years' Secrets",
+          "description": "Obtain all 3rd Year profiles."
+        },
+        "japanese": {
+          "name": "三年生の秘密",
+          "description": "三年生のプロフィールを全て獲得した。"
+        },
+        "koreana": {
+          "name": "3학년의 비밀",
+          "description": "3학년의 프로필을 전부 획득했다."
+        },
+        "schinese": {
+          "name": "三年级的秘密",
+          "description": "获得所有三年级生的个人信息。"
+        },
+        "tchinese": {
+          "name": "三年級的祕密",
+          "description": "獲得所有三年級生的個人資訊。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_3": {
+      "translations": {
+        "english": {
+          "name": "Special Secrets",
+          "description": "Obtain all Other Profiles."
+        },
+        "japanese": {
+          "name": "特別な秘密",
+          "description": "その他の女子のプロフィールを全て獲得した。"
+        },
+        "koreana": {
+          "name": "특별한 비밀",
+          "description": "기타 캐릭터의 프로필을 전부 획득했다."
+        },
+        "schinese": {
+          "name": "特别的秘密",
+          "description": "获得所有其他女孩子的个人信息。"
+        },
+        "tchinese": {
+          "name": "特別的祕密",
+          "description": "獲得所有其他女孩子的個人資訊。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_4": {
+      "translations": {
+        "english": {
+          "name": "Title Enthusiast",
+          "description": "Earn all Titles for your collection."
+        },
+        "japanese": {
+          "name": "称号マニア",
+          "description": "全ての称号をコレクションした。"
+        },
+        "koreana": {
+          "name": "칭호 마니아",
+          "description": "모든 칭호를 수집했다."
+        },
+        "schinese": {
+          "name": "称号狂人",
+          "description": "收集所有称号。"
+        },
+        "tchinese": {
+          "name": "稱號狂人",
+          "description": "收集所有稱號。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_5": {
+      "translations": {
+        "english": {
+          "name": "Score Attack - Kaname Route",
+          "description": "Clear Kaname's Route in Score Attack Mode."
+        },
+        "japanese": {
+          "name": "スコアアタッククリア　かなめルート",
+          "description": "スコアアタックモードのかなめルートをクリアした。"
+        },
+        "koreana": {
+          "name": "스코어 어택 클리어 카나메 루트",
+          "description": "스코어 어택 모드의 카나메 루트를 클리어했다."
+        },
+        "schinese": {
+          "name": "分数竞赛通关 奏雨路线",
+          "description": "通关分数竞赛模式中的奏雨路线。"
+        },
+        "tchinese": {
+          "name": "分數競賽通關　奏雨路線",
+          "description": "通關分數競賽模式中的奏雨路線。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_6": {
+      "translations": {
+        "english": {
+          "name": "Score Attack - Akira Route",
+          "description": "Clear Akira's Route in Score Attack Mode."
+        },
+        "japanese": {
+          "name": "スコアアタッククリア　晶ルート",
+          "description": "スコアアタックモードの晶ルートをクリアした。"
+        },
+        "koreana": {
+          "name": "스코어 어택 클리어 아키라 루트",
+          "description": "스코어 어택 모드의 아키라 루트를 클리어했다."
+        },
+        "schinese": {
+          "name": "分数竞赛通关 晶路线",
+          "description": "通关分数竞赛模式中的晶路线。"
+        },
+        "tchinese": {
+          "name": "分數競賽通關　晶路線",
+          "description": "通關分數競賽模式中的晶路線。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_7": {
+      "translations": {
+        "english": {
+          "name": "Score Attack - Kaoruko Route",
+          "description": "Clear Kaoruko's Route in Score Attack Mode."
+        },
+        "japanese": {
+          "name": "スコアアタッククリア　薫子ルート",
+          "description": "スコアアタックモードの薫子ルートをクリアした。"
+        },
+        "koreana": {
+          "name": "스코어 어택 클리어 카오루코 루트",
+          "description": "스코어 어택 모드의 카오루코 루트를 클리어했다."
+        },
+        "schinese": {
+          "name": "分数竞赛通关 薰子路线",
+          "description": "通关分数竞赛模式中的薰子路线。"
+        },
+        "tchinese": {
+          "name": "分數競賽通關　薰子路線",
+          "description": "通關分數競賽模式中的薰子路線。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_8": {
+      "translations": {
+        "english": {
+          "name": "Score Attack - Aoi Route",
+          "description": "Clear Aoi's Route in Score Attack Mode."
+        },
+        "japanese": {
+          "name": "スコアアタッククリア　葵ルート",
+          "description": "スコアアタックモードの葵ルートをクリアした。"
+        },
+        "koreana": {
+          "name": "스코어 어택 클리어 아오이 루트",
+          "description": "스코어 어택 모드의 아오이 루트를 클리어했다."
+        },
+        "schinese": {
+          "name": "分数竞赛通关 葵路线",
+          "description": "通关分数竞赛模式中的葵路线。"
+        },
+        "tchinese": {
+          "name": "分數競賽通關　葵路線",
+          "description": "通關分數競賽模式中的葵路線。"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_9": {
+      "translations": {
+        "english": {
+          "name": "Score Attack - All Routes",
+          "description": "Clear the Combined Route in Score Attack Mode."
+        },
+        "japanese": {
+          "name": "スコアアタッククリア　オールルート",
+          "description": "スコアアタックモードのオールルートをクリアした。"
+        },
+        "koreana": {
+          "name": "스코어 어택 클리어 올 루트",
+          "description": "스코어 어택 모드의 올 루트를 클리어했다."
+        },
+        "schinese": {
+          "name": "分数竞赛通关 全路线",
+          "description": "通关分数竞赛模式中的全路线。"
+        },
+        "tchinese": {
+          "name": "分數競賽通關　全路線",
+          "description": "通關分數競賽模式中的全路線。"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3320 @@
+{
+  "version": 1,
+  "app_id": "489830",
+  "variant_id": "default",
+  "source_sha256": "5801b91c0dca5621d7d31650a6b5bcccb964b8c18a023acbcbdf9be5ab5e2b4d",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish",
+    "tchinese"
+  ],
+  "achievements": {
+    "NEW_ACHIEVEMENT_1_0": {
+      "translations": {
+        "english": {
+          "name": "Unbound",
+          "description": "Complete \"Unbound\""
+        },
+        "french": {
+          "name": "Libération",
+          "description": "Terminer \"Libération\""
+        },
+        "german": {
+          "name": "Entfesselt",
+          "description": "Schließe \"Entfesselt\" ab."
+        },
+        "italian": {
+          "name": "Senza catene",
+          "description": "Completa \"Senza catene\""
+        },
+        "japanese": {
+          "name": "解放 [Unbound]",
+          "description": "“解放”のクエストを完了 [Complete \"Unbound\"]"
+        },
+        "polish": {
+          "name": "Zerwane kajdany",
+          "description": "Ukończ zadanie „Zerwane kajdany”."
+        },
+        "russian": {
+          "name": "На свободу!",
+          "description": "Выполнить задание \"На свободу!\""
+        },
+        "schinese": {
+          "name": "死里逃生",
+          "description": "成功完成「死里逃生」"
+        },
+        "spanish": {
+          "name": "Liberación",
+          "description": "Completa \"Liberación\"."
+        },
+        "tchinese": {
+          "name": "死裡逃生",
+          "description": "成功完成「死裡逃生」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_0": {
+      "translations": {
+        "english": {
+          "name": "Bleak Falls Barrow",
+          "description": "Complete \"Bleak Falls Barrow\""
+        },
+        "french": {
+          "name": "Tertre des chutes tourmentées",
+          "description": "Terminer \"Tertre des chutes tourmentées\""
+        },
+        "german": {
+          "name": "Ödsturzhügelgrab",
+          "description": "Schließe \"Ödsturzhügelgrab\" ab."
+        },
+        "italian": {
+          "name": "Tumulo delle Cascate Tristi",
+          "description": "Completa \"Tumulo delle Cascate Tristi\""
+        },
+        "japanese": {
+          "name": "ブリーク・フォール墓地 [Bleak Falls Barrow]",
+          "description": "“ブリーク・フォール墓地”のクエストを完了 [Complete \"Bleak Falls Barrow\"]"
+        },
+        "polish": {
+          "name": "Czarnygłaz",
+          "description": "Ukończ zadanie „Czarnygłaz”."
+        },
+        "russian": {
+          "name": "Ветреный пик",
+          "description": "Выполнить задание \"Ветреный пик\""
+        },
+        "schinese": {
+          "name": "荒瀑古坟",
+          "description": "成功完成「荒瀑古坟」"
+        },
+        "spanish": {
+          "name": "Túmulo de las Cataratas Lúgubres",
+          "description": "Completa \"Túmulo de las Cataratas Lúgubres\"."
+        },
+        "tchinese": {
+          "name": "荒瀑古墳",
+          "description": "成功完成「荒瀑古墳」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_3_0": {
+      "translations": {
+        "english": {
+          "name": "The Way of the Voice",
+          "description": "Complete \"The Way of the Voice\""
+        },
+        "french": {
+          "name": "L'art de la Voix",
+          "description": "Terminer \"L'art de la Voix\""
+        },
+        "german": {
+          "name": "Der Weg der Stimme",
+          "description": "Schließe \"Der Weg der Stimme\" ab."
+        },
+        "italian": {
+          "name": "La Via della Voce",
+          "description": "Completa \"La Via della Voce\""
+        },
+        "japanese": {
+          "name": "声の道 [The Way of the Voice]",
+          "description": "“声の道”のクエストを完了 [Complete \"The Way of the Voice\"]"
+        },
+        "polish": {
+          "name": "Droga Głosu",
+          "description": "Ukończ zadanie „Droga Głosu”."
+        },
+        "russian": {
+          "name": "Путь Голоса",
+          "description": "Выполнить задание \"Путь Голоса\""
+        },
+        "schinese": {
+          "name": "龙吼之道",
+          "description": "成功完成「龙吼之道」"
+        },
+        "spanish": {
+          "name": "El camino de la Voz",
+          "description": "Completa \"El camino de la Voz\"."
+        },
+        "tchinese": {
+          "name": "龍吼之道",
+          "description": "成功完成「龍吼之道」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_4_0": {
+      "translations": {
+        "english": {
+          "name": "Diplomatic Immunity",
+          "description": "Complete \"Diplomatic Immunity\""
+        },
+        "french": {
+          "name": "Immunité diplomatique",
+          "description": "Terminer \"Immunité diplomatique\""
+        },
+        "german": {
+          "name": "Diplomatische Immunität",
+          "description": "Schließe \"Diplomatische Immunität\" ab."
+        },
+        "italian": {
+          "name": "Immunità diplomatica",
+          "description": "Completa \"Immunità diplomatica\""
+        },
+        "japanese": {
+          "name": "外交特権 [Diplomatic Immunity]",
+          "description": "“外交特権”のクエストを完了 [Complete \"Diplomatic Immunity\"]"
+        },
+        "polish": {
+          "name": "List żelazny",
+          "description": "Ukończ zadanie „List żelazny”."
+        },
+        "russian": {
+          "name": "Дипломатическая неприкосновенность",
+          "description": "Выполнить задание \"Дипломатическая неприкосновенность\""
+        },
+        "schinese": {
+          "name": "外交豁免",
+          "description": "成功完成「外交豁免」"
+        },
+        "spanish": {
+          "name": "Inmunidad diplomática",
+          "description": "Completa \"Inmunidad diplomática\"."
+        },
+        "tchinese": {
+          "name": "外交豁免",
+          "description": "成功完成「外交豁免」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_5_0": {
+      "translations": {
+        "english": {
+          "name": "Alduin's Wall",
+          "description": "Complete \"Alduin's Wall\""
+        },
+        "french": {
+          "name": "Le mur d'Alduin",
+          "description": "Terminer \"Le mur d'Alduin\""
+        },
+        "german": {
+          "name": "Alduins Mauer",
+          "description": "Schließe \"Alduins Mauer\" ab."
+        },
+        "italian": {
+          "name": "Muro di Alduin",
+          "description": "Completa \"Muro di Alduin\""
+        },
+        "japanese": {
+          "name": "アルドゥインの壁 [Alduin's Wall]",
+          "description": "“アルドゥインの壁”のクエストを完了 [Complete \"Alduin's Wall\"]"
+        },
+        "polish": {
+          "name": "Ściana Alduina",
+          "description": "Ukończ zadanie „Ściana Alduina”."
+        },
+        "russian": {
+          "name": "Стена Алдуина",
+          "description": "Выполнить задание \"Стена Алдуина\""
+        },
+        "schinese": {
+          "name": "奥杜因之墙",
+          "description": "成功完成「奥杜因之墙」"
+        },
+        "spanish": {
+          "name": "El Muro de Alduin",
+          "description": "Completa \"El Muro de Alduin\"."
+        },
+        "tchinese": {
+          "name": "奧杜因之牆",
+          "description": "成功完成「奧杜因之牆」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_6_0": {
+      "translations": {
+        "english": {
+          "name": "Elder Knowledge",
+          "description": "Complete \"Elder Knowledge\""
+        },
+        "french": {
+          "name": "Savoir ancien",
+          "description": "Terminer \"Savoir ancien\""
+        },
+        "german": {
+          "name": "Das Wissen der Alten",
+          "description": "Schließe \"Das Wissen der Alten\" ab."
+        },
+        "italian": {
+          "name": "Antica conoscenza",
+          "description": "Completa \"Antica conoscenza\""
+        },
+        "japanese": {
+          "name": "エルダーの知識 [Elder Knowledge]",
+          "description": "“エルダーの知識”のクエストを完了 [Complete \"Elder Knowledge\"]"
+        },
+        "polish": {
+          "name": "Pradawna wiedza",
+          "description": "Ukończ zadanie „Pradawna wiedza”."
+        },
+        "russian": {
+          "name": "Древнее знание",
+          "description": "Выполнить задание \"Древнее знание\""
+        },
+        "schinese": {
+          "name": "上古知识",
+          "description": "成功完成「上古知识」"
+        },
+        "spanish": {
+          "name": "Conocimiento antiguo",
+          "description": "Completa \"Conocimiento antiguo\"."
+        },
+        "tchinese": {
+          "name": "上古知識",
+          "description": "成功完成「上古知識」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_7_0": {
+      "translations": {
+        "english": {
+          "name": "The Fallen",
+          "description": "Complete \"The Fallen\""
+        },
+        "french": {
+          "name": "Le Déchu",
+          "description": "Terminer \"Le Déchu\""
+        },
+        "german": {
+          "name": "Der Gefallene",
+          "description": "Schließe \"Der Gefallene\" ab."
+        },
+        "italian": {
+          "name": "Il caduto",
+          "description": "Completa \"Il caduto\""
+        },
+        "japanese": {
+          "name": "戦死者 [The Fallen]",
+          "description": "“戦死者”のクエストを完了 [Complete \"The Fallen\"]"
+        },
+        "polish": {
+          "name": "Upadły",
+          "description": "Ukończ zadanie „Upadły”."
+        },
+        "russian": {
+          "name": "Падший",
+          "description": "Выполнить задание \"Падший\""
+        },
+        "schinese": {
+          "name": "堕落者",
+          "description": "成功完成「堕落者」"
+        },
+        "spanish": {
+          "name": "El caído",
+          "description": "Completa \"El caído\"."
+        },
+        "tchinese": {
+          "name": "墮落者",
+          "description": "成功完成「墮落者」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_8_0": {
+      "translations": {
+        "english": {
+          "name": "Dragonslayer",
+          "description": "Complete \"Dragonslayer\""
+        },
+        "french": {
+          "name": "La chasse au dragon",
+          "description": "Terminer \"La chasse au dragon\""
+        },
+        "german": {
+          "name": "Drachentöter",
+          "description": "Schließe \"Drachentöter\" ab."
+        },
+        "italian": {
+          "name": "Ammazzadraghi",
+          "description": "Completa \"Ammazzadraghi\""
+        },
+        "japanese": {
+          "name": "ドラゴンスレイヤー [Dragonslayer]",
+          "description": "“ドラゴンスレイヤー”のクエストを完了 [Complete \"Dragonslayer\"]"
+        },
+        "polish": {
+          "name": "Zabójca smoków",
+          "description": "Ukończ zadanie „Zabójca smoków”."
+        },
+        "russian": {
+          "name": "Драконоборец",
+          "description": "Выполнить задание \"Драконоборец\""
+        },
+        "schinese": {
+          "name": "屠龙者",
+          "description": "成功完成「屠龙者」"
+        },
+        "spanish": {
+          "name": "Matadragones",
+          "description": "Completa \"Matadragones\"."
+        },
+        "tchinese": {
+          "name": "屠龍者",
+          "description": "成功完成「屠龍者」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_9_0": {
+      "translations": {
+        "english": {
+          "name": "Take Up Arms",
+          "description": "Join the Companions"
+        },
+        "french": {
+          "name": "Prenez les armes",
+          "description": "Rejoindre les rangs des Compagnons"
+        },
+        "german": {
+          "name": "Zu den Waffen",
+          "description": "Tritt den Gefährten bei."
+        },
+        "italian": {
+          "name": "Chiamata alle armi",
+          "description": "Unisciti ai Compagni"
+        },
+        "japanese": {
+          "name": "戦いを始める [Take Up Arms]",
+          "description": "同胞団に加わる [Join the Companions]"
+        },
+        "polish": {
+          "name": "Chwyć za broń!",
+          "description": "Dołącz do Towarzyszy."
+        },
+        "russian": {
+          "name": "К оружию!",
+          "description": "Вступить в ряды Соратников"
+        },
+        "schinese": {
+          "name": "拿起武器",
+          "description": "加入战友团"
+        },
+        "spanish": {
+          "name": "A las armas",
+          "description": "Únete a los Compañeros."
+        },
+        "tchinese": {
+          "name": "拿起武器",
+          "description": "加入戰友團"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_10_0": {
+      "translations": {
+        "english": {
+          "name": "Blood Oath",
+          "description": "Become a member of the Circle"
+        },
+        "french": {
+          "name": "Le serment du sang",
+          "description": "Devenir un membre du Cercle"
+        },
+        "german": {
+          "name": "Blutschwur",
+          "description": "Werde Mitglied des Zirkels."
+        },
+        "italian": {
+          "name": "Patto di sangue",
+          "description": "Diventa membro del Circolo"
+        },
+        "japanese": {
+          "name": "血の誓い [Blood Oath]",
+          "description": "サークルのメンバーになる [Become a member of the Circle]"
+        },
+        "polish": {
+          "name": "Przysięga krwi",
+          "description": "Dołącz do Kręgu."
+        },
+        "russian": {
+          "name": "Клятва крови",
+          "description": "Стать членом Круга"
+        },
+        "schinese": {
+          "name": "血盟",
+          "description": "成为圆环的一员"
+        },
+        "spanish": {
+          "name": "Juramento de sangre",
+          "description": "Conviértete en un miembro del Círculo."
+        },
+        "tchinese": {
+          "name": "血盟",
+          "description": "成為圓環的一員"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_11_0": {
+      "translations": {
+        "english": {
+          "name": "Glory of the Dead",
+          "description": "Complete \"Glory of the Dead\""
+        },
+        "french": {
+          "name": "Gloire funèbre",
+          "description": "Terminer \"Gloire funèbre\""
+        },
+        "german": {
+          "name": "Zu Ehren der Toten",
+          "description": "Schließe \"Zu Ehren der Toten\" ab."
+        },
+        "italian": {
+          "name": "Gloria ai morti",
+          "description": "Completa \"Gloria ai morti\""
+        },
+        "japanese": {
+          "name": "死者の栄光 [Glory of the Dead]",
+          "description": "“死者の栄光”のクエストを完了 [Complete \"Glory of the Dead\"]"
+        },
+        "polish": {
+          "name": "Chwała poległym",
+          "description": "Ukończ zadanie „Chwała poległym”."
+        },
+        "russian": {
+          "name": "Последний долг",
+          "description": "Выполнить задание \"Последний долг\""
+        },
+        "schinese": {
+          "name": "逝者的荣耀",
+          "description": "成功完成「逝者的荣耀」"
+        },
+        "spanish": {
+          "name": "La gloria de los muertos",
+          "description": "Completa \"La gloria de los muertos\"."
+        },
+        "tchinese": {
+          "name": "逝者的榮耀",
+          "description": "成功完成「逝者的榮耀」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_12_0": {
+      "translations": {
+        "english": {
+          "name": "Gatekeeper",
+          "description": "Join the College of Winterhold"
+        },
+        "french": {
+          "name": "Gardien",
+          "description": "Rejoindre l'Académie de Fortdhiver"
+        },
+        "german": {
+          "name": "Torwächter",
+          "description": "Tritt der Akademie von Winterfeste bei."
+        },
+        "italian": {
+          "name": "Custode",
+          "description": "Entra all'Accademia di Winterhold"
+        },
+        "japanese": {
+          "name": "ゲートキーパー [Gatekeeper]",
+          "description": "ウィンターホールド大学に入る [Join the College of Winterhold]"
+        },
+        "polish": {
+          "name": "Próba magii",
+          "description": "Dołącz do Akademii w Zimowej Twierdzy."
+        },
+        "russian": {
+          "name": "Шаг к знаниям",
+          "description": "Вступить в Коллегию Винтерхолда"
+        },
+        "schinese": {
+          "name": "守门人",
+          "description": "加入冬堡学院"
+        },
+        "spanish": {
+          "name": "Guardián de la puerta",
+          "description": "Entra en el Colegio de Hibernalia."
+        },
+        "tchinese": {
+          "name": "守門人",
+          "description": "加入冬堡學院"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_13_0": {
+      "translations": {
+        "english": {
+          "name": "Revealing the Unseen",
+          "description": "Complete \"Revealing the Unseen\""
+        },
+        "french": {
+          "name": "Voir l'invisible",
+          "description": "Terminer \"Voir l'invisible\""
+        },
+        "german": {
+          "name": "Enthüllung des Ungesehenen",
+          "description": "Schließe \"Enthüllung des Ungesehenen\" ab."
+        },
+        "italian": {
+          "name": "Rivelare l'invisibile",
+          "description": "Completa \"Rivelare l'invisibile\""
+        },
+        "japanese": {
+          "name": "見えぬものを暴く [Revealing the Unseen]",
+          "description": "“見えぬものを暴く”のクエストを完了 [Complete \"Revealing the Unseen\"]"
+        },
+        "polish": {
+          "name": "Ujawnianie niewidocznego",
+          "description": "Ukończ zadanie „Ujawnianie niewidocznego”."
+        },
+        "russian": {
+          "name": "Открытие невидимого",
+          "description": "Выполнить задание \"Открытие невидимого\""
+        },
+        "schinese": {
+          "name": "揭开未知之谜",
+          "description": "成功完成「揭开未知之谜」"
+        },
+        "spanish": {
+          "name": "Revelando lo inadvertido",
+          "description": "Completa \"Revelando lo inadvertido\"."
+        },
+        "tchinese": {
+          "name": "揭開未知之謎",
+          "description": "成功完成「揭開未知之謎」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_14_0": {
+      "translations": {
+        "english": {
+          "name": "The Eye of Magnus",
+          "description": "Complete \"The Eye of Magnus\""
+        },
+        "french": {
+          "name": "L'Oeil de Magnus",
+          "description": "Terminer \"L'Oeil de Magnus\""
+        },
+        "german": {
+          "name": "Das Auge von Magnus",
+          "description": "Schließe \"Das Auge von Magnus\" ab."
+        },
+        "italian": {
+          "name": "L'Occhio di Magnus",
+          "description": "Completa \"L'Occhio di Magnus\""
+        },
+        "japanese": {
+          "name": "マグナスの目 [The Eye of Magnus]",
+          "description": "“マグナスの目”のクエストを完了 [Complete \"The Eye of Magnus\"]"
+        },
+        "polish": {
+          "name": "Oko Magnusa",
+          "description": "Ukończ zadanie „Oko Magnusa”."
+        },
+        "russian": {
+          "name": "Око Магнуса",
+          "description": "Выполнить задание \"Око Магнуса\""
+        },
+        "schinese": {
+          "name": "玛格努斯之眼",
+          "description": "成功完成「玛格努斯之眼」"
+        },
+        "spanish": {
+          "name": "El Ojo de Magnus",
+          "description": "Completa \"El Ojo de Magnus\"."
+        },
+        "tchinese": {
+          "name": "瑪格努斯之眼",
+          "description": "成功完成「瑪格努斯之眼」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_15_0": {
+      "translations": {
+        "english": {
+          "name": "Taking Care of Business",
+          "description": "Join the Thieves Guild"
+        },
+        "french": {
+          "name": "Les affaires sont les affaires",
+          "description": "Rejoindre la Guilde des voleurs"
+        },
+        "german": {
+          "name": "Geschäft ist Geschäft",
+          "description": "Tritt der Diebesgilde bei."
+        },
+        "italian": {
+          "name": "Occuparsi degli affari",
+          "description": "Entra nella Gilda dei Ladri"
+        },
+        "japanese": {
+          "name": "仕事の始末 [Taking Care of Business]",
+          "description": "盗賊ギルドに入る [Join the Thieves Guild]"
+        },
+        "polish": {
+          "name": "Biznesowe podejście",
+          "description": "Dołącz do Gildii Złodziei."
+        },
+        "russian": {
+          "name": "Темные делишки",
+          "description": "Вступить в Гильдию воров"
+        },
+        "schinese": {
+          "name": "误入歧途",
+          "description": "加入盗贼公会"
+        },
+        "spanish": {
+          "name": "A cargo del negocio",
+          "description": "Únete al gremio de ladrones."
+        },
+        "tchinese": {
+          "name": "誤入歧途",
+          "description": "加入盜賊公會"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_16_0": {
+      "translations": {
+        "english": {
+          "name": "Darkness Returns",
+          "description": "Complete \"Darkness Returns\""
+        },
+        "french": {
+          "name": "Vision nocturne",
+          "description": "Terminer \"Vision nocturne\""
+        },
+        "german": {
+          "name": "Die Rückkehr der Finsternis",
+          "description": "Schließe \"Die Rückkehr der Finsternis\" ab."
+        },
+        "italian": {
+          "name": "Il ritorno dell'oscurità",
+          "description": "Completa \"Il ritorno dell'oscurità\""
+        },
+        "japanese": {
+          "name": "ダークネス・リターンズ [Darkness Returns]",
+          "description": "“ダークネス・リターンズ”のクエストを完了 [Complete \"Darkness Returns\"]"
+        },
+        "polish": {
+          "name": "Powrót ciemności",
+          "description": "Ukończ zadanie „Powrót ciemności”."
+        },
+        "russian": {
+          "name": "Возвращение сумерек",
+          "description": "Выполнить задание \"Возвращение сумерек\""
+        },
+        "schinese": {
+          "name": "黑暗回归",
+          "description": "成功完成「黑暗回归」"
+        },
+        "spanish": {
+          "name": "El regreso de las tinieblas",
+          "description": "Completa \"El regreso de las tinieblas\"."
+        },
+        "tchinese": {
+          "name": "黑暗回歸",
+          "description": "成功完成「黑暗回歸」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_17_0": {
+      "translations": {
+        "english": {
+          "name": "One with the Shadows",
+          "description": "Returned the Thieves Guild to its former glory"
+        },
+        "french": {
+          "name": "Le triomphe des ombres",
+          "description": "Rendre à la Guilde des voleurs sa gloire d'antan"
+        },
+        "german": {
+          "name": "Eins mit den Schatten",
+          "description": "Verhilf der Diebesgilde wieder zu altem Glanz."
+        },
+        "italian": {
+          "name": "Unirsi alle ombre",
+          "description": "Riporta la Gilda dei Ladri alla sua gloria originaria"
+        },
+        "japanese": {
+          "name": "影とともに在る者 [One with the Shadows]",
+          "description": "盗賊ギルドのかつての栄光を取り戻した [Returned the Thieves Guild to its former glory]"
+        },
+        "polish": {
+          "name": "Jedność z cieniem",
+          "description": "Przywróć dawną chwałę Gildii Złodziei."
+        },
+        "russian": {
+          "name": "Слиться с тенями...",
+          "description": "Восстановить былое величие Гильдии воров"
+        },
+        "schinese": {
+          "name": "阴影合一",
+          "description": "让盗贼公会返回昔日的荣耀"
+        },
+        "spanish": {
+          "name": "Uno con las sombras",
+          "description": "Se ha restituido la gloria del gremio de ladrones."
+        },
+        "tchinese": {
+          "name": "陰影合一",
+          "description": "讓盜賊公會返回昔日的榮耀"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_18_0": {
+      "translations": {
+        "english": {
+          "name": "With Friends Like These…",
+          "description": "Join the Dark Brotherhood"
+        },
+        "french": {
+          "name": "Mauvaises fréquentations",
+          "description": "Rejoindre la Confrérie noire"
+        },
+        "german": {
+          "name": "Wer solche Freunde hat ...",
+          "description": "Tritt der Dunklen Bruderschaft bei."
+        },
+        "italian": {
+          "name": "Con amici come questi...",
+          "description": "Entra nella Confraternita Oscura"
+        },
+        "japanese": {
+          "name": "彼の者達とともに… [With Friends Like These…]",
+          "description": "闇の一党に加わる [Join the Dark Brotherhoo]"
+        },
+        "polish": {
+          "name": "Z takimi przyjaciółmi…",
+          "description": "Dołącz do Mrocznego Bractwa."
+        },
+        "russian": {
+          "name": "Смертельно опасен",
+          "description": "Вступить в Темное Братство"
+        },
+        "schinese": {
+          "name": "近墨者黑……",
+          "description": "加入黑暗兄弟会"
+        },
+        "spanish": {
+          "name": "Con amigos así...",
+          "description": "Únete a la Hermandad Oscura."
+        },
+        "tchinese": {
+          "name": "近墨者黑……",
+          "description": "加入黑暗兄弟會"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_19_0": {
+      "translations": {
+        "english": {
+          "name": "Bound Until Death",
+          "description": "Complete \"Bound Until Death\""
+        },
+        "french": {
+          "name": "Jusqu'à la mort",
+          "description": "Terminer \"Jusqu'à ce que la mort nous sépare\""
+        },
+        "german": {
+          "name": "Bis dass der Tod euch scheidet",
+          "description": "Schließe \"Bis dass der Tod euch scheidet\" ab."
+        },
+        "italian": {
+          "name": "Finché morte non vi separi",
+          "description": "Completa \"Finché morte non vi separi\""
+        },
+        "japanese": {
+          "name": "死するまで拘束される [Bound Until Death]",
+          "description": "“死するまで拘束される”のクエストを完了 [Complete \"Bound Until Death\"]"
+        },
+        "polish": {
+          "name": "Póki śmierć nas nie rozłączy",
+          "description": "Ukończ zadanie „Póki śmierć nas nie rozłączy”."
+        },
+        "russian": {
+          "name": "Пока смерть не разлучит нас",
+          "description": "Выполнить задание \"Пока смерть не разлучит нас\""
+        },
+        "schinese": {
+          "name": "至死不渝",
+          "description": "成功完成「至死不渝」"
+        },
+        "spanish": {
+          "name": "Hasta que la muerte los separe",
+          "description": "Completa \"Hasta que la muerte los separe\"."
+        },
+        "tchinese": {
+          "name": "至死不渝",
+          "description": "成功完成「至死不渝」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_20_0": {
+      "translations": {
+        "english": {
+          "name": "Hail Sithis!",
+          "description": "Complete \"Hail Sithis!\""
+        },
+        "french": {
+          "name": "Gloire à Sithis !",
+          "description": "Terminer \"Gloire à Sithis !\""
+        },
+        "german": {
+          "name": "Heil Sithis!",
+          "description": "Schließe \"Heil Sithis!\" ab."
+        },
+        "italian": {
+          "name": "Ave Sithis!",
+          "description": "Completa \"Ave Sithis!\""
+        },
+        "japanese": {
+          "name": "シシス万歳！ [Hail Sithis!]",
+          "description": "“シシス万歳！”のクエストを完了 [Complete \"Hail Sithis!\"]"
+        },
+        "polish": {
+          "name": "Chwała Sithisowi!",
+          "description": "Ukończ zadanie „Chwała Sithisowi!”."
+        },
+        "russian": {
+          "name": "Слава Ситису!",
+          "description": "Выполнить задание \"Слава Ситису!\""
+        },
+        "schinese": {
+          "name": "西帝斯万岁！",
+          "description": "成功完成「西帝斯万岁！」"
+        },
+        "spanish": {
+          "name": "¡Salve, Sithis!",
+          "description": "Completa \"¡Salve, Sithis!\"."
+        },
+        "tchinese": {
+          "name": "西帝斯萬歲！",
+          "description": "成功完成「西帝斯萬歲！」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_21_0": {
+      "translations": {
+        "english": {
+          "name": "Taking Sides",
+          "description": "Join the Stormcloaks or the Imperial Army"
+        },
+        "french": {
+          "name": "Choisir son camp",
+          "description": "Rejoindre les Sombrages ou l'Armée Impériale"
+        },
+        "german": {
+          "name": "Parteiisch",
+          "description": "Tritt den Sturmmänteln oder der kaiserlichen Armee bei."
+        },
+        "italian": {
+          "name": "Scegliere",
+          "description": "Unisciti ai Manto della Tempesta o all'Esercito Imperiale"
+        },
+        "japanese": {
+          "name": "二者択一 [Taking Sides]",
+          "description": "ストームクロークか帝国軍のどちらかに加わる [Join the Stormcloaks or the Imperial Army]"
+        },
+        "polish": {
+          "name": "Stronniczość",
+          "description": "Dołącz do Gromowładnych albo do Legionu."
+        },
+        "russian": {
+          "name": "Выбор союзника",
+          "description": "Встать на сторону Братьев Бури или Имперского легиона"
+        },
+        "schinese": {
+          "name": "选边站",
+          "description": "选择加入风暴斗篷或是帝国军团"
+        },
+        "spanish": {
+          "name": "Tomando partido",
+          "description": "Únete a los Capas de la Tormenta o al ejército Imperial."
+        },
+        "tchinese": {
+          "name": "選邊站",
+          "description": "選擇加入風暴斗篷或是帝國軍團"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_22_0": {
+      "translations": {
+        "english": {
+          "name": "War Hero",
+          "description": "Capture Fort Sungard or Fort Greenwall"
+        },
+        "french": {
+          "name": "Héros de guerre",
+          "description": "Prendre Fort Gardesol ou Fort Tiremuraille"
+        },
+        "german": {
+          "name": "Kriegsheld",
+          "description": "Erobere Festung Sonnwacht oder Festung Grünwall."
+        },
+        "italian": {
+          "name": "Eroe di guerra",
+          "description": "Conquista Forte Sungard o Forte Greenwall"
+        },
+        "japanese": {
+          "name": "戦争の英雄 [War Hero]",
+          "description": "サンガード砦かグリーンウォール砦のどちらかを制圧 [Capture Fort Sungard or Fort Greenwall]"
+        },
+        "polish": {
+          "name": "Bohater wojenny",
+          "description": "Zdobądź fort Sungard albo fort Zielony Mur."
+        },
+        "russian": {
+          "name": "Герой войны",
+          "description": "Захватить форт Сангард или форт Гринвол"
+        },
+        "schinese": {
+          "name": "战争英雄",
+          "description": "攻陷森加德堡垒或是青垣要塞"
+        },
+        "spanish": {
+          "name": "Héroe de guerra",
+          "description": "Captura el fuerte Sungard o el fuerte Muro Verde."
+        },
+        "tchinese": {
+          "name": "戰爭英雄",
+          "description": "攻陷森加德堡壘或是青垣要塞"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_23_0": {
+      "translations": {
+        "english": {
+          "name": "Hero of Skyrim",
+          "description": "Capture Solitude or Windhelm"
+        },
+        "french": {
+          "name": "Héros de Bordeciel",
+          "description": "Prendre Solitude ou Vendeaume"
+        },
+        "german": {
+          "name": "Held von Himmelsrand",
+          "description": "Erobere Einsamkeit oder Windhelm."
+        },
+        "italian": {
+          "name": "Eroe di Skyrim",
+          "description": "Conquista Solitude o Windhelm"
+        },
+        "japanese": {
+          "name": "スカイリムの英雄 [Hero of Skyrim]",
+          "description": "ソリチュードかウィンドヘルムのどちらかを制圧 [Capture Solitude or Windhelm]"
+        },
+        "polish": {
+          "name": "Bohater Skyrim",
+          "description": "Zdobądź Samotnię albo Wichrowy Tron."
+        },
+        "russian": {
+          "name": "Герой Скайрима",
+          "description": "Захватить Солитьюд или Виндхельм"
+        },
+        "schinese": {
+          "name": "天际省的英雄",
+          "description": "攻陷独孤城或是风舵城"
+        },
+        "spanish": {
+          "name": "Héroe de Skyrim",
+          "description": "Captura Soledad o Ventalia."
+        },
+        "tchinese": {
+          "name": "天際省的英雄",
+          "description": "攻陷獨孤城或是風舵城"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_24_0": {
+      "translations": {
+        "english": {
+          "name": "Sideways",
+          "description": "Complete 10 side quests"
+        },
+        "french": {
+          "name": "Détours",
+          "description": "Terminer 10 quêtes secondaires"
+        },
+        "german": {
+          "name": "Auf Seitenwegen",
+          "description": "Schließe 10 Nebenquests ab."
+        },
+        "italian": {
+          "name": "Strade secondarie",
+          "description": "Completa 10 missioni secondarie"
+        },
+        "japanese": {
+          "name": "寄り道 [Sideways]",
+          "description": "サイドクエストを10個完了 [Complete 10 side quests]"
+        },
+        "polish": {
+          "name": "Naokoło",
+          "description": "Ukończ 10 pobocznych zadań."
+        },
+        "russian": {
+          "name": "Побоку!",
+          "description": "Выполнить 10 побочных заданий"
+        },
+        "schinese": {
+          "name": "岔路",
+          "description": "完成10项副线任务"
+        },
+        "spanish": {
+          "name": "De soslayo",
+          "description": "Completa 10 misiones secundarias."
+        },
+        "tchinese": {
+          "name": "岔路",
+          "description": "完成10項副線任務"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_25_0": {
+      "translations": {
+        "english": {
+          "name": "Hero of the People",
+          "description": "Complete 50 Misc Objectives"
+        },
+        "french": {
+          "name": "Héros du peuple",
+          "description": "Accomplir 50 objectifs divers"
+        },
+        "german": {
+          "name": "Held des Volkes",
+          "description": "Schließe 50 sonstige Ziele ab."
+        },
+        "italian": {
+          "name": "Eroe del popolo",
+          "description": "Completa 50 obiettivi vari"
+        },
+        "japanese": {
+          "name": "人民の英雄 [Hero of the People]",
+          "description": "その他の目的を50個完了 [Complete 50 Misc Objectives]"
+        },
+        "polish": {
+          "name": "Bohater ludu",
+          "description": "Ukończ 50 zadań różnych."
+        },
+        "russian": {
+          "name": "Герой народа",
+          "description": "Выполнить 50 мелких заданий"
+        },
+        "schinese": {
+          "name": "人民的英雄",
+          "description": "完成50项杂项任务"
+        },
+        "spanish": {
+          "name": "Héroe del pueblo",
+          "description": "Completa 50 objetivos varios."
+        },
+        "tchinese": {
+          "name": "人民的英雄",
+          "description": "完成50項雜項任務"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_26_0": {
+      "translations": {
+        "english": {
+          "name": "Hard Worker",
+          "description": "Chop wood, mine ore, and cook food"
+        },
+        "french": {
+          "name": "Dur à la tâche",
+          "description": "Couper du bois, travailler à la mine et cuisiner"
+        },
+        "german": {
+          "name": "Harte Arbeit",
+          "description": "Hacke Holz, baue Erz ab und koche Essen."
+        },
+        "italian": {
+          "name": "Gran lavoratore",
+          "description": "Taglia la legna, estrai i minerali e cucina il cibo"
+        },
+        "japanese": {
+          "name": "働き者 [Hard Worker]",
+          "description": "薪を割り、鉱石を掘り、料理をする [Chop wood, mine ore, and cook food]"
+        },
+        "polish": {
+          "name": "Ciężka praca",
+          "description": "Porąb drewno, wydobądź rudę i ugotuj jedzenie."
+        },
+        "russian": {
+          "name": "Труженик",
+          "description": "Поработать на лесопилке, в шахте и на кухне"
+        },
+        "schinese": {
+          "name": "苦力",
+          "description": "劈柴、挖矿、煮饭"
+        },
+        "spanish": {
+          "name": "Trabajador duro",
+          "description": "Corta madera, extrae mineral y cocina."
+        },
+        "tchinese": {
+          "name": "苦力",
+          "description": "劈柴、挖礦、煮飯"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_27_0": {
+      "translations": {
+        "english": {
+          "name": "Thief",
+          "description": "Pick 50 locks and 50 pockets"
+        },
+        "french": {
+          "name": "Voleur",
+          "description": "Crocheter 50 serrures et faire 50 poches"
+        },
+        "german": {
+          "name": "Langfinger",
+          "description": "Knacke 50 Schlösser und stiehl aus 50 Taschen."
+        },
+        "italian": {
+          "name": "Furfante",
+          "description": "Scassina 50 serrature e borseggia 50 persone"
+        },
+        "japanese": {
+          "name": "盗賊 [Thief]",
+          "description": "鍵を50個破り、スリを50回する [Pick 50 locks and 50 pockets]"
+        },
+        "polish": {
+          "name": "Złodziej",
+          "description": "Otwórz 50 zamków i okradnij 50 osób."
+        },
+        "russian": {
+          "name": "Заслуженный вор",
+          "description": "Взломать 50 замков и совершить 50 карманных краж"
+        },
+        "schinese": {
+          "name": "小偷",
+          "description": "打开50道锁以及扒窃50次"
+        },
+        "spanish": {
+          "name": "Ladrón",
+          "description": "Fuerza 50 cerraduras y roba 50 bolsillos."
+        },
+        "tchinese": {
+          "name": "小偷",
+          "description": "打開50道鎖以及扒竊50次"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_28_0": {
+      "translations": {
+        "english": {
+          "name": "Snake Tongue",
+          "description": "Successfully persuade, bribe, and intimidate"
+        },
+        "french": {
+          "name": "Langue de serpent",
+          "description": "Convaincre par persuasion, pot-de-vin et intimidation"
+        },
+        "german": {
+          "name": "Schlangenzunge",
+          "description": "Überrede, besteche und schüchtere jemanden erfolgreich ein."
+        },
+        "italian": {
+          "name": "Oratore",
+          "description": "Persuadi, corrompi e intimidisci con successo"
+        },
+        "japanese": {
+          "name": "蛇の舌 [Snake Tongue]",
+          "description": "説得、贈賄、脅迫に成功 [Successfully persuade, bribe, and intimidate]"
+        },
+        "polish": {
+          "name": "Złote usta",
+          "description": "Użyj skutecznie perswazji, przekupstwa i zastraszenia."
+        },
+        "russian": {
+          "name": "Золотые слова",
+          "description": "Добиться успеха в подкупе, убеждении и запугивании"
+        },
+        "schinese": {
+          "name": "舌粲莲花",
+          "description": "成功说服、贿赂以及威吓"
+        },
+        "spanish": {
+          "name": "Lengua de serpiente",
+          "description": "Persuade, soborna e intimida con éxito."
+        },
+        "tchinese": {
+          "name": "舌粲蓮花",
+          "description": "成功說服、賄賂以及威嚇"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_29_0": {
+      "translations": {
+        "english": {
+          "name": "Blessed",
+          "description": "Select a Standing Stone blessing"
+        },
+        "french": {
+          "name": "Béni",
+          "description": "Sélectionner une bénédiction de pierre dressée"
+        },
+        "german": {
+          "name": "Gesegnet",
+          "description": "Wähle den Segen eines Findlings aus."
+        },
+        "italian": {
+          "name": "Benedetto",
+          "description": "Scegli una benedizione di un mehnir"
+        },
+        "japanese": {
+          "name": "祝福 [Blessed]",
+          "description": "大立石の恩恵を受ける [Select a Standing Stone blessing]"
+        },
+        "polish": {
+          "name": "Błogosławieństwo",
+          "description": "Wybierz moc 1 z 13 Kamieni Przeznaczenia."
+        },
+        "russian": {
+          "name": "Благословлен",
+          "description": "Получить благословение камня-хранителя"
+        },
+        "schinese": {
+          "name": "真心祝福",
+          "description": "选择一座立石的祝福"
+        },
+        "spanish": {
+          "name": "Bendición",
+          "description": "Selecciona una bendición de un menhir."
+        },
+        "tchinese": {
+          "name": "真心祝福",
+          "description": "選擇一座立石的祝福"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_30_0": {
+      "translations": {
+        "english": {
+          "name": "Standing Stones",
+          "description": "Find 13 Standing Stones"
+        },
+        "french": {
+          "name": "Pierres dressées",
+          "description": "Trouver 13 pierres dressées"
+        },
+        "german": {
+          "name": "Findlinge",
+          "description": "Finde 13 Findlinge."
+        },
+        "italian": {
+          "name": "Mehnir",
+          "description": "Trova 13 mehnir"
+        },
+        "japanese": {
+          "name": "大立石 [Standing Stones]",
+          "description": "大立石を13個発見 [Find 13 Standing Stones]"
+        },
+        "polish": {
+          "name": "Kamienie",
+          "description": "Znajdź 13 Kamieni Przeznaczenia."
+        },
+        "russian": {
+          "name": "Камни-хранители",
+          "description": "Найти 13 камней-хранителей"
+        },
+        "schinese": {
+          "name": "守护石",
+          "description": "找到13座立石"
+        },
+        "spanish": {
+          "name": "Menhires",
+          "description": "Encuentra los 13 menhires."
+        },
+        "tchinese": {
+          "name": "守護石",
+          "description": "找到13座立石"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_31_0": {
+      "translations": {
+        "english": {
+          "name": "Citizen",
+          "description": "Buy a house"
+        },
+        "french": {
+          "name": "Citoyen",
+          "description": "Acheter une maison"
+        },
+        "german": {
+          "name": "Bürger",
+          "description": "Kaufe ein Haus."
+        },
+        "italian": {
+          "name": "Cittadino",
+          "description": "Compra una casa"
+        },
+        "japanese": {
+          "name": "市民 [Citizen]",
+          "description": "家を購入 [Buy a house]"
+        },
+        "polish": {
+          "name": "Obywatel",
+          "description": "Kup dom."
+        },
+        "russian": {
+          "name": "Горожанин",
+          "description": "Купить дом"
+        },
+        "schinese": {
+          "name": "公民",
+          "description": "购买一栋房子"
+        },
+        "spanish": {
+          "name": "Ciudadano",
+          "description": "Compra una casa."
+        },
+        "tchinese": {
+          "name": "公民",
+          "description": "購買一棟房子"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_32_0": {
+      "translations": {
+        "english": {
+          "name": "Wanted",
+          "description": "Escape from jail"
+        },
+        "french": {
+          "name": "Recherché par la garde",
+          "description": "S'évader de prison"
+        },
+        "german": {
+          "name": "Steckbrieflich gesucht",
+          "description": "Brich aus dem Gefängnis aus."
+        },
+        "italian": {
+          "name": "Ricercato",
+          "description": "Evadi di prigione"
+        },
+        "japanese": {
+          "name": "賞金首 [Wanted]",
+          "description": "監獄から脱出 [Escape from jail]"
+        },
+        "polish": {
+          "name": "Poszukiwany, poszukiwana",
+          "description": "Ucieknij z więzienia."
+        },
+        "russian": {
+          "name": "Разыскивается!",
+          "description": "Сбежать из тюрьмы"
+        },
+        "schinese": {
+          "name": "越狱",
+          "description": "从一所监狱中逃脱"
+        },
+        "spanish": {
+          "name": "Buscado",
+          "description": "Escapa de una prisión."
+        },
+        "tchinese": {
+          "name": "越獄",
+          "description": "從一所監獄中逃脫"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_33_0": {
+      "translations": {
+        "english": {
+          "name": "Married",
+          "description": "Get married"
+        },
+        "french": {
+          "name": "La bague au doigt",
+          "description": "Se marier"
+        },
+        "german": {
+          "name": "Ab in die Flitterwochen",
+          "description": "Heirate jemanden."
+        },
+        "italian": {
+          "name": "Sposato",
+          "description": "Convola a nozze"
+        },
+        "japanese": {
+          "name": "結婚 [Married]",
+          "description": "結婚する [Get married]"
+        },
+        "polish": {
+          "name": "Małżeńskie więzy",
+          "description": "Wejdź w związek małżeński."
+        },
+        "russian": {
+          "name": "Брачные узы",
+          "description": "Связать себя узами брака"
+        },
+        "schinese": {
+          "name": "新婚快乐",
+          "description": "与人结婚"
+        },
+        "spanish": {
+          "name": "Casado",
+          "description": "Cásate."
+        },
+        "tchinese": {
+          "name": "新婚快樂",
+          "description": "與人結婚"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_34_0": {
+      "translations": {
+        "english": {
+          "name": "Artificer",
+          "description": "Make a smithed item, an enchanted item, and a potion"
+        },
+        "french": {
+          "name": "Manuel",
+          "description": "Créer un objet de métal, un objet enchanté et une potion"
+        },
+        "german": {
+          "name": "Kunst kommt von Können",
+          "description": "Stelle einen geschmiedeten Gegenstand, einen verzauberten Gegenstand und einen Zaubertrank her."
+        },
+        "italian": {
+          "name": "Creatore",
+          "description": "Crea un oggetto con la forgia, un oggetto incantato e una pozione"
+        },
+        "japanese": {
+          "name": "熟練工 [Artificer]",
+          "description": "鋳造したアイテム、マジックアイテム、薬を作成 [Make a smithed item, an enchanted item, and a potion]"
+        },
+        "polish": {
+          "name": "Fachowiec",
+          "description": "Wykuj dowolny przedmiot, zaklnij dowolny przedmiot i stwórz dowolną miksturę."
+        },
+        "russian": {
+          "name": "На все руки мастер",
+          "description": "Выковать предмет, зачаровать предмет и приготовить зелье"
+        },
+        "schinese": {
+          "name": "工匠",
+          "description": "制作1件锻造物品，1件附魔物品以及1瓶药水"
+        },
+        "spanish": {
+          "name": "Artífice",
+          "description": "Haz un objeto de herrería, uno encantado y una poción."
+        },
+        "tchinese": {
+          "name": "工匠",
+          "description": "製作1件鍛造物品，1件附魔物品以及1瓶藥水"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_35_0": {
+      "translations": {
+        "english": {
+          "name": "Master Criminal",
+          "description": "Bounty of 1000 gold in all nine holds"
+        },
+        "french": {
+          "name": "Criminel de génie",
+          "description": "Une prime de 1 000 pièces d'or est sur votre tête dans les neuf châtelleries"
+        },
+        "german": {
+          "name": "Schwerverbrecher",
+          "description": "Kopfgeld von 1.000 Goldstücken in allen neun Fürstentümern."
+        },
+        "italian": {
+          "name": "Criminale supremo",
+          "description": "Ottieni una taglia di 1.000 monete d'oro in tutti i nove feudi"
+        },
+        "japanese": {
+          "name": "大罪人 [Master Criminal]",
+          "description": "九つの要塞すべてで1000ゴールドの賞金がかかる [Bounty of 1000 gold in all nine holds]"
+        },
+        "polish": {
+          "name": "Mistrz przestępców",
+          "description": "Spraw, by nagroda za twoją głowę osiągnęła poziom 1000 sztuk złota we wszystkich 9 włościach Skyrim."
+        },
+        "russian": {
+          "name": "Отпетый преступник",
+          "description": "Добиться, чтобы награда за вашу голову была 1000 золотых в каждом из 9 владений"
+        },
+        "schinese": {
+          "name": "头号通缉犯",
+          "description": "在九大领地的悬赏奖金各达到1000金币"
+        },
+        "spanish": {
+          "name": "Criminal maestro",
+          "description": "Recompensa de 1.000 de oro en las nueve comarcas."
+        },
+        "tchinese": {
+          "name": "頭號通緝犯",
+          "description": "在九大領地的懸賞獎金各達到1000金幣"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_36_0": {
+      "translations": {
+        "english": {
+          "name": "Golden Touch",
+          "description": "Have 100,000 gold"
+        },
+        "french": {
+          "name": "Chercheur d'or",
+          "description": "Obtenir 100 000 pièces d'or"
+        },
+        "german": {
+          "name": "Goldhamster",
+          "description": "Besitze 100.000 Goldstücke."
+        },
+        "italian": {
+          "name": "Tocco aureo",
+          "description": "Accumula 100.00 monete d'oro"
+        },
+        "japanese": {
+          "name": "ゴールデン・タッチ [Golden Touch]",
+          "description": "所持金100000ゴールドを達成 [Have 100,000 gold]"
+        },
+        "polish": {
+          "name": "Złoty dotyk",
+          "description": "Zdobądź 100000 sztuk złota."
+        },
+        "russian": {
+          "name": "Много не бывает!",
+          "description": "Заработать 100 000 золотых"
+        },
+        "schinese": {
+          "name": "点石成金",
+          "description": "拥有10万金币"
+        },
+        "spanish": {
+          "name": "Toque dorado",
+          "description": "Acumula 100.000 de oro."
+        },
+        "tchinese": {
+          "name": "點石成金",
+          "description": "擁有10萬金幣"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_37_0": {
+      "translations": {
+        "english": {
+          "name": "Delver",
+          "description": "Clear 50 dungeons"
+        },
+        "french": {
+          "name": "Explorateur de souterrains",
+          "description": "Explorer 50 donjons"
+        },
+        "german": {
+          "name": "Höhlenforscher",
+          "description": "Schließe 50 Dungeons ab."
+        },
+        "italian": {
+          "name": "Spazzino",
+          "description": "Libera 50 segrete/caverne"
+        },
+        "japanese": {
+          "name": "発掘者 [Delver]",
+          "description": "ダンジョンを50個クリア [Clear 50 dungeons]"
+        },
+        "polish": {
+          "name": "Poszukiwacz skarbów",
+          "description": "Oczyść 50 podziemi."
+        },
+        "russian": {
+          "name": "Покоритель глубин",
+          "description": "Зачистить 50 подземелий"
+        },
+        "schinese": {
+          "name": "无孔不入",
+          "description": "清除50个地下城"
+        },
+        "spanish": {
+          "name": "Profundo",
+          "description": "Despeja 50 mazmorras."
+        },
+        "tchinese": {
+          "name": "無孔不入",
+          "description": "清除50個地下城"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_38_0": {
+      "translations": {
+        "english": {
+          "name": "Skill Master",
+          "description": "Get a skill to 100"
+        },
+        "french": {
+          "name": "Héros compétent",
+          "description": "Améliorer une compétence jusqu'au niveau 100"
+        },
+        "german": {
+          "name": "Meisterlich",
+          "description": "Erhöhe eine Fertigkeit auf 100."
+        },
+        "italian": {
+          "name": "Maestro di abilità",
+          "description": "Porta un'abilità a 100 punti"
+        },
+        "japanese": {
+          "name": "スキルマスター [Skill Master]",
+          "description": "スキルの値が100に到達 [Get a skill to 100]"
+        },
+        "polish": {
+          "name": "Profesjonalista",
+          "description": "Wytrenuj dowolną umiejętność do 100 poziomu."
+        },
+        "russian": {
+          "name": "Искусник",
+          "description": "Развить навык до 100"
+        },
+        "schinese": {
+          "name": "技能大师",
+          "description": "将一项技能提升至等级100"
+        },
+        "spanish": {
+          "name": "Maestro de habilidad",
+          "description": "Consigue que una habilidad llegue a 100."
+        },
+        "tchinese": {
+          "name": "技能大師",
+          "description": "將一項技能提升至等級100"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_39_0": {
+      "translations": {
+        "english": {
+          "name": "Explorer",
+          "description": "Discover 100 Locations"
+        },
+        "french": {
+          "name": "Explorateur",
+          "description": "Découvrir 100 lieux"
+        },
+        "german": {
+          "name": "Weltenbummler",
+          "description": "Entdecke 100 Orte."
+        },
+        "italian": {
+          "name": "Esploratore",
+          "description": "Scopri 100 luoghi"
+        },
+        "japanese": {
+          "name": "探検家 [Explorer]",
+          "description": "場所を100ヶ所発見 [Discover 100 Locations]"
+        },
+        "polish": {
+          "name": "Odkrywca",
+          "description": "Odkryj 100 lokacji."
+        },
+        "russian": {
+          "name": "Исследователь",
+          "description": "Открыть 100 разных локаций"
+        },
+        "schinese": {
+          "name": "探险家",
+          "description": "发现100个地点"
+        },
+        "spanish": {
+          "name": "Explorador",
+          "description": "Descubre 100 lugares."
+        },
+        "tchinese": {
+          "name": "探險家",
+          "description": "發現100個地點"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_40_0": {
+      "translations": {
+        "english": {
+          "name": "Reader",
+          "description": "Read 50 Skill Books"
+        },
+        "french": {
+          "name": "Lecteur",
+          "description": "Lire 50 livres de compétences"
+        },
+        "german": {
+          "name": "Leseratte",
+          "description": "Lies 50 Lehrbücher."
+        },
+        "italian": {
+          "name": "Lettore",
+          "description": "Leggi 50 libri di abilità"
+        },
+        "japanese": {
+          "name": "読書家 [Reader]",
+          "description": "スキル書を50冊読む [Read 50 Skill Books]"
+        },
+        "polish": {
+          "name": "Czytelnik",
+          "description": "Przeczytaj 50 ksiąg umiejętności."
+        },
+        "russian": {
+          "name": "Книгочей",
+          "description": "Прочесть 50 книг навыков"
+        },
+        "schinese": {
+          "name": "饱读诗书",
+          "description": "阅读50本技能书"
+        },
+        "spanish": {
+          "name": "Lector",
+          "description": "Lee 50 libros de habilidades."
+        },
+        "tchinese": {
+          "name": "飽讀詩書",
+          "description": "閱讀50本技能書"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_41_0": {
+      "translations": {
+        "english": {
+          "name": "Daedric Influence",
+          "description": "Acquire a Daedric Artifact"
+        },
+        "french": {
+          "name": "Explorateur d'Oblivion",
+          "description": "Récupérer 15 artefacts de Daedra"
+        },
+        "german": {
+          "name": "Jäger und Sammler",
+          "description": "Erbeute ein daedrisches Artefakt."
+        },
+        "italian": {
+          "name": "Influsso daedrico",
+          "description": "Ottieni un manufatto daedrico"
+        },
+        "japanese": {
+          "name": "デイドラの影響 [Daedric Influence]",
+          "description": "デイドラの秘宝を獲得 [Acquire a Daedric Artifact]"
+        },
+        "polish": {
+          "name": "Daedryczny wpływ",
+          "description": "Zdobądź daedryczny artefakt."
+        },
+        "russian": {
+          "name": "Влияние даэдра",
+          "description": "Получить даэдрический артефакт"
+        },
+        "schinese": {
+          "name": "魔族影响",
+          "description": "取得1件魔族神器"
+        },
+        "spanish": {
+          "name": "Influencia daédrica",
+          "description": "Consigue un artefacto daédrico."
+        },
+        "tchinese": {
+          "name": "魔族影響",
+          "description": "取得1件魔族神器"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_42_0": {
+      "translations": {
+        "english": {
+          "name": "Oblivion Walker",
+          "description": "Collect 15 Daedric Artifacts"
+        },
+        "french": {
+          "name": "Explorateur d'Oblivion",
+          "description": "Récupérer 15 artefacts de Daedra"
+        },
+        "german": {
+          "name": "Schnapp' sie dir alle",
+          "description": "Sammle 15 daedrische Artefakte."
+        },
+        "italian": {
+          "name": "Camminatore dell'Oblivion",
+          "description": "Ottieni 15 manufatti daedrici"
+        },
+        "japanese": {
+          "name": "オブリビオンウォーカー [Oblivion Walker]",
+          "description": "デイドラの秘宝を15個収集 [Collect 15 Daedric Artifacts]"
+        },
+        "polish": {
+          "name": "Pan Otchłani",
+          "description": "Zdobądź 15 daedrycznych artefaktów."
+        },
+        "russian": {
+          "name": "Покоритель Обливиона",
+          "description": "Получить 15 даэдрических артефактов"
+        },
+        "schinese": {
+          "name": "湮灭行者",
+          "description": "取得15件魔族神器"
+        },
+        "spanish": {
+          "name": "Caminante de Oblivion",
+          "description": "Reúne 15 artefactos daédricos."
+        },
+        "tchinese": {
+          "name": "湮滅行者",
+          "description": "取得15件魔族神器"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_43_0": {
+      "translations": {
+        "english": {
+          "name": "Dragon Soul",
+          "description": "Absorb a dragon soul"
+        },
+        "french": {
+          "name": "Âme de dragon",
+          "description": "Absorber une âme de dragon"
+        },
+        "german": {
+          "name": "Drachenseele",
+          "description": "Nimm eine Drachenseele in dir auf."
+        },
+        "italian": {
+          "name": "Anima di drago",
+          "description": "Assorbi un'anima di drago"
+        },
+        "japanese": {
+          "name": "竜魂 [Dragon Soul]",
+          "description": "竜魂を吸収 [Absorb a dragon soul]"
+        },
+        "polish": {
+          "name": "Smocza dusza",
+          "description": "Wchłoń smoczą duszę."
+        },
+        "russian": {
+          "name": "Душа дракона",
+          "description": "Поглотить душу дракона"
+        },
+        "schinese": {
+          "name": "龙魂",
+          "description": "吸收1个龙魂"
+        },
+        "spanish": {
+          "name": "Alma de dragón",
+          "description": "Absorbe un alma de dragón."
+        },
+        "tchinese": {
+          "name": "龍魂",
+          "description": "吸收1個龍魂"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_44_0": {
+      "translations": {
+        "english": {
+          "name": "Dragon Hunter",
+          "description": "Absorb 20 dragon souls"
+        },
+        "french": {
+          "name": "Chasseur de dragons",
+          "description": "Absorber 20 âmes de dragon"
+        },
+        "german": {
+          "name": "Drachenjäger",
+          "description": "Nimm 20 Drachenseelen in dir auf."
+        },
+        "italian": {
+          "name": "Cacciatore di draghi",
+          "description": "Assorbi 20 anime di drago"
+        },
+        "japanese": {
+          "name": "ドラゴンハンター [Dragon Hunter]",
+          "description": "竜魂を20個吸収 [Absorb 20 dragon souls]"
+        },
+        "polish": {
+          "name": "Łowca smoków",
+          "description": "Wchłoń 20 smoczych dusz."
+        },
+        "russian": {
+          "name": "Охотник на драконов",
+          "description": "Поглотить 20 драконьих душ"
+        },
+        "schinese": {
+          "name": "猎龙者",
+          "description": "吸收20个龙魂"
+        },
+        "spanish": {
+          "name": "Cazador de dragones",
+          "description": "Absorbe 20 almas de dragón."
+        },
+        "tchinese": {
+          "name": "獵龍者",
+          "description": "吸收20個龍魂"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_45_0": {
+      "translations": {
+        "english": {
+          "name": "Words of Power",
+          "description": "Learn all three words of a shout"
+        },
+        "french": {
+          "name": "Mots de puissance",
+          "description": "Apprendre les trois mots d'un cri"
+        },
+        "german": {
+          "name": "Worte der Macht",
+          "description": "Lerne alle drei Worte eines Schreis."
+        },
+        "italian": {
+          "name": "Parole del Potere",
+          "description": "Apprendi le 3 parole di un Urlo"
+        },
+        "japanese": {
+          "name": "力の言葉 [Words of Power]",
+          "description": "シャウトの3つの言葉をすべて習得 [Learn all three words of a shout]"
+        },
+        "polish": {
+          "name": "Słowa Mocy",
+          "description": "Naucz się wszystkich trzech Słów dowolnego Krzyku."
+        },
+        "russian": {
+          "name": "Слова силы",
+          "description": "Выучить три слова любого крика"
+        },
+        "schinese": {
+          "name": "力量之语",
+          "description": "学会1种龙吼的3个力量之语"
+        },
+        "spanish": {
+          "name": "Palabras de poder",
+          "description": "Aprende las tres palabras de un grito."
+        },
+        "tchinese": {
+          "name": "力量之語",
+          "description": "學會1種龍吼的3個力量之語"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_46_0": {
+      "translations": {
+        "english": {
+          "name": "Thu'um Master",
+          "description": "Learn 20 shouts"
+        },
+        "french": {
+          "name": "Maître du Thu'um",
+          "description": "Apprendre 20 cris"
+        },
+        "german": {
+          "name": "Meister des Thu'um",
+          "description": "Lerne 20 Schreie."
+        },
+        "italian": {
+          "name": "Maestro del Thu'um",
+          "description": "Apprendi 20 Urli"
+        },
+        "japanese": {
+          "name": "スゥームマスター [Thu'um Master]",
+          "description": "シャウトを20個習得 [Learn 20 shouts]"
+        },
+        "polish": {
+          "name": "Mistrz Thu'um",
+          "description": "Naucz się 20 Krzyków."
+        },
+        "russian": {
+          "name": "Мастер ту'ума",
+          "description": "Выучить 20 криков"
+        },
+        "schinese": {
+          "name": "吐姆大师",
+          "description": "学会20种龙吼"
+        },
+        "spanish": {
+          "name": "Maestro del Thu'um",
+          "description": "Aprende 20 gritos."
+        },
+        "tchinese": {
+          "name": "吐姆大師",
+          "description": "學會20種龍吼"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_47_0": {
+      "translations": {
+        "english": {
+          "name": "Apprentice",
+          "description": "Reach Level 5"
+        },
+        "french": {
+          "name": "Apprenti",
+          "description": "Atteindre le niveau 5"
+        },
+        "german": {
+          "name": "Lehrling",
+          "description": "Erreiche Stufe 5."
+        },
+        "italian": {
+          "name": "Apprendista",
+          "description": "Raggiungi il livello 5"
+        },
+        "japanese": {
+          "name": "見習い [Apprentice]",
+          "description": "レベル5到達 [Reach Level 5]"
+        },
+        "polish": {
+          "name": "Uczeń",
+          "description": "Zdobądź 5 poziom."
+        },
+        "russian": {
+          "name": "Ученик",
+          "description": "Достичь уровня 5"
+        },
+        "schinese": {
+          "name": "学徒",
+          "description": "达到等级5"
+        },
+        "spanish": {
+          "name": "Aprendiz",
+          "description": "Alcanza el nivel 5."
+        },
+        "tchinese": {
+          "name": "學徒",
+          "description": "達到等級5"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_48_0": {
+      "translations": {
+        "english": {
+          "name": "Adept",
+          "description": "Reach Level 10"
+        },
+        "french": {
+          "name": "Adepte",
+          "description": "Atteindre le niveau 10"
+        },
+        "german": {
+          "name": "Adept",
+          "description": "Erreiche Stufe 10."
+        },
+        "italian": {
+          "name": "Specialista",
+          "description": "Raggiungi il livello 10"
+        },
+        "japanese": {
+          "name": "精鋭 [Adept]",
+          "description": "レベル10到達 [Reach Level 10]"
+        },
+        "polish": {
+          "name": "Czeladnik",
+          "description": "Zdobądź 10 poziom."
+        },
+        "russian": {
+          "name": "Адепт",
+          "description": "Достичь уровня 10"
+        },
+        "schinese": {
+          "name": "老手",
+          "description": "达到等级10"
+        },
+        "spanish": {
+          "name": "Hábil",
+          "description": "Alcanza el nivel 10."
+        },
+        "tchinese": {
+          "name": "老手",
+          "description": "達到等級10"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_49_0": {
+      "translations": {
+        "english": {
+          "name": "Expert",
+          "description": "Reach Level 25"
+        },
+        "french": {
+          "name": "Expert",
+          "description": "Atteindre le niveau 25"
+        },
+        "german": {
+          "name": "Experte",
+          "description": "Erreiche Stufe 25."
+        },
+        "italian": {
+          "name": "Esperto",
+          "description": "Raggiungi il livello 25"
+        },
+        "japanese": {
+          "name": "熟練者 [Expert]",
+          "description": "レベル25到達 [Reach Level 25]"
+        },
+        "polish": {
+          "name": "Ekspert",
+          "description": "Zdobądź 25 poziom."
+        },
+        "russian": {
+          "name": "Эксперт",
+          "description": "Достичь уровня 25"
+        },
+        "schinese": {
+          "name": "专家",
+          "description": "达到等级25"
+        },
+        "spanish": {
+          "name": "Experto",
+          "description": "Alcanza el nivel 25."
+        },
+        "tchinese": {
+          "name": "專家",
+          "description": "達到等級25"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_50_0": {
+      "translations": {
+        "english": {
+          "name": "Master",
+          "description": "Reach Level 50"
+        },
+        "french": {
+          "name": "Maître",
+          "description": "Atteindre le niveau 50"
+        },
+        "german": {
+          "name": "Meister",
+          "description": "Erreiche Stufe 50."
+        },
+        "italian": {
+          "name": "Maestro",
+          "description": "Raggiungi il livello 50"
+        },
+        "japanese": {
+          "name": "達人 [Master]",
+          "description": "レベル50到達 [Reach Level 50]"
+        },
+        "polish": {
+          "name": "Mistrz",
+          "description": "Zdobądź 50 poziom."
+        },
+        "russian": {
+          "name": "Мастер",
+          "description": "Достичь уровня 50"
+        },
+        "schinese": {
+          "name": "大师",
+          "description": "达到等级50"
+        },
+        "spanish": {
+          "name": "Maestro",
+          "description": "Alcanza el nivel 50."
+        },
+        "tchinese": {
+          "name": "大師",
+          "description": "達到等級50"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_51_0": {
+      "translations": {
+        "english": {
+          "name": "Awakening",
+          "description": "Complete \"Awakening\""
+        },
+        "french": {
+          "name": "Prise de conscience",
+          "description": "Terminez \"Prise de conscience\""
+        },
+        "german": {
+          "name": "Erwachen",
+          "description": "Schließe \"Erwachen\" ab."
+        },
+        "italian": {
+          "name": "Risveglio",
+          "description": "Completa \"Risveglio\""
+        },
+        "japanese": {
+          "name": "目覚め [Awakening]",
+          "description": "“目覚め”のクエストを完了 [Complete \"Awakening\"]"
+        },
+        "polish": {
+          "name": "Przebudzenie",
+          "description": "Ukończ zadanie „Przebudzenie”."
+        },
+        "russian": {
+          "name": "Пробуждение",
+          "description": "Выполнить задание \"Пробуждение\""
+        },
+        "schinese": {
+          "name": "唤醒",
+          "description": "成功完成「唤醒」"
+        },
+        "spanish": {
+          "name": "Despertar",
+          "description": "Completa \"Despertar\"."
+        },
+        "tchinese": {
+          "name": "喚醒",
+          "description": "成功完成「喚醒」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_52_0": {
+      "translations": {
+        "english": {
+          "name": "Beyond Death",
+          "description": "Complete \"Beyond Death\""
+        },
+        "french": {
+          "name": "Au-delà de la mort",
+          "description": "Terminez \"Au-delà de la mort\""
+        },
+        "german": {
+          "name": "Jenseits des Todes",
+          "description": "Schließe \"Jenseits des Todes\" ab."
+        },
+        "italian": {
+          "name": "Oltre la morte",
+          "description": "Completa \"Oltre la morte\""
+        },
+        "japanese": {
+          "name": "死の超越 [Beyond Death]",
+          "description": "“死の超越”のクエストを完了 [Complete \"Beyond Death\"]"
+        },
+        "polish": {
+          "name": "Śmierć to nie koniec",
+          "description": "Ukończ zadanie „Śmierć to nie koniec”."
+        },
+        "russian": {
+          "name": "За гранью смерти",
+          "description": "Выполнить задание \"За гранью смерти\""
+        },
+        "schinese": {
+          "name": "超越死亡",
+          "description": "成功完成「超越死亡」"
+        },
+        "spanish": {
+          "name": "Más allá de la muerte",
+          "description": "Completa \"Más allá de la muerte\"."
+        },
+        "tchinese": {
+          "name": "超越死亡",
+          "description": "成功完成「超越死亡」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_53_0": {
+      "translations": {
+        "english": {
+          "name": "Kindred Judgement",
+          "description": "Complete \"Kindred Judgment\""
+        },
+        "french": {
+          "name": "Jugement d'un pair",
+          "description": "Terminez \"Jugement d'un pair\""
+        },
+        "german": {
+          "name": "Ein vertrautes Urteil",
+          "description": "Schließe \"Ein vertrautes Urteil\" ab."
+        },
+        "italian": {
+          "name": "Sentenza di sangue",
+          "description": "Completa \"Sentenza di sangue\""
+        },
+        "japanese": {
+          "name": "同類の判断 [Kindred Judgement]",
+          "description": "“同類の判断”のクエストを完了 [Complete \"Kindred Judgment\"]"
+        },
+        "polish": {
+          "name": "Sąd krwi",
+          "description": "Ukończ zadanie „Sąd krwi”."
+        },
+        "russian": {
+          "name": "Семейный суд",
+          "description": "Выполнить задание \"Семейный суд\""
+        },
+        "schinese": {
+          "name": "同族的审判",
+          "description": "成功完成「同族审判」"
+        },
+        "spanish": {
+          "name": "Juicio fraternal",
+          "description": "Completa \"Juicio fraternal\"."
+        },
+        "tchinese": {
+          "name": "同族的審判",
+          "description": "成功完成「同族審判」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_54_0": {
+      "translations": {
+        "english": {
+          "name": "Lost to the Ages",
+          "description": "Complete \"Lost to the Ages\""
+        },
+        "french": {
+          "name": "Perdue dans les âges",
+          "description": "Terminez \"Perdue dans les âges\""
+        },
+        "german": {
+          "name": "Verloren in der Vergangenheit",
+          "description": "Schließe \"Verloren in der Vergangenheit\" ab."
+        },
+        "italian": {
+          "name": "Nel vortice del tempo",
+          "description": "Completa \"Nel vortice del tempo\""
+        },
+        "japanese": {
+          "name": "忘却の彼方 [Lost to the Ages]",
+          "description": "“忘却の彼方”のクエストを完了 [Complete \"Lost to the Ages\"]"
+        },
+        "polish": {
+          "name": "Relikty przeszłości",
+          "description": "Ukończ zadanie „Relikty przeszłości”."
+        },
+        "russian": {
+          "name": "Затерявшееся в веках",
+          "description": "Выполнить задание \"Затерявшееся в веках\""
+        },
+        "schinese": {
+          "name": "遗忘时光",
+          "description": "成功完成「遗忘时光」"
+        },
+        "spanish": {
+          "name": "Perdido en los eones",
+          "description": "Completa \"Perdido en los eones\"."
+        },
+        "tchinese": {
+          "name": "遺忘時光",
+          "description": "成功完成「遺忘時光」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_55_0": {
+      "translations": {
+        "english": {
+          "name": "Soul Tear",
+          "description": "Learn all three words of Soul Tear"
+        },
+        "french": {
+          "name": "Déchirure d'âme",
+          "description": "Apprenez les trois mots de la Déchirure d'âme"
+        },
+        "german": {
+          "name": "Seelenreißer",
+          "description": "Lerne alle drei Worte von Seelenreißer"
+        },
+        "italian": {
+          "name": "Anima Lacerata",
+          "description": "Apprendi le tre parole di Anima Lacerata"
+        },
+        "japanese": {
+          "name": "ソウルティアー [Soul Tear]",
+          "description": "ソウルティアーの言葉を3つ全て覚える [Learn all three words of Soul Tear]"
+        },
+        "polish": {
+          "name": "Wydarcie Duszy",
+          "description": "Naucz się wszystkich trzech Słów Krzyku „Wydarcie Duszy”."
+        },
+        "russian": {
+          "name": "Разрыв души",
+          "description": "Выучить все три слова Крика \"Разрыв души\""
+        },
+        "schinese": {
+          "name": "灵魂撕裂",
+          "description": "学会灵魂撕裂的3个力量之语"
+        },
+        "spanish": {
+          "name": "Desgarro del alma",
+          "description": "Aprende las tres palabras del Desgarro del alma."
+        },
+        "tchinese": {
+          "name": "靈魂撕裂",
+          "description": "學會靈魂撕裂的3個力量之語"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_56_0": {
+      "translations": {
+        "english": {
+          "name": "Auriel's Bow",
+          "description": "Use the special power of Auriel's Bow"
+        },
+        "french": {
+          "name": "Arc d'Auriel",
+          "description": "Utilisez le pouvoir spécial de l'Arc d'Auriel"
+        },
+        "german": {
+          "name": "Auriels Bogen",
+          "description": "Setze die spezielle Kraft von Auriels Bogen ein."
+        },
+        "italian": {
+          "name": "Arco di Auriel",
+          "description": "Usa il potere speciale dell'Arco di Auriel"
+        },
+        "japanese": {
+          "name": "アウリエルの弓 [Auriel's Bow]",
+          "description": "アウリエルの弓の特別な力を使う [Use the special power of Auriel's Bow]"
+        },
+        "polish": {
+          "name": "Łuk Auriela",
+          "description": "Użyj specjalnej mocy Łuku Auriela."
+        },
+        "russian": {
+          "name": "Лук Ауриэля",
+          "description": "Использовать особую силу лука Ауриэля"
+        },
+        "schinese": {
+          "name": "奥丽瑞的弓",
+          "description": "使用奥丽瑞的弓的特殊能力"
+        },
+        "spanish": {
+          "name": "Arco de Auriel",
+          "description": "Utiliza el poder especial del Arco de Auriel."
+        },
+        "tchinese": {
+          "name": "奧麗瑞的弓",
+          "description": "使用奧麗瑞的弓的特殊能力"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_57_0": {
+      "translations": {
+        "english": {
+          "name": "Werewolf Mastered",
+          "description": "Acquire 11 werewolf perks"
+        },
+        "french": {
+          "name": "Lycanthropie maîtrisée",
+          "description": "Obtenez 11 atouts du loup-garou"
+        },
+        "german": {
+          "name": "Meisterwerwolf",
+          "description": "Erlange 11 Werwolftalente."
+        },
+        "italian": {
+          "name": "Maestro di licantropia",
+          "description": "Acquisisci 11 bonus da lupo mannaro"
+        },
+        "japanese": {
+          "name": "ウェアウルフマスター [Werewolf Mastered]",
+          "description": "ウェアウルフの能力を11個獲得 [Acquire 11 werewolf perks]"
+        },
+        "polish": {
+          "name": "Wilkołak opanowany",
+          "description": "Zdobądź 11 cech wilkołaka."
+        },
+        "russian": {
+          "name": "Великий вервольф",
+          "description": "Освоить 11 способностей вервольфа"
+        },
+        "schinese": {
+          "name": "狼人精通",
+          "description": "学习11种狼人的额外能力"
+        },
+        "spanish": {
+          "name": "Dominio de la licantropía",
+          "description": "Adquiere 11 ventajas de hombre lobo."
+        },
+        "tchinese": {
+          "name": "狼人精通",
+          "description": "學習11種狼人的額外能力"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_58_0": {
+      "translations": {
+        "english": {
+          "name": "Vampire Mastered",
+          "description": "Acquire 11 vampire perks"
+        },
+        "french": {
+          "name": "Vampirisme maîtrisé",
+          "description": "Obtenez 11 atouts du vampire"
+        },
+        "german": {
+          "name": "Meistervampir",
+          "description": "Erlange 11 Vampirtalente."
+        },
+        "italian": {
+          "name": "Maestro di vampirismo",
+          "description": "Acquisisci 11 bonus da vampiro"
+        },
+        "japanese": {
+          "name": "バンパイアマスター [Vampire Mastered]",
+          "description": "バンパイアの能力を11個獲得 [Acquire 11 vampire perks]"
+        },
+        "polish": {
+          "name": "Wampir opanowany",
+          "description": "Zdobądź 11 cech lorda wampirów."
+        },
+        "russian": {
+          "name": "Великий вампир",
+          "description": "Освоить 11 способностей вампира"
+        },
+        "schinese": {
+          "name": "吸血鬼精通",
+          "description": "学习11种吸血鬼的额外能力"
+        },
+        "spanish": {
+          "name": "Dominio del vampirismo",
+          "description": "Adquiere 11 ventajas de vampiro."
+        },
+        "tchinese": {
+          "name": "吸血鬼精通",
+          "description": "學習11種吸血鬼的額外能力"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_59_0": {
+      "translations": {
+        "english": {
+          "name": "A New You",
+          "description": "Change your face"
+        },
+        "french": {
+          "name": "Peau neuve",
+          "description": "Changez de visage"
+        },
+        "german": {
+          "name": "Ein neues Ich",
+          "description": "Lasse dein Gesicht verändern."
+        },
+        "italian": {
+          "name": "Viso nuovo, vita nuova",
+          "description": "Modifica il tuo volto"
+        },
+        "japanese": {
+          "name": "新しいあなた [A New You]",
+          "description": "顔を変える [Change your face]"
+        },
+        "polish": {
+          "name": "Nowa twarz",
+          "description": "Zmień swoją twarz."
+        },
+        "russian": {
+          "name": "Мое новое \"я\"",
+          "description": "Изменить свое лицо"
+        },
+        "schinese": {
+          "name": "重新出发",
+          "description": "变换你的面貌"
+        },
+        "spanish": {
+          "name": "El nuevo tú",
+          "description": "Cámbiate la cara."
+        },
+        "tchinese": {
+          "name": "重新出發",
+          "description": "變換你的面貌"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_60_0": {
+      "translations": {
+        "english": {
+          "name": "Legend",
+          "description": "Defeat a Legendary Dragon"
+        },
+        "french": {
+          "name": "Légende",
+          "description": "Éliminez un dragon légendaire"
+        },
+        "german": {
+          "name": "Legende",
+          "description": "Besiege einen legendären Drachen."
+        },
+        "italian": {
+          "name": "Leggenda",
+          "description": "Sconfiggi un drago leggendario"
+        },
+        "japanese": {
+          "name": "伝説 [Legend]",
+          "description": "伝説のドラゴンを倒す [Defeat a Legendary Dragon]"
+        },
+        "polish": {
+          "name": "Legenda",
+          "description": "Pokonaj legendarnego smoka."
+        },
+        "russian": {
+          "name": "Легенда",
+          "description": "Победить легендарного дракона"
+        },
+        "schinese": {
+          "name": "传说",
+          "description": "击败一头传说中的龙"
+        },
+        "spanish": {
+          "name": "Leyenda",
+          "description": "Derrota a un dragón legendario."
+        },
+        "tchinese": {
+          "name": "傳說",
+          "description": "擊敗一頭傳說中的龍"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_61_0": {
+      "translations": {
+        "english": {
+          "name": "Proud Parent",
+          "description": "Adopt a child"
+        },
+        "french": {
+          "name": "Fierté parentale",
+          "description": "Adoptez un enfant"
+        },
+        "german": {
+          "name": "Elterlicher Stolz",
+          "description": "Adoptiere ein Kind."
+        },
+        "italian": {
+          "name": "Orgoglio di genitore",
+          "description": "Adotta un bambino"
+        },
+        "japanese": {
+          "name": "威厳のある親 [Proud Parent]",
+          "description": "養子を貰う [Adopt a child]"
+        },
+        "polish": {
+          "name": "Dumny rodzic",
+          "description": "Adoptuj dziecko."
+        },
+        "russian": {
+          "name": "Гордый родитель",
+          "description": "Усыновить ребенка"
+        },
+        "schinese": {
+          "name": "为人父母",
+          "description": "领养一个小孩"
+        },
+        "spanish": {
+          "name": "Orgullo de progenitor",
+          "description": "Adopta un niño."
+        },
+        "tchinese": {
+          "name": "為人父母",
+          "description": "領養一個小孩"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_62_0": {
+      "translations": {
+        "english": {
+          "name": "Landowner",
+          "description": "Buy a plot of land"
+        },
+        "french": {
+          "name": "Propriétaire terrien",
+          "description": "Achetez un terrain"
+        },
+        "german": {
+          "name": "Landbesitzer",
+          "description": "Kaufe ein Grundstück."
+        },
+        "italian": {
+          "name": "Proprietario terriero",
+          "description": "Acquista un appezzamento di terreno"
+        },
+        "japanese": {
+          "name": "地主 [Landowner]",
+          "description": "土地を買う [Buy a plot of land]"
+        },
+        "polish": {
+          "name": "Właściciel ziemski",
+          "description": "Zakup kawałek ziemi."
+        },
+        "russian": {
+          "name": "Землевладелец",
+          "description": "Купить участок земли"
+        },
+        "schinese": {
+          "name": "土地所有人",
+          "description": "购置一块土地"
+        },
+        "spanish": {
+          "name": "Hacendado",
+          "description": "Compra una parcela."
+        },
+        "tchinese": {
+          "name": "土地所有人",
+          "description": "購置一塊土地"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_63_0": {
+      "translations": {
+        "english": {
+          "name": "Architect",
+          "description": "Build three wings on a house"
+        },
+        "french": {
+          "name": "Architecte",
+          "description": "Construisez trois ailes à une maison"
+        },
+        "german": {
+          "name": "Architekt",
+          "description": "Baue ein Haus mit drei Gebäudeflügeln."
+        },
+        "italian": {
+          "name": "Architetto",
+          "description": "Costruisci tre ali di una casa "
+        },
+        "japanese": {
+          "name": "建築家 [Architect]",
+          "description": "家に翼を3つ造る [Build three wings on a house]"
+        },
+        "polish": {
+          "name": "Architekt",
+          "description": "Dobuduj do domu trzy skrzydła."
+        },
+        "russian": {
+          "name": "Архитектор",
+          "description": "Построить три крыла дома"
+        },
+        "schinese": {
+          "name": "建筑师",
+          "description": "建造一栋房屋的三座附翼"
+        },
+        "spanish": {
+          "name": "Arquitecto",
+          "description": "Construye tres alas de una casa."
+        },
+        "tchinese": {
+          "name": "建築師",
+          "description": "建造一棟房屋的三座附翼"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_64_0": {
+      "translations": {
+        "english": {
+          "name": "Land Baron",
+          "description": "Buy three plots of land"
+        },
+        "french": {
+          "name": "Grand propriétaire terrien",
+          "description": "Achetez trois terrains"
+        },
+        "german": {
+          "name": "Großgrundbesitzer",
+          "description": "Kaufe drei Grundstücke. "
+        },
+        "italian": {
+          "name": "Latifondista",
+          "description": "Acquista tre appezzamenti di terreno"
+        },
+        "japanese": {
+          "name": "土地男爵 [Land Baron]",
+          "description": "土地を3つ買う [Buy three plots of land]"
+        },
+        "polish": {
+          "name": "Pan na włościach",
+          "description": "Zakup trzy kawałki ziemi."
+        },
+        "russian": {
+          "name": "Помещик",
+          "description": "Купить три участка земли"
+        },
+        "schinese": {
+          "name": "大地主",
+          "description": "购置三块土地"
+        },
+        "spanish": {
+          "name": "Terrateniente",
+          "description": "Edifica en tres parcelas."
+        },
+        "tchinese": {
+          "name": "大地主",
+          "description": "購置三塊土地"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_65_0": {
+      "translations": {
+        "english": {
+          "name": "Master Architect",
+          "description": "Build three houses"
+        },
+        "french": {
+          "name": "Maître-architecte",
+          "description": "Construisez trois maisons"
+        },
+        "german": {
+          "name": "Meisterarchitekt",
+          "description": "Baue drei Häuser."
+        },
+        "italian": {
+          "name": "Maestro di architettura",
+          "description": "Costruisci tre case"
+        },
+        "japanese": {
+          "name": "建築マスター [Master Architect]",
+          "description": "3棟の家を造る [Build three houses]"
+        },
+        "polish": {
+          "name": "Mistrz architektury",
+          "description": "Wybuduj trzy domy."
+        },
+        "russian": {
+          "name": "Знаменитый архитектор",
+          "description": "Построить три дома"
+        },
+        "schinese": {
+          "name": "大师级建筑师",
+          "description": "建造三栋房屋"
+        },
+        "spanish": {
+          "name": "Maestro arquitecto",
+          "description": "Construye tres casas."
+        },
+        "tchinese": {
+          "name": "大師級建築師",
+          "description": "建造三棟房屋"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_66_0": {
+      "translations": {
+        "english": {
+          "name": "Outlander",
+          "description": "Arrive on Solstheim"
+        },
+        "french": {
+          "name": "Étranger",
+          "description": "Arrivez à Solstheim"
+        },
+        "german": {
+          "name": "Fremdling",
+          "description": "Triff auf Solstheim ein."
+        },
+        "italian": {
+          "name": "Straniero",
+          "description": "Arriva su Solstheim"
+        },
+        "japanese": {
+          "name": "放浪者 [Outlander]",
+          "description": "ソルスセイムを訪れる [Arrive on Solstheim]"
+        },
+        "polish": {
+          "name": "Cudzoziemiec",
+          "description": "Zawitaj na Solstheim."
+        },
+        "russian": {
+          "name": "Чужак",
+          "description": "Прибыть на Солстейм"
+        },
+        "schinese": {
+          "name": "外来者",
+          "description": "抵达索瑟海姆"
+        },
+        "spanish": {
+          "name": "Forastero",
+          "description": "Llega a Solstheim."
+        },
+        "tchinese": {
+          "name": "外來者",
+          "description": "抵達索瑟海姆"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_67_0": {
+      "translations": {
+        "english": {
+          "name": "The Temple of Miraak",
+          "description": "Complete \"The Temple of Miraak\""
+        },
+        "french": {
+          "name": "Le temple de Miraak",
+          "description": "Terminez \"Le temple de Miraak\""
+        },
+        "german": {
+          "name": "Der Tempel von Miraak",
+          "description": "Schließe \"Der Tempel von Miraak\" ab."
+        },
+        "italian": {
+          "name": "Il Tempio di Miraak",
+          "description": "Completa \"Il Tempio di Miraak\""
+        },
+        "japanese": {
+          "name": "ミラークの聖堂 [The Temple of Miraak]",
+          "description": "“ミラークの聖堂”のクエストを完了 [Complete \"The Temple of Miraak\"]"
+        },
+        "polish": {
+          "name": "Świątynia Miraaka",
+          "description": "Ukończ zadanie „Świątynia Miraaka”."
+        },
+        "russian": {
+          "name": "Храм Мирака",
+          "description": "Выполнить задание \"Храм Мирака\""
+        },
+        "schinese": {
+          "name": "秘拉克神殿",
+          "description": "成功完成「秘拉克神殿」"
+        },
+        "spanish": {
+          "name": "El templo de Miraak",
+          "description": "Completa \"El templo de Miraak\"."
+        },
+        "tchinese": {
+          "name": "秘拉克神殿",
+          "description": "成功完成「秘拉克神殿」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_68_0": {
+      "translations": {
+        "english": {
+          "name": "The Path of Knowledge",
+          "description": "Complete \"The Path of Knowledge\""
+        },
+        "french": {
+          "name": "La voie de la connaissance",
+          "description": "Terminez \"La voie de la connaissance\""
+        },
+        "german": {
+          "name": "Der Weg des Wissens",
+          "description": "Schließe \"Der Weg des Wissens\" ab."
+        },
+        "italian": {
+          "name": "La via della conoscenza",
+          "description": "Completa \"La via della conoscenza\""
+        },
+        "japanese": {
+          "name": "知識への道筋 [The Path of Knowledge]",
+          "description": "“知識への道筋”のクエストを完了 [Complete \"The Path of Knowledge\"]"
+        },
+        "polish": {
+          "name": "Ścieżka wiedzy",
+          "description": "Ukończ zadanie „Ścieżka wiedzy”."
+        },
+        "russian": {
+          "name": "Путь знания",
+          "description": "Выполнить задание \"Путь знания\""
+        },
+        "schinese": {
+          "name": "知识之路",
+          "description": "成功完成「知识之路」"
+        },
+        "spanish": {
+          "name": "La senda del conocimiento",
+          "description": "Completa \"La senda del conocimiento\"."
+        },
+        "tchinese": {
+          "name": "知識之路",
+          "description": "成功完成「知識之路」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_69_0": {
+      "translations": {
+        "english": {
+          "name": "At the Summit of Apocrypha",
+          "description": "Complete \"At the Summit of Apocrypha\""
+        },
+        "french": {
+          "name": "Au sommet d'Apocrypha",
+          "description": "Terminez \"Au sommet d'Apocrypha\""
+        },
+        "german": {
+          "name": "Auf dem Gipfel von Apocrypha",
+          "description": "Schließe \"Auf dem Gipfel von Apocrypha\" ab."
+        },
+        "italian": {
+          "name": "Sulla cima di Apocrypha",
+          "description": "Completa \"Sulla cima di Apocrypha\""
+        },
+        "japanese": {
+          "name": "偽りの頂点 [At the Summit of Apocrypha]",
+          "description": "“偽りの頂点”のクエストを完了 [Complete \"At the Summit of Apocrypha\"]"
+        },
+        "polish": {
+          "name": "Na szczycie Apokryfu",
+          "description": "Ukończ zadanie „Na szczycie Apokryfu”."
+        },
+        "russian": {
+          "name": "На вершине Апокрифа",
+          "description": "Выполнить задание \"На вершине Апокрифа\""
+        },
+        "schinese": {
+          "name": "伪典之巅",
+          "description": "成功完成「伪典之巅」"
+        },
+        "spanish": {
+          "name": "En la cima de Apocrypha",
+          "description": "Completa \"En la cima de Apocrypha\"."
+        },
+        "tchinese": {
+          "name": "偽典之巔",
+          "description": "成功完成「偽典之巔」"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_70_0": {
+      "translations": {
+        "english": {
+          "name": "Dragon Aspect",
+          "description": "Learn all 3 words of Dragon Aspect"
+        },
+        "french": {
+          "name": "Aspect draconique",
+          "description": "Apprenez les trois mots de l'Aspect draconique"
+        },
+        "german": {
+          "name": "Drachenform",
+          "description": "Lerne alle drei Worte der Drachenform."
+        },
+        "italian": {
+          "name": "Aspetto del Drago",
+          "description": "Apprendi le tre parole di Aspetto del Drago"
+        },
+        "japanese": {
+          "name": "ドラゴンアスペクト [Dragon Aspect]",
+          "description": "ドラゴンアスペクトの言葉を3つ全て覚える [Learn all 3 words of Dragon Aspect]"
+        },
+        "polish": {
+          "name": "Aspekt Smoka",
+          "description": "Naucz się trzech słów Aspektu Smoka."
+        },
+        "russian": {
+          "name": "Воплощение дракона",
+          "description": "Выучить все 3 слова Крика \"Воплощение дракона\""
+        },
+        "schinese": {
+          "name": "龙魂觉醒",
+          "description": "学会龙魂觉醒的3个力量之语"
+        },
+        "spanish": {
+          "name": "Aspecto de dragón",
+          "description": "Aprende las tres palabras de Aspecto de dragón."
+        },
+        "tchinese": {
+          "name": "龍魂覺醒",
+          "description": "學會龍魂覺醒的3個力量之語"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_71_0": {
+      "translations": {
+        "english": {
+          "name": "Hidden Knowledge",
+          "description": "Learn the secrets of 5 Black Books"
+        },
+        "french": {
+          "name": "Savoir caché",
+          "description": "Apprenez les secrets de 5 Livres noirs"
+        },
+        "german": {
+          "name": "Verborgenes Wissen",
+          "description": "Lernen die Geheimnisse von fünf Schwarzen Büchern kennen."
+        },
+        "italian": {
+          "name": "Conoscenza nascosta",
+          "description": "Scopri i segreti di cinque Libri Neri"
+        },
+        "japanese": {
+          "name": "隠された知識 [Hidden Knowledge]",
+          "description": "黒の書の秘密を5つ覚える [Learn the secrets of 5 Black Books]"
+        },
+        "polish": {
+          "name": "Ukryta wiedza",
+          "description": "Posiądź wiedzę z pięciu czarnych ksiąg."
+        },
+        "russian": {
+          "name": "Тайное знание",
+          "description": "Узнать секреты 5 Черных книг"
+        },
+        "schinese": {
+          "name": "秘密知识",
+          "description": "习得5本黑暗经书的秘密"
+        },
+        "spanish": {
+          "name": "Conocimientos ocultos",
+          "description": "Aprende los secretos de los 5 Libros negros."
+        },
+        "tchinese": {
+          "name": "秘密知識",
+          "description": "習得5本黑暗經書的秘密"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_72_0": {
+      "translations": {
+        "english": {
+          "name": "Stalhrim Crafter",
+          "description": "Craft an item out of Stalhrim"
+        },
+        "french": {
+          "name": "Artisan de stalhrim",
+          "description": "Fabriquez un objet en stalhrim"
+        },
+        "german": {
+          "name": "Stalhrimhandwerker",
+          "description": "Stelle einen Gegenstand aus Stalhrim her."
+        },
+        "italian": {
+          "name": "Forgiatore di stalhrim",
+          "description": "Crea un oggetto di stalhrim"
+        },
+        "japanese": {
+          "name": "スタルリム職人 [Stalhrim Crafter]",
+          "description": "スタルリムからアイテムを作る [Craft an item out of Stalhrim]"
+        },
+        "polish": {
+          "name": "Kowal stalhrimu",
+          "description": "Stwórz przedmiot ze stalhrimu."
+        },
+        "russian": {
+          "name": "Мастер по работе со сталгримом",
+          "description": "Создать предмет из сталгрима"
+        },
+        "schinese": {
+          "name": "魔冰岩工匠",
+          "description": "使用魔冰岩制作一件物品"
+        },
+        "spanish": {
+          "name": "Artesano de stalhrim",
+          "description": "Haz un objeto de stalhrim."
+        },
+        "tchinese": {
+          "name": "魔冰岩工匠",
+          "description": "使用魔冰岩製作一件物品"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_73_0": {
+      "translations": {
+        "english": {
+          "name": "Dragonrider",
+          "description": "Tame and ride 5 dragons"
+        },
+        "french": {
+          "name": "Dresseur de dragons",
+          "description": "Dressez et montez 5 dragons"
+        },
+        "german": {
+          "name": "Drachenreiter",
+          "description": "Zähme und reite fünf Drachen."
+        },
+        "italian": {
+          "name": "Cavalcatore di draghi",
+          "description": "Doma e cavalca 5 draghi"
+        },
+        "japanese": {
+          "name": "ドラゴンライダ [Dragonrider]",
+          "description": "ドラゴンを5匹手懐けて乗る [Tame and ride 5 dragons]"
+        },
+        "polish": {
+          "name": "Jeźdźca smoków",
+          "description": "Oswój i dosiądź pięciu smoków."
+        },
+        "russian": {
+          "name": "Драконий всадник",
+          "description": "Приручить 5 драконов и полетать на них"
+        },
+        "schinese": {
+          "name": "龙骑士",
+          "description": "驯服并且驾驭5条龙"
+        },
+        "spanish": {
+          "name": "Jinete del dragón",
+          "description": "Domestica y monta a 5 dragones."
+        },
+        "tchinese": {
+          "name": "龍騎士",
+          "description": "馴服並且駕馭5條龍"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_74_0": {
+      "translations": {
+        "english": {
+          "name": "Raven Rock Owner",
+          "description": "Own a house in Raven Rock"
+        },
+        "french": {
+          "name": "Propriétaire de Corberoc",
+          "description": "Achetez une maison à Corberoc"
+        },
+        "german": {
+          "name": "Rabenfels-Eigentümer",
+          "description": "Besitze ein Haus in Rabenfels."
+        },
+        "italian": {
+          "name": "Casa a Roccia del Corvo",
+          "description": "Ottieni una casa a Roccia del Corvo"
+        },
+        "japanese": {
+          "name": "レイヴンロックの住人 [Raven Rock Owner]",
+          "description": "レイヴンロックに家を持つ [Own a house in Raven Rock]"
+        },
+        "polish": {
+          "name": "Właściciel w Kruczej Skale",
+          "description": "Zdobądź posiadłość w Kruczej Skale."
+        },
+        "russian": {
+          "name": "Житель Вороньей Скалы",
+          "description": "Стать владельцем дома в Вороньей Скале"
+        },
+        "schinese": {
+          "name": "鸦石居民",
+          "description": "在鸦石拥有一栋房屋"
+        },
+        "spanish": {
+          "name": "Propietario en Roca del Cuervo",
+          "description": "Adquiere una casa en Roca del Cuervo."
+        },
+        "tchinese": {
+          "name": "鴉石居民",
+          "description": "在鴉石擁有一棟房屋"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_75_0": {
+      "translations": {
+        "english": {
+          "name": "Solstheim Explorer",
+          "description": "Discover 30 locations on the island of Solstheim"
+        },
+        "french": {
+          "name": "Explorateur de Solstheim",
+          "description": "Découvrez 30 lieux sur l'île de Solstheim"
+        },
+        "german": {
+          "name": "Solstheim-Entdecker",
+          "description": "Entdecke 30 Orte auf der Insel Solstheim."
+        },
+        "italian": {
+          "name": "Esploratore di Solstheim",
+          "description": "Scopri 30 luoghi sull'isola di Solstheim"
+        },
+        "japanese": {
+          "name": "ソルスセイムの探求者 [Solstheim Explorer]",
+          "description": "ソルスセイムの島で場所を30ヶ所発見 [Discover 30 locations on the island of Solstheim]"
+        },
+        "polish": {
+          "name": "Odkrywca Solstheim",
+          "description": "Odkryj 30 lokacji na wyspie Solstheim."
+        },
+        "russian": {
+          "name": "Исследователь Солстейма",
+          "description": "Открыть 30 локаций на острове Солстейм"
+        },
+        "schinese": {
+          "name": "索瑟海姆探险者",
+          "description": "发现索瑟海姆的30个地点"
+        },
+        "spanish": {
+          "name": "Explorador de Solstheim",
+          "description": "Descubre los 30 lugares de la isla de Solstheim."
+        },
+        "tchinese": {
+          "name": "索瑟海姆探險者",
+          "description": "發現索瑟海姆的30個地點"
+        }
+      }
+    }
+  }
+}

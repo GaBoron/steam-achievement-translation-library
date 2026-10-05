@@ -1,0 +1,4437 @@
+{
+  "version": 1,
+  "app_id": "233130",
+  "variant_id": "default",
+  "source_sha256": "24ad25bc7f02943e6f7706d41833cc54d42ea4da58680321033098f8da771c51",
+  "languages": [
+    "brazilian",
+    "english",
+    "french",
+    "german",
+    "hungarian",
+    "italian",
+    "japanese",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "KILL_COUNT_0": {
+      "translations": {
+        "brazilian": {
+          "name": "Pequeno Gafanhoto",
+          "description": "Mate 100 inimigos"
+        },
+        "english": {
+          "name": "Tiny Grasshopper",
+          "description": "Kill 100 enemies"
+        },
+        "french": {
+          "name": "Petit scarabée",
+          "description": "Tuer 100 ennemis"
+        },
+        "german": {
+          "name": "Kleiner Grashüpfer",
+          "description": "Töte 100 Feinde"
+        },
+        "hungarian": {
+          "name": "Apró szöcske",
+          "description": "Végezz 100 ellenséggel"
+        },
+        "italian": {
+          "name": "Piccola cavalletta",
+          "description": "Uccidi 100 nemici"
+        },
+        "japanese": {
+          "name": "小さなバッタ",
+          "description": "敵を100体倒す"
+        },
+        "polish": {
+          "name": "Szczawik",
+          "description": "Zabij 100 przeciwników."
+        },
+        "russian": {
+          "name": "Крошечный кузнечик",
+          "description": "Убить 100 врагов"
+        },
+        "schinese": {
+          "name": "初出茅庐",
+          "description": "杀死 100 名敌人"
+        },
+        "spanish": {
+          "name": "Pequeńo saltamontes",
+          "description": "Elimina a 100 enemigos."
+        }
+      }
+    },
+    "KILL_COUNT_1": {
+      "translations": {
+        "brazilian": {
+          "name": "Assassino Chorăo",
+          "description": "Mate 500 inimigos"
+        },
+        "english": {
+          "name": "Crying Assassin",
+          "description": "Kill 500 enemies"
+        },
+        "french": {
+          "name": "Assassin éploré",
+          "description": "Tuer 500 ennemis"
+        },
+        "german": {
+          "name": "Weinender Assassine",
+          "description": "Töte 500 Feinde"
+        },
+        "hungarian": {
+          "name": "Síró orgyilkos",
+          "description": "Végezz 500 ellenséggel"
+        },
+        "italian": {
+          "name": "Assassino piangente",
+          "description": "Uccidi 500 nemici"
+        },
+        "japanese": {
+          "name": "暗殺者が泣く",
+          "description": "敵を500体倒す"
+        },
+        "polish": {
+          "name": "Ryczący zabójca",
+          "description": "Zabij 500 przeciwników."
+        },
+        "russian": {
+          "name": "Плачущий убийца",
+          "description": "Убить 500 врагов"
+        },
+        "schinese": {
+          "name": "哭泣刺客",
+          "description": "杀死 500 名敌人"
+        },
+        "spanish": {
+          "name": "Asesino llorón",
+          "description": "Elimina a 500 enemigos."
+        }
+      }
+    },
+    "KILL_COUNT_2": {
+      "translations": {
+        "brazilian": {
+          "name": "Assassino Frio",
+          "description": "Mate 2500 inimigos"
+        },
+        "english": {
+          "name": "Cold Blooded Killer",
+          "description": "Kill 2500 enemies"
+        },
+        "french": {
+          "name": "Tueur de sang-froid",
+          "description": "Tuer 2500 ennemis"
+        },
+        "german": {
+          "name": "Kaltblütiger Killer",
+          "description": "Töte 2500 Feinde"
+        },
+        "hungarian": {
+          "name": "Hidegvérű gyilkos",
+          "description": "Végezz 2500 ellenséggel"
+        },
+        "italian": {
+          "name": "Killer dal sangue freddo",
+          "description": "Uccidi 2.500 nemici"
+        },
+        "japanese": {
+          "name": "冷徹な暗殺者",
+          "description": "敵を2500体倒す"
+        },
+        "polish": {
+          "name": "Bezwzględny kiler",
+          "description": "Zabij 2500 przeciwników."
+        },
+        "russian": {
+          "name": "Хладнокровный убийца",
+          "description": "Убить 2500 врагов"
+        },
+        "schinese": {
+          "name": "冷血杀手",
+          "description": "杀死 2500 名敌人"
+        },
+        "spanish": {
+          "name": "Asesino a sangre fría",
+          "description": "Elimina a 2500 enemigos."
+        }
+      }
+    },
+    "KILL_BY_ENV_COUNT_0": {
+      "translations": {
+        "brazilian": {
+          "name": "Incendiário",
+          "description": "Mate 20 inimigos usando somente danos ambientais"
+        },
+        "english": {
+          "name": "Firestarter",
+          "description": "Kill 20 enemies using environmental damage only"
+        },
+        "french": {
+          "name": "Pyromane",
+          "description": "Tuer 20 ennemis uniquement ŕ l'aide des dégâts environnementaux"
+        },
+        "german": {
+          "name": "Brandstifter",
+          "description": "Töte 20 Feinde nur mit Umgebungsschaden"
+        },
+        "hungarian": {
+          "name": "Tűzgyújtó",
+          "description": "Végezz 20 ellenséggel kizárólag környezeti hatások által"
+        },
+        "italian": {
+          "name": "Incendiario",
+          "description": "Uccidi 20 nemici usando solo danni ambientali"
+        },
+        "japanese": {
+          "name": "炎使い",
+          "description": "環境ダメージのみを使って敵を20体倒す"
+        },
+        "polish": {
+          "name": "Zadymiarz",
+          "description": "Zabij 20 przeciwników wyłącznie przy użyciu elementów otoczenia."
+        },
+        "russian": {
+          "name": "Поджигатель",
+          "description": "Убить 20 врагов, используя только окружающую среду"
+        },
+        "schinese": {
+          "name": "纵火犯",
+          "description": "仅使用环境伤害杀死 20 名敌人"
+        },
+        "spanish": {
+          "name": "Pirómano",
+          "description": "Elimina a 20 enemigos usando solo el dańo del entorno"
+        }
+      }
+    },
+    "KILL_BY_ENV_COUNT_1": {
+      "translations": {
+        "brazilian": {
+          "name": "Agente do Caos",
+          "description": "Mate 150 inimigos usando somente danos ambientais"
+        },
+        "english": {
+          "name": "Agent Of Mayhem",
+          "description": "Kill 150 enemies using environmental damage only"
+        },
+        "french": {
+          "name": "Agent du Chaos",
+          "description": "Tuer 150 ennemis uniquement ŕ l'aide des dégâts environnementaux"
+        },
+        "german": {
+          "name": "Agent des Chaos",
+          "description": "Töte 150 Feinde nur mit Umgebungsschaden"
+        },
+        "hungarian": {
+          "name": "A pusztítás ügynöke",
+          "description": "Végezz 150 ellenséggel kizárólag környezeti hatások által"
+        },
+        "italian": {
+          "name": "Agente del disordine",
+          "description": "Uccidi 150 nemici usando solo danni ambientali"
+        },
+        "japanese": {
+          "name": "メイヘムの代理人",
+          "description": "環境ダメージのみを使って敵を150体倒す"
+        },
+        "polish": {
+          "name": "Siewca chaosu",
+          "description": "Zabij 150 przeciwników wyłącznie przy użyciu elementów otoczenia."
+        },
+        "russian": {
+          "name": "Агент Погромов",
+          "description": "Убить 150 врагов, используя только окружающую среду"
+        },
+        "schinese": {
+          "name": "混乱特工",
+          "description": "仅使用环境伤害杀死 150 名敌人"
+        },
+        "spanish": {
+          "name": "Agente Devastador",
+          "description": "Elimina a 150 enemigos usando solo el dańo del entorno"
+        }
+      }
+    },
+    "KILL_BY_ENV_COUNT_2": {
+      "translations": {
+        "brazilian": {
+          "name": "Homem Demolidor",
+          "description": "Mate 1000 inimigos usando somente danos ambientais"
+        },
+        "english": {
+          "name": "Demolition Man",
+          "description": "Kill 1000 enemies using environmental damage only"
+        },
+        "french": {
+          "name": "Destructeur de mondes",
+          "description": "Tuer 1000 ennemis uniquement ŕ l'aide des dégâts environnementaux"
+        },
+        "german": {
+          "name": "Zerstörer",
+          "description": "Töte 1000 Feinde nur mit Umgebungsschaden"
+        },
+        "hungarian": {
+          "name": "A romboló",
+          "description": "Végezz 1000 ellenséggel kizárólag környezeti hatások által"
+        },
+        "italian": {
+          "name": "Demolitore",
+          "description": "Uccidi 1.000 nemici usando solo danni ambientali"
+        },
+        "japanese": {
+          "name": "デモリション・マン",
+          "description": "環境ダメージのみを使って敵を1000体倒す"
+        },
+        "polish": {
+          "name": "Człowiek demolka",
+          "description": "Zabij 1000 przeciwników wyłącznie przy użyciu elementów otoczenia."
+        },
+        "russian": {
+          "name": "Подрывник",
+          "description": "Убить 1000 врагов, используя только окружающую среду"
+        },
+        "schinese": {
+          "name": "爆破专家",
+          "description": "仅使用环境伤害杀死 1000 名敌人"
+        },
+        "spanish": {
+          "name": "Demoledor",
+          "description": "Elimina a 1000 enemigos usando solo el dańo del entorno"
+        }
+      }
+    },
+    "ALL_UPGRADES_BOUGHT_powers_0": {
+      "translations": {
+        "brazilian": {
+          "name": "O Toque!",
+          "description": "Obtenha 5 atualizaçőes de poderes"
+        },
+        "english": {
+          "name": "The Touch!",
+          "description": "Obtain 5 power upgrades"
+        },
+        "french": {
+          "name": "Celui qui connaît la chanson !",
+          "description": "Obtenir 5 améliorations de Pouvoirs"
+        },
+        "german": {
+          "name": "Die Berührung",
+          "description": "Hol dir 5 Kraft-Upgrades"
+        },
+        "hungarian": {
+          "name": "Az érintés!",
+          "description": "Szerezz 5 erőfejlesztést"
+        },
+        "italian": {
+          "name": "Il tocco!",
+          "description": "Ottieni 5 potenziamenti"
+        },
+        "japanese": {
+          "name": "タッチ！",
+          "description": "パワーアップグレードを5つ入手する"
+        },
+        "polish": {
+          "name": "Dary losu",
+          "description": "Zdobądź 5 ulepszeń mocy."
+        },
+        "russian": {
+          "name": "Чародей",
+          "description": "Получить 5 обновлений магии"
+        },
+        "schinese": {
+          "name": "力量之触！",
+          "description": "获得 5 次能力升级"
+        },
+        "spanish": {
+          "name": "ˇEl toque!",
+          "description": "Consigue 5 actualizaciones de Poderes"
+        }
+      }
+    },
+    "ALL_UPGRADES_BOUGHT_skills_0": {
+      "translations": {
+        "brazilian": {
+          "name": "Senpai",
+          "description": "Aprenda 10 habilidades"
+        },
+        "english": {
+          "name": "Senpai",
+          "description": "Learn 10 skills"
+        },
+        "french": {
+          "name": "Senpai",
+          "description": "Apprendre 10 compétences"
+        },
+        "german": {
+          "name": "Senpai",
+          "description": "Erlerne 10 Fähigkeiten"
+        },
+        "hungarian": {
+          "name": "Szenpai",
+          "description": "Tanulj meg 10 képességet"
+        },
+        "italian": {
+          "name": "Senpai",
+          "description": "Apprendi 10 abilitŕ"
+        },
+        "japanese": {
+          "name": "先輩",
+          "description": "10のスキルを学ぶ"
+        },
+        "polish": {
+          "name": "Senpai",
+          "description": "Naucz się 10 zdolności."
+        },
+        "russian": {
+          "name": "Сэмпай",
+          "description": "Выучить 10 навыков"
+        },
+        "schinese": {
+          "name": "前辈",
+          "description": "学习 10 个技能"
+        },
+        "spanish": {
+          "name": "Senpai",
+          "description": "Aprende 10 habilidades"
+        }
+      }
+    },
+    "ALL_UPGRADES_BOUGHT_weapons_0": {
+      "translations": {
+        "brazilian": {
+          "name": "Armado e perigoso",
+          "description": "Compre 5 atualizaçőes de armas"
+        },
+        "english": {
+          "name": "Armed And Dangerous",
+          "description": "Buy 5 weapon upgrades"
+        },
+        "french": {
+          "name": "Armé et dangereux",
+          "description": "Acheter 5 améliorations d'armes"
+        },
+        "german": {
+          "name": "Bewaffnet und gefährlich",
+          "description": "Kauf 5 Waffen-Upgrades"
+        },
+        "hungarian": {
+          "name": "Fegyvere van és veszélyes",
+          "description": "Vásárolj 5 fegyverfejlesztést"
+        },
+        "italian": {
+          "name": "Armato e pericoloso",
+          "description": "Acquista 5 miglioramenti delle armi"
+        },
+        "japanese": {
+          "name": "危険な武装者",
+          "description": "武器のアップグレードを5つ購入する"
+        },
+        "polish": {
+          "name": "Uzbrojony i niebezpieczny",
+          "description": "Kup 5 ulepszeń broni."
+        },
+        "russian": {
+          "name": "Вооружен и опасен",
+          "description": "Купить 5 улучшений для оружия"
+        },
+        "schinese": {
+          "name": "全副武装",
+          "description": "购买 5 次武器升级"
+        },
+        "spanish": {
+          "name": "Armados y peligrosos",
+          "description": "Compra 5 mejoras de armas"
+        }
+      }
+    },
+    "ALL_UPGRADES_BOUGHT_powers_1": {
+      "translations": {
+        "brazilian": {
+          "name": "O Poder!",
+          "description": "Obtenha todas as atualizaçőes dos poderes"
+        },
+        "english": {
+          "name": "The Power!",
+          "description": "Obtain all power upgrades"
+        },
+        "french": {
+          "name": "Celui qui a le pouvoir !",
+          "description": "Obtenir toutes les améliorations des Pouvoirs"
+        },
+        "german": {
+          "name": "Die Macht",
+          "description": "Hol dir alle Kraft-Upgrades"
+        },
+        "hungarian": {
+          "name": "Az erő!",
+          "description": "Szerezd meg az összes erőfejlesztést"
+        },
+        "italian": {
+          "name": "Il potere!",
+          "description": "Ottieni tutti i potenziamenti"
+        },
+        "japanese": {
+          "name": "パワー！",
+          "description": "パワーアップグレードを全部入手する"
+        },
+        "polish": {
+          "name": "Moc!",
+          "description": "Zdobądź wszystkie ulepszenia mocy."
+        },
+        "russian": {
+          "name": "Маг",
+          "description": "Приобрести все улучшения магии"
+        },
+        "schinese": {
+          "name": "力量全开！",
+          "description": "获得全部能力升级"
+        },
+        "spanish": {
+          "name": "ˇEl poder!",
+          "description": "Consigue todas las actualizaciones de Poderes"
+        }
+      }
+    },
+    "ALL_UPGRADES_BOUGHT_skills_1": {
+      "translations": {
+        "brazilian": {
+          "name": "Sensei",
+          "description": "Aprenda todas as habilidades"
+        },
+        "english": {
+          "name": "Sensei",
+          "description": "Learn all skills"
+        },
+        "french": {
+          "name": "Sensei",
+          "description": "Apprendre toutes les compétences"
+        },
+        "german": {
+          "name": "Sensei",
+          "description": "Erlerne alle Fähigkeiten"
+        },
+        "hungarian": {
+          "name": "Szenszei",
+          "description": "Tanuld meg az összes képességet"
+        },
+        "italian": {
+          "name": "Sensei",
+          "description": "Apprendi tutte le abilitŕ"
+        },
+        "japanese": {
+          "name": "先生",
+          "description": "すべてのスキルを学ぶ"
+        },
+        "polish": {
+          "name": "Sensei",
+          "description": "Opanuj wszystkie zdolności."
+        },
+        "russian": {
+          "name": "Сенсей",
+          "description": "Выучить все навыки"
+        },
+        "schinese": {
+          "name": "宗师",
+          "description": "学习全部技能"
+        },
+        "spanish": {
+          "name": "Sensei",
+          "description": "Aprende todas las habilidades"
+        }
+      }
+    },
+    "ALL_UPGRADES_BOUGHT_weapons_1": {
+      "translations": {
+        "brazilian": {
+          "name": "Exército de Um Homem",
+          "description": "Compre todas as atualizaçőes de armas"
+        },
+        "english": {
+          "name": "One Man Army",
+          "description": "Buy all weapon upgrades"
+        },
+        "french": {
+          "name": "Une armée ŕ lui tout seul",
+          "description": "Acheter toutes les améliorations d'armes"
+        },
+        "german": {
+          "name": "Ein-Mann-Armee",
+          "description": "Kauf alle Waffen-Upgrades"
+        },
+        "hungarian": {
+          "name": "Egyszemélyes hadsereg",
+          "description": "Vásárold meg az összes fegyverfejlesztést"
+        },
+        "italian": {
+          "name": "Esercito di un solo uomo",
+          "description": "Acquista tutti i miglioramenti delle armi"
+        },
+        "japanese": {
+          "name": "一人軍隊",
+          "description": "すべての武器のアップグレードを購入する"
+        },
+        "polish": {
+          "name": "Jednoosobowa armia",
+          "description": "Kup wszystkie ulepszenia broni."
+        },
+        "russian": {
+          "name": "Человек-армия",
+          "description": "Купить все улучшения для оружия"
+        },
+        "schinese": {
+          "name": "一人成军",
+          "description": "购买全部武器升级"
+        },
+        "spanish": {
+          "name": "Ejército de una persona",
+          "description": "Compra todas las mejoras de armas"
+        }
+      }
+    },
+    "DESTRO_COUNT_0": {
+      "translations": {
+        "brazilian": {
+          "name": "Problemático",
+          "description": "Destrua 50 itens destrutíveis"
+        },
+        "english": {
+          "name": "Pot Breaker",
+          "description": "Destroy 50 destructible items"
+        },
+        "french": {
+          "name": "Maladroit",
+          "description": "Détruire 50 éléments destructibles"
+        },
+        "german": {
+          "name": "Tellerschmeißer",
+          "description": "Vernichte 50 zerstörbare Gegenstände"
+        },
+        "hungarian": {
+          "name": "Köcsögzúzó",
+          "description": "Pusztíts el 50 elpusztítható tárgyat"
+        },
+        "italian": {
+          "name": "Rompistoviglie",
+          "description": "Distruggi 50 oggetti distruttibili"
+        },
+        "japanese": {
+          "name": "ポットブレイカー",
+          "description": "破壊可能なアイテムを50破壊する"
+        },
+        "polish": {
+          "name": "Łobuz",
+          "description": "Zniszcz 50 zniszczalnych przedmiotów."
+        },
+        "russian": {
+          "name": "Разбивающий горшки",
+          "description": "Уничтожить 50 разрушаемых предметов"
+        },
+        "schinese": {
+          "name": "破罐者",
+          "description": "摧毁 50 个可破坏物品"
+        },
+        "spanish": {
+          "name": "Rompeplatos",
+          "description": "Destruye 50 objetos destructibles"
+        }
+      }
+    },
+    "DESTRO_COUNT_1": {
+      "translations": {
+        "brazilian": {
+          "name": "Destruidor de Festas",
+          "description": "Destrua 250 itens destrutíveis"
+        },
+        "english": {
+          "name": "Party Crasher",
+          "description": "Destroy 250 destructible items"
+        },
+        "french": {
+          "name": "Sans-gęne",
+          "description": "Détruire 250 éléments destructibles"
+        },
+        "german": {
+          "name": "Partyschreck",
+          "description": "Vernichte 250 zerstörbare Gegenstände"
+        },
+        "hungarian": {
+          "name": "Hangulatromboló",
+          "description": "Pusztíts el 250 elpusztítható tárgyat"
+        },
+        "italian": {
+          "name": "Rompiscatole",
+          "description": "Distruggi 250 oggetti distruttibili"
+        },
+        "japanese": {
+          "name": "パーティークラッシャー",
+          "description": "破壊可能なアイテムを250破壊する"
+        },
+        "polish": {
+          "name": "Chuligan",
+          "description": "Zniszcz 250 zniszczalnych przedmiotów."
+        },
+        "russian": {
+          "name": "Буйный на вечеринке",
+          "description": "Уничтожить 250 разрушаемых предметов"
+        },
+        "schinese": {
+          "name": "派对破坏者",
+          "description": "摧毁 250 个可破坏物品"
+        },
+        "spanish": {
+          "name": "Aguafiestas",
+          "description": "Destruye 250 objetos destructibles"
+        }
+      }
+    },
+    "DESTRO_COUNT_2": {
+      "translations": {
+        "brazilian": {
+          "name": "Rufiăo",
+          "description": "Destrua 1000 itens destrutíveis"
+        },
+        "english": {
+          "name": "Hoodlum",
+          "description": "Destroy 1000 destructible items"
+        },
+        "french": {
+          "name": "Vandale",
+          "description": "Détruire 1000 éléments destructibles"
+        },
+        "german": {
+          "name": "Raufbold",
+          "description": "Vernichte 1000 zerstörbare Gegenstände"
+        },
+        "hungarian": {
+          "name": "Gengszter",
+          "description": "Pusztíts el 1000 elpusztítható tárgyat"
+        },
+        "italian": {
+          "name": "Teppista",
+          "description": "Distruggi 1.000 oggetti distruttibili"
+        },
+        "japanese": {
+          "name": "チンピラ",
+          "description": "破壊可能なアイテムを1000破壊する"
+        },
+        "polish": {
+          "name": "Wandal",
+          "description": "Zniszcz 1000 zniszczalnych przedmiotów."
+        },
+        "russian": {
+          "name": "Хулиган",
+          "description": "Уничтожить 1000 разрушаемых предметов"
+        },
+        "schinese": {
+          "name": "混混",
+          "description": "摧毁 1000 个可破坏物品"
+        },
+        "spanish": {
+          "name": "Matón",
+          "description": "Destruye 1000 objetos destructibles"
+        }
+      }
+    },
+    "SECRETS_0": {
+      "translations": {
+        "brazilian": {
+          "name": "Escavador",
+          "description": "Encontre 5 segredos"
+        },
+        "english": {
+          "name": "Digger",
+          "description": "Find 5 secrets"
+        },
+        "french": {
+          "name": "Fouineur",
+          "description": "Découvrir 5 secrets"
+        },
+        "german": {
+          "name": "Buddler",
+          "description": "Finde 5 Geheimnisse"
+        },
+        "hungarian": {
+          "name": "Ásó",
+          "description": "Fedezz fel 5 titkot"
+        },
+        "italian": {
+          "name": "Scavatore",
+          "description": "Trova 5 segreti"
+        },
+        "japanese": {
+          "name": "坑夫",
+          "description": "秘密を5つ見つける"
+        },
+        "polish": {
+          "name": "Ciekawski",
+          "description": "Znajdź 5 sekretów."
+        },
+        "russian": {
+          "name": "Копатель",
+          "description": "Найти 5 тайников"
+        },
+        "schinese": {
+          "name": "挖掘者",
+          "description": "找到 5 个秘密"
+        },
+        "spanish": {
+          "name": "Excavadora",
+          "description": "Encuentra 5 secretos"
+        }
+      }
+    },
+    "SECRETS_1": {
+      "translations": {
+        "brazilian": {
+          "name": "Caçador de Tesouros",
+          "description": "Encontre 25 segredos"
+        },
+        "english": {
+          "name": "Treasure Raider",
+          "description": "Find 25 secrets"
+        },
+        "french": {
+          "name": "Pilleur de trésors",
+          "description": "Découvrir 25 secrets"
+        },
+        "german": {
+          "name": "Schatzjäger",
+          "description": "Finde 25 Geheimnisse"
+        },
+        "hungarian": {
+          "name": "Kincskereső",
+          "description": "Fedezz fel 25 titkot"
+        },
+        "italian": {
+          "name": "Predone di tesori",
+          "description": "Trova 25 segreti"
+        },
+        "japanese": {
+          "name": "宝物レイダー",
+          "description": "秘密を25個見つける"
+        },
+        "polish": {
+          "name": "Łowca skarbów",
+          "description": "Znajdź 25 sekretów."
+        },
+        "russian": {
+          "name": "Охотник за сокровищами",
+          "description": "Найти 25 тайников"
+        },
+        "schinese": {
+          "name": "宝藏猎人",
+          "description": "找到 25 个秘密"
+        },
+        "spanish": {
+          "name": "Buscatesoros",
+          "description": "Encuentra 25 secretos"
+        }
+      }
+    },
+    "SECRETS_2": {
+      "translations": {
+        "brazilian": {
+          "name": "Sr. Jones",
+          "description": "Encontre todos os segredos no jogo"
+        },
+        "english": {
+          "name": "Mr. Jones",
+          "description": "Find all the secrets in the game"
+        },
+        "french": {
+          "name": "M. Jones",
+          "description": "Découvrir tous les secrets du jeu"
+        },
+        "german": {
+          "name": "Indiana",
+          "description": "Finde alle Geheimnisse im Spiel"
+        },
+        "hungarian": {
+          "name": "Mr. Jones",
+          "description": "Fedezd fel az összes titkot a játékban"
+        },
+        "italian": {
+          "name": "Signor. Jones",
+          "description": "Trova tutti i segreti nel gioco"
+        },
+        "japanese": {
+          "name": "ミスタージョーンズ",
+          "description": "ゲーム内にあるすべての秘密を見つける"
+        },
+        "polish": {
+          "name": "Indiana Jones",
+          "description": "Znajdź wszystkie sekrety w grze."
+        },
+        "russian": {
+          "name": "Мистер Джонс",
+          "description": "Найти все тайники в игре"
+        },
+        "schinese": {
+          "name": "琼斯先生",
+          "description": "找到游戏中全部秘密"
+        },
+        "spanish": {
+          "name": "Mr. Jones",
+          "description": "Encuentra todos los secretos del juego"
+        }
+      }
+    },
+    "KILL_IN_TIME__5_10_tier0": {
+      "translations": {
+        "brazilian": {
+          "name": "Enfurecido (Nível 1)",
+          "description": "Mate 5 inimigos em 10 segundos na dificuldade Casual"
+        },
+        "english": {
+          "name": "Enraged (Tier 1)",
+          "description": "Kill 5 enemies within 10 seconds on difficulty Casual"
+        },
+        "french": {
+          "name": "Irrité (niveau 1)",
+          "description": "Tuer 5 ennemis en 10 secondes en difficulté Amateur"
+        },
+        "german": {
+          "name": "Wutnickel (Ebene 1)",
+          "description": "Töte 5 Feinde in 10 Sekunden (Schwierigkeitsgrad 'Einfach')"
+        },
+        "hungarian": {
+          "name": "Dühös (1. szint)",
+          "description": "Végezz 5 ellenféllel 10 másodperc alatt kezdő nehézségi szinten"
+        },
+        "italian": {
+          "name": "Furibondo (livello 1)",
+          "description": "Uccidi 5 nemici nel giro di 10 secondi con difficoltŕ lieve"
+        },
+        "japanese": {
+          "name": "怒り（レベル1 ）",
+          "description": "難易度カジュアルで10秒以内に敵を5体倒す"
+        },
+        "polish": {
+          "name": "Wściekły byk (poziom 1)",
+          "description": "Zabij 5 przeciwników w ciągu 10 sekund na niskim poziomie trudności."
+        },
+        "russian": {
+          "name": "В ярости (уровень 1)",
+          "description": "Убить 5 врагов за 10 секунд на обычной сложности"
+        },
+        "schinese": {
+          "name": "狂怒（第一阶）",
+          "description": "在简单难度下 10 秒内杀死 5 名敌人"
+        },
+        "spanish": {
+          "name": "Rabioso (Fila 1)",
+          "description": "Elimina a 5 enemigos en menos de 10 segundos en la dificultad Casual"
+        }
+      }
+    },
+    "KILL_IN_TIME__3_0_tier0": {
+      "translations": {
+        "brazilian": {
+          "name": "Banho de Sangue (Nível 1)",
+          "description": "Mate 3 inimigos com um disparo na dificuldade Casual"
+        },
+        "english": {
+          "name": "Bloodbath (Tier 1)",
+          "description": "Kill 3 enemies with one shot on difficulty Casual"
+        },
+        "french": {
+          "name": "Bain de sang (niveau 1)",
+          "description": "Tuer 3 ennemis d'un seul coup en difficulté Amateur"
+        },
+        "german": {
+          "name": "Blutbad (Ebene 1)",
+          "description": "Töte 3 Feinde mit einem Schuss (Schwierigkeitsgrad 'Einfach')"
+        },
+        "hungarian": {
+          "name": "Vérfürdő (1. szint)",
+          "description": "Egy lövéssel végezz 3 ellenféllel kezdő nehézségi szinten"
+        },
+        "italian": {
+          "name": "Bagno di sangue (livello 1)",
+          "description": "Uccidi 3 nemici con un colpo con difficoltŕ lieve"
+        },
+        "japanese": {
+          "name": "大虐殺（レベル1 ）",
+          "description": "難易度カジュアルで一撃で3体の敵を倒す"
+        },
+        "polish": {
+          "name": "Krwawa łaźnia (poziom 1)",
+          "description": "Zabij 3 przeciwników jednym strzałem na niskim poziomie trudności."
+        },
+        "russian": {
+          "name": "Резня (уровень 1)",
+          "description": "Убить 3 врагов с одного выстрела на обычной сложности"
+        },
+        "schinese": {
+          "name": "血浴（第一阶）",
+          "description": "在简单难度下一击杀死 3 名敌人"
+        },
+        "spanish": {
+          "name": "Bańo de sangre (Fila 1)",
+          "description": "Elimina a 3 enemigos con un disparo en la dificultad Casual"
+        }
+      }
+    },
+    "KILL_IN_TIME_shaman_1_999999_tier0": {
+      "translations": {
+        "brazilian": {
+          "name": "Destruidor de Feitiços (Nível 1)",
+          "description": "Mate um Xamă na dificuldade Casual"
+        },
+        "english": {
+          "name": "Spell Breaker (Tier 1)",
+          "description": " Kill a Shaman on difficulty Casual"
+        },
+        "french": {
+          "name": "Contre-magie (niveau 1)",
+          "description": "Tuer un shaman en difficulté Amateur"
+        },
+        "german": {
+          "name": "Annihilator (Ebene 1)",
+          "description": " Töte einen Schamanen (Schwierigkeitsgrad 'Einfach')"
+        },
+        "hungarian": {
+          "name": "Varázslattörő (1. szint)",
+          "description": "Végezz egy sámánnal kezdő nehézségen"
+        },
+        "italian": {
+          "name": "Spezza incantesimo (livello 1)",
+          "description": "Uccidi uno sciamano con difficoltŕ lieve"
+        },
+        "japanese": {
+          "name": "スペルブレイカー（レベル1 ）",
+          "description": " 難易度カジュアルでシャーマンを倒す"
+        },
+        "polish": {
+          "name": "Łamacz zaklęć (poziom 1)",
+          "description": "Zabij Szamana na niskim poziomie trudności."
+        },
+        "russian": {
+          "name": "Инквизитор (уровень 1)",
+          "description": "Убить шамана на обычной сложности"
+        },
+        "schinese": {
+          "name": "破法者（第一阶）",
+          "description": "在简单难度下杀死一个萨满"
+        },
+        "spanish": {
+          "name": "Rompedor de hechizos (Fila 1)",
+          "description": "Elimina a un chamán en la dificultad Casual"
+        }
+      }
+    },
+    "KILL_IN_TIME__10_15_tier0": {
+      "translations": {
+        "brazilian": {
+          "name": "Furioso (Nível 1)",
+          "description": "Mate 10 inimigos em 15 segundos na dificuldade Casual"
+        },
+        "english": {
+          "name": "Furious (Tier 1)",
+          "description": "Kill 10 enemies within 15 seconds on difficulty Casual"
+        },
+        "french": {
+          "name": "Furieux (niveau 1)",
+          "description": "Tuer 10 ennemis en 15 secondes en difficulté Amateur"
+        },
+        "german": {
+          "name": "Zürnender (Ebene 1)",
+          "description": "Töte 10 Feinde in 15 Sekunden (Schwierigkeitsgrad 'Einfach')"
+        },
+        "hungarian": {
+          "name": "Tomboló (1. szint)",
+          "description": "Végezz 10 ellenféllel 15 másodperc alatt kezdő nehézségi szinten"
+        },
+        "italian": {
+          "name": "Furioso (livello 1)",
+          "description": "Uccidi 10 nemici nel giro di 15 secondi con difficoltŕ lieve"
+        },
+        "japanese": {
+          "name": "激怒（レベル1 ）",
+          "description": "難易度カジュアルで15秒以内に敵を10体倒す"
+        },
+        "polish": {
+          "name": "Szybki i wściekły (poziom 1)",
+          "description": "Zabij 10 przeciwników w ciągu 15 sekund na niskim poziomie trudności."
+        },
+        "russian": {
+          "name": "Яростный (уровень 1)",
+          "description": "Убить 10 врагов за 15 секунд на обычной сложности"
+        },
+        "schinese": {
+          "name": "暴怒（第一阶）",
+          "description": "在简单难度下 15 秒内杀死 10 名敌人"
+        },
+        "spanish": {
+          "name": "Furioso (Fila 1)",
+          "description": "Elimina a 10 enemigos en menos de 15 segundos en la dificultad Casual"
+        }
+      }
+    },
+    "KILL_IN_TIME__6_0_tier0": {
+      "translations": {
+        "brazilian": {
+          "name": "Matadouro (Nível 1)",
+          "description": "Mate 6 inimigos com um disparo na dificuldade Casual"
+        },
+        "english": {
+          "name": "Slaughterhouse (Tier 1)",
+          "description": "Kill 6 enemies with one shot on difficulty Casual"
+        },
+        "french": {
+          "name": "Abattoir (niveau 1)",
+          "description": "Tuer 6 ennemis d'un seul coup en difficulté Amateur"
+        },
+        "german": {
+          "name": "Schlachthaus (Ebene 1)",
+          "description": "Töte 6 Feinde mit einem Schuss (Schwierigkeitsgrad 'Einfach')"
+        },
+        "hungarian": {
+          "name": "Mészárszék (1. szint)",
+          "description": "Egy lövéssel végezz 6 ellenféllel kezdő nehézségi szinten"
+        },
+        "italian": {
+          "name": "Mattatoio (livello 1)",
+          "description": "Uccidi 6 nemici con un colpo con difficoltŕ lieve"
+        },
+        "japanese": {
+          "name": "屠殺場（レベル1 ）",
+          "description": "難易度カジュアルで一撃で6体の敵を倒す"
+        },
+        "polish": {
+          "name": "Rzeźnia (poziom 1)",
+          "description": "Zabij 6 przeciwników jednym strzałem na niskim poziomie trudności."
+        },
+        "russian": {
+          "name": "Скотобойня (уровень 1)",
+          "description": "Убить 6 врагов с одного выстрела на обычной сложности"
+        },
+        "schinese": {
+          "name": "屠宰场（第一阶）",
+          "description": "在简单难度下一击杀死 6 名敌人"
+        },
+        "spanish": {
+          "name": "Matadero (Fila 1)",
+          "description": "Elimina a 6 enemigos con un disparo en la dificultad Casual"
+        }
+      }
+    },
+    "KILL_IN_TIME_berserker_1_999999_tier0": {
+      "translations": {
+        "brazilian": {
+          "name": "Nervine (Nível 1)",
+          "description": "Mate um Berserker na dificuldade Casual"
+        },
+        "english": {
+          "name": "Nervine (Tier 1)",
+          "description": "Kill a Berserker on difficulty Casual"
+        },
+        "french": {
+          "name": "Neuroleptique (niveau 1)",
+          "description": "Tuer un Fanatique en difficulté Amateur"
+        },
+        "german": {
+          "name": "Drahtseilnerv (Ebene 1)",
+          "description": "Töte einen Berserker (Schwierigkeitsgrad 'Einfach')"
+        },
+        "hungarian": {
+          "name": "Nyugtató (1. szint)",
+          "description": "Végezz egy berzerkerrel kezdő nehézségi szinten"
+        },
+        "italian": {
+          "name": "Nervino (livello 1)",
+          "description": "Uccidi un guerriero forsennato con difficoltŕ lieve"
+        },
+        "japanese": {
+          "name": "鎮める者（レベル1 ）",
+          "description": "カジュアル難易度でバーサーカーを倒す"
+        },
+        "polish": {
+          "name": "Nerwus (poziom 10)",
+          "description": "Zabij Berserkera na niskim poziomie trudności."
+        },
+        "russian": {
+          "name": "Успокоительное (уровень 1)",
+          "description": "Убить берсерка на обычной сложности"
+        },
+        "schinese": {
+          "name": "定神剂（第一阶）",
+          "description": "在简单难度下杀死一个狂暴者"
+        },
+        "spanish": {
+          "name": "Nervine (Fila 1)",
+          "description": "Elimina a un Berserker en la dificultad Casual"
+        }
+      }
+    },
+    "KILL_IN_TIME__15_20_tier0": {
+      "translations": {
+        "brazilian": {
+          "name": "Berserk (Nível 1)",
+          "description": "Mate 15 inimigos em 20 segundos na dificuldade Casual"
+        },
+        "english": {
+          "name": "Berserk (Tier 1) ",
+          "description": "Kill 15 enemies within 20 seconds on difficulty Casual"
+        },
+        "french": {
+          "name": "Enragé (niveau 1)",
+          "description": "Tuer 15 ennemis en 20 secondes en difficulté Amateur"
+        },
+        "german": {
+          "name": "Berserker (Ebene 1)",
+          "description": "Töte 15 Feinde in 20 Sekunden (Schwierigkeitsgrad 'Einfach')"
+        },
+        "hungarian": {
+          "name": "Őrjöngő (1. szint) ",
+          "description": "Végezz 15 ellenféllel 20 másodperc alatt kezdő nehézségi szinten"
+        },
+        "italian": {
+          "name": "Forsennato (livello 1)",
+          "description": "Uccidi 15 nemici nel giro di 20 secondi con difficoltŕ lieve"
+        },
+        "japanese": {
+          "name": "ベルセルク（レベル1 ）",
+          "description": "難易度カジュアルで20秒以内に敵を15体倒す"
+        },
+        "polish": {
+          "name": "Berserk (poziom 1)",
+          "description": "Zabij 15 przeciwników w ciągu 20 sekund na niskim poziomie trudności."
+        },
+        "russian": {
+          "name": "Берсерк (уровень 1)",
+          "description": "Убить 15 врагов за 20 секунд на обычной сложности"
+        },
+        "schinese": {
+          "name": "狂暴（第一阶）",
+          "description": "在简单难度下 20 秒内杀死 15 名敌人"
+        },
+        "spanish": {
+          "name": "Berserk (Fila 1)",
+          "description": "Elimina a 15 enemigos en menos de 20 segundos en la dificultad Casual"
+        }
+      }
+    },
+    "KILL_IN_TIME__10_0_tier0": {
+      "translations": {
+        "brazilian": {
+          "name": "Inferno na Terra (Nível 1)",
+          "description": "Mate 10 inimigos com um disparo na dificuldade Casual"
+        },
+        "english": {
+          "name": "Hell On Earth (Tier 1)",
+          "description": "Kill 10 enemies with one shot on difficulty Casual"
+        },
+        "french": {
+          "name": "Enfer sur terre (niveau 1)",
+          "description": "Tuer 10 ennemis d'un seul coup en difficulté Amateur"
+        },
+        "german": {
+          "name": "Hölle auf Erden (Ebene 1)",
+          "description": "Töte 10 Feinde mit einem Schuss (Schwierigkeitsgrad 'Einfach')"
+        },
+        "hungarian": {
+          "name": "Földi pokol (1. szint)",
+          "description": "Egy lövéssel végezz 10 ellenféllel kezdő nehézségen"
+        },
+        "italian": {
+          "name": "Inferno in terra (livello 1)",
+          "description": "Uccidi 10 nemici con un colpo con difficoltŕ lieve"
+        },
+        "japanese": {
+          "name": "この世の地獄（レベル1 ）",
+          "description": "難易度カジュアルで一撃で敵を10体倒す"
+        },
+        "polish": {
+          "name": "Piekło na ziemi (poziom 1)",
+          "description": "Zabij 10 przeciwników jednym strzałem na niskim poziomie trudności."
+        },
+        "russian": {
+          "name": "Ад на земле (уровень 1)",
+          "description": "Убить 10 врагов одним выстрелом на обычной сложности"
+        },
+        "schinese": {
+          "name": "人间地狱（第一阶）",
+          "description": "在简单难度下一击杀死 10 名敌人"
+        },
+        "spanish": {
+          "name": "Infierno en la Tierra (Fila 1)",
+          "description": "Elimina a 10 enemigos con un disparo en la dificultad Casual"
+        }
+      }
+    },
+    "VIOLENCE_detonated": {
+      "translations": {
+        "brazilian": {
+          "name": "Detonador",
+          "description": "Mate 75 inimigos usando bombas adesivas"
+        },
+        "english": {
+          "name": "Detonator",
+          "description": "Kill 75 enemies using sticky bombs"
+        },
+        "french": {
+          "name": "Détonateur",
+          "description": "Tuer 75 ennemis avec des bombes adhésives"
+        },
+        "german": {
+          "name": "Detonator",
+          "description": "Töte 75 Feinde mit Klebebomben"
+        },
+        "hungarian": {
+          "name": "Robbantó",
+          "description": "Végezz 75 ellenféllel tapadós bombák használatával"
+        },
+        "italian": {
+          "name": "Detonatore",
+          "description": "Uccidi 75 nemici usando bombe adesive"
+        },
+        "japanese": {
+          "name": "起爆剤",
+          "description": "粘着爆弾を使って75体の敵を倒す"
+        },
+        "polish": {
+          "name": "Detonator",
+          "description": "Zabij 75 przeciwników przy użyciu lepkich bomb."
+        },
+        "russian": {
+          "name": "Детонатор",
+          "description": "Убить 75 врагов, используя бомбы-липучки"
+        },
+        "schinese": {
+          "name": "引爆者",
+          "description": "使用粘性炸弹杀死 75 名敌人"
+        },
+        "spanish": {
+          "name": "Detonador",
+          "description": "Elimina a 75 enemigos usando bombas lapa"
+        }
+      }
+    },
+    "VIOLENCE_cut": {
+      "translations": {
+        "brazilian": {
+          "name": "Retalhador",
+          "description": "Desmembre 500 inimigos"
+        },
+        "english": {
+          "name": "Shredder",
+          "description": "Dismember 500 enemies  "
+        },
+        "french": {
+          "name": "Déchiquetage",
+          "description": "Démembrer 500 ennemis"
+        },
+        "german": {
+          "name": "Fetzer",
+          "description": "Zerstückle 500 Feinde"
+        },
+        "hungarian": {
+          "name": "Szaggató",
+          "description": "Csonkíts meg 500 ellenfelet"
+        },
+        "italian": {
+          "name": "Frantumatore",
+          "description": "Smembra 500 nemici"
+        },
+        "japanese": {
+          "name": "裁断者",
+          "description": "500体の敵をバラバラにする"
+        },
+        "polish": {
+          "name": "Sieczka",
+          "description": "Rozczłonkuj 500 przeciwników."
+        },
+        "russian": {
+          "name": "Кромсатель",
+          "description": "Расчленить 500 врагов"
+        },
+        "schinese": {
+          "name": "粉碎者",
+          "description": "肢解 500 名敌人"
+        },
+        "spanish": {
+          "name": "Triturador",
+          "description": "Desmiembra a 500 enemigos"
+        }
+      }
+    },
+    "VIOLENCE_heart_attack": {
+      "translations": {
+        "brazilian": {
+          "name": "Ataque no Coraçăo",
+          "description": "Mate 50 inimigos com um coraçăo de demônio"
+        },
+        "english": {
+          "name": "Heart Attack",
+          "description": "Kill 50 enemies with a demon heart"
+        },
+        "french": {
+          "name": "Attaque cardiaque",
+          "description": "Tuer 50 ennemis avec un coeur démoniaque"
+        },
+        "german": {
+          "name": "Herzinfarkt",
+          "description": "Töte 50 Feinde mit einem Dämonenherzen"
+        },
+        "hungarian": {
+          "name": "Szívbaj",
+          "description": "Végezz 50 ellenféllel a démoni szív használatával"
+        },
+        "italian": {
+          "name": "Infarto",
+          "description": "Uccidi 50 nemici con un cuore di demone"
+        },
+        "japanese": {
+          "name": "心臓発作",
+          "description": "悪魔の心臓で敵を50体倒す"
+        },
+        "polish": {
+          "name": "Zawał serca",
+          "description": "Zabij 50 przeciwników sercem demona."
+        },
+        "russian": {
+          "name": "Атака сердцем",
+          "description": "Убить 50 врагов с помощью сердца демона"
+        },
+        "schinese": {
+          "name": "心脏骤停",
+          "description": "使用恶魔之心杀死 50 名敌人"
+        },
+        "spanish": {
+          "name": "Ataque cardíaco",
+          "description": "Elimina a 50 enemigos con un corazón demoníaco"
+        }
+      }
+    },
+    "VIOLENCE_mother_kill": {
+      "translations": {
+        "brazilian": {
+          "name": "Desarmado",
+          "description": "Mate 100 demônios măe antes que expludam"
+        },
+        "english": {
+          "name": "Defused",
+          "description": "Kill 100 Mother demons before they explode"
+        },
+        "french": {
+          "name": "Désamorçage",
+          "description": "Tuer 100 démons mčres avant qu'ils n'explosent"
+        },
+        "german": {
+          "name": "Entschärfung",
+          "description": "Töte 100 Mutterdämonen, bevor sie explodieren"
+        },
+        "hungarian": {
+          "name": "Hatástalanítva",
+          "description": "Végezz 100 anyadémonnal, mielőtt felrobbannak"
+        },
+        "italian": {
+          "name": "Disinnescato",
+          "description": "Uccidi 100 demoni madri prima che esplodano"
+        },
+        "japanese": {
+          "name": "解除",
+          "description": "マザーデーモンを爆発する前に100体倒す"
+        },
+        "polish": {
+          "name": "Rozbrojenie",
+          "description": "Zabij 100 demonów matek, zanim eksplodują."
+        },
+        "russian": {
+          "name": "Обезврежено",
+          "description": "Убить 100 демонов-маток, прежде чем они взорвутся"
+        },
+        "schinese": {
+          "name": "拆弹专家",
+          "description": "在母体恶魔爆炸前杀死 100 个"
+        },
+        "spanish": {
+          "name": "Desactivado",
+          "description": "Elimina 100 demonios madre antes de que exploten"
+        }
+      }
+    },
+    "VIOLENCE_burning_died": {
+      "translations": {
+        "brazilian": {
+          "name": "Queimado",
+          "description": "Queime 100 inimigos até ŕ morte"
+        },
+        "english": {
+          "name": "Toasted",
+          "description": "Burn 100 enemies to death"
+        },
+        "french": {
+          "name": "Incendiaire",
+          "description": "Brűler 100 ennemis ŕ mort"
+        },
+        "german": {
+          "name": "Getoastet",
+          "description": "Verbrenne 100 Feinde"
+        },
+        "hungarian": {
+          "name": "Odaégetve",
+          "description": "Égess halálra 100 ellenfelet"
+        },
+        "italian": {
+          "name": "Tostato",
+          "description": "Brucia a morte 100 nemici"
+        },
+        "japanese": {
+          "name": "トースト",
+          "description": "敵を100体燃やして殺す"
+        },
+        "polish": {
+          "name": "Usmażony",
+          "description": "Spal 100 przeciwników."
+        },
+        "russian": {
+          "name": "Поджаренный",
+          "description": "Сжечь 100 врагов"
+        },
+        "schinese": {
+          "name": "烤焦",
+          "description": "烧死 100 名敌人"
+        },
+        "spanish": {
+          "name": "Tostado",
+          "description": "Quema a 100 enemigos hasta matarlos"
+        }
+      }
+    },
+    "VIOLENCE_head_attack": {
+      "translations": {
+        "brazilian": {
+          "name": "Dor de cabeça",
+          "description": "Mate 50 inimigos usando uma cabeça de demônio"
+        },
+        "english": {
+          "name": "Headache",
+          "description": "Kill 50 enemies using a demon head"
+        },
+        "french": {
+          "name": "Mal de tęte",
+          "description": "Tuer 50 ennemis avec une tęte démoniaque"
+        },
+        "german": {
+          "name": "Kopfschmerzen",
+          "description": "Töte 50 Feinde mit einem Dämonenschädel"
+        },
+        "hungarian": {
+          "name": "Fejfájás",
+          "description": "Végezz 50 ellenféllel egy démonfej használatával"
+        },
+        "italian": {
+          "name": "Mal di testa",
+          "description": "Uccidi 50 nemici usando una testa di demone"
+        },
+        "japanese": {
+          "name": "頭痛",
+          "description": "デーモンの頭を使用し敵を50体倒す"
+        },
+        "polish": {
+          "name": "Ból głowy",
+          "description": "Zabij 50 przeciwników głową demona."
+        },
+        "russian": {
+          "name": "Головная боль",
+          "description": "Убить 50 врагов с помощью головы демона"
+        },
+        "schinese": {
+          "name": "头痛",
+          "description": "使用恶魔之头杀死 50 名敌人"
+        },
+        "spanish": {
+          "name": "Dolor de cabeza",
+          "description": "Elimina a 50 enemigos usando un corazón demoníaco"
+        }
+      }
+    },
+    "VIOLENCE_combo_kill": {
+      "translations": {
+        "brazilian": {
+          "name": "Especialista",
+          "description": "Mate 100 inimigos usando ataques especiais com katana"
+        },
+        "english": {
+          "name": "Specialist",
+          "description": "Kill 100 enemies using katana special attacks"
+        },
+        "french": {
+          "name": "Spécialiste",
+          "description": "Tuer 100 ennemis avec des attaques spéciales de katana"
+        },
+        "german": {
+          "name": "Spezialist",
+          "description": "Töte 100 Feinde mit Katana-Spezialangriffen"
+        },
+        "hungarian": {
+          "name": "Specialista",
+          "description": "Végezz 100 ellenféllel a katana különleges támadásainak használatával"
+        },
+        "italian": {
+          "name": "Specialista",
+          "description": "Uccidi 100 nemici usando attacchi speciali della katana"
+        },
+        "japanese": {
+          "name": "スペシャリスト",
+          "description": "刀の特殊攻撃を使用し敵を100体倒す"
+        },
+        "polish": {
+          "name": "Specjalista",
+          "description": "Zabij 100 przeciwników atakami specjalnymi katany."
+        },
+        "russian": {
+          "name": "Специалист",
+          "description": "Убить 100 врагов, используя специальные атаки катаной"
+        },
+        "schinese": {
+          "name": "达人",
+          "description": "使用武士刀特殊攻击杀死 100 名敌人"
+        },
+        "spanish": {
+          "name": "Especialista",
+          "description": "Elimina a 100 enemigos usando los ataques especiales de la katana"
+        }
+      }
+    },
+    "VIOLENCE_rage_kill": {
+      "translations": {
+        "brazilian": {
+          "name": "Tranquilizador",
+          "description": "Mate 50 demônios irados"
+        },
+        "english": {
+          "name": "Tranquillizer",
+          "description": "Kill 50 enraged demons"
+        },
+        "french": {
+          "name": "Tranquillisant",
+          "description": "Tuer 50 démons enragés"
+        },
+        "german": {
+          "name": "Beruhigungsmittel",
+          "description": "Töte 50 wütende Dämonen"
+        },
+        "hungarian": {
+          "name": "Nyugi!",
+          "description": "Végezz 50 feldühödött démonnal"
+        },
+        "italian": {
+          "name": "Tranquillizzatore",
+          "description": "Uccidi 50 demoni infuriati"
+        },
+        "japanese": {
+          "name": "トランキライザー",
+          "description": "怒ったデーモンを50体倒す"
+        },
+        "polish": {
+          "name": "Uspokajacz",
+          "description": "Zabij 50 rozwścieczonych demonów."
+        },
+        "russian": {
+          "name": "Транквилизатор",
+          "description": "Убить 50 разъяренных демонов"
+        },
+        "schinese": {
+          "name": "镇静剂",
+          "description": "杀死 50 个狂怒恶魔"
+        },
+        "spanish": {
+          "name": "Tranquilizador",
+          "description": "Elimina a 50 demonios reptadores"
+        }
+      }
+    },
+    "VIOLENCE_chained": {
+      "translations": {
+        "brazilian": {
+          "name": "Massacre",
+          "description": "Obtenha 200 bônus por massacre"
+        },
+        "english": {
+          "name": "Massacre",
+          "description": "Obtain 200 massacre bonuses"
+        },
+        "french": {
+          "name": "Massacre",
+          "description": "Gagner 200 bonus de massacre"
+        },
+        "german": {
+          "name": "Massaker",
+          "description": "Erhalte 200 Massakerboni"
+        },
+        "hungarian": {
+          "name": "Mészárlás",
+          "description": "Szerezz 200 mészárlás bónuszt"
+        },
+        "italian": {
+          "name": "Massacro",
+          "description": "Ottieni 200 bonus massacro"
+        },
+        "japanese": {
+          "name": "虐殺",
+          "description": "虐殺ボーナスを200獲得する"
+        },
+        "polish": {
+          "name": "Masakra",
+          "description": "Zdobądź premię 'Masakra' 200 razy."
+        },
+        "russian": {
+          "name": "Бойня",
+          "description": "Получить 200 бонусов за бойню"
+        },
+        "schinese": {
+          "name": "大屠杀",
+          "description": "获得 200 次大屠杀奖励"
+        },
+        "spanish": {
+          "name": "Masacre",
+          "description": "Consigue 200 bonificaciones de Masacre"
+        }
+      }
+    },
+    "VIOLENCE_crawling_kill": {
+      "translations": {
+        "brazilian": {
+          "name": "Sem misericórdia",
+          "description": "Mate 50 demônios rastejantes"
+        },
+        "english": {
+          "name": "Merciless",
+          "description": "Kill 50 crawling demons"
+        },
+        "french": {
+          "name": "Férocité",
+          "description": "Tuer 50 démons rampants"
+        },
+        "german": {
+          "name": "Erbarmungslosigkeit",
+          "description": "Töte 50 kriechende Dämonen"
+        },
+        "hungarian": {
+          "name": "Könyörtelen",
+          "description": "Végezz 50 kúszó démonnal"
+        },
+        "italian": {
+          "name": "Implacabile",
+          "description": "Uccidi 50 demoni striscianti"
+        },
+        "japanese": {
+          "name": "無慈悲",
+          "description": "クロールデーモンを50体倒す"
+        },
+        "polish": {
+          "name": "Bez przebaczenia",
+          "description": "Zabij 50 pełzających demonów."
+        },
+        "russian": {
+          "name": "Беспощадный",
+          "description": "Убить 50 ползущих демонов"
+        },
+        "schinese": {
+          "name": "无情",
+          "description": "杀死 50 个爬行恶魔"
+        },
+        "spanish": {
+          "name": "Sin piedad",
+          "description": "Elimina 50 demonios reptadores"
+        }
+      }
+    },
+    "VIOLENCE_bolt_pinned": {
+      "translations": {
+        "brazilian": {
+          "name": "Acertado",
+          "description": "Prenda 50 inimigos ŕs paredes com dardos de balestra"
+        },
+        "english": {
+          "name": "Nailed",
+          "description": "Pin 50 enemies to walls with crossbow bolts"
+        },
+        "french": {
+          "name": "Epingleur",
+          "description": "Epingler 50 ennemis au mur avec des carreaux d'arbalčte"
+        },
+        "german": {
+          "name": "Nagler",
+          "description": "Nagle 50 Feinde mit Armbrustbolzen an die Wand"
+        },
+        "hungarian": {
+          "name": "Odaszegezve",
+          "description": "Szögezz 50 ellenfelet a falhoz számszeríj használatával"
+        },
+        "italian": {
+          "name": "Inchiodato",
+          "description": "Fissa 50 nemici alle pareti con i dardi"
+        },
+        "japanese": {
+          "name": "釘付け",
+          "description": "クロスボウボルトで敵を50体磔にする"
+        },
+        "polish": {
+          "name": "Nadziany",
+          "description": "Przybij 50 przeciwników do ściany przy użyciu kuszy."
+        },
+        "russian": {
+          "name": "Пригвожденный",
+          "description": "Пришпилить 50 врагов к стене с помощью стрел для арбалета"
+        },
+        "schinese": {
+          "name": "钉死",
+          "description": "使用弩箭将 50 名敌人钉在墙上"
+        },
+        "spanish": {
+          "name": "Máquina",
+          "description": "Ensarta 50 enemigos a la pared usando la ballesta"
+        }
+      }
+    },
+    "VIOLENCE_levitated_kill": {
+      "translations": {
+        "brazilian": {
+          "name": "Piloto",
+          "description": "Mate 50 inimigos aprisionados numa armadilha de água"
+        },
+        "english": {
+          "name": "Aviator",
+          "description": "Kill 50 enemies ensnared in water trap"
+        },
+        "french": {
+          "name": "Aviateur",
+          "description": "Tuer 50 ennemis pris dans un pičge aquatique"
+        },
+        "german": {
+          "name": "Flieger",
+          "description": "Töte 50 Feinde in einer Wasserfalle"
+        },
+        "hungarian": {
+          "name": "Pilóta",
+          "description": "Végezz 50 vízcsapdával rabul ejtett ellenféllel"
+        },
+        "italian": {
+          "name": "Aviatore",
+          "description": "Uccidi 50 nemici bloccati nella trappola d'acqua"
+        },
+        "japanese": {
+          "name": "アビエーター",
+          "description": "水の罠で敵を50体倒す"
+        },
+        "polish": {
+          "name": "Lotnik",
+          "description": "Zabij 50 przeciwników uwięzionych w pułapce wodnej."
+        },
+        "russian": {
+          "name": "Авиатор",
+          "description": "Убить 50 врагов, заточенных в водяную ловушку"
+        },
+        "schinese": {
+          "name": "飞行家",
+          "description": "杀死 50 个被水陷阱困住的敌人"
+        },
+        "spanish": {
+          "name": "Aviador",
+          "description": "Elimina 50 enemigos usando la trampa de agua"
+        }
+      }
+    },
+    "VIOLENCE_shocked_kill": {
+      "translations": {
+        "brazilian": {
+          "name": "Dorminhoco",
+          "description": "Mate 50 inimigos atordoados"
+        },
+        "english": {
+          "name": "Sleepyhead",
+          "description": "Kill 50 stunned enemies"
+        },
+        "french": {
+          "name": "Endormissement",
+          "description": "Tuer 50 ennemis étourdis"
+        },
+        "german": {
+          "name": "Schlafmütze",
+          "description": "Töte 50 betäubte Feinde"
+        },
+        "hungarian": {
+          "name": "Hétalvó",
+          "description": "Végezz 50 elkábított ellenféllel"
+        },
+        "italian": {
+          "name": "Dormiglione",
+          "description": "Uccidi 50 nemici storditi"
+        },
+        "japanese": {
+          "name": "眠り屋",
+          "description": "気絶した敵を50体倒す"
+        },
+        "polish": {
+          "name": "Śpioch",
+          "description": "Zabij 50 ogłuszonych przeciwników."
+        },
+        "russian": {
+          "name": "Соня",
+          "description": "Убить 50 оглушенных врагов"
+        },
+        "schinese": {
+          "name": "瞌睡虫",
+          "description": "杀死 50 个眩晕敌人"
+        },
+        "spanish": {
+          "name": "Dormilón",
+          "description": "Elimina a 50 enemigos aturdidos"
+        }
+      }
+    },
+    "VIOLENCE_explosion_kill": {
+      "translations": {
+        "brazilian": {
+          "name": "Demolido",
+          "description": "Mate 100 inimigos com objetos ambientais explosivos"
+        },
+        "english": {
+          "name": "Demolished",
+          "description": "Kill 100 enemies with explosive environmental objects"
+        },
+        "french": {
+          "name": "Démolisseur",
+          "description": "Tuer 100 ennemis avec des éléments explosifs de l'environnement"
+        },
+        "german": {
+          "name": "Demolator",
+          "description": "Töte 100 Feinde mit explosiven Umgebungsobjekten"
+        },
+        "hungarian": {
+          "name": "Lezúzva",
+          "description": "Végezz 100 ellenféllel robbanó környezeti tárgyak segítségével"
+        },
+        "italian": {
+          "name": "Demolito",
+          "description": "Uccidi 100 nemici con oggetti ambientali esplosivi"
+        },
+        "japanese": {
+          "name": "全壊",
+          "description": "爆発する環境オブジェクトで100体の敵を倒す"
+        },
+        "polish": {
+          "name": "Demolka",
+          "description": "Zabij 100 przeciwników wybuchowymi elementami otoczenia."
+        },
+        "russian": {
+          "name": "Разрушенный",
+          "description": "Убить 100 врагов взрывоопасными объектами окружающей среды"
+        },
+        "schinese": {
+          "name": "夷为平地",
+          "description": "使用爆炸性环境物体杀死 100 名敌人"
+        },
+        "spanish": {
+          "name": "Demolido",
+          "description": "Elimina a 100 enemigos usando objetos explosivos del entorno"
+        }
+      }
+    },
+    "VIOLENCE_electricity_kill": {
+      "translations": {
+        "brazilian": {
+          "name": "Raiden",
+          "description": "Eletrocute até ŕ morte 100 inimigos"
+        },
+        "english": {
+          "name": "Raiden",
+          "description": "Electrocute to death 100 enemies"
+        },
+        "french": {
+          "name": "Raiden",
+          "description": "Electrocuter ŕ mort 100 ennemis"
+        },
+        "german": {
+          "name": "Überraschungsangriff",
+          "description": "Töte 100 Feinde mit Strom"
+        },
+        "hungarian": {
+          "name": "Viharisten",
+          "description": "Rázz halálra 100 ellenfelet"
+        },
+        "italian": {
+          "name": "Derubato",
+          "description": "Fulmina a morte 100 nemici"
+        },
+        "japanese": {
+          "name": "雷電",
+          "description": "敵を100体感電死させる"
+        },
+        "polish": {
+          "name": "Raiden",
+          "description": "Poraź prądem 100 przeciwników."
+        },
+        "russian": {
+          "name": "Рэйден",
+          "description": "Казнить 100 врагов электричеством"
+        },
+        "schinese": {
+          "name": "雷神",
+          "description": "电死 100 名敌人"
+        },
+        "spanish": {
+          "name": "Saqueado",
+          "description": "Electrocuta a 100 enemigos hasta matarlos"
+        }
+      }
+    },
+    "VIOLENCE_head": {
+      "translations": {
+        "brazilian": {
+          "name": "Decapitado",
+          "description": "Decapite 50 inimigos"
+        },
+        "english": {
+          "name": "Beheaded",
+          "description": "Decapitate 50 enemies"
+        },
+        "french": {
+          "name": "Décapitation",
+          "description": "Décapiter 50 ennemis"
+        },
+        "german": {
+          "name": "Enthauptet",
+          "description": "Enthaupte 50 Feinde"
+        },
+        "hungarian": {
+          "name": "Lefejezve",
+          "description": "Fejezz le 50 ellenfelet"
+        },
+        "italian": {
+          "name": "Decapitato",
+          "description": "Decapita 50 nemici"
+        },
+        "japanese": {
+          "name": "斬首",
+          "description": "敵の首を50体分切り落とす"
+        },
+        "polish": {
+          "name": "Dekapitacja",
+          "description": "Skróć o głowę 50 przeciwników."
+        },
+        "russian": {
+          "name": "Обезглавливание",
+          "description": "Обезглавить 50 врагов"
+        },
+        "schinese": {
+          "name": "斩首",
+          "description": "斩首 50 名敌人"
+        },
+        "spanish": {
+          "name": "Decapitado",
+          "description": "Decapita a 50 enemigos"
+        }
+      }
+    },
+    "VIOLENCE_burning_kill": {
+      "translations": {
+        "brazilian": {
+          "name": "Piedoso",
+          "description": "Mate 50 inimigos flamejantes"
+        },
+        "english": {
+          "name": "Merciful",
+          "description": "Kill 50 burning enemies"
+        },
+        "french": {
+          "name": "Compassion",
+          "description": "Tuer 50 ennemis en feu"
+        },
+        "german": {
+          "name": "Gnade",
+          "description": "Töte 50 brennende Feinde"
+        },
+        "hungarian": {
+          "name": "Irgalmas",
+          "description": "Végezz 50 égő ellenféllel"
+        },
+        "italian": {
+          "name": "Clemente",
+          "description": "Uccidi 50 nemici in fiamme"
+        },
+        "japanese": {
+          "name": "慈悲深き者",
+          "description": "敵を50体燃やし尽くす"
+        },
+        "polish": {
+          "name": "Litość",
+          "description": "Zabij 50 płonących przeciwników."
+        },
+        "russian": {
+          "name": "Милосердный",
+          "description": "Убить 50 горящих врагов"
+        },
+        "schinese": {
+          "name": "仁慈",
+          "description": "杀死 50 个燃烧中的敌人"
+        },
+        "spanish": {
+          "name": "Piadoso",
+          "description": "Acaba con 50 enemigos en llamas"
+        }
+      }
+    },
+    "VIOLENCE_head_shot": {
+      "translations": {
+        "brazilian": {
+          "name": "Tiro na cabeça",
+          "description": "Mate 50 inimigos com um tiro na cabeça"
+        },
+        "english": {
+          "name": "Headshot",
+          "description": "Kill 50 enemies with a headshot"
+        },
+        "french": {
+          "name": "Tir dans la tęte",
+          "description": "Tuer 50 ennemis d'un tir dans la tęte"
+        },
+        "german": {
+          "name": "Kopfschuss",
+          "description": "Töte 50 Feinde mit einem Kopfschuss"
+        },
+        "hungarian": {
+          "name": "Fejlövés",
+          "description": "Fejlövéssel végezz 50 ellenféllel"
+        },
+        "italian": {
+          "name": "Colpo alla testa",
+          "description": "Uccidi 50 nemici con un colpo alla testa"
+        },
+        "japanese": {
+          "name": "ヘッドショット",
+          "description": "ヘッドショットで敵を50体倒す"
+        },
+        "polish": {
+          "name": "Strzał w głowę",
+          "description": "Zabij 50 przeciwników strzałem w głowę."
+        },
+        "russian": {
+          "name": "Хедшот",
+          "description": "Убить 50 врагов выстрелом в голову"
+        },
+        "schinese": {
+          "name": "爆头",
+          "description": "爆头杀死 50 名敌人"
+        },
+        "spanish": {
+          "name": "Tiro a la cabeza",
+          "description": "Elimina a 50 enemigos con tiros a la cabeza"
+        }
+      }
+    },
+    "GAME_FINISHED_tier0": {
+      "translations": {
+        "brazilian": {
+          "name": "Shadow Warrior (Nível 1)",
+          "description": "Conclua o jogo na dificuldade Casual"
+        },
+        "english": {
+          "name": "Shadow Warrior (Tier 1)",
+          "description": "Complete the game on difficulty Casual"
+        },
+        "french": {
+          "name": "Shadow Warrior (niveau 1)",
+          "description": "Terminer le jeu en difficulté Amateur"
+        },
+        "german": {
+          "name": "Schattenkrieger (Ebene 1)",
+          "description": "Schließ das Spiel auf dem Schwierigkeitsgrad 'Einfach' ab"
+        },
+        "hungarian": {
+          "name": "Árnyharcos (1. szint)",
+          "description": "Teljesítsd a játékot kezdő nehézségi szinten"
+        },
+        "italian": {
+          "name": "Guerriero dell'ombra (livello 1)",
+          "description": "Completa il gioco con difficoltŕ lieve"
+        },
+        "japanese": {
+          "name": "シャドウ・ウォリアー（レベル1 ）",
+          "description": "難易度カジュアルでゲームをクリアする"
+        },
+        "polish": {
+          "name": "Wojownik cienia (poziom 1)",
+          "description": "Ukończ grę na niskim poziomie trudności."
+        },
+        "russian": {
+          "name": "Воин теней (уровень 1)",
+          "description": "Пройти игру на обычной сложности"
+        },
+        "schinese": {
+          "name": "影子武士（第一阶）",
+          "description": "在简单难度下通关游戏"
+        },
+        "spanish": {
+          "name": "Shadow Warrior (Fila 1)",
+          "description": "Completa el juego en el nivel de dificultad Casual"
+        }
+      }
+    },
+    "GAME_FINISHED_HEROIC": {
+      "translations": {
+        "brazilian": {
+          "name": "Năo é um Wang Comum",
+          "description": "Conclua o jogo na dificuldade Heroica"
+        },
+        "english": {
+          "name": "No Ordinary Wang",
+          "description": "Complete the game on difficulty Heroic"
+        },
+        "french": {
+          "name": "SuperWang",
+          "description": "Terminer le jeu en difficulté Héroďque"
+        },
+        "german": {
+          "name": "Kein gewöhnlicher Wang",
+          "description": "Schließ das Spiel auf dem Schwierigkeitsgrad 'Heldenmodus' ab"
+        },
+        "hungarian": {
+          "name": "Nem egy átlagos Wang",
+          "description": "Teljesítsd a játékot hősi nehézségi szinten"
+        },
+        "italian": {
+          "name": "Un Wang fuori dall'ordinario",
+          "description": "Completa il gioco con difficoltŕ eroica"
+        },
+        "japanese": {
+          "name": "並のワンではない",
+          "description": "難易度ヒロイックでゲームをクリアする"
+        },
+        "polish": {
+          "name": "Wang Wspaniały",
+          "description": "Ukończ grę na bohaterskim poziomie trudności."
+        },
+        "russian": {
+          "name": "Необычный Ло Ванг",
+          "description": "Пройти игру на героической сложности"
+        },
+        "schinese": {
+          "name": "非同寻常的王",
+          "description": "在英雄难度下通关游戏"
+        },
+        "spanish": {
+          "name": "No hay Wang normal",
+          "description": "Completa el juego en el nivel de dificultad Heroico"
+        }
+      }
+    },
+    "BOSS_gozu_tier0": {
+      "translations": {
+        "brazilian": {
+          "name": "Matador (Nível 1)",
+          "description": "Derrote Gozu na dificuldade Casual"
+        },
+        "english": {
+          "name": "Matador (Tier 1)",
+          "description": "Defeat Gozu on difficulty Casual"
+        },
+        "french": {
+          "name": "Matador (niveau 1)",
+          "description": "Vaincre Gozu en difficulté Amateur"
+        },
+        "german": {
+          "name": "Matador (Ebene 1)",
+          "description": "Besiege Gozu auf dem Schwierigkeitsgrad 'Einfach'"
+        },
+        "hungarian": {
+          "name": "Matador (1. szint)",
+          "description": "Győzd le Gozut kezdő nehézségi szinten"
+        },
+        "italian": {
+          "name": "Torero (livello 1)",
+          "description": "Sconfiggi Gozu con difficoltŕ lieve"
+        },
+        "japanese": {
+          "name": "マタドール（レベル1 ）",
+          "description": "難易度カジュアルでゴズを倒す"
+        },
+        "polish": {
+          "name": "Matador (poziom 1)",
+          "description": "Pokonaj Gozu na niskim poziomie trudności."
+        },
+        "russian": {
+          "name": "Матадор (уровень 1)",
+          "description": "Победить Годзу на обычной сложности"
+        },
+        "schinese": {
+          "name": "斗牛士（第一阶）",
+          "description": "在简单难度下击败牛头"
+        },
+        "spanish": {
+          "name": "Matador (Fila 1)",
+          "description": "Derrota a Gozu en la dificultad Casual"
+        }
+      }
+    },
+    "BOSS_mezu_tier0": {
+      "translations": {
+        "brazilian": {
+          "name": "Encantador de Cavalos (Nível 1)",
+          "description": "Derrote Mezu na dificuldade Casual"
+        },
+        "english": {
+          "name": "Horse Whisperer (Tier 1)",
+          "description": "Defeat Mezu on difficulty Casual"
+        },
+        "french": {
+          "name": "Chuchotueur (niveau 1)",
+          "description": "Vaincre Mezu en difficulté Amateur"
+        },
+        "german": {
+          "name": "Pferdeflüsterer (Ebene 1)",
+          "description": "Besiege Mezu auf dem Schwierigkeitsgrad 'Einfach'"
+        },
+        "hungarian": {
+          "name": "A suttogó (1. szint)",
+          "description": "Győzd le Mezut kezdő nehézségi szinten"
+        },
+        "italian": {
+          "name": "Doma gentile (livello 1)",
+          "description": "Sconfiggi Mezu con difficoltŕ lieve"
+        },
+        "japanese": {
+          "name": "ホースウィスパラー（レベル1 ）",
+          "description": "難易度カジュアルでメズを倒す"
+        },
+        "polish": {
+          "name": "Zaklinacz koni (poziom 1)",
+          "description": "Pokonaj Mezu na niskim poziomie trudności."
+        },
+        "russian": {
+          "name": "Шепчущий конь (уровень 1)",
+          "description": "Победить Мэдзу на обычной сложности"
+        },
+        "schinese": {
+          "name": "马语者（第一阶）",
+          "description": "在简单难度下击败马面"
+        },
+        "spanish": {
+          "name": "Susurrador de caballos (Fila 1)",
+          "description": "Derrota a Mezu en la dificultad Casual"
+        }
+      }
+    },
+    "BOSS_xing_tier0": {
+      "translations": {
+        "brazilian": {
+          "name": "Caçador de Cabeças (Nível 1)",
+          "description": "Derrote Xing na dificuldade Casual"
+        },
+        "english": {
+          "name": "Head Hunter (Tier 1)",
+          "description": "Defeat Xing on difficulty Casual"
+        },
+        "french": {
+          "name": "Chasseur de tętes (niveau 1)",
+          "description": "Vaincre Xing en difficulté Amateur"
+        },
+        "german": {
+          "name": "Kopfjäger (Ebene 1)",
+          "description": "Besiege Xing auf dem Schwierigkeitsgrad 'Einfach'"
+        },
+        "hungarian": {
+          "name": "Fejvadász (1. szint)",
+          "description": "Győzd le Xinget kezdő nehézségi szinten"
+        },
+        "italian": {
+          "name": "Cacciatore di teste (livello 1)",
+          "description": "Sconfiggi Xing con difficoltŕ lieve"
+        },
+        "japanese": {
+          "name": "ヘッドハンター（レベル1 ）",
+          "description": "難易度カジュアルでシンを倒す"
+        },
+        "polish": {
+          "name": "Łowca głów (poziom 1)",
+          "description": "Pokonaj Xinga na niskim poziomie trudności."
+        },
+        "russian": {
+          "name": "Охотник за головами (уровень 1)",
+          "description": "Победить Сина на обычной сложности"
+        },
+        "schinese": {
+          "name": "猎头者（第一阶）",
+          "description": "在简单难度下击败星"
+        },
+        "spanish": {
+          "name": "Cazador de cabezas (Fila 1)",
+          "description": "Derrota a Xing en la dificultad Casual"
+        }
+      }
+    },
+    "KILL_COUNT_TYPE_evil_rabbit": {
+      "translations": {
+        "brazilian": {
+          "name": "Alice no País das Sombras",
+          "description": "Mate 10 coelhos malignos"
+        },
+        "english": {
+          "name": "Alice In Shadowland",
+          "description": "Kill 10 evil rabbits"
+        },
+        "french": {
+          "name": "Alice au pays des Ombres",
+          "description": "Tuer 10 Lapins sinistres"
+        },
+        "german": {
+          "name": "Alice im Schattenland",
+          "description": "Töte 10 böse Kaninchen"
+        },
+        "hungarian": {
+          "name": "Alice Árnyországban",
+          "description": "Végezz 10 gonosz nyúllal"
+        },
+        "italian": {
+          "name": "Alice nel paese delle ombre",
+          "description": "Uccidi 10 conigli diabolici"
+        },
+        "japanese": {
+          "name": "闇の国のアリス",
+          "description": "悪のウサギを10体倒す"
+        },
+        "polish": {
+          "name": "Alicja w krainie cieni",
+          "description": "Zabij 10 złowrogich królików."
+        },
+        "russian": {
+          "name": "Алиса в стране теней",
+          "description": "Убить 10 злобных кроликов"
+        },
+        "schinese": {
+          "name": "暗影之地的爱丽丝",
+          "description": "杀死 10 只邪恶兔子"
+        },
+        "spanish": {
+          "name": "Alicia en Shadowland",
+          "description": "Elimina 10 conejos malvados"
+        }
+      }
+    },
+    "ALL": {
+      "translations": {
+        "brazilian": {
+          "name": "Prostituta de Conquistas",
+          "description": "Desbloqueie todas as conquistas"
+        },
+        "english": {
+          "name": "Achievement Whore",
+          "description": "Unlock all achievements"
+        },
+        "french": {
+          "name": "Maniaque de la prouesse",
+          "description": "Débloquer toutes les prouesses"
+        },
+        "german": {
+          "name": "Sucht nach Errungenschaften",
+          "description": "Schalte alle Errungenschaften frei"
+        },
+        "hungarian": {
+          "name": "Teljesítménykényszer",
+          "description": "Oldd fel az összes teljesítményt"
+        },
+        "italian": {
+          "name": "Schiavo dei conseguimenti",
+          "description": "Sblocca tutti i conseguimenti"
+        },
+        "japanese": {
+          "name": "派手に達成",
+          "description": "すべての成果をアンロックする"
+        },
+        "polish": {
+          "name": "Pies na acziki",
+          "description": "Odblokuj wszystkie osiągnięcia."
+        },
+        "russian": {
+          "name": "Наркоман достижений",
+          "description": "Разблокировать все достижения"
+        },
+        "schinese": {
+          "name": "成就狂魔",
+          "description": "解锁全部成就"
+        },
+        "spanish": {
+          "name": "Zorrita de logros",
+          "description": "Desbloquea todos los logros"
+        }
+      }
+    },
+    "KILL_IN_TIME__5_10_tier1": {
+      "translations": {
+        "brazilian": {
+          "name": "Enfurecido (Nível 2)",
+          "description": "Mate 5 inimigos em 10 segundos na dificuldade Normal"
+        },
+        "english": {
+          "name": "Enraged (Tier 2)",
+          "description": "Kill 5 enemies within 10 seconds on difficulty Normal"
+        },
+        "french": {
+          "name": "Irrité (niveau 2)",
+          "description": "Tuer 5 ennemis en 10 secondes en difficulté Normale"
+        },
+        "german": {
+          "name": "Wutnickel (Ebene 2)",
+          "description": "Töte 5 Feinde in 10 Sekunden (Schwierigkeitsgrad 'Normal')"
+        },
+        "hungarian": {
+          "name": "Dühös (2. szint)",
+          "description": "Végezz 5 ellenféllel 10 másodperc alatt normál nehézségi szinten"
+        },
+        "italian": {
+          "name": "Furibondo (livello 2)",
+          "description": "Uccidi 5 nemici nel giro di 10 secondi con difficoltŕ normale"
+        },
+        "japanese": {
+          "name": "怒り（レベル2 ）",
+          "description": "難易度ノーマルで10秒以内に敵を5体倒す"
+        },
+        "polish": {
+          "name": "Wściekły byk (poziom 2)",
+          "description": "Zabij 5 przeciwników w ciągu 10 sekund na normalnym poziomie trudności."
+        },
+        "russian": {
+          "name": "В ярости (уровень 2)",
+          "description": "Убить 5 врагов за 10 секунд на нормальной сложности"
+        },
+        "schinese": {
+          "name": "狂怒（第二阶）",
+          "description": "在普通难度下 10 秒内杀死 5 名敌人"
+        },
+        "spanish": {
+          "name": "Rabioso (Fila 2)",
+          "description": "Elimina a 5 enemigos en menos de 10 segundos en la dificultad Normal"
+        }
+      }
+    },
+    "KILL_IN_TIME__5_10_tier2": {
+      "translations": {
+        "brazilian": {
+          "name": "Enfurecido (Nível 3)",
+          "description": "Mate 5 inimigos em 10 segundos na dificuldade Difícil"
+        },
+        "english": {
+          "name": "Enraged (Tier 3)",
+          "description": "Kill 5 enemies within 10 seconds on difficulty Hard"
+        },
+        "french": {
+          "name": "Irrité (niveau 3)",
+          "description": "Tuer 5 ennemis en 10 secondes en difficulté Difficile"
+        },
+        "german": {
+          "name": "Wutnickel (Ebene 3)",
+          "description": "Töte 5 Feinde in 10 Sekunden (Schwierigkeitsgrad 'Schwierig')"
+        },
+        "hungarian": {
+          "name": "Dühös (3. szint)",
+          "description": "Végezz 5 ellenféllel 10 másodperc alatt nehéz nehézségi szinten"
+        },
+        "italian": {
+          "name": "Furibondo (livello 3)",
+          "description": "Uccidi 5 nemici nel giro di 10 secondi con difficoltŕ alta"
+        },
+        "japanese": {
+          "name": "怒り（レベル3 ）",
+          "description": "難易度ハードで10秒以内に敵を5体倒す"
+        },
+        "polish": {
+          "name": "Wściekły byk (poziom 3)",
+          "description": "Zabij 5 przeciwników w ciągu 10 sekund na wysokim poziomie trudności."
+        },
+        "russian": {
+          "name": "В ярости (уровень 3)",
+          "description": "Убить 5 врагов за 10 секунд на высокой сложности"
+        },
+        "schinese": {
+          "name": "狂怒（第三阶）",
+          "description": "在困难难度下 10 秒内杀死 5 名敌人"
+        },
+        "spanish": {
+          "name": "Rabioso (Fila 3)",
+          "description": "Elimina a 5 enemigos en menos de 10 segundos en la dificultad Difícil"
+        }
+      }
+    },
+    "KILL_IN_TIME__5_10_tier3": {
+      "translations": {
+        "brazilian": {
+          "name": "Enfurecido (Nível 4)",
+          "description": "Mate 5 inimigos em 10 segundos na dificuldade Insano"
+        },
+        "english": {
+          "name": "Enraged (Tier 4)",
+          "description": "Kill 5 enemies within 10 seconds on difficulty Insane"
+        },
+        "french": {
+          "name": "Irrité (niveau 4)",
+          "description": "Tuer 5 ennemis en 10 secondes en difficulté Délirante"
+        },
+        "german": {
+          "name": "Wutnickel (Ebene 4)",
+          "description": "Töte 5 Feinde in 10 Sekunden (Schwierigkeitsgrad 'Irre')"
+        },
+        "hungarian": {
+          "name": "Dühös (4. szint)",
+          "description": "Végezz 5 ellenféllel 10 másodperc alatt őrült nehézségi szinten"
+        },
+        "italian": {
+          "name": "Furibondo (livello 4)",
+          "description": "Uccidi 5 nemici nel giro di 10 secondi con difficoltŕ folle"
+        },
+        "japanese": {
+          "name": "怒り（レベル4 ）",
+          "description": "難易度非常識で10秒以内に敵を5体倒す"
+        },
+        "polish": {
+          "name": "Wściekły byk (poziom 4)",
+          "description": "Zabij 5 przeciwników w ciągu 10 sekund na wysokim poziomie trudności 'szaleństwo'."
+        },
+        "russian": {
+          "name": "В ярости (уровень 4)",
+          "description": "Убить 5 врагов за 10 секунд на безумной сложности"
+        },
+        "schinese": {
+          "name": "狂怒（第四阶）",
+          "description": "在疯狂难度下 10 秒内杀死 5 名敌人"
+        },
+        "spanish": {
+          "name": "Rabioso (Fila 4)",
+          "description": "Elimina a 5 enemigos en menos de 10 segundos en la dificultad Demencial"
+        }
+      }
+    },
+    "KILL_IN_TIME__3_0_tier1": {
+      "translations": {
+        "brazilian": {
+          "name": "Banho de Sangue (Nível 2)",
+          "description": "Mate 3 inimigos com um disparo na dificuldade Normal"
+        },
+        "english": {
+          "name": "Bloodbath (Tier 2)",
+          "description": "Kill 3 enemies with one shot on difficulty Normal"
+        },
+        "french": {
+          "name": "Bain de sang (niveau 2)",
+          "description": "Tuer 3 ennemis d'un seul coup en difficulté Normale"
+        },
+        "german": {
+          "name": "Blutbad (Ebene 2)",
+          "description": "Töte 3 Feinde mit einem Schuss (Schwierigkeitsgrad 'Normal')"
+        },
+        "hungarian": {
+          "name": "Vérfürdő (2. szint)",
+          "description": "Egy lövéssel végezz 3 ellenféllel normál nehézségi szinten"
+        },
+        "italian": {
+          "name": "Bagno di sangue (livello 2)",
+          "description": "Uccidi 3 nemici con un colpo con difficoltŕ normale"
+        },
+        "japanese": {
+          "name": "大虐殺（レベル2 ）",
+          "description": "難易度ノーマルで一撃で3体の敵を倒す"
+        },
+        "polish": {
+          "name": "Krwawa łaźnia (poziom 2)",
+          "description": "Zabij 3 przeciwników jednym strzałem na normalnym poziomie trudności."
+        },
+        "russian": {
+          "name": "Резня (уровень 2)",
+          "description": "Убить 3 врагов с одного выстрела на нормальной сложности"
+        },
+        "schinese": {
+          "name": "血浴（第二阶）",
+          "description": "在普通难度下一击杀死 3 名敌人"
+        },
+        "spanish": {
+          "name": "Bańo de sangre (Fila 2)",
+          "description": "Elimina a 3 enemigos con un disparo en la dificultad Normal"
+        }
+      }
+    },
+    "KILL_IN_TIME__3_0_tier2": {
+      "translations": {
+        "brazilian": {
+          "name": "Banho de Sangue (Nível 3)",
+          "description": "Mate 3 inimigos com um disparo na dificuldade Difícil"
+        },
+        "english": {
+          "name": "Bloodbath (Tier 3)",
+          "description": "Kill 3 enemies with one shot on difficulty Hard"
+        },
+        "french": {
+          "name": "Bain de sang (niveau 3)",
+          "description": "Tuer 3 ennemis d'un seul coup en difficulté Difficile"
+        },
+        "german": {
+          "name": "Blutbad (Ebene 3)",
+          "description": "Töte 3 Feinde mit einem Schuss (Schwierigkeitsgrad 'Schwierig')"
+        },
+        "hungarian": {
+          "name": "Vérfürdő (3. szint)",
+          "description": "Egy lövéssel végezz 3 ellenféllel nehéz nehézségi szinten"
+        },
+        "italian": {
+          "name": "Bagno di sangue (livello 3)",
+          "description": "Uccidi 3 nemici con un colpo con difficoltŕ alta"
+        },
+        "japanese": {
+          "name": "大虐殺（レベル3 ）",
+          "description": "難易度ハードで一撃で敵を3体倒す"
+        },
+        "polish": {
+          "name": "Krwawa łaźnia (poziom 3)",
+          "description": "Zabij 3 przeciwników jednym strzałem na wysokim poziomie trudności."
+        },
+        "russian": {
+          "name": "Резня (уровень 3)",
+          "description": "Убить 3 врагов с одного выстрела на высокой сложности"
+        },
+        "schinese": {
+          "name": "血浴（第三阶）",
+          "description": "在困难难度下一击杀死 3 名敌人"
+        },
+        "spanish": {
+          "name": "Bańo de sangre (Fila 3)",
+          "description": "Elimina a 3 enemigos con un disparo en la dificultad Difícil"
+        }
+      }
+    },
+    "KILL_IN_TIME__3_0_tier3": {
+      "translations": {
+        "brazilian": {
+          "name": "Banho de Sangue (Nível 4)",
+          "description": "Mate 3 inimigos com um disparo na dificuldade Insano"
+        },
+        "english": {
+          "name": "Bloodbath (Tier 4)",
+          "description": "Kill 3 enemies with one shot on difficulty Insane"
+        },
+        "french": {
+          "name": "Bain de sang (niveau 4)",
+          "description": "Tuer 3 ennemis d'un seul coup en difficulté Délirante"
+        },
+        "german": {
+          "name": "Blutbad (Ebene 4)",
+          "description": "Töte 3 Feinde mit einem Schuss (Schwierigkeitsgrad 'Irre')"
+        },
+        "hungarian": {
+          "name": "Vérfürdő (4. szint)",
+          "description": "Egy lövéssel végezz 3 ellenféllel őrült nehézségi szinten"
+        },
+        "italian": {
+          "name": "Bagno di sangue (livello 4)",
+          "description": "Uccidi 3 nemici con un colpo con difficoltŕ folle"
+        },
+        "japanese": {
+          "name": "大虐殺（レベル4 ）",
+          "description": "難易度の非常識で一撃で3体の敵を倒す"
+        },
+        "polish": {
+          "name": "Krwawa łaźnia (poziom 4)",
+          "description": "Zabij 3 przeciwników jednym strzałem na wysokim poziomie trudności 'szaleństwo'."
+        },
+        "russian": {
+          "name": "Резня (уровень 4)",
+          "description": "Убить 3 врагов с одного выстрела на безумной сложности"
+        },
+        "schinese": {
+          "name": "血浴（第四阶）",
+          "description": "在疯狂难度下一击杀死 3 名敌人"
+        },
+        "spanish": {
+          "name": "Bańo de sangre (Fila 4)",
+          "description": "Elimina a 3 enemigos con un disparo en la dificultad Demencial"
+        }
+      }
+    },
+    "KILL_IN_TIME_shaman_1_999999_tier1": {
+      "translations": {
+        "brazilian": {
+          "name": "Destruidor de Feitiços (Nível 2)",
+          "description": "Mate um Xamă na dificuldade Normal"
+        },
+        "english": {
+          "name": "Spell Breaker (Tier 2)",
+          "description": " Kill a Shaman on difficulty Normal"
+        },
+        "french": {
+          "name": "Contre-magie (niveau 2)",
+          "description": "Tuer un shaman en difficulté Normale"
+        },
+        "german": {
+          "name": "Annihilator (Ebene 2)",
+          "description": "Töte einen Schamanen (Schwierigkeitsgrad 'Normal')"
+        },
+        "hungarian": {
+          "name": "Varázslattörő (2. szint)",
+          "description": "Végezz egy sámánnal normál nehézségi szinten"
+        },
+        "italian": {
+          "name": "Spezza incantesimo (livello 2)",
+          "description": "Uccidi uno sciamano con difficoltŕ normale"
+        },
+        "japanese": {
+          "name": "スペルブレイカー（レベル2 ）",
+          "description": " 難易度ノーマルでシャーマンを倒す"
+        },
+        "polish": {
+          "name": "Łamacz zaklęć (poziom 2)",
+          "description": "Zabij Szamana na normalnym poziomie trudności."
+        },
+        "russian": {
+          "name": "Инквизитор (уровень 2)",
+          "description": "Убить шамана на нормальной сложности"
+        },
+        "schinese": {
+          "name": "破法者（第二阶）",
+          "description": "在普通难度下杀死一个萨满"
+        },
+        "spanish": {
+          "name": "Rompedor de hechizos (Fila 2)",
+          "description": "Elimina a un chamán en la dificultad Normal"
+        }
+      }
+    },
+    "KILL_IN_TIME_shaman_1_999999_tier2": {
+      "translations": {
+        "brazilian": {
+          "name": "Destruidor de Feitiços (Nível 3)",
+          "description": "Mate um Xamă na dificuldade Difícil"
+        },
+        "english": {
+          "name": "Spell Breaker (Tier 3)",
+          "description": " Kill a Shaman on difficulty Hard"
+        },
+        "french": {
+          "name": "Contre-magie (niveau 3)",
+          "description": "Tuer un shaman en difficulté Difficile"
+        },
+        "german": {
+          "name": "Annihilator (Ebene 3)",
+          "description": "Töte einen Schamanen (Schwierigkeitsgrad 'Schwierig')"
+        },
+        "hungarian": {
+          "name": "Varázslattörő (3. szint)",
+          "description": "Végezz egy sámánnal nehéz nehézségi szinten"
+        },
+        "italian": {
+          "name": "Spezza incantesimo (livello 3)",
+          "description": "Uccidi uno sciamano con difficoltŕ alta"
+        },
+        "japanese": {
+          "name": "スペルブレイカー（第3層）",
+          "description": "難易度ハードでシャーマンを倒す"
+        },
+        "polish": {
+          "name": "Łamacz zaklęć (poziom 3)",
+          "description": "Zabij Szamana na wysokim poziomie trudności."
+        },
+        "russian": {
+          "name": "Инквизитор (уровень 3)",
+          "description": "Убить шамана на высокой сложности"
+        },
+        "schinese": {
+          "name": "破法者（第三阶）",
+          "description": "在困难难度下杀死一个萨满"
+        },
+        "spanish": {
+          "name": "Rompedor de hechizos (Fila 3)",
+          "description": "Elimina a un chamán en la dificultad Difícil"
+        }
+      }
+    },
+    "KILL_IN_TIME_shaman_1_999999_tier3": {
+      "translations": {
+        "brazilian": {
+          "name": "Destruidor de Feitiços (Nível 4)",
+          "description": "Mate um Xamă na dificuldade Insano"
+        },
+        "english": {
+          "name": "Spell Breaker (Tier 4)",
+          "description": " Kill a Shaman on difficulty Insane"
+        },
+        "french": {
+          "name": "Contre-magie (niveau 4)",
+          "description": "Tuer un shaman en difficulté Délirante"
+        },
+        "german": {
+          "name": "Annihilator (Ebene 4)",
+          "description": "Töte einen Schamanen (Schwierigkeitsgrad 'Irre')"
+        },
+        "hungarian": {
+          "name": "Varázslattörő (4. szint)",
+          "description": "Végezz egy sámánnal őrült nehézségi szinten"
+        },
+        "italian": {
+          "name": "Spezza incantesimo (livello 4)",
+          "description": "Uccidi uno sciamano con difficoltŕ folle"
+        },
+        "japanese": {
+          "name": "スペルブレイカー（レベル4 ）",
+          "description": " 難易度非常識でシャーマンを倒す"
+        },
+        "polish": {
+          "name": "Łamacz zaklęć (poziom 4)",
+          "description": "Zabij Szamana na poziomie trudności 'szaleństwo'."
+        },
+        "russian": {
+          "name": "Инквизитор (уровень 4)",
+          "description": "Убить шамана на безумной сложности"
+        },
+        "schinese": {
+          "name": "破法者（第四阶）",
+          "description": "在疯狂难度下杀死一个萨满"
+        },
+        "spanish": {
+          "name": "Rompedor de hechizos (Fila 4)",
+          "description": "Elimina a un chamán en la dificultad Demencial"
+        }
+      }
+    },
+    "GAME_FINISHED_tier1": {
+      "translations": {
+        "brazilian": {
+          "name": "Shadow Warrior (Nível 2)",
+          "description": "Conclua o jogo na dificuldade Normal"
+        },
+        "english": {
+          "name": "Shadow Warrior (Tier 2)",
+          "description": "Complete the game on difficulty Normal"
+        },
+        "french": {
+          "name": "Shadow Warrior (niveau 2)",
+          "description": "Terminer le jeu en difficulté Normale"
+        },
+        "german": {
+          "name": "Schattenkrieger (Ebene 2)",
+          "description": "Schließ das Spiel auf dem Schwierigkeitsgrad 'Normal' ab"
+        },
+        "hungarian": {
+          "name": "Árnyharcos (2. szint)",
+          "description": "Teljesítsd a játékot normál nehézségi szinten"
+        },
+        "italian": {
+          "name": "Guerriero dell'ombra (livello 2)",
+          "description": "Completa il gioco con difficoltŕ normale"
+        },
+        "japanese": {
+          "name": "シャドウ・ウォリアー（レベル2 ）",
+          "description": "難易度ノーマルでゲームをクリアする"
+        },
+        "polish": {
+          "name": "Wojownik cienia (poziom 2)",
+          "description": "Ukończ grę na normalnym poziomie trudności."
+        },
+        "russian": {
+          "name": "Воин теней (уровень 2)",
+          "description": "Пройти игру на нормальной сложности"
+        },
+        "schinese": {
+          "name": "影子武士（第二阶）",
+          "description": "在普通难度下通关游戏"
+        },
+        "spanish": {
+          "name": "Shadow Warrior (Fila 2)",
+          "description": "Completa el juego en el nivel de dificultad Normal"
+        }
+      }
+    },
+    "GAME_FINISHED_tier2": {
+      "translations": {
+        "brazilian": {
+          "name": "Shadow Warrior (Nível 3)",
+          "description": "Conclua o jogo na dificuldade Difícil"
+        },
+        "english": {
+          "name": "Shadow Warrior (Tier 3)",
+          "description": "Complete the game on difficulty Hard"
+        },
+        "french": {
+          "name": "Shadow Warrior (niveau 3)",
+          "description": "Terminer le jeu en difficulté Difficile"
+        },
+        "german": {
+          "name": "Schattenkrieger (Ebene 3)",
+          "description": "Schließ das Spiel auf dem Schwierigkeitsgrad 'Schwierig' ab"
+        },
+        "hungarian": {
+          "name": "Árnyharcos (3. szint)",
+          "description": "Teljesítsd a játékot nehéz nehézségi szinten"
+        },
+        "italian": {
+          "name": "Guerriero dell'ombra (livello 3)",
+          "description": "Completa il gioco con difficoltŕ alta"
+        },
+        "japanese": {
+          "name": "シャドウ・ウォリアー（レベル3 ）",
+          "description": "難易度ハードでゲームをクリアする"
+        },
+        "polish": {
+          "name": "Wojownik cienia (poziom 3)",
+          "description": "Ukończ grę na wysokim poziomie trudności."
+        },
+        "russian": {
+          "name": "Воин теней (уровень 3)",
+          "description": "Пройти игру на высокой сложности"
+        },
+        "schinese": {
+          "name": "影子武士（第三阶）",
+          "description": "在困难难度下通关游戏"
+        },
+        "spanish": {
+          "name": "Shadow Warrior (Fila 3)",
+          "description": "Completa el juego en el nivel de dificultad Difícil"
+        }
+      }
+    },
+    "GAME_FINISHED_tier3": {
+      "translations": {
+        "brazilian": {
+          "name": "Shadow Warrior (Nível 4)",
+          "description": "Conclua o jogo na dificuldade Insano"
+        },
+        "english": {
+          "name": "Shadow Warrior (Tier 4)",
+          "description": "Complete the game on difficulty Insane"
+        },
+        "french": {
+          "name": "Shadow Warrior (niveau 2)",
+          "description": "Terminer le jeu en difficulté Délirante"
+        },
+        "german": {
+          "name": "Schattenkrieger (Ebene 4)",
+          "description": "Schließ das Spiel auf dem Schwierigkeitsgrad 'Irre' ab"
+        },
+        "hungarian": {
+          "name": "Árnyharcos (4. szint)",
+          "description": "Teljesítsd a játékot őrült nehézségi szinten"
+        },
+        "italian": {
+          "name": "Guerriero dell'ombra (livello 4)",
+          "description": "Completa il gioco con difficoltŕ folle"
+        },
+        "japanese": {
+          "name": "シャドウウォリアー（レベル4 ）",
+          "description": "難易度非常識でゲームをクリアする"
+        },
+        "polish": {
+          "name": "Wojownik cienia (poziom 4)",
+          "description": "Ukończ grę na poziomie trudności 'szaleństwo'."
+        },
+        "russian": {
+          "name": "Воин теней (уровень 4)",
+          "description": "Пройти игру на безумной сложности"
+        },
+        "schinese": {
+          "name": "影子武士（第四阶）",
+          "description": "在疯狂难度下通关游戏"
+        },
+        "spanish": {
+          "name": "Shadow Warrior (Fila 4)",
+          "description": "Completa el juego en el nivel de dificultad Demencial"
+        }
+      }
+    },
+    "KILL_IN_TIME__10_15_tier1": {
+      "translations": {
+        "brazilian": {
+          "name": "Furioso (Nível 2)",
+          "description": "Mate 10 inimigos em 15 segundos na dificuldade Normal"
+        },
+        "english": {
+          "name": "Furious (Tier 2)",
+          "description": "Kill 10 enemies within 15 seconds on difficulty Normal"
+        },
+        "french": {
+          "name": "Furieux (niveau 2)",
+          "description": "Tuer 10 ennemis en 15 secondes en difficulté Normale"
+        },
+        "german": {
+          "name": "Zürnender (Ebene 2)",
+          "description": "Töte 10 Feinde in 15 Sekunden (Schwierigkeitsgrad 'Normal')"
+        },
+        "hungarian": {
+          "name": "Tomboló (2. szint)",
+          "description": "Végezz 10 ellenféllel 15 másodperc alatt normál nehézségi szinten"
+        },
+        "italian": {
+          "name": "Furioso (livello 2)",
+          "description": "Uccidi 10 nemici nel giro di 15 secondi con difficoltŕ normale"
+        },
+        "japanese": {
+          "name": "激怒（レベル2 ）",
+          "description": "難易度ノーマルで15秒以内に敵を10体倒す"
+        },
+        "polish": {
+          "name": "Szybki i wściekły (poziom 2)",
+          "description": "Zabij 10 przeciwników w ciągu 15 sekund na normalnym poziomie trudności."
+        },
+        "russian": {
+          "name": "Яростный (уровень 2)",
+          "description": "Убить 10 врагов за 15 секунд на нормальной сложности"
+        },
+        "schinese": {
+          "name": "暴怒（第二阶）",
+          "description": "在普通难度下 15 秒内杀死 10 名敌人"
+        },
+        "spanish": {
+          "name": "Furioso (Fila 2)",
+          "description": "Elimina a 10 enemigos en menos de 15 segundos en la dificultad Normal"
+        }
+      }
+    },
+    "KILL_IN_TIME__10_15_tier2": {
+      "translations": {
+        "brazilian": {
+          "name": "Furioso (Nível 3)",
+          "description": "Mate 10 inimigos em 15 segundos na dificuldade Difícil"
+        },
+        "english": {
+          "name": "Furious (Tier 3)",
+          "description": "Kill 10 enemies within 15 seconds on difficulty Hard"
+        },
+        "french": {
+          "name": "Furieux (niveau 3)",
+          "description": "Tuer 10 ennemis en 15 secondes en difficulté Difficile"
+        },
+        "german": {
+          "name": "Zürnender (Ebene 3)",
+          "description": "Töte 10 Feinde in 15 Sekunden (Schwierigkeitsgrad 'Schwierig')"
+        },
+        "hungarian": {
+          "name": "Tomboló (3. szint)",
+          "description": "Végezz 10 ellenféllel 15 másodperc alatt nehéz nehézségi szinten"
+        },
+        "italian": {
+          "name": "Furioso (livello 3)",
+          "description": "Uccidi 10 nemici nel giro di 15 secondi con difficoltŕ alta"
+        },
+        "japanese": {
+          "name": "激怒（レベル3 ）",
+          "description": "難易度ハードで15秒以内に敵を10体倒す"
+        },
+        "polish": {
+          "name": "Szybki i wściekły (poziom 3)",
+          "description": "Zabij 10 przeciwników w ciągu 15 sekund na wysokim poziomie trudności."
+        },
+        "russian": {
+          "name": "Яростный (уровень 3)",
+          "description": "Убить 10 врагов за 15 секунд на высокой сложности"
+        },
+        "schinese": {
+          "name": "暴怒（第三阶）",
+          "description": "在困难难度下 15 秒内杀死 10 名敌人"
+        },
+        "spanish": {
+          "name": "Furioso (Fila 3)",
+          "description": "Elimina a 10 enemigos en menos de 15 segundos en la dificultad Difícil"
+        }
+      }
+    },
+    "KILL_IN_TIME__10_15_tier3": {
+      "translations": {
+        "brazilian": {
+          "name": "Furioso (Nível 4)",
+          "description": "Mate 10 inimigos em 15 segundos na dificuldade Insano"
+        },
+        "english": {
+          "name": "Furious (Tier 4)",
+          "description": "Kill 10 enemies within 15 seconds on difficulty Insane"
+        },
+        "french": {
+          "name": "Furieux (niveau 4)",
+          "description": "Tuer 10 ennemis en 15 secondes en difficulté Délirante"
+        },
+        "german": {
+          "name": "Zürnender (Ebene 4)",
+          "description": "Töte 10 Feinde in 15 Sekunden (Schwierigkeitsgrad 'Irre')"
+        },
+        "hungarian": {
+          "name": "Tomboló (4. szint)",
+          "description": "Végezz 10 ellenféllel 15 másodperc alatt őrült nehézségi szinten"
+        },
+        "italian": {
+          "name": "Furioso (livello 4)",
+          "description": "Uccidi 10 nemici nel giro di 15 secondi con difficoltŕ folle"
+        },
+        "japanese": {
+          "name": "激怒（レベル4 ）",
+          "description": "難易度非常識で15秒以内に敵を10体倒す"
+        },
+        "polish": {
+          "name": "Szybki i wściekły (poziom 4)",
+          "description": "Zabij 10 przeciwników w ciągu 15 sekund na poziomie trudności 'szaleństwo'."
+        },
+        "russian": {
+          "name": "Яростный (уровень 4)",
+          "description": "Убить 10 врагов за 15 секунд на безумной сложности"
+        },
+        "schinese": {
+          "name": "暴怒（第四阶）",
+          "description": "在疯狂难度下 15 秒内杀死 10 名敌人"
+        },
+        "spanish": {
+          "name": "Furioso (Fila 4)",
+          "description": "Elimina a 10 enemigos en menos de 15 segundos en la dificultad Demencial"
+        }
+      }
+    },
+    "KILL_IN_TIME__6_0_tier1": {
+      "translations": {
+        "brazilian": {
+          "name": "Matadouro (Nível 2)",
+          "description": "Mate 6 inimigos com um disparo na dificuldade Normal"
+        },
+        "english": {
+          "name": "Slaughterhouse (Tier 2)",
+          "description": "Kill 6 enemies with one shot on difficulty Normal"
+        },
+        "french": {
+          "name": "Abattoir (niveau 2)",
+          "description": "Tuer 6 ennemis d'un seul coup en difficulté Normale"
+        },
+        "german": {
+          "name": "Schlachthaus (Ebene 2)",
+          "description": "Töte 6 Feinde mit einem Schuss (Schwierigkeitsgrad 'Normal')"
+        },
+        "hungarian": {
+          "name": "Mészárszék (2. szint)",
+          "description": "Egy lövéssel végezz 6 ellenféllel normál nehézségi szinten"
+        },
+        "italian": {
+          "name": "Mattatoio (livello 2)",
+          "description": "Uccidi 6 nemici con un colpo con difficoltŕ normale"
+        },
+        "japanese": {
+          "name": "屠殺場（レベル2 ）",
+          "description": "難易度ノーマルで一撃で6の敵を倒す"
+        },
+        "polish": {
+          "name": "Rzeźnia (poziom 2)",
+          "description": "Zabij 6 przeciwników jednym strzałem na normalnym poziomie trudności."
+        },
+        "russian": {
+          "name": "Скотобойня (уровень 2)",
+          "description": "Убить 6 врагов с одного выстрела на нормальной сложности"
+        },
+        "schinese": {
+          "name": "屠宰场（第二阶）",
+          "description": "在普通难度下一击杀死 6 名敌人"
+        },
+        "spanish": {
+          "name": "Matadero (Fila 2)",
+          "description": "Elimina a 6 enemigos con un disparo en la dificultad Normal"
+        }
+      }
+    },
+    "KILL_IN_TIME__6_0_tier2": {
+      "translations": {
+        "brazilian": {
+          "name": "Matadouro (Nível 3)",
+          "description": "Mate 6 inimigos com um disparo na dificuldade Difícil"
+        },
+        "english": {
+          "name": "Slaughterhouse (Tier 3)",
+          "description": "Kill 6 enemies with one shot on difficulty Hard"
+        },
+        "french": {
+          "name": "Abattoir (niveau 3)",
+          "description": "Tuer 6 ennemis d'un seul coup en difficulté Difficile"
+        },
+        "german": {
+          "name": "Schlachthaus (Ebene 3)",
+          "description": "Töte 6 Feinde mit einem Schuss (Schwierigkeitsgrad 'Schwierig')"
+        },
+        "hungarian": {
+          "name": "Mészárszék (3. szint)",
+          "description": "Egy lövéssel végezz 6 ellenféllel nehéz nehézségi szinten"
+        },
+        "italian": {
+          "name": "Mattatoio (livello 3)",
+          "description": "Uccidi 6 nemici con un colpo con difficoltŕ alta"
+        },
+        "japanese": {
+          "name": "屠殺場（第3層）",
+          "description": "難易度ハードで一撃で6の敵を倒す"
+        },
+        "polish": {
+          "name": "Rzeźnia (poziom 3)",
+          "description": "Zabij 6 przeciwników jednym strzałem na wysokim poziomie trudności."
+        },
+        "russian": {
+          "name": "Скотобойня (уровень 3)",
+          "description": "Убить 6 врагов с одного выстрела на высокой сложности"
+        },
+        "schinese": {
+          "name": "屠宰场（第三阶）",
+          "description": "在困难难度下一击杀死 6 名敌人"
+        },
+        "spanish": {
+          "name": "Matadero (Fila 3)",
+          "description": "Elimina a 6 enemigos con un disparo en la dificultad Difícil"
+        }
+      }
+    },
+    "KILL_IN_TIME__6_0_tier3": {
+      "translations": {
+        "brazilian": {
+          "name": "Matadouro (Nível 4)",
+          "description": "Mate 6 inimigos com um disparo na dificuldade Insano"
+        },
+        "english": {
+          "name": "Slaughterhouse (Tier 4)",
+          "description": "Kill 6 enemies with one shot on difficulty Insane"
+        },
+        "french": {
+          "name": "Abattoir (niveau 4)",
+          "description": "Tuer 6 ennemis d'un seul coup en difficulté Délirante"
+        },
+        "german": {
+          "name": "Schlachthaus (Ebene 4)",
+          "description": "Töte 6 Feinde mit einem Schuss (Schwierigkeitsgrad 'Irre')"
+        },
+        "hungarian": {
+          "name": "Mészárszék (4. szint)",
+          "description": "Egy lövéssel végezz 6 ellenféllel őrült nehézségi szinten"
+        },
+        "italian": {
+          "name": "Mattatoio (livello 4)",
+          "description": "Uccidi 6 nemici con un colpo con difficoltŕ folle"
+        },
+        "japanese": {
+          "name": "屠殺場（レベル4 ）",
+          "description": "難易度非常識で一撃で6の敵を倒す"
+        },
+        "polish": {
+          "name": "Rzeźnia (poziom 4)",
+          "description": "Zabij 6 przeciwników jednym strzałem na poziomie trudności 'szaleństwo'."
+        },
+        "russian": {
+          "name": "Скотобойня (уровень 4)",
+          "description": "Убить 6 врагов с одного выстрела на безумной сложности"
+        },
+        "schinese": {
+          "name": "屠宰场（第四阶）",
+          "description": "在疯狂难度下一击杀死 6 名敌人"
+        },
+        "spanish": {
+          "name": "Matadero (Fila 4)",
+          "description": "Elimina a 6 enemigos con un disparo en la dificultad Demencial"
+        }
+      }
+    },
+    "KILL_IN_TIME_berserker_1_999999_tier1": {
+      "translations": {
+        "brazilian": {
+          "name": "Nervine (Nível 2)",
+          "description": "Mate um Berserker na dificuldade Normal"
+        },
+        "english": {
+          "name": "Nervine (Tier 2)",
+          "description": "Kill a berserker on difficulty Normal"
+        },
+        "french": {
+          "name": "Neuroleptique (niveau 2)",
+          "description": "Tuer un Fanatique en difficulté Normale"
+        },
+        "german": {
+          "name": "Drahtseilnerv (Ebene 2)",
+          "description": "Töte einen Berserker (Schwierigkeitsgrad 'Normal')"
+        },
+        "hungarian": {
+          "name": "Nyugtató (2. szint)",
+          "description": "Végezz egy berzerkerrel normál nehézségi szinten"
+        },
+        "italian": {
+          "name": "Nervino (livello 2)",
+          "description": "Uccidi un guerriero forsennato con difficoltŕ normale"
+        },
+        "japanese": {
+          "name": "鎮める者（レベル2 ）",
+          "description": "難易度ノーマルでバーサーカーを倒す"
+        },
+        "polish": {
+          "name": "Nerwus (poziom 2)",
+          "description": "Zabij Berserkera na normalnym poziomie trudności."
+        },
+        "russian": {
+          "name": "Успокоительное (уровень 2)",
+          "description": "Убить берсерка на нормальной сложности"
+        },
+        "schinese": {
+          "name": "定神剂（第二阶）",
+          "description": "在普通难度下杀死一个狂暴者"
+        },
+        "spanish": {
+          "name": "Nervine (Fila 2)",
+          "description": "Elimina a un Berserker en la dificultad Normal"
+        }
+      }
+    },
+    "KILL_IN_TIME_berserker_1_999999_tier2": {
+      "translations": {
+        "brazilian": {
+          "name": "Nervine (Nível 3)",
+          "description": "Mate um Berserker na dificuldade Difícil"
+        },
+        "english": {
+          "name": "Nervine (Tier3)",
+          "description": "Kill a berserker on difficulty Hard"
+        },
+        "french": {
+          "name": "Neuroleptique (niveau 3)",
+          "description": "Tuer un Fanatique en difficulté Difficile"
+        },
+        "german": {
+          "name": "Drahtseilnerv (Ebene 3)",
+          "description": "Töte einen Berserker (Schwierigkeitsgrad 'Schwierig')"
+        },
+        "hungarian": {
+          "name": "Nyugtató (Tier3)",
+          "description": "Végezz egy berzerkerrel nehéz nehézségi szinten"
+        },
+        "italian": {
+          "name": "Nervino (livello 3)",
+          "description": "Uccidi un guerriero forsennato con difficoltŕ alta"
+        },
+        "japanese": {
+          "name": "鎮める者（レベル3 ）",
+          "description": "難易度ハードでバーサーカーを倒す"
+        },
+        "polish": {
+          "name": "Nerwus (poziom 3)",
+          "description": "Zabij Berserkera na normalnym poziomie trudności."
+        },
+        "russian": {
+          "name": "Успокоительное (уровень 3)",
+          "description": "Убить берсерка на высокой сложности"
+        },
+        "schinese": {
+          "name": "定神剂（第三阶）",
+          "description": "在困难难度下杀死一个狂暴者"
+        },
+        "spanish": {
+          "name": "Nervine (Fila 3)",
+          "description": "Elimina a un Berserker en la dificultad Difícil"
+        }
+      }
+    },
+    "KILL_IN_TIME_berserker_1_999999_tier3": {
+      "translations": {
+        "brazilian": {
+          "name": "Nervine (Nível 4)",
+          "description": "Mate um Berserker na dificuldade Insano"
+        },
+        "english": {
+          "name": "Nervine (Tier 4)",
+          "description": "Kill a berserker on difficulty Insane"
+        },
+        "french": {
+          "name": "Neuroleptique (niveau 4)",
+          "description": "Tuer un Fanatique en difficulté Délirante"
+        },
+        "german": {
+          "name": "Drahtseilnerv (Ebene 4)",
+          "description": "Töte einen Berserker (Schwierigkeitsgrad 'Irre')"
+        },
+        "hungarian": {
+          "name": "Nyugtató (4. szint)",
+          "description": "Végezz egy berzerkerrel őrült nehézségi szinten"
+        },
+        "italian": {
+          "name": "Nervino (livello 4)",
+          "description": "Uccidi un guerriero forsennato con difficoltŕ folle"
+        },
+        "japanese": {
+          "name": "鎮める者（レベル4 ）",
+          "description": "難易度非常識でバーサーカーを倒す"
+        },
+        "polish": {
+          "name": "Nerwus (poziom 4)",
+          "description": "Zabij Berserkera na normalnym poziomie trudności."
+        },
+        "russian": {
+          "name": "Успокоительное (уровень 4)",
+          "description": "Убить берсерка на безумной сложности"
+        },
+        "schinese": {
+          "name": "定神剂（第四阶）",
+          "description": "在疯狂难度下杀死一个狂暴者"
+        },
+        "spanish": {
+          "name": "Nervine (Fila 4)",
+          "description": "Elimina a un Berserker en la dificultad Demencial"
+        }
+      }
+    },
+    "KILL_IN_TIME__15_20_tier1": {
+      "translations": {
+        "brazilian": {
+          "name": "Berserk (Nível 2)",
+          "description": "Mate 15 inimigos em 20 segundos na dificuldade Normal"
+        },
+        "english": {
+          "name": "Berserk (Tier 2) ",
+          "description": "Kill 15 enemies within 20 seconds on difficulty Normal"
+        },
+        "french": {
+          "name": "Enragé (niveau 2)",
+          "description": "Tuer 15 ennemis en 20 secondes en difficulté Normale"
+        },
+        "german": {
+          "name": "Berserker (Ebene 2)",
+          "description": "Töte 15 Feinde in 20 Sekunden (Schwierigkeitsgrad 'Normal')"
+        },
+        "hungarian": {
+          "name": "Őrjöngő (2. szint) ",
+          "description": "Végezz 15 ellenféllel 20 másodperc alatt normál nehézségi szinten"
+        },
+        "italian": {
+          "name": "Forsennato (livello 2)",
+          "description": "Uccidi 15 nemici nel giro di 20 secondi con difficoltŕ normale"
+        },
+        "japanese": {
+          "name": "ベルセルク（レベル2 ）",
+          "description": "難易度ノーマルで20秒以内に敵を15体倒す"
+        },
+        "polish": {
+          "name": "Berserk (poziom 2)",
+          "description": "Zabij 15 przeciwników w ciągu 20 sekund na normalnym poziomie trudności."
+        },
+        "russian": {
+          "name": "Берсерк (уровень 2)",
+          "description": "Убить 15 врагов за 20 секунд на нормальной сложности"
+        },
+        "schinese": {
+          "name": "狂暴（第二阶）",
+          "description": "在普通难度下 20 秒内杀死 15 名敌人"
+        },
+        "spanish": {
+          "name": "Berserk (Fila 2)",
+          "description": "Elimina a 15 enemigos en menos de 20 segundos en la dificultad Normal"
+        }
+      }
+    },
+    "KILL_IN_TIME__15_20_tier2": {
+      "translations": {
+        "brazilian": {
+          "name": "Berserk (Nível 3)",
+          "description": "Mate 15 inimigos em 20 segundos na dificuldade Difícil"
+        },
+        "english": {
+          "name": "Berserk (Tier 3) ",
+          "description": "Kill 15 enemies within 20 seconds on difficulty Hard"
+        },
+        "french": {
+          "name": "Enragé (niveau 3)",
+          "description": "Tuer 15 ennemis en 20 secondes en difficulté Difficile"
+        },
+        "german": {
+          "name": "Berserker (Ebene 3)",
+          "description": "Töte 15 Feinde in 20 Sekunden (Schwierigkeitsgrad 'Schwierig')"
+        },
+        "hungarian": {
+          "name": "Őrjöngő (3. szint) ",
+          "description": "Végezz 15 ellenféllel 20 másodperc alatt nehéz nehézségi szinten"
+        },
+        "italian": {
+          "name": "Forsennato (livello 3)",
+          "description": "Uccidi 15 nemici nel giro di 20 secondi con difficoltŕ alta"
+        },
+        "japanese": {
+          "name": "ベルセルク（レベル3 ）",
+          "description": "難易度ハードで20秒以内に敵を15体倒す"
+        },
+        "polish": {
+          "name": "Berserk (poziom 3)",
+          "description": "Zabij 15 przeciwników w ciągu 20 sekund na wysokim poziomie trudności."
+        },
+        "russian": {
+          "name": "Берсерк (уровень 3)",
+          "description": "Убить 15 врагов за 20 секунд на высокой сложности"
+        },
+        "schinese": {
+          "name": "狂暴（第三阶）",
+          "description": "在困难难度下 20 秒内杀死 15 名敌人"
+        },
+        "spanish": {
+          "name": "Berserk (Fila 3)",
+          "description": "Elimina a 15 enemigos en menos de 20 segundos en la dificultad Difícil"
+        }
+      }
+    },
+    "KILL_IN_TIME__15_20_tier3": {
+      "translations": {
+        "brazilian": {
+          "name": "Berserk (Nível 4)",
+          "description": "Mate 15 inimigos em 20 segundos na dificuldade Insano"
+        },
+        "english": {
+          "name": "Berserk (Tier 4) ",
+          "description": "Kill 15 enemies within 20 seconds on difficulty Insane"
+        },
+        "french": {
+          "name": "Enragé (niveau 4)",
+          "description": "Tuer 15 ennemis en 20 secondes en difficulté Délirante"
+        },
+        "german": {
+          "name": "Berserker (Ebene 4)",
+          "description": "Töte 15 Feinde in 20 Sekunden (Schwierigkeitsgrad 'Irre')"
+        },
+        "hungarian": {
+          "name": "Őrjöngő (4. szint) ",
+          "description": "Végezz 15 ellenféllel 20 másodperc alatt őrült nehézségi szinten"
+        },
+        "italian": {
+          "name": "Forsennato (livello 4)",
+          "description": "Uccidi 15 nemici nel giro di 20 secondi con difficoltŕ folle"
+        },
+        "japanese": {
+          "name": "ベルセルク（レベル4 ）",
+          "description": "難易度非常識で20秒以内に敵を15体倒す"
+        },
+        "polish": {
+          "name": "Berserk (poziom 4)",
+          "description": "Zabij 15 przeciwników w ciągu 20 sekund na poziom trudności 'szaleństwo'."
+        },
+        "russian": {
+          "name": "Берсерк (уровень 4)",
+          "description": "Убить 15 врагов за 20 секунд на безумной сложности"
+        },
+        "schinese": {
+          "name": "狂暴（第四阶）",
+          "description": "在疯狂难度下 20 秒内杀死 15 名敌人"
+        },
+        "spanish": {
+          "name": "Berserk (Fila 4)",
+          "description": "Elimina a 15 enemigos en menos de 20 segundos en la dificultad Demencial"
+        }
+      }
+    },
+    "KILL_IN_TIME__10_0_tier1": {
+      "translations": {
+        "brazilian": {
+          "name": "Inferno na Terra (Nível 2)",
+          "description": "Mate 10 inimigos com um disparo na dificuldade Normal"
+        },
+        "english": {
+          "name": "Hell On Earth (Tier 2)",
+          "description": "Kill 10 enemies with one shot on difficulty Normal"
+        },
+        "french": {
+          "name": "Enfer sur terre (niveau 2)",
+          "description": "Tuer 10 ennemis d'un seul coup en difficulté Normale"
+        },
+        "german": {
+          "name": "Hölle auf Erden (Ebene 2)",
+          "description": "Töte 10 Feinde mit einem Schuss (Schwierigkeitsgrad 'Normal')"
+        },
+        "hungarian": {
+          "name": "Földi pokol (2. szint)",
+          "description": "Egy lövéssel végezz 10 ellenféllel normál nehézségi szinten"
+        },
+        "italian": {
+          "name": "Inferno in terra (livello 2)",
+          "description": "Uccidi 10 nemici con un colpo con difficoltŕ normale"
+        },
+        "japanese": {
+          "name": "この世の地獄（レベル2 ）",
+          "description": "難易度ノーマルで一撃で敵を10体倒す"
+        },
+        "polish": {
+          "name": "Piekło na ziemi (poziom 2)",
+          "description": "Zabij 10 przeciwników jednym strzałem na normalnym poziomie trudności."
+        },
+        "russian": {
+          "name": "Ад на земле (уровень 2)",
+          "description": "Убить 10 врагов одним выстрелом на нормальной сложности"
+        },
+        "schinese": {
+          "name": "人间地狱（第二阶）",
+          "description": "在普通难度下一击杀死 10 名敌人"
+        },
+        "spanish": {
+          "name": "Infierno en la Tierra (Fila 2)",
+          "description": "Elimina a 10 enemigos con un disparo en la dificultad Normal"
+        }
+      }
+    },
+    "KILL_IN_TIME__10_0_tier2": {
+      "translations": {
+        "brazilian": {
+          "name": "Inferno na Terra (Nível 3)",
+          "description": "Mate 10 inimigos com um disparo na dificuldade Difícil"
+        },
+        "english": {
+          "name": "Hell On Earth (Tier 3)",
+          "description": "Kill 10 enemies with one shot on difficulty Hard"
+        },
+        "french": {
+          "name": "Enfer sur terre (niveau 3)",
+          "description": "Tuer 10 ennemis d'un seul coup en difficulté Difficile"
+        },
+        "german": {
+          "name": "Hölle auf Erden (Ebene 3)",
+          "description": "Töte 10 Feinde mit einem Schuss (Schwierigkeitsgrad 'Schwierig')"
+        },
+        "hungarian": {
+          "name": "Földi pokol (3. szint)",
+          "description": "Egy lövéssel végezz 10 ellenféllel nehéz nehézségi szinten"
+        },
+        "italian": {
+          "name": "Inferno in terra (livello 3)",
+          "description": "Uccidi 10 nemici con un colpo con difficoltŕ alta"
+        },
+        "japanese": {
+          "name": "この世の地獄（レベル3）",
+          "description": "難易度ハードで一撃で敵を10体倒す"
+        },
+        "polish": {
+          "name": "Piekło na ziemi (poziom 3)",
+          "description": "Zabij 10 przeciwników jednym strzałem na wysokim poziomie trudności."
+        },
+        "russian": {
+          "name": "Ад на земле (уровень 3)",
+          "description": "Убить 10 врагов одним выстрелом на высокой сложности"
+        },
+        "schinese": {
+          "name": "人间地狱（第三阶）",
+          "description": "在困难难度下一击杀死 10 名敌人"
+        },
+        "spanish": {
+          "name": "Infierno en la Tierra (Fila 3)",
+          "description": "Elimina a 10 enemigos con un disparo en la dificultad Difícil"
+        }
+      }
+    },
+    "KILL_IN_TIME__10_0_tier3": {
+      "translations": {
+        "brazilian": {
+          "name": "Inferno na Terra (Nível 4)",
+          "description": "Mate 10 inimigos com um disparo na dificuldade Insano"
+        },
+        "english": {
+          "name": "Hell On Earth (Tier 4)",
+          "description": "Kill 10 enemies with one shot on difficulty Insane"
+        },
+        "french": {
+          "name": "Enfer sur terre (niveau 4)",
+          "description": "Tuer 10 ennemis d'un seul coup en difficulté Délirante"
+        },
+        "german": {
+          "name": "Hölle auf Erden (Ebene 4)",
+          "description": "Töte 10 Feinde mit einem Schuss (Schwierigkeitsgrad 'Irre')"
+        },
+        "hungarian": {
+          "name": "Földi pokol (4. szint)",
+          "description": "Egy lövéssel végezz 10 ellenféllel őrült nehézségi szinten"
+        },
+        "italian": {
+          "name": "Inferno in terra (livello 4)",
+          "description": "Uccidi 10 nemici con un colpo con difficoltŕ folle"
+        },
+        "japanese": {
+          "name": "この世の地獄（レベル4 ）",
+          "description": "難易度の非常識上の一撃で敵を10体倒す"
+        },
+        "polish": {
+          "name": "Piekło na ziemi (poziom 4)",
+          "description": "Zabij 10 przeciwników jednym strzałem na poziomie trudności 'szaleństwo'."
+        },
+        "russian": {
+          "name": "Ад на земле (уровень 4)",
+          "description": "Убить 10 врагов одним выстрелом на безумной сложности"
+        },
+        "schinese": {
+          "name": "人间地狱（第四阶）",
+          "description": "在疯狂难度下一击杀死 10 名敌人"
+        },
+        "spanish": {
+          "name": "Infierno en la Tierra (Fila 4)",
+          "description": "Elimina a 10 enemigos con un disparo en la dificultad Demencial"
+        }
+      }
+    },
+    "BOSS_gozu_tier1": {
+      "translations": {
+        "brazilian": {
+          "name": "Matador (Nível 2)",
+          "description": "Derrote Gozu na dificuldade Normal"
+        },
+        "english": {
+          "name": "Matador (Tier 2)",
+          "description": "Defeat Gozu on difficulty Normal"
+        },
+        "french": {
+          "name": "Matador (niveau 2)",
+          "description": "Vaincre Gozu en difficulté Normale"
+        },
+        "german": {
+          "name": "Matador (Ebene 2)",
+          "description": "Besiege Gozu auf dem Schwierigkeitsgrad 'Normal'"
+        },
+        "hungarian": {
+          "name": "Matador (2. szint)",
+          "description": "Győzd le Gozut normál nehézségi szinten"
+        },
+        "italian": {
+          "name": "Torero (livello 2)",
+          "description": "Sconfiggi Gozu con difficoltŕ normale"
+        },
+        "japanese": {
+          "name": "マタドール（レベル2 ）",
+          "description": "難易度ノーマルでゴズを倒す"
+        },
+        "polish": {
+          "name": "Matador (poziom 2)",
+          "description": "Pokonaj Gozu na normalnym poziomie trudności."
+        },
+        "russian": {
+          "name": "Матадор (уровень 2)",
+          "description": "Победить Годзу на нормальной сложности"
+        },
+        "schinese": {
+          "name": "斗牛士（第二阶）",
+          "description": "在普通难度下击败牛头"
+        },
+        "spanish": {
+          "name": "Matador (Fila 2)",
+          "description": "Derrota a Gozu en la dificultad Normal"
+        }
+      }
+    },
+    "BOSS_gozu_tier2": {
+      "translations": {
+        "brazilian": {
+          "name": "Matador (Nível 3)",
+          "description": "Derrote Gozu na dificuldade Difícil"
+        },
+        "english": {
+          "name": "Matador (Tier 3)",
+          "description": "Defeat Gozu on difficulty Hard"
+        },
+        "french": {
+          "name": "Matador (niveau 3)",
+          "description": "Vaincre Gozu en difficulté Difficile"
+        },
+        "german": {
+          "name": "Matador (Ebene 3)",
+          "description": "Besiege Gozu auf dem Schwierigkeitsgrad 'Schwierig'"
+        },
+        "hungarian": {
+          "name": "Matador (3. szint)",
+          "description": "Győzd le Gozut nehéz nehézségi szinten"
+        },
+        "italian": {
+          "name": "Torero (livello 3)",
+          "description": "Sconfiggi Gozu con difficoltŕ alta"
+        },
+        "japanese": {
+          "name": "マタドール（レベル3 ）",
+          "description": "難易度ハードでゴズを倒す"
+        },
+        "polish": {
+          "name": "Matador (poziom 3)",
+          "description": "Pokonaj Gozu na wysokim poziomie trudności."
+        },
+        "russian": {
+          "name": "Матадор (уровень 3)",
+          "description": "Победить Годзу на высокой сложности"
+        },
+        "schinese": {
+          "name": "斗牛士（第三阶）",
+          "description": "在困难难度下击败牛头"
+        },
+        "spanish": {
+          "name": "Matador (Fila 3)",
+          "description": "Derrota a Gozu en la dificultad Difícil"
+        }
+      }
+    },
+    "BOSS_gozu_tier3": {
+      "translations": {
+        "brazilian": {
+          "name": "Matador (Nível 4)",
+          "description": "Derrote Gozu na dificuldade Insano"
+        },
+        "english": {
+          "name": "Matador (Tier 4)",
+          "description": "Defeat Gozu on difficulty Insane"
+        },
+        "french": {
+          "name": "Matador (niveau 4)",
+          "description": "Vaincre Gozu en difficulté Délirante"
+        },
+        "german": {
+          "name": "Matador (Ebene 4)",
+          "description": "Besiege Gozu auf dem Schwierigkeitsgrad 'Irre'"
+        },
+        "hungarian": {
+          "name": "Matador (4. szint)",
+          "description": "Győzd le Gozut őrült nehézségi szinten"
+        },
+        "italian": {
+          "name": "Torero (livello 4)",
+          "description": "Sconfiggi Gozu con difficoltŕ folle"
+        },
+        "japanese": {
+          "name": "マタドール（レベル4 ）",
+          "description": "難易度非常識でゴズを倒す"
+        },
+        "polish": {
+          "name": "Matador (poziom 4)",
+          "description": "Pokonaj Gozu na poziomie trudności 'szaleństwo'."
+        },
+        "russian": {
+          "name": "Матадор (уровень 4)",
+          "description": "Победить Годзу на безумной сложности"
+        },
+        "schinese": {
+          "name": "斗牛士（第四阶）",
+          "description": "在疯狂难度下击败牛头"
+        },
+        "spanish": {
+          "name": "Matador (Fila 4)",
+          "description": "Derrota a Gozu en la dificultad Demencial"
+        }
+      }
+    },
+    "BOSS_mezu_tier1": {
+      "translations": {
+        "brazilian": {
+          "name": "Encantador de Cavalos (Nível 2)",
+          "description": "Derrote Mezu na dificuldade Normal"
+        },
+        "english": {
+          "name": "Horse Whisperer (Tier 2)",
+          "description": "Defeat Mezu on difficulty Normal"
+        },
+        "french": {
+          "name": "Chuchotueur (niveau 2)",
+          "description": "Vaincre Mezu en difficulté Normale"
+        },
+        "german": {
+          "name": "Pferdeflüsterer (Ebene 2)",
+          "description": "Besiege Mezu auf dem Schwierigkeitsgrad 'Normal'"
+        },
+        "hungarian": {
+          "name": "A suttogó (2. szint)",
+          "description": "Győzd le Mezut normál nehézségi szinten"
+        },
+        "italian": {
+          "name": "Doma gentile (livello 2)",
+          "description": "Sconfiggi Mezu con difficoltŕ normale"
+        },
+        "japanese": {
+          "name": "ホースウィスパラー（レベル2 ）",
+          "description": "難易度ノーマルでメズを倒す"
+        },
+        "polish": {
+          "name": "Zaklinacz koni (poziom 2)",
+          "description": "Pokonaj Mezu na normalnym poziomie trudności."
+        },
+        "russian": {
+          "name": "Шепчущий конь (уровень 2)",
+          "description": "Победить Мэдзу на нормальной сложности"
+        },
+        "schinese": {
+          "name": "马语者（第二阶）",
+          "description": "在普通难度下击败马面"
+        },
+        "spanish": {
+          "name": "Susurrador de caballos (Fila 2)",
+          "description": "Derrota a Mezu en la dificultad Normal"
+        }
+      }
+    },
+    "BOSS_mezu_tier2": {
+      "translations": {
+        "brazilian": {
+          "name": "Encantador de Cavalos (Nível 3)",
+          "description": "Derrote Mezu na dificuldade Difícil"
+        },
+        "english": {
+          "name": "Horse Whisperer (Tier 3)",
+          "description": "Defeat Mezu on difficulty Hard"
+        },
+        "french": {
+          "name": "Chuchotueur (niveau 3)",
+          "description": "Vaincre Mezu en difficulté Difficile"
+        },
+        "german": {
+          "name": "Pferdeflüsterer (Ebene 3)",
+          "description": "Besiege Mezu auf dem Schwierigkeitsgrad 'Schwierig'"
+        },
+        "hungarian": {
+          "name": "A suttogó (3. szint)",
+          "description": "Győzd le Mezut nehéz nehézségi szinten"
+        },
+        "italian": {
+          "name": "Doma gentile (livello 3)",
+          "description": "Sconfiggi Mezu con difficoltŕ alta"
+        },
+        "japanese": {
+          "name": "ホースウィスパラー（レベル3）",
+          "description": "難易度ハードでメズを倒す"
+        },
+        "polish": {
+          "name": "Zaklinacz koni (poziom 3)",
+          "description": "Pokonaj Mezu na wysokim poziomie trudności."
+        },
+        "russian": {
+          "name": "Шепчущий конь (уровень 3)",
+          "description": "Победить Мэдзу на высокой сложности"
+        },
+        "schinese": {
+          "name": "马语者（第三阶）",
+          "description": "在困难难度下击败马面"
+        },
+        "spanish": {
+          "name": "Susurrador de caballos (Fila 3)",
+          "description": "Derrota a Mezu en la dificultad Difícil"
+        }
+      }
+    },
+    "BOSS_mezu_tier3": {
+      "translations": {
+        "brazilian": {
+          "name": "Encantador de Cavalos (Nível 4)",
+          "description": "Derrote Mezu na dificuldade Insano"
+        },
+        "english": {
+          "name": "Horse Whisperer (Tier 4)",
+          "description": "Defeat Mezu on difficulty Insane"
+        },
+        "french": {
+          "name": "Chuchotueur (niveau 4)",
+          "description": "Vaincre Mezu en difficulté Délirante"
+        },
+        "german": {
+          "name": "Pferdeflüsterer (Ebene 4)",
+          "description": "Besiege Mezu auf dem Schwierigkeitsgrad 'Irre'"
+        },
+        "hungarian": {
+          "name": "A suttogó (4. szint)",
+          "description": "Győzd le Mezut őrült nehézségi szinten"
+        },
+        "italian": {
+          "name": "Doma gentile (livello 4)",
+          "description": "Sconfiggi Mezu con difficoltŕ folle"
+        },
+        "japanese": {
+          "name": "ホースウィスパラー（レベル4 ）",
+          "description": "難易度非常識でメズを倒す"
+        },
+        "polish": {
+          "name": "Zaklinacz koni (poziom 4)",
+          "description": "Pokonaj Mezu na wysokim poziomie trudności."
+        },
+        "russian": {
+          "name": "Шепчущий конь (уровень 4)",
+          "description": "Победить Мэдзу на безумной сложности"
+        },
+        "schinese": {
+          "name": "马语者（第四阶）",
+          "description": "在疯狂难度下击败马面"
+        },
+        "spanish": {
+          "name": "Susurrador de caballos (Fila 4)",
+          "description": "Derrota a Mezu en la dificultad Demencial"
+        }
+      }
+    },
+    "BOSS_xing_tier1": {
+      "translations": {
+        "brazilian": {
+          "name": "Caçador de Cabeças (Nível 2)",
+          "description": "Derrote Xing na dificuldade Normal"
+        },
+        "english": {
+          "name": "Head Hunter (Tier 2)",
+          "description": "Defeat Xing on difficulty Normal"
+        },
+        "french": {
+          "name": "Chasseur de tętes (niveau 2)",
+          "description": "Vaincre Xing en difficulté Normale"
+        },
+        "german": {
+          "name": "Kopfjäger (Ebene 2)",
+          "description": "Besiege Xing auf dem Schwierigkeitsgrad 'Normal'"
+        },
+        "hungarian": {
+          "name": "Fejvadász (2. szint)",
+          "description": "Győzd le Xinget normál nehézségi szinten"
+        },
+        "italian": {
+          "name": "Cacciatore di teste (livello 2)",
+          "description": "Sconfiggi Xing con difficoltŕ normale"
+        },
+        "japanese": {
+          "name": "ヘッドハンター（レベル2 ）",
+          "description": "難易度ノーマルでシンを倒す"
+        },
+        "polish": {
+          "name": "Łowca głów (poziom 2)",
+          "description": "Pokonaj Xinga na normalnym poziomie trudności."
+        },
+        "russian": {
+          "name": "Охотник за головами (уровень 2)",
+          "description": "Победить Сина на нормальной сложности"
+        },
+        "schinese": {
+          "name": "猎头者（第二阶）",
+          "description": "在普通难度下击败星"
+        },
+        "spanish": {
+          "name": "Cazador de cabezas (Fila 2)",
+          "description": "Derrota a Xing en la dificultad Normal"
+        }
+      }
+    },
+    "BOSS_xing_tier2": {
+      "translations": {
+        "brazilian": {
+          "name": "Caçador de Cabeças (Nível 3)",
+          "description": "Derrote Xing na dificuldade Difícil"
+        },
+        "english": {
+          "name": "Head Hunter (Tier 3)",
+          "description": "Defeat Xing on difficulty Hard"
+        },
+        "french": {
+          "name": "Chasseur de tętes (niveau 3)",
+          "description": "Vaincre Xing en difficulté Difficile"
+        },
+        "german": {
+          "name": "Kopfjäger (Ebene 3)",
+          "description": "Besiege Xing auf dem Schwierigkeitsgrad 'Schwierig'"
+        },
+        "hungarian": {
+          "name": "Fejvadász (3. szint)",
+          "description": "Győzd le Xinget nehéz nehézségi szinten"
+        },
+        "italian": {
+          "name": "Cacciatore di teste (livello 3)",
+          "description": "Sconfiggi Xing con difficoltŕ alta"
+        },
+        "japanese": {
+          "name": "ヘッドハンター（レベル3）",
+          "description": "難易度ハードでシンを倒す"
+        },
+        "polish": {
+          "name": "Łowca głów (poziom 3)",
+          "description": "Pokonaj Xinga na wysokim poziomie trudności."
+        },
+        "russian": {
+          "name": "Охотник за головами (уровень 3)",
+          "description": "Победить Сина на высокой сложности"
+        },
+        "schinese": {
+          "name": "猎头者（第三阶）",
+          "description": "在困难难度下击败星"
+        },
+        "spanish": {
+          "name": "Cazador de cabezas (Fila 3)",
+          "description": "Derrota a Xing en la dificultad Difícil"
+        }
+      }
+    },
+    "BOSS_xing_tier3": {
+      "translations": {
+        "brazilian": {
+          "name": "Caçador de Cabeças (Nível 4)",
+          "description": "Derrote Xing na dificuldade Insano"
+        },
+        "english": {
+          "name": "Head Hunter (Tier 4)",
+          "description": "Defeat Xing on difficulty Insane"
+        },
+        "french": {
+          "name": "Chasseur de tętes (niveau 4)",
+          "description": "Vaincre Xing en difficulté Délirante"
+        },
+        "german": {
+          "name": "Kopfjäger (Ebene 4)",
+          "description": "Besiege Xing auf dem Schwierigkeitsgrad 'Irre'"
+        },
+        "hungarian": {
+          "name": "Fejvadász (4. szint)",
+          "description": "Győzd le Xinget őrült nehézségi szinten"
+        },
+        "italian": {
+          "name": "Cacciatore di teste (livello 4)",
+          "description": "Sconfiggi Xing con difficoltŕ folle"
+        },
+        "japanese": {
+          "name": "ヘッドハンター（レベル4 ）",
+          "description": "難易度非常識でシンを倒す"
+        },
+        "polish": {
+          "name": "Łowca głów (poziom 4)",
+          "description": "Pokonaj Xinga na poziomie trudności 'szaleństwo'."
+        },
+        "russian": {
+          "name": "Охотник за головами (уровень 4)",
+          "description": "Победить Сина на безумной сложности"
+        },
+        "schinese": {
+          "name": "猎头者（第四阶）",
+          "description": "在疯狂难度下击败星"
+        },
+        "spanish": {
+          "name": "Cazador de cabezas (Fila 4)",
+          "description": "Derrota a Xing en la dificultad Demencial"
+        }
+      }
+    },
+    "COOKIES": {
+      "translations": {
+        "brazilian": {
+          "name": "Mostro dos Bolinhos",
+          "description": "Encontre todos os bolinhos da sorte"
+        },
+        "english": {
+          "name": "Cookie Monster",
+          "description": "Find all fortune cookies"
+        },
+        "french": {
+          "name": "Monstre gourmand",
+          "description": "Trouver tous les gâteaux chinois"
+        },
+        "german": {
+          "name": "Krümelmonster",
+          "description": "Finde alle Glückskekse"
+        },
+        "hungarian": {
+          "name": "Sütiszörny",
+          "description": "Találd meg az összes szerencsesütit"
+        },
+        "italian": {
+          "name": "Mostro dei biscotti",
+          "description": "Trova tutti i biscotti della fortuna"
+        },
+        "japanese": {
+          "name": "クッキー·モンスター",
+          "description": "すべてのフォーチュンクッキーを見つける"
+        },
+        "polish": {
+          "name": "Ciasteczkowy potwór",
+          "description": "Znajdź wszystkie ciasteczka z wróżbą."
+        },
+        "russian": {
+          "name": "Фанат печенья",
+          "description": "Найти все печенья с предсказаниями"
+        },
+        "schinese": {
+          "name": "饼干怪兽",
+          "description": "找到全部幸运饼干"
+        },
+        "spanish": {
+          "name": "Monstruo de las galletas",
+          "description": "Encuentra todas las galletas de la suerte"
+        }
+      }
+    },
+    "KILL_IN_TIME_warlord_1_999999_tier0": {
+      "translations": {
+        "brazilian": {
+          "name": "Anarquista (Nível 1)",
+          "description": "Mate um Comandantes Militares na dificuldade Casual"
+        },
+        "english": {
+          "name": "Anarchist (Tier 1)",
+          "description": "Kill a Warlord on difficulty Casual"
+        },
+        "french": {
+          "name": "Anarchiste (niveau 1)",
+          "description": "Tuer un Seigneur de guerre en difficulté Amateur"
+        },
+        "german": {
+          "name": "Anarchist (Ebene 1)",
+          "description": "Töte einen Kriegsfürsten (Schwierigkeitsgrad 'Einfach')"
+        },
+        "hungarian": {
+          "name": "Anarchista (1. szint)",
+          "description": "Végezz egy hadúrral kezdő nehézségi szinten"
+        },
+        "italian": {
+          "name": "Anarchico (livello 1)",
+          "description": "Uccidi un signore della guerra con difficoltŕ lieve"
+        },
+        "japanese": {
+          "name": "アナーキスト（レベル1 ）",
+          "description": "難易度カジュアルでウォーロードを倒す"
+        },
+        "polish": {
+          "name": "Anarchista (poziom 1)",
+          "description": "Zabij Pana Wojny na niskim poziomie trudności."
+        },
+        "russian": {
+          "name": "Анархист (уровень 1)",
+          "description": "Убить военачальника на обычной сложности"
+        },
+        "schinese": {
+          "name": "无政府主义者（第一阶）",
+          "description": "在简单难度下杀死一个军阀"
+        },
+        "spanish": {
+          "name": "Anarquista (Fila 1)",
+          "description": "Elimina a un Seńor de la guerra en la dificultad Casual"
+        }
+      }
+    },
+    "KILL_IN_TIME_warlord_1_999999_tier1": {
+      "translations": {
+        "brazilian": {
+          "name": "Anarquista (Nível 2)",
+          "description": "Mate um Comandante Militar na dificuldade Normal"
+        },
+        "english": {
+          "name": "Anarchist (Tier 2)",
+          "description": "Kill a Warlord on difficulty Normal"
+        },
+        "french": {
+          "name": "Anarchiste (niveau 2)",
+          "description": "Tuer un Seigneur de guerre en difficulté Normale"
+        },
+        "german": {
+          "name": "Anarchist (Ebene 2)",
+          "description": "Töte einen Kriegsfürsten (Schwierigkeitsgrad 'Normal')"
+        },
+        "hungarian": {
+          "name": "Anarchista (2. szint)",
+          "description": "Végezz egy hadúrral normál nehézségi szinten"
+        },
+        "italian": {
+          "name": "Anarchico (livello 2)",
+          "description": "Uccidi un signore della guerra con difficoltŕ normale"
+        },
+        "japanese": {
+          "name": "アナーキスト（レベル2 ）",
+          "description": "難易度ノーマルでウォーロードを倒す"
+        },
+        "polish": {
+          "name": "Anarchista (poziom 2)",
+          "description": "Zabij Pana Wojny na normalnym poziomie trudności."
+        },
+        "russian": {
+          "name": "Анархист (уровень 2)",
+          "description": "Убить военачальника на нормальной сложности"
+        },
+        "schinese": {
+          "name": "无政府主义者（第二阶）",
+          "description": "在普通难度下杀死一个军阀"
+        },
+        "spanish": {
+          "name": "Anarquista (Fila 2)",
+          "description": "Elimina a un Seńor de la guerra en la dificultad Normal"
+        }
+      }
+    },
+    "KILL_IN_TIME_warlord_1_999999_tier2": {
+      "translations": {
+        "brazilian": {
+          "name": "Anarquista (Nível 3)",
+          "description": "Mate um Comandante Militar na dificuldade Difícil"
+        },
+        "english": {
+          "name": "Anarchist (Tier 3)",
+          "description": "Kill a Warlord on difficulty Hard"
+        },
+        "french": {
+          "name": "Anarchiste (niveau 3)",
+          "description": "Tuer un Seigneur de guerre en difficulté Difficile"
+        },
+        "german": {
+          "name": "Anarchist (Ebene 3)",
+          "description": "Töte einen Kriegsfürsten (Schwierigkeitsgrad 'Schwierig')"
+        },
+        "hungarian": {
+          "name": "Anarchista (3. szint)",
+          "description": "Végezz egy hadúrral nehéz nehézségi szinten"
+        },
+        "italian": {
+          "name": "Anarchico (livello 3)",
+          "description": "Uccidi un signore della guerra con difficoltŕ alta"
+        },
+        "japanese": {
+          "name": "アナーキスト（レベル3 ）",
+          "description": "難易度ハードでウォーロードを倒す"
+        },
+        "polish": {
+          "name": "Anarchista (poziom 3)",
+          "description": "Zabij Pana Wojny na wysokim poziomie trudności."
+        },
+        "russian": {
+          "name": "Анархист (уровень 3)",
+          "description": "Убить военачальника на высокой сложности"
+        },
+        "schinese": {
+          "name": "无政府主义者（第三阶）",
+          "description": "在困难难度下杀死一个军阀"
+        },
+        "spanish": {
+          "name": "Anarquista (Fila 3)",
+          "description": "Elimina a un Seńor de la guerra en la dificultad Difícil"
+        }
+      }
+    },
+    "KILL_IN_TIME_warlord_1_999999_tier3": {
+      "translations": {
+        "brazilian": {
+          "name": "Anarquista (Nível 4)",
+          "description": "Mate um Comandante Militar na dificuldade Insano"
+        },
+        "english": {
+          "name": "Anarchist (Tier 4)",
+          "description": "Kill a Warlord on difficulty Insane"
+        },
+        "french": {
+          "name": "Anarchiste (niveau 4)",
+          "description": "Tuer un Seigneur de guerre en difficulté Délirante"
+        },
+        "german": {
+          "name": "Anarchist (Ebene 4)",
+          "description": "Töte einen Kriegsfürsten (Schwierigkeitsgrad 'Irre')"
+        },
+        "hungarian": {
+          "name": "Anarchista (4. szint)",
+          "description": "Végezz egy hadúrral őrült nehézségi szinten"
+        },
+        "italian": {
+          "name": "Anarchico (livello 4)",
+          "description": "Uccidi un signore della guerra con difficoltŕ folle"
+        },
+        "japanese": {
+          "name": "アナーキスト（レベル4 ）",
+          "description": "難易度非常識でウォーロードを倒す"
+        },
+        "polish": {
+          "name": "Anarchista (poziom 4)",
+          "description": "Zabij Pana Wojny na poziomie trudności 'szaleństwo'."
+        },
+        "russian": {
+          "name": "Анархист (уровень 4)",
+          "description": "Убить военачальника на безумной сложности"
+        },
+        "schinese": {
+          "name": "无政府主义者（第四阶）",
+          "description": "在疯狂难度下杀死一个军阀"
+        },
+        "spanish": {
+          "name": "Anarquista (Fila 4)",
+          "description": "Elimina a un Seńor de la guerra en la dificultad Demencial"
+        }
+      }
+    }
+  }
+}

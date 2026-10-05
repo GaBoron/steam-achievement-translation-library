@@ -1,0 +1,879 @@
+{
+  "version": 1,
+  "app_id": "1031510",
+  "variant_id": "default",
+  "source_sha256": "fc093c9af10cc5828118c3848f6450b2067fe8592b6d684301e703f1481c5f70",
+  "languages": [
+    "english",
+    "japanese",
+    "koreana",
+    "schinese",
+    "tchinese"
+  ],
+  "achievements": {
+    "TRP_GET_ALL_TROPHIES": {
+      "translations": {
+        "english": {
+          "name": "X-Master",
+          "description": "Obtain all Trophies."
+        },
+        "japanese": {
+          "name": "Ｘマスター",
+          "description": "全てのトロフィーを獲得する。"
+        },
+        "koreana": {
+          "name": "X 마스터",
+          "description": "모든 트로피를 획득한다."
+        },
+        "schinese": {
+          "name": "X至尊",
+          "description": "获得所有的奖杯。"
+        },
+        "tchinese": {
+          "name": "Ｘ至尊",
+          "description": "獲得所有的獎盃。"
+        }
+      }
+    },
+    "TRP_END_STORY_MALE_FEMALE": {
+      "translations": {
+        "english": {
+          "name": "Overseer of Two Stories",
+          "description": "View endings for both male and female protagonists."
+        },
+        "japanese": {
+          "name": "２つの物語を見届けし者",
+          "description": "男主人公と女主人公の両方でエンディングを迎える。"
+        },
+        "koreana": {
+          "name": "두 가지 이야기를 지켜본 자",
+          "description": "남자 주인공과 여자 주인공으로 엔딩을 맞이한다."
+        },
+        "schinese": {
+          "name": "见证两段故事之人",
+          "description": "看过男性主角与女性主角两者的结局。"
+        },
+        "tchinese": {
+          "name": "見證兩段故事之人",
+          "description": "看過男性主角與女性主角兩者的結局。"
+        }
+      }
+    },
+    "TRP_EMBLEM_COLLECTOR": {
+      "translations": {
+        "english": {
+          "name": "Emblem Collector",
+          "description": "Collect all 5 Emblems."
+        },
+        "japanese": {
+          "name": "エンブレムコレクター",
+          "description": "５つのエンブレム全てを獲得する。"
+        },
+        "koreana": {
+          "name": "엠블럼 컬렉터",
+          "description": "다섯 가지 엠블럼을 모두 획득한다."
+        },
+        "schinese": {
+          "name": "徽章收藏家",
+          "description": "获得总共5个徽章。"
+        },
+        "tchinese": {
+          "name": "徽章收藏家",
+          "description": "獲得總共５個徽章。"
+        }
+      }
+    },
+    "TRP_PURCHASE_ALL_POWER_PARTS": {
+      "translations": {
+        "english": {
+          "name": "Vault Master",
+          "description": "Buy all Power Parts (excluding Recommended) from the Vault and upgrade Magic Customization to Grade 6."
+        },
+        "japanese": {
+          "name": "ファクトリーマイスター",
+          "description": "ファクトリーの全ての強化パーツ（お勧め品を除く２４種）を購入し、Ｍ.カスタマイズをＧＲＡＤＥ６まで強化する。"
+        },
+        "koreana": {
+          "name": "팩토리 마이스터",
+          "description": "팩토리의 모든 강화 파츠(추천 품목을 제외한 24종)를 구입하고, M.커스터마이즈를 GRADE 6까지 강화한다."
+        },
+        "schinese": {
+          "name": "工厂主宰",
+          "description": "购买工厂里所有的强化零件（推荐物品以外的24种），并将M.自订强化至GRADE6。"
+        },
+        "tchinese": {
+          "name": "工廠主宰",
+          "description": "購買工廠裡所有的強化零件（推薦物品以外的２４種），並將M.自訂強化至ＧＲＡＤＥ６。"
+        }
+      }
+    },
+    "TRP_51_SR_POINTS": {
+      "translations": {
+        "english": {
+          "name": "SR Point Hoarder",
+          "description": "Obtain 51 SR points."
+        },
+        "japanese": {
+          "name": "全ＳＲポイント制覇",
+          "description": "ＳＲポイントを５１ポイント獲得する。"
+        },
+        "koreana": {
+          "name": "전 SR 포인트 제패",
+          "description": "SR 포인트를 51점 획득한다."
+        },
+        "schinese": {
+          "name": "SR点数完全称霸",
+          "description": "SR点数获得51点。"
+        },
+        "tchinese": {
+          "name": "ＳＲ點數完全稱霸",
+          "description": "ＳＲ點數獲得５１點。"
+        }
+      }
+    },
+    "TRP_END_CHAPTER_1_REPLAY": {
+      "translations": {
+        "english": {
+          "name": "The Challenger",
+          "description": "Complete Chapter 1 during replay."
+        },
+        "japanese": {
+          "name": "再び挑みし者",
+          "description": "周回プレイの第１話をクリアする。"
+        },
+        "koreana": {
+          "name": "다시 도전하는 자",
+          "description": "회차 플레이로 제1화를 클리어한다."
+        },
+        "schinese": {
+          "name": "再次挑战之人",
+          "description": "通过重复游玩的第1话。"
+        },
+        "tchinese": {
+          "name": "再次挑戰之人",
+          "description": "通過重複遊玩的第１話。"
+        }
+      }
+    },
+    "TRP_COMPLETE_GAME": {
+      "translations": {
+        "english": {
+          "name": "War is Over",
+          "description": "Complete the game."
+        },
+        "japanese": {
+          "name": "ゲームクリア",
+          "description": "ゲームをクリアする。"
+        },
+        "koreana": {
+          "name": "게임 클리어",
+          "description": "게임을 클리어한다."
+        },
+        "schinese": {
+          "name": "游戏通关",
+          "description": "将游戏通关。"
+        },
+        "tchinese": {
+          "name": "遊戲通關",
+          "description": "將遊戲通關。"
+        }
+      }
+    },
+    "TRP_30_ACE_PILOTS": {
+      "translations": {
+        "english": {
+          "name": "Pilot Trainer",
+          "description": "30 pilots achieve Ace Pilot status."
+        },
+        "japanese": {
+          "name": "パイロットブリーダー",
+          "description": "３０人以上のパイロットをエースパイロットにする。"
+        },
+        "koreana": {
+          "name": "파일럿 브리더",
+          "description": "30인 이상의 파일럿을 에이스 파일럿으로 만든다."
+        },
+        "schinese": {
+          "name": "驾驶员培训家",
+          "description": "使30人以上的驾驶员成为王牌驾驶员。"
+        },
+        "tchinese": {
+          "name": "駕駛員培訓家",
+          "description": "使３０人以上的駕駛員成為王牌駕駛員。"
+        }
+      }
+    },
+    "TRP_CUSTOM_BONUS_30_ROBOTS": {
+      "translations": {
+        "english": {
+          "name": "Tuner",
+          "description": "Earn a Custom Bonus for 30 units."
+        },
+        "japanese": {
+          "name": "カスタムキング",
+          "description": "３０機以上の機体にカスタムボーナスを獲得させる。"
+        },
+        "koreana": {
+          "name": "커스텀 킹",
+          "description": "30기 이상의 기체로 커스텀 보너스를 획득한다."
+        },
+        "schinese": {
+          "name": "自订之王",
+          "description": "让30架以上的机体获得自订奖励。"
+        },
+        "tchinese": {
+          "name": "自訂之王",
+          "description": "讓３０架以上的機體獲得自訂獎勵。"
+        }
+      }
+    },
+    "TRP_50K_DAMAGE": {
+      "translations": {
+        "english": {
+          "name": "Once in a Lifetime",
+          "description": "Deal 50,000 damage to a single enemy in one battle."
+        },
+        "japanese": {
+          "name": "オンリーワンクラッシュ",
+          "description": "１度の戦闘で敵１機に５万以上のダメージを与える。"
+        },
+        "koreana": {
+          "name": "온리 원 크러시",
+          "description": "한 번의 전투에서 적 1기에 5만 이상의 대미지를 입힌다."
+        },
+        "schinese": {
+          "name": "一击粉碎",
+          "description": "一次战斗中对一架敌机造成5万以上的伤害值。"
+        },
+        "tchinese": {
+          "name": "一擊粉碎",
+          "description": "一次戰鬥中對一架敵機造成５萬以上的損傷值。"
+        }
+      }
+    },
+    "TRP_100K_FUNDS": {
+      "translations": {
+        "english": {
+          "name": "Money Kaiser",
+          "description": "Earn 100,000 funds in one battle."
+        },
+        "japanese": {
+          "name": "マネーガイザー",
+          "description": "１度の戦闘で資金を１０万以上獲得する。"
+        },
+        "koreana": {
+          "name": "머니 게이저",
+          "description": "한 번의 전투에서 자금을 10만 이상 획득한다."
+        },
+        "schinese": {
+          "name": "资金王者",
+          "description": "一次战斗中获得10万以上的资金。"
+        },
+        "tchinese": {
+          "name": "資金王者",
+          "description": "一次戰鬥中獲得１０萬以上的資金。"
+        }
+      }
+    },
+    "TRP_GREAT_ACE": {
+      "translations": {
+        "english": {
+          "name": "Top Gun",
+          "description": "Any pilot achieves Great Ace status."
+        },
+        "japanese": {
+          "name": "グレートエース",
+          "description": "いずれかのパイロットをグレートエースにする。"
+        },
+        "koreana": {
+          "name": "그레이트 에이스",
+          "description": "파일럿 1명을 그레이트 에이스로 만든다."
+        },
+        "schinese": {
+          "name": "伟大王牌",
+          "description": "使任一驾驶员成为伟大王牌。"
+        },
+        "tchinese": {
+          "name": "偉大王牌",
+          "description": "使任一駕駛員成為偉大王牌。"
+        }
+      }
+    },
+    "TRP_4_TIMES_MULTI_ACTION": {
+      "translations": {
+        "english": {
+          "name": "Five in a Row",
+          "description": "Any unit completes a Multi Action 4 times in a turn. (Controlling other units in between is okay.)"
+        },
+        "japanese": {
+          "name": "５回行動",
+          "description": "１ターンでいずれかのユニットがマルチアクションを４回成功させる。（途中、別ユニットが行動しても可）"
+        },
+        "koreana": {
+          "name": "5회 행동",
+          "description": "한 턴에서 한 유닛이 멀티 액션을 4회 성공한다.(턴 진행 중 다른 유닛의 행동도 가능)"
+        },
+        "schinese": {
+          "name": "5次行动",
+          "description": "一回合中任一单位成功进行4次多重行动。（期间内其他单位仍可行动）"
+        },
+        "tchinese": {
+          "name": "５次行動",
+          "description": "一回合中任一單位成功進行４次多重行動。（期間內其他單位仍可行動）"
+        }
+      }
+    },
+    "TRP_UNLOCK_ALL_POWER_PARTS": {
+      "translations": {
+        "english": {
+          "name": "Peak Production",
+          "description": "Unlock all Power Parts (excluding Recommended) in the Vault."
+        },
+        "japanese": {
+          "name": "ファクトリー全開放",
+          "description": "ファクトリーの全ての強化パーツ（お勧め品を除く２４種）の開放条件を満たす。"
+        },
+        "koreana": {
+          "name": "팩토리 모두 개방",
+          "description": "팩토리의 모든 강화 파츠(추천 품목을 제외한 24종)의 개방 조건을 만족한다."
+        },
+        "schinese": {
+          "name": "工厂全开放",
+          "description": "达成工厂里所有强化零件（推荐物品以外的24种）的开放条件。"
+        },
+        "tchinese": {
+          "name": "工廠全開放",
+          "description": "達成工廠裡所有強化零件（推薦物品以外的２４種）的開放條件。"
+        }
+      }
+    },
+    "TRP_30_SKILL_PROGRAMS": {
+      "translations": {
+        "english": {
+          "name": "Skill Collector",
+          "description": "Create 30 types of Skill Programs."
+        },
+        "japanese": {
+          "name": "スキルコレクター",
+          "description": "スキルプログラムを３０種類以上、生産する。"
+        },
+        "koreana": {
+          "name": "스킬 컬렉터",
+          "description": "스킬 프로그램을 30종 이상 생산한다."
+        },
+        "schinese": {
+          "name": "技能收藏家",
+          "description": "生产30种以上的技能程序。"
+        },
+        "tchinese": {
+          "name": "技能收藏家",
+          "description": "生產３０種以上的技能程式。"
+        }
+      }
+    },
+    "TRP_END_CHAPTER_1": {
+      "translations": {
+        "english": {
+          "name": "The Long Road to Peace",
+          "description": "Complete Chapter 1."
+        },
+        "japanese": {
+          "name": "長き戦いの始まり",
+          "description": "第１話をクリアする。"
+        },
+        "koreana": {
+          "name": "긴 전투의 시작",
+          "description": "제1화를 클리어한다."
+        },
+        "schinese": {
+          "name": "漫长战斗的开端",
+          "description": "第1话过关。"
+        },
+        "tchinese": {
+          "name": "漫長戰鬥的開端",
+          "description": "第１話過關。"
+        }
+      }
+    },
+    "TRP_CHOICE": {
+      "translations": {
+        "english": {
+          "name": "The Chosen Path",
+          "description": "Protagonist makes a choice at a crossroad."
+        },
+        "japanese": {
+          "name": "選ばれし道",
+          "description": "主人公がシナリオ分岐を行う。"
+        },
+        "koreana": {
+          "name": "선택한 길",
+          "description": "주인공이 시나리오 분기를 진행한다."
+        },
+        "schinese": {
+          "name": "所选的道路",
+          "description": "主角选择剧情分歧。"
+        },
+        "tchinese": {
+          "name": "所選的道路",
+          "description": "主角選擇劇情分歧。"
+        }
+      }
+    },
+    "TRP_ENDE_AMULET": {
+      "translations": {
+        "english": {
+          "name": "Protector of Ende",
+          "description": "Clear a scenario after eliminating all enemies and acquiring Ende's Amulet."
+        },
+        "japanese": {
+          "name": "エンデの守護",
+          "description": "敵を撃墜し、強化パーツ「エンデのアミュレット」を入手した状態でシナリオクリアする。"
+        },
+        "koreana": {
+          "name": "엔데의 수호",
+          "description": "적을 격추하고, 강화 파츠「엔데의 아뮬렛」을 입수한 상태에서 시나리오를 클리어한다."
+        },
+        "schinese": {
+          "name": "恩殆的守护",
+          "description": "击坠敌人，并获得强化零件「恩殆的坠饰」后通过关卡。"
+        },
+        "tchinese": {
+          "name": "恩殆的守護",
+          "description": "擊墜敵人，並獲得強化零件「恩殆的墜飾」後通過關卡。"
+        }
+      }
+    },
+    "TRP_ENDE_EYE": {
+      "translations": {
+        "english": {
+          "name": "The Meaning of Od",
+          "description": "Clear a scenario after eliminating all enemies and acquiring Ende's Eye."
+        },
+        "japanese": {
+          "name": "オドの意味",
+          "description": "敵を撃墜し、強化パーツ「エンデの魔眼」を入手した状態でシナリオクリアする。"
+        },
+        "koreana": {
+          "name": "오드의 의미",
+          "description": "적을 격추하고, 강화 파츠「엔데의 마안」을 입수한 상태에서 시나리오를 클리어한다."
+        },
+        "schinese": {
+          "name": "教条的意义",
+          "description": "击坠敌人，并获得强化零件「恩殆的魔眼」后通过关卡。"
+        },
+        "tchinese": {
+          "name": "教條的意義",
+          "description": "擊墜敵人，並獲得強化零件「恩殆的魔眼」後通過關卡。"
+        }
+      }
+    },
+    "TRP_1_ACE_PILOT": {
+      "translations": {
+        "english": {
+          "name": "Ace Pilot",
+          "description": "Any pilot achieves Ace Pilot status."
+        },
+        "japanese": {
+          "name": "エースパイロット",
+          "description": "いずれかのパイロットをエースパイロットにする。"
+        },
+        "koreana": {
+          "name": "에이스 파일럿",
+          "description": "파일럿 1명을 에이스 파일럿으로 만든다."
+        },
+        "schinese": {
+          "name": "王牌驾驶员",
+          "description": "使任一驾驶员成为王牌驾驶员。"
+        },
+        "tchinese": {
+          "name": "王牌駕駛員",
+          "description": "使任一駕駛員成為王牌駕駛員。"
+        }
+      }
+    },
+    "TRP_CUSTOM_BONUS_ANY_ROBOTS": {
+      "translations": {
+        "english": {
+          "name": "Custom Bonus",
+          "description": "Any unit acquires a Custom Bonus."
+        },
+        "japanese": {
+          "name": "カスタムボーナス",
+          "description": "いずれかの機体にカスタムボーナスを獲得させる。"
+        },
+        "koreana": {
+          "name": "커스텀 보너스",
+          "description": "한 기체로 커스텀 보너스를 획득한다."
+        },
+        "schinese": {
+          "name": "自订奖励",
+          "description": "让任一机体获得自订奖励。"
+        },
+        "tchinese": {
+          "name": "自訂獎勵",
+          "description": "讓任一機體獲得自訂獎勵。"
+        }
+      }
+    },
+    "TRP_BREAK_TIME_MESSAGE": {
+      "translations": {
+        "english": {
+          "name": "Break Time",
+          "description": "View an Interruption Message."
+        },
+        "japanese": {
+          "name": "休息の時",
+          "description": "中断メッセージを見る。"
+        },
+        "koreana": {
+          "name": "휴식할 때",
+          "description": "종료 메시지를 본다."
+        },
+        "schinese": {
+          "name": "休息时刻",
+          "description": "观看中断讯息。"
+        },
+        "tchinese": {
+          "name": "休息時刻",
+          "description": "觀看中斷訊息。"
+        }
+      }
+    },
+    "TRP_GET_1_EMBLEM": {
+      "translations": {
+        "english": {
+          "name": "War Medal",
+          "description": "Acquire an Emblem."
+        },
+        "japanese": {
+          "name": "戦いの紋章",
+          "description": "エンブレムを１つ獲得する。"
+        },
+        "koreana": {
+          "name": "전투의 문장",
+          "description": "엠블럼을 하나 획득한다."
+        },
+        "schinese": {
+          "name": "奋战的徽章",
+          "description": "获得1个徽章。"
+        },
+        "tchinese": {
+          "name": "奮戰的徽章",
+          "description": "獲得１個徽章。"
+        }
+      }
+    },
+    "TRP_COLLECT_ALL_SPIRIT_COMMANDS": {
+      "translations": {
+        "english": {
+          "name": "Mental Fortitude",
+          "description": "With an ally unit sortied in a map, collect all Spirit Commands listed in the overall command Search."
+        },
+        "japanese": {
+          "name": "精神統一",
+          "description": "マップ上に出撃した味方ユニットで、全体コマンド「検索」の精神コマンドリストを全て揃える。"
+        },
+        "koreana": {
+          "name": "정신통일",
+          "description": "맵에 출격한 아군 유닛으로 전체 커맨드「검색」의 정신 커맨드 리스트를 모두 모은다."
+        },
+        "schinese": {
+          "name": "精神统一",
+          "description": "以出击到地图上的我方单位，凑齐全体指令「搜寻」的精神指令清单。"
+        },
+        "tchinese": {
+          "name": "精神統一",
+          "description": "以出擊到地圖上的我方單位，湊齊全體指令「搜尋」的精神指令清單。"
+        }
+      }
+    },
+    "TRP_DESTROY_10_ENEMY_UNITS": {
+      "translations": {
+        "english": {
+          "name": "One Pilot Army",
+          "description": "Any ally pilot destroys at least 10 enemy units in a single stage."
+        },
+        "japanese": {
+          "name": "一機闘千",
+          "description": "いずれかの味方パイロットが１ステージに敵を１０機以上、撃墜する。"
+        },
+        "koreana": {
+          "name": "일기투천",
+          "description": "한 아군 파일럿이 한 스테이지에서 적을 10기 이상 격추한다."
+        },
+        "schinese": {
+          "name": "一机斗千",
+          "description": "任一我方驾驶员于一个关卡中击坠10架以上的敌机。"
+        },
+        "tchinese": {
+          "name": "一機鬥千",
+          "description": "任一我方駕駛員於一個關卡中擊墜１０架以上的敵機。"
+        }
+      }
+    },
+    "TRP_MAX_EXC": {
+      "translations": {
+        "english": {
+          "name": "Full Count",
+          "description": "Max out any pilot's ExC."
+        },
+        "japanese": {
+          "name": "エクストラカウントＭＡＸ",
+          "description": "いずれかのパイロットのＥｘＣをＭＡＸにする。"
+        },
+        "koreana": {
+          "name": "엑스트라 카운트 MAX",
+          "description": "한 파일럿의 ExC를 MAX로 만든다."
+        },
+        "schinese": {
+          "name": "额外指数MAX",
+          "description": "使任一驾驶员的ExC达到MAX。"
+        },
+        "tchinese": {
+          "name": "額外指數ＭＡＸ",
+          "description": "使任一駕駛員的ＥｘＣ達到ＭＡＸ。"
+        }
+      }
+    },
+    "TRP_BUY_POWER_PARTS": {
+      "translations": {
+        "english": {
+          "name": "Magical Implement Developer",
+          "description": "Buy any Power Part (excluding Recommended) from the Vault."
+        },
+        "japanese": {
+          "name": "魔道器の開発",
+          "description": "ファクトリーの強化パーツ（お勧め品を除く２４種）のいずれか１つを購入する。"
+        },
+        "koreana": {
+          "name": "마도기 개발",
+          "description": "팩토리의 강화 파츠(추천 품목을 제외한 24종) 중 하나를 구입한다."
+        },
+        "schinese": {
+          "name": "开发魔道器",
+          "description": "购买工厂里的任何一个强化零件（推荐物品以外的24种）。"
+        },
+        "tchinese": {
+          "name": "開發魔道器",
+          "description": "購買工廠裡的任何一個強化零件（推薦物品以外的２４種）。"
+        }
+      }
+    },
+    "TRP_COMPLETE_SECRET_SCENARIO": {
+      "translations": {
+        "english": {
+          "name": "Top-Secret Mission",
+          "description": "Complete a secret scenario."
+        },
+        "japanese": {
+          "name": "シークレットミッション",
+          "description": "いずれかのシークレットシナリオをクリアする。"
+        },
+        "koreana": {
+          "name": "시크릿 미션",
+          "description": "시크릿 시나리오를 1개 클리어한다."
+        },
+        "schinese": {
+          "name": "秘密任务",
+          "description": "任一秘密剧情过关。"
+        },
+        "tchinese": {
+          "name": "秘密任務",
+          "description": "任一秘密劇情過關。"
+        }
+      }
+    },
+    "TRP_USE_RESOLVE": {
+      "translations": {
+        "english": {
+          "name": "A New Resolution",
+          "description": "Use the Spirit Command Resolve."
+        },
+        "japanese": {
+          "name": "新たなる決意",
+          "description": "精神コマンド「決意」を使用する。"
+        },
+        "koreana": {
+          "name": "새로운 결의",
+          "description": "정신 커맨드「결의」를 사용한다."
+        },
+        "schinese": {
+          "name": "崭新的决心",
+          "description": "使用精神指令「决心」。"
+        },
+        "tchinese": {
+          "name": "嶄新的決心",
+          "description": "使用精神指令「決心」。"
+        }
+      }
+    },
+    "TRP_ENEMY_MORALE_50": {
+      "translations": {
+        "english": {
+          "name": "Routing the Enemy",
+          "description": "Reduce any enemy pilot's Morale to 50."
+        },
+        "japanese": {
+          "name": "戦意喪失",
+          "description": "いずれかの敵パイロットの気力を５０にする。"
+        },
+        "koreana": {
+          "name": "전의상실",
+          "description": "한 명의 적 파일럿 기력을 50으로 만든다."
+        },
+        "schinese": {
+          "name": "丧失战意",
+          "description": "使任一敌方驾驶员的气力降至50。"
+        },
+        "tchinese": {
+          "name": "喪失戰意",
+          "description": "使任一敵方駕駛員的氣力降至５０。"
+        }
+      }
+    },
+    "TRP_TEACH_SKILL_PROGRAM": {
+      "translations": {
+        "english": {
+          "name": "My First Skill Program",
+          "description": "Any pilot learns a Skill Program."
+        },
+        "japanese": {
+          "name": "ようこそスキルプログラムへ",
+          "description": "いずれかのパイロットにスキルプログラムを修得させる。"
+        },
+        "koreana": {
+          "name": "스킬 프로그램에 오신 것을 환영합니다",
+          "description": "한 명의 파일럿이 스킬 프로그램을 습득한다."
+        },
+        "schinese": {
+          "name": "欢迎使用技能程序",
+          "description": "让任一驾驶员学习技能程序。"
+        },
+        "tchinese": {
+          "name": "歡迎使用技能程式",
+          "description": "讓任一駕駛員學習技能程式。"
+        }
+      }
+    },
+    "TRP_MAGIC_CUSTOM": {
+      "translations": {
+        "english": {
+          "name": "Dogma Apprentice",
+          "description": "Achieve Grade 1 or higher in Magic Customization."
+        },
+        "japanese": {
+          "name": "ドグマ入門",
+          "description": "ＭａｇｉｃカスタマイズのＧＲＡＤＥを１以上にする。"
+        },
+        "koreana": {
+          "name": "도그마 입문",
+          "description": "Magic 커스터마이즈의 GRADE를 1이상으로 올린다."
+        },
+        "schinese": {
+          "name": "教条入门",
+          "description": "将Magic自订强化至GRADE1以上。"
+        },
+        "tchinese": {
+          "name": "教條入門",
+          "description": "將Ｍａｇｉｃ自訂強化至ＧＲＡＤＥ１以上。"
+        }
+      }
+    },
+    "TRP_USE_DOGMA": {
+      "translations": {
+        "english": {
+          "name": "Dogma Activate!",
+          "description": "Use the Individual Command Dogma."
+        },
+        "japanese": {
+          "name": "ドグマ発動",
+          "description": "個別コマンド「ドグマ」を使用する。"
+        },
+        "koreana": {
+          "name": "도그마 발동",
+          "description": "개별 커맨드「도그마」를 사용한다."
+        },
+        "schinese": {
+          "name": "教条发动",
+          "description": "使用个别指令「教条」。"
+        },
+        "tchinese": {
+          "name": "教條發動",
+          "description": "使用個別指令「教條」。"
+        }
+      }
+    },
+    "TRP_VAULT_SCENARIO": {
+      "translations": {
+        "english": {
+          "name": "Vault Scenario",
+          "description": "View a Vault Scenario."
+        },
+        "japanese": {
+          "name": "ファクトリーシナリオ",
+          "description": "ファクトリーシナリオを見る。"
+        },
+        "koreana": {
+          "name": "팩토리 시나리오",
+          "description": "팩토리 시나리오를 본다."
+        },
+        "schinese": {
+          "name": "工厂剧情",
+          "description": "观看工厂剧情。"
+        },
+        "tchinese": {
+          "name": "工廠劇情",
+          "description": "觀看工廠劇情。"
+        }
+      }
+    },
+    "TRP_VALOR_SOUL": {
+      "translations": {
+        "english": {
+          "name": "Fiery Spirit",
+          "description": "Any pilot uses Spirit Commands Valor and Soul simultaneously."
+        },
+        "japanese": {
+          "name": "燃え上がる熱き魂",
+          "description": "いずれかのパイロットに精神コマンド「熱血」と「魂」が同時にかかった状態にする。"
+        },
+        "koreana": {
+          "name": "불타오르는 뜨거운 혼",
+          "description": "한 명의 파일럿을 정신 커맨드「열혈」과 「혼」이 동시에 걸린 상태로 만든다."
+        },
+        "schinese": {
+          "name": "猛烈燃烧的热血之魂",
+          "description": "使任一驾驶员成为同时施加精神指令「热血」与「魂」的状态。"
+        },
+        "tchinese": {
+          "name": "猛烈燃燒的熱血之魂",
+          "description": "使任一駕駛員成為同時施加精神指令「熱血」與「魂」的狀態。"
+        }
+      }
+    },
+    "TRP_COUNTER_5_TIMES": {
+      "translations": {
+        "english": {
+          "name": "Counterpunches",
+          "description": "Retaliate with a Counter attribute weapon at least 5 times in one stage."
+        },
+        "japanese": {
+          "name": "カウンターパンチャー",
+          "description": "１ステージで武器種別「カウンター」の武器で５回以上反撃する。"
+        },
+        "koreana": {
+          "name": "카운터 펀처",
+          "description": "한 스테이지에서 무기 속성이「카운터」인 무기로 5회 이상 반격한다."
+        },
+        "schinese": {
+          "name": "还击高手",
+          "description": "于一个关卡中以武器类别「还击」的武器反击5次以上。"
+        },
+        "tchinese": {
+          "name": "還擊高手",
+          "description": "於一個關卡中以武器類別「還擊」的武器反擊５次以上。"
+        }
+      }
+    }
+  }
+}

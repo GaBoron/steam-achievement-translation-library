@@ -1,0 +1,1461 @@
+{
+  "version": 1,
+  "app_id": "614570",
+  "variant_id": "default",
+  "source_sha256": "8913e3b98112c3ad7a5ebdbcb9307e7b363e6018887b9aace93ef86aa070b332",
+  "languages": [
+    "brazilian",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish",
+    "tchinese"
+  ],
+  "achievements": {
+    "ACH_1": {
+      "translations": {
+        "brazilian": {
+          "name": "Salvo",
+          "description": "Salvou o assassino Daud"
+        },
+        "english": {
+          "name": "Uncaged",
+          "description": "Freed the assassin Daud"
+        },
+        "french": {
+          "name": "Déchaîné",
+          "description": "Vous avez libéré Daud l’assassin"
+        },
+        "german": {
+          "name": "Entfesselt",
+          "description": "Den Attentäter Daud befreit"
+        },
+        "italian": {
+          "name": "Scatenato",
+          "description": "Hai liberato l’assassino Daud"
+        },
+        "japanese": {
+          "name": "解放",
+          "description": "暗殺者ダウドを解放した"
+        },
+        "polish": {
+          "name": "Wyzwolony",
+          "description": "Uwolniono skrytobójcę Dauda"
+        },
+        "russian": {
+          "name": "Свобода",
+          "description": "Вы освободили ассасина Дауда"
+        },
+        "schinese": {
+          "name": "困兽出柙",
+          "description": "已救出刺客多德"
+        },
+        "spanish": {
+          "name": "Desenjaulado",
+          "description": "Has liberado al asesino Daud"
+        },
+        "tchinese": {
+          "name": "困獸出柙",
+          "description": "已救出刺客多德"
+        }
+      }
+    },
+    "ACH_2": {
+      "translations": {
+        "brazilian": {
+          "name": "Duas voltas",
+          "description": "Pegou as duas chaves do cofre do banco"
+        },
+        "english": {
+          "name": "Two Turns",
+          "description": "Took both bank vault keys"
+        },
+        "french": {
+          "name": "Double tour",
+          "description": "Vous avez récupéré les deux clés du coffre de la banque"
+        },
+        "german": {
+          "name": "Zweimal umdrehen",
+          "description": "Beide Tresorraum-Schlüssel genommen"
+        },
+        "italian": {
+          "name": "A doppia mandata",
+          "description": "Hai preso entrambe le chiavi del caveau"
+        },
+        "japanese": {
+          "name": "2つの鍵",
+          "description": "銀行の金庫室の鍵を2つとも入手した"
+        },
+        "polish": {
+          "name": "Komplet kluczy",
+          "description": "Zabrano oba klucze do skarbca bankowego"
+        },
+        "russian": {
+          "name": "Два поворота",
+          "description": "Вы забрали оба ключа от банковского хранилища"
+        },
+        "schinese": {
+          "name": "两全其美",
+          "description": "已将两把金库钥匙都弄到手"
+        },
+        "spanish": {
+          "name": "Doble vuelta",
+          "description": "Has cogido las dos llaves de la cámara del banco"
+        },
+        "tchinese": {
+          "name": "兩全其美",
+          "description": "已將兩把金庫鑰匙都弄到手"
+        }
+      }
+    },
+    "ACH_3": {
+      "translations": {
+        "brazilian": {
+          "name": "Faca de lâmina dupla",
+          "description": "Obteve uma arma antiga"
+        },
+        "english": {
+          "name": "Twin-bladed Knife",
+          "description": "Obtained an ancient weapon"
+        },
+        "french": {
+          "name": "Couteau à deux lames",
+          "description": "Vous avez obtenu une arme ancienne"
+        },
+        "german": {
+          "name": "Zwillingsmesser",
+          "description": "Eine uralte Waffe beschafft"
+        },
+        "italian": {
+          "name": "Pugnale a doppia lama",
+          "description": "Hai ottenuto un’arma antica"
+        },
+        "japanese": {
+          "name": "双刃のナイフ",
+          "description": "古代の武器を入手した"
+        },
+        "polish": {
+          "name": "Nóż o dwóch ostrzach",
+          "description": "Zdobyto prastarą broń"
+        },
+        "russian": {
+          "name": "Нож с двумя лезвиями",
+          "description": "Вы добыли древнее оружие"
+        },
+        "schinese": {
+          "name": "双刃刀",
+          "description": "已取得一款古老武器"
+        },
+        "spanish": {
+          "name": "Puñal de dos hojas",
+          "description": "Has conseguido un arma antigua"
+        },
+        "tchinese": {
+          "name": "雙刃刀",
+          "description": "已取得一款古老武器"
+        }
+      }
+    },
+    "ACH_4": {
+      "translations": {
+        "brazilian": {
+          "name": "Gnose",
+          "description": "Recuperou o arquivo roubado"
+        },
+        "english": {
+          "name": "Gnosis",
+          "description": "Recovered the stolen archive"
+        },
+        "french": {
+          "name": "Gnose",
+          "description": "Vous avez retrouvé l’archive volée"
+        },
+        "german": {
+          "name": "Gnosis",
+          "description": "Das gestohlene Archiv beschafft"
+        },
+        "italian": {
+          "name": "Gnosi",
+          "description": "Hai recuperato l’archivio rubato"
+        },
+        "japanese": {
+          "name": "霊知",
+          "description": "盗まれた記録文書を取り戻した"
+        },
+        "polish": {
+          "name": "Gnoza",
+          "description": "Odzyskano wykradzione archiwum"
+        },
+        "russian": {
+          "name": "Гнозис",
+          "description": "Вы нашли украденный архив"
+        },
+        "schinese": {
+          "name": "真知灼见",
+          "description": "已找回遭窃的档案"
+        },
+        "spanish": {
+          "name": "Gnosis",
+          "description": "Has recuperado el archivo robado"
+        },
+        "tchinese": {
+          "name": "真知灼見",
+          "description": "已找回遭竊的檔案"
+        }
+      }
+    },
+    "ACH_5": {
+      "translations": {
+        "brazilian": {
+          "name": "Olho Morto",
+          "description": "Tocou no Olho do Deus Morto"
+        },
+        "english": {
+          "name": "Dead Eye",
+          "description": "Touched the Eye of the Dead God"
+        },
+        "french": {
+          "name": "L’Œil de la mort",
+          "description": "Vous avez touché l’Œil du Dieu mort"
+        },
+        "german": {
+          "name": "Totes Auge",
+          "description": "Das Auge des Toten Gottes berührt"
+        },
+        "italian": {
+          "name": "Occhio spento",
+          "description": "Hai toccato l’Occhio della Divinità Morta"
+        },
+        "japanese": {
+          "name": "デッドアイ",
+          "description": "死せる神の目に触れた"
+        },
+        "polish": {
+          "name": "Martwe oko",
+          "description": "Dotknięto Oka Martwego Boga"
+        },
+        "russian": {
+          "name": "В яблочко",
+          "description": "Вы коснулись Ока Мертвого бога"
+        },
+        "schinese": {
+          "name": "旧日神眼",
+          "description": "已触碰旧日神的神眼"
+        },
+        "spanish": {
+          "name": "El Ojo del Muerto",
+          "description": "Has tocado el Ojo del Dios Muerto"
+        },
+        "tchinese": {
+          "name": "舊日神眼",
+          "description": "已觸碰舊日神的神眼"
+        }
+      }
+    },
+    "ACH_6": {
+      "translations": {
+        "brazilian": {
+          "name": "Libertação final",
+          "description": "Mandou o Estranho de volta ao mundo mortal"
+        },
+        "english": {
+          "name": "Final Release",
+          "description": "Returned the Outsider to the mortal world"
+        },
+        "french": {
+          "name": "Libération définitive",
+          "description": "Vous avez ramené l’Outsider dans le monde des mortels"
+        },
+        "german": {
+          "name": "Endlich frei",
+          "description": "Den Outsider zurück in die Welt der Sterblichen gebracht"
+        },
+        "italian": {
+          "name": "Liberazione finale",
+          "description": "Hai riportato l’Esterno nel mondo mortale"
+        },
+        "japanese": {
+          "name": "最後の解放",
+          "description": "アウトサイダーをこの世に戻した"
+        },
+        "polish": {
+          "name": "Ostateczne uwolnienie",
+          "description": "Przeniesiono Odmieńca do świata śmiertelników"
+        },
+        "russian": {
+          "name": "Последнее освобождение",
+          "description": "Вы вернули Чужого в мир смертных"
+        },
+        "schinese": {
+          "name": "最终解脱",
+          "description": "已让界外魔重回人间"
+        },
+        "spanish": {
+          "name": "Liberación final",
+          "description": "Has devuelto al Forastero al mundo de los mortales"
+        },
+        "tchinese": {
+          "name": "最終解脫",
+          "description": "已讓界外魔重回人間"
+        }
+      }
+    },
+    "ACH_7": {
+      "translations": {
+        "brazilian": {
+          "name": "Deicídio",
+          "description": "Matou o Estranho"
+        },
+        "english": {
+          "name": "Deicide",
+          "description": "Killed the Outsider"
+        },
+        "french": {
+          "name": "Déicide",
+          "description": "Vous avez tué l’Outsider"
+        },
+        "german": {
+          "name": "Gottesmord",
+          "description": "Den Outsider getötet"
+        },
+        "italian": {
+          "name": "Deicidio",
+          "description": "Hai ucciso l’Esterno"
+        },
+        "japanese": {
+          "name": "決断",
+          "description": "アウトサイダーを始末した"
+        },
+        "polish": {
+          "name": "Bogobójstwo",
+          "description": "Zabito Odmieńca"
+        },
+        "russian": {
+          "name": "Бог умер",
+          "description": "Вы убили Чужого"
+        },
+        "schinese": {
+          "name": "弑神",
+          "description": "已除掉界外魔"
+        },
+        "spanish": {
+          "name": "Deicida",
+          "description": "Has matado al Forastero"
+        },
+        "tchinese": {
+          "name": "弒神",
+          "description": "已除掉界外魔"
+        }
+      }
+    },
+    "ACH_8": {
+      "translations": {
+        "brazilian": {
+          "name": "Cabelos dourados",
+          "description": "Roubou o audiógrafo da galeria sem desativar o andar de segurança"
+        },
+        "english": {
+          "name": "Golden Locks",
+          "description": "Stole the audiograph from the gallery without disabling the safeguard floor"
+        },
+        "french": {
+          "name": "Boucles d’or",
+          "description": "Vous avez volé l’audiographe dans la galerie sans désactiver la sécurité au sol"
+        },
+        "german": {
+          "name": "Goldenes Haar",
+          "description": "Die Audiographie aus der Galerie gestohlen, ohne den Sicherheitsboden zu deaktivieren"
+        },
+        "italian": {
+          "name": "Riccioli biondi",
+          "description": "Hai rubato l’audiografo dalla galleria senza disattivare il pavimento elettrificato"
+        },
+        "japanese": {
+          "name": "黄金錠",
+          "description": "床の防犯装置を停止させずにギャラリーからオーディオグラフを盗んだ"
+        },
+        "polish": {
+          "name": "Złote loki",
+          "description": "Wykradziono audiograf z galerii, nie wyłączając podłogi ochronnej"
+        },
+        "russian": {
+          "name": "Косы Глорианы",
+          "description": "Вы украли аудиограмму из галереи, не отключая системы безопасности, встроенные в пол"
+        },
+        "schinese": {
+          "name": "金发之歌",
+          "description": "已在未关闭保全通电地板的状态下，从陈列室偷走声谱"
+        },
+        "spanish": {
+          "name": "Rizos de oro",
+          "description": "Has robado el audiógrafo de la galería sin desactivar el suelo de la caja de caudales"
+        },
+        "tchinese": {
+          "name": "金髮之歌",
+          "description": "已在未關閉保全通電地板的狀態下，從陳列室偷走聲譜"
+        }
+      }
+    },
+    "ACH_9": {
+      "translations": {
+        "brazilian": {
+          "name": "Rouxinol",
+          "description": "Usou Semelhança para imitar Shan Yun e cantou no microfone"
+        },
+        "english": {
+          "name": "Nightingale",
+          "description": "Used Semblance to mimic Shan Yun and sing into the microphone"
+        },
+        "french": {
+          "name": "Rossignol",
+          "description": "Vous avez utilisé Semblance pour prendre l’apparence de Shan Yun et pousser la chansonnette"
+        },
+        "german": {
+          "name": "Nachtigall",
+          "description": "Trugbild verwendet, um dich als Shan Yun auszugeben und ins Mikrofon zu singen"
+        },
+        "italian": {
+          "name": "Usignolo",
+          "description": "Hai usato Somiglianza per imitare Shan Yun e hai cantato al microfono"
+        },
+        "japanese": {
+          "name": "美声の歌手",
+          "description": "センブランスでシャン・ユンに変装してマイクに向かって歌った"
+        },
+        "polish": {
+          "name": "Słowik",
+          "description": "Użyto podobieństwa, by stać się Shan Yunem i zaśpiewać do mikrofonu"
+        },
+        "russian": {
+          "name": "Соловей",
+          "description": "Вы приняли облик Шань Юня с помощью Сходства и спели в микрофон"
+        },
+        "schinese": {
+          "name": "黄雀出谷",
+          "description": "已用盗貌冒充单云，对麦克风唱歌"
+        },
+        "spanish": {
+          "name": "Ruiseñor",
+          "description": "Has usado Semblanza para imitar a Shan Yun y cantar ante el micrófono"
+        },
+        "tchinese": {
+          "name": "黃雀出谷",
+          "description": "已用盜貌冒充單雲，對麥克風唱歌"
+        }
+      }
+    },
+    "ACH_10": {
+      "translations": {
+        "brazilian": {
+          "name": "Humilhação pública",
+          "description": "Largou Ivan Jacobi pelo alçapão"
+        },
+        "english": {
+          "name": "Public Shaming",
+          "description": "Dropped Ivan Jacobi through the trapdoor"
+        },
+        "french": {
+          "name": "Humiliation publique",
+          "description": "Vous avez fait tomber Ivan Jacobi par la trappe"
+        },
+        "german": {
+          "name": "Öffentliche Schande",
+          "description": "Ivan Jacobi durch die Falltür stürzen gelassen"
+        },
+        "italian": {
+          "name": "Pubblica vergogna",
+          "description": "Hai fatto cadere Ivan Jacobi nella botola"
+        },
+        "japanese": {
+          "name": "赤っ恥",
+          "description": "イヴァン・ジャコビを落とし戸で落とした"
+        },
+        "polish": {
+          "name": "Publiczne ośmieszenie",
+          "description": "Zrzucono Ivana Jacobiego przez klapę"
+        },
+        "russian": {
+          "name": "Общественное порицание",
+          "description": "Вы сбросили Айвена Якоби в люк"
+        },
+        "schinese": {
+          "name": "公然羞辱",
+          "description": "已让依凡．贾柯比掉入暗门"
+        },
+        "spanish": {
+          "name": "Escarnio público",
+          "description": "Has tirado a Ivan Jacobi por la trampilla"
+        },
+        "tchinese": {
+          "name": "公然羞辱",
+          "description": "已讓依凡．賈柯比掉入暗門"
+        }
+      }
+    },
+    "ACH_11": {
+      "translations": {
+        "brazilian": {
+          "name": "Grande jogador",
+          "description": "Venceu o leilão no Colibron Plaza"
+        },
+        "english": {
+          "name": "Big-time Player",
+          "description": "Won the auction at Colibron Plaza"
+        },
+        "french": {
+          "name": "Pas assez cher, mon fils",
+          "description": "Vous avez gagné l’enchère à Colibron Plaza"
+        },
+        "german": {
+          "name": "Fetter Gewinn",
+          "description": "Die Auktion auf dem Colibron Plaza gewonnen"
+        },
+        "italian": {
+          "name": "Giocatore di successo",
+          "description": "Hai vinto l’asta a Colibron Plaza"
+        },
+        "japanese": {
+          "name": "一流プレイヤー",
+          "description": "コリブロン広場の競売で勝利した"
+        },
+        "polish": {
+          "name": "Poważny gracz",
+          "description": "Wygrano aukcję na placu Colibron"
+        },
+        "russian": {
+          "name": "Крупный игрок",
+          "description": "Вы выиграли аукцион на Колиброн-плаза"
+        },
+        "schinese": {
+          "name": "大户出手",
+          "description": "已在科里布朗广场拍卖会上赢得竞标"
+        },
+        "spanish": {
+          "name": "As de las subastas",
+          "description": "Ha ganado la puja en Colibron Plaza"
+        },
+        "tchinese": {
+          "name": "大戶出手",
+          "description": "已在科里布朗廣場拍賣會上贏得競標"
+        }
+      }
+    },
+    "ACH_12": {
+      "translations": {
+        "brazilian": {
+          "name": "Arrombador de cofres obsessivo",
+          "description": "Abriu todos os cofres dentro do cofre principal"
+        },
+        "english": {
+          "name": "Obsessive Safe-cracker",
+          "description": "Opened every safe inside the main vault"
+        },
+        "french": {
+          "name": "Cambrioleuse obsessionnelle",
+          "description": "Vous avez ouvert tous les coffres de la chambre forte principale"
+        },
+        "german": {
+          "name": "Tresorleidenschaft",
+          "description": "Alle Tresore im Haupttresorraum geöffnet"
+        },
+        "italian": {
+          "name": "Scassinatore ossessivo",
+          "description": "Hai aperto tutte le casseforti nel caveau"
+        },
+        "japanese": {
+          "name": "金庫破りへの執着心",
+          "description": "大金庫室の中にある金庫を全て開けた"
+        },
+        "polish": {
+          "name": "Włamy obsesyjno-kopmulsywne",
+          "description": "Otworzono wszystkie sejfy w głównym skarbcu"
+        },
+        "russian": {
+          "name": "Медвежатник-перфекционист",
+          "description": "Вы открыли все сейфы в главном хранилище"
+        },
+        "schinese": {
+          "name": "开锁成瘾",
+          "description": "已打开主金库里的所有保险箱"
+        },
+        "spanish": {
+          "name": "Revientacajas compulsivo",
+          "description": "Has abierto todas las cajas fuertes de la cámara principal"
+        },
+        "tchinese": {
+          "name": "開鎖成癮",
+          "description": "已打開主金庫裡的所有保險箱"
+        }
+      }
+    },
+    "ACH_13": {
+      "translations": {
+        "brazilian": {
+          "name": "O crime perfeito",
+          "description": "Limpou o cofre sem alterar os sistemas de segurança, sem ferir ninguém e adormentando todo mundo"
+        },
+        "english": {
+          "name": "The Perfect Crime",
+          "description": "Emptied the vault without tampering with any security systems, leaving everyone unharmed and asleep"
+        },
+        "french": {
+          "name": "Le crime parfait",
+          "description": "Vous avez vidé la chambre forte sans toucher au système de sécurité ni blesser le personnel endormi"
+        },
+        "german": {
+          "name": "Das perfekte Verbrechen",
+          "description": "Den Tresor ausgeraubt, ohne Schutzsysteme zu manipulieren, jemanden zu verletzen oder aufzuwecken"
+        },
+        "italian": {
+          "name": "Il crimine perfetto",
+          "description": "Hai ripulito il caveau senza manomettere i sistemi di sicurezza, addormentando tutti e non ferendoli"
+        },
+        "japanese": {
+          "name": "完全犯罪",
+          "description": "敵に危害を加えずに眠らせて、保安装置に干渉することなく金庫室を空にした"
+        },
+        "polish": {
+          "name": "Przestępstwo doskonałe",
+          "description": "Opróżniono skarbiec bez majstrowania przy systemach ochrony, nie krzywdząc ani nie budząc nikogo"
+        },
+        "russian": {
+          "name": "Идеальное преступление",
+          "description": "Вы обчистили хранилище, не взламывая систему безопасности и не причиняя никому вреда"
+        },
+        "schinese": {
+          "name": "完美罪案",
+          "description": "已在没有操弄任何安全系统、所有人毫发无伤并陷入昏睡的状态下，将金库洗劫一空"
+        },
+        "spanish": {
+          "name": "El crimen perfecto",
+          "description": "Has vaciado la cámara sin manipular los sistemas de seguridad y dejando a todos ilesos y dormidos"
+        },
+        "tchinese": {
+          "name": "完美罪案",
+          "description": "已在沒有操弄任何安全系統、所有人毫髮無傷並陷入昏睡的狀態下，將金庫洗劫一空"
+        }
+      }
+    },
+    "ACH_14": {
+      "translations": {
+        "brazilian": {
+          "name": "Penetra",
+          "description": "Fez o cofre desmoronar pelo chão"
+        },
+        "english": {
+          "name": "Party Crasher",
+          "description": "Sent the vault crashing through the floor"
+        },
+        "french": {
+          "name": "Trouble-fête",
+          "description": "Vous avez fait tomber le coffre à travers le sol"
+        },
+        "german": {
+          "name": "Ein Kracher",
+          "description": "Den Haupttresor durch den Fußboden stürzen gelassen"
+        },
+        "italian": {
+          "name": "Guastafeste",
+          "description": "Hai fatto schiantare il caveau sul pavimento"
+        },
+        "japanese": {
+          "name": "パーティークラッシャー",
+          "description": "金庫室で床を突き破った"
+        },
+        "polish": {
+          "name": "Przebitka",
+          "description": "Zrzucono skarbiec tak, że przebił się przez podłogę"
+        },
+        "russian": {
+          "name": "Вдребезги",
+          "description": "Вы сделали так, чтобы хранилище провалилось под пол"
+        },
+        "schinese": {
+          "name": "派对破坏王",
+          "description": "已让金库撞破地板"
+        },
+        "spanish": {
+          "name": "Aguafiestas",
+          "description": "Has atravesado el suelo con la cámara"
+        },
+        "tchinese": {
+          "name": "派對破壞王",
+          "description": "已讓金庫撞破地板"
+        }
+      }
+    },
+    "ACH_15": {
+      "translations": {
+        "brazilian": {
+          "name": "O rosto da Abadia",
+          "description": "Participou da reunião como o irmão Cardoza"
+        },
+        "english": {
+          "name": "The Face of the Abbey",
+          "description": "Attended the meeting as Brother Cardoza"
+        },
+        "french": {
+          "name": "L’abbé sourit",
+          "description": "Vous avez assisté à la réunion en tant que Frère Cardoza"
+        },
+        "german": {
+          "name": "Das Gesicht des Ordens",
+          "description": "Als Bruder Cardoza am Treffen teilgenommen"
+        },
+        "italian": {
+          "name": "Il volto dell’Abbazia",
+          "description": "Hai partecipato alla riunione nei panni di Fratello Cardoza"
+        },
+        "japanese": {
+          "name": "大修道院の顔",
+          "description": "カルドーザ修道士に変装して会合に出席した"
+        },
+        "polish": {
+          "name": "Twarz Kongregacji",
+          "description": "Wzięto udział w spotkaniu jako brat Cardoza"
+        },
+        "russian": {
+          "name": "Лицо Аббатства",
+          "description": "Вы побывали на встрече в обличье брата Кардозы"
+        },
+        "schinese": {
+          "name": "众生院代言人",
+          "description": "已冒充卡多扎兄弟参加会议"
+        },
+        "spanish": {
+          "name": "La cara de la abadía",
+          "description": "Has asistido a la reunión haciéndote pasar por el hermano Cardoza"
+        },
+        "tchinese": {
+          "name": "眾生院代言人",
+          "description": "已冒充卡多扎兄弟參加會議"
+        }
+      }
+    },
+    "ACH_16": {
+      "translations": {
+        "brazilian": {
+          "name": "Vozes",
+          "description": "Quebrou 4 incensários do Oraculum e ouviu as profecias"
+        },
+        "english": {
+          "name": "Voices",
+          "description": "Broke 4 Oraculum censers and listened to the prophecies"
+        },
+        "french": {
+          "name": "Voix sans issue",
+          "description": "Vous avez détruit 4 encensoirs de l’Oraculum et écouté les prophéties"
+        },
+        "german": {
+          "name": "Stimmen",
+          "description": "5 Oraculum-Gefäße zerbrochen und die Prophezeiungen angehört"
+        },
+        "italian": {
+          "name": "Voci",
+          "description": "Hai rotto 4 turiboli dell’Oraculum e hai ascoltato le profezie"
+        },
+        "japanese": {
+          "name": "声",
+          "description": "オラキュラムの香炉を4個破壊して予言を聞いた"
+        },
+        "polish": {
+          "name": "Głosy",
+          "description": "Rozbito 4 kadzielnice Oraculum i wysłuchano przepowiedni"
+        },
+        "russian": {
+          "name": "Голоса",
+          "description": "Вы сломали 4 кадильницы перед Оракулом и прослушали пророчества"
+        },
+        "schinese": {
+          "name": "魔音传脑",
+          "description": "已击破 4 个神谕香炉并听取预言"
+        },
+        "spanish": {
+          "name": "Voces",
+          "description": "Has roto 4 incensarios del Oraculum y has escuchado las profecías"
+        },
+        "tchinese": {
+          "name": "魔音傳腦",
+          "description": "已擊破 4 個神諭香爐並聽取預言"
+        }
+      }
+    },
+    "ACH_17": {
+      "translations": {
+        "brazilian": {
+          "name": "Mais duro que pedra",
+          "description": "Destruiu um cultista Visionado"
+        },
+        "english": {
+          "name": "Harder than Stone",
+          "description": "Destroyed an Envisioned cultist"
+        },
+        "french": {
+          "name": "Solide comme un roc",
+          "description": "Vous avez éliminé un membre de la secte des Visionnaires"
+        },
+        "german": {
+          "name": "Härter als Stein",
+          "description": "Einen steinernen Kultisten zerstört"
+        },
+        "italian": {
+          "name": "Più duro della roccia",
+          "description": "Hai distrutto un cultista Veggente"
+        },
+        "japanese": {
+          "name": "石よりも固く",
+          "description": "エンビジョン・カルティストを倒した"
+        },
+        "polish": {
+          "name": "Twardszy niż kamień",
+          "description": "Zniszczono jednego z oświeconych członków kultu"
+        },
+        "russian": {
+          "name": "Тверже камня",
+          "description": "Вы уничтожили Провидца"
+        },
+        "schinese": {
+          "name": "坚硬胜石",
+          "description": "已歼灭一名邪教预视使徒"
+        },
+        "spanish": {
+          "name": "Más duro que una piedra",
+          "description": "Has acabado con un sectario de los Imaginados"
+        },
+        "tchinese": {
+          "name": "堅硬勝石",
+          "description": "已殲滅一名邪教預視使徒"
+        }
+      }
+    },
+    "ACH_18": {
+      "translations": {
+        "brazilian": {
+          "name": "Empurrão final",
+          "description": "Empurrou um inimigo para a morte usando Golpe do Vazio"
+        },
+        "english": {
+          "name": "Final Nudge",
+          "description": "Pushed an enemy to his demise using Void Strike"
+        },
+        "french": {
+          "name": "L’important, c’est pas la chute",
+          "description": "Vous avez poussé un ennemi vers une mort certaine avec Frappe du Vide"
+        },
+        "german": {
+          "name": "Ein kleiner Schubs",
+          "description": "Einen Gegner mit Schlag des Nichts in den Tod gestoßen"
+        },
+        "italian": {
+          "name": "L’ultima spinta",
+          "description": "Hai spinto un nemico verso la sua fine usando Colpo dell’Oblio"
+        },
+        "japanese": {
+          "name": "とどめの一撃",
+          "description": "虚無の一撃で敵を倒した"
+        },
+        "polish": {
+          "name": "Strącenie",
+          "description": "Zepchnięto przeciwnika w przepaść uderzeniem Pustki"
+        },
+        "russian": {
+          "name": "Последнее усилие",
+          "description": "Вы подтолкнули врага к гибели с помощью “Удары Бездны”"
+        },
+        "schinese": {
+          "name": "推他一把",
+          "description": "已运用虚空之境强袭的推力，使敌人坠落死亡"
+        },
+        "spanish": {
+          "name": "El empujoncito final",
+          "description": "Has matado a un enemigo empujándolo con Golpe del Vacío"
+        },
+        "tchinese": {
+          "name": "推他一把",
+          "description": "已運用虛空之境強襲的推力，使敵人墜落死亡"
+        }
+      }
+    },
+    "ACH_19": {
+      "translations": {
+        "brazilian": {
+          "name": "Enganchado",
+          "description": "Fez alguém voar por 40 metros usando minas de gancho"
+        },
+        "english": {
+          "name": "Hooked",
+          "description": "Sent someone flying 40 meters using Hook Mines"
+        },
+        "french": {
+          "name": "Et ils appellent ça une mine !",
+          "description": "Vous avez projeté quelqu’un sur 40 mètres avec une mine grappin"
+        },
+        "german": {
+          "name": "Am Haken",
+          "description": "Jemanden mit Hakenminen 40 Meter durch die Luft geschleudert"
+        },
+        "italian": {
+          "name": "Agganciamento",
+          "description": "Hai fatto volare qualcuno per 40 metri usando le Mine a gancio"
+        },
+        "japanese": {
+          "name": "捕獲",
+          "description": "フックマインを使って相手を40メートル飛ばした"
+        },
+        "polish": {
+          "name": "Połknął haczyk",
+          "description": "Za pomocą min hakowych posłano kogoś w 40-metrowy lot"
+        },
+        "russian": {
+          "name": "На крючке",
+          "description": "Вы отправили кого-то в полет на 40 м с помощью цепких мин"
+        },
+        "schinese": {
+          "name": "愿者上钩",
+          "description": "已用钩子雷拖行一人 40 公尺"
+        },
+        "spanish": {
+          "name": "Enganchado",
+          "description": "Has enviado a alguien 40 metros por el aire usando minas de garfio"
+        },
+        "tchinese": {
+          "name": "願者上鉤",
+          "description": "已用鉤子雷拖行一人 40 公尺"
+        }
+      }
+    },
+    "ACH_20": {
+      "translations": {
+        "brazilian": {
+          "name": "Mais poderosa que a espada",
+          "description": "Atirou na cabeça de um guarda com uma caneta tinteiro"
+        },
+        "english": {
+          "name": "Mightier than the Sword",
+          "description": "Shot a guard in the head with a fountain pen"
+        },
+        "french": {
+          "name": "La plume est plus forte que l’épée",
+          "description": "Vous avez tiré un stylo-plume dans la tête d’un garde"
+        },
+        "german": {
+          "name": "Mächtiger als das Schwert",
+          "description": "Einer Wache mit einem Füllfederhalter in den Kopf geschossen"
+        },
+        "italian": {
+          "name": "Ne ferisce più la penna",
+          "description": "Hai colpito a una guardia alla testa con una penna stilografica"
+        },
+        "japanese": {
+          "name": "剣よりも強し",
+          "description": "万年筆を衛兵の頭に命中させた"
+        },
+        "polish": {
+          "name": "Ciężkie pióro",
+          "description": "Strzelono strażnikowi w głowę wiecznym piórem"
+        },
+        "russian": {
+          "name": "Перо сильнее меча",
+          "description": "Вы выстрелили стражнику в голову ручкой"
+        },
+        "schinese": {
+          "name": "锋利胜剑",
+          "description": "已用自来水笔击中一名守卫头部"
+        },
+        "spanish": {
+          "name": "Más poderosa que la espada",
+          "description": "Le has disparado a un guarda en la cabeza con una pluma estilográfica"
+        },
+        "tchinese": {
+          "name": "鋒利勝劍",
+          "description": "已用自來水筆擊中一名守衛頭部"
+        }
+      }
+    },
+    "ACH_21": {
+      "translations": {
+        "brazilian": {
+          "name": "Planejamento inteligente",
+          "description": "Usou Deslocamento em um marcador posicionado com Previsão e eliminou um alvo"
+        },
+        "english": {
+          "name": "Clever Planning",
+          "description": "Used Displace on a marker placed with Foresight and eliminated a target"
+        },
+        "french": {
+          "name": "Planification ingénieuse",
+          "description": "Vous avez utilisé Transfert sur un marqueur placé avec Prescience pour éliminer une cible"
+        },
+        "german": {
+          "name": "Clevere Planung",
+          "description": "Platztausch auf eine mit Weitblick platzierte Markierung gewirkt und ein Ziel eliminiert"
+        },
+        "italian": {
+          "name": "Accurata pianificazione",
+          "description": "Hai usato Dislocazione su un segnalatore posizionato con Preveggenza ed eliminato un bersaglio"
+        },
+        "japanese": {
+          "name": "賢明な計画",
+          "description": "フォアサイトでマーカーをつけたターゲットをディスプレイスで始末した"
+        },
+        "polish": {
+          "name": "Sprytny plan",
+          "description": "Użyto przeniesienia na umieszczonym za pomocą wejrzenia znaczniku i wyeliminowano przeciwnika"
+        },
+        "russian": {
+          "name": "Хитрый план",
+          "description": "Вы установили метку с помощью Предвидения, отправились к ней с помощью Перемещения и убили цель"
+        },
+        "schinese": {
+          "name": "巧妙规划",
+          "description": "已对前瞻标记施展易位，消灭一名目标"
+        },
+        "spanish": {
+          "name": "Buena planificación",
+          "description": "Has usado Desplazar en un marcador colocado con Presagio y has eliminado a un objetivo"
+        },
+        "tchinese": {
+          "name": "巧妙規劃",
+          "description": "已對前瞻標記施展易位，消滅一名目標"
+        }
+      }
+    },
+    "ACH_22": {
+      "translations": {
+        "brazilian": {
+          "name": "Saudações!",
+          "description": "Recebeu o cumprimento de um guarda"
+        },
+        "english": {
+          "name": "Salute!",
+          "description": "Had a guard salute you"
+        },
+        "french": {
+          "name": "Salut !",
+          "description": "Vous vous êtes fait saluer par un garde"
+        },
+        "german": {
+          "name": "Achtung!",
+          "description": "Eine Wache vor dir salutieren gelassen"
+        },
+        "italian": {
+          "name": "Saluto",
+          "description": "Una guardia ti ha fatto il saluto"
+        },
+        "japanese": {
+          "name": "敬礼！",
+          "description": "衛兵に敬礼させた"
+        },
+        "polish": {
+          "name": "Salut!",
+          "description": "Uzyskano salut od strażnika"
+        },
+        "russian": {
+          "name": "Честь имею!",
+          "description": "Вы заставили стражника отдать вам честь"
+        },
+        "schinese": {
+          "name": "敬礼！",
+          "description": "已让一名守卫对你敬礼"
+        },
+        "spanish": {
+          "name": "¡Saludos!",
+          "description": "Has hecho que un guarda te salude"
+        },
+        "tchinese": {
+          "name": "敬禮！",
+          "description": "已讓一名守衛對你敬禮"
+        }
+      }
+    },
+    "ACH_23": {
+      "translations": {
+        "brazilian": {
+          "name": "Encantador de ratos",
+          "description": "Escutou 5 vezes o que grupos de ratos tinham a dizer"
+        },
+        "english": {
+          "name": "Rat Whisperer",
+          "description": "Listened to what swarms of rats have to say 5 times"
+        },
+        "french": {
+          "name": "La femme qui murmurait à l’oreille des rats",
+          "description": "Vous avez écouté ce que les hordes de rats ont à dire 5 fois"
+        },
+        "german": {
+          "name": "Rattenflüsterin",
+          "description": "5-mal dem Geflüster von Rattensippen zugehört"
+        },
+        "italian": {
+          "name": "La donna che sussurrava ai ratti",
+          "description": "Hai ascoltato cosa avevano da dire i branchi di ratti per 5 volte"
+        },
+        "japanese": {
+          "name": "ネズミの囁き",
+          "description": "ネズミの囁きを5回聞いた"
+        },
+        "polish": {
+          "name": "Szczury i ludzie",
+          "description": "Posłuchano 5 razy, co mają do powiedzenia stada szczurów"
+        },
+        "russian": {
+          "name": "Говорящая с крысами",
+          "description": "Вы послушали пять крысиных разговоров"
+        },
+        "schinese": {
+          "name": "鼠语人",
+          "description": "已聆听鼠群对话 5 次"
+        },
+        "spanish": {
+          "name": "El que susurra a las ratas",
+          "description": "Has escuchado 5 veces lo que los grupos de ratas tenían que decirte"
+        },
+        "tchinese": {
+          "name": "鼠語人",
+          "description": "已聆聽鼠群對話 5 次"
+        }
+      }
+    },
+    "ACH_24": {
+      "translations": {
+        "brazilian": {
+          "name": "Sombra",
+          "description": "Completou o jogo sem alertar ninguém"
+        },
+        "english": {
+          "name": "Shadow",
+          "description": "Finished the game without being detected"
+        },
+        "french": {
+          "name": "Ombre",
+          "description": "Vous avez terminé le jeu sans vous faire repérer"
+        },
+        "german": {
+          "name": "Schatten",
+          "description": "Spiel abgeschlossen, ohne entdeckt zu werden"
+        },
+        "italian": {
+          "name": "Ombra",
+          "description": "Hai finito il gioco senza farti individuare"
+        },
+        "japanese": {
+          "name": "影に生きる者",
+          "description": "見つかることなくゲームをクリアした"
+        },
+        "polish": {
+          "name": "Cień",
+          "description": "Ukończono grę, nie dając się wykryć"
+        },
+        "russian": {
+          "name": "Тень",
+          "description": "Вас ни разу не заметили за всю игру"
+        },
+        "schinese": {
+          "name": "暗影",
+          "description": "已在没被发现的状态下完成游戏"
+        },
+        "spanish": {
+          "name": "Sombra",
+          "description": "Has completado el juego sin que te detectaran"
+        },
+        "tchinese": {
+          "name": "暗影",
+          "description": "已在沒被發現的狀態下完成遊戲"
+        }
+      }
+    },
+    "ACH_25": {
+      "translations": {
+        "brazilian": {
+          "name": "Agente de piedade",
+          "description": "Terminou uma missão sem matar ninguém"
+        },
+        "english": {
+          "name": "Agent of Mercy",
+          "description": "Finished a mission without killing anyone"
+        },
+        "french": {
+          "name": "Ne suis-je pas d’une grande clémence ?",
+          "description": "Vous avez terminé une mission sans tuer personne"
+        },
+        "german": {
+          "name": "Ein Akt der Gnade",
+          "description": "Eine Mission abgeschlossen, ohne jemanden zu töten"
+        },
+        "italian": {
+          "name": "Agente misericordioso",
+          "description": "Hai finito una missione senza uccidere nessuno"
+        },
+        "japanese": {
+          "name": "慈悲深き暗殺者",
+          "description": "誰も殺さずにミッションをクリアした"
+        },
+        "polish": {
+          "name": "Agentka miłosierdzia",
+          "description": "Ukończono misję, nikogo nie zabijając"
+        },
+        "russian": {
+          "name": "Ангел милосердия",
+          "description": "Вы выполнили задание, никого не убив"
+        },
+        "schinese": {
+          "name": "慈悲为怀",
+          "description": "已在不杀人的状态下完成一项任务"
+        },
+        "spanish": {
+          "name": "Adalid de la piedad",
+          "description": "Has terminado una misión sin matar a nadie"
+        },
+        "tchinese": {
+          "name": "慈悲為懷",
+          "description": "已在不殺人的狀態下完成一項任務"
+        }
+      }
+    },
+    "ACH_26": {
+      "translations": {
+        "brazilian": {
+          "name": "Bons e velhos tempos",
+          "description": "Terminou o jogo original +"
+        },
+        "english": {
+          "name": "Good Old Times",
+          "description": "Finished the Original Game+"
+        },
+        "french": {
+          "name": "Comme au bon vieux temps",
+          "description": "Vous avez terminé le jeu original +"
+        },
+        "german": {
+          "name": "Gute alte Zeiten",
+          "description": "Neue Kräfte+ durchgespielt"
+        },
+        "italian": {
+          "name": "Bei vecchi tempi",
+          "description": "Hai finito una Partita Originale+"
+        },
+        "japanese": {
+          "name": "古き良き時代",
+          "description": "Original Game+をクリアした"
+        },
+        "polish": {
+          "name": "Stare dobre czasy",
+          "description": "Ukończono podstawową wersję gry+"
+        },
+        "russian": {
+          "name": "Как в старые добрые времена",
+          "description": "Вы прошли оригинальную игру +"
+        },
+        "schinese": {
+          "name": "怀旧时光",
+          "description": "已完成「原版游戏+」"
+        },
+        "spanish": {
+          "name": "Por los viejos tiempos",
+          "description": "Has terminado el Juego original +"
+        },
+        "tchinese": {
+          "name": "懷舊時光",
+          "description": "已完成「原版遊戲+」"
+        }
+      }
+    },
+    "ACH_27": {
+      "translations": {
+        "brazilian": {
+          "name": "Efeitos colaterais",
+          "description": "Fez 3 Desolhados vomitarem usando uma garrafa de Espírito Atormentado"
+        },
+        "english": {
+          "name": "Side Effects",
+          "description": "Made 3 people vomit using a single bottle of Plagued Spirit"
+        },
+        "french": {
+          "name": "Effets secondaires",
+          "description": "Vous avez fait vomir 3 personnes en utilisant une seule bouteille de Peste"
+        },
+        "german": {
+          "name": "Nebenwirkungen",
+          "description": "4 Leute mit einer einzigen Flasche Seuchengeist dazu gebracht, sich zu erbrechen"
+        },
+        "italian": {
+          "name": "Effetti collaterali",
+          "description": "Hai fatto vomitare 3 persone usando una sola bottiglia di grappa di ratto"
+        },
+        "japanese": {
+          "name": "副作用",
+          "description": "1本のラットスピリッツで3人嘔吐させた"
+        },
+        "polish": {
+          "name": "Efekty uboczne",
+          "description": "Jedną butelką Umęczonego Ducha spowodowano torsje u 3 osób"
+        },
+        "russian": {
+          "name": "Побочные эффекты",
+          "description": "Вы вызвали рвоту у троих человек с помощью одной бутылки “Дыхания чумы”"
+        },
+        "schinese": {
+          "name": "副作用",
+          "description": "已用单一瓶瘟疫酒引发 3 个人呕吐"
+        },
+        "spanish": {
+          "name": "Efectos secundarios",
+          "description": "Has hecho que 3 personas vomiten usando una sola botella de licor de la plaga"
+        },
+        "tchinese": {
+          "name": "副作用",
+          "description": "已用單一瓶瘟疫酒引發 3 個人嘔吐"
+        }
+      }
+    },
+    "ACH_28": {
+      "translations": {
+        "brazilian": {
+          "name": "Risco ocupacional",
+          "description": "Fez um inimigo explodir em pedacinhos usando Deslocamento"
+        },
+        "english": {
+          "name": "Occupational Hazard",
+          "description": "Made an enemy explode into pieces using Displace"
+        },
+        "french": {
+          "name": "Les risques du métier",
+          "description": "Vous avez fait exploser un ennemi en morceaux en utilisant Transfert"
+        },
+        "german": {
+          "name": "Berufsrisiko",
+          "description": "Einen Gegner mit Platztausch in Stücke gerissen"
+        },
+        "italian": {
+          "name": "Pericoli del mestiere",
+          "description": "Hai fatto esplodere un nemico usando Dislocazione"
+        },
+        "japanese": {
+          "name": "労働災害",
+          "description": "ディスプレイスで敵を木端微塵に爆発させた"
+        },
+        "polish": {
+          "name": "Ryzyko zawodowe",
+          "description": "Używając przeniesienia, sprawiono, że przeciwnik rozpadł się na kawałki"
+        },
+        "russian": {
+          "name": "Физика твердого тела",
+          "description": "Вы взорвали врага с помощью Перемещения"
+        },
+        "schinese": {
+          "name": "职业伤害",
+          "description": "已借由易位让一名敌人爆炸成碎片"
+        },
+        "spanish": {
+          "name": "Gajes del oficio",
+          "description": "Has hecho que un enemigo vuele en pedazos usando Desplazar"
+        },
+        "tchinese": {
+          "name": "職業傷害",
+          "description": "已藉由易位讓一名敵人爆炸成碎片"
+        }
+      }
+    },
+    "ACH_29": {
+      "translations": {
+        "brazilian": {
+          "name": "Serviço mercenário",
+          "description": "Completou todos os contratos"
+        },
+        "english": {
+          "name": "Mercenary Work",
+          "description": "Completed all contracts"
+        },
+        "french": {
+          "name": "Mercenaire",
+          "description": "Vous avez terminé tous les contrats"
+        },
+        "german": {
+          "name": "Söldnerarbeit",
+          "description": "Alle Aufträge abgeschlossen"
+        },
+        "italian": {
+          "name": "Mercenario",
+          "description": "Hai portato a termine tutti i contratti"
+        },
+        "japanese": {
+          "name": "雇われ人生",
+          "description": "全ての依頼書の任務をクリアした"
+        },
+        "polish": {
+          "name": "Praca najemna",
+          "description": "Zrealizowano wszystkie kontrakty"
+        },
+        "russian": {
+          "name": "Работа наемника",
+          "description": "Вы выполнили все контракты"
+        },
+        "schinese": {
+          "name": "佣兵工作",
+          "description": "已完成所有合约"
+        },
+        "spanish": {
+          "name": "Trabajo de mercenario",
+          "description": "Has completado todos los contratos"
+        },
+        "tchinese": {
+          "name": "傭兵工作",
+          "description": "已完成所有合約"
+        }
+      }
+    },
+    "ACH_30": {
+      "translations": {
+        "brazilian": {
+          "name": "Aficionado por arte",
+          "description": "Coletou todas as pinturas de Eleuterio Cienfuegos"
+        },
+        "english": {
+          "name": "Art Aficionado",
+          "description": "Collected all Eleuterio Cienfuegos paintings"
+        },
+        "french": {
+          "name": "Amateur d’art",
+          "description": "Vous avez récupéré tous les tableaux d’Eleuterio Cienfuegos"
+        },
+        "german": {
+          "name": "Kunstliebhaberin",
+          "description": "Alle Gemälde von Eleuterio Cienfuegos gesammelt"
+        },
+        "italian": {
+          "name": "Fanatico d’arte",
+          "description": "Hai preso tutti i dipinti di Eleuterio Cienfuegos"
+        },
+        "japanese": {
+          "name": "芸術愛好家",
+          "description": "エレウテリオ・シエンフエゴスの絵を全て集めた"
+        },
+        "polish": {
+          "name": "Koneserka sztuki",
+          "description": "Zebrano wszystkie obrazy Eleuterio Cienfuegosa"
+        },
+        "russian": {
+          "name": "Ценитель искусства",
+          "description": "Вы собрали все картины Элеутерио Сьенфуэгоса"
+        },
+        "schinese": {
+          "name": "艺术狂热",
+          "description": "已收集到伊留泰里欧．西恩富戈斯的所有画作"
+        },
+        "spanish": {
+          "name": "Aficionado al arte",
+          "description": "Has reunido todos los cuadros de Eleuterio Cienfuegos"
+        },
+        "tchinese": {
+          "name": "藝術狂熱",
+          "description": "已收集到伊留泰里歐．西恩富戈斯的所有畫作"
+        }
+      }
+    }
+  }
+}

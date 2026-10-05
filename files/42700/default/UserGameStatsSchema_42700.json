@@ -1,0 +1,2739 @@
+{
+  "version": 1,
+  "app_id": "42700",
+  "variant_id": "default",
+  "source_sha256": "b75687d3f39c9bd6f3aeeb4b27564251160e34d700efda456f642eb263eb0283",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "SP_LVL_CUBA_CASTRO_ONESHOT": {
+      "translations": {
+        "english": {
+          "name": "Death to Dictators",
+          "description": "Take down Castro with a headshot."
+        },
+        "french": {
+          "name": "Mort aux dictateurs",
+          "description": "Abattre Castro d'un tir dans la tête."
+        },
+        "german": {
+          "name": "Nieder mit den Diktatoren",
+          "description": "Erledigen Sie Castro mit einem Volltreffer."
+        },
+        "italian": {
+          "name": "Morte ai dittatori",
+          "description": "Uccidi Castro con un colpo alla testa."
+        },
+        "japanese": {
+          "name": "独裁者に死を",
+          "description": "ヘッドショットでカストロを倒す。"
+        },
+        "polish": {
+          "name": "Śmierć dyktatorom",
+          "description": "Zabij Castro strzałem w głowę."
+        },
+        "russian": {
+          "name": "Смерть диктаторам!",
+          "description": "Убейте Кастро выстрелом в голову."
+        },
+        "schinese": {
+          "name": "独裁者之死",
+          "description": "爆头击杀卡斯特罗。"
+        },
+        "spanish": {
+          "name": "Muerte a los dictadores",
+          "description": "Elimina a Castro de un tiro a la cabeza."
+        }
+      }
+    },
+    "SP_WIN_CUBA": {
+      "translations": {
+        "english": {
+          "name": "Sacrifice ",
+          "description": "Ensure your squad escapes safely from Cuba."
+        },
+        "french": {
+          "name": "Sacrifice",
+          "description": "Faire en sorte que votre escouade s'échappe de Cuba."
+        },
+        "german": {
+          "name": "Aufopferung",
+          "description": "Sorgen Sie dafür, dass Ihr Trupp Kuba sicher verlässt."
+        },
+        "italian": {
+          "name": "Sacrificio",
+          "description": "Fai in modo che la tua squadra fugga sana e salva da Cuba."
+        },
+        "japanese": {
+          "name": "自己犠牲",
+          "description": "自分の部隊をキューバから安全に脱出させる。"
+        },
+        "polish": {
+          "name": "Poświęcenie",
+          "description": "Upewnij się, że twój oddział bezpiecznie opuści Kubę."
+        },
+        "russian": {
+          "name": "Самопожертвование",
+          "description": "Убедитесь, что ваш отряд покинет Кубу в целости и сохранности."
+        },
+        "schinese": {
+          "name": "自我牺牲",
+          "description": "确保你的小队安全逃离古巴。"
+        },
+        "spanish": {
+          "name": "Sacrificio",
+          "description": "Asegúrate de que tu pelotón escape de Cuba sano y salvo."
+        }
+      }
+    },
+    "SP_LVL_VORKUTA_VEHICULAR": {
+      "translations": {
+        "english": {
+          "name": "Vehicular Slaughter",
+          "description": "Destroy all enemies on vehicles during the prison break."
+        },
+        "french": {
+          "name": "Destruction mécanique",
+          "description": "Tuer tous les ennemis dans les véhicules pendant l'évasion de la prison"
+        },
+        "german": {
+          "name": "Fahrzeugschlacht",
+          "description": "Erledigen Sie alle Feinde auf Fahrzeugen während des Gefängnisausbruchs."
+        },
+        "italian": {
+          "name": "Massacro a motore",
+          "description": "Uccidi tutti i nemici sui veicoli durante l'evasione."
+        },
+        "japanese": {
+          "name": "車両全滅",
+          "description": "脱獄中、車両に乗っている敵をすべて倒す。"
+        },
+        "polish": {
+          "name": "Masakra na kółkach",
+          "description": "Wyeliminuj wszystkich przeciwników w pojazdach podczas ucieczki z więzienia."
+        },
+        "russian": {
+          "name": "Отстрел экипажей",
+          "description": "Уничтожьте всех противников на технике во время побега из тюрьмы."
+        },
+        "schinese": {
+          "name": "载具大屠杀",
+          "description": "在越狱过程中杀死载具上的所有敌人。"
+        },
+        "spanish": {
+          "name": "Matanza vehicular",
+          "description": "Destruye a todos los enemigos en vehículos durante la fuga de la prisión."
+        }
+      }
+    },
+    "SP_WIN_VORKUTA": {
+      "translations": {
+        "english": {
+          "name": "Give me liberty, or give me death",
+          "description": "Escape Vorkuta."
+        },
+        "french": {
+          "name": "À moi la liberté !",
+          "description": "Fuir Vorkouta."
+        },
+        "german": {
+          "name": "Tod oder Freiheit",
+          "description": "Entkommen Sie aus Workuta."
+        },
+        "italian": {
+          "name": "Libertà o morte!",
+          "description": "Fuggi da Vorkuta."
+        },
+        "japanese": {
+          "name": "我に自由を、さもなくば死を",
+          "description": "ヴォルクタから脱出する。"
+        },
+        "polish": {
+          "name": "wolnij mnie lub zabij mnie",
+          "description": "Ucieknij z Workuty."
+        },
+        "russian": {
+          "name": "Свобода или смерть!",
+          "description": "Совершите побег из Воркуты."
+        },
+        "schinese": {
+          "name": "不自由，毋宁死",
+          "description": "逃离沃尔库塔。"
+        },
+        "spanish": {
+          "name": "Libertad o muerte",
+          "description": "Escapa de Vorkuta."
+        }
+      }
+    },
+    "SP_LVL_VORKUTA_SLINGSHOT": {
+      "translations": {
+        "english": {
+          "name": "Slingshot Kid ",
+          "description": "Destroy all slingshot targets in 3 attempts."
+        },
+        "french": {
+          "name": "Dans le mille",
+          "description": "Détruire toutes les cibles en 3 essais."
+        },
+        "german": {
+          "name": "3 ist Trumpf",
+          "description": "Zerstören Sie alle Schleuderziele mit 3 Schüssen."
+        },
+        "italian": {
+          "name": "Il re della fionda ",
+          "description": "Distruggi tutti i bersagli della fionda con 3 colpi"
+        },
+        "japanese": {
+          "name": "スリングショット・キッド",
+          "description": "スリングショットを使い、3回ですべてのターゲットを破壊する。"
+        },
+        "polish": {
+          "name": "Rewolwerowiec",
+          "description": "Zniszcz procą wszystkie cele w 3 próbach."
+        },
+        "russian": {
+          "name": "Мальчик с рогаткой",
+          "description": "Уничтожьте все цели выстрелами из рогатки с 3 попыток."
+        },
+        "schinese": {
+          "name": "弹弓少年",
+          "description": "在3次弹射尝试内，利用大弹弓摧毁所有哨塔。"
+        },
+        "spanish": {
+          "name": "Chico tirachinas",
+          "description": "Destruye todos los blancos de la honda en 3 intentos."
+        }
+      }
+    },
+    "SP_WIN_PENTAGON": {
+      "translations": {
+        "english": {
+          "name": "VIP",
+          "description": "Receive orders from Lancer."
+        },
+        "french": {
+          "name": "M. le président",
+          "description": "Prendre vos ordres de Lancer."
+        },
+        "german": {
+          "name": "VIP",
+          "description": "Erhalten Sie Befehle von JFK."
+        },
+        "italian": {
+          "name": "VIP",
+          "description": "Ricevi ordini da Lancer."
+        },
+        "japanese": {
+          "name": "VIP",
+          "description": "ランサーから命令を受領する。"
+        },
+        "polish": {
+          "name": "VIP",
+          "description": "Otrzymaj rozkazy od Lancera."
+        },
+        "russian": {
+          "name": "Мистер президент",
+          "description": "Получите приказы у Лансера."
+        },
+        "schinese": {
+          "name": "VIP",
+          "description": "听取最高统帅（代号“长矛手”）亲自下达的机密指令。"
+        },
+        "spanish": {
+          "name": "VIP",
+          "description": "Recibe órdenes de Lancer."
+        }
+      }
+    },
+    "SP_WIN_FLASHPOINT": {
+      "translations": {
+        "english": {
+          "name": "A safer place",
+          "description": "Sabotage the Soviet space program."
+        },
+        "french": {
+          "name": "Un monde meilleur",
+          "description": "Saboter le programme spatial soviétique."
+        },
+        "german": {
+          "name": "Eine sicherere Welt",
+          "description": "Sabotieren Sie das sowjetische Raumprogramm."
+        },
+        "italian": {
+          "name": "Un posto migliore",
+          "description": "Sabota il programma spaziale sovietico"
+        },
+        "japanese": {
+          "name": "安全な場所",
+          "description": "ソビエトの宇宙計画を妨害する。"
+        },
+        "polish": {
+          "name": "Bezpieczniejsze miejsce",
+          "description": "Sabotuj radziecki program kosmiczny."
+        },
+        "russian": {
+          "name": "Убежище",
+          "description": "Помешайте развитию советской космической программы."
+        },
+        "schinese": {
+          "name": "更安全的地方",
+          "description": "破坏苏联的太空计划。"
+        },
+        "spanish": {
+          "name": "Un lugar más seguro",
+          "description": "Sabotea el programa espacial soviético."
+        }
+      }
+    },
+    "SP_LVL_KHESANH_MISSILES": {
+      "translations": {
+        "english": {
+          "name": "Tough Economy",
+          "description": "Use no more than 6 TOW guided missiles to destroy the tanks in the defense of Khe Sanh."
+        },
+        "french": {
+          "name": "Pas de gaspillage",
+          "description": "Utiliser 6 missiles TOW au maximum pour détruire les chars pendant la défense de Khe Sanh."
+        },
+        "german": {
+          "name": "Sparfuchs",
+          "description": "Zerstören Sie bei der Verteidigung von Khe Sanh die Panzer mit maximal 6 Lenkraketen."
+        },
+        "italian": {
+          "name": "C'è la crisi...",
+          "description": "Distruggi i carri usando al massimo 6 missili TOW teleguidati per difendere Khe Sanh."
+        },
+        "japanese": {
+          "name": "君に届けて",
+          "description": "ケサン防衛において、6発以下のTOWミサイルで敵戦車を破壊する。"
+        },
+        "polish": {
+          "name": "Twarda rachuba",
+          "description": "Wykorzystaj nie więcej niż 6 pocisków z naprowadzaniem TOW, aby zniszczyć czołgi w obronie Khe Sanh."
+        },
+        "russian": {
+          "name": "Экономия боеприпасов",
+          "description": "Уничтожьте танки не более чем 6 ракетами при обороне Кхесани."
+        },
+        "schinese": {
+          "name": "经济紧缩",
+          "description": "在溪山防卫战中，使用不超过6发陶氏制导飞弹摧毁全部坦克。"
+        },
+        "spanish": {
+          "name": "Dura economía",
+          "description": "No uses más de 6 misiles teledirigidos TOW para destruir los tanques al defender Khe Sanh."
+        }
+      }
+    },
+    "SP_WIN_KHE_SANH": {
+      "translations": {
+        "english": {
+          "name": "Looks don't count",
+          "description": "Break the siege in the battle of Khe Sanh."
+        },
+        "french": {
+          "name": "Le physique ne compte pas",
+          "description": "Briser le siège pendant la bataille de Khe Sanh."
+        },
+        "german": {
+          "name": "Aussehen egal",
+          "description": "Durchbrechen Sie die Belagerung in der Schlacht von Khe Sanh."
+        },
+        "italian": {
+          "name": "L'aspetto non conta",
+          "description": "Infrangi l'assedio nella battaglia di Khe Sanh."
+        },
+        "japanese": {
+          "name": "見た目は二の次",
+          "description": "ケサンの戦いにおいて包囲網を破る。"
+        },
+        "polish": {
+          "name": "Wygląd się nie liczy",
+          "description": "Przełam oblężenie w bitwie o Khe Sanh."
+        },
+        "russian": {
+          "name": "Внешность дело десятое",
+          "description": "Прорвите осаду в ходе битвы за Кхесань."
+        },
+        "schinese": {
+          "name": "外貌不重要",
+          "description": "在溪山战役中，突破敌人的围攻。"
+        },
+        "spanish": {
+          "name": "La imagen no cuenta",
+          "description": "Acaba con el asedio en la batalla de Khe Sanh."
+        }
+      }
+    },
+    "SP_WIN_HUE_CITY": {
+      "translations": {
+        "english": {
+          "name": "SOG Rules",
+          "description": "Retrieve the dossier and the defector from Hue City."
+        },
+        "french": {
+          "name": "Le GOS, c'est le top.",
+          "description": "Retrouver le dossier et le transfuge de Hué."
+        },
+        "german": {
+          "name": "SOG-Dominanz",
+          "description": "Sichern Sie die Akte und den Überläufer in Hue."
+        },
+        "italian": {
+          "name": "SOG domina",
+          "description": "Recupera il disertore e il dossier da Hue."
+        },
+        "japanese": {
+          "name": "SOGの力",
+          "description": "亡命者と機密文書をフエ市から回収する。"
+        },
+        "polish": {
+          "name": "GOS rządzi",
+          "description": "Zabierz akta i zdrajcę z Hue City."
+        },
+        "russian": {
+          "name": "Морпехи всегда впереди",
+          "description": "Вытащите из Хюэ перебежчика и все разведданные."
+        },
+        "schinese": {
+          "name": "特战信条",
+          "description": "夺回顺化市的机密档案并安全撤离变节人员。"
+        },
+        "spanish": {
+          "name": "El SOG manda",
+          "description": "Recupera el dossier y al desertor de la ciudad de Hue."
+        }
+      }
+    },
+    "SP_LVL_HUECITY_AIRSUPPORT": {
+      "translations": {
+        "english": {
+          "name": "Raining Pain",
+          "description": "Rack up a body count of 20 NVA using air support in Hue City."
+        },
+        "french": {
+          "name": "Pluie de feu",
+          "description": "Tuer un total de 20 Viêt-Cong grâce au soutien aérien de Hué."
+        },
+        "german": {
+          "name": "Saurer Regen",
+          "description": "Erreichen Sie 20 NVA-Abschüsse in Hue mit Luftunterstützung."
+        },
+        "italian": {
+          "name": "Pioggia di dolore",
+          "description": "Elimina 20 Nordvietnamiti usando il supporto aereo a Hue."
+        },
+        "japanese": {
+          "name": "銃弾の雨",
+          "description": "フエ市において、航空支援により20人の北ベトナム軍兵士を倒す。"
+        },
+        "polish": {
+          "name": "Z nieba spada ból",
+          "description": "Wyeliminuj 20 żołnierzy NVA, wykorzystując wsparcie lotnicze w Hue City."
+        },
+        "russian": {
+          "name": "Огненный дождь",
+          "description": "Убейте не менее 20 вьетконговцев в Хюэ с помощью поддержки с воздуха."
+        },
+        "schinese": {
+          "name": "狂轰滥炸",
+          "description": "围攻顺化市时，呼叫空中支援累计消灭20名北越正规军。"
+        },
+        "spanish": {
+          "name": "Lluvia de dolor",
+          "description": "Acaba con 20 integrantes del NVA mediante apoyo aéreo en la ciudad de Hue."
+        }
+      }
+    },
+    "SP_LVL_HUECITY_DRAGON": {
+      "translations": {
+        "english": {
+          "name": "The Dragon Within",
+          "description": "Kill 10 NVA with Dragon's Breath rounds."
+        },
+        "french": {
+          "name": "La fureur du dragon",
+          "description": "Tuer 10 Viêt-Cong avec des balles Dragon Breath."
+        },
+        "german": {
+          "name": "Drachenfeuer",
+          "description": "Erledigen Sie 10 NVA-Einheiten mit Dragon's Breath-Munition."
+        },
+        "italian": {
+          "name": "Il drago dentro di te",
+          "description": "Elimina 10 Nordvietnamiti usando il Dragon's Breath."
+        },
+        "japanese": {
+          "name": "内なる竜",
+          "description": "ドラゴンブレス弾で10人の北ベトナム軍兵士を倒す。"
+        },
+        "polish": {
+          "name": "Wejście smoka",
+          "description": "Zabij 10 Wietnamczyków z NVA, używając pocisków Oddech Smoka."
+        },
+        "russian": {
+          "name": "Дыхание дракона",
+          "description": "Убейте 10 вьетконговцев, используя воспламенительные патроны."
+        },
+        "schinese": {
+          "name": "心中之龙",
+          "description": "使用“龙之吐息”特种弹药累计击杀10名北越正规军。"
+        },
+        "spanish": {
+          "name": "El dragón interior",
+          "description": "Mata a 10 integrantes del NVA con proyectiles Dragon's Breath."
+        }
+      }
+    },
+    "SP_LVL_CREEK1_DESTROY_MG": {
+      "translations": {
+        "english": {
+          "name": "Heavy Hand",
+          "description": "Use the Grim Reaper to destroy the MG emplacement."
+        },
+        "french": {
+          "name": "Main lourde",
+          "description": "Utiliser la Faucheuse pour détruire la mitrailleuse."
+        },
+        "german": {
+          "name": "Schwere Geschütze",
+          "description": "Zerstören Sie die MG-Stellung mit dem Witwenmacher."
+        },
+        "italian": {
+          "name": "Mano pesante",
+          "description": "Usa il Tristo mietitore per distruggere la mitragliatrice."
+        },
+        "japanese": {
+          "name": "ヘヴィハンド",
+          "description": "グリムリーパーで敵の機銃を破壊する。"
+        },
+        "polish": {
+          "name": "Ciężka ręka",
+          "description": "Użyj Ponurego Żniwiarza do zniszczenia pozycji karabinu maszynowego przeciwnika."
+        },
+        "russian": {
+          "name": "Без жалости и пощады",
+          "description": "Используйте \"Жнец\" для уничтожения пулеметного гнезда."
+        },
+        "schinese": {
+          "name": "雷霆重击",
+          "description": "使用“死神”四联装火箭筒摧毁敌方机枪阵地。"
+        },
+        "spanish": {
+          "name": "Mano pesada",
+          "description": "Usa el Ángel de la muerte para destruir el nido de ametralladoras"
+        }
+      }
+    },
+    "SP_LVL_CREEK1_KNIFING": {
+      "translations": {
+        "english": {
+          "name": "Up close and personal",
+          "description": "Silently take out 3 VC."
+        },
+        "french": {
+          "name": "En toute intimité",
+          "description": "Éliminer silencieusement 3 Viêt-Cong."
+        },
+        "german": {
+          "name": "Ganz persönlich",
+          "description": "Schalten Sie unbemerkt 3 Vietcong aus."
+        },
+        "italian": {
+          "name": "La morte arriva in silenzio",
+          "description": "Uccidi 3 Vietcong senza fare rumore."
+        },
+        "japanese": {
+          "name": "ベトコンの素顔に迫る",
+          "description": "音を立てずに3人のVCを倒す。"
+        },
+        "polish": {
+          "name": "W sidłach namiętności",
+          "description": "Po cichu zlikwiduj 3 Wietnamczyków."
+        },
+        "russian": {
+          "name": "Личное дело",
+          "description": "Бесшумно убейте трех вьетконговцев."
+        },
+        "schinese": {
+          "name": "近距离接触",
+          "description": "暗杀三名越共。"
+        },
+        "spanish": {
+          "name": "En las distancias cortas",
+          "description": "Elimina a 3 integrantes del VC sin hacer ruido."
+        }
+      }
+    },
+    "SP_LVL_KOWLOON_DUAL": {
+      "translations": {
+        "english": {
+          "name": "Double Trouble",
+          "description": "Use only dual wield weapons to escape Kowloon."
+        },
+        "french": {
+          "name": "Doubles problèmes",
+          "description": "Utiliser uniquement des armes doubles pour fuir de Kowloon."
+        },
+        "german": {
+          "name": "Doppelter Ärger",
+          "description": "Benutzen Sie ausschließlich zweihändige Waffen, um aus Kowloon zu entkommen."
+        },
+        "italian": {
+          "name": "Doppio guaio",
+          "description": "Usa solo doppie armi per fuggire da Kowloon."
+        },
+        "japanese": {
+          "name": "ダブルトラブル",
+          "description": "デュアル武器だけを使って九龍から脱出する。"
+        },
+        "polish": {
+          "name": "Podwójne kłopoty",
+          "description": "Podczas ucieczki z Kowloon używaj wyłącznie broni trzymanej w dwóch rękach."
+        },
+        "russian": {
+          "name": "Двойная неприятность",
+          "description": "Совершите побег из Коулуна, используя только парные виды оружия."
+        },
+        "schinese": {
+          "name": "双重麻烦",
+          "description": "仅使用双持武器逃出九龙城。"
+        },
+        "spanish": {
+          "name": "Problema doble",
+          "description": "Usa solo armas a dos manos para escapar de Kowloon."
+        }
+      }
+    },
+    "SP_WIN_KOWLOON": {
+      "translations": {
+        "english": {
+          "name": "Broken English",
+          "description": "Escape Kowloon."
+        },
+        "french": {
+          "name": "Mauvais anglais",
+          "description": "Fuir Kowloon."
+        },
+        "german": {
+          "name": "Gebrochenes Deutsch",
+          "description": "Entkommen Sie aus Kowloon."
+        },
+        "italian": {
+          "name": "Problemi di lingua",
+          "description": "Fuggi da Kowloon."
+        },
+        "japanese": {
+          "name": "ブロークン・イングリッシュ",
+          "description": "九龍から脱出する。"
+        },
+        "polish": {
+          "name": "Łamana angielszczyzna",
+          "description": "Ucieknij z Kowloon."
+        },
+        "russian": {
+          "name": "Ломаный английский",
+          "description": "Выберитесь из Коулуна."
+        },
+        "schinese": {
+          "name": "蹩脚英语",
+          "description": "逃出九龙城。"
+        },
+        "spanish": {
+          "name": "Mal inglés",
+          "description": "Escapa de Kowloon."
+        }
+      }
+    },
+    "SP_LVL_RIVER_TARGETS": {
+      "translations": {
+        "english": {
+          "name": "Lord Nelson",
+          "description": "Destroy all targets and structures while making your way up the river."
+        },
+        "french": {
+          "name": "Amiral Nelson",
+          "description": "Détruire toutes les cibles et toutes les structures en remontant la rivière."
+        },
+        "german": {
+          "name": "Lord Nelson",
+          "description": "Zerstören Sie alle Ziele und Gebäude mit Ihrem Boot, während Sie den Fluss hinauffahren."
+        },
+        "italian": {
+          "name": "Lord Nelson",
+          "description": "Distruggi tutti i bersagli e le strutture mentre risali il fiume."
+        },
+        "japanese": {
+          "name": "ネルソン提督",
+          "description": "川をさかのぼりながら、ターゲットや建物をすべて破壊する。"
+        },
+        "polish": {
+          "name": "Lord Nelson",
+          "description": "Płynąc w górę rzeki, zniszcz wszystkie cele i budowle."
+        },
+        "russian": {
+          "name": "Адмирал Нельсон",
+          "description": "Уничтожьте все цели и постройки, следуя вверх по реке."
+        },
+        "schinese": {
+          "name": "纳尔逊勋爵",
+          "description": "在驾驶战斗艇前往河上游的途中，破坏所有的目标和建筑物。"
+        },
+        "spanish": {
+          "name": "Lord Nelson",
+          "description": "Destruye todos los blancos y estructuras mientras remontas el río."
+        }
+      }
+    },
+    "SP_WIN_RIVER": {
+      "translations": {
+        "english": {
+          "name": "Never get off the boat",
+          "description": "Find the Soviet connection in Laos."
+        },
+        "french": {
+          "name": "Ne jamais descendre du bateau",
+          "description": "Trouver la connexion soviétique au Laos."
+        },
+        "german": {
+          "name": "Alle Mann an Bord",
+          "description": "Finden Sie den sowjetischen Kontakt in Laos."
+        },
+        "italian": {
+          "name": "Mai scendere dalla barca!",
+          "description": "Scopri i collegamenti dei Sovietici nel Laos."
+        },
+        "japanese": {
+          "name": "ボートから降りるな",
+          "description": "ラオスにおけるソビエトのコネクションを探る。"
+        },
+        "polish": {
+          "name": "Nie opuszczaj łodzi",
+          "description": "Znajdź oznaki sowieckiej obecności w Laosie."
+        },
+        "russian": {
+          "name": "Не слезая с лодки",
+          "description": "Найдите в Лаосе доказательства причастности СССР."
+        },
+        "schinese": {
+          "name": "别下船",
+          "description": "在老挝找到苏联的线人。"
+        },
+        "spanish": {
+          "name": "Sin bajar del barco",
+          "description": "Encuentra la conexión soviética en Laos."
+        }
+      }
+    },
+    "SP_LVL_WMD_RSO": {
+      "translations": {
+        "english": {
+          "name": "Pathfinder",
+          "description": "Guide the squad through the Soviet outpost without them getting killed."
+        },
+        "french": {
+          "name": "Meneur",
+          "description": "Guider l'escouade à travers l'avant-poste russe sans perdre un seul homme"
+        },
+        "german": {
+          "name": "Pfadfinder",
+          "description": "Führen Sie den Trupp durch den sowjetischen Außenposten, ohne dass einer von ihnen getötet wird."
+        },
+        "italian": {
+          "name": "Il ricognitore",
+          "description": "Guida la squadra attraverso l'avamposto sovietico evitando che i tuoi uomini rimangano uccisi."
+        },
+        "japanese": {
+          "name": "パスファインダー",
+          "description": "分隊員を戦死させることなくソビエトの前哨基地を突破する。"
+        },
+        "polish": {
+          "name": "Tropiciel",
+          "description": "Przeprowadź oddział przez radziecki obóz - wszyscy członkowie oddziału muszą przeżyć."
+        },
+        "russian": {
+          "name": "Следопыт",
+          "description": "Проведите отряд через советский блокпост, не потеряв ни одного человека."
+        },
+        "schinese": {
+          "name": "探路者",
+          "description": "在无人员伤亡的情况下引导你的小队顺利抵达苏联的前哨基地。"
+        },
+        "spanish": {
+          "name": "Guía",
+          "description": "Guía al pelotón por el puesto avanzado soviético sin que maten a ningún miembro."
+        }
+      }
+    },
+    "SP_LVL_WMD_RELAY": {
+      "translations": {
+        "english": {
+          "name": "Mr. Black OP",
+          "description": "Enter the Soviet relay station undetected."
+        },
+        "french": {
+          "name": "M. Agent spécial",
+          "description": "Pénétrer dans la station-relais russe sans vous faire repérer."
+        },
+        "german": {
+          "name": "Mr. Black Ops",
+          "description": "Betreten Sie unbemerkt die sowjetische Relaisstation."
+        },
+        "italian": {
+          "name": "Mister Black Ops",
+          "description": "Entra di nascosto nella stazione di comunicazione sovietica."
+        },
+        "japanese": {
+          "name": "ミスター・ブラックオプス",
+          "description": "敵に発見されることなくソビエトの中継基地に潜入する。"
+        },
+        "polish": {
+          "name": "Pan Black OP",
+          "description": "Niezauważony przedostań się do radzieckiej stacji przekaźnikowej."
+        },
+        "russian": {
+          "name": "Супершпион",
+          "description": "Проберитесь на советскую станцию связи незамеченным."
+        },
+        "schinese": {
+          "name": "黑色行动先生",
+          "description": "在不被发现的情况下秘密潜入苏联中继站。"
+        },
+        "spanish": {
+          "name": "Sr. Black Ops",
+          "description": "Entra en el repetidor soviético sin ser detectado."
+        }
+      }
+    },
+    "SP_LVL_POW_HIND": {
+      "translations": {
+        "english": {
+          "name": "With extreme prejudice",
+          "description": "Get to the POW compound in the Hind using only rockets."
+        },
+        "french": {
+          "name": "Parti pris",
+          "description": "Parvenir au camp des prisonniers à bord du HIND en n'utilisant que des roquettes."
+        },
+        "german": {
+          "name": "Volles Programm",
+          "description": "Erreichen Sie das Gefangenenlager im Hind nur mit Raketen."
+        },
+        "italian": {
+          "name": "Danni estremi",
+          "description": "A bordo dell'Hind, entra nel campo di prigionia usando solo i razzi."
+        },
+        "japanese": {
+          "name": "ダブルボーダー",
+          "description": "ハインドに乗り、ロケット弾だけを使って捕虜収容所に到達する"
+        },
+        "polish": {
+          "name": "Ekstremalne środki",
+          "description": "Przedostań się do miejsca przetrzymywania jeńców w Hindzie, posługując się wyłącznie rakietami."
+        },
+        "russian": {
+          "name": "Допрос с пристрастием",
+          "description": "Доберитесь до лагеря военнопленных на вертолете, применяя только ракеты."
+        },
+        "schinese": {
+          "name": "绝不留情",
+          "description": "仅使用火箭弹驾驶“雌鹿”直升机杀向战俘营。"
+        },
+        "spanish": {
+          "name": "Con grandes daños",
+          "description": "Llega al campo de prisioneros en el Hind usando solo cohetes."
+        }
+      }
+    },
+    "SP_LVL_POW_FLAMETHROWER": {
+      "translations": {
+        "english": {
+          "name": "Russian bar-b-q",
+          "description": "Incinerate 10 enemies with the flamethrower attachment in the POW compound."
+        },
+        "french": {
+          "name": "BBQ russe",
+          "description": "Brûler 10 ennemis avec l'accessoire Lance-flammes dans le camp de prisonniers."
+        },
+        "german": {
+          "name": "Feuer frei",
+          "description": "Erledigen Sie im Gefangenenlager 10 Feinde mit dem Flammenwerfer-Aufsatz."
+        },
+        "italian": {
+          "name": "Russi al barbecue",
+          "description": "Incenerisci 10 nemici con l'accessorio lanciafiamme nel campo di prigionia."
+        },
+        "japanese": {
+          "name": "ロシアンBBQ",
+          "description": "捕虜収容所で、火炎放射アタッチメントを使って10人の敵を倒す。"
+        },
+        "polish": {
+          "name": "Radziecki grill",
+          "description": "Spal 10 przeciwników za pomocą podlufowego miotacza ognia w miejscu przetrzymywania jeńców."
+        },
+        "russian": {
+          "name": "Шашлык по-нашему",
+          "description": "Спалите 10 противников из подствольного огнемета в лагере для военнопленных."
+        },
+        "schinese": {
+          "name": "俄式烧烤",
+          "description": "在俘虏关押所使用火焰喷射器烧死10名敌人。"
+        },
+        "spanish": {
+          "name": "Barbacoa rusa",
+          "description": "Incinera a 10 enemigos con el accesorio lanzallamas en el campo de prisioneros."
+        }
+      }
+    },
+    "SP_LVL_FULLAHEAD_2MIN": {
+      "translations": {
+        "english": {
+          "name": "Light Foot",
+          "description": "Escape the ship with 2:15 left on the timer in Veteran."
+        },
+        "french": {
+          "name": "Rapide comme l'éclair",
+          "description": "S'échapper du bateau avec 2 minutes 15 restantes en difficulté Vétéran."
+        },
+        "german": {
+          "name": "Leichtfuß",
+          "description": "Entkommen Sie mit 2:15 Minuten Restzeit auf Veteran vom Schiff."
+        },
+        "italian": {
+          "name": "Piede leggero",
+          "description": "Fuggi dalla nave 2:15 minuti prima che scada il tempo a livello Veterano."
+        },
+        "japanese": {
+          "name": "ライトフット",
+          "description": "ベテランモードで 2分15秒以上残して船から脱出する。"
+        },
+        "polish": {
+          "name": "Szybkonogi",
+          "description": "Ucieknij ze statku na poziomie Weterana, do końca muszą pozostać 2 min.15 sekund."
+        },
+        "russian": {
+          "name": "Пора делать ноги",
+          "description": "Совершите побег с корабля с запасом в 2:15 минуты на максимальном уровне сложности."
+        },
+        "schinese": {
+          "name": "争分夺秒",
+          "description": "以老兵难度通关时，在倒计时仍剩2分15秒以上时成功逃离轮船。"
+        },
+        "spanish": {
+          "name": "Pies ligeros",
+          "description": "Escapa del barco con 2:15 aún disponibles en Veterano."
+        }
+      }
+    },
+    "SP_WIN_FULLAHEAD": {
+      "translations": {
+        "english": {
+          "name": "Some wounds never heal",
+          "description": "Escape the past."
+        },
+        "french": {
+          "name": "Blessures du passé",
+          "description": "Laisser le passé derrière vous."
+        },
+        "german": {
+          "name": "Manche Wunden heilen nie",
+          "description": "Lassen Sie die Vergangenheit hinter sich."
+        },
+        "italian": {
+          "name": "Certe ferite non guariscono mai",
+          "description": "Fuggi dal passato."
+        },
+        "japanese": {
+          "name": "癒えない傷もある",
+          "description": "過去から脱出する。"
+        },
+        "polish": {
+          "name": "Niektóre rany nigdy się nie goją",
+          "description": "Ucieknij przed przeszłością."
+        },
+        "russian": {
+          "name": "Время не лечит",
+          "description": "Сбегите от прошлого."
+        },
+        "schinese": {
+          "name": "有些伤口永不愈合",
+          "description": "从过去中逃脱。"
+        },
+        "spanish": {
+          "name": "Algunas heridas nunca sanan",
+          "description": "Huye del pasado."
+        }
+      }
+    },
+    "SP_LVL_REBIRTH_MONKEYS": {
+      "translations": {
+        "english": {
+          "name": "I hate monkeys",
+          "description": "Kill 7 monkeys in under 10 seconds in the Rebirth labs."
+        },
+        "french": {
+          "name": "Singeophobe",
+          "description": "Tuer 7 singes en moins de 10 secondes dans les labos de  Renaissance."
+        },
+        "german": {
+          "name": "Ich hasse Affen",
+          "description": "Erledigen Sie in den Wiedergeburt-Labors 7 Affen in unter 10 Sekunden."
+        },
+        "italian": {
+          "name": "Odio le scimmie",
+          "description": "Uccidi 7 scimmie in meno di 10 secondi nei laboratori dell'isola \"Rinascita\"."
+        },
+        "japanese": {
+          "name": "モンキービジネス",
+          "description": "リバース島の研究所において、10秒以内に7匹のサルを殺す。"
+        },
+        "polish": {
+          "name": "Nienawidzę małp",
+          "description": "Zabij 7 małp w ciągu 10 sekund w laboratoriach Odrodzenia."
+        },
+        "russian": {
+          "name": "Ненавижу макак!",
+          "description": "Убейте 7 обезьян за 10 секунд в  лабораториях острова Возрождения."
+        },
+        "schinese": {
+          "name": "我讨厌猴子",
+          "description": "在重生实验室中，10秒内杀死7只猴子。"
+        },
+        "spanish": {
+          "name": "Odio los monos",
+          "description": "Mata a 7 monos en menos de 10 segundos en los laboratorios de Renacimiento."
+        }
+      }
+    },
+    "SP_LVL_REBIRTH_NOLEAKS": {
+      "translations": {
+        "english": {
+          "name": "No Leaks",
+          "description": "Make it through the NOVA 6 gas without dying on Rebirth Island."
+        },
+        "french": {
+          "name": "Une fuite ? Où ça ?",
+          "description": "Traverser le Nova 6 sans mourir sur Renaissance."
+        },
+        "german": {
+          "name": "Kein Leck",
+          "description": "Schaffen Sie es auf der Insel der Wiedergeburt ohne zu sterben durch das NOVA 6."
+        },
+        "italian": {
+          "name": "Niente perdite!",
+          "description": "Attraversa il gas NOVA 6 senza morire sull'isola \"Rinascita\"."
+        },
+        "japanese": {
+          "name": "完全防護",
+          "description": "リバース島において、死ぬことなくノヴァ6のガスを突破する。"
+        },
+        "polish": {
+          "name": "Bez przecieków",
+          "description": "Przedostań się przez gaz NOVA 6, nie ginąc na Wyspie Odrodzenie."
+        },
+        "russian": {
+          "name": "Полная герметизация",
+          "description": "Пройдите сквозь облако газа \"Нова-6\" на острове Возрождения, оставшись в живых."
+        },
+        "schinese": {
+          "name": "滴水不漏",
+          "description": "突击重生岛时保持不死，一鼓作气穿过“新星六号”毒气区。"
+        },
+        "spanish": {
+          "name": "Sin fugas",
+          "description": "Atraviesa el gas Nova 6 sin morir en Isla Renacimiento."
+        }
+      }
+    },
+    "SP_WIN_INTERROGATION_ESCAPE": {
+      "translations": {
+        "english": {
+          "name": "Clarity",
+          "description": "Crack the code."
+        },
+        "french": {
+          "name": "Interrogation surprise",
+          "description": "Déchiffrer le code."
+        },
+        "german": {
+          "name": "Klarheit",
+          "description": "Knacken Sie den Code."
+        },
+        "italian": {
+          "name": "Lucidità",
+          "description": "Viola il codice."
+        },
+        "japanese": {
+          "name": "明白",
+          "description": "コードを解析する。"
+        },
+        "polish": {
+          "name": "Przejrzystość",
+          "description": "Złam kod."
+        },
+        "russian": {
+          "name": "Освобождение",
+          "description": "Разгадайте код."
+        },
+        "schinese": {
+          "name": "真相大白",
+          "description": "破解密码。"
+        },
+        "spanish": {
+          "name": "Claridad",
+          "description": "Descubre el código"
+        }
+      }
+    },
+    "SP_LVL_UNDERWATERBASE_MINI": {
+      "translations": {
+        "english": {
+          "name": "Double Whammy",
+          "description": "Destroy both helicopters with one Valkyrie missile from the deck of the ship."
+        },
+        "french": {
+          "name": "Coup dur",
+          "description": "Abattre les deux hélicoptères avec un seul missile Valkyrie à partir du pont du bateau."
+        },
+        "german": {
+          "name": "Pech im Unglück",
+          "description": "Zerstören Sie beide Helikopter mit einer Walküre-Rakete vom Schiffsdeck aus."
+        },
+        "italian": {
+          "name": "Doppia sfortuna",
+          "description": "Distruggi entrambi gli elicotteri con un solo razzo Valkyrie dal ponte della nave."
+        },
+        "japanese": {
+          "name": "一石二鳥",
+          "description": "デッキ上から、1発のヴァルキリーロケットで両方のヘリコプターを撃墜する。"
+        },
+        "polish": {
+          "name": "Podwójny szok",
+          "description": "Zniszcz oba śmigłowce za pomocą jednego pocisku z naprowadzaniem Walkiria z pokładu okrętu."
+        },
+        "russian": {
+          "name": "Двойной удар",
+          "description": "Уничтожьте оба вертолета одной ракетой \"Валькирия\" с палубы корабля."
+        },
+        "schinese": {
+          "name": "双重打击",
+          "description": "在船甲板上，利用一发女武神飞弹摧毁两架直升机。"
+        },
+        "spanish": {
+          "name": "Doble porrazo",
+          "description": "Destruye los dos helicópteros con un cohete Valkyrie desde la cubierta del buque."
+        }
+      }
+    },
+    "SP_GEN_MASTER": {
+      "translations": {
+        "english": {
+          "name": "BLACK OP MASTER",
+          "description": "Complete the campaign on Hardened or Veteran difficulty."
+        },
+        "french": {
+          "name": "ÉLITE DES FORCES SPÉCIALES",
+          "description": "Terminer la campagne en difficulté Commando ou Vétéran."
+        },
+        "german": {
+          "name": "BLACK OPS-MEISTER",
+          "description": "Schließen Sie die Kampagne auf Söldner oder Veteran ab."
+        },
+        "italian": {
+          "name": "Maestro di Black Ops",
+          "description": "Completa la campagna a livello Esperto o Veterano"
+        },
+        "japanese": {
+          "name": "ブラックオプス・マスター",
+          "description": "ハードコアもしくはベテランの難易度でキャンペーンをクリアする。"
+        },
+        "polish": {
+          "name": "MISTRZ BLACK OP",
+          "description": "Ukończ kampanię na poziomie Weteran lub Doświadczony."
+        },
+        "russian": {
+          "name": "МАСТЕР BLACK OPS",
+          "description": "Пройдите кампанию на высоком или максимальном уровне сложности."
+        },
+        "schinese": {
+          "name": "黑色行动大师",
+          "description": "以困难或老兵难度通关战役模式。"
+        },
+        "spanish": {
+          "name": "Maestro Black Ops",
+          "description": "Completa la campaña en dificultad Curtido o Veterano."
+        }
+      }
+    },
+    "SP_WIN_UNDERWATERBASE": {
+      "translations": {
+        "english": {
+          "name": "Stand Down",
+          "description": "Complete the campaign on any difficulty."
+        },
+        "french": {
+          "name": "Repos",
+          "description": "Terminer la campagne dans n'importe quelle difficulté."
+        },
+        "german": {
+          "name": "Weggetreten",
+          "description": "Schließen Sie die Kampagne auf einem beliebigen Schwierigkeitsgrad ab."
+        },
+        "italian": {
+          "name": "In congedo",
+          "description": "Completa la campagna a qualsiasi livello di difficoltà."
+        },
+        "japanese": {
+          "name": "スタンド・ダウン",
+          "description": "難易度に関わらずキャンペーンをクリアする。"
+        },
+        "polish": {
+          "name": "Spocznij",
+          "description": "Ukończ kampanię na dowolnym poziomie trudności."
+        },
+        "russian": {
+          "name": "Противостояние",
+          "description": "Пройдите кампанию на любом уровне сложности."
+        },
+        "schinese": {
+          "name": "解除戒备",
+          "description": "以任意难度通关战役模式。"
+        },
+        "spanish": {
+          "name": "Descanso",
+          "description": "Completa la campaña en cualquier dificultad."
+        }
+      }
+    },
+    "SP_GEN_FRAGMASTER": {
+      "translations": {
+        "english": {
+          "name": "Frag Master",
+          "description": "Kill 5 enemies with a single frag grenade in the campaign."
+        },
+        "french": {
+          "name": "Fragmentation productive",
+          "description": "Tuer 5 ennemis avec une grenade à fragmentation dans la campagne."
+        },
+        "german": {
+          "name": "Splittermeister",
+          "description": "Erledigen Sie in der Kampagne 5 Feinde mit einer Splittergranate."
+        },
+        "italian": {
+          "name": "Maestro di granate",
+          "description": "Uccidi 5 nemici con una sola granata nel corso della campagna."
+        },
+        "japanese": {
+          "name": "フラグマスター",
+          "description": "キャンペーンモードにおいて、1個のフラググレネードで敵を5人倒す。"
+        },
+        "polish": {
+          "name": "Mistrz odłamków",
+          "description": "Zabij 5 przeciwników granatem odłamkowym w Kampanii."
+        },
+        "russian": {
+          "name": "Спец по гранатам",
+          "description": "Убейте 5 противников одной осколочной гранатой в режиме кампании."
+        },
+        "schinese": {
+          "name": "手雷大师",
+          "description": "在战役中用一颗手雷一次性击杀五个敌人。"
+        },
+        "spanish": {
+          "name": "Maestro granadero",
+          "description": "Mata a 5 enemigos con una granada de fragmentación en la campaña."
+        }
+      }
+    },
+    "SP_GEN_ROUGH_ECO": {
+      "translations": {
+        "english": {
+          "name": "Sally Likes Blood",
+          "description": "Demonstrate killer economic sensibilities by taking down 3 enemies with a single bullet"
+        },
+        "french": {
+          "name": "Soif de sang",
+          "description": "Montrer votre sens de l'économie en tuant 3 ennemis avec une seule balle."
+        },
+        "german": {
+          "name": "Entschlossen",
+          "description": "Denken Sie ökonomisch und erledigen Sie 3 Feinde mit nur einer Kugel."
+        },
+        "italian": {
+          "name": "Sally ama il sangue",
+          "description": "Dimostra di essere un killer attento al risparmio uccidendo 3 nemici con un colpo solo."
+        },
+        "japanese": {
+          "name": "ブラッディ・サリー",
+          "description": "1発の銃弾で3人の敵を倒し、経済的な戦争のやり方を実証する。"
+        },
+        "polish": {
+          "name": "Sally lubi krew",
+          "description": "Wykaż się oszczędnością, zabijając 3 przeciwników jednym pociskiem."
+        },
+        "russian": {
+          "name": "Салли любит кровь",
+          "description": "Истинные профи умеют экономить боеприпасы. Докажите свое мастерство, убив 3 противников одной пулей."
+        },
+        "schinese": {
+          "name": "莎莉嗜血",
+          "description": "以一发子弹杀死3个敌人。"
+        },
+        "spanish": {
+          "name": "A Sally le gusta la sangre",
+          "description": "Demuestra un instinto asesino ahorrador y elimina a 3 enemigos con una sola bala."
+        }
+      }
+    },
+    "SP_GEN_CROSSBOW": {
+      "translations": {
+        "english": {
+          "name": "Unconventional Warfare",
+          "description": "Use the explosive bolts to kill 30 enemies in the campaign."
+        },
+        "french": {
+          "name": "Guerre non conventionnelle",
+          "description": "Tuer 30 ennemis avec des carreaux explosifs en campagne."
+        },
+        "german": {
+          "name": "Unkonventionelle Kriegführung",
+          "description": "Schalten Sie in der Kampagne 30 Feinde mit explosiven Projektilen aus."
+        },
+        "italian": {
+          "name": "Guerriglia non convenzionale",
+          "description": "Uccidi 30 nemici usando i dardi esplosivi nel corso della campagna."
+        },
+        "japanese": {
+          "name": "不正規戦争",
+          "description": "キャンペーンモードにおいて、炸裂式ボルトを使って30人の敵を倒す。"
+        },
+        "polish": {
+          "name": "Wojna niekonwencjonalna",
+          "description": "Zabij 30 przeciwników wybuchowymi bełtami w Kampanii."
+        },
+        "russian": {
+          "name": "Нетрадиционное вооружение",
+          "description": "Убейте 30 противников, используя разрывные стрелы в режиме кампании."
+        },
+        "schinese": {
+          "name": "非常规作战",
+          "description": "在战役模式中，用爆破弩箭累计杀死30名敌人。"
+        },
+        "spanish": {
+          "name": "Armamento no convencional",
+          "description": "Usa los virotes explosivos para matar a 30 enemigos en la campaña."
+        }
+      }
+    },
+    "SP_VWIN_FLASHPOINT": {
+      "translations": {
+        "english": {
+          "name": "Cold Warrior",
+          "description": "Complete \"Operation 40,\" \"Vorkuta,\" and \"Executive Order\" on Veteran difficulty."
+        },
+        "french": {
+          "name": "Froid guerrier",
+          "description": "Terminer les missions \"Opération 40\", \"Vorkouta\" et \"Décret\" en difficulté Vétéran."
+        },
+        "german": {
+          "name": "Kalter Krieger",
+          "description": "Schließen Sie 'Operation 40', 'Workuta' und 'Präsidentenerlass' auf Veteran ab."
+        },
+        "italian": {
+          "name": "Guerriero a sangue freddo",
+          "description": "Completa \"Operazione 40\", \"Vorkuta\" e \"Ordine esecutivo\" al livello Veterano."
+        },
+        "japanese": {
+          "name": "冷戦の推進者",
+          "description": "難易度ベテランで、「Operation 40」「Vorkuta」「Executive Order」をクリアする。"
+        },
+        "polish": {
+          "name": "Zimnokrwisty wojownik",
+          "description": "Ukończ \"Operation 40\", \"Workutę\" oraz \"Dekret prezydencki\" na poziomie Weteran."
+        },
+        "russian": {
+          "name": "Холодная голова",
+          "description": "Завершите эпизоды \"Операция 40\", \"Воркута\" и \"Особое задание\" на максимальном уровне сложности."
+        },
+        "schinese": {
+          "name": "冷战勇士",
+          "description": "以老兵难度通关「40号行动」、「沃尔库塔」与「总统命令」。"
+        },
+        "spanish": {
+          "name": "Guerrero frío",
+          "description": "Completa Operación 40, Vorkuta y Orden ejecutiva en dificultad Veterano."
+        }
+      }
+    },
+    "SP_VWIN_HUE_CITY": {
+      "translations": {
+        "english": {
+          "name": "Down and Dirty",
+          "description": "Complete \"SOG\" and \"The Defector\" on Veteran difficulty."
+        },
+        "french": {
+          "name": "Massacre réussi",
+          "description": "Terminer les missions \"GOS\" et \"Le Transfuge\" en difficulté Vétéran."
+        },
+        "german": {
+          "name": "Drecksarbeit",
+          "description": "Schließen Sie 'SOG' und 'Der Überläufer' auf Veteran ab."
+        },
+        "italian": {
+          "name": "Sporchiamoci le mani",
+          "description": "Completa \"SOG\" e \"Il disertore\" al livello Veterano."
+        },
+        "japanese": {
+          "name": "ダウン・アンド・ダーティ",
+          "description": "「SOG」「THE DEFECTOR」をベテランの難易度でクリアする。"
+        },
+        "polish": {
+          "name": "Brudny i wdeptany w ziemię",
+          "description": "Ukończ \"GOS\" i \"Zdrajcę\" na poziomie Weteran."
+        },
+        "russian": {
+          "name": "По уши в грязи",
+          "description": "Пройдите эпизоды \"Морпехи\" и \"Перебежчик\" на максимальном уровне сложности."
+        },
+        "schinese": {
+          "name": "肮脏手段",
+          "description": "以老兵难度通关「SOG」与「叛逃者」。"
+        },
+        "spanish": {
+          "name": "Ensuciarse las manos",
+          "description": "Completa SOG y El desertor en dificultad Veterano."
+        }
+      }
+    },
+    "SP_VWIN_FULLAHEAD": {
+      "translations": {
+        "english": {
+          "name": "It's your funeral",
+          "description": "Complete \"Numbers,\" \"Project Nova,\" and \"Victor Charlie\" on Veteran difficulty."
+        },
+        "french": {
+          "name": "Fais tes prières",
+          "description": "Terminer les missions \"Nombres\", \"Projet Nova\" et \"Victor Charlie\" en difficulté Vétéran."
+        },
+        "german": {
+          "name": "Selbst schuld",
+          "description": "Schließen Sie 'Zahlen', 'Projekt Nova' und 'Victor Charlie' auf Veteran ab."
+        },
+        "italian": {
+          "name": "È il vostro funerale",
+          "description": "Completa \"Numeri\", \"Progetto Nova\" e \"Victor Charlie\" al livello Veterano"
+        },
+        "japanese": {
+          "name": "君の責任だ",
+          "description": "「NUMBERS」「PROJECT NOVA」「VICTOR CHARLIE」をベテランの難易度でクリアする。"
+        },
+        "polish": {
+          "name": "To twój pogrzeb",
+          "description": "Ukończ \"Liczby\", \"Projekt Nova i \"Victor Charlie\" na poziomie trudności Weteran."
+        },
+        "russian": {
+          "name": "Панихида",
+          "description": "Пройдите эпизоды \"Числа\", \"Проект \"Нова\"\" и \"Виктор Чарли\" на максимальном уровне сложности."
+        },
+        "schinese": {
+          "name": "自掘坟墓",
+          "description": "以老兵难度通关「数字」、「新星计划」与「维克托·查理」。"
+        },
+        "spanish": {
+          "name": "Es vuestro funeral",
+          "description": "Completa Números, Proyecto Nova y Victor Charlie en dificultad Veterano."
+        }
+      }
+    },
+    "SP_VWIN_RIVER": {
+      "translations": {
+        "english": {
+          "name": "Not Today",
+          "description": "Complete \"Crash Site,\" \"WMD,\" and \"Payback\" on Veteran difficulty."
+        },
+        "french": {
+          "name": "Reviens demain",
+          "description": "Terminer les missions \"Site du crash\", \"ADM\" et \"Vengeance\" en difficulté Vétéran."
+        },
+        "german": {
+          "name": "Heute nicht",
+          "description": "Schließen Sie 'Absturzstelle', 'Massenvernichtung' und 'Zahltag' auf Veteran ab."
+        },
+        "italian": {
+          "name": "Non oggi",
+          "description": "Completa \"Luogo dello schianto\", \"WMD\" e \"Vendetta\" al livello Veterano."
+        },
+        "japanese": {
+          "name": "今日はだめだ",
+          "description": "難易度ベテランで、「Crash Site」「WMD」「Payback」をクリアする。"
+        },
+        "polish": {
+          "name": "Nie dzisiaj",
+          "description": "Ukończ \"Miejsce katastrofy\", \"Broń masowego rażenia\" i \"Zemstę\" na poziomie trudności Weteran."
+        },
+        "russian": {
+          "name": "Не сегодня",
+          "description": "Пройдите эпизоды \"Место падения\", \"ОМП\" и \"Месть\" на максимальном уровне сложности."
+        },
+        "schinese": {
+          "name": "不是今天",
+          "description": "以老兵难度通关「坠机现场」、「大规模杀伤性武器」与「血债血偿」。"
+        },
+        "spanish": {
+          "name": "Hoy no",
+          "description": "Completa Lugar del accidente, ADM y Venganza en dificultad Veterano."
+        }
+      }
+    },
+    "SP_VWIN_UNDERWATERBASE": {
+      "translations": {
+        "english": {
+          "name": "Burn Notice",
+          "description": "Complete \"Rebirth\" and \"Redemption\" on Veteran difficulty."
+        },
+        "french": {
+          "name": "Mission secrète",
+          "description": "Terminer les missions \"Renaissance\" et \"Rédemption\" en difficulté Vétéran."
+        },
+        "german": {
+          "name": "Überläufer?",
+          "description": "Schließen Sie 'Wiedergeburt' und 'Erlösung' auf Veteran ab."
+        },
+        "italian": {
+          "name": "Comunicato ufficiale",
+          "description": "Completa \"Rinascita\" e \"Redenzione\" al livello Veterano."
+        },
+        "japanese": {
+          "name": "解雇通知",
+          "description": "「REBIRTH」「REDEMPTION」を難易度ベテランでクリアする。"
+        },
+        "polish": {
+          "name": "Tożsamość szpiega",
+          "description": "Ukończ \"Odrodzenie\" i \"Odkupienie\" na poziomie trudności Weteran."
+        },
+        "russian": {
+          "name": "Разоблачение",
+          "description": "Пройдите эпизоды \"Возрождение\" и \"Искупление\" на максимальном уровне сложности."
+        },
+        "schinese": {
+          "name": "烧毁通告",
+          "description": "以老兵难度通关「重生」与「救赎」。"
+        },
+        "spanish": {
+          "name": "No fiable",
+          "description": "Completa Renacimiento y Redención en dificultad Veterano."
+        }
+      }
+    },
+    "SP_GEN_FOUNDFILMS": {
+      "translations": {
+        "english": {
+          "name": "Closer Analysis",
+          "description": "Find all the hidden intel."
+        },
+        "french": {
+          "name": "Analyse plus détaillée",
+          "description": "Trouver tous les renseignements cachés."
+        },
+        "german": {
+          "name": "Genauere Untersuchung",
+          "description": "Finden Sie alle versteckten Informationen."
+        },
+        "italian": {
+          "name": "Analisi ravvicinata",
+          "description": "Trova tutte le informazioni nascoste."
+        },
+        "japanese": {
+          "name": "詳細分析",
+          "description": "隠された機密ファイルをすべて見つける。"
+        },
+        "polish": {
+          "name": "Głębsza analiza",
+          "description": "Znajdź wszystkie ukryte dane wywiadu."
+        },
+        "russian": {
+          "name": "При ближайшем рассмотрении",
+          "description": "Найдите все разведданные."
+        },
+        "schinese": {
+          "name": "深入分析",
+          "description": "找到所有隐藏的情报。"
+        },
+        "spanish": {
+          "name": "Análisis en profundidad",
+          "description": "Encuentra la información oculta."
+        }
+      }
+    },
+    "SP_ZOM_COLLECTOR": {
+      "translations": {
+        "english": {
+          "name": "The Collector",
+          "description": "Buy every weapon off the walls in a single Zombies game."
+        },
+        "french": {
+          "name": "Collectionneur",
+          "description": "Acheter toutes les armes sur les murs en une seule partie de Zombies."
+        },
+        "german": {
+          "name": "Sammler",
+          "description": "Kaufen Sie in einem Überlebenskampf-Spiel alle Waffen von den Wänden."
+        },
+        "italian": {
+          "name": "Il collezionista",
+          "description": "ompra tutte le armi in una sola partita in modalità Zombi."
+        },
+        "japanese": {
+          "name": "コレクター",
+          "description": "ゾンビモードの1ゲーム中に、壁から入手できるすべての武器を購入する。"
+        },
+        "polish": {
+          "name": "Kolekcjoner",
+          "description": "Kup wszystkie rodzaje broni w ciągu jednej gry w trybie Zombie."
+        },
+        "russian": {
+          "name": "Коллекционер",
+          "description": "В режиме \"Зомби\" купите все виды вооружения за одну игру."
+        },
+        "schinese": {
+          "name": "收藏家",
+          "description": "在一场僵尸游戏中，购买墙上的所有武器。"
+        },
+        "spanish": {
+          "name": "El coleccionista",
+          "description": "Compra todas las armas disponibles en una partida en modo zombi."
+        }
+      }
+    },
+    "SP_ZOM_NODAMAGE": {
+      "translations": {
+        "english": {
+          "name": "See Me, Stab Me, Heal Me",
+          "description": "Fire a Pack-a-Punched Ballistic Knife at a downed ally to revive them from a distance."
+        },
+        "french": {
+          "name": "Couteau soignant",
+          "description": "Utiliser un couteau balistique passé par la machine \"Sacré punch !\" sur un allié à terre pour le ranimer à distance."
+        },
+        "german": {
+          "name": "Find mich, triff mich, heil mich",
+          "description": "Feuern Sie ein Pack-a-Punch-Ballistisches Messer auf einen Verbündeten, um ihn wiederzubeleben."
+        },
+        "italian": {
+          "name": "Guardami, accoltellami, curami",
+          "description": "Lancia un coltello balistico con Pack a Punch a un alleato ucciso per rianimarlo da lontano."
+        },
+        "japanese": {
+          "name": "刺して癒しを",
+          "description": "威力アップされたバリスティックナイフで、遠距離から倒れた味方を蘇生させる。"
+        },
+        "polish": {
+          "name": "Przyjdź, zaatakuj i wylecz mnie",
+          "description": "Rzuć nożem Bowiego z pakietem wzmocnień w rannego sojusznika, aby go reanimować na odległość."
+        },
+        "russian": {
+          "name": "Увидел, ударил, вылечил",
+          "description": "Бросьте улучшенный стреляющий нож в раненого союзника, чтобы реанимировать его."
+        },
+        "schinese": {
+          "name": "一刀回天",
+          "description": "向倒地的队友发射一把经“超频改造”的弹射飞刀，将其从远处复活。"
+        },
+        "spanish": {
+          "name": "Visto, apuñalado, curado",
+          "description": "Lanza un cuchillo balístico de la expendedora a un aliado caído para revivirlo a distancia."
+        }
+      }
+    },
+    "SP_ZOM_TRAPS": {
+      "translations": {
+        "english": {
+          "name": "Hands Off the Merchandise",
+          "description": "Kill the Pentagon thief before it can steal your load-out."
+        },
+        "french": {
+          "name": "Pas touche!",
+          "description": "uer le voleur du Pentagone avant qu'il ne dérobe votre équipement."
+        },
+        "german": {
+          "name": "Finger weg",
+          "description": "Erledigen Sie den Pentagon-Dieb, bevor er Ihre Ausrüstung stehlen kann."
+        },
+        "italian": {
+          "name": "Giù le mani dalla mercanzia",
+          "description": "Uccidi il ladro al Pentagono, prima che ti rubi l'equipaggiamento."
+        },
+        "japanese": {
+          "name": "その手をどけろ",
+          "description": "装備を盗まれる前に、ペンタゴンのシーフを倒す。"
+        },
+        "polish": {
+          "name": "Dawaj towar",
+          "description": "Zabij złodzieja z Pentagonu, zanim ukradnie ci wyposażenie."
+        },
+        "russian": {
+          "name": "Руки прочь!",
+          "description": "Убейте Пентагонского вора до того, как он украдет ваше снаряжение."
+        },
+        "schinese": {
+          "name": "别碰我的装备",
+          "description": "在五角大楼小偷偷走你的装备之前杀死他。"
+        },
+        "spanish": {
+          "name": "El género no se toca",
+          "description": "Mata al ladrón del Pentágono antes de que te robe el armamento."
+        }
+      }
+    },
+    "SP_ZOM_SILVERBACK": {
+      "translations": {
+        "english": {
+          "name": "Sacrificial Lamb",
+          "description": "Kill 6 zombies after getting shot by a Pack-a-Punched Crossbow bolt."
+        },
+        "french": {
+          "name": "Sacrifice animal",
+          "description": "Tuer 6 zombies dans l'explosion après avoir tiré sur/été touché par un allié avec un carreau d'arbalète passé par la machine \"Sacré punch!\""
+        },
+        "german": {
+          "name": "Opferlamm",
+          "description": "Erledigen Sie mit einem Pack-a-Punch-Armbrustbolzen 6 Zombies durch die Explosion."
+        },
+        "italian": {
+          "name": "Agnello sacrificale",
+          "description": "Spara o fatti sparare da un alleato con la balestra Pack-a-Punch e uccidi sei zombi nell'esplosione."
+        },
+        "japanese": {
+          "name": "いけにえの子羊",
+          "description": "パック・ア・パンチされたクロスボウで仲間を撃つか撃たれた状態で、6匹ゾンビを爆発で倒す。"
+        },
+        "polish": {
+          "name": "Baranek ofiarny",
+          "description": "Strzel do sojusznika lub zostań trafiony kuszą z pakietem wzmocnień i zabij 6 zombie w eksplozji."
+        },
+        "russian": {
+          "name": "Жертвенный агнец",
+          "description": "Раньте союзника из улучшенного арбалета или получите такое ранение сами, а потом убейте взрывом 6 зомби."
+        },
+        "schinese": {
+          "name": "献祭羔羊",
+          "description": "被队友使用“超频改造”后的弩箭射中后，利用其引发的爆炸击杀6只僵尸。"
+        },
+        "spanish": {
+          "name": "Chivo expiatorio",
+          "description": "Dispara a o que te dispare un aliado con una ballesta de la expendedora y mata a 6 zombis con la explosión."
+        }
+      }
+    },
+    "SP_ZOM_FLAMINGBULL": {
+      "translations": {
+        "english": {
+          "name": "\"Insert Coin\"",
+          "description": "Access the terminal and battle the forces of the Cosmic Silverback in Dead Ops Arcade."
+        },
+        "french": {
+          "name": "Insérer jeton",
+          "description": "Accéder au terminal et combattre les forces du Gorille Cosmique en mode Dead Ops Arcade."
+        },
+        "german": {
+          "name": "Bitte Münze einwerfen",
+          "description": "Greifen Sie auf das Terminal zu und kämpfen Sie gegen den kosmischen Silberrücken in Dead Ops."
+        },
+        "italian": {
+          "name": "Insert Coin",
+          "description": "Accedi al terminale e combatti l'esercito del gorilla cosmico in Dead Ops Arcade."
+        },
+        "japanese": {
+          "name": "INSERT COIN",
+          "description": "ターミナルにアクセスして、DEAD OPS ARCADEでコスミック・シルバーバック軍と戦う。"
+        },
+        "polish": {
+          "name": "Włóż monetę",
+          "description": "Uzyskaj dostęp do terminalu pokonaj siły Kosmicznego Goryla w trybie Operacja sztywniak."
+        },
+        "russian": {
+          "name": "Вставьте жетон",
+          "description": "Доберитесь до терминала и сыграйте в \"Дохлых героев\"."
+        },
+        "schinese": {
+          "name": "投币开玩",
+          "description": "登录电脑终端机解锁“死亡行动街机”模式，并击败“宇宙银背”的势力。"
+        },
+        "spanish": {
+          "name": "Introduce una moneda",
+          "description": "Accede al terminal y enfréntate a las fuerzas del gorila cósmico en Dead Ops Arcade."
+        }
+      }
+    },
+    "SP_ZOM_CHICKENS": {
+      "translations": {
+        "english": {
+          "name": "Easy Rhino",
+          "description": "In Dead Ops Arcade, use a Speed Boost to blast through 20 or more enemies at one time."
+        },
+        "french": {
+          "name": "Rhinocéros",
+          "description": "En mode Dead Ops Arcade, utiliser le boosteur de vitesse pour foncer sur 20 ennemis ou plus à la fois."
+        },
+        "german": {
+          "name": "Rhinozeros",
+          "description": "Setzen Sie in Dead Ops einen Geschwindigkeitsschub ein und jagen Sie durch 20 oder mehr Gegner."
+        },
+        "italian": {
+          "name": "Piano, amico!",
+          "description": "In Dead Ops Arcade, investi almeno 20 nemici usando una sola accelerazione."
+        },
+        "japanese": {
+          "name": "イージー・ライノ",
+          "description": "DEAD OPS ARCADEでスピードブーストを使い、一度に20人以上の敵を倒す。"
+        },
+        "polish": {
+          "name": "Nosorożec",
+          "description": "Użyj przyspieszenia w Operacji sztywniak i przebij się przez 20 lub więcej przeciwników na raz."
+        },
+        "russian": {
+          "name": "Носорог",
+          "description": "В режиме \"Дохлые герои\" используйте ускорение, чтобы пробиться сквозь 20 или более противников за один раз."
+        },
+        "schinese": {
+          "name": "势不可挡",
+          "description": "在“死亡行动街机”模式中，使用“冲刺加速”一次性撞飞至少20名敌人。"
+        },
+        "spanish": {
+          "name": "Tranqui, rinoceronte",
+          "description": "En Dead Ops Arcade, usa un acelerón para acabar con 20 o más enemigos a la vez."
+        }
+      }
+    },
+    "SP_LVL_FRONTEND_CHAIR": {
+      "translations": {
+        "english": {
+          "name": "Just ask me nicely",
+          "description": "Break free from the torture chair."
+        },
+        "french": {
+          "name": "Quel est le mot magique?",
+          "description": "Se libérer de la chaise de torture."
+        },
+        "german": {
+          "name": "Geht das auch etwas netter?",
+          "description": "Befreien Sie sich aus dem Verhörstuhl."
+        },
+        "italian": {
+          "name": "Si dice \"per favore\"...",
+          "description": "Liberati dalla sedia delle torture."
+        },
+        "japanese": {
+          "name": "やさしく聞いてくれ",
+          "description": "拷問イスから脱出する。"
+        },
+        "polish": {
+          "name": "Wystarczy ładnie poprosić",
+          "description": "Uwolnij się z krzesła tortur"
+        },
+        "russian": {
+          "name": "Повежливей, пожалуйста",
+          "description": "Вырвитесь из пыточного кресла."
+        },
+        "schinese": {
+          "name": "好好求我",
+          "description": "从拷问椅上挣脱。"
+        },
+        "spanish": {
+          "name": "Pídemelo con amabilidad",
+          "description": "Libérate de la silla de tortura."
+        }
+      }
+    },
+    "SP_LVL_FRONTEND_ZORK": {
+      "translations": {
+        "english": {
+          "name": "Eaten by a Grue",
+          "description": "Play Zork on the terminal."
+        },
+        "french": {
+          "name": "Mangé par une grue",
+          "description": "Jouer à Zork sur le terminal."
+        },
+        "german": {
+          "name": "Grue-Futter",
+          "description": "Spielen Sie Zork am Terminal."
+        },
+        "italian": {
+          "name": "Divorato da un Grue",
+          "description": "Gioca a Zork sul terminale."
+        },
+        "japanese": {
+          "name": "グルーに食われるぞ",
+          "description": "ターミナルでZorkをプレイする。"
+        },
+        "polish": {
+          "name": "Zjedzony przez Grue'a",
+          "description": "Zagraj w Zorka na terminalu."
+        },
+        "russian": {
+          "name": "Вы съедены Груем",
+          "description": "Сыграйте в Zork на терминале."
+        },
+        "schinese": {
+          "name": "沦为格鲁腹中餐",
+          "description": "在电脑终端机上游玩经典文本冒险游戏“魔域”。"
+        },
+        "spanish": {
+          "name": "Comido por un Grue",
+          "description": "Juega a Zork en el terminal."
+        }
+      }
+    },
+    "DLC2_ZOM_LUNARLANDERS": {
+      "translations": {
+        "english": {
+          "name": "The eagle has landers",
+          "description": "In Ascension, escape on all 3 lunar landers."
+        },
+        "french": {
+          "name": "Atterrisseurs salvateurs",
+          "description": "S'échapper avec les 3 atterrisseurs lunaires dans Ascension."
+        },
+        "german": {
+          "name": "Der Adler hat Landefahrzeuge",
+          "description": "Entkommen Sie auf 'Ascension' mit allen 3 Landefahrzeugen."
+        },
+        "italian": {
+          "name": "Salvezza modulare",
+          "description": "In Ascension, fuggi su tutti e 3 i moduli lunari."
+        },
+        "japanese": {
+          "name": "イーグル・ランダー",
+          "description": "ASCENSIONで月着陸船3機すべてを使って逃げる。"
+        },
+        "polish": {
+          "name": "Orzeł ma lądowniki",
+          "description": "W Ascension musisz uciec wszystkimi trzema lądownikami księżycowymi."
+        },
+        "russian": {
+          "name": "Взлет \"Орла",
+          "description": "Эвакуироваться на всех 3 лунных модулях в режиме \"Восхождение\"."
+        },
+        "schinese": {
+          "name": "“鹰号”已登舱",
+          "description": "在“阿森松”地图中，搭乘全部3部登月舱成功脱困。"
+        },
+        "spanish": {
+          "name": "El águila tiene módulos lunares",
+          "description": "En Ascension, escapa en los 3 módulos lunares."
+        }
+      }
+    },
+    "DLC2_ZOM_BLACKHOLE": {
+      "translations": {
+        "english": {
+          "name": "They are going THROUGH!",
+          "description": "In Ascension, kill at least 5 zombies with 1 Gersh Device."
+        },
+        "french": {
+          "name": "Ils vont TRÉpasser!",
+          "description": "Tuer au moins 5 zombies avec un engin Gersh dans Ascension."
+        },
+        "german": {
+          "name": "Sie gehen HINDURCH!",
+          "description": "Töten Sie auf 'Ascension' mindestens 5 Zombies mit einem coolen Gerät."
+        },
+        "italian": {
+          "name": "Passano ATTRAVERSO!",
+          "description": "In Ascension, uccidi almeno 5 zombi con un Ordigno di Gersh."
+        },
+        "japanese": {
+          "name": "終わりだ！",
+          "description": "ASCENSIONでガーシュデバイス1個を使って最低5匹のゾンビを倒す。"
+        },
+        "polish": {
+          "name": "PRZEBIJAJĄ SIĘ!",
+          "description": "W Ascension zabij przynajmniej 5 zombie za pomocą jednego Urządzenia Gersha."
+        },
+        "russian": {
+          "name": "Они ПРОРЫВАЮТСЯ!",
+          "description": "Убить не менее 5 зомби с помощью 1 прибора Герша в режиме \"Восхождение\"."
+        },
+        "schinese": {
+          "name": "他们穿过来了！",
+          "description": "在“阿森松”地图中，使用一个格施装置杀死至少5只僵尸。"
+        },
+        "spanish": {
+          "name": "Están cruzando!",
+          "description": "En Ascension, mata al menos a 5 zombis con 1 dispositivo Gersh."
+        }
+      }
+    },
+    "DLC2_ZOM_PACKAPUNCH": {
+      "translations": {
+        "english": {
+          "name": "Space Race",
+          "description": "In Ascension, Pack-a-Punch a weapon by round 8."
+        },
+        "french": {
+          "name": "Course spatiale",
+          "description": "Passer une arme dans \"Sacré punch !\" avant la 8e manche dans Ascension."
+        },
+        "german": {
+          "name": "Weltraumrennen",
+          "description": "Verbessern Sie auf 'Ascension' bis Runde 8 eine Waffe mit einem Pack-a-Punch."
+        },
+        "italian": {
+          "name": "Corsa spaziale",
+          "description": "In Ascension, utilizza Pack-a-Punch su un'arma prima del round 8."
+        },
+        "japanese": {
+          "name": "スペースレース",
+          "description": "ASCENSIONでラウンド8までにパック・ア・パンチする。"
+        },
+        "polish": {
+          "name": "Kosmiczny wyścig",
+          "description": "W Ascension, wzmocnij broń przed ósmą rundą."
+        },
+        "russian": {
+          "name": "Космическая гонка",
+          "description": "Улучшить оружие с помощью \"Улучшайзера\" до 8 раунда в режиме \"Восхождение\"."
+        },
+        "schinese": {
+          "name": "太空竞赛",
+          "description": "在第8波之前通过“超频改造”升级一把武器。"
+        },
+        "spanish": {
+          "name": "Carrera espacial",
+          "description": "En Ascension, usa un potenciador con un arma antes de la ronda 8."
+        }
+      }
+    },
+    "DLC2_ZOM_FIREMONKEY": {
+      "translations": {
+        "english": {
+          "name": "Chimp on the barbie",
+          "description": "In Ascension, kill a space monkey with a fire trap."
+        },
+        "french": {
+          "name": "Macaque grillé",
+          "description": "Tuer un singe de l'espace avec un piège incendiaire dans Ascension."
+        },
+        "german": {
+          "name": "Gegrillter Affe",
+          "description": "Erledigen Sie in 'Ascension' einen Weltraumaffen mit einer Feuerfalle."
+        },
+        "italian": {
+          "name": "Scimmia al barbecue",
+          "description": "In Ascension, uccidi una scimmia spaziale usando una trappola incendiaria."
+        },
+        "japanese": {
+          "name": "サルの丸焼き",
+          "description": "ASCENSIONで火のワナを使ってスペースモンキーを倒す。"
+        },
+        "polish": {
+          "name": "Grillowana małpa",
+          "description": "W Ascension załatw kosmiczną małpę za pomocą pułapki ogniowej."
+        },
+        "russian": {
+          "name": "Жареная мартышка",
+          "description": "Убить космическую обезьяну огненной ловушкой в режиме \"Восхождение\"."
+        },
+        "schinese": {
+          "name": "烤架上的猩猩",
+          "description": "在“阿森松”地图中，用火焰陷阱杀一只太空猴子。"
+        },
+        "spanish": {
+          "name": "Mono a la parrilla",
+          "description": "En Ascension, mata a un mono espacial con una trampa de fuego."
+        }
+      }
+    },
+    "DLC3_ZOM_STAND_IN": {
+      "translations": {
+        "english": {
+          "name": "Stand-in",
+          "description": "In Call of the Dead, send the crew to Paradise in solo or co-op."
+        },
+        "french": {
+          "name": "Doublure",
+          "description": "Envoyez l'équipe au paradis dans Call of the Dead."
+        },
+        "german": {
+          "name": "Double",
+          "description": "Schicken Sie in Call of the Dead im Solo- oder Koop-Modus die ganze Crew ins Paradies."
+        },
+        "italian": {
+          "name": "Controfigura",
+          "description": "In Call of the Dead, manda la troupe in paradiso in modalità cooperativa o in singolo."
+        },
+        "japanese": {
+          "name": "代役",
+          "description": "CALL OF THE DEADでソロプレイか協力プレイでパラダイスにクルーを送る。"
+        },
+        "polish": {
+          "name": "Dubler",
+          "description": "W Call of the Dead wyślij ekipę do Raju w trybie solowym lub współpracy."
+        },
+        "russian": {
+          "name": "Кинозвезда",
+          "description": "Отправить съемочную группу в рай в индивидуальной или совместной игре режима \"Зов мертвых\"."
+        },
+        "schinese": {
+          "name": "替身",
+          "description": "在“亡者召唤”地图中，单人完成彩蛋。"
+        },
+        "spanish": {
+          "name": "Doble",
+          "description": "En Call of the Dead, envía a la tropa al paraíso en modo cooperativo o individual."
+        }
+      }
+    },
+    "DLC3_ZOM_ENSEMBLE_CAST": {
+      "translations": {
+        "english": {
+          "name": "Ensemble Cast",
+          "description": "In Call of the Dead, send the crew to Paradise in co-op"
+        },
+        "french": {
+          "name": "Nouveau casting",
+          "description": "Envoyez l'équipe au paradis dans Call of the Dead (coop)."
+        },
+        "german": {
+          "name": "Ensemblefilm",
+          "description": "Schicken Sie in Call of the Dead im Koop-Modus die ganze Crew ins Paradies."
+        },
+        "italian": {
+          "name": "Cast",
+          "description": "In Call of the Dead, manda la troupe in paradiso in modalità cooperativa."
+        },
+        "japanese": {
+          "name": "アンサンブル・キャスト",
+          "description": "CALL OF THE DEADで協力プレイでパラダイスにクルーを送る。"
+        },
+        "polish": {
+          "name": "Zespół",
+          "description": "W Call of the Dead wyślij ekipę do Raju w trybie współpracy."
+        },
+        "russian": {
+          "name": "Сыгранный",
+          "description": "Отправить съемочную группу в рай в совместной игре режима \"Зов мертвых\"."
+        },
+        "schinese": {
+          "name": "全明星阵容",
+          "description": "在“亡者召唤”地图中，合作完成彩蛋。"
+        },
+        "spanish": {
+          "name": "Reparto modesto",
+          "description": "En Call of the Dead, envía a la tropa al paraíso en modo cooperativo."
+        }
+      }
+    },
+    "DLC3_ZOM_STUNTMAN": {
+      "translations": {
+        "english": {
+          "name": "Stuntman",
+          "description": "In Call of the Dead, make a zombie explode using the V-R11"
+        },
+        "french": {
+          "name": "Cascadeur",
+          "description": "Faites exploser un zombie avec le V-R11 dans Call of the Dead."
+        },
+        "german": {
+          "name": "Stuntman",
+          "description": "Lassen Sie in Call of the Dead einen Zombie mit der V-R11 explodieren."
+        },
+        "italian": {
+          "name": "Stuntman",
+          "description": "In Call of the Dead, fai esplodere uno zombi con il V-R11."
+        },
+        "japanese": {
+          "name": "スタントマン",
+          "description": "CALL OF THE DEADでV-R11を使ってゾンビを爆発させる。"
+        },
+        "polish": {
+          "name": "Kaskader",
+          "description": "W Call of the Dead wysadź zombie używając V-R11."
+        },
+        "russian": {
+          "name": "Каскадер",
+          "description": "Взорвать зомби с помощью V-R11 в режиме \"Зов мертвых\"."
+        },
+        "schinese": {
+          "name": "特技替身",
+          "description": "在“亡者召唤”地图中，使用“V-R11”射线枪使一只僵尸发生爆炸。"
+        },
+        "spanish": {
+          "name": "Especialista",
+          "description": "En Call of the Dead, haz explotar a un zombi con el V-R11."
+        }
+      }
+    },
+    "DLC3_ZOM_SHOOTING_ON_LOCATION": {
+      "translations": {
+        "english": {
+          "name": "Shooting on Location",
+          "description": "In Call of the Dead, kill 10 zombies with one Scavenger shot from over 100 feet away"
+        },
+        "french": {
+          "name": "Shooting d'exception",
+          "description": "Tuez 10 zombies à 30 mètres de distance en un seul tir de Pillard dans Call of the Dead."
+        },
+        "german": {
+          "name": "Distanzaufnahme",
+          "description": "Schalten Sie in Call of the Dead 10 Zombies mit einem Scavenger-Schuss aus 100 Fuß Entfernung aus."
+        },
+        "italian": {
+          "name": "Riprese in esterni",
+          "description": "In Call of the Dead, uccidi 10 zombi con un colpo di Sciacallo da una distanza di oltre 100 piedi."
+        },
+        "japanese": {
+          "name": "狙撃王",
+          "description": "CALL OF THE DEADで1つのスカベンジャーショットを使って100フィート先の10匹のゾンビを倒す。"
+        },
+        "polish": {
+          "name": "Ostrzeliwanie pozycji",
+          "description": "W Call of the Dead zabij 10 zombie, jednym strzałem ze Scavengera, z dystansu co najmniej 100 stóp."
+        },
+        "russian": {
+          "name": "Натурные съемки",
+          "description": "Убить 10 зомби одним выстрелом из \"Мародера\" с расстояния более 100 футов в режиме \"Зов мертвых\"."
+        },
+        "schinese": {
+          "name": "千米狙凶",
+          "description": "在“亡者召唤”地图中，使用“拾荒者”狙击枪从100英尺外一发消灭10只僵尸。"
+        },
+        "spanish": {
+          "name": "Acción en exteriores",
+          "description": "En Call of the Dead, mata a 10 zombis con un disparo de Carroñero desde más de 30 metros."
+        }
+      }
+    },
+    "DLC3_ZOM_QUIET_ON_THE_SET": {
+      "translations": {
+        "english": {
+          "name": "Quiet on the Set",
+          "description": "In Call of the Dead, cut the lights on the Director"
+        },
+        "french": {
+          "name": "Coupez!",
+          "description": "Éteignez les lumières du plateau dans Call of the Dead."
+        },
+        "german": {
+          "name": "Ruhe am Set",
+          "description": "Knipsen Sie in Call of the Dead dem Regisseur das Licht aus."
+        },
+        "italian": {
+          "name": "Silenzio sul set",
+          "description": "In Call of the Dead, spegni i riflettori sul regista."
+        },
+        "japanese": {
+          "name": "お静かに",
+          "description": "CALL OF THE DEADで監督のライトを切る。"
+        },
+        "polish": {
+          "name": "Cisza na planie",
+          "description": "W Call of the Dead zgaś światło reżyserowi."
+        },
+        "russian": {
+          "name": "Тишина на площадке",
+          "description": "Направить свет на режиссера в режиме \"Зов мертвых\"."
+        },
+        "schinese": {
+          "name": "全场肃静",
+          "description": "在“亡者召唤”地图中，彻底击退僵尸导演（乔治·罗梅罗）。"
+        },
+        "spanish": {
+          "name": "Silencio en el plató",
+          "description": "En Call of the Dead, apágale las luces al director."
+        }
+      }
+    },
+    "DLC4_ZOM_TEMPLE_SIDEQUEST": {
+      "translations": {
+        "english": {
+          "name": "Time Travel Will Tell",
+          "description": "In Shangri-La, acquire the focusing stone."
+        },
+        "french": {
+          "name": "Voyageur du temps",
+          "description": "Dans Shangri-La, obtenez la pierre de convergence."
+        },
+        "german": {
+          "name": "Nur die Zeitreise wird es zeigen",
+          "description": "Finden Sie auf Shangri-La den Fokussierstein."
+        },
+        "italian": {
+          "name": "Viaggio nel tempo",
+          "description": "In Shangri-La, ottieni la pietra focale."
+        },
+        "japanese": {
+          "name": "タイムトラベルで解決",
+          "description": "SHANGRI-LAでフォーカス・ストーンを取得する。"
+        },
+        "polish": {
+          "name": "Podróż w czasie ci powie",
+          "description": "W Shangri-la zdobądź kamień koncentracji."
+        },
+        "russian": {
+          "name": "Время покажет",
+          "description": "Добыть фокусировочный камень на карте \"Шангри-Ла\"."
+        },
+        "schinese": {
+          "name": "时光旅行见分晓",
+          "description": "在“香格里拉”地图中，获得聚焦之石。"
+        },
+        "spanish": {
+          "name": "El viaje en el tiempo lo dirá",
+          "description": "En Shangri-La, consigue la piedra de enfoque."
+        }
+      }
+    },
+    "DLC4_ZOM_BLINDED_BY_THE_FRIGHT": {
+      "translations": {
+        "english": {
+          "name": "Blinded By the Fright",
+          "description": "In Shangri-La, kill a Shrieker zombie while blinded by it."
+        },
+        "french": {
+          "name": "Aveuglé par la peur",
+          "description": "Dans Shangri-La, tuez un zombie hurleur après qu'il vous ait aveuglé."
+        },
+        "german": {
+          "name": "Blind vor Angst",
+          "description": "Erledigen Sie auf Shangri-La einen Schreier-Zombie, während er Sie blendet."
+        },
+        "italian": {
+          "name": "Accecati dallo spavento",
+          "description": "In Shangri-La, uccidi uno zombi urlante mentre sei accecato."
+        },
+        "japanese": {
+          "name": "恐怖の目くらまし",
+          "description": "SHANGRI-LAで目くらまししている間にシュリーカーゾンビを倒す。"
+        },
+        "polish": {
+          "name": "Oniemiały ze strachu",
+          "description": "W Shangri-la zabij zombie Shriekiera będąc przez niego oślepionym."
+        },
+        "russian": {
+          "name": "Удар вслепую",
+          "description": "Убить зомби-визгуна на карте \"Шангри-Ла\", будучи ослепленным им."
+        },
+        "schinese": {
+          "name": "盲中取栗",
+          "description": "在“香格里拉”地图中，处于被致盲状态时反杀一只“尖叫僵尸”。"
+        },
+        "spanish": {
+          "name": "Cegado por el miedo",
+          "description": "En Shangri-La, mata a un zombi aullador mientras estás cegado por él."
+        }
+      }
+    },
+    "DLC4_ZOM_ZOMB_DISPOSAL": {
+      "translations": {
+        "english": {
+          "name": "Zomb Disposal",
+          "description": "In Shangri-La, dispose of a Napalm zombie without it harming any players."
+        },
+        "french": {
+          "name": "Effaceur",
+          "description": "Dans Shangri-La, éliminez un zombie napalm sans infliger de dégâts aux autres joueurs."
+        },
+        "german": {
+          "name": "Zombiesondermüll",
+          "description": "Entledigen Sie sich auf Shangri-La eines Napalm-Zombies, ohne dass ein Spieler verletzt wird."
+        },
+        "italian": {
+          "name": "Disinnesca gli zombi",
+          "description": "In Shangri-La, liberati di uno zombi al napalm senza ferire altri giocatori."
+        },
+        "japanese": {
+          "name": "ゾンビ処分業者",
+          "description": "SHANGRI-LAでナパームゾンビを傷つけずに対処する。"
+        },
+        "polish": {
+          "name": "Zsyp zombie",
+          "description": "W Shangri-La pozbądź się napalmowego zombie, nie raniąc innych graczy."
+        },
+        "russian": {
+          "name": "Запах напалма",
+          "description": "Убить напалмового зомби на карте \"Шангри-Ла\", не допустив урона другим игрокам."
+        },
+        "schinese": {
+          "name": "烈火无情",
+          "description": "在“香格里拉”地图中，确保“凝固汽油僵尸”未对任何玩家造成伤害的前提下将其消灭。"
+        },
+        "spanish": {
+          "name": "Eliminación de zombis",
+          "description": "En Shangri-La, elimina a un zombi de napalm sin dañar a otros jugadores."
+        }
+      }
+    },
+    "DLC4_ZOM_MONKEY_SEE_MONKEY_DONT": {
+      "translations": {
+        "english": {
+          "name": "Monkey See, Monkey Don't",
+          "description": "In Shangri-La, get something from the monkeys."
+        },
+        "french": {
+          "name": "Un singe averti...",
+          "description": "Dans Shangri-La, obtenez quelque chose des singes."
+        },
+        "german": {
+          "name": "Affentheater",
+          "description": "Holen Sie sich auf Shangri-La was von den Affen."
+        },
+        "italian": {
+          "name": "Scimmia che vede e non vede",
+          "description": "In Shangri-La, ottieni qualcosa dalle scimmie."
+        },
+        "japanese": {
+          "name": "見ざる、聞かざる",
+          "description": "SHANGRI-LAでサルから何かを取る。"
+        },
+        "polish": {
+          "name": "Małpa widzi lub nie",
+          "description": "W Shangri-la weź coś od małp."
+        },
+        "russian": {
+          "name": "Мартышкин труд",
+          "description": "Взять что-нибудь у обезьян на карте \"Шангри-Ла\"."
+        },
+        "schinese": {
+          "name": "猴子看，猴子不干",
+          "description": "在“香格里拉”地图中，从猴子身上抢回奖励。"
+        },
+        "spanish": {
+          "name": "El mono no quiere",
+          "description": "En Shangri-La, consigue algo de los monos."
+        }
+      }
+    },
+    "DLC4_ZOM_SMALL_CONSOLATION": {
+      "translations": {
+        "english": {
+          "name": "Small Consolation",
+          "description": "In Shangri-La, use the 31-79 JGb215 on each type of zombie."
+        },
+        "french": {
+          "name": "Un peu de réconfort",
+          "description": "Dans Shangri-La, utilisez le 31-79 JGb215 sur chaque type de zombie."
+        },
+        "german": {
+          "name": "Ein schwacher Trost",
+          "description": "Benutzen Sie auf Shangri-La die 31-79 JGb215 gegen jeden Zombietypen."
+        },
+        "italian": {
+          "name": "Magra consolazione",
+          "description": "In Shangri-La, usa il 31-79 JGb215 su tutti i tipi di zombi."
+        },
+        "japanese": {
+          "name": "つかの間の安らぎ",
+          "description": "SHANGRI-LAですべてのタイプのゾンビに31-79 JGb215を使う。"
+        },
+        "polish": {
+          "name": "Drobne pocieszenie",
+          "description": "W Shangri-la użyj 31-79 JGb215, na każdym typie zombie."
+        },
+        "russian": {
+          "name": "Слабое утешение",
+          "description": "Применить 31-79 JGb215 против каждого типа зомби на карте \"Шангри-Ла\"."
+        },
+        "schinese": {
+          "name": "寸草不留",
+          "description": "在“香格里拉”地图中，使用“31-79 JGb215”收缩射线枪轰击每一种类型的僵尸。"
+        },
+        "spanish": {
+          "name": "Pequeño consuelo",
+          "description": "En Shangri-La, usa el 31-79 JGb215 contra cada tipo de zombi."
+        }
+      }
+    },
+    "DLC5_ZOM_CRYOGENIC_PARTY": {
+      "translations": {
+        "english": {
+          "name": "Cryogenic Slumber Party",
+          "description": "In Moon, complete Richtofen's grand scheme."
+        },
+        "french": {
+          "name": "Soirée pyjama cryogénique",
+          "description": "Réaliser le grand projet de Richtofen dans Moon."
+        },
+        "german": {
+          "name": "Kryogenetische Pyjama-Party",
+          "description": "Vollenden Sie auf 'Moon' Richtofens Plan."
+        },
+        "italian": {
+          "name": "Pigiama party criogenico",
+          "description": "In Moon, completa il piano di Richtofen."
+        },
+        "japanese": {
+          "name": "低温休眠パーティー",
+          "description": "MOONで、リヒトーフェンの偉大な計画を完遂する。"
+        },
+        "polish": {
+          "name": "Mrożąco nudna impreza.",
+          "description": "Zrealizuj wielki plan Richtofena na mapie Moon."
+        },
+        "russian": {
+          "name": "Вечеринка в криокамере",
+          "description": "Воплотить великий план Рихтгофена в режиме \"Луна\"."
+        },
+        "schinese": {
+          "name": "冷冻睡衣派对",
+          "description": "在”月球”地图中，完成“里希多芬”的宏伟计划。"
+        },
+        "spanish": {
+          "name": "Fiesta criogénica",
+          "description": "Completa el plan maestro de Richtofan en Moon."
+        }
+      }
+    },
+    "DLC5_ZOM_ONE_SMALL_HACK": {
+      "translations": {
+        "english": {
+          "name": "One Small Hack for a Man... ",
+          "description": "In Moon, hack something."
+        },
+        "french": {
+          "name": "Un petit piratage pour l'Homme",
+          "description": "Pirater quelque chose dans Moon."
+        },
+        "german": {
+          "name": "Kleiner Hack für einen Menschen",
+          "description": "Hacken Sie auf 'Moon' irgendwas."
+        },
+        "italian": {
+          "name": "Violazioni sulla luna",
+          "description": "In Moon, viola qualcosa."
+        },
+        "japanese": {
+          "name": "小さなハッキング",
+          "description": "MOONで、ハッキングする。"
+        },
+        "polish": {
+          "name": "Jeden mały włam dla człowieka...",
+          "description": "Na mapie moon, włam się gdzieś."
+        },
+        "russian": {
+          "name": "Маленький взлом для человека...",
+          "description": "Взломать что-нибудь в режиме \"Луна\"."
+        },
+        "schinese": {
+          "name": "人类的一小骇...",
+          "description": "在”月球”地图中，使用黑客工具破解电子终端。"
+        },
+        "spanish": {
+          "name": "Un pequeño pirateo...",
+          "description": "Piratea algo en Moon."
+        }
+      }
+    },
+    "DLC5_ZOM_ONE_GIANT_LEAP": {
+      "translations": {
+        "english": {
+          "name": "One Giant Leap ",
+          "description": "In Moon, become trapped in the Receiving Area and free yourself through resurrection in co-op."
+        },
+        "french": {
+          "name": "Saut de géant",
+          "description": "ester piégé dans la zone de réception et se libérer grâce à la résurrection en coop dans Moon."
+        },
+        "german": {
+          "name": "Ein großer Schritt",
+          "description": "Werden Sie im Wareneingang auf 'Moon' gefangen und befreien Sie sich durch Wiederbelebung im Koop-M."
+        },
+        "italian": {
+          "name": "Un grande passo",
+          "description": "In Moon, rimani intrappolato nell'Area accoglienza e liberati tramite la risurrezione in coop."
+        },
+        "japanese": {
+          "name": "偉大な飛躍",
+          "description": "MOONで、RESURRECTION協力モード時に、受信エリアに閉じ込められた後、脱出する。"
+        },
+        "polish": {
+          "name": "Jeden olbrzymi krok",
+          "description": "Na mapie Moon, w kooperacji daj się złapać w Receiving Area i uwolnij się przez zmartwychwstanie."
+        },
+        "russian": {
+          "name": "Огромный скачок",
+          "description": "Застрять в приемной зоне и освободиться путем воскрешения в совместной игре режима \"Луна\"."
+        },
+        "schinese": {
+          "name": "一大飞跃",
+          "description": "在”月球”地图中，被挖掘机困在“传送整备区”，通过合作模式中复活的方式脱困。"
+        },
+        "spanish": {
+          "name": "Un gran paso",
+          "description": "Quédate atrapado en la recepción y libérate resucitando en cooperativo en Moon."
+        }
+      }
+    },
+    "DLC5_ZOM_PERKS_IN_SPACE": {
+      "translations": {
+        "english": {
+          "name": "Perks in Spaaaaace! ",
+          "description": "In Moon, purchase every perk in one game."
+        },
+        "french": {
+          "name": "Des atouts dans l'espace!",
+          "description": "Acheter tous les atouts en une partie dans Moon."
+        },
+        "german": {
+          "name": "Extras im Weltraum ...",
+          "description": "Kaufen Sie auf 'Moon' alle Extras in einem Spiel."
+        },
+        "italian": {
+          "name": "Bonus nello spaaazio!",
+          "description": "In Moon, acquista tutti i bonus in una partita."
+        },
+        "japanese": {
+          "name": "大宇宙の力",
+          "description": "MOONで、1ゲーム中にすべてのPerkを購入する。"
+        },
+        "polish": {
+          "name": "Perki w kosmooosie!",
+          "description": "Na mapie Moon, kup wszystkie perki w jednej grze."
+        },
+        "russian": {
+          "name": "Космические возможности",
+          "description": "Приобрести все возможности в одной игре режима \"Луна\"."
+        },
+        "schinese": {
+          "name": "太空饮料！",
+          "description": "在”月球”地图中，一局游戏内购买全部饮料。"
+        },
+        "spanish": {
+          "name": "¡Ventajas en el espacio!",
+          "description": "Compra todas las ventajas en una partida en Moon."
+        }
+      }
+    },
+    "DLC5_ZOM_FULLY_ARMED": {
+      "translations": {
+        "english": {
+          "name": "Fully Armed and Operational ",
+          "description": "In Moon, acquire 3 pack-a-punched weapons at the same time."
+        },
+        "french": {
+          "name": "Équipé et opérationnel",
+          "description": "Obtenir 3 armes passées par \"Sacré punch !\" en une seule fois dans Moon."
+        },
+        "german": {
+          "name": "Bis an die Zähne bewaffnet",
+          "description": "Erlangen Sie auf 'Moon' 3 Pack-a-Punch-Waffen gleichzeitig."
+        },
+        "italian": {
+          "name": "Armato e operativo",
+          "description": "In Moon, ottieni 3 armi Pack-a-Punch contemporaneamente."
+        },
+        "japanese": {
+          "name": "フル装備作戦",
+          "description": "MOONで、同時に3つのパック・ア・パンチされた武器を獲得する。"
+        },
+        "polish": {
+          "name": "Uzbrojony i gotowy.",
+          "description": "Na mapie Moon, zdobądź na raz, bronie o poziomie 3."
+        },
+        "russian": {
+          "name": "Отличная экипировка",
+          "description": "Завладеть 3 единицами улучшенного оружия сразу в режиме \"Луна\"."
+        },
+        "schinese": {
+          "name": "全副武装",
+          "description": "在”月球”地图中，同时持有3把经“超频改造”升级的武器。"
+        },
+        "spanish": {
+          "name": "Armado y operativo",
+          "description": "Consigue 3 armas de la expendedora a la vez en Moon."
+        }
+      }
+    },
+    "DLC5_ZOM_GROUND_CONTROL": {
+      "translations": {
+        "english": {
+          "name": "Ground Control ",
+          "description": "In Moon, prevent each excavator from breaching the base in one game."
+        },
+        "french": {
+          "name": "Contrôle terrestre",
+          "description": "Empêcher toutes les Excavatrices de pénétrer dans la base au cours d'une partie dans Moon."
+        },
+        "german": {
+          "name": "Bodenkontrolle",
+          "description": "Verhindern Sie in einem Spiel auf 'Moon', dass einer der Gräber ein Leck in der Basis verursacht."
+        },
+        "italian": {
+          "name": "Controllo terrestre",
+          "description": "In Moon, impedisci a tutte le scavatrici di irrompere nella base in una partita."
+        },
+        "japanese": {
+          "name": "地上制圧",
+          "description": "MOONで、1ゲーム中にすべての掘削機が基地へ突入するのを防ぐ。"
+        },
+        "polish": {
+          "name": "Kontrola naziemna",
+          "description": "Na mapie Moon, upewnij się, że koparka nie dotrze do bazy."
+        },
+        "russian": {
+          "name": "Все под контролем",
+          "description": "Не подпустить ни одного экскаватора к базе в одной игре режима \"Луна\"."
+        },
+        "schinese": {
+          "name": "地面控制",
+          "description": "在“月球”地图中，在单局游戏内阻止所有挖掘机破坏基地。"
+        },
+        "spanish": {
+          "name": "Control terrestre",
+          "description": "Evita que la excavadora penetre en la base en una partida en Moon."
+        }
+      }
+    },
+    "DLC5_ZOM_BIG_BANG_THEORY": {
+      "translations": {
+        "english": {
+          "name": "Big Bang Theory ",
+          "description": "In Moon, gain sweet, sweet, revenge."
+        },
+        "french": {
+          "name": "Théorie du Big Bang",
+          "description": "Mener à bien votre douce vengeance dans Moon."
+        },
+        "german": {
+          "name": "Der Urknall",
+          "description": "Rächen Sie sich auf 'Moon' so richtig süß."
+        },
+        "italian": {
+          "name": "Big Bang Theory",
+          "description": "In Moon, gustati la vendetta."
+        },
+        "japanese": {
+          "name": "ビッグバン理論",
+          "description": "MOONで、甘い、甘い復讐を達成する。"
+        },
+        "polish": {
+          "name": "Teoria Wielkiego Wybuchu",
+          "description": "Słodka zemsta na mapie Moon."
+        },
+        "russian": {
+          "name": "Теория большого взрыва",
+          "description": "Достойно отомстить врагам в режиме \"Луна\"."
+        },
+        "schinese": {
+          "name": "大爆炸理论",
+          "description": "在”月球”地图中，获得甜蜜的复仇。"
+        },
+        "spanish": {
+          "name": "Teoría del Big bang",
+          "description": "Consigue vengarte en Moon."
+        }
+      }
+    }
+  }
+}

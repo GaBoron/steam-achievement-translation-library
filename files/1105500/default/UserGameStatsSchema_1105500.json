@@ -1,0 +1,1143 @@
+{
+  "version": 1,
+  "app_id": "1105500",
+  "variant_id": "default",
+  "source_sha256": "a66551f415b733ffd9c33704104b0d21a1e11564ef7b17a6a66c2f0cfa9d44d3",
+  "languages": [
+    "english",
+    "japanese",
+    "koreana",
+    "schinese",
+    "tchinese"
+  ],
+  "achievements": {
+    "ACHIEVEMENT_0": {
+      "translations": {
+        "english": {
+          "name": "Master of Kamurocho",
+          "description": "Acquire all achievements in the game."
+        },
+        "japanese": {
+          "name": "YAKUZA 4",
+          "description": "ゲームで他の実績をすべて獲得する。"
+        },
+        "koreana": {
+          "name": "YAKUZA 4",
+          "description": "게임에서 다른 모든 업적을 달성해보세요."
+        },
+        "schinese": {
+          "name": "YAKUZA 4",
+          "description": "完成游戏中所有成就。"
+        },
+        "tchinese": {
+          "name": "YAKUZA 4",
+          "description": "完成遊戲中所有成就。"
+        }
+      }
+    },
+    "ACHIEVEMENT_1": {
+      "translations": {
+        "english": {
+          "name": "The Plot Thickens",
+          "description": "Clear Part 1 of the story."
+        },
+        "japanese": {
+          "name": "ストーリー第一部クリア",
+          "description": "ストーリー第一部をクリア"
+        },
+        "koreana": {
+          "name": "스토리 1부 클리어",
+          "description": "스토리 1부를 클리어"
+        },
+        "schinese": {
+          "name": "完成故事第一部",
+          "description": "完成故事第一部"
+        },
+        "tchinese": {
+          "name": "完成故事第一部",
+          "description": "完成故事第一部"
+        }
+      }
+    },
+    "ACHIEVEMENT_2": {
+      "translations": {
+        "english": {
+          "name": "Reunited",
+          "description": "Clear Part 2 of the story."
+        },
+        "japanese": {
+          "name": "ストーリー第二部クリア",
+          "description": "ストーリー第ニ部をクリア"
+        },
+        "koreana": {
+          "name": "스토리 2부 클리어",
+          "description": "스토리 2부를 클리어"
+        },
+        "schinese": {
+          "name": "完成故事第二部",
+          "description": "完成故事第二部"
+        },
+        "tchinese": {
+          "name": "完成故事第二部",
+          "description": "完成故事第二部"
+        }
+      }
+    },
+    "ACHIEVEMENT_3": {
+      "translations": {
+        "english": {
+          "name": "A Detective's End",
+          "description": "Clear Part 3 of the story."
+        },
+        "japanese": {
+          "name": "ストーリー第三部クリア",
+          "description": "ストーリー第三部をクリア"
+        },
+        "koreana": {
+          "name": "스토리 3부 클리어",
+          "description": "스토리 3부를 클리어"
+        },
+        "schinese": {
+          "name": "完成故事第三部",
+          "description": "完成故事第三部"
+        },
+        "tchinese": {
+          "name": "完成故事第三部",
+          "description": "完成故事第三部"
+        }
+      }
+    },
+    "ACHIEVEMENT_4": {
+      "translations": {
+        "english": {
+          "name": "Only One Thing Left to Do...",
+          "description": "Clear Part 4 of the story."
+        },
+        "japanese": {
+          "name": "ストーリー第四部クリア",
+          "description": "ストーリー第四部をクリア"
+        },
+        "koreana": {
+          "name": "스토리 4부 클리어",
+          "description": "스토리 4부를 클리어"
+        },
+        "schinese": {
+          "name": "完成故事第四部",
+          "description": "完成故事第四部"
+        },
+        "tchinese": {
+          "name": "完成故事第四部",
+          "description": "完成故事第四部"
+        }
+      }
+    },
+    "ACHIEVEMENT_5": {
+      "translations": {
+        "english": {
+          "name": "Thank You!",
+          "description": "Clear the Finale."
+        },
+        "japanese": {
+          "name": "感謝-スタッフ一同-",
+          "description": "最終部をクリア"
+        },
+        "koreana": {
+          "name": "감사합니다 -스태프 일동-",
+          "description": "최종부를 클리어"
+        },
+        "schinese": {
+          "name": "全体工作人员向您致谢",
+          "description": "完成最终部"
+        },
+        "tchinese": {
+          "name": "全體工作人員向您致謝",
+          "description": "完成最終部"
+        }
+      }
+    },
+    "ACHIEVEMENT_6": {
+      "translations": {
+        "english": {
+          "name": "Heir to the Legend",
+          "description": "Clear Legend Mode."
+        },
+        "japanese": {
+          "name": "伝説を継ぐもの",
+          "description": "ＥＸ‐ＨＡＲＤモードをクリア"
+        },
+        "koreana": {
+          "name": "전설을 잇는 자",
+          "description": "EX HARD 모드를 클리어"
+        },
+        "schinese": {
+          "name": "继承传说者",
+          "description": "以EX-HARD难度通关"
+        },
+        "tchinese": {
+          "name": "繼承傳說者",
+          "description": "以ＥＸ-ＨＡＲＤ難度通關"
+        }
+      }
+    },
+    "ACHIEVEMENT_7": {
+      "translations": {
+        "english": {
+          "name": "Ultimate Challenger",
+          "description": "Clear all Ultimate Skill missions."
+        },
+        "japanese": {
+          "name": "究極を継ぐもの",
+          "description": "究極闘技全てをクリア"
+        },
+        "koreana": {
+          "name": "궁극을 잇는 자",
+          "description": "궁극 투기를 전부 클리어"
+        },
+        "schinese": {
+          "name": "继承究极者",
+          "description": "完成所有究极斗技"
+        },
+        "tchinese": {
+          "name": "繼承究極者",
+          "description": "完成所有究極鬥技"
+        }
+      }
+    },
+    "ACHIEVEMENT_8": {
+      "translations": {
+        "english": {
+          "name": "Fearsome Foursome",
+          "description": "Max out all characters to level 20."
+        },
+        "japanese": {
+          "name": "最強を継ぐもの",
+          "description": "全プレイヤーキャラクターをＭＡＸＬｖ．２０にした"
+        },
+        "koreana": {
+          "name": "최강을 잇는 자",
+          "description": "모든 플레이어 캐릭터가 MAX Lv. 20을 달성했다"
+        },
+        "schinese": {
+          "name": "继承最强者",
+          "description": "将所有玩家角色升至MAXLv.20"
+        },
+        "tchinese": {
+          "name": "繼承最強者",
+          "description": "將所有玩者角色昇至ＭＡＸＬｖ.２０"
+        }
+      }
+    },
+    "ACHIEVEMENT_9": {
+      "translations": {
+        "english": {
+          "name": "Indomitable",
+          "description": "Clear Normal Mode without reverting to Easy Mode."
+        },
+        "japanese": {
+          "name": "不屈の男",
+          "description": "ＮＯＲＭＡＬモードで一時的にＥＡＳＹにするモードを選択せずにクリア"
+        },
+        "koreana": {
+          "name": "불굴의 사나이",
+          "description": "NORMAL 모드에서 일시적으로 EASY 모드로 바꾸지 않고 클리어"
+        },
+        "schinese": {
+          "name": "不屈不挠的男人",
+          "description": "于NORMAL难度下，从未将难度暂时降为EASY并通关"
+        },
+        "tchinese": {
+          "name": "不屈不撓的男人",
+          "description": "於ＮＯＲＭＡＬ難度下，從未將難度暫時降為ＥＡＳＹ並通關"
+        }
+      }
+    },
+    "ACHIEVEMENT_10": {
+      "translations": {
+        "english": {
+          "name": "Substory Novice",
+          "description": "Complete or finish four substories."
+        },
+        "japanese": {
+          "name": "サブストーリー４",
+          "description": "４個のサブストーリーを「完」または「終」"
+        },
+        "koreana": {
+          "name": "서브 스토리 4",
+          "description": "4개의 서브 스토리를 「완결」 혹은 「종결」"
+        },
+        "schinese": {
+          "name": "支线故事4",
+          "description": "使4个支线故事成为「完」或「终」的状态"
+        },
+        "tchinese": {
+          "name": "支線故事４",
+          "description": "使４個支線故事成為「完」或「終」的狀態"
+        }
+      }
+    },
+    "ACHIEVEMENT_11": {
+      "translations": {
+        "english": {
+          "name": "Substory Helper",
+          "description": "Complete or finish twenty substories."
+        },
+        "japanese": {
+          "name": "サブストーリー２０",
+          "description": "２０個のサブストーリーを「完」または「終」"
+        },
+        "koreana": {
+          "name": "서브 스토리 20",
+          "description": "20개의 서브 스토리를 「완결」 혹은 「종결」"
+        },
+        "schinese": {
+          "name": "支线故事20",
+          "description": "使20个支线故事成为「完」或「终」的状态"
+        },
+        "tchinese": {
+          "name": "支線故事２０",
+          "description": "使２０個支線故事成為「完」或「終」的狀態"
+        }
+      }
+    },
+    "ACHIEVEMENT_12": {
+      "translations": {
+        "english": {
+          "name": "Substory Lover",
+          "description": "Complete or finish forty substories."
+        },
+        "japanese": {
+          "name": "サブストーリー４０",
+          "description": "４０個のサブストーリーを「完」または「終」"
+        },
+        "koreana": {
+          "name": "서브 스토리 40",
+          "description": "40개의 서브 스토리를 「완결」 혹은 「종결」"
+        },
+        "schinese": {
+          "name": "支线故事40",
+          "description": "使40个支线故事成为「完」或「终」的状态"
+        },
+        "tchinese": {
+          "name": "支線故事４０",
+          "description": "使４０個支線故事成為「完」或「終」的狀態"
+        }
+      }
+    },
+    "ACHIEVEMENT_13": {
+      "translations": {
+        "english": {
+          "name": "Substory Champion",
+          "description": "Defeat Amon and get through all the substories."
+        },
+        "japanese": {
+          "name": "亜門撃破",
+          "description": "亜門を撃破し、サブストーリーを終えた"
+        },
+        "koreana": {
+          "name": "아몬 격파",
+          "description": "아몬을 격파하고 서브 스토리를 끝냈다"
+        },
+        "schinese": {
+          "name": "击破亚门",
+          "description": "打倒亚门并完成支线故事"
+        },
+        "tchinese": {
+          "name": "擊破亞門",
+          "description": "打倒亞門並完成支線故事"
+        }
+      }
+    },
+    "ACHIEVEMENT_14": {
+      "translations": {
+        "english": {
+          "name": "Gourmet of Kamurocho",
+          "description": "Order something at least once at each restaurant."
+        },
+        "japanese": {
+          "name": "神室の食通",
+          "description": "全ての飲食店で１回以上注文をした"
+        },
+        "koreana": {
+          "name": "카무로의 미식가",
+          "description": "모든 음식점에서 1개 이상 주문했다"
+        },
+        "schinese": {
+          "name": "神室美食通",
+          "description": "于所有餐饮店点餐超过1次"
+        },
+        "tchinese": {
+          "name": "神室美食通",
+          "description": "於所有餐飲店點餐超過１次"
+        }
+      }
+    },
+    "ACHIEVEMENT_15": {
+      "translations": {
+        "english": {
+          "name": "Way of the Key Master",
+          "description": "Open five coin lockers."
+        },
+        "japanese": {
+          "name": "キーマスターへの道",
+          "description": "コインロッカーの５箇所をオープンさせた"
+        },
+        "koreana": {
+          "name": "열쇠 마스터의 길",
+          "description": "물품 보관함 5군데를 열었다"
+        },
+        "schinese": {
+          "name": "通往钥匙大师之路",
+          "description": "开启5个投币式置物柜"
+        },
+        "tchinese": {
+          "name": "通往鑰匙大師之路",
+          "description": "開啟５個投幣式置物櫃"
+        }
+      }
+    },
+    "ACHIEVEMENT_16": {
+      "translations": {
+        "english": {
+          "name": "The Joy of Gifting",
+          "description": "Have a hostess wear a present you give her."
+        },
+        "japanese": {
+          "name": "贈るよろこび",
+          "description": "贈り物をキャバ嬢が身につけてくれた"
+        },
+        "koreana": {
+          "name": "선물하는 기쁨",
+          "description": "캬바걸이 선물을 착용해 주었다"
+        },
+        "schinese": {
+          "name": "赠礼的喜悦",
+          "description": "公关小姐戴上了收到的礼物"
+        },
+        "tchinese": {
+          "name": "贈禮的喜悅",
+          "description": "公關小姐戴上了收到的禮物"
+        }
+      }
+    },
+    "ACHIEVEMENT_17": {
+      "translations": {
+        "english": {
+          "name": "After-Work Hookup",
+          "description": "Have a hostess invite you on an after-work date."
+        },
+        "japanese": {
+          "name": "レッツアフター！",
+          "description": "キャバ嬢からアフターに誘われた"
+        },
+        "koreana": {
+          "name": "렛츠 애프터!",
+          "description": "캬바걸에게 애프터 신청을 받았다"
+        },
+        "schinese": {
+          "name": "下班后一起出去玩！",
+          "description": "公关小姐主动邀约下班后出游"
+        },
+        "tchinese": {
+          "name": "下班後一起出去玩！",
+          "description": "公關小姐主動邀約下班後出遊"
+        }
+      }
+    },
+    "ACHIEVEMENT_18": {
+      "translations": {
+        "english": {
+          "name": "Fashionista",
+          "description": "Gather at least one outfit from each category in \"Hostess Maker.\""
+        },
+        "japanese": {
+          "name": "Ｍｒ．ドレスアップ",
+          "description": "「Ｎｏ．１キャバ嬢をつくろう」で衣装を全カテゴリ１つずつ以上集めた"
+        },
+        "koreana": {
+          "name": "Mr. 드레스업",
+          "description": "「No. 1 캬바걸을 만들자」에서 의상을 모든 카테고리 1개씩 수집했다"
+        },
+        "schinese": {
+          "name": "装扮先生",
+          "description": "「培育红牌公关小姐」中每种类型的服装各收集到超过一种"
+        },
+        "tchinese": {
+          "name": "裝扮先生",
+          "description": "「培育紅牌公關小姐」中每種類型的服裝各蒐集到超過一種"
+        }
+      }
+    },
+    "ACHIEVEMENT_19": {
+      "translations": {
+        "english": {
+          "name": "Business Card Hunter",
+          "description": "Receive business cards from all hostesses, including ones you train in \"Hostess Maker.\""
+        },
+        "japanese": {
+          "name": "名刺ハンター",
+          "description": "キャバつく嬢含めてキャバ嬢からフリーですべての名刺を手に入れた"
+        },
+        "koreana": {
+          "name": "명함 헌터",
+          "description": "캬바걸 육성을 포함한 캬바걸로부터 자유 입장으로 모든 명함을 입수했다"
+        },
+        "schinese": {
+          "name": "名片猎人",
+          "description": "选择不指名入店，从包含培育的公关小姐在内的所有公关小姐手中收到名片"
+        },
+        "tchinese": {
+          "name": "名片獵人",
+          "description": "選擇不指名入店，從包含培育的公關小姐在內的所有公關小姐手中收到名片"
+        }
+      }
+    },
+    "ACHIEVEMENT_20": {
+      "translations": {
+        "english": {
+          "name": "Emblem Collector",
+          "description": "Collect ten emblems from survivors during gang encounters."
+        },
+        "japanese": {
+          "name": "エンブレムコレクター",
+          "description": "チームエンカウントで残党からエンブレムを１０個集める"
+        },
+        "koreana": {
+          "name": "엠블럼 컬렉터",
+          "description": "팀 인카운트에서 잔당의 엠블럼을 10개 수집한다"
+        },
+        "schinese": {
+          "name": "纹章收集者",
+          "description": "于帮派战向余党收集10个徽章"
+        },
+        "tchinese": {
+          "name": "紋章收集者",
+          "description": "於幫派戰向餘黨蒐集１０個徽章"
+        }
+      }
+    },
+    "ACHIEVEMENT_21": {
+      "translations": {
+        "english": {
+          "name": "Star of the Coliseum",
+          "description": "Acquire the title \"Star of the Coliseum.\""
+        },
+        "japanese": {
+          "name": "闘技場の千両役者",
+          "description": "称号「闘技場の千両役者」を獲得"
+        },
+        "koreana": {
+          "name": "투기장의 천만배우",
+          "description": "칭호 「투기장의 천만배우」를 획득"
+        },
+        "schinese": {
+          "name": "斗技场的旋风",
+          "description": "获得称号「斗技场的旋风」"
+        },
+        "tchinese": {
+          "name": "鬥技場的旋風",
+          "description": "獲得稱號「鬥技場的旋風」"
+        }
+      }
+    },
+    "ACHIEVEMENT_22": {
+      "translations": {
+        "english": {
+          "name": "Master in Training",
+          "description": "Have one of your apprentices win the Rookie Tournament in \"Fighter Maker.\""
+        },
+        "japanese": {
+          "name": "駆け出し師匠誕生",
+          "description": "「格闘家をつくろう！」で１人を新人トーナメントで優勝させる"
+        },
+        "koreana": {
+          "name": "신출내기 사부 탄생",
+          "description": "「격투가를 만들자!」 에서 1명을 신인 토너먼트에서 우승시킨다"
+        },
+        "schinese": {
+          "name": "新手师父诞生",
+          "description": "于「培育格斗家！」中让1人于新人淘汰赛中夺冠"
+        },
+        "tchinese": {
+          "name": "新手師父誕生",
+          "description": "於「培育格鬥家！」中讓１人於新人淘汰賽中奪冠"
+        }
+      }
+    },
+    "ACHIEVEMENT_23": {
+      "translations": {
+        "english": {
+          "name": "Weapon Master",
+          "description": "Create one or more weapons for each weapon category."
+        },
+        "japanese": {
+          "name": "全武器カテゴリ制覇",
+          "description": "武器の全カテゴリを１種ずつ以上作成"
+        },
+        "koreana": {
+          "name": "무기 카테고리 제패",
+          "description": "무기의 모든 카테고리를 1종류 이상씩 제작"
+        },
+        "schinese": {
+          "name": "称霸全种类武器",
+          "description": "每种类型的武器各制作超过一种"
+        },
+        "tchinese": {
+          "name": "稱霸全種類武器",
+          "description": "每種類型的武器各製作超過一種"
+        }
+      }
+    },
+    "ACHIEVEMENT_24": {
+      "translations": {
+        "english": {
+          "name": "Revelation Seeker",
+          "description": "Acquire three Revelations."
+        },
+        "japanese": {
+          "name": "天啓の求道者",
+          "description": "「天啓」を３種覚えた"
+        },
+        "koreana": {
+          "name": "천계의 구도자",
+          "description": "「천계」를 3종 습득했다"
+        },
+        "schinese": {
+          "name": "天启求道者",
+          "description": "得到3种「天启」"
+        },
+        "tchinese": {
+          "name": "天啟求道者",
+          "description": "得到３種「天啟」"
+        }
+      }
+    },
+    "ACHIEVEMENT_25": {
+      "translations": {
+        "english": {
+          "name": "VIP Member",
+          "description": "Become a VIP member at the massage parlor."
+        },
+        "japanese": {
+          "name": "ＶＩＰ会員様",
+          "description": "マッサージでＶＩＰ会員になった"
+        },
+        "koreana": {
+          "name": "VIP 회원님",
+          "description": "마사지에서 VIP 회원이 되었다"
+        },
+        "schinese": {
+          "name": "VIP会员",
+          "description": "成为按摩店的VIP会员"
+        },
+        "tchinese": {
+          "name": "ＶＩＰ會員",
+          "description": "成為按摩店的ＶＩＰ會員"
+        }
+      }
+    },
+    "ACHIEVEMENT_26": {
+      "translations": {
+        "english": {
+          "name": "Table Tennis Pro",
+          "description": "Smash the ball three times in one match."
+        },
+        "japanese": {
+          "name": "湯けむり卓球奉行",
+          "description": "スマッシュを１試合で３回決めた"
+        },
+        "koreana": {
+          "name": "온천장 탁구 봉행",
+          "description": "스매시를 1시합에서 3회 성공했다"
+        },
+        "schinese": {
+          "name": "温泉桌球高手",
+          "description": "在一场比赛中打出三次扣杀"
+        },
+        "tchinese": {
+          "name": "溫泉桌球高手",
+          "description": "在一場比賽中打出三次扣殺"
+        }
+      }
+    },
+    "ACHIEVEMENT_27": {
+      "translations": {
+        "english": {
+          "name": "The Human Jukebox",
+          "description": "Sing all songs at karaoke."
+        },
+        "japanese": {
+          "name": "人間ジュークボックス",
+          "description": "カラオケで全曲プレイした"
+        },
+        "koreana": {
+          "name": "인간 주크박스",
+          "description": "가라오케에서 전곡을 플레이했다"
+        },
+        "schinese": {
+          "name": "人类点唱机",
+          "description": "游玩卡拉OK的所有曲目"
+        },
+        "tchinese": {
+          "name": "人類點唱機",
+          "description": "遊玩卡拉ＯＫ的所有曲目"
+        }
+      }
+    },
+    "ACHIEVEMENT_28": {
+      "translations": {
+        "english": {
+          "name": "Hat Trick",
+          "description": "Achieve a hat trick in darts."
+        },
+        "japanese": {
+          "name": "ハットトリック",
+          "description": "ダーツでハットトリックを決めた"
+        },
+        "koreana": {
+          "name": "해트트릭",
+          "description": "다트에서 해트트릭을 성공했다"
+        },
+        "schinese": {
+          "name": "帽子戏法",
+          "description": "在射飞镖中达成HAT TRICK"
+        },
+        "tchinese": {
+          "name": "帽子戲法",
+          "description": "在射飛鏢中達成HAT TRICK"
+        }
+      }
+    },
+    "ACHIEVEMENT_29": {
+      "translations": {
+        "english": {
+          "name": "First Carom",
+          "description": "Win the first point in Four-Ball billiards."
+        },
+        "japanese": {
+          "name": "キャロムファースト",
+          "description": "ビリヤード「四つ球」で初得点を決める"
+        },
+        "koreana": {
+          "name": "캐럼 퍼스트",
+          "description": "당구 「4구」에서 첫 득점을 성공한다"
+        },
+        "schinese": {
+          "name": "开仑首分",
+          "description": "于撞球「开仑」中首次得分"
+        },
+        "tchinese": {
+          "name": "開侖首分",
+          "description": "於撞球「開侖」中首次得分"
+        }
+      }
+    },
+    "ACHIEVEMENT_30": {
+      "translations": {
+        "english": {
+          "name": "Boiled Turkey",
+          "description": "Achieve a turkey in bowling."
+        },
+        "japanese": {
+          "name": "ボイルドターキー",
+          "description": "ボウリングでターキーを決めた"
+        },
+        "koreana": {
+          "name": "보일드 터키",
+          "description": "볼링에서 터키에 성공했다"
+        },
+        "schinese": {
+          "name": "火鸡大餐",
+          "description": "在保龄球中打出全倒"
+        },
+        "tchinese": {
+          "name": "火雞大餐",
+          "description": "在保齡球中打出全倒"
+        }
+      }
+    },
+    "ACHIEVEMENT_31": {
+      "translations": {
+        "english": {
+          "name": "Novice Gambler",
+          "description": "Play all non-casino gambling games."
+        },
+        "japanese": {
+          "name": "駆け出し博徒",
+          "description": "全博打系ゲームを１回ずつプレイ"
+        },
+        "koreana": {
+          "name": "신출내기 도박꾼",
+          "description": "모든 도박 게임을 1회씩 플레이했다"
+        },
+        "schinese": {
+          "name": "新手赌徒",
+          "description": "所有赌博类游戏各玩过一次"
+        },
+        "tchinese": {
+          "name": "新手賭徒",
+          "description": "所有賭博類遊戲各玩過一次"
+        }
+      }
+    },
+    "ACHIEVEMENT_32": {
+      "translations": {
+        "english": {
+          "name": "Casino Rookie",
+          "description": "Play all casino gambling games."
+        },
+        "japanese": {
+          "name": "ルーキーギャンブラー",
+          "description": "全カジノ系ゲームを１回ずつプレイ"
+        },
+        "koreana": {
+          "name": "루키 갬블러",
+          "description": "모든 카지노 게임을 1회씩 플레이했다"
+        },
+        "schinese": {
+          "name": "菜鸟博弈家",
+          "description": "所有博弈类游戏各玩过一次"
+        },
+        "tchinese": {
+          "name": "菜鳥博弈家",
+          "description": "所有博弈類遊戲各玩過一次"
+        }
+      }
+    },
+    "ACHIEVEMENT_33": {
+      "translations": {
+        "english": {
+          "name": "Welcome to SEGA",
+          "description": "Play all minigames at Club SEGA."
+        },
+        "japanese": {
+          "name": "ようこそセガへ",
+          "description": "クラブセガ内全ミニゲームを１回ずつプレイ"
+        },
+        "koreana": {
+          "name": "어서 오세요 세가입니다",
+          "description": "클럽 세가의 모든 미니 게임을 1회씩 플레이했다"
+        },
+        "schinese": {
+          "name": "欢迎光临SEGA",
+          "description": "SEGA俱乐部内的所有小游戏各玩过一次"
+        },
+        "tchinese": {
+          "name": "歡迎光臨SEGA",
+          "description": "SEGA俱樂部內的所有小遊戲各玩過一次"
+        }
+      }
+    },
+    "ACHIEVEMENT_34": {
+      "translations": {
+        "english": {
+          "name": "Shogi Promotion",
+          "description": "Achieve a promotion in shogi."
+        },
+        "japanese": {
+          "name": "成ったで候",
+          "description": "将棋で「成った」"
+        },
+        "koreana": {
+          "name": "승격했습니다",
+          "description": "장기에서 「승격」을 했다"
+        },
+        "schinese": {
+          "name": "升级了",
+          "description": "在将棋中「升级」"
+        },
+        "tchinese": {
+          "name": "昇級了",
+          "description": "在將棋中「昇級」"
+        }
+      }
+    },
+    "ACHIEVEMENT_35": {
+      "translations": {
+        "english": {
+          "name": "Seven Pairs",
+          "description": "Win a round by forming a concealed hand containing seven unique pairs in mahjong."
+        },
+        "japanese": {
+          "name": "セブンペア",
+          "description": "麻雀で柄が異なる牌を２枚ずつ揃えて上がった"
+        },
+        "koreana": {
+          "name": "세븐 페어",
+          "description": "마작에서 다른 그림의 패를 2개씩 갖추고 올랐다"
+        },
+        "schinese": {
+          "name": "七对成双",
+          "description": "在麻将中凑到每种不同的牌各两张并胡牌"
+        },
+        "tchinese": {
+          "name": "七對成雙",
+          "description": "在麻將中湊到每種不同的牌各兩張並胡牌"
+        }
+      }
+    },
+    "ACHIEVEMENT_36": {
+      "translations": {
+        "english": {
+          "name": "Captain Two-fer",
+          "description": "Successfully hit two panels at once at the batting center."
+        },
+        "japanese": {
+          "name": "Ｍｒ．一石二鳥",
+          "description": "バッティングセンターで２枚抜き達成"
+        },
+        "koreana": {
+          "name": "Mr. 일석이조",
+          "description": "배팅 센터에서 2장 한꺼번에 맞췄다"
+        },
+        "schinese": {
+          "name": "一石二鸟先生",
+          "description": "在打击训练中心中同时命中相邻靶心"
+        },
+        "tchinese": {
+          "name": "一石二鳥先生",
+          "description": "在打擊訓練中心中同時命中相鄰靶心"
+        }
+      }
+    },
+    "ACHIEVEMENT_37": {
+      "translations": {
+        "english": {
+          "name": "Mr. Outdoors",
+          "description": "Golf and fish five times each."
+        },
+        "japanese": {
+          "name": "Ｍｒ．アウトドア",
+          "description": "ゴルフと釣りを各５回ずつプレイ"
+        },
+        "koreana": {
+          "name": "Mr. 아웃도어",
+          "description": "골프와 낚시를 각 5회씩 플레이했다"
+        },
+        "schinese": {
+          "name": "户外运动先生",
+          "description": "游玩高尔夫和钓鱼各5次"
+        },
+        "tchinese": {
+          "name": "戶外運動先生",
+          "description": "遊玩高爾夫和釣魚各５次"
+        }
+      }
+    },
+    "ACHIEVEMENT_38": {
+      "translations": {
+        "english": {
+          "name": "Walking Bank",
+          "description": "Possess 10,000,000 yen or more."
+        },
+        "japanese": {
+          "name": "歩く銀行",
+          "description": "所持金が１０００万円を超えた"
+        },
+        "koreana": {
+          "name": "걸어다니는 은행",
+          "description": "소지금이 1000만 엔을 넘었다"
+        },
+        "schinese": {
+          "name": "会走路的银行",
+          "description": "持有金钱超过1000万日元"
+        },
+        "tchinese": {
+          "name": "會走路的銀行",
+          "description": "持有金錢超過１０００萬圓"
+        }
+      }
+    },
+    "ACHIEVEMENT_39": {
+      "translations": {
+        "english": {
+          "name": "Kamurocho Iron Man",
+          "description": "Traverse 100 kilometers or more."
+        },
+        "japanese": {
+          "name": "神室の鉄人",
+          "description": "通常移動が１００Ｋｍを超えた"
+        },
+        "koreana": {
+          "name": "카무로의 철인",
+          "description": "이동 거리가 100Km를 넘었다"
+        },
+        "schinese": {
+          "name": "神室铁人",
+          "description": "一般移动距离超过100Km"
+        },
+        "tchinese": {
+          "name": "神室鐵人",
+          "description": "一般移動距離超過１００Ｋｍ"
+        }
+      }
+    },
+    "ACHIEVEMENT_40": {
+      "translations": {
+        "english": {
+          "name": "Kamurocho Stampede King",
+          "description": "Knock over 100 people you pass by."
+        },
+        "japanese": {
+          "name": "神室暴走王",
+          "description": "１００人の通行人を転ばせた"
+        },
+        "koreana": {
+          "name": "카무로 폭주왕",
+          "description": "100명의 통행인을 넘어뜨렸다"
+        },
+        "schinese": {
+          "name": "神室冲撞王",
+          "description": "撞倒100名路人"
+        },
+        "tchinese": {
+          "name": "神室衝撞王",
+          "description": "撞倒１００名路人"
+        }
+      }
+    },
+    "ACHIEVEMENT_41": {
+      "translations": {
+        "english": {
+          "name": "Akiyama the Hoarder",
+          "description": "Earn 1,000,000 yen playing as Akiyama."
+        },
+        "japanese": {
+          "name": "秋山賞",
+          "description": "秋山で累計１００万円稼いだ"
+        },
+        "koreana": {
+          "name": "아키야마상",
+          "description": "아키야마로 누계 100만 엔을 벌었다"
+        },
+        "schinese": {
+          "name": "秋山奖",
+          "description": "以秋山累计赚取100万"
+        },
+        "tchinese": {
+          "name": "秋山獎",
+          "description": "以秋山累計賺取１００萬"
+        }
+      }
+    },
+    "ACHIEVEMENT_42": {
+      "translations": {
+        "english": {
+          "name": "Saejima the Slinger",
+          "description": "Purchase five guns playing as Saejima."
+        },
+        "japanese": {
+          "name": "冴島賞",
+          "description": "冴島で拳銃を累計５丁購入"
+        },
+        "koreana": {
+          "name": "사에지마상",
+          "description": "사에지마로 권총 5정을 구입한다"
+        },
+        "schinese": {
+          "name": "冴岛奖",
+          "description": "以冴岛累计购买5把手枪"
+        },
+        "tchinese": {
+          "name": "冴島獎",
+          "description": "以冴島累計購買５把手槍"
+        }
+      }
+    },
+    "ACHIEVEMENT_43": {
+      "translations": {
+        "english": {
+          "name": "Tanimura the Gambler",
+          "description": "Acquire 10,000 casino points playing as Tanimura."
+        },
+        "japanese": {
+          "name": "谷村賞",
+          "description": "谷村でカジノの点数を累計１００００点獲得"
+        },
+        "koreana": {
+          "name": "타니무라상",
+          "description": "타니무라로 카지노 점수를 누계 10000점 획득한다"
+        },
+        "schinese": {
+          "name": "谷村奖",
+          "description": "以谷村在博弈场累积得到10000点"
+        },
+        "tchinese": {
+          "name": "谷村獎",
+          "description": "以谷村在博弈場累積得到１００００點"
+        }
+      }
+    },
+    "ACHIEVEMENT_44": {
+      "translations": {
+        "english": {
+          "name": "Kiryu the Crusher",
+          "description": "Destroy 100 weapons you pick up playing as Kiryu."
+        },
+        "japanese": {
+          "name": "桐生賞",
+          "description": "桐生で拾う武器１００個を破壊"
+        },
+        "koreana": {
+          "name": "키류상",
+          "description": "키류로 주울 수 있는 무기 100개를 파괴한다"
+        },
+        "schinese": {
+          "name": "桐生奖",
+          "description": "以桐生破坏100个捡起的武器"
+        },
+        "tchinese": {
+          "name": "桐生獎",
+          "description": "以桐生破壞１００個撿起的武器"
+        }
+      }
+    },
+    "ACHIEVEMENT_45": {
+      "translations": {
+        "english": {
+          "name": "Kamurocho Tree Hugger",
+          "description": "Pick up 20 pieces of trash around the city."
+        },
+        "japanese": {
+          "name": "神室のエコマスター",
+          "description": "街のゴミを２０個拾った"
+        },
+        "koreana": {
+          "name": "카무로의 에코 마스터",
+          "description": "거리의 쓰레기를 20개 주웠다"
+        },
+        "schinese": {
+          "name": "神室环保大师",
+          "description": "捡起20个路上的垃圾"
+        },
+        "tchinese": {
+          "name": "神室環保大師",
+          "description": "撿起２０個路上的垃圾"
+        }
+      }
+    },
+    "ACHIEVEMENT_46": {
+      "translations": {
+        "english": {
+          "name": "Memo Master",
+          "description": "Collect all Memos in the Pause Menu."
+        },
+        "japanese": {
+          "name": "Ｍｒ．タイガーロール",
+          "description": "ポーズメニューの「覚書」を全て収集した"
+        },
+        "koreana": {
+          "name": "Mr. 타이거 롤",
+          "description": "일시 정지 메뉴의 「비망록」을 전부 획득했다"
+        },
+        "schinese": {
+          "name": "虎之卷先生",
+          "description": "收集所有暂停菜单的「笔记」"
+        },
+        "tchinese": {
+          "name": "虎之卷先生",
+          "description": "蒐集所有暫停選單的「筆記」"
+        }
+      }
+    }
+  }
+}

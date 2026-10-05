@@ -1,0 +1,660 @@
+{
+  "version": 1,
+  "app_id": "304650",
+  "variant_id": "default",
+  "source_sha256": "d8aa585a424421381cde680b32cd3443f746cacb71476786b584b6b2b5c44f15",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "ach_die1": {
+      "translations": {
+        "english": {
+          "name": "Sink Beneath the Waves",
+          "description": "Die for the first time"
+        },
+        "schinese": {
+          "name": "沉入浪下",
+          "description": "第一次死亡。"
+        }
+      }
+    },
+    "ach_die5": {
+      "translations": {
+        "english": {
+          "name": "Sink Beneath the Waves. Again.",
+          "description": "Die 5 times in an unbroken lineage"
+        },
+        "schinese": {
+          "name": "再次沉入浪下",
+          "description": "在未中断的血脉中死亡 5 次。"
+        }
+      }
+    },
+    "ach_die10": {
+      "translations": {
+        "english": {
+          "name": "Never Stop Sinking...",
+          "description": "Die 10 times in an unbroken lineage"
+        },
+        "schinese": {
+          "name": "永不停地下沉……",
+          "description": "在未中断的血脉中死亡 10 次。"
+        }
+      }
+    },
+    "ach_dawnmachine": {
+      "translations": {
+        "english": {
+          "name": "HE SUN THE SUN THE SUN T",
+          "description": "Discover The Dawn Machine"
+        },
+        "schinese": {
+          "name": "太阳，太阳，太阳",
+          "description": "发现 The Dawn Machine。"
+        }
+      }
+    },
+    "ach_scion": {
+      "translations": {
+        "english": {
+          "name": "Zee Fever",
+          "description": "Send your child to zee"
+        },
+        "schinese": {
+          "name": "Zee 热",
+          "description": "把你的孩子送往 zee。"
+        }
+      }
+    },
+    "ach_terror90": {
+      "translations": {
+        "english": {
+          "name": "Thou, All-Shaking Thunder",
+          "description": "Let your terror reach 90"
+        },
+        "schinese": {
+          "name": "汝，震撼万物之雷",
+          "description": "让你的恐惧达到 90。"
+        }
+      }
+    },
+    "ach_terror100": {
+      "translations": {
+        "english": {
+          "name": "Lose your Mind",
+          "description": "Let your terror reach 100"
+        },
+        "schinese": {
+          "name": "失去理智",
+          "description": "让你的恐惧达到 100。"
+        }
+      }
+    },
+    "ach_year1": {
+      "translations": {
+        "english": {
+          "name": "One Year at Zee",
+          "description": "Spend one year out at zee in an unbroken lineage"
+        },
+        "schinese": {
+          "name": "Zee 上一年",
+          "description": "在未中断的血脉中于 zee 上度过一年。"
+        }
+      }
+    },
+    "ach_year5": {
+      "translations": {
+        "english": {
+          "name": "Five Years at Zee",
+          "description": "Spend five years out at zee in an unbroken lineage"
+        },
+        "schinese": {
+          "name": "Zee 上五年",
+          "description": "在未中断的血脉中于 zee 上度过五年。"
+        }
+      }
+    },
+    "ach_year10": {
+      "translations": {
+        "english": {
+          "name": "Ten Years at Zee",
+          "description": "Spend ten years out at zee in an unbroken lineage"
+        },
+        "schinese": {
+          "name": "Zee 上十年",
+          "description": "在未中断的血脉中于 zee 上度过十年。"
+        }
+      }
+    },
+    "ach_dreadnaught": {
+      "translations": {
+        "english": {
+          "name": "We're Gonna Need a Bigger Boat",
+          "description": "Acquire the Eschatologue-class Dreadnaught"
+        },
+        "schinese": {
+          "name": "我们需要更大的船",
+          "description": "获得 Eschatologue-class Dreadnaught。"
+        }
+      }
+    },
+    "ach_hunterskeep": {
+      "translations": {
+        "english": {
+          "name": "The Fall of the House",
+          "description": "See Hunter's Keep burn"
+        },
+        "schinese": {
+          "name": "家族之屋的陨落",
+          "description": "见证 Hunter's Keep 燃烧。"
+        }
+      }
+    },
+    "ach_eye": {
+      "translations": {
+        "english": {
+          "name": "Roaring Rise",
+          "description": "Discover 'The Eye'"
+        },
+        "schinese": {
+          "name": "咆哮升起",
+          "description": "发现 The Eye。"
+        }
+      }
+    },
+    "ach_surface": {
+      "translations": {
+        "english": {
+          "name": "The Ascent of Man",
+          "description": "Visit the Surface"
+        },
+        "schinese": {
+          "name": "人的上升",
+          "description": "造访 Surface。"
+        }
+      }
+    },
+    "ach_sweetheart": {
+      "translations": {
+        "english": {
+          "name": "Sweet Sorrow",
+          "description": "Woo a sweetheart in London"
+        },
+        "schinese": {
+          "name": "甜蜜的悲伤",
+          "description": "在 London 追求一位心上人。"
+        }
+      }
+    },
+    "ach_cursesalt": {
+      "translations": {
+        "english": {
+          "name": "Salt's Curse",
+          "description": "Suffer Salt's Curse"
+        },
+        "schinese": {
+          "name": "Salt 的诅咒",
+          "description": "遭受 Salt's Curse。"
+        }
+      }
+    },
+    "ach_cursestone": {
+      "translations": {
+        "english": {
+          "name": "Stone's Curse",
+          "description": "Suffer Stone's Curse"
+        },
+        "schinese": {
+          "name": "Stone 的诅咒",
+          "description": "遭受 Stone's Curse。"
+        }
+      }
+    },
+    "ach_cursestorm": {
+      "translations": {
+        "english": {
+          "name": "Storm's Curse",
+          "description": "Suffer Storm's Curse"
+        },
+        "schinese": {
+          "name": "Storm 的诅咒",
+          "description": "遭受 Storm's Curse。"
+        }
+      }
+    },
+    "ach_newstories": {
+      "translations": {
+        "english": {
+          "name": "Open Your Ears",
+          "description": "Download new stories"
+        },
+        "schinese": {
+          "name": "竖起耳朵",
+          "description": "下载新故事。"
+        }
+      }
+    },
+    "ach_admirality10": {
+      "translations": {
+        "english": {
+          "name": "Rules the Waves",
+          "description": "Achieve Admiralty's Favour 10"
+        },
+        "schinese": {
+          "name": "统治浪潮",
+          "description": "达到 Admiralty's Favour 10。"
+        }
+      }
+    },
+    "ach_antiquarian10": {
+      "translations": {
+        "english": {
+          "name": "Old Unhappy Far-Off Things",
+          "description": "Achieve Antiquarian 10"
+        },
+        "schinese": {
+          "name": "遥远古老的不幸之物",
+          "description": "达到 Antiquarian 10。"
+        }
+      }
+    },
+    "ach_ladylilac": {
+      "translations": {
+        "english": {
+          "name": "Come Closer",
+          "description": "Recruit the imaginary officer"
+        },
+        "schinese": {
+          "name": "靠近些",
+          "description": "招募那位想象中的军官。"
+        }
+      }
+    },
+    "ach_legacyrival": {
+      "translations": {
+        "english": {
+          "name": "Rival",
+          "description": "Take the Rival legacy"
+        },
+        "schinese": {
+          "name": "劲敌",
+          "description": "选择 Rival 遗产。"
+        }
+      }
+    },
+    "ach_legacypupil": {
+      "translations": {
+        "english": {
+          "name": "Pupil",
+          "description": "Take the Pupil legacy"
+        },
+        "schinese": {
+          "name": "学生",
+          "description": "选择 Pupil 遗产。"
+        }
+      }
+    },
+    "ach_legacyshipmate": {
+      "translations": {
+        "english": {
+          "name": "Shipmate",
+          "description": "Take the Shipmate legacy"
+        },
+        "schinese": {
+          "name": "船伴",
+          "description": "选择 Shipmate 遗产。"
+        }
+      }
+    },
+    "ach_legacycorrespondent": {
+      "translations": {
+        "english": {
+          "name": "Correspondent",
+          "description": "Take the Correspondent legacy"
+        },
+        "schinese": {
+          "name": "通信者",
+          "description": "选择 Correspondent 遗产。"
+        }
+      }
+    },
+    "ach_legacysalvager": {
+      "translations": {
+        "english": {
+          "name": "Salvager",
+          "description": "Take the Salvager legacy"
+        },
+        "schinese": {
+          "name": "打捞者",
+          "description": "选择 Salvager 遗产。"
+        }
+      }
+    },
+    "ach_will": {
+      "translations": {
+        "english": {
+          "name": "Sound Mind?",
+          "description": "Create an ironclad will"
+        },
+        "schinese": {
+          "name": "心智健全？",
+          "description": "立下一份铁定遗嘱。"
+        }
+      }
+    },
+    "ach_invictus": {
+      "translations": {
+        "english": {
+          "name": "I am the Captain of my Soul",
+          "description": "Complete the game without saving manually"
+        },
+        "schinese": {
+          "name": "我是自己灵魂的船长",
+          "description": "不手动保存完成游戏。"
+        }
+      }
+    },
+    "ach_stranger": {
+      "translations": {
+        "english": {
+          "name": "A Past Wreathed in Shadows",
+          "description": "Complete the game without ever choosing a past"
+        },
+        "schinese": {
+          "name": "笼罩阴影的过往",
+          "description": "从未选择过往而完成游戏。"
+        }
+      }
+    },
+    "ach_dive": {
+      "translations": {
+        "english": {
+          "name": "Frightful, sheer, no-man-fathomed",
+          "description": "Venture beneath the waves"
+        },
+        "schinese": {
+          "name": "恐怖、陡峭、无人探知的深处",
+          "description": "冒险潜入浪下。"
+        }
+      }
+    },
+    "ach_deathwat": {
+      "translations": {
+        "english": {
+          "name": "Death By Water",
+          "description": "Die of suffocation"
+        },
+        "schinese": {
+          "name": "水中之死",
+          "description": "窒息而死。"
+        }
+      }
+    },
+    "ach_deathphlebas": {
+      "translations": {
+        "english": {
+          "name": "Consider Phlebas",
+          "description": "Be killed by an underwater creature"
+        },
+        "schinese": {
+          "name": "想想 Phlebas",
+          "description": "被水下生物杀死。"
+        }
+      }
+    },
+    "ach_deathofermod": {
+      "translations": {
+        "english": {
+          "name": "Ofermod",
+          "description": "Be killed by the Constant Companion"
+        },
+        "schinese": {
+          "name": "Ofermod",
+          "description": "被 Constant Companion 杀死。"
+        }
+      }
+    },
+    "ach_constant": {
+      "translations": {
+        "english": {
+          "name": "What lies beneath",
+          "description": "Come face to face with the Constant Companion"
+        },
+        "schinese": {
+          "name": "深处之物",
+          "description": "与 Constant Companion 面对面。"
+        }
+      }
+    },
+    "ach_combuoy": {
+      "translations": {
+        "english": {
+          "name": "A buoyant escape",
+          "description": "Escape underwater combat by resurfacing"
+        },
+        "schinese": {
+          "name": "浮力逃生",
+          "description": "通过上浮逃离水下战斗。"
+        }
+      }
+    },
+    "ach_portregret": {
+      "translations": {
+        "english": {
+          "name": "No regrets",
+          "description": "Discover Aigul"
+        },
+        "schinese": {
+          "name": "无悔",
+          "description": "发现 Aigul。"
+        }
+      }
+    },
+    "ach_portpearls": {
+      "translations": {
+        "english": {
+          "name": "Those are pearls that were his eyes",
+          "description": "Discover Anthe"
+        },
+        "schinese": {
+          "name": "那些珍珠曾是他的眼睛",
+          "description": "发现 Anthe。"
+        }
+      }
+    },
+    "ach_portunder": {
+      "translations": {
+        "english": {
+          "name": "Under the zee",
+          "description": "Discover Undercrow"
+        },
+        "schinese": {
+          "name": "Zee 下方",
+          "description": "发现 Undercrow。"
+        }
+      }
+    },
+    "ach_portdeep": {
+      "translations": {
+        "english": {
+          "name": "The beauty of the deep",
+          "description": "Discover Dahut"
+        },
+        "schinese": {
+          "name": "深海之美",
+          "description": "发现 Dahut。"
+        }
+      }
+    },
+    "ach_portfish": {
+      "translations": {
+        "english": {
+          "name": "Thanks for all the fish",
+          "description": "Discover The Gant Pole"
+        },
+        "schinese": {
+          "name": "感谢所有的鱼",
+          "description": "发现 The Gant Pole。"
+        }
+      }
+    },
+    "ach_portleviathan": {
+      "translations": {
+        "english": {
+          "name": "Leviathan",
+          "description": "Discover Hideaway"
+        },
+        "schinese": {
+          "name": "利维坦",
+          "description": "发现 Hideaway。"
+        }
+      }
+    },
+    "ach_portbell": {
+      "translations": {
+        "english": {
+          "name": "The Bell Tolls",
+          "description": "Discover Low Barnet"
+        },
+        "schinese": {
+          "name": "丧钟为谁而鸣",
+          "description": "发现 Low Barnet。"
+        }
+      }
+    },
+    "ach_portdragon": {
+      "translations": {
+        "english": {
+          "name": "The dragon in the zee",
+          "description": "Discover Nook"
+        },
+        "schinese": {
+          "name": "Zee 中之龙",
+          "description": "发现 Nook。"
+        }
+      }
+    },
+    "ach_portrose": {
+      "translations": {
+        "english": {
+          "name": "Rosewater sailor",
+          "description": "Discover Rosegate"
+        },
+        "schinese": {
+          "name": "Rosewater 水手",
+          "description": "发现 Rosegate。"
+        }
+      }
+    },
+    "ach_portbones": {
+      "translations": {
+        "english": {
+          "name": "His bones in whispers",
+          "description": "Discover Scrimshander"
+        },
+        "schinese": {
+          "name": "他的骨在低语",
+          "description": "发现 Scrimshander。"
+        }
+      }
+    },
+    "ach_portknife": {
+      "translations": {
+        "english": {
+          "name": "Knife, Cup and Bone",
+          "description": "Discover Wrack"
+        },
+        "schinese": {
+          "name": "刀、杯与骨",
+          "description": "发现 Wrack。"
+        }
+      }
+    },
+    "ach_undercurrent": {
+      "translations": {
+        "english": {
+          "name": "A current under zee",
+          "description": "Use underwater currents to bear you on your way"
+        },
+        "schinese": {
+          "name": "Zee 下暗流",
+          "description": "利用水下暗流载你前行。"
+        }
+      }
+    },
+    "ach_underpressure": {
+      "translations": {
+        "english": {
+          "name": "Under pressure",
+          "description": "Avoid being killed by the Unexploded Unclear Bomb"
+        },
+        "schinese": {
+          "name": "压力之下",
+          "description": "避免被 Unexploded Unclear Bomb 杀死。"
+        }
+      }
+    },
+    "ach_underdepth": {
+      "translations": {
+        "english": {
+          "name": "Depth charge",
+          "description": "Use an oasis to increase your oxygen levels"
+        },
+        "schinese": {
+          "name": "深水炸弹",
+          "description": "使用绿洲提高你的氧气水平。"
+        }
+      }
+    },
+    "ach_abysschange": {
+      "translations": {
+        "english": {
+          "name": "A zee-change",
+          "description": "Accept a power of the deep zee"
+        },
+        "schinese": {
+          "name": "Zee 之变",
+          "description": "接受 deep zee 的力量。"
+        }
+      }
+    },
+    "ach_abysslady": {
+      "translations": {
+        "english": {
+          "name": "The Lady's Parlour",
+          "description": "Perform an abyssal ritual to encounter Lady Black"
+        },
+        "schinese": {
+          "name": "女士的会客室",
+          "description": "举行深渊仪式以见到 Lady Black。"
+        }
+      }
+    },
+    "ach_controman": {
+      "translations": {
+        "english": {
+          "name": "Romans 6:9",
+          "description": "Complete the Zubmariner ambition"
+        },
+        "schinese": {
+          "name": "罗马书 6:9",
+          "description": "完成 Zubmariner 雄心。"
+        }
+      }
+    },
+    "ach_contdrownie": {
+      "translations": {
+        "english": {
+          "name": "A Drownie devotee",
+          "description": "Collect all of Drownie Love-song, Drownie Counterpoint and Drownie Hymn"
+        },
+        "schinese": {
+          "name": "Drownie 信徒",
+          "description": "收集全部 Drownie Love-song、Drownie Counterpoint 和 Drownie Hymn。"
+        }
+      }
+    }
+  }
+}

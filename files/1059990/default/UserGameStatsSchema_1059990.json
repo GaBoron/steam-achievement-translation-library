@@ -1,0 +1,312 @@
+{
+  "version": 1,
+  "app_id": "1059990",
+  "variant_id": "default",
+  "source_sha256": "69836419409bd050fe62e586909d3ffbab4f31802e107f334025ec7aec6d3af5",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "PLAY_ALL_SONGS": {
+      "translations": {
+        "english": {
+          "name": "The Music Enjoyer",
+          "description": "Play at least 20 tracks"
+        },
+        "schinese": {
+          "name": "音乐享受者",
+          "description": "至少演奏 20 首曲目"
+        }
+      }
+    },
+    "S_RANK_01": {
+      "translations": {
+        "english": {
+          "name": "S Apprentice",
+          "description": "Receive an \"S\" score on one track"
+        },
+        "schinese": {
+          "name": "S 级学徒",
+          "description": "在一首曲目中获得“S”评分"
+        }
+      }
+    },
+    "S_RANK_05": {
+      "translations": {
+        "english": {
+          "name": "S Associate",
+          "description": "Receive an \"S\" score on five tracks"
+        },
+        "schinese": {
+          "name": "S 级同好",
+          "description": "在五首曲目中获得“S”评分"
+        }
+      }
+    },
+    "S_RANK_10": {
+      "translations": {
+        "english": {
+          "name": "S Aficionado",
+          "description": "Receive an \"S\" score on ten tracks"
+        },
+        "schinese": {
+          "name": "S 级狂热者",
+          "description": "在十首曲目中获得“S”评分"
+        }
+      }
+    },
+    "S_RANK_15": {
+      "translations": {
+        "english": {
+          "name": "S Virtuoso",
+          "description": "Receive an \"S\" score on fifteen tracks"
+        },
+        "schinese": {
+          "name": "S 级演奏家",
+          "description": "在十五首曲目中获得“S”评分"
+        }
+      }
+    },
+    "S_RANK_20": {
+      "translations": {
+        "english": {
+          "name": "S GOD",
+          "description": "Receive an \"S\" score on twenty or more tracks"
+        },
+        "schinese": {
+          "name": "S 级之神",
+          "description": "在二十首或更多曲目中获得“S”评分"
+        }
+      }
+    },
+    "LOW_SCORE": {
+      "translations": {
+        "english": {
+          "name": "I Would Prefer Not To",
+          "description": "Abstain from tooting"
+        },
+        "schinese": {
+          "name": "我宁愿不要",
+          "description": "拒绝吹奏"
+        }
+      }
+    },
+    "TOOTMASTER": {
+      "translations": {
+        "english": {
+          "name": "The Tootmaster",
+          "description": "Meet Tootmaster Tom"
+        },
+        "schinese": {
+          "name": "吹奏大师",
+          "description": "见到吹奏大师 Tom"
+        }
+      }
+    },
+    "BASSMASTER": {
+      "translations": {
+        "english": {
+          "name": "The Bassmaster",
+          "description": "Meet Bassmaster Ben"
+        },
+        "schinese": {
+          "name": "低音大师",
+          "description": "见到低音大师 Ben"
+        }
+      }
+    },
+    "COLOR_ONE": {
+      "translations": {
+        "english": {
+          "name": "Aesthete",
+          "description": "Unlock a trombone color"
+        },
+        "schinese": {
+          "name": "审美家",
+          "description": "解锁一种长号颜色"
+        }
+      }
+    },
+    "COLOR_ALL": {
+      "translations": {
+        "english": {
+          "name": "Apex Aesthete",
+          "description": "Unlock all trombone colors"
+        },
+        "schinese": {
+          "name": "顶级审美家",
+          "description": "解锁所有长号颜色"
+        }
+      }
+    },
+    "SOUND_ONE": {
+      "translations": {
+        "english": {
+          "name": "Gettin' Tootier",
+          "description": "Unlock a Sound Set"
+        },
+        "schinese": {
+          "name": "越来越会吹",
+          "description": "解锁一个音色组"
+        }
+      }
+    },
+    "SOUND_ALL": {
+      "translations": {
+        "english": {
+          "name": "Got Tootiest",
+          "description": "Unlock all Sound Sets"
+        },
+        "schinese": {
+          "name": "吹到极致",
+          "description": "解锁所有音色组"
+        }
+      }
+    },
+    "CARD_SACK": {
+      "translations": {
+        "english": {
+          "name": "Yo! I Got a Sack",
+          "description": "Get a sack"
+        },
+        "schinese": {
+          "name": "哟！我拿到袋子了",
+          "description": "获得一个袋子"
+        }
+      }
+    },
+    "CARD_CHAMP": {
+      "translations": {
+        "english": {
+          "name": "Card Collector",
+          "description": "Get 50 Tromboner Cards"
+        },
+        "schinese": {
+          "name": "卡牌收藏家",
+          "description": "获得 50 张长号手卡牌"
+        }
+      }
+    },
+    "CARD_FRIEND": {
+      "translations": {
+        "english": {
+          "name": "New Friend",
+          "description": "Meet a Mysterious Friend"
+        },
+        "schinese": {
+          "name": "新朋友",
+          "description": "见到一位神秘朋友"
+        }
+      }
+    },
+    "TURD_MOZART": {
+      "translations": {
+        "english": {
+          "name": "Never Liked the Guy",
+          "description": "Turd your last Mozart card"
+        },
+        "schinese": {
+          "name": "从来没喜欢过这家伙",
+          "description": "把你最后一张莫扎特卡变成粪卡"
+        }
+      }
+    },
+    "VOLUME": {
+      "translations": {
+        "english": {
+          "name": "No more",
+          "description": "Abstain from sound completely"
+        },
+        "schinese": {
+          "name": "别再响了",
+          "description": "完全拒绝声音"
+        }
+      }
+    },
+    "CHOOSE_BABOON": {
+      "translations": {
+        "english": {
+          "name": "I Want Them All!",
+          "description": "Express your love of baboons"
+        },
+        "schinese": {
+          "name": "我全都要！",
+          "description": "表达你对狒狒的喜爱"
+        }
+      }
+    },
+    "TROMBONE_CHAMP": {
+      "translations": {
+        "english": {
+          "name": "TROMBONE CHAMP",
+          "description": "Become the Trombone Champ of Legend"
+        },
+        "schinese": {
+          "name": "长号冠军",
+          "description": "成为传说中的长号冠军"
+        }
+      }
+    },
+    "SCHOLAR": {
+      "translations": {
+        "english": {
+          "name": "Big Brain Scholar",
+          "description": "Develop an enormous brain full of facts"
+        },
+        "schinese": {
+          "name": "大脑学者",
+          "description": "培养出装满知识的巨大大脑"
+        }
+      }
+    },
+    "S_RANK_25": {
+      "translations": {
+        "english": {
+          "name": "S ULTRA-GOD",
+          "description": "Receive an \"S\" score on twenty-five or more tracks"
+        },
+        "schinese": {
+          "name": "S 级超神",
+          "description": "在二十五首或更多曲目中获得“S”评分"
+        }
+      }
+    },
+    "S_RANK_30": {
+      "translations": {
+        "english": {
+          "name": "S ULTRA-MEGA-GOD",
+          "description": "Receive an \"S\" score on thirty or more tracks"
+        },
+        "schinese": {
+          "name": "S 级究极超神",
+          "description": "在三十首或更多曲目中获得“S”评分"
+        }
+      }
+    },
+    "CARD_GOLD_ONE": {
+      "translations": {
+        "english": {
+          "name": "I DID ENGOLDENATION",
+          "description": "Do a big engoldenation on a Tromboner Card"
+        },
+        "schinese": {
+          "name": "我完成了镀金化",
+          "description": "对一张长号手卡牌进行一次大镀金化"
+        }
+      }
+    },
+    "CARD_GOLD_ALL": {
+      "translations": {
+        "english": {
+          "name": "ENGOLDENATION GOD",
+          "description": "Do an amazingly huge engoldenation on every single Tromboner Card"
+        },
+        "schinese": {
+          "name": "镀金化之神",
+          "description": "对每一张长号手卡牌进行一次惊人的巨大镀金化"
+        }
+      }
+    }
+  }
+}

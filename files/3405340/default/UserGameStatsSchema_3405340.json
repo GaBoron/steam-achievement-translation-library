@@ -1,0 +1,1680 @@
+{
+  "version": 1,
+  "app_id": "3405340",
+  "variant_id": "default",
+  "source_sha256": "68094bbcb70a4a68f759d5f902a744a7be750f1f697c6c41a188808955289356",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "a_battery": {
+      "translations": {
+        "english": {
+          "name": "Battery",
+          "description": "Upgrade Cooldown Tome to Level 5"
+        },
+        "schinese": {
+          "name": "电池",
+          "description": "将冷却秘典升级到 5 级"
+        }
+      }
+    },
+    "a_bossBuster": {
+      "translations": {
+        "english": {
+          "name": "Boss Buster",
+          "description": "Defeat a Stage Boss in under 30 seconds"
+        },
+        "schinese": {
+          "name": "Boss 杀手",
+          "description": "在 30 秒内击败一个关卡 Boss"
+        }
+      }
+    },
+    "a_cactus": {
+      "translations": {
+        "english": {
+          "name": "Cactus",
+          "description": "Kill 100 cactus enemies with Thorns damage"
+        },
+        "schinese": {
+          "name": "仙人掌",
+          "description": "用荆棘伤害击杀 100 个仙人掌敌人"
+        }
+      }
+    },
+    "a_cursedDoll": {
+      "translations": {
+        "english": {
+          "name": "Cursed Doll",
+          "description": "Die 10 times"
+        },
+        "schinese": {
+          "name": "诅咒娃娃",
+          "description": "死亡 10 次"
+        }
+      }
+    },
+    "a_forbiddenJuice": {
+      "translations": {
+        "english": {
+          "name": "Forbidden Juice",
+          "description": "Crit 100 times"
+        },
+        "schinese": {
+          "name": "禁忌果汁",
+          "description": "暴击 100 次"
+        }
+      }
+    },
+    "a_brassKnuckles": {
+      "translations": {
+        "english": {
+          "name": "Brass Knuckles",
+          "description": "Kill 5 000 enemies with the Sword"
+        },
+        "schinese": {
+          "name": "铜指虎",
+          "description": "用剑击杀 5,000 个敌人"
+        }
+      }
+    },
+    "a_bob": {
+      "translations": {
+        "english": {
+          "name": "Bob (Dead)",
+          "description": "Survive the Final Swarm for 2 minues"
+        },
+        "schinese": {
+          "name": "Bob（已故）",
+          "description": "在最终虫群中存活 2 分钟"
+        }
+      }
+    },
+    "a_anvil": {
+      "translations": {
+        "english": {
+          "name": "Anvil",
+          "description": "Complete 3 Challenges"
+        },
+        "schinese": {
+          "name": "铁砧",
+          "description": "完成 3 个挑战"
+        }
+      }
+    },
+    "a_ghost": {
+      "translations": {
+        "english": {
+          "name": "Ghost",
+          "description": "Survive the Final Swarm for 60s"
+        },
+        "schinese": {
+          "name": "幽灵",
+          "description": "在最终虫群中存活 60 秒"
+        }
+      }
+    },
+    "a_iceCrystal": {
+      "translations": {
+        "english": {
+          "name": "Ice Crystal",
+          "description": "Kill 50 enemies with the Frostwalker"
+        },
+        "schinese": {
+          "name": "冰晶",
+          "description": "用 Frostwalker 击杀 50 个敌人"
+        }
+      }
+    },
+    "a_key": {
+      "translations": {
+        "english": {
+          "name": "Key",
+          "description": "Purchase 25 chests"
+        },
+        "schinese": {
+          "name": "钥匙",
+          "description": "购买 25 个宝箱"
+        }
+      }
+    },
+    "a_skuleg": {
+      "translations": {
+        "english": {
+          "name": "Skuleg",
+          "description": "Obtain 40% Difficulty"
+        },
+        "schinese": {
+          "name": "Skuleg",
+          "description": "获得 40% 难度"
+        }
+      }
+    },
+    "a_tacticalGlasses": {
+      "translations": {
+        "english": {
+          "name": "Tactical Glasses",
+          "description": "Defeat a Miniboss in 25s"
+        },
+        "schinese": {
+          "name": "战术眼镜",
+          "description": "在 25 秒内击败一个小 Boss"
+        }
+      }
+    },
+    "a_turboSocks": {
+      "translations": {
+        "english": {
+          "name": "Turbo Socks",
+          "description": "Upgrade Agility Tome to Level 5"
+        },
+        "schinese": {
+          "name": "涡轮袜",
+          "description": "将敏捷秘典升级到 5 级"
+        }
+      }
+    },
+    "a_demonicBlade": {
+      "translations": {
+        "english": {
+          "name": "Demonic Blade",
+          "description": "Heal for 350 HP using Lifesteal"
+        },
+        "schinese": {
+          "name": "恶魔之刃",
+          "description": "通过吸血治疗 350 点生命值"
+        }
+      }
+    },
+    "a_demonicBlood": {
+      "translations": {
+        "english": {
+          "name": "Demonic Blood",
+          "description": "Increase Max HP with Blood Magic 400 times"
+        },
+        "schinese": {
+          "name": "恶魔之血",
+          "description": "用 Blood Magic 增加最大生命值 400 次"
+        }
+      }
+    },
+    "a_echoShard": {
+      "translations": {
+        "english": {
+          "name": "Echo Shard",
+          "description": "Upgrade XP Tome to Level 8"
+        },
+        "schinese": {
+          "name": "回响碎片",
+          "description": "将经验秘典升级到 8 级"
+        }
+      }
+    },
+    "a_goldenSneakers": {
+      "translations": {
+        "english": {
+          "name": "Golden Sneakers",
+          "description": "Break 150 pots"
+        },
+        "schinese": {
+          "name": "黄金运动鞋",
+          "description": "打破 150 个罐子"
+        }
+      }
+    },
+    "a_idleJuice": {
+      "translations": {
+        "english": {
+          "name": "Idle Juice",
+          "description": "Kill 500 enemies while standing still"
+        },
+        "schinese": {
+          "name": "挂机果汁",
+          "description": "站着不动时击杀 500 个敌人"
+        }
+      }
+    },
+    "a_kevin": {
+      "translations": {
+        "english": {
+          "name": "Kevin",
+          "description": "Obtain 3 Leeching Crystal in a run"
+        },
+        "schinese": {
+          "name": "Kevin",
+          "description": "在一局中获得 3 个 Leeching Crystal"
+        }
+      }
+    },
+    "a_leechingCrystal": {
+      "translations": {
+        "english": {
+          "name": "Leeching Crystal",
+          "description": "Upgrade Regen Tome to Level 8"
+        },
+        "schinese": {
+          "name": "吸血水晶",
+          "description": "将回复秘典升级到 8 级"
+        }
+      }
+    },
+    "a_poisonGloves": {
+      "translations": {
+        "english": {
+          "name": "Poison Gloves",
+          "description": "Use a Microwave to duplicate Moldy Cheese 3 times in a row"
+        },
+        "schinese": {
+          "name": "毒手套",
+          "description": "连续 3 次用 Microwave 复制 Moldy Cheese"
+        }
+      }
+    },
+    "a_cursedGloves": {
+      "translations": {
+        "english": {
+          "name": "Cursed Gloves",
+          "description": "Get the Cursed Tome to level 10"
+        },
+        "schinese": {
+          "name": "诅咒手套",
+          "description": "将诅咒秘典升到 10 级"
+        }
+      }
+    },
+    "a_demonicSoul": {
+      "translations": {
+        "english": {
+          "name": "Demonic Soul",
+          "description": "Reach Level 30 as Calcium"
+        },
+        "schinese": {
+          "name": "恶魔之魂",
+          "description": "使用 Calcium 达到 30 级"
+        }
+      }
+    },
+    "a_eagleClaw": {
+      "translations": {
+        "english": {
+          "name": "Eagle Claw",
+          "description": "Kill 10 000 enemies as Birdo"
+        },
+        "schinese": {
+          "name": "鹰爪",
+          "description": "使用 Birdo 击杀 10,000 个敌人"
+        }
+      }
+    },
+    "a_gamerGoggles": {
+      "translations": {
+        "english": {
+          "name": "Gamer Goggles",
+          "description": "Defeat a Stage Boss with less than 10% HP left"
+        },
+        "schinese": {
+          "name": "玩家护目镜",
+          "description": "在生命值低于 10% 时击败一个关卡 Boss"
+        }
+      }
+    },
+    "a_gasMask": {
+      "translations": {
+        "english": {
+          "name": "Gas Mask",
+          "description": "Kill 5 000 enemies using amog"
+        },
+        "schinese": {
+          "name": "防毒面具",
+          "description": "使用 amog 击杀 5,000 个敌人"
+        }
+      }
+    },
+    "a_grandmasTonic": {
+      "translations": {
+        "english": {
+          "name": "Grandma's Secret Tonic",
+          "description": "Kill 3 000 enemies using the Sniper Rifle"
+        },
+        "schinese": {
+          "name": "奶奶的秘制补剂",
+          "description": "使用 Sniper Rifle 击杀 3,000 个敌人"
+        }
+      }
+    },
+    "a_shatteredKnowledge": {
+      "translations": {
+        "english": {
+          "name": "Shattered Knowledge",
+          "description": "Upgrade Attraction Tome to Level 8"
+        },
+        "schinese": {
+          "name": "破碎知识",
+          "description": "将吸引秘典升级到 8 级"
+        }
+      }
+    },
+    "a_cannon": {
+      "translations": {
+        "english": {
+          "name": "Cannon",
+          "description": "Kill 5 000 enemies using Rockets"
+        },
+        "schinese": {
+          "name": "加农炮",
+          "description": "使用 Rockets 击杀 5,000 个敌人"
+        }
+      }
+    },
+    "a_toxicBarrel": {
+      "translations": {
+        "english": {
+          "name": "Toxic Barrel",
+          "description": "Kill 2 000 enemies using Poison damage"
+        },
+        "schinese": {
+          "name": "剧毒桶",
+          "description": "使用毒素伤害击杀 2,000 个敌人"
+        }
+      }
+    },
+    "a_turboSkates": {
+      "translations": {
+        "english": {
+          "name": "Turbo Skates",
+          "description": "Upgrade both Cooldown and Agility Tome to level 5 in a run"
+        },
+        "schinese": {
+          "name": "涡轮溜冰鞋",
+          "description": "在一局中将冷却秘典和敏捷秘典都升级到 5 级"
+        }
+      }
+    },
+    "a_bloodyCleaver": {
+      "translations": {
+        "english": {
+          "name": "Bloody Cleaver",
+          "description": "Reach Level 50 as Vlad"
+        },
+        "schinese": {
+          "name": "染血切肉刀",
+          "description": "使用 Vlad 达到 50 级"
+        }
+      }
+    },
+    "a_chonkplate": {
+      "translations": {
+        "english": {
+          "name": "Chonkplate",
+          "description": "Get Max HP to 500"
+        },
+        "schinese": {
+          "name": "厚重板甲",
+          "description": "将最大生命值提升到 500"
+        }
+      }
+    },
+    "a_dragonfire": {
+      "translations": {
+        "english": {
+          "name": "Dragonfire",
+          "description": "Kill 4 000 enemies using Fire damage"
+        },
+        "schinese": {
+          "name": "龙火",
+          "description": "使用火焰伤害击杀 4,000 个敌人"
+        }
+      }
+    },
+    "a_energyCore": {
+      "translations": {
+        "english": {
+          "name": "Energy Core",
+          "description": "Defeat the Final Boss 2 times"
+        },
+        "schinese": {
+          "name": "能量核心",
+          "description": "击败最终 Boss 2 次"
+        }
+      }
+    },
+    "a_holyBook": {
+      "translations": {
+        "english": {
+          "name": "Holy Book",
+          "description": "Kill a first Stage Boss without taking any damage that run"
+        },
+        "schinese": {
+          "name": "圣书",
+          "description": "在一局中不受任何伤害击杀第一个关卡 Boss"
+        }
+      }
+    },
+    "a_joesDagger": {
+      "translations": {
+        "english": {
+          "name": "Joe's Dagger",
+          "description": "Kill 10 000 enemies using the Dexecutioner"
+        },
+        "schinese": {
+          "name": "Joe 的匕首",
+          "description": "使用 Dexecutioner 击杀 10,000 个敌人"
+        }
+      }
+    },
+    "a_lightningOrb": {
+      "translations": {
+        "english": {
+          "name": "Lightning Orb",
+          "description": "Kill 3 000 enemies using Lightning damage"
+        },
+        "schinese": {
+          "name": "闪电宝珠",
+          "description": "使用闪电伤害击杀 3,000 个敌人"
+        }
+      }
+    },
+    "a_soulHarvester": {
+      "translations": {
+        "english": {
+          "name": "Soul Harvester",
+          "description": "Survive the Final Swarm for 6 minutes"
+        },
+        "schinese": {
+          "name": "灵魂收割者",
+          "description": "在最终虫群中存活 6 分钟"
+        }
+      }
+    },
+    "a_speedBoi": {
+      "translations": {
+        "english": {
+          "name": "Speedboi",
+          "description": "Complete a stage with at least 2 Boss Curse activated"
+        },
+        "schinese": {
+          "name": "Speedboi",
+          "description": "完成一个至少激活 2 个 Boss Curse 的关卡"
+        }
+      }
+    },
+    "a_suckyMagnet": {
+      "translations": {
+        "english": {
+          "name": "Sucky Magnet",
+          "description": "Complete every single Charge Shrine on the map"
+        },
+        "schinese": {
+          "name": "吸力磁铁",
+          "description": "完成地图上每一个 Charge Shrine"
+        }
+      }
+    },
+    "a_amog": {
+      "translations": {
+        "english": {
+          "name": "Amog",
+          "description": "Poison 50 000 enemies with Moldy Cheese"
+        },
+        "schinese": {
+          "name": "Amog",
+          "description": "用 Moldy Cheese 使 50,000 个敌人中毒"
+        }
+      }
+    },
+    "a_athena": {
+      "translations": {
+        "english": {
+          "name": "Athena",
+          "description": "Get the Thorns Tome to level 9"
+        },
+        "schinese": {
+          "name": "Athena",
+          "description": "将荆棘秘典升到 9 级"
+        }
+      }
+    },
+    "a_bandit": {
+      "translations": {
+        "english": {
+          "name": "Bandit",
+          "description": "Find and defeat Bandit in the Desert"
+        },
+        "schinese": {
+          "name": "Bandit",
+          "description": "在沙漠中找到并击败 Bandit"
+        }
+      }
+    },
+    "a_birdo": {
+      "translations": {
+        "english": {
+          "name": "Birdo",
+          "description": "Kill 100 enemies using the Tornado weapon while carried by a tornado on Desert "
+        },
+        "schinese": {
+          "name": "Birdo",
+          "description": "在沙漠被龙卷风卷起时，用 Tornado 武器击杀 100 个敌人"
+        }
+      }
+    },
+    "a_bush": {
+      "translations": {
+        "english": {
+          "name": "Bush",
+          "description": "Find and defeat Bush in the Forest"
+        },
+        "schinese": {
+          "name": "Bush",
+          "description": "在森林中找到并击败 Bush"
+        }
+      }
+    },
+    "a_calcium": {
+      "translations": {
+        "english": {
+          "name": "Calcium",
+          "description": "Kill 1 000 Skeletons"
+        },
+        "schinese": {
+          "name": "Calcium",
+          "description": "击杀 1,000 个骷髅"
+        }
+      }
+    },
+    "a_chadwell": {
+      "translations": {
+        "english": {
+          "name": "Sir Chadwell",
+          "description": "Complete Forest Tier 3"
+        },
+        "schinese": {
+          "name": "Sir Chadwell",
+          "description": "完成森林 Tier 3"
+        }
+      }
+    },
+    "a_clank": {
+      "translations": {
+        "english": {
+          "name": "CL4NK",
+          "description": "Complete Forest Tier 1"
+        },
+        "schinese": {
+          "name": "CL4NK",
+          "description": "完成森林 Tier 1"
+        }
+      }
+    },
+    "a_dicehead": {
+      "translations": {
+        "english": {
+          "name": "Dicehead",
+          "description": "Complete 100 quests"
+        },
+        "schinese": {
+          "name": "Dicehead",
+          "description": "完成 100 个任务"
+        }
+      }
+    },
+    "a_megachad": {
+      "translations": {
+        "english": {
+          "name": "Megachad",
+          "description": "Get the Damage Tome to Level 7"
+        },
+        "schinese": {
+          "name": "Megachad",
+          "description": "将伤害秘典升到 7 级"
+        }
+      }
+    },
+    "a_monke": {
+      "translations": {
+        "english": {
+          "name": "Monke",
+          "description": "Find and release Monke in the Forest"
+        },
+        "schinese": {
+          "name": "Monke",
+          "description": "在森林中找到并释放 Monke"
+        }
+      }
+    },
+    "a_ninja": {
+      "translations": {
+        "english": {
+          "name": "Ninja",
+          "description": "Complete Desert Tier 1"
+        },
+        "schinese": {
+          "name": "Ninja",
+          "description": "完成沙漠 Tier 1"
+        }
+      }
+    },
+    "a_noelle": {
+      "translations": {
+        "english": {
+          "name": "Noelle",
+          "description": "Use a Microwave to duplicate Ice Crystal 3 times in a row"
+        },
+        "schinese": {
+          "name": "Noelle",
+          "description": "连续 3 次用 Microwave 复制 Ice Crystal"
+        }
+      }
+    },
+    "a_ogre": {
+      "translations": {
+        "english": {
+          "name": "Ogre",
+          "description": "Kill 15 000 Goblins"
+        },
+        "schinese": {
+          "name": "Ogre",
+          "description": "击杀 15,000 个哥布林"
+        }
+      }
+    },
+    "a_robinette": {
+      "translations": {
+        "english": {
+          "name": "Robinette",
+          "description": "Complete Forest Tier 2"
+        },
+        "schinese": {
+          "name": "Robinette",
+          "description": "完成森林 Tier 2"
+        }
+      }
+    },
+    "a_spaceman": {
+      "translations": {
+        "english": {
+          "name": "Spaceman",
+          "description": "Complete 6 challenges"
+        },
+        "schinese": {
+          "name": "Spaceman",
+          "description": "完成 6 个挑战"
+        }
+      }
+    },
+    "a_tony": {
+      "translations": {
+        "english": {
+          "name": "Tony McZoom",
+          "description": "Complete 2 challenges"
+        },
+        "schinese": {
+          "name": "Tony McZoom",
+          "description": "完成 2 个挑战"
+        }
+      }
+    },
+    "a_vlad": {
+      "translations": {
+        "english": {
+          "name": "Vlad",
+          "description": "Complete Desert Tier 2"
+        },
+        "schinese": {
+          "name": "Vlad",
+          "description": "完成沙漠 Tier 2"
+        }
+      }
+    },
+    "a_armorTome": {
+      "translations": {
+        "english": {
+          "name": "Armor Tome",
+          "description": "Kill 5 000 enemies as Sir Oofie"
+        },
+        "schinese": {
+          "name": "护甲秘典",
+          "description": "使用 Sir Oofie 击杀 5,000 个敌人"
+        }
+      }
+    },
+    "a_attractionTome": {
+      "translations": {
+        "english": {
+          "name": "Attraction Tome",
+          "description": "Use Shrine of Succ 8 times"
+        },
+        "schinese": {
+          "name": "吸引秘典",
+          "description": "使用 Shrine of Succ 8 次"
+        }
+      }
+    },
+    "a_bloodTome": {
+      "translations": {
+        "english": {
+          "name": "Blood Tome",
+          "description": "Kill 12 500 enemies"
+        },
+        "schinese": {
+          "name": "鲜血秘典",
+          "description": "击杀 12,500 个敌人"
+        }
+      }
+    },
+    "a_chaosTome": {
+      "translations": {
+        "english": {
+          "name": "Chaos Tome",
+          "description": "Charge every Charge Shrine on a Tier 3 run across all 3 stages without leaving the charge zone"
+        },
+        "schinese": {
+          "name": "混沌秘典",
+          "description": "在 Tier 3 流程的全部 3 个关卡中，不离开充能区域完成每个 Charge Shrine"
+        }
+      }
+    },
+    "a_cursedTome": {
+      "translations": {
+        "english": {
+          "name": "Cursed Tome",
+          "description": "Beat the Stage Boss in under 5 minutes"
+        },
+        "schinese": {
+          "name": "诅咒秘典",
+          "description": "在 5 分钟内击败关卡 Boss"
+        }
+      }
+    },
+    "a_durationTome": {
+      "translations": {
+        "english": {
+          "name": "Duration Tome",
+          "description": "Upgrade Axe to level 10"
+        },
+        "schinese": {
+          "name": "持续秘典",
+          "description": "将 Axe 升级到 10 级"
+        }
+      }
+    },
+    "a_luckTome": {
+      "translations": {
+        "english": {
+          "name": "Luck Tome",
+          "description": "0.01% chance to drop when killing an enemy"
+        },
+        "schinese": {
+          "name": "幸运秘典",
+          "description": "击杀敌人时有 0.01% 概率掉落"
+        }
+      }
+    },
+    "a_quantityTome": {
+      "translations": {
+        "english": {
+          "name": "Quantity Tome",
+          "description": "Fire 5 000 projectiles"
+        },
+        "schinese": {
+          "name": "数量秘典",
+          "description": "发射 5,000 个投射物"
+        }
+      }
+    },
+    "a_thornsTome": {
+      "translations": {
+        "english": {
+          "name": "Thorns Tome",
+          "description": "Block 250 attacks with Aegis"
+        },
+        "schinese": {
+          "name": "荆棘秘典",
+          "description": "用 Aegis 格挡 250 次攻击"
+        }
+      }
+    },
+    "a_xpTome": {
+      "translations": {
+        "english": {
+          "name": "XP Tome",
+          "description": "Break 20 pots in a single run"
+        },
+        "schinese": {
+          "name": "经验秘典",
+          "description": "在单局中打破 20 个罐子"
+        }
+      }
+    },
+    "a_aegis": {
+      "translations": {
+        "english": {
+          "name": "Aegis",
+          "description": "Block 500 damage with Armor as Sir Oofie"
+        },
+        "schinese": {
+          "name": "Aegis",
+          "description": "使用 Sir Oofie 以护甲格挡 500 点伤害"
+        }
+      }
+    },
+    "a_aura": {
+      "translations": {
+        "english": {
+          "name": "Aura",
+          "description": "Don't take any damage for 2 minutes"
+        },
+        "schinese": {
+          "name": "光环",
+          "description": "2 分钟内不受任何伤害"
+        }
+      }
+    },
+    "a_axe": {
+      "translations": {
+        "english": {
+          "name": "Axe",
+          "description": "Kill 2 000 enemies using the Sword"
+        },
+        "schinese": {
+          "name": "斧头",
+          "description": "使用剑击杀 2,000 个敌人"
+        }
+      }
+    },
+    "a_bananarang": {
+      "translations": {
+        "english": {
+          "name": "Bananarang",
+          "description": "Find the hidden Banana"
+        },
+        "schinese": {
+          "name": "Bananarang",
+          "description": "找到隐藏的香蕉"
+        }
+      }
+    },
+    "a_blackHole": {
+      "translations": {
+        "english": {
+          "name": "Black Hole",
+          "description": "Get Knockback Tome to Level 10"
+        },
+        "schinese": {
+          "name": "黑洞",
+          "description": "将击退秘典升到 10 级"
+        }
+      }
+    },
+    "a_bloodMagic": {
+      "translations": {
+        "english": {
+          "name": "Blood Magic",
+          "description": "Get the Bloody Tome to Level 12"
+        },
+        "schinese": {
+          "name": "Blood Magic",
+          "description": "将鲜血秘典升到 12 级"
+        }
+      }
+    },
+    "a_corruptedSword": {
+      "translations": {
+        "english": {
+          "name": "Corrupted Sword",
+          "description": "Get Cursed Tome to Level 20 in under 10 minutes"
+        },
+        "schinese": {
+          "name": "腐化之剑",
+          "description": "在 10 分钟内将诅咒秘典升到 20 级"
+        }
+      }
+    },
+    "a_dexecutioner": {
+      "translations": {
+        "english": {
+          "name": "Dexecutioner",
+          "description": "Kill 12 500 enemies using the sword"
+        },
+        "schinese": {
+          "name": "Dexecutioner",
+          "description": "用剑击杀 12,500 个敌人"
+        }
+      }
+    },
+    "a_dice": {
+      "translations": {
+        "english": {
+          "name": "Dice",
+          "description": "Get Luck Tome to Level 12"
+        },
+        "schinese": {
+          "name": "骰子",
+          "description": "将幸运秘典升到 12 级"
+        }
+      }
+    },
+    "a_dragonsBreath": {
+      "translations": {
+        "english": {
+          "name": "Dragon's Breath",
+          "description": "Kill 1 000 Wisps as Fox on Desert"
+        },
+        "schinese": {
+          "name": "Dragon's Breath",
+          "description": "在沙漠使用 Fox 击杀 1,000 个 Wisp"
+        }
+      }
+    },
+    "a_frostwalker": {
+      "translations": {
+        "english": {
+          "name": "Frostwalker",
+          "description": "Freeze 1 000 enemies with the Ice Cube"
+        },
+        "schinese": {
+          "name": "Frostwalker",
+          "description": "用 Ice Cube 冻结 1,000 个敌人"
+        }
+      }
+    },
+    "a_heroSword": {
+      "translations": {
+        "english": {
+          "name": "Hero Sword",
+          "description": "Defeat a Stage Boss without picking up any items, powerups or using shrines."
+        },
+        "schinese": {
+          "name": "英雄剑",
+          "description": "不拾取任何物品、强化，也不使用神龛，击败一个关卡 Boss。"
+        }
+      }
+    },
+    "a_katana": {
+      "translations": {
+        "english": {
+          "name": "Katana",
+          "description": "5% chance to find upon breaking a Tumbleweed on Desert Stage 1"
+        },
+        "schinese": {
+          "name": "武士刀",
+          "description": "在沙漠第 1 关打破 Tumbleweed 时有 5% 概率找到"
+        }
+      }
+    },
+    "a_mines": {
+      "translations": {
+        "english": {
+          "name": "Mines",
+          "description": "Kill 7 500 enemies using Rockets"
+        },
+        "schinese": {
+          "name": "地雷",
+          "description": "使用 Rockets 击杀 7,500 个敌人"
+        }
+      }
+    },
+    "a_poisonFlask": {
+      "translations": {
+        "english": {
+          "name": "Poison Flask",
+          "description": "Kill Scorpionussy on Desert 3 times"
+        },
+        "schinese": {
+          "name": "毒药瓶",
+          "description": "在沙漠击杀 Scorpionussy 3 次"
+        }
+      }
+    },
+    "a_revolver": {
+      "translations": {
+        "english": {
+          "name": "Revolver",
+          "description": "Kill 7 500 enemies"
+        },
+        "schinese": {
+          "name": "左轮手枪",
+          "description": "击杀 7,500 个敌人"
+        }
+      }
+    },
+    "a_shotgun": {
+      "translations": {
+        "english": {
+          "name": "Shotgun",
+          "description": "5% chance to find upon breaking a Tumbleweed on Desert Stage 2"
+        },
+        "schinese": {
+          "name": "霰弹枪",
+          "description": "在沙漠第 2 关打破 Tumbleweed 时有 5% 概率找到"
+        }
+      }
+    },
+    "a_sluttyRocket": {
+      "translations": {
+        "english": {
+          "name": "Rockets",
+          "description": "Kill 15 000 enemies as CL4NK"
+        },
+        "schinese": {
+          "name": "火箭",
+          "description": "使用 CL4NK 击杀 15,000 个敌人"
+        }
+      }
+    },
+    "a_sniperRifle": {
+      "translations": {
+        "english": {
+          "name": "Sniper",
+          "description": "Get Precision Tome to Level 10"
+        },
+        "schinese": {
+          "name": "狙击枪",
+          "description": "将精准秘典升到 10 级"
+        }
+      }
+    },
+    "a_spaceNoodle": {
+      "translations": {
+        "english": {
+          "name": "Space Noodle",
+          "description": "Complete Desert Tier 2 as Tony McZoom"
+        },
+        "schinese": {
+          "name": "太空面条",
+          "description": "使用 Tony McZoom 完成沙漠 Tier 2"
+        }
+      }
+    },
+    "a_tornado": {
+      "translations": {
+        "english": {
+          "name": "Tornado",
+          "description": "Charge a total of 5 Charge Shrines during Sandstorms on Desert"
+        },
+        "schinese": {
+          "name": "龙卷风",
+          "description": "在沙漠沙暴期间总共为 5 个 Charge Shrine 充能"
+        }
+      }
+    },
+    "a_wirelessDaggers": {
+      "translations": {
+        "english": {
+          "name": "Wireless Dagger",
+          "description": "Get the Lightning Staff to Level 15"
+        },
+        "schinese": {
+          "name": "无线匕首",
+          "description": "将 Lightning Staff 升到 15 级"
+        }
+      }
+    },
+    "a_banish": {
+      "translations": {
+        "english": {
+          "name": "Banish",
+          "description": "Complete 40 quests"
+        },
+        "schinese": {
+          "name": "放逐",
+          "description": "完成 40 个任务"
+        }
+      }
+    },
+    "a_boombox": {
+      "translations": {
+        "english": {
+          "name": "Boombox",
+          "description": "Find and activate all the boomboxes on Forest"
+        },
+        "schinese": {
+          "name": "Boombox",
+          "description": "在森林找到并激活所有 boombox"
+        }
+      }
+    },
+    "a_desert": {
+      "translations": {
+        "english": {
+          "name": "Desert",
+          "description": "Teleport to the 2nd stage on Forest Tier 2 as CL4NK"
+        },
+        "schinese": {
+          "name": "沙漠",
+          "description": "使用 CL4NK 在森林 Tier 2 传送到第 2 关"
+        }
+      }
+    },
+    "a_refresh": {
+      "translations": {
+        "english": {
+          "name": "Refresh",
+          "description": "Complete 20 quests"
+        },
+        "schinese": {
+          "name": "刷新",
+          "description": "完成 20 个任务"
+        }
+      }
+    },
+    "a_skip": {
+      "translations": {
+        "english": {
+          "name": "Skip",
+          "description": "Complete 30 quests"
+        },
+        "schinese": {
+          "name": "跳过",
+          "description": "完成 30 个任务"
+        }
+      }
+    },
+    "a_toggler": {
+      "translations": {
+        "english": {
+          "name": "Toggler",
+          "description": "Buy 40 unlocks"
+        },
+        "schinese": {
+          "name": "切换器",
+          "description": "购买 40 个解锁项"
+        }
+      }
+    },
+    "a_tomeSlots": {
+      "translations": {
+        "english": {
+          "name": "Tome Slots",
+          "description": "Complete 35 quests"
+        },
+        "schinese": {
+          "name": "秘典槽位",
+          "description": "完成 35 个任务"
+        }
+      }
+    },
+    "a_weaponSlots": {
+      "translations": {
+        "english": {
+          "name": "Weapon Slots",
+          "description": "Complete 25 quests"
+        },
+        "schinese": {
+          "name": "武器槽位",
+          "description": "完成 25 个任务"
+        }
+      }
+    },
+    "a_weaponSlots2": {
+      "translations": {
+        "english": {
+          "name": "Weapon Slots 2",
+          "description": "Complete 45 quests"
+        },
+        "schinese": {
+          "name": "武器槽位 2",
+          "description": "完成 45 个任务"
+        }
+      }
+    },
+    "a_tomeSlots2": {
+      "translations": {
+        "english": {
+          "name": "Tome Slots 2",
+          "description": "Complete 55 quests"
+        },
+        "schinese": {
+          "name": "秘典槽位 2",
+          "description": "完成 55 个任务"
+        }
+      }
+    },
+    "a_quinsMask": {
+      "translations": {
+        "english": {
+          "name": "Quin's Mask",
+          "description": "Defeat a Stage Boss as Athena, landing the killing blow with Aegis"
+        },
+        "schinese": {
+          "name": "Quin 的面具",
+          "description": "使用 Athena 击败一个关卡 Boss，并用 Aegis 打出最后一击"
+        }
+      }
+    },
+    "a_wallHugger": {
+      "translations": {
+        "english": {
+          "name": "Wallhugger",
+          "description": "Avoid Fall Damage 10 times by hugging walls"
+        },
+        "schinese": {
+          "name": "贴墙者",
+          "description": "通过贴墙避免坠落伤害 10 次"
+        }
+      }
+    },
+    "a_challenges1": {
+      "translations": {
+        "english": {
+          "name": "Challenges1",
+          "description": "Complete 5 Challenges"
+        },
+        "schinese": {
+          "name": "挑战 1",
+          "description": "完成 5 个挑战"
+        }
+      }
+    },
+    "a_challenges2": {
+      "translations": {
+        "english": {
+          "name": "Challenges2",
+          "description": "Complete 10 Challenges"
+        },
+        "schinese": {
+          "name": "挑战 2",
+          "description": "完成 10 个挑战"
+        }
+      }
+    },
+    "a_challenges3": {
+      "translations": {
+        "english": {
+          "name": "Challenges3",
+          "description": "Complete 20 Challenges"
+        },
+        "schinese": {
+          "name": "挑战 3",
+          "description": "完成 20 个挑战"
+        }
+      }
+    },
+    "a_challenges4": {
+      "translations": {
+        "english": {
+          "name": "Challenges4",
+          "description": "Complete 30 Challenges"
+        },
+        "schinese": {
+          "name": "挑战 4",
+          "description": "完成 30 个挑战"
+        }
+      }
+    },
+    "a_graveyard": {
+      "translations": {
+        "english": {
+          "name": "Graveyard",
+          "description": "As Calcium on Desert Tier 2, summon and defeat the undead boss"
+        },
+        "schinese": {
+          "name": "墓园",
+          "description": "使用 Calcium 在沙漠 Tier 2 召唤并击败亡灵 Boss"
+        }
+      }
+    },
+    "a_scythe": {
+      "translations": {
+        "english": {
+          "name": "Scythe",
+          "description": "Kill Big Bob on Graveyard"
+        },
+        "schinese": {
+          "name": "镰刀",
+          "description": "在墓园击杀 Big Bob"
+        }
+      }
+    },
+    "a_roberto": {
+      "translations": {
+        "english": {
+          "name": "Roberto",
+          "description": "Kill Spooky Steve"
+        },
+        "schinese": {
+          "name": "Roberto",
+          "description": "击杀 Spooky Steve"
+        }
+      }
+    },
+    "a_oldMask": {
+      "translations": {
+        "english": {
+          "name": "Old Mask",
+          "description": "Find on Graveyard"
+        },
+        "schinese": {
+          "name": "旧面具",
+          "description": "在墓园找到"
+        }
+      }
+    },
+    "a_pumpkin": {
+      "translations": {
+        "english": {
+          "name": "Pumpkin",
+          "description": "As Roberto, break every pumpkin on Graveyard"
+        },
+        "schinese": {
+          "name": "南瓜",
+          "description": "使用 Roberto 打破墓园中的每一个南瓜"
+        }
+      }
+    },
+    "a_bobsLantern": {
+      "translations": {
+        "english": {
+          "name": "Bob's Light",
+          "description": "Kill Big Bob on Graveyard using damage from charging a lamp as the finishing blow"
+        },
+        "schinese": {
+          "name": "Bob 的灯",
+          "description": "在墓园用充能灯造成的伤害作为最后一击击杀 Big Bob"
+        }
+      }
+    },
+    "a_snek": {
+      "translations": {
+        "english": {
+          "name": "Snek",
+          "description": "Discover in the secret room in the crypt on Graveyard"
+        },
+        "schinese": {
+          "name": "Snek",
+          "description": "在墓园地下室的秘密房间中发现"
+        }
+      }
+    },
+    "a_potSteel": {
+      "translations": {
+        "english": {
+          "name": "Pot (stainless steel)",
+          "description": "Open every chest and pot in the first crypt on Graveyard"
+        },
+        "schinese": {
+          "name": "锅（不锈钢）",
+          "description": "打开墓园第一个地下室中的每个宝箱和罐子"
+        }
+      }
+    },
+    "a_wizardsHat": {
+      "translations": {
+        "english": {
+          "name": "Wizard's Hat",
+          "description": "As Vlad, use Pot (stainless steel) to upgrade any weapon above its max level of 40"
+        },
+        "schinese": {
+          "name": "巫师帽",
+          "description": "使用 Vlad，用锅（不锈钢）将任意武器提升到 40 级上限以上"
+        }
+      }
+    },
+    "a_santaHat": {
+      "translations": {
+        "english": {
+          "name": "Santa Hat",
+          "description": "Open the present hidden on Forest"
+        },
+        "schinese": {
+          "name": "圣诞帽",
+          "description": "打开森林中隐藏的礼物"
+        }
+      }
+    },
+    "a_hatCheese": {
+      "translations": {
+        "english": {
+          "name": "Cheesy Hat",
+          "description": "As Amog, defeat a Tier 3 final boss with 8 Moldy Cheese and 1 Snek in your inventory"
+        },
+        "schinese": {
+          "name": "奶酪帽",
+          "description": "使用 Amog，背包中有 8 个 Moldy Cheese 和 1 个 Snek 时击败 Tier 3 最终 Boss"
+        }
+      }
+    },
+    "a_hatClown": {
+      "translations": {
+        "english": {
+          "name": "Clown",
+          "description": "As Athena, kill 500 enemies using Quin's Mask"
+        },
+        "schinese": {
+          "name": "小丑",
+          "description": "使用 Athena，用 Quin 的面具击杀 500 个敌人"
+        }
+      }
+    },
+    "a_hatCrown": {
+      "translations": {
+        "english": {
+          "name": "Crown",
+          "description": "Get a gold star on every character (Rank 100)"
+        },
+        "schinese": {
+          "name": "王冠",
+          "description": "每个角色都获得金星（Rank 100）"
+        }
+      }
+    },
+    "a_hatFrog1": {
+      "translations": {
+        "english": {
+          "name": "Green Frog",
+          "description": "Find the frogs on Forest Stage 1"
+        },
+        "schinese": {
+          "name": "绿色青蛙",
+          "description": "在森林第 1 关找到青蛙"
+        }
+      }
+    },
+    "a_hatFrog2": {
+      "translations": {
+        "english": {
+          "name": "Blue Frog",
+          "description": "Find the frogs on Forest Stage 2"
+        },
+        "schinese": {
+          "name": "蓝色青蛙",
+          "description": "在森林第 2 关找到青蛙"
+        }
+      }
+    },
+    "a_hatFrog3": {
+      "translations": {
+        "english": {
+          "name": "Red Frog",
+          "description": "Find the frogs on Forest Stage 3"
+        },
+        "schinese": {
+          "name": "红色青蛙",
+          "description": "在森林第 3 关找到青蛙"
+        }
+      }
+    },
+    "a_hatHeadset": {
+      "translations": {
+        "english": {
+          "name": "Headset",
+          "description": "As Ninja, complete Desert Stage 1 with at least 2 Boss Curse shrines activated"
+        },
+        "schinese": {
+          "name": "耳机",
+          "description": "使用 Ninja，在沙漠第 1 关激活至少 2 个 Boss Curse 神龛并完成关卡"
+        }
+      }
+    },
+    "a_hatKevin": {
+      "translations": {
+        "english": {
+          "name": "Kevin Hat",
+          "description": "Get punched by Kevin 100,000 times"
+        },
+        "schinese": {
+          "name": "Kevin 帽",
+          "description": "被 Kevin 打 100,000 次"
+        }
+      }
+    },
+    "a_hatMagic": {
+      "translations": {
+        "english": {
+          "name": "Magic hat",
+          "description": "As Fox, get Firestaff, Lightning Staff & Blood Magic to level 40"
+        },
+        "schinese": {
+          "name": "魔法帽",
+          "description": "使用 Fox，将 Firestaff、Lightning Staff 和 Blood Magic 升到 40 级"
+        }
+      }
+    },
+    "a_hatMedieval": {
+      "translations": {
+        "english": {
+          "name": "Iron Helm",
+          "description": "As Sir Oofie, defeat the final boss of Forest 3 using Sword, Hero Sword, Corrupted Sword and Scythe"
+        },
+        "schinese": {
+          "name": "铁盔",
+          "description": "使用 Sir Oofie，用 Sword、Hero Sword、Corrupted Sword 和 Scythe 击败森林 3 的最终 Boss"
+        }
+      }
+    },
+    "a_hatMicrowave": {
+      "translations": {
+        "english": {
+          "name": "Microwave",
+          "description": "Blow up 50 microwaves"
+        },
+        "schinese": {
+          "name": "Microwave",
+          "description": "炸毁 50 台 Microwave"
+        }
+      }
+    },
+    "a_hatPilot": {
+      "translations": {
+        "english": {
+          "name": "Pilot Helm",
+          "description": "As Birdo, kill 1000 enemies using Mines while flying in the air"
+        },
+        "schinese": {
+          "name": "飞行员头盔",
+          "description": "使用 Birdo，在空中飞行时用 Mines 击杀 1,000 个敌人"
+        }
+      }
+    },
+    "a_hatPot": {
+      "translations": {
+        "english": {
+          "name": "Head Pot",
+          "description": "As Roberto, obtain 4x Pot (stainless steel) in a single run"
+        },
+        "schinese": {
+          "name": "头顶锅",
+          "description": "使用 Roberto，在单局中获得 4 个锅（不锈钢）"
+        }
+      }
+    },
+    "a_hatShadyBlack": {
+      "translations": {
+        "english": {
+          "name": "Shady Hat (black)",
+          "description": "Buy 100 items from a Common Shady Guy"
+        },
+        "schinese": {
+          "name": "Shady 帽（黑）",
+          "description": "从 Common Shady Guy 处购买 100 件物品"
+        }
+      }
+    },
+    "a_hatShadyBlue": {
+      "translations": {
+        "english": {
+          "name": "Shady Hat (blue)",
+          "description": "Buy 80 items from a Rare Shady Guy"
+        },
+        "schinese": {
+          "name": "Shady 帽（蓝）",
+          "description": "从 Rare Shady Guy 处购买 80 件物品"
+        }
+      }
+    },
+    "a_hatShadyPink": {
+      "translations": {
+        "english": {
+          "name": "Shady Hat (pink)",
+          "description": "Buy 60 items from an Epic Shady Guy"
+        },
+        "schinese": {
+          "name": "Shady 帽（粉）",
+          "description": "从 Epic Shady Guy 处购买 60 件物品"
+        }
+      }
+    },
+    "a_hatShadyGold": {
+      "translations": {
+        "english": {
+          "name": "Shady Hat (gold)",
+          "description": "Buy 50 items from a Legendary Shady Guy"
+        },
+        "schinese": {
+          "name": "Shady 帽（金）",
+          "description": "从 Legendary Shady Guy 处购买 50 件物品"
+        }
+      }
+    },
+    "a_hatSheriff": {
+      "translations": {
+        "english": {
+          "name": "Sheriff's Hat",
+          "description": "As CL4NK, kill any boss or miniboss in under 1 second"
+        },
+        "schinese": {
+          "name": "警长帽",
+          "description": "使用 CL4NK，在 1 秒内击杀任意 Boss 或小 Boss"
+        }
+      }
+    },
+    "a_hatSunglasses": {
+      "translations": {
+        "english": {
+          "name": "Sunglasses",
+          "description": "As Calcium, finish the final boss fight on Graveyard in under 60 seconds"
+        },
+        "schinese": {
+          "name": "太阳镜",
+          "description": "使用 Calcium，在 60 秒内完成墓园最终 Boss 战"
+        }
+      }
+    },
+    "a_hatTophat": {
+      "translations": {
+        "english": {
+          "name": "Top Hat",
+          "description": "Get 100,000 kills on Forest in a single run"
+        },
+        "schinese": {
+          "name": "礼帽",
+          "description": "在森林单局获得 100,000 次击杀"
+        }
+      }
+    },
+    "a_hatTophatLong": {
+      "translations": {
+        "english": {
+          "name": "Looooong Top Hat",
+          "description": "Get 300,000 kills on Forest in a single run"
+        },
+        "schinese": {
+          "name": "超长礼帽",
+          "description": "在森林单局获得 300,000 次击杀"
+        }
+      }
+    }
+  }
+}

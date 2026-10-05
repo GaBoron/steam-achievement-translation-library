@@ -134,7 +134,7 @@ jobs:
           from pathlib import Path
 
           data = json.loads(Path("submission_result.json").read_text(encoding="utf-8"))
-          for key in ("branch", "pr_labels", "commit_message", "pr_title"):
+          for key in ("branch", "pr_labels", "commit_message", "pr_title", "game_id"):
               print(f"{key}={data[key]}")
           PY
 
@@ -162,8 +162,7 @@ jobs:
           labels: ${{ steps.meta.outputs.pr_labels }}
           reviewers: GaBoron
           add-paths: |
-            files/**
-            index-v2.json
+            files/${{ steps.meta.outputs.game_id }}/**
 
       - name: Close and lock source issue
         if: ${{ steps.validate.outcome == 'success' }}
@@ -236,11 +235,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 35
     concurrency:
-      group: translation-library-main-finalize
+      group: translation-library-approve-${{ github.event.pull_request.number }}
       cancel-in-progress: false
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -253,6 +254,8 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
           REVIEW_AUTHOR: ${{ github.event.review.user.login }}
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PR_HEAD_SHA: ${{ github.event.review.commit_id }}
         run: |
           STATE="$(gh pr view "$PR_NUMBER" --json state --jq '.state')"
           if [ "$STATE" != "OPEN" ]; then
@@ -264,8 +267,9 @@ jobs:
             echo "PR #$PR_NUMBER is still a draft; skipping merge."
             exit 0
           fi
+          python workflow-scripts/check_repository.py --translation-pr --base-ref "$PR_BASE_SHA" --head-ref "$PR_HEAD_SHA"
           TITLE="$(gh pr view "$PR_NUMBER" --json title --jq '.title')"
-          gh pr merge "$PR_NUMBER" --auto --merge --delete-branch --subject "$TITLE" --body "Automatically merged after approval by @$REVIEW_AUTHOR."
+          gh pr merge "$PR_NUMBER" --auto --merge --match-head-commit "$PR_HEAD_SHA" --delete-branch --subject "$TITLE" --body "Automatically merged after approval by @$REVIEW_AUTHOR."
 
       - name: Wait for automatic merge
         env:
