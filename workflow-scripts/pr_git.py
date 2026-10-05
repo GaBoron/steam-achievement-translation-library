@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any
 
 from github_repository import github_request
+import catalog_v2
 from catalog_v2 import v1_schema_relative_path
 from schema_compatibility import recycle_legacy_translation_json
 from library_index import (
@@ -17,10 +18,7 @@ from library_index import (
     repository_path,
     schema_file_size_bytes,
     schema_variant_relative_path,
-    upsert_index_entry,
     validated_entry_schema_variants,
-    write_human_index,
-    write_index,
 )
 
 
@@ -51,25 +49,14 @@ def checkout_pr_branch(pr: dict[str, Any]) -> str:
     if not branch.startswith("translation-library/"):
         raise RuntimeError("Only translation-library PR branches can be updated by automation.")
     configure_git_identity()
-    run(["git", "fetch", "origin", "main"], check=False)
-    run(["git", "fetch", "origin", branch], check=False)
-    run(["git", "checkout", "-B", branch, f"origin/{branch}"])
-    run(["git", "rebase", "origin/main"])
+    run(["git", "fetch", "origin", "main", branch])
+    expected_head = str((pr.get("head") or {}).get("sha") or "")
+    actual_head = run(["git", "rev-parse", f"origin/{branch}"]).stdout.strip()
+    if expected_head and actual_head != expected_head:
+        raise RuntimeError("The PR changed while its command was being processed; retry against its current head.")
+    run(["git", "checkout", "-b", branch, f"origin/{branch}"])
+    run(["git", "merge", "--no-commit", "--no-ff", "origin/main"])
     return branch
-
-
-def remove_index_entries(game_ids: set[str]) -> dict[str, Any]:
-    index = load_index()
-    index["entries"] = [entry for entry in index.get("entries", []) if str(entry.get("game_id")) not in game_ids]
-    write_index(index)
-    write_human_index(index)
-    return index
-
-
-def upsert_entry_for_pr(old_game_id: str, entry: dict[str, Any]) -> None:
-    if old_game_id and old_game_id != str(entry.get("game_id")):
-        remove_index_entries({old_game_id, str(entry.get("game_id"))})
-    upsert_index_entry(entry)
 
 
 def rename_schema_variants(
@@ -79,6 +66,9 @@ def rename_schema_variants(
 ) -> tuple[str, list[dict[str, Any]] | None]:
     if old_game_id == new_game_id:
         return str(meta["schema_file"]), meta.get("schema_files")
+    published = catalog_v2.load_catalog(root=ROOT)["games"]
+    if old_game_id in published or new_game_id in published:
+        raise ValueError("只能修正尚未入库的新游戏 App ID；不能移动或覆盖已收录的游戏。")
     schema_files = meta.get("schema_files")
     if schema_files is None:
         indexed = existing_entry(load_index(), old_game_id)
@@ -152,7 +142,9 @@ def rename_schema_variants(
 
 def commit_and_push(branch: str, message: str, add_paths: list[str] | None = None) -> bool:
     configure_git_identity()
-    run(["git", "add", *(add_paths or ["files", "index.json", "index-v2.json", "INDEX.md", "INDEX_EN.md"])])
+    if not add_paths:
+        raise ValueError("PR commits require explicit game-local paths.")
+    run(["git", "add", "-A", "--", *add_paths])
     if run(["git", "diff", "--cached", "--quiet"], check=False).returncode == 0:
         return False
     run(["git", "commit", "-m", message])
@@ -161,20 +153,11 @@ def commit_and_push(branch: str, message: str, add_paths: list[str] | None = Non
 
 
 def push_branch(branch: str) -> None:
-    run(["git", "fetch", "origin", branch], check=False)
-    push = run(["git", "push", "--force-with-lease", "--set-upstream", "origin", branch], check=False)
-    if push.returncode != 0:
-        run(["git", "fetch", "origin", branch], check=False)
-        run(["git", "push", "--force-with-lease", "--set-upstream", "origin", branch])
-
-
-def push_main_with_retry() -> None:
-    push = run(["git", "push", "origin", "HEAD:main"], check=False)
-    if push.returncode == 0:
-        return
-    run(["git", "fetch", "origin", "main"])
-    run(["git", "rebase", "origin/main"])
-    run(["git", "push", "origin", "HEAD:main"])
+    from translation_pr_validation import check_translation_pr
+    report = check_translation_pr("origin/main", "HEAD")
+    if report.errors:
+        raise ValueError("PR validation failed: " + "; ".join(report.errors))
+    run(["git", "push", "--set-upstream", "origin", branch])
 
 
 def delete_pr_branch(repo: str, token: str, pr: dict[str, Any]) -> None:

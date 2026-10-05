@@ -153,7 +153,8 @@ def force_refresh_pr(repo: str, token: str, event: dict[str, Any]) -> None:
     try:
         branch = checkout_pr_branch(pr)
         presentation = build_refreshed_translation_pr_presentation(pr)
-        run(["git", "add", "--", "files", "index-v2.json"])
+        game_id = str(parse_pr_metadata(pr)["game_id"])
+        run(["git", "add", "-A", "--", f"files/{game_id}"])
         run(["git", "commit", "--allow-empty", "-m", f"chore: force refresh PR #{pr_number}"])
         push_branch(branch)
         update_pr_title_and_body(
@@ -184,7 +185,7 @@ def force_refresh_pr(repo: str, token: str, event: dict[str, Any]) -> None:
             "<!-- translation-library-force-refresh -->",
             "`/force-refresh` 已处理完成。",
             "",
-            "- 已将投稿分支变基到最新 `main`，并推送新的空提交以重新触发自动检查。",
+            "- 已同步最新 `main` 并保留投稿历史，重新触发自动检查；投稿改动仅涉及该游戏目录。",
             "- 已根据投稿分支中的当前 schema 重新生成 PR 描述和人类可读成就目录。",
             "- 已重新请求维护者校对；通过检查和批准后，PR 会继续自动合并与入库推送流程。",
         ]),
@@ -484,7 +485,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
         comment_issue(repo, token, pr_number, update_error_comment(str(exc)))
         return
 
-    add_paths = ["index-v2.json"] if kind == "outdated" else ["files", "index-v2.json"]
+    add_paths = [f"files/{game_id}" for game_id in sorted({old_game_id, str(entry["game_id"])})]
     changed = commit_and_push(branch, f"data: apply PR update command #{pr_number}", add_paths)
     update_pr_title_and_body(repo, token, pr_number, pr_title, pr_body)
     suffix = "投稿分支和 PR 描述已更新。" if changed else "PR 描述已更新；文件内容没有产生新的提交。"
