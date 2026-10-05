@@ -1,0 +1,541 @@
+{
+  "version": 1,
+  "app_id": "311240",
+  "variant_id": "default",
+  "source_sha256": "8ed76bf0e9da132cf5734f4ddfc6df70e57acb209f52ea3e6fb87d54837c3761",
+  "languages": [
+    "english",
+    "japanese",
+    "schinese"
+  ],
+  "achievements": {
+    "Zero_Escape": {
+      "translations": {
+        "english": {
+          "name": "Zero Escape",
+          "description": "Collect all trophies."
+        },
+        "japanese": {
+          "name": "ZERO ESCAPE",
+          "description": "全てのトロフィーを取得"
+        },
+        "schinese": {
+          "name": "零时逃脱",
+          "description": "收集所有奖杯。"
+        }
+      }
+    },
+    "Still_a_Rookie": {
+      "translations": {
+        "english": {
+          "name": "Still a Rookie",
+          "description": "Complete 1 quest."
+        },
+        "japanese": {
+          "name": "謎解き初心者",
+          "description": "Questパートを1ステージクリアした"
+        },
+        "schinese": {
+          "name": "仍是新人",
+          "description": "完成 1 个任务。"
+        }
+      }
+    },
+    "In_the_Big_Leagues_Now": {
+      "translations": {
+        "english": {
+          "name": "In the Big Leagues Now",
+          "description": "Complete 6 quests."
+        },
+        "japanese": {
+          "name": "謎解き中級者",
+          "description": "Questパートを6ステージクリアした"
+        },
+        "schinese": {
+          "name": "跻身大联盟",
+          "description": "完成 6 个任务。"
+        }
+      }
+    },
+    "The_Go_To_Guy": {
+      "translations": {
+        "english": {
+          "name": "The Go-To Guy",
+          "description": "Complete all quests."
+        },
+        "japanese": {
+          "name": "謎解き上級者",
+          "description": "Questパートを全13ステージクリアした"
+        },
+        "schinese": {
+          "name": "可靠之人",
+          "description": "完成所有任务。"
+        }
+      }
+    },
+    "A_Grain_of_Sand": {
+      "translations": {
+        "english": {
+          "name": "A Grain of Sand",
+          "description": "Gain 1 Cinema File."
+        },
+        "japanese": {
+          "name": "知識の切れ端",
+          "description": "Cinema FILEをひとつ入手した"
+        },
+        "schinese": {
+          "name": "一粒沙",
+          "description": "获得 1 个 Cinema File。"
+        }
+      }
+    },
+    "Mountain_of_Knowledge": {
+      "translations": {
+        "english": {
+          "name": "Mountain of Knowledge",
+          "description": "Gain all Cinema Files."
+        },
+        "japanese": {
+          "name": "知識の事典",
+          "description": "Cinema FILEを全て入手した"
+        },
+        "schinese": {
+          "name": "知识之山",
+          "description": "获得所有 Cinema File。"
+        }
+      }
+    },
+    "Crib_Sheet": {
+      "translations": {
+        "english": {
+          "name": "Crib Sheet",
+          "description": "Obtain 1 Quest File."
+        },
+        "japanese": {
+          "name": "近道への知恵",
+          "description": "Quest FILEをひとつ入手した"
+        },
+        "schinese": {
+          "name": "备忘小抄",
+          "description": "获得 1 个 Quest File。"
+        }
+      }
+    },
+    "All_Seeing_Wisdom": {
+      "translations": {
+        "english": {
+          "name": "All-Seeing Wisdom",
+          "description": "Obtain all Quest Files."
+        },
+        "japanese": {
+          "name": "最短への知恵",
+          "description": "Quest FILEを全て入手した"
+        },
+        "schinese": {
+          "name": "洞察一切的智慧",
+          "description": "获得所有 Quest File。"
+        }
+      }
+    },
+    "Beginning_of_the_End": {
+      "translations": {
+        "english": {
+          "name": "Beginning of the End",
+          "description": "Finish CQD-END: 1."
+        },
+        "japanese": {
+          "name": "終わりか始まり",
+          "description": "CQD-END：1を見た"
+        },
+        "schinese": {
+          "name": "终结的开端",
+          "description": "完成 CQD-END: 1。"
+        }
+      }
+    },
+    "Fly_Me_to_the_Moon": {
+      "translations": {
+        "english": {
+          "name": "Fly Me to the Moon",
+          "description": "Finish C-END: 1."
+        },
+        "japanese": {
+          "name": "そして月へ……",
+          "description": "C-END：1を見た"
+        },
+        "schinese": {
+          "name": "带我飞向月球",
+          "description": "完成 C-END: 1。"
+        }
+      }
+    },
+    "What_is_Love_Dont_Hurt_Me": {
+      "translations": {
+        "english": {
+          "name": "What is Love? Don't Hurt Me",
+          "description": "Finish Q-END: 1."
+        },
+        "japanese": {
+          "name": "真実は目に見えない",
+          "description": "Q-END：1を見た"
+        },
+        "schinese": {
+          "name": "爱是什么？别伤害我",
+          "description": "完成 Q-END: 1。"
+        }
+      }
+    },
+    "It_Came_From_Within": {
+      "translations": {
+        "english": {
+          "name": "It Came From Within",
+          "description": "Finish Q-END: 2."
+        },
+        "japanese": {
+          "name": "見逃されていた危険人物",
+          "description": "Q-END：2を見た"
+        },
+        "schinese": {
+          "name": "它来自内部",
+          "description": "完成 Q-END: 2。"
+        }
+      }
+    },
+    "A_Rabbit_in_My_Future": {
+      "translations": {
+        "english": {
+          "name": "A Rabbit in My Future",
+          "description": "Finish D-END: 1."
+        },
+        "japanese": {
+          "name": "止められなかった未来",
+          "description": "D-END：1を見た"
+        },
+        "schinese": {
+          "name": "未来有只兔子",
+          "description": "完成 D-END: 1。"
+        }
+      }
+    },
+    "A_Silver_Lining": {
+      "translations": {
+        "english": {
+          "name": "A Silver Lining",
+          "description": "Finish D-END: 2."
+        },
+        "japanese": {
+          "name": "希望と絶望",
+          "description": "D-END：2を見た"
+        },
+        "schinese": {
+          "name": "一线希望",
+          "description": "完成 D-END: 2。"
+        }
+      }
+    },
+    "The_Final_Decision": {
+      "translations": {
+        "english": {
+          "name": "The Final Decision",
+          "description": "Finish CQD-END: 2."
+        },
+        "japanese": {
+          "name": "最後のDecision",
+          "description": "CQD-END：2を見た"
+        },
+        "schinese": {
+          "name": "最终抉择",
+          "description": "完成 CQD-END: 2。"
+        }
+      }
+    },
+    "Gotta_Go_Back_in_Time": {
+      "translations": {
+        "english": {
+          "name": "Gotta Go Back in Time",
+          "description": "Go through your first bad ending."
+        },
+        "japanese": {
+          "name": "これもひとつの運命だ",
+          "description": "バッドエンドを初めて見た"
+        },
+        "schinese": {
+          "name": "必须回到过去",
+          "description": "经历你的第一个坏结局。"
+        }
+      }
+    },
+    "Coming_Up_on_90_Minutes": {
+      "translations": {
+        "english": {
+          "name": "Coming Up on 90 Minutes",
+          "description": "Watch all the cinematics in a fragment."
+        },
+        "japanese": {
+          "name": "90分の記憶",
+          "description": "物語の断片のコンプリート演出を初めて見る"
+        },
+        "schinese": {
+          "name": "快到 90 分钟了",
+          "description": "观看某个 Fragment 中的所有视频。"
+        }
+      }
+    },
+    "C_Team_Subject_Report": {
+      "translations": {
+        "english": {
+          "name": "C-Team Subject Report",
+          "description": "Clear all C-Team fragments."
+        },
+        "japanese": {
+          "name": "Cの歴史の観測者",
+          "description": "Cチームの物語の断片を全てクリアする"
+        },
+        "schinese": {
+          "name": "C-Team 观察报告",
+          "description": "通关所有 C-Team Fragment。"
+        }
+      }
+    },
+    "Q_Team_Subject_Report": {
+      "translations": {
+        "english": {
+          "name": "Q-Team Subject Report",
+          "description": "Clear all Q-Team fragments."
+        },
+        "japanese": {
+          "name": "Qの歴史の観測者",
+          "description": "Qチームの物語の断片を全てクリアする"
+        },
+        "schinese": {
+          "name": "Q-Team 观察报告",
+          "description": "通关所有 Q-Team Fragment。"
+        }
+      }
+    },
+    "D_Team_Subject_Report": {
+      "translations": {
+        "english": {
+          "name": "D-Team Subject Report",
+          "description": "Clear all D-Team fragments."
+        },
+        "japanese": {
+          "name": "Dの歴史の観測者",
+          "description": "Dチームの物語の断片を全てクリアする"
+        },
+        "schinese": {
+          "name": "D-Team 观察报告",
+          "description": "通关所有 D-Team Fragment。"
+        }
+      }
+    },
+    "SHIFTer": {
+      "translations": {
+        "english": {
+          "name": "SHIFTer",
+          "description": "Clear all fragments."
+        },
+        "japanese": {
+          "name": "SHIFTER",
+          "description": "全ての物語の断片をクリアする"
+        },
+        "schinese": {
+          "name": "SHIFTer",
+          "description": "通关所有 Fragment。"
+        }
+      }
+    },
+    "Down_the_Hatch": {
+      "translations": {
+        "english": {
+          "name": "Down the Hatch",
+          "description": "Drink the real antidote."
+        },
+        "japanese": {
+          "name": "決死の２進法",
+          "description": "本物の解毒剤を飲む"
+        },
+        "schinese": {
+          "name": "一饮而尽",
+          "description": "喝下真正的解毒剂。"
+        }
+      }
+    },
+    "Geronimo": {
+      "translations": {
+        "english": {
+          "name": "Geronimo",
+          "description": "Protect Akane and obtain the X-Passes."
+        },
+        "japanese": {
+          "name": "助かるために命を捨てて",
+          "description": "茜を守ってX-Passを入手する"
+        },
+        "schinese": {
+          "name": "Geronimo",
+          "description": "保护 Akane 并获得 X-Passes。"
+        }
+      }
+    },
+    "Blessed_by_Lady_Luck": {
+      "translations": {
+        "english": {
+          "name": "Blessed by Lady Luck",
+          "description": "All the dice roll 1s."
+        },
+        "japanese": {
+          "name": "いつか来る強運",
+          "description": "ダイスを3つ振って全ての目が1になる"
+        },
+        "schinese": {
+          "name": "受幸运女神眷顾",
+          "description": "所有骰子都掷出 1。"
+        }
+      }
+    },
+    "Tell_Them_What_They_Won": {
+      "translations": {
+        "english": {
+          "name": "Tell Them What They Won",
+          "description": "Correctly answer the Monty Hall Problem."
+        },
+        "japanese": {
+          "name": "現実が直観と反する時",
+          "description": "モンティホール問題に正解する"
+        },
+        "schinese": {
+          "name": "告诉他们赢了什么",
+          "description": "正确回答 Monty Hall Problem。"
+        }
+      }
+    },
+    "Wrinkle_in_Time": {
+      "translations": {
+        "english": {
+          "name": "Wrinkle in Time",
+          "description": "Shoot that person."
+        },
+        "japanese": {
+          "name": "刻を超えた結末",
+          "description": "あの人を撃つ"
+        },
+        "schinese": {
+          "name": "时间的皱褶",
+          "description": "射击那个人。"
+        }
+      }
+    },
+    "Virtual_Reality": {
+      "translations": {
+        "english": {
+          "name": "Virtual Reality",
+          "description": "Live a happy virtual life."
+        },
+        "japanese": {
+          "name": "プログラムされた幸福",
+          "description": "仮想空間で幸せな人生を送る"
+        },
+        "schinese": {
+          "name": "虚拟现实",
+          "description": "过上幸福的虚拟生活。"
+        }
+      }
+    },
+    "What_Are_Ya_Chicken": {
+      "translations": {
+        "english": {
+          "name": "What Are Ya, Chicken?",
+          "description": "Resist temptation to press the button."
+        },
+        "japanese": {
+          "name": "押すなよ？絶対に押すなよ？",
+          "description": "押しちゃダメボタンを押したくなる誘惑に耐える"
+        },
+        "schinese": {
+          "name": "怎么，胆小了？",
+          "description": "抵抗按下按钮的诱惑。"
+        }
+      }
+    },
+    "Calculated_Risk": {
+      "translations": {
+        "english": {
+          "name": "Calculated Risk",
+          "description": "Shoot a blank, everyone lives."
+        },
+        "japanese": {
+          "name": "50%の運命",
+          "description": "空包を撃ち、ファイとシグマが生存する"
+        },
+        "schinese": {
+          "name": "精算风险",
+          "description": "射出空包弹，所有人存活。"
+        }
+      }
+    },
+    "Unforgettable": {
+      "translations": {
+        "english": {
+          "name": "Unforgettable",
+          "description": "Answer with the correct date."
+        },
+        "japanese": {
+          "name": "忘れるはずがない",
+          "description": "双子の誕生日を正解する"
+        },
+        "schinese": {
+          "name": "难以忘怀",
+          "description": "用正确日期作答。"
+        }
+      }
+    },
+    "Schrodingers_Cat": {
+      "translations": {
+        "english": {
+          "name": "Schrödinger's Cat",
+          "description": "Successfully remove the helmet."
+        },
+        "japanese": {
+          "name": "脱いだらすごいタイプ",
+          "description": "頭の球体の解除に成功する"
+        },
+        "schinese": {
+          "name": "薛定谔的猫",
+          "description": "成功移除头盔。"
+        }
+      }
+    },
+    "Virtues_True_Reward": {
+      "translations": {
+        "english": {
+          "name": "Virtue's True Reward",
+          "description": "No one presses the button, everyone lives."
+        },
+        "japanese": {
+          "name": "善人志望デス",
+          "description": "早い者勝ち抹殺ボタンを押さず、全チーム生存する"
+        },
+        "schinese": {
+          "name": "美德的真正奖赏",
+          "description": "无人按下按钮，所有人存活。"
+        }
+      }
+    },
+    "Bigger_on_the_Inside": {
+      "translations": {
+        "english": {
+          "name": "Bigger on the Inside",
+          "description": "Successfully activate the Force Quit Box."
+        },
+        "japanese": {
+          "name": "強制終了者達",
+          "description": "3チームとも強制終了箱の起動に成功する"
+        },
+        "schinese": {
+          "name": "里面更大",
+          "description": "成功启动 Force Quit Box。"
+        }
+      }
+    }
+  }
+}

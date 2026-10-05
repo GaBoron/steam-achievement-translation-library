@@ -17,12 +17,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      ALLOW_UNINDEXED_SCHEMA_FILES: ${{ github.event_name == 'pull_request' && startsWith(github.head_ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
-      ALLOW_STALE_DERIVED_ARTIFACTS: ${{ github.event_name == 'pull_request' && startsWith(github.head_ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
+      TRANSLATION_PR: ${{ github.event_name == 'pull_request' && startsWith(github.head_ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
+      PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+      PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
+          fetch-depth: 0
           persist-credentials: false
 
       - name: Set up Python
@@ -36,10 +38,7 @@ jobs:
       - name: Verify translation data and generated indexes
         run: |
           args=()
-          if [ "$ALLOW_UNINDEXED_SCHEMA_FILES" = "true" ]; then
-            args+=(--allow-unindexed-schema-files --allow-stale-index-metadata)
-          fi
-          if [ "$ALLOW_STALE_DERIVED_ARTIFACTS" = "true" ]; then
-            args+=(--allow-stale-derived-artifacts)
+          if [ "$TRANSLATION_PR" = "true" ]; then
+            args+=(--translation-pr --base-ref "$PR_BASE_SHA" --head-ref "$PR_HEAD_SHA")
           fi
           python workflow-scripts/check_repository.py "${args[@]}"

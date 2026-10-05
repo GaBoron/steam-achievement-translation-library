@@ -1,0 +1,1509 @@
+{
+  "version": 1,
+  "app_id": "282210",
+  "variant_id": "default",
+  "source_sha256": "36306efb5ec2d644d3ae545f63f1c145d877559ca9a344bc18302f8be3acc856",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "koreana",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish",
+    "tchinese"
+  ],
+  "achievements": {
+    "smsachSupremacyWin": {
+      "translations": {
+        "english": {
+          "name": "A new order of intelligence",
+          "description": "Win the game as Supremacy"
+        },
+        "french": {
+          "name": "Pourquoi envoyer un homme quand on a des machines ?",
+          "description": "Remporter une partie avec la suprématie."
+        },
+        "german": {
+          "name": "Eine neue Intelligenz",
+          "description": "Gewinnen Sie ein Spiel mit Vorherrschaft"
+        },
+        "italian": {
+          "name": "Intelligenza di un altro livello",
+          "description": "Vinci una partita con la Supremazia"
+        },
+        "japanese": {
+          "name": "知性の新たな秩序",
+          "description": "至高系でゲームをクリアせよ"
+        },
+        "koreana": {
+          "name": "지능의 새로운 질서",
+          "description": "우월로 게임에서 승리합니다."
+        },
+        "polish": {
+          "name": "Nowe rządy",
+          "description": "Wygraj jako wyznawca doktryny supremacji."
+        },
+        "russian": {
+          "name": "Интеллект будущего",
+          "description": "Победите в игре, встав на путь \"Превосходства\""
+        },
+        "schinese": {
+          "name": "智慧新指令",
+          "description": "以「至高」赢得游戏"
+        },
+        "spanish": {
+          "name": "Un nuevo orden de inteligencia",
+          "description": "Gana el juego con Supremacía."
+        },
+        "tchinese": {
+          "name": "智慧新指令",
+          "description": "以「至高」贏得遊戲"
+        }
+      }
+    },
+    "smsachPurityWin": {
+      "translations": {
+        "english": {
+          "name": "That is the sound of inevitability...",
+          "description": "Win the game as Purity"
+        },
+        "french": {
+          "name": "Ça, c'est le son de l'inéluctabilité",
+          "description": "Remporter une partie avec la pureté."
+        },
+        "german": {
+          "name": "Das ist der Klang des Unvermeidlichen ...",
+          "description": "Gewinnen Sie ein Spiel mit Reinheit"
+        },
+        "italian": {
+          "name": "Quello è il suono dell'inevitabilità…",
+          "description": "Vinci una partita con la Purezza"
+        },
+        "japanese": {
+          "name": "必然性の音がする…",
+          "description": "純血系でゲームをクリアせよ"
+        },
+        "koreana": {
+          "name": "피할 수 없는 소리입니다...",
+          "description": "순수로 게임에서 승리합니다."
+        },
+        "polish": {
+          "name": "To odgłos nieuniknionego...",
+          "description": "Wygraj jako wyznawca doktryny czystości."
+        },
+        "russian": {
+          "name": "Это звук неизбежности...",
+          "description": "Победите в игре, встав на путь \"Праведности\""
+        },
+        "schinese": {
+          "name": "不可逃避之声",
+          "description": "以「纯正」赢得游戏"
+        },
+        "spanish": {
+          "name": "Es el sonido de lo inevitable...",
+          "description": "Gana el juego con Pureza."
+        },
+        "tchinese": {
+          "name": "不可逃避之聲",
+          "description": "以「純正」贏得遊戲"
+        }
+      }
+    },
+    "smsachHarmonyWin": {
+      "translations": {
+        "english": {
+          "name": "We choose our own path",
+          "description": "Win the game as Harmony"
+        },
+        "french": {
+          "name": "Chacun choisit son chemin",
+          "description": "Remporter une partie avec l'harmonie."
+        },
+        "german": {
+          "name": "Wir wählen unseren eigenen Weg",
+          "description": "Gewinnen Sie ein Spiel mit Harmonie"
+        },
+        "italian": {
+          "name": "Ognuno sceglie il proprio cammino.",
+          "description": "Vinci una partita con l'Armonia"
+        },
+        "japanese": {
+          "name": "運命は自分で切り開く",
+          "description": "調和系でゲームをクリアせよ"
+        },
+        "koreana": {
+          "name": "우리가 나아갈 길",
+          "description": "조화로 게임에서 승리합니다."
+        },
+        "polish": {
+          "name": "Każdy wybiera własną ścieżkę",
+          "description": "Wygraj jako wyznawca doktryny harmonii."
+        },
+        "russian": {
+          "name": "Мы сами выбираем свой путь",
+          "description": "Победите в игре, встав на путь \"Гармонии\""
+        },
+        "schinese": {
+          "name": "自己的路自己选",
+          "description": "以「和谐」赢得游戏"
+        },
+        "spanish": {
+          "name": "Elegimos nuestro propio camino",
+          "description": "Gana el juego con Armonía."
+        },
+        "tchinese": {
+          "name": "自己的路自己選",
+          "description": "以「和諧」贏得遊戲"
+        }
+      }
+    },
+    "smsachEnemyPlanet": {
+      "translations": {
+        "english": {
+          "name": "Can you turn the tide of war?",
+          "description": "Take over an enemy's home planet"
+        },
+        "french": {
+          "name": "Renverser le cours de la guerre",
+          "description": "Prendre le contrôle d'une planète d'origine ennemie."
+        },
+        "german": {
+          "name": "Kannst du das Blatt des Krieges wenden?",
+          "description": "Übernehmen Sie einen feindlichen Heimatplaneten"
+        },
+        "italian": {
+          "name": "Saprai cambiare il corso della guerra?",
+          "description": "Impadronisciti del pianeta natale di un nemico"
+        },
+        "japanese": {
+          "name": "戦争の流れを変えられるか？",
+          "description": "敵の母星を占領せよ"
+        },
+        "koreana": {
+          "name": "전세를 뒤집을 수 있겠습니까?",
+          "description": "적의 고향 행성을 점령합니다."
+        },
+        "polish": {
+          "name": "Czy da się odwrócić bieg wojny?",
+          "description": "Przejmij rodzimą planetę przeciwnika."
+        },
+        "russian": {
+          "name": "Ты можешь изменить ход войны?",
+          "description": "Установите контроль над родной планетой врага"
+        },
+        "schinese": {
+          "name": "你能扭转乾坤吗？",
+          "description": "占领敌方母星"
+        },
+        "spanish": {
+          "name": "¿Puedes volver las tornas de la guerra?",
+          "description": "Apodérate del planeta de origen de un enemigo."
+        },
+        "tchinese": {
+          "name": "你能扭轉乾坤嗎？",
+          "description": "佔領敵方母星"
+        }
+      }
+    },
+    "smsachUpgradeLasers": {
+      "translations": {
+        "english": {
+          "name": "It's dangerous to go alone! Take this.",
+          "description": "Upgrade the lasers on your ship"
+        },
+        "french": {
+          "name": "Ton voyage sera dangereux ! Prends ça.",
+          "description": "Améliorer les lasers de votre vaisseau. "
+        },
+        "german": {
+          "name": "It's dangerous to go alone! Nimm das hier.",
+          "description": "Verbessern Sie die Laser Ihres Schiffs"
+        },
+        "italian": {
+          "name": "È pericoloso andare da soli! Ecco, prendi.",
+          "description": "Migliora i Laser della tua nave"
+        },
+        "japanese": {
+          "name": "単独で行くのは危険だ！これを受け取ってくれ。",
+          "description": "宇宙船のレーザーをグレードアップせよ"
+        },
+        "koreana": {
+          "name": "혼자 가긴 위험합니다! 이걸 가져가십시오.",
+          "description": "함선의 레이저를 업그레이드합니다."
+        },
+        "polish": {
+          "name": "Samotna podróż jest niebezpieczna! Weź to.",
+          "description": "Ulepsz lasery na swoim okręcie."
+        },
+        "russian": {
+          "name": "Идти в одиночку опасно! Возьми это.",
+          "description": "Модернизируйте лазеры на вашем корабле"
+        },
+        "schinese": {
+          "name": "独行太危险了！带上这个。",
+          "description": "升级星舰的镭射"
+        },
+        "spanish": {
+          "name": "Es peligroso ir solo. Toma esto",
+          "description": "Mejora los láseres de tu nave."
+        },
+        "tchinese": {
+          "name": "獨行太危險了！帶上這個。",
+          "description": "升級星艦的鐳射"
+        }
+      }
+    },
+    "smsachDefendPlanet": {
+      "translations": {
+        "english": {
+          "name": "It's our time down here.",
+          "description": "Defend your home planet"
+        },
+        "french": {
+          "name": "C'est chez nous maintenant",
+          "description": "Protéger votre planète d'origine."
+        },
+        "german": {
+          "name": "Hier haben wir das Sagen.",
+          "description": "Verteidigen Sie Ihren Heimatplaneten"
+        },
+        "italian": {
+          "name": "È il nostro momento qua sotto",
+          "description": "Difendi il tuo pianeta natale"
+        },
+        "japanese": {
+          "name": "ここで好き勝手にはさせない。",
+          "description": "母星を防衛せよ"
+        },
+        "koreana": {
+          "name": "이곳은 우리의 시대입니다.",
+          "description": "고향 행성을 방어합니다."
+        },
+        "polish": {
+          "name": "Tu, na dole, nadszedł nasz czas",
+          "description": "Obroń swoją rodzimą planetę."
+        },
+        "russian": {
+          "name": "Да пребудет с тобой сила!",
+          "description": "Защитите свою планету"
+        },
+        "schinese": {
+          "name": "我们的时刻",
+          "description": "捍卫自己的母星"
+        },
+        "spanish": {
+          "name": "Ha llegado nuestra hora aquí abajo",
+          "description": "Defiende tu planeta de origen."
+        },
+        "tchinese": {
+          "name": "我們的時刻",
+          "description": "捍衛自己的母星"
+        }
+      }
+    },
+    "smsachUpgradePopulation": {
+      "translations": {
+        "english": {
+          "name": "Food for the masses",
+          "description": "Upgrade the population on an earth-like planet"
+        },
+        "french": {
+          "name": "Nourriture pour les masses",
+          "description": "Améliorer la population d'une planète de type terrestre."
+        },
+        "german": {
+          "name": "Nahrung für die Massen",
+          "description": "Verbessern Sie die Bevölkerung auf einem erden-ähnlichen Planeten"
+        },
+        "italian": {
+          "name": "Cibo per le masse",
+          "description": "Migliora la popolazione su un pianeta terrestre"
+        },
+        "japanese": {
+          "name": "大衆に食料を",
+          "description": "地球型惑星の人口をグレードアップせよ"
+        },
+        "koreana": {
+          "name": "군중을 위한 식량",
+          "description": "지구와 비슷한 행성의 인구를 업그레이드합니다."
+        },
+        "polish": {
+          "name": "Żywność dla mas",
+          "description": "Zwiększ zaludnienie planety ziemskiej."
+        },
+        "russian": {
+          "name": "Пища для народа",
+          "description": "Модернизируйте население землеподобной планеты"
+        },
+        "schinese": {
+          "name": "大众食物",
+          "description": "提升一颗类地星球上的人口"
+        },
+        "spanish": {
+          "name": "Comida para las masas",
+          "description": "Aumenta la población de un planeta tipo Tierra."
+        },
+        "tchinese": {
+          "name": "大眾食物",
+          "description": "提升一顆類地星球上的人口"
+        }
+      }
+    },
+    "smsachGiveTech": {
+      "translations": {
+        "english": {
+          "name": "The trouble with science…",
+          "description": "Give away a tech through negotiating with an enemy"
+        },
+        "french": {
+          "name": "Le problème de la science...",
+          "description": "Offrir une technologie en négociant avec un adversaire."
+        },
+        "german": {
+          "name": "Das Problem der Wissenschaft ...",
+          "description": "Übergeben Sie eine Technologie durch Verhandlungen mit dem Feind"
+        },
+        "italian": {
+          "name": "Il problema della scienza...",
+          "description": "Dai una tecnologia a un nemico attraverso una trattativa"
+        },
+        "japanese": {
+          "name": "科学の困ったところ…",
+          "description": "敵と交渉して技術を渡せ"
+        },
+        "koreana": {
+          "name": "과학력의 문제로군요...",
+          "description": "적과의 협상을 통해 기술을 양도합니다."
+        },
+        "polish": {
+          "name": "Kłopot z nauką jest taki...",
+          "description": "Oddaj technologię podczas negocjacji z przeciwnikiem."
+        },
+        "russian": {
+          "name": "Проблема науки в том...",
+          "description": "Выдайте технологию, ведя переговоры с врагом"
+        },
+        "schinese": {
+          "name": "科学的麻烦…",
+          "description": "与敌人谈判，送出一项科技"
+        },
+        "spanish": {
+          "name": "El problema de la ciencia",
+          "description": "Cede una ciencia negociando con un enemigo."
+        },
+        "tchinese": {
+          "name": "科學的麻煩…",
+          "description": "與敵人談判，送出一項科技"
+        }
+      }
+    },
+    "smsachTechLevel4": {
+      "translations": {
+        "english": {
+          "name": "Light years ahead of the competition!",
+          "description": "Research a tech to level 4"
+        },
+        "french": {
+          "name": "À des années lumières de toute compétition !",
+          "description": "Étudier une technologie jusqu'au niveau 4."
+        },
+        "german": {
+          "name": "Der Konkurrenz um Lichtjahre voraus!",
+          "description": "Erforschen Sie eine Technologie bis Stufe 4"
+        },
+        "italian": {
+          "name": "Anni luce davanti alla concorrenza!",
+          "description": "Ricerca una tecnologia fino al livello 4"
+        },
+        "japanese": {
+          "name": "ライバルのはるかに先をいこう！",
+          "description": "レベル4になるまで技術を研究せよ"
+        },
+        "koreana": {
+          "name": "경쟁 상대보다 몇 광년 앞서 있습니다!",
+          "description": "4레벨 기술을 연구합니다."
+        },
+        "polish": {
+          "name": "Lata świetlne przed konkurencją!",
+          "description": "Odkryj 4. poziom technologii."
+        },
+        "russian": {
+          "name": "Впереди всех конкурентов!",
+          "description": "Достигните 4-го уровня при исследовании технологии"
+        },
+        "schinese": {
+          "name": "领先数光年！",
+          "description": "研究一项科技至第 4 级"
+        },
+        "spanish": {
+          "name": "¡A años luz de la competencia!",
+          "description": "Investiga una tecnología hasta nivel 4."
+        },
+        "tchinese": {
+          "name": "領先數光年！",
+          "description": "研究一項科技至第 4 級"
+        }
+      }
+    },
+    "smsachTravelToPlanet": {
+      "translations": {
+        "english": {
+          "name": "I, uh, I've been to another planet, Ma.",
+          "description": "Travel to another planet"
+        },
+        "french": {
+          "name": "Maman, je reviens d'une autre planète",
+          "description": "Voyager jusqu'à une autre planète."
+        },
+        "german": {
+          "name": "Ich ... ich war auf einem anderen Planeten, Mom.",
+          "description": "Reisen Sie zu einem anderen Planeten"
+        },
+        "italian": {
+          "name": "Sai, ehm, sono stato su un altro pianeta, mamma.",
+          "description": "Viaggia su un altro pianeta"
+        },
+        "japanese": {
+          "name": "えっと、他の惑星には行ったことがあるよ。",
+          "description": "他の惑星に移動せよ"
+        },
+        "koreana": {
+          "name": "저, 아, 저는 다른 행성에 가본 적이 있어요, 엄마.",
+          "description": "다른 행성으로 이동합니다."
+        },
+        "polish": {
+          "name": "Byłem, eee, na innej planecie, mamo",
+          "description": "Udaj się na inną planetę."
+        },
+        "russian": {
+          "name": "Я… я был на другой планете, мам.",
+          "description": "Отправьтесь на другую планету"
+        },
+        "schinese": {
+          "name": "我，呃，我到过另一星球了，妈。",
+          "description": "前往另一个星球"
+        },
+        "spanish": {
+          "name": "Yo, esto... he estado en otro planeta, mamá",
+          "description": "Viaja a otro planeta."
+        },
+        "tchinese": {
+          "name": "我，呃，我到過另一星球了，媽。",
+          "description": "前往另一個星球"
+        }
+      }
+    },
+    "smsachTorpedoKill": {
+      "translations": {
+        "english": {
+          "name": "Dodge this",
+          "description": "Destroy a ship with a torpedo"
+        },
+        "french": {
+          "name": "Esquive-moi ça",
+          "description": "Détruire un vaisseau avec une torpille."
+        },
+        "german": {
+          "name": "Nur ein Schiff",
+          "description": "Zerstören Sie ein Schiff mit einem Torpedo"
+        },
+        "italian": {
+          "name": "Schiva questo",
+          "description": "Distruggi una nave con un siluro"
+        },
+        "japanese": {
+          "name": "かわしてみろ",
+          "description": "機雷で宇宙船を破壊せよ"
+        },
+        "koreana": {
+          "name": "피할테면 피해봐",
+          "description": "어뢰로 함선을 파괴합니다."
+        },
+        "polish": {
+          "name": "Uchyl się przed tym",
+          "description": "Zniszcz statek torpedą."
+        },
+        "russian": {
+          "name": "Попробуй, увернись",
+          "description": "Уничтожьте корабль торпедой"
+        },
+        "schinese": {
+          "name": "试试躲过这个",
+          "description": "使用鱼雷摧毁星舰"
+        },
+        "spanish": {
+          "name": "Esquiva esto",
+          "description": "Destruye una nave con un torpedo."
+        },
+        "tchinese": {
+          "name": "試試躲過這個",
+          "description": "使用魚雷摧毀星艦"
+        }
+      }
+    },
+    "smsachImprovementLevel5": {
+      "translations": {
+        "english": {
+          "name": "Building a better today",
+          "description": "Raise a planetary improvement to level 5"
+        },
+        "french": {
+          "name": "Pour un monde meilleur",
+          "description": "Améliorer un aménagement planétaire jusqu'au niveau 5."
+        },
+        "german": {
+          "name": "Der Bau einer besseren Zukunft",
+          "description": "Bringen Sie eine Planetenmodernisierung auf Stufe 5"
+        },
+        "italian": {
+          "name": "Costruiamo un oggi migliore",
+          "description": "Porta un miglioramento planetario al livello 5"
+        },
+        "japanese": {
+          "name": "より良い今日を作ろう",
+          "description": "惑星の資源活用施設をレベル5にあげよ"
+        },
+        "koreana": {
+          "name": "더 나은 오늘을 만듭니다.",
+          "description": "행성 개발 단계를 5레벨로 끌어올립니다."
+        },
+        "polish": {
+          "name": "Budujemy lepsze dziś",
+          "description": "Zmodernizuj ulepszenie planetarne do poziomu 5."
+        },
+        "russian": {
+          "name": "Создать лучшее завтра сегодня",
+          "description": "Достигните планетарного улучшения 5-го уровня"
+        },
+        "schinese": {
+          "name": "事为今日",
+          "description": "将一项行星改良设施升至第 5 级"
+        },
+        "spanish": {
+          "name": "Construyendo un presente mejor",
+          "description": "Lleva una mejora planetaria hasta nivel 5."
+        },
+        "tchinese": {
+          "name": "事為今日",
+          "description": "將一項行星改良設施升至第 5 級"
+        }
+      }
+    },
+    "smsachJumpGate": {
+      "translations": {
+        "english": {
+          "name": "Through the wormhole",
+          "description": "Use a jump gate during battle"
+        },
+        "french": {
+          "name": "Voyage dans l'espace-temps",
+          "description": "Utiliser un portail warp pendant un combat."
+        },
+        "german": {
+          "name": "Mysterien des Weltalls",
+          "description": "Benutzen Sie ein Sprungtor im Kampf"
+        },
+        "italian": {
+          "name": "Attraverso il wormhole",
+          "description": "Usa un portale per il salto in battaglia"
+        },
+        "japanese": {
+          "name": "ワームホールを通り抜けて",
+          "description": "戦闘中にジャンプゲートを使用せよ"
+        },
+        "koreana": {
+          "name": "텔레포트!",
+          "description": "전투 중 점프게이트를 사용합니다."
+        },
+        "polish": {
+          "name": "Zagadki Wszechświata",
+          "description": "Wykorzystaj portal podczas bitwy."
+        },
+        "russian": {
+          "name": "С гравицапой в любую точку - за пять секунд!",
+          "description": "Во время битвы воспользуйтесь воротами телепортации"
+        },
+        "schinese": {
+          "name": "虫洞穿越",
+          "description": "战斗时使用时空门"
+        },
+        "spanish": {
+          "name": "Por el agujero de gusano",
+          "description": "Utiliza un portal de salto durante un combate."
+        },
+        "tchinese": {
+          "name": "蟲洞穿越",
+          "description": "戰鬥時使用時空門"
+        }
+      }
+    },
+    "smsachFiveLevel4Techs": {
+      "translations": {
+        "english": {
+          "name": "The technology of tomorrow",
+          "description": "Research 5 techs to level 4"
+        },
+        "french": {
+          "name": "La technologie de demain",
+          "description": "Étudier 5 technologies jusqu'au niveau 4."
+        },
+        "german": {
+          "name": "Die Technik von morgen",
+          "description": "Erforschen Sie 5 Technologien bis Stufe 4"
+        },
+        "italian": {
+          "name": "La tecnologia del domani",
+          "description": "Ricerca 5 tecnologie fino al livello 4"
+        },
+        "japanese": {
+          "name": "未来のテクノロジー",
+          "description": "5つの技術をレベル4にまで研究せよ"
+        },
+        "koreana": {
+          "name": "미래의 기술",
+          "description": "5가지 기술을 4레벨로 연구합니다."
+        },
+        "polish": {
+          "name": "Technologia jutra",
+          "description": "Odkryj 4. poziom pięciu technologii."
+        },
+        "russian": {
+          "name": "Технология будущего",
+          "description": "Достигните 5-го уровня в 4 технологиях"
+        },
+        "schinese": {
+          "name": "明日科技",
+          "description": "研究 5 项科技至第 4 级"
+        },
+        "spanish": {
+          "name": "La tecnología del mañana",
+          "description": "Investiga 5 tecnologías hasta nivel 4."
+        },
+        "tchinese": {
+          "name": "明日科技",
+          "description": "研究 5 項科技至第 4 級"
+        }
+      }
+    },
+    "smsachFiveWonders": {
+      "translations": {
+        "english": {
+          "name": "Of all the wonders that I have heard…",
+          "description": "Control 5 Galactic Wonders"
+        },
+        "french": {
+          "name": "De toutes les merveilles que je connais...",
+          "description": "Contrôler 5 merveilles galactiques."
+        },
+        "german": {
+          "name": "Von allen Wundern, die ich je gehört ...",
+          "description": "Kontrollieren Sie 5 galaktische Wunder"
+        },
+        "italian": {
+          "name": "Di tutte le cose meravigliose che ho sentito…",
+          "description": "Controlla 5 Meraviglie galattiche"
+        },
+        "japanese": {
+          "name": "私が聞いたことのある遺産の中で…",
+          "description": "銀河遺産を5つ制御せよ"
+        },
+        "koreana": {
+          "name": "모든 불가사의에 대해 알아냈습니다...",
+          "description": "5개의 은하 불가사의를 제어합니다."
+        },
+        "polish": {
+          "name": "Ze wszystkich cudów, o których słyszałem...",
+          "description": "Kontroluj 5 cudów galaktycznych."
+        },
+        "russian": {
+          "name": "Чудо враждебной техники!",
+          "description": "Установите контроль над 5 галактическими чудесами"
+        },
+        "schinese": {
+          "name": "在我听过的所有奇迹中…",
+          "description": "控制 5 个银河奇迹"
+        },
+        "spanish": {
+          "name": "De todas las maravillas que me han hablado...",
+          "description": "Controla 5 maravillas galácticas."
+        },
+        "tchinese": {
+          "name": "在我聽過的所有奇跡中…",
+          "description": "控制 5 個銀河奇跡"
+        }
+      }
+    },
+    "smsachDefeatPirates": {
+      "translations": {
+        "english": {
+          "name": "…Wretched hive of scum and villainy",
+          "description": "Defeat the Pirate planet"
+        },
+        "french": {
+          "name": "... le repère des malandrins les plus infâmes...",
+          "description": "Vaincre la planète des pirates."
+        },
+        "german": {
+          "name": "Abschaum und Verkommenheit",
+          "description": "Besiegen Sie den Piraten-Planeten"
+        },
+        "italian": {
+          "name": "...un covo di feccia e di malvagità",
+          "description": "Sconfiggi il pianeta dei pirati"
+        },
+        "japanese": {
+          "name": "…極悪な悪党どもの卑しい巣窟だ",
+          "description": "海賊団の惑星を倒せ"
+        },
+        "koreana": {
+          "name": "…악랄한 인간 쓰레기로 가득한 끔찍한 벌집이여.",
+          "description": "해적 행성을 격파합니다."
+        },
+        "polish": {
+          "name": "Ohydne mrowie łajdactwa i występku",
+          "description": "Pokonaj planetę Piratów."
+        },
+        "russian": {
+          "name": "...чертов притон злодеев и мерзавцев",
+          "description": "Разгромите пиратскую планету"
+        },
+        "schinese": {
+          "name": "…藏污纳垢",
+          "description": "击败「海贼」星球。"
+        },
+        "spanish": {
+          "name": "... un nido infecto de escoria y villanía",
+          "description": "Derrota al planeta de los Piratas."
+        },
+        "tchinese": {
+          "name": "…藏汙納垢",
+          "description": "擊敗「海賊」星球。"
+        }
+      }
+    },
+    "smsachSevenHexes": {
+      "translations": {
+        "english": {
+          "name": "They've gone to plaid!",
+          "description": "Have a ship in your fleet move 7 or more hexs in one turn during a battle"
+        },
+        "french": {
+          "name": "Un grand voyage",
+          "description": "Déplacer un vaisseau de votre flotte de 7 cases ou plus en un tour de combat."
+        },
+        "german": {
+          "name": "Sind die denn total bled?",
+          "description": "Lassen Sie ein Schiff Ihrer Flotte während eines Kampfes 7 oder mehr Hexfelder in einer Runde zurücklegen"
+        },
+        "italian": {
+          "name": "Velocità smodata, via!",
+          "description": "Muovi una nave della tua flotta di 7 o più esagoni nello stesso turno in battaglia"
+        },
+        "japanese": {
+          "name": "光の速さで消えてった！",
+          "description": "戦闘中、艦隊の宇宙船1隻を1ターンに7へクス以上移動させよ"
+        },
+        "koreana": {
+          "name": "격자 속으로 사라졌습니다!",
+          "description": "전투 중 한 턴에 7칸 이상 이동하는 함선을 함대에 보유하고 있습니다."
+        },
+        "polish": {
+          "name": "Kosmiczne tempo!",
+          "description": "Przemieść okręt z twojej floty o 7 lub więcej pól w jednej turze bitwy."
+        },
+        "russian": {
+          "name": "С космической скоростью!",
+          "description": "Во время битвы передвиньте свой флот на 7 клеток за один ход"
+        },
+        "schinese": {
+          "name": "他们速度太快了！",
+          "description": "战斗时，单一回合中将你其中一艘星舰移动 7 格以上"
+        },
+        "spanish": {
+          "name": "Se han ido al quinto pino",
+          "description": "Haz que una nave de tu flota mueva 7 casillas o más en un turno durante un combate."
+        },
+        "tchinese": {
+          "name": "他們速度太快了！",
+          "description": "戰鬥時，單一回合中將你其中一艘星艦移動 7 格以上"
+        }
+      }
+    },
+    "smsachFourFighters": {
+      "translations": {
+        "english": {
+          "name": "I am the swarm",
+          "description": "Have 4 or more fighters on the map at once during a battle"
+        },
+        "french": {
+          "name": "Je suis la nuée",
+          "description": "Avoir 4 chasseurs ou plus simultanément sur la carte pendant un combat."
+        },
+        "german": {
+          "name": "Ich bin der Schwarm",
+          "description": "Haben Sie während eines Kampfes 4 oder mehr Jäger auf der Karte"
+        },
+        "italian": {
+          "name": "Io sono lo sciame",
+          "description": "Porta 4 o più caccia sulla mappa nello stesso momento in battaglia"
+        },
+        "japanese": {
+          "name": "群れで移動",
+          "description": "戦闘中、同時に4機以上の戦闘機をマップ上に配置せよ"
+        },
+        "koreana": {
+          "name": "나는 벌 떼입니다.",
+          "description": "4대 이상의 전투기를 전투 중 맵 상에 보유합니다."
+        },
+        "polish": {
+          "name": "Jam jest rój",
+          "description": "Kontroluj na mapie podczas bitwy jednocześnie 4 lub więcej myśliwców."
+        },
+        "russian": {
+          "name": "Я - это рой!",
+          "description": "Обеспечьте присутствие на карте 4 или более истребителей во время битвы "
+        },
+        "schinese": {
+          "name": "我就是入侵者",
+          "description": "战斗时，地图中同时有 4 架以上的己方战机"
+        },
+        "spanish": {
+          "name": "Yo soy el enjambre",
+          "description": "Ten 4 cazas o más en el mapa durante un combate."
+        },
+        "tchinese": {
+          "name": "我就是入侵者",
+          "description": "戰鬥時，地圖中同時有 4 架以上的己方戰機"
+        }
+      }
+    },
+    "smsachFlagshipEscape": {
+      "translations": {
+        "english": {
+          "name": "We gotta get outta here",
+          "description": "Win a mission by bringing your flagship to a warp portal"
+        },
+        "french": {
+          "name": "Courage, fuyons",
+          "description": "Remporter une mission en faisant traverser un portail warp à votre vaisseau-amiral."
+        },
+        "german": {
+          "name": "Wir müssen hier weg",
+          "description": "Gewinnen Sie eine Mission, indem Sie Ihr Flaggschiff zu einem Warp-Portal bringen"
+        },
+        "italian": {
+          "name": "Dobbiamo levarci da qui",
+          "description": "Vinci una missione portando la tua nave ammiraglia in un portale di teletrasporto"
+        },
+        "japanese": {
+          "name": "さっさと逃げなきゃ",
+          "description": "旗艦をワープポータルに移動させ、ミッションを成功させよ"
+        },
+        "koreana": {
+          "name": "여기서 나가는 게 좋겠군요.",
+          "description": "기함을 워프 포털로 호송하여 임무를 완수합니다."
+        },
+        "polish": {
+          "name": "Musimy się stąd wynosić!",
+          "description": "Wygraj misję, docierając swoim flagowcem do portalu nadświetlnego."
+        },
+        "russian": {
+          "name": "Лучше сматываться",
+          "description": "Победите в задании, достигнув портала разрыва на своем корабле"
+        },
+        "schinese": {
+          "name": "我们得离开这里",
+          "description": "将旗舰送入曲速传送门而赢得任务"
+        },
+        "spanish": {
+          "name": "Tenemos que salir de aquí",
+          "description": "Gana una misión llevando tu nave insignia hasta un portal de teletransporte."
+        },
+        "tchinese": {
+          "name": "我們得離開這裡",
+          "description": "將旗艦送入曲速傳送門而贏得任務"
+        }
+      }
+    },
+    "smsachColonyEscape": {
+      "translations": {
+        "english": {
+          "name": "Women and children first",
+          "description": "Win a mission by bringing the colony ship to a warp portal"
+        },
+        "french": {
+          "name": "Les femmes et les enfants d'abord",
+          "description": "Remporter une mission en faisant traverser un portail warp au vaisseau-colon."
+        },
+        "german": {
+          "name": "Frauen und Kinder zuerst",
+          "description": "Gewinnen Sie eine Mission, indem Sie Ihr Kolonieschiff zu einem Warp-Portal bringen"
+        },
+        "italian": {
+          "name": "Prima le donne e i bambini",
+          "description": "Vinci una missione portando la nave coloniale in un portale di teletrasporto"
+        },
+        "japanese": {
+          "name": "女・子供が優先",
+          "description": "コロニー船をワープポータルに移動させ、ミッションを成功させよ"
+        },
+        "koreana": {
+          "name": "여성과 아이들이 우선입니다.",
+          "description": "식민지 선박을 워프 포털로 호송하여 임무를 완수합니다."
+        },
+        "polish": {
+          "name": "Najpierw kobiety i dzieci",
+          "description": "Wygraj misję, docierając statkiem kolonizacyjnym do portalu nadświetlnego."
+        },
+        "russian": {
+          "name": "Сначала женщины и дети!",
+          "description": "Победите в задании, доведя корабль с поселенцами до портала разрыва"
+        },
+        "schinese": {
+          "name": "老弱妇孺优先",
+          "description": "将殖民船带到曲速传送门，在任务中胜出"
+        },
+        "spanish": {
+          "name": "Las mujeres y los niños primero",
+          "description": "Gana una misión llevando la nave colonia hasta un portal de teletransporte."
+        },
+        "tchinese": {
+          "name": "老弱婦孺優先",
+          "description": "將殖民船帶到曲速傳送門，在任務中勝出"
+        }
+      }
+    },
+    "smsachStealthLevel6": {
+      "translations": {
+        "english": {
+          "name": "They can't shoot what they can't see",
+          "description": "Upgrade the stealth module to level 6"
+        },
+        "french": {
+          "name": "Impossible d'abattre ce que l'on ne voit pas",
+          "description": "Améliorer le module furtif jusqu'au niveau 6."
+        },
+        "german": {
+          "name": "Sie können nicht angreifen, was sie nicht sehen",
+          "description": "Verbessern Sie das Tarnungsmodul auf Stufe 6"
+        },
+        "italian": {
+          "name": "Non possono sparare a quello che non vedono",
+          "description": "Migliora il modulo Stealth fino al livello 6"
+        },
+        "japanese": {
+          "name": "見えないものは撃てまい",
+          "description": "ステルスモジュールをレベル6にグレードアップせよ"
+        },
+        "koreana": {
+          "name": "볼 수 없으면 쏠 수 없지",
+          "description": "스텔스 모듈을 6레벨로 업그레이드합니다."
+        },
+        "polish": {
+          "name": "Nie mogą zabić czegoś, czego nie widzą",
+          "description": "Ulepsz moduły maskujące do poziomu 6."
+        },
+        "russian": {
+          "name": "Суслика видишь? И я не вижу. А он есть!",
+          "description": "Модифицируйте модуль маскировки до 6-го уровня"
+        },
+        "schinese": {
+          "name": "看不到就打不到",
+          "description": "将隐形模组升至第 6 级"
+        },
+        "spanish": {
+          "name": "Si no lo pueden ver, no le pueden disparar",
+          "description": "Mejora el módulo de Invisibilidad hasta nivel 6."
+        },
+        "tchinese": {
+          "name": "看不到就打不到",
+          "description": "將隱形模組升至第 6 級"
+        }
+      }
+    },
+    "smsachCriticalHit": {
+      "translations": {
+        "english": {
+          "name": "Hit 'em where it hurts",
+          "description": "Score a critical hit on an enemy ship"
+        },
+        "french": {
+          "name": "Frapper là où ça fait mal",
+          "description": "Réussir un coup critique contre un vaisseau ennemi."
+        },
+        "german": {
+          "name": "Zuschlagen, wo es wehtut",
+          "description": "Erzielen Sie einen kritischen Treffer bei einem feindlichen Schiff"
+        },
+        "italian": {
+          "name": "Colpisci dove fa male",
+          "description": "Infliggi un colpo critico a una nave nemica"
+        },
+        "japanese": {
+          "name": "急所を攻撃せよ",
+          "description": "敵の宇宙船にクリティカルなダメージを与えよ"
+        },
+        "koreana": {
+          "name": "아플 곳을 때려라",
+          "description": "적 함선에 치명타를 기록합니다."
+        },
+        "polish": {
+          "name": "Uderzaj tam, gdzie boli najbardziej",
+          "description": "Zadaj wrogiemu statkowi obrażenia krytyczne."
+        },
+        "russian": {
+          "name": "Удар по больному месту",
+          "description": "Нанесите сокрушительный удар по вражескому кораблю"
+        },
+        "schinese": {
+          "name": "专打痛处",
+          "description": "暴击敌舰得分"
+        },
+        "spanish": {
+          "name": "Dales donde más duele",
+          "description": "Consigue un impacto crítico contra una nave enemiga."
+        },
+        "tchinese": {
+          "name": "專打痛處",
+          "description": "暴擊敵艦得分"
+        }
+      }
+    },
+    "smsachCriticalRepair": {
+      "translations": {
+        "english": {
+          "name": "It's just a flesh wound",
+          "description": "Repair a critical hit on a ship in your fleet"
+        },
+        "french": {
+          "name": "Juste une égratignure",
+          "description": "Réparer un coup critique sur un vaisseau de votre flotte."
+        },
+        "german": {
+          "name": "Ist doch nur 'ne Fleischwunde",
+          "description": "Reparieren Sie einen kritischen Treffer bei einem Schiff Ihrer Flotte"
+        },
+        "italian": {
+          "name": "È solo una ferita superficiale",
+          "description": "Ripara un colpo critico su una nave della tua flotta"
+        },
+        "japanese": {
+          "name": "ちょっとした擦り傷",
+          "description": "君の艦隊のクリティカルなダメージを負った船を修繕せよ"
+        },
+        "koreana": {
+          "name": "이깟 모기한테 물린 것같은 상처",
+          "description": "함대 내 함선에 가해진 치명타를 수리합니다."
+        },
+        "polish": {
+          "name": "To tylko powierzchowna rana",
+          "description": "Napraw obrażenia krytyczne statku ze swojej floty."
+        },
+        "russian": {
+          "name": "Это всего лишь царапина",
+          "description": "Ликвидируйте критические повреждения, нанесенные вашему кораблю"
+        },
+        "schinese": {
+          "name": "一点小伤",
+          "description": "修复一次舰队中的星舰遭受的暴击"
+        },
+        "spanish": {
+          "name": "Es solo una heridita",
+          "description": "Repara un impacto crítico que se le haya hecho a una nave de tu flota."
+        },
+        "tchinese": {
+          "name": "一點小傷",
+          "description": "修復一次艦隊中的星艦遭受的暴擊"
+        }
+      }
+    },
+    "smsachPopulation10": {
+      "translations": {
+        "english": {
+          "name": "Like rabbits",
+          "description": "Increase the population on a planet to 10"
+        },
+        "french": {
+          "name": "De vrais lapins",
+          "description": "Augmenter la population d'une planète jusqu'à 10."
+        },
+        "german": {
+          "name": "Wie die Karnickel",
+          "description": "Erhöhen Sie die Bevölkerung eines Planeten auf 10"
+        },
+        "italian": {
+          "name": "Come conigli",
+          "description": "Porta a 10 la popolazione di un pianeta"
+        },
+        "japanese": {
+          "name": "子だくさん",
+          "description": "惑星の人口を10に増やせ"
+        },
+        "koreana": {
+          "name": "토끼처럼",
+          "description": "행성의 인구가 10으로 증가합니다."
+        },
+        "polish": {
+          "name": "Jak króliki",
+          "description": "Zwiększ populację planety do 10."
+        },
+        "russian": {
+          "name": "Как кролики... ",
+          "description": "Увеличьте население планеты до 10"
+        },
+        "schinese": {
+          "name": "像兔子一样",
+          "description": "将一颗星球人口提升至 10"
+        },
+        "spanish": {
+          "name": "Como conejos",
+          "description": "Aumenta hasta 10 la población de un planeta."
+        },
+        "tchinese": {
+          "name": "像兔子一樣",
+          "description": "將一顆星球人口提升至 10"
+        }
+      }
+    },
+    "smsachAssimilatePlanet": {
+      "translations": {
+        "english": {
+          "name": "Tell me of your homeworld",
+          "description": "Bring a planet fully into your empire"
+        },
+        "french": {
+          "name": "Parlez-moi de chez vous",
+          "description": "Intégrer entièrement une planète à votre empire."
+        },
+        "german": {
+          "name": "Erzähl mir von deiner Heimatwelt",
+          "description": "Nehmen Sie einen Planeten vollständig in Ihr Reich auf"
+        },
+        "italian": {
+          "name": "Parlami del tuo mondo natale",
+          "description": "Acquisisci completamente un pianeta nel tuo impero"
+        },
+        "japanese": {
+          "name": "母星について教えてくれ",
+          "description": "惑星を完全に支配せよ"
+        },
+        "koreana": {
+          "name": "고향 행성에 대해 말씀해 주십시오.",
+          "description": "행성 전체를 제국으로 가져옵니다."
+        },
+        "polish": {
+          "name": "Opowiedz mi o swojej rodzimej planecie",
+          "description": "Całkowicie włącz planetę do swojego imperium."
+        },
+        "russian": {
+          "name": "Расскажи мне о своем мире",
+          "description": "Полностью подчините планету власти своей империи"
+        },
+        "schinese": {
+          "name": "跟我说说你的家园",
+          "description": "将一个星球完全纳入您的帝国版图"
+        },
+        "spanish": {
+          "name": "Háblame de tu mundo natal",
+          "description": "Lleva un planeta entero a tu imperio."
+        },
+        "tchinese": {
+          "name": "跟我說說你的家園",
+          "description": "將一個星球完全納入您的帝國版圖"
+        }
+      }
+    },
+    "smsachWarpNexus3": {
+      "translations": {
+        "english": {
+          "name": "…We don't need roads",
+          "description": "Create a warp portal between two planets"
+        },
+        "french": {
+          "name": "... on n'a pas besoin de routes",
+          "description": "Création d'un portail warp entre deux planètes"
+        },
+        "german": {
+          "name": "Wir brauchen keine Straßen",
+          "description": "Erschaffen Sie ein Warp-Portal zwischen 2 Planeten"
+        },
+        "italian": {
+          "name": "...non c'è bisogno di strade",
+          "description": "Crea un portale per il teletrasporto tra due pianeti"
+        },
+        "japanese": {
+          "name": "…我々に道路は必要ない",
+          "description": "2つの惑星間にワープポータルを設置せよ"
+        },
+        "koreana": {
+          "name": "…길은 필요 없습니다.",
+          "description": "두 행성 사이에 워프 포털을 생성합니다."
+        },
+        "polish": {
+          "name": "I po co nam drogi?",
+          "description": "Stwórz portal nadświetlny pomiędzy dwiema planetami."
+        },
+        "russian": {
+          "name": "...нам не нужны дороги",
+          "description": "Создайте портал разрыва между двумя планетами"
+        },
+        "schinese": {
+          "name": "…我们不需要道路",
+          "description": "在两颗星球间建立曲速传送门"
+        },
+        "spanish": {
+          "name": "... no necesitamos carreteras",
+          "description": "Crea un nexo de teletransporte entre 2 planetas."
+        },
+        "tchinese": {
+          "name": "…我們不需要道路",
+          "description": "在兩顆星球間建立曲速傳送門"
+        }
+      }
+    },
+    "smsachBeyondEarthStart": {
+      "translations": {
+        "english": {
+          "name": "Take to the skies",
+          "description": "Start a game using a save game from Beyond Earth"
+        },
+        "french": {
+          "name": "Envole-moi",
+          "description": "Commencez une partie avec une sauvegarde de Beyond Earth."
+        },
+        "german": {
+          "name": "Auf in den Himmel",
+          "description": "Spiel mit einem Spielstand aus Beyond Earth starten"
+        },
+        "italian": {
+          "name": "Sali in cielo",
+          "description": "Inizia una partita utilizzando un salvataggio di Beyond Earth"
+        },
+        "japanese": {
+          "name": "敵地上空へ",
+          "description": "Beyond Earth のセーブデータを使ってゲームを開始する"
+        },
+        "koreana": {
+          "name": "창공으로",
+          "description": "<비욘드 어스>에서 저장한 게임으로 게임을 시작합니다."
+        },
+        "polish": {
+          "name": "Ku niebiosom",
+          "description": "Rozpocznij grę przy użyciu zapisu z Beyond Earth."
+        },
+        "russian": {
+          "name": "Вознестись к небесам",
+          "description": "Начать игру, используя сохранение из Beyond Earth"
+        },
+        "schinese": {
+          "name": "飞向天际",
+          "description": "使用「超越地球」的储存展开游戏"
+        },
+        "spanish": {
+          "name": "Despegar",
+          "description": "Empieza una partida usando una partida guardada de Beyond Earth."
+        },
+        "tchinese": {
+          "name": "飛向天際",
+          "description": "使用「超越地球」的儲存展開遊戲"
+        }
+      }
+    },
+    "smsachPopulationVictory": {
+      "translations": {
+        "english": {
+          "name": "Span the galaxy",
+          "description": "Win a Population Victory"
+        },
+        "french": {
+          "name": "Majorité absolue",
+          "description": "Remporte  une victoire par population"
+        },
+        "german": {
+          "name": "Die ganze Galaxie",
+          "description": "Erzielen Sie einen Bevölkerungssieg"
+        },
+        "italian": {
+          "name": "Colonizzatore di galassie",
+          "description": "Ottieni una vittoria per popolazione"
+        },
+        "japanese": {
+          "name": "銀河系をつなげよ",
+          "description": "人口の勝利を収めよ"
+        },
+        "koreana": {
+          "name": "은하를 포괄하다",
+          "description": "인구 승리를 차지합니다."
+        },
+        "polish": {
+          "name": "Zagarnij galaktykę",
+          "description": "Zwycięż dzięki populacji."
+        },
+        "russian": {
+          "name": "Охватите галактику",
+          "description": "Добейтесь Численной победы"
+        },
+        "schinese": {
+          "name": "穿越宇宙",
+          "description": "赢得人口胜利"
+        },
+        "spanish": {
+          "name": "Abarca toda la galaxia",
+          "description": "Consigue una victoria por población."
+        },
+        "tchinese": {
+          "name": "穿越宇宙",
+          "description": "贏得人口勝利"
+        }
+      }
+    },
+    "smsachTechVictory": {
+      "translations": {
+        "english": {
+          "name": "Knowledge is the key to success",
+          "description": "Win a Science Victory"
+        },
+        "french": {
+          "name": "La connaissance est la clef du succès",
+          "description": "Remporte une victoire scientifique"
+        },
+        "german": {
+          "name": "Wissen ist der Schlüssel zum Erfolg",
+          "description": "Erzielen Sie einen Wissenschaftssieg"
+        },
+        "italian": {
+          "name": "La conoscenza è la chiave per il successo",
+          "description": "Ottieni una vittoria scientifica"
+        },
+        "japanese": {
+          "name": "知識が成功の鍵である",
+          "description": "科学の勝利を収めよ"
+        },
+        "koreana": {
+          "name": "지식은 성공의 열쇠",
+          "description": "과학 승리를 차지합니다."
+        },
+        "polish": {
+          "name": "Wiedza to klucz do sukcesu",
+          "description": "Zwycięż dzięki nauce."
+        },
+        "russian": {
+          "name": "Знание - ключ к успеху",
+          "description": "Добейтесь Научной победы"
+        },
+        "schinese": {
+          "name": "知识是成功的关键",
+          "description": "赢得科学胜利"
+        },
+        "spanish": {
+          "name": "El conocimiento es la clave del éxito",
+          "description": "Consigue una victoria por ciencia."
+        },
+        "tchinese": {
+          "name": "知識是成功的關鍵",
+          "description": "贏得科學勝利"
+        }
+      }
+    },
+    "smsachWonderVictory": {
+      "translations": {
+        "english": {
+          "name": "A wondrous civilization",
+          "description": "Win a Wonder Victory"
+        },
+        "french": {
+          "name": "Une civilisation merveilleuse.",
+          "description": "Remporte une victoire par merveilles"
+        },
+        "german": {
+          "name": "Eine wundersame Zivilisation",
+          "description": "Erzielen Sie einen Wundersieg"
+        },
+        "italian": {
+          "name": "Una meravigliosa civiltà",
+          "description": "Ottieni una vittoria per Meraviglie"
+        },
+        "japanese": {
+          "name": "素晴らしい文明の発達",
+          "description": "遺産の勝利を収めよ"
+        },
+        "koreana": {
+          "name": "경의로운 문명",
+          "description": "불가사의 승리를 차지합니다."
+        },
+        "polish": {
+          "name": "Cudowna cywilizacja",
+          "description": "Zwycięż dzięki cudom."
+        },
+        "russian": {
+          "name": "Чудесная цивилизация",
+          "description": "Добейтесь Чудо-победы"
+        },
+        "schinese": {
+          "name": "奇迹般的文明",
+          "description": "赢得奇迹胜利"
+        },
+        "spanish": {
+          "name": "Una civilización maravillosa",
+          "description": "Consigue una victoria por maravillas."
+        },
+        "tchinese": {
+          "name": "奇跡般的文明",
+          "description": "贏得奇跡勝利"
+        }
+      }
+    },
+    "smsachDominationVictory": {
+      "translations": {
+        "english": {
+          "name": "Perpetual peace is a futile dream",
+          "description": "Win a Domination Victory"
+        },
+        "french": {
+          "name": "La paix perpétuelle n'existe pas",
+          "description": "Remporter une victoire militaire."
+        },
+        "german": {
+          "name": "Zerbrechlicher Frieden",
+          "description": "Erzielen Sie einen Herrschaftssieg"
+        },
+        "italian": {
+          "name": "La pace perpetua è un sogno puerile",
+          "description": "Ottieni una vittoria per Dominazione"
+        },
+        "japanese": {
+          "name": "永久の平和など無駄な夢だ",
+          "description": "支配の勝利を収めよ"
+        },
+        "koreana": {
+          "name": "영원한 평화란 헛된 꿈일 뿐",
+          "description": "지배 승리를 차지합니다."
+        },
+        "polish": {
+          "name": "Łatwiej jest głosić pokój, niż go zachować",
+          "description": "Odnieś zwycięstwo dominacyjne."
+        },
+        "russian": {
+          "name": "Вечный мир - это пустая мечта.",
+          "description": "Победите в сценарии \"Военная победа\""
+        },
+        "schinese": {
+          "name": "永久和平是永远无法成真的梦",
+          "description": "获得统治胜利"
+        },
+        "spanish": {
+          "name": "La paz perpetua es un sueño inútil",
+          "description": "Obtén una victoria por dominación."
+        },
+        "tchinese": {
+          "name": "永久和平是永遠無法成真的夢",
+          "description": "獲得統治勝利"
+        }
+      }
+    }
+  }
+}

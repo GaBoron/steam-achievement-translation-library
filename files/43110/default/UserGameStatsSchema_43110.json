@@ -1,0 +1,588 @@
+{
+  "version": 1,
+  "app_id": "43110",
+  "variant_id": "default",
+  "source_sha256": "004b50fbbc803956d8435331a5ba243c2736b60a99ffda68a75a8738c1076ec9",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "ach_Air_gunner": {
+      "translations": {
+        "english": {
+          "name": "Air gunner",
+          "description": "Kill 30 enemies using pneumatic weapons."
+        },
+        "schinese": {
+          "name": "气枪",
+          "description": "使用气动武器杀死30名敌人。"
+        }
+      }
+    },
+    "ach_Boom": {
+      "translations": {
+        "english": {
+          "name": "Ka-Boom!",
+          "description": "Explode 10 enemies."
+        },
+        "schinese": {
+          "name": "Ka-Boom!",
+          "description": "炸死10名敌人。"
+        }
+      }
+    },
+    "ach_Cowboy": {
+      "translations": {
+        "english": {
+          "name": "Cowboy",
+          "description": "Kill 30 enemies using revolvers."
+        },
+        "schinese": {
+          "name": "牛仔",
+          "description": "使用左轮手枪杀死30名敌人。"
+        }
+      }
+    },
+    "ach_Demolitionist": {
+      "translations": {
+        "english": {
+          "name": "Demolitionist",
+          "description": "Blow up the tunnel and airlock at 'Cursed' station."
+        },
+        "schinese": {
+          "name": "爆破专家",
+          "description": "在“诅咒”站炸毁隧道和气闸。"
+        }
+      }
+    },
+    "ach_Enlightened": {
+      "translations": {
+        "english": {
+          "name": "Enlightened",
+          "description": "Find the truth."
+        },
+        "schinese": {
+          "name": "启示",
+          "description": "找到真相。"
+        }
+      }
+    },
+    "ach_Fire_in_the_hole": {
+      "translations": {
+        "english": {
+          "name": "Fire in the hole",
+          "description": "Kill 20 lurkers."
+        },
+        "schinese": {
+          "name": "小心爆炸！",
+          "description": "杀死20名潜伏者。"
+        }
+      }
+    },
+    "ach_first_blood": {
+      "translations": {
+        "english": {
+          "name": "First blood",
+          "description": "What doesn't kill you, makes you stronger."
+        },
+        "schinese": {
+          "name": "第一滴血",
+          "description": "杀不死你的，只会让你更强大。"
+        }
+      }
+    },
+    "ach_frontline_kill_everyone": {
+      "translations": {
+        "english": {
+          "name": "Hedge-hopper",
+          "description": "On the level 'Frontline' kill all of the enemy Red Army and Fascist Soldiers."
+        },
+        "schinese": {
+          "name": "越篱者",
+          "description": "在“前线”关卡中杀死所有敌方红军和法西斯士兵。"
+        }
+      }
+    },
+    "ach_frontline_stealth": {
+      "translations": {
+        "english": {
+          "name": "Invisible man",
+          "description": "Complete 'Frontline' level without killing anyone."
+        },
+        "schinese": {
+          "name": "隐形人",
+          "description": "在不杀死任何人的情况下完成“前线”关卡。"
+        }
+      }
+    },
+    "ach_Fugitive": {
+      "translations": {
+        "english": {
+          "name": "Fugitive",
+          "description": "Complete level 'Armory' without getting caught."
+        },
+        "schinese": {
+          "name": "逃犯",
+          "description": "在不被发现的情况下完成“军械库”关卡。"
+        }
+      }
+    },
+    "ach_Ghost_buster": {
+      "translations": {
+        "english": {
+          "name": "Exorcist",
+          "description": "Complete levels 'Ghosts' and 'Anomaly' without dying."
+        },
+        "schinese": {
+          "name": "驱魔人",
+          "description": "在不死亡的情况下完成“幽灵”和“异常”关卡。"
+        }
+      }
+    },
+    "ach_heavy_metal": {
+      "translations": {
+        "english": {
+          "name": "Heavy Metal",
+          "description": "Kill 15 enemies using stationary machine gun."
+        },
+        "schinese": {
+          "name": "重金属",
+          "description": "使用固定机枪杀死15名敌人。"
+        }
+      }
+    },
+    "ach_hostile": {
+      "translations": {
+        "english": {
+          "name": "If it's hostile, you kill it.",
+          "description": "Become a true ranger."
+        },
+        "schinese": {
+          "name": "只要是敌人，就杀掉",
+          "description": "成为一名真正的游骑兵。"
+        }
+      }
+    },
+    "ach_Inquisitor": {
+      "translations": {
+        "english": {
+          "name": "Inquisitor",
+          "description": "Kill 2 demons."
+        },
+        "schinese": {
+          "name": "审判官",
+          "description": "杀死2只恶魔。"
+        }
+      }
+    },
+    "ach_Machete": {
+      "translations": {
+        "english": {
+          "name": "Slice & Dice",
+          "description": "Kill 20 enemies with the knife."
+        },
+        "schinese": {
+          "name": "切片与切块",
+          "description": "用刀杀死20名敌人。"
+        }
+      }
+    },
+    "ach_Merciful": {
+      "translations": {
+        "english": {
+          "name": "Merciful",
+          "description": "Complete the level 'Black Station' without killing any Fascist Soldiers."
+        },
+        "schinese": {
+          "name": "仁慈",
+          "description": "在不杀死任何法西斯士兵的情况下完成“黑站”关卡。"
+        }
+      }
+    },
+    "ach_Ninja": {
+      "translations": {
+        "english": {
+          "name": "Ninja",
+          "description": "Kill 10 enemies with throwing knives."
+        },
+        "schinese": {
+          "name": "忍者",
+          "description": "用飞刀杀死10名敌人。"
+        }
+      }
+    },
+    "ach_Nosalis_hunter": {
+      "translations": {
+        "english": {
+          "name": "Nosalis hunter",
+          "description": "Kill 30 nosalises."
+        },
+        "schinese": {
+          "name": "黑怪猎人",
+          "description": "杀死30只黑怪。"
+        }
+      }
+    },
+    "ach_Old_school": {
+      "translations": {
+        "english": {
+          "name": "Old school",
+          "description": "Kill 30 enemies with the double-barreled shotgun."
+        },
+        "schinese": {
+          "name": "老派",
+          "description": "使用双管霰弹枪杀死30名敌人。"
+        }
+      }
+    },
+    "ach_Pathoanatomist": {
+      "translations": {
+        "english": {
+          "name": "Pathoanatomist",
+          "description": "Kill 5 amoebas."
+        },
+        "schinese": {
+          "name": "病理学家",
+          "description": "杀死5只阿米巴。"
+        }
+      }
+    },
+    "ach_Pyro": {
+      "translations": {
+        "english": {
+          "name": "Pyro",
+          "description": "Kill 5 enemies with a flamethrower."
+        },
+        "schinese": {
+          "name": "纵火狂",
+          "description": "用火焰喷射器杀死5名敌人。"
+        }
+      }
+    },
+    "ach_quick_witted": {
+      "translations": {
+        "english": {
+          "name": "Quick-witted",
+          "description": "Break the support and activate the chandelier in less than 20 seconds."
+        },
+        "schinese": {
+          "name": "才思敏捷",
+          "description": "在20秒内打断支撑并激活吊灯。"
+        }
+      }
+    },
+    "ach_Radio_DJ": {
+      "translations": {
+        "english": {
+          "name": "DJ Artyom",
+          "description": "On the level 'Outpost' reach the radio tower and broadcast the commander's message."
+        },
+        "schinese": {
+          "name": "DJ 阿尔乔姆",
+          "description": "在“前哨”关卡中到达无线电塔并广播指挥官的信息。"
+        }
+      }
+    },
+    "ach_Raider": {
+      "translations": {
+        "english": {
+          "name": "Raider",
+          "description": "On the level 'Depot' silently kill the first guard and break into the Fascist station unnoticed."
+        },
+        "schinese": {
+          "name": "突袭者",
+          "description": "在“仓库”关卡中悄悄杀死第一警卫并在不被发现的情况下闯入法西斯站。"
+        }
+      }
+    },
+    "ach_Ranger": {
+      "translations": {
+        "english": {
+          "name": "Rescue Ranger",
+          "description": "Save a group of 'Reds' from Fascist captivity."
+        },
+        "schinese": {
+          "name": "救援游骑兵",
+          "description": "从法西斯囚禁中救出一群“红军”。"
+        }
+      }
+    },
+    "ach_Reader": {
+      "translations": {
+        "english": {
+          "name": "Heavy Reader",
+          "description": "Kill a librarian."
+        },
+        "schinese": {
+          "name": "重度读者",
+          "description": "杀死一名图书管理员。"
+        }
+      }
+    },
+    "ach_Sapper": {
+      "translations": {
+        "english": {
+          "name": "Soft Touch",
+          "description": "Disarm 10 wire traps."
+        },
+        "schinese": {
+          "name": "温柔触碰",
+          "description": "拆除10个绊线陷阱。"
+        }
+      }
+    },
+    "ach_scrooge": {
+      "translations": {
+        "english": {
+          "name": "Scrooge",
+          "description": "Save 500 military-grade rounds."
+        },
+        "schinese": {
+          "name": "守财奴",
+          "description": "存下 500 发军用级子弹。"
+        }
+      }
+    },
+    "ach_sniper": {
+      "translations": {
+        "english": {
+          "name": "Sniper",
+          "description": "Make 25 headshots."
+        },
+        "schinese": {
+          "name": "狙击手",
+          "description": "完成25次爆头。"
+        }
+      }
+    },
+    "ach_speculator": {
+      "translations": {
+        "english": {
+          "name": "Wheeler-Dealer",
+          "description": "Exchange 500 Military-Grade 5.45 rounds at Exchange kiosks."
+        },
+        "schinese": {
+          "name": "逐利者",
+          "description": "在兑换亭兑换500发军用级5.45弹药。"
+        }
+      }
+    },
+    "ach_Stalker": {
+      "translations": {
+        "english": {
+          "name": "Ranger",
+          "description": "Find all Ranger stashes in Dead City 1 and 2"
+        },
+        "schinese": {
+          "name": "游骑兵",
+          "description": "找到死城1和2中的所有游骑兵藏匿点。"
+        }
+      }
+    },
+    "ach_Swift one": {
+      "translations": {
+        "english": {
+          "name": "Quick Draw",
+          "description": "On the level 'Hunter' kill the nosalises before they break through the ventilation grilles."
+        },
+        "schinese": {
+          "name": "快速拔枪",
+          "description": "在“猎人”关卡中，在黑怪冲破通风栅栏之前杀死它们。"
+        }
+      }
+    },
+    "ach_T_34": {
+      "translations": {
+        "english": {
+          "name": "Tank Buster",
+          "description": "Destroy fascists' Panzer."
+        },
+        "schinese": {
+          "name": "坦克杀手",
+          "description": "摧毁法西斯的“装甲车”。"
+        }
+      }
+    },
+    "ach_trader": {
+      "translations": {
+        "english": {
+          "name": "Metro Trader",
+          "description": "Make 10 deals in weapon shops."
+        },
+        "schinese": {
+          "name": "地铁商人",
+          "description": "在武器商店进行10次交易。"
+        }
+      }
+    },
+    "explorer": {
+      "translations": {
+        "english": {
+          "name": "Explorer",
+          "description": "There is no place in metro you did not visit"
+        },
+        "schinese": {
+          "name": "探险家",
+          "description": "地铁里没有你未去过的地方。"
+        }
+      }
+    },
+    "generous": {
+      "translations": {
+        "english": {
+          "name": "Generous",
+          "description": "Help the poor, a coin for the kid, medicine for the sick. You help everyone you see."
+        },
+        "schinese": {
+          "name": "慷慨",
+          "description": "帮助穷人，给小孩一枚硬币，给病人药物。你帮助了你见到的每一个人。"
+        }
+      }
+    },
+    "metro_d": {
+      "translations": {
+        "english": {
+          "name": "Metro dweller",
+          "description": "A true metro citizen. You know everyone and have seen everything."
+        },
+        "schinese": {
+          "name": "地铁居民",
+          "description": "一个真正的地铁公民。你认识每个人，并见识过一切。"
+        }
+      }
+    },
+    "realist": {
+      "translations": {
+        "english": {
+          "name": "Realist",
+          "description": "A coin for a hungry kid? Get a job."
+        },
+        "schinese": {
+          "name": "现实",
+          "description": "给饥饿的孩子一枚硬币？去找份工作吧。"
+        }
+      }
+    },
+    "sherlock": {
+      "translations": {
+        "english": {
+          "name": "Sherlock",
+          "description": "Found all gold ammo, hidden throughout the stations."
+        },
+        "schinese": {
+          "name": "夏洛克",
+          "description": "找到了藏在整个车站的所有金色弹药。"
+        }
+      }
+    },
+    "ach_air_bender": {
+      "translations": {
+        "english": {
+          "name": "Air Bender",
+          "description": "Kill 30 humans with only pneumatic weapons."
+        },
+        "schinese": {
+          "name": "气宗",
+          "description": "仅使用气动武器杀死30名人类。"
+        }
+      }
+    },
+    "ach_gunman": {
+      "translations": {
+        "english": {
+          "name": "Gunman",
+          "description": "Kill 50 enemies with heavy automatic shotgun."
+        },
+        "schinese": {
+          "name": "枪手",
+          "description": "使用重型自动霰弹枪杀死50名敌人。"
+        }
+      }
+    },
+    "ach_shocking": {
+      "translations": {
+        "english": {
+          "name": "Shocking",
+          "description": "Get 50 kills with Volt Driver."
+        },
+        "schinese": {
+          "name": "电击",
+          "description": "使用电枪获得50次击杀。"
+        }
+      }
+    },
+    "ach_sterling": {
+      "translations": {
+        "english": {
+          "name": "Sterling Effort",
+          "description": "Kill 50 mutants with your knife."
+        },
+        "schinese": {
+          "name": "出色表现",
+          "description": "用刀杀死 50 只变异体。"
+        }
+      }
+    },
+    "ach_sticky": {
+      "translations": {
+        "english": {
+          "name": "Sticks like a bur",
+          "description": "Kill 15 enemies using sticky grenade."
+        },
+        "schinese": {
+          "name": "像刺一样粘",
+          "description": "使用粘性手榴弹杀死15名敌人。"
+        }
+      }
+    },
+    "ach_stunning": {
+      "translations": {
+        "english": {
+          "name": "Stunning",
+          "description": "Get 25 kills with alternative fire of Volt Driver."
+        },
+        "schinese": {
+          "name": "眩晕",
+          "description": "使用电枪的副射击模式击杀 25 名敌人。"
+        }
+      }
+    },
+    "ach_Survivor": {
+      "translations": {
+        "english": {
+          "name": "Survivor",
+          "description": "Complete the game in Ranger Mode Easy."
+        },
+        "schinese": {
+          "name": "幸存者",
+          "description": "在游骑兵简单模式下完成游戏。"
+        }
+      }
+    },
+    "ach_weaponsmith": {
+      "translations": {
+        "english": {
+          "name": "Weaponsmith",
+          "description": "Kill at least one enemy with each weapon available in the game."
+        },
+        "schinese": {
+          "name": "武器大师",
+          "description": "使用游戏中可用的每种武器至少杀死一名敌人。"
+        }
+      }
+    },
+    "ach_survivav_hard": {
+      "translations": {
+        "english": {
+          "name": "Last Man Standing",
+          "description": "Complete the game in Ranger Mode Hardcore."
+        },
+        "schinese": {
+          "name": "最后一人",
+          "description": "在游骑兵硬核模式下完成游戏。"
+        }
+      }
+    }
+  }
+}

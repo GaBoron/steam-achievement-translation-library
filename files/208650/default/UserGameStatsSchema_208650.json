@@ -1,0 +1,5445 @@
+{
+  "version": 1,
+  "app_id": "208650",
+  "variant_id": "default",
+  "source_sha256": "de4fd3f7ee396929ee8fcc7bb1a7e18f8092d7854c971d62d3c440b0c65235fa",
+  "languages": [
+    "brazilian",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "koreana",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "EACID_MP_A_Battle_Within": {
+      "translations": {
+        "brazilian": {
+          "name": "Uma Batalha Interior",
+          "description": "Lute por sua sanidade."
+        },
+        "english": {
+          "name": "A Battle Within",
+          "description": "Fight for your sanity."
+        },
+        "french": {
+          "name": "Combat intérieur",
+          "description": "Sauvez votre esprit."
+        },
+        "german": {
+          "name": "Ein innerer Kampf",
+          "description": "Ringe um deinen Verstand."
+        },
+        "italian": {
+          "name": "Lotta interiore",
+          "description": "Combatti per la tua sanità mentale."
+        },
+        "japanese": {
+          "name": "内なる闘い",
+          "description": "自分を取り戻すための闘いに打ち勝つ"
+        },
+        "koreana": {
+          "name": "나 자신과의 싸움",
+          "description": "제정신을 찾기 위해 싸우십시오."
+        },
+        "polish": {
+          "name": "Wewnętrzna walka",
+          "description": "Wygraj z szaleństwem."
+        },
+        "russian": {
+          "name": "Внутренняя борьба",
+          "description": "Отстоять свой разум."
+        },
+        "schinese": {
+          "name": "内心之战",
+          "description": "为保持神志清醒而战"
+        },
+        "spanish": {
+          "name": "Una batalla interior",
+          "description": "Lucha por tu cordura."
+        }
+      }
+    },
+    "EACID_MP_A_Heart_Broken_in_Two": {
+      "translations": {
+        "brazilian": {
+          "name": "Coração Partido ao Meio",
+          "description": "Proteja a base secreta."
+        },
+        "english": {
+          "name": "A Heart Broken in Two",
+          "description": "Secure the secret base."
+        },
+        "french": {
+          "name": "Un cœur pour deux",
+          "description": "Sécurisez la base secrète."
+        },
+        "german": {
+          "name": "Ein entzweites Herz",
+          "description": "Sichere die Geheimbasis."
+        },
+        "italian": {
+          "name": "Un cuore spezzato in due",
+          "description": "Metti al sicuro la base segreta."
+        },
+        "japanese": {
+          "name": "真っ二つの心",
+          "description": "秘密基地を守れ"
+        },
+        "koreana": {
+          "name": "둘로 나뉜 마음",
+          "description": "비밀 기지를 지키십시오."
+        },
+        "polish": {
+          "name": "Pęknięte serce",
+          "description": "Zabezpiecz tajną bazę."
+        },
+        "russian": {
+          "name": "Сердце пополам",
+          "description": "Защитить секретную базу."
+        },
+        "schinese": {
+          "name": "心碎成两半",
+          "description": "将秘密基地清理安全"
+        },
+        "spanish": {
+          "name": "Un corazón partido en dos",
+          "description": "Asegura la base secreta."
+        }
+      }
+    },
+    "EACID_OT_Absolution": {
+      "translations": {
+        "brazilian": {
+          "name": "Absolvição",
+          "description": "Conquiste 69 estrelas em Desafios de RA."
+        },
+        "english": {
+          "name": "Absolution",
+          "description": "Achieve 69 Stars in AR Challenges."
+        },
+        "french": {
+          "name": "Absolution",
+          "description": "Obtenez 69 étoiles dans les défis R.A."
+        },
+        "german": {
+          "name": "Freispruch",
+          "description": "Erziele 69 Sterne in ER-Herausforderungen."
+        },
+        "italian": {
+          "name": "Assoluzione",
+          "description": "Ottieni 69 stelle nelle Sfide RA."
+        },
+        "japanese": {
+          "name": "完全無欠",
+          "description": "ARチャレンジで69のスターを獲得"
+        },
+        "koreana": {
+          "name": "완전무결",
+          "description": "증강 현실 도전을 통해 총 69개의 별을 획득하십시오."
+        },
+        "polish": {
+          "name": "Rozgrzeszenie",
+          "description": "Uzyskaj 69 gwiazd w wyzwaniach RR."
+        },
+        "russian": {
+          "name": "Отпущение грехов",
+          "description": "Набрать 69 звезды в испытаниях ДР."
+        },
+        "schinese": {
+          "name": "赦罪",
+          "description": "在AR挑战中获得69颗星"
+        },
+        "spanish": {
+          "name": "Absolución",
+          "description": "Consigue 69 estrellas en desafíos de RA."
+        }
+      }
+    },
+    "EACID_MW_Angel_in_the_Dark": {
+      "translations": {
+        "brazilian": {
+          "name": "Anjo da Escuridão",
+          "description": "Conclua os testes e prove que é um sucessor digno."
+        },
+        "english": {
+          "name": "Angel in the Dark",
+          "description": "Complete the trials and prove you are a worthy successor."
+        },
+        "french": {
+          "name": "L'ange des ténèbres",
+          "description": "Terminez les épreuves pour prouver que vous êtes un digne successeur."
+        },
+        "german": {
+          "name": "Engel der Finsternis",
+          "description": "Bestehe die Prüfungen und beweise, dass du ein würdiger Nachfolger bist."
+        },
+        "italian": {
+          "name": "Angelo nell'oscurità",
+          "description": "Completa le prove e dimostra di essere un valido successore."
+        },
+        "japanese": {
+          "name": "闇夜の天使",
+          "description": "試練をクリアして自分が後継者に相応しいことを示せ"
+        },
+        "koreana": {
+          "name": "어둠 속의 한 줄기 빛",
+          "description": "배트맨의 시험을 완료해, 당신만이 그의 후계자임을 증명하십시오."
+        },
+        "polish": {
+          "name": "Anioł w ciemności",
+          "description": "Ukończ próby i udowodnij, że jesteś godnym następcą."
+        },
+        "russian": {
+          "name": "Ангел в ночи",
+          "description": "Пройти испытания и доказать, что достоен стать приемником."
+        },
+        "schinese": {
+          "name": "黑暗中的天使",
+          "description": "完成试炼证明自己是名副其实的继承人"
+        },
+        "spanish": {
+          "name": "El ángel de la oscuridad",
+          "description": "Completa las pruebas y demuestra ser un digno sucesor."
+        }
+      }
+    },
+    "EACID_MP_As_the_Crow_Flies": {
+      "translations": {
+        "brazilian": {
+          "name": "O Voo do Corvo",
+          "description": "Fuja da Química Ace."
+        },
+        "english": {
+          "name": "As the Crow Flies",
+          "description": "Escape from ACE Chemicals."
+        },
+        "french": {
+          "name": "Évacuation d'urgence",
+          "description": "Échappez-vous d'ACE Chemicals."
+        },
+        "german": {
+          "name": "Jetzt aber raus hier",
+          "description": "Entkomme aus der ACE-Chemicals-Fabrik."
+        },
+        "italian": {
+          "name": "In linea d'aria",
+          "description": "Scappa dalla ACE Chemicals."
+        },
+        "japanese": {
+          "name": "まっしぐら",
+          "description": "エースケミカルから脱出"
+        },
+        "koreana": {
+          "name": "비상 탈출구",
+          "description": "ACE 화학에서 탈출하십시오."
+        },
+        "polish": {
+          "name": "Wyjście ewakuacyjne",
+          "description": "Ucieknij z fabryki Ace Chemicals."
+        },
+        "russian": {
+          "name": "Кратчайшим путём",
+          "description": "Спастись из Эйс Кемикалс."
+        },
+        "schinese": {
+          "name": "像乌鸦飞舞",
+          "description": "从ACE化工厂中逃离"
+        },
+        "spanish": {
+          "name": "La gran evasión",
+          "description": "Escapa de Ace Chemicals."
+        }
+      }
+    },
+    "EACID_MP_Be_Not_Afraid": {
+      "translations": {
+        "brazilian": {
+          "name": "Não Tema",
+          "description": "Vença a guerra por Gotham."
+        },
+        "english": {
+          "name": "Be Not Afraid",
+          "description": "Win the war for Gotham."
+        },
+        "french": {
+          "name": "Ne craignez rien",
+          "description": "Remportez la guerre de Gotham."
+        },
+        "german": {
+          "name": "Hab keine Angst",
+          "description": "Gewinne den Krieg um Gotham."
+        },
+        "italian": {
+          "name": "Non aver paura",
+          "description": "Vinci la guerra di Gotham."
+        },
+        "japanese": {
+          "name": "恐れるな",
+          "description": "ゴッサムをかけた戦いに勝利"
+        },
+        "koreana": {
+          "name": "두려워 말라",
+          "description": "고담을 건 전쟁에서 승리하십시오."
+        },
+        "polish": {
+          "name": "Nie bój się",
+          "description": "Wygraj wojnę o Gotham."
+        },
+        "russian": {
+          "name": "В лицо страху",
+          "description": "Отвоевать Готэм."
+        },
+        "schinese": {
+          "name": "不再害怕",
+          "description": "为哥谭市赢得战争"
+        },
+        "spanish": {
+          "name": "No tengas miedo",
+          "description": "Gana la guerra por Gotham."
+        }
+      }
+    },
+    "EACID_MW_Beautiful_Boy": {
+      "translations": {
+        "brazilian": {
+          "name": "Que Bonitinho",
+          "description": "Destrua o segundo depósito de armas em Gotham City."
+        },
+        "english": {
+          "name": "Beautiful Boy",
+          "description": "Destroy the second weapons cache in Gotham City."
+        },
+        "french": {
+          "name": "Joli cœur",
+          "description": "Détruisez un deuxième dépôt d'armes à Gotham City."
+        },
+        "german": {
+          "name": "Hübscher Knabe",
+          "description": "Zerstöre das zweite Waffendepot in Gotham City."
+        },
+        "italian": {
+          "name": "Bel ragazzo",
+          "description": "Distruggi il secondo deposito di armi a Gotham City."
+        },
+        "japanese": {
+          "name": "美男子",
+          "description": "ゴッサム・シティにある2番目の武器貯蔵庫を破壊"
+        },
+        "koreana": {
+          "name": "아름다운 소년",
+          "description": "고담시에 있는 두 번째 무기 은닉처를 파괴하십시오."
+        },
+        "polish": {
+          "name": "Piękniś",
+          "description": "Zniszcz drugi skład broni w Gotham."
+        },
+        "russian": {
+          "name": "Красавчик",
+          "description": "Уничтожить второй тайник с оружием в Готэме."
+        },
+        "schinese": {
+          "name": "漂亮男孩",
+          "description": "在哥谭市摧毁第二个武器藏匿点"
+        },
+        "spanish": {
+          "name": "Chico guapo",
+          "description": "Destruye el segundo alijo de armas de Gotham City."
+        }
+      }
+    },
+    "EACID_OT_Black_and_White": {
+      "translations": {
+        "brazilian": {
+          "name": "Salto de Esperança",
+          "description": "Conclua 8 saltos diferentes de mais de 100 metros."
+        },
+        "english": {
+          "name": "A Leap of Faith",
+          "description": "Complete 8 different jumps over 100 meters."
+        },
+        "french": {
+          "name": "Le grand saut",
+          "description": "Exécutez huit types de sauts différents sur plus de 100 mètres."
+        },
+        "german": {
+          "name": "Sprunghaft",
+          "description": "Vollführe acht verschiedene 100-Meter-Sprünge."
+        },
+        "italian": {
+          "name": "Un balzo nella fede",
+          "description": "Esegui 8 salti diversi per 100 metri."
+        },
+        "japanese": {
+          "name": "信念のジャンプ",
+          "description": "8種類のジャンプでそれぞれ100メートルを越える飛行に成功"
+        },
+        "koreana": {
+          "name": "신념의 도약",
+          "description": "100m 이상 이동하는 다른 종류의 점프를 8회 이상 성공하십시오."
+        },
+        "polish": {
+          "name": "Łut szczęścia",
+          "description": "Wykonaj 8 różnych skoków o długości ponad 100 metrów każdy."
+        },
+        "russian": {
+          "name": "Прыжок через пропасть",
+          "description": "Совершить 8 разных прыжков на 100 метров."
+        },
+        "schinese": {
+          "name": "信仰之跃",
+          "description": "完成8个超过100米的不同的飞跃"
+        },
+        "spanish": {
+          "name": "Un salto de fe",
+          "description": "Realiza ocho saltos distintos de más de 100 metros."
+        }
+      }
+    },
+    "EACID_MW_Blind_Love": {
+      "translations": {
+        "brazilian": {
+          "name": "O Amor É Cego",
+          "description": "Destrua o terceiro depósito de armas em Gotham City."
+        },
+        "english": {
+          "name": "Blind Love",
+          "description": "Destroy the third weapons cache in Gotham City."
+        },
+        "french": {
+          "name": "L'amour rend aveugle",
+          "description": "Détruisez un troisième dépôt d'armes à Gotham City."
+        },
+        "german": {
+          "name": "Die rosa Brille",
+          "description": "Zerstöre das dritte Waffendepot in Gotham City."
+        },
+        "italian": {
+          "name": "L'amore è cieco",
+          "description": "Distruggi il terzo deposito di armi a Gotham City."
+        },
+        "japanese": {
+          "name": "愛は盲目",
+          "description": "ゴッサム・シティにある3番目の武器貯蔵庫を破壊"
+        },
+        "koreana": {
+          "name": "눈먼 사랑",
+          "description": "고담시에 있는 세 번째 무기 은닉처를 파괴하십시오."
+        },
+        "polish": {
+          "name": "Ślepa miłość",
+          "description": "Zniszcz trzeci skład broni w Gotham."
+        },
+        "russian": {
+          "name": "Любовь слепа",
+          "description": "Уничтожить третий тайник с оружием в Готэме."
+        },
+        "schinese": {
+          "name": "盲目的爱",
+          "description": "在哥谭市摧毁第三个武器藏匿点"
+        },
+        "spanish": {
+          "name": "El amor es ciego",
+          "description": "Destruye el tercer alijo de armas de Gotham City."
+        }
+      }
+    },
+    "EACID_OT_Blunt_Trauma": {
+      "translations": {
+        "brazilian": {
+          "name": "Trauma Contundente",
+          "description": "Execute todos os tipos de golpes de predador."
+        },
+        "english": {
+          "name": "Blunt Trauma",
+          "description": "Perform every type of predator takedown."
+        },
+        "french": {
+          "name": "Contusions",
+          "description": "Exécutez tous les types d'éliminations Prédateur."
+        },
+        "german": {
+          "name": "Stumpfe Gewalteinwirkung",
+          "description": "Verwende jeden einzelnen Typ von Jäger-Ausschaltmanövern."
+        },
+        "italian": {
+          "name": "Contusioni",
+          "description": "Esegui tutti i tipi di KO predatore."
+        },
+        "japanese": {
+          "name": "うずくトラウマ",
+          "description": "プレデター・テイクダウンを全種類実行"
+        },
+        "koreana": {
+          "name": "무림 고수",
+          "description": "모든 종류의 사냥꾼 테이크다운을 사용하십시오."
+        },
+        "polish": {
+          "name": "Tępy uraz",
+          "description": "Wykonaj wszystkie rodzaje nokautów łowcy."
+        },
+        "russian": {
+          "name": "Грубая сила",
+          "description": "Использовать все виды решающих ударов хищника."
+        },
+        "schinese": {
+          "name": "钝伤",
+          "description": "使出每一种掠食者击倒招式"
+        },
+        "spanish": {
+          "name": "Traumatismo por contusión",
+          "description": "Ejecuta todos los tipos de eliminación de depredador."
+        }
+      }
+    },
+    "EACID_MP_Brothers_in_Arms": {
+      "translations": {
+        "brazilian": {
+          "name": "Vingança da Irmandade",
+          "description": "O retorno da Dupla Dinâmica."
+        },
+        "english": {
+          "name": "Brotherhood of the Fist",
+          "description": "Return of the Dynamic Duo."
+        },
+        "french": {
+          "name": "L'union fait la force",
+          "description": "Reformez le duo dynamique."
+        },
+        "german": {
+          "name": "Die Bruderschaft der Faust",
+          "description": "Die Rückkehr des Dynamischen Duos."
+        },
+        "italian": {
+          "name": "Fratellanza del pugno",
+          "description": "Il ritorno del Dinamico Duo."
+        },
+        "japanese": {
+          "name": "拳の絆",
+          "description": "ダイナミック・デュオの復活"
+        },
+        "koreana": {
+          "name": "바늘과 실",
+          "description": "다이나믹 듀오가 재결성되었습니다."
+        },
+        "polish": {
+          "name": "Bractwo pięści",
+          "description": "Powrót dynamicznego duetu."
+        },
+        "russian": {
+          "name": "Братство кулака",
+          "description": "Динамический Дуэт возвращается."
+        },
+        "schinese": {
+          "name": "拳头兄弟会",
+          "description": "活力双雄的归来"
+        },
+        "spanish": {
+          "name": "La hermandad del puño",
+          "description": "El regreso del dúo dinámico."
+        }
+      }
+    },
+    "EACID_MP_City_of_Fear": {
+      "translations": {
+        "brazilian": {
+          "name": "Cidade do Medo",
+          "description": "Defenda-se do ataque contra a fortaleza do seu aliado."
+        },
+        "english": {
+          "name": "City of Fear",
+          "description": "Defend the assault on your ally's fortress."
+        },
+        "french": {
+          "name": "Cité de la terreur",
+          "description": "Repoussez l'assaut sur la forteresse de vos alliés."
+        },
+        "german": {
+          "name": "Stadt der Angst",
+          "description": "Schlage den Angriff auf die Festung deines Verbündeten zurück."
+        },
+        "italian": {
+          "name": "Città della paura",
+          "description": "Difendi l'assalto contro la fortezza del tuo alleato."
+        },
+        "japanese": {
+          "name": "恐怖の街",
+          "description": "仲間がいる基地に襲来した敵を打倒"
+        },
+        "koreana": {
+          "name": "공포의 도시",
+          "description": "아군 요새의 급습을 방어하십시오."
+        },
+        "polish": {
+          "name": "Miasto strachu",
+          "description": "Odeprzyj atak na fortecę sojusznika."
+        },
+        "russian": {
+          "name": "Город страха",
+          "description": "Отстоять укреплённый пункт союзника."
+        },
+        "schinese": {
+          "name": "恐惧之城",
+          "description": "防御你盟友堡垒受到的袭击"
+        },
+        "spanish": {
+          "name": "La ciudad del miedo",
+          "description": "Repele el asalto contra la fortaleza de tu aliado."
+        }
+      }
+    },
+    "EACID_MP_Cold_World": {
+      "translations": {
+        "brazilian": {
+          "name": "Mundo Frio",
+          "description": "Destrua o primeiro depósito de armas em Gotham City."
+        },
+        "english": {
+          "name": "Cold World",
+          "description": "Destroy the first weapons cache in Gotham City."
+        },
+        "french": {
+          "name": "Briser la glace",
+          "description": "Détruisez un premier dépôt d'armes à Gotham City."
+        },
+        "german": {
+          "name": "Eiskalt erwischt",
+          "description": "Zerstöre das erste Waffendepot in Gotham City."
+        },
+        "italian": {
+          "name": "Rompi il ghiaccio",
+          "description": "Distruggi il primo deposito di armi a Gotham City."
+        },
+        "japanese": {
+          "name": "南極圏",
+          "description": "ゴッサム・シティの武器貯蔵庫を1つ破壊"
+        },
+        "koreana": {
+          "name": "얼음을 깨고",
+          "description": "고담시에 있는 첫 번째 무기 은닉처를 파괴하십시오."
+        },
+        "polish": {
+          "name": "Zimny świat",
+          "description": "Zniszcz pierwszy skład broni w Gotham."
+        },
+        "russian": {
+          "name": "Холодный мир",
+          "description": "Уничтожить первый тайник с оружием в Готэме."
+        },
+        "schinese": {
+          "name": "冰冷世界",
+          "description": "在哥谭市摧毁第一个武器藏匿点"
+        },
+        "spanish": {
+          "name": "Rompiendo el hielo",
+          "description": "Destruye el primer alijo de armas de Gotham City."
+        }
+      }
+    },
+    "EACID_MP_Creature_of_the_Night": {
+      "translations": {
+        "brazilian": {
+          "name": "Criatura da Noite",
+          "description": "Liberte a cidade."
+        },
+        "english": {
+          "name": "Creature of the Night",
+          "description": "Freedom of the city."
+        },
+        "french": {
+          "name": "Créature de la nuit",
+          "description": "Libérez la ville."
+        },
+        "german": {
+          "name": "Kreatur der Nacht",
+          "description": "Befreie die Stadt."
+        },
+        "italian": {
+          "name": "Creatura della notte",
+          "description": "Libera la città."
+        },
+        "japanese": {
+          "name": "夜のクリーチャー",
+          "description": "都市に自由を"
+        },
+        "koreana": {
+          "name": "밤의 피조물",
+          "description": "도시를 해방하십시오."
+        },
+        "polish": {
+          "name": "Nocny stwór",
+          "description": "Wolne miasto."
+        },
+        "russian": {
+          "name": "Исчадие ночи",
+          "description": "Свободу городу."
+        },
+        "schinese": {
+          "name": "夜行生物",
+          "description": "城市的自由"
+        },
+        "spanish": {
+          "name": "Criatura nocturna",
+          "description": "Ciudad liberada."
+        }
+      }
+    },
+    "EACID_OT_Cycle_of_Violence": {
+      "translations": {
+        "brazilian": {
+          "name": "Ciclo de Violência",
+          "description": "Use Aparelhos Rápidos 100 vezes em combates fluentes."
+        },
+        "english": {
+          "name": "Cycle of Violence",
+          "description": "Use 100 Quick Gadgets while in free flow combat."
+        },
+        "french": {
+          "name": "Cycle de violence",
+          "description": "Utilisez 100 tirs rapides de gadgets en combat déchaîné."
+        },
+        "german": {
+          "name": "Kreislauf der Gewalt",
+          "description": "Verwende im Freeflow-Kampf insgesamt 100 Schnellfeuer-Ausrüstungsgegenstände."
+        },
+        "italian": {
+          "name": "La violenza è un circolo vizioso",
+          "description": "Usa 100 gadget rapidi durante la lotta non-stop."
+        },
+        "japanese": {
+          "name": "めったうち",
+          "description": "フリーフロー・コンバットでガジェットのクイックファイアーを合計100回使用"
+        },
+        "koreana": {
+          "name": "무아지경",
+          "description": "자유 흐름 전투에서 도구 신속 발사를 100회 사용하십시오."
+        },
+        "polish": {
+          "name": "Spirala przemocy",
+          "description": "Skorzystaj 100 razy z szybkiego użycia gadżetów podczas walki superkombinacyjnej."
+        },
+        "russian": {
+          "name": "Цикл насилия",
+          "description": "Применить быстрые устройства в режиме непрерывного боя 100 раз."
+        },
+        "schinese": {
+          "name": "暴力循环",
+          "description": "在自由战斗中使用100次速射小装置"
+        },
+        "spanish": {
+          "name": "Ciclo de violencia",
+          "description": "Haz uso rápido de 100 dispositivos en combate fluido."
+        }
+      }
+    },
+    "EACID_MW_Dark_Allegiances": {
+      "translations": {
+        "brazilian": {
+          "name": "Alianças Sombrias",
+          "description": "Prenda o comandante sênior do Espantalho."
+        },
+        "english": {
+          "name": "Dark Allegiances",
+          "description": "Apprehend Scarecrow's senior commander."
+        },
+        "french": {
+          "name": "Sombre allégeance",
+          "description": "Appréhendez le commandant en chef de l'Épouvantail."
+        },
+        "german": {
+          "name": "Dunkle Treue",
+          "description": "Nimm Scarecrows obersten Kommandeur fest."
+        },
+        "italian": {
+          "name": "Patti oscuri",
+          "description": "Cattura il comandante in capo dello Spaventapasseri."
+        },
+        "japanese": {
+          "name": "闇の忠誠",
+          "description": "スケアクロウの上級司令官を捕らえる"
+        },
+        "koreana": {
+          "name": "암묵적 충성",
+          "description": "스케어크로우의 선임 지휘관을 체포하십시오."
+        },
+        "polish": {
+          "name": "Mroczna lojalność",
+          "description": "Schwytaj starszego dowódcę armii Stracha na Wróble."
+        },
+        "russian": {
+          "name": "Верность мраку",
+          "description": "Задержать главного командира войск Пугала."
+        },
+        "schinese": {
+          "name": "黑暗忠心",
+          "description": "逮捕稻草人的高级指挥官"
+        },
+        "spanish": {
+          "name": "Lealtades oscuras",
+          "description": "Captura al comandante del Espantapájaros."
+        }
+      }
+    },
+    "EACID_MP_Dark_Wings_Fly_Away_in_Fear": {
+      "translations": {
+        "brazilian": {
+          "name": "As Asas Negras do Medo",
+          "description": "O que é o Dispositivo de Precipitação?"
+        },
+        "english": {
+          "name": "Dark Wings Fly Away in Fear",
+          "description": "What is the Cloudburst?"
+        },
+        "french": {
+          "name": "Les ailes de la peur",
+          "description": "Qu'est-ce que le Déluge ?"
+        },
+        "german": {
+          "name": "Flucht auf dunklen Schwingen",
+          "description": "Was ist der Cloudburst?"
+        },
+        "italian": {
+          "name": "La faccia della paura",
+          "description": "Che cos'è il Nubifragio?"
+        },
+        "japanese": {
+          "name": "恐怖をもたらす闇の翼",
+          "description": "クラウド・バーストとは？"
+        },
+        "koreana": {
+          "name": "공포로 가득 찬...",
+          "description": "클라우드버스트를 조사하십시오."
+        },
+        "polish": {
+          "name": "Oblicze strachu",
+          "description": "Co to Rozpylacz?"
+        },
+        "russian": {
+          "name": "Спасайся кто может",
+          "description": "Что такое Шквальный ливень?"
+        },
+        "schinese": {
+          "name": "黑暗之翼在恐惧中飞走",
+          "description": "云爆是什么？"
+        },
+        "spanish": {
+          "name": "La cara del miedo",
+          "description": "¿Qué es el aguacero?"
+        }
+      }
+    },
+    "EACID_MW_Days_of_Fire": {
+      "translations": {
+        "brazilian": {
+          "name": "Um Mundo para Queimar",
+          "description": "Apague os incêndios em Gotham City."
+        },
+        "english": {
+          "name": "Days of Fire",
+          "description": "Extinguish the fires in Gotham City."
+        },
+        "french": {
+          "name": "Couvre-feu",
+          "description": "Éteignez les incendies de Gotham City."
+        },
+        "german": {
+          "name": "Feuer und Flamme",
+          "description": "Lösche alle Brände in Gotham City."
+        },
+        "italian": {
+          "name": "Giorni di fuoco",
+          "description": "Estingui gli incendi a Gotham City."
+        },
+        "japanese": {
+          "name": "火の用心",
+          "description": "ゴッサム・シティの火事を鎮火"
+        },
+        "koreana": {
+          "name": "불장난",
+          "description": "고담시의 화재를 진압하십시오."
+        },
+        "polish": {
+          "name": "Czas ognia",
+          "description": "Ugaś pożary w Gotham."
+        },
+        "russian": {
+          "name": "Власть огня",
+          "description": "Потушить пожары в Готэме."
+        },
+        "schinese": {
+          "name": "烈火之日",
+          "description": "扑灭哥谭市的大火"
+        },
+        "spanish": {
+          "name": "Días de fuego",
+          "description": "Apaga los incendios de Gotham City."
+        }
+      }
+    },
+    "EACID_OT_Dead_to_Rights": {
+      "translations": {
+        "brazilian": {
+          "name": "Aula de Brutalidade",
+          "description": "Realize 15 movimentos de combate diferentes em um só Fluxo."
+        },
+        "english": {
+          "name": "Brutality 101",
+          "description": "Perform 15 different combat moves in one FreeFlow."
+        },
+        "french": {
+          "name": "Coups et blessures",
+          "description": "Exécutez 15 coups différents au cours d'un déchaînement."
+        },
+        "german": {
+          "name": "ABC der Brutalität",
+          "description": "Verwende in einem Freeflow 15 verschiedene Kampfmanöver."
+        },
+        "italian": {
+          "name": "A lezione di brutalità",
+          "description": "Esegui 15 mosse di combattimento diverse in una sola sequenza non-stop."
+        },
+        "japanese": {
+          "name": "大暴れの基礎",
+          "description": "1回のフリーフロー中に15種類のコンバット・ムーブを実行"
+        },
+        "koreana": {
+          "name": "몸의 대화",
+          "description": "한 번의 자유 흐름 전투에서 각기 다른 전투 기술 15개를 사용하십시오."
+        },
+        "polish": {
+          "name": "Podstawy brutalności",
+          "description": "Wykonaj 15 różnych ciosów w jednej superkombinacji."
+        },
+        "russian": {
+          "name": "Азбука мордобоя",
+          "description": "В одном непрерывном бою применить 15 разных приемов."
+        },
+        "schinese": {
+          "name": "残暴101",
+          "description": "在一次连击中使出15种不同的战斗动作"
+        },
+        "spanish": {
+          "name": "Fundamentos de brutalidad",
+          "description": "Ejecuta 15 movimientos diferentes en un mismo combate fluido."
+        }
+      }
+    },
+    "EACID_OT_Death_and_Glory": {
+      "translations": {
+        "brazilian": {
+          "name": "Morte e Glória",
+          "description": "Realize 20 Golpes de Intimidação."
+        },
+        "english": {
+          "name": "Death and Glory",
+          "description": "Perform 20 fear takedowns."
+        },
+        "french": {
+          "name": "Morts de peur",
+          "description": "Exécutez 20 éliminations par intimidation."
+        },
+        "german": {
+          "name": "Tod und Ruhm",
+          "description": "Führe 20 Angst-Ausschalten aus."
+        },
+        "italian": {
+          "name": "Morti di paura",
+          "description": "Esegui 20 KO terrore."
+        },
+        "japanese": {
+          "name": "死と栄光",
+          "description": "フィアー・テイクダウンを20回実行"
+        },
+        "koreana": {
+          "name": "죽음과 영광",
+          "description": "연속 테이크다운을 20번 성공시키십시오."
+        },
+        "polish": {
+          "name": "Śmierć i chwała",
+          "description": "Wykonaj 20 nokautów z zastraszeniem."
+        },
+        "russian": {
+          "name": "Славная смерть",
+          "description": "Выполнить 20 страшных решающих ударов."
+        },
+        "schinese": {
+          "name": "死亡与荣耀",
+          "description": "使用恐惧速攻能力击倒20个恶棍"
+        },
+        "spanish": {
+          "name": "Muertos de miedo",
+          "description": "Ejecuta 20 eliminaciones por intimidación."
+        }
+      }
+    },
+    "EACID_RI_Death_by_Design": {
+      "translations": {
+        "brazilian": {
+          "name": "Morte Planejada",
+          "description": "Consiga uma chave ao concluir o sétimo teste do Charada."
+        },
+        "english": {
+          "name": "Death by Design",
+          "description": "Obtain a key by completing the seventh Riddler trial."
+        },
+        "french": {
+          "name": "Design mortel",
+          "description": "Obtenez une clé en terminant la septième épreuve de l'Homme-mystère."
+        },
+        "german": {
+          "name": "Geplanter Tod",
+          "description": "Erhalte einen Schlüssel, indem du die siebte von Riddlers Prüfungen bestehst."
+        },
+        "italian": {
+          "name": "Una morte ben progettata",
+          "description": "Ricevi una chiave completando la settima prova dell'Enigmista."
+        },
+        "japanese": {
+          "name": "計画殺人",
+          "description": "リドラーが用意した7番目の試練をクリアして鍵を獲得"
+        },
+        "koreana": {
+          "name": "계획적 죽음",
+          "description": "7번째 리들러의 시험을 완료해 열쇠를 획득하십시오."
+        },
+        "polish": {
+          "name": "Projekt — śmierć",
+          "description": "Uzyskaj klucz, wykonując siódmą próbę Człowieka-Zagadki."
+        },
+        "russian": {
+          "name": "Умышленное убийство",
+          "description": "Пройти седьмое испытание Загадочника и добыть ключ."
+        },
+        "schinese": {
+          "name": "注定的死亡",
+          "description": "完成第七个谜语人试炼获得一枚钥匙"
+        },
+        "spanish": {
+          "name": "Arquitectura mortal",
+          "description": "Consigue una llave completando la séptima prueba de Riddler."
+        }
+      }
+    },
+    "EACID_MW_Death_of_Innocents": {
+      "translations": {
+        "brazilian": {
+          "name": "Vítimas Inocentes",
+          "description": "Resgate os bombeiros do posto 17."
+        },
+        "english": {
+          "name": "Death of Innocents",
+          "description": "Rescue station 17 fire crew."
+        },
+        "french": {
+          "name": "Victimes innocentes",
+          "description": "Sauvez les pompiers de la station 17."
+        },
+        "german": {
+          "name": "Unschuldige Opfer",
+          "description": "Rette die Feuerwehrleute der 17. Wache."
+        },
+        "italian": {
+          "name": "Vittime innocenti",
+          "description": "Soccorri la squadra dei pompieri della stazione 17."
+        },
+        "japanese": {
+          "name": "無実の死",
+          "description": "17号ステーションの消防隊員を救出"
+        },
+        "koreana": {
+          "name": "무고한 죽음들",
+          "description": "17 소방서의 대원을 구출하십시오."
+        },
+        "polish": {
+          "name": "Śmierć niewinnych",
+          "description": "Uratuj strażaków z remizy nr 17."
+        },
+        "russian": {
+          "name": "Невинные жертвы",
+          "description": "Спасти пожарных из 17-й станции."
+        },
+        "schinese": {
+          "name": "无辜者之死",
+          "description": "拯救第十七消防站的消防队员们"
+        },
+        "spanish": {
+          "name": "Bajas inocentes",
+          "description": "Rescata a los bomberos del parque 17."
+        }
+      }
+    },
+    "EACID_MW_Double_Jeopardy": {
+      "translations": {
+        "brazilian": {
+          "name": "Dupla Sanção",
+          "description": "Enfrente um velho amigo."
+        },
+        "english": {
+          "name": "Double Jeopardy",
+          "description": "Face off with an old friend."
+        },
+        "french": {
+          "name": "Double incrimination",
+          "description": "Faites face à un vieil ami."
+        },
+        "german": {
+          "name": "Zweifache Gefahr",
+          "description": "Stelle dich einem alten Freund."
+        },
+        "italian": {
+          "name": "Doppia incriminazione",
+          "description": "Affronta faccia a faccia un vecchio amico."
+        },
+        "japanese": {
+          "name": "裁き再び",
+          "description": "かつての友と対決"
+        },
+        "koreana": {
+          "name": "흔들린 우정",
+          "description": "오랜 친구와 대결하십시오."
+        },
+        "polish": {
+          "name": "Podwójne ryzyko",
+          "description": "Zmierz się ze starym znajomym."
+        },
+        "russian": {
+          "name": "Двойная угроза",
+          "description": "Сразиться со старым другом."
+        },
+        "schinese": {
+          "name": "双重危险",
+          "description": "与一位老友撕破脸皮"
+        },
+        "spanish": {
+          "name": "Doble incriminación",
+          "description": "Enfréntate a un viejo amigo."
+        }
+      }
+    },
+    "EACID_OT_Dreamland": {
+      "translations": {
+        "brazilian": {
+          "name": "Metal Selvagem",
+          "description": "Jogue 10 veículos de transporte da milícia para fora da rua sem usar o imobilizador."
+        },
+        "english": {
+          "name": "Savage Metal",
+          "description": "Smash 10 militia transport vehicles off the road without using the immobilizer."
+        },
+        "french": {
+          "name": "Tôle froissée",
+          "description": "Neutralisez 10 véhicules de la milice sans utiliser l'immobilisateur."
+        },
+        "german": {
+          "name": "Altmetall",
+          "description": "Dränge 10 Miliztransporter von der Straße und neutralisiere sie, ohne den Lahmleger einzusetzen."
+        },
+        "italian": {
+          "name": "Metallo letale",
+          "description": "Distruggi 10 veicoli di trasporto della milizia senza usare l'immobilizzatore."
+        },
+        "japanese": {
+          "name": "鋼の猛突進",
+          "description": "イモビライザーを使わず10台の輸送車を路上から一掃"
+        },
+        "koreana": {
+          "name": "고철덩어리",
+          "description": "구속 장치를 사용하지 않고 민병대 수송 차량 10대를 파괴하십시오."
+        },
+        "polish": {
+          "name": "Dziki metal",
+          "description": "Zepchnij z drogi 10 pojazdów transportowych milicji bez używania unieruchamiacza."
+        },
+        "russian": {
+          "name": "Лязг металла",
+          "description": "Сшибить в кювет 10 транспортов боевиков, не используя иммобилайзер."
+        },
+        "schinese": {
+          "name": "野蛮金属",
+          "description": "不使用瘫痪飞弹就将10个叛兵小车撞出路面以外"
+        },
+        "spanish": {
+          "name": "Metal letal",
+          "description": "Destroza y saca de la carretera diez transportes de la milicia sin usar el inmovilizador."
+        }
+      }
+    },
+    "EACID_MP_Fear_of_Faith": {
+      "translations": {
+        "brazilian": {
+          "name": "Medo da Fé",
+          "description": "Resgate os trabalhadores da Química Ace."
+        },
+        "english": {
+          "name": "Fear of Faith",
+          "description": "Rescue the ACE Chemical workers."
+        },
+        "french": {
+          "name": "L'usine de la peur",
+          "description": "Sauvez les ouvriers d'ACE Chemicals."
+        },
+        "german": {
+          "name": "Furcht vor dem Glauben",
+          "description": "Rette die Arbeiter von ACE Chemicals."
+        },
+        "italian": {
+          "name": "La fabbrica della paura",
+          "description": "Salva gli operai della ACE Chemicals."
+        },
+        "japanese": {
+          "name": "恐怖の工場",
+          "description": "エースケミカルの従業員を救出"
+        },
+        "koreana": {
+          "name": "신념의 두려움",
+          "description": "ACE 화학 직원을 구출하십시오."
+        },
+        "polish": {
+          "name": "Strach przed wiarą",
+          "description": "Uratuj pracowników fabryki Ace Chemicals."
+        },
+        "russian": {
+          "name": "Страх веры",
+          "description": "Спасти сотрудников Эйс Кемикалс."
+        },
+        "schinese": {
+          "name": "信仰之惧",
+          "description": "拯救ACE化工厂工人"
+        },
+        "spanish": {
+          "name": "Miedo a la fe",
+          "description": "Rescata a los trabajadores de Ace Chemicals."
+        }
+      }
+    },
+    "EACID_MP_Fear_of_Success": {
+      "translations": {
+        "brazilian": {
+          "name": "Medo do Sucesso",
+          "description": "Sobreviva à emboscada do Espantalho."
+        },
+        "english": {
+          "name": "Fear of Success",
+          "description": "Survive Scarecrow's ambush."
+        },
+        "french": {
+          "name": "Peur vaincue",
+          "description": "Survivez à l'attaque de l'Épouvantail."
+        },
+        "german": {
+          "name": "Furcht vor dem Erfolg",
+          "description": "Überlebe Scarecrows Hinterhalt."
+        },
+        "italian": {
+          "name": "Paura del successo",
+          "description": "Sopravvivi all'imboscata dello Spaventapasseri."
+        },
+        "japanese": {
+          "name": "恐怖の克服",
+          "description": "スケアクロウの待ち伏せを乗り切る"
+        },
+        "koreana": {
+          "name": "성공의 두려움",
+          "description": "스케어크로우의 매복에서 살아남으십시오."
+        },
+        "polish": {
+          "name": "Strach przed sukcesem",
+          "description": "Przeżyj zasadzkę Stracha na Wróble."
+        },
+        "russian": {
+          "name": "Страх успеха",
+          "description": "Пережить засаду Пугала."
+        },
+        "schinese": {
+          "name": "成功的恐惧",
+          "description": "在稻草人的埋伏中活下来"
+        },
+        "spanish": {
+          "name": "Miedo al éxito",
+          "description": "Sobrevive a la emboscada del Espantapájaros."
+        }
+      }
+    },
+    "EACID_OT_Fortunate_Son": {
+      "translations": {
+        "brazilian": {
+          "name": "Filho Afortunado",
+          "description": "Conquiste 46 estrelas em Desafios de RA."
+        },
+        "english": {
+          "name": "Fortunate Son",
+          "description": "Achieve 46 Stars in AR Challenges."
+        },
+        "french": {
+          "name": "Enfant chéri",
+          "description": "Obtenez 46 étoiles dans les défis R.A."
+        },
+        "german": {
+          "name": "Glückspilz",
+          "description": "Erziele 46 Sterne in ER-Herausforderungen."
+        },
+        "italian": {
+          "name": "Figlio prediletto",
+          "description": "Ottieni 46 stelle nelle Sfide RA."
+        },
+        "japanese": {
+          "name": "いい感じ",
+          "description": "ARチャレンジで46のスターを獲得"
+        },
+        "koreana": {
+          "name": "럭키 가이",
+          "description": "증강 현실 도전을 통해 총 46개의 별을 획득하십시오."
+        },
+        "polish": {
+          "name": "Fortunny syn",
+          "description": "Uzyskaj 46 gwiazd w wyzwaniach RR."
+        },
+        "russian": {
+          "name": "Избранник судьбы",
+          "description": "Набрать 46 звезд в испытаниях ДР."
+        },
+        "schinese": {
+          "name": "幸运的孩子",
+          "description": "在AR挑战中获得46颗星"
+        },
+        "spanish": {
+          "name": "Hijo predilecto",
+          "description": "Consigue 46 estrellas en desafíos de RA."
+        }
+      }
+    },
+    "EACID_MW_Gates_of_Gotham": {
+      "translations": {
+        "brazilian": {
+          "name": "Portões de Gotham",
+          "description": "Destrua todas as torres de observação da milícia."
+        },
+        "english": {
+          "name": "Gates of Gotham",
+          "description": "Destroy all of the militia watchtowers."
+        },
+        "french": {
+          "name": "Les portes de Gotham",
+          "description": "Éliminez toutes les tours de guet de la milice."
+        },
+        "german": {
+          "name": "Die Tore Gothams",
+          "description": "Zerstöre alle Milizwachtürme."
+        },
+        "italian": {
+          "name": "Le porte di Gotham",
+          "description": "Distruggi tutte le torri di guardia della milizia."
+        },
+        "japanese": {
+          "name": "ゴッサムの関所",
+          "description": "兵の望楼を全て破壊"
+        },
+        "koreana": {
+          "name": "고담으로 통하는 관문",
+          "description": "모든 민병대 감시탑을 파괴하십시오."
+        },
+        "polish": {
+          "name": "Bramy Gotham",
+          "description": "Zniszcz wszystkie wieże strażnicze sił milicji."
+        },
+        "russian": {
+          "name": "У ворот Готэма",
+          "description": "Уничтожить все сторожевые вышки боевиков."
+        },
+        "schinese": {
+          "name": "哥谭之门",
+          "description": "摧毁所有的叛兵哨塔"
+        },
+        "spanish": {
+          "name": "Puertas de Gotham",
+          "description": "Destruye todas las torres de vigilancia de la milicia."
+        }
+      }
+    },
+    "EACID_OT_Gotham_After_Midnight": {
+      "translations": {
+        "brazilian": {
+          "name": "Gotham à Meia-noite",
+          "description": "Plane por 400 metros mantendo uma altura menor de 20 metros do chão."
+        },
+        "english": {
+          "name": "Gotham After Midnight",
+          "description": "Glide for 400 meters while less than 20 meters from the ground."
+        },
+        "french": {
+          "name": "Gotham by night",
+          "description": "Planer sur 400 mètres à moins de 20 mètres du sol."
+        },
+        "german": {
+          "name": "Gotham nach Mitternacht",
+          "description": "Überbrücke weniger als zwanzig Meter über dem Boden 400 Meter im Gleitflug."
+        },
+        "italian": {
+          "name": "Gotham by night",
+          "description": "Plana per 400 metri tenendoti a meno di 20 metri da terra."
+        },
+        "japanese": {
+          "name": "ゴッサムで夜遊び",
+          "description": "地上20メートル以下の高度で400メートルをグライド"
+        },
+        "koreana": {
+          "name": "자정이 지난 고담",
+          "description": "지면과 20m 이상 떨어지지 않은 상태로 400m를 활공하십시오."
+        },
+        "polish": {
+          "name": "Gotham po północy",
+          "description": "Szybuj przez 400 metrów na wysokości mniejszej niż 20 metrów."
+        },
+        "russian": {
+          "name": "Ночной Готэм",
+          "description": "Пролететь 400 метров на высоте не выше 20 метров над землёй."
+        },
+        "schinese": {
+          "name": "午夜后的哥谭",
+          "description": "以低于20米的高度滑翔400米"
+        },
+        "spanish": {
+          "name": "Gotham después de medianoche",
+          "description": "Planea durante 400 metros a menos de veinte metros del suelo."
+        }
+      }
+    },
+    "EACID_MW_Gotham_Underground": {
+      "translations": {
+        "brazilian": {
+          "name": "Submundo de Gotham",
+          "description": "Desarme todo o armamento explosivo da milícia em Gotham City."
+        },
+        "english": {
+          "name": "Gotham Underground",
+          "description": "Defuse all of the militia explosive ordinance in Gotham City."
+        },
+        "french": {
+          "name": "Les bas-fonds de Gotham",
+          "description": "Désamorcez tous les explosifs de la milice disséminés dans Gotham."
+        },
+        "german": {
+          "name": "Gothams Untergrund",
+          "description": "Entschärfe alle Sprengsätze der Miliz in Gotham City."
+        },
+        "italian": {
+          "name": "I bassifondi di Gotham",
+          "description": "Disinnesca tutti gli ordigni esplosivi della milizia a Gotham City."
+        },
+        "japanese": {
+          "name": "ゴッサム・アンダーグラウンド",
+          "description": "兵のゴッサム・シティ爆破命令を全て阻止"
+        },
+        "koreana": {
+          "name": "고담의 지하",
+          "description": "고담시의 모든 민병대 폭탄을 해체하십시오."
+        },
+        "polish": {
+          "name": "Podziemia Gotham",
+          "description": "Zneutralizuj wszystkie materiały wybuchowe sił milicji w Gotham."
+        },
+        "russian": {
+          "name": "Подземелья Готэма",
+          "description": "Обезвредить все бомбы боевиков в Готэме."
+        },
+        "schinese": {
+          "name": "哥谭地下",
+          "description": "解除哥谭市内所有民兵爆炸物"
+        },
+        "spanish": {
+          "name": "Gotham subterránea",
+          "description": "Desactiva todos los explosivos de la milicia en Gotham City."
+        }
+      }
+    },
+    "EACID_MW_Jekyll_and_Hyde": {
+      "translations": {
+        "brazilian": {
+          "name": "O Médico e o Monstro",
+          "description": "Impeça o assalto ao banco em Miagani Island e prenda o mandante no DPGC."
+        },
+        "english": {
+          "name": "Jekyll & Hyde",
+          "description": "Stop the bank heist on Miagani Island and lock up the master mind in GCPD."
+        },
+        "french": {
+          "name": "Jekyll & Hyde",
+          "description": "Arrêtez les braqueurs de banque sur Miagani Island et livrez leur chef au G.C.P.D."
+        },
+        "german": {
+          "name": "Jekyll und Hyde",
+          "description": "Stoppe den Banküberfall auf Miagani Island und sperre den Drahtzieher im GCPD ein."
+        },
+        "italian": {
+          "name": "Jekyll e Hyde",
+          "description": "Sventa il colpo alla banca di Miagani Island e rinchiudi il capobanda al commissariato."
+        },
+        "japanese": {
+          "name": "ジキルとハイド",
+          "description": "Miagani Islandの銀行強盗を阻止し黒幕をゴッサム市警に収監"
+        },
+        "koreana": {
+          "name": "지킬과 하이드",
+          "description": "미아가니 아일랜드의 은행 강도를 막고, 그들의 두목을 GCPD에 가두십시오."
+        },
+        "polish": {
+          "name": "Jekyll i Hyde",
+          "description": "Powstrzymaj złodziei rabujących bank na wyspie Miagani Island i zamknij szefa w areszcie."
+        },
+        "russian": {
+          "name": "Джекилл и Хайд",
+          "description": "Пресечь ограбление банка на острове Миагани и доставить главаря в полицейское управление."
+        },
+        "schinese": {
+          "name": "化身博士",
+          "description": "阻止米亚加尼岛上的银行抢劫并将策划者关进哥谭警局"
+        },
+        "spanish": {
+          "name": "El Dr. Jekyll y Mr. Hyde",
+          "description": "Impide el atraco al banco de Miagani Island y encierra a su cerebro en la comisaría."
+        }
+      }
+    },
+    "EACID_MP_Journey_into_Knight": {
+      "translations": {
+        "brazilian": {
+          "name": "Pesadelos Soturnos",
+          "description": "Equilibre as coisas."
+        },
+        "english": {
+          "name": "Journey into Knight",
+          "description": "Even The Odds."
+        },
+        "french": {
+          "name": "Un chevalier dans la nuit",
+          "description": "Équilibrez le jeu."
+        },
+        "german": {
+          "name": "Ritterliche Selbstfindung",
+          "description": "Sorge für Chancengleichheit."
+        },
+        "italian": {
+          "name": "L'impresa del Cavaliere",
+          "description": "Pareggia i conti."
+        },
+        "japanese": {
+          "name": "ナイトの旅へようこそ",
+          "description": "形勢を立て直せ"
+        },
+        "koreana": {
+          "name": "기사의 필수품",
+          "description": "적과의 균형을 맞춥니다."
+        },
+        "polish": {
+          "name": "Podróż Rycerza",
+          "description": "Wyrównaj szanse."
+        },
+        "russian": {
+          "name": "Без страха и упрёка",
+          "description": "Уравнять шансы."
+        },
+        "schinese": {
+          "name": "骑士之旅",
+          "description": "公平对决"
+        },
+        "spanish": {
+          "name": "La vía del caballero",
+          "description": "Equilibra la balanza."
+        }
+      }
+    },
+    "EACID_MP_Judgement_Day": {
+      "translations": {
+        "brazilian": {
+          "name": "Dia do Julgamento",
+          "description": "Vença a briga subterrânea."
+        },
+        "english": {
+          "name": "Judgment Day",
+          "description": "Win the rumble down under."
+        },
+        "french": {
+          "name": "Jugement dernier",
+          "description": "Remportez la bataille souterraine."
+        },
+        "german": {
+          "name": "Der Tag des letzten Gerichts",
+          "description": "Gewinne den Kampf unter der Erde."
+        },
+        "italian": {
+          "name": "Giorno del giudizio",
+          "description": "Vinci la battaglia nel profondo."
+        },
+        "japanese": {
+          "name": "審判の日",
+          "description": "地底戦に勝利"
+        },
+        "koreana": {
+          "name": "심판의 날",
+          "description": "지하의 요동치는 전투에서 승리하십시오."
+        },
+        "polish": {
+          "name": "Dzień sądu",
+          "description": "Wygraj potyczkę w podziemnym tunelu."
+        },
+        "russian": {
+          "name": "Судный день",
+          "description": "Победить в подземном бою."
+        },
+        "schinese": {
+          "name": "审判日",
+          "description": "战胜挖掘机"
+        },
+        "spanish": {
+          "name": "El día del juicio",
+          "description": "Gana la refriega de los túneles subterráneos."
+        }
+      }
+    },
+    "EACID_MP_Knightfall": {
+      "translations": {
+        "brazilian": {
+          "name": "Knightfall",
+          "description": "Inicie o Protocolo Knightfall."
+        },
+        "english": {
+          "name": "Knightfall",
+          "description": "Initiate Knightfall Protocol."
+        },
+        "french": {
+          "name": "Knightfall",
+          "description": "Lancez le protocole Knightfall."
+        },
+        "german": {
+          "name": "Knightfall",
+          "description": "Leite das Knightfall-Protokoll ein."
+        },
+        "italian": {
+          "name": "Knightfall",
+          "description": "Avvia il protocollo Knightfall."
+        },
+        "japanese": {
+          "name": "ナイトフォール",
+          "description": "ナイトフォール作戦を開始"
+        },
+        "koreana": {
+          "name": "나이트폴",
+          "description": "나이트폴 프로토콜을 실행하십시오."
+        },
+        "polish": {
+          "name": "Upadek Rycerza",
+          "description": "Zainicjuj operację Upadek Rycerza."
+        },
+        "russian": {
+          "name": "Падение рыцаря",
+          "description": "Запустить протокол \"Падение рыцаря\"."
+        },
+        "schinese": {
+          "name": "骑士陨落",
+          "description": "开启\"骑士陨落\"协议"
+        },
+        "spanish": {
+          "name": "Caída del Murciélago",
+          "description": "Ejecuta el protocolo Caída del Murciélago."
+        }
+      }
+    },
+    "EACID_RI_Lethal_Pursuits": {
+      "translations": {
+        "brazilian": {
+          "name": "Charadas Mortais",
+          "description": "Consiga uma chave ao concluir o nono teste do Charada."
+        },
+        "english": {
+          "name": "Lethal Pursuits",
+          "description": "Obtain a key by completing the ninth Riddler trial."
+        },
+        "french": {
+          "name": "La peur aux trousses",
+          "description": "Obtenez une clé en terminant la neuvième épreuve de l'Homme-mystère."
+        },
+        "german": {
+          "name": "Tödliche Ziele",
+          "description": "Erhalte einen Schlüssel, indem du die neunte von Riddlers Prüfungen bestehst."
+        },
+        "italian": {
+          "name": "Inseguimento letale",
+          "description": "Ricevi una chiave completando la nona prova dell'Enigmista."
+        },
+        "japanese": {
+          "name": "探求は命がけ",
+          "description": "リドラーが用意した9番目の試練をクリアし鍵を獲得"
+        },
+        "koreana": {
+          "name": "목숨 건 추격",
+          "description": "9번째 리들러의 시험을 완료해 열쇠를 획득하십시오."
+        },
+        "polish": {
+          "name": "Śmiertelne pościgi",
+          "description": "Uzyskaj klucz, wykonując dziewiątą próbę Człowieka-Zagadki."
+        },
+        "russian": {
+          "name": "Опасные занятия",
+          "description": "Пройти девятое испытание Загадочника и добыть ключ."
+        },
+        "schinese": {
+          "name": "致命追击",
+          "description": "完成第九个谜语人试炼获得一枚钥匙"
+        },
+        "spanish": {
+          "name": "Persecuciones letales",
+          "description": "Consigue una llave completando la novena prueba de Riddler."
+        }
+      }
+    },
+    "EACID_MP_Living_Hell": {
+      "translations": {
+        "brazilian": {
+          "name": "Inferno na Terra",
+          "description": "Interrogue o piloto do TMB da milícia."
+        },
+        "english": {
+          "name": "Living Hell",
+          "description": "Interrogate the Militia APC Driver."
+        },
+        "french": {
+          "name": "Enfer sur Terre",
+          "description": "Interrogez le conducteur du blindé de la milice."
+        },
+        "german": {
+          "name": "Hölle auf Erden",
+          "description": "Verhöre den Fahrer des Miliz-Panzerwagens."
+        },
+        "italian": {
+          "name": "L'inferno sulla terra",
+          "description": "Interroga il pilota del blindato della milizia."
+        },
+        "japanese": {
+          "name": "生き地獄",
+          "description": "輸送車の運転手を尋問"
+        },
+        "koreana": {
+          "name": "생지옥",
+          "description": "민병대 장갑차 운전사를 심문하십시오."
+        },
+        "polish": {
+          "name": "Piekło na ziemi",
+          "description": "Przesłuchaj kierowcę transportera opancerzonego."
+        },
+        "russian": {
+          "name": "Ад наяву",
+          "description": "Допросить боевика - водителя БТРа."
+        },
+        "schinese": {
+          "name": "人间地狱",
+          "description": "审问叛兵装甲车驾驶员"
+        },
+        "spanish": {
+          "name": "Infierno en la Tierra",
+          "description": "Interroga al conductor del transporte de la milicia."
+        }
+      }
+    },
+    "EACID_MW_Manhunt": {
+      "translations": {
+        "brazilian": {
+          "name": "A Máquina Monstruosa",
+          "description": "Rastreie e prenda o assassino em série."
+        },
+        "english": {
+          "name": "The Monster Machine",
+          "description": "Track down and apprehend the serial killer."
+        },
+        "french": {
+          "name": "Machine à tuer",
+          "description": "Traquez et appréhendez le tueur en série."
+        },
+        "german": {
+          "name": "Das tapfere Metzgerlein",
+          "description": "Spüre den Serienmörder auf und nimm ihn fest."
+        },
+        "italian": {
+          "name": "In fila dal macellaio",
+          "description": "Rintraccia e cattura il serial killer."
+        },
+        "japanese": {
+          "name": "モンスター・マシーン",
+          "description": "連続殺人鬼を追いかけて捕らえる"
+        },
+        "koreana": {
+          "name": "잔인한 기계",
+          "description": "연쇄 살인마를 추적해서 체포하십시오."
+        },
+        "polish": {
+          "name": "Potworna maszyna",
+          "description": "Namierz i aresztuj seryjnego mordercę."
+        },
+        "russian": {
+          "name": "Озверевшая машина",
+          "description": "Найти и задержать серийного убийцу."
+        },
+        "schinese": {
+          "name": "怪物机器",
+          "description": "追踪并逮捕连环杀手"
+        },
+        "spanish": {
+          "name": "Máquina monstruosa",
+          "description": "Encuentra y detén al asesino en serie."
+        }
+      }
+    },
+    "EACID_MP_Master_of_Fear": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre do Medo",
+          "description": "Wayne contra Crane."
+        },
+        "english": {
+          "name": "Master of Fear",
+          "description": "Wayne vs Crane."
+        },
+        "french": {
+          "name": "Maître de la peur",
+          "description": "Wayne contre Crane."
+        },
+        "german": {
+          "name": "Herr der Angst",
+          "description": "Wayne gegen Crane."
+        },
+        "italian": {
+          "name": "Padrone della paura",
+          "description": "Wayne vs. Crane."
+        },
+        "japanese": {
+          "name": "恐怖を支配する者",
+          "description": "ウェインvsクレイン"
+        },
+        "koreana": {
+          "name": "공포의 끝",
+          "description": "웨인과 크레인의 대결."
+        },
+        "polish": {
+          "name": "Władca strachu",
+          "description": "Wayne kontra Crane."
+        },
+        "russian": {
+          "name": "Повелитель страха",
+          "description": "Уэйн против Крейна."
+        },
+        "schinese": {
+          "name": "恐惧大师",
+          "description": "韦恩对战克莱恩"
+        },
+        "spanish": {
+          "name": "Señor del miedo",
+          "description": "Wayne contra Crane."
+        }
+      }
+    },
+    "EACID_RI_Nine_Lives": {
+      "translations": {
+        "brazilian": {
+          "name": "Sete Vidas",
+          "description": "Consiga uma chave ao concluir o último teste do Charada."
+        },
+        "english": {
+          "name": "Nine Lives",
+          "description": "Obtain a key by completing the last Riddler trial."
+        },
+        "french": {
+          "name": "Neuf vies",
+          "description": "Obtenez une clé en terminant la dernière épreuve de l'Homme-mystère."
+        },
+        "german": {
+          "name": "Neun Leben",
+          "description": "Erhalte einen Schlüssel, indem du die letzte von Riddlers Prüfungen bestehst."
+        },
+        "italian": {
+          "name": "Sette vite",
+          "description": "Ricevi una chiave completando l'ultima prova dell'Enigmista."
+        },
+        "japanese": {
+          "name": "猫はしぶといのよ",
+          "description": "リドラーが用意した最後の試練をクリアし鍵を獲得"
+        },
+        "koreana": {
+          "name": "구사일생",
+          "description": "마지막 리들러의 시험을 완료해 열쇠를 획득하십시오."
+        },
+        "polish": {
+          "name": "Dziewięć żyć",
+          "description": "Uzyskaj klucz, wykonując ostatnią próbę Człowieka-Zagadki."
+        },
+        "russian": {
+          "name": "Девять жизней",
+          "description": "Пройти последнее испытание Загадочника и добыть ключ."
+        },
+        "schinese": {
+          "name": "九命",
+          "description": "完成最后一个谜语人试炼获得一枚钥匙"
+        },
+        "spanish": {
+          "name": "Siete vidas",
+          "description": "Consigue una llave completando la última prueba de Riddler."
+        }
+      }
+    },
+    "EACID_MP_No_Mans_Land": {
+      "translations": {
+        "brazilian": {
+          "name": "Terra de Ninguém",
+          "description": "Restaure a energia nas pontes de Gotham City."
+        },
+        "english": {
+          "name": "No Man's Land",
+          "description": "Restore power to the bridges of Gotham City."
+        },
+        "french": {
+          "name": "No man's land",
+          "description": "Rétablissez l'alimentation électrique des ponts de Gotham City."
+        },
+        "german": {
+          "name": "Niemandsland",
+          "description": "Stelle die Stromversorgung für die Brücken Gotham Citys wieder her."
+        },
+        "italian": {
+          "name": "Terra di nessuno",
+          "description": "Ridai energia ai ponti di Gotham City."
+        },
+        "japanese": {
+          "name": "無人地帯",
+          "description": "ゴッサム・シティの橋の電力を復旧"
+        },
+        "koreana": {
+          "name": "내 다리 내놔",
+          "description": "고담시를 연결하는 모든 다리의 전력을 복구하십시오."
+        },
+        "polish": {
+          "name": "Ziemia niczyja",
+          "description": "Przywróć zasilanie na mostach w Gotham."
+        },
+        "russian": {
+          "name": "На нейтральной территории",
+          "description": "Заново подвести электричество к готэмским мостам."
+        },
+        "schinese": {
+          "name": "无人之地",
+          "description": "恢复哥谭市桥梁的通电"
+        },
+        "spanish": {
+          "name": "Tierra de nadie",
+          "description": "Restaura la electricidad en los puentes de Gotham City."
+        }
+      }
+    },
+    "EACID_RI_Pieces_of_the_Puzzle": {
+      "translations": {
+        "brazilian": {
+          "name": "Peças do Quebra-cabeça",
+          "description": "Consiga uma chave ao concluir o segundo teste do Charada."
+        },
+        "english": {
+          "name": "Pieces of the Puzzle",
+          "description": "Obtain a key by completing the second Riddler trial."
+        },
+        "french": {
+          "name": "Pièces de puzzle",
+          "description": "Obtenez une clé en terminant la deuxième épreuve de l'Homme-mystère."
+        },
+        "german": {
+          "name": "Teile des Puzzles",
+          "description": "Erhalte einen Schlüssel, indem du die zweite von Riddlers Prüfungen bestehst."
+        },
+        "italian": {
+          "name": "Pezzi del puzzle",
+          "description": "Ricevi una chiave completando la seconda prova dell'Enigmista."
+        },
+        "japanese": {
+          "name": "パズルのピース",
+          "description": "リドラーが用意した2番目の試練をクリアし鍵を獲得"
+        },
+        "koreana": {
+          "name": "퍼즐 조각",
+          "description": "2번째 리들러의 시험을 완료해 열쇠를 획득하십시오."
+        },
+        "polish": {
+          "name": "Kawałki układanki",
+          "description": "Uzyskaj klucz, wykonując drugą próbę Człowieka-Zagadki."
+        },
+        "russian": {
+          "name": "Фрагмент головоломки",
+          "description": "Пройти второе испытание Загадочника и добыть ключ."
+        },
+        "schinese": {
+          "name": "谜之碎片",
+          "description": "完成第二个谜语人试炼获得一枚钥匙"
+        },
+        "spanish": {
+          "name": "Piezas del rompecabezas",
+          "description": "Consigue una llave completando la segunda prueba de Riddler."
+        }
+      }
+    },
+    "EACID_MW_Practice_Run": {
+      "translations": {
+        "brazilian": {
+          "name": "Volta de Apresentação",
+          "description": "Destrua o quarto depósito de armas em Gotham City."
+        },
+        "english": {
+          "name": "Practice Run",
+          "description": "Destroy the fourth weapons cache in Gotham City."
+        },
+        "french": {
+          "name": "Tour de chauffe",
+          "description": "Détruisez un quatrième dépôt d'armes à Gotham City."
+        },
+        "german": {
+          "name": "Testdurchlauf",
+          "description": "Zerstöre das vierte Waffendepot in Gotham City."
+        },
+        "italian": {
+          "name": "Giro di prova",
+          "description": "Distruggi il quarto deposito di armi a Gotham City."
+        },
+        "japanese": {
+          "name": "予行練習",
+          "description": "ゴッサム・シティにある4番目の武器貯蔵庫を破壊"
+        },
+        "koreana": {
+          "name": "예행연습",
+          "description": "고담시에 있는 네 번째 무기 은닉처를 파괴하십시오."
+        },
+        "polish": {
+          "name": "Bieg treningowy",
+          "description": "Zniszcz czwarty skład broni w Gotham."
+        },
+        "russian": {
+          "name": "Разминка",
+          "description": "Уничтожить четвертый тайник с оружием в Готэме."
+        },
+        "schinese": {
+          "name": "跑步练习",
+          "description": "在哥谭市摧毁第四个武器藏匿点"
+        },
+        "spanish": {
+          "name": "Ensayo",
+          "description": "Destruye el cuarto alijo de armas de Gotham City."
+        }
+      }
+    },
+    "EACID_RI_Riddle_Me_That": {
+      "translations": {
+        "brazilian": {
+          "name": "O Que É, O Que É",
+          "description": "Prenda o Charada no DPGC."
+        },
+        "english": {
+          "name": "Riddle Me That",
+          "description": "Lock up the Riddler in GCPD."
+        },
+        "french": {
+          "name": "Mauvaise réponse",
+          "description": "Livrez l'Homme-mystère au G.C.P.D."
+        },
+        "german": {
+          "name": "Falsche Antwort",
+          "description": "Sperre den Riddler im GCPD ein."
+        },
+        "italian": {
+          "name": "Risolvi questo",
+          "description": "Rinchiudi l'Enigmista al commissariato."
+        },
+        "japanese": {
+          "name": "さて問題です",
+          "description": "リドラーをゴッサム市警に収監"
+        },
+        "koreana": {
+          "name": "이걸 풀어봐",
+          "description": "리들러를 GCPD에 가두십시오."
+        },
+        "polish": {
+          "name": "Rozwiąż zagadkę",
+          "description": "Zamknij Człowieka-Zagadkę w areszcie."
+        },
+        "russian": {
+          "name": "Отгадай загадку",
+          "description": "Доставить Загадочника в полицейское управление."
+        },
+        "schinese": {
+          "name": "拿这个考我啊",
+          "description": "把谜语人关进哥谭警局"
+        },
+        "spanish": {
+          "name": "Adivina, adivinanza",
+          "description": "Encierra a Riddler en la comisaría."
+        }
+      }
+    },
+    "EACID_RI_Riddler_on_the_Rampage": {
+      "translations": {
+        "brazilian": {
+          "name": "Charada em Ação",
+          "description": "Consiga uma chave ao concluir o quarto teste do Charada."
+        },
+        "english": {
+          "name": "Riddler on the Rampage",
+          "description": "Obtain a key by completing the fourth Riddler trial."
+        },
+        "french": {
+          "name": "L'Homme-mystère se lâche",
+          "description": "Obtenez une clé en terminant la quatrième épreuve de l'Homme-mystère."
+        },
+        "german": {
+          "name": "Riddler-Randale",
+          "description": "Erhalte einen Schlüssel, indem du die vierte von Riddlers Prüfungen bestehst."
+        },
+        "italian": {
+          "name": "L'Enigmista furioso",
+          "description": "Ricevi una chiave completando la quarta prova dell'Enigmista."
+        },
+        "japanese": {
+          "name": "リドラー大暴れ",
+          "description": "リドラーが用意した4番目の試練をクリアし鍵を獲得"
+        },
+        "koreana": {
+          "name": "광란의 리들러",
+          "description": "4번째 리들러의 시험을 완료해 열쇠를 획득하십시오."
+        },
+        "polish": {
+          "name": "Szaleństwo Człowieka-Zagadki",
+          "description": "Uzyskaj klucz, wykonując czwartą próbę Człowieka-Zagadki."
+        },
+        "russian": {
+          "name": "Загадочник разбушевался",
+          "description": "Пройти четвертое испытание Загадочника и добыть ключ."
+        },
+        "schinese": {
+          "name": "谜语人暴走",
+          "description": "完成第四个谜语人试炼获得一枚钥匙"
+        },
+        "spanish": {
+          "name": "Riddler furioso",
+          "description": "Consigue una llave completando la cuarta prueba de Riddler."
+        }
+      }
+    },
+    "EACID_RI_Riddles_in_the_Dark": {
+      "translations": {
+        "brazilian": {
+          "name": "A Gata e o Morcego",
+          "description": "Consiga uma chave ao concluir o terceiro teste do Charada."
+        },
+        "english": {
+          "name": "The Cat and the Bat",
+          "description": "Obtain a key by completing the third Riddler trial."
+        },
+        "french": {
+          "name": "Le chat et la chauve-souris",
+          "description": "Obtenez une clé en terminant la troisième épreuve de l'Homme-mystère."
+        },
+        "german": {
+          "name": "Katz und Fledermaus",
+          "description": "Erhalte einen Schlüssel, indem du die dritte von Riddlers Prüfungen bestehst."
+        },
+        "italian": {
+          "name": "Il pipistrello e la gattina",
+          "description": "Ricevi una chiave completando la terza prova dell'Enigmista."
+        },
+        "japanese": {
+          "name": "キャット・アンド・バット",
+          "description": "リドラーが用意した3番目の試練をクリアし鍵を獲得"
+        },
+        "koreana": {
+          "name": "고양이와 박쥐",
+          "description": "3번째 리들러의 시험을 완료해 열쇠를 획득하십시오."
+        },
+        "polish": {
+          "name": "Kot i nietoperz",
+          "description": "Uzyskaj klucz, wykonując trzecią próbę Człowieka-Zagadki."
+        },
+        "russian": {
+          "name": "Кошки-мышки",
+          "description": "Пройти третье испытание Загадочника и добыть ключ."
+        },
+        "schinese": {
+          "name": "猫与蝙蝠",
+          "description": "完成第三个谜语人试炼获得一枚钥匙"
+        },
+        "spanish": {
+          "name": "La gata y el murciélago",
+          "description": "Consigue una llave completando la tercera prueba de Riddler."
+        }
+      }
+    },
+    "EACID_OT_Rite_of_Passage": {
+      "translations": {
+        "brazilian": {
+          "name": "Queimando Pneu",
+          "description": "Consiga 3 minutos de derrapagem no Batmóvel."
+        },
+        "english": {
+          "name": "Dirty Tricks",
+          "description": "Achieve 3 minutes of drifting time in the Batmobile."
+        },
+        "french": {
+          "name": "Gomme brûlée",
+          "description": "Totalisez 3 minutes de dérapage avec la Batmobile."
+        },
+        "german": {
+          "name": "Schmutzige Tricks",
+          "description": "Drifte mit dem Batmobil über einen Zeitraum von insgesamt 3 Minuten."
+        },
+        "italian": {
+          "name": "Sporchi trucchi",
+          "description": "Raggiungi 3 minuti di derapate con la Batmobile."
+        },
+        "japanese": {
+          "name": "自慢の車",
+          "description": "バットモービルでドリフトに合計3分間成功"
+        },
+        "koreana": {
+          "name": "서커스",
+          "description": "배트모빌로 드리프트 시간을 총 3분 달성하십시오."
+        },
+        "polish": {
+          "name": "Pal gumy",
+          "description": "Driftuj batmobilem przez 3 minuty."
+        },
+        "russian": {
+          "name": "Подлые уловки",
+          "description": "Провести в заносе на Бэтмобиле 3 минуты в сумме."
+        },
+        "schinese": {
+          "name": "小人伎俩",
+          "description": "用蝙蝠车达成3分钟的漂移时间"
+        },
+        "spanish": {
+          "name": "Trucos sucios",
+          "description": "Acumula tres minutos de derrape con el batmóvil."
+        }
+      }
+    },
+    "EACID_MW_Scar_of_the_Bat": {
+      "translations": {
+        "brazilian": {
+          "name": "Os Intocáveis",
+          "description": "Cure o doutor."
+        },
+        "english": {
+          "name": "Scar of the Bat",
+          "description": "Cure the doctor."
+        },
+        "french": {
+          "name": "Mordu de chauves-souris",
+          "description": "Soignez le docteur."
+        },
+        "german": {
+          "name": "Fledermausnarbe",
+          "description": "Heile den Doktor."
+        },
+        "italian": {
+          "name": "Pazzo per i pipistrelli",
+          "description": "Cura il dottore."
+        },
+        "japanese": {
+          "name": "傷ついたコウモリ",
+          "description": "博士の傷を癒す"
+        },
+        "koreana": {
+          "name": "박쥐의 흉터",
+          "description": "의사를 치료하십시오."
+        },
+        "polish": {
+          "name": "Blizna nietoperza",
+          "description": "Ulecz doktora."
+        },
+        "russian": {
+          "name": "Бэт-шрамы",
+          "description": "Вылечить доктора."
+        },
+        "schinese": {
+          "name": "蝙蝠之殇",
+          "description": "治愈博士"
+        },
+        "spanish": {
+          "name": "La cicatriz del murciélago",
+          "description": "Cura al médico."
+        }
+      }
+    },
+    "EACID_OT_Seduction_of_the_Gun": {
+      "translations": {
+        "brazilian": {
+          "name": "Arma Sedutora",
+          "description": "Consiga 50 tiros críticos contra tanques leves."
+        },
+        "english": {
+          "name": "Seduction of the Gun",
+          "description": "Achieve 50 critical shots on light tanks."
+        },
+        "french": {
+          "name": "Dans le mille",
+          "description": "Exécutez 50 tirs critiques sur des tanks légers."
+        },
+        "german": {
+          "name": "Schützenkönig",
+          "description": "Erziele 50 kritische Treffer bei leichten Panzern."
+        },
+        "italian": {
+          "name": "Centra il bersaglio",
+          "description": "Metti a segno 50 colpi critici sui blindati leggeri."
+        },
+        "japanese": {
+          "name": "魅惑の銃",
+          "description": "軽戦車に50発のクリティカル・ショットを命中させる"
+        },
+        "koreana": {
+          "name": "목표 발견",
+          "description": "경전차에 50회 치명타를 달성하십시오."
+        },
+        "polish": {
+          "name": "Na celowniku",
+          "description": "Wykonaj 50 trafień krytycznych w lekkie czołgi."
+        },
+        "russian": {
+          "name": "Тяга к оружию",
+          "description": "Набрать 50 критических попаданий в легкие танки."
+        },
+        "schinese": {
+          "name": "机炮的诱惑",
+          "description": "对轻型坦克射出50次暴击"
+        },
+        "spanish": {
+          "name": "El rastro de la pólvora",
+          "description": "Consigue 50 impactos críticos contra tanques ligeros."
+        }
+      }
+    },
+    "EACID_OT_Sins_of_Youth": {
+      "translations": {
+        "brazilian": {
+          "name": "Pecados da Juventude",
+          "description": "Conquiste 23 estrelas em Desafios de RA."
+        },
+        "english": {
+          "name": "Sins of Youth",
+          "description": "Achieve 23 Stars in AR Challenges."
+        },
+        "french": {
+          "name": "Erreurs de jeunesse",
+          "description": "Obtenez 23 étoiles dans les défis R.A."
+        },
+        "german": {
+          "name": "Jugendsünden",
+          "description": "Erziele 23 Sterne in ER-Herausforderungen."
+        },
+        "italian": {
+          "name": "Peccati di gioventù",
+          "description": "Ottieni 23 stelle nelle Sfide RA."
+        },
+        "japanese": {
+          "name": "若気の至り",
+          "description": "ARチャレンジで23のスターを獲得"
+        },
+        "koreana": {
+          "name": "어린 시절의 죄",
+          "description": "증강 현실 도전을 통해 총 23개의 별을 획득하십시오."
+        },
+        "polish": {
+          "name": "Grzechy młodości",
+          "description": "Uzyskaj 23 gwiazdy w wyzwaniach RR."
+        },
+        "russian": {
+          "name": "Грехи юности",
+          "description": "Набрать 23 звезды в испытаниях ДР."
+        },
+        "schinese": {
+          "name": "青年之罪",
+          "description": "在AR挑战中获得23颗星"
+        },
+        "spanish": {
+          "name": "Pecados de juventud",
+          "description": "Consigue 23 estrellas en desafíos de RA."
+        }
+      }
+    },
+    "EACID_MP_Strange_Deadfellows": {
+      "translations": {
+        "brazilian": {
+          "name": "O Beijo da Morte",
+          "description": "Ative as contramedidas para o Dispositivo de Precipitação."
+        },
+        "english": {
+          "name": "Strange Deadfellows",
+          "description": "Deploy the Cloudburst countermeasures."
+        },
+        "french": {
+          "name": "Alerte météo",
+          "description": "Déployez les contremesures du Déluge."
+        },
+        "german": {
+          "name": "Ein merkwürdiges Gespann",
+          "description": "Aktiviere die Cloudburst-Gegenmaßnahmen."
+        },
+        "italian": {
+          "name": "Allerta meteo",
+          "description": "Aziona le contromisure per il Nubifragio."
+        },
+        "japanese": {
+          "name": "意外な連携",
+          "description": "クラウド・バーストへの対抗手段を仕掛ける"
+        },
+        "koreana": {
+          "name": "기이하게 죽은 사람들",
+          "description": "클라우드버스트 대책을 실행하십시오."
+        },
+        "polish": {
+          "name": "Dziwne trupy",
+          "description": "Zastosuj środki zaradcze przeciwko Rozpylaczowi."
+        },
+        "russian": {
+          "name": "Не везет в смерти",
+          "description": "Принять меры против Шквального ливня."
+        },
+        "schinese": {
+          "name": "奇怪的伙伴",
+          "description": "部署云爆反制措施"
+        },
+        "spanish": {
+          "name": "Extraños compañeros de tumba",
+          "description": "Despliega las defensas contra el aguacero."
+        }
+      }
+    },
+    "EACID_MW_Streets_of_Gotham": {
+      "translations": {
+        "brazilian": {
+          "name": "Ruas de Gotham",
+          "description": "Destrua todos os pontos de controle da milícia."
+        },
+        "english": {
+          "name": "Streets of Gotham",
+          "description": "Destroy all of the militia checkpoints."
+        },
+        "french": {
+          "name": "Rues de Gotham",
+          "description": "Détruisez tous les postes de contrôle de la milice."
+        },
+        "german": {
+          "name": "Die Straßen Gothams",
+          "description": "Zerstöre alle Checkpoints der Miliz."
+        },
+        "italian": {
+          "name": "Le strade di Gotham",
+          "description": "Distruggi tutti i posti di blocco della milizia."
+        },
+        "japanese": {
+          "name": "ゴッサムの路上で",
+          "description": "軍のチェックポイントを全て破壊"
+        },
+        "koreana": {
+          "name": "고담의 거리",
+          "description": "모든 민병대 검문소를 파괴하십시오."
+        },
+        "polish": {
+          "name": "Ulice Gotham",
+          "description": "Zniszcz wszystkie punkty kontrolne milicji."
+        },
+        "russian": {
+          "name": "Улицы Готэма",
+          "description": "Разгромить все блокпосты боевиков."
+        },
+        "schinese": {
+          "name": "哥谭街道",
+          "description": "摧毁所有的叛兵检查站"
+        },
+        "spanish": {
+          "name": "Calles de Gotham",
+          "description": "Destruye todos los puntos de control de la milicia."
+        }
+      }
+    },
+    "EACID_RI_The_Burning_Question": {
+      "translations": {
+        "brazilian": {
+          "name": "A Pergunta Picante",
+          "description": "Consiga uma chave ao concluir o quinto teste do Charada."
+        },
+        "english": {
+          "name": "The Burning Question",
+          "description": "Obtain a key by completing the fifth Riddler trial."
+        },
+        "french": {
+          "name": "Question brûlante",
+          "description": "Obtenez une clé en terminant la cinquième épreuve de l'Homme-mystère."
+        },
+        "german": {
+          "name": "Brennende Frage",
+          "description": "Erhalte einen Schlüssel, indem du die fünfte von Riddlers Prüfungen bestehst."
+        },
+        "italian": {
+          "name": "Domanda a bruciapelo",
+          "description": "Ricevi una chiave completando la quinta prova dell'Enigmista."
+        },
+        "japanese": {
+          "name": "燃えるリドル",
+          "description": "リドラーが用意した5番目の試練をクリアし鍵を獲得"
+        },
+        "koreana": {
+          "name": "뜨거운 감자",
+          "description": "5번째 리들러의 시험을 완료해 열쇠를 획득하십시오."
+        },
+        "polish": {
+          "name": "Palące pytanie",
+          "description": "Uzyskaj klucz, wykonując piątą próbę Człowieka-Zagadki."
+        },
+        "russian": {
+          "name": "Больной вопрос",
+          "description": "Пройти пятое испытание Загадочника и добыть ключ."
+        },
+        "schinese": {
+          "name": "燃烧的疑问",
+          "description": "完成第五个谜语人试炼获得一枚钥匙"
+        },
+        "spanish": {
+          "name": "Pregunta candente",
+          "description": "Consigue una llave completando la quinta prueba de Riddler."
+        }
+      }
+    },
+    "EACID_MW_The_Cult": {
+      "translations": {
+        "brazilian": {
+          "name": "O Culto",
+          "description": "Salve a vítima do sacrifício e prenda o executor no DPGC."
+        },
+        "english": {
+          "name": "The Cult",
+          "description": "Save the sacrificial victim and lock up the executioner in GCPD."
+        },
+        "french": {
+          "name": "Enfer blanc",
+          "description": "Sauvez la victime du sacrifice et livrez son bourreau au G.C.P.D."
+        },
+        "german": {
+          "name": "Der Kult",
+          "description": "Rette das rituelle Opfer und sperre den Verantwortlichen im GCPD ein."
+        },
+        "italian": {
+          "name": "La setta",
+          "description": "Salva la vittima sacrificale e rinchiudi il colpevole al commissariato."
+        },
+        "japanese": {
+          "name": "カルト",
+          "description": "生贄にされそうな人物を助け出し犯人をゴッサム市警へ収監"
+        },
+        "koreana": {
+          "name": "사이비 종교",
+          "description": "제물을 구출하고 처형인을 GCPD에 가두십시오."
+        },
+        "polish": {
+          "name": "Kult",
+          "description": "Uratuj ofiarę i zamknij kata w areszcie."
+        },
+        "russian": {
+          "name": "Секта",
+          "description": "Спасти жертву от жертвоприношения и доставить палача в полицейское управление."
+        },
+        "schinese": {
+          "name": "狂热宗教",
+          "description": "拯救献祭受害者并将行刑者关进哥谭警局"
+        },
+        "spanish": {
+          "name": "The Cult",
+          "description": "Salva a la víctima del sacrificio y encierra al ejecutor en la comisaría."
+        }
+      }
+    },
+    "EACID_MP_The_Frequency_of_Fear": {
+      "translations": {
+        "brazilian": {
+          "name": "A Frequência do Medo",
+          "description": "Examine Gotham City para determinar a localização do Espantalho."
+        },
+        "english": {
+          "name": "The Frequency of Fear",
+          "description": "Scan Gotham City to pinpoint Scarecrow's location."
+        },
+        "french": {
+          "name": "La fréquence de la peur",
+          "description": "Scannez Gotham City pour localiser l'Épouvantail."
+        },
+        "german": {
+          "name": "Die Frequenz der Angst",
+          "description": "Scanne Gotham City, um Scarecrows Aufenthaltsort zu bestimmen."
+        },
+        "italian": {
+          "name": "La frequenza del terrore",
+          "description": "Scansiona Gotham City per individuare la posizione dello Spaventapasseri."
+        },
+        "japanese": {
+          "name": "恐怖の周波数",
+          "description": "ゴッサム・シティをスキャンしてスケアクロウの居場所を特定"
+        },
+        "koreana": {
+          "name": "공포의 주파수",
+          "description": "고담시를 스캔해 스케어크로우의 위치를 정확히 찾아내십시오."
+        },
+        "polish": {
+          "name": "Częstotliwość strachu",
+          "description": "Przeskanuj Gotham, aby odszukać Stracha na Wróble."
+        },
+        "russian": {
+          "name": "На частоте страха",
+          "description": "Просканировать Готэм и найти, где прячется Пугало."
+        },
+        "schinese": {
+          "name": "恐惧频率",
+          "description": "扫描哥谭市来定位稻草人"
+        },
+        "spanish": {
+          "name": "La frecuencia del miedo",
+          "description": "Escanea Gotham City hasta encontrar la ubicación del Espantapájaros."
+        }
+      }
+    },
+    "EACID_MP_The_Long_Halloween": {
+      "translations": {
+        "brazilian": {
+          "name": "O Longo Dia das Bruxas",
+          "description": "Wayne contra Crane na Nova História +."
+        },
+        "english": {
+          "name": "The Long Halloween",
+          "description": "Wayne vs Crane in New Story +."
+        },
+        "french": {
+          "name": "Un long Halloween",
+          "description": "Wayne contre Crane en Nouvelle Histoire +."
+        },
+        "german": {
+          "name": "Das lange Halloween",
+          "description": "Wayne vs. Crane in Neue Story +."
+        },
+        "italian": {
+          "name": "Il lungo Halloween",
+          "description": "Wayne vs. Crane in Nuova Storia +."
+        },
+        "japanese": {
+          "name": "ハロウィンの夜は長し",
+          "description": "はじめから +でウェインvsクレイン"
+        },
+        "koreana": {
+          "name": "롱 할로윈",
+          "description": "새 스토리 +에서 웨인과 크레인의 대결."
+        },
+        "polish": {
+          "name": "Długie Halloween",
+          "description": "Wayne kontra Crane w trybie Nowa Fabuła +."
+        },
+        "russian": {
+          "name": "Бесконечный Хэллоуин",
+          "description": "Уэйн против Крейна в Новом сюжете +."
+        },
+        "schinese": {
+          "name": "漫长的万圣夜",
+          "description": "在新故事+中以韦恩对战克莱恩"
+        },
+        "spanish": {
+          "name": "El largo Halloween",
+          "description": "Wayne contra Crane en Nueva historia +."
+        }
+      }
+    },
+    "EACID_RI_The_Primal_Riddle": {
+      "translations": {
+        "brazilian": {
+          "name": "Charada Primordial",
+          "description": "Consiga uma chave ao concluir o sexto teste do Charada."
+        },
+        "english": {
+          "name": "The Primal Riddle",
+          "description": "Obtain a key by completing the sixth Riddler trial."
+        },
+        "french": {
+          "name": "Énigme primaire",
+          "description": "Obtenez une clé en terminant la sixième épreuve de l'Homme-mystère."
+        },
+        "german": {
+          "name": "Das Ur-Rätsel",
+          "description": "Erhalte einen Schlüssel, indem du die sechste von Riddlers Prüfungen bestehst."
+        },
+        "italian": {
+          "name": "L'enigma primordiale",
+          "description": "Ricevi una chiave completando la sesta prova dell'Enigmista."
+        },
+        "japanese": {
+          "name": "原始的なリドル",
+          "description": "リドラーが用意した6番目の試練をクリアし鍵を獲得"
+        },
+        "koreana": {
+          "name": "태고의 수수께끼",
+          "description": "6번째 리들러의 시험을 완료해 열쇠를 획득하십시오."
+        },
+        "polish": {
+          "name": "Pierwotna zagadka",
+          "description": "Uzyskaj klucz, wykonując szóstą próbę Człowieka-Zagadki."
+        },
+        "russian": {
+          "name": "Вечный вопрос",
+          "description": "Пройти шестое испытание Загадочника и добыть ключ."
+        },
+        "schinese": {
+          "name": "原始谜题",
+          "description": "完成第六个谜语人试炼获得一枚钥匙"
+        },
+        "spanish": {
+          "name": "El acertijo fundamental",
+          "description": "Consigue una llave completando la sexta prueba de Riddler."
+        }
+      }
+    },
+    "EACID_OT_The_Real_Deal": {
+      "translations": {
+        "brazilian": {
+          "name": "Posso Ver os Documentos",
+          "description": "Dê golpes em 20 carros em movimento sem usar o Batmóvel."
+        },
+        "english": {
+          "name": "The Real Deal",
+          "description": "Takedown 20 moving cars without using the Batmobile."
+        },
+        "french": {
+          "name": "Papiers, s'il vous plaît",
+          "description": "Neutralisez 20 voitures roulantes sans utiliser la Batmobile."
+        },
+        "german": {
+          "name": "Beinhart",
+          "description": "Schalte 20 fahrende Wagen aus, ohne das Batmobil einzusetzen."
+        },
+        "italian": {
+          "name": "Patente e libretto",
+          "description": "Elimina 20 auto in marcia senza usare la Batmobile."
+        },
+        "japanese": {
+          "name": "そこの車　止まりなさい",
+          "description": "バットモービルを使わず20台の走行中車両をテイクダウン"
+        },
+        "koreana": {
+          "name": "불시 검문",
+          "description": "배트모빌을 사용하지 않고 이동하는 차량 20대를 테이크다운하십시오."
+        },
+        "polish": {
+          "name": "Papiery, proszę",
+          "description": "Zatrzymaj 20 poruszających się pojazdów bez pomocy batmobilu."
+        },
+        "russian": {
+          "name": "Единственный и неповторимый",
+          "description": "Нейтрализовать 20 движущихся машин без Бэтмобиля."
+        },
+        "schinese": {
+          "name": "来真的",
+          "description": "不使用蝙蝠车击破20辆移动中的车辆"
+        },
+        "spanish": {
+          "name": "Fuera de mi camino",
+          "description": "Elimina 20 coches en movimiento sin usar el batmóvil."
+        }
+      }
+    },
+    "EACID_RI_The_Riddle_Factory": {
+      "translations": {
+        "brazilian": {
+          "name": "Fábrica de Charadas",
+          "description": "Consiga uma chave ao concluir o oitavo teste do Charada."
+        },
+        "english": {
+          "name": "The Riddle Factory",
+          "description": "Obtain a key by completing the eighth Riddler trial."
+        },
+        "french": {
+          "name": "Énigmes à la chaîne",
+          "description": "Obtenez une clé en terminant la huitième épreuve de l'Homme-mystère."
+        },
+        "german": {
+          "name": "Die Rätselfabrik",
+          "description": "Erhalte einen Schlüssel, indem du die achte von Riddlers Prüfungen bestehst."
+        },
+        "italian": {
+          "name": "La fabbrica degli enigmi",
+          "description": "Ricevi una chiave completando l'ottava prova dell'Enigmista."
+        },
+        "japanese": {
+          "name": "リドル・ファクトリー",
+          "description": "リドラーが用意した8番目の試練をクリアし鍵を獲得"
+        },
+        "koreana": {
+          "name": "리들러 공장",
+          "description": "8번째 리들러의 시험을 완료해 열쇠를 획득하십시오."
+        },
+        "polish": {
+          "name": "Fabryka zagadek",
+          "description": "Uzyskaj klucz, wykonując ósmą próbę Człowieka-Zagadki."
+        },
+        "russian": {
+          "name": "Фабрика загадок",
+          "description": "Пройти восьмое испытание Загадочника и добыть ключ."
+        },
+        "schinese": {
+          "name": "谜语人工厂",
+          "description": "完成第八个谜语人试炼获得一枚钥匙"
+        },
+        "spanish": {
+          "name": "La fábrica de acertijos",
+          "description": "Consigue una llave completando la octava prueba de Riddler."
+        }
+      }
+    },
+    "EACID_RI_The_Riddle_Unanswered": {
+      "translations": {
+        "brazilian": {
+          "name": "Ponto de Impacto",
+          "description": "Realize 5 tiros perfeitos em seguida com a Arma Vulcan sem sofrer dano."
+        },
+        "english": {
+          "name": "Point of Impact",
+          "description": "Perform 5 perfect shots in a row with the Vulcan Gun without taking damage."
+        },
+        "french": {
+          "name": "Frappes chirurgicales",
+          "description": "Exécutez 5 tirs parfaits d'affilée avec le canon vulcain sans subir de dégâts."
+        },
+        "german": {
+          "name": "Präzisionsarbeit",
+          "description": "Erziele mit der Vulcan-Kanone 5 perfekte Schüsse in Folge, ohne Schaden zu nehmen."
+        },
+        "italian": {
+          "name": "Precisione chirurgica",
+          "description": "Esegui 5 colpi perfetti di fila con il Vulcan senza subire danni."
+        },
+        "japanese": {
+          "name": "百発百中",
+          "description": "ダメージを受けずにバルカン砲でパーフェクトショットを5回連続で行う"
+        },
+        "koreana": {
+          "name": "백발백중",
+          "description": "피해를 입지 않고, 벌컨포로 완벽한 사격을 연속 5회 가하십시오."
+        },
+        "polish": {
+          "name": "Punkt uderzenia",
+          "description": "Wykonaj 5 idealnych trafień z działka Vulcan, nie odnosząc obrażeń."
+        },
+        "russian": {
+          "name": "Точно в цель",
+          "description": "Сделать 5 идеальных выстрелов подряд из пушки \"Вулкан\", не понеся урона."
+        },
+        "schinese": {
+          "name": "撞击点",
+          "description": "保持无伤用蝙蝠车机炮使出5次完美射击"
+        },
+        "spanish": {
+          "name": "Punto de impacto",
+          "description": "Realiza cinco disparos perfectos seguidos con el cañón volcán sin recibir daño."
+        }
+      }
+    },
+    "EACID_MW_The_Road_Home": {
+      "translations": {
+        "brazilian": {
+          "name": "De Volta ao Lar",
+          "description": "Destrua todos os TMBs da milícia."
+        },
+        "english": {
+          "name": "The Road Home",
+          "description": "Destroy all of the militia APC's."
+        },
+        "french": {
+          "name": "Tas de ferraille",
+          "description": "Détruisez tous les blindés de la milice."
+        },
+        "german": {
+          "name": "Nachhauseweg",
+          "description": "Zerstöre alle Miliz-Panzerwagen."
+        },
+        "italian": {
+          "name": "Sfasciacarrozze",
+          "description": "Distruggi tutti i blindati della milizia."
+        },
+        "japanese": {
+          "name": "今帰るところ",
+          "description": "軍の輸送車を全て破壊"
+        },
+        "koreana": {
+          "name": "집으로 가는 길",
+          "description": "민병대 장갑차를 모두 파괴하십시오."
+        },
+        "polish": {
+          "name": "Droga do domu",
+          "description": "Zniszcz wszystkie transportery opancerzone milicji."
+        },
+        "russian": {
+          "name": "Дорога домой",
+          "description": "Уничтожить все БТРы боевиков."
+        },
+        "schinese": {
+          "name": "归家之路",
+          "description": "摧毁所有叛兵装甲车"
+        },
+        "spanish": {
+          "name": "El camino a casa",
+          "description": "Destruye todos los transportes de la milicia."
+        }
+      }
+    },
+    "EACID_RI_The_Road_to_Hell": {
+      "translations": {
+        "brazilian": {
+          "name": "Estrada para o Inferno",
+          "description": "Complete com sucesso o primeiro teste do Charada."
+        },
+        "english": {
+          "name": "The Road to Hell",
+          "description": "Successfully complete the first Riddler trial."
+        },
+        "french": {
+          "name": "Sur les chapeaux de roue",
+          "description": "Réussissez la première épreuve de l'Homme-mystère."
+        },
+        "german": {
+          "name": "Der Weg zur Hölle",
+          "description": "Schließe die erste Prüfung des Riddlers erfolgreich ab."
+        },
+        "italian": {
+          "name": "La strada per l'inferno",
+          "description": "Completa la prima prova dell'Enigmista."
+        },
+        "japanese": {
+          "name": "三途の川",
+          "description": "リドラーが用意した最初の試練をクリア"
+        },
+        "koreana": {
+          "name": "지옥으로 가는 길",
+          "description": "첫 번째 리들러의 시험을 성공적으로 완료하십시오."
+        },
+        "polish": {
+          "name": "Droga do piekła",
+          "description": "Ukończ pierwszą próbę Człowieka-Zagadki."
+        },
+        "russian": {
+          "name": "Дорога в ад",
+          "description": "Успешно пройти первое испытание Загадочника."
+        },
+        "schinese": {
+          "name": "地狱之路",
+          "description": "完成第一个谜语人试炼"
+        },
+        "spanish": {
+          "name": "El camino al Infierno",
+          "description": "Completa con éxito la primera prueba de Riddler."
+        }
+      }
+    },
+    "EACID_OT_The_Twilight_Kingdom": {
+      "translations": {
+        "brazilian": {
+          "name": "Voando pela Selva",
+          "description": "Passe voando embaixo de três pontes principais entre as ilhas em uma planagem contínua."
+        },
+        "english": {
+          "name": "Run Through the Jungle",
+          "description": "Fly under 3 main bridges between the islands in one continuous glide."
+        },
+        "french": {
+          "name": "Vol de nuit",
+          "description": "Planez sous 3 grands ponts entre les îles sans poser pied à terre."
+        },
+        "german": {
+          "name": "Spießrutenflug",
+          "description": "Fliege in einem fortlaufenden Gleitflug unter drei Hauptbrücken zwischen den Inseln hindurch."
+        },
+        "italian": {
+          "name": "Volo nella notte",
+          "description": "Vola sotto i 3 ponti principali tra le isole in una sola planata continua."
+        },
+        "japanese": {
+          "name": "無法地帯を駆け抜けろ",
+          "description": "1回のグライドを持続させながら島々にかかる3つの主要な橋をくぐり抜ける"
+        },
+        "koreana": {
+          "name": "밀림 속으로",
+          "description": "고담을 연결하는 3개의 주요 다리 아래를 1회의 활공으로 지나가십시오."
+        },
+        "polish": {
+          "name": "Bieg przez dżunglę",
+          "description": "Podczas jednego szybowania przeleć pod 3 głównymi mostami między wyspami."
+        },
+        "russian": {
+          "name": "Бег по джунглям",
+          "description": "За один прием пролететь под 3 главными мостами между островами."
+        },
+        "schinese": {
+          "name": "奔跑穿过树林",
+          "description": "在一次不间断的滑翔中飞跃过岛之间的三个主桥"
+        },
+        "spanish": {
+          "name": "Vuela por la jungla",
+          "description": "Vuela por debajo de tres de los puentes principales de las islas en un solo planeo continuo."
+        }
+      }
+    },
+    "EACID_MW_Touch_of_Death": {
+      "translations": {
+        "brazilian": {
+          "name": "Toque Mortal",
+          "description": "Detenha o negociante de armas e o prenda no DPGC."
+        },
+        "english": {
+          "name": "Touch of Death",
+          "description": "Apprehend the weapons dealer and lock him up in GCPD."
+        },
+        "french": {
+          "name": "Désarmé",
+          "description": "Appréhendez le trafiquant d'armes et livrez-le au G.C.P.D."
+        },
+        "german": {
+          "name": "Eine Prise Tod",
+          "description": "Nimm den Waffenhändler fest und sperre ihn im GCPD ein."
+        },
+        "italian": {
+          "name": "Mondo freddo",
+          "description": "Cattura il trafficante d'armi e rinchiudilo al commissariato."
+        },
+        "japanese": {
+          "name": "丸腰の武器商人",
+          "description": "武器商人を捕らえゴッサム市警に収監"
+        },
+        "koreana": {
+          "name": "죽음의 손길",
+          "description": "무기상을 체포해 GCPD에 가두십시오."
+        },
+        "polish": {
+          "name": "Dotyk śmierci",
+          "description": "Pojmij sprzedawcę broni i zamknij go w areszcie."
+        },
+        "russian": {
+          "name": "Рука смерти",
+          "description": "Задержать торговца оружием и доставить в полицейское управление."
+        },
+        "schinese": {
+          "name": "死亡的碰触",
+          "description": "逮捕武器贩子并将他关进哥谭警局"
+        },
+        "spanish": {
+          "name": "Contacto mortal",
+          "description": "Detén al traficante de armas y enciérralo en la comisaría."
+        }
+      }
+    },
+    "EACID_MP_Trail_of_Fear": {
+      "translations": {
+        "brazilian": {
+          "name": "Trilha do Medo",
+          "description": "Prenda seu primeiro supervilão no DPGC."
+        },
+        "english": {
+          "name": "Trail of Fear",
+          "description": "Lock up your first Supervillain in GCPD."
+        },
+        "french": {
+          "name": "Craignez-moi",
+          "description": "Livrez votre premier super-vilain au G.C.P.D."
+        },
+        "german": {
+          "name": "Spur der Angst",
+          "description": "Sperre deinen ersten Superschurken im GCPD ein."
+        },
+        "italian": {
+          "name": "Scia di paura",
+          "description": "Rinchiudi il tuo primo super-criminale al commissariato."
+        },
+        "japanese": {
+          "name": "逃げるなら今のうち",
+          "description": "スーパーヴィランを1人ゴッサム市警に収監"
+        },
+        "koreana": {
+          "name": "공포의 서막",
+          "description": "첫 번째로 사로잡은 슈퍼빌런을 GCPD에 가두십시오."
+        },
+        "polish": {
+          "name": "Ślad strachu",
+          "description": "Zamknij pierwszego superprzestępcę w areszcie."
+        },
+        "russian": {
+          "name": "Всем бояться",
+          "description": "Доставить в полицейское управление первого суперзлодея."
+        },
+        "schinese": {
+          "name": "恐惧的试炼",
+          "description": "第一次将超级罪犯关入哥谭警局"
+        },
+        "spanish": {
+          "name": "El rastro del miedo",
+          "description": "Encierra a tu primer supervillano en la comisaría."
+        }
+      }
+    },
+    "EACID_MW_Two_Faces_of_Fear": {
+      "translations": {
+        "brazilian": {
+          "name": "Duas Faces do Medo!",
+          "description": "Detenha o roubo ao banco em Bleake Island."
+        },
+        "english": {
+          "name": "Two Faces of Fear!",
+          "description": "Stop the bank heist on Bleake Island."
+        },
+        "french": {
+          "name": "La peur aux deux visages",
+          "description": "Arrêtez les braqueurs de banque sur Bleake Island."
+        },
+        "german": {
+          "name": "Zwei Gesichter zum Fürchten!",
+          "description": "Stoppe den Banküberfall auf Bleake Island."
+        },
+        "italian": {
+          "name": "I due volti del terrore",
+          "description": "Sventa il colpo alla banca di Bleake Island."
+        },
+        "japanese": {
+          "name": "二面性の恐怖！",
+          "description": "Bleake Islandの銀行強盗を阻止"
+        },
+        "koreana": {
+          "name": "공포의 투페이스!",
+          "description": "블리크 아일랜드의 은행 강도를 저지하십시오."
+        },
+        "polish": {
+          "name": "Dwie Twarze strachu!",
+          "description": "Powstrzymaj skok na bank na wyspie Bleake Island."
+        },
+        "russian": {
+          "name": "Два лика страха",
+          "description": "Остановить ограбление банка на острове Блик."
+        },
+        "schinese": {
+          "name": "双面恐惧",
+          "description": "阻止布莱克岛上的银行抢劫"
+        },
+        "spanish": {
+          "name": "¡Las dos caras del miedo!",
+          "description": "Detén el atraco al banco en Bleake Island."
+        }
+      }
+    },
+    "EACID_MW_Two_Sides_of_the_Same_Coin": {
+      "translations": {
+        "brazilian": {
+          "name": "Dois Lados da Mesma Moeda!",
+          "description": "Detenha o roubo ao banco em Founders' Island."
+        },
+        "english": {
+          "name": "Two Sides of the Same Coin!",
+          "description": "Stop the bank heist on Founders' Island."
+        },
+        "french": {
+          "name": "Les deux côtés de la médaille",
+          "description": "Arrêtez les braqueurs de banque sur Founders' Island."
+        },
+        "german": {
+          "name": "Zwei Seiten derselben Medaille!",
+          "description": "Stoppe den Banküberfall auf Founders Island."
+        },
+        "italian": {
+          "name": "Testa o croce",
+          "description": "Sventa il colpo alla banca di Founders' Island."
+        },
+        "japanese": {
+          "name": "表裏一体！",
+          "description": "Founders' Islandの銀行強盗を阻止"
+        },
+        "koreana": {
+          "name": "같은 동전의 두 개의 면!",
+          "description": "파운더스 아일랜드의 은행 강도를 저지하십시오."
+        },
+        "polish": {
+          "name": "Dwie strony tego samego medalu!",
+          "description": "Powstrzymaj skok na bank na wyspie Founders' Island."
+        },
+        "russian": {
+          "name": "Орел и решка",
+          "description": "Остановить ограбление банка на острове Основателей."
+        },
+        "schinese": {
+          "name": "硬币的正反面",
+          "description": "阻止方德斯岛上的银行抢劫"
+        },
+        "spanish": {
+          "name": "Las dos caras de la misma moneda",
+          "description": "Detén el atraco al banco en Founders' Island."
+        }
+      }
+    },
+    "EACID_OT_Unseen": {
+      "translations": {
+        "brazilian": {
+          "name": "O Arsenal",
+          "description": "Use as cinco armas do Batmóvel em uma batalha contra tanques."
+        },
+        "english": {
+          "name": "Choice of Weapons",
+          "description": "Use all five Batmobile weapons successfully in one tank battle."
+        },
+        "french": {
+          "name": "Armé jusqu'aux dents",
+          "description": "Utilisez successivement les cinq armes de la Batmobile dans un combat contre des tanks."
+        },
+        "german": {
+          "name": "Waffenwahl",
+          "description": "Setze in einer Panzerschlacht alle fünf Waffen des Batmobils erfolgreich ein."
+        },
+        "italian": {
+          "name": "Armato fino ai denti",
+          "description": "Usa con successo tutte le cinque armi della Batmobile in una sola battaglia contro un blindato."
+        },
+        "japanese": {
+          "name": "選び放題",
+          "description": "1回の戦車戦の間に　バットモービルの武器を5種類全て使用し成功させる"
+        },
+        "koreana": {
+          "name": "완벽한 무장",
+          "description": "1회의 전차 전투에서 5개의 모든 배트모빌 무기를 성공적으로 사용하십시오."
+        },
+        "polish": {
+          "name": "Wybór broni",
+          "description": "Pomyślnie użyj wszystkich pięciu broni zamontowanych w batmobilu podczas jednej potyczki z czołgami."
+        },
+        "russian": {
+          "name": "Арсенал",
+          "description": "Успешно использовать все 5 орудий Бэтмобиля в одном танковом бою."
+        },
+        "schinese": {
+          "name": "武器之选",
+          "description": "在一场坦克战中成功使用5种蝙蝠车武器"
+        },
+        "spanish": {
+          "name": "Armado hasta los dientes",
+          "description": "Usa con éxito las cinco armas del batmóvil en un mismo combate contra tanques."
+        }
+      }
+    },
+    "EACID_MP_Who_Rules_The_Night": {
+      "translations": {
+        "brazilian": {
+          "name": "Quem Manda na Noite",
+          "description": "Batman contra o Cavaleiro de Arkham."
+        },
+        "english": {
+          "name": "Who Rules The Night",
+          "description": "Batman vs the Arkham Knight."
+        },
+        "french": {
+          "name": "Duel au sommet",
+          "description": "Batman contre le Chevalier d'Arkham."
+        },
+        "german": {
+          "name": "Herrscher der Nacht",
+          "description": "Batman gegen den Arkham Knight."
+        },
+        "italian": {
+          "name": "Scontro tra titani",
+          "description": "Batman vs. il Cavaliere di Arkham."
+        },
+        "japanese": {
+          "name": "夜を支配するのは",
+          "description": "バットマンvsアーカム・ナイト"
+        },
+        "koreana": {
+          "name": "밤을 지배하는 자",
+          "description": "배트맨과 아캄 나이트의 대결."
+        },
+        "polish": {
+          "name": "Kto rządzi nocą",
+          "description": "Batman kontra Rycerz Arkham."
+        },
+        "russian": {
+          "name": "За главенство в ночи",
+          "description": "Бэтмен против Рыцаря Аркхема."
+        },
+        "schinese": {
+          "name": "夜的统治者",
+          "description": "蝙蝠侠对战阿卡姆骑士"
+        },
+        "spanish": {
+          "name": "El verdadero señor de la noche",
+          "description": "Batman contra el Caballero de Arkham."
+        }
+      }
+    },
+    "EACID_MP_With_a_Vengeance": {
+      "translations": {
+        "brazilian": {
+          "name": "Vingança Máxima!",
+          "description": "Enfrente os reforços de artilharia pesada."
+        },
+        "english": {
+          "name": "With a Vengeance!",
+          "description": "Take on the heavy artillery reinforcements."
+        },
+        "french": {
+          "name": "Mettez le paquet !",
+          "description": "Repoussez les renforts d'artillerie lourde."
+        },
+        "german": {
+          "name": "Mit aller Macht!",
+          "description": "Nimm es mit der Verstärkung durch schwere Artillerie auf."
+        },
+        "italian": {
+          "name": "Vendetta!",
+          "description": "Respingi i rinforzi di artiglieria pesante."
+        },
+        "japanese": {
+          "name": "返り討ち！",
+          "description": "重火器を備えた敵の援軍を打倒"
+        },
+        "koreana": {
+          "name": "치열한 전투",
+          "description": "중화기 지원군과 대결하십시오."
+        },
+        "polish": {
+          "name": "Bez litości!",
+          "description": "Zneutralizuj ciężką artylerię."
+        },
+        "russian": {
+          "name": "Мало не покажется!",
+          "description": "Уничтожить первый тяжелый танк."
+        },
+        "schinese": {
+          "name": "复仇！",
+          "description": "干掉重型坦克"
+        },
+        "spanish": {
+          "name": "¡Con toda la fuerza!",
+          "description": "Acaba con los refuerzos de artillería pesada."
+        }
+      }
+    },
+    "EACID_DLCBatGirl_Colletable": {
+      "translations": {
+        "brazilian": {
+          "name": "Uma Lâmina de Lembranças",
+          "description": "Destrua todas as Dentaduras, Balões e Brinquedos de Mola."
+        },
+        "english": {
+          "name": "A Blade of Memory",
+          "description": "Destroy all Teeth, Balloons and Jack-In-The-Boxes."
+        },
+        "french": {
+          "name": "Produits dérivés",
+          "description": "Détruisez tous les dentiers, ballons et boîtes-surprises."
+        },
+        "german": {
+          "name": "Klinge der Erinnerung",
+          "description": "Zerstöre alle Zähne, Ballons und Springteufel."
+        },
+        "italian": {
+          "name": "Ricordi dolorosi",
+          "description": "Distruggi tutte le dentiere, i palloncini e le scatole magiche."
+        },
+        "japanese": {
+          "name": "記憶の刃",
+          "description": "歯　風船　びっくり箱を全て破壊"
+        },
+        "koreana": {
+          "name": "추억의 칼날",
+          "description": "모든 틀니, 풍선, 장난감 상자를 파괴하십시오."
+        },
+        "polish": {
+          "name": "Ostrze pamięci",
+          "description": "Zniszcz wszystkie gryziszczęki, balony i pajacyki z pudełka."
+        },
+        "russian": {
+          "name": "Острие памяти",
+          "description": "Уничтожить все зубы, воздушные шары и чертиков из табакерки."
+        },
+        "schinese": {
+          "name": "记忆之刃",
+          "description": "摧毁所有的牙齿、气球和小丑盒"
+        },
+        "spanish": {
+          "name": "El destello de un recuerdo",
+          "description": "Destruye todos los globos, dentaduras y cajas sorpresa."
+        }
+      }
+    },
+    "EACID_DLCBatGirl_HostageMerryGoRound": {
+      "translations": {
+        "brazilian": {
+          "name": "Uma Casa de Fibra de Vidro",
+          "description": "Liberte os reféns no Carrossel."
+        },
+        "english": {
+          "name": "A House Made of Spun Glass",
+          "description": "Free the hostages at the Merry-go-round."
+        },
+        "french": {
+          "name": "Tournez manège",
+          "description": "Libérez les otages du manège."
+        },
+        "german": {
+          "name": "Ein Haus aus Glaswolle",
+          "description": "Befreie die Geiseln beim Karussell."
+        },
+        "italian": {
+          "name": "Trappola di cristallo",
+          "description": "Libera gli ostaggi nella giostra."
+        },
+        "japanese": {
+          "name": "目が回る",
+          "description": "メリーゴーランドの人質を解放"
+        },
+        "koreana": {
+          "name": "실유리로 지은 집",
+          "description": "회전목마의 인질을 풀어주십시오."
+        },
+        "polish": {
+          "name": "Dom z przędzy szklanej",
+          "description": "Uwolnij zakładników z karuzeli."
+        },
+        "russian": {
+          "name": "Дом из стеклянных нитей",
+          "description": "Освободить заложников с карусели."
+        },
+        "schinese": {
+          "name": "玻璃纤维房子",
+          "description": "拯救旋转木马的人质"
+        },
+        "spanish": {
+          "name": "Una casa de cristal",
+          "description": "Libera a los rehenes del tiovivo."
+        }
+      }
+    },
+    "EACID_DLCBatGirl_HostageFerrisWheel": {
+      "translations": {
+        "brazilian": {
+          "name": "Fogo no Paraíso",
+          "description": "Liberte os reféns na Roda Gigante."
+        },
+        "english": {
+          "name": "A Fire in the Heavens",
+          "description": "Free the hostages at the Ferris Wheel."
+        },
+        "french": {
+          "name": "La roue tourne",
+          "description": "Libérez les otages de la grande roue."
+        },
+        "german": {
+          "name": "Himmelsfeuer",
+          "description": "Befreie die Geiseln beim Riesenrad."
+        },
+        "italian": {
+          "name": "Cieli di fuoco",
+          "description": "Libera gli ostaggi alla ruota panoramica."
+        },
+        "japanese": {
+          "name": "降ろしてくれ",
+          "description": "観覧車の人質を解放"
+        },
+        "koreana": {
+          "name": "하늘의 화재",
+          "description": "관람차의 인질을 풀어주십시오."
+        },
+        "polish": {
+          "name": "Ogień w niebiosach",
+          "description": "Uwolnij zakładników z diabelskiego młyna."
+        },
+        "russian": {
+          "name": "Пылающие небеса",
+          "description": "Освободить заложников с колеса обозрения."
+        },
+        "schinese": {
+          "name": "天堂烈火",
+          "description": "拯救摩天轮上的人质"
+        },
+        "spanish": {
+          "name": "Incendio en los cielos",
+          "description": "Libera a los rehenes de la noria."
+        }
+      }
+    },
+    "EACID_DLCBatGirl_HostageGhostShip": {
+      "translations": {
+        "brazilian": {
+          "name": "Os Peixes Sorridentes!",
+          "description": "Liberte os reféns no Navio Fantasma."
+        },
+        "english": {
+          "name": "The Laughing Fish!",
+          "description": "Free the hostages at the Ghost Ship."
+        },
+        "french": {
+          "name": "Débarquement",
+          "description": "Libérez les otages du bateau fantôme."
+        },
+        "german": {
+          "name": "Der lachende Fisch!",
+          "description": "Befreie die Geiseln beim Geisterschiff."
+        },
+        "italian": {
+          "name": "I pesci che ridono",
+          "description": "Libera gli ostaggi al vascello fantasma."
+        },
+        "japanese": {
+          "name": "幽霊が出る前に",
+          "description": "幽霊船の人質を解放"
+        },
+        "koreana": {
+          "name": "즐거워하는 물고기!",
+          "description": "유령선의 인질을 풀어주십시오."
+        },
+        "polish": {
+          "name": "Roześmiana ryba!",
+          "description": "Uwolnij zakładników ze statku widma."
+        },
+        "russian": {
+          "name": "Хохочущая рыба!",
+          "description": "Освободить заложников с корабля-призрака."
+        },
+        "schinese": {
+          "name": "讥笑鱼",
+          "description": "拯救幽灵船上的人质"
+        },
+        "spanish": {
+          "name": "¡El pez sonriente!",
+          "description": "Libera a los rehenes del barco fantasma."
+        }
+      }
+    },
+    "EACID_DLCBatGirl_JokerDefeated": {
+      "translations": {
+        "brazilian": {
+          "name": "Tal pai, tal filha",
+          "description": "Resgate seu pai."
+        },
+        "english": {
+          "name": "A Courtship of Razors",
+          "description": "Rescue your father."
+        },
+        "french": {
+          "name": "Tel père, telle fille",
+          "description": "Sauvez votre père."
+        },
+        "german": {
+          "name": "Rasiermesserbalz",
+          "description": "Rette deinen Vater."
+        },
+        "italian": {
+          "name": "Sul filo del rasoio",
+          "description": "Salva tuo padre."
+        },
+        "japanese": {
+          "name": "親子の絆",
+          "description": "父親を救出"
+        },
+        "koreana": {
+          "name": "면도날의 구애",
+          "description": "당신의 아버지를 구출하십시오."
+        },
+        "polish": {
+          "name": "Zaloty z brzytwami",
+          "description": "Uratuj ojca."
+        },
+        "russian": {
+          "name": "Сватовство маньяка",
+          "description": "Спасти отца."
+        },
+        "schinese": {
+          "name": "剃刀的求爱",
+          "description": "拯救你的父亲"
+        },
+        "spanish": {
+          "name": "De tal palo, tal astilla",
+          "description": "Rescata a tu padre."
+        }
+      }
+    },
+    "EACID_DLCBatGirl_ScareHackThugDefeated": {
+      "translations": {
+        "brazilian": {
+          "name": "Emboscada",
+          "description": "Derrote 4 inimigos durante um único efeito de susto."
+        },
+        "english": {
+          "name": "Ambush",
+          "description": "Defeat 4 enemies within the duration of a single scare effect."
+        },
+        "french": {
+          "name": "Embuscade",
+          "description": "Battez 4 ennemis sur la durée d'un seul effet de terreur."
+        },
+        "german": {
+          "name": "Hinterhalt",
+          "description": "Besiege 4 Gegner innerhalb der Wirkungsdauer eines einzigen Schreckmoments."
+        },
+        "italian": {
+          "name": "Imboscata",
+          "description": "Sconfiggi 4 nemici durante gli effetti di un singolo spavento."
+        },
+        "japanese": {
+          "name": "待ち伏せ",
+          "description": "敵を1回怖がらせた隙に 4 人倒す"
+        },
+        "koreana": {
+          "name": "매복",
+          "description": "공포 가스 지속되는 동안 적 4명을 쓰러뜨리십시오."
+        },
+        "polish": {
+          "name": "Zasadzka",
+          "description": "Pokonaj 4 wrogów będących jednocześnie pod wpływem przestraszenia."
+        },
+        "russian": {
+          "name": "Засада",
+          "description": "Победить врагов (4 чел.) за время действия одного эффекта страха."
+        },
+        "schinese": {
+          "name": "埋伏",
+          "description": "在一次恐惧效果持续时间内击倒四名敌人"
+        },
+        "spanish": {
+          "name": "Emboscada",
+          "description": "Derrota a 4 enemigos mientras estén amedrentados."
+        }
+      }
+    },
+    "EACID_DLCBatGirl_HackingThugDefeated": {
+      "translations": {
+        "brazilian": {
+          "name": "Estranhas Histórias de Guerra",
+          "description": "Derrote 15 inimigos usando qualquer tipo de invasão."
+        },
+        "english": {
+          "name": "Weird War Tales",
+          "description": "Defeat 15 enemies using any type of hacking."
+        },
+        "french": {
+          "name": "Piraterie",
+          "description": "Battez 15 ennemis avec n'importe quel type de piratage."
+        },
+        "german": {
+          "name": "Kuriose Kriegsgeschichten",
+          "description": "Besiege 15 Gegner mittels beliebigen Hacking-Methoden."
+        },
+        "italian": {
+          "name": "Guerra tecnologica",
+          "description": "Sconfiggi 15 nemici usando l'Infiltratore."
+        },
+        "japanese": {
+          "name": "サイバー攻撃",
+          "description": "ハッキング方法の中から1つを使って敵を 15 人倒す"
+        },
+        "koreana": {
+          "name": "이상한 전쟁 이야기",
+          "description": "해킹을 사용해 적 15명을 쓰러뜨리십시오."
+        },
+        "polish": {
+          "name": "Dziwne opowieści wojenne",
+          "description": "Pokonaj 15 wrogów za pomocą dowolnego hakowania."
+        },
+        "russian": {
+          "name": "Хроники странной войны",
+          "description": "Победить врагов (15 чел.) при помощи любого вида взлома."
+        },
+        "schinese": {
+          "name": "战争怪谈",
+          "description": "使用任一种黑客技术击倒15个敌人"
+        },
+        "spanish": {
+          "name": "Extrañas hazañas bélicas",
+          "description": "Derrota a 15 enemigos con cualquier tipo de pirateo."
+        }
+      }
+    },
+    "EACID_DLCBatGirl_HiddenTapes": {
+      "translations": {
+        "brazilian": {
+          "name": "Era uma vez",
+          "description": "Descubra a história secreta do parque."
+        },
+        "english": {
+          "name": "All Snug in Their Beds",
+          "description": "Uncover the secret history of the park."
+        },
+        "french": {
+          "name": "Il était une fois",
+          "description": "Découvrez l'histoire secrète du parc."
+        },
+        "german": {
+          "name": "In ihre Betten gekuschelt",
+          "description": "Decke die geheime Geschichte des Parks auf."
+        },
+        "italian": {
+          "name": "C'era una volta",
+          "description": "Scopri la storia del parco."
+        },
+        "japanese": {
+          "name": "真実は闇の中",
+          "description": "遊園地の隠された過去を解明"
+        },
+        "koreana": {
+          "name": "옛날 이야기",
+          "description": "공원의 비밀 역사를 밝혀내십시오."
+        },
+        "polish": {
+          "name": "Wtuleni w poduszkę",
+          "description": "Odkryj tajemnicę parku."
+        },
+        "russian": {
+          "name": "Спят усталые игрушки",
+          "description": "Раскрыть тайну парка."
+        },
+        "schinese": {
+          "name": "全都在床上安眠",
+          "description": "揭开公园的秘密历史"
+        },
+        "spanish": {
+          "name": "Metiditos en la cama",
+          "description": "Descubre la historia secreta del parque."
+        }
+      }
+    },
+    "EACID_DLCHarley_NightwingDefeated": {
+      "translations": {
+        "brazilian": {
+          "name": "Maluca com a Prisão",
+          "description": "Resgate sua amiga."
+        },
+        "english": {
+          "name": "Cuckoo for Incarceration",
+          "description": "Rescue your friend."
+        },
+        "french": {
+          "name": "Poison break",
+          "description": "Sauvez votre amie."
+        },
+        "german": {
+          "name": "Ein Kuckuck fürs Kittchen",
+          "description": "Rette deinen Freund."
+        },
+        "italian": {
+          "name": "Dietro le sbarre",
+          "description": "Salva la tua amica."
+        },
+        "japanese": {
+          "name": "篭の中の鳥",
+          "description": "仲間を救出"
+        },
+        "koreana": {
+          "name": "감옥에 오래 있으면 미쳐요",
+          "description": "당신의 친구를 구출하십시오."
+        },
+        "polish": {
+          "name": "Ptaszek do klatki",
+          "description": "Uratuj przyjaciółkę."
+        },
+        "russian": {
+          "name": "Дурдом родной",
+          "description": "Спасти подругу."
+        },
+        "schinese": {
+          "name": "疯狂监禁",
+          "description": "拯救你的朋友"
+        },
+        "spanish": {
+          "name": "Musas de Gotham",
+          "description": "Rescata a tu amiga."
+        }
+      }
+    },
+    "EACID_DLCRedhood_BlackMaskDefeated": {
+      "translations": {
+        "brazilian": {
+          "name": "Contra o Capuz Vermelho",
+          "description": "Acabe com esta operação."
+        },
+        "english": {
+          "name": "Under The Red Hood",
+          "description": "Shut down this operation."
+        },
+        "french": {
+          "name": "Sous le masque rouge",
+          "description": "Mettez un terme à l'opération."
+        },
+        "german": {
+          "name": "Unter der roten Kapuze",
+          "description": "Bereite den Machenschaften ein Ende."
+        },
+        "italian": {
+          "name": "Sotto il Cappuccio Rosso",
+          "description": "Metti fine alle operazioni."
+        },
+        "japanese": {
+          "name": "赤いフードの下",
+          "description": "この作戦を阻止"
+        },
+        "koreana": {
+          "name": "레드 후드를 쓰고",
+          "description": "이 작전을 저지하십시오."
+        },
+        "polish": {
+          "name": "Pod czerwonym kapturem",
+          "description": "Zakończ tę operację."
+        },
+        "russian": {
+          "name": "Под красным капюшоном",
+          "description": "Сорвать торговлю оружием."
+        },
+        "schinese": {
+          "name": "红头罩之下",
+          "description": "捣毁敌人行动"
+        },
+        "spanish": {
+          "name": "Bajo la Capucha Roja",
+          "description": "Desbarata la operación."
+        }
+      }
+    },
+    "EACID_DLCBmobBurton_Street_Demonz": {
+      "translations": {
+        "brazilian": {
+          "name": "Demônios da rua",
+          "description": "Conquiste 33 estrelas em Desafios de RA usando o Batmóvel do filme de 1989."
+        },
+        "english": {
+          "name": "Street Demonz",
+          "description": "Achieve 33 Stars in AR Challenges using the 1989 Movie Batmobile."
+        },
+        "french": {
+          "name": "Street Demonz",
+          "description": "Obtenez 33 étoiles dans les défis en R.A. avec la Batmobile du film de 1989."
+        },
+        "german": {
+          "name": "Street Demonz",
+          "description": "Erziele 33 Sterne in ER-Herausforderungen mit dem 1989-Film Batmobil."
+        },
+        "italian": {
+          "name": "Street Demonz",
+          "description": "Ottieni 33 stelle nelle Sfide RA usando la Batmobile versione film del 1989."
+        },
+        "japanese": {
+          "name": "ストリート・デーモン",
+          "description": "1989年 映画版バットモービルを使いARチャレンジで33のスターを獲得"
+        },
+        "koreana": {
+          "name": "길거리 악마",
+          "description": "1989년도 영화 배트모빌로 증강 현실 도전에서 33개의 별을 획득."
+        },
+        "polish": {
+          "name": "Demoni ulicy",
+          "description": "Uzyskaj 33 gwiazdy w wyzwaniach RR używając batmobilu z filmu z 1989."
+        },
+        "russian": {
+          "name": "Уличные Демоны",
+          "description": "Набрать 33 звезды в испытаниях ДР, используя Бэтмобиль из фильма 1989 года."
+        },
+        "schinese": {
+          "name": "恶魔大街",
+          "description": "使用1989电影版蝙蝠车在AR挑战中获得33颗星"
+        },
+        "spanish": {
+          "name": "Demonios de la calle",
+          "description": "Obtén 33 estrellas en los desafíos de RA usando el batmóvil de la película de 1989."
+        }
+      }
+    },
+    "EACID_DLCBmobTumbler_Gangland_Express": {
+      "translations": {
+        "brazilian": {
+          "name": "Expresso Gangland",
+          "description": "Conquiste 33 estrelas em Desafios de RA usando o Tumbler Batmóvel de 2008."
+        },
+        "english": {
+          "name": "Gangland Express",
+          "description": "Achieve 33 Stars in AR Challenges using the 2008 Tumbler Batmobile."
+        },
+        "french": {
+          "name": "Gangland Express",
+          "description": "Obtenez 33 étoiles dans les défis en R.A. avec la Batmobile \"Tumbler\" de 2008."
+        },
+        "german": {
+          "name": "Gangland-Express",
+          "description": "Erziele 33 Sterne in ER-Herausforderungen mit dem 2008 Tumbler Batmobil."
+        },
+        "italian": {
+          "name": "Gangland Express",
+          "description": "Ottieni 33 stelle nelle Sfide RA usando la Batmobile Tumbler del 2008."
+        },
+        "japanese": {
+          "name": "ギャングランドエクスプレス",
+          "description": "2008年タンブラーバットモービルを使いARチャレンジで33のスターを獲得"
+        },
+        "koreana": {
+          "name": "암흑가 익스프레스",
+          "description": "2008년도 텀블러 배트모빌으로 플레이하여 증강 현실 도전에서 33개의 별을 획득"
+        },
+        "polish": {
+          "name": "Gangland express",
+          "description": "Uzyskaj 33 gwiazdy w wyzwaniach RR używając batmobilu Tumbler z 2008."
+        },
+        "russian": {
+          "name": "Гангстерский экспресс",
+          "description": "Набрать 33 звезды в испытаниях ДР, используя Бэтмобиль Тумблер 2008 года."
+        },
+        "schinese": {
+          "name": "黑帮特快",
+          "description": "使用2008版蝙蝠车在AR挑战中获得33颗星"
+        },
+        "spanish": {
+          "name": "Gangland Express",
+          "description": "Obtén 33 estrellas en los desafíos de RA usando el batmóvil acróbata del 2008."
+        }
+      }
+    },
+    "EACID_DLCStoryGCPD_Rough_Justice": {
+      "translations": {
+        "brazilian": {
+          "name": "Justiça Dura",
+          "description": "Evite que o Pinguim escape do DPGC."
+        },
+        "english": {
+          "name": "Rough Justice",
+          "description": "Stop Penguin's escape from GCPD."
+        },
+        "french": {
+          "name": "Rough Justice",
+          "description": "Empêchez le Pingouin de s'évader du G.C.P.D."
+        },
+        "german": {
+          "name": "Rough Justice",
+          "description": "Halte den Penguin auf, bevor er vom GCPD flüchtet."
+        },
+        "italian": {
+          "name": "Giustizia sommaria",
+          "description": "Ferma la fuga del Pinguino dal commissariato."
+        },
+        "japanese": {
+          "name": "ラフ・ジャスティス",
+          "description": "ゴッサム市警から逃亡するペンギンを阻止せよ"
+        },
+        "koreana": {
+          "name": "거친 정의",
+          "description": "펭귄이 GCPD에서 도망치는 것을 저지하십시오."
+        },
+        "polish": {
+          "name": "Rough Justice",
+          "description": "Powstrzymaj Pingwina przed ucieczką z GCPD."
+        },
+        "russian": {
+          "name": "Грубое правосудие",
+          "description": "Остановите побег Пингвина из полицейского управления."
+        },
+        "schinese": {
+          "name": "正义初始",
+          "description": "阻止企鹅人逃出哥谭警局"
+        },
+        "spanish": {
+          "name": "Justicia Dura",
+          "description": "Impide que el Pingüino escape de la comisaria."
+        }
+      }
+    },
+    "EACID_DLCBmobClassic_A_Cut_Above": {
+      "translations": {
+        "brazilian": {
+          "name": "Diversão",
+          "description": "Conquiste 33 estrelas nos Desafios de RA usando o Batmóvel da série de TV dos anos 60."
+        },
+        "english": {
+          "name": "Joy Ride",
+          "description": "Achieve 33 Stars in AR Challenges using the 1960's TV Series Batmobile."
+        },
+        "french": {
+          "name": "Rodéo aérien",
+          "description": "Obtenez 33 étoiles dans les défis en R.A. avec la Batmobile de la série télé des années 60."
+        },
+        "german": {
+          "name": "Wettlauf gegen die Zeit",
+          "description": "Erziele 33 Sterne in ER-Herausforderungen mit dem 1960er TV-Serie Batmobil."
+        },
+        "italian": {
+          "name": "Corsa nei cieli",
+          "description": "Ottieni 33 stelle nelle Sfide RA usando la Batmobile serie TV anni '60."
+        },
+        "japanese": {
+          "name": "ジョイ・ライド",
+          "description": "1960年代TVシリーズのバットモービルを使いARチャレンジで33のスターを獲得"
+        },
+        "koreana": {
+          "name": "조이 라이드",
+          "description": "1960년대 TV 시리즈 배트모빌을 이용하여 증강 현실 도전에서 33개의 별을 획득하십시오."
+        },
+        "polish": {
+          "name": "Szalona przejażdżka",
+          "description": "Uzyskaj 33 gwiazdy w wyzwaniach RR używając batmobilu z serialu TV z lat 60."
+        },
+        "russian": {
+          "name": "Авантюра",
+          "description": "Набрать 33 звезды в испытаниях ДР, используя Бэтмобиль из ТВ-сериала 60-х."
+        },
+        "schinese": {
+          "name": "惊心之旅",
+          "description": "使用60年代电视连续剧版蝙蝠车在AR挑战中获得33颗星"
+        },
+        "spanish": {
+          "name": "Un vuelo arriesgado",
+          "description": "Obtén 33 estrellas en los desafíos de RA usando el batmóvil sesentero."
+        }
+      }
+    },
+    "EACID_DLCStoryCatwoman_Final_Jeopardy": {
+      "translations": {
+        "brazilian": {
+          "name": "A Gata voltou",
+          "description": "Invada o esconderijo do Charada e realize sua vingança."
+        },
+        "english": {
+          "name": "The Cat Came Back",
+          "description": "Break into Riddler's secret hideout and exact your revenge."
+        },
+        "french": {
+          "name": "Le retour du chat",
+          "description": "Introduisez-vous dans le repaire secret de l'Homme-mystère pour prendre votre revanche."
+        },
+        "german": {
+          "name": "Catwomans Rache",
+          "description": "Breche in Riddlers geheimen Unterschlupf ein, um Rache auszuüben."
+        },
+        "italian": {
+          "name": "Il ritorno della Gatta",
+          "description": "Penetra nel nascondiglio segreto dell'Enigmista e prenditi la tua vendetta."
+        },
+        "japanese": {
+          "name": "戻ってきたキャット",
+          "description": "リドラーの秘密基地に侵入し復讐を果たす"
+        },
+        "koreana": {
+          "name": "캣우먼의 귀환",
+          "description": "리들러의 은신처를 습격하여 복수극을 펼치십시오."
+        },
+        "polish": {
+          "name": "Kotka powróciła",
+          "description": "Włam się do sekretnej kryjówki Człowieka-Zagadki i dokonaj zemsty"
+        },
+        "russian": {
+          "name": "Возвращение Кошки",
+          "description": "Проникните в тайное убежище Загадочника, чтобы отомстить."
+        },
+        "schinese": {
+          "name": "猫咪回归",
+          "description": "闯入谜语人的隐秘藏身所实现你的复仇"
+        },
+        "spanish": {
+          "name": "El regreso de la gata",
+          "description": "Irrumpe en el escondite secreto de Riddler y lleva a cabo tu venganza."
+        }
+      }
+    },
+    "EACID_DLCStoryTwoFace_Succession_Plans": {
+      "translations": {
+        "brazilian": {
+          "name": "Planos de Sucessão",
+          "description": "Invada Hell's Gate e prenda o Duas-Caras."
+        },
+        "english": {
+          "name": "Succession Plans",
+          "description": "Break into Hell's Gate HQ and apprehend Two-Face."
+        },
+        "french": {
+          "name": "Succession Plans",
+          "description": "Infiltrez le QG d'Hell's Gate et appréhendez Double-Face."
+        },
+        "german": {
+          "name": "Nachfolgeplanung",
+          "description": "Breche ins Hell's Gate-Hauptquartier ein und nehme Two-Face fest."
+        },
+        "italian": {
+          "name": "Piani di successione",
+          "description": "Irrompi nel QG di Hell's Gate e cattura Due Facce."
+        },
+        "japanese": {
+          "name": "後継者育成計画",
+          "description": "ヘルズゲート本社に潜入しトゥーフェイスと対決する"
+        },
+        "koreana": {
+          "name": "승계 계획",
+          "description": "헬즈 게이트 본부를 습격하여 투페이스를 체포하십시오."
+        },
+        "polish": {
+          "name": "Succession Plans",
+          "description": "Włam się do siedziby głównej Wrót Piekieł i aresztuj Dwie Twarze"
+        },
+        "russian": {
+          "name": "Планы преемственности",
+          "description": "Проникните в штаб-квартиру Хеллс Гейт и задержите Двуликого."
+        },
+        "schinese": {
+          "name": "接任计划",
+          "description": "闯入地狱之门总部并逮捕双面人"
+        },
+        "spanish": {
+          "name": "Succession Plans",
+          "description": "Irrumpe en la Puerta del Infierno y atrapa a Dos Caras."
+        }
+      }
+    },
+    "EACID_DLCBmobSnyder_The_Worlds_Finest": {
+      "translations": {
+        "brazilian": {
+          "name": "O Melhor do Mundo",
+          "description": "Conquiste 21 estrelas nos Desafios de RA usando o Batmóvel do filme Batman vs. Superman 2016."
+        },
+        "english": {
+          "name": "The World's Finest",
+          "description": "Achieve 21 Stars in AR Challenges using the 2016 Batman v Superman Batmobile."
+        },
+        "french": {
+          "name": "Le meilleur des mondes",
+          "description": "Obtenez 21 étoiles dans les défis en R.A. avec la Batmobile 2016 de Batman vs Superman."
+        },
+        "german": {
+          "name": "World's Finest",
+          "description": "Erziele 21 Sterne in ER-Herausforderungen mit dem 2016 Batman vs. Superman Batmobil."
+        },
+        "italian": {
+          "name": "I migliori del mondo",
+          "description": "Ottieni 21 stelle nelle Sfide RA usando la Batmobile Batman vs Superman del 2016."
+        },
+        "japanese": {
+          "name": "世界最高",
+          "description": "2016 バットマン vs スーパーマンのバットモービルを使いARチャレンジで21のスターを獲得"
+        },
+        "koreana": {
+          "name": "세계 최고의 영웅",
+          "description": "2016 배트맨 대 슈퍼맨 배트모빌로 증강 현실 도전에서 21개의 별을 획득하십시오."
+        },
+        "polish": {
+          "name": "The World's Finest",
+          "description": "Uzyskaj 21 gwiazd w wyzwaniach RR używając batmobilu Batman v Superman z 2016."
+        },
+        "russian": {
+          "name": "Непревзойденный",
+          "description": "Набрать 21 звезду в испытаниях ДР, используя Бэтмобиль Бэтмен против Супермена 2016"
+        },
+        "schinese": {
+          "name": "世界最佳搭档",
+          "description": "在AR挑战中用2016《蝙蝠侠大战超人》版蝙蝠车获得21颗星"
+        },
+        "spanish": {
+          "name": "The World's Finest",
+          "description": "Obtén 21 estrellas en los desafíos de RA usando el batmóvil de Batman vs Superman del 2016."
+        }
+      }
+    },
+    "EACID_DLCRobin_The_Big_Leagues": {
+      "translations": {
+        "brazilian": {
+          "name": "As Grandes Ligas",
+          "description": "Conquiste 21 estrelas nos Desafios de RA jogando como Robin."
+        },
+        "english": {
+          "name": "The Big Leagues",
+          "description": "Achieve 21 Stars in AR Challenges playing as Robin."
+        },
+        "french": {
+          "name": "The Big Leagues",
+          "description": "Obtenez 21 étoiles dans les défis en R.A. avec Robin."
+        },
+        "german": {
+          "name": "The Big Leagues",
+          "description": "Erziele 21 Sterne in ER-Herausforderungen als Robin."
+        },
+        "italian": {
+          "name": "The Big Leagues",
+          "description": "Ottieni 21 stelle nelle Sfide RA con Robin."
+        },
+        "japanese": {
+          "name": "ビッグリーグ",
+          "description": "ARチャレンジで21のスターを獲得（ロビンでプレイ）"
+        },
+        "koreana": {
+          "name": "빅 리그",
+          "description": "로빈으로 플레이하여 증강 현실 도전에서 21개의 별을 획득하십시오."
+        },
+        "polish": {
+          "name": "The Big Leagues",
+          "description": "Uzyskaj 21 gwiazd w wyzwaniach RR grając jako Robin"
+        },
+        "russian": {
+          "name": "Высшие лиги",
+          "description": "Набрать 21 звезду в испытаниях ДР, играя за Робина"
+        },
+        "schinese": {
+          "name": "大联盟",
+          "description": "在AR挑战中用罗宾获得21颗星"
+        },
+        "spanish": {
+          "name": "Las Grandes Ligas",
+          "description": "Obtén 21 estrellas en los desafíos de RA jugando como Robin."
+        }
+      }
+    },
+    "EACID_DLCNightwing_Acts_of_Violence": {
+      "translations": {
+        "brazilian": {
+          "name": "Atos de Violência",
+          "description": "Conquiste 21 estrelas nos Desafios de RA jogando como Asa Noturna."
+        },
+        "english": {
+          "name": "Acts of Violence",
+          "description": "Achieve 21 Stars in AR Challenges playing as Nightwing."
+        },
+        "french": {
+          "name": "Actes de violence",
+          "description": "Obtenez 21 étoiles dans les défis en R.A. avec Nightwing."
+        },
+        "german": {
+          "name": "Gewaltakte",
+          "description": "Erziele 21 Sterne in ER-Herausforderungen als Nightwing."
+        },
+        "italian": {
+          "name": "Atti di violenza",
+          "description": "Ottieni 21 stelle nelle Sfide RA con Nightwing."
+        },
+        "japanese": {
+          "name": "暴力行為",
+          "description": "ARチャレンジで21のスターを獲得（ナイトウィングでプレイ）"
+        },
+        "koreana": {
+          "name": "폭력 행위",
+          "description": "나이트윙으로 플레이하여 증강 현실 도전에서 21개의 별을 획득하십시오."
+        },
+        "polish": {
+          "name": "Acts of Violence",
+          "description": "Uzyskaj 21 gwiazd w wyzwaniach RR grając jako Nightwing."
+        },
+        "russian": {
+          "name": "Акты насилия",
+          "description": "Набрать 21 звезду в испытаниях ДР, играя за Найтвинга"
+        },
+        "schinese": {
+          "name": "暴力行为",
+          "description": "在AR挑战中用夜翼获得21颗星"
+        },
+        "spanish": {
+          "name": "Actos de violencia",
+          "description": "Obtén 21 estrellas en los desafíos de RA jugando como Nightwing."
+        }
+      }
+    },
+    "EACID_DLCCatwoman_Relentless": {
+      "translations": {
+        "brazilian": {
+          "name": "Implacável",
+          "description": "Conquiste 21 estrelas nos Desafios de RA jogando como Mulher-Gato."
+        },
+        "english": {
+          "name": "Relentless",
+          "description": "Achieve 21 Stars in AR Challenges playing as Catwoman."
+        },
+        "french": {
+          "name": "Sans répit",
+          "description": "Obtenez 21 étoiles dans les défis en R.A. avec Catwoman."
+        },
+        "german": {
+          "name": "Relentless",
+          "description": "Erziele 21 Sterne in ER-Herausforderungen als Catwoman."
+        },
+        "italian": {
+          "name": "Relentless",
+          "description": "Ottieni 21 stelle nelle Sfide RA con Catwoman."
+        },
+        "japanese": {
+          "name": "レントレス",
+          "description": "ARチャレンジで21のスターを獲得（キャットウーマンでプレイ）"
+        },
+        "koreana": {
+          "name": "가차 없는",
+          "description": "캣우먼으로 플레이하여 증강 현실 도전에서 21개의 별을 획득하십시오."
+        },
+        "polish": {
+          "name": "Relentless",
+          "description": "Uzyskaj 21 gwiazd w wyzwaniach RR grając jako Kobieta-Kot"
+        },
+        "russian": {
+          "name": "Беспощадная",
+          "description": "Набрать 21 звезду в испытаниях ДР, играя за Женщину-Кошку"
+        },
+        "schinese": {
+          "name": "冷酷无情",
+          "description": "在AR挑战中用猫女获得21颗星"
+        },
+        "spanish": {
+          "name": "Implacable",
+          "description": "Obtén 21 estrellas en los desafíos de RA jugando como Catwoman."
+        }
+      }
+    },
+    "EACID_DLCAzrael_Shock_and_Awe": {
+      "translations": {
+        "brazilian": {
+          "name": "Choque e pavor",
+          "description": "Conquiste 21 estrelas nos Desafios de RA jogando como Azrael."
+        },
+        "english": {
+          "name": "Shock and Awe",
+          "description": "Achieve 21 Stars in AR Challenges playing as Azrael."
+        },
+        "french": {
+          "name": "Shock and Awe",
+          "description": "Obtenez 21 étoiles dans les défis en R.A. avec Azrael."
+        },
+        "german": {
+          "name": "Schock und Ehrfurcht",
+          "description": "Erziele 21 Sterne in ER-Herausforderungen als Azrael."
+        },
+        "italian": {
+          "name": "Dominazione rapida",
+          "description": "Ottieni 21 stelle nelle Sfide RA con Azrael."
+        },
+        "japanese": {
+          "name": "ショックと驚き",
+          "description": "ARチャレンジで21のスターを獲得（アズラエルでプレイ）"
+        },
+        "koreana": {
+          "name": "충격과 공포",
+          "description": "아즈라엘으로 플레이하여 증강 현실 도전에서 21개의 별을 획득하십시오."
+        },
+        "polish": {
+          "name": "Shock and Awe",
+          "description": "Uzyskaj 21 gwiazd w wyzwaniach RR grając jako Azrael"
+        },
+        "russian": {
+          "name": "Шок и трепет",
+          "description": "Набрать 21 звезду в испытаниях ДР, играя за Азраила"
+        },
+        "schinese": {
+          "name": "震惊与敬畏",
+          "description": "在AR挑战中用阿兹瑞尔获得21颗星"
+        },
+        "spanish": {
+          "name": "Shock and Awe",
+          "description": "Obtén 21 estrellas en los desafíos de RA jugando como Azrael."
+        }
+      }
+    },
+    "EACID_DLCBatgirl_Motherlode": {
+      "translations": {
+        "brazilian": {
+          "name": "Sorte Grande",
+          "description": "Conquiste 21 estrelas nos Desafios de RA jogando como Batgirl."
+        },
+        "english": {
+          "name": "Motherlode",
+          "description": "Achieve 21 Stars in AR Challenges playing as Batgirl."
+        },
+        "french": {
+          "name": "Motherlode",
+          "description": "Obtenez 21 étoiles dans les défis en R.A. avec Batgirl."
+        },
+        "german": {
+          "name": "Motherlode",
+          "description": "Erziele 21 Sterne in ER-Herausforderungen als Batgirl."
+        },
+        "italian": {
+          "name": "Motherlode",
+          "description": "Ottieni 21 stelle nelle Sfide RA con Batgirl."
+        },
+        "japanese": {
+          "name": "豊かな源泉",
+          "description": "ARチャレンジで21のスターを獲得（バットガールでプレイ）"
+        },
+        "koreana": {
+          "name": "가치 있는",
+          "description": "배트걸로 플레이하여 증강 현실 도전에서 21개의 별을 획득하십시오."
+        },
+        "polish": {
+          "name": "Motherlode",
+          "description": "Uzyskaj 21 gwiazd w wyzwaniach RR grając jako Batgirl"
+        },
+        "russian": {
+          "name": "Первоисточник",
+          "description": "Набрать 21 звезду в испытаниях ДР, играя за Бэтгерл"
+        },
+        "schinese": {
+          "name": "母矿脉",
+          "description": "在AR挑战中用蝙蝠女获得21颗星"
+        },
+        "spanish": {
+          "name": "Motherlode",
+          "description": "Obtén 21 estrellas en los desafíos de RA jugando como Batgirl."
+        }
+      }
+    },
+    "EACID_DLCRedhood_Higher_Learning": {
+      "translations": {
+        "brazilian": {
+          "name": "Ensino Superior",
+          "description": "Conquiste 21 estrelas nos Desafios de RA jogando como Capuz Vermelho."
+        },
+        "english": {
+          "name": "Higher Learning",
+          "description": "Achieve 21 Stars in AR Challenges playing as Red Hood."
+        },
+        "french": {
+          "name": "Enseignement supérieur",
+          "description": "Obtenez 21 étoiles dans les défis en R.A. avec Red Hood."
+        },
+        "german": {
+          "name": "Higher Learning",
+          "description": "Erziele 21 Sterne in ER-Herausforderungen als Red Hood."
+        },
+        "italian": {
+          "name": "Apprendimento superiore",
+          "description": "Ottieni 21 stelle nelle Sfide RA con Cappuccio rosso."
+        },
+        "japanese": {
+          "name": "熟練",
+          "description": "ARチャレンジで21のスターを獲得（レッドフードでプレイ）"
+        },
+        "koreana": {
+          "name": "고등 학습",
+          "description": "레드 후드로 플레이하여 증강 현실 도전에서 21개의 별을 획득하십시오."
+        },
+        "polish": {
+          "name": "Higher Learning",
+          "description": "Uzyskaj 21 gwiazd w wyzwaniach RR grając jako Czerwony Kaptur"
+        },
+        "russian": {
+          "name": "Высшее образование",
+          "description": "Набрать 21 звезду в испытаниях ДР, играя за Красного Капюшона"
+        },
+        "schinese": {
+          "name": "高等学习",
+          "description": "在AR挑战中用红头罩获得21颗星"
+        },
+        "spanish": {
+          "name": "Aprendizaje mayor",
+          "description": "Obtén 21 estrellas en los desafíos de RA jugando como Capucha Roja."
+        }
+      }
+    },
+    "EACID_DLCHarley_Vengeance_Unlimited": {
+      "translations": {
+        "brazilian": {
+          "name": "Vingança Ilimitada",
+          "description": "Conquiste 21 estrelas nos Desafios de RA jogando como Arlequina."
+        },
+        "english": {
+          "name": "Vengeance Unlimited",
+          "description": "Achieve 21 Stars in AR Challenges playing as Harley Quinn."
+        },
+        "french": {
+          "name": "Vengeance Unlimited",
+          "description": "Obtenez 21 étoiles dans les défis en R.A. avec Harley Quinn."
+        },
+        "german": {
+          "name": "Vengeance Unlimited",
+          "description": "Erziele 21 Sterne in ER-Herausforderungen als Harley Quinn."
+        },
+        "italian": {
+          "name": "Vengeance Unlimited",
+          "description": "Ottieni 21 stelle nelle Sfide RA con Harley Quinn."
+        },
+        "japanese": {
+          "name": "無制限の復讐",
+          "description": "ARチャレンジで21のスターを獲得（ハーレークィンでプレイ）"
+        },
+        "koreana": {
+          "name": "끝없는 복수",
+          "description": "할리퀸으로 플레이하여 증강 현실 도전에서 21개의 별을 획득하십시오."
+        },
+        "polish": {
+          "name": "Vengeance Unlimited",
+          "description": "Uzyskaj 21 gwiazd w wyzwaniach RR grając jako Harley Quinn"
+        },
+        "russian": {
+          "name": "Безпредельная месть",
+          "description": "Набрать 21 звезду в испытаниях ДР, играя за Харли Квинн"
+        },
+        "schinese": {
+          "name": "无尽复仇",
+          "description": "在AR挑战中用哈莉·奎因获得21颗星"
+        },
+        "spanish": {
+          "name": "Venganza sin límites",
+          "description": "Obtén 21 estrellas en los desafíos como Harley Quinn."
+        }
+      }
+    },
+    "EACID_DLCVillainRas_The_Demon_Lives_Again": {
+      "translations": {
+        "brazilian": {
+          "name": "O Demônio vive outra vez!",
+          "description": "Siga o rastro do assassino."
+        },
+        "english": {
+          "name": "The Demon Lives Again!",
+          "description": "Follow the assassin's trail."
+        },
+        "french": {
+          "name": "Le Démon renaît !",
+          "description": "Suivez la piste de l'Assassin."
+        },
+        "german": {
+          "name": "Der Dämon Lebt!",
+          "description": "Folge der Spur der Attentäterin."
+        },
+        "italian": {
+          "name": "Il Demone vive ancora!",
+          "description": "Segui la traccia dell'Assassina."
+        },
+        "japanese": {
+          "name": "悪魔の復活！",
+          "description": "暗殺者の後を追う"
+        },
+        "koreana": {
+          "name": "악마의 부활!",
+          "description": "암살자의 핏자국을 따라가십시오"
+        },
+        "polish": {
+          "name": "The Demon Lives Again!",
+          "description": "Podążaj za śladami zabójców."
+        },
+        "russian": {
+          "name": "Демон снова жив",
+          "description": "Идите по следу убийцы"
+        },
+        "schinese": {
+          "name": "恶魔再世！",
+          "description": "追寻刺客的踪迹"
+        },
+        "spanish": {
+          "name": "El Demonio Renace",
+          "description": "Sigue el rastro del asesino."
+        }
+      }
+    },
+    "EACID_DLCVillainRas_Daughter_Of_The_Demon": {
+      "translations": {
+        "brazilian": {
+          "name": "A Filha do Demônio!",
+          "description": "Encontre o Poço de Lázaro."
+        },
+        "english": {
+          "name": "Daughter Of The Demon!",
+          "description": "Discover the Lazarus pit."
+        },
+        "french": {
+          "name": "La fille du Démon !",
+          "description": "Découvrez le puits de Lazare."
+        },
+        "german": {
+          "name": "Tochter des Dämons!",
+          "description": "Entdecke die Lazarusgrube."
+        },
+        "italian": {
+          "name": "La figlia del Demone!",
+          "description": "Scopri il Pozzo di Lazzaro."
+        },
+        "japanese": {
+          "name": "悪魔の娘！",
+          "description": "ラザラス・ピットを見つける"
+        },
+        "koreana": {
+          "name": "악마의 딸!",
+          "description": "라자루스의 구덩이를 찾으십시오"
+        },
+        "polish": {
+          "name": "Daughter Of The Demon!",
+          "description": "Odszukaj Jamę Łazarza."
+        },
+        "russian": {
+          "name": "Дочь Демона!",
+          "description": "Найдите источник воскрешения"
+        },
+        "schinese": {
+          "name": "恶魔之女！",
+          "description": "找到拉撒路之池"
+        },
+        "spanish": {
+          "name": "Hija del Demonio",
+          "description": "Encuentra el pozo de Lázaro."
+        }
+      }
+    },
+    "EACID_DLCVillainRas_Ashes_To_Ashes": {
+      "translations": {
+        "brazilian": {
+          "name": "Das Cinzas às Cinzas",
+          "description": "Ponha fim na Guerra da Liga dos Assassinos."
+        },
+        "english": {
+          "name": "Ashes to Ashes",
+          "description": "End the League of Assassins' war."
+        },
+        "french": {
+          "name": "Ashes to Ashes",
+          "description": "Mettez fin à la guerre faisant rage au sein de la Ligue des Assassins."
+        },
+        "german": {
+          "name": "Asche zu Asche",
+          "description": "Beende den Krieg zwischen der Liga der Killer."
+        },
+        "italian": {
+          "name": "Ashes to ashes",
+          "description": "Metti fine alla guerra della Lega degli Assassini."
+        },
+        "japanese": {
+          "name": "灰から灰に",
+          "description": "リーグ・オブ・アサシンズの内部抗争を終わらせる"
+        },
+        "koreana": {
+          "name": "인간은 흙으로 돌아가지",
+          "description": "암살자 리그의 전쟁을 끝내십시오"
+        },
+        "polish": {
+          "name": "Ashes to Ashes",
+          "description": "Zakończ wojnę w Lidze Zabójców."
+        },
+        "russian": {
+          "name": "Прах к праху",
+          "description": "Завершите войну в Лиге Убийц"
+        },
+        "schinese": {
+          "name": "尘归尘",
+          "description": "终结刺客联盟战争"
+        },
+        "spanish": {
+          "name": "Ashes to Ashes",
+          "description": "Pon fin a la guerra de la Liga de los Asesinos."
+        }
+      }
+    },
+    "EACID_DLCVillainHatter_The_Scene_Of_The_Crime": {
+      "translations": {
+        "brazilian": {
+          "name": "A Cena do Crime",
+          "description": "Resgate o primeiro refém do Chapeleiro Louco."
+        },
+        "english": {
+          "name": "The Scene of the Crime",
+          "description": "Rescue Mad Hatter's first hostage."
+        },
+        "french": {
+          "name": "Le lieu du crime",
+          "description": "Sauvez le premier otage du Chapelier fou."
+        },
+        "german": {
+          "name": "Der Ort des Verbrechens",
+          "description": "Rette die erste Geisel des Mad Hatters."
+        },
+        "italian": {
+          "name": "La scena del crimine",
+          "description": "Salva il primo ostaggio del Cappellaio Matto."
+        },
+        "japanese": {
+          "name": "犯罪シーン",
+          "description": "マッド・ハッターの最初の人質を救出"
+        },
+        "koreana": {
+          "name": "범죄 현장",
+          "description": "매드 해터의 첫 번째 인질을 구하십시오"
+        },
+        "polish": {
+          "name": "The Scene of the Crime",
+          "description": "Uratuj pierwszego zakładnika Szalonego Kapelusznika."
+        },
+        "russian": {
+          "name": "Место преступления",
+          "description": "Освободите первого заложника Безумного Шляпника"
+        },
+        "schinese": {
+          "name": "犯罪现场",
+          "description": "解救疯帽人的第一个人质"
+        },
+        "spanish": {
+          "name": "La Escena del Crimen",
+          "description": "Rescata al primer rehén del Sombrerero Loco."
+        }
+      }
+    },
+    "EACID_DLCVillainHatter_Mind_Games": {
+      "translations": {
+        "brazilian": {
+          "name": "Jogos da Mente",
+          "description": "Resgate o segundo refém do Chapeleiro Louco."
+        },
+        "english": {
+          "name": "Head Games",
+          "description": "Rescue Mad Hatter's second hostage."
+        },
+        "french": {
+          "name": "Petits jeux tordus",
+          "description": "Sauvez le second otage du Chapelier fou."
+        },
+        "german": {
+          "name": "Psychospielchen",
+          "description": "Rette die zweite Geisel des Mad Hatters."
+        },
+        "italian": {
+          "name": "Head Games",
+          "description": "Salva il secondo ostaggio del Cappellaio Matto."
+        },
+        "japanese": {
+          "name": "ヘッドゲーム",
+          "description": "マッド・ハッターの2人目の人質を救出"
+        },
+        "koreana": {
+          "name": "심리적 조종",
+          "description": "매드 해터의 두 번째 인질을 구하십시오"
+        },
+        "polish": {
+          "name": "Wymiana myśli",
+          "description": "Uratuj drugiego zakładnika Szalonego Kapelusznika."
+        },
+        "russian": {
+          "name": "Игры разума",
+          "description": "Освободите второго заложника Безумного Шляпника"
+        },
+        "schinese": {
+          "name": "脑袋游戏",
+          "description": "解救疯帽人的第二个人质"
+        },
+        "spanish": {
+          "name": "Juegos Mentales",
+          "description": "Rescata al segundo rehén del Sombrerero Loco."
+        }
+      }
+    },
+    "EACID_DLCVillainHatter_In_Storybook_Endings": {
+      "translations": {
+        "brazilian": {
+          "name": "Digno de um Conto de Fadas",
+          "description": "Ponha o Chapeleiro Louco atrás das grades."
+        },
+        "english": {
+          "name": "In Storybook Endings",
+          "description": "Lock up Mad Hatter in GCPD."
+        },
+        "french": {
+          "name": "Digne d'un conte de fées",
+          "description": "Livrez le Chapelier fou au G.C.P.D."
+        },
+        "german": {
+          "name": "Bilderbuch-Enden!",
+          "description": "Sperre den Mad Hatter im GCPD ein."
+        },
+        "italian": {
+          "name": "In Storybook Endings",
+          "description": "Rinchiudi il Cappellaio Matto al commissariato."
+        },
+        "japanese": {
+          "name": "物語の終わり",
+          "description": "マッド・ハッターをゴッサム市警に収容"
+        },
+        "koreana": {
+          "name": "이야기는 끝났어",
+          "description": "매드 해터를 GCPD에 수감시키십시오"
+        },
+        "polish": {
+          "name": "In Storybook Endings",
+          "description": "Zamknij Szalonego Kapelusznika w GCPD."
+        },
+        "russian": {
+          "name": "Сказке конец",
+          "description": "Посадите за решетку Безумного Шляпника"
+        },
+        "schinese": {
+          "name": "童话结局",
+          "description": "把疯帽人关进哥谭警局"
+        },
+        "spanish": {
+          "name": "Finales de Cuento",
+          "description": "Encierra al Sombrerero Loco en el CPGC."
+        }
+      }
+    },
+    "EACID_DLCVillainFreeze_Cold_Case": {
+      "translations": {
+        "brazilian": {
+          "name": "Arquivo Morto",
+          "description": "Interrogue o Tenente da Milícia."
+        },
+        "english": {
+          "name": "Cold Case",
+          "description": "Interrogate the Militia Lieutenant."
+        },
+        "french": {
+          "name": "De sang froid",
+          "description": "Interrogez le lieutenant de la milice."
+        },
+        "german": {
+          "name": "Cold Case",
+          "description": "Verhöre den Miliz-Lieutenant."
+        },
+        "italian": {
+          "name": "Cold Case",
+          "description": "Interroga il tenente della milizia."
+        },
+        "japanese": {
+          "name": "コールド・ケース",
+          "description": "上官兵を尋問"
+        },
+        "koreana": {
+          "name": "냉동 관",
+          "description": "민병대의 부관을 심문하십시오"
+        },
+        "polish": {
+          "name": "Cold Case",
+          "description": "Przesłuchaj porucznika milicji."
+        },
+        "russian": {
+          "name": "Нераскрытое дело",
+          "description": "Допросите лейтенанта боевиков"
+        },
+        "schinese": {
+          "name": "冰冷悬案",
+          "description": "审问叛兵中尉"
+        },
+        "spanish": {
+          "name": "Cold Case",
+          "description": "Interroga al teniente de la milicia."
+        }
+      }
+    },
+    "EACID_DLCVillainFreeze_Out_In_The_Cold": {
+      "translations": {
+        "brazilian": {
+          "name": "Exposto ao Frio",
+          "description": "Procure pela a câmara criogênica."
+        },
+        "english": {
+          "name": "Out in the Cold",
+          "description": "Track down the cryopod."
+        },
+        "french": {
+          "name": "Dans le froid",
+          "description": "Retrouvez la cryochambre."
+        },
+        "german": {
+          "name": "Draußen in der Kälte",
+          "description": "Finde die Kältekammer."
+        },
+        "italian": {
+          "name": "Out in the Cold",
+          "description": "Rintraccia la criocamera."
+        },
+        "japanese": {
+          "name": "寒さの中で1人きり",
+          "description": "冷凍カプセルを見つけ出す"
+        },
+        "koreana": {
+          "name": "따돌리지마",
+          "description": "극저온실을 추적하십시오"
+        },
+        "polish": {
+          "name": "Pozostawieni na lodzie",
+          "description": "Odszukaj komorę kriogeniczną."
+        },
+        "russian": {
+          "name": "В холоде",
+          "description": "Отследите путь криокамеры"
+        },
+        "schinese": {
+          "name": "置身寒冷",
+          "description": "追踪冷冻舱"
+        },
+        "spanish": {
+          "name": "Out in the Cold",
+          "description": "Rastrea la criocámara."
+        }
+      }
+    },
+    "EACID_DLCVillainFreeze_The_Resurrection_And_The_Life": {
+      "translations": {
+        "brazilian": {
+          "name": "A ressureição e a vida",
+          "description": "Sobreviva ao ataque da Milícia."
+        },
+        "english": {
+          "name": "The Resurrection and the Life",
+          "description": "Survive the Militia onslaught."
+        },
+        "french": {
+          "name": "La Résurrection et la Vie",
+          "description": "Survivez à l'attaque de la milice."
+        },
+        "german": {
+          "name": "The Resurrection and the Life",
+          "description": "Überlebe den Angriff der Miliz."
+        },
+        "italian": {
+          "name": "The Resurrection and the Life",
+          "description": "Sopravvivi all'assalto della milizia."
+        },
+        "japanese": {
+          "name": "目覚めと人生",
+          "description": "軍の猛襲を凌ぐ"
+        },
+        "koreana": {
+          "name": "부활과 삶",
+          "description": "민병대의 맹폭격에서 살아남으십시오"
+        },
+        "polish": {
+          "name": "Zmartwychwstanie i żywot",
+          "description": "Przeżyj atak milicji."
+        },
+        "russian": {
+          "name": "Воскресение и жизнь",
+          "description": "Переживите натиск боевиков"
+        },
+        "schinese": {
+          "name": "复活与生命",
+          "description": "突出叛兵重围"
+        },
+        "spanish": {
+          "name": "La Resurrección y la Vida",
+          "description": "Sobrevive al asalto de la milicia."
+        }
+      }
+    },
+    "EACID_DLCVillainCroc_The_Beast_Beneath": {
+      "translations": {
+        "brazilian": {
+          "name": "O Monstro Oculto",
+          "description": "Elimine os Prisioneiros."
+        },
+        "english": {
+          "name": "The Beast Beneath",
+          "description": "Defeat the prisoners."
+        },
+        "french": {
+          "name": "The Beast Beneath",
+          "description": "Vainquez les prisonniers."
+        },
+        "german": {
+          "name": "The Beast Beneath",
+          "description": "Besiege die Gefangenen."
+        },
+        "italian": {
+          "name": "The Beast Beneath",
+          "description": "Sconfiggi i prigionieri."
+        },
+        "japanese": {
+          "name": "水面下の獣",
+          "description": "囚人を倒す"
+        },
+        "koreana": {
+          "name": "수면 아래 짐승",
+          "description": "죄수들을 처치하십시오"
+        },
+        "polish": {
+          "name": "The Beast Beneath",
+          "description": "Obroń więźniów."
+        },
+        "russian": {
+          "name": "Чудовище внизу",
+          "description": "Победить заключенных"
+        },
+        "schinese": {
+          "name": "水下野兽",
+          "description": "击倒囚犯"
+        },
+        "spanish": {
+          "name": "La Bestia Interna",
+          "description": "Derrota a los prisioneros."
+        }
+      }
+    },
+    "EACID_DLCVillainCroc_Breaking_The_Skin": {
+      "translations": {
+        "brazilian": {
+          "name": "Arriscando a pele",
+          "description": "Obtenha acesso ao setor de segurança máxima."
+        },
+        "english": {
+          "name": "Breaking the Skin",
+          "description": "Gain access to the high security area."
+        },
+        "french": {
+          "name": "Percer la carapace",
+          "description": "Accédez à la zone sécurisée."
+        },
+        "german": {
+          "name": "Unter die Haut",
+          "description": "Verschaffe dir Zugriff zum Hochsicherheitstrakt."
+        },
+        "italian": {
+          "name": "Breaking the Skin",
+          "description": "Accedi all'area di massima sicurezza."
+        },
+        "japanese": {
+          "name": "ブレーキング・ザ・スキン",
+          "description": "厳重警備区域にアクセス"
+        },
+        "koreana": {
+          "name": "겉모습을 부수고",
+          "description": "높은 보안 구역에 액세스하십시오"
+        },
+        "polish": {
+          "name": "Breaking the Skin",
+          "description": "Uzyskaj dostęp do strefy o zaostrzonym rygorze."
+        },
+        "russian": {
+          "name": "С риском для кожи",
+          "description": "Получите доступ к особо охраняемой зоне"
+        },
+        "schinese": {
+          "name": "穿破皮肤",
+          "description": "进入高等戒严区"
+        },
+        "spanish": {
+          "name": "Rompiendo la piel",
+          "description": "Accede al área de alta seguridad."
+        }
+      }
+    },
+    "EACID_DLCVillainCroc_Evolution": {
+      "translations": {
+        "brazilian": {
+          "name": "Evolução",
+          "description": "Prenda o Crocodilo no DPGC."
+        },
+        "english": {
+          "name": "Evolution",
+          "description": "Lockup Killer Croc in GCPD."
+        },
+        "french": {
+          "name": "Évolution",
+          "description": "Livrez Killer Croc au G.C.P.D."
+        },
+        "german": {
+          "name": "Evolution",
+          "description": "Sperre Killer Croc im GCPD ein."
+        },
+        "italian": {
+          "name": "Evolution",
+          "description": "Rinchiudi Killer Croc al commissariato."
+        },
+        "japanese": {
+          "name": "進化",
+          "description": "キラークロックをゴッサム市警に収容"
+        },
+        "koreana": {
+          "name": "진화",
+          "description": "킬러 크록을 GCPD에 수감시키십시오"
+        },
+        "polish": {
+          "name": "Ewolucja",
+          "description": "Zamknij Zabójczego Kroko w GCPD."
+        },
+        "russian": {
+          "name": "Эволюция",
+          "description": "Посадите за решетку Крока-Убийцу"
+        },
+        "schinese": {
+          "name": "进化",
+          "description": "把鳄鱼人关进哥谭警局"
+        },
+        "spanish": {
+          "name": "Evolución",
+          "description": "Encierra a Cocodrilo Asesino en el CPGC."
+        }
+      }
+    },
+    "EACID_DLCBmobArkham_Life_After_Death": {
+      "translations": {
+        "brazilian": {
+          "name": "A vida depois da morte",
+          "description": "Conquiste 21 estrelas nos Desafios de RA usando o Batmóvel Original de Arkham."
+        },
+        "english": {
+          "name": "Life After Death",
+          "description": "Achieve 21 Stars in AR Challenges using the Original Arkham Batmobile."
+        },
+        "french": {
+          "name": "La Vie après la mort",
+          "description": "Obtenez 21 étoiles dans les défis en R.A. avec la Batmobile originale d'Arkham Asylum."
+        },
+        "german": {
+          "name": "Das Leben nach dem Tode",
+          "description": "Erziele 21 Sterne in ER-Herausforderungen mit dem Original-Arkham-Batmobil."
+        },
+        "italian": {
+          "name": "Vita dopo la morte",
+          "description": "Ottieni 21 stelle nelle Sfide RA usando la Batmobile originale Arkham."
+        },
+        "japanese": {
+          "name": "死後の人生",
+          "description": "ARチャレンジで21のスターを獲得（オリジナル版アーカム バットモービルを使用）"
+        },
+        "koreana": {
+          "name": "죽음 후의 삶",
+          "description": "오리지널 아캄 배트모빌을 사용하여 증강 현실 도전에서 21개의 별을 획득하십시오."
+        },
+        "polish": {
+          "name": "Life After Death",
+          "description": "Uzyskaj 21 gwiazd w Wyzwaniach RR używając oryginalnego batmobilu Arkham."
+        },
+        "russian": {
+          "name": "Жизнь после смерти",
+          "description": "Набрать 21 звезду в испытаниях ДР, используя оригинальный Бэтмобиль Аркхема"
+        },
+        "schinese": {
+          "name": "死后新生",
+          "description": "在AR挑战中用原版阿卡姆蝙蝠车获得21颗星"
+        },
+        "spanish": {
+          "name": "Vida después de la Muerte",
+          "description": "Consigue 21 estrellas en los desafíos de RA usando el batmóvil del Arkham original."
+        }
+      }
+    },
+    "EACID_DLCWhat_the_Butler_Saw": {
+      "translations": {
+        "brazilian": {
+          "name": "O que o Mordomo viu",
+          "description": "Complete o Desafio \"Mansão Wayne\" como Batman, sem usar qualquer aparelho ou sofrer qualquer dano."
+        },
+        "english": {
+          "name": "What the Butler Saw",
+          "description": "Complete the Wayne Manor AR Challenge as Batman without using any gadgets or taking any damage."
+        },
+        "french": {
+          "name": "Ce que sait le majordome",
+          "description": "Terminez le défi en R.A. \"Manoir Wayne\" avec Batman sans utiliser de gadget et sans subir de dégât."
+        },
+        "german": {
+          "name": "Was der Butler sah",
+          "description": "Schließe „Wayne Manor“ als Batman ab, ohne Schaden zunehmen oder Ausrüstungen zu benutzen."
+        },
+        "italian": {
+          "name": "Cos'ha visto il maggiordomo",
+          "description": "Completa con Batman la Sfida RA Villa Wayne senza subire danni e senza l'aiuto di gadget."
+        },
+        "japanese": {
+          "name": "執事が見たもの",
+          "description": "ウェイン邸のARチャレンジを　ガジェットを使用せずダメージを受けずにクリア（バットマン）"
+        },
+        "koreana": {
+          "name": "집사가 본 것",
+          "description": "웨인 저택 증강 현실 도전에서 배트맨으로 도구 사용 또는 피해 없이 도전을 완료하십시오."
+        },
+        "polish": {
+          "name": "What the Butler Saw",
+          "description": "Ukończ Wyzwanie RR Rezydencja Wayne’ów jako Batman nie korzystając z gadżetów; nie odnieś obrażeń."
+        },
+        "russian": {
+          "name": "Что видел дворецкий",
+          "description": "Завершите испытание Поместье Уэйнов, играя за Бэтмена, не используя устройства или не получив урона"
+        },
+        "schinese": {
+          "name": "管家眼中所见",
+          "description": "使用蝙蝠侠无伤完成韦恩庄园AR挑战且不使用任何小装置"
+        },
+        "spanish": {
+          "name": "Lo que el mayordomo vio",
+          "description": "Completa \"Mansión Wayne\" jugando como Batman, sin usar ningún dispositivo y sin recibir daño."
+        }
+      }
+    },
+    "EACID_DLCSecrets_of_the_Batcave": {
+      "translations": {
+        "brazilian": {
+          "name": "Segredos da Batcaverna",
+          "description": "Complete ileso o Desafio \"Batcaverna\" como Batman e Asa Noturna usando somente golpes em sequência."
+        },
+        "english": {
+          "name": "Secrets of the Batcave",
+          "description": "Complete the Batcave AR Challenge unharmed as Batman and Nightwing, using only Beat Downs."
+        },
+        "french": {
+          "name": "Les secrets de la Batcave",
+          "description": "Terminez le défi \"Batcave\" avec Batman et Nightwing sans dégât et uniquement avec des raclées."
+        },
+        "german": {
+          "name": "Geheimnisse der Bathöhle",
+          "description": "Schließe „Bathöhle“ unversehrt als Batman & Nightwing ab. Nur Niederschlägen benutzen."
+        },
+        "italian": {
+          "name": "Secrets of the Batcave",
+          "description": "Completa la Sfida RA Batcaverna con Batman e Nightwing illesi, usando solo pestaggi."
+        },
+        "japanese": {
+          "name": "バットケイブの秘密",
+          "description": "バットケイブのARチャレンジで　ダメージを受けずに全ての敵をビートダウンで倒す（バットマン　ナイトウィング）"
+        },
+        "koreana": {
+          "name": "배트동굴의 비밀",
+          "description": "배트동굴에서 배트맨, 나이트윙으로 피해 없이 모든 적을 때려눕히기로 끝내십시오."
+        },
+        "polish": {
+          "name": "Secrets of the Batcave",
+          "description": "Ukończ Wyzwanie RR Jaskinia Batmana bez obrażeń jako Batman i Nightwing; wykonuj jedynie rozwałki."
+        },
+        "russian": {
+          "name": "Тайны пещеры Бэтмена",
+          "description": "Как Бэтмен и Найтвинг завершите невредимым испытание Пещера Бэтмена, используя только добивание"
+        },
+        "schinese": {
+          "name": "蝙蝠洞的秘密",
+          "description": "使用蝙蝠侠与夜翼无伤完成蝙蝠洞AR挑战且只能使用重击"
+        },
+        "spanish": {
+          "name": "Secretos de la Batcueva",
+          "description": "Completa \"Batcueva\" jugando como Batman y Nightwing, usando solo \"paliza\" y sin recibir ningún daño."
+        }
+      }
+    },
+    "EACID_DLCSilent_Night_Deadly_Night": {
+      "translations": {
+        "brazilian": {
+          "name": "Noite silenciosa, noite mortal",
+          "description": "Complete ileso \"Cavaleiro Silencioso\" como Batman e Robin, usando só Golpes Esmagadores de Nocaute."
+        },
+        "english": {
+          "name": "Silent Night, Deadly Night",
+          "description": "Complete the Silent Knight AR Challenge unharmed as Batman and Robin, using only Knockout Smashes."
+        },
+        "french": {
+          "name": "Douce nuit, sanglante nuit",
+          "description": "Terminez \"Douce nuit\" avec Batman et Robin sans dégât, uniquement avec éliminations instantanées."
+        },
+        "german": {
+          "name": "Stille Nacht, tödliche Nacht",
+          "description": "Schließe „Lautloser Ritter“ unversehrt als Batman & Robin ab. Nur K.-o.-Schmetterangriffe benutzen."
+        },
+        "italian": {
+          "name": "Notte silente, notte di morte",
+          "description": "Completa la Sfida RA Cavaliere silenzioso con Batman e Robin illesi, usando solo KO travolgenti."
+        },
+        "japanese": {
+          "name": "きよし悪魔の夜",
+          "description": "サイレント・ナイトのARチャレンジで　ダメージを受けずに全ての敵をノックアウト・スマッシュで倒す（バットマン　ロビン）"
+        },
+        "koreana": {
+          "name": "고요한 밤, 죽음의 밤",
+          "description": "침묵의 기사에서 배트맨, 로빈으로 피해 없이 모든 적을 일격에 쓰러뜨리기로 끝내십시오."
+        },
+        "polish": {
+          "name": "Cicha noc, śmierci noc",
+          "description": "Ukończ Wyzwanie RR Cichy Rycerz bez obrażeń jako Batman i Robin; wykonuj tylko ciosy nokautujące."
+        },
+        "russian": {
+          "name": "Тихая ночь, смертельная ночь",
+          "description": "Как Бэтмен и Робин завершите невредимым испытание Тихий рыцарь, используя только нокаутирующие удары"
+        },
+        "schinese": {
+          "name": "宁静而致命的夜晚",
+          "description": "使用蝙蝠侠与罗宾无伤完成寂静骑士AR挑战且只能使用击倒重击"
+        },
+        "spanish": {
+          "name": "Noche de paz, noche de muerte",
+          "description": "Completa \"Caballero silencioso\" como Batman y Robin, usa solo KO por golpe y no recibas daño."
+        }
+      }
+    },
+    "EACID_DLCEternal": {
+      "translations": {
+        "brazilian": {
+          "name": "Eterno",
+          "description": "Complete o Desafio \"Cavaleiro sem fim\" eliminando 50 inimigos como Batman."
+        },
+        "english": {
+          "name": "Eternal",
+          "description": "Complete the Endless Knight AR Challenge, taking out 50 Enemies as Batman."
+        },
+        "french": {
+          "name": "Éternel",
+          "description": "Neutralisez au moins 50 ennemis dans \"Une nuit sans fin\" avec Batman."
+        },
+        "german": {
+          "name": "Eternal",
+          "description": "Schließe „Ritter ohne Ende“ als Batman ab, indem 50 Gegner ausgeschaltet werden."
+        },
+        "italian": {
+          "name": "Eternal",
+          "description": "Completa la Sfida RA Cavaliere in eterno eliminando 50 nemici con Batman."
+        },
+        "japanese": {
+          "name": "エターナル",
+          "description": "終わりなき戦いのARチャレンジで　50人の敵を倒す（バットマン）"
+        },
+        "koreana": {
+          "name": "이터널",
+          "description": "영원히 끝나지 않는 기사 증강 현실 도전에서 배트맨으로 50명의 적을 제거하십시오."
+        },
+        "polish": {
+          "name": "Eternal",
+          "description": "Ukończ Wyzwanie RR Niestrudzony rycerz eliminując 50 wrogów jako Batman."
+        },
+        "russian": {
+          "name": "Вечный",
+          "description": "Завершите испытание Вечный рыцарь, устранив 50 врагов, играя за Бэтмена"
+        },
+        "schinese": {
+          "name": "永恒",
+          "description": "使用蝙蝠侠击倒50个敌人完成无尽骑士AR挑战"
+        },
+        "spanish": {
+          "name": "Eternal",
+          "description": "Acaba con 50 enemigos en \"Caballero eterno\" jugando como Batman."
+        }
+      }
+    },
+    "EACID_DLCThe_Chill_in_the_Air": {
+      "translations": {
+        "brazilian": {
+          "name": "Uma brisa gelada",
+          "description": "Complete o Desafio de RA \"Beco do Crime\" sem sofrer dano, jogando como Batman, Robin e Asa Noturna."
+        },
+        "english": {
+          "name": "The Chill in the Air",
+          "description": "Complete the Crime Alley AR Challenge unharmed as Batman, Robin and Nightwing."
+        },
+        "french": {
+          "name": "Froid dans le dos",
+          "description": "Terminez le défi en R.A. \"Crime Alley\" sans subir de dégât avec Batman, Robin et Nightwing."
+        },
+        "german": {
+          "name": "Schuld in der Luft",
+          "description": "Schließe „Crime Alley“ als Batman, Robin & Nightwing unversehrt ab."
+        },
+        "italian": {
+          "name": "The Chill in the Air",
+          "description": "Completa la Sfida RA Crime Alley senza subire danni con Batman, Robin e Nightwing."
+        },
+        "japanese": {
+          "name": "肌寒さ",
+          "description": "クライム通りのARチャレンジを　ダメージを一切受けずにクリアする（バットマン　ロビン　ナイトウィング）"
+        },
+        "koreana": {
+          "name": "쌀쌀한 기운",
+          "description": "범죄의 골목 증강 현실 도전에서 배트맨, 로빈, 나이트윙으로 피해 없이 완료하십시오."
+        },
+        "polish": {
+          "name": "Chill in the Air",
+          "description": "Ukończ Wyzwanie RR Aleja Przestępców jako Batman, Robin i Nightwing; nie odnieś obrażeń."
+        },
+        "russian": {
+          "name": "Прохладный воздух",
+          "description": "Завершите испытание Аллея преступников, играя за Бэтмена, Робина и Найтвинга, не получив урона"
+        },
+        "schinese": {
+          "name": "阵阵寒意",
+          "description": "使用蝙蝠侠、罗宾与夜翼无伤完成犯罪巷AR挑战"
+        },
+        "spanish": {
+          "name": "Frío en el Aire",
+          "description": "Completa \"Callejón del crimen\" sin recibir ningún daño, jugando como Batman, Robin y Nightwing."
+        }
+      }
+    },
+    "EACID_DLCThe_Curtain_Falls": {
+      "translations": {
+        "brazilian": {
+          "name": "Cai a Cortina",
+          "description": "Fluência perfeita por rodada no \"Teatro Monarch\", como Batman, Robin, Asa Noturna e a Mulher-Gato."
+        },
+        "english": {
+          "name": "The Curtain Falls",
+          "description": "Flawless FreeFlow in every round of the Monarch Theatre as Batman, Robin, Nightwing and Catwoman."
+        },
+        "french": {
+          "name": "Le rideau tombe",
+          "description": "Déchaînement parfait pour chaque manche du défi du Monarch avec Batman, Robin, Nightwing, Catwoman."
+        },
+        "german": {
+          "name": "Der letzte Vorhang",
+          "description": "Beende alle Monarch Theater-Runden mit Fehlerloser-Freeflow als Batman, Robin, Catwoman & Nightwing."
+        },
+        "italian": {
+          "name": "The Curtain Falls",
+          "description": "Bonus non-stop perfetto ad ogni assalto in Teatro Monarch con Batman, Robin, Nightwing e Catwoman."
+        },
+        "japanese": {
+          "name": "終幕",
+          "description": "Monarch劇場のARチャレンジで　全てのラウンドをフローレス･フリーフローでクリアする（バットマン　ロビン　ナイトウィング　キャットウーマン）"
+        },
+        "koreana": {
+          "name": "막이 내리다",
+          "description": "모나키 극장에서 배트맨, 로빈, 나이트윙, 캣우먼의 완벽한 자유 흐름으로 매 라운드 완료."
+        },
+        "polish": {
+          "name": "The Curtain Falls",
+          "description": "Ukończ bezbłędnie Monarch Theatre superkombinacjami jako Batman, Robin, Nightwing i Kobieta-Kot."
+        },
+        "russian": {
+          "name": "Занавес опускается",
+          "description": "Как Бэтмен, Робин, Найтвинг и Женщина-Кошка, выиграйте каждый раунд непрерывным боем в Театре Монарх"
+        },
+        "schinese": {
+          "name": "谢幕",
+          "description": "使用蝙蝠侠、罗宾、夜翼与猫女在君王剧院AR挑战中每一轮都达成完美连击"
+        },
+        "spanish": {
+          "name": "Cae la cortina",
+          "description": "Obtén fluidez impecable en cada ronda del \"Teatro Monarch\" como Batman, Robin, Nightwing y Catwoman."
+        }
+      }
+    },
+    "EACID_DLCRequiem_for_a_Killer": {
+      "translations": {
+        "brazilian": {
+          "name": "Réquiem para um assassino",
+          "description": "Derrote um velho adversário no Desafio de RA \"Clube Iceberg\", jogando como Batman."
+        },
+        "english": {
+          "name": "Requiem for a Killer",
+          "description": "Defeat an old adversary in the Iceberg Lounge AR Challenge, playing as Batman."
+        },
+        "french": {
+          "name": "Requiem pour un tueur",
+          "description": "Écrasez un vieil ennemi dans le \"Salon de l'iceberg\" avec Batman."
+        },
+        "german": {
+          "name": "Requiem für einen Mörder",
+          "description": "Spiele als Batman und besiege einen alten Gegner in der Iceberg Lounge."
+        },
+        "italian": {
+          "name": "Requiem for a Killer",
+          "description": "Sconfiggi un vecchio avversario con Batman nella Sfida RA Iceberg Lounge."
+        },
+        "japanese": {
+          "name": "キラーのレクイエム",
+          "description": "アイスバーグ・ラウンジのARチャレンジで　古き敵を倒す（バットマン）"
+        },
+        "koreana": {
+          "name": "킬러의 진혼곡",
+          "description": "아이스버그 라운지 증강 현실 도전에서 배트맨으로 그의 숙적을 처치하십시오."
+        },
+        "polish": {
+          "name": "Requiem dla zabójcy",
+          "description": "Pokonaj dawnego przeciwnika w Wyzwaniu RR: Iceberg Lounge grając jako Batman."
+        },
+        "russian": {
+          "name": "Реквием по убийце",
+          "description": "Победите старого противника в испытании ДР \"Айсберг Лаунж\", играя за Бэтмена"
+        },
+        "schinese": {
+          "name": "杀手镇魂曲",
+          "description": "使用蝙蝠侠在冰山夜总会AR挑战中击败一位老对手"
+        },
+        "spanish": {
+          "name": "Réquiem por un asesino",
+          "description": "Derrota a un viejo adversario en el desafío de RA \"Salón Iceberg\" jugando como Batman."
+        }
+      }
+    }
+  }
+}

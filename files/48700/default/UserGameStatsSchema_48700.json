@@ -1,0 +1,2577 @@
+{
+  "version": 1,
+  "app_id": "48700",
+  "variant_id": "default",
+  "source_sha256": "0e08f766e7a9bcf1a907690e95fe4dda36d74d9102542c6fc55fc783bbe879fd",
+  "languages": [
+    "czech",
+    "english",
+    "hungarian",
+    "japanese",
+    "polish",
+    "schinese",
+    "turkish"
+  ],
+  "achievements": {
+    "MAN_EATER": {
+      "translations": {
+        "czech": {
+          "name": "Chlapna",
+          "description": "Jako ženská postava zabij 50 mužů."
+        },
+        "english": {
+          "name": "Man Eater",
+          "description": "Kill 50 men as a female character."
+        },
+        "hungarian": {
+          "name": "férfifaló",
+          "description": "Női karakterként végezz ötven férfiemberrel."
+        },
+        "japanese": {
+          "name": "マンイーター",
+          "description": "女性キャラクターで敵50人を倒す"
+        },
+        "polish": {
+          "name": "Femme fatale",
+          "description": "Zabij 50 mężczyzn, grając żeńską postacią."
+        },
+        "schinese": {
+          "name": "食人者",
+          "description": "作为女性角色杀死 50 名男性。"
+        },
+        "turkish": {
+          "name": "Erkek Yiyen",
+          "description": "Kadın bir karakter ile 50 erkeği öldür."
+        }
+      }
+    },
+    "NONE_SHALL_PASS": {
+      "translations": {
+        "czech": {
+          "name": "Zůstaňte si venku",
+          "description": "Úspěšně ubraň hrad."
+        },
+        "english": {
+          "name": "None Shall Pass",
+          "description": "Successfully defend a castle."
+        },
+        "hungarian": {
+          "name": "itt Úgyse juttok Át!",
+          "description": "Védj meg egy kastélyt."
+        },
+        "japanese": {
+          "name": "何人にも渡さない",
+          "description": "城の防御に成功する"
+        },
+        "polish": {
+          "name": "Moje!",
+          "description": "Pomyślnie obroń zamek."
+        },
+        "schinese": {
+          "name": "没有人会通过",
+          "description": "成功保卫城堡。"
+        },
+        "turkish": {
+          "name": "Kimse Geçemez",
+          "description": "Bir kaleyi başarıyla savun."
+        }
+      }
+    },
+    "THE_HOLY_HAND_GRENADE": {
+      "translations": {
+        "czech": {
+          "name": "Svatý ruční granát",
+          "description": "Zabij 75 nepřátel vrhacími zbraněmi."
+        },
+        "english": {
+          "name": "The Holy Hand Grenade",
+          "description": "Kill 75 enemies with throwing weapons."
+        },
+        "hungarian": {
+          "name": "szent kézigránát",
+          "description": "Ölj meg hetvenöt ellenfelet hajítófegyverekkel."
+        },
+        "japanese": {
+          "name": "神の肩を持つ者",
+          "description": "投擲武器で敵を75人倒す"
+        },
+        "polish": {
+          "name": "Święty granat ręczny",
+          "description": "Zabij 75 przeciwników przy użyciu broni miotanej."
+        },
+        "schinese": {
+          "name": "圣手榴弹",
+          "description": "使用投掷武器杀死 75 名敌人。"
+        },
+        "turkish": {
+          "name": "Kutsal El Bombası",
+          "description": "Fırlatma silahları ile 75 düşman öldür."
+        }
+      }
+    },
+    "LOOK_AT_THE_BONES": {
+      "translations": {
+        "czech": {
+          "name": "Kolik hostí, tolik kostí",
+          "description": "Odraž 100 nepřátel v rychlé bitvě."
+        },
+        "english": {
+          "name": "Look at the Bones!",
+          "description": "Face off against 100 enemies using custom battle mode."
+        },
+        "hungarian": {
+          "name": "nézzétek a csontokat!",
+          "description": "Egyedi csata módban szállj szembe száz ellenféllel."
+        },
+        "japanese": {
+          "name": "絶望を見よ!",
+          "description": "カスタムバトルで100人の敵に立ち向かう"
+        },
+        "polish": {
+          "name": "Góra kości!",
+          "description": "Zmierz się z setką przeciwników, korzystając z trybu bitwy własnej."
+        },
+        "schinese": {
+          "name": "看看骨头！",
+          "description": "使用自定义战斗模式对抗 100 名敌人。"
+        },
+        "turkish": {
+          "name": "Kemiklere Bak!",
+          "description": "Özel savaş modunda 100 düşman öldür."
+        }
+      }
+    },
+    "KHAAAN": {
+      "translations": {
+        "czech": {
+          "name": "Chááán!",
+          "description": "Zabij 75 nepřátel lukostřelbou z koně."
+        },
+        "english": {
+          "name": "Khaaan!",
+          "description": "Kill 75 enemies with horse archery."
+        },
+        "hungarian": {
+          "name": "kááán!",
+          "description": "Ölj meg hetvenöt ellenséget lóról nyilazva."
+        },
+        "japanese": {
+          "name": "カーン！",
+          "description": "馬上弓で敵75人を倒す"
+        },
+        "polish": {
+          "name": "Khaaan!",
+          "description": "Zabij 75 wrogów przy użyciu łuczników konnych."
+        },
+        "schinese": {
+          "name": "可汗！",
+          "description": "用马射箭杀死 75 名敌人。"
+        },
+        "turkish": {
+          "name": "Kağaaan!",
+          "description": "Atlı okçuluk ile 75 düşman öldür."
+        }
+      }
+    },
+    "GET_UP_STAND_UP": {
+      "translations": {
+        "czech": {
+          "name": "Vstávat a cvičit",
+          "description": "Vyčisti v úvodní misi město od banditů."
+        },
+        "english": {
+          "name": "Get up Stand up",
+          "description": "Cleanse the town of bandits in the opening mission."
+        },
+        "hungarian": {
+          "name": "Állj ki magadért",
+          "description": "Űzd el a városból a rablókat a kezdő küldetésben."
+        },
+        "japanese": {
+          "name": "さあ、立ち上がれ",
+          "description": "最初のミッションで、盗賊の街を一掃しろ"
+        },
+        "polish": {
+          "name": "Do broni!",
+          "description": "Oczyść miasto z bandytów w misji początkowej."
+        },
+        "schinese": {
+          "name": "站起来 站起来",
+          "description": "在开场任务中清除镇上的强盗。"
+        },
+        "turkish": {
+          "name": "Ayağa Kalk",
+          "description": "Açılış görevinde şehri çapulculardan temizle."
+        }
+      }
+    },
+    "BARON_GOT_BACK": {
+      "translations": {
+        "czech": {
+          "name": "Já na Šlechtice, Šlechtic na mě",
+          "description": "Vyhraj bitvu proti lordovi či jeho družině, který předtím porazil či zajal tebe."
+        },
+        "english": {
+          "name": "Baron got back",
+          "description": "Win a battle against a lord or party who previously beat or captured you."
+        },
+        "hungarian": {
+          "name": "ludas matyi",
+          "description": "Győzz le egy olyan lordot vagy csapatot, amely előzőleg legyőzött vagy elfogott téged."
+        },
+        "japanese": {
+          "name": "復活の男爵",
+          "description": "以前打ち負かされた領主や捕虜になったことのあるパーティーに勝利する"
+        },
+        "polish": {
+          "name": "Jak Kuba Bogu, tak Bóg Kubie",
+          "description": "Wygraj bitwę przeciwko lordowi lub drużynie, która poprzednio cię pokonała lub pojmała."
+        },
+        "schinese": {
+          "name": "男爵回来了",
+          "description": "赢得一场与先前击败或俘虏你的领主或政党的战斗。"
+        },
+        "turkish": {
+          "name": "Baron Geri Döndü",
+          "description": "Daha önce seni yenmiş ya da yakalamış bir lorda veya partiye karşı bir savaş kazan."
+        }
+      }
+    },
+    "BEST_SERVED_COLD": {
+      "translations": {
+        "czech": {
+          "name": "Chladné hlavy",
+          "description": "Poraž 10 nepřátelských skupin v zasněžených oblastech Calradie."
+        },
+        "english": {
+          "name": "Best served cold",
+          "description": "Defeat 10 enemy parties in the snowy regions of Calradia."
+        },
+        "hungarian": {
+          "name": "hidegen tálalva",
+          "description": "Győzz le tíz ellenséges csapatot Calradia havas tájain."
+        },
+        "japanese": {
+          "name": "冷やすのがベスト",
+          "description": "カルラディアの雪原地域で敵のパーティーを10部隊倒す"
+        },
+        "polish": {
+          "name": "Wojna na śnieżki",
+          "description": "Pokonaj 10 wrogich oddziałów w śnieżnych regionach Calradii."
+        },
+        "schinese": {
+          "name": "冷食最佳",
+          "description": "在卡拉迪亚的雪域击败 10 个敌方队伍。"
+        },
+        "turkish": {
+          "name": "İntikam Soğuk Yenir",
+          "description": "Kalradya'nın karlı bölgeleride 10 düşman partisi yen."
+        }
+      }
+    },
+    "TRICK_SHOT": {
+      "translations": {
+        "czech": {
+          "name": "Do Černého",
+          "description": "Zasáhni cíl šípem s obtížností zásahu 10."
+        },
+        "english": {
+          "name": "Trick Shot",
+          "description": "Land a shot with a difficulty of 10 while using a bow and arrow."
+        },
+        "hungarian": {
+          "name": "trükkös lövés",
+          "description": "Végezz el íjjal egy tízes nehézségű lövést."
+        },
+        "japanese": {
+          "name": "トリックショット",
+          "description": "弓矢を使用して、難易度10のショットを決める"
+        },
+        "polish": {
+          "name": "Strzał w dziesiątkę",
+          "description": "Pomyślnie wykonaj strzał o poziomie trudności 10 przy użyciu łuku i strzały."
+        },
+        "schinese": {
+          "name": "特技射击",
+          "description": "使用弓箭进行射击，难度为 10。"
+        },
+        "turkish": {
+          "name": "Hünerli Atış",
+          "description": "Ok ve yay kullanarak zorluğu 10 olan bir atış yap."
+        }
+      }
+    },
+    "GAMBIT": {
+      "translations": {
+        "czech": {
+          "name": "Gambit",
+          "description": "Zasáhni cíl vrhací zbraní s obtížností zásahu 5."
+        },
+        "english": {
+          "name": "Gambit",
+          "description": " Land a shot with a difficulty of 5 while using a throwing weapon."
+        },
+        "hungarian": {
+          "name": "trükk",
+          "description": "Végezz el hajítófegyverrel egy ötös nehézségű támadást."
+        },
+        "japanese": {
+          "name": "ガンビット",
+          "description": "投擲武器を使用して、難易度5のショットを決める"
+        },
+        "polish": {
+          "name": "Gambit",
+          "description": "Pomyślnie wykonaj bronią miotaną rzut o poziomie trudności 5."
+        },
+        "schinese": {
+          "name": "策略",
+          "description": "使用投掷武器进行难度为 5 的射击。"
+        },
+        "turkish": {
+          "name": "Hesaplı Atış",
+          "description": "Fırlatma silahı kullanarak zorluğu 5 olan bir atış yap."
+        }
+      }
+    },
+    "OLD_SCHOOL_SNIPER": {
+      "translations": {
+        "czech": {
+          "name": "Odstřelovač ze staré Školy",
+          "description": "Zasáhni cíl střelou z kuše s obtížností zásahu 6."
+        },
+        "english": {
+          "name": "Old school Sniper",
+          "description": " Land a shot with a difficulty of 6 while using a crossbow."
+        },
+        "hungarian": {
+          "name": "Ódivatú mesterlövész",
+          "description": "Végezz el számszeríjjal egy hatos nehézségű lövést."
+        },
+        "japanese": {
+          "name": "古の模範スナイパー",
+          "description": "クロスボウを使用して、難易度6のショットを決める"
+        },
+        "polish": {
+          "name": "Pierwowzór snajpera",
+          "description": "Pomyślnie wykonaj strzał o poziomie trudności 6 przy użyciu kuszy."
+        },
+        "schinese": {
+          "name": "老派狙击手",
+          "description": "使用十字弓进行射击，难度为 6。"
+        },
+        "turkish": {
+          "name": "Eski Toprak Keskin Nişancı",
+          "description": "Arbalet kullanarak zorluğu 6 olan bir atış yap."
+        }
+      }
+    },
+    "CALRADIAN_ARMY_KNIFE": {
+      "translations": {
+        "czech": {
+          "name": "Calradijský armádní nůž",
+          "description": "Zabij 10 nepřátel sekundárním útokem vrhacího nože."
+        },
+        "english": {
+          "name": "Calradian Army Knife",
+          "description": "Kill 10 enemies with a throwing weapon's secondary function."
+        },
+        "hungarian": {
+          "name": "calradiai katonai kés",
+          "description": "Ölj meg tíz ellenséget egy hajítófegyver másodlagos használatával."
+        },
+        "japanese": {
+          "name": "カルラディアの鋭い短刀",
+          "description": "投擲武器のサブ攻撃で敵10人を倒す"
+        },
+        "polish": {
+          "name": "Szeroki zakres zastosowań",
+          "description": "Zabij 10 przeciwników, korzystając z dodatkowej funkcji broni miotanej."
+        },
+        "schinese": {
+          "name": "卡拉迪亚军刀",
+          "description": "使用投掷武器的次要功能杀死 10 名敌人。"
+        },
+        "turkish": {
+          "name": "Kalradya Ordu Bıçağı",
+          "description": "Bir fırlatma silahının alternatif kullanımı ile 10 düşman öldür."
+        }
+      }
+    },
+    "MOUNTAIN_BLADE": {
+      "translations": {
+        "czech": {
+          "name": "Horalové a horalky",
+          "description": "Zabij 10 družin horských banditů."
+        },
+        "english": {
+          "name": "Mountain Blade",
+          "description": "Kill 10 parties of Mountain Bandits."
+        },
+        "hungarian": {
+          "name": "hegyomlás",
+          "description": "Ölj meg tíz csoportnyi hegyi rablót."
+        },
+        "japanese": {
+          "name": "山賊狩り",
+          "description": "山賊のパーティーを10体倒す"
+        },
+        "polish": {
+          "name": "Siła wyższa",
+          "description": "Zabij 10 oddziałów górskich bandytów."
+        },
+        "schinese": {
+          "name": "山刃",
+          "description": "击杀山贼10队。"
+        },
+        "turkish": {
+          "name": "Dağ Kılıcı",
+          "description": "10 parti Dağ Haydutu öldür."
+        }
+      }
+    },
+    "HOLY_DIVER": {
+      "translations": {
+        "czech": {
+          "name": "Svatá válka",
+          "description": "Zabij nebo zraň alespoň 500 nepřátel"
+        },
+        "english": {
+          "name": "Holy Diver",
+          "description": "Kill or wound at least 500 enemies."
+        },
+        "hungarian": {
+          "name": "szent harcos",
+          "description": "Ölj vagy sebesíts meg legalább ötszáz ellenséget."
+        },
+        "japanese": {
+          "name": "神聖なダイバー",
+          "description": "500人の敵を負傷もしくは殺害する"
+        },
+        "polish": {
+          "name": "Święta wojna",
+          "description": "Zabij lub zrań przynajmniej 500 przeciwników."
+        },
+        "schinese": {
+          "name": "神圣潜水员",
+          "description": "杀死或伤害至少 500 名敌人。"
+        },
+        "turkish": {
+          "name": "Kutsal Saldırı",
+          "description": "En az 500 düşmanı öldür veya yarala."
+        }
+      }
+    },
+    "FORCE_OF_NATURE": {
+      "translations": {
+        "czech": {
+          "name": "Přírodní Živel",
+          "description": "Se svou armádou zabij nebo zraň 5000 nepřátel."
+        },
+        "english": {
+          "name": "Force of Nature",
+          "description": "You and your army have killed or wounded 5,000 enemy troops."
+        },
+        "hungarian": {
+          "name": "természeti csapás",
+          "description": "Ölj meg seregeddel ötezer ellenséges katonát."
+        },
+        "japanese": {
+          "name": "大地の怒り",
+          "description": "プレイヤーもしくはプレイヤーの部隊が、敵の部隊を5,000人負傷もしくは殺害する"
+        },
+        "polish": {
+          "name": "Selekcja naturalna",
+          "description": "Razem ze swoją armią zabij lub zrań 5000 jednostek nieprzyjaciela."
+        },
+        "schinese": {
+          "name": "自然之力",
+          "description": "你和你的军队已经杀伤了 5,000 名敌军。"
+        },
+        "turkish": {
+          "name": "Doğal Afet",
+          "description": "Sen ve ordun toplamda 5.000 düşman askerini öldür veya yarala."
+        }
+      }
+    },
+    "BRING_OUT_YOUR_DEAD": {
+      "translations": {
+        "czech": {
+          "name": "Prvotřídní felčar",
+          "description": "Vylepši některou ze svých léčivých schopností na úroveň 5."
+        },
+        "english": {
+          "name": "Bring out your Dead",
+          "description": "Get one of your healing skills to 5."
+        },
+        "hungarian": {
+          "name": "hozzátok a halottakat",
+          "description": "Növeld egyik gyógyító képességed értékét ötre."
+        },
+        "japanese": {
+          "name": "遺体はどこだ",
+          "description": "回復スキルの1つを5レベルにする"
+        },
+        "polish": {
+          "name": "Życie jest piękne",
+          "description": "Doprowadź jedną z umiejętności leczących do poziomu 5."
+        },
+        "schinese": {
+          "name": "把你的死人带出来",
+          "description": "将你的一项治疗技能提升至 5。"
+        },
+        "turkish": {
+          "name": "Ölülerinizi Getirin",
+          "description": "Bir iyileştirme becerisini 5 seviyesine getir."
+        }
+      }
+    },
+    "MIGHT_MAKES_RIGHT": {
+      "translations": {
+        "czech": {
+          "name": "Moc činí pravomoc",
+          "description": "Vylepši buď dvě schopnosti síly na úroveň 5, nebo jednu na úroveň 7."
+        },
+        "english": {
+          "name": "Might makes Right",
+          "description": "Get either two strength related skills to 5 or one to 7."
+        },
+        "hungarian": {
+          "name": "az erő a nyerő",
+          "description": "Növeld két erővel kapcsolatos képességed értékét ötre, vagy az egyiket hétre."
+        },
+        "japanese": {
+          "name": "勝てば官軍",
+          "description": "腕力に関する2つのスキルを両方5レベルにするか、一方を7レベルにする"
+        },
+        "polish": {
+          "name": "Siła, masa - człowiek pierwsza klasa",
+          "description": "Zdobądź dwie umiejętności związane z siłą na poziomie 5 lub jedną na poziomie 7."
+        },
+        "schinese": {
+          "name": "强权即公理",
+          "description": "将两项与力量相关的技能提升至 5 或将一项提升至 7。"
+        },
+        "turkish": {
+          "name": "Kuvvetli Olan Haklıdır",
+          "description": "İki Kuvvet becerisini 5 ya da bir Kuvvet becerisini 7 yap."
+        }
+      }
+    },
+    "COMMUNITY_SERVICE": {
+      "translations": {
+        "czech": {
+          "name": "Služba komunitě",
+          "description": "Nainstaluj si a spusť libovolný mod."
+        },
+        "english": {
+          "name": "Community Service",
+          "description": "Install and play one mod."
+        },
+        "hungarian": {
+          "name": "közösségi szolgálat",
+          "description": "Telepíts és próbálj ki egy modot."
+        },
+        "japanese": {
+          "name": "社会奉仕",
+          "description": "1つのMODをインストールし、プレイする"
+        },
+        "polish": {
+          "name": "Bo wszyscy gracze to jedna rodzina",
+          "description": "Zainstaluj i skorzystaj z przynajmniej jednej modyfikacji do gry."
+        },
+        "schinese": {
+          "name": "社区服务",
+          "description": "安装并运行一个模组。"
+        },
+        "turkish": {
+          "name": "Topluluk Hizmeti",
+          "description": "Bir mod yükle ve oyna."
+        }
+      }
+    },
+    "AGILE_WARRIOR": {
+      "translations": {
+        "czech": {
+          "name": "Obratný válečník",
+          "description": "Vylepši buď dvě schopnosti pohyblivosti na úroveň 5, nebo jednu na úroveň 7."
+        },
+        "english": {
+          "name": "Agile Warrior",
+          "description": "Get either two agility related skills to 5 or one to 7."
+        },
+        "hungarian": {
+          "name": "fürge harcos",
+          "description": "Növeld két fürgeséggel kapcsolatos képességed értékét ötre, vagy az egyiket hétre."
+        },
+        "japanese": {
+          "name": "機動戦士",
+          "description": "敏捷性に関する2つのスキルを両方5レベルにするか、一方を7レベルにする"
+        },
+        "polish": {
+          "name": "Zwinny jak kot",
+          "description": "Zdobądź dwie umiejętności związane ze zręcznością na poziomie 5 lub jedną na poziomie 7."
+        },
+        "schinese": {
+          "name": "敏捷战士",
+          "description": "将两项与敏捷性相关的技能提升到 5 或将一项敏捷性相关技能提升到 7。"
+        },
+        "turkish": {
+          "name": "Çevik Savaşçı",
+          "description": "İki Çeviklik becerisini 5 ya da bir Çeviklik becerisini 7 yap."
+        }
+      }
+    },
+    "MELEE_MASTER": {
+      "translations": {
+        "czech": {
+          "name": "Mistr kontaktního boje",
+          "description": "Vylepši si jednu z dovedností se zbraněmi nablízko na úroveň 250."
+        },
+        "english": {
+          "name": "Melee Master",
+          "description": "Make one of your melee weapon skills 250."
+        },
+        "hungarian": {
+          "name": "a harc mestere",
+          "description": "Növeld egyik közelharci fegyverforgatási képességed értékét 250-re."
+        },
+        "japanese": {
+          "name": "乱戦の達人",
+          "description": "近接武器の1つの熟練度を250にする"
+        },
+        "polish": {
+          "name": "Oklepywacz",
+          "description": "Doprowadź jedną z umiejętności walki bronią w zwarciu do poziomu 250."
+        },
+        "schinese": {
+          "name": "近战大师",
+          "description": "使你的一项近战武器技能达到 250。"
+        },
+        "turkish": {
+          "name": "Yakın Dövüş Ustası",
+          "description": "Bir yakın dövüş silah hünerini 250 yap."
+        }
+      }
+    },
+    "DEXTEROUS_DASTARD": {
+      "translations": {
+        "czech": {
+          "name": "Čarostřelec",
+          "description": "Vylepši si jednu z dovedností se střelnými zbraněmi na úroveň 250."
+        },
+        "english": {
+          "name": "Dexterous Dastard",
+          "description": "Make one of your ranged weapon skills 250."
+        },
+        "hungarian": {
+          "name": "Ügyes kis dög",
+          "description": "Növeld egyik távolsági fegyverkezelési képességed értékét 250-re."
+        },
+        "japanese": {
+          "name": "器用な臆病者",
+          "description": "遠距離武器の1つの熟練度を250にする"
+        },
+        "polish": {
+          "name": "Pewna ręka, celne oko",
+          "description": "Doprowadź jedną z umiejętności walki bronią dystansową do poziomu 250."
+        },
+        "schinese": {
+          "name": "灵巧的混蛋",
+          "description": "使你的一项远程武器技能达到 250。"
+        },
+        "turkish": {
+          "name": "Becerikli Birader",
+          "description": "Bir menzilli silah hünerini 250 yap."
+        }
+      }
+    },
+    "MIND_ON_THE_MONEY": {
+      "translations": {
+        "czech": {
+          "name": "Penízky, penízky, hejbejte se",
+          "description": "Vylepši dvě z těchto schopností na úroveň 5: Kořistnictví, Skladování zásob, Obchod nebo Správa vězňů."
+        },
+        "english": {
+          "name": "Mind on the Money",
+          "description": "Have two of the following skills at a 5; Looting, Inventory Management, Trade, or Prisoner Management."
+        },
+        "hungarian": {
+          "name": "fogához a garast",
+          "description": "A következők közül emeld két képességed értékét is ötre: Fosztogatás, Készletkezelés, Kereskedés, Fogolykezelés."
+        },
+        "japanese": {
+          "name": "金がすべてじゃない",
+          "description": "次のうちの2つのスキルを5レベルにする：火事場泥棒、収納達人、商人の心、奴隷商人"
+        },
+        "polish": {
+          "name": "Żądza pieniądza",
+          "description": "Doprowadź dwie z wymienionych umiejętności do poz. 5: Zdobywanie łupów, Zarządzanie ekwipunkiem, Handel, Zarządzanie więźniami."
+        },
+        "schinese": {
+          "name": "注重金钱",
+          "description": "具备以下两项技能 5 分；抢劫、库存管理、贸易或囚犯管理。"
+        },
+        "turkish": {
+          "name": "Aklı Parada",
+          "description": "Şu becerilerden ikisini 5 yap: Yağma, Envanter Yönetimi, Ticaret veya Esir Yönetimi."
+        }
+      }
+    },
+    "ART_OF_WAR": {
+      "translations": {
+        "czech": {
+          "name": "Umění válečné",
+          "description": "Vylepši dvě z těchto schopností na úroveň 5: Cvičitel, Taktika, Velitelství nebo Přesvědčování."
+        },
+        "english": {
+          "name": "Art of War",
+          "description": "Have two of the following skills at a 5; Trainer, Tactics, Leadership, or Persuasion."
+        },
+        "hungarian": {
+          "name": "a háború művészete",
+          "description": "A következők közül emeled két képességed értékét is ötre: Kiképző, Taktika, Vezető, Meggyőzés."
+        },
+        "japanese": {
+          "name": "戦争術",
+          "description": "次のうちの2つのスキルを5レベルにする：鬼軍曹、軍師、指導者の器、人心掌握"
+        },
+        "polish": {
+          "name": "Sztuka wojny",
+          "description": "Doprowadź dwie z wymienionych umiejętności do poz. 5: Nauczyciel, Taktyka, Przywództwo, Perswazja."
+        },
+        "schinese": {
+          "name": "兵法",
+          "description": "具备以下两项技能 5 分；培训师、策略、领导力或说服力。"
+        },
+        "turkish": {
+          "name": "Savaş Sanatı",
+          "description": "Şu becerilerden ikisini 5 yap: Talimci, Taktik, Liderlik veya İkna."
+        }
+      }
+    },
+    "THE_RANGER": {
+      "translations": {
+        "czech": {
+          "name": "Hraničář",
+          "description": "Vylepši dvě z těchto schopností na úroveň 5, nebo jednu na úroveň 7: Stopování, Hledání cesty nebo Pozorování."
+        },
+        "english": {
+          "name": "The Ranger",
+          "description": "Have a 7 in one of the following skills or a 5 in two; Tracking, Path-finding, or Spotting."
+        },
+        "hungarian": {
+          "name": "erdőjáró",
+          "description": "A következők közül emeled két képességed értékét ötre, vagy az egyiket hétre: Nyomkövetés, Útkeresés, Megfigyelés."
+        },
+        "japanese": {
+          "name": "特殊部隊",
+          "description": "次のうちの2つのスキルを両方5レベルにするか、どれかを7レベルにする：追跡調査、経路探索、斥候"
+        },
+        "polish": {
+          "name": "Leśniczy",
+          "description": "Zdobądź poz. 7 w jednej lub poz. 5 w dwóch z wymienionych umiejętności: Tropienie, Orientacja w terenie, Spostrzegawczość."
+        },
+        "schinese": {
+          "name": "游侠",
+          "description": "以下技能之一达到 7 分，或两项技能达到 5 分；跟踪、寻路或定位。"
+        },
+        "turkish": {
+          "name": "Korucu",
+          "description": "Şu becerilerden birini 7 veya ikisini 5 yap: İz Sürme, Yön Bulma veya Tespit Etme."
+        }
+      }
+    },
+    "TROJAN_BUNNY_MAKER": {
+      "translations": {
+        "czech": {
+          "name": "Trójský králík",
+          "description": "Vylepši si schopnost Stavebnictví na úroveň 5."
+        },
+        "english": {
+          "name": "Trojan Bunny Maker",
+          "description": "Get the engineering skill up to 5."
+        },
+        "hungarian": {
+          "name": "trójai fanyúl",
+          "description": "Növeld mérnöki képességed értékét ötre."
+        },
+        "japanese": {
+          "name": "トロイの木馬製造",
+          "description": "一級整備士のスキルを5レベルにする"
+        },
+        "polish": {
+          "name": "Pomocnik szwagra",
+          "description": "Doprowadź zdolność inżynierii do poziomu 5."
+        },
+        "schinese": {
+          "name": "木马兔子制造者",
+          "description": "将工程技能提升至 5。"
+        },
+        "turkish": {
+          "name": "Truva Tavşan Ustası",
+          "description": "Mühendislik becerisini 5 yap."
+        }
+      }
+    },
+    "MIGRATING_COCONUTS": {
+      "translations": {
+        "czech": {
+          "name": "Světoběžník",
+          "description": "Navštiv všechna velká města v Calradii."
+        },
+        "english": {
+          "name": "Migrating Coconuts",
+          "description": "Visit every major town in Calradia."
+        },
+        "hungarian": {
+          "name": "vándor kókuszok",
+          "description": "Látogasd meg Calradia nagyobb városait."
+        },
+        "japanese": {
+          "name": "転がるココナッツ",
+          "description": "カルラディアの主都市をすべて訪れる"
+        },
+        "polish": {
+          "name": "Włóczykij",
+          "description": "Odwiedź każde większe miasto w Calradii."
+        },
+        "schinese": {
+          "name": "迁徙的椰子",
+          "description": "参观卡拉迪亚的每个主要城镇。"
+        },
+        "turkish": {
+          "name": "Göç Eden Hindistan Cevizleri",
+          "description": "Kalradya'daki bütün büyük şehirleri ziyaret et."
+        }
+      }
+    },
+    "HELP_HELP_IM_BEING_REPRESSED": {
+      "translations": {
+        "czech": {
+          "name": "Pomoc, utlačují mě",
+          "description": "Zachovej se na mapě nepřátelsky k potulným rolníkům."
+        },
+        "english": {
+          "name": "Help Help I'm being Repressed",
+          "description": "Harass wandering peasants on the map."
+        },
+        "hungarian": {
+          "name": "segítség, elnyomnak!",
+          "description": "Nyaggasd a kósza parasztokat."
+        },
+        "japanese": {
+          "name": "どうかお助けを",
+          "description": "マップ上の農民の行動を妨害する"
+        },
+        "polish": {
+          "name": "Ratunku! Władcy mnie biją!",
+          "description": "Nękaj wędrujących wieśniaków na mapie."
+        },
+        "schinese": {
+          "name": "帮助帮助我被压抑了",
+          "description": "骚扰地图上流浪的农民。"
+        },
+        "turkish": {
+          "name": "İmdat İmdat Ben Baskı Altındayım",
+          "description": "Haritada dolaşan köylüleri rahatsız et."
+        }
+      }
+    },
+    "SARRANIDIAN_NIGHTS": {
+      "translations": {
+        "czech": {
+          "name": "Sarranidské noci",
+          "description": "Rozbij tábor v oblasti Sarranidského sultanátu."
+        },
+        "english": {
+          "name": "Sarranidian Nights",
+          "description": "Camp in the Sarranid region of the map."
+        },
+        "hungarian": {
+          "name": "sarranidi Éjszakák",
+          "description": "Táborozz a sarranidi régióban."
+        },
+        "japanese": {
+          "name": "サランの夜",
+          "description": "マップ上のサラン領内でキャンプを設置する"
+        },
+        "polish": {
+          "name": "Sarranidzkie noce",
+          "description": "Rozbij obóz w Sarranidzkiej części mapy."
+        },
+        "schinese": {
+          "name": "萨兰尼德之夜",
+          "description": "在地图的 Sarranid 地区露营。"
+        },
+        "turkish": {
+          "name": "Sarranid Geceleri",
+          "description": "Haritanın Sarranid bölgesinde kamp yap."
+        }
+      }
+    },
+    "OLD_DIRTY_SCOUNDREL": {
+      "translations": {
+        "czech": {
+          "name": "Starej prašivec",
+          "description": "Dosáhni vztahu -50 s nějakým lordem, vesnicí nebo frakcí."
+        },
+        "english": {
+          "name": "Old dirty scoundrel",
+          "description": "Have a -50 relation with a lord, village, or faction."
+        },
+        "hungarian": {
+          "name": "Átkozott csirkefogó",
+          "description": "Legyen -50 a viszonyod egy lorddal, várossal vagy frakcióval."
+        },
+        "japanese": {
+          "name": "古の悪党",
+          "description": "領主、村長、ある一派のいずれかの関係値を-50にする"
+        },
+        "polish": {
+          "name": "Ty parszywy draniu!",
+          "description": "Osiągnij poziom stosunków z lordem, wioską lub frakcją w wysokości -50."
+        },
+        "schinese": {
+          "name": "老肮脏的恶棍",
+          "description": "与领主、村庄或派系的关系为 -50。"
+        },
+        "turkish": {
+          "name": "Yaşlı Kirli Adi",
+          "description": "Bir lord, köy veya lord ile -50 ilişkin olsun."
+        }
+      }
+    },
+    "THE_BANDIT": {
+      "translations": {
+        "czech": {
+          "name": "Bandita",
+          "description": "Přepadni 3 karavany a vydrancuj 3 vesnice."
+        },
+        "english": {
+          "name": "The Bandit",
+          "description": "Raid 3 caravans and raid 3 villages."
+        },
+        "hungarian": {
+          "name": "a rabló",
+          "description": "Rabolj ki három karavánt, vagy dúlj fel három falut."
+        },
+        "japanese": {
+          "name": "盗賊団",
+          "description": "3つの隊商もしくは3つの村を襲撃する"
+        },
+        "polish": {
+          "name": "Rozbójnik",
+          "description": "Zrabuj 3 karawany i najedź 3 wioski."
+        },
+        "schinese": {
+          "name": "强盗",
+          "description": "突袭 3 个商队并突袭 3 个村庄。"
+        },
+        "turkish": {
+          "name": "Yağmacı",
+          "description": "3 kervanı ve 3 köyü yağmala."
+        }
+      }
+    },
+    "GOT_MILK": {
+      "translations": {
+        "czech": {
+          "name": "Nedělej kraviny",
+          "description": "Ukradni 3 kusy dobytka z jedné vesnice."
+        },
+        "english": {
+          "name": "Got Milk?",
+          "description": "Steal 3 cattle from a single village."
+        },
+        "hungarian": {
+          "name": "tejben-vajban",
+          "description": "Köss el három fejőstehenet egyetlen faluból."
+        },
+        "japanese": {
+          "name": "ミルクはいかが？",
+          "description": "1つの村から3頭の牛を盗む"
+        },
+        "polish": {
+          "name": "Daj babo mleka",
+          "description": "Przywłaszcz sobie trzy sztuki bydła w jednej z wiosek."
+        },
+        "schinese": {
+          "name": "有牛奶吗？",
+          "description": "从一个村庄偷了 3 头牛。"
+        },
+        "turkish": {
+          "name": "Sütün Var Mı?",
+          "description": "Tek bir köyden 3 sığır çal."
+        }
+      }
+    },
+    "SOLD_INTO_SLAVERY": {
+      "translations": {
+        "czech": {
+          "name": "Nová pracovní síla",
+          "description": "Prodej 5 lidí vymahači výkupného."
+        },
+        "english": {
+          "name": "Sold into Slavery",
+          "description": "Sell 5 people to the ransom broker."
+        },
+        "hungarian": {
+          "name": "szolgasorba taszítva",
+          "description": "Adj el öt személyt az emberkereskedőnek."
+        },
+        "japanese": {
+          "name": "奴隷売買",
+          "description": "奴隷商人に捕虜を5人売却する"
+        },
+        "polish": {
+          "name": "Zniewoleni",
+          "description": "Sprzedaj 5 osób pośrednikowi okupów."
+        },
+        "schinese": {
+          "name": "被卖为奴隶",
+          "description": "将 5 个人卖给赎金经纪人。"
+        },
+        "turkish": {
+          "name": "Köleliğe Satıldı",
+          "description": "Köle Tüccarına 5 kişi sat."
+        }
+      }
+    },
+    "MEDIEVAL_TIMES": {
+      "translations": {
+        "czech": {
+          "name": "Jako ve středověku",
+          "description": "Vyhraj turnaj."
+        },
+        "english": {
+          "name": "Medieval Times",
+          "description": "Enter and win a tournament."
+        },
+        "hungarian": {
+          "name": "középkor",
+          "description": "Indulj el, és nyerj is egy lovagi tornát."
+        },
+        "japanese": {
+          "name": "中世時代",
+          "description": "武闘大会に参加し、勝利する"
+        },
+        "polish": {
+          "name": "Średniowiecze - genialne, prawda?",
+          "description": "Weź udział w turnieju i zostań zwycięzcą."
+        },
+        "schinese": {
+          "name": "中世纪时期",
+          "description": "参加并赢得锦标赛。"
+        },
+        "turkish": {
+          "name": "Orta Çağ Zamanları",
+          "description": "Bir turnuvaya katıl ve kazan."
+        }
+      }
+    },
+    "GOOD_SAMARITAN": {
+      "translations": {
+        "czech": {
+          "name": "Dobrý samaritán",
+          "description": "Pomoz některému z lordů vyhrát bitvu."
+        },
+        "english": {
+          "name": "Good Samaritan",
+          "description": "Help a lord or party win a fight."
+        },
+        "hungarian": {
+          "name": "irgalmas szamaritánus",
+          "description": "Segíts győzelemre egy lordot vagy csapatot."
+        },
+        "japanese": {
+          "name": "良きサマリア人",
+          "description": "領主やパーティーを助太刀し、戦いに勝利する"
+        },
+        "polish": {
+          "name": "Dobry Samarytanin",
+          "description": "Wspomóż lorda lub oddział w walce i wygraj."
+        },
+        "schinese": {
+          "name": "好撒玛利亚人",
+          "description": "帮助领主或政党赢得战斗。"
+        },
+        "turkish": {
+          "name": "İyi İnsan",
+          "description": "Bir lorda veya partiye savaş kazanmakta yardımcı ol."
+        }
+      }
+    },
+    "MORALE_LEADER": {
+      "translations": {
+        "czech": {
+          "name": "Hlavy vzhůru",
+          "description": "Pozvedni morálku svých vojáků z nízké na nejvyšší."
+        },
+        "english": {
+          "name": "Morale Leader",
+          "description": "Raise your soldiers' morale from low to excellent."
+        },
+        "hungarian": {
+          "name": "lelkesítő hadvezér",
+          "description": "Emeld katonáid morálját alacsonyról kitűnő szintre."
+        },
+        "japanese": {
+          "name": "士気が高い指揮官",
+          "description": "プレイヤーの兵士の士気を最高にする"
+        },
+        "polish": {
+          "name": "Natchniony dowódca",
+          "description": "Podnieś morale swoich żołnierzy z niskich do znakomitych."
+        },
+        "schinese": {
+          "name": "士气领袖",
+          "description": "将士兵的士气从低落提升到优秀。"
+        },
+        "turkish": {
+          "name": "Moral Lideri",
+          "description": "Askerlerinin moralini düşükten mükemmele yükselt."
+        }
+      }
+    },
+    "ABUNDANT_FEAST": {
+      "translations": {
+        "czech": {
+          "name": "Obžera",
+          "description": "Měj v batohu 6 různých druhů jídla najednou."
+        },
+        "english": {
+          "name": "Abundant Feast",
+          "description": "Eat 6 different types food concurrently."
+        },
+        "hungarian": {
+          "name": "bőséges lakoma",
+          "description": "Egyél egyszerre hatféle ételből."
+        },
+        "japanese": {
+          "name": "豪勢な宴",
+          "description": "6つの異なる食品を同時に飲食する"
+        },
+        "polish": {
+          "name": "Podano do stołu",
+          "description": "Zjedz 6 różnych typów jadła, jedno po drugim."
+        },
+        "schinese": {
+          "name": "丰盛的盛宴",
+          "description": "同时吃6种不同类型的食物。"
+        },
+        "turkish": {
+          "name": "Zengin Ziyafet",
+          "description": "Aynı anda 6 farklı yemeği tüket."
+        }
+      }
+    },
+    "BOOK_WORM": {
+      "translations": {
+        "czech": {
+          "name": "Knihomol",
+          "description": "Dočti jednu knihu až do konce."
+        },
+        "english": {
+          "name": "Book Worm",
+          "description": "Finish reading one book through the camping screen."
+        },
+        "hungarian": {
+          "name": "könyvmoly",
+          "description": "Olvass végig egy könyvet a hadjárati képernyőn."
+        },
+        "japanese": {
+          "name": "本の虫",
+          "description": "キャンプ画面から1冊の本を読み終える"
+        },
+        "polish": {
+          "name": "Mol książkowy",
+          "description": "Przeczytaj książkę, korzystając z ekranu obozu."
+        },
+        "schinese": {
+          "name": "书虫",
+          "description": "通过露营屏幕读完一本书。"
+        },
+        "turkish": {
+          "name": "Kitap Kurdu",
+          "description": "Kamp ekranında bir kitabı tamamen oku."
+        }
+      }
+    },
+    "ROMANTIC_WARRIOR": {
+      "translations": {
+        "czech": {
+          "name": "Válečník romantik",
+          "description": "Nauč se od bardů 3 básně."
+        },
+        "english": {
+          "name": "Romantic Warrior",
+          "description": "Learn 3 poems from tavern bards."
+        },
+        "hungarian": {
+          "name": "romantikus harcos",
+          "description": "Tanulj el három verset a kocsmai bárdoktól."
+        },
+        "japanese": {
+          "name": "ロマンティスト戦士",
+          "description": "宿屋にいる詩人から3つの詩を教わる"
+        },
+        "polish": {
+          "name": "Romantyczny wojownik",
+          "description": "Naucz się 3 poematów od bardów w tawernach."
+        },
+        "schinese": {
+          "name": "浪漫战士",
+          "description": "向酒馆吟游诗人学习 3 首诗。"
+        },
+        "turkish": {
+          "name": "Romantik Savaşçı",
+          "description": "Taverna ozanından 3 şiir öğren."
+        }
+      }
+    },
+    "HAPPILY_EVER_AFTER": {
+      "translations": {
+        "czech": {
+          "name": "Dokud nás smrt nerozdělí",
+          "description": "Uzavři sňatek."
+        },
+        "english": {
+          "name": "Happily ever after",
+          "description": "Get Married."
+        },
+        "hungarian": {
+          "name": "boldogan Éltek",
+          "description": "Házasodj meg."
+        },
+        "japanese": {
+          "name": "永久の幸せ",
+          "description": "結婚する"
+        },
+        "polish": {
+          "name": "I żyli długo i szczęśliwie",
+          "description": "Pobierz się."
+        },
+        "schinese": {
+          "name": "从此幸福快乐",
+          "description": "结婚。"
+        },
+        "turkish": {
+          "name": "Sonsuza Dek Mutlu",
+          "description": "Evlen."
+        }
+      }
+    },
+    "HEART_BREAKER": {
+      "translations": {
+        "czech": {
+          "name": "Zlomené srdce",
+          "description": "Donuť svou milovanou osobu se s tebou rozejít."
+        },
+        "english": {
+          "name": "Heart Breaker",
+          "description": "Get a character to elope."
+        },
+        "hungarian": {
+          "name": "szívtipró",
+          "description": "Szökjön el egyik követőd."
+        },
+        "japanese": {
+          "name": "人を傷つける者",
+          "description": "駆け落ちする"
+        },
+        "polish": {
+          "name": "Łamacz serc",
+          "description": "Doprowadź postać do ucieczki."
+        },
+        "schinese": {
+          "name": "心碎者",
+          "description": "让一个角色私奔。"
+        },
+        "turkish": {
+          "name": "Kalp Kıran",
+          "description": "Bir karakteri kaçırarak evlen."
+        }
+      }
+    },
+    "AUTONOMOUS_COLLECTIVE": {
+      "translations": {
+        "czech": {
+          "name": "Kolektivní samovláda",
+          "description": "Nechej se zvolit do pozice maršála."
+        },
+        "english": {
+          "name": "Autonomous Collective",
+          "description": "Be chosen as marshall."
+        },
+        "hungarian": {
+          "name": "Önálló döntéshozó",
+          "description": "Nevezzenek ki marsallnak."
+        },
+        "japanese": {
+          "name": "自律集団",
+          "description": "元帥に選出される"
+        },
+        "polish": {
+          "name": "Autonomiczna samowola",
+          "description": "Zostań mianowany marszałkiem."
+        },
+        "schinese": {
+          "name": "自治集体",
+          "description": "被选为元帅。"
+        },
+        "turkish": {
+          "name": "Otonom Müşterek",
+          "description": "Mareşal olarak seçil."
+        }
+      }
+    },
+    "I_DUB_THEE": {
+      "translations": {
+        "czech": {
+          "name": "Povýšení",
+          "description": "Jmenuj jednoho svého následovníka do mocného úřadu."
+        },
+        "english": {
+          "name": "I dub thee",
+          "description": "Promote one of your followers into a position of power."
+        },
+        "hungarian": {
+          "name": "mától legyen neved",
+          "description": "Léptesd elő egyik követődet hatalmi pozícióba."
+        },
+        "japanese": {
+          "name": "側近",
+          "description": "権力の位置に1人の追従者を昇格する"
+        },
+        "polish": {
+          "name": "Awans",
+          "description": "Uczyń jednego ze swoich pobratymców władcą."
+        },
+        "schinese": {
+          "name": "我给你起名",
+          "description": "将你的一名追随者提拔到权力位置。"
+        },
+        "turkish": {
+          "name": "Seni Kutsuyorum",
+          "description": "Takipçilerinden birini bir güç konumuna yükselt."
+        }
+      }
+    },
+    "SASSY": {
+      "translations": {
+        "czech": {
+          "name": "Kdo je u tebe slepice?",
+          "description": "Jako ženská postava rozpoutej duel s lordem tím, že ho urazíš."
+        },
+        "english": {
+          "name": "Sassy!",
+          "description": "As a female character get into a duel with male lord by insulting him."
+        },
+        "hungarian": {
+          "name": "pimasz!",
+          "description": "Női karakterként sértegess egy lordot és keveredj vele harcba."
+        },
+        "japanese": {
+          "name": "生意気！",
+          "description": "女性キャラクターで、ある領主を侮辱している者と決闘する"
+        },
+        "polish": {
+          "name": "Mocna w gębie!",
+          "description": "Grając żeńską postacią, zainicjuj pojedynek z męskim lordem przez znieważenie go."
+        },
+        "schinese": {
+          "name": "时髦！",
+          "description": "作为女性角色，通过侮辱男性领主与男性领主进行决斗。"
+        },
+        "turkish": {
+          "name": "Küstah!",
+          "description": "Kadın bir karakter olarak erkek bir lordu aşağılayarak onu bir düelloya çağır."
+        }
+      }
+    },
+    "THE_GOLDEN_THRONE": {
+      "translations": {
+        "czech": {
+          "name": "Zlatý trůn",
+          "description": "Ovládni celou Calradii!"
+        },
+        "english": {
+          "name": "The Golden Throne ",
+          "description": "Rule all of Calradia!"
+        },
+        "hungarian": {
+          "name": "aranytrónus",
+          "description": "Uralkodj egész Calradián!"
+        },
+        "japanese": {
+          "name": "黄金の玉座",
+          "description": "カルラディア全土を支配する！"
+        },
+        "polish": {
+          "name": "Złoty tron",
+          "description": "Obejmij władzę nad całą Calradią!"
+        },
+        "schinese": {
+          "name": "黄金王座",
+          "description": "统治整个卡拉迪亚！"
+        },
+        "turkish": {
+          "name": "Altın Taht",
+          "description": "Bütün Kalradya'ya hükmet!"
+        }
+      }
+    },
+    "KNIGHTS_OF_THE_ROUND": {
+      "translations": {
+        "czech": {
+          "name": "Rytíři kulatého stolu",
+          "description": "Najmi 6 hrdinů."
+        },
+        "english": {
+          "name": "Knights of the Round",
+          "description": "Recruit 6 hero characters."
+        },
+        "hungarian": {
+          "name": "kerekasztal lovagjai",
+          "description": "Toborozz hat hőst."
+        },
+        "japanese": {
+          "name": "円卓の騎士",
+          "description": "6人のヒーローキャラクターを雇う"
+        },
+        "polish": {
+          "name": "Rycerze Okrągłego Stołu",
+          "description": "Najmij 6 bohaterów."
+        },
+        "schinese": {
+          "name": "圆桌骑士",
+          "description": "招募 6 名英雄角色。"
+        },
+        "turkish": {
+          "name": "Yuvarlak Masa Şövalyeleri",
+          "description": "6 kahraman karakter topla."
+        }
+      }
+    },
+    "TALKING_HELPS": {
+      "translations": {
+        "czech": {
+          "name": "Pojďme si povídat",
+          "description": "Promluv si s některým z hrdinů ve své družině."
+        },
+        "english": {
+          "name": "Talking helps",
+          "description": "Engage in a conversation with a hero character through the party screen."
+        },
+        "hungarian": {
+          "name": "beszéljük meg",
+          "description": "Elegyedj beszédbe egy hőssel a csapatképernyőről."
+        },
+        "japanese": {
+          "name": "助けの相談",
+          "description": "パーティー画面からヒーローキャラクターと会話する"
+        },
+        "polish": {
+          "name": "Kto pyta, nie błądzi",
+          "description": "Wdaj się w rozmowę z bohaterem, korzystając z ekranu oddziału."
+        },
+        "schinese": {
+          "name": "说话有帮助",
+          "description": "通过派对屏幕与英雄角色进行对话。"
+        },
+        "turkish": {
+          "name": "Konuşmak İşe Yarar",
+          "description": "Parti ekranı aracılığıyla bir kahraman karakter ile konuş."
+        }
+      }
+    },
+    "KINGMAKER": {
+      "translations": {
+        "czech": {
+          "name": "Králotvůrce",
+          "description": "Dosaď na trůn jeho právoplatného majitele."
+        },
+        "english": {
+          "name": "Kingmaker",
+          "description": "Put a pretender on their rightful throne."
+        },
+        "hungarian": {
+          "name": "jogos juss",
+          "description": "Juttass egy trónkövetelőt királyi székbe."
+        },
+        "japanese": {
+          "name": "黒幕",
+          "description": "正当な王位に偽物の後継者を就ける"
+        },
+        "polish": {
+          "name": "Króloróbca",
+          "description": "Doprowadź do koronacji należytego dziedzica tronu."
+        },
+        "schinese": {
+          "name": "拥王者",
+          "description": "把一个觊觎者放在他们合法的王位上。"
+        },
+        "turkish": {
+          "name": "Kral Belirleyen",
+          "description": "Bir taht varisini haklı tahtına çıkart."
+        }
+      }
+    },
+    "PUGNACIOUS_D": {
+      "translations": {
+        "czech": {
+          "name": "Na férovku",
+          "description": "Pusť se do bitvy s lordem tím, že ho urazíš nebo ho vyzveš na souboj."
+        },
+        "english": {
+          "name": "Pugnascious D",
+          "description": "Pick a fight with a lord by insulting him or by challenging him to a duel."
+        },
+        "hungarian": {
+          "name": "kötekedő verekedő",
+          "description": "Sértegess egy lordot és keveredj vele harcba, vagy hívd ki párbajra."
+        },
+        "japanese": {
+          "name": "喧嘩っ早い",
+          "description": "ある領主を侮辱し、戦闘もしくは決闘を挑む"
+        },
+        "polish": {
+          "name": "Kto się przezywa, tak sam się nazywa",
+          "description": "Wdaj się w bójkę z lordem przez znieważenie lub wyzwanie go na pojedynek."
+        },
+        "schinese": {
+          "name": "好斗的D",
+          "description": "通过侮辱领主或向他发起决斗挑战来挑衅他。"
+        },
+        "turkish": {
+          "name": "Hırçın Biri",
+          "description": "Bir lord ile onu aşağılayarak veya düelloya davet ederek dövüş."
+        }
+      }
+    },
+    "GOLD_FARMER": {
+      "translations": {
+        "czech": {
+          "name": "Zlatokop",
+          "description": "Nashromáždi 100 000 denárů."
+        },
+        "english": {
+          "name": "Gold Farmer",
+          "description": "Amass a fortune of 100,000 denars."
+        },
+        "hungarian": {
+          "name": "aranyember",
+          "description": "Halmozz fel 100 000 dénár értékű vagyont."
+        },
+        "japanese": {
+          "name": "ゴールドファーマー",
+          "description": "100,000デナールを蓄える"
+        },
+        "polish": {
+          "name": "Złote dziecko",
+          "description": "Dorób się fortuny w wysokości 100 000 denarów."
+        },
+        "schinese": {
+          "name": "黄金农夫",
+          "description": "积累10万第纳尔的财富。"
+        },
+        "turkish": {
+          "name": "Altın Çiftçisi",
+          "description": "100.000 dinarlık bir servet biriktir."
+        }
+      }
+    },
+    "ROYALITY_PAYMENT": {
+      "translations": {
+        "czech": {
+          "name": "Královská odměna",
+          "description": "Získej první léno."
+        },
+        "english": {
+          "name": "Royality Payment",
+          "description": "Be granted your first fief."
+        },
+        "hungarian": {
+          "name": "hűbéri adó",
+          "description": "Érdemelj ki egy hűbérbirtokot."
+        },
+        "japanese": {
+          "name": "対価支払",
+          "description": "最初の領地を与えられる"
+        },
+        "polish": {
+          "name": "Ziemia Obiecana",
+          "description": "Otrzymaj swoje pierwsze lenno."
+        },
+        "schinese": {
+          "name": "特许权使用费支付",
+          "description": "获得你的第一个封地。"
+        },
+        "turkish": {
+          "name": "Kraliyet Ödemesi",
+          "description": "İlk tımarını kazan."
+        }
+      }
+    },
+    "MEDIEVAL_EMLAK": {
+      "translations": {
+        "czech": {
+          "name": "Teď poznáte středověk",
+          "description": "Staň se majitelem alespoň 5 lén."
+        },
+        "english": {
+          "name": "Medieval Emlak",
+          "description": "Become the owner of at least 5 fiefs."
+        },
+        "hungarian": {
+          "name": "kiskirály",
+          "description": "Szerezz öt hűbérbirtokot."
+        },
+        "japanese": {
+          "name": "中世の領主",
+          "description": "5つの領地の主になる"
+        },
+        "polish": {
+          "name": "Pan i Władca",
+          "description": "Wejdź w posiadanie piątego lenna."
+        },
+        "schinese": {
+          "name": "中世纪埃姆拉克",
+          "description": "成为至少 5 个封地的所有者。"
+        },
+        "turkish": {
+          "name": "Orta Çağ Emlağı",
+          "description": "En az 5 tımarın sahibi ol."
+        }
+      }
+    },
+    "CALRADIAN_TEA_PARTY": {
+      "translations": {
+        "czech": {
+          "name": "Calradijské pití Čaje",
+          "description": "Založ svou vlastní frakci."
+        },
+        "english": {
+          "name": "Calradian Tea Party",
+          "description": "Make your own faction."
+        },
+        "hungarian": {
+          "name": "calradiai teazsúr",
+          "description": "Alapíts saját frakciót."
+        },
+        "japanese": {
+          "name": "騎士団結束式典",
+          "description": "プレイヤー自体の部隊を結成する"
+        },
+        "polish": {
+          "name": "Calradyjskie Stronnictwo Ludowe",
+          "description": "Stwórz własną frakcję."
+        },
+        "schinese": {
+          "name": "卡拉迪亚茶会",
+          "description": "创建自己的派系。"
+        },
+        "turkish": {
+          "name": "Kalradya Çay Partisi",
+          "description": "Kendi krallığını kur."
+        }
+      }
+    },
+    "MANIFEST_DESTINY": {
+      "translations": {
+        "czech": {
+          "name": "Z vůle osudu",
+          "description": "Dopomož své frakci ovládnout Calradii."
+        },
+        "english": {
+          "name": "Manifest Destiny",
+          "description": "Assist your faction in conquering Calradia."
+        },
+        "hungarian": {
+          "name": "megtestesülő végzet",
+          "description": "Segítsd a frakciódat Calradia meghódítására."
+        },
+        "japanese": {
+          "name": "有言実行",
+          "description": "自分が所属する勢力でカルラディアを征服する"
+        },
+        "polish": {
+          "name": "Nie uciekniesz przed przeznaczeniem",
+          "description": "Wspomóż swą frakcję w podbiciu Calradii."
+        },
+        "schinese": {
+          "name": "昭昭天命",
+          "description": "协助你的派系征服卡拉迪亚。"
+        },
+        "turkish": {
+          "name": "Açık Kader",
+          "description": "Krallığına Kalradya'yı fethetmesinde yardımcı ol."
+        }
+      }
+    },
+    "CONCILIO_CALRADI": {
+      "translations": {
+        "czech": {
+          "name": "Calradijský koncil",
+          "description": "Jako panovník měj 3 vazaly."
+        },
+        "english": {
+          "name": "Concilio Calradi",
+          "description": "As a ruler have 3 vassals."
+        },
+        "hungarian": {
+          "name": "concilio calradi",
+          "description": "Uralkodóként legyen három vazallusod."
+        },
+        "japanese": {
+          "name": "教会会議",
+          "description": "支配者として3人の臣下を持つ"
+        },
+        "polish": {
+          "name": "Concilio Calradi",
+          "description": "Będąc władcą, miej 3 wasali."
+        },
+        "schinese": {
+          "name": "康西利奥·卡拉迪",
+          "description": "作为统治者有3个封臣。"
+        },
+        "turkish": {
+          "name": "Concilio Calradi",
+          "description": "Yönetici olarak 3 derebeyin olsun."
+        }
+      }
+    },
+    "VICTUM_SEQUENS": {
+      "translations": {
+        "czech": {
+          "name": "Victum sequens",
+          "description": "Jako panovník dobuď 10 měst či hradů."
+        },
+        "english": {
+          "name": "Victum Sequens",
+          "description": "As a ruler conquer 10 towns or castles."
+        },
+        "hungarian": {
+          "name": "victum sequens",
+          "description": "Uralkodóként hódíts meg tíz várost vagy kastélyt."
+        },
+        "japanese": {
+          "name": "野望への足掛かり",
+          "description": "支配者として10の都市もしくは城を征服する"
+        },
+        "polish": {
+          "name": "A teraz pora na podatki",
+          "description": "Będąc władcą, podbij 10 miast lub zamków."
+        },
+        "schinese": {
+          "name": "受害者序列",
+          "description": "作为统治者征服 10 个城镇或城堡。"
+        },
+        "turkish": {
+          "name": "Victum Sequens",
+          "description": "Yönetici olarak 10 şehir veya kale fethet."
+        }
+      }
+    },
+    "THIS_IS_OUR_LAND": {
+      "translations": {
+        "czech": {
+          "name": "Tahle země patří nám",
+          "description": "(MP) Tvůj tým úspěšně ubránil hrad v režimu Obléhání."
+        },
+        "english": {
+          "name": "This is our land",
+          "description": "(MP) Your team successfully defended a castle in siege battle mode."
+        },
+        "hungarian": {
+          "name": "ez a mi földünk",
+          "description": "Többszemélyes játékban védjetek meg egy kastélyt az ostrom játékmódban."
+        },
+        "japanese": {
+          "name": "ここは我が土地なり",
+          "description": "包囲戦で自分たちのチームが城を守ることに成功する(マルチプレイ)"
+        },
+        "polish": {
+          "name": "Trzy świnki i wilk",
+          "description": "(Wieloos.) Twoja drużyna pomyślnie obroniła zamek w trybie oblężenia."
+        },
+        "schinese": {
+          "name": "这是我们的土地",
+          "description": "(MP) 你的队伍在攻城战模式中成功保卫了一座城堡。"
+        },
+        "turkish": {
+          "name": "Burası Bizim Toprağımız",
+          "description": "(ÇO) Takımınla kale kuşatması modunda başarıyla bir kaleyi savun."
+        }
+      }
+    },
+    "SPOIL_THE_CHARGE": {
+      "translations": {
+        "czech": {
+          "name": "Koním vstup zakázán",
+          "description": "(MP) Jako pěšák zabij 50 jezdců na koni; nepřátelé musí být zabiti v sedle."
+        },
+        "english": {
+          "name": "Spoil the charge",
+          "description": "(MP) Kill 50 cavalry while on foot, the enemy must be killed while mounted."
+        },
+        "hungarian": {
+          "name": "rohamos pusztítás",
+          "description": "Többszemélyes játékban ölj meg gyalogosan ötven lovast."
+        },
+        "japanese": {
+          "name": "突撃は格好の餌食",
+          "description": "徒歩状態で、敵の騎兵（騎乗している状態）を50人倒す（マルチプレイ）"
+        },
+        "polish": {
+          "name": "Upadek z wysokiego konia",
+          "description": "(Wieloos.) Zabij 50 jeźdźców kawalerii jako piechota - wróg ma zostać zabity, będąc na koniu."
+        },
+        "schinese": {
+          "name": "破坏收费",
+          "description": "(MP) 步行杀死 50 名骑兵，必须在骑马时杀死敌人。"
+        },
+        "turkish": {
+          "name": "Saldırıyı Boz",
+          "description": "(ÇO) 50 atlıyı ayaktayken öldür, düşmanın ata biniyor olması gerekli."
+        }
+      }
+    },
+    "HARASSING_HORSEMAN": {
+      "translations": {
+        "czech": {
+          "name": "Temný jezdec",
+          "description": "(MP) Zabij 100 nepřátel střelbou či vrhacími zbraněmi ze sedla."
+        },
+        "english": {
+          "name": "Harassing Horseman",
+          "description": "(MP) Kill 100 people with mounted projectiles."
+        },
+        "hungarian": {
+          "name": "Ördögi lovas",
+          "description": "Többszemélyes játékban lovaglás közben lőj le száz ellenfelet."
+        },
+        "japanese": {
+          "name": "目障りな騎馬兵",
+          "description": "騎乗状態で、投擲武器を使用して敵を100人倒す（マルチプレイ）"
+        },
+        "polish": {
+          "name": "Grom z końskiego grzbietu",
+          "description": "(Wieloos.) Zabij 100 wrogów strzelając lub używając broni miotanej, będąc w siodle."
+        },
+        "schinese": {
+          "name": "骚扰骑士",
+          "description": "(MP) 用安装的射弹杀死 100 人。"
+        },
+        "turkish": {
+          "name": "Tacizci Atlı",
+          "description": "(ÇO) At üstündeyken 100 kişiyi fırlatma silahları ile öldür."
+        }
+      }
+    },
+    "THROWING_STAR": {
+      "translations": {
+        "czech": {
+          "name": "Vrhací hvězdice",
+          "description": "(MP) Zabij 25 nepřátel vrhacími zbraněmi."
+        },
+        "english": {
+          "name": "Throwing Star",
+          "description": "(MP) Kill 25 people with throwing weapons."
+        },
+        "hungarian": {
+          "name": "dobócsillag",
+          "description": "Többszemélyes játékban ölj meg huszonöt ellenfelet hajítófegyverekkel."
+        },
+        "japanese": {
+          "name": "投射のスター",
+          "description": "投擲武器で25人倒す（マルチプレイ）"
+        },
+        "polish": {
+          "name": "Miotacz",
+          "description": "(Wieloos.) Zabij 25 wrogów przy użyciu broni miotanej."
+        },
+        "schinese": {
+          "name": "飞镖",
+          "description": "(MP) 用投掷武器杀死 25 人。"
+        },
+        "turkish": {
+          "name": "Fırlatma Yıldızı",
+          "description": "(ÇO) 25 kişiyi fırlatma silahları ile öldür."
+        }
+      }
+    },
+    "SHISH_KEBAB": {
+      "translations": {
+        "czech": {
+          "name": "Špízy",
+          "description": "(MP) Zabij 25 nepřátel z koně pomocí kopí."
+        },
+        "english": {
+          "name": "Shish Kebab",
+          "description": "(MP) Perform 25 lance kills while mounted."
+        },
+        "hungarian": {
+          "name": "saslik",
+          "description": "Többszemélyes játékban lovaglás közben nyársalj fel huszonöt ellenséget a dárdáddal."
+        },
+        "japanese": {
+          "name": "シシカバブ",
+          "description": "騎乗状態で、備え付けのランスで25人倒す（マルチプレイ）"
+        },
+        "polish": {
+          "name": "Szaszłyki",
+          "description": "(Wieloos.) Będąc na koniu, zabij 25 przeciwników przy użyciu lancy."
+        },
+        "schinese": {
+          "name": "烤羊肉串",
+          "description": "(MP) 在骑乘时进行 25 次长矛击杀。"
+        },
+        "turkish": {
+          "name": "Şiş Kebap",
+          "description": "(ÇO) At üstündeyken 25 kişiyi kargı ile öldür."
+        }
+      }
+    },
+    "LAST_MAN_STANDING": {
+      "translations": {
+        "czech": {
+          "name": "Poslední naživu",
+          "description": "(MP) Vyhraj zápas v režimu Bitva."
+        },
+        "english": {
+          "name": "Last man standing",
+          "description": "(MP) Win one round in battle mode."
+        },
+        "hungarian": {
+          "name": "utolsó emberig",
+          "description": "Többszemélyes játékban nyerj egy kört csata módban."
+        },
+        "japanese": {
+          "name": "最後に残る者",
+          "description": "バトルモードで、1ラウンド勝利する（マルチプレイ）"
+        },
+        "polish": {
+          "name": "Ostatni na polu bitwy",
+          "description": "(Wieloos.) Wygraj jedną rundę w trybie bitwy."
+        },
+        "schinese": {
+          "name": "最后一个站着的人",
+          "description": "(MP) 在战斗模式中赢得一轮。"
+        },
+        "turkish": {
+          "name": "Sona Kalan Adam",
+          "description": "(ÇO) Savaş modunda bir raunt kazan."
+        }
+      }
+    },
+    "EVERY_BREATH_YOU_TAKE": {
+      "translations": {
+        "czech": {
+          "name": "Dokud dýchám, doufám",
+          "description": "(MP) V libovolném režimu pro více hráčů měj na konci zápasu víc zářezů než úmrtí."
+        },
+        "english": {
+          "name": "Every breath you take",
+          "description": "(MP) In any multiplayer mode have more kills than deaths."
+        },
+        "hungarian": {
+          "name": "nem adom fel",
+          "description": "Többszemélyes játékban ölj többször, mint ahányszor meghalsz."
+        },
+        "japanese": {
+          "name": "見つめていたい",
+          "description": "いずれかのモードで、死亡数より殺害数を多くする（マルチプレイ）"
+        },
+        "polish": {
+          "name": "Na plusie",
+          "description": "(Wieloos.) W dowolnym trybie gry wieloosobowej zdobądź więcej zabójstw niż zgonów."
+        },
+        "schinese": {
+          "name": "你的每一次呼吸",
+          "description": "(MP) 在任何多人游戏模式中，击杀数都多于死亡数。"
+        },
+        "turkish": {
+          "name": "Aldığın Her Nefes",
+          "description": "(ÇO) Herhangi bir çok oyunculu modunda öldüğünden çok öldür."
+        }
+      }
+    },
+    "CHOPPY_CHOP_CHOP": {
+      "translations": {
+        "czech": {
+          "name": "Hasan sekne!",
+          "description": "(MP) Zabij 50 nepřátel sečnými zbraněmi."
+        },
+        "english": {
+          "name": "Choppy Chop Chop",
+          "description": "(MP) Slay 50 foes with slashing weapons."
+        },
+        "hungarian": {
+          "name": "favágás",
+          "description": "Többszemélyes játékban ölj meg ötven ellenfelet vágófegyverekkel."
+        },
+        "japanese": {
+          "name": "斬って斬って斬りまくる",
+          "description": "斬撃武器で、敵を50人倒す（マルチプレイ）"
+        },
+        "polish": {
+          "name": "Rachu ciachu ciachu ciach",
+          "description": "(Wieloos.) Zabij 50 przeciwników przy użyciu broni siecznej."
+        },
+        "schinese": {
+          "name": "断断续续的断断续续",
+          "description": "(MP) 用砍杀武器杀死 50 名敌人。"
+        },
+        "turkish": {
+          "name": "Keskin Bıçak",
+          "description": "(ÇO) Kesici silahlar ile 50 kişiyi öldür."
+        }
+      }
+    },
+    "MACE_IN_YER_FACE": {
+      "translations": {
+        "czech": {
+          "name": "Palice na palici",
+          "description": "(MP) Zabij 25 nepřátel tupou zbraní."
+        },
+        "english": {
+          "name": "Mace in yer Face!",
+          "description": "(MP) Kill 25 foes with a blunt weapon."
+        },
+        "hungarian": {
+          "name": "bumm a fejbe",
+          "description": "Többszemélyes játékban ölj meg huszonöt ellenfelet zúzófegyverekkel."
+        },
+        "japanese": {
+          "name": "メイスは攻撃そのもの",
+          "description": "鈍器を使用して、敵を25人倒す（マルチプレイ）"
+        },
+        "polish": {
+          "name": "Obuchem w łeb",
+          "description": "(Wieloos.) Zabij 25 przeciwników przy użyciu broni obuchowej."
+        },
+        "schinese": {
+          "name": "狼牙棒打在你脸上！",
+          "description": "(MP) 用钝器杀死 25 名敌人。"
+        },
+        "turkish": {
+          "name": "Yüzündeki Gürz!",
+          "description": "(ÇO) Bayıltıcı silahlar ile 25 kişiyi öldür."
+        }
+      }
+    },
+    "THE_HUSCARL": {
+      "translations": {
+        "czech": {
+          "name": "Huskarl",
+          "description": "(MP) Zabij 50 nepřátel vrhacími sekerami."
+        },
+        "english": {
+          "name": "The Huscarl",
+          "description": "(MP) Kill 50 foes with throwing axes."
+        },
+        "hungarian": {
+          "name": "dobó istván",
+          "description": "Többszemélyes játékban ölj meg ötven ellenfelet hajítóbárddal."
+        },
+        "japanese": {
+          "name": "ハスカール",
+          "description": "手投げ斧を使用して、敵を50人倒す（マルチプレイ）"
+        },
+        "polish": {
+          "name": "Huskarl",
+          "description": "(Wieloos.) Zabij 50 wrogów przy użyciu toporków do rzucania."
+        },
+        "schinese": {
+          "name": "胡斯卡尔",
+          "description": "(MP) 用投掷斧杀死 50 名敌人。"
+        },
+        "turkish": {
+          "name": "Vahşi Savaşçı",
+          "description": "(ÇO) Fırlatma silahları ile 50 kişiyi öldür."
+        }
+      }
+    },
+    "RUIN_THE_RAID": {
+      "translations": {
+        "czech": {
+          "name": "Hynku, Viléme, Dobyvateli",
+          "description": "(MP) Vyhraj zápas v režimu Dobývání"
+        },
+        "english": {
+          "name": "Ruin the Raid",
+          "description": "(MP) Win in Conquest mode."
+        },
+        "hungarian": {
+          "name": "félre a fosztogatással",
+          "description": "Többszemélyes játékban nyerjetek hódító játékmódban."
+        },
+        "japanese": {
+          "name": "奇襲の天敵",
+          "description": "征服モードで勝利する（マルチプレイ）"
+        },
+        "polish": {
+          "name": "Przybyłem, zobaczyłem",
+          "description": "(Wieloos.) Osiągnij zwycięstwo w trybie podboju."
+        },
+        "schinese": {
+          "name": "破坏突袭",
+          "description": "(MP) 在征服模式中获胜。"
+        },
+        "turkish": {
+          "name": "Yağmayı Mahvet",
+          "description": "(ÇO) Karargâh modunda kazan."
+        }
+      }
+    },
+    "GLORIOUS_MOTHER_FACTION": {
+      "translations": {
+        "czech": {
+          "name": "My vám ukážeme",
+          "description": "(MP) Vyhraj zápas v režimu Týmový souboj na život a na smrt."
+        },
+        "english": {
+          "name": "Glorious Mother Faction",
+          "description": "(MP) Win a round of team deathmatch mode."
+        },
+        "hungarian": {
+          "name": "dicső frakciónk",
+          "description": "Többszemélyes játékban nyerjetek meg egy csapatos összecsapást."
+        },
+        "japanese": {
+          "name": "我が祖国に栄光あれ",
+          "description": "チームデスマッチで、自分のチームが1ラウンド勝利する（マルチプレイ）"
+        },
+        "polish": {
+          "name": "Drużyna A",
+          "description": "(Wieloos.) Wygraj jedną rundę w trybie drużynowego deathmatchu."
+        },
+        "schinese": {
+          "name": "光荣母亲派",
+          "description": "(MP) 在团队死亡竞赛模式中赢得一轮。"
+        },
+        "turkish": {
+          "name": "Şanlı Ana Yurt",
+          "description": "(ÇO) Bir takımlı ölüm maçı modunda kazan."
+        }
+      }
+    },
+    "ELITE_WARRIOR": {
+      "translations": {
+        "czech": {
+          "name": "Elitní válečník",
+          "description": "(MP) Vyhraj zápas v režimu Na život a na smrt."
+        },
+        "english": {
+          "name": "Elite Warrior",
+          "description": "(MP) Win a round of deathmatch mode."
+        },
+        "hungarian": {
+          "name": "elit harcos",
+          "description": "Többszemélyes játékban nyerj meg egy összecsapást."
+        },
+        "japanese": {
+          "name": "エリート戦士",
+          "description": "デスマッチで、1ラウンド勝利する（マルチプレイ）"
+        },
+        "polish": {
+          "name": "Superwojownik",
+          "description": "(Wieloos.) Wygraj rundę w trybie deathmatch."
+        },
+        "schinese": {
+          "name": "精英战士",
+          "description": "(MP) 赢得一轮死亡竞赛模式。"
+        },
+        "turkish": {
+          "name": "Seçkin Savaşçı",
+          "description": "(ÇO) Bir ölüm maçı rauntu kazan."
+        }
+      }
+    },
+    "SON_OF_ODIN": {
+      "translations": {
+        "czech": {
+          "name": "Syn Odinův",
+          "description": "Za splnění následujících trofejí: Moc činí pravomoc, Huskarl, Mistr kontaktního boje/Čarostřelec a Svatá válka/Elitní válečník."
+        },
+        "english": {
+          "name": "Son of Odin",
+          "description": "You have completed the following achievements: Might makes Right, The Huscarl, Melee Master/Dexterous Dastard, and Holy Diver/Elite Warrior."
+        },
+        "hungarian": {
+          "name": "odin fia",
+          "description": "Teljesítsd a következő eredményeket: Az erő a nyerő, Férficseléd, Harc mestere vagy Ügyes kis dög, és Szent harcos vagy Elit harcos."
+        },
+        "japanese": {
+          "name": "オーディンの息子",
+          "description": "次の実績を獲得する：勝てば官軍、ハスカール、乱戦の達人、器用な臆病者、神聖なダイバー、エリート戦士"
+        },
+        "polish": {
+          "name": "Potomek Odyna",
+          "description": "Zdobyto następujące osiągnięcia: Siła, masa - człowiek pierwsza klasa, Huskarl, Oklepywacz/Pewna ręka, celne oko i Święta wojna/Superwojownik."
+        },
+        "schinese": {
+          "name": "奥丁之子",
+          "description": "您已完成以下成就：强权即正义、驮斯卡尔、近战大师/灵巧混蛋和神圣潜水者/精英战士。"
+        },
+        "turkish": {
+          "name": "Odin'in Oğlu",
+          "description": "Şu başarımları kazandın: Kuvvetli Olan Haklıdır, Vahşi Savaşçı, Yakın Dövüş Ustası/Becerikli Birader ve Kutsal Saldırı/Seçkin Savaşçı."
+        }
+      }
+    },
+    "IRON_BEAR": {
+      "translations": {
+        "czech": {
+          "name": "Železný medvěd",
+          "description": "Za splnění následujících trofejí: Palice na palici, Koním vstup zakázán, Obratný válečník a Tahle země patří nám."
+        },
+        "english": {
+          "name": "Iron Bear",
+          "description": "You have completed the following achievements: Mace in yer Face!, Spoil the Charge, Agile Warrior, and This is our land."
+        },
+        "hungarian": {
+          "name": "vasmedve",
+          "description": "Teljesítsd a következő eredményeket: Buzogány a fejedbe!, Megfékezzük a rohamot, Fürge harcos és Ez a mi földünk."
+        },
+        "japanese": {
+          "name": "鉄の熊",
+          "description": "次の実績を獲得する：メイスは攻撃そのもの！、突撃は格好の餌食、機動戦士、ここは我が土地なり"
+        },
+        "polish": {
+          "name": "Człowiek z Żelaza",
+          "description": "Zdobyto następujące osiągnięcia: Obuchem w łeb, Upadek z wysokiego konia, Zwinny jak kot, Trzy świnki i wilk."
+        },
+        "schinese": {
+          "name": "铁熊",
+          "description": "您已完成以下成就：狼牙棒在你脸上！、破坏冲锋、敏捷战士和这是我们的土地。"
+        },
+        "turkish": {
+          "name": "Demir Ayı",
+          "description": "Şu başarımları kazandın: Yüzündeki Gürz!, Saldırıyı Boz, Çevik Savaşçı ve Burası Bizim Toprağımız."
+        }
+      }
+    },
+    "LEGENDARY_RASTAM": {
+      "translations": {
+        "czech": {
+          "name": "Brutální legenda",
+          "description": "Za splnění následujících trofejí: Obžera, Palice na palici, Sarranidské noci a Umění válečné/Mistr kontaktního boje."
+        },
+        "english": {
+          "name": "Legendary Rastam",
+          "description": "You have completed the following achievements: Abudant Feast, Mace in yer Face!, Sarranidian Nights, and Art of War/Melee Master."
+        },
+        "hungarian": {
+          "name": "legendás rastam",
+          "description": "Teljesítsd a következő eredményeket: Bőséges lakoma, Buzogány a fejedbe!, Sarranidi éjszakák és Háború művészete vagy Harc mestere."
+        },
+        "japanese": {
+          "name": "伝説のルスタム",
+          "description": "次の実績を獲得する：豪勢な宴、メイスは攻撃そのもの！、サランの夜、戦争術、乱戦の達人"
+        },
+        "polish": {
+          "name": "Legendarny Rastam",
+          "description": "Zdobyto następujące osiągnięcia: Podano do stołu, Obuchem w łeb, Sarranidzkie noce i Sztuka wojny/Oklepywacz."
+        },
+        "schinese": {
+          "name": "传奇拉斯塔姆",
+          "description": "您已完成以下成就：丰富的盛宴、狼牙棒在你脸上！、萨兰尼德之夜和战争艺术/近战大师。"
+        },
+        "turkish": {
+          "name": "Efsanevi Rasta",
+          "description": "Şu başarımları kazandın: Zengin Ziyafet, Yüzündeki Gürz!, Sarranid Geceleri ve Savaş Sanatı/Yakın Dövüş Ustası."
+        }
+      }
+    },
+    "SVAROG_THE_MIGHTY": {
+      "translations": {
+        "czech": {
+          "name": "Herkulův odkaz",
+          "description": "Za splnění následujících trofejí: Moc činí pravomoc, Hasan sekne!, My vám to ukážeme a Odstřelovač ze staré školy."
+        },
+        "english": {
+          "name": "Svarog the Mighty",
+          "description": "You have completed the following achievements: Might Makes Right, Choppy Chop Chop, Glorious Mother Faction, and Old school Sniper."
+        },
+        "hungarian": {
+          "name": "hatalmas svarog",
+          "description": "Teljesítsd a következő eredményeket: Az erő a nyerő, Sokat kell hasogatni, Dicső frakciónk és Ódivatú mesterlövész."
+        },
+        "japanese": {
+          "name": "偉大なるスヴァローグ",
+          "description": "次の実績を獲得する：勝てば官軍、斬って斬って斬りまくる、我が祖国に栄光あれ、古の模範スナイパー"
+        },
+        "polish": {
+          "name": "Potężny jak Swaróg",
+          "description": "Zdobyto następujące osiągnięcia: Siła, masa - człowiek pierwsza klasa, Rachu ciachu ciachu ciach, Drużyna A i Pierwowzór snajpera."
+        },
+        "schinese": {
+          "name": "强大的斯瓦洛格",
+          "description": "您已完成以下成就：强权即公理、波涛汹涌、光荣母亲派系和老派狙击手。"
+        },
+        "turkish": {
+          "name": "Yüce Svarog",
+          "description": "Şu başarımları kazandın:  Kuvvetli Olan Haklıdır, Keskin Bıçak, Şanlı Ana Yurt ve  Eski Toprak Keskin Nişancı."
+        }
+      }
+    },
+    "KING_ARTHUR": {
+      "translations": {
+        "czech": {
+          "name": "Král Artuš",
+          "description": "Za splnění následujících trofejí: Mistr kontaktního boje, Hrdinové kulatého stolu, Dokud dýchám, doufám a Povýšení/Dobrý samaritán."
+        },
+        "english": {
+          "name": "King Arthur",
+          "description": "You have completed the following achievements: Melee Master, Knights of the Round, Every breath you take, I dub thee/Good Samaritan."
+        },
+        "hungarian": {
+          "name": "arthur király",
+          "description": "Teljesítsd a következő eredményeket: Harc mestere, Kerekasztal lovagjai, Minden lélegzetvétellel és Mától legyen a neved vagy Irgalmas szamaritánus."
+        },
+        "japanese": {
+          "name": "アーサー王",
+          "description": "次の実績を獲得する：乱戦の達人、円卓の騎士、見つめていたい、側近、良きサマリア人"
+        },
+        "polish": {
+          "name": "Król Artur",
+          "description": "Zdobyto następujące osiągnięcia: Oklepywacz, Rycerze Okrągłego Stołu, Na plusie, Awans/Dobry Samarytanin."
+        },
+        "schinese": {
+          "name": "亚瑟王",
+          "description": "您已完成以下成就：近战大师、圆桌骑士、您的每一次呼吸，我称您为好撒玛利亚人。"
+        },
+        "turkish": {
+          "name": "Kral Arthur",
+          "description": "Şu başarımları kazandın: Yakın Dövüş Ustası, Yuvarlak Masa Şövalyeleri, Aldığın Her Nefes ve Seni Kutsuyorum/İyi İnsan."
+        }
+      }
+    },
+    "KASSAI_MASTER": {
+      "translations": {
+        "czech": {
+          "name": "Potomek Robina Hooda",
+          "description": "Za splnění následujících trofejí: Do černého, Chááán!, Obratný válečník a Temný jezdec"
+        },
+        "english": {
+          "name": "Kassai Master",
+          "description": "You have completed the following achievements: Trick Shot, Khaaan!, Agile Warrior, and Harassing Horseman."
+        },
+        "hungarian": {
+          "name": "kassai mester",
+          "description": "Teljesítsd a következő eredményeket: Trükkös lövés, Kááán!, Fürge harcos és Ördögi lovas."
+        },
+        "japanese": {
+          "name": "神速マスター",
+          "description": "次の実績を獲得する：トリックショット、カーン！、機動戦士、目障りな騎馬兵"
+        },
+        "polish": {
+          "name": "Niczym Robin Hood",
+          "description": "Zdobyto następujące osiągnięcia: Strzał w dziesiątkę, Khaaan!, Zwinny jak kot, Grom z końskiego grzbietu."
+        },
+        "schinese": {
+          "name": "开斋大师",
+          "description": "您已完成以下成就：特技射击、可汗！、敏捷战士和骚扰骑士。"
+        },
+        "turkish": {
+          "name": "Kassai Ustası",
+          "description": "Şu başarımları kazandın: Hünerli Atış, Kağaaan!, Çevik Savaşçı ve Tacizci Atlı."
+        }
+      }
+    },
+    "MAN_HANDLER": {
+      "translations": {
+        "czech": {
+          "name": "Krotitelka mužů",
+          "description": "Jako ženská postava zajmi a prodej tři NPC lordy."
+        },
+        "english": {
+          "name": "Man Handler",
+          "description": "As a female character, Capture and sell three NPC lords. "
+        },
+        "hungarian": {
+          "name": "Férfiidomár",
+          "description": "Női karakterként fogj el és adj el három NPC lordot."
+        },
+        "japanese": {
+          "name": "男を手玉に取る女",
+          "description": "女性キャラクターで、NPCの領主を捕虜にして売り渡す"
+        },
+        "polish": {
+          "name": "Władczyni",
+          "description": "Jako żeńska postać, schwytaj i sprzedaj trzech władców NPC."
+        },
+        "schinese": {
+          "name": "曼·汉德勒",
+          "description": "作为女性角色，捕获并出售三位 NPC 领主。"
+        },
+        "turkish": {
+          "name": "Erkek Terbiyecisi",
+          "description": "Kadın bir karakter olarak 3 NPC lordunu esir et ve sat."
+        }
+      }
+    },
+    "GIRL_POWER": {
+      "translations": {
+        "czech": {
+          "name": "Dívčí síla",
+          "description": "Jako ženská postava pomoz ženské uchazečce získat zpět její trůn."
+        },
+        "english": {
+          "name": "Girl Power",
+          "description": "As a female character, help a female claimant reclaim her throne."
+        },
+        "hungarian": {
+          "name": "Női erő",
+          "description": "Női karakterként segíts egy női trónkövetelőnek visszaszerezni a trónját."
+        },
+        "japanese": {
+          "name": "女性の力",
+          "description": "女性キャラクターで、女性の王位請求権が王位を取り戻す手助けをする"
+        },
+        "polish": {
+          "name": "Siła sióstr",
+          "description": "Jako żeńska postać, pomóż kobiecemu pretendentowi odzyskać tron."
+        },
+        "schinese": {
+          "name": "女孩力量",
+          "description": "作为女性角色，帮助一位女性继承者夺回她的王位。"
+        },
+        "turkish": {
+          "name": "Kadın Kuvveti",
+          "description": "Kadin bir karakter olarak, kadın bir taht varisinin tahta geçmesine yardımcı ol."
+        }
+      }
+    },
+    "QUEEN": {
+      "translations": {
+        "czech": {
+          "name": "Královna",
+          "description": "Jako ženská postava vytvoř vlastní frakci."
+        },
+        "english": {
+          "name": "Queen",
+          "description": "As a female character, make your own faction."
+        },
+        "hungarian": {
+          "name": "Királynő",
+          "description": "Női karakterként alapíts saját frakciót."
+        },
+        "japanese": {
+          "name": "女王",
+          "description": "女性キャラクターで、自身の勢力を作る"
+        },
+        "polish": {
+          "name": "Królowa",
+          "description": "Jako żeńska postać, stwórz własną frakcję."
+        },
+        "schinese": {
+          "name": "女王",
+          "description": "作为女性角色，建立自己的派系。"
+        },
+        "turkish": {
+          "name": "Kraliçe",
+          "description": "Kadın bir karakter olarak kendi krallığını kur."
+        }
+      }
+    },
+    "EMPRESS": {
+      "translations": {
+        "czech": {
+          "name": "Císařovna",
+          "description": "Jako ženská postava se staň královnou celé Calradie."
+        },
+        "english": {
+          "name": "Empress",
+          "description": "As a female character, become queen of all Calradia."
+        },
+        "hungarian": {
+          "name": "Császárnő",
+          "description": "Női karakterként válj egész Calradia királynőjévé."
+        },
+        "japanese": {
+          "name": "女帝",
+          "description": "女性キャラクターで、カルラディアの女王になる"
+        },
+        "polish": {
+          "name": "Cesarzowa",
+          "description": "Jako żeńska postać, zostań królową całej Calradii."
+        },
+        "schinese": {
+          "name": "皇后",
+          "description": "作为女性角色，成为整个卡拉迪亚的女王。"
+        },
+        "turkish": {
+          "name": "İmparatoriçe",
+          "description": "Kadın bir karakter olarak bütün Kalradya'nın kraliçesi ol."
+        }
+      }
+    },
+    "TALK_OF_THE_TOWN": {
+      "translations": {
+        "czech": {
+          "name": "Hovor města",
+          "description": "Jako ženská postava zvyš svou proslulost na 50."
+        },
+        "english": {
+          "name": "Talk of the town",
+          "description": "As a female character, raise your renown to 50."
+        },
+        "hungarian": {
+          "name": "A város beszédtémája",
+          "description": "Női karakterként növeld hírnevedet 50-re."
+        },
+        "japanese": {
+          "name": "噂で持ちきり",
+          "description": "女性キャラクターで、名声を50にする"
+        },
+        "polish": {
+          "name": "Głos miasta",
+          "description": "Jako żeńska postać, zwiększ swoją renomę do 50."
+        },
+        "schinese": {
+          "name": "谈论小镇",
+          "description": "作为女性角色，将你的声望提高到 50。"
+        },
+        "turkish": {
+          "name": "Şehrin Dedikodusu",
+          "description": "Kadın bir karakter olarak namını 50'ye yükselt."
+        }
+      }
+    },
+    "LADY_OF_THE_LAKE": {
+      "translations": {
+        "czech": {
+          "name": "Paní jezera",
+          "description": "Jako ženská postava dej společnici velký meč."
+        },
+        "english": {
+          "name": "Lady of the Lake",
+          "description": "As a female character, give a companion character a great sword."
+        },
+        "hungarian": {
+          "name": "A tó hölgye",
+          "description": "Női karakterként adj egy társadnak egy kétkezes kardot."
+        },
+        "japanese": {
+          "name": "湖の麗人",
+          "description": "女性キャラクターで、仲間にグレートソードを与える"
+        },
+        "polish": {
+          "name": "Dama z Jeziora",
+          "description": "Jako żeńska postać, daj towarzyszowi wielki miecz."
+        },
+        "schinese": {
+          "name": "湖中女士",
+          "description": "作为女性角色，给同伴角色一把大剑。"
+        },
+        "turkish": {
+          "name": "Gölün Leydisi",
+          "description": "Kadın bir karakter olarak bir yoldaş karaktere bir büyük kılıç ver."
+        }
+      }
+    }
+  }
+}

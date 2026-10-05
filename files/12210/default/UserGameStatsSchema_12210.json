@@ -1,0 +1,1998 @@
+{
+  "version": 1,
+  "app_id": "12210",
+  "variant_id": "default",
+  "source_sha256": "6b3d5d02f98f85ff50bdc1de54a4909c4bf442a8cb2600d5b4a17e8a7ed5f318",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "THETOUR": {
+      "translations": {
+        "english": {
+          "name": "Off The Boat",
+          "description": "Complete the first mission."
+        },
+        "french": {
+          "name": "Fraîchement débarqué",
+          "description": "Termine la première mission."
+        },
+        "german": {
+          "name": "Runter vom Boot",
+          "description": "Beende die erste Mission."
+        },
+        "italian": {
+          "name": "Appena sbarcato",
+          "description": "Completa la prima missione."
+        },
+        "japanese": {
+          "name": "船から降りた新参者",
+          "description": "最初のミッションをクリアする"
+        },
+        "russian": {
+          "name": "Еще один приезжий",
+          "description": "Завершите первое задание."
+        },
+        "schinese": {
+          "name": "初来乍到",
+          "description": "完成第一个任务。"
+        },
+        "spanish": {
+          "name": "Desembarco",
+          "description": "Completa la primera misión."
+        }
+      }
+    },
+    "KEYMISSION1": {
+      "translations": {
+        "english": {
+          "name": "Lowest Point",
+          "description": "Complete mission \"Roman's Sorrow\"."
+        },
+        "french": {
+          "name": "En bas de l'échelle",
+          "description": "Termine la mission \"Roman's Sorrow\"."
+        },
+        "german": {
+          "name": "Tiefpunkt",
+          "description": "Beende die Mission \"Roman's Sorrow\"."
+        },
+        "italian": {
+          "name": "Toccare il fondo",
+          "description": "Completa la missione \"Roman's Sorrow\"."
+        },
+        "japanese": {
+          "name": "人生最悪の時",
+          "description": "ミッション\"Roman's Sorrow\"をクリアする"
+        },
+        "russian": {
+          "name": "Низшая точка",
+          "description": "Пройдите уровень \"Roman's Sorrow\"."
+        },
+        "schinese": {
+          "name": "最低谷",
+          "description": "完成任务“罗曼的悲哀”。"
+        },
+        "spanish": {
+          "name": "Punto más bajo",
+          "description": "Completa la misión \"Roman's Sorrow\"."
+        }
+      }
+    },
+    "KEYMISSION2": {
+      "translations": {
+        "english": {
+          "name": "Impossible Trinity",
+          "description": "Complete mission \"Museum Piece\"."
+        },
+        "french": {
+          "name": "Impossible trinité",
+          "description": "Termine la mission \"Museum Piece\"."
+        },
+        "german": {
+          "name": "Unmögliche Trinität",
+          "description": "Beende die Mission \"Museum Piece\"."
+        },
+        "italian": {
+          "name": "Trinità impossibile",
+          "description": "Completa la missione \"Museum Piece\"."
+        },
+        "japanese": {
+          "name": "流血のトリレンマ",
+          "description": "ミッション\"Museum Piece\"をクリアする"
+        },
+        "russian": {
+          "name": "Невозможная троица",
+          "description": "Пройдите уровень \"Museum Piece\"."
+        },
+        "schinese": {
+          "name": "三元悖论",
+          "description": "完成任务“博物馆”。"
+        },
+        "spanish": {
+          "name": "Trinidad imposible",
+          "description": "Completa la misión \"Museum Piece\"."
+        }
+      }
+    },
+    "OPENEDALDERNEY": {
+      "translations": {
+        "english": {
+          "name": "Full Exploration",
+          "description": "Unlock all the islands."
+        },
+        "french": {
+          "name": "Exploration complète",
+          "description": "Débloque toutes les îles."
+        },
+        "german": {
+          "name": "Komplette Erkundung",
+          "description": "Schalte alle Inseln frei."
+        },
+        "italian": {
+          "name": "Grande esploratore",
+          "description": "Sblocca tutte le isole."
+        },
+        "japanese": {
+          "name": "アイランドホッパー",
+          "description": "全ての島に行けるようになる"
+        },
+        "russian": {
+          "name": "Полная разведка",
+          "description": "Откройте все острова."
+        },
+        "schinese": {
+          "name": "全面探索",
+          "description": "解锁所有的岛屿。"
+        },
+        "spanish": {
+          "name": "Exploración completa",
+          "description": "Desbloquea todas las islas."
+        }
+      }
+    },
+    "STORYDONE": {
+      "translations": {
+        "english": {
+          "name": "You Won!",
+          "description": "Complete the final mission."
+        },
+        "french": {
+          "name": "Tu as gagné !",
+          "description": "Termine la dernière mission."
+        },
+        "german": {
+          "name": "Gewonnen!",
+          "description": "Beende die letzte Mission."
+        },
+        "italian": {
+          "name": "Hai vinto!",
+          "description": "Completa l'ultima missione."
+        },
+        "japanese": {
+          "name": "勝利の時",
+          "description": "シングルプレイの最終ミッションをクリアする"
+        },
+        "russian": {
+          "name": "Вы выиграли!",
+          "description": "Пройдите заключительную миссию."
+        },
+        "schinese": {
+          "name": "你赢了！",
+          "description": "完成最终任务。"
+        },
+        "spanish": {
+          "name": "¡Has ganado!",
+          "description": "Completa la última misión."
+        }
+      }
+    },
+    "GAMECOMPLETION100": {
+      "translations": {
+        "english": {
+          "name": "Key To The City",
+          "description": "Achieve 100% in \"Game progress\" statistic."
+        },
+        "french": {
+          "name": "Les clés de la ville",
+          "description": "Atteins 100% pour la statistique \"Progression\"."
+        },
+        "german": {
+          "name": "Schlüssel zur Stadt",
+          "description": "Erziele 100% in der Statistik \"Spielfortschritt\"."
+        },
+        "italian": {
+          "name": "Le chiavi della città",
+          "description": "Raggiungi il 100% nei \"Progressi di gioco\"."
+        },
+        "japanese": {
+          "name": "自由の街への鍵",
+          "description": "ゲームの達成率を100%にする"
+        },
+        "russian": {
+          "name": "Ключи от города",
+          "description": "Пройдите игру на 100%."
+        },
+        "schinese": {
+          "name": "城市之钥",
+          "description": "游戏进度达到100%。"
+        },
+        "spanish": {
+          "name": "Llave de la ciudad",
+          "description": "Consigue la estadística del 100% en \"Progreso del juego\"."
+        }
+      }
+    },
+    "DATING": {
+      "translations": {
+        "english": {
+          "name": "Warm Coffee",
+          "description": "Successfully date a girl to be invited into her house."
+        },
+        "french": {
+          "name": "Café chaud",
+          "description": "Fais-toi inviter chez une fille pour prendre un dernier verre."
+        },
+        "german": {
+          "name": "Warmer Kaffee",
+          "description": "Verabrede dich mit einem Mädchen und erreiche, dass sie dich zu sich nach Hause einlädt."
+        },
+        "italian": {
+          "name": "Caffè tiepido",
+          "description": "Corteggia una ragazza e fatti invitare a casa sua."
+        },
+        "japanese": {
+          "name": "ウェルカムコーヒー",
+          "description": "ガールフレンドの家に招待される"
+        },
+        "russian": {
+          "name": "Теплый кофе",
+          "description": "Добейтесь, чтобы девушка пригласила вас к себе."
+        },
+        "schinese": {
+          "name": "热咖啡",
+          "description": "成功约会一位女孩并被邀请进入她的房子。"
+        },
+        "spanish": {
+          "name": "Café caliente",
+          "description": "Consigue una cita con una chica para que te invite a su casa."
+        }
+      }
+    },
+    "TURKEY": {
+      "translations": {
+        "english": {
+          "name": "Gobble Gobble",
+          "description": "Score 3 strikes in a row, a turkey, in 10-pin bowling."
+        },
+        "french": {
+          "name": "Triple coup de boule rotatif",
+          "description": "Fais 3 strikes consécutifs dans une partie de bowling."
+        },
+        "german": {
+          "name": "Aller guten Dinge sind drei",
+          "description": "Erziele beim Bowling 3 Strikes in Folge."
+        },
+        "italian": {
+          "name": "Tripletta!",
+          "description": "Realizza 3 strike di fila a bowling."
+        },
+        "japanese": {
+          "name": "ワイルドターキー",
+          "description": "ボウリングでターキー（3回連続ストライク）を達成する"
+        },
+        "russian": {
+          "name": "Гроза кеглей",
+          "description": "Сделайте 3 страйка подряд в игре в боулинг."
+        },
+        "schinese": {
+          "name": "火鸡全倒",
+          "description": "在10瓶制保龄球中打出“火鸡”（即连续3次全倒）。"
+        },
+        "spanish": {
+          "name": "Ñam ñam",
+          "description": "Anota 3 plenos seguidos a los bolos."
+        }
+      }
+    },
+    "SCOREDARTGAME": {
+      "translations": {
+        "english": {
+          "name": "One Hundred And Eighty",
+          "description": "In a darts game score 180 with 3 darts."
+        },
+        "french": {
+          "name": "Cent quatre-vingts",
+          "description": "Marque 180 points avec 3 fléchettes dans une partie."
+        },
+        "german": {
+          "name": "Einhundertundachtzig",
+          "description": "Erziele beim Darts 180 Punkte mit 3 Pfeilen."
+        },
+        "italian": {
+          "name": "Cento e ottanta",
+          "description": "Fai 180 punti con 3 freccette."
+        },
+        "japanese": {
+          "name": "トン・エイティ",
+          "description": "1回のスローでダーツ3本すべてを20のトリプルにヒットさせる"
+        },
+        "russian": {
+          "name": "Сто восемьдесят",
+          "description": "Получите 180 очков в дартс с тремя дротиками."
+        },
+        "schinese": {
+          "name": "一百八十",
+          "description": "在飞镖游戏中用3镖获得180分。"
+        },
+        "spanish": {
+          "name": "Ciento ochenta",
+          "description": "En una partida a los dardos, consigue 180 con 3 dardos."
+        }
+      }
+    },
+    "QUBBEAT": {
+      "translations": {
+        "english": {
+          "name": "King of QUB3D",
+          "description": "Beat the High Score in QUB3D."
+        },
+        "french": {
+          "name": "Dans ton QUB3D",
+          "description": "Obtiens le meilleur score à QUB3D."
+        },
+        "german": {
+          "name": "König des QUB3D",
+          "description": "Schlage den Highscore in QUB3D."
+        },
+        "italian": {
+          "name": "Maestro di QUB3D",
+          "description": "Stabilisci il record di QUB3D."
+        },
+        "japanese": {
+          "name": "QUB3Dの覇者",
+          "description": "QUB3Dのハイスコアで一位になる"
+        },
+        "russian": {
+          "name": "Король QUB3D",
+          "description": "Установите рекорд в QUB3D."
+        },
+        "schinese": {
+          "name": "QUB3D之王",
+          "description": "在QUB3D中获得最高分。"
+        },
+        "spanish": {
+          "name": "Rey de QUB3D",
+          "description": "Supera el récord de QUB3D."
+        }
+      }
+    },
+    "TAXIPASSANGER": {
+      "translations": {
+        "english": {
+          "name": "It'll Cost Ya",
+          "description": "Complete a taxi ride without skipping from one island to another."
+        },
+        "french": {
+          "name": "Ca te coûtera bonbon",
+          "description": "Termine une course de taxi d'une île à une autre sans passer le trajet."
+        },
+        "german": {
+          "name": "Das wird teuer",
+          "description": "Absolviere eine Taxifahrt, ohne die Fahrt von einer Insel zur nächsten zu überspringen."
+        },
+        "italian": {
+          "name": "Tutto ha un prezzo",
+          "description": "Completa una corsa in taxi da un'isola all'altra senza saltare il viaggio."
+        },
+        "japanese": {
+          "name": "タクシーライド",
+          "description": "タクシーに乗車しスキップなしで別の島に移動する"
+        },
+        "russian": {
+          "name": "Любой каприз за ваши деньги",
+          "description": "Совершите полноценную поездку на такси с одного острова на другой."
+        },
+        "schinese": {
+          "name": "这可不便宜",
+          "description": "乘坐出租车从一座岛前往另一座岛，且中途不跳过行程。"
+        },
+        "spanish": {
+          "name": "Le va a costar una pasta",
+          "description": "Completa una vuelta en taxi sin saltar de una isla a otra."
+        }
+      }
+    },
+    "IMPORTDONE": {
+      "translations": {
+        "english": {
+          "name": "Order Fulfilled",
+          "description": "Complete all 10 Exotic Export orders."
+        },
+        "french": {
+          "name": "59 Secondes Chrono",
+          "description": "Effectue les 10 commandes d'Exotic Export."
+        },
+        "german": {
+          "name": "Bestellung ausgeführt",
+          "description": "Erledige alle 10 \"Exotic Export\"-Bestellungen."
+        },
+        "italian": {
+          "name": "Pronta consegna",
+          "description": "Consegna tutti e 10 gli ordini di Exotic Export."
+        },
+        "japanese": {
+          "name": "任務完了",
+          "description": "ブルーシーから頼まれる乗り物10台を全て盗み出す"
+        },
+        "russian": {
+          "name": "Заказ укомплектован",
+          "description": "Выполните все 10 заказов \"Экзотического экспорта\"."
+        },
+        "schinese": {
+          "name": "订单完成",
+          "description": "完成所有10个出口订单。"
+        },
+        "spanish": {
+          "name": "Encargo cumplido",
+          "description": "Completa los 10 encargos de \"Exotic Exports\"."
+        }
+      }
+    },
+    "DRUGDONE": {
+      "translations": {
+        "english": {
+          "name": "Courier Service",
+          "description": "Complete all 10 package delivery jobs."
+        },
+        "french": {
+          "name": "FDP Inclus",
+          "description": "Termine les 10 missions de livraison de paquets."
+        },
+        "german": {
+          "name": "Kurierdienst",
+          "description": "Erledige alle 10 Paketauslieferjobs."
+        },
+        "italian": {
+          "name": "Corriere",
+          "description": "Completa tutti e 10 i lavori di consegna."
+        },
+        "japanese": {
+          "name": "宅配サービス",
+          "description": "リトル・ジェイコブから頼まれる小包10個を全て届ける"
+        },
+        "russian": {
+          "name": "Служба доставки",
+          "description": "Выполните все 10 заданий по доставке наркотиков."
+        },
+        "schinese": {
+          "name": "快递服务",
+          "description": "完成所有10次包裹运送任务。"
+        },
+        "spanish": {
+          "name": "Servicio de mensajería",
+          "description": "Completa los 10 encargos de reparto de paquetes."
+        }
+      }
+    },
+    "WANTEDDONE": {
+      "translations": {
+        "english": {
+          "name": "Manhunt",
+          "description": "Complete the most wanted side missions from the police computer."
+        },
+        "french": {
+          "name": "Chasse à l'homme",
+          "description": "Termine les missions de recherche données par l'ordinateur de la police."
+        },
+        "german": {
+          "name": "Menschenjagd",
+          "description": "Beende die Polizeicomputer-Nebenmission \"Most Wanted\"."
+        },
+        "italian": {
+          "name": "Manhunt: caccia all'uomo",
+          "description": "Completa le missioni del cacciatore di taglie usando il computer della polizia."
+        },
+        "japanese": {
+          "name": "マンハント",
+          "description": "警察の端末から開始できる指名手配ミッションをクリアする"
+        },
+        "russian": {
+          "name": "Manhunt",
+          "description": "Выполните все \"особо опасные\" задания из полицейского компьютера."
+        },
+        "schinese": {
+          "name": "搜捕",
+          "description": "完成警用电脑上的最高通缉任务。"
+        },
+        "spanish": {
+          "name": "Manhunt",
+          "description": "Completa las misiones secundarias de \"más buscados\" del ordenador de la policía."
+        }
+      }
+    },
+    "ASSASSIN": {
+      "translations": {
+        "english": {
+          "name": "Assassin's Greed",
+          "description": "Complete all 9 assassin missions."
+        },
+        "french": {
+          "name": "Assassin's Greed",
+          "description": "Termine les 9 missions d'assassinat."
+        },
+        "german": {
+          "name": "Assassin's Greed",
+          "description": "Beende alle 9 Attentätermissionen."
+        },
+        "italian": {
+          "name": "Assassino nato",
+          "description": "Completa tutte e 9 le missioni da assassino."
+        },
+        "japanese": {
+          "name": "アサシン グリード",
+          "description": "9つの暗殺ミッションを全てクリアする"
+        },
+        "russian": {
+          "name": "Жадность ассасина",
+          "description": "Выполните все 9 заданий по киллерству."
+        },
+        "schinese": {
+          "name": "刺客信条",
+          "description": "完成所有9个暗杀任务。"
+        },
+        "spanish": {
+          "name": "Codicia de asesino",
+          "description": "Completa las 9 misiones de asesino."
+        }
+      }
+    },
+    "STREETRACE": {
+      "translations": {
+        "english": {
+          "name": "Genetically Superior",
+          "description": "Come first in 20 singleplayer street races."
+        },
+        "french": {
+          "name": "Génétiquement supérieur",
+          "description": "Termine premier dans 20 courses de rue en solo."
+        },
+        "german": {
+          "name": "Genetisch überlegen",
+          "description": "Beende 20 Singleplayer-Straßenrennen als Erster."
+        },
+        "italian": {
+          "name": "Geneticamente superiore",
+          "description": "Piazzati primo in 20 gare a giocatore singolo."
+        },
+        "japanese": {
+          "name": "選ばれし者",
+          "description": "シングルプレイのストリートレースで20回勝利する"
+        },
+        "russian": {
+          "name": "Генетическое превосходство",
+          "description": "Завоюйте первое место в 20 гонках одиночной игры."
+        },
+        "schinese": {
+          "name": "顶级基因",
+          "description": "在20场单人街头赛中夺得头名。"
+        },
+        "spanish": {
+          "name": "Genéticamente superior",
+          "description": "Llega el primero en 20 carreras callejeras para un jugador."
+        }
+      }
+    },
+    "BIKEWHEELIE": {
+      "translations": {
+        "english": {
+          "name": "Wheelie Rider",
+          "description": "Do a wheelie lasting at least 500 feet on a motorbike."
+        },
+        "french": {
+          "name": "Sauvez Wheelie",
+          "description": "A moto, fais une roue arrière sur plus de 500 pieds (150m)."
+        },
+        "german": {
+          "name": "Wheelie-Fahrer",
+          "description": "Mach einen Wheelie auf einem Motorrad und halte ihn wenigstens 500 Fuß."
+        },
+        "italian": {
+          "name": "Impennata!",
+          "description": "Mantieni un'impennata con la moto per almeno 500 piedi."
+        },
+        "japanese": {
+          "name": "ウイリーの達人",
+          "description": "バイクのウイリーでおよそ160メートルを走破する"
+        },
+        "russian": {
+          "name": "Беспечный ездок",
+          "description": "Проедьте на заднем колесе мотоцикла минимум 500 футов (153 м)."
+        },
+        "schinese": {
+          "name": "翘头狂飙",
+          "description": "使用摩托车做出前轮离地特技并持续至少500英尺。"
+        },
+        "spanish": {
+          "name": "Piloto a caballito",
+          "description": "Haz un caballito que recorra al menos 152 metros con una moto."
+        }
+      }
+    },
+    "UNDERALLBRIDGES": {
+      "translations": {
+        "english": {
+          "name": "Under The Radar",
+          "description": "Fly underneath the main bridges in the game that cross water with a helicopter."
+        },
+        "french": {
+          "name": "Sous le radar",
+          "description": "En hélicoptère, passe sous les ponts principaux du jeu."
+        },
+        "german": {
+          "name": "Unter dem Radar",
+          "description": "Fliege mit einem Hubschrauber unter den Hauptbrücken des Spiels, die über Wasser führen, hindurch."
+        },
+        "italian": {
+          "name": "Vivere sotto i ponti",
+          "description": "Vola sotto i principali ponti su corsi d'acqua con un elicottero."
+        },
+        "japanese": {
+          "name": "レーダー探知不可",
+          "description": "リバティーシティの主要な橋の下をヘリでくぐり抜ける"
+        },
+        "russian": {
+          "name": "Вне зоны доступа",
+          "description": "Пролетите на вертолете подо всеми ключевыми надводными мостами города."
+        },
+        "schinese": {
+          "name": "低空穿桥",
+          "description": "驾驶直升机从游戏中所有跨海大桥下方飞过。"
+        },
+        "spanish": {
+          "name": "Bajo el radar",
+          "description": "Pasa con un helicóptero por debajo de los principales puentes sobre el agua en el juego."
+        }
+      }
+    },
+    "FRIENDSLIKEYOU": {
+      "translations": {
+        "english": {
+          "name": "Liberty City (5)",
+          "description": "After meeting all possible friends, the ones left alive all like you above 90%."
+        },
+        "french": {
+          "name": "Liberty City (5)",
+          "description": "Après avoir rencontré tous les amis possibles, ceux encore en vie t'apprécient à plus de 90%."
+        },
+        "german": {
+          "name": "Liberty City (5)",
+          "description": "Nachdem du alle Freunde kennengelernt hast, liegt die Beliebtheit bei den überlebenden bei über 90%."
+        },
+        "italian": {
+          "name": "Liberty City (5)",
+          "description": "Dopo aver incontrato tutti i possibili amici, a quelli rimasti vivi devi piacere più del 90%."
+        },
+        "japanese": {
+          "name": "自由の街の人気者",
+          "description": "全ての友達に会い 生存している友達全員の友好度を90%以上にする"
+        },
+        "russian": {
+          "name": "Либерти-Сити (5)",
+          "description": "Познакомьтесь со всеми возможными друзьями. Те, кто из них жив, обожают вас больше, чем на 90%."
+        },
+        "schinese": {
+          "name": "自由城五人组",
+          "description": "结识所有好友后，所有存活好友对你的好感度均达到90%以上。"
+        },
+        "spanish": {
+          "name": "Liberty City (5)",
+          "description": "Tras conocer a todos los posibles amigos, a los supervivientes les gustas por encima del 90%."
+        }
+      }
+    },
+    "STREETLIGHTSDOWN": {
+      "translations": {
+        "english": {
+          "name": "Liberty City Minute",
+          "description": "Complete the story missions in less than 30 hours."
+        },
+        "french": {
+          "name": "30 heures, douche comprise",
+          "description": "Termine les missions de l'histoire en moins de 30 heures."
+        },
+        "german": {
+          "name": "Liberty City-Zeitraffer",
+          "description": "Absolviere die Story in weniger als 30 Stunden."
+        },
+        "italian": {
+          "name": "Cronometro di Liberty City",
+          "description": "Completa le missioni della storia in meno di 30 ore."
+        },
+        "japanese": {
+          "name": "時間との闘い",
+          "description": "シングルプレイを30時間以内にクリアする"
+        },
+        "russian": {
+          "name": "Либерти-Сити за выходные",
+          "description": "Пройдите основную сюжетную линию меньше, чем за 30 часов."
+        },
+        "schinese": {
+          "name": "自由城时间",
+          "description": "在30小时内通关主线任务。"
+        },
+        "spanish": {
+          "name": "Liberty City al minuto",
+          "description": "Completa las misiones de la historia en menos de 30 horas."
+        }
+      }
+    },
+    "CARROLLS": {
+      "translations": {
+        "english": {
+          "name": "Rolled Over",
+          "description": "Do 5 car rolls in a row from one crash."
+        },
+        "french": {
+          "name": "Tonneaux",
+          "description": "Effectue 5 tonneaux d'affilée lors d'un seul accident."
+        },
+        "german": {
+          "name": "Überroller",
+          "description": "Überschlage dich nach einem einzigen Unfall 5-mal nacheinander mit deinem Auto."
+        },
+        "italian": {
+          "name": "Sto per vomitare",
+          "description": "Fai ribaltare la tua auto 5 volte di fila in un unico incidente."
+        },
+        "japanese": {
+          "name": "スタントマン",
+          "description": "一回のクラッシュで車を5回転させる"
+        },
+        "russian": {
+          "name": "Трюкач",
+          "description": "Перевернитесь в воздухе 5 раз, находясь в машине."
+        },
+        "schinese": {
+          "name": "翻身打滚",
+          "description": "在一次车祸中让车辆连续翻滚5次。"
+        },
+        "spanish": {
+          "name": "Vueltas de campana",
+          "description": "Da 5 vueltas de campana con tu coche con un solo choque."
+        }
+      }
+    },
+    "ALLHELITOURTAKEN": {
+      "translations": {
+        "english": {
+          "name": "Sightseer",
+          "description": "Fly on all helicopter tours of Liberty City."
+        },
+        "french": {
+          "name": "De là-haut, je vois ma maison",
+          "description": "Prends part à toutes les visites en hélicoptère de Liberty City."
+        },
+        "german": {
+          "name": "Tourist",
+          "description": "Absolviere alle Helikoptertouren in Liberty City."
+        },
+        "italian": {
+          "name": "Turista",
+          "description": "Partecipa a tutti i tour in elicottero su Liberty City."
+        },
+        "japanese": {
+          "name": "自由の街の観光客",
+          "description": "全てのヘリツアーに参加する"
+        },
+        "russian": {
+          "name": "Любознательный турист",
+          "description": "Побывайте на всех экскурсионных вертолетных турах Либерти-Сити."
+        },
+        "schinese": {
+          "name": "观光客",
+          "description": "乘坐直升机体验自由城所有的观光路线。"
+        },
+        "spanish": {
+          "name": "Turista",
+          "description": "Haz todos los tours en helicóptero de Liberty City."
+        }
+      }
+    },
+    "POOLWIN": {
+      "translations": {
+        "english": {
+          "name": "Pool Shark",
+          "description": "Beat a friend at pool."
+        },
+        "french": {
+          "name": "Maître queue",
+          "description": "Bats un ami au billard."
+        },
+        "german": {
+          "name": "Poolhai",
+          "description": "Schlage einen Freund beim Pool."
+        },
+        "italian": {
+          "name": "Drago del biliardo",
+          "description": "Batti un amico a biliardo."
+        },
+        "japanese": {
+          "name": "ハスラー",
+          "description": "ビリヤードで友達に勝利する"
+        },
+        "russian": {
+          "name": "Классик пула",
+          "description": "Выиграйте у друга в пул."
+        },
+        "schinese": {
+          "name": "台球高手",
+          "description": "在台球中击败一位朋友。"
+        },
+        "spanish": {
+          "name": "As del billar",
+          "description": "Derrota a un amigo al billar."
+        }
+      }
+    },
+    "WANTEDLEVEL6STARSURVIVAL": {
+      "translations": {
+        "english": {
+          "name": "One Man Army",
+          "description": "Survive 5 minutes on 6 star wanted level."
+        },
+        "french": {
+          "name": "Armée d'un seul homme",
+          "description": "Survis pendant 5 minutes avec un indice de recherche de 6 étoiles."
+        },
+        "german": {
+          "name": "Einmannarmee",
+          "description": "Überlebe 5 Minuten lang mit 6 Fahndungssternen."
+        },
+        "italian": {
+          "name": "Un uomo, un esercito",
+          "description": "Sopravvivi per 5 minuti con 6 stelle di livello di sospetto."
+        },
+        "japanese": {
+          "name": "一騎当千",
+          "description": "手配度6の状態で5分間生き延びる"
+        },
+        "russian": {
+          "name": "Герой-одиночка",
+          "description": "Выживите в течение 5 минут при 6-м уровне розыска."
+        },
+        "schinese": {
+          "name": "孤胆英雄",
+          "description": "在6星通缉状态下生存5分钟。"
+        },
+        "spanish": {
+          "name": "Ejército de un hombre",
+          "description": "Sobrevive 5 minutos con un nivel de búsqueda de 6 estrellas."
+        }
+      }
+    },
+    "KEYMISSION3": {
+      "translations": {
+        "english": {
+          "name": "Gracefully Taken",
+          "description": "Complete mission \"I'll Take Her\"."
+        },
+        "french": {
+          "name": "Gracieuse prise",
+          "description": "Termine la mission \"I'll Take Her\"."
+        },
+        "german": {
+          "name": "Gracie-öse Lieferung",
+          "description": "Beende die Mission \"I'll Take Her\"."
+        },
+        "italian": {
+          "name": "Presa con dolcezza",
+          "description": "Completa la missione \"I'll Take Her\"."
+        },
+        "japanese": {
+          "name": "グレイシー誘拐事件",
+          "description": "ミッション\"I'll Take Her\"をクリアする"
+        },
+        "russian": {
+          "name": "Элегантно похищена",
+          "description": "Пройдите уровень \"I'll Take Her\"."
+        },
+        "schinese": {
+          "name": "优雅擒获",
+          "description": "完成任务“我会抓到她”。"
+        },
+        "spanish": {
+          "name": "Cogida con elegancia",
+          "description": "Completa la misión \"I'll Take Her\"."
+        }
+      }
+    },
+    "KEYMISSION4": {
+      "translations": {
+        "english": {
+          "name": "That Special Someone",
+          "description": "Complete mission \"That Special Someone\"."
+        },
+        "french": {
+          "name": "That Special Someone",
+          "description": "Termine la mission \"That Special Someone\"."
+        },
+        "german": {
+          "name": "That Special Someone",
+          "description": "Beende die Mission \"That Special Someone\"."
+        },
+        "italian": {
+          "name": "That Special Someone",
+          "description": "Completa la missione \"That Special Someone\"."
+        },
+        "japanese": {
+          "name": "That Special Someone",
+          "description": "ミッション\"That Special Someone\"をクリアする"
+        },
+        "russian": {
+          "name": "That Special Someone",
+          "description": "Пройдите уровень \"That Special Someone\"."
+        },
+        "schinese": {
+          "name": "最特别的人",
+          "description": "完成任务“特别的人”。"
+        },
+        "spanish": {
+          "name": "That Special Someone",
+          "description": "Completa la misión \"That Special Someone\"."
+        }
+      }
+    },
+    "VIGILDONE": {
+      "translations": {
+        "english": {
+          "name": "Cleaned The Mean Streets",
+          "description": "Capture 20 criminals through the police computer."
+        },
+        "french": {
+          "name": "Justicier de la rue",
+          "description": "Capture 20 criminels grâce à l'ordinateur de la police."
+        },
+        "german": {
+          "name": "Säubere die Straßen",
+          "description": "Schnappe mithilfe des Polizeicomputers 20 Verbrecher."
+        },
+        "italian": {
+          "name": "Ripulite le strade",
+          "description": "Cattura 20 criminali tramite il computer della polizia."
+        },
+        "japanese": {
+          "name": "防犯活動家",
+          "description": "警察の端末から開始できる犯罪者を仕留めるミッションを20回クリアする"
+        },
+        "russian": {
+          "name": "Очистка враждебных улиц",
+          "description": "Захватите 20 преступников из полицейского компьютера."
+        },
+        "schinese": {
+          "name": "净空街道",
+          "description": "通过警用电脑缉拿20名罪犯。"
+        },
+        "spanish": {
+          "name": "Calles peligrosas despejadas",
+          "description": "Captura a 20 criminales a través del ordenador de la policía."
+        }
+      }
+    },
+    "SMSTHEFTDONE": {
+      "translations": {
+        "english": {
+          "name": "You Got The Message",
+          "description": "Deliver all 30 cars ordered through text message."
+        },
+        "french": {
+          "name": "Reçu cinq sur cinq",
+          "description": "Livre les 30 voitures commandées par SMS."
+        },
+        "german": {
+          "name": "Nachricht erhalten",
+          "description": "Liefere alle 30 per SMS bestellten Wagen."
+        },
+        "italian": {
+          "name": "SMS: Servizio Mezzi Sgraffignati",
+          "description": "Consegna tutte e 30 le auto ordinate tramite messaggi."
+        },
+        "japanese": {
+          "name": "ユー・ガット・メッセージ",
+          "description": "スティービーから携帯メールで注文された車30台を全て届ける"
+        },
+        "russian": {
+          "name": "У вас новое собщение",
+          "description": "Выполните все 30 доставок машин из заданий по SMS."
+        },
+        "schinese": {
+          "name": "收到请回复",
+          "description": "交付全部30辆通过短信订购的车辆。"
+        },
+        "spanish": {
+          "name": "Has recibido el mensaje",
+          "description": "Entrega los 30 coches solicitados mediante mensajes de texto."
+        }
+      }
+    },
+    "METRANDOM": {
+      "translations": {
+        "english": {
+          "name": "No More Strangers",
+          "description": "Meet all random characters."
+        },
+        "french": {
+          "name": "Relations publiques",
+          "description": "Rencontre tous les personnages aléatoires. "
+        },
+        "german": {
+          "name": "Keine weiteren Fremden",
+          "description": "Triff alle Zufallscharaktere."
+        },
+        "italian": {
+          "name": "Giro di amici",
+          "description": "Incontra tutti i personaggi casuali. "
+        },
+        "japanese": {
+          "name": "全員お友達",
+          "description": "街にいる全てのサブキャラクターに会う"
+        },
+        "russian": {
+          "name": "Незнакомых больше нет",
+          "description": "Повстречайтесь со всеми случайными персонажами."
+        },
+        "schinese": {
+          "name": "不再陌生",
+          "description": "结识所有随机角色。"
+        },
+        "spanish": {
+          "name": "¡Basta de extraños!",
+          "description": "Conoce a todos los personajes aleatorios. "
+        }
+      }
+    },
+    "KEYMISSION0": {
+      "translations": {
+        "english": {
+          "name": "Fed The Fish",
+          "description": "Complete the mission \"Uncle Vlad\"."
+        },
+        "french": {
+          "name": "Vlad et Niko sont sur un bateau",
+          "description": "Termine la mission \"Uncle Vlad\"."
+        },
+        "german": {
+          "name": "Gefütterte Fische",
+          "description": "Beende die Mission \"Uncle Vlad\"."
+        },
+        "italian": {
+          "name": "Cibo per i pesci",
+          "description": "Completa la missione \"Uncle Vlad\"."
+        },
+        "japanese": {
+          "name": "魚のエサ",
+          "description": "ミッション\"Uncle Vlad\"をクリアする"
+        },
+        "russian": {
+          "name": "Корм для рыбы",
+          "description": "Пройдите уровень \"Uncle Vlad\"."
+        },
+        "schinese": {
+          "name": "沉江喂鱼",
+          "description": "完成任务“弗拉德大叔”。"
+        },
+        "spanish": {
+          "name": "Peces alimentados",
+          "description": "Completa la misión \"Uncle Vlad\"."
+        }
+      }
+    },
+    "SABOMBCAR": {
+      "translations": {
+        "english": {
+          "name": "Dial B For Bomb",
+          "description": "Unlock the special ability of phoning for a bomb to be placed."
+        },
+        "french": {
+          "name": "Pour la bombe, tapez deux",
+          "description": "Débloque la compétence spéciale permettant de poser une bombe en un coup de fil."
+        },
+        "german": {
+          "name": "Wähle B für Bombe",
+          "description": "Schalte die Spezialfähigkeit frei, eine Bombe per Telefon zu bestellen."
+        },
+        "italian": {
+          "name": "B come bomba",
+          "description": "Sblocca l'abilità speciale di piazzare una bomba via telefono."
+        },
+        "japanese": {
+          "name": "遠隔操作ボム",
+          "description": "パッキーに爆弾を設置させる特殊技能を解除する"
+        },
+        "russian": {
+          "name": "Взрыв по звонку",
+          "description": "Откройте особую способность по установке на машины взрывчатки."
+        },
+        "schinese": {
+          "name": "炸弹热线",
+          "description": "解锁打电话放置汽车炸弹的特殊能力。"
+        },
+        "spanish": {
+          "name": "Pulsa la B de bomba",
+          "description": "Desbloquea la habilidad especial de pedir que se coloque una bomba por teléfono."
+        }
+      }
+    },
+    "SATAXI": {
+      "translations": {
+        "english": {
+          "name": "Driving Mr. Bellic",
+          "description": "Unlock the special ability of taxi."
+        },
+        "french": {
+          "name": "M. Bellic et son chauffeur",
+          "description": "Débloque la capacité spéciale permettant d'appeler un taxi."
+        },
+        "german": {
+          "name": "Mr. Bellics Chauffeur",
+          "description": "Spiele die Spezialfähigkeit Taxi frei."
+        },
+        "italian": {
+          "name": "Dove vuole andare, sig. Bellic?",
+          "description": "Sblocca l'abilità speciale di chiamare un taxi."
+        },
+        "japanese": {
+          "name": "ドライビングMr.ベリック",
+          "description": "ローマンにタクシーを要求する特殊技能を解除する"
+        },
+        "russian": {
+          "name": "Беллик по вызову",
+          "description": "Откройте особую способность по вызову такси."
+        },
+        "schinese": {
+          "name": "御用司机",
+          "description": "解锁召唤出租车的特殊能力。"
+        },
+        "spanish": {
+          "name": "Paseando al Sr. Bellic",
+          "description": "Desbloquea la habilidad especial de taxi."
+        }
+      }
+    },
+    "SAHELI": {
+      "translations": {
+        "english": {
+          "name": "That's How We Roll!",
+          "description": "Unlock the special ability of helicopter."
+        },
+        "french": {
+          "name": "Ca roule ma poule !",
+          "description": "Débloque la capacité spéciale permettant d'appeler un hélicoptère."
+        },
+        "german": {
+          "name": "Das ist unser Style!",
+          "description": "Spiele die Spezialfähigkeit Helikopter frei."
+        },
+        "italian": {
+          "name": "Volare, oh oh!",
+          "description": "Sblocca l'abilità speciale di chiamare un elicottero."
+        },
+        "japanese": {
+          "name": "オレたちの生き様！",
+          "description": "ブルーシーにヘリを要求する特殊技能を解除する"
+        },
+        "russian": {
+          "name": "Вот так мы и живем!",
+          "description": "Откройте особую способность полетов на вертолете."
+        },
+        "schinese": {
+          "name": "拉风出行",
+          "description": "解锁召唤直升机接送的特殊能力。"
+        },
+        "spanish": {
+          "name": "¡Así es como furulamos!",
+          "description": "Desbloquea la habilidad especial de helicóptero."
+        }
+      }
+    },
+    "SAGUNCAR": {
+      "translations": {
+        "english": {
+          "name": "Retail Therapy",
+          "description": "Unlock the special ability of buying guns from a friend."
+        },
+        "french": {
+          "name": "Fournisseur perso",
+          "description": "Débloque la capacité spéciale permettant d'acheter des armes à un ami."
+        },
+        "german": {
+          "name": "Frustkauf",
+          "description": "Spiele die Spezialfähigkeit frei, Schusswaffen von einem Freund zu kaufen."
+        },
+        "italian": {
+          "name": "Shopping terapeutico",
+          "description": "Sblocca l'abilità speciale di acquistare armi da un amico."
+        },
+        "japanese": {
+          "name": "買い物セラピー",
+          "description": "リトル・ジェイコブから武器を購入する特殊技能を解除する"
+        },
+        "russian": {
+          "name": "Шопинг-терапия",
+          "description": "Откройте особую способность покупки оружия у друга."
+        },
+        "schinese": {
+          "name": "移动军火库",
+          "description": "解锁从好友处购买枪支的特殊能力。"
+        },
+        "spanish": {
+          "name": "Terapia al por menor",
+          "description": "Desbloquea la habilidad especial de comprarle armas a un amigo."
+        }
+      }
+    },
+    "HALFMILLION": {
+      "translations": {
+        "english": {
+          "name": "Half Million",
+          "description": "Reach a balance of $500,000."
+        },
+        "french": {
+          "name": "Le 1/2 million, le 1/2 million !",
+          "description": "Amasse 500.000$."
+        },
+        "german": {
+          "name": "Eine halbe Million",
+          "description": "Erreiche eine Bilanz von 500.000 $."
+        },
+        "italian": {
+          "name": "Mezzo milione",
+          "description": "Accumula 500.000$."
+        },
+        "japanese": {
+          "name": "50万ドル",
+          "description": "所持金を$500,000まで増やす"
+        },
+        "russian": {
+          "name": "Пол-лимона",
+          "description": "Достигните баланса в $500000."
+        },
+        "schinese": {
+          "name": "半百万",
+          "description": "账户余额达到500,000美元。"
+        },
+        "spanish": {
+          "name": "Medio millón",
+          "description": "Consigue una fortuna de 500.000 $."
+        }
+      }
+    },
+    "CHAINREACTION": {
+      "translations": {
+        "english": {
+          "name": "Chain Reaction",
+          "description": "You must blow up 10 vehicles in 10 seconds."
+        },
+        "french": {
+          "name": "Réaction en chaîne",
+          "description": "Fais exploser 10 véhicules en 10 secondes."
+        },
+        "german": {
+          "name": "Kettenreaktion",
+          "description": "Du musst in 10 Sekunden 10 Fahrzeuge in die Luft jagen."
+        },
+        "italian": {
+          "name": "Reazione a catena",
+          "description": "Devi far saltare in aria 10 veicoli in 10 secondi."
+        },
+        "japanese": {
+          "name": "誘爆",
+          "description": "10秒以内に10台の乗り物を爆破する"
+        },
+        "russian": {
+          "name": "Цепная реакция",
+          "description": "Уничтожьте 10 транспортных средств в течение 10 секунд."
+        },
+        "schinese": {
+          "name": "连锁反应",
+          "description": "10秒内引爆10辆车。"
+        },
+        "spanish": {
+          "name": "Reacción en cadena",
+          "description": "Debes hacer explotar 10 vehículos en 10 segundos."
+        }
+      }
+    },
+    "MELEECOUNTER": {
+      "translations": {
+        "english": {
+          "name": "Finish Him",
+          "description": "Complete 10 melee counters in 4 minutes."
+        },
+        "french": {
+          "name": "Poing final",
+          "description": "Contre 10 fois en 4 minutes dans des combats au corps à corps."
+        },
+        "german": {
+          "name": "Finish Him",
+          "description": "Kontere 10 Nahkampfangriffe in 4 Minuten."
+        },
+        "italian": {
+          "name": "Finiscilo!",
+          "description": "Esegui 10 contrattacchi in mischia entro 4 minuti."
+        },
+        "japanese": {
+          "name": "とどめの一撃",
+          "description": "近接格闘のカウンターを4分以内に10回成功する"
+        },
+        "russian": {
+          "name": "Добей его",
+          "description": "Совершите 10 контратак за 4 минуты."
+        },
+        "schinese": {
+          "name": "做掉他",
+          "description": "4分钟内完成10次近战反击。"
+        },
+        "spanish": {
+          "name": "Acaba con él",
+          "description": "Completa 10 desafíos cuerpo a cuerpo en 4 minutos."
+        }
+      }
+    },
+    "USJDONE": {
+      "translations": {
+        "english": {
+          "name": "Dare Devil",
+          "description": "Complete 100% of the unique stunt jumps."
+        },
+        "french": {
+          "name": "L'homme qui tombe à pique",
+          "description": "Termine les cascades uniques à 100%."
+        },
+        "german": {
+          "name": "Stuntfahrer",
+          "description": "Absolviere 100% der Monster-Stunts."
+        },
+        "italian": {
+          "name": "Vita spericolata",
+          "description": "Completa il 100% delle acrobazie folli."
+        },
+        "japanese": {
+          "name": "不死身の男",
+          "description": "全てのユニーク・スタントジャンプに成功する"
+        },
+        "russian": {
+          "name": "Сорвиголова",
+          "description": "Выполните все уникальные прыжки."
+        },
+        "schinese": {
+          "name": "超胆侠",
+          "description": "完成全部飞车特技跳跃。"
+        },
+        "spanish": {
+          "name": "Temerario",
+          "description": "Completa el 100% de los saltos acrobáticos."
+        }
+      }
+    },
+    "HIDDENPACKAGES": {
+      "translations": {
+        "english": {
+          "name": "Endangered Species",
+          "description": "Collect every hidden package in the game."
+        },
+        "french": {
+          "name": "Espèce menacée",
+          "description": "Récupère tous les paquets cachés dans le jeu."
+        },
+        "german": {
+          "name": "Gefährdete Spezies",
+          "description": "Sammle alle im Spiel versteckten Päckchen."
+        },
+        "italian": {
+          "name": "Specie in via di estinzione",
+          "description": "Recupera tutti i pacchetti nascosti."
+        },
+        "japanese": {
+          "name": "絶滅危惧種",
+          "description": "鳥インフルエンザのハトを全て駆除する"
+        },
+        "russian": {
+          "name": "Вымирающий вид",
+          "description": "Найдите все спрятанные объекты в игре."
+        },
+        "schinese": {
+          "name": "濒危物种",
+          "description": "射杀游戏中所有的隐藏鸽子。"
+        },
+        "spanish": {
+          "name": "Especie en peligro de extinción",
+          "description": "Consigue todos los paquetes ocultos del juego."
+        }
+      }
+    },
+    "LOSERATING": {
+      "translations": {
+        "english": {
+          "name": "Walk Free",
+          "description": "Lose a 4 star wanted rating by outrunning the cops."
+        },
+        "french": {
+          "name": "En catimini",
+          "description": "Perds un indice de recherche de 4 étoiles en semant les flics."
+        },
+        "german": {
+          "name": "Freie Bahn",
+          "description": "Werde einen 4-Sterne-Fahndungslevel los, indem du die Cops abhängst."
+        },
+        "italian": {
+          "name": "A piede libero",
+          "description": "Azzera le 4 stelle di livello di sospetto sfuggendo alla polizia."
+        },
+        "japanese": {
+          "name": "無罪放免",
+          "description": "手配度4を消すことに成功する"
+        },
+        "russian": {
+          "name": "Шагай свободно",
+          "description": "Скройтесь от розыска 4-й степени."
+        },
+        "schinese": {
+          "name": "逍遥法外",
+          "description": "逃离警方追捕并摆脱4星通缉。"
+        },
+        "spanish": {
+          "name": "Camina en libertad",
+          "description": "Pierde un nivel de búsqueda de 4 estrellas dejando atrás a los polis."
+        }
+      }
+    },
+    "E1INTRO": {
+      "translations": {
+        "english": {
+          "name": "TLAD: One Percenter",
+          "description": "Help Billy get his bike back. (The Lost and Damned)"
+        },
+        "french": {
+          "name": "TLAD: Vieux motard que jamais",
+          "description": "Aider Billy à retrouver sa moto. (The Lost and Damned)"
+        },
+        "german": {
+          "name": "TLAD: Einprozentig",
+          "description": "Hilf Billy, sein Bike zurückzubekommen. (The Lost and Damned)"
+        },
+        "italian": {
+          "name": "TLAD: One Percenter",
+          "description": "Aiuta Billy a recuperare la sua moto. (The Lost and Damned)"
+        },
+        "japanese": {
+          "name": "TLAD：ワン・パーセンター",
+          "description": "ビリーがバイクを取り戻す手助けをする（The Lost and Damned）"
+        },
+        "russian": {
+          "name": "TLAD: Однопроцентник",
+          "description": "Помогите Билли вернуть его байк. (The Lost and Damned)"
+        },
+        "schinese": {
+          "name": "TLAD：1%狂徒",
+          "description": "帮助比利夺回他的摩托车。（失落与诅咒）"
+        },
+        "spanish": {
+          "name": "TLAD: Uno por ciento",
+          "description": "Ayuda a Billy a recuperar su moto (The Lost and Damned)."
+        }
+      }
+    },
+    "E1BECOMELEADER": {
+      "translations": {
+        "english": {
+          "name": "TLAD: The Lost Boy",
+          "description": "Become leader of The Lost. (The Lost and Damned)"
+        },
+        "french": {
+          "name": "TLAD: Le fils prodigue",
+          "description": "Devenir président des Lost. (The Lost and Damned)"
+        },
+        "german": {
+          "name": "TLAD: Der verlorene Sohn",
+          "description": "Werde Anführer der Lost. (The Lost and Damned)"
+        },
+        "italian": {
+          "name": "TLAD: Il ragazzo perduto",
+          "description": "Diventa il capo dei Lost. (The Lost and Damned)"
+        },
+        "japanese": {
+          "name": "TLAD：ロスト・ボーイ",
+          "description": "ロストのリーダーになる（The Lost and Damned）"
+        },
+        "russian": {
+          "name": "TLAD: Пропащий парень",
+          "description": "Станьте вожаком Пропащих. (The Lost and Damned)"
+        },
+        "schinese": {
+          "name": "TLAD：失落男孩",
+          "description": "成为失落帮的领袖。（失落与诅咒）"
+        },
+        "spanish": {
+          "name": "TLAD: El chico perdido",
+          "description": "Conviértete en el jefe de los Lost (The Lost and Damned)."
+        }
+      }
+    },
+    "E1FINISHSTORY": {
+      "translations": {
+        "english": {
+          "name": "TLAD: Easy Rider ",
+          "description": "Finish the story. (The Lost and Damned)"
+        },
+        "french": {
+          "name": "TLAD: Easy Rider",
+          "description": "Terminer l'histoire principale. (The Lost and Damned)"
+        },
+        "german": {
+          "name": "TLAD: Easy Rider",
+          "description": "Schließe die Story ab. (The Lost and Damned)"
+        },
+        "italian": {
+          "name": "TLAD: Easy Rider",
+          "description": "Finisci la storia. (The Lost and Damned)"
+        },
+        "japanese": {
+          "name": "TLAD：イージーライダー",
+          "description": "「The Lost and Damned」のストリーモードをクリアする"
+        },
+        "russian": {
+          "name": "TLAD: Беззаботный ездок",
+          "description": "Пройдите сюжетную часть игры. (The Lost and Damned)"
+        },
+        "schinese": {
+          "name": "TLAD：逍遥骑士",
+          "description": "完成主线故事。（失落与诅咒）"
+        },
+        "spanish": {
+          "name": "TLAD: Easy Rider",
+          "description": "Acaba la historia (The Lost and Damned)."
+        }
+      }
+    },
+    "E1KNOCKOFF": {
+      "translations": {
+        "english": {
+          "name": "TLAD: Get Good Wood",
+          "description": "In the bike races, whack off 69 bikers with a bat. (The Lost and Damned)"
+        },
+        "french": {
+          "name": "TLAD: Batte-man",
+          "description": "Lors des courses de motos, dégager 69 motards à l'aide d'une batte. (The Lost and Damned)"
+        },
+        "german": {
+          "name": "TLAD: Krasser Knüppel",
+          "description": "Schlage bei Rennen 69 Biker mit einem Baseballschläger vom Bike. (The Lost and Damned)"
+        },
+        "italian": {
+          "name": "TLAD: Duro come il marmo",
+          "description": "Durante le gare in moto disarciona a mazzate 69 biker. (The Lost and Damned)"
+        },
+        "japanese": {
+          "name": "TLAD：ジャストミートを狙え",
+          "description": "バイクレース中にバットで69人のバイカーを叩き落とす（The Lost and Damned）"
+        },
+        "russian": {
+          "name": "TLAD: Хорошая дубинка",
+          "description": "В гонках на мотоциклах оприходуйте бейсбольной битой 69 байкеров. (The Lost and Damned)"
+        },
+        "schinese": {
+          "name": "TLAD：大力挥棒",
+          "description": "在摩托车赛中用球棒击倒69名对手。（失落与诅咒）"
+        },
+        "spanish": {
+          "name": "TLAD: Repartiendo leña",
+          "description": "En las carreras de motos, golpea a 69 moteros con un bate (The Lost and Damned)."
+        }
+      }
+    },
+    "E1BUDDYSTAT": {
+      "translations": {
+        "english": {
+          "name": "TLAD: Full Chat",
+          "description": "Build Terry and Clay's toughness to 100%. (The Lost and Damned)"
+        },
+        "french": {
+          "name": "TLAD: Mastoc",
+          "description": "Développer la résistance de Terry et Clay jusqu'à 100%. (The Lost and Damned)"
+        },
+        "german": {
+          "name": "TLAD: Voller Chat",
+          "description": "Bring Terrys und Clays Härte auf 100%. (The Lost and Damned)"
+        },
+        "italian": {
+          "name": "TLAD: Una tribù che picchia",
+          "description": "Porta la tempra di Terry e Clay al 100%. (The Lost and Damned)"
+        },
+        "japanese": {
+          "name": "TLAD：フルチャット",
+          "description": "テリーとクレイのタフネスを100％にする（The Lost and Damned）"
+        },
+        "russian": {
+          "name": "TLAD: Во весь опор",
+          "description": "Доведите крутость Терри и Клэя до 100%. (The Lost and Damned)"
+        },
+        "schinese": {
+          "name": "TLAD：全速拉满",
+          "description": "将特里和克莱的强悍度提升至100%。（失落与诅咒）"
+        },
+        "spanish": {
+          "name": "TLAD: Charla a tope",
+          "description": "Aumenta la veteranía de Terry y Clay a 100% (The Lost and Damned)."
+        }
+      }
+    },
+    "E2BASEJUMP": {
+      "translations": {
+        "english": {
+          "name": "TBoGT: Gone Down",
+          "description": "Complete all base jumps. (The Ballad of Gay Tony)"
+        },
+        "french": {
+          "name": "TBOGT : Casse-cou",
+          "description": "Réussir tous les base jumps. (The Ballad of Gay Tony)"
+        },
+        "german": {
+          "name": "TBoGT: Abwärts",
+          "description": "Schließe alle Basejumps ab. (The Ballad of Gay Tony)"
+        },
+        "italian": {
+          "name": "TBoGT: Con i piedi per terra",
+          "description": "Completa tutti i salti con il paracadute. (The Ballad of Gay Tony)"
+        },
+        "japanese": {
+          "name": "TBoGT：降下完了",
+          "description": "すべてのベースジャンプを達成する（The Ballad of Gay Tony）"
+        },
+        "russian": {
+          "name": "TBoGT: Свободное падение",
+          "description": "Выполните все B.A.S.E. прыжки. (The Ballad of Gay Tony)"
+        },
+        "schinese": {
+          "name": "TBoGT：纵身一跃",
+          "description": "完成所有的定点跳伞。（风流托尼之歌）"
+        },
+        "spanish": {
+          "name": "TBoGT: Para abajo",
+          "description": "Completa todos los saltos base. (The Ballad of Gay Tony)"
+        }
+      }
+    },
+    "E2TRINITY": {
+      "translations": {
+        "english": {
+          "name": "TBoGT: Diamonds Forever",
+          "description": "Complete the Trinity. (The Ballad of Gay Tony)"
+        },
+        "french": {
+          "name": "TBoGT : Les diam's sont éternels",
+          "description": "Terminer l'histoire du musée. (The Ballad of Gay Tony)"
+        },
+        "german": {
+          "name": "TBoGT: Diamantenfieber",
+          "description": "Beende die Trinität. (The Ballad of Gay Tony)"
+        },
+        "italian": {
+          "name": "TBoGT: Un diamante per amico",
+          "description": "Completa la trinità. (The Ballad of Gay Tony)"
+        },
+        "japanese": {
+          "name": "TBoGT：ダイヤは永遠に",
+          "description": "博物館のミッションをクリアする（The Ballad of Gay Tony）"
+        },
+        "russian": {
+          "name": "TBoGT: Бриллианты вечны",
+          "description": "Завершите Троицу. (The Ballad of Gay Tony)"
+        },
+        "schinese": {
+          "name": "TBoGT：钻石恒久远",
+          "description": "完成“三位一体”任务线。（风流托尼之歌）"
+        },
+        "spanish": {
+          "name": "TBoGT: Diamantes para siempre",
+          "description": "Completa la Trinidad. (The Ballad of Gay Tony)"
+        }
+      }
+    },
+    "E2STORY": {
+      "translations": {
+        "english": {
+          "name": "TBoGT: Maestro",
+          "description": "Finish the Ballad. (The Ballad of Gay Tony)"
+        },
+        "french": {
+          "name": "TBoGT : Maestro",
+          "description": "Terminer l'épisode. (The Ballad of Gay Tony)"
+        },
+        "german": {
+          "name": "TBoGT: Maestro",
+          "description": "Beende die Ballade. (The Ballad of Gay Tony)"
+        },
+        "italian": {
+          "name": "TBoGT: Maestro",
+          "description": "Finisci la ballata. (The Ballad of Gay Tony)"
+        },
+        "japanese": {
+          "name": "TBoGT：マエストロ",
+          "description": "「The Ballad of Gay Tony」のストーリーモードをクリアする"
+        },
+        "russian": {
+          "name": "TBoGT: Маэстро",
+          "description": "Закончите Балладу о Голубом Тони. (The Ballad of Gay Tony)"
+        },
+        "schinese": {
+          "name": "TBoGT：大师",
+          "description": "通关主线故事。（风流托尼之歌）"
+        },
+        "spanish": {
+          "name": "TBoGT: Maestro",
+          "description": "Completa la Balada. (The Ballad of Gay Tony)"
+        }
+      }
+    },
+    "E2DRUGS": {
+      "translations": {
+        "english": {
+          "name": "TBoGT: Snow Queen",
+          "description": "Complete 25 drug wars. (The Ballad of Gay Tony)"
+        },
+        "french": {
+          "name": "TBoGT : Carte blanche",
+          "description": "Terminer 25 guerres des drogues. (The Ballad of Gay Tony)"
+        },
+        "german": {
+          "name": "TBoGT: Schneekönigin",
+          "description": "Schließe 25 Drogenkriege ab. (The Ballad of Gay Tony)"
+        },
+        "italian": {
+          "name": "TBoGT: La regina in bianco",
+          "description": "Completa 25 guerre di droga. (The Ballad of Gay Tony)"
+        },
+        "japanese": {
+          "name": "TBoGT：スノークイーン",
+          "description": "25件のドラッグウォーをクリアする（The Ballad of Gay Tony）"
+        },
+        "russian": {
+          "name": "TBoGT: Снежная королева",
+          "description": "Выполните 25 нарковойн. (The Ballad of Gay Tony)"
+        },
+        "schinese": {
+          "name": "TBoGT：白粉女王",
+          "description": "完成25场毒品交易战。（风流托尼之歌）"
+        },
+        "spanish": {
+          "name": "TBoGT: Reina de la nieve",
+          "description": "Completa 25 guerras de drogas. (The Ballad of Gay Tony)"
+        }
+      }
+    },
+    "E2FIGHTC": {
+      "translations": {
+        "english": {
+          "name": "TBoGT: Bear Fight",
+          "description": "Win the L.C. Cage Fighters championship. (The Ballad of Gay Tony)"
+        },
+        "french": {
+          "name": "TBoGT : Imbattable",
+          "description": "Devenir champion de L.C. Cage Fighters. (The Ballad of Gay Tony)"
+        },
+        "german": {
+          "name": "TBoGT: Harter Kampf",
+          "description": "Gewinne den L.C. Cage Fighters Champion Titel. (The Ballad of Gay Tony)"
+        },
+        "italian": {
+          "name": "TBoGT: Animale da combattimento",
+          "description": "Diventa il campione delle lotte nella gabbia. (The Ballad of Gay Tony)"
+        },
+        "japanese": {
+          "name": "TBoGT：ベア・ファイト",
+          "description": "LCケージファイト選手権で優勝する（The Ballad of Gay Tony）"
+        },
+        "russian": {
+          "name": "TBoGT: Битва медведей",
+          "description": "Победите в чемпионате Боев без правил Л.С. (The Ballad of Gay Tony)"
+        },
+        "schinese": {
+          "name": "TBoGT：熊战士",
+          "description": "赢得自由城地下笼斗冠军。（风流托尼之歌）"
+        },
+        "spanish": {
+          "name": "TBoGT: Lucha de osos",
+          "description": "Gana el campeonato de Lucha en Jaula L.C. (The Ballad of Gay Tony)"
+        }
+      }
+    },
+    "E2GOLF": {
+      "translations": {
+        "english": {
+          "name": "TBoGT: Four Play",
+          "description": "Hit a flag with a golf ball four times. (The Ballad of Gay Tony)"
+        },
+        "french": {
+          "name": "TBoGT : Pro du swing",
+          "description": "Toucher quatre fois un drapeau avec une balle de golf. (The Ballad of Gay Tony)"
+        },
+        "german": {
+          "name": "TBoGT: Vierer",
+          "description": "Triff mit einem Golfball vier Mal eine Flagge. (The Ballad of Gay Tony)"
+        },
+        "italian": {
+          "name": "TBoGT: Ammazza che precisione!",
+          "description": "Colpisci quattro volte una bandierina con la pallina da golf. (The Ballad of Gay Tony)"
+        },
+        "japanese": {
+          "name": "TBoGT：フォー・プレー",
+          "description": "ゴルフボールを旗に4回当てる（The Ballad of Gay Tony）"
+        },
+        "russian": {
+          "name": "TBoGT: Один удар - четыре дырки",
+          "description": "Попадите по флажку мячиком для гольфа четыре раза. (The Ballad of Gay Tony)"
+        },
+        "schinese": {
+          "name": "TBoGT：四击进洞",
+          "description": "用高尔夫球击中旗杆4次。（风流托尼之歌）"
+        },
+        "spanish": {
+          "name": "TBoGT: Juego de cuatro",
+          "description": "Golpea una bandera con una pelota de golf cuatro veces. (The Ballad of Gay Tony)"
+        }
+      }
+    },
+    "E2FAIRFLAIR": {
+      "translations": {
+        "english": {
+          "name": "TBoGT: Past the Velvet Rope",
+          "description": "Score 80% or above in all missions. (The Ballad of Gay Tony)"
+        },
+        "french": {
+          "name": "TBoGT : Sur la liste",
+          "description": "Terminer toutes les missions à au moins 80%. (The Ballad of Gay Tony)"
+        },
+        "german": {
+          "name": "TBoGT: Hinter der Samtschnur",
+          "description": "Erreiche 80% in allen Missionen. (The Ballad of Gay Tony)"
+        },
+        "italian": {
+          "name": "TBoGT: Oltre il tappeto rosso",
+          "description": "Ottieni almeno l'80% in tutte le missioni. (The Ballad of Gay Tony)"
+        },
+        "japanese": {
+          "name": "TBoGT：ベルベットロープを越えて",
+          "description": "すべてのミッションで80％以上のスコアを獲得する（The Ballad of Gay Tony）"
+        },
+        "russian": {
+          "name": "TBoGT: За вельветовой веревкой",
+          "description": "Наберите 80% или выше во всех миссиях. (The Ballad of Gay Tony)"
+        },
+        "schinese": {
+          "name": "TBoGT：VIP通道",
+          "description": "所有任务完成度达到80%及以上。（风流托尼之歌）"
+        },
+        "spanish": {
+          "name": "TBoGT: Tras el hilo de seda",
+          "description": "Completa al 80% o más todas las misiones. (The Ballad of Gay Tony)"
+        }
+      }
+    },
+    "E2FREEFALL": {
+      "translations": {
+        "english": {
+          "name": "TBoGT: Adrenaline Junkie",
+          "description": "Freefall for the longest possible time. (The Ballad of Gay Tony)"
+        },
+        "french": {
+          "name": "TBoGT : Des sensations... pures",
+          "description": "Sauter en chute libre le plus longtemps possible. (The Ballad of Gay Tony)"
+        },
+        "german": {
+          "name": "TBoGT: Adrenalin-Junkie",
+          "description": "Bleib so lange wie möglich im freien Fall. (The Ballad of Gay Tony)"
+        },
+        "italian": {
+          "name": "TBoGT: Fino all'ultimo respiro",
+          "description": "Vola in caduta libera per il tempo più lungo possibile. (The Ballad of Gay Tony)"
+        },
+        "japanese": {
+          "name": "TBoGT：アドレナリン中毒",
+          "description": "最長自由落下を達成する（The Ballad of Gay Tony）"
+        },
+        "russian": {
+          "name": "TBoGT: Доза адреналина ",
+          "description": "Проведите максимально возможное время в свободном падении. (The Ballad of Gay Tony)"
+        },
+        "schinese": {
+          "name": "TBoGT：肾上腺素狂人",
+          "description": "进行最长时间的自由落体。（风流托尼之歌）"
+        },
+        "spanish": {
+          "name": "TBoGT: Adicto a la adrenalina",
+          "description": "Mantén la caída libre durante el máximo tiempo posible. (The Ballad of Gay Tony)"
+        }
+      }
+    },
+    "E2DANCE": {
+      "translations": {
+        "english": {
+          "name": "TBoGT: Catch the Bus",
+          "description": "Dance perfectly in both Tony's nightclubs. (The Ballad of Gay Tony)"
+        },
+        "french": {
+          "name": "TBoGT : Il est D.I.S.C.O.",
+          "description": "Danser parfaitement dans les deux clubs de Tony. (The Ballad of Gay Tony)"
+        },
+        "german": {
+          "name": "TBoGT: Fang den Bus.",
+          "description": "Tanze perfekt in beiden Nachtclubs von Tony. (The Ballad of Gay Tony)"
+        },
+        "italian": {
+          "name": "TBoGT: Agile come un giaguaro",
+          "description": "Danza alla perfezione in entrambi i club di Tony. (The Ballad of Gay Tony)"
+        },
+        "japanese": {
+          "name": "TBoGT：ノリノリで行こう",
+          "description": "トニーの両ナイトクラブでダンスを完ぺきに決める（The Ballad of Gay Tony）"
+        },
+        "russian": {
+          "name": "TBoGT: Поймай ритм",
+          "description": "Вы идеально выполнили танцы в обоих клубах Тони. (The Ballad of Gay Tony)"
+        },
+        "schinese": {
+          "name": "TBoGT：夜店舞王",
+          "description": "在托尼的两家夜场中完成完美舞蹈。（风流托尼之歌）"
+        },
+        "spanish": {
+          "name": "TBoGT: Me paso el día bailando",
+          "description": "Baila a la perfección en los dos locales de Tony. (The Ballad of Gay Tony)"
+        }
+      }
+    },
+    "E2ALLFLAIR": {
+      "translations": {
+        "english": {
+          "name": "TBoGT: Gold Star",
+          "description": "Score 100% in all missions. (The Ballad of Gay Tony)"
+        },
+        "french": {
+          "name": "TBoGT : VIP",
+          "description": "Terminer toutes les missions à 100%. (The Ballad of Gay Tony)"
+        },
+        "german": {
+          "name": "TBoGT: Superstar",
+          "description": "Erreiche 100% in allen Missionen. (The Ballad of Gay Tony)"
+        },
+        "italian": {
+          "name": "TBoGT: Nel privé del paradiso",
+          "description": "Ottieni il 100% in tutte le missioni. (The Ballad of Gay Tony)"
+        },
+        "japanese": {
+          "name": "TBoGT：ゴールドスター",
+          "description": "すべてのミッションで100％のスコアを獲得する（The Ballad of Gay Tony）"
+        },
+        "russian": {
+          "name": "TBoGT: Золотая звезда",
+          "description": "Наберите 100% во всех миссиях. (The Ballad of Gay Tony)"
+        },
+        "schinese": {
+          "name": "TBoGT：黄金之星",
+          "description": "所有任务完成度达到100%。（风流托尼之歌）"
+        },
+        "spanish": {
+          "name": "TBoGT: Estrella de oro",
+          "description": "Completa al 100% todas las misiones. (The Ballad of Gay Tony)"
+        }
+      }
+    }
+  }
+}

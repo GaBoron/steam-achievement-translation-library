@@ -1,0 +1,408 @@
+{
+  "version": 1,
+  "app_id": "2280",
+  "variant_id": "default",
+  "source_sha256": "f8d22189c85e2a07b26a10072b7517861815a1f10c07f43b072e30402eff22a3",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "ACH_FISTS": {
+      "translations": {
+        "english": {
+          "name": "Guns Are For Wusses",
+          "description": "Get 25 kills with your Fists in a single level."
+        },
+        "schinese": {
+          "name": "真男人不用抢",
+          "description": "在单个关卡中用拳头取得 25 次击杀"
+        }
+      }
+    },
+    "ACH_CHAINSAW": {
+      "translations": {
+        "english": {
+          "name": "Until It Is Done",
+          "description": "Get 100 Chainsaw kills."
+        },
+        "schinese": {
+          "name": "德州杀人狂",
+          "description": "取得 100 次电锯击杀"
+        }
+      }
+    },
+    "ACH_PISTOL": {
+      "translations": {
+        "english": {
+          "name": "Shoot It Until It Dies",
+          "description": "Finish off a Cyberdemon with the Pistol."
+        },
+        "schinese": {
+          "name": "射击不能停",
+          "description": "用手枪干掉一个生化魔"
+        }
+      }
+    },
+    "ACH_SHOTGUN": {
+      "translations": {
+        "english": {
+          "name": "Groovy",
+          "description": "Get 3 multi-kills with the Shotgun."
+        },
+        "schinese": {
+          "name": "一石多鸟",
+          "description": "使用霰弹枪达成 3 次多重击杀"
+        }
+      }
+    },
+    "ACH_SUPER_SHOTGUN": {
+      "translations": {
+        "english": {
+          "name": "Skeet Shooting",
+          "description": "Kill 4 enemies in 1 shot with the Super Shotgun."
+        },
+        "schinese": {
+          "name": "一箭多雕",
+          "description": "使用超级霰弹枪一次性击杀 4 名敌人"
+        }
+      }
+    },
+    "ACH_CHAINGUN": {
+      "translations": {
+        "english": {
+          "name": "Heavenly Joy",
+          "description": "Shoot 200 bullets consecutively with the Chaingun."
+        },
+        "schinese": {
+          "name": "欲仙欲死‌",
+          "description": "用火神炮连续射击 200 发子弹"
+        }
+      }
+    },
+    "ACH_ROCKET_LAUNCHER": {
+      "translations": {
+        "english": {
+          "name": "Bowling for Gibs",
+          "description": "Gib three or more enemies with a single rocket explosion."
+        },
+        "schinese": {
+          "name": "碎肉保龄",
+          "description": "用一发火箭爆炸消灭 3 个或更多敌人"
+        }
+      }
+    },
+    "ACH_PLASMA": {
+      "translations": {
+        "english": {
+          "name": "Cookin' With Plasma",
+          "description": "Kill 5 enemies in 5 seconds with the Plasma Rifle."
+        },
+        "schinese": {
+          "name": "电浆烹饪",
+          "description": "用电浆步枪在 5 秒内击杀 5 个敌人"
+        }
+      }
+    },
+    "ACH_BFG": {
+      "translations": {
+        "english": {
+          "name": "Overkill",
+          "description": "Kill only a single enemy with a BFG9000 blast."
+        },
+        "schinese": {
+          "name": "牛刀杀鸡",
+          "description": "用一记 BFG9000 轰击只杀死一个敌人"
+        }
+      }
+    },
+    "ACH_BARREL": {
+      "translations": {
+        "english": {
+          "name": "Timing Is Everything",
+          "description": "Kill 2 enemies with a single barrel explosion."
+        },
+        "schinese": {
+          "name": "申时度势",
+          "description": "以一次桶爆炸击杀 2 个敌人"
+        }
+      }
+    },
+    "ACH_DOOR_CRUSH": {
+      "translations": {
+        "english": {
+          "name": "Doormat",
+          "description": "Crush a corpse in a door."
+        },
+        "schinese": {
+          "name": "真皮门垫",
+          "description": "用门压碎一具尸体"
+        }
+      }
+    },
+    "ACH_ARMOR_AND_HEALTH": {
+      "translations": {
+        "english": {
+          "name": "Overprepared",
+          "description": "Finish a level with 200% armor and 200% health."
+        },
+        "schinese": {
+          "name": "饱和式备战",
+          "description": "以 200% 的护甲和 200% 的生命值完成一个关卡"
+        }
+      }
+    },
+    "ACH_KILL_ENEMY_TYPES": {
+      "translations": {
+        "english": {
+          "name": "Indiscriminate Headhunter",
+          "description": "Kill one of every enemy."
+        },
+        "schinese": {
+          "name": "雨露均沾",
+          "description": "每种敌人至少击杀一次"
+        }
+      }
+    },
+    "ACH_ENEMY_FRIENDLY_FIRE": {
+      "translations": {
+        "english": {
+          "name": "Not So Friendly Fire",
+          "description": "Cause an enemy to kill another enemy."
+        },
+        "schinese": {
+          "name": "兄弟阎墙",
+          "description": "促使一个敌人击杀另一个敌人"
+        }
+      }
+    },
+    "ACH_NIGHTMARE": {
+      "translations": {
+        "english": {
+          "name": "More Like a Dream",
+          "description": "Complete a level on Nightmare difficulty."
+        },
+        "schinese": {
+          "name": "梦的解析",
+          "description": "以噩梦难度完成一个关卡"
+        }
+      }
+    },
+    "ACH_HOARDER": {
+      "translations": {
+        "english": {
+          "name": "Hoarder",
+          "description": "Finish a level with 100% items picked up."
+        },
+        "schinese": {
+          "name": "仰取俯拾",
+          "description": "在捡齐所有物品的情况下完成一个关卡"
+        }
+      }
+    },
+    "ACH_UNTOUCHABLE": {
+      "translations": {
+        "english": {
+          "name": "The Only Thing They Fear Is You",
+          "description": "Complete any monster-filled level with 100% kills without taking any damage on Ultra-Violence or higher."
+        },
+        "schinese": {
+          "name": "他们唯一惧怕的就是......你",
+          "description": "在超级暴力或更高难度下完成任意充斥怪物的关卡，且实现 100% 击杀、没有受到伤害"
+        }
+      }
+    },
+    "ACH_SECRET_AREA": {
+      "translations": {
+        "english": {
+          "name": "An Important Looking Door",
+          "description": "Find a secret area."
+        },
+        "schinese": {
+          "name": "有门必进",
+          "description": "发现一个秘密区域"
+        }
+      }
+    },
+    "ACH_SECRET_LEVEL": {
+      "translations": {
+        "english": {
+          "name": "Alternate Dimension",
+          "description": "Find a secret level."
+        },
+        "schinese": {
+          "name": "平行维度",
+          "description": "发现一个秘密关卡"
+        }
+      }
+    },
+    "ACH_KILL_ALL": {
+      "translations": {
+        "english": {
+          "name": "Clean Slate",
+          "description": "Kill all monsters in any monster-filled level on 'Hurt me plenty' or higher."
+        },
+        "schinese": {
+          "name": "还有谁！！！",
+          "description": "在“用力打我”或更高难度下，在任意充斥怪物的关卡中击杀所有怪物"
+        }
+      }
+    },
+    "ACH_HUNDO": {
+      "translations": {
+        "english": {
+          "name": "Burning Out of Control",
+          "description": "Complete any monster-filled level with 100% kills, items, and secrets."
+        },
+        "schinese": {
+          "name": "完美主义",
+          "description": "完成任意充斥怪物的关卡，且实现 100% 击杀、捡齐所有物品、发现所有秘密"
+        }
+      }
+    },
+    "ACH_BERSERK": {
+      "translations": {
+        "english": {
+          "name": "A Man and a Half",
+          "description": "Get 20 kills using the berserk powerup in a single level."
+        },
+        "schinese": {
+          "name": "维京猛男",
+          "description": "在单个关卡中用狂暴强化取得 20 次击杀"
+        }
+      }
+    },
+    "ACH_PAR": {
+      "translations": {
+        "english": {
+          "name": "Untouchable",
+          "description": "Complete 8 different levels sequentially under par time without dying on Ultra-Violence or higher."
+        },
+        "schinese": {
+          "name": "游刃有余",
+          "description": "在超级暴力或更高难度下，在标准时间内连续完成 8 个不同关卡，且一次不死"
+        }
+      }
+    },
+    "ACH_FLAMETHROWER": {
+      "translations": {
+        "english": {
+          "name": "Kill It With Fire",
+          "description": "Immolate a total of 30 arachnoid enemies with the Incinerator."
+        },
+        "schinese": {
+          "name": "蜘蛛扑火",
+          "description": "用焚化器烧死 30 个蛛形敌人"
+        }
+      }
+    },
+    "ACH_SUPERWEAPON": {
+      "translations": {
+        "english": {
+          "name": "Screen Wipe",
+          "description": "Obliterate 50 enemies with a single shot of the Calamity Blade."
+        },
+        "schinese": {
+          "name": "清屏",
+          "description": "用灾刃的一记射击消灭 50 个敌人"
+        }
+      }
+    },
+    "ACH_CAMPAIGN_DOOM": {
+      "translations": {
+        "english": {
+          "name": "DOOM",
+          "description": "Reach the end of 'DOOM'."
+        },
+        "schinese": {
+          "name": "首战告捷",
+          "description": "通关《毁灭战士》"
+        }
+      }
+    },
+    "ACH_CAMPAIGN_SIGIL": {
+      "translations": {
+        "english": {
+          "name": "Sigil",
+          "description": "Reach the end of 'Sigil'."
+        },
+        "schinese": {
+          "name": "意犹未尽",
+          "description": "通关《符印》"
+        }
+      }
+    },
+    "ACH_CAMPAIGN_DOOM2": {
+      "translations": {
+        "english": {
+          "name": "DOOM II",
+          "description": "Reach the end of 'DOOM II'."
+        },
+        "schinese": {
+          "name": "梅开二度",
+          "description": "通关《毁灭战士 II》"
+        }
+      }
+    },
+    "ACH_CAMPAIGN_NOREST": {
+      "translations": {
+        "english": {
+          "name": "No Rest for the Living",
+          "description": "Reach the end of 'No Rest for the Living'."
+        },
+        "schinese": {
+          "name": "再接再厉",
+          "description": "通关《永无宁日》"
+        }
+      }
+    },
+    "ACH_CAMPAIGN_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Master Levels",
+          "description": "Reach the end of 'Master Levels for DOOM II'."
+        },
+        "schinese": {
+          "name": "大师关卡",
+          "description": "通关《毁灭战士 II：大师关卡》"
+        }
+      }
+    },
+    "ACH_CAMPAIGN_EVILUTION": {
+      "translations": {
+        "english": {
+          "name": "Evilution",
+          "description": "Reach the end of 'TNT: Evilution'."
+        },
+        "schinese": {
+          "name": "邪恶进化",
+          "description": "通关《TNT：邪恶进化》"
+        }
+      }
+    },
+    "ACH_CAMPAIGN_PLUTONIA": {
+      "translations": {
+        "english": {
+          "name": "Plutonia",
+          "description": "Reach the end of 'The Plutonia Experiment'."
+        },
+        "schinese": {
+          "name": "木星实验",
+          "description": "通关《木星实验》"
+        }
+      }
+    },
+    "ACH_CAMPAIGN_NEWDOOM": {
+      "translations": {
+        "english": {
+          "name": "Legacy of Rust",
+          "description": "Reach the end of 'Legacy of Rust'."
+        },
+        "schinese": {
+          "name": "地狱伊甸园",
+          "description": "通关《锈蚀遗产》"
+        }
+      }
+    }
+  }
+}

@@ -321,6 +321,7 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
         schema_files=schema_files if keep_schema_files else None,
     )
     write_entry_achievement_catalogs(entry)
+    upsert_catalog_entry(entry)
     rows_by_variant = variant_achievement_rows(entry, languages)
     issue_number = int(issue["number"])
     branch_prefix = "translation-library/update" if kind == "update" else "translation-library/issue"

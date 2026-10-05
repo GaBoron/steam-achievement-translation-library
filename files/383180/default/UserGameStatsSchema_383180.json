@@ -1,0 +1,1560 @@
+{
+  "version": 1,
+  "app_id": "383180",
+  "variant_id": "default",
+  "source_sha256": "a3554ee25f1a426751e5ec0ef0f0484c9c2a1ce4872a227592329c5736d382ca",
+  "languages": [
+    "czech",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "ACH_1": {
+      "translations": {
+        "czech": {
+          "name": "Bouře",
+          "description": "Utečte z lodi."
+        },
+        "english": {
+          "name": "The Storm",
+          "description": "Escape from the ship"
+        },
+        "french": {
+          "name": "La tempête",
+          "description": "Échappez-vous du bateau"
+        },
+        "german": {
+          "name": "Der Sturm",
+          "description": "Entkomme vom Schiff"
+        },
+        "italian": {
+          "name": "Tempesta",
+          "description": "Fuggi dalla nave."
+        },
+        "japanese": {
+          "name": "ザ・ストーム",
+          "description": "船から脱出する"
+        },
+        "polish": {
+          "name": "Sztorm",
+          "description": "Ucieknij ze statku"
+        },
+        "russian": {
+          "name": "Шторм",
+          "description": "Сбегите с корабля"
+        },
+        "schinese": {
+          "name": "风暴",
+          "description": "逃离船只。"
+        },
+        "spanish": {
+          "name": "La tormenta",
+          "description": "Huye del barco"
+        }
+      }
+    },
+    "ACH_2": {
+      "translations": {
+        "czech": {
+          "name": "Srdce temnoty",
+          "description": "Najděte loď, která by se dala použít v džungli."
+        },
+        "english": {
+          "name": "Heart of Darkness",
+          "description": "Find a boat for use in the jungle"
+        },
+        "french": {
+          "name": "Cœur des ténèbres",
+          "description": "Trouvez un bateau à utiliser dans la jungle."
+        },
+        "german": {
+          "name": "Herz der Finsternis",
+          "description": "Finde ein Boot für Einsatz im Dschungel"
+        },
+        "italian": {
+          "name": "Cuore di tenebra",
+          "description": "Trova una barca da usare nella giungla."
+        },
+        "japanese": {
+          "name": "闇の奥",
+          "description": "ジャングルで使うボートを見つける"
+        },
+        "polish": {
+          "name": "Jądro ciemności",
+          "description": "Znajdź łódź, która sprawdzi się w dżungli"
+        },
+        "russian": {
+          "name": "Сердце Тьмы",
+          "description": "Найдите лодку для перемещения в джунглях"
+        },
+        "schinese": {
+          "name": "黑暗之心",
+          "description": "找到一艘可在丛林中使用的船。"
+        },
+        "spanish": {
+          "name": "El corazón de la oscuridad",
+          "description": "Encuentra un bote para usar en la selva"
+        }
+      }
+    },
+    "ACH_3": {
+      "translations": {
+        "czech": {
+          "name": "Vstup do tunelů",
+          "description": "Úspěšně ubraňte vstup do tunelu."
+        },
+        "english": {
+          "name": "Breaching the Tunnels",
+          "description": "Successfully defend the tunnel entrance"
+        },
+        "french": {
+          "name": "Violation des tunnels",
+          "description": "Défendez avec succès l'entrée du tunnel."
+        },
+        "german": {
+          "name": "Durch die Tunnel",
+          "description": "Verteidige den Tunneleingang erfolgreich"
+        },
+        "italian": {
+          "name": "Penetrare nei tunnel",
+          "description": "Difendi con successo l'ingresso del tunnel."
+        },
+        "japanese": {
+          "name": "トンネル防衛戦線",
+          "description": "トンネルの入り口の防衛に成功する"
+        },
+        "polish": {
+          "name": "Drążąc tunele",
+          "description": "Przeżyj obronę wejścia do tunelu"
+        },
+        "russian": {
+          "name": "Прорваться сквозь туннели",
+          "description": "Успешно защитите вход в туннель"
+        },
+        "schinese": {
+          "name": "突破隧道",
+          "description": "成功防守隧道入口。"
+        },
+        "spanish": {
+          "name": "Irrumpiendo en los túneles",
+          "description": "Defiende bien la entrada al túnel"
+        }
+      }
+    },
+    "ACH_4": {
+      "translations": {
+        "czech": {
+          "name": "Kino",
+          "description": "Vyčistěte kino."
+        },
+        "english": {
+          "name": "The Cinema",
+          "description": "Clear out the cinema"
+        },
+        "french": {
+          "name": "Le Cinéma",
+          "description": "Nettoyez le cinéma."
+        },
+        "german": {
+          "name": "Das Kino",
+          "description": "Säubere das Kino"
+        },
+        "italian": {
+          "name": "Il cinema",
+          "description": "Libera il cinema."
+        },
+        "japanese": {
+          "name": "ザ・シネマ",
+          "description": "映画館を確保する"
+        },
+        "polish": {
+          "name": "Kino",
+          "description": "Oczyść kino"
+        },
+        "russian": {
+          "name": "Кинотеатр",
+          "description": "Очистите кинотеатр"
+        },
+        "schinese": {
+          "name": "电影院",
+          "description": "清理电影院。"
+        },
+        "spanish": {
+          "name": "El cine",
+          "description": "Despeja el cine"
+        }
+      }
+    },
+    "ACH_5": {
+      "translations": {
+        "czech": {
+          "name": "Vojenská základna",
+          "description": "Získejte přístup k radiostanici dlouhého dosahu."
+        },
+        "english": {
+          "name": "Military Base",
+          "description": "Gain access to a long-range radio station"
+        },
+        "french": {
+          "name": "Base militaire",
+          "description": "Accédez à une station radio longue portée."
+        },
+        "german": {
+          "name": "Militärbasis",
+          "description": "Verschaffe dir Zugang zu einer Funkstation mit großer Reichweite"
+        },
+        "italian": {
+          "name": "Base militare",
+          "description": "Entra in una stazione radio a lunga portata."
+        },
+        "japanese": {
+          "name": "軍事基地",
+          "description": "通信施設にアクセスする"
+        },
+        "polish": {
+          "name": "Baza Wojskowa",
+          "description": "Zdobądź dostęp do radiostacji dalekiego zasięgu"
+        },
+        "russian": {
+          "name": "Военная база",
+          "description": "Получите доступ к дальнобойной радиостанции"
+        },
+        "schinese": {
+          "name": "军事基地",
+          "description": "取得远程无线电台的访问权限。"
+        },
+        "spanish": {
+          "name": "Base militar",
+          "description": "Accede a una emisora de radio de largo alcance"
+        }
+      }
+    },
+    "ACH_6": {
+      "translations": {
+        "czech": {
+          "name": "Boje na střeše",
+          "description": "Přežijte hordu na střeše."
+        },
+        "english": {
+          "name": "Combat on the roof",
+          "description": "Survive the horde on the roof"
+        },
+        "french": {
+          "name": "Combat sur les toits",
+          "description": "Survivez à la horde sur le toit."
+        },
+        "german": {
+          "name": "Kampf auf dem Dach",
+          "description": "Überlebe die Horde auf dem Dach"
+        },
+        "italian": {
+          "name": "Combattimento sul tetto",
+          "description": "Sopravvivi all'orda sul tetto."
+        },
+        "japanese": {
+          "name": "屋根の上の嵐",
+          "description": "屋上での襲撃に耐え、生き残る"
+        },
+        "polish": {
+          "name": "Starcie na szczycie",
+          "description": "Przetrwaj atak hordy na dachu"
+        },
+        "russian": {
+          "name": "Битва на крыше",
+          "description": "Отбейтесь от орды на крыше"
+        },
+        "schinese": {
+          "name": "屋顶战斗",
+          "description": "在屋顶尸潮中生还。"
+        },
+        "spanish": {
+          "name": "Combate en el tejado",
+          "description": "Sobrevive a la horda en el tejado"
+        }
+      }
+    },
+    "ACH_7": {
+      "translations": {
+        "czech": {
+          "name": "Město Henderson",
+          "description": "Dostaňte se do Hendersonu."
+        },
+        "english": {
+          "name": "Henderson Town",
+          "description": "Reach Henderson"
+        },
+        "french": {
+          "name": "Ville d'Henderson",
+          "description": "Rejoignez Henderson."
+        },
+        "german": {
+          "name": "Henderson",
+          "description": "Erreiche Henderson"
+        },
+        "italian": {
+          "name": "Città di Henderson",
+          "description": "Raggiungi Henderson."
+        },
+        "japanese": {
+          "name": "ヘンダーソンの街",
+          "description": "ヘンダーソンに到達する"
+        },
+        "polish": {
+          "name": "Henderson",
+          "description": "Dotrzyj do Henderson"
+        },
+        "russian": {
+          "name": "Город Хендерсон",
+          "description": "Доберитесь до Хендерсона"
+        },
+        "schinese": {
+          "name": "Henderson 镇",
+          "description": "抵达 Henderson。"
+        },
+        "spanish": {
+          "name": "Ciudad de Henderson",
+          "description": "Llega a Henderson"
+        }
+      }
+    },
+    "ACH_8": {
+      "translations": {
+        "czech": {
+          "name": "Setkání se Serpem",
+          "description": "Uzavřete pakt se Serpem."
+        },
+        "english": {
+          "name": "Meeting Serpo",
+          "description": "Make pact with Serpo"
+        },
+        "french": {
+          "name": "Rencontrer Serpo",
+          "description": "Faites un pacte avec Serpo."
+        },
+        "german": {
+          "name": "Treffen mit Serpo",
+          "description": "Schließe einen Pakt mit Serpo"
+        },
+        "italian": {
+          "name": "Incontro con Serpo",
+          "description": "Stringi un patto con Serpo."
+        },
+        "japanese": {
+          "name": "セルポとの再会",
+          "description": "セルポと約束をする"
+        },
+        "polish": {
+          "name": "Spotkanie z Serpo",
+          "description": "Zawrzyj układ z Serpo"
+        },
+        "russian": {
+          "name": "Встреча с Серпо",
+          "description": "Заключите договор с Серпо"
+        },
+        "schinese": {
+          "name": "会见 Serpo",
+          "description": "与 Serpo 达成协议。"
+        },
+        "spanish": {
+          "name": "Conociendo a Serpo",
+          "description": "Haz un pacto con Serpo"
+        }
+      }
+    },
+    "ACH_9": {
+      "translations": {
+        "czech": {
+          "name": "Doky",
+          "description": "Vstupte do doků v Zóně karantény."
+        },
+        "english": {
+          "name": "The Docks",
+          "description": "Enter the docks in Quarantine Zone"
+        },
+        "french": {
+          "name": "Les Docks",
+          "description": "Entrez les docks de la zone de quarantaine."
+        },
+        "german": {
+          "name": "Die Docks",
+          "description": "Betritt die Docks in der Quarantänezone"
+        },
+        "italian": {
+          "name": "Il porto",
+          "description": "Entra nel porto della zona di quarantena."
+        },
+        "japanese": {
+          "name": "船着き場",
+          "description": "隔離ゾーンの船着き場に入る"
+        },
+        "polish": {
+          "name": "Doki",
+          "description": "Wejdź do doków w Strefie Kwarantanny"
+        },
+        "russian": {
+          "name": "Доки",
+          "description": "Войдите в доки карантинной зоны"
+        },
+        "schinese": {
+          "name": "码头",
+          "description": "进入 Quarantine Zone 的码头。"
+        },
+        "spanish": {
+          "name": "El puerto",
+          "description": "Accede al puerto en la Zona de Cuarentena"
+        }
+      }
+    },
+    "ACH_10": {
+      "translations": {
+        "czech": {
+          "name": "Dvakrát se oklamat nenechám",
+          "description": "Dokončete hru."
+        },
+        "english": {
+          "name": "You've tricked me once",
+          "description": "Finish the game"
+        },
+        "french": {
+          "name": "Trompé une fois",
+          "description": "Terminez le jeu."
+        },
+        "german": {
+          "name": "Einmal ist nie genug",
+          "description": "Beende das Spiel"
+        },
+        "italian": {
+          "name": "Mi hai ingannato una volta...",
+          "description": "Completa il gioco."
+        },
+        "japanese": {
+          "name": "二度目はない",
+          "description": "ゲームをクリアする"
+        },
+        "polish": {
+          "name": "Raz mnie wykiwałeś",
+          "description": "Ukończ grę"
+        },
+        "russian": {
+          "name": "Однажды обманув",
+          "description": "Завершите игру"
+        },
+        "schinese": {
+          "name": "你骗过我一次",
+          "description": "完成游戏。"
+        },
+        "spanish": {
+          "name": "Ya me has engañado una vez",
+          "description": "Completa el juego"
+        }
+      }
+    },
+    "ACH_11": {
+      "translations": {
+        "czech": {
+          "name": "Úspěšný člověk",
+          "description": "Dokončete všechny úkoly ve hře."
+        },
+        "english": {
+          "name": "Achiever",
+          "description": "Finish all quests in the game"
+        },
+        "french": {
+          "name": "Fonceur",
+          "description": "Terminez toutes les quêtes du jeu."
+        },
+        "german": {
+          "name": "Erfolgstyp",
+          "description": "Beende alle Quests im Spiel"
+        },
+        "italian": {
+          "name": "Vincente",
+          "description": "Completa tutte le missioni nel gioco."
+        },
+        "japanese": {
+          "name": "偽善者",
+          "description": "ゲーム中のすべてのクエストを完了する"
+        },
+        "polish": {
+          "name": "Człowiek sukcesu",
+          "description": "Ukończ wszystkie zadania w grze"
+        },
+        "russian": {
+          "name": "Целеустремленность",
+          "description": "Завершите все задания в игре"
+        },
+        "schinese": {
+          "name": "成就达人",
+          "description": "完成游戏中的所有任务。"
+        },
+        "spanish": {
+          "name": "Máximo Potencial",
+          "description": "Completa todas las misiones del juego"
+        }
+      }
+    },
+    "ACH_12": {
+      "translations": {
+        "czech": {
+          "name": "Vyřešené tajemství",
+          "description": "Najděte všechny tajné spisy."
+        },
+        "english": {
+          "name": "Mystery solved",
+          "description": "Find all the secret files"
+        },
+        "french": {
+          "name": "Mystère résolu",
+          "description": "Trouvez tous les fichiers secrets."
+        },
+        "german": {
+          "name": "Rätsel gelöst",
+          "description": "Finde alle Geheimakten"
+        },
+        "italian": {
+          "name": "Mistero risolto",
+          "description": "Trova tutti i documenti segreti."
+        },
+        "japanese": {
+          "name": "謎は解けた",
+          "description": "すべての機密ファイルを見つける"
+        },
+        "polish": {
+          "name": "Wszystko jasne",
+          "description": "Znajdź wszystkie tajne akta Konsorcjum"
+        },
+        "russian": {
+          "name": "Тайна развеяна",
+          "description": "Найдите все секретные материалы"
+        },
+        "schinese": {
+          "name": "谜团解开",
+          "description": "找到所有秘密文件。"
+        },
+        "spanish": {
+          "name": "Misterio resuelto",
+          "description": "Encuentra todos los archivos secretos"
+        }
+      }
+    },
+    "ACH_13": {
+      "translations": {
+        "czech": {
+          "name": "Dosáhněte 50. úrovně",
+          "description": "Získejte 50. úroveň"
+        },
+        "english": {
+          "name": "Obtain level 50",
+          "description": "Obtain level 50"
+        },
+        "french": {
+          "name": "Obtenir le niveau 50",
+          "description": "Obtenez le niveau 50"
+        },
+        "german": {
+          "name": "Erreiche Stufe 50",
+          "description": "Erreiche Stufe 50"
+        },
+        "italian": {
+          "name": "Raggiungi il livello 50",
+          "description": "Raggiungi il livello 50"
+        },
+        "japanese": {
+          "name": "努力は実を結ぶ",
+          "description": "レベル50に到達する"
+        },
+        "polish": {
+          "name": "Osiągnij 50 poziom",
+          "description": "Osiągnij 50 poziom"
+        },
+        "russian": {
+          "name": "Получить 50 уровень",
+          "description": "Получить 50 уровень"
+        },
+        "schinese": {
+          "name": "达到 50 级",
+          "description": "达到 50 级。"
+        },
+        "spanish": {
+          "name": "Llega al nivel 50",
+          "description": "Llega al nivel 50"
+        }
+      }
+    },
+    "ACH_14": {
+      "translations": {
+        "czech": {
+          "name": "Dosáhněte 70. úrovně",
+          "description": "Získejte 70. úroveň."
+        },
+        "english": {
+          "name": "Obtain level 70",
+          "description": "Obtain level 70"
+        },
+        "french": {
+          "name": "Obtenir le niveau 70",
+          "description": "Obtenez le niveau 70."
+        },
+        "german": {
+          "name": "Erreiche Stufe 70",
+          "description": "Erreiche Stufe 70"
+        },
+        "italian": {
+          "name": "Raggiungi il livello 70",
+          "description": "Raggiungi il livello 70"
+        },
+        "japanese": {
+          "name": "才能以上のものがある",
+          "description": "レベル70に到達する"
+        },
+        "polish": {
+          "name": "Osiągnij 70 poziom",
+          "description": "Osiągnij 70 poziom"
+        },
+        "russian": {
+          "name": "Получить 70 уровень",
+          "description": "Получить 70 уровень"
+        },
+        "schinese": {
+          "name": "达到 70 级",
+          "description": "达到 70 级。"
+        },
+        "spanish": {
+          "name": "Llega al nivel 70",
+          "description": "Llega al nivel 70"
+        }
+      }
+    },
+    "ACH_15": {
+      "translations": {
+        "czech": {
+          "name": "Obránce tvrzi",
+          "description": "Postavte při obraně základny 5 barikád."
+        },
+        "english": {
+          "name": "Siege Hammer",
+          "description": "Install a total of 5 barricades during hub defense"
+        },
+        "french": {
+          "name": "Marteau de siège",
+          "description": "Installez 5 barricades pendant la défense du foyer."
+        },
+        "german": {
+          "name": "Barrikadenbauer",
+          "description": "Installiere insgesamt 5 Barrikaden während der Verteidigung des Verteilzentrums"
+        },
+        "italian": {
+          "name": "Martello d'assedio",
+          "description": "Installa un totale di 5 barricate durante la difesa del rifugio."
+        },
+        "japanese": {
+          "name": "防衛包囲網",
+          "description": "拠点防御中に合計5つのバリケードを設置する"
+        },
+        "polish": {
+          "name": "Obrońca twierdzy",
+          "description": "Zainstaluj 5 barykad w trakcie obrony bazy"
+        },
+        "russian": {
+          "name": "Осадный молот",
+          "description": "Установите 5 баррикад во время защиты точки"
+        },
+        "schinese": {
+          "name": "攻城锤",
+          "description": "在枢纽防御期间总共安装 5 个路障。"
+        },
+        "spanish": {
+          "name": "Martillo de asedio",
+          "description": "Coloca 5 barricadas durante la defensa del centro"
+        }
+      }
+    },
+    "ACH_16": {
+      "translations": {
+        "czech": {
+          "name": "Tým snů",
+          "description": "Dokončete kooperativně všechny hlavní úkoly."
+        },
+        "english": {
+          "name": "Dream Team",
+          "description": "Complete all the main quests cooperatively with any number of partners"
+        },
+        "french": {
+          "name": "Équipe de rêve",
+          "description": "Accomplissez toutes les quêtes principales en coopération avec un ou plusieurs partenaires."
+        },
+        "german": {
+          "name": "Dream-Team",
+          "description": "Schließe alle Hauptquests kooperativ mit einer beliebigen Anzahl von Partnern ab"
+        },
+        "italian": {
+          "name": "Dream team",
+          "description": "Completa tutte le missioni principali in modalità cooperativa, con un numero qualsiasi di compagni."
+        },
+        "japanese": {
+          "name": "ドリームチーム",
+          "description": "プレイヤーの人数に関わらず、すべてのメインクエストを協力プレイで完了する"
+        },
+        "polish": {
+          "name": "Dream Team",
+          "description": "Ukończ wszystkie główne zadania w trybie współpracy z dowolną liczbą graczy"
+        },
+        "russian": {
+          "name": "Команда мечты",
+          "description": "Завершите все основные задания совместно с любым числом партнеров"
+        },
+        "schinese": {
+          "name": "梦之队",
+          "description": "与任意数量的伙伴合作完成所有主线任务。"
+        },
+        "spanish": {
+          "name": "Dream Team",
+          "description": "Completa todas las misiones principales con uno o más compañeros"
+        }
+      }
+    },
+    "ACH_17": {
+      "translations": {
+        "czech": {
+          "name": "Sběratel",
+          "description": "Najděte 50 % sběratelských předmětů."
+        },
+        "english": {
+          "name": "The Collector",
+          "description": "Find 50% of collectibles"
+        },
+        "french": {
+          "name": "Le Collecteur",
+          "description": "Trouvez 50 % des objets à collecter."
+        },
+        "german": {
+          "name": "Der Sammler",
+          "description": "Finde 50 % der Sammlerstücke"
+        },
+        "italian": {
+          "name": "Il collezionista",
+          "description": "Trova il 50% degli oggetti collezionabili."
+        },
+        "japanese": {
+          "name": "コレクター",
+          "description": "コレクタブルを50%以上見つける"
+        },
+        "polish": {
+          "name": "Hobbysta",
+          "description": "Zgarnij 50% znalezisk"
+        },
+        "russian": {
+          "name": "Коллекционер",
+          "description": "Найдите 50% коллекционных вещей"
+        },
+        "schinese": {
+          "name": "收藏家",
+          "description": "找到 50% 的收集品。"
+        },
+        "spanish": {
+          "name": "Coleccionista",
+          "description": "Encuentra la mitad de los objetos coleccionables"
+        }
+      }
+    },
+    "ACH_18": {
+      "translations": {
+        "czech": {
+          "name": "Hamoun",
+          "description": "Najděte všechny sběratelské předměty."
+        },
+        "english": {
+          "name": "The Hoarder",
+          "description": "Find all collectibles"
+        },
+        "french": {
+          "name": "Le Conservateur",
+          "description": "Trouvez tous les objets à collecter."
+        },
+        "german": {
+          "name": "Der Horter",
+          "description": "Finde alle Sammlerstücke"
+        },
+        "italian": {
+          "name": "Accaparratore",
+          "description": "Trova tutti gli oggetti collezionabili."
+        },
+        "japanese": {
+          "name": "マニア",
+          "description": "コレクタブルアイテムをすべて見つける"
+        },
+        "polish": {
+          "name": "Kolekcjoner",
+          "description": "Zgarnij wszystkie znaleziska"
+        },
+        "russian": {
+          "name": "Барахольщик",
+          "description": "Найдите все коллекционные вещи"
+        },
+        "schinese": {
+          "name": "囤积者",
+          "description": "找到所有收集品。"
+        },
+        "spanish": {
+          "name": "Acaparador",
+          "description": "Encuentra todos los objetos coleccionables"
+        }
+      }
+    },
+    "ACH_19": {
+      "translations": {
+        "czech": {
+          "name": "Profesionální turista",
+          "description": "Najděte všechny stránky z průvodce."
+        },
+        "english": {
+          "name": "Professional Tourist",
+          "description": "Find all pages from the guide book"
+        },
+        "french": {
+          "name": "Touriste professionnel",
+          "description": "Trouvez toutes les pages du guide."
+        },
+        "german": {
+          "name": "Profi-Tourist",
+          "description": "Finde alle Seiten des Reiseführers"
+        },
+        "italian": {
+          "name": "Turista professionista",
+          "description": "Trova tutte le pagine della guida."
+        },
+        "japanese": {
+          "name": "プロの旅行者",
+          "description": "ガイドブックのページをすべて見つける"
+        },
+        "polish": {
+          "name": "Zawodowy turysta",
+          "description": "Znajdź wszystkie strony z przewodnika"
+        },
+        "russian": {
+          "name": "Бывалый турист",
+          "description": "Найдите все страницы руководства"
+        },
+        "schinese": {
+          "name": "专业游客",
+          "description": "找到指南书的所有页面。"
+        },
+        "spanish": {
+          "name": "Turista profesional",
+          "description": "Encuentra todas las páginas de la guía"
+        }
+      }
+    },
+    "ACH_20": {
+      "translations": {
+        "czech": {
+          "name": "Dvojčata",
+          "description": "Zabijte dvojčata."
+        },
+        "english": {
+          "name": "Twins",
+          "description": "Kill the Twins"
+        },
+        "french": {
+          "name": "Jumeaux",
+          "description": "Tuez les jumeaux."
+        },
+        "german": {
+          "name": "Zwillinge",
+          "description": "Töte die Zwillinge"
+        },
+        "italian": {
+          "name": "Gemelli",
+          "description": "Uccidi i gemelli."
+        },
+        "japanese": {
+          "name": "双子",
+          "description": "双子を倒す"
+        },
+        "polish": {
+          "name": "Bliźniaki",
+          "description": "Zabij Bliźniaki"
+        },
+        "russian": {
+          "name": "Близнецы",
+          "description": "Убейте близнецов"
+        },
+        "schinese": {
+          "name": "双子",
+          "description": "杀死 Twins。"
+        },
+        "spanish": {
+          "name": "Gemelos",
+          "description": "Mata a los gemelos"
+        }
+      }
+    },
+    "ACH_21": {
+      "translations": {
+        "czech": {
+          "name": "Hltač zpráv",
+          "description": "Najděte všechny nahrávky dobrovolníků."
+        },
+        "english": {
+          "name": "News junkie",
+          "description": "Find all the volunteer's voice recordings"
+        },
+        "french": {
+          "name": "Accro aux infos",
+          "description": "Trouvez tous les enregistrements de voix du volontaire."
+        },
+        "german": {
+          "name": "Nachrichtensüchtig",
+          "description": "Finde alle Sprachaufzeichnungen der Freiwilligen"
+        },
+        "italian": {
+          "name": "Fanatico delle notizie",
+          "description": "Trova tutte le registrazioni vocali dei volontari."
+        },
+        "japanese": {
+          "name": "ニュース ジャンキー",
+          "description": "ボランティアの音声記録をすべて見つける"
+        },
+        "polish": {
+          "name": "Głodny informacji",
+          "description": "Znajdź wszystkie nagrania wolontariuszki"
+        },
+        "russian": {
+          "name": "Газетный червь",
+          "description": "Найдите все волонтерские голосовые записи"
+        },
+        "schinese": {
+          "name": "新闻迷",
+          "description": "找到所有志愿者的语音录音。"
+        },
+        "spanish": {
+          "name": "Hambre de información",
+          "description": "Encuentra todas las grabaciones de los voluntarios"
+        }
+      }
+    },
+    "ACH_22": {
+      "translations": {
+        "czech": {
+          "name": "K službám",
+          "description": "Zachraňte 20 lidí, které popadly stvůry."
+        },
+        "english": {
+          "name": "At Your Service",
+          "description": "Rescue 20 NPCs that have been grabbed by monsters"
+        },
+        "french": {
+          "name": "A votre service",
+          "description": "Sauvez 20 PNJ agrippés par les monstres."
+        },
+        "german": {
+          "name": "Zu Ihren Diensten",
+          "description": "Rette 20 NSCs, die von Monstern gepackt wurden"
+        },
+        "italian": {
+          "name": "Ai tuoi ordini",
+          "description": "Salva 20 PNG che sono stati afferrati dai mostri."
+        },
+        "japanese": {
+          "name": "ヘルパー",
+          "description": "ゾンビに襲われているNPCを20人救助する"
+        },
+        "polish": {
+          "name": "Do usług",
+          "description": "Uratuj 20 NPC-ów z objęć potworów"
+        },
+        "russian": {
+          "name": "К вашим услугам",
+          "description": "Спасите 20 неигровых персонажей, схваченных монстрами"
+        },
+        "schinese": {
+          "name": "为您效劳",
+          "description": "救出 20 名被怪物抓住的 NPC。"
+        },
+        "spanish": {
+          "name": "A tu servicio",
+          "description": "Rescata a 20 PNJ de las garras de los zombis"
+        }
+      }
+    },
+    "ACH_23": {
+      "translations": {
+        "czech": {
+          "name": "Dokonalý ženista",
+          "description": "Zabijte 10 stvůr jednou minou."
+        },
+        "english": {
+          "name": "The Hurt Mine Locker",
+          "description": "Kill 10 monsters with one mine"
+        },
+        "french": {
+          "name": "Placard piégé",
+          "description": "Tuez 10 monstres avec une mine."
+        },
+        "german": {
+          "name": "Der Minenleger",
+          "description": "Töte 10 Monster mit einer Mine"
+        },
+        "italian": {
+          "name": "The Hurt Mine Locker",
+          "description": "Uccidi 10 mostri con una mina."
+        },
+        "japanese": {
+          "name": "一石十鳥",
+          "description": "1つの地雷で10体のゾンビを倒す"
+        },
+        "polish": {
+          "name": "Tęga mina",
+          "description": "Zabij 10 zombie jedną miną"
+        },
+        "russian": {
+          "name": "Миноукладчик",
+          "description": "Убейте 10 монстров одной миной"
+        },
+        "schinese": {
+          "name": "拆弹危机",
+          "description": "用一枚地雷杀死 10 只怪物。"
+        },
+        "spanish": {
+          "name": "Campo de minas",
+          "description": "Mata a 10 zombis con una mina"
+        }
+      }
+    },
+    "ACH_24": {
+      "translations": {
+        "czech": {
+          "name": "Vrhač",
+          "description": "Zabijte 100 monster vržením zbraně pro boj zblízka."
+        },
+        "english": {
+          "name": "Hurler",
+          "description": "Kill 100 monsters with thrown melee weapons"
+        },
+        "french": {
+          "name": "Hurleur",
+          "description": "Tuez 100 monstres avec des armes de jet de combat au corps à corps."
+        },
+        "german": {
+          "name": "Schleuderer",
+          "description": "Töte 100 Monster mit geworfenen Nahkampfwaffen"
+        },
+        "italian": {
+          "name": "Lanciatore",
+          "description": "Uccidi 100 mostri lanciando armi da mischia."
+        },
+        "japanese": {
+          "name": "ピッチャー",
+          "description": "近接武器を投げて100体のゾンビを倒す"
+        },
+        "polish": {
+          "name": "Ciskacz",
+          "description": "Zabij 100 zombie bronią rzucaną"
+        },
+        "russian": {
+          "name": "Метатель",
+          "description": "Убейте 100 монстров метательным оружием"
+        },
+        "schinese": {
+          "name": "投掷者",
+          "description": "用投掷的近战武器杀死 100 只怪物。"
+        },
+        "spanish": {
+          "name": "Lanzador",
+          "description": "Mata a 100 zombis lanzando armas cuerpo a cuerpo"
+        }
+      }
+    },
+    "ACH_25": {
+      "translations": {
+        "czech": {
+          "name": "Bezmozek",
+          "description": "Zabijte 50 stvůr úderem, seknutím nebo střelou do hlavy."
+        },
+        "english": {
+          "name": "BrainLess",
+          "description": "Kill 50 monsters by smashing, decapitating or shooting them in the head"
+        },
+        "french": {
+          "name": "Demi-cerveau",
+          "description": "Tuez 50 monstres en les écrasant, les décapitant ou leur tirant dans la tête."
+        },
+        "german": {
+          "name": "HirnLos",
+          "description": "Töte 50 Monster durch Kopfschüsse, Kopftreffer oder Enthauptung"
+        },
+        "italian": {
+          "name": "Senza cervello",
+          "description": "Uccidi 50 mostri schiacciandoli, decapitandoli o sparandogli alla testa."
+        },
+        "japanese": {
+          "name": "脳なし",
+          "description": "頭を強打、切り落とす、または撃ち抜いて50体のゾンビを倒す"
+        },
+        "polish": {
+          "name": "BezMózgowiec",
+          "description": "Zabij 50 zombie miażdżąc, ucinając albo odstrzeliwując im głowy"
+        },
+        "russian": {
+          "name": "Не теряй голову",
+          "description": "Убейте 50 монстров, разбивая им голову, стреляя им в голову или обезглавливая"
+        },
+        "schinese": {
+          "name": "没脑子",
+          "description": "通过砸碎、斩首或射击头部杀死 50 只怪物。"
+        },
+        "spanish": {
+          "name": "Idiota",
+          "description": "Mata a 50 zombis cortándoles la cabeza, aplastándosela o volándoles los sesos"
+        }
+      }
+    },
+    "ACH_26": {
+      "translations": {
+        "czech": {
+          "name": "Tyran",
+          "description": "Zabijte 100 stvůr kopanci."
+        },
+        "english": {
+          "name": "Bully",
+          "description": "Kill 100 monsters with a kick"
+        },
+        "french": {
+          "name": "Brute",
+          "description": "Tuez 100 monstres d'un coup de pied."
+        },
+        "german": {
+          "name": "Türsteher",
+          "description": "Töte 100 Monster mit einem Tritt"
+        },
+        "italian": {
+          "name": "Bullo",
+          "description": "Uccidi 100 mostri con un calcio."
+        },
+        "japanese": {
+          "name": "バロンドール",
+          "description": "キックで100体のゾンビを倒す"
+        },
+        "polish": {
+          "name": "Bandzior",
+          "description": "Zabij 100 zombie kopniakiem"
+        },
+        "russian": {
+          "name": "Задира",
+          "description": "Убейте 100 монстров ударами ноги"
+        },
+        "schinese": {
+          "name": "恶霸",
+          "description": "用踢击杀死 100 只怪物。"
+        },
+        "spanish": {
+          "name": "Abusón",
+          "description": "Mata a 100 zombis de una patada"
+        }
+      }
+    },
+    "ACH_27": {
+      "translations": {
+        "czech": {
+          "name": "Tank",
+          "description": "Zabijte 100 stvůr díky zrychlení lodi."
+        },
+        "english": {
+          "name": "Jetboat",
+          "description": "Kill 100 monsters using the boat's speed boost"
+        },
+        "french": {
+          "name": "Jetboat",
+          "description": "Tuez 100 monstres avec le boost de vitesse du bateau."
+        },
+        "german": {
+          "name": "Jetboot",
+          "description": "Töte 100 Monster mit dem Geschwindigkeitsschub des Boots"
+        },
+        "italian": {
+          "name": "Motoscafo",
+          "description": "Uccidi 100 mostri usando il turbo della barca."
+        },
+        "japanese": {
+          "name": "ジェットボート",
+          "description": "ボートのスピード・ブーストで100体のゾンビを倒す"
+        },
+        "polish": {
+          "name": "Motorówka",
+          "description": "Zabij 100 zombie używając dopalacza łodzi"
+        },
+        "russian": {
+          "name": "Реактивный катер",
+          "description": "Убейте 100 монстров с помощью ускорения лодки"
+        },
+        "schinese": {
+          "name": "喷射快艇",
+          "description": "使用船只加速杀死 100 只怪物。"
+        },
+        "spanish": {
+          "name": "Moto acuática",
+          "description": "Mata a 100 zombis usando el turbo del barco"
+        }
+      }
+    },
+    "ACH_28": {
+      "translations": {
+        "czech": {
+          "name": "Ničitel",
+          "description": "Zabijte 100 nepřátel výpadovými útoky."
+        },
+        "english": {
+          "name": "Juggernaut",
+          "description": "Kill 100 enemies using charge attacks"
+        },
+        "french": {
+          "name": "Mastodonte",
+          "description": "Tuez 100 ennemis avec des attaques de charge."
+        },
+        "german": {
+          "name": "Brummer",
+          "description": "Töte 100 Gegner mit Sturmangriffen"
+        },
+        "italian": {
+          "name": "Forza della natura",
+          "description": "Uccidi 100 nemici usando delle cariche."
+        },
+        "japanese": {
+          "name": "ジャガーノート",
+          "description": "突進で100体の敵を倒す"
+        },
+        "polish": {
+          "name": "Kolos",
+          "description": "Zabij 100 przeciwników za pomocą szarży"
+        },
+        "russian": {
+          "name": "Сокрушитель",
+          "description": "Убейте 100 врагов атакой с разбега"
+        },
+        "schinese": {
+          "name": "主宰者",
+          "description": "使用冲锋攻击杀死 100 名敌人。"
+        },
+        "spanish": {
+          "name": "Fuerza inexorable",
+          "description": "Mata a 100 enemigos usando ataques de carga"
+        }
+      }
+    },
+    "ACH_29": {
+      "translations": {
+        "czech": {
+          "name": "Lepší než rukou",
+          "description": "Zabijte 25 stvůr motorovou pilou."
+        },
+        "english": {
+          "name": "Better than the arm",
+          "description": "Kill 25 monsters with a chainsaw"
+        },
+        "french": {
+          "name": "Mieux qu'un bras",
+          "description": "Tuez 25 monstres avec une tronçonneuse."
+        },
+        "german": {
+          "name": "Besser als nur der Arm",
+          "description": "Töte 25 Monster mit einer Kettensäge"
+        },
+        "italian": {
+          "name": "Meglio del braccio",
+          "description": "Uccidi 25 mostri con la motosega."
+        },
+        "japanese": {
+          "name": "腕よりも良い",
+          "description": "チェーンソーで25体のゾンビを倒す"
+        },
+        "polish": {
+          "name": "Niczym przedłużenie ręki",
+          "description": "Zabij 25 zombie piłą mechaniczną"
+        },
+        "russian": {
+          "name": "Лучше, чем рука",
+          "description": "Убейте 25 монстров бензопилой"
+        },
+        "schinese": {
+          "name": "胜过手臂",
+          "description": "用电锯杀死 25 只怪物。"
+        },
+        "spanish": {
+          "name": "Mejor que el brazo",
+          "description": "Mata a 25 zombis con la motosierra"
+        }
+      }
+    },
+    "ACH_30": {
+      "translations": {
+        "czech": {
+          "name": "Služba vědě",
+          "description": "Dokončete úkoly pro doktora Kesslera."
+        },
+        "english": {
+          "name": "Serving Science",
+          "description": "Finish quests for Dr. Kessler"
+        },
+        "french": {
+          "name": "Bar à science",
+          "description": "Terminez les quêtes pour le Dr. Kessler."
+        },
+        "german": {
+          "name": "Im Dienste der Wissenschaft",
+          "description": "Schließe Quests für Dr. Kessler ab"
+        },
+        "italian": {
+          "name": "Scienza duttile",
+          "description": "Completa la missione del dottor Kessler."
+        },
+        "japanese": {
+          "name": "科学への奉仕",
+          "description": "ケスラー博士のクエストを完了する"
+        },
+        "polish": {
+          "name": "W imię nauki",
+          "description": "Ukończ zadania dla doktora Kesslera"
+        },
+        "russian": {
+          "name": "Служу науке",
+          "description": "Завершите задания доктора Кесслера"
+        },
+        "schinese": {
+          "name": "服务科学",
+          "description": "完成 Dr. Kessler 的任务。"
+        },
+        "spanish": {
+          "name": "Al servicio de la ciencia",
+          "description": "Completa las misiones del Doctor Kessler"
+        }
+      }
+    },
+    "ACH_31": {
+      "translations": {
+        "czech": {
+          "name": "Hlavně neubližovat",
+          "description": "Dokončete nemocniční úkoly pro Cecila."
+        },
+        "english": {
+          "name": "First Do No Harm",
+          "description": "Finish hospital quests for Cecil"
+        },
+        "french": {
+          "name": "Tu ne tueras point",
+          "description": "Terminez les quêtes de l'hôpital pour Cecil."
+        },
+        "german": {
+          "name": "Erste Hilfe",
+          "description": "Schließe Hosiptalquests für Cecil ab"
+        },
+        "italian": {
+          "name": "Primo, non uccidere",
+          "description": "Completa le missioni dell'ospedale per Cecil."
+        },
+        "japanese": {
+          "name": "何よりもまず害をなすなかれ",
+          "description": "セシルの病院クエストを完了する"
+        },
+        "polish": {
+          "name": "Po pierwsze, nie szkodzić",
+          "description": "Ukończ zadania w szpitalu dla Cecila"
+        },
+        "russian": {
+          "name": "Не навреди",
+          "description": "Завершите задания госпиталя Сесила"
+        },
+        "schinese": {
+          "name": "首先不伤害",
+          "description": "完成 Cecil 的医院任务。"
+        },
+        "spanish": {
+          "name": "Juramento hipocrático",
+          "description": "Completa las misiones del hospital de Cecil"
+        }
+      }
+    },
+    "ACH_32": {
+      "translations": {
+        "czech": {
+          "name": "Přemožení Harlow",
+          "description": "Porazte Harlow."
+        },
+        "english": {
+          "name": "Defeat Harlow",
+          "description": "Defeat Harlow"
+        },
+        "french": {
+          "name": "Eliminer Harlow",
+          "description": "Éliminez Harlow"
+        },
+        "german": {
+          "name": "Besiege Harlow",
+          "description": "Besiege Harlow"
+        },
+        "italian": {
+          "name": "Sconfiggi la Harlow",
+          "description": "Sconfiggi la Harlow."
+        },
+        "japanese": {
+          "name": "正義の名のもとに",
+          "description": "ハーロウを倒す"
+        },
+        "polish": {
+          "name": "Pokonaj Harlow",
+          "description": "Pokonaj Harlow"
+        },
+        "russian": {
+          "name": "Победите Харлоу",
+          "description": "Победите Харлоу"
+        },
+        "schinese": {
+          "name": "击败 Harlow",
+          "description": "击败 Harlow。"
+        },
+        "spanish": {
+          "name": "Derrota a Harlow",
+          "description": "Derrota a Harlow"
+        }
+      }
+    },
+    "ACH_33": {
+      "translations": {
+        "czech": {
+          "name": "To je rozkaz",
+          "description": "Označte 100 nepřátel, které pak zabijí vaši spoluhráči v kooperativním režimu."
+        },
+        "english": {
+          "name": "It's an Order",
+          "description": "Mark 100 opponents which were then killed by your co-op partners"
+        },
+        "french": {
+          "name": "C'est un ordre",
+          "description": "Marquez 100 adversaires qui seront ensuite tués par vos partenaires de coopération."
+        },
+        "german": {
+          "name": "Das ist ein Befehl",
+          "description": "Markiere 100 Gegner, die dann von deinen Koop-Partnern getötet werden"
+        },
+        "italian": {
+          "name": "È un ordine",
+          "description": "Segnala 100 avversari che vengano poi uccisi dai tuoi compagni di cooperativa."
+        },
+        "japanese": {
+          "name": "命令だ！",
+          "description": "協力プレイ中、パートナーへ指示を出し、100体の敵を倒させろ"
+        },
+        "polish": {
+          "name": "To rozkaz",
+          "description": "Wskaż 100 przeciwników których zabiją twoi współgracze"
+        },
+        "russian": {
+          "name": "Это приказ",
+          "description": "Отметьте 100 противников, которые будут после этого убиты вашими партнерами по игре"
+        },
+        "schinese": {
+          "name": "这是命令",
+          "description": "标记 100 名随后被你的合作伙伴击杀的对手。"
+        },
+        "spanish": {
+          "name": "Es una orden",
+          "description": "Marca a 100 oponentes para que tus compañeros los maten"
+        }
+      }
+    },
+    "ACH_34": {
+      "translations": {
+        "czech": {
+          "name": "Král mezi králi",
+          "description": "Zabijte speciální nepřátele: granátníka, chuligána, zápasníka, nakaženého, sebevraha, kvíleče, řezníka a utopence."
+        },
+        "english": {
+          "name": "King among Kings",
+          "description": "Kill special enemies: Grenadier, Thug, Wrestler, Infected, Suicider, Screamer, Butcher, Floater."
+        },
+        "french": {
+          "name": "Roi des rois !",
+          "description": "Tuez des ennemis spéciaux : Grenadier, Assassin, Lutteur, Infecté, Kamikaze, Hurleur, Boucher, Noyé."
+        },
+        "german": {
+          "name": "König unter Königen",
+          "description": "Töte Grenadiere, Schläger, Wrestler, Infizierte, Selbstmörder, Schreier, Schlachter, Wasserleichen"
+        },
+        "italian": {
+          "name": "Re fra i re",
+          "description": "Uccidi: Granatieri, Assassini, Lottatori, Contagiati, Suicidi, Urlatori, Macellai, Galleggiatori."
+        },
+        "japanese": {
+          "name": "王の中の王",
+          "description": "すべての敵タイプを倒す: グレネーダー、サグ、レスラー、インフェクテッド、スーサイダー、スクリーマー、ブッチャー、フローター"
+        },
+        "polish": {
+          "name": "Król nad królami",
+          "description": "Zabij: grenadiera, zbira, zapaśnika, zarażonego, samobójcę, krzykacza, rzeźnika i topielca."
+        },
+        "russian": {
+          "name": "Царь горы",
+          "description": "Убейте особых врагов гренадера, бандита, громилу, зараженного, самоубийцу, крикуна, мясника, плывуна"
+        },
+        "schinese": {
+          "name": "王中之王",
+          "description": "杀死特殊敌人：Grenadier、Thug、Wrestler、Infected、Suicider、Screamer、Butcher、Floater。"
+        },
+        "spanish": {
+          "name": "Rey de Reyes",
+          "description": "Mata especiales: granadero, matón, luchador, infectado, suicida, chillón, carnicero y ahogado."
+        }
+      }
+    },
+    "ACH_35": {
+      "translations": {
+        "czech": {
+          "name": "Lovec a hledač",
+          "description": "Najděte a zabijte nejnebezpečnější stvůry v zónách mrtvých."
+        },
+        "english": {
+          "name": "Hunter-Seeker",
+          "description": "Find and kill all the most dangerous monstrosities located in dead zones"
+        },
+        "french": {
+          "name": "Chasseur-chercheur",
+          "description": "Trouvez et tuez tout les monstres champions portant un nom dans les zones mortes."
+        },
+        "german": {
+          "name": "Jäger und Sammler",
+          "description": "Suche alle benannten Championmonster in Todeszonen und töte sie."
+        },
+        "italian": {
+          "name": "Cacciatore",
+          "description": "Trova e uccidi tutti i mostri campioni identificati con un nome all'interno delle zone morte."
+        },
+        "japanese": {
+          "name": "バウンティハンター",
+          "description": "デッドゾーンで名前のあるゾンビをすべて倒す"
+        },
+        "polish": {
+          "name": "Łowca",
+          "description": "Znajdź i zabij wszystkich bossów zombie w Martwych Strefach"
+        },
+        "russian": {
+          "name": "За редким зверем",
+          "description": "Найдите и убейте всех именованных монстров-чемпионов в мертвых зонах"
+        },
+        "schinese": {
+          "name": "猎杀搜寻者",
+          "description": "找到并杀死所有位于死亡区域的最危险怪物。"
+        },
+        "spanish": {
+          "name": "El gran cazador",
+          "description": "Encuentra y mata a todos los monstruos principales con nombre de las zonas muertas."
+        }
+      }
+    }
+  }
+}

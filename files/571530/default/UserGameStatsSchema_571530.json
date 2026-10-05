@@ -1,0 +1,774 @@
+{
+  "version": 1,
+  "app_id": "571530",
+  "variant_id": "default",
+  "source_sha256": "48078b2d6ea4432e6912b5c8f1c02241fb9d4120867269371227582ab773b6c5",
+  "languages": [
+    "english",
+    "japanese",
+    "schinese",
+    "tchinese"
+  ],
+  "achievements": {
+    "ACHIEVEMENT_000": {
+      "translations": {
+        "english": {
+          "name": "Superdimension Neptune VS Sega Hard Girls",
+          "description": "Acquired all trophies."
+        },
+        "japanese": {
+          "name": "超次元大戦 ネプテューヌVSセガ・ハード・ガールズ マスター",
+          "description": "超次元大戦 ネプテューヌVSセガ・ハード・ガールズを遊び尽くした。"
+        },
+        "schinese": {
+          "name": "超次元大战 战机少女 VS SEGA主机娘 大师",
+          "description": "把超次元大战 战机少女 VS SEGA主机娘玩透彻了。"
+        },
+        "tchinese": {
+          "name": "超次元大戰 戰機少女 VS SEGA主機娘 大師",
+          "description": "把超次元大戰 戰機少女 VS SEGA主機娘玩透徹了。"
+        }
+      }
+    },
+    "ACHIEVEMENT_001": {
+      "translations": {
+        "english": {
+          "name": "Start Your Engines",
+          "description": "Fired up the game!"
+        },
+        "japanese": {
+          "name": "エンジン始動",
+          "description": "NEW GAMEを選択してゲームを開始した。"
+        },
+        "schinese": {
+          "name": "引擎启动",
+          "description": "选择NEW GAME开始游戏。"
+        },
+        "tchinese": {
+          "name": "引擎啟動",
+          "description": "選擇NEW GAME開始遊戲。"
+        }
+      }
+    },
+    "ACHIEVEMENT_002": {
+      "translations": {
+        "english": {
+          "name": "NEPTUNE Joined",
+          "description": "NEPTUNE joined your party."
+        },
+        "japanese": {
+          "name": "加入：ネプテューヌ",
+          "description": "ネプテューヌを仲間にした。"
+        },
+        "schinese": {
+          "name": "加入：妮普禔努",
+          "description": "妮普禔努成为同伴了。"
+        },
+        "tchinese": {
+          "name": "加入：妮普禔努",
+          "description": "妮普禔努成為同伴了。"
+        }
+      }
+    },
+    "ACHIEVEMENT_003": {
+      "translations": {
+        "english": {
+          "name": "NEPGEAR Joined",
+          "description": "NEPGEAR joined your party."
+        },
+        "japanese": {
+          "name": "加入：ネプギア",
+          "description": "ネプギアを仲間にした。"
+        },
+        "schinese": {
+          "name": "加入：妮普吉雅",
+          "description": "妮普吉雅成为同伴了。"
+        },
+        "tchinese": {
+          "name": "加入：妮普吉雅",
+          "description": "妮普吉雅成為同伴了。"
+        }
+      }
+    },
+    "ACHIEVEMENT_004": {
+      "translations": {
+        "english": {
+          "name": "PLUTIA Joined",
+          "description": "PLUTIA joined your party."
+        },
+        "japanese": {
+          "name": "加入：プルルート",
+          "description": "プルルートを仲間にした。"
+        },
+        "schinese": {
+          "name": "加入：普露露特",
+          "description": "普露露特成为同伴了。"
+        },
+        "tchinese": {
+          "name": "加入：普露露特",
+          "description": "普露露特成為同伴了。"
+        }
+      }
+    },
+    "ACHIEVEMENT_005": {
+      "translations": {
+        "english": {
+          "name": "UZUME Joined",
+          "description": "UZUME joined your party."
+        },
+        "japanese": {
+          "name": "加入：うずめ",
+          "description": "うずめを仲間にした。"
+        },
+        "schinese": {
+          "name": "加入：钿女",
+          "description": "钿女成为同伴了。"
+        },
+        "tchinese": {
+          "name": "加入：鈿女",
+          "description": "鈿女成為同伴了。"
+        }
+      }
+    },
+    "ACHIEVEMENT_006": {
+      "translations": {
+        "english": {
+          "name": "MEGA DRIVE Joined",
+          "description": "MEGA DRIVE joined your party."
+        },
+        "japanese": {
+          "name": "加入：メガドライブ",
+          "description": "メガドライブを仲間にした。"
+        },
+        "schinese": {
+          "name": "加入：Mega Drive",
+          "description": "Mega Drive成为同伴了。"
+        },
+        "tchinese": {
+          "name": "加入：Mega Drive",
+          "description": "Mega Drive成為同伴了。"
+        }
+      }
+    },
+    "ACHIEVEMENT_007": {
+      "translations": {
+        "english": {
+          "name": "GAME GEAR Joined",
+          "description": "GAME GEAR joined your party."
+        },
+        "japanese": {
+          "name": "加入：ゲームギア",
+          "description": "ゲームギアを仲間にした。"
+        },
+        "schinese": {
+          "name": "加入：Game Gear",
+          "description": "Game Gear 成为同伴了。"
+        },
+        "tchinese": {
+          "name": "加入：Game Gear",
+          "description": "Game Gear成為同伴了。"
+        }
+      }
+    },
+    "ACHIEVEMENT_008": {
+      "translations": {
+        "english": {
+          "name": "SEGA SATURN Joined",
+          "description": "SEGA SATURN joined your party."
+        },
+        "japanese": {
+          "name": "加入：セガサターン",
+          "description": "セガサターンを仲間にした。"
+        },
+        "schinese": {
+          "name": "加入：Sega Saturn",
+          "description": "Sega Saturn成为同伴了。"
+        },
+        "tchinese": {
+          "name": "加入：Sega Saturn",
+          "description": "Sega Saturn成為同伴了。"
+        }
+      }
+    },
+    "ACHIEVEMENT_009": {
+      "translations": {
+        "english": {
+          "name": "DREAMCAST Joined",
+          "description": "DREAMCAST joined your party."
+        },
+        "japanese": {
+          "name": "加入：ドリームキャスト",
+          "description": "ドリームキャストを仲間にした。"
+        },
+        "schinese": {
+          "name": "加入：Dreamcast",
+          "description": "Dreamcast成为同伴了。"
+        },
+        "tchinese": {
+          "name": "加入：Dreamcast",
+          "description": "Dreamcast成為同伴了。"
+        }
+      }
+    },
+    "ACHIEVEMENT_010": {
+      "translations": {
+        "english": {
+          "name": "TIME EATER",
+          "description": "You challenged the Time Eater!"
+        },
+        "japanese": {
+          "name": "歴史を喰らうもの",
+          "description": "歴史を喰らうものに挑んだ。"
+        },
+        "schinese": {
+          "name": "历史吞噬者",
+          "description": "挑战了历史吞噬者。"
+        },
+        "tchinese": {
+          "name": "歷史吞噬者",
+          "description": "挑戰了歷史吞噬者。"
+        }
+      }
+    },
+    "ACHIEVEMENT_011": {
+      "translations": {
+        "english": {
+          "name": "Normal End",
+          "description": "You saw the Normal Ending."
+        },
+        "japanese": {
+          "name": "ノーマルエンド",
+          "description": "ノーマルエンドを見た。"
+        },
+        "schinese": {
+          "name": "NORMAL END",
+          "description": "看见NORMAL END。"
+        },
+        "tchinese": {
+          "name": "NORMAL END",
+          "description": "看見NORMAL END。"
+        }
+      }
+    },
+    "ACHIEVEMENT_012": {
+      "translations": {
+        "english": {
+          "name": "Bad End",
+          "description": "You saw the Bad Ending."
+        },
+        "japanese": {
+          "name": "バッドエンド",
+          "description": "バッドエンドを見た。"
+        },
+        "schinese": {
+          "name": "BAD END",
+          "description": "看见BAD END。"
+        },
+        "tchinese": {
+          "name": "BAD END",
+          "description": "看見BAD END。"
+        }
+      }
+    },
+    "ACHIEVEMENT_013": {
+      "translations": {
+        "english": {
+          "name": "True End",
+          "description": "You saw the True Ending."
+        },
+        "japanese": {
+          "name": "トゥルーエンド",
+          "description": "トゥルーエンドを見た。"
+        },
+        "schinese": {
+          "name": "TRUE END",
+          "description": "看见TRUE END。"
+        },
+        "tchinese": {
+          "name": "TRUE END",
+          "description": "看見TRUE END。"
+        }
+      }
+    },
+    "ACHIEVEMENT_014": {
+      "translations": {
+        "english": {
+          "name": "Delphinus",
+          "description": "You beat Delphinus."
+        },
+        "japanese": {
+          "name": "デルフィナス",
+          "description": "隠しボスのデルフィナスを倒した。"
+        },
+        "schinese": {
+          "name": "戴菲努斯",
+          "description": "打倒隐藏头目戴菲努斯。"
+        },
+        "tchinese": {
+          "name": "戴菲努斯",
+          "description": "打倒隱藏頭目戴菲努斯。"
+        }
+      }
+    },
+    "ACHIEVEMENT_015": {
+      "translations": {
+        "english": {
+          "name": "Battle Rookie",
+          "description": "You finished your first fight! Aw."
+        },
+        "japanese": {
+          "name": "バトル初心者",
+          "description": "初めて戦闘をした。"
+        },
+        "schinese": {
+          "name": "战斗初学者",
+          "description": "第一次战斗。"
+        },
+        "tchinese": {
+          "name": "戰鬥初學者",
+          "description": "第一次戰鬥。"
+        }
+      }
+    },
+    "ACHIEVEMENT_016": {
+      "translations": {
+        "english": {
+          "name": "Battle-Hardened",
+          "description": "You fought 100 battles !"
+        },
+        "japanese": {
+          "name": "百戦錬磨",
+          "description": "１００回戦闘をした。"
+        },
+        "schinese": {
+          "name": "身经百战",
+          "description": "战斗100次。"
+        },
+        "tchinese": {
+          "name": "身經百戰",
+          "description": "戰鬥100次。"
+        }
+      }
+    },
+    "ACHIEVEMENT_017": {
+      "translations": {
+        "english": {
+          "name": "Ultimate Fighter",
+          "description": "You fought 500 battles !"
+        },
+        "japanese": {
+          "name": "バトルマスター",
+          "description": "５００回戦闘をした。"
+        },
+        "schinese": {
+          "name": "战斗大师",
+          "description": "战斗500次。"
+        },
+        "tchinese": {
+          "name": "戰鬥大師",
+          "description": "戰鬥500次。"
+        }
+      }
+    },
+    "ACHIEVEMENT_018": {
+      "translations": {
+        "english": {
+          "name": "Unstoppable",
+          "description": "You dished out over 100 Hits."
+        },
+        "japanese": {
+          "name": "連続Ｈｉｔ",
+          "description": "１００Ｈｉｔを達成した。"
+        },
+        "schinese": {
+          "name": "连续Hit",
+          "description": "达成100 Hit。"
+        },
+        "tchinese": {
+          "name": "連續Hit",
+          "description": "達成100 Hit。"
+        }
+      }
+    },
+    "ACHIEVEMENT_019": {
+      "translations": {
+        "english": {
+          "name": "Maximum Damage",
+          "description": "You inflicted over 100,000 damage points to an enemy."
+        },
+        "japanese": {
+          "name": "最大火力",
+          "description": "最大ダメージ１０万を達成した。"
+        },
+        "schinese": {
+          "name": "最大火力",
+          "description": "达成最大伤害10万。"
+        },
+        "tchinese": {
+          "name": "最大火力",
+          "description": "達成最大傷害10萬。"
+        }
+      }
+    },
+    "ACHIEVEMENT_020": {
+      "translations": {
+        "english": {
+          "name": "FEVER !",
+          "description": "Fever Time activated."
+        },
+        "japanese": {
+          "name": "フィーバー！",
+          "description": "初めてフィーバーした。"
+        },
+        "schinese": {
+          "name": "FEVER！",
+          "description": "第一次FEVER。"
+        },
+        "tchinese": {
+          "name": "FEVER！",
+          "description": "第一次FEVER。"
+        }
+      }
+    },
+    "ACHIEVEMENT_021": {
+      "translations": {
+        "english": {
+          "name": "Up Up !",
+          "description": "You activated Fever Time 100 times."
+        },
+        "japanese": {
+          "name": "アゲアゲ",
+          "description": "１００回フィーバーした。"
+        },
+        "schinese": {
+          "name": "狂欢",
+          "description": "FEVER了100次。"
+        },
+        "tchinese": {
+          "name": "狂歡",
+          "description": "FEVER了100次。"
+        }
+      }
+    },
+    "ACHIEVEMENT_022": {
+      "translations": {
+        "english": {
+          "name": "Millionaire",
+          "description": "You earned a million credits. Wow."
+        },
+        "japanese": {
+          "name": "お金持ち",
+          "description": "累計で１００万クレジットを稼いだ。"
+        },
+        "schinese": {
+          "name": "有钱人",
+          "description": "累计赚了100万的信用点数。"
+        },
+        "tchinese": {
+          "name": "有錢人",
+          "description": "累計賺了100萬的信用點數。"
+        }
+      }
+    },
+    "ACHIEVEMENT_023": {
+      "translations": {
+        "english": {
+          "name": "Medal Collector",
+          "description": "You cleared the dungeon challenge."
+        },
+        "japanese": {
+          "name": "メダルコレクター",
+          "description": "ダンジョンチャレンジをコンプリートした。"
+        },
+        "schinese": {
+          "name": "奖牌收藏家",
+          "description": "迷宫挑战全部达成。"
+        },
+        "tchinese": {
+          "name": "獎牌收藏家",
+          "description": "迷宮挑戰全部達成。"
+        }
+      }
+    },
+    "ACHIEVEMENT_024": {
+      "translations": {
+        "english": {
+          "name": "Mission Master",
+          "description": "You cleared a 100 different missions."
+        },
+        "japanese": {
+          "name": "ミッションマスター",
+          "description": "ミッションを１００種類クリアした。"
+        },
+        "schinese": {
+          "name": "任务大师",
+          "description": "达成100种任务。"
+        },
+        "tchinese": {
+          "name": "任務大師",
+          "description": "達成100種任務。"
+        }
+      }
+    },
+    "ACHIEVEMENT_025": {
+      "translations": {
+        "english": {
+          "name": "Historians",
+          "description": "Your investigation skills reached level 25."
+        },
+        "japanese": {
+          "name": "歴女",
+          "description": "解明レベルを２５にした。"
+        },
+        "schinese": {
+          "name": "历女",
+          "description": "解析等级达到25。"
+        },
+        "tchinese": {
+          "name": "歷女",
+          "description": "解析等級達到25。"
+        }
+      }
+    },
+    "ACHIEVEMENT_026": {
+      "translations": {
+        "english": {
+          "name": "Time Traveller",
+          "description": "You made your first leap through time."
+        },
+        "japanese": {
+          "name": "タイムトラベラー",
+          "description": "初めてタイムリープをした。"
+        },
+        "schinese": {
+          "name": "时空旅行者",
+          "description": "第一次时空跳跃。"
+        },
+        "tchinese": {
+          "name": "時空旅行者",
+          "description": "第一次時空跳躍。"
+        }
+      }
+    },
+    "ACHIEVEMENT_027": {
+      "translations": {
+        "english": {
+          "name": "Class Change",
+          "description": "You performed a Class Change."
+        },
+        "japanese": {
+          "name": "クラスチェンジ",
+          "description": "初めてクラスチェンジをした。"
+        },
+        "schinese": {
+          "name": "职种变更",
+          "description": "第一次改变职种。"
+        },
+        "tchinese": {
+          "name": "職種變更",
+          "description": "第一次改變職種。"
+        }
+      }
+    },
+    "ACHIEVEMENT_028": {
+      "translations": {
+        "english": {
+          "name": "Did I Catch It?",
+          "description": "You caught a ball."
+        },
+        "japanese": {
+          "name": "球拾い？",
+          "description": "初めてボールを拾った。"
+        },
+        "schinese": {
+          "name": "捡球？",
+          "description": "第一次捡球。"
+        },
+        "tchinese": {
+          "name": "撿球？",
+          "description": "第一次撿球。"
+        }
+      }
+    },
+    "ACHIEVEMENT_029": {
+      "translations": {
+        "english": {
+          "name": "Master Catcher",
+          "description": "You caught all the balls."
+        },
+        "japanese": {
+          "name": "球拾いマスター",
+          "description": "すべてのボールを拾った。"
+        },
+        "schinese": {
+          "name": "捡球大师",
+          "description": "捡到所有的球。"
+        },
+        "tchinese": {
+          "name": "撿球大師",
+          "description": "撿到所有的球。"
+        }
+      }
+    },
+    "ACHIEVEMENT_030": {
+      "translations": {
+        "english": {
+          "name": "Toypolis Unlocked",
+          "description": "Toypolis been unlocked."
+        },
+        "japanese": {
+          "name": "トイポリス オープン",
+          "description": "トイポリスがオープンした。"
+        },
+        "schinese": {
+          "name": "TOY POLIS 开张",
+          "description": "TOY POLIS开张了。"
+        },
+        "tchinese": {
+          "name": "TOY POLIS 開張",
+          "description": "TOY POLIS開張了。"
+        }
+      }
+    },
+    "ACHIEVEMENT_031": {
+      "translations": {
+        "english": {
+          "name": "Toypolis Second Floor",
+          "description": "Toypolis Second Floor unlocked."
+        },
+        "japanese": {
+          "name": "トイポリス ２Ｆオープン",
+          "description": "トイポリスの２Ｆがオープンした。"
+        },
+        "schinese": {
+          "name": "TOY POLIS 2F开张",
+          "description": "TOY POLIS的2F开张了。"
+        },
+        "tchinese": {
+          "name": "TOY POLIS 2F開張",
+          "description": "TOY POLIS的2F開張了。"
+        }
+      }
+    },
+    "ACHIEVEMENT_032": {
+      "translations": {
+        "english": {
+          "name": "Toypolis Third Floor",
+          "description": "Toypolis Third Floor unlocked."
+        },
+        "japanese": {
+          "name": "トイポリス ３Ｆオープン",
+          "description": "トイポリスの３Ｆがオープンした。"
+        },
+        "schinese": {
+          "name": "TOY POLIS 3F开张",
+          "description": "TOY POLIS的3F开张了。"
+        },
+        "tchinese": {
+          "name": "TOY POLIS 3F開張",
+          "description": "TOY POLIS的3F開張了。"
+        }
+      }
+    },
+    "ACHIEVEMENT_033": {
+      "translations": {
+        "english": {
+          "name": "Console Collector",
+          "description": "You chatted with all the Sega Hard Girls."
+        },
+        "japanese": {
+          "name": "ハードコレクター",
+          "description": "セガ・ハード・ガールズ全員と話をした。"
+        },
+        "schinese": {
+          "name": "主机收藏家",
+          "description": "和所有SEGA主机娘说话了。"
+        },
+        "tchinese": {
+          "name": "主機收藏家",
+          "description": "和所有SEGA主機娘說話了。"
+        }
+      }
+    },
+    "ACHIEVEMENT_034": {
+      "translations": {
+        "english": {
+          "name": "Level MAX",
+          "description": "You reached level 99."
+        },
+        "japanese": {
+          "name": "レベルＭＡＸ",
+          "description": "誰かのレベルを９９にした。"
+        },
+        "schinese": {
+          "name": "等级MAX",
+          "description": "使某人的等级达到99。"
+        },
+        "tchinese": {
+          "name": "等級MAX",
+          "description": "使某人的等級達到99。"
+        }
+      }
+    },
+    "ACHIEVEMENT_035": {
+      "translations": {
+        "english": {
+          "name": "Counter Stop",
+          "description": "All your characters reached 99."
+        },
+        "japanese": {
+          "name": "カンスト",
+          "description": "全員のレベルを９９にした。"
+        },
+        "schinese": {
+          "name": "全满级",
+          "description": "使全员的等级达到99。"
+        },
+        "tchinese": {
+          "name": "全滿級",
+          "description": "使全員的等級達到99。"
+        }
+      }
+    },
+    "ACHIEVEMENT_036": {
+      "translations": {
+        "english": {
+          "name": "Hey, Ladies!",
+          "description": "You maxed out your Lily rank."
+        },
+        "japanese": {
+          "name": "ゆりゆり",
+          "description": "誰かのリリィランクを最大にした。"
+        },
+        "schinese": {
+          "name": "百合百合",
+          "description": "使某人的百合等级达到最大。"
+        },
+        "tchinese": {
+          "name": "百合百合",
+          "description": "使某人的百合等級達到最大。"
+        }
+      }
+    },
+    "ACHIEVEMENT_037": {
+      "translations": {
+        "english": {
+          "name": "Paradise",
+          "description": "All your characters maxed out their Lily ranks."
+        },
+        "japanese": {
+          "name": "ハーレム",
+          "description": "全員のリリィランクを最大にした。"
+        },
+        "schinese": {
+          "name": "后宫",
+          "description": "使全员的百合等级达到最大。"
+        },
+        "tchinese": {
+          "name": "後宮",
+          "description": "使全員的百合等級達到最大。"
+        }
+      }
+    }
+  }
+}

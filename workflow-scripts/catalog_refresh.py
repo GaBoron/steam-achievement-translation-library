@@ -7,8 +7,10 @@ from typing import Any
 
 import achievement_catalog
 import catalog_v2
+import translation_json
 from generate_statistics_svg import build_statistics, render_svg, write_if_changed
 from library_index import render_human_index, sort_entries
+from pr_submission_data import with_submissions
 from steam_schema import achievement_rows, load_schema, schema_languages, sha256, validate_schema_structure
 
 
@@ -20,6 +22,7 @@ STATISTICS_PATH = ROOT / "docs" / "statistics" / "library-statistics.svg"
 
 def refresh_catalog(catalog: dict[str, Any], *, root: Path = ROOT) -> dict[str, Any]:
     """Recalculate BIN-derived fields, then refresh every checked-in projection."""
+    catalog = with_submissions(catalog, root=root)
     for game_id, game in catalog["games"].items():
         for variant_id, variant in game["variants"].items():
             relative = catalog_v2.schema_relative_path(game_id, variant_id)
@@ -30,6 +33,7 @@ def refresh_catalog(catalog: dict[str, Any], *, root: Path = ROOT) -> dict[str, 
             variant["size"] = len(data)
             variant["languages"] = schema_languages(nodes)
             variant["achievements"] = len(rows)
+            variant["json"] = translation_json.write_translation(path, game_id, variant_id)
     catalog_v2.validate_catalog(catalog)
     catalog_v2.write_catalog(catalog, root=root)
     catalog_v2.write_legacy_index(catalog, root=root)
@@ -50,7 +54,7 @@ def main() -> None:
     refresh_catalog(catalog, root=ROOT)
     print(
         "Refreshed index-v2.json, index.json, INDEX.md, INDEX_EN.md, "
-        "achievements.md catalogs, and statistics SVG."
+        "achievement catalogs, translation JSON sidecars, and statistics SVG."
     )
 
 
