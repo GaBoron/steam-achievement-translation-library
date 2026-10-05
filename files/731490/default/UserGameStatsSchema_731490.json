@@ -1,0 +1,2385 @@
+{
+  "version": 1,
+  "app_id": "731490",
+  "variant_id": "default",
+  "source_sha256": "eeff657320672464ef181310eaf5667a1f6033399d3e7e669e5bc2e6f1dee0da",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "ACH_101": {
+      "translations": {
+        "english": {
+          "name": "C1 | Papu Popped",
+          "description": "Defeat Papu-Papu"
+        },
+        "french": {
+          "name": "C1 | Il n'a Papu gagner",
+          "description": "Battre Papu Papu."
+        },
+        "german": {
+          "name": "C1 | Papu plattgemacht",
+          "description": "Besiege Papu-Papu."
+        },
+        "italian": {
+          "name": "C1 | Abbasso Papu",
+          "description": "Sconfiggi Papu Papu."
+        },
+        "japanese": {
+          "name": "C1 - パプパプ・パンチアウト",
+          "description": "パプパプをたおす"
+        },
+        "schinese": {
+          "name": "C1 | 击败帕普·帕普",
+          "description": "击败帕普·帕普。"
+        },
+        "spanish": {
+          "name": "C1 | Popó para Papu",
+          "description": "Derrota a Papu Papu."
+        }
+      }
+    },
+    "ACH_102": {
+      "translations": {
+        "english": {
+          "name": "C1 | Ripper Ruined",
+          "description": "Defeat Ripper Roo"
+        },
+        "french": {
+          "name": "C1 | Quand le Roo tourne",
+          "description": "Battre Roo l'Égorgeur."
+        },
+        "german": {
+          "name": "C1 | Ripper ruiniert",
+          "description": "Besiege Ripper Roo."
+        },
+        "italian": {
+          "name": "C1 | La rovina di Ripper",
+          "description": "Sconfiggi Ripper Roo."
+        },
+        "japanese": {
+          "name": "C1 - リパー・ザ・ルーザー",
+          "description": "リパー・ルーをたおす"
+        },
+        "schinese": {
+          "name": "C1 | 击败里珀·鲁",
+          "description": "击败里珀·鲁。"
+        },
+        "spanish": {
+          "name": "C1 | Ripper acabado",
+          "description": "Derrota a Ripper Roo."
+        }
+      }
+    },
+    "ACH_103": {
+      "translations": {
+        "english": {
+          "name": "C1 | Spin Doctor",
+          "description": "In a single level, spin an enemy into another enemy twice"
+        },
+        "french": {
+          "name": "C1 | D'un tourbillon deux coups",
+          "description": "Dans un même niveau, projeter deux fois un ennemi dans un autre avec un tourbillon."
+        },
+        "german": {
+          "name": "C1 | Wirbelwind",
+          "description": "Wirbele einen Gegner in einem einzigen Level zweimal in einen anderen Gegner."
+        },
+        "italian": {
+          "name": "C1 | Giro girotondo",
+          "description": "Fai roteare un nemico e mandalo a sbattere contro un altro nemico due volte nello stesso livello."
+        },
+        "japanese": {
+          "name": "C1 - スピン・マスター",
+          "description": "1つのステージで、スピンさせたてきを べつのてきに2かい ぶつける"
+        },
+        "schinese": {
+          "name": "C1 | 旋转医生",
+          "description": "在单个关卡中，将一名敌人旋转撞向另一名敌人两次。"
+        },
+        "spanish": {
+          "name": "C1 | Doctor Giro",
+          "description": "En un solo nivel, gira y lanza a un enemigo contra otro dos veces."
+        }
+      }
+    },
+    "ACH_104": {
+      "translations": {
+        "english": {
+          "name": "C1 | I Meant To Do That!",
+          "description": "Spin away an Extra Life"
+        },
+        "french": {
+          "name": "C1 | C'était totalement voulu !",
+          "description": "Chasser une vie bonus en faisant un tourbillon."
+        },
+        "german": {
+          "name": "C1 | Das war Absicht!",
+          "description": "Verwirbele ein Extra-Leben."
+        },
+        "italian": {
+          "name": "C1 | Giuro che l'ho fatto apposta!",
+          "description": "Allontana una vita extra roteando."
+        },
+        "japanese": {
+          "name": "C1 - わざとだよ？",
+          "description": "ライフをスピンではじきとばす"
+        },
+        "schinese": {
+          "name": "C1 | 我是故意的！",
+          "description": "旋转掉一条额外生命。"
+        },
+        "spanish": {
+          "name": "C1 | ¡Lo he hecho aposta!",
+          "description": "Gira y manda por los aires una vida extra."
+        }
+      }
+    },
+    "ACH_105": {
+      "translations": {
+        "english": {
+          "name": "C1 | That's What Those Do!",
+          "description": "Enter a Bonus Round after collecting 3 Character Tokens"
+        },
+        "french": {
+          "name": "C1 | C'est à ça que ça sert",
+          "description": "Entrer dans un niveau bonus après avoir ramassé 3 jetons de personnage."
+        },
+        "german": {
+          "name": "C1 | Ach, dafür sind die gut!",
+          "description": "Starte eine Bonusrunde, nachdem du 3 Charakter-Tokens eingesammelt hast."
+        },
+        "italian": {
+          "name": "C1 | Ecco a cosa servono!",
+          "description": "Avvia un turno bonus dopo aver ottenuto 3 gettoni personaggio."
+        },
+        "japanese": {
+          "name": "C1 - たくみのわざ",
+          "description": "キャラクタートークンを3コあつめ、ボーナスラウンドにはいる"
+        },
+        "schinese": {
+          "name": "C1 | 原来它们是干这个的！",
+          "description": "收集 3 个角色令牌后进入奖励关卡。"
+        },
+        "spanish": {
+          "name": "C1 | ¡Para esto sirven!",
+          "description": "Entra en una ronda de bonificación tras conseguir tres fichas de personaje."
+        }
+      }
+    },
+    "ACH_106": {
+      "translations": {
+        "english": {
+          "name": "C1 | Catch Me If You Can!",
+          "description": "Earn 5 Relics"
+        },
+        "french": {
+          "name": "C1 | Sur les chapeaux de roues",
+          "description": "Gagner 5 reliques."
+        },
+        "german": {
+          "name": "C1 | Fang mich, wenn du kannst!",
+          "description": "Erhalte 5 Relikte"
+        },
+        "italian": {
+          "name": "C1 | Prova a prendermi!",
+          "description": "Ottieni 5 reliquie."
+        },
+        "japanese": {
+          "name": "C1 - つかまえてみな！",
+          "description": "レリックを5コかくとく"
+        },
+        "schinese": {
+          "name": "C1 | 追得上我就来啊！",
+          "description": "获得 5 个遗物。"
+        },
+        "spanish": {
+          "name": "C1 | ¡Atrápame si puedes!",
+          "description": "Consigue 5 reliquias."
+        }
+      }
+    },
+    "ACH_107": {
+      "translations": {
+        "english": {
+          "name": "C1 | Feeeed Meeeee!",
+          "description": "Die."
+        },
+        "french": {
+          "name": "C1 | À manger !",
+          "description": "Mourir."
+        },
+        "german": {
+          "name": "C1 | Fütter mich!",
+          "description": "Das ist dein Ende."
+        },
+        "italian": {
+          "name": "C1 | Ho faaaaameeeeee!",
+          "description": "Muori."
+        },
+        "japanese": {
+          "name": "C1 - はらぺこ",
+          "description": "しぬ"
+        },
+        "schinese": {
+          "name": "C1 | 喂～我～！",
+          "description": "死亡。"
+        },
+        "spanish": {
+          "name": "C1 | ¡Dame de comeeeeer!",
+          "description": "Muere."
+        }
+      }
+    },
+    "ACH_108": {
+      "translations": {
+        "english": {
+          "name": "C1 | The Box That Broke the Bandicoot's Back",
+          "description": "Miss a lot of boxes."
+        },
+        "french": {
+          "name": "C1 | Pas besoin d'en faire des...",
+          "description": "Rater plein de caisses."
+        },
+        "german": {
+          "name": "C1 | Die Kiste, die Crash das Genick brach",
+          "description": "Verfehle viele Kisten."
+        },
+        "italian": {
+          "name": "C1 | La cassa che fece traboccare il vaso",
+          "description": "Manca molte casse."
+        },
+        "japanese": {
+          "name": "C1 - あけずくやしき たまてばこ",
+          "description": "はこをたくさんとりのがす"
+        },
+        "schinese": {
+          "name": "C1 | 压垮袋狼的木箱",
+          "description": "漏掉很多木箱。"
+        },
+        "spanish": {
+          "name": "C1 | Esas sempiternas cajas",
+          "description": "Pierde un montón de cajas."
+        }
+      }
+    },
+    "ACH_109": {
+      "translations": {
+        "english": {
+          "name": "C1 | Koala Konked",
+          "description": "Defeat Koala Kong"
+        },
+        "french": {
+          "name": "C1 | Faire sonner le Kong",
+          "description": "Battre Koala Kong."
+        },
+        "german": {
+          "name": "C1 | Koala kaltgemacht",
+          "description": "Besiege Koala Kong."
+        },
+        "italian": {
+          "name": "C1 | Kolpisci il Koala",
+          "description": "Sconfiggi Koala Kong."
+        },
+        "japanese": {
+          "name": "C1 - コアラこらしめ",
+          "description": "コアラコングをたおす"
+        },
+        "schinese": {
+          "name": "C1 | 击败考拉·孔",
+          "description": "击败考拉·孔。"
+        },
+        "spanish": {
+          "name": "C1 | Koala bajo Kongtrol",
+          "description": "Derrota a Koala Kong."
+        }
+      }
+    },
+    "ACH_110": {
+      "translations": {
+        "english": {
+          "name": "C1 | Pinstripe Patooey",
+          "description": "Defeat Pinstripe Potoroo"
+        },
+        "french": {
+          "name": "C1 | Découvrir le Poto-rose",
+          "description": "Battre Pinstripe Potoroo."
+        },
+        "german": {
+          "name": "C1 | Pinstripe püriert",
+          "description": "Besiege Pinstripe Potoroo."
+        },
+        "italian": {
+          "name": "C1 | Polpette di Pinstripe",
+          "description": "Sconfiggi Pinstripe Potoroo."
+        },
+        "japanese": {
+          "name": "C1 - ピン・ストライク",
+          "description": "ピンストライプをたおす"
+        },
+        "schinese": {
+          "name": "C1 | 击败条纹·波特鲁",
+          "description": "击败条纹·波特鲁。"
+        },
+        "spanish": {
+          "name": "C1 | Puturrú de Potoroo",
+          "description": "Derrota a Pinstripe Potoroo."
+        }
+      }
+    },
+    "ACH_111": {
+      "translations": {
+        "english": {
+          "name": "C1 | A Hidden Gem",
+          "description": "Discover a Gem Path after earning a Color Gem"
+        },
+        "french": {
+          "name": "C1 | Gemme cachée",
+          "description": "Découvrir un chemin de gemme après avoir obtenu une gemme de couleur."
+        },
+        "german": {
+          "name": "C1 | Ein verborgener Edelstein",
+          "description": "Entdecke einen Edelstein-Weg, nachdem du einen Farbedelstein erhalten hast."
+        },
+        "italian": {
+          "name": "C1 | Ditelo con una gemma",
+          "description": "Scopri un sentiero di gemme dopo aver ottenuto una gemma colorata."
+        },
+        "japanese": {
+          "name": "C1 - かくされたダイヤ",
+          "description": "カラーダイヤをかくとくし、ダイヤのみち をみつける"
+        },
+        "schinese": {
+          "name": "C1 | 隐藏的宝石",
+          "description": "获得彩色宝石后发现一条宝石路径。"
+        },
+        "spanish": {
+          "name": "C1 | Una gema oculta",
+          "description": "Descubre una ruta de gema tras conseguir una gema de color."
+        }
+      }
+    },
+    "ACH_112": {
+      "translations": {
+        "english": {
+          "name": "C1 | Cortex's Crazed Contest",
+          "description": "Earn the Key in Sunset Vista"
+        },
+        "french": {
+          "name": "C1 | Le défi maboul de Cortex",
+          "description": "Recevoir la clé dans Sunset Vista."
+        },
+        "german": {
+          "name": "C1 | Cortex' krasser Kampf",
+          "description": "Erhalte den Schlüssel in Sunset Vista."
+        },
+        "italian": {
+          "name": "C1 | La folle battaglia di Cortex",
+          "description": "Ottieni la chiave in Sunset Vista."
+        },
+        "japanese": {
+          "name": "C1 - はらんのはしゃ",
+          "description": "「あらしのこじょう」でカギをかくとく"
+        },
+        "schinese": {
+          "name": "C1 | 科特斯的疯狂比赛",
+          "description": "在“日落美景”中获得钥匙。"
+        },
+        "spanish": {
+          "name": "C1 | La demencial prueba de Cortex",
+          "description": "Obtén la llave en Sunset Vista."
+        }
+      }
+    },
+    "ACH_113": {
+      "translations": {
+        "english": {
+          "name": "C1 | Cortex's Terrifying Trial",
+          "description": "Earn the Key in Jaws of Darkness"
+        },
+        "french": {
+          "name": "C1 | La terrible épreuve de Cortex",
+          "description": "Recevoir la clé dans Jaws of Darkness."
+        },
+        "german": {
+          "name": "C1 | Cortex' tödlicher Test",
+          "description": "Erhalte den Schlüssel in Jaws of Darkness."
+        },
+        "italian": {
+          "name": "C1 | La terrificante prova di Cortex",
+          "description": "Ottieni la chiave in Jaws of Darkness."
+        },
+        "japanese": {
+          "name": "C1 - しれつなしれん",
+          "description": "「しんでんのおくふかく」でカギをかくとく"
+        },
+        "schinese": {
+          "name": "C1 | 科特斯的恐怖试炼",
+          "description": "在“黑暗之口”中获得钥匙。"
+        },
+        "spanish": {
+          "name": "C1 | La terrorífica prueba de Cortex",
+          "description": "Obtén la llave en Jaws of Darkness."
+        }
+      }
+    },
+    "ACH_114": {
+      "translations": {
+        "english": {
+          "name": "C1 | Could Go... All... The... Way!",
+          "description": "Earn 10 Relics (gold or better)"
+        },
+        "french": {
+          "name": "C1 | Courir sans se retourner",
+          "description": "Gagner 10 reliques (en or ou mieux)."
+        },
+        "german": {
+          "name": "C1 | Bis ... zum ... bitteren ... Ende!",
+          "description": "Erhalte 10 Relikte (Gold oder besser)."
+        },
+        "italian": {
+          "name": "C1 | Andare... fino... in... fondo!",
+          "description": "Ottieni 10 reliquie (oro o superiori)."
+        },
+        "japanese": {
+          "name": "C1 - この… ちょうしで… いけそうだ！",
+          "description": "ゴールドいじょうのレリックを10コかくとく"
+        },
+        "schinese": {
+          "name": "C1 | 可能一路……冲……到底！",
+          "description": "获得 10 个遗物（黄金或更好）。"
+        },
+        "spanish": {
+          "name": "C1 | ¡A tope hasta el final!",
+          "description": "Consigue 10 reliquias (de oro o mejores)."
+        }
+      }
+    },
+    "ACH_115": {
+      "translations": {
+        "english": {
+          "name": "C1 | I See London, I See France",
+          "description": "Die as Crash."
+        },
+        "french": {
+          "name": "C1 | Déculottée",
+          "description": "Mourir en étant Crash."
+        },
+        "german": {
+          "name": "C1 | Messer, Schere, Gabel, Licht",
+          "description": "Werde als Crash besiegt."
+        },
+        "italian": {
+          "name": "C1 | Bandicoot in mutande",
+          "description": "Muori nei panni di Crash."
+        },
+        "japanese": {
+          "name": "C1 - パンツまるみえ",
+          "description": "クラッシュでしぬ"
+        },
+        "schinese": {
+          "name": "C1 | 我看到伦敦，我看到法国",
+          "description": "以古惑狼死亡。"
+        },
+        "spanish": {
+          "name": "C1 | Con el trasero al aire",
+          "description": "Muere como Crash."
+        }
+      }
+    },
+    "ACH_116": {
+      "translations": {
+        "english": {
+          "name": "C1 | Nitrus Broken",
+          "description": "Defeat N. Brio"
+        },
+        "french": {
+          "name": "C1 | Nitrus, ni mauvais",
+          "description": "Battre N. Brio."
+        },
+        "german": {
+          "name": "C1 | Nitrus gebrochen",
+          "description": "Besiege N. Brio."
+        },
+        "italian": {
+          "name": "C1 | Speck e Brio",
+          "description": "Sconfiggi N. Brio."
+        },
+        "japanese": {
+          "name": "C1 - だとうハルク",
+          "description": "ニトラス・ブリオをたおす"
+        },
+        "schinese": {
+          "name": "C1 | 击败尼特鲁斯·布里奥",
+          "description": "击败尼奥·布里奥。"
+        },
+        "spanish": {
+          "name": "C1 | Nitrus fracasado",
+          "description": "Derrota a N. Brio."
+        }
+      }
+    },
+    "ACH_117": {
+      "translations": {
+        "english": {
+          "name": "C1 | Cortex N. Capacitated",
+          "description": "Defeat N. Cortex"
+        },
+        "french": {
+          "name": "C1 | Cortex le minus",
+          "description": "Battre N. Cortex."
+        },
+        "german": {
+          "name": "C1 | Cortex N.eutralisiert",
+          "description": "Besiege N. Cortex."
+        },
+        "italian": {
+          "name": "C1 | Cortex neutralizzato",
+          "description": "Sconfiggi N. Cortex."
+        },
+        "japanese": {
+          "name": "C1 - コルテックスげきは",
+          "description": "ネオ・コルテックスをたおす"
+        },
+        "schinese": {
+          "name": "C1 | 科特斯失能",
+          "description": "击败尼奥·科特斯。"
+        },
+        "spanish": {
+          "name": "C1 | Cortex N. Efasto",
+          "description": "Derrota a N. Cortex."
+        }
+      }
+    },
+    "ACH_118": {
+      "translations": {
+        "english": {
+          "name": "C1 | More Gems Are Better Than None",
+          "description": "Earn 13 Gems"
+        },
+        "french": {
+          "name": "C1 | Tout ce qui brille",
+          "description": "Gagner 13 gemmes."
+        },
+        "german": {
+          "name": "C1 | Besser mehr Edelsteine als keine",
+          "description": "Erhalte 13 Edelsteine."
+        },
+        "italian": {
+          "name": "C1 | Più gemme sono meglio di niente",
+          "description": "Ottieni 13 gemme."
+        },
+        "japanese": {
+          "name": "C1 - ダイヤは あるほうがよい",
+          "description": "ダイヤを13コかくとく"
+        },
+        "schinese": {
+          "name": "C1 | 有宝石总比没有好",
+          "description": "获得 13 颗宝石。"
+        },
+        "spanish": {
+          "name": "C1 | Más gemas son mejor que ninguna",
+          "description": "Obtén 13 gemas."
+        }
+      }
+    },
+    "ACH_119": {
+      "translations": {
+        "english": {
+          "name": "C1 | The Ultimate Gem Path",
+          "description": "Earn 26 Gems"
+        },
+        "french": {
+          "name": "C1 | C'est ça que gemme",
+          "description": "Gagner 26 gemmes."
+        },
+        "german": {
+          "name": "C1 | Der ultimative Edelstein-Weg",
+          "description": "Erhalte 26 Edelsteine."
+        },
+        "italian": {
+          "name": "C1 | Il sentiero di gemme definitivo",
+          "description": "Ottieni 26 gemme."
+        },
+        "japanese": {
+          "name": "C1 - きゅうきょくのダイヤのみち",
+          "description": "ダイヤを26コかくとく"
+        },
+        "schinese": {
+          "name": "C1 | 终极宝石之路",
+          "description": "获得 26 颗宝石。"
+        },
+        "spanish": {
+          "name": "C1 | La ruta de gemas definitiva",
+          "description": "Obtén 26 gemas."
+        }
+      }
+    },
+    "ACH_120": {
+      "translations": {
+        "english": {
+          "name": "C1 | Practice Makes Perfect!",
+          "description": "Earn 26 Relics (gold or better)"
+        },
+        "french": {
+          "name": "C1 | Arrivée triomphale",
+          "description": "Gagner 26 reliques (en or ou mieux)."
+        },
+        "german": {
+          "name": "C1 | Übung macht den Meister!",
+          "description": "Erhalte 26 Relikte (Gold oder besser)."
+        },
+        "italian": {
+          "name": "C1 | La pratica rende perfetti!",
+          "description": "Ottieni 26 reliquie (oro o superiori)."
+        },
+        "japanese": {
+          "name": "C1 - けいぞくは ちからなり！",
+          "description": "ゴールドいじょうのレリックを26コかくとく"
+        },
+        "schinese": {
+          "name": "C1 | 熟能生巧！",
+          "description": "获得 26 个遗物（黄金或更好）。"
+        },
+        "spanish": {
+          "name": "C1 | ¡La práctica hace al maestro!",
+          "description": "Consigue 26 reliquias (de oro o mejores)."
+        }
+      }
+    },
+    "ACH_121": {
+      "translations": {
+        "english": {
+          "name": "C1 | No Holds Barred",
+          "description": "Defeat 5 enemies with Coco's Spin"
+        },
+        "french": {
+          "name": "C1 | Tous les coups sont permis",
+          "description": "Battre 5 ennemis avec le Tourbillon de Coco."
+        },
+        "german": {
+          "name": "C1 | Keine Regeln",
+          "description": "Besiege 5 Gegner mit Cocos Wirbel."
+        },
+        "italian": {
+          "name": "C1 | Senza freni",
+          "description": "Sconfiggi 5 nemici con il colpo rotante di Coco."
+        },
+        "japanese": {
+          "name": "C1 - なんでもあり",
+          "description": "ココのスピンをつかい、てきを5たい たおす"
+        },
+        "schinese": {
+          "name": "C1 | 无所不用其极",
+          "description": "用可可的旋转击败 5 名敌人。"
+        },
+        "spanish": {
+          "name": "C1 | Vale todo",
+          "description": "Derrota a 5 enemigos con el giro de Coco."
+        }
+      }
+    },
+    "ACH_122": {
+      "translations": {
+        "english": {
+          "name": "C1 | On Cloud 99",
+          "description": "Earn 99 Lives"
+        },
+        "french": {
+          "name": "C1 | Plus de vie qu'il n'en faut",
+          "description": "Gagner 99 vies."
+        },
+        "german": {
+          "name": "C1 | 99 Lebensballons",
+          "description": "Erhalte 99 Leben."
+        },
+        "italian": {
+          "name": "C1 | Al settimo cielo",
+          "description": "Ottieni 99 vite."
+        },
+        "japanese": {
+          "name": "C1 - 99にんりき",
+          "description": "ライフを99コかくとく"
+        },
+        "schinese": {
+          "name": "C1 | 云端 99",
+          "description": "获得 99 条命。"
+        },
+        "spanish": {
+          "name": "C1 | En el séptimo cielo",
+          "description": "Obtén 99 vidas."
+        }
+      }
+    },
+    "ACH_201": {
+      "translations": {
+        "english": {
+          "name": "C2 | Professor Pulverized",
+          "description": "Defeat Ripper Roo"
+        },
+        "french": {
+          "name": "C2 | Au revoir, p-Roo-fesseur",
+          "description": "Battre Roo l'Égorgeur."
+        },
+        "german": {
+          "name": "C2 | Professor pulverisiert",
+          "description": "Besiege Ripper Roo."
+        },
+        "italian": {
+          "name": "C2 | Professore polverizzato",
+          "description": "Sconfiggi Ripper Roo."
+        },
+        "japanese": {
+          "name": "C2 - リパー・リーパー",
+          "description": "リパー・ルーをたおす"
+        },
+        "schinese": {
+          "name": "C2 | 击败教授",
+          "description": "击败里珀·鲁。"
+        },
+        "spanish": {
+          "name": "C2 | Profesor pulverizado",
+          "description": "Derrota a Ripper Roo."
+        }
+      }
+    },
+    "ACH_202": {
+      "translations": {
+        "english": {
+          "name": "C2 | Komodo No Mo",
+          "description": "Defeat the Komodo Brothers"
+        },
+        "french": {
+          "name": "C2 | Komo-domination",
+          "description": "Battre les frères Komodo."
+        },
+        "german": {
+          "name": "C2 | Kein Komodo mehr",
+          "description": "Besiege die Komodo-Brüder."
+        },
+        "italian": {
+          "name": "C2 | Mettiti Komodo",
+          "description": "Sconfiggi i Fratelli Komodo."
+        },
+        "japanese": {
+          "name": "C2 - コモドがねたあとで",
+          "description": "コモドきょうだい をたおす"
+        },
+        "schinese": {
+          "name": "C2 | 科莫多兄弟再见",
+          "description": "击败科莫多兄弟。"
+        },
+        "spanish": {
+          "name": "C2 | Hoy como Komodos",
+          "description": "Derrota a los hermanos Komodo."
+        }
+      }
+    },
+    "ACH_203": {
+      "translations": {
+        "english": {
+          "name": "C2 | A Road Less Traveled",
+          "description": "Discover a \"?\" Bonus Path"
+        },
+        "french": {
+          "name": "C2 | Chemin de traverse",
+          "description": "Découvrir un niveau bonus "
+        },
+        "german": {
+          "name": "C2 | Ein weniger begangener Weg",
+          "description": "Entdecke einen "
+        },
+        "italian": {
+          "name": "C2 | La strada meno battuta",
+          "description": "Scopri un sentiero bonus "
+        },
+        "japanese": {
+          "name": "C2 - ぜんじんみとう",
+          "description": "“？”ボーナスのみち をみつける"
+        },
+        "schinese": {
+          "name": "C2 | 少有人走的路",
+          "description": "发现一条“？”奖励路径。"
+        },
+        "spanish": {
+          "name": "C2 | Una ruta poco transitada",
+          "description": "Descubre una ruta de bonificación "
+        }
+      }
+    },
+    "ACH_204": {
+      "translations": {
+        "english": {
+          "name": "C2 | Kick the Tires!",
+          "description": "Earn 5 Relics"
+        },
+        "french": {
+          "name": "C2 | Vérifiez la pression !",
+          "description": "Gagner 5 reliques."
+        },
+        "german": {
+          "name": "C2 | Sicherheitsprüfung",
+          "description": "Erhalte 5 Relikte."
+        },
+        "italian": {
+          "name": "C2 | Dai un'occhiata!",
+          "description": "Ottieni 5 reliquie."
+        },
+        "japanese": {
+          "name": "C2 - タイヤをキック！",
+          "description": "レリックを5コかくとく"
+        },
+        "schinese": {
+          "name": "C2 | 踢轮胎！",
+          "description": "获得 5 个遗物。"
+        },
+        "spanish": {
+          "name": "C2 | ¡Patea los neumáticos!",
+          "description": "Consigue 5 reliquias."
+        }
+      }
+    },
+    "ACH_205": {
+      "translations": {
+        "english": {
+          "name": "C2 | A Helping Paw",
+          "description": "Don't feel guilty about jumping on him."
+        },
+        "french": {
+          "name": "C2 | Un petit coup de patte",
+          "description": "Ne pas avoir honte de lui sauter dessus."
+        },
+        "german": {
+          "name": "C2 | Eine helfende Pfote",
+          "description": "Hab kein schlechtes Gewissen, wenn du auf ihn springst."
+        },
+        "italian": {
+          "name": "C2 | Una zampa amica",
+          "description": "Saltagli in testa e non sentirti in colpa."
+        },
+        "japanese": {
+          "name": "C2 - にくきゅうヘルパー",
+          "description": "えんりょせずにとびのる"
+        },
+        "schinese": {
+          "name": "C2 | 援手之爪",
+          "description": "跳到他身上不必内疚。"
+        },
+        "spanish": {
+          "name": "C2 | Una garra amiga",
+          "description": "No te sientas culpable por saltarle encima."
+        }
+      }
+    },
+    "ACH_206": {
+      "translations": {
+        "english": {
+          "name": "C2 | Buzz Off!",
+          "description": "Die as Crash."
+        },
+        "french": {
+          "name": "C2 | Bzzz !",
+          "description": "Mourir en étant Crash."
+        },
+        "german": {
+          "name": "C2 | Mach die Flatter!",
+          "description": "Werde als Crash besiegt."
+        },
+        "italian": {
+          "name": "C2 | Fuori dai piedi!",
+          "description": "Muori nei panni di Crash."
+        },
+        "japanese": {
+          "name": "C2 - さよなら！",
+          "description": "クラッシュでしぬ"
+        },
+        "schinese": {
+          "name": "C2 | 走开！",
+          "description": "以古惑狼死亡。"
+        },
+        "spanish": {
+          "name": "C2 | ¡Largo!",
+          "description": "Muere como Crash."
+        }
+      }
+    },
+    "ACH_207": {
+      "translations": {
+        "english": {
+          "name": "C2 | Cortex N. Furiated",
+          "description": "Just \"forget\" it. Repeatedly."
+        },
+        "french": {
+          "name": "C2 | Comment énerver Cortex",
+          "description": "\"Oublier\" plusieurs fois d'affilée."
+        },
+        "german": {
+          "name": "C2 | WüteN.der Cortex",
+          "description": "Vergiss es einfach. Immer wieder."
+        },
+        "italian": {
+          "name": "C2 | Il furibondo Cortex",
+          "description": "Dimenticatelo. Molte volte."
+        },
+        "japanese": {
+          "name": "C2 - コルテックスのいかり",
+          "description": "なんどもわすれる"
+        },
+        "schinese": {
+          "name": "C2 | 科特斯暴怒",
+          "description": "尽管“忘掉”它。反复。"
+        },
+        "spanish": {
+          "name": "C2 | Cortex N. Ervioso",
+          "description": "Simplemente "
+        }
+      }
+    },
+    "ACH_208": {
+      "translations": {
+        "english": {
+          "name": "C2 | Tiny Tricked",
+          "description": "Defeat Tiny Tiger"
+        },
+        "french": {
+          "name": "C2 | Félin fêlé",
+          "description": "Battre Tiny Tigre."
+        },
+        "german": {
+          "name": "C2 | Tiny ausgetrickst",
+          "description": "Besiege Tiny Tiger."
+        },
+        "italian": {
+          "name": "C2 | Tiny triturato",
+          "description": "Sconfiggi Tiny Tiger."
+        },
+        "japanese": {
+          "name": "C2 - タイニーたいにん",
+          "description": "タイニータイガーをたおす"
+        },
+        "schinese": {
+          "name": "C2 | 击败泰尼虎",
+          "description": "击败泰尼·泰格。"
+        },
+        "spanish": {
+          "name": "C2 | Gato domesticado",
+          "description": "Derrota a Tiny Tiger."
+        }
+      }
+    },
+    "ACH_209": {
+      "translations": {
+        "english": {
+          "name": "C2 | Mech Wrecked",
+          "description": "Defeat N. Gin"
+        },
+        "french": {
+          "name": "C2 | Fléau des machines",
+          "description": "Battre N. Gin."
+        },
+        "german": {
+          "name": "C2 | Mech im Eimer",
+          "description": "Besiege N. Gin."
+        },
+        "italian": {
+          "name": "C2 | Robot rotto",
+          "description": "Sconfiggi N. Gin."
+        },
+        "japanese": {
+          "name": "C2 - エヌジンぜんかい",
+          "description": "エヌ・ジンをたおす"
+        },
+        "schinese": {
+          "name": "C2 | 击毁机甲",
+          "description": "击败尼奥·金。"
+        },
+        "spanish": {
+          "name": "C2 | Chatarra mecánica",
+          "description": "Derrota a N. Gin."
+        }
+      }
+    },
+    "ACH_210": {
+      "translations": {
+        "english": {
+          "name": "C2 | A Diamond in the Rough",
+          "description": "Discover a Gem Path after earning a Color Gem"
+        },
+        "french": {
+          "name": "C2 | Diamant brut",
+          "description": "Découvrir un chemin de gemme après avoir obtenu une gemme de couleur."
+        },
+        "german": {
+          "name": "C2 | Ein ungeschliffener Diamant",
+          "description": "Entdecke einen Edelstein-Weg, nachdem du einen Farbedelstein erhalten hast."
+        },
+        "italian": {
+          "name": "C2 | Gettare le gemme ai porci",
+          "description": "Scopri un sentiero di gemme dopo aver ottenuto una gemma colorata."
+        },
+        "japanese": {
+          "name": "C2 - ダイヤのげんせき",
+          "description": "カラーダイヤをかくとくし、ダイヤのみち をみつける"
+        },
+        "schinese": {
+          "name": "C2 | 璞玉",
+          "description": "获得彩色宝石后发现一条宝石路径。"
+        },
+        "spanish": {
+          "name": "C2 | Un diamante en bruto",
+          "description": "Descubre una ruta de gema tras conseguir una gema de color."
+        }
+      }
+    },
+    "ACH_211": {
+      "translations": {
+        "english": {
+          "name": "C2 | Cheated Death (For the Time Being)",
+          "description": "Discover a Death Route"
+        },
+        "french": {
+          "name": "C2 | Toujours en vie (pour l'instant)",
+          "description": "Découvrir un chemin mortel."
+        },
+        "german": {
+          "name": "C2 | Dem Tod ein Schnippchen geschlagen",
+          "description": "Entdecke einen Todesweg."
+        },
+        "italian": {
+          "name": "C2 | Ancora vivo (per ora)",
+          "description": "Scopri un percorso di morte."
+        },
+        "japanese": {
+          "name": "C2 - いのちしらず",
+          "description": "しのみち をみつける"
+        },
+        "schinese": {
+          "name": "C2 | 逃过一劫（暂时）",
+          "description": "发现一条死亡路线。"
+        },
+        "spanish": {
+          "name": "C2 | Engañando a la muerte (de momento)",
+          "description": "Descubre una ruta de la muerte."
+        }
+      }
+    },
+    "ACH_212": {
+      "translations": {
+        "english": {
+          "name": "C2 | Jumping the Jetboard",
+          "description": "Discover the Secret Exit in Air Crash"
+        },
+        "french": {
+          "name": "C2 | Pas besoin du jetboard",
+          "description": "Découvrir la sortie secrète dans Air Crash."
+        },
+        "german": {
+          "name": "C2 | Ab aufs Jetboard",
+          "description": "Entdecke den Geheimausgang in Air Crash."
+        },
+        "italian": {
+          "name": "C2 | Non c'è bisogno di strade",
+          "description": "Trova l'uscita segreta in Air Crash."
+        },
+        "japanese": {
+          "name": "C2 - ジェットボード・ジャンプ",
+          "description": "「ぶっとび サーフィン」で、ひみつのでぐち をみつける"
+        },
+        "schinese": {
+          "name": "C2 | 跳上喷气板",
+          "description": "在“空难”中发现隐藏出口。"
+        },
+        "spanish": {
+          "name": "C2 | Subiendo al Jetboard",
+          "description": "Descubre la salida secreta de Air Crash."
+        }
+      }
+    },
+    "ACH_213": {
+      "translations": {
+        "english": {
+          "name": "C2 | Island Hopping",
+          "description": "Discover the Secret Exit in Bear Down"
+        },
+        "french": {
+          "name": "C2 | Voyage dans les îles",
+          "description": "Découvrir la sortie secrète dans Bear Down."
+        },
+        "german": {
+          "name": "C2 | Inselhüpfen",
+          "description": "Entdecke den Geheimausgang in Bear Down."
+        },
+        "italian": {
+          "name": "C2 | Nessun Bandicoot è un'isola",
+          "description": "Trova l'uscita segreta in Bear Down."
+        },
+        "japanese": {
+          "name": "C2 - アイランド・ホッピング",
+          "description": "「しろくま だいジャンプ」で、ひみつのでぐち をみつける"
+        },
+        "schinese": {
+          "name": "C2 | 跳岛",
+          "description": "在“驯熊”中发现隐藏出口。"
+        },
+        "spanish": {
+          "name": "C2 | Saltando de isla en isla",
+          "description": "Descubre la salida secreta de Bear Down."
+        }
+      }
+    },
+    "ACH_214": {
+      "translations": {
+        "english": {
+          "name": "C2 | The Flora Flop",
+          "description": "Discover the Secret Exit in Diggin' It"
+        },
+        "french": {
+          "name": "C2 | Trampoline carnivore",
+          "description": "Découvrir la sortie secrète dans Diggin' It."
+        },
+        "german": {
+          "name": "C2 | Der Flora-Flop",
+          "description": "Entdecke den Geheimausgang in Diggin' It."
+        },
+        "italian": {
+          "name": "C2 | Attacco Flora",
+          "description": "Trova l'uscita segreta in Diggin' It."
+        },
+        "japanese": {
+          "name": "C2 - フラワークラッシュ",
+          "description": "「ばくふん ちゅういほう」で、ひみつのでぐち をみつける"
+        },
+        "schinese": {
+          "name": "C2 | 植物扑街",
+          "description": "在“挖呀挖”中发现隐藏出口。"
+        },
+        "spanish": {
+          "name": "C2 | Superplancha floral",
+          "description": "Descubre la salida secreta de Diggin' It."
+        }
+      }
+    },
+    "ACH_215": {
+      "translations": {
+        "english": {
+          "name": "C2 | No Bear Left Behind",
+          "description": "Unlocked the Secret Exit in Unbearable"
+        },
+        "french": {
+          "name": "C2 | Reviens petit ours",
+          "description": "Découvrir la sortie secrète dans Unbearable."
+        },
+        "german": {
+          "name": "C2 | Bärenhunger",
+          "description": "Entdecke den Geheimausgang in Unbearable."
+        },
+        "italian": {
+          "name": "C2 | Salvataggio in c-orso",
+          "description": "Trova l'uscita segreta in Unbearable."
+        },
+        "japanese": {
+          "name": "C2 - こぐまのわすれもの",
+          "description": "「にげろや パパぐま」で、ひみつのでぐち をみつける"
+        },
+        "schinese": {
+          "name": "C2 | 不落下一只熊",
+          "description": "在“忍无可忍”中解锁隐藏出口。"
+        },
+        "spanish": {
+          "name": "C2 | ¡Que viene el oso!",
+          "description": "Descubre la salida secreta de Unbearable."
+        }
+      }
+    },
+    "ACH_216": {
+      "translations": {
+        "english": {
+          "name": "C2 | Hang In There, Maybe!",
+          "description": "Unlocked the Secret Exit in Hangin' Out"
+        },
+        "french": {
+          "name": "C2 | Mieux vaut s'accrocher",
+          "description": "Découvrir la sortie secrète dans Hangin' Out."
+        },
+        "german": {
+          "name": "C2 | Durchhänger",
+          "description": "Entdecke den Geheimausgang in Hangin' Out."
+        },
+        "italian": {
+          "name": "C2 | Tieni duro... se puoi!",
+          "description": "Trova l'uscita segreta in Hangin' Out."
+        },
+        "japanese": {
+          "name": "C2 - てんじょうにしがみついてでも",
+          "description": "「ぶらさがりん ちかどう」で、ひみつのでぐち をみつける"
+        },
+        "schinese": {
+          "name": "C2 | 也许，再撑一下！",
+          "description": "在“闲逛”中解锁隐藏出口。"
+        },
+        "spanish": {
+          "name": "C2 | ¡No te quedes colgado!",
+          "description": "Descubre la salida secreta de Hangin' Out."
+        }
+      }
+    },
+    "ACH_217": {
+      "translations": {
+        "english": {
+          "name": "C2 | Light the Fires!",
+          "description": "Earn 10 Relics (gold or better)"
+        },
+        "french": {
+          "name": "C2 | Faites chauffer les moteurs !",
+          "description": "Gagner 10 reliques (en or ou mieux)."
+        },
+        "german": {
+          "name": "C2 | Entzündet die Feuer!",
+          "description": "Erhalte 10 Relikte (Gold oder besser)."
+        },
+        "italian": {
+          "name": "C2 | Prepara tutto!",
+          "description": "Ottieni 10 reliquie (oro o superiori)."
+        },
+        "japanese": {
+          "name": "C2 - ひをともせ！",
+          "description": "ゴールドいじょうのレリックを10コかくとく"
+        },
+        "schinese": {
+          "name": "C2 | 点火！",
+          "description": "获得 10 个遗物（黄金或更好）。"
+        },
+        "spanish": {
+          "name": "C2 | ¡Enciende los fuegos!",
+          "description": "Consigue 10 reliquias (de oro o mejores)."
+        }
+      }
+    },
+    "ACH_218": {
+      "translations": {
+        "english": {
+          "name": "C2 | Crash Cubed",
+          "description": "Fly, then die."
+        },
+        "french": {
+          "name": "C2 | Et c'est le Crash",
+          "description": "Voler, puis mourir."
+        },
+        "german": {
+          "name": "C2 | Abgestürzt",
+          "description": "Flieg und stirb anschließend."
+        },
+        "italian": {
+          "name": "C2 | Crash vuol dire ",
+          "description": "Vola, poi muori."
+        },
+        "japanese": {
+          "name": "C2 - フライ・ハイ",
+          "description": "とんだあとにしぬ"
+        },
+        "schinese": {
+          "name": "C2 | 古惑狼立方",
+          "description": "飞起来，然后死掉。"
+        },
+        "spanish": {
+          "name": "C2 | Crash al cubo",
+          "description": "Vuela, luego muere."
+        }
+      }
+    },
+    "ACH_219": {
+      "translations": {
+        "english": {
+          "name": "C2 | Cortex N. Adequate",
+          "description": "Defeat N. Cortex"
+        },
+        "french": {
+          "name": "C2 | Un Cortex en orbite",
+          "description": "Battre N. Cortex."
+        },
+        "german": {
+          "name": "C2 | MaN.gelhafter Cortex",
+          "description": "Besiege N. Cortex."
+        },
+        "italian": {
+          "name": "C2 | L'inadeguato Cortex",
+          "description": "Sconfiggi N. Cortex."
+        },
+        "japanese": {
+          "name": "C2 - キャッチャー・イン・ザ・スカイ",
+          "description": "ネオ・コルテックスをたおす"
+        },
+        "schinese": {
+          "name": "C2 | 科特斯还行",
+          "description": "击败尼奥·科特斯。"
+        },
+        "spanish": {
+          "name": "C2 | Cortex N. Eutralizado",
+          "description": "Derrota a N. Cortex."
+        }
+      }
+    },
+    "ACH_220": {
+      "translations": {
+        "english": {
+          "name": "C2 | One Man's Trash",
+          "description": "Earn 21 Gems"
+        },
+        "french": {
+          "name": "C2 | Dans le joyau et la bonne humeur",
+          "description": "Gagner 21 gemmes."
+        },
+        "german": {
+          "name": "C2 | Jeder hat seine Prioritäten",
+          "description": "Erhalte 21 Edelsteine."
+        },
+        "italian": {
+          "name": "C2 | Gli scarti di qualcuno...",
+          "description": "Ottieni 21 gemme."
+        },
+        "japanese": {
+          "name": "C2 - だれかのゴミも だれかのおたから",
+          "description": "ダイヤを21コかくとく"
+        },
+        "schinese": {
+          "name": "C2 | 彼之敝屣",
+          "description": "获得 21 颗宝石。"
+        },
+        "spanish": {
+          "name": "C2 | Lo que uno no quiere",
+          "description": "Obtén 21 gemas."
+        }
+      }
+    },
+    "ACH_221": {
+      "translations": {
+        "english": {
+          "name": "C2 | Laser Powered Vengeance",
+          "description": "Earn 42 Gems"
+        },
+        "french": {
+          "name": "C2 | Vengeance à coups de laser",
+          "description": "Gagner 42 gemmes."
+        },
+        "german": {
+          "name": "C2 | Laser-Vergeltung",
+          "description": "Erhalte 42 Edelsteine."
+        },
+        "italian": {
+          "name": "C2 | Vendetta al sapore di laser",
+          "description": "Ottieni 42 gemme."
+        },
+        "japanese": {
+          "name": "C2 - レーザーパワーリベンジ",
+          "description": "ダイヤを42コかくとく"
+        },
+        "schinese": {
+          "name": "C2 | 激光驱动的复仇",
+          "description": "获得 42 颗宝石。"
+        },
+        "spanish": {
+          "name": "C2 | Venganza a golpe de láser",
+          "description": "Obtén 42 gemas."
+        }
+      }
+    },
+    "ACH_222": {
+      "translations": {
+        "english": {
+          "name": "C2 | Wumpa-Burner Engaged!",
+          "description": "Earn 27 Relics (gold or better)"
+        },
+        "french": {
+          "name": "C2 | Wumpacombustion enclenchée !",
+          "description": "Gagner 27 reliques (en or ou mieux)."
+        },
+        "german": {
+          "name": "C2 | Wumpa-Brenner im Anschlag!",
+          "description": "Erhalte 27 Relikte (Gold oder besser)."
+        },
+        "italian": {
+          "name": "C2 | Bruciatore Wumpa attivato!",
+          "description": "Ottieni 27 reliquie (oro o superiori)."
+        },
+        "japanese": {
+          "name": "C2 - ウンパ・バーナー",
+          "description": "ゴールドいじょうのレリックを27コかくとく"
+        },
+        "schinese": {
+          "name": "C2 | 乌姆帕果燃烧器已启动！",
+          "description": "获得 27 个遗物（黄金或更好）。"
+        },
+        "spanish": {
+          "name": "C2 | ¡Salto abrasador activado!",
+          "description": "Consigue 27 reliquias (de oro o mejores)."
+        }
+      }
+    },
+    "ACH_223": {
+      "translations": {
+        "english": {
+          "name": "C2 | Boom Shakalaka!",
+          "description": "Defeat 5 enemies with Coco's Double Leg Drop"
+        },
+        "french": {
+          "name": "C2 | Briser le statu Coco",
+          "description": "Battre 5 ennemis avec le Coup de pied double de Coco."
+        },
+        "german": {
+          "name": "C2 | Bumm-shakalaka!",
+          "description": "Besiege 5 Gegner mit Cocos Doppelbeinfeger."
+        },
+        "italian": {
+          "name": "C2 | Boom Shakalaka!",
+          "description": "Sconfiggi 5 nemici con il doppio calcio volante di Coco."
+        },
+        "japanese": {
+          "name": "C2 - ブーン シャカラカ！",
+          "description": "ココのダブルレッグドロップをつかい、てきを5たい たおす"
+        },
+        "schinese": {
+          "name": "C2 | 嘣沙卡拉卡！",
+          "description": "用可可的双腿下砸击败 5 名敌人。"
+        },
+        "spanish": {
+          "name": "C2 | ¡Bum sakalaka!",
+          "description": "Derrota a 5 enemigos con el doble salto de Coco."
+        }
+      }
+    },
+    "ACH_224": {
+      "translations": {
+        "english": {
+          "name": "C2 | 99 Percent Perspiration",
+          "description": "Earn 99 Lives"
+        },
+        "french": {
+          "name": "C2 | 99% de transpiration",
+          "description": "Gagner 99 vies."
+        },
+        "german": {
+          "name": "C2 | 99 Prozent Perspiration",
+          "description": "Erhalte 99 Leben."
+        },
+        "italian": {
+          "name": "C2 | 99 vite dovrebbero bastare",
+          "description": "Ottieni 99 vite."
+        },
+        "japanese": {
+          "name": "C2 - 99パーセントのどりょく",
+          "description": "ライフを99コかくとく"
+        },
+        "schinese": {
+          "name": "C2 | 百分之九十九的汗水",
+          "description": "获得 99 条命。"
+        },
+        "spanish": {
+          "name": "C2 | 99 por ciento de sudoración",
+          "description": "Obtén 99 vidas."
+        }
+      }
+    },
+    "ACH_301": {
+      "translations": {
+        "english": {
+          "name": "C3 | Tiny Trounced",
+          "description": "Defeat Tiny Tiger"
+        },
+        "french": {
+          "name": "C3 | Le roi du colisée",
+          "description": "Battre Tiny Tigre."
+        },
+        "german": {
+          "name": "C3 | Tiny tranchiert",
+          "description": "Besiege Tiny Tiger."
+        },
+        "italian": {
+          "name": "C3 | Troppo tardi, Tiny!",
+          "description": "Sconfiggi Tiny Tiger."
+        },
+        "japanese": {
+          "name": "C3 - タイニーげきたい",
+          "description": "タイニータイガーをたおす"
+        },
+        "schinese": {
+          "name": "C3 | 击败泰尼虎",
+          "description": "击败泰尼·泰格。"
+        },
+        "spanish": {
+          "name": "C3 | Gatito manso",
+          "description": "Derrota a Tiny Tiger."
+        }
+      }
+    },
+    "ACH_302": {
+      "translations": {
+        "english": {
+          "name": "C3 | Penta's Revenge",
+          "description": "Defeat Dingodile"
+        },
+        "french": {
+          "name": "C3 | La vengeance de Penta",
+          "description": "Battre Dingodile."
+        },
+        "german": {
+          "name": "C3 | Pentas Rache",
+          "description": "Besiege Dingodile."
+        },
+        "italian": {
+          "name": "C3 | La vendetta di Penta",
+          "description": "Sconfiggi Dingodile."
+        },
+        "japanese": {
+          "name": "C3 - こんやはヤキニク",
+          "description": "ディンゴダイルをたおす"
+        },
+        "schinese": {
+          "name": "C3 | 潘塔的复仇",
+          "description": "击败丁戈迪尔。"
+        },
+        "spanish": {
+          "name": "C3 | La venganza de Penta",
+          "description": "Derrota a Dingodile."
+        }
+      }
+    },
+    "ACH_303": {
+      "translations": {
+        "english": {
+          "name": "C3 | Taking the Scenic Route",
+          "description": "Discover a \"?\" Bonus Path"
+        },
+        "french": {
+          "name": "C3 | Hors des sentiers battus",
+          "description": "Découvrir un niveau bonus "
+        },
+        "german": {
+          "name": "C3 | Die schönere Strecke nehmen",
+          "description": "Entdecke einen "
+        },
+        "italian": {
+          "name": "C3 | Sentiero panoramico",
+          "description": "Scopri un sentiero bonus "
+        },
+        "japanese": {
+          "name": "C3 - かんこうちめぐり",
+          "description": "“？”ボーナスのみち をみつける"
+        },
+        "schinese": {
+          "name": "C3 | 走观光路线",
+          "description": "发现一条“？”奖励路径。"
+        },
+        "spanish": {
+          "name": "C3 | Siguiendo la ruta escénica",
+          "description": "Descubre una ruta de bonificación "
+        }
+      }
+    },
+    "ACH_304": {
+      "translations": {
+        "english": {
+          "name": "C3 | Buckle Up, Boys, Buckle Up!",
+          "description": "Earn 5 Relics"
+        },
+        "french": {
+          "name": "C3 | Ce sera beau sur ma cheminée",
+          "description": "Gagner 5 reliques."
+        },
+        "german": {
+          "name": "C3 | Anschnallen, Jungs, anschnallen!",
+          "description": "Erhalte 5 Relikte."
+        },
+        "italian": {
+          "name": "C3 | Allacciate le cinture, ragazzi!",
+          "description": "Ottieni 5 reliquie."
+        },
+        "japanese": {
+          "name": "C3 - ベルトをしめて",
+          "description": "レリックを5コかくとく"
+        },
+        "schinese": {
+          "name": "C3 | 系好安全带，伙计们！",
+          "description": "获得 5 个遗物。"
+        },
+        "spanish": {
+          "name": "C3 | ¡Abrochaos los cinturones, muchachos!",
+          "description": "Consigue 5 reliquias."
+        }
+      }
+    },
+    "ACH_305": {
+      "translations": {
+        "english": {
+          "name": "C3 | The Riddle of the Sphynx",
+          "description": "Have your bazooka ready."
+        },
+        "french": {
+          "name": "C3 | L'énigme du Sphynx",
+          "description": "Avoir ton bazooka prêt."
+        },
+        "german": {
+          "name": "C3 | Das Rätsel der Sphinx",
+          "description": "Halte deine Bazooka bereit."
+        },
+        "italian": {
+          "name": "C3 | L'enigma della sfinge",
+          "description": "Tieni pronto il bazooka."
+        },
+        "japanese": {
+          "name": "C3 - スフィンクスのなぞなぞ",
+          "description": "バズーカをじゅんびする"
+        },
+        "schinese": {
+          "name": "C3 | 斯芬克斯之谜",
+          "description": "准备好你的火箭筒。"
+        },
+        "spanish": {
+          "name": "C3 | El acertijo de la esfinge",
+          "description": "Prepara tu bazuka."
+        }
+      }
+    },
+    "ACH_306": {
+      "translations": {
+        "english": {
+          "name": "C3 | Accept No Substitutes",
+          "description": "Shoot the Imposter"
+        },
+        "french": {
+          "name": "C3 | Aucune concession",
+          "description": "Abattre l'imposteur."
+        },
+        "german": {
+          "name": "C3 | Ersatz wird nicht akzeptiert",
+          "description": "Schieße und triff den Betrüger."
+        },
+        "italian": {
+          "name": "C3 | Solo parti originali, grazie",
+          "description": "Spara all'impostore."
+        },
+        "japanese": {
+          "name": "C3 - ドッペルゲンガーはっけん",
+          "description": "なりすましをうつ"
+        },
+        "schinese": {
+          "name": "C3 | 拒绝替代品",
+          "description": "射击冒牌货。"
+        },
+        "spanish": {
+          "name": "C3 | No aceptes imitaciones",
+          "description": "Dispara al impostor."
+        }
+      }
+    },
+    "ACH_307": {
+      "translations": {
+        "english": {
+          "name": "C3 | Warts and All",
+          "description": "Die."
+        },
+        "french": {
+          "name": "C3 | Sans aucune réserve",
+          "description": "Mourir."
+        },
+        "german": {
+          "name": "C3 | Warzen inklusive",
+          "description": "Das ist dein Ende."
+        },
+        "italian": {
+          "name": "C3 | Nonostante i difetti",
+          "description": "Muori."
+        },
+        "japanese": {
+          "name": "C3 - つつみかくさず",
+          "description": "しぬ"
+        },
+        "schinese": {
+          "name": "C3 | 不加掩饰",
+          "description": "死亡。"
+        },
+        "spanish": {
+          "name": "C3 | Con todos sus defectos",
+          "description": "Muere."
+        }
+      }
+    },
+    "ACH_308": {
+      "translations": {
+        "english": {
+          "name": "C3 | Trigger Clickin' Good",
+          "description": "Shoot 5 of them in a single level."
+        },
+        "french": {
+          "name": "C3 | Pro de la détente",
+          "description": "En abattre 5 dans un seul niveau."
+        },
+        "german": {
+          "name": "C3 | Ein Schuss hiervon, ein Schuss davon",
+          "description": "Schieße und triff 5 davon in einem einzigen Level."
+        },
+        "italian": {
+          "name": "C3 | Dito sul grilletto",
+          "description": "Colpiscine 5 nello stesso livello."
+        },
+        "japanese": {
+          "name": "C3 - よだれもの",
+          "description": "1つのステージで、5たい うつ"
+        },
+        "schinese": {
+          "name": "C3 | 扳机按得爽",
+          "description": "在单个关卡中射倒 5 个。"
+        },
+        "spanish": {
+          "name": "C3 | Apunta y dispara",
+          "description": "Dispara a 5 en un solo nivel."
+        }
+      }
+    },
+    "ACH_309": {
+      "translations": {
+        "english": {
+          "name": "C3 | A Nefarious Trophy",
+          "description": "Defeat N. Tropy"
+        },
+        "french": {
+          "name": "C3 | Remettre les pendules à l'heure",
+          "description": "Battre N. Tropy."
+        },
+        "german": {
+          "name": "C3 | Eine schäN.dliche Trophäe",
+          "description": "Besiege N. Tropy."
+        },
+        "italian": {
+          "name": "C3 | Un N. Trofeo per te",
+          "description": "Sconfiggi N. Tropy."
+        },
+        "japanese": {
+          "name": "C3 - エヌ・トロフィー",
+          "description": "エヌ・トロピーをたおす"
+        },
+        "schinese": {
+          "name": "C3 | 邪恶的战利品",
+          "description": "击败尼奥·特罗皮。"
+        },
+        "spanish": {
+          "name": "C3 | Un trofeo nefasto",
+          "description": "Derrota a N. Tropy."
+        }
+      }
+    },
+    "ACH_310": {
+      "translations": {
+        "english": {
+          "name": "C3 | Mech Wrecked, Again!",
+          "description": "Defeat N. Gin"
+        },
+        "french": {
+          "name": "C3 | Fléau des machines, le retour",
+          "description": "Battre N. Gin."
+        },
+        "german": {
+          "name": "C3 | Mech im Eimer, schon wieder!",
+          "description": "Besiege N. Gin."
+        },
+        "italian": {
+          "name": "C3 | Robot rotto... di nuovo!",
+          "description": "Sconfiggi N. Gin."
+        },
+        "japanese": {
+          "name": "C3 - エヌジンぜんかい2",
+          "description": "エヌ・ジンをたおす"
+        },
+        "schinese": {
+          "name": "C3 | 再次击毁机甲！",
+          "description": "击败尼奥·金。"
+        },
+        "spanish": {
+          "name": "C3 | ¡Chatarra mecánica, otra vez!",
+          "description": "Derrota a N. Gin."
+        }
+      }
+    },
+    "ACH_311": {
+      "translations": {
+        "english": {
+          "name": "C3 | A Cut Above the Rest",
+          "description": "Discover a Gem Path after earning a Color Gem"
+        },
+        "french": {
+          "name": "C3 | Ça ne court pas les rues",
+          "description": "Découvrir un chemin de gemme après avoir obtenu une gemme de couleur."
+        },
+        "german": {
+          "name": "C3 | Allen anderen überlegen",
+          "description": "Entdecke einen Edelstein-Weg, nachdem du einen Farbedelstein erhalten hast."
+        },
+        "italian": {
+          "name": "C3 | Una spanna sopra",
+          "description": "Scopri un sentiero di gemme dopo aver ottenuto una gemma colorata."
+        },
+        "japanese": {
+          "name": "C3 - さいじょうきゅう",
+          "description": "カラーダイヤをかくとくし、ダイヤのみち をみつける"
+        },
+        "schinese": {
+          "name": "C3 | 出类拔萃",
+          "description": "获得彩色宝石后发现一条宝石路径。"
+        },
+        "spanish": {
+          "name": "C3 | Por encima del resto",
+          "description": "Descubre una ruta de gema tras conseguir una gema de color."
+        }
+      }
+    },
+    "ACH_312": {
+      "translations": {
+        "english": {
+          "name": "C3 | Not a Scratch (Give It Time)",
+          "description": "Discover a Death Route"
+        },
+        "french": {
+          "name": "C3 | La mort déjouée (ça viendra)",
+          "description": "Découvrir un chemin mortel."
+        },
+        "german": {
+          "name": "C3 | Kein Kratzer (jetzt noch nicht)",
+          "description": "Entdecke einen Todesweg."
+        },
+        "italian": {
+          "name": "C3 | Tutto a posto (ma non per molto)",
+          "description": "Scopri un percorso di morte."
+        },
+        "japanese": {
+          "name": "C3 - かすりきずひとつせず",
+          "description": "しのみち をみつける"
+        },
+        "schinese": {
+          "name": "C3 | 毫发无伤（稍安勿躁）",
+          "description": "发现一条死亡路线。"
+        },
+        "spanish": {
+          "name": "C3 | Ni un arañazo (dale tiempo)",
+          "description": "Descubre una ruta de la muerte."
+        }
+      }
+    },
+    "ACH_313": {
+      "translations": {
+        "english": {
+          "name": "C3 | UFO Xing",
+          "description": "Discovered the Secret Exit in Road Crash"
+        },
+        "french": {
+          "name": "C3 | Attention, OVNI",
+          "description": "Découvrir la sortie secrète dans Road Crash."
+        },
+        "german": {
+          "name": "C3 | Achtung, UFOs!",
+          "description": "Entdecke den Geheimausgang in Road Crash."
+        },
+        "italian": {
+          "name": "C3 | Attraversamento UFO",
+          "description": "Trova l'uscita segreta in Road Crash."
+        },
+        "japanese": {
+          "name": "C3 - コンニチハ ちきゅうじん",
+          "description": "「じわれのハイウェイを ゴー！」で、ひみつのでぐち をみつける"
+        },
+        "schinese": {
+          "name": "C3 | UFO 过境",
+          "description": "在“公路碰撞”中发现隐藏出口。"
+        },
+        "spanish": {
+          "name": "C3 | Peligro: ovnis",
+          "description": "Descubre la salida secreta de Road Crash."
+        }
+      }
+    },
+    "ACH_314": {
+      "translations": {
+        "english": {
+          "name": "C3 | Getting Carried Away",
+          "description": "Discovered the Secret Exit in Dino Might!"
+        },
+        "french": {
+          "name": "C3 | Évacuation aérienne",
+          "description": "Découvrir la sortie secrète dans Dino Might !"
+        },
+        "german": {
+          "name": "C3 | Ein wenig übertrieben",
+          "description": "Entdecke den Geheimausgang in Dino Might!"
+        },
+        "italian": {
+          "name": "C3 | Verso l'infinito e oltre",
+          "description": "Trova l'uscita segreta in Dino Might!"
+        },
+        "japanese": {
+          "name": "C3 - プテラと くうちゅうさんぽ",
+          "description": "「ベイビーTで つっぱしれ！」で、ひみつのでぐち をみつける"
+        },
+        "schinese": {
+          "name": "C3 | 得意忘形",
+          "description": "在“恐龙之威”中发现隐藏出口。"
+        },
+        "spanish": {
+          "name": "C3 | Arrastrado por la locura",
+          "description": "Descubre la salida secreta de Dino Might."
+        }
+      }
+    },
+    "ACH_315": {
+      "translations": {
+        "english": {
+          "name": "C3 | Giving 102%",
+          "description": "Earn the Gems in the bonus levels"
+        },
+        "french": {
+          "name": "C3 | Se donner à 102%",
+          "description": "Gagner les gemmes des niveaux bonus."
+        },
+        "german": {
+          "name": "C3 | 102% geben!",
+          "description": "Erhalte Edelsteine in den Bonus-Leveln."
+        },
+        "italian": {
+          "name": "C3 | Dare il 102%!",
+          "description": "Ottieni le gemme nei livelli bonus."
+        },
+        "japanese": {
+          "name": "C3 - ほんき102%！",
+          "description": "ボーナスステージでダイヤをかくとく"
+        },
+        "schinese": {
+          "name": "C3 | 付出 102%",
+          "description": "在奖励关卡中获得宝石。"
+        },
+        "spanish": {
+          "name": "C3 | ¡Dando el 102%!",
+          "description": "Gana gemas en los niveles extra."
+        }
+      }
+    },
+    "ACH_316": {
+      "translations": {
+        "english": {
+          "name": "C3 | Is There a Problem, Granny?!",
+          "description": "Earn 10 Relics (gold or better)"
+        },
+        "french": {
+          "name": "C3 | Ou peut-être dans ma vitrine",
+          "description": "Gagner 10 reliques (en or ou mieux)."
+        },
+        "german": {
+          "name": "C3 | Gibt's ein Problem, Oma?!",
+          "description": "Erhalte 10 Relikte (Gold oder besser)."
+        },
+        "italian": {
+          "name": "C3 | I gioielli di famiglia",
+          "description": "Ottieni 10 reliquie (oro o superiori)."
+        },
+        "japanese": {
+          "name": "C3 - レリックはもうジューぶん？",
+          "description": "ゴールドいじょうのレリックを10コかくとく"
+        },
+        "schinese": {
+          "name": "C3 | 老奶奶，有意见吗？！",
+          "description": "获得 10 个遗物（黄金或更好）。"
+        },
+        "spanish": {
+          "name": "C3 | ¿Algún problema, abuela?",
+          "description": "Consigue 10 reliquias (de oro o mejores)."
+        }
+      }
+    },
+    "ACH_317": {
+      "translations": {
+        "english": {
+          "name": "C3 | Keeping Crash Under Wraps",
+          "description": "Die."
+        },
+        "french": {
+          "name": "C3 | Mettre les voiles",
+          "description": "Mourir."
+        },
+        "german": {
+          "name": "C3 | Crash unter den Tisch kehren",
+          "description": "Das ist dein Ende."
+        },
+        "italian": {
+          "name": "C3 | Crash sotto silenzio",
+          "description": "Muori."
+        },
+        "japanese": {
+          "name": "C3 - くもがくれ",
+          "description": "しぬ"
+        },
+        "schinese": {
+          "name": "C3 | 给古惑狼保密",
+          "description": "死亡。"
+        },
+        "spanish": {
+          "name": "C3 | Un Crash bien envuelto, por favor",
+          "description": "Muere."
+        }
+      }
+    },
+    "ACH_318": {
+      "translations": {
+        "english": {
+          "name": "C3 | Your Moment of Zen",
+          "description": "Avoid whatever he's flinging at you."
+        },
+        "french": {
+          "name": "C3 | Contrôle de soi",
+          "description": "Éviter tout ce qu'il te balance dessus."
+        },
+        "german": {
+          "name": "C3 | Dein Zen-Moment",
+          "description": "Weiche allem aus, womit er dich bewirft."
+        },
+        "italian": {
+          "name": "C3 | Un momento zen",
+          "description": "Evita tutto ciò che ti lancia addosso."
+        },
+        "japanese": {
+          "name": "C3 - さとりのきょうち",
+          "description": "なげられたものをかわす"
+        },
+        "schinese": {
+          "name": "C3 | 你的禅意时刻",
+          "description": "躲开他向你扔来的一切。"
+        },
+        "spanish": {
+          "name": "C3 | Tu momento zen",
+          "description": "Esquiva cualquier cosa que te tire."
+        }
+      }
+    },
+    "ACH_319": {
+      "translations": {
+        "english": {
+          "name": "C3 | Cortex N. Carcerated",
+          "description": "Defeat N. Cortex"
+        },
+        "french": {
+          "name": "C3 | Cortex pas si cérébral",
+          "description": "Battre N. Cortex."
+        },
+        "german": {
+          "name": "C3 | EiN.gesperrter Cortex",
+          "description": "Besiege N. Cortex."
+        },
+        "italian": {
+          "name": "C3 | Cortex incastrato",
+          "description": "Sconfiggi N. Cortex."
+        },
+        "japanese": {
+          "name": "C3 - おとしあなマスター",
+          "description": "ネオ・コルテックスをたおす"
+        },
+        "schinese": {
+          "name": "C3 | 科特斯入狱",
+          "description": "击败尼奥·科特斯。"
+        },
+        "spanish": {
+          "name": "C3 | Cortex N. Oqueado",
+          "description": "Derrota a N. Cortex."
+        }
+      }
+    },
+    "ACH_320": {
+      "translations": {
+        "english": {
+          "name": "C3 | Leave No Gem Unturned",
+          "description": "Earn 21 Gems"
+        },
+        "french": {
+          "name": "C3 | Un début de collection",
+          "description": "Gagner 21 gemmes."
+        },
+        "german": {
+          "name": "C3 | Jeden Edelstein umdrehen",
+          "description": "Erhalte 21 Edelsteine."
+        },
+        "italian": {
+          "name": "C3 | Guarda dappertutto",
+          "description": "Ottieni 21 gemme."
+        },
+        "japanese": {
+          "name": "C3 - てっていちょうさ",
+          "description": "ダイヤを21コかくとく"
+        },
+        "schinese": {
+          "name": "C3 | 不放过任何宝石",
+          "description": "获得 21 颗宝石。"
+        },
+        "spanish": {
+          "name": "C3 | No dejar gema sobre gema",
+          "description": "Obtén 21 gemas."
+        }
+      }
+    },
+    "ACH_321": {
+      "translations": {
+        "english": {
+          "name": "C3 | Bringing Down the House",
+          "description": "Earn 42 Gems"
+        },
+        "french": {
+          "name": "C3 | Pas un sans-gemmes",
+          "description": "Gagner 42 gemmes."
+        },
+        "german": {
+          "name": "C3 | Applaus, Applaus!",
+          "description": "Erhalte 42 Edelsteine."
+        },
+        "italian": {
+          "name": "C3 | Un vero successo",
+          "description": "Ottieni 42 gemme."
+        },
+        "japanese": {
+          "name": "C3 - われんばかりの だいかっさい",
+          "description": "ダイヤを42コかくとく"
+        },
+        "schinese": {
+          "name": "C3 | 轰动全场",
+          "description": "获得 42 颗宝石。"
+        },
+        "spanish": {
+          "name": "C3 | Se viene abajo",
+          "description": "Obtén 42 gemas."
+        }
+      }
+    },
+    "ACH_322": {
+      "translations": {
+        "english": {
+          "name": "C3 | Boo-yah, Grandma! Boo-yah!",
+          "description": "Earn 30 Relics (gold or better)"
+        },
+        "french": {
+          "name": "C3 | En fait, il me faut un musée",
+          "description": "Gagner 30 reliques (en or ou mieux)."
+        },
+        "german": {
+          "name": "C3 | Boo-yah, Oma! Boo-yah!",
+          "description": "Erhalte 30 Relikte (Gold oder besser)."
+        },
+        "italian": {
+          "name": "C3 | Beccati questo, nonna!",
+          "description": "Ottieni 30 reliquie (oro o migliori)."
+        },
+        "japanese": {
+          "name": "C3 - レリックたくサン ジューじつかん！",
+          "description": "ゴールドいじょうのレリックを30コかくとく"
+        },
+        "schinese": {
+          "name": "C3 | 老奶奶，帅吧！",
+          "description": "获得 30 个遗物（黄金或更好）。"
+        },
+        "spanish": {
+          "name": "C3 | ¡Bu-ya, abuela! ¡Bu-ya!",
+          "description": "Consigue 30 reliquias (de oro o mejores)."
+        }
+      }
+    },
+    "ACH_323": {
+      "translations": {
+        "english": {
+          "name": "C3 | Category Five",
+          "description": "Defeat 5 enemies with Coco's Savage Hurricane Spin"
+        },
+        "french": {
+          "name": "C3 | Tempête de catégorie 5",
+          "description": "Battre 5 ennemis avec l'Ouragan de Coco."
+        },
+        "german": {
+          "name": "C3 | Kategorie 5",
+          "description": "Besiege 5 Gegner mit Cocos Wildem Hurrikan-Wirbel."
+        },
+        "italian": {
+          "name": "C3 | Categoria cinque",
+          "description": "Sconfiggi 5 nemici con la mossa uragano di Coco."
+        },
+        "japanese": {
+          "name": "C3 - カテゴリーファイブ",
+          "description": "ココのハリケーンスピンをつかい、てきを5たい たおす"
+        },
+        "schinese": {
+          "name": "C3 | 五级飓风",
+          "description": "用可可的狂暴飓风旋转击败 5 名敌人。"
+        },
+        "spanish": {
+          "name": "C3 | Categoría cinco",
+          "description": "Derrota a 5 enemigos con el giro huracán de Coco."
+        }
+      }
+    },
+    "ACH_324": {
+      "translations": {
+        "english": {
+          "name": "C3 | A Stitch in Time Save 99",
+          "description": "Earn 99 Lives"
+        },
+        "french": {
+          "name": "C3 | Pas besoin d'arrondir",
+          "description": "Gagner 99 vies."
+        },
+        "german": {
+          "name": "C3 | Egal ist 99",
+          "description": "Erhalte 99 Leben."
+        },
+        "italian": {
+          "name": "C3 | Prevenire è meglio che curare",
+          "description": "Ottieni 99 vite."
+        },
+        "japanese": {
+          "name": "C3 - 99かいうら ツーアウト まんるい",
+          "description": "ライフを99コかくとく"
+        },
+        "schinese": {
+          "name": "C3 | 及时补救 99",
+          "description": "获得 99 条命。"
+        },
+        "spanish": {
+          "name": "C3 | Una puntada a tiempo ahorra ciento",
+          "description": "Obtén 99 vidas."
+        }
+      }
+    },
+    "ACH_124": {
+      "translations": {
+        "english": {
+          "name": "C1 | The Crown Jewel",
+          "description": "Seek and destroy"
+        },
+        "french": {
+          "name": "C1 | Le joyau de la couronne",
+          "description": "Rechercher et détruire."
+        },
+        "german": {
+          "name": "C1 | Das Kronjuwel",
+          "description": "Suche und zerstöre."
+        },
+        "italian": {
+          "name": "C1 | I gioielli della corona",
+          "description": "Cerca e distruggi"
+        },
+        "japanese": {
+          "name": "C1 - おうかんのほうせき",
+          "description": "さがして はかいする"
+        },
+        "schinese": {
+          "name": "C1 | 王冠明珠",
+          "description": "搜寻并摧毁。"
+        },
+        "spanish": {
+          "name": "C1 | La joya de la corona",
+          "description": "Busca y destruye."
+        }
+      }
+    },
+    "ACH_125": {
+      "translations": {
+        "english": {
+          "name": "C1 | An Ancient Antiquity",
+          "description": "Do hard time"
+        },
+        "french": {
+          "name": "C1 | Une antiquité antique",
+          "description": "Passer un sale quart d'heure."
+        },
+        "german": {
+          "name": "C1 | Eine antike Antiquität",
+          "description": "Wandere in den Knast."
+        },
+        "italian": {
+          "name": "C1 | Un’antichità antica",
+          "description": "Prigione"
+        },
+        "japanese": {
+          "name": "C1 - たいこのいせき",
+          "description": "ふくえきする"
+        },
+        "schinese": {
+          "name": "C1 | 古老遗物",
+          "description": "苦熬时间。"
+        },
+        "spanish": {
+          "name": "C1 | Una antigüedad bien antigua",
+          "description": "Cumple condena."
+        }
+      }
+    },
+    "ACH_326": {
+      "translations": {
+        "english": {
+          "name": "C3 | The Future is Clear",
+          "description": "Seek and destroy. Again."
+        },
+        "french": {
+          "name": "C3 | De l'avenir dans les idées",
+          "description": "Rechercher et détruire. Encore."
+        },
+        "german": {
+          "name": "C3 | Klare Zukunft",
+          "description": "Suche und zerstöre. Mal wieder."
+        },
+        "italian": {
+          "name": "C3 | Il futuro è chiaro",
+          "description": "Cerca e distruggi. Di nuovo."
+        },
+        "japanese": {
+          "name": "C3 - あかるいみらい",
+          "description": "ふたたび さがして はかいする"
+        },
+        "schinese": {
+          "name": "C3 | 未来一片光明",
+          "description": "搜寻并摧毁。再来一次。"
+        },
+        "spanish": {
+          "name": "C3 | El futuro está claro",
+          "description": "Buscar y destruir. Otra vez."
+        }
+      }
+    },
+    "ACH_327": {
+      "translations": {
+        "english": {
+          "name": "C3 | Fruit Fighter",
+          "description": "Shoot a background UFO in Future Tense."
+        },
+        "french": {
+          "name": "C3 | Ça lui soucoupe le sifflet",
+          "description": "Tirer sur un OVNI du décor dans Future Tense."
+        },
+        "german": {
+          "name": "C3 | Obstkämpfer",
+          "description": "Schieße auf ein Hintergrund-UFO in Future Tense."
+        },
+        "italian": {
+          "name": "C3 | Guerriero fruttifero",
+          "description": "Abbatti un UFO sullo sfondo in Future Tense."
+        },
+        "japanese": {
+          "name": "C3 - フルーツ ファイター",
+          "description": "きんみらいステージの はいけいをとんでいるUFOをうつ"
+        },
+        "schinese": {
+          "name": "C3 | 水果斗士",
+          "description": "在“未来时态”中射击背景里的 UFO。"
+        },
+        "spanish": {
+          "name": "C3 | Luchador frutero",
+          "description": "Dispara a uno de los ovnis del fondo en Future Tense."
+        }
+      }
+    }
+  }
+}

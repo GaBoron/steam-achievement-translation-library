@@ -1,0 +1,804 @@
+{
+  "version": 1,
+  "app_id": "630",
+  "variant_id": "default",
+  "source_sha256": "4a2603fd654ecfb6bbe964494d5075549332bcd213152b9b81b3786606b767ea",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "ASW_KILL_WITHOUT_FRIENDLY_FIRE": {
+      "translations": {
+        "english": {
+          "name": "Clear Firing",
+          "description": "Kill 25 drones without friendly fire.  Four marines must be present in the mission."
+        },
+        "schinese": {
+          "name": "清晰的射击",
+          "description": "在不出示友军伤害的情况下击毁 25 架无人机。任务中必须有四名海军陆战队员参与"
+        }
+      }
+    },
+    "ASW_NO_FRIENDLY_FIRE": {
+      "translations": {
+        "english": {
+          "name": "Short Controlled Bursts",
+          "description": "Complete a mission with no friendly fire incidents.  Four marines must be present in the mission."
+        },
+        "schinese": {
+          "name": "短周期可控爆发",
+          "description": "完成任务时不得出现任何友军伤亡情况。任务中必须至少有四名海军陆战队员参与"
+        }
+      }
+    },
+    "ASW_SHIELDBUG": {
+      "translations": {
+        "english": {
+          "name": "Shield Down",
+          "description": "Deliver the finishing blow to a Swarm Shieldbug."
+        },
+        "schinese": {
+          "name": "护盾下降",
+          "description": "给斯旺护盾虫造成最后的致命一击"
+        }
+      }
+    },
+    "ASW_GRENADE_MULTI_KILL": {
+      "translations": {
+        "english": {
+          "name": "Blast Radius",
+          "description": "Kill 6 Swarm with a single Grenade."
+        },
+        "schinese": {
+          "name": "爆炸半径",
+          "description": "用一枚手雷消灭 6 只虫群"
+        }
+      }
+    },
+    "ASW_ACCURACY": {
+      "translations": {
+        "english": {
+          "name": "Sharpshooter",
+          "description": "Complete a mission with better than 90% accuracy."
+        },
+        "schinese": {
+          "name": "神枪手",
+          "description": "以超过 90%的准确率完成任务"
+        }
+      }
+    },
+    "ASW_NO_DAMAGE_TAKEN": {
+      "translations": {
+        "english": {
+          "name": "Perfect",
+          "description": "Complete a mission on Normal difficulty or harder without receiving any damage."
+        },
+        "schinese": {
+          "name": "完美的",
+          "description": "在普通难度或更高难度的情况下，完成任务且不受任何伤害"
+        }
+      }
+    },
+    "ASW_EGGS_BEFORE_HATCH": {
+      "translations": {
+        "english": {
+          "name": "Scrambled Eggs",
+          "description": "Destroy all Swarm Eggs in a mission without allowing any to hatch."
+        },
+        "schinese": {
+          "name": "炒鸡蛋",
+          "description": "在完成任务时，必须摧毁所有“虫群蛋”，同时不要让任何蛋孵化出来"
+        }
+      }
+    },
+    "ASW_GRUB_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Bug Stomper",
+          "description": "Kill 100 Swarm Grubs."
+        },
+        "schinese": {
+          "name": "虫子踩踏器",
+          "description": "杀死 100 只虫群幼虫"
+        }
+      }
+    },
+    "ASW_MELEE_PARASITE": {
+      "translations": {
+        "english": {
+          "name": "Parasite Puncher",
+          "description": "Kill a Swarm Parasite with a melee attack."
+        },
+        "schinese": {
+          "name": "寄生虫穿孔机",
+          "description": "用近战攻击杀死群体寄生虫"
+        }
+      }
+    },
+    "ASW_MELEE_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Close Encounters",
+          "description": "Kill 20 Swarm with melee attacks in a single mission."
+        },
+        "schinese": {
+          "name": "近距离接触",
+          "description": "在单个任务中，用近战攻击击杀 20 只虫群"
+        }
+      }
+    },
+    "ASW_BARREL_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Smoking Barrels",
+          "description": "Kill 5 Swarm with explosive barrels in a single mission."
+        },
+        "schinese": {
+          "name": "吸烟的子弹",
+          "description": "在单个任务中，使用爆炸桶消灭 5 只群体怪物"
+        }
+      }
+    },
+    "ASW_INFESTATION_CURING": {
+      "translations": {
+        "english": {
+          "name": "Infestation Savior",
+          "description": "Cure an Infested marine."
+        },
+        "schinese": {
+          "name": "寄生救世主",
+          "description": "治疗一个被虫群感染的海洋生物"
+        }
+      }
+    },
+    "ASW_FAST_WIRE_HACKS": {
+      "translations": {
+        "english": {
+          "name": "Circuit Breaker",
+          "description": "Complete 10 wire hacks without access being logged."
+        },
+        "schinese": {
+          "name": "电路断路器",
+          "description": "完成 10 次线路改造，且不会记录任何访问信息"
+        }
+      }
+    },
+    "ASW_FAST_COMPUTER_HACKS": {
+      "translations": {
+        "english": {
+          "name": "Security Expert",
+          "description": "Complete 10 computer hacks without access being logged."
+        },
+        "schinese": {
+          "name": "安全专家",
+          "description": "完成 10 个计算机技巧，且不会记录任何访问日志"
+        }
+      }
+    },
+    "ASW_GROUP_HEAL": {
+      "translations": {
+        "english": {
+          "name": "Group Heal",
+          "description": "Heal all 4 marines with a single Heal Beacon."
+        },
+        "schinese": {
+          "name": "群体修复",
+          "description": "用单个修复信标来恢复所有四名海军陆战员的状况"
+        }
+      }
+    },
+    "ASW_GROUP_DAMAGE_AMP": {
+      "translations": {
+        "english": {
+          "name": "Damage Amped",
+          "description": "Kill 15 Swarm with all four marines under the effects of a Damage Amp in a single mission."
+        },
+        "schinese": {
+          "name": "损害巨大",
+          "description": "在单个任务中，让 15 只虫群生物死亡，同时所有四名海军陆战队员都处于伤害增强效果之下"
+        }
+      }
+    },
+    "ASW_FAST_RELOADS_IN_A_ROW": {
+      "translations": {
+        "english": {
+          "name": "Gunslinger",
+          "description": "Successfully perform 5 fast reloads in a row."
+        },
+        "schinese": {
+          "name": "枪手",
+          "description": "成功连续进行了 5 次快速重新加载操作"
+        }
+      }
+    },
+    "ASW_FAST_RELOAD": {
+      "translations": {
+        "english": {
+          "name": "Quick Load",
+          "description": "Successfully perform a fast reload."
+        },
+        "schinese": {
+          "name": "快速加载",
+          "description": "成功完成了快速重新加载操作"
+        }
+      }
+    },
+    "ASW_ALL_HEALING": {
+      "translations": {
+        "english": {
+          "name": "Peace Medic",
+          "description": "Heal 300 points of damage in a single mission without dealing any non-melee damage to the Swarm."
+        },
+        "schinese": {
+          "name": "和平医生",
+          "description": "在单个任务中，他造成了 300 点的伤害，同时没有对虫群造成任何非近战伤害"
+        }
+      }
+    },
+    "ASW_PROTECT_TECH": {
+      "translations": {
+        "english": {
+          "name": "Protect the Tech",
+          "description": "Guard the squad's tech so that he takes no damage during the hack."
+        },
+        "schinese": {
+          "name": "保护技术成果",
+          "description": "保护好小队的装备，这样他在进行黑客攻击时就不会受到任何伤害"
+        }
+      }
+    },
+    "ASW_TECH_SURVIVES": {
+      "translations": {
+        "english": {
+          "name": "Technician Secured",
+          "description": "Finish a mission without the tech getting killed."
+        },
+        "schinese": {
+          "name": "技术员已获得保障",
+          "description": "完成任务，同时不要让技术设备受到伤害"
+        }
+      }
+    },
+    "ASW_STUN_GRENADE": {
+      "translations": {
+        "english": {
+          "name": "Electro-Stunned",
+          "description": "Stun 6 Swarm with a single Stun Grenade."
+        },
+        "schinese": {
+          "name": "电刺激唤醒",
+          "description": "使用一枚眩晕手雷，就能击晕 6 个敌人"
+        }
+      }
+    },
+    "ASW_WELD_DOOR": {
+      "translations": {
+        "english": {
+          "name": "Seal of Quality",
+          "description": "Seal a door with the welder."
+        },
+        "schinese": {
+          "name": "质量认证标志",
+          "description": "用焊机为这扇门加上封印吧"
+        }
+      }
+    },
+    "ASW_DODGE_RANGER_SHOT": {
+      "translations": {
+        "english": {
+          "name": "Under the Gun",
+          "description": "Roll under a Swarm Ranger projectile."
+        },
+        "schinese": {
+          "name": "处于枪口之下",
+          "description": "从一群游荡者 Ranger 的投射物下方穿过"
+        }
+      }
+    },
+    "ASW_BOOMER_KILL_EARLY": {
+      "translations": {
+        "english": {
+          "name": "Quick and Dead",
+          "description": "Kill a Swarm Boomer before it inflates."
+        },
+        "schinese": {
+          "name": "迅速而致命",
+          "description": "在群体机器人膨胀之前将其消灭"
+        }
+      }
+    },
+    "ASW_FREEZE_GRENADE": {
+      "translations": {
+        "english": {
+          "name": "Stay Frosty",
+          "description": "Freeze 6 Swarm with a single Freeze Grenade."
+        },
+        "schinese": {
+          "name": "保持冷静",
+          "description": "使用一枚冻结手雷来冻结 6 只虫群"
+        }
+      }
+    },
+    "ASW_AMMO_RESUPPLY": {
+      "translations": {
+        "english": {
+          "name": "Ammo Technician",
+          "description": "Deploy 10 ammo stashes that are used by other marines."
+        },
+        "schinese": {
+          "name": "弹药技术员",
+          "description": "部署 10 个弹药储存点，供其他海军陆战队员使用"
+        }
+      }
+    },
+    "ASW_SENTRY_GUN_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Static Defender",
+          "description": "Kill 500 Swarm with deployable Sentry Guns."
+        },
+        "schinese": {
+          "name": "静态防御者",
+          "description": "使用可部署的哨兵机枪，击杀 500 只虫群"
+        }
+      }
+    },
+    "ASW_RIFLE_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Assault Specialist",
+          "description": "Kill 250 Swarm with the Assault Rifle."
+        },
+        "schinese": {
+          "name": "突击专家",
+          "description": "用突击步枪击杀 250 只虫群"
+        }
+      }
+    },
+    "ASW_PRIFLE_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Prototype Professional",
+          "description": "Kill 250 Swarm with a Prototype Rifle."
+        },
+        "schinese": {
+          "name": "原型专业版",
+          "description": "用原型步枪击杀 250 只虫群"
+        }
+      }
+    },
+    "ASW_AUTOGUN_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Autogun Expert",
+          "description": "Kill 250 Swarm with an Autogun."
+        },
+        "schinese": {
+          "name": "奥托古恩专家",
+          "description": "用自动枪杀死 250 只虫群"
+        }
+      }
+    },
+    "ASW_SHOTGUN_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Shotgun Specialist",
+          "description": "Kill 250 Swarm with a Shotgun."
+        },
+        "schinese": {
+          "name": "霰弹枪专家",
+          "description": "用一把霰弹枪击杀 250 只虫群"
+        }
+      }
+    },
+    "ASW_VINDICATOR_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Vindicator Veteran",
+          "description": "Kill 250 Swarm with a Vindicator."
+        },
+        "schinese": {
+          "name": "正义倡导者老兵",
+          "description": "用“驱逐者”武器击杀 250 只虫群"
+        }
+      }
+    },
+    "ASW_PISTOL_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Pistols Expert",
+          "description": "Kill 250 Swarm with Twin Pistols."
+        },
+        "schinese": {
+          "name": "手枪专家",
+          "description": "用双手枪杀死 250 只虫群"
+        }
+      }
+    },
+    "ASW_PDW_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Small Arms Specialist",
+          "description": "Kill 250 Swarm with PDWs."
+        },
+        "schinese": {
+          "name": "小型武器专家",
+          "description": "用冲锋枪杀死 250 只虫群"
+        }
+      }
+    },
+    "ASW_TESLA_GUN_KILLS": {
+      "translations": {
+        "english": {
+          "name": "High Voltage Expert",
+          "description": "Kill 250 Swarm with a Tesla Cannon."
+        },
+        "schinese": {
+          "name": "高压专家",
+          "description": "用泰坦炮击杀 250 只虫群"
+        }
+      }
+    },
+    "ASW_RAILGUN_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Railgun Specialist",
+          "description": "Kill 250 Swarm with a Rail Rifle."
+        },
+        "schinese": {
+          "name": "轨道炮专家",
+          "description": "用轨道步枪击杀 250 只虫群"
+        }
+      }
+    },
+    "ASW_FLAMER_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Pyrotechnician",
+          "description": "Kill 250 Swarm with a Flamethrower."
+        },
+        "schinese": {
+          "name": "焰火师",
+          "description": "用火焰喷射器消灭 250 只虫群"
+        }
+      }
+    },
+    "ASW_CHAINSAW_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Slaughter Soldier",
+          "description": "Kill 250 Swarm with a Chainsaw."
+        },
+        "schinese": {
+          "name": "屠宰战士",
+          "description": "用电锯杀死 250 只虫群"
+        }
+      }
+    },
+    "ASW_MINIGUN_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Minigun Master",
+          "description": "Kill 250 Swarm with a Minigun."
+        },
+        "schinese": {
+          "name": "迷你枪大师",
+          "description": "用迷你枪击杀 250 只虫群"
+        }
+      }
+    },
+    "ASW_SNIPER_RIFLE_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Professional Marksman",
+          "description": "Kill 250 Swarm with a Marksman Rifle."
+        },
+        "schinese": {
+          "name": "专业枪手",
+          "description": "用狙击步枪击杀 250 只虫群"
+        }
+      }
+    },
+    "ASW_GRENADE_LAUNCHER_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Grenadier Expert",
+          "description": "Kill 250 Swarm with a Grenade Launcher."
+        },
+        "schinese": {
+          "name": "特种部队专家",
+          "description": "用手榴弹发射器击杀 250 只虫群"
+        }
+      }
+    },
+    "ASW_HORNET_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Hornet Barrage Expert",
+          "description": "Kill 100 Swarm with Hornet Barrages."
+        },
+        "schinese": {
+          "name": "蜂鸟炮台专家",
+          "description": "使用大黄蜂战术，击杀 100 只虫群"
+        }
+      }
+    },
+    "ASW_LASER_MINE_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Tactical Explosives Expert",
+          "description": "Kill 100 Swarm with Laser Tripmines."
+        },
+        "schinese": {
+          "name": "战术爆炸物专家",
+          "description": "使用激光步道枪消灭 100 只虫群"
+        }
+      }
+    },
+    "ASW_MINE_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Firewall Specialist",
+          "description": "Kill 100 Swarm with Incendiary Mines."
+        },
+        "schinese": {
+          "name": "防火墙专家",
+          "description": "使用燃烧地雷消灭 100 只虫群"
+        }
+      }
+    },
+    "ASW_UNLOCK_ALL_WEAPONS": {
+      "translations": {
+        "english": {
+          "name": "Armory Access",
+          "description": "Unlock all the available weapons."
+        },
+        "schinese": {
+          "name": "军械库访问",
+          "description": "解锁所有可用的武器"
+        }
+      }
+    },
+    "ASW_EASY_CAMPAIGN": {
+      "translations": {
+        "english": {
+          "name": "Easy Campaign",
+          "description": "Complete the Jacob's Rest campaign on Easy difficulty or harder."
+        },
+        "schinese": {
+          "name": "轻松的竞选活动",
+          "description": "在简单难度或更高难度模式下完成“雅各的休息”活动"
+        }
+      }
+    },
+    "ASW_NORMAL_CAMPAIGN": {
+      "translations": {
+        "english": {
+          "name": "Normal Campaign",
+          "description": "Complete the Jacob's Rest campaign on Normal difficulty or harder."
+        },
+        "schinese": {
+          "name": "正常战役",
+          "description": "在普通难度或更高难度模式下完成《雅各的休息》战役"
+        }
+      }
+    },
+    "ASW_HARD_CAMPAIGN": {
+      "translations": {
+        "english": {
+          "name": "Hard Campaign",
+          "description": "Complete the Jacob's Rest campaign on Hard difficulty or harder."
+        },
+        "schinese": {
+          "name": "激烈的竞选活动",
+          "description": "在困难难度或更高难度模式下完成“雅各的休息”活动"
+        }
+      }
+    },
+    "ASW_INSANE_CAMPAIGN": {
+      "translations": {
+        "english": {
+          "name": "Insane Campaign",
+          "description": "Awarded for finishing the Jacob campaign on Insane difficulty."
+        },
+        "schinese": {
+          "name": "疯狂的战役",
+          "description": "在“疯狂”难度下完成雅各布战役后获得此奖励"
+        }
+      }
+    },
+    "ASW_KILL_GRIND_1": {
+      "translations": {
+        "english": {
+          "name": "On the Ready Line",
+          "description": "Kill 1,000 Swarm."
+        },
+        "schinese": {
+          "name": "在警戒线旁",
+          "description": "消灭 1000 只虫群"
+        }
+      }
+    },
+    "ASW_KILL_GRIND_2": {
+      "translations": {
+        "english": {
+          "name": "Another Bughunt",
+          "description": "Kill 5,000 Swarm."
+        },
+        "schinese": {
+          "name": "另一个 Bughunt",
+          "description": "杀死 5000 只虫群"
+        }
+      }
+    },
+    "ASW_KILL_GRIND_3": {
+      "translations": {
+        "english": {
+          "name": "Kill Them All",
+          "description": "Kill 25,000 Swarm."
+        },
+        "schinese": {
+          "name": "杀光他们所有人",
+          "description": "消灭 25,000 只虫群"
+        }
+      }
+    },
+    "ASW_KILL_GRIND_4": {
+      "translations": {
+        "english": {
+          "name": "Nuke From Orbit",
+          "description": "Kill 100,000 Swarm."
+        },
+        "schinese": {
+          "name": "从轨道上发射的核弹",
+          "description": "消灭 100,000 只虫群"
+        }
+      }
+    },
+    "ASW_SPEEDRUN_LANDING_BAY": {
+      "translations": {
+        "english": {
+          "name": "Landing Bay Speed Run",
+          "description": "Complete Landing Bay within 1:25 on Normal difficulty or harder without any marines dying."
+        },
+        "schinese": {
+          "name": "登陆湾快速奔跑",
+          "description": "在普通难度或更高难度的情况下，在 1 分 25 秒内完成登陆海湾，且不要让任何海军陆战队员死亡"
+        }
+      }
+    },
+    "ASW_SPEEDRUN_DESCENT": {
+      "translations": {
+        "english": {
+          "name": "Cargo Elevator Speed Run",
+          "description": "Complete Cargo Elevator within 2:50 on Normal difficulty or harder without any marines dying."
+        },
+        "schinese": {
+          "name": "货物电梯速度挑战赛",
+          "description": "在普通难度或更高难度的情况下，能够在 2 分 50 秒内完成整个货物的运输任务，且不会让任何海军陆战队员死亡"
+        }
+      }
+    },
+    "ASW_SPEEDRUN_DEIMA": {
+      "translations": {
+        "english": {
+          "name": "Deima Surface Bridge Speed Run",
+          "description": "Complete Deima Surface Bridge within 2:30 on Normal difficulty or harder without any marines dying."
+        },
+        "schinese": {
+          "name": "德玛表面桥梁速度挑战赛",
+          "description": "在普通难度或更高难度的情况下，能够在 2 小时 30 分钟内完成德伊玛表面桥的建造，且不会有任何士兵死亡"
+        }
+      }
+    },
+    "ASW_SPEEDRUN_RYDBERG": {
+      "translations": {
+        "english": {
+          "name": "Rydberg Reactor Speed Run",
+          "description": "Complete Rydberg Reactor within 3:10 on Normal difficulty or harder without any marines dying."
+        },
+        "schinese": {
+          "name": "里德伯格反应堆加速运行",
+          "description": "在普通难度或更高难度的情况下，在 3 分 10 秒内完成整个 Rydberg 反应堆的任务，且不要让任何海军陆战队员死亡"
+        }
+      }
+    },
+    "ASW_SPEEDRUN_RESIDENTIAL": {
+      "translations": {
+        "english": {
+          "name": "SynTek Residential Speed Run",
+          "description": "Complete SynTek Residential within 2:30 on Normal difficulty or harder without any marines dying."
+        },
+        "schinese": {
+          "name": "SynTek住宅区快速奔跑比赛",
+          "description": "在普通难度或更高难度的情况下，能够在 2 小时 30 分钟内完成整个 SynTek 住宅区的建设，且不会有一名海军陆战队员死亡"
+        }
+      }
+    },
+    "ASW_SPEEDRUN_SEWER": {
+      "translations": {
+        "english": {
+          "name": "Sewer Junction Speed Run",
+          "description": "Complete Sewer Junction within 1:30 on Normal difficulty or harder without any marines dying."
+        },
+        "schinese": {
+          "name": "下水道交汇处快速跑",
+          "description": "在普通难度或更高难度的情况下，能够在 1 分 30 秒内完成整个下水道枢纽的战斗，且不会让任何士兵死亡"
+        }
+      }
+    },
+    "ASW_SPEEDRUN_TIMOR": {
+      "translations": {
+        "english": {
+          "name": "Timor Station Speed Run",
+          "description": "Complete Timor Station within 4:25 on Normal difficulty or harder without any marines dying."
+        },
+        "schinese": {
+          "name": "帝汶站快速跑",
+          "description": "在普通难度或更高难度的情况下，能够在 4 分 25 秒内完成整个 Timor 站的任务，且不会让任何海军陆战队员死亡"
+        }
+      }
+    },
+    "ASW_CAMPAIGN_NO_DEATHS": {
+      "translations": {
+        "english": {
+          "name": "Outstanding Execution",
+          "description": "Complete a campaign on Normal difficulty or harder without any marines dying."
+        },
+        "schinese": {
+          "name": "出色的执行能力",
+          "description": "在普通难度或更高难度的情况下完成战役，且不要让任何海军陆战队员死亡"
+        }
+      }
+    },
+    "ASW_MISSION_NO_DEATHS": {
+      "translations": {
+        "english": {
+          "name": "Zero Mortality",
+          "description": "Complete a mission on Normal difficulty or harder without any marines dying."
+        },
+        "schinese": {
+          "name": "零死亡",
+          "description": "在普通难度或更高难度的情况下完成任务，且不要让任何海军陆战队员死亡"
+        }
+      }
+    },
+    "ASW_PARA_HAT": {
+      "translations": {
+        "english": {
+          "name": "Hat Trick",
+          "description": "Complete 2 co-op missions online. Earns a Team Fortress 2 parasite hat."
+        },
+        "schinese": {
+          "name": "三连胜",
+          "description": "在线完成 2 个合作任务。可以获得 Team Fortress 2 的寄生虫头饰"
+        }
+      }
+    },
+    "ASW_IMBA_CAMPAIGN": {
+      "translations": {
+        "english": {
+          "name": "Brutal Campaign",
+          "description": "Awarded for finishing the Jacob campaign on Brutal difficulty."
+        },
+        "schinese": {
+          "name": "残酷的战役",
+          "description": "因在“残酷”难度下完成“雅各布”战役而获得奖励"
+        }
+      }
+    },
+    "ASW_HARDCORE": {
+      "translations": {
+        "english": {
+          "name": "Hardcore",
+          "description": "Complete any mission on Brutal difficulty with Onslaught and Hardcore Friendly Fire enabled."
+        },
+        "schinese": {
+          "name": "硬核",
+          "description": "在“残酷”难度下，使用“猛攻”模式并开启“对硬货不伤害”功能，完成所有任务"
+        }
+      }
+    }
+  }
+}

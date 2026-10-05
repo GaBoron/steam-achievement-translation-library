@@ -1,0 +1,768 @@
+{
+  "version": 1,
+  "app_id": "497780",
+  "variant_id": "default",
+  "source_sha256": "3eb60b060df83d71de4841b300c98f9f5cf3a7a266085301636df2da77c075b8",
+  "languages": [
+    "brazilian",
+    "czech",
+    "english",
+    "french",
+    "german",
+    "koreana",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "WIN_CRYSTALS": {
+      "translations": {
+        "brazilian": {
+          "name": "Lua de Cristal",
+          "description": "Pegue todos os cristais."
+        },
+        "czech": {
+          "name": "Krystaložasnost",
+          "description": "Posbírej všechny krystaly."
+        },
+        "english": {
+          "name": "Crystal Amaze",
+          "description": "Collect all crystals."
+        },
+        "french": {
+          "name": "Crystal Amaze",
+          "description": "Collectez tous les crystals."
+        },
+        "german": {
+          "name": "Kristallklar",
+          "description": "Sammle alle Kristalle ein."
+        },
+        "koreana": {
+          "name": "크리스탈 어메이즈",
+          "description": "모든 크리스탈 모으기"
+        },
+        "polish": {
+          "name": "Król Kryształów",
+          "description": "Zbierz wszystkie kryształy."
+        },
+        "russian": {
+          "name": "Коллекционер",
+          "description": "Собери все кристаллы."
+        },
+        "schinese": {
+          "name": "水晶奇境",
+          "description": "收集所有水晶。"
+        },
+        "spanish": {
+          "name": "Crystal Amaze",
+          "description": "Colecciona todos los cristales."
+        }
+      }
+    },
+    "WIN_DIAMONDS": {
+      "translations": {
+        "brazilian": {
+          "name": "Bodas de Diamante",
+          "description": "Pegue todos os diamantes."
+        },
+        "czech": {
+          "name": "Diamantové výročí",
+          "description": "Posbírej všechny diamanty."
+        },
+        "english": {
+          "name": "Diamond Jubilee",
+          "description": "Collect all diamonds."
+        },
+        "french": {
+          "name": "Diamond Jubilee",
+          "description": "Collectez tous les diamants."
+        },
+        "german": {
+          "name": "Diamantene Hochzeit",
+          "description": "Sammle alle Diamanten ein."
+        },
+        "koreana": {
+          "name": "다이아몬드 주빌리",
+          "description": "모든 다이아몬드 모으기"
+        },
+        "polish": {
+          "name": "Diamentowy Jubileusz",
+          "description": "Zbierz wszystkie diamenty."
+        },
+        "russian": {
+          "name": "Бриллиантовая свадьба",
+          "description": "Собери все алмазы."
+        },
+        "schinese": {
+          "name": "钻石庆典",
+          "description": "收集所有钻石。"
+        },
+        "spanish": {
+          "name": "Diamond Jubilee",
+          "description": "Colecciona todos los diamantes."
+        }
+      }
+    },
+    "WIN_ESCAPE": {
+      "translations": {
+        "brazilian": {
+          "name": "Escape",
+          "description": "Encontre a saída."
+        },
+        "czech": {
+          "name": "Únik",
+          "description": "Najdi cestu ven."
+        },
+        "english": {
+          "name": "Escape",
+          "description": "Find the way out."
+        },
+        "french": {
+          "name": "Escape",
+          "description": "Trouvez le moyen de sortir."
+        },
+        "german": {
+          "name": "Flucht",
+          "description": "Finde den Ausgang."
+        },
+        "koreana": {
+          "name": "탈출",
+          "description": "밖으로 빠져나오는 방법 찾기"
+        },
+        "polish": {
+          "name": "Ucieczka",
+          "description": "Znajć wyjście."
+        },
+        "russian": {
+          "name": "Выход",
+          "description": "Найди выход."
+        },
+        "schinese": {
+          "name": "逃脱",
+          "description": "找到出路。"
+        },
+        "spanish": {
+          "name": "Escapa",
+          "description": "Encuentra la salida."
+        }
+      }
+    },
+    "CHEST_DEPTH": {
+      "translations": {
+        "brazilian": {
+          "name": "Sonho Dentro de Um Sonho",
+          "description": "Explore uma fase a um nível de profundidade de 20 baús."
+        },
+        "czech": {
+          "name": "Sen ve snu",
+          "description": "Prozkoumej level v hloubce 20 truhel."
+        },
+        "english": {
+          "name": "Dream Within A Dream",
+          "description": "Explore a level to a depth of 20 chests."
+        },
+        "french": {
+          "name": "Dream Within A Dream",
+          "description": "Explorez un niveau dans une profondeur de 20 coffres."
+        },
+        "german": {
+          "name": "Traum im Traum",
+          "description": "Erkunde einen Level 20 Truhen tief."
+        },
+        "koreana": {
+          "name": "꿈 속의 꿈",
+          "description": "20단계의 상자 속을 탐험하기"
+        },
+        "polish": {
+          "name": "Sen we śnie",
+          "description": "Zejć na głębokość 20 skrzyń w jednym poziomie."
+        },
+        "russian": {
+          "name": "Сон во сне",
+          "description": "Погрузись на глубину в 20 сундуков."
+        },
+        "schinese": {
+          "name": "梦中之梦",
+          "description": "在一个关卡中探索到 20 层箱子的深度。"
+        },
+        "spanish": {
+          "name": "Dream Within A Dream",
+          "description": "Explora un nivel con la profundidad de 20 cofres."
+        }
+      }
+    },
+    "CHEST_INSTANCE_500": {
+      "translations": {
+        "brazilian": {
+          "name": "Agora Eu Me Tornei Baú",
+          "description": "Instancie 500 salas."
+        },
+        "czech": {
+          "name": "Já stát se truhlou",
+          "description": "Navštiv 500 místností."
+        },
+        "english": {
+          "name": "I Am Become Chest",
+          "description": "Instantiate 500 rooms."
+        },
+        "french": {
+          "name": "I Am Become Chest",
+          "description": "Explorez 500 salles."
+        },
+        "german": {
+          "name": "Ich bin die Truhe",
+          "description": "Instanziiere 500 Räume."
+        },
+        "koreana": {
+          "name": "나는 이제 상자요, 세상의 파괴자가 되었도다",
+          "description": "500개의 방을 생성하기"
+        },
+        "polish": {
+          "name": "Pokojowy podróżnik",
+          "description": "Wejdź do 500 pokoji."
+        },
+        "russian": {
+          "name": "Я - сундук",
+          "description": "Войдите в 500 комнат."
+        },
+        "schinese": {
+          "name": "我已化身箱子",
+          "description": "实例化 500 个房间。"
+        },
+        "spanish": {
+          "name": "I Am Become Chest",
+          "description": "Iniciar 500 cuartos."
+        }
+      }
+    },
+    "RECURSION": {
+      "translations": {
+        "brazilian": {
+          "name": "Recursão",
+          "description": "Desbloqueada desbloqueando a conquista Recursão."
+        },
+        "czech": {
+          "name": "Rekurze",
+          "description": "Odemkne se odemčením výkonu Rekurze."
+        },
+        "english": {
+          "name": "Recursion",
+          "description": "Unlocked by unlocking the Recursion achievement."
+        },
+        "french": {
+          "name": "Recursion",
+          "description": "Débloqué en débloquant le succès Recursion."
+        },
+        "german": {
+          "name": "Rekursion",
+          "description": "Wird durch freischalten des Rekursion-Achievements freigeschaltet."
+        },
+        "koreana": {
+          "name": "재귀적",
+          "description": "재귀적 도전과제를 얻으면 얻을 수 있음"
+        },
+        "polish": {
+          "name": "Rekursja",
+          "description": "Odblokowany przez odblokowanie osiągnięcia Rekursja."
+        },
+        "russian": {
+          "name": "Рекурсия",
+          "description": "Разблокируется достижением 'Рекурсия'."
+        },
+        "schinese": {
+          "name": "递归",
+          "description": "通过解锁“递归”成就来解锁。"
+        },
+        "spanish": {
+          "name": "Recursión",
+          "description": "Desbloquea el Logro 'Recursión'."
+        }
+      }
+    },
+    "SPINNING": {
+      "translations": {
+        "brazilian": {
+          "name": "Giro Digital",
+          "description": "Hey, isso é divertido!"
+        },
+        "czech": {
+          "name": "Digitální otáčky",
+          "description": "Jé, to je ale sranda!"
+        },
+        "english": {
+          "name": "Digital Spinning",
+          "description": "Hey, this is fun!"
+        },
+        "french": {
+          "name": "Digital Spinning",
+          "description": "Hey, c'est fun!"
+        },
+        "german": {
+          "name": "Digital Spinning",
+          "description": "Was für ein Spaß!"
+        },
+        "koreana": {
+          "name": "디지털 스피닝",
+          "description": "야, 이거 재미있는데?"
+        },
+        "polish": {
+          "name": "Wirtualny piruet",
+          "description": "Ale zabawa!"
+        },
+        "russian": {
+          "name": "Цифровой спиннинг",
+          "description": "Эй, это же весело!"
+        },
+        "schinese": {
+          "name": "数字旋转",
+          "description": "嘿，这真有趣！"
+        },
+        "spanish": {
+          "name": "Digital Spinning",
+          "description": "¡Hey, esto es divertido!"
+        }
+      }
+    },
+    "CHEST_REJECT": {
+      "translations": {
+        "brazilian": {
+          "name": "Paradoxo",
+          "description": "Crie uma situação impossível."
+        },
+        "czech": {
+          "name": "Paradox",
+          "description": "Vytvoř nemožnou situaci."
+        },
+        "english": {
+          "name": "Paradox",
+          "description": "Create an impossible situation."
+        },
+        "french": {
+          "name": "Paradox",
+          "description": "Créez une situation impossible."
+        },
+        "german": {
+          "name": "Paradox",
+          "description": "Erschaffe eine unmögliche Situation."
+        },
+        "koreana": {
+          "name": "패러독스",
+          "description": "불가능한 상황 만들기"
+        },
+        "polish": {
+          "name": "Paradox",
+          "description": "Stwórz niemożliwą situacje."
+        },
+        "russian": {
+          "name": "Парадокс",
+          "description": "Создайте невозможную ситуацию."
+        },
+        "schinese": {
+          "name": "悖论",
+          "description": "制造一个不可能的局面。"
+        },
+        "spanish": {
+          "name": "Paradoja",
+          "description": "Crea una situación imposible."
+        }
+      }
+    },
+    "OOBLECK_INSTANCE_50": {
+      "translations": {
+        "brazilian": {
+          "name": "Metamorfo",
+          "description": "Transforme 50 ooblecks."
+        },
+        "czech": {
+          "name": "Přeměňovák",
+          "description": "Přeměň 50 oobleků."
+        },
+        "english": {
+          "name": "Changeling",
+          "description": "Transform 50 ooblecks."
+        },
+        "french": {
+          "name": "Changeling",
+          "description": "Transformer 50 Ooblecks."
+        },
+        "german": {
+          "name": "Wechselbalg",
+          "description": "Transformiere 50 Ooblecks."
+        },
+        "koreana": {
+          "name": "체인질링",
+          "description": "찐득이 50개를 변신시키기"
+        },
+        "polish": {
+          "name": "Zamieniacz",
+          "description": "Transformuj 50 Ubleków."
+        },
+        "russian": {
+          "name": "Соревнование",
+          "description": "Трансформируй 50 кусков слизи."
+        },
+        "schinese": {
+          "name": "变形者",
+          "description": "变换 50 个 Oobleck。"
+        },
+        "spanish": {
+          "name": "Cambiante",
+          "description": "Transformar 50 oobloques."
+        }
+      }
+    },
+    "WIN_OOBLECK": {
+      "translations": {
+        "brazilian": {
+          "name": "A Solução Oobleck",
+          "description": "Pegue todos os cristais e diamantes em O Enigma Oobleck."
+        },
+        "czech": {
+          "name": "Řešení ooblecku",
+          "description": "Posbírej všechny krystaly a diamanty v Ooblekovém hlavolamu."
+        },
+        "english": {
+          "name": "The Oobleck Solution",
+          "description": "Collect all crystals and diamonds in The Oobleck Conundrum."
+        },
+        "french": {
+          "name": "The Oobleck Solution",
+          "description": "Collecter tous les crystaux et diamants dans L'énigme d'Oobleck."
+        },
+        "german": {
+          "name": "Die Oobleck-Lösung",
+          "description": "Sammle alle Kristalle und Diamanten in Das Oobleck-Rätsel."
+        },
+        "koreana": {
+          "name": "찐득찐득한 해답",
+          "description": "“찐득이 수수께끼”의 모든 크리스탈과 다이아몬드 모으기"
+        },
+        "polish": {
+          "name": "Rozwiązanie Ubleka",
+          "description": "Zbierz wszystkie kryształy i diamenty w Zagadce Ubleka."
+        },
+        "russian": {
+          "name": "Отгадка слизи",
+          "description": "Собери все кристаллы и алмазы в Загадке слизи."
+        },
+        "schinese": {
+          "name": "Oobleck 解法",
+          "description": "在《Oobleck 难题》中收集所有水晶和钻石。"
+        },
+        "spanish": {
+          "name": "La solución Ooblocosa",
+          "description": "Collecciona todos los cristales y diamantes en La Adivinanza Ooblocosa."
+        }
+      }
+    },
+    "CHEST_GLITCH": {
+      "translations": {
+        "brazilian": {
+          "name": "Falha Técnica",
+          "description": "Entre em uma sala que não existe mais."
+        },
+        "czech": {
+          "name": "Porucha",
+          "description": "Vstup do místnoti, která již neexistuje."
+        },
+        "english": {
+          "name": "Glitch",
+          "description": "Enter a room that no longer exists."
+        },
+        "french": {
+          "name": "Glitch",
+          "description": "Entrer dans une salle qui n'existe plus."
+        },
+        "german": {
+          "name": "Glitch",
+          "description": "Betritt einen Raum, der nicht mehr existiert."
+        },
+        "koreana": {
+          "name": "버그",
+          "description": "더 이상 존재하지 않는 방에 들어가기"
+        },
+        "polish": {
+          "name": "Usterka",
+          "description": "Wejdź do pokóju, który już nie istnieje."
+        },
+        "russian": {
+          "name": "Глюк",
+          "description": "Войди в комнату, которой больше нет."
+        },
+        "schinese": {
+          "name": "故障",
+          "description": "进入一个已不复存在的房间。"
+        },
+        "spanish": {
+          "name": "Glitch",
+          "description": "Entra a un cuarto que ya no existe."
+        }
+      }
+    },
+    "JUGGLING": {
+      "translations": {
+        "brazilian": {
+          "name": "Ato de Malabarismo",
+          "description": "É bom ter um hobby."
+        },
+        "czech": {
+          "name": "Žonglovací výstup",
+          "description": "Je dobré mít koníčka."
+        },
+        "english": {
+          "name": "Juggling Act",
+          "description": "It's good to have a hobby."
+        },
+        "french": {
+          "name": "Juggling Act",
+          "description": "C'est bien d'avoir un hobby."
+        },
+        "german": {
+          "name": "Jonglieren",
+          "description": "Schön, wenn man ein Hobby hat."
+        },
+        "koreana": {
+          "name": "저글링",
+          "description": "취미 하나쯤은 있는 게 좋잖아"
+        },
+        "polish": {
+          "name": "Żonglerka",
+          "description": "Dobrze jest mieć hobby."
+        },
+        "russian": {
+          "name": "Жонглирование",
+          "description": "Хорошо иметь хобби."
+        },
+        "schinese": {
+          "name": "杂耍表演",
+          "description": "有个爱好总是好的。"
+        },
+        "spanish": {
+          "name": "Malabarismo",
+          "description": "Es bueno tener un pasatiempo."
+        }
+      }
+    },
+    "THREAD_INSTANCE_100": {
+      "translations": {
+        "brazilian": {
+          "name": "Troca-troca",
+          "description": "Entre em 100 caldeirões."
+        },
+        "czech": {
+          "name": "Swapper",
+          "description": "Vlož 100 kotlíků."
+        },
+        "english": {
+          "name": "Swapper",
+          "description": "Enter 100 cauldrons."
+        },
+        "french": {
+          "name": "Swapper",
+          "description": "Enter 100 cauldrons."
+        },
+        "german": {
+          "name": "Swapper",
+          "description": "Springe in 100 Kessel."
+        },
+        "koreana": {
+          "name": "더 스와퍼",
+          "description": "가마솥에 100번 들어가기"
+        },
+        "polish": {
+          "name": "Zmieniacz",
+          "description": "Wejdź do 100 kociołków."
+        },
+        "russian": {
+          "name": "Swapper",
+          "description": "Войдите в 100 котлов."
+        },
+        "schinese": {
+          "name": "交换者",
+          "description": "进入 100 个坩埚。"
+        },
+        "spanish": {
+          "name": "Swapper",
+          "description": "Entrar en 100 Calderas."
+        }
+      }
+    },
+    "WIN_THREAD": {
+      "translations": {
+        "brazilian": {
+          "name": "Concorrência",
+          "description": "Pegue todos os cristais, diamantes e rubis em A Última Tapeçaria."
+        },
+        "czech": {
+          "name": "Souběžnost",
+          "description": "Posbírej všechny krystaly, diamanty a runíny v Poslední Tapisérii."
+        },
+        "english": {
+          "name": "Concurrency",
+          "description": "Collect all crystals, diamonds and rubies in The Last Tapestry."
+        },
+        "french": {
+          "name": "Concurrency",
+          "description": "Collect all crystals, diamonds and rubies in The Last Tapestry."
+        },
+        "german": {
+          "name": "Nebenläufigkeit",
+          "description": "Sammle alle Kristalle, Diamanten und Rubine in Der letzte Wandteppich ein."
+        },
+        "koreana": {
+          "name": "동시 실행",
+          "description": "“마지막 태피스트리”의 모든 크리스탈과 다이아몬드와 루비 모으기"
+        },
+        "polish": {
+          "name": "Współbieżność",
+          "description": "Zbierz wszystkie kryształy, diamenty i rubiny w Ostatnim Gobelinie."
+        },
+        "russian": {
+          "name": "Параллелизм",
+          "description": "Collect all crystals, diamonds and rubies in The Last Tapestry."
+        },
+        "schinese": {
+          "name": "并发",
+          "description": "在《最后的织锦》中收集所有水晶、钻石和红宝石。"
+        },
+        "spanish": {
+          "name": "Concurrencia",
+          "description": "Colecciona todos los cristales, diamantes y rubíes en El Último Tapiz."
+        }
+      }
+    },
+    "THREAD_NULL": {
+      "translations": {
+        "brazilian": {
+          "name": "Troca de Contextos Nula",
+          "description": "Não faça nada."
+        },
+        "czech": {
+          "name": "Neplatné přepnutí situace",
+          "description": "Nedělej nic."
+        },
+        "english": {
+          "name": "Null Context Switch",
+          "description": "Do nothing."
+        },
+        "french": {
+          "name": "Null Context Switch",
+          "description": "Do nothing."
+        },
+        "german": {
+          "name": "Null Context Switch",
+          "description": "Tu nichts."
+        },
+        "koreana": {
+          "name": "무의미한 문맥 교환",
+          "description": "아무것도 하지 않기"
+        },
+        "polish": {
+          "name": "Brak Przełączania kontekstu",
+          "description": "Nic nie rób."
+        },
+        "russian": {
+          "name": "Бездейственное переключение",
+          "description": "Не делайте ничего."
+        },
+        "schinese": {
+          "name": "空上下文切换",
+          "description": "什么也不做。"
+        },
+        "spanish": {
+          "name": "Cambio de Contexto Nulo",
+          "description": "No hacer nada."
+        }
+      }
+    },
+    "YOYOING": {
+      "translations": {
+        "brazilian": {
+          "name": "Dançarino de Barbante",
+          "description": "Outra conquista oculta ridícula."
+        },
+        "czech": {
+          "name": "Mistr provázků",
+          "description": "Další absurdní skrytý úspěch."
+        },
+        "english": {
+          "name": "Thread Dancer",
+          "description": "Another ridiculous hidden achievement."
+        },
+        "french": {
+          "name": "Thread Dancer",
+          "description": "Another ridiculous hidden achievement."
+        },
+        "german": {
+          "name": "Threadtänzer",
+          "description": "Noch ein beklopptes verstecktes Achievement."
+        },
+        "koreana": {
+          "name": "스레드 춤꾼",
+          "description": "또 다른 터무니없는 숨겨진 도전 과제"
+        },
+        "polish": {
+          "name": "Tancerz nici",
+          "description": "Kolejne absurdalne ukryte osiągnięcie."
+        },
+        "russian": {
+          "name": "Thread Dancer",
+          "description": "Ещё одно забавное спрятанное достижение."
+        },
+        "schinese": {
+          "name": "线程舞者",
+          "description": "又一个离谱的隐藏成就。"
+        },
+        "spanish": {
+          "name": "Thread Dancer",
+          "description": "Otro logro rídiculamente escondido."
+        }
+      }
+    },
+    "THREAD_REJECT": {
+      "translations": {
+        "brazilian": {
+          "name": "Invalidez",
+          "description": "Chegue em lugar nenhum."
+        },
+        "czech": {
+          "name": "Neplatné",
+          "description": "Jdi do nikam."
+        },
+        "english": {
+          "name": "Invalid",
+          "description": "Arrive nowhere."
+        },
+        "french": {
+          "name": "Invalid",
+          "description": "Arrive nowhere."
+        },
+        "german": {
+          "name": "Ungültig",
+          "description": "Komm nirgendwo an."
+        },
+        "koreana": {
+          "name": "유효하지 않음",
+          "description": "아무 곳에도 도착하지 않기"
+        },
+        "polish": {
+          "name": "Nieważny",
+          "description": "Przybądź do nikąd."
+        },
+        "russian": {
+          "name": "Неверно",
+          "description": "Попадите никуда."
+        },
+        "schinese": {
+          "name": "无效",
+          "description": "抵达无处。"
+        },
+        "spanish": {
+          "name": "Inválido",
+          "description": "Arribar en sinlugar."
+        }
+      }
+    }
+  }
+}

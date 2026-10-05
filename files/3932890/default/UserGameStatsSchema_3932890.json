@@ -1,0 +1,1357 @@
+{
+  "version": 1,
+  "app_id": "3932890",
+  "variant_id": "default",
+  "source_sha256": "c9d8c7d2f9fc75a8c783a8cd8f06d3e5549721e2ca571352f4b205d8e5cbb6d1",
+  "languages": [
+    "english",
+    "russian",
+    "schinese"
+  ],
+  "achievements": {
+    "WelcomeToTarkov": {
+      "translations": {
+        "english": {
+          "name": "Welcome to Tarkov",
+          "description": "Die in Tarkov for the first time"
+        },
+        "russian": {
+          "name": "Добро пожаловать в Тарков",
+          "description": "Впервые умереть в Таркове"
+        },
+        "schinese": {
+          "name": "欢迎来到塔科夫！",
+          "description": "第一次在塔科夫阵亡"
+        }
+      }
+    },
+    "PMC_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "PMC",
+          "description": "Survive 300 raids while playing as a PMC"
+        },
+        "russian": {
+          "name": "ЧВК",
+          "description": "Выжить в рейдах 300 раз, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "PMC",
+          "description": "作为PMC，幸存300次"
+        }
+      }
+    },
+    "Traveler_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Traveler",
+          "description": "Survive and extract from every location in Tarkov while playing as a PMC"
+        },
+        "russian": {
+          "name": "Путешественник",
+          "description": "Выжить и выйти на каждой локации Таркова, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "旅行家",
+          "description": "作为PMC，从塔科夫的每个地区撤离"
+        }
+      }
+    },
+    "Vagabond_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Vagabond",
+          "description": "Use the transit from any location"
+        },
+        "russian": {
+          "name": "Проходимец",
+          "description": "Совершить переход на любой локации"
+        },
+        "schinese": {
+          "name": "四海为家",
+          "description": "使用任意地点的移动服务"
+        }
+      }
+    },
+    "MakeANotch": {
+      "translations": {
+        "english": {
+          "name": "Make a notch",
+          "description": "Eliminate 30 PMC operatives with a melee weapon while playing as a PMC"
+        },
+        "russian": {
+          "name": "Сделать зарубку",
+          "description": "Убить 30 ЧВК оружием ближнего боя, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "花盆剑圣",
+          "description": "作为PMC，使用近战武器击杀30个PMC干员"
+        }
+      }
+    },
+    "U-SUCC_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "U-SUCC",
+          "description": "Eliminate 50 USEC PMC operatives"
+        },
+        "russian": {
+          "name": "U-SUCC",
+          "description": "Убить 50 ЧВК USEC"
+        },
+        "schinese": {
+          "name": "成人之“美”",
+          "description": "击杀50个USEC PMC干员"
+        }
+      }
+    },
+    "BEARWithMe": {
+      "translations": {
+        "english": {
+          "name": "BEAR with me",
+          "description": "Eliminate 50 BEAR PMC operatives"
+        },
+        "russian": {
+          "name": "BEAR With Me",
+          "description": "Убить 50 ЧВК BEAR"
+        },
+        "schinese": {
+          "name": "“熊”心壮志",
+          "description": "击杀50个BEAR PMC干员"
+        }
+      }
+    },
+    "SCAVFriendPMC": {
+      "translations": {
+        "english": {
+          "name": "PMC's Best Friend",
+          "description": "Survive and extract from Interchange through the Scav Co-Op extraction while playing as a PMC"
+        },
+        "russian": {
+          "name": "Дикий друг ЧВК",
+          "description": "Выжить и выйти с локации Развязка вместе с Диким, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "PMC挚友",
+          "description": "作为PMC，从立交桥的Scav合作撤离点撤离"
+        }
+      }
+    },
+    "OnStyle": {
+      "translations": {
+        "english": {
+          "name": "Art of Style",
+          "description": "Neutralize Killa for the first time while playing as a PMC"
+        },
+        "russian": {
+          "name": "На стиле",
+          "description": "Впервые убить Киллу, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "时尚领主",
+          "description": "作为PMC，第一次击杀Killa"
+        }
+      }
+    },
+    "CallYourBrother": {
+      "translations": {
+        "english": {
+          "name": "Call your brother",
+          "description": "Neutralize Tagilla for the first time while playing as a PMC"
+        },
+        "russian": {
+          "name": "Брата позови",
+          "description": "Впервые убить Тагиллу, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "现在谁是大哥？",
+          "description": "作为PMC，第一次击杀Tagilla"
+        }
+      }
+    },
+    "SilenceAtTheSawmill": {
+      "translations": {
+        "english": {
+          "name": "Silence at the sawmill",
+          "description": "Neutralize Shturman for the first time while playing as a PMC"
+        },
+        "russian": {
+          "name": "Тишина на лесопилке",
+          "description": "Впервые убить Штурмана, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "无声锯木厂",
+          "description": "作为PMC，第一次击杀Shturman"
+        }
+      }
+    },
+    "ResolvedIssue": {
+      "translations": {
+        "english": {
+          "name": "Deal to Make",
+          "description": "Neutralize Reshala for the first time while playing as a PMC"
+        },
+        "russian": {
+          "name": "Решенный вопрос",
+          "description": "Впервые убить Решалу, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "谈判失败",
+          "description": "作为PMC，第一次击杀Reshala"
+        }
+      }
+    },
+    "HuntingGluhar": {
+      "translations": {
+        "english": {
+          "name": "Grouse Hunting",
+          "description": "Neutralize Glukhar for the first time while playing as a PMC"
+        },
+        "russian": {
+          "name": "Охота на Глухаря",
+          "description": "Впервые убить Глухаря, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "瓮中捉鳖",
+          "description": "作为PMC，第一次击杀Glukhar"
+        }
+      }
+    },
+    "SanatoriumOrderly": {
+      "translations": {
+        "english": {
+          "name": "Sanatorium Orderly",
+          "description": "Neutralize Sanitar for the first time while playing as a PMC"
+        },
+        "russian": {
+          "name": "Санитар Санатория",
+          "description": "Впервые убить Санитара, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "安宁疗养院",
+          "description": "作为PMC，第一次击杀Sanitar"
+        }
+      }
+    },
+    "FunnyGraveyardKeeper": {
+      "translations": {
+        "english": {
+          "name": "Funny Graveyard Keeper",
+          "description": "Neutralize Kaban for the first time while playing as a PMC"
+        },
+        "russian": {
+          "name": "Веселый могильщик",
+          "description": "Впервые убить Кабана, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "滑稽守墓人",
+          "description": "作为PMC，第一次击杀Kaban"
+        }
+      }
+    },
+    "Trio_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Now There Are Three of Them!",
+          "description": "Neutralize Knight, Birdeye, and Big Pipe in a single raid for the first time while playing as a PMC"
+        },
+        "russian": {
+          "name": "Трио",
+          "description": "Впервые убить в одном рейде Knight, Birdeye и Big Pipe, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "三人成虎！",
+          "description": "作为PMC，第一次在同一个战局中击杀Knight、Birdeye和Big Pipe"
+        }
+      }
+    },
+    "Justice_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Justice",
+          "description": "Neutralize Kollontay for the first time while playing as a PMC"
+        },
+        "russian": {
+          "name": "Правосудие",
+          "description": "Впервые убить Коллонтая, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "正义执行",
+          "description": "作为PMC，第一次击杀Kollontay"
+        }
+      }
+    },
+    "TimeCleanMyKarma": {
+      "translations": {
+        "english": {
+          "name": "Time To Clean My Karma",
+          "description": "Neutralize Partisan for the first time while playing as a PMC"
+        },
+        "russian": {
+          "name": "Пора почистить карму",
+          "description": "Впервые убить Партизана, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "功业皆浮云",
+          "description": "作为PMC，第一次击杀Partisan"
+        }
+      }
+    },
+    "FashionableVerdict": {
+      "translations": {
+        "english": {
+          "name": "What Not To Wear",
+          "description": "Neutralize Killa 15 times while playing as a PMC"
+        },
+        "russian": {
+          "name": "Модный приговор",
+          "description": "Убить Киллу 15 раз, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "潮流害死猫",
+          "description": "作为PMC，击杀Killa 15次"
+        }
+      }
+    },
+    "ScytheOnAHammer": {
+      "translations": {
+        "english": {
+          "name": "Hammer and Scythe",
+          "description": "Neutralize Tagilla 15 times while playing as a PMC"
+        },
+        "russian": {
+          "name": "Коса на молот",
+          "description": "Убить Тагиллу 15 раз, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "锤子和镰刀！",
+          "description": "作为PMC，击杀Tagilla 15次"
+        }
+      }
+    },
+    "SawmillKing": {
+      "translations": {
+        "english": {
+          "name": "King of the Sawmill",
+          "description": "Neutralize Shturman 15 times while playing as a PMC"
+        },
+        "russian": {
+          "name": "Царь лесопилки",
+          "description": "Убить Штурмана 15 раз, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "锯木厂之王",
+          "description": "作为PMC，击杀Shturman 15次"
+        }
+      }
+    },
+    "ThisIsATarkovShowdown": {
+      "translations": {
+        "english": {
+          "name": "This is a Tarkov showdown",
+          "description": "Neutralize Reshala 15 times while playing as a PMC"
+        },
+        "russian": {
+          "name": "Это разборка Тарковская",
+          "description": "Убить Решалу 15 раз, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "塔科夫对决",
+          "description": "作为PMC，击杀Reshala 15次"
+        }
+      }
+    },
+    "AnotherVisyak": {
+      "translations": {
+        "english": {
+          "name": "Another Cold Case",
+          "description": "Neutralize Glukhar 15 times while playing as a PMC"
+        },
+        "russian": {
+          "name": "Еще один висяк",
+          "description": "Убить Глухаря 15 раз, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "悬案又起",
+          "description": "作为PMC，击杀Glukhar 15次"
+        }
+      }
+    },
+    "WhoCalledTheDoctor?": {
+      "translations": {
+        "english": {
+          "name": "Who Called the Doctor?",
+          "description": "Neutralize Sanitar 15 times while playing as a PMC"
+        },
+        "russian": {
+          "name": "Кто вызывал доктора?",
+          "description": "Убить Санитара 15 раз, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "谁才是医生？",
+          "description": "作为PMC，击杀Sanitar 15次"
+        }
+      }
+    },
+    "OldSkillsAreNotLost": {
+      "translations": {
+        "english": {
+          "name": "Old Dog With Old tricks",
+          "description": "Neutralize Kaban 15 times while playing as a PMC"
+        },
+        "russian": {
+          "name": "Старые навыки не пропадают",
+          "description": "Убить Кабана 15 раз, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "老谋治老狗",
+          "description": "作为PMC，击杀Kaban 15次"
+        }
+      }
+    },
+    "IHearTheViceOfDarkness": {
+      "translations": {
+        "english": {
+          "name": "I Hear the Voice of Darkness",
+          "description": "Neutralize Knight 15 times while playing as a PMC"
+        },
+        "russian": {
+          "name": "Я слышу голос Тьмы",
+          "description": "Убить Knight 15 раз, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "我听见了黑暗之声",
+          "description": "作为PMC，击杀Knight 15次"
+        }
+      }
+    },
+    "OriginallyFromTheRedBook": {
+      "translations": {
+        "english": {
+          "name": "The Red Book",
+          "description": "Neutralize Birdeye 15 times while playing as a PMC"
+        },
+        "russian": {
+          "name": "Родом из Красной Книги",
+          "description": "Убить Birdeye 15 раз, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "红色之书",
+          "description": "作为PMC，击杀Birdeye 15次"
+        }
+      }
+    },
+    "SmokeThePeacePpe": {
+      "translations": {
+        "english": {
+          "name": "Smoke the Peace Pipe",
+          "description": "Neutralize Big Pipe 15 times while playing as a PMC"
+        },
+        "russian": {
+          "name": "Раскурить трубку мира",
+          "description": "Убить Big Pipe 15 раз, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "和平之烟",
+          "description": "作为PMC，击杀Big Pipe 15次"
+        }
+      }
+    },
+    "ReadyForAnything": {
+      "translations": {
+        "english": {
+          "name": "Ready for Anything",
+          "description": "Survive 10 consecutive raids while playing as a PMC"
+        },
+        "russian": {
+          "name": "Готов ко всему",
+          "description": "Выжить в 10 рейдах подряд, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "从容不迫",
+          "description": "作为PMC，连续幸存10次"
+        }
+      }
+    },
+    "TheKingIsDead-LongLiveTheKing!": {
+      "translations": {
+        "english": {
+          "name": "Long Live the King!",
+          "description": "Neutralize every Boss once while playing as a PMC"
+        },
+        "russian": {
+          "name": "Король умер - да здравствует король!",
+          "description": "Убить всех боссов по одному разу, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "杀戮之王！",
+          "description": "作为PMC，击杀所有Boss"
+        }
+      }
+    },
+    "TrueCrime": {
+      "translations": {
+        "english": {
+          "name": "True Crime",
+          "description": "Neutralize Kollontay 15 times while playing as a PMC"
+        },
+        "russian": {
+          "name": "Улицы и разбитые фонари",
+          "description": "Убить Коллонтая 15 раз, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "屡教不改",
+          "description": "作为PMC，击杀Kollontay 15次"
+        }
+      }
+    },
+    "SamsaraWheelSpinsAgain": {
+      "translations": {
+        "english": {
+          "name": "Samsara Wheel Spins Again",
+          "description": "Neutralize Partisan 15 times while playing as a PMC"
+        },
+        "russian": {
+          "name": "Колесо Сансары",
+          "description": "Убить Партизана 15 раз, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "再入轮回",
+          "description": "作为PMC，击杀Partisan 15次"
+        }
+      }
+    },
+    "Gunsmith_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Jack of All Trades",
+          "description": "Complete all of Gunsmith series tasks"
+        },
+        "russian": {
+          "name": "Мастер на все руки",
+          "description": "Выполнить всю цепочку заданий Оружейник"
+        },
+        "schinese": {
+          "name": "集大成者",
+          "description": "完成枪匠任务线"
+        }
+      }
+    },
+    "AllWheelDrive": {
+      "translations": {
+        "english": {
+          "name": "All-Wheel Drive",
+          "description": "Resolve the issue with the BTR driver one way or another"
+        },
+        "russian": {
+          "name": "Полный привод",
+          "description": "Решить вопрос с мехводом БТР тем или иным способом"
+        },
+        "schinese": {
+          "name": "美“轮”美奂",
+          "description": "解决BTR司机的问题"
+        }
+      }
+    },
+    "AllOnRed": {
+      "translations": {
+        "english": {
+          "name": "All on Red",
+          "description": "Go all in on the BEAR squad beyond the cordon and complete Skier's Profitable Venture task line"
+        },
+        "russian": {
+          "name": "Всё на красное",
+          "description": "Поставить всё на отряд BEAR в Норвинской области и завершить цепочку заданий Лыжника Выгодное предприятие"
+        },
+        "schinese": {
+          "name": "赤红血染",
+          "description": "全力支持封锁线外的BEAR小队，并完成Skier的“利润丰厚的生意”任务线"
+        }
+      }
+    },
+    "StarCalledSun": {
+      "translations": {
+        "english": {
+          "name": "Star Called Sun",
+          "description": "Obliterate a cultist while using the RShG-2 rocket launcher"
+        },
+        "russian": {
+          "name": "Звезда по имени Солнце",
+          "description": "Убить сектанта, используя Гранатомет РШГ-2"
+        },
+        "schinese": {
+          "name": "名为太阳的星星",
+          "description": "使用RShG-2火箭筒消灭一名邪教徒"
+        }
+      }
+    },
+    "Marathon_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Marathon",
+          "description": "Visit all locations in one raid as a PMC"
+        },
+        "russian": {
+          "name": "Марафон",
+          "description": "Посетить все локации за один рейд за ЧВК"
+        },
+        "schinese": {
+          "name": "马拉松",
+          "description": "作为PMC，在一次战局内周游全部地图"
+        }
+      }
+    },
+    "Kappa_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "The Kappa Path",
+          "description": "Obtain Secure container Kappa"
+        },
+        "russian": {
+          "name": "Путь Каппа",
+          "description": "Получить защищенный контейнер Каппа"
+        },
+        "schinese": {
+          "name": "Kappa之路",
+          "description": "获得Kappa安全箱"
+        }
+      }
+    },
+    "MasterOfUltra": {
+      "translations": {
+        "english": {
+          "name": "Master of ULTRA",
+          "description": "Neutralize Killa 100 times while playing as a PMC"
+        },
+        "russian": {
+          "name": "Хозяин Ультры",
+          "description": "Убить Киллу 100 раз, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "ULTRA霸主",
+          "description": "作为PMC，击杀Killa 100次"
+        }
+      }
+    },
+    "Firefly_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Firefly",
+          "description": "Meet Lightkeeper for the first time while playing as a PMC"
+        },
+        "russian": {
+          "name": "Мотылёк",
+          "description": "Впервые добраться до Смотрителя, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "萤火虫",
+          "description": "作为PMC，第一次与Lightkeeper见面"
+        }
+      }
+    },
+    "Snowball_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Snowball",
+          "description": "Neutralize every Boss without dying while playing as a PMC"
+        },
+        "russian": {
+          "name": "Snowball",
+          "description": "Убить всех боссов за одну жизнь, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "滚雪球",
+          "description": "作为PMC，一命击杀所有Boss"
+        }
+      }
+    },
+    "UnderTheFly": {
+      "translations": {
+        "english": {
+          "name": "Drunken Master",
+          "description": "Eliminate a PMC operative with a headshot while under the alcohol effect while playing as a PMC"
+        },
+        "russian": {
+          "name": "Под мухой",
+          "description": "Убить бойца ЧВК в голову, находясь под эффектом алкоголя"
+        },
+        "schinese": {
+          "name": "酒壮人胆",
+          "description": "作为PMC，在受到醉酒效果时击杀PMC干员"
+        }
+      }
+    },
+    "ThatWhatSheSaid": {
+      "translations": {
+        "english": {
+          "name": "That's What She Said",
+          "description": "Search the office in Factory while playing as a PMC"
+        },
+        "russian": {
+          "name": "That's What She Said",
+          "description": "Впервые осмотреть офис на локации Завод, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "断章取义",
+          "description": "作为PMC，搜索工厂内的办公室"
+        }
+      }
+    },
+    "NotInTheEyebrowButInTheEye": {
+      "translations": {
+        "english": {
+          "name": "Now That's a Good Shot",
+          "description": "Neutralize Zryachiy 15 times while playing as a PMC"
+        },
+        "russian": {
+          "name": "Не в бровь, а в глаз",
+          "description": "Убить Зрячего 15 раз, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "中门对狙",
+          "description": "作为PMC，击杀Zryachiy 15次"
+        }
+      }
+    },
+    "BlindFury": {
+      "translations": {
+        "english": {
+          "name": "Blind Fury",
+          "description": "Eliminate any enemy while suffering from the Flash effect while playing as a PMC"
+        },
+        "russian": {
+          "name": "Слепая ярость",
+          "description": "Убить противника, находясь под ослеплением светошумовой гранаты, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "暴怒“盲”",
+          "description": "作为PMC，在受到闪光弹致盲效果时击杀任意敌人"
+        }
+      }
+    },
+    "John'sHeir": {
+      "translations": {
+        "english": {
+          "name": "John's Heir",
+          "description": "Eliminate 4 PMC operatives with a headshot while using a pistol in a single raid while playing as a PMC"
+        },
+        "russian": {
+          "name": "Наследник Джона",
+          "description": "Убить 4 ЧВК в голову за один рейд из пистолета, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "疾速追杀",
+          "description": "作为PMC，在同一战局内使用手枪爆头击杀4个PMC干员"
+        }
+      }
+    },
+    "YouAreNotMyBrother": {
+      "translations": {
+        "english": {
+          "name": "You Are Not My Brother",
+          "description": "Eliminate a Scav while playing as a Scav"
+        },
+        "russian": {
+          "name": "Не брат ты мне...",
+          "description": "Убить Дикого, играя за Дикого"
+        },
+        "schinese": {
+          "name": "坏兄弟",
+          "description": "作为Scav，击杀Scav同伴"
+        }
+      }
+    },
+    "Chris'sHeir": {
+      "translations": {
+        "english": {
+          "name": "Chris's Heir",
+          "description": "Eliminate a PMC operative with a headshot from over 500 meters away while playing as a PMC"
+        },
+        "russian": {
+          "name": "Наследник Криса",
+          "description": "Убить ЧВК в голову с дистанции более 500 метров, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "你就是克里斯",
+          "description": "作为PMC，从500开外爆头击杀PMC干员"
+        }
+      }
+    },
+    "Prestige1_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Prestigious",
+          "description": "Earn the Prestige level 1"
+        },
+        "russian": {
+          "name": "Престиж",
+          "description": "Получить первый уровень Престижа"
+        },
+        "schinese": {
+          "name": "初露锋芒",
+          "description": "抵达转生1级"
+        }
+      }
+    },
+    "Prestige2_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "More Prestigious",
+          "description": "Earn the Prestige level 2"
+        },
+        "russian": {
+          "name": "Престиж",
+          "description": "Получить второй уровень Престижа"
+        },
+        "schinese": {
+          "name": "名震一方",
+          "description": "抵达转生2级"
+        }
+      }
+    },
+    "Prestige3_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Keeping Up the Pace",
+          "description": "Earn the Prestige level 3"
+        },
+        "russian": {
+          "name": "Не сбавляя темп",
+          "description": "Получить третий уровень Престижа"
+        },
+        "schinese": {
+          "name": "步履不停",
+          "description": "抵达转生3级"
+        }
+      }
+    },
+    "Prestige4_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Higher and Higher",
+          "description": "Earn the Prestige level 4"
+        },
+        "russian": {
+          "name": "Всё выше и выше",
+          "description": "Получить четвертый уровень Престижа"
+        },
+        "schinese": {
+          "name": "直抵繁星",
+          "description": "抵达转生4级"
+        }
+      }
+    },
+    "BlindLightkeeper": {
+      "translations": {
+        "english": {
+          "name": "The Blind Watcher",
+          "description": "Neutralize Zryachiy for the first time while playing as a PMC"
+        },
+        "russian": {
+          "name": "Слепой смотритель",
+          "description": "Впервые убить Зрячего, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "蒙眼守望者",
+          "description": "作为PMC，第一次击杀Zryachiy"
+        }
+      }
+    },
+    "KillerOfKillers": {
+      "translations": {
+        "english": {
+          "name": "Killer of Killers",
+          "description": "Eliminate one of the hooded men with their own knife at night time while playing as a PMC"
+        },
+        "russian": {
+          "name": "Убийца убийц",
+          "description": "Убить одного из людей в капюшонах ночью его же ножом, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "自食其“刃”",
+          "description": "作为PMC，使用邪教徒的刀在夜间击杀邪教徒"
+        }
+      }
+    },
+    "Lost_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Lost",
+          "description": "Locate the crashed plane on Woods while playing as a PMC"
+        },
+        "russian": {
+          "name": "Остаться в живых",
+          "description": "Найти остатки самолета на локации Лес, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "迷航无归",
+          "description": "作为PMC，在森林找到坠毁的飞机"
+        }
+      }
+    },
+    "Killer7": {
+      "translations": {
+        "english": {
+          "name": "Killer7",
+          "description": "Eliminate 7 PMC operatives in a single raid while playing as a PMC"
+        },
+        "russian": {
+          "name": "Killer 7",
+          "description": "Убить 7 ЧВК в одном рейде, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "7号杀手",
+          "description": "作为PMC，在同一战局内击杀7个PMC干员"
+        }
+      }
+    },
+    "TheFirstTimeAlwaysHurts": {
+      "translations": {
+        "english": {
+          "name": "First Time Always Hurts",
+          "description": "Survive a raid without the Run-through status for the first time"
+        },
+        "russian": {
+          "name": "Первый раз всегда больно",
+          "description": "Впервые выжить в рейде без статуса "
+        },
+        "schinese": {
+          "name": "初露锋芒",
+          "description": "第一次以幸存（非匆匆逃离）状态成功撤离"
+        }
+      }
+    },
+    "ManOfHisWord": {
+      "translations": {
+        "english": {
+          "name": "Man of His Word",
+          "description": "Complete the task given to you to the end"
+        },
+        "russian": {
+          "name": "Слово мужчины",
+          "description": "Выполнить свою задачу до конца"
+        },
+        "schinese": {
+          "name": "一诺千金",
+          "description": "坚持到底、完成所有交给你的任务"
+        }
+      }
+    },
+    "JustBusiness": {
+      "translations": {
+        "english": {
+          "name": "Just Business",
+          "description": "Double-cross Prapor"
+        },
+        "russian": {
+          "name": "Просто бизнес",
+          "description": "Опрокинуть Прапора"
+        },
+        "schinese": {
+          "name": "在商言商",
+          "description": "背叛Prapor"
+        }
+      }
+    },
+    "Pathfinder_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Pathfinder",
+          "description": "Fully explore Tarkov and its inhabitants"
+        },
+        "russian": {
+          "name": "Прогулка",
+          "description": "Полностью изучить Тарков и его жителей"
+        },
+        "schinese": {
+          "name": "探路者",
+          "description": "全面探索塔科夫，了解其中的各方人物"
+        }
+      }
+    },
+    "Inferno_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Inferno",
+          "description": "Learn everything about the Blue Fire"
+        },
+        "russian": {
+          "name": "Гори!",
+          "description": "Выяснить всё про Синий Огонь"
+        },
+        "schinese": {
+          "name": "烈焰焚身",
+          "description": "了解关于“蓝焰”的全部真相"
+        }
+      }
+    },
+    "TrailOfBreadcrumbs": {
+      "translations": {
+        "english": {
+          "name": "Trail of Breadcrumbs",
+          "description": "Find traces of a mysterious organization in Tarkov"
+        },
+        "russian": {
+          "name": "Дорога из хлебных крошек",
+          "description": "Найти следы загадочной организации в Таркове"
+        },
+        "schinese": {
+          "name": "端倪渐显",
+          "description": "在塔科夫追查神秘组织的线索"
+        }
+      }
+    },
+    "ThroughAnother'sEyes": {
+      "translations": {
+        "english": {
+          "name": "Through Another's Eyes",
+          "description": "Discover what the cultists were really after"
+        },
+        "russian": {
+          "name": "Чужими Глазами",
+          "description": "Узнать, что именно искали сектанты"
+        },
+        "schinese": {
+          "name": "旁观者清",
+          "description": "揭开邪教徒真正的目的"
+        }
+      }
+    },
+    "PayYourDebt": {
+      "translations": {
+        "english": {
+          "name": "Pay Your Debt",
+          "description": "Learn what happened to Kozlov"
+        },
+        "russian": {
+          "name": "Верни долг",
+          "description": "Узнать, что случилось с Козловым"
+        },
+        "schinese": {
+          "name": "欠债就还",
+          "description": "找出科兹洛夫的下落"
+        }
+      }
+    },
+    "Theseus_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Theseus",
+          "description": "Uncover the secret of The Labyrinth"
+        },
+        "russian": {
+          "name": "Тесей",
+          "description": "Раскрыть тайну Лабиринта"
+        },
+        "schinese": {
+          "name": "忒修斯",
+          "description": "揭露“迷宫”的秘密"
+        }
+      }
+    },
+    "ThisIsAllNotCoincidence": {
+      "translations": {
+        "english": {
+          "name": "This Is All (Not) Coincidence",
+          "description": "Find out what happened to a certain BEAR squad"
+        },
+        "russian": {
+          "name": "Это всё (не) случайность",
+          "description": "Узнать, что произошло с отрядом BEAR"
+        },
+        "schinese": {
+          "name": "并非巧合",
+          "description": "调查某支BEAR小队的遭遇"
+        }
+      }
+    },
+    "EnoughOfYourGames": {
+      "translations": {
+        "english": {
+          "name": "Enough of Your Games!",
+          "description": "Refuse to fall for Mr. Kerman's schemes"
+        },
+        "russian": {
+          "name": "Достаточно твоих игр!",
+          "description": "Не пойти на поводу у мистера Кермана"
+        },
+        "schinese": {
+          "name": "别耍花招了！",
+          "description": "拒绝落入Kerman的圈套"
+        }
+      }
+    },
+    "EasyWay": {
+      "translations": {
+        "english": {
+          "name": "Easy Way",
+          "description": "Use the instructions given by TerraGroup. Wonder what could go wrong?"
+        },
+        "russian": {
+          "name": "Лёгкий путь",
+          "description": "Использовать инструкцию от TerraGroup. Что может пойти не так?"
+        },
+        "schinese": {
+          "name": "捷径",
+          "description": "按照TerraGroup的指示行事，能出什么问题呢，对吧？"
+        }
+      }
+    },
+    "U-Turn_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "U-Turn",
+          "description": "Agree to the job only to change your mind after"
+        },
+        "russian": {
+          "name": "Поворот не туда",
+          "description": "Сначала согласиться на дело, но потом передумать"
+        },
+        "schinese": {
+          "name": "U-Turn",
+          "description": "同意接下任务，但马上反悔"
+        }
+      }
+    },
+    "WillItBlow": {
+      "translations": {
+        "english": {
+          "name": "Will It Blow?",
+          "description": "Hand the case with dangerous contents to the wrong people. You clearly had no other choice!"
+        },
+        "russian": {
+          "name": "Рванёт?",
+          "description": "Отдать чемодан с опасным содержимым не в те руки. У тебя просто не было выбора!"
+        },
+        "schinese": {
+          "name": "会爆炸吗？",
+          "description": "把装有危险物品的箱子交给了错误的人，显然你别无选择！"
+        }
+      }
+    },
+    "LittleTriumphs": {
+      "translations": {
+        "english": {
+          "name": "Little Triumphs",
+          "description": "Gather evidence of all of TerraGroup's \"minor\" misdeeds"
+        },
+        "russian": {
+          "name": "Мелочь, а приятно",
+          "description": "Добыть доказательства всех мелких прегрешений TerraGroup"
+        },
+        "schinese": {
+          "name": "微小胜利",
+          "description": "搜集TerraGroup所有“轻微”过失的证据"
+        }
+      }
+    },
+    "IAmSpeed": {
+      "translations": {
+        "english": {
+          "name": "I Am Speed",
+          "description": "Complete Prapor's tasks within three days"
+        },
+        "russian": {
+          "name": "Я скорость",
+          "description": "Уложиться в три дня, выполняя задания Прапора"
+        },
+        "schinese": {
+          "name": "我即速度",
+          "description": "在三天内完成Prapor下达的任务"
+        }
+      }
+    },
+    "BetterServed": {
+      "translations": {
+        "english": {
+          "name": "Better Served",
+          "description": "Refuse to sell TerraGroup technology"
+        },
+        "russian": {
+          "name": "Себе нужнее",
+          "description": "Отказаться от продажи технологий TerraGroup"
+        },
+        "schinese": {
+          "name": "另有他用",
+          "description": "拒绝出卖TerraGroup科技"
+        }
+      }
+    },
+    "WhenTheLightFades": {
+      "translations": {
+        "english": {
+          "name": "When the Light Fades",
+          "description": "Free Tarkov from the priests' eyes"
+        },
+        "russian": {
+          "name": "И свет погас",
+          "description": "Обезопасить Тарков от наблюдения жрецов"
+        },
+        "schinese": {
+          "name": "灯昏人散",
+          "description": "从祭司们的监视中解救塔科夫"
+        }
+      }
+    },
+    "Story1_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Survivor",
+          "description": "Escape from Tarkov no matter the cost"
+        },
+        "russian": {
+          "name": "Выживший",
+          "description": "Сбежать из Таркова во что бы то ни стало"
+        },
+        "schinese": {
+          "name": "幸存者",
+          "description": "逃离塔科夫，不顾一切"
+        }
+      }
+    },
+    "Story2_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Fallen",
+          "description": "Escape from Tarkov only to fall in the darkness"
+        },
+        "russian": {
+          "name": "Падший",
+          "description": "Сбежать из Таркова, чтобы сорваться во тьму"
+        },
+        "schinese": {
+          "name": "陨落之人",
+          "description": "逃离塔科夫，最终堕入黑暗"
+        }
+      }
+    },
+    "Story3_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Debtor",
+          "description": "Escape from Tarkov without ever escaping from yourself"
+        },
+        "russian": {
+          "name": "Должник",
+          "description": "Сбежать из Таркова, так и не убежав от самого себя"
+        },
+        "schinese": {
+          "name": "旧债沉疴",
+          "description": "逃离了塔科夫，但永远没法逃离自己"
+        }
+      }
+    },
+    "Story4_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Savior",
+          "description": "Escape from Tarkov to save the humanity"
+        },
+        "russian": {
+          "name": "Спаситель",
+          "description": "Сбежать из Таркова, чтобы спасти человечество"
+        },
+        "schinese": {
+          "name": "救星",
+          "description": "逃离了塔科夫，同时拯救了全人类"
+        }
+      }
+    },
+    "Prestige5_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "Five Plus",
+          "description": "Earn the Prestige level 5"
+        },
+        "russian": {
+          "name": "На пятёрку",
+          "description": "Получить пятый уровень Престижа"
+        },
+        "schinese": {
+          "name": "5+",
+          "description": "抵达转生5级"
+        }
+      }
+    },
+    "Prestige6_ACHIEVEMENT": {
+      "translations": {
+        "english": {
+          "name": "No Limit To Perfection",
+          "description": "Earn the Prestige level 6"
+        },
+        "russian": {
+          "name": "Нет предела совершенству",
+          "description": "Получить шестой уровень Престижа"
+        },
+        "schinese": {
+          "name": "日臻至善",
+          "description": "抵达转生6级"
+        }
+      }
+    },
+    "CracksInTheIce": {
+      "translations": {
+        "english": {
+          "name": "Cracks in the Ice",
+          "description": "Decrypt the data of The Unheard from the archives aboard the icebreaker \"Boreas\""
+        },
+        "russian": {
+          "name": "Трещины во льду",
+          "description": "Расшифровать данные Неизвестных из архива на ледоколе «Борей»"
+        },
+        "schinese": {
+          "name": "坚冰裂隙",
+          "description": "破解Boreas号破冰船上数据库内保存的“无名者”机密档案"
+        }
+      }
+    },
+    "PartOfTheShipPartOfTheCrew": {
+      "translations": {
+        "english": {
+          "name": "Part of the Ship, Part of the Crew",
+          "description": "Learn all the secrets of the icebreaker \"Boreas\""
+        },
+        "russian": {
+          "name": "Часть корабля, часть команды",
+          "description": "Найти все секреты ледокола «Борей»"
+        },
+        "schinese": {
+          "name": "船之身，船之魂",
+          "description": "搜寻Boreas号破冰船上遗留的所有秘密"
+        }
+      }
+    },
+    "I’monaBoat": {
+      "translations": {
+        "english": {
+          "name": "I’m on a Boat",
+          "description": "Neutralize 4 members of The Wedge's squad while playing as a PMC"
+        },
+        "russian": {
+          "name": "Вбить клин",
+          "description": "Убить 4 бойцов из отряда The Wedge, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "我已登船，感觉良好",
+          "description": "作为PMC，消灭Wedge小队中的4名成员"
+        }
+      }
+    },
+    "WhoDaresWins": {
+      "translations": {
+        "english": {
+          "name": "Who Dares Wins",
+          "description": "Neutralize 60 members of The Wedge's squad while playing as a PMC"
+        },
+        "russian": {
+          "name": "Who Dares Wins",
+          "description": "Убить 60 бойцов из отряда The Wedge, играя за ЧВК"
+        },
+        "schinese": {
+          "name": "无视者胜",
+          "description": "作为PMC，消灭Wedge小队中的60名成员"
+        }
+      }
+    }
+  }
+}

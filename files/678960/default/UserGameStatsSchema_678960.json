@@ -1,0 +1,2085 @@
+{
+  "version": 1,
+  "app_id": "678960",
+  "variant_id": "default",
+  "source_sha256": "4969f863794dbe37d04ae1454617ffff165f7fddc82d4e4c5259e3d344e80a49",
+  "languages": [
+    "brazilian",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "koreana",
+    "russian",
+    "schinese",
+    "spanish",
+    "tchinese"
+  ],
+  "achievements": {
+    "Id01": {
+      "translations": {
+        "brazilian": {
+          "name": "Aparição Notável",
+          "description": "Desbloqueou todas as conquistas"
+        },
+        "english": {
+          "name": "Revenant Preeminent",
+          "description": "Unlocked all other achievements"
+        },
+        "french": {
+          "name": "Éminent revenant",
+          "description": "Tous les autres succès ont été débloqués"
+        },
+        "german": {
+          "name": "Überragender Wiedergänger",
+          "description": "Alle anderen Erfolge freigeschaltet"
+        },
+        "italian": {
+          "name": "Il più illustre tra i redivivi",
+          "description": "Sbloccati tutti gli altri obiettivi"
+        },
+        "japanese": {
+          "name": "伝説のレヴナント",
+          "description": "他のすべての実績を獲得した"
+        },
+        "koreana": {
+          "name": "전설의 레버넌트",
+          "description": "다른 모든 도전과제를 획득했다"
+        },
+        "russian": {
+          "name": "Бессмертный герой",
+          "description": "Получить все остальные достижения."
+        },
+        "schinese": {
+          "name": "传说中的猎人",
+          "description": "获得了所有其他成就"
+        },
+        "spanish": {
+          "name": "Resucitado sublime",
+          "description": "Logros restantes desbloqueados"
+        },
+        "tchinese": {
+          "name": "傳說中的復生者",
+          "description": "獲得此項以外的所有成就"
+        }
+      }
+    },
+    "Id03": {
+      "translations": {
+        "brazilian": {
+          "name": "Acumulador de Dádivas",
+          "description": "Aprenda 150 Dádivas (desconsiderando as aprendidas ao adquirir um código de sangue)"
+        },
+        "english": {
+          "name": "Gift Gatherer",
+          "description": "Learn 150 Gifts (excluding those learned when acquiring a blood code)"
+        },
+        "french": {
+          "name": "Récolteur de Dons",
+          "description": "Apprendre 150 Dons (Dons appris suite à l'acquisition d'un code sanguin exclus)"
+        },
+        "german": {
+          "name": "Talentesammler",
+          "description": "Erlerne 150 Talente (außer denen, die durch Erwerb eines Blutcodes erlernt worden sind)"
+        },
+        "italian": {
+          "name": "Accumulatore di doni",
+          "description": "Apprendi 150 doni (esclusi quelli appresi quando si acquisisce un codice sanguigno)"
+        },
+        "japanese": {
+          "name": "錬血マスター",
+          "description": "錬血を150個覚えた（ブラッドコード入手時に開放済は除く）"
+        },
+        "koreana": {
+          "name": "연혈 마스터",
+          "description": "연혈을 150개 기억했다(블러드 코드 입수 시 이미 개방된 것은 제외)"
+        },
+        "russian": {
+          "name": "Сборщик даров",
+          "description": "Получить 150 даров (кроме тех, которые даются с кодом крови)."
+        },
+        "schinese": {
+          "name": "炼血收集者",
+          "description": "习得150种炼血（不含获得血码时自动习得的）"
+        },
+        "spanish": {
+          "name": "Recolector de dones",
+          "description": "Aprende 150 dones (excepto los aprendidos al adquirir un código de sangre)"
+        },
+        "tchinese": {
+          "name": "鍊血專家",
+          "description": "學會150種鍊血（不含取得血碼時，已開放使用的鍊血）"
+        }
+      }
+    },
+    "Id04": {
+      "translations": {
+        "brazilian": {
+          "name": "Árbitro do Destino",
+          "description": "Veja todos os finais"
+        },
+        "english": {
+          "name": "Determiner of Fate",
+          "description": "View every ending"
+        },
+        "french": {
+          "name": "Maître du destin",
+          "description": "Regarder toutes les fins"
+        },
+        "german": {
+          "name": "Schicksalsentscheider",
+          "description": "Schau dir jedes Ende an"
+        },
+        "italian": {
+          "name": "Scegliere il destino",
+          "description": "Assisti a ogni finale"
+        },
+        "japanese": {
+          "name": "未来の選択を",
+          "description": "すべてのエンディングを見た"
+        },
+        "koreana": {
+          "name": "미래의 선택을",
+          "description": "모든 엔딩을 봤다"
+        },
+        "russian": {
+          "name": "Вершитель судеб",
+          "description": "Посмотреть все концовки."
+        },
+        "schinese": {
+          "name": "命运抉择者",
+          "description": "观看了所有结局"
+        },
+        "spanish": {
+          "name": "Determinante del Destino",
+          "description": "Ve todos los finales"
+        },
+        "tchinese": {
+          "name": "未來的選擇",
+          "description": "看過全部的結局"
+        }
+      }
+    },
+    "Id44": {
+      "translations": {
+        "brazilian": {
+          "name": "Reparando Mentes",
+          "description": "Restaure todos os Vestígios"
+        },
+        "english": {
+          "name": "Mender of Minds",
+          "description": "Restore all Vestiges"
+        },
+        "french": {
+          "name": "Réparateur d'esprits",
+          "description": "Restaurer tous les vestiges"
+        },
+        "german": {
+          "name": "Geistgesundung",
+          "description": "Stelle alle Überreste wieder her"
+        },
+        "italian": {
+          "name": "Rammendatore di menti",
+          "description": "Ripristina tutti i Vestigi"
+        },
+        "japanese": {
+          "name": "心の修復",
+          "description": "全ての血英を修復した"
+        },
+        "koreana": {
+          "name": "마음의 수복",
+          "description": "모든 혈영을 수복했다"
+        },
+        "russian": {
+          "name": "Властитель дум",
+          "description": "Восстановить все осколки."
+        },
+        "schinese": {
+          "name": "心之修复者",
+          "description": "修复了所有血英遗骸"
+        },
+        "spanish": {
+          "name": "Reparador de mentes",
+          "description": "Restablece todos los Vestigios"
+        },
+        "tchinese": {
+          "name": "修復心靈",
+          "description": "將所有的血英修復完成"
+        }
+      }
+    },
+    "Id05": {
+      "translations": {
+        "brazilian": {
+          "name": "Desbravador Profundo",
+          "description": "Explore todos os cantos das profundezas"
+        },
+        "english": {
+          "name": "Deep Trailblazer",
+          "description": "Explore every part of the depths"
+        },
+        "french": {
+          "name": "Pionnier de l'abîme",
+          "description": "Explorer l'intégralité des profondeurs"
+        },
+        "german": {
+          "name": "Bahnbrecher mit Tiefgang",
+          "description": "Erkunde jeden Teil der Tiefen"
+        },
+        "italian": {
+          "name": "Pioniere delle profondità",
+          "description": "Esplora ogni parte delle profondità"
+        },
+        "japanese": {
+          "name": "深層の探求者",
+          "description": "すべての深層を探索した"
+        },
+        "koreana": {
+          "name": "심층의 탐구자",
+          "description": "모든 심층을 탐색했다"
+        },
+        "russian": {
+          "name": "Первопроходец",
+          "description": "Исследовать глубины полностью."
+        },
+        "schinese": {
+          "name": "深渊探路者",
+          "description": "探索了深渊的每个角落"
+        },
+        "spanish": {
+          "name": "Explorador profundo",
+          "description": "Explora cada zona de las profundidades"
+        },
+        "tchinese": {
+          "name": "深層研究者",
+          "description": "探索過所有深層"
+        }
+      }
+    },
+    "Id06": {
+      "translations": {
+        "brazilian": {
+          "name": "Gerente de Miasma",
+          "description": "Ative todos os viscos"
+        },
+        "english": {
+          "name": "Miasma Manager",
+          "description": "Activate all mistles"
+        },
+        "french": {
+          "name": "Purification du miasme",
+          "description": "Activer toutes les pousses"
+        },
+        "german": {
+          "name": "Miasma-Manager",
+          "description": "Aktiviere alle Misteln"
+        },
+        "italian": {
+          "name": "Gestore del miasma",
+          "description": "Attiva tutti i vischi"
+        },
+        "japanese": {
+          "name": "瘴気を払う者",
+          "description": "全てのヤドリギを活性化させた"
+        },
+        "koreana": {
+          "name": "독기를 제거하는 자",
+          "description": "모든 겨우살이를 활성화했다"
+        },
+        "russian": {
+          "name": "Борец с миазмами",
+          "description": "Оживить все ростки омелы."
+        },
+        "schinese": {
+          "name": "槲寄生管理者",
+          "description": "激活了所有槲寄生"
+        },
+        "spanish": {
+          "name": "Gestor de miasma",
+          "description": "Activa todos los muérdagos"
+        },
+        "tchinese": {
+          "name": "驅散瘴氣者",
+          "description": "活化所有的槲寄生"
+        }
+      }
+    },
+    "Id07": {
+      "translations": {
+        "brazilian": {
+          "name": "Unidos Até o Esquecimento",
+          "description": "Escute 50 conversas de seus parceiros enquanto estiver explorando"
+        },
+        "english": {
+          "name": "Together Until Oblivion",
+          "description": "Listen to partner conversations 50 times while exploring"
+        },
+        "french": {
+          "name": "Ensemble contre vents et marées",
+          "description": "Écouter les conversations de vos partenaires 50 fois lors de vos explorations"
+        },
+        "german": {
+          "name": "Bis zur Vergessenheit zusammen",
+          "description": "Höre den Gesprächen deiner Partner 50 Mal zu, während ihr erkundet"
+        },
+        "italian": {
+          "name": "Insieme fino all'oblio",
+          "description": "Ascolta le conversazioni dei compagni 50 volte mentre esplori"
+        },
+        "japanese": {
+          "name": "共に死地へ",
+          "description": "探索中に同行者の会話を50回聞いた"
+        },
+        "koreana": {
+          "name": "함께 사지로",
+          "description": "탐색 중에 동행자의 회화를 50번 들었다"
+        },
+        "russian": {
+          "name": "Не разлей вода",
+          "description": "Поговорить с напарниками во время путешествий 50 раз."
+        },
+        "schinese": {
+          "name": "相伴至忘却",
+          "description": "探索中聆听搭档对话50次"
+        },
+        "spanish": {
+          "name": "Juntos hasta el olvido",
+          "description": "Escucha las conversaciones de tus compañeros 50 veces mientras exploras"
+        },
+        "tchinese": {
+          "name": "共赴死地",
+          "description": "在探索中，聽過50次同行者的對話"
+        }
+      }
+    },
+    "Id08": {
+      "translations": {
+        "brazilian": {
+          "name": "Devoção Comprovada",
+          "description": "Receba 30 presentes de amigos"
+        },
+        "english": {
+          "name": "Proven Devotion",
+          "description": "Receive 30 presents from friends"
+        },
+        "french": {
+          "name": "Solidarité",
+          "description": "Recevoir 30 cadeaux de la part de vos amis"
+        },
+        "german": {
+          "name": "Bewiesene Hingabe",
+          "description": "Erhalte 30 Geschenke von Freunden"
+        },
+        "italian": {
+          "name": "Devozione lampante",
+          "description": "Ricevi 30 regali dagli amici"
+        },
+        "japanese": {
+          "name": "親愛の証",
+          "description": "仲間からプレゼントを30個貰った"
+        },
+        "koreana": {
+          "name": "친애의 증거",
+          "description": "동료에게 선물을 30개 받았다"
+        },
+        "russian": {
+          "name": "Знак преданности",
+          "description": "Получить 30 подарков от друзей."
+        },
+        "schinese": {
+          "name": "爱的证明",
+          "description": "收到伙伴赠送的礼物30次"
+        },
+        "spanish": {
+          "name": "Devoción demostrada",
+          "description": "Recibe 30 regalos de amigos"
+        },
+        "tchinese": {
+          "name": "親暱的證明",
+          "description": "收到同伴送的30個禮物"
+        }
+      }
+    },
+    "Id09": {
+      "translations": {
+        "brazilian": {
+          "name": "Reputação Inflada",
+          "description": "Eleve sua reputação como companheiro ao rank 30"
+        },
+        "english": {
+          "name": "Exalted Reputation",
+          "description": "Raise your reputation as a companion to rank 30"
+        },
+        "french": {
+          "name": "Réputation consolidée",
+          "description": "Atteindre une réputation de compagnon de rang 30"
+        },
+        "german": {
+          "name": "Glänzender Ruf",
+          "description": "Verbessere deinen Ruf als Begleiter auf Rang 30"
+        },
+        "italian": {
+          "name": "Osannato",
+          "description": "Porta la tua reputazione come compagno al grado 30"
+        },
+        "japanese": {
+          "name": "轟く名声",
+          "description": "褒賞「共闘者の勇名」をランク30にした"
+        },
+        "koreana": {
+          "name": "널리 퍼지는 명성",
+          "description": "포상 「협력자의 명성」을 랭크 30으로 만들었다"
+        },
+        "russian": {
+          "name": "Безупречная репутация",
+          "description": "Улучшить свою репутацию как напарника до 30-го ранга."
+        },
+        "schinese": {
+          "name": "无可替代的存在",
+          "description": "与搭档的亲密度达到最大"
+        },
+        "spanish": {
+          "name": "Reputación elevada",
+          "description": "Aumenta tu reputación como acompañante hasta el rango 30"
+        },
+        "tchinese": {
+          "name": "高名顯赫",
+          "description": "「共戰者的英名」的獎賞級別到達30"
+        }
+      }
+    },
+    "Id10": {
+      "translations": {
+        "brazilian": {
+          "name": "Espírito Ardente",
+          "description": "Desbloqueie a capacidade para herdar 50 Dádivas"
+        },
+        "english": {
+          "name": "Burning Spirit",
+          "description": "Unlock the ability to inherit 50 Gifts"
+        },
+        "french": {
+          "name": "Sang ardent",
+          "description": "Déverrouiller la possibilité d'hériter de 50 Dons"
+        },
+        "german": {
+          "name": "Beherzt und behände",
+          "description": "Schalte die Fähigkeit frei, 50 Talente zu übernehmen"
+        },
+        "italian": {
+          "name": "Spirito bruciante",
+          "description": "Sblocca la possibilità di ereditare 50 doni"
+        },
+        "japanese": {
+          "name": "沸き立つ意志",
+          "description": "50個の錬血の継承能力を解放した"
+        },
+        "koreana": {
+          "name": "끓어오르는 의지",
+          "description": "연혈 50개의 계승 능력을 해방했다"
+        },
+        "russian": {
+          "name": "Боевой дух",
+          "description": "Разблокировать возможность унаследовать 50 даров."
+        },
+        "schinese": {
+          "name": "突破极限",
+          "description": "解锁了额外的增幅器槽位（获得继承50种炼血的能力）"
+        },
+        "spanish": {
+          "name": "Espíritu abrasador",
+          "description": "Desbloquea la habilidad de heredar 50 dones"
+        },
+        "tchinese": {
+          "name": "沸騰的意志",
+          "description": "解鎖50個鍊血的繼承能力"
+        }
+      }
+    },
+    "Id11": {
+      "translations": {
+        "brazilian": {
+          "name": "Uma Arma para Cada Ocasião",
+          "description": "Equipe todos os tipos de arma"
+        },
+        "english": {
+          "name": "A Weapon for Every Season",
+          "description": "Equip every weapon type"
+        },
+        "french": {
+          "name": "Arsenal complet",
+          "description": "S'équiper de tous les types d'armes"
+        },
+        "german": {
+          "name": "Eine Waffe für jede Gelegenheit",
+          "description": "Rüste jeden Waffentyp aus"
+        },
+        "italian": {
+          "name": "Un'arma per ogni evenienza",
+          "description": "Equipaggia ogni tipo di arma"
+        },
+        "japanese": {
+          "name": "広がる戦術",
+          "description": "すべての種類の武器を装備した"
+        },
+        "koreana": {
+          "name": "넓어진 전술",
+          "description": "모든 종류의 무기를 장비했다"
+        },
+        "russian": {
+          "name": "На все случаи жизни",
+          "description": "Применить в бою все виды оружия."
+        },
+        "schinese": {
+          "name": "武器大师",
+          "description": "装备过所有类型的武器"
+        },
+        "spanish": {
+          "name": "Un arma para cada estación",
+          "description": "Equípate con cada tipo de arma"
+        },
+        "tchinese": {
+          "name": "多元戰術",
+          "description": "裝備過所有種類的武器"
+        }
+      }
+    },
+    "Id12": {
+      "translations": {
+        "brazilian": {
+          "name": "Requisitos das Aparições",
+          "description": "Equipe todos os tipos de Véu de Sangue"
+        },
+        "english": {
+          "name": "Revenant Requisites",
+          "description": "Equip every Blood Veil type"
+        },
+        "french": {
+          "name": "Toutes voiles dehors",
+          "description": "S'équiper de tous les types de voiles de sang"
+        },
+        "german": {
+          "name": "Wiedergänger-Werkzeuge",
+          "description": "Rüste jeden Typ von Blutschleier aus"
+        },
+        "italian": {
+          "name": "Articoli da redivivo",
+          "description": "Equipaggia ogni tipo di Velo di sangue"
+        },
+        "japanese": {
+          "name": "吸血鬼の必需品",
+          "description": "すべての種類の吸血牙装を装備した"
+        },
+        "koreana": {
+          "name": "흡혈귀의 필수품",
+          "description": "모든 종류의 흡혈아장을 장비했다"
+        },
+        "russian": {
+          "name": "Лучшая подруга бессмертного",
+          "description": "Применить в бою все виды кровавой вуали."
+        },
+        "schinese": {
+          "name": "牙装收集者",
+          "description": "装备过所有种类的牙装"
+        },
+        "spanish": {
+          "name": "Requisitos de resucitado",
+          "description": "Equípate con cada tipo de velo de sangre"
+        },
+        "tchinese": {
+          "name": "吸血鬼的必需品",
+          "description": "裝備過所有種類的吸血牙裝"
+        }
+      }
+    },
+    "Id13": {
+      "translations": {
+        "brazilian": {
+          "name": "Tecelão do Arbítrio",
+          "description": "Obtenha todos os códigos de sangue"
+        },
+        "english": {
+          "name": "Weaver of Wills",
+          "description": "Collect every blood code"
+        },
+        "french": {
+          "name": "Codificateur",
+          "description": "Obtenir tous les codes sanguins"
+        },
+        "german": {
+          "name": "Willensweber",
+          "description": "Sammle jeden Blutcode"
+        },
+        "italian": {
+          "name": "Accumulare eredità",
+          "description": "Ottieni tutti i codici sanguigni"
+        },
+        "japanese": {
+          "name": "意志を紡ぐ者",
+          "description": "ブラッドコードをすべて獲得した"
+        },
+        "koreana": {
+          "name": "의지를 엮는 자",
+          "description": "블러드 코드를 전부 획득했다"
+        },
+        "russian": {
+          "name": "Неразрывная связь",
+          "description": "Собрать все коды крови."
+        },
+        "schinese": {
+          "name": "托付一切",
+          "description": "获得了最高等级的血码"
+        },
+        "spanish": {
+          "name": "Tejedor de voluntades",
+          "description": "Consigue cada código de sangre"
+        },
+        "tchinese": {
+          "name": "交織意志者",
+          "description": "獲得所有的血碼"
+        }
+      }
+    },
+    "Id14": {
+      "translations": {
+        "brazilian": {
+          "name": "Iluminação",
+          "description": "Aprenda 50 Dádivas (desconsiderando as aprendidas ao adquirir um código de sangue)"
+        },
+        "english": {
+          "name": "Gifted",
+          "description": "Learn 50 Gifts (excluding those learned when acquiring a blood code)"
+        },
+        "french": {
+          "name": "Dons à foison",
+          "description": "Apprendre 50 Dons (Dons appris suite à l'acquisition d'un code sanguin exclus)"
+        },
+        "german": {
+          "name": "Talentiert",
+          "description": "Erlerne 50 Talente (außer denen, die durch Erwerb eines Blutcodes erlernt worden sind)"
+        },
+        "italian": {
+          "name": "Talentuoso",
+          "description": "Apprendi 50 doni (esclusi quelli appresi quando si acquisisce un codice sanguigno)"
+        },
+        "japanese": {
+          "name": "錬血コレクター",
+          "description": "錬血を50個覚えた（ブラッドコード入手時に開放済は除く）"
+        },
+        "koreana": {
+          "name": "연혈 컬렉터",
+          "description": "연혈을 50개 기억했다(블러드 코드 입수 시 이미 개방된 것은 제외)"
+        },
+        "russian": {
+          "name": "Одарённость",
+          "description": "Получить 50 даров (кроме тех, которые даются с кодом крови)."
+        },
+        "schinese": {
+          "name": "炼血学徒",
+          "description": "习得50种炼血（不含获得血码时自动习得的）"
+        },
+        "spanish": {
+          "name": "Hábil",
+          "description": "Aprende 50 dones (excepto los aprendidos al adquirir un código de sangre)"
+        },
+        "tchinese": {
+          "name": "鍊血收集者",
+          "description": "學會50種鍊血（不含取得血碼時，已開放使用的鍊血）"
+        }
+      }
+    },
+    "Id15": {
+      "translations": {
+        "brazilian": {
+          "name": "Armamento Supremo",
+          "description": "Aprimore uma arma até o nível máximo"
+        },
+        "english": {
+          "name": "Ultimate Armament",
+          "description": "Upgrade a weapon to its maximum level"
+        },
+        "french": {
+          "name": "Armement suprême",
+          "description": "Améliorer une arme jusqu'au niveau maximal"
+        },
+        "german": {
+          "name": "Ultimative Ausrüstung",
+          "description": "Werte eine Waffe auf Maximalstufe auf"
+        },
+        "italian": {
+          "name": "Armamento supremo",
+          "description": "Migliora un'arma fino al massimo livello"
+        },
+        "japanese": {
+          "name": "武器の極みへ",
+          "description": "いずれかの武器を最大まで強化した"
+        },
+        "koreana": {
+          "name": "무기의 한계치에",
+          "description": "무기 하나를 최대까지 강화했다 "
+        },
+        "russian": {
+          "name": "Лучшее из возможного",
+          "description": "Улучшить оружие до максимального уровня."
+        },
+        "schinese": {
+          "name": "沉默的挚友",
+          "description": "将武器强化到极限"
+        },
+        "spanish": {
+          "name": "Armamento máximo",
+          "description": "Mejora un arma a su nivel máximo"
+        },
+        "tchinese": {
+          "name": "邁向武器的顛峰",
+          "description": "將任一武器強化到最高等級"
+        }
+      }
+    },
+    "Id16": {
+      "translations": {
+        "brazilian": {
+          "name": "Véu Inquebrável",
+          "description": "Aprimore um Véu de Sangue até o nível máximo"
+        },
+        "english": {
+          "name": "Unbreakable Veil",
+          "description": "Upgrade a Blood Veil to its maximum level"
+        },
+        "french": {
+          "name": "Voile indestructible",
+          "description": "Améliorer un voile de sang jusqu'au niveau maximal"
+        },
+        "german": {
+          "name": "Unbezwingbarer Schleier",
+          "description": "Werte einen Blutschleier auf Maximalstufe auf"
+        },
+        "italian": {
+          "name": "Velo infrangibile",
+          "description": "Migliora un Velo di sangue fino al massimo livello"
+        },
+        "japanese": {
+          "name": "吸血牙装の極みへ",
+          "description": "いずれかの吸血牙装を最大まで強化した"
+        },
+        "koreana": {
+          "name": "흡혈아장의 한계치에",
+          "description": "흡혈아장 하나를 최대까지 강화했다"
+        },
+        "russian": {
+          "name": "Сверхпрочная вуаль",
+          "description": "Улучшить кровавую вуаль до максимального уровня."
+        },
+        "schinese": {
+          "name": "噬鬼者",
+          "description": "将牙装强化到极限"
+        },
+        "spanish": {
+          "name": "Velo inquebrantable",
+          "description": "Mejora un velo de sangre a su nivel máximo"
+        },
+        "tchinese": {
+          "name": "邁向吸血牙裝的顛峰",
+          "description": "將任一吸血牙裝強化到最高等級"
+        }
+      }
+    },
+    "Id38": {
+      "translations": {
+        "brazilian": {
+          "name": "Memórias de Io",
+          "description": "Veja os ecos de memória de Io"
+        },
+        "english": {
+          "name": "Io's Memories",
+          "description": "View Io's memory echoes"
+        },
+        "french": {
+          "name": "Souvenirs d'Io",
+          "description": "Regarder les échos mnésiques d'Io"
+        },
+        "german": {
+          "name": "Ios Erinnerungen",
+          "description": "Schau dir Ios Erinnerungs-Echos an"
+        },
+        "italian": {
+          "name": "I ricordi di Io",
+          "description": "Assisti agli echi mnemonici di Io"
+        },
+        "japanese": {
+          "name": "イオの記憶",
+          "description": "イオの記憶の残滓を見た"
+        },
+        "koreana": {
+          "name": "이오의 기억",
+          "description": "이오의 기억의 잔재를 봤다"
+        },
+        "russian": {
+          "name": "Воспоминания Ио",
+          "description": "Посмотреть отголоски памяти Ио."
+        },
+        "schinese": {
+          "name": "伊欧的记忆",
+          "description": "观看了伊欧的记忆残影"
+        },
+        "spanish": {
+          "name": "Recuerdos de Io",
+          "description": "Ve los ecos de memoria de Io"
+        },
+        "tchinese": {
+          "name": "伊奧的記憶",
+          "description": "看過伊奧的記憶殘渣"
+        }
+      }
+    },
+    "Id17": {
+      "translations": {
+        "brazilian": {
+          "name": "Ganhando a Confiança",
+          "description": "Dê um item de valor cobiçado a um amigo"
+        },
+        "english": {
+          "name": "Building Trust",
+          "description": "Give a desired valuable to a friend"
+        },
+        "french": {
+          "name": "Prévenance",
+          "description": "Donner à un ami un reliquat qu'il désire"
+        },
+        "german": {
+          "name": "Vertrauen aufbauen",
+          "description": "Gib einem Freund eine erwünschte Kostbarkeit"
+        },
+        "italian": {
+          "name": "Instaurare fiducia",
+          "description": "Dona a un amico un oggetto di valore che desidera"
+        },
+        "japanese": {
+          "name": "深まる絆",
+          "description": "いずれかの仲間に好みの嗜好品を渡した"
+        },
+        "koreana": {
+          "name": "깊어지는 인연",
+          "description": "동료 한명에게 좋아하는 물품을 전달했다"
+        },
+        "russian": {
+          "name": "Дружеский подарок",
+          "description": "Подарить другу ценный предмет, который ему необходим."
+        },
+        "schinese": {
+          "name": "建立信赖",
+          "description": "送给伙伴一件想要的宝物"
+        },
+        "spanish": {
+          "name": "Ganando confianza",
+          "description": "Dale un objeto valioso a un amigo"
+        },
+        "tchinese": {
+          "name": "加深的羈絆",
+          "description": "送出任一同伴喜歡的調劑品"
+        }
+      }
+    },
+    "Id18": {
+      "translations": {
+        "brazilian": {
+          "name": "Cavaleiro da Rainha",
+          "description": "Derrote o Cavaleiro da Rainha em sua memória"
+        },
+        "english": {
+          "name": "Queen's Knight",
+          "description": "Defeat the Queen's Knight within your memory"
+        },
+        "french": {
+          "name": "Chevalier de la Reine",
+          "description": "Vaincre le Chevalier de la Reine depuis vos souvenirs"
+        },
+        "german": {
+          "name": "Ritter der Königin",
+          "description": "Besiege den Ritter der Königin in deiner Erinnerung"
+        },
+        "italian": {
+          "name": "Cavaliere della Regina",
+          "description": "Sconfiggi il Cavaliere della Regina all'interno del tuo ricordo"
+        },
+        "japanese": {
+          "name": "女王の騎士",
+          "description": "自らの記憶の中で、ボス「女王の騎士」を撃破した"
+        },
+        "koreana": {
+          "name": "여왕의 기사",
+          "description": "자신의 기억 속에서, 보스 「여왕의 기사」를 격파했다"
+        },
+        "russian": {
+          "name": "Рыцарь Королевы",
+          "description": "Победить рыцаря Королевы в своих воспоминаниях."
+        },
+        "schinese": {
+          "name": "女王骑士",
+          "description": "在记忆中击败了女王骑士"
+        },
+        "spanish": {
+          "name": "Caballero de la Reina",
+          "description": "Vence al Caballero de la Reina en tus recuerdos"
+        },
+        "tchinese": {
+          "name": "女王騎士",
+          "description": "打敗自己記憶中的頭目「女王騎士」"
+        }
+      }
+    },
+    "Id19": {
+      "translations": {
+        "brazilian": {
+          "name": "Cavaleiro da Rainha Renascido",
+          "description": "Derrote o Cavaleiro da Rainha Renascido nos subúrbios do governo provisório"
+        },
+        "english": {
+          "name": "Queen's Knight Reborn",
+          "description": "Defeat the Queen's Knight Reborn in the provisional government outskirts"
+        },
+        "french": {
+          "name": "Chevalier de la Reine ressuscité",
+          "description": "Vaincre le Chevalier de la Reine ressuscité dans la Périphérie du gouvernement provisoire"
+        },
+        "german": {
+          "name": "Wiedergeborener Ritter der Königin",
+          "description": "Besiege den wiedergeborenen Ritter der Königin in der Vorstadt der Übergangsregierung"
+        },
+        "italian": {
+          "name": "Cavaliere della Regina rinato",
+          "description": "Sconfiggi il Cavaliere della Regina rinato presso la Periferia del governo provvisorio"
+        },
+        "japanese": {
+          "name": "女王の騎士・再臨",
+          "description": "臨時総督府 外部のボス「女王の騎士・再臨」を撃破した"
+        },
+        "koreana": {
+          "name": "여왕의 기사・재림",
+          "description": "임시총독부 외부의 보스 「여왕의 기사・재림」을 격파했다"
+        },
+        "russian": {
+          "name": "Возрождённый рыцарь Королевы",
+          "description": "Победить возрождённого рыцаря Королевы в окрестностях штаба."
+        },
+        "schinese": {
+          "name": "女王骑士再临",
+          "description": "在临时政府郊外击败了再生的女王骑士"
+        },
+        "spanish": {
+          "name": "Caballero de la Reina renacido",
+          "description": "Vence al Caballero de la Reina renacido en las afueras del gobierno provisional"
+        },
+        "tchinese": {
+          "name": "女王騎士・再現",
+          "description": "打敗在「臨時政府　外側」的頭目「女王騎士・再現」"
+        }
+      }
+    },
+    "Id20": {
+      "translations": {
+        "brazilian": {
+          "name": "Oliver Collins",
+          "description": "Derrote Oliver Collins no Subsolo da Cidade em Ruínas"
+        },
+        "english": {
+          "name": "Oliver Collins",
+          "description": "Defeat Oliver Collins in the ruined city underground"
+        },
+        "french": {
+          "name": "Oliver Collins",
+          "description": "Vaincre Oliver Collins dans les Catacombes de la ville fantôme"
+        },
+        "german": {
+          "name": "Oliver Collins",
+          "description": "Besiege Oliver Collins im Untergrund der Ruinen der Stadt"
+        },
+        "italian": {
+          "name": "Oliver Collins",
+          "description": "Sconfiggi Oliver Collins presso i Sotterranei della città in rovina"
+        },
+        "japanese": {
+          "name": "オリバー・コリンズ",
+          "description": "崩壊都市 地下区域のボス「オリバー・コリンズ」を撃破した"
+        },
+        "koreana": {
+          "name": "올리버 콜린스",
+          "description": "붕괴도시 지하 구역의 보스 「올리버 콜린스」를 격파했다"
+        },
+        "russian": {
+          "name": "Оливер Коллинз",
+          "description": "Победить Оливера Коллинза в катакомбах."
+        },
+        "schinese": {
+          "name": "挚友的遗志",
+          "description": "击败了失去自我的袭击者奥利弗·柯林斯"
+        },
+        "spanish": {
+          "name": "Oliver Collins",
+          "description": "Vence a Oliver Collins en la Región Subterránea en Ruinas"
+        },
+        "tchinese": {
+          "name": "奧利佛・克林斯",
+          "description": "打敗在「崩毀都市　地底區」的頭目「奧利佛・克林斯」"
+        }
+      }
+    },
+    "Id21": {
+      "translations": {
+        "brazilian": {
+          "name": "Déspota Insaciável",
+          "description": "Derrote o Déspota Insaciável nas Trincheiras Secas"
+        },
+        "english": {
+          "name": "Insatiable Despot",
+          "description": "Defeat the Insatiable Despot in the dried-up trenches"
+        },
+        "french": {
+          "name": "Despote insatiable",
+          "description": "Vaincre le Despote insatiable dans la Fosse émergée"
+        },
+        "german": {
+          "name": "Unersättlicher Despot",
+          "description": "Besiege den unersättlichen Despoten in den ausgetrockneten Gräben"
+        },
+        "italian": {
+          "name": "Despota insaziabile",
+          "description": "Sconfiggi il Despota insaziabile presso le Trincee rinsecchite"
+        },
+        "japanese": {
+          "name": "渇求の暴君",
+          "description": "干上がった海溝のボス「渇求の暴君」を撃破した"
+        },
+        "koreana": {
+          "name": "갈구하는 폭군",
+          "description": "말라붙은 해구의 보스 「갈구하는 폭군」을 격파했다"
+        },
+        "russian": {
+          "name": "Ненасытный тиран",
+          "description": "Победить ненасытного тирана в высохших желобах."
+        },
+        "schinese": {
+          "name": "干渴之王",
+          "description": "在干枯战壕击败了饥渴暴君"
+        },
+        "spanish": {
+          "name": "Déspota Insaciable",
+          "description": "Vence al Déspota Insaciable en las Fosas Secas"
+        },
+        "tchinese": {
+          "name": "強欲暴君",
+          "description": "打敗在「乾涸海溝」的頭目「強欲暴君」"
+        }
+      }
+    },
+    "Id22": {
+      "translations": {
+        "brazilian": {
+          "name": "Borboleta do Delírio",
+          "description": "Derrote a Borboleta do Delírio no Centro da Cidade em Ruínas"
+        },
+        "english": {
+          "name": "Butterfly of Delirium",
+          "description": "Defeat the Butterfly of Delirium in the ruined city center"
+        },
+        "french": {
+          "name": "Papillon du délirium",
+          "description": "Vaincre le Papillon du délirium dans le Centre de la ville fantôme"
+        },
+        "german": {
+          "name": "Schmetterling des Deliriums",
+          "description": "Besiege den Schmetterling des Deliriums im Zentrum der Ruinen der Stadt"
+        },
+        "italian": {
+          "name": "Farfalla del delirio",
+          "description": "Sconfiggi la Farfalla del delirio presso il Centro città in rovina"
+        },
+        "japanese": {
+          "name": "狂い咲く毒蝶",
+          "description": "崩壊都市 市街地のボス「狂い咲く毒蝶」を撃破した"
+        },
+        "koreana": {
+          "name": "만개하는 독나비",
+          "description": "붕괴도시 시가지의 보스 「만개하는 독나비」를 격파했다"
+        },
+        "russian": {
+          "name": "Исступлённая бабочка",
+          "description": "Победить исступлённую бабочку в центре разрушенного города."
+        },
+        "schinese": {
+          "name": "狂乱之蝶",
+          "description": "在废墟都市中心击败了狂乱蝴蝶"
+        },
+        "spanish": {
+          "name": "Mariposa del Delirio",
+          "description": "Vence a la Mariposa del Delirio en el Centro en Ruinas"
+        },
+        "tchinese": {
+          "name": "狂襲毒蝶",
+          "description": "打敗在「崩毀都市　街區」的頭目「狂襲毒蝶」"
+        }
+      }
+    },
+    "Id23": {
+      "translations": {
+        "brazilian": {
+          "name": "Algoz Invasora",
+          "description": "Derrote a Algoz Invasora no Poço Uivante"
+        },
+        "english": {
+          "name": "Invading Executioner",
+          "description": "Defeat the Invading Executioner in the Howling Pit"
+        },
+        "french": {
+          "name": "Exécutrice",
+          "description": "Vaincre l'Exécutrice dans le Gouffre hurlant"
+        },
+        "german": {
+          "name": "Eindringende Henkerin",
+          "description": "Besiege die eindringende Henkerin in der Heulenden Grube"
+        },
+        "italian": {
+          "name": "Boia invasore",
+          "description": "Sconfiggi il Boia invasore presso la Fossa ululante"
+        },
+        "japanese": {
+          "name": "浸潤の処刑者",
+          "description": "巨大風穴のボス「浸潤の処刑者」を撃破した"
+        },
+        "koreana": {
+          "name": "침식의 처형자",
+          "description": "거대 바람 구멍의 보스 「침식의 처형자」를 격파했다"
+        },
+        "russian": {
+          "name": "Безжалостный палач",
+          "description": "Победить безжалостного палача в Воющей яме."
+        },
+        "schinese": {
+          "name": "处刑者袭来",
+          "description": "在嚎叫深渊击败了入侵处刑者"
+        },
+        "spanish": {
+          "name": "Ejecutora Invasora",
+          "description": "Vence a la Ejecutora Invasora en el Foso Aullante"
+        },
+        "tchinese": {
+          "name": "浸潤行刑者",
+          "description": "打敗在「巨大風窟」的頭目「浸潤行刑者」"
+        }
+      }
+    },
+    "Id24": {
+      "translations": {
+        "brazilian": {
+          "name": "Sucessora do Tórax",
+          "description": "Derrote a Sucessora do Tórax na Catedral do Sangue Sagrado"
+        },
+        "english": {
+          "name": "Successor of the Ribcage",
+          "description": "Defeat the Successor of the Ribcage in the Cathedral of the Sacred Blood"
+        },
+        "french": {
+          "name": "Héritière du Torse",
+          "description": "Vaincre l'Héritière du Torse dans la Cathédrale du Sang Sacré"
+        },
+        "german": {
+          "name": "Nachfolgerin des Brustkorbs",
+          "description": "Besiege die Nachfolgerin des Brustkorbs in der Kathedrale des heiligen Blutes"
+        },
+        "italian": {
+          "name": "Erede della cassa toracica",
+          "description": "Sconfiggi l'Erede della cassa toracica presso la Cattedrale del Sangue sacro"
+        },
+        "japanese": {
+          "name": "肋骸の継承者",
+          "description": "白い血の聖堂のボス「肋骸の継承者」を撃破した"
+        },
+        "koreana": {
+          "name": "늑해의 계승자",
+          "description": "하얀 피의 성당의 보스 「늑해의 계승자」를 격파했다"
+        },
+        "russian": {
+          "name": "Хранительница ребра",
+          "description": "Победить хранительницу ребра в храме Святой Крови."
+        },
+        "schinese": {
+          "name": "肋骨继承者",
+          "description": "在圣血大圣堂击败了肋骨继承者"
+        },
+        "spanish": {
+          "name": "Sucesora del Tórax",
+          "description": "Vence a la Sucesora del Tórax en la Catedral de la Sagrada Sangre"
+        },
+        "tchinese": {
+          "name": "肋骸繼承者",
+          "description": "打敗在「白血教堂」的頭目「肋骸繼承者」"
+        }
+      }
+    },
+    "Id25": {
+      "translations": {
+        "brazilian": {
+          "name": "Sucessor da Respiração",
+          "description": "Derrote o Sucessor da Respiração na Cordilheira das Almas Congeladas"
+        },
+        "english": {
+          "name": "Successor of the Breath",
+          "description": "Defeat the Successor of the Breath in the Ridge of Frozen Souls"
+        },
+        "french": {
+          "name": "Héritier du Souffle",
+          "description": "Vaincre l'Héritier du Souffle sur la Cime des âmes transies"
+        },
+        "german": {
+          "name": "Nachfolger des Atems",
+          "description": "Besiege den Nachfolger des Atems auf dem Grat der eisigen Seelen"
+        },
+        "italian": {
+          "name": "Erede del respiro",
+          "description": "Sconfiggi l'Erede del respiro presso il Crinale delle anime congelate"
+        },
+        "japanese": {
+          "name": "肺骸の継承者",
+          "description": "凍てついた霊峰のボス「肺骸の継承者」を撃破した"
+        },
+        "koreana": {
+          "name": "폐해의 계승자",
+          "description": "얼어붙은 영봉의 보스 「폐해의 계승자」를 격파했다"
+        },
+        "russian": {
+          "name": "Хранитель дыхания",
+          "description": "Победить хранителя дыхания на горе Замёрзших Душ."
+        },
+        "schinese": {
+          "name": "吐息继承者",
+          "description": "在冰封灵峰击败了吐息继承者"
+        },
+        "spanish": {
+          "name": "Sucesor del Aliento",
+          "description": "Vence al Sucesor del Aliento en la Cumbre de las Almas Gélidas"
+        },
+        "tchinese": {
+          "name": "肺骸繼承者",
+          "description": "打敗在「凍結靈峰」的頭目「肺骸繼承者」"
+        }
+      }
+    },
+    "Id26": {
+      "translations": {
+        "brazilian": {
+          "name": "Caçador Dourado",
+          "description": "Derrote o Caçador Dourado na Caverna Cinérea"
+        },
+        "english": {
+          "name": "Gilded Hunter",
+          "description": "Defeat the Gilded Hunter in the Ashen Cavern"
+        },
+        "french": {
+          "name": "Chasseur doré",
+          "description": "Vaincre le Chasseur doré dans la Grotte cendreuse"
+        },
+        "german": {
+          "name": "Vergoldeter Jäger",
+          "description": "Besiege den Vergoldeten Jäger in der Aschenhöhle"
+        },
+        "italian": {
+          "name": "Cacciatore dorato",
+          "description": "Sconfiggi il Cacciatore dorato presso la Caverna cinerea"
+        },
+        "japanese": {
+          "name": "金色の狩人",
+          "description": "仄暗い洞窟のボス「金色の狩人」を撃破した"
+        },
+        "koreana": {
+          "name": "금색의 사냥꾼",
+          "description": "어두운 동굴의 보스 「금색의 사냥꾼」을 격파했다"
+        },
+        "russian": {
+          "name": "Золотой охотник",
+          "description": "Победить золотого охотника в Сумрачной пещере."
+        },
+        "schinese": {
+          "name": "黄金猎手",
+          "description": "在灰烬洞窟击败了黄金猎手"
+        },
+        "spanish": {
+          "name": "Cazador Dorado",
+          "description": "Vence al Cazador Dorado en la Caverna de cenizas"
+        },
+        "tchinese": {
+          "name": "金黃獵人",
+          "description": "打敗在「昏暗洞窟」的頭目「金黃獵人」"
+        }
+      }
+    },
+    "Id27": {
+      "translations": {
+        "brazilian": {
+          "name": "Sucessora da Garra",
+          "description": "Derrote a Sucessora da Garra na Cidade da Chama Decadente"
+        },
+        "english": {
+          "name": "Successor of the Claw",
+          "description": "Defeat the Successor of the Claw in the City of Falling Flame"
+        },
+        "french": {
+          "name": "Héritière de la Griffe",
+          "description": "Vaincre l'Héritière de la Griffe dans la Cité de Volefeu"
+        },
+        "german": {
+          "name": "Nachfolgerin der Klaue",
+          "description": "Besiege die Nachfolgerin der Klaue in der Stadt des Flammenregens"
+        },
+        "italian": {
+          "name": "Erede dell'artiglio",
+          "description": "Sconfiggi l'Erede dell'artiglio presso la Città delle Fiamme cadenti"
+        },
+        "japanese": {
+          "name": "爪骸の継承者",
+          "description": "火の降る街のボス「爪骸の継承者」を撃破した"
+        },
+        "koreana": {
+          "name": "조해의 계승자",
+          "description": "불이 내리는 거리의 보스 「조해의 계승자」를 격파했다"
+        },
+        "russian": {
+          "name": "Хранительница когтя",
+          "description": "Победить хранительницу когтя в городе огненных дождей."
+        },
+        "schinese": {
+          "name": "利爪继承者",
+          "description": "在落火之城击败了利爪继承者"
+        },
+        "spanish": {
+          "name": "Sucesora de la Garra",
+          "description": "Vence a la Sucesora de la Garra en la Ciudad de las Llamas Caídas"
+        },
+        "tchinese": {
+          "name": "爪骸繼承者",
+          "description": "打敗在「落火街」的頭目「爪骸繼承者」"
+        }
+      }
+    },
+    "Id28": {
+      "translations": {
+        "brazilian": {
+          "name": "Sucessora da Garganta",
+          "description": "Derrote a Sucessora da Garganta na Coroa de Areia"
+        },
+        "english": {
+          "name": "Successor of the Throat",
+          "description": "Defeat the Successor of the Throat in the Crown of Sand"
+        },
+        "french": {
+          "name": "Héritière de la Gorge",
+          "description": "Vaincre l'Héritière de la Gorge sur la Cime de sable"
+        },
+        "german": {
+          "name": "Nachfolgerin der Kehle",
+          "description": "Besiege die Nachfolgerin der Kehle in der Sandkrone"
+        },
+        "italian": {
+          "name": "Erede della gola",
+          "description": "Sconfiggi l'Erede della gola presso la Corona di sabbia"
+        },
+        "japanese": {
+          "name": "喉骸の継承者",
+          "description": "冠砂の楼閣のボス「喉骸の継承者」を撃破した"
+        },
+        "koreana": {
+          "name": "후해의 계승자",
+          "description": "관사의 누각의 보스 「후해의 계승자」를 격파했다"
+        },
+        "russian": {
+          "name": "Хранительница горла",
+          "description": "Победить хранительницу горла в городе барханов."
+        },
+        "schinese": {
+          "name": "咽喉继承者",
+          "description": "在沙之冠击败了咽喉继承者"
+        },
+        "spanish": {
+          "name": "Sucesora de la Garganta",
+          "description": "Vence a la Sucesora de la Garganta en la Corona de Arena"
+        },
+        "tchinese": {
+          "name": "喉骸繼承者",
+          "description": "打敗在「沙冠樓閣」的頭目「喉骸繼承者」"
+        }
+      }
+    },
+    "Id29": {
+      "translations": {
+        "brazilian": {
+          "name": "Portadora da Espada e Canhoneiro",
+          "description": "Derrote a Portadora da Espada e o Canhoneiro no Pináculo da Cripta"
+        },
+        "english": {
+          "name": "Blade Bearer and Cannoneer",
+          "description": "Defeat the Blade Bearer and Cannoneer in the Crypt Spire"
+        },
+        "french": {
+          "name": "Portelame et Canonnier",
+          "description": "Vaincre la Portelame et le Canonnier dans la Flèche de la crypte"
+        },
+        "german": {
+          "name": "Klingenträgerin und Kanonier",
+          "description": "Besiege Klingenträgerin und Kanonier in der Gruftspitze"
+        },
+        "italian": {
+          "name": "Portatrice della lama e Cannoniere",
+          "description": "Sconfiggi la Portatrice della lama e il Cannoniere presso la Guglia della cripta"
+        },
+        "japanese": {
+          "name": "焔砲と氷刃の従者",
+          "description": "棺の塔のボス「焔砲と氷刃の従者」を撃破した"
+        },
+        "koreana": {
+          "name": "화염포와 얼음검의 종자",
+          "description": "관의 탑의 보스 「화염포와 얼음검의 종자」를 격파했다"
+        },
+        "russian": {
+          "name": "Хозяйка меча и Канонир",
+          "description": "Победить хозяйку меча и канонира в башне склепа."
+        },
+        "schinese": {
+          "name": "双刃与炮火",
+          "description": "在圣塔击败了刃之持有者与炮击手"
+        },
+        "spanish": {
+          "name": "Espadachín y Cañonero",
+          "description": "Vence a la Espadachín y al Cañonero en la Aguja de la Cripta"
+        },
+        "tchinese": {
+          "name": "焰炮與冰刃隨從",
+          "description": "打敗在「棺柩之塔」的頭目「焰炮與冰刃隨從」"
+        }
+      }
+    },
+    "Id47": {
+      "translations": {
+        "brazilian": {
+          "name": "Juzo Mido",
+          "description": "Derrote o chefe do Pináculo da Cripta, Juzo Mido"
+        },
+        "english": {
+          "name": "Juzo Mido",
+          "description": "Defeat the boss of the Crypt Spire, Juzo Mido"
+        },
+        "french": {
+          "name": "Juzo Mido",
+          "description": "Éliminer le boss de la Flèche de la crypte, Juzo Mido"
+        },
+        "german": {
+          "name": "Juzo Mido",
+          "description": "Besiege den Boss der Gruftspitze, Juzo Mido"
+        },
+        "italian": {
+          "name": "Juzo Mido",
+          "description": "Sconfiggi il boss della Guglia della cripta, Juzo Mido"
+        },
+        "japanese": {
+          "name": "ジュウゾウ・ミドウ",
+          "description": "棺の塔のボス「ジュウゾウ・ミドウ」を撃破した"
+        },
+        "koreana": {
+          "name": "쥬조 미도",
+          "description": "관의 탑의 보스 「쥬조 미도」를 격파했다"
+        },
+        "russian": {
+          "name": "Дзюдзо Мидо",
+          "description": "Победить Дзюдзо Мидо в башне склепа."
+        },
+        "schinese": {
+          "name": "御堂十藏",
+          "description": "击败了圣塔之主御堂十藏"
+        },
+        "spanish": {
+          "name": "Juzo Mido",
+          "description": "Derrota al jefe de la Aguja de la Cripta, Juzo Mido"
+        },
+        "tchinese": {
+          "name": "重藏・御堂",
+          "description": "打敗在「棺柩之塔」的頭目「重藏・御堂」"
+        }
+      }
+    },
+    "Id30": {
+      "translations": {
+        "brazilian": {
+          "name": "Rei Caveira",
+          "description": "Derrote o Rei Caveira no Cárcere do Sangue Estagnado"
+        },
+        "english": {
+          "name": "Skull King",
+          "description": "Defeat the Skull King in the Gaol of the Stagnant Blood"
+        },
+        "french": {
+          "name": "Roi-squelette",
+          "description": "Vaincre le Roi-squelette dans la Prison du sang stagnant"
+        },
+        "german": {
+          "name": "Schädelkönig",
+          "description": "Besiege den Schädelkönig im Gefängnis des geronnenen Bluts"
+        },
+        "italian": {
+          "name": "Re dei teschi",
+          "description": "Sconfiggi il Re dei teschi presso il Carcere del sangue stagnante"
+        },
+        "japanese": {
+          "name": "髄骸の王",
+          "description": "澱んだ血の牢獄のボス「髄骸の王」を撃破した"
+        },
+        "koreana": {
+          "name": "수해의 왕",
+          "description": "침체된 피의 감옥의 보스 「수해의 왕」을 격파했다"
+        },
+        "russian": {
+          "name": "Король черепа",
+          "description": "Победить короля черепа в Темнице застоявшейся крови."
+        },
+        "schinese": {
+          "name": "骷髅之王",
+          "description": "在停滞之血牢狱击败了骷髅之王"
+        },
+        "spanish": {
+          "name": "Rey Calavera",
+          "description": "Vence al Rey Calavera en la Prisión de la Sangre Estancada"
+        },
+        "tchinese": {
+          "name": "首骸之王",
+          "description": "打敗在「深沉的血之牢獄」的頭目「首骸之王」"
+        }
+      }
+    },
+    "Id32": {
+      "translations": {
+        "brazilian": {
+          "name": "Memórias de Louis",
+          "description": "Veja os ecos de memória de Louis"
+        },
+        "english": {
+          "name": "Louis's Memories",
+          "description": "View Louis's memory echoes"
+        },
+        "french": {
+          "name": "Souvenirs de Louis",
+          "description": "Regarder les échos mnésiques de Louis"
+        },
+        "german": {
+          "name": "Louis' Erinnerungen",
+          "description": "Schau dir Louis' Erinnerungs-Echos an"
+        },
+        "italian": {
+          "name": "I ricordi di Louis",
+          "description": "Assisti agli echi mnemonici di Louis"
+        },
+        "japanese": {
+          "name": "ルイの記憶",
+          "description": "ルイの記憶の残滓を見た"
+        },
+        "koreana": {
+          "name": "루이의 기억",
+          "description": "루이의 기억의 잔재를 봤다"
+        },
+        "russian": {
+          "name": "Воспоминания Луи",
+          "description": "Посмотреть отголоски памяти Луи."
+        },
+        "schinese": {
+          "name": "路易的记忆",
+          "description": "观看了路易的记忆残影"
+        },
+        "spanish": {
+          "name": "Recuerdos de Louis",
+          "description": "Ve los ecos de memoria de Louis"
+        },
+        "tchinese": {
+          "name": "路易的記憶",
+          "description": "看過路易的記憶殘渣"
+        }
+      }
+    },
+    "Id33": {
+      "translations": {
+        "brazilian": {
+          "name": "Memórias de Yakumo",
+          "description": "Veja os ecos de memória de Yakumo"
+        },
+        "english": {
+          "name": "Yakumo's Memories",
+          "description": "View Yakumo's memory echoes"
+        },
+        "french": {
+          "name": "Souvenirs de Yakumo",
+          "description": "Regarder les échos mnésiques de Yakumo"
+        },
+        "german": {
+          "name": "Yakumos Erinnerungen",
+          "description": "Schau dir Yakumos Erinnerungs-Echos an"
+        },
+        "italian": {
+          "name": "I ricordi di Yakumo",
+          "description": "Assisti agli echi mnemonici di Yakumo"
+        },
+        "japanese": {
+          "name": "ヤクモの記憶",
+          "description": "ヤクモの記憶の残滓を見た"
+        },
+        "koreana": {
+          "name": "야쿠모의 기억",
+          "description": "야쿠모의 기억의 잔재를 봤다"
+        },
+        "russian": {
+          "name": "Воспоминания Якумо",
+          "description": "Посмотреть отголоски памяти Якумо."
+        },
+        "schinese": {
+          "name": "八云的记忆",
+          "description": "观看了八云的记忆残影"
+        },
+        "spanish": {
+          "name": "Recuerdos de Yakumo",
+          "description": "Ve los ecos de memoria de Yakumo"
+        },
+        "tchinese": {
+          "name": "八雲的記憶",
+          "description": "看過八雲的記憶殘渣"
+        }
+      }
+    },
+    "Id34": {
+      "translations": {
+        "brazilian": {
+          "name": "Memórias de Murasame",
+          "description": "Veja os ecos de memória de Murasame"
+        },
+        "english": {
+          "name": "Murasame's Memories",
+          "description": "View Murasame's memory echoes"
+        },
+        "french": {
+          "name": "Souvenirs de Murasame",
+          "description": "Regarder les échos mnésiques de Murasame"
+        },
+        "german": {
+          "name": "Murasames Erinnerungen",
+          "description": "Schau dir Murasames Erinnerungs-Echos an"
+        },
+        "italian": {
+          "name": "I ricordi di Murasame",
+          "description": "Assisti agli echi mnemonici di Murasame"
+        },
+        "japanese": {
+          "name": "ムラサメの記憶",
+          "description": "ムラサメの記憶の残滓を見た"
+        },
+        "koreana": {
+          "name": "무라사메의 기억",
+          "description": "무라사메의 기억의 잔재를 봤다"
+        },
+        "russian": {
+          "name": "Воспоминания Мурасамэ",
+          "description": "Посмотреть отголоски памяти Мурасамэ."
+        },
+        "schinese": {
+          "name": "村雨的记忆",
+          "description": "观看了村雨的记忆残影"
+        },
+        "spanish": {
+          "name": "Recuerdos de Murasame",
+          "description": "Ve los ecos de memoria de Murasame"
+        },
+        "tchinese": {
+          "name": "村雨的記憶",
+          "description": "看過村雨的記憶殘渣"
+        }
+      }
+    },
+    "Id35": {
+      "translations": {
+        "brazilian": {
+          "name": "Memórias de Coco",
+          "description": "Veja os ecos de memória de Coco"
+        },
+        "english": {
+          "name": "Coco's Memories",
+          "description": "View Coco's memory echoes"
+        },
+        "french": {
+          "name": "Souvenirs de Coco",
+          "description": "Regarder les échos mnésiques de Coco"
+        },
+        "german": {
+          "name": "Cocos Erinnerungen",
+          "description": "Schau dir Cocos Erinnerungs-Echos an"
+        },
+        "italian": {
+          "name": "I ricordi di Coco",
+          "description": "Assisti agli echi mnemonici di Coco"
+        },
+        "japanese": {
+          "name": "ココの記憶",
+          "description": "ココの記憶の残滓を見た"
+        },
+        "koreana": {
+          "name": "코코의 기억",
+          "description": "코코의 기억의 잔재를 봤다"
+        },
+        "russian": {
+          "name": "Воспоминания Коко",
+          "description": "Посмотреть отголоски памяти Коко."
+        },
+        "schinese": {
+          "name": "可可的记忆",
+          "description": "观看了可可的记忆残影"
+        },
+        "spanish": {
+          "name": "Recuerdos de Coco",
+          "description": "Ve los ecos de memoria de Coco"
+        },
+        "tchinese": {
+          "name": "可可的記憶",
+          "description": "看過可可的記憶殘渣"
+        }
+      }
+    },
+    "Id36": {
+      "translations": {
+        "brazilian": {
+          "name": "Memórias de Davis",
+          "description": "Veja os ecos de memória de Davis"
+        },
+        "english": {
+          "name": "Davis's Memories",
+          "description": "View Davis's memory echoes"
+        },
+        "french": {
+          "name": "Souvenirs de Davis",
+          "description": "Regarder les échos mnésiques de Davis"
+        },
+        "german": {
+          "name": "Davis' Erinnerungen",
+          "description": "Schau dir Davis' Erinnerungs-Echos an"
+        },
+        "italian": {
+          "name": "I ricordi di Davis",
+          "description": "Assisti agli echi mnemonici di Davis"
+        },
+        "japanese": {
+          "name": "デイビスの記憶",
+          "description": "デイビスの記憶の残滓を見た"
+        },
+        "koreana": {
+          "name": "데이비스의 기억",
+          "description": "데이비스의 기억의 잔재를 봤다"
+        },
+        "russian": {
+          "name": "Воспоминания Дэвиса",
+          "description": "Посмотреть отголоски памяти Дэвиса."
+        },
+        "schinese": {
+          "name": "戴维斯的记忆",
+          "description": "观看了戴维斯的记忆残影"
+        },
+        "spanish": {
+          "name": "Recuerdos de Davis",
+          "description": "Ve los ecos de memoria de Davis"
+        },
+        "tchinese": {
+          "name": "戴比斯的記憶",
+          "description": "看過戴比斯的記憶殘渣"
+        }
+      }
+    },
+    "Id37": {
+      "translations": {
+        "brazilian": {
+          "name": "Memórias de Mia",
+          "description": "Veja os ecos de memória de Mia"
+        },
+        "english": {
+          "name": "Mia's Memories",
+          "description": "View Mia's memory echoes"
+        },
+        "french": {
+          "name": "Souvenirs de Mia",
+          "description": "Regarder les échos mnésiques de Mia"
+        },
+        "german": {
+          "name": "Mias Erinnerungen",
+          "description": "Schau dir Mias Erinnerungs-Echos an"
+        },
+        "italian": {
+          "name": "I ricordi di Mia",
+          "description": "Assisti agli echi mnemonici di Mia"
+        },
+        "japanese": {
+          "name": "ミアの記憶",
+          "description": "ミアの記憶の残滓を見た"
+        },
+        "koreana": {
+          "name": "미아의 기억",
+          "description": "미아의 기억의 잔재를 봤다"
+        },
+        "russian": {
+          "name": "Воспоминания Мии",
+          "description": "Посмотреть отголоски памяти Мии."
+        },
+        "schinese": {
+          "name": "米亚的记忆",
+          "description": "观看了米亚的记忆残影"
+        },
+        "spanish": {
+          "name": "Recuerdos de Mia",
+          "description": "Ve los ecos de memoria de Mia"
+        },
+        "tchinese": {
+          "name": "米亞的記憶",
+          "description": "看過米亞的記憶殘渣"
+        }
+      }
+    },
+    "Id39": {
+      "translations": {
+        "brazilian": {
+          "name": "Beba Com Vontade",
+          "description": "Use uma drenagem especial de um ataque por trás, ao aparar ou ao lançar"
+        },
+        "english": {
+          "name": "Drink Deep",
+          "description": "Successfully use a special drain from a parry, back attack, or launch attack"
+        },
+        "french": {
+          "name": "Festin de sang",
+          "description": "Réussir une absorption spéciale après une parade, un coup dans le dos ou une Projection"
+        },
+        "german": {
+          "name": "Trink aus",
+          "description": "Benutze einen Spezial-Entzug nach einer Parade, einem Angriff von hinten oder einem Schleuderangriff"
+        },
+        "italian": {
+          "name": "Un bel sorso",
+          "description": "Metti a segno un prosciugamento speciale dopo una parata, un colpo alle spalle o un attacco lancio"
+        },
+        "japanese": {
+          "name": "その血を喰らう",
+          "description": "受け流しやバックアタック、打ち上げ攻撃からの吸血に初めて成功した"
+        },
+        "koreana": {
+          "name": "그 피를 마신다",
+          "description": "받아넘기기나 백 어택, 띄우기 공격을 사용한 흡혈에 처음 성공했다"
+        },
+        "russian": {
+          "name": "Большой глоток",
+          "description": "Успешно выполнить особое иссушение после парирования, удара в спину или подбрасывающей атаки."
+        },
+        "schinese": {
+          "name": "猎人的一击",
+          "description": "首次成功发动特殊吸血"
+        },
+        "spanish": {
+          "name": "Todo para dentro",
+          "description": "Utiliza con éxito un drenaje especial de una parada, un ataque trasero o un ataque de lanzamiento"
+        },
+        "tchinese": {
+          "name": "吞噬血液吧",
+          "description": "在反擊、背後攻擊、打飛攻擊之後，第一次成功使出吸血"
+        }
+      }
+    },
+    "Id40": {
+      "translations": {
+        "brazilian": {
+          "name": "Herdeiros",
+          "description": "Veja o final \"Herdeiros\""
+        },
+        "english": {
+          "name": "Heirs",
+          "description": "View the \"Heirs\" ending"
+        },
+        "french": {
+          "name": "Sacrifice",
+          "description": "Regarder la fin \"Sacrifice\""
+        },
+        "german": {
+          "name": "Erben",
+          "description": "Schau dir das Ende \"Erben\" an"
+        },
+        "italian": {
+          "name": "Eredi",
+          "description": "Assisti al finale \"Eredi\""
+        },
+        "japanese": {
+          "name": "継ぐものたち",
+          "description": "エンディング「継ぐものたち」を見た"
+        },
+        "koreana": {
+          "name": "계승하는 자들",
+          "description": "엔딩 「계승하는 자들」을 봤다"
+        },
+        "russian": {
+          "name": "Наследники",
+          "description": "Посмотреть концовку «Наследники»."
+        },
+        "schinese": {
+          "name": "英雄陨落",
+          "description": "观看了结局\"英雄陨落\""
+        },
+        "spanish": {
+          "name": "Herederos",
+          "description": "Ve el final \"Herederos\""
+        },
+        "tchinese": {
+          "name": "傳承的事與物",
+          "description": "看過結局「傳承的事與物」"
+        }
+      }
+    },
+    "Id41": {
+      "translations": {
+        "brazilian": {
+          "name": "Rumo à Eternidade",
+          "description": "Veja o final \"Rumo à Eternidade\""
+        },
+        "english": {
+          "name": "To Eternity",
+          "description": "View the \"To Eternity\" ending"
+        },
+        "french": {
+          "name": "Pour l'éternité",
+          "description": "Regarder la fin \"Pour l'éternité\""
+        },
+        "german": {
+          "name": "In alle Ewigkeit",
+          "description": "Schau dir das Ende \"In alle Ewigkeit\" an"
+        },
+        "italian": {
+          "name": "Per l'eternità",
+          "description": "Assisti al finale \"Per l'eternità\""
+        },
+        "japanese": {
+          "name": "果てなく共に",
+          "description": "エンディング「果てなく共に」を見た"
+        },
+        "koreana": {
+          "name": "영원히 함께",
+          "description": "엔딩 「영원히 함께」를 봤다"
+        },
+        "russian": {
+          "name": "Вечность",
+          "description": "Посмотреть концовку «Вечность»."
+        },
+        "schinese": {
+          "name": "调和之月",
+          "description": "观看了结局\"调和之月\""
+        },
+        "spanish": {
+          "name": "Hasta la eternidad",
+          "description": "Ve el final \"Hasta la eternidad\""
+        },
+        "tchinese": {
+          "name": "無窮無盡",
+          "description": "看過結局「無窮無盡」"
+        }
+      }
+    },
+    "Id42": {
+      "translations": {
+        "brazilian": {
+          "name": "Habitante da Escuridão",
+          "description": "Veja o final “Habitante da Escuridão\""
+        },
+        "english": {
+          "name": "Dweller in the Dark",
+          "description": "View the \"Dweller in the Dark\" ending"
+        },
+        "french": {
+          "name": "Lueur dans les ténèbres",
+          "description": "Regarder la fin \"Lueur dans les ténèbres\""
+        },
+        "german": {
+          "name": "Der im Dunklen lauert",
+          "description": "Schau dir das Ende \"Der im Dunklen lauert\" an"
+        },
+        "italian": {
+          "name": "L'abitante dell'ombra",
+          "description": "Assisti al finale \"L'abitante dell'ombra\""
+        },
+        "japanese": {
+          "name": "闇の住人",
+          "description": "エンディング「闇の住人」を見た"
+        },
+        "koreana": {
+          "name": "어둠의 주민",
+          "description": "엔딩 「어둠의 주민」을 봤다"
+        },
+        "russian": {
+          "name": "Путь в неизвестность",
+          "description": "Посмотреть концовку «Путь в неизвестность»."
+        },
+        "schinese": {
+          "name": "名为缘的奇迹",
+          "description": "观看了结局\"名为缘的奇迹\""
+        },
+        "spanish": {
+          "name": "Morador de la oscuridad",
+          "description": "Ve el final \"Morador de la oscuridad\""
+        },
+        "tchinese": {
+          "name": "生息於黑暗之人",
+          "description": "看過結局「生息於黑暗之人」"
+        }
+      }
+    },
+    "Id43": {
+      "translations": {
+        "brazilian": {
+          "name": "Poder Ressonante",
+          "description": "Execute uma Dádiva Comunal"
+        },
+        "english": {
+          "name": "Resonant Power",
+          "description": "Execute a Communal Gift"
+        },
+        "french": {
+          "name": "L'union fait la force",
+          "description": "Réaliser un Don combiné"
+        },
+        "german": {
+          "name": "Wiederhallende Macht",
+          "description": "Benutze ein Gemeinschaftstalent"
+        },
+        "italian": {
+          "name": "Potere echeggiante",
+          "description": "Esegui un dono comune"
+        },
+        "japanese": {
+          "name": "感応する力",
+          "description": "共錬血を初めて発動した"
+        },
+        "koreana": {
+          "name": "감응하는 힘",
+          "description": "처음으로 공연혈을 발동했다"
+        },
+        "russian": {
+          "name": "Разделённая сила",
+          "description": "Применить общий дар."
+        },
+        "schinese": {
+          "name": "牵绊之力",
+          "description": "首次触发附带条件的特性"
+        },
+        "spanish": {
+          "name": "Poder resonante",
+          "description": "Ejecuta un don comunal"
+        },
+        "tchinese": {
+          "name": "感受到的力量",
+          "description": "第一次發動共鍊血"
+        }
+      }
+    }
+  }
+}

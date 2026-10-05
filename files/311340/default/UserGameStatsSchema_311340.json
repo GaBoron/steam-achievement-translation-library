@@ -1,0 +1,659 @@
+{
+  "version": 1,
+  "app_id": "311340",
+  "variant_id": "default",
+  "source_sha256": "09b7ba00339e4cfcaa4a2b895912ffb6c7c1fc97f63cb4d538c9ea427eba0a9b",
+  "languages": [
+    "brazilian",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "TROPHY_CLEAR_PAZ_RESCUE": {
+      "translations": {
+        "brazilian": {
+          "name": "Derrocada",
+          "description": "Cumpra a missão \"Ground Zeroes\""
+        },
+        "english": {
+          "name": "Downfall",
+          "description": "Clear the \"Ground Zeroes\" mission"
+        },
+        "french": {
+          "name": "Chute",
+          "description": "Terminer la mission \"Ground Zeroes\"."
+        },
+        "german": {
+          "name": "Niedergang",
+          "description": "Schließe die Mission \"Ground Zeroes\" ab."
+        },
+        "italian": {
+          "name": "La caduta",
+          "description": "Completa la missione \"Ground Zeroes\""
+        },
+        "japanese": {
+          "name": "瓦解",
+          "description": "MISSION『GROUND ZEROES』をクリアする"
+        },
+        "russian": {
+          "name": "Падение",
+          "description": "Пройдите миссию \"Эпицентры\""
+        },
+        "schinese": {
+          "name": "瓦解",
+          "description": "完成任务「GROUND ZEROES」"
+        },
+        "spanish": {
+          "name": "Caída",
+          "description": "Completa la misión \"Ground Zeroes\"."
+        }
+      }
+    },
+    "TROPHY_CHALLENGE_CONTACT_CHICO_PAZ": {
+      "translations": {
+        "brazilian": {
+          "name": "Reunião",
+          "description": "Encontre o Chico ou a Paz"
+        },
+        "english": {
+          "name": "Reunion",
+          "description": "Reunite with Chico or Paz"
+        },
+        "french": {
+          "name": "Réunion",
+          "description": "Retrouver Chico ou Paz."
+        },
+        "german": {
+          "name": "Wiedervereinigung",
+          "description": "Mit Chico oder Paz wiedervereinigen."
+        },
+        "italian": {
+          "name": "Ricongiungimento",
+          "description": "Riunisciti con Chico o Paz"
+        },
+        "japanese": {
+          "name": "再会",
+          "description": "チコまたはパスと再会する"
+        },
+        "russian": {
+          "name": "Воссоединение",
+          "description": "Воссоединитесь с Чико или Паз"
+        },
+        "schinese": {
+          "name": "重逢",
+          "description": "与齐可或帕兹重逢"
+        },
+        "spanish": {
+          "name": "Reunión",
+          "description": "Reúnete con Chico o Paz."
+        }
+      }
+    },
+    "TROPHY_CLEAR_SIDE_OPS": {
+      "translations": {
+        "brazilian": {
+          "name": "Gênesis",
+          "description": "Complete uma Op Paralela ou Extra"
+        },
+        "english": {
+          "name": "Genesis",
+          "description": "Clear a Side Op or Extra Op"
+        },
+        "french": {
+          "name": "Genèse",
+          "description": "Terminer une mission secondaire ou supplémentaire."
+        },
+        "german": {
+          "name": "Ursprung",
+          "description": "Schließe eine Neben- oder Zusatzmission ab."
+        },
+        "italian": {
+          "name": "La genesi",
+          "description": "Completa una missione secondaria o una missione extra"
+        },
+        "japanese": {
+          "name": "発端",
+          "description": "SIDE OPSまたはEXTRA OPSのいずれかをクリアする"
+        },
+        "russian": {
+          "name": "Зарождение",
+          "description": "Пройдите побочную или дополнительную миссию"
+        },
+        "schinese": {
+          "name": "开端",
+          "description": "完成任一支线任务或额外任务"
+        },
+        "spanish": {
+          "name": "Génesis",
+          "description": "Completa una misión secundaria o extra."
+        }
+      }
+    },
+    "TROPHY_CLEAR_ALL_MISSION": {
+      "translations": {
+        "brazilian": {
+          "name": "Cumprido",
+          "description": "Complete todas as missões (incluindo Ops Paralelas e Extras)"
+        },
+        "english": {
+          "name": "Accomplished",
+          "description": "Clear all missions (including Side Ops and Extra Ops)"
+        },
+        "french": {
+          "name": "Accompli",
+          "description": "Terminer toutes les missions (secondaires et supplémentaires incluses)."
+        },
+        "german": {
+          "name": "Erfüllt",
+          "description": "Schließe alle Missionen ab (einschließlich Neben- und Zusatzmissionen) ."
+        },
+        "italian": {
+          "name": "Compiuto",
+          "description": "Completa tutte le missioni (incluse missioni secondarie e missioni extra)"
+        },
+        "japanese": {
+          "name": "完遂",
+          "description": "全てのミッション（SIDE OPS・EXTRA OPSを含む）をクリアする"
+        },
+        "russian": {
+          "name": "Выполнено",
+          "description": "Пройдите все миссии (включая побочные и дополнительные)"
+        },
+        "schinese": {
+          "name": "完成",
+          "description": "完成所有任务(包括支线、额外任务)"
+        },
+        "spanish": {
+          "name": "Completado",
+          "description": "Completa todas las misiones (incluyendo misiones secundarias y extra)."
+        }
+      }
+    },
+    "TROPHY_CLEAR_RANKS": {
+      "translations": {
+        "brazilian": {
+          "name": "Habilidoso",
+          "description": "Complete qualquer missão (incluindo Ops Paralelas e Extras) com classificação S"
+        },
+        "english": {
+          "name": "Skilled",
+          "description": "Clear any mission (including Side Ops and Extra Ops) with a S-rank"
+        },
+        "french": {
+          "name": "Compétent",
+          "description": "Terminer n'importe quelle mission (secondaire et supplémentaire incluses) au rang S."
+        },
+        "german": {
+          "name": "Talentiert",
+          "description": "Schließe eine Mission (einschließlich der Neben- und Zusatzmissionen) mit S-Rang ab."
+        },
+        "italian": {
+          "name": "Abile",
+          "description": "Completa una missione qualsiasi (incluse missioni secondarie e missioni extra) con valutazione S"
+        },
+        "japanese": {
+          "name": "才器",
+          "description": "いずれかのミッション（SIDE OPS・EXTRA OPSを含む）をSランクでクリアする"
+        },
+        "russian": {
+          "name": "Бывалый",
+          "description": "Пройдите любую миссию (в том числе побочную или дополнительную), получив рейтинг S"
+        },
+        "schinese": {
+          "name": "才能",
+          "description": "以S级评价完成任一任务(包括支线、额外任务)"
+        },
+        "spanish": {
+          "name": "Hábil",
+          "description": "Completa cualquier misión (incluyendo misiones secundarias y extra) con rango S."
+        }
+      }
+    },
+    "TROPHY_CLEAR_RANKS_ALL": {
+      "translations": {
+        "brazilian": {
+          "name": "Herói",
+          "description": "Complete todas as missões (incluindo Ops Paralelas e Extras) com classificação S"
+        },
+        "english": {
+          "name": "Hero",
+          "description": "Clear all missions (including Side Ops and Extra Ops) with a S-rank"
+        },
+        "french": {
+          "name": "Héros",
+          "description": "Terminer toutes les missions (secondaires et supplémentaires) au rang S."
+        },
+        "german": {
+          "name": "Held",
+          "description": "Schließe alle Missionen (einschließlich der Neben- und Zusatzmissionen) mit S-Rang ab."
+        },
+        "italian": {
+          "name": "Eroe",
+          "description": "Completa tutte le missioni (incluse missioni secondarie e missioni extra) con valutazione S"
+        },
+        "japanese": {
+          "name": "英雄",
+          "description": "全てのミッション（SIDE OPS・EXTRA OPSを含む）をSランクでクリアする"
+        },
+        "russian": {
+          "name": "Герой",
+          "description": "Пройдите все миссии (в том числе побочные и дополнительные), получив рейтинг S"
+        },
+        "schinese": {
+          "name": "英雄",
+          "description": "以S级评价完成所有任务(包括支线、额外任务)"
+        },
+        "spanish": {
+          "name": "Héroe",
+          "description": "Completa todas las misiones (incluyendo misiones secundarias y extra) con rango S."
+        }
+      }
+    },
+    "TROPHY_RESCUE_EXECUTED_HOSTAGE": {
+      "translations": {
+        "brazilian": {
+          "name": "Resgate",
+          "description": "Na missão \"Ground Zeroes\", resgate o prisioneiro prestes a ser executado e extraia-o por helicóptero"
+        },
+        "english": {
+          "name": "Rescue",
+          "description": "In the \"Ground Zeroes\" mission, rescue the prisoner to be executed and extract him via chopper"
+        },
+        "french": {
+          "name": "Sauvetage",
+          "description": "Dans la mission \"Ground Zeroes\", sauver le prisonnier avant l'exécution et l'extraire par hélico."
+        },
+        "german": {
+          "name": "Rettung",
+          "description": "Rette den zum Tode Verurteilten in der Mission \"Ground Zeroes\" mit dem Helikopter."
+        },
+        "italian": {
+          "name": "Salvataggio",
+          "description": "Nella missione \"Ground Zeroes\", salva il prigioniero condannato ed estrailo con l'elicottero"
+        },
+        "japanese": {
+          "name": "救出",
+          "description": "MISSION『GROUND ZEROES』で処刑前の捕虜を救出してヘリに回収する"
+        },
+        "russian": {
+          "name": "Спасение",
+          "description": "В миссии \"Эпицентры\" освободите и эвакуируйте на вертолете заключенного, которого должны казнить"
+        },
+        "schinese": {
+          "name": "救出",
+          "description": "在任务「GROUND ZEROES」中,救出即将遭到处刑的俘虏并送上直升机"
+        },
+        "spanish": {
+          "name": "Rescate",
+          "description": "En la misión \"Ground Zeroes\", rescata al prisionero que será ejecutado y extráelo en helicóptero."
+        }
+      }
+    },
+    "TROPHY_RESCUE_TWO_VIP": {
+      "translations": {
+        "brazilian": {
+          "name": "Profundo",
+          "description": "Complete a Op Paralela \"Eliminar a ameaça dos Renegados\" extraindo os dois alvos"
+        },
+        "english": {
+          "name": "Depth",
+          "description": "Clear the \"Eliminate the Renegade Threat\" Side Op by extracting both targets"
+        },
+        "french": {
+          "name": "Profondeur",
+          "description": "Terminer la mission sec. \"Éliminer la menace des renégats\" en extrayant les 2 cibles par hélico."
+        },
+        "german": {
+          "name": "Tiefe",
+          "description": "Schließe die Nebenmission \"Eliminiere die Deserteur-Bedrohung\" ab, indem du beide Ziele extrahierst."
+        },
+        "italian": {
+          "name": "Profondità",
+          "description": "Completa la missione secondaria \"Elimina la minaccia dei giustizieri\" estraendo i due bersagli"
+        },
+        "japanese": {
+          "name": "表裏",
+          "description": "SIDE OPS『帰還兵排除』でターゲット2名を回収してクリアする"
+        },
+        "russian": {
+          "name": "Глубина",
+          "description": "Пройдите побочную миссию \"Уничтожить предателей\", эвакуировав обе цели"
+        },
+        "schinese": {
+          "name": "表里",
+          "description": "在支线任务「排除撤退士兵」中,透过回收 2 名目标来完成任务"
+        },
+        "spanish": {
+          "name": "Profundidad",
+          "description": "Completa la misión secundaria \"Elimina la amenaza de los renegados\" extrayendo a los dos objetivos."
+        }
+      }
+    },
+    "TROPHY_CLEAR_NO_KILL": {
+      "translations": {
+        "brazilian": {
+          "name": "Pacifista",
+          "description": "Complete a Op Paralela \"Resgate do Agente de Inteligência\" sem matar um inimigo sequer"
+        },
+        "english": {
+          "name": "Pacifist",
+          "description": "Clear the \"Intel Operative Rescue\" Side Op without killing a single enemy"
+        },
+        "french": {
+          "name": "Pacifiste",
+          "description": "Terminer la mission secondaire \"Sauver l'agent infiltré\" sans tuer d'ennemi."
+        },
+        "german": {
+          "name": "Pazifist",
+          "description": "Schließe die Nebenmission \"Agentenrettung\" ab, ohne einen Feind zu töten."
+        },
+        "italian": {
+          "name": "Pacifista",
+          "description": "Completa la missione secondaria \"Salvataggio agente segreto\" senza uccidere un solo nemico"
+        },
+        "japanese": {
+          "name": "不殺",
+          "description": "SIDE OPS『諜報員奪還』で敵を一人も殺さずにクリアする"
+        },
+        "russian": {
+          "name": "Пацифист",
+          "description": "Пройдите побочную миссию \"Спасение разведчика\", не убив ни одного противника"
+        },
+        "schinese": {
+          "name": "不杀",
+          "description": "在支线任务「救出谍报员」中,没有杀死任何一名敌方士兵便完成任务"
+        },
+        "spanish": {
+          "name": "Pacifista",
+          "description": "Completa la misión secundaria \"Rescata al agente de inteligencia\" sin matar a un solo enemigo."
+        }
+      }
+    },
+    "TROPHY_CLEAR_ON_TRUCK": {
+      "translations": {
+        "brazilian": {
+          "name": "Infiltração",
+          "description": "Complete a Op Paralela \"Aquisição de Informações Confidenciais\" escondido na traseira de um caminhão"
+        },
+        "english": {
+          "name": "Infiltration",
+          "description": "Clear the \"Classified Intel Acquisition\" Side Op while riding in the back of a truck"
+        },
+        "french": {
+          "name": "Infiltration",
+          "description": "Terminer la mission secondaire \"Récupérer des informations\" à l'arrière d'un camion."
+        },
+        "german": {
+          "name": "Infiltration",
+          "description": "Schließe die Nebenmission \"Geheiminformations-Beschaffung\" ab, während du hinten im Lkw fährst."
+        },
+        "italian": {
+          "name": "Infiltrazione",
+          "description": "Completa la missione secondaria \"Acquisizione info riservate\" mentre siedi sul retro del camion"
+        },
+        "japanese": {
+          "name": "潜伏",
+          "description": "SIDE OPS『機密情報回収』でトラックの荷台に乗ったままクリアする"
+        },
+        "russian": {
+          "name": "Проникновение",
+          "description": "Пройдите побочную миссию \"Сбор разведданных\", сидя в кузове грузовика"
+        },
+        "schinese": {
+          "name": "潜伏",
+          "description": "在支线任务「回收机密情报」中,于乘坐在卡车载货台的状态下完成任务"
+        },
+        "spanish": {
+          "name": "Infiltración",
+          "description": "Completa la misión sec. \"Consigue la información confidencial\" desde la parte de atrás de un camión."
+        }
+      }
+    },
+    "TROPHY_RESCUE_ALL_HOSTAGE": {
+      "translations": {
+        "brazilian": {
+          "name": "Extração",
+          "description": "Resgate e extraia todos os prisioneiros via helicóptero na Op \"Destruir as plataformas antiaéreas\""
+        },
+        "english": {
+          "name": "Extraction",
+          "description": "In the \"Destroy the Anti-Air Emplacements\" Side Op, rescue and extract all prisoners via chopper"
+        },
+        "french": {
+          "name": "Extraction",
+          "description": "Dans la mission sec. \"Détruire des postes antiaériens\", extraire tous les détenus par hélico."
+        },
+        "german": {
+          "name": "Abholung",
+          "description": "Hole in der Nebenmission \"Zerstörung der Luftabwehrstellungen\" alle Gefangenen mit dem Heli raus."
+        },
+        "italian": {
+          "name": "Estrazione",
+          "description": "In \"Distruzione piazzuole anti aeree\", salva ed estrai tutti i prigionieri con l'elicottero"
+        },
+        "japanese": {
+          "name": "回収",
+          "description": "SIDE OPS『対空兵器破壊』で全ての捕虜を救出してヘリに回収する"
+        },
+        "russian": {
+          "name": "Эвакуация",
+          "description": "В побочной миссии \"Уничтожение точек ПВО\", эвакуируйте всех заключенных на вертолете"
+        },
+        "schinese": {
+          "name": "回收",
+          "description": "在支线任务「破坏地对空武器」中,救出所有俘虏并送上直升机"
+        },
+        "spanish": {
+          "name": "Extracción",
+          "description": "En la misión sec. \"Destruye las plataformas antiaéreas\", extrae a los prisioneros en helicóptero."
+        }
+      }
+    },
+    "TROPHY_CLEAR_ALL_FLASH_BACK": {
+      "translations": {
+        "brazilian": {
+          "name": "Lembranças",
+          "description": "Recrie todas as cenas na Op Extra \"Déjà-vu\""
+        },
+        "english": {
+          "name": "Reminiscence",
+          "description": "Recreate all scenes in the \"Déjà-Vu\" Extra Op"
+        },
+        "french": {
+          "name": "Réminiscence",
+          "description": "Recréer toutes les scènes de la mission supplémentaire \"Déjà-vu\"."
+        },
+        "german": {
+          "name": "Rückblick",
+          "description": "Stelle in der Zusatzmission \"Déjà-vu\" alle Szenen nach"
+        },
+        "italian": {
+          "name": "Ricordo",
+          "description": "Ricrea tutte le scene della missione extra \"Déjà-vu\""
+        },
+        "japanese": {
+          "name": "追憶",
+          "description": "EXTRA OPS『デジャヴ・ミッション』で全てのシーンを再現した"
+        },
+        "russian": {
+          "name": "Воспоминания",
+          "description": "Восстановите все сцены в дополнительной миссии \"Дежавю\""
+        },
+        "schinese": {
+          "name": "追忆",
+          "description": "在额外任务「既视感任务」中,重现所有场景"
+        },
+        "spanish": {
+          "name": "Reminiscencia",
+          "description": "Recrea todas las escenas en la misión extra \"Déjà-vu\"."
+        }
+      }
+    },
+    "TROPHY_CLEAR_JAMAIS_VU": {
+      "translations": {
+        "brazilian": {
+          "name": "Escondido",
+          "description": "Complete a Op Extra \"Jamais Vu\" com 0 inimigos em estado de combate"
+        },
+        "english": {
+          "name": "Hidden",
+          "description": "Clear the \"Jamais Vu\" Extra Op with 0 enemy combat statuses"
+        },
+        "french": {
+          "name": "Caché",
+          "description": "Terminer la mission supplémentaire \"Jamais vu\" avec 0 ennemi en situation de combat."
+        },
+        "german": {
+          "name": "Geheim",
+          "description": "Schließe die Zusatzmission \"Jamais-Vu\" mit 0 Alarmen ab."
+        },
+        "italian": {
+          "name": "Nascosto",
+          "description": "Completa la missione extra \"Jamais Vu\" con 0 allerte combattimento nemici"
+        },
+        "japanese": {
+          "name": "隠密",
+          "description": "EXTRA OPS『ジャメヴ・ミッション』を敵戦闘態勢数「0」でクリアする"
+        },
+        "russian": {
+          "name": "Скрыто",
+          "description": "Пройдите дополнительную миссию \"Жамевю\", не подняв ни одной тревоги"
+        },
+        "schinese": {
+          "name": "隐秘",
+          "description": "在额外任务「陌生感任务」中,不触发战斗便完成任务"
+        },
+        "spanish": {
+          "name": "Oculto",
+          "description": "Completa la misión extra \"Jamais Vu\" sin alertas de combate enemigo."
+        }
+      }
+    },
+    "TROPHY_CHALLENGE_ACHIEVE": {
+      "translations": {
+        "brazilian": {
+          "name": "Desbloqueado",
+          "description": "Desbloqueie todos os desafios"
+        },
+        "english": {
+          "name": "Unlocked",
+          "description": "Unlock all trials"
+        },
+        "french": {
+          "name": "Débloqué",
+          "description": "Débloquer tous les défis."
+        },
+        "german": {
+          "name": "Freigeschaltet",
+          "description": "Schalte alle Prüfungen frei."
+        },
+        "italian": {
+          "name": "Sbloccato",
+          "description": "Sblocca tutte le prove"
+        },
+        "japanese": {
+          "name": "開放",
+          "description": "全てのトライアルを開放する"
+        },
+        "russian": {
+          "name": "Разблокировано",
+          "description": "Разблокируйте все испытания"
+        },
+        "schinese": {
+          "name": "解锁",
+          "description": "解锁所有挑战"
+        },
+        "spanish": {
+          "name": "Desbloqueado",
+          "description": "Desbloquea todas las pruebas."
+        }
+      }
+    },
+    "TROPHY_OBTAIN_ALL_TAPES": {
+      "translations": {
+        "brazilian": {
+          "name": "Informação",
+          "description": "Obtenha todas as fitas cassete"
+        },
+        "english": {
+          "name": "Information",
+          "description": "Obtain all cassette tapes"
+        },
+        "french": {
+          "name": "Informations",
+          "description": "Obtenir toutes les cassettes."
+        },
+        "german": {
+          "name": "Information",
+          "description": "Beschaffe alle Kassetten."
+        },
+        "italian": {
+          "name": "Informazioni",
+          "description": "Ottieni tutte le audiocassette"
+        },
+        "japanese": {
+          "name": "情報",
+          "description": "全てのカセットテープを入手する"
+        },
+        "russian": {
+          "name": "Информация",
+          "description": "Соберите все кассетные пленки"
+        },
+        "schinese": {
+          "name": "资讯",
+          "description": "获得所有录音带"
+        },
+        "spanish": {
+          "name": "Información",
+          "description": "Consigue todos los casetes."
+        }
+      }
+    },
+    "TROPHY_OBTAIN_ALL_XOF": {
+      "translations": {
+        "brazilian": {
+          "name": "Emblema",
+          "description": "Obtenha todos os emblemas da unidade XOF"
+        },
+        "english": {
+          "name": "Insignia",
+          "description": "Obtain all XOF unit patches"
+        },
+        "french": {
+          "name": "Insigne",
+          "description": "Obtenir tous les patchs XOF."
+        },
+        "german": {
+          "name": "Abzeichen",
+          "description": "Sammle alle XOF-Einheitenabzeichen."
+        },
+        "italian": {
+          "name": "Distintivi",
+          "description": "Ottieni tutti gli stemmi dell'unità XOF"
+        },
+        "japanese": {
+          "name": "臂章",
+          "description": "全てのXOF部隊章を入手する"
+        },
+        "russian": {
+          "name": "Знаки отличия",
+          "description": "Соберите все нашивки отряда XOF"
+        },
+        "schinese": {
+          "name": "臂章",
+          "description": "获得所有XOF部队章"
+        },
+        "spanish": {
+          "name": "Insignia",
+          "description": "Consigue todas las insignias XOF"
+        }
+      }
+    }
+  }
+}

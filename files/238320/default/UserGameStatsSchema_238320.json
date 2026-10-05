@@ -1,0 +1,636 @@
+{
+  "version": 1,
+  "app_id": "238320",
+  "variant_id": "default",
+  "source_sha256": "70de0545842a295132e39e2665f49094e4006d78575435f7b2b0e8b7d905836b",
+  "languages": [
+    "brazilian",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "Achievement_0": {
+      "translations": {
+        "brazilian": {
+          "name": "ILUMINADO",
+          "description": "Restabeleça a energia no Bloco da Administração"
+        },
+        "english": {
+          "name": "ILLUMINATED",
+          "description": "Restore power to the Administrative Block"
+        },
+        "french": {
+          "name": "ILLUMINÉ",
+          "description": "Rétablissez le courant dans le Service Administratif"
+        },
+        "german": {
+          "name": "ERLEUCHTET",
+          "description": "Stelle die Stromversorgung zum Verwaltungsblock wieder her"
+        },
+        "italian": {
+          "name": "ILLUMINATO",
+          "description": "Ripristina la corrente nel Blocco Amministrativo"
+        },
+        "japanese": {
+          "name": "イルミネーション",
+          "description": "管理ブロックへの電力を回復せよ"
+        },
+        "polish": {
+          "name": "OŚWIETLONY",
+          "description": "Przywróć zasilanie w bloku administracyjnym"
+        },
+        "russian": {
+          "name": "ОСВЕЩЕННО",
+          "description": "Восстановить питание в административном блоке"
+        },
+        "schinese": {
+          "name": "照明",
+          "description": "恢复行政楼的供电"
+        },
+        "spanish": {
+          "name": "ILUMINADO",
+          "description": "Restablece el suministro eléctrico en el edificio de administración"
+        }
+      }
+    },
+    "Achievement_1": {
+      "translations": {
+        "brazilian": {
+          "name": "DRENADO",
+          "description": "Drene os Esgotos"
+        },
+        "english": {
+          "name": "FLUSHED",
+          "description": "Drain the Sewers"
+        },
+        "french": {
+          "name": "VIDÉ",
+          "description": "Évacuez l'eau des Égouts"
+        },
+        "german": {
+          "name": "DURCHGESPÜLT",
+          "description": "Lege die Kanalisation trocken"
+        },
+        "italian": {
+          "name": "SCARICATO",
+          "description": "Drena le Fogne"
+        },
+        "japanese": {
+          "name": "流されちゃった",
+          "description": "下水管から下水を排水せよ"
+        },
+        "polish": {
+          "name": "SPUSZCZONY W KANAŁ",
+          "description": "Osusz kanalizację"
+        },
+        "russian": {
+          "name": "СМЫТО",
+          "description": "Опустошить сточные трубы"
+        },
+        "schinese": {
+          "name": "冲刷",
+          "description": "将下水道的水排干"
+        },
+        "spanish": {
+          "name": "VACIADO",
+          "description": "Vacía las cloacas"
+        }
+      }
+    },
+    "Achievement_2": {
+      "translations": {
+        "brazilian": {
+          "name": "ENSOPADO",
+          "description": "Ative os aspersores de incêndio na Ala Masculina"
+        },
+        "english": {
+          "name": "SOAKED",
+          "description": "Activate the sprinklers in the Male Ward"
+        },
+        "french": {
+          "name": "TREMPÉ",
+          "description": "Activez les extincteurs dans l'Aile des hommes"
+        },
+        "german": {
+          "name": "DURCHNÄSST",
+          "description": "Löse die Sprinkleranlage in der Männerstation aus"
+        },
+        "italian": {
+          "name": "FRADICIO",
+          "description": "Attiva gli irrigatori nel Reparto Maschile"
+        },
+        "japanese": {
+          "name": "ずぶ濡れ",
+          "description": "男性病棟のスプリンクラーを起動せよ"
+        },
+        "polish": {
+          "name": "PRZEMOCZONY",
+          "description": "Włącz zraszacze na oddziale dla mężczyzn"
+        },
+        "russian": {
+          "name": "ВЫСУШЕНО",
+          "description": "Включить разбрызгиватели в мужском отделении"
+        },
+        "schinese": {
+          "name": "浸泡",
+          "description": "开启男病房的喷头"
+        },
+        "spanish": {
+          "name": "EMPAPADO",
+          "description": "Activa los aspersores en el pabellón masculino"
+        }
+      }
+    },
+    "Achievement_3": {
+      "translations": {
+        "brazilian": {
+          "name": "EMANCIPADO",
+          "description": "Colete a chave na Ala Feminina"
+        },
+        "english": {
+          "name": "EMANCIPATED",
+          "description": "Collect the key in the Female Ward"
+        },
+        "french": {
+          "name": "LIBÉRÉ",
+          "description": "Récupérez la clé dans l'Aile des Femmes"
+        },
+        "german": {
+          "name": "EMANZIPIERT",
+          "description": "Besorge den Schlüssel aus der Frauenstation"
+        },
+        "italian": {
+          "name": "EMANCIPATO",
+          "description": "Raccogli la chiave nel Reparto Femminile"
+        },
+        "japanese": {
+          "name": "解放",
+          "description": "女性病棟で鍵を収集せよ"
+        },
+        "polish": {
+          "name": "EMANCYPOWANY",
+          "description": "Zbierz wszystkie klucze na oddziale dla kobiet"
+        },
+        "russian": {
+          "name": "ОСВОБОЖДЕНО",
+          "description": "Найти ключ в женском отделении"
+        },
+        "schinese": {
+          "name": "解放",
+          "description": "在女病房中找到钥匙"
+        },
+        "spanish": {
+          "name": "EMANCIPADO",
+          "description": "Consigue la llave en el pabellón femenino"
+        }
+      }
+    },
+    "Achievement_4": {
+      "translations": {
+        "brazilian": {
+          "name": "INFORMADO",
+          "description": "Colete 15 documentos e complete 15 gravações"
+        },
+        "english": {
+          "name": "EDUCATED",
+          "description": "Collect 15 documents and complete 15 recordings"
+        },
+        "french": {
+          "name": "ÉDUQUÉ",
+          "description": "Récupérez 15 documents et complétez 15 enregistrements"
+        },
+        "german": {
+          "name": "GEBILDET",
+          "description": "Sammle 15 Dokumente und vervollständige 15 Aufnahmen"
+        },
+        "italian": {
+          "name": "ISTRUITO",
+          "description": "Raccogli 15 documenti e completa 15 registrazioni"
+        },
+        "japanese": {
+          "name": "知識豊富",
+          "description": "ドキュメントを15部集めて記録を15個完成させよ"
+        },
+        "polish": {
+          "name": "OCZYTANY",
+          "description": "Zbierz 15 dokumentów i ukończ 15 nagrań"
+        },
+        "russian": {
+          "name": "ОБУЧЕН",
+          "description": "Собрать 15 документов и завершить 15 записей"
+        },
+        "schinese": {
+          "name": "受过教育",
+          "description": "收集本体 15 份档案并完成 15 段录音"
+        },
+        "spanish": {
+          "name": "EDUCADO",
+          "description": "Consigue 15 documentos y completa 15 grabaciones"
+        }
+      }
+    },
+    "Achievement_5": {
+      "translations": {
+        "brazilian": {
+          "name": "CASTIGADO",
+          "description": "Termine o jogo"
+        },
+        "english": {
+          "name": "PUNISHED",
+          "description": "Finish the game"
+        },
+        "french": {
+          "name": "PUNI",
+          "description": "Terminez le jeu"
+        },
+        "german": {
+          "name": "BESTRAFT",
+          "description": "Beende das Spiel"
+        },
+        "italian": {
+          "name": "PUNITO",
+          "description": "Finisci il gioco"
+        },
+        "japanese": {
+          "name": "罰喰らった！",
+          "description": "ゲームをクリアせよ"
+        },
+        "polish": {
+          "name": "UKARANY",
+          "description": "Ukończ grę"
+        },
+        "russian": {
+          "name": "НАКАЗАН",
+          "description": "Закончить игру"
+        },
+        "schinese": {
+          "name": "惩罚",
+          "description": "通关本体"
+        },
+        "spanish": {
+          "name": "CASTIGADO",
+          "description": "Termina el juego"
+        }
+      }
+    },
+    "Achievement_6": {
+      "translations": {
+        "brazilian": {
+          "name": "PULITZER",
+          "description": "Colete todos os documentos e complete todas as gravações"
+        },
+        "english": {
+          "name": "PULITZER",
+          "description": "Collect all documents and complete all recordings"
+        },
+        "french": {
+          "name": "PULITZER",
+          "description": "Récupérez l'intégralité des documents et complétez tous les enregistrements"
+        },
+        "german": {
+          "name": "PULITZER",
+          "description": "Sammle alle Dokumente und vervollständige alle Aufnahmen"
+        },
+        "italian": {
+          "name": "PREMIO PULITZER",
+          "description": "Raccogli tutti i documenti e completa tutte le registrazioni"
+        },
+        "japanese": {
+          "name": "ピュリッツァー",
+          "description": "ドキュメントをすべて集めて全記録を完成させよ"
+        },
+        "polish": {
+          "name": "PULITZER",
+          "description": "Zbierz wszystkie dokumenty i ukończ wszystkie nagrania"
+        },
+        "russian": {
+          "name": "ПУЛИТЦЕР",
+          "description": "Собрать все документы и завершить все записи"
+        },
+        "schinese": {
+          "name": "普利策奖",
+          "description": "收集本体全部档案并完成所有录音"
+        },
+        "spanish": {
+          "name": "PULITZER",
+          "description": "Consigue todos los documentos y completa todas las grabaciones"
+        }
+      }
+    },
+    "Achievement_7": {
+      "translations": {
+        "brazilian": {
+          "name": "LUNÁTICO",
+          "description": "Termine o jogo no Modo Insano"
+        },
+        "english": {
+          "name": "LUNATIC",
+          "description": "Finish the game in Insane mode"
+        },
+        "french": {
+          "name": "LUNATIQUE",
+          "description": "Terminez le jeu en Mode Psychose"
+        },
+        "german": {
+          "name": "VERRÜCKTER",
+          "description": "Beende das Spiel im Wahnsinn-Modus"
+        },
+        "italian": {
+          "name": "LUNATICO",
+          "description": "Finisci il gioco in Modalità Folle"
+        },
+        "japanese": {
+          "name": "サイコパス",
+          "description": "クレイジー・モードでゲームをクリアせよ"
+        },
+        "polish": {
+          "name": "OBŁĄKANY",
+          "description": "Ukończ grę w trybie Szaleńca"
+        },
+        "russian": {
+          "name": "ЛУНАТИК",
+          "description": "Завершить игру в режиме Псих"
+        },
+        "schinese": {
+          "name": "疯子",
+          "description": "以疯狂难度通关本体"
+        },
+        "spanish": {
+          "name": "LUNÁTICO",
+          "description": "Termina el juego en el modo Demente"
+        }
+      }
+    },
+    "Achievement_8": {
+      "translations": {
+        "brazilian": {
+          "name": "VAZADOR DE GÁS",
+          "description": "Desligue o gás"
+        },
+        "english": {
+          "name": "GAS LEAKER",
+          "description": "Turn off the gas"
+        },
+        "french": {
+          "name": "ASPHIXIANT",
+          "description": "Coupez le gaz"
+        },
+        "german": {
+          "name": "GASLECK",
+          "description": "Drehe das Gas ab"
+        },
+        "italian": {
+          "name": "GASATO",
+          "description": "Chiudi il gas"
+        },
+        "japanese": {
+          "name": "ガス漏れを発生させた者",
+          "description": "ガスを止めましょう"
+        },
+        "polish": {
+          "name": "WYCIEK GAZU",
+          "description": "Wyłącz gaz"
+        },
+        "russian": {
+          "name": "УТЕЧКА ГАЗА",
+          "description": "Выключите газ"
+        },
+        "schinese": {
+          "name": "气体泄漏者",
+          "description": "关闭气体"
+        },
+        "spanish": {
+          "name": "FUGA DE GAS",
+          "description": "Cierra el gas"
+        }
+      }
+    },
+    "Achievement_9": {
+      "translations": {
+        "brazilian": {
+          "name": "CHOCANTE",
+          "description": "Desligue a eletricidade"
+        },
+        "english": {
+          "name": "SHOCKER",
+          "description": "Turn off the electricity"
+        },
+        "french": {
+          "name": "CHOQUANT",
+          "description": "Coupez le courant"
+        },
+        "german": {
+          "name": "SCHOCKER",
+          "description": "Schalte den Strom aus"
+        },
+        "italian": {
+          "name": "ELETTRIZZATO",
+          "description": "Stacca la corrente"
+        },
+        "japanese": {
+          "name": "ショックを与える者",
+          "description": "電気を消しましょう"
+        },
+        "polish": {
+          "name": "POD PRĄDEM",
+          "description": "Wyłącz prąd"
+        },
+        "russian": {
+          "name": "ШОКЕР",
+          "description": "Выключите электричество"
+        },
+        "schinese": {
+          "name": "令人震惊",
+          "description": "关掉电源"
+        },
+        "spanish": {
+          "name": "ACOJONANTE",
+          "description": "Corta la electricidad"
+        }
+      }
+    },
+    "Achievement_10": {
+      "translations": {
+        "brazilian": {
+          "name": "WHISTLEBLOWER",
+          "description": "Termine o jogo"
+        },
+        "english": {
+          "name": "WHISTLEBLOWER",
+          "description": "Finish the Whistleblower DLC"
+        },
+        "french": {
+          "name": "WHISTLEBLOWER",
+          "description": "Terminez le contenu téléchargeable"
+        },
+        "german": {
+          "name": "WHISTLEBLOWER",
+          "description": "Beende das Spiel"
+        },
+        "italian": {
+          "name": "WHISTLEBLOWER",
+          "description": "Finisci il gioco"
+        },
+        "japanese": {
+          "name": "内部告発者",
+          "description": "ゲームを終える"
+        },
+        "polish": {
+          "name": "WHISTLEBLOWER",
+          "description": "Ukończ grę"
+        },
+        "russian": {
+          "name": "ИНФОРМАТОР",
+          "description": "Закончите игру"
+        },
+        "schinese": {
+          "name": "告密者",
+          "description": "通关告密者"
+        },
+        "spanish": {
+          "name": "WHISTLEBLOWER",
+          "description": "Termina el juego"
+        }
+      }
+    },
+    "Achievement_11": {
+      "translations": {
+        "brazilian": {
+          "name": "BOWELWHISTLER",
+          "description": "Termine o DLC no modo Insano"
+        },
+        "english": {
+          "name": "BOWELWHISTLER",
+          "description": "Finish the DLC in Insane mode"
+        },
+        "french": {
+          "name": "PSYCHOTIQUE",
+          "description": "Terminez le contenu téléchargeable en mode psychose"
+        },
+        "german": {
+          "name": "DARMPFEIFER",
+          "description": "Beende den DLC im Wahnsinn-Modus"
+        },
+        "italian": {
+          "name": "SUONATORE DI VISCERE",
+          "description": "Finisci il DLC in modalità Folle"
+        },
+        "japanese": {
+          "name": "内臓ホイッスラー",
+          "description": "DLCをクレージーモードで終了する"
+        },
+        "polish": {
+          "name": "EKSTREMISTA",
+          "description": "Ukończ dodatek na poziomie SZALONY"
+        },
+        "russian": {
+          "name": "СТУКАЧЕК",
+          "description": "Закончите DLC в режиме Безумный"
+        },
+        "schinese": {
+          "name": "肠鸣者",
+          "description": "以疯狂难度通关告密者"
+        },
+        "spanish": {
+          "name": "SOPLATRIPAS",
+          "description": "Completa Whistleblower en modo demente"
+        }
+      }
+    },
+    "Achievement_12": {
+      "translations": {
+        "brazilian": {
+          "name": "ARQUIVISTA",
+          "description": "Colete todos os documentos"
+        },
+        "english": {
+          "name": "ARCHIVIST",
+          "description": "Collect all documents"
+        },
+        "french": {
+          "name": "ARCHIVISTE",
+          "description": "Récupérez tous les documents"
+        },
+        "german": {
+          "name": "ARCHIVAR",
+          "description": "Sammle alle Dokumente"
+        },
+        "italian": {
+          "name": "ARCHIVISTA",
+          "description": "Raccogli tutti i documenti"
+        },
+        "japanese": {
+          "name": "公文書保管人",
+          "description": "書類すべてを集める"
+        },
+        "polish": {
+          "name": "ARCHIWISTA",
+          "description": "Zbierz wszystkie dokumenty"
+        },
+        "russian": {
+          "name": "АРХИВАРИУС",
+          "description": "Соберите все документы"
+        },
+        "schinese": {
+          "name": "档案管理员",
+          "description": "收集告密者全部档案"
+        },
+        "spanish": {
+          "name": "ARCHIVERO",
+          "description": "Consigue todos los documentos"
+        }
+      }
+    },
+    "Achievement_13": {
+      "translations": {
+        "brazilian": {
+          "name": "LEGADO",
+          "description": "Complete todas as notas"
+        },
+        "english": {
+          "name": "LEGACY",
+          "description": "Complete all recordings"
+        },
+        "french": {
+          "name": "HÉRITAGE",
+          "description": "Complétez tous les enregistrements"
+        },
+        "german": {
+          "name": "VERMÄCHTNIS",
+          "description": "Sammle alle Aufnahmen"
+        },
+        "italian": {
+          "name": "EREDITÀ",
+          "description": "Completa tutte le registrazioni"
+        },
+        "japanese": {
+          "name": "遺産",
+          "description": "記録をすべて完了する"
+        },
+        "polish": {
+          "name": "DZIEDZICTWO",
+          "description": "Ukończ wszystkie nagrania"
+        },
+        "russian": {
+          "name": "НАСЛЕДИЕ",
+          "description": "Закончите все аудиозаписи"
+        },
+        "schinese": {
+          "name": "遗产",
+          "description": "完成告密者所有录音"
+        },
+        "spanish": {
+          "name": "LEGADO",
+          "description": "Completa todas las grabaciones"
+        }
+      }
+    }
+  }
+}
