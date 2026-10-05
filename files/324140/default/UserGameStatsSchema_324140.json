@@ -1,0 +1,1329 @@
+{
+  "version": 1,
+  "app_id": "324140",
+  "variant_id": "default",
+  "source_sha256": "f0afd4b31b2933a113ac05bf92af0a318ebe6252d36b42e137198237f0b5d5be",
+  "languages": [
+    "brazilian",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "DefeatSkyBoss": {
+      "translations": {
+        "brazilian": {
+          "name": "Matador de passarinho",
+          "description": "Salve Kalimba derrotando o Pássaro"
+        },
+        "english": {
+          "name": "Bird Beater",
+          "description": "Save Kalimba by defeating The Bird"
+        },
+        "french": {
+          "name": "Bourreau d'oiseau",
+          "description": "Sauve Kalimba en éliminant L'Oiseau"
+        },
+        "german": {
+          "name": "Vogeltöter",
+          "description": "Rette Kalimba, indem du den Vogel besiegst"
+        },
+        "italian": {
+          "name": "Batti-becco",
+          "description": "Salva Kalimba sconfiggendo l'Uccello"
+        },
+        "schinese": {
+          "name": "打鸟高手",
+          "description": "击败大鸟，拯救克林巴岛。"
+        },
+        "spanish": {
+          "name": "Cazador de pájaros",
+          "description": "Derrota al Pájaro y salva Kalimba."
+        }
+      }
+    },
+    "AllGoldEarthTotems": {
+      "translations": {
+        "brazilian": {
+          "name": "Bonança",
+          "description": "Complete um totem dourado do mundo médio"
+        },
+        "english": {
+          "name": "Bonanza",
+          "description": "Achieve an all golden Middleworld totem"
+        },
+        "french": {
+          "name": "Quelle aubaine !",
+          "description": "Obtiens un totem tout en or dans le Monde du milieu"
+        },
+        "german": {
+          "name": "Bonanza",
+          "description": "Hol dir ein komplett goldenes Mittelwelt-Totem"
+        },
+        "italian": {
+          "name": "Miniera d'oro",
+          "description": "Ottieni un totem tutto d'oro nel Mondo di Mezzo"
+        },
+        "schinese": {
+          "name": "大丰收",
+          "description": "中界世界的图腾达到全部金色。"
+        },
+        "spanish": {
+          "name": "Riqueza",
+          "description": "Consigue todos los tótems dorados del Mundo Medio."
+        }
+      }
+    },
+    "AllGoldUnderworldTotems": {
+      "translations": {
+        "brazilian": {
+          "name": "Interesseiro",
+          "description": "Complete um totem dourado do mundo inferior"
+        },
+        "english": {
+          "name": "Gold Digger",
+          "description": "Achieve an all golden Underworld totem"
+        },
+        "french": {
+          "name": "Chercheur d'or",
+          "description": "Obtiens un totem tout en or dans le Monde souterrain"
+        },
+        "german": {
+          "name": "Goldgräber",
+          "description": "Hol dir ein komplett goldenes Unterwelt-Totem"
+        },
+        "italian": {
+          "name": "Cercatore d'oro",
+          "description": "Ottieni un totem tutto d'oro nel Mondo Inferiore"
+        },
+        "schinese": {
+          "name": "淘金者",
+          "description": "下界世界的图腾达到全部金色。"
+        },
+        "spanish": {
+          "name": "Buscador de oro",
+          "description": "Consigue todos los tótems dorados del Mundo Inferior."
+        }
+      }
+    },
+    "AllGoldSkyTotems": {
+      "translations": {
+        "brazilian": {
+          "name": "Kalimba nas alturas",
+          "description": "Complete um totem dourado do mundo superior"
+        },
+        "english": {
+          "name": "Kalimba in the sky",
+          "description": "Achieve an all golden Upperworld totem"
+        },
+        "french": {
+          "name": "Kalimba in the sky",
+          "description": "Obtiens un totem tout en or dans le Monde céleste"
+        },
+        "german": {
+          "name": "Kalimba am Himmel",
+          "description": "Hol dir ein komplett goldenes Oberwelt-Totem"
+        },
+        "italian": {
+          "name": "Kalimba in cielo",
+          "description": "Ottieni un totem tutto d'oro nel Mondo Superiore"
+        },
+        "schinese": {
+          "name": "天穹克林巴",
+          "description": "上界世界的图腾达到全部金色。"
+        },
+        "spanish": {
+          "name": "Kalimba por los cielos",
+          "description": "Consigue todos los tótems dorados del Mundo Superior."
+        }
+      }
+    },
+    "GetGoldTotem": {
+      "translations": {
+        "brazilian": {
+          "name": "Ouro",
+          "description": "Obtenha uma parte do totem dourado. (Kalimba)"
+        },
+        "english": {
+          "name": "Bling Bling",
+          "description": "Get a golden totem piece in Kalimba"
+        },
+        "french": {
+          "name": "Bling Bling",
+          "description": "Obtiens un morceau de totem en or. (Kalimba)"
+        },
+        "german": {
+          "name": "Bling Bling",
+          "description": "Hol dir ein goldenes Totem-Stück. (Kalimba)"
+        },
+        "italian": {
+          "name": "Sempre più ricco",
+          "description": "Ottieni una parte del totem d'oro. (Kalimba)"
+        },
+        "schinese": {
+          "name": "闪闪发光",
+          "description": "在克林巴岛获得一块金色图腾。"
+        },
+        "spanish": {
+          "name": "¡Cómo brilla!",
+          "description": "Consigue un trozo de tótem dorado. (Kalimba)"
+        }
+      }
+    },
+    "FindAllChallengeRooms": {
+      "translations": {
+        "brazilian": {
+          "name": "Explorador",
+          "description": "Encontre todas as salas de desafio"
+        },
+        "english": {
+          "name": "Explorer",
+          "description": "Find all challengerooms"
+        },
+        "french": {
+          "name": "Explorateur",
+          "description": "Trouve toutes les pièces de défi"
+        },
+        "german": {
+          "name": "Entdecker",
+          "description": "Finde alle Herausforderungsräume"
+        },
+        "italian": {
+          "name": "Esploratore",
+          "description": "Trova tutte le stanze sfida"
+        },
+        "schinese": {
+          "name": "探险家",
+          "description": "找到所有挑战房间。"
+        },
+        "spanish": {
+          "name": "Explorador",
+          "description": "Encuentra todas las salas de desafíos."
+        }
+      }
+    },
+    "BeatChallengeRoom07": {
+      "translations": {
+        "brazilian": {
+          "name": "Eu gosto de tartarugas!",
+          "description": "Complete a Sala da Gravidade"
+        },
+        "english": {
+          "name": "I like turtles!",
+          "description": "Complete the Gravity room"
+        },
+        "french": {
+          "name": "J'aime les tortues !",
+          "description": "Termine la pièce de pesanteur"
+        },
+        "german": {
+          "name": "Ich mag Schildkröten!",
+          "description": "Schließe den Schwerkraftraum ab"
+        },
+        "italian": {
+          "name": "Mi piacciono le tartarughe!",
+          "description": "Completa la stanza gravitazione"
+        },
+        "schinese": {
+          "name": "我喜欢乌龟！",
+          "description": "完成重力房间。"
+        },
+        "spanish": {
+          "name": "¡Me gustan las tortugas!",
+          "description": "Completa la sala gravitatoria."
+        }
+      }
+    },
+    "MadeMenuPyramid": {
+      "translations": {
+        "brazilian": {
+          "name": "Illuminati",
+          "description": "Remonte a pirâmide do menu"
+        },
+        "english": {
+          "name": "Illuminati",
+          "description": "Re-assemble the menu pyramid"
+        },
+        "french": {
+          "name": "Illuminati",
+          "description": "Reconstitue la pyramide du menu"
+        },
+        "german": {
+          "name": "Illuminati",
+          "description": "Setze die Menü-Pyramide wieder zusammen"
+        },
+        "italian": {
+          "name": "Illuminato",
+          "description": "Riassembla il menu a piramide"
+        },
+        "schinese": {
+          "name": "光明会",
+          "description": "重新拼好主菜单的金字塔。"
+        },
+        "spanish": {
+          "name": "Illuminati",
+          "description": "Vuelve a montar el menú pirámide."
+        }
+      }
+    },
+    "DefeatUnderworldBoss": {
+      "translations": {
+        "brazilian": {
+          "name": "Encantador de serpentes",
+          "description": "Salve o mundo inferior derrotando a Serpente"
+        },
+        "english": {
+          "name": "Snake Charmer",
+          "description": "Save the Underworld by defeating The Snake"
+        },
+        "french": {
+          "name": "Charmeur de serpents",
+          "description": "Sauve le Monde souterrain en éliminant le Serpent"
+        },
+        "german": {
+          "name": "Schlangenbeschwörer",
+          "description": "Rette die Unterwelt, indem du die Schlange besiegst"
+        },
+        "italian": {
+          "name": "Incantatore di serpenti",
+          "description": "Salva il Mondo Inferiore sconfiggendo il Serpente"
+        },
+        "schinese": {
+          "name": "弄蛇人",
+          "description": "击败毒蛇，拯救下界世界。"
+        },
+        "spanish": {
+          "name": "Encantador de serpientes",
+          "description": "Salva al Mundo Inferior derrotando a la Serpiente."
+        }
+      }
+    },
+    "SuperSecret": {
+      "translations": {
+        "brazilian": {
+          "name": "Supersecreto",
+          "description": "A mão que segura a árvore também segura o totem"
+        },
+        "english": {
+          "name": "Supersecret",
+          "description": "The arm that holds the tree can also hold the totem"
+        },
+        "french": {
+          "name": "Supersecret",
+          "description": "Le bras qui tient l'arbre peut aussi tenir le totem"
+        },
+        "german": {
+          "name": "Supergeheim",
+          "description": "Der Arm, der den Baum hält, kann auch das Totem halten"
+        },
+        "italian": {
+          "name": "Supersegreto",
+          "description": "Il braccio che regge l'albero può sostenere anche il totem"
+        },
+        "schinese": {
+          "name": "超级秘密",
+          "description": "托住大树的臂膀，也能托住图腾。"
+        },
+        "spanish": {
+          "name": "Supersecreto",
+          "description": "El brazo que sostiene el árbol también puede sostener el tótem."
+        }
+      }
+    },
+    "BeatAllChallengeRooms": {
+      "translations": {
+        "brazilian": {
+          "name": "Conquista conquistada",
+          "description": "Complete todas as salas"
+        },
+        "english": {
+          "name": "The Achieving Achievement",
+          "description": "Complete all the rooms"
+        },
+        "french": {
+          "name": "Le succès de la réussite",
+          "description": "Termine toutes les pièces"
+        },
+        "german": {
+          "name": "Der Erfolgserfolg",
+          "description": "Schließe alle Räume ab"
+        },
+        "italian": {
+          "name": "Massimo obiettivo",
+          "description": "Completa tutte le stanze"
+        },
+        "schinese": {
+          "name": "成就大师",
+          "description": "完成所有房间。"
+        },
+        "spanish": {
+          "name": "El logro de los logros",
+          "description": "Completa todas las salas."
+        }
+      }
+    },
+    "CompleteAllSoloOldSchool": {
+      "translations": {
+        "brazilian": {
+          "name": "De volta aos 80",
+          "description": "Complete o jogo com o modo velha escola ativado. (Kalimba)"
+        },
+        "english": {
+          "name": "That Eighties Feel",
+          "description": "Complete the Kalimba world with the ol'school mode enabled"
+        },
+        "french": {
+          "name": "Cette ambiance années 80",
+          "description": "Termine le jeu en mode Rétro. (Kalimba)"
+        },
+        "german": {
+          "name": "Dieses 80er-Jahre-Gefühl",
+          "description": "Schließe das Spiel im Alte-Schule-Modus ab. (Kalimba)"
+        },
+        "italian": {
+          "name": "Anni ottanta",
+          "description": "Completa il gioco attivando la modalità Vecchi tempi. (Kalimba)"
+        },
+        "schinese": {
+          "name": "复古80年代",
+          "description": "开启复古模式完成克林巴岛。"
+        },
+        "spanish": {
+          "name": "Tan de los 80…",
+          "description": "Termina el juego con el modo Vieja escuela activado. (Kalimba)"
+        }
+      }
+    },
+    "ThatsRight": {
+      "translations": {
+        "brazilian": {
+          "name": "Destro",
+          "description": "Complete um nível sem morrer pressionando apenas para a direita no controle. (Kalimba)"
+        },
+        "english": {
+          "name": "That's right!",
+          "description": "Complete a Kalimba level without dying and always pressing right on the joypad"
+        },
+        "french": {
+          "name": "Absolument !",
+          "description": "Termine un niveau sans mourir en appuyant à droite. (Kalimba)"
+        },
+        "german": {
+          "name": "So ist es recht(s)!",
+          "description": "Schließe einen Level ohne zu sterben ab, indem du immer nur nach rechts drückst. (Kalimba)"
+        },
+        "italian": {
+          "name": "Sempre a destra!",
+          "description": "Completa un livello senza morire e premendo sempre a destra. (Kalimba)"
+        },
+        "schinese": {
+          "name": "没错！",
+          "description": "在不死的情况下一直按手柄右键，完成一个关卡。"
+        },
+        "spanish": {
+          "name": "¡Eso es!",
+          "description": "Completa un nivel sin morir y sin dejar de moverte hacia la derecha. (Kalimba)"
+        }
+      }
+    },
+    "BeatChallengeRoom03": {
+      "translations": {
+        "brazilian": {
+          "name": "Conquista saltitante",
+          "description": "Complete a Sala Saltitante"
+        },
+        "english": {
+          "name": "The Bouncing Achievement",
+          "description": "Complete the Bouncing room"
+        },
+        "french": {
+          "name": "Le succès à rebonds",
+          "description": "Termine la pièce à rebonds"
+        },
+        "german": {
+          "name": "Der Hüpf-Erfolg",
+          "description": "Schließe den Hüpfraum ab"
+        },
+        "italian": {
+          "name": "Obiettivo rimbalzante",
+          "description": "Completa la stanza rimbalzante"
+        },
+        "schinese": {
+          "name": "弹跳成就",
+          "description": "完成弹跳房间。"
+        },
+        "spanish": {
+          "name": "Logro rebotador",
+          "description": "Completa la sala rebotadora."
+        }
+      }
+    },
+    "BeatChallengeRoom22": {
+      "translations": {
+        "brazilian": {
+          "name": "Conquista desafiadora",
+          "description": "Complete a Sala Desafiadora"
+        },
+        "english": {
+          "name": "The Challenging Achievement",
+          "description": "Complete the Challenging room"
+        },
+        "french": {
+          "name": "Le succès difficile",
+          "description": "Termine la pièce difficile"
+        },
+        "german": {
+          "name": "Der Qualraum-Erfolg",
+          "description": "Schließe den Qualraum ab"
+        },
+        "italian": {
+          "name": "Obiettivo sfida",
+          "description": "Completa la stanza sfida"
+        },
+        "schinese": {
+          "name": "挑战成就",
+          "description": "完成挑战房间。"
+        },
+        "spanish": {
+          "name": "Logro desafiante",
+          "description": "Completa la sala de los desafíos."
+        }
+      }
+    },
+    "BeatChallengeRoom05": {
+      "translations": {
+        "brazilian": {
+          "name": "Conquista colorida",
+          "description": "Complete a Sala das Cores"
+        },
+        "english": {
+          "name": "The Color Achievement",
+          "description": "Complete the Color room"
+        },
+        "french": {
+          "name": "Le succès coloré",
+          "description": "Termine la pièce colorée"
+        },
+        "german": {
+          "name": "Der Farben-Erfolg",
+          "description": "Schließe den Farbenraum ab"
+        },
+        "italian": {
+          "name": "Obiettivo colorato",
+          "description": "Completa la stanza colorata"
+        },
+        "schinese": {
+          "name": "色彩成就",
+          "description": "完成色彩房间。"
+        },
+        "spanish": {
+          "name": "Logro colorido",
+          "description": "Completa la sala de colores."
+        }
+      }
+    },
+    "BeatChallengeRoom17": {
+      "translations": {
+        "brazilian": {
+          "name": "Conquista flutuante",
+          "description": "Complete a Sala Flutuante"
+        },
+        "english": {
+          "name": "The Floating Achievement",
+          "description": "Complete the Floating room"
+        },
+        "french": {
+          "name": "Le succès flottant",
+          "description": "Termine la pièce flottante"
+        },
+        "german": {
+          "name": "Der schwebende Erfolg",
+          "description": "Schließe den Schwebenden Raum ab"
+        },
+        "italian": {
+          "name": "Obiettivo fluttuante",
+          "description": "Completa la stanza fluttuante"
+        },
+        "schinese": {
+          "name": "漂浮成就",
+          "description": "完成漂浮房间。"
+        },
+        "spanish": {
+          "name": "Logro flotante",
+          "description": "Completa la sala flotante."
+        }
+      }
+    },
+    "BeatChallengeRoom12": {
+      "translations": {
+        "brazilian": {
+          "name": "Conquista frágil",
+          "description": "Complete a Sala Frágil"
+        },
+        "english": {
+          "name": "The Fragile Achievement",
+          "description": "Complete the Fragile room"
+        },
+        "french": {
+          "name": "Le succès fragile",
+          "description": "Termine la pièce fragile"
+        },
+        "german": {
+          "name": "Der zerbrechliche Erfolg",
+          "description": "Schließe den Zerbrechlichen Raum ab"
+        },
+        "italian": {
+          "name": "Obiettivo fragile",
+          "description": "Completa la stanza fragile"
+        },
+        "schinese": {
+          "name": "易碎成就",
+          "description": "完成易碎房间。"
+        },
+        "spanish": {
+          "name": "Logro frágil",
+          "description": "Completa la sala frágil."
+        }
+      }
+    },
+    "BeatChallengeRoom14": {
+      "translations": {
+        "brazilian": {
+          "name": "Conquista congelante",
+          "description": "Complete a Sala Congelante"
+        },
+        "english": {
+          "name": "The Freezing Achievement",
+          "description": "Complete the Freezing room"
+        },
+        "french": {
+          "name": "Le succès glacial",
+          "description": "Termine la pièce glaciale"
+        },
+        "german": {
+          "name": "Der Frost-Erfolg",
+          "description": "Schließe den Frostraum ab"
+        },
+        "italian": {
+          "name": "Obiettivo gelido",
+          "description": "Completa la stanza gelida"
+        },
+        "schinese": {
+          "name": "冰冻成就",
+          "description": "完成冰冻房间。"
+        },
+        "spanish": {
+          "name": "Logro congelante",
+          "description": "Completa la sala congelante."
+        }
+      }
+    },
+    "GetGoldCoopTotem": {
+      "translations": {
+        "brazilian": {
+          "name": "Teste de amizade",
+          "description": "Obtenha uma parte do totem cooperativo dourado. (Kalimba)"
+        },
+        "english": {
+          "name": "The Friendship test",
+          "description": "Achieve a golden coop totem piece in Kalimba"
+        },
+        "french": {
+          "name": "Amitié à l'épreuve",
+          "description": "Obtiens un morceau de totem en or en coop. (Kalimba)"
+        },
+        "german": {
+          "name": "Test der Freundschaft",
+          "description": "Hol dir ein goldenes Koop-Totem-Stück. (Kalimba)"
+        },
+        "italian": {
+          "name": "Prova di amicizia",
+          "description": "Ottieni una parte di totem d'oro in cooperativa. (Kalimba)"
+        },
+        "schinese": {
+          "name": "友谊的考验",
+          "description": "在克林巴岛获取一块金色合作图腾。"
+        },
+        "spanish": {
+          "name": "Prueba de amistad",
+          "description": "Consigue un trozo de tótem dorado en cooperativo. (Kalimba)"
+        }
+      }
+    },
+    "AllGoldTotemPole": {
+      "translations": {
+        "brazilian": {
+          "name": "Toque de Midas",
+          "description": "Obtenha um mastro totêmico dourado. (Kalimba)"
+        },
+        "english": {
+          "name": "The Midas Touch",
+          "description": "Get an all golden Kalimba totem pole"
+        },
+        "french": {
+          "name": "Jackpot",
+          "description": "Obtiens un totem tout en or. (Kalimba)"
+        },
+        "german": {
+          "name": "König Midas 2.0",
+          "description": "Hol dir einen komplett goldenen Totempfahl. (Kalimba)"
+        },
+        "italian": {
+          "name": "Il tocco di Re Mida",
+          "description": "Ottieni un totem tutto d'oro. (Kalimba)"
+        },
+        "schinese": {
+          "name": "点石成金",
+          "description": "克林巴岛的图腾柱达到全部金色。"
+        },
+        "spanish": {
+          "name": "El toque de Midas",
+          "description": "Consigue un tótem completamente dorado. (Kalimba)"
+        }
+      }
+    },
+    "BeatChallengeRoom15": {
+      "translations": {
+        "brazilian": {
+          "name": "Conquista precisa",
+          "description": "Complete a Sala Precisa"
+        },
+        "english": {
+          "name": "The Precision Achievement",
+          "description": "Complete the Precision room"
+        },
+        "french": {
+          "name": "Le succès de précision",
+          "description": "Termine la pièce de précision"
+        },
+        "german": {
+          "name": "Der Präzisionserfolg",
+          "description": "Schließe den Präzisionsraum ab"
+        },
+        "italian": {
+          "name": "Obiettivo preciso",
+          "description": "Completa la stanza di precisione"
+        },
+        "schinese": {
+          "name": "精准成就",
+          "description": "完成精准房间。"
+        },
+        "spanish": {
+          "name": "Logro de precisión",
+          "description": "Completa la sala precisa."
+        }
+      }
+    },
+    "BeatChallengeRoomWith50Pickups": {
+      "translations": {
+        "brazilian": {
+          "name": "Não há lugar como o Metaespaço",
+          "description": "Obtenha uma pontuação maior que 50 em um Metaespaço"
+        },
+        "english": {
+          "name": "There's no place like Metaspace",
+          "description": "Get a score higher than 50 in a Metaspace"
+        },
+        "french": {
+          "name": "L'Espace méta est un endroit unique",
+          "description": "Obtiens plus de 50 points dans la pièce Espace méta"
+        },
+        "german": {
+          "name": "Geht doch nichts über den Metaraum",
+          "description": "Erreiche eine Punktzahl von über 50 in einem Metaraum-Raum"
+        },
+        "italian": {
+          "name": "Evviva il Metaspazio",
+          "description": "Ottieni un punteggio superiore a 50 in una stanza del Metaspazio"
+        },
+        "schinese": {
+          "name": "元空间才是家",
+          "description": "在一个元空间中获得 50 分以上。"
+        },
+        "spanish": {
+          "name": "No hay nada como el metaespacio",
+          "description": "Consigue una puntuación superior a 50 en una metasala."
+        }
+      }
+    },
+    "AllGoldCoopTotemPole": {
+      "translations": {
+        "brazilian": {
+          "name": "Amigos do peito",
+          "description": "Complete um mastro totêmico cooperativo dourado. (Kalimba)"
+        },
+        "english": {
+          "name": "True Friends",
+          "description": "Achieve an all golden coop Kalimba totem pole"
+        },
+        "french": {
+          "name": "Amitié profonde",
+          "description": "Obtiens un totem tout en or en coop. (Kalimba)"
+        },
+        "german": {
+          "name": "Wahre Freunde",
+          "description": "Hol dir einen komplett goldenen Koop-Totempfahl. (Kalimba)"
+        },
+        "italian": {
+          "name": "Veri amici",
+          "description": "Ottieni un totem tutto d'oro in cooperativa. (Kalimba)"
+        },
+        "schinese": {
+          "name": "真朋友",
+          "description": "合作模式中克林巴岛的图腾柱达到全部金色。"
+        },
+        "spanish": {
+          "name": "Amigos de verdad",
+          "description": "Consigue un tótem completamente dorado en cooperativo. (Kalimba)"
+        }
+      }
+    },
+    "DefeatEarthBoss": {
+      "translations": {
+        "brazilian": {
+          "name": "Matador de gêmeos",
+          "description": "Salve o mundo médio derrotando os Gêmeos"
+        },
+        "english": {
+          "name": "Twin Slayer",
+          "description": "Save the Middleworld by defeating The Twins"
+        },
+        "french": {
+          "name": "Tueur de jumeaux",
+          "description": "Sauve le Monde du milieu en éliminant les Jumeaux"
+        },
+        "german": {
+          "name": "Zwillingstöter",
+          "description": "Rette die Mittelwelt, indem du die Zwillinge besiegst"
+        },
+        "italian": {
+          "name": "Ammazza-gemelli",
+          "description": "Salva il Mondo di Mezzo sconfiggendo i Gemelli"
+        },
+        "schinese": {
+          "name": "双子克星",
+          "description": "击败双子，拯救中界世界。"
+        },
+        "spanish": {
+          "name": "Eliminador de gemelos",
+          "description": "Salva al Mundo Medio derrotando a los Gemelos."
+        }
+      }
+    },
+    "DefeatBossWithoutDying": {
+      "translations": {
+        "brazilian": {
+          "name": "Imortal",
+          "description": "Derrote um chefe sem morrer"
+        },
+        "english": {
+          "name": "Undying",
+          "description": "Defeat a boss without dying"
+        },
+        "french": {
+          "name": "Invincible",
+          "description": "Élimine un boss sans mourir"
+        },
+        "german": {
+          "name": "Unsterblich",
+          "description": "Besiege einen Boss ohne zu sterben"
+        },
+        "italian": {
+          "name": "Immortale",
+          "description": "Sconfiggi un boss senza morire"
+        },
+        "schinese": {
+          "name": "不死之身",
+          "description": "在不死亡的情况下击败一个 Boss。"
+        },
+        "spanish": {
+          "name": "Inmortal",
+          "description": "Derrota a un jefe final sin morir."
+        }
+      }
+    },
+    "AllGoldSoloDLCTotems": {
+      "translations": {
+        "brazilian": {
+          "name": "Mastros totêmicos em todo lugar!",
+          "description": "Complete um mastro totêmico dourado do Vazio Escuro Individual"
+        },
+        "english": {
+          "name": "Totem poles everywhere!",
+          "description": "Achieve an all golden The Dark Void Solo totempole"
+        },
+        "french": {
+          "name": "Les totems sont partout !",
+          "description": "Obtenir un totem Sombre vide en or en solo"
+        },
+        "german": {
+          "name": "Totempfähle überall!",
+          "description": "Hol dir einen komplett goldenen \"Das Finstere Nichts - Solo\"-Totempfahl"
+        },
+        "italian": {
+          "name": "Totem ovunque!",
+          "description": "Ottieni un totem d'oro per il Vuoto oscuro in singolo"
+        },
+        "schinese": {
+          "name": "图腾柱无处不在！",
+          "description": "单人模式Dark Void的图腾柱达到全部金色。"
+        },
+        "spanish": {
+          "name": "¡Tótems por todas partes!",
+          "description": "Consigue un tótem completamente dorado en Vacío en solitario."
+        }
+      }
+    },
+    "AllGoldCoopDLCTotems": {
+      "translations": {
+        "brazilian": {
+          "name": "Uma amizade poderosa",
+          "description": "Complete um mastro totêmico dourado do Vazio Escuro Cooperativo"
+        },
+        "english": {
+          "name": "A mighty Friend Ship",
+          "description": "Achieve an all golden The Dark Void Coop Totempole"
+        },
+        "french": {
+          "name": "Un puissant navire ami",
+          "description": "Obtenir un totem Sombre vide en or en coop"
+        },
+        "german": {
+          "name": "Eine mächtige Freundschaft",
+          "description": "Hol dir einen komplett goldenen \"Das Finstere Nichts - Koop\"-Totempfahl"
+        },
+        "italian": {
+          "name": "Un'amicizia potente",
+          "description": "Ottieni un totem d'oro per il Vuoto oscuro in cooperativa"
+        },
+        "schinese": {
+          "name": "坚固的友谊之船",
+          "description": "合作模式中Dark Void的图腾柱达到全部金色。"
+        },
+        "spanish": {
+          "name": "Una amistad impresionante",
+          "description": "Consigue un tótem completamente dorado en Vacío en cooperativo."
+        }
+      }
+    },
+    "CompleteCoopDLC": {
+      "translations": {
+        "brazilian": {
+          "name": "Uma amizade completa",
+          "description": "Complete o Vazio Escuro Cooperativo"
+        },
+        "english": {
+          "name": "The Friendship Has Sailed",
+          "description": "Complete the Dark Void co-op"
+        },
+        "french": {
+          "name": "Amitié en vogue",
+          "description": "Terminer Sombre vide en coop"
+        },
+        "german": {
+          "name": "Die Freundschaft hat die Segel gesetzt",
+          "description": "Schließe \"Das Finstere Nichts - Koop\" ab"
+        },
+        "italian": {
+          "name": "Amicizia a gonfie vele",
+          "description": "Completa il Vuoto oscuro in cooperativa"
+        },
+        "schinese": {
+          "name": "友谊扬帆起航",
+          "description": "完成合作模式的Dark Void。"
+        },
+        "spanish": {
+          "name": "La amistad ha zarpado",
+          "description": "Completa el Vacío en cooperativo."
+        }
+      }
+    },
+    "CompleteSoloDLC": {
+      "translations": {
+        "brazilian": {
+          "name": "Quem é o tronco irritante agora?!",
+          "description": "Complete o Vazio Escuro"
+        },
+        "english": {
+          "name": "Who's a perky log now!",
+          "description": "Complete the Dark Void"
+        },
+        "french": {
+          "name": "Voilà une bûche bien guillerette !",
+          "description": "Terminer Sombre vide"
+        },
+        "german": {
+          "name": "Na, wer ist jetzt der Vollpfosten!?",
+          "description": "Schließe \"Das Finstere Nichts\" ab"
+        },
+        "italian": {
+          "name": "Che impertinente!",
+          "description": "Completa il Vuoto oscuro"
+        },
+        "schinese": {
+          "name": "现在谁是得意的原木？",
+          "description": "完成Dark Void。"
+        },
+        "spanish": {
+          "name": "¿Quién es el inútil ahora?",
+          "description": "Completa el Vacío."
+        }
+      }
+    },
+    "Kill50Seekers": {
+      "translations": {
+        "brazilian": {
+          "name": "M-M-M-Massacre",
+          "description": "Mate 50 seguidores"
+        },
+        "english": {
+          "name": "M-M-M-Monsterkill",
+          "description": "Kill 50 seekers"
+        },
+        "french": {
+          "name": "M-M-M-Mégatuerie",
+          "description": "Tuer 50 chercheurs"
+        },
+        "german": {
+          "name": "M-M-M-Monsterkiller",
+          "description": "Töte 50 Sucher"
+        },
+        "italian": {
+          "name": "Strage pazzesca",
+          "description": "Uccidi 50 cercatori"
+        },
+        "schinese": {
+          "name": "连杀狂魔",
+          "description": "击杀 50 名追踪者。"
+        },
+        "spanish": {
+          "name": "¡Maaasaaacreee!",
+          "description": "Mata a 50 buscadores."
+        }
+      }
+    },
+    "SetAllSpeedRunTimes": {
+      "translations": {
+        "brazilian": {
+          "name": "Mais rápido do que um xamã",
+          "description": "Defina um tempo em todos os níveis no modo Puma"
+        },
+        "english": {
+          "name": "Faster than a Shaman",
+          "description": "Set a time in all levels in Puma Mode"
+        },
+        "french": {
+          "name": "Plus rapide qu'un shaman",
+          "description": "Définir un temps dans chaque niveau du mode Puma"
+        },
+        "german": {
+          "name": "Schneller als ein Schamane",
+          "description": "Erreiche im Puma-Modus in allen Levels eine Zeit"
+        },
+        "italian": {
+          "name": "Più veloce di uno sciamano",
+          "description": "Supera tutti i livelli in modalità Puma in tempo da record"
+        },
+        "schinese": {
+          "name": "比萨满还快",
+          "description": "在彪马模式下为所有关卡留下时间记录。"
+        },
+        "spanish": {
+          "name": "Más rápido que un chamán",
+          "description": "Consigue el mejor tiempo en todos los niveles del modo Puma."
+        }
+      }
+    },
+    "TumbleIntoWinRoom": {
+      "translations": {
+        "brazilian": {
+          "name": "Estrela do rock",
+          "description": "Encontre um totem de nível final"
+        },
+        "english": {
+          "name": "Like a rockstar",
+          "description": "Tumble into an end level totempiece"
+        },
+        "french": {
+          "name": "Comme une star du rock",
+          "description": "Tomber sur un totem de fin de niveau"
+        },
+        "german": {
+          "name": "Wie ein Rockstar",
+          "description": "Stolpere in ein Totemstück am Ende eines Levels"
+        },
+        "italian": {
+          "name": "Come una star",
+          "description": "Incontra un totem di fine livello"
+        },
+        "schinese": {
+          "name": "像摇滚巨星一样",
+          "description": "跌撞滚入终点图腾块。"
+        },
+        "spanish": {
+          "name": "Como una estrella",
+          "description": "Llega a un tótem de final de nivel."
+        }
+      }
+    },
+    "KillSeekerInFrank": {
+      "translations": {
+        "brazilian": {
+          "name": "Você... É, você!",
+          "description": "Esmague o seguidor no \"Jeffmoldblum\""
+        },
+        "english": {
+          "name": "You... Yes, you!",
+          "description": "Squash the seeker in \"Jeffmoldblum\""
+        },
+        "french": {
+          "name": "Vous… Oui, vous !",
+          "description": "Écraser le chercheur dans \"Jeffmoldblum\""
+        },
+        "german": {
+          "name": "Du ... Ja, du!",
+          "description": "Zerquetsche den Sucher in \"Jeffmoldblum\""
+        },
+        "italian": {
+          "name": "Tu... Sì, proprio tu!",
+          "description": "Schiaccia il cercatore in \"Jeffmoldblum\""
+        },
+        "schinese": {
+          "name": "你…… 就是你！",
+          "description": "在「Jeffmoldblum」中压扁追踪者。"
+        },
+        "spanish": {
+          "name": "Tú… ¡Sí, tú!",
+          "description": "Aplasta al buscador en \"Jeffmoldblum\"."
+        }
+      }
+    },
+    "CompleteLlamaGame": {
+      "translations": {
+        "brazilian": {
+          "name": "¡Cuidado! ¡Llamas!",
+          "description": "Complete um jogo no Lhama"
+        },
+        "english": {
+          "name": "¡Cuidado! ¡Llamas!",
+          "description": "Complete a game of Llama"
+        },
+        "french": {
+          "name": "¡Cuidado! ¡Llamas!",
+          "description": "Terminer une partie de Llama"
+        },
+        "german": {
+          "name": "¡Cuidado! ¡Llamas!",
+          "description": "Schließe eine Partie im Llama-Modus ab"
+        },
+        "italian": {
+          "name": "Attenzione ai lama!",
+          "description": "Completa una partita in modalità Lama"
+        },
+        "schinese": {
+          "name": "¡Cuidado! ¡Llamas!",
+          "description": "完成一局羊驼游戏。"
+        },
+        "spanish": {
+          "name": "¡Cuidado! ¡Llamas!",
+          "description": "Completa una partida de Llama."
+        }
+      }
+    },
+    "BeatSpeedRunTime": {
+      "translations": {
+        "brazilian": {
+          "name": "Bip bip",
+          "description": "Supere qualquer tempo do Hoebear no modo Puma"
+        },
+        "english": {
+          "name": "Meep Meep",
+          "description": "Beat any Hoebear time in Puma Mode"
+        },
+        "french": {
+          "name": "Bip bip",
+          "description": "Battre n'importe quel temps de Hoebear dans le mode Puma"
+        },
+        "german": {
+          "name": "Miep-Miep",
+          "description": "Schlage irgendeine Hackebär-Zeit im Puma-Modus"
+        },
+        "italian": {
+          "name": "Bip bip",
+          "description": "Batti i record di tempo di Hoebear in modalità Puma"
+        },
+        "schinese": {
+          "name": "哔哔",
+          "description": "在彪马模式下战胜任意 Hoebear 的时间记录。"
+        },
+        "spanish": {
+          "name": "Bip, bip",
+          "description": "Supera cualquier tiempo de Hoebear en el modo Puma."
+        }
+      }
+    },
+    "Kill12SeekersAtOnce": {
+      "translations": {
+        "brazilian": {
+          "name": "CABUM",
+          "description": "Esmague 12 seguidores de uma vez"
+        },
+        "english": {
+          "name": "KAPOW",
+          "description": "Squash 12 seekers at once"
+        },
+        "french": {
+          "name": "BING !",
+          "description": "Écraser 12 chercheurs à la fois"
+        },
+        "german": {
+          "name": "PENG!",
+          "description": "Zerquetsche 12 Sucher auf einen Streich"
+        },
+        "italian": {
+          "name": "SPLAT",
+          "description": "Schiaccia 12 cercatori insieme"
+        },
+        "schinese": {
+          "name": "砰！",
+          "description": "一次性压扁 12 名追踪者。"
+        },
+        "spanish": {
+          "name": "PLAF",
+          "description": "Aplasta a 12 buscadores a la vez."
+        }
+      }
+    },
+    "CompleteBobTwiceWithoutDying": {
+      "translations": {
+        "brazilian": {
+          "name": "Déjà vu",
+          "description": "Jogue o \"DJ Steelface\" duas vezes, sem morrer"
+        },
+        "english": {
+          "name": "Déjà vu",
+          "description": "Play through \"DJ Steelface\" twice, in one go, without dying"
+        },
+        "french": {
+          "name": "Déjà vu",
+          "description": "Terminer \"DJ Steelface\" deux fois d'un coup sans mourir"
+        },
+        "german": {
+          "name": "Déjà vu",
+          "description": "Spiele \"DJ Steelface\" zweimal in einem Durchgang durch ohne zu sterben"
+        },
+        "italian": {
+          "name": "Déjà vu",
+          "description": "Supera \"DJ Steelface\" due volte in una stessa partita senza morire"
+        },
+        "schinese": {
+          "name": "似曾相识",
+          "description": "一命不死、一鼓作气通过两遍「DJ Steelface」。"
+        },
+        "spanish": {
+          "name": "Déjà vu",
+          "description": "Recorre \"DJ Steelface\" dos veces de una sentada y sin morir."
+        }
+      }
+    },
+    "SoSecret": {
+      "translations": {
+        "brazilian": {
+          "name": "Festa secreta",
+          "description": "Tudo que sobe, tem que descer... e depois subir de novo"
+        },
+        "english": {
+          "name": "Secret Dance Party",
+          "description": "What goes up, must come down... and then go up again"
+        },
+        "french": {
+          "name": "Boum secrète",
+          "description": "Tout ce qui monte, finit par redescendre… puis par remonter"
+        },
+        "german": {
+          "name": "Geheime Tanzparty",
+          "description": "Runter kommen sie alle ... und wieder rauf"
+        },
+        "italian": {
+          "name": "Festa da ballo segreta",
+          "description": "Ciò che sale scende... e poi risale"
+        },
+        "schinese": {
+          "name": "秘密舞蹈派对",
+          "description": "升得越高，摔得越重……然后再次升腾。"
+        },
+        "spanish": {
+          "name": "Fiesta secreta",
+          "description": "Todo lo que sube baja… para luego volver a subir."
+        }
+      }
+    },
+    "ViewDLCIntro": {
+      "translations": {
+        "brazilian": {
+          "name": "Reviravolta!",
+          "description": "Descubra o Vazio Escuro"
+        },
+        "english": {
+          "name": "Plot Twist!",
+          "description": "Discover the Dark Void"
+        },
+        "french": {
+          "name": "Rebondissement !",
+          "description": "Découvrir le Sombre vide"
+        },
+        "german": {
+          "name": "Überraschung!",
+          "description": "Entdecke \"Das Finstere Nichts\""
+        },
+        "italian": {
+          "name": "Colpo di scena!",
+          "description": "Scopri il Vuoto oscuro"
+        },
+        "schinese": {
+          "name": "剧情大反转！",
+          "description": "发现Dark Void。"
+        },
+        "spanish": {
+          "name": "¡Giro argumental!",
+          "description": "Descubre el Vacío."
+        }
+      }
+    },
+    "CompleteBaseAndDLC": {
+      "translations": {
+        "brazilian": {
+          "name": "Harmonia espiritual perfeita",
+          "description": "Obtenha um totem dourado em cada nível. Complete os modos Velha Escola e Puma."
+        },
+        "english": {
+          "name": "Perfect Spiritual Harmony",
+          "description": "Get a gold totem in every level. Finish Old Skool and Puma Mode."
+        },
+        "french": {
+          "name": "Parfaite harmonie spirituelle",
+          "description": "Obtenez un totem en or dans chaque niveau. Terminez les modes Rétro et Puma."
+        },
+        "german": {
+          "name": "Perfekte spirituelle Harmonie",
+          "description": "Hol dir ein goldenes Totem in jedem Level. Modi \"Alte Schule\" und "
+        },
+        "italian": {
+          "name": "Armonia spirituale perfetta",
+          "description": "Ottieni un totem d'oro in ogni livello. Completa la modalità Vecchi tempi e Puma."
+        },
+        "schinese": {
+          "name": "完美的精神共鸣",
+          "description": "在每个关卡获得一块金色图腾，并完成复古模式与彪马模式。"
+        },
+        "spanish": {
+          "name": "Perfecta armonía espiritual",
+          "description": "Consigue un tótem de oro en todos los niveles. Completa los modos Vieja escuela y Puma."
+        }
+      }
+    }
+  }
+}

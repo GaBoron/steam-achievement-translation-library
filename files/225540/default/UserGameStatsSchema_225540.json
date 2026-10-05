@@ -1,0 +1,2924 @@
+{
+  "version": 1,
+  "app_id": "225540",
+  "variant_id": "default",
+  "source_sha256": "5023d4ec031a916c78718e348254f539aa05192aa19a64d268c8ce4d41239365",
+  "languages": [
+    "brazilian",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "chaos1": {
+      "translations": {
+        "brazilian": {
+          "name": "(Apenas) Causando o caos",
+          "description": "Receba 1.000 de Caos."
+        },
+        "english": {
+          "name": "(Just) Causin' Chaos",
+          "description": "Get 1,000 Chaos."
+        },
+        "french": {
+          "name": "Chaud cas de chaos",
+          "description": "Obtenez 1000 points de chaos."
+        },
+        "german": {
+          "name": "Mein Name ist Os ... Cha Os",
+          "description": "Verursache 1000 Chaos."
+        },
+        "italian": {
+          "name": "Just Caos",
+          "description": "Raggiungi 1.000 punti caos."
+        },
+        "japanese": {
+          "name": "カオスの申し子",
+          "description": "1000カオス獲得しろ"
+        },
+        "polish": {
+          "name": "Ja tu tylko tworzę chaos",
+          "description": "Zdobądź 1000 punktów chaosu."
+        },
+        "russian": {
+          "name": "Я создаю хаос",
+          "description": "Получите 1000 очков хаоса."
+        },
+        "schinese": {
+          "name": "制造混乱",
+          "description": "获得 1,000 点混乱值"
+        },
+        "spanish": {
+          "name": "Sembrando el caos",
+          "description": "Consigue 1000 de caos."
+        }
+      }
+    },
+    "chaos2": {
+      "translations": {
+        "brazilian": {
+          "name": "Caos é meu nome do meio",
+          "description": "Receba 100.000 de Caos."
+        },
+        "english": {
+          "name": "Chaos is My Middle Name",
+          "description": "Get 100,000 Chaos."
+        },
+        "french": {
+          "name": "Chaos, j'écris ton nom",
+          "description": "Obtenez 100 000 points de chaos."
+        },
+        "german": {
+          "name": "Chaos ist mein zweiter Vorname",
+          "description": "Verursache 100.000 Chaos."
+        },
+        "italian": {
+          "name": "Caos è il mio secondo nome",
+          "description": "Raggiungi 100.000 punti caos."
+        },
+        "japanese": {
+          "name": "混沌の使者",
+          "description": "100000カオス獲得しろ"
+        },
+        "polish": {
+          "name": "Chaos to moje drugie imię",
+          "description": "Zdobądź 100000 punktów chaosu."
+        },
+        "russian": {
+          "name": "Хаос у меня в крови",
+          "description": "Получите 100 000 очков хаоса."
+        },
+        "schinese": {
+          "name": "混乱就是我的代名词",
+          "description": "获得 100,000 点混乱值"
+        },
+        "spanish": {
+          "name": "Mi segundo nombre es Caos",
+          "description": "Consigue 100 000 de caos."
+        }
+      }
+    },
+    "chaos3": {
+      "translations": {
+        "brazilian": {
+          "name": "Milionário do caos",
+          "description": "Receba 1.000.000 de Caos."
+        },
+        "english": {
+          "name": "Chaos Millionaire",
+          "description": "Get 1,000,000 Chaos."
+        },
+        "french": {
+          "name": "Millionnaire du chaos",
+          "description": "Obtenez 1 000 000 de points de chaos."
+        },
+        "german": {
+          "name": "König Chaos",
+          "description": "Verursache 1.000.000 Chaos."
+        },
+        "italian": {
+          "name": "Milionario di caos",
+          "description": "Raggiungi 1.000.000 di punti caos."
+        },
+        "japanese": {
+          "name": "混乱と破壊の英雄",
+          "description": "1000000カオス獲得しろ"
+        },
+        "polish": {
+          "name": "Milioner chaosu",
+          "description": "Zdobądź 1000000 punktów chaosu."
+        },
+        "russian": {
+          "name": "Миллионер хаоса",
+          "description": "Получите 1 000 000 очков хаоса."
+        },
+        "schinese": {
+          "name": "混乱百万富翁",
+          "description": "获得 1,000,000 点混乱值"
+        },
+        "spanish": {
+          "name": "Rico en caos",
+          "description": "Consigue 1 000 000 de caos."
+        }
+      }
+    },
+    "ach_pacifist": {
+      "translations": {
+        "brazilian": {
+          "name": "Sem balas!",
+          "description": "Destrua todos Objetos de Caos em uma base militar sem usar armas, granadas ou explosivos plantados."
+        },
+        "english": {
+          "name": "...Without Bullets!",
+          "description": "Destroy every Chaos Object in a Military Base without weapons, grenades, or planted explosives."
+        },
+        "french": {
+          "name": "...sans les mains !",
+          "description": "Détruisez tous les objets de chaos d'une base militaire sans armes à feu, grenades ou explosifs."
+        },
+        "german": {
+          "name": "Ohne Kugeln!",
+          "description": "Zerstöre alle Chaosobjekte einer Militärbasis, ohne Waffen, Granaten oder Sprengsätze zu benutzen."
+        },
+        "italian": {
+          "name": "... Senza proiettili!",
+          "description": "Distruggi tutti gli apparati militari in una base militare senza usare armi, granate o esplosivi."
+        },
+        "japanese": {
+          "name": "…銃を使わずに",
+          "description": "武器、グレネード、設置型爆薬を使わずに軍事基地内のカオスオブジェクトを全て破壊しろ"
+        },
+        "polish": {
+          "name": "Bez jednego wystrzału",
+          "description": "Zniszcz wszystkie obiekty wojskowe w bazie, nie używając broni, granatów ani ładunków wybuchowych."
+        },
+        "russian": {
+          "name": "Без единого выстрела!",
+          "description": "Уничтожьте все объекты хаоса на военной базе, не используя оружия, гранат и взрывчатки."
+        },
+        "schinese": {
+          "name": "不用子弹！",
+          "description": "在不使用武器、手雷或安放炸药的情况下，摧毁军事基地中的所有混乱物体"
+        },
+        "spanish": {
+          "name": "¡Sin balas!",
+          "description": "Destruye todos los recursos militares en una base militar sin usar armas, granadas o explosivos."
+        }
+      }
+    },
+    "ach_that_was_supposed_to_be_a_western": {
+      "translations": {
+        "brazilian": {
+          "name": "Isso era pra ser um velho oeste",
+          "description": "Destrua todos os Objetos de Caos em uma Base sem sair do seu veículo."
+        },
+        "english": {
+          "name": "This was Supposed to be a Western",
+          "description": "Destroy all Chaos Objects in a Base without leaving your vehicle."
+        },
+        "french": {
+          "name": "Ah bon, c'est pas un western ?",
+          "description": "Détruisez tous les objets de chaos d'une base sans quitter votre véhicule."
+        },
+        "german": {
+          "name": "Dies sollte ein Western sein",
+          "description": "Zerstöre alle Chaosobjekte einer Stadt oder Basis aus deinem Fahrzeug."
+        },
+        "italian": {
+          "name": "Doveva essere un western",
+          "description": "Distruggi tutti gli apparati militari in una base militare senza abbandonare il veicolo."
+        },
+        "japanese": {
+          "name": "スパゲッティ･ウェスタン",
+          "description": "乗り物に乗ったまま基地のカオスオブジェクトを全て破壊しろ"
+        },
+        "polish": {
+          "name": "To miał być western",
+          "description": "Zniszcz wszystkie obiekty wojskowe w bazie, nie opuszczając swojego pojazdu."
+        },
+        "russian": {
+          "name": "Это должен был быть вестерн",
+          "description": "Уничтожьте все объекты хаоса на базе, не покидая транспортного средства."
+        },
+        "schinese": {
+          "name": "本该是西部片",
+          "description": "在不离开载具的情况下，摧毁基地中的所有混乱物体"
+        },
+        "spanish": {
+          "name": "¿No era esto una de vaqueros?",
+          "description": "Destruye todos los recursos militares en una base sin abandonar tu vehículo."
+        }
+      }
+    },
+    "ach_and_some_of_us_are_just_better": {
+      "translations": {
+        "brazilian": {
+          "name": "Hora de se gabar",
+          "description": "Bata a pontuação de um jogador em um Desafio."
+        },
+        "english": {
+          "name": "Bragging Rights",
+          "description": "Beat another player's score in a Challenge."
+        },
+        "french": {
+          "name": "Grosse frime",
+          "description": "Battez le score d'un autre joueur dans un défi."
+        },
+        "german": {
+          "name": "Alter Angeber",
+          "description": "Schlage in einer Herausforderung den Score eines anderen Spielers."
+        },
+        "italian": {
+          "name": "... E me ne vanto!",
+          "description": "Batti il punteggio di un altro giocatore in una sfida."
+        },
+        "japanese": {
+          "name": "勝ち逃げ",
+          "description": "チャレンジで他のプレイヤーのスコアを上回れ"
+        },
+        "polish": {
+          "name": "Prawo do przechwałek",
+          "description": "Zdobądź w wyzwaniu więcej punktów niż inny gracz."
+        },
+        "russian": {
+          "name": "Повод для хвастовства",
+          "description": "Побейте рекорд другого игрока в испытании."
+        },
+        "schinese": {
+          "name": "炫耀资本",
+          "description": "在挑战中击败另一名玩家的分数"
+        },
+        "spanish": {
+          "name": "Para chulo, yo",
+          "description": "Supera la puntuación de un jugador en un desafío."
+        }
+      }
+    },
+    "ach_just_a_taste": {
+      "translations": {
+        "brazilian": {
+          "name": "Juntando engrenagens",
+          "description": "Ganhe ao menos 3 Engrenagens em um Desafio."
+        },
+        "english": {
+          "name": "Getting it in Gear",
+          "description": "Earn at least 3 Gears in a Challenge."
+        },
+        "french": {
+          "name": "On se met en jambe",
+          "description": "Gagnez au moins trois mécanismes dans un défi."
+        },
+        "german": {
+          "name": "Objekthascherei",
+          "description": "Sammle in einer Herausforderung mindestens 3 Zahnräder."
+        },
+        "italian": {
+          "name": "Ingrana la terza",
+          "description": "Ottieni almeno 3 ingranaggi in una sfida."
+        },
+        "japanese": {
+          "name": "ギアを入れろよ！",
+          "description": "チャレンジで3ギア以上獲得しろ"
+        },
+        "polish": {
+          "name": "Pierwsze trybiki",
+          "description": "Zdobądź przynajmniej 3 trybiki w wyzwaniu."
+        },
+        "russian": {
+          "name": "Кто тут шестерит?",
+          "description": "Заработайте хотя бы 3 шестерни в одном испытании."
+        },
+        "schinese": {
+          "name": "挂挡开动",
+          "description": "在任意一项挑战中获得至少 3 个齿轮"
+        },
+        "spanish": {
+          "name": "Puesta a punto",
+          "description": "Consigue al menos 3 piezas en un desafío."
+        }
+      }
+    },
+    "ach_you_call_that_a_challenge": {
+      "translations": {
+        "brazilian": {
+          "name": "Está engrenado",
+          "description": "Ganhe 5 Engrenagens em um Desafio."
+        },
+        "english": {
+          "name": "You've Got Gear",
+          "description": "Earn 5 Gears in a Challenge."
+        },
+        "french": {
+          "name": "Bien huilé",
+          "description": "Gagnez cinq mécanismes dans un défi."
+        },
+        "german": {
+          "name": "Objektkünstler",
+          "description": "Sammle in einer Herausforderung 5 Zahnräder."
+        },
+        "italian": {
+          "name": "Ingrana la quinta",
+          "description": "Ottieni 5 ingranaggi in una sfida."
+        },
+        "japanese": {
+          "name": "前人未到のギア",
+          "description": "チャレンジで5ギアを獲得しろ"
+        },
+        "polish": {
+          "name": "Niezła kolekcja trybików",
+          "description": "Zdobądź 5 trybików w wyzwaniu."
+        },
+        "russian": {
+          "name": "Без шестерен никуда",
+          "description": "Заработайте 5 шестерен в одном испытании."
+        },
+        "schinese": {
+          "name": "齿轮到手",
+          "description": "在任意一项挑战中获得 5 个齿轮"
+        },
+        "spanish": {
+          "name": "Bien engranado",
+          "description": "Consigue 5 piezas en un desafío."
+        }
+      }
+    },
+    "ach_dilettante": {
+      "translations": {
+        "brazilian": {
+          "name": "Engrenagens de montão",
+          "description": "Ganhe ao menos 3 Engrenagens em um Desafio de cada tipo."
+        },
+        "english": {
+          "name": "A Real Gear-Getter",
+          "description": "Earn at least 3 Gears in one Challenge of every type."
+        },
+        "french": {
+          "name": "Rien ne l'arrête",
+          "description": "Gagnez au moins trois mécanismes dans un défi de chaque type."
+        },
+        "german": {
+          "name": "Objekte der Begierde",
+          "description": "Sammle in einer Herausforderung jedes Typs mindestens 3 Zahnräder."
+        },
+        "italian": {
+          "name": "Collezionista di ingranaggi",
+          "description": "Ottieni almeno 3 ingranaggi in una sfida di ogni tipo."
+        },
+        "japanese": {
+          "name": "真のギアゲッター",
+          "description": "各タイプのチャレンジで3ギア以上獲得しろ"
+        },
+        "polish": {
+          "name": "Pokaźny stos trybików",
+          "description": "Zdobądź przynajmniej 3 trybiki w jednym wyzwaniu każdego typu."
+        },
+        "russian": {
+          "name": "Собиратель шестерен",
+          "description": "Заработайте хотя бы по 3 шестерни в испытании каждого вида."
+        },
+        "schinese": {
+          "name": "齿轮达人",
+          "description": "在每种类型的挑战中，都至少拿到过一次 3 个齿轮"
+        },
+        "spanish": {
+          "name": "Coleccionista de piezas",
+          "description": "Consigue al menos 3 piezas en un desafío de cada tipo."
+        }
+      }
+    },
+    "ach_simply_the_best": {
+      "translations": {
+        "brazilian": {
+          "name": "Todas as engrenagens",
+          "description": "Ganhe 5 Engrenagens em todos os Desafios."
+        },
+        "english": {
+          "name": "All the Gears",
+          "description": "Earn 5 Gears in every Challenge."
+        },
+        "french": {
+          "name": "Tous les mécanismes",
+          "description": "Gagnez cinq mécanismes dans chaque défi."
+        },
+        "german": {
+          "name": "Objektmarathon",
+          "description": "Sammle in jeder Herausforderung 5 Zahnräder."
+        },
+        "italian": {
+          "name": "Tutti gli ingranaggi",
+          "description": "Ottieni 5 ingranaggi in tutte le sfide."
+        },
+        "japanese": {
+          "name": "オール・ザ・ギアーズ",
+          "description": "全てのチャレンジで5ギアを獲得しろ"
+        },
+        "polish": {
+          "name": "Kompletny mechanizm",
+          "description": "Zdobądź 5 trybików w każdym wyzwaniu."
+        },
+        "russian": {
+          "name": "Все шестерни",
+          "description": "Заработайте по 5 шестерен в каждом испытании."
+        },
+        "schinese": {
+          "name": "全齿轮制霸",
+          "description": "在每一项挑战中都获得 5 个齿轮"
+        },
+        "spanish": {
+          "name": "Todas las piezas",
+          "description": "Consigue 5 piezas en cada desafío."
+        }
+      }
+    },
+    "ach_by_land_by_sea_by_air": {
+      "translations": {
+        "brazilian": {
+          "name": "Terra, vento e mar",
+          "description": "Desbloqueie pelo menos um veículo de cada categoria na Entrega Rebelde: terrestre, aéreo e marítimo."
+        },
+        "english": {
+          "name": "Earth, Wind and Sea",
+          "description": "Unlock Rebel Drops for at least one land vehicle, one air vehicle, and one sea vehicle."
+        },
+        "french": {
+          "name": "Terre, air et mer",
+          "description": "Débloquez les livraisons rebelles pour au moins un véhicule de chaque catégorie (terre, air, mer)."
+        },
+        "german": {
+          "name": "Erde, Wind und Meer",
+          "description": "Schalte den Rebellenabwurf für mindestens 1 Landfahrzeug, 1 Luftfahrzeug und 1 Wasserfahrzeug frei."
+        },
+        "italian": {
+          "name": "In cielo, in terra e in mare",
+          "description": "Sblocca il Lancio Ribelle per almeno un veicolo terrestre, uno aereo e uno marittimo."
+        },
+        "japanese": {
+          "name": "アース・ウィンド・アンド・シー",
+          "description": "車両、船舶、航空機の物資投下をそれぞれ1種類以上アンロックしろ"
+        },
+        "polish": {
+          "name": "Ziemia, wiatr i morze",
+          "description": "Odblokuj zrzuty powstańcze dla jednego pojazdu z każdej kategorii - lądowej, powietrznej i wodnej."
+        },
+        "russian": {
+          "name": "Земля, ветер и море",
+          "description": "Разблокируйте переброску для одного транспорта каждой категории (наземные, воздушные и водные)."
+        },
+        "schinese": {
+          "name": "海陆空制霸",
+          "description": "解锁叛军空投，至少包含一种陆地载具、一种空中载具和一种水上载具"
+        },
+        "spanish": {
+          "name": "Tierra, aire y mar",
+          "description": "Desbloquea al menos un vehículo terrestre, aéreo y marítimo en los suministros rebeldes."
+        }
+      }
+    },
+    "ach_no_more_to_conquer": {
+      "translations": {
+        "brazilian": {
+          "name": "Temos que pegar!",
+          "description": "Colete todos os veículos disponíveis levando-os até as Garagens do Mario."
+        },
+        "english": {
+          "name": "Caught 'Em All!",
+          "description": "Collect every vehicle available by bringing them to Mario's Rebel Garages."
+        },
+        "french": {
+          "name": "Attrapez-les tous !",
+          "description": "Débloquez tous les véhicules possibles en les apportant dans les garages de Mario."
+        },
+        "german": {
+          "name": "Alles eingesackt",
+          "description": "Sammle alle verfügbaren Fahrzeuge, indem du sie in Marios Rebellengaragen bringst."
+        },
+        "italian": {
+          "name": "Prendili tutti!",
+          "description": "Sblocca tutti i veicoli disponibili portandoli ai garage di Mario."
+        },
+        "japanese": {
+          "name": "フルコンプ",
+          "description": "入手可能なビークルをすべてマリオのガレージに運んで集結させろ"
+        },
+        "polish": {
+          "name": "Mam je wszystkie!",
+          "description": "Zdobądź wszystkie dostępne pojazdy, odstawiając je do garaży Mario."
+        },
+        "russian": {
+          "name": "Добыто все!",
+          "description": "Получите все возможные транспортные средства, доставив их в гаражи Марио."
+        },
+        "schinese": {
+          "name": "全都收服了！",
+          "description": "将所有可用载具运送到马里奥的叛军车库，完成收集"
+        },
+        "spanish": {
+          "name": "¡Atrápalos a todos!",
+          "description": "Consigue todos los vehículos disponibles llevándolos a los garajes de Mario."
+        }
+      }
+    },
+    "ach_yeehaw": {
+      "translations": {
+        "brazilian": {
+          "name": "Perfeito atrevido",
+          "description": "Pule com um veículo terrestre de todos os Pulos Atrevidos de Medici."
+        },
+        "english": {
+          "name": "Consummate Daredevil",
+          "description": "Launch a land vehicle off of every Daredevil Jump in Medici."
+        },
+        "french": {
+          "name": "Téméraire jusqu'au bout",
+          "description": "Faites décoller un véhicule terrestre depuis tous les points de saut téméraire de Médici."
+        },
+        "german": {
+          "name": "Tollkühner Teufelskerl",
+          "description": "Absolviere mit einem Landfahrzeug alle tollkühnen Sprünge in Medici."
+        },
+        "italian": {
+          "name": "Un temerario consumato",
+          "description": "Esegui tutti i salti temerari di Medici con un veicolo terrestre."
+        },
+        "japanese": {
+          "name": "究極の命知らず",
+          "description": "メディチ中の全スタントジャンプ地点を制覇しろ"
+        },
+        "polish": {
+          "name": "Wytrawny kaskader",
+          "description": "Za pomocą pojazdów lądowych wykonaj wszystkie skoki kaskaderskie dostępne na Medici."
+        },
+        "russian": {
+          "name": "Смельчак-виртуоз",
+          "description": "Совершите все отчаянные прыжки в Медичи, используя наземный транспорт."
+        },
+        "schinese": {
+          "name": "完美特技狂人",
+          "description": "在梅迪西的每一处特技跳台上，驾驶陆地载具完成飞跃"
+        },
+        "spanish": {
+          "name": "Un osado consumado",
+          "description": "Realiza todos los saltos arriesgados de Medici con un vehículo terrestre."
+        }
+      }
+    },
+    "ach_tomb_raider": {
+      "translations": {
+        "brazilian": {
+          "name": "Tomb Raider",
+          "description": "Honre cada Tumba Antiga."
+        },
+        "english": {
+          "name": "Tomb Raider",
+          "description": "Pay your respects at every Ancient Tomb."
+        },
+        "french": {
+          "name": "Tomb Raider",
+          "description": "Recueillez-vous devant chaque tombeau ancien."
+        },
+        "german": {
+          "name": "Tomb Raider",
+          "description": "Erweise allen alten Gräbern deinen Respekt."
+        },
+        "italian": {
+          "name": "Tomb Raider",
+          "description": "Rendi omaggio a tutte le tombe antiche."
+        },
+        "japanese": {
+          "name": "墓参り",
+          "description": "太古の墓に敬意を払え"
+        },
+        "polish": {
+          "name": "Grobowa cisza",
+          "description": "Złóż hołd przy każdym ze starożytnych grobowców."
+        },
+        "russian": {
+          "name": "Расхититель гробниц",
+          "description": "Воздайте почести во всех древних склепах."
+        },
+        "schinese": {
+          "name": "古墓奇兵",
+          "description": "参拜梅迪西的每一座古代古墓"
+        },
+        "spanish": {
+          "name": "Tomb Raider",
+          "description": "Presenta tus respetos en cada tumba antigua."
+        }
+      }
+    },
+    "ach_for_my_dead_homies": {
+      "translations": {
+        "brazilian": {
+          "name": "Lembre-se dos caídos",
+          "description": "Acenda uma vela em cada Altar Rebelde."
+        },
+        "english": {
+          "name": "Remember the Fallen",
+          "description": "Light a candle at every Rebel Shrine."
+        },
+        "french": {
+          "name": "Hommages aux disparus",
+          "description": "Allumez une bougie à tous les autels rebelles."
+        },
+        "german": {
+          "name": "Gedenken an die Gefallenen",
+          "description": "Zünde an jedem Rebellenschrein eine Kerze an."
+        },
+        "italian": {
+          "name": "Ricorda i caduti",
+          "description": "Accendi una candela in tutti gli altari ribelli."
+        },
+        "japanese": {
+          "name": "死者に敬意を",
+          "description": "反乱軍の慰霊碑全てに灯りをともせ"
+        },
+        "polish": {
+          "name": "Pamięć o poległych",
+          "description": "Zapal świeczkę w każdej kapliczce rebeliantów."
+        },
+        "russian": {
+          "name": "Помни павших",
+          "description": "Зажгите свечи во всех алтарях повстанцев."
+        },
+        "schinese": {
+          "name": "铭记逝者",
+          "description": "在每一处叛军圣坛前点燃蜡烛"
+        },
+        "spanish": {
+          "name": "Recordando a los caídos",
+          "description": "Enciende una vela en cada altar rebelde."
+        }
+      }
+    },
+    "ach_dear_diary": {
+      "translations": {
+        "brazilian": {
+          "name": "Diário de um louco",
+          "description": "Junte todas as fitas de Di Ravello."
+        },
+        "english": {
+          "name": "Diary of the Madman",
+          "description": "Gather all of Di Ravello's tapes."
+        },
+        "french": {
+          "name": "Journal d'un dément",
+          "description": "Trouvez tous les enregistrements de Di Ravello."
+        },
+        "german": {
+          "name": "Tagebuch eines Irren",
+          "description": "Sammle alle von Di Ravellos Bändern."
+        },
+        "italian": {
+          "name": "Il diario di un folle",
+          "description": "Raccogli tutti i nastri di Di Ravello."
+        },
+        "japanese": {
+          "name": "ある男の日記",
+          "description": "ディラベロの音声テープを全て見つけ出せ"
+        },
+        "polish": {
+          "name": "Pamiętnik szaleńca",
+          "description": "Zbierz wszystkie taśmy Di Ravello."
+        },
+        "russian": {
+          "name": "Дневник сумасшедшего",
+          "description": "Соберите все записи Ди Равелло."
+        },
+        "schinese": {
+          "name": "疯人日记",
+          "description": "集齐迪·拉维罗的所有录音带"
+        },
+        "spanish": {
+          "name": "Diario de un loco",
+          "description": "Reúne todas las cintas de Di Ravello."
+        }
+      }
+    },
+    "ach_old_school_cool": {
+      "translations": {
+        "brazilian": {
+          "name": "Antigo é legal",
+          "description": "Encontre todas peças antigas de armas e veículos."
+        },
+        "english": {
+          "name": "Old School Cool",
+          "description": "Find every vintage weapon and vehicle part."
+        },
+        "french": {
+          "name": "Cool old school",
+          "description": "Trouvez toutes les armes et les pièces de collection."
+        },
+        "german": {
+          "name": "Altmodisch cool",
+          "description": "Finde alle klassischen Waffen und Fahrzeugteile."
+        },
+        "italian": {
+          "name": "Di vecchia scuola è bello",
+          "description": "Trova tutti i pezzi vintage di armi e veicoli."
+        },
+        "japanese": {
+          "name": "素晴らしき古きもの",
+          "description": "年代物の武器やマシンパーツを見つけろ"
+        },
+        "polish": {
+          "name": "Stare ale jare",
+          "description": "Znajdź każdą klasyczną broń i część pojazdu."
+        },
+        "russian": {
+          "name": "Я не стар, я суперстар",
+          "description": "Найдите все части ретро-оружия и ретро-транспорта."
+        },
+        "schinese": {
+          "name": "老派酷",
+          "description": "找到所有的复古武器和载具零件"
+        },
+        "spanish": {
+          "name": "Molar a la antigua",
+          "description": "Encuentra todas las partes clásicas de armas y vehículos."
+        }
+      }
+    },
+    "ach_seasoned_explorer": {
+      "translations": {
+        "brazilian": {
+          "name": "Nenhuma pedra desvirada",
+          "description": "Encontre todos os colecionáveis espalhados por Medici."
+        },
+        "english": {
+          "name": "No Stone Unturned",
+          "description": "Find every collectible strewn across Medici."
+        },
+        "french": {
+          "name": "Fouille exhaustive",
+          "description": "Trouvez tous les objets cachés de Médici."
+        },
+        "german": {
+          "name": "Rasterfahndung",
+          "description": "Finde alle in Medici verstreuten Sammelobjekte."
+        },
+        "italian": {
+          "name": "Niente di tralasciato",
+          "description": "Trova tutti gli oggetti collezionabili sparsi per Medici."
+        },
+        "japanese": {
+          "name": "草の根分けても",
+          "description": "メディチ中に散らばっているコレクタブルをすべて見つけろ"
+        },
+        "polish": {
+          "name": "Wszystkie zakamarki odkryte",
+          "description": "Zbierz wszystkie znajdźki rozsiane po Medici."
+        },
+        "russian": {
+          "name": "Камня на камне не оставлено",
+          "description": "Соберите все предметы коллекции, выполнив необходимые действия в Медичи."
+        },
+        "schinese": {
+          "name": "翻遍每块石头",
+          "description": "找到散落在梅迪西各地的所有收集品"
+        },
+        "spanish": {
+          "name": "Hasta debajo de las piedras",
+          "description": "Encuentra todos los coleccionables esparcidos por Medici."
+        }
+      }
+    },
+    "ach_i_can_see_my_house_from_here": {
+      "translations": {
+        "brazilian": {
+          "name": "Topo do mundo",
+          "description": "Fique de pé no ponto mais alto de Medici."
+        },
+        "english": {
+          "name": "Top of the World",
+          "description": "Stand on foot at the highest point of Medici."
+        },
+        "french": {
+          "name": "Au sommet",
+          "description": "Tenez-vous sur le point le plus haut de Médici."
+        },
+        "german": {
+          "name": "Dach der Welt",
+          "description": "Stehe auf dem höchsten Punkt von Medici."
+        },
+        "italian": {
+          "name": "Sulla vetta del mondo",
+          "description": "Raggiungi il punto più alto di Medici."
+        },
+        "japanese": {
+          "name": "トップ・オブ・ザ・ワールド",
+          "description": "メディチで最高峰の地点に立て"
+        },
+        "polish": {
+          "name": "Na szczycie świata",
+          "description": "Stań na własnych nogach na najwyższym punkcie Medici."
+        },
+        "russian": {
+          "name": "Вершина мира",
+          "description": "Постойте на самой высокой точке Медичи."
+        },
+        "schinese": {
+          "name": "世界之巅",
+          "description": "徒步站立在梅迪西的最高点"
+        },
+        "spanish": {
+          "name": "La cima del mundo",
+          "description": "Ponte en pie en el punto más alto de Medici."
+        }
+      }
+    },
+    "ach_feat_fetish": {
+      "translations": {
+        "brazilian": {
+          "name": "Fetiche de façanha",
+          "description": "Realize todas as façanhas."
+        },
+        "english": {
+          "name": "Feat Fetish",
+          "description": "Perform every Feat."
+        },
+        "french": {
+          "name": "Amateur d'exploits",
+          "description": "Réussissez le score attendu pour chaque exploit."
+        },
+        "german": {
+          "name": "Leistungsfetisch",
+          "description": "Zeige alle Leistungen."
+        },
+        "italian": {
+          "name": "Feticista impresario",
+          "description": "Completa tutte le imprese."
+        },
+        "japanese": {
+          "name": "レコード・コレクター",
+          "description": "全てのレコードを記録しろ"
+        },
+        "polish": {
+          "name": "Zajawka na wyczyny",
+          "description": "Wykonaj każdy możliwy wyczyn."
+        },
+        "russian": {
+          "name": "Типичный трюкач",
+          "description": "Выполните все возможные трюки."
+        },
+        "schinese": {
+          "name": "特技狂",
+          "description": "完成所有特技"
+        },
+        "spanish": {
+          "name": "Fijación por las hazañas",
+          "description": "Realiza todas las hazañas."
+        }
+      }
+    },
+    "ach_i_can_show_you_the_world": {
+      "translations": {
+        "brazilian": {
+          "name": "Meu pequeno homem-foguete",
+          "description": "Prenda um inimigo em um cilindro de gás lançado. Adeo, amico!"
+        },
+        "english": {
+          "name": "My Little Rocket Man",
+          "description": "Tether an enemy to a launched gas cannister. Adeo, amico!"
+        },
+        "french": {
+          "name": "Vole, petit homme !",
+          "description": "Attachez un ennemi à une bombonne de gaz propulsée. À plus, minus !"
+        },
+        "german": {
+          "name": "Raketenmann",
+          "description": "Verbinde einen Gegner mit einem abgeschossenen Gasbehälter. Adeo, amico!"
+        },
+        "italian": {
+          "name": "Il mio piccolo uomo razzo",
+          "description": "Aggancia un nemico a una bombola del gas accesa. Adios, amigo!"
+        },
+        "japanese": {
+          "name": "愛しのロケットマン",
+          "description": "敵をガスボンベに縛りつけろ"
+        },
+        "polish": {
+          "name": "Człowiek-rakieta",
+          "description": "Przymocuj przeciwnika do odpalonej butli z gazem. Adeo, amico!"
+        },
+        "russian": {
+          "name": "Человек-ракета",
+          "description": "Запустите бензиновую канистру с привязанным к ней врагом. Прощай, друг!"
+        },
+        "schinese": {
+          "name": "我的小火箭人",
+          "description": "将一个敌人拴在发射出去的燃气罐上"
+        },
+        "spanish": {
+          "name": "Mi pequeño hombre bala",
+          "description": "Ancla un enemigo a un bidón de gasolina prendido. ¡Adeo, amico!"
+        }
+      }
+    },
+    "ach_rocket_man": {
+      "translations": {
+        "brazilian": {
+          "name": "Caia fora daqui!",
+          "description": "Plante um Explosivo com Impulso em um soldado inimigo. E então, faça-o voar."
+        },
+        "english": {
+          "name": "You're Outta Here!",
+          "description": "Plant a Booster Explosive on an enemy soldier. Then send them flying."
+        },
+        "french": {
+          "name": "T'es viré !",
+          "description": "Placez un explosif turbo sur un soldat ennemi et faites-le s'envoler."
+        },
+        "german": {
+          "name": "Raus mit Dir!",
+          "description": "Befestige einen Booster-Sprengsatz an einen feindlichen Soldaten und lass ihn fliegen!"
+        },
+        "italian": {
+          "name": "Fuori di qui!",
+          "description": "Piazza un esplosivo potenziato su un soldato nemico, quindi fallo volare."
+        },
+        "japanese": {
+          "name": "いってらっしゃい！",
+          "description": "敵の兵士にブースター爆薬を取り付け、空に飛ばせ"
+        },
+        "polish": {
+          "name": "Nie ma Cię!",
+          "description": "Przymocuj ładunek wybuchowy do żołnierza wroga. Następnie wysadź go w powietrze."
+        },
+        "russian": {
+          "name": "Тебе здесь не место!",
+          "description": "Прикрепите разгонную взрывчатку к вражескому солдату и отправьте его в полет."
+        },
+        "schinese": {
+          "name": "送你上天！",
+          "description": "在敌人士兵身上安装推进炸药，然后把他们炸飞"
+        },
+        "spanish": {
+          "name": "¡Lárgate!",
+          "description": "Adhiere un explosivo potenciado a un soldado enemigo. Luego, hazlo volar."
+        }
+      }
+    },
+    "ach_bakers_dozen": {
+      "translations": {
+        "brazilian": {
+          "name": "Dúzia de treze",
+          "description": "Libere 13 assentamentos."
+        },
+        "english": {
+          "name": "Baker's Dozen",
+          "description": "Liberate 13 settlements."
+        },
+        "french": {
+          "name": "Treize à la douzaine",
+          "description": "Libérez treize zones habitées."
+        },
+        "german": {
+          "name": "Teufelsdutzend",
+          "description": "Befreie 13 Ansiedlungen."
+        },
+        "italian": {
+          "name": "Una dozzina abbondante",
+          "description": "Libera 13 insediamenti."
+        },
+        "japanese": {
+          "name": "パン屋の1ダース",
+          "description": "13の区画を解放しろ"
+        },
+        "polish": {
+          "name": "Piekarski tuzin",
+          "description": "Wyzwól 13 miejscowości."
+        },
+        "russian": {
+          "name": "Чертова дюжина",
+          "description": "Освободите 13 поселений."
+        },
+        "schinese": {
+          "name": "一打加一",
+          "description": "解放 13 个定居点"
+        },
+        "spanish": {
+          "name": "Una docena larga",
+          "description": "Libera 13 asentamientos."
+        }
+      }
+    },
+    "ach_provincial": {
+      "translations": {
+        "brazilian": {
+          "name": "Viva a revolução",
+          "description": "Libere uma Província."
+        },
+        "english": {
+          "name": "Vive le Revolution",
+          "description": "Liberate a Province."
+        },
+        "french": {
+          "name": "Vive la révolution !",
+          "description": "Libérez une province."
+        },
+        "german": {
+          "name": "Vive le Revolution",
+          "description": "Befreie eine Provinz."
+        },
+        "italian": {
+          "name": "Viva la rivoluzione",
+          "description": "Libera una provincia."
+        },
+        "japanese": {
+          "name": "ビバ・レボリューション",
+          "description": "地区を解放しろ"
+        },
+        "polish": {
+          "name": "Viva la revolucion",
+          "description": "Wyzwól prowincję."
+        },
+        "russian": {
+          "name": "Слава революции!",
+          "description": "Освободите одну провинцию."
+        },
+        "schinese": {
+          "name": "革命万岁",
+          "description": "解放一个省份"
+        },
+        "spanish": {
+          "name": "Viva la revolución",
+          "description": "Libera una provincia."
+        }
+      }
+    },
+    "ach_hope_springs_eternal": {
+      "translations": {
+        "brazilian": {
+          "name": "Esperança de vida eterna",
+          "description": "Libere completamente Insula Fonte."
+        },
+        "english": {
+          "name": "Hope Springs Eternal",
+          "description": "Completely liberate Insula Fonte."
+        },
+        "french": {
+          "name": "Espoirs éternels",
+          "description": "Libérez entièrement Insula Fonte."
+        },
+        "german": {
+          "name": "Die Hoffnung stirbt zuletzt",
+          "description": "Befreie Insula Fonte vollständig."
+        },
+        "italian": {
+          "name": "La fonte dell'eterna giovinezza",
+          "description": "Libera completamente Insula Fonte."
+        },
+        "japanese": {
+          "name": "決して希望を失うな",
+          "description": "フォンテ諸島を完全に解放しろ"
+        },
+        "polish": {
+          "name": "Nadzieja jest wieczna",
+          "description": "Wyzwól całą Insula Fonte."
+        },
+        "russian": {
+          "name": "Надежда умирает последней",
+          "description": "Полностью освободите Инсула-Фонте."
+        },
+        "schinese": {
+          "name": "泉水永流",
+          "description": "完全解放丰特岛"
+        },
+        "spanish": {
+          "name": "La esperanza es lo último que se pierde",
+          "description": "Libera por completo Insula Fonte."
+        }
+      }
+    },
+    "ach_taming_the_dragon": {
+      "translations": {
+        "brazilian": {
+          "name": "Domando Dracon",
+          "description": "Libere completamente Insula Dracon."
+        },
+        "english": {
+          "name": "Taming the Dracon",
+          "description": "Completely liberate Insula Dracon."
+        },
+        "french": {
+          "name": "Dracon dompté",
+          "description": "Libérez entièrement Insula Dracon."
+        },
+        "german": {
+          "name": "Drachenbändiger",
+          "description": "Befreie Insula Dracon vollständig."
+        },
+        "italian": {
+          "name": "Un Dracon addomesticato",
+          "description": "Libera completamente Insula Dracon."
+        },
+        "japanese": {
+          "name": "ライジング・ドラコン",
+          "description": "ドラコン諸島を完全に解放しろ"
+        },
+        "polish": {
+          "name": "Dracon poskromiony",
+          "description": "Wyzwól całą Insula Dracon."
+        },
+        "russian": {
+          "name": "Укрощение дракона",
+          "description": "Полностью освободите Инсула-Дракон."
+        },
+        "schinese": {
+          "name": "驯服巨龙",
+          "description": "完全解放德拉孔岛"
+        },
+        "spanish": {
+          "name": "Domar al Draco",
+          "description": "Libera por completo Insula Draco."
+        }
+      }
+    },
+    "ach_heart_of_stone": {
+      "translations": {
+        "brazilian": {
+          "name": "Coração de pedra",
+          "description": "Libere completamente Insula Striate."
+        },
+        "english": {
+          "name": "Heart of Stone",
+          "description": "Completely liberate Insula Striate."
+        },
+        "french": {
+          "name": "Cœur de pierre",
+          "description": "Libérez entièrement Insula Striate."
+        },
+        "german": {
+          "name": "Herz aus Stein",
+          "description": "Befreie Insula Striate vollständig."
+        },
+        "italian": {
+          "name": "Cuore di pietra",
+          "description": "Libera completamente Insula Striate."
+        },
+        "japanese": {
+          "name": "ハート・オブ・ストーン",
+          "description": "ストリアーテ島を完全に解放しろ"
+        },
+        "polish": {
+          "name": "Serce z kamienia",
+          "description": "Wyzwól całą Insula Striate."
+        },
+        "russian": {
+          "name": "Каменное сердце",
+          "description": "Полностью освободите Инсула-Стриате."
+        },
+        "schinese": {
+          "name": "磐石之心",
+          "description": "完全解放斯特里亚泰岛"
+        },
+        "spanish": {
+          "name": "Corazón de piedra",
+          "description": "Libera por completo Insula Striate."
+        }
+      }
+    },
+    "ach_fully_stocked": {
+      "translations": {
+        "brazilian": {
+          "name": "Desbloqueado e totalmente carregado",
+          "description": "Desbloqueie todas as armas e veículos disponíveis no menu de Entrega Rebelde."
+        },
+        "english": {
+          "name": "Unlocked and Fully Loaded",
+          "description": "Unlock every weapon and vehicle available in the Rebel Drop menu."
+        },
+        "french": {
+          "name": "Débloqué et à fond",
+          "description": "Débloquez toutes les armes et tous les véhicules des livraisons rebelles."
+        },
+        "german": {
+          "name": "Entsichert und geladen",
+          "description": "Schalte alle Waffen und Fahrzeuge des Rebellenabwurf-Menüs frei."
+        },
+        "italian": {
+          "name": "Armato e pronto",
+          "description": "Sblocca tutte le armi e i veicoli disponibili nel menu del Lancio Ribelle."
+        },
+        "japanese": {
+          "name": "フルアンロック・フル装備",
+          "description": "物資投下メニューにある入手可能な武器とビークル全てをアンロックしろ"
+        },
+        "polish": {
+          "name": "Odblokowane i załadowane",
+          "description": "Odblokuj wszystkie bronie i pojazdy dostępne w menu zrzutów powstańczych."
+        },
+        "russian": {
+          "name": "Забито под завязку",
+          "description": "Разблокируйте все виды оружия и транспорта, доступные в меню переброски."
+        },
+        "schinese": {
+          "name": "解锁齐全",
+          "description": "解锁叛军空投菜单中的所有可用武器和载具"
+        },
+        "spanish": {
+          "name": "Desbloqueado y cargado",
+          "description": "Desbloquea todas las armas y vehículos disponibles en el menú de suministros rebeldes."
+        }
+      }
+    },
+    "ach_clear_skies": {
+      "translations": {
+        "brazilian": {
+          "name": "Tomem isso, otários de linha de produção",
+          "description": "Desabilite a FOW de Insula Fonte."
+        },
+        "english": {
+          "name": "Take That, You Pipeline Jerks",
+          "description": "Disable the FOW in Insula Fonte."
+        },
+        "french": {
+          "name": "Saletés de pipelines",
+          "description": "Désactivez la super-arme d'Insula Fonte."
+        },
+        "german": {
+          "name": "Nehmt das, ihr Pipeline-Freaks",
+          "description": "Deaktiviere die HSW von Insula Fonte."
+        },
+        "italian": {
+          "name": "Pagate di TASCa vostra",
+          "description": "Disattiva la TASC di Insula Fonte."
+        },
+        "japanese": {
+          "name": "配管工事のやり直し",
+          "description": "フォンテ諸島のFOWを無力化する"
+        },
+        "polish": {
+          "name": "To was nauczy, dranie z rurociągów",
+          "description": "Wyłącz system FOW w Insula Fonte."
+        },
+        "russian": {
+          "name": "Вот вам, поганцы!",
+          "description": "Отключите УИП на Инсула-Фонте."
+        },
+        "schinese": {
+          "name": "接招吧，管线杂碎",
+          "description": "摧毁丰特岛的FOW"
+        },
+        "spanish": {
+          "name": "¡Idiotas, chupaos esa!",
+          "description": "Desactiva el FOW en Insula Fonte."
+        }
+      }
+    },
+    "ach_back_in_the_saddle": {
+      "translations": {
+        "brazilian": {
+          "name": "Aproveite seu regresso a casa",
+          "description": "Complete a missão: Bem-vindo ao lar."
+        },
+        "english": {
+          "name": "Enjoy Your Homecoming",
+          "description": "Complete Story Mission: Welcome Home."
+        },
+        "french": {
+          "name": "Retour en fanfare",
+          "description": "Terminez la mission principale \"Bienvenue chez toi\"."
+        },
+        "german": {
+          "name": "Willkommen daheim",
+          "description": "Meistere die Story-Mission \"Willkommen zu Hause\"."
+        },
+        "italian": {
+          "name": "Bentornato a casa",
+          "description": "Completa la missione: \"Bentornato a casa\"."
+        },
+        "japanese": {
+          "name": "里帰りを満喫してくれ",
+          "description": "ストーリーミッション:「故郷へようこそ」をクリアしろ"
+        },
+        "polish": {
+          "name": "Witaj w domu",
+          "description": "Ukończ misję fabularną \"Witaj w domu\"."
+        },
+        "russian": {
+          "name": "Рады видеть тебя дома",
+          "description": "Выполните сюжетную миссию «С возвращением!»"
+        },
+        "schinese": {
+          "name": "欢迎归来",
+          "description": "完成故事任务：欢迎回家"
+        },
+        "spanish": {
+          "name": "Disfruta de la vuelta a casa",
+          "description": "Completa la misión «Bienvenido a casa»."
+        }
+      }
+    },
+    "ach_getting_out_alive": {
+      "translations": {
+        "brazilian": {
+          "name": "Que desastre",
+          "description": "Complete a missão: Uma reação terrível."
+        },
+        "english": {
+          "name": "What a Disaster",
+          "description": "Complete Story Mission: A Terrible Reaction."
+        },
+        "french": {
+          "name": "Un vrai désastre",
+          "description": "Terminez la mission principale \"Une réaction inquiétante\"."
+        },
+        "german": {
+          "name": "Was für ein Desaster",
+          "description": "Meistere die Story-Mission \"Eine schreckliche Reaktion\"."
+        },
+        "italian": {
+          "name": "Che disastro!",
+          "description": "Completa la missione: \"Una terribile reazione\"."
+        },
+        "japanese": {
+          "name": "最悪の災厄",
+          "description": "ストーリーミッション:「散々な反応」をクリアしろ"
+        },
+        "polish": {
+          "name": "Co za katastrofa",
+          "description": "Ukończ misję fabularną \"Okropna reakcja\"."
+        },
+        "russian": {
+          "name": "Это катастрофа",
+          "description": "Выполните сюжетную миссию «Ужасная реакция»."
+        },
+        "schinese": {
+          "name": "糟糕的连锁反应",
+          "description": "完成故事任务：恶劣反应"
+        },
+        "spanish": {
+          "name": "Qué desastre",
+          "description": "Completa la misión «Una reacción terrible»."
+        }
+      }
+    },
+    "ach_the_true_power_of_bavarium": {
+      "translations": {
+        "brazilian": {
+          "name": "O poder de bavário",
+          "description": "Complete a missão: Uma longa e perigosa estrada."
+        },
+        "english": {
+          "name": "The Power of Bavarium",
+          "description": "Complete Story Mission: A Long and Dangerous Road."
+        },
+        "french": {
+          "name": "La puissance du bavarium",
+          "description": "Terminez la mission principale \"Une route longue et dangereuse\"."
+        },
+        "german": {
+          "name": "Die Macht des Bavariums",
+          "description": "Meistere die Story-Mission \"Eine lange und gefährliche Straße\"."
+        },
+        "italian": {
+          "name": "Il potere del Bavarium",
+          "description": "Completa la missione: \"Una strada lunga e pericolosa\"."
+        },
+        "japanese": {
+          "name": "バベリウムの威力",
+          "description": "ストーリーミッション:「長く危険な道」をクリアしろ"
+        },
+        "polish": {
+          "name": "Potęga bawaru",
+          "description": "Ukończ misję fabularną \"Długa i niebezpieczna droga\"."
+        },
+        "russian": {
+          "name": "Сила бавария",
+          "description": "Выполните сюжетную миссию «Длинный и опасный путь»."
+        },
+        "schinese": {
+          "name": "巴瓦里姆之力",
+          "description": "完成故事任务：漫长而危险的道路"
+        },
+        "spanish": {
+          "name": "El poder del bavarium",
+          "description": "Completa la misión «Un sendero largo y peligroso»."
+        }
+      }
+    },
+    "ach_freedom_reigns": {
+      "translations": {
+        "brazilian": {
+          "name": "Essas minas são poços",
+          "description": "Complete a missão: A grande fuga."
+        },
+        "english": {
+          "name": "These Mines are the Pits",
+          "description": "Complete Story Mission: The Great Escape."
+        },
+        "french": {
+          "name": "On se met une mine ?",
+          "description": "Terminez la mission principale \"La grande évasion\"."
+        },
+        "german": {
+          "name": "Diese Minen sind echt krass",
+          "description": "Meistere die Story-Mission \"Die große Flucht\"."
+        },
+        "italian": {
+          "name": "Queste miniere sono un inferno",
+          "description": "Completa la missione: \"La grande fuga\"."
+        },
+        "japanese": {
+          "name": "最低の採鉱場",
+          "description": "ストーリーミッション:「大脱走」をクリアしろ"
+        },
+        "polish": {
+          "name": "Te kopalnie to dno",
+          "description": "Ukończ misję fabularną \"Wielka ucieczka\"."
+        },
+        "russian": {
+          "name": "С места в карьер",
+          "description": "Выполните сюжетную миссию «Великий побег»."
+        },
+        "schinese": {
+          "name": "矿井遍地雷",
+          "description": "完成故事任务：大逃亡"
+        },
+        "spanish": {
+          "name": "Estas minas son lo peor",
+          "description": "Completa la misión «La gran fuga»."
+        }
+      }
+    },
+    "ach_you_want_a_war": {
+      "translations": {
+        "brazilian": {
+          "name": "VAI SE F!#&R, MÍSSIL",
+          "description": "Complete a missão: Caubói explosivo."
+        },
+        "english": {
+          "name": "F!#& YOU, MISSILE",
+          "description": "Complete Story Mission: Missile Cowboy."
+        },
+        "french": {
+          "name": "P#T&IN DE MISSILE",
+          "description": "Terminez la mission \"Chevaucheur de missile\"."
+        },
+        "german": {
+          "name": "F!#& DICH, RAKETE",
+          "description": "Meistere die Story-Mission \"Raketen-Cowboy\"."
+        },
+        "italian": {
+          "name": "FO!#&TI, MISSILE!",
+          "description": "Completa la missione: \"Cowboy esplosivo\"."
+        },
+        "japanese": {
+          "name": "だまれミサイルめ",
+          "description": "ストーリーミッション:「ミサイル・カウボーイ」をクリアしろ"
+        },
+        "polish": {
+          "name": "P!#&RZ SIĘ, RAKIETO!",
+          "description": "Ukończ misję fabularną \"Rakietowy kowboj\"."
+        },
+        "russian": {
+          "name": "Х*ЕН ТЕБЕ, РАКЕТА!",
+          "description": "Выполните сюжетную миссию «Ракетный ковбой»."
+        },
+        "schinese": {
+          "name": "去死吧，导弹！",
+          "description": "完成故事任务：导弹牛仔"
+        },
+        "spanish": {
+          "name": "JÓ!#&TE, MISIL",
+          "description": "Completa la misión «Vaquero explosivo»."
+        }
+      }
+    },
+    "ach_finally_on_the_offensive": {
+      "translations": {
+        "brazilian": {
+          "name": "Finalmente na ofensiva",
+          "description": "Complete a missão: Enrolado no azul."
+        },
+        "english": {
+          "name": "Finally on the Offensive",
+          "description": "Complete Story Mission: Tangled Up In Blue."
+        },
+        "french": {
+          "name": "Enfin, l'attaque",
+          "description": "Terminez la mission principale \"Emmêlé dans le bleu\"."
+        },
+        "german": {
+          "name": "Endlich in der Offensive",
+          "description": "Meistere die Story-Mission \"Verstrickungen in Blau\"."
+        },
+        "italian": {
+          "name": "Finalmente all'attacco",
+          "description": "Completa la missione: \"Un groviglio blu\"."
+        },
+        "japanese": {
+          "name": "今こそ反撃のとき",
+          "description": "ストーリーミッション:「ブルーにこんがらがって」をクリアしろ"
+        },
+        "polish": {
+          "name": "Nareszcie w natarciu",
+          "description": "Ukończ misję fabularną \"Zaplątani w błękicie\"."
+        },
+        "russian": {
+          "name": "Переходим в наступление",
+          "description": "Выполните сюжетную миссию «Заплутав в хандре»."
+        },
+        "schinese": {
+          "name": "终于反攻了",
+          "description": "完成故事任务：陷入蓝色迷局"
+        },
+        "spanish": {
+          "name": "Atacando al fin",
+          "description": "Completa la misión «Enredado en azul»."
+        }
+      }
+    },
+    "ach_knowing_the_cost_of_war": {
+      "translations": {
+        "brazilian": {
+          "name": "Erros e triunfos",
+          "description": "Complete a missão: O destruidor de mundos."
+        },
+        "english": {
+          "name": "Mistakes and Triumphs",
+          "description": "Complete Story Mission: The Shatterer of Worlds."
+        },
+        "french": {
+          "name": "Erreurs et triomphes",
+          "description": "Terminez la mission principale \"Le Destructeur de mondes\"."
+        },
+        "german": {
+          "name": "Fehler und Triumphe",
+          "description": "Meistere die Story-Mission \"Der Weltenzerstörer\"."
+        },
+        "italian": {
+          "name": "Errori e trionfi",
+          "description": "Completa la missione: \"Il distruttore di mondi\"."
+        },
+        "japanese": {
+          "name": "多くの間違いと多くの成功",
+          "description": "ストーリーミッション:「世界の破壊者」をクリアしろ"
+        },
+        "polish": {
+          "name": "Pomyłki i triumfy",
+          "description": "Ukończ misję fabularną \"Niszczyciel światów\"."
+        },
+        "russian": {
+          "name": "Ошибки и победы",
+          "description": "Выполните сюжетную миссию «Разрушитель миров»."
+        },
+        "schinese": {
+          "name": "成败与代价",
+          "description": "完成故事任务：灭世者"
+        },
+        "spanish": {
+          "name": "Errores y aciertos",
+          "description": "Completa la misión «El destructor de mundos»."
+        }
+      }
+    },
+    "ach_one_hundred_percent": {
+      "translations": {
+        "brazilian": {
+          "name": "O vencedor leva tudo, de novo",
+          "description": "100% Just Cause 3."
+        },
+        "english": {
+          "name": "Winner Takes All, Again",
+          "description": "100% Just Cause 3."
+        },
+        "french": {
+          "name": "Gagnant sur toute la ligne",
+          "description": "Terminez Just Cause 3 à 100%."
+        },
+        "german": {
+          "name": "Dem Sieger gebührt die Beute",
+          "description": "100 % Just Cause 3."
+        },
+        "italian": {
+          "name": "Chi vince prende tutto, ancora",
+          "description": "Completa Just Cause 3 al 100%."
+        },
+        "japanese": {
+          "name": "勝者の総取り、再び",
+          "description": "100% Just Cause 3"
+        },
+        "polish": {
+          "name": "Zwycięzca znów bierze wszystko",
+          "description": "100% w Just Cause 3."
+        },
+        "russian": {
+          "name": "Победителю снова достается все",
+          "description": "Пройдите Just Cause 3 на 100%."
+        },
+        "schinese": {
+          "name": "赢家通吃，再来一次",
+          "description": "100%完成《正当防卫3》"
+        },
+        "spanish": {
+          "name": "Todo para el ganador, otra vez",
+          "description": "Completa Just Cause 3 al 100 %."
+        }
+      }
+    },
+    "ach_sanctuary": {
+      "translations": {
+        "brazilian": {
+          "name": "Perdão, Pai...",
+          "description": "Refugie-se em um monastério para eliminar Pressão Nível 5."
+        },
+        "english": {
+          "name": "Forgive Me, Father...",
+          "description": "Take sanctuary in a monastery to clear Heat Level 5."
+        },
+        "french": {
+          "name": "Pardonnez-moi, mon Père...",
+          "description": "Réfugiez-vous dans un monastère pour sécuriser une zone en alerte de niveau 5."
+        },
+        "german": {
+          "name": "Vergib mir meine Schuld",
+          "description": "Finde Zuflucht in einer Kirche, um Alarmstufe 5 zurückzusetzen."
+        },
+        "italian": {
+          "name": "Padre, perdonami...",
+          "description": "Trova rifugio in un monastero per azzerare un'Allerta di livello 5."
+        },
+        "japanese": {
+          "name": "神のお導きを",
+          "description": "修道院にかくまってもらいHEATレベル5を解除しろ"
+        },
+        "polish": {
+          "name": "Wybacz mi, ojcze…",
+          "description": "Schroń się w kościele, aby zakończyć zadymę 5 poziomu."
+        },
+        "russian": {
+          "name": "Господи, прости меня...",
+          "description": "Избавьтесь от погони 5-го уровня, укрывшись в одном из монастырей."
+        },
+        "schinese": {
+          "name": "请宽恕我，神父……",
+          "description": "在修道院中避难，以消除5级通缉热度"
+        },
+        "spanish": {
+          "name": "Perdóname, Padre...",
+          "description": "Busca refugio en un monasterio para eliminar la alerta de nivel 5."
+        }
+      }
+    },
+    "ach_beat_that": {
+      "translations": {
+        "brazilian": {
+          "name": "Não pode tocar",
+          "description": "Desafie outro jogador em uma Façanha."
+        },
+        "english": {
+          "name": "Can't Touch This",
+          "description": "Call-Out another player in a Feat."
+        },
+        "french": {
+          "name": "Intouchable",
+          "description": "Provoquez un autre joueur dans un exploit."
+        },
+        "german": {
+          "name": "Versuch's doch",
+          "description": "Fordere einen anderen Spieler zu einer Leistung heraus."
+        },
+        "italian": {
+          "name": "Intoccabile",
+          "description": "Sfida un altro giocatore in un'impresa."
+        },
+        "japanese": {
+          "name": "キャン・タッチ・ディス",
+          "description": "レコードで新たなプレイヤーに挑戦しろ"
+        },
+        "polish": {
+          "name": "Nie do pobicia",
+          "description": "Wywołaj innego gracza do rywalizacji w wyczynach. "
+        },
+        "russian": {
+          "name": "А тебе слабо?",
+          "description": "Бросьте вызов другому игроку, предложив выполнить трюк лучше вас."
+        },
+        "schinese": {
+          "name": "你碰不到我",
+          "description": "在特技中向另一名玩家发起挑战"
+        },
+        "spanish": {
+          "name": "Intocable",
+          "description": "Reta a otro jugador en una hazaña."
+        }
+      }
+    },
+    "ach_first_time_modder": {
+      "translations": {
+        "brazilian": {
+          "name": "Iniciante de Mod",
+          "description": "Desbloqueie seu primeiro MOD DE ENGRENAGEM e ative-o."
+        },
+        "english": {
+          "name": "MOD Initiate",
+          "description": "Unlock your first Gear MOD, and then activate it."
+        },
+        "french": {
+          "name": "Modificateur débutant",
+          "description": "Débloquez votre première modification et activez-la."
+        },
+        "german": {
+          "name": "MOD-Anfänger",
+          "description": "Schalte deine erste Ausrüstungs-MOD frei und aktiviere sie."
+        },
+        "italian": {
+          "name": "Un bel MODo di iniziare",
+          "description": "Sblocca il tuo primo MOD e attivalo."
+        },
+        "japanese": {
+          "name": "MOD初心者",
+          "description": "最初のギアMODをアンロックして有効にしろ"
+        },
+        "polish": {
+          "name": "MODer",
+          "description": "Odblokuj swój pierwszy MOD, a następnie uruchom go."
+        },
+        "russian": {
+          "name": "Первый модификатор",
+          "description": "Разблокируйте свой первый модификатор снаряжения и активируйте его."
+        },
+        "schinese": {
+          "name": "模组入门",
+          "description": "解锁你的第一个齿轮模组，然后激活它"
+        },
+        "spanish": {
+          "name": "Iniciado en modificaciones",
+          "description": "Desbloquea tu primera modificación de equipo y actívala."
+        }
+      }
+    },
+    "ach_gear_head": {
+      "translations": {
+        "brazilian": {
+          "name": "Especialista de Mod",
+          "description": "Desbloqueie todos os Mods de Engrenagem de uma categoria."
+        },
+        "english": {
+          "name": "MOD Specialist",
+          "description": "Unlock every Gear MOD in a single category."
+        },
+        "french": {
+          "name": "Spécialiste des modifications",
+          "description": "Débloquez toutes les modifications d'une même catégorie."
+        },
+        "german": {
+          "name": "MOD-Spezialist",
+          "description": "Schalte alle Ausrüstungs-MODs einer Kategorie frei."
+        },
+        "italian": {
+          "name": "Specialista MODerno",
+          "description": "Sblocca tutti i MOD di una singola categoria."
+        },
+        "japanese": {
+          "name": "MODスペシャリスト",
+          "description": "1つのカテゴリーの全てのギアMODをアンロックしろ"
+        },
+        "polish": {
+          "name": "MODziarz",
+          "description": "Odblokuj wszystkie MODy z jednej kategorii."
+        },
+        "russian": {
+          "name": "Специалист по модификаторам",
+          "description": "Разблокируйте все модификаторы снаряжения одной категории."
+        },
+        "schinese": {
+          "name": "模组专家",
+          "description": "解锁单一类别中的所有齿轮模组"
+        },
+        "spanish": {
+          "name": "Especialista en modificaciones",
+          "description": "Desbloquea todas las modificaciones de equipo en una única categoría."
+        }
+      }
+    },
+    "ach_knowing_your_options": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre dos Mods",
+          "description": "Tenha todos os Mod de Engrenagem ativos por ao menos 1 minuto cada."
+        },
+        "english": {
+          "name": "MOD Tinkerer",
+          "description": "Have every Gear MOD active for at least 1 minute each."
+        },
+        "french": {
+          "name": "Bricoleur de modifications",
+          "description": "Activez toutes les modifications au moins une minute chacune."
+        },
+        "german": {
+          "name": "MOD-Bastler",
+          "description": "Aktiviere alle Ausrüstungs-MODs jeweils mindestens 1 Minute lang."
+        },
+        "italian": {
+          "name": "Riparatore MODello",
+          "description": "Attiva tutti i MOD per almeno un minuto ciascuno."
+        },
+        "japanese": {
+          "name": "MODヲタク",
+          "description": "各ギアMODをそれぞれ1分以上作動させろ"
+        },
+        "polish": {
+          "name": "MODniś",
+          "description": "Uruchom każdy dostępny MOD przynajmniej na minutę."
+        },
+        "russian": {
+          "name": "Мастер по модификаторам",
+          "description": "Активируйте каждый модификатор снаряжения хотя бы на одну минуту."
+        },
+        "schinese": {
+          "name": "模组折腾家",
+          "description": "让每一个齿轮模组都至少激活过1分钟"
+        },
+        "spanish": {
+          "name": "Manitas de las modificaciones",
+          "description": "Activa durante al menos 1 minuto todas las modificaciones de equipo."
+        }
+      }
+    },
+    "ach_mm400": {
+      "translations": {
+        "brazilian": {
+          "name": "Filho de Medici",
+          "description": "Complete a missão: Filho de Medici."
+        },
+        "english": {
+          "name": "Son of Medici",
+          "description": "Complete Story Mission: Son of Medici."
+        },
+        "french": {
+          "name": "Fils de Médici",
+          "description": "Terminez la mission principale \"Fils de Médici\"."
+        },
+        "german": {
+          "name": "Sohn von Medici",
+          "description": "Meistere die Story-Mission \"Sohn von Medici\"."
+        },
+        "italian": {
+          "name": "Figlio di Medici",
+          "description": "Completa la missione \"Figlio di Medici\"."
+        },
+        "japanese": {
+          "name": "メディチの子",
+          "description": "ストーリーミッション:「メディチの子」をクリアしろ"
+        },
+        "polish": {
+          "name": "Syn Medici",
+          "description": "Ukończ misję fabularną \"Syn Medici\"."
+        },
+        "russian": {
+          "name": "Сын Медичи",
+          "description": "Выполните сюжетную миссию «Сын Медичи»."
+        },
+        "schinese": {
+          "name": "梅迪西之子",
+          "description": "完成故事任务：梅迪西之子"
+        },
+        "spanish": {
+          "name": "Hijo de Medici",
+          "description": "Completa la misión «Hijo de Medici»."
+        }
+      }
+    },
+    "ach_answered_the_bell": {
+      "translations": {
+        "brazilian": {
+          "name": "Qualquer coisa que faça...",
+          "description": "Bata uma pontuação a qual tenha sido desafiado."
+        },
+        "english": {
+          "name": "Anything You Can Do...",
+          "description": "Beat a score you were Called-Out on."
+        },
+        "french": {
+          "name": "Toujours plus haut",
+          "description": "On vous a provoqué, battez ce score !"
+        },
+        "german": {
+          "name": "Alles, was du kannst ...",
+          "description": "Schlage eine Leistung, zu der du herausgefordert wurdest."
+        },
+        "italian": {
+          "name": "Fa' del tuo meglio...",
+          "description": "Batti un punteggio al quale sei stato sfidato."
+        },
+        "japanese": {
+          "name": "挑戦はいつでも歓迎だ",
+          "description": "挑戦を受けたスコアを上回れ"
+        },
+        "polish": {
+          "name": "Cokolwiek, co zrobisz...",
+          "description": "Pobij wynik w wyczynie do którego cię wywołano."
+        },
+        "russian": {
+          "name": "Мне все по плечу",
+          "description": "Побейте рекорд друга, бросившего вам вызов."
+        },
+        "schinese": {
+          "name": "你行我也行……",
+          "description": "在被别人叫板的情况下，击败对方分数"
+        },
+        "spanish": {
+          "name": "Haz todo lo que puedas...",
+          "description": "Supera una puntuación a la que te hayan retado."
+        }
+      }
+    },
+    "ach_encounter_first": {
+      "translations": {
+        "brazilian": {
+          "name": "Primeiro evento",
+          "description": "Conclua um evento."
+        },
+        "english": {
+          "name": "First Encounter",
+          "description": "Complete an Encounter."
+        },
+        "french": {
+          "name": "Première épreuve",
+          "description": "Terminez une épreuve."
+        },
+        "german": {
+          "name": "Erste Begegnung",
+          "description": "Schließe eine Begegnung ab."
+        },
+        "italian": {
+          "name": "Primo evento",
+          "description": "Completa con successo un evento."
+        },
+        "japanese": {
+          "name": "ファースト エンカウンター",
+          "description": "エンカウンターをクリアしろ"
+        },
+        "polish": {
+          "name": "Zleceniobiorca",
+          "description": "Pomyślnie wykonaj zlecenie."
+        },
+        "russian": {
+          "name": "Разнорабочий",
+          "description": "Успешно выполните случайную работу."
+        },
+        "schinese": {
+          "name": "初次遭遇",
+          "description": "完成一次遭遇战"
+        },
+        "spanish": {
+          "name": "Primer encuentro",
+          "description": "Completa un encuentro con éxito."
+        }
+      }
+    },
+    "ach_encounter_resupply_points": {
+      "translations": {
+        "brazilian": {
+          "name": "Oferta e demanda",
+          "description": "Desbloqueie 10 pontos de reabastecimento ao concluir Eventos."
+        },
+        "english": {
+          "name": "Supply and Demand",
+          "description": "Unlock 10 Resupply Points by completing Encounters."
+        },
+        "french": {
+          "name": "L'offre et la demande",
+          "description": "Débloquez 10 points de ravitaillement en terminant des épreuves."
+        },
+        "german": {
+          "name": "Angebot und Nachfrage",
+          "description": "Schalte 10 Versorgungspunkte frei, indem du Begegnungen abschließt."
+        },
+        "italian": {
+          "name": "Rifornimento e richiesta",
+          "description": "Sblocca 10 punti di rifornimento completando gli eventi."
+        },
+        "japanese": {
+          "name": "需要と供給",
+          "description": "エンカウンターをクリアして、補給地点を10個アンロックしろ"
+        },
+        "polish": {
+          "name": "Życie na zlecenie",
+          "description": "Odblokuj 10 składnic poprzez wykonywanie zleceń dla rodaków w potrzebie."
+        },
+        "russian": {
+          "name": "Потребность и снабжение",
+          "description": "Разблокируйте 10 точек снабжения, выполнив случайные работы для жителей Медичи."
+        },
+        "schinese": {
+          "name": "供需补给",
+          "description": "通过完成遭遇战解锁10个补给点"
+        },
+        "spanish": {
+          "name": "Oferta y demanda",
+          "description": "Desbloquea 10 puntos de reabastecimiento completando encuentros."
+        }
+      }
+    },
+    "ach_encounter_priests": {
+      "translations": {
+        "brazilian": {
+          "name": "Três refúgios sagrados",
+          "description": "Desbloqueie 3 padres eliminadores de Pressão ao completar Eventos."
+        },
+        "english": {
+          "name": "Three Holy Hideaways",
+          "description": "Unlock 3 Heat-Clearing Priests by completing Encounters."
+        },
+        "french": {
+          "name": "Trois refuges sacrés",
+          "description": "Débloquez 3 prêtres sanctuaires en terminant des épreuves."
+        },
+        "german": {
+          "name": "Drei heilige Verstecke",
+          "description": "Schalte 3 Alarmstufe senkende Priester frei, indem du Begegnungen abschließt."
+        },
+        "italian": {
+          "name": "Tre rifugi sacri",
+          "description": "Sblocca 3 parroci azzera-Allerta completando gli eventi."
+        },
+        "japanese": {
+          "name": "聖なる隠れ家",
+          "description": "エンカウンターをクリアして、HEATを解除する神父を3人アンロックしろ"
+        },
+        "polish": {
+          "name": "Trzy święte kryjówki",
+          "description": "Odblokuj 3 księży kończących zadymę, poprzez wykonywanie zleceń dla rodaków w potrzebie."
+        },
+        "russian": {
+          "name": "Три священных убежища",
+          "description": "Разблокируйте 3 избавляющих от погони священников, выполнив случайные работы для жителей Медичи."
+        },
+        "schinese": {
+          "name": "三处神圣藏身处",
+          "description": "通过完成遭遇战，解锁3名可清除通缉热度的神父"
+        },
+        "spanish": {
+          "name": "Tres escondites sagrados",
+          "description": "Desbloquea 3 sacerdotes disipadores de alerta completando encuentros."
+        }
+      }
+    },
+    "ach_boostwingsuit_out_of_water": {
+      "translations": {
+        "brazilian": {
+          "name": "Como um peixe... Fora d'água!",
+          "description": "Use o Traje Planador de Bavário para decolar da água."
+        },
+        "english": {
+          "name": "Like a Fish... in the Air!",
+          "description": "Use the Bavarium Wingsuit to take off from water."
+        },
+        "french": {
+          "name": "Comme un poisson dans l'air",
+          "description": "Décollez depuis la surface de l'eau avec la wingsuit au bavarium."
+        },
+        "german": {
+          "name": "Wie ein Fisch ... in der Luft!",
+          "description": "Setze den Turbo ein, um vom Wasser aus abzuheben."
+        },
+        "italian": {
+          "name": "Come un pesce... in aria!",
+          "description": "Usa la tuta alare al Bavarium per decollare dall'acqua."
+        },
+        "japanese": {
+          "name": "魚のように… 空を飛ぶ！",
+          "description": "バベリウムウィングスーツを使用して水中から飛び立て"
+        },
+        "polish": {
+          "name": "Jak ryba... w powietrzu!",
+          "description": "Użyj bawarowego wingsuitu, by wystartować z wody."
+        },
+        "russian": {
+          "name": "Как рыба... в воздухе!",
+          "description": "Используйте Бавариевый Вингсьют для взлета с воды."
+        },
+        "schinese": {
+          "name": "像鱼一样……在天上！",
+          "description": "使用巴瓦里姆飞行翼从水面起飞"
+        },
+        "spanish": {
+          "name": "Como pez... ¡en el aire!",
+          "description": "Usa el traje aéreo de bavarium para despegar desde el agua."
+        }
+      }
+    },
+    "ach_missile_evaded": {
+      "translations": {
+        "brazilian": {
+          "name": "Sagacidade de raposa",
+          "description": "Faça \"barrel rolls\" (tunôs barris) para desviar de 10 mísseis."
+        },
+        "english": {
+          "name": "Look at the Sly Fox",
+          "description": "Use the Barrel Roll to evade 10 incoming missiles."
+        },
+        "french": {
+          "name": "Complètement rond",
+          "description": "Esquivez 10 missiles en faisant des tonneaux."
+        },
+        "german": {
+          "name": "Wie ein Rollmops",
+          "description": "Weiche 10 Raketen mit Fassrollen aus."
+        },
+        "italian": {
+          "name": "Pilota acrobatico",
+          "description": "Usa l'avvitamento per schivare 10 missili in arrivo."
+        },
+        "japanese": {
+          "name": "先見の明",
+          "description": "バレルロールでミサイルを10回避けろ"
+        },
+        "polish": {
+          "name": "Te kocie ruchy!",
+          "description": "Wykonując manewr beczki, uniknij 10 nadlatujących rakiet."
+        },
+        "russian": {
+          "name": "Хитрый лис",
+          "description": "Увернитесь от 10 ракет, используя маневр «бочка»."
+        },
+        "schinese": {
+          "name": "看那狡猾的家伙",
+          "description": "使用翻滚动作规避10枚来袭导弹"
+        },
+        "spanish": {
+          "name": "Muy astuto…",
+          "description": "Esquiva 10 misiles enemigos con el tonel volado."
+        }
+      }
+    },
+    "ach_dlc1_completed": {
+      "translations": {
+        "brazilian": {
+          "name": "Meu nome é Eden",
+          "description": "Termine a última missão da expansão Fortaleza Aérea e complete a história."
+        },
+        "english": {
+          "name": "My Name is Eden",
+          "description": "Beat the last mission of the Sky Fortress Expansion and complete the story arc."
+        },
+        "french": {
+          "name": "Eden, je m'appelle Eden",
+          "description": "Terminez la dernière mission et la trame principale de l'extension Forteresse Céleste."
+        },
+        "german": {
+          "name": "Mein Name ist Eden",
+          "description": "Meistere die letzte Mission der Himmelsfestung-Erweiterung und schließe den Handlungsbogen ab."
+        },
+        "italian": {
+          "name": "Il mio nome è Eden",
+          "description": "Porta a termine l'ultima missione dell'espansione \"Fortezza dei Cieli\" e completa la storia."
+        },
+        "japanese": {
+          "name": "マイ・ネーム・イズ・イーデン",
+          "description": "スカイフォートレス・エクスパンションの最後のミッションを達成して、ストーリーをクリアしろ"
+        },
+        "polish": {
+          "name": "Nazywam się Eden",
+          "description": "Ukończ finałową misję dodatku \"Podniebna Forteca\"."
+        },
+        "russian": {
+          "name": "Меня зовут Иден",
+          "description": "Выполните последнее задание в «Небесной крепости» и завершите сюжетную линию."
+        },
+        "schinese": {
+          "name": "我的名字是伊甸",
+          "description": "击败“空中堡垒”扩展包的最终任务，完成该故事线"
+        },
+        "spanish": {
+          "name": "Mi nombre es Eden",
+          "description": "Completa la última misión de la expansión «Fortaleza celeste» y termina la historia."
+        }
+      }
+    },
+    "ach_dlc1_mission2boss_completed": {
+      "translations": {
+        "brazilian": {
+          "name": "Vai Saci!",
+          "description": "Derrote o \"amiguinho\" (chefe no final da missão \"Assumindo o controle\")."
+        },
+        "english": {
+          "name": "Break a Leg!",
+          "description": "Defeat the \"Old Friend\" (Boss at the end of \"Taking Control\")."
+        },
+        "french": {
+          "name": "Une patte de moins !",
+          "description": "Éliminez la vieille connaissance d'Eden à la fin de la mission ''Prise de contrôle''."
+        },
+        "german": {
+          "name": "Hals- und Beinbruch!",
+          "description": "Besiege den \"alten Freund\" (Endgegner in Mission \"Volle Kontrolle\")."
+        },
+        "italian": {
+          "name": "Più in gamba di te!",
+          "description": "Sconfiggi l'\"Amico Mio\" (il boss alla fine di \"Controllo\")."
+        },
+        "japanese": {
+          "name": "幸運を！",
+          "description": "「旧友」(「システム制御」のボス)を倒せ"
+        },
+        "polish": {
+          "name": "Połamania nóg!",
+          "description": "Pokonaj \"Starego przyjaciela\" (Boss na końcu misji \"Przejęcie inicjatywy\")."
+        },
+        "russian": {
+          "name": "Многовато ног!",
+          "description": "Победите «Старого друга» (Босса в конце \"Получения контроля\")."
+        },
+        "schinese": {
+          "name": "打断你的狗腿！",
+          "description": "击败“旧友”（“夺回控制权”任务结尾处的BOSS）"
+        },
+        "spanish": {
+          "name": "¡Rómpete una pierna!",
+          "description": "Derrota al «amigo» (jefe final de la misión «Toma de control»)."
+        }
+      }
+    },
+    "ach_dlc1_all_drone_types_defeated": {
+      "translations": {
+        "brazilian": {
+          "name": "Controle de estoque",
+          "description": "Derrote 1 drone de cada tipo."
+        },
+        "english": {
+          "name": "Stock-Keeping",
+          "description": "Defeat 1 of each Drone type."
+        },
+        "french": {
+          "name": "Collectionnite aiguë",
+          "description": "Éliminez un drone de chaque type."
+        },
+        "german": {
+          "name": "Lagerhaltung",
+          "description": "Besiege 1 Drohne jedes Typs."
+        },
+        "italian": {
+          "name": "Non fare lo schizzinoso",
+          "description": "Distruggi un drone per ogni tipo."
+        },
+        "japanese": {
+          "name": "在庫管理",
+          "description": "各種類のドローンを1機以上破壊しろ"
+        },
+        "polish": {
+          "name": "Łowca dronów",
+          "description": "Pokonaj po 1 dronie każdego typu."
+        },
+        "russian": {
+          "name": "Кладовщик",
+          "description": "Победить 1 дрона каждого типа."
+        },
+        "schinese": {
+          "name": "清点库存",
+          "description": "每种无人机类型各击败1架"
+        },
+        "spanish": {
+          "name": "Mantenimiento de inventario",
+          "description": "Derrota a 1 dron de cada tipo."
+        }
+      }
+    },
+    "ach_dlc1_1gear_per_challenge": {
+      "translations": {
+        "brazilian": {
+          "name": "Expert e tanto",
+          "description": "Ganhe pelo menos 1 Engrenagem em todos os Desafios da expansão Fortaleza Aérea."
+        },
+        "english": {
+          "name": "Quite the Connoisseur",
+          "description": "Earn at least 1 Gear in all Challenges of the Sky Fortress Expansion."
+        },
+        "french": {
+          "name": "Fin connaisseur",
+          "description": "Gagnez au moins 1 mécanisme dans tous les défis de l'extension Forteresse Céleste."
+        },
+        "german": {
+          "name": "Kein Kostverächter",
+          "description": "Erhalte in allen Herausforderungen der Himmelsfestung-Erweiterung mindestens 1 Ausrüstungsobjekt."
+        },
+        "italian": {
+          "name": "Un buon intenditore",
+          "description": "Ottieni almeno un ingranaggio in tutte le sfide dell'espansione \"Fortezza dei Cieli\"."
+        },
+        "japanese": {
+          "name": "専門家",
+          "description": "スカイフォートレス・エクスパンションの全てのチャレンジで1ギア以上獲得しろ"
+        },
+        "polish": {
+          "name": "Koneser",
+          "description": "Zdobądź przynajmniej 1 trybik we wszystkich wyzwaniach dodatku \"Podniebna Forteca\"."
+        },
+        "russian": {
+          "name": "Известный знаток",
+          "description": "Заработайте хотя бы 1 шестерню во всех испытаниях \"Небесной крепости\"."
+        },
+        "schinese": {
+          "name": "通吃鉴赏家",
+          "description": "在“空中堡垒”扩展包的所有挑战中，至少各获得1个齿轮"
+        },
+        "spanish": {
+          "name": "Entendido en la materia",
+          "description": "Consigue al menos 1 pieza en todos los desafíos de la expansión «Fortaleza celeste»."
+        }
+      }
+    },
+    "ach_dlc1_5gear_per_challenge": {
+      "translations": {
+        "brazilian": {
+          "name": "Verdadeiro mestre",
+          "description": "Ganhe 5 Engrenagens em todos os Desafios da expansão Fortaleza Aérea."
+        },
+        "english": {
+          "name": "A True Master",
+          "description": "Earn 5 Gears in all Challenges of the Sky Fortress Expansion."
+        },
+        "french": {
+          "name": "Véritable maître",
+          "description": "Gagnez 5 mécanismes dans tous les défis de l'extension Forteresse Céleste."
+        },
+        "german": {
+          "name": "Ein wahrer Meister",
+          "description": "Erhalte in allen Herausforderungen der Himmelsfestung-Erweiterung 5 Zahnräder."
+        },
+        "italian": {
+          "name": "Un vero maestro",
+          "description": "Ottieni 5 ingranaggi in tutte le sfide dell'espansione \"Fortezza dei Cieli\"."
+        },
+        "japanese": {
+          "name": "真の達人",
+          "description": "スカイフォートレス・エクスパンションの全てのチャレンジで5ギアを獲得しろ"
+        },
+        "polish": {
+          "name": "Prawdziwy as",
+          "description": "Zdobądź 5 trybików we wszystkich wyzwaniach dodatku \"Podniebna Forteca\"."
+        },
+        "russian": {
+          "name": "Истинный Мастер",
+          "description": "Заработайте 5 шестерен во всех испытаниях \"Небесной крепости\"."
+        },
+        "schinese": {
+          "name": "真·大师",
+          "description": "在“空中堡垒”扩展包的所有挑战中，全部获得5个齿轮"
+        },
+        "spanish": {
+          "name": "Un auténtico maestro",
+          "description": "Consigue 5 piezas en todos los desafíos de la expansión «Fortaleza celeste»."
+        }
+      }
+    },
+    "ach_dlc2_completed": {
+      "translations": {
+        "brazilian": {
+          "name": "No coração das trevas",
+          "description": "Termine a última missão da expansão MechAtaque Terrestre e complete a história."
+        },
+        "english": {
+          "name": "In the Heart of Darkness",
+          "description": "Beat the last mission of the Mech Land Assault Expansion and complete the story arc."
+        },
+        "french": {
+          "name": "Noir, c'est noir",
+          "description": "Terminez la dernière mission scénaristique du pack Assaut terrestre par Meca."
+        },
+        "german": {
+          "name": "Im Herz der Finsternis",
+          "description": "Meistere die letzte Mission der Erweiterung \"Mech Land Assault\" und schließe die Story ab."
+        },
+        "italian": {
+          "name": "Nel cuore delle tenebre",
+          "description": "Porta a termine l'ultima missione dell'espansione \"Invasione Mech\" e completa la storia."
+        },
+        "japanese": {
+          "name": "闇の中心で",
+          "description": "Mechランドアサルト・エクスパンションの最後のミッションを達成して、ストーリーをクリアしろ"
+        },
+        "polish": {
+          "name": "W jądrze ciemności",
+          "description": "Ukończ finałową misję dodatku \"Lądowa Inwazja Mechów\" i dokończ jego fabułę."
+        },
+        "russian": {
+          "name": "Под знаком Черной Руки",
+          "description": "Выполните последнее задание в дополнении «Mech Land Assault» и завершите сюжетную линию."
+        },
+        "schinese": {
+          "name": "黑暗之心",
+          "description": "击败“机甲突袭”扩展包的最终任务，完成该故事线"
+        },
+        "spanish": {
+          "name": "En el corazón de las tinieblas",
+          "description": "Completa la última misión de la expansión «Asalto terrestre mecha» y termina la historia."
+        }
+      }
+    },
+    "ach_dlc2_1gear_per_challenge": {
+      "translations": {
+        "brazilian": {
+          "name": "Operador certificado de Mech da eDEN",
+          "description": "Obtenha pelo menos 1 engrenagem em todos os desafios da expansão MechAtaque Terrestre."
+        },
+        "english": {
+          "name": "Certified eDEN Mech Operator",
+          "description": "Earn at least 1 Gear in all Challenges of the Mech Land Assault Expansion."
+        },
+        "french": {
+          "name": "Spécialiste en Meca",
+          "description": "Gagnez au moins un mécanisme dans tous les défis du pack Assaut terrestre par Meca."
+        },
+        "german": {
+          "name": "Zertifizierter eDEN-Mech-Operator",
+          "description": "Erringe mindestens 1 Zahnrad bei allen Herausforderungen der Erweiterung \"Mech Land Assault\"."
+        },
+        "italian": {
+          "name": "Operatore mech eDEN certificato",
+          "description": "Ottieni almeno un ingranaggio in tutte le sfide dell'espansione \"Invasione Mech\"."
+        },
+        "japanese": {
+          "name": "公認eDENMechオペレーター",
+          "description": "Mechランドアサルト・エクスパンションの全てのチャレンジで1ギア以上獲得しろ"
+        },
+        "polish": {
+          "name": "Certyfikowany operator mecha eDEN",
+          "description": "Zdobądź przynajmniej 1 trybik we wszystkich wyzwaniach dodatku \"Lądowa Inwazja Mechów\"."
+        },
+        "russian": {
+          "name": "Сертифицированный оператор Мехов «Иден»",
+          "description": "Заслужите хотя бы 1 шестерню во всех испытаниях дополнения «Mech Land Assault»."
+        },
+        "schinese": {
+          "name": "伊甸机甲操作员",
+          "description": "在“机甲突袭”扩展包的所有挑战中，至少各获得1个齿轮"
+        },
+        "spanish": {
+          "name": "Operador de Mech certificado por eDEN",
+          "description": "Consigue al menos 1 pieza en todos los desafíos de la expansión «Asalto terrestre mecha»."
+        }
+      }
+    },
+    "ach_dlc2_5gear_per_challenge": {
+      "translations": {
+        "brazilian": {
+          "name": "Empregado do ano da eDEN",
+          "description": "Obtenha 5 engrenagens em todos os desafios da expansão MechAtaque Terrestre."
+        },
+        "english": {
+          "name": "eDEN Employee of the Year",
+          "description": "Earn 5 Gears in all Challenges of the Mech Land Assault Expansion."
+        },
+        "french": {
+          "name": "Employé eDEN de l'année",
+          "description": "Gagnez cinq mécanismes dans tous les défis du pack Assaut terrestre par Meca."
+        },
+        "german": {
+          "name": "eDEN-Mitarbeiter des Jahres",
+          "description": "Erringe 5 Zahnräder bei allen Herausforderungen der Erweiterung \"Mech Land Assault\"."
+        },
+        "italian": {
+          "name": "Impiegato eDEN dell'anno",
+          "description": "Ottieni 5 ingranaggi in tutte le sfide dell'espansione \"Invasione Mech\"."
+        },
+        "japanese": {
+          "name": "eDEN年間最優秀社員",
+          "description": "Mechランドアサルト・エクスパンションの全てのチャレンジで5ギアを獲得しろ"
+        },
+        "polish": {
+          "name": "Pracownik roku firmy eDEN",
+          "description": "Zdobądź 5 trybików we wszystkich wyzwaniach dodatku \"Lądowa Inwazja Mechów\"."
+        },
+        "russian": {
+          "name": "Работник года в «Иден»",
+          "description": "Заслужите 5 шестерней во всех испытаниях дополнения «Mech Land Assault»."
+        },
+        "schinese": {
+          "name": "伊甸年度最佳员工",
+          "description": "在“机甲突袭”扩展包的所有挑战中，全部获得5个齿轮"
+        },
+        "spanish": {
+          "name": "Empleado del año de eDEN",
+          "description": "Consigue 5 piezas en todos los desafíos de la expansión «Asalto terrestre mecha»."
+        }
+      }
+    },
+    "ach_dlc2_mech_hijack": {
+      "translations": {
+        "brazilian": {
+          "name": "Um Mech-lance feliz",
+          "description": "Sequestre seu primeiro Mech."
+        },
+        "english": {
+          "name": "One Mech of a Ride",
+          "description": "Hijack your first Mech."
+        },
+        "french": {
+          "name": "Mon Meca à moi",
+          "description": "Piratez votre premier Meca."
+        },
+        "german": {
+          "name": "Mech-Aniker",
+          "description": "Entführe deinen ersten Mech."
+        },
+        "italian": {
+          "name": "Mech-canico",
+          "description": "Ruba il tuo primo mech."
+        },
+        "japanese": {
+          "name": "Mechライダー",
+          "description": "初めてMechを乗っ取る"
+        },
+        "polish": {
+          "name": "Podróż za jednego mecha",
+          "description": "Przejmij swojego pierwszego mecha."
+        },
+        "russian": {
+          "name": "Механический скакун",
+          "description": "Угоните свой первый Мех."
+        },
+        "schinese": {
+          "name": "这机甲真带劲",
+          "description": "劫持你的第一台机甲"
+        },
+        "spanish": {
+          "name": "Un mecha con mechas",
+          "description": "Roba tu primer mecha."
+        }
+      }
+    },
+    "ach_dlc2_liberate_detention_camps": {
+      "translations": {
+        "brazilian": {
+          "name": "Pássaros livres",
+          "description": "Libere 3 centros de detenção."
+        },
+        "english": {
+          "name": "Free Birds",
+          "description": "Liberate 3 Detention Camps."
+        },
+        "french": {
+          "name": "Liberté, j'écris ton nom",
+          "description": "Libérez 3 centres de détention."
+        },
+        "german": {
+          "name": "Freie Vögel",
+          "description": "Befreie 3 Internierungslager."
+        },
+        "italian": {
+          "name": "Uccelli di bosco",
+          "description": "Libera 3 campi di prigionia."
+        },
+        "japanese": {
+          "name": "フリーバード",
+          "description": "収容所を3ヶ所解放しろ"
+        },
+        "polish": {
+          "name": "Wolny niczym ptak",
+          "description": "Wyzwól 3 kolonie karne."
+        },
+        "russian": {
+          "name": "Вольная птица",
+          "description": "Освободите заключенных в 3 лагерях."
+        },
+        "schinese": {
+          "name": "自由之鸟",
+          "description": "解放3座拘留营"
+        },
+        "spanish": {
+          "name": "Pájaros en libertad",
+          "description": "Libera 3 campos de prisioneros."
+        }
+      }
+    },
+    "ach_dlc2_mech_signature_move": {
+      "translations": {
+        "brazilian": {
+          "name": "Não é um punhado",
+          "description": "Destrua 30 veículos inimigos usando pulso de força do Mech."
+        },
+        "english": {
+          "name": "This Is Not A Fireball",
+          "description": "Destroy 30 enemy vehicles using the Mech's Force Pulse."
+        },
+        "french": {
+          "name": "Ceci n'est pas une boule de feu",
+          "description": "Détruisez 30 véhicules ennemis avec l'Impulsion du Meca."
+        },
+        "german": {
+          "name": "Das ist kein Feuerball",
+          "description": "Zerstöre 30 Fahrzeuge mit dem Kraftimpuls des Mech."
+        },
+        "italian": {
+          "name": "Non è una palla di fuoco",
+          "description": "Distruggi 30 veicoli nemici usando l'Impulso Energetico del mech."
+        },
+        "japanese": {
+          "name": "これは飛び道具ではない",
+          "description": "Mechのフォースパルスで敵車両を30台破壊しろ"
+        },
+        "polish": {
+          "name": "To nie jest kula ognista",
+          "description": "Zniszcz 30 pojazdów wroga z wykorzystaniem impulsu mocy mecha."
+        },
+        "russian": {
+          "name": "Это не шаровая молния",
+          "description": "Уничтожьте 30 вражеских машин при помощи силового толкателя Меха."
+        },
+        "schinese": {
+          "name": "这可不是火球术",
+          "description": "使用机甲的冲击波摧毁30辆敌方载具"
+        },
+        "spanish": {
+          "name": "No es una bola de fuego",
+          "description": "Destruye 30 vehículos enemigos con el pulso de fuerza del mecha."
+        }
+      }
+    },
+    "ach_dlc3_completed": {
+      "translations": {
+        "brazilian": {
+          "name": "O último golpe",
+          "description": "Termine a última missão da expansão Assalto Marítimo e complete a história."
+        },
+        "english": {
+          "name": "One Last Score",
+          "description": "Beat the last mission of the Bavarium Sea Heist expansion and complete the story arc."
+        },
+        "french": {
+          "name": "Un dernier gros coup",
+          "description": "Terminez la dernière mission du pack Vol de Bavarium en Mer."
+        },
+        "german": {
+          "name": "Ein letzter Fischzug",
+          "description": "Meistere die letzte Mission der Bavarium Seeräuber-Erweiterung und schließe den Handlungsbogen ab."
+        },
+        "italian": {
+          "name": "Un ultimo colpo",
+          "description": "Porta a termine l'ultima missione dell'espansione \"Mare di Bavarium\" e completa la storia."
+        },
+        "japanese": {
+          "name": "最後の仕事",
+          "description": "バベリウム・シーハイスト・エクスパンションの最終ミッションをクリアし、ストーリーを完了させろ"
+        },
+        "polish": {
+          "name": "Ostatnia robota",
+          "description": "Ukończ finałową misję dodatku \"Skok Na Morski Bawar\" i dokończ jego fabułę."
+        },
+        "russian": {
+          "name": "Еще одно последнее ограбление",
+          "description": "Выполните последнее задание в дополнении «Морской бой за баварий» и завершите сюжетную линию."
+        },
+        "schinese": {
+          "name": "最后一票",
+          "description": "击败“巴瓦里姆海劫”扩展包的最终任务，完成该故事线"
+        },
+        "spanish": {
+          "name": "Un último golpe",
+          "description": "Completa la última misión de la expansión «Golpe marítimo» y termina la historia."
+        }
+      }
+    },
+    "ach_dlc3_rocket_boat_defeat_helicopters": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre Loochador ",
+          "description": "Derrote 5 helicópteros inimigos com o barco-foguete. "
+        },
+        "english": {
+          "name": "Loochador Master",
+          "description": "Defeat 5 enemy helicopters with the Rocket Boat."
+        },
+        "french": {
+          "name": "Maître du Loochador",
+          "description": "Abattez 5 hélicoptères ennemis avec le Rocket Boat."
+        },
+        "german": {
+          "name": "Loochador-Meister",
+          "description": "Besiege 5 feindliche Helikopter mit dem Raketenboot."
+        },
+        "italian": {
+          "name": "Mastro Loochador",
+          "description": "Sconfiggi 5 elicotteri nemici con il Razzoscafo."
+        },
+        "japanese": {
+          "name": "ルーチアドールマスター",
+          "description": "ロケットボートで敵ヘリコプターを5機倒せ"
+        },
+        "polish": {
+          "name": "Mistrz Loochadora",
+          "description": "Zniszcz 5 wrogich śmigłowców, używając łodzi rakietowej."
+        },
+        "russian": {
+          "name": "Мастер Лучадора",
+          "description": "Уничтожьте 5 вражеских вертолетов при помощи ракетного катера."
+        },
+        "schinese": {
+          "name": "洛查多大师",
+          "description": "使用火箭艇击败5架敌方直升机"
+        },
+        "spanish": {
+          "name": "Maestro Loochador",
+          "description": "Derrota a 5 helicópteros enemigos con el barco lanzacohetes."
+        }
+      }
+    },
+    "ach_dlc3_rocket_boat_defeat_vehicles": {
+      "translations": {
+        "brazilian": {
+          "name": "O Mediciano voador",
+          "description": "Derrote 10 veículos inimigos enquanto estiver no ar com o barco-foguete. "
+        },
+        "english": {
+          "name": "The Flying Medician",
+          "description": "Defeat 10 enemy vehicles while in the air with the Rocket Boat."
+        },
+        "french": {
+          "name": "Le Médicien volant",
+          "description": "Abattez 10 véhicules ennemis depuis les airs avec le Rocket Boat."
+        },
+        "german": {
+          "name": "Der fliegende Medicianer",
+          "description": "Besiege 10 feindliche Fahrzeuge in der Luft mit dem Raketenboot."
+        },
+        "italian": {
+          "name": "Il mediceo volante",
+          "description": "Sconfiggi 10 veicoli nemici mentre sei per aria con il Razzoscafo."
+        },
+        "japanese": {
+          "name": "フライング・メディチマン",
+          "description": "ロケットボートで飛行中に敵機を10台破壊しろ"
+        },
+        "polish": {
+          "name": "Latający Medycyńczyk",
+          "description": "Zniszcz 10 wrogich pojazdów, będąc w powietrzu w łodzi rakietowej."
+        },
+        "russian": {
+          "name": "Летающий медичиец",
+          "description": "Уничтожьте 10 единиц вражеского транспорта в воздухе при помощи ракетного катера."
+        },
+        "schinese": {
+          "name": "飞翔的梅迪西人",
+          "description": "使用火箭艇在空中状态下击败10辆敌方载具"
+        },
+        "spanish": {
+          "name": "El mediciano errante",
+          "description": "Derrota a 10 vehículos enemigos mientras el barco lanzacohetes está en el aire."
+        }
+      }
+    },
+    "ach_dlc3_get_the_rocket_boat": {
+      "translations": {
+        "brazilian": {
+          "name": "Eu devia comprar um barco",
+          "description": "Consiga o barco-foguete, também conhecido como o \"Loochador\"."
+        },
+        "english": {
+          "name": "I Should Buy A Boat",
+          "description": "Get the Rocket Boat, also known as \"The Loochador\"."
+        },
+        "french": {
+          "name": "Yacht Party",
+          "description": "Récupérez le Rocket Boat, également surnommé \"le Loochador\"."
+        },
+        "german": {
+          "name": "Ich sollte ein Boot kaufen",
+          "description": "Besorg dir das Raketenboot ... die \"Loochador\"."
+        },
+        "italian": {
+          "name": "Dovrei farmi una barca",
+          "description": "Ottieni il Razzoscafo, noto anche come \"Loochador\"."
+        },
+        "japanese": {
+          "name": "ボートを買わなきゃ",
+          "description": "ロケットボート「ルーチアドール」を手に入れろ"
+        },
+        "polish": {
+          "name": "Powinienem kupić sobie łódź",
+          "description": "Zdobądź łódź rakietową, znaną także jako \"Loochador\"."
+        },
+        "russian": {
+          "name": "Пора покупать катер",
+          "description": "Получите ракетный катер «Лучадор»."
+        },
+        "schinese": {
+          "name": "我该买艘船",
+          "description": "获取火箭艇（即“洛查多”）"
+        },
+        "spanish": {
+          "name": "Debería comprarme un barco",
+          "description": "Consigue el barco lanzacohetes, conocido también como el «Loochador»."
+        }
+      }
+    },
+    "ach_dlc3_lightning_gun_defeat_helicopters": {
+      "translations": {
+        "brazilian": {
+          "name": "Relâmpagos!",
+          "description": "Derrote 1 helicóptero inimigo usando a Faísca eDEN."
+        },
+        "english": {
+          "name": "Lightning Bolt!",
+          "description": "Defeat 1 enemy helicopter using the eDEN Spark."
+        },
+        "french": {
+          "name": "Attaque foudre !",
+          "description": "Abattez un hélicoptère ennemi avec l'étincelle d'eDEN."
+        },
+        "german": {
+          "name": "Potzblitz!",
+          "description": "Besiege 1 feindlichen Helikopter mit dem eDEN Spark."
+        },
+        "italian": {
+          "name": "Rombo di tuono!",
+          "description": "Sconfiggi un elicottero nemico usando l'eDEN Spark."
+        },
+        "japanese": {
+          "name": "雷の一撃！",
+          "description": "eDENスパークで敵ヘリコプターを1機倒せ"
+        },
+        "polish": {
+          "name": "Błyskawica!",
+          "description": "Zniszcz 1 wrogi śmigłowiec, używając Iskry eDENu."
+        },
+        "russian": {
+          "name": "Молниемет!",
+          "description": "Уничтожьте 1 вражеский вертолет при помощи «Искорки Иден»."
+        },
+        "schinese": {
+          "name": "闪电出击！",
+          "description": "使用伊甸电击枪击败1架敌方直升机"
+        },
+        "spanish": {
+          "name": "¡Rayo!",
+          "description": "Derrota a 1 helicóptero enemigo con la Chispa eDEN."
+        }
+      }
+    },
+    "ach_dlc3_lightning_gun_defeat_enemies": {
+      "translations": {
+        "brazilian": {
+          "name": "Mantenha a energia",
+          "description": "Derrote 10 inimigos com o mesmo ataque da Faísca eDEN."
+        },
+        "english": {
+          "name": "Staying Power",
+          "description": "Defeat 10 enemies with the same eDEN Spark strike."
+        },
+        "french": {
+          "name": "Toujours plus de puissance",
+          "description": "Éliminez 10 ennemis d'un coup avec l'étincelle d'eDEN."
+        },
+        "german": {
+          "name": "Energieleistung",
+          "description": "Besiege 10 Gegner mit einem eDEN Spark-Angriff."
+        },
+        "italian": {
+          "name": "Potenza senza confini",
+          "description": "Sconfiggi 10 nemici con un unico colpo di eDEN Spark."
+        },
+        "japanese": {
+          "name": "持続力",
+          "description": "1回のeDENスパークで敵を10人倒す"
+        },
+        "polish": {
+          "name": "Jest moc",
+          "description": "Pokonaj 10 wrogów jednym strzałem z iskry eDENu."
+        },
+        "russian": {
+          "name": "Боевая энергия",
+          "description": "Уничтожьте 10 врагов при помощи одного залпа «Искорки Иден»."
+        },
+        "schinese": {
+          "name": "一发入魂",
+          "description": "使用伊甸电击枪的同一道闪电攻击，击败10名敌人"
+        },
+        "spanish": {
+          "name": "Poder de permanencia",
+          "description": "Derrota a 10 enemigos con el mismo ataque de la Chispa eDEN."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,637 @@
+{
+  "version": 1,
+  "app_id": "889710",
+  "variant_id": "default",
+  "source_sha256": "d73e832bf3664fb3943af3b9ce96f8b40d36cb8075ca12d8bdbd0bfca7644330",
+  "languages": [
+    "english",
+    "japanese",
+    "schinese"
+  ],
+  "achievements": {
+    "ACH_MUVPM_001": {
+      "translations": {
+        "english": {
+          "name": "You got the Ivory Ring Box!",
+          "description": "Spent some time alone with Yuuhi."
+        },
+        "japanese": {
+          "name": "希少な象牙の小箱を手に入れた！",
+          "description": "悠陽とふたりのひとときを過ごした"
+        },
+        "schinese": {
+          "name": "获得了稀有的象牙小盒子！",
+          "description": "与悠阳共度了二人时光"
+        }
+      }
+    },
+    "ACH_MUVPM_002": {
+      "translations": {
+        "english": {
+          "name": "You got the Lacquered Ring Box!",
+          "description": "Spent some time alone with Meiya."
+        },
+        "japanese": {
+          "name": "貴重な漆塗りの小箱を手に入れた！",
+          "description": "冥夜とふたりのひとときを過ごした"
+        },
+        "schinese": {
+          "name": "获得了珍贵的漆器小盒子！",
+          "description": "与冥夜共度了二人时光"
+        }
+      }
+    },
+    "ACH_MUVPM_003": {
+      "translations": {
+        "english": {
+          "name": "GOAAAAAL!",
+          "description": "Chose Miki's present first."
+        },
+        "japanese": {
+          "name": "頑張れサイボーグタケル！",
+          "description": "頑張れサイボーグタケル！"
+        },
+        "schinese": {
+          "name": "加油啊，生化人武！",
+          "description": "首先选择了壬姬的礼物"
+        }
+      }
+    },
+    "ACH_MUVPM_004": {
+      "translations": {
+        "english": {
+          "name": "Rev Those Engines!",
+          "description": "Chose Kei's present first."
+        },
+        "japanese": {
+          "name": "決めろソニックスタート！",
+          "description": "慧からゲームガイのソフトを貰った"
+        },
+        "schinese": {
+          "name": "使出决定性音速起步！",
+          "description": "首先选择了慧的礼物"
+        }
+      }
+    },
+    "ACH_MUVPM_005": {
+      "translations": {
+        "english": {
+          "name": "Drill Me Up, Baby!",
+          "description": "Chose Chizuru's present first."
+        },
+        "japanese": {
+          "name": "ホリ・タケル参戦！",
+          "description": "千鶴からゲームガイのソフトを貰った"
+        },
+        "schinese": {
+          "name": "“钻头武”参战！",
+          "description": "首先选择了千鹤的礼物"
+        }
+      }
+    },
+    "ACH_MUVPM_006": {
+      "translations": {
+        "english": {
+          "name": "Portable Ops!",
+          "description": "Chose Mikoto's present first."
+        },
+        "japanese": {
+          "name": "チョビット・ハブ作戦開始！",
+          "description": "美琴からゲームガイのソフトを貰った"
+        },
+        "schinese": {
+          "name": "“小不点基地”作战开始！",
+          "description": "首先选择了美琴的礼物"
+        }
+      }
+    },
+    "ACH_MUVPM_007": {
+      "translations": {
+        "english": {
+          "name": "No Objections Here!",
+          "description": "Chose Haruko's present first."
+        },
+        "japanese": {
+          "name": "くらえっ！　異議なし!!",
+          "description": "晴子からゲームガイのソフトを貰った"
+        },
+        "schinese": {
+          "name": "接招！没有异议！！",
+          "description": "首先选择了晴子的礼物"
+        }
+      }
+    },
+    "ACH_MUVPM_008": {
+      "translations": {
+        "english": {
+          "name": "Taking the Plunge",
+          "description": "Took skiing lessons from Yuuhi."
+        },
+        "japanese": {
+          "name": "くらわされているのか!? 然るべき報いを！",
+          "description": "悠陽とのスキー特訓開始"
+        },
+        "schinese": {
+          "name": "这是在挨揍吗！？该得到应有的报应了！",
+          "description": "开始与悠阳进行滑雪特训"
+        }
+      }
+    },
+    "ACH_MUVPM_009": {
+      "translations": {
+        "english": {
+          "name": "Just Needed a Little Push",
+          "description": "Took skiing lessons from Meiya."
+        },
+        "japanese": {
+          "name": "これがッ！これがッ！これが『タケル』だッ!!",
+          "description": "冥夜とのスキー特訓開始"
+        },
+        "schinese": {
+          "name": "这就是！这就是！这就是“武”啊！！",
+          "description": "开始与冥夜进行滑雪特训"
+        }
+      }
+    },
+    "ACH_MUVPM_010": {
+      "translations": {
+        "english": {
+          "name": "Snake Brigade, Move Out!",
+          "description": "Went sledding with Sumika."
+        },
+        "japanese": {
+          "name": "スネイク軍団出撃ッッ!!",
+          "description": "純夏とソリ遊び"
+        },
+        "schinese": {
+          "name": "蛇军团出击！！",
+          "description": "和纯夏一起玩雪橇"
+        }
+      }
+    },
+    "ACH_MUVPM_011": {
+      "translations": {
+        "english": {
+          "name": "Kill La Melon",
+          "description": "Played Smash the Watermelon with Meiya and Yuuhi."
+        },
+        "japanese": {
+          "name": "Suika-Destroy",
+          "description": "悠陽・冥夜とスイカ割りをやった"
+        },
+        "schinese": {
+          "name": "西瓜破坏",
+          "description": "和悠阳、冥夜一起玩了劈西瓜"
+        }
+      }
+    },
+    "ACH_MUVPM_012": {
+      "translations": {
+        "english": {
+          "name": "The Crazy Cat Lady!",
+          "description": "Ran into Tsukiji on the island."
+        },
+        "japanese": {
+          "name": "築地登場！",
+          "description": "築地多恵と出会った"
+        },
+        "schinese": {
+          "name": "筑地登场！",
+          "description": "遇到了筑地多惠"
+        }
+      }
+    },
+    "ACH_MUVPM_013": {
+      "translations": {
+        "english": {
+          "name": "The Eskimo Sisters!",
+          "description": "Ran into Haruka and Mitsuki on the island."
+        },
+        "japanese": {
+          "name": "遙・水月登場！",
+          "description": "涼宮遙・速瀬水月と出会った"
+        },
+        "schinese": {
+          "name": "遥・水月登场！",
+          "description": "遇到了凉宫遥和速濑水月"
+        }
+      }
+    },
+    "ACH_MUVPM_014": {
+      "translations": {
+        "english": {
+          "name": "The Martyr!",
+          "description": "Ran into Michiru on the island."
+        },
+        "japanese": {
+          "name": "みちる登場！",
+          "description": "伊隅みちると出会った"
+        },
+        "schinese": {
+          "name": "美知留登场！",
+          "description": "遇到了伊隅美知留"
+        }
+      }
+    },
+    "ACH_MUVPM_015": {
+      "translations": {
+        "english": {
+          "name": "The Gal Pals!",
+          "description": "Ran into Munakata and Kazama on the island."
+        },
+        "japanese": {
+          "name": "宗像・風間登場！",
+          "description": "宗像美冴・風間祷子と出会った"
+        },
+        "schinese": {
+          "name": "宗像・风间登场！",
+          "description": "遇到了宗像美冴和风间祷子"
+        }
+      }
+    },
+    "ACH_MUVPM_016": {
+      "translations": {
+        "english": {
+          "name": "Naked & Afraid",
+          "description": "Walked in on Mikoto changing."
+        },
+        "japanese": {
+          "name": "こう見えても美琴は女の子です！",
+          "description": "鎧衣美琴の着替えを覗いた"
+        },
+        "schinese": {
+          "name": "别看这样，美琴也是女孩子！",
+          "description": "偷看了铠衣美琴换衣服"
+        }
+      }
+    },
+    "ACH_MUVPM_017": {
+      "translations": {
+        "english": {
+          "name": "Tsukuyomi Maya Joins the Fray!",
+          "description": "Met Maya on the island."
+        },
+        "japanese": {
+          "name": "初遭遇！月詠真耶",
+          "description": "月詠真耶と出会った"
+        },
+        "schinese": {
+          "name": "首次遭遇！月咏真耶",
+          "description": "遇到了月咏真耶"
+        }
+      }
+    },
+    "ACH_MUVPM_018": {
+      "translations": {
+        "english": {
+          "name": "Xtreme Teach Volleyball",
+          "description": "Saw the female chaperones playing volleyball."
+        },
+        "japanese": {
+          "name": "悩殺？虚しきビーチバレー",
+          "description": "女性教師達のビーチバレーを見た"
+        },
+        "schinese": {
+          "name": "迷倒人心？空虚的沙滩排球",
+          "description": "看到了女教师们的沙滩排球比赛"
+        }
+      }
+    },
+    "ACH_MUVPM_019": {
+      "translations": {
+        "english": {
+          "name": "Hide and Seek Savant!",
+          "description": "Found Mitsuki's hiding place."
+        },
+        "japanese": {
+          "name": "かくれんぼマスター！",
+          "description": "かくれんぼで水月を見つけた"
+        },
+        "schinese": {
+          "name": "捉迷藏大师！",
+          "description": "在捉迷藏中找到了水月"
+        }
+      }
+    },
+    "ACH_MUVPM_020": {
+      "translations": {
+        "english": {
+          "name": "Nice Try, Haruka!",
+          "description": "Found Haruka's hiding place."
+        },
+        "japanese": {
+          "name": "遙発見記念日！",
+          "description": "かくれんぼで遙を見つけた"
+        },
+        "schinese": {
+          "name": "发现遥纪念日！",
+          "description": "在捉迷藏中找到了遥"
+        }
+      }
+    },
+    "ACH_MUVPM_021": {
+      "translations": {
+        "english": {
+          "name": "Accidental Nip Slip...",
+          "description": "Challenged Chizuru to a swim race."
+        },
+        "japanese": {
+          "name": "いいもの見ちゃった……",
+          "description": "千鶴と水泳勝負をした"
+        },
+        "schinese": {
+          "name": "看到好东西了……",
+          "description": "和千鹤比了一场游泳"
+        }
+      }
+    },
+    "ACH_MUVPM_022": {
+      "translations": {
+        "english": {
+          "name": "We Meet Again, David...",
+          "description": "Ran into that weird lady again on the island."
+        },
+        "japanese": {
+          "name": "また会えたわねデイヴィット～",
+          "description": "南の島で謎の女性に出会った"
+        },
+        "schinese": {
+          "name": "又见到你了呢，戴维～",
+          "description": "在南方小岛遇到了神秘女子"
+        }
+      }
+    },
+    "ACH_MUVPM_023": {
+      "translations": {
+        "english": {
+          "name": "Do I Know You From Somewhere...?",
+          "description": "Ran into some mysterious-looking folks on the island."
+        },
+        "japanese": {
+          "name": "彼等はどこかで見たような……？",
+          "description": "南の島で謎の若者達と出会った"
+        },
+        "schinese": {
+          "name": "他们好像在哪里见过……？",
+          "description": "在南方小岛遇到了神秘的年轻人们"
+        }
+      }
+    },
+    "ACH_MUVPM_024": {
+      "translations": {
+        "english": {
+          "name": "Like Drinking Out of a Septic Tank",
+          "description": "Drank Michiru's vile beverage."
+        },
+        "japanese": {
+          "name": "みちるお奨め！疲労回復ドリンクを飲めッ！",
+          "description": "謎のドリンクを差し入れてもらった"
+        },
+        "schinese": {
+          "name": "美知留推荐！喝下恢复疲劳的饮料吧！",
+          "description": "收到了神秘饮料"
+        }
+      }
+    },
+    "ACH_MUVPM_025": {
+      "translations": {
+        "english": {
+          "name": "Happily Ever After!",
+          "description": "Had an intimate moment with Sumika."
+        },
+        "japanese": {
+          "name": "ゴールデンハッピー!!",
+          "description": "鑑純夏と恋人に――"
+        },
+        "schinese": {
+          "name": "黄金幸福！！",
+          "description": "与鉴纯夏共度了亲密时光"
+        }
+      }
+    },
+    "ACH_MUVPM_026": {
+      "translations": {
+        "english": {
+          "name": "Love of the Girl Who Sees All Worlds",
+          "description": "Had an intimate moment with Kasumi."
+        },
+        "japanese": {
+          "name": "全ての世界を知る少女の恋",
+          "description": "社霞と恋人に――"
+        },
+        "schinese": {
+          "name": "知晓所有世界的少女之恋",
+          "description": "与社霞共度了亲密时光"
+        }
+      }
+    },
+    "ACH_MUVPM_027": {
+      "translations": {
+        "english": {
+          "name": "You and Me in the Blue Sea of Stars",
+          "description": "Had an intimate moment with Yuuhi."
+        },
+        "japanese": {
+          "name": "碧き銀河のふたり",
+          "description": "御剣悠陽と恋人に――"
+        },
+        "schinese": {
+          "name": "苍蓝银河中的两人",
+          "description": "与御剑悠阳共度了亲密时光"
+        }
+      }
+    },
+    "ACH_MUVPM_028": {
+      "translations": {
+        "english": {
+          "name": "To Earn Your Smile",
+          "description": "Had an intimate moment with Meiya."
+        },
+        "japanese": {
+          "name": "そなたの笑顔のために",
+          "description": "御剣冥夜と恋人に――"
+        },
+        "schinese": {
+          "name": "为了你的笑容",
+          "description": "与御剑冥夜共度了亲密时光"
+        }
+      }
+    },
+    "ACH_MUVPM_029": {
+      "translations": {
+        "english": {
+          "name": "She's a Slam Dunk!",
+          "description": "Had an intimate moment with Haruko."
+        },
+        "japanese": {
+          "name": "バスケで勝負ッ!!",
+          "description": "柏木晴子と恋人に――"
+        },
+        "schinese": {
+          "name": "用篮球一决胜负！！",
+          "description": "与柏木晴子共度了亲密时光"
+        }
+      }
+    },
+    "ACH_MUVPM_030": {
+      "translations": {
+        "english": {
+          "name": "Didn't Even Recognize Her...",
+          "description": "Had an intimate moment with Chizuru."
+        },
+        "japanese": {
+          "name": "彼女とは知らずに……",
+          "description": "榊千鶴と恋人に――"
+        },
+        "schinese": {
+          "name": "在不知道是她的情况下……",
+          "description": "与榊千鹤共度了亲密时光"
+        }
+      }
+    },
+    "ACH_MUVPM_031": {
+      "translations": {
+        "english": {
+          "name": "Man + Woman vs. Wild",
+          "description": "Had an intimate moment with Mikoto."
+        },
+        "japanese": {
+          "name": "サバイバル大冒険～瞬殺トラップ祭り～",
+          "description": "鎧衣美琴と恋人に――"
+        },
+        "schinese": {
+          "name": "生存大冒险～秒杀陷阱祭～",
+          "description": "与铠衣美琴共度了亲密时光"
+        }
+      }
+    },
+    "ACH_MUVPM_032": {
+      "translations": {
+        "english": {
+          "name": "Night at the Casino",
+          "description": "Had an intimate moment with Kei."
+        },
+        "japanese": {
+          "name": "カジノでバキャラッタ!!",
+          "description": "彩峰慧と恋人に――"
+        },
+        "schinese": {
+          "name": "在赌场来一场百家乐",
+          "description": "与彩峰慧共度了亲密时光"
+        }
+      }
+    },
+    "ACH_MUVPM_033": {
+      "translations": {
+        "english": {
+          "name": "A Pirate's Life For Me!",
+          "description": "Had an intimate moment with Miki."
+        },
+        "japanese": {
+          "name": "ゆけゆけ！ズンドコ探検隊",
+          "description": "珠瀬壬姫と恋人に――"
+        },
+        "schinese": {
+          "name": "冲啊！咚咚探险队",
+          "description": "与珠濑壬姬共度了亲密时光"
+        }
+      }
+    },
+    "ACH_MUVPM_034": {
+      "translations": {
+        "english": {
+          "name": "Case Closed?",
+          "description": "Completed Altered Fable: A Shimmering Shard of Spacetime"
+        },
+        "japanese": {
+          "name": "一件落着？",
+          "description": "『かがやく時空が消えぬ間に』をクリアした"
+        },
+        "schinese": {
+          "name": "事情解决了？",
+          "description": "通关《在闪耀的时空尚未消逝》"
+        }
+      }
+    },
+    "ACH_MUVPM_035": {
+      "translations": {
+        "english": {
+          "name": "Growing Pains",
+          "description": "Completed Adoration."
+        },
+        "japanese": {
+          "name": "騎士の誓いを果たすその日まで",
+          "description": "『憧憬』をクリアした"
+        },
+        "schinese": {
+          "name": "直到实现骑士誓言的那一天",
+          "description": "通关《憧憬》"
+        }
+      }
+    },
+    "ACH_MUVPM_036": {
+      "translations": {
+        "english": {
+          "name": "The Nine Million Euro Man",
+          "description": "Completed Resurrection."
+        },
+        "japanese": {
+          "name": "900万ユーロの男",
+          "description": "『再誕』をクリアした"
+        },
+        "schinese": {
+          "name": "九百万欧元的男人",
+          "description": "通关《再诞》"
+        }
+      }
+    },
+    "ACH_MUVPM_037": {
+      "translations": {
+        "english": {
+          "name": "Completionist!",
+          "description": "Collected every CG in the entire collection. Nice work!"
+        },
+        "japanese": {
+          "name": "CG全解放!!",
+          "description": "3タイトルのCGを全て解放した"
+        },
+        "schinese": {
+          "name": "全部 CG 解锁！！",
+          "description": "解锁了三部作品的全部 CG"
+        }
+      }
+    },
+    "ACH_MUVPM_038": {
+      "translations": {
+        "english": {
+          "name": "Art Collector",
+          "description": "Filled out Gallery Mode to 100% completion!"
+        },
+        "japanese": {
+          "name": "壁紙コレクションだ!!",
+          "description": "壁紙モードを閲覧した"
+        },
+        "schinese": {
+          "name": "壁纸收藏完成！！",
+          "description": "收集完壁纸的情况下浏览了壁纸模式"
+        }
+      }
+    },
+    "ACH_MUVPM_039": {
+      "translations": {
+        "english": {
+          "name": "Until We Meet Again!",
+          "description": "Completed all stories!"
+        },
+        "japanese": {
+          "name": "楽しんでくれてありがとう！",
+          "description": "全てのゲームのエンディングを見た"
+        },
+        "schinese": {
+          "name": "感谢你的享受！",
+          "description": "完成了所有故事！"
+        }
+      }
+    }
+  }
+}

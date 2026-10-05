@@ -1,0 +1,876 @@
+{
+  "version": 1,
+  "app_id": "1119840",
+  "variant_id": "default",
+  "source_sha256": "f7ef452e796eefa060f59b13e59d545c9fd065bcd3c434c90e1e6a9d7f6f782c",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "START_GAME": {
+      "translations": {
+        "english": {
+          "name": "Setting Sail",
+          "description": "Begin your journey in Talamhel"
+        },
+        "schinese": {
+          "name": "扬帆起航",
+          "description": "开始你在塔拉姆赫尔的旅程"
+        }
+      }
+    },
+    "FINISH_GAME": {
+      "translations": {
+        "english": {
+          "name": "Port of Call",
+          "description": "Decide the fate of Talamhel"
+        },
+        "schinese": {
+          "name": "停靠港湾",
+          "description": "决定塔拉姆赫尔的命运"
+        }
+      }
+    },
+    "SMITH_UPGRADE_1": {
+      "translations": {
+        "english": {
+          "name": "Advanced Armaments",
+          "description": "Recruit an armorsmith and weaponsmith for Starspire"
+        },
+        "schinese": {
+          "name": "先进武装",
+          "description": "为星塔招募一名护甲匠和武器匠"
+        }
+      }
+    },
+    "SMITH_UPGRADE_2": {
+      "translations": {
+        "english": {
+          "name": "Artisan Armaments",
+          "description": "Upgrade your armorsmith and weaponsmith equipment to max level"
+        },
+        "schinese": {
+          "name": "工匠武装",
+          "description": "将护甲匠和武器匠的装备升到最高级"
+        }
+      }
+    },
+    "MAX_LVL_ITEM": {
+      "translations": {
+        "english": {
+          "name": "Top Tier Gear",
+          "description": "Upgrade an item to level 20"
+        },
+        "schinese": {
+          "name": "顶级装备",
+          "description": "将一件物品升到20级"
+        }
+      }
+    },
+    "UNLOCK_HOME_ROOM": {
+      "translations": {
+        "english": {
+          "name": "Locks and Keys",
+          "description": "Unlock the locked room in your home"
+        },
+        "schinese": {
+          "name": "锁与钥匙",
+          "description": "打开你家中上锁的房间"
+        }
+      }
+    },
+    "HOARD_GLINT": {
+      "translations": {
+        "english": {
+          "name": "Piles and Piles",
+          "description": "Have 100,000 glint in your possession"
+        },
+        "schinese": {
+          "name": "堆积如山",
+          "description": "拥有100,000微光"
+        }
+      }
+    },
+    "RETURN_SCRIPTURE": {
+      "translations": {
+        "english": {
+          "name": "Leisis Bless You",
+          "description": "Return the Book of Scripture to Navae"
+        },
+        "schinese": {
+          "name": "莱西斯保佑你",
+          "description": "将圣典归还给纳瓦"
+        }
+      }
+    },
+    "COMPLETE_ALAIRA_STORY": {
+      "translations": {
+        "english": {
+          "name": "Family Heirlooms",
+          "description": "Help Alaira overcome the legacy of her family"
+        },
+        "schinese": {
+          "name": "家族传家宝",
+          "description": "帮助阿拉伊拉克服家族的遗产"
+        }
+      }
+    },
+    "DISCOVER_TRUE_LEISIS": {
+      "translations": {
+        "english": {
+          "name": "A Girl From Husker",
+          "description": "Discover the true origin of Leisis"
+        },
+        "schinese": {
+          "name": "来自赫斯克的女孩",
+          "description": "发现莱西斯的真正起源"
+        }
+      }
+    },
+    "DISCOVER_ALL_ISLANDS": {
+      "translations": {
+        "english": {
+          "name": "Explorer",
+          "description": "Discover and land at every island"
+        },
+        "schinese": {
+          "name": "探险家",
+          "description": "发现并登陆每一座岛屿"
+        }
+      }
+    },
+    "COMPLETE_BAND": {
+      "translations": {
+        "english": {
+          "name": "Missing Melodies",
+          "description": "Find and recruit all musicians for Starspire"
+        },
+        "schinese": {
+          "name": "失落的旋律",
+          "description": "为星塔找到并招募所有乐手"
+        }
+      }
+    },
+    "DISCOVER_ONCEMAN_TOWN": {
+      "translations": {
+        "english": {
+          "name": "The River Styx",
+          "description": "Discover the once-man village"
+        },
+        "schinese": {
+          "name": "冥河",
+          "description": "发现前人村落"
+        }
+      }
+    },
+    "WIN_STARSPIRE_TOURNAMENT": {
+      "translations": {
+        "english": {
+          "name": "Champion of Starspire",
+          "description": "Win the tournament during the Starspire festival"
+        },
+        "schinese": {
+          "name": "星塔冠军",
+          "description": "在星塔节日期间赢得锦标赛"
+        }
+      }
+    },
+    "DECIDE_CREATURES_FATE": {
+      "translations": {
+        "english": {
+          "name": "Smotherly Love",
+          "description": "Decide the fate of Creature"
+        },
+        "schinese": {
+          "name": "窒息之爱",
+          "description": "决定造物的命运"
+        }
+      }
+    },
+    "COLLECT_ALL_TALISMANS": {
+      "translations": {
+        "english": {
+          "name": "The Trinket Tracker",
+          "description": "Collect all talismans"
+        },
+        "schinese": {
+          "name": "饰品追踪者",
+          "description": "收集所有护身符"
+        }
+      }
+    },
+    "COLLECT_ALL_ARMOR": {
+      "translations": {
+        "english": {
+          "name": "One Size Fits All",
+          "description": "Collect all armor pieces"
+        },
+        "schinese": {
+          "name": "一码通吃",
+          "description": "收集所有护甲部件"
+        }
+      }
+    },
+    "COLLECT_ALL_WEAPON_HEADS": {
+      "translations": {
+        "english": {
+          "name": "Bladesmith",
+          "description": "Collect all weapon head codices"
+        },
+        "schinese": {
+          "name": "铸刃师",
+          "description": "收集所有武器头部图鉴"
+        }
+      }
+    },
+    "COLLECT_ALL_POMMEL_CASTS": {
+      "translations": {
+        "english": {
+          "name": "Pommelsmith",
+          "description": "Collect all weapon pommel casts"
+        },
+        "schinese": {
+          "name": "柄尾铸匠",
+          "description": "收集所有武器柄尾铸件"
+        }
+      }
+    },
+    "COLLECT_ALL_BREW_RECIPES": {
+      "translations": {
+        "english": {
+          "name": "Sommelier",
+          "description": "Collect all brew recipes"
+        },
+        "schinese": {
+          "name": "品鉴师",
+          "description": "收集所有酿造配方"
+        }
+      }
+    },
+    "DEFEAT_BELFRY_SOLO": {
+      "translations": {
+        "english": {
+          "name": "Let Me Solo Them",
+          "description": "Defeat the Belfry Priests without enlisting the help of Kauzzum"
+        },
+        "schinese": {
+          "name": "让我单挑他们",
+          "description": "在不招募考扎姆的情况下击败钟楼祭司"
+        }
+      }
+    },
+    "DEFEAT_ISHULAR_GIANT": {
+      "translations": {
+        "english": {
+          "name": "Hearld of the Holy Seat",
+          "description": "Permanently defeat the Giant of Ishular"
+        },
+        "schinese": {
+          "name": "圣座的先驱",
+          "description": "永久击败伊舒拉尔的巨人"
+        }
+      }
+    },
+    "DEFEAT_FERRUM_BOSSES": {
+      "translations": {
+        "english": {
+          "name": "Dousing a Venerable Flame",
+          "description": "Defeat all Ferrum bosses"
+        },
+        "schinese": {
+          "name": "浇灭古老的火焰",
+          "description": "击败所有费鲁姆首领"
+        }
+      }
+    },
+    "CRAGBOSS_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "A Small Thirsty Thing",
+          "description": "Defeat the Sanctum Beast"
+        },
+        "schinese": {
+          "name": "小小的饥渴之物",
+          "description": "击败圣所巨兽"
+        }
+      }
+    },
+    "CRAGBOSS_MASTER": {
+      "translations": {
+        "english": {
+          "name": "A Supreme Kindness",
+          "description": "Defeat the Sanctum Beast before Lawrence is incapacitated"
+        },
+        "schinese": {
+          "name": "无上的仁慈",
+          "description": "在劳伦斯倒下之前击败圣所巨兽"
+        }
+      }
+    },
+    "UBAANI_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Spirit Within",
+          "description": "Defeat Ubaani"
+        },
+        "schinese": {
+          "name": "内在之魂",
+          "description": "击败乌巴尼"
+        }
+      }
+    },
+    "UBAANI_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Reaching Vines",
+          "description": "Defeat Ubaani without being hit by his vine whip attacks"
+        },
+        "schinese": {
+          "name": "蔓延的藤蔓",
+          "description": "不被乌巴尼的藤蔓鞭攻击命中地击败他"
+        }
+      }
+    },
+    "ALCHEMECT_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Overboard",
+          "description": "Defeat the alchemect"
+        },
+        "schinese": {
+          "name": "抛诸脑后",
+          "description": "击败炼金术士"
+        }
+      }
+    },
+    "ALCHEMECT_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Unimpaired",
+          "description": "Defeat the alchemect without taking any damage"
+        },
+        "schinese": {
+          "name": "毫发无伤",
+          "description": "不受到任何伤害地击败炼金术士"
+        }
+      }
+    },
+    "GRECKKO_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Sovereignty of Irons",
+          "description": "Defeat Greckko"
+        },
+        "schinese": {
+          "name": "钢铁主权",
+          "description": "击败格雷科"
+        }
+      }
+    },
+    "GRECKKO_MASTER": {
+      "translations": {
+        "english": {
+          "name": "En Garde",
+          "description": "Parry Greckko three times before defeating them"
+        },
+        "schinese": {
+          "name": "预备架势",
+          "description": "在击败格雷科之前弹反他三次"
+        }
+      }
+    },
+    "EINAR_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Frigid Winds",
+          "description": "Defeat Einar"
+        },
+        "schinese": {
+          "name": "凛冽之风",
+          "description": "击败艾纳尔"
+        }
+      }
+    },
+    "EINAR_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Child of Ronkurth",
+          "description": "Defeat Einar without being hit by any large frost orbs"
+        },
+        "schinese": {
+          "name": "隆库尔斯之子",
+          "description": "不被任何大型冰霜法球命中地击败艾纳尔"
+        }
+      }
+    },
+    "ALAIRA_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Rain Must Fall",
+          "description": "Defeat Alaira"
+        },
+        "schinese": {
+          "name": "雨必将落下",
+          "description": "击败阿拉伊拉"
+        }
+      }
+    },
+    "ALAIRA_MASTER": {
+      "translations": {
+        "english": {
+          "name": "No Salvation",
+          "description": "Stop Alaira from successfully healing before defeating her"
+        },
+        "schinese": {
+          "name": "无救赎",
+          "description": "在阿拉伊拉成功治疗之前阻止她并击败她"
+        }
+      }
+    },
+    "DANTHEA_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Redeemer",
+          "description": "Defeat Danthea"
+        },
+        "schinese": {
+          "name": "救赎者",
+          "description": "击败丹西娅"
+        }
+      }
+    },
+    "DANTHEA_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Divine Guidance",
+          "description": "Defeat Danthea without being hit by any orbiting maces"
+        },
+        "schinese": {
+          "name": "神圣指引",
+          "description": "不被任何轨道链锤命中地击败丹西娅"
+        }
+      }
+    },
+    "FLARE_KNIGHT_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "The Guardian of Fire",
+          "description": "Defeat the Flare Knight"
+        },
+        "schinese": {
+          "name": "火焰守护者",
+          "description": "击败烈焰骑士"
+        }
+      }
+    },
+    "FLARE_KNIGHT_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Unbridled Flame",
+          "description": "Defeat the Flare Knight with at least two pillars still intact"
+        },
+        "schinese": {
+          "name": "无拘之火",
+          "description": "在至少两根柱子仍然完好的情况下击败烈焰骑士"
+        }
+      }
+    },
+    "WILGRAM_TWINS_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Twin Thorns",
+          "description": "Defeat the Wilgram Twins"
+        },
+        "schinese": {
+          "name": "双子荆棘",
+          "description": "击败威尔格拉姆双子"
+        }
+      }
+    },
+    "WILGRAM_TWINS_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Savage Progeny",
+          "description": "Defeat the Wilgram Twins within five seconds of each other"
+        },
+        "schinese": {
+          "name": "野蛮后裔",
+          "description": "在五秒内接连击败威尔格拉姆双子"
+        }
+      }
+    },
+    "HASHARI_PRINCESS_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Rotted Throne",
+          "description": "Defeat the Hashari Princess"
+        },
+        "schinese": {
+          "name": "腐朽王座",
+          "description": "击败哈沙里公主"
+        }
+      }
+    },
+    "HASHARI_PRINCESS_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Before Court and Council",
+          "description": "Defeat the Hashari Princess while both of her handmaids are alive"
+        },
+        "schinese": {
+          "name": "在宫廷与议会之前",
+          "description": "在她的两名侍女都存活的情况下击败哈沙里公主"
+        }
+      }
+    },
+    "ATNAEL_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Prime Radiance",
+          "description": "Defeat Atnael"
+        },
+        "schinese": {
+          "name": "原初光辉",
+          "description": "击败阿特奈尔"
+        }
+      }
+    },
+    "ATNAEL_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Trial By Fire",
+          "description": "Defeat Atnael without taking damage from fire trails"
+        },
+        "schinese": {
+          "name": "火之试炼",
+          "description": "不被火焰轨迹造成伤害地击败阿特奈尔"
+        }
+      }
+    },
+    "AURA_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Shattered Illusions",
+          "description": "Defeat Aura"
+        },
+        "schinese": {
+          "name": "破碎幻象",
+          "description": "击败奥拉"
+        }
+      }
+    },
+    "AURA_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Navigating Farewells",
+          "description": "Defeat Aura without taking any damage from orbs during her shield phases"
+        },
+        "schinese": {
+          "name": "驾驭离别",
+          "description": "在奥拉的护盾阶段不受任何法球伤害地击败她"
+        }
+      }
+    },
+    "MELGOM_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "The End of Ancients",
+          "description": "Defeat Melgom"
+        },
+        "schinese": {
+          "name": "远古的终结",
+          "description": "击败梅尔戈姆"
+        }
+      }
+    },
+    "MELGOM_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Ascendant",
+          "description": "Defeat Melgom without taking any fall damage"
+        },
+        "schinese": {
+          "name": "飞升者",
+          "description": "不受到任何跌落伤害地击败梅尔戈姆"
+        }
+      }
+    },
+    "MAVETH_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "The Coming Dawn",
+          "description": "Defeat Maveth"
+        },
+        "schinese": {
+          "name": "即将到来的黎明",
+          "description": "击败马维斯"
+        }
+      }
+    },
+    "MAVETH_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Transcended Abyss",
+          "description": "Defeat Maveth without taking any damage from corruption pools"
+        },
+        "schinese": {
+          "name": "超越深渊",
+          "description": "不受到任何腐化池伤害地击败马维斯"
+        }
+      }
+    },
+    "ALL_AURA_MOMENTS": {
+      "translations": {
+        "english": {
+          "name": "A Momentary Reflection",
+          "description": "Participate in all optional Aura moments"
+        },
+        "schinese": {
+          "name": "短暂的映照",
+          "description": "参与所有可选的奥拉时刻"
+        }
+      }
+    },
+    "USE_FLOWERING_VASCULATURE": {
+      "translations": {
+        "english": {
+          "name": "Transformative Nature",
+          "description": "Use the Flowering Vasculature"
+        },
+        "schinese": {
+          "name": "变革之性",
+          "description": "使用繁花脉管"
+        }
+      }
+    },
+    "COMPLETE_DANTHEA_STORY": {
+      "translations": {
+        "english": {
+          "name": "A Blunted Blade",
+          "description": "Complete Danthea’s conversation in Ishular"
+        },
+        "schinese": {
+          "name": "钝化的刀刃",
+          "description": "在伊舒拉尔完成丹西娅的对话"
+        }
+      }
+    },
+    "COMPLETE_CALDER_STORY_GOOD": {
+      "translations": {
+        "english": {
+          "name": "Ignorant Bliss",
+          "description": "Complete Calder’s conversation after his return to Starspire"
+        },
+        "schinese": {
+          "name": "无知的幸福",
+          "description": "在卡尔德返回星塔后完成他的对话"
+        }
+      }
+    },
+    "COMPLETE_CALDER_STORY_BAD": {
+      "translations": {
+        "english": {
+          "name": "A Casualty of Truth",
+          "description": "Discover Calder within the Crumbling Basilica"
+        },
+        "schinese": {
+          "name": "真相的牺牲品",
+          "description": "在崩塌的圣殿中发现卡尔德"
+        }
+      }
+    },
+    "OVUM_TO_KAUZZUM": {
+      "translations": {
+        "english": {
+          "name": "Nature Over Nurture",
+          "description": "Give the Abeyant Ovum to Kauzzum"
+        },
+        "schinese": {
+          "name": "天性重于教养",
+          "description": "将休眠卵交给考扎姆"
+        }
+      }
+    },
+    "OVUM_TO_FURN": {
+      "translations": {
+        "english": {
+          "name": "Nurture Over Nature",
+          "description": "Give the Abeyant Ovum to Furn"
+        },
+        "schinese": {
+          "name": "教养重于天性",
+          "description": "将休眠卵交给弗恩"
+        }
+      }
+    },
+    "FINISH_GAME_HARDMODE": {
+      "translations": {
+        "english": {
+          "name": "Port of Call (Hard Mode)",
+          "description": "Decide the fate of Talamhel in Hard Mode"
+        },
+        "schinese": {
+          "name": "停靠港湾（困难模式）",
+          "description": "在困难模式下决定塔拉姆赫尔的命运"
+        }
+      }
+    },
+    "CRAGBOSS_DEFEAT_HARDMODE": {
+      "translations": {
+        "english": {
+          "name": "A Small Thirsty Thing (Hard Mode)",
+          "description": "Defeat the Sanctum Beast in Hard Mode"
+        },
+        "schinese": {
+          "name": "小小的饥渴之物（困难模式）",
+          "description": "在困难模式下击败圣所巨兽"
+        }
+      }
+    },
+    "UBAANI_DEFEAT_HARDMODE": {
+      "translations": {
+        "english": {
+          "name": "Spirit Within (Hard Mode)",
+          "description": "Defeat Ubaani in Hard Mode"
+        },
+        "schinese": {
+          "name": "内在之魂（困难模式）",
+          "description": "在困难模式下击败乌巴尼"
+        }
+      }
+    },
+    "ALCHEMECT_DEFEAT_HARDMODE": {
+      "translations": {
+        "english": {
+          "name": "Overboard (Hard Mode)",
+          "description": "Defeat the alchemect in Hard Mode"
+        },
+        "schinese": {
+          "name": "抛诸脑后（困难模式）",
+          "description": "在困难模式下击败炼金术士"
+        }
+      }
+    },
+    "GRECKKO_DEFEAT_HARDMODE": {
+      "translations": {
+        "english": {
+          "name": "Sovereignty of Irons (Hard Mode)",
+          "description": "Defeat Greckko in Hard Mode"
+        },
+        "schinese": {
+          "name": "钢铁主权（困难模式）",
+          "description": "在困难模式下击败格雷科"
+        }
+      }
+    },
+    "EINAR_DEFEAT_HARDMODE": {
+      "translations": {
+        "english": {
+          "name": "Frigid Winds (Hard Mode)",
+          "description": "Defeat Einar in Hard Mode"
+        },
+        "schinese": {
+          "name": "凛冽之风（困难模式）",
+          "description": "在困难模式下击败艾纳尔"
+        }
+      }
+    },
+    "ALAIRA_DEFEAT_HARDMODE": {
+      "translations": {
+        "english": {
+          "name": "Rain Must Fall (Hard Mode)",
+          "description": "Defeat Alaira in Hard Mode"
+        },
+        "schinese": {
+          "name": "雨必将落下（困难模式）",
+          "description": "在困难模式下击败阿拉伊拉"
+        }
+      }
+    },
+    "DANTHEA_DEFEAT_HARDMODE": {
+      "translations": {
+        "english": {
+          "name": "Redeemer (Hard Mode)",
+          "description": "Defeat Danthea in Hard Mode"
+        },
+        "schinese": {
+          "name": "救赎者（困难模式）",
+          "description": "在困难模式下击败丹西娅"
+        }
+      }
+    },
+    "FLARE_KNIGHT_DEFEAT_HARDMODE": {
+      "translations": {
+        "english": {
+          "name": "The Guardian of Fire (Hard Mode)",
+          "description": "Defeat the Flare Knight in Hard Mode"
+        },
+        "schinese": {
+          "name": "火焰守护者（困难模式）",
+          "description": "在困难模式下击败烈焰骑士"
+        }
+      }
+    },
+    "WILGRAM_TWINS_DEFEAT_HARDMODE": {
+      "translations": {
+        "english": {
+          "name": "Twin Thorns (Hard Mode)",
+          "description": "Defeat the Wilgram Twins in Hard Mode"
+        },
+        "schinese": {
+          "name": "双子荆棘（困难模式）",
+          "description": "在困难模式下击败威尔格拉姆双子"
+        }
+      }
+    },
+    "HASHARI_PRINCESS_DEFEAT_HARDMODE": {
+      "translations": {
+        "english": {
+          "name": "Rotted Throne (Hard Mode)",
+          "description": "Defeat the Hashari Princess in Hard Mode"
+        },
+        "schinese": {
+          "name": "腐朽王座（困难模式）",
+          "description": "在困难模式下击败哈沙里公主"
+        }
+      }
+    },
+    "ATNAEL_DEFEAT_HARDMODE": {
+      "translations": {
+        "english": {
+          "name": "Prime Radiance (Hard Mode)",
+          "description": "Defeat Atnael in Hard Mode"
+        },
+        "schinese": {
+          "name": "原初光辉（困难模式）",
+          "description": "在困难模式下击败阿特奈尔"
+        }
+      }
+    },
+    "AURA_OR_MELGOM_DEFEAT_HARDMODE": {
+      "translations": {
+        "english": {
+          "name": "The End of Illusions (Hard Mode)",
+          "description": "Defeat Aura or Melgom in Hard Mode"
+        },
+        "schinese": {
+          "name": "幻象的终结（困难模式）",
+          "description": "在困难模式下击败奥拉或梅尔戈姆"
+        }
+      }
+    },
+    "MAVETH_DEFEAT_HARDMODE": {
+      "translations": {
+        "english": {
+          "name": "The Coming Dawn (Hard Mode)",
+          "description": "Defeat Maveth in Hard Mode"
+        },
+        "schinese": {
+          "name": "即将到来的黎明（困难模式）",
+          "description": "在困难模式下击败马维斯"
+        }
+      }
+    }
+  }
+}

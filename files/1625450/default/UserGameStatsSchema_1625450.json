@@ -1,0 +1,600 @@
+{
+  "version": 1,
+  "app_id": "1625450",
+  "variant_id": "default",
+  "source_sha256": "8924cfed5f00212ee92f174eae8970fccf0baa0d5d7774933e73d963c120ef1e",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "Easy Peasy": {
+      "translations": {
+        "english": {
+          "name": "Easy Peasy",
+          "description": "Beat the game on easy difficulty"
+        },
+        "schinese": {
+          "name": "轻而易举",
+          "description": "以简单难度通关游戏。"
+        }
+      }
+    },
+    "Learning the ropes": {
+      "translations": {
+        "english": {
+          "name": "Learning the ropes",
+          "description": "Beat the game on normal difficulty"
+        },
+        "schinese": {
+          "name": "熟能生巧",
+          "description": "以普通难度通关游戏。"
+        }
+      }
+    },
+    "Hardcore gamer": {
+      "translations": {
+        "english": {
+          "name": "Hardcore gamer",
+          "description": "Beat the game on gamer difficulty"
+        },
+        "schinese": {
+          "name": "硬核玩家",
+          "description": "以玩家难度通关游戏。"
+        }
+      }
+    },
+    "A gamer move": {
+      "translations": {
+        "english": {
+          "name": "A gamer move",
+          "description": "Beat the game in less than 10 days on Gamer mode"
+        },
+        "schinese": {
+          "name": "高手操作",
+          "description": "在玩家模式下于10天内通关游戏。"
+        }
+      }
+    },
+    "Speedrunner_": {
+      "translations": {
+        "english": {
+          "name": "Speedrunner",
+          "description": "Beat the game in less than 8 days"
+        },
+        "schinese": {
+          "name": "速通玩家",
+          "description": "在8天内通关游戏。"
+        }
+      }
+    },
+    "What the muck": {
+      "translations": {
+        "english": {
+          "name": "What the muck",
+          "description": "Beat the game without any players picking up a powerup"
+        },
+        "schinese": {
+          "name": "搞什么鬼",
+          "description": "在没有任何玩家拾取强化道具的情况下通关游戏。"
+        }
+      }
+    },
+    "Set sail_": {
+      "translations": {
+        "english": {
+          "name": "Set sail",
+          "description": "Leave Muck"
+        },
+        "schinese": {
+          "name": "扬帆起航",
+          "description": "乘船离开Muck岛。"
+        }
+      }
+    },
+    "Untouchable_": {
+      "translations": {
+        "english": {
+          "name": "Untouchable",
+          "description": "Beat the game alone without taking any damage (Normal difficulty or harder)"
+        },
+        "schinese": {
+          "name": "无懈可击",
+          "description": "独自通关游戏且不受到任何伤害（普通难度或更高）。"
+        }
+      }
+    },
+    "Dream Team_": {
+      "translations": {
+        "english": {
+          "name": "Dream Team",
+          "description": "Beat the game with 2 players, but no one can take any damage (Normal diff or harder)"
+        },
+        "schinese": {
+          "name": "梦之队",
+          "description": "与2名玩家一同通关，且无人受到任何伤害（普通难度或更高）。"
+        }
+      }
+    },
+    "The bois_": {
+      "translations": {
+        "english": {
+          "name": "The bois",
+          "description": "Beat the game with 4 players, but no one can take any damage (Normal diff or harder)"
+        },
+        "schinese": {
+          "name": "铁哥们",
+          "description": "与4名玩家一同通关，且无人受到任何伤害（普通难度或更高）。"
+        }
+      }
+    },
+    "Sweat and tears_": {
+      "translations": {
+        "english": {
+          "name": "Sweat and tears",
+          "description": "Beat the game with 8 players, but no one can take any damage (Normal diff or harder)"
+        },
+        "schinese": {
+          "name": "汗与泪",
+          "description": "与8名玩家一同通关，且无人受到任何伤害（普通难度或更高）。"
+        }
+      }
+    },
+    "Muckinator": {
+      "translations": {
+        "english": {
+          "name": "Muckinator",
+          "description": "Kill 100 mobs"
+        },
+        "schinese": {
+          "name": "泥巴终结者",
+          "description": "击杀100只怪物。"
+        }
+      }
+    },
+    "Muckinator 2": {
+      "translations": {
+        "english": {
+          "name": "Muckinator 2",
+          "description": "Kill 1,000 mobs"
+        },
+        "schinese": {
+          "name": "泥巴终结者2",
+          "description": "击杀1"
+        }
+      }
+    },
+    "Muckinator 3": {
+      "translations": {
+        "english": {
+          "name": "Muckinator 3",
+          "description": "Kill 10,000 mobs"
+        },
+        "schinese": {
+          "name": "泥巴终结者3",
+          "description": "击杀10"
+        }
+      }
+    },
+    "Muckinator 4": {
+      "translations": {
+        "english": {
+          "name": "Muckinator 4",
+          "description": "Kill 100,000 mobs"
+        },
+        "schinese": {
+          "name": "泥巴终结者4",
+          "description": "击杀100"
+        }
+      }
+    },
+    "Underdog": {
+      "translations": {
+        "english": {
+          "name": "Underdog",
+          "description": "Kill 250 buff mobs"
+        },
+        "schinese": {
+          "name": "以下克上",
+          "description": "击杀250只精英怪。"
+        }
+      }
+    },
+    "Bullseye": {
+      "translations": {
+        "english": {
+          "name": "Bullseye",
+          "description": "Kill 200 enemies using bows"
+        },
+        "schinese": {
+          "name": "正中靶心",
+          "description": "用弓箭击杀200名敌人。"
+        }
+      }
+    },
+    "That's not very milk of you, sir": {
+      "translations": {
+        "english": {
+          "name": "That's not very milk of you, sir",
+          "description": "Kill 250 cows"
+        },
+        "schinese": {
+          "name": "这可真不\"奶\"啊，先生",
+          "description": "击杀250头牛。"
+        }
+      }
+    },
+    "David vs Goliath": {
+      "translations": {
+        "english": {
+          "name": "David vs Goliath",
+          "description": "Defeat big chunk"
+        },
+        "schinese": {
+          "name": "大卫对决歌利亚",
+          "description": "击败大块头。"
+        }
+      }
+    },
+    "Gronk": {
+      "translations": {
+        "english": {
+          "name": "Gronk",
+          "description": "Defeat Gronk"
+        },
+        "schinese": {
+          "name": "格罗克",
+          "description": "击败格罗克。"
+        }
+      }
+    },
+    "Guardian": {
+      "translations": {
+        "english": {
+          "name": "Guardian",
+          "description": "Defeat Guardian"
+        },
+        "schinese": {
+          "name": "守护者",
+          "description": "击败守护者。"
+        }
+      }
+    },
+    "Fearless_": {
+      "translations": {
+        "english": {
+          "name": "Fearless",
+          "description": "Slay all bosses"
+        },
+        "schinese": {
+          "name": "无所畏惧",
+          "description": "击杀全部Boss。"
+        }
+      }
+    },
+    "Death Wish": {
+      "translations": {
+        "english": {
+          "name": "Death Wish",
+          "description": "Start 200 battle totems"
+        },
+        "schinese": {
+          "name": "死亡愿望",
+          "description": "启动200次战斗图腾。"
+        }
+      }
+    },
+    "Goblin Slayer": {
+      "translations": {
+        "english": {
+          "name": "Goblin Slayer",
+          "description": "Slay 1000 goblins"
+        },
+        "schinese": {
+          "name": "哥布林杀手",
+          "description": "击杀1"
+        }
+      }
+    },
+    "Big Mistake": {
+      "translations": {
+        "english": {
+          "name": "Big Mistake",
+          "description": "Play Muck for the first time"
+        },
+        "schinese": {
+          "name": "弥天大错",
+          "description": "第一次游玩Muck。"
+        }
+      }
+    },
+    "Pain and suffering": {
+      "translations": {
+        "english": {
+          "name": "Pain and suffering",
+          "description": "Die 10 times"
+        },
+        "schinese": {
+          "name": "痛苦与折磨",
+          "description": "死亡10次。"
+        }
+      }
+    },
+    "This is fine": {
+      "translations": {
+        "english": {
+          "name": "This is fine",
+          "description": "Die 25 times"
+        },
+        "schinese": {
+          "name": "一切安好",
+          "description": "死亡25次。"
+        }
+      }
+    },
+    "Muck off": {
+      "translations": {
+        "english": {
+          "name": "Muck off",
+          "description": "Die 50 Times"
+        },
+        "schinese": {
+          "name": "滚开",
+          "description": "死亡50次。"
+        }
+      }
+    },
+    "Muck this game": {
+      "translations": {
+        "english": {
+          "name": "Muck this game",
+          "description": "Die 100 Times"
+        },
+        "schinese": {
+          "name": "这游戏真坑",
+          "description": "死亡100次。"
+        }
+      }
+    },
+    "You're not a fish": {
+      "translations": {
+        "english": {
+          "name": "You're not a fish",
+          "description": "Drown"
+        },
+        "schinese": {
+          "name": "你不是鱼",
+          "description": "溺水而死。"
+        }
+      }
+    },
+    "Treasure Hunter": {
+      "translations": {
+        "english": {
+          "name": "Treasure Hunter",
+          "description": "Open 500 chests"
+        },
+        "schinese": {
+          "name": "宝藏猎人",
+          "description": "打开500个宝箱。"
+        }
+      }
+    },
+    "Architect": {
+      "translations": {
+        "english": {
+          "name": "Architect",
+          "description": "Build 250 builds"
+        },
+        "schinese": {
+          "name": "建筑师",
+          "description": "建造250座建筑。"
+        }
+      }
+    },
+    "Illegal work": {
+      "translations": {
+        "english": {
+          "name": "Illegal work",
+          "description": "Craft 1,000 coins"
+        },
+        "schinese": {
+          "name": "非法勾当",
+          "description": "制作1"
+        }
+      }
+    },
+    "Go outside": {
+      "translations": {
+        "english": {
+          "name": "Go outside",
+          "description": "Survive for 100 days"
+        },
+        "schinese": {
+          "name": "出门走走",
+          "description": "生存100天。"
+        }
+      }
+    },
+    "The Black Swordsman_": {
+      "translations": {
+        "english": {
+          "name": "The Black Swordsman",
+          "description": "Wield the Night Blade"
+        },
+        "schinese": {
+          "name": "黑色剑士",
+          "description": "手持夜之刃。"
+        }
+      }
+    },
+    "Milkman_": {
+      "translations": {
+        "english": {
+          "name": "Milkman",
+          "description": "Pick up 10 Milk powerups in one game"
+        },
+        "schinese": {
+          "name": "送奶工",
+          "description": "在一局游戏中拾取10个牛奶强化道具。"
+        }
+      }
+    },
+    "You're a fish": {
+      "translations": {
+        "english": {
+          "name": "You're a fish",
+          "description": "Swim 25km"
+        },
+        "schinese": {
+          "name": "你是条鱼",
+          "description": "游泳25公里。"
+        }
+      }
+    },
+    "Team player": {
+      "translations": {
+        "english": {
+          "name": "Team player",
+          "description": "Revive a teammate"
+        },
+        "schinese": {
+          "name": "团队协作",
+          "description": "复活一名队友。"
+        }
+      }
+    },
+    "The red plumber man lied": {
+      "translations": {
+        "english": {
+          "name": "The red plumber man lied",
+          "description": "Eat 50 red shrooms without growing bigger"
+        },
+        "schinese": {
+          "name": "红帽水管工骗了我",
+          "description": "吃掉50个红色蘑菇且不变大。"
+        }
+      }
+    },
+    "Salty": {
+      "translations": {
+        "english": {
+          "name": "Salty",
+          "description": "Kill a friend on Survival Mode"
+        },
+        "schinese": {
+          "name": "酸了",
+          "description": "在生存模式中击杀一名好友。"
+        }
+      }
+    },
+    "Leg day": {
+      "translations": {
+        "english": {
+          "name": "Leg day",
+          "description": "Walk 250km"
+        },
+        "schinese": {
+          "name": "练腿日",
+          "description": "行走250公里。"
+        }
+      }
+    },
+    "I am Inevitable": {
+      "translations": {
+        "english": {
+          "name": "I am Inevitable",
+          "description": "Collect all 5 gems"
+        },
+        "schinese": {
+          "name": "我就是天命",
+          "description": "收集全部5颗宝石。"
+        }
+      }
+    },
+    "Phoon": {
+      "translations": {
+        "english": {
+          "name": "Phoon",
+          "description": "Jump 10,000 times"
+        },
+        "schinese": {
+          "name": "Phoon",
+          "description": "跳跃10"
+        }
+      }
+    },
+    "Oh you don't know what Karlson is?": {
+      "translations": {
+        "english": {
+          "name": "Oh you don't know what Karlson is?",
+          "description": "Find and wishlist Karlson in Muck"
+        },
+        "schinese": {
+          "name": "哦？你不知道卡尔森是什么？",
+          "description": "在Muck中找到卡尔森并将其加入愿望单。"
+        }
+      }
+    },
+    "Caveman_": {
+      "translations": {
+        "english": {
+          "name": "Caveman",
+          "description": "Beat the game using only a rock as your weapon / tool. This goes for all players."
+        },
+        "schinese": {
+          "name": "原始人",
+          "description": "只使用石头作为武器/工具通关游戏（适用于所有玩家）。"
+        }
+      }
+    },
+    "Muck_": {
+      "translations": {
+        "english": {
+          "name": "Muck",
+          "description": "Beat the game using only a rock, taking no damage and using no powerups. This goes for all players in lobby. (Normal or harder)"
+        },
+        "schinese": {
+          "name": "泥巴",
+          "description": "只使用石头、不受到任何伤害且不使用任何强化道具通关游戏（适用于房间内所有玩家，普通难度或更高）。"
+        }
+      }
+    },
+    "Chief": {
+      "translations": {
+        "english": {
+          "name": "Chief",
+          "description": "Defeat Chief"
+        },
+        "schinese": {
+          "name": "酋长",
+          "description": "击败酋长。"
+        }
+      }
+    },
+    "ChiefChest": {
+      "translations": {
+        "english": {
+          "name": "Irresistible",
+          "description": "Open Chiefs chest"
+        },
+        "schinese": {
+          "name": "无法抗拒",
+          "description": "打开酋长的宝箱。"
+        }
+      }
+    },
+    "PublicEnemy": {
+      "translations": {
+        "english": {
+          "name": "Public Enemy",
+          "description": "Kill 100 Woodmen"
+        },
+        "schinese": {
+          "name": "全民公敌",
+          "description": "击杀100名伐木工。"
+        }
+      }
+    }
+  }
+}

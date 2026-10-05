@@ -1,0 +1,1873 @@
+{
+  "version": 1,
+  "app_id": "312750",
+  "variant_id": "default",
+  "source_sha256": "2330ea5a1357a73cf838ae22b287d68eb54fbc31a8d4e116bcf8c3c71d7a0a9f",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "com.square_enix.ff4_achievement001": {
+      "translations": {
+        "english": {
+          "name": "Customer Appreciation",
+          "description": "You played a new game."
+        },
+        "french": {
+          "name": "Remerciement du client",
+          "description": "Vous avez joué une nouvelle partie."
+        },
+        "german": {
+          "name": "Treuer Kunde",
+          "description": "Du hast ein neues Spiel gespielt."
+        },
+        "italian": {
+          "name": "Attenzione al cliente",
+          "description": "Hai iniziato una nuova partita."
+        },
+        "japanese": {
+          "name": "お買い上げありがとう",
+          "description": "ニューゲームを行った。"
+        },
+        "schinese": {
+          "name": "谢谢惠顾",
+          "description": "开始新游戏"
+        },
+        "spanish": {
+          "name": "Gracias por la compra",
+          "description": "Jugaste una partida nueva."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement058": {
+      "translations": {
+        "english": {
+          "name": "Training Complete!",
+          "description": "You talked to everybody in the Training Classroom."
+        },
+        "french": {
+          "name": "Entraînement terminé !",
+          "description": "Vous avez parlé à tout le monde dans la salle d'entraînement."
+        },
+        "german": {
+          "name": "Übungen abgeschlossen!",
+          "description": "Du hast mit jedem im Übungsraum gesprochen."
+        },
+        "italian": {
+          "name": "Addestramento completo!",
+          "description": "Hai parlato con tutti nella Sala addestramento."
+        },
+        "japanese": {
+          "name": "トレーニング完了！",
+          "description": "トレーニングルームで全員と話した。"
+        },
+        "schinese": {
+          "name": "训练完成！",
+          "description": "与训练教室里的所有人都进行了对话"
+        },
+        "spanish": {
+          "name": "¡Entrenamiento completado!",
+          "description": "Hablaste con todos los del aula de entrenamiento."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement002": {
+      "translations": {
+        "english": {
+          "name": "Mission Accomplished?",
+          "description": "You traveled to Mist."
+        },
+        "french": {
+          "name": "Mission accomplie ?",
+          "description": "Vous avez atteint Mist."
+        },
+        "german": {
+          "name": "Mission erfüllt?",
+          "description": "Du bist zum Dorf des Nebels gereist."
+        },
+        "italian": {
+          "name": "Missione compiuta?",
+          "description": "Hai viaggiato fino a Mist."
+        },
+        "japanese": {
+          "name": "任務達成？",
+          "description": "ミストの村に到着した。"
+        },
+        "schinese": {
+          "name": "任务完成？",
+          "description": "抵达迷雾村"
+        },
+        "spanish": {
+          "name": "¿Misión cumplida?",
+          "description": "Fuiste a Mist."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement003": {
+      "translations": {
+        "english": {
+          "name": "Assault!",
+          "description": "You traveled to Damcyan Castle."
+        },
+        "french": {
+          "name": "À l'assaut !",
+          "description": "Vous avez atteint le château de Damcyan."
+        },
+        "german": {
+          "name": "Angriff!",
+          "description": "Du bist zur Burg Damcyan gereist."
+        },
+        "italian": {
+          "name": "All'assalto!",
+          "description": "Hai viaggiato fino al Castello di Damcyan."
+        },
+        "japanese": {
+          "name": "強襲！",
+          "description": "ダムシアン城に到着した。"
+        },
+        "schinese": {
+          "name": "突袭！",
+          "description": "抵达达姆西亚城"
+        },
+        "spanish": {
+          "name": "¡Asalto!",
+          "description": "Fuiste al castillo de Damcyan."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement004": {
+      "translations": {
+        "english": {
+          "name": "Bravery",
+          "description": "You defeated the Sahagin that attacked at Kaipo."
+        },
+        "french": {
+          "name": "Courage",
+          "description": "Vous avez vaincu le Sahuagin qui a attaqué Kaïpo."
+        },
+        "german": {
+          "name": "Mut",
+          "description": "Du hast den Sahagin besiegt, der in Kaipo angegriffen hat."
+        },
+        "italian": {
+          "name": "Audacia",
+          "description": "Hai sconfitto lo Sahagin che ha attaccato a Kaipo."
+        },
+        "japanese": {
+          "name": "勇気",
+          "description": "カイポで襲撃してきたサハギンを倒した。"
+        },
+        "schinese": {
+          "name": "勇气",
+          "description": "击败袭击凯波的鱼人"
+        },
+        "spanish": {
+          "name": "Bravura",
+          "description": "Derrotaste al Gurami que atacó en Kaipo."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement005": {
+      "translations": {
+        "english": {
+          "name": "Big Bang!",
+          "description": "You defeated Mom Bomb."
+        },
+        "french": {
+          "name": "Big bang !",
+          "description": "Vous avez vaincu Maman bombo."
+        },
+        "german": {
+          "name": "Urknall!",
+          "description": "Du hast Mutterbomber besiegt."
+        },
+        "italian": {
+          "name": "Big bang!",
+          "description": "Hai sconfitto Mamma piros."
+        },
+        "japanese": {
+          "name": "大爆発！",
+          "description": "マザーボムを倒した。"
+        },
+        "schinese": {
+          "name": "大爆炸！",
+          "description": "击败妈妈炸弹"
+        },
+        "spanish": {
+          "name": "¡Big Bang!",
+          "description": "Derrotaste a Mamá bom."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement006": {
+      "translations": {
+        "english": {
+          "name": "Alone Again",
+          "description": "You were shipwrecked by Leviathan."
+        },
+        "french": {
+          "name": "À nouveau seul",
+          "description": "Vous avez fait naufrage à cause de Léviathan."
+        },
+        "german": {
+          "name": "Wieder allein",
+          "description": "Dein Schiff wurde von Leviathan versenkt."
+        },
+        "italian": {
+          "name": "Solitudine",
+          "description": "Hai fatto naufragio a causa del Leviatano."
+        },
+        "japanese": {
+          "name": "また1人…",
+          "description": "リヴァイアサンに遭遇し遭難した。"
+        },
+        "schinese": {
+          "name": "再度孤身",
+          "description": "被利维坦击沉遇难"
+        },
+        "spanish": {
+          "name": "Otra vez solo",
+          "description": "El Leviatán te hizo naufragar."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement007": {
+      "translations": {
+        "english": {
+          "name": "Defeated Scarmiglione",
+          "description": "You defeated Scarmiglione."
+        },
+        "french": {
+          "name": "Scarmiglione vaincu",
+          "description": "Vous avez vaincu Scarmiglione."
+        },
+        "german": {
+          "name": "Scarmiglione besiegt",
+          "description": "Du hast Scarmiglione besiegt."
+        },
+        "italian": {
+          "name": "Scarmiglione sconfitto",
+          "description": "Hai sconfitto Scarmiglione."
+        },
+        "japanese": {
+          "name": "フシュルルル…",
+          "description": "スカルミリョーネを倒した。"
+        },
+        "schinese": {
+          "name": "击败土之骷髅米琉尼",
+          "description": "击败土之骷髅米琉尼"
+        },
+        "spanish": {
+          "name": "Derrotaste a Scarmiglione",
+          "description": "Derrotaste a Scarmiglione."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement008": {
+      "translations": {
+        "english": {
+          "name": "Defeated Cagnazzo",
+          "description": "You defeated Cagnazzo."
+        },
+        "french": {
+          "name": "Cagnazzo vaincu",
+          "description": "Vous avez vaincu Cagnazzo."
+        },
+        "german": {
+          "name": "Cagnazzo besiegt",
+          "description": "Du hast Cagnazzo besiegt."
+        },
+        "italian": {
+          "name": "Cagnazzo sconfitto",
+          "description": "Hai sconfitto Cagnazzo."
+        },
+        "japanese": {
+          "name": "クカカカカ…",
+          "description": "カイナッツォを倒した。"
+        },
+        "schinese": {
+          "name": "击败水之凯纳槽",
+          "description": "击败水之凯纳槽"
+        },
+        "spanish": {
+          "name": "Derrotaste a Cagnazzo",
+          "description": "Derrotaste a Cagnazzo."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement009": {
+      "translations": {
+        "english": {
+          "name": "Saved by Music",
+          "description": "You defeated Dark Elf."
+        },
+        "french": {
+          "name": "Sauvé par la musique !",
+          "description": "Vous avez vaincu l'Elfe noir."
+        },
+        "german": {
+          "name": "Durch Musik gerettet",
+          "description": "Du hast den Dunkelelf besiegt."
+        },
+        "italian": {
+          "name": "Salvato dalla musica",
+          "description": "Hai sconfitto l'Elfo oscuro."
+        },
+        "japanese": {
+          "name": "音楽が戦士を救う",
+          "description": "ダークエルフを倒した。"
+        },
+        "schinese": {
+          "name": "音乐救赎",
+          "description": "击败暗黑精灵"
+        },
+        "spanish": {
+          "name": "Salvado por la música",
+          "description": "Derrotaste al elfo oscuro."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement010": {
+      "translations": {
+        "english": {
+          "name": "Delta Attack Defiance",
+          "description": "You defeated the Magus Sisters."
+        },
+        "french": {
+          "name": "Défi de l'attaque delta",
+          "description": "Vous avez vaincu les sœurs Magus."
+        },
+        "german": {
+          "name": "Delta-Angriff getrotzt",
+          "description": "Du hast die Magus-Schwestern besiegt."
+        },
+        "italian": {
+          "name": "Contrattacco delta",
+          "description": "Hai sconfitto le Sorelle Megas."
+        },
+        "japanese": {
+          "name": "デルタアタック破り",
+          "description": "メーガス三姉妹を倒した。"
+        },
+        "schinese": {
+          "name": "三角破阵",
+          "description": "击败魔女三姐妹"
+        },
+        "spanish": {
+          "name": "Desafío ataque Delta",
+          "description": "Derrotaste a las hermanas Magus."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement011": {
+      "translations": {
+        "english": {
+          "name": "Defeated Barbariccia",
+          "description": "You defeated Barbariccia."
+        },
+        "french": {
+          "name": "Barbariccia vaincu",
+          "description": "Vous avez vaincu Barbariccia."
+        },
+        "german": {
+          "name": "Barbariccia besiegt",
+          "description": "Du hast Barbariccia besiegt."
+        },
+        "italian": {
+          "name": "Barbariccia sconfitto",
+          "description": "Hai sconfitto Barbariccia."
+        },
+        "japanese": {
+          "name": "ほっほっほほほ…",
+          "description": "バルバリシアを倒した。"
+        },
+        "schinese": {
+          "name": "击败风之巴尔巴莉希娅",
+          "description": "击败风之巴尔巴莉希娅"
+        },
+        "spanish": {
+          "name": "Derrotaste a Barbariccia",
+          "description": "Derrotaste a Barbariccia."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement012": {
+      "translations": {
+        "english": {
+          "name": "Defeated Calcabrina",
+          "description": "You defeated Calcabrina."
+        },
+        "french": {
+          "name": "Calcabrina vaincu",
+          "description": "Vous avez vaincu Calcabrina."
+        },
+        "german": {
+          "name": "Calcabrina besiegt",
+          "description": "Du hast Calcabrina besiegt."
+        },
+        "italian": {
+          "name": "Calcabrina sconfitto",
+          "description": "Hai sconfitto Calcabrina."
+        },
+        "japanese": {
+          "name": "キャーホッホッホッ",
+          "description": "カルコブリーナを倒した。"
+        },
+        "schinese": {
+          "name": "击败卡尔克布丽娜",
+          "description": "击败卡尔克布丽娜"
+        },
+        "spanish": {
+          "name": "Derrotaste a Calcabrina",
+          "description": "Derrotaste a Calcabrina."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement013": {
+      "translations": {
+        "english": {
+          "name": "Defeated Dr. Lugae",
+          "description": "You defeated Dr. Lugae."
+        },
+        "french": {
+          "name": "Dr Lugae vaincu",
+          "description": "Vous avez vaincu le Dr Lugae."
+        },
+        "german": {
+          "name": "Dr. Lugae besiegt",
+          "description": "Du hast Dr. Lugae besiegt."
+        },
+        "italian": {
+          "name": "Dott. Lugae sconfitto",
+          "description": "Hai sconfitto il dott. Lugae."
+        },
+        "japanese": {
+          "name": "ヒャヒャヒャ…",
+          "description": "ルゲイエを倒した。"
+        },
+        "schinese": {
+          "name": "击败露盖伊博士",
+          "description": "击败露盖伊博士"
+        },
+        "spanish": {
+          "name": "Derrotaste al Dr. Lugae",
+          "description": "Derrotaste al Dr. Lugae."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement014": {
+      "translations": {
+        "english": {
+          "name": "Defeated Rubicante",
+          "description": "You defeated Rubicante."
+        },
+        "french": {
+          "name": "Rubicante vaincu",
+          "description": "Vous avez vaincu Rubicante."
+        },
+        "german": {
+          "name": "Rubicante besiegt",
+          "description": "Du hast Rubicante besiegt."
+        },
+        "italian": {
+          "name": "Rubicante sconfitto",
+          "description": "Hai sconfitto Rubicante."
+        },
+        "japanese": {
+          "name": "回復してやろう",
+          "description": "ルビカンテを倒した。"
+        },
+        "schinese": {
+          "name": "击败炎之卢比坎特",
+          "description": "击败炎之卢比坎特"
+        },
+        "spanish": {
+          "name": "Derrotaste a Rubicante",
+          "description": "Derrotaste a Rubicante."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement015": {
+      "translations": {
+        "english": {
+          "name": "Defeated Demon Wall",
+          "description": "You defeated Demon Wall."
+        },
+        "french": {
+          "name": "Mur démonique vaincu",
+          "description": "Vous avez vaincu le mur démonique."
+        },
+        "german": {
+          "name": "Dämonenwall besiegt",
+          "description": "Du hast Dämonenwall besiegt."
+        },
+        "italian": {
+          "name": "Muro diabolico sconfitto",
+          "description": "Hai sconfitto il Muro diabolico."
+        },
+        "japanese": {
+          "name": "迫り来る壁",
+          "description": "デモンズウォールを倒した。"
+        },
+        "schinese": {
+          "name": "坚墙步步逼近",
+          "description": "击败恶魔墙"
+        },
+        "spanish": {
+          "name": "Derrotaste el muro infernal",
+          "description": "Derrotaste el muro infernal."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement016": {
+      "translations": {
+        "english": {
+          "name": "Promised Ship of Light",
+          "description": "You went to the moon on The Lunar Whale. "
+        },
+        "french": {
+          "name": "Vaisseau de lumière vaincu",
+          "description": "Vous avez atteint la lune avec la baleine lunaire."
+        },
+        "german": {
+          "name": "Versprochenes Schiff des Lichts",
+          "description": "Du bist mit dem Mondwal zum Mond gereist."
+        },
+        "italian": {
+          "name": "Promesso traghetto di luce",
+          "description": "Hai raggiunto la luna con il Traghetto lunare. "
+        },
+        "japanese": {
+          "name": "大いなるまばゆき船",
+          "description": "魔導船で月へ行った。"
+        },
+        "schinese": {
+          "name": "约定的光之船",
+          "description": "获得了魔导船，到达了月亮世界"
+        },
+        "spanish": {
+          "name": "Nave prometida de la luz",
+          "description": "Fuiste a la Luna en La Ballena Lunar. "
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement017": {
+      "translations": {
+        "english": {
+          "name": "Defeated Elemental Archfiends",
+          "description": "You defeated the elemental archfiends."
+        },
+        "french": {
+          "name": "Seigneurs élémentaires vaincu",
+          "description": "Vous avez vaincu les seigneurs élémentaires."
+        },
+        "german": {
+          "name": "Elementarfürsten besiegt",
+          "description": "Du hast die Elementarfürsten besiegt."
+        },
+        "italian": {
+          "name": "Arcidiavoli sconfitti",
+          "description": "Hai sconfitto gli Arcidiavoli degli elementi."
+        },
+        "japanese": {
+          "name": "力を合わせて",
+          "description": "四天王を倒した。"
+        },
+        "schinese": {
+          "name": "携手合作",
+          "description": "击败四大天王"
+        },
+        "spanish": {
+          "name": "Derrotaste a los archidiablos elementales",
+          "description": "Derrotaste a los archidiablos elementales."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement018": {
+      "translations": {
+        "english": {
+          "name": "Defeated CPU",
+          "description": "You defeated the CPU."
+        },
+        "french": {
+          "name": "UC vaincue",
+          "description": "Vous avez vaincu l'UC."
+        },
+        "german": {
+          "name": "CPU besiegt",
+          "description": "Du hast die CPU besiegt."
+        },
+        "italian": {
+          "name": "Sistema di controllo sconfitto",
+          "description": "Hai sconfitto il Sistema di controllo."
+        },
+        "japanese": {
+          "name": "システム停止",
+          "description": "制御システムを倒した。"
+        },
+        "schinese": {
+          "name": "系统中断",
+          "description": "击败巴別巨人的CPU"
+        },
+        "spanish": {
+          "name": "Derrotaste a la CPU",
+          "description": "Derrotaste a la CPU."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement019": {
+      "translations": {
+        "english": {
+          "name": "To Mother Earth",
+          "description": "You finished the game."
+        },
+        "french": {
+          "name": "À la terre nourricière",
+          "description": "Vous avez terminé le jeu."
+        },
+        "german": {
+          "name": "Gen Mutter Erde",
+          "description": "Du hast das Spiel beendet."
+        },
+        "italian": {
+          "name": "Per Madre Terra",
+          "description": "Hai finito il gioco."
+        },
+        "japanese": {
+          "name": "母なる大地に",
+          "description": "クリアした。"
+        },
+        "schinese": {
+          "name": "慈母大地",
+          "description": "通关游戏"
+        },
+        "spanish": {
+          "name": "A la madre tierra",
+          "description": "Completaste el juego."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement020": {
+      "translations": {
+        "english": {
+          "name": "Bitter Battle",
+          "description": "You finished the game on Hard difficulty."
+        },
+        "french": {
+          "name": "Combat amer",
+          "description": "Vous avez terminé le jeu au niveau Difficile."
+        },
+        "german": {
+          "name": "Erbitterter Kampf",
+          "description": "Du hast das Spiel auf Schwer beendet."
+        },
+        "italian": {
+          "name": "Amara battaglia",
+          "description": "Hai finito il gioco a difficoltà Difficile."
+        },
+        "japanese": {
+          "name": "激闘を制した者",
+          "description": "ハードモードでクリアした。"
+        },
+        "schinese": {
+          "name": "苦战险胜",
+          "description": "以困难难度通关游戏"
+        },
+        "spanish": {
+          "name": "Combate amargo",
+          "description": "Completaste el juego en Difícil."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement021": {
+      "translations": {
+        "english": {
+          "name": "Earth's Savior Times Two",
+          "description": "You finished the game twice."
+        },
+        "french": {
+          "name": "Le sauveur de la Terre par deux",
+          "description": "Vous avez terminé le jeu deux fois."
+        },
+        "german": {
+          "name": "Doppelter Erdenretter",
+          "description": "Du hast das Spiel zweimal beendet."
+        },
+        "italian": {
+          "name": "La Terra è due volte salva",
+          "description": "Hai finito il gioco due volte."
+        },
+        "japanese": {
+          "name": "大地を2度救った男",
+          "description": "２周目をクリアした。"
+        },
+        "schinese": {
+          "name": "梅开二度",
+          "description": "通关两次游戏"
+        },
+        "spanish": {
+          "name": "Salvador del planeta dos veces",
+          "description": "Completaste el juego dos veces."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement022": {
+      "translations": {
+        "english": {
+          "name": "Form Reborn",
+          "description": "You obtained Excalibur."
+        },
+        "french": {
+          "name": "Nouvelle forme",
+          "description": "Vous avez obtenu Excalibur."
+        },
+        "german": {
+          "name": "Wiedergeborene Gestalt",
+          "description": "Du hast Exkalibur erhalten."
+        },
+        "italian": {
+          "name": "Forma rinata",
+          "description": "Hai ottenuto l'Excalibur."
+        },
+        "japanese": {
+          "name": "生まれ変わった姿",
+          "description": "エクスカリバーを入手した。"
+        },
+        "schinese": {
+          "name": "浴火重生",
+          "description": "获得了王者之剑"
+        },
+        "spanish": {
+          "name": "Forma renacida",
+          "description": "Obtuviste Excalibur."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement023": {
+      "translations": {
+        "english": {
+          "name": "Unsealed",
+          "description": "You obtained Ragnarok, Holy Lance, Murasame, and Ribbon."
+        },
+        "french": {
+          "name": "Non scellé",
+          "description": "Vous avez obtenu Ragnarok, la lance sacrée, Murasame et Ruban."
+        },
+        "german": {
+          "name": "Entsiegelt",
+          "description": "Du hast Ragnarök, die Heiligenpike, Murasame und die Schleife erhalten."
+        },
+        "italian": {
+          "name": "Sigillo spezzato",
+          "description": "Hai ottenuto Ragnarok, Lancia sacra, Murasame e il Fiocco."
+        },
+        "japanese": {
+          "name": "封印解除",
+          "description": "ラグナロク、ホーリーランス、ムラサメ、マサムネ、リボンを入手した。"
+        },
+        "schinese": {
+          "name": "解除封印",
+          "description": "获得诸神黄昏、圣枪、村雨和缎带"
+        },
+        "spanish": {
+          "name": "Revelado",
+          "description": "Obtuviste Ragnarok, la lanza sagrada, Murasame y la cinta."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement024": {
+      "translations": {
+        "english": {
+          "name": "To the End of Misery",
+          "description": "You obtained Adamant Armor."
+        },
+        "french": {
+          "name": "La fin du malheur",
+          "description": "Vous avez obtenu la cotte d'adamantine."
+        },
+        "german": {
+          "name": "Am Ende der Misere",
+          "description": "Du hast die Adamantenrüstung erhalten."
+        },
+        "italian": {
+          "name": "La fine della sventura",
+          "description": "Hai ottenuto l'Armatura di Adamantite."
+        },
+        "japanese": {
+          "name": "苦難の果てに",
+          "description": "アダマンアーマーを入手した。"
+        },
+        "schinese": {
+          "name": "历尽艰辛",
+          "description": "获得精金铠甲"
+        },
+        "spanish": {
+          "name": "Fin de la miseria",
+          "description": "Obtuviste la armadura adamantina."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement025": {
+      "translations": {
+        "english": {
+          "name": "The Onion Swordsman",
+          "description": "You obtained all the Onion items."
+        },
+        "french": {
+          "name": "L'escrimeur de l'oignon",
+          "description": "Vous avez obtenu les objets oignon."
+        },
+        "german": {
+          "name": "Der Zwiebel-Schwertkämpfer",
+          "description": "Du hast alle Zwiebel-Items erhalten."
+        },
+        "italian": {
+          "name": "Cavaliere della cipolla",
+          "description": "Hai ottenuto tutti gli oggetti Cipolla."
+        },
+        "japanese": {
+          "name": "たまねぎ剣士",
+          "description": "オニオン系の装備品を全て入手した。"
+        },
+        "schinese": {
+          "name": "洋葱剑士",
+          "description": "获得全部洋葱系列装备"
+        },
+        "spanish": {
+          "name": "El caballero cebolla",
+          "description": "Obtuviste todos los objetos de cebolla."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement026": {
+      "translations": {
+        "english": {
+          "name": "Augment Novice",
+          "description": "You obtained one augment."
+        },
+        "french": {
+          "name": "Débutant de la compétence bonus",
+          "description": "Vous avez obtenu une compétence."
+        },
+        "german": {
+          "name": "Fertigkeitenneuling",
+          "description": "Du hast eine bekannte Fertigkeit erhalten."
+        },
+        "italian": {
+          "name": "Novizio di sublimazioni",
+          "description": "Hai ottenuto un'abilità conosciuta."
+        },
+        "japanese": {
+          "name": "デカントはじめました",
+          "description": "デカントアビリティを1個入手した。"
+        },
+        "schinese": {
+          "name": "强化新手",
+          "description": "获得1个强化道具"
+        },
+        "spanish": {
+          "name": "Aprendiz de aumentos",
+          "description": "Obtuviste una habilidad conocida."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement027": {
+      "translations": {
+        "english": {
+          "name": "Augment Practitioner",
+          "description": "You obtained 20 augments."
+        },
+        "french": {
+          "name": "Docteur de la compétence bonus",
+          "description": "Vous avez obtenu 20 compétences."
+        },
+        "german": {
+          "name": "Fertigkeitenfachmann",
+          "description": "Du hast 20 bekannte Fertigkeiten erhalten."
+        },
+        "italian": {
+          "name": "Praticante di sublimazioni",
+          "description": "Hai ottenuto 20 abilità conosciute."
+        },
+        "japanese": {
+          "name": "デカント修行中",
+          "description": "デカントアビリティを20個入手した。"
+        },
+        "schinese": {
+          "name": "强化老手",
+          "description": "获得20个强化道具"
+        },
+        "spanish": {
+          "name": "Practicante de aumentos",
+          "description": "Obtuviste 20 habilidades conocidas."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement028": {
+      "translations": {
+        "english": {
+          "name": "Augment Master",
+          "description": "You obtained all augments."
+        },
+        "french": {
+          "name": "Maître de la compétence bonus",
+          "description": "Vous avez obtenu toutes les compétences."
+        },
+        "german": {
+          "name": "Fertigkeitenmeister",
+          "description": "Du hast alle bekannten Fertigkeiten erhalten."
+        },
+        "italian": {
+          "name": "Maestro di sublimazioni",
+          "description": "Hai ottenuto tutte le abilità conosciute."
+        },
+        "japanese": {
+          "name": "デカント極めました",
+          "description": "デカントアビリティを全て入手した。"
+        },
+        "schinese": {
+          "name": "强化大师",
+          "description": "获得全部强化道具"
+        },
+        "spanish": {
+          "name": "Maestro de aumentos",
+          "description": "Obtuviste todas las habilidades conocidas."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement029": {
+      "translations": {
+        "english": {
+          "name": "Apprentice Summoner",
+          "description": "You acquired one summon."
+        },
+        "french": {
+          "name": "Apprenti invocateur",
+          "description": "Vous avez obtenu une invocation."
+        },
+        "german": {
+          "name": "Beschwörungslehrling",
+          "description": "Du hast einen Beschwörungsspruch erhalten."
+        },
+        "italian": {
+          "name": "Apprendista invocatore",
+          "description": "Hai ottenuto un'invocazione."
+        },
+        "japanese": {
+          "name": "見習い召喚士",
+          "description": "召喚獣を1つ習得した。"
+        },
+        "schinese": {
+          "name": "召唤学徒",
+          "description": "学会了召唤魔法"
+        },
+        "spanish": {
+          "name": "Aprendiz de invocador",
+          "description": "Obtuviste una invocación."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement030": {
+      "translations": {
+        "english": {
+          "name": "Expert Summoner",
+          "description": "You acquired all hidden summons."
+        },
+        "french": {
+          "name": "Expert invocateur",
+          "description": "Vous avez obtenu toutes les invocations cachées."
+        },
+        "german": {
+          "name": "Beschwörungsexperte",
+          "description": "Du hast alle versteckten Beschwörungssprüche erhalten."
+        },
+        "italian": {
+          "name": "Esperto invocatore",
+          "description": "Hai ottenuto tutte le invocazioni nascoste."
+        },
+        "japanese": {
+          "name": "マニアック召喚士",
+          "description": "隠し召喚獣を全て習得した。"
+        },
+        "schinese": {
+          "name": "召唤专家",
+          "description": "学会了所有隐藏召唤魔法"
+        },
+        "spanish": {
+          "name": "Invocador experto",
+          "description": "Obtuviste todas las invocaciones ocultas."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement031": {
+      "translations": {
+        "english": {
+          "name": "Master Summoner",
+          "description": "You acquired all summons."
+        },
+        "french": {
+          "name": "Maître invocateur",
+          "description": "Vous avez obtenu toutes les invocations."
+        },
+        "german": {
+          "name": "Beschwörungsmeister",
+          "description": "Du hast alle Beschwörungssprüche erhalten."
+        },
+        "italian": {
+          "name": "Maestro invocatore",
+          "description": "Hai ottenuto tutte le invocazioni."
+        },
+        "japanese": {
+          "name": "マスター召喚士",
+          "description": "隠しを除く召喚獣を全て習得した。"
+        },
+        "schinese": {
+          "name": "召唤大师",
+          "description": "学会了除隐藏召唤魔法外的所有召唤魔法"
+        },
+        "spanish": {
+          "name": "Maestro de la invocación",
+          "description": "Obtuviste todas las invocaciones."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement032": {
+      "translations": {
+        "english": {
+          "name": "The Perpetual Wayfarer",
+          "description": "You traveled across the entire map. "
+        },
+        "french": {
+          "name": "Le voyageur perpétuel",
+          "description": "Vous avez terminé la carte entière."
+        },
+        "german": {
+          "name": "Der ewige Wandersmann",
+          "description": "Du hast die gesamte Karte bereist."
+        },
+        "italian": {
+          "name": "L'eterno errabondo",
+          "description": "Hai viaggiato in tutta la mappa. "
+        },
+        "japanese": {
+          "name": "悠久の旅人",
+          "description": "マップを全て踏破した。"
+        },
+        "schinese": {
+          "name": "永恒旅者",
+          "description": "走遍了整个地图"
+        },
+        "spanish": {
+          "name": "El eterno peregrino",
+          "description": "Viajaste por todo el mapa. "
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement033": {
+      "translations": {
+        "english": {
+          "name": "Rabbit Chaser",
+          "description": "You played through all Namingway events."
+        },
+        "french": {
+          "name": "Chasseur de lapins",
+          "description": "Vous avez effectué tous les événements de Namingway."
+        },
+        "german": {
+          "name": "Hasenjäger",
+          "description": "Du hast alle Namingway-Events durchgespielt."
+        },
+        "italian": {
+          "name": "A caccia di conigli",
+          "description": "Hai superato tutti gli eventi Nomingway."
+        },
+        "japanese": {
+          "name": "ウサギ追いし",
+          "description": "ネミングウェイのイベントを全て行った。"
+        },
+        "schinese": {
+          "name": "追兔人",
+          "description": "经历了所有命名大叔事件"
+        },
+        "spanish": {
+          "name": "Cazaconejos",
+          "description": "Superaste todas las misiones de Nombriri."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement034": {
+      "translations": {
+        "english": {
+          "name": "A Bloodstained Road",
+          "description": "You raised Cecil (Dark Knight) to level 15."
+        },
+        "french": {
+          "name": "Une route pleine de sang",
+          "description": "Vous avez aidé Cécil (Chevalier noir) à atteindre le niveau 15."
+        },
+        "german": {
+          "name": "Blutbefleckter Weg",
+          "description": "Du hast Cecil (Dunkelritter) auf Stufe 15 gebracht."
+        },
+        "italian": {
+          "name": "Una strada di sangue",
+          "description": "Hai portato Cecil (Cavaliere delle tenebre) al livello 15."
+        },
+        "japanese": {
+          "name": "血塗られし道を行く",
+          "description": "セシル（暗黒騎士）のレベルが15まで上がった。"
+        },
+        "schinese": {
+          "name": "血染之路",
+          "description": "将塞西尔（暗黑骑士）提升至15级"
+        },
+        "spanish": {
+          "name": "Camino de sangre",
+          "description": "Subiste a Cecil (caballero oscuro) al nivel 15."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement035": {
+      "translations": {
+        "english": {
+          "name": "Heaps of Corpses",
+          "description": "You raised Cecil (Dark Knight) to level 20."
+        },
+        "french": {
+          "name": "Une foultitude de cadavres",
+          "description": "Vous avez aidé Cécil (Chevalier noir) à atteindre le niveau 20."
+        },
+        "german": {
+          "name": "Fülle toter Hüllen",
+          "description": "Du hast Cecil (Dunkelritter) auf Stufe 20 gebracht."
+        },
+        "italian": {
+          "name": "Montagne di cadaveri",
+          "description": "Hai portato Cecil (Cavaliere delle tenebre) al livello 20."
+        },
+        "japanese": {
+          "name": "屍をかき分けて",
+          "description": "セシル（暗黒騎士）のレベルが20まで上がった。"
+        },
+        "schinese": {
+          "name": "尸横遍野",
+          "description": "将塞西尔（暗黑骑士）提升至20级"
+        },
+        "spanish": {
+          "name": "Pilas de cadáveres",
+          "description": "Subiste a Cecil (caballero oscuro) al nivel 20."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement036": {
+      "translations": {
+        "english": {
+          "name": "Deep into Darkness",
+          "description": "You raised Cecil (Dark Knight) to level 25."
+        },
+        "french": {
+          "name": "Au fond des ténèbres",
+          "description": "Vous avez aidé Cécil (Chevalier noir) à atteindre le niveau 25."
+        },
+        "german": {
+          "name": "Tief in die Dunkelheit",
+          "description": "Du hast Cecil (Dunkelritter) auf Stufe 25 gebracht."
+        },
+        "italian": {
+          "name": "Profonde tenebre",
+          "description": "Hai portato Cecil (Cavaliere delle tenebre) al livello 25."
+        },
+        "japanese": {
+          "name": "闇に身を沈めて",
+          "description": "セシル（暗黒騎士）のレベルが25まで上がった。"
+        },
+        "schinese": {
+          "name": "坠入黑暗",
+          "description": "将塞西尔（暗黑骑士）提升至25级"
+        },
+        "spanish": {
+          "name": "En lo más oscuro",
+          "description": "Subiste a Cecil (caballero oscuro) al nivel 25."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement037": {
+      "translations": {
+        "english": {
+          "name": "Moves toward the Light",
+          "description": "You raised Cecil (Paladin) to level 10."
+        },
+        "french": {
+          "name": "Va vers la Lumière",
+          "description": "Vous avez aidé Cécil (Paladin) à atteindre le niveau 10."
+        },
+        "german": {
+          "name": "Zum Licht",
+          "description": "Du hast Cecil (Paladin) auf Stufe 10 gebracht."
+        },
+        "italian": {
+          "name": "Verso la luce",
+          "description": "Hai portato Cecil (Paladino) al livello 10."
+        },
+        "japanese": {
+          "name": "光の指す方へ",
+          "description": "セシル（パラディン）のレベルが10まで上がった。"
+        },
+        "schinese": {
+          "name": "迈向光明",
+          "description": "将塞西尔（圣骑士）提升至10级"
+        },
+        "spanish": {
+          "name": "Hacia la luz",
+          "description": "Subiste a Cecil (paladín) al nivel 10."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement038": {
+      "translations": {
+        "english": {
+          "name": "Walks with the Light",
+          "description": "You raised Cecil (Paladin) to level 20."
+        },
+        "french": {
+          "name": "Marche avec la Lumière",
+          "description": "Vous avez aidé Cécil (Paladin) à atteindre le niveau 20."
+        },
+        "german": {
+          "name": "Der mit dem Licht wandelt",
+          "description": "Du hast Cecil (Paladin) auf Stufe 20 gebracht."
+        },
+        "italian": {
+          "name": "A fianco della luce",
+          "description": "Hai portato Cecil (Paladino) al livello 20."
+        },
+        "japanese": {
+          "name": "光とともに歩む",
+          "description": "セシル（パラディン）のレベルが20まで上がった。"
+        },
+        "schinese": {
+          "name": "和光同尘",
+          "description": "将塞西尔（圣骑士）提升至20级"
+        },
+        "spanish": {
+          "name": "Avanza con la luz",
+          "description": "Subiste a Cecil (paladín) al nivel 20."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement039": {
+      "translations": {
+        "english": {
+          "name": "The Gatherer of Light",
+          "description": "You raised Cecil (Paladin) to level 30."
+        },
+        "french": {
+          "name": "Le Collecteur de Lumière",
+          "description": "Vous avez aidé Cécil (Paladin) à atteindre le niveau 30."
+        },
+        "german": {
+          "name": "Lichtsammler",
+          "description": "Du hast Cecil (Paladin) auf Stufe 30 gebracht."
+        },
+        "italian": {
+          "name": "Benedetto dalla luce",
+          "description": "Hai portato Cecil (Paladino) al livello 30."
+        },
+        "japanese": {
+          "name": "この手に光を集めて",
+          "description": "セシル（パラディン）のレベルが30まで上がった。"
+        },
+        "schinese": {
+          "name": "掌中光华",
+          "description": "将塞西尔（圣骑士）提升至30级"
+        },
+        "spanish": {
+          "name": "El recolector de luz",
+          "description": "Subiste a Cecil (paladín) al nivel 30."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement040": {
+      "translations": {
+        "english": {
+          "name": "The Illuminator",
+          "description": "You raised Cecil (Paladin) to level 50."
+        },
+        "french": {
+          "name": "L'Illuminateur",
+          "description": "Vous avez aidé Cécil (Paladin) à atteindre le niveau 50."
+        },
+        "german": {
+          "name": "Der Illuminator",
+          "description": "Du hast Cecil (Paladin) auf Stufe 50 gebracht."
+        },
+        "italian": {
+          "name": "La fonte di luce",
+          "description": "Hai portato Cecil (Paladino) al livello 50."
+        },
+        "japanese": {
+          "name": "世界を照らす光となれ",
+          "description": "セシル（パラディン）のレベルが50まで上がった。"
+        },
+        "schinese": {
+          "name": "启明之光",
+          "description": "将塞西尔（圣骑士）提升至50级"
+        },
+        "spanish": {
+          "name": "El iluminador",
+          "description": "Subiste a Cecil (paladín) al nivel 50."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement041": {
+      "translations": {
+        "english": {
+          "name": "Paladin of Light Incarnate",
+          "description": "You raised Cecil (Paladin) to level 70."
+        },
+        "french": {
+          "name": "Paladin de la Lumière incarnée",
+          "description": "Vous avez aidé Cécil (Paladin) à atteindre le niveau 70."
+        },
+        "german": {
+          "name": "Paladin des personifizierten Lichts",
+          "description": "Du hast Cecil (Paladin) auf Stufe 70 gebracht."
+        },
+        "italian": {
+          "name": "Incarnazione della luce",
+          "description": "Hai portato Cecil (Paladino) al livello 70."
+        },
+        "japanese": {
+          "name": "光に包まれた聖騎士",
+          "description": "セシル（パラディン）のレベルが70まで上がった。"
+        },
+        "schinese": {
+          "name": "光辉中的圣骑士",
+          "description": "将塞西尔（圣骑士）提升至70级"
+        },
+        "spanish": {
+          "name": "Encarnación del paladín de la luz",
+          "description": "Subiste a Cecil (paladín) al nivel 70."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement042": {
+      "translations": {
+        "english": {
+          "name": "Pockets Full",
+          "description": "You earned 10,000 gil."
+        },
+        "french": {
+          "name": "Les poches pleines",
+          "description": "Vous avez gagné 10 000 gils."
+        },
+        "german": {
+          "name": "Volle Taschen",
+          "description": "Du hast 10.000 Gil verdient."
+        },
+        "italian": {
+          "name": "Tasche piene",
+          "description": "Hai guadagnato 10.000 guil."
+        },
+        "japanese": {
+          "name": "ポケットに納まらない",
+          "description": "ギルが10000まで貯まった。"
+        },
+        "schinese": {
+          "name": "中产",
+          "description": "累计获得了10,000金币"
+        },
+        "spanish": {
+          "name": "Bolsillos llenos",
+          "description": "Ganaste 10.000 guiles."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement043": {
+      "translations": {
+        "english": {
+          "name": "Fat Purse",
+          "description": "You earned 50,000 gil."
+        },
+        "french": {
+          "name": "Une bourse remplie",
+          "description": "Vous avez gagné 50 000 gils."
+        },
+        "german": {
+          "name": "Dicke Börse",
+          "description": "Du hast 50.000 Gil verdient."
+        },
+        "italian": {
+          "name": "Borsa zeppa",
+          "description": "Hai guadagnato 50.000 guil."
+        },
+        "japanese": {
+          "name": "袋がパンパンだ",
+          "description": "ギルが50000まで貯まった。"
+        },
+        "schinese": {
+          "name": "小富",
+          "description": "累计获得了50,000金币"
+        },
+        "spanish": {
+          "name": "Bolsa llena",
+          "description": "Ganaste 50.000 guiles."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement044": {
+      "translations": {
+        "english": {
+          "name": "Bursting Treasure Chest",
+          "description": "You earned 200,000 gil."
+        },
+        "french": {
+          "name": "Un coffre au trésor plein à craquer",
+          "description": "Vous avez gagné 200 000 gils."
+        },
+        "german": {
+          "name": "Überquellende Schatztruhe",
+          "description": "Du hast 200.000 Gil verdient."
+        },
+        "italian": {
+          "name": "Scrigno strabordante",
+          "description": "Hai guadagnato 200.000 guil."
+        },
+        "japanese": {
+          "name": "宝箱が壊れそう",
+          "description": "ギルが200000まで貯まった。"
+        },
+        "schinese": {
+          "name": "富豪",
+          "description": "累计获得了200,000金币"
+        },
+        "spanish": {
+          "name": "Cofre del tesoro rebosante",
+          "description": "Ganaste 200.000 guiles."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement045": {
+      "translations": {
+        "english": {
+          "name": "Time for a Vault",
+          "description": "You earned 500,000 gil."
+        },
+        "french": {
+          "name": "Temps d'un caveau",
+          "description": "Vous avez gagné 500 000 gils."
+        },
+        "german": {
+          "name": "Zeit für eine Schatzkammer",
+          "description": "Du hast 500.000 Gil verdient."
+        },
+        "italian": {
+          "name": "Serve un caveau",
+          "description": "Hai guadagnato 500.000 guil."
+        },
+        "japanese": {
+          "name": "金庫を用意しよう",
+          "description": "ギルが500000まで貯まった。"
+        },
+        "schinese": {
+          "name": "大富豪",
+          "description": "累计获得了500,000金币"
+        },
+        "spanish": {
+          "name": "Riquezas increíbles",
+          "description": "Ganaste 500.000 guiles."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement046": {
+      "translations": {
+        "english": {
+          "name": "Bronze Hunter",
+          "description": "You defeated 100 enemies."
+        },
+        "french": {
+          "name": "Chasseur de bronze",
+          "description": "Vous avez vaincu 100 ennemis."
+        },
+        "german": {
+          "name": "Bronzejäger",
+          "description": "Du hast 100 Gegner besiegt."
+        },
+        "italian": {
+          "name": "Cacciatore di bronzo",
+          "description": "Hai sconfitto 100 nemici."
+        },
+        "japanese": {
+          "name": "ブロンズハンター",
+          "description": "モンスターを100匹討伐した。"
+        },
+        "schinese": {
+          "name": "青铜猎人",
+          "description": "击败100个敌人"
+        },
+        "spanish": {
+          "name": "Cazador de bronce",
+          "description": "Derrotaste a 100 enemigos."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement047": {
+      "translations": {
+        "english": {
+          "name": "Silver Hunter",
+          "description": "You defeated 500 enemies."
+        },
+        "french": {
+          "name": "Chasseur d'argent",
+          "description": "Vous avez vaincu 500 ennemis."
+        },
+        "german": {
+          "name": "Silberjäger",
+          "description": "Du hast 500 Gegner besiegt."
+        },
+        "italian": {
+          "name": "Cacciatore d'argento",
+          "description": "Hai sconfitto 500 nemici."
+        },
+        "japanese": {
+          "name": "シルバーハンター",
+          "description": "モンスターを500匹討伐した。"
+        },
+        "schinese": {
+          "name": "白银猎人",
+          "description": "击败500个敌人"
+        },
+        "spanish": {
+          "name": "Cazador de plata",
+          "description": "Derrotaste a 500 enemigos."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement048": {
+      "translations": {
+        "english": {
+          "name": "Gold Hunter",
+          "description": "You defeated 1,000 enemies."
+        },
+        "french": {
+          "name": "Chasseur d'or",
+          "description": "Vous avez vaincu 1 000 ennemis."
+        },
+        "german": {
+          "name": "Goldjäger",
+          "description": "Du hast 1.000 Gegner besiegt."
+        },
+        "italian": {
+          "name": "Cacciatore d'oro",
+          "description": "Hai sconfitto 1.000 nemici."
+        },
+        "japanese": {
+          "name": "ゴールドハンター",
+          "description": "モンスターを1000匹討伐した。"
+        },
+        "schinese": {
+          "name": "黄金猎人",
+          "description": "击败1000个敌人"
+        },
+        "spanish": {
+          "name": "Cazador de oro",
+          "description": "Derrotaste a 1.000 enemigos."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement049": {
+      "translations": {
+        "english": {
+          "name": "Platinum Hunter",
+          "description": "You defeated 2,000 enemies."
+        },
+        "french": {
+          "name": "Chasseur de platine",
+          "description": "Vous avez vaincu 2 000 ennemis."
+        },
+        "german": {
+          "name": "Platinjäger",
+          "description": "Du hast 2.000 Gegner besiegt."
+        },
+        "italian": {
+          "name": "Cacciatore di platino",
+          "description": "Hai sconfitto 2.000 nemici."
+        },
+        "japanese": {
+          "name": "プラチナハンター",
+          "description": "モンスターを2000匹討伐した。"
+        },
+        "schinese": {
+          "name": "白金猎人",
+          "description": "击败2000个敌人"
+        },
+        "spanish": {
+          "name": "Cazador de platino",
+          "description": "Derrotaste a 2.000 enemigos."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement050": {
+      "translations": {
+        "english": {
+          "name": "Seeker",
+          "description": "You completed 10% of the Bestiary."
+        },
+        "french": {
+          "name": "Chercheur",
+          "description": "Vous avez terminé 10 % du bestiaire."
+        },
+        "german": {
+          "name": "Suchender",
+          "description": "Du hast 10 % des Bestiariums abgeschlossen."
+        },
+        "italian": {
+          "name": "Cercatore",
+          "description": "Hai completato il 10% del bestiario."
+        },
+        "japanese": {
+          "name": "知りたがり",
+          "description": "モンスター図鑑のコンプリート率が10%に達した。"
+        },
+        "schinese": {
+          "name": "好学之人",
+          "description": "怪物图鉴的完成率达到了10%"
+        },
+        "spanish": {
+          "name": "Buscador",
+          "description": "Completaste un 10% del bestiario."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement051": {
+      "translations": {
+        "english": {
+          "name": "Catching On",
+          "description": "You completed 30% of the Bestiary."
+        },
+        "french": {
+          "name": "Populaire",
+          "description": "Vous avez terminé 30 % du bestiaire."
+        },
+        "german": {
+          "name": "Wissender",
+          "description": "Du hast 30 % des Bestiariums abgeschlossen."
+        },
+        "italian": {
+          "name": "Esperto",
+          "description": "Hai completato il 30% del bestiario."
+        },
+        "japanese": {
+          "name": "分かってきた",
+          "description": "モンスター図鑑のコンプリート率が30%に達した。"
+        },
+        "schinese": {
+          "name": "略知一二",
+          "description": "怪物图鉴的完成率达到了30%"
+        },
+        "spanish": {
+          "name": "Estudiante",
+          "description": "Completaste un 30% del bestiario."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement052": {
+      "translations": {
+        "english": {
+          "name": "Aficionado",
+          "description": "You completed 60% of the Bestiary."
+        },
+        "french": {
+          "name": "Aficionado",
+          "description": "Vous avez terminé 60 % du bestiaire."
+        },
+        "german": {
+          "name": "Liebhaber",
+          "description": "Du hast 60 % des Bestiariums abgeschlossen."
+        },
+        "italian": {
+          "name": "Conoscitore",
+          "description": "Hai completato il 60% del bestiario."
+        },
+        "japanese": {
+          "name": "モンスター通",
+          "description": "モンスター図鑑のコンプリート率が60%に達した。"
+        },
+        "schinese": {
+          "name": "怪物专家",
+          "description": "怪物图鉴的完成率达到了60%"
+        },
+        "spanish": {
+          "name": "Aficionado",
+          "description": "Completaste un 60% del bestiario."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement053": {
+      "translations": {
+        "english": {
+          "name": "Know-It-All",
+          "description": "You completed the entire Bestiary."
+        },
+        "french": {
+          "name": "Je-sais-tout",
+          "description": "Vous avez terminé le bestiaire entier."
+        },
+        "german": {
+          "name": "Alleswisser",
+          "description": "Du hast das komplette Bestiarium abgeschlossen."
+        },
+        "italian": {
+          "name": "Pozzo di scienza",
+          "description": "Hai completato tutto il bestiario."
+        },
+        "japanese": {
+          "name": "すべてを知る者",
+          "description": "モンスター図鑑のコンプリート率が100%に達した。"
+        },
+        "schinese": {
+          "name": "无所不知",
+          "description": "怪物图鉴的完成率达到了100%"
+        },
+        "spanish": {
+          "name": "Sabelotodo",
+          "description": "Completaste todo el bestiario."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement054": {
+      "translations": {
+        "english": {
+          "name": "Defeated Geryon",
+          "description": "You defeated Geryon."
+        },
+        "french": {
+          "name": "Guéryon vaincu",
+          "description": "Vous avez vaincu Guéryon."
+        },
+        "german": {
+          "name": "Geryon besiegt",
+          "description": "Du hast Geryon besiegt."
+        },
+        "italian": {
+          "name": "Geryon sconfitto",
+          "description": "Hai sconfitto Geryon."
+        },
+        "japanese": {
+          "name": "さらに力を合わせて",
+          "description": "ゲリュオンを倒した。"
+        },
+        "schinese": {
+          "name": "齐心协力",
+          "description": "击败格里昂"
+        },
+        "spanish": {
+          "name": "Geryon derrotado",
+          "description": "Derrotaste a Geryon."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement055": {
+      "translations": {
+        "english": {
+          "name": "Defeated Proto-Babil",
+          "description": "You defeated Proto-Babil."
+        },
+        "french": {
+          "name": "Proto-Babil vaincu",
+          "description": "Vous avez vaincu le Proto-Babil."
+        },
+        "german": {
+          "name": "Proto-Babil besiegt",
+          "description": "Du hast Proto-Babil besiegt."
+        },
+        "italian": {
+          "name": "Proto-Babil sconfitto",
+          "description": "Hai sconfitto Proto-Babil."
+        },
+        "japanese": {
+          "name": "システム完全停止",
+          "description": "プロトバブイルを倒した。"
+        },
+        "schinese": {
+          "name": "系统崩溃",
+          "description": "击败巴別巨人"
+        },
+        "spanish": {
+          "name": "Proto-Babil derrotado",
+          "description": "Derrotaste a Proto-Babil."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement056": {
+      "translations": {
+        "english": {
+          "name": "Developers' Pal",
+          "description": "You talked to everybody in the Developers' Office."
+        },
+        "french": {
+          "name": "Copain du développeur",
+          "description": "Vous avez parlé à tout le monde dans le bureau de l'équipe de développement."
+        },
+        "german": {
+          "name": "Entwicklers Freund",
+          "description": "Du hast mit allen im Entwicklerbüro gesprochen."
+        },
+        "italian": {
+          "name": "Amico degli sviluppatori",
+          "description": "Hai parlato con tutti nell'Ufficio degli sviluppatori."
+        },
+        "japanese": {
+          "name": "開発者の友達",
+          "description": "開発室にいる全ての人に話しかけた。"
+        },
+        "schinese": {
+          "name": "开发者之友",
+          "description": "与开发室里的所有人都进行了对话"
+        },
+        "spanish": {
+          "name": "Colega de los desarrolladores",
+          "description": "Hablaste con todos en la oficina de desarrolladores."
+        }
+      }
+    },
+    "com.square_enix.ff4_achievement057": {
+      "translations": {
+        "english": {
+          "name": "FINAL FANTASY IV Master",
+          "description": "You earned all achievements."
+        },
+        "french": {
+          "name": "Maître de FINAL FANTASY IV",
+          "description": "Vous avez remporté toutes les réalisations."
+        },
+        "german": {
+          "name": "FINAL FANTASY IV-Meister",
+          "description": "Du hast alle Erfolge geschafft."
+        },
+        "italian": {
+          "name": "Maestro di FINAL FANTASY IV",
+          "description": "Hai raggiunto tutti gli obiettivi."
+        },
+        "japanese": {
+          "name": "キングオブＦＦ４",
+          "description": "全ての達成項目をコンプリートした。"
+        },
+        "schinese": {
+          "name": "游戏大师",
+          "description": "获得了所有成就"
+        },
+        "spanish": {
+          "name": "Genio de FINAL FANTASY IV",
+          "description": "Conseguiste todos los logros."
+        }
+      }
+    }
+  }
+}

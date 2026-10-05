@@ -1,0 +1,834 @@
+{
+  "version": 1,
+  "app_id": "351710",
+  "variant_id": "default",
+  "source_sha256": "c3ff4b338b891f51358d44d9fff421d7dff5223c9854b61d899ea9eccf6d47d4",
+  "languages": [
+    "english",
+    "japanese",
+    "schinese",
+    "tchinese"
+  ],
+  "achievements": {
+    "ACHIEVEMENT_000": {
+      "translations": {
+        "english": {
+          "name": "Gamindustri's Ultimate Savior",
+          "description": "You played so much, everyone now agrees that Nepgear is a good main character, too!"
+        },
+        "japanese": {
+          "name": "超次次元ゲイム ネプテューヌRe;Birth2 マスター",
+          "description": "超次次元ゲイム ネプテューヌRe;Birth2 SISTERS GENERATIONを遊びつくした"
+        },
+        "schinese": {
+          "name": "《超次次元游戏 战机少女 重生2》大师",
+          "description": "体验《超次次元游戏 战机少女 重生2》的一切"
+        },
+        "tchinese": {
+          "name": "《超次次元遊戲 戰機少女 重生2》大師",
+          "description": "體驗《超次次元遊戲 戰機少女 重生2》的一切"
+        }
+      }
+    },
+    "ACHIEVEMENT_001": {
+      "translations": {
+        "english": {
+          "name": "Nepgear's Journey, Start!",
+          "description": "You began your adventure."
+        },
+        "japanese": {
+          "name": "ネプギア起動",
+          "description": "ＮＥＷ ＧＡＭＥを選択してゲームを開始した"
+        },
+        "schinese": {
+          "name": "妮普吉雅启动",
+          "description": "选择NEW GAME开始游戏"
+        },
+        "tchinese": {
+          "name": "妮普吉雅啟動",
+          "description": "選擇ＮＥＷ ＧＡＭＥ開始遊戲"
+        }
+      }
+    },
+    "ACHIEVEMENT_002": {
+      "translations": {
+        "english": {
+          "name": "Lastation's CPU Candidate",
+          "description": "You have met Uni."
+        },
+        "japanese": {
+          "name": "ラステイションの女神候補生",
+          "description": "ユニと出会った"
+        },
+        "schinese": {
+          "name": "拉士帖森的女神候补生",
+          "description": "遇到优尼"
+        },
+        "tchinese": {
+          "name": "拉士帖森的女神候補生",
+          "description": "遇到優尼"
+        }
+      }
+    },
+    "ACHIEVEMENT_003": {
+      "translations": {
+        "english": {
+          "name": "Lowee's CPU Candidate",
+          "description": "You have met Rom and Ram."
+        },
+        "japanese": {
+          "name": "ルウィーの女神候補生",
+          "description": "ロム＆ラムと出会った"
+        },
+        "schinese": {
+          "name": "路威的女神候补生",
+          "description": "遇到萝姆＆兰姆"
+        },
+        "tchinese": {
+          "name": "路威的女神候補生",
+          "description": "遇到蘿姆＆蘭姆"
+        }
+      }
+    },
+    "ACHIEVEMENT_004": {
+      "translations": {
+        "english": {
+          "name": "Chapter 1 Cleared",
+          "description": "Cleared Chapter 1."
+        },
+        "japanese": {
+          "name": "１章クリア",
+          "description": "１章をクリアした"
+        },
+        "schinese": {
+          "name": "完成第1章",
+          "description": "完成游戏的第1章"
+        },
+        "tchinese": {
+          "name": "完成第１章",
+          "description": "完成遊戲的第１章"
+        }
+      }
+    },
+    "ACHIEVEMENT_005": {
+      "translations": {
+        "english": {
+          "name": "Chapter 2 Cleared",
+          "description": "Cleared Chapter 2."
+        },
+        "japanese": {
+          "name": "２章クリア",
+          "description": "２章をクリアした"
+        },
+        "schinese": {
+          "name": "完成第2章",
+          "description": "完成游戏的第2章"
+        },
+        "tchinese": {
+          "name": "完成第２章",
+          "description": "完成遊戲的第２章"
+        }
+      }
+    },
+    "ACHIEVEMENT_006": {
+      "translations": {
+        "english": {
+          "name": "Chapter 3 Cleared",
+          "description": "Cleared Chapter 3."
+        },
+        "japanese": {
+          "name": "３章クリア",
+          "description": "３章をクリアした"
+        },
+        "schinese": {
+          "name": "完成第3章",
+          "description": "完成游戏的第3章"
+        },
+        "tchinese": {
+          "name": "完成第３章",
+          "description": "完成遊戲的第３章"
+        }
+      }
+    },
+    "ACHIEVEMENT_007": {
+      "translations": {
+        "english": {
+          "name": "Chapter 4 Cleared",
+          "description": "Cleared Chapter 4."
+        },
+        "japanese": {
+          "name": "４章クリア",
+          "description": "４章をクリアした"
+        },
+        "schinese": {
+          "name": "完成第4章",
+          "description": "完成游戏的第4章"
+        },
+        "tchinese": {
+          "name": "完成第４章",
+          "description": "完成遊戲的第４章"
+        }
+      }
+    },
+    "ACHIEVEMENT_008": {
+      "translations": {
+        "english": {
+          "name": "Chapter 5 Cleared",
+          "description": "Cleared Chapter 5."
+        },
+        "japanese": {
+          "name": "５章クリア",
+          "description": "５章をクリアした"
+        },
+        "schinese": {
+          "name": "完成第5章",
+          "description": "完成游戏的第5章"
+        },
+        "tchinese": {
+          "name": "完成第５章",
+          "description": "完成遊戲的第５章"
+        }
+      }
+    },
+    "ACHIEVEMENT_009": {
+      "translations": {
+        "english": {
+          "name": "Chapter 6 Cleared",
+          "description": "Cleared Chapter 6."
+        },
+        "japanese": {
+          "name": "６章クリア",
+          "description": "６章をクリアした"
+        },
+        "schinese": {
+          "name": "完成第6章",
+          "description": "完成游戏的第6章"
+        },
+        "tchinese": {
+          "name": "完成第６章",
+          "description": "完成遊戲的第６章"
+        }
+      }
+    },
+    "ACHIEVEMENT_010": {
+      "translations": {
+        "english": {
+          "name": "Chapter 7 Cleared",
+          "description": "Cleared Chapter 7."
+        },
+        "japanese": {
+          "name": "７章クリア",
+          "description": "７章をクリアした"
+        },
+        "schinese": {
+          "name": "完成第7章",
+          "description": "完成游戏的第7章"
+        },
+        "tchinese": {
+          "name": "完成第７章",
+          "description": "完成遊戲的第７章"
+        }
+      }
+    },
+    "ACHIEVEMENT_011": {
+      "translations": {
+        "english": {
+          "name": "Nepgear's Awakening",
+          "description": "Nepgear's HDD version has been powered up!"
+        },
+        "japanese": {
+          "name": "覚醒・ネプギア",
+          "description": "ネプギアがパワーアップした"
+        },
+        "schinese": {
+          "name": "觉醒·妮普吉雅",
+          "description": "妮普吉雅强化"
+        },
+        "tchinese": {
+          "name": "覺醒·妮普吉雅",
+          "description": "妮普吉雅強化"
+        }
+      }
+    },
+    "ACHIEVEMENT_012": {
+      "translations": {
+        "english": {
+          "name": "Uni's Awakening",
+          "description": "Uni's HDD version has been powered up!"
+        },
+        "japanese": {
+          "name": "覚醒・ユニ",
+          "description": "ユニがパワーアップした"
+        },
+        "schinese": {
+          "name": "觉醒·优尼",
+          "description": "优尼强化"
+        },
+        "tchinese": {
+          "name": "覺醒·優尼",
+          "description": "優尼強化"
+        }
+      }
+    },
+    "ACHIEVEMENT_013": {
+      "translations": {
+        "english": {
+          "name": "Rom's & Ram's Awakening",
+          "description": "Rom's and Ram's HDD versions have been powered up!"
+        },
+        "japanese": {
+          "name": "覚醒・ロム＆ラム",
+          "description": "ロム＆ラムがパワーアップした"
+        },
+        "schinese": {
+          "name": "觉醒·萝姆＆兰姆",
+          "description": "萝姆＆兰姆强化"
+        },
+        "tchinese": {
+          "name": "覺醒·蘿姆＆蘭姆",
+          "description": "蘿姆＆蘭姆強化"
+        }
+      }
+    },
+    "ACHIEVEMENT_014": {
+      "translations": {
+        "english": {
+          "name": "Rehabilitation",
+          "description": "Engaged in your first random encounter."
+        },
+        "japanese": {
+          "name": "リハビリ",
+          "description": "初めて戦闘を行った"
+        },
+        "schinese": {
+          "name": "复健",
+          "description": "完成初次战斗"
+        },
+        "tchinese": {
+          "name": "復健",
+          "description": "完成初次戰鬥"
+        }
+      }
+    },
+    "ACHIEVEMENT_015": {
+      "translations": {
+        "english": {
+          "name": "Fully Experienced",
+          "description": "Fought 100 battles."
+        },
+        "japanese": {
+          "name": "百戦錬磨",
+          "description": "１００回戦闘を行った"
+        },
+        "schinese": {
+          "name": "身经百战",
+          "description": "进行100次战斗"
+        },
+        "tchinese": {
+          "name": "身經百戰",
+          "description": "進行100次戰鬥"
+        }
+      }
+    },
+    "ACHIEVEMENT_016": {
+      "translations": {
+        "english": {
+          "name": "Battle Master",
+          "description": "Fought 500 battles."
+        },
+        "japanese": {
+          "name": "バトルマスター",
+          "description": "５００回戦闘を行った"
+        },
+        "schinese": {
+          "name": "战斗大师",
+          "description": "进行500次战斗"
+        },
+        "tchinese": {
+          "name": "戰鬥大師",
+          "description": "進行500次戰鬥"
+        }
+      }
+    },
+    "ACHIEVEMENT_017": {
+      "translations": {
+        "english": {
+          "name": "Combos",
+          "description": "Performed an 80-hit combo."
+        },
+        "japanese": {
+          "name": "連続コンボ",
+          "description": "オリジナルコンボで８０ＨＩＴを達成した"
+        },
+        "schinese": {
+          "name": "连续连击",
+          "description": "用独创连击完成80HIT"
+        },
+        "tchinese": {
+          "name": "連續連段",
+          "description": "用獨創連段完成８０ＨＩＴ"
+        }
+      }
+    },
+    "ACHIEVEMENT_018": {
+      "translations": {
+        "english": {
+          "name": "Combo Maker",
+          "description": "Created your own original combo setup."
+        },
+        "japanese": {
+          "name": "コンボメイク",
+          "description": "オリジナルのコンボを作った"
+        },
+        "schinese": {
+          "name": "自创连击",
+          "description": "创作独创连击"
+        },
+        "tchinese": {
+          "name": "自創連段",
+          "description": "創作獨創連段"
+        }
+      }
+    },
+    "ACHIEVEMENT_019": {
+      "translations": {
+        "english": {
+          "name": "Stella's First ☆ Dungeon",
+          "description": "Made use of Stella's ☆ Dungeon for the first time."
+        },
+        "japanese": {
+          "name": "はじめてのなりゆき☆ダンジョン",
+          "description": "なりゆき☆ダンジョンを初めて冒険した"
+        },
+        "schinese": {
+          "name": "初次体验随心所欲☆大探险",
+          "description": "初次体验随心所欲☆大探险"
+        },
+        "tchinese": {
+          "name": "初次體驗隨心所欲☆大探險",
+          "description": "初次體驗隨心所欲☆大探險"
+        }
+      }
+    },
+    "ACHIEVEMENT_020": {
+      "translations": {
+        "english": {
+          "name": "100 Million Credits",
+          "description": "Obtained a total of 100 million Credits."
+        },
+        "japanese": {
+          "name": "総獲得金額１億",
+          "description": "累計で１億クレジット稼いだ"
+        },
+        "schinese": {
+          "name": "累积获得一亿金钱",
+          "description": "累积获得一亿信用点"
+        },
+        "tchinese": {
+          "name": "累積獲得一億金錢",
+          "description": "累積獲得一億信用點"
+        }
+      }
+    },
+    "ACHIEVEMENT_021": {
+      "translations": {
+        "english": {
+          "name": "Game Creator",
+          "description": "Created your first Game Disc."
+        },
+        "japanese": {
+          "name": "ゲームクリエイター",
+          "description": "ディスクメイクを行った"
+        },
+        "schinese": {
+          "name": "游戏创造者",
+          "description": "制作一张游戏光碟"
+        },
+        "tchinese": {
+          "name": "遊戲創造者",
+          "description": "製作一張遊戲光碟"
+        }
+      }
+    },
+    "ACHIEVEMENT_022": {
+      "translations": {
+        "english": {
+          "name": "Game Remake",
+          "description": "Used the Remake System for the first time."
+        },
+        "japanese": {
+          "name": "ゲームリメイク",
+          "description": "リメイクシステムを行った"
+        },
+        "schinese": {
+          "name": "游戏重制者",
+          "description": "执行重制系统"
+        },
+        "tchinese": {
+          "name": "遊戲重製者",
+          "description": "執行重製系統"
+        }
+      }
+    },
+    "ACHIEVEMENT_023": {
+      "translations": {
+        "english": {
+          "name": "Maximum Firepower",
+          "description": "Inflicted over 100,000 points of damage."
+        },
+        "japanese": {
+          "name": "最大火力",
+          "description": "最大ダメージで１０万を達成した"
+        },
+        "schinese": {
+          "name": "最大火力",
+          "description": "最大伤害值达到十万"
+        },
+        "tchinese": {
+          "name": "最大火力",
+          "description": "最大損傷值達到十萬"
+        }
+      }
+    },
+    "ACHIEVEMENT_024": {
+      "translations": {
+        "english": {
+          "name": "To The Limit",
+          "description": "All characters have attained Level 99."
+        },
+        "japanese": {
+          "name": "カンスト",
+          "description": "全キャラのレベルが９９になった"
+        },
+        "schinese": {
+          "name": "最高等级",
+          "description": "将所有角色的等级升至99"
+        },
+        "tchinese": {
+          "name": "最高等級",
+          "description": "將所有角色的等級升至９９"
+        }
+      }
+    },
+    "ACHIEVEMENT_025": {
+      "translations": {
+        "english": {
+          "name": "Game Planner",
+          "description": "Discovered 200 Plans."
+        },
+        "japanese": {
+          "name": "ゲームプランナー",
+          "description": "仕様書を２００種類組み込んだ"
+        },
+        "schinese": {
+          "name": "游戏设计者",
+          "description": "应用200种制作书"
+        },
+        "tchinese": {
+          "name": "遊戲設計者",
+          "description": "應用２００種製作書"
+        }
+      }
+    },
+    "ACHIEVEMENT_026": {
+      "translations": {
+        "english": {
+          "name": "Dungeon Master",
+          "description": "Cleared all Stella's ☆ Dungeon levels."
+        },
+        "japanese": {
+          "name": "ダンジョンマスター",
+          "description": "なりゆき☆ダンジョンのすべてのダンジョンを踏破した"
+        },
+        "schinese": {
+          "name": "迷宫大师",
+          "description": "完成随心所欲☆大探险的所有迷宫"
+        },
+        "tchinese": {
+          "name": "迷宮大師",
+          "description": "完成隨心所欲☆大探險的所有迷宮"
+        }
+      }
+    },
+    "ACHIEVEMENT_027": {
+      "translations": {
+        "english": {
+          "name": "Histoire",
+          "description": "Histoire joined the party."
+        },
+        "japanese": {
+          "name": "イストワール",
+          "description": "イストワールがパーティーイン"
+        },
+        "schinese": {
+          "name": "伊丝特娲儿",
+          "description": "伊丝特娲儿加入队伍"
+        },
+        "tchinese": {
+          "name": "伊絲特媧兒",
+          "description": "伊絲特媧兒加入隊伍"
+        }
+      }
+    },
+    "ACHIEVEMENT_028": {
+      "translations": {
+        "english": {
+          "name": "Kei Jinguji",
+          "description": "Kei Jinguji joined the party."
+        },
+        "japanese": {
+          "name": "神宮寺ケイ",
+          "description": "神宮寺ケイがパーティーイン"
+        },
+        "schinese": {
+          "name": "神宫寺惠",
+          "description": "神宫寺惠加入队伍"
+        },
+        "tchinese": {
+          "name": "神宮寺惠",
+          "description": "神宮寺惠加入隊伍"
+        }
+      }
+    },
+    "ACHIEVEMENT_029": {
+      "translations": {
+        "english": {
+          "name": "Mina Nishizawa",
+          "description": "Mina Nishizawa joined the party."
+        },
+        "japanese": {
+          "name": "西沢ミナ",
+          "description": "西沢ミナがパーティーイン"
+        },
+        "schinese": {
+          "name": "西泽美奈",
+          "description": "西泽美奈加入队伍"
+        },
+        "tchinese": {
+          "name": "西澤美奈",
+          "description": "西澤美奈加入隊伍"
+        }
+      }
+    },
+    "ACHIEVEMENT_030": {
+      "translations": {
+        "english": {
+          "name": "Chika Hakozaki",
+          "description": "Chika Hakozaki joined the party."
+        },
+        "japanese": {
+          "name": "箱崎チカ",
+          "description": "箱崎チカがパーティーイン"
+        },
+        "schinese": {
+          "name": "箱崎千香",
+          "description": "箱崎千香加入队伍"
+        },
+        "tchinese": {
+          "name": "箱崎千香",
+          "description": "箱崎千香加入隊伍"
+        }
+      }
+    },
+    "ACHIEVEMENT_031": {
+      "translations": {
+        "english": {
+          "name": "Normal End",
+          "description": "Watched the Normal Ending."
+        },
+        "japanese": {
+          "name": "ノーマルエンド",
+          "description": "ノーマルエンディングを見た"
+        },
+        "schinese": {
+          "name": "普通结局",
+          "description": "观赏普通结局"
+        },
+        "tchinese": {
+          "name": "普通結局",
+          "description": "觀賞普通結局"
+        }
+      }
+    },
+    "ACHIEVEMENT_032": {
+      "translations": {
+        "english": {
+          "name": "Human End",
+          "description": "Watched the Human Ending."
+        },
+        "japanese": {
+          "name": "メーカーエンド",
+          "description": "メーカーエンディングを見た"
+        },
+        "schinese": {
+          "name": "厂商角色结局",
+          "description": "观赏厂商角色结局"
+        },
+        "tchinese": {
+          "name": "廠商角色結局",
+          "description": "觀賞廠商角色結局"
+        }
+      }
+    },
+    "ACHIEVEMENT_033": {
+      "translations": {
+        "english": {
+          "name": "Planeptune End",
+          "description": "Watched the Planeptune Ending."
+        },
+        "japanese": {
+          "name": "プラネテューヌエンド",
+          "description": "プラネテューヌエンディングを見た"
+        },
+        "schinese": {
+          "name": "普剌尼禔努结局",
+          "description": "观赏普剌尼禔努结局"
+        },
+        "tchinese": {
+          "name": "普剌尼禔努結局",
+          "description": "觀賞普剌尼禔努結局"
+        }
+      }
+    },
+    "ACHIEVEMENT_034": {
+      "translations": {
+        "english": {
+          "name": "Leanbox End",
+          "description": "Watched the Leanbox Ending."
+        },
+        "japanese": {
+          "name": "リーンボックスエンド",
+          "description": "リーンボックスエンディングを見た"
+        },
+        "schinese": {
+          "name": "琳柏克斯结局",
+          "description": "观赏琳柏克斯结局"
+        },
+        "tchinese": {
+          "name": "琳柏克斯結局",
+          "description": "觀賞琳柏克斯結局"
+        }
+      }
+    },
+    "ACHIEVEMENT_035": {
+      "translations": {
+        "english": {
+          "name": "Lastation End",
+          "description": "Watched the Lastation Ending."
+        },
+        "japanese": {
+          "name": "ラステイションエンド",
+          "description": "ラステイションエンディングを見た"
+        },
+        "schinese": {
+          "name": "拉士帖森结局",
+          "description": "观赏拉士帖森结局"
+        },
+        "tchinese": {
+          "name": "拉士帖森結局",
+          "description": "觀賞拉士帖森結局"
+        }
+      }
+    },
+    "ACHIEVEMENT_036": {
+      "translations": {
+        "english": {
+          "name": "Lowee End",
+          "description": "Watched the Lowee Ending."
+        },
+        "japanese": {
+          "name": "ルウィーエンド",
+          "description": "ルウィーエンディングを見た"
+        },
+        "schinese": {
+          "name": "路威结局",
+          "description": "观赏路威结局"
+        },
+        "tchinese": {
+          "name": "路威結局",
+          "description": "觀賞路威結局"
+        }
+      }
+    },
+    "ACHIEVEMENT_037": {
+      "translations": {
+        "english": {
+          "name": "Delphinus",
+          "description": "Defeated the hidden boss, Delphinus."
+        },
+        "japanese": {
+          "name": "デルフィナス",
+          "description": "隠しボスのデルフィナスを倒した"
+        },
+        "schinese": {
+          "name": "戴菲努斯",
+          "description": "打败隐藏头目戴菲努斯"
+        },
+        "tchinese": {
+          "name": "戴菲努斯",
+          "description": "打敗隱藏頭目戴菲努斯"
+        }
+      }
+    },
+    "ACHIEVEMENT_038": {
+      "translations": {
+        "english": {
+          "name": "Conquest Ending",
+          "description": "Watched the Conquest Ending."
+        },
+        "japanese": {
+          "name": "支配エンディング",
+          "description": "支配エンディングを見た"
+        },
+        "schinese": {
+          "name": "支配结局",
+          "description": "观赏支配结局"
+        },
+        "tchinese": {
+          "name": "支配結局",
+          "description": "觀賞支配結局"
+        }
+      }
+    },
+    "ACHIEVEMENT_039": {
+      "translations": {
+        "english": {
+          "name": "Holy Sword Ending",
+          "description": "Watched the Holy Sword Ending."
+        },
+        "japanese": {
+          "name": "聖剣エンディング",
+          "description": "聖剣エンディングを見た"
+        },
+        "schinese": {
+          "name": "圣剑结局",
+          "description": "观赏圣剑结局"
+        },
+        "tchinese": {
+          "name": "聖劍結局",
+          "description": "觀賞聖劍結局"
+        }
+      }
+    },
+    "ACHIEVEMENT_040": {
+      "translations": {
+        "english": {
+          "name": "True Ending",
+          "description": "Watched the True Ending."
+        },
+        "japanese": {
+          "name": "真エンディング",
+          "description": "真エンディングを見た"
+        },
+        "schinese": {
+          "name": "真结局",
+          "description": "观赏真结局"
+        },
+        "tchinese": {
+          "name": "真結局",
+          "description": "觀賞真結局"
+        }
+      }
+    }
+  }
+}

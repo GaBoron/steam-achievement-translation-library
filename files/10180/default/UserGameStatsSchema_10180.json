@@ -1,0 +1,1818 @@
+{
+  "version": 1,
+  "app_id": "10180",
+  "variant_id": "default",
+  "source_sha256": "2ae2e821a1aba94835935fdf3c08e0a3d47753da3530af92685ccc9c15b06e33",
+  "languages": [
+    "english",
+    "german",
+    "italian",
+    "japanese",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "BACK_IN_THE_SADDLE": {
+      "translations": {
+        "english": {
+          "name": "Back in the Saddle",
+          "description": "Help train the local militia."
+        },
+        "german": {
+          "name": "Zurück im Sattel",
+          "description": "Helfen Sie, die örtliche Miliz auszubilden."
+        },
+        "italian": {
+          "name": "Di nuovo in sella",
+          "description": "Aiuta ad addestrare la milizia locale."
+        },
+        "japanese": {
+          "name": "復職",
+          "description": "兵士の現地訓練を手伝う。"
+        },
+        "polish": {
+          "name": "Z powrotem w siodle",
+          "description": "Pomóż w szkoleniu milicji"
+        },
+        "russian": {
+          "name": "Возвращение в строй",
+          "description": "Принять участие в тренировке местного ополчения."
+        },
+        "schinese": {
+          "name": "重操旧业",
+          "description": "协助培训当地民兵。"
+        },
+        "spanish": {
+          "name": "De nuevo en acción",
+          "description": "Adiestra a la milicia local."
+        }
+      }
+    },
+    "DANGER_CLOSE": {
+      "translations": {
+        "english": {
+          "name": "Danger Close",
+          "description": "Get hand picked for Shepherd's elite squad."
+        },
+        "german": {
+          "name": "Direkte Gefahr",
+          "description": "Werden Sie für Shepherds Elitetruppe ausgewählt."
+        },
+        "italian": {
+          "name": "Pericolo in avvicinamento",
+          "description": "Fatti scegliere per la squadra d'élite di Shepherd."
+        },
+        "japanese": {
+          "name": "危険察知",
+          "description": "シェパードのエリート部隊に選抜される。"
+        },
+        "polish": {
+          "name": "Bliskie zagrożenie",
+          "description": "Zostań wybrany do elitarnego oddziału Shepherda."
+        },
+        "russian": {
+          "name": "Взрывная волна",
+          "description": "Пройти отбор в элитный отряд Шепарда."
+        },
+        "schinese": {
+          "name": "近距炮火",
+          "description": "被谢菲尔德选入精英部队。"
+        },
+        "spanish": {
+          "name": "Peligro cercano",
+          "description": "Haz que te escojan para el pelotón de Shepherd."
+        }
+      }
+    },
+    "COLD_SHOULDER": {
+      "translations": {
+        "english": {
+          "name": "Cold Shoulder",
+          "description": "Infiltrate the snowy mountain side base."
+        },
+        "german": {
+          "name": "Kalte Schulter",
+          "description": "Infiltrieren Sie die verschneite Bergbasis."
+        },
+        "italian": {
+          "name": "Sangue freddo",
+          "description": "Infiltrati nella base nella montagna innevata."
+        },
+        "japanese": {
+          "name": "冷たいもてなし",
+          "description": "雪深い山裾の基地に潜入する。"
+        },
+        "polish": {
+          "name": "Oziębienie",
+          "description": "Przedostań się do bazy znajdującej się w ośnieżonej górze."
+        },
+        "russian": {
+          "name": "Холодный расчет",
+          "description": "Проникните на заснеженную базу."
+        },
+        "schinese": {
+          "name": "冷眼旁观",
+          "description": "渗透进入被大雪覆盖的山腰基地。"
+        },
+        "spanish": {
+          "name": "Recibimiento frío",
+          "description": "Infíltrate en la base de la ladera nevada."
+        }
+      }
+    },
+    "TAGEM_AND_BAGEM": {
+      "translations": {
+        "english": {
+          "name": "Tag 'em and bag 'em",
+          "description": "Find Rojas in the Favelas."
+        },
+        "german": {
+          "name": "Hab dich",
+          "description": "Finden Sie Rojas im Elendsviertel."
+        },
+        "italian": {
+          "name": "Registrali e ficcali nel sacco",
+          "description": "Trova Rojas nelle favelas."
+        },
+        "japanese": {
+          "name": "追跡と捕獲",
+          "description": "ファベーラでロハスを見つける。"
+        },
+        "polish": {
+          "name": "Odszukaj i zabij",
+          "description": "Znajdź Rojasa w faveli."
+        },
+        "russian": {
+          "name": "В хвост и в гриву",
+          "description": "Найти Рохаса в трущобах."
+        },
+        "schinese": {
+          "name": "打包带走",
+          "description": "在贫民窟找到罗哈斯。"
+        },
+        "spanish": {
+          "name": "Cárgatelos y embólsalos",
+          "description": "Encuentra a Rojas en las favelas."
+        }
+      }
+    },
+    "ROYAL_WITH_CHEESE": {
+      "translations": {
+        "english": {
+          "name": "Royale with Cheese",
+          "description": "Defend Burger Town."
+        },
+        "german": {
+          "name": "Royal mit Käse.",
+          "description": "Verteidigen Sie das Burger Town."
+        },
+        "italian": {
+          "name": "Royale con formaggio",
+          "description": "Difendi Burger Town."
+        },
+        "japanese": {
+          "name": "チーズロワイヤル",
+          "description": "バーガータウンを守る。"
+        },
+        "polish": {
+          "name": "Royal z serem",
+          "description": "Obroń Burger Town."
+        },
+        "russian": {
+          "name": "Двойной чизбургер",
+          "description": "Защитить закусочную 'Бургер Таун'."
+        },
+        "schinese": {
+          "name": "皇家芝士",
+          "description": "守卫“汉堡城”。"
+        },
+        "spanish": {
+          "name": "Royale con queso",
+          "description": "Defiende el Burgertown."
+        }
+      }
+    },
+    "SOAP_ON_A_ROPE": {
+      "translations": {
+        "english": {
+          "name": "Soap on a Rope",
+          "description": "Storm the gulag."
+        },
+        "german": {
+          "name": "Soap am Seil.",
+          "description": "Stürmen Sie den Gulag."
+        },
+        "italian": {
+          "name": "Corda e sapone",
+          "description": "Conquista il gulag."
+        },
+        "japanese": {
+          "name": "ロープ上のソープ",
+          "description": "収容所を襲撃する。"
+        },
+        "polish": {
+          "name": "Soap na linie",
+          "description": "Zaatakuj Gułag."
+        },
+        "russian": {
+          "name": "Мыло на веревке",
+          "description": "Взять штурмом колонию."
+        },
+        "schinese": {
+          "name": "绝处逢“皂”",
+          "description": "勇闯劳改营。"
+        },
+        "spanish": {
+          "name": "Soap en apuros",
+          "description": "Asalta el gulag."
+        }
+      }
+    },
+    "DESPERATE_TIMES": {
+      "translations": {
+        "english": {
+          "name": "Desperate Times",
+          "description": "Execute the plan to help the Americans."
+        },
+        "german": {
+          "name": "Schlimme Zeiten",
+          "description": "Führen Sie den Plan aus, um den Amerikanern zu helfen."
+        },
+        "italian": {
+          "name": "Tempi disperati",
+          "description": "Esegui il piano per aiutare gli americani."
+        },
+        "japanese": {
+          "name": "非常事態",
+          "description": "アメリカ軍を支援する計画を実行する。"
+        },
+        "polish": {
+          "name": "Ciężkie czasy",
+          "description": "Wykonaj plan i pomóż Amerykanom."
+        },
+        "russian": {
+          "name": "Лихие времена",
+          "description": "Помочь американцам, выполнив план."
+        },
+        "schinese": {
+          "name": "孤注一掷",
+          "description": "执行协助美军的行动。"
+        },
+        "spanish": {
+          "name": "Tiempos desesperados",
+          "description": "Ejecuta el plan para ayudar a los americanos."
+        }
+      }
+    },
+    "HOUSTON_WE_HAVE_A_PROBLEM": {
+      "translations": {
+        "english": {
+          "name": "Whiskey Hotel",
+          "description": "Take back Whiskey Hotel."
+        },
+        "german": {
+          "name": "Weißes Haus",
+          "description": "Erobern Sie das Weiße Haus zurück."
+        },
+        "italian": {
+          "name": "Whiskey Hotel",
+          "description": "Riconquista Whiskey Hotel."
+        },
+        "japanese": {
+          "name": "ウイスキーホテル",
+          "description": "ウイスキーホテルを奪還する。"
+        },
+        "polish": {
+          "name": "Hotel Whiskey",
+          "description": "Odzyskaj hotel Whiskey."
+        },
+        "russian": {
+          "name": "Виски-Хоутел",
+          "description": "Восстановить контроль над объектом 'Виски-Хоутел'."
+        },
+        "schinese": {
+          "name": "威士忌酒店",
+          "description": "夺回白宫。"
+        },
+        "spanish": {
+          "name": "Whiskey Hotel",
+          "description": "Recupera Whiskey Hotel."
+        }
+      }
+    },
+    "THE_PAWN": {
+      "translations": {
+        "english": {
+          "name": "The Pawn",
+          "description": "Assault Makarov's safe house."
+        },
+        "german": {
+          "name": "Der Bauer",
+          "description": "Greifen Sie Makarovs Unterschlupf an."
+        },
+        "italian": {
+          "name": "La parola data",
+          "description": "Attacca il nascondiglio di Makarov."
+        },
+        "japanese": {
+          "name": "捨て駒",
+          "description": "マカロフの隠れ家を強襲する。"
+        },
+        "polish": {
+          "name": "Pionek",
+          "description": "Zaatakuj kryjówkę Makarowa."
+        },
+        "russian": {
+          "name": "Пешка",
+          "description": "Взять штурмом убежище Макарова."
+        },
+        "schinese": {
+          "name": "过河小兵",
+          "description": "突袭马卡洛夫的安全屋。"
+        },
+        "spanish": {
+          "name": "El títere",
+          "description": "Ataca el piso franco de Makarov."
+        }
+      }
+    },
+    "OUT_OF_THE_FRYING_PAN": {
+      "translations": {
+        "english": {
+          "name": "Out of the Frying Pan…",
+          "description": "Complete the mission in the airplane graveyard."
+        },
+        "german": {
+          "name": "Raus aus der Bratpfanne ...",
+          "description": "Beenden Sie die Mission auf dem Flugzeugfriedhof."
+        },
+        "italian": {
+          "name": "Dalla padella alla brace",
+          "description": "Completa la missione al cimitero degli aerei."
+        },
+        "japanese": {
+          "name": "一難去ってもう一難",
+          "description": "飛行機墓場でのミッションをクリアする。"
+        },
+        "polish": {
+          "name": "Z deszczu pod...",
+          "description": "Wykonaj misję na złomowisku samolotów."
+        },
+        "russian": {
+          "name": "Из огня...",
+          "description": "Выполнить задание на кладбище самолетов."
+        },
+        "schinese": {
+          "name": "刚出狼窝……",
+          "description": "完成飞机坟场任务。"
+        },
+        "spanish": {
+          "name": "De la sartén a las brasas",
+          "description": "Completa la misión en el cementerio de aviones."
+        }
+      }
+    },
+    "FOR_THE_RECORD": {
+      "translations": {
+        "english": {
+          "name": "For the Record",
+          "description": "Complete the Single Player campaign on any difficulty."
+        },
+        "german": {
+          "name": "Für die Akten",
+          "description": "Beenden Sie die Einzelspielerkampagne auf einem beliebigen Schwierigkeitsgrad."
+        },
+        "italian": {
+          "name": "Per la cronaca",
+          "description": "Completa la campagna Giocatore singolo a qualsiasi livello."
+        },
+        "japanese": {
+          "name": "歴史を記すもの",
+          "description": "難易度に関わらず、シングルプレイヤーのキャンペーンをクリア。"
+        },
+        "polish": {
+          "name": "Do akt",
+          "description": "Ukończ kampanię dla jednego gracza na dowolnym poziomie trudności."
+        },
+        "russian": {
+          "name": "Личное дело",
+          "description": "Завершить кампанию индивидуальной игры на любом уровне сложности."
+        },
+        "schinese": {
+          "name": "我们的故事",
+          "description": "在任何难度下完成单人游戏战役。"
+        },
+        "spanish": {
+          "name": "Para que conste",
+          "description": "Completa la campaña individual en cualquier dificultad."
+        }
+      }
+    },
+    "THE_PRICE_OF_WAR": {
+      "translations": {
+        "english": {
+          "name": "The Price of War",
+          "description": "Complete the single player campaign on Hardened or Veteran Difficulty."
+        },
+        "german": {
+          "name": "Der Preis des Krieges",
+          "description": "Beenden Sie die Einzelspielerkampagne auf dem Schwierigkeitsgrad Söldner oder Veteran."
+        },
+        "italian": {
+          "name": "Il prezzo della guerra",
+          "description": "Completa la campagna Giocatore singolo a livello Esperto o Veterano."
+        },
+        "japanese": {
+          "name": "戦いの代償",
+          "description": "ハードもしくはベテランの難易度で、シングルプレイヤー・キャンペーンをクリア。"
+        },
+        "polish": {
+          "name": "Cena wojny",
+          "description": "Ukończ kampanię dla jednego gracza na poziomie Doświadczony lub Weteran."
+        },
+        "russian": {
+          "name": "Цена войны",
+          "description": "Завершить кампанию индивидуальной игры на уровне сложности 'Офицер' или 'Ветеран'."
+        },
+        "schinese": {
+          "name": "战争代价",
+          "description": "在熟练或老兵难度下完成单人游戏战役。"
+        },
+        "spanish": {
+          "name": "El precio de la guerra",
+          "description": "Completa la campaña individual en dificultad curtido o veterano."
+        }
+      }
+    },
+    "FIRST_DAY_OF_SCHOOL": {
+      "translations": {
+        "english": {
+          "name": "First Day of School",
+          "description": "Complete 'S.S.D.D.' and 'Team Player' on Veteran Difficulty."
+        },
+        "german": {
+          "name": "Erster Schultag",
+          "description": "Beenden Sie 'Die alte Leier' und 'Team-Spieler' auf dem Schwierigkeitsgrad Veteran."
+        },
+        "italian": {
+          "name": "Primo giorno di scuola",
+          "description": "Completa 'Stessa merda, altro giorno' e 'Gioco di squadra' a livello Veterano."
+        },
+        "japanese": {
+          "name": "ぴかぴかの新入生",
+          "description": "「S.S.D.D. - いつもの戦場」および「チームプレイヤー」をベテランの難易度でクリア。"
+        },
+        "polish": {
+          "name": "Pierwszy dzień szkoły",
+          "description": "Ukończ 'S.J.C.D' i 'Gracz zespołowy' na poziomie Weteran."
+        },
+        "russian": {
+          "name": "Первоклассник",
+          "description": "Завершить эпизоды 'Т.Х.Д.Д.' и 'Командный игрок' на уровне сложности 'Ветеран'."
+        },
+        "schinese": {
+          "name": "开学日",
+          "description": "在老兵难度下完成「日常工作」和「团队合作」。"
+        },
+        "spanish": {
+          "name": "Primer día de clase",
+          "description": "Completa 'Otro día, la misma mierda' y 'Jugador de equipo' en dificultad veterano."
+        }
+      }
+    },
+    "BLACK_DIAMOND": {
+      "translations": {
+        "english": {
+          "name": "Black Diamond",
+          "description": "Complete 'Cliffhanger' on Veteran Difficulty."
+        },
+        "german": {
+          "name": "Schwarzer Diamant",
+          "description": "Beenden Sie 'Cliffhanger' auf dem Schwierigkeitsgrad Veteran."
+        },
+        "italian": {
+          "name": "Diamante nero",
+          "description": "Completa 'Cliffhanger' a livello Veterano."
+        },
+        "japanese": {
+          "name": "ブラック・ダイアモンド",
+          "description": "ベテランの難易度で「クリフハンガー」をクリア。"
+        },
+        "polish": {
+          "name": "Podstawowy typ gry",
+          "description": "Ukończ 'Alpinistę'  na poziomie Weteran."
+        },
+        "russian": {
+          "name": "Черный бриллиант",
+          "description": "Завершить эпизод 'Скалолаз' на уровне сложности 'Ветеран'."
+        },
+        "schinese": {
+          "name": "黑钻雪道",
+          "description": "在老兵难度下完成「巅峰战士」。"
+        },
+        "spanish": {
+          "name": "Diamante negro",
+          "description": "Completa 'Máximo riesgo' en dificultad veterano."
+        }
+      }
+    },
+    "TURISTAS": {
+      "translations": {
+        "english": {
+          "name": "Turistas",
+          "description": "Complete 'Takedown' and 'The Hornet's Nest' on Veteran Difficulty."
+        },
+        "german": {
+          "name": "Touristen",
+          "description": "Beenden Sie 'Zugriff' und 'Das Hornissennest' auf dem Schwierigkeitsgrad Veteran."
+        },
+        "italian": {
+          "name": "Turistas",
+          "description": "Completa 'Atterramento' e 'Vespaio' a livello Veterano."
+        },
+        "japanese": {
+          "name": "旅行者",
+          "description": "「テイクダウン」および「スズメバチの巣」をベテランの難易度でクリア。"
+        },
+        "polish": {
+          "name": "Turyści",
+          "description": "Ukończ 'Wejście' i 'Gniazdo szerszeni' na poziomie Weteran."
+        },
+        "russian": {
+          "name": "Туристы",
+          "description": "Завершить эпизоды 'Охота' и 'Осиное гнездо' на уровне сложности 'Ветеран'."
+        },
+        "schinese": {
+          "name": "巴西观光团",
+          "description": "在老兵难度下完成「追捕」和「马蜂窝」。"
+        },
+        "spanish": {
+          "name": "Turistas",
+          "description": "Completa 'Aterrizaje' y 'El avispero' en dificultad veterano."
+        }
+      }
+    },
+    "RED_DAWN": {
+      "translations": {
+        "english": {
+          "name": "Red Dawn",
+          "description": "Complete 'Wolverines!' and 'Exodus' on Veteran Difficulty."
+        },
+        "german": {
+          "name": "Roter Morgen",
+          "description": "Beenden Sie 'Wolverines!' und 'Exodus' auf dem Schwierigkeitsgrad Veteran."
+        },
+        "italian": {
+          "name": "Alba rossa",
+          "description": "Completa 'Wolverine!' e 'Esodo' a livello Veterano."
+        },
+        "japanese": {
+          "name": "赤い夜明け",
+          "description": "「バーガータウン」および「エクソダス」をベテランの難易度でクリア。"
+        },
+        "polish": {
+          "name": "Czerwony Świt",
+          "description": "Ukończ 'Rosomaki' i 'Eksodus' na poziomie Weteran."
+        },
+        "russian": {
+          "name": "Алый рассвет",
+          "description": "Завершить эпизоды 'Росомахи!' и 'Исход' на уровне сложности 'Ветеран'."
+        },
+        "schinese": {
+          "name": "赤色黎明",
+          "description": "在老兵难度下完成「我们是狼獾！」和「大撤退」。"
+        },
+        "spanish": {
+          "name": "Amanecer rojo",
+          "description": "Completa '¡Wolverines!' y 'Éxodo' en dificultad veterano."
+        }
+      }
+    },
+    "PRISONER_627": {
+      "translations": {
+        "english": {
+          "name": "Prisoner #627",
+          "description": "Complete 'The Only Easy Day... Was Yesterday' and 'The Gulag' on Veteran Difficulty."
+        },
+        "german": {
+          "name": "Gefangener 627",
+          "description": "Beenden Sie 'Der einzig schöne Tag ... war gestern' und 'Der Gulag' auf Veteran."
+        },
+        "italian": {
+          "name": "Prigioniero # 627",
+          "description": "Completa 'L'unico giorno facile... era ieri' e 'Il gulag' a livello Veterano."
+        },
+        "japanese": {
+          "name": "囚人#627",
+          "description": "「オンリー・イージー・デイ」および「収容者#627」をベテランの難易度でクリア。"
+        },
+        "polish": {
+          "name": "Więzień nr 627",
+          "description": "Ukończ 'Jedyny łatwy dzień... był wczoraj' i 'Gułag' na poziomie Weteran."
+        },
+        "russian": {
+          "name": "Заключенный №627",
+          "description": "Завершить эпизоды 'Отдыхать надо было вчера' и 'Колония' на уровне сложности 'Ветеран'."
+        },
+        "schinese": {
+          "name": "627号囚犯",
+          "description": "在老兵难度下完成「愈发艰难」和「勇闯劳改营」。"
+        },
+        "spanish": {
+          "name": "Prisionero 627",
+          "description": "Completa 'El único día sencillo... fue ayer' y 'El gulag' en dificultad veterano."
+        }
+      }
+    },
+    "ENDS_JUSTIFY_THE_MEANS": {
+      "translations": {
+        "english": {
+          "name": "Ends Justify the Means",
+          "description": "Complete 'Contingency' on Veteran Difficulty."
+        },
+        "german": {
+          "name": "Der Zweck heiligt die Mittel",
+          "description": "Beenden Sie 'Notfall' auf dem Schwierigkeitsgrad Veteran."
+        },
+        "italian": {
+          "name": "Il fine giustifica i mezzi",
+          "description": "Completa 'Imprevisto' a livello Veterano."
+        },
+        "japanese": {
+          "name": "正当化",
+          "description": "「偶発性」をベテランの難易度でクリア。"
+        },
+        "polish": {
+          "name": "Cel uświęca środki",
+          "description": "Ukończ 'Ewentualność' na poziomie Weteran."
+        },
+        "russian": {
+          "name": "Цель оправдывает средства",
+          "description": "Завершить эпизод 'Досадная случайность' на уровне сложности 'Ветеран'."
+        },
+        "schinese": {
+          "name": "不择手段",
+          "description": "在老兵难度下完成「特别手段」。"
+        },
+        "spanish": {
+          "name": "El fin justifica los medios",
+          "description": "Completa 'Contingencia' en dificultad veterano."
+        }
+      }
+    },
+    "HOME_COMING": {
+      "translations": {
+        "english": {
+          "name": "Homecoming",
+          "description": "Complete 'Of Their Own Accord', 'Second Sun', and 'Whiskey Hotel' on Veteran Difficulty."
+        },
+        "german": {
+          "name": "Heimkehr",
+          "description": "Beenden Sie 'Auf eigene Verantwortung', 'Zweite Sonne' und 'Das Weiße Haus' auf Veteran."
+        },
+        "italian": {
+          "name": "Ritorno a casa",
+          "description": "Completa 'Secondo le loro fonti', 'Il secondo sole' e 'Whiskey Hotel' a livello Veterano."
+        },
+        "japanese": {
+          "name": "帰郷",
+          "description": "「自らの意思」、「2つめの太陽」、「ウイスキーホテル」をベテランの難易度でクリア。"
+        },
+        "polish": {
+          "name": "Powrót do domu",
+          "description": "Ukończ 'Z własnej woli' i 'Drugie słońce' i 'Hotel Whiskey' na poziomie Weteran."
+        },
+        "russian": {
+          "name": "Путь домой",
+          "description": "Завершить эпизоды 'Отдыхать надо было вчера' и 'Колония' на уровне сложности 'Ветеран'."
+        },
+        "schinese": {
+          "name": "本土反攻",
+          "description": "在老兵难度下完成「自告奋勇」、「第二轮太阳」和「白宫」。"
+        },
+        "spanish": {
+          "name": "Vuelta a casa",
+          "description": "Completa 'Por propia voluntad', 'Segundo sol' y 'Whiskey Hotel' en dificultad veterano."
+        }
+      }
+    },
+    "QUEEN_TAKES_ROOK": {
+      "translations": {
+        "english": {
+          "name": "Queen takes Rook",
+          "description": "Complete 'Loose Ends' and 'The Enemy of My Enemy' on Veteran Difficulty."
+        },
+        "german": {
+          "name": "Dame schlägt Turm",
+          "description": "Beenden Sie 'Lose Enden' und 'Der Feind meines Feindes' auf dem Schwierigkeitsgrad Veteran."
+        },
+        "italian": {
+          "name": "La regina mangia la torre",
+          "description": "Completa 'Conti in sospeso' e 'Il nemico del mio nemico' a livello Veterano."
+        },
+        "japanese": {
+          "name": "チェックメイト",
+          "description": "「未決事項」および「敵の敵は」をベテランの難易度でクリア。"
+        },
+        "polish": {
+          "name": "Królowa bije wieżę",
+          "description": "Ukończ 'Niedokończone sprawy' i 'Wróg mojego wroga' na poziomie Weteran."
+        },
+        "russian": {
+          "name": "Ферзь бьет ладью",
+          "description": "Завершить эпизоды 'Неоконченные дела' и 'Враг моего врага' на уровне сложности 'Ветеран'."
+        },
+        "schinese": {
+          "name": "黑后吃车",
+          "description": "在老兵难度下完成「收拾残局」和「敌人的敌人」。"
+        },
+        "spanish": {
+          "name": "La reina se come a la torre",
+          "description": "Completa 'Cabos sueltos' y 'El enemigo de mi enemigo' en dificultad veterano."
+        }
+      }
+    },
+    "OFF_THE_GRID": {
+      "translations": {
+        "english": {
+          "name": "Off the Grid",
+          "description": "Complete 'Just Like Old Times' and 'Endgame' on Veteran Difficulty."
+        },
+        "german": {
+          "name": "Aussteiger",
+          "description": "Beenden Sie 'Wie in alten Zeiten' und 'Das Ende' auf Veteran."
+        },
+        "italian": {
+          "name": "Autarchia",
+          "description": "Completa 'Come ai vecchi tempi' e 'La fine' a livello Veterano."
+        },
+        "japanese": {
+          "name": "独自行動",
+          "description": "「ライク・オールドタイム」、「エンドゲーム」をベテランの難易度でクリア。"
+        },
+        "polish": {
+          "name": "Na własny rachunek",
+          "description": "Ukończ 'Jak za dawnych czasów' i 'Koniec gry' na poziomie Weteran."
+        },
+        "russian": {
+          "name": "Вне системы",
+          "description": "Завершить эпизоды 'Как в былые времена' и 'Финал' на сложности 'Ветеран'."
+        },
+        "schinese": {
+          "name": "消声匿迹",
+          "description": "在老兵难度下完成「犹如往日」和「曲终人散」。"
+        },
+        "spanish": {
+          "name": "Autosuficiente",
+          "description": "Completa 'Como en los viejos tiempos' y 'Fin de partida' en dificultad veterano."
+        }
+      }
+    },
+    "PIT_BOSS": {
+      "translations": {
+        "english": {
+          "name": "Pit Boss",
+          "description": "Run The Pit in 'S.S.D.D.' and finish with a final time under 30 seconds."
+        },
+        "german": {
+          "name": "Grubenarbeiter",
+          "description": "Rennen Sie durch 'Die Grube' in 'Die alte Leier' und beenden Sie den Parcours in unter 30 Sekunden."
+        },
+        "italian": {
+          "name": "Il direttore",
+          "description": "Percorri il pozzo in 'Stessa merda, altro giorno' e finisci sotto i 30 secondi."
+        },
+        "japanese": {
+          "name": "ピットボス",
+          "description": "「S.S.D.D. - いつもの戦場」でピットを走り、30秒以下のタイムでクリア。"
+        },
+        "polish": {
+          "name": "Szef Piekiełka",
+          "description": "Pokonaj Piekiełko w 'S.J.C.D' i uzyskaj czas ostateczny poniżej 30 sekund."
+        },
+        "russian": {
+          "name": "Герой Полигона",
+          "description": "Пройти Полигон в эпизоде 'Курс обучение' менее чем за 30 секунд."
+        },
+        "schinese": {
+          "name": "靶场主宰",
+          "description": "在「日常工作」的训练场中跑出30秒以内的成绩。"
+        },
+        "spanish": {
+          "name": "Jefe del foso",
+          "description": "Recorre el foso en 'Otro día, la misma mierda' y acaba en menos de 30 segundos."
+        }
+      }
+    },
+    "GHOST": {
+      "translations": {
+        "english": {
+          "name": "Ghost",
+          "description": "Plant the C4 in 'Cliffhanger' without alerting or injuring anyone in the blizzard."
+        },
+        "german": {
+          "name": "Geist",
+          "description": "Platzieren Sie in 'Cliffhanger' C4, ohne jemanden im Schneesturm zu verletzen oder zu alarmieren."
+        },
+        "italian": {
+          "name": "Ghost",
+          "description": "Piazza il C4 in 'Cliffhanger' senza allarmare o ferire nessuno nella tormenta."
+        },
+        "japanese": {
+          "name": "ゴースト",
+          "description": "「クリフハンガー」において、吹雪にまぎれて敵に気づかれず、また誰も傷つけることなくC4を設置する。"
+        },
+        "polish": {
+          "name": "Ghost",
+          "description": "Podłóż C4 w 'Alpiniście', nie alarmując, ani nie raniąc nikogo podczas zamieci śnieżnej."
+        },
+        "russian": {
+          "name": "Призрак",
+          "description": "Заложить заряд в эпизоде 'Скалолаз', не потревожив и не ранив ни одного противника."
+        },
+        "schinese": {
+          "name": "幽灵",
+          "description": "在「巅峰战士」中不惊动且不杀伤任何敌人，安放C4炸弹。"
+        },
+        "spanish": {
+          "name": "Fantasma",
+          "description": "Coloca el C4 en 'Máximo riesgo' sin alertar ni herir a nadie en la ventisca."
+        }
+      }
+    },
+    "COLONEL_SANDERSON": {
+      "translations": {
+        "english": {
+          "name": "Colonel Sanderson",
+          "description": "Kill 7 chickens in under 10 seconds in 'The Hornet's Nest'."
+        },
+        "german": {
+          "name": "Colonel Sanderson",
+          "description": "Erledigen Sie in 'Das Hornissennest' 7 Hühner in unter 10 Sekunden."
+        },
+        "italian": {
+          "name": "Polletto alla diavola",
+          "description": "Uccidi 7 galline in meno di 10 secondi in 'Vespaio'."
+        },
+        "japanese": {
+          "name": "サンダーソン大佐",
+          "description": "「スズメバチの巣」で、10秒以内に7羽のニワトリを殺す。"
+        },
+        "polish": {
+          "name": "Pułkownik Sanderson",
+          "description": "W 'Gnieździe szerszeni' zabij 7 kurczaków w czasie krótszym niż 10 sekund."
+        },
+        "russian": {
+          "name": "Полковник Сандерсон",
+          "description": "Убейте 7 цыплят менее чем за 10 секунд в эпизоде 'Осиное гнездо'."
+        },
+        "schinese": {
+          "name": "山德士上校",
+          "description": "在「马蜂窝」关卡中，于10秒内杀死7只鸡。"
+        },
+        "spanish": {
+          "name": "Coronel Sanderson",
+          "description": "Mata a 7 gallinas en menos de 10 segundos en 'El avispero'."
+        }
+      }
+    },
+    "GOLD_STAR": {
+      "translations": {
+        "english": {
+          "name": "Gold Star",
+          "description": "Earn 1 star in Special Ops."
+        },
+        "german": {
+          "name": "Goldstern",
+          "description": "Verdienen Sie 1 Stern im Spezialeinheit-Modus."
+        },
+        "italian": {
+          "name": "Stella d'oro",
+          "description": "Ottieni 1 stella in Operazioni speciali."
+        },
+        "japanese": {
+          "name": "ゴールドスター",
+          "description": "スペシャルオプスで1個の星を獲得する。"
+        },
+        "polish": {
+          "name": "Złota gwiazda",
+          "description": "Zdobądź 1 gwiazdkę w misjach specjalnych."
+        },
+        "russian": {
+          "name": "Золотая звезда",
+          "description": "Получить 1 звезду в режиме 'Спецоперации'."
+        },
+        "schinese": {
+          "name": "金星",
+          "description": "在特别行动中获得1颗星。"
+        },
+        "spanish": {
+          "name": "Estrella de oro",
+          "description": "Gana 1 estrella en Operaciones especiales."
+        }
+      }
+    },
+    "HOTEL_BRAVO": {
+      "translations": {
+        "english": {
+          "name": "Hotel Bravo",
+          "description": "Earn 4 stars in Special Ops."
+        },
+        "german": {
+          "name": "Hotel Bravo",
+          "description": "Verdienen Sie 4 Sterne im Spezialeinheit-Modus."
+        },
+        "italian": {
+          "name": "Hotel Bravo",
+          "description": "Ottieni 4 stelle in Operazioni speciali."
+        },
+        "japanese": {
+          "name": "ホテルブラボー",
+          "description": "スペシャルオプスで4個の星を獲得する。"
+        },
+        "polish": {
+          "name": "Hotel Bravo",
+          "description": "Zdobądź 4 gwiazdki w misjach specjalnych."
+        },
+        "russian": {
+          "name": "Хоутел-Браво",
+          "description": "Получить 4 звезды в режиме 'Спецоперации'."
+        },
+        "schinese": {
+          "name": "布拉沃酒店",
+          "description": "在特别行动中获得4颗星。"
+        },
+        "spanish": {
+          "name": "Hotel Bravo",
+          "description": "Gana 4 estrellas en Operaciones especiales."
+        }
+      }
+    },
+    "CHARLIE_ON_OUR_SIX": {
+      "translations": {
+        "english": {
+          "name": "Charlie On Our Six",
+          "description": "Earn 8 stars in Special Ops."
+        },
+        "german": {
+          "name": "Gegner auf 6 Uhr",
+          "description": "Verdienen Sie 8 Sterne im Spezialeinheit-Modus."
+        },
+        "italian": {
+          "name": "Charlie a ore 6",
+          "description": "Ottieni 8 stelle in Operazioni speciali."
+        },
+        "japanese": {
+          "name": "チャーリーは波に乗った",
+          "description": "スペシャルオプスで8個の星を獲得する。"
+        },
+        "polish": {
+          "name": "Wróg na szóstej",
+          "description": "Zdobądź 8 gwiazdek w misjach specjalnych."
+        },
+        "russian": {
+          "name": "Восьмерка",
+          "description": "Получить 8 звезд в режиме 'Спецоперации'."
+        },
+        "schinese": {
+          "name": "后方交火",
+          "description": "在特别行动中获得8颗星。"
+        },
+        "spanish": {
+          "name": "Charlie a las seis",
+          "description": "Gana 8 estrellas en Operaciones especiales."
+        }
+      }
+    },
+    "IT_GOES_TO_ELEVEN": {
+      "translations": {
+        "english": {
+          "name": "It Goes to Eleven",
+          "description": "Earn at least 1 star in 11 different Special Op missions."
+        },
+        "german": {
+          "name": "Jetzt schlägt's 11",
+          "description": "Verdienen Sie mindestens 1 Stern in 11 verschiedenen Spezialeinheit-Missionen."
+        },
+        "italian": {
+          "name": "Arriva fino a 11.",
+          "description": "Ottieni almeno 1 stella in 11 diverse missioni Operazioni speciali."
+        },
+        "japanese": {
+          "name": "限界突破",
+          "description": "11個のスペシャルオプスで、それぞれ最低1個の星を獲得する。"
+        },
+        "polish": {
+          "name": "Jedenastka",
+          "description": "Zdobądź co najmniej 1 gwiazdkę w 11 różnych w misjach specjalnych."
+        },
+        "russian": {
+          "name": "Уже одиннадцать",
+          "description": "Получить как минимум по 1 звезде в 11 разных спецоперациях."
+        },
+        "schinese": {
+          "name": "突破极限",
+          "description": "在11个不同的特别行动任务中各获得至少1颗星。"
+        },
+        "spanish": {
+          "name": "Hasta once",
+          "description": "Gana al menos 1 estrella en 11 misiones diferentes de Operaciones especiales."
+        }
+      }
+    },
+    "OPERATIONAL_ASSET": {
+      "translations": {
+        "english": {
+          "name": "Operational Asset",
+          "description": "Earn all 3 stars in at least 5 different Special Op missions."
+        },
+        "german": {
+          "name": "Star des Einsatzes",
+          "description": "Verdienen Sie alle 3 Sterne in mindestens 5 verschiedenen Spezialeinheit-Missionen."
+        },
+        "italian": {
+          "name": "Assetto operativo",
+          "description": "Ottieni tutte e 3 le stelle in 5 diverse missioni Operazioni speciali."
+        },
+        "japanese": {
+          "name": "作戦遂行",
+          "description": "最低でも5個のスペシャルオプスミッションで、それぞれ3つすべての星を獲得する。"
+        },
+        "polish": {
+          "name": "Zasób operacyjny",
+          "description": "Zdobądź 3 gwiazdki w co najmniej 5 różnych w misjach specjalnych."
+        },
+        "russian": {
+          "name": "Оперативная работа",
+          "description": "Получить по 3 звезды в 5 разных спецоперациях."
+        },
+        "schinese": {
+          "name": "作战资源",
+          "description": "在至少5个不同的特别行动任务中各获得全部3颗星。"
+        },
+        "spanish": {
+          "name": "Baza operativa",
+          "description": "Gana las 3 estrellas en 5 misiones diferentes de Operaciones especiales."
+        }
+      }
+    },
+    "BLACKJACK": {
+      "translations": {
+        "english": {
+          "name": "Blackjack",
+          "description": "Earn 21 stars in Special Ops."
+        },
+        "german": {
+          "name": "Siebzehn und vier",
+          "description": "Verdienen Sie 21 Sterne im Spezialeinheit-Modus."
+        },
+        "italian": {
+          "name": "Blackjack",
+          "description": "Ottieni 21 stelle in Operazioni speciali."
+        },
+        "japanese": {
+          "name": "ブラックジャック",
+          "description": "スペシャルオプスで21個の星を獲得する。"
+        },
+        "polish": {
+          "name": "Oczko",
+          "description": "Zdobądź 21 gwiazdek w misjach specjalnych."
+        },
+        "russian": {
+          "name": "Двадцать одно",
+          "description": "Получить 21 звезду в режиме 'Спецоперации'."
+        },
+        "schinese": {
+          "name": "二十一点",
+          "description": "在特别行动中获得21颗星。"
+        },
+        "spanish": {
+          "name": "Blackjack",
+          "description": "Gana 21 estrellas en Operaciones especiales."
+        }
+      }
+    },
+    "HONOR_ROLL": {
+      "translations": {
+        "english": {
+          "name": "Honor Roll",
+          "description": "Earn at least 1 star in each Special Op mission."
+        },
+        "german": {
+          "name": "Ausgezeichnet",
+          "description": "Verdienen Sie mindestens 1 Stern in jeder Spezialeinheit-Mission."
+        },
+        "italian": {
+          "name": "Parata d'onore",
+          "description": "Ottieni almeno 1 stella in tutte le missioni Operazioni speciali."
+        },
+        "japanese": {
+          "name": "成績優秀者",
+          "description": "それぞれのスペシャルオプスで、最低でも1個の星を獲得する。"
+        },
+        "polish": {
+          "name": "Lista zasłużonych",
+          "description": "Zdobądź co najmniej 1 gwiazdkę w każdej misji specjalnej."
+        },
+        "russian": {
+          "name": "Круг почета",
+          "description": "Получить как минимум по 1 звезде в каждой спецоперации."
+        },
+        "schinese": {
+          "name": "荣誉榜",
+          "description": "在每个特别行动任务中各获得至少1颗星。"
+        },
+        "spanish": {
+          "name": "Cuadro de honor",
+          "description": "Gana al menos 1 estrella en cada misión de Operaciones especiales."
+        }
+      }
+    },
+    "OPERATIVE": {
+      "translations": {
+        "english": {
+          "name": "Operative",
+          "description": "Earn all 3 stars in at least 10 different Special Op missions."
+        },
+        "german": {
+          "name": "Agent",
+          "description": "Verdienen Sie alle 3 Sterne in mindestens 10 verschiedenen Spezialeinheit-Missionen."
+        },
+        "italian": {
+          "name": "Operativo",
+          "description": "Ottieni tutte e 3 le stelle in 10 diverse missioni Operazioni speciali."
+        },
+        "japanese": {
+          "name": "熟練兵",
+          "description": "最低でも10個のスペシャルオプスミッションで、それぞれ3つすべての星を獲得する。"
+        },
+        "polish": {
+          "name": "Agent specjalny",
+          "description": "Zdobądź 3 gwiazdki w co najmniej 10 różnych w misjach specjalnych."
+        },
+        "russian": {
+          "name": "Боец",
+          "description": "Получить по 3 звезды в 10 разных спецоперациях."
+        },
+        "schinese": {
+          "name": "特工",
+          "description": "在至少10个不同的特别行动任务中各获得全部3颗星。"
+        },
+        "spanish": {
+          "name": "Agente",
+          "description": "Gana las 3 estrellas en 10 misiones diferentes de Operaciones especiales."
+        }
+      }
+    },
+    "SPECIALIST": {
+      "translations": {
+        "english": {
+          "name": "Specialist",
+          "description": "Earn 30 stars in Special Ops."
+        },
+        "german": {
+          "name": "Spezialist",
+          "description": "Verdienen Sie 30 Sterne im Spezialeinheit-Modus."
+        },
+        "italian": {
+          "name": "Soldato scelto",
+          "description": "Ottieni 30 stelle in Operazioni speciali."
+        },
+        "japanese": {
+          "name": "特技兵",
+          "description": "スペシャルオプスで30個の星を獲得する。"
+        },
+        "polish": {
+          "name": "Specjalista",
+          "description": "Zdobądź 30 gwiazdek w misjach specjalnych."
+        },
+        "russian": {
+          "name": "Специалист",
+          "description": "Получить 30 звезд в режиме 'Спецоперации'."
+        },
+        "schinese": {
+          "name": "专家",
+          "description": "在特别行动中获得30颗星。"
+        },
+        "spanish": {
+          "name": "Especialista",
+          "description": "Gana 30 estrellas en Operaciones especiales."
+        }
+      }
+    },
+    "PROFESSIONAL": {
+      "translations": {
+        "english": {
+          "name": "Professional",
+          "description": "Earn all 3 stars in at least 15 different Special Op missions."
+        },
+        "german": {
+          "name": "Profi",
+          "description": "Verdienen Sie alle 3 Sterne in mindestens 15 verschiedenen Spezialeinheit-Missionen."
+        },
+        "italian": {
+          "name": "Professionale",
+          "description": "Ottieni tutte e 3 le stelle in 15 diverse missioni Operazioni speciali."
+        },
+        "japanese": {
+          "name": "プロフェッショナル",
+          "description": "最低でも15個のスペシャルオプスミッションで、それぞれ3つの星すべてを獲得する。"
+        },
+        "polish": {
+          "name": "Specjalnych.",
+          "description": "Zdobądź 3 gwiazdki w co najmniej 15 różnych w misjach specjalnych."
+        },
+        "russian": {
+          "name": "Профессионал",
+          "description": "Получить по 3 звезды в 15 разных спецоперациях."
+        },
+        "schinese": {
+          "name": "职业军人",
+          "description": "在至少15个不同的特别行动任务中各获得全部3颗星。"
+        },
+        "spanish": {
+          "name": "Profesional",
+          "description": "Gana las 3 estrellas en 15 misiones diferentes de Operaciones especiales."
+        }
+      }
+    },
+    "STAR_69": {
+      "translations": {
+        "english": {
+          "name": "Star 69",
+          "description": "Earn 69 stars in Special Ops."
+        },
+        "german": {
+          "name": "Stern 69",
+          "description": "Verdienen Sie 69 Sterne im Spezialeinheit-Modus."
+        },
+        "italian": {
+          "name": "69 stelle",
+          "description": "Ottieni 69 stelle in Operazioni speciali."
+        },
+        "japanese": {
+          "name": "スター69",
+          "description": "スペシャルオプスで69個の星を獲得する。"
+        },
+        "polish": {
+          "name": "69 gwiazd",
+          "description": "Zdobądź 69 gwiazdek w misjach specjalnych."
+        },
+        "russian": {
+          "name": "69 звезд",
+          "description": "Получить 69 звезд в режиме 'Спецоперации'."
+        },
+        "schinese": {
+          "name": "69星",
+          "description": "在特别行动中获得69颗星。"
+        },
+        "spanish": {
+          "name": "Estrella 69",
+          "description": "Gana 69 estrellas en Operaciones especiales."
+        }
+      }
+    },
+    "DOWNED_BUT_NOT_OUT": {
+      "translations": {
+        "english": {
+          "name": "Downed but Not Out",
+          "description": "Kill 4 enemies in a row while downed in Special Ops."
+        },
+        "german": {
+          "name": "Immer noch da",
+          "description": "Erledigen Sie 4 Gegner hintereinander, während Sie in 'Spezialeinheit' verletzt wurden."
+        },
+        "italian": {
+          "name": "Colpito, ma non affondato",
+          "description": "Uccidi 4 nemici di fila mentre sei a terra in Operazioni speciali."
+        },
+        "japanese": {
+          "name": "不屈の闘志",
+          "description": "スペシャルオプスでダウン状態のまま、連続で4人の敵を倒す。"
+        },
+        "polish": {
+          "name": "Trafiony, niezatopiony",
+          "description": "Zabij 4 nieprzyjaciół z rzędu, kiedy zostaniesz ranny podczas misji specjalnej."
+        },
+        "russian": {
+          "name": "Сбит, но не побежден",
+          "description": "Убить 4 противников подряд, будучи сбитым во время спецоперации."
+        },
+        "schinese": {
+          "name": "绝地反击",
+          "description": "在特别行动中倒地时连续击杀4名敌人。"
+        },
+        "spanish": {
+          "name": "Caído, pero no muerto",
+          "description": "Mata a 4 enemigos seguidos desde el suelo en Operaciones especiales."
+        }
+      }
+    },
+    "IM_THE_JUGGERNAUT": {
+      "translations": {
+        "english": {
+          "name": "I'm the Juggernaut…",
+          "description": "Kill a Juggernaut in Special Ops."
+        },
+        "german": {
+          "name": "Mein Name ist Juggernaut ...",
+          "description": "Schalten Sie einen Juggernaut in 'Spezialeinheit' aus."
+        },
+        "italian": {
+          "name": "Juggernaut",
+          "description": "Elimina un Juggernaut in Operazioni speciali."
+        },
+        "japanese": {
+          "name": "ジャガーノート",
+          "description": "スペシャルオプスでジャガーノートを殺す。"
+        },
+        "polish": {
+          "name": "Jestem Kolosem...",
+          "description": "Zabij Kolosa w misji specjalnej."
+        },
+        "russian": {
+          "name": "'Джаггернаут' здесь я!",
+          "description": "Убить 'Джаггернаута' в режиме спецоперации."
+        },
+        "schinese": {
+          "name": "谁才是无畏战士？",
+          "description": "在特别行动中击杀一名无畏战士。"
+        },
+        "spanish": {
+          "name": "Soy el titán",
+          "description": "Mata a un titán en Operaciones especiales."
+        }
+      }
+    },
+    "TEN_PLUS_FOOT_MOBILES": {
+      "translations": {
+        "english": {
+          "name": "Ten plus foot-mobiles",
+          "description": "Kill at least 10 enemies with one Predator missile in Single Player or Special Ops."
+        },
+        "german": {
+          "name": "Mehr als 10 Gegner",
+          "description": "Erledigen Sie mind. 10 Gegner mit einer Predator-Rakete im Einzelspieler- oder Spezialeinheit-Modus."
+        },
+        "italian": {
+          "name": "10 pedoni",
+          "description": "Uccidi almeno 10 nemici con un missile Predator in Giocatore singolo o Operazioni speciali."
+        },
+        "japanese": {
+          "name": "一網打尽",
+          "description": "シングルプレイヤーもしくはスペシャルオプスにおいて、プレデターミサイル1発で10人以上の敵を倒す。"
+        },
+        "polish": {
+          "name": "Ponad dziesięciu zabitych",
+          "description": "Zabij, co najmniej 10 wrogów pociskiem Predator,  w trybie dla 1-ego gracza lub misjach specjalnych."
+        },
+        "russian": {
+          "name": "10 одним ударом",
+          "description": "Убить не менее 10 противников одной ракетой 'Предэйтора' в индивидуальной игре или спецоперации."
+        },
+        "schinese": {
+          "name": "一发入魂",
+          "description": "在单人战役或特别行动中，使用单枚“捕食者”导弹轰杀至少10名步兵。"
+        },
+        "spanish": {
+          "name": "Más de 10 enemigos",
+          "description": "Mata al menos a 10 enemigos con un misil del Predator en Individual o en Operaciones especiales."
+        }
+      }
+    },
+    "UNNECESSARY_ROUGHNESS": {
+      "translations": {
+        "english": {
+          "name": "Unnecessary Roughness",
+          "description": "Use a riot shield to beat down an enemy in Single Player or Special Ops."
+        },
+        "german": {
+          "name": "Übertriebene Härte",
+          "description": "Schlagen Sie einen Gegner im Einzelspieler- oder Spezialeinheit-Modus mit dem Einsatzschild nieder."
+        },
+        "italian": {
+          "name": "Violenza gratuita",
+          "description": "Usa uno scudo antisommossa per abbattere un nemico in Giocatore singolo o Operazioni speciali."
+        },
+        "japanese": {
+          "name": "過剰な暴力",
+          "description": "シングルプレイヤーもしくはスペシャルオプスにおいて、ライオットシールドで敵を殴り倒す。"
+        },
+        "polish": {
+          "name": "Niepotrzebna brutalność",
+          "description": "Użyj tarczy i zaatakuj nią przeciwnika w trybie dla jednego gracza lub podczas misji specjalnej."
+        },
+        "russian": {
+          "name": "Неоправданная грубость",
+          "description": "Сбить противника с ног щитом в индивидуальной игре или спецоперации."
+        },
+        "schinese": {
+          "name": "防卫过当",
+          "description": "在单人战役或特别行动中，使用“防爆盾”砸毙一名敌人。"
+        },
+        "spanish": {
+          "name": "Violencia innecesaria",
+          "description": "Usa un escudo para derribar a un enemigo en Individual o en Operaciones especiales."
+        }
+      }
+    },
+    "KNOCK_KNOCK": {
+      "translations": {
+        "english": {
+          "name": "Knock-knock",
+          "description": "Kill 4 enemies with 4 shots during a slow-mo breach in Single Player or Special Ops."
+        },
+        "german": {
+          "name": "Klopf, klopf",
+          "description": "Erledigen Sie im Einzelsp.- oder Speziale.-Modus 4 Gegner mit 4 Schüssen in einem Zeitlupen-Vorstoß."
+        },
+        "italian": {
+          "name": "Toc-toc",
+          "description": "Uccidi 4 nemici con 4 colpi in un'irruzione con tempo rallentato in Gioc singolo o Operaz. speciali."
+        },
+        "japanese": {
+          "name": "ノックダウン",
+          "description": "シングルプレイヤーもしくはスペシャルオプスでスローモーション突入中に、4発の弾で4人の敵を倒す。"
+        },
+        "polish": {
+          "name": "Puk-puk",
+          "description": "Zabij 4 nieprzyjaciół 4 strzałami podczas wyłomu w trybie dla 1-ego gracza lub misjach specjalnych."
+        },
+        "russian": {
+          "name": "Тук-тук",
+          "description": "Убить 4 врагов 4 выстрелами во время прорыва с замедлением в индивидуальной игре или спецоперации."
+        },
+        "schinese": {
+          "name": "社区送温暖",
+          "description": "在单人战役或特别行动中，于破门慢放中开4枪消灭4个敌人。"
+        },
+        "spanish": {
+          "name": "Toc toc",
+          "description": "Mata a 4 enemigos con 4 disparos a cámara lenta en Individual o en Operaciones especiales."
+        }
+      }
+    },
+    "SOME_LIKE_IT_HOT": {
+      "translations": {
+        "english": {
+          "name": "Some Like it Hot",
+          "description": "Kill 6 enemies in a row using a thermal weapon in Single Player or Special Ops."
+        },
+        "german": {
+          "name": "Manche mögen's heiß",
+          "description": "Erledigen Sie 6 Gegner hintereinander mit einer Thermalwaffe im Einzelspieler- oder Speziale.-Modus."
+        },
+        "italian": {
+          "name": "A qualcuno piace caldo",
+          "description": "Uccidi 6 nemici di fila usando un'arma termica in Giocatore singolo o Operazioni speciali."
+        },
+        "japanese": {
+          "name": "熱い視線",
+          "description": "シングルプレイヤーもしくはスペシャルオプスにおいて、サーマル仕様の武器で6人の敵を連続で倒す。"
+        },
+        "polish": {
+          "name": "Niektórzy lubią na gorąco",
+          "description": "Zabij 5 wrogów z broni z cel. termowizyjnym,  w trybie dla 1-ego gracza lub misjach specjalnych"
+        },
+        "russian": {
+          "name": "Любитель горяченького",
+          "description": "Убить 6 противников подряд, используя оружие с тепловизором, в одиночной игре или спецоперации."
+        },
+        "schinese": {
+          "name": "热情似火",
+          "description": "在单人战役或特别行动中，使用装备了热成像瞄具的枪械连续击杀6个敌人。"
+        },
+        "spanish": {
+          "name": "En caliente",
+          "description": "Mata a 6 enemigos seguidos con un arma térmica en Individual o en Operaciones especiales."
+        }
+      }
+    },
+    "TWO_BIRDS_WITH_ONE_STONE": {
+      "translations": {
+        "english": {
+          "name": "Two Birds with One Stone",
+          "description": "Kill 2 enemies with a single bullet in Single Player or Special Ops."
+        },
+        "german": {
+          "name": "Zwei Vögel, ein Stein",
+          "description": "Erledigen Sie 2 Gegner mit nur einer Kugel im Einzelspieler- oder Spezialeinheit-Modus."
+        },
+        "italian": {
+          "name": "Due piccioni con una fava",
+          "description": "Uccidi 2 nemici con un proiettile in Giocatore singolo o Operazioni speciali."
+        },
+        "japanese": {
+          "name": "一石二鳥",
+          "description": "シングルプレイヤーもしくはスペシャルオプスにおいて、1発の弾丸で2人の敵を倒す。"
+        },
+        "polish": {
+          "name": "Dwie pieczenie na jednym ogniu",
+          "description": "Zabij 2 nieprzyjaciół, jednym pociskiem, w trybie dla jednego gracza lub podczas misji specjalnej."
+        },
+        "russian": {
+          "name": "Двух зайцев одним выстрелом",
+          "description": "Убить 2 противников одной пулей в индивидуальной игре или спецоперации."
+        },
+        "schinese": {
+          "name": "一石二鸟",
+          "description": "在单人战役或特别行动中，用1发子弹击杀2个敌人。"
+        },
+        "spanish": {
+          "name": "Dos pájaros de un tiro",
+          "description": "Mata a 2 enemigos con una sola bala en Individual o en Operaciones especiales."
+        }
+      }
+    },
+    "THE_ROAD_LESS_TRAVELED": {
+      "translations": {
+        "english": {
+          "name": "The Road Less Traveled",
+          "description": "Collect 22 enemy intel items."
+        },
+        "german": {
+          "name": "Sammelwut",
+          "description": "Sammeln Sie 22 feindliche Informationen."
+        },
+        "italian": {
+          "name": "Il percorso meno trafficato",
+          "description": "Trova 22 documenti intelligence nemici."
+        },
+        "japanese": {
+          "name": "短い旅路",
+          "description": "敵の持つ軍事情報を22個集める。"
+        },
+        "polish": {
+          "name": "Mniej uczęszczana droga",
+          "description": "Zbierz 22 materiały wywiadowcze nieprzyjaciela."
+        },
+        "russian": {
+          "name": "Любопытство - не порок",
+          "description": "Собрать 22 фрагмента разведданных."
+        },
+        "schinese": {
+          "name": "走自己的路",
+          "description": "收集22件敌方情报。"
+        },
+        "spanish": {
+          "name": "El camino menos transitado",
+          "description": "Consigue 22 objetos con información enemiga."
+        }
+      }
+    },
+    "LEAVE_NO_STONE_UNTURNED": {
+      "translations": {
+        "english": {
+          "name": "Leave No Stone Unturned",
+          "description": "Collect 45 enemy intel items."
+        },
+        "german": {
+          "name": "Mir entgeht nichts",
+          "description": "Sammeln Sie 45 feindliche Informationen."
+        },
+        "italian": {
+          "name": "Guarda dappertutto",
+          "description": "Trova 45 documenti intelligence nemici."
+        },
+        "japanese": {
+          "name": "すべての石を裏返せ",
+          "description": "敵の軍事情報を45個入手する。"
+        },
+        "polish": {
+          "name": "Przeszukaj każdy kąt",
+          "description": "Zbierz 45 materiałów wywiadowczych nieprzyjaciela."
+        },
+        "russian": {
+          "name": "Дотошный исследователь",
+          "description": "Собрать 45 фрагментов разведданных."
+        },
+        "schinese": {
+          "name": "掘地三尺",
+          "description": "收集45件敌方情报。"
+        },
+        "spanish": {
+          "name": "Remover cielo y tierra",
+          "description": "Consigue 45 objetos con información enemiga."
+        }
+      }
+    },
+    "DRIVE_BY": {
+      "translations": {
+        "english": {
+          "name": "Drive By",
+          "description": "Kill 20 enemies in a row while driving a vehicle in Single Player or Special Ops."
+        },
+        "german": {
+          "name": "Im Vorbeifahren",
+          "description": "Erledigen Sie im Einzelsp.- oder Spezialeinheit-Modus 20 Gegner hintereinander beim Fahren."
+        },
+        "italian": {
+          "name": "Sparatoria",
+          "description": "Uccidi 20 nemici di fila guidando un veicolo in Giocatore singolo o Operazioni speciali."
+        },
+        "japanese": {
+          "name": "撃ち逃げ",
+          "description": "シングルプレイヤーもしくはスペシャルオプスで車両を運転中に、連続で20人の敵を殺す。"
+        },
+        "polish": {
+          "name": "Przejazdem",
+          "description": "Zabij 20 nieprzyjaciół z rzędu, kierując pojazdem w trybie dla 1-ego gracza lub misjach specjalnych."
+        },
+        "russian": {
+          "name": "Водила",
+          "description": "Убить 20 противников подряд, управляя транспортным средством в индивидуальной игре или спецоперации."
+        },
+        "schinese": {
+          "name": "公路杀手",
+          "description": "在单人战役或特别行动中，驾驶载具时连续击杀20个敌人。"
+        },
+        "spanish": {
+          "name": "Tiroteo en marcha",
+          "description": "Mata a 20 enemigos seguidos conduciendo un vehículo en Individual o en Operaciones especiales."
+        }
+      }
+    },
+    "THE_HARDER_THEY_FALL": {
+      "translations": {
+        "english": {
+          "name": "The Harder They Fall",
+          "description": "Kill 2 rappelling enemies in a row before they land on their feet in Single Player or Special Ops."
+        },
+        "german": {
+          "name": "Tiefer Fall",
+          "description": "Erledigen Sie im Einzelsp.- oder Spez.-Modus 2 Gegner am Seil, bevor sie auf ihren Füßen landen."
+        },
+        "italian": {
+          "name": "Più si fanno male cadendo",
+          "description": "Uccidi 2 nemici che si stanno calando di fila prima che atterrino in Gioc. singolo o Op. speciali."
+        },
+        "japanese": {
+          "name": "格好の的",
+          "description": "シングルプレイヤーもしくはスペシャルオプスで、ラペリング中の敵を2人、着地前に連続で倒す。"
+        },
+        "polish": {
+          "name": "Upadek",
+          "description": "Zabij 2 wrogów, opuszczających się na linie. W trybie dla 1-ego gracza lub w misjach specjalnych."
+        },
+        "russian": {
+          "name": "Охота влет",
+          "description": "Убить 2  спускающихся врагов, прежде чем они коснутся земли, в индивидуальной игре или спецоперации."
+        },
+        "schinese": {
+          "name": "站得越高，摔得越重",
+          "description": "在单人战役或特别行动中，连续击杀2名正在索降且尚未着陆的敌人。"
+        },
+        "spanish": {
+          "name": "Más dura será la caída",
+          "description": "Mata a 2 enemigos seguidos que hagan rápel antes de que aterricen en Individual u Op. Especiales."
+        }
+      }
+    },
+    "ONE_MAN_ARMY": {
+      "translations": {
+        "english": {
+          "name": "Desperado",
+          "description": "Kill 5 enemies in a row using 5 different weapons or attachments in Single Player or Special Ops."
+        },
+        "german": {
+          "name": "Desperado",
+          "description": "Schalten Sie im Einzels.- oder Spez.-Modus 5 Gegner nacheinander mit 5 versch. Waffen/Aufsätzen aus."
+        },
+        "italian": {
+          "name": "Desperado",
+          "description": "Uccidi 5 nemici di fila con 5 armi o accessori diversi in Giocatore singolo o Operazioni speciali."
+        },
+        "japanese": {
+          "name": "デスペラード",
+          "description": "シングルプレイヤーまたはスペシャルオプスで、5種類の武器またはアタッチメントを使用し連続で5人の敵を倒す。"
+        },
+        "polish": {
+          "name": "Desperado",
+          "description": "Zabij 5 wrogów z rzędu, używając 5 różnych broni,  w trybie dla 1-ego gracza lub misji specjalnych."
+        },
+        "russian": {
+          "name": "Десперадо",
+          "description": "Убить 5 противников подряд, используя 5 разных видов вооружения, в одиночной игре или спецоперации."
+        },
+        "schinese": {
+          "name": "手忙脚乱",
+          "description": "在单人战役或特别行动中，用5件不同的武器或配件连续击杀5个敌人。"
+        },
+        "spanish": {
+          "name": "Desperado",
+          "description": "Mata a 5 rivales seguidos con 5 armas o accesorios distintos en Individual u Op. especiales."
+        }
+      }
+    },
+    "LOOK_MA_TWO_HANDS": {
+      "translations": {
+        "english": {
+          "name": "Look Ma Two Hands",
+          "description": "Kill 10 enemies in a row using akimbo weapons in Single Player or Special Ops."
+        },
+        "german": {
+          "name": "Schau mal, mit zwei Händen",
+          "description": "Schalten Sie im Einzelsp.- oder Spezialeinheit-Modus 10 Gegner nacheinander mit Akimbo-Waffen aus."
+        },
+        "italian": {
+          "name": "Guarda mamma! Con due mani!",
+          "description": "Uccidi 10 nemici di fila usando armi Akimbo in Giocatore singolo o Operazioni speciali."
+        },
+        "japanese": {
+          "name": "ガンマン",
+          "description": "シングルプレイヤーもしくはスペシャルオプスにおいて、デュアル武器を使って連続で10人の敵を倒す。"
+        },
+        "polish": {
+          "name": "Dwuręczny",
+          "description": "Zabij 10 wrogów z rzędu, używając broni z akimbo w trybie dla 1-ego gracza lub misjach specjalnych."
+        },
+        "russian": {
+          "name": "Две руки лучше",
+          "description": "Убить 10 противников подряд, используя парное оружие, в индивидуальной игре или спецоперации."
+        },
+        "schinese": {
+          "name": "左右开弓",
+          "description": "在单人战役或特别行动中，使用双持武器连续击杀10个敌人。"
+        },
+        "spanish": {
+          "name": "Mamá, con las dos manos",
+          "description": "Mata a 10 enemigos seguidos con armas duales en Individual o en Operaciones especiales."
+        }
+      }
+    },
+    "NO_REST_FOR_THE_WARY": {
+      "translations": {
+        "english": {
+          "name": "No Rest For the Wary",
+          "description": "Knife an enemy without him ever knowing you were there in Single Player or Special Ops."
+        },
+        "german": {
+          "name": "Keine Ruhe für die Wachsamen",
+          "description": "Schalten Sie im Einzelsp.- oder Speziale.-Modus einen Gegner unbemerkt mit dem Messer aus."
+        },
+        "italian": {
+          "name": "Non c'è posto per i deboli",
+          "description": "Accoltella un nemico senza che si accorga di te in Giocatore singolo o Operazioni speciali."
+        },
+        "japanese": {
+          "name": "警戒の限界",
+          "description": "シングルプレイヤーもしくはスペシャルオプスで、存在に気づかれることなくナイフで敵を殺す。"
+        },
+        "polish": {
+          "name": "Po cichu",
+          "description": "Zaatakuj niespodziewanie nieprzyjaciela nożem w trybie dla 1-ego gracza lub misjach specjalnych."
+        },
+        "russian": {
+          "name": "Нет покоя грешным душам",
+          "description": "Незаметно убить врага ножом  в индивидуальной игре или спецоперации."
+        },
+        "schinese": {
+          "name": "死于安乐",
+          "description": "在单人战役或特别行动中，用匕首杀死一个没有察觉到自己的敌人。"
+        },
+        "spanish": {
+          "name": "Los cautos no descansan",
+          "description": "Apuñala a un enemigo sin que se percate de tu presencia en Individual o en Operaciones especiales."
+        }
+      }
+    },
+    "THREESOME": {
+      "translations": {
+        "english": {
+          "name": "Three-some",
+          "description": "Kill at least 3 enemies with a single shot from a grenade launcher in Single Player or Special Ops."
+        },
+        "german": {
+          "name": "Dreier",
+          "description": "Erledigen Sie mind. 3 Gegner mit nur einem Granatwerferschuss im Einzels.- oder Speziale.-Modus."
+        },
+        "italian": {
+          "name": "Triangolo",
+          "description": "Uccidi almeno 3 nemici con un colpo di lanciagranate in Giocatore singolo o Operazioni speciali."
+        },
+        "japanese": {
+          "name": "スリーカード",
+          "description": "シングルプレイヤーもしくはスペシャルオプスにおいて、グレネードランチャーの弾1発で3人の敵を倒す。"
+        },
+        "polish": {
+          "name": "Potrójnie",
+          "description": "Zabij co najmniej 3 wrogów z granatnika, w trybie dla 1-ego gracza lub w misjach specjalnych."
+        },
+        "russian": {
+          "name": "Тройка",
+          "description": "Убить не менее 3 противников одним выстрелом из гранатомета в индивидуальной игре или спецоперации."
+        },
+        "schinese": {
+          "name": "一炮三响",
+          "description": "在单人战役或特别行动中，使用单发下挂榴弹同时击杀至少3名敌人。"
+        },
+        "spanish": {
+          "name": "Trío",
+          "description": "Mata al menos a 3 enemigos de un solo tiro de lanzagranadas en Individual u Operaciones especiales."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,774 @@
+{
+  "version": 1,
+  "app_id": "413410",
+  "variant_id": "default",
+  "source_sha256": "91409927883f8342af7b66bd90e0e37d796354634e2da496dc8105ef45176872",
+  "languages": [
+    "english",
+    "japanese",
+    "schinese",
+    "tchinese"
+  ],
+  "achievements": {
+    "PROLOGUE": {
+      "translations": {
+        "english": {
+          "name": "From Zero to Hero",
+          "description": "Finished the Prologue"
+        },
+        "japanese": {
+          "name": "プロローグクリア（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」でプロローグをクリアする"
+        },
+        "schinese": {
+          "name": "零之英雄",
+          "description": "完成序章"
+        },
+        "tchinese": {
+          "name": "完成序章",
+          "description": "完成序章"
+        }
+      }
+    },
+    "CHAPTER1": {
+      "translations": {
+        "english": {
+          "name": "One Is the Loneliest Number",
+          "description": "Finished Chapter 1"
+        },
+        "japanese": {
+          "name": "チャプター１クリア（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」でチャプター1をクリアする"
+        },
+        "schinese": {
+          "name": "一人孤身",
+          "description": "完成第一章"
+        },
+        "tchinese": {
+          "name": "完成第１章",
+          "description": "完成第１章"
+        }
+      }
+    },
+    "CHAPTER2": {
+      "translations": {
+        "english": {
+          "name": "Two of a Kind",
+          "description": "Finished Chapter 2"
+        },
+        "japanese": {
+          "name": "チャプター２クリア（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」でチャプター2をクリアする"
+        },
+        "schinese": {
+          "name": "两人同类",
+          "description": "完成第二章"
+        },
+        "tchinese": {
+          "name": "完成第２章",
+          "description": "完成第２章"
+        }
+      }
+    },
+    "CHAPTER3": {
+      "translations": {
+        "english": {
+          "name": "Three's a Crowd",
+          "description": "Finished Chapter 3"
+        },
+        "japanese": {
+          "name": "チャプター３クリア（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」でチャプター3をクリアする"
+        },
+        "schinese": {
+          "name": "三人成行",
+          "description": "完成第三章"
+        },
+        "tchinese": {
+          "name": "完成第３章",
+          "description": "完成第３章"
+        }
+      }
+    },
+    "CHAPTER4": {
+      "translations": {
+        "english": {
+          "name": "Four by Gore",
+          "description": "Finished Chapter 4"
+        },
+        "japanese": {
+          "name": "チャプター４クリア（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」でチャプター4をクリアする"
+        },
+        "schinese": {
+          "name": "四人之伤",
+          "description": "完成第四章"
+        },
+        "tchinese": {
+          "name": "完成第４章",
+          "description": "完成第４章"
+        }
+      }
+    },
+    "CHAPTER5": {
+      "translations": {
+        "english": {
+          "name": "Five Alive",
+          "description": "Finished Chapter 5"
+        },
+        "japanese": {
+          "name": "チャプター５クリア（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」でチャプター5をクリアする"
+        },
+        "schinese": {
+          "name": "五人生还",
+          "description": "完成第五章"
+        },
+        "tchinese": {
+          "name": "完成第５章",
+          "description": "完成第５章"
+        }
+      }
+    },
+    "CHAPTER_ALL": {
+      "translations": {
+        "english": {
+          "name": "All's Well That Ends...Umm...",
+          "description": "Finished every chapter"
+        },
+        "japanese": {
+          "name": "全チャプタークリア（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」で全てのチャプターをクリアする"
+        },
+        "schinese": {
+          "name": "皆大欢……嗯……",
+          "description": "完成所有章节"
+        },
+        "tchinese": {
+          "name": "完成所有章節",
+          "description": "完成所有章節"
+        }
+      }
+    },
+    "ISHIMARU": {
+      "translations": {
+        "english": {
+          "name": "The Devil Wears a High School Uniform",
+          "description": "Filled in every page of Kiyotaka's Report Card"
+        },
+        "japanese": {
+          "name": "石丸清多夏と親密度MAX",
+          "description": "石丸清多夏の通信簿を全て埋める"
+        },
+        "schinese": {
+          "name": "穿校服的恶魔",
+          "description": "填满石丸清多夏全部通讯录页面"
+        },
+        "tchinese": {
+          "name": "與石丸清多夏的親密度達到ＭＡＸ",
+          "description": "完成通訊錄中關於石丸清多夏的所有頁面"
+        }
+      }
+    },
+    "TOGAMI": {
+      "translations": {
+        "english": {
+          "name": "The Game Hungers",
+          "description": "Filled in every page of Byakuya's Report Card"
+        },
+        "japanese": {
+          "name": "十神白夜と親密度MAX",
+          "description": "十神白夜の通信簿を全て埋める"
+        },
+        "schinese": {
+          "name": "游戏饿狼",
+          "description": "填满十神白夜全部通讯录页面"
+        },
+        "tchinese": {
+          "name": "與十神白夜的親密度達到ＭＡＸ",
+          "description": "完成通訊錄中關於十神白夜的所有頁面"
+        }
+      }
+    },
+    "OHWADA": {
+      "translations": {
+        "english": {
+          "name": "Rebel Without a High School Degree",
+          "description": "Filled in every page of Mondo's Report Card"
+        },
+        "japanese": {
+          "name": "大和田紋土と親密度MAX",
+          "description": "大和田紋土の通信簿を全て埋める"
+        },
+        "schinese": {
+          "name": "无学位反叛",
+          "description": "填满大和田纹土全部通讯录页面"
+        },
+        "tchinese": {
+          "name": "與大和田紋土的親密度達到ＭＡＸ",
+          "description": "完成通訊錄中關於大和田紋土的所有頁面"
+        }
+      }
+    },
+    "KUWATA": {
+      "translations": {
+        "english": {
+          "name": "Almost Almost Famous",
+          "description": "Filled in every page of Leon's Report Card"
+        },
+        "japanese": {
+          "name": "桑田怜恩と親密度MAX",
+          "description": "桑田怜恩の通信簿を全て埋める"
+        },
+        "schinese": {
+          "name": "几近成名",
+          "description": "填满桑田怜恩全部通讯录页面"
+        },
+        "tchinese": {
+          "name": "與桑田里昂的親密度達到ＭＡＸ",
+          "description": "完成通訊錄中關於桑田里昂的所有頁面"
+        }
+      }
+    },
+    "YAMADA": {
+      "translations": {
+        "english": {
+          "name": "Lost in Scanslation",
+          "description": "Filled in every page of Hifumi's Report Card"
+        },
+        "japanese": {
+          "name": "山田一二三と親密度MAX",
+          "description": "山田一二三の通信簿を全て埋める"
+        },
+        "schinese": {
+          "name": "情迷译乱",
+          "description": "填满山田一二三全部通讯录页面"
+        },
+        "tchinese": {
+          "name": "與山田一二三的親密度達到ＭＡＸ",
+          "description": "完成通訊錄中關於山田一二三的所有頁面"
+        }
+      }
+    },
+    "HAGAKURE": {
+      "translations": {
+        "english": {
+          "name": "The Sixth Nonsense",
+          "description": "Filled in every page of Yasuhiro's Report Card"
+        },
+        "japanese": {
+          "name": "葉隠康比呂と親密度MAX",
+          "description": "葉隠康比呂の通信簿を全て埋める"
+        },
+        "schinese": {
+          "name": "第六谬论",
+          "description": "填满叶隐康比吕全部通讯录页面"
+        },
+        "tchinese": {
+          "name": "與葉隱康比呂的親密度達到ＭＡＸ",
+          "description": "完成通訊錄中關於葉隱康比呂的所有頁面"
+        }
+      }
+    },
+    "MAIZONO": {
+      "translations": {
+        "english": {
+          "name": "Psychic",
+          "description": "Filled in every page of Sayaka's Report Card"
+        },
+        "japanese": {
+          "name": "舞園さやかと親密度MAX",
+          "description": "舞園さやかの通信簿を全て埋める"
+        },
+        "schinese": {
+          "name": "超能力者",
+          "description": "填满舞园沙耶香全部通讯录页面"
+        },
+        "tchinese": {
+          "name": "與舞園沙耶香的親密度達到ＭＡＸ",
+          "description": "完成通訊錄中關於舞園沙耶香的所有頁面"
+        }
+      }
+    },
+    "KIRIGIRI": {
+      "translations": {
+        "english": {
+          "name": "Hope's Peak Confidential",
+          "description": "Filled in every page of Kyoko's Report Card"
+        },
+        "japanese": {
+          "name": "霧切響子と親密度MAX",
+          "description": "霧切響子の通信簿を全て埋める"
+        },
+        "schinese": {
+          "name": "希望峰的机密",
+          "description": "填满雾切响子全部通讯录页面"
+        },
+        "tchinese": {
+          "name": "與霧切響子的親密度達到ＭＡＸ",
+          "description": "完成通訊錄中關於霧切響子的所有頁面"
+        }
+      }
+    },
+    "ASAHINA": {
+      "translations": {
+        "english": {
+          "name": "Mystic Donut",
+          "description": "Filled in every page of Aoi's Report Card"
+        },
+        "japanese": {
+          "name": "朝日奈葵と親密度MAX",
+          "description": "朝日奈葵の通信簿を全て埋める"
+        },
+        "schinese": {
+          "name": "神秘甜甜圈",
+          "description": "填满朝日奈葵全部通讯录页面"
+        },
+        "tchinese": {
+          "name": "與朝日奈葵的親密度達到ＭＡＸ",
+          "description": "完成通訊錄中關於朝日奈葵的所有頁面"
+        }
+      }
+    },
+    "FUKAWA": {
+      "translations": {
+        "english": {
+          "name": "Strangers in a Brain",
+          "description": "Filled in every page of Toko's Report Card"
+        },
+        "japanese": {
+          "name": "腐川冬子と親密度MAX",
+          "description": "腐川冬子の通信簿を全て埋める"
+        },
+        "schinese": {
+          "name": "脑中异客",
+          "description": "填满腐川冬子全部通讯录页面"
+        },
+        "tchinese": {
+          "name": "與腐川冬子的親密度達到ＭＡＸ",
+          "description": "完成通訊錄中關於腐川冬子的所有頁面"
+        }
+      }
+    },
+    "OHGAMI": {
+      "translations": {
+        "english": {
+          "name": "Lovesport",
+          "description": "Filled in every page of Sakura's Report Card"
+        },
+        "japanese": {
+          "name": "大神さくらと親密度MAX",
+          "description": "大神さくらの通信簿を全て埋める"
+        },
+        "schinese": {
+          "name": "热爱运动",
+          "description": "填满大神樱全部通讯录页面"
+        },
+        "tchinese": {
+          "name": "與大神櫻的親密度達到ＭＡＸ",
+          "description": "完成通訊錄中關於大神櫻的所有頁面"
+        }
+      }
+    },
+    "SERESU": {
+      "translations": {
+        "english": {
+          "name": "The French Disconnection",
+          "description": "Filled in every page of Celeste's Report Card"
+        },
+        "japanese": {
+          "name": "セレスティア・ルーデンベルクと親密度MAX",
+          "description": "セレスティア・ルーデンベルクの通信簿を全て埋める"
+        },
+        "schinese": {
+          "name": "魂断凡尔赛",
+          "description": "填满塞蕾丝缇雅全部通讯录页面"
+        },
+        "tchinese": {
+          "name": "與瑟雷絲的親密度達到ＭＡＸ",
+          "description": "完成通訊錄中關於瑟雷絲的所有頁面"
+        }
+      }
+    },
+    "ENISHIMA": {
+      "translations": {
+        "english": {
+          "name": "Memoirs of a Fashionista",
+          "description": "Filled in every page of Junko's Report Card"
+        },
+        "japanese": {
+          "name": "江ノ島盾子と親密度MAX",
+          "description": "江ノ島盾子の通信簿を全て埋める"
+        },
+        "schinese": {
+          "name": "辣妹回忆录",
+          "description": "填满江之岛盾子全部通讯录页面"
+        },
+        "tchinese": {
+          "name": "與江之島盾子的親密度達到ＭＡＸ",
+          "description": "完成通訊錄中關於江之島盾子的所有頁面"
+        }
+      }
+    },
+    "FUJISAKI": {
+      "translations": {
+        "english": {
+          "name": "GoodFellows",
+          "description": "Filled in every page of Chihiro's Report Card"
+        },
+        "japanese": {
+          "name": "不二咲千尋と親密度MAX",
+          "description": "不二咲千尋の通信簿を全て埋める"
+        },
+        "schinese": {
+          "name": "好小子",
+          "description": "填满不二咲千寻全部通讯录页面"
+        },
+        "tchinese": {
+          "name": "與不二咲千尋的親密度達到ＭＡＸ",
+          "description": "完成通訊錄中關於不二咲千尋的所有頁面"
+        }
+      }
+    },
+    "FRIENDSHIP_ALL": {
+      "translations": {
+        "english": {
+          "name": "Mr. Know-It-All",
+          "description": "Filled in every page of every character's Report Card"
+        },
+        "japanese": {
+          "name": "全員と親密度MAX（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」で全生徒の通信簿を埋める"
+        },
+        "schinese": {
+          "name": "百事通",
+          "description": "填满所有角色的全部通讯录页面"
+        },
+        "tchinese": {
+          "name": "與全員的親密度達到ＭＡＸ",
+          "description": "完成所有通訊錄的頁面"
+        }
+      }
+    },
+    "MEDAL": {
+      "translations": {
+        "english": {
+          "name": "Nine Coins, Nine Purses, Nine Bears",
+          "description": "Collected 999 Monocoins"
+        },
+        "japanese": {
+          "name": "モノクマメダル999枚所持（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」でモノクマメダルを999枚集める"
+        },
+        "schinese": {
+          "name": "九枚硬币、九个钱包、九只熊",
+          "description": "收集999枚黑白熊徽章"
+        },
+        "tchinese": {
+          "name": "持有999枚黑白熊徽章",
+          "description": "蒐集999枚黑白熊徽章"
+        }
+      }
+    },
+    "PRESENT_HALF": {
+      "translations": {
+        "english": {
+          "name": "Ooh, For Me?",
+          "description": "Collected 50 unique presents"
+        },
+        "japanese": {
+          "name": "50種類プレゼントを集めた（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」でプレゼントを50種類集める"
+        },
+        "schinese": {
+          "name": "哦，给我的？",
+          "description": "收集了50种礼物"
+        },
+        "tchinese": {
+          "name": "蒐集50種禮物",
+          "description": "蒐集50種禮物"
+        }
+      }
+    },
+    "PRESENT_ALL": {
+      "translations": {
+        "english": {
+          "name": "Seriously, You Shouldn't Have",
+          "description": "Collected every possible present"
+        },
+        "japanese": {
+          "name": "プレゼントを全種類集めた（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」でプレゼントを全て集める"
+        },
+        "schinese": {
+          "name": "真的，你没必要这样",
+          "description": "收集了所有礼物"
+        },
+        "tchinese": {
+          "name": "蒐集所有種類禮物",
+          "description": "蒐集所有種類禮物"
+        }
+      }
+    },
+    "ISLAND_CLEAR": {
+      "translations": {
+        "english": {
+          "name": "School's Out For Summer",
+          "description": "Cleared School Mode once"
+        },
+        "japanese": {
+          "name": "スクールモードクリア",
+          "description": "スクールモードを１回クリアする"
+        },
+        "schinese": {
+          "name": "暑假",
+          "description": "通过一次校园模式"
+        },
+        "tchinese": {
+          "name": "完成學園模式",
+          "description": "完成１次學園模式"
+        }
+      }
+    },
+    "ISLAND_CLEAR_ALL": {
+      "translations": {
+        "english": {
+          "name": "School's Out Forever",
+          "description": "Saw every possible School Mode ending"
+        },
+        "japanese": {
+          "name": "スクールモード全エンディングクリア",
+          "description": "スクールモードで全生徒のエンディングを見る"
+        },
+        "schinese": {
+          "name": "停课",
+          "description": "完成所有人的在校园模式结尾的对话"
+        },
+        "tchinese": {
+          "name": "觀看學園模式所有結局",
+          "description": "達成學園模式中的所有結局"
+        }
+      }
+    },
+    "SKIL_10": {
+      "translations": {
+        "english": {
+          "name": "Skilling 'Em Softly",
+          "description": "Cleared the 10 SP threshold"
+        },
+        "japanese": {
+          "name": "ＳＰ10突破（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」でスキルポイントが10を突破する"
+        },
+        "schinese": {
+          "name": "慢慢地训练他们",
+          "description": "技能点数达到10"
+        },
+        "tchinese": {
+          "name": "ＳＰ突破１０",
+          "description": "技能點數突破10點"
+        }
+      }
+    },
+    "SKIL_20": {
+      "translations": {
+        "english": {
+          "name": "Skill or Be Skilled",
+          "description": "Cleared the 20 SP threshold"
+        },
+        "japanese": {
+          "name": "ＳＰ20突破（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」でスキルポイントが20を突破する"
+        },
+        "schinese": {
+          "name": "训练还是被训练",
+          "description": "技能点数达到20"
+        },
+        "tchinese": {
+          "name": "ＳＰ突破２０",
+          "description": "技能點數突破20點"
+        }
+      }
+    },
+    "SKIL_30": {
+      "translations": {
+        "english": {
+          "name": "Ghostface Skillah",
+          "description": "Cleared the 30 SP threshold"
+        },
+        "japanese": {
+          "name": "ＳＰ30突破（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」でスキルポイントが30を突破する"
+        },
+        "schinese": {
+          "name": "鬼脸技巧",
+          "description": "技能点数达到30"
+        },
+        "tchinese": {
+          "name": "ＳＰ突破３０",
+          "description": "技能點數突破30點"
+        }
+      }
+    },
+    "MACHINE": {
+      "translations": {
+        "english": {
+          "name": "Hey, Big Spender",
+          "description": "Enjoyed the exciting excitement of the MonoMono Machine 100 times"
+        },
+        "japanese": {
+          "name": "モノモノマシーンを100回使った",
+          "description": "モノモノマシーンを100回使う"
+        },
+        "schinese": {
+          "name": "嗬，大手笔",
+          "description": "使用黑白熊扭蛋机100次"
+        },
+        "tchinese": {
+          "name": "挑戰黑白轉蛋機100次",
+          "description": "挑戰黑白轉蛋機的次數達到100次"
+        }
+      }
+    },
+    "GALLERY": {
+      "translations": {
+        "english": {
+          "name": "Rogue's Gallery",
+          "description": "Unlocked all gallery items"
+        },
+        "japanese": {
+          "name": "すべてのギャラリーをアンロックした",
+          "description": "すべてのギャラリーをアンロックする"
+        },
+        "schinese": {
+          "name": "嫌犯画像",
+          "description": "解锁鉴赏室中的所有作品"
+        },
+        "tchinese": {
+          "name": "購買鑑賞室中的所有要素",
+          "description": "購買鑑賞室中所有項目"
+        }
+      }
+    },
+    "NO_DAMAGE": {
+      "translations": {
+        "english": {
+          "name": "You Must Acquit",
+          "description": "Cleared a class trial without taking any damage"
+        },
+        "japanese": {
+          "name": "ノーダメージクリア（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」のいずれかの学級裁判でダメージを１度も受けずにクリアする"
+        },
+        "schinese": {
+          "name": "无罪释放",
+          "description": "不受任何伤害地通过一次学级裁判"
+        },
+        "tchinese": {
+          "name": "未受傷通過審判",
+          "description": "完全沒受到損傷便完成任一場班級審判"
+        }
+      }
+    },
+    "NO_RETRY": {
+      "translations": {
+        "english": {
+          "name": "What's a Mistrial?",
+          "description": "Cleared a class trial without having to retry a single time"
+        },
+        "japanese": {
+          "name": "ノーリトライクリア（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」のいずれかの学級裁判でリトライを１回も行わずにクリアする"
+        },
+        "schinese": {
+          "name": "什么是误判？",
+          "description": "不重试地一次性通过一次学级裁判"
+        },
+        "tchinese": {
+          "name": "未重試通過審判",
+          "description": "完全沒重試便完成任一場班級審判"
+        }
+      }
+    },
+    "NOISE_100": {
+      "translations": {
+        "english": {
+          "name": "The Color of Television",
+          "description": "Destroyed 100 white noise lines across all class trials"
+        },
+        "japanese": {
+          "name": "100ガヤ撃墜（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」の学級裁判で雑音セリフを100回撃墜する"
+        },
+        "schinese": {
+          "name": "空白电视屏",
+          "description": "在学级裁判中总计消灭100条杂音"
+        },
+        "tchinese": {
+          "name": "擊墜100次雜音",
+          "description": "在『槍彈辯駁』的班級審判中累計擊墜100次雜音台詞"
+        }
+      }
+    },
+    "NOISE_500": {
+      "translations": {
+        "english": {
+          "name": "Tuned to a Dead Channel",
+          "description": "Destroyed 500 white noise lines across all class trials"
+        },
+        "japanese": {
+          "name": "500ガヤ撃墜（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」の学級裁判で雑音セリフを500回撃墜する"
+        },
+        "schinese": {
+          "name": "无信号波段",
+          "description": "在学级裁判中总计消灭500条杂音"
+        },
+        "tchinese": {
+          "name": "擊墜500次雜音",
+          "description": "在『槍彈辯駁』的班級審判中累計擊墜500次雜音台詞"
+        }
+      }
+    },
+    "NO_CONCENTRATE": {
+      "translations": {
+        "english": {
+          "name": "Not From Concentrate",
+          "description": "Cleared a class trial without using your Concentration skill a single time"
+        },
+        "japanese": {
+          "name": "集中力ゲージを使わずにクリア（ダンガンロンパ）",
+          "description": "「ダンガンロンパ」のいずれかの学級裁判で集中力ゲージを使わずにクリアする"
+        },
+        "schinese": {
+          "name": "别紧张",
+          "description": "不使用集中精神技能通过一次学级裁判"
+        },
+        "tchinese": {
+          "name": "未使用集中力通過審判",
+          "description": "完全沒使用集中力便完成任一場班級審判"
+        }
+      }
+    },
+    "LAST_REWARD": {
+      "translations": {
+        "english": {
+          "name": "Despair's Last Reward",
+          "description": "Earned every other achievement in the game"
+        },
+        "japanese": {
+          "name": "全実績獲得",
+          "description": "全ての実績を獲得する"
+        },
+        "schinese": {
+          "name": "绝望的最后回报",
+          "description": "完成其他所有成就"
+        },
+        "tchinese": {
+          "name": "獲得所有実績",
+          "description": "獲得除白金之外的所有実績"
+        }
+      }
+    }
+  }
+}

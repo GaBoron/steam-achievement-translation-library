@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "app_id": "2653790",
+  "variant_id": "default",
+  "source_sha256": "781bd10d913fd056c7211f625719fd237efbced846bd26ee1a5d40dfe58abc38",
+  "languages": [
+    "english",
+    "japanese",
+    "schinese"
+  ],
+  "achievements": {
+    "ACH_0": {
+      "translations": {
+        "english": {
+          "name": "The Exit 8",
+          "description": "Go out from Exit 8."
+        },
+        "japanese": {
+          "name": "8番出口",
+          "description": "8番出口から外に出る。"
+        },
+        "schinese": {
+          "name": "8号出口",
+          "description": "从8号出口出去。"
+        }
+      }
+    },
+    "ACH_1": {
+      "translations": {
+        "english": {
+          "name": "Residents of Underground Passage",
+          "description": "Find all anomalies."
+        },
+        "japanese": {
+          "name": "地下通路の住人",
+          "description": "すべての異変を見つける。"
+        },
+        "schinese": {
+          "name": "8号出口",
+          "description": "发现所有异常。"
+        }
+      }
+    }
+  }
+}

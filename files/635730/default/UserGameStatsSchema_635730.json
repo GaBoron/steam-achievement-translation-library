@@ -1,0 +1,749 @@
+{
+  "version": 1,
+  "app_id": "635730",
+  "variant_id": "default",
+  "source_sha256": "044cbe6f70b2916bdb9f92360417b6437cdc602f13d0d039be98b49197828148",
+  "languages": [
+    "english",
+    "schinese",
+    "tchinese"
+  ],
+  "achievements": {
+    "101": {
+      "translations": {
+        "english": {
+          "name": "Welcome to Dragonia",
+          "description": "You can hear the roars of the dragons looming above you."
+        },
+        "schinese": {
+          "name": "进入游戏",
+          "description": "欢迎来到新世界"
+        },
+        "tchinese": {
+          "name": "進入遊戲",
+          "description": "歡迎來到新世界"
+        }
+      }
+    },
+    "102": {
+      "translations": {
+        "english": {
+          "name": "Final Boss subdued",
+          "description": "The game is completed and all is well... Or is it? You should probably take a bath."
+        },
+        "schinese": {
+          "name": "游戏完结",
+          "description": "击杀BOSS游戏完结"
+        },
+        "tchinese": {
+          "name": "遊戲完結",
+          "description": "擊殺BOSS遊戲完結"
+        }
+      }
+    },
+    "103": {
+      "translations": {
+        "english": {
+          "name": "What are bullets?",
+          "description": "Equipped normal bullets. This shouldn't even be an achievement..."
+        },
+        "schinese": {
+          "name": "Normal",
+          "description": "小子弹"
+        },
+        "tchinese": {
+          "name": "Normal",
+          "description": "小子彈"
+        }
+      }
+    },
+    "104": {
+      "translations": {
+        "english": {
+          "name": "Snakes and Dragons",
+          "description": "Equipped wave bullets. Look how they slither."
+        },
+        "schinese": {
+          "name": "Wave",
+          "description": "蛇形弹"
+        },
+        "tchinese": {
+          "name": "Wave",
+          "description": "蛇形彈"
+        }
+      }
+    },
+    "105": {
+      "translations": {
+        "english": {
+          "name": "Look out!",
+          "description": "Equipped giant bombs. Maybe now you'll be able to hit?"
+        },
+        "schinese": {
+          "name": "Giant",
+          "description": "大子弹"
+        },
+        "tchinese": {
+          "name": "Giant",
+          "description": "大子彈"
+        }
+      }
+    },
+    "106": {
+      "translations": {
+        "english": {
+          "name": "Where do I aim?",
+          "description": "Equipped cracker bullets. Your odds of hitting (or missing) are tripled."
+        },
+        "schinese": {
+          "name": "Cracker",
+          "description": "散开弹"
+        },
+        "tchinese": {
+          "name": "Cracker",
+          "description": "散開彈"
+        }
+      }
+    },
+    "107": {
+      "translations": {
+        "english": {
+          "name": "Fried Dragon Wings",
+          "description": "Equipped laser technology. Deals massive damage, if only you can hit."
+        },
+        "schinese": {
+          "name": "Laser",
+          "description": "射线弹"
+        },
+        "tchinese": {
+          "name": "Laser",
+          "description": "射線彈"
+        }
+      }
+    },
+    "108": {
+      "translations": {
+        "english": {
+          "name": "Treacherous Skies",
+          "description": "Equipped lightning-inducing technology. You might randomly hit, but you probably won't."
+        },
+        "schinese": {
+          "name": "Random",
+          "description": "闪电弹"
+        },
+        "tchinese": {
+          "name": "Random",
+          "description": "閃電彈"
+        }
+      }
+    },
+    "109": {
+      "translations": {
+        "english": {
+          "name": "Boom goes the Dragon!",
+          "description": "Equipped bomb bullets. They're actually bombs conveniently packed as bullets."
+        },
+        "schinese": {
+          "name": "Bomb",
+          "description": "爆炸弹"
+        },
+        "tchinese": {
+          "name": "Bomb",
+          "description": "爆炸彈"
+        }
+      }
+    },
+    "110": {
+      "translations": {
+        "english": {
+          "name": "My type of dragon rebound",
+          "description": "Equipped boomerang bullets. Just don't hit yourself!"
+        },
+        "schinese": {
+          "name": "Boomearng",
+          "description": "回旋弹"
+        },
+        "tchinese": {
+          "name": "Boomearng",
+          "description": "迴旋彈"
+        }
+      }
+    },
+    "111": {
+      "translations": {
+        "english": {
+          "name": "Target Acquired",
+          "description": "Equipped homing bullets. Aiming not required."
+        },
+        "schinese": {
+          "name": "Horming",
+          "description": "跟踪弹"
+        },
+        "tchinese": {
+          "name": "Horming",
+          "description": "跟蹤彈"
+        }
+      }
+    },
+    "112": {
+      "translations": {
+        "english": {
+          "name": "Excellent!",
+          "description": "Equipped accel technology. Excellent... the weapon that is."
+        },
+        "schinese": {
+          "name": "Accel",
+          "description": "标枪弹"
+        },
+        "tchinese": {
+          "name": "Accel",
+          "description": "標槍彈"
+        }
+      }
+    },
+    "113": {
+      "translations": {
+        "english": {
+          "name": "Centre of Gravity",
+          "description": "Equipped gravitational bullets. Add a sun and a few planets and you'll be a solar system."
+        },
+        "schinese": {
+          "name": "Gravity",
+          "description": "加强跟踪弹"
+        },
+        "tchinese": {
+          "name": "Gravity",
+          "description": "加強跟蹤彈"
+        }
+      }
+    },
+    "114": {
+      "translations": {
+        "english": {
+          "name": "302 - Found",
+          "description": "Equipped seeker bullets. Another technology to make up for your terrible aiming"
+        },
+        "schinese": {
+          "name": "Seeker",
+          "description": "三段式跟踪弹"
+        },
+        "tchinese": {
+          "name": "Seeker",
+          "description": "三段式跟蹤彈"
+        }
+      }
+    },
+    "115": {
+      "translations": {
+        "english": {
+          "name": "Ocean Dragons Revealed",
+          "description": "Great! Let's hope these dragons don't know how to swim."
+        },
+        "schinese": {
+          "name": "海洋场景",
+          "description": "开启海洋场景"
+        },
+        "tchinese": {
+          "name": "海洋場景",
+          "description": "開啟海洋場景"
+        }
+      }
+    },
+    "116": {
+      "translations": {
+        "english": {
+          "name": "Desert Dragons Revealed",
+          "description": "Did they notice that there aren't really any pyramids there?"
+        },
+        "schinese": {
+          "name": "沙漠场景",
+          "description": "开启沙漠场景"
+        },
+        "tchinese": {
+          "name": "沙漠場景",
+          "description": "開啟沙漠場景"
+        }
+      }
+    },
+    "117": {
+      "translations": {
+        "english": {
+          "name": "Grassland Dragons Revealed",
+          "description": "... Not that there are any herbivore dragons."
+        },
+        "schinese": {
+          "name": "草地场景",
+          "description": "开启草地场景"
+        },
+        "tchinese": {
+          "name": "草地場景",
+          "description": "開啟草地場景"
+        }
+      }
+    },
+    "118": {
+      "translations": {
+        "english": {
+          "name": "Hell Dragons Revealed",
+          "description": "Probably the worst kind of dragons..."
+        },
+        "schinese": {
+          "name": "地狱场景",
+          "description": "开启地狱场景"
+        },
+        "tchinese": {
+          "name": "地獄場景",
+          "description": "開啟地獄場景"
+        }
+      }
+    },
+    "119": {
+      "translations": {
+        "english": {
+          "name": "Mine Dragons Revealed",
+          "description": "Now why would they go deep in the mines?"
+        },
+        "schinese": {
+          "name": "矿山场景",
+          "description": "开启矿山场景"
+        },
+        "tchinese": {
+          "name": "礦山場景",
+          "description": "開啟礦山場景"
+        }
+      }
+    },
+    "120": {
+      "translations": {
+        "english": {
+          "name": "Snow Dragons Revealed",
+          "description": "Are they still able to breathe fire?"
+        },
+        "schinese": {
+          "name": "雪地场景",
+          "description": "开启雪地场景"
+        },
+        "tchinese": {
+          "name": "雪地場景",
+          "description": "開啟雪地場景"
+        }
+      }
+    },
+    "121": {
+      "translations": {
+        "english": {
+          "name": "Crystal Cave Dragons Revealed",
+          "description": "They are kings under the mountain!"
+        },
+        "schinese": {
+          "name": "蓝矿场景",
+          "description": "开启蓝矿场景"
+        },
+        "tchinese": {
+          "name": "藍礦場景",
+          "description": "開啟藍礦場景"
+        }
+      }
+    },
+    "122": {
+      "translations": {
+        "english": {
+          "name": "Ocean Dragons subdued",
+          "description": "That took an unexpected turn... But at least we're still chaste."
+        },
+        "schinese": {
+          "name": "海洋场景BOSS",
+          "description": "击杀海洋场景BOSS"
+        },
+        "tchinese": {
+          "name": "海洋場景BOSS",
+          "description": "擊殺海洋場景BOSS"
+        }
+      }
+    },
+    "123": {
+      "translations": {
+        "english": {
+          "name": "Desert Dragons subdued",
+          "description": "How anticlimatic. We're getting the hang of this though..."
+        },
+        "schinese": {
+          "name": "沙漠场景BOSS",
+          "description": "击杀沙漠场景BOSS"
+        },
+        "tchinese": {
+          "name": "沙漠場景BOSS",
+          "description": "擊殺沙漠場景BOSS"
+        }
+      }
+    },
+    "124": {
+      "translations": {
+        "english": {
+          "name": "Grassland Dragons subdued",
+          "description": ".. And that's the moment we weren't hoping for."
+        },
+        "schinese": {
+          "name": "草地场景BOSS",
+          "description": "击杀草地场景BOSS"
+        },
+        "tchinese": {
+          "name": "草地場景BOSS",
+          "description": "擊殺草地場景BOSS"
+        }
+      }
+    },
+    "125": {
+      "translations": {
+        "english": {
+          "name": "Hell Dragons subdued",
+          "description": "There's no going back now..."
+        },
+        "schinese": {
+          "name": "地狱场景BOSS",
+          "description": "击杀地狱场景BOSS"
+        },
+        "tchinese": {
+          "name": "地獄場景BOSS",
+          "description": "擊殺地獄場景BOSS"
+        }
+      }
+    },
+    "126": {
+      "translations": {
+        "english": {
+          "name": "Mine Dragons subdued",
+          "description": "Big O achieved and backdoor explored..."
+        },
+        "schinese": {
+          "name": "矿山场景BOSS",
+          "description": "击杀矿山场景BOSS"
+        },
+        "tchinese": {
+          "name": "礦山場景BOSS",
+          "description": "擊殺礦山場景BOSS"
+        }
+      }
+    },
+    "127": {
+      "translations": {
+        "english": {
+          "name": "Snow Dragons subdued",
+          "description": "Please grab a ticket and wait your turn..."
+        },
+        "schinese": {
+          "name": "雪地场景BOSS",
+          "description": "击杀雪地场景BOSS"
+        },
+        "tchinese": {
+          "name": "雪地場景BOSS",
+          "description": "擊殺雪地場景BOSS"
+        }
+      }
+    },
+    "128": {
+      "translations": {
+        "english": {
+          "name": "Crystal Cave Dragons subdued",
+          "description": "Save by the b... witch."
+        },
+        "schinese": {
+          "name": "蓝矿场景BOSS",
+          "description": "击杀蓝矿场景BOSS"
+        },
+        "tchinese": {
+          "name": "藍礦場景BOSS",
+          "description": "擊殺藍礦場景BOSS"
+        }
+      }
+    },
+    "129": {
+      "translations": {
+        "english": {
+          "name": "A Thousand Souls",
+          "description": "Absorb 1,000 souls."
+        },
+        "schinese": {
+          "name": "灵魂1000",
+          "description": "获得灵魂1000"
+        },
+        "tchinese": {
+          "name": "靈魂1000",
+          "description": "獲得靈魂1000"
+        }
+      }
+    },
+    "130": {
+      "translations": {
+        "english": {
+          "name": "5000 Souls",
+          "description": "Absorb 5,000 souls."
+        },
+        "schinese": {
+          "name": "灵魂5000",
+          "description": "获得灵魂5000"
+        },
+        "tchinese": {
+          "name": "靈魂5000",
+          "description": "獲得靈魂5000"
+        }
+      }
+    },
+    "131": {
+      "translations": {
+        "english": {
+          "name": "10000 Souls",
+          "description": "Absorb 10,000 souls."
+        },
+        "schinese": {
+          "name": "灵魂1万",
+          "description": "获得灵魂1万"
+        },
+        "tchinese": {
+          "name": "靈魂1萬",
+          "description": "獲得靈魂1萬"
+        }
+      }
+    },
+    "132": {
+      "translations": {
+        "english": {
+          "name": "50000 Souls",
+          "description": "Absorb 50,000 souls."
+        },
+        "schinese": {
+          "name": "灵魂5万",
+          "description": "获得灵魂5万"
+        },
+        "tchinese": {
+          "name": "靈魂5萬",
+          "description": "獲得靈魂5萬"
+        }
+      }
+    },
+    "133": {
+      "translations": {
+        "english": {
+          "name": "100000 Souls",
+          "description": "Absorb 100,000 souls."
+        },
+        "schinese": {
+          "name": "灵魂10万",
+          "description": "获得灵魂10万"
+        },
+        "tchinese": {
+          "name": "靈魂10萬",
+          "description": "獲得靈魂10萬"
+        }
+      }
+    },
+    "134": {
+      "translations": {
+        "english": {
+          "name": "200000 Souls",
+          "description": "Absorb 200,000 souls."
+        },
+        "schinese": {
+          "name": "灵魂20万",
+          "description": "获得灵魂20万"
+        },
+        "tchinese": {
+          "name": "靈魂20萬",
+          "description": "獲得靈魂20萬"
+        }
+      }
+    },
+    "135": {
+      "translations": {
+        "english": {
+          "name": "300000 Souls",
+          "description": "Absorb 300,000 souls."
+        },
+        "schinese": {
+          "name": "灵魂30万",
+          "description": "获得灵魂30万"
+        },
+        "tchinese": {
+          "name": "靈魂30萬",
+          "description": "獲得靈魂30萬"
+        }
+      }
+    },
+    "136": {
+      "translations": {
+        "english": {
+          "name": "Absorb 40,000 souls.",
+          "description": "400000 Souls"
+        },
+        "schinese": {
+          "name": "灵魂40万",
+          "description": "获得灵魂40万"
+        },
+        "tchinese": {
+          "name": "靈魂40萬",
+          "description": "獲得靈魂40萬"
+        }
+      }
+    },
+    "137": {
+      "translations": {
+        "english": {
+          "name": "Absorb 400,000 souls",
+          "description": "Absorb 500,000 souls. Justin would be proud."
+        },
+        "schinese": {
+          "name": "灵魂50万",
+          "description": "获得灵魂50万"
+        },
+        "tchinese": {
+          "name": "靈魂50萬",
+          "description": "獲得靈魂50萬"
+        }
+      }
+    },
+    "138": {
+      "translations": {
+        "english": {
+          "name": "Dragon Rookie",
+          "description": "Absorb 50,000 souls."
+        },
+        "schinese": {
+          "name": "屠龙菜鸟",
+          "description": "人物死亡一次"
+        },
+        "tchinese": {
+          "name": "屠龍菜鳥",
+          "description": "人物死亡一次"
+        }
+      }
+    },
+    "139": {
+      "translations": {
+        "english": {
+          "name": "Dragon Warrior.",
+          "description": "Die to the dragons. This is the first of many..."
+        },
+        "schinese": {
+          "name": "屠龙战士",
+          "description": "人物死亡五次"
+        },
+        "tchinese": {
+          "name": "屠龍戰士",
+          "description": "人物死亡五次"
+        }
+      }
+    },
+    "140": {
+      "translations": {
+        "english": {
+          "name": "Heroic Sacrifice",
+          "description": "Die to the dragons... ten times. Want a trophy or something? Here, have one."
+        },
+        "schinese": {
+          "name": "英勇牺牲",
+          "description": "人物死亡十次"
+        },
+        "tchinese": {
+          "name": "英勇犧牲",
+          "description": "人物死亡十次"
+        }
+      }
+    },
+    "141": {
+      "translations": {
+        "english": {
+          "name": "100 Dragons downed",
+          "description": "Slay 100 dragons"
+        },
+        "schinese": {
+          "name": "主宰山河",
+          "description": "击杀小龙100只"
+        },
+        "tchinese": {
+          "name": "主宰山河",
+          "description": "擊殺小龍100只"
+        }
+      }
+    },
+    "142": {
+      "translations": {
+        "english": {
+          "name": "500 Dragons downed",
+          "description": "Slay 500 dragons"
+        },
+        "schinese": {
+          "name": "杀龙如麻",
+          "description": "击杀小龙500只"
+        },
+        "tchinese": {
+          "name": "殺龍如麻",
+          "description": "擊殺小龍500只"
+        }
+      }
+    },
+    "143": {
+      "translations": {
+        "english": {
+          "name": "1000 Dragons downed",
+          "description": "Slay 1,000 dragons"
+        },
+        "schinese": {
+          "name": "无龙可挡",
+          "description": "击杀小龙1000只"
+        },
+        "tchinese": {
+          "name": "無龍可擋",
+          "description": "擊殺小龍1000只"
+        }
+      }
+    },
+    "144": {
+      "translations": {
+        "english": {
+          "name": "2000 Dragons downed",
+          "description": "Slay 2,000 dragons"
+        },
+        "schinese": {
+          "name": "变态杀戮",
+          "description": "击杀小龙2000只"
+        },
+        "tchinese": {
+          "name": "變態殺戮",
+          "description": "擊殺小龍2000只"
+        }
+      }
+    },
+    "145": {
+      "translations": {
+        "english": {
+          "name": "5000 Dragons downed",
+          "description": "Slay 5,000 dragons"
+        },
+        "schinese": {
+          "name": "妖怪般的杀戮",
+          "description": "击杀小龙5000只"
+        },
+        "tchinese": {
+          "name": "妖怪般的殺戮",
+          "description": "擊殺小龍5000只"
+        }
+      }
+    },
+    "146": {
+      "translations": {
+        "english": {
+          "name": "10000 Dragons downed",
+          "description": "Slay 10,000 dragons"
+        },
+        "schinese": {
+          "name": "如同神一般的杀戮",
+          "description": "击杀小龙10000只"
+        },
+        "tchinese": {
+          "name": "如同神一般的殺戮",
+          "description": "擊殺小龍10000只"
+        }
+      }
+    }
+  }
+}

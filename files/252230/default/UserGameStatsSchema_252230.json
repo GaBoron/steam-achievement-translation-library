@@ -1,0 +1,1782 @@
+{
+  "version": 1,
+  "app_id": "252230",
+  "variant_id": "default",
+  "source_sha256": "cfbd89f45542106325db91ce3c74282808587425bfc38a99b7b88efd846dd3b0",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "schinese",
+    "spanish",
+    "tchinese"
+  ],
+  "achievements": {
+    "Knockout_King": {
+      "translations": {
+        "english": {
+          "name": "Knockout King",
+          "description": "Execute each type of enemy that can be executed."
+        },
+        "french": {
+          "name": "Le roi du K.O.",
+          "description": "Exécuter chaque type d'ennemi pouvant être exécuté."
+        },
+        "german": {
+          "name": "K.-o.-König",
+          "description": "Exekutiere jeden Feindtyp, der exekutiert werden kann."
+        },
+        "italian": {
+          "name": "Re del KO",
+          "description": "Giustizia tutti i tipi di nemici che possono essere giustiziati."
+        },
+        "japanese": {
+          "name": "処刑人",
+          "description": "殺害可能な敵全種類にとどめを刺す。"
+        },
+        "schinese": {
+          "name": "行刑者",
+          "description": "处决每种可处决的敌人"
+        },
+        "spanish": {
+          "name": "Rey del noqueo",
+          "description": "Ejecuta a todos los tipos de enemigo que puedes ejecutar."
+        },
+        "tchinese": {
+          "name": "KO 之王",
+          "description": "終結任一種類的敵人。"
+        }
+      }
+    },
+    "Arm_Robbery": {
+      "translations": {
+        "english": {
+          "name": "Arm Robbery",
+          "description": "Harvest each type of enemy that can be harvested."
+        },
+        "french": {
+          "name": "Les bras m'en tombent",
+          "description": "Récolter chaque type d'ennemi pouvant être récolté."
+        },
+        "german": {
+          "name": "Waffendiebstahl",
+          "description": "Hol dir eine Waffe von jedem Feindtyp, bei dem dies möglich ist."
+        },
+        "italian": {
+          "name": "Andando a braccio",
+          "description": "Cannibalizza tutti i tipi di nemici cannibalizzabili."
+        },
+        "japanese": {
+          "name": "解体マスター",
+          "description": "武器を採集可能な敵全種類から採集する。"
+        },
+        "schinese": {
+          "name": "肢解大师",
+          "description": "斩断每种可断肢敌人的肢体"
+        },
+        "spanish": {
+          "name": "Mutilador experto",
+          "description": "Mutila a todos los tipos de enemigo que puedes mutilar."
+        },
+        "tchinese": {
+          "name": "武裝打劫",
+          "description": "蒐集任一種類的敵人。"
+        }
+      }
+    },
+    "Lust_for_Unlife": {
+      "translations": {
+        "english": {
+          "name": "Lust for Unlife",
+          "description": "Activate Bloodlust 10 times."
+        },
+        "french": {
+          "name": "Soif de non-vie",
+          "description": "Activer la Soif de sang 10 fois."
+        },
+        "german": {
+          "name": "Der Rausch des Ablebens",
+          "description": "Aktiviere Blutrausch 10 Mal."
+        },
+        "italian": {
+          "name": "Sete di zombi",
+          "description": "Attiva la Sete di sangue 10 volte."
+        },
+        "japanese": {
+          "name": "血の洗礼",
+          "description": "ブラッドラストを10回発動する。"
+        },
+        "schinese": {
+          "name": "血的洗礼",
+          "description": "激活嗜血模式10次"
+        },
+        "spanish": {
+          "name": "Espíritu asesino",
+          "description": "Desata tu instinto asesino 10 veces."
+        },
+        "tchinese": {
+          "name": "對殭屍的渴求",
+          "description": "啟動嗜血模式 10 次。"
+        }
+      }
+    },
+    "Time_to_Kill": {
+      "translations": {
+        "english": {
+          "name": "Time to Kill",
+          "description": "Enter Ninja Time 50 times."
+        },
+        "french": {
+          "name": "Mode élimination",
+          "description": "Passer en mode Ninja 50 fois."
+        },
+        "german": {
+          "name": "Zeit des Todes",
+          "description": "Aktivere die Ninja-Zeit 50 Mal."
+        },
+        "italian": {
+          "name": "Voglia di viscere",
+          "description": "Entra 50 volte in tempo ninja."
+        },
+        "japanese": {
+          "name": "タイム・トゥ・キル",
+          "description": "ニンジャタイムを50回発動する。"
+        },
+        "schinese": {
+          "name": "杀戮时刻",
+          "description": "进入忍者时间50次"
+        },
+        "spanish": {
+          "name": "Hora de matar",
+          "description": "Entra 50 veces en la hora del ninja."
+        },
+        "tchinese": {
+          "name": "殺戮時刻",
+          "description": "進入忍者時刻 50 次。"
+        }
+      }
+    },
+    "Cant_Touch_This": {
+      "translations": {
+        "english": {
+          "name": "Can't Touch This",
+          "description": "Counter each enemy type."
+        },
+        "french": {
+          "name": "Intouchable",
+          "description": "Contrer chaque type d'ennemi."
+        },
+        "german": {
+          "name": "Unantastbar",
+          "description": "Kontere gegen jeden Feindtyp."
+        },
+        "italian": {
+          "name": "Di qui non si passa",
+          "description": "Contrattacca ogni tipo di nemico."
+        },
+        "japanese": {
+          "name": "アンタッチャブル",
+          "description": "全種類の敵にカウンターを発動する。"
+        },
+        "schinese": {
+          "name": "不可触碰",
+          "description": "反击每种敌人"
+        },
+        "spanish": {
+          "name": "Intocable",
+          "description": "Contraataca a cada tipo de enemigo."
+        },
+        "tchinese": {
+          "name": "誰准你碰",
+          "description": "對每一種類型敵人發動反擊。"
+        }
+      }
+    },
+    "Breaking_Baddies": {
+      "translations": {
+        "english": {
+          "name": "Breaking Baddies",
+          "description": "Congeal 50 enemies with bile crystals."
+        },
+        "french": {
+          "name": "Casser du vilain",
+          "description": "Figer 50 ennemis avec des cristaux de bile."
+        },
+        "german": {
+          "name": "Wie gelähmt",
+          "description": "Lasse 50 Feinde mit Schleimkristallen erstarren."
+        },
+        "italian": {
+          "name": "Grumi e frantumi",
+          "description": "Paralizza 50 nemici con i cristalli di bile."
+        },
+        "japanese": {
+          "name": "結晶戦",
+          "description": "敵50体を毒液の結晶で凝結させる。"
+        },
+        "schinese": {
+          "name": "粉碎恶棍",
+          "description": "用毒液结晶凝固50个敌人"
+        },
+        "spanish": {
+          "name": "Adicto al cristal",
+          "description": "Solidifica a 50 enemigos con cristales de bilis."
+        },
+        "tchinese": {
+          "name": "碎碎平安",
+          "description": "用膽汁晶體凝結 50 個敵人。"
+        }
+      }
+    },
+    "Makes_Me_Want_to_Throw_Up": {
+      "translations": {
+        "english": {
+          "name": "Makes Me Want to Throw Up",
+          "description": "Throw 50 zombies."
+        },
+        "french": {
+          "name": "Bons à jeter",
+          "description": "Jeter 50 zombies."
+        },
+        "german": {
+          "name": "Werfen will gelernt sein",
+          "description": "Wirf 50 Zombies."
+        },
+        "italian": {
+          "name": "Lanciamorti",
+          "description": "Lancia 50 zombi."
+        },
+        "japanese": {
+          "name": "ゾンビスロワー",
+          "description": "ゾンビを50体投げる。"
+        },
+        "schinese": {
+          "name": "令人作呕",
+          "description": "投掷50个僵尸"
+        },
+        "spanish": {
+          "name": "Me dan ganas de potar",
+          "description": "Lanza 50 zombis."
+        },
+        "tchinese": {
+          "name": "這讓我丟人",
+          "description": "拋丟 50 隻殭屍。"
+        }
+      }
+    },
+    "Elementary_My_Dear_Monday": {
+      "translations": {
+        "english": {
+          "name": "Elementary, My Dear Monday",
+          "description": "Cause each type of elemental effect on zombies and in the environment."
+        },
+        "french": {
+          "name": "Élémentaire, ma chère Monday",
+          "description": "Provoquer chaque type d'effet élémentaire sur les zombies et sur l'environnement."
+        },
+        "german": {
+          "name": "Elementares Wissen",
+          "description": "Wirke alle verfügbaren Elementareffekte auf Zombies und in der Umgebung."
+        },
+        "italian": {
+          "name": "Elementare, cara Monday",
+          "description": "Provoca tutti i tipi di effetti elementali sugli zombi e sull'ambiente."
+        },
+        "japanese": {
+          "name": "エレメンタルボス",
+          "description": "ゾンビおよび周囲に対し、全種類のエレメント効果を発生させる。"
+        },
+        "schinese": {
+          "name": "元素高手",
+          "description": "对僵尸及其周边环境造成每种类型的元素效果"
+        },
+        "spanish": {
+          "name": "Elemental, mi querida Lunes",
+          "description": "Lanza todos los tipos de ataques elementales sobre los zombis y el escenario."
+        },
+        "tchinese": {
+          "name": "小意思，我親愛的星期一",
+          "description": "對殭屍與環境造成每一種類型的元素效果。"
+        }
+      }
+    },
+    "Better_Dying_Through_Chemistry": {
+      "translations": {
+        "english": {
+          "name": "Better Dying Through Chemistry",
+          "description": "Cause 50 elemental effects."
+        },
+        "french": {
+          "name": "Le petit chimiste",
+          "description": "Provoquer 50 effets élémentaires."
+        },
+        "german": {
+          "name": "Schöner sterben durch Chemie",
+          "description": "Wirke 50 elementare Effekte."
+        },
+        "italian": {
+          "name": "Meraviglie della chimica",
+          "description": "Provoca 50 effetti elementali."
+        },
+        "japanese": {
+          "name": "エレメンタルマスター",
+          "description": "エレメント効果を50回発生させる。"
+        },
+        "schinese": {
+          "name": "元素大师",
+          "description": "造成50次元素效果"
+        },
+        "spanish": {
+          "name": "Física y química",
+          "description": "Provoca 50 efectos elementales."
+        },
+        "tchinese": {
+          "name": "情願死於化學反應",
+          "description": "造成 50 次元素效果。"
+        }
+      }
+    },
+    "Patient_0": {
+      "translations": {
+        "english": {
+          "name": "Patient 0",
+          "description": "Create 7 plague clouds."
+        },
+        "french": {
+          "name": "Malade 0",
+          "description": "Créer 7 Nuages pestilentiels."
+        },
+        "german": {
+          "name": "Patienten 0",
+          "description": "Erzeuge 7 Seuchenwolken."
+        },
+        "italian": {
+          "name": "Malati 0",
+          "description": "Crea 7 nubi pestilenziali."
+        },
+        "japanese": {
+          "name": "患者 0",
+          "description": "疫病の雲を7回発生させる。"
+        },
+        "schinese": {
+          "name": "零号病人",
+          "description": "制造7朵瘟疫云"
+        },
+        "spanish": {
+          "name": "Enfermo 0",
+          "description": "Crea 7 nubes tóxicas."
+        },
+        "tchinese": {
+          "name": "病人 0",
+          "description": "造成 7 次瘟疫雲。"
+        }
+      }
+    },
+    "Just_the_Tip": {
+      "translations": {
+        "english": {
+          "name": "Just the Tip",
+          "description": "Complete Mission 1."
+        },
+        "french": {
+          "name": "Juste la partie visible",
+          "description": "Terminer la mission 1."
+        },
+        "german": {
+          "name": "Nur der Anfang",
+          "description": "Schließe Mission 1 ab."
+        },
+        "italian": {
+          "name": "Solo la punta",
+          "description": "Completa la missione 1."
+        },
+        "japanese": {
+          "name": "ほんの序の口",
+          "description": "Level 1をクリアする。"
+        },
+        "schinese": {
+          "name": "初露锋芒",
+          "description": "完成任务1"
+        },
+        "spanish": {
+          "name": "Solo la puntita",
+          "description": "Completa la misión 1."
+        },
+        "tchinese": {
+          "name": "這只是開端",
+          "description": "完成任務 1。"
+        }
+      }
+    },
+    "The_City_is_Slicker": {
+      "translations": {
+        "english": {
+          "name": "The City is Slicker",
+          "description": "Complete Mission 2."
+        },
+        "french": {
+          "name": "Ville visqueuse",
+          "description": "Terminer la mission 2."
+        },
+        "german": {
+          "name": "Großstädter",
+          "description": "Schließe Mission 2 ab."
+        },
+        "italian": {
+          "name": "Tutta mia è la città",
+          "description": "Completa la missione 2."
+        },
+        "japanese": {
+          "name": "ペテンの街",
+          "description": "Level 2をクリアする。"
+        },
+        "schinese": {
+          "name": "旧城故事",
+          "description": "完成任务2"
+        },
+        "spanish": {
+          "name": "Ciudad cosmopolita",
+          "description": "Completa la misión 2."
+        },
+        "tchinese": {
+          "name": "滑溜的城市",
+          "description": "完成任務 2。"
+        }
+      }
+    },
+    "Ninja_Turdle": {
+      "translations": {
+        "english": {
+          "name": "Ninja Turdle",
+          "description": "Complete Mission 3."
+        },
+        "french": {
+          "name": "Tordu ninja",
+          "description": "Terminer la mission 3."
+        },
+        "german": {
+          "name": "Nunja, Turtles …",
+          "description": "Schließe Mission 3 ab."
+        },
+        "italian": {
+          "name": "Cintura marrone",
+          "description": "Completa la missione 3."
+        },
+        "japanese": {
+          "name": "ニンジャ・タードル",
+          "description": "Level 3をクリアする。"
+        },
+        "schinese": {
+          "name": "忍者神龟",
+          "description": "完成任务3"
+        },
+        "spanish": {
+          "name": "Tortruños Ninja",
+          "description": "Completa la misión 3."
+        },
+        "tchinese": {
+          "name": "廢物忍者",
+          "description": "完成任務 3。"
+        }
+      }
+    },
+    "Echo_Location": {
+      "translations": {
+        "english": {
+          "name": "Echo Location",
+          "description": "Complete Mission 4."
+        },
+        "french": {
+          "name": "Écholocation",
+          "description": "Terminer la mission 4."
+        },
+        "german": {
+          "name": "Echoortung",
+          "description": "Schließe Mission 4 ab."
+        },
+        "italian": {
+          "name": "Ecolocalizzazione",
+          "description": "Completa la missione 4."
+        },
+        "japanese": {
+          "name": "エコー・ロケーション",
+          "description": "Level 4をクリアする。"
+        },
+        "schinese": {
+          "name": "回声定位",
+          "description": "完成任务4"
+        },
+        "spanish": {
+          "name": "Eco, ecoooo",
+          "description": "Completa la misión 4."
+        },
+        "tchinese": {
+          "name": "餘音繚繞之處",
+          "description": "完成任務 4。"
+        }
+      }
+    },
+    "I_Hate_That_Guy": {
+      "translations": {
+        "english": {
+          "name": "I Hate That Guy",
+          "description": "Complete Mission 5."
+        },
+        "french": {
+          "name": "Je hais ce type",
+          "description": "Terminer la mission 5."
+        },
+        "german": {
+          "name": "Ich hasse diesen Kerl",
+          "description": "Schließe Mission 5 ab."
+        },
+        "italian": {
+          "name": "Io quello lo odio",
+          "description": "Completa la missione 5."
+        },
+        "japanese": {
+          "name": "ムカつく野郎だ",
+          "description": "Level 5をクリアする。"
+        },
+        "schinese": {
+          "name": "无耻混蛋",
+          "description": "完成任务5"
+        },
+        "spanish": {
+          "name": "Mierda de tío",
+          "description": "Completa la misión 5."
+        },
+        "tchinese": {
+          "name": "我討厭那傢伙",
+          "description": "完成任務 5。"
+        }
+      }
+    },
+    "All_Your_Base": {
+      "translations": {
+        "english": {
+          "name": "All Your Base",
+          "description": "Complete Mission 6."
+        },
+        "french": {
+          "name": "Retour à la base",
+          "description": "Terminer la mission 6."
+        },
+        "german": {
+          "name": "Wie zu Hause",
+          "description": "Schließe Mission 6 ab."
+        },
+        "italian": {
+          "name": "Base dolce base",
+          "description": "Completa la missione 6."
+        },
+        "japanese": {
+          "name": "アジト制圧",
+          "description": "Level 6をクリアする。"
+        },
+        "schinese": {
+          "name": "安全藏身",
+          "description": "完成任务6"
+        },
+        "spanish": {
+          "name": "Sede principal",
+          "description": "Completa la misión 6."
+        },
+        "tchinese": {
+          "name": "攻占地盤",
+          "description": "完成任務 6。"
+        }
+      }
+    },
+    "Stone_Carver": {
+      "translations": {
+        "english": {
+          "name": "Stone Carver",
+          "description": "Complete Mission 7."
+        },
+        "french": {
+          "name": "Tailleur de pierre",
+          "description": "Terminer la mission 7."
+        },
+        "german": {
+          "name": "Steinmetz",
+          "description": "Schließe Mission 7 ab."
+        },
+        "italian": {
+          "name": "Crivellapietra",
+          "description": "Completa la missione 7."
+        },
+        "japanese": {
+          "name": "石の彫刻家",
+          "description": "Level 7をクリアする。"
+        },
+        "schinese": {
+          "name": "刻石之人",
+          "description": "完成任务7"
+        },
+        "spanish": {
+          "name": "Pasado por la piedra",
+          "description": "Completa la misión 7."
+        },
+        "tchinese": {
+          "name": "石頭上的雕刻",
+          "description": "完成任務 7。"
+        }
+      }
+    },
+    "Insert_Coin": {
+      "translations": {
+        "english": {
+          "name": "Insert Coin",
+          "description": "Play Arcade Mode."
+        },
+        "french": {
+          "name": "Insérer une pièce",
+          "description": "Jouer en mode Arcade."
+        },
+        "german": {
+          "name": "Münze einwerfen",
+          "description": "Spiele den Arcade-Modus."
+        },
+        "italian": {
+          "name": "Inserire il gettone",
+          "description": "Gioca in modalità Arcade."
+        },
+        "japanese": {
+          "name": "「コインを入れてください」",
+          "description": "アーケードモードをプレイする。"
+        },
+        "schinese": {
+          "name": "投币",
+          "description": "游玩街机模式"
+        },
+        "spanish": {
+          "name": "Insertar moneda",
+          "description": "Juega al modo arcade."
+        },
+        "tchinese": {
+          "name": "請投入硬幣",
+          "description": "玩競技場模式。"
+        }
+      }
+    },
+    "Quartermaster": {
+      "translations": {
+        "english": {
+          "name": "Quartermaster",
+          "description": "Complete Arcade Mode."
+        },
+        "french": {
+          "name": "Se couper en quatre",
+          "description": "Terminer le mode Arcade."
+        },
+        "german": {
+          "name": "Meister der Spielhalle",
+          "description": "Schließe den Arcade-Modus ab."
+        },
+        "italian": {
+          "name": "Re della sala giochi",
+          "description": "Completa la modalità Arcade."
+        },
+        "japanese": {
+          "name": "コインマスター",
+          "description": "アーケードモードをクリアする。"
+        },
+        "schinese": {
+          "name": "军需官",
+          "description": "完成街机模式"
+        },
+        "spanish": {
+          "name": "Intendente",
+          "description": "Completa el modo arcade."
+        },
+        "tchinese": {
+          "name": "掌舵手",
+          "description": "完成競技場模式。"
+        }
+      }
+    },
+    "Izuna_Drop_the_Mic": {
+      "translations": {
+        "english": {
+          "name": "Izuna Drop the Mic",
+          "description": "Complete every Mission on Hard difficulty."
+        },
+        "french": {
+          "name": "Lâcher d'Izuna-vrant",
+          "description": "Terminer chaque mission en difficulté Difficile."
+        },
+        "german": {
+          "name": "Izuna-Finish",
+          "description": "Schließe alle Missionen auf Schwierigkeitsstufe "
+        },
+        "italian": {
+          "name": "Discesa di Izuna agli inferi",
+          "description": "Completa tutte le missioni a difficoltà Difficile."
+        },
+        "japanese": {
+          "name": "飯綱落とし",
+          "description": "難易度ハードで全Levelをクリアする。"
+        },
+        "schinese": {
+          "name": "饭纲落",
+          "description": "在困难难度下完成所有任务"
+        },
+        "spanish": {
+          "name": "Salto de Izuna al estrellato",
+          "description": "Completa todas las misiones en el modo difícil."
+        },
+        "tchinese": {
+          "name": "葉月大勝",
+          "description": "完成困難難度的每一項任務。"
+        }
+      }
+    },
+    "Ninjacked": {
+      "translations": {
+        "english": {
+          "name": "Ninjacked",
+          "description": "Complete every Mission on Nightmare difficulty."
+        },
+        "french": {
+          "name": "Ninjarranger le portrait",
+          "description": "Terminer chaque mission en difficulté Cauchemar."
+        },
+        "german": {
+          "name": "Ninjaträume",
+          "description": "Schließe alle Missionen auf Schwierigkeitsstufe "
+        },
+        "italian": {
+          "name": "Superninja",
+          "description": "Completa tutte le missioni a difficoltà Incubo."
+        },
+        "japanese": {
+          "name": "悪夢を越えて",
+          "description": "難易度ナイトメアで全Levelをクリアする。"
+        },
+        "schinese": {
+          "name": "噩梦之外",
+          "description": "在梦魇难度下完成所有任务"
+        },
+        "spanish": {
+          "name": "Pesadilla ninja",
+          "description": "Completa todas las misiones en el modo pesadilla."
+        },
+        "tchinese": {
+          "name": "忍者之神",
+          "description": "完成惡夢難度的每一項任務。"
+        }
+      }
+    },
+    "Hell_or_High_Slaughter": {
+      "translations": {
+        "english": {
+          "name": "Hell or High Slaughter",
+          "description": "Complete every Mission on Hell difficulty."
+        },
+        "french": {
+          "name": "Enfer ou boucherie",
+          "description": "Terminer chaque mission en difficulté Infernal."
+        },
+        "german": {
+          "name": "Durch die Hölle und zurück",
+          "description": "Schließe alle Missionen auf Schwierigkeitsstufe "
+        },
+        "italian": {
+          "name": "Massacro infernale",
+          "description": "Completa tutte le missioni a difficoltà Inferno."
+        },
+        "japanese": {
+          "name": "地獄の征服者",
+          "description": "難易度ヘルで全Levelをクリアする。"
+        },
+        "schinese": {
+          "name": "地狱征服者",
+          "description": "在地狱难度下完成所有任务"
+        },
+        "spanish": {
+          "name": "Infierno mortal",
+          "description": "Completa todas las misiones en el modo infierno."
+        },
+        "tchinese": {
+          "name": "地獄大屠殺",
+          "description": "完成地獄難度的每一項任務。"
+        }
+      }
+    },
+    "Chain_of_Command": {
+      "translations": {
+        "english": {
+          "name": "Chain of Command",
+          "description": "Achieve a 50-hit streak."
+        },
+        "french": {
+          "name": "Chaîne hiérarchique",
+          "description": "Effectuer une série de 50 coups."
+        },
+        "german": {
+          "name": "Befehlskette",
+          "description": "Erreiche eine 50-Treffer-Serie."
+        },
+        "italian": {
+          "name": "Catena di comando",
+          "description": "Realizza una serie di 50 colpi."
+        },
+        "japanese": {
+          "name": "チェーンマスター",
+          "description": "50コンボを達成する。"
+        },
+        "schinese": {
+          "name": "连锁大师",
+          "description": "达成50连击"
+        },
+        "spanish": {
+          "name": "Cadena de mando",
+          "description": "Ejecuta un combo de 50 golpes."
+        },
+        "tchinese": {
+          "name": "連鎖反應",
+          "description": "完成 50 次連續命中。"
+        }
+      }
+    },
+    "Combination_On_Lock": {
+      "translations": {
+        "english": {
+          "name": "Combination On Lock",
+          "description": "Achieve a 100-hit streak."
+        },
+        "french": {
+          "name": "Combinaison verrouillée",
+          "description": "Effectuer une série de 100 coups."
+        },
+        "german": {
+          "name": "Glückssträhne",
+          "description": "Erreiche eine 100-Treffer-Serie."
+        },
+        "italian": {
+          "name": "Combinazione d'aggancio",
+          "description": "Realizza una serie da 100 colpi."
+        },
+        "japanese": {
+          "name": "コンボマスター",
+          "description": "100コンボを達成する。"
+        },
+        "schinese": {
+          "name": "连击大师",
+          "description": "达成100连击"
+        },
+        "spanish": {
+          "name": "Combinación perfecta",
+          "description": "Ejecuta un combo de 100 golpes."
+        },
+        "tchinese": {
+          "name": "鎖定目標",
+          "description": "完成 100 次連續命中。"
+        }
+      }
+    },
+    "Well_Soiled_Machine": {
+      "translations": {
+        "english": {
+          "name": "Well-Soiled Machine",
+          "description": "Achieve a 200-hit streak."
+        },
+        "french": {
+          "name": "Sale mécanique",
+          "description": "Effectuer une série de 200 coups."
+        },
+        "german": {
+          "name": "Wenn‘s läuft, dann läuft‘s",
+          "description": "Erreiche eine 200-Treffer-Serie."
+        },
+        "italian": {
+          "name": "Olio di vomito",
+          "description": "Realizza una serie da 200 colpi."
+        },
+        "japanese": {
+          "name": "ゴッド・オブ・コンボ",
+          "description": "200コンボを達成する。"
+        },
+        "schinese": {
+          "name": "连击仙人",
+          "description": "达成200连击"
+        },
+        "spanish": {
+          "name": "Máquina de matar",
+          "description": "Ejecuta un combo de 200 golpes."
+        },
+        "tchinese": {
+          "name": "汙穢機器",
+          "description": "完成 200 次連續命中。"
+        }
+      }
+    },
+    "Limb_Swim": {
+      "translations": {
+        "english": {
+          "name": "Limb Swim",
+          "description": "Chain 5 or more executions together."
+        },
+        "french": {
+          "name": "Brasse coupée",
+          "description": "Enchaîner 5 exécutions ou plus."
+        },
+        "german": {
+          "name": "Exekutor",
+          "description": "Führe 5 oder mehr Exekutionen direkt nacheinander aus."
+        },
+        "italian": {
+          "name": "Spalla-nuoto",
+          "description": "Esegui una sequenza di 5 o più esecuzioni."
+        },
+        "japanese": {
+          "name": "必殺処刑人",
+          "description": "5回以上連続でエグゼキュートする。"
+        },
+        "schinese": {
+          "name": "致命行刑",
+          "description": "连续断肢5次或以上"
+        },
+        "spanish": {
+          "name": "Ejecutor supremo",
+          "description": "Encadena 5 ejecuciones o más."
+        },
+        "tchinese": {
+          "name": "肢離破碎",
+          "description": "連續完成 5 次以上的終結。"
+        }
+      }
+    },
+    "Card_Carrying_Dismember": {
+      "translations": {
+        "english": {
+          "name": "Card-Carrying Dismember",
+          "description": "Kill 1,000 zombies."
+        },
+        "french": {
+          "name": "Carte de démembre",
+          "description": "Tuer 1000 zombies."
+        },
+        "german": {
+          "name": "Ein guter Anfang",
+          "description": "Töte 1.000 Zombies."
+        },
+        "italian": {
+          "name": "Abbonato alla distruzione",
+          "description": "Uccidi 1000 zombi."
+        },
+        "japanese": {
+          "name": "ゾンビ解体協会正規会員",
+          "description": "ゾンビを1,000体倒す。"
+        },
+        "schinese": {
+          "name": "断肢执照",
+          "description": "击杀1000个僵尸"
+        },
+        "spanish": {
+          "name": "Desmembrador oficial",
+          "description": "Mata a 1000 zombis."
+        },
+        "tchinese": {
+          "name": "殺人機器",
+          "description": "擊殺 1000 隻殭屍。"
+        }
+      }
+    },
+    "An_Embarrassment_of_Liches": {
+      "translations": {
+        "english": {
+          "name": "An Embarrassment of Liches",
+          "description": "Kill 5,000 zombies."
+        },
+        "french": {
+          "name": "Zombies à profusion",
+          "description": "Tuer 5000 zombies."
+        },
+        "german": {
+          "name": "Leichenschmaus",
+          "description": "Töte 5.000 Zombies."
+        },
+        "italian": {
+          "name": "Salme a più non posso",
+          "description": "Uccidi 5000 zombi."
+        },
+        "japanese": {
+          "name": "ゾンビ・マスディストラクション",
+          "description": "ゾンビを5,000体倒す。"
+        },
+        "schinese": {
+          "name": "灭顶之灾",
+          "description": "击杀5000个僵尸"
+        },
+        "spanish": {
+          "name": "Vejador de no muertos",
+          "description": "Mata a 5000 zombis."
+        },
+        "tchinese": {
+          "name": "丟臉死屍",
+          "description": "擊殺 5000 隻殭屍。"
+        }
+      }
+    },
+    "A_Perfect_10": {
+      "translations": {
+        "english": {
+          "name": "A Perfect 10",
+          "description": "Take no damage and achieve Legend status in 10 arenas."
+        },
+        "french": {
+          "name": "10/10",
+          "description": "Atteindre le statut de Légende dans 10 arènes sans subir de dégâts."
+        },
+        "german": {
+          "name": "Einfach perfekt",
+          "description": "Erleide keinen Schaden und erreiche den Legenden-Status in 10 Arenen."
+        },
+        "italian": {
+          "name": "10 e lode",
+          "description": "Non subire danni e diventa Leggenda in 10 arene."
+        },
+        "japanese": {
+          "name": "パーフェクト10",
+          "description": "10のアリーナをノーダメージでプレイし、レジェンドステータスを獲得する。"
+        },
+        "schinese": {
+          "name": "完美十分",
+          "description": "无伤通过10个竞技场并获得传奇评价"
+        },
+        "spanish": {
+          "name": "¡He sacado un 10!",
+          "description": "Consigue el rango de \"Leyenda\" en 10 arenas sin sufrir ningún daño."
+        },
+        "tchinese": {
+          "name": "滿分！",
+          "description": "不受任何傷害於 10 場競技場中達到傳奇狀態。"
+        }
+      }
+    },
+    "A_Legend_in_His_Own_Grime": {
+      "translations": {
+        "english": {
+          "name": "A Legend in His Own Grime",
+          "description": "Get 25 Legend arena scores."
+        },
+        "french": {
+          "name": "Touché par la crasse",
+          "description": "Obtenir 25 scores de Légende en arènes."
+        },
+        "german": {
+          "name": "Legende in eigener Vorstellung",
+          "description": "Erreiche 25 Mal den Legenden-Status."
+        },
+        "italian": {
+          "name": "Una leggenda morto-vivente",
+          "description": "Ottieni 25 punteggi Leggenda nell'arena."
+        },
+        "japanese": {
+          "name": "レジェンド",
+          "description": "25のアリーナでレジェンドスコアを獲得する。"
+        },
+        "schinese": {
+          "name": "污垢传奇",
+          "description": "获得25个竞技场传奇评价"
+        },
+        "spanish": {
+          "name": "Sucia leyenda",
+          "description": "Consigue 25 rangos de \"Leyenda\" en las puntuaciones de las arenas."
+        },
+        "tchinese": {
+          "name": "反派英雄",
+          "description": "獲得 25 傳奇競技場分數。"
+        }
+      }
+    },
+    "Valedictgorian": {
+      "translations": {
+        "english": {
+          "name": "Valedictgorian",
+          "description": "Get 50 Legend arena scores."
+        },
+        "french": {
+          "name": "Major de commotion",
+          "description": "Obtenir 50 scores de Légende en arènes."
+        },
+        "german": {
+          "name": "Jahrgangsbester",
+          "description": "Erreiche 50 Mal den Legenden-Status."
+        },
+        "italian": {
+          "name": "Sanguinario straordinario",
+          "description": "Ottieni 50 punteggi Leggenda nell'arena."
+        },
+        "japanese": {
+          "name": "レジェンド・オブ・レジェンド",
+          "description": "50のアリーナでレジェンドスコアを獲得する。"
+        },
+        "schinese": {
+          "name": "化身传说",
+          "description": "获得50个竞技场传奇评价"
+        },
+        "spanish": {
+          "name": "Matrícula de deshonor",
+          "description": "Consigue 50 rangos de \"Leyenda\" en las puntuaciones de las arenas."
+        },
+        "tchinese": {
+          "name": "專業送喪者",
+          "description": "獲得 50 傳奇競技場分數。"
+        }
+      }
+    },
+    "Gate_Crasher": {
+      "translations": {
+        "english": {
+          "name": "Gate Crasher",
+          "description": "Destroy an obstacle with elemental effects."
+        },
+        "french": {
+          "name": "Roi de l'incruste",
+          "description": "Détruire un obstacle avec les effets élémentaires."
+        },
+        "german": {
+          "name": "Ungeladener Gast",
+          "description": "Zerstöre ein Hindernis mit Elementareffekten."
+        },
+        "italian": {
+          "name": "Scassinatore",
+          "description": "Distruggi un ostacolo con gli effetti elementali."
+        },
+        "japanese": {
+          "name": "ゲートクラッシャー",
+          "description": "エレメント効果で障害物を破壊する。"
+        },
+        "schinese": {
+          "name": "不请自来",
+          "description": "用元素效果摧毁障碍物"
+        },
+        "spanish": {
+          "name": "Rompepuertas",
+          "description": "Destruye un obstáculo con ataques elementales."
+        },
+        "tchinese": {
+          "name": "不速之客",
+          "description": "利用元素效果摧毀一個物件。"
+        }
+      }
+    },
+    "Too_Many_Words": {
+      "translations": {
+        "english": {
+          "name": "Too Many Words",
+          "description": "Collect all of the story collectibles."
+        },
+        "french": {
+          "name": "Trop de mots",
+          "description": "Collecter tous les objets à collecter de l'histoire."
+        },
+        "german": {
+          "name": "Zu viele Wörter",
+          "description": "Sammle alle Story-Sammelstücke."
+        },
+        "italian": {
+          "name": "Troppe parole",
+          "description": "Raccogli tutti gli oggetti storia."
+        },
+        "japanese": {
+          "name": "あまりにも多くの言葉",
+          "description": "ストーリーコレクションをすべて集める。"
+        },
+        "schinese": {
+          "name": "千言万语",
+          "description": "收集所有剧情收集品"
+        },
+        "spanish": {
+          "name": "Demasiadas palabras",
+          "description": "Encuentra todos los fragmentos de la historia."
+        },
+        "tchinese": {
+          "name": "太多的話",
+          "description": "蒐集到所有故事收藏項目。"
+        }
+      }
+    },
+    "Perky": {
+      "translations": {
+        "english": {
+          "name": "Perky",
+          "description": "Unlock all of Yaiba's upgrades."
+        },
+        "french": {
+          "name": "Guilleret",
+          "description": "Déverrouiller toutes les améliorations de Yaiba."
+        },
+        "german": {
+          "name": "Flotte Lotte",
+          "description": "Schalte Yaibas sämtliche Upgrades frei."
+        },
+        "italian": {
+          "name": "Accessoriato",
+          "description": "Sblocca tutti i potenziamenti di Yaiba."
+        },
+        "japanese": {
+          "name": "アップグレードマニア",
+          "description": "ヤイバのアップグレードをすべてアンロックする。"
+        },
+        "schinese": {
+          "name": "活力四射",
+          "description": "解锁所有能力升级"
+        },
+        "spanish": {
+          "name": "Nunca mejor",
+          "description": "Desbloquea todas las mejoras de Yaiba."
+        },
+        "tchinese": {
+          "name": "趾高氣昂",
+          "description": "解鎖所有刃的升級項目。"
+        }
+      }
+    },
+    "Flower_Power": {
+      "translations": {
+        "english": {
+          "name": "Flower Power",
+          "description": "Collect all the health shards."
+        },
+        "french": {
+          "name": "Flower Power",
+          "description": "Collecter tous les fragments de santé."
+        },
+        "german": {
+          "name": "Flowerpower",
+          "description": "Sammle alle Gesundheitssplitter."
+        },
+        "italian": {
+          "name": "Potere ai fiori",
+          "description": "Raccogli tutti i frammenti di salute."
+        },
+        "japanese": {
+          "name": "フラワーパワー",
+          "description": "体力の欠片をすべて集める。"
+        },
+        "schinese": {
+          "name": "花卉之力",
+          "description": "收集所有生命碎片"
+        },
+        "spanish": {
+          "name": "Poder de las flores",
+          "description": "Recoge todas las inyecciones de salud."
+        },
+        "tchinese": {
+          "name": "花粉症",
+          "description": "蒐集到所有體力包。"
+        }
+      }
+    },
+    "Cold_Shard_Cash": {
+      "translations": {
+        "english": {
+          "name": "Cold Shard Cash",
+          "description": "Collect all the elemental shards."
+        },
+        "french": {
+          "name": "Défragmentation",
+          "description": "Collecter tous les fragments élémentaires."
+        },
+        "german": {
+          "name": "Scherben bringen Glück",
+          "description": "Sammle alle Elementarsplitter."
+        },
+        "italian": {
+          "name": "Frammento dei contanti",
+          "description": "Raccogli tutti i frammenti elementali."
+        },
+        "japanese": {
+          "name": "ワンピース",
+          "description": "エレメントの欠片をすべて集める。"
+        },
+        "schinese": {
+          "name": "海盗之王",
+          "description": "收集所有元素碎片"
+        },
+        "spanish": {
+          "name": "Inyector elemental",
+          "description": "Recoge todas las inyecciones elementales."
+        },
+        "tchinese": {
+          "name": "包包到手",
+          "description": "蒐集到所有元素包。"
+        }
+      }
+    },
+    "Slight_Turbulence": {
+      "translations": {
+        "english": {
+          "name": "Slight Turbulence",
+          "description": "Yaiba has a rude awakening."
+        },
+        "french": {
+          "name": "Légères turbulences",
+          "description": "Yaiba a un réveil brutal."
+        },
+        "german": {
+          "name": "Leichte Turbulenzen",
+          "description": "Yaiba hat ein böses Erwachen."
+        },
+        "italian": {
+          "name": "Lieve turbolenza",
+          "description": "Yaiba si sveglia di cattivo umore."
+        },
+        "japanese": {
+          "name": "最悪の目覚め",
+          "description": "ヤイバが最悪の目覚めを経験する。"
+        },
+        "schinese": {
+          "name": "猛然惊醒",
+          "description": "被粗暴唤醒"
+        },
+        "spanish": {
+          "name": "Pequeñas turbulencias",
+          "description": "Yaiba se despierta con el pie izquierdo."
+        },
+        "tchinese": {
+          "name": "輕微湍流",
+          "description": "刃感到大夢初醒。"
+        }
+      }
+    },
+    "Armed_and_Dangerous": {
+      "translations": {
+        "english": {
+          "name": "Armed and Dangerous",
+          "description": "Yaiba gets an armful."
+        },
+        "french": {
+          "name": "Armé et dangereux",
+          "description": "Yaiba a le bras long."
+        },
+        "german": {
+          "name": "Bewaffnet und gefährlich",
+          "description": "Yaiba sammelt Waffen."
+        },
+        "italian": {
+          "name": "Armato e pericoloso",
+          "description": "Yaiba ha un nuovo asso nella manica."
+        },
+        "japanese": {
+          "name": "きわめて危険",
+          "description": "ヤイバが腕を手に入れる。"
+        },
+        "schinese": {
+          "name": "极度危险",
+          "description": "获得多功能机械臂"
+        },
+        "spanish": {
+          "name": "Armado y peligroso",
+          "description": "Yaiba se echa un par de manos."
+        },
+        "tchinese": {
+          "name": "危險軍火",
+          "description": "刃的裝備全滿。"
+        }
+      }
+    },
+    "Rubble_Trouble": {
+      "translations": {
+        "english": {
+          "name": "Rubble Trouble",
+          "description": "Yaiba survives quite the tumble."
+        },
+        "french": {
+          "name": "Chantier de démolition",
+          "description": "Yaiba survit à l'effondrement."
+        },
+        "german": {
+          "name": "Überleber",
+          "description": "Yaiba überlebt den tiefen Sturz."
+        },
+        "italian": {
+          "name": "Macerie poco serie",
+          "description": "Yaiba sopravvive a un bel capitombolo."
+        },
+        "japanese": {
+          "name": "九死に一生",
+          "description": "ヤイバが最初のピンチを切り抜ける。"
+        },
+        "schinese": {
+          "name": "九死一生",
+          "description": "在初次遇险中存活"
+        },
+        "spanish": {
+          "name": "Paracaidista",
+          "description": "Yaiba sobrevive a un batacazo."
+        },
+        "tchinese": {
+          "name": "高潮迭起",
+          "description": "刃在嚴重的跌跌撞撞之中生還。"
+        }
+      }
+    },
+    "Mad_Splatter": {
+      "translations": {
+        "english": {
+          "name": "Mad Splatter",
+          "description": "Yaiba reveals a family secret."
+        },
+        "french": {
+          "name": "Éclaboussure de rage",
+          "description": "Yaiba révèle un secret de famille."
+        },
+        "german": {
+          "name": "Nicht weitersagen!",
+          "description": "Yaiba lüftet ein Familiengeheimnis."
+        },
+        "italian": {
+          "name": "Crepare dalle risate",
+          "description": "Yaiba rivela un segreto di famiglia."
+        },
+        "japanese": {
+          "name": "マッド・スプラッター",
+          "description": "ヤイバが一族の秘密を明かす。"
+        },
+        "schinese": {
+          "name": "疯狂飞溅",
+          "description": "揭露家族秘密"
+        },
+        "spanish": {
+          "name": "Radio Patio",
+          "description": "Yaiba desvela un secreto familiar."
+        },
+        "tchinese": {
+          "name": "八卦本性",
+          "description": "刃揭發了一個家族的秘密。"
+        }
+      }
+    },
+    "Snot_My_Problem": {
+      "translations": {
+        "english": {
+          "name": "Snot My Problem",
+          "description": "Yaiba gets his hands dirty."
+        },
+        "french": {
+          "name": "Trompe-la-morve",
+          "description": "Yaiba se salit les mains."
+        },
+        "german": {
+          "name": "Schleimiges Problem",
+          "description": "Yaiba macht sich die Hände schmutzig."
+        },
+        "italian": {
+          "name": "Agli sgoccioli",
+          "description": "Yaiba si sporca le mani."
+        },
+        "japanese": {
+          "name": "知ったことじゃない",
+          "description": "ヤイバが手を汚す。"
+        },
+        "schinese": {
+          "name": "毫不在乎",
+          "description": "清理粘液，玷污双手"
+        },
+        "spanish": {
+          "name": "Con las armas en la masa",
+          "description": "Yaiba se ensucia las manos."
+        },
+        "tchinese": {
+          "name": "甩不掉的麻煩",
+          "description": "刃殺了人。"
+        }
+      }
+    },
+    "Cremation_Station": {
+      "translations": {
+        "english": {
+          "name": "Cremation Station",
+          "description": "Yaiba directs traffic."
+        },
+        "french": {
+          "name": "Destination crémation",
+          "description": "Yaiba fait la circulation."
+        },
+        "german": {
+          "name": "Endstation",
+          "description": "Yaiba leitet den Verkehr."
+        },
+        "italian": {
+          "name": "Ultima fermata",
+          "description": "Yaiba dirige il traffico."
+        },
+        "japanese": {
+          "name": "炎の終着駅",
+          "description": "ヤイバが交通整理をする。"
+        },
+        "schinese": {
+          "name": "烈焰终局",
+          "description": "清理障碍僵尸，疏导交通"
+        },
+        "spanish": {
+          "name": "Crematorio",
+          "description": "Yaiba dirige el tráfico."
+        },
+        "tchinese": {
+          "name": "火葬場",
+          "description": "刃指揮了交通。"
+        }
+      }
+    },
+    "Thats_a_Clown_Question": {
+      "translations": {
+        "english": {
+          "name": "That's a Clown Question",
+          "description": "Yaiba joins the crowd."
+        },
+        "french": {
+          "name": "Arrête ton cirque",
+          "description": "Yaiba prend un bain de foule."
+        },
+        "german": {
+          "name": "Eine Frage der Clownness",
+          "description": "Yaiba nimmt ein Bad in der Menge."
+        },
+        "italian": {
+          "name": "Che pagliacciata",
+          "description": "Yaiba si unisce alla folla."
+        },
+        "japanese": {
+          "name": "クラウン・クエスチョン",
+          "description": "ヤイバが群衆に紛れる。"
+        },
+        "schinese": {
+          "name": "愚蠢问题",
+          "description": "击败小丑僵尸，融入人群之中"
+        },
+        "spanish": {
+          "name": "Cuestión de payasos",
+          "description": "Yaiba se une a la multitud."
+        },
+        "tchinese": {
+          "name": "這就是小丑的問題了",
+          "description": "刃走入了群眾中。"
+        }
+      }
+    },
+    "Swords_and_Swollcery": {
+      "translations": {
+        "english": {
+          "name": "Swords and Swollcery",
+          "description": "Yaiba brings up a good point."
+        },
+        "french": {
+          "name": "Solide et sordide",
+          "description": "Yaiba met les poings sur les i."
+        },
+        "german": {
+          "name": "Schwerter und Schwellungen",
+          "description": "Yaiba hat schlagende Argumente."
+        },
+        "italian": {
+          "name": "Cappa e strage",
+          "description": "Yaiba si esprime in modo tagliente."
+        },
+        "japanese": {
+          "name": "ソードファイト",
+          "description": "ヤイバがうまいことやる。"
+        },
+        "schinese": {
+          "name": "剑艺决斗",
+          "description": "提出一个好主意"
+        },
+        "spanish": {
+          "name": "Moratones y mazmorras",
+          "description": "Yaiba dice algo importante."
+        },
+        "tchinese": {
+          "name": "針鋒相對",
+          "description": "刃表現得很好。"
+        }
+      }
+    },
+    "Thats_Pretty_Deep": {
+      "translations": {
+        "english": {
+          "name": "That's Pretty Deep",
+          "description": "Yaiba finds religion."
+        },
+        "french": {
+          "name": "Agir en profondeur",
+          "description": "Yaiba trouve la foi."
+        },
+        "german": {
+          "name": "Ziemlich tiefgehend",
+          "description": "Yaiba findet seinen Glauben."
+        },
+        "italian": {
+          "name": "Molto profondo",
+          "description": "Yaiba scopre la religione."
+        },
+        "japanese": {
+          "name": "生涯忘れられない経験",
+          "description": "ヤイバが「神」を見つける。"
+        },
+        "schinese": {
+          "name": "终生难忘",
+          "description": "找到了「神」"
+        },
+        "spanish": {
+          "name": "Lo profundo del asunto",
+          "description": "Yaiba descubre la religión."
+        },
+        "tchinese": {
+          "name": "好深阿",
+          "description": "刃找到了信仰。"
+        }
+      }
+    },
+    "Reheated_Leftover": {
+      "translations": {
+        "english": {
+          "name": "Reheated Leftover",
+          "description": "Yaiba doesn't sleep well."
+        },
+        "french": {
+          "name": "Restes réchauffés",
+          "description": "Yaiba ne dort pas bien."
+        },
+        "german": {
+          "name": "Aufgewärmte Reste",
+          "description": "Yaiba schläft nicht gut."
+        },
+        "italian": {
+          "name": "Avanzi riscaldati",
+          "description": "Yaiba non dorme tranquillo."
+        },
+        "japanese": {
+          "name": "昨日の残り物",
+          "description": "ヤイバが不眠に悩まされる。"
+        },
+        "schinese": {
+          "name": "回锅剩饭",
+          "description": "今夜无人入眠"
+        },
+        "spanish": {
+          "name": "Sobras recalentadas",
+          "description": "Yaiba no puede dormir."
+        },
+        "tchinese": {
+          "name": "炒冷飯",
+          "description": "刃沒有睡好。"
+        }
+      }
+    },
+    "The_Miracles_of_Science": {
+      "translations": {
+        "english": {
+          "name": "The Miracles of Science",
+          "description": "Yaiba returns to the scene of the crime."
+        },
+        "french": {
+          "name": "Les miracles de la science",
+          "description": "Yaiba retourne sur la scène du crime."
+        },
+        "german": {
+          "name": "Wunder der Wissenschaft",
+          "description": "Yaiba kehrt zum Tatort zurück."
+        },
+        "italian": {
+          "name": "I miracoli della scienza",
+          "description": "Yaiba torna sulla scena del crimine."
+        },
+        "japanese": {
+          "name": "科学の奇跡",
+          "description": "ヤイバが犯罪計画の現場に戻る。"
+        },
+        "schinese": {
+          "name": "科学奇迹",
+          "description": "回到犯罪现场"
+        },
+        "spanish": {
+          "name": "Milagros de la ciencia",
+          "description": "Yaiba vuelve a la escena del crimen."
+        },
+        "tchinese": {
+          "name": "科學奇蹟",
+          "description": "刃返回了犯罪現場。"
+        }
+      }
+    },
+    "Staycation": {
+      "translations": {
+        "english": {
+          "name": "Staycation",
+          "description": "Yaiba gets some fresh air."
+        },
+        "french": {
+          "name": "Vacances à domicile",
+          "description": "Yaiba prend l'air."
+        },
+        "german": {
+          "name": "Frischluft",
+          "description": "Yaiba schnappt etwas frische Luft."
+        },
+        "italian": {
+          "name": "Vacanze in casa",
+          "description": "Yaiba prende un po' d'aria."
+        },
+        "japanese": {
+          "name": "息抜き",
+          "description": "ヤイバが要塞から抜け出す。"
+        },
+        "schinese": {
+          "name": "喘息片刻",
+          "description": "从要塞中逃脱"
+        },
+        "spanish": {
+          "name": "En casa por vacaciones",
+          "description": "Yaiba se va a tomar el aire."
+        },
+        "tchinese": {
+          "name": "在家休息",
+          "description": "刃呼吸到一些新鮮空氣。"
+        }
+      }
+    },
+    "The_Accidental_Tourist": {
+      "translations": {
+        "english": {
+          "name": "The Accidental Tourist",
+          "description": "Yaiba sets aside time for traveling."
+        },
+        "french": {
+          "name": "Voyageur malgré lui",
+          "description": "Yaiba s'accorde du temps pour voyager."
+        },
+        "german": {
+          "name": "Tourist wider Willen",
+          "description": "Yaiba nimmt sich Zeit zum Reisen."
+        },
+        "italian": {
+          "name": "Turista per caso",
+          "description": "Yaiba si fa un viaggetto."
+        },
+        "japanese": {
+          "name": "思いがけない冒険者",
+          "description": "ヤイバが旅行の時間を作る。"
+        },
+        "schinese": {
+          "name": "意外游客",
+          "description": "抽出时间去旅行"
+        },
+        "spanish": {
+          "name": "Turista accidental",
+          "description": "Yaiba reserva un poco de tiempo para viajar."
+        },
+        "tchinese": {
+          "name": "意外的旅客",
+          "description": "刃撥出時間去旅行。"
+        }
+      }
+    }
+  }
+}

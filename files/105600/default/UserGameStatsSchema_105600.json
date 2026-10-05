@@ -1,0 +1,1656 @@
+{
+  "version": 1,
+  "app_id": "105600",
+  "variant_id": "default",
+  "source_sha256": "c0445863acaa26110d706d290c7a27a570876722b58c2888f945ee474fdbb260",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "TIMBER": {
+      "translations": {
+        "english": {
+          "name": "Timber!!",
+          "description": "Chop down your first tree."
+        },
+        "schinese": {
+          "name": "木材！！",
+          "description": "砍倒第一棵树。"
+        }
+      }
+    },
+    "NO_HOBO": {
+      "translations": {
+        "english": {
+          "name": "No Hobo",
+          "description": "Build a house suitable enough for your first town NPC, such as the guide, to move into."
+        },
+        "schinese": {
+          "name": "有家可归",
+          "description": "建造一栋足够大的房屋，让第一个城镇NPC（如向导）住进来。"
+        }
+      }
+    },
+    "OBTAIN_HAMMER": {
+      "translations": {
+        "english": {
+          "name": "Stop! Hammer Time!",
+          "description": "Obtain your first hammer via crafting or otherwise."
+        },
+        "schinese": {
+          "name": "停！锤子时间到！",
+          "description": "通过制作或其他方式获得第一把锤子。"
+        }
+      }
+    },
+    "OOO_SHINY": {
+      "translations": {
+        "english": {
+          "name": "Ooo! Shiny!",
+          "description": "Mine your first nugget of ore with a pickaxe."
+        },
+        "schinese": {
+          "name": "哦！亮闪闪！",
+          "description": "用镐开采第一块矿石。"
+        }
+      }
+    },
+    "HEART_BREAKER": {
+      "translations": {
+        "english": {
+          "name": "Heart Breaker",
+          "description": "Discover and smash your first heart crystal underground."
+        },
+        "schinese": {
+          "name": "伤心者",
+          "description": "首次在地下发现并粉碎水晶之心。"
+        }
+      }
+    },
+    "HEAVY_METAL": {
+      "translations": {
+        "english": {
+          "name": "Heavy Metal",
+          "description": "Obtain an anvil made from iron or lead."
+        },
+        "schinese": {
+          "name": "重金属",
+          "description": "获得由铁或铅制成的砧子。"
+        }
+      }
+    },
+    "I_AM_LOOT": {
+      "translations": {
+        "english": {
+          "name": "I Am Loot!",
+          "description": "Discover a golden chest underground and take a peek at its contents."
+        },
+        "schinese": {
+          "name": "战利品！",
+          "description": "在地下找到一个金宝箱并看看里面有什么。"
+        }
+      }
+    },
+    "STAR_POWER": {
+      "translations": {
+        "english": {
+          "name": "Star Power",
+          "description": "Craft a mana crystal out of fallen stars, and consume it."
+        },
+        "schinese": {
+          "name": "星之力",
+          "description": "使用坠落之星制作魔力水晶并使用它。"
+        }
+      }
+    },
+    "HOLD_ON_TIGHT": {
+      "translations": {
+        "english": {
+          "name": "Hold on Tight!",
+          "description": "Equip your first grappling hook."
+        },
+        "schinese": {
+          "name": "抓紧！",
+          "description": "首次装备钩爪。"
+        }
+      }
+    },
+    "EYE_ON_YOU": {
+      "translations": {
+        "english": {
+          "name": "Eye on You",
+          "description": "Defeat the Eye of Cthulhu, an ocular menace who only appears at night."
+        },
+        "schinese": {
+          "name": "盯着你",
+          "description": "打败克苏鲁之眼，它是只在夜间出没的危险眼球怪。"
+        }
+      }
+    },
+    "SMASHING_POPPET": {
+      "translations": {
+        "english": {
+          "name": "Smashing, Poppet!",
+          "description": "Using explosives or your trusty hammer, smash a Shadow Orb or Crimson Heart in the evil parts of your world."
+        },
+        "schinese": {
+          "name": "碎得漂亮，小乖乖！",
+          "description": "使用炸药或可靠的锤子，在世界的邪恶地带中粉碎暗影珠或猩红之心。"
+        }
+      }
+    },
+    "WORM_FODDER": {
+      "translations": {
+        "english": {
+          "name": "Worm Fodder",
+          "description": "Defeat the Eater of Worlds, a massive worm whom dwells in the corruption."
+        },
+        "schinese": {
+          "name": "虫粮",
+          "description": "打败世界吞噬怪，它是居住在腐化之地的巨虫。"
+        }
+      }
+    },
+    "MASTERMIND": {
+      "translations": {
+        "english": {
+          "name": "Mastermind",
+          "description": "Defeat the Brain of Cthulhu, an enourmous demon brain which haunts the creeping crimson."
+        },
+        "schinese": {
+          "name": "最强大脑",
+          "description": "打败克苏鲁之脑，它是出没在让人毛骨悚然的猩红之地的巨大恶魔大脑。"
+        }
+      }
+    },
+    "WHERES_MY_HONEY": {
+      "translations": {
+        "english": {
+          "name": "Where's My Honey?",
+          "description": "Discover a large bee's hive deep in the jungle."
+        },
+        "schinese": {
+          "name": "我的甜甜在哪儿？",
+          "description": "发现丛林深处的巨蜂蜂巢。"
+        }
+      }
+    },
+    "STING_OPERATION": {
+      "translations": {
+        "english": {
+          "name": "Sting Operation",
+          "description": "Defeat the Queen Bee, the matriarch of the jungle hives."
+        },
+        "schinese": {
+          "name": "蜇刺行动",
+          "description": "打败蜂王，它是统治丛林蜂巢的女王。"
+        }
+      }
+    },
+    "BONED": {
+      "translations": {
+        "english": {
+          "name": "Boned",
+          "description": "Defeat Skeletron, the cursed guardian of the dungeon."
+        },
+        "schinese": {
+          "name": "粉身碎骨",
+          "description": "打败骷髅王，它是被诅咒的地牢守卫。"
+        }
+      }
+    },
+    "DUNGEON_HEIST": {
+      "translations": {
+        "english": {
+          "name": "Dungeon Heist",
+          "description": "Steal a key from the dungeon's undead denizens, and unlock one of their precious golden chests."
+        },
+        "schinese": {
+          "name": "地牢大劫案",
+          "description": "从地牢的亡灵居民处偷取钥匙，并打开一个它们的宝贵金宝箱。"
+        }
+      }
+    },
+    "ITS_GETTING_HOT_IN_HERE": {
+      "translations": {
+        "english": {
+          "name": "It's Getting Hot in Here",
+          "description": "Spelunk deep enough to reach the molten underworld."
+        },
+        "schinese": {
+          "name": "越来越热",
+          "description": "深入洞穴探险，到达熔火地狱。"
+        }
+      }
+    },
+    "MINER_FOR_FIRE": {
+      "translations": {
+        "english": {
+          "name": "Miner for Fire",
+          "description": "Craft a molten pickaxe using the hottest of materials."
+        },
+        "schinese": {
+          "name": "烈焰矿工",
+          "description": "使用最热的材料制作熔岩镐。"
+        }
+      }
+    },
+    "STILL_HUNGRY": {
+      "translations": {
+        "english": {
+          "name": "Still Hungry",
+          "description": "Defeat the Wall of Flesh, the master and core of the world who arises after a great, burning sacrifice."
+        },
+        "schinese": {
+          "name": "野心依旧",
+          "description": "打败血肉墙，它是世界的主宰与核心，会在伟大的燃烧献祭后出现。"
+        }
+      }
+    },
+    "ITS_HARD": {
+      "translations": {
+        "english": {
+          "name": "It's Hard!",
+          "description": "Unleash the ancient spirits of light and darkness across your world, enabling much stronger foes and showering the world with dazzling treasures (and rainbows!)."
+        },
+        "schinese": {
+          "name": "举步维艰！",
+          "description": "在你的世界里释放古老的光明与黑暗之魂，让更强大的敌人出现，并用耀眼夺目的宝藏（和彩虹！）洗礼世界。"
+        }
+      }
+    },
+    "BEGONE_EVIL": {
+      "translations": {
+        "english": {
+          "name": "Begone, Evil!",
+          "description": "Smash a demon or crimson altar with a powerful, holy hammer."
+        },
+        "schinese": {
+          "name": "滚开，恶魔！",
+          "description": "用强大而神圣的锤子砸碎恶魔或猩红祭坛。"
+        }
+      }
+    },
+    "EXTRA_SHINY": {
+      "translations": {
+        "english": {
+          "name": "Extra Shiny!",
+          "description": "Mine a powerful ore that has been newly blessed upon your world."
+        },
+        "schinese": {
+          "name": "光彩夺目！",
+          "description": "开采你的世界新获赐的强大矿石。"
+        }
+      }
+    },
+    "HEAD_IN_THE_CLOUDS": {
+      "translations": {
+        "english": {
+          "name": "Head in the Clouds",
+          "description": "Equip a pair of wings."
+        },
+        "schinese": {
+          "name": "冲上云霄",
+          "description": "装备一对翅膀。"
+        }
+      }
+    },
+    "LIKE_A_BOSS": {
+      "translations": {
+        "english": {
+          "name": "Like a Boss",
+          "description": "Obtain a boss-summoning item."
+        },
+        "schinese": {
+          "name": "霸气侧漏",
+          "description": "获得召唤Boss的物品。"
+        }
+      }
+    },
+    "BUCKETS_OF_BOLTS": {
+      "translations": {
+        "english": {
+          "name": "Buckets of Bolts",
+          "description": "Defeat the three nocturnal mechanical menaces: the Twins, the Destroyer, and Skeletron Prime."
+        },
+        "schinese": {
+          "name": "万矢齐发",
+          "description": "打败三个夜间出没的危险机械怪物：双子魔眼、毁灭者和机械骷髅王。"
+        }
+      }
+    },
+    "DRAX_ATTAX": {
+      "translations": {
+        "english": {
+          "name": "Drax Attax",
+          "description": "Craft a drax or pickaxe axe using hallowed bars, and the souls of the three mechanical bosses."
+        },
+        "schinese": {
+          "name": "斧钻战队",
+          "description": "用神圣锭和三个机械Boss的灵魂制作斧钻或镐斧。"
+        }
+      }
+    },
+    "PHOTOSYNTHESIS": {
+      "translations": {
+        "english": {
+          "name": "Photosynthesis",
+          "description": "Mine chlorophyte, an organic ore found deep among the thickest of flora."
+        },
+        "schinese": {
+          "name": "光合作用",
+          "description": "开采叶绿矿石，一种深藏在最稠密的植物中的有机矿石。"
+        }
+      }
+    },
+    "GET_A_LIFE": {
+      "translations": {
+        "english": {
+          "name": "Get a Life",
+          "description": "Consume a life fruit, which grows in the thick of subterranean jungle grass."
+        },
+        "schinese": {
+          "name": "重获新生",
+          "description": "吃一个生命果，这种果子长在茂密的地下丛林草地中。"
+        }
+      }
+    },
+    "THE_GREAT_SOUTHERN_PLANTKILL": {
+      "translations": {
+        "english": {
+          "name": "The Great Southern Plantkill",
+          "description": "Defeat Plantera, the overgrown monstrosity of the jungle's depths."
+        },
+        "schinese": {
+          "name": "大南方植物终结者",
+          "description": "打败世纪之花，它是蔓生在丛林深处的畸形怪花。"
+        }
+      }
+    },
+    "TEMPLE_RAIDER": {
+      "translations": {
+        "english": {
+          "name": "Temple Raider",
+          "description": "Breach the impenetrable walls of the jungle temple."
+        },
+        "schinese": {
+          "name": "神庙丽影",
+          "description": "攻破丛林神庙坚不可摧的墙。"
+        }
+      }
+    },
+    "LIHZAHRDIAN_IDOL": {
+      "translations": {
+        "english": {
+          "name": "Lihzahrdian Idol",
+          "description": "Defeat Golem, the stone-faced ritualistic idol of the lihzahrd tribe."
+        },
+        "schinese": {
+          "name": "丛林蜥蜴之神",
+          "description": "打败石巨人，它是丛林蜥蜴部落的石脸祭祀神像。"
+        }
+      }
+    },
+    "ROBBING_THE_GRAVE": {
+      "translations": {
+        "english": {
+          "name": "Robbing the Grave",
+          "description": "Obtain a rare treasure from a difficult monster in the dungeon."
+        },
+        "schinese": {
+          "name": "盗墓",
+          "description": "从难对付的地牢怪兽那儿获得稀世珍宝。"
+        }
+      }
+    },
+    "BIG_BOOTY": {
+      "translations": {
+        "english": {
+          "name": "Big Booty",
+          "description": "Unlock one of the dungeon's large, mysterious chests with a special key."
+        },
+        "schinese": {
+          "name": "丰厚战利品",
+          "description": "用一把特别的钥匙打开地牢中的其中一个神秘大宝箱。"
+        }
+      }
+    },
+    "FISH_OUT_OF_WATER": {
+      "translations": {
+        "english": {
+          "name": "Fish Out of Water",
+          "description": "Defeat Duke Fishron, mutant terror of the sea."
+        },
+        "schinese": {
+          "name": "离水之鱼",
+          "description": "打败猪龙鱼公爵，他是大海中的变异怪兽。"
+        }
+      }
+    },
+    "OBSESSIVE_DEVOTION": {
+      "translations": {
+        "english": {
+          "name": "Obsessive Devotion",
+          "description": "Defeat the Ancient Cultist, fanatical leader of the dungeon coven."
+        },
+        "schinese": {
+          "name": "虔诚信仰",
+          "description": "打败远古邪教徒，他是地牢巫团的狂热首领。"
+        }
+      }
+    },
+    "STAR_DESTROYER": {
+      "translations": {
+        "english": {
+          "name": "Star Destroyer",
+          "description": "Defeat the four celestial towers of the moon."
+        },
+        "schinese": {
+          "name": "歼星者",
+          "description": "打败四个月亮天界柱。"
+        }
+      }
+    },
+    "CHAMPION_OF_TERRARIA": {
+      "translations": {
+        "english": {
+          "name": "Champion of Terraria",
+          "description": "Defeat the Moon Lord."
+        },
+        "schinese": {
+          "name": "泰拉瑞亚斗士",
+          "description": "打败月亮领主。"
+        }
+      }
+    },
+    "BLOODBATH": {
+      "translations": {
+        "english": {
+          "name": "Bloodbath",
+          "description": "Survive a blood moon, a nocturnal event where the rivers run red and monsters swarm aplenty."
+        },
+        "schinese": {
+          "name": "大屠杀",
+          "description": "活着度过血月，在这一夜间事件中，河流会泛红，怪物蜂拥而至。"
+        }
+      }
+    },
+    "SLIPPERY_SHINOBI": {
+      "translations": {
+        "english": {
+          "name": "Slippery Shinobi",
+          "description": "Defeat King Slime, the lord of all things slimy."
+        },
+        "schinese": {
+          "name": "黏滑忍者",
+          "description": "打败史莱姆王，它是所有黏滑生物的首领。"
+        }
+      }
+    },
+    "GOBLIN_PUNTER": {
+      "translations": {
+        "english": {
+          "name": "Goblin Punter",
+          "description": "Triumph over a goblin invasion, a ragtag regiment of crude, barbaric, pointy-eared warriors and their shadowflame sorcerers."
+        },
+        "schinese": {
+          "name": "哥布林草民",
+          "description": "击败哥布林入侵，它们是一群低贱、野蛮、粗暴的尖耳朵战士和暗影焰巫士。"
+        }
+      }
+    },
+    "WALK_THE_PLANK": {
+      "translations": {
+        "english": {
+          "name": "Walk the Plank",
+          "description": "Triumph over a pirate invasion, a group of pillagers from the sea out for your booty... and your life!"
+        },
+        "schinese": {
+          "name": "稳走跳板",
+          "description": "击败海盗入侵，这群来自海上的劫匪不仅要抢你的战利品……还要你的命！"
+        }
+      }
+    },
+    "KILL_THE_SUN": {
+      "translations": {
+        "english": {
+          "name": "Kill the Sun",
+          "description": "Survive a solar eclipse, a day darker than night filled with creatures of horror."
+        },
+        "schinese": {
+          "name": "杀死太阳",
+          "description": "活着度过日食，这是比黑夜还黑暗的白天，到处都是恐怖生物。"
+        }
+      }
+    },
+    "DO_YOU_WANT_TO_SLAY_A_SNOWMAN": {
+      "translations": {
+        "english": {
+          "name": "Do You Want to Slay a Snowman?",
+          "description": "Triumph over the frost legion, a festive family of maniacal snowman mobsters."
+        },
+        "schinese": {
+          "name": "想要杀死雪人吗？",
+          "description": "征服雪人军团，这是疯狂雪人暴徒的欢乐家族。"
+        }
+      }
+    },
+    "TIN_FOIL_HATTER": {
+      "translations": {
+        "english": {
+          "name": "Tin-Foil Hatter",
+          "description": "Triumph over a martian invasion, when beings from out of this world come to scramble your brains and probe you in uncomfortable places."
+        },
+        "schinese": {
+          "name": "锡箔帽商",
+          "description": "击败火星人入侵，在这事件里不属于这个世界的生物会扰乱你的心神并窥探你的隐私。"
+        }
+      }
+    },
+    "BALEFUL_HARVEST": {
+      "translations": {
+        "english": {
+          "name": "Baleful Harvest",
+          "description": "Reach the 15th wave of a pumpkin moon, where evil lurks among the autumn harvest."
+        },
+        "schinese": {
+          "name": "邪恶丰收",
+          "description": "在南瓜月中打到第15波，恶魔潜伏在金秋丰收之中。"
+        }
+      }
+    },
+    "ICE_SCREAM": {
+      "translations": {
+        "english": {
+          "name": "Ice Scream",
+          "description": "Reach the 15th wave of a frost moon, where the festive season quickly degrades into madness."
+        },
+        "schinese": {
+          "name": "寒冰尖啸",
+          "description": "在霜月里打到第15波，节日迅速沦为疯狂暴动。"
+        }
+      }
+    },
+    "STICKY_SITUATION": {
+      "translations": {
+        "english": {
+          "name": "Sticky Situation",
+          "description": "Survive the slime rain, where gelatinous organisms fall from the sky in droves."
+        },
+        "schinese": {
+          "name": "黏黏糊糊",
+          "description": "在史莱姆雨中活下来，在此期间明胶生物会成群结队地从天而降。"
+        }
+      }
+    },
+    "REAL_ESTATE_AGENT": {
+      "translations": {
+        "english": {
+          "name": "Real Estate Agent",
+          "description": "Have all possible town NPCs living in your world."
+        },
+        "schinese": {
+          "name": "房产中介",
+          "description": "让所有可能的城镇NPC都生活在你的世界中。"
+        }
+      }
+    },
+    "NOT_THE_BEES": {
+      "translations": {
+        "english": {
+          "name": "Not the Bees!",
+          "description": "Fire a Bee Gun while wearing a full set of Bee Armor."
+        },
+        "schinese": {
+          "name": "不要蜜蜂！",
+          "description": "穿着一整套蜜蜂盔甲时使用蜜蜂枪射击。"
+        }
+      }
+    },
+    "JEEPERS_CREEPERS": {
+      "translations": {
+        "english": {
+          "name": "Jeepers Creepers",
+          "description": "Stumble into a spider cavern in the underground."
+        },
+        "schinese": {
+          "name": "毛骨悚然",
+          "description": "在地下摸进蜘蛛洞。"
+        }
+      }
+    },
+    "FUNKYTOWN": {
+      "translations": {
+        "english": {
+          "name": "Funkytown",
+          "description": "Build or encounter a glowing mushroom field above the surface."
+        },
+        "schinese": {
+          "name": "时髦小镇",
+          "description": "打造或发现地表上的发光蘑菇地。"
+        }
+      }
+    },
+    "INTO_ORBIT": {
+      "translations": {
+        "english": {
+          "name": "Into Orbit",
+          "description": "You can only go down from here!"
+        },
+        "schinese": {
+          "name": "进入轨道",
+          "description": "在这儿你只能往下走！"
+        }
+      }
+    },
+    "ROCK_BOTTOM": {
+      "translations": {
+        "english": {
+          "name": "Rock Bottom",
+          "description": "The only way is up!"
+        },
+        "schinese": {
+          "name": "最底层",
+          "description": "唯一的出路是向上！"
+        }
+      }
+    },
+    "MECHA_MAYHEM": {
+      "translations": {
+        "english": {
+          "name": "Mecha Mayhem",
+          "description": "Do battle against the Twins, the Destroyer, and Skeletron Prime simultaneously and emerge victorious."
+        },
+        "schinese": {
+          "name": "机甲混战",
+          "description": "同时与双子魔眼、毁灭者和机械骷髅王战斗并获胜。"
+        }
+      }
+    },
+    "GELATIN_WORLD_TOUR": {
+      "translations": {
+        "english": {
+          "name": "Gelatin World Tour",
+          "description": "Defeat every type of slime there is!"
+        },
+        "schinese": {
+          "name": "明胶世界之旅",
+          "description": "打败每一种史莱姆！"
+        }
+      }
+    },
+    "FASHION_STATEMENT": {
+      "translations": {
+        "english": {
+          "name": "Fashion Statement",
+          "description": "Equip armor or vanity clothing in all three social slots."
+        },
+        "schinese": {
+          "name": "时尚宣言",
+          "description": "在全部三个社交盔甲栏中都装备上盔甲或时装服饰。"
+        }
+      }
+    },
+    "VEHICULAR_MANSLAUGHTER": {
+      "translations": {
+        "english": {
+          "name": "Vehicular Manslaughter",
+          "description": "Defeat an enemy by running it over with a minecart."
+        },
+        "schinese": {
+          "name": "开车谋杀",
+          "description": "通过矿车碾压来打败敌人。"
+        }
+      }
+    },
+    "BULLDOZER": {
+      "translations": {
+        "english": {
+          "name": "Bulldozer",
+          "description": "Destroy a total of 10,000 tiles."
+        },
+        "schinese": {
+          "name": "推土机",
+          "description": "共破坏10,000个图格。"
+        }
+      }
+    },
+    "THERE_ARE_SOME_WHO_CALL_HIM": {
+      "translations": {
+        "english": {
+          "name": "There are Some Who Call Him...",
+          "description": "Kill Tim."
+        },
+        "schinese": {
+          "name": "有人要杀他……",
+          "description": "杀死蒂姆。"
+        }
+      }
+    },
+    "DECEIVER_OF_FOOLS": {
+      "translations": {
+        "english": {
+          "name": "Deceiver of Fools",
+          "description": "Kill a nymph."
+        },
+        "schinese": {
+          "name": "傻瓜骗子",
+          "description": "杀死宁芙。"
+        }
+      }
+    },
+    "SWORD_OF_THE_HERO": {
+      "translations": {
+        "english": {
+          "name": "Sword of the Hero",
+          "description": "Obtain a Terra Blade, forged from the finest blades of light and darkness."
+        },
+        "schinese": {
+          "name": "英雄之剑",
+          "description": "获得泰拉刃，这是用极品光明刃与极品黑暗刃锻造而成的。"
+        }
+      }
+    },
+    "LUCKY_BREAK": {
+      "translations": {
+        "english": {
+          "name": "Lucky Break",
+          "description": "Survive a long fall with just a sliver of health remaining."
+        },
+        "schinese": {
+          "name": "时来运转",
+          "description": "活着从高处跌落并且只剩下一丁点生命值。"
+        }
+      }
+    },
+    "THROWING_LINES": {
+      "translations": {
+        "english": {
+          "name": "Throwing Lines",
+          "description": "Throw a yoyo."
+        },
+        "schinese": {
+          "name": "扔绳子",
+          "description": "投掷悠悠球。"
+        }
+      }
+    },
+    "DYE_HARD": {
+      "translations": {
+        "english": {
+          "name": "Dye Hard",
+          "description": "Equip a dye in every possible dye slot."
+        },
+        "schinese": {
+          "name": "处处遍染",
+          "description": "在每个可能的染料栏中都装备染料。"
+        }
+      }
+    },
+    "SICK_THROW": {
+      "translations": {
+        "english": {
+          "name": "Sick Throw",
+          "description": "Obtain the Terrarian."
+        },
+        "schinese": {
+          "name": "非凡投掷",
+          "description": "获得泰拉悠悠球。"
+        }
+      }
+    },
+    "FREQUENT_FLYER": {
+      "translations": {
+        "english": {
+          "name": "The Frequent Flyer",
+          "description": "Spend over 1 gold being treated by the nurse."
+        },
+        "schinese": {
+          "name": "常旅客",
+          "description": "在接受护士的治疗上花费超过1个金币。"
+        }
+      }
+    },
+    "THE_CAVALRY": {
+      "translations": {
+        "english": {
+          "name": "The Cavalry",
+          "description": "Equip a mount."
+        },
+        "schinese": {
+          "name": "骑兵",
+          "description": "装备坐骑。"
+        }
+      }
+    },
+    "COMPLETELY_AWESOME": {
+      "translations": {
+        "english": {
+          "name": "Completely Awesome",
+          "description": "Obtain a minishark."
+        },
+        "schinese": {
+          "name": "妙不可言",
+          "description": "获得一把迷你鲨。"
+        }
+      }
+    },
+    "TIL_DEATH": {
+      "translations": {
+        "english": {
+          "name": "Til Death...",
+          "description": "Kill the groom."
+        },
+        "schinese": {
+          "name": "至死不渝……",
+          "description": "杀死僵尸新郎。"
+        }
+      }
+    },
+    "ARCHAEOLOGIST": {
+      "translations": {
+        "english": {
+          "name": "Archaeologist",
+          "description": "Kill Doctor Bones."
+        },
+        "schinese": {
+          "name": "考古学家",
+          "description": "杀死骷髅博士。"
+        }
+      }
+    },
+    "PRETTY_IN_PINK": {
+      "translations": {
+        "english": {
+          "name": "Pretty in Pink",
+          "description": "Kill pinky."
+        },
+        "schinese": {
+          "name": "粉红佳人",
+          "description": "杀死粉史莱姆。"
+        }
+      }
+    },
+    "RAINBOWS_AND_UNICORNS": {
+      "translations": {
+        "english": {
+          "name": "Rainbows and Unicorns",
+          "description": "Fire a rainbow gun while riding on a unicorn."
+        },
+        "schinese": {
+          "name": "彩虹和独角兽",
+          "description": "骑着独角兽时用彩虹枪射击。"
+        }
+      }
+    },
+    "YOU_AND_WHAT_ARMY": {
+      "translations": {
+        "english": {
+          "name": "You and What Army?",
+          "description": "Command nine summoned minions simultaneously."
+        },
+        "schinese": {
+          "name": "你和哪路神仙啊？",
+          "description": "同时控制九个召唤仆从。"
+        }
+      }
+    },
+    "PRISMANCER": {
+      "translations": {
+        "english": {
+          "name": "Prismancer",
+          "description": "Obtain a rainbow rod."
+        },
+        "schinese": {
+          "name": "七彩法师",
+          "description": "获得一根彩虹魔杖。"
+        }
+      }
+    },
+    "IT_CAN_TALK": {
+      "translations": {
+        "english": {
+          "name": "It Can Talk?!",
+          "description": "Build a house in a mushroom biome and have the Truffle move in."
+        },
+        "schinese": {
+          "name": "它能说话？！",
+          "description": "在蘑菇群落里建造一栋房屋，并让松露人住进来。"
+        }
+      }
+    },
+    "WATCH_YOUR_STEP": {
+      "translations": {
+        "english": {
+          "name": "Watch Your Step!",
+          "description": "Become a victim to a nasty underground trap."
+        },
+        "schinese": {
+          "name": "当心脚下！",
+          "description": "成为险恶地下陷阱的受害者。"
+        }
+      }
+    },
+    "MARATHON_MEDALIST": {
+      "translations": {
+        "english": {
+          "name": "Marathon Medalist",
+          "description": "Travel a total of 26.2 miles on foot."
+        },
+        "schinese": {
+          "name": "马拉松奖牌得主",
+          "description": "总共步行26.2英里。"
+        }
+      }
+    },
+    "GLORIOUS_GOLDEN_POLE": {
+      "translations": {
+        "english": {
+          "name": "Glorious Golden Pole",
+          "description": "Obtain a golden fishing rod."
+        },
+        "schinese": {
+          "name": "荣耀金竿",
+          "description": "获得一根金钓竿。"
+        }
+      }
+    },
+    "SERVANT_IN_TRAINING": {
+      "translations": {
+        "english": {
+          "name": "Servant-in-Training",
+          "description": "Complete your 1st quest for the angler."
+        },
+        "schinese": {
+          "name": "受训仆人",
+          "description": "完成第1个渔夫任务。"
+        }
+      }
+    },
+    "GOOD_LITTLE_SLAVE": {
+      "translations": {
+        "english": {
+          "name": "Good Little Slave",
+          "description": "Complete your 10th quest for the angler."
+        },
+        "schinese": {
+          "name": "三好小奴隶",
+          "description": "完成10个渔夫任务。"
+        }
+      }
+    },
+    "TROUT_MONKEY": {
+      "translations": {
+        "english": {
+          "name": "Trout Monkey",
+          "description": "Complete your 25th quest for the angler."
+        },
+        "schinese": {
+          "name": "顽皮鳟鱼",
+          "description": "完成25个渔夫任务。"
+        }
+      }
+    },
+    "FAST_AND_FISHIOUS": {
+      "translations": {
+        "english": {
+          "name": "Fast and Fishious",
+          "description": "Complete your 50th quest for the angler."
+        },
+        "schinese": {
+          "name": "游刃有鱼",
+          "description": "完成50个渔夫任务。"
+        }
+      }
+    },
+    "SUPREME_HELPER_MINION": {
+      "translations": {
+        "english": {
+          "name": "Supreme Helper Minion!",
+          "description": "Complete a grand total of 200 quests for the angler."
+        },
+        "schinese": {
+          "name": "终极得力仆从！",
+          "description": "共完成200个渔夫任务。"
+        }
+      }
+    },
+    "TOPPED_OFF": {
+      "translations": {
+        "english": {
+          "name": "Topped Off",
+          "description": "Attain maximum health and mana possible without accessories or buffs."
+        },
+        "schinese": {
+          "name": "满满当当",
+          "description": "在没有配饰或增益的情况下达成最大可能生命值和魔力值。"
+        }
+      }
+    },
+    "SLAYER_OF_WORLDS": {
+      "translations": {
+        "english": {
+          "name": "Slayer of Worlds",
+          "description": "Defeat every boss in Terraria."
+        },
+        "schinese": {
+          "name": "世界杀手",
+          "description": "打败泰拉瑞亚中的每一个Boss。"
+        }
+      }
+    },
+    "YOU_CAN_DO_IT": {
+      "translations": {
+        "english": {
+          "name": "You Can Do It!",
+          "description": "Survive your character's first full night."
+        },
+        "schinese": {
+          "name": "你能行！",
+          "description": "让你的人物安然度过第一晚。"
+        }
+      }
+    },
+    "MATCHING_ATTIRE": {
+      "translations": {
+        "english": {
+          "name": "Matching Attire",
+          "description": "Equip armor in all three armor slots: head, chest, and feet."
+        },
+        "schinese": {
+          "name": "搭配服装",
+          "description": "在全部三个盔甲栏（头部、胸部和腿部）中装备盔甲。"
+        }
+      }
+    },
+    "BENCHED": {
+      "translations": {
+        "english": {
+          "name": "Benched",
+          "description": "Craft your first work bench."
+        },
+        "schinese": {
+          "name": "准备到位",
+          "description": "制作你的第一个工作台。"
+        }
+      }
+    },
+    "DEFEAT_EMPRESS_OF_LIGHT": {
+      "translations": {
+        "english": {
+          "name": "Fae Flayer",
+          "description": "Defeat the Empress of Light, responsible for all those flashy lights and glitter."
+        },
+        "schinese": {
+          "name": "仙灵鞭挞者",
+          "description": "打败光之女皇，她是所有闪亮光辉之源。"
+        }
+      }
+    },
+    "DEFEAT_QUEEN_SLIME": {
+      "translations": {
+        "english": {
+          "name": "Just Desserts",
+          "description": "Defeat Queen Slime, giving the coup-de-grace to the sovereign of all that jiggles."
+        },
+        "schinese": {
+          "name": "甜点而已",
+          "description": "打败史莱姆皇后，帮所有摇晃之物的君主解脱。"
+        }
+      }
+    },
+    "DEFEAT_DREADNAUTILUS": {
+      "translations": {
+        "english": {
+          "name": "Don't Dread on Me",
+          "description": "Defeat the Dreadnautilus, murderous mollusk lurking beneath the surface of the sanguine seas."
+        },
+        "schinese": {
+          "name": "不要怕我",
+          "description": "打败恐惧鹦鹉螺，它是潜伏在血染海面之下的残忍软体动物。"
+        }
+      }
+    },
+    "DEFEAT_OLD_ONES_ARMY_TIER3": {
+      "translations": {
+        "english": {
+          "name": "Hero of Etheria",
+          "description": "Repel the strongest forces the Old One's Army can muster."
+        },
+        "schinese": {
+          "name": "埃特尼亚的英雄",
+          "description": "击退撒旦军队可以召集的最强部队。"
+        }
+      }
+    },
+    "GET_ZENITH": {
+      "translations": {
+        "english": {
+          "name": "Infinity +1 Sword",
+          "description": "Obtain the Zenith, the culmination of a journey forged into the ultimate sword."
+        },
+        "schinese": {
+          "name": "无限+1之剑",
+          "description": "获得天顶剑，这是由旅程的巅峰时刻凝聚而成的终极宝剑。"
+        }
+      }
+    },
+    "GET_TERRASPARK_BOOTS": {
+      "translations": {
+        "english": {
+          "name": "Boots of the Hero",
+          "description": "Obtain the Terraspark Boots, forged from the finest boots of fire and ice."
+        },
+        "schinese": {
+          "name": "英雄之靴",
+          "description": "获得泰拉闪耀靴，这是用极品火靴与极品冰靴铸造而成的。"
+        }
+      }
+    },
+    "FLY_A_KITE_ON_A_WINDY_DAY": {
+      "translations": {
+        "english": {
+          "name": "A Rather Blustery Day",
+          "description": "Fly a kite on a windy day."
+        },
+        "schinese": {
+          "name": "狂风大作的一天",
+          "description": "在大风天放风筝。"
+        }
+      }
+    },
+    "FOUND_GRAVEYARD": {
+      "translations": {
+        "english": {
+          "name": "Quiet Neighborhood",
+          "description": "Enter a misty graveyard filled with the surly dead."
+        },
+        "schinese": {
+          "name": "安静的邻里",
+          "description": "进入笼罩着薄雾的墓地，墓地中到处都是粗鲁无礼的死人。"
+        }
+      }
+    },
+    "GO_LAVA_FISHING": {
+      "translations": {
+        "english": {
+          "name": "Hot Reels!",
+          "description": "Drop a lure in a pool of lava for a pre-fried haul!"
+        },
+        "schinese": {
+          "name": "火热渔线轮！",
+          "description": "将诱饵投入熔岩池，钓点预炸过的鱼！"
+        }
+      }
+    },
+    "TURN_GNOME_TO_STATUE": {
+      "translations": {
+        "english": {
+          "name": "Heliophobia",
+          "description": "Trick a gnome into turning into stone!"
+        },
+        "schinese": {
+          "name": "日光恐惧症",
+          "description": "诱使侏儒变成石头！"
+        }
+      }
+    },
+    "TALK_TO_NPC_AT_MAX_HAPPINESS": {
+      "translations": {
+        "english": {
+          "name": "Leading Landlord",
+          "description": "Meet with a tenant who's as happy as they possibly can be!"
+        },
+        "schinese": {
+          "name": "杰出房东",
+          "description": "见一位极度快乐的房客！"
+        }
+      }
+    },
+    "PET_THE_PET": {
+      "translations": {
+        "english": {
+          "name": "Feeling Petty",
+          "description": "Deliver headpats to the town pet."
+        },
+        "schinese": {
+          "name": "感觉受宠",
+          "description": "去拍拍城镇宠物的脑袋。"
+        }
+      }
+    },
+    "FIND_A_FAIRY": {
+      "translations": {
+        "english": {
+          "name": "Hey! Listen!",
+          "description": "Encounter a fairy."
+        },
+        "schinese": {
+          "name": "嘿！听着！",
+          "description": "遇到仙灵。"
+        }
+      }
+    },
+    "THROW_A_PARTY": {
+      "translations": {
+        "english": {
+          "name": "Jolly Jamboree",
+          "description": "What you're celebrating doesn't matter, just throw a party already!"
+        },
+        "schinese": {
+          "name": "欢乐盛会",
+          "description": "在庆祝什么不重要，只要办派对就好啦！"
+        }
+      }
+    },
+    "DIE_TO_DEAD_MANS_CHEST": {
+      "translations": {
+        "english": {
+          "name": "Dead Men Tell No Tales",
+          "description": "You were so preoccupied with whether or not you could open the chest that you didn't stop to think if you should."
+        },
+        "schinese": {
+          "name": "死人不会告密",
+          "description": "你一心在琢磨能否打开宝箱，却没有想过是否应该打开宝箱。"
+        }
+      }
+    },
+    "DEFEAT_DEERCLOPS": {
+      "translations": {
+        "english": {
+          "name": "An Eye For An Eye",
+          "description": "Defeat Deerclops, the chilly one-eyed monstrosity from a foreign land."
+        },
+        "schinese": {
+          "name": "以眼还眼",
+          "description": "打败独眼巨鹿，它是来自异地的阴冷独眼怪物。"
+        }
+      }
+    },
+    "GET_GOLDEN_DELIGHT": {
+      "translations": {
+        "english": {
+          "name": "Feast of Midas",
+          "description": "Obtain Golden Delight, the highest quality meal made from the highest quality . . . ingredients."
+        },
+        "schinese": {
+          "name": "迈达斯盛宴",
+          "description": "获得金美味，这是用最高品质的……食材制成的最高品质的餐点。"
+        }
+      }
+    },
+    "DRINK_BOTTLED_WATER_WHILE_DROWNING": {
+      "translations": {
+        "english": {
+          "name": "Unusual Survival Strategies",
+          "description": "Delay death from drowning by drinking water. It doesn't make much sense, but you did what you had to do."
+        },
+        "schinese": {
+          "name": "不寻常的生存策略",
+          "description": "通过喝水来延缓溺亡。虽然没什么意义，但你做了必须做的事。"
+        }
+      }
+    },
+    "GET_CELL_PHONE": {
+      "translations": {
+        "english": {
+          "name": "Black Mirror",
+          "description": "Obtain the Cell Phone. You'll never leave home without it again."
+        },
+        "schinese": {
+          "name": "黑镜",
+          "description": "获得手机。你以后再也不会不带它就出门。"
+        }
+      }
+    },
+    "GET_ANKH_SHIELD": {
+      "translations": {
+        "english": {
+          "name": "Ankhumulation Complete",
+          "description": "Obtain the Ankh Shield, the finest protection from unpleasant maladies and ailments."
+        },
+        "schinese": {
+          "name": "十字章收集完成",
+          "description": "获得十字章护盾，这是对抗烦人疾病的最佳防护。"
+        }
+      }
+    },
+    "GAIN_TORCH_GODS_FAVOR": {
+      "translations": {
+        "english": {
+          "name": "Torch God",
+          "description": "Invoked the wrath of the God of Torches, and survived long enough to earn its blessing."
+        },
+        "schinese": {
+          "name": "火把神",
+          "description": "引发了火把神的愤怒，并存活足够长时间来获得它的恩宠。"
+        }
+      }
+    },
+    "PLAY_ON_A_SPECIAL_SEED": {
+      "translations": {
+        "english": {
+          "name": "A Rare Realm",
+          "description": "Some very special seeds can lead to unique and rewarding experiences. Can you find one?"
+        },
+        "schinese": {
+          "name": "稀有国度",
+          "description": "一些非常特殊的种子可以带来独特而有收获的体验。你能找到其中之一吗？"
+        }
+      }
+    },
+    "ALL_TOWN_SLIMES": {
+      "translations": {
+        "english": {
+          "name": "The Great Slime Mitosis",
+          "description": "Find all of the Slime Pets and have them move in!"
+        },
+        "schinese": {
+          "name": "史莱姆大分裂",
+          "description": "找到所有史莱姆宠物并让它们搬进来！"
+        }
+      }
+    },
+    "TRANSMUTE_ITEM": {
+      "translations": {
+        "english": {
+          "name": "A Shimmer In The Dark",
+          "description": "Shimmer an item into another item. What other transmutations can you find?"
+        },
+        "schinese": {
+          "name": "暗中微光",
+          "description": "用微光将一个物品变成另一个物品。你还能找到哪些其他变化？"
+        }
+      }
+    },
+    "PURIFY_ENTIRE_WORLD": {
+      "translations": {
+        "english": {
+          "name": "And Good Riddance!",
+          "description": "Completely purify all Corruption, Crimson, and Hallow from your world, until the Dryad is satisfied!"
+        },
+        "schinese": {
+          "name": "终于解脱了！",
+          "description": "彻底净化世界中所有的腐化、猩红和神圣，直到树妖满意为止！"
+        }
+      }
+    },
+    "TO_INFINITY_AND_BEYOND": {
+      "translations": {
+        "english": {
+          "name": "To Infinity... and Beyond!",
+          "description": "Fly a Kwad Racer into outer space."
+        },
+        "schinese": {
+          "name": "飞向宇宙，浩瀚无垠！",
+          "description": "将四轴竞速无人机飞进外太空。"
+        }
+      }
+    },
+    "BOOK_WORM": {
+      "translations": {
+        "english": {
+          "name": "Book Worm",
+          "description": "Catalogue every creature in the world."
+        },
+        "schinese": {
+          "name": "书虫",
+          "description": "将世界中的所有生物登记在册。"
+        }
+      }
+    },
+    "BOULDER_LORD": {
+      "translations": {
+        "english": {
+          "name": "Boulder Lord",
+          "description": "Prove your worth against the Moon Lord's worst."
+        },
+        "schinese": {
+          "name": "巨石领主",
+          "description": "通过对阵最可怕的月亮领主来证明你的价值。"
+        }
+      }
+    },
+    "QUEEN_MACHINE": {
+      "translations": {
+        "english": {
+          "name": "Queen Machine",
+          "description": "Defeated the combined form of the 3 mechanical giants."
+        },
+        "schinese": {
+          "name": "机器女王",
+          "description": "打败3只机械巨怪的组合形态。"
+        }
+      }
+    },
+    "ROLLIN_IN_YOUR_GRAVE": {
+      "translations": {
+        "english": {
+          "name": "Rollin’ In Your Grave",
+          "description": "Take a ride in your final resting place."
+        },
+        "schinese": {
+          "name": "陵墓飙车",
+          "description": "在你的最终安息之地兜风。"
+        }
+      }
+    },
+    "FEAR_THE_SUN": {
+      "translations": {
+        "english": {
+          "name": "Fear The Sun",
+          "description": "Dawn the garb of a vampire and get a sunburn."
+        },
+        "schinese": {
+          "name": "畏惧太阳",
+          "description": "穿上吸血鬼的装束并被太阳灼伤。"
+        }
+      }
+    },
+    "ITS_SHALING_OUTSIDE": {
+      "translations": {
+        "english": {
+          "name": "It’s Shaling Outside",
+          "description": "Survive the dreaded rain of boulders."
+        },
+        "schinese": {
+          "name": "石如雨下",
+          "description": "活过可怕的巨石雨。"
+        }
+      }
+    },
+    "EXTRA_LIFE": {
+      "translations": {
+        "english": {
+          "name": "Extra Life",
+          "description": "Die as a hardcore character and survive to tell the tale."
+        },
+        "schinese": {
+          "name": "劫后余生",
+          "description": "作为一个硬核角色死去并活着讲述这段传奇。"
+        }
+      }
+    },
+    "GRAVE_MISTAKE": {
+      "translations": {
+        "english": {
+          "name": "Grave Mistake",
+          "description": "“Accidentally” kill a friend with your tombstone."
+        },
+        "schinese": {
+          "name": "葬送失误",
+          "description": "用你的墓石“意外”击杀一个朋友。"
+        }
+      }
+    },
+    "SPICY_LICKS": {
+      "translations": {
+        "english": {
+          "name": "Spicy Licks",
+          "description": "Jam out on a six stringed instrument."
+        },
+        "schinese": {
+          "name": "热辣旋律",
+          "description": "在六弦乐器上演奏。"
+        }
+      }
+    },
+    "ORGANIZED_CHAOS": {
+      "translations": {
+        "english": {
+          "name": "Organized Chaos",
+          "description": "Find the ultra rare Rod of Discord."
+        },
+        "schinese": {
+          "name": "有序混乱",
+          "description": "发现超级稀有的混沌传送杖。"
+        }
+      }
+    },
+    "ON_FLEEK": {
+      "translations": {
+        "english": {
+          "name": "On Fleek",
+          "description": "Spot the sun on a “cool” day."
+        },
+        "schinese": {
+          "name": "完美至极",
+          "description": "在“炫酷”的一天看到太阳。"
+        }
+      }
+    },
+    "FORTUNE_FAVORS_THE_BOULD": {
+      "translations": {
+        "english": {
+          "name": "Fortune Favors the Bould",
+          "description": "Discover a friendly boulder."
+        },
+        "schinese": {
+          "name": "机遇偏爱“石”力",
+          "description": "发现一块友好的巨石。"
+        }
+      }
+    },
+    "TRAINING_DAY": {
+      "translations": {
+        "english": {
+          "name": "Training Day",
+          "description": "Get your villagers fully combat ready."
+        },
+        "schinese": {
+          "name": "训练日",
+          "description": "让你的城镇居民做好充分的战斗准备。"
+        }
+      }
+    },
+    "MINI_ME": {
+      "translations": {
+        "english": {
+          "name": "Mini-Me",
+          "description": "Become a Moon Lord impersonator."
+        },
+        "schinese": {
+          "name": "迷你自我",
+          "description": "成为月亮领主模仿者。"
+        }
+      }
+    },
+    "TERRARIST": {
+      "translations": {
+        "english": {
+          "name": "Terrarist",
+          "description": "Scare your villagers with a stink bug sword."
+        },
+        "schinese": {
+          "name": "泰拉恐怖分子",
+          "description": "用一把臭虫之剑恐吓你的城镇居民。"
+        }
+      }
+    },
+    "NEW_DIGS": {
+      "translations": {
+        "english": {
+          "name": "New Digs",
+          "description": "Give any villager a new look."
+        },
+        "schinese": {
+          "name": "新行头",
+          "description": "给予任意城镇居民一身新装束。"
+        }
+      }
+    },
+    "MY_PEOPLE_NEED_ME": {
+      "translations": {
+        "english": {
+          "name": "My People Need Me",
+          "description": "Embark on a one way trip into outer space."
+        },
+        "schinese": {
+          "name": "我的子民需要我",
+          "description": "踏上一趟通往外太空的单程之旅。"
+        }
+      }
+    },
+    "GOING_OLDSCHOOL": {
+      "translations": {
+        "english": {
+          "name": "Going Oldschool",
+          "description": "Bring back the original title screen."
+        },
+        "schinese": {
+          "name": "致敬经典",
+          "description": "换回最初的标题屏幕。"
+        }
+      }
+    },
+    "SEA_YOU_LATER": {
+      "translations": {
+        "english": {
+          "name": "Sea You Later",
+          "description": "Craft the final upgrade to the Cell Phone."
+        },
+        "schinese": {
+          "name": "关怀“贝”至",
+          "description": "制作手机的终极升级物。"
+        }
+      }
+    },
+    "TRASH_COMPACTOR": {
+      "translations": {
+        "english": {
+          "name": "Trash Compactor",
+          "description": "Research 50% of all items in Journey Mode."
+        },
+        "schinese": {
+          "name": "垃圾压缩机",
+          "description": "研究旅行模式中全部物品的50%。"
+        }
+      }
+    },
+    "CONSERVATIONIST": {
+      "translations": {
+        "english": {
+          "name": "Conservationist",
+          "description": "Support sustainable logging by planting 100 acorns."
+        },
+        "schinese": {
+          "name": "环保主义者",
+          "description": "通过种下100颗橡实来支持可持续砍伐。"
+        }
+      }
+    },
+    "INTERDIMENSIONAL_RECYCLING": {
+      "translations": {
+        "english": {
+          "name": "Interdimensional Recycling",
+          "description": "Give the Dryad a can of Joja Cola."
+        },
+        "schinese": {
+          "name": "跨维度回收",
+          "description": "给予树妖一罐Joja可乐。"
+        }
+      }
+    }
+  }
+}

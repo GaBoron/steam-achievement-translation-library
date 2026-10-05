@@ -1,0 +1,893 @@
+{
+  "version": 1,
+  "app_id": "638970",
+  "variant_id": "default",
+  "source_sha256": "d043417e8887d5306feb522ba909d2ab5d41ca6f63e161ee1a3990f3b7a2fcc9",
+  "languages": [
+    "english",
+    "japanese",
+    "schinese"
+  ],
+  "achievements": {
+    "00_Where_It_All_Began": {
+      "translations": {
+        "english": {
+          "name": "Where It All Began",
+          "description": "Obtain all other achievements"
+        },
+        "japanese": {
+          "name": "誓いの場所",
+          "description": "すべての実績を取得した"
+        },
+        "schinese": {
+          "name": "誓约的场所",
+          "description": "取得所有成就"
+        }
+      }
+    },
+    "01_Stuff_of_Legend": {
+      "translations": {
+        "english": {
+          "name": "Stuff of Legend",
+          "description": "Complete the main story on Legend Difficulty"
+        },
+        "japanese": {
+          "name": "伝説となりしもの",
+          "description": "ゲーム本編を難易度ＬＥＧＥＮＤでクリアした"
+        },
+        "schinese": {
+          "name": "成为传说之人",
+          "description": "以LEGEND难度完成游戏正篇"
+        }
+      }
+    },
+    "02_President_Kiryu": {
+      "translations": {
+        "english": {
+          "name": "President Kiryu",
+          "description": "Get started with Real Estate Royale"
+        },
+        "japanese": {
+          "name": "社長 桐生一馬",
+          "description": "神室町 マネーアイランドを開始した"
+        },
+        "schinese": {
+          "name": "桐生一马社长",
+          "description": "开始经营神室町金钱岛"
+        }
+      }
+    },
+    "03_The_Promised_Land": {
+      "translations": {
+        "english": {
+          "name": "The Promised Land",
+          "description": "Get 100% share in any area"
+        },
+        "japanese": {
+          "name": "俺のシマ",
+          "description": "どこか一つのエリアで占有率を１００％にした"
+        },
+        "schinese": {
+          "name": "我的地盘",
+          "description": "任何地区的占有率达到100%"
+        }
+      }
+    },
+    "04_The_Glamorous_Life": {
+      "translations": {
+        "english": {
+          "name": "The Glamorous Life",
+          "description": "Purchase the most expensive property"
+        },
+        "japanese": {
+          "name": "不動産王",
+          "description": "最高額の物件を購入する"
+        },
+        "schinese": {
+          "name": "房地产帝王",
+          "description": "买下售价最高的房产"
+        }
+      }
+    },
+    "05_A_Host_of_Hostesses": {
+      "translations": {
+        "english": {
+          "name": "A Host of Hostesses",
+          "description": "Get started with Cabaret Club Czar"
+        },
+        "japanese": {
+          "name": "お水の帝王",
+          "description": "蒼天堀 水商売アイランドを開始した"
+        },
+        "schinese": {
+          "name": "酒水帝王",
+          "description": "开始经营苍天崛酒乐岛"
+        }
+      }
+    },
+    "06_Talk_of_the_Town": {
+      "translations": {
+        "english": {
+          "name": "Talk of the Town",
+          "description": "Get over 1,000 fans in any area"
+        },
+        "japanese": {
+          "name": "千客万来",
+          "description": "どこか一つのエリアでファン数を１０００人以上にした"
+        },
+        "schinese": {
+          "name": "门庭若市",
+          "description": "任何地区的粉丝数达到1000人"
+        }
+      }
+    },
+    "07_You're_Still_Number_One": {
+      "translations": {
+        "english": {
+          "name": "You're Still Number One",
+          "description": "Max out the level of a platinum hostess"
+        },
+        "japanese": {
+          "name": "ダイヤモンドキャスト",
+          "description": "プラチナキャスト１人のレベルをＭＡＸにした"
+        },
+        "schinese": {
+          "name": "钻石阵容",
+          "description": "将1名白金公关升到满级"
+        }
+      }
+    },
+    "08_Half_the_Battle": {
+      "translations": {
+        "english": {
+          "name": "Half the Battle",
+          "description": "Get over 50% on your Completion List"
+        },
+        "japanese": {
+          "name": "夢、半ば",
+          "description": "達成目録の達成率が５０%を超えた"
+        },
+        "schinese": {
+          "name": "逐梦路上",
+          "description": "成就目录完成度达到50%"
+        }
+      }
+    },
+    "09_Perfectionist": {
+      "translations": {
+        "english": {
+          "name": "Perfectionist",
+          "description": "Get 100% on your Completion List"
+        },
+        "japanese": {
+          "name": "夢、叶えし者",
+          "description": "達成目録の達成率が１００%になった"
+        },
+        "schinese": {
+          "name": "圆梦之人",
+          "description": "成就目录完成度达到100%"
+        }
+      }
+    },
+    "10_Tell_Me_a_Story": {
+      "translations": {
+        "english": {
+          "name": "Tell Me a Story",
+          "description": "Complete 10 substories"
+        },
+        "japanese": {
+          "name": "サブストーリー１０",
+          "description": "１０個のサブストーリーを「済」にした"
+        },
+        "schinese": {
+          "name": "支线剧情10",
+          "description": "完成10个支线剧情"
+        }
+      }
+    },
+    "11_Hero_of_the_Story": {
+      "translations": {
+        "english": {
+          "name": "Hero of the Story",
+          "description": "Complete 40 substories"
+        },
+        "japanese": {
+          "name": "サブストーリー４０",
+          "description": "４０個のサブストーリーを「済」にした"
+        },
+        "schinese": {
+          "name": "支线剧情40",
+          "description": "完成40个支线剧情"
+        }
+      }
+    },
+    "12_Story_of_My_Life": {
+      "translations": {
+        "english": {
+          "name": "Story of My Life",
+          "description": "Complete all substories"
+        },
+        "japanese": {
+          "name": "サブストーリー完全制覇",
+          "description": "全てのサブストーリーを「済」にした"
+        },
+        "schinese": {
+          "name": "已完成所有支线剧情",
+          "description": "完成所有支线剧情"
+        }
+      }
+    },
+    "13_High_Roller": {
+      "translations": {
+        "english": {
+          "name": "High Roller ",
+          "description": "Spend one billion yen"
+        },
+        "japanese": {
+          "name": "消費税導入前に駆け込み豪遊",
+          "description": "使った金額が累計で１０億円に達した"
+        },
+        "schinese": {
+          "name": "赶在消费税开征前尽情挥霍",
+          "description": "累积使用金额达到10亿日元"
+        }
+      }
+    },
+    "14_Make_It_Rain": {
+      "translations": {
+        "english": {
+          "name": "Make It Rain",
+          "description": "Throw away money on the street"
+        },
+        "japanese": {
+          "name": "頭が高いぞ",
+          "description": "初めてお金をばらまいて通行人を集めた"
+        },
+        "schinese": {
+          "name": "向我低头吧",
+          "description": "首次撒钱吸引行人注意"
+        }
+      }
+    },
+    "15_Worked_Hard": {
+      "translations": {
+        "english": {
+          "name": "Worked Hard for the Money",
+          "description": "Throw away a total of five million yen."
+        },
+        "japanese": {
+          "name": "これが欲しいんだろ？",
+          "description": "ばらまいた金額が累計で５００万円に達した"
+        },
+        "schinese": {
+          "name": "你们想要的就是这个吧？",
+          "description": "累积撒钱达到500万日元"
+        }
+      }
+    },
+    "16_Who_Ya": {
+      "translations": {
+        "english": {
+          "name": "Who Ya Gonna Call?",
+          "description": "Pick up a telephone card."
+        },
+        "japanese": {
+          "name": "用過之後價?就會打折扣",
+          "description": "首次拾得電話?"
+        },
+        "schinese": {
+          "name": "用过就会掉价的",
+          "description": "首次捡到电话卡"
+        }
+      }
+    },
+    "17_I_Did_it": {
+      "translations": {
+        "english": {
+          "name": "...I Did It for the Achievement",
+          "description": "Watch a sexy video."
+        },
+        "japanese": {
+          "name": "使うと価値が下がるんです",
+          "description": "初めてテレホンカードを拾った"
+        },
+        "schinese": {
+          "name": "小心被家里人看到",
+          "description": "首次观看性感录像"
+        }
+      }
+    },
+    "19_Lucky_Star": {
+      "translations": {
+        "english": {
+          "name": "Lucky Star",
+          "description": "Get a top-grade item from a Dream Machine"
+        },
+        "japanese": {
+          "name": "何が出るかな？",
+          "description": "ドリームマシンから最高級のアイテムを購入した"
+        },
+        "schinese": {
+          "name": "会出什么东西呢？",
+          "description": "从梦想机中买到最高等级的道具"
+        }
+      }
+    },
+    "20_Training_in": {
+      "translations": {
+        "english": {
+          "name": "Training in Style",
+          "description": "Complete one training mission with each master."
+        },
+        "japanese": {
+          "name": "達人と変人は紙一重",
+          "description": "それぞれの師匠で修行ミッションを１つクリアした"
+        },
+        "schinese": {
+          "name": "大师与怪人仅一线之隔",
+          "description": "完成每位师父的1个修行任务"
+        }
+      }
+    },
+    "21_A_Wise": {
+      "translations": {
+        "english": {
+          "name": "A Wise Investment",
+          "description": "Purchase ten or more abilities."
+        },
+        "japanese": {
+          "name": "若者は己に投資せよ",
+          "description": "お金を使って１０個以上の能力を獲得した"
+        },
+        "schinese": {
+          "name": "年轻人要先投资自己",
+          "description": "在强化能力页面确认到已经花钱获得至少10项能力"
+        }
+      }
+    },
+    "22_Master_Of": {
+      "translations": {
+        "english": {
+          "name": "Master of Style",
+          "description": "Obtain all abilities for every style."
+        },
+        "japanese": {
+          "name": "超絶技巧",
+          "description": "すべてのスタイルですべての能力を獲得した"
+        },
+        "schinese": {
+          "name": "炉火纯青",
+          "description": "在强化能力页面确认到已经获得六个基础战斗风格的所有能力"
+        }
+      }
+    },
+    "23_Whip_It": {
+      "translations": {
+        "english": {
+          "name": "Whip It Good",
+          "description": "Get five or more play bonuses fighting a single enemy."
+        },
+        "japanese": {
+          "name": "オーバーキル",
+          "description": "１人の敵に対してプレイボーナスを５種類以上獲得した"
+        },
+        "schinese": {
+          "name": "过量击杀",
+          "description": "针对一名敌人获得5种或更多战斗奖励"
+        }
+      }
+    },
+    "24_Mr_Shakedown": {
+      "translations": {
+        "english": {
+          "name": "Mr. Shakedown Takedown",
+          "description": "Defeat Mr. Shakedown for the first time."
+        },
+        "japanese": {
+          "name": "ケンカ売んなら相手を選べ",
+          "description": "初めてカツアゲ君を倒した"
+        },
+        "schinese": {
+          "name": "想干架得先找对人",
+          "description": "首次打到勒索哥"
+        }
+      }
+    },
+    "25_Welcome_To": {
+      "translations": {
+        "english": {
+          "name": "Welcome to the Jungle",
+          "description": "Get the best weapon search results report."
+        },
+        "japanese": {
+          "name": "大・大・大成功！",
+          "description": "武具探索で最高の結果報告を受けた"
+        },
+        "schinese": {
+          "name": "大·大·大成功！",
+          "description": "在武具探索中收到最佳结果"
+        }
+      }
+    },
+    "26_Eye_Of": {
+      "translations": {
+        "english": {
+          "name": "Eye of the Dragon and Tiger",
+          "description": "Obtain all equipment parts."
+        },
+        "japanese": {
+          "name": "凄腕トレジャーハンター",
+          "description": "全ての素材を獲得した"
+        },
+        "schinese": {
+          "name": "水平高超的寻宝猎人",
+          "description": "获得所有材料"
+        }
+      }
+    },
+    "27_Prizefighter": {
+      "translations": {
+        "english": {
+          "name": "Prizefighter",
+          "description": "Defeat 30 or more opponents in Endless Rout."
+        },
+        "japanese": {
+          "name": "ファイトマネーは六文銭",
+          "description": "無尽闘宴で３０人以上勝ち抜いた"
+        },
+        "schinese": {
+          "name": "奖金是冥币",
+          "description": "在无尽斗宴连续战胜30个或更多对手"
+        }
+      }
+    },
+    "28_What_A": {
+      "translations": {
+        "english": {
+          "name": "What a Player",
+          "description": "Play every minigame."
+        },
+        "japanese": {
+          "name": "遊びを知りつくした男",
+          "description": "全てのミニゲームをプレイした"
+        },
+        "schinese": {
+          "name": "熟门熟路的男人",
+          "description": "玩过所有小游戏"
+        }
+      }
+    },
+    "29_Call_Me": {
+      "translations": {
+        "english": {
+          "name": "Call Me",
+          "description": "Go on a date with a girl you met at the telephone club."
+        },
+        "japanese": {
+          "name": "ご対面♪",
+          "description": "テレクラで知り合った女の子とデートをした"
+        },
+        "schinese": {
+          "name": "约出来见面♪",
+          "description": "和通过电话交友结识的女孩约会"
+        }
+      }
+    },
+    "30_Say_You": {
+      "translations": {
+        "english": {
+          "name": "Say You Wanna Dance",
+          "description": "Complete every disco song on any difficulty."
+        },
+        "japanese": {
+          "name": "エヴリデーナイトフィーバー",
+          "description": "ディスコで難易度を問わず全曲クリアする"
+        },
+        "schinese": {
+          "name": "夜夜狂舞",
+          "description": "以任意难度跳完迪斯科的所有曲目"
+        }
+      }
+    },
+    "31_Cat_Scratch": {
+      "translations": {
+        "english": {
+          "name": "Cat Scratch Fever",
+          "description": "Win ten bets on three-round tournaments at JCC."
+        },
+        "japanese": {
+          "name": "あけぼのニャンニャン",
+          "description": "キャットファイトで単勝予想を１０回的中させた"
+        },
+        "schinese": {
+          "name": "曙光喵喵",
+          "description": "在女子格斗的单胜竞猜中押中10次"
+        }
+      }
+    },
+    "32_The_Dragon": {
+      "translations": {
+        "english": {
+          "name": "The Dragon of Pocket Circuit",
+          "description": "Win all Pocket Circuit races."
+        },
+        "japanese": {
+          "name": "サーキットの龍",
+          "description": "ポケットサーキットのすべてのレースで優勝した"
+        },
+        "schinese": {
+          "name": "四驱车之龙",
+          "description": "在四驱车的所有比赛中获得冠军"
+        }
+      }
+    },
+    "33_Nostalgic_For": {
+      "translations": {
+        "english": {
+          "name": "Nostalgic for the 80s",
+          "description": "Visit Kamurocho in December 1988."
+        },
+        "japanese": {
+          "name": "昭和６３年１２月、神室町",
+          "description": "昭和６３年１２月の神室町を訪れた"
+        },
+        "schinese": {
+          "name": "1988年12月神室町",
+          "description": "造访1988年12月的神室町"
+        }
+      }
+    },
+    "34_New_Allies": {
+      "translations": {
+        "english": {
+          "name": "New Allies, New Foes",
+          "description": "Complete Chapter 2."
+        },
+        "japanese": {
+          "name": "ストーリークリア１",
+          "description": "第二章をクリアした"
+        },
+        "schinese": {
+          "name": "剧情进度1",
+          "description": "完成主线剧情第二章"
+        }
+      }
+    },
+    "35_Rich_Taste": {
+      "translations": {
+        "english": {
+          "name": "Rich Taste",
+          "description": "Treat a homeless man to a ¥20,000 bottle of booze."
+        },
+        "japanese": {
+          "name": "どうせなら気前よく",
+          "description": "ホームレスに１本２万円のお酒をおごった"
+        },
+        "schinese": {
+          "name": "请客就别心疼钱",
+          "description": "请流浪汉喝一瓶2万日元的酒"
+        }
+      }
+    },
+    "36_A_Matter": {
+      "translations": {
+        "english": {
+          "name": "A Matter of Life or Death",
+          "description": "Complete Chapter 4."
+        },
+        "japanese": {
+          "name": "ストーリークリア２",
+          "description": "第四章をクリアした"
+        },
+        "schinese": {
+          "name": "剧情进度2",
+          "description": "完成主线剧情第四章"
+        }
+      }
+    },
+    "37_Smooth_Criminal": {
+      "translations": {
+        "english": {
+          "name": "Smooth Criminal",
+          "description": "Successfully negotiate ideal terms with Yamagata."
+        },
+        "japanese": {
+          "name": "電撃トレード成立",
+          "description": "山形との交渉を非常に有利に進めた"
+        },
+        "schinese": {
+          "name": "闪电成交",
+          "description": "以非常有利的条件完成与山形的交涉"
+        }
+      }
+    },
+    "38_Time_To": {
+      "translations": {
+        "english": {
+          "name": "Time to Say Goodbye",
+          "description": "Complete Chapter 6."
+        },
+        "japanese": {
+          "name": "ストーリークリア３",
+          "description": "第六章をクリアした"
+        },
+        "schinese": {
+          "name": "剧情进度3",
+          "description": "完成主线剧情第六章"
+        }
+      }
+    },
+    "39_Business_Etiquette": {
+      "translations": {
+        "english": {
+          "name": "Business Etiquette 101",
+          "description": "Impress Oda with your perfect manners."
+        },
+        "japanese": {
+          "name": "エリートビジネスマン",
+          "description": "尾田のマナーテストを完璧にこなした"
+        },
+        "schinese": {
+          "name": "精英上班族",
+          "description": "完美通过尾田的商务礼仪测试"
+        }
+      }
+    },
+    "40_When_It": {
+      "translations": {
+        "english": {
+          "name": "When It All Goes Wrong",
+          "description": "Complete Chapter 8."
+        },
+        "japanese": {
+          "name": "ストーリークリア４",
+          "description": "第八章をクリアした"
+        },
+        "schinese": {
+          "name": "剧情进度4",
+          "description": "完成主线剧情第八章"
+        }
+      }
+    },
+    "41_Best_Served": {
+      "translations": {
+        "english": {
+          "name": "Best Served Cold?",
+          "description": "Take more than 15 minutes bringing the takoyaki."
+        },
+        "japanese": {
+          "name": "冷めても美味しい",
+          "description": "たこ焼きを買った後、１５分以上寄り道をした"
+        },
+        "schinese": {
+          "name": "凉了也好吃",
+          "description": "购买章鱼烧后绕路15分钟或更长时间"
+        }
+      }
+    },
+    "42_The_Big": {
+      "translations": {
+        "english": {
+          "name": "The Big Reveal",
+          "description": "Complete Chapter 10."
+        },
+        "japanese": {
+          "name": "ストーリークリア５",
+          "description": "第十章をクリアした"
+        },
+        "schinese": {
+          "name": "剧情进度5",
+          "description": "完成主线剧情第十章"
+        }
+      }
+    },
+    "43_It_Takes": {
+      "translations": {
+        "english": {
+          "name": "It Takes Two",
+          "description": "Defeat 3 foes using co-op moves with Oda or Tachibana."
+        },
+        "japanese": {
+          "name": "社員一丸となって",
+          "description": "立華や尾田との協力攻撃で３人以上の敵を倒した"
+        },
+        "schinese": {
+          "name": "公司上下一条心",
+          "description": "使用和立华或尾田的协作招式打倒3名或更多敌人"
+        }
+      }
+    },
+    "44_A_Familiar": {
+      "translations": {
+        "english": {
+          "name": "A Familiar Name",
+          "description": "Complete Chapter 12."
+        },
+        "japanese": {
+          "name": "ストーリークリア６",
+          "description": "第十二章をクリアした"
+        },
+        "schinese": {
+          "name": "剧情进度6",
+          "description": "完成主线剧情第十二章"
+        }
+      }
+    },
+    "45_They_Wont": {
+      "translations": {
+        "english": {
+          "name": "They Won't Mind",
+          "description": "Steal Nikkyo Consortium funds from their safe."
+        },
+        "japanese": {
+          "name": "お宝ざっくざく！",
+          "description": "金庫を破壊して日侠連の資金を強奪した"
+        },
+        "schinese": {
+          "name": "满载而归！",
+          "description": "破坏保险箱并夺走日侠连的奖金"
+        }
+      }
+    },
+    "46_Painful_Reunion": {
+      "translations": {
+        "english": {
+          "name": "Painful Reunion",
+          "description": "Complete Chapter 14."
+        },
+        "japanese": {
+          "name": "ストーリークリア７",
+          "description": "第十四章をクリアした"
+        },
+        "schinese": {
+          "name": "剧情进度7",
+          "description": "完成主线剧情第十四章"
+        }
+      }
+    },
+    "47_Big_Hair": {
+      "translations": {
+        "english": {
+          "name": "Big Hair in the Crosshairs",
+          "description": "Defeat the yakuza with an afro on the highway."
+        },
+        "japanese": {
+          "name": "ヒートスナイプ",
+          "description": "アフロ頭のヤクザを倒した"
+        },
+        "schinese": {
+          "name": "热血狙击",
+          "description": "打败爆炸头的黑道"
+        }
+      }
+    },
+    "48_Lion_In": {
+      "translations": {
+        "english": {
+          "name": "Lamb in the Lion's Den",
+          "description": "Complete Chapter 16."
+        },
+        "japanese": {
+          "name": "ストーリークリア８",
+          "description": "第十六章をクリアした"
+        },
+        "schinese": {
+          "name": "剧情进度8",
+          "description": "完成主线剧情第十六章"
+        }
+      }
+    },
+    "49_Hitting_The": {
+      "translations": {
+        "english": {
+          "name": "Hitting the Bottle",
+          "description": "Suffer the full force of Reina's attack."
+        },
+        "japanese": {
+          "name": "トラブル対処はお手の物",
+          "description": "麗奈の渾身の一撃を食らってしまった"
+        },
+        "schinese": {
+          "name": "解决麻烦有一手",
+          "description": "挨到丽奈的全力一击"
+        }
+      }
+    },
+    "50_Awakened_And": {
+      "translations": {
+        "english": {
+          "name": "Awakened and Unleashed",
+          "description": "Complete the Final Chapter."
+        },
+        "japanese": {
+          "name": "感謝-スタッフ一同-",
+          "description": "最終章をクリアした"
+        },
+        "schinese": {
+          "name": "来自全体制作人员的谢意",
+          "description": "完成主线剧情终章"
+        }
+      }
+    },
+    "51_We_Built": {
+      "translations": {
+        "english": {
+          "name": "We Built This City",
+          "description": "Complete the Real Estate Royale storyline."
+        },
+        "japanese": {
+          "name": "神室町制覇",
+          "description": "神室町 マネーアイランドのストーリーを最後まで終わらせた"
+        },
+        "schinese": {
+          "name": "征服神室町",
+          "description": "完成神室町金钱岛的全部剧情故事"
+        }
+      }
+    },
+    "52_Walking_On": {
+      "translations": {
+        "english": {
+          "name": "Walking On Sunshine",
+          "description": "Complete the Cabaret Club Czar storyline."
+        },
+        "japanese": {
+          "name": "沈まぬ太陽",
+          "description": "蒼天堀 水商売アイランドのストーリーを最後まで終わらせた"
+        },
+        "schinese": {
+          "name": "不落的太阳",
+          "description": "完成苍乐崛酒乐岛的全部剧情故事"
+        }
+      }
+    },
+    "53_Generosity_Of": {
+      "translations": {
+        "english": {
+          "name": "Generosity of Strangers",
+          "description": "After you become undisputed king of an area, get someone to light a cigarette for you on the street."
+        },
+        "japanese": {
+          "name": "俺に触ると火傷するぜ",
+          "description": "キャッチにタバコの火をつけてもらった"
+        },
+        "schinese": {
+          "name": "碰到我会烧伤",
+          "description": "让街头揽客的人帮忙点烟"
+        }
+      }
+    },
+    "54_Just_Beat": {
+      "translations": {
+        "english": {
+          "name": "Just Beat It",
+          "description": "Complete all Climax Battles."
+        },
+        "japanese": {
+          "name": "道、極めしもの",
+          "description": "究極闘技を全てクリアした"
+        },
+        "schinese": {
+          "name": "登峰造极之人",
+          "description": "通关所有究极竞技"
+        }
+      }
+    },
+    "55_Amon_Defeated": {
+      "translations": {
+        "english": {
+          "name": "Amon Defeated",
+          "description": "Defeat So and Jo Amon."
+        },
+        "japanese": {
+          "name": "亜門撃破",
+          "description": "亜門創・亜門丈を撃破した"
+        },
+        "schinese": {
+          "name": "击败亚门",
+          "description": "击败亚门创和亚门丈"
+        }
+      }
+    }
+  }
+}

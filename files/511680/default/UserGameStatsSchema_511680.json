@@ -1,0 +1,1287 @@
+{
+  "version": 1,
+  "app_id": "511680",
+  "variant_id": "default",
+  "source_sha256": "54a7508fed6f5cfc759ad0a398e39a620b74d5388ef60a1c83478c5e48cbf9b2",
+  "languages": [
+    "english",
+    "japanese",
+    "koreana",
+    "schinese",
+    "tchinese"
+  ],
+  "achievements": {
+    "P_01": {
+      "translations": {
+        "english": {
+          "name": "With Regalia in Hand",
+          "description": "Obtained all achievements."
+        },
+        "japanese": {
+          "name": "王権を手に入れし者",
+          "description": "全ての実績を取得した"
+        },
+        "koreana": {
+          "name": "왕권을 손에 넣은 자",
+          "description": "모든 도전 과제를 획득했다."
+        },
+        "schinese": {
+          "name": "获得王权者",
+          "description": "取得所有成就"
+        },
+        "tchinese": {
+          "name": "獲得王權者",
+          "description": "取得所有成就"
+        }
+      }
+    },
+    "B_02": {
+      "translations": {
+        "english": {
+          "name": "The Dawn of Extella",
+          "description": "Cleared the 1st stage of the Flame Poem Arc."
+        },
+        "japanese": {
+          "name": "始まりのエクステラ",
+          "description": "焔詩篇 1st stageをクリアした"
+        },
+        "koreana": {
+          "name": "첫 엑스텔라",
+          "description": "염시 편 1st stage를 클리어했다."
+        },
+        "schinese": {
+          "name": "肇始的EXTELLA",
+          "description": "完成焰诗篇的1st stage"
+        },
+        "tchinese": {
+          "name": "肇始的EXTELLA",
+          "description": "完成焰詩篇的1st stage"
+        }
+      }
+    },
+    "B_03": {
+      "translations": {
+        "english": {
+          "name": "Conquest of the Millennium Capital",
+          "description": "Defeated Tamamo no Mae in the Flame Poem arc."
+        },
+        "japanese": {
+          "name": "千年京の制圧",
+          "description": "焔詩篇で玉藻の前を倒した"
+        },
+        "koreana": {
+          "name": "천년 수도 제압",
+          "description": "염시 편에서 타마모노마에를 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "镇压千年京",
+          "description": "于焰诗篇打倒玉藻前"
+        },
+        "tchinese": {
+          "name": "鎮壓千年京",
+          "description": "於焰詩篇打倒玉藻前"
+        }
+      }
+    },
+    "B_04": {
+      "translations": {
+        "english": {
+          "name": "Knight of the Land",
+          "description": "Cleared Artoria Pendragon's hidden side mission, then defeated her, once."
+        },
+        "japanese": {
+          "name": "最優の騎士",
+          "description": "サイドミッション達成で出現するアルトリア・ペンドラゴンを1回撃破した"
+        },
+        "koreana": {
+          "name": "가장 뛰어난 기사",
+          "description": "사이드 미션을 완료하면 출현하는 아르토리아 펜드래건을 1번 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "最优秀的骑士",
+          "description": "击破1次于完成副任务后现身的阿尔托莉亚・潘德拉刚"
+        },
+        "tchinese": {
+          "name": "最優秀的騎士",
+          "description": "擊破1次於完成副任務後現身的阿爾托莉亞・潘德拉剛"
+        }
+      }
+    },
+    "B_05": {
+      "translations": {
+        "english": {
+          "name": "Duel with the Strongest Swordswoman",
+          "description": "Defeated Altera in the Flame Poem arc."
+        },
+        "japanese": {
+          "name": "決着、最強の剣士",
+          "description": "焔詩篇でアルテラを倒した"
+        },
+        "koreana": {
+          "name": "결전, 최강의 검사",
+          "description": "염시 편에서 알테라를 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "决胜最强剑士",
+          "description": "于焰诗篇打倒阿提拉"
+        },
+        "tchinese": {
+          "name": "決勝最強劍士",
+          "description": "於焰詩篇打倒阿提拉"
+        }
+      }
+    },
+    "S_06": {
+      "translations": {
+        "english": {
+          "name": "Beyond the Applause",
+          "description": "Cleared the Flame Poem arc."
+        },
+        "japanese": {
+          "name": "喝采の果て",
+          "description": "焔詩篇をクリアした"
+        },
+        "koreana": {
+          "name": "갈채의 끝",
+          "description": "염시 편을 클리어했다."
+        },
+        "schinese": {
+          "name": "喝采的结局",
+          "description": "完成焰诗篇所有关卡"
+        },
+        "tchinese": {
+          "name": "喝采的結局",
+          "description": "完成焰詩篇所有關卡"
+        }
+      }
+    },
+    "B_07": {
+      "translations": {
+        "english": {
+          "name": "I'm the True Heroine",
+          "description": "Defeated Nero Claudius in the Orchid Poem arc."
+        },
+        "japanese": {
+          "name": "正ヒロインは私",
+          "description": "蘭詩篇でネロ・クラウディウスを倒した"
+        },
+        "koreana": {
+          "name": "진짜 히로인은 나",
+          "description": "난시 편에서 네로 클라우디우스를 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "真正的女主角是我",
+          "description": "于兰词篇打倒尼禄・克劳狄乌斯"
+        },
+        "tchinese": {
+          "name": "真正的女主角是我",
+          "description": "於蘭詞篇打倒尼祿・克勞狄烏斯"
+        }
+      }
+    },
+    "B_08": {
+      "translations": {
+        "english": {
+          "name": "Not Even Once",
+          "description": "Defeated Altera in the Orchid Poem arc."
+        },
+        "japanese": {
+          "name": "何一つ奪わせない",
+          "description": "蘭詩篇でアルテラを倒した"
+        },
+        "koreana": {
+          "name": "무엇 하나 빼앗기지 않겠어",
+          "description": "난시 편에서 알테라를 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "坚守一切",
+          "description": "于兰词篇打倒阿提拉"
+        },
+        "tchinese": {
+          "name": "堅守一切",
+          "description": "於蘭詞篇打倒阿提拉"
+        }
+      }
+    },
+    "S_09": {
+      "translations": {
+        "english": {
+          "name": "Curry Rice of Bliss",
+          "description": "Cleared the Orchid Poem arc."
+        },
+        "japanese": {
+          "name": "幸せカレーライス",
+          "description": "蘭詩篇をクリアした"
+        },
+        "koreana": {
+          "name": "행복 카레라이스",
+          "description": "난시 편을 클리어했다."
+        },
+        "schinese": {
+          "name": "幸福咖哩饭",
+          "description": "完成兰词篇所有关卡"
+        },
+        "tchinese": {
+          "name": "幸福咖哩飯",
+          "description": "完成蘭詞篇所有關卡"
+        }
+      }
+    },
+    "B_10": {
+      "translations": {
+        "english": {
+          "name": "Fall of the Millennium Capital",
+          "description": "Defeated Tamamo no Mae in the Dawn arc."
+        },
+        "japanese": {
+          "name": "千年京陥落",
+          "description": "未明篇で玉藻の前を倒した"
+        },
+        "koreana": {
+          "name": "천년 수도 함락",
+          "description": "미명 편에서 타마모노마에를 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "千年京沦陷",
+          "description": "于未明篇打倒玉藻前"
+        },
+        "tchinese": {
+          "name": "千年京淪陷",
+          "description": "於未明篇打倒玉藻前"
+        }
+      }
+    },
+    "B_11": {
+      "translations": {
+        "english": {
+          "name": "The Sun Sets on Rome",
+          "description": "Defeated Nero Claudius in the Orchid Poem arc."
+        },
+        "japanese": {
+          "name": "落陽のローマ",
+          "description": "未明篇でネロ・クラウディウスを倒した"
+        },
+        "koreana": {
+          "name": "로마의 해가 지다",
+          "description": "미명 편에서 네로 클라우디우스를 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "落日的罗马",
+          "description": "于未明篇打倒尼禄・克劳狄乌斯"
+        },
+        "tchinese": {
+          "name": "落日的羅馬",
+          "description": "於未明篇打倒尼祿・克勞狄烏斯"
+        }
+      }
+    },
+    "S_12": {
+      "translations": {
+        "english": {
+          "name": "Like a Star Traveling in the Night Sky",
+          "description": "Cleared the Dawn arc."
+        },
+        "japanese": {
+          "name": "夜空を行く星のように",
+          "description": "未明篇をクリアした"
+        },
+        "koreana": {
+          "name": "밤하늘을 달리는 별처럼",
+          "description": "미명 편을 클리어했다."
+        },
+        "schinese": {
+          "name": "如划过夜空之星",
+          "description": "完成未明篇所有关卡"
+        },
+        "tchinese": {
+          "name": "如劃過夜空之星",
+          "description": "完成未明篇所有關卡"
+        }
+      }
+    },
+    "B_13": {
+      "translations": {
+        "english": {
+          "name": "Defeat of the King of Knights",
+          "description": "Cleared Artoria Pendragon's hidden side mission, then defeated her, on four different stages."
+        },
+        "japanese": {
+          "name": "騎士王の撃破",
+          "description": "サイドミッション達成で出現するアルトリア・ペンドラゴンを異なるステージで4回撃破した"
+        },
+        "koreana": {
+          "name": "기사왕 격파",
+          "description": "사이드 미션을 완료하면 출현하는 아르토리아 펜드래건을 각각 다른 스테이지에서 4번 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "击破骑士王",
+          "description": "在不同关卡击破4次于完成副任务后现身的阿尔托莉亚・潘德拉刚"
+        },
+        "tchinese": {
+          "name": "擊破騎士王",
+          "description": "在不同關卡擊破4次於完成副任務後現身的阿爾托莉亞・潘德拉剛"
+        }
+      }
+    },
+    "B_14": {
+      "translations": {
+        "english": {
+          "name": "Formation of a Rival Alliance",
+          "description": "Allied with Tamamo no Mae in the Golden Poem arc."
+        },
+        "japanese": {
+          "name": "ライバル同盟結成",
+          "description": "金詩篇で玉藻の前を味方にした"
+        },
+        "koreana": {
+          "name": "라이벌 동맹 결성",
+          "description": "금시 편에서 타마모노마에를 아군으로 삼았다."
+        },
+        "schinese": {
+          "name": "劲敌同盟成立",
+          "description": "于金诗篇与玉藻前成为同伴"
+        },
+        "tchinese": {
+          "name": "勁敵同盟成立",
+          "description": "於金詩篇與玉藻前成為同伴"
+        }
+      }
+    },
+    "G_15": {
+      "translations": {
+        "english": {
+          "name": "To the New World",
+          "description": "Cleared the Golden Poem arc."
+        },
+        "japanese": {
+          "name": "新しい世界へ",
+          "description": "金詩篇をクリアした"
+        },
+        "koreana": {
+          "name": "새로운 세계로",
+          "description": "금시 편을 클리어했다."
+        },
+        "schinese": {
+          "name": "迈向新世界",
+          "description": "完成金诗篇所有关卡"
+        },
+        "tchinese": {
+          "name": "邁向新世界",
+          "description": "完成金詩篇所有關卡"
+        }
+      }
+    },
+    "B_16": {
+      "translations": {
+        "english": {
+          "name": "Your Heart Is Mine",
+          "description": "Completely cleared Cú Chulainn's sidestory."
+        },
+        "japanese": {
+          "name": "その心臓、貰い受ける",
+          "description": "クー・フーリンのサブストーリーを全てクリアした"
+        },
+        "koreana": {
+          "name": "그 심장, 받아가겠다",
+          "description": "쿠 훌린의 서브 스토리를 모두 클리어했다."
+        },
+        "schinese": {
+          "name": "那颗心脏，我收下了",
+          "description": "完成库胡林的所有支线故事"
+        },
+        "tchinese": {
+          "name": "那顆心臟，我收下了",
+          "description": "完成庫胡林的所有支線故事"
+        }
+      }
+    },
+    "B_17": {
+      "translations": {
+        "english": {
+          "name": "Punishing the Evil Fox",
+          "description": "Completely cleared Medusa's sidestory."
+        },
+        "japanese": {
+          "name": "悪狐の誅伐完了",
+          "description": "メドゥーサのサブストーリーを全てクリアした"
+        },
+        "koreana": {
+          "name": "나쁜 여우 응징 완료",
+          "description": "메두사의 서브 스토리를 모두 클리어했다."
+        },
+        "schinese": {
+          "name": "完成恶狐诛伐",
+          "description": "完成美杜莎的所有支线故事"
+        },
+        "tchinese": {
+          "name": "完成惡狐誅伐",
+          "description": "完成美杜莎的所有支線故事"
+        }
+      }
+    },
+    "B_18": {
+      "translations": {
+        "english": {
+          "name": "Full Fury of the Restless Soul",
+          "description": "Completely cleared  Lü Bu's sidestory."
+        },
+        "japanese": {
+          "name": "反骨の相フルバースト",
+          "description": "呂布奉先のサブストーリーを全てクリアした"
+        },
+        "koreana": {
+          "name": "반골의 시조 풀 버스트",
+          "description": "여포 봉선의 서브 스토리를 모두 클리어했다."
+        },
+        "schinese": {
+          "name": "叛逆之祖彻底解放",
+          "description": "完成吕布奉先的所有支线故事"
+        },
+        "tchinese": {
+          "name": "叛逆之祖徹底解放",
+          "description": "完成呂布奉先的所有支線故事"
+        }
+      }
+    },
+    "B_19": {
+      "translations": {
+        "english": {
+          "name": "My Gaze Will Take Down the Titan",
+          "description": "Completely cleared Karna's sidestory."
+        },
+        "japanese": {
+          "name": "巨神穿つは我が閃光",
+          "description": "カルナのサブストーリーを全てクリアした"
+        },
+        "koreana": {
+          "name": "거신을 꿰뚫는 나의 섬광",
+          "description": "카르나의 서브 스토리를 모두 클리어했다."
+        },
+        "schinese": {
+          "name": "吾之闪光贯穿巨神",
+          "description": "完成迦尔纳的所有支线故事"
+        },
+        "tchinese": {
+          "name": "吾之閃光貫穿巨神",
+          "description": "完成迦爾納的所有支線故事"
+        }
+      }
+    },
+    "B_20": {
+      "translations": {
+        "english": {
+          "name": "I Knew It!",
+          "description": "Completely cleared Elizabeth Bathory's sidestory."
+        },
+        "japanese": {
+          "name": "知ってた！",
+          "description": "エリザベート＝バートリーのサブストーリーを全てクリアした"
+        },
+        "koreana": {
+          "name": "다 알고 있었어!",
+          "description": "에르제베트 바토리의 서브 스토리를 모두 클리어했다."
+        },
+        "schinese": {
+          "name": "我就知道！",
+          "description": "完成伊莉莎白・巴托里的所有支线故事"
+        },
+        "tchinese": {
+          "name": "我就知道！",
+          "description": "完成伊莉莎白・巴托里的所有支線故事"
+        }
+      }
+    },
+    "B_21": {
+      "translations": {
+        "english": {
+          "name": "Flag of the Holy Maiden",
+          "description": "Completely cleared Jeanne D'Arc's sidestory."
+        },
+        "japanese": {
+          "name": "遊星阻む聖女の御旗",
+          "description": "ジャンヌ・ダルクのサブストーリーを全てクリアした"
+        },
+        "koreana": {
+          "name": "혹성을 막아서는 성녀의 깃발",
+          "description": "잔 다르크의 서브 스토리를 모두 클리어했다."
+        },
+        "schinese": {
+          "name": "拦阻游星的圣女旌旗",
+          "description": "完成圣女贞德的所有支线故事"
+        },
+        "tchinese": {
+          "name": "攔阻遊星的聖女旌旗",
+          "description": "完成聖女貞德的所有支線故事"
+        }
+      }
+    },
+    "B_22": {
+      "translations": {
+        "english": {
+          "name": "Glory Lies Beyond the Horizon",
+          "description": "Completely cleared Iskandar's sidestory."
+        },
+        "japanese": {
+          "name": "彼方にこそ栄えあり",
+          "description": "イスカンダルのサブストーリーを全てクリアした"
+        },
+        "koreana": {
+          "name": "번영은 저편에",
+          "description": "이스칸다르의 서브 스토리를 모두 클리어했다."
+        },
+        "schinese": {
+          "name": "荣耀就在彼方",
+          "description": "完成伊斯坎达尔的所有支线故事"
+        },
+        "tchinese": {
+          "name": "榮耀就在彼方",
+          "description": "完成伊斯坎達爾的所有支線故事"
+        }
+      }
+    },
+    "B_23": {
+      "translations": {
+        "english": {
+          "name": "To the Bottom of All the World's Evil",
+          "description": "Completely cleared Gilgamesh's sidestory."
+        },
+        "japanese": {
+          "name": "悪性の底へ",
+          "description": "ギルガメッシュのサブストーリーを全てクリアした"
+        },
+        "koreana": {
+          "name": "악성의 밑바닥으로",
+          "description": "길가메시의 서브 스토리를 모두 클리어했다."
+        },
+        "schinese": {
+          "name": "通往性恶的深渊",
+          "description": "完成吉尔伽美什的所有支线故事"
+        },
+        "tchinese": {
+          "name": "通往性惡的深淵",
+          "description": "完成吉爾伽美什的所有支線故事"
+        }
+      }
+    },
+    "B_24": {
+      "translations": {
+        "english": {
+          "name": "Of Course I Want Extra Rice!",
+          "description": "Completely cleared Artoria Pendragon's sidestory."
+        },
+        "japanese": {
+          "name": "もちろんご飯大盛りで！",
+          "description": "アルトリア・ペンドラゴンのサブストーリーを全てクリアした"
+        },
+        "koreana": {
+          "name": "물론 밥은 곱빼기로!",
+          "description": "아르토리아 펜드래건의 서브 스토리를 모두 클리어했다."
+        },
+        "schinese": {
+          "name": "当然饭要大碗的！",
+          "description": "完成阿尔托莉亚・潘德拉刚的所有支线故事"
+        },
+        "tchinese": {
+          "name": "當然飯要大碗的！",
+          "description": "完成阿爾托莉亞・潘德拉剛的所有支線故事"
+        }
+      }
+    },
+    "B_25": {
+      "translations": {
+        "english": {
+          "name": "Let's Compare Our Skills",
+          "description": "Completely cleared Li Shuwen's sidestory."
+        },
+        "japanese": {
+          "name": "武を比して死合おうぞ",
+          "description": "李書文のサブストーリーを全てクリアした"
+        },
+        "koreana": {
+          "name": "무를 겨루는 사투를 벌여보자",
+          "description": "이서문의 서브 스토리를 모두 클리어했다."
+        },
+        "schinese": {
+          "name": "比武至死方休",
+          "description": "完成李书文的所有支线故事"
+        },
+        "tchinese": {
+          "name": "比武至死方休",
+          "description": "完成李書文的所有支線故事"
+        }
+      }
+    },
+    "B_26": {
+      "translations": {
+        "english": {
+          "name": "Another Promise to the Round Table",
+          "description": "Completely cleared Gawain's sidestory."
+        },
+        "japanese": {
+          "name": "今再び、円卓の誓い",
+          "description": "ガウェインのサブストーリーを全てクリアした"
+        },
+        "koreana": {
+          "name": "다시금 원탁의 맹세",
+          "description": "가웨인의 서브 스토리를 모두 클리어했다."
+        },
+        "schinese": {
+          "name": "如今再次，圆桌起誓",
+          "description": "完成高文的所有支线故事"
+        },
+        "tchinese": {
+          "name": "如今再次，圓桌起誓",
+          "description": "完成高文的所有支線故事"
+        }
+      }
+    },
+    "B_27": {
+      "translations": {
+        "english": {
+          "name": "To the World of Possibilities",
+          "description": "Completely cleared Nameless' sidestory."
+        },
+        "japanese": {
+          "name": "可能性の世界へ",
+          "description": "無銘のサブストーリーを全てクリアした"
+        },
+        "koreana": {
+          "name": "가능성의 세계로",
+          "description": "무명의 서브 스토리를 모두 클리어했다."
+        },
+        "schinese": {
+          "name": "迈向充满可能性的世界",
+          "description": "完成无铭的所有支线故事"
+        },
+        "tchinese": {
+          "name": "邁向充滿可能性的世界",
+          "description": "完成無銘的所有支線故事"
+        }
+      }
+    },
+    "B_28": {
+      "translations": {
+        "english": {
+          "name": "Extella Prologue",
+          "description": "Completely cleared Archimedes' sidestory."
+        },
+        "japanese": {
+          "name": "エクステラ・序",
+          "description": "アルキメデスのサブストーリーを全てクリアした"
+        },
+        "koreana": {
+          "name": "엑스텔라・서",
+          "description": "아르키메데스의 서브 스토리를 모두 클리어했다."
+        },
+        "schinese": {
+          "name": "EXTELLA・序章",
+          "description": "完成阿基米德的所有支线故事"
+        },
+        "tchinese": {
+          "name": "EXTELLA・序章",
+          "description": "完成阿基米德的所有支線故事"
+        }
+      }
+    },
+    "G_29": {
+      "translations": {
+        "english": {
+          "name": "The One Who Observes the World",
+          "description": "Cleared all Servants' sidestories."
+        },
+        "japanese": {
+          "name": "世界を観測せし者",
+          "description": "全てのサーヴァントのサブストーリーをクリアした"
+        },
+        "koreana": {
+          "name": "세계를 지켜보는 자",
+          "description": "모든 서번트의 서브 스토리를 클리어했다."
+        },
+        "schinese": {
+          "name": "观测世界之人",
+          "description": "完成所有英灵的支线故事"
+        },
+        "tchinese": {
+          "name": "觀測世界之人",
+          "description": "完成所有英靈的支線故事"
+        }
+      }
+    },
+    "B_30": {
+      "translations": {
+        "english": {
+          "name": "Extella Maneuver",
+          "description": "Performed an Extella Maneuver for the first time."
+        },
+        "japanese": {
+          "name": "エクステラマニューバ",
+          "description": "エクステラマニューバを初めて使用した"
+        },
+        "koreana": {
+          "name": "엑스텔라 머누버",
+          "description": "처음으로 엑스텔라 머누버를 사용했다."
+        },
+        "schinese": {
+          "name": "EXTELLA机动攻击",
+          "description": "初次使用EXTELLA机动攻击"
+        },
+        "tchinese": {
+          "name": "EXTELLA機動攻擊",
+          "description": "初次使用EXTELLA機動攻擊"
+        }
+      }
+    },
+    "B_31": {
+      "translations": {
+        "english": {
+          "name": "Master of Lightspeed",
+          "description": "Performed 200 Extella Maneuvers."
+        },
+        "japanese": {
+          "name": "光速の支配者",
+          "description": "エクステラマニューバを200回使用した"
+        },
+        "koreana": {
+          "name": "광속의 지배자",
+          "description": "엑스텔라 머누버를 200번 사용했다."
+        },
+        "schinese": {
+          "name": "光速的支配者",
+          "description": "使用200次EXTELLA机动攻击"
+        },
+        "tchinese": {
+          "name": "光速的支配者",
+          "description": "使用200次EXTELLA機動攻擊"
+        }
+      }
+    },
+    "B_32": {
+      "translations": {
+        "english": {
+          "name": "Secret Power of the Regalia",
+          "description": "Performed a Moon Crux/Drive for the first time."
+        },
+        "japanese": {
+          "name": "秘められしレガリアの力",
+          "description": "初めてムーンクランチ/ムーンドライヴを行った"
+        },
+        "koreana": {
+          "name": "숨겨진 레갈리아의 힘",
+          "description": "처음으로 문 크런치/문 드라이브를 실행했다."
+        },
+        "schinese": {
+          "name": "秘藏的王权之力",
+          "description": "初次使用月灵收束/月灵驱动"
+        },
+        "tchinese": {
+          "name": "祕藏的王權之力",
+          "description": "初次使用月靈收束/月靈驅動"
+        }
+      }
+    },
+    "B_33": {
+      "translations": {
+        "english": {
+          "name": "Final-Point Convergence: Moon Crux",
+          "description": "Performed 50 Moon Crux/Drives."
+        },
+        "japanese": {
+          "name": "極点収束ムーンクランチ",
+          "description": "ムーンクランチ/ムーンドライヴを50回行った"
+        },
+        "koreana": {
+          "name": "극점수렴 문 크런치",
+          "description": "문 크런치/문 드라이브를 50번 실행했다."
+        },
+        "schinese": {
+          "name": "极点汇聚月灵收束",
+          "description": "使用50次月灵收束/月灵驱动"
+        },
+        "tchinese": {
+          "name": "極點匯聚月靈收束",
+          "description": "使用50次月靈收束/月靈驅動"
+        }
+      }
+    },
+    "B_34": {
+      "translations": {
+        "english": {
+          "name": "True Name Revelation",
+          "description": "Revealed the true name of your Noble Phantasm for the first time."
+        },
+        "japanese": {
+          "name": "真名解放",
+          "description": "初めて宝具の真名解放をした"
+        },
+        "koreana": {
+          "name": "진명 해방",
+          "description": "처음으로 보구의 진명을 해방했다."
+        },
+        "schinese": {
+          "name": "解放真名",
+          "description": "初次解放宝具的真名"
+        },
+        "tchinese": {
+          "name": "解放真名",
+          "description": "初次解放寶具的真名"
+        }
+      }
+    },
+    "B_35": {
+      "translations": {
+        "english": {
+          "name": "Pari Tenu Blauserum",
+          "description": "Revealed the true name of your Noble Phantasm 20 times."
+        },
+        "japanese": {
+          "name": "喝采は万雷の如く",
+          "description": "宝具の真名解放を20回した"
+        },
+        "koreana": {
+          "name": "갈채는 만뢰와 같이",
+          "description": "보구의 진명을 20번 해방했다."
+        },
+        "schinese": {
+          "name": "喝采如雷灌耳",
+          "description": "解放20次宝具的真名"
+        },
+        "tchinese": {
+          "name": "喝采如雷灌耳",
+          "description": "解放20次寶具的真名"
+        }
+      }
+    },
+    "B_36": {
+      "translations": {
+        "english": {
+          "name": "Golden Rule",
+          "description": "Equipped an Install Skill for the first ime."
+        },
+        "japanese": {
+          "name": "スキル獲得",
+          "description": "初めてインストールスキルを装着した"
+        },
+        "koreana": {
+          "name": "스킬 획득",
+          "description": "처음으로 인스톨 스킬을 장착했다."
+        },
+        "schinese": {
+          "name": "技能获得",
+          "description": "初次装备安装技能"
+        },
+        "tchinese": {
+          "name": "技能獲得",
+          "description": "初次裝備安裝技能"
+        }
+      }
+    },
+    "B_37": {
+      "translations": {
+        "english": {
+          "name": "Collector EX",
+          "description": "Recorded all Install Skills in the gallery."
+        },
+        "japanese": {
+          "name": "スキルコレクター",
+          "description": "ギャラリーに全てのインストールスキルを登録した"
+        },
+        "koreana": {
+          "name": "스킬 컬렉터",
+          "description": "갤러리에 모든 인스톨 스킬을 등록했다."
+        },
+        "schinese": {
+          "name": "技能收集者",
+          "description": "在鉴赏室登录所有的安装技能"
+        },
+        "tchinese": {
+          "name": "技能收集者",
+          "description": "在鑑賞室登錄所有的安裝技能"
+        }
+      }
+    },
+    "B_38": {
+      "translations": {
+        "english": {
+          "name": "Seeker",
+          "description": "Upgraded one Install Skill by +10."
+        },
+        "japanese": {
+          "name": "探求者",
+          "description": "一つのインストールスキルを+10まで強化した"
+        },
+        "koreana": {
+          "name": "탐구자",
+          "description": "하나의 인스톨 스킬을 +10까지 강화했다."
+        },
+        "schinese": {
+          "name": "探求者",
+          "description": "将任一个安装技能强化至+10"
+        },
+        "tchinese": {
+          "name": "探求者",
+          "description": "將任一個安裝技能強化至+10"
+        }
+      }
+    },
+    "B_39": {
+      "translations": {
+        "english": {
+          "name": "Power to its Limit",
+          "description": "Upgraded one Install Skill by +20."
+        },
+        "japanese": {
+          "name": "極めし力",
+          "description": "一つのインストールスキルを+20まで強化した"
+        },
+        "koreana": {
+          "name": "극강의 힘",
+          "description": "하나의 인스톨 스킬을 +20까지 강화했다."
+        },
+        "schinese": {
+          "name": "极致之力",
+          "description": "将任一个安装技能强化至+20"
+        },
+        "tchinese": {
+          "name": "極致之力",
+          "description": "將任一個安裝技能強化至+20"
+        }
+      }
+    },
+    "B_40": {
+      "translations": {
+        "english": {
+          "name": "Role of a Master",
+          "description": "Equipped a new Mystic Code."
+        },
+        "japanese": {
+          "name": "マスターの役目",
+          "description": "新しい礼装を装備した"
+        },
+        "koreana": {
+          "name": "마스터의 역할",
+          "description": "새로운 예장을 장비했다."
+        },
+        "schinese": {
+          "name": "御主职责",
+          "description": "装备新的礼装"
+        },
+        "tchinese": {
+          "name": "御主職責",
+          "description": "裝備新的禮裝"
+        }
+      }
+    },
+    "B_41": {
+      "translations": {
+        "english": {
+          "name": "Impeccable Timing",
+          "description": "Prevented a Sector Trap for the first time."
+        },
+        "japanese": {
+          "name": "ジャストタイミング",
+          "description": "初めてセクタートラップを防いだ"
+        },
+        "koreana": {
+          "name": "저스트 타이밍",
+          "description": "처음으로 섹터 트랩을 막았다."
+        },
+        "schinese": {
+          "name": "时机正好",
+          "description": "初次成功防卫领地陷阱"
+        },
+        "tchinese": {
+          "name": "時機正好",
+          "description": "初次成功防衛領地陷阱"
+        }
+      }
+    },
+    "B_42": {
+      "translations": {
+        "english": {
+          "name": "Superior Master",
+          "description": "Prevented a Sector Trap 30 times."
+        },
+        "japanese": {
+          "name": "至高のマスター",
+          "description": "セクタートラップを30回防いだ"
+        },
+        "koreana": {
+          "name": "지고한 마스터",
+          "description": "섹터 트랩을 30번 막았다."
+        },
+        "schinese": {
+          "name": "至高御主",
+          "description": "成功防卫30次领地陷阱"
+        },
+        "tchinese": {
+          "name": "至高御主",
+          "description": "成功防衛30次領地陷阱"
+        }
+      }
+    },
+    "B_43": {
+      "translations": {
+        "english": {
+          "name": "Royal Tailor",
+          "description": "Recorded all Mystic Codes in the gallery."
+        },
+        "japanese": {
+          "name": "ロイヤルテーラー",
+          "description": "ギャラリーに全ての礼装を登録した"
+        },
+        "koreana": {
+          "name": "로열 테일러",
+          "description": "갤러리에 모든 예장을 등록했다."
+        },
+        "schinese": {
+          "name": "御用裁缝",
+          "description": "于鉴赏室登录所有的礼装"
+        },
+        "tchinese": {
+          "name": "御用裁縫",
+          "description": "於鑑賞室登錄所有的禮裝"
+        }
+      }
+    },
+    "B_44": {
+      "translations": {
+        "english": {
+          "name": "Switching Partners",
+          "description": "Switched with a vice general for the first time."
+        },
+        "japanese": {
+          "name": "相棒交代",
+          "description": "初めて副官に切り替えた"
+        },
+        "koreana": {
+          "name": "파트너 교대",
+          "description": "처음으로 부관과 교대했다."
+        },
+        "schinese": {
+          "name": "搭档交替",
+          "description": "初次切换副官"
+        },
+        "tchinese": {
+          "name": "搭檔交替",
+          "description": "初次切換副官"
+        }
+      }
+    },
+    "B_45": {
+      "translations": {
+        "english": {
+          "name": "Collector",
+          "description": "Succeeded 25% completion rate in the gallery."
+        },
+        "japanese": {
+          "name": "蒐集家",
+          "description": "ギャラリーの解放率25％を達成した"
+        },
+        "koreana": {
+          "name": "수집가",
+          "description": "갤러리 개방률 25%를 달성했다."
+        },
+        "schinese": {
+          "name": "收集家",
+          "description": "鉴赏室的解锁率达到25%"
+        },
+        "tchinese": {
+          "name": "蒐集家",
+          "description": "鑑賞室的解鎖率達到25%"
+        }
+      }
+    },
+    "B_46": {
+      "translations": {
+        "english": {
+          "name": "Moon Cell Automaton",
+          "description": "Succeeded 100% completion rate in the gallery."
+        },
+        "japanese": {
+          "name": "ムーンセル・オートマトン",
+          "description": "ギャラリーの解放率100％を達成した"
+        },
+        "koreana": {
+          "name": "문 셀 오토마톤",
+          "description": "갤러리 개방률 100%를 달성했다."
+        },
+        "schinese": {
+          "name": "月灵晶体・自律演算器",
+          "description": "鉴赏室的解锁率达到100%"
+        },
+        "tchinese": {
+          "name": "月靈晶體・自律演算器",
+          "description": "鑑賞室的解鎖率達到100%"
+        }
+      }
+    },
+    "B_47": {
+      "translations": {
+        "english": {
+          "name": "Top Servant",
+          "description": "Obtained an EX rank in the results."
+        },
+        "japanese": {
+          "name": "トップサーヴァント",
+          "description": "リザルトでランクEXを獲得した"
+        },
+        "koreana": {
+          "name": "톱 서번트",
+          "description": "전적 평가에서 랭크 EX를 획득했다."
+        },
+        "schinese": {
+          "name": "顶尖英灵",
+          "description": "获得阶级EX的战果"
+        },
+        "tchinese": {
+          "name": "頂尖英靈",
+          "description": "獲得階級EX的戰果"
+        }
+      }
+    },
+    "B_48": {
+      "translations": {
+        "english": {
+          "name": "Moon Soldier",
+          "description": "Defeated a total of 1,000 Aggressors."
+        },
+        "japanese": {
+          "name": "月の強者",
+          "description": "累計討伐アグレッサー数1000体を達成した"
+        },
+        "koreana": {
+          "name": "달의 강자",
+          "description": "어그레서 합계 토벌 수 1000을 달성했다."
+        },
+        "schinese": {
+          "name": "月之强者",
+          "description": "讨伐侵略者数量达到1000个"
+        },
+        "tchinese": {
+          "name": "月之強者",
+          "description": "討伐侵略者數量達到1000個"
+        }
+      }
+    },
+    "B_49": {
+      "translations": {
+        "english": {
+          "name": "Moon Conqueror",
+          "description": "Defeated a total of 5,000 Aggressors."
+        },
+        "japanese": {
+          "name": "月の征服者",
+          "description": "累計討伐アグレッサー数5000体を達成した"
+        },
+        "koreana": {
+          "name": "달의 정복자",
+          "description": "어그레서 합계 토벌 수 5000을 달성했다."
+        },
+        "schinese": {
+          "name": "月之征服者",
+          "description": "讨伐侵略者数量达到5000个"
+        },
+        "tchinese": {
+          "name": "月之征服者",
+          "description": "討伐侵略者數量達到5000個"
+        }
+      }
+    },
+    "G_50": {
+      "translations": {
+        "english": {
+          "name": "Supreme Sovereign",
+          "description": "Cleared all stages on VERY HARD difficulty."
+        },
+        "japanese": {
+          "name": "至高にして至上",
+          "description": "難易度VERY HARDで全てのステージをクリアした"
+        },
+        "koreana": {
+          "name": "지고지상",
+          "description": "난이도 VERY HARD로 모든 스테이지를 클리어했다."
+        },
+        "schinese": {
+          "name": "至高无上",
+          "description": "以VERY HARD的难度完成所有关卡"
+        },
+        "tchinese": {
+          "name": "至高無上",
+          "description": "以VERY HARD的難度完成所有關卡"
+        }
+      }
+    },
+    "B_51": {
+      "translations": {
+        "english": {
+          "name": "Expanding Territories",
+          "description": "Conquered a total of 100 sectors."
+        },
+        "japanese": {
+          "name": "拡大する領土",
+          "description": "累計100セクターを制圧した"
+        },
+        "koreana": {
+          "name": "확대되는 영토",
+          "description": "총 100개의 섹터를 제압했다."
+        },
+        "schinese": {
+          "name": "扩张领土",
+          "description": "累计镇压100个领地"
+        },
+        "tchinese": {
+          "name": "擴張領土",
+          "description": "累計鎮壓100個領地"
+        }
+      }
+    },
+    "B_52": {
+      "translations": {
+        "english": {
+          "name": "Bond of Truth",
+          "description": "Raised a Servant's Kizuna level to 30."
+        },
+        "japanese": {
+          "name": "真実の絆",
+          "description": "1体のサーヴァントの絆レベルを30まで上げた"
+        },
+        "koreana": {
+          "name": "진정한 인연",
+          "description": "서번트 1명의 인연 레벨을 30까지 올렸다."
+        },
+        "schinese": {
+          "name": "真实的羁绊",
+          "description": "1位英灵的羁绊等级达到30"
+        },
+        "tchinese": {
+          "name": "真實的羈絆",
+          "description": "1位英靈的羈絆等級達到30"
+        }
+      }
+    },
+    "B_53": {
+      "translations": {
+        "english": {
+          "name": "Handsome Soul Master",
+          "description": "Raised 3 Servant's Kizuna level to 30."
+        },
+        "japanese": {
+          "name": "イケ魂マスター",
+          "description": "3体のサーヴァントの絆レベルを30まで上げた"
+        },
+        "koreana": {
+          "name": "핸섬 혼 마스터",
+          "description": "서번트 3명의 인연 레벨을 30까지 올렸다."
+        },
+        "schinese": {
+          "name": "帅魂御主",
+          "description": "3位英灵的羁绊等级达到30"
+        },
+        "tchinese": {
+          "name": "帥魂御主",
+          "description": "3位英靈的羈絆等級達到30"
+        }
+      }
+    }
+  }
+}

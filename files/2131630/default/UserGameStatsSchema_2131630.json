@@ -1,0 +1,593 @@
+{
+  "version": 1,
+  "app_id": "2131630",
+  "variant_id": "default",
+  "source_sha256": "c41762fe31e370d7b79d962b5e615624ebfc31e94e6a7fd4c923d54b484db6e3",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "MEDAL_MISSION_START": {
+      "translations": {
+        "english": {
+          "name": "Commencing Mission",
+          "description": "Begin a new game"
+        },
+        "french": {
+          "name": "Commencer la mission",
+          "description": "Commencer une nouvelle partie"
+        },
+        "german": {
+          "name": "Mission wird gestartet",
+          "description": "Beginnen Sie neues Spiel."
+        },
+        "italian": {
+          "name": "Inizio missione",
+          "description": "Avvia una nuova partita"
+        },
+        "japanese": {
+          "name": "ミッション開始",
+          "description": "NEW GAME を開始した"
+        },
+        "schinese": {
+          "name": "作战开始",
+          "description": "开始新游戏"
+        },
+        "spanish": {
+          "name": "Iniciando misión",
+          "description": "Empieza una partida nueva."
+        }
+      }
+    },
+    "MEDAL_BOSS_OCELOT": {
+      "translations": {
+        "english": {
+          "name": "vs. Revolver Ocelot",
+          "description": "Defeat Revolver Ocelot"
+        },
+        "french": {
+          "name": "contre Revolver Ocelot",
+          "description": "Vaincre Revolver Ocelot"
+        },
+        "german": {
+          "name": "vs. Revolver Ocelot",
+          "description": "Besiegen Sie Revolver Ocelot."
+        },
+        "italian": {
+          "name": "Revolver Ocelot",
+          "description": "Sconfiggi Revolver Ocelot"
+        },
+        "japanese": {
+          "name": "vs.リボルバー・オセロット",
+          "description": "オセロットとの戦闘に勝利した"
+        },
+        "schinese": {
+          "name": "对战左轮山猫",
+          "description": "打败左轮山猫"
+        },
+        "spanish": {
+          "name": "vs. Revolver Ocelot",
+          "description": "Derrota a Revolver Ocelot."
+        }
+      }
+    },
+    "MEDAL_BOSS_TANK": {
+      "translations": {
+        "english": {
+          "name": "vs. M1 Tank",
+          "description": "Defeat the M1 Tank"
+        },
+        "french": {
+          "name": "contre le Tank M1",
+          "description": "Vaincre le Tank M1"
+        },
+        "german": {
+          "name": "vs. M1-Panzer",
+          "description": "Besiegen Sie den M1-Panzer."
+        },
+        "italian": {
+          "name": "Carro armato M1",
+          "description": "Sconfiggi il carro armato M1"
+        },
+        "japanese": {
+          "name": "vs.M1戦車",
+          "description": "Ｍ１戦車との戦いに勝利した"
+        },
+        "schinese": {
+          "name": "对战M1坦克",
+          "description": "打败M1坦克"
+        },
+        "spanish": {
+          "name": "vs. Tanque M1",
+          "description": "Destruye el tanque M1."
+        }
+      }
+    },
+    "MEDAL_BOSS_NINJA": {
+      "translations": {
+        "english": {
+          "name": "vs. Ninja",
+          "description": "Defeat Ninja"
+        },
+        "french": {
+          "name": "contre le Ninja",
+          "description": "Vaincre le Ninja"
+        },
+        "german": {
+          "name": "vs. Ninja",
+          "description": "Besiegen Sie Ninja."
+        },
+        "italian": {
+          "name": "Ninja",
+          "description": "Sconfiggi il ninja"
+        },
+        "japanese": {
+          "name": "vs.忍者",
+          "description": "忍者との戦闘に勝利した"
+        },
+        "schinese": {
+          "name": "对战忍者",
+          "description": "打败忍者"
+        },
+        "spanish": {
+          "name": "vs. Ninja",
+          "description": "Derrota a Ninja."
+        }
+      }
+    },
+    "MEDAL_BOSS_MANTIS": {
+      "translations": {
+        "english": {
+          "name": "vs. Psycho Mantis",
+          "description": "Defeat Psycho Mantis"
+        },
+        "french": {
+          "name": "contre Psycho Mantis",
+          "description": "Vaincre Psycho Mantis"
+        },
+        "german": {
+          "name": "vs. Psycho Mantis",
+          "description": "Besiegen Sie Psycho Mantis."
+        },
+        "italian": {
+          "name": "Psycho Mantis",
+          "description": "Sconfiggi Psycho Mantis"
+        },
+        "japanese": {
+          "name": "vs.サイコ・マンティス",
+          "description": "サイコ・マンティスとの戦闘に勝利した"
+        },
+        "schinese": {
+          "name": "对战精神螳螂",
+          "description": "打败精神螳螂"
+        },
+        "spanish": {
+          "name": "vs. Psycho Mantis",
+          "description": "Derrota a Psycho Mantis."
+        }
+      }
+    },
+    "MEDAL_BOSS_WOLF": {
+      "translations": {
+        "english": {
+          "name": "vs. Sniper Wolf",
+          "description": "Defeat Sniper Wolf"
+        },
+        "french": {
+          "name": "contre Sniper Wolf",
+          "description": "Vaincre Sniper Wolf"
+        },
+        "german": {
+          "name": "vs. Sniper Wolf",
+          "description": "Besiegen Sie Sniper Wolf."
+        },
+        "italian": {
+          "name": "Sniper Wolf",
+          "description": "Sconfiggi Sniper Wolf"
+        },
+        "japanese": {
+          "name": "vs.スナイパー・ウルフ",
+          "description": "スナイパー・ウルフとの戦闘に勝利した"
+        },
+        "schinese": {
+          "name": "对战Sniper Wolf",
+          "description": "打败Sniper Wolf"
+        },
+        "spanish": {
+          "name": "vs. Sniper Wolf",
+          "description": "Derrota a Sniper Wolf."
+        }
+      }
+    },
+    "MEDAL_BOSS_HIND": {
+      "translations": {
+        "english": {
+          "name": "vs. Hind D",
+          "description": "Defeat Hind D"
+        },
+        "french": {
+          "name": "contre le Hind D",
+          "description": "Vaincre le Hind D"
+        },
+        "german": {
+          "name": "vs. Hind D",
+          "description": "Besiegen Sie den Hind D."
+        },
+        "italian": {
+          "name": "Hind D",
+          "description": "Sconfiggi l'elicottero Hind D"
+        },
+        "japanese": {
+          "name": "vs.ハインドＤ",
+          "description": "ハインドＤとの戦闘に勝利した"
+        },
+        "schinese": {
+          "name": "对战Hind D直升机",
+          "description": "击毁Hind D直升机"
+        },
+        "spanish": {
+          "name": "vs. Hind D",
+          "description": "Destruye el Hind D."
+        }
+      }
+    },
+    "MEDAL_BOSS_WOLF2": {
+      "translations": {
+        "english": {
+          "name": "vs. Sniper Wolf (Rematch)",
+          "description": "Prevail in the rematch against Sniper Wolf"
+        },
+        "french": {
+          "name": "contre Sniper Wolf (Revanche)",
+          "description": "Vaincre Sniper Wolf dans la revanche"
+        },
+        "german": {
+          "name": "vs. Sniper Wolf (Revanche)",
+          "description": "Gehen Sie aus dem Kampf mit Sniper Wolf siegreich hervor."
+        },
+        "italian": {
+          "name": "Sniper Wolf (secondo scontro)",
+          "description": "Vinci il secondo scontro con Sniper Wolf"
+        },
+        "japanese": {
+          "name": "vs.スナイパー・ウルフ（再戦）",
+          "description": "スナイパー・ウルフとの再戦に勝利した"
+        },
+        "schinese": {
+          "name": "对战Sniper Wolf（再战）",
+          "description": "第二次击败Sniper Wolf "
+        },
+        "spanish": {
+          "name": "vs. Sniper Wolf (revancha)",
+          "description": "Vence en la revancha contra Sniper Wolf."
+        }
+      }
+    },
+    "MEDAL_BOSS_RAVEN": {
+      "translations": {
+        "english": {
+          "name": "vs. Vulcan Raven",
+          "description": "Defeat Vulcan Raven"
+        },
+        "french": {
+          "name": "contre Vulcan Raven",
+          "description": "Vaincre Vulcan Raven"
+        },
+        "german": {
+          "name": "vs. Vulcan Raven",
+          "description": "Besiegen Sie Vulcan Raven."
+        },
+        "italian": {
+          "name": "Vulcan Raven",
+          "description": "Sconfiggi Vulcan Raven"
+        },
+        "japanese": {
+          "name": "vs.バルカン・レイブン",
+          "description": "バルカン・レイブンとの戦闘に勝利した"
+        },
+        "schinese": {
+          "name": "对战Vulcan Raven",
+          "description": "打败Vulcan Raven"
+        },
+        "spanish": {
+          "name": "vs. Vulcan Raven",
+          "description": "Derrota a Vulcan Raven."
+        }
+      }
+    },
+    "MEDAL_BOSS_METALGEAR": {
+      "translations": {
+        "english": {
+          "name": "vs. Metal Gear REX",
+          "description": "Defeat Metal Gear REX"
+        },
+        "french": {
+          "name": "contre Metal Gear REX",
+          "description": "Vaincre Metal Gear REX"
+        },
+        "german": {
+          "name": "vs. Metal Gear REX",
+          "description": "Besiegen Sie Metal Gear REX."
+        },
+        "italian": {
+          "name": "Metal Gear REX",
+          "description": "Sconfiggi il Metal Gear REX"
+        },
+        "japanese": {
+          "name": "vs.メタルギアＲＥＸ",
+          "description": "メタルギアＲＥＸとの戦闘に勝利した"
+        },
+        "schinese": {
+          "name": "对战合金装备REX",
+          "description": "击毁合金装备REX"
+        },
+        "spanish": {
+          "name": "vs. Metal Gear REX",
+          "description": "Derrota al Metal Gear REX."
+        }
+      }
+    },
+    "MEDAL_BOSS_LIQUID": {
+      "translations": {
+        "english": {
+          "name": "vs. Liquid Snake",
+          "description": "Defeat Liquid Snake"
+        },
+        "french": {
+          "name": "contre Liquid Snake",
+          "description": "Vaincre Liquid Snake"
+        },
+        "german": {
+          "name": "vs. Liquid Snake",
+          "description": "Besiegen Sie Liquid Snake."
+        },
+        "italian": {
+          "name": "Liquid Snake",
+          "description": "Sconfiggi Liquid Snake"
+        },
+        "japanese": {
+          "name": "vs.リキッド・スネーク",
+          "description": "リキッド・スネークとの戦闘に勝利した"
+        },
+        "schinese": {
+          "name": "对战液蛇",
+          "description": "打败液蛇"
+        },
+        "spanish": {
+          "name": "vs. Liquid Snake",
+          "description": "Derrota a Liquid Snake."
+        }
+      }
+    },
+    "MEDAL_VR_START": {
+      "translations": {
+        "english": {
+          "name": "Git Gud",
+          "description": "Complete a VR training mission"
+        },
+        "french": {
+          "name": "Commencer l'entraînement en VR",
+          "description": "Terminer une mission d'entraînement VR"
+        },
+        "german": {
+          "name": "VR-Training beginnen",
+          "description": "Schließen Sie eine VR-Trainingsmission ab."
+        },
+        "italian": {
+          "name": "Inizia l'addestramento VR",
+          "description": "Completa una missione dell'addestramento VR"
+        },
+        "japanese": {
+          "name": "VRトレーニング開始",
+          "description": "VRトレーニングで１つのミッションをクリアした"
+        },
+        "schinese": {
+          "name": "菜就多练",
+          "description": "完成一次 VR训练任务"
+        },
+        "spanish": {
+          "name": "Iniciar entrenamiento de RV",
+          "description": "Completa una misión de entrenamiento de RV."
+        }
+      }
+    },
+    "MEDAL_ALL_SCENARIO": {
+      "translations": {
+        "english": {
+          "name": "Cover-to-Cover Solid",
+          "description": "Read all the pages in the Screenplay Book"
+        },
+        "french": {
+          "name": "Intégral Solid",
+          "description": "Lire toutes les pages du recueil d'histoires"
+        },
+        "german": {
+          "name": "Cover-to-Cover Solid",
+          "description": "Lesen Sie alle Seiten der Story-Zusammenfassung."
+        },
+        "italian": {
+          "name": "La spia che leggeva",
+          "description": "Leggi tutte le pagine del compendio della storia"
+        },
+        "japanese": {
+          "name": "シナリオ読破",
+          "description": "シナリオブックの全てのページを読んだ"
+        },
+        "schinese": {
+          "name": "从头到尾的Solid",
+          "description": "读完Screenplay Book"
+        },
+        "spanish": {
+          "name": "De Pe a Pa Solid",
+          "description": "Lee todas las páginas del compendio de la historia."
+        }
+      }
+    },
+    "MEDAL_GET_BANDANA": {
+      "translations": {
+        "english": {
+          "name": "Decked Out",
+          "description": "Obtain the bandana"
+        },
+        "french": {
+          "name": "Bandana obtenu",
+          "description": "Obtenir le bandana"
+        },
+        "german": {
+          "name": "Bandana erhalten",
+          "description": "Erhalten Sie das Bandana."
+        },
+        "italian": {
+          "name": "Bandana ottenuta",
+          "description": "Ottieni la bandana"
+        },
+        "japanese": {
+          "name": "バンダナ入手",
+          "description": "バンダナを入手した"
+        },
+        "schinese": {
+          "name": "全副武装",
+          "description": "获得头巾"
+        },
+        "spanish": {
+          "name": "Bandana conseguida",
+          "description": "Consigue la bandana."
+        }
+      }
+    },
+    "MEDAL_GET_STEALTH": {
+      "translations": {
+        "english": {
+          "name": "Dress For the Job",
+          "description": "Obtain the stealth camo"
+        },
+        "french": {
+          "name": "Camouflage optique obtenu",
+          "description": "Obtenir le camouflage optique"
+        },
+        "german": {
+          "name": "Stealth-Camo erhalten",
+          "description": "Erhalten Sie die Stealth-Camo."
+        },
+        "italian": {
+          "name": "Mimetica ottica ottenuta",
+          "description": "Ottieni la mimetica ottica"
+        },
+        "japanese": {
+          "name": "ステルス迷彩入手",
+          "description": "ステルス迷彩を入手した"
+        },
+        "schinese": {
+          "name": "为了工作",
+          "description": "获得隐形迷彩"
+        },
+        "spanish": {
+          "name": "Camuflaje óptico conseguido",
+          "description": "Consigue el camuflaje óptico."
+        }
+      }
+    },
+    "MEDAL_CODE_FOX": {
+      "translations": {
+        "english": {
+          "name": "Elite",
+          "description": "Obtain the Fox or Big Boss codename"
+        },
+        "french": {
+          "name": "Nom de code Élite",
+          "description": "Obtenir le nom de code Fox ou Big Boss"
+        },
+        "german": {
+          "name": "Elite-Codename",
+          "description": "Erlangen Sie Codenamen Fox oder Big Boss."
+        },
+        "italian": {
+          "name": "Nome in codice d'élite",
+          "description": "Ottieni il nome in codice Fox o Big Boss"
+        },
+        "japanese": {
+          "name": "最高クラスのコードネーム",
+          "description": "CODE「FOX」またはCODE「BIG BOSS」を獲得した"
+        },
+        "schinese": {
+          "name": "精英",
+          "description": "获得 “Fox” 或 “Big Boss” 称号"
+        },
+        "spanish": {
+          "name": "Nombre código de élite",
+          "description": "Consigue el nombre código Big Boss."
+        }
+      }
+    },
+    "MEDAL_VR_COMPLETE": {
+      "translations": {
+        "english": {
+          "name": "Practice Makes Perfect",
+          "description": "Complete all VR training missions"
+        },
+        "french": {
+          "name": "Diplômé en formation VR",
+          "description": "Terminer toutes les missions d'entraînement VR"
+        },
+        "german": {
+          "name": "VR-Training-Absolvent",
+          "description": "Schließen Sie alle VR-Trainingsmissionen ab."
+        },
+        "italian": {
+          "name": "Esperto di addestramento VR",
+          "description": "Completa tutte le missioni dell'addestramento VR"
+        },
+        "japanese": {
+          "name": "VRトレーニング・卒業",
+          "description": "ＶＲトレーニングをすべてクリアした"
+        },
+        "schinese": {
+          "name": "熟能生巧",
+          "description": "完成所有VR训练任务"
+        },
+        "spanish": {
+          "name": "Especialista de entrenamiento de RV",
+          "description": "Completa todas las misiones de entrenamiento de RV."
+        }
+      }
+    },
+    "MEDAL_PHOTO_EXORCISE": {
+      "translations": {
+        "english": {
+          "name": "Ghostly Encounter",
+          "description": "Exorcise a ghost photo"
+        },
+        "french": {
+          "name": "Exorciste en photo de fantôme",
+          "description": "Exorciser une photo de fantôme"
+        },
+        "german": {
+          "name": "Foto-Exorzist",
+          "description": "Treiben Sie einem Foto die Geister aus."
+        },
+        "italian": {
+          "name": "Esorcista fotografico",
+          "description": "Esorcizza la foto di un fantasma"
+        },
+        "japanese": {
+          "name": "心霊写真の除霊",
+          "description": "心霊写真を除霊した"
+        },
+        "schinese": {
+          "name": "驱灵",
+          "description": "驱除一张幽灵照片"
+        },
+        "spanish": {
+          "name": "Exorcista de fotos fantasma",
+          "description": "Exorciza una foto fantasma."
+        }
+      }
+    }
+  }
+}

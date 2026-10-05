@@ -13,13 +13,20 @@ def main() -> None:
     parser.add_argument("--allow-unindexed-schema-files", action="store_true")
     parser.add_argument("--allow-stale-index-metadata", action="store_true")
     parser.add_argument("--allow-stale-derived-artifacts", action="store_true")
+    parser.add_argument("--translation-pr", action="store_true")
+    parser.add_argument("--base-ref", default="origin/main")
+    parser.add_argument("--head-ref", default="HEAD")
     args = parser.parse_args()
-    report = check_repository(
-        strict_language_coverage=args.strict_language_coverage,
-        allow_unindexed_schema_files=args.allow_unindexed_schema_files,
-        allow_stale_index_metadata=args.allow_stale_index_metadata,
-        allow_stale_derived_artifacts=args.allow_stale_derived_artifacts,
-    )
+    if args.translation_pr:
+        from translation_pr_validation import check_translation_pr
+        report = check_translation_pr(args.base_ref, args.head_ref)
+    else:
+        report = check_repository(
+            strict_language_coverage=args.strict_language_coverage,
+            allow_unindexed_schema_files=args.allow_unindexed_schema_files,
+            allow_stale_index_metadata=args.allow_stale_index_metadata,
+            allow_stale_derived_artifacts=args.allow_stale_derived_artifacts,
+        )
     for warning in report.warnings:
         print(f"WARNING: {warning}")
     for error in report.errors:

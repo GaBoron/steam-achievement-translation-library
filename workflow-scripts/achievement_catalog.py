@@ -5,6 +5,8 @@ from pathlib import Path, PurePosixPath
 from typing import Any
 
 import catalog_v2
+import translation_json
+from schema_compatibility import synchronize_default_schema
 from steam_schema import achievement_rows, load_schema, validate_schema_structure
 
 
@@ -96,10 +98,18 @@ def write_entry_achievement_catalogs(entry: dict[str, Any], *, root: Path = cata
 
     game_id = str(entry["game_id"])
     written: list[Path] = []
-    for variant in validated_entry_schema_variants(entry, require_metadata=True):
+    variants = validated_entry_schema_variants(entry, require_metadata=True)
+    for variant in variants:
         variant_id = str(variant["variant_id"])
         path, content = expected_catalog(game_id, variant_id, variant, root=root)
         if not path.is_file() or path.read_text(encoding="utf-8") != content:
             path.write_text(content, encoding="utf-8", newline="\n")
         written.append(path)
+        schema_path = root / catalog_v2.schema_relative_path(game_id, variant_id)
+        variant["json"] = translation_json.write_translation(schema_path, game_id, variant_id)
+        if variant_id == "default":
+            entry["json"] = dict(variant["json"])
+    if isinstance(entry.get("schema_files"), list):
+        entry["schema_files"] = variants
+    synchronize_default_schema(game_id, root=root)
     return written

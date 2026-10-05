@@ -1,0 +1,1521 @@
+{
+  "version": 1,
+  "app_id": "524220",
+  "variant_id": "default",
+  "source_sha256": "b730079ef75e50d83840d62e8195d89cdb2bf2c814f89c087456eb7918b04237",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "ACH_VISITED_BUNKER": {
+      "translations": {
+        "english": {
+          "name": "Resuscitated Body",
+          "description": "Stare into space from the Bunker."
+        },
+        "french": {
+          "name": "Corps ressuscité",
+          "description": "Contempler l'espace depuis la Base."
+        },
+        "german": {
+          "name": "Wiederbelebter Körper",
+          "description": "Schaue vom Bunker aus in den Weltraum."
+        },
+        "italian": {
+          "name": "Corpo rianimato",
+          "description": "Scruta lo spazio dal Bunker."
+        },
+        "japanese": {
+          "name": "蘇る身体",
+          "description": "バンカーから宇宙を眺める。"
+        },
+        "schinese": {
+          "name": "苏醒之身",
+          "description": "从地堡中眺望宇宙"
+        },
+        "spanish": {
+          "name": "Cuerpo resucitado",
+          "description": "Mira al espacio desde el búnker."
+        }
+      }
+    },
+    "ACH_VISITED_RUINS_CITY": {
+      "translations": {
+        "english": {
+          "name": "Vestiges of Prosperity",
+          "description": "Arrive at the city ruins."
+        },
+        "french": {
+          "name": "Vestiges prospères",
+          "description": "Arriver à la cité en ruines."
+        },
+        "german": {
+          "name": "Spuren des Reichtums",
+          "description": "Begib dich in die Ruinenstadt."
+        },
+        "italian": {
+          "name": "Vestigia di prosperità",
+          "description": "Raggiungi le rovine della città."
+        },
+        "japanese": {
+          "name": "栄華の痕跡",
+          "description": "廃墟都市に降り立つ。"
+        },
+        "schinese": {
+          "name": "繁荣的残骸",
+          "description": "抵达都市废墟"
+        },
+        "spanish": {
+          "name": "Vestigios de prosperidad",
+          "description": "Llega a las ruinas de la ciudad."
+        }
+      }
+    },
+    "ACH_CLEAR_DESERT_AREA": {
+      "translations": {
+        "english": {
+          "name": "It's a Healthy Baby Boy!",
+          "description": "Complete the desert area."
+        },
+        "french": {
+          "name": "C'est un garçon !",
+          "description": "Terminer la zone désertique."
+        },
+        "german": {
+          "name": "Es ist ein Junge!",
+          "description": "Beende das Wüstengebiet."
+        },
+        "italian": {
+          "name": "È un maschietto!",
+          "description": "Completa l'area del deserto."
+        },
+        "japanese": {
+          "name": "おめでとうございます！元気な男の子ですよ！",
+          "description": "砂漠地帯をクリア。"
+        },
+        "schinese": {
+          "name": "是个健康的男婴！",
+          "description": "完成沙漠地带"
+        },
+        "spanish": {
+          "name": "¡Es un niño sano!",
+          "description": "Completa la zona del desierto."
+        }
+      }
+    },
+    "ACH_CLEAR_AMUSEMENT_PARK": {
+      "translations": {
+        "english": {
+          "name": "We Await Your Next Visit",
+          "description": "Complete the amusement park ruins."
+        },
+        "french": {
+          "name": "Au plaisir de vous revoir",
+          "description": "Terminer la zone du parc d'attractions."
+        },
+        "german": {
+          "name": "Bis zum nächsten Besuch.",
+          "description": "Beende die Vergnügungsparkruine."
+        },
+        "italian": {
+          "name": "Ti aspettiamo presto!",
+          "description": "Completa le rovine del luna park."
+        },
+        "japanese": {
+          "name": "またのご来園お待ちしております……",
+          "description": "遊園地廃墟をクリア。"
+        },
+        "schinese": {
+          "name": "恭候您的再次光临",
+          "description": "完成游乐园废墟"
+        },
+        "spanish": {
+          "name": "Esperamos tu visita",
+          "description": "Completa las ruinas del parque de atracciones."
+        }
+      }
+    },
+    "ACH_CLEAR_ALIEN_SHIP": {
+      "translations": {
+        "english": {
+          "name": "Creation and Insurrection",
+          "description": "Complete the alien ship."
+        },
+        "french": {
+          "name": "Création et insurrection",
+          "description": "Terminer la zone du vaisseau extraterrestre."
+        },
+        "german": {
+          "name": "Schöpfung und Aufruhr",
+          "description": "Beende das Alien-Schiff."
+        },
+        "italian": {
+          "name": "Creazione e insurrezione",
+          "description": "Completa l'astronave aliena."
+        },
+        "japanese": {
+          "name": "創造と叛逆",
+          "description": "エイリアンシップをクリア。"
+        },
+        "schinese": {
+          "name": "创造与叛乱",
+          "description": "完成外星飞船"
+        },
+        "spanish": {
+          "name": "Creación e insurrección",
+          "description": "Completa la nave alienígena."
+        }
+      }
+    },
+    "ACH_CLEAR_CASTLE_FOREST": {
+      "translations": {
+        "english": {
+          "name": "The Mechanical Kingdom",
+          "description": "Complete the forest castle."
+        },
+        "french": {
+          "name": "Royaume mécanique",
+          "description": "Terminer la zone du château de la forêt."
+        },
+        "german": {
+          "name": "Das Maschinen-Königreich",
+          "description": "Beende die Waldburg."
+        },
+        "italian": {
+          "name": "Regno meccanico",
+          "description": "Completa il castello nella foresta."
+        },
+        "japanese": {
+          "name": "機械達の王国",
+          "description": "森の城をクリア。"
+        },
+        "schinese": {
+          "name": "机械王国",
+          "description": "完成森林古堡"
+        },
+        "spanish": {
+          "name": "El reino mecánico",
+          "description": "Completa el castillo del bosque."
+        }
+      }
+    },
+    "ACH_CLEAR_SUBMERGE_CITY": {
+      "translations": {
+        "english": {
+          "name": "Ruler of the Deep",
+          "description": "Complete the flooded city."
+        },
+        "french": {
+          "name": "Seigneur des profondeurs",
+          "description": "Terminer la zone de la cité submergée."
+        },
+        "german": {
+          "name": "Herrscher der Tiefe",
+          "description": "Beende die versunkene Stadt."
+        },
+        "italian": {
+          "name": "Signore degli abissi",
+          "description": "Completa la città sommersa."
+        },
+        "japanese": {
+          "name": "海原の支配者",
+          "description": "水没都市をクリア。"
+        },
+        "schinese": {
+          "name": "深海霸主",
+          "description": "完成淹没都市"
+        },
+        "spanish": {
+          "name": "Rey de las profundidades",
+          "description": "Completa la ciudad anegada."
+        }
+      }
+    },
+    "ACH_CLEAR_COPY_CITY": {
+      "translations": {
+        "english": {
+          "name": "Those Who Love Humans",
+          "description": "Complete the copied city."
+        },
+        "french": {
+          "name": "Humanophiles",
+          "description": "Terminer la zone de la cité dupliquée."
+        },
+        "german": {
+          "name": "Menschenliebhaber",
+          "description": "Beende die kopierte Stadt."
+        },
+        "italian": {
+          "name": "Passione per gli umani",
+          "description": "Completa la città clone."
+        },
+        "japanese": {
+          "name": "ヒトに憧れるモノ達",
+          "description": "複製された街をクリア。"
+        },
+        "schinese": {
+          "name": "爱着人类之人",
+          "description": "完成复刻城市"
+        },
+        "spanish": {
+          "name": "Los que aman a humanos",
+          "description": "Completa la ciudad copiada."
+        }
+      }
+    },
+    "ACH_CLEAR_ROBOT_MT": {
+      "translations": {
+        "english": {
+          "name": "Iron Soul",
+          "description": "Complete the abandoned factory."
+        },
+        "french": {
+          "name": "Âme de fer",
+          "description": "Terminer la zone de l'usine désaffectée."
+        },
+        "german": {
+          "name": "Eiserne Seele",
+          "description": "Beende die verlassene Fabrik."
+        },
+        "italian": {
+          "name": "Anima di ferro",
+          "description": "Completa la fabbrica abbandonata."
+        },
+        "japanese": {
+          "name": "鉄の魂",
+          "description": "工場廃墟をクリア。"
+        },
+        "schinese": {
+          "name": "钢铁之魂",
+          "description": "完成废弃工厂"
+        },
+        "spanish": {
+          "name": "Alma de hierro",
+          "description": "Completa la fábrica abandonada."
+        }
+      }
+    },
+    "ACH_CLEAR_A": {
+      "translations": {
+        "english": {
+          "name": "One Battle Ends",
+          "description": "Achieve ending A."
+        },
+        "french": {
+          "name": "Fin d'une bataille",
+          "description": "Débloquer la fin A."
+        },
+        "german": {
+          "name": "Ein Kampf endet",
+          "description": "Erreiche Ende A."
+        },
+        "italian": {
+          "name": "La fine di una battaglia",
+          "description": "Sblocca il finale A."
+        },
+        "japanese": {
+          "name": "戦いの終わり",
+          "description": "Ａエンディングクリア。"
+        },
+        "schinese": {
+          "name": "一场战役的终结",
+          "description": "达成结局A"
+        },
+        "spanish": {
+          "name": "Termina una batalla",
+          "description": "Logra el final A."
+        }
+      }
+    },
+    "ACH_CLEAR_B": {
+      "translations": {
+        "english": {
+          "name": "A New Battle Begins",
+          "description": "Achieve ending B."
+        },
+        "french": {
+          "name": "Début d'une autre bataille",
+          "description": "Débloquer la fin B."
+        },
+        "german": {
+          "name": "Ein neuer Kampf beginnt",
+          "description": "Erreiche Ende B."
+        },
+        "italian": {
+          "name": "L'inizio di una battaglia",
+          "description": "Sblocca il finale B."
+        },
+        "japanese": {
+          "name": "戦いの始まり",
+          "description": "Ｂエンディングクリア。"
+        },
+        "schinese": {
+          "name": "新的战役开始",
+          "description": "达成结局B"
+        },
+        "spanish": {
+          "name": "Comienza otra batalla",
+          "description": "Logra el final B."
+        }
+      }
+    },
+    "ACH_SEE_2B_DIE": {
+      "translations": {
+        "english": {
+          "name": "Final Wish",
+          "description": "Watch 2B die."
+        },
+        "french": {
+          "name": "Dernier vœu",
+          "description": "Regarder 2B mourir."
+        },
+        "german": {
+          "name": "Letzter Wunsch",
+          "description": "Sieh zu, wie 2B stirbt."
+        },
+        "italian": {
+          "name": "Ultimo desiderio",
+          "description": "Assisti alla morte di 2B."
+        },
+        "japanese": {
+          "name": "願い",
+          "description": "２Ｂの死を目撃。"
+        },
+        "schinese": {
+          "name": "最后的愿望",
+          "description": "见证2B之死"
+        },
+        "spanish": {
+          "name": "Último deseo",
+          "description": "Observa cómo muere 2B."
+        }
+      }
+    },
+    "ACH_PLAY_A2_FIRST_TIME": {
+      "translations": {
+        "english": {
+          "name": "Treacherous Blade",
+          "description": "Control A2 for the first time."
+        },
+        "french": {
+          "name": "Lame perfide",
+          "description": "Contrôler A2 pour la première fois."
+        },
+        "german": {
+          "name": "Trügerisches Schwert",
+          "description": "Steuere A2 zum ersten Mal."
+        },
+        "italian": {
+          "name": "Lama infida",
+          "description": "Assumi il controllo di A2 per la prima volta."
+        },
+        "japanese": {
+          "name": "復讐の刃",
+          "description": "Ａ２を初めて操作。"
+        },
+        "schinese": {
+          "name": "叛逆之刃",
+          "description": "初次操作A2"
+        },
+        "spanish": {
+          "name": "Hoja traicionera",
+          "description": "Controla a A2 por primera vez."
+        }
+      }
+    },
+    "ACH_LAST_REQUEST_PASCAL": {
+      "translations": {
+        "english": {
+          "name": "Farewell, Pascal",
+          "description": "Grant Pascal's final request."
+        },
+        "french": {
+          "name": "Adieu, Pascal",
+          "description": "Exaucer la dernière volonté de Pascal."
+        },
+        "german": {
+          "name": "Leb wohl, Pascal",
+          "description": "Gewähre Pascal seine letzte Bitte."
+        },
+        "italian": {
+          "name": "Addio, Pascal",
+          "description": "Soddisfa l'ultima richiesta di Pascal."
+        },
+        "japanese": {
+          "name": "さよなら、パスカル",
+          "description": "パスカルの最後の頼みを選択。"
+        },
+        "schinese": {
+          "name": "永别了帕斯卡",
+          "description": "答应帕斯卡最后的请求"
+        },
+        "spanish": {
+          "name": "Adiós, Pascal",
+          "description": "Concédele a Pascal su última petición."
+        }
+      }
+    },
+    "ACH_KILL_ROBOT_BROTHER": {
+      "translations": {
+        "english": {
+          "name": "Justice",
+          "description": "Stop all resource recovery units."
+        },
+        "french": {
+          "name": "Au nom de la justice",
+          "description": "Stopper tous les collecteurs."
+        },
+        "german": {
+          "name": "Gerechtigkeit",
+          "description": "Halte alle Ressourcen-Wiederherstellungseinheiten an."
+        },
+        "italian": {
+          "name": "Giustizia",
+          "description": "Disattiva tutte le unità di recupero risorse."
+        },
+        "japanese": {
+          "name": "正義",
+          "description": "全ての資源回収ユニットを停止。"
+        },
+        "schinese": {
+          "name": "正义",
+          "description": "关停所有资源回收装置"
+        },
+        "spanish": {
+          "name": "Justicia",
+          "description": "Detén todas las unidades de recuperación de recursos."
+        }
+      }
+    },
+    "ACH_DEVOLA_NOVEL_END": {
+      "translations": {
+        "english": {
+          "name": "Crime and Punishment",
+          "description": "Watch the final moments of Devola and Popola."
+        },
+        "french": {
+          "name": "Crime et châtiment",
+          "description": "Assister aux derniers moments de Devola et Popola."
+        },
+        "german": {
+          "name": "Verbrechen und Strafe",
+          "description": "Sieh dir die letzten Momente von Devola und Popola an."
+        },
+        "italian": {
+          "name": "Delitto e castigo",
+          "description": "Assisti agli ultimi istanti di Devola e Popola."
+        },
+        "japanese": {
+          "name": "罪と罰",
+          "description": "デボルとポポルの最期を見届ける。"
+        },
+        "schinese": {
+          "name": "罪与罚",
+          "description": "目睹迪瓦拉与波波拉姐妹的弥留之际"
+        },
+        "spanish": {
+          "name": "Crimen y castigo",
+          "description": "Mira los últimos momentos de Devola y Popola."
+        }
+      }
+    },
+    "ACH_CLEAR_9S": {
+      "translations": {
+        "english": {
+          "name": "Leaving for the New World",
+          "description": "Achieve 9S's ending."
+        },
+        "french": {
+          "name": "Vers le nouveau monde",
+          "description": "Débloquer la fin de 9S."
+        },
+        "german": {
+          "name": "Auf zur neuen Welt",
+          "description": "Erreiche das Ende von 9S."
+        },
+        "italian": {
+          "name": "Per un nuovo mondo",
+          "description": "Sblocca il finale di 9S."
+        },
+        "japanese": {
+          "name": "旅立ち",
+          "description": "９Ｓエンディングクリア。"
+        },
+        "schinese": {
+          "name": "前往新世界",
+          "description": "达成9S结局"
+        },
+        "spanish": {
+          "name": "Hacia el Nuevo Mundo",
+          "description": "Logra el final de 9S."
+        }
+      }
+    },
+    "ACH_CLEAR_A2": {
+      "translations": {
+        "english": {
+          "name": "Beautiful World",
+          "description": "Achieve A2's ending."
+        },
+        "french": {
+          "name": "La beauté du monde",
+          "description": "Débloquer la fin de A2."
+        },
+        "german": {
+          "name": "Schöne Welt",
+          "description": "Erreiche das Ende von A2."
+        },
+        "italian": {
+          "name": "Splendido mondo",
+          "description": "Sblocca il finale di A2."
+        },
+        "japanese": {
+          "name": "美しき世界",
+          "description": "Ａ２エンディングクリア。"
+        },
+        "schinese": {
+          "name": "美丽世界",
+          "description": "达成A2结局"
+        },
+        "spanish": {
+          "name": "Mundo hermoso",
+          "description": "Logra el final de A2."
+        }
+      }
+    },
+    "ACH_TRUE_END": {
+      "translations": {
+        "english": {
+          "name": "The Minds That Emerged",
+          "description": "View the final credits."
+        },
+        "french": {
+          "name": "Les esprits émergents",
+          "description": "Voir les crédits de fin."
+        },
+        "german": {
+          "name": "Kreative Köpfe",
+          "description": "Sieh dir die finalen Credits an."
+        },
+        "italian": {
+          "name": "Menti emerse",
+          "description": "Guarda i riconoscimenti finali."
+        },
+        "japanese": {
+          "name": "未来への意思",
+          "description": "最終エンドロールを見る。"
+        },
+        "schinese": {
+          "name": "觉醒的意识",
+          "description": "观看最终职员表"
+        },
+        "spanish": {
+          "name": "Las mentes emergentes",
+          "description": "Mira los créditos finales."
+        }
+      }
+    },
+    "ACH_RECOVERY_SELF_CORPSE": {
+      "translations": {
+        "english": {
+          "name": "The Circle of Death",
+          "description": "Have your body collected."
+        },
+        "french": {
+          "name": "Cercle mortel",
+          "description": "Ancien corps récupéré."
+        },
+        "german": {
+          "name": "Der Kreis des Todes",
+          "description": "Lasse deinen Körper einsammeln."
+        },
+        "italian": {
+          "name": "Cerchio della morte",
+          "description": "Il tuo corpo è stato raccolto."
+        },
+        "japanese": {
+          "name": "繰り返される死",
+          "description": "自身の義体が回収される。"
+        },
+        "schinese": {
+          "name": "死亡轮回",
+          "description": "回收自己的义体"
+        },
+        "spanish": {
+          "name": "El círculo de la muerte",
+          "description": "Tu cuerpo ha sido recogido."
+        }
+      }
+    },
+    "ACH_RECOVERY_CORPSE": {
+      "translations": {
+        "english": {
+          "name": "Cherish Our Resources",
+          "description": "Have 100 bodies collected."
+        },
+        "french": {
+          "name": "Nos chères ressources",
+          "description": "100 corps récupérés."
+        },
+        "german": {
+          "name": "Ressourcen sind wichtig",
+          "description": "100 Körper eingesammelt."
+        },
+        "italian": {
+          "name": "Risorse preziose",
+          "description": "100 corpi sono stati raccolti."
+        },
+        "japanese": {
+          "name": "資源は大切に",
+          "description": "義体が１００体以上回収される。"
+        },
+        "schinese": {
+          "name": "珍惜资源",
+          "description": "回收100具义体"
+        },
+        "spanish": {
+          "name": "Aprecia nuestros recursos",
+          "description": "Se han recogido 100 cuerpos."
+        }
+      }
+    },
+    "ACH_CLEAR_QUEST_FIRST_TIME": {
+      "translations": {
+        "english": {
+          "name": "First Errand",
+          "description": "Complete your first quest."
+        },
+        "french": {
+          "name": "Première mission",
+          "description": "Terminer la première quête."
+        },
+        "german": {
+          "name": "Erster Botengang",
+          "description": "Schließe deine erste Aufgabe ab."
+        },
+        "italian": {
+          "name": "Prima commissione",
+          "description": "Porta a termine la tua prima missione."
+        },
+        "japanese": {
+          "name": "初めてのお使い",
+          "description": "初めてクエストをクリア。"
+        },
+        "schinese": {
+          "name": "初次跑腿",
+          "description": "完成第一个支线任务"
+        },
+        "spanish": {
+          "name": "Primer encargo",
+          "description": "Completa tu primera misión."
+        }
+      }
+    },
+    "ACH_CLEAR_MANY_QUEST": {
+      "translations": {
+        "english": {
+          "name": "The Mercenary",
+          "description": "80% of all quests completed."
+        },
+        "french": {
+          "name": "Mercenaire",
+          "description": "80 % des quêtes terminées."
+        },
+        "german": {
+          "name": "Der Söldner",
+          "description": "80 % aller Aufgaben abgeschlossen."
+        },
+        "italian": {
+          "name": "Mercenario",
+          "description": "L'80% delle missioni è stato completato."
+        },
+        "japanese": {
+          "name": "必殺仕事人形",
+          "description": "クエスト達成率が８０％に到達した者が現れる。"
+        },
+        "schinese": {
+          "name": "雇佣兵",
+          "description": "完成80%的任务"
+        },
+        "spanish": {
+          "name": "El mercenario",
+          "description": "Se ha completado el 80 % de todas las misiones."
+        }
+      }
+    },
+    "ACH_COLLECT_ARCHIVE": {
+      "translations": {
+        "english": {
+          "name": "Information Master",
+          "description": "80% of all archives found."
+        },
+        "french": {
+          "name": "Maître de l'information",
+          "description": "80 % des archives découvertes."
+        },
+        "german": {
+          "name": "Meister der Informationen",
+          "description": "80 % aller Archive gefunden."
+        },
+        "italian": {
+          "name": "Genio informativo",
+          "description": "L'80% degli archivi è stato trovato."
+        },
+        "japanese": {
+          "name": "情報を制する者",
+          "description": "アーカイブ収集率が８０％に到達した者が現れる。"
+        },
+        "schinese": {
+          "name": "情报大师",
+          "description": "收集80%的档案"
+        },
+        "spanish": {
+          "name": "Maestro de la información",
+          "description": "Se ha encontrado el 80 % de todos los archivos."
+        }
+      }
+    },
+    "ACH_COLLECT_EM_LIST": {
+      "translations": {
+        "english": {
+          "name": "Destruction is My Job",
+          "description": "80% of all unit data unlocked."
+        },
+        "french": {
+          "name": "La destruction est mon métier",
+          "description": "80 % des données d'unité découvertes."
+        },
+        "german": {
+          "name": "Zerstörung ist mein Beruf",
+          "description": "80 % aller Einheitendaten freigeschaltet."
+        },
+        "italian": {
+          "name": "Distruggere è il mio mestiere",
+          "description": "L'80% dei dati unità è stato sbloccato."
+        },
+        "japanese": {
+          "name": "敵を壊すだけの簡単なお仕事です",
+          "description": "個体データ収集率が８０％に到達した者が現れる。"
+        },
+        "schinese": {
+          "name": "破坏是我的工作",
+          "description": "解锁80%的个体数据"
+        },
+        "spanish": {
+          "name": "Destruir es mi trabajo",
+          "description": "Se ha desbloqueado el 80 % de todos los datos de unidad."
+        }
+      }
+    },
+    "ACH_COLLECT_CHIP": {
+      "translations": {
+        "english": {
+          "name": "Chip Collector",
+          "description": "80% of all plug-in chips collected."
+        },
+        "french": {
+          "name": "Collectionneur de puces",
+          "description": "80 % des puces de fonctionnalités récupérées."
+        },
+        "german": {
+          "name": "Chip-Sammler",
+          "description": "80 % aller Plugin-Chips eingesammelt."
+        },
+        "italian": {
+          "name": "Collezionista di chip",
+          "description": "L'80% dei chip inseribili è stato ottenuto."
+        },
+        "japanese": {
+          "name": "チップコレクター",
+          "description": "プラグイン・チップを８０％以上収集した者が現れる。"
+        },
+        "schinese": {
+          "name": "芯片收集者",
+          "description": "收集80%的植入芯片"
+        },
+        "spanish": {
+          "name": "Coleccionista de chips",
+          "description": "Se ha reunido el 80 % de todos los chips de ampliación."
+        }
+      }
+    },
+    "ACH_HAS_ALL_ACTIVE_SKILL": {
+      "translations": {
+        "english": {
+          "name": "Weapons Maniac",
+          "description": "All Pod programs obtained."
+        },
+        "french": {
+          "name": "Fanatique des armes",
+          "description": "Tous les programmes de pod obtenus."
+        },
+        "german": {
+          "name": "Waffenfanatiker",
+          "description": "Alle Pod-Programme beschafft."
+        },
+        "italian": {
+          "name": "Fanatico di armi",
+          "description": "Tutti i programmi Pod sono stati ottenuti."
+        },
+        "japanese": {
+          "name": "兵器マニア",
+          "description": "全てのポッド・プログラムが入手される。"
+        },
+        "schinese": {
+          "name": "武器狂人",
+          "description": "获得全部Pod程序"
+        },
+        "spanish": {
+          "name": "Loco de las armas",
+          "description": "Se han obtenido todos los programas de pod."
+        }
+      }
+    },
+    "ACH_WEAPON_LV_MAX": {
+      "translations": {
+        "english": {
+          "name": "Tools of the Trade",
+          "description": "Any weapon upgraded to the highest level."
+        },
+        "french": {
+          "name": "Outil indispensable",
+          "description": "Une arme améliorée jusqu'au niveau maximal."
+        },
+        "german": {
+          "name": "Handwerkszeug",
+          "description": "Eine Waffe bis zur höchsten Stufe verbessert."
+        },
+        "italian": {
+          "name": "Attrezzi del mestiere",
+          "description": "Un'arma è stata potenziata al livello più alto."
+        },
+        "japanese": {
+          "name": "こだわりの仕事道具",
+          "description": "いずれかの武器を最高レベルに強化した者が現れる。"
+        },
+        "schinese": {
+          "name": "趁手工具",
+          "description": "强化任意武器至最高等级"
+        },
+        "spanish": {
+          "name": "Herramientas del oficio",
+          "description": "Se ha mejorado un arma al máximo nivel."
+        }
+      }
+    },
+    "ACH_WEAPON_LV_MAX_ALL": {
+      "translations": {
+        "english": {
+          "name": "Inorganic Blade",
+          "description": "All weapons upgraded to the highest level."
+        },
+        "french": {
+          "name": "Lame inorganique",
+          "description": "Toutes les armes améliorées jusqu'au niveau maximal."
+        },
+        "german": {
+          "name": "Anorganisches Schwert",
+          "description": "Alle Waffen bis zur höchsten Stufe verbessert."
+        },
+        "italian": {
+          "name": "Lama inorganica",
+          "description": "Tutte le armi sono state potenziate al livello più alto."
+        },
+        "japanese": {
+          "name": "無機なる刃",
+          "description": "全ての武器を最高レベルに強化した者が現れる。"
+        },
+        "schinese": {
+          "name": "无机之刃",
+          "description": "强化所有武器至最高等级"
+        },
+        "spanish": {
+          "name": "Hoja inorgánica",
+          "description": "Se han mejorado todas las armas al máximo nivel."
+        }
+      }
+    },
+    "ACH_POD_LV_MAX_ALL": {
+      "translations": {
+        "english": {
+          "name": "Supreme Support Weapons",
+          "description": "All Pods upgraded to the highest level."
+        },
+        "french": {
+          "name": "Support ultime",
+          "description": "Tous les pods améliorés jusqu'au niveau maximal."
+        },
+        "german": {
+          "name": "Überlegene Hilfswaffen",
+          "description": "Alle Pods bis zur höchsten Stufe verbessert."
+        },
+        "italian": {
+          "name": "Le migliori armi di supporto",
+          "description": "Tutti i Pod sono stati potenziati al livello più alto."
+        },
+        "japanese": {
+          "name": "最強支援兵器達",
+          "description": "全てのポッドを最高レベルにした者が現れる。"
+        },
+        "schinese": {
+          "name": "最强支援武器",
+          "description": "强化所有Pod至最高等级"
+        },
+        "spanish": {
+          "name": "Armas de apoyo supremas",
+          "description": "Se han mejorado todos los pods al máximo nivel. "
+        }
+      }
+    },
+    "ACH_CLEAR_HACKING_9S": {
+      "translations": {
+        "english": {
+          "name": "Fighting's Not My Thing",
+          "description": "Play your first hacking game."
+        },
+        "french": {
+          "name": "Combattre n'est pas vraiment mon truc...",
+          "description": "Jouer à votre premier jeu de piratage."
+        },
+        "german": {
+          "name": "Kämpfen ist nicht meins",
+          "description": "Spiele dein erstes Hacking-Spiel."
+        },
+        "italian": {
+          "name": "Non mi piace combattere",
+          "description": "Prova il primo gioco di manomissione."
+        },
+        "japanese": {
+          "name": "戦闘はあんまり得意じゃないんですよ……",
+          "description": "初めてハッキングが行われる。"
+        },
+        "schinese": {
+          "name": "不擅长战斗",
+          "description": "进行首次骇入游戏"
+        },
+        "spanish": {
+          "name": "Luchar no es lo mío",
+          "description": "Juega tu primer juego de pirateo."
+        }
+      }
+    },
+    "ACH_HACKING_KILL": {
+      "translations": {
+        "english": {
+          "name": "A Scanner's Power",
+          "description": "100 machine lifeforms destroyed by hacking."
+        },
+        "french": {
+          "name": "Puissance du détecteur",
+          "description": "100 formes de vie mécaniques détruites en les piratant."
+        },
+        "german": {
+          "name": "Die Macht des Scanners",
+          "description": "100 Maschinenwesen durch Hacking zerstört."
+        },
+        "italian": {
+          "name": "Potenza dello Scanner",
+          "description": "100 biomacchine sono state distrutte tramite manomissione."
+        },
+        "japanese": {
+          "name": "これがスキャナーモデルの力です！！",
+          "description": "ハッキングで機械生命体が１００体以上撃破される。"
+        },
+        "schinese": {
+          "name": "扫描仪的力量",
+          "description": "使用骇入破坏100个机械生命体"
+        },
+        "spanish": {
+          "name": "El poder de un escaneador",
+          "description": "100 formas de vida mecánicas han sido destruidas mediante pirateo."
+        }
+      }
+    },
+    "ACH_REMOTO_KILL": {
+      "translations": {
+        "english": {
+          "name": "Machines vs. Machines",
+          "description": "50 machine lifeforms destroyed by remote control."
+        },
+        "french": {
+          "name": "Machines contre machines",
+          "description": "50 formes de vie mécaniques détruites en les contrôlant à distance."
+        },
+        "german": {
+          "name": "Maschinen vs. Maschinen",
+          "description": "50 Maschinenwesen durch Fernsteuerung zerstört."
+        },
+        "italian": {
+          "name": "Macchine VS macchine",
+          "description": "50 biomacchine sono state distrutte tramite controllo a distanza."
+        },
+        "japanese": {
+          "name": "ロボをもってロボを制す",
+          "description": "リモート操作状態で機械生命体が５０体以上撃破される。"
+        },
+        "schinese": {
+          "name": "机械对机械",
+          "description": "使用远程操控破坏50个机械生命体"
+        },
+        "spanish": {
+          "name": "Máquinas contra máquinas",
+          "description": "50 formas de vida mecánicas han sido destruidas mediante control remoto."
+        }
+      }
+    },
+    "ACH_BERSERKER_KILL": {
+      "translations": {
+        "english": {
+          "name": "The Power of Hate",
+          "description": "50 machine lifeforms destroyed with berserk mode."
+        },
+        "french": {
+          "name": "La puissance de la haine",
+          "description": "50 formes de vie mécaniques détruites en ayant recours au mode Infernal."
+        },
+        "german": {
+          "name": "Die Macht des Hasses",
+          "description": "50 Maschinenwesen durch Berserker-Modus zerstört."
+        },
+        "italian": {
+          "name": "Potere dell'odio",
+          "description": "50 biomacchine sono state distrutte con la modalità furia."
+        },
+        "japanese": {
+          "name": "憎悪の力",
+          "description": "バーサーカーモードで敵が５０体以上撃破される。"
+        },
+        "schinese": {
+          "name": "仇恨之力",
+          "description": "使用狂暴模式破坏50个机械生命体"
+        },
+        "spanish": {
+          "name": "El poder del odio",
+          "description": "50 formas de vida mecánicas han sido destruidas con el modo frenético."
+        }
+      }
+    },
+    "ACH_SHOOTING": {
+      "translations": {
+        "english": {
+          "name": "Ruler of the Skies",
+          "description": "255 enemies destroyed using a flight unit."
+        },
+        "french": {
+          "name": "Seigneur des cieux",
+          "description": "255 ennemis détruits en utilisant un module de vol."
+        },
+        "german": {
+          "name": "Herrscher der Himmel",
+          "description": "255 Feinde mit einer Flugeinheit zerstört."
+        },
+        "italian": {
+          "name": "Signore dei cieli",
+          "description": "255 nemici sono stati distrutti usando un aeroscheletro."
+        },
+        "japanese": {
+          "name": "空の支配者",
+          "description": "飛行ユニットで２５５体以上の敵が破壊される。"
+        },
+        "schinese": {
+          "name": "天空霸主",
+          "description": "使用飞行装甲破坏255个敌人"
+        },
+        "spanish": {
+          "name": "Rey de los cielos",
+          "description": "255 enemigos han sido destruidos usando una unidad de vuelo."
+        }
+      }
+    },
+    "ACH_EXTRACTION": {
+      "translations": {
+        "english": {
+          "name": "Harvest King",
+          "description": "Materials gathered at a hidden harvest point 10 times."
+        },
+        "french": {
+          "name": "Roi de la récup'",
+          "description": "Matériaux récupérés dans un point de collecte caché à 10 reprises."
+        },
+        "german": {
+          "name": "Sammlerkönig",
+          "description": "10-mal Materialien an einem verborgenen Sammelpunkt gesammelt."
+        },
+        "italian": {
+          "name": "Re del raccolto",
+          "description": "Sono stati ottenuti materiali da un punto di raccolta segreto 10 volte."
+        },
+        "japanese": {
+          "name": "採取王",
+          "description": "隠し採取ポイントで１０回以上採取が行われる。"
+        },
+        "schinese": {
+          "name": "丰收之王",
+          "description": "在隐藏采集点采集10次"
+        },
+        "spanish": {
+          "name": "Rey de la cosecha",
+          "description": "Se ha recopilado 10 veces los materiales en un punto de cosecha oculto."
+        }
+      }
+    },
+    "ACH_GET_ALL_POD": {
+      "translations": {
+        "english": {
+          "name": "Pod Hunter",
+          "description": "All Pods found."
+        },
+        "french": {
+          "name": "Chasseur de pods",
+          "description": "Tous les pods trouvés."
+        },
+        "german": {
+          "name": "Pod-Jäger",
+          "description": "Alle Pods gefunden."
+        },
+        "italian": {
+          "name": "Cacciatore di Pod",
+          "description": "Tutti i Pod sono stati trovati."
+        },
+        "japanese": {
+          "name": "ポッドハンター",
+          "description": "全てのポッドが発見される。"
+        },
+        "schinese": {
+          "name": "Pod猎人",
+          "description": "找到所有Pod机器人"
+        },
+        "spanish": {
+          "name": "Buscador de pods",
+          "description": "Todos los pods han sido encontrados."
+        }
+      }
+    },
+    "ACH_RICH_MAN": {
+      "translations": {
+        "english": {
+          "name": "Desire Without Emotion",
+          "description": "At least 100,000 G in possession."
+        },
+        "french": {
+          "name": "Désir sans émotion",
+          "description": "Au moins 100 000 G possédés."
+        },
+        "german": {
+          "name": "Verlangen ohne Emotion",
+          "description": "Mindestens 100.000 G beschafft."
+        },
+        "italian": {
+          "name": "Desiderio senza emozioni",
+          "description": "Sono stati trasportati almeno 100.000 G contemporaneamente."
+        },
+        "japanese": {
+          "name": "感情は持たなくても欲はあり",
+          "description": "所持金を１０万Ｇ以上にした者が現れる。"
+        },
+        "schinese": {
+          "name": "无情欲望",
+          "description": "拥有金钱超过10万G"
+        },
+        "spanish": {
+          "name": "Deseo sin emoción",
+          "description": "Se ha llegado a poseer 100 000 G. en algún momento."
+        }
+      }
+    },
+    "ACH_ANIMAL_RUN": {
+      "translations": {
+        "english": {
+          "name": "Animal Rider",
+          "description": "Any animal ridden for 5 kilometers."
+        },
+        "french": {
+          "name": "Chevaucheur de bêtes",
+          "description": "Un animal chevauché sur 5 kilomètres."
+        },
+        "german": {
+          "name": "Tierreiter",
+          "description": "Über 5 km auf einem Tier geritten."
+        },
+        "italian": {
+          "name": "Cavalcare a pelo",
+          "description": "Un animale è stato cavalcato per 5 chilometri."
+        },
+        "japanese": {
+          "name": "動物ライダー",
+          "description": "動物に乗った状態で５ｋｍ以上走行した者が現れる。"
+        },
+        "schinese": {
+          "name": "动物骑手",
+          "description": "任意动物骑行超过5公里"
+        },
+        "spanish": {
+          "name": "Jinete de animales",
+          "description": "Un animal ha sido montado durante 5 km."
+        }
+      }
+    },
+    "ACH_FISHING": {
+      "translations": {
+        "english": {
+          "name": "A Round by the Pond",
+          "description": "20 different kinds of fish caught."
+        },
+        "french": {
+          "name": "Un tour du lac",
+          "description": "20 espèces différentes de poissons pêchées."
+        },
+        "german": {
+          "name": "Eine Runde am Teich",
+          "description": "20 verschiedene Fischarten gefangen."
+        },
+        "italian": {
+          "name": "Giro allo stagno",
+          "description": "Sono stati catturati 20 tipi diversi di pesci."
+        },
+        "japanese": {
+          "name": "釣り名人",
+          "description": "２０種類以上の魚が釣り上げられる。"
+        },
+        "schinese": {
+          "name": "池畔垂钓",
+          "description": "钓起20种不同的鱼"
+        },
+        "spanish": {
+          "name": "Ronda por el estanque",
+          "description": "20 tipos de peces diferentes han sido pescados."
+        }
+      }
+    },
+    "ACH_NPC_KILL": {
+      "translations": {
+        "english": {
+          "name": "Wait! Don't Kill Me!",
+          "description": "10 friendly machine lifeforms destroyed."
+        },
+        "french": {
+          "name": "Pitié, me tuez pas !",
+          "description": "10 formes de vie mécaniques amicales détruites."
+        },
+        "german": {
+          "name": "Warte! Töte mich nicht!",
+          "description": "10 freundlich gesinnte Maschinenwesen zerstört."
+        },
+        "italian": {
+          "name": "Non uccidermi!",
+          "description": "10 biomacchine amichevoli sono state distrutte."
+        },
+        "japanese": {
+          "name": "ヤメテ！殺さなイデ！",
+          "description": "NPCの機械生命体が１０体以上破壊される。"
+        },
+        "schinese": {
+          "name": "等等！别杀我！",
+          "description": "摧毁10个友方机械生命体"
+        },
+        "spanish": {
+          "name": "¡Espera! ¡No me mates!",
+          "description": "10 formas de vida mecánicas amigables han sido destruidas."
+        }
+      }
+    },
+    "ACH_SKIRT_ESCAPE": {
+      "translations": {
+        "english": {
+          "name": "What Are You Doing?",
+          "description": "2B's secret discovered 10 times."
+        },
+        "french": {
+          "name": "Qu'est-ce que vous faites ?",
+          "description": "Tentative de découverte du secret de 2B effectuée à 10 reprises."
+        },
+        "german": {
+          "name": "Was machst du da?",
+          "description": "10-mal 2Bs Geheimnis entdeckt."
+        },
+        "italian": {
+          "name": "Che cosa fai?",
+          "description": "Il segreto di 2B è stato scoperto 10 volte."
+        },
+        "japanese": {
+          "name": "何をしているのですか？",
+          "description": "２Ｂの秘密を１０回以上確認されてしまう。"
+        },
+        "schinese": {
+          "name": "你在干什么？",
+          "description": "偷看2B的秘密10次"
+        },
+        "spanish": {
+          "name": "¿Qué estás haciendo?",
+          "description": "Se ha intentado descubrir el secreto de 2B 10 veces."
+        }
+      }
+    },
+    "ACH_PANTS": {
+      "translations": {
+        "english": {
+          "name": "Not That I Mind...",
+          "description": "1 hour played with 9S in a certain state."
+        },
+        "french": {
+          "name": "Ça ne me dérange pas...",
+          "description": "1 heure de jeu avec 9S en tenue décontractée effectuée."
+        },
+        "german": {
+          "name": "Mir doch egal ...",
+          "description": "1 Stunde lang mit 9S in einem bestimmten Zustand gespielt."
+        },
+        "italian": {
+          "name": "Non che m'importi...",
+          "description": "Un'ora di gioco è stata passata con 9S in determinate condizioni."
+        },
+        "japanese": {
+          "name": "いや、別にいいけど……",
+          "description": "９Ｓのアレをアレして１時間以上プレイした強者が現れる。"
+        },
+        "schinese": {
+          "name": "我并不介意...",
+          "description": "让9S处于某种特殊状态游玩1小时"
+        },
+        "spanish": {
+          "name": "No es que me importe...",
+          "description": "Se ha jugado una hora con 9S en un determinado estado."
+        }
+      }
+    },
+    "ACH_EMILE_SHOP": {
+      "translations": {
+        "english": {
+          "name": "Come Take a Look!",
+          "description": "Emil's shop used for the first time."
+        },
+        "french": {
+          "name": "Venez voir !",
+          "description": "Magasin d'Émile utilisé pour la première fois."
+        },
+        "german": {
+          "name": "Nicht so schüchtern",
+          "description": "Zum ersten Mal Emils Laden benutzt."
+        },
+        "italian": {
+          "name": "Dai un'occhiata!",
+          "description": "Il negozio di Emil è stato visitato per la prima volta."
+        },
+        "japanese": {
+          "name": "よってらっしゃい、みてらっしゃい",
+          "description": "初めてエミールショップが利用される。"
+        },
+        "schinese": {
+          "name": "快来看看！",
+          "description": "首次使用埃米尔的商店"
+        },
+        "spanish": {
+          "name": "¡Ven a ver esto!",
+          "description": "La tienda de Emil ha sido usada por primera vez."
+        }
+      }
+    },
+    "ACH_KILL_EM1010": {
+      "translations": {
+        "english": {
+          "name": "Naughty Children",
+          "description": "Emil destroyed."
+        },
+        "french": {
+          "name": "Vilains garnements",
+          "description": "Émile a été détruit."
+        },
+        "german": {
+          "name": "Schlimme Kinder",
+          "description": "Emil zerstört."
+        },
+        "italian": {
+          "name": "Bimbi cattivi",
+          "description": "Emil è stato distrutto."
+        },
+        "japanese": {
+          "name": "悪い子にはお仕置きが必要ですね……",
+          "description": "エミールが撃破される。"
+        },
+        "schinese": {
+          "name": "调皮的孩子",
+          "description": "击败埃米尔"
+        },
+        "spanish": {
+          "name": "Niños traviesos",
+          "description": "Emil ha sido destruido."
+        }
+      }
+    },
+    "ACH_BAD_END": {
+      "translations": {
+        "english": {
+          "name": "Transcendent Being",
+          "description": "All endings achieved."
+        },
+        "french": {
+          "name": "Être transcendantal",
+          "description": "Toutes les fins débloquées."
+        },
+        "german": {
+          "name": "Überweltliches Wesen",
+          "description": "Alle Enden erreicht."
+        },
+        "italian": {
+          "name": "Essere trascendente",
+          "description": "Tutti i finali sono stati sbloccati."
+        },
+        "japanese": {
+          "name": "超越者",
+          "description": "全てのエンディングが目撃される。"
+        },
+        "schinese": {
+          "name": "超凡存在",
+          "description": "完成全部结局"
+        },
+        "spanish": {
+          "name": "Ser trascendental",
+          "description": "Todos los finales han sido conseguidos."
+        }
+      }
+    },
+    "ACH_CALL_AT_KAINES_ROOM": {
+      "translations": {
+        "english": {
+          "name": "Lunar Tear",
+          "description": "The place of memories has been visited."
+        },
+        "french": {
+          "name": "Larme lunaire",
+          "description": "Visite du lieu aux nombreux souvenirs effectuée."
+        },
+        "german": {
+          "name": "Mondträne",
+          "description": "Den Ort der Erinnerungen besucht."
+        },
+        "italian": {
+          "name": "Lacrima lunare",
+          "description": "È stata fatta visita a un luogo carico di ricordi."
+        },
+        "japanese": {
+          "name": "月の涙",
+          "description": "想い出の場所を訪れた者が現れる。"
+        },
+        "schinese": {
+          "name": "月之泪",
+          "description": "拜访充满回忆之地"
+        },
+        "spanish": {
+          "name": "Lágrima lunar",
+          "description": "El lugar de los recuerdos ha sido visitado."
+        }
+      }
+    }
+  }
+}
