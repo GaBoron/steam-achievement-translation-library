@@ -33,7 +33,7 @@
 - 各版本固定使用 `files/<app_id>/<variant_id>/UserGameStatsSchema_<app_id>.bin`，并由对应 BIN 自动生成同目录下的 `achievements.md`，方便直接在 GitHub 浏览成就文本。
 - 每份 BIN 同时生成同名 `.json`，供 [SATLI lite](https://github.com/GaBoron/SATLI-lite) 等显示覆盖客户端直接下载；V2 版本记录的 `json` 字段提供格式版本和 UTF-8 字节数。JSON 按成就 API name 保存所有语言的名称与描述，具体接口见 [JSON 数据格式](docs/translation-json.md)。
 - V1 `index.json` 和 `files/<app_id>/UserGameStatsSchema_<app_id>.bin` 默认文件旧路径继续生成，供仅支持 V1 的 SATLI 版本使用。
-- 迁移期间，新投稿和更新只需提交一次；合并后自动化会在一次刷新中生成 Catalog V2、人类可读索引、统计图和 V1 兼容数据。
+- 迁移期间，新投稿和更新只需提交一次；审核 PR 仅改动该游戏目录，合并后自动化汇总待入库数据，再生成 Catalog V2、人类可读索引、统计图和 V1 兼容数据。
 
 > [!IMPORTANT]
 > **迁移截止时间为 2026 年 12 月 31 日 23:59（UTC+8）。** 自 2027 年 1 月 1 日起，本仓库不再保证继续提供 V1 `index.json` 和默认文件旧路径；仍使用 V1 的客户端须在截止前升级。客户端适配进度见 [SATLI #14](https://github.com/GaBoron/SATLI/issues/14)。

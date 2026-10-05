@@ -103,6 +103,8 @@ Automation derives the store URL from the app ID and checks ZIP safety and size,
 
 BIN remains the source file for SATLI, and each V2 variant additionally generates a same-name `.json` for Millennium and other clients. V1 compatibility keeps only the legacy-default BIN, without JSON. Continue submitting only BIN/ZIP files; do not edit generated JSON. Submissions, PR file updates, app ID renames, and `/force-refresh` synchronize and commit V2 metadata, variant BIN/JSON files, and the legacy-default BIN in the PR. Post-merge refreshes maintain compatibility indexes and statistics. Repository checks verify V2 BIN/JSON files and the V1 BIN copies, and reject redundant JSON at legacy paths.
 
+Each review PR may change only that game's data under `files/<app_id>/`. Automation stores pending catalog metadata in a generated `submission.json`; the PR does not modify `index-v2.json`, `index.json`, human-readable indexes, or statistics. Checks strictly compare submission metadata with the actual BIN/JSON files even while indexes await publication. After merge, automation collects every pending game on main, generates the shared indexes, and moves published `submission.json` files to Trash. Reviewing different games in a different order produces the same final indexes; real conflicts within one game require maintainer resolution. `/force-refresh` merges main while preserving submission history, and app ID corrections are limited to new, unpublished games.
+
 For workflow, script, catalog, generated index, or `files/` changes, run from the repository root:
 
 ```bash

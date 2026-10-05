@@ -7,8 +7,8 @@ from typing import Any
 
 from achievement_catalog import write_entry_achievement_catalogs
 from legacy_pr_schema import normalize_legacy_pr_schema_paths
-from library_index import repository_path, upsert_catalog_entry, validated_entry_schema_variants
-from pr_metadata import entry_from_metadata, parse_pr_metadata, validate_store_url
+from library_index import existing_entry, load_index, repository_path, upsert_catalog_entry, validated_entry_schema_variants
+from pr_metadata import entry_from_metadata, parse_pr_metadata, reported_entry_from_metadata, validate_store_url
 from steam_schema import achievement_rows, load_schema, require_language_coverage, schema_languages, sha256, validate_schema_structure
 from submission_presentation import build_schema_variants_section, build_submission_pr_body
 
@@ -81,6 +81,13 @@ def _refreshed_entry(meta: dict[str, Any]) -> tuple[dict[str, Any], bool]:
 def build_refreshed_translation_pr_presentation(pr: dict[str, Any]) -> RefreshedPrPresentation:
     meta = parse_pr_metadata(pr)
     kind = str(meta.get("kind") or "")
+    if kind == "outdated":
+        existing = existing_entry(load_index(), str(meta["game_id"]))
+        if not existing:
+            raise ValueError("Reported game is absent from the library.")
+        entry = reported_entry_from_metadata(existing, meta)
+        upsert_catalog_entry(entry)
+        return RefreshedPrPresentation(str(pr.get("title") or ""), str(pr.get("body") or ""), False)
     if kind not in {"translation-contribution", "update"}:
         return RefreshedPrPresentation(str(pr.get("title") or ""), str(pr.get("body") or ""), False)
     validate_store_url(str(meta.get("game_id") or ""), str(meta.get("store_url") or ""))
