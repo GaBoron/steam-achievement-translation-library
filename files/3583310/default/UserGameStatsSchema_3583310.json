@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "app_id": "3583310",
+  "variant_id": "default",
+  "source_sha256": "98033532268cb0c155c892a277e5c03e187324d46fddfef84b2a375b7e8c9ca2",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "hk_ProcessionBegins": {
+      "translations": {
+        "english": {
+          "name": " Procession Begins",
+          "description": "Complete the ritual successfully"
+        },
+        "schinese": {
+          "name": "游行开始",
+          "description": "成功完成这个仪式吧"
+        }
+      }
+    },
+    "hk_BoundaryCrosser": {
+      "translations": {
+        "english": {
+          "name": "Boundary Crosser",
+          "description": "Discover the exit is sealed"
+        },
+        "schinese": {
+          "name": "跨越边界者",
+          "description": "发现出口已被封闭"
+        }
+      }
+    },
+    "hk_SwiftPassage": {
+      "translations": {
+        "english": {
+          "name": "Swift Passage",
+          "description": "Complete the game under 15 minutes"
+        },
+        "schinese": {
+          "name": "快速通过",
+          "description": "在 15 分钟内完成游戏"
+        }
+      }
+    },
+    "hk_StaticLiberator": {
+      "translations": {
+        "english": {
+          "name": "Static Liberator",
+          "description": "Break all the TVs"
+        },
+        "schinese": {
+          "name": "静态解放器",
+          "description": "破坏所有的电视机吧"
+        }
+      }
+    },
+    "hk_UnholyRelic": {
+      "translations": {
+        "english": {
+          "name": "Unholy Relic",
+          "description": "Find the severed arm"
+        },
+        "schinese": {
+          "name": "邪恶的遗迹",
+          "description": "找到那截断掉的手臂"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2257 @@
+{
+  "version": 1,
+  "app_id": "57690",
+  "variant_id": "default",
+  "source_sha256": "228b10d1ef5e1472f656845c4faa0c5a92bd0000c1605cf2046f46152700f948",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "koreana",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "Survive a Coup": {
+      "translations": {
+        "english": {
+          "name": "Coup de Grace",
+          "description": "Suppress a Military Coup"
+        },
+        "french": {
+          "name": "Coup de grâce",
+          "description": "Déjouer un coup d'Etat militaire"
+        },
+        "german": {
+          "name": "Gnadenstoß",
+          "description": "Unterdrücken Sie einen Militärputsch"
+        },
+        "italian": {
+          "name": "Colpo di grazia",
+          "description": "Sventa un colpo militare"
+        },
+        "koreana": {
+          "name": "최후의 일격",
+          "description": "군사 쿠데타 진압"
+        },
+        "schinese": {
+          "name": "致命一击",
+          "description": "镇压一场军事政变。"
+        },
+        "spanish": {
+          "name": "Golpe de gracia",
+          "description": "Sofoca un golpe militar."
+        }
+      }
+    },
+    "Survive an uprising": {
+      "translations": {
+        "english": {
+          "name": "Iron Fist",
+          "description": "Suppress an uprising"
+        },
+        "french": {
+          "name": "Poing d'acier",
+          "description": "Réprimer une insurrection"
+        },
+        "german": {
+          "name": "Eiserne Faust",
+          "description": "Unterdrücken Sie einen Aufstand"
+        },
+        "italian": {
+          "name": "Pugno di ferro",
+          "description": "Sopprimi un'insurrezione"
+        },
+        "koreana": {
+          "name": "철권 통치",
+          "description": "폭동 진압"
+        },
+        "schinese": {
+          "name": "铁腕",
+          "description": "镇压一次起义。"
+        },
+        "spanish": {
+          "name": "Puño de hierro",
+          "description": "Sofoca una revuelta."
+        }
+      }
+    },
+    "Construct 1337 buildings": {
+      "translations": {
+        "english": {
+          "name": "Elitist",
+          "description": "Construct 1337 buildings"
+        },
+        "french": {
+          "name": "Elitiste",
+          "description": "Construire 1337 bâtiments"
+        },
+        "german": {
+          "name": "Elitist",
+          "description": "Errichten Sie 1.337 Gebäude."
+        },
+        "italian": {
+          "name": "Elitario",
+          "description": "Costruisci 1.337 edifici"
+        },
+        "koreana": {
+          "name": "엘리트 주의자",
+          "description": "1,337채의 건물 건설"
+        },
+        "schinese": {
+          "name": "精英主义者",
+          "description": "建造 1337 座建筑。"
+        },
+        "spanish": {
+          "name": "Elitista",
+          "description": "Construye 1.337 edificios."
+        }
+      }
+    },
+    "Money in Swiss account": {
+      "translations": {
+        "english": {
+          "name": "Filthy Rich",
+          "description": "Make $100 000 for your Swiss Bank account in a mission"
+        },
+        "french": {
+          "name": "Plein aux as",
+          "description": "Placer $100 000 sur le compte en Suisse en une mission"
+        },
+        "german": {
+          "name": "Schmutziger Reichtum",
+          "description": "Verdienen Sie in einer Mission $100.000 für Ihr Schweizer Bankkonto"
+        },
+        "italian": {
+          "name": "Ricchezza incalcolabile",
+          "description": "Accumula oltre 100.000 $ sul tuo conto svizzero"
+        },
+        "koreana": {
+          "name": "억만장자",
+          "description": "한 게임동안 산업 수익 $1,000,000 달성"
+        },
+        "schinese": {
+          "name": "富得流油",
+          "description": "在一个任务中为你的瑞士银行账户赚取 100,000 美元。"
+        },
+        "spanish": {
+          "name": "Asquerosamente rico",
+          "description": "Reúne más de 100.000 $ en la cuenta en Suiza."
+        }
+      }
+    },
+    "Roads and garages": {
+      "translations": {
+        "english": {
+          "name": "Heavy Traffic",
+          "description": "Construct at least 1000 meters of roads and 4 Garages"
+        },
+        "french": {
+          "name": "Trafic important",
+          "description": "Construire au moins 1000 mètres de routes et 4 garages"
+        },
+        "german": {
+          "name": "Viel Verkehr",
+          "description": "Bauen Sie mindestens 1.000 Meter Straße und 4 Parkhäuser"
+        },
+        "italian": {
+          "name": "Traffico intenso",
+          "description": "Realizza almeno 1.000 metri di strade e costruisci 4 garage"
+        },
+        "koreana": {
+          "name": "귀성길",
+          "description": "도로 1,000미터와 주차장 4채 건설"
+        },
+        "schinese": {
+          "name": "交通繁忙",
+          "description": "建造至少 1000 米道路和 4 座车库。"
+        },
+        "spanish": {
+          "name": "Tráfico denso",
+          "description": "Construye al menos 1.000 metros de carreteras y 4 garajes."
+        }
+      }
+    },
+    "Population over 300 and no shacks": {
+      "translations": {
+        "english": {
+          "name": "Homes for Everyone",
+          "description": "Have population of over 300 and no Shacks"
+        },
+        "french": {
+          "name": "Maisons pour tous",
+          "description": "Avoir une population supérieure à 300 et aucune cabane"
+        },
+        "german": {
+          "name": "Wohnraum für alle",
+          "description": "Einwohnerzahl von über 300 ohne Hütten erreichen"
+        },
+        "italian": {
+          "name": "Case per tutti",
+          "description": "Raggiungi una popolazione superiore a 300 senza baracche."
+        },
+        "koreana": {
+          "name": "만인을 위한 집",
+          "description": "판잣집 없이 인구수 300명 달성"
+        },
+        "schinese": {
+          "name": "人人有家",
+          "description": "人口超过 300，且没有棚屋。"
+        },
+        "spanish": {
+          "name": "Casas para todos",
+          "description": "Consigue una población superior a 300 sin chabolas."
+        }
+      }
+    },
+    "200 buildings on one island": {
+      "translations": {
+        "english": {
+          "name": "Metropolis",
+          "description": "Construct 200 buildings on one island"
+        },
+        "french": {
+          "name": "Métropole",
+          "description": "Construire 200 bâtiments sur une seule île"
+        },
+        "german": {
+          "name": "Metropolis",
+          "description": "Errichten Sie 200 Gebäude auf einer Insel"
+        },
+        "italian": {
+          "name": "Metropoli",
+          "description": "Costruisci 200 edifici su un'isola"
+        },
+        "koreana": {
+          "name": "메트로폴리스",
+          "description": "하나의 섬에 200채의 건물 건설"
+        },
+        "schinese": {
+          "name": "大都会",
+          "description": "在一座岛上建造 200 座建筑。"
+        },
+        "spanish": {
+          "name": "Metrópolis",
+          "description": "Construye 200 edificios en una isla."
+        }
+      }
+    },
+    "20 soldiers and generals": {
+      "translations": {
+        "english": {
+          "name": "Militarist",
+          "description": "Have more than 20 soldiers and generals in one game"
+        },
+        "french": {
+          "name": "Militarisme",
+          "description": "Avoir plus de 20 soldats et généraux dans une seule partie"
+        },
+        "german": {
+          "name": "Militarist",
+          "description": "Haben Sie in einem Spiel mehr als 20 Soldaten und Generäle"
+        },
+        "italian": {
+          "name": "Militarista",
+          "description": "Arruola oltre 20 soldati e generali in una partita"
+        },
+        "koreana": {
+          "name": "군국주의자",
+          "description": "한 게임 동안 20명의 병사와 장교 모집"
+        },
+        "schinese": {
+          "name": "军国主义者",
+          "description": "在一局游戏中拥有超过 20 名士兵和将军。"
+        },
+        "spanish": {
+          "name": "Militarista",
+          "description": "Consigue más de 20 soldados y generales en una partida."
+        }
+      }
+    },
+    "Earn 1 000 000 from tourism": {
+      "translations": {
+        "english": {
+          "name": "Paradise Island",
+          "description": "Earn $1 000 000 from tourism profits in a single game"
+        },
+        "french": {
+          "name": "Ile paradisiaque",
+          "description": "Gagner $1 000 000 de profit en tourisme dans une seule partie"
+        },
+        "german": {
+          "name": "Paradiesische Insel",
+          "description": "Erwirtschaften Sie in einem Spiel $1.000.000 durch den Tourismus"
+        },
+        "italian": {
+          "name": "Isola paradisiaca",
+          "description": "Ottieni 1.000.000 $ di profitti dal turismo in una sola partita"
+        },
+        "koreana": {
+          "name": "낙원",
+          "description": "한 게임 동안 관광 수익 $1,000,000 달성"
+        },
+        "schinese": {
+          "name": "天堂岛",
+          "description": "在单局游戏中通过旅游利润赚取 1,000,000 美元。"
+        },
+        "spanish": {
+          "name": "Isla paradisíaca",
+          "description": "Gana 1.000.000 $ procedentes del turismo en una sola partida."
+        }
+      }
+    },
+    "Export 1 000 000 from industry": {
+      "translations": {
+        "english": {
+          "name": "Top Exporter",
+          "description": "Earn $1 000 000 from industry in a single game"
+        },
+        "french": {
+          "name": "Meilleur exportateur",
+          "description": "Gagner $1 000 000 grâce à l'industrie en une seule partie"
+        },
+        "german": {
+          "name": "Top-Exporteur",
+          "description": "In einem Spiel $1.000.000 durch Industrie erwirtschaften"
+        },
+        "italian": {
+          "name": "Miglior esportatore",
+          "description": "Guadagna 1.000.000 dall'industria in una sola partita"
+        },
+        "koreana": {
+          "name": "수출하면 트로피코",
+          "description": "한 게임동안 산업 수익 $1,000,000 달성"
+        },
+        "schinese": {
+          "name": "顶级出口商",
+          "description": "在单局游戏中通过工业赚取 1,000,000 美元。"
+        },
+        "spanish": {
+          "name": "Exportador de primera",
+          "description": "Gana 1.000.000 $ de la industria en una sola partida."
+        }
+      }
+    },
+    "Finish a game high happiness": {
+      "translations": {
+        "english": {
+          "name": "Tropican Fiesta",
+          "description": "Finish a game with overall Happines of your citizens above 70%"
+        },
+        "french": {
+          "name": "Fiesta tropiquienne",
+          "description": "Finir une partie avec une satisfaction générale de plus de 70% chez vos citoyens"
+        },
+        "german": {
+          "name": "Tropicanische Fiesta",
+          "description": "Beenden Sie ein Spiel mit einer Bürgerzufriedenheit von über 70%"
+        },
+        "italian": {
+          "name": "Fiesta tropicana",
+          "description": "Completa una partita con la felicità globale dei tuoi cittadini oltre il 70%"
+        },
+        "koreana": {
+          "name": "트로피코 축제",
+          "description": "시민들의 종합적 행복지수를 70% 초과한 상태로 게임 완료"
+        },
+        "schinese": {
+          "name": "Tropican 嘉年华",
+          "description": "完成一局游戏，且公民总体幸福度高于 70%。"
+        },
+        "spanish": {
+          "name": "Fiesta tropical",
+          "description": "Completa una partida con una felicidad general de tus ciudadanos superior al 70%."
+        }
+      }
+    },
+    "Finish a game Sandbox God mode": {
+      "translations": {
+        "english": {
+          "name": "God Complex",
+          "description": "Finish a Sandbox game in God mode"
+        },
+        "french": {
+          "name": "Complexe divin",
+          "description": "Finir une partie Bac à sable dans le Mode Dieu"
+        },
+        "german": {
+          "name": "Gottkomplex",
+          "description": "Sandkasten-Spiel im Gott-Modus abschließen"
+        },
+        "italian": {
+          "name": "Complesso di Dio",
+          "description": "Completa una partita della modalità Paradiso Tropicale in modalità Dio."
+        },
+        "koreana": {
+          "name": "자만은 금물",
+          "description": "샌드박스 게임을 God mode로 완료"
+        },
+        "schinese": {
+          "name": "上帝情结",
+          "description": "在 God mode 中完成一局沙盒游戏。"
+        },
+        "spanish": {
+          "name": "Complejo de Dios",
+          "description": "Completa una partida de la modalidad Paraíso Tropical en modo dios."
+        }
+      }
+    },
+    "Finish all tutorials": {
+      "translations": {
+        "english": {
+          "name": "Dictatorship for Dummies",
+          "description": "Finish all tutorial missions"
+        },
+        "french": {
+          "name": "La dictature pour les nuls",
+          "description": "Terminer toutes les missions de didacticiel"
+        },
+        "german": {
+          "name": "Diktator für Anfänger",
+          "description": "Alle Missionen im Tutorial abschliessen"
+        },
+        "italian": {
+          "name": "Dittatura per fantocci",
+          "description": "Completa tutte le missioni dell'apprendistato"
+        },
+        "koreana": {
+          "name": "바보를 위한 독재",
+          "description": "모든 튜토리얼 미션 완료"
+        },
+        "schinese": {
+          "name": "独裁入门",
+          "description": "完成所有教程任务。"
+        },
+        "spanish": {
+          "name": "Dictadura para bobos",
+          "description": "Terminar todas las misiones del tutorial"
+        }
+      }
+    },
+    "Campaign milestone 1": {
+      "translations": {
+        "english": {
+          "name": "Tropico VS The World",
+          "description": "Make Tropico the best country on the planet"
+        },
+        "french": {
+          "name": "Tropico contre le monde",
+          "description": "Faire de Tropico le meilleur pays du monde"
+        },
+        "german": {
+          "name": "Tropico vs. Die Welt",
+          "description": "Machen Sie aus Tropico die großartigste Nation der Welt"
+        },
+        "italian": {
+          "name": "Tropico contro il mondo",
+          "description": "Fai di Tropico il miglior paese del pianeta"
+        },
+        "koreana": {
+          "name": "트로피코 VS 전 세계",
+          "description": "트로피코를 지상 최고의 국가로 만드십시오"
+        },
+        "schinese": {
+          "name": "Tropico 对抗世界",
+          "description": "让 Tropico 成为地球上最好的国家。"
+        },
+        "spanish": {
+          "name": "Trópico contra el mundo",
+          "description": "Hacer de Trópico el mejor país del planeta"
+        }
+      }
+    },
+    "Campaign milestone 2": {
+      "translations": {
+        "english": {
+          "name": "Scapegoat",
+          "description": "Escape the wrath of your opponents"
+        },
+        "french": {
+          "name": "Bouc émissaire",
+          "description": "Echapper à la colère de vos opposants"
+        },
+        "german": {
+          "name": "Sündenbock",
+          "description": "Entkommen Sie dem Zorn Ihrer Gegner"
+        },
+        "italian": {
+          "name": "Il capro espiatorio ",
+          "description": "Scampa la collera dei tuoi rivali"
+        },
+        "koreana": {
+          "name": "희생양",
+          "description": "적의 공격으로부터 생존하십시오"
+        },
+        "schinese": {
+          "name": "替罪羊",
+          "description": "逃过对手的怒火。"
+        },
+        "spanish": {
+          "name": "Cabeza de turco",
+          "description": "Escapar a la ira de tus adversarios"
+        }
+      }
+    },
+    "Campaign milestone 3": {
+      "translations": {
+        "english": {
+          "name": "The Mastermind",
+          "description": "Find out who the Mastermind behind your downfall is"
+        },
+        "french": {
+          "name": "Le petit génie",
+          "description": "Découvrir qui est cerveau à l'origine de votre chute"
+        },
+        "german": {
+          "name": "Superhirn",
+          "description": "Finden Sie das Superhirn, das Sie gestürzt hat"
+        },
+        "italian": {
+          "name": "Il cervello",
+          "description": "Scopri chi è il cervello che sta dietro alla tua rovina"
+        },
+        "koreana": {
+          "name": "배후",
+          "description": "당신을 실각시킨 배후가 누군지 알아내십시오"
+        },
+        "schinese": {
+          "name": "幕后黑手",
+          "description": "查明谁是导致你垮台的 Mastermind。"
+        },
+        "spanish": {
+          "name": "El Cerebro",
+          "description": "Descubrir al cerebro que se esconde tras tu caída"
+        }
+      }
+    },
+    "Campaign milestone 4": {
+      "translations": {
+        "english": {
+          "name": "On Top of the World",
+          "description": "Fulfill Presidente's dreams for Tropico"
+        },
+        "french": {
+          "name": "Le maître du monde",
+          "description": "Atteindre l'idéal de Tropico du Presidente"
+        },
+        "german": {
+          "name": "Ganz oben",
+          "description": "Presidentes Tropico-Träume wahr machen"
+        },
+        "italian": {
+          "name": "In cima al mondo",
+          "description": "Realizza i sogni del Presidente riguardo Tropico"
+        },
+        "koreana": {
+          "name": "세계의 정점에서",
+          "description": "당신의 꿈을 실현하십시오"
+        },
+        "schinese": {
+          "name": "世界之巅",
+          "description": "实现 Presidente 对 Tropico 的梦想。"
+        },
+        "spanish": {
+          "name": "En la cima del mundo",
+          "description": "Cumplir los sueños del Presidente para Trópico"
+        }
+      }
+    },
+    "20 national tasks": {
+      "translations": {
+        "english": {
+          "name": "National Agenda",
+          "description": "Complete 20 agenda tasks in a single mission"
+        },
+        "french": {
+          "name": "Politique nationale",
+          "description": "Réussir 20 tâches en une mission"
+        },
+        "german": {
+          "name": "Nationale Agenda",
+          "description": "Beenden Sie 20 Agenda-Aufgaben in einer Mission"
+        },
+        "italian": {
+          "name": "Agenda nazionale",
+          "description": "Completa 20 compiti dell'agenda in una sola missione"
+        },
+        "koreana": {
+          "name": "국가 의제",
+          "description": "한 미션 동안 20개의 임무 완료"
+        },
+        "schinese": {
+          "name": "国家议程",
+          "description": "在单个任务中完成 20 项议程任务。"
+        },
+        "spanish": {
+          "name": "Agenda nacional",
+          "description": "Completar 20 tareas de agenda en una sola misión"
+        }
+      }
+    },
+    "10 faction tasks": {
+      "translations": {
+        "english": {
+          "name": "Domestic Agenda",
+          "description": "Complete 10 Faction tasks in a single mission"
+        },
+        "french": {
+          "name": "Politique locale",
+          "description": "Réussir 10 tâches des factions en une mission"
+        },
+        "german": {
+          "name": "Innenpolitische Agenda",
+          "description": "10 Fraktionsaufgaben in einer Mission erfüllen"
+        },
+        "italian": {
+          "name": "Agenda interna",
+          "description": "Porta a termine 10 compiti della Fazione in una sola missione"
+        },
+        "koreana": {
+          "name": "국내의 의제",
+          "description": "한 미션 동안 10개의 진영 임무 완료"
+        },
+        "schinese": {
+          "name": "国内议程",
+          "description": "在单个任务中完成 10 项派系任务。"
+        },
+        "spanish": {
+          "name": "Agenda doméstica",
+          "description": "Completar 10 tareas de facción en una sola misión"
+        }
+      }
+    },
+    "10 foreign tasks": {
+      "translations": {
+        "english": {
+          "name": "Foreign Agenda",
+          "description": "Complete 10 Foreign tasks in a single mission"
+        },
+        "french": {
+          "name": "Politique internationale",
+          "description": "Réussir 10 tâches étrangères en une mission"
+        },
+        "german": {
+          "name": "Außenpolitische Agenda",
+          "description": "Beenden Sie 10 Auslandsaufgaben in einer Mission"
+        },
+        "italian": {
+          "name": "Agenda estera",
+          "description": "Completa 10 compiti esteri in un'unica missione"
+        },
+        "koreana": {
+          "name": "외교 의제",
+          "description": "한 미션 동안 10개의 외교 임무 완료"
+        },
+        "schinese": {
+          "name": "外交议程",
+          "description": "在单个任务中完成 10 项外国任务。"
+        },
+        "spanish": {
+          "name": "Agenda extranjera",
+          "description": "Completar 10 tareas extranjeras en una sola misión"
+        }
+      }
+    },
+    "Arrest 10 criminals": {
+      "translations": {
+        "english": {
+          "name": "War on Crime",
+          "description": "Arrest 10 Criminals in a single mission"
+        },
+        "french": {
+          "name": "Guerre au crime",
+          "description": "Arrêter 10 criminels en une seule mission"
+        },
+        "german": {
+          "name": "Krieg gegen das Verbrechen",
+          "description": "Verhaften Sie 10 Kriminelle in einer Mission"
+        },
+        "italian": {
+          "name": "Guerra al crimine",
+          "description": "Arresta 10 delinquenti in una sola missione"
+        },
+        "koreana": {
+          "name": "범죄와의 전쟁",
+          "description": "한 미션 동안 10명의 범죄자 체포"
+        },
+        "schinese": {
+          "name": "打击犯罪",
+          "description": "在单个任务中逮捕 10 名罪犯。"
+        },
+        "spanish": {
+          "name": "Guerra contra el crimen",
+          "description": "Arrestar a 10 delincuentes en una sola misión"
+        }
+      }
+    },
+    "Hire all ministers": {
+      "translations": {
+        "english": {
+          "name": "The Full Monty",
+          "description": "Have a full Ministry cabinet"
+        },
+        "french": {
+          "name": "La totale",
+          "description": "Avoir un conseil des ministres complet"
+        },
+        "german": {
+          "name": "Ganz oder gar nicht",
+          "description": "Füllen Sie den Ministerrat"
+        },
+        "italian": {
+          "name": "The Full Monty",
+          "description": "Istituisci un Consiglio dei Ministri"
+        },
+        "koreana": {
+          "name": "풀 몬티",
+          "description": "모든 장관 임명"
+        },
+        "schinese": {
+          "name": "全套内阁",
+          "description": "拥有完整的部长内阁。"
+        },
+        "spanish": {
+          "name": "Quedarse en cueros",
+          "description": "Tener un gabinete de ministros completo"
+        }
+      }
+    },
+    "Fire minister for a gaffe": {
+      "translations": {
+        "english": {
+          "name": "You are Fired!",
+          "description": "Fire a Minister because of his gaffe"
+        },
+        "french": {
+          "name": "Vous êtes viré !",
+          "description": "Renvoyer un ministre qui a commis une bourde"
+        },
+        "german": {
+          "name": "Sie sind gefeuert!",
+          "description": "Einen Minister wegen Patzer feuern"
+        },
+        "italian": {
+          "name": "Sei licenziato!",
+          "description": "Licenzia un ministro per via di una gaffe"
+        },
+        "koreana": {
+          "name": "넌 모가지야",
+          "description": "과오를 저지른 장관 해임"
+        },
+        "schinese": {
+          "name": "你被解雇了！",
+          "description": "因部长失言而将其解雇。"
+        },
+        "spanish": {
+          "name": "¡Estás despedido!",
+          "description": "Despedir a un ministro a causa de su metedura de pata"
+        }
+      }
+    },
+    "Your lucky day": {
+      "translations": {
+        "english": {
+          "name": "Your Lucky Day",
+          "description": "Hire an unemployed citizen as a Minister"
+        },
+        "french": {
+          "name": "Jour de chance",
+          "description": "Confier le poste de ministre à un chômeur"
+        },
+        "german": {
+          "name": "Ihr Glückstag",
+          "description": "Arbeitslosen als Minister einstellen"
+        },
+        "italian": {
+          "name": "Il tuo giorno fortunato",
+          "description": "Nomina ministro un cittadino disoccupato"
+        },
+        "koreana": {
+          "name": "운수 좋은 날",
+          "description": "실직자를 장관으로 임명"
+        },
+        "schinese": {
+          "name": "你的幸运日",
+          "description": "聘请一名失业公民担任部长。"
+        },
+        "spanish": {
+          "name": "Tu día de suerte",
+          "description": "Contratar a un ciudadano en paro como ministro"
+        }
+      }
+    },
+    "Clean oil spill fast": {
+      "translations": {
+        "english": {
+          "name": "The Golf Balls Solution",
+          "description": "Clean an Oil Spill in less than 4 months"
+        },
+        "french": {
+          "name": "La méthode balles de golf",
+          "description": "Nettoyer une Marée noire en moins de 4 mois"
+        },
+        "german": {
+          "name": "Die Golfballlösung",
+          "description": "Ölpest in weniger als 4 Monaten säubern"
+        },
+        "italian": {
+          "name": "La soluzione delle palle da golf",
+          "description": "Ripulisci una fuoriuscita di petrolio in meno di 4 mesi"
+        },
+        "koreana": {
+          "name": "골프공이 열쇠다",
+          "description": "석유 유출을 4개월 이내에 해결"
+        },
+        "schinese": {
+          "name": "高尔夫球方案",
+          "description": "在不到 4 个月内清理一次石油泄漏。"
+        },
+        "spanish": {
+          "name": "La solución de las bolas de golf",
+          "description": "Limpiar un vertido de petróleo en menos de 4 meses"
+        }
+      }
+    },
+    "Put out 10 fires in a mission": {
+      "translations": {
+        "english": {
+          "name": "Year Of the Dragon",
+          "description": "Put out 10 buildings on fire in a single mission"
+        },
+        "french": {
+          "name": "L'année du dragon",
+          "description": "Eteindre 10 incendies de bâtiments lors d'une seule mission"
+        },
+        "german": {
+          "name": "Jahr des Drachen",
+          "description": "10 Gebäudebrände in einer Mission löschen"
+        },
+        "italian": {
+          "name": "L'anno del drago",
+          "description": "Hai estinto le fiamme di 10 edifici in un'unica missione"
+        },
+        "koreana": {
+          "name": "용의 해",
+          "description": "한 미션 동안 건물 10채의 화재를 진압했습니다"
+        },
+        "schinese": {
+          "name": "龙年",
+          "description": "在单个任务中扑灭 10 座起火建筑。"
+        },
+        "spanish": {
+          "name": "El año del dragón",
+          "description": "Extinguió 10 edificios en llamas en una sola misión"
+        }
+      }
+    },
+    "Survive 3 volcanic eruptions": {
+      "translations": {
+        "english": {
+          "name": "Old Faithful",
+          "description": "Survive 3 Volcanic eruptions in a single mission"
+        },
+        "french": {
+          "name": "Vieux fidèle",
+          "description": "Survivre à 3 Eruptions volcaniques en une seule mission"
+        },
+        "german": {
+          "name": "Der alte Getreue",
+          "description": "3 Vulkanausbrüche in einer Mission überleben"
+        },
+        "italian": {
+          "name": "Vecchio fedele",
+          "description": "Sopravvivi a 3 eruzioni vulcaniche in una sola missione"
+        },
+        "koreana": {
+          "name": "오랜 믿음",
+          "description": "한 미션 동안 세 번의 화산 분출로부터 생존"
+        },
+        "schinese": {
+          "name": "老忠实",
+          "description": "在单个任务中幸存 3 次火山喷发。"
+        },
+        "spanish": {
+          "name": "Fiel",
+          "description": "Sobrevivir a 3 erupciones volcánicas en una sola misión"
+        }
+      }
+    },
+    "Survive a tornado outbreak no casualties": {
+      "translations": {
+        "english": {
+          "name": "Tornado Valley",
+          "description": "Survive a Tornado Outbreak with no human casualties"
+        },
+        "french": {
+          "name": "L'allée des tornades",
+          "description": "Survivre à une Série de tornades sans aucune perte humaine"
+        },
+        "german": {
+          "name": "Tornado-Tal",
+          "description": "Überstehen Sie einen Tornado ohne Tote"
+        },
+        "italian": {
+          "name": "Tornado valley",
+          "description": "Sopravvivi ad un tornado con nessuna vittima"
+        },
+        "koreana": {
+          "name": "폭풍이 부는 골짜기",
+          "description": "토네이도 발생시 단 한 명의 희생자도 내지 마십시오"
+        },
+        "schinese": {
+          "name": "龙卷风谷",
+          "description": "在一次龙卷风爆发中幸存，且没有人员伤亡。"
+        },
+        "spanish": {
+          "name": "Valle tornado",
+          "description": "Sobrevivir a un tornado sin que se produzcan bajas"
+        }
+      }
+    },
+    "No dry fields at the end of a drought": {
+      "translations": {
+        "english": {
+          "name": "Modern Agriculture",
+          "description": "Have no dry fields at the end of a Drought"
+        },
+        "french": {
+          "name": "Agriculture moderne",
+          "description": "N'avoir aucun champ sec à la fin d'une Sécheresse"
+        },
+        "german": {
+          "name": "Moderne Landwirtschaft",
+          "description": "Keine vertrockneten Felder nach einer Dürre"
+        },
+        "italian": {
+          "name": "Agricoltura moderna",
+          "description": "Non avere campi secchi alla fine di un periodo di siccità"
+        },
+        "koreana": {
+          "name": "현대 농법",
+          "description": "가뭄이 끝날 때까지 매마른 토지가 없도록 유지하십시오"
+        },
+        "schinese": {
+          "name": "现代农业",
+          "description": "在干旱结束时没有干枯田地。"
+        },
+        "spanish": {
+          "name": "Agricultura moderna",
+          "description": "No tener campos secos al final de una sequía"
+        }
+      }
+    },
+    "Survive a tsunami no casualties": {
+      "translations": {
+        "english": {
+          "name": "Head for High Ground",
+          "description": "Survive a Tsunami with no human casualties"
+        },
+        "french": {
+          "name": "Visez le sommet",
+          "description": "Survivre à un Tsunami sans aucune perte humaine"
+        },
+        "german": {
+          "name": "Hoch oben",
+          "description": "Überstehen Sie einen Tsunami ohne Tote"
+        },
+        "italian": {
+          "name": "Verso terre più alte",
+          "description": "Sopravvivi ad uno Tsunami con nessuna vittima"
+        },
+        "koreana": {
+          "name": "저 고지를 향하여",
+          "description": "지진해일 발생시 단 한 명의 희생자도 내지 마십시오"
+        },
+        "schinese": {
+          "name": "向高处转移",
+          "description": "在一次海啸中幸存，且没有人员伤亡。"
+        },
+        "spanish": {
+          "name": "Dirigirse a tierras más altas",
+          "description": "Sobrevivir a un tsunami sin que se produzcan bajas"
+        }
+      }
+    },
+    "Unlock all blueprints": {
+      "translations": {
+        "english": {
+          "name": "Building Blues",
+          "description": "Unlock 20 Blueprints in a single mission"
+        },
+        "french": {
+          "name": "Blues du promoteur",
+          "description": "Débloquer 20 plans en une seule mission"
+        },
+        "german": {
+          "name": "Bau-Blues",
+          "description": "Schalten Sie 20 Baupläne in einer einzigen Mission frei"
+        },
+        "italian": {
+          "name": "Il Blues delle costruzioni",
+          "description": "Sblocca 20 progetti in una sola missione"
+        },
+        "koreana": {
+          "name": "설계도 수집이 취미",
+          "description": "한 미션 동안 20개의 설계도 잠금 해제"
+        },
+        "schinese": {
+          "name": "建筑蓝图",
+          "description": "在单个任务中解锁 20 张蓝图。"
+        },
+        "spanish": {
+          "name": "La depre de construir",
+          "description": "Desbloquear 20 planos en una sola misión"
+        }
+      }
+    },
+    "Generate power from nuclear plant": {
+      "translations": {
+        "english": {
+          "name": "The Power of the Atom",
+          "description": "Generate 1 000 MW of electricity in a Nuclear Power Plant"
+        },
+        "french": {
+          "name": "La puissance de l'atome",
+          "description": "Générer plus de 1 000 MW d'électricité dans une centrale nucléaire"
+        },
+        "german": {
+          "name": "Die Kraft des Atoms",
+          "description": "Erzeugen Sie 1.000 MW Elektrizität in einem Atomkraftwerk"
+        },
+        "italian": {
+          "name": "Il potere dell'atomo",
+          "description": "Genera 1.000 OM di elettricità in una Centrale Nucleare"
+        },
+        "koreana": {
+          "name": "원자력",
+          "description": "원자력 발전소에서 1,000MW의 전력을 생산"
+        },
+        "schinese": {
+          "name": "原子之力",
+          "description": "在核电站中发电 1,000 兆瓦。"
+        },
+        "spanish": {
+          "name": "El poder del átomo",
+          "description": "Generar 1.000 MW de electricidad en una central nuclear"
+        }
+      }
+    },
+    "Nuclear plant and nuclear program": {
+      "translations": {
+        "english": {
+          "name": "Nuclear Future",
+          "description": "Have a Nuclear Power Plant and a Nuclear Program built on your island"
+        },
+        "french": {
+          "name": "Avenir nucléaire",
+          "description": "Avoir une centrale nucléaire et un programme nucléaire sur votre île"
+        },
+        "german": {
+          "name": "Atomare Zukunft",
+          "description": "Sorgen Sie für ein Atomkraftwerk und ein Nuklearprogramm auf Ihrer Insel"
+        },
+        "italian": {
+          "name": "Futuro nucleare",
+          "description": "Costruisci una Centrale Nucleare e un Programma Nucleare sulla tua isola"
+        },
+        "koreana": {
+          "name": "원자력과 함께하는 미래",
+          "description": "섬에 원자력 발전소와 핵무기 프로그램 건설"
+        },
+        "schinese": {
+          "name": "核未来",
+          "description": "在你的岛上建有核电站和核计划。"
+        },
+        "spanish": {
+          "name": "Futuro nuclear",
+          "description": "Haz construir una central nuclear y un programa nuclear en tu isla"
+        }
+      }
+    },
+    "Distribute 1000 luxury goods": {
+      "translations": {
+        "english": {
+          "name": "Made In China",
+          "description": "Distribute more than 1 000 Luxury Goods from a Shopping mall "
+        },
+        "french": {
+          "name": "Made In China",
+          "description": "Distribuer plus de 1 000 Produits de luxe dans un centre commercial"
+        },
+        "german": {
+          "name": "Made in China",
+          "description": "Verkaufen Sie über 1.000 Luxusgüter in einem Einkaufszentrum"
+        },
+        "italian": {
+          "name": "Made in Cina",
+          "description": "Distribuisci più di 1.000 beni di lusso provenienti dal centro commerciale"
+        },
+        "koreana": {
+          "name": "마데 인 차이나",
+          "description": "쇼핑몰에 1,000개 이상의 사치품 공급 "
+        },
+        "schinese": {
+          "name": "中国制造",
+          "description": "从购物中心配送超过 1,000 件奢侈品。"
+        },
+        "spanish": {
+          "name": "Made In China",
+          "description": "Distribuir más de 1.000 artículos de lujo de un centro comercial"
+        }
+      }
+    },
+    "Upgraded Chemical plant": {
+      "translations": {
+        "english": {
+          "name": "Smells Like Chemistry",
+          "description": "Buy all upgrades for a Chemical Plant"
+        },
+        "french": {
+          "name": "Une odeur chimique",
+          "description": "Acheter toutes les améliorations d'une usine chimique"
+        },
+        "german": {
+          "name": "Dufte Chemie",
+          "description": "Kaufen Sie alle Upgrades für ein Chemiewerk"
+        },
+        "italian": {
+          "name": "C'è odore di chimica",
+          "description": "Compra tutti i potenziamenti dello Stabilimento chimico"
+        },
+        "koreana": {
+          "name": "화학의 향기",
+          "description": "화학 공장의 모든 업그레이드 완료"
+        },
+        "schinese": {
+          "name": "闻起来像化学",
+          "description": "购买化工厂的所有升级。"
+        },
+        "spanish": {
+          "name": "Huele a química",
+          "description": "Comprar todas las mejoras para una planta química"
+        }
+      }
+    },
+    "Earn money from Tropican art": {
+      "translations": {
+        "english": {
+          "name": "Mona Llama",
+          "description": "Earn more than $30 000 from selling Tropican art in a Museum of Modern Art"
+        },
+        "french": {
+          "name": "Mona Lama",
+          "description": "Gagner plus de $30 000 en vendant des œuvres tropiquiennes à un musée d'art moderne"
+        },
+        "german": {
+          "name": "Mona Llama",
+          "description": "Verdienen Sie über $30.000 am Verkauf tropicanischer Kunst im Museum für Moderne Kunst"
+        },
+        "italian": {
+          "name": "Mona Lama",
+          "description": "Guadagna più di 30.000 $ dalla vendita di prodotti d'arte tropicana in un Museo d'Arte Moderna"
+        },
+        "koreana": {
+          "name": "모나 라마",
+          "description": "현대 미술관의 트로피코 미술품 판매로 $30,000 이상 획득"
+        },
+        "schinese": {
+          "name": "蒙娜羊驼",
+          "description": "通过在现代艺术博物馆出售 Tropican 艺术赚取超过 30,000 美元。"
+        },
+        "spanish": {
+          "name": "Mona Llama",
+          "description": "Ganar más de $30.000 vendiendo arte tropicano en un museo de arte moderno"
+        }
+      }
+    },
+    "Swiss account from customs office": {
+      "translations": {
+        "english": {
+          "name": "Special Taxes",
+          "description": "Gain $15 000 for your Swiss account from a Customs Office"
+        },
+        "french": {
+          "name": "Taxes spéciales",
+          "description": "Saisir $15 000 dans un bureau des douanes pour votre compte en Suisse"
+        },
+        "german": {
+          "name": "Sondersteuern",
+          "description": "Verdienen Sie $15.000 von einem Zollamt für Ihr Schweizer Konto"
+        },
+        "italian": {
+          "name": "Tasse speciali",
+          "description": "Guadagna 15.000 $ sul tuo conto svizzero da un Ufficio doganale"
+        },
+        "koreana": {
+          "name": "특별 세금",
+          "description": "세관을 통해 스위스 은행 계좌에 $15,000를 송금"
+        },
+        "schinese": {
+          "name": "特别税",
+          "description": "从海关办公室为你的瑞士账户获得 15,000 美元。"
+        },
+        "spanish": {
+          "name": "Impuestos especiales",
+          "description": "Ganar $15.000 de una Aduana para tu cuenta en Suiza"
+        }
+      }
+    },
+    "Have your clone die": {
+      "translations": {
+        "english": {
+          "name": "The Rumors of my Death...",
+          "description": "Have one of your clones die instead of you during an assassination attempt"
+        },
+        "french": {
+          "name": "Les rumeurs de ma mort...",
+          "description": "Faire tuer un clone à votre place pendant une tentative d'assassinat"
+        },
+        "german": {
+          "name": "Gerüchte über meinen Tod ...",
+          "description": "Bei einem Mordanschlag soll an Ihrer Stelle einer Ihrer Klone sterben"
+        },
+        "italian": {
+          "name": "Le voci sulla mia morte...",
+          "description": "Sacrifica un tuo clone al posto tuo durante un attentato"
+        },
+        "koreana": {
+          "name": "내가 죽었다는 소문이 돌던데...",
+          "description": "자신의 복제인간이 당신에 대한 암살 시도 실패로 인해 사망해야 합니다"
+        },
+        "schinese": {
+          "name": "我的死讯纯属谣言……",
+          "description": "在一次刺杀企图中让你的一个克隆体替你死去。"
+        },
+        "spanish": {
+          "name": "Los rumores sobre mi muerte…",
+          "description": "Hacer que muera uno de tus clones en tu lugar durante un intento de asesinato"
+        }
+      }
+    },
+    "Kill rebels with the Masuoleum trap": {
+      "translations": {
+        "english": {
+          "name": "It's a Trap!",
+          "description": "Kill 5 rebels at once with a trap in your Mausoleum"
+        },
+        "french": {
+          "name": "C'est un piège !",
+          "description": "Tuer 5 rebelles d'un coup avec un piège dans votre mausolée"
+        },
+        "german": {
+          "name": "Eine Falle!",
+          "description": "5 Rebellen mit einer Falle im Mausoleum gleichzeitig töten"
+        },
+        "italian": {
+          "name": "È una trappola!",
+          "description": "Elimina 5 ribelli con una trappola nel tuo Mausoleo"
+        },
+        "koreana": {
+          "name": "이번 역은 함정. 함정입니다.",
+          "description": "영묘에 설치한 함정으로 반란군 5명을 한 번에 제거"
+        },
+        "schinese": {
+          "name": "这是陷阱！",
+          "description": "用陵墓里的陷阱一次杀死 5 名叛军。"
+        },
+        "spanish": {
+          "name": "¡Es una trampa!",
+          "description": "Matar a 5 rebeldes en el acto con una trampa en tu mausoleo"
+        }
+      }
+    },
+    "Roller coaster aqua park ferris wheel": {
+      "translations": {
+        "english": {
+          "name": "Theme Park",
+          "description": "Have a Roller Coaster near a Ferris Wheel and an Aqua park"
+        },
+        "french": {
+          "name": "Parc d'attractions",
+          "description": "Construire des montagnes russes près d'une grande roue et un parc aquatique"
+        },
+        "german": {
+          "name": "Freizeitpark",
+          "description": "1 Achterbahn nahe des Riesenrads und des Wasserparks besitzen"
+        },
+        "italian": {
+          "name": "Parco tematico",
+          "description": "Costruisci delle Montagne Russe vicino ad una Ruota Panoramica e un Acqua Park"
+        },
+        "koreana": {
+          "name": "테마 파크",
+          "description": "롤러코스터, 관람차, 아쿠아 파크를 모두 서로 인접한 곳에 건설"
+        },
+        "schinese": {
+          "name": "主题公园",
+          "description": "让过山车靠近摩天轮和水上乐园。"
+        },
+        "spanish": {
+          "name": "Parque temático",
+          "description": "Tener una montaña rusa junto a una noria y un Parque acuático"
+        }
+      }
+    },
+    "Upgraded Weather station": {
+      "translations": {
+        "english": {
+          "name": "Prepared For Everything",
+          "description": "Buy all upgrades for a Weather Station"
+        },
+        "french": {
+          "name": "Prêt à tout",
+          "description": "Acheter toutes les améliorations d'une station météo"
+        },
+        "german": {
+          "name": "Zu allem bereit",
+          "description": "Alle Upgrades für eine Wetterstation kaufen"
+        },
+        "italian": {
+          "name": "Pronto a tutto",
+          "description": "Compra tutti i potenziamenti dell'Osservatorio Meteorologico"
+        },
+        "koreana": {
+          "name": "만반의 준비",
+          "description": "기상청의 모든 업그레이드 완료"
+        },
+        "schinese": {
+          "name": "万事俱备",
+          "description": "购买气象站的所有升级。"
+        },
+        "spanish": {
+          "name": "Preparado para cualquier cosa",
+          "description": "Comprar todas las mejoras para una estación meteorológica"
+        }
+      }
+    },
+    "Dungeon and Colonial Museum": {
+      "translations": {
+        "english": {
+          "name": "Past and Present",
+          "description": "Have both a Dungeon and a Colonial Museum in the same mission"
+        },
+        "french": {
+          "name": "Passé et présent",
+          "description": "Avoir un donjon et un musée colonial dans la même mission"
+        },
+        "german": {
+          "name": "Vergangenheit und Gegenwart",
+          "description": "In einer Mission einen Kerker und ein Kolonialmuseum in Ihren Besitz bringen"
+        },
+        "italian": {
+          "name": "Passato e presente",
+          "description": "Costruisci una Segreta ed un Museo coloniale nella stessa missione"
+        },
+        "koreana": {
+          "name": "어제와 오늘",
+          "description": "단일 미션에서 지하 감옥과 식민사 박물관 모두 건설"
+        },
+        "schinese": {
+          "name": "过去与现在",
+          "description": "在同一个任务中同时拥有地牢和殖民博物馆。"
+        },
+        "spanish": {
+          "name": "Pasado y presente",
+          "description": "Tener una mazmorra y un museo colonial en la misma misión"
+        }
+      }
+    },
+    "Trait at level 5": {
+      "translations": {
+        "english": {
+          "name": "Competent",
+          "description": "Have Character Trait at level 5"
+        },
+        "french": {
+          "name": "Qualifié",
+          "description": "Atteindre le niveau 5 d'un trait de caractère"
+        },
+        "german": {
+          "name": "Kompetent",
+          "description": "Ein Charakterattribut auf Level 5 haben"
+        },
+        "italian": {
+          "name": "Competente",
+          "description": "Raggiungi il livello 5 nelle caratteristiche del personaggio"
+        },
+        "koreana": {
+          "name": "수완가",
+          "description": "캐릭터 특성 5레벨 달성"
+        },
+        "schinese": {
+          "name": "能干",
+          "description": "拥有等级 5 的角色特质。"
+        },
+        "spanish": {
+          "name": "Competente",
+          "description": "Tener rasgo del personaje en nivel 5"
+        }
+      }
+    },
+    "Have 3 traits at level 5": {
+      "translations": {
+        "english": {
+          "name": "Specialist",
+          "description": "Have 3 Character Traits  at level 5"
+        },
+        "french": {
+          "name": "Spécialiste",
+          "description": "Atteindre le niveau 5 de 3 traits de caractère"
+        },
+        "german": {
+          "name": "Fachmann",
+          "description": "Drei Charakterattribute auf Level 5 haben"
+        },
+        "italian": {
+          "name": "Specialista",
+          "description": "Raggiungi il livello 5 in 3 caratteristiche del personaggio"
+        },
+        "koreana": {
+          "name": "전문가",
+          "description": "3가지 캐릭터 특성 5레벨 달성"
+        },
+        "schinese": {
+          "name": "专家型人才",
+          "description": "拥有 3 个等级 5 的角色特质。"
+        },
+        "spanish": {
+          "name": "Especialista",
+          "description": "Tener 3 rasgos del personaje en nivel 5"
+        }
+      }
+    },
+    "Have all traits at level 5": {
+      "translations": {
+        "english": {
+          "name": "Expert",
+          "description": "Have all Character Traits at level 5"
+        },
+        "french": {
+          "name": "Expert",
+          "description": "Atteindre le niveau 5 de tous les traits de caractère"
+        },
+        "german": {
+          "name": "Experte",
+          "description": "Alle Charakterattribute auf Level 5 haben"
+        },
+        "italian": {
+          "name": "Esperto",
+          "description": "Raggiungi il livello 5 in tutte le caratteristiche del personaggio"
+        },
+        "koreana": {
+          "name": "하산하거라",
+          "description": "모든 캐릭터 특성 5레벨 달성"
+        },
+        "schinese": {
+          "name": "专家",
+          "description": "所有角色特质都达到等级 5。"
+        },
+        "spanish": {
+          "name": "Experto",
+          "description": "Tener todos los rasgos del personaje en nivel 5"
+        }
+      }
+    },
+    "Import 2000 food": {
+      "translations": {
+        "english": {
+          "name": "Foreign Cuisine",
+          "description": "Import 2 000 food"
+        },
+        "french": {
+          "name": "Cuisine étrangère",
+          "description": "Importer 2 000 denrées alimentaires"
+        },
+        "german": {
+          "name": "Ausländische Küche",
+          "description": "2.000 Einheiten Nahrung importieren"
+        },
+        "italian": {
+          "name": "Cucina straniera",
+          "description": "Importa 2.000 unità di cibo"
+        },
+        "koreana": {
+          "name": "수입산",
+          "description": "2,000만큼의 식품 수입"
+        },
+        "schinese": {
+          "name": "异国美食",
+          "description": "进口 2,000 单位食物。"
+        },
+        "spanish": {
+          "name": "Cocina extranjera",
+          "description": "Importar 2.000 alimentos"
+        }
+      }
+    },
+    "Import 10 000 resources": {
+      "translations": {
+        "english": {
+          "name": "IMPORTant business",
+          "description": "Import 10 000 resources"
+        },
+        "french": {
+          "name": "Commerce IMPORTant",
+          "description": "Importer 10 000 ressources"
+        },
+        "german": {
+          "name": "IMPORT-Geschäfte",
+          "description": "10.000 Einheiten Rohstoffe importieren"
+        },
+        "italian": {
+          "name": "Affari IMPORTanti",
+          "description": "Importa 10.000 risorse"
+        },
+        "koreana": {
+          "name": "수입의 중요성",
+          "description": "10,000만큼의 자원 수입"
+        },
+        "schinese": {
+          "name": "IMPORTant 生意",
+          "description": "进口 10,000 单位资源。"
+        },
+        "spanish": {
+          "name": "Asuntos IMPORTantes ",
+          "description": "Importar 10.000 recursos"
+        }
+      }
+    },
+    "Kill Juanito": {
+      "translations": {
+        "english": {
+          "name": "Kill Juanito",
+          "description": "Issue an Execution order on a citizen called Juanito"
+        },
+        "french": {
+          "name": "Tuer Juanito",
+          "description": "Demander l'exécution d'un citoyen nommé Juanito"
+        },
+        "german": {
+          "name": "Juanito töten",
+          "description": "Exekutionsbefehl für den Bürger Juanito ausgeben"
+        },
+        "italian": {
+          "name": "Fai fuori Juanito",
+          "description": "Spicca un ordine di esecuzione per un cittadino chiamato Juanito"
+        },
+        "koreana": {
+          "name": "후아니토를 사살하라",
+          "description": "\"후아니토\"라는 시민을 사살하도록 명령"
+        },
+        "schinese": {
+          "name": "杀死 Juanito",
+          "description": "对一名叫 Juanito 的公民下达处决命令。"
+        },
+        "spanish": {
+          "name": "Matar a Juanito",
+          "description": "Decretar una orden de ejecución contra un ciudadano llamado Juanito"
+        }
+      }
+    },
+    "Quick build 10 constructions": {
+      "translations": {
+        "english": {
+          "name": "Instant Construction",
+          "description": "Issue the Quick-build command on 10 constructions"
+        },
+        "french": {
+          "name": "Construction instantanée",
+          "description": "Lancer la commande Construction rapide sur 10 chantiers"
+        },
+        "german": {
+          "name": "Sofortiger Bau",
+          "description": "Erteilen Sie den Schnellbaubefehl für 10 Bauten"
+        },
+        "italian": {
+          "name": "Costruzione istantanea",
+          "description": "Imparti il comando di Costruzione rapida su 10 costruzioni"
+        },
+        "koreana": {
+          "name": "주문하신 건물 나왔습니다",
+          "description": "빠른 건설을 이용해 10채의 건물 건설"
+        },
+        "schinese": {
+          "name": "即时建造",
+          "description": "对 10 个建筑工地下达快速建造命令。"
+        },
+        "spanish": {
+          "name": "Construcción instantánea",
+          "description": "Promulgar la orden de Construir rápido en 10 construcciones"
+        }
+      }
+    },
+    "Survive 10 disasters": {
+      "translations": {
+        "english": {
+          "name": "Curse of the Llama",
+          "description": "Survive 10 disasters"
+        },
+        "french": {
+          "name": "Malédiction du lama",
+          "description": "Survivre à 10 désastres"
+        },
+        "german": {
+          "name": "Fluch des Lamas",
+          "description": "10 Katastrophen überleben"
+        },
+        "italian": {
+          "name": "Maledizione dei lama",
+          "description": "Sopravvivi a 10 disastri."
+        },
+        "koreana": {
+          "name": "라마의 저주",
+          "description": "10번의 재난에서 생존"
+        },
+        "schinese": {
+          "name": "羊驼的诅咒",
+          "description": "幸存 10 次灾难。"
+        },
+        "spanish": {
+          "name": "La maldición de la llama",
+          "description": "Sobrevive a 10 desastres."
+        }
+      }
+    },
+    "Megalopolis": {
+      "translations": {
+        "english": {
+          "name": "Megalopolis",
+          "description": "Reach a population of 1000"
+        },
+        "french": {
+          "name": "Mégalopole",
+          "description": "Parvenir à une population de 1000"
+        },
+        "german": {
+          "name": "Megalopolis",
+          "description": "Erreichen Sie eine Bevölkerungszahl von 1000"
+        },
+        "italian": {
+          "name": "Megalopoli",
+          "description": "Raggiungi una popolazione di 1.000 abitanti."
+        },
+        "koreana": {
+          "name": "메갈로폴리스",
+          "description": "인구수 1,000명을 달성"
+        },
+        "schinese": {
+          "name": "巨型都市",
+          "description": "人口达到 1000。"
+        },
+        "spanish": {
+          "name": "Megalópolis",
+          "description": "Alcanzar una población de 1000"
+        }
+      }
+    },
+    "Touristico": {
+      "translations": {
+        "english": {
+          "name": "Touristico",
+          "description": "Have 10 hotels and 15 tourist attractions"
+        },
+        "french": {
+          "name": "Touristico",
+          "description": "Bâtir 10 hôtels et 15 attractions touristiques"
+        },
+        "german": {
+          "name": "Touristico",
+          "description": "Bauen Sie 10 Hotels und 15 Touristen-Attraktionen"
+        },
+        "italian": {
+          "name": "Giro turistico",
+          "description": "Costruisci 10 hotel e 15 attrazioni turistiche."
+        },
+        "koreana": {
+          "name": "관광피코",
+          "description": "10채의 호텔과 15개의 관광 시설을 확보"
+        },
+        "schinese": {
+          "name": "Touristico",
+          "description": "拥有 10 座酒店和 15 个旅游景点。"
+        },
+        "spanish": {
+          "name": "Turístico",
+          "description": "Conseguir 10 hoteles y 15 atracciones turísticas"
+        }
+      }
+    },
+    "Generalissimo": {
+      "translations": {
+        "english": {
+          "name": "Generalissimo",
+          "description": "Have a total of 100 Soldiers and Generals"
+        },
+        "french": {
+          "name": "Generalissimo",
+          "description": "Recruter 100 soldats et généraux dans l'armée"
+        },
+        "german": {
+          "name": "General",
+          "description": "Befehligen Sie insgesamt 100 Soldaten und Generäle"
+        },
+        "italian": {
+          "name": "Generalissimo",
+          "description": "Ottieni un totale di 100 soldati e generali."
+        },
+        "koreana": {
+          "name": "총통",
+          "description": "총 100명의 병사와 장교를 확보"
+        },
+        "schinese": {
+          "name": "Generalissimo",
+          "description": "总共拥有 100 名士兵和将军。"
+        },
+        "spanish": {
+          "name": "Militar",
+          "description": "Conseguir un total de 100 soldados y generales"
+        }
+      }
+    },
+    "Domestic Affairs": {
+      "translations": {
+        "english": {
+          "name": "Domestic Affairs",
+          "description": "Have maximum respect with all factions"
+        },
+        "french": {
+          "name": "Affaires intérieures",
+          "description": "Atteindre le respect maximum avec toutes les factions"
+        },
+        "german": {
+          "name": "Innenpolitik",
+          "description": "Verschaffen Sie sich maximalen Respekt bei allen Fraktionen"
+        },
+        "italian": {
+          "name": "Affari interni",
+          "description": "Raggiungi il rispetto massimo con tutte le fazioni."
+        },
+        "koreana": {
+          "name": "내가 제일 잘나가",
+          "description": "모든 진영의 존경심을 최대치로 달성"
+        },
+        "schinese": {
+          "name": "内政",
+          "description": "与所有派系达到最高尊重。"
+        },
+        "spanish": {
+          "name": "Interior",
+          "description": "Conseguir el respeto máximo de todas las facciones"
+        }
+      }
+    },
+    "Foreign Affairs": {
+      "translations": {
+        "english": {
+          "name": "Foreign Affairs",
+          "description": "Have maximum relations with all foreign powers"
+        },
+        "french": {
+          "name": "Affaires étrangères",
+          "description": "Atteindre les relations maximales avec les puissances étrangères"
+        },
+        "german": {
+          "name": "Außenpolitik",
+          "description": "Erreichen Sie maximale Beziehungen zum Ausland"
+        },
+        "italian": {
+          "name": "Affari esteri",
+          "description": "Raggiungi i rapporti massimi con tutte le potenze straniere."
+        },
+        "koreana": {
+          "name": "우리 나라가 제일 잘나가",
+          "description": "모든 해외 진영들과의 관계를 최대치로 달성"
+        },
+        "schinese": {
+          "name": "外交",
+          "description": "与所有外国势力达到最高关系。"
+        },
+        "spanish": {
+          "name": "Asuntos exteriores",
+          "description": "Conseguir relaciones máximas con todas las potencias extranjeras"
+        }
+      }
+    },
+    "Tropico for the Tropicans": {
+      "translations": {
+        "english": {
+          "name": "Tropico for the Tropicans",
+          "description": "Finish a sandbox game with the \"No immigrants\" option"
+        },
+        "french": {
+          "name": "Tropico aux tropiquiens",
+          "description": "Terminer une partie de bac à sable avec l'option \"Frontières closes\" activée"
+        },
+        "german": {
+          "name": "Tropico den Tropicanern",
+          "description": "Beenden Sie ein Sandkasten-Spiel mit der Option \"Keine Einwanderer\" aktiviert"
+        },
+        "italian": {
+          "name": "Tropico ai tropicani",
+          "description": "Completa una partita in modalità Paradiso Tropicale con l'opzione \"Niente immigrati\"."
+        },
+        "koreana": {
+          "name": "트로피코인을 위한 트로피코",
+          "description": "\"이민 금지\" 설정을 사용하여 샌드박스 게임 완료"
+        },
+        "schinese": {
+          "name": "Tropico 属于 Tropican",
+          "description": "以“无移民”选项完成一局沙盒游戏。"
+        },
+        "spanish": {
+          "name": "Trópico para los tropicanos",
+          "description": "Finalizar una partida Paraíso Tropical con la opción \"Sin inmigrantes\""
+        }
+      }
+    },
+    "Down with the Tyrant": {
+      "translations": {
+        "english": {
+          "name": "Down with the Tyrant",
+          "description": "Finish a sandbox game with the \"Rebel Yell\" option"
+        },
+        "french": {
+          "name": "A bas le tyran",
+          "description": "Terminer une partie de bac à sable avec l'option \"Rebelles dans l'âme\" activée"
+        },
+        "german": {
+          "name": "Nieder mit dem Tyrannen",
+          "description": "Beenden Sie ein Sandkasten-Spiel mit der Option \"Rebellenhochburg\" aktiviert"
+        },
+        "italian": {
+          "name": "Abbasso il tiranno",
+          "description": "Completa una partita in modalità Paradiso Tropicale con l'opzione \"Urlo ribelle\"."
+        },
+        "koreana": {
+          "name": "폭군은 물러가라",
+          "description": "\"반란의 외침\"을 사용하여 샌드박스 게임을 완료"
+        },
+        "schinese": {
+          "name": "打倒暴君",
+          "description": "以“Rebel Yell”选项完成一局沙盒游戏。"
+        },
+        "spanish": {
+          "name": "Abajo el poder",
+          "description": "Finalizar una partida Paraíso Tropical con la opción \"Grito rebelde\""
+        }
+      }
+    },
+    "The Big House": {
+      "translations": {
+        "english": {
+          "name": "The Big House",
+          "description": "Have 40 inmates in your Prisons"
+        },
+        "french": {
+          "name": "La grande maison",
+          "description": "Avoir 40 prisonniers dans les prisons"
+        },
+        "german": {
+          "name": "Das große Haus",
+          "description": "Sperren Sie 40 Insassen in ihre Gefängnisse"
+        },
+        "italian": {
+          "name": "La grande casa",
+          "description": "Rinchiudi 40 prigionieri nelle tue prigioni."
+        },
+        "koreana": {
+          "name": "큰집",
+          "description": "교도소 수감자 40명 달성"
+        },
+        "schinese": {
+          "name": "大牢房",
+          "description": "监狱中关押 40 名囚犯。"
+        },
+        "spanish": {
+          "name": "La gran casa",
+          "description": "Meter 40 reclusos en las cárceles"
+        }
+      }
+    },
+    "From Rags to Riches": {
+      "translations": {
+        "english": {
+          "name": "From Rags to Riches",
+          "description": "Have 30 Mansions and 10 Tenements"
+        },
+        "french": {
+          "name": "Rêve américain",
+          "description": "Construire 30 manoirs et 10 cages à lapin"
+        },
+        "german": {
+          "name": "Sozialer Aufstieg",
+          "description": "Bauen Sie 30 Luxusvillen und 10 Mietwohnungen"
+        },
+        "italian": {
+          "name": "Dagli spiantati ai ricconi",
+          "description": "Costruisci 30 Ville e 10 Case popolari."
+        },
+        "koreana": {
+          "name": "하류에서 상류까지",
+          "description": "30개의 고급 저택과 10개의 공동주택 건설"
+        },
+        "schinese": {
+          "name": "从赤贫到巨富",
+          "description": "拥有 30 座豪宅和 10 座廉租公寓。"
+        },
+        "spanish": {
+          "name": "De la pobreza a la riqueza",
+          "description": "Conseguir 30 mansiones y 10 casas de vecinos"
+        }
+      }
+    },
+    "Philanthropist": {
+      "translations": {
+        "english": {
+          "name": "Philanthropist",
+          "description": "Issue the \"Tax Cut\" edict 10 times in a single mission"
+        },
+        "french": {
+          "name": "Philanthrope",
+          "description": "Promulguer 10x le décret \"Baisse d'impôts\" au cours d'une mission"
+        },
+        "german": {
+          "name": "Philanthrop",
+          "description": "Geben Sie in einer Mission zehnmal den Erlass \"Steuersenkung\" aus"
+        },
+        "italian": {
+          "name": "Filantropo",
+          "description": "Emana l'editto \"Tagli alle tasse\" 10 volte nella stessa missione."
+        },
+        "koreana": {
+          "name": "오지랖",
+          "description": "단일 미션에서 \"감세\" 칙령 10회 발령"
+        },
+        "schinese": {
+          "name": "慈善家",
+          "description": "在单个任务中颁布“减税”法令 10 次。"
+        },
+        "spanish": {
+          "name": "Filántropo",
+          "description": "Promulgar 10 veces el decreto \"Recorte de impuestos\" en una sola misión"
+        }
+      }
+    },
+    "Finish expansion mission 1": {
+      "translations": {
+        "english": {
+          "name": "Crisis Measures",
+          "description": "Resolve the Great Tropican Crisis"
+        },
+        "french": {
+          "name": "Mesures de crise",
+          "description": "Résoudre la grande crise tropiquienne"
+        },
+        "german": {
+          "name": "Krisenmaßnahmen",
+          "description": "Die Große Tropicanische Krise lösen"
+        },
+        "italian": {
+          "name": "Misure anti crisi",
+          "description": "Risolvi la grande crisi tropicana."
+        },
+        "koreana": {
+          "name": "위기 극복",
+          "description": "트로피코 대공황 해결"
+        },
+        "schinese": {
+          "name": "危机措施",
+          "description": "解决 Great Tropican Crisis。"
+        },
+        "spanish": {
+          "name": "Medidas anticrisis",
+          "description": "Resolver la Gran Crisis Tropicana"
+        }
+      }
+    },
+    "Finish expansion mission 4": {
+      "translations": {
+        "english": {
+          "name": "The Conclave",
+          "description": "Learn the true name of your enemy"
+        },
+        "french": {
+          "name": "Le Conclave",
+          "description": "Découvrir le vrai nom de l'ennemi"
+        },
+        "german": {
+          "name": "Das Konklave",
+          "description": "Den wahren Namen Ihres Feindes erfahren"
+        },
+        "italian": {
+          "name": "Il Conclave",
+          "description": "Scopri il nome del tuo vero nemico."
+        },
+        "koreana": {
+          "name": "콘클라베",
+          "description": "진정한 적의 정체를 알아내십시오"
+        },
+        "schinese": {
+          "name": "The Conclave",
+          "description": "得知敌人的真名。"
+        },
+        "spanish": {
+          "name": "El Cónclave",
+          "description": "Averiguar el verdadero nombre de tu enemigo"
+        }
+      }
+    },
+    "Finish expansion mission 6": {
+      "translations": {
+        "english": {
+          "name": "Averted World War 3",
+          "description": "Foil the Conclave's plans"
+        },
+        "french": {
+          "name": "Troisième Guerre Mondiale évitée",
+          "description": "Déjouer les plans du Conclave"
+        },
+        "german": {
+          "name": "3. Weltkrieg abgewendet",
+          "description": "Pläne des Konklaves vereiteln"
+        },
+        "italian": {
+          "name": "Sventata la 3a guerra mondiale",
+          "description": "Sventa i piani del Conclave."
+        },
+        "koreana": {
+          "name": "3차 세계대전 방지",
+          "description": "콘클라베의 계략을 저지"
+        },
+        "schinese": {
+          "name": "避免第三次世界大战",
+          "description": "挫败 The Conclave 的计划。"
+        },
+        "spanish": {
+          "name": "III Guerra Mundial evitada",
+          "description": "Frustrar los planes del Cónclave"
+        }
+      }
+    },
+    "Completed the expansion campaign": {
+      "translations": {
+        "english": {
+          "name": "Zeitgeist",
+          "description": "Complete the Modern Times campaign"
+        },
+        "french": {
+          "name": "Esprit du temps",
+          "description": "Terminer la campagne Modern Times"
+        },
+        "german": {
+          "name": "Zeitgeist",
+          "description": "Die Zeitgeistkampagne beenden"
+        },
+        "italian": {
+          "name": "Zeitgeist",
+          "description": "Completa la campagna Zeitgeist."
+        },
+        "koreana": {
+          "name": "신세대",
+          "description": "모던 타임스 캠페인 완료"
+        },
+        "schinese": {
+          "name": "时代精神",
+          "description": "完成 Modern Times 战役。"
+        },
+        "spanish": {
+          "name": "Zeitgeist",
+          "description": "Completar la campaña Zeitgeist"
+        }
+      }
+    },
+    "Babel tower with 50 workers": {
+      "translations": {
+        "english": {
+          "name": "Office Space",
+          "description": "Have a Babel Tower with 50 employees"
+        },
+        "french": {
+          "name": "Bureaux à louer",
+          "description": "Construire une tour de Babel avec 50 employés"
+        },
+        "german": {
+          "name": "Büroplatz",
+          "description": "Babelturm mit 50 Angestellten besitzen"
+        },
+        "italian": {
+          "name": "Spazio e uffici",
+          "description": "Costruisci una Torre di Babele con 50 impiegati."
+        },
+        "koreana": {
+          "name": "오피스 공간",
+          "description": "바벨탑 직원 50명 달성"
+        },
+        "schinese": {
+          "name": "办公空间",
+          "description": "拥有一座雇用 50 名员工的 Babel Tower。"
+        },
+        "spanish": {
+          "name": "Espacio de oficinas",
+          "description": "Conseguir una Torre de Babel con 50 empleados"
+        }
+      }
+    },
+    "Ziggurat with 50 families": {
+      "translations": {
+        "english": {
+          "name": "Better Than Tenements",
+          "description": "Have a Ziggurat with 50 families as tenants"
+        },
+        "french": {
+          "name": "Mieux que des cages à lapins",
+          "description": "Construire une Ziggourat avec 50 familles locataires"
+        },
+        "german": {
+          "name": "Besser als Mietshäuser",
+          "description": "Zikkurat mit 50 Familien als Mieter besitzen"
+        },
+        "italian": {
+          "name": "Meglio delle case popolari",
+          "description": "Costruisci una Ziggurat abitata da 50 famiglie."
+        },
+        "koreana": {
+          "name": "집이 끝내줘요!",
+          "description": "지구라트 세입자 50명 달성"
+        },
+        "schinese": {
+          "name": "胜过廉租公寓",
+          "description": "拥有一座容纳 50 个家庭租户的 Ziggurat。"
+        },
+        "spanish": {
+          "name": "Mejor que las casas de vecinos",
+          "description": "Conseguir un zigurat con 50 familias como inquilinos"
+        }
+      }
+    },
+    "Have Presidency": {
+      "translations": {
+        "english": {
+          "name": "Capo Di Tutti Capi",
+          "description": "Renovate your Palace"
+        },
+        "french": {
+          "name": "Capo Di Tutti Capi",
+          "description": "Rénover votre palais"
+        },
+        "german": {
+          "name": "Capo Di Tutti Capi",
+          "description": "Renovieren Sie den Palast"
+        },
+        "italian": {
+          "name": "Capo dei capi",
+          "description": "Rinnova il tuo palazzo"
+        },
+        "koreana": {
+          "name": "보스 중의 보스",
+          "description": "대통령 관저 개축"
+        },
+        "schinese": {
+          "name": "Capo Di Tutti Capi",
+          "description": "翻新你的宫殿。"
+        },
+        "spanish": {
+          "name": "Capo di tutti capi",
+          "description": "Renovar tu palacio"
+        }
+      }
+    },
+    "4 Biofarms and 4 Organic ranches": {
+      "translations": {
+        "english": {
+          "name": "Going Green",
+          "description": "Build 4 Bio Farms and 4 Organic Ranches in a single mission"
+        },
+        "french": {
+          "name": "Le vert, c'est l'avenir",
+          "description": "Construire 4 fermes bio et 4 ranchs organiques au cours d'une mission"
+        },
+        "german": {
+          "name": "Alles grünt",
+          "description": "4 Bio-Farmen und 4 Bio-Ranches in einer Mission bauen"
+        },
+        "italian": {
+          "name": "Rivoluzione verde",
+          "description": "Costruisci 4 Piantagioni biologiche e 4 Ranch biologici nella stessa missione."
+        },
+        "koreana": {
+          "name": "우리강산 푸르게 푸르게",
+          "description": "단일 미션에서 각각 4개의 바이오 농장과 유기농 목장 건설"
+        },
+        "schinese": {
+          "name": "走向绿色",
+          "description": "在单个任务中建造 4 座 Bio Farm 和 4 座 Organic Ranch。"
+        },
+        "spanish": {
+          "name": "Piensa en verde",
+          "description": "Construir 4 granjas biológicas y 4 ranchos orgánicos en una sola misión"
+        }
+      }
+    },
+    "Crystal Cathedral before 1990": {
+      "translations": {
+        "english": {
+          "name": "Heaven On Earth",
+          "description": "Build a Diamond Cathedral before 1990"
+        },
+        "french": {
+          "name": "Paradis sur terre",
+          "description": "Construire une cathédrale de diamant avant 1990"
+        },
+        "german": {
+          "name": "Himmel auf Erden",
+          "description": "Diamant-Kathedrale vor 1990 bauen"
+        },
+        "italian": {
+          "name": "Paradiso in terra",
+          "description": "Costruisci una Cattedrale di diamanti prima del 1990."
+        },
+        "koreana": {
+          "name": "유토피아",
+          "description": "1990년 이전에 휘황찬란 성당을 건설"
+        },
+        "schinese": {
+          "name": "人间天堂",
+          "description": "在 1990 年前建造 Diamond Cathedral。"
+        },
+        "spanish": {
+          "name": "Cielo en la Tierra",
+          "description": "Construida una catedral diamantina antes de 1990"
+        }
+      }
+    },
+    "Have Aerodrome and SevenStar hotel": {
+      "translations": {
+        "english": {
+          "name": "A Better Tourist Trap",
+          "description": "Build an Aerodrome and a Seven-star hotel in a single mission"
+        },
+        "french": {
+          "name": "Un meilleur piège à touristes",
+          "description": "Construire un aérodrome et un hôtel sept étoiles au cours d'une mission"
+        },
+        "german": {
+          "name": "Eine bessere Touristenfalle",
+          "description": "Ein Aerodrom und ein 7-Sterne-Hotel in einer Mission bauen"
+        },
+        "italian": {
+          "name": "Trappola per turisti",
+          "description": "Costruisci un Aerodromo e un Hotel a sette stelle nella stessa missione."
+        },
+        "koreana": {
+          "name": "관광객 미끼",
+          "description": "한 게임 동안 첨단 비행장과 칠성급 호텔을 건설"
+        },
+        "schinese": {
+          "name": "更好的游客陷阱",
+          "description": "在单个任务中建造 Aerodrome 和 Seven-star hotel。"
+        },
+        "spanish": {
+          "name": "Trampa para turistas mejorada",
+          "description": "Construidos un aeródromo y un hotel de siete estrellas en una sola misión"
+        }
+      }
+    }
+  }
+}

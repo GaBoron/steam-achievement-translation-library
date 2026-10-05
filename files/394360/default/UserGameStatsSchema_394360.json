@@ -1,0 +1,3528 @@
+{
+  "version": 1,
+  "app_id": "394360",
+  "variant_id": "default",
+  "source_sha256": "31af41d380fd909f168588c70ed50322a96276ba40ba53ca4cdc0803ff2ecdd0",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "friend_in_need": {
+      "translations": {
+        "english": {
+          "name": "Friend in Need",
+          "description": "Join a faction."
+        },
+        "schinese": {
+          "name": "患难之交",
+          "description": "加入一个阵营。"
+        }
+      }
+    },
+    "time_is_on_our_side": {
+      "translations": {
+        "english": {
+          "name": "Time is on our side",
+          "description": "Reach 1948."
+        },
+        "schinese": {
+          "name": "时间站在我们这边",
+          "description": "抵达 1948 年。"
+        }
+      }
+    },
+    "canada_first": {
+      "translations": {
+        "english": {
+          "name": "Canada First",
+          "description": "Join Axis as Canada ."
+        },
+        "schinese": {
+          "name": "加拿大优先",
+          "description": "以加拿大加入轴心国。"
+        }
+      }
+    },
+    "we_will_build_it_in_a_day": {
+      "translations": {
+        "english": {
+          "name": "We'll build it in a day",
+          "description": "Research Construction V."
+        },
+        "schinese": {
+          "name": "一天就能建成",
+          "description": "研究“建筑 V”。"
+        }
+      }
+    },
+    "transport_tycoon": {
+      "translations": {
+        "english": {
+          "name": "Transport Tycoon",
+          "description": "Have at least 1000 convoys."
+        },
+        "schinese": {
+          "name": "运输大亨",
+          "description": "拥有至少 1000 艘运输船。"
+        }
+      }
+    },
+    "destroyer_of_worlds": {
+      "translations": {
+        "english": {
+          "name": "Destroyer of Worlds",
+          "description": "Deploy a nuke."
+        },
+        "schinese": {
+          "name": "世界毁灭者",
+          "description": "投放一枚核弹。"
+        }
+      }
+    },
+    "wunderwaffen": {
+      "translations": {
+        "english": {
+          "name": "Wunderwaffen",
+          "description": "Has completed the Special Projects Nuclear Fission Bomb, Rocket Interceptor and Jet Engines."
+        },
+        "schinese": {
+          "name": "奇迹武器",
+          "description": "完成核裂变炸弹、火箭截击机和喷气式发动机特别项目。"
+        }
+      }
+    },
+    "united_netherlands": {
+      "translations": {
+        "english": {
+          "name": "United Netherlands",
+          "description": "Conquer Belgium and Luxembourg as Netherlands ."
+        },
+        "schinese": {
+          "name": "尼德兰联合",
+          "description": "以荷兰征服比利时和卢森堡。"
+        }
+      }
+    },
+    "vive_la_france": {
+      "translations": {
+        "english": {
+          "name": "Vive la France",
+          "description": "Reach 1948 as France without capitulating or surrendering."
+        },
+        "schinese": {
+          "name": "法兰西万岁",
+          "description": "以法国坚持到 1948 年，期间没有投降或屈服。"
+        }
+      }
+    },
+    "master_of_war": {
+      "translations": {
+        "english": {
+          "name": "Master of War",
+          "description": "Fully research a land, air and naval doctrine tree."
+        },
+        "schinese": {
+          "name": "战争大师",
+          "description": "完整研究一条陆军、空军和海军学说树。"
+        }
+      }
+    },
+    "mine_is_bigger_than_yours": {
+      "translations": {
+        "english": {
+          "name": "Mine is bigger than yours",
+          "description": "Lead a faction with at least 20 members."
+        },
+        "schinese": {
+          "name": "我的比你的大",
+          "description": "领导一个至少有 20 个成员的阵营。"
+        }
+      }
+    },
+    "no_country_for_old_men": {
+      "translations": {
+        "english": {
+          "name": "No country for old men",
+          "description": "Reach 0 manpower with Scraping the Barrel as Conscription Law."
+        },
+        "schinese": {
+          "name": "老人无所依",
+          "description": "在征兵法为“刮桶底”时，人力降至 0。"
+        }
+      }
+    },
+    "poland_can_into_space": {
+      "translations": {
+        "english": {
+          "name": "Poland can into space",
+          "description": "Has completed the Special Project Rocket Interceptor."
+        },
+        "schinese": {
+          "name": "波兰也能上太空",
+          "description": "完成火箭截击机特别项目。"
+        }
+      }
+    },
+    "true_blitzkrieg": {
+      "translations": {
+        "english": {
+          "name": "True Blitzkrieg",
+          "description": "As Germany have both Poland and France surrender before January 1st 1940."
+        },
+        "schinese": {
+          "name": "真正的闪电战",
+          "description": "以德国在 1940 年 1 月 1 日前让波兰和法国都投降。"
+        }
+      }
+    },
+    "northern_light": {
+      "translations": {
+        "english": {
+          "name": "Northern Light",
+          "description": "As a Scandinavian country form your own faction, and have Denmark, Sweden, Norway and Finland in it."
+        },
+        "schinese": {
+          "name": "北极光",
+          "description": "以斯堪的纳维亚国家建立自己的阵营，并让丹麦、瑞典、挪威和芬兰加入。"
+        }
+      }
+    },
+    "nobody_expects": {
+      "translations": {
+        "english": {
+          "name": "Nobody expects...",
+          "description": "As Nationalist Spain in Axis manage to take Paris before the Germans."
+        },
+        "schinese": {
+          "name": "没人想得到……",
+          "description": "以加入轴心国的西班牙国民军，在德国之前夺取巴黎。"
+        }
+      }
+    },
+    "the_bell_tolls_for_us": {
+      "translations": {
+        "english": {
+          "name": "The bell tolls for us",
+          "description": "Win Spanish Civil War as Republican Spain."
+        },
+        "schinese": {
+          "name": "丧钟为我们而鸣",
+          "description": "以西班牙共和国赢得西班牙内战。"
+        }
+      }
+    },
+    "the_revolution_triumphant": {
+      "translations": {
+        "english": {
+          "name": "The Revolution Triumphant",
+          "description": "Have Germany as a puppet of Soviet."
+        },
+        "schinese": {
+          "name": "革命凯旋",
+          "description": "让德国成为苏联的傀儡国。"
+        }
+      }
+    },
+    "once_more_mate": {
+      "translations": {
+        "english": {
+          "name": "Once More Mate",
+          "description": "Occupy Gallipoli as Australia."
+        },
+        "schinese": {
+          "name": "再来一次，伙计",
+          "description": "以澳大利亚占领加里波利。"
+        }
+      }
+    },
+    "forge_of_victory": {
+      "translations": {
+        "english": {
+          "name": "Forge of Victory",
+          "description": "Have 50 factories as Belgium."
+        },
+        "schinese": {
+          "name": "胜利熔炉",
+          "description": "以比利时拥有 50 座工厂。"
+        }
+      }
+    },
+    "sunset_invasion": {
+      "translations": {
+        "english": {
+          "name": "Sunset Invasion",
+          "description": "Occupy a coastal province in Europe as Mexico, and if in a faction have it contain only South American members or puppets."
+        },
+        "schinese": {
+          "name": "日落入侵",
+          "description": "以墨西哥占领欧洲的一处沿海省份；若在阵营中，该阵营只能包含南美成员或傀儡国。"
+        }
+      }
+    },
+    "duce_nukedem": {
+      "translations": {
+        "english": {
+          "name": "Duce Nuked'em",
+          "description": "Nuke Los Angeles as fascist Italy."
+        },
+        "schinese": {
+          "name": "领袖核了他们",
+          "description": "以法西斯意大利向洛杉矶投放核弹。"
+        }
+      }
+    },
+    "operation_sealion": {
+      "translations": {
+        "english": {
+          "name": "Operation Sea Lion",
+          "description": "Control British mainland as Germany."
+        },
+        "schinese": {
+          "name": "海狮行动",
+          "description": "以德国控制英国本土。"
+        }
+      }
+    },
+    "one_empire": {
+      "translations": {
+        "english": {
+          "name": "One Empire",
+          "description": "Unite the entire world under the British Empire."
+        },
+        "schinese": {
+          "name": "一个帝国",
+          "description": "让全世界统一于大英帝国之下。"
+        }
+      }
+    },
+    "party_like_its_1520": {
+      "translations": {
+        "english": {
+          "name": "Party like it's 1520",
+          "description": "Occupy Stockholm as communist Denmark."
+        },
+        "schinese": {
+          "name": "像 1520 年一样狂欢",
+          "description": "以共产主义丹麦占领斯德哥尔摩。"
+        }
+      }
+    },
+    "med_plutonium": {
+      "translations": {
+        "english": {
+          "name": "Med plutonium...",
+          "description": "Nuke Denmark as Sweden."
+        },
+        "schinese": {
+          "name": "来点钚……",
+          "description": "以瑞典向丹麦投放核弹。"
+        }
+      }
+    },
+    "montezumas_revenge": {
+      "translations": {
+        "english": {
+          "name": "The Revenge of Montezuma",
+          "description": "Restore the old borders with USA as Mexico."
+        },
+        "schinese": {
+          "name": "蒙特祖玛的复仇",
+          "description": "以墨西哥恢复旧日与美国的边界。"
+        }
+      }
+    },
+    "big_entente": {
+      "translations": {
+        "english": {
+          "name": "Big Entente",
+          "description": "As France, complete the “Little Entente” National Focus, and have all German cores owned by you or someone in your faction."
+        },
+        "schinese": {
+          "name": "大协约",
+          "description": "以法国完成“小协约国”国策，并使所有德国核心领土由你或阵营成员拥有。"
+        }
+      }
+    },
+    "new_world_order": {
+      "translations": {
+        "english": {
+          "name": "New World Order",
+          "description": "Make all nations fascist."
+        },
+        "schinese": {
+          "name": "世界新秩序",
+          "description": "让所有国家都成为法西斯国家。"
+        }
+      }
+    },
+    "vojtek_commander": {
+      "translations": {
+        "english": {
+          "name": "Bearer of Artillery",
+          "description": "Gain Vojtek as commander"
+        },
+        "schinese": {
+          "name": "火炮背负者",
+          "description": "获得沃伊泰克作为指挥官。"
+        }
+      }
+    },
+    "brains": {
+      "translations": {
+        "english": {
+          "name": "Braaaaains!",
+          "description": "As Canada, complete the Send in the Zombies focus."
+        },
+        "schinese": {
+          "name": "脑——子！",
+          "description": "以加拿大完成“派出僵尸”国策。"
+        }
+      }
+    },
+    "district_9": {
+      "translations": {
+        "english": {
+          "name": "District 9",
+          "description": "As South Africa, have 9 civilian factories in Transvaal."
+        },
+        "schinese": {
+          "name": "第九区",
+          "description": "以南非在德兰士瓦拥有 9 座民用工厂。"
+        }
+      }
+    },
+    "our_words_are_backed": {
+      "translations": {
+        "english": {
+          "name": "Our Words Are Backed With Nuclear Weapons",
+          "description": "As India, develop and deploy a nuke. You must have the Quit India Movement national spirit."
+        },
+        "schinese": {
+          "name": "吾言有核武为证",
+          "description": "以印度研发并投放一枚核弹。你必须拥有“退出印度运动”民族精神。"
+        }
+      }
+    },
+    "crusader_kings": {
+      "translations": {
+        "english": {
+          "name": "Crusader Kings",
+          "description": "As South Africa, finish the A King for our People focus and take Jerusalem."
+        },
+        "schinese": {
+          "name": "十字军之王",
+          "description": "以南非完成“人民之王”国策并夺取耶路撒冷。"
+        }
+      }
+    },
+    "crusader_kings_2": {
+      "translations": {
+        "english": {
+          "name": "Crusader Kings 2",
+          "description": "As South Africa, finish the Anti-Colonialist Crusade focus, release all European colonies via the focus, and take London."
+        },
+        "schinese": {
+          "name": "十字军之王 2",
+          "description": "以南非完成“反殖民主义十字军”国策，通过国策释放所有欧洲殖民地，并夺取伦敦。"
+        }
+      }
+    },
+    "rule_britannia": {
+      "translations": {
+        "english": {
+          "name": "Rule Britannia",
+          "description": "As any British Subject state, conquer all of Britain."
+        },
+        "schinese": {
+          "name": "统治吧，不列颠尼亚",
+          "description": "以任一英国属国征服整个不列颠。"
+        }
+      }
+    },
+    "cut_the_strings": {
+      "translations": {
+        "english": {
+          "name": "Cut The Strings",
+          "description": "Break free from your overlord as a puppet."
+        },
+        "schinese": {
+          "name": "斩断提线",
+          "description": "作为傀儡国摆脱宗主国。"
+        }
+      }
+    },
+    "its_1812_all_over_again": {
+      "translations": {
+        "english": {
+          "name": "It's 1812 All Over Again",
+          "description": "As Canada, take and hold Washington D.C."
+        },
+        "schinese": {
+          "name": "1812 年重演",
+          "description": "以加拿大夺取并守住华盛顿特区。"
+        }
+      }
+    },
+    "the_weapons_of_the_third_emu_war": {
+      "translations": {
+        "english": {
+          "name": "The weapons of the Third Emu War",
+          "description": "As Australia, use a nuclear bomb on core Australian territory."
+        },
+        "schinese": {
+          "name": "第三次鸸鹋战争的武器",
+          "description": "以澳大利亚在澳大利亚核心领土上使用核弹。"
+        }
+      }
+    },
+    "i_am_the_tong_master": {
+      "translations": {
+        "english": {
+          "name": "I Am the Tong Master",
+          "description": "As South Africa, break free from the UK and puppet another nation."
+        },
+        "schinese": {
+          "name": "我是堂主",
+          "description": "以南非脱离英国，并傀儡另一个国家。"
+        }
+      }
+    },
+    "the_empire_strikes_back": {
+      "translations": {
+        "english": {
+          "name": "The Empire Strikes Back",
+          "description": "As Britain, declare war on one of your former subjects."
+        },
+        "schinese": {
+          "name": "帝国反击战",
+          "description": "以英国向一个前属国宣战。"
+        }
+      }
+    },
+    "the_puppetmaster": {
+      "translations": {
+        "english": {
+          "name": "The Puppetmaster",
+          "description": "Have at least 51 subjects."
+        },
+        "schinese": {
+          "name": "傀儡大师",
+          "description": "拥有至少 51 个附属国。"
+        }
+      }
+    },
+    "freegypt": {
+      "translations": {
+        "english": {
+          "name": "Freegypt",
+          "description": "As Egypt, go from puppet to a free nation using the autonomy system."
+        },
+        "schinese": {
+          "name": "自由及及",
+          "description": "以埃及通过自治系统从傀儡国成为自由国家。"
+        }
+      }
+    },
+    "miklos_horthy_and_the_habsburg_prince": {
+      "translations": {
+        "english": {
+          "name": "Miklos Horthy and the Habsburg Prince",
+          "description": "As Hungary, restore Austria-Hungary."
+        },
+        "schinese": {
+          "name": "霍尔蒂·米克洛什与哈布斯堡王子",
+          "description": "以匈牙利复辟奥匈帝国。"
+        }
+      }
+    },
+    "better_than_the_szent_istvan": {
+      "translations": {
+        "english": {
+          "name": "Better than the Szent István",
+          "description": "As Hungary, have Miklos Horthy as a Naval commander and build a battleship."
+        },
+        "schinese": {
+          "name": "比圣伊什特万号更强",
+          "description": "以匈牙利让霍尔蒂·米克洛什担任海军指挥官，并建造一艘战列舰。"
+        }
+      }
+    },
+    "death_or_dishonor_or_cake": {
+      "translations": {
+        "english": {
+          "name": "Death or Dishonor or Cake",
+          "description": "As Romania, own a slice of all your starting neighbors."
+        },
+        "schinese": {
+          "name": "死亡、耻辱，还是蛋糕",
+          "description": "以罗马尼亚拥有所有初始邻国的一部分领土。"
+        }
+      }
+    },
+    "neither_death_nor_dishonor": {
+      "translations": {
+        "english": {
+          "name": "Neither Death nor Dishonor",
+          "description": "As Romania, make it to 1942 with all the states you started it with and control either Moscow or Berlin."
+        },
+        "schinese": {
+          "name": "既非死亡亦非耻辱",
+          "description": "以罗马尼亚带着开局所有地区坚持到 1942 年，并控制莫斯科或柏林。"
+        }
+      }
+    },
+    "the_munich_disagreement": {
+      "translations": {
+        "english": {
+          "name": "The Munich Disagreement",
+          "description": "As Czechoslovakia, occupy Munich while at war with Germany."
+        },
+        "schinese": {
+          "name": "慕尼黑分歧",
+          "description": "以捷克斯洛伐克在与德国交战时占领慕尼黑。"
+        }
+      }
+    },
+    "czechmate": {
+      "translations": {
+        "english": {
+          "name": "Czechmate",
+          "description": "As Czechoslovakia, occupy Canberra while at war with the Allies."
+        },
+        "schinese": {
+          "name": "捷克将军",
+          "description": "以捷克斯洛伐克在与同盟国交战时占领堪培拉。"
+        }
+      }
+    },
+    "huge_oslavia": {
+      "translations": {
+        "english": {
+          "name": "Huge-oslavia",
+          "description": "As Yugoslavia, occupy all your neighbouring countries (Austria, Hungary, Romania, Bulgaria, Albania, Italy and Greece)."
+        },
+        "schinese": {
+          "name": "巨大的斯拉维亚",
+          "description": "以南斯拉夫占领所有邻国：奥地利、匈牙利、罗马尼亚、保加利亚、阿尔巴尼亚、意大利和希腊。"
+        }
+      }
+    },
+    "the_balkan_powder_keg": {
+      "translations": {
+        "english": {
+          "name": "The Balkan Powder Keg",
+          "description": "As Yugoslavia, start the Second World War (i.e. be part of either the Axis or the Allies and at war with the other faction in a war you started)."
+        },
+        "schinese": {
+          "name": "巴尔干火药桶",
+          "description": "以南斯拉夫引爆第二次世界大战：加入轴心国或同盟国之一，并在你发动的战争中与另一方交战。"
+        }
+      }
+    },
+    "en_svensk_tiger": {
+      "translations": {
+        "english": {
+          "name": "En Svensk Tiger",
+          "description": "As Sweden, acquire a production license for a Tiger or Tiger II tank from Germany."
+        },
+        "schinese": {
+          "name": "瑞典之虎",
+          "description": "以瑞典从德国获得虎式或虎王坦克的生产许可。"
+        }
+      }
+    },
+    "lethal_straight": {
+      "translations": {
+        "english": {
+          "name": "Lethal Straight",
+          "description": "Have a production license from at least 5 of the 7 major powers."
+        },
+        "schinese": {
+          "name": "致命顺子",
+          "description": "从七个主要强国中的至少五个获得生产许可。"
+        }
+      }
+    },
+    "awake_and_angry": {
+      "translations": {
+        "english": {
+          "name": "Awake and Angry",
+          "description": "As China, reconquer all of China and Manchuria and force a Japanese surrender."
+        },
+        "schinese": {
+          "name": "觉醒而愤怒",
+          "description": "以中国收复全中国和满洲，并迫使日本投降。"
+        }
+      }
+    },
+    "romance_of_the_three_kingdoms": {
+      "translations": {
+        "english": {
+          "name": "Romance of the Three Kingdoms",
+          "description": "As China, puppet and then annex Yunnan and Guangxi Clique."
+        },
+        "schinese": {
+          "name": "三国演义",
+          "description": "以中国傀儡并吞并云南和广西军阀。"
+        }
+      }
+    },
+    "sun_tzu_reborn": {
+      "translations": {
+        "english": {
+          "name": "Sun Tzu Reborn",
+          "description": "As Any Chinese Nation, have a level 9 field marshal."
+        },
+        "schinese": {
+          "name": "孙子重生",
+          "description": "以任一中国势力拥有一名 9 级陆军元帅。"
+        }
+      }
+    },
+    "the_people_have_stood_up": {
+      "translations": {
+        "english": {
+          "name": "The People Have Stood Up!",
+          "description": "With Mao as your leader, win the Chinese Civil War."
+        },
+        "schinese": {
+          "name": "人民站起来了！",
+          "description": "以毛泽东为领袖赢得中国内战。"
+        }
+      }
+    },
+    "made_in_china": {
+      "translations": {
+        "english": {
+          "name": "Made in China",
+          "description": "As Communist China, have over 100 military factories."
+        },
+        "schinese": {
+          "name": "中国制造",
+          "description": "以共产主义中国拥有超过 100 座军用工厂。"
+        }
+      }
+    },
+    "tojo_shot_first": {
+      "translations": {
+        "english": {
+          "name": "Tojo Shot First",
+          "description": "As Japan, nuke a core territory of the US before the US develops nuclear weapons."
+        },
+        "schinese": {
+          "name": "东条先开火",
+          "description": "以日本在美国研发核武器前，向美国核心领土投放核弹。"
+        }
+      }
+    },
+    "sunrise_invasion": {
+      "translations": {
+        "english": {
+          "name": "Sunrise Invasion",
+          "description": "As Japan, conquer Mexico then Europe before 1945."
+        },
+        "schinese": {
+          "name": "日出入侵",
+          "description": "以日本在 1945 年前先征服墨西哥，再征服欧洲。"
+        }
+      }
+    },
+    "the_dragon_swallowed_the_sun": {
+      "translations": {
+        "english": {
+          "name": "The Dragon Swallowed the Sun",
+          "description": "As Manchukuo, break free from Japan and annex your former Overlord without being in a faction."
+        },
+        "schinese": {
+          "name": "龙吞日",
+          "description": "以满洲国脱离日本，并在不加入阵营的情况下吞并前宗主国。"
+        }
+      }
+    },
+    "hail_to_the_qing": {
+      "translations": {
+        "english": {
+          "name": "Hail to the Qing",
+          "description": "As Manchukuo, restore the Qing dynasty."
+        },
+        "schinese": {
+          "name": "大清万岁",
+          "description": "以满洲国复辟清朝。"
+        }
+      }
+    },
+    "the_good_the_bad_and_the_weird": {
+      "translations": {
+        "english": {
+          "name": "The Good, the Bad and the Weird",
+          "description": "As Manchukuo, have max level infrastructure in every owned state and generate at least 15 units of oil."
+        },
+        "schinese": {
+          "name": "好家伙、坏家伙、怪家伙",
+          "description": "以满洲国在所有拥有地区建设最高等级基础设施，并产出至少 15 单位石油。"
+        }
+      }
+    },
+    "battlecry": {
+      "translations": {
+        "english": {
+          "name": "Battlecry",
+          "description": "As a warlord, conquer all of China and Japan."
+        },
+        "schinese": {
+          "name": "战吼",
+          "description": "以军阀征服全中国和日本。"
+        }
+      }
+    },
+    "panda_monium": {
+      "translations": {
+        "english": {
+          "name": "Panda-monium",
+          "description": "As a warlord, be at war with all chinese nations simultaneously."
+        },
+        "schinese": {
+          "name": "熊猫狂潮",
+          "description": "以军阀同时与所有中国势力交战。"
+        }
+      }
+    },
+    "make_a_man_out_of_you": {
+      "translations": {
+        "english": {
+          "name": "Make a Man Out Of You",
+          "description": "As a warlord, have at least 1.000.000 manpower queued up for deployment."
+        },
+        "schinese": {
+          "name": "让你成为男子汉",
+          "description": "以军阀让至少 100 万人力排队等待部署。"
+        }
+      }
+    },
+    "our_other_place_in_the_sun": {
+      "translations": {
+        "english": {
+          "name": "Our Other Place in the Sun",
+          "description": "As Imperial Germany, conquer a Caribbean island."
+        },
+        "schinese": {
+          "name": "我们另一处阳光下的地盘",
+          "description": "以德意志帝国征服一座加勒比岛屿。"
+        }
+      }
+    },
+    "australia_hungary": {
+      "translations": {
+        "english": {
+          "name": "Australia-Hungary",
+          "description": "As Australia, own all core territory of Hungary."
+        },
+        "schinese": {
+          "name": "澳匈帝国",
+          "description": "以澳大利亚拥有匈牙利的全部核心领土。"
+        }
+      }
+    },
+    "my_ships_dont_lie": {
+      "translations": {
+        "english": {
+          "name": "My Ships Don't Lie",
+          "description": "As Colombia, form Gran Colombia and have 10 Carriers and 10 Battleships."
+        },
+        "schinese": {
+          "name": "我的船不会说谎",
+          "description": "以哥伦比亚成立大哥伦比亚，并拥有 10 艘航空母舰和 10 艘战列舰。"
+        }
+      }
+    },
+    "i_swear_im_not_a_byzantophile": {
+      "translations": {
+        "english": {
+          "name": "I Swear I’m Not a Byzantophile",
+          "description": "As Greece, Form Byzantine Empire."
+        },
+        "schinese": {
+          "name": "我发誓我不是拜占庭迷",
+          "description": "以希腊成立拜占庭帝国。"
+        }
+      }
+    },
+    "monarchy_is_back_in_fashion": {
+      "translations": {
+        "english": {
+          "name": "Monarchy is Back In Fashion",
+          "description": "As Germany, bring back the Kaiser and ensure that Italy is controlled by Victor Emmanuel by killing Mussolini."
+        },
+        "schinese": {
+          "name": "君主制又流行起来了",
+          "description": "以德国迎回皇帝，并通过杀死墨索里尼确保意大利由维托里奥·埃马努埃莱掌控。"
+        }
+      }
+    },
+    "team_america": {
+      "translations": {
+        "english": {
+          "name": "Team America",
+          "description": "As the U.S.A., drop a nuclear bomb on Paris."
+        },
+        "schinese": {
+          "name": "美国队",
+          "description": "以美国向巴黎投放核弹。"
+        }
+      }
+    },
+    "history_repeated_itself": {
+      "translations": {
+        "english": {
+          "name": "History Repeated Itself",
+          "description": "As the U.S.A., win against the Confederate States. Again."
+        },
+        "schinese": {
+          "name": "历史重演",
+          "description": "以美国再次击败美利坚联盟国。"
+        }
+      }
+    },
+    "georgia_on_my_mind": {
+      "translations": {
+        "english": {
+          "name": "Georgia On My Mind",
+          "description": "As the U.S.A., own and fully control all three Georgias."
+        },
+        "schinese": {
+          "name": "佐治亚萦绕心头",
+          "description": "以美国拥有并完全控制三个乔治亚。"
+        }
+      }
+    },
+    "to_arms_in_dixie": {
+      "translations": {
+        "english": {
+          "name": "To Arms in Dixie!",
+          "description": "As the U.S.A., start a new civil war as the South."
+        },
+        "schinese": {
+          "name": "迪克西，拿起武器！",
+          "description": "以美国作为南方发动新的内战。"
+        }
+      }
+    },
+    "arsenal_of_democracy": {
+      "translations": {
+        "english": {
+          "name": "Arsenal of Democracy",
+          "description": "As the U.S.A., have more than 300 military factories."
+        },
+        "schinese": {
+          "name": "民主兵工厂",
+          "description": "以美国拥有超过 300 座军用工厂。"
+        }
+      }
+    },
+    "underpaid_undersexed_and_under_eisenhower": {
+      "translations": {
+        "english": {
+          "name": "Underpaid, Undersexed, and Under Eisenhower",
+          "description": "As the U.S.A., assume faction leadership of the Allies, and have over 50 expeditionary divisions from the United Kingdom."
+        },
+        "schinese": {
+          "name": "薪少、欲寡、艾森豪威尔麾下",
+          "description": "以美国接管同盟国阵营领导权，并从英国获得超过 50 个远征师。"
+        }
+      }
+    },
+    "last_for_a_thousand_years": {
+      "translations": {
+        "english": {
+          "name": "Last for a Thousand Years",
+          "description": "As the United Kingdom, accomplish the federation of the entire British Empire."
+        },
+        "schinese": {
+          "name": "千年长存",
+          "description": "以英国完成整个大英帝国的联邦化。"
+        }
+      }
+    },
+    "britzkrieg": {
+      "translations": {
+        "english": {
+          "name": "Britzkrieg",
+          "description": "As the United Kingdom, put Edward VIII in power, ally Germany, and fully control Paris."
+        },
+        "schinese": {
+          "name": "英式闪电战",
+          "description": "以英国让爱德华八世掌权，与德国结盟，并完全控制巴黎。"
+        }
+      }
+    },
+    "nothing_wrong_with_our_bloody_ships": {
+      "translations": {
+        "english": {
+          "name": "Nothing Wrong with our Bloody Ships",
+          "description": "As the United Kingdom, have at least 9 battlecruisers."
+        },
+        "schinese": {
+          "name": "我们的破船没毛病",
+          "description": "以英国拥有至少 9 艘战列巡洋舰。"
+        }
+      }
+    },
+    "william_wallis": {
+      "translations": {
+        "english": {
+          "name": "William Wallis",
+          "description": "As the United Kingdom, put Edward VIII in power, enforce an American monarchy, and have both it and Scotland as subjects."
+        },
+        "schinese": {
+          "name": "威廉·沃利斯",
+          "description": "以英国让爱德华八世掌权，扶植美国君主制，并让美国和苏格兰都成为附属国。"
+        }
+      }
+    },
+    "crush_the_dream": {
+      "translations": {
+        "english": {
+          "name": "Crush the Dream",
+          "description": "As a Communist United Kingdom, crush the American Dream by puppeting the U.S.A."
+        },
+        "schinese": {
+          "name": "粉碎梦想",
+          "description": "以共产主义英国通过傀儡美国来粉碎美国梦。"
+        }
+      }
+    },
+    "treading_the_narrow_path": {
+      "translations": {
+        "english": {
+          "name": "Treading the Narrow Path",
+          "description": "As the Netherlands, do not cave to the Germans, continue the Zuiderzee works, and do not lose control of any of your continental European states until 1945."
+        },
+        "schinese": {
+          "name": "行走窄路",
+          "description": "以荷兰不向德国屈服，继续须德海工程，并在 1945 年前不失去任何欧洲本土地区。"
+        }
+      }
+    },
+    "putting_the_raid_on_the_medway_to_shame": {
+      "translations": {
+        "english": {
+          "name": "Putting the Raid on the Medway to Shame",
+          "description": "As the Netherlands, ensure the United Kingdom has no capital ships (carriers, battleships, battlecruisers, or heavy cruisers)."
+        },
+        "schinese": {
+          "name": "让梅德韦突袭相形见绌",
+          "description": "以荷兰确保英国没有主力舰：航空母舰、战列舰、战列巡洋舰或重巡洋舰。"
+        }
+      }
+    },
+    "bevrijding": {
+      "translations": {
+        "english": {
+          "name": "Bevrijding",
+          "description": "As the Netherlands, liberate the continental Netherlands after relocating the government to the East Indies."
+        },
+        "schinese": {
+          "name": "解放",
+          "description": "以荷兰在政府迁往东印度群岛后，解放欧洲大陆的尼德兰。"
+        }
+      }
+    },
+    "mi_casa_es_tu_casa": {
+      "translations": {
+        "english": {
+          "name": "Mi Casa es tu Casa",
+          "description": "As Mexico, host a government-in-exile."
+        },
+        "schinese": {
+          "name": "我家就是你家",
+          "description": "以墨西哥接纳一个流亡政府。"
+        }
+      }
+    },
+    "the_new_home_of_the_revolution": {
+      "translations": {
+        "english": {
+          "name": "The New Home of the Revolution",
+          "description": "As Mexico, put Trotsky in power and puppet the Soviet Union."
+        },
+        "schinese": {
+          "name": "革命的新家园",
+          "description": "以墨西哥让托洛茨基掌权，并傀儡苏联。"
+        }
+      }
+    },
+    "assuming_direct_control": {
+      "translations": {
+        "english": {
+          "name": "Assuming Direct Control",
+          "description": "Starting as a minor power, assume faction leadership of the Allies, the Axis, or the Comintern."
+        },
+        "schinese": {
+          "name": "接管直接控制",
+          "description": "以一个小国开局，接管同盟国、轴心国或共产国际的阵营领导权。"
+        }
+      }
+    },
+    "vive_la_jeune_ecole": {
+      "translations": {
+        "english": {
+          "name": "Vive la Jeune Ecole",
+          "description": "As France, have at least 150 Destroyers and research the maximum torpedo launcher technology, before 1945."
+        },
+        "schinese": {
+          "name": "青年学派万岁",
+          "description": "以法国在 1945 年前拥有至少 150 艘驱逐舰，并研究最高级鱼雷发射器科技。"
+        }
+      }
+    },
+    "30_minutes_of_hel": {
+      "translations": {
+        "english": {
+          "name": "30 Minutes of Hel",
+          "description": "As Poland in the 1939 “Blitzkrieg” scenario start, inflict over 1,800,000 casualties to Germany to beat the 2018 PDXCON HOI4 challenge. Extra bragging rights if you do it in 30 minutes or less!"
+        },
+        "schinese": {
+          "name": "赫尔三十分钟",
+          "description": "以波兰在 1939 年“闪电战”剧本开局，对德国造成超过 180 万伤亡，打破 2018 PDXCON HOI4 挑战。若 30 分钟内完成，还有额外炫耀资本！"
+        }
+      }
+    },
+    "pride_and_extreme_prejudice": {
+      "translations": {
+        "english": {
+          "name": "Pride and Extreme Prejudice",
+          "description": "Sink the British Pride of the Fleet."
+        },
+        "schinese": {
+          "name": "骄傲与极端偏见",
+          "description": "击沉英国的舰队骄傲。"
+        }
+      }
+    },
+    "do_you_mined": {
+      "translations": {
+        "english": {
+          "name": "Do You Mined?",
+          "description": "Lay at least 1,000 mines on the coastline of an enemy nation."
+        },
+        "schinese": {
+          "name": "你布雷了吗？",
+          "description": "在敌国海岸线布设至少 1000 枚水雷。"
+        }
+      }
+    },
+    "portugal_bffs": {
+      "translations": {
+        "english": {
+          "name": "BFFs",
+          "description": "As Portugal, join the same faction as Great Britain."
+        },
+        "schinese": {
+          "name": "挚友",
+          "description": "以葡萄牙与英国加入同一阵营。"
+        }
+      }
+    },
+    "man_of_a_thousand_faces": {
+      "translations": {
+        "english": {
+          "name": "Man of a Thousand Faces, Every One the Same",
+          "description": "Have the same spy get captured twice."
+        },
+        "schinese": {
+          "name": "千面一人，面面相同",
+          "description": "让同一名间谍被捕两次。"
+        }
+      }
+    },
+    "we_will_rock_you": {
+      "translations": {
+        "english": {
+          "name": "We Will Rock You",
+          "description": "As Spain, own Gibraltar."
+        },
+        "schinese": {
+          "name": "我们会震撼你",
+          "description": "以西班牙拥有直布罗陀。"
+        }
+      }
+    },
+    "warsaw_liberates_self": {
+      "translations": {
+        "english": {
+          "name": "Warszawo, Walcz!",
+          "description": "Stage the Warsaw uprising and succeed."
+        },
+        "schinese": {
+          "name": "华沙，战斗吧！",
+          "description": "发动华沙起义并取得成功。"
+        }
+      }
+    },
+    "play_it_again": {
+      "translations": {
+        "english": {
+          "name": "Play It, Sam",
+          "description": "Have a spy network of at least 50% strength in Casablanca."
+        },
+        "schinese": {
+          "name": "再来一次，山姆",
+          "description": "在卡萨布兰卡拥有强度至少 50% 的间谍网。"
+        }
+      }
+    },
+    "shaken_not_stirred": {
+      "translations": {
+        "english": {
+          "name": "Shaken, Not Stirred",
+          "description": "Successfully stage a coup in any nation using a spy with the Seducer trait."
+        },
+        "schinese": {
+          "name": "摇匀，不要搅拌",
+          "description": "使用拥有“诱惑者”特质的间谍，在任意国家成功发动政变。"
+        }
+      }
+    },
+    "listen_carefully": {
+      "translations": {
+        "english": {
+          "name": "Listen Very Carefully, I Shall Say This...",
+          "description": "Have a French and British spy work together on the same Operation."
+        },
+        "schinese": {
+          "name": "仔细听，我只说一遍……",
+          "description": "让一名法国间谍和一名英国间谍共同执行同一项行动。"
+        }
+      }
+    },
+    "one_king_two_crowns": {
+      "translations": {
+        "english": {
+          "name": "One King, Two Crowns",
+          "description": "As Bourbon Spain, hold all Spanish and French core states."
+        },
+        "schinese": {
+          "name": "一王双冠",
+          "description": "以波旁西班牙掌握所有西班牙和法国核心地区。"
+        }
+      }
+    },
+    "i_didnt_vote_for_you": {
+      "translations": {
+        "english": {
+          "name": "Well, I Didn’t Vote for You",
+          "description": "Win the Spanish Civil War as the Anarchists."
+        },
+        "schinese": {
+          "name": "可我没投你票",
+          "description": "以无政府主义者赢得西班牙内战。"
+        }
+      }
+    },
+    "die_albion": {
+      "translations": {
+        "english": {
+          "name": "Die, Perfidious Albion!",
+          "description": "As Fascist France or Vichy France, occupy all of Great Britain."
+        },
+        "schinese": {
+          "name": "去死吧，背信的阿尔比恩！",
+          "description": "以法西斯法国或维希法国占领整个大不列颠。"
+        }
+      }
+    },
+    "spies_trade": {
+      "translations": {
+        "english": {
+          "name": "Spies Trade",
+          "description": "As India, become the spymaster for the Allies."
+        },
+        "schinese": {
+          "name": "间谍行当",
+          "description": "以印度成为同盟国的间谍主管。"
+        }
+      }
+    },
+    "you_will_never_kill_me_alive": {
+      "translations": {
+        "english": {
+          "name": "You Will Never Kill Me Alive",
+          "description": "Have one of your spies take a Suicide Pill."
+        },
+        "schinese": {
+          "name": "你别想活捉我",
+          "description": "让你的一名间谍服下自杀药丸。"
+        }
+      }
+    },
+    "i_see_everything": {
+      "translations": {
+        "english": {
+          "name": "I SEE EVERYTHING",
+          "description": "Get over 90% intel in each category on a major without using code cracking."
+        },
+        "schinese": {
+          "name": "我看见一切",
+          "description": "在不破译密码的情况下，对一个主要国家的各类情报都超过 90%。"
+        }
+      }
+    },
+    "turing_complete": {
+      "translations": {
+        "english": {
+          "name": "Turing Complete!",
+          "description": "Fully decrypt all nations in the Axis. "
+        },
+        "schinese": {
+          "name": "图灵完备！",
+          "description": "完全破译轴心国所有国家。"
+        }
+      }
+    },
+    "our_chief_weapon_is_surprise": {
+      "translations": {
+        "english": {
+          "name": "Our Chief Weapon is Surprise...",
+          "description": "As Spain, have at least 5 spies and stage 5 coups against other nations."
+        },
+        "schinese": {
+          "name": "我们的主要武器是出其不意……",
+          "description": "以西班牙拥有至少 5 名间谍，并对其他国家发动 5 次政变。"
+        }
+      }
+    },
+    "second_times_charm": {
+      "translations": {
+        "english": {
+          "name": "Second Time’s the Charm",
+          "description": "As France, occupy Moscow while Napoleon VI is your country leader."
+        },
+        "schinese": {
+          "name": "第二次就灵了",
+          "description": "以法国在拿破仑六世担任国家领袖时占领莫斯科。"
+        }
+      }
+    },
+    "why_die_for_danzig": {
+      "translations": {
+        "english": {
+          "name": "Why Die For Danzig?",
+          "description": "As Germany, turn France fascist and occupy Danzig without going to war with France."
+        },
+        "schinese": {
+          "name": "何必为但泽而死？",
+          "description": "以德国让法国转为法西斯，并在不与法国开战的情况下占领但泽。"
+        }
+      }
+    },
+    "tour_de_france": {
+      "translations": {
+        "english": {
+          "name": "Tour de France",
+          "description": "Occupy all of mainland France while having at least 20 fully equipped Bicycle regiments."
+        },
+        "schinese": {
+          "name": "环法之旅",
+          "description": "拥有至少 20 个装备齐全的自行车团时，占领法国本土全境。"
+        }
+      }
+    },
+    "portugal_macau_my_day": {
+      "translations": {
+        "english": {
+          "name": "Go Ahead, Macau My Day",
+          "description": "As Portugal, create a collaboration government in Macau and have it own all Chinese states."
+        },
+        "schinese": {
+          "name": "来吧，澳门我的一天",
+          "description": "以葡萄牙在澳门建立合作政府，并让其拥有所有中国地区。"
+        }
+      }
+    },
+    "dont_die_for_your_country": {
+      "translations": {
+        "english": {
+          "name": "Don’t Die for Your Country",
+          "description": "As Germany in a 1939 start, occupy all of Poland and France without taking more than 475 casualties."
+        },
+        "schinese": {
+          "name": "不要为国捐躯",
+          "description": "以德国在 1939 年开局，占领整个波兰和法国，且伤亡不超过 475 人。"
+        }
+      }
+    },
+    "finnish_him": {
+      "translations": {
+        "english": {
+          "name": "Finnish Him!",
+          "description": "As Finland, defeat the Soviet Union without joining a faction."
+        },
+        "schinese": {
+          "name": "芬兰终结技！",
+          "description": "以芬兰在不加入阵营的情况下击败苏联。"
+        }
+      }
+    },
+    "lousy_achievement": {
+      "translations": {
+        "english": {
+          "name": "I Captured the Bosporus and All I Got Was This Lousy Achievement",
+          "description": "As Greece or Bulgaria, own both sides of the Bosporus. As Turkey, subjugate both Greece & Bulgaria."
+        },
+        "schinese": {
+          "name": "我夺下了博斯普鲁斯，结果只得到这个烂成就",
+          "description": "以希腊或保加利亚拥有博斯普鲁斯两岸。以土耳其则需征服希腊和保加利亚。"
+        }
+      }
+    },
+    "istanbul_is_constantinople_again": {
+      "translations": {
+        "english": {
+          "name": "Istanbul is Constantinople. Again.",
+          "description": "As Greece, capture Istanbul and rename it to Constantinople."
+        },
+        "schinese": {
+          "name": "伊斯坦布尔又成君士坦丁堡了",
+          "description": "以希腊夺取伊斯坦布尔，并将其改名为君士坦丁堡。"
+        }
+      }
+    },
+    "peters_pride": {
+      "translations": {
+        "english": {
+          "name": "Peter’s Pride",
+          "description": "As Peter II of Yugoslavia, overthrow your uncle and become King."
+        },
+        "schinese": {
+          "name": "彼得的骄傲",
+          "description": "以南斯拉夫的彼得二世推翻你的叔父并成为国王。"
+        }
+      }
+    },
+    "this_is_madness": {
+      "translations": {
+        "english": {
+          "name": "This is Madness!",
+          "description": "As Greece, fulfill the Megali Idea and then form Greater Greece. "
+        },
+        "schinese": {
+          "name": "这太疯狂了！",
+          "description": "以希腊实现“伟大理想”，随后成立大希腊。"
+        }
+      }
+    },
+    "nobodys_business_but_the_turks": {
+      "translations": {
+        "english": {
+          "name": "Nobody’s Business but the Turks",
+          "description": "Restore the Ottoman Sultanate."
+        },
+        "schinese": {
+          "name": "土耳其人的事，外人别管",
+          "description": "复辟奥斯曼苏丹国。"
+        }
+      }
+    },
+    "kurdish_achievement": {
+      "translations": {
+        "english": {
+          "name": "House of Kurds",
+          "description": "As Kurdistan, hold all of your cores."
+        },
+        "schinese": {
+          "name": "库尔德之家",
+          "description": "以库尔德斯坦持有所有核心领土。"
+        }
+      }
+    },
+    "greek_civility": {
+      "translations": {
+        "english": {
+          "name": "Hellenic Civility",
+          "description": "Win the Greek Civil War before 1937."
+        },
+        "schinese": {
+          "name": "希腊式文明",
+          "description": "在 1937 年前赢得希腊内战。"
+        }
+      }
+    },
+    "hoofin_it": {
+      "translations": {
+        "english": {
+          "name": "Hoofin’ It",
+          "description": "Unite Arabia with thirty camelry divisions."
+        },
+        "schinese": {
+          "name": "蹄声隆隆",
+          "description": "用 30 个骆驼骑兵师统一阿拉伯。"
+        }
+      }
+    },
+    "were_putting_the_band_back_together": {
+      "translations": {
+        "english": {
+          "name": "We’re Putting the Band Back Together",
+          "description": "As Turkey, be in a faction with Germany and Austria-Hungary."
+        },
+        "schinese": {
+          "name": "我们要把乐队重新组起来",
+          "description": "以土耳其与德国和奥匈帝国同处一个阵营。"
+        }
+      }
+    },
+    "draculas_revenge": {
+      "translations": {
+        "english": {
+          "name": "Dracula’s Revenge",
+          "description": "As Yugoslavia, establish the autonomous region of Transylvania and have it own all Romanian cores."
+        },
+        "schinese": {
+          "name": "德古拉的复仇",
+          "description": "以南斯拉夫建立特兰西瓦尼亚自治区，并让其拥有所有罗马尼亚核心领土。"
+        }
+      }
+    },
+    "prussia_of_the_balkans": {
+      "translations": {
+        "english": {
+          "name": "Prussia of the Balkans",
+          "description": "As Bulgaria capitulate Turkey while also controlling the rest of the Balkans, including Greece."
+        },
+        "schinese": {
+          "name": "巴尔干的普鲁士",
+          "description": "以保加利亚迫使土耳其投降，同时控制包括希腊在内的巴尔干其余地区。"
+        }
+      }
+    },
+    "balkan_problem_solved": {
+      "translations": {
+        "english": {
+          "name": "Balkan Problem Solved",
+          "description": "As Communist Bulgaria, form the United Balkan Federation and own all Balkan states as cores."
+        },
+        "schinese": {
+          "name": "巴尔干问题已解决",
+          "description": "以共产主义保加利亚成立巴尔干联合联邦，并将所有巴尔干地区作为核心拥有。"
+        }
+      }
+    },
+    "bad_romeance": {
+      "translations": {
+        "english": {
+          "name": "Bad Romeance",
+          "description": "Restore Byzantium and have Italy, Romania, and Russia as subjects."
+        },
+        "schinese": {
+          "name": "坏罗曼史",
+          "description": "复辟拜占庭，并让意大利、罗马尼亚和俄罗斯成为附属国。"
+        }
+      }
+    },
+    "totally_not_cool_bromania": {
+      "translations": {
+        "english": {
+          "name": "Totally Not Cool, Bromania",
+          "description": "As Romania, change sides in the war and capitulate a former ally."
+        },
+        "schinese": {
+          "name": "兄弟罗马尼亚，这可不酷",
+          "description": "以罗马尼亚在战争中倒戈，并迫使前盟友投降。"
+        }
+      }
+    },
+    "freedom_or_death": {
+      "translations": {
+        "english": {
+          "name": "Freedom or Death",
+          "description": "As Greece, liberate Albania while being at war with Italy."
+        },
+        "schinese": {
+          "name": "自由或死亡",
+          "description": "以希腊在与意大利交战时解放阿尔巴尼亚。"
+        }
+      }
+    },
+    "now_this_is_getting_childish": {
+      "translations": {
+        "english": {
+          "name": "Now This is Getting Childish",
+          "description": "As Yugoslavia or Bulgaria, be at war while both countries are ruled by a child."
+        },
+        "schinese": {
+          "name": "现在真的孩子气了",
+          "description": "以南斯拉夫或保加利亚，在两国都由儿童统治时处于交战状态。"
+        }
+      }
+    },
+    "hardly_anything_sevres": {
+      "translations": {
+        "english": {
+          "name": "Hardly Anything Sèvres",
+          "description": "As the Ottoman Empire, hold the capitals of France, the United Kingdom, Italy, and Japan."
+        },
+        "schinese": {
+          "name": "塞夫尔条约算什么",
+          "description": "以奥斯曼帝国掌握法国、英国、意大利和日本的首都。"
+        }
+      }
+    },
+    "one_nation_under_ataturk_indivisible": {
+      "translations": {
+        "english": {
+          "name": "One Nation Under Atatürk, Indivisible",
+          "description": "As non-aligned Turkey, have zero negative state modifiers."
+        },
+        "schinese": {
+          "name": "在阿塔图尔克之下不可分割的一国",
+          "description": "以中立土耳其拥有 0 个负面地区修正。"
+        }
+      }
+    },
+    "master_puppeteer": {
+      "translations": {
+        "english": {
+          "name": "Master Puppeteer",
+          "description": "As Bulgaria, complete the focus The Fate of the Balkans while having 5 or more Balkan puppets."
+        },
+        "schinese": {
+          "name": "傀儡大师",
+          "description": "以保加利亚完成“巴尔干的命运”国策，并拥有 5 个或更多巴尔干傀儡国。"
+        }
+      }
+    },
+    "at_least_they_run_on_time": {
+      "translations": {
+        "english": {
+          "name": "At least they run on time!",
+          "description": "As fascist Italy, have max level railways in all your core states"
+        },
+        "schinese": {
+          "name": "至少火车准点了！",
+          "description": "以法西斯意大利在所有核心地区拥有最高等级铁路。"
+        }
+      }
+    },
+    "not_much_fun_in_stalingrad": {
+      "translations": {
+        "english": {
+          "name": "Not much fun in Stalingrad",
+          "description": "As Germany, capitulate the Soviet Union without taking Stalingrad."
+        },
+        "schinese": {
+          "name": "斯大林格勒没什么好玩的",
+          "description": "以德国在不夺取斯大林格勒的情况下迫使苏联投降。"
+        }
+      }
+    },
+    "no_more_partitions": {
+      "translations": {
+        "english": {
+          "name": "No more Partitions",
+          "description": "As Poland, be independent and ensure that both Germany and the USSR are either in your faction or don’t exist."
+        },
+        "schinese": {
+          "name": "不再被瓜分",
+          "description": "以波兰保持独立，并确保德国和苏联都在你的阵营中，或已经不存在。"
+        }
+      }
+    },
+    "habsburgs_habsburgs_everywhere": {
+      "translations": {
+        "english": {
+          "name": "Habsburgs. Habsburgs everywhere",
+          "description": "As Poland, install a Habsburg monarch and be in a faction with another Habsburg monarch."
+        },
+        "schinese": {
+          "name": "哈布斯堡，到处都是哈布斯堡",
+          "description": "以波兰拥立一位哈布斯堡君主，并与另一位哈布斯堡君主同处一个阵营。"
+        }
+      }
+    },
+    "the_pope_how_many_divisions_does_he_have": {
+      "translations": {
+        "english": {
+          "name": "The Pope? How many Divisions does he have?",
+          "description": "As the USSR take Rome."
+        },
+        "schinese": {
+          "name": "教宗？他有几个师？",
+          "description": "以苏联夺取罗马。"
+        }
+      }
+    },
+    "this_is_going_to_be_lit": {
+      "translations": {
+        "english": {
+          "name": "This is going to be LIT",
+          "description": "As Lithuania, hold the capitals of all of your neighbours."
+        },
+        "schinese": {
+          "name": "立陶宛要亮了",
+          "description": "以立陶宛掌握所有邻国的首都。"
+        }
+      }
+    },
+    "it_has_my_name_on_it": {
+      "translations": {
+        "english": {
+          "name": "It has my name on it",
+          "description": "As any Baltic State, conquer the entire shoreline of the Baltic Sea."
+        },
+        "schinese": {
+          "name": "上面写着我的名字",
+          "description": "以任一波罗的海国家征服整个波罗的海海岸线。"
+        }
+      }
+    },
+    "this_achievement_is_cheesy": {
+      "translations": {
+        "english": {
+          "name": "This Achievement is Cheesy",
+          "description": "As Latvia, form Ostland and occupy Vasterbotten."
+        },
+        "schinese": {
+          "name": "这个成就很奶酪",
+          "description": "以拉脱维亚成立东方领，并占领西博滕。"
+        }
+      }
+    },
+    "esti_is_scandi": {
+      "translations": {
+        "english": {
+          "name": "Esti is Scandi",
+          "description": "As Estonia Secure Scandinavia."
+        },
+        "schinese": {
+          "name": "爱沙也算北欧",
+          "description": "以爱沙尼亚控制斯堪的纳维亚。"
+        }
+      }
+    },
+    "not_a_step_back": {
+      "translations": {
+        "english": {
+          "name": "Not a step back!",
+          "description": "As the Soviet Union never lose 1 core territory to anyone before 1945."
+        },
+        "schinese": {
+          "name": "一步也不后退！",
+          "description": "以苏联在 1945 年前从未失去任何核心领土。"
+        }
+      }
+    },
+    "one_step_forward": {
+      "translations": {
+        "english": {
+          "name": "One Step Forward",
+          "description": "As Soviet Union declare a war on Poland and Germany before Germany attacks Poland."
+        },
+        "schinese": {
+          "name": "向前一步",
+          "description": "以苏联在德国进攻波兰前向波兰和德国宣战。"
+        }
+      }
+    },
+    "the_soviet_onion": {
+      "translations": {
+        "english": {
+          "name": "The Soviet Onion",
+          "description": "As the Soviet Union, have only puppets as neighbors."
+        },
+        "schinese": {
+          "name": "苏维埃洋葱",
+          "description": "以苏联让所有邻国都成为傀儡国。"
+        }
+      }
+    },
+    "crusader_kings_3": {
+      "translations": {
+        "english": {
+          "name": "Crusader Kings III",
+          "description": "As Poland, crown a King (or Queen) and capture Jerusalem."
+        },
+        "schinese": {
+          "name": "十字军之王 III",
+          "description": "以波兰加冕国王或女王，并夺取耶路撒冷。"
+        }
+      }
+    },
+    "the_romanovs_laugh_last": {
+      "translations": {
+        "english": {
+          "name": "The Romanovs laugh last",
+          "description": "Restore the Romanovs to the throne and conquer Germany, Hungary, Austria, Czechoslovakia,Turkey, and Bulgaria."
+        },
+        "schinese": {
+          "name": "罗曼诺夫笑到最后",
+          "description": "复辟罗曼诺夫王朝，并征服德国、匈牙利、奥地利、捷克斯洛伐克、土耳其和保加利亚。"
+        }
+      }
+    },
+    "we_dont_really_like_statistics": {
+      "translations": {
+        "english": {
+          "name": "We don’t really like statistics",
+          "description": "As the Soviet Union under Stalin, conquer Germany while suffering less than 1 million casualties total."
+        },
+        "schinese": {
+          "name": "我们真的不喜欢统计数字",
+          "description": "以斯大林领导下的苏联征服德国，且总伤亡少于 100 万。"
+        }
+      }
+    },
+    "race_for_germany": {
+      "translations": {
+        "english": {
+          "name": "Race for Germany",
+          "description": "As the Soviet union, capitulate Germany after the fall of France before the allies control one German core state."
+        },
+        "schinese": {
+          "name": "奔向德国",
+          "description": "以苏联在法国沦陷后、同盟国控制任何德国核心地区前，迫使德国投降。"
+        }
+      }
+    },
+    "siberian_tiger": {
+      "translations": {
+        "english": {
+          "name": "Siberian Tiger",
+          "description": "As Tannu Tuva, form Siberia."
+        },
+        "schinese": {
+          "name": "西伯利亚虎",
+          "description": "以唐努图瓦成立西伯利亚。"
+        }
+      }
+    },
+    "just_proper_gander": {
+      "translations": {
+        "english": {
+          "name": "Just proper gander",
+          "description": "As the Soviet Union, activate 30 propaganda campaigns before 1945."
+        },
+        "schinese": {
+          "name": "正当宣传",
+          "description": "以苏联在 1945 年前发动 30 次宣传运动。"
+        }
+      }
+    },
+    "around_eurasia_in_80_days": {
+      "translations": {
+        "english": {
+          "name": "Around Eurasia in 80 days",
+          "description": "Make a railroad from Gibraltar to Singapore."
+        },
+        "schinese": {
+          "name": "80 天环游欧亚",
+          "description": "修建一条从直布罗陀到新加坡的铁路。"
+        }
+      }
+    },
+    "poland_peasant_revolution": {
+      "translations": {
+        "english": {
+          "name": "Poland Peasant Revolution",
+          "description": "As Poland, have the Peasant’s Strike overthrow the government."
+        },
+        "schinese": {
+          "name": "波兰农民革命",
+          "description": "以波兰让农民罢工推翻政府。"
+        }
+      }
+    },
+    "and_you_get_a_canton": {
+      "translations": {
+        "english": {
+          "name": "...and you get a canton, everybody gets a canton!",
+          "description": "As Switzerland, have 24 states"
+        },
+        "schinese": {
+          "name": "你也有一个州，人人都有州！",
+          "description": "以瑞士拥有 24 个地区。"
+        }
+      }
+    },
+    "im_not_locked_in_here_with_you": {
+      "translations": {
+        "english": {
+          "name": "I’m not locked in here with you…",
+          "description": "As Switzerland, declare war on Germany and win."
+        },
+        "schinese": {
+          "name": "不是我和你们困在这里……",
+          "description": "以瑞士向德国宣战并获胜。"
+        }
+      }
+    },
+    "swiss_cheese": {
+      "translations": {
+        "english": {
+          "name": "Swiss Cheese",
+          "description": "As Switzerland annex 5 states that are not contiguous with each other or Switzerland."
+        },
+        "schinese": {
+          "name": "瑞士奶酪",
+          "description": "以瑞士吞并 5 个彼此之间以及与瑞士都不相连的地区。"
+        }
+      }
+    },
+    "you_shall_not_pass": {
+      "translations": {
+        "english": {
+          "name": "You Shall Not Pass",
+          "description": "As Switzerland win a defensive war without ever losing Western Swiss Alps, Eastern Swiss Alps or Ticino"
+        },
+        "schinese": {
+          "name": "你不得通过",
+          "description": "以瑞士赢得一场防御战争，期间从未失去西瑞士阿尔卑斯、东瑞士阿尔卑斯或提契诺。"
+        }
+      }
+    },
+    "the_lion_that_roared": {
+      "translations": {
+        "english": {
+          "name": "The Lion that Roared",
+          "description": "As Ethiopia, without being in a faction, force the Italians to make peace. Again."
+        },
+        "schinese": {
+          "name": "咆哮的雄狮",
+          "description": "以埃塞俄比亚在不加入阵营的情况下迫使意大利再次求和。"
+        }
+      }
+    },
+    "the_lion_king": {
+      "translations": {
+        "english": {
+          "name": "The Lion King",
+          "description": "As Haile Selassie, declare yourself “King of Kings” and control Kenya and Tanzania."
+        },
+        "schinese": {
+          "name": "狮子王",
+          "description": "以海尔·塞拉西自封“万王之王”，并控制肯尼亚和坦桑尼亚。"
+        }
+      }
+    },
+    "this_time_for_africa": {
+      "translations": {
+        "english": {
+          "name": "This time for Africa",
+          "description": "As Ethiopia, found the African Union and have it encompass at least 13 different countries with capitals in Africa."
+        },
+        "schinese": {
+          "name": "这一次为了非洲",
+          "description": "以埃塞俄比亚建立非洲联盟，并使其包含至少 13 个首都位于非洲的国家。"
+        }
+      }
+    },
+    "crusader_kings_4": {
+      "translations": {
+        "english": {
+          "name": "Crusader Kings IV",
+          "description": "Take Jerusalem as Ethiopia and move the capital there"
+        },
+        "schinese": {
+          "name": "十字军之王 IV",
+          "description": "以埃塞俄比亚夺取耶路撒冷，并将首都迁往那里。"
+        }
+      }
+    },
+    "the_red_sea": {
+      "translations": {
+        "english": {
+          "name": "The Red Sea",
+          "description": "As Ethiopia, go communist and take all the states that border the Red Sea"
+        },
+        "schinese": {
+          "name": "红海",
+          "description": "以埃塞俄比亚转为共产主义，并夺取所有毗邻红海的地区。"
+        }
+      }
+    },
+    "holy_roman_and_an_empire": {
+      "translations": {
+        "english": {
+          "name": "Holy, Roman, and an Empire",
+          "description": "As the Pope, restore Rome."
+        },
+        "schinese": {
+          "name": "神圣、罗马，也是帝国",
+          "description": "以教宗复兴罗马。"
+        }
+      }
+    },
+    "pizza_time": {
+      "translations": {
+        "english": {
+          "name": "Pizza Time!",
+          "description": "As Italy, occupy New York, Chicago and Hawaii"
+        },
+        "schinese": {
+          "name": "披萨时间！",
+          "description": "以意大利占领纽约、芝加哥和夏威夷。"
+        }
+      }
+    },
+    "collect_all_the_romes": {
+      "translations": {
+        "english": {
+          "name": "Collect all the Romes",
+          "description": "As Italy, continue holding onto the First Rome, and gain the second and third Rome"
+        },
+        "schinese": {
+          "name": "集齐所有罗马",
+          "description": "以意大利继续持有第一罗马，并获得第二和第三罗马。"
+        }
+      }
+    },
+    "nothing_personal_adolf": {
+      "translations": {
+        "english": {
+          "name": "Nothing personal, Adolf",
+          "description": "As Italy, take Austria before the Anschluss and never enter a faction with a fascist Germany"
+        },
+        "schinese": {
+          "name": "无意冒犯，阿道夫",
+          "description": "以意大利在德奥合并前夺取奥地利，并且从未与法西斯德国同处一个阵营。"
+        }
+      }
+    },
+    "not_today": {
+      "translations": {
+        "english": {
+          "name": "Not today",
+          "description": "As communist Italy, save Gramsci from the brink of death, make him the leader of Italy and form the Italian National Union."
+        },
+        "schinese": {
+          "name": "今天不行",
+          "description": "以共产主义意大利将葛兰西从死亡边缘救回，让他成为意大利领袖并成立意大利民族联盟。"
+        }
+      }
+    },
+    "this_time_it_will_stick": {
+      "translations": {
+        "english": {
+          "name": "This time it will stick",
+          "description": "As any Allied Nation (in faction with a democratic Britain), enforce a peacedeal on Germany that disarms the Rhineland and makes it a demilitarized zone."
+        },
+        "schinese": {
+          "name": "这次一定能成",
+          "description": "以任一同盟国成员，在与民主英国同阵营时，对德国强制执行和平协议，解除莱茵兰武装并将其设为非军事区。"
+        }
+      }
+    },
+    "by_beer_alone": {
+      "translations": {
+        "english": {
+          "name": "By Beer Alone",
+          "description": "As Germany, control Budweis, Tsingtao, and Guinness directly or through a faction member"
+        },
+        "schinese": {
+          "name": "唯有啤酒",
+          "description": "以德国直接或通过阵营成员控制百威、青岛和吉尼斯。"
+        }
+      }
+    },
+    "by_merit_alone": {
+      "translations": {
+        "english": {
+          "name": "By merit alone",
+          "description": "Promote a Unit Commander to a general, and reach max level"
+        },
+        "schinese": {
+          "name": "唯才是举",
+          "description": "将一名部队指挥官晋升为将军，并达到最高等级。"
+        }
+      }
+    },
+    "snakes_on_a_plane": {
+      "translations": {
+        "english": {
+          "name": "Snakes on a plane",
+          "description": "As Brazil, capture Rome with paratroopers."
+        },
+        "schinese": {
+          "name": "飞机上的蛇",
+          "description": "以巴西用伞兵夺取罗马。"
+        }
+      }
+    },
+    "stalin_how_many_guns_does_he_have": {
+      "translations": {
+        "english": {
+          "name": "Stalin, how many guns does he have? ",
+          "description": "As the pope, capitulate the USSR"
+        },
+        "schinese": {
+          "name": "斯大林，他有多少枪？",
+          "description": "以教宗迫使苏联投降。"
+        }
+      }
+    },
+    "sapmi_united_by_the_fire": {
+      "translations": {
+        "english": {
+          "name": "Sapmi united by the fire",
+          "description": "As Sami, own and control every Sami core."
+        },
+        "schinese": {
+          "name": "萨米因火而联合",
+          "description": "以萨米拥有并控制每一处萨米核心领土。"
+        }
+      }
+    },
+    "norway_jose": {
+      "translations": {
+        "english": {
+          "name": "Norway Jose",
+          "description": "As Norway, own and control every Mexican core."
+        },
+        "schinese": {
+          "name": "挪威何塞",
+          "description": "以挪威拥有并控制每一处墨西哥核心领土。"
+        }
+      }
+    },
+    "pinot_noirway": {
+      "translations": {
+        "english": {
+          "name": "Pinot Noirway",
+          "description": "As Norway, own and control the state of Bourgogne."
+        },
+        "schinese": {
+          "name": "挪威黑皮诺",
+          "description": "以挪威拥有并控制勃艮第地区。"
+        }
+      }
+    },
+    "cheese_your_fighter": {
+      "translations": {
+        "english": {
+          "name": "Cheese your fighter.",
+          "description": "As Norway, with Peder Jarlsberg as country leader, own Telemark, Glouchestershire, Normandy, Lombardia and Holland."
+        },
+        "schinese": {
+          "name": "给你的战士加点奶酪",
+          "description": "以佩德尔·雅尔斯贝格为国家领袖的挪威，拥有泰勒马克、格洛斯特郡、诺曼底、伦巴第和荷兰。"
+        }
+      }
+    },
+    "med_plutonium_2": {
+      "translations": {
+        "english": {
+          "name": "Med plutonium 2.",
+          "description": "As Denmark nuke Sweden."
+        },
+        "schinese": {
+          "name": "来点钚 2",
+          "description": "以丹麦向瑞典投放核弹。"
+        }
+      }
+    },
+    "everything_is_awesome": {
+      "translations": {
+        "english": {
+          "name": "Everything is awesome.",
+          "description": "As Denmark, get Maximum Welfare Spending after January 1st 1941 without being puppeted or capitulating."
+        },
+        "schinese": {
+          "name": "一切都很棒",
+          "description": "以丹麦在 1941 年 1 月 1 日后达到最高福利支出，且没有成为傀儡或投降。"
+        }
+      }
+    },
+    "the_danelaw": {
+      "translations": {
+        "english": {
+          "name": "The Danelaw",
+          "description": "As Denmark, conquer England."
+        },
+        "schinese": {
+          "name": "丹麦法区",
+          "description": "以丹麦征服英格兰。"
+        }
+      }
+    },
+    "vinland": {
+      "translations": {
+        "english": {
+          "name": "Vinland",
+          "description": "As Iceland, conquer Newfoundland"
+        },
+        "schinese": {
+          "name": "文兰",
+          "description": "以冰岛征服纽芬兰。"
+        }
+      }
+    },
+    "brexit": {
+      "translations": {
+        "english": {
+          "name": "Brexit",
+          "description": "As communist Iceland, make Wales, Scotland and Northern Ireland rise up against the United Kingdom"
+        },
+        "schinese": {
+          "name": "脱英",
+          "description": "以共产主义冰岛让威尔士、苏格兰和北爱尔兰起义反抗英国。"
+        }
+      }
+    },
+    "two_arms_against_tyranny": {
+      "translations": {
+        "english": {
+          "name": "Two Arms Against Tyranny.",
+          "description": "As Finland, capitulate the Soviet Union while having a 2 country faction with another Nordic"
+        },
+        "schinese": {
+          "name": "双臂反暴政",
+          "description": "以芬兰在只含两个国家、且另一个为北欧国家的阵营中迫使苏联投降。"
+        }
+      }
+    },
+    "uralic_brothers_united": {
+      "translations": {
+        "english": {
+          "name": "Uralic brothers united",
+          "description": "As Finland, have Hungary, Estonia, Sapmi, Karelia, Mari El, Udmurtia, Komi, Ostyak-Vogulia, Yamalia and Nenetsia as subjects"
+        },
+        "schinese": {
+          "name": "乌拉尔兄弟联合",
+          "description": "以芬兰让匈牙利、爱沙尼亚、萨米、卡累利阿、马里埃尔、乌德穆尔特、科米、奥斯蒂亚克-沃古尔、亚马利亚和涅涅茨成为附属国。"
+        }
+      }
+    },
+    "lone_wolf": {
+      "translations": {
+        "english": {
+          "name": "Lone Wolf",
+          "description": "As Finland, form Greater Finland and own every core and claim without having ever joined a faction"
+        },
+        "schinese": {
+          "name": "孤狼",
+          "description": "以芬兰成立大芬兰，拥有所有核心和宣称，且从未加入任何阵营。"
+        }
+      }
+    },
+    "no_one_crosses_the_finnish_line": {
+      "translations": {
+        "english": {
+          "name": "No one crosses the finnish line",
+          "description": "As non-aligned Finland, survive the Soviet Union until September 19th 1944 without losing control of a single core ever."
+        },
+        "schinese": {
+          "name": "没人能越过芬兰防线",
+          "description": "以中立芬兰坚持到 1944 年 9 月 19 日，并且从未失去任何核心领土控制。"
+        }
+      }
+    },
+    "danzig_queen": {
+      "translations": {
+        "english": {
+          "name": "Danzig queen",
+          "description": "As Sweden, own and control Danzig"
+        },
+        "schinese": {
+          "name": "但泽女王",
+          "description": "以瑞典拥有并控制但泽。"
+        }
+      }
+    },
+    "caramelldansen": {
+      "translations": {
+        "english": {
+          "name": "Caramelldansen",
+          "description": "As Sweden puppet Japan"
+        },
+        "schinese": {
+          "name": "焦糖舞",
+          "description": "以瑞典傀儡日本。"
+        }
+      }
+    },
+    "the_return_of_the_king": {
+      "translations": {
+        "english": {
+          "name": "The return of the king",
+          "description": "As the exiled King of Gotland, retake mainland Sweden"
+        },
+        "schinese": {
+          "name": "国王归来",
+          "description": "以流亡的哥特兰国王夺回瑞典本土。"
+        }
+      }
+    },
+    "satisfactory": {
+      "translations": {
+        "english": {
+          "name": "Satisfactory",
+          "description": "Have at least one MIO per category at level 10+"
+        },
+        "schinese": {
+          "name": "令人满意",
+          "description": "每个军工组织类别至少拥有一个 10 级以上军工组织。"
+        }
+      }
+    },
+    "cod_wars": {
+      "translations": {
+        "english": {
+          "name": "Cod wars",
+          "description": "As Iceland capitulate the UK"
+        },
+        "schinese": {
+          "name": "鳕鱼战争",
+          "description": "以冰岛迫使英国投降。"
+        }
+      }
+    },
+    "the_magic_school_bus": {
+      "translations": {
+        "english": {
+          "name": "The Magic School Bus",
+          "description": "With the Per Albin Bus, drive to Cape Town."
+        },
+        "schinese": {
+          "name": "神奇校车",
+          "description": "驾驶佩尔·阿尔宾巴士前往开普敦。"
+        }
+      }
+    },
+    "rumble_in_the_jungle": {
+      "translations": {
+        "english": {
+          "name": "Rumble in the Jungle",
+          "description": "Own all amazon states as any South American nation."
+        },
+        "schinese": {
+          "name": "丛林大战",
+          "description": "以任一南美国家拥有所有亚马孙地区。"
+        }
+      }
+    },
+    "and_the_snake_smoked": {
+      "translations": {
+        "english": {
+          "name": "And the snake smoked",
+          "description": "As Brazil, in the allies, capitulate Germany while controlling Berlin."
+        },
+        "schinese": {
+          "name": "蛇也抽烟了",
+          "description": "以加入同盟国的巴西，在控制柏林时迫使德国投降。"
+        }
+      }
+    },
+    "red_hot_chile_peppers": {
+      "translations": {
+        "english": {
+          "name": "Red Hot Chile Peppers",
+          "description": "As Communist Chile, control California"
+        },
+        "schinese": {
+          "name": "红热智利辣椒",
+          "description": "以共产主义智利控制加利福尼亚。"
+        }
+      }
+    },
+    "bad_ending_the_whole_world_is_now_brazil": {
+      "translations": {
+        "english": {
+          "name": "Bad Ending - The whole world is now Brazil",
+          "description": "Control every state in the world"
+        },
+        "schinese": {
+          "name": "坏结局：全世界都是巴西",
+          "description": "控制世界上的每一个地区。"
+        }
+      }
+    },
+    "land_of_fire": {
+      "translations": {
+        "english": {
+          "name": "A Land of Fire",
+          "description": "Tierra del Fuego means \"The Land of Fire\""
+        },
+        "schinese": {
+          "name": "火地",
+          "description": "火地岛的意思就是“火之地”。"
+        }
+      }
+    },
+    "im_home": {
+      "translations": {
+        "english": {
+          "name": "I'm Home!",
+          "description": "As Brazil occupy every core of Portugal"
+        },
+        "schinese": {
+          "name": "我回家了！",
+          "description": "以巴西占领葡萄牙的每一处核心领土。"
+        }
+      }
+    },
+    "proactive_defense": {
+      "translations": {
+        "english": {
+          "name": "Proactive Defense",
+          "description": "As any communist South or Central American country, occupy Washington D.C"
+        },
+        "schinese": {
+          "name": "主动防御",
+          "description": "以任一共产主义南美或中美国家占领华盛顿特区。"
+        }
+      }
+    },
+    "the_merry_band": {
+      "translations": {
+        "english": {
+          "name": "The Merry Band",
+          "description": "As communist brazil ruled by Lampião, occupy Nottingham"
+        },
+        "schinese": {
+          "name": "快乐帮",
+          "description": "以兰皮昂统治的共产主义巴西占领诺丁汉。"
+        }
+      }
+    },
+    "somehow_he_has_returned": {
+      "translations": {
+        "english": {
+          "name": "Somehow He Has Returned",
+          "description": "As Argentina, have Senor Hitler become country leader"
+        },
+        "schinese": {
+          "name": "不知怎的，他又回来了",
+          "description": "以阿根廷让希特勒先生成为国家领袖。"
+        }
+      }
+    },
+    "ursal": {
+      "translations": {
+        "english": {
+          "name": "URSAL",
+          "description": "Be communist and own all of South America"
+        },
+        "schinese": {
+          "name": "URSAL",
+          "description": "成为共产主义国家，并拥有整个南美洲。"
+        }
+      }
+    },
+    "islas_malvinas": {
+      "translations": {
+        "english": {
+          "name": "Islas Malvinas",
+          "description": "As Argentina, hold the Falkland islands and South Georgia for 73 days consecutively"
+        },
+        "schinese": {
+          "name": "马尔维纳斯群岛",
+          "description": "以阿根廷连续 73 天持有福克兰群岛和南乔治亚岛。"
+        }
+      }
+    },
+    "lamento_boliviano": {
+      "translations": {
+        "english": {
+          "name": "Lamento Boliviano",
+          "description": "As Argentina, own all of Latin America except Bolivia"
+        },
+        "schinese": {
+          "name": "玻利维亚哀歌",
+          "description": "以阿根廷拥有除玻利维亚外的整个拉丁美洲。"
+        }
+      }
+    },
+    "revenge_for_the_triple_alliance": {
+      "translations": {
+        "english": {
+          "name": "Revenge for the triple alliance",
+          "description": "As Paraguay, declare war on Argentina, Brazil and Uruguay within the same month"
+        },
+        "schinese": {
+          "name": "三国同盟复仇记",
+          "description": "以巴拉圭在同一个月内向阿根廷、巴西和乌拉圭宣战。"
+        }
+      }
+    },
+    "the_dragon_rises": {
+      "translations": {
+        "english": {
+          "name": "The Dragon Rises",
+          "description": "As \"Welsh Argentina\", control Wales"
+        },
+        "schinese": {
+          "name": "巨龙崛起",
+          "description": "以“威尔士阿根廷”控制威尔士。"
+        }
+      }
+    },
+    "king_of_what": {
+      "translations": {
+        "english": {
+          "name": "King of What?",
+          "description": "Have Jaque Antoine Bernard as King of Chile and control Paris"
+        },
+        "schinese": {
+          "name": "什么国王？",
+          "description": "让雅克·安托万·贝尔纳成为智利国王，并控制巴黎。"
+        }
+      }
+    },
+    "true_condor_legion": {
+      "translations": {
+        "english": {
+          "name": "True Condor Legion",
+          "description": "As CHL, BOL, PRU, ECU, VEN, COL - sent volunteers to Germany"
+        },
+        "schinese": {
+          "name": "真正的秃鹰军团",
+          "description": "以智利、玻利维亚、秘鲁、厄瓜多尔、委内瑞拉或哥伦比亚向德国派遣志愿军。"
+        }
+      }
+    },
+    "chilean_empire": {
+      "translations": {
+        "english": {
+          "name": "Chilean Empire",
+          "description": "Control all mainland states that border the pacific in South America, North America and Asia"
+        },
+        "schinese": {
+          "name": "智利帝国",
+          "description": "控制南美、北美和亚洲所有濒临太平洋的大陆地区。"
+        }
+      }
+    },
+    "reconquistadors": {
+      "translations": {
+        "english": {
+          "name": "Reconquistadors",
+          "description": "As Argentina or Chile, have a Conquistadors national spirit active while holding all Spanish cores"
+        },
+        "schinese": {
+          "name": "再征服者",
+          "description": "以阿根廷或智利在持有所有西班牙核心领土时，拥有“征服者”民族精神。"
+        }
+      }
+    },
+    "hispanics_of_the_world_unite": {
+      "translations": {
+        "english": {
+          "name": "Hispanics of the world unite!",
+          "description": "As Chile, form the Hispanic Alliance and have at least 8 \"Hispanic\" nations in your faction"
+        },
+        "schinese": {
+          "name": "世界西语裔联合起来！",
+          "description": "以智利成立西语联盟，并让至少 8 个“西语裔”国家加入你的阵营。"
+        }
+      }
+    },
+    "cisplatine_war_2": {
+      "translations": {
+        "english": {
+          "name": "Cisplatine War 2, Electric Boogaloo",
+          "description": "As either Brazil or Argentina, be in a faction with Uruguay while at war with Brazil/Argentina"
+        },
+        "schinese": {
+          "name": "顺铂战争 2：电光回旋",
+          "description": "以巴西或阿根廷与乌拉圭同阵营，同时与巴西或阿根廷交战。"
+        }
+      }
+    },
+    "america_decolonized": {
+      "translations": {
+        "english": {
+          "name": "America Decolonized!",
+          "description": "As Mapuche Chile liberate all native people in North and South America"
+        },
+        "schinese": {
+          "name": "美洲去殖民化！",
+          "description": "以马普切智利解放北美和南美的所有原住民。"
+        }
+      }
+    },
+    "antischluss": {
+      "translations": {
+        "english": {
+          "name": "Antischluss",
+          "description": "As Austria, control all German starting states."
+        },
+        "schinese": {
+          "name": "反合并",
+          "description": "以奥地利控制德国的所有初始地区。"
+        }
+      }
+    },
+    "no_friends_only_family": {
+      "translations": {
+        "english": {
+          "name": "No Friends, Only Family",
+          "description": "As Austria or Hungary led by a Habsburg Monarch, Control the Swiss Plateau and have at least three other countries be led by a member of the Habsburg family."
+        },
+        "schinese": {
+          "name": "没有朋友，只有家族",
+          "description": "以由哈布斯堡君主领导的奥地利或匈牙利，控制瑞士高原，并让至少三个其他国家由哈布斯堡家族成员领导。"
+        }
+      }
+    },
+    "edelweiss_seedelweiss": {
+      "translations": {
+        "english": {
+          "name": "Edelweiss Seedelweiss",
+          "description": "As Austria have a coastline, at least 10 Battleships and have Georg von Trapp as an Admiral"
+        },
+        "schinese": {
+          "name": "雪绒花，海绒花",
+          "description": "以奥地利拥有海岸线、至少 10 艘战列舰，并让格奥尔格·冯·特拉普担任海军上将。"
+        }
+      }
+    },
+    "otto-man": {
+      "translations": {
+        "english": {
+          "name": "Otto-man",
+          "description": "As Austria or Hungary, led by Otto von Habsburg, control the starting states of Austria, Hungary, Czechoslovakia, Romania, Bulgaria, Greece and Turkey as well as the states in Polish Galicia, Slovenia and Croatia."
+        },
+        "schinese": {
+          "name": "奥托曼",
+          "description": "以奥托·冯·哈布斯堡领导的奥地利或匈牙利，控制奥地利、匈牙利、捷克斯洛伐克、罗马尼亚、保加利亚、希腊和土耳其的初始地区，以及波兰加利西亚、斯洛文尼亚和克罗地亚地区。"
+        }
+      }
+    },
+    "spaak_of_genius": {
+      "translations": {
+        "english": {
+          "name": "Spaak of Genius",
+          "description": "As Belgium, with Paul-Henri Spaak as country leader, research at least 10 different Special Projects."
+        },
+        "schinese": {
+          "name": "斯帕克天才",
+          "description": "以比利时在保罗-亨利·斯帕克担任国家领袖时，研究至少 10 个不同特别项目。"
+        }
+      }
+    },
+    "brentry": {
+      "translations": {
+        "english": {
+          "name": "Brentry",
+          "description": "As Austria, Belgium or the Netherlands be the leader of the EU and have the United Kingdom join your faction."
+        },
+        "schinese": {
+          "name": "英入欧",
+          "description": "以奥地利、比利时或荷兰成为欧盟领导者，并让英国加入你的阵营。"
+        }
+      }
+    },
+    "the_501st_legion": {
+      "translations": {
+        "english": {
+          "name": "The 501st Legion",
+          "description": "As Belgium, have the National Spirit “Rexist Legion” and be in control of all of your starting neighbors’ Capitals "
+        },
+        "schinese": {
+          "name": "第 501 军团",
+          "description": "以比利时拥有“雷克斯主义军团”民族精神，并控制所有初始邻国的首都。"
+        }
+      }
+    },
+    "congolese_belgium": {
+      "translations": {
+        "english": {
+          "name": "Congolese Belgium",
+          "description": "As Congo break free from the shackles of your old overlord and take control of all of their starting states."
+        },
+        "schinese": {
+          "name": "刚果比利时",
+          "description": "以刚果挣脱旧宗主国的枷锁，并控制其所有初始地区。"
+        }
+      }
+    },
+    "the_lenin_boys_are_back_in_town": {
+      "translations": {
+        "english": {
+          "name": "The Lenin Boys are Back in Town",
+          "description": "As Communist Hungary bring back the Lenin-fiúk and take control over Leningrad"
+        },
+        "schinese": {
+          "name": "列宁小子回城了",
+          "description": "以共产主义匈牙利召回列宁男孩，并控制列宁格勒。"
+        }
+      }
+    },
+    "a_great_hunger": {
+      "translations": {
+        "english": {
+          "name": "A Great Hunger",
+          "description": "As Hungary proclaim Greater Hungary and control all of your historical state"
+        },
+        "schinese": {
+          "name": "伟大的饥饿",
+          "description": "以匈牙利宣告大匈牙利，并控制所有历史领土。"
+        }
+      }
+    },
+    "weltpolitik": {
+      "translations": {
+        "english": {
+          "name": "Weltpolitik",
+          "description": "As Germany take control of all of your former colonies"
+        },
+        "schinese": {
+          "name": "世界政策",
+          "description": "以德国控制所有旧殖民地。"
+        }
+      }
+    },
+    "naval_arms_race": {
+      "translations": {
+        "english": {
+          "name": "Naval Arms Race",
+          "description": "As Germany led by an Admiral capitulate the United Kingdom."
+        },
+        "schinese": {
+          "name": "海军军备竞赛",
+          "description": "以由海军上将领导的德国迫使英国投降。"
+        }
+      }
+    },
+    "woman_in_a_high_castle": {
+      "translations": {
+        "english": {
+          "name": "Woman in a High Castle",
+          "description": "As Germany with a female leader either annex the USA, including Alaska and Hawaii or have an American puppet that owns all the American starting states, including Alaska and Hawaii."
+        },
+        "schinese": {
+          "name": "高堡奇人之女",
+          "description": "以拥有女性领袖的德国吞并美国，包括阿拉斯加和夏威夷；或拥有一个控制美国全部初始地区、包括阿拉斯加和夏威夷的美国傀儡国。"
+        }
+      }
+    },
+    "american_prometheus": {
+      "translations": {
+        "english": {
+          "name": "American Prometheus",
+          "description": "As the USA have Robert Oppenheimer complete the Manhattan Project."
+        },
+        "schinese": {
+          "name": "美国普罗米修斯",
+          "description": "以美国让罗伯特·奥本海默完成曼哈顿计划。"
+        }
+      }
+    },
+    "tsar_bomba": {
+      "translations": {
+        "english": {
+          "name": "Tsar Bomba",
+          "description": "As Tsarist Russia complete the Special Project for thermonuclear bombs."
+        },
+        "schinese": {
+          "name": "沙皇炸弹",
+          "description": "以沙皇俄国完成热核炸弹特别项目。"
+        }
+      }
+    },
+    "super_heavy_metal": {
+      "translations": {
+        "english": {
+          "name": "Super Heavy Metal",
+          "description": "Complete the Special Projects for Intercontinental Bombers, Land Cruisers, and Super Heavy Battleships."
+        },
+        "schinese": {
+          "name": "超重金属",
+          "description": "完成洲际轰炸机、陆地巡洋舰和超重型战列舰特别项目。"
+        }
+      }
+    },
+    "backfire": {
+      "translations": {
+        "english": {
+          "name": "Backfire",
+          "description": "As the United Kingdom complete the Special Project for Medium Range Ballistic Missiles, have a rocket site, and be at war with Germany"
+        },
+        "schinese": {
+          "name": "回火",
+          "description": "以英国完成中程弹道导弹特别项目，拥有火箭基地，并与德国交战。"
+        }
+      }
+    },
+    "dam_it": {
+      "translations": {
+        "english": {
+          "name": "Dam It!",
+          "description": "Successfully execute a Dam Busting Raid"
+        },
+        "schinese": {
+          "name": "炸坝！",
+          "description": "成功执行一次炸坝突袭。"
+        }
+      }
+    },
+    "bullseye": {
+      "translations": {
+        "english": {
+          "name": "Bullseye",
+          "description": "Successfully launch a raid on a Landmark"
+        },
+        "schinese": {
+          "name": "正中靶心",
+          "description": "成功对地标发动一次突袭。"
+        }
+      }
+    },
+    "the_true_successor": {
+      "translations": {
+        "english": {
+          "name": "The True Successor",
+          "description": "As Luxembourg led by Charles Marx control both Brussels and Trier."
+        },
+        "schinese": {
+          "name": "真正的继承者",
+          "description": "以查尔斯·马克思领导的卢森堡控制布鲁塞尔和特里尔。"
+        }
+      }
+    },
+    "graveyard_of_empires": {
+      "translations": {
+        "english": {
+          "name": "Graveyard of Empires",
+          "description": "As Afghanistan, Iran, Iraq or the Raj, control all of the other three nations' cores"
+        },
+        "schinese": {
+          "name": "帝国坟场",
+          "description": "以阿富汗、伊朗、伊拉克或英属印度控制其余三国的全部核心领土。"
+        }
+      }
+    },
+    "this_achievement_is_dedicated_to_the_brave_soldiers_of": {
+      "translations": {
+        "english": {
+          "name": "This achievement is dedicated to the brave soldiers of... ",
+          "description": "As Afghanistan, capitulate the Soviet Union"
+        },
+        "schinese": {
+          "name": "此成就献给英勇士兵……",
+          "description": "以阿富汗迫使苏联投降。"
+        }
+      }
+    },
+    "i_have_the_high_ground": {
+      "translations": {
+        "english": {
+          "name": "I have the high ground",
+          "description": "As Afghanistan, control all Himalyan states"
+        },
+        "schinese": {
+          "name": "我占据高地",
+          "description": "以阿富汗控制所有喜马拉雅地区。"
+        }
+      }
+    },
+    "pesky_greeks": {
+      "translations": {
+        "english": {
+          "name": "Pesky Greeks",
+          "description": "As Iran, become the owner of all Greek core states "
+        },
+        "schinese": {
+          "name": "烦人的希腊人",
+          "description": "以伊朗拥有所有希腊核心地区。"
+        }
+      }
+    },
+    "the_sands_of_time": {
+      "translations": {
+        "english": {
+          "name": "The Sands of Time",
+          "description": "As Iran, own the entire Middle East"
+        },
+        "schinese": {
+          "name": "时间之沙",
+          "description": "以伊朗拥有整个中东。"
+        }
+      }
+    },
+    "the_legacy_of_cyrus_the_great": {
+      "translations": {
+        "english": {
+          "name": "The Legacy of Cyrus the Great",
+          "description": "As Iran, become the owner of former Achaemenid Empire's states"
+        },
+        "schinese": {
+          "name": "居鲁士大帝的遗产",
+          "description": "以伊朗拥有前阿契美尼德帝国的地区。"
+        }
+      }
+    },
+    "from_tehran_with_love": {
+      "translations": {
+        "english": {
+          "name": "From Tehran with Love",
+          "description": "As Iran, guarantee Poland's independence and ensure it does not capitulate by 1945."
+        },
+        "schinese": {
+          "name": "来自德黑兰的爱",
+          "description": "以伊朗保障波兰独立，并确保其到 1945 年不投降。"
+        }
+      }
+    },
+    "cradle_of_civilization": {
+      "translations": {
+        "english": {
+          "name": "Cradle of Civilization",
+          "description": "As Iraq, build the maximum infrastructure level in all core states and achieve 100% stability"
+        },
+        "schinese": {
+          "name": "文明摇篮",
+          "description": "以伊拉克在所有核心地区建设最高等级基础设施，并达到 100% 稳定度。"
+        }
+      }
+    },
+    "its_just_good_business": {
+      "translations": {
+        "english": {
+          "name": "It's Just Good Business",
+          "description": "As the East India Company, own Suez and Panama"
+        },
+        "schinese": {
+          "name": "这只是好生意",
+          "description": "以东印度公司拥有苏伊士和巴拿马。"
+        }
+      }
+    },
+    "media_mughal": {
+      "translations": {
+        "english": {
+          "name": "Media Mughal",
+          "description": "As the Mughal Empire, complete Agency Upgrade Psychological Warfare, become Spy Master and have at least 8 operatives"
+        },
+        "schinese": {
+          "name": "媒体莫卧儿",
+          "description": "以莫卧儿帝国完成情报机构升级“心理战”，成为间谍主管，并拥有至少 8 名特工。"
+        }
+      }
+    },
+    "oh_how_the_turntables": {
+      "translations": {
+        "english": {
+          "name": "Oh, how the turntables",
+          "description": "As India puppet the UK with Churchill as it's leader"
+        },
+        "schinese": {
+          "name": "风水轮流转",
+          "description": "以印度在丘吉尔担任英国领袖时傀儡英国。"
+        }
+      }
+    },
+    "im_just_passing_by": {
+      "translations": {
+        "english": {
+          "name": "I'm just passing by",
+          "description": "Own a state on each continent while being at peace"
+        },
+        "schinese": {
+          "name": "我只是路过",
+          "description": "在和平状态下，每个大洲都拥有一个地区。"
+        }
+      }
+    },
+    "thats_sikh": {
+      "translations": {
+        "english": {
+          "name": "That's SIkh!",
+          "description": "As Khalistan, control all of the starting Raj states"
+        },
+        "schinese": {
+          "name": "锡克真强！",
+          "description": "以哈利斯坦控制英属印度的所有初始地区。"
+        }
+      }
+    },
+    "oil_sheiks": {
+      "translations": {
+        "english": {
+          "name": "Oil Sheiks",
+          "description": "As Iraq, have 500 oil production"
+        },
+        "schinese": {
+          "name": "石油酋长",
+          "description": "以伊拉克拥有 500 石油产量。"
+        }
+      }
+    },
+    "revenge_for_1925": {
+      "translations": {
+        "english": {
+          "name": "Revenge for 1925",
+          "description": "As Iraq, form the Hashemite Arab Federation and defeat Saudi Arabia"
+        },
+        "schinese": {
+          "name": "1925 年的复仇",
+          "description": "以伊拉克成立哈希姆阿拉伯联邦，并击败沙特阿拉伯。"
+        }
+      }
+    },
+    "avenging_the_sack_of_baghdad": {
+      "translations": {
+        "english": {
+          "name": "Avenging the Sack of Baghdad",
+          "description": "As Iraq, control the capital of Mongolia"
+        },
+        "schinese": {
+          "name": "为巴格达之劫复仇",
+          "description": "以伊拉克控制蒙古首都。"
+        }
+      }
+    },
+    "i_shall_either_find_a_way_or_make_one": {
+      "translations": {
+        "english": {
+          "name": "I shall either find a way or make one",
+          "description": "Control Rome and have an elephant unit in the state."
+        },
+        "schinese": {
+          "name": "我要么找到路，要么开出路",
+          "description": "控制罗马，并在该地区拥有一个战象单位。"
+        }
+      }
+    },
+    "savior_of_the_holy_lands": {
+      "translations": {
+        "english": {
+          "name": "Savior of the holy lands",
+          "description": "As Afghanistan, become the owner of Palestine and Mecca"
+        },
+        "schinese": {
+          "name": "圣地救世主",
+          "description": "以阿富汗拥有巴勒斯坦和麦加。"
+        }
+      }
+    },
+    "doctrine_of_choice": {
+      "translations": {
+        "english": {
+          "name": "Doctrine of Choice",
+          "description": "Complete three subdoctrines in the same track."
+        },
+        "schinese": {
+          "name": "选择学说",
+          "description": "在同一条路线中完成三个分支学说。"
+        }
+      }
+    },
+    "manifesting_a_better_tomorrow": {
+      "translations": {
+        "english": {
+          "name": "Manifesting a Better Tomorrow",
+          "description": "Reach 100% faction manifest fulfilment."
+        },
+        "schinese": {
+          "name": "显现更好的明天",
+          "description": "达到 100% 阵营宣言完成度。"
+        }
+      }
+    },
+    "genghis_khant": {
+      "translations": {
+        "english": {
+          "name": "Genghis Khan't",
+          "description": "As any Chinese country or Manchukuo, own and control all Mongolian core states."
+        },
+        "schinese": {
+          "name": "成吉思汗不能",
+          "description": "以任一中国国家或满洲国，拥有并控制所有蒙古核心地区。"
+        }
+      }
+    },
+    "the_neverending_story": {
+      "translations": {
+        "english": {
+          "name": "The Neverending Story",
+          "description": "As a Warlord, proclaim a new Chinese Empire."
+        },
+        "schinese": {
+          "name": "永无止境的故事",
+          "description": "以军阀宣告新的中华帝国。"
+        }
+      }
+    },
+    "its_all_coming_together": {
+      "translations": {
+        "english": {
+          "name": "Its all coming together",
+          "description": "As China, fully control all core states alone or with subjects."
+        },
+        "schinese": {
+          "name": "一切都串起来了",
+          "description": "以中国单独或与附属国共同完全控制所有核心地区。"
+        }
+      }
+    },
+    "the_coast_is_clear": {
+      "translations": {
+        "english": {
+          "name": "The Coast is Clear",
+          "description": "As China, never lose a starting coastal state before 1945.9.2."
+        },
+        "schinese": {
+          "name": "海岸安全",
+          "description": "以中国在 1945 年 9 月 2 日前从未失去任何初始沿海地区。"
+        }
+      }
+    },
+    "a_fullmetal_brotherhood": {
+      "translations": {
+        "english": {
+          "name": "A Fullmetal Brotherhood",
+          "description": "As Fascist China, control 300 Steel, Tungsten and Chromium."
+        },
+        "schinese": {
+          "name": "钢之兄弟会",
+          "description": "以法西斯中国控制 300 钢、钨和铬。"
+        }
+      }
+    },
+    "battle_royale": {
+      "translations": {
+        "english": {
+          "name": "Battle Royale",
+          "description": "As Communist China, fight both China and Japan before 1940 within 90 days of being at war with the other, and capitulate them both."
+        },
+        "schinese": {
+          "name": "大逃杀",
+          "description": "以共产主义中国在 1940 年前，在与中国或日本之一开战后的 90 天内同时与另一方交战，并迫使两者都投降。"
+        }
+      }
+    },
+    "the_winner_takes_it_all": {
+      "translations": {
+        "english": {
+          "name": "The Winner takes it all",
+          "description": "As PRC owns and controls all starting Chinese core states."
+        },
+        "schinese": {
+          "name": "赢家通吃",
+          "description": "以中华人民共和国拥有并控制所有初始中国核心地区。"
+        }
+      }
+    },
+    "master_infiltrator": {
+      "translations": {
+        "english": {
+          "name": "Master Infiltrator",
+          "description": "As PRC, don't expand beyond Yan'an, and infiltrate at least 5 Chinese states and flip them to your control when attacking the rest of China."
+        },
+        "schinese": {
+          "name": "渗透大师",
+          "description": "以中华人民共和国不扩张到延安之外，渗透至少 5 个中国地区，并在进攻中国其余地区时将其转为己方控制。"
+        }
+      }
+    },
+    "paradisus_paradoxum": {
+      "translations": {
+        "english": {
+          "name": "Paradisus Paradoxum",
+          "description": "As Japan, proclaim the creation of a Pure Buddhist Land."
+        },
+        "schinese": {
+          "name": "悖论乐园",
+          "description": "以日本宣布建立净土。"
+        }
+      }
+    },
+    "an_equivalent_exchange": {
+      "translations": {
+        "english": {
+          "name": "An Equivalent Exchange",
+          "description": "As Democratic Japan, complete the focus Foreign Exchange Allocation Policy and capitulate Fascist Germany."
+        },
+        "schinese": {
+          "name": "等价交换",
+          "description": "以民主日本完成“外汇分配政策”国策，并迫使法西斯德国投降。"
+        }
+      }
+    },
+    "the_sun_will_never_set": {
+      "translations": {
+        "english": {
+          "name": "The Sun Will Never Set",
+          "description": "As Japan, proclaim the Eternal Empire and control all of your core states."
+        },
+        "schinese": {
+          "name": "太阳永不落",
+          "description": "以日本宣告永恒帝国，并控制所有核心地区。"
+        }
+      }
+    },
+    "the_juannines": {
+      "translations": {
+        "english": {
+          "name": "The Juannines",
+          "description": "As the Philippines, have cores and control all of Spain."
+        },
+        "schinese": {
+          "name": "胡安王朝",
+          "description": "以菲律宾拥有整个西班牙的核心并控制全西班牙。"
+        }
+      }
+    },
+    "declare_military_emergency": {
+      "translations": {
+        "english": {
+          "name": "Declare Military Emergency",
+          "description": "Have a Military Emergency declared in the Philippines."
+        },
+        "schinese": {
+          "name": "宣布军事紧急状态",
+          "description": "在菲律宾宣布军事紧急状态。"
+        }
+      }
+    },
+    "cobalt_sea": {
+      "translations": {
+        "english": {
+          "name": "Cobalt Sea",
+          "description": "As the Philippines, launch nuclear missiles from a nuclear submarine."
+        },
+        "schinese": {
+          "name": "钴海",
+          "description": "以菲律宾从核潜艇发射核导弹。"
+        }
+      }
+    },
+    "i_have_avenged_you_father": {
+      "translations": {
+        "english": {
+          "name": "I Have Avenged You, Father!",
+          "description": "As Zhang Xueliang, reclaim Mukden and revive the Beiyang government."
+        },
+        "schinese": {
+          "name": "父亲，我为你复仇了！",
+          "description": "以张学良收复奉天，并复兴北洋政府。"
+        }
+      }
+    },
+    "im_playing_both_sides_so_i_always_come_out_on_top": {
+      "translations": {
+        "english": {
+          "name": "I'm playing both sides, so I always come out on top",
+          "description": "Sell weapons to both sides of a civil war."
+        },
+        "schinese": {
+          "name": "我两边下注，所以总能赢",
+          "description": "向内战双方出售武器。"
+        }
+      }
+    },
+    "i_didnt_hear_no_bell": {
+      "translations": {
+        "english": {
+          "name": "I didn't hear no bell",
+          "description": "As democratic Czechoslovakia, become the 2nd republic by losing the Sudetenland and then granting autonomy to Slovakia, before capitulating Germany."
+        },
+        "schinese": {
+          "name": "我可没听见铃声",
+          "description": "以民主捷克斯洛伐克，通过失去苏台德并给予斯洛伐克自治成为第二共和国，然后迫使德国投降。"
+        }
+      }
+    },
+    "premyslids_dream": {
+      "translations": {
+        "english": {
+          "name": "Premyslid's Dream",
+          "description": "As monarchist Czechoslovakia, integrate both Austria and former Bohemian lands."
+        },
+        "schinese": {
+          "name": "普热米斯尔之梦",
+          "description": "以君主制捷克斯洛伐克整合奥地利和前波希米亚土地。"
+        }
+      }
+    },
+    "kutaci": {
+      "translations": {
+        "english": {
+          "name": "Kuťáci",
+          "description": "As Czechoslovakia, build every facility type."
+        },
+        "schinese": {
+          "name": "矿工们",
+          "description": "以捷克斯洛伐克建造每一种设施。"
+        }
+      }
+    },
+    "first_train_home": {
+      "translations": {
+        "english": {
+          "name": "First train home",
+          "description": "As Czechoslovakia, own any state of the Trans-Siberian Railway."
+        },
+        "schinese": {
+          "name": "第一班回家的列车",
+          "description": "以捷克斯洛伐克拥有任一跨西伯利亚铁路地区。"
+        }
+      }
+    },
+    "aint_like_that_now": {
+      "translations": {
+        "english": {
+          "name": "Ain't like that now",
+          "description": "As fascist Czechoslovakia, complete \"Return to Democracy\"."
+        },
+        "schinese": {
+          "name": "现在可不是那样了",
+          "description": "以法西斯捷克斯洛伐克完成“回归民主”。"
+        }
+      }
+    },
+    "czechoslovaustrohungarian_union": {
+      "translations": {
+        "english": {
+          "name": "Czechoslovaustrohungarian Union",
+          "description": "As communist Czechoslovakia, complete \"Expand the Union\" and have Austria and Hungary in that union."
+        },
+        "schinese": {
+          "name": "捷克斯洛奥匈联盟",
+          "description": "以共产主义捷克斯洛伐克完成“扩大联盟”，并让奥地利和匈牙利加入该联盟。"
+        }
+      }
+    },
+    "steiner": {
+      "translations": {
+        "english": {
+          "name": "Steiner",
+          "description": "As Germany, get over 30% surrender progress after 1941.6.22 while being at war with Soviet Union, France and England and controlling Moscow, Paris and London."
+        },
+        "schinese": {
+          "name": "施泰纳",
+          "description": "以德国在 1941 年 6 月 22 日后，于同时与苏联、法国和英国交战并控制莫斯科、巴黎和伦敦时，投降进度超过 30%。"
+        }
+      }
+    },
+    "saving_private_bryansk": {
+      "translations": {
+        "english": {
+          "name": "Saving Private Bryansk",
+          "description": "Capture a General in the state of Bryansk."
+        },
+        "schinese": {
+          "name": "拯救列兵布良斯克",
+          "description": "在布良斯克地区俘获一名将军。"
+        }
+      }
+    },
+    "et_tu_paulus": {
+      "translations": {
+        "english": {
+          "name": "Et tu, Paulus?",
+          "description": "Capture a field Marshal."
+        },
+        "schinese": {
+          "name": "你也一样，保卢斯？",
+          "description": "俘获一名陆军元帅。"
+        }
+      }
+    },
+    "hunt_for_the_desert_fox": {
+      "translations": {
+        "english": {
+          "name": "Hunt for the Desert Fox",
+          "description": "Capture Erwin Rommel."
+        },
+        "schinese": {
+          "name": "猎捕沙漠之狐",
+          "description": "俘获埃尔温·隆美尔。"
+        }
+      }
+    },
+    "a_bridge_too_far": {
+      "translations": {
+        "english": {
+          "name": "A Bridge too Far",
+          "description": "As the UK, liberate Brabant, and have Bernard Montgomery liberate Friesland while maintaining a force in Arnhem."
+        },
+        "schinese": {
+          "name": "遥远的桥",
+          "description": "以英国解放布拉班特，并让伯纳德·蒙哥马利解放弗里斯兰，同时在阿纳姆维持一支部队。"
+        }
+      }
+    },
+    "walzing_matilda": {
+      "translations": {
+        "english": {
+          "name": "Waltzing Matilda",
+          "description": "Deploy 25 Heavy Tank Battalions as Australia."
+        },
+        "schinese": {
+          "name": "华尔兹玛蒂尔达",
+          "description": "以澳大利亚部署 25 个重型坦克营。"
+        }
+      }
+    },
+    "the_7th_state": {
+      "translations": {
+        "english": {
+          "name": "The 7th State",
+          "description": "As Australia, own and fully control New Zealand."
+        },
+        "schinese": {
+          "name": "第七州",
+          "description": "以澳大利亚拥有并完全控制新西兰。"
+        }
+      }
+    },
+    "right_side_up": {
+      "translations": {
+        "english": {
+          "name": "The rightside up",
+          "description": "As Australia, own and fully control Jan Mayen."
+        },
+        "schinese": {
+          "name": "正过来了",
+          "description": "以澳大利亚拥有并完全控制扬马延岛。"
+        }
+      }
+    },
+    "a_succulent_chinese_meal": {
+      "translations": {
+        "english": {
+          "name": "A Succulent Chinese Meal",
+          "description": "As Australia annex and own one province in China."
+        },
+        "schinese": {
+          "name": "一顿丰盛的中餐",
+          "description": "以澳大利亚吞并并拥有中国的一个省份。"
+        }
+      }
+    },
+    "anzac": {
+      "translations": {
+        "english": {
+          "name": "ANZAC",
+          "description": "As Australia or New Zealand, have an Army HQ in Greece and ensure that Greece doesn't capitulate until 1945."
+        },
+        "schinese": {
+          "name": "澳新军团",
+          "description": "以澳大利亚或新西兰在希腊拥有一个集团军司令部，并确保希腊到 1945 年不投降。"
+        }
+      }
+    },
+    "no_one_will_notice_the_difference": {
+      "translations": {
+        "english": {
+          "name": "Noone Will Notice the Difference",
+          "description": "As Indonesia, station Gustav Adolf Ilgen in Stockholm."
+        },
+        "schinese": {
+          "name": "没人会看出区别",
+          "description": "以印度尼西亚将古斯塔夫·阿道夫·伊尔根驻扎在斯德哥尔摩。"
+        }
+      }
+    },
+    "java_script": {
+      "translations": {
+        "english": {
+          "name": "Java-Script",
+          "description": "As the Dutch East Indies (or Indonesia), research the Advanced Computing Machine and fully upgrade the Cryptology Department (while your capital is on the island of Java)."
+        },
+        "schinese": {
+          "name": "爪哇脚本",
+          "description": "以荷属东印度或印度尼西亚研究高级计算机，并完全升级密码学部门，且首都位于爪哇岛。"
+        }
+      }
+    },
+    "the_man_of_medan": {
+      "translations": {
+        "english": {
+          "name": "The Man of Medan",
+          "description": "Sink 100 convoys as Indonesia."
+        },
+        "schinese": {
+          "name": "棉兰之人",
+          "description": "以印度尼西亚击沉 100 艘运输船。"
+        }
+      }
+    },
+    "maphilindia": {
+      "translations": {
+        "english": {
+          "name": "Maphilindia",
+          "description": "As Indonesia or the Philippines, form Maphilindo and control all Indian core states."
+        },
+        "schinese": {
+          "name": "马菲印联邦",
+          "description": "以印度尼西亚或菲律宾成立马菲印联盟，并控制所有印度核心地区。"
+        }
+      }
+    },
+    "old_zealand": {
+      "translations": {
+        "english": {
+          "name": "Old Zealand",
+          "description": "As New Zealand, control and own the states of Brabant (Zeeland) and Sjaelland (Zealand)."
+        },
+        "schinese": {
+          "name": "旧西兰",
+          "description": "以新西兰控制并拥有布拉班特（泽兰）和西兰岛地区。"
+        }
+      }
+    },
+    "from_rags_to_admiral_stripes": {
+      "translations": {
+        "english": {
+          "name": "From Rags to Admiral Stripes",
+          "description": "Promote a Ship Captains to Admiral."
+        },
+        "schinese": {
+          "name": "从一无所有到将星肩章",
+          "description": "将一名舰长晋升为海军上将。"
+        }
+      }
+    },
+    "hail_to_the_king": {
+      "translations": {
+        "english": {
+          "name": "Hail to the King",
+          "description": "As Siam, form Greater Thailand before King Ananda is 15 years old."
+        },
+        "schinese": {
+          "name": "国王万岁",
+          "description": "以暹罗在阿南达国王 15 岁前成立大泰国。"
+        }
+      }
+    },
+    "grand_siam": {
+      "translations": {
+        "english": {
+          "name": "Grand Siam",
+          "description": " As Siam, capitulate 4 nations within one year."
+        },
+        "schinese": {
+          "name": "大暹罗",
+          "description": "以暹罗在一年内迫使 4 个国家投降。"
+        }
+      }
+    },
+    "thaitanic": {
+      "translations": {
+        "english": {
+          "name": "ThaiTanic",
+          "description": "As any nation, sink Siam's pride of the fleet."
+        },
+        "schinese": {
+          "name": "泰坦尼克",
+          "description": "以任意国家击沉暹罗的舰队骄傲。"
+        }
+      }
+    },
+    "thaifighters": {
+      "translations": {
+        "english": {
+          "name": "Thai fighters",
+          "description": "As Siam, have 10 aces."
+        },
+        "schinese": {
+          "name": "泰国战机",
+          "description": "以暹罗拥有 10 名王牌飞行员。"
+        }
+      }
+    }
+  }
+}

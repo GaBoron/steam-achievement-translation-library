@@ -1,0 +1,813 @@
+{
+  "version": 1,
+  "app_id": "970560",
+  "variant_id": "default",
+  "source_sha256": "6e523b73d55ce5bcb143ef1460017910c97c721f21e34a931b50f3e8bd916782",
+  "languages": [
+    "english",
+    "japanese",
+    "schinese"
+  ],
+  "achievements": {
+    "Achievement_FULL_COMPLETE": {
+      "translations": {
+        "english": {
+          "name": "Attractor Field Convergence",
+          "description": "Played through everything in STEINS;GATE: My Darling's Embrace."
+        },
+        "japanese": {
+          "name": "アトラクタフィールドの収束",
+          "description": "STEINS;GATE 比翼恋理のだーりんをやり尽くす"
+        },
+        "schinese": {
+          "name": "吸引子场的收束",
+          "description": "完成《命运石之门：比翼恋理的爱人》的全部内容。"
+        }
+      }
+    },
+    "Achievement_START_GAME": {
+      "translations": {
+        "english": {
+          "name": "The New Choice of Steins Gate",
+          "description": "Started STEINS;GATE: My Darling's Embrace."
+        },
+        "japanese": {
+          "name": "新たなる運命石の扉の選択",
+          "description": "STEINS;GATE 比翼恋理のだーりんを開始した"
+        },
+        "schinese": {
+          "name": "新的命运石之门的选择",
+          "description": "开始《命运石之门：比翼恋理的爱人》。"
+        }
+      }
+    },
+    "Achievement_END_PROLOGUE": {
+      "translations": {
+        "english": {
+          "name": "Entropy the Origins Rumble",
+          "description": "Cleared \"Entropy the Origins Rumble.\""
+        },
+        "japanese": {
+          "name": "起源鳴動のエントロピー",
+          "description": "「起源鳴動のエントロピー」をクリアした"
+        },
+        "schinese": {
+          "name": "起源鸣动的熵",
+          "description": "通关“起源鸣动的熵”篇。"
+        }
+      }
+    },
+    "Achievement_END_MAY01": {
+      "translations": {
+        "english": {
+          "name": "Fahrenheit Chiaroscuro",
+          "description": "Cleared \"Fahrenheit Chiaroscuro.\""
+        },
+        "japanese": {
+          "name": "華氏９３度のキアロスクーロ",
+          "description": "「華氏９３度のキアロスクーロ」をクリアした"
+        },
+        "schinese": {
+          "name": "华氏93度的明暗法",
+          "description": "通关“华氏93度的明暗法”篇。"
+        }
+      }
+    },
+    "Achievement_END_MAY02": {
+      "translations": {
+        "english": {
+          "name": "Stardust Duplet",
+          "description": "Saw Mayuri's ending."
+        },
+        "japanese": {
+          "name": "星屑のデュプレット",
+          "description": "まゆりのエンディングを見た"
+        },
+        "schinese": {
+          "name": "星屑的二重奏",
+          "description": "见证真由理结局。"
+        }
+      }
+    },
+    "Achievement_END_CRI01": {
+      "translations": {
+        "english": {
+          "name": "Aporia Pitiful Grief",
+          "description": "Cleared \"Aporia Pitiful Grief.\""
+        },
+        "japanese": {
+          "name": "哀哭悲嘆のアポリア",
+          "description": "「哀哭悲嘆のアポリア」をクリアした"
+        },
+        "schinese": {
+          "name": "哀哭悲叹的困惑",
+          "description": "通关“哀哭悲叹的困惑”篇。"
+        }
+      }
+    },
+    "Achievement_END_CRI02": {
+      "translations": {
+        "english": {
+          "name": "Pas De Deux Rivalry",
+          "description": "Cleared \"Pas De Deux Rivalry.\""
+        },
+        "japanese": {
+          "name": "相克のパ・ド・ドゥ",
+          "description": "「相克のパ・ド・ドゥ」をクリアした"
+        },
+        "schinese": {
+          "name": "相克的双人舞",
+          "description": "通关“相克的双人舞”篇。"
+        }
+      }
+    },
+    "Achievement_END_CRI03": {
+      "translations": {
+        "english": {
+          "name": "Resonance It Repeats",
+          "description": "Saw Kurisu's ending."
+        },
+        "japanese": {
+          "name": "永劫回帰のレゾナンス",
+          "description": "紅莉栖のエンディングを見た"
+        },
+        "schinese": {
+          "name": "永劫回归的共鸣",
+          "description": "见证红莉栖结局。"
+        }
+      }
+    },
+    "Achievement_END_MOE01": {
+      "translations": {
+        "english": {
+          "name": "Melancholia Lost Happiness",
+          "description": "Cleared \"Melancholia Lost Happiness.\""
+        },
+        "japanese": {
+          "name": "失楽のメランコリア",
+          "description": "「失楽のメランコリア」をクリアした"
+        },
+        "schinese": {
+          "name": "失乐的忧郁",
+          "description": "通关“失乐的忧郁”篇。"
+        }
+      }
+    },
+    "Achievement_END_MOE02": {
+      "translations": {
+        "english": {
+          "name": "Dawn Dawn Ratio",
+          "description": "Saw Moeka's ending."
+        },
+        "japanese": {
+          "name": "黎明曙光のレシオ",
+          "description": "萌郁のエンディングを見た"
+        },
+        "schinese": {
+          "name": "黎明曙光的比率",
+          "description": "见证萌郁结局。"
+        }
+      }
+    },
+    "Achievement_END_LUC01": {
+      "translations": {
+        "english": {
+          "name": "Perverted Affection Anima",
+          "description": "Cleared \"Perverted Affection Anima.\""
+        },
+        "japanese": {
+          "name": "倒錯のアニマ",
+          "description": "「倒錯のアニマ」をクリアした"
+        },
+        "schinese": {
+          "name": "倒错的灵魂",
+          "description": "通关“倒错的灵魂”篇。"
+        }
+      }
+    },
+    "Achievement_END_LUC02": {
+      "translations": {
+        "english": {
+          "name": "Seal Pygmalion",
+          "description": "Cleared \"Seal Pygmalion.\""
+        },
+        "japanese": {
+          "name": "封神のピグマリオン",
+          "description": "「封神のピグマリオン」をクリアした"
+        },
+        "schinese": {
+          "name": "封神的皮格马利翁",
+          "description": "通关“封神的皮格马利翁”篇。"
+        }
+      }
+    },
+    "Achievement_END_LUC03": {
+      "translations": {
+        "english": {
+          "name": "Synergy of Love",
+          "description": "Saw Luka's ending."
+        },
+        "japanese": {
+          "name": "愛と幻創のシナジー",
+          "description": "るかのエンディングを見た"
+        },
+        "schinese": {
+          "name": "爱与幻创的协同",
+          "description": "见证琉华结局。"
+        }
+      }
+    },
+    "Achievement_END_FEI01": {
+      "translations": {
+        "english": {
+          "name": "Catmaiden's Domain",
+          "description": "Cleared \"Catmaiden's Domain.\""
+        },
+        "japanese": {
+          "name": "猫耳乙女のドメイン",
+          "description": "「猫耳乙女のドメイン」をクリアした"
+        },
+        "schinese": {
+          "name": "猫耳少女的领域",
+          "description": "通关“猫耳少女的领域”篇。"
+        }
+      }
+    },
+    "Achievement_END_FEI02": {
+      "translations": {
+        "english": {
+          "name": "Heavens Nehushtan",
+          "description": "Saw Faris's ending."
+        },
+        "japanese": {
+          "name": "楼閣都市のネフシュタン",
+          "description": "フェイリスのエンディングを見た"
+        },
+        "schinese": {
+          "name": "楼阁都市的青铜蛇",
+          "description": "见证菲利斯结局。"
+        }
+      }
+    },
+    "Achievement_END_SUZ01": {
+      "translations": {
+        "english": {
+          "name": "Straying Arche",
+          "description": "Cleared \"Straying Arche.\""
+        },
+        "japanese": {
+          "name": "迷走螺旋のアルケー",
+          "description": "「迷走螺旋のアルケー」をクリアした"
+        },
+        "schinese": {
+          "name": "迷走螺旋的本原",
+          "description": "通关“迷走螺旋的本原”篇。"
+        }
+      }
+    },
+    "Achievement_END_SUZ02": {
+      "translations": {
+        "english": {
+          "name": "Fugue of Ruin End",
+          "description": "Cleared \"Fugue of Ruin End.\""
+        },
+        "japanese": {
+          "name": "破滅と終焉のフーガ",
+          "description": "「破滅と終焉のフーガ」をクリアした"
+        },
+        "schinese": {
+          "name": "破灭与终焉的赋格",
+          "description": "通关“破灭与终焉的赋格”篇。"
+        }
+      }
+    },
+    "Achievement_END_SUZ03": {
+      "translations": {
+        "english": {
+          "name": "Agape of Root",
+          "description": "Saw Suzuha's ending."
+        },
+        "japanese": {
+          "name": "根源のアガペー",
+          "description": "鈴羽のエンディングを見た"
+        },
+        "schinese": {
+          "name": "根源之圣爱",
+          "description": "见证铃羽结局。"
+        }
+      }
+    },
+    "Achievement_CLEAR_ALL": {
+      "translations": {
+        "english": {
+          "name": "My Darling's Embrace",
+          "description": "Saw all endings."
+        },
+        "japanese": {
+          "name": "比翼恋理のだーりん",
+          "description": "全エンディングを見た"
+        },
+        "schinese": {
+          "name": "比翼恋理的爱人",
+          "description": "见证全部结局。"
+        }
+      }
+    },
+    "Achievement_OPEN_CLEARLIST": {
+      "translations": {
+        "english": {
+          "name": "Seeker of History",
+          "description": "Opened the CLEAR LIST."
+        },
+        "japanese": {
+          "name": "レキを求めるモノ",
+          "description": "CLEAR　LISTを開いてみた"
+        },
+        "schinese": {
+          "name": "追寻历史之人",
+          "description": "打开通关列表。"
+        }
+      }
+    },
+    "Achievement_OPEN_CG_LIB": {
+      "translations": {
+        "english": {
+          "name": "Seeker of Art",
+          "description": "Opened the CG LIBRARY."
+        },
+        "japanese": {
+          "name": "ヱを求めるモノ",
+          "description": "CG　LIBRARYを開いてみた"
+        },
+        "schinese": {
+          "name": "追寻艺术之人",
+          "description": "打开 CG 图鉴。"
+        }
+      }
+    },
+    "Achievement_OPEN_SOUND_LIB": {
+      "translations": {
+        "english": {
+          "name": "Seeker of Sound",
+          "description": "Opened the SOUND LIBRARY."
+        },
+        "japanese": {
+          "name": "オトを求めるモノ",
+          "description": "SOUND　LIBRARYを開いてみた"
+        },
+        "schinese": {
+          "name": "追寻声音之人",
+          "description": "打开音乐鉴赏。"
+        }
+      }
+    },
+    "Achievement_OPEN_MOVIE_LIB": {
+      "translations": {
+        "english": {
+          "name": "Seeker of Video",
+          "description": "Opened the MOVIE LIBRARY."
+        },
+        "japanese": {
+          "name": "ドウを求めるモノ",
+          "description": "MOVIE　LIBRARYを開いてみた"
+        },
+        "schinese": {
+          "name": "追寻影像之人",
+          "description": "打开影片鉴赏。"
+        }
+      }
+    },
+    "Achievement_OPEN_TIPS": {
+      "translations": {
+        "english": {
+          "name": "Mimir of Perfect Knowledge",
+          "description": "Opened TIPS."
+        },
+        "japanese": {
+          "name": "格物致知のミーミル",
+          "description": "TIPSを開いてみた"
+        },
+        "schinese": {
+          "name": "格物致知的密米尔",
+          "description": "打开 TIPS 列表。"
+        }
+      }
+    },
+    "Achievement_OPEN_QUATER": {
+      "translations": {
+        "english": {
+          "name": "25% CG Achievement",
+          "description": "Unlocked 25% of CGs."
+        },
+        "japanese": {
+          "name": "CGの達成率２５%",
+          "description": "CGを25％見た"
+        },
+        "schinese": {
+          "name": "CG 达成率 25%",
+          "description": "已观看 25% 的 CG。"
+        }
+      }
+    },
+    "Achievement_OPEN_HALF": {
+      "translations": {
+        "english": {
+          "name": "50% CG Achievement",
+          "description": "Unlocked 50% of CGs."
+        },
+        "japanese": {
+          "name": "CGの達成率５０%",
+          "description": "CGを50％見た"
+        },
+        "schinese": {
+          "name": "CG 达成率 50%",
+          "description": "已观看 50% 的 CG。"
+        }
+      }
+    },
+    "Achievement_OPEN_ThreeQuater": {
+      "translations": {
+        "english": {
+          "name": "75% CG Achievement",
+          "description": "Unlocked 75% of CGs."
+        },
+        "japanese": {
+          "name": "CGの達成率７５%",
+          "description": "CGを75％見た"
+        },
+        "schinese": {
+          "name": "CG 达成率 75%",
+          "description": "已观看 75% 的 CG。"
+        }
+      }
+    },
+    "Achievement_OPEN_ALL_EV": {
+      "translations": {
+        "english": {
+          "name": "100% CG Achievement",
+          "description": "Unlocked all CGs."
+        },
+        "japanese": {
+          "name": "CGの達成率100%",
+          "description": "全CGを見た"
+        },
+        "schinese": {
+          "name": "CG 达成率 100%",
+          "description": "已观看全部 CG。"
+        }
+      }
+    },
+    "Achievement_TIPS_FULL_OPEN": {
+      "translations": {
+        "english": {
+          "name": "Odin of Extensive Observation",
+          "description": "Saw all TIPS."
+        },
+        "japanese": {
+          "name": "洽覧深識のオージン",
+          "description": "全TIPSを見た"
+        },
+        "schinese": {
+          "name": "洽览深识的奥丁",
+          "description": "已查看全部 TIPS。"
+        }
+      }
+    },
+    "Achievement_MAIL_FULL_COMP": {
+      "translations": {
+        "english": {
+          "name": "Lab ChuChu!",
+          "description": "Saw all messages."
+        },
+        "japanese": {
+          "name": "ラボChuChu！",
+          "description": "全てのメールを見た"
+        },
+        "schinese": {
+          "name": "Lab ChuChu！",
+          "description": "已查看全部短信。"
+        }
+      }
+    },
+    "Achievement_PH_READ_SendMail": {
+      "translations": {
+        "english": {
+          "name": "Self Memories Return",
+          "description": "Looked at the Phone Trigger transmission history at least once."
+        },
+        "japanese": {
+          "name": "自我のメモリーズ　リターン",
+          "description": "【フォーントリガー】送信履歴を一度でも見た"
+        },
+        "schinese": {
+          "name": "自我的回忆：回归",
+          "description": "【手机触发器】至少查看过一次发送记录。"
+        }
+      }
+    },
+    "Achievement_PH_READ_ReceivedMail": {
+      "translations": {
+        "english": {
+          "name": "Other Memories Return",
+          "description": "Referred to a message in Phone Trigger transmission history at least once."
+        },
+        "japanese": {
+          "name": "他我のメモリーズ　リターン",
+          "description": "【フォーントリガー】着信履歴から一度でもメールを参照した"
+        },
+        "schinese": {
+          "name": "他与我的回忆：回归",
+          "description": "【手机触发器】至少从收件记录中查看过一次短信。"
+        }
+      }
+    },
+    "Achievement_PH_MAIL_REPLY": {
+      "translations": {
+        "english": {
+          "name": "Resonance Reaction Return",
+          "description": "Replied to a message from someone in Phone Trigger."
+        },
+        "japanese": {
+          "name": "共鳴のリアクション　リターン",
+          "description": "【フォーントリガー】誰かからのメールに返信した"
+        },
+        "schinese": {
+          "name": "共鸣的回应：回归",
+          "description": "【手机触发器】回复过一条短信。"
+        }
+      }
+    },
+    "Achievement_PH_MAIL_UNREAD": {
+      "translations": {
+        "english": {
+          "name": "Forgetful Message Return",
+          "description": "Cleared the game with an unread message in Phone Trigger."
+        },
+        "japanese": {
+          "name": "忘却のメッセージ　リターン",
+          "description": "【フォーントリガー】未読メールを残したままクリアした"
+        },
+        "schinese": {
+          "name": "忘却的消息：回归",
+          "description": "【手机触发器】在留有未读短信的状态下通关。"
+        }
+      }
+    },
+    "Achievement_PH_CHANGE_WallPaper": {
+      "translations": {
+        "english": {
+          "name": "Projection Vision Return",
+          "description": "Changed the wallpaper on the Phone Trigger standby screen."
+        },
+        "japanese": {
+          "name": "投影のヴィジョン　リターン",
+          "description": "【フォーントリガー】待ち受け画面の壁紙を変更した"
+        },
+        "schinese": {
+          "name": "投影的视觉：回归",
+          "description": "【手机触发器】更改过待机画面的壁纸。"
+        }
+      }
+    },
+    "Achievement_PH_CHANGE_RingBGM": {
+      "translations": {
+        "english": {
+          "name": "First Sound Return",
+          "description": "Changed the ringtone for Phone Trigger."
+        },
+        "japanese": {
+          "name": "ハジメテのオト　リターン",
+          "description": "【フォーントリガー】着信メロディを変更した"
+        },
+        "schinese": {
+          "name": "最初的声音：回归",
+          "description": "【手机触发器】更改过铃声。"
+        }
+      }
+    },
+    "Achievement_PH_RECEIVE_MAY": {
+      "translations": {
+        "english": {
+          "name": "Strong and Simple Hostage",
+          "description": "Read Mayuri's message about her best subjects in Phone Trigger."
+        },
+        "japanese": {
+          "name": "得手容易のホステージ",
+          "description": "【フォーントリガー】まゆりからの「得意科目」に関するメールを読んだ"
+        },
+        "schinese": {
+          "name": "得心应手的人质",
+          "description": "【手机触发器】阅读真由理发来的“擅长科目”相关短信。"
+        }
+      }
+    },
+    "Achievement_PH_RECEIVE_DAL": {
+      "translations": {
+        "english": {
+          "name": "Crusade Outbreak Collector",
+          "description": "Read Daru's message about a special campaign in Phone Trigger."
+        },
+        "japanese": {
+          "name": "聖戦勃発のコレクター",
+          "description": "【フォーントリガー】至からの「遠征」に関するメールを読んだ"
+        },
+        "schinese": {
+          "name": "圣战爆发的收藏家",
+          "description": "【手机触发器】阅读桶子发来的“远征”相关短信。"
+        }
+      }
+    },
+    "Achievement_PH_RECEIVE_CRS": {
+      "translations": {
+        "english": {
+          "name": "Eternally Unchanging Genius",
+          "description": "Read Kurisu's message about her metabolism in Phone Trigger."
+        },
+        "japanese": {
+          "name": "永久不変のジーニアス",
+          "description": "【フォーントリガー】紅莉栖からの「体質」に関するメールを読んだ"
+        },
+        "schinese": {
+          "name": "永恒不变的天才",
+          "description": "【手机触发器】阅读红莉栖发来的“体质”相关短信。"
+        }
+      }
+    },
+    "Achievement_PH_RECEIVE_MOE": {
+      "translations": {
+        "english": {
+          "name": "Ambiguous Surveyor",
+          "description": "Read Moeka's message about the things girls care about in Phone Trigger."
+        },
+        "japanese": {
+          "name": "曖昧模糊のアンケーター",
+          "description": "【フォーントリガー】萌郁からの「女心」に関するメールを読んだ"
+        },
+        "schinese": {
+          "name": "含混不清的调查员",
+          "description": "【手机触发器】阅读萌郁发来的“少女心”相关短信。"
+        }
+      }
+    },
+    "Achievement_PH_RECEIVE_RUK": {
+      "translations": {
+        "english": {
+          "name": "Maiden of Misunderstanding",
+          "description": "Read Luka's message about his chest in Phone Trigger."
+        },
+        "japanese": {
+          "name": "誤解遭遇のメイデン",
+          "description": "【フォーントリガー】るかからの「胸」に関するメールを読んだ"
+        },
+        "schinese": {
+          "name": "遭遇误解的少女",
+          "description": "【手机触发器】阅读琉华发来的“胸部”相关短信。"
+        }
+      }
+    },
+    "Achievement_PH_RECEIVE_FEI": {
+      "translations": {
+        "english": {
+          "name": "Triumphant Cat Maid",
+          "description": "Read Faris's message about Akiba in Phone Trigger."
+        },
+        "japanese": {
+          "name": "得意満面のキャットメード",
+          "description": "【フォーントリガー】フェイリスからの「アキバ」に関するメールを読んだ"
+        },
+        "schinese": {
+          "name": "得意扬扬的猫耳女仆",
+          "description": "【手机触发器】阅读菲利斯发来的“秋叶原”相关短信。"
+        }
+      }
+    },
+    "Achievement_PH_RECEIVE_SUZ": {
+      "translations": {
+        "english": {
+          "name": "Traveler of the Unknown",
+          "description": "Read Suzuha's message about human-generated power in Phone Trigger."
+        },
+        "japanese": {
+          "name": "不知案内のトラベラー",
+          "description": "【フォーントリガー】鈴羽からの「自家発電」に関するメールを読んだ"
+        },
+        "schinese": {
+          "name": "不知前路的旅行者",
+          "description": "【手机触发器】阅读铃羽发来的“自力发电”相关短信。"
+        }
+      }
+    },
+    "Achievement_PH_MAY_MAIL_COMP": {
+      "translations": {
+        "english": {
+          "name": "Operation M",
+          "description": "Read all messages from Mayuri in Phone Trigger (cumulative)."
+        },
+        "japanese": {
+          "name": "オペレーション・Ｍ",
+          "description": "【フォーントリガー】まゆりとのメールを全て読んだ（累計）"
+        },
+        "schinese": {
+          "name": "行动 M",
+          "description": "【手机触发器】阅读与真由理往来的全部短信（累计）。"
+        }
+      }
+    },
+    "Achievement_PH_DEL_MAIL_COMP": {
+      "translations": {
+        "english": {
+          "name": "Operation D",
+          "description": "Read all messages from Itaru in Phone Trigger (cumulative)."
+        },
+        "japanese": {
+          "name": "オペレーション・Ｄ",
+          "description": "【フォーントリガー】至とのメールを全て読んだ（累計）"
+        },
+        "schinese": {
+          "name": "行动 D",
+          "description": "【手机触发器】阅读与桶子往来的全部短信（累计）。"
+        }
+      }
+    },
+    "Achievement_PH_CRI_MAIL_COMP": {
+      "translations": {
+        "english": {
+          "name": "Operation C",
+          "description": "Read all messages from Kurisu in Phone Trigger (cumulative)."
+        },
+        "japanese": {
+          "name": "オペレーション・Ｃ",
+          "description": "【フォーントリガー】紅莉栖とのメールを全て読んだ（累計）"
+        },
+        "schinese": {
+          "name": "行动 C",
+          "description": "【手机触发器】阅读与红莉栖往来的全部短信（累计）。"
+        }
+      }
+    },
+    "Achievement_PH_MOE_MAIL_COMP": {
+      "translations": {
+        "english": {
+          "name": "Operation K",
+          "description": "Read all messages from Moeka in Phone Trigger (cumulative)."
+        },
+        "japanese": {
+          "name": "オペレーション・Ｋ",
+          "description": "【フォーントリガー】萌郁とのメールを全て読んだ（累計）"
+        },
+        "schinese": {
+          "name": "行动 K",
+          "description": "【手机触发器】阅读与萌郁往来的全部短信（累计）。"
+        }
+      }
+    },
+    "Achievement_PH_RUK_MAIL_COMP": {
+      "translations": {
+        "english": {
+          "name": "Operation L",
+          "description": "Read all messages from Luka in Phone Trigger (cumulative)."
+        },
+        "japanese": {
+          "name": "オペレーション・Ｌ",
+          "description": "【フォーントリガー】るかとのメールを全て読んだ（累計）"
+        },
+        "schinese": {
+          "name": "行动 L",
+          "description": "【手机触发器】阅读与琉华往来的全部短信（累计）。"
+        }
+      }
+    },
+    "Achievement_PH_FEI_MAIL_COMP": {
+      "translations": {
+        "english": {
+          "name": "Operation F",
+          "description": "Read all messages from Faris in Phone Trigger (cumulative)."
+        },
+        "japanese": {
+          "name": "オペレーション・Ｆ",
+          "description": "【フォーントリガー】フェイリスとのメールを全て読んだ（累計）"
+        },
+        "schinese": {
+          "name": "行动 F",
+          "description": "【手机触发器】阅读与菲利斯往来的全部短信（累计）。"
+        }
+      }
+    },
+    "Achievement_PH_SUZ_MAIL_COMP": {
+      "translations": {
+        "english": {
+          "name": "Operation S",
+          "description": "Read all messages from Suzuha in Phone Trigger (cumulative)."
+        },
+        "japanese": {
+          "name": "オペレーション・Ｓ",
+          "description": "【フォーントリガー】鈴羽とのメールを全て読んだ（累計）"
+        },
+        "schinese": {
+          "name": "行动 S",
+          "description": "【手机触发器】阅读与铃羽往来的全部短信（累计）。"
+        }
+      }
+    }
+  }
+}

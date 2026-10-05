@@ -1,0 +1,856 @@
+{
+  "version": 1,
+  "app_id": "373770",
+  "variant_id": "default",
+  "source_sha256": "d6b301c9bd3baff1059cd0953651a95cf78b338320d418a8da8e44f30c0d3e3e",
+  "languages": [
+    "brazilian",
+    "english",
+    "japanese",
+    "russian",
+    "schinese",
+    "tchinese"
+  ],
+  "achievements": {
+    "TO_THE_FLAME": {
+      "translations": {
+        "brazilian": {
+          "name": "Rumo às chamas!",
+          "description": "Derrote uma Mariposa Vermelha"
+        },
+        "english": {
+          "name": "To the Flame!",
+          "description": "Defeat a Red Moth"
+        },
+        "japanese": {
+          "name": "飛んで火に入る夏の虫",
+          "description": "「あかいが」を倒す"
+        },
+        "russian": {
+          "name": "Навстречу пламени!",
+          "description": "Сразиться с красным мотыльком"
+        },
+        "schinese": {
+          "name": "飞蛾扑火",
+          "description": "打倒「红蛾」"
+        },
+        "tchinese": {
+          "name": "飛蛾撲火",
+          "description": "打倒「紅蛾」"
+        }
+      }
+    },
+    "YOU_HAVE_CHOSEN": {
+      "translations": {
+        "brazilian": {
+          "name": "Péssima escolha",
+          "description": "Obtenha o final ruim no Encontro com o Lobo"
+        },
+        "english": {
+          "name": "You have Chosen...Poorly",
+          "description": "Get Bad Ending from Wolf Encounter"
+        },
+        "japanese": {
+          "name": "…という夢を見たんだ",
+          "description": "狼と遭遇してバッドエンドを迎える"
+        },
+        "russian": {
+          "name": "Ваш неудачный... Выбор",
+          "description": "Столкнуться с волком и получить плохой конец"
+        },
+        "schinese": {
+          "name": "……一切都不过是场梦",
+          "description": "接触狼以迎来坏结局"
+        },
+        "tchinese": {
+          "name": "……一切都不過是場夢",
+          "description": "接觸狼以迎來壞結局"
+        }
+      }
+    },
+    "PANTS_ON_FIRE": {
+      "translations": {
+        "brazilian": {
+          "name": "Calças quentes",
+          "description": "Encontre Equipamento Grande Mentiroso"
+        },
+        "english": {
+          "name": "Pants on Fire",
+          "description": "Find Big Liar Equipment"
+        },
+        "japanese": {
+          "name": "嘘つきはドラゴンの始まり",
+          "description": "「おおうそつき」装備を見つける"
+        },
+        "russian": {
+          "name": "На воре и шапка горит",
+          "description": "Отыскать Большого лжеца"
+        },
+        "schinese": {
+          "name": "说谎是当龙的开始",
+          "description": "找到名为「大骗子」的装备"
+        },
+        "tchinese": {
+          "name": "說謊是當龍的開始",
+          "description": "找到名為「大騙子」的裝備"
+        }
+      }
+    },
+    "HAVE_YOU_NO_SHAME": {
+      "translations": {
+        "brazilian": {
+          "name": "Você não tem vergonha?",
+          "description": "Roube os doces da casa de Keith e Rachel"
+        },
+        "english": {
+          "name": "Have you no Shame?",
+          "description": "Steal the Candy from Keith and Rachel's House"
+        },
+        "japanese": {
+          "name": "そのキャンディー、美味しい？",
+          "description": "キースとレイチェルの家でキャンディーを盗む"
+        },
+        "russian": {
+          "name": "Ни стыда ни совести!",
+          "description": "Стащить конфету из дома Кейт и Рейчел"
+        },
+        "schinese": {
+          "name": "那个糖果，好吃吗？",
+          "description": "偷走Keith与Rachel家里的糖果"
+        },
+        "tchinese": {
+          "name": "那個糖果，好吃嗎？",
+          "description": "偷走Keith與Rachel家裡的糖果"
+        }
+      }
+    },
+    "HAPPOSAI": {
+      "translations": {
+        "brazilian": {
+          "name": "Happosai",
+          "description": "Ponha as Calcinhas na sua cabeça"
+        },
+        "english": {
+          "name": "Happosai",
+          "description": "Put Panties on your Head"
+        },
+        "japanese": {
+          "name": "変態仮面",
+          "description": "頭にパンツをかぶる"
+        },
+        "russian": {
+          "name": "Под маской извращенки",
+          "description": "Натянуть труселя на голову"
+        },
+        "schinese": {
+          "name": "变态假面",
+          "description": "往头上戴内裤"
+        },
+        "tchinese": {
+          "name": "變態假面",
+          "description": "往頭上戴內褲"
+        }
+      }
+    },
+    "YOURE_LOOKING_BUFF": {
+      "translations": {
+        "brazilian": {
+          "name": "Você está fortinha",
+          "description": "Faça a Efi chegar ao nível 10"
+        },
+        "english": {
+          "name": "You're Looking Buff",
+          "description": "Get Efi to Level 10"
+        },
+        "japanese": {
+          "name": "ムキムキドラゴン",
+          "description": "エフィのレベルを10にする"
+        },
+        "russian": {
+          "name": "Сильнее с каждым днем",
+          "description": "Дойти с Эфи до 10 уровня"
+        },
+        "schinese": {
+          "name": "肌肉发达的龙",
+          "description": "将Efi的等级提升至10等"
+        },
+        "tchinese": {
+          "name": "肌肉發達的龍",
+          "description": "將Efi的等級提升至10等"
+        }
+      }
+    },
+    "SERIOUS_SWEET_TOOTH": {
+      "translations": {
+        "brazilian": {
+          "name": "Tara por doces",
+          "description": "Coma 15 Biscoitos"
+        },
+        "english": {
+          "name": "Serious Sweet Tooth",
+          "description": "Eat 15 Cookies"
+        },
+        "japanese": {
+          "name": "虫歯の始まり",
+          "description": "クッキーを15枚食べる"
+        },
+        "russian": {
+          "name": "Привет от кариеса",
+          "description": "Съесть 15 печений"
+        },
+        "schinese": {
+          "name": "蛀牙的开始",
+          "description": "吃15块饼干"
+        },
+        "tchinese": {
+          "name": "蛀牙的開始",
+          "description": "吃15塊餅乾"
+        }
+      }
+    },
+    "HARD_KNOCK_LIFE": {
+      "translations": {
+        "brazilian": {
+          "name": "Vida de cão",
+          "description": "Obtenha final ruim perdendo a batalha contra o chefe"
+        },
+        "english": {
+          "name": "Hard Knock Life",
+          "description": "Get Bad Ending from Losing Boss Battle"
+        },
+        "japanese": {
+          "name": "パパ…",
+          "description": "ボス戦で負けてバッドエンドを迎える"
+        },
+        "russian": {
+          "name": "Тяжелая участь",
+          "description": "Проиграть сражение с боссом и получить плохой конец"
+        },
+        "schinese": {
+          "name": "爸爸……",
+          "description": "在Boss战中落败，以迎来坏结局"
+        },
+        "tchinese": {
+          "name": "爸爸……",
+          "description": "在Boss戰中落敗，以迎來壞結局"
+        }
+      }
+    },
+    "ONTO_NEXT_ADVENTURE": {
+      "translations": {
+        "brazilian": {
+          "name": "Para a próxima aventura!",
+          "description": "Complete LiEat 1"
+        },
+        "english": {
+          "name": "Onto the Next Adventure!",
+          "description": "Finish LiEat 1"
+        },
+        "japanese": {
+          "name": "ねえ次どこ行くの？",
+          "description": "ライート１をクリア"
+        },
+        "russian": {
+          "name": "Вперед, навстречу приключениям!",
+          "description": "Пройти LiEat 1"
+        },
+        "schinese": {
+          "name": "呐，我们接下来要去哪儿？",
+          "description": "通关LiEat1"
+        },
+        "tchinese": {
+          "name": "吶，我們接下來要去哪兒？",
+          "description": "通關LiEat１"
+        }
+      }
+    },
+    "SATANIC_MESSAGES": {
+      "translations": {
+        "brazilian": {
+          "name": "Mensagens satânicas!",
+          "description": "Toque a faixa \"Mentiroso\" na menor velocidade no Pós-Jogo"
+        },
+        "english": {
+          "name": "Satanic Messages!",
+          "description": "Play Liar (music track) at the Slowest Speed in Post-game"
+        },
+        "japanese": {
+          "name": "のろわれてしまった！",
+          "description": "ミュージックプレイヤーで「Liar」を最低周波数で再生する"
+        },
+        "russian": {
+          "name": "Отзвук Сатаны!",
+          "description": "Поставить музыкальный трек \"Лжец\"  на самой низкой скорости (в бонус-комнате)"
+        },
+        "schinese": {
+          "name": "被诅咒了！",
+          "description": "用音乐播放器以最低频率播放「Liar」的曲子"
+        },
+        "tchinese": {
+          "name": "被詛咒了！",
+          "description": "用音樂播放器以最低頻率播放「Liar」的曲子"
+        }
+      }
+    },
+    "FOR_ORPHANS": {
+      "translations": {
+        "brazilian": {
+          "name": "Este dinheiro era dos órfãos!",
+          "description": "Roube o Dinheiro da Prateleira"
+        },
+        "english": {
+          "name": "That was for Orphans!",
+          "description": "Steal the Money from the Bookshelf"
+        },
+        "japanese": {
+          "name": "恵まれない私たちに愛の手を",
+          "description": "本棚のへそくりを盗む"
+        },
+        "russian": {
+          "name": "Это все для сирот!",
+          "description": "Стащить деньги с книжной полки"
+        },
+        "schinese": {
+          "name": "对不幸的我们伸出爱的援手",
+          "description": "偷走书架里的私房钱"
+        },
+        "tchinese": {
+          "name": "對不幸的我們伸出愛的援手",
+          "description": "偷走書架裡的私房錢"
+        }
+      }
+    },
+    "CMON_MAN": {
+      "translations": {
+        "brazilian": {
+          "name": "Qual é, cara!",
+          "description": "Lute contra a Mentira \"Não estou bêbada\""
+        },
+        "english": {
+          "name": "C'mon, Man",
+          "description": "Fight the \"I'm not drunk!\" Lie"
+        },
+        "japanese": {
+          "name": "こっちも酔っちゃいそう…",
+          "description": "「ヨっぱらッテ ナイよ！」うそを倒す"
+        },
+        "russian": {
+          "name": "Накатим по рюмочке",
+          "description": "Сразиться с ложью \"Я не пьян!\""
+        },
+        "schinese": {
+          "name": "人家也快要醉了……",
+          "description": "打倒「我才没有醉！」的谎言"
+        },
+        "tchinese": {
+          "name": "人家也快要醉了……",
+          "description": "打倒「我才沒有醉！」的謊言"
+        }
+      }
+    },
+    "APPLE_CARE": {
+      "translations": {
+        "brazilian": {
+          "name": "Fora da garantia",
+          "description": "Observe o Telefone Rachado de Hal"
+        },
+        "english": {
+          "name": "Shoulda Gotten Apple Care",
+          "description": "Find out about Hal's Cracked Phone"
+        },
+        "japanese": {
+          "name": "保証期間は過ぎてる",
+          "description": "ハルの携帯電話について話を聞く"
+        },
+        "russian": {
+          "name": "Техническая поддержка",
+          "description": "Узнать о сломанном телефоне Хала"
+        },
+        "schinese": {
+          "name": "已过了保固期",
+          "description": "询问Hal有关手机的事情"
+        },
+        "tchinese": {
+          "name": "已過了保固期",
+          "description": "詢問Hal有關手機的事情"
+        }
+      }
+    },
+    "BUSTED": {
+      "translations": {
+        "brazilian": {
+          "name": "BOCA NA BOTIJA!",
+          "description": "Lute contra a Mentira Namorada"
+        },
+        "english": {
+          "name": "BUSTED!",
+          "description": "Fight the Girlfriend Lie"
+        },
+        "japanese": {
+          "name": "オレ かノじょ ふらレた",
+          "description": "「オレ かノじょ いナい！」うそを倒す"
+        },
+        "russian": {
+          "name": "Меня бросили...",
+          "description": "Сразиться с ложью возлюбленной"
+        },
+        "schinese": {
+          "name": "我被女友甩了",
+          "description": "打倒「我没有女朋友！」的谎言"
+        },
+        "tchinese": {
+          "name": "我被女友甩了",
+          "description": "打倒「我沒有女朋友！」的謊言"
+        }
+      }
+    },
+    "PIED_PIPER": {
+      "translations": {
+        "brazilian": {
+          "name": "Dedetização",
+          "description": "Derrote três Ratos Azuis"
+        },
+        "english": {
+          "name": "Pied Piper",
+          "description": "Fight Three Blue Rats"
+        },
+        "japanese": {
+          "name": "ハーメルンの笛吹き",
+          "description": "青いネズミを三匹倒す"
+        },
+        "russian": {
+          "name": "Крысолов",
+          "description": "Сразиться с тремя синими крысами"
+        },
+        "schinese": {
+          "name": "哈美伦的吹笛手",
+          "description": "打倒三只蓝色老鼠"
+        },
+        "tchinese": {
+          "name": "哈美倫的吹笛手",
+          "description": "打倒三隻藍色老鼠"
+        }
+      }
+    },
+    "FIVE_MORE_MINUTES": {
+      "translations": {
+        "brazilian": {
+          "name": "Só mais cinco minutinhos",
+          "description": "Descanse duas vezes seguidas"
+        },
+        "english": {
+          "name": "Five More Minutes",
+          "description": "Rest Two Times in a Row"
+        },
+        "japanese": {
+          "name": "あと五分…",
+          "description": "二回続けて休む"
+        },
+        "russian": {
+          "name": "Ну еще пять минут!..",
+          "description": "Отдохнуть два раза подряд"
+        },
+        "schinese": {
+          "name": "再五分钟……",
+          "description": "连续休息两次"
+        },
+        "tchinese": {
+          "name": "再五分鐘……",
+          "description": "連續休息兩次"
+        }
+      }
+    },
+    "GOOD_APOLLO": {
+      "translations": {
+        "brazilian": {
+          "name": "Bom menino",
+          "description": "Cutuque Efi três vezes enquanto ela dorme"
+        },
+        "english": {
+          "name": "Good Apollo",
+          "description": "Poke Efi Three Times While Sleeping"
+        },
+        "japanese": {
+          "name": "ケーキがみっつ！",
+          "description": "寝ているエフィを三回突っつく"
+        },
+        "russian": {
+          "name": "Каков удалец!",
+          "description": "Пихнуть Эфи три раза, пока она спит"
+        },
+        "schinese": {
+          "name": "蛋糕三个！",
+          "description": "对沉睡中的Efi弹三次额头"
+        },
+        "tchinese": {
+          "name": "蛋糕三個！",
+          "description": "對沉睡中的Efi彈三次額頭"
+        }
+      }
+    },
+    "FIVE_SECOND_RULE": {
+      "translations": {
+        "brazilian": {
+          "name": "Regra dos cinco segundos",
+          "description": "Encontre o Doce de Cereja no Lixo"
+        },
+        "english": {
+          "name": "Five Second Rule",
+          "description": "Find the Cherry Candy in the Trash"
+        },
+        "japanese": {
+          "name": "３秒ルール",
+          "description": "ゴミの中からチェリーキャンディーを見つける"
+        },
+        "russian": {
+          "name": "Правило пяти секунд",
+          "description": "Найти Вишневую конфету среди мусора"
+        },
+        "schinese": {
+          "name": "5秒规则",
+          "description": "在垃圾堆中找到樱桃糖果"
+        },
+        "tchinese": {
+          "name": "３秒規則",
+          "description": "在垃圾堆中找到櫻桃糖果"
+        }
+      }
+    },
+    "GUY_PIERCE": {
+      "translations": {
+        "brazilian": {
+          "name": "Derrota de Napoleão",
+          "description": "Obtenha o final ruim perdendo para William"
+        },
+        "english": {
+          "name": "Guy Pierce",
+          "description": "Bad Ending, Lose to William"
+        },
+        "japanese": {
+          "name": "何が、あったのかな？",
+          "description": "ウィリアムに負けてバッドエンドを迎える"
+        },
+        "russian": {
+          "name": "Что же... Случилось?",
+          "description": "Проиграть Уильяму и получить плохой конец"
+        },
+        "schinese": {
+          "name": "发生了什么事？",
+          "description": "败给William以迎来坏结局"
+        },
+        "tchinese": {
+          "name": "發生了什麼事？",
+          "description": "敗給William以迎來壞結局"
+        }
+      }
+    },
+    "LEARNED_NOTHING": {
+      "translations": {
+        "brazilian": {
+          "name": "E nós não aprendemos NADA!",
+          "description": "Final bom"
+        },
+        "english": {
+          "name": "And We've Learned NOTHING!",
+          "description": "Good Ending"
+        },
+        "japanese": {
+          "name": "ドラゴンは人の想いや願いから生まれるって、本当かな？",
+          "description": "ライート２をクリア"
+        },
+        "russian": {
+          "name": "Мы НИЧЕГО не узнали!",
+          "description": "Хороший конец"
+        },
+        "schinese": {
+          "name": "龙是自人的思念和愿望中诞生的，这是真的吗？",
+          "description": "通关LiEat2"
+        },
+        "tchinese": {
+          "name": "龍是自人的思念和願望中誕生的，這是真的嗎？",
+          "description": "通關LiEat２"
+        }
+      }
+    },
+    "DUCK_SOUP": {
+      "translations": {
+        "brazilian": {
+          "name": "Sopa de Pato",
+          "description": "Encontre os Óculos Engraçados"
+        },
+        "english": {
+          "name": "Duck Soup",
+          "description": "Find the Funny Glasses"
+        },
+        "japanese": {
+          "name": "ひげドラゴン",
+          "description": "はなメガネを見つける"
+        },
+        "russian": {
+          "name": "Плевое дело",
+          "description": "Отыскать нелепые очки"
+        },
+        "schinese": {
+          "name": "长胡子的龙",
+          "description": "找到翘胡子眼镜"
+        },
+        "tchinese": {
+          "name": "長鬍子的龍",
+          "description": "找到翹鬍子眼鏡"
+        }
+      }
+    },
+    "FIRST_IMPRESSION": {
+      "translations": {
+        "brazilian": {
+          "name": "Excelente primeira impressão",
+          "description": "Peça que Iris analise você"
+        },
+        "english": {
+          "name": "Amazing First Impression",
+          "description": "Have Iris Analyze You"
+        },
+        "japanese": {
+          "name": "第一印象は肝心",
+          "description": "アイリスに分析される"
+        },
+        "russian": {
+          "name": "Хорошее первое впечатление",
+          "description": "Позволить Айрис проанализировать Вас"
+        },
+        "schinese": {
+          "name": "第一印象很重要",
+          "description": "让Iris分析过一次"
+        },
+        "tchinese": {
+          "name": "第一印象很重要",
+          "description": "讓Iris分析過一次"
+        }
+      }
+    },
+    "TIME_FOR_DREAMS": {
+      "translations": {
+        "brazilian": {
+          "name": "Sempre é hora de sonhar",
+          "description": "Durma na Cama na Investigação de Empregada"
+        },
+        "english": {
+          "name": "Always Time for Dreams",
+          "description": "Sleep in the Bed During the Maid Investigation"
+        },
+        "japanese": {
+          "name": "いつも夢のなか",
+          "description": "ウソつきメイドの調査中にベッドで寝る"
+        },
+        "russian": {
+          "name": "Никогда не поздно поспать",
+          "description": "Отдохнуть во время расследования инцидента с горничной"
+        },
+        "schinese": {
+          "name": "总是在梦中",
+          "description": "于调查骗子女仆的事件中在床上睡觉"
+        },
+        "tchinese": {
+          "name": "總是在夢中",
+          "description": "於調查騙子女僕的事件中在床上睡覺"
+        }
+      }
+    },
+    "IDDQD": {
+      "translations": {
+        "brazilian": {
+          "name": "IDDQD",
+          "description": "Encontre a Faca Lendária e o Biscoito"
+        },
+        "english": {
+          "name": "IDDQD",
+          "description": "Find the Legendary Knife and Cookie"
+        },
+        "japanese": {
+          "name": "最強装備",
+          "description": "伝説のナイフとクッキーを見つける"
+        },
+        "russian": {
+          "name": "Читер",
+          "description": "Отыскать Легендарные нож и печенье"
+        },
+        "schinese": {
+          "name": "最强装备",
+          "description": "找到传说之刀和传说之饼干"
+        },
+        "tchinese": {
+          "name": "最強裝備",
+          "description": "找到傳說之刀和傳說之餅乾"
+        }
+      }
+    },
+    "IRIS_UP": {
+      "translations": {
+        "brazilian": {
+          "name": "Café com Iris",
+          "description": "Junte-se à Iris"
+        },
+        "english": {
+          "name": "Iris Up Your Coffee?",
+          "description": "Pair up with Iris"
+        },
+        "japanese": {
+          "name": "護身用ナイフ",
+          "description": "アイリスと行動する"
+        },
+        "russian": {
+          "name": "Нож в сердце",
+          "description": "Образовать пару с Айрис"
+        },
+        "schinese": {
+          "name": "护身用小刀",
+          "description": "与Iris一同行动"
+        },
+        "tchinese": {
+          "name": "護身用小刀",
+          "description": "與Iris一同行動"
+        }
+      }
+    },
+    "ME_AND_NEILY": {
+      "translations": {
+        "brazilian": {
+          "name": "Eu, eu mesmo e Neil",
+          "description": "Junte-se ao Neil"
+        },
+        "english": {
+          "name": "Me and Neily McGee",
+          "description": "Pair up with Neil"
+        },
+        "japanese": {
+          "name": "大きな剣",
+          "description": "ニールと行動する"
+        },
+        "russian": {
+          "name": "Берсерк",
+          "description": "Образовать пару с Нилом"
+        },
+        "schinese": {
+          "name": "巨大宝剑",
+          "description": "与Neil一同行动"
+        },
+        "tchinese": {
+          "name": "巨大寶劍",
+          "description": "與Neil一同行動"
+        }
+      }
+    },
+    "BRETT_AND_BUTTER": {
+      "translations": {
+        "brazilian": {
+          "name": "Broa de Brett",
+          "description": "Junte-se ao Brett"
+        },
+        "english": {
+          "name": "Brett and Butter",
+          "description": "Pair up with Brett"
+        },
+        "japanese": {
+          "name": "シャドウ",
+          "description": "ブレットと行動する"
+        },
+        "russian": {
+          "name": "Под покровом полумрака",
+          "description": "Образовать пару с Бреттом"
+        },
+        "schinese": {
+          "name": "龙之影",
+          "description": "与Brett一同行动"
+        },
+        "tchinese": {
+          "name": "龍之影",
+          "description": "與Brett一同行動"
+        }
+      }
+    },
+    "BONNIE_AND_CLYDE": {
+      "translations": {
+        "brazilian": {
+          "name": "Bonnie e Clyde",
+          "description": "Final ruim"
+        },
+        "english": {
+          "name": "Bonnie and Clyde",
+          "description": "Bad Ending"
+        },
+        "japanese": {
+          "name": "元に…戻してあげるから",
+          "description": "バッドエンドを迎える"
+        },
+        "russian": {
+          "name": "Все вернется на круги своя...",
+          "description": "Плохой конец"
+        },
+        "schinese": {
+          "name": "让你……归于原貌",
+          "description": "迎来坏结局"
+        },
+        "tchinese": {
+          "name": "讓你……歸於原貌",
+          "description": "迎來壞結局"
+        }
+      }
+    },
+    "ALONE_AGAIN": {
+      "translations": {
+        "brazilian": {
+          "name": "Enfim só, naturalmente",
+          "description": "Final neutro"
+        },
+        "english": {
+          "name": "Alone Again, Naturally",
+          "description": "Neutral Ending"
+        },
+        "japanese": {
+          "name": "ばいばい、テオ",
+          "description": "ニュートラルエンドを迎える"
+        },
+        "russian": {
+          "name": "Прощай, Тео",
+          "description": "Конец"
+        },
+        "schinese": {
+          "name": "拜拜，Teo",
+          "description": "迎来普通结局"
+        },
+        "tchinese": {
+          "name": "拜拜，Teo",
+          "description": "迎來普通結局"
+        }
+      }
+    },
+    "LETS_GO": {
+      "translations": {
+        "brazilian": {
+          "name": "Explorando tudo!",
+          "description": "Final bom"
+        },
+        "english": {
+          "name": "Let's Go Exploring!",
+          "description": "Good Ending"
+        },
+        "japanese": {
+          "name": "お前には嘘をつかない。",
+          "description": "ライート３をクリア"
+        },
+        "russian": {
+          "name": "С тобой я буду честен",
+          "description": "Хороший конец"
+        },
+        "schinese": {
+          "name": "没有对你撒谎。",
+          "description": "通关LiEat3"
+        },
+        "tchinese": {
+          "name": "沒有對你撒謊。",
+          "description": "通關LiEat３"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "app_id": "209670",
+  "variant_id": "default",
+  "source_sha256": "31b5016827a8fa447e0866546e7cb50f472fd31797e2fa850419bb7be5e4fc68",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "CC_BOOTUP": {
+      "translations": {
+        "english": {
+          "name": "Hello There!",
+          "description": "Boot up the game."
+        },
+        "schinese": {
+          "name": "你好！",
+          "description": "启动游戏。"
+        }
+      }
+    },
+    "CC_WATCHINTRO": {
+      "translations": {
+        "english": {
+          "name": "So That's What It's About",
+          "description": "Watch the intro."
+        },
+        "schinese": {
+          "name": "原来是这么回事",
+          "description": "观看开场。"
+        }
+      }
+    },
+    "CC_WINTUTORIAL": {
+      "translations": {
+        "english": {
+          "name": "Aren't You Clever",
+          "description": "Win The Tutorial Level"
+        },
+        "schinese": {
+          "name": "你还挺聪明",
+          "description": "赢得教程关卡。"
+        }
+      }
+    },
+    "CC_5WORKSHOP": {
+      "translations": {
+        "english": {
+          "name": "These Guys Are Awesome!",
+          "description": "Download 5 workshop mods."
+        },
+        "schinese": {
+          "name": "这些家伙太棒了！",
+          "description": "下载5个创意工坊模组。"
+        }
+      }
+    },
+    "CC_WINMETAGAME": {
+      "translations": {
+        "english": {
+          "name": "One Star General",
+          "description": "Win the metagame."
+        },
+        "schinese": {
+          "name": "一星将军",
+          "description": "赢得元游戏。"
+        }
+      }
+    },
+    "CC_METAGAMEALLTECHS": {
+      "translations": {
+        "english": {
+          "name": "Disloyal Customer",
+          "description": "Win a metagame using every tech."
+        },
+        "schinese": {
+          "name": "不忠顾客",
+          "description": "使用每一种科技赢得一局元游戏。"
+        }
+      }
+    },
+    "CC_10CRABS": {
+      "translations": {
+        "english": {
+          "name": "Look Sir, Free Crabs!",
+          "description": "Save a preset with 10 crabs."
+        },
+        "schinese": {
+          "name": "长官，免费螃蟹！",
+          "description": "保存一个含有10只螃蟹的预设。"
+        }
+      }
+    },
+    "CC_WARTORN": {
+      "translations": {
+        "english": {
+          "name": "War Torn",
+          "description": "Fight 999 battles."
+        },
+        "schinese": {
+          "name": "饱经战火",
+          "description": "参加999场战斗。"
+        }
+      }
+    },
+    "CC_PYRRHICVICTORY": {
+      "translations": {
+        "english": {
+          "name": "Pyrrhic Victory",
+          "description": "Win a battle with more deaths than your enemy."
+        },
+        "schinese": {
+          "name": "皮洛士式胜利",
+          "description": "以比敌人更多的死亡数赢得一场战斗。"
+        }
+      }
+    },
+    "CC_TECHNICALWIN": {
+      "translations": {
+        "english": {
+          "name": "Technical Win",
+          "description": "Lose a battle with less deaths than the victor."
+        },
+        "schinese": {
+          "name": "技术性胜利",
+          "description": "死亡数少于胜者，却输掉一场战斗。"
+        }
+      }
+    },
+    "CC_MORECRABS": {
+      "translations": {
+        "english": {
+          "name": "Look Sir, Free-- OH GOD NO!",
+          "description": "Release 500 crabs on your enemies."
+        },
+        "schinese": {
+          "name": "长官，免费……天哪不要！",
+          "description": "向敌人释放500只螃蟹。"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2220 @@
+{
+  "version": 1,
+  "app_id": "201810",
+  "variant_id": "default",
+  "source_sha256": "35d0f153a4407c47373a32ec130b4d1f7476940b5843f987a996e7890fa8aa09",
+  "languages": [
+    "czech",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "ach_1": {
+      "translations": {
+        "czech": {
+          "name": "Střelec",
+          "description": "Zachraň spojenecké letouny"
+        },
+        "english": {
+          "name": "Gunner",
+          "description": "Save allied planes"
+        },
+        "french": {
+          "name": "Artilleur",
+          "description": "Protéger les avions alliés"
+        },
+        "german": {
+          "name": "Schütze",
+          "description": "Rette die Flugzeuge der Alliierten."
+        },
+        "italian": {
+          "name": "Mitragliere",
+          "description": "Salva gli aerei alleati"
+        },
+        "japanese": {
+          "name": "ガンナー",
+          "description": "仲間の飛行機を救出"
+        },
+        "polish": {
+          "name": "Strzelec",
+          "description": "Ocal alianckie samoloty."
+        },
+        "russian": {
+          "name": "Стрелок",
+          "description": "Спасти самолеты союзников"
+        },
+        "schinese": {
+          "name": "防空炮手",
+          "description": "救下盟军战机"
+        },
+        "spanish": {
+          "name": "Artillero",
+          "description": "Salva a los aviones aliados"
+        }
+      }
+    },
+    "ach_2": {
+      "translations": {
+        "czech": {
+          "name": "Fergus zachráněn",
+          "description": "Vyber si záchranu Ferguse"
+        },
+        "english": {
+          "name": "Fergus saved",
+          "description": "Choose to save Fergus"
+        },
+        "french": {
+          "name": "Fergus sauvé",
+          "description": "Choisir de sauver Fergus"
+        },
+        "german": {
+          "name": "Fergus gerettet",
+          "description": "Entscheide dich, Fergus zu retten."
+        },
+        "italian": {
+          "name": "Fergus vola ancora",
+          "description": "Scegli di salvare Fergus"
+        },
+        "japanese": {
+          "name": "ファーガス生存",
+          "description": "ファーガスを生かすことを選択"
+        },
+        "polish": {
+          "name": "Fergus ocalony",
+          "description": "Wybierz ocalenie Fergusa."
+        },
+        "russian": {
+          "name": "Фергюс спасен",
+          "description": "Спасти Фергюса"
+        },
+        "schinese": {
+          "name": "弗格斯生还",
+          "description": "选择营救弗格斯"
+        },
+        "spanish": {
+          "name": "Has salvado a Fergus",
+          "description": "Salva a Fergus"
+        }
+      }
+    },
+    "ach_3": {
+      "translations": {
+        "czech": {
+          "name": "Wyatt zachráněn",
+          "description": "Vyber si záchranu Wyatta"
+        },
+        "english": {
+          "name": "Wyatt saved",
+          "description": "Choose to save Wyatt"
+        },
+        "french": {
+          "name": "Wyatt sauvé",
+          "description": "Choisir de sauver Wyatt"
+        },
+        "german": {
+          "name": "Wyatt gerettet",
+          "description": "Entscheide dich, Wyatt zu retten."
+        },
+        "italian": {
+          "name": "Salvate il soldato Wyatt",
+          "description": "Scegli di salvare Wyatt"
+        },
+        "japanese": {
+          "name": "ワイアット生存",
+          "description": "ワイアットを生かすことを選択"
+        },
+        "polish": {
+          "name": "Wyatt ocalony",
+          "description": "Wybierz ocalenie Wyatta."
+        },
+        "russian": {
+          "name": "Вайат спасен",
+          "description": "Спасти Вайата"
+        },
+        "schinese": {
+          "name": "怀亚特生还",
+          "description": "选择营救怀亚特"
+        },
+        "spanish": {
+          "name": "Has salvado a Wyatt",
+          "description": "Salva a Wyatt"
+        }
+      }
+    },
+    "ach_4": {
+      "translations": {
+        "czech": {
+          "name": "Ať žije odboj!",
+          "description": "Najdi členy odboje"
+        },
+        "english": {
+          "name": "Vive la resistance!",
+          "description": "Locate the resistance"
+        },
+        "french": {
+          "name": "Vive la résistance !",
+          "description": "Localiser la résistance"
+        },
+        "german": {
+          "name": "Vive la Résistance!",
+          "description": "Finde den Widerstand."
+        },
+        "italian": {
+          "name": "Vive la résistance!",
+          "description": "Individua la resistenza"
+        },
+        "japanese": {
+          "name": "レジスタンス万歳！",
+          "description": "レジスタンスを見つけ出す"
+        },
+        "polish": {
+          "name": "Vive la resistance!",
+          "description": "Znajdź ruch oporu."
+        },
+        "russian": {
+          "name": "Vive La Resistance!",
+          "description": "Найти сопротивление"
+        },
+        "schinese": {
+          "name": "抵抗万岁",
+          "description": "找到抵抗组织据点"
+        },
+        "spanish": {
+          "name": "¡Vive la resistance!",
+          "description": "Localiza a la resistencia"
+        }
+      }
+    },
+    "ach_5": {
+      "translations": {
+        "czech": {
+          "name": "Síla laseru",
+          "description": "Najdi laserovou pušku"
+        },
+        "english": {
+          "name": "Power to the laser",
+          "description": "Find the Laserkraftwerk"
+        },
+        "french": {
+          "name": "Gloire au laser !",
+          "description": "Obtenir le LaserKraftWerk"
+        },
+        "german": {
+          "name": "Alle Macht dem Laser",
+          "description": "Finde das Laserkraftwerk."
+        },
+        "italian": {
+          "name": "Potere laser",
+          "description": "Trova il LaserKraftWerk"
+        },
+        "japanese": {
+          "name": "レーザーの力",
+          "description": "レーザークラフトワークを見つける"
+        },
+        "polish": {
+          "name": "Potęga lasera",
+          "description": "Znajdź Laserkraftwerk."
+        },
+        "russian": {
+          "name": "Луч надежды",
+          "description": "Найти \"Лазеркрафтверк\""
+        },
+        "schinese": {
+          "name": "激光威能",
+          "description": "获取激光重武器"
+        },
+        "spanish": {
+          "name": "Poder al láser",
+          "description": "Encuentra el Laserkraftwerk"
+        }
+      }
+    },
+    "ach_6": {
+      "translations": {
+        "czech": {
+          "name": "Ukryto v hlubinách",
+          "description": "Najdi podmořskou skrýš"
+        },
+        "english": {
+          "name": "Hidden in the deep",
+          "description": "Locate the underwater stash"
+        },
+        "french": {
+          "name": "Caché dans les profondeurs",
+          "description": "Localiser la cachette sous-marine"
+        },
+        "german": {
+          "name": "Verborgen in der Tiefe",
+          "description": "Finde das Unterwasserversteck."
+        },
+        "italian": {
+          "name": "Nascondiglio nelle profondità",
+          "description": "Trova la cripta subacquea"
+        },
+        "japanese": {
+          "name": "深く沈められた秘密",
+          "description": "水中に隠された物を見つける"
+        },
+        "polish": {
+          "name": "Ukryty w głębinach",
+          "description": "Znajdź podwodny magazyn."
+        },
+        "russian": {
+          "name": "Сокрытое в глубинах",
+          "description": "Найти подводный тайник"
+        },
+        "schinese": {
+          "name": "深海秘藏",
+          "description": "寻获水下藏匿点"
+        },
+        "spanish": {
+          "name": "Escondido en las profundidades",
+          "description": "Localiza el escondite bajo el agua"
+        }
+      }
+    },
+    "ach_7": {
+      "translations": {
+        "czech": {
+          "name": "Londýnské povstání",
+          "description": "Poraz Londýnského hlídače"
+        },
+        "english": {
+          "name": "London uprising",
+          "description": "Defeat the London Monitor"
+        },
+        "french": {
+          "name": "Le soulèvement de Londres",
+          "description": "Vaincre la Vigie de Londres"
+        },
+        "german": {
+          "name": "Aufstand in London",
+          "description": "Besiege das Auge von London."
+        },
+        "italian": {
+          "name": "Rivolta di Londra",
+          "description": "Sconfiggi il London Monitor"
+        },
+        "japanese": {
+          "name": "ロンドン暴動",
+          "description": "ロンドン・モニターを破壊する"
+        },
+        "polish": {
+          "name": "Powstanie londyńskie",
+          "description": "Pokonaj London Monitor."
+        },
+        "russian": {
+          "name": "Восстание в Лондоне",
+          "description": "Победить Лондонский монитор"
+        },
+        "schinese": {
+          "name": "伦敦烽烟",
+          "description": "击溃伦敦监守机甲"
+        },
+        "spanish": {
+          "name": "Sublevación de Londres",
+          "description": "Derrota al London Monitor"
+        }
+      }
+    },
+    "ach_8": {
+      "translations": {
+        "czech": {
+          "name": "Vykoupení",
+          "description": "Osvoboď přítele"
+        },
+        "english": {
+          "name": "Deliverance",
+          "description": "Release friend"
+        },
+        "french": {
+          "name": "Délivrance",
+          "description": "Libérer un ami"
+        },
+        "german": {
+          "name": "Rettung",
+          "description": "Befreie einen Freund."
+        },
+        "italian": {
+          "name": "Assoluzione",
+          "description": "Libera un vecchio amico"
+        },
+        "japanese": {
+          "name": "救出",
+          "description": "仲間を解放する"
+        },
+        "polish": {
+          "name": "Wybawienie",
+          "description": "Uwolnij przyjaciela."
+        },
+        "russian": {
+          "name": "Спасение",
+          "description": "Освободить друга"
+        },
+        "schinese": {
+          "name": "救赎",
+          "description": "解救被俘战友"
+        },
+        "spanish": {
+          "name": "Rescate",
+          "description": "Libera a un amigo"
+        }
+      }
+    },
+    "ach_9": {
+      "translations": {
+        "czech": {
+          "name": "Osvobození",
+          "description": "Dokonči hru na libovolnou obtížnost"
+        },
+        "english": {
+          "name": "Liberation",
+          "description": "Complete game on any difficulty"
+        },
+        "french": {
+          "name": "Libération",
+          "description": "Terminer le jeu dans n'importe quel mode de difficulté"
+        },
+        "german": {
+          "name": "Befreiung",
+          "description": "Schließe das Spiel mit beliebigem Schwierigkeitsgrad ab."
+        },
+        "italian": {
+          "name": "Liberazione",
+          "description": "Completa il gioco a qualsiasi difficoltà"
+        },
+        "japanese": {
+          "name": "解放",
+          "description": "いずれかの難易度でゲームをクリアする"
+        },
+        "polish": {
+          "name": "Wyzwolenie",
+          "description": "Ukończ grę na dowolnym poziomie trudności."
+        },
+        "russian": {
+          "name": "Освобождение",
+          "description": "Пройти игру на любой сложности"
+        },
+        "schinese": {
+          "name": "解放",
+          "description": "任意难度通关游戏"
+        },
+        "spanish": {
+          "name": "Liberación",
+          "description": "Acaba cualquier modo"
+        }
+      }
+    },
+    "ach_10": {
+      "translations": {
+        "czech": {
+          "name": "Superhrdina",
+          "description": "Dokonči hru na obtížnost JSEM ZTĚLESNĚNÍM SMRTI! (nebo NADČLOVĚK)"
+        },
+        "english": {
+          "name": "Super hero",
+          "description": "Complete game on I AM DEATH INCARNATE! (or ÜBER)"
+        },
+        "french": {
+          "name": "Ouf malade !",
+          "description": "Terminer le jeu en mode JE SUIS LA MORT INCARNÉE ! (ou ÜBER)"
+        },
+        "german": {
+          "name": "Superheld",
+          "description": "Schließe das Spiel mit Schwierigkeitsgrad DER LEIBHAFTIGE TOD oder EXTREM ab."
+        },
+        "italian": {
+          "name": "Super eroe",
+          "description": "Completa il gioco a difficoltà SONO IL MIETITORE! (o ÜBER)"
+        },
+        "japanese": {
+          "name": "スーパーヒーロー",
+          "description": "ハード(またはベリーハード)でゲームをクリアする"
+        },
+        "polish": {
+          "name": "Superbohater",
+          "description": "Ukończ grę na poziomie trudności „JESTEM WCIELENIEM ŚMIERCI!” (lub „ÜBER”)."
+        },
+        "russian": {
+          "name": "Настоящий боец",
+          "description": "Пройти игру на сложности \"Я ВОПЛОЩЕНИЕ СМЕРТИ!\" (или ÜBER)"
+        },
+        "schinese": {
+          "name": "铁血英雄",
+          "description": "以「死神转生」难度通关"
+        },
+        "spanish": {
+          "name": "Superhéroe",
+          "description": "Completa el juego en ¡SOY MUERTE Y DESTRUCCIÓN! (o en ÜBER)"
+        }
+      }
+    },
+    "ach_11": {
+      "translations": {
+        "czech": {
+          "name": "Nadlidský hrdina",
+          "description": "Dokonči hru na obtížnost NADČLOVĚK"
+        },
+        "english": {
+          "name": "Über hero",
+          "description": "Complete game on ÜBER"
+        },
+        "french": {
+          "name": "Plus que ça. Surpuissant !",
+          "description": "Terminer le jeu en mode ÜBER"
+        },
+        "german": {
+          "name": "Legendärer Superheld",
+          "description": "Schließe das Spiel mit Schwierigkeitsgrad EXTREM ab."
+        },
+        "italian": {
+          "name": "Über eroe",
+          "description": "Completa il gioco a difficoltà ÜBER"
+        },
+        "japanese": {
+          "name": "ユーバーヒーロー",
+          "description": "ベリーハードでゲームをクリアする"
+        },
+        "polish": {
+          "name": "Überbohater",
+          "description": "Ukończ grę na poziomie trudności „ÜBER”."
+        },
+        "russian": {
+          "name": "Убер-боец",
+          "description": "Пройти игру на сложности ÜBER"
+        },
+        "schinese": {
+          "name": "究极战士",
+          "description": "以「究极」难度通关"
+        },
+        "spanish": {
+          "name": "Überhéroe",
+          "description": "Acaba el modo ÜBER"
+        }
+      }
+    },
+    "ach_12": {
+      "translations": {
+        "czech": {
+          "name": "Všechno, co se třpytí",
+          "description": "Najdi 25 zlatých předmětů"
+        },
+        "english": {
+          "name": "All that glitters",
+          "description": "Collect 25 gold items"
+        },
+        "french": {
+          "name": "Oh, la belle prise !",
+          "description": "Récupérer 25 trésors"
+        },
+        "german": {
+          "name": "Glanzleistung",
+          "description": "Sammle 25 goldene Gegenstände."
+        },
+        "italian": {
+          "name": "Oggetti luccicanti",
+          "description": "Recupera 25 oggetti d'oro"
+        },
+        "japanese": {
+          "name": "きんきらきん",
+          "description": "ゴールドアイテムを25個集める"
+        },
+        "polish": {
+          "name": "Wszystko, co się świeci",
+          "description": "Zbierz 25 złotych przedmiotów."
+        },
+        "russian": {
+          "name": "Все, что блестит",
+          "description": "Найти 25 золотых предметов"
+        },
+        "schinese": {
+          "name": "烁金遗珍",
+          "description": "收集 25 件黄金藏品"
+        },
+        "spanish": {
+          "name": "Todo lo que reluce",
+          "description": "Reúne 25 objetos de oro"
+        }
+      }
+    },
+    "ach_13": {
+      "translations": {
+        "czech": {
+          "name": "Srdce ze zlata",
+          "description": "Najdi všechny zlaté předměty"
+        },
+        "english": {
+          "name": "Heart of gold",
+          "description": "Collect all gold items"
+        },
+        "french": {
+          "name": "Homme le plus classe du monde",
+          "description": "Récupérer tous les objets en or"
+        },
+        "german": {
+          "name": "Herz aus Gold",
+          "description": "Sammle alle goldenen Gegenstände."
+        },
+        "italian": {
+          "name": "Cuore d'oro",
+          "description": "Recupera tutti gli oggetti d'oro"
+        },
+        "japanese": {
+          "name": "大富豪",
+          "description": "ゴールドアイテムを全て集める"
+        },
+        "polish": {
+          "name": "Złote serce",
+          "description": "Zbierz wszystkie złote przedmioty."
+        },
+        "russian": {
+          "name": "Богатенький сукин сын",
+          "description": "Найти все золотые предметы"
+        },
+        "schinese": {
+          "name": "赤金之心",
+          "description": "集齐全部黄金藏品"
+        },
+        "spanish": {
+          "name": "Corazón de oro",
+          "description": "Reúne todos los objetos de oro"
+        }
+      }
+    },
+    "ach_14": {
+      "translations": {
+        "czech": {
+          "name": "Životy těch druhých",
+          "description": "Najdi všechny dopisy"
+        },
+        "english": {
+          "name": "The lives of others",
+          "description": "Collect all letters"
+        },
+        "french": {
+          "name": "La vie des autres",
+          "description": "Récupérer toutes les lettres"
+        },
+        "german": {
+          "name": "Das Leben der Anderen",
+          "description": "Sammle alle Briefe."
+        },
+        "italian": {
+          "name": "Le vite degli altri",
+          "description": "Recupera tutte le lettere"
+        },
+        "japanese": {
+          "name": "色々な人生",
+          "description": "レターを全て集める"
+        },
+        "polish": {
+          "name": "Życie na podsłuchu",
+          "description": "Zbierz wszystkie listy."
+        },
+        "russian": {
+          "name": "Чужие жизни",
+          "description": "Найти все письма"
+        },
+        "schinese": {
+          "name": "众生往事",
+          "description": "集齐全部人物信件"
+        },
+        "spanish": {
+          "name": "La vida de los otros",
+          "description": "Reúne todas las cartas"
+        }
+      }
+    },
+    "ach_15": {
+      "translations": {
+        "czech": {
+          "name": "Odhalené tajemství - I",
+          "description": "Vyřeš první kód Enigmy"
+        },
+        "english": {
+          "name": "Secrets revealed I",
+          "description": "Solve the first Enigma code"
+        },
+        "french": {
+          "name": "Secrets révélés I",
+          "description": "Résoudre le premier code secret"
+        },
+        "german": {
+          "name": "Geheimnisse aufgedeckt (I)",
+          "description": "Löse den ersten Enigma-Code."
+        },
+        "italian": {
+          "name": "Segreti svelati I",
+          "description": "Risolvi il 1° codice Enigma"
+        },
+        "japanese": {
+          "name": "秘密の解読 I",
+          "description": "1つ目のエニグマコードを解く"
+        },
+        "polish": {
+          "name": "Odkryte sekrety I",
+          "description": "Złam pierwszy szyfr Enigmy."
+        },
+        "russian": {
+          "name": "Тайное становится явным I",
+          "description": "Расшифровать первый код \"Энигмы\""
+        },
+        "schinese": {
+          "name": "密码破译 Ⅰ",
+          "description": "破解第一组英尼格玛密码"
+        },
+        "spanish": {
+          "name": "Secretos revelados I",
+          "description": "Descifra el primer código Enigma"
+        }
+      }
+    },
+    "ach_16": {
+      "translations": {
+        "czech": {
+          "name": "Odhalené tajemství - II",
+          "description": "Vyřeš druhý kód Enigmy"
+        },
+        "english": {
+          "name": "Secrets revealed II",
+          "description": "Solve the second Enigma code"
+        },
+        "french": {
+          "name": "Secrets révélés II",
+          "description": "Résoudre le deuxième code secret"
+        },
+        "german": {
+          "name": "Geheimnisse aufgedeckt (II)",
+          "description": "Löse den zweiten Enigma-Code."
+        },
+        "italian": {
+          "name": "Segreti svelati II",
+          "description": "Risolvi il 2° codice Enigma"
+        },
+        "japanese": {
+          "name": "秘密の解読 II",
+          "description": "2つ目のエニグマコードを解く"
+        },
+        "polish": {
+          "name": "Odkryte sekrety II",
+          "description": "Złam drugi szyfr Enigmy."
+        },
+        "russian": {
+          "name": "Тайное становится явным II",
+          "description": "Расшифровать второй код \"Энигмы\""
+        },
+        "schinese": {
+          "name": "密码破译 Ⅱ",
+          "description": "破解第二组英尼格玛密码"
+        },
+        "spanish": {
+          "name": "Secretos revelados II",
+          "description": "Descifra el segundo código Enigma"
+        }
+      }
+    },
+    "ach_17": {
+      "translations": {
+        "czech": {
+          "name": "Odhalené tajemství - III",
+          "description": "Vyřeš třetí kód Enigmy"
+        },
+        "english": {
+          "name": "Secrets revealed III",
+          "description": "Solve the third Enigma code"
+        },
+        "french": {
+          "name": "Secrets révélés III",
+          "description": "Résoudre le troisième code secret"
+        },
+        "german": {
+          "name": "Geheimnisse aufgedeckt (III)",
+          "description": "Löse den dritten Enigma-Code."
+        },
+        "italian": {
+          "name": "Segreti svelati III",
+          "description": "Risolvi il 3° codice Enigma"
+        },
+        "japanese": {
+          "name": "秘密の解読 III",
+          "description": "3つ目のエニグマコードを解く"
+        },
+        "polish": {
+          "name": "Odkryte sekrety III",
+          "description": "Złam trzeci szyfr Enigmy."
+        },
+        "russian": {
+          "name": "Тайное становится явным III",
+          "description": "Расшифровать третий код \"Энигмы\""
+        },
+        "schinese": {
+          "name": "密码破译 Ⅲ",
+          "description": "破解第三组英尼格玛密码"
+        },
+        "spanish": {
+          "name": "Secretos revelados III",
+          "description": "Descifra el tercer código Enigma"
+        }
+      }
+    },
+    "ach_18": {
+      "translations": {
+        "czech": {
+          "name": "Odhalené tajemství - IV",
+          "description": "Vyřeš čtvrtý kód Enigmy"
+        },
+        "english": {
+          "name": "Secrets revealed IV",
+          "description": "Solve the fourth Enigma code"
+        },
+        "french": {
+          "name": "Secrets révélés IV",
+          "description": "Résoudre le quatrième code secret"
+        },
+        "german": {
+          "name": "Geheimnisse aufgedeckt (IV)",
+          "description": "Löse den vierten Enigma-Code."
+        },
+        "italian": {
+          "name": "Segreti svelati IV",
+          "description": "Risolvi il 4° codice Enigma"
+        },
+        "japanese": {
+          "name": "秘密の解読 IV",
+          "description": "4つ目のエニグマコードを解く"
+        },
+        "polish": {
+          "name": "Odkryte sekrety IV",
+          "description": "Złam czwarty szyfr Enigmy."
+        },
+        "russian": {
+          "name": "Тайное становится явным IV",
+          "description": "Расшифровать четвертый код \"Энигмы\""
+        },
+        "schinese": {
+          "name": "密码破译 Ⅳ",
+          "description": "破解第四组英尼格玛密码"
+        },
+        "spanish": {
+          "name": "Secretos revelados IV",
+          "description": "Descifra el cuarto código Enigma"
+        }
+      }
+    },
+    "ach_19": {
+      "translations": {
+        "czech": {
+          "name": "Zvěd I",
+          "description": "Odemkni 1. schopnost plížení"
+        },
+        "english": {
+          "name": "Scout I",
+          "description": "Unlock stealth perk 1"
+        },
+        "french": {
+          "name": "Éclaireur I",
+          "description": "Débloquer l'atout furtif 1"
+        },
+        "german": {
+          "name": "Späher (I)",
+          "description": "Schalte Heimlichkeitsvorteil 1 frei."
+        },
+        "italian": {
+          "name": "Scout I",
+          "description": "Sblocca talento di furtività 1"
+        },
+        "japanese": {
+          "name": "スカウト I",
+          "description": "STEALTH PERK 1を解除"
+        },
+        "polish": {
+          "name": "Zwiadowca I",
+          "description": "Odblokuj pierwszą umiejętność działania w ukryciu."
+        },
+        "russian": {
+          "name": "Разведчик I",
+          "description": "Получить перк скрытности 1"
+        },
+        "schinese": {
+          "name": "斥候 Ⅰ",
+          "description": "解锁潜行专长 1"
+        },
+        "spanish": {
+          "name": "Explorador I",
+          "description": "Abre la ventaja de infiltración 1"
+        }
+      }
+    },
+    "ach_20": {
+      "translations": {
+        "czech": {
+          "name": "Házení nožem",
+          "description": "Odemkni 2. schopnost plížení"
+        },
+        "english": {
+          "name": "Knife throwing",
+          "description": "Unlock stealth perk 2"
+        },
+        "french": {
+          "name": "Lancer de couteau",
+          "description": "Débloquer l'atout furtif 2"
+        },
+        "german": {
+          "name": "Messerwerfer",
+          "description": "Schalte Heimlichkeitsvorteil 2 frei."
+        },
+        "italian": {
+          "name": "Lancio coltello",
+          "description": "Sblocca talento di furtività 2"
+        },
+        "japanese": {
+          "name": "ナイフ投げ",
+          "description": "STEALTH PERK 2を解除"
+        },
+        "polish": {
+          "name": "Rzucanie nożami",
+          "description": "Odblokuj drugą umiejętność działania w ukryciu."
+        },
+        "russian": {
+          "name": "Метание ножей",
+          "description": "Получить перк скрытности 2"
+        },
+        "schinese": {
+          "name": "飞刀术",
+          "description": "解锁潜行专长 2"
+        },
+        "spanish": {
+          "name": "Lanzar cuchillos",
+          "description": "Abre la ventaja de infiltración 2"
+        }
+      }
+    },
+    "ach_21": {
+      "translations": {
+        "czech": {
+          "name": "Pouzdro na nůž +",
+          "description": "Odemkni 3. schopnost plížení"
+        },
+        "english": {
+          "name": "Knife sheath +",
+          "description": "Unlock stealth perk 3"
+        },
+        "french": {
+          "name": "Étui à couteaux +",
+          "description": "Débloquer l'atout furtif 3"
+        },
+        "german": {
+          "name": "Messerscheide +",
+          "description": "Schalte Heimlichkeitsvorteil 3 frei."
+        },
+        "italian": {
+          "name": "Fodero coltello +",
+          "description": "Sblocca talento di furtività 3"
+        },
+        "japanese": {
+          "name": "ナイフの鞘 +",
+          "description": "STEALTH PERK 3を解除"
+        },
+        "polish": {
+          "name": "Pochwa na nóż +",
+          "description": "Odblokuj trzecią umiejętność działania w ukryciu."
+        },
+        "russian": {
+          "name": "Ножевая перевязь +",
+          "description": "Получить перк скрытности 3"
+        },
+        "schinese": {
+          "name": "刀鞘扩容 Ⅰ",
+          "description": "解锁潜行专长 3"
+        },
+        "spanish": {
+          "name": "Vaina de cuchillo +",
+          "description": "Abre la ventaja de infiltración 3"
+        }
+      }
+    },
+    "ach_22": {
+      "translations": {
+        "czech": {
+          "name": "Pouzdro na nůž ++",
+          "description": "Odemkni 4. schopnost plížení"
+        },
+        "english": {
+          "name": "Knife sheath ++",
+          "description": "Unlock stealth perk 4"
+        },
+        "french": {
+          "name": "Étui à couteaux ++",
+          "description": "Débloquer l'atout furtif 4"
+        },
+        "german": {
+          "name": "Messerscheide ++",
+          "description": "Schalte Heimlichkeitsvorteil 4 frei."
+        },
+        "italian": {
+          "name": "Fodero coltello ++",
+          "description": "Sblocca talento di furtività 4"
+        },
+        "japanese": {
+          "name": "ナイフの鞘 ++",
+          "description": "STEALTH PERK 4を解除"
+        },
+        "polish": {
+          "name": "Pochwa na nóż ++",
+          "description": "Odblokuj czwartą umiejętność działania w ukryciu."
+        },
+        "russian": {
+          "name": "Ножевая перевязь ++",
+          "description": "Получить перк скрытности 4"
+        },
+        "schinese": {
+          "name": "刀鞘扩容 Ⅱ",
+          "description": "解锁潜行专长 4"
+        },
+        "spanish": {
+          "name": "Vaina de cuchillo ++",
+          "description": "Abre la ventaja de infiltración 4"
+        }
+      }
+    },
+    "ach_23": {
+      "translations": {
+        "czech": {
+          "name": "Tichá střela",
+          "description": "Odemkni 5. schopnost plížení"
+        },
+        "english": {
+          "name": "Silent shot",
+          "description": "Unlock stealth perk 5"
+        },
+        "french": {
+          "name": "Tir silencieux",
+          "description": "Débloquer l'atout furtif 5"
+        },
+        "german": {
+          "name": "Leiser Schuss",
+          "description": "Schalte Heimlichkeitsvorteil 5 frei."
+        },
+        "italian": {
+          "name": "Colpi silenziosi",
+          "description": "Sblocca talento di furtività 5"
+        },
+        "japanese": {
+          "name": "サイレントショット",
+          "description": "STEALTH PERK 5を解除"
+        },
+        "polish": {
+          "name": "Cichy strzał",
+          "description": "Odblokuj piątą umiejętność działania w ukryciu."
+        },
+        "russian": {
+          "name": "Бесшумная стрельба",
+          "description": "Получить перк скрытности 5"
+        },
+        "schinese": {
+          "name": "消音射击",
+          "description": "解锁潜行专长 5"
+        },
+        "spanish": {
+          "name": "Disparo en silencio",
+          "description": "Abre la ventaja de infiltración 5"
+        }
+      }
+    },
+    "ach_24": {
+      "translations": {
+        "czech": {
+          "name": "Upír",
+          "description": "Odemkni 6. schopnost plížení"
+        },
+        "english": {
+          "name": "Vampire",
+          "description": "Unlock stealth perk 6"
+        },
+        "french": {
+          "name": "Vampire",
+          "description": "Débloquer l'atout furtif 6"
+        },
+        "german": {
+          "name": "Vampir",
+          "description": "Schalte Heimlichkeitsvorteil 6 frei."
+        },
+        "italian": {
+          "name": "Vampiro",
+          "description": "Sblocca talento di furtività 6"
+        },
+        "japanese": {
+          "name": "バンパイア",
+          "description": "STEALTH PERK 6を解除"
+        },
+        "polish": {
+          "name": "Wampir",
+          "description": "Odblokuj szóstą umiejętność działania w ukryciu."
+        },
+        "russian": {
+          "name": "Вампир",
+          "description": "Получить перк скрытности 6"
+        },
+        "schinese": {
+          "name": "汲血猎手",
+          "description": "解锁潜行专长 6"
+        },
+        "spanish": {
+          "name": "Vampiro",
+          "description": "Abre la ventaja de infiltración 6"
+        }
+      }
+    },
+    "ach_25": {
+      "translations": {
+        "czech": {
+          "name": "Zvěd II",
+          "description": "Odemkni 7. schopnost plížení"
+        },
+        "english": {
+          "name": "Scout II",
+          "description": "Unlock stealth perk 7"
+        },
+        "french": {
+          "name": "Éclaireur II",
+          "description": "Débloquer l'atout furtif 7"
+        },
+        "german": {
+          "name": "Späher (II)",
+          "description": "Schalte Heimlichkeitsvorteil 7 frei."
+        },
+        "italian": {
+          "name": "Scout II",
+          "description": "Sblocca talento di furtività 7"
+        },
+        "japanese": {
+          "name": "スカウト II",
+          "description": "STEALTH PERK 7を解除"
+        },
+        "polish": {
+          "name": "Zwiadowca II",
+          "description": "Odblokuj siódmą umiejętność działania w ukryciu."
+        },
+        "russian": {
+          "name": "Разведчик II",
+          "description": "Получить перк скрытности 7"
+        },
+        "schinese": {
+          "name": "斥候 Ⅱ",
+          "description": "解锁潜行专长 7"
+        },
+        "spanish": {
+          "name": "Explorador II",
+          "description": "Abre la ventaja de infiltración 7"
+        }
+      }
+    },
+    "ach_26": {
+      "translations": {
+        "czech": {
+          "name": "Zabiják",
+          "description": "Odemkni 8. schopnost plížení"
+        },
+        "english": {
+          "name": "Assassin",
+          "description": "Unlock stealth perk 8"
+        },
+        "french": {
+          "name": "Assassin",
+          "description": "Débloquer l'atout furtif 8"
+        },
+        "german": {
+          "name": "Attentäter",
+          "description": "Schalte Heimlichkeitsvorteil 8 frei."
+        },
+        "italian": {
+          "name": "Assassino",
+          "description": "Sblocca talento di furtività 8"
+        },
+        "japanese": {
+          "name": "アサシン",
+          "description": "STEALTH PERK 8を解除"
+        },
+        "polish": {
+          "name": "Zabójca",
+          "description": "Odblokuj ósmą umiejętność działania w ukryciu."
+        },
+        "russian": {
+          "name": "Ассасин",
+          "description": "Получить перк скрытности 8"
+        },
+        "schinese": {
+          "name": "暗影刺客",
+          "description": "解锁潜行专长 8"
+        },
+        "spanish": {
+          "name": "Asesino",
+          "description": "Abre la ventaja de infiltración 8"
+        }
+      }
+    },
+    "ach_27": {
+      "translations": {
+        "czech": {
+          "name": "Sokolí oko",
+          "description": "Odemkni 1. taktickou schopnost"
+        },
+        "english": {
+          "name": "Deadeye",
+          "description": "Unlock tactical perk 1"
+        },
+        "french": {
+          "name": "Œil de lynx",
+          "description": "Débloquer l'atout tactique 1"
+        },
+        "german": {
+          "name": "Todsicher",
+          "description": "Schalte Taktikvorteil 1 frei."
+        },
+        "italian": {
+          "name": "Occhio di falco",
+          "description": "Sblocca il talento di tattica 1"
+        },
+        "japanese": {
+          "name": "デッドアイ",
+          "description": "TACTICAL PERK 1を解除"
+        },
+        "polish": {
+          "name": "Sokole oko",
+          "description": "Odblokuj pierwszą umiejętność taktyczną."
+        },
+        "russian": {
+          "name": "Снайпер",
+          "description": "Получить тактический перк 1"
+        },
+        "schinese": {
+          "name": "百步穿杨",
+          "description": "解锁战术专长 1"
+        },
+        "spanish": {
+          "name": "Certero",
+          "description": "Abre la ventaja táctica 1"
+        }
+      }
+    },
+    "ach_28": {
+      "translations": {
+        "czech": {
+          "name": "Rychle tasení",
+          "description": "Odemkni 2. taktickou schopnost"
+        },
+        "english": {
+          "name": "Quick draw",
+          "description": "Unlock tactical perk 2"
+        },
+        "french": {
+          "name": "Dégaine rapide",
+          "description": "Débloquer l'atout tactique 2"
+        },
+        "german": {
+          "name": "Schnelles Ziehen",
+          "description": "Schalte Taktikvorteil 2 frei."
+        },
+        "italian": {
+          "name": "Estrazione rapida",
+          "description": "Sblocca il talento di tattica 2"
+        },
+        "japanese": {
+          "name": "クイックドロー",
+          "description": "TACTICAL PERK 2を解除"
+        },
+        "polish": {
+          "name": "Szybkie wyciąganie",
+          "description": "Odblokuj drugą umiejętność taktyczną."
+        },
+        "russian": {
+          "name": "Быстрая реакция",
+          "description": "Получить тактический перк 2"
+        },
+        "schinese": {
+          "name": "极速拔枪",
+          "description": "解锁战术专长 2"
+        },
+        "spanish": {
+          "name": "Desenfundar rápido",
+          "description": "Abre la ventaja táctica 2"
+        }
+      }
+    },
+    "ach_29": {
+      "translations": {
+        "czech": {
+          "name": "Rychlá regenerace",
+          "description": "Odemkni 3. taktickou schopnost"
+        },
+        "english": {
+          "name": "Quick regeneration",
+          "description": "Unlock tactical perk 3"
+        },
+        "french": {
+          "name": "Régénération rapide",
+          "description": "Débloquer l'atout tactique 3"
+        },
+        "german": {
+          "name": "Schnelle Regeneration",
+          "description": "Schalte Taktikvorteil 3 frei."
+        },
+        "italian": {
+          "name": "Rigenerazione rapida",
+          "description": "Sblocca il talento di tattica 3"
+        },
+        "japanese": {
+          "name": "クイックリジェネレーション",
+          "description": "TACTICAL PERK 3を解除"
+        },
+        "polish": {
+          "name": "Szybka regeneracja",
+          "description": "Odblokuj trzecią umiejętność taktyczną."
+        },
+        "russian": {
+          "name": "Быстрая регенерация",
+          "description": "Получить тактический перк 3"
+        },
+        "schinese": {
+          "name": "极速回血",
+          "description": "解锁战术专长 3"
+        },
+        "spanish": {
+          "name": "Regeneración rápida",
+          "description": "Abre la ventaja táctica 3"
+        }
+      }
+    },
+    "ach_30": {
+      "translations": {
+        "czech": {
+          "name": "Zásobník pistole +",
+          "description": "Odemkni 4. taktickou schopnost"
+        },
+        "english": {
+          "name": "Gun magazine +",
+          "description": "Unlock tactical perk 4"
+        },
+        "french": {
+          "name": "Chargeur pistolet +",
+          "description": "Débloquer l'atout tactique 4"
+        },
+        "german": {
+          "name": "Pistolenmagazin +",
+          "description": "Schalte Taktikvorteil 4 frei."
+        },
+        "italian": {
+          "name": "Caricatore pistola +",
+          "description": "Sblocca il talento di tattica 4"
+        },
+        "japanese": {
+          "name": "ハンドガンのマガジン +",
+          "description": "TACTICAL PERK 4を解除"
+        },
+        "polish": {
+          "name": "Magazynek pistoletu +",
+          "description": "Odblokuj czwartą umiejętność taktyczną."
+        },
+        "russian": {
+          "name": "Магазин пистолета +",
+          "description": "Получить тактический перк 4"
+        },
+        "schinese": {
+          "name": "手枪弹夹扩容",
+          "description": "解锁战术专长 4"
+        },
+        "spanish": {
+          "name": "Cargador de pistola +",
+          "description": "Abre la ventaja táctica 4"
+        }
+      }
+    },
+    "ach_31": {
+      "translations": {
+        "czech": {
+          "name": "Zásobník brokovnice +",
+          "description": "Odemkni 5. taktickou schopnost"
+        },
+        "english": {
+          "name": "Shotgun magazine +",
+          "description": "Unlock tactical perk 5"
+        },
+        "french": {
+          "name": "Chargeur fusil à pompe +",
+          "description": "Débloquer l'atout tactique 5"
+        },
+        "german": {
+          "name": "Schrotflintenmagazin +",
+          "description": "Schalte Taktikvorteil 5 frei."
+        },
+        "italian": {
+          "name": "Caricatore fucile a pompa +",
+          "description": "Sblocca il talento di tattica 5"
+        },
+        "japanese": {
+          "name": "ショットガンのマガジン +",
+          "description": "TACTICAL PERK 5を解除"
+        },
+        "polish": {
+          "name": "Magazynek strzelby +",
+          "description": "Odblokuj piątą umiejętność taktyczną."
+        },
+        "russian": {
+          "name": "Магазин дробовика +",
+          "description": "Получить тактический перк 5"
+        },
+        "schinese": {
+          "name": "霰弹枪弹夹扩容",
+          "description": "解锁战术专长 5"
+        },
+        "spanish": {
+          "name": "Cargador de escopeta +",
+          "description": "Abre la ventaja táctica 5"
+        }
+      }
+    },
+    "ach_32": {
+      "translations": {
+        "czech": {
+          "name": "Zásobník útočné pušky +",
+          "description": "Odemkni 6. taktickou schopnost"
+        },
+        "english": {
+          "name": "AR magazine +",
+          "description": "Unlock tactical perk 6"
+        },
+        "french": {
+          "name": "Chargeur fusil d'assaut +",
+          "description": "Débloquer l'atout tactique 6"
+        },
+        "german": {
+          "name": "SG-Magazin +",
+          "description": "Schalte Taktikvorteil 6 frei."
+        },
+        "italian": {
+          "name": "Caricatore fucile d'assalto +",
+          "description": "Sblocca il talento di tattica 6"
+        },
+        "japanese": {
+          "name": "アサルトライフルのマガジン +",
+          "description": "TACTICAL PERK 6を解除"
+        },
+        "polish": {
+          "name": "Magazynek ks +",
+          "description": "Odblokuj szóstą umiejętność taktyczną."
+        },
+        "russian": {
+          "name": "Магазин автомата +",
+          "description": "Получить тактический перк 6"
+        },
+        "schinese": {
+          "name": "步枪弹夹扩容",
+          "description": "解锁战术专长 6"
+        },
+        "spanish": {
+          "name": "Cargador de fusil de asalto +",
+          "description": "Abre la ventaja táctica 6"
+        }
+      }
+    },
+    "ach_33": {
+      "translations": {
+        "czech": {
+          "name": "Zásobník odstřelovačky +",
+          "description": "Odemkni 7. taktickou schopnost"
+        },
+        "english": {
+          "name": "Marksman magazine +",
+          "description": "Unlock tactical perk 7"
+        },
+        "french": {
+          "name": "Chargeur fusil à lunette +",
+          "description": "Débloquer l'atout tactique 7"
+        },
+        "german": {
+          "name": "Scharfschützenmagazin +",
+          "description": "Schalte Taktikvorteil 7 frei."
+        },
+        "italian": {
+          "name": "Caricatore fucile precisione +",
+          "description": "Sblocca il talento di tattica 7"
+        },
+        "japanese": {
+          "name": "マークスマンライフルのマガジン +",
+          "description": "TACTICAL PERK 7を解除"
+        },
+        "polish": {
+          "name": "Magazynek snajperki +",
+          "description": "Odblokuj siódmą umiejętność taktyczną."
+        },
+        "russian": {
+          "name": "Магазин снайперской винтовки +",
+          "description": "Получить тактический перк 7"
+        },
+        "schinese": {
+          "name": "狙击枪弹夹扩容",
+          "description": "解锁战术专长 7"
+        },
+        "spanish": {
+          "name": "Cargador de francotirador +",
+          "description": "Abre la ventaja táctica 7"
+        }
+      }
+    },
+    "ach_34": {
+      "translations": {
+        "czech": {
+          "name": "Rychlé nabíjení",
+          "description": "Odemkni 8. taktickou schopnost"
+        },
+        "english": {
+          "name": "Quick reload",
+          "description": "Unlock tactical perk 8"
+        },
+        "french": {
+          "name": "Rechargement rapide",
+          "description": "Débloquer l'atout tactique 8"
+        },
+        "german": {
+          "name": "Schnelles Nachladen",
+          "description": "Schalte Taktikvorteil 8 frei."
+        },
+        "italian": {
+          "name": "Ricarica rapida",
+          "description": "Sblocca il talento di tattica 8"
+        },
+        "japanese": {
+          "name": "クイックリロード",
+          "description": "TACTICAL PERK 8を解除"
+        },
+        "polish": {
+          "name": "Szybkie przeładowanie",
+          "description": "Odblokuj ósmą umiejętność taktyczną."
+        },
+        "russian": {
+          "name": "Быстрая перезарядка",
+          "description": "Получить тактический перк 8"
+        },
+        "schinese": {
+          "name": "迅疾换弹",
+          "description": "解锁战术专长 8"
+        },
+        "spanish": {
+          "name": "Recarga rápida",
+          "description": "Abre la ventaja táctica 8"
+        }
+      }
+    },
+    "ach_35": {
+      "translations": {
+        "czech": {
+          "name": "Dvojité nabíjení",
+          "description": "Odemkni 1. útočnou schopnost"
+        },
+        "english": {
+          "name": "Double reload",
+          "description": "Unlock assault perk 1"
+        },
+        "french": {
+          "name": "Double rechargement",
+          "description": "Débloquer l'atout d'attaque 1"
+        },
+        "german": {
+          "name": "Doppeltes Nachladen",
+          "description": "Schalte Angriffsvorteil 1 frei."
+        },
+        "italian": {
+          "name": "Doppia ricarica",
+          "description": "Sblocca il talento di assalto 1"
+        },
+        "japanese": {
+          "name": "ダブルリロード",
+          "description": "ASSAULT PERK 1を解除"
+        },
+        "polish": {
+          "name": "Podwójne przeładowanie",
+          "description": "Odblokuj pierwszą umiejętność szturmową."
+        },
+        "russian": {
+          "name": "Двойная перезарядка",
+          "description": "Получить боевой перк 1"
+        },
+        "schinese": {
+          "name": "双路速换",
+          "description": "解锁突击专长 1"
+        },
+        "spanish": {
+          "name": "Doble recarga",
+          "description": "Abre la ventaja de asalto 1"
+        }
+      }
+    },
+    "ach_36": {
+      "translations": {
+        "czech": {
+          "name": "Výdrž I",
+          "description": "Odemkni 2. útočnou schopnost"
+        },
+        "english": {
+          "name": "Endurance I",
+          "description": "Unlock assault perk 2"
+        },
+        "french": {
+          "name": "Endurance I",
+          "description": "Débloquer l'atout d'attaque 2"
+        },
+        "german": {
+          "name": "Ausdauer (I)",
+          "description": "Schalte Angriffsvorteil 2 frei."
+        },
+        "italian": {
+          "name": "Resistenza I",
+          "description": "Sblocca il talento di assalto 2"
+        },
+        "japanese": {
+          "name": "持久力 I",
+          "description": "ASSAULT PERK 2を解除"
+        },
+        "polish": {
+          "name": "Wytrzymałość I",
+          "description": "Odblokuj drugą umiejętność szturmową."
+        },
+        "russian": {
+          "name": "Выносливость I",
+          "description": "Получить боевой перк 2"
+        },
+        "schinese": {
+          "name": "耐力 Ⅰ",
+          "description": "解锁突击专长 2"
+        },
+        "spanish": {
+          "name": "Tesón I",
+          "description": "Abre la ventaja de asalto 2"
+        }
+      }
+    },
+    "ach_37": {
+      "translations": {
+        "czech": {
+          "name": "Mrchožrout",
+          "description": "Odemkni 3. útočnou schopnost"
+        },
+        "english": {
+          "name": "Scavenger",
+          "description": "Unlock assault perk 3"
+        },
+        "french": {
+          "name": "Charognard",
+          "description": "Débloquer l'atout d'attaque 3"
+        },
+        "german": {
+          "name": "Beutejäger",
+          "description": "Schalte Angriffsvorteil 3 frei."
+        },
+        "italian": {
+          "name": "Sciacallo",
+          "description": "Sblocca il talento di assalto 3"
+        },
+        "japanese": {
+          "name": "スカベンジャー",
+          "description": "ASSAULT PERK 3を解除"
+        },
+        "polish": {
+          "name": "Organizator",
+          "description": "Odblokuj trzecią umiejętność szturmową."
+        },
+        "russian": {
+          "name": "Искатель",
+          "description": "Получить боевой перк 3"
+        },
+        "schinese": {
+          "name": "战地搜刮",
+          "description": "解锁突击专长 3"
+        },
+        "spanish": {
+          "name": "Carroñero",
+          "description": "Abre la ventaja de asalto 3"
+        }
+      }
+    },
+    "ach_38": {
+      "translations": {
+        "czech": {
+          "name": "Podavač nábojů",
+          "description": "Odemkni 4. útočnou schopnost"
+        },
+        "english": {
+          "name": "Bullet feeder",
+          "description": "Unlock assault perk 4"
+        },
+        "french": {
+          "name": "Distributeur de balles",
+          "description": "Débloquer l'atout d'attaque 4"
+        },
+        "german": {
+          "name": "Nachlader",
+          "description": "Schalte Angriffsvorteil 4 frei."
+        },
+        "italian": {
+          "name": "Armamenti pesanti",
+          "description": "Sblocca il talento di assalto 4"
+        },
+        "japanese": {
+          "name": "バレット・フィーダー",
+          "description": "ASSAULT PERK 4を解除"
+        },
+        "polish": {
+          "name": "Podaj nabój",
+          "description": "Odblokuj czwartą umiejętność szturmową."
+        },
+        "russian": {
+          "name": "Подающий механизм",
+          "description": "Получить боевой перк 4"
+        },
+        "schinese": {
+          "name": "弹链供弹",
+          "description": "解锁突击专长 4"
+        },
+        "spanish": {
+          "name": "Alimentador de munición",
+          "description": "Abre la ventaja de asalto 4"
+        }
+      }
+    },
+    "ach_39": {
+      "translations": {
+        "czech": {
+          "name": "Výdrž II",
+          "description": "Odemkni 5. útočnou schopnost"
+        },
+        "english": {
+          "name": "Endurance II",
+          "description": "Unlock assault perk 5"
+        },
+        "french": {
+          "name": "Endurance II",
+          "description": "Débloquer l'atout d'attaque 5"
+        },
+        "german": {
+          "name": "Ausdauer (II)",
+          "description": "Schalte Angriffsvorteil 5 frei."
+        },
+        "italian": {
+          "name": "Resistenza II",
+          "description": "Sblocca il talento di assalto 5"
+        },
+        "japanese": {
+          "name": "持久力 II",
+          "description": "ASSAULT PERK 5を解除"
+        },
+        "polish": {
+          "name": "Wytrzymałość II",
+          "description": "Odblokuj piątą umiejętność szturmową."
+        },
+        "russian": {
+          "name": "Выносливость II",
+          "description": "Получить боевой перк 5"
+        },
+        "schinese": {
+          "name": "耐力 Ⅱ",
+          "description": "解锁突击专长 5"
+        },
+        "spanish": {
+          "name": "Tesón II",
+          "description": "Abre la ventaja de asalto 5"
+        }
+      }
+    },
+    "ach_40": {
+      "translations": {
+        "czech": {
+          "name": "Automatický pancíř",
+          "description": "Odemkni 6. útočnou schopnost"
+        },
+        "english": {
+          "name": "Autopanzer",
+          "description": "Unlock assault perk 6"
+        },
+        "french": {
+          "name": "Autopanzer",
+          "description": "Débloquer l'atout d'attaque 6"
+        },
+        "german": {
+          "name": "Automatische Panzerung",
+          "description": "Schalte Angriffsvorteil 6 frei."
+        },
+        "italian": {
+          "name": "Autopanzer",
+          "description": "Sblocca il talento di assalto 6"
+        },
+        "japanese": {
+          "name": "オートパンツァー",
+          "description": "ASSAULT PERK 6を解除"
+        },
+        "polish": {
+          "name": "Autopanzer",
+          "description": "Odblokuj szóstą umiejętność szturmową."
+        },
+        "russian": {
+          "name": "Автопанцер",
+          "description": "Получить боевой перк 6"
+        },
+        "schinese": {
+          "name": "机甲克星",
+          "description": "解锁突击专长 6"
+        },
+        "spanish": {
+          "name": "Autopánzer",
+          "description": "Abre la ventaja de asalto 6"
+        }
+      }
+    },
+    "ach_41": {
+      "translations": {
+        "czech": {
+          "name": "Baterie laserové pušky +",
+          "description": "Odemkni 7. útočnou schopnost"
+        },
+        "english": {
+          "name": "LKW battery +",
+          "description": "Unlock assault perk 7"
+        },
+        "french": {
+          "name": "Batterie +",
+          "description": "Débloquer l'atout d'attaque 7"
+        },
+        "german": {
+          "name": "L.K.W.-Batterie +",
+          "description": "Schalte Angriffsvorteil 7 frei."
+        },
+        "italian": {
+          "name": "Batteria +",
+          "description": "Sblocca il talento di assalto 7"
+        },
+        "japanese": {
+          "name": "バッテリー +",
+          "description": "ASSAULT PERK 7を解除"
+        },
+        "polish": {
+          "name": "Akumulator +",
+          "description": "Odblokuj siódmą umiejętność szturmową."
+        },
+        "russian": {
+          "name": "Аккумулятор \"Лазеркрафтверк\" +",
+          "description": "Получить боевой перк 7"
+        },
+        "schinese": {
+          "name": "激光电池扩容",
+          "description": "解锁突击专长 7"
+        },
+        "spanish": {
+          "name": "Batería +",
+          "description": "Abre la ventaja de asalto 7"
+        }
+      }
+    },
+    "ach_42": {
+      "translations": {
+        "czech": {
+          "name": "Mistr dvou zbraní",
+          "description": "Odemkni 8. útočnou schopnost"
+        },
+        "english": {
+          "name": "Dual-wield expert",
+          "description": "Unlock assault perk 8"
+        },
+        "french": {
+          "name": "Expert combat à deux armes",
+          "description": "Débloquer l'atout d'attaque 8"
+        },
+        "german": {
+          "name": "Akimbo-Profi",
+          "description": "Schalte Angriffsvorteil 8 frei."
+        },
+        "italian": {
+          "name": "Esperto con doppia arma",
+          "description": "Sblocca il talento di assalto 8"
+        },
+        "japanese": {
+          "name": "両手持ちの達人",
+          "description": "ASSAULT PERK 8を解除"
+        },
+        "polish": {
+          "name": "Ekspert dwóch broni",
+          "description": "Odblokuj ósmą umiejętność szturmową."
+        },
+        "russian": {
+          "name": "Амбидекстр",
+          "description": "Получить боевой перк 8"
+        },
+        "schinese": {
+          "name": "双持大师",
+          "description": "解锁突击专长 8"
+        },
+        "spanish": {
+          "name": "Experto con dos armas",
+          "description": "Abre la ventaja de asalto 8"
+        }
+      }
+    },
+    "ach_43": {
+      "translations": {
+        "czech": {
+          "name": "Vráceno odesílateli",
+          "description": "Odemkni 1. demoliční schopnost"
+        },
+        "english": {
+          "name": "Throwback",
+          "description": "Unlock demolition perk 1"
+        },
+        "french": {
+          "name": "Retour à l'envoyeur",
+          "description": "Débloquer l'atout de démolition 1"
+        },
+        "german": {
+          "name": "Zurückwerfen",
+          "description": "Schalte Zerstörungsvorteil 1 frei."
+        },
+        "italian": {
+          "name": "Lancio al mittente",
+          "description": "Sblocca talento di demolizione 1"
+        },
+        "japanese": {
+          "name": "スローバック",
+          "description": "DEMOLITION PERK 1を解除"
+        },
+        "polish": {
+          "name": "Odrzut",
+          "description": "Odblokuj pierwszą umiejętność saperską."
+        },
+        "russian": {
+          "name": "Обратный бросок",
+          "description": "Получить перк взрывотехника 1"
+        },
+        "schinese": {
+          "name": "手雷回掷",
+          "description": "解锁爆破专长 1"
+        },
+        "spanish": {
+          "name": "Responder",
+          "description": "Abre la ventaja de demolición 1"
+        }
+      }
+    },
+    "ach_44": {
+      "translations": {
+        "czech": {
+          "name": "Kapsa na granát +",
+          "description": "Odemkni 2. demoliční schopnost"
+        },
+        "english": {
+          "name": "Grenade pouch +",
+          "description": "Unlock demolition perk 2"
+        },
+        "french": {
+          "name": "Poche à grenades +",
+          "description": "Débloquer l'atout de démolition 2"
+        },
+        "german": {
+          "name": "Granatentasche +",
+          "description": "Schalte Zerstörungsvorteil 2 frei."
+        },
+        "italian": {
+          "name": "Portagranate +",
+          "description": "Sblocca talento di demolizione 2"
+        },
+        "japanese": {
+          "name": "グレネードポーチ +",
+          "description": "DEMOLITION PERK 2を解除"
+        },
+        "polish": {
+          "name": "Torba na granaty +",
+          "description": "Odblokuj drugą umiejętność saperską."
+        },
+        "russian": {
+          "name": "Сумка с гранатами +",
+          "description": "Получить перк взрывотехника 2"
+        },
+        "schinese": {
+          "name": "手雷袋扩容 Ⅰ",
+          "description": "解锁爆破专长 2"
+        },
+        "spanish": {
+          "name": "Bolsa de granadas +",
+          "description": "Abre la ventaja de demolición 2"
+        }
+      }
+    },
+    "ach_45": {
+      "translations": {
+        "czech": {
+          "name": "Kapsa na granát ++",
+          "description": "Odemkni 3. demoliční schopnost"
+        },
+        "english": {
+          "name": "Grenade pouch ++",
+          "description": "Unlock demolition perk 3"
+        },
+        "french": {
+          "name": "Poche à grenades ++",
+          "description": "Débloquer l'atout de démolition 3"
+        },
+        "german": {
+          "name": "Granatentasche ++",
+          "description": "Schalte Zerstörungsvorteil 3 frei."
+        },
+        "italian": {
+          "name": "Portagranate ++",
+          "description": "Sblocca talento di demolizione 3"
+        },
+        "japanese": {
+          "name": "グレネードポーチ ++",
+          "description": "DEMOLITION PERK 3を解除"
+        },
+        "polish": {
+          "name": "Torba na granaty ++",
+          "description": "Odblokuj trzecią umiejętność saperską."
+        },
+        "russian": {
+          "name": "Сумка с гранатами ++",
+          "description": "Получить перк взрывотехника 3"
+        },
+        "schinese": {
+          "name": "手雷袋扩容 Ⅱ",
+          "description": "解锁爆破专长 3"
+        },
+        "spanish": {
+          "name": "Bolsa de granadas ++",
+          "description": "Abre la ventaja de demolición 3"
+        }
+      }
+    },
+    "ach_46": {
+      "translations": {
+        "czech": {
+          "name": "Přímo do černého",
+          "description": "Odemkni 4. demoliční schopnost"
+        },
+        "english": {
+          "name": "Bullseye",
+          "description": "Unlock demolition perk 4"
+        },
+        "french": {
+          "name": "Dans le mille",
+          "description": "Débloquer l'atout de démolition 4"
+        },
+        "german": {
+          "name": "Volltreffer",
+          "description": "Schalte Zerstörungsvorteil 4 frei."
+        },
+        "italian": {
+          "name": "Centro!",
+          "description": "Sblocca talento di demolizione 4"
+        },
+        "japanese": {
+          "name": "ブルズ・アイ",
+          "description": "DEMOLITION PERK 4を解除"
+        },
+        "polish": {
+          "name": "W dziesiątkę",
+          "description": "Odblokuj czwartą umiejętność saperską."
+        },
+        "russian": {
+          "name": "В яблочко",
+          "description": "Получить перк взрывотехника 4"
+        },
+        "schinese": {
+          "name": "精准投掷",
+          "description": "解锁爆破专长 4"
+        },
+        "spanish": {
+          "name": "Diana",
+          "description": "Abre la ventaja de demolición 4"
+        }
+      }
+    },
+    "ach_47": {
+      "translations": {
+        "czech": {
+          "name": "Zásobník raketometu +",
+          "description": "Odemkni 5. demoliční schopnost"
+        },
+        "english": {
+          "name": "Rocket magazine +",
+          "description": "Unlock demolition perk 5"
+        },
+        "french": {
+          "name": "Roquettes +",
+          "description": "Débloquer l'atout de démolition 5"
+        },
+        "german": {
+          "name": "Raketenmagazin +",
+          "description": "Schalte Zerstörungsvorteil 5 frei."
+        },
+        "italian": {
+          "name": "Scorte razzi +",
+          "description": "Sblocca talento di demolizione 5"
+        },
+        "japanese": {
+          "name": "ロケットマガジン +",
+          "description": "DEMOLITION PERK 5を解除"
+        },
+        "polish": {
+          "name": "Magazynek rakietnicy +",
+          "description": "Odblokuj piątą umiejętność saperską."
+        },
+        "russian": {
+          "name": "Ракеты +",
+          "description": "Получить перк взрывотехника 5"
+        },
+        "schinese": {
+          "name": "火箭弹扩容",
+          "description": "解锁爆破专长 5"
+        },
+        "spanish": {
+          "name": "Cargador de cohetes +",
+          "description": "Abre la ventaja de demolición 5"
+        }
+      }
+    },
+    "ach_48": {
+      "translations": {
+        "czech": {
+          "name": "Prchavost",
+          "description": "Odemkni 6. demoliční schopnost"
+        },
+        "english": {
+          "name": "Vaporize",
+          "description": "Unlock demolition perk 6"
+        },
+        "french": {
+          "name": "Vaporisation",
+          "description": "Débloquer l'atout de démolition 6"
+        },
+        "german": {
+          "name": "Verdampfen",
+          "description": "Schalte Zerstörungsvorteil 6 frei."
+        },
+        "italian": {
+          "name": "Vaporizzare",
+          "description": "Sblocca talento di demolizione 6"
+        },
+        "japanese": {
+          "name": "爆風",
+          "description": "DEMOLITION PERK 6を解除"
+        },
+        "polish": {
+          "name": "Odparowanie",
+          "description": "Odblokuj szóstą umiejętność saperską."
+        },
+        "russian": {
+          "name": "Супервзрывчатка",
+          "description": "Получить перк взрывотехника 6"
+        },
+        "schinese": {
+          "name": "气化焚灭",
+          "description": "解锁爆破专长 6"
+        },
+        "spanish": {
+          "name": "Vaporizar",
+          "description": "Abre la ventaja de demolición 6"
+        }
+      }
+    },
+    "ach_49": {
+      "translations": {
+        "czech": {
+          "name": "Opatrnost",
+          "description": "Odemkni 7. demoliční schopnost"
+        },
+        "english": {
+          "name": "Sentinel",
+          "description": "Unlock demolition perk 7"
+        },
+        "french": {
+          "name": "Sentinelle",
+          "description": "Débloquer l'atout de démolition 7"
+        },
+        "german": {
+          "name": "Wächter",
+          "description": "Schalte Zerstörungsvorteil 7 frei."
+        },
+        "italian": {
+          "name": "Sentinella",
+          "description": "Sblocca talento di demolizione 7"
+        },
+        "japanese": {
+          "name": "センチネル",
+          "description": "DEMOLITION PERK 7を解除"
+        },
+        "polish": {
+          "name": "Strażnik",
+          "description": "Odblokuj siódmą umiejętność saperską."
+        },
+        "russian": {
+          "name": "Страж",
+          "description": "Получить перк взрывотехника 7"
+        },
+        "schinese": {
+          "name": "坚守反击",
+          "description": "解锁爆破专长 7"
+        },
+        "spanish": {
+          "name": "Centinela",
+          "description": "Abre la ventaja de demolición 7"
+        }
+      }
+    },
+    "ach_50": {
+      "translations": {
+        "czech": {
+          "name": "Otrlost",
+          "description": "Odemkni 8. demoliční schopnost"
+        },
+        "english": {
+          "name": "Hardened",
+          "description": "Unlock demolition perk 8"
+        },
+        "french": {
+          "name": "Blindage",
+          "description": "Débloquer l'atout de démolition 8"
+        },
+        "german": {
+          "name": "Gestählt",
+          "description": "Schalte Zerstörungsvorteil 8 frei."
+        },
+        "italian": {
+          "name": "Temprato",
+          "description": "Sblocca talento di demolizione 8"
+        },
+        "japanese": {
+          "name": "冷淡",
+          "description": "DEMOLITION PERK 8を解除"
+        },
+        "polish": {
+          "name": "Zaprawiony",
+          "description": "Odblokuj ósmą umiejętność saperską."
+        },
+        "russian": {
+          "name": "Крепыш",
+          "description": "Получить перк взрывотехника 8"
+        },
+        "schinese": {
+          "name": "爆破专家",
+          "description": "解锁爆破专长 8"
+        },
+        "spanish": {
+          "name": "Curtido",
+          "description": "Abre la ventaja de demolición 8"
+        }
+      }
+    }
+  }
+}
