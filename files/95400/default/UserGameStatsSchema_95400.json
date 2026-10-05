@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "app_id": "95400",
+  "variant_id": "default",
+  "source_sha256": "87ad706084d67835f8aaf92c1327e82306b83362a9a216199d52b29770c362a9",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "REWARDS_FULL_ZEN": {
+      "translations": {
+        "english": {
+          "name": "Full Zen",
+          "description": "Get the highest possible score on all levels."
+        },
+        "schinese": {
+          "name": "大彻大悟",
+          "description": "在所有关卡中取得最高分"
+        }
+      }
+    },
+    "REWARDS_PARTY": {
+      "translations": {
+        "english": {
+          "name": "Party",
+          "description": "Make it to the party at the end of the game."
+        },
+        "schinese": {
+          "name": "派对时间",
+          "description": "参加游戏结束时的派对"
+        }
+      }
+    },
+    "REWARDS_ALL_CRYSTALS": {
+      "translations": {
+        "english": {
+          "name": "All Crystals",
+          "description": "Collect all hidden crystals."
+        },
+        "schinese": {
+          "name": "全部水晶",
+          "description": "收集所有隐藏水晶"
+        }
+      }
+    },
+    "REWARDS_COLLECTION_COMPLETE": {
+      "translations": {
+        "english": {
+          "name": "Collection Complete",
+          "description": "Visit all regular and secret levels."
+        },
+        "schinese": {
+          "name": "全数探索",
+          "description": "到达所有普通关卡和隐藏关卡"
+        }
+      }
+    },
+    "REWARDS_FIRST_CRYSTAL": {
+      "translations": {
+        "english": {
+          "name": "First Crystal",
+          "description": "Collect a hidden crystal."
+        },
+        "schinese": {
+          "name": "首颗水晶",
+          "description": "收集一颗隐藏水晶"
+        }
+      }
+    },
+    "REWARDS_SMALL_ZEN": {
+      "translations": {
+        "english": {
+          "name": "Small Zen",
+          "description": "Get the highest possible score on a level."
+        },
+        "schinese": {
+          "name": "小彻小悟",
+          "description": "在一个关卡中取得最高分"
+        }
+      }
+    },
+    "REWARDS_KING_UBB": {
+      "translations": {
+        "english": {
+          "name": "King ubb",
+          "description": "Find ubb and make him king."
+        },
+        "schinese": {
+          "name": "ubb王",
+          "description": "找到并让 ubb 成为国王"
+        }
+      }
+    },
+    "REWARDS_QUALITY_TIME": {
+      "translations": {
+        "english": {
+          "name": "Quality Time",
+          "description": "Bounce a Fin back and forth 10 times."
+        },
+        "schinese": {
+          "name": "欢乐时光",
+          "description": "让一个 Fin 在双方之间来回弹跳十次"
+        }
+      }
+    },
+    "REWARDS_FALLCROBATICS": {
+      "translations": {
+        "english": {
+          "name": "Fallcrobatics",
+          "description": "Fall through six different warps without landing."
+        },
+        "schinese": {
+          "name": "坠落杂技",
+          "description": "不落地连续穿过六个不同的传送通道"
+        }
+      }
+    },
+    "REWARDS_MINT_CONDITION": {
+      "translations": {
+        "english": {
+          "name": "Mint Condition",
+          "description": "Finish a level without dying."
+        },
+        "schinese": {
+          "name": "完好如初",
+          "description": "不死亡的情况下完成一个关卡"
+        }
+      }
+    }
+  }
+}

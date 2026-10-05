@@ -1,0 +1,1176 @@
+{
+  "version": 1,
+  "app_id": "2477010",
+  "variant_id": "default",
+  "source_sha256": "35ab48bf559463a76d27874a549ce8945e2617e663445f8df4585ac021ddecd6",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "ACH_GAME_PLAYED": {
+      "translations": {
+        "english": {
+          "name": "Maiden voyage",
+          "description": "Complete your first game"
+        },
+        "schinese": {
+          "name": "首航",
+          "description": "完成你的第一局游戏"
+        }
+      }
+    },
+    "ACH_ALL_COLOURS": {
+      "translations": {
+        "english": {
+          "name": "Trainbow",
+          "description": "Win a game using each colour train at least once"
+        },
+        "schinese": {
+          "name": "彩虹列车",
+          "description": "每种颜色的列车都至少使用一次并赢得一局游戏"
+        }
+      }
+    },
+    "ACH_ALL_TICKETS_COMPLETE": {
+      "translations": {
+        "english": {
+          "name": "No cancellations",
+          "description": "Win a game without any uncompleted tickets"
+        },
+        "schinese": {
+          "name": "无票取消",
+          "description": "赢得一局游戏，且没有任何未完成车票"
+        }
+      }
+    },
+    "ACH_WIN_EASY": {
+      "translations": {
+        "english": {
+          "name": "Out of the station",
+          "description": "Win against 4 Easy bots in one game"
+        },
+        "schinese": {
+          "name": "驶出车站",
+          "description": "在一局游戏中击败 4 个简单机器人"
+        }
+      }
+    },
+    "ACH_GAMES_PLAYED_10": {
+      "translations": {
+        "english": {
+          "name": "Gandy Dancer",
+          "description": "Play 10 games"
+        },
+        "schinese": {
+          "name": "铁路工",
+          "description": "游玩 10 局游戏"
+        }
+      }
+    },
+    "ACH_WIN_NO_DRAW": {
+      "translations": {
+        "english": {
+          "name": "First come, first served",
+          "description": "Win a game without drawing any extra tickets"
+        },
+        "schinese": {
+          "name": "先到先得",
+          "description": "不额外抽取车票并赢得一局游戏"
+        }
+      }
+    },
+    "ACH_25_TICKETS": {
+      "translations": {
+        "english": {
+          "name": "Ticket agent",
+          "description": "Complete 25 tickets"
+        },
+        "schinese": {
+          "name": "票务代理",
+          "description": "完成 25 张车票"
+        }
+      }
+    },
+    "ACH_LAST_TURN_TICKET": {
+      "translations": {
+        "english": {
+          "name": "Tight schedule",
+          "description": "Complete your last ticket on your final turn"
+        },
+        "schinese": {
+          "name": "紧凑时刻表",
+          "description": "在最后一回合完成你的最后一张车票"
+        }
+      }
+    },
+    "ACH_DRAW_COMPLETE_TICKET": {
+      "translations": {
+        "english": {
+          "name": "Well prepared",
+          "description": "Draw a completed ticket on your final turn"
+        },
+        "schinese": {
+          "name": "准备充分",
+          "description": "在最后一回合抽到一张已经完成的车票"
+        }
+      }
+    },
+    "ACH_GAMES_PLAYED_50": {
+      "translations": {
+        "english": {
+          "name": "Foreman",
+          "description": "Play 50 games"
+        },
+        "schinese": {
+          "name": "工头",
+          "description": "游玩 50 局游戏"
+        }
+      }
+    },
+    "ACH_125_TICKETS": {
+      "translations": {
+        "english": {
+          "name": "Ticket inspector",
+          "description": "Complete 125 tickets"
+        },
+        "schinese": {
+          "name": "检票员",
+          "description": "完成 125 张车票"
+        }
+      }
+    },
+    "ACH_WIN_NORMAL": {
+      "translations": {
+        "english": {
+          "name": "Down the track",
+          "description": "Win against 4 Normal bots in one game"
+        },
+        "schinese": {
+          "name": "沿轨前行",
+          "description": "在一局游戏中击败 4 个普通机器人"
+        }
+      }
+    },
+    "ACH_TICKET_POINTS_10": {
+      "translations": {
+        "english": {
+          "name": "High Roller",
+          "description": "Win a game while only completing tickets that reward 10 or more points"
+        },
+        "schinese": {
+          "name": "豪赌客",
+          "description": "只完成奖励 10 分或以上的车票并赢得一局游戏"
+        }
+      }
+    },
+    "ACH_NO_6_ROUTES": {
+      "translations": {
+        "english": {
+          "name": "The scenic route",
+          "description": "Win a game without claiming any 6 length routes"
+        },
+        "schinese": {
+          "name": "风景路线",
+          "description": "不占用任何长度为 6 的路线并赢得一局游戏"
+        }
+      }
+    },
+    "ACH_FROM_LAST_TO_FIRST": {
+      "translations": {
+        "english": {
+          "name": "The big comeback!",
+          "description": "Win after being last before scoring tickets and longest route"
+        },
+        "schinese": {
+          "name": "大逆转！",
+          "description": "在车票和最长路线计分前排名最后，最终赢得游戏"
+        }
+      }
+    },
+    "ACH_WIN_HARD": {
+      "translations": {
+        "english": {
+          "name": "Full Steam",
+          "description": "Win against 4 Hard bots in one game"
+        },
+        "schinese": {
+          "name": "全速前进",
+          "description": "在一局游戏中击败 4 个困难机器人"
+        }
+      }
+    },
+    "ACH_NO_LOCOMOTIVES": {
+      "translations": {
+        "english": {
+          "name": "No Loco",
+          "description": "Win without using any locomotive cards"
+        },
+        "schinese": {
+          "name": "不用火车头",
+          "description": "不使用任何火车头牌并获胜"
+        }
+      }
+    },
+    "ACH_GAMES_PLAYED_100": {
+      "translations": {
+        "english": {
+          "name": "Superintendent",
+          "description": "Play 100 games"
+        },
+        "schinese": {
+          "name": "总监",
+          "description": "游玩 100 局游戏"
+        }
+      }
+    },
+    "ACH_250_TICKETS": {
+      "translations": {
+        "english": {
+          "name": "Conductor",
+          "description": "Complete 250 tickets"
+        },
+        "schinese": {
+          "name": "列车长",
+          "description": "完成 250 张车票"
+        }
+      }
+    },
+    "ACH_NA_STARTING_TICKETS": {
+      "translations": {
+        "english": {
+          "name": "Lucky draw",
+          "description": "On the North America map, keep all 3 starting tickets and complete them all "
+        },
+        "schinese": {
+          "name": "幸运抽牌",
+          "description": "在北美地图保留全部 3 张起始车票并全部完成"
+        }
+      }
+    },
+    "ACH_NA_NO_LONGEST_ROUTE": {
+      "translations": {
+        "english": {
+          "name": "Short haul",
+          "description": "On the North America map, win without having the longest route bonus"
+        },
+        "schinese": {
+          "name": "短途运输",
+          "description": "在北美地图不获得最长路线奖励并获胜"
+        }
+      }
+    },
+    "ACH_NA_45_ROUTE": {
+      "translations": {
+        "english": {
+          "name": "Long Haul",
+          "description": "On the North America map, earn the longest route bonus with a 45 train continuous route"
+        },
+        "schinese": {
+          "name": "长途运输",
+          "description": "在北美地图以 45 节列车的连续路线获得最长路线奖励"
+        }
+      }
+    },
+    "ACH_NA_RUSH": {
+      "translations": {
+        "english": {
+          "name": "In a rush",
+          "description": "On the North America map, win a game in which you claim seven 6 length routes"
+        },
+        "schinese": {
+          "name": "赶时间",
+          "description": "在北美地图赢得一局占用七条长度为 6 的路线的游戏"
+        }
+      }
+    },
+    "ACH_NA_CONSECUTIVE_TICKETS": {
+      "translations": {
+        "english": {
+          "name": "Well connected",
+          "description": "On the North America map, win a game in which you complete a destination ticket on three consecutive turns"
+        },
+        "schinese": {
+          "name": "连接顺畅",
+          "description": "在北美地图赢得一局连续三个回合都完成目的地车票的游戏"
+        }
+      }
+    },
+    "ACH_NA_BULLET": {
+      "translations": {
+        "english": {
+          "name": "Bullet train",
+          "description": "On the North America map, win without completing any tickets"
+        },
+        "schinese": {
+          "name": "子弹列车",
+          "description": "不完成任何车票并在北美地图获胜"
+        }
+      }
+    },
+    "ACH_EU_NO_STATIONS": {
+      "translations": {
+        "english": {
+          "name": "Direct Journey",
+          "description": "Win on the Europe map without using any stations"
+        },
+        "schinese": {
+          "name": "直达旅程",
+          "description": "在欧洲地图不使用任何车站并获胜"
+        }
+      }
+    },
+    "ACH_EU_7_TICKETS": {
+      "translations": {
+        "english": {
+          "name": "Lucky Number 7",
+          "description": "Complete 7 tickets in one game on the Europe map"
+        },
+        "schinese": {
+          "name": "幸运数字 7",
+          "description": "在欧洲地图一局完成 7 张车票"
+        }
+      }
+    },
+    "ACH_EU_NO_LONG_TICKET": {
+      "translations": {
+        "english": {
+          "name": "City Hopper",
+          "description": "Win a game on the Europe map without keeping your long ticket"
+        },
+        "schinese": {
+          "name": "城市跳跃者",
+          "description": "在欧洲地图不保留长途车票并赢得一局游戏"
+        }
+      }
+    },
+    "ACH_EU_2_PLAYER_STATIONS": {
+      "translations": {
+        "english": {
+          "name": "Hotspotter",
+          "description": "Finish a game with 2 or more other players using stations to borrow your routes"
+        },
+        "schinese": {
+          "name": "热点路线",
+          "description": "结束一局至少有 2 名其他玩家使用车站借用你路线的游戏"
+        }
+      }
+    },
+    "ACH_EU_3_STATIONS": {
+      "translations": {
+        "english": {
+          "name": "Don't mind me",
+          "description": "Win a game on the Europe map while using all 3 stations to complete tickets"
+        },
+        "schinese": {
+          "name": "别管我",
+          "description": "在欧洲地图使用全部 3 个车站完成车票并赢得一局游戏"
+        }
+      }
+    },
+    "ACH_EU_150_POINTS": {
+      "translations": {
+        "english": {
+          "name": "Trans continental",
+          "description": "Win a game on the Europe map with 150 points or more"
+        },
+        "schinese": {
+          "name": "横贯大陆",
+          "description": "在欧洲地图以 150 分或更高分数赢得一局游戏"
+        }
+      }
+    },
+    "ACH_NC_GLOBETROTTER": {
+      "translations": {
+        "english": {
+          "name": "Globetrotter",
+          "description": "Earn the Globetrotter bonus in a game on the Nordic Countries map"
+        },
+        "schinese": {
+          "name": "环球旅行者",
+          "description": "在北欧国家地图的一局游戏中获得环球旅行者奖励"
+        }
+      }
+    },
+    "ACH_NC_MURMANSK_10": {
+      "translations": {
+        "english": {
+          "name": "Polar express",
+          "description": "Claim Murmansk to Lieksa 10 times"
+        },
+        "schinese": {
+          "name": "极地快车",
+          "description": "占用 Murmansk 到 Lieksa 的路线 10 次"
+        }
+      }
+    },
+    "ACH_NC_NORTH_SOUTH": {
+      "translations": {
+        "english": {
+          "name": "Northbound",
+          "description": "Win with a network that connects Honningsvag and Kobenhavn"
+        },
+        "schinese": {
+          "name": "北上",
+          "description": "以连接 Honningsvag 和 Kobenhavn 的网络获胜"
+        }
+      }
+    },
+    "ACH_NC_COUNTRIES": {
+      "translations": {
+        "english": {
+          "name": "Nordic Networker",
+          "description": "Win with a network that connects Norway, Sweden, Denmark, Finland, Estonia, and Russia"
+        },
+        "schinese": {
+          "name": "北欧联网者",
+          "description": "以连接挪威、瑞典、丹麦、芬兰、爱沙尼亚和俄罗斯的网络获胜"
+        }
+      }
+    },
+    "ACH_NC_NO_TUNNELS": {
+      "translations": {
+        "english": {
+          "name": "All above board",
+          "description": "Win a game on the Nordic Countries map without claiming any tunnels"
+        },
+        "schinese": {
+          "name": "全在明面上",
+          "description": "在北欧国家地图不占用任何隧道并赢得一局游戏"
+        }
+      }
+    },
+    "ACH_NC_MURMANSK_ONE_COLOUR": {
+      "translations": {
+        "english": {
+          "name": "Union rail",
+          "description": "Claim Murmansk to Lieksa using 9 of the same colour cards"
+        },
+        "schinese": {
+          "name": "联合铁路",
+          "description": "用 9 张同色牌占用 Murmansk 到 Lieksa 的路线"
+        }
+      }
+    },
+    "ACH_1910_BIGCITY_BLOCK": {
+      "translations": {
+        "english": {
+          "name": "City Lockdown",
+          "description": "In a USA: Big Cities game, win while entirely blocking off one Big City."
+        },
+        "schinese": {
+          "name": "城市封锁",
+          "description": "在 USA: Big Cities 游戏中，完全封锁一座大城市并获胜。"
+        }
+      }
+    },
+    "ACH_1910_5_TICKETS_ONLY": {
+      "translations": {
+        "english": {
+          "name": "Buy Before You Ride",
+          "description": "In a USA: Mega Game, win by completing your 5 initial Tickets and no others."
+        },
+        "schinese": {
+          "name": "先买票再上车",
+          "description": "在 USA: Mega Game 中，只完成最初 5 张车票且不完成其他车票并获胜。"
+        }
+      }
+    },
+    "ACH_1910_CANADA_CONNECT": {
+      "translations": {
+        "english": {
+          "name": "Out of Bounds",
+          "description": "In a USA: Mega Game, win while connecting all of the Canadian cities."
+        },
+        "schinese": {
+          "name": "越界",
+          "description": "在 USA: Mega Game 中连接所有加拿大城市并获胜。"
+        }
+      }
+    },
+    "ACH_1910_10_TICKETS": {
+      "translations": {
+        "english": {
+          "name": "Permanent Passenger",
+          "description": "In a USA: 1910 game, win the Globetrotter bonus card while completing at least 10 Tickets."
+        },
+        "schinese": {
+          "name": "常驻乘客",
+          "description": "在 USA: 1910 游戏中，完成至少 10 张车票并赢得环球旅行者奖励牌。"
+        }
+      }
+    },
+    "ACH_1910_BIGCITY_7": {
+      "translations": {
+        "english": {
+          "name": "Urban Rover",
+          "description": "In a USA: Big Cities game, win while connecting all 7 Big Cities."
+        },
+        "schinese": {
+          "name": "城市漫游者",
+          "description": "在 USA: Big Cities 游戏中连接全部 7 座大城市并获胜。"
+        }
+      }
+    },
+    "ACH_1910_SCORE_300": {
+      "translations": {
+        "english": {
+          "name": "Trainmaster",
+          "description": "In a USA: Mega Game, win with a score of 300 or more."
+        },
+        "schinese": {
+          "name": "列车大师",
+          "description": "在 USA: Mega Game 中以 300 分或更高分数获胜。"
+        }
+      }
+    },
+    "ACH_1912_LONGROUTE": {
+      "translations": {
+        "english": {
+          "name": "Inter-City Rails",
+          "description": "In a Mega Europe game, win while keeping and completing a Long Route Ticket."
+        },
+        "schinese": {
+          "name": "城际铁路",
+          "description": "在 Mega Europe 游戏中保留并完成一张长途路线车票后获胜。"
+        }
+      }
+    },
+    "ACH_1912_5_TUNNELS": {
+      "translations": {
+        "english": {
+          "name": "A Boring Train",
+          "description": "In a Europe Expanded game, win while claiming at least 5 Tunnels."
+        },
+        "schinese": {
+          "name": "无聊的列车",
+          "description": "在 Europe Expanded 游戏中占用至少 5 条隧道并获胜。"
+        }
+      }
+    },
+    "ACH_1912_BIGCITY_5": {
+      "translations": {
+        "english": {
+          "name": "Citymapper",
+          "description": "In a Big Cities of Europe game, win while connecting at least 5 of the 9 Big Cities."
+        },
+        "schinese": {
+          "name": "城市制图师",
+          "description": "在 Big Cities of Europe 游戏中连接 9 座大城市中的至少 5 座并获胜。"
+        }
+      }
+    },
+    "ACH_1912_5_FERRIES": {
+      "translations": {
+        "english": {
+          "name": "Pleasure Cruise",
+          "description": "In a Big Cities of Europe game, win while claiming at least 5 Ferry routes."
+        },
+        "schinese": {
+          "name": "愉悦巡航",
+          "description": "在 Big Cities of Europe 游戏中占用至少 5 条渡轮路线并获胜。"
+        }
+      }
+    },
+    "ACH_1912_TICKETS_LESSTHAN10": {
+      "translations": {
+        "english": {
+          "name": "Off-Peak Tickets",
+          "description": "In a Mega Europe game, win while only completing Tickets worth less than or equal to 10 points."
+        },
+        "schinese": {
+          "name": "非高峰车票",
+          "description": "在 Mega Europe 游戏中只完成价值不超过 10 分的车票并获胜。"
+        }
+      }
+    },
+    "ACH_1912_8_LENGTH_ROUTE": {
+      "translations": {
+        "english": {
+          "name": "Subterranean",
+          "description": "In any Europa 1912 game mode, claim the 8-length Tunnel route 5 times."
+        },
+        "schinese": {
+          "name": "地下通道",
+          "description": "在任意 Europa 1912 游戏模式中，占用长度为 8 的隧道路线 5 次。"
+        }
+      }
+    },
+    "ACH_INDIA_GOLDEN_CIRCLE": {
+      "translations": {
+        "english": {
+          "name": "Golden Circle",
+          "description": "Form a Mandala that includes Delhi, Agra, and Jaipur"
+        },
+        "schinese": {
+          "name": "黄金圆环",
+          "description": "组成包含 Delhi、Agra 和 Jaipur 的 Mandala"
+        }
+      }
+    },
+    "ACH_INDIA_EXCLUSIVE_LOOP": {
+      "translations": {
+        "english": {
+          "name": "Exclusive Loop",
+          "description": "Win on the India map while stopping all opponents from scoring a Mandala bonus"
+        },
+        "schinese": {
+          "name": "独占环线",
+          "description": "在印度地图阻止所有对手获得 Mandala 奖励并获胜"
+        }
+      }
+    },
+    "ACH_INDIA_MANDALA_APPRENTICE": {
+      "translations": {
+        "english": {
+          "name": "Mandala Apprentice",
+          "description": "Form your first Mandala"
+        },
+        "schinese": {
+          "name": "Mandala 学徒",
+          "description": "组成你的第一个 Mandala"
+        }
+      }
+    },
+    "ACH_INDIA_COASTAL_CIRCLE": {
+      "translations": {
+        "english": {
+          "name": "Coastal Circle",
+          "description": "Form a Mandala that uses at least two ferry routes"
+        },
+        "schinese": {
+          "name": "海岸圆环",
+          "description": "组成一条使用至少两条渡轮路线的 Mandala"
+        }
+      }
+    },
+    "ACH_INDIA_INDIA_EXPRESS": {
+      "translations": {
+        "english": {
+          "name": "India Express",
+          "description": "Win on the India map without a Mandala bonus"
+        },
+        "schinese": {
+          "name": "印度快车",
+          "description": "在印度地图不获得 Mandala 奖励并获胜"
+        }
+      }
+    },
+    "ACH_INDIA_MANDALA_MAHARAJA": {
+      "translations": {
+        "english": {
+          "name": "Mandala Maharaja",
+          "description": "Win on the India map while earning a 40 point Mandala bonus"
+        },
+        "schinese": {
+          "name": "Mandala 大君",
+          "description": "在印度地图获得 40 分 Mandala 奖励并获胜"
+        }
+      }
+    },
+    "ACH_ASIA_TRANS_SIBERIAN": {
+      "translations": {
+        "english": {
+          "name": "Trans-Siberian",
+          "description": "Win while creating a network that connects Moscow, Omsk, Irkutsk and Vladivostok"
+        },
+        "schinese": {
+          "name": "西伯利亚大铁路",
+          "description": "创建连接 Moscow、Omsk、Irkutsk 和 Vladivostok 的网络并获胜"
+        }
+      }
+    },
+    "ACH_ASIA_OFF_GRID": {
+      "translations": {
+        "english": {
+          "name": "Off Grid",
+          "description": "Win a game while only using Mountain and Ferry routes"
+        },
+        "schinese": {
+          "name": "离网",
+          "description": "只使用山地和渡轮路线赢得一局游戏"
+        }
+      }
+    },
+    "ACH_ASIA_UNCOUPLED": {
+      "translations": {
+        "english": {
+          "name": "Uncoupled",
+          "description": "Win a game without winning the Asian Explorer bonus"
+        },
+        "schinese": {
+          "name": "脱钩",
+          "description": "未赢得亚洲探险家奖励也赢得一局游戏"
+        }
+      }
+    },
+    "ACH_ASIA_SILK_ROAD": {
+      "translations": {
+        "english": {
+          "name": "Silk Road",
+          "description": "Win while claiming the silk road by connecting Tbilisi, Samarkand, Xi’an and Shanghai"
+        },
+        "schinese": {
+          "name": "丝绸之路",
+          "description": "连接 Tbilisi、Samarkand、Xi’an 和 Shanghai，占用丝绸之路并获胜"
+        }
+      }
+    },
+    "ACH_ASIA_MOUNTAINEER": {
+      "translations": {
+        "english": {
+          "name": "Mountaineer",
+          "description": "Discard at least 15 Train Cars while claiming Mountain routes in one game."
+        },
+        "schinese": {
+          "name": "登山者",
+          "description": "在一局游戏中占用山地路线时弃掉至少 15 节列车车厢。"
+        }
+      }
+    },
+    "ACH_ASIA_PAN_ASIAN": {
+      "translations": {
+        "english": {
+          "name": "Pan-Asian",
+          "description": "Win the Asian Explorer bonus while connecting at least 20 cities"
+        },
+        "schinese": {
+          "name": "泛亚",
+          "description": "连接至少 20 座城市并赢得亚洲探险家奖励"
+        }
+      }
+    },
+    "ACH_SAN_FRANCISCO_F_LINE": {
+      "translations": {
+        "english": {
+          "name": "F-Line",
+          "description": "Connect The Embarcadero, Market Street, The Castro and Twin Peaks in one game."
+        },
+        "schinese": {
+          "name": "F 线",
+          "description": "在一局游戏中连接 The Embarcadero、Market Street、The Castro 和 Twin Peaks。"
+        }
+      }
+    },
+    "ACH_SAN_FRANCISCO_GOLDEN_GATE": {
+      "translations": {
+        "english": {
+          "name": "Golden Gate",
+          "description": "On San Francisco, claim all 3 Ferry Routes in a 2-player game."
+        },
+        "schinese": {
+          "name": "金门",
+          "description": "在旧金山地图的 2 人游戏中占用全部 3 条渡轮路线。"
+        }
+      }
+    },
+    "ACH_SAN_FRANCISCO_GRIP_EFFICIENCY": {
+      "translations": {
+        "english": {
+          "name": "Grip Efficiency",
+          "description": "On San Francisco, end the game with all 20 Train Pieces used and no Train Cards in hand."
+        },
+        "schinese": {
+          "name": "握把效率",
+          "description": "在旧金山地图结束游戏时用完全部 20 个列车棋子，且手中没有列车牌。"
+        }
+      }
+    },
+    "ACH_SAN_FRANCISCO_SOUVENIRS": {
+      "translations": {
+        "english": {
+          "name": "Souvenirs",
+          "description": "On San Francisco, win while collecting all 7 Tourist Tokens in one game."
+        },
+        "schinese": {
+          "name": "纪念品",
+          "description": "在旧金山地图一局收集全部 7 个游客标记并获胜。"
+        }
+      }
+    },
+    "ACH_SAN_FRANCISCO_COUNTER_CULTURE": {
+      "translations": {
+        "english": {
+          "name": "Counter Culture",
+          "description": "On San Francisco, win without completing any Tickets."
+        },
+        "schinese": {
+          "name": "反主流文化",
+          "description": "在旧金山地图不完成任何车票并获胜。"
+        }
+      }
+    },
+    "ACH_SAN_FRANCISCO_1960S": {
+      "translations": {
+        "english": {
+          "name": "1960s",
+          "description": "On San Francisco, win with a score of 60 or more."
+        },
+        "schinese": {
+          "name": "1960 年代",
+          "description": "在旧金山地图以 60 分或更高分数获胜。"
+        }
+      }
+    },
+    "ACH_SWITZERLAND_CROSS_COUNTRY": {
+      "translations": {
+        "english": {
+          "name": "Cross-Country",
+          "description": "On Switzerland, win while connecting all four surrounding countries"
+        },
+        "schinese": {
+          "name": "跨国旅行",
+          "description": "在瑞士地图连接周边四个国家并获胜"
+        }
+      }
+    },
+    "ACH_SWITZERLAND_SWISS_TRAVEL_PASS": {
+      "translations": {
+        "english": {
+          "name": "Swiss Travel Pass",
+          "description": "On Switzerland, complete 18 Tickets in one game"
+        },
+        "schinese": {
+          "name": "瑞士旅行通票",
+          "description": "在瑞士地图一局完成 18 张车票"
+        }
+      }
+    },
+    "ACH_SWITZERLAND_ALPINE_TRAIL": {
+      "translations": {
+        "english": {
+          "name": "Alpine Trail",
+          "description": "On Switzerland, connect France to Osterreich using only tunnels, but without using Locomotive cards"
+        },
+        "schinese": {
+          "name": "阿尔卑斯小径",
+          "description": "在瑞士地图只使用隧道从法国连接到奥地利，且不使用火车头牌"
+        }
+      }
+    },
+    "ACH_SWITZERLAND_BLOCK_SYSTEM": {
+      "translations": {
+        "english": {
+          "name": "Block System",
+          "description": "On Switzerland, win a 2-player game without failing any Tickets"
+        },
+        "schinese": {
+          "name": "闭塞系统",
+          "description": "在瑞士地图的 2 人游戏中不失败任何车票并获胜"
+        }
+      }
+    },
+    "ACH_SWITZERLAND_CLOCKWORK_PRECISION": {
+      "translations": {
+        "english": {
+          "name": "Clockwork Precision",
+          "description": "On Switzerland, win having drawn 5 Tickets that were already complete. They can be non-consecutive"
+        },
+        "schinese": {
+          "name": "钟表般精准",
+          "description": "在瑞士地图获胜，并抽到 5 张已经完成的车票。它们可以不连续"
+        }
+      }
+    },
+    "ACH_SWITZERLAND_ALL_FOR_ONE": {
+      "translations": {
+        "english": {
+          "name": "All For One",
+          "description": "On Switzerland, in a 3-player game, win by completing 8+ more Tickets than both opponents"
+        },
+        "schinese": {
+          "name": "人人为我",
+          "description": "在瑞士地图的 3 人游戏中，比两名对手都多完成 8 张以上车票并获胜"
+        }
+      }
+    },
+    "ACH_JAPAN_MEGALOPOLIS": {
+      "translations": {
+        "english": {
+          "name": "Megalopolis",
+          "description": "In Japan, complete 25 Tickets that enter the Tokyo subway"
+        },
+        "schinese": {
+          "name": "巨型都市",
+          "description": "在日本地图完成 25 张进入东京地铁的车票"
+        }
+      }
+    },
+    "ACH_JAPAN_ARCHIPELAGO": {
+      "translations": {
+        "english": {
+          "name": "Archipelago",
+          "description": "In Japan, connect Kokura to Hakodate using any combination of regular and bullet train routes."
+        },
+        "schinese": {
+          "name": "群岛",
+          "description": "在日本地图使用任意普通路线和新干线路线组合，从 Kokura 连接到 Hakodate。"
+        }
+      }
+    },
+    "ACH_JAPAN_SLOW_STEADY": {
+      "translations": {
+        "english": {
+          "name": "Slow and Steady",
+          "description": "In Japan, run out of personal trains before running out of bullet trains."
+        },
+        "schinese": {
+          "name": "慢而稳",
+          "description": "在日本地图中，先用完个人列车，再用完新干线。"
+        }
+      }
+    },
+    "ACH_JAPAN_COMMUTER_HELL": {
+      "translations": {
+        "english": {
+          "name": "Commuter Hell",
+          "description": "In Japan, build no Bullet Train routes and still win the game."
+        },
+        "schinese": {
+          "name": "通勤地狱",
+          "description": "在日本地图不修建任何新干线路线但仍赢得游戏。"
+        }
+      }
+    },
+    "ACH_JAPAN_ARIGATO": {
+      "translations": {
+        "english": {
+          "name": "Arigato",
+          "description": "In Japan, in a 2-player game, have your Ticket completed by an opponent building a Bullet Train route."
+        },
+        "schinese": {
+          "name": "Arigato",
+          "description": "在日本地图 2 人游戏中，让对手通过修建新干线路线完成你的车票。"
+        }
+      }
+    },
+    "ACH_JAPAN_EMPEROR": {
+      "translations": {
+        "english": {
+          "name": "The Emperor",
+          "description": "In Japan, win the 25-point Bullet Train Bonus in a 5-player game."
+        },
+        "schinese": {
+          "name": "天皇",
+          "description": "在日本地图 5 人游戏中赢得 25 分新干线奖励。"
+        }
+      }
+    },
+    "ACH_AFRICA_DESERT": {
+      "translations": {
+        "english": {
+          "name": "Sandy Specialist",
+          "description": "In Africa, win a game while doubling points for 6+ Desert & Savanna routes"
+        },
+        "schinese": {
+          "name": "沙地专家",
+          "description": "在非洲地图为 6 条以上沙漠与稀树草原路线翻倍计分并赢得一局游戏"
+        }
+      }
+    },
+    "ACH_AFRICA_JUNGLE": {
+      "translations": {
+        "english": {
+          "name": "Jungle Genius",
+          "description": "In Africa, win a game while doubling points for 6+ Jungle & Forest routes"
+        },
+        "schinese": {
+          "name": "丛林天才",
+          "description": "在非洲地图为 6 条以上丛林与森林路线翻倍计分并赢得一局游戏"
+        }
+      }
+    },
+    "ACH_AFRICA_MOUNTAIN": {
+      "translations": {
+        "english": {
+          "name": "Mountain Master",
+          "description": "In Africa, win a game while doubling points for 6+ Mountain & Cliff routes"
+        },
+        "schinese": {
+          "name": "山地大师",
+          "description": "在非洲地图为 6 条以上山地与峭壁路线翻倍计分并赢得一局游戏"
+        }
+      }
+    },
+    "ACH_AFRICA_NOMAD": {
+      "translations": {
+        "english": {
+          "name": "Nomad",
+          "description": "In Africa, connect Nigeria, Tchad and Sudan in a single game"
+        },
+        "schinese": {
+          "name": "游牧者",
+          "description": "在非洲地图一局连接 Nigeria、Tchad 和 Sudan"
+        }
+      }
+    },
+    "ACH_AFRICA_DURBAN_MADAGASCAR_5": {
+      "translations": {
+        "english": {
+          "name": "Mozambique Channel",
+          "description": "In Africa, use terrain cards to claim Durban-Madagascar in 5 different games"
+        },
+        "schinese": {
+          "name": "莫桑比克海峡",
+          "description": "在非洲地图的 5 场不同游戏中，使用地形牌占用 Durban-Madagascar"
+        }
+      }
+    },
+    "ACH_AFRICA_HARDAI_5": {
+      "translations": {
+        "english": {
+          "name": "Pride of Africa",
+          "description": "In Africa, win 5 games against 4 Hard AI"
+        },
+        "schinese": {
+          "name": "非洲之傲",
+          "description": "在非洲地图击败 4 个困难 AI 并赢得 5 局游戏"
+        }
+      }
+    },
+    "ACH_GERMANY_LONG_TRIP": {
+      "translations": {
+        "english": {
+          "name": "Long Trip",
+          "description": "In Germany, win a game while having claimed at least two 7-length routes"
+        },
+        "schinese": {
+          "name": "长途旅行",
+          "description": "在德国地图占用至少两条长度为 7 的路线并赢得一局游戏"
+        }
+      }
+    },
+    "ACH_GERMANY_PEOPLE_PERSON": {
+      "translations": {
+        "english": {
+          "name": "People Person",
+          "description": "In Germany, win a 4 player game while having collected more Passengers than any other player."
+        },
+        "schinese": {
+          "name": "人缘好",
+          "description": "在德国地图 4 人游戏中，收集的乘客比任何其他玩家都多并获胜。"
+        }
+      }
+    },
+    "ACH_GERMANY_LAYOVER": {
+      "translations": {
+        "english": {
+          "name": "Layover",
+          "description": "In Germany, win a game while connecting at least 3 other countries."
+        },
+        "schinese": {
+          "name": "中途停留",
+          "description": "在德国地图连接至少 3 个其他国家并赢得一局游戏。"
+        }
+      }
+    },
+    "ACH_GERMANY_CROWDED": {
+      "translations": {
+        "english": {
+          "name": "Crowded",
+          "description": "In Germany, win a 4 player game while having the most Passengers of at least 3 different colours."
+        },
+        "schinese": {
+          "name": "人潮拥挤",
+          "description": "在德国地图 4 人游戏中，至少 3 种颜色的乘客数量最多并获胜。"
+        }
+      }
+    },
+    "ACH_GERMANY_IN_FOR_THE_LONG_RIDE": {
+      "translations": {
+        "english": {
+          "name": "In for the Long Ride",
+          "description": "In Germany, win a game while having completed at least 5 Long Tickets."
+        },
+        "schinese": {
+          "name": "踏上长途旅程",
+          "description": "在德国地图完成至少 5 张长途车票并赢得一局游戏。"
+        }
+      }
+    },
+    "ACH_GERMANY_SELECT_AUDIENCE": {
+      "translations": {
+        "english": {
+          "name": "Select Audience",
+          "description": "In Germany, win a 3 or 4 player game while having collected all 10 Passengers of a single colour."
+        },
+        "schinese": {
+          "name": "精选乘客",
+          "description": "在德国地图 3 或 4 人游戏中，收集单一颜色的全部 10 名乘客并获胜。"
+        }
+      }
+    },
+    "ACH_POLAND_COMBO": {
+      "translations": {
+        "english": {
+          "name": "Combo!",
+          "description": "In Poland, win a game while connecting at least 4 other Countries."
+        },
+        "schinese": {
+          "name": "连击！",
+          "description": "在波兰地图连接至少 4 个其他国家并赢得一局游戏。"
+        }
+      }
+    },
+    "ACH_POLAND_HERE_AND_THERE": {
+      "translations": {
+        "english": {
+          "name": "Here and There",
+          "description": "In Poland, win a 4 player game while having collected the most points from Country Bonuses"
+        },
+        "schinese": {
+          "name": "这里与那里",
+          "description": "在波兰地图 4 人游戏中，从国家奖励获得最多分数并获胜"
+        }
+      }
+    },
+    "ACH_POLAND_FOLLOW_THE_WIND": {
+      "translations": {
+        "english": {
+          "name": "Follow the Wind",
+          "description": "In Poland, win a 2 or 3 player game while having completed only the starting Destination Tickets"
+        },
+        "schinese": {
+          "name": "随风而行",
+          "description": "在波兰地图 2 或 3 人游戏中，只完成起始目的地车票并获胜"
+        }
+      }
+    },
+    "ACH_POLAND_JAZZY_HANDS": {
+      "translations": {
+        "english": {
+          "name": "Jazzy Hands",
+          "description": "In Poland, win a 2 player game while collecting at least 3 Country Bonuses from the same Country"
+        },
+        "schinese": {
+          "name": "爵士手势",
+          "description": "在波兰地图 2 人游戏中，从同一个国家收集至少 3 个国家奖励并获胜"
+        }
+      }
+    },
+    "ACH_POLAND_NO_PLACE_LIKE_HOME": {
+      "translations": {
+        "english": {
+          "name": "There's No Place Like Home",
+          "description": "In Poland, win a 3 or 4 player game without connecting to any Country"
+        },
+        "schinese": {
+          "name": "没有地方比家好",
+          "description": "在波兰地图 3 或 4 人游戏中，不连接任何国家并获胜"
+        }
+      }
+    },
+    "ACH_POLAND_TRAVELLING_BAND": {
+      "translations": {
+        "english": {
+          "name": "Traveling Band",
+          "description": "In Poland, win a 3 or 4 player game while having collected more than 40 points from Country Bonuses"
+        },
+        "schinese": {
+          "name": "巡演乐队",
+          "description": "在波兰地图 3 或 4 人游戏中，从国家奖励获得超过 40 分并获胜"
+        }
+      }
+    }
+  }
+}

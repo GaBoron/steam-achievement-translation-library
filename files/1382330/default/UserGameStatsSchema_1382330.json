@@ -1,0 +1,1899 @@
+{
+  "version": 1,
+  "app_id": "1382330",
+  "variant_id": "default",
+  "source_sha256": "d99fcd580a0c47ded9d2c68a205f524455c4a62b9814161bf7a46b8fe88cae64",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "koreana",
+    "schinese",
+    "spanish",
+    "tchinese"
+  ],
+  "achievements": {
+    "NEW_ACHIEVEMENT_1_0": {
+      "translations": {
+        "english": {
+          "name": "True Phantom Thief",
+          "description": "Earned all Achievements."
+        },
+        "french": {
+          "name": "Un vrai Voleur fantôme",
+          "description": "Vous avez obtenu tous les succès."
+        },
+        "german": {
+          "name": "Wahrer Phantomdieb",
+          "description": "Alle Errungenschaften verdient."
+        },
+        "italian": {
+          "name": "Autentico Ladro Fantasma",
+          "description": "Hai sbloccato tutti gli achievemet."
+        },
+        "japanese": {
+          "name": "真の大怪盗",
+          "description": "全ての実績を取得"
+        },
+        "koreana": {
+          "name": "진정한 대괴도",
+          "description": "모든 트로피를 획득했다"
+        },
+        "schinese": {
+          "name": "真正的大怪盗",
+          "description": "取得所有奖杯"
+        },
+        "spanish": {
+          "name": "El verdadero Ladrón Fantasma",
+          "description": "Has desbloqueado todos los logros."
+        },
+        "tchinese": {
+          "name": "真正的大怪盜",
+          "description": "取得所有獎盃"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_1": {
+      "translations": {
+        "english": {
+          "name": "Cage of Lust Closed",
+          "description": "Completed the Shibuya Jail."
+        },
+        "french": {
+          "name": "Cage de la luxure fermée",
+          "description": "Vous avez terminé la Prison de Shibuya."
+        },
+        "german": {
+          "name": "Käfig der Wollust geschlossen",
+          "description": "Gefängnis von Shibuya abgeschlossen."
+        },
+        "italian": {
+          "name": "Gabbia della lussuria chiusa",
+          "description": "Prigione di Shibuya completata."
+        },
+        "japanese": {
+          "name": "色欲の鳥かご、崩壊",
+          "description": "渋谷ジェイルクリア"
+        },
+        "koreana": {
+          "name": "색욕의 새장, 붕괴",
+          "description": "시부야 제일을 클리어했다"
+        },
+        "schinese": {
+          "name": "色欲之鸟笼，崩溃",
+          "description": "攻陷涩谷监狱"
+        },
+        "spanish": {
+          "name": "Jaula de la lujuria clausurada",
+          "description": "Has completado la Cárcel de Shibuya."
+        },
+        "tchinese": {
+          "name": "色慾之鳥籠，崩潰",
+          "description": "攻陷澀谷監獄"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_2": {
+      "translations": {
+        "english": {
+          "name": "Cage of Vanity Conquered",
+          "description": "Completed the Sendai Jail."
+        },
+        "french": {
+          "name": "Cage de la vanité conquise",
+          "description": "Vous avez terminé la Prison de Sendai."
+        },
+        "german": {
+          "name": "Käfig der Eitelkeit erobert",
+          "description": "Gefängnis von Sendai abgeschlossen."
+        },
+        "italian": {
+          "name": "Gabbia della vanità conquistata",
+          "description": "Prigione di Sendai completata."
+        },
+        "japanese": {
+          "name": "虚飾の鳥かご、倒壊",
+          "description": "仙台ジェイルクリア"
+        },
+        "koreana": {
+          "name": "허식의 새장, 도괴",
+          "description": "센다이 제일을 클리어했다"
+        },
+        "schinese": {
+          "name": "虚荣之鸟笼，倒塌",
+          "description": "攻陷仙台监狱"
+        },
+        "spanish": {
+          "name": "Jaula de la vanidad conquistada",
+          "description": "Has completado la Cárcel de Sendai."
+        },
+        "tchinese": {
+          "name": "虛榮之鳥籠，倒塌",
+          "description": "攻陷仙台監獄"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_3": {
+      "translations": {
+        "english": {
+          "name": "Cage of Gluttony Torched",
+          "description": "Completed the Sapporo Jail."
+        },
+        "french": {
+          "name": "Cage de la gourmandise nettoyée",
+          "description": "Vous avez terminé la Prison de Sapporo."
+        },
+        "german": {
+          "name": "Käfig der Völlerei abgefackelt",
+          "description": "Gefängnis von Sapporo abgeschlossen."
+        },
+        "italian": {
+          "name": "Gabbia della gola incendiata",
+          "description": "Prigione di Sapporo completata."
+        },
+        "japanese": {
+          "name": "暴食の鳥かご、溶融",
+          "description": "札幌ジェイルクリア"
+        },
+        "koreana": {
+          "name": "폭식의 새장, 융해",
+          "description": "삿포로 제일을 클리어했다"
+        },
+        "schinese": {
+          "name": "暴食之鸟笼，融解",
+          "description": "攻陷札幌监狱"
+        },
+        "spanish": {
+          "name": "Jaula de la gula incendiada",
+          "description": "Has completado la Cárcel de Sapporo."
+        },
+        "tchinese": {
+          "name": "暴食之鳥籠，融解",
+          "description": "攻陷札幌監獄"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_4": {
+      "translations": {
+        "english": {
+          "name": "Cage of Desolation Condemned",
+          "description": "Completed the Okinawa Jail."
+        },
+        "french": {
+          "name": "Cage de la désolation condamnée",
+          "description": "Vous avez terminé la Prison d'Okinawa."
+        },
+        "german": {
+          "name": "Käfig der Verzweiflung verdammt",
+          "description": "Gefängnis von Okinawa abgeschlossen."
+        },
+        "italian": {
+          "name": "Gabbia della desolazione condannata",
+          "description": "Prigione di Okinawa completata."
+        },
+        "japanese": {
+          "name": "廃王の鳥かご、消滅",
+          "description": "沖縄ジェイルクリア"
+        },
+        "koreana": {
+          "name": "폐왕의 새장, 소멸",
+          "description": "오키나와 제일을 클리어했다"
+        },
+        "schinese": {
+          "name": "亡王之鸟笼，毁灭",
+          "description": "攻陷冲绳监狱"
+        },
+        "spanish": {
+          "name": "Jaula de la desolación sentenciada",
+          "description": "Has completado la Cárcel de Okinawa."
+        },
+        "tchinese": {
+          "name": "亡王之鳥籠，毀滅",
+          "description": "攻陷沖繩監獄"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_5": {
+      "translations": {
+        "english": {
+          "name": "Cage of Wrath Collapsed",
+          "description": "Completed the Kyoto Jail."
+        },
+        "french": {
+          "name": "Cage de la colère détruite",
+          "description": "Vous avez terminé la Prison de Kyoto."
+        },
+        "german": {
+          "name": "Käfig des Zorns abgerissen",
+          "description": "Gefängnis von Kyoto abgeschlossen."
+        },
+        "italian": {
+          "name": "Gabbia dell'ira crollata",
+          "description": "Prigione di Kyoto completata."
+        },
+        "japanese": {
+          "name": "憤怒の鳥かご、霧散",
+          "description": "京都ジェイルクリア"
+        },
+        "koreana": {
+          "name": "분노의 새장, 무산",
+          "description": "교토 제일을 클리어했다"
+        },
+        "schinese": {
+          "name": "愤怒之鸟笼，雾散",
+          "description": "攻陷京都监狱"
+        },
+        "spanish": {
+          "name": "Jaula de la ira derrumbada",
+          "description": "Has completado la Cárcel de Kioto."
+        },
+        "tchinese": {
+          "name": "憤怒之鳥籠，霧散",
+          "description": "攻陷京都監獄"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_6": {
+      "translations": {
+        "english": {
+          "name": "Cage of Arrogance Cracked",
+          "description": "Completed the Osaka Jail."
+        },
+        "french": {
+          "name": "Cage de l'arrogance brisée",
+          "description": "Vous avez terminé la Prison d'Osaka."
+        },
+        "german": {
+          "name": "Käfig der Arroganz vernichtet",
+          "description": "Gefängnis von Osaka abgeschlossen."
+        },
+        "italian": {
+          "name": "Gabbia dell'arroganza infranta",
+          "description": "Prigione di Osaka completata."
+        },
+        "japanese": {
+          "name": "傲慢の鳥かご、瓦解",
+          "description": "大阪ジェイルクリア"
+        },
+        "koreana": {
+          "name": "오만의 새장, 와해",
+          "description": "오사카 제일을 클리어했다"
+        },
+        "schinese": {
+          "name": "傲慢之鸟笼，瓦解",
+          "description": "攻陷大阪监狱"
+        },
+        "spanish": {
+          "name": "Jaula de la arrogancia destrozada",
+          "description": "Has completado la Cárcel de Osaka."
+        },
+        "tchinese": {
+          "name": "傲慢之鳥籠，瓦解",
+          "description": "攻陷大阪監獄"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_7": {
+      "translations": {
+        "english": {
+          "name": "Humanity's Companion",
+          "description": "Completed the Jail of the Abyss."
+        },
+        "french": {
+          "name": "Amie de l'humanité",
+          "description": "Vous avez terminé la Prison de l'Abysse."
+        },
+        "german": {
+          "name": "Begleiterin der Menschheit",
+          "description": "Gefängnis des Abgrunds abgeschlossen."
+        },
+        "italian": {
+          "name": "Amica dell'umanità",
+          "description": "Prigione dell'Abisso completata."
+        },
+        "japanese": {
+          "name": "人の良き友",
+          "description": "深淵のジェイルクリア"
+        },
+        "koreana": {
+          "name": "인간의 좋은 친구",
+          "description": "심연의 제일을 클리어했다"
+        },
+        "schinese": {
+          "name": "人类的好朋友",
+          "description": "攻陷欲望监狱"
+        },
+        "spanish": {
+          "name": "La aliada de la humanidad",
+          "description": "Has completado la Cárcel del abismo."
+        },
+        "tchinese": {
+          "name": "人類的好朋友",
+          "description": "攻陷慾望監獄"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_8": {
+      "translations": {
+        "english": {
+          "name": "Walk Your Own Path",
+          "description": "Completed the Tree of Knowledge."
+        },
+        "french": {
+          "name": "Suivez votre propre voie",
+          "description": "Vous avez terminé l'Arbre de la connaissance."
+        },
+        "german": {
+          "name": "Beschreite deinen eigenen Weg",
+          "description": "Baum des Wissens abgeschlossen."
+        },
+        "italian": {
+          "name": "Cammina per la tua strada",
+          "description": "Albero della Conoscenza completato."
+        },
+        "japanese": {
+          "name": "己の答え",
+          "description": "生命と知恵の大樹クリア"
+        },
+        "koreana": {
+          "name": "자신의 답",
+          "description": "생명과 지혜의 나무를 클리어했다"
+        },
+        "schinese": {
+          "name": "自己的答案",
+          "description": "攻陷生命与智慧的大树"
+        },
+        "spanish": {
+          "name": "Crea tu propio camino",
+          "description": "Has completado el Árbol del conocimiento."
+        },
+        "tchinese": {
+          "name": "自己的答案",
+          "description": "攻陷生命與智慧的大樹"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_9": {
+      "translations": {
+        "english": {
+          "name": "Back in Business",
+          "description": "Witnessed the Phantom Thieves' reunion."
+        },
+        "french": {
+          "name": "Les affaires reprennent",
+          "description": "Vous avez reformé les Voleurs fantômes."
+        },
+        "german": {
+          "name": "Wieder im Geschäft",
+          "description": "Die Wiedervereinigung der Phantomdiebe erlebt."
+        },
+        "italian": {
+          "name": "Di nuovo in azione",
+          "description": "Hai visto la rimpatriata dei Ladri Fantasma."
+        },
+        "japanese": {
+          "name": "怪盗団復活",
+          "description": "怪盗団が再始動した"
+        },
+        "koreana": {
+          "name": "괴도단 부활",
+          "description": "괴도단이 활동을 재개했다"
+        },
+        "schinese": {
+          "name": "怪盗团复活",
+          "description": "怪盗团再次开始活动"
+        },
+        "spanish": {
+          "name": "De nuevo en acción",
+          "description": "Has presenciado la reunión de los Ladrones Fantasma."
+        },
+        "tchinese": {
+          "name": "怪盜團復活",
+          "description": "怪盜團再次開始活動"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_10": {
+      "translations": {
+        "english": {
+          "name": "Farewell to the Past",
+          "description": "Wolf awakened his Persona."
+        },
+        "french": {
+          "name": "Aller de l'avant",
+          "description": "Wolf a éveillé sa Persona."
+        },
+        "german": {
+          "name": "Die Vergangenheit ruht",
+          "description": "Wolf hat seine Persona erweckt."
+        },
+        "italian": {
+          "name": "Un saluto al passato",
+          "description": "Wolf ha risvegliato la propria Persona."
+        },
+        "japanese": {
+          "name": "過去との決別",
+          "description": "ウルフが覚醒した"
+        },
+        "koreana": {
+          "name": "과거와의 결별",
+          "description": "울프가 각성했다"
+        },
+        "schinese": {
+          "name": "与过去诀别",
+          "description": "WOLF觉醒"
+        },
+        "spanish": {
+          "name": "Adiós al pasado",
+          "description": "Wolf ha despertado a su Persona."
+        },
+        "tchinese": {
+          "name": "與過去訣別",
+          "description": "ＷＯＬＦ覺醒"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_11": {
+      "translations": {
+        "english": {
+          "name": "A Newfound Heart",
+          "description": "Sophia found strength of heart."
+        },
+        "french": {
+          "name": "Le cœur des hommes",
+          "description": "Sophia a trouvé la force de son cœur."
+        },
+        "german": {
+          "name": "Ein neu gefundenes Herz",
+          "description": "Sophia hat ihr Herz entdeckt."
+        },
+        "italian": {
+          "name": "Un cuore ritrovato",
+          "description": "Sophia ha scoperto la forza del cuore."
+        },
+        "japanese": {
+          "name": "生まれた心",
+          "description": "ソフィアが心に目覚めた"
+        },
+        "koreana": {
+          "name": "싹트는 마음",
+          "description": "소피아가 마음에 눈을 떴다"
+        },
+        "schinese": {
+          "name": "心之诞生",
+          "description": "苏菲亚之心觉醒"
+        },
+        "spanish": {
+          "name": "Un corazón nuevo",
+          "description": "Sophia ha encontrado la fuerza del corazón."
+        },
+        "tchinese": {
+          "name": "心之誕生",
+          "description": "蘇菲亞之心覺醒"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_12": {
+      "translations": {
+        "english": {
+          "name": "It's Showtime!",
+          "description": "Activated Showtime."
+        },
+        "french": {
+          "name": "Spécial !",
+          "description": "Vous avez activé un Coup spécial."
+        },
+        "german": {
+          "name": "Showtime!",
+          "description": "Showtime aktiviert."
+        },
+        "italian": {
+          "name": "Speciale!",
+          "description": "Hai attivato lo Speciale."
+        },
+        "japanese": {
+          "name": "華麗なるショウ",
+          "description": "ショウタイムを発動した"
+        },
+        "koreana": {
+          "name": "화려한 쇼",
+          "description": "쇼 타임을 발동했다"
+        },
+        "schinese": {
+          "name": "华丽的表演",
+          "description": "发动 SHOW TIME"
+        },
+        "spanish": {
+          "name": "¡Que empiece el espectáculo!",
+          "description": "Has activado Especial."
+        },
+        "tchinese": {
+          "name": "華麗的表演",
+          "description": "發動ＳＨＯＷ　ＴＩＭＥ"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_13": {
+      "translations": {
+        "english": {
+          "name": "Seeker of Power",
+          "description": "Used Incense."
+        },
+        "french": {
+          "name": "Plus de puissance",
+          "description": "Vous avez utilisé de l'encens."
+        },
+        "german": {
+          "name": "Suche nach Kraft",
+          "description": "Räucherstäbchen eingesetzt."
+        },
+        "italian": {
+          "name": "Sete di potere",
+          "description": "Hai usato l'incenso."
+        },
+        "japanese": {
+          "name": "力の探究者",
+          "description": "インセンスを使った"
+        },
+        "koreana": {
+          "name": "힘을 탐구하는 자",
+          "description": "인센스를 사용했다"
+        },
+        "schinese": {
+          "name": "探求力量者",
+          "description": "使用香"
+        },
+        "spanish": {
+          "name": "Buscador del poder",
+          "description": "Has usado incienso."
+        },
+        "tchinese": {
+          "name": "探求力量者",
+          "description": "使用香"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_14": {
+      "translations": {
+        "english": {
+          "name": "Unshakeable Teamwork",
+          "description": "Performed an All-Out Attack 150 times."
+        },
+        "french": {
+          "name": "Travail d'équipe inébranlable",
+          "description": "Vous avez effectué 150 Assauts généraux."
+        },
+        "german": {
+          "name": "Unerschütterliche Teamarbeit",
+          "description": "150-mal einen Mächtigen Angriff ausgeführt."
+        },
+        "italian": {
+          "name": "Lavoro di squadra impeccabile",
+          "description": "Hai effettuato un assalto 150 volte."
+        },
+        "japanese": {
+          "name": "揺るがぬチームワーク",
+          "description": "総攻撃を１５０回決めた"
+        },
+        "koreana": {
+          "name": "굳건한 팀워크",
+          "description": "총공격을 150번 성공했다"
+        },
+        "schinese": {
+          "name": "坚定不移的团队合作",
+          "description": "施展150次总攻击打倒敌人"
+        },
+        "spanish": {
+          "name": "Trabajo en equipo inigualable",
+          "description": "Has realizado 150 ataques combinados."
+        },
+        "tchinese": {
+          "name": "堅定不移的團隊合作",
+          "description": "施展１５０次總攻擊打倒敵人"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_15": {
+      "translations": {
+        "english": {
+          "name": "Know Your Enemy",
+          "description": "Hit the enemy's weakness 300 times. "
+        },
+        "french": {
+          "name": "Connais ton ennemi",
+          "description": "Vous avez frappé un point faible ennemi 300 fois. "
+        },
+        "german": {
+          "name": "Kenne deinen Feind",
+          "description": "300 Mal die Schwäche eines Gegners getroffen. "
+        },
+        "italian": {
+          "name": "Conosci il tuo nemico",
+          "description": "Hai colpito la debolezza del nemico 300 volte. "
+        },
+        "japanese": {
+          "name": "研ぎ澄まされし洞察力",
+          "description": "操作キャラクターのペルソナスキルでＷＥＡＫを３００回突いた"
+        },
+        "koreana": {
+          "name": "예리한 통찰력",
+          "description": "조작 캐릭터의 페르소나 스킬로 WEAK를 300번 공격했다"
+        },
+        "schinese": {
+          "name": "敏锐的洞察力",
+          "description": "以操作角色的人格面具技能完成300次WEAK打击"
+        },
+        "spanish": {
+          "name": "Conoce a tu enemigo",
+          "description": "Has golpeado la debilidad del enemigo 300 veces. "
+        },
+        "tchinese": {
+          "name": "敏銳的洞察力",
+          "description": "以操作角色的人格面具技能完成３００次ＷＥＡＫ打擊"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_16": {
+      "translations": {
+        "english": {
+          "name": "Phantom Striker",
+          "description": "Defeated 200 enemies with a phantom dash."
+        },
+        "french": {
+          "name": "Frappeur fantôme",
+          "description": "Vous avez battu 200 ennemis avec un Sprint fantôme."
+        },
+        "german": {
+          "name": "Phantomsprinter",
+          "description": "200 Gegner mit einem Phantomsprint besiegt."
+        },
+        "italian": {
+          "name": "Phantom striker",
+          "description": "Hai sconfitto 200 nemici con un Guizzo Fantasma."
+        },
+        "japanese": {
+          "name": "ファントムストライカー",
+          "description": "ファントムムーヴで敵を２００体撃破した"
+        },
+        "koreana": {
+          "name": "팬텀 스트라이커",
+          "description": "팬텀 무브로 적을 200마리 격파했다"
+        },
+        "schinese": {
+          "name": "魅影攻手",
+          "description": "以幻影移动打倒200个敌人"
+        },
+        "spanish": {
+          "name": "Luchador fantasma",
+          "description": "Has derrotado a 200 enemigos con un Movimiento fantasmal."
+        },
+        "tchinese": {
+          "name": "魅影攻手",
+          "description": "以幻影移動打倒２００個敵人"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_17": {
+      "translations": {
+        "english": {
+          "name": "All That Glitters",
+          "description": "Defeated 10 Treasure Demons."
+        },
+        "french": {
+          "name": "Tout ce qui brille",
+          "description": "Vous avez battu 10 Démons du Trésor."
+        },
+        "german": {
+          "name": "Goldig",
+          "description": "10 Schatzdämonen besiegt."
+        },
+        "italian": {
+          "name": "Tutto ciò che luccica",
+          "description": "Hai sconfitto 10 Demoni del Tesoro."
+        },
+        "japanese": {
+          "name": "輝きを求めて",
+          "description": "宝魔を１０体撃破した"
+        },
+        "koreana": {
+          "name": "빛을 찾아서",
+          "description": "보마를 10마리 격파했다"
+        },
+        "schinese": {
+          "name": "追求光辉",
+          "description": "打倒10个宝魔"
+        },
+        "spanish": {
+          "name": "Cuánto brillo",
+          "description": "Has derrotado a 10 Demonios del tesoro."
+        },
+        "tchinese": {
+          "name": "追求光輝",
+          "description": "打倒１０個寶魔"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_18": {
+      "translations": {
+        "english": {
+          "name": "Death Defied",
+          "description": "Defeated the Reaper."
+        },
+        "french": {
+          "name": "Conquérir la mort",
+          "description": "Vous avez vaincu la Faucheuse."
+        },
+        "german": {
+          "name": "Dem Tod von der Schippe",
+          "description": "Den Reaper besiegt."
+        },
+        "italian": {
+          "name": "Sfuggito alla Morte",
+          "description": "Hai sconfitto il Mietitore."
+        },
+        "japanese": {
+          "name": "稀代の反逆者",
+          "description": "刈り取るものを撃破した"
+        },
+        "koreana": {
+          "name": "희대의 반역자",
+          "description": "거둬들이는 자를 격파했다"
+        },
+        "schinese": {
+          "name": "稀世的反抗者",
+          "description": "打倒猎杀者"
+        },
+        "spanish": {
+          "name": "Desafío a la muerte",
+          "description": "Has derrotado a El segador."
+        },
+        "tchinese": {
+          "name": "稀世的反抗者",
+          "description": "打倒獵殺者"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_19": {
+      "translations": {
+        "english": {
+          "name": "Mask Connoisseur",
+          "description": "Completed the Inmate Registry."
+        },
+        "french": {
+          "name": "Amateur de masques",
+          "description": "Vous avez rempli tout le Registre des prisonniers."
+        },
+        "german": {
+          "name": "Maskensammler",
+          "description": "Das Häftlingsregister abgeschlossen."
+        },
+        "italian": {
+          "name": "Intenditore di maschere",
+          "description": "Hai completato il Registro del Prigioniero."
+        },
+        "japanese": {
+          "name": "仮面マニア",
+          "description": "ペルソナ登録率１００％達成"
+        },
+        "koreana": {
+          "name": "가면 마니아",
+          "description": "페르소나 등록률 100%를 달성했다"
+        },
+        "schinese": {
+          "name": "面具爱好者",
+          "description": "人格面具登录率达到100％"
+        },
+        "spanish": {
+          "name": "Experto en máscaras",
+          "description": "Has completado el Registro de reclusos."
+        },
+        "tchinese": {
+          "name": "面具愛好者",
+          "description": "人格面具登錄率達到１００％"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_20": {
+      "translations": {
+        "english": {
+          "name": "Best Friend",
+          "description": "Maxed out a BOND skill level."
+        },
+        "french": {
+          "name": "Meilleurs amis",
+          "description": "Vous avez monté une comp. de LIEN au niveau maximum."
+        },
+        "german": {
+          "name": "Beste Freunde",
+          "description": "Einen BINDUNG-Skill auf den höchsten Level gebracht."
+        },
+        "italian": {
+          "name": "Grande amicizia",
+          "description": "Hai portato al massimo il livello di un'abilità LEGAME."
+        },
+        "japanese": {
+          "name": "最高の仲間",
+          "description": "いずれかのＢＡＮＤスキルをレベルＭＡＸにした"
+        },
+        "koreana": {
+          "name": "최고의 동료",
+          "description": "하나의 BAND 스킬을 레벨 MAX로 만들었다"
+        },
+        "schinese": {
+          "name": "最棒的伙伴",
+          "description": "任一BAND技能等级达到MAX"
+        },
+        "spanish": {
+          "name": "Mejores amigos",
+          "description": "Has aumentado al máximo una habilidad de vínculo."
+        },
+        "tchinese": {
+          "name": "最棒的夥伴",
+          "description": "任一ＢＡＮＤ技能等級達到ＭＡＸ"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_21": {
+      "translations": {
+        "english": {
+          "name": "Eternal Bonds",
+          "description": "Maxed out all BOND skill levels."
+        },
+        "french": {
+          "name": "Liens éternels",
+          "description": "Vous avez monté toutes les comp. de LIEN au niveau maximum."
+        },
+        "german": {
+          "name": "Ewige Bindung",
+          "description": "Alle BINDUNG-Skills auf den höchsten Level gebracht."
+        },
+        "italian": {
+          "name": "Legami eterni",
+          "description": "Hai portato al massimo il livello di tutte le abilità LEGAME."
+        },
+        "japanese": {
+          "name": "永遠の絆",
+          "description": "全ＢＡＮＤスキルをレベルＭＡＸにした"
+        },
+        "koreana": {
+          "name": "영원한 인연",
+          "description": "모든 BAND 스킬을 레벨 MAX로 만들었다"
+        },
+        "schinese": {
+          "name": "永恒的羁绊",
+          "description": "所有BAND技能等级达到MAX"
+        },
+        "spanish": {
+          "name": "Vínculos eternos",
+          "description": "Has aumentado al máximo todas las habilidades de vínculo."
+        },
+        "tchinese": {
+          "name": "永恆的羈絆",
+          "description": "所有ＢＡＮＤ技能等級達到ＭＡＸ"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_22": {
+      "translations": {
+        "english": {
+          "name": "Eye for Talent",
+          "description": "Spent Persona Points to strengthen a Persona's stats."
+        },
+        "french": {
+          "name": "Dénicheur de talents",
+          "description": "Vous avez renforcé une Persona à l'aide de points Persona."
+        },
+        "german": {
+          "name": "Talentscout",
+          "description": "Die Werte einer Persona mit Persona-Punkten gestärkt."
+        },
+        "italian": {
+          "name": "Fiuto per il talento",
+          "description": "Hai speso Punti Persona per rafforzare le statistiche di una Persona."
+        },
+        "japanese": {
+          "name": "秘儀執行者",
+          "description": "ペルソナポイントを使ってペルソナのパラメータ強化を行った"
+        },
+        "koreana": {
+          "name": "비밀 의식 집행자",
+          "description": "페르소나 포인트를 사용해 페르소나 능력치를 강화했다"
+        },
+        "schinese": {
+          "name": "秘仪执行者",
+          "description": "使用人格面具点数强化人格面具的能力值"
+        },
+        "spanish": {
+          "name": "Ojo para el talento",
+          "description": "Has gastado puntos de Persona para fortalecer las estadísticas de una Persona."
+        },
+        "tchinese": {
+          "name": "祕儀執行者",
+          "description": "使用人格面具點數強化人格面具的能力值"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_23": {
+      "translations": {
+        "english": {
+          "name": "Knife in the Dark",
+          "description": "Performed 50 ambushes."
+        },
+        "french": {
+          "name": "Une lame dans la nuit",
+          "description": "Vous avez effectué 50 embuscades."
+        },
+        "german": {
+          "name": "Messer im Dunkeln",
+          "description": "50 Überfälle ausgeführt."
+        },
+        "italian": {
+          "name": "Una lama nel buio",
+          "description": "Hai eseguito 50 imboscate."
+        },
+        "japanese": {
+          "name": "影に潜む者",
+          "description": "スニークアタックを５０回決めた"
+        },
+        "koreana": {
+          "name": "어둠에 숨은 자",
+          "description": "스닉 어택을 50번 성공했다"
+        },
+        "schinese": {
+          "name": "阴影潜伏者",
+          "description": "施展50次潜行攻击打倒敌人"
+        },
+        "spanish": {
+          "name": "Cuchillo en la oscuridad",
+          "description": "Has realizado 50 emboscadas."
+        },
+        "tchinese": {
+          "name": "陰影潛伏者",
+          "description": "施展５０次潛行攻擊打倒敵人"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_24": {
+      "translations": {
+        "english": {
+          "name": "Best of the Best",
+          "description": "Trained all Phantom Thieves to level 70."
+        },
+        "french": {
+          "name": "La crème de la crème",
+          "description": "Tous les Voleurs fantômes ont atteint le niveau 70."
+        },
+        "german": {
+          "name": "Die Besten der Besten",
+          "description": "Alle Phantomdiebe auf Level 70 gebracht."
+        },
+        "italian": {
+          "name": "Il meglio del meglio",
+          "description": "Hai portato tutti i Ladri Fantasma al livello 70."
+        },
+        "japanese": {
+          "name": "精鋭の怪盗たち",
+          "description": "怪盗団メンバーのレベルを全員７０以上にした"
+        },
+        "koreana": {
+          "name": "정예의 괴도들",
+          "description": "괴도단 멤버의 레벨을 전원 70 이상으로 만들었다"
+        },
+        "schinese": {
+          "name": "精锐怪盗一行",
+          "description": "所有怪盗团成员的等级达到70以上"
+        },
+        "spanish": {
+          "name": "Lo mejor de lo mejor",
+          "description": "Has subido a todos los Ladrones Fantasma al nivel 70."
+        },
+        "tchinese": {
+          "name": "精銳怪盜一行",
+          "description": "所有怪盜團成員的等級達到７０以上"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_25": {
+      "translations": {
+        "english": {
+          "name": "What are Friends For?",
+          "description": "Cleared all special requests from the Phantom Thieves."
+        },
+        "french": {
+          "name": "À quoi servent les amis ?",
+          "description": "Vous avez terminé toutes les requêtes de vos équipiers."
+        },
+        "german": {
+          "name": "Wofür hat man Freunde?",
+          "description": "Alle Sonderanfragen der Phantomdiebe abgeschlossen."
+        },
+        "italian": {
+          "name": "A che servono gli amici?",
+          "description": "Hai completato tutte le richieste speciali dei Ladri Fantasma."
+        },
+        "japanese": {
+          "name": "仲間のために",
+          "description": "怪盗団メンバーの特別なリクエストを全てクリア"
+        },
+        "koreana": {
+          "name": "동료를 위하여",
+          "description": "괴도단 멤버의 특별한 리퀘스트를 모두 클리어했다"
+        },
+        "schinese": {
+          "name": "为了伙伴",
+          "description": "完成所有怪盗团成员的特别请求"
+        },
+        "spanish": {
+          "name": "¿Para qué están los amigos?",
+          "description": "Has completado todas las solicitudes especiales de los Ladrones Fantasma."
+        },
+        "tchinese": {
+          "name": "為了夥伴",
+          "description": "完成所有怪盜團成員的特別請求"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_26": {
+      "translations": {
+        "english": {
+          "name": "Who Dares Wins",
+          "description": "Defeated a Dire Shadow."
+        },
+        "french": {
+          "name": "À vaincre sans péril",
+          "description": "Vous avez vaincu une Ombre suprême."
+        },
+        "german": {
+          "name": "Wer wagt, gewinnt",
+          "description": "Einen Düsterschatten besiegt."
+        },
+        "italian": {
+          "name": "Chi osa, vince",
+          "description": "Hai sconfitto un'Ombra nefasta."
+        },
+        "japanese": {
+          "name": "挑み勝つ者",
+          "description": "剛魔を撃破した"
+        },
+        "koreana": {
+          "name": "도전하여 승리하는 자",
+          "description": "강마를 격파했다"
+        },
+        "schinese": {
+          "name": "战胜者",
+          "description": "打倒刚魔"
+        },
+        "spanish": {
+          "name": "Quien no arriesga, no gana",
+          "description": "Has derrotado a una sombra funesta."
+        },
+        "tchinese": {
+          "name": "戰勝者",
+          "description": "打倒剛魔"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_27": {
+      "translations": {
+        "english": {
+          "name": "The Most Daring of All",
+          "description": "Defeated all Dire Shadows."
+        },
+        "french": {
+          "name": "Suprématie",
+          "description": "Vous avez vaincu toutes les Ombres suprêmes."
+        },
+        "german": {
+          "name": "Kühn, kühner, am kühnsten",
+          "description": "Alle Düsterschatten besiegt."
+        },
+        "italian": {
+          "name": "Il più audace di tutti",
+          "description": "Hai sconfitto tutte le Ombre nefaste."
+        },
+        "japanese": {
+          "name": "挑み制する者",
+          "description": "全ての剛魔を撃破した"
+        },
+        "koreana": {
+          "name": "도전하여 제압하는 자",
+          "description": "모든 강마를 격파했다"
+        },
+        "schinese": {
+          "name": "称霸者",
+          "description": "打倒所有刚魔"
+        },
+        "spanish": {
+          "name": "Valiente a más no poder",
+          "description": "Has derrotado a todas las sombras funestas."
+        },
+        "tchinese": {
+          "name": "稱霸者",
+          "description": "打倒所有剛魔"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_28": {
+      "translations": {
+        "english": {
+          "name": "Ultimate Trump Card",
+          "description": "Obtained all Master Arts for Joker."
+        },
+        "french": {
+          "name": "Botte secrète ultime",
+          "description": "Vous avez obtenu tous les Arts de maître de Joker."
+        },
+        "german": {
+          "name": "Der ultimative Trumpf",
+          "description": "Alle Meisterkünste von Joker erlernt."
+        },
+        "italian": {
+          "name": "L'asso nella manica definitivo",
+          "description": "Hai ottenuto tutti i Talenti magistrali di Joker."
+        },
+        "japanese": {
+          "name": "究極の切り札",
+          "description": "ジョーカーのマスターアーツを全て獲得した"
+        },
+        "koreana": {
+          "name": "궁극의 히든카드",
+          "description": "조커의 마스터 아츠를 모두 습득했다"
+        },
+        "schinese": {
+          "name": "终极王牌",
+          "description": "获得JOKER的所有大师技艺"
+        },
+        "spanish": {
+          "name": "El as en la manga definitivo",
+          "description": "Has obtenido todas las artes diestras de Joker."
+        },
+        "tchinese": {
+          "name": "終極王牌",
+          "description": "獲得ＪＯＫＥＲ的所有大師技藝"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_29": {
+      "translations": {
+        "english": {
+          "name": "Jolly Roger",
+          "description": "Obtained all Master Arts for Skull."
+        },
+        "french": {
+          "name": "Pavillon noir",
+          "description": "Vous avez obtenu tous les Arts de maître de Skull."
+        },
+        "german": {
+          "name": "Jolly Roger",
+          "description": "Alle Meisterkünste von Skull erlernt."
+        },
+        "italian": {
+          "name": "Jolly Roger",
+          "description": "Hai ottenuto tutti i Talenti magistrali di Skull."
+        },
+        "japanese": {
+          "name": "ドクロの旗印",
+          "description": "スカルのマスターアーツを全て獲得した"
+        },
+        "koreana": {
+          "name": "해골 무늬 깃발",
+          "description": "스컬의 마스터 아츠를 모두 습득했다"
+        },
+        "schinese": {
+          "name": "骷髅旗帜",
+          "description": "获得SKULL的所有大师技艺"
+        },
+        "spanish": {
+          "name": "Jolly Roger",
+          "description": "Has obtenido todas las artes diestras de Skull."
+        },
+        "tchinese": {
+          "name": "骷髏旗幟",
+          "description": "獲得ＳＫＵＬＬ的所有大師技藝"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_30": {
+      "translations": {
+        "english": {
+          "name": "Gentleman Thief",
+          "description": "Obtained all Master Arts for Mona."
+        },
+        "french": {
+          "name": "Gentleman cambrioleur",
+          "description": "Vous avez obtenu tous les Arts de maître de Mona."
+        },
+        "german": {
+          "name": "Gentleman-Dieb",
+          "description": "Alle Meisterkünste von Mona erlernt."
+        },
+        "italian": {
+          "name": "Ladro gentiluomo",
+          "description": "Hai ottenuto tutti i Talenti magistrali di Mona."
+        },
+        "japanese": {
+          "name": "誇り高き怪傑",
+          "description": "モナのマスターアーツを全て獲得した"
+        },
+        "koreana": {
+          "name": "긍지 높은 쾌걸",
+          "description": "모나의 마스터 아츠를 모두 습득했다"
+        },
+        "schinese": {
+          "name": "高傲怪杰",
+          "description": "获得MONA的所有大师技艺"
+        },
+        "spanish": {
+          "name": "Caballero ladrón",
+          "description": "Has obtenido todas las artes diestras de Mona."
+        },
+        "tchinese": {
+          "name": "高傲怪傑",
+          "description": "獲得ＭＯＮＡ的所有大師技藝"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_31": {
+      "translations": {
+        "english": {
+          "name": "Flame Dancer",
+          "description": "Obtained all Master Arts for Panther."
+        },
+        "french": {
+          "name": "Danseuse des flammes",
+          "description": "Vous avez obtenu tous les Arts de maître de Panther."
+        },
+        "german": {
+          "name": "Flammentanz",
+          "description": "Alle Meisterkünste von Panther erlernt."
+        },
+        "italian": {
+          "name": "Danzatrice delle fiamme",
+          "description": "Hai ottenuto tutti i Talenti magistrali di Panther."
+        },
+        "japanese": {
+          "name": "情熱の炎舞",
+          "description": "パンサーのマスターアーツを全て獲得した"
+        },
+        "koreana": {
+          "name": "정열적인 불꽃의 춤",
+          "description": "팬서의 마스터 아츠를 모두 습득했다"
+        },
+        "schinese": {
+          "name": "热情炎舞",
+          "description": "获得PANTHER的所有大师技艺"
+        },
+        "spanish": {
+          "name": "Bailarina flamígera",
+          "description": "Has obtenido todas las artes diestras de Panther."
+        },
+        "tchinese": {
+          "name": "熱情炎舞",
+          "description": "獲得ＰＡＮＴＨＥＲ的所有大師技藝"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_0": {
+      "translations": {
+        "english": {
+          "name": "Peerless Blade",
+          "description": "Obtained all Master Arts for Fox."
+        },
+        "french": {
+          "name": "Bretteur sans égal",
+          "description": "Vous avez obtenu tous les Arts de maître de Fox."
+        },
+        "german": {
+          "name": "Einzigartige Klinge",
+          "description": "Alle Meisterkünste von Fox erlernt."
+        },
+        "italian": {
+          "name": "Lama impareggiabile",
+          "description": "Hai ottenuto tutti i Talenti magistrali di Fox."
+        },
+        "japanese": {
+          "name": "値万両の刃",
+          "description": "フォックスのマスターアーツを全て獲得した"
+        },
+        "koreana": {
+          "name": "만금의 검",
+          "description": "폭스의 마스터 아츠를 모두 습득했다"
+        },
+        "schinese": {
+          "name": "万两名刀",
+          "description": "获得FOX的所有大师技艺"
+        },
+        "spanish": {
+          "name": "Filo sin igual",
+          "description": "Has obtenido todas las artes diestras de Fox."
+        },
+        "tchinese": {
+          "name": "萬兩名刀",
+          "description": "獲得ＦＯＸ的所有大師技藝"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_1": {
+      "translations": {
+        "english": {
+          "name": "Fist of Justice",
+          "description": "Obtained all Master Arts for Queen."
+        },
+        "french": {
+          "name": "Le poing de la justice",
+          "description": "Vous avez obtenu tous les Arts de maître de Queen."
+        },
+        "german": {
+          "name": "Faust der Gerechtigkeit",
+          "description": "Alle Meisterkünste von Queen erlernt."
+        },
+        "italian": {
+          "name": "Pugno della giustizia",
+          "description": "Hai ottenuto tutti i Talenti magistrali di Queen."
+        },
+        "japanese": {
+          "name": "断罪の拳",
+          "description": "クイーンのマスターアーツを全て獲得した"
+        },
+        "koreana": {
+          "name": "단죄의 주먹",
+          "description": "퀸의 마스터 아츠를 모두 습득했다"
+        },
+        "schinese": {
+          "name": "断罪之拳",
+          "description": "获得QUEEN的所有大师技艺"
+        },
+        "spanish": {
+          "name": "Puño de la justicia",
+          "description": "Has obtenido todas las artes diestras de Queen."
+        },
+        "tchinese": {
+          "name": "斷罪之拳",
+          "description": "獲得ＱＵＥＥＮ的所有大師技藝"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_2": {
+      "translations": {
+        "english": {
+          "name": "Sophisticated Lady",
+          "description": "Obtained all Master Arts for Noir."
+        },
+        "french": {
+          "name": "Femme raffinée",
+          "description": "Vous avez obtenu tous les Arts de maître de Noir."
+        },
+        "german": {
+          "name": "Kultivierte Lady",
+          "description": "Alle Meisterkünste von Noir erlernt."
+        },
+        "italian": {
+          "name": "Dama raffinata",
+          "description": "Hai ottenuto tutti i Talenti magistrali di Noir."
+        },
+        "japanese": {
+          "name": "手練の淑女",
+          "description": "ノワールのマスターアーツを全て獲得した"
+        },
+        "koreana": {
+          "name": "능수능란한 숙녀",
+          "description": "누아르의 마스터 아츠를 모두 습득했다"
+        },
+        "schinese": {
+          "name": "娴熟淑女",
+          "description": "获得NOIR的所有大师技艺"
+        },
+        "spanish": {
+          "name": "Señorita sofisticada",
+          "description": "Has obtenido todas las artes diestras de Noir."
+        },
+        "tchinese": {
+          "name": "嫻熟淑女",
+          "description": "獲得ＮＯＩＲ的所有大師技藝"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_3": {
+      "translations": {
+        "english": {
+          "name": "Technological Marvel",
+          "description": "Obtained all Master Arts for Sophie."
+        },
+        "french": {
+          "name": "Merveille technologique",
+          "description": "Vous avez obtenu tous les Arts de maître de Sophie."
+        },
+        "german": {
+          "name": "Technologisches Wunder",
+          "description": "Alle Meisterkünste von Sophie erlernt."
+        },
+        "italian": {
+          "name": "Prodigio tecnologico",
+          "description": "Hai ottenuto tutti i Talenti magistrali di Sophie."
+        },
+        "japanese": {
+          "name": "技術的特異点",
+          "description": "ソフィーのマスターアーツを全て獲得した"
+        },
+        "koreana": {
+          "name": "기술적 특이점",
+          "description": "소피의 마스터 아츠를 모두 습득했다"
+        },
+        "schinese": {
+          "name": "科技奇异点",
+          "description": "获得SOPHIE的所有大师技艺"
+        },
+        "spanish": {
+          "name": "Maravilla tecnológica",
+          "description": "Has obtenido todas las artes diestras de Sophie."
+        },
+        "tchinese": {
+          "name": "科技奇異點",
+          "description": "獲得ＳＯＰＨＩＥ的所有大師技藝"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_4": {
+      "translations": {
+        "english": {
+          "name": "Repentant Fang",
+          "description": "Obtained all Master Arts for Wolf."
+        },
+        "french": {
+          "name": "Doux comme un agneau",
+          "description": "Vous avez obtenu tous les Arts de maître de Wolf."
+        },
+        "german": {
+          "name": "Reumütiger Reißzahn",
+          "description": "Alle Meisterkünste von Wolf erlernt."
+        },
+        "italian": {
+          "name": "Zanne penitenti",
+          "description": "Hai ottenuto tutti i Talenti magistrali di Wolf."
+        },
+        "japanese": {
+          "name": "贖いの爪牙",
+          "description": "ウルフのマスターアーツを全て獲得した"
+        },
+        "koreana": {
+          "name": "속죄의 조아",
+          "description": "울프의 마스터 아츠를 모두 습득했다"
+        },
+        "schinese": {
+          "name": "赎罪爪牙",
+          "description": "获得WOLF的所有大师技艺"
+        },
+        "spanish": {
+          "name": "Colmillo arrepentido",
+          "description": "Has obtenido todas las artes diestras de Wolf."
+        },
+        "tchinese": {
+          "name": "贖罪爪牙",
+          "description": "獲得ＷＯＬＦ的所有大師技藝"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_5": {
+      "translations": {
+        "english": {
+          "name": "Master Thieves",
+          "description": "Obtained all Master Arts for all characters."
+        },
+        "french": {
+          "name": "Maîtres voleurs",
+          "description": "Vous avez obtenu tous les Arts de maître de tous les personnages."
+        },
+        "german": {
+          "name": "Meisterdiebe",
+          "description": "Alle Meisterkünste von allen Charakteren erlernt."
+        },
+        "italian": {
+          "name": "Ladri magistrali",
+          "description": "Hai ottenuto tutti i Talenti magistrali di tutti i personaggi."
+        },
+        "japanese": {
+          "name": "熟練の怪盗たち",
+          "description": "全員のマスターアーツを全て獲得した"
+        },
+        "koreana": {
+          "name": "숙련된 괴도들",
+          "description": "전원의 마스터 아츠를 모두 습득했다"
+        },
+        "schinese": {
+          "name": "妙手怪盗一行",
+          "description": "获得全体成员的所有大师技艺"
+        },
+        "spanish": {
+          "name": "Ladrones maestros",
+          "description": "Has obtenido todas las artes diestras de todos los personajes."
+        },
+        "tchinese": {
+          "name": "妙手怪盜一行",
+          "description": "獲得全體成員的所有大師技藝"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_6": {
+      "translations": {
+        "english": {
+          "name": "A Helping Hand",
+          "description": "Completed a request."
+        },
+        "french": {
+          "name": "Une main secourable",
+          "description": "Vous avez terminé une requête."
+        },
+        "german": {
+          "name": "Helfende Hand",
+          "description": "Eine Anfrage abgeschlossen"
+        },
+        "italian": {
+          "name": "Una mano tesa",
+          "description": "Hai completato una richiesta."
+        },
+        "japanese": {
+          "name": "差し伸べる手",
+          "description": "リクエストをクリア"
+        },
+        "koreana": {
+          "name": "도움의 손길",
+          "description": "리퀘스트를 클리어했다"
+        },
+        "schinese": {
+          "name": "伸手助人",
+          "description": "完成请求"
+        },
+        "spanish": {
+          "name": "Una mano amiga",
+          "description": "Has completado una solicitud."
+        },
+        "tchinese": {
+          "name": "伸手助人",
+          "description": "完成請求"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_7": {
+      "translations": {
+        "english": {
+          "name": "Those Who Heed the Call",
+          "description": "Completed 50 requests."
+        },
+        "french": {
+          "name": "Ceux qui répondent à l'appel",
+          "description": "Vous avez terminé 50 requêtes."
+        },
+        "german": {
+          "name": "Helfersyndrom",
+          "description": "50 Anfragen abgeschlossen."
+        },
+        "italian": {
+          "name": "Pronti ad aiutare il prossimo",
+          "description": "Hai completato 50 richieste."
+        },
+        "japanese": {
+          "name": "求めに応えし者",
+          "description": "リクエストを５０種クリア"
+        },
+        "koreana": {
+          "name": "요구에 응하는 자",
+          "description": "리퀘스트를 50개 클리어했다"
+        },
+        "schinese": {
+          "name": "有求必应者",
+          "description": "完成50种请求"
+        },
+        "spanish": {
+          "name": "Los que acuden a la llamada",
+          "description": "Has completado 50 solicitudes."
+        },
+        "tchinese": {
+          "name": "有求必應者",
+          "description": "完成５０種請求"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_8": {
+      "translations": {
+        "english": {
+          "name": "Item Sweeper",
+          "description": "Obtained a total 200 items from the Jails."
+        },
+        "french": {
+          "name": "Collectionneur",
+          "description": "Vous avez obtenu 200 objets dans les Prisons."
+        },
+        "german": {
+          "name": "Sammelwut",
+          "description": "In Gefängnissen 200 Gegenstände gesammelt."
+        },
+        "italian": {
+          "name": "Ricettatore di oggetti",
+          "description": "Hai ottenuto 200 oggetti in totale dalle Prigioni."
+        },
+        "japanese": {
+          "name": "アイテムスイーパー",
+          "description": "ジェイルの拾得アイテムを２００個入手"
+        },
+        "koreana": {
+          "name": "아이템 스위퍼",
+          "description": "제일에서 습득 아이템을 200개 입수했다"
+        },
+        "schinese": {
+          "name": "道具扫荡者",
+          "description": "获得200个监狱的拾获道具"
+        },
+        "spanish": {
+          "name": "Coleccionista de objetos",
+          "description": "Has obtenido 200 objetos en las Cárceles."
+        },
+        "tchinese": {
+          "name": "道具掃蕩者",
+          "description": "獲得２００個監獄的拾獲道具"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_9": {
+      "translations": {
+        "english": {
+          "name": "Short Order Cook",
+          "description": "Cooked food for the first time."
+        },
+        "french": {
+          "name": "Cuisine express",
+          "description": "Vous avez préparé à manger pour la première fois."
+        },
+        "german": {
+          "name": "Jeder kann kochen",
+          "description": "Zum ersten Mal etwas gekocht."
+        },
+        "italian": {
+          "name": "La prova del cuoco",
+          "description": "Hai cucinato per la prima volta."
+        },
+        "japanese": {
+          "name": "ビギナーコック",
+          "description": "料理を作った"
+        },
+        "koreana": {
+          "name": "비기너 셰프",
+          "description": "요리를 만들었다"
+        },
+        "schinese": {
+          "name": "菜鸟厨师",
+          "description": "制作料理"
+        },
+        "spanish": {
+          "name": "Cocinero novato",
+          "description": "Has cocinado por primera vez."
+        },
+        "tchinese": {
+          "name": "菜鳥廚師",
+          "description": "製作料理"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_10": {
+      "translations": {
+        "english": {
+          "name": "Master Chef",
+          "description": "Cooked 12 types of food."
+        },
+        "french": {
+          "name": "Grand chef",
+          "description": "Vous avez préparé 12 types de plats."
+        },
+        "german": {
+          "name": "Sternekoch",
+          "description": "12 verschiedene Gerichte gekocht."
+        },
+        "italian": {
+          "name": "Chef stellato",
+          "description": "Hai preparato 12 tipi di piatti."
+        },
+        "japanese": {
+          "name": "ベテランコック",
+          "description": "料理を１２種類作った"
+        },
+        "koreana": {
+          "name": "베테랑 셰프",
+          "description": "요리를 12종류 만들었다"
+        },
+        "schinese": {
+          "name": "老练厨师",
+          "description": "制作12种料理"
+        },
+        "spanish": {
+          "name": "Chef maestro",
+          "description": "Has preparado 12 tipos de comida."
+        },
+        "tchinese": {
+          "name": "老練廚師",
+          "description": "製作１２種料理"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_11": {
+      "translations": {
+        "english": {
+          "name": "Impulse Buyer",
+          "description": "Bought something during a limited time sale."
+        },
+        "french": {
+          "name": "Acheteur compulsif",
+          "description": "Vous avez profité d'une promotion."
+        },
+        "german": {
+          "name": "Impulskauf",
+          "description": "Ein zeitlich limitiertes Angebot gekauft."
+        },
+        "italian": {
+          "name": "Acquisto compulsivo",
+          "description": "Hai comprato qualcosa durante i saldi a tempo limitato."
+        },
+        "japanese": {
+          "name": "機を見るに敏",
+          "description": "タイムセール品を購入した"
+        },
+        "koreana": {
+          "name": "기회를 노리는 매의 눈",
+          "description": "타임 세일 상품을 구입했다"
+        },
+        "schinese": {
+          "name": "勿失良机",
+          "description": "购买限时特卖商品"
+        },
+        "spanish": {
+          "name": "Comprador impulsivo",
+          "description": "Has comprado algo durante una oferta limitada."
+        },
+        "tchinese": {
+          "name": "勿失良機",
+          "description": "購買限時特賣商品"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_12": {
+      "translations": {
+        "english": {
+          "name": "A Little Memento",
+          "description": "Obtained a souvenir for the camper."
+        },
+        "french": {
+          "name": "Un petit souvenir",
+          "description": "Vous avez obtenu un souvenir pour le van."
+        },
+        "german": {
+          "name": "Eine kleine Erinnerung",
+          "description": "Ein Souvenir für das Wohnmobil erhalten."
+        },
+        "italian": {
+          "name": "Un ricordino",
+          "description": "Hai ottenuto un souvenir per il camper."
+        },
+        "japanese": {
+          "name": "旅の思い出",
+          "description": "キャンピングカーのインテリアを入手した"
+        },
+        "koreana": {
+          "name": "여행의 추억",
+          "description": "캠핑카의 인테리어 용품을 입수했다"
+        },
+        "schinese": {
+          "name": "旅行的回忆",
+          "description": "获得露营车的室内装饰"
+        },
+        "spanish": {
+          "name": "Un pequeño recuerdo",
+          "description": "Has conseguido un recuerdo para la caravana."
+        },
+        "tchinese": {
+          "name": "旅行的回憶",
+          "description": "獲得露營車的室內裝飾"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_13": {
+      "translations": {
+        "english": {
+          "name": "Treasure Hunter",
+          "description": "Opened 50 treasure chests."
+        },
+        "french": {
+          "name": "Chasseur de trésors",
+          "description": "Vous avez ouvert 50 coffres."
+        },
+        "german": {
+          "name": "Schatzjäger",
+          "description": "50 Schatztruhen geöffnet"
+        },
+        "italian": {
+          "name": "Cacciatore di tesori",
+          "description": "Hai aperto 50 forzieri."
+        },
+        "japanese": {
+          "name": "トレジャーハンター",
+          "description": "宝箱を５０回開けた"
+        },
+        "koreana": {
+          "name": "트레저 헌터",
+          "description": "보물 상자를 50번 열었다"
+        },
+        "schinese": {
+          "name": "宝藏猎人",
+          "description": "开50次宝箱"
+        },
+        "spanish": {
+          "name": "Cazatesoros",
+          "description": "Has abierto 50 cofres del tesoro."
+        },
+        "tchinese": {
+          "name": "寶藏獵人",
+          "description": "開５０次寶箱"
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_14": {
+      "translations": {
+        "english": {
+          "name": "No Looking Back",
+          "description": "Started a New Game+ on Merciless Difficulty."
+        },
+        "french": {
+          "name": "Aller simple",
+          "description": "Vous avez lancé une Nouvelle partie + en difficulté Impossible."
+        },
+        "german": {
+          "name": "Kein Zurück",
+          "description": "Ein Neues Spiel+ auf „Gnadenlos“ gestartet."
+        },
+        "italian": {
+          "name": "Nessun rimpianto",
+          "description": "Hai iniziato una Nuova Partita+ a difficoltà Spietata."
+        },
+        "japanese": {
+          "name": "後悔はなしだ",
+          "description": "難易度ＲＩＳＫＹで周回プレイを始めた"
+        },
+        "koreana": {
+          "name": "후회는 없다",
+          "description": "난이도 RISKY로 회차 플레이를 시작했다"
+        },
+        "schinese": {
+          "name": "不容后悔",
+          "description": "以难度RISKY开始重复游玩"
+        },
+        "spanish": {
+          "name": "Sin mirar atrás",
+          "description": "Has comenzado una Nueva partida+ en dificultad Despiadada."
+        },
+        "tchinese": {
+          "name": "不容後悔",
+          "description": "以難易度ＲＩＳＫＹ開始重複遊玩"
+        }
+      }
+    }
+  }
+}

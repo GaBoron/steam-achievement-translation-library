@@ -1,0 +1,3887 @@
+{
+  "version": 1,
+  "app_id": "438640",
+  "variant_id": "default",
+  "source_sha256": "3b20bb5df223b5424751894999b4895e99a5b5c8c560366814930f4cfcda22ae",
+  "languages": [
+    "arabic",
+    "brazilian",
+    "danish",
+    "dutch",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish",
+    "tchinese"
+  ],
+  "achievements": {
+    "COMPLETE_STORYEVENT1": {
+      "translations": {
+        "arabic": {
+          "name": "سأعود من أجلك!",
+          "description": "أكمل القوّة تستيقظ الفصل 1 - الاعتداء على جاكوو"
+        },
+        "brazilian": {
+          "name": "Eu volto para buscar você!",
+          "description": "Complete ODdF Capítulo 1 - Ataque a Jakku"
+        },
+        "danish": {
+          "name": "Jeg kommer tilbage efter dig!",
+          "description": "Gennemfør TFA, kapitel 1 - Angrebet på Jakku"
+        },
+        "dutch": {
+          "name": "Ik kom terug voor je!",
+          "description": "Voltooi TFA hoofdstuk 1 - Aanval op Jakku"
+        },
+        "english": {
+          "name": "I'll Come Back For You!",
+          "description": "Complete TFA Chapter 1 - Assault On Jakku"
+        },
+        "french": {
+          "name": "Je reviendrai !",
+          "description": "Terminez le chapitre 1 de LRdlF - Assaut sur Jakku."
+        },
+        "german": {
+          "name": "Ich komme dich holen!",
+          "description": "Beende DEDM-Kapitel 1 - „Angriff auf Jakku“"
+        },
+        "italian": {
+          "name": "Verrò a riprenderti!",
+          "description": "Completa il capitolo 1 di IRDF - Assalto su Jakku"
+        },
+        "polish": {
+          "name": "Wrócę po ciebie!",
+          "description": "Ukończ 1. rozdział Przebudzenia - Szturm na Jakku."
+        },
+        "russian": {
+          "name": "Я вернусь за тобой!",
+          "description": "Пройти 1-ю главу ЗВ:ПС - ''Нападение на Джакку''"
+        },
+        "schinese": {
+          "name": "我会回来找你的",
+          "description": "完成原力觉醒第 1 章 - 血溅贾库星"
+        },
+        "spanish": {
+          "name": "¡Volveré a por ti!",
+          "description": "Completa el capítulo 1 de EDDLF: «Asalto en Jakku»"
+        },
+        "tchinese": {
+          "name": "我會回來找你的！",
+          "description": "完成原力覺醒第1章 - 血濺賈庫星"
+        }
+      }
+    },
+    "COMPLETE_STORYEVENT2": {
+      "translations": {
+        "arabic": {
+          "name": "سرّي؟ أنا أيضًا.",
+          "description": "أكمل القوّة تستيقظ الفصل 2 - الهروب من الفاينالايزر"
+        },
+        "brazilian": {
+          "name": "Confidencial? Eu também.",
+          "description": "Complete ODdF Capítulo 2 - Fuga do Finalizador"
+        },
+        "danish": {
+          "name": "Hemmelig? Også mig.",
+          "description": "Gennemfør TFA, kapitel 2 - Slip væk fra The Finalizer"
+        },
+        "dutch": {
+          "name": "Geheim? Ik ook!",
+          "description": "Voltooi TFA hoofdstuk 2 - Ontsnapping aan de Finalizer"
+        },
+        "english": {
+          "name": "Classified? Me Too.",
+          "description": "Complete TFA Chapter 2 - Escape From The Finalizer"
+        },
+        "french": {
+          "name": "Secret-défense ? Moi aussi.",
+          "description": "Terminez le chapitre 2 de LRdlF - Fuite du Finalizer."
+        },
+        "german": {
+          "name": "Geheim? Bei mir auch.",
+          "description": "Beende DEDM-Kapitel 2 - „Flucht vom Finalizer“"
+        },
+        "italian": {
+          "name": "Riservato? Anch'io.",
+          "description": "Completa il capitolo 2 di IRDF - Fuga dal Finalizer"
+        },
+        "polish": {
+          "name": "Tajne? To jak ze mną",
+          "description": "Ukończ 2. rozdział Przebudzenia - Ucieczkę z Finalizera."
+        },
+        "russian": {
+          "name": "Не можешь сказать? Я тоже.",
+          "description": "Пройти 2-ю главу ЗВ:ПС - ''Побег с Завершителя''"
+        },
+        "schinese": {
+          "name": "机密？我也是",
+          "description": "完成原力觉醒第 2 章 - 逃离定局者号"
+        },
+        "spanish": {
+          "name": "Clasificado, pues como yo",
+          "description": "Completa el capítulo 2 de EDDLF: «Huida del Finalizer»"
+        },
+        "tchinese": {
+          "name": "機密？我也是。",
+          "description": "完成原力覺醒第2章 - 逃離定局者號"
+        }
+      }
+    },
+    "COMPLETE_STORYEVENT3": {
+      "translations": {
+        "arabic": {
+          "name": "الخردة ستفي بالغرض",
+          "description": "أكمل القوّة تستيقظ الفصل 3 - قاعدة نيما"
+        },
+        "brazilian": {
+          "name": "O lixo vai servir",
+          "description": "Complete ODdF Capítulo 3 - Posto Avançado de Niima"
+        },
+        "danish": {
+          "name": "Skrotbunken går an",
+          "description": "Gennemfør TFA, kapitel 3 - Niima-forposten"
+        },
+        "dutch": {
+          "name": "Het afval is genoeg",
+          "description": "Voltooi TFA hoofdstuk 3 - Niima-buitenpost"
+        },
+        "english": {
+          "name": "The Garbage Will Do",
+          "description": "Complete TFA Chapter 3 - Niima Outpost"
+        },
+        "french": {
+          "name": "La ferraille fera l'affaire",
+          "description": "Terminez le chapitre 3 de LRdlF - Avant-poste de Niima."
+        },
+        "german": {
+          "name": "Der Schrott tut's auch",
+          "description": "Beende DEDM-Kapitel 3 - „Niima-Außenposten“"
+        },
+        "italian": {
+          "name": "La ferraglia va bene",
+          "description": "Completa il capitolo 3 di IRDF - Avamposto di Niima"
+        },
+        "polish": {
+          "name": "Niech będzie złom",
+          "description": "Ukończ 3. rozdział Przebudzenia - Przyczółek Niima."
+        },
+        "russian": {
+          "name": "Корыто сойдет",
+          "description": "Пройти 3-ю главу ЗВ:ПС - ''Аванпост Ниима''"
+        },
+        "schinese": {
+          "name": "破铜烂铁也成",
+          "description": "完成原力觉醒第 3 章 - 尼玛哨站"
+        },
+        "spanish": {
+          "name": "La basura nos vale",
+          "description": "Completa el capítulo 3 de EDDLF: «Puesto avanzado de Niima»"
+        },
+        "tchinese": {
+          "name": "破銅爛鐵也成",
+          "description": "完成原力覺醒第3章 - 尼瑪哨站"
+        }
+      }
+    },
+    "COMPLETE_STORYEVENT4": {
+      "translations": {
+        "arabic": {
+          "name": "...ماذا كانت المرّة الثانية؟",
+          "description": "أكمل القوّة تستيقظ الفصل 4 - الإرفانا"
+        },
+        "brazilian": {
+          "name": "...Qual foi a segunda vez?",
+          "description": "Complete ODdF Capítulo 4 - O Eravana"
+        },
+        "danish": {
+          "name": "... Hvad var den anden gang?",
+          "description": "Gennemfør TFA, kapitel 4 - The Eravana"
+        },
+        "dutch": {
+          "name": "...Wat was de tweede keer?",
+          "description": "Voltooi TFA hoofdstuk 4 - De Eravana"
+        },
+        "english": {
+          "name": "...What Was The Second Time?",
+          "description": "Complete TFA Chapter 4 - The Eravana"
+        },
+        "french": {
+          "name": "C'était quand, la deuxième ?",
+          "description": "Terminez le chapitre 4 de LRdlF - L'Eravana"
+        },
+        "german": {
+          "name": "Wann war das zweite Mal?",
+          "description": "Beende DEDM-Kapitel 4 - „Die Eravana“"
+        },
+        "italian": {
+          "name": "Qual era la seconda volta?",
+          "description": "Completa il capitolo 4 di IRDF - L'Eravana"
+        },
+        "polish": {
+          "name": "Co to był za drugi raz?",
+          "description": "Ukończ 4. rozdział Przebudzenia - Eravanę."
+        },
+        "russian": {
+          "name": "А второй раз когда был?",
+          "description": "Пройти 4-ю главу ЗВ:ПС - ''Эравана''"
+        },
+        "schinese": {
+          "name": "第二次是什么样子",
+          "description": "完成原力觉醒第 4 章 - 埃拉瓦纳号"
+        },
+        "spanish": {
+          "name": "¿Cuál fue la segunda?",
+          "description": "Completa el capítulo 4 de EDDLF: «El Eravana»"
+        },
+        "tchinese": {
+          "name": "...第二次是什麼樣子？",
+          "description": "完成原力覺醒第4章 - 埃拉瓦納號"
+        }
+      }
+    },
+    "COMPLETE_STORYEVENT5": {
+      "translations": {
+        "arabic": {
+          "name": "أعين رجل يريد الهروب",
+          "description": "أكمل القوّة تستيقظ الفصل 5 - قلعة ماز"
+        },
+        "brazilian": {
+          "name": "Olhos de quem quer fugir",
+          "description": "Complete ODdF Capítulo 5 - Castelo da Maz"
+        },
+        "danish": {
+          "name": "Øjnene på en mand der vil flygte",
+          "description": "Gennemfør TFA, kapitel 5 - Maz' slot"
+        },
+        "dutch": {
+          "name": "Een man die wil vluchten",
+          "description": "Voltooi TFA hoofdstuk 5 - Het kasteel van Maz"
+        },
+        "english": {
+          "name": "Eyes Of A Man Who Wants To Run",
+          "description": "Complete TFA Chapter 5 - Maz's Castle"
+        },
+        "french": {
+          "name": "Le regard d'un homme en fuite",
+          "description": "Terminez le chapitre 5 de LRdlF - Château de Maz."
+        },
+        "german": {
+          "name": "Ein Mann, der weglaufen möchte",
+          "description": "Beende DEDM-Kapitel 5 - „Maz' Schloss“"
+        },
+        "italian": {
+          "name": "Gli occhi di un uomo che fugge",
+          "description": "Completa il capitolo 5 di IRDF - Il castello di Maz"
+        },
+        "polish": {
+          "name": "Oczy kogoś, kto myśli o ucieczce",
+          "description": "Ukończ 5. rozdział Przebudzenia - Zamek Maz."
+        },
+        "russian": {
+          "name": "Человек, который хочет сбежать",
+          "description": "Пройти 5-ю главу ЗВ:ПС - ''Замок Маз''"
+        },
+        "schinese": {
+          "name": "一个想逃跑的男人之眼",
+          "description": "完成原力觉醒第 5 章 - 马兹的城堡"
+        },
+        "spanish": {
+          "name": "Ojos de alguien que quiere huir",
+          "description": "Completa el capítulo 5 de EDDLF: «El castillo de Maz»"
+        },
+        "tchinese": {
+          "name": "一名亟欲逃跑的男人之眼",
+          "description": "完成原力覺醒第5章 - 瑪茲的堡壘"
+        }
+      }
+    },
+    "COMPLETE_STORYEVENT6": {
+      "translations": {
+        "arabic": {
+          "name": "لا تترك هؤلاء الكلاب يخيفونك",
+          "description": "أكمل القوّة تستيقظ الفصل 6 - معركة تاكودانا"
+        },
+        "brazilian": {
+          "name": "Não se assuste com os cachorros",
+          "description": "Complete ODdF Capítulo 6 - Batalha de Takodana"
+        },
+        "danish": {
+          "name": "Lad ikke disse hunde skræmme dig",
+          "description": "Gennemfør TFA, kapitel 6 - Slaget om Takodana"
+        },
+        "dutch": {
+          "name": "Wees niet bang voor de honden",
+          "description": "Voltooi TFA hoofdstuk 6 - Aanval op Takodana"
+        },
+        "english": {
+          "name": "Don't Let These Dogs Scare You",
+          "description": "Complete TFA Chapter 6 - Battle of Takodana"
+        },
+        "french": {
+          "name": "N'ayez pas peur",
+          "description": "Terminez le chapitre 6 de LRdlF - Bataille de Takodana."
+        },
+        "german": {
+          "name": "Nur keine Angst!",
+          "description": "Beende DEDM-Kapitel 6 - „Angriff auf Takodana“"
+        },
+        "italian": {
+          "name": "Non fatevi spaventare da quelli",
+          "description": "Completa il capitolo 6 di IRDF - Attacco su Takodana"
+        },
+        "polish": {
+          "name": "Nie daj się przestraszyć psom",
+          "description": "Ukończ 6. rozdział Przebudzenia - Bitwę o Takodanę."
+        },
+        "russian": {
+          "name": "Они страшные только с виду",
+          "description": "Пройти 6-ю главу ЗВ:ПС - ''Битва на Такодане''"
+        },
+        "schinese": {
+          "name": "别让这些畜生吓着你了",
+          "description": "完成原力觉醒第 6 章 - 塔科达纳星之战"
+        },
+        "spanish": {
+          "name": "No dejes que te asusten",
+          "description": "Completa el capítulo 6 de EDDLF: «La batalla de Takodana»"
+        },
+        "tchinese": {
+          "name": "別讓這些畜生嚇著你了",
+          "description": "完成原力覺醒第6章 - 塔可達納星之戰"
+        }
+      }
+    },
+    "COMPLETE_STORYEVENT7": {
+      "translations": {
+        "arabic": {
+          "name": "لن يعجبك",
+          "description": "أكمل القوّة تستيقظ الفصل 7 - المقاومة"
+        },
+        "brazilian": {
+          "name": "Você não iria gostar",
+          "description": "Complete ODdF Capítulo 7 - A Resistência"
+        },
+        "danish": {
+          "name": "Du ville ikke bryde dig om det",
+          "description": "Gennemfør TFA, kapitel 7 - Modstandsbevægelsen"
+        },
+        "dutch": {
+          "name": "Jij zou het niet leuk vinden",
+          "description": "Voltooi TFA hoofdstuk 7 - Het verzet"
+        },
+        "english": {
+          "name": "You Wouldn't Like It",
+          "description": "Complete TFA Chapter 7 - The Resistance"
+        },
+        "french": {
+          "name": "Ça ne te plaira pas",
+          "description": "Terminez le chapitre 7 de LRdlF - La Résistance."
+        },
+        "german": {
+          "name": "Das sag ich dir lieber nicht",
+          "description": "Beende DEDM-Kapitel 7 - „Der Widerstand“"
+        },
+        "italian": {
+          "name": "Non ti piacerebbe",
+          "description": "Completa il capitolo 7 di IRDF - La Resistenza"
+        },
+        "polish": {
+          "name": "Nie spodobałoby ci się",
+          "description": "Ukończ 7. rozdział Przebudzenia - Ruch Oporu."
+        },
+        "russian": {
+          "name": "Тебе не понравится",
+          "description": "Пройти 7-ю главу ЗВ:ПС - ''Сопротивление''"
+        },
+        "schinese": {
+          "name": "你不会喜欢的",
+          "description": "完成原力觉醒第 7 章 - 抵抗势力"
+        },
+        "spanish": {
+          "name": "No te gustaría",
+          "description": "Completa el capítulo 7 de EDDLF: «La Resistencia»"
+        },
+        "tchinese": {
+          "name": "你不會喜歡的",
+          "description": "完成原力覺醒第7章 - 抵抗勢力"
+        }
+      }
+    },
+    "COMPLETE_STORYEVENT8": {
+      "translations": {
+        "arabic": {
+          "name": "أهناك أنبوب للتخلص من النفايات؟",
+          "description": "أكمل القوّة تستيقظ الفصل 8 - تخريب الستاركيلير"
+        },
+        "brazilian": {
+          "name": "Tem um compartimento de lixo?",
+          "description": "Complete ODdF Capítulo 8 - Sabotagem da Starkiller"
+        },
+        "danish": {
+          "name": "Er der en affaldsskakt?",
+          "description": "Gennemfør TFA, kapitel 8 - Stjernedræber-sabotage"
+        },
+        "dutch": {
+          "name": "Waar is de vuilstortkoker?",
+          "description": "Voltooi TFA hoofdstuk 8 - Starkiller-sabotage"
+        },
+        "english": {
+          "name": "Is There A Garbage Chute?",
+          "description": "Complete TFA Chapter 8 - Starkiller Sabotage"
+        },
+        "french": {
+          "name": "Il y a un vide-ordure ?",
+          "description": "Terminez le chapitre 8 de LRdlF -Sabotage de Starkiller."
+        },
+        "german": {
+          "name": "Gibt's einen Müllschacht?",
+          "description": "Beende DEDM-Kapitel 8 - „Starkiller sabotieren“"
+        },
+        "italian": {
+          "name": "C'è uno scarico dei rifiuti?",
+          "description": "Completa il capitolo 8 di IRDF - Il sabotaggio della Starkiller"
+        },
+        "polish": {
+          "name": "Jest tu jakiś zsyp?",
+          "description": "Ukończ 8. rozdział Przebudzenia - Sabotaż Starkillera."
+        },
+        "russian": {
+          "name": "Здесь есть мусоропровод?",
+          "description": "Пройти 8-ю главу ЗВ:ПС - ''Саботаж на Старкиллере''"
+        },
+        "schinese": {
+          "name": "有垃圾通道吗",
+          "description": "完成原力觉醒第 8 章 - 弑星者的屠戮"
+        },
+        "spanish": {
+          "name": "¿Hay algún conducto de basura?",
+          "description": "Completa el capítulo 8 de EDDLF: «Sabotaje en la Starkiller»"
+        },
+        "tchinese": {
+          "name": "有垃圾通道嗎？",
+          "description": "完成原力覺醒第8章 - 弑星者的屠戮"
+        }
+      }
+    },
+    "COMPLETE_STORYEVENT9": {
+      "translations": {
+        "arabic": {
+          "name": "حقيبة مليئة بالمتفجّرات",
+          "description": "أكمل القوّة تستيقظ الفصل 9 - تدمير قاعدة الستاركيلير"
+        },
+        "brazilian": {
+          "name": "Um Saco Cheio de Explosivos",
+          "description": "Complete ODdF Capítulo 9 - Destruição da Base Starkiller"
+        },
+        "danish": {
+          "name": "En taske fyldt med sprængstoffer",
+          "description": "Gennemfør TFA, kapitel 9 - Ødelæg Stjernedræber-basen"
+        },
+        "dutch": {
+          "name": "Een tas vol explosieven",
+          "description": "Voltooi TFA hoofdstuk 9 - Vernietig de Starkiller-basis"
+        },
+        "english": {
+          "name": "A Bag Full Of Explosives",
+          "description": "Complete TFA Chapter 9 - Destroy Starkiller Base"
+        },
+        "french": {
+          "name": "Un sac plein d'explosifs",
+          "description": "Terminez le chapitre 9 de LRdlF - Détruire la base Starkiller."
+        },
+        "german": {
+          "name": "Jede Menge Sprengladungen",
+          "description": "Beende DEDM-Kapitel 9 - „Starkiller-Basis zerstören“"
+        },
+        "italian": {
+          "name": "Una borsa piena di esplosivi",
+          "description": "Completa il capitolo 9 di IRDF - Distruggi la base Starkiller"
+        },
+        "polish": {
+          "name": "Bardzo rozrywkowa torba",
+          "description": "Ukończ 9. rozdział Przebudzenia - Zniszczyć bazę Starkiller."
+        },
+        "russian": {
+          "name": "Мешок взрывчатки",
+          "description": "Пройти 9-ю главу ЗВ:ПС - ''Уничтожение базы ''Старкиллер''"
+        },
+        "schinese": {
+          "name": "一大袋炸药",
+          "description": "完成原力觉醒第 9 章 - 摧毁弑星者基地"
+        },
+        "spanish": {
+          "name": "Una bolsa de explosivos",
+          "description": "Completa el capítulo 9 de EDDLF: «Destrucción de la base Starkiller»"
+        },
+        "tchinese": {
+          "name": "一大袋炸藥",
+          "description": "完成原力覺醒第9章 - 摧毀弑星者基地"
+        }
+      }
+    },
+    "COMPLETE_STORYEVENT10": {
+      "translations": {
+        "arabic": {
+          "name": "إنّها ملكي!",
+          "description": "أكمل القوّة تستيقظ الفصل 10 - الخاتمة"
+        },
+        "brazilian": {
+          "name": "Pertence a mim!",
+          "description": "Complete ODdF Capítulo 10 - O Final"
+        },
+        "danish": {
+          "name": "Det tilhører mig!",
+          "description": "Gennemfør TFA, kapitel 10 - Finalen"
+        },
+        "dutch": {
+          "name": "Dat is van mij!",
+          "description": "Voltooi TFA hoofdstuk 10 - De finale"
+        },
+        "english": {
+          "name": "It Belongs To Me!",
+          "description": "Complete TFA Chapter 10 - The Finale"
+        },
+        "french": {
+          "name": "Il m'appartient !",
+          "description": "Terminez le chapitre 10 de LRdlF - L'Apothéose."
+        },
+        "german": {
+          "name": "Es gehört mir!",
+          "description": "Beende DEDM-Kapitel 10 - „Das Finale“"
+        },
+        "italian": {
+          "name": "Appartiene a me!",
+          "description": "Completa il capitolo 10 di IRDF - Gran finale"
+        },
+        "polish": {
+          "name": "Ten miecz należy do mnie!",
+          "description": "Ukończ 10. rozdział Przebudzenia - Finał."
+        },
+        "russian": {
+          "name": "Он принадлежит мне!",
+          "description": "Пройти 10-ю главу ЗВ:ПС - ''Финал''"
+        },
+        "schinese": {
+          "name": "这是我的",
+          "description": "完成原力觉醒第 10 章 - 终曲"
+        },
+        "spanish": {
+          "name": "Me pertenece",
+          "description": "Completa el capítulo 10 de EDDLF: «La apoteosis»"
+        },
+        "tchinese": {
+          "name": "這是我的！",
+          "description": "完成原力覺醒第10章 - 終曲"
+        }
+      }
+    },
+    "COMPLETE_EPILOGUE": {
+      "translations": {
+        "arabic": {
+          "name": "عاجز عن الكلام",
+          "description": "أكمل جزيرة لوك"
+        },
+        "brazilian": {
+          "name": "Sem palavras",
+          "description": "Complete a Ilha do Luke"
+        },
+        "danish": {
+          "name": "Mundlam",
+          "description": "Gennemfør Lukes ø"
+        },
+        "dutch": {
+          "name": "Sprakeloos",
+          "description": "Voltooi Lukes eiland"
+        },
+        "english": {
+          "name": "Speechless",
+          "description": "Complete Luke's Island"
+        },
+        "french": {
+          "name": "Sans voix",
+          "description": "Terminez l'Île de Luke."
+        },
+        "german": {
+          "name": "Sprachlos",
+          "description": "Beende Lukes Insel"
+        },
+        "italian": {
+          "name": "Senza parole",
+          "description": "Completa L'isola di Luke"
+        },
+        "polish": {
+          "name": "Zatkało kakao",
+          "description": "Ukończ Wyspę Luke'a."
+        },
+        "russian": {
+          "name": "Без слов",
+          "description": "Пройти эпизод ''Остров Люка''"
+        },
+        "schinese": {
+          "name": "说不出话来",
+          "description": "完成卢克之岛"
+        },
+        "spanish": {
+          "name": "Sin palabras",
+          "description": "Completa «La isla de Luke»"
+        },
+        "tchinese": {
+          "name": "說不出話來",
+          "description": "完成路克之島"
+        }
+      }
+    },
+    "COMPLETE_BRIDGEEVENT1": {
+      "translations": {
+        "arabic": {
+          "name": "منذ زمن سحيق....",
+          "description": "أكمل معركة إندور"
+        },
+        "brazilian": {
+          "name": "Há muito tempo....",
+          "description": "Complete A Batalha de Endor"
+        },
+        "danish": {
+          "name": "For lang tid siden ....",
+          "description": "Gennemfør Slaget om Endor"
+        },
+        "dutch": {
+          "name": "Lang geleden....",
+          "description": "Voltooi De slag om Endor"
+        },
+        "english": {
+          "name": "A Long Time Ago....",
+          "description": "Complete The Battle of Endor"
+        },
+        "french": {
+          "name": "Il y a bien longtemps....",
+          "description": "Terminez La bataille d'Endor."
+        },
+        "german": {
+          "name": "Vor langer Zeit....",
+          "description": "Beende „Die Schlacht von Endor“"
+        },
+        "italian": {
+          "name": "Tanto tempo fa....",
+          "description": "Completa La Battaglia di Endor"
+        },
+        "polish": {
+          "name": "Dawno, dawno temu....",
+          "description": "Ukończ Bitwę o Endor."
+        },
+        "russian": {
+          "name": "Давным-давно....",
+          "description": "Пройти главу ''Битва при Эндоре''"
+        },
+        "schinese": {
+          "name": "很久很久以前",
+          "description": "完成卫星之战"
+        },
+        "spanish": {
+          "name": "Hace mucho tiempo....",
+          "description": "Completa «La batalla de Endor»"
+        },
+        "tchinese": {
+          "name": "很久很久以前......",
+          "description": "完成這衛星之戰"
+        }
+      }
+    },
+    "COMPLETE_BRIDGEEVENT2": {
+      "translations": {
+        "arabic": {
+          "name": "لا تعلمني أبدا بالفرص",
+          "description": "أكمل بو في الإنقاذ"
+        },
+        "brazilian": {
+          "name": "Nunca me conte as chances",
+          "description": "Complete Poe ao Resgate"
+        },
+        "danish": {
+          "name": "Fortæl mig aldrig om chancerne",
+          "description": "Gennemfør Poe redder dagen"
+        },
+        "dutch": {
+          "name": "Zeg me niet hoeveel kans ik maak",
+          "description": "Voltooi Poe biedt redding"
+        },
+        "english": {
+          "name": "Never Tell Me The Odds",
+          "description": "Complete Poe To The Rescue"
+        },
+        "french": {
+          "name": "Je me fous des prévisions",
+          "description": "Terminez Poe à la rescousse."
+        },
+        "german": {
+          "name": "Sag nie, wie die Chancen stehen",
+          "description": "Beende „Poe, der Retter“"
+        },
+        "italian": {
+          "name": "Mai dirmi le probabilità",
+          "description": "Completa Poe alla riscossa"
+        },
+        "polish": {
+          "name": "Nie mów mi, jakie są szanse",
+          "description": "Ukończ Poe na ratunek."
+        },
+        "russian": {
+          "name": "Ни слова о вероятности",
+          "description": "Пройти главу ''По спешит на помощь''"
+        },
+        "schinese": {
+          "name": "不要跟我提概率",
+          "description": "完成波·达默龙的救援"
+        },
+        "spanish": {
+          "name": "Nunca me digas las posibilidades",
+          "description": "Completa «Poe al rescate»"
+        },
+        "tchinese": {
+          "name": "不要跟我提機率",
+          "description": "完成波戴姆倫的救援"
+        }
+      }
+    },
+    "COMPLETE_BRIDGEEVENT3": {
+      "translations": {
+        "arabic": {
+          "name": "سافرت بعيدًا. رأيت كثيرًا",
+          "description": "أكمل عودة لور سان تيكّا"
+        },
+        "brazilian": {
+          "name": "Viajou longe. Viu coisas demais",
+          "description": "Complete Retorno de Lor San Tekka"
+        },
+        "danish": {
+          "name": "Rejst for langt. Set for meget.",
+          "description": "Gennemfør Lor San Tekka vender tilbage"
+        },
+        "dutch": {
+          "name": "Te ver gereisd. Te veel gezien!",
+          "description": "Voltooi Lor San Tekka's terugkeer"
+        },
+        "english": {
+          "name": "Travelled Too Far. Seen Too Much",
+          "description": "Complete Lor San Tekka's Return"
+        },
+        "french": {
+          "name": "Trop voyagé. Trop vu.",
+          "description": "Terminez Le retour de Lor San Tekka."
+        },
+        "german": {
+          "name": "Auf meinen Reisen viel gesehen",
+          "description": "Beende „Lor San Tekkas Rückkehr“"
+        },
+        "italian": {
+          "name": "Viaggiato troppo e visto troppo",
+          "description": "Completa Il ritorno di Lor San Tekka"
+        },
+        "polish": {
+          "name": "Daleko byłem, wiele ujrzałem",
+          "description": "Ukończ Powrót Lora Sana Tekki."
+        },
+        "russian": {
+          "name": "Во многих уголках Галактики",
+          "description": "Пройти главу ''Возвращение Лор Сан Текки''"
+        },
+        "schinese": {
+          "name": "走了太远，看过太多",
+          "description": "完成洛·桑·泰卡的归来"
+        },
+        "spanish": {
+          "name": "He viajado y visto demasiado",
+          "description": "Completa «El retorno de Lor San Tekka»"
+        },
+        "tchinese": {
+          "name": "走了太遠，看過太多",
+          "description": "完成洛桑特卡的歸來"
+        }
+      }
+    },
+    "COMPLETE_BRIDGEEVENT4": {
+      "translations": {
+        "arabic": {
+          "name": "كان لديّ فريق أكبر",
+          "description": "أكمل صيد الراثتار"
+        },
+        "brazilian": {
+          "name": "A equipe costumava ser maior",
+          "description": "Complete Caça aos Rathtars"
+        },
+        "danish": {
+          "name": "Besætningen var engang større",
+          "description": "Gennemfør Rathtar-jagten"
+        },
+        "dutch": {
+          "name": "Vroeger was de bemanning groter",
+          "description": "Voltooi rathtar-jacht"
+        },
+        "english": {
+          "name": "Used To Have A Bigger Crew",
+          "description": "Complete Rathtar Hunting"
+        },
+        "french": {
+          "name": "J'avais plus de personnel",
+          "description": "Terminez Chasse au rathtar."
+        },
+        "german": {
+          "name": "Ich hatte mal mehr Leute",
+          "description": "Beende „Rathtarenjagd“"
+        },
+        "italian": {
+          "name": "Avevo un equipaggio più grande",
+          "description": "Completa Caccia ai rathtar"
+        },
+        "polish": {
+          "name": "Kiedyś miałem większą załogę",
+          "description": "Ukończ Polowanie na rathtary."
+        },
+        "russian": {
+          "name": "Команда была побольше",
+          "description": "Пройти главу ''Охота на рафтаров''"
+        },
+        "schinese": {
+          "name": "以前组员比较多",
+          "description": "完成狩猎拉思塔"
+        },
+        "spanish": {
+          "name": "Antes tenía más tripulación",
+          "description": "Completa «A la caza de rathtar»"
+        },
+        "tchinese": {
+          "name": "以前組員比較多",
+          "description": "完成狩獵拉斯塔"
+        }
+      }
+    },
+    "COMPLETE_BRIDGEEVENT5": {
+      "translations": {
+        "arabic": {
+          "name": "القرصان القرمزي",
+          "description": "أكمل القرصان القرمزي"
+        },
+        "brazilian": {
+          "name": "O Corsário Vermelho",
+          "description": "Complete O Corsário Vermelho"
+        },
+        "danish": {
+          "name": "Den røde pirat",
+          "description": "Gennemfør Den røde pirat"
+        },
+        "dutch": {
+          "name": "De Karmijnrode Kaper",
+          "description": "Voltooi De Karmijnrode Kaper"
+        },
+        "english": {
+          "name": "The Crimson Corsair",
+          "description": "Complete The Crimson Corsair"
+        },
+        "french": {
+          "name": "Le Corsaire écarlate",
+          "description": "Terminez Le Corsaire écarlate."
+        },
+        "german": {
+          "name": "Karmesinroter Korsar",
+          "description": "Beende „Der Rote Räuber“"
+        },
+        "italian": {
+          "name": "Il Corsaro Cremisi",
+          "description": "Completa Il Corsaro Cremisi"
+        },
+        "polish": {
+          "name": "Karmazynowy Korsarz",
+          "description": "Ukończ Karmazynowego Korsarza."
+        },
+        "russian": {
+          "name": "Багровый корсар",
+          "description": "Пройти главу ''Багровый корсар''"
+        },
+        "schinese": {
+          "name": "绯红海盗",
+          "description": "完成绯红海盗"
+        },
+        "spanish": {
+          "name": "El Corsario Carmesí",
+          "description": "Completa «El Corsario Carmesí»"
+        },
+        "tchinese": {
+          "name": "緋紅海盜",
+          "description": "完成緋紅海盜"
+        }
+      }
+    },
+    "COMPLETE_BRIDGEEVENT6": {
+      "translations": {
+        "arabic": {
+          "name": "مرحبًا! هل كنتم تبحثون عني؟",
+          "description": "أكمل مشاكل فوق تول"
+        },
+        "brazilian": {
+          "name": "Olá! Estão procurando por mim?",
+          "description": "Complete Problemas em Taul"
+        },
+        "danish": {
+          "name": "Hallo? Ledte du efter mig?",
+          "description": "Gennemfør Problemer over Taul"
+        },
+        "dutch": {
+          "name": "Hallo! Zocht je mij?",
+          "description": "Voltooi Problemen boven Taul"
+        },
+        "english": {
+          "name": "Hello! Were You Looking For Me?",
+          "description": "Complete Trouble Over Taul"
+        },
+        "french": {
+          "name": "Salut ! Vous me cherchiez ?",
+          "description": "Terminez Conflits sur Taul."
+        },
+        "german": {
+          "name": "Sucht ihr vielleicht nach mir?",
+          "description": "Beende „Ärger über Taul“"
+        },
+        "italian": {
+          "name": "Salve! Stavate cercando me?",
+          "description": "Completa Guai su Taul"
+        },
+        "polish": {
+          "name": "Hej! Mnie szukaliście?",
+          "description": "Ukończ Kłopoty nad Taul."
+        },
+        "russian": {
+          "name": "Эй! Не меня ли ищете?",
+          "description": "Пройти главу ''Неприятности над Таулом''"
+        },
+        "schinese": {
+          "name": "你好！你刚才在找我吗",
+          "description": "完成陶尔纷争"
+        },
+        "spanish": {
+          "name": "¡Hola! ¿Me estabas buscando?",
+          "description": "Completa «Problemas en Taul»"
+        },
+        "tchinese": {
+          "name": "哈囉！你剛在找我嗎？",
+          "description": "完成陶爾的紛爭"
+        }
+      }
+    },
+    "COMPLETE_BRIDGEEVENT7": {
+      "translations": {
+        "arabic": {
+          "name": "إنّه فخّ!",
+          "description": "أكمل الاعتداء على أوتيغان"
+        },
+        "brazilian": {
+          "name": "É uma cilada!",
+          "description": "Complete Ataque a Ottegan"
+        },
+        "danish": {
+          "name": "Det er en fælde!",
+          "description": "Gennemfør Det otteganske angreb"
+        },
+        "dutch": {
+          "name": "Het is een val!",
+          "description": "Voltooi Ottegan-aanval"
+        },
+        "english": {
+          "name": "It's A Trap!",
+          "description": "Complete Ottegan Assault"
+        },
+        "french": {
+          "name": "C'est un piège !",
+          "description": "Terminez Assaut ottegan."
+        },
+        "german": {
+          "name": "Eine Falle!",
+          "description": "Beende „Ottegan-Angriff“"
+        },
+        "italian": {
+          "name": "È una trappola!",
+          "description": "Completa Assalto Ottegan"
+        },
+        "polish": {
+          "name": "To pułapka!",
+          "description": "Ukończ Ottegański szturm."
+        },
+        "russian": {
+          "name": "Это ловушка!",
+          "description": "Пройти главу ''Нападение на оттеганов''"
+        },
+        "schinese": {
+          "name": "这是陷阱",
+          "description": "完成奥特冈突击兵"
+        },
+        "spanish": {
+          "name": "¡Es una trampa!",
+          "description": "Completa «Asalto ottegano»"
+        },
+        "tchinese": {
+          "name": "這是陷阱！",
+          "description": "完成奧特岡突擊兵"
+        }
+      }
+    },
+    "COMPLETE_ALL_STORIES": {
+      "translations": {
+        "arabic": {
+          "name": "كانت هناك صحوة...",
+          "description": "أكمل القوّة تستيقظ"
+        },
+        "brazilian": {
+          "name": "Houve um Despertar...",
+          "description": "Complete O Despertar da Força"
+        },
+        "danish": {
+          "name": "Der har været en opvågnen ...",
+          "description": "Gennemfør The Force Awakens"
+        },
+        "dutch": {
+          "name": "Er is iets ontwaakt...",
+          "description": "Voltooi The Force Awakens"
+        },
+        "english": {
+          "name": "There Has Been An Awakening...",
+          "description": "Complete The Force Awakens"
+        },
+        "french": {
+          "name": "Quelque chose s'est réveillé...",
+          "description": "Terminez Le Réveil de la Force."
+        },
+        "german": {
+          "name": "Es gab ein Erwachen...",
+          "description": "Beende „Das Erwachen der Macht“"
+        },
+        "italian": {
+          "name": "C'è stato un risveglio...",
+          "description": "Completa Il Risveglio della Forza"
+        },
+        "polish": {
+          "name": "Nastąpiło przebudzenie",
+          "description": "Ukończ wszystkie poziomy Przebudzenia Mocy."
+        },
+        "russian": {
+          "name": "Сила пробуждается",
+          "description": "Пройти ''Пробуждение Силы''"
+        },
+        "schinese": {
+          "name": "这里有股觉醒的",
+          "description": "完成原力觉醒"
+        },
+        "spanish": {
+          "name": "Ha habido un despertar",
+          "description": "Completa «El Despertar de la Fuerza»"
+        },
+        "tchinese": {
+          "name": "這裡有股覺醒的...",
+          "description": "完成原力覺醒"
+        }
+      }
+    },
+    "COMPLETE_ALL_BRIDGE": {
+      "translations": {
+        "arabic": {
+          "name": "كل شيء. كلّه حقيقي.",
+          "description": "أكمل مستويات المغامرات الجديدة لـ STAR WARS"
+        },
+        "brazilian": {
+          "name": "É verdade. É tudo verdade...",
+          "description": "Complete as fases Novas Aventuras STAR WARS"
+        },
+        "danish": {
+          "name": "Det er alt sammen sandt ...",
+          "description": "Gennemfør de nye STAR WARS eventyrbaner"
+        },
+        "dutch": {
+          "name": "Het is allemaal waar...",
+          "description": "Voltooi nieuwe STAR WARS-avontuurlevels"
+        },
+        "english": {
+          "name": "It's True. All of it...",
+          "description": "Complete New STAR WARS Adventure Levels"
+        },
+        "french": {
+          "name": "Tout. Tout est vrai.",
+          "description": "Terminez tous les nouveaux niveaux aventure STAR WARS."
+        },
+        "german": {
+          "name": "Es ist wahr. Einfach alles...",
+          "description": "Beende die neuen Abenteuer aus STAR WARS"
+        },
+        "italian": {
+          "name": "È vero! È tutto vero...",
+          "description": "Completa i nuovi livelli avventura di STAR WARS"
+        },
+        "polish": {
+          "name": "To wszystko prawda",
+          "description": "Ukończ wszystkie poziomy nowych przygód."
+        },
+        "russian": {
+          "name": "Это правда. Все было...",
+          "description": "Пройти все новые эпизоды ''ЗВЕЗДНЫХ ВОЙН''"
+        },
+        "schinese": {
+          "name": "都是真的。所有的一切",
+          "description": "完成星球大战新的冒险关卡"
+        },
+        "spanish": {
+          "name": "Todo ello, es verdad...",
+          "description": "Completa todos los niveles de las nuevas aventuras de STAR WARS"
+        },
+        "tchinese": {
+          "name": "都是真的。所有的一切...",
+          "description": "完成STAR WARS新冒險關卡"
+        }
+      }
+    },
+    "TRUE_JEDI_IN_LEVEL": {
+      "translations": {
+        "arabic": {
+          "name": "القوّة، إنّها تناديك.",
+          "description": "تحصّل على ''جيداي حقيقيّ'' في أيّ مستوى"
+        },
+        "brazilian": {
+          "name": "A Força está chamando você",
+          "description": "Consiga ''Verdadeiro Jedi'' em alguma fase"
+        },
+        "danish": {
+          "name": "Kraften, den kalder på dig",
+          "description": "Opnå ''Ægte Jedi'' på en tilfældig bane"
+        },
+        "dutch": {
+          "name": "De Force, het roept je",
+          "description": "Behaal 'Ware Jedi' in een level"
+        },
+        "english": {
+          "name": "The Force, It's Calling To You.",
+          "description": "Obtain ''True Jedi'' in any level"
+        },
+        "french": {
+          "name": "La Force, elle t'appelle.",
+          "description": "Atteignez ''Véritable Jedi'' dans un niveau."
+        },
+        "german": {
+          "name": "Die Macht, sie ruft nach dir",
+          "description": "Erreich in einem Level „Wahrer Jedi“"
+        },
+        "italian": {
+          "name": "La Forza ti sta chiamando.",
+          "description": "Ottieni ''Vero Jedi'' in un livello qualsiasi"
+        },
+        "polish": {
+          "name": "Moc... ona cię wzywa",
+          "description": "Zdobądź tytuł Prawdziwego Jedi na dowolnym poziomie."
+        },
+        "russian": {
+          "name": "Сила зовет тебя",
+          "description": "Получить звание ''Истинный джедай'' в любом эпизоде"
+        },
+        "schinese": {
+          "name": "原力，正在呼唤你",
+          "description": "在任意关卡中完成“真正的绝地武士”"
+        },
+        "spanish": {
+          "name": "La Fuerza te está llamando",
+          "description": "Consigue «Jedi auténtico» en cualquier nivel"
+        },
+        "tchinese": {
+          "name": "原力，正在呼喚你。",
+          "description": "在任意關卡中獲得「真正的絕地武士」"
+        }
+      }
+    },
+    "ALL_MINIKITS_IN_LEVEL": {
+      "translations": {
+        "arabic": {
+          "name": "قمّام و حسب",
+          "description": "إجمع كل الأدوات الصغيرة في أي مستوى"
+        },
+        "brazilian": {
+          "name": "Só uma catadora",
+          "description": "Colete todos os Minikits em qualquer fase"
+        },
+        "danish": {
+          "name": "Bare en skrotsamler",
+          "description": "Saml alle Minikits på en tilfældig bane"
+        },
+        "dutch": {
+          "name": "Gewoon een aaseter",
+          "description": "Verzamel alle minikits in een level"
+        },
+        "english": {
+          "name": "Just A Scavenger",
+          "description": "Collect all Minikits in any level"
+        },
+        "french": {
+          "name": "Juste une pilleuse",
+          "description": "Récoltez tous les minikits dans un niveau."
+        },
+        "german": {
+          "name": "Nur eine Schrottsammlerin",
+          "description": "Sammle in einem Level alle Minikits"
+        },
+        "italian": {
+          "name": "Solo una mercante di rottami",
+          "description": "Raccogli tutti i Minikit in un livello qualsiasi"
+        },
+        "polish": {
+          "name": "Zwykłe złomiarstwo",
+          "description": "Zbierz wszystkie minizestawy na dowolnym poziomie."
+        },
+        "russian": {
+          "name": "Просто мусорщица",
+          "description": "Найти все мини-наборы в любом эпизоде"
+        },
+        "schinese": {
+          "name": "只是个拾荒者",
+          "description": "在任意关卡中收集所有迷你零件"
+        },
+        "spanish": {
+          "name": "Solo una chatarrera",
+          "description": "Recoge todos los minikits en cualquier nivel"
+        },
+        "tchinese": {
+          "name": "只是個拾荒者",
+          "description": "在任意關卡中收集所有迷你零件"
+        }
+      }
+    },
+    "ALL_MINIKITS": {
+      "translations": {
+        "arabic": {
+          "name": "يمكنني قيادة أي شيء",
+          "description": "اجمع كل الأدوات الصغيرة في اللعبة"
+        },
+        "brazilian": {
+          "name": "Posso pilotar qualquer coisa",
+          "description": "Colete todos os Minikits do jogo"
+        },
+        "danish": {
+          "name": "Jeg kan flyve alt",
+          "description": "Saml alle Minikits i spillet"
+        },
+        "dutch": {
+          "name": "Ik kan overal in vliegen",
+          "description": "Verzamel alle minikits in het spel"
+        },
+        "english": {
+          "name": "I Can Fly Anything",
+          "description": "Collect all Minikits in the game"
+        },
+        "french": {
+          "name": "Je sais tout piloter",
+          "description": "Récoltez tous les minikits dans le jeu."
+        },
+        "german": {
+          "name": "Ich fliege alles",
+          "description": "Sammle alle Minikits im gesamten Spiel"
+        },
+        "italian": {
+          "name": "So pilotare tutto",
+          "description": "Raccogli tutti i Minikit nel gioco"
+        },
+        "polish": {
+          "name": "Latam wszystkim",
+          "description": "Zbierz wszystkie minizestawy w grze."
+        },
+        "russian": {
+          "name": "На всем, что летает",
+          "description": "Найти все мини-наборы в игре"
+        },
+        "schinese": {
+          "name": "我什么都会开",
+          "description": "收集游戏中的所有迷你零件"
+        },
+        "spanish": {
+          "name": "Puedo pilotar lo que sea",
+          "description": "Recoge todos los minikits en todo el juego"
+        },
+        "tchinese": {
+          "name": "我什麼都會開",
+          "description": "收集遊戲中的所有迷你零件"
+        }
+      }
+    },
+    "REBUILD_MULTIBUILD": {
+      "translations": {
+        "arabic": {
+          "name": "انسَ ما تعلمته من قبل.",
+          "description": "أعد بناء أداة البناء المتعدد"
+        },
+        "brazilian": {
+          "name": "Desaprenda o que aprendeu",
+          "description": "Reconstrua uma multiconstrução"
+        },
+        "danish": {
+          "name": "Glem, hvad du har lært.",
+          "description": "Genopbyg en multi-build-genstand"
+        },
+        "dutch": {
+          "name": "Afleren wat je hebt geleerd",
+          "description": "Herbouw een multibuild-object"
+        },
+        "english": {
+          "name": "Unlearn What You Have Learned.",
+          "description": "Re-build a Multi-build object"
+        },
+        "french": {
+          "name": "Oubliez ce que vous avez appris",
+          "description": "Reconstruisez un objet multiconstructible."
+        },
+        "german": {
+          "name": "Vergiss, was du gelernt hast",
+          "description": "Bau ein Auswahl-Modell neu auf"
+        },
+        "italian": {
+          "name": "Disimparare ciò che hai imparato",
+          "description": "Ricostruisci un oggetto Multicostruzione"
+        },
+        "polish": {
+          "name": "Musisz zapomnieć, co już wiesz",
+          "description": "Przebuduj obiekt multibudowy."
+        },
+        "russian": {
+          "name": "Забыть должен ты, чему учился",
+          "description": "Перестроить заново мульти-стройку"
+        },
+        "schinese": {
+          "name": "把你学过的忘掉",
+          "description": "重新组装一个自由组装物件"
+        },
+        "spanish": {
+          "name": "Olvida lo que hayas aprendido",
+          "description": "Vuelve a construir un objeto de multiconstrucción"
+        },
+        "tchinese": {
+          "name": "把你學過的忘掉",
+          "description": "重新組裝一個自由組裝物件"
+        }
+      }
+    },
+    "FINISH_A_BLASTER_BATTLE": {
+      "translations": {
+        "arabic": {
+          "name": "إنهم يصوبون علينا نحن الاثنين!",
+          "description": "أكمل معركة بالبلاستر"
+        },
+        "brazilian": {
+          "name": "Estão atirando em nós dois!",
+          "description": "Complete uma batalha de blasters"
+        },
+        "danish": {
+          "name": "De skyder på os begge to!",
+          "description": "Gennemfør en blaster-kamp"
+        },
+        "dutch": {
+          "name": "Ze schieten op ons beide!",
+          "description": "Voltooi een blastergevecht"
+        },
+        "english": {
+          "name": "They're Shooting At Both Of Us!",
+          "description": "Complete a Blaster Battle"
+        },
+        "french": {
+          "name": "Ils tirent aussi sur moi !",
+          "description": "Terminez un combat de blasters."
+        },
+        "german": {
+          "name": "Sie schießen auf uns beide!",
+          "description": "Beende eine Blaster-Schlacht"
+        },
+        "italian": {
+          "name": "Sparano addosso a entrambi!",
+          "description": "Completa una battaglia con blaster"
+        },
+        "polish": {
+          "name": "Strzelają do nas obojga!",
+          "description": "Stocz blasterową bitwę."
+        },
+        "russian": {
+          "name": "А почему в меня стреляют?",
+          "description": "Пройти битву на бластерах"
+        },
+        "schinese": {
+          "name": "他们正朝我们两个开枪",
+          "description": "完成一场爆能枪战"
+        },
+        "spanish": {
+          "name": "Nos disparan a los dos",
+          "description": "Completa una batalla bláster"
+        },
+        "tchinese": {
+          "name": "他們正朝我們兩個開槍！",
+          "description": "完成一場爆能槍戰"
+        }
+      }
+    },
+    "BLASTER_BATTLE_WITHOUT_DYING": {
+      "translations": {
+        "arabic": {
+          "name": "لقد أصبحت بارعًا في القيام بهذا!",
+          "description": "أكمل معركة بالبلاستر دون الموت"
+        },
+        "brazilian": {
+          "name": "Estou ficando muito bom nisso!",
+          "description": "Complete uma batalha de blasters sem morrer"
+        },
+        "danish": {
+          "name": "Jeg er ved at blive god til det!",
+          "description": "Gennemfør en blaster-kamp uden at dø"
+        },
+        "dutch": {
+          "name": "Ik krijg dit onder de knie!",
+          "description": "Voltooi een blastergevecht zonder te sterven"
+        },
+        "english": {
+          "name": "I'm Getting Pretty Good At This!",
+          "description": "Complete a Blaster Battle without dying"
+        },
+        "french": {
+          "name": "Je deviens bon !",
+          "description": "Terminez un combat de blasters sans être détruit."
+        },
+        "german": {
+          "name": "Ich hab ihn erwischt!",
+          "description": "Beende eine Blaster-Schlacht, ohne zu sterben"
+        },
+        "italian": {
+          "name": "Sto diventando piuttosto bravo!",
+          "description": "Completa una battaglia con blaster senza morire"
+        },
+        "polish": {
+          "name": "Coraz lepiej sobie z tym radzę!",
+          "description": "Stocz blasterową bitwę, nie umierając."
+        },
+        "russian": {
+          "name": "А у меня неплохо получается!",
+          "description": "Пройти битву на бластерах, не умерев"
+        },
+        "schinese": {
+          "name": "我越来越得心应手了",
+          "description": "在没有死亡的情况下完成一场爆能枪战"
+        },
+        "spanish": {
+          "name": "Cada vez se me da mejor",
+          "description": "Completa una batalla bláster sin ser destruido"
+        },
+        "tchinese": {
+          "name": "我越來越得心應手了！",
+          "description": "在沒有死亡的情況下完成一場爆能槍戰"
+        }
+      }
+    },
+    "ALL_FIRST_ORDER_MISSIONS": {
+      "translations": {
+        "arabic": {
+          "name": "اركع أمام التنظيم الأول!",
+          "description": "أكمل جميع مهام التنظيم الأول"
+        },
+        "brazilian": {
+          "name": "Renda-se à Primeira Ordem!",
+          "description": "Complete todas as missões da Primeira Ordem"
+        },
+        "danish": {
+          "name": "Knæl for den Første Orden!",
+          "description": "Gennemfør alle den Første Orden-missioner"
+        },
+        "dutch": {
+          "name": "Buig voor de First Order!",
+          "description": "Voltooi alle First Order-missies"
+        },
+        "english": {
+          "name": "Bow To The First Order!",
+          "description": "Complete all First Order missions"
+        },
+        "french": {
+          "name": "Soumettez-vous au Premier Ordre",
+          "description": "Terminez toutes les missions du Premier Ordre."
+        },
+        "german": {
+          "name": "Sich der Ersten Ordnung beugen",
+          "description": "Beende alle Missionen für die Erste Ordnung"
+        },
+        "italian": {
+          "name": "Piegati al Primo Ordine!",
+          "description": "Completa tutte le missioni Primo Ordine"
+        },
+        "polish": {
+          "name": "Na kolana przed Porządkiem!",
+          "description": "Ukończ wszystkie misje Najwyższego Porządku."
+        },
+        "russian": {
+          "name": "Признай власть Первого Ордена!",
+          "description": "Выполнить все задания Первого Ордена"
+        },
+        "schinese": {
+          "name": "臣服于第一军团",
+          "description": "完成所有第一军团任务"
+        },
+        "spanish": {
+          "name": "¡Ceder ante la Primera Orden!",
+          "description": "Completa todas las misiones de la Primera Orden"
+        },
+        "tchinese": {
+          "name": "臣服於第一軍團！",
+          "description": "完成所有第一軍團的任務"
+        }
+      }
+    },
+    "ALL_RESISTANCE_MISSIONS": {
+      "translations": {
+        "arabic": {
+          "name": "شخص مهم في المقاومة",
+          "description": "أكمل جميع مهام المقاومة"
+        },
+        "brazilian": {
+          "name": "Muito importante na Resistência",
+          "description": "Complete todas as missões da Resistência"
+        },
+        "danish": {
+          "name": "Vigtig person hos Modstandsbev.",
+          "description": "Gennemfør alle Modstandsbevægelsesmissioner"
+        },
+        "dutch": {
+          "name": "Belangrijk voor het verzet",
+          "description": "Voltooi alle verzetsmissies"
+        },
+        "english": {
+          "name": "A Big Deal In The Resistance",
+          "description": "Complete all Resistance Missions"
+        },
+        "french": {
+          "name": "Une figure de la Résistance",
+          "description": "Terminez toutes les missions de la Résistance."
+        },
+        "german": {
+          "name": "'Ne große Nummer beim Widerstand",
+          "description": "Beende alle Missionen für den Widerstand"
+        },
+        "italian": {
+          "name": "Pezzo grosso della Resistenza",
+          "description": "Completa tutte le missioni Resistenza"
+        },
+        "polish": {
+          "name": "Szycha w Ruchu Oporu",
+          "description": "Ukończ wszystkie misje Ruchu Oporu."
+        },
+        "russian": {
+          "name": "Не последний в Сопротивлении",
+          "description": "Выполнить все задания Сопротивления"
+        },
+        "schinese": {
+          "name": "抵抗势力中的大人物",
+          "description": "完成所有抵抗势力任务"
+        },
+        "spanish": {
+          "name": "Un pez gordo de la Resistencia",
+          "description": "Completa todas las misiones de la Resistencia"
+        },
+        "tchinese": {
+          "name": "抵抗勢力中的要角",
+          "description": "完成所有抵抗勢力的任務"
+        }
+      }
+    },
+    "ALL_BOUNTY_HUNTS": {
+      "translations": {
+        "arabic": {
+          "name": "لن يفيدني بشيء إذا مات",
+          "description": "أكمل جميع عمليات صيد الجوائز"
+        },
+        "brazilian": {
+          "name": "Ele não me vale nada morto",
+          "description": "Complete todas as Caças por Recompensas"
+        },
+        "danish": {
+          "name": "Han er nytteløs, hvis han er død",
+          "description": "Gennemfør alle dusørjagter"
+        },
+        "dutch": {
+          "name": "Dood is hij mij niets waard",
+          "description": "Voltooi alle premiejachten"
+        },
+        "english": {
+          "name": "He's No Good To Me Dead",
+          "description": "Complete all Bounty Hunts"
+        },
+        "french": {
+          "name": "Mort, il ne me servira à rien.",
+          "description": "Terminez toutes les recherches des chasseurs de primes."
+        },
+        "german": {
+          "name": "Tot nützt er mir nichts",
+          "description": "Beende alle Kopfgeld-Missionen"
+        },
+        "italian": {
+          "name": "Non mi serve a niente morto",
+          "description": "Completa tutte le missioni cacciatore di taglie"
+        },
+        "polish": {
+          "name": "Martwy mi się nie przyda",
+          "description": "Ukończ wszystkie misje łowcy nagród."
+        },
+        "russian": {
+          "name": "Он нужен мне живым",
+          "description": "Выполнить все задания для охотников за головами"
+        },
+        "schinese": {
+          "name": "他死了对我就没用啦",
+          "description": "完成所有赏金猎人任务"
+        },
+        "spanish": {
+          "name": "No me sirve que esté muerto",
+          "description": "Completa todas las cazas de recompensa"
+        },
+        "tchinese": {
+          "name": "他死了對我就沒用啦",
+          "description": "完成所有賞金獵人任務"
+        }
+      }
+    },
+    "ALL_RACES": {
+      "translations": {
+        "arabic": {
+          "name": "أقل من 12 فرسخ نجمي",
+          "description": "أكمل جميع السباقات"
+        },
+        "brazilian": {
+          "name": "Menos que 12 Parsecs",
+          "description": "Complete todas as corridas"
+        },
+        "danish": {
+          "name": "Mindre end 12 parsecs",
+          "description": "Gennemfør alle løb"
+        },
+        "dutch": {
+          "name": "Minder dan 12 parsec",
+          "description": "Voltooi alle races"
+        },
+        "english": {
+          "name": "Less Than 12 Parsecs",
+          "description": "Complete All Races"
+        },
+        "french": {
+          "name": "En moins de 12 parsecs",
+          "description": "Terminez toutes les courses."
+        },
+        "german": {
+          "name": "Weniger als 12 Parsec",
+          "description": "Beende alle Rennen"
+        },
+        "italian": {
+          "name": "In meno di 12 persec",
+          "description": "Completa tutte le gare"
+        },
+        "polish": {
+          "name": "Mniej niż 12 parseków",
+          "description": "Ukończ wszystkie wyścigi."
+        },
+        "russian": {
+          "name": "До 12 парсеков",
+          "description": "Пройти все гонки"
+        },
+        "schinese": {
+          "name": "少于 12 秒差距",
+          "description": "完成所有竞赛"
+        },
+        "spanish": {
+          "name": "Menos de 12 pársecs",
+          "description": "Completa todas las carreras"
+        },
+        "tchinese": {
+          "name": "小於12秒差距",
+          "description": "完成所有競賽"
+        }
+      }
+    },
+    "ALL_SCAVENGER_MISSIONS": {
+      "translations": {
+        "arabic": {
+          "name": "60 حصة!",
+          "description": "أكمل جميع مهام القمَّامين"
+        },
+        "brazilian": {
+          "name": "60 porções!",
+          "description": "Complete todas as missões de Catador"
+        },
+        "danish": {
+          "name": "60 portioner!",
+          "description": "Gennemfør alle Skrotsamler-missioner"
+        },
+        "dutch": {
+          "name": "60 porties!",
+          "description": "Voltooi alle aasetermissies"
+        },
+        "english": {
+          "name": "60 Portions!",
+          "description": "Complete all Scavenger Missions"
+        },
+        "french": {
+          "name": "60 portions !",
+          "description": "Terminez toutes les missions pillards."
+        },
+        "german": {
+          "name": "60 Rationen!",
+          "description": "Beende alle Schrottsammler-Missionen"
+        },
+        "italian": {
+          "name": "Sessanta porzioni!",
+          "description": "Completa tutte le missioni mercante di rottami"
+        },
+        "polish": {
+          "name": "60 racji!",
+          "description": "Ukończ wszystkie misje zbierackie."
+        },
+        "russian": {
+          "name": "60 пайков!",
+          "description": "Выполнить все задания для мусорщиков"
+        },
+        "schinese": {
+          "name": "60 份",
+          "description": "完成所有拾荒者任务"
+        },
+        "spanish": {
+          "name": "¡60 porciones!",
+          "description": "Completa todas las misiones de búsqueda"
+        },
+        "tchinese": {
+          "name": "60份！",
+          "description": "完成所有拾荒者任務"
+        }
+      }
+    },
+    "100_PERCENT": {
+      "translations": {
+        "arabic": {
+          "name": "القوة شديدة مع هذه",
+          "description": "أكمل بنسبة 100%"
+        },
+        "brazilian": {
+          "name": "A força é poderosa nele",
+          "description": "Consiga 100% de Conclusão"
+        },
+        "danish": {
+          "name": "Kraften er stærk hos den her",
+          "description": "Opnå 100 % gennemførelse"
+        },
+        "dutch": {
+          "name": "De Force is sterk bij deze",
+          "description": "Behaal een voltooiingspercentage van 100%"
+        },
+        "english": {
+          "name": "Force Is Strong With This One",
+          "description": "Achieve 100% Completion"
+        },
+        "french": {
+          "name": "La Force est puissante en elle.",
+          "description": "Terminez le jeu à 100 %"
+        },
+        "german": {
+          "name": "Die Macht ist stark in dir",
+          "description": "Erreiche 100%"
+        },
+        "italian": {
+          "name": "La Forza è potente in quest'uomo",
+          "description": "Completa il 100% del gioco"
+        },
+        "polish": {
+          "name": "Moc silną w tobie czuję",
+          "description": "Ukończ grę w 100%."
+        },
+        "russian": {
+          "name": "В этом человеке есть Сила",
+          "description": "Пройти игру на 100%"
+        },
+        "schinese": {
+          "name": "这人身上的原力很强",
+          "description": "达到 100% 的游戏完成度"
+        },
+        "spanish": {
+          "name": "La Fuerza es fuerte en ella",
+          "description": "Completa el juego al 100 %"
+        },
+        "tchinese": {
+          "name": "這人身上的原力很強",
+          "description": "達到100%的遊戲完成度"
+        }
+      }
+    },
+    "ALL_RED_BRICKS": {
+      "translations": {
+        "arabic": {
+          "name": "القائد الأحمر",
+          "description": "اشترِ كل الطوب الأحمر"
+        },
+        "brazilian": {
+          "name": "Líder Vermelho",
+          "description": "Compre todos os blocos vermelhos"
+        },
+        "danish": {
+          "name": "Rød Leder",
+          "description": "Køb alle røde klodser"
+        },
+        "dutch": {
+          "name": "Rode leider",
+          "description": "Koop alle rode stenen"
+        },
+        "english": {
+          "name": "Red Leader",
+          "description": "Purchase All Red Bricks"
+        },
+        "french": {
+          "name": "Red Leader",
+          "description": "Achetez toutes les briques rouges."
+        },
+        "german": {
+          "name": "Rot Eins",
+          "description": "Kauf alle Roten Steine"
+        },
+        "italian": {
+          "name": "Capo Rosso",
+          "description": "Acquista tutti i mattoncini rossi"
+        },
+        "polish": {
+          "name": "Czerwony przywódca",
+          "description": "Kup wszystkie czerwone klocki."
+        },
+        "russian": {
+          "name": "Красный лидер",
+          "description": "Приобрести все красные блоки"
+        },
+        "schinese": {
+          "name": "红色队长",
+          "description": "购买所有红色砖块"
+        },
+        "spanish": {
+          "name": "Jefe Rojo",
+          "description": "Compra todos los ladrillos rojos"
+        },
+        "tchinese": {
+          "name": "紅色隊長",
+          "description": "購買所有紅色磚塊"
+        }
+      }
+    },
+    "CUSTOM_CHARACTER": {
+      "translations": {
+        "arabic": {
+          "name": "جراح الشفرات",
+          "description": "أنشئ شخصية مخصصة"
+        },
+        "brazilian": {
+          "name": "Criptocirurgião",
+          "description": "Crie um personagem personalizado"
+        },
+        "danish": {
+          "name": "Kryptokirurg",
+          "description": "Lav din egen figur"
+        },
+        "dutch": {
+          "name": "Cryptochirurg",
+          "description": "Maak een aangepast personage"
+        },
+        "english": {
+          "name": "Cryptosurgeon",
+          "description": "Create a custom character"
+        },
+        "french": {
+          "name": "Cryptochirurgien",
+          "description": "Créez un personnage customisé."
+        },
+        "german": {
+          "name": "Kryptochirurg",
+          "description": "Erstelle einen eigenen Charakter"
+        },
+        "italian": {
+          "name": "Criptochirurgo",
+          "description": "Crea un personaggio personalizzato"
+        },
+        "polish": {
+          "name": "Kryptochirurg",
+          "description": "Stwórz własną postać."
+        },
+        "russian": {
+          "name": "Криптохирург",
+          "description": "Создать своего персонажа"
+        },
+        "schinese": {
+          "name": "密医",
+          "description": "创建一个自定义角色"
+        },
+        "spanish": {
+          "name": "Criptocirujano",
+          "description": "Crea a un personaje personalizado"
+        },
+        "tchinese": {
+          "name": "密醫",
+          "description": "創造一個自訂角色"
+        }
+      }
+    },
+    "ALL_TRUE_JEDI": {
+      "translations": {
+        "arabic": {
+          "name": "سينهض الجيداي الجديد",
+          "description": "تحصّل على ''جيداي حقيقيّ'' في كل المستويات"
+        },
+        "brazilian": {
+          "name": "Os novos Jedi se erguerão",
+          "description": "Consiga ''Verdadeiro Jedi'' em todas as fases"
+        },
+        "danish": {
+          "name": "De nye Jedier vil rejse sig",
+          "description": "Opnå ''Ægte Jedi'' på alle baner"
+        },
+        "dutch": {
+          "name": "De nieuwe Jedi zal opstaan",
+          "description": "Verzamel 'Ware Jedi' in alle levels"
+        },
+        "english": {
+          "name": "The New Jedi Will Rise",
+          "description": "Collect ''True Jedi'' on all levels"
+        },
+        "french": {
+          "name": "Les Jedi renaîtront",
+          "description": "Atteignez ''Véritable Jedi'' dans tous les niveaux."
+        },
+        "german": {
+          "name": "Die neuen Jedi erheben sich",
+          "description": "Werde in allen Levels „Wahrer Jedi“"
+        },
+        "italian": {
+          "name": "I Jedi risorgeranno",
+          "description": "Ottieni ''Vero Jedi'' in tutti i livelli"
+        },
+        "polish": {
+          "name": "Pojawią się nowi Jedi",
+          "description": "Zdobądź tytuł Prawdziwego Jedi na wszystkich poziomach."
+        },
+        "russian": {
+          "name": "Он обучит новых джедаев",
+          "description": "Получить звание ''Истинный джедай'' во всех эпизодах"
+        },
+        "schinese": {
+          "name": "新的绝地武士将崛起",
+          "description": "在所有关卡中完成“真正的绝地武士”"
+        },
+        "spanish": {
+          "name": "Se alzarán nuevos Jedi",
+          "description": "Consigue «Jedi auténtico» en todos los niveles"
+        },
+        "tchinese": {
+          "name": "新的絕地就會崛起",
+          "description": "在所有關卡收集「真正的絕地武士」"
+        }
+      }
+    },
+    "KILL_50_STORMTROOPERS": {
+      "translations": {
+        "arabic": {
+          "name": "نحتاج إلى المزيد من القوات!",
+          "description": "اهزم 50 جندي من جنود العاصفة"
+        },
+        "brazilian": {
+          "name": "Precisamos de mais tropas!",
+          "description": "Derrote 50 stormtroopers"
+        },
+        "danish": {
+          "name": "Vi har brug for flere styrker!",
+          "description": "Nedlæg 50 stormsoldater"
+        },
+        "dutch": {
+          "name": "We hebben meer troepen nodig!",
+          "description": "Versla 50 stormsoldaten"
+        },
+        "english": {
+          "name": "We Need More Troops!",
+          "description": "Defeat 50 Stormtroopers"
+        },
+        "french": {
+          "name": "Il nous faut plus de soldats !",
+          "description": "Battez 50 stormtroopers."
+        },
+        "german": {
+          "name": "Wir brauchen Verstärkung!",
+          "description": "Besieg 50 Sturmtruppler"
+        },
+        "italian": {
+          "name": "Servono altre truppe!",
+          "description": "Sconfiggi 50 assaltatori"
+        },
+        "polish": {
+          "name": "Potrzebujemy wsparcia!",
+          "description": "Pokonaj 50 szturmowców."
+        },
+        "russian": {
+          "name": "Нам надо больше солдат!",
+          "description": "Победить 50 штурмовиков"
+        },
+        "schinese": {
+          "name": "需要更多兵力增援",
+          "description": "击败 50 个帝国风暴兵"
+        },
+        "spanish": {
+          "name": "¡Necesitamos más tropas!",
+          "description": "Vence a 50 soldados de asalto"
+        },
+        "tchinese": {
+          "name": "需要更多兵力增援！",
+          "description": "擊敗50個帝國風暴兵"
+        }
+      }
+    },
+    "KILL_100_TIE_FIGHTERS": {
+      "translations": {
+        "arabic": {
+          "name": "لا تدع الغرور يصيبك!",
+          "description": "اهزم 100 مقاتلة من مقاتلات TIE"
+        },
+        "brazilian": {
+          "name": "Não fique convencido!",
+          "description": "Derrote 100 caças TIE"
+        },
+        "danish": {
+          "name": "Bliv nu ikke kæphøj!",
+          "description": "Ødelæg 100 TIE-jagere"
+        },
+        "dutch": {
+          "name": "Niet overmoedig worden!",
+          "description": "Versla 100 TIE fighters"
+        },
+        "english": {
+          "name": "Don't Get Cocky!",
+          "description": "Defeat 100 TIE Fighters"
+        },
+        "french": {
+          "name": "Trop sûr de soi",
+          "description": "Battez 100 chasseurs TIE."
+        },
+        "german": {
+          "name": "Werd nicht übermütig!",
+          "description": "Besieg 100 TIE-Jäger"
+        },
+        "italian": {
+          "name": "Non essere presuntuoso!",
+          "description": "Sconfiggi 100 caccia TIE"
+        },
+        "polish": {
+          "name": "Nie myśl sobie!",
+          "description": "Pokonaj 100 myśliwców TIE."
+        },
+        "russian": {
+          "name": "Не задавайся!",
+          "description": "Победить 100 СИД-истребителей"
+        },
+        "schinese": {
+          "name": "别太自大了",
+          "description": "击落 100 架钛战机"
+        },
+        "spanish": {
+          "name": "¡No seas engreído!",
+          "description": "Vence a 100 cazas TIE"
+        },
+        "tchinese": {
+          "name": "別太驕傲了！",
+          "description": "擊敗100架鈦戰機"
+        }
+      }
+    },
+    "MAZ_AND_CHEWIE_COMPLETE_A_LEVEL": {
+      "translations": {
+        "arabic": {
+          "name": "أنا أحب هذا الووكي...",
+          "description": "أكمل مستوى لعب حر باللعب بشخصيتي ماز كاناتا و تشوباكا"
+        },
+        "brazilian": {
+          "name": "Gosto desse Wookiee...",
+          "description": "Complete uma fase em Jogo Livre como Maz Kanata e Chewbacca"
+        },
+        "danish": {
+          "name": "Jeg kan godt lide den wookiee...",
+          "description": "Gennemfør en bane i Frit Spil som Maz Kanata og Chewbacca"
+        },
+        "dutch": {
+          "name": "Ik ben dol op die Wookiee",
+          "description": "Voltooi een Vrij spelen-level als Maz Kanata en Chewbacca"
+        },
+        "english": {
+          "name": "I Like That Wookiee...",
+          "description": "Complete a Free Play level playing as Maz Kanata and Chewbacca"
+        },
+        "french": {
+          "name": "J'adore ce Wookie...",
+          "description": "Terminez un niveau en mode jeu libre avec Maz Kanata et Chewbacca."
+        },
+        "german": {
+          "name": "Ich mag den Wookiee...",
+          "description": "Beende ein Level im Freien Spiel als Maz Kanata und Chewbacca"
+        },
+        "italian": {
+          "name": "Mi piace quel Wookiee...",
+          "description": "Completa un livello Partita libera nei panni di Maz Kanata e Ciubecca"
+        },
+        "polish": {
+          "name": "Lubię tego Wookieego...",
+          "description": "Ukończ poziom gry dowolnej, grając jako Maz Kanata i Chewbacca."
+        },
+        "russian": {
+          "name": "Мне нравится этот вуки...",
+          "description": "Пройти эпизод в свободной игре с Маз Канатой и Чубаккой"
+        },
+        "schinese": {
+          "name": "我喜欢那只武技兽",
+          "description": "使用玛兹·卡纳塔和楚巴卡完成自由模式关卡"
+        },
+        "spanish": {
+          "name": "Me gusta ese wookiee...",
+          "description": "Completa un nivel en modo juego libre con Maz Kanata y Chewbacca"
+        },
+        "tchinese": {
+          "name": "我喜歡那隻武技獸...",
+          "description": "使用瑪茲卡娜塔及丘巴卡完成自由模式關卡"
+        }
+      }
+    },
+    "UNKAR_ON_THE_FALCON": {
+      "translations": {
+        "arabic": {
+          "name": "هاي! هذه ملكي!",
+          "description": "العب بشخصية أونكار بلوت على الميلينيوم فالكون"
+        },
+        "brazilian": {
+          "name": "Ei! Isso é meeeeuuuu!!",
+          "description": "Jogue como Unkar Plutt na Millennium Falcon"
+        },
+        "danish": {
+          "name": "Hov, det er min!",
+          "description": "Spil som Unkar Plutt på Tusindårsfalken"
+        },
+        "dutch": {
+          "name": "Hey! Dat is van mij!",
+          "description": "Speel als Unkar Plutt op de Millennium Falcon"
+        },
+        "english": {
+          "name": "Hey! That's Miiiiiiine!",
+          "description": "Play as Unkar Plutt on the Millennium Falcon"
+        },
+        "french": {
+          "name": "Hé ! C'est à moiiiiii !",
+          "description": "Jouez avec Unkar Plutt dans le Faucon Millenium."
+        },
+        "german": {
+          "name": "Hey! Das gehört miiiiiir!",
+          "description": "Spiel als Unkar Plutt im Millennium Falken"
+        },
+        "italian": {
+          "name": "Ehi! Quella è mia!",
+          "description": "Gioca nei panni di Unkar Plutt sul Millennium Falcon"
+        },
+        "polish": {
+          "name": "To mój statek!",
+          "description": "Zagraj jako Unkar Plutt na pokładzie Sokoła Millennium."
+        },
+        "russian": {
+          "name": "Он мо-о-ой!",
+          "description": "Сыграть за Ункара Платта на ''Соколе тысячелетия''"
+        },
+        "schinese": {
+          "name": "嘿！那是我的",
+          "description": "在千年隼号上使用昂卡·普拉特"
+        },
+        "spanish": {
+          "name": "¡Esa nave es mía!",
+          "description": "Juega como Unkar Plutt en el Halcón Milenario"
+        },
+        "tchinese": {
+          "name": "嘿！那是我－－－的！",
+          "description": "在千年鷹上使用昂卡普魯特"
+        }
+      }
+    },
+    "HAN_SHOT_FIRST": {
+      "translations": {
+        "arabic": {
+          "name": "رد فعل سريع",
+          "description": "في معركة بالبلاستر، اجعل هان سولو يهزم شخصية تستعد للهجوم."
+        },
+        "brazilian": {
+          "name": "Rápido no gatilho",
+          "description": "Em uma batalha de blasters, faça Han Solo derrotar um personagem que esteja preparando um ataque"
+        },
+        "danish": {
+          "name": "Hurtig på aftrækkeren",
+          "description": "Lad Han Solo besejre en figur, der forbereder et angreb, i en blaster-kamp."
+        },
+        "dutch": {
+          "name": "Snel uit het holster",
+          "description": "Versla met Han Solo, in een blastergevecht, een personage dat een aanval voorbereid"
+        },
+        "english": {
+          "name": "Quick On The Draw",
+          "description": "In a blaster battle, have Han Solo defeat a character who is preparing an attack."
+        },
+        "french": {
+          "name": "Rapide de la gâchette",
+          "description": "Avec Han Solo dans un combat de blasters, battez un personnage qui prépare une attaque."
+        },
+        "german": {
+          "name": "Schnellschuss",
+          "description": "Besieg als Han Solo in einer Blaster-Schlacht einen Feind, der einen Angriff vorbereitet"
+        },
+        "italian": {
+          "name": "Spara lesto",
+          "description": "In una battaglia con blaster, sconfiggi un personaggio che sta preparando un attacco usando Han Solo"
+        },
+        "polish": {
+          "name": "Szybki strzelec",
+          "description": "Podczas blasterowej bitwy pokonaj przygotowującą się do ataku postać, grając jako Han Solo."
+        },
+        "russian": {
+          "name": "Быстр на дуэли",
+          "description": "В битве на бластерах сделать так, чтобы Хан Соло победил противника, который готовился атаковать"
+        },
+        "schinese": {
+          "name": "反应灵敏",
+          "description": "在爆能枪战中，让汉·索罗击败正在准备攻击的角色"
+        },
+        "spanish": {
+          "name": "Rápido para atacar",
+          "description": "En una batalla bláster, haz que Han Solo venza a un personaje que está preparando un ataque"
+        },
+        "tchinese": {
+          "name": "反應靈敏",
+          "description": "在爆能槍戰中，讓韓索羅打敗正在準備攻擊的角色"
+        }
+      }
+    },
+    "WRONG_DROID": {
+      "translations": {
+        "arabic": {
+          "name": "ليس الدرويد الذي تبحث عنه",
+          "description": "استخدم نوع الدرويد غير الصحيح في لوحة دخول"
+        },
+        "brazilian": {
+          "name": "Não é o Droide",
+          "description": "Use o tipo errado de droide em um painel de acesso"
+        },
+        "danish": {
+          "name": "Ikke den droide, I leder efter",
+          "description": "Brug den forkerte type droide på et adgangspanel"
+        },
+        "dutch": {
+          "name": "Niet de droid die je zoekt",
+          "description": "Gebruik de verkeerde soort droid voor een toegangspaneel"
+        },
+        "english": {
+          "name": "Not The Droid You're Looking For",
+          "description": "Use the wrong type of droid on an access panel"
+        },
+        "french": {
+          "name": "Pas le droïde que vous cherchez",
+          "description": "Utilisez un panneau d'accès avec le mauvais droïde."
+        },
+        "german": {
+          "name": "Nicht der Droide, den ihr sucht",
+          "description": "Verwende eine Zugangskonsole als der falsche Droidentyp"
+        },
+        "italian": {
+          "name": "Non i droidi che state cercando",
+          "description": "Usa un tipo non valido di droide su un pannello di accesso"
+        },
+        "polish": {
+          "name": "To nie droid, którego szukasz",
+          "description": "Użyj niewłaściwego typu droida na panelu dostępu."
+        },
+        "russian": {
+          "name": "Не тот дроид, которого вы ищете",
+          "description": "Пытаться подключиться не тем дроидом к панели доступа"
+        },
+        "schinese": {
+          "name": "这不是你在找的机器人",
+          "description": "使用错误的机器人操控通行面板"
+        },
+        "spanish": {
+          "name": "No es el droide que buscas",
+          "description": "Usa un panel de acceso con el droide incorrecto"
+        },
+        "tchinese": {
+          "name": "這不是你在找的機器人",
+          "description": "使用錯誤的機器人操控通行面板"
+        }
+      }
+    },
+    "TR_8R": {
+      "translations": {
+        "arabic": {
+          "name": "خائن!",
+          "description": "اهزم فين باستخدام شخصية FN-2199"
+        },
+        "brazilian": {
+          "name": "Traidor!",
+          "description": "Derrote Finn usando o FN-2199"
+        },
+        "danish": {
+          "name": "Forræder!",
+          "description": "Nedlæg Finn med FN-2199"
+        },
+        "dutch": {
+          "name": "Verrader!",
+          "description": "Versla Finn door FN-2199 te gebruiken"
+        },
+        "english": {
+          "name": "Traitor!",
+          "description": "Defeat Finn using FN-2199"
+        },
+        "french": {
+          "name": "Traître !",
+          "description": "Battez Finn avec FN-2199."
+        },
+        "german": {
+          "name": "Verräter!",
+          "description": "Besieg Finn als FN-2199"
+        },
+        "italian": {
+          "name": "Traditore!",
+          "description": "Sconfiggi Finn usando FN-2199"
+        },
+        "polish": {
+          "name": "Tata, a Vader powiedział",
+          "description": "Pokonaj Finna, grając jako FN-2199."
+        },
+        "russian": {
+          "name": "Предатель!",
+          "description": "Победить Финна с помощью FN-2199"
+        },
+        "schinese": {
+          "name": "叛徒",
+          "description": "使用 FN-2199 击败芬恩"
+        },
+        "spanish": {
+          "name": "¡Traidor!",
+          "description": "Vence a Finn con FN-2199"
+        },
+        "tchinese": {
+          "name": "叛徒！",
+          "description": "操控FN-2199擊敗芬恩"
+        }
+      }
+    },
+    "KYLO_AND_HAN": {
+      "translations": {
+        "arabic": {
+          "name": "جمع شمل الأسرة",
+          "description": "اجعل كايلو رين و هان سولو في المجموعة نفسها"
+        },
+        "brazilian": {
+          "name": "Reunião de família",
+          "description": "Coloque Kylo Ren e Han Solo no mesmo grupo"
+        },
+        "danish": {
+          "name": "Familieforening",
+          "description": "Hav Kylo Ren og Han Solo i samme gruppe"
+        },
+        "dutch": {
+          "name": "Familiereünie",
+          "description": "Gebruik Kylo Ren en Han Solo in dezelfde groep"
+        },
+        "english": {
+          "name": "Family Reunion",
+          "description": "Have Kylo Ren and Han Solo in the same party"
+        },
+        "french": {
+          "name": "Réunion de famille",
+          "description": "Jouez avec Kylo Ren et Han Solo dans le même groupe."
+        },
+        "german": {
+          "name": "Familienzusammenführung",
+          "description": "Spiel mit Kylo Ren und Han Solo in deinem Team"
+        },
+        "italian": {
+          "name": "Riunione di famiglia",
+          "description": "Gioca con Kylo Ren e Han Solo nella stessa squadra"
+        },
+        "polish": {
+          "name": "Spotkanie rodzinne",
+          "description": "Miej Kylo Rena i Hana Solo w jednej drużynie."
+        },
+        "russian": {
+          "name": "Семья в сборе",
+          "description": "Собрать в один отряд Кайло Рена и Хана Соло"
+        },
+        "schinese": {
+          "name": "家庭大团圆",
+          "description": "让凯洛·伦和汉·索罗站在同一阵线"
+        },
+        "spanish": {
+          "name": "Reunión familiar",
+          "description": "Haz que Kylo Ren y Han Solo sean parte del mismo grupo"
+        },
+        "tchinese": {
+          "name": "家庭大團圓",
+          "description": "讓凱羅忍以及韓索羅站在同一陣線"
+        }
+      }
+    },
+    "DARTH_KILLS_KYLO": {
+      "translations": {
+        "arabic": {
+          "name": "أرني يا جدي",
+          "description": "اهزم كايلو رين باللعب بشخصية دارث فايدر"
+        },
+        "brazilian": {
+          "name": "Mostre-me, avô",
+          "description": "Derrote Kylo Ren como Darth Vader"
+        },
+        "danish": {
+          "name": "Vis mig det, bedstefar",
+          "description": "Vind over Kylo Ren som Darth Vader"
+        },
+        "dutch": {
+          "name": "Laat het mij zien, grootvader",
+          "description": "Versla Kylo Ren als Darth Vader"
+        },
+        "english": {
+          "name": "Show Me, Grandfather",
+          "description": "Defeat Kylo Ren playing as Darth Vader"
+        },
+        "french": {
+          "name": "Montrez-moi, grand-père",
+          "description": "Battez Kylo Ren avec Dark Vador."
+        },
+        "german": {
+          "name": "Zeig sie mir, Großvater",
+          "description": "Besieg Kylo Ren als Darth Vader"
+        },
+        "italian": {
+          "name": "Mostramelo, nonno",
+          "description": "Sconfiggi Kylo Ren nei panni di Darth Vader"
+        },
+        "polish": {
+          "name": "Ukaż mi ją, dziadku",
+          "description": "Pokonaj Kylo Rena, grając jako Darth Vader."
+        },
+        "russian": {
+          "name": "Направь своего внука",
+          "description": "Победить Кайло Рена, играя за Дарта Вейдера"
+        },
+        "schinese": {
+          "name": "让我见识一下，祖父",
+          "description": "使用达斯·维达击败凯洛·伦"
+        },
+        "spanish": {
+          "name": "Muéstramelo, abuelo",
+          "description": "Vence a Kylo Ren con Darth Vader"
+        },
+        "tchinese": {
+          "name": "讓我領會，祖父",
+          "description": "操控達斯維達擊敗凱羅忍"
+        }
+      }
+    },
+    "KYLO_FORCE_FREEZE": {
+      "translations": {
+        "arabic": {
+          "name": "توقف.....وقت كايلو",
+          "description": "بشخصية كايلو رين، قم بتجميد شخصية أخرى باستخدام القوة"
+        },
+        "brazilian": {
+          "name": "Paradinha-dinha-dinha",
+          "description": "Use a Força Congelante em outro personagem como Kylo Ren"
+        },
+        "danish": {
+          "name": "STOP ... Kylo-tid",
+          "description": "Brug Kraft-frys på en anden figur som Kylo Ren"
+        },
+        "dutch": {
+          "name": "STOP..... Kylo-tijd",
+          "description": "Gebruik Force-bevriezing als Kylo Ren"
+        },
+        "english": {
+          "name": "STOP.....Kylo Time",
+          "description": "As Kylo Ren, Force Freeze another character"
+        },
+        "french": {
+          "name": "STOP...... Kylo Time !",
+          "description": "Avec Kylo Ren, employez un étourdissement de Force sur un personnage."
+        },
+        "german": {
+          "name": "Stopp ........ Kylo-Zeit!",
+          "description": "Verwende als Kylo Ren Macht-Stasis auf einen anderen Charakter"
+        },
+        "italian": {
+          "name": "STOP... È il momento di Kylo",
+          "description": "Usa la stasi della Forza su un altro personaggio nei panni di Kylo Ren"
+        },
+        "polish": {
+          "name": "WSTAĆ... Kylo idzie",
+          "description": "Zamroź Mocą inną postać, grając jako Kylo Ren."
+        },
+        "russian": {
+          "name": "СТОЙ! Время Кайло...",
+          "description": "Остановить Силой другого персонажа, играя за Кайло Рена"
+        },
+        "schinese": {
+          "name": "暂停……现在是凯洛的时间",
+          "description": "使用凯洛·伦的原力定住其他角色"
+        },
+        "spanish": {
+          "name": "PARA... Es hora de Kylo",
+          "description": "Con Kylo Ren, usa la suspensión de Fuerza sobre un enemigo"
+        },
+        "tchinese": {
+          "name": "暫停.....現在是凱羅的時間",
+          "description": "操控凱羅忍使用原力定住其他角色"
+        }
+      }
+    },
+    "TROOPER_HELMET_ON_SMALLFIG": {
+      "translations": {
+        "arabic": {
+          "name": "قصير قليلاً بالنسبة لجندي عاصفة؟",
+          "description": "استخدم موزع القبعات لوضع خوذة جندي العاصفة على شخصية مصغّرة"
+        },
+        "brazilian": {
+          "name": "Meio pequeno para stormtrooper?",
+          "description": "Use um distribuidor de chapéus para colocar um capacete de stormtrooper em uma Minifigura pequena"
+        },
+        "danish": {
+          "name": "Er du ikke lille for en soldat?",
+          "description": "Put en stormsoldathjelm på en minifigur med en hatteautomat"
+        },
+        "dutch": {
+          "name": "Te klein voor een stormsoldaat?",
+          "description": "Zet een stormsoldatenhelm op een minifiguur door een hoedenautomaat te gebruiken"
+        },
+        "english": {
+          "name": "Little Short For A Stormtrooper?",
+          "description": "Use a hat dispenser to put a stormtrooper helmet on a small Minifigure"
+        },
+        "french": {
+          "name": "Petit pour un stormtrooper ?",
+          "description": "Utilisez un distributeur de casques pour mettre un casque de stormtrooper sur un petit personnage."
+        },
+        "german": {
+          "name": "Etwas klein für die Sturmtruppen",
+          "description": "Verwende eine Helmmaschine, um einer kleinen Minifigur einen Sturmtruppenhelm aufzusetzen"
+        },
+        "italian": {
+          "name": "Un po' basso per un assaltatore?",
+          "description": "Usa un distributore di cappelli per mettere un casco da assaltatore a una minifigure piccola"
+        },
+        "polish": {
+          "name": "Nie za niski na szturmowca?",
+          "description": "Załóż hełm szturmowca na minifigurkę za pomocą podajnika czapek."
+        },
+        "russian": {
+          "name": "Не низковат ли для штурмовика?",
+          "description": "С помощью меню выбора шляпы надеть шлем штурмовика на мини-фигурку"
+        },
+        "schinese": {
+          "name": "当帝国风暴兵还不够格",
+          "description": "使用帽子分流器把帝国风暴兵的头盔放到小型迷你公仔上"
+        },
+        "spanish": {
+          "name": "¿Un soldado de asalto pequeño?",
+          "description": "Usa un dispensador de cascos para ponerle un casco de soldado de asalto a una minifigura pequeña"
+        },
+        "tchinese": {
+          "name": "不夠格當帝國風暴兵",
+          "description": "使用帽子分流器把帝國風暴兵的頭盔放到小型迷你公仔上"
+        }
+      }
+    },
+    "ALL_SMASHABLES_IN_14C_AS_KYLO": {
+      "translations": {
+        "arabic": {
+          "name": "أهناك شيء آخر؟",
+          "description": "دمّر كل الوحدات الطرفية للكمبيوتر في غرفة درع الستاركيلير بشخصية كايلو رين"
+        },
+        "brazilian": {
+          "name": "Mais alguma coisa?",
+          "description": "Destrua todos os terminais de computadores na Sala de Escudo da Starkiller como Kylo Ren"
+        },
+        "danish": {
+          "name": "Var der noget andet?",
+          "description": "Ødelæg alle computerterminalerne i Stjernedræberens skjoldrum som Kylo Ren."
+        },
+        "dutch": {
+          "name": "Anders nog iets?",
+          "description": "Vernietig als Kylo Ren alle terminals in de schildruimte van de Starkiller"
+        },
+        "english": {
+          "name": "Anything Else?",
+          "description": "Destroy all computer terminals in Starkiller Shield Room as Kylo Ren"
+        },
+        "french": {
+          "name": "Autre chose ?",
+          "description": "Avec Kylo Ren, détruisez tous les terminaux dans la salle du bouclier de Starkiller."
+        },
+        "german": {
+          "name": "Sonst noch was?",
+          "description": "Zerstör als Kylo Ren alle Gegenstände in Starkiller, Schildsteuerung"
+        },
+        "italian": {
+          "name": "Serve qualcos'altro?",
+          "description": "Distruggi tutti i terminali di computer nella sala degli scudi della Starkiller usando Kylo Ren"
+        },
+        "polish": {
+          "name": "Coś jeszcze?",
+          "description": "Zniszcz wszystkie terminale komputerowe w Kontroli osłon Starkillera, grając jako Kylo Ren."
+        },
+        "russian": {
+          "name": "Еще что-нибудь?",
+          "description": "Разбить все компьютерные терминалы в щитовой ''Старкиллера'', играя за Кайло Рена"
+        },
+        "schinese": {
+          "name": "还差什么",
+          "description": "使用凯洛·伦摧毁弑星者护盾室中的所有电脑终端"
+        },
+        "spanish": {
+          "name": "¿Algo más?",
+          "description": "Con Kylo Ren, destruye todos los terminales informáticos en la sala de escudos de la Starkiller"
+        },
+        "tchinese": {
+          "name": "還差什麼？",
+          "description": "使用凱羅忍摧毀弒星者護盾室裡的所有電腦終端"
+        }
+      }
+    },
+    "YOUNG_HAN_AND_CHEWIE_ON_FALCON": {
+      "translations": {
+        "arabic": {
+          "name": "لقد عدنا لمركبتنا يا تشيوي",
+          "description": "العب بشخصية هان سولو (الكلاسيكية) و تشوباكا على سطح الميلينيوم فالكون"
+        },
+        "brazilian": {
+          "name": "Chewie, estamos em casa",
+          "description": "Jogue como Han Solo (clássico) e Chewbacca na Millennium Falcon"
+        },
+        "danish": {
+          "name": "Vi er hjemme, Chewie",
+          "description": "Spil som Han Solo (Klassisk) og Chewbacca på Tusindårsfalken."
+        },
+        "dutch": {
+          "name": "Chewie, we zijn thuis",
+          "description": "Speel als Han Solo (klassiek) en Chewbacca op de Millennium Falcon"
+        },
+        "english": {
+          "name": "Chewie, We're Home",
+          "description": "Play as Han Solo (Classic) and Chewbacca on the Millennium Falcon"
+        },
+        "french": {
+          "name": "Chewie, on est à la maison",
+          "description": "Jouez avec Han Solo (Classique) et Chewbacca dans le Faucon Millenium."
+        },
+        "german": {
+          "name": "Chewie, wir sind daheim",
+          "description": "Spiel als Han Solo (klassisch) und Chewbacca im Millennium Falken"
+        },
+        "italian": {
+          "name": "Ciube, siamo a casa",
+          "description": "Gioca nei panni di Han Solo (classico) e Ciubecca sul Millennium Falcon"
+        },
+        "polish": {
+          "name": "Chewie, jesteśmy w domu",
+          "description": "Zagraj jako Han Solo (klasyczny) i Chewbacca na pokładzie Sokoła Millennium."
+        },
+        "russian": {
+          "name": "Чуи, мы дома",
+          "description": "Сыграть за Хана Соло (классическая версия) и Чубакку на ''Соколе тысячелетия''"
+        },
+        "schinese": {
+          "name": "阿丘，我们到家了",
+          "description": "在千年隼号上使用汉·索罗（经典）和楚巴卡"
+        },
+        "spanish": {
+          "name": "Chewie, estamos en casa",
+          "description": "Juega como Han Solo (clásico) y Chewbacca en el Halcón Milenario"
+        },
+        "tchinese": {
+          "name": "阿丘，我們到家了",
+          "description": "在千年鷹上操控韓索羅（經典）及丘巴卡"
+        }
+      }
+    },
+    "MISS_10_TIMES_IN_COVER": {
+      "translations": {
+        "arabic": {
+          "name": "تناذر جندي العاصفة",
+          "description": "أخطئ هدفك 10 مرات في معركة بالبلاستر"
+        },
+        "brazilian": {
+          "name": "Síndrome de stormtrooper",
+          "description": "Erre o alvo 10 vezes em uma batalha de blasters"
+        },
+        "danish": {
+          "name": "Stormsoldat-syndrom",
+          "description": "Ram forbi målet 10 gange i en blaster-kamp"
+        },
+        "dutch": {
+          "name": "Stormsoldatensyndroom",
+          "description": "Mis 10 keer je doel in een blastergevecht"
+        },
+        "english": {
+          "name": "Stormtrooper Syndrome",
+          "description": "Miss your target 10 times in a blaster battle"
+        },
+        "french": {
+          "name": "Syndrome des stormtroopers",
+          "description": "Ratez votre cible 10 fois dans un combat de blasters."
+        },
+        "german": {
+          "name": "Sturmtruppen-Syndrom",
+          "description": "Verfehl 10 mal dein Ziel in einer Blasterschlacht"
+        },
+        "italian": {
+          "name": "Sindrome da assaltatore",
+          "description": "Manca il bersaglio 10 volte in una battaglia con blaster"
+        },
+        "polish": {
+          "name": "Syndrom szturmowca",
+          "description": "10 razy nie traf w cel podczas blasterowej bitwy."
+        },
+        "russian": {
+          "name": "Синдром штурмовика",
+          "description": "Промазать мимо цели 10 раз в битве на бластерах"
+        },
+        "schinese": {
+          "name": "帝国风暴兵综合征",
+          "description": "在爆能枪战中错过目标 10 次"
+        },
+        "spanish": {
+          "name": "Síndrome de soldado de asalto",
+          "description": "Falla los blancos 10 veces en una batalla bláster"
+        },
+        "tchinese": {
+          "name": "帝國風暴兵症候群",
+          "description": "在爆能槍戰中錯失目標10次"
+        }
+      }
+    },
+    "DLC_COMPLETE_THEPHANTOMLIMB": {
+      "translations": {
+        "arabic": {
+          "name": "نحن في مأزق نوعا ما",
+          "description": "أكمل ''الطرف الوهمي''"
+        },
+        "brazilian": {
+          "name": "Estamos Em Uma Grande Embrulhada",
+          "description": "Complete ''O Membro Fantasma''"
+        },
+        "danish": {
+          "name": "Vi er i pænt stor fare",
+          "description": "Gennemfør ''The Phantom Limb''"
+        },
+        "dutch": {
+          "name": "Wat een toestand",
+          "description": "Voltooi 'Het Phantom-ledemaat'"
+        },
+        "english": {
+          "name": "We Are In Quite A Predicament",
+          "description": "Complete ''The Phantom Limb''"
+        },
+        "french": {
+          "name": "Nous sommes dans le pétrin",
+          "description": "Terminez ''Le membre fantôme''."
+        },
+        "german": {
+          "name": "Wir stecken echt in der Klemme",
+          "description": "Beende „The Phantom Limb“"
+        },
+        "italian": {
+          "name": "Siamo un po' in difficoltà",
+          "description": "Completa ''L'arto fantasma''"
+        },
+        "polish": {
+          "name": "Jesteśmy w tarapatach",
+          "description": "Ukończ „Fantomową kończynę”."
+        },
+        "russian": {
+          "name": "Мы в затруднительном положении",
+          "description": "Пройти ''Фантомную конечность''"
+        },
+        "schinese": {
+          "name": "我们都在同一条船上",
+          "description": "完成“幻影义肢”"
+        },
+        "spanish": {
+          "name": "¡Qué lío!",
+          "description": "Completa «El miembro fantasma»"
+        },
+        "tchinese": {
+          "name": "我們都在同一艘船上",
+          "description": "完成「幻影義肢」"
+        }
+      }
+    },
+    "DLC_COLLECT_ALL_MINIKITS_PHANTOMLIMB": {
+      "translations": {
+        "arabic": {
+          "name": "لقد استرجعت المعلومة...",
+          "description": "اجمع كل الأدوات الصغيرة في ''الطرف الوهمي''"
+        },
+        "brazilian": {
+          "name": "Eu Recuperei as Informações...",
+          "description": "Colete todos os Minikits dentro de ''O Membro Fantasma''"
+        },
+        "danish": {
+          "name": "Jeg hentede oplysningerne ...",
+          "description": "Saml alle Minikits på ''The Phantom Limb''"
+        },
+        "dutch": {
+          "name": "Ik heb de informatie...",
+          "description": "Verzamel alle minikits in 'Het Phantom-ledemaat'"
+        },
+        "english": {
+          "name": "I Retrieved The Information...",
+          "description": "Collect all Minikits within ''The Phantom Limb''"
+        },
+        "french": {
+          "name": "J'ai récupéré les infos...",
+          "description": "Récoltez tous les minikits dans ''Le membre fantôme''."
+        },
+        "german": {
+          "name": "Ich habe die Informationen...",
+          "description": "Sammle alle Minikits in „The Phantom Limb“ ein"
+        },
+        "italian": {
+          "name": "Ho recuperato le informazioni...",
+          "description": "Raccogli tutti i Minikit in ''L'arto fantasma''"
+        },
+        "polish": {
+          "name": "Udało mi się uzyskać dane...",
+          "description": "Zbierz wszystkie minizestawy w „Fantomowej kończynie''."
+        },
+        "russian": {
+          "name": "Я получил информацию...",
+          "description": "Найти все мини-наборы в ''Фантомной конечности''"
+        },
+        "schinese": {
+          "name": "我找回了情报",
+          "description": "收集“幻影义肢”中的所有迷你零件"
+        },
+        "spanish": {
+          "name": "Recuperé la información...",
+          "description": "Recoge todos los minikits en «El miembro fantasma»"
+        },
+        "tchinese": {
+          "name": "我拿回那情報了......",
+          "description": "收集「幻影義肢」中所有的迷你零件"
+        }
+      }
+    },
+    "DLC_COLLECT_ALL_TRUEJEDI_PHANTOMLIMB": {
+      "translations": {
+        "arabic": {
+          "name": "...لكن بثمن باهض",
+          "description": "أنجز ''الجيداي الحقيقي'' في ''الطرف الوهمي''"
+        },
+        "brazilian": {
+          "name": "...Mas a um Preço Terrível",
+          "description": "Conquiste ''Verdadeiro Jedi'' em ''O Membro Fantasma''"
+        },
+        "danish": {
+          "name": "... Men det kostede dyrt",
+          "description": "Opnå ''Ægte Jedi'' på ''The Phantom Limb''"
+        },
+        "dutch": {
+          "name": "...Maar voor een hoge prijs",
+          "description": "Behaal 'Ware Jedi' in 'Het Phantom-ledemaat'"
+        },
+        "english": {
+          "name": "...But At A Terrible Cost",
+          "description": "Achieve ''True Jedi'' in ''The Phantom Limb''"
+        },
+        "french": {
+          "name": "... Mais cela nous a coûté cher",
+          "description": "Achevez ''Véritable Jedi'' dans ''Le membre fantôme''."
+        },
+        "german": {
+          "name": "...habe teuer dafür bezahlt",
+          "description": "Werde in „The Phantom Limb“ „Wahrer Jedi“"
+        },
+        "italian": {
+          "name": "... ma a un costo terribile",
+          "description": "Ottieni ''Vero Jedi'' in ''L'arto fantasma''"
+        },
+        "polish": {
+          "name": "...lecz straszliwym kosztem",
+          "description": "Zdobądź tytuł Prawdziwego Jedi w „Fantomowej kończynie”."
+        },
+        "russian": {
+          "name": "Но какой ценой...",
+          "description": "Получить звание ''Истинный джедай'' в ''Фантомной конечности''"
+        },
+        "schinese": {
+          "name": "但付出了严重的代价",
+          "description": "在“幻影义肢”中完成“真正的绝地武士”"
+        },
+        "spanish": {
+          "name": "... Pero a un coste terrible",
+          "description": "Consigue «Jedi auténtico» en «El miembro fantasma»"
+        },
+        "tchinese": {
+          "name": "......但付出了嚴重的代價",
+          "description": "在「幻影義肢」中完成「真正的絕地武士」"
+        }
+      }
+    },
+    "DLC_DEFEAT_ALL_SPIDERS_AS_PZ_99": {
+      "translations": {
+        "arabic": {
+          "name": "ما كان مبرمج عليه",
+          "description": "اهزم كل حشود تول بـ PZ-99 في وضع القصة"
+        },
+        "brazilian": {
+          "name": "Para o Que Ele Foi Programado",
+          "description": "Derrote todos os enxames de Taul como PZ-99 na história"
+        },
+        "danish": {
+          "name": "Det, han var programmeret til",
+          "description": "Nedlæg alle Taul-sværmere som PZ-99 (i historie)"
+        },
+        "dutch": {
+          "name": "Hij is ervoor geprogrammeerd",
+          "description": "Versla alle Taul-zwermers als PZ-99 (in verhaal)"
+        },
+        "english": {
+          "name": "What He Was Programmed To",
+          "description": "Defeat all the Taul Swarmers as PZ-99 in Story"
+        },
+        "french": {
+          "name": "Il était programmé pour ça",
+          "description": "Battez tous les essaims sur Taul avec PZ-99 en mode Histoire."
+        },
+        "german": {
+          "name": "Wofür er programmiert wurde",
+          "description": "Besieg als PZ-99 alle Taul-Krabbler im Geschichtenmodus"
+        },
+        "italian": {
+          "name": "È stato programmato per questo",
+          "description": "Sconfiggi tutti gli sciami di Taul nei panni di PZ-99 in Storia"
+        },
+        "polish": {
+          "name": "Do tego go zaprogramowano",
+          "description": "Pokonaj wszystkie taulskie insekty w trybie fabularnym, grając jako PZ-99."
+        },
+        "russian": {
+          "name": "Запрограммирован как раз на это",
+          "description": "Одолеть всех таульских пауков, играя за PZ-99 в сюжетной игре"
+        },
+        "schinese": {
+          "name": "他的程序是为了什么而设计的",
+          "description": "在故事模式下，使用 PZ-99 击败所有陶尔白蚁"
+        },
+        "spanish": {
+          "name": "Lo programaron para esto",
+          "description": "Vence a todos los enjambres de Taul con PZ-99 (en historia)"
+        },
+        "tchinese": {
+          "name": "他的程式是為了什麼而設計的",
+          "description": "在故事模式下，操縱PZ-99擊敗所有陶爾白蟻，"
+        }
+      }
+    },
+    "DLC_POE_AND_BB8": {
+      "translations": {
+        "arabic": {
+          "name": "ظننت أن لن نجدك أبدا",
+          "description": "العب ببو داميرون (بدلة الفضاء) و BB-8 في جولة لعب حر"
+        },
+        "brazilian": {
+          "name": "Pensei Que Nunca Te Acharíamos",
+          "description": "Jogue em grupo um jogo livre com Poe Dameron (uniforme de voo) e BB-8"
+        },
+        "danish": {
+          "name": "Troede, vi ikke ville finde dig",
+          "description": "Spil frit spil i en gruppe med Poe Dameron (flyverdragt) og BB-8"
+        },
+        "dutch": {
+          "name": "We dachten, die vinden we nooit",
+          "description": "Speel in Vrij spelen met Poe Dameron (pilotenpak) en BB-8 in je groep"
+        },
+        "english": {
+          "name": "Thought We'd Never Find You",
+          "description": "Play in a Free Play party with Poe Dameron (Flight Suit) and BB-8"
+        },
+        "french": {
+          "name": "On croyait jamais vous retrouver",
+          "description": "Jouez avec Poe Dameron (Combi de vol) et BB-8 dans le même groupe Jeu libre."
+        },
+        "german": {
+          "name": "Hatten Angst, dich nie zu finden",
+          "description": "Spiel im Freien Spiel mit Poe Dameron (Fliegeranzug) und BB-8 im selben Team"
+        },
+        "italian": {
+          "name": "Credevo non ti avremmo trovato",
+          "description": "Gioca in una Partita Libera con Poe Dameron (Tuta da Pilota) e BB-8"
+        },
+        "polish": {
+          "name": "Myśleliśmy, że już po tobie",
+          "description": "Podczas gry swobodnej miej w drużynie Poe Damerona (kombinezon lotniczy) i BB-8."
+        },
+        "russian": {
+          "name": "Не надеялись найти",
+          "description": "Собрать в один отряд По Дэмерона (в летном костюме) и BB-8 в свободной игре"
+        },
+        "schinese": {
+          "name": "我以为我们再也找不到你了",
+          "description": "在自由模式中使用波·达默龙和 BB-8 搭档组合"
+        },
+        "spanish": {
+          "name": "Creía que no te encontraríamos",
+          "description": "Juega con Poe Dameron (traje de vuelo) y BB-8 en el mismo grupo en juego libre"
+        },
+        "tchinese": {
+          "name": "我以為我們再也找不到你了",
+          "description": "操縱波戴姆倫與BB-8的搭檔組合，在自由模式中進行遊戲"
+        }
+      }
+    },
+    "DLC_POESQUEST_COMPLETE": {
+      "translations": {
+        "arabic": {
+          "name": "أحب العودة إلى العمل نوعا ما",
+          "description": "أكمل “مغامرة بو للبقاء على قيد الحياة”"
+        },
+        "brazilian": {
+          "name": "Gostaria de Voltar ao Trabalho",
+          "description": "Complete ''A Sobrevivência de Poe''"
+        },
+        "danish": {
+          "name": "Jeg vil gerne tilbage på arbejde",
+          "description": "Gennemfør ''Poes forsøg på at overleve''"
+        },
+        "dutch": {
+          "name": "Ik wil wel weer aan het werk",
+          "description": "Voltooi 'Poe's gevecht om te overleven'"
+        },
+        "english": {
+          "name": "Kinda Like To Get Back To Work",
+          "description": "Complete ''Poe's Quest for Survival''"
+        },
+        "french": {
+          "name": "J'aimerais me remettre au boulot",
+          "description": "Terminez ''La quête de Poe pour survivre''"
+        },
+        "german": {
+          "name": "Als Urlaub nicht schlecht",
+          "description": "Beende „Poes Kampf ums Überleben“"
+        },
+        "italian": {
+          "name": "Ho voglia di tornare al lavoro",
+          "description": "Completa ''La lotta per la sopravvivenza di Poe''"
+        },
+        "polish": {
+          "name": "Wolałbym jednak wrócić do pracy",
+          "description": "Ukończ „Poe na ratunek''."
+        },
+        "russian": {
+          "name": "Я бы хотел вернуться к работе",
+          "description": "Пройти эпизод ''По - приказано выжить''"
+        },
+        "schinese": {
+          "name": "有点想回去工作了",
+          "description": "完成“波的亡命天涯”"
+        },
+        "spanish": {
+          "name": "Debo volver al trabajo",
+          "description": "Completa «Lucha por la supervivencia de Poe»"
+        },
+        "tchinese": {
+          "name": "有點想回去工作了",
+          "description": "完成「波的亡命天涯」"
+        }
+      }
+    },
+    "DLC_POESQUEST_COLLECT_ALL_MINIKITS": {
+      "translations": {
+        "arabic": {
+          "name": "إستعمال للخردة لا مثيل له",
+          "description": "إجمع كل الأدوات الصغيرة في “مغامرة بو للبقاء على قيد الحياة”"
+        },
+        "brazilian": {
+          "name": "Um Outro Uso Para Sucata",
+          "description": "Colete todos os Minikits em ''A Sobrevivência de Poe''"
+        },
+        "danish": {
+          "name": "Sådan kan man også bruge skrot",
+          "description": "Indsaml alle minikit i ''Poes forsøg på at overleve''"
+        },
+        "dutch": {
+          "name": "Onverwachte schroottoepassing!",
+          "description": "Verzamel alle minikits in 'Poe's gevecht om te overleven'"
+        },
+        "english": {
+          "name": "A Use For Scrap...",
+          "description": "Collect all Minikits within ''Poe's Quest for Survival''"
+        },
+        "french": {
+          "name": "Une utilité pour cette babiole !",
+          "description": "Récupérez tous les minikits de ''La quête de Poe pour survivre''"
+        },
+        "german": {
+          "name": "Ungeahnter Nutzen für Schrott",
+          "description": "Sammle alle Minikits in „Poes Kampf ums Überleben“ ein"
+        },
+        "italian": {
+          "name": "Ottimo modo di usare i rottami!",
+          "description": "Raccogli tutti i Minikit in ''La lotta per la sopravvivenza di Poe''"
+        },
+        "polish": {
+          "name": "Zastosowanie dla złomu",
+          "description": "Zbierz wszystkie minizestawy w „Poe walczy o przetrwanie''."
+        },
+        "russian": {
+          "name": "И на это хлам сгодится...",
+          "description": "Найти все мини-наборы в эпизоде ''По - приказано выжить''"
+        },
+        "schinese": {
+          "name": "从来没想过废铜烂铁可以这样用",
+          "description": "收集“波的亡命天涯”中的所有迷你零件"
+        },
+        "spanish": {
+          "name": "Un uso para la chatarra...",
+          "description": "Recoge todos los minikits en «Lucha por la supervivencia de Poe»"
+        },
+        "tchinese": {
+          "name": "從來沒想過破銅爛鐵可以這樣用！",
+          "description": "在「波的亡命天涯」中收集所有迷你零件"
+        }
+      }
+    },
+    "DLC_POESQUEST_COLLECT_TRUEJEDI": {
+      "translations": {
+        "arabic": {
+          "name": "من سيقوم بالتقاط تلك الأشياء؟",
+          "description": "أنجز “جيداي حقيقي” في “مغامرة بو للبقاء على قيد الحياة”"
+        },
+        "brazilian": {
+          "name": "Quem vai pegar essa coisa?",
+          "description": "Conquiste ''Verdadeiro Jedi'' em ''A Sobrevivência de Poe''"
+        },
+        "danish": {
+          "name": "Hvem samler det der op?",
+          "description": "Opnå ''Ægte Jedi'' i ''Poes forsøg på at overleve''"
+        },
+        "dutch": {
+          "name": "Wie gaat dat oprapen?",
+          "description": "Behaal 'Ware Jedi' in 'Poe's gevecht om te overleven'"
+        },
+        "english": {
+          "name": "Who's Gonna Pick That Stuff Up?",
+          "description": "Achieve ''True Jedi'' in ''Poe's Quest for Survival''"
+        },
+        "french": {
+          "name": "Qui va ramasser ça ?",
+          "description": "Achevez ''Véritable Jedi'' dans ''La quête de Poe pour survivre''"
+        },
+        "german": {
+          "name": "Wer soll das alles aufheben?",
+          "description": "Werde in „Poes Kampf ums Überleben“ „Wahrer Jedi“"
+        },
+        "italian": {
+          "name": "Chi la raccoglie quella roba?",
+          "description": "Ottieni ''Vero Jedi'' in ''La lotta per la sopravvivenza di Poe''"
+        },
+        "polish": {
+          "name": "Kto to wszystko pozbiera?",
+          "description": "Zdobądź tytuł Prawdziwego Jedi w „Poe walczy o przetrwanie”."
+        },
+        "russian": {
+          "name": "Кто все это будет подбирать?",
+          "description": "Заработать рейтинг ''Истинный джедай'' в эпизоде ''По - приказано выжить''"
+        },
+        "schinese": {
+          "name": "谁来负责把它们捡起来",
+          "description": "在“波的亡命天涯”中完成“真正的绝地武士”"
+        },
+        "spanish": {
+          "name": "¿Quién va a recoger todo esto?",
+          "description": "Consigue «Jedi auténtico» en «Lucha por la supervivencia de Poe»"
+        },
+        "tchinese": {
+          "name": "誰要負責把它們撿起來？",
+          "description": "在「波的亡命天涯」中完成「真正的絕地武士」"
+        }
+      }
+    },
+    "DLC_POESQUEST_MARKSMAN": {
+      "translations": {
+        "arabic": {
+          "name": "مصوب بارع!",
+          "description": "تخلص من قبيلة ستراس باستعمال أكثر الوسائل كريهة الرائحة."
+        },
+        "brazilian": {
+          "name": "Que grande atirador!",
+          "description": "Despache o Clã Strus usando os meios mais fedorentos que existem."
+        },
+        "danish": {
+          "name": "Noget af en skytte!",
+          "description": "Udsend Strus-klanen med de mest ildelugtende midler, du har."
+        },
+        "dutch": {
+          "name": "Een goede schutter!",
+          "description": "Reken op de meest stinkende wijze af met de Strus-clan"
+        },
+        "english": {
+          "name": "Quite The Marksman!",
+          "description": "Dispatch the Strus Clan using the smelliest means necessary"
+        },
+        "french": {
+          "name": "Tireur d'élite !",
+          "description": "Éliminez le clan Strus par les moyens nécessaires les plus malodorants."
+        },
+        "german": {
+          "name": "Ein fähiger Schütze!",
+          "description": "Werde den Strus-Clan auf die stinkigste Art und Weise los"
+        },
+        "italian": {
+          "name": "Tiratore scelto!",
+          "description": "Sbarazzati del Clan Strus con i mezzi più puzzolenti disponibili"
+        },
+        "polish": {
+          "name": "Niezły z ciebie strzelec",
+          "description": "Pozbądź się klanu Strus, wykorzystując wszelkie najgorzej pachnące środki."
+        },
+        "russian": {
+          "name": "Да ты снайпер!",
+          "description": "Победить струсов, используя самое вонючее оружие"
+        },
+        "schinese": {
+          "name": "真是个神枪手",
+          "description": "用最“有味道”的必要手段，分散斯特鲁斯氏族的注意力"
+        },
+        "spanish": {
+          "name": "¡Menuda puntería que tienes!",
+          "description": "Elimina al clan Strus usando la manera más apestosa"
+        },
+        "tchinese": {
+          "name": "真是個神槍手！",
+          "description": "用最「有味道」的必要手段，分散施特魯斯氏族的注意力"
+        }
+      }
+    },
+    "DLC_POESQUEST_GREATESTPILOT": {
+      "translations": {
+        "arabic": {
+          "name": "أفضل طيار قابلته بحياتي",
+          "description": "تجنب كل فخوخ السبيدر لقبيلة ستراس."
+        },
+        "brazilian": {
+          "name": "O Melhor Piloto Que Já Conheci",
+          "description": "Evite todas as armadilhas para Speeders do Clã Strus."
+        },
+        "danish": {
+          "name": "Den bedste pilot jeg har mødt",
+          "description": "Undgå alle Strus-klanens speederfælder."
+        },
+        "dutch": {
+          "name": "De beste piloot ooit",
+          "description": "Vermijd al de speedervallen van de Strus-clan"
+        },
+        "english": {
+          "name": "Greatest Pilot I've Ever Met",
+          "description": "Avoid all of the Strus Clan speeder traps"
+        },
+        "french": {
+          "name": "Meilleur pilote que j'aie connu",
+          "description": "Évitez tous les pièges à speeder du clan Strus."
+        },
+        "german": {
+          "name": "Hoffentlich der beste Pilot",
+          "description": "Weiche allen Speeder-Fallen des Strus-Clans aus"
+        },
+        "italian": {
+          "name": "Miglior pilota mai incontrato",
+          "description": "Evita tutte le trappole per speeder del Clan Strus"
+        },
+        "polish": {
+          "name": "Najlepszy pilot, jakiego znam",
+          "description": "Uniknij wszystkich pułapek na śmigacze zastawionych przez klan Strus."
+        },
+        "russian": {
+          "name": "Лучший пилот в мире",
+          "description": "Избежать всех ловушек, расставленных струсами"
+        },
+        "schinese": {
+          "name": "我见过最优秀的飞行员",
+          "description": "避开斯特鲁斯氏族设置的所有飞梭套索"
+        },
+        "spanish": {
+          "name": "El mejor piloto que he conocido",
+          "description": "Esquiva todas las trampas de speeder del clan Strus"
+        },
+        "tchinese": {
+          "name": "我看過最優秀的駕駛員",
+          "description": "避開所有施特魯斯氏族的飛梭套索"
+        }
+      }
+    },
+    "DLC_OUTLAWS_COMPLETE": {
+      "translations": {
+        "arabic": {
+          "name": "علينا الحصول على القتاة",
+          "description": "أكمل “حصار التنظيم الأول لتاكودانا”"
+        },
+        "brazilian": {
+          "name": "Temos Que Pegar a Garota",
+          "description": "Complete ''O Cerco da Primeira Ordem a Takodana''"
+        },
+        "danish": {
+          "name": "Vi må få fat i pigen",
+          "description": "Gennemfør ''Den Første Ordens belejring af Takodana''"
+        },
+        "dutch": {
+          "name": "We moeten het meisje hebben",
+          "description": "Voltooi 'First Order belegering op Takodana'"
+        },
+        "english": {
+          "name": "We Must Have The Girl",
+          "description": "Complete ''First Order Siege of Takodana''"
+        },
+        "french": {
+          "name": "Nous devons trouver la fille",
+          "description": "Terminez ''Assaut du Premier Ordre sur Takodana''"
+        },
+        "german": {
+          "name": "Wir brauchen das Mädchen",
+          "description": "Beende „Belagerung auf Takodana“"
+        },
+        "italian": {
+          "name": "Ci serve la ragazza",
+          "description": "Completa 'Il Primo Ordine assedia Takodana''"
+        },
+        "polish": {
+          "name": "Musimy pojmać dziewczynę",
+          "description": "Ukończ „Oblężenie Takodany''."
+        },
+        "russian": {
+          "name": "Мы должны схватить девчонку",
+          "description": "Пройти эпизод ''Нападение Первого Ордена на Такодану''"
+        },
+        "schinese": {
+          "name": "我们必须抓住那个女孩",
+          "description": "完成“第一军团围困塔科达纳星”"
+        },
+        "spanish": {
+          "name": "Necesitamos a la chica",
+          "description": "Completa «El asedio en Takodana de la Primera Orden»"
+        },
+        "tchinese": {
+          "name": "我們要抓到那女孩",
+          "description": "完成「第一軍團圍困塔可達納星」"
+        }
+      }
+    },
+    "DLC_OUTLAWS_COLLECT_ALL_MINIKITS": {
+      "translations": {
+        "arabic": {
+          "name": "على جناحك٬ يا إيبسيلون ستة",
+          "description": "إجمع كل الأدوات الصغيرة في “حصار التنظيم الأول لتاكودانا”"
+        },
+        "brazilian": {
+          "name": "Na sua asa, Épsilon Seis!",
+          "description": "Colete todos os Minikits em ''O Cerco da Primeira Ordem a Takodana''"
+        },
+        "danish": {
+          "name": "Jeg er ved din side, Epsilon 6",
+          "description": "Indsaml alle minikit i ''Den Første Ordens belejring af Takodana''"
+        },
+        "dutch": {
+          "name": "Ik vlieg naast je, Epsilon Zes",
+          "description": "Verzamel alle minikits in 'First Order belegering op Takodana'"
+        },
+        "english": {
+          "name": "On Your Wing, Epsilon Six",
+          "description": "Collect all Minikits within ''First Order Siege of Takodana''"
+        },
+        "french": {
+          "name": "Je vous suis, Epsilon Six.",
+          "description": "Récoltez tous les minikits dans ''Assaut du Premier Ordre sur Takodana''"
+        },
+        "german": {
+          "name": "An Ihrer Seite, Epsilon 1",
+          "description": "Sammle alle Minikits in „Belagerung auf Takodana“ ein"
+        },
+        "italian": {
+          "name": "Sull'ala, Epsilon Sei",
+          "description": "Raccogli tutti i Minikit in ''Il Primo Ordine assedia Takodana''"
+        },
+        "polish": {
+          "name": "Lecę obok ciebie, Epsilon-6",
+          "description": "Zbierz wszystkie minizestawy w „Oblężeniu Takodany''."
+        },
+        "russian": {
+          "name": "Я у тебя на крыле, Эпсилон-6",
+          "description": "Найти все мини-наборы в эпизоде ''Нападение Первого Ордена на Такодану''"
+        },
+        "schinese": {
+          "name": "与你并肩，艾普西龙六号",
+          "description": "收集“第一军团围困塔科达纳星”中的所有迷你零件"
+        },
+        "spanish": {
+          "name": "Te cubro, Épsilon 6",
+          "description": "Recoge todos los minikits en «El asedio en Takodana de la Primera Orden»"
+        },
+        "tchinese": {
+          "name": "就飛行位置，艾普西龍六號",
+          "description": "在「第一軍團圍困塔可達納星」中收集所有迷你零件"
+        }
+      }
+    },
+    "DLC_OUTLAWS_COLLECT_TRUEJEDI": {
+      "translations": {
+        "arabic": {
+          "name": "سوف أصلح ذلك فورًا يا سيدي",
+          "description": "أنجز “جيداي حقيقي” في “حصار التنظيم الأول لتاكودانا”"
+        },
+        "brazilian": {
+          "name": "Corrigirei Isso Imediatamente",
+          "description": "Alcance ''Verdadeiro Jedi'' em ''O Cerco da Primeira Ordem a Takodana''"
+        },
+        "danish": {
+          "name": "Det vil jeg rette op på nu",
+          "description": "Opnå ''Ægte Jedi'' i ''Den Første Ordens belejring af Takodana''"
+        },
+        "dutch": {
+          "name": "Dat zal ik meteen verhelpen",
+          "description": "Behaal 'Ware Jedi' in 'First Order belegering op Takodana'"
+        },
+        "english": {
+          "name": "I'll Remedy That Immediately Sir",
+          "description": "Achieve ''True Jedi'' in ''First Order Siege of Takodana''"
+        },
+        "french": {
+          "name": "Je vais y remédier de suite",
+          "description": "Achevez ''Véritable Jedi'' dans ''Assaut du Premier Ordre sur Takodana''"
+        },
+        "german": {
+          "name": "Das werde ich sofort beheben",
+          "description": "Werde in „Belagerung auf Takodana“ „Wahrer Jedi“"
+        },
+        "italian": {
+          "name": "Rimedio subito, signore",
+          "description": "Ottieni ''Vero Jedi'' in ''Il Primo Ordine assedia Takodana''"
+        },
+        "polish": {
+          "name": "Zaraz temu zaradzę, sir",
+          "description": "Zdobądź tytuł Prawdziwego Jedi w „Oblężeniu Takodany”."
+        },
+        "russian": {
+          "name": "Сейчас исправлю, сэр",
+          "description": "Заработать рейтинг ''Истинный джедай'' в эпизоде ''Нападение Первого Ордена на Такодану''"
+        },
+        "schinese": {
+          "name": "我马上纠正这一点，长官",
+          "description": "在“第一军团围困塔科达纳星”中完成“真正的绝地武士”"
+        },
+        "spanish": {
+          "name": "Lo solucionaré enseguida, señor",
+          "description": "Consigue «Jedi auténtico» en «El asedio en Takodana de la Primera Orden»"
+        },
+        "tchinese": {
+          "name": "我馬上來糾正這點，長官",
+          "description": "在「第一軍團圍困塔可達納星」中完成「真正的絕地武士」"
+        }
+      }
+    },
+    "DLC_OUTLAWS_THOSE_BEASTS": {
+      "translations": {
+        "arabic": {
+          "name": "أولئك الوحوش!",
+          "description": "دمر قصر تاكودانا"
+        },
+        "brazilian": {
+          "name": "Esses monstros!",
+          "description": "Destrua o Castelo Takodana"
+        },
+        "danish": {
+          "name": "De uhyrer!",
+          "description": "Ødelæg Takodana-slottet"
+        },
+        "dutch": {
+          "name": "Die beesten!",
+          "description": "Vernietig kasteel Takodana"
+        },
+        "english": {
+          "name": "Those Beasts!",
+          "description": "Destroy Takodana Castle"
+        },
+        "french": {
+          "name": "Ces monstres...",
+          "description": "Détruisez le château de Takodana"
+        },
+        "german": {
+          "name": "Diese Bestien!",
+          "description": "Zerstör das Schloss auf Takodana"
+        },
+        "italian": {
+          "name": "Quelle bestie!",
+          "description": "Distruggi il Castello di Takodana"
+        },
+        "polish": {
+          "name": "To te bydlaki",
+          "description": "Zniszcz zamek na Takodanie."
+        },
+        "russian": {
+          "name": "Заявились, бестии...",
+          "description": "Разрушить замок на Такодане"
+        },
+        "schinese": {
+          "name": "那些禽兽",
+          "description": "摧毁塔科达纳星之城"
+        },
+        "spanish": {
+          "name": "¡Esas bestias!",
+          "description": "Destruye el castillo de Takodana"
+        },
+        "tchinese": {
+          "name": "那些禽獸！",
+          "description": "摧毀塔可達納星之城"
+        }
+      }
+    },
+    "DLC_OUTLAWS_DEAL_WITH_HER": {
+      "translations": {
+        "arabic": {
+          "name": "سأتولى أمرها بنفسي.",
+          "description": "إقبض على راي مع تشتيت كل نيران البلاستر خاصتها"
+        },
+        "brazilian": {
+          "name": "Eu Me Encarrego Dela",
+          "description": "Capture Rey enquanto deflete todos os disparos de blaster dela."
+        },
+        "danish": {
+          "name": "Jeg tager mig selv af hende.",
+          "description": "Fang Rey, mens du afbøjer alle hendes laserskud"
+        },
+        "dutch": {
+          "name": "Ik pak haar zelf wel aan",
+          "description": "Neem Rey gevangen terwijl je al haar blasterschoten weerkaatst"
+        },
+        "english": {
+          "name": "I Shall Deal With Her On My Own",
+          "description": "Capture Rey whilst deflecting all her blaster bolts"
+        },
+        "french": {
+          "name": "Je vais m'en occuper moi-même",
+          "description": "Capturez Rey tout en déviant tous ses tirs de blaster"
+        },
+        "german": {
+          "name": "Ich werde mich um sie kümmern",
+          "description": "Fang Rey und wehr all ihre Blasterschüsse ab"
+        },
+        "italian": {
+          "name": "Mi occupo di lei da solo",
+          "description": "Cattura Rey deviando tutti i fulmini del suo blaster"
+        },
+        "polish": {
+          "name": "Sam się nią zajmę",
+          "description": "Schwytaj Rey, odbijając wszystkie jej strzały z blastera."
+        },
+        "russian": {
+          "name": "Я сам с ней разберусь",
+          "description": "Пленить Рэй, отразив все выстрелы из бластера"
+        },
+        "schinese": {
+          "name": "我会自己搞定她",
+          "description": "偏移芮所有的爆能枪炮火并活捉她"
+        },
+        "spanish": {
+          "name": "Me ocuparé de ella en persona",
+          "description": "Captura a Rey mientras desvías todos sus rayos bláster"
+        },
+        "tchinese": {
+          "name": "我會自己搞定她。",
+          "description": "偏移芮所有的爆能槍砲火並活捉她"
+        }
+      }
+    },
+    "DLC_STARKILLER_COMPLETE": {
+      "translations": {
+        "arabic": {
+          "name": "هااي!إنها ليست لك!",
+          "description": "أكمل “الهروب من قاعدة ستاركيلر”"
+        },
+        "brazilian": {
+          "name": "Ei! Isso não é seu!",
+          "description": "Complete ''A Fuga da Base Starkiller''"
+        },
+        "danish": {
+          "name": "Hov, det er ikke din!",
+          "description": "Gennemfør ''Flugten fra Stjernedræberbasen''"
+        },
+        "dutch": {
+          "name": "Hé! Dat is niet van jou!",
+          "description": "Voltooi 'Ontsnapping van de Starkiller-basis'"
+        },
+        "english": {
+          "name": "Hey! That's Not Yours!",
+          "description": "Complete ''Escape from Starkiller Base''"
+        },
+        "french": {
+          "name": "Hé ! C'est pas à vous !",
+          "description": "Terminez ''Évasion de la base Starkiller''"
+        },
+        "german": {
+          "name": "Hey! Das gehört uns!",
+          "description": "Beende „Flucht von Starkiller-Basis“"
+        },
+        "italian": {
+          "name": "Ehi! Non è vostro!",
+          "description": "Completa ''Fuga dalla base Starkiller''"
+        },
+        "polish": {
+          "name": "To nie wasze",
+          "description": "Ukończ „Ucieczkę ze Starkillera''."
+        },
+        "russian": {
+          "name": "Эй! Это не ваш корабль!",
+          "description": "Пройти эпизод ''Бегство со Старкиллера''"
+        },
+        "schinese": {
+          "name": "嘿！那不是你的",
+          "description": "完成“逃离弑星者基地”"
+        },
+        "spanish": {
+          "name": "¡Oye! ¡Eso no es tuyo!",
+          "description": "Completa «Huida de la base Starkiller»"
+        },
+        "tchinese": {
+          "name": "嘿！那不是你的！",
+          "description": "完成「逃離弑星者基地」"
+        }
+      }
+    },
+    "DLC_STARKILLER_COLLECT_ALL_MINIKITS": {
+      "translations": {
+        "arabic": {
+          "name": "لقد نحلت الغطاء",
+          "description": "إجمع كل الأدوات الصغيرة في “الهروب من قاعدة ستاركيلر”"
+        },
+        "brazilian": {
+          "name": "Afrouxei a tampa",
+          "description": "Colete todos os Minikits em ''A Fuga da Base Starkiller''"
+        },
+        "danish": {
+          "name": "Jeg løsnede låget.",
+          "description": "Indsaml alle minikit i ''Flugten fra Stjernedræberbasen''"
+        },
+        "dutch": {
+          "name": "Ik had een beginnetje gemaakt",
+          "description": "Verzamel alle minikits in 'Ontsnapping van de Starkiller-basis'"
+        },
+        "english": {
+          "name": "I Loosened The Lid",
+          "description": "Collect all Minikits within ''Escape from Starkiller Base''"
+        },
+        "french": {
+          "name": "J'ai fait tout le boulot",
+          "description": "Récoltez tous les minikits dans ''Évasion de la base Starkiller''"
+        },
+        "german": {
+          "name": "Das war meine Vorarbeit",
+          "description": "Sammle alle Minikits in „Flucht von Starkiller-Basis“ ein"
+        },
+        "italian": {
+          "name": "Ho allentato il coperchio",
+          "description": "Raccogli tutti i Minikit in ''Fuga dalla base Starkiller''"
+        },
+        "polish": {
+          "name": "Ja ją osłabiłem",
+          "description": "Zbierz wszystkie minizestawy w „Ucieczce ze Starkillera''."
+        },
+        "russian": {
+          "name": "При моем-то участии",
+          "description": "Найти все мини-наборы в эпизоде ''Бегство со Старкиллера''"
+        },
+        "schinese": {
+          "name": "我把盖子弄松了",
+          "description": "收集“逃离弑星者基地”中的所有迷你零件"
+        },
+        "spanish": {
+          "name": "Yo la había aflojado",
+          "description": "Recoge todos los minikits en «Huida de la base Starkiller»"
+        },
+        "tchinese": {
+          "name": "我弄鬆了蓋子。",
+          "description": "在「逃離弑星者基地」中收集所有迷你零件"
+        }
+      }
+    },
+    "DLC_STARKILLER_COLLECT_TRUEJEDI": {
+      "translations": {
+        "arabic": {
+          "name": "حان الوقت لتأخذ فرصتك يا R3.",
+          "description": "أنجز “جيداي حقيقي” في “الهروب من قاعدة ستاركيلر”"
+        },
+        "brazilian": {
+          "name": "Hora de merecer a passagem, R3.",
+          "description": "Você alcançou ''Verdadeiro Jedi'' em ''A Fuga da Base Starkiller''"
+        },
+        "danish": {
+          "name": "Så er der arbejde, R3",
+          "description": "Opnå ''Ægte Jedi'' i ''Flugten fra Stjernedræberbasen''"
+        },
+        "dutch": {
+          "name": "Tijd om je nuttig te maken, R3",
+          "description": "Behaal 'Ware Jedi' in 'Ontsnapping van de Starkiller-basis'"
+        },
+        "english": {
+          "name": "Time To Earn Your Passage R3",
+          "description": "Achieve ''True Jedi'' in ''Escape from Starkiller Base''"
+        },
+        "french": {
+          "name": "Tu dois mériter ta place, R3",
+          "description": "Achevez ''Véritable Jedi'' dans ''Évasion de la base Starkiller''"
+        },
+        "german": {
+          "name": "Dann verdien dir deine Fahrkarte",
+          "description": "Werde in „Flucht von Starkiller-Basis“ „Wahrer Jedi“"
+        },
+        "italian": {
+          "name": "È ora di un passaggio, R3",
+          "description": "Ottieni ''Vero Jedi'' in ''Fuga dalla base Starkiller''"
+        },
+        "polish": {
+          "name": "Zapracuj na swój przejazd, R3",
+          "description": "Zdobądź tytuł Prawdziwego Jedi w „Ucieczce ze Starkillera”."
+        },
+        "russian": {
+          "name": "Давай, работай, R3",
+          "description": "Заработать рейтинг ''Истинный джедай'' в эпизоде ''Бегство со Старкиллера''"
+        },
+        "schinese": {
+          "name": "是时候来开路了，R3",
+          "description": "在“逃离弑星者基地”中完成“真正的绝地武士”"
+        },
+        "spanish": {
+          "name": "Hora de ganarte el pasaje, R3",
+          "description": "Consigue «Jedi auténtico» en «Huida de la base Starkiller»"
+        },
+        "tchinese": {
+          "name": "是時候來開路了，R3",
+          "description": "在「逃離弑星者基地」中完成「真正的絕地武士」"
+        }
+      }
+    },
+    "DLC_STARKILLER_TEXTBOOK_LANDING": {
+      "translations": {
+        "arabic": {
+          "name": "هبوط مثالي آخر",
+          "description": "قم بوثبة إيمان للهروب من التنظيم الأول"
+        },
+        "brazilian": {
+          "name": "Outra Cartilha Aterrissando",
+          "description": "Dê um salto arriscado para escapar da Primeira Ordem."
+        },
+        "danish": {
+          "name": "Endnu en landing efter bogen",
+          "description": "Spring ud i det for at undslippe den Første Orden"
+        },
+        "dutch": {
+          "name": "Een landing volgens het boekje",
+          "description": "Maak een sprong in het duister om te ontsnappen aan de First Order"
+        },
+        "english": {
+          "name": "Another Textbook Landing",
+          "description": "Make a leap of faith to escape the First Order"
+        },
+        "french": {
+          "name": "Un autre atterrissage mouvementé",
+          "description": "Faites preuve de confiance pour échapper au Premier Ordre"
+        },
+        "german": {
+          "name": "Wieder mal eine Paradelandung",
+          "description": "Wage einen Sprung ins Ungewisse, um der Ersten Ordnung zu entkommen"
+        },
+        "italian": {
+          "name": "Un altro atterraggio da manuale",
+          "description": "Fai un salto nel vuoto per sfuggire al Primo Ordine"
+        },
+        "polish": {
+          "name": "Kolejne podręcznikowe lądowanie",
+          "description": "Wykonaj skok wiary podczas ucieczki przed Najwyższym Porządkiem."
+        },
+        "russian": {
+          "name": "Еще одна мягкая посадка",
+          "description": "Спастись от Первого Ордена, совершив прыжок наудачу"
+        },
+        "schinese": {
+          "name": "又一次堪称典范的降落",
+          "description": "以“信仰之跃”逃离第一军团"
+        },
+        "spanish": {
+          "name": "Otro aterrizaje de manual",
+          "description": "Haz un salto de fe para escapar de la Primera Orden"
+        },
+        "tchinese": {
+          "name": "又一次堪稱典範的降落",
+          "description": "以「信仰之躍」從第一軍團手中脫逃"
+        }
+      }
+    },
+    "DLC_STARKILLER_CRUSH_THE_FIRST_ORDER": {
+      "translations": {
+        "arabic": {
+          "name": "دمر التنظيم الأول",
+          "description": "خلال معركة البلاستر٬ دمر التنظيم الأول بأي وسائل ممكنة."
+        },
+        "brazilian": {
+          "name": "Esmague a Primeira Ordem",
+          "description": "Durante a batalha de blasters, esmague a Primeira Ordem usando qualquer recurso necessário."
+        },
+        "danish": {
+          "name": "Knus den Første Orden",
+          "description": "Knus den Første Orden med alle tilgængelige midler under blaster-kampen."
+        },
+        "dutch": {
+          "name": "Verpletter de First Order",
+          "description": "Verpletter tijdens het blastergevecht de First Order op willekeurige wijze"
+        },
+        "english": {
+          "name": "Crush The First Order",
+          "description": "During the Blaster Battle, crush the First Order by any means necessary"
+        },
+        "french": {
+          "name": "Écrasez le Premier Ordre",
+          "description": "Durant un combat de blasters, écrasez le Premier Ordre par tous les moyens."
+        },
+        "german": {
+          "name": "Die Erste Ordnung vernichten",
+          "description": "Vernichte die Erste Ordnung während der Blasterschlacht mit allen Mitteln"
+        },
+        "italian": {
+          "name": "Schiaccia il Primo Ordine",
+          "description": "Durante la battaglia con blaster, schiaccia il Primo Ordine con ogni mezzo disponibile"
+        },
+        "polish": {
+          "name": "Porządek z Najwyższym Porządkiem",
+          "description": "Pokonaj Najwyższy Porządek za pomocą wszelkich dostępnych środków podczas bitwy blasterowej."
+        },
+        "russian": {
+          "name": "Разгромить Первый Орден",
+          "description": "В ходе битвы на бластерах разгромить Первый Орден любым способом"
+        },
+        "schinese": {
+          "name": "击溃第一军团",
+          "description": "在爆能枪战中，用一切必要手段击溃第一军团"
+        },
+        "spanish": {
+          "name": "Aplastar a la Primera Orden",
+          "description": "Durante una batalla bláster, aplasta a la Primera Orden de cualquier modo"
+        },
+        "tchinese": {
+          "name": "擊潰第一軍團",
+          "description": "在爆能槍戰中，用任何必要手段擊潰第一軍團"
+        }
+      }
+    }
+  }
+}

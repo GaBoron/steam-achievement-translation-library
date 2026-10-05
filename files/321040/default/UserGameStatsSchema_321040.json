@@ -1,0 +1,1696 @@
+{
+  "version": 1,
+  "app_id": "321040",
+  "variant_id": "default",
+  "source_sha256": "046d10a13182677b5d1a412b031afefcfc80c947c414ca485464ab118e9d952a",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "complete_first_race": {
+      "translations": {
+        "english": {
+          "name": "Into the DiRT",
+          "description": "Complete your first DiRT Tour race"
+        },
+        "french": {
+          "name": "Néophyte",
+          "description": "Terminez votre première course en DiRT Tour"
+        },
+        "german": {
+          "name": "DiRT-Einstieg",
+          "description": "Absolviere dein erstes DiRT-Tour-Rennen."
+        },
+        "italian": {
+          "name": "In DiRT",
+          "description": "Completa la tua prima gara DiRT Tour"
+        },
+        "schinese": {
+          "name": "迈入《尘埃》",
+          "description": "完成你的第一场尘埃巡回赛"
+        },
+        "spanish": {
+          "name": "Entrada en materia",
+          "description": "Completa tu primera carrera del Campeonato DiRT"
+        }
+      }
+    },
+    "driving_school": {
+      "translations": {
+        "english": {
+          "name": "Driving School",
+          "description": "Complete the tutorials in the Gymkhana Academy"
+        },
+        "french": {
+          "name": "Auto-école",
+          "description": "Terminez les didacticiels de la Gymkhana Academy"
+        },
+        "german": {
+          "name": "Fahrschule",
+          "description": "Absolviere die Tutorials in der Gymkhana Academy."
+        },
+        "italian": {
+          "name": "Scuola guida",
+          "description": "Completa i tutorial nella Gymkhana Academy"
+        },
+        "schinese": {
+          "name": "驾驶学校",
+          "description": "完成金卡纳学院的全部教程"
+        },
+        "spanish": {
+          "name": "Autoescuela",
+          "description": "Completa los tutoriales de Gymkhana Academy"
+        }
+      }
+    },
+    "teachers_pet": {
+      "translations": {
+        "english": {
+          "name": "Teacher's Pet",
+          "description": "Achieve a Platinum medal in all of the Gymkhana Academy tutorials"
+        },
+        "french": {
+          "name": "Vie d'étudiant",
+          "description": "Remportez une médaille de platine pour chacun des didacticiels de la Gymkhana Academy"
+        },
+        "german": {
+          "name": "Streber",
+          "description": "Hole in jedem Gymkhana Academy-Tutorial eine Platinmedaille."
+        },
+        "italian": {
+          "name": "Insegnamenti",
+          "description": "Ottieni la medaglia di platino in tutti i tutorial Gymkhana"
+        },
+        "schinese": {
+          "name": "老师的宠儿",
+          "description": "在金卡纳学院所有教程中获得白金奖牌"
+        },
+        "spanish": {
+          "name": "El enchufado",
+          "description": "Consigue una medalla de platino en todos los tutoriales de Gymkhana Academy"
+        }
+      }
+    },
+    "kick_off_the_training_wheels": {
+      "translations": {
+        "english": {
+          "name": "Kick Off the Training Wheels!",
+          "description": "Achieve a podium finish in the Gymkhana Academy"
+        },
+        "french": {
+          "name": "La cour des grands",
+          "description": "Montez sur le podium à la Gymkhana Academy"
+        },
+        "german": {
+          "name": "Weg mit den Stützrädern!",
+          "description": "Hole einen Podiumsplatz in der Gymkhana Academy."
+        },
+        "italian": {
+          "name": "Via le rotelle!",
+          "description": "Conquista un podio nella Gymkhana Academy"
+        },
+        "schinese": {
+          "name": "拆掉辅助轮！",
+          "description": "在金卡纳学院站上领奖台"
+        },
+        "spanish": {
+          "name": "¡Entrenamiento en bólido!",
+          "description": "Sube al podio en Gymkhana Academy"
+        }
+      }
+    },
+    "reputation_boost": {
+      "translations": {
+        "english": {
+          "name": "Reputation Boost",
+          "description": "Complete 5 bonus Race Objectives"
+        },
+        "french": {
+          "name": "Réputation en hausse",
+          "description": "Réussissez 5 objectifs bonus de course"
+        },
+        "german": {
+          "name": "Guter Ruf",
+          "description": "Absolviere 5 Bonus-Rennziele."
+        },
+        "italian": {
+          "name": "Celebrità",
+          "description": "Completa 5 obiettivi gara bonus"
+        },
+        "schinese": {
+          "name": "荣誉提升",
+          "description": "完成5次额外竞速目标"
+        },
+        "spanish": {
+          "name": "Empujón de reputación",
+          "description": "Completa 5 objetivos extra de carrera"
+        }
+      }
+    },
+    "the_extra_mile": {
+      "translations": {
+        "english": {
+          "name": "The Extra Mile",
+          "description": "Complete 25 bonus Race Objectives"
+        },
+        "french": {
+          "name": "Décrocheur de bonus",
+          "description": "Réussissez 25 objectifs bonus de course"
+        },
+        "german": {
+          "name": "Überstunden",
+          "description": "Absolviere 25 Bonus-Rennziele."
+        },
+        "italian": {
+          "name": "Un altro po'",
+          "description": "Completa 25 obiettivi gara bonus"
+        },
+        "schinese": {
+          "name": "更进一步",
+          "description": "完成25次额外竞速目标"
+        },
+        "spanish": {
+          "name": "El kilómetro de la diferencia",
+          "description": "Completa 25 objetivos extra de carrera"
+        }
+      }
+    },
+    "death_proofed": {
+      "translations": {
+        "english": {
+          "name": "Crash Proof",
+          "description": "Use a flashback in the DiRT Tour after receiving terminal damage and then go on to win the race"
+        },
+        "french": {
+          "name": "Accident évité",
+          "description": "Utilisez un flashback en DiRT Tour après avoir subi des dégâts extrêmes, puis décrochez la victoire"
+        },
+        "german": {
+          "name": "Stoßfest",
+          "description": "Nutze in der DiRT-Tour nach einem Totalschaden eine Rückblende und gewinne das Rennen noch."
+        },
+        "italian": {
+          "name": "A prova di tutto",
+          "description": "Vinci dopo aver usato un flashback quando la vettura era distrutta"
+        },
+        "schinese": {
+          "name": "化险为夷",
+          "description": "在尘埃巡回赛中，车辆严重损毁后使用一次闪回并赢得比赛"
+        },
+        "spanish": {
+          "name": "A prueba de accidentes",
+          "description": "Usa un flashback en el Campeonato DiRT tras sufrir daños irreparables y luego gana la carrera"
+        }
+      }
+    },
+    "call_me_ace": {
+      "translations": {
+        "english": {
+          "name": "Call me Ace!",
+          "description": "Ace all trick types in a Gymkhana Championship event"
+        },
+        "french": {
+          "name": "As des as",
+          "description": "Réussissez tous les types de figure dans une épreuve de championnat Gymkhana"
+        },
+        "german": {
+          "name": "Spitzensportler",
+          "description": "Zeige in einem Gymkhana Championship-Event sämtliche Arten von Tricks."
+        },
+        "italian": {
+          "name": "Chiamami asso!",
+          "description": "Ottieni il massimo in tutti i tipi di acrobazia in un evento del campionato Gymkhana"
+        },
+        "schinese": {
+          "name": "叫我王牌！",
+          "description": "在金卡纳锦标赛中，所有技巧类型均获得王牌评价"
+        },
+        "spanish": {
+          "name": "¡Soy un as!",
+          "description": "Clava todos los tipos de trucos en una prueba del Gymkhana Championship"
+        }
+      }
+    },
+    "todays_forecast_is_victory": {
+      "translations": {
+        "english": {
+          "name": "Today's Forecast is...Victory!",
+          "description": "Win a race in all weather conditions"
+        },
+        "french": {
+          "name": "Bulletin météo",
+          "description": "Décrochez la victoire dans toutes les conditions météorologiques"
+        },
+        "german": {
+          "name": "Die weiteren Aussichten: Sieg!",
+          "description": "Gewinne bei jedem Wetter ein Rennen."
+        },
+        "italian": {
+          "name": "Previsione per oggi... vittoria!",
+          "description": "Vinci in ogni tipo di condizione atmosferica"
+        },
+        "schinese": {
+          "name": "今天的天气预报是……胜利！",
+          "description": "在所有天气状况下各赢得一场比赛"
+        },
+        "spanish": {
+          "name": "La previsión es... ¡Victoria!",
+          "description": "Gana una carrera en todos los tipos de condiciones climáticas"
+        }
+      }
+    },
+    "bad_aids": {
+      "translations": {
+        "english": {
+          "name": "Assistance is Futile",
+          "description": "Win a DiRT Tour race without using any driver assists"
+        },
+        "french": {
+          "name": "Toute assistance est futile",
+          "description": "Gagnez une course en DiRT Tour sans utiliser aucune assistance au pilotage"
+        },
+        "german": {
+          "name": "Hilfe ist zwecklos",
+          "description": "Gewinne ein DiRT-Tour-Rennen ohne Fahrhilfen."
+        },
+        "italian": {
+          "name": "Non ho bisogno d'aiuto",
+          "description": "Vinci una gara DiRT Tour senza usare gli aiuti alla guida"
+        },
+        "schinese": {
+          "name": "辅助是无效的",
+          "description": "在不使用任何驾驶辅助的情况下，赢得一场尘埃巡回赛"
+        },
+        "spanish": {
+          "name": "La asistencia es inútil",
+          "description": "Gana una carrera del Campeonato DiRT sin ayudas a la conducción"
+        }
+      }
+    },
+    "driven": {
+      "translations": {
+        "english": {
+          "name": "Driven",
+          "description": "Win DiRT Tour races using vehicles from each discipline"
+        },
+        "french": {
+          "name": "Éclectique",
+          "description": "Remportez des courses du DiRT Tour en utilisant des véhicules de toutes les disciplines"
+        },
+        "german": {
+          "name": "Besessen",
+          "description": "Gewinne mit Wagen aus jeder Disziplin ein DiRT-Tour-Rennen."
+        },
+        "italian": {
+          "name": "Determinazione",
+          "description": "Vinci gare del DiRT Tour usando vetture di ogni disciplina"
+        },
+        "schinese": {
+          "name": "驭车有道",
+          "description": "使用各类型车辆赢得尘埃巡回赛"
+        },
+        "spanish": {
+          "name": "Motivado",
+          "description": "Gana carreras del Campeonato DiRT con vehículos de todas las disciplinas"
+        }
+      }
+    },
+    "pace_setter": {
+      "translations": {
+        "english": {
+          "name": "Pace Setter",
+          "description": "Complete a Time Trial race in a vehicle from each class of Rally"
+        },
+        "french": {
+          "name": "À fond la caisse",
+          "description": "Terminez une course en Contre-la-montre avec une voiture de chacune des classes de rallye"
+        },
+        "german": {
+          "name": "Schrittmacher",
+          "description": "Absolviere mit Wagen aus allen Rallye-Klassen ein Zeitfahren."
+        },
+        "italian": {
+          "name": "Ritmo giusto",
+          "description": "Completa dei time trial usando vetture di tutte le classi Rally"
+        },
+        "schinese": {
+          "name": "领跑者",
+          "description": "使用各级别拉力赛车完成计时赛"
+        },
+        "spanish": {
+          "name": "Marcapaso",
+          "description": "Completa una carrera contrarreloj con un vehículo de cada clase de rally"
+        }
+      }
+    },
+    "air_miles": {
+      "translations": {
+        "english": {
+          "name": "Air Miles",
+          "description": "Win a race in every location"
+        },
+        "french": {
+          "name": "Voyageur",
+          "description": "Gagnez une course dans chacune des localités"
+        },
+        "german": {
+          "name": "Flugmeilen",
+          "description": "Gewinne an jedem Schauplatz ein Rennen."
+        },
+        "italian": {
+          "name": "Miglia aeree",
+          "description": "Vinci almeno una gara in ogni località"
+        },
+        "schinese": {
+          "name": "飞行里程",
+          "description": "在所有地点各赢得一场比赛"
+        },
+        "spanish": {
+          "name": "Millas aéreas",
+          "description": "Gana una carrera en cada ubicación"
+        }
+      }
+    },
+    "self_preservation_society": {
+      "translations": {
+        "english": {
+          "name": "Self Preservation Society",
+          "description": "Win a DiRT Tour race in the Mini Cooper without receiving any damage"
+        },
+        "french": {
+          "name": "Sans entretien",
+          "description": "Remportez une course de DiRT Tour avec la Mini Cooper sans l'endommager"
+        },
+        "german": {
+          "name": "Selbsterhaltungstrieb",
+          "description": "Gewinne im Mini Cooper ein DiRT-Tour-Rennen ohne jeden Schaden."
+        },
+        "italian": {
+          "name": "Società autopreservazione",
+          "description": "Vinci una gara usando la Mini Cooper senza aver subito alcun danno"
+        },
+        "schinese": {
+          "name": "自保协会",
+          "description": "驾驶Mini Cooper无伤赢得一场尘埃巡回赛"
+        },
+        "spanish": {
+          "name": "Sociedad de Autoconservación",
+          "description": "Gana una carrera del Campeonato DiRT con el Mini Cooper sin sufrir daños"
+        }
+      }
+    },
+    "the_real_thing": {
+      "translations": {
+        "english": {
+          "name": "The Real Thing",
+          "description": "Win a Rally race in the DiRT Tour using the interior camera and the HUD switched off"
+        },
+        "french": {
+          "name": "Vrai de vrai",
+          "description": "Remportez une course de rallye en DiRT Tour en utilisant la caméra intérieure et sans ATH"
+        },
+        "german": {
+          "name": "Das einzig Wahre",
+          "description": "Gewinne eine Rallye in der DiRT-Tour aus der Cockpit-Perspektive und mit deaktiviertem HUD."
+        },
+        "italian": {
+          "name": "Non si scherza",
+          "description": "Vinci un rally nel DiRT Tour usando la visuale interna con HUD spento"
+        },
+        "schinese": {
+          "name": "真本事",
+          "description": "在尘埃巡回赛中使用驾驶室视角并关闭抬头显示，赢得一场拉力赛"
+        },
+        "spanish": {
+          "name": "Genuino",
+          "description": "Gana una carrera de rally en el Campeonato DiRT sin la cámara interior ni el HUD"
+        }
+      }
+    },
+    "california_dreams": {
+      "translations": {
+        "english": {
+          "name": "California Dreams",
+          "description": "Achieve a podium finish in the X Games Tournament"
+        },
+        "french": {
+          "name": "Le rêve californien",
+          "description": "Montez sur le podium au tournoi X Games"
+        },
+        "german": {
+          "name": "Traum von Kalifornien",
+          "description": "Hole einen Podiumsplatz im X Games-Turnier."
+        },
+        "italian": {
+          "name": "Sogni californiani",
+          "description": "Conquista un podio nel torneo X Games"
+        },
+        "schinese": {
+          "name": "加州梦",
+          "description": "在X Games 极限锦标赛中站上领奖台"
+        },
+        "spanish": {
+          "name": "Sueños de California",
+          "description": "Alcanza el podio en el torneo X Games"
+        }
+      }
+    },
+    "sub_zero_hero": {
+      "translations": {
+        "english": {
+          "name": "Sub Zero Hero",
+          "description": "Achieve a podium finish in the Winter X Games Tournament"
+        },
+        "french": {
+          "name": "Héros sous zéro",
+          "description": "Vous êtes monté sur le podium au tournoi des Winter X Games"
+        },
+        "german": {
+          "name": "Eiskalter Held",
+          "description": "Hole einen Podiumsplatz im Winter X Games-Turnier."
+        },
+        "italian": {
+          "name": "Eroe sottozero",
+          "description": "Conquista un podio nel torneo Winter X Games"
+        },
+        "schinese": {
+          "name": "零度英雄",
+          "description": "在冬季X Games 极限锦标赛中站上领奖台"
+        },
+        "spanish": {
+          "name": "Héroe bajo cero",
+          "description": "Alcanza el podio en el torneo Winter X Games"
+        }
+      }
+    },
+    "rally_evolution": {
+      "translations": {
+        "english": {
+          "name": "Rally Evolution",
+          "description": "Win a DiRT Tour race in a Rally car from each decade"
+        },
+        "french": {
+          "name": "Évolution",
+          "description": "Remportez la victoire en DiRT Tour avec une voiture de rallye de chaque décennie"
+        },
+        "german": {
+          "name": "Rallye-Historie",
+          "description": "Gewinne mit Rallye-Wagen aus jedem Jahrzehnt ein DiRT-Tour-Rennen."
+        },
+        "italian": {
+          "name": "Evoluzione dei rally",
+          "description": "Vinci delle gare DiRT Tour con vetture da rally di ogni decennio"
+        },
+        "schinese": {
+          "name": "拉力进化",
+          "description": "使用各个年代的拉力赛车赢得尘埃巡回赛"
+        },
+        "spanish": {
+          "name": "Evolución del rally",
+          "description": "Gana una carrera del Campeonato DiRT con un coche de rally de cada década"
+        }
+      }
+    },
+    "rising_talent": {
+      "translations": {
+        "english": {
+          "name": "Rising Talent",
+          "description": "Reach Driver Rep Level 10"
+        },
+        "french": {
+          "name": "Talent prometteur",
+          "description": "Obtenez le niveau 10 en réputation de pilote"
+        },
+        "german": {
+          "name": "Aufstrebendes Talent",
+          "description": "Erreiche Fahrerruf-Level 10."
+        },
+        "italian": {
+          "name": "Talento crescente",
+          "description": "Raggiungi il livello Reputazione Pilota 10"
+        },
+        "schinese": {
+          "name": "新星崛起",
+          "description": "车手声望达到10级"
+        },
+        "spanish": {
+          "name": "Piloto revelación",
+          "description": "Alcanza el nivel de reputación 10"
+        }
+      }
+    },
+    "shake_and_bake": {
+      "translations": {
+        "english": {
+          "name": "Shake and Bake",
+          "description": "Reach Driver Rep Level 20"
+        },
+        "french": {
+          "name": "Talent confirmé",
+          "description": "Obtenez le niveau 20 en réputation de pilote"
+        },
+        "german": {
+          "name": "In aller Munde",
+          "description": "Erreiche Fahrerruf-Level 20."
+        },
+        "italian": {
+          "name": "Vai così!",
+          "description": "Raggiungi il livello Reputazione Pilota 20"
+        },
+        "schinese": {
+          "name": "抖擞上阵",
+          "description": "车手声望达到20级"
+        },
+        "spanish": {
+          "name": "Os veré en la meta",
+          "description": "Alcanza el nivel de reputación 20"
+        }
+      }
+    },
+    "eat_my_dirt": {
+      "translations": {
+        "english": {
+          "name": "Eat my DiRT!",
+          "description": "Reach Driver Rep Level 30"
+        },
+        "french": {
+          "name": "Célébrité !",
+          "description": "Obtenez le niveau 30 en réputation de pilote"
+        },
+        "german": {
+          "name": "Friss meinen Staub!",
+          "description": "Erreiche Fahrerruf-Level 30."
+        },
+        "italian": {
+          "name": "Mangia la mia polvere!",
+          "description": "Raggiungi il livello Reputazione Pilota 30"
+        },
+        "schinese": {
+          "name": "吃灰吧！",
+          "description": "车手声望达到30级"
+        },
+        "spanish": {
+          "name": "¡Morded el polvo!",
+          "description": "Alcanza el nivel de reputación 30"
+        }
+      }
+    },
+    "world_renowned": {
+      "translations": {
+        "english": {
+          "name": "World Renowned",
+          "description": "Achieve first place finishes and pass the DC Challenge in a World Tour event"
+        },
+        "french": {
+          "name": "Renommée mondiale",
+          "description": "Gagnez les courses et remportez le Défi DC dans un événement du World Tour"
+        },
+        "german": {
+          "name": "Fahrer von Welt",
+          "description": "Erreiche in allen Rennen eines World-Tour-Events den ersten Platz und meistere dessen DC-Event."
+        },
+        "italian": {
+          "name": "Fama mondiale",
+          "description": "Vinci le gare e supera la Sfida DC in un evento World Tour"
+        },
+        "schinese": {
+          "name": "享誉世界",
+          "description": "在世界巡回赛中以第一完赛并完成DC挑战"
+        },
+        "spanish": {
+          "name": "Renombre mundial",
+          "description": "Gana las carreras y supera el desafío DC de una prueba World Tour"
+        }
+      }
+    },
+    "gymkhana_afficianado": {
+      "translations": {
+        "english": {
+          "name": "Gymkhana Aficionado",
+          "description": "Complete all Gymkhana Championships"
+        },
+        "french": {
+          "name": "Roi du gymkhana",
+          "description": "Terminez tous les championnats de Gymkhana"
+        },
+        "german": {
+          "name": "Gymkhana-Liebhaber",
+          "description": "Absolviere alle Gymkhana Championships."
+        },
+        "italian": {
+          "name": "Appassionato di Gymkhana",
+          "description": "Completa tutti i campionati Gymkhana nel DiRT Tour"
+        },
+        "schinese": {
+          "name": "金卡纳狂热者",
+          "description": "完成所有金卡纳锦标赛"
+        },
+        "spanish": {
+          "name": "Aficionado a la gymkhana",
+          "description": "Completa todos los Gymkhana Championships"
+        }
+      }
+    },
+    "super_series_champion": {
+      "translations": {
+        "english": {
+          "name": "SuperSeries Champion",
+          "description": "Win the DC SuperSeries Championship"
+        },
+        "french": {
+          "name": "Champion des SuperSeries",
+          "description": "Remportez le championnat DC SuperSeries"
+        },
+        "german": {
+          "name": "SuperSeries-Champion",
+          "description": "Gewinne die DC SuperSeries Championship."
+        },
+        "italian": {
+          "name": "Campione SuperSeries",
+          "description": "Vinci il DC SuperSeries Championship"
+        },
+        "schinese": {
+          "name": "超级系列赛冠军",
+          "description": "赢得DC超级系列赛冠军"
+        },
+        "spanish": {
+          "name": "Campeón de las SuperSeries",
+          "description": "Gana el DC SuperSeries Championship"
+        }
+      }
+    },
+    "from_dirt_to_glory": {
+      "translations": {
+        "english": {
+          "name": "From DiRT to Glory",
+          "description": "Achieve first place finishes in all DiRT Tour events"
+        },
+        "french": {
+          "name": "Glorieux triomphe",
+          "description": "Obtenez la première place pour toutes les épreuves de DiRT Tour"
+        },
+        "german": {
+          "name": "Ruhmreich in DiRT",
+          "description": "Erreiche in allen DiRT-Tour-Events den ersten Platz."
+        },
+        "italian": {
+          "name": "Glorioso DiRT",
+          "description": "Ottieni vittorie in tutti gli eventi del DiRT Tour"
+        },
+        "schinese": {
+          "name": "从《尘埃》走向荣耀",
+          "description": "在所有尘埃巡回赛中获得第一名"
+        },
+        "spanish": {
+          "name": "Del polvo a la gloria",
+          "description": "Alcanza primeras posiciones en todas las pruebas del Campeonato DiRT"
+        }
+      }
+    },
+    "millionaire_trickster": {
+      "translations": {
+        "english": {
+          "name": "Gym-Carnage",
+          "description": "Score 500,000 Points in a Gymkhana Event"
+        },
+        "french": {
+          "name": "Gym-carnage",
+          "description": "Marquez 500 000 points dans une épreuve de Gymkhana"
+        },
+        "german": {
+          "name": "Gymgis Khan",
+          "description": "Erziele 500.000 Punkte in einem Gymkhana-Event."
+        },
+        "italian": {
+          "name": "Gymcarnaio",
+          "description": "Ottieni 500.000 punti in un evento Gymkhana"
+        },
+        "schinese": {
+          "name": "金卡纳极速狂欢",
+          "description": "在金卡纳赛事中单场获得500,000分"
+        },
+        "spanish": {
+          "name": "Gymcarnicería",
+          "description": "Consigue 500.000 puntos en una prueba de gymkhana"
+        }
+      }
+    },
+    "cool_running": {
+      "translations": {
+        "english": {
+          "name": "Cool Running",
+          "description": "Beat the Bobsleigh in the Norway Speed Run DC Challenge"
+        },
+        "french": {
+          "name": "Glissade",
+          "description": "Battez le bobsleigh lors du Défi DC Norway Speed Run"
+        },
+        "german": {
+          "name": "Eiskanal",
+          "description": "Besiege den Bob im Speedrun DC-Event in Norwegen."
+        },
+        "italian": {
+          "name": "Al fresco",
+          "description": "Batti la slitta nella Norway Speed Run DC Challenge"
+        },
+        "schinese": {
+          "name": "冰上飞驰",
+          "description": "在挪威速度赛DC挑战中击败雪橇"
+        },
+        "spanish": {
+          "name": "Trineo fugaz",
+          "description": "Gana al trineo de bobsleigh en el desafío DC Norway Speed Run"
+        }
+      }
+    },
+    "gym_carnage": {
+      "translations": {
+        "english": {
+          "name": "No-bot Wars",
+          "description": "Smash every robot in a Smash Attack DC Challenge"
+        },
+        "french": {
+          "name": "Mort aux robots",
+          "description": "Détruisez tous les robots en Défi DC Smash Attack"
+        },
+        "german": {
+          "name": "Nobotwars",
+          "description": "Zerstöre in einem Smash Attack DC-Event jeden Roboter."
+        },
+        "italian": {
+          "name": "Guerre no-bot",
+          "description": "Distruggi tutti i robot nella sfida DC Smash Attack"
+        },
+        "schinese": {
+          "name": "扫荡机器人",
+          "description": "在粉碎攻击DC挑战中摧毁所有机器人"
+        },
+        "spanish": {
+          "name": "La Guerra de los No-bots",
+          "description": "Golpea a todos los robots en el desafío DC Smash Attack"
+        }
+      }
+    },
+    "perfect_sprint": {
+      "translations": {
+        "english": {
+          "name": "Perfect Sprint",
+          "description": "Complete a clean run in a Gymkhana Sprint DC Challenge"
+        },
+        "french": {
+          "name": "Sprint parfait",
+          "description": "Réussissez une performance impeccable en Défi DC Gymkhana Sprint"
+        },
+        "german": {
+          "name": "Perfekter Sprint",
+          "description": "Zeige in einem Gymkhana-Sprint DC-Event einen fehlerfreien Lauf."
+        },
+        "italian": {
+          "name": "Scatto perfetto",
+          "description": "Effettua una prestazione perfetta nella sfida DC Gymkhana Sprint"
+        },
+        "schinese": {
+          "name": "完美冲刺",
+          "description": "在金卡纳冲刺DC挑战中无失误完成比赛"
+        },
+        "spanish": {
+          "name": "Sprint perfecto",
+          "description": "Completa una carrera limpia en un desafío DC Gymkhana Sprint"
+        }
+      }
+    },
+    "drifter": {
+      "translations": {
+        "english": {
+          "name": "Showcase Drifter",
+          "description": "Score 25,000 drift points in a Drift Showcase DC Challenge"
+        },
+        "french": {
+          "name": "Roi du drift",
+          "description": "Marquez plus de 25 000 points en Défi DC Drift Showcase"
+        },
+        "german": {
+          "name": "Der Drift deines Lebens",
+          "description": "Hole in einem Drift-Demo DC-Event über 25.000 Drift-Punkte."
+        },
+        "italian": {
+          "name": "Derapate",
+          "description": "Metti a segno 25.000 punti nella sfida DC Drift Showcase"
+        },
+        "schinese": {
+          "name": "漂移达人",
+          "description": "在漂移表演DC挑战中获得25,000漂移分"
+        },
+        "spanish": {
+          "name": "Derrapes de exhibición",
+          "description": "Consigue 25.000 puntos por derrapes en un desafío DC Drift Showcase"
+        }
+      }
+    },
+    "dc_challenger": {
+      "translations": {
+        "english": {
+          "name": "DC Challenger",
+          "description": "Complete all of the DC Challenges"
+        },
+        "french": {
+          "name": "Challenger DC",
+          "description": "Terminez tous les Défis DC"
+        },
+        "german": {
+          "name": "DC-Abräumer",
+          "description": "Absolviere alle DC-Events."
+        },
+        "italian": {
+          "name": "Sfidante DC",
+          "description": "Completa tutte le Sfide DC"
+        },
+        "schinese": {
+          "name": "DC挑战者",
+          "description": "完成所有DC挑战"
+        },
+        "spanish": {
+          "name": "Aspirante DC",
+          "description": "Completa todos los desafíos DC"
+        }
+      }
+    },
+    "dc_silver": {
+      "translations": {
+        "english": {
+          "name": "DC Silver",
+          "description": "Achieve Silver medals in all of the DC Challenges"
+        },
+        "french": {
+          "name": "Argent DC",
+          "description": "Remportez toutes les médailles d'argent en Défi DC"
+        },
+        "german": {
+          "name": "DC-Silber",
+          "description": "Hole in allen DC-Events die Silbermedaille."
+        },
+        "italian": {
+          "name": "Argento DC",
+          "description": "Conquista tutte le medaglie d'argento nelle Sfide DC"
+        },
+        "schinese": {
+          "name": "DC银牌",
+          "description": "在所有DC挑战中获得银牌"
+        },
+        "spanish": {
+          "name": "Plata DC",
+          "description": "Consigue medallas de plata en todos los desafíos DC"
+        }
+      }
+    },
+    "dc_gold": {
+      "translations": {
+        "english": {
+          "name": "DC Gold",
+          "description": "Achieve Gold medals in all of the DC Challenges"
+        },
+        "french": {
+          "name": "Or DC",
+          "description": "Remportez toutes les médailles d'or en Défi DC"
+        },
+        "german": {
+          "name": "DC-Gold",
+          "description": "Hole in allen DC-Events die Goldmedaille."
+        },
+        "italian": {
+          "name": "Oro DC",
+          "description": "Conquista tutte le medaglie d'oro nelle Sfide DC"
+        },
+        "schinese": {
+          "name": "DC金牌",
+          "description": "在所有DC挑战中获得金牌"
+        },
+        "spanish": {
+          "name": "Oro DC",
+          "description": "Consigue medallas de oro en todos los desafíos DC"
+        }
+      }
+    },
+    "platinum_performance": {
+      "translations": {
+        "english": {
+          "name": "Platinum Performance",
+          "description": "Achieve Platinum medals in all of the DC Challenges"
+        },
+        "french": {
+          "name": "Performance de platine",
+          "description": "Remportez toutes les médailles de platine en Défi DC"
+        },
+        "german": {
+          "name": "Platin-Performance",
+          "description": "Hole in allen DC-Events die Platinmedaille."
+        },
+        "italian": {
+          "name": "Prestazione da incorniciare",
+          "description": "Conquista tutte le medaglie di platino nelle Sfide DC"
+        },
+        "schinese": {
+          "name": "白金表现",
+          "description": "在所有DC挑战中获得白金奖牌"
+        },
+        "spanish": {
+          "name": "Rendimiento de platino",
+          "description": "Consigue medallas de platino en todos los desafíos DC"
+        }
+      }
+    },
+    "hooning_around": {
+      "translations": {
+        "english": {
+          "name": "Hooning Around",
+          "description": "Complete 25% of the Battersea Compound Missions"
+        },
+        "french": {
+          "name": "À fond les manettes",
+          "description": "Terminez 25% des missions du Battersea Compound"
+        },
+        "german": {
+          "name": "Gelegenheits-Rowdy",
+          "description": "Absolviere 25 % der Battersea Compound-Missionen."
+        },
+        "italian": {
+          "name": "Gita domenicale",
+          "description": "Completa il 25% delle missioni Battersea Compound"
+        },
+        "schinese": {
+          "name": "巴特西初探",
+          "description": "完成25%的巴特西综合区任务"
+        },
+        "spanish": {
+          "name": "Desfasando un poco",
+          "description": "Completa el 25% de las misiones de Battersea Compound"
+        }
+      }
+    },
+    "donut_addict": {
+      "translations": {
+        "english": {
+          "name": "Donut Addict",
+          "description": "Complete 50% of the Battersea Compound Missions"
+        },
+        "french": {
+          "name": "Accro aux donuts",
+          "description": "Terminez 50% des missions du Battersea Compound"
+        },
+        "german": {
+          "name": "Donut-Junkie",
+          "description": "Absolviere 50 % der Battersea Compound-Missionen."
+        },
+        "italian": {
+          "name": "Acrobata",
+          "description": "Completa il 50% delle missioni Battersea Compound"
+        },
+        "schinese": {
+          "name": "甩尾成瘾",
+          "description": "完成50%的巴特西综合区任务"
+        },
+        "spanish": {
+          "name": "Adicto a los donuts",
+          "description": "Completa el 50% de las misiones de Battersea Compound"
+        }
+      }
+    },
+    "burnt_rubber": {
+      "translations": {
+        "english": {
+          "name": "Burnt Rubber",
+          "description": "Complete 75% of the Battersea Compound Missions"
+        },
+        "french": {
+          "name": "Gomme brûlée",
+          "description": "Terminez 75% des missions du Battersea Compound"
+        },
+        "german": {
+          "name": "Verbranntes Gummi",
+          "description": "Absolviere 75 % der Battersea Compound-Missionen."
+        },
+        "italian": {
+          "name": "Gomme bruciate",
+          "description": "Completa il 75% delle missioni Battersea Compound"
+        },
+        "schinese": {
+          "name": "烧胎狂人",
+          "description": "完成75%的巴特西综合区任务"
+        },
+        "spanish": {
+          "name": "Goma quemada",
+          "description": "Completa el 75% de las misiones de Battersea Compound"
+        }
+      }
+    },
+    "battered_battersea": {
+      "translations": {
+        "english": {
+          "name": "Battered Battersea",
+          "description": "Complete 100% of the Battersea Compound Missions"
+        },
+        "french": {
+          "name": "Roi de Battersea",
+          "description": "Terminez 100% des missions du Battersea Compound"
+        },
+        "german": {
+          "name": "Schlacht von Battersea",
+          "description": "Absolviere 100 % der Battersea Compound-Missionen."
+        },
+        "italian": {
+          "name": "A tutta Battersea",
+          "description": "Completa il 100% delle missioni Battersea Compound"
+        },
+        "schinese": {
+          "name": "踏平巴特西",
+          "description": "完成100%的巴特西综合区任务"
+        },
+        "spanish": {
+          "name": "Battersea apaleado",
+          "description": "Completa el 100% de las misiones de Battersea Compound"
+        }
+      }
+    },
+    "road_trip": {
+      "translations": {
+        "english": {
+          "name": "Road Trip",
+          "description": "Complete a Joyride online with at least 3 other players"
+        },
+        "french": {
+          "name": "Petite balade",
+          "description": "Terminez une épreuve de Joyride avec au moins trois autres joueurs"
+        },
+        "german": {
+          "name": "Ausflug",
+          "description": "Absolviere einen Online-Joyride mit mindestens 3 anderen Spielern."
+        },
+        "italian": {
+          "name": "Viaggio in auto",
+          "description": "Completa un Joyride con almeno 3 giocatori"
+        },
+        "schinese": {
+          "name": "公路旅行",
+          "description": "在线与至少3名玩家一同完成1次自由驾驶模式"
+        },
+        "spanish": {
+          "name": "Viaje por carretera",
+          "description": "Completa una misión Joyride online con al menos 3 jugadores más"
+        }
+      }
+    },
+    "the_professional": {
+      "translations": {
+        "english": {
+          "name": "The Professional",
+          "description": "Complete your first Pro Tour race on Steam"
+        },
+        "french": {
+          "name": "Le professionnel",
+          "description": "Terminez votre première course en Pro Tour Steam"
+        },
+        "german": {
+          "name": "Der Profi",
+          "description": "Absolviere dein erstes Pro-Tour-Rennen auf Steam."
+        },
+        "italian": {
+          "name": "Il professionista",
+          "description": "Completa la tua prima gara Pro Tour su Steam"
+        },
+        "schinese": {
+          "name": "专业人士",
+          "description": "在线完成首场职业巡回赛"
+        },
+        "spanish": {
+          "name": "El profesional",
+          "description": "Completa tu primera carrera del Campeonato pro. en Steam"
+        }
+      }
+    },
+    "taking_the_trophy": {
+      "translations": {
+        "english": {
+          "name": "Taking the Trophy",
+          "description": "Win 10 Steam games (Pro Tour or Jam Session)"
+        },
+        "french": {
+          "name": "Trophée de chasse",
+          "description": "Remportez 10 parties Steam (en Pro Tour ou en Jam session)"
+        },
+        "german": {
+          "name": "Trophäensammler",
+          "description": "Gewinne 10 Steam-Spiele (entweder Pro Tour oder Jam-Session)."
+        },
+        "italian": {
+          "name": "Prendi il trofeo",
+          "description": "Vinci 10 partite Steam (Pro Tour o Jam Session)"
+        },
+        "schinese": {
+          "name": "领奖杯",
+          "description": "在线赢得10场比赛（职业巡回赛或派对即兴模式）"
+        },
+        "spanish": {
+          "name": "El trofeo a cuestas",
+          "description": "Gana 10 partidas en Steam (en Campeonato pro. o Jam Session)"
+        }
+      }
+    },
+    "the_road_ahead": {
+      "translations": {
+        "english": {
+          "name": "The Road Ahead",
+          "description": "Complete 25 Steam games (Pro Tour or Jam Session)"
+        },
+        "french": {
+          "name": "Le chemin à parcourir",
+          "description": "Complétez 25 parties Steam (en Pro Tour ou Jam session)"
+        },
+        "german": {
+          "name": "Der Weg ist das Ziel",
+          "description": "Absolviere 25 Steam-Spiele (entweder Pro-Tour oder Jam-Session)."
+        },
+        "italian": {
+          "name": "La strada che ci aspetta",
+          "description": "Completa 25 partite Steam (Pro Tour o Jam Session)"
+        },
+        "schinese": {
+          "name": "前方的路",
+          "description": "在线完成25场比赛（职业巡回赛或派对即兴模式）"
+        },
+        "spanish": {
+          "name": "La carretera por delante",
+          "description": "Completa 25 partidas en Steam (en Campeonato pro. o Jam Session)"
+        }
+      }
+    },
+    "honourable_driver": {
+      "translations": {
+        "english": {
+          "name": "Honourable Driver",
+          "description": "Complete a Steam multiplayer race with a ‘Cautious’ rating"
+        },
+        "french": {
+          "name": "Circonspection",
+          "description": "Terminez une course multijoueur sur Steam et obtenez un échelon "
+        },
+        "german": {
+          "name": "Ehrenhafter Fahrer",
+          "description": "Absolviere ein Multiplayer-Rennen auf Steam mit der Kollisionsrate „Umsicht“."
+        },
+        "italian": {
+          "name": "Pilota d'onore",
+          "description": "Partecipa a una gara multigiocatore su Steam guidando in modo sicuro"
+        },
+        "schinese": {
+          "name": "受人尊敬的车手",
+          "description": "在线完成一场多人比赛并获得“谨慎”评价"
+        },
+        "spanish": {
+          "name": "Piloto honorable",
+          "description": "Termina una carrera multijugador en Steam con calificación de "
+        }
+      }
+    },
+    "steer_hunter": {
+      "translations": {
+        "english": {
+          "name": "Steer Hunter",
+          "description": "Complete a game of Invasion without any negative points (Pro Tour)"
+        },
+        "french": {
+          "name": "Hache-robot",
+          "description": "Terminez une partie d'Invasion sans aucun point négatif (Pro Tour)"
+        },
+        "german": {
+          "name": "Blechjäger",
+          "description": "Absolviere ein „Invasion“-Spiel ohne Punktabzug (Pro-Tour)."
+        },
+        "italian": {
+          "name": "Cacciatore del volante",
+          "description": "Completa una partita a Invasion evitando punti negativi (Pro Tour)"
+        },
+        "schinese": {
+          "name": "精准猎手",
+          "description": "在线完成一场无扣分的入侵模式比赛（职业巡回赛）"
+        },
+        "spanish": {
+          "name": "Dirección dominada",
+          "description": "Completa una partida de Invasion sin puntos negativos (Campeonato pro.)"
+        }
+      }
+    },
+    "cant_touch_this": {
+      "translations": {
+        "english": {
+          "name": "Can't Touch This!",
+          "description": "Remain uninfected in a round of Outbreak (Pro Tour or Jam Session)"
+        },
+        "french": {
+          "name": "Immunisé",
+          "description": "Survivez à une manche du mode Outbreak sans vous faire infecter (en Pro Tour ou Jam session)"
+        },
+        "german": {
+          "name": "Unantastbar",
+          "description": "Bleibe in einer „Outbreak“-Runde ohne Infektion (entweder Pro-Tour oder Jam-Session)."
+        },
+        "italian": {
+          "name": "Niente da fare!",
+          "description": "Sopravvivi a una fase di Outbreak evitando il contagio (Pro Tour o Jam Session)"
+        },
+        "schinese": {
+          "name": "别想碰我！",
+          "description": "在一轮爆发模式中未被感染（职业巡回赛或派对即兴模式）"
+        },
+        "spanish": {
+          "name": "¡Se mira, pero no se toca!",
+          "description": "Que no te infecten en una ronda de Outbreak (en Campeonato pro. o Jam Session)"
+        }
+      }
+    },
+    "cheeze_it": {
+      "translations": {
+        "english": {
+          "name": "Cheeze It!",
+          "description": "Be the mouse in a Cat n Mouse game where your team has gone on to win the game (Jam Session)"
+        },
+        "french": {
+          "name": "Chat échaudé",
+          "description": "Gagnez une partie de Cat ’n’ Mouse avec votre équipe en étant la souris (Jam Session)"
+        },
+        "german": {
+          "name": "Katzenjammer",
+          "description": "Gewinne als Maus ein „Cat 'n' Mouse“-Spiel mit deinem Team (Jam-Session)."
+        },
+        "italian": {
+          "name": "Salvezza",
+          "description": "Nel ruolo di topo in una partita Cat 'n' Mouse, porta la tua squadra alla vittoria (Jam Session)"
+        },
+        "schinese": {
+          "name": "快溜！",
+          "description": "在猫捉老鼠比赛中扮演老鼠并帮助队伍获胜（派对即兴模式）"
+        },
+        "spanish": {
+          "name": "¡Por todos los quesos!",
+          "description": "Sé el ratón en una partida de Cat 'n' Mouse, donde tu equipo gane la partida (Jam Session)"
+        }
+      }
+    },
+    "flag_stealer": {
+      "translations": {
+        "english": {
+          "name": "Flag Stealer",
+          "description": "Steal the flag from the opposing team 5 times in a game of Transporter (Pro Tour)"
+        },
+        "french": {
+          "name": "Voleur de drapeau",
+          "description": "Volez le drapeau cinq fois à l'équipe adverse dans une partie de Transporter (Pro Tour)"
+        },
+        "german": {
+          "name": "Flaggendieb",
+          "description": "Stiehl in einem „Transporter“-Spiel 5-mal die Flagge vom gegnerischen Team (Pro-Tour)."
+        },
+        "italian": {
+          "name": "Rubabandiera",
+          "description": "In una partita Transporter ruba la bandiera almeno 5 volte (Pro Tour)"
+        },
+        "schinese": {
+          "name": "偷旗者",
+          "description": "在运旗模式比赛中偷取对方旗帜5次（职业巡回赛）"
+        },
+        "spanish": {
+          "name": "Ladrón de banderas",
+          "description": "Roba la bandera al equipo contrario 5 veces en una partida de Transporter (Campeonato pro.)"
+        }
+      }
+    },
+    "join_the_party": {
+      "translations": {
+        "english": {
+          "name": "Join the Party",
+          "description": "Win a game in each of the multiplayer party modes (Pro Tour or Jam Session)"
+        },
+        "french": {
+          "name": "Bienvenue à la fête",
+          "description": "Remportez une partie pour chacun des modes Party multijoueurs (Pro Tour ou Jam Session)"
+        },
+        "german": {
+          "name": "Partylöwe",
+          "description": "Gewinne ein Spiel in jedem Multiplayer-Party-Modus (entweder Pro-Tour oder Jam-Session)."
+        },
+        "italian": {
+          "name": "Unisciti al gruppo",
+          "description": "Vinci una partita in ogni modalità di gruppo (Pro Tour o Jam Session)"
+        },
+        "schinese": {
+          "name": "开派对",
+          "description": "在所有多人派对模式中各赢得一场比赛（职业巡回赛或派对即兴模式）"
+        },
+        "spanish": {
+          "name": "Únete a la banda",
+          "description": "Gana una partida en cada uno de los modos de grupo multijugador (en Campeonato pro. o Jam Session)"
+        }
+      }
+    },
+    "king_of_the_road": {
+      "translations": {
+        "english": {
+          "name": "King of the Road",
+          "description": "Win a Steam race in Hardcore Mode"
+        },
+        "french": {
+          "name": "Roi de la route",
+          "description": "Gagnez une course Steam en mode Hardcore"
+        },
+        "german": {
+          "name": "König der Straße",
+          "description": "Gewinne ein LIVE-Rennen im Hardcore-Modus."
+        },
+        "italian": {
+          "name": "Re della strada",
+          "description": "Vinci una gara Steam in modalità Campione"
+        },
+        "schinese": {
+          "name": "公路之王",
+          "description": "在线赢得1场硬核模式比赛"
+        },
+        "spanish": {
+          "name": "Rey del asfalto",
+          "description": "Gana una carrera en Steam en el modo Salvaje"
+        }
+      }
+    },
+    "superstar": {
+      "translations": {
+        "english": {
+          "name": "Super Star",
+          "description": "Earn enough fans to achieve the ‘Superstar’ title"
+        },
+        "french": {
+          "name": "Superstar",
+          "description": "Gagnez suffisamment de fans pour obtenir le titre de "
+        },
+        "german": {
+          "name": "Superstar",
+          "description": "Gewinne genügend Fans, um als Superstar zu gelten."
+        },
+        "italian": {
+          "name": "Superstar",
+          "description": "Conquista abbastanza tifosi da diventare una Superstar"
+        },
+        "schinese": {
+          "name": "超级明星",
+          "description": "赢得足够粉丝，获得“超级明星”头衔"
+        },
+        "spanish": {
+          "name": "Superestrella",
+          "description": "Consigue suficientes fans para alcanzar el título de "
+        }
+      }
+    },
+    "new_wheels": {
+      "translations": {
+        "english": {
+          "name": "New Wheels",
+          "description": "Drive all of the cars from the Power and Glory Car Pack"
+        },
+        "french": {
+          "name": "Nouvelles cylindrées",
+          "description": "Conduisez toutes les voitures du pack de voitures La puissance et la gloire"
+        },
+        "german": {
+          "name": "Neuwagen",
+          "description": "Fahre mit allen Wagen aus dem Wagenpaket „Kraft und Ruhm“."
+        },
+        "italian": {
+          "name": "Ruote nuove",
+          "description": "Guida tutte le vetture del pacchetto Potere e gloria"
+        },
+        "schinese": {
+          "name": "新座驾",
+          "description": "驾驶“力量与荣耀”赛车包中的所有车辆"
+        },
+        "spanish": {
+          "name": "Nuevo bólido",
+          "description": "Conduce todos los coches del Paquete Poder y Gloria"
+        }
+      }
+    },
+    "service_history": {
+      "translations": {
+        "english": {
+          "name": "Service History",
+          "description": "Win a DIRT Tour event in a car from the Power and Glory Car Pack using a custom setup"
+        },
+        "french": {
+          "name": "Belle mécanique",
+          "description": "Gagnez sur le DiRT Tour avec une voiture du pack La puissance et la gloire en ajustant les réglages"
+        },
+        "german": {
+          "name": "Scheckheftgepflegt",
+          "description": "Gewinne ein DiRT-Tour-Event mit einem Wagen aus „Kraft und Ruhm“ mit benutzerdefiniertem Setup."
+        },
+        "italian": {
+          "name": "Manutenzione",
+          "description": "Imposta una vettura del pacchetto Potere e gloria e conducila alla vittoria in un evento DiRT Tour"
+        },
+        "schinese": {
+          "name": "保养记录",
+          "description": "使用自定义调校，驾驶“力量与荣耀”赛车包中的赛车赢得尘埃巡回赛"
+        },
+        "spanish": {
+          "name": "Historia de servicio",
+          "description": "Gana una prueba del Campeonato DiRT con un coche del Paquete Poder y Gloria y ajustes personalizados"
+        }
+      }
+    },
+    "the_lively_set": {
+      "translations": {
+        "english": {
+          "name": "The Lively Set",
+          "description": "Drive all of the cars from the Mud and Guts Car Pack"
+        },
+        "french": {
+          "name": "Nouvelle gamme",
+          "description": "Conduisez toutes les voitures du pack de voitures De la boue et des tripes"
+        },
+        "german": {
+          "name": "Das volle Programm",
+          "description": "Fahre mit allen Wagen aus dem „Matsch und Mumm“-Wagenpaket."
+        },
+        "italian": {
+          "name": "Ben fatto",
+          "description": "Guida tutte le vetture del pacchetto Fango e coraggio"
+        },
+        "schinese": {
+          "name": "泥地车族",
+          "description": "驾驶“泥地冲锋”赛车包中的所有车辆"
+        },
+        "spanish": {
+          "name": "Grupo animado",
+          "description": "Conduce todos los coches del Paquete Barro y Agallas"
+        }
+      }
+    },
+    "watch_the_paintwork": {
+      "translations": {
+        "english": {
+          "name": "Watch the Paintwork!",
+          "description": "Complete a clean race with a car from the Mud and Guts Car Pack"
+        },
+        "french": {
+          "name": "Attention à la peinture !",
+          "description": "Terminez une course sans dommages avec une voiture du pack de voitures De la boue et des tripes"
+        },
+        "german": {
+          "name": "Alles im Lack!",
+          "description": "Fahre ein fehlerfreies Rennen mit einem Wagen aus dem „Matsch und Mumm“-Wagenpaket."
+        },
+        "italian": {
+          "name": "Attenti ai graffi",
+          "description": "Completa una gara senza incidenti usando una vettura del pacchetto Fango e coraggio"
+        },
+        "schinese": {
+          "name": "当心车漆！",
+          "description": "使用“泥地冲锋”赛车包中的赛车无碰撞完成一场比赛"
+        },
+        "spanish": {
+          "name": "¡Ojo con la chapa!",
+          "description": "Completa una carrera limpia con un coche del Paquete Barro y Agallas"
+        }
+      }
+    },
+    "la_grande_victoire": {
+      "translations": {
+        "english": {
+          "name": "La Grande Victoire",
+          "description": "Achieve first place in all DiRT Tour Monte Carlo Events"
+        },
+        "french": {
+          "name": "Prince de Monaco",
+          "description": "Obtenez la première place de toutes les épreuves DiRT Tour de Monte-Carlo"
+        },
+        "german": {
+          "name": "Casino Royale",
+          "description": "Erreiche in allen Monte Carlo-Events der DiRT-Tour den ersten Platz."
+        },
+        "italian": {
+          "name": "Gran vittoria",
+          "description": "Vinci tutti gli eventi DiRT Tour di Montecarlo"
+        },
+        "schinese": {
+          "name": "蒙特卡洛大捷",
+          "description": "在所有尘埃巡回赛蒙特卡洛赛事中获得第一名"
+        },
+        "spanish": {
+          "name": "La Grande Victoire",
+          "description": "Alcanza primeras posiciones en todas las pruebas de Monte Carlo del Campeonato DiRT"
+        }
+      }
+    },
+    "the_tourist": {
+      "translations": {
+        "english": {
+          "name": "The Tourist",
+          "description": "Drive in excess of 100 miles (161 km) in Monte Carlo"
+        },
+        "french": {
+          "name": "En touriste",
+          "description": "Conduisez plus de 161 km (100 miles) à Monte-Carlo"
+        },
+        "german": {
+          "name": "Der Tourist",
+          "description": "Fahre mehr als 161 km (100 Meilen) in Monte Carlo."
+        },
+        "italian": {
+          "name": "Il turista",
+          "description": "Guida per oltre 161km (100 miglia) a Montecarlo"
+        },
+        "schinese": {
+          "name": "蒙特卡洛观光客",
+          "description": "在蒙特卡洛累计行驶超过100英里（161公里）"
+        },
+        "spanish": {
+          "name": "El turista",
+          "description": "Conduce más de 100 millas (161 km) en Monte Carlo"
+        }
+      }
+    },
+    "french_connection": {
+      "translations": {
+        "english": {
+          "name": "French Connection",
+          "description": "Win a Steam race in Monte Carlo (Jam Session)"
+        },
+        "french": {
+          "name": "Casino",
+          "description": "Remportez une course Steam à Monte-Carlo (Jam Session)"
+        },
+        "german": {
+          "name": "French Connection",
+          "description": "Gewinne ein LIVE-Rennen in Monte Carlo (Jam-Session)."
+        },
+        "italian": {
+          "name": "French Connection",
+          "description": "Vinci una gara Steam a Montecarlo (Jam Session)"
+        },
+        "schinese": {
+          "name": "法兰西之约",
+          "description": "在蒙特卡洛赢得1场在线比赛（派对即兴模式）"
+        },
+        "spanish": {
+          "name": "Conexión francesa",
+          "description": "Gana una carrera en Steam en Monte Carlo (Jam Session)"
+        }
+      }
+    },
+    "tokyo_story": {
+      "translations": {
+        "english": {
+          "name": "Tokyo Story",
+          "description": "Achieve first place in all DiRT Tour Shibuya Events"
+        },
+        "french": {
+          "name": "Voyage à Tokyo",
+          "description": "Obtenez la première place pour toutes les épreuves DiRT Tour à Shibuya"
+        },
+        "german": {
+          "name": "Die Reise nach Tokio",
+          "description": "Erreiche in allen Shibuya-Events der DiRT-Tour den ersten Platz."
+        },
+        "italian": {
+          "name": "Viaggio a Tokyo",
+          "description": "Conquista il primo posto in tutti gli eventi DiRT Tour di Shibuya"
+        },
+        "schinese": {
+          "name": "东京物语",
+          "description": "在所有尘埃巡回赛涩谷赛事中获得第一名"
+        },
+        "spanish": {
+          "name": "Historias de Tokio",
+          "description": "Alcanza primeras posiciones en todas las pruebas de Shibuya del Campeonato DiRT"
+        }
+      }
+    },
+    "rush_hour": {
+      "translations": {
+        "english": {
+          "name": "Rush Hour",
+          "description": "Complete a Time Trial in Shibuya"
+        },
+        "french": {
+          "name": "Heure de pointe",
+          "description": "Terminez un Contre-la-montre à Shibuya"
+        },
+        "german": {
+          "name": "Rushhour",
+          "description": "Absolviere ein Zeitfahren in Shibuya."
+        },
+        "italian": {
+          "name": "Ora di punta",
+          "description": "Completa un Time Trial a Shibuya"
+        },
+        "schinese": {
+          "name": "涩谷高峰时刻",
+          "description": "在涩谷完成一次计时赛"
+        },
+        "spanish": {
+          "name": "Hora punta",
+          "description": "Completa una contrarreloj en Shibuya"
+        }
+      }
+    },
+    "enter_the_pro": {
+      "translations": {
+        "english": {
+          "name": "Metropolis Racer",
+          "description": "Win a Steam race in Shibuya (Jam Session)"
+        },
+        "french": {
+          "name": "Pilote Métropolitain",
+          "description": "Remportez une course Steam à Shibuya (Jam Session)"
+        },
+        "german": {
+          "name": "Metropolen-Rennfahrer",
+          "description": "Gewinne ein LIVE-Rennen in Shibuya (Jam-Session)."
+        },
+        "italian": {
+          "name": "Pilota Metropolitano",
+          "description": "Vinci una gara Steam a Shibuya (Jam Session)"
+        },
+        "schinese": {
+          "name": "大都会赛车手",
+          "description": "在涩谷赢得1场在线比赛（派对即兴模式）"
+        },
+        "spanish": {
+          "name": "Piloto urbano",
+          "description": "Gana una carrera en Steam en Shibuya (Jam Session)"
+        }
+      }
+    }
+  }
+}

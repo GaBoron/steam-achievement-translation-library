@@ -1,0 +1,1536 @@
+{
+  "version": 1,
+  "app_id": "265930",
+  "variant_id": "default",
+  "source_sha256": "f77dd704f5b72d8cb954791d9bf57315a2eaee43fde9b63cdb4068a2edea5fbf",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "ACH_BOULDER_OF_DEATH": {
+      "translations": {
+        "english": {
+          "name": "Boulder of Death",
+          "description": "Hit the party with the Boulder of Death."
+        },
+        "schinese": {
+          "name": "亡命滚石",
+          "description": "把“亡命滚石”带进派对。"
+        }
+      }
+    },
+    "ACH_WALKER_S1": {
+      "translations": {
+        "english": {
+          "name": "Pedestrian",
+          "description": "Find the Sanctum 1 Walker Statue"
+        },
+        "schinese": {
+          "name": "路上行人",
+          "description": "找到一号圣所的步行者雕像"
+        }
+      }
+    },
+    "ACH_WALKER_S2": {
+      "translations": {
+        "english": {
+          "name": "LOEK master",
+          "description": "Find the Sanctum 2 Walker Statue"
+        },
+        "schinese": {
+          "name": "LOEK 大师",
+          "description": "找到二号圣所的步行者雕像"
+        }
+      }
+    },
+    "ACH_FINALLY": {
+      "translations": {
+        "english": {
+          "name": "FINALLY",
+          "description": "Become the master of the goat tower."
+        },
+        "schinese": {
+          "name": "最后",
+          "description": "成为山羊塔的主人。"
+        }
+      }
+    },
+    "ACH_GOAT_OF_THE_HILL": {
+      "translations": {
+        "english": {
+          "name": "Goat of the hill",
+          "description": "Everything the light touches is your kingdom."
+        },
+        "schinese": {
+          "name": "山坡羊",
+          "description": "阳光普照之地皆为你的王国。"
+        }
+      }
+    },
+    "ACH_GOATHENGE": {
+      "translations": {
+        "english": {
+          "name": "What is its purpose?",
+          "description": "Thrash the Goathenge"
+        },
+        "schinese": {
+          "name": "这是为什么？",
+          "description": "摇动并推翻巨石阵"
+        }
+      }
+    },
+    "ACH_DEVILGOAT": {
+      "translations": {
+        "english": {
+          "name": "Devil Goat",
+          "description": "We are each our own devil, and we make this world our hell."
+        },
+        "schinese": {
+          "name": "恶魔之羊",
+          "description": "我们每个都有自己的心魔，我们把世界都变成自己的地域。"
+        }
+      }
+    },
+    "ACH_ANGELGOAT": {
+      "translations": {
+        "english": {
+          "name": "Angel Goat",
+          "description": "Do no evil."
+        },
+        "schinese": {
+          "name": "天使之羊",
+          "description": "不作恶。"
+        }
+      }
+    },
+    "ACH_ALLTRAMPOLINES": {
+      "translations": {
+        "english": {
+          "name": "Around the World on 5 Trampolines",
+          "description": "Visit 5 trampolines in one jump, bouncing on each trampoline once."
+        },
+        "schinese": {
+          "name": "在5个蹦床上环游世界",
+          "description": "在一次跳跃中跳进5张蹦床，每张蹦床上弹跳一次"
+        }
+      }
+    },
+    "ACH_SANCTUMSACRIFICE": {
+      "translations": {
+        "english": {
+          "name": "Trying to bring forth Sanctum 3?",
+          "description": "Sacrifice the 3 Sanctum items."
+        },
+        "schinese": {
+          "name": "尝试完成三号圣所？",
+          "description": "献上三个圣所的祭品。"
+        }
+      }
+    },
+    "ACH_CRASH": {
+      "translations": {
+        "english": {
+          "name": "Involuntary QA",
+          "description": "Ooops, the game seems to have crashed."
+        },
+        "schinese": {
+          "name": "非自愿品质保证",
+          "description": "哎唷，看来游戏崩溃了。"
+        }
+      }
+    },
+    "ACH_FLAPPY_GOAT_TEN": {
+      "translations": {
+        "english": {
+          "name": "The Flapmaster",
+          "description": "Score 10 points in Flappy Goat."
+        },
+        "schinese": {
+          "name": "笨羊先飞",
+          "description": "在 Flappy Goat 里赢得 10 分。"
+        }
+      }
+    },
+    "ACH_TEN_FLIPS": {
+      "translations": {
+        "english": {
+          "name": "I can't believe that worked",
+          "description": "Do 10 front flips in one trick."
+        },
+        "schinese": {
+          "name": "没想到这样也行",
+          "description": "一次过做 10 个前空翻。"
+        }
+      }
+    },
+    "ACH_NPC_TREADMILL": {
+      "translations": {
+        "english": {
+          "name": "Cardio kills your gains",
+          "description": "Drag a person into the treadmill with your tongue."
+        },
+        "schinese": {
+          "name": "锻炼心肺有助减肥",
+          "description": "用你的舌头把一个人拖到跑步机上。"
+        }
+      }
+    },
+    "ACH_RYMDSKEPP": {
+      "translations": {
+        "english": {
+          "name": "Rymdskepp i Rymden",
+          "description": "Travel to space!"
+        },
+        "schinese": {
+          "name": "幽…幽幽…浮?!",
+          "description": "到太空漫游！"
+        }
+      }
+    },
+    "ACH_ALL_COLLECTIBLES": {
+      "translations": {
+        "english": {
+          "name": "Try Hard",
+          "description": "Find all the trophies in Goat Ville!"
+        },
+        "schinese": {
+          "name": "不遗余力",
+          "description": "找到山羊镇里所有奖杯！"
+        }
+      }
+    },
+    "ACH_RIPPED_GOAT": {
+      "translations": {
+        "english": {
+          "name": "Alexander Goatstafsson",
+          "description": "Win the title bout!"
+        },
+        "schinese": {
+          "name": "拳王阿羊",
+          "description": "在拳王争霸战上胜出！"
+        }
+      }
+    },
+    "ACH_GOAT_QUEEN": {
+      "translations": {
+        "english": {
+          "name": "Goat Queen",
+          "description": "Become the Queen of Goat Ville"
+        },
+        "schinese": {
+          "name": "山羊女皇",
+          "description": "当上山羊镇的女皇"
+        }
+      }
+    },
+    "ACH_MATTRESS_MADNESS": {
+      "translations": {
+        "english": {
+          "name": "Mattress Madness",
+          "description": "Bounce 100 times on mattresses within 30 seconds."
+        },
+        "schinese": {
+          "name": "热被窝狂热",
+          "description": "30 秒内在床垫上连续弹跳 100 次"
+        }
+      }
+    },
+    "ACH_MILE_HIGH_CLUB": {
+      "translations": {
+        "english": {
+          "name": "Mile High Club",
+          "description": "Lick the Hanging Glider."
+        },
+        "schinese": {
+          "name": "一里高俱乐部",
+          "description": "舔着悬挂式滑翔机。"
+        }
+      }
+    },
+    "ACH_DODGE_THIS": {
+      "translations": {
+        "english": {
+          "name": "Dodge This",
+          "description": "Make sure the Hillbilly never drives again."
+        },
+        "schinese": {
+          "name": "快闪避",
+          "description": "确保这个乡巴佬不再驾车乱撞。"
+        }
+      }
+    },
+    "ACH_KICK_BACKFLIP": {
+      "translations": {
+        "english": {
+          "name": "Flip-Kick",
+          "description": "Kick something in the air while doing a backflip"
+        },
+        "schinese": {
+          "name": "倒挂金钩",
+          "description": "后空翻时把东西踢到半空中"
+        }
+      }
+    },
+    "ACH_MAX_MLG": {
+      "translations": {
+        "english": {
+          "name": "Maximum MLG Big Plays",
+          "description": "Knock a bucket into a person"
+        },
+        "schinese": {
+          "name": "最出色电竞招式",
+          "description": "把水桶踢中一个人"
+        }
+      }
+    },
+    "ACH_POWERHOOF": {
+      "translations": {
+        "english": {
+          "name": "Powerhoof SMASH",
+          "description": "Kick a person into a car"
+        },
+        "schinese": {
+          "name": "强力粉碎",
+          "description": "把一个人踢进车内"
+        }
+      }
+    },
+    "ACH_DEMOGOAT": {
+      "translations": {
+        "english": {
+          "name": "Demogoat",
+          "description": "Have 10 gas cannisters explode at the same time"
+        },
+        "schinese": {
+          "name": "带帽山羊",
+          "description": "10 个煤气罐同时爆炸"
+        }
+      }
+    },
+    "ACH_JOHNNY": {
+      "translations": {
+        "english": {
+          "name": "Here's Johnny!",
+          "description": "Wield an axe with your tongue"
+        },
+        "schinese": {
+          "name": "这是约翰尼！",
+          "description": "用你的舌头挥舞一把斧头"
+        }
+      }
+    },
+    "ACH_MAGE_FAVO": {
+      "translations": {
+        "english": {
+          "name": "The mage's favourite",
+          "description": "Burn people from afar"
+        },
+        "schinese": {
+          "name": "法师最爱",
+          "description": "远距离烧人"
+        }
+      }
+    },
+    "ACH_GOATFALL": {
+      "translations": {
+        "english": {
+          "name": "Stand by for Goatfall",
+          "description": "Finish all wallrun quest"
+        },
+        "schinese": {
+          "name": "准备山羊跌落",
+          "description": "完成所有墙壁飞跑挑战"
+        }
+      }
+    },
+    "ACH_TONYGOAT": {
+      "translations": {
+        "english": {
+          "name": "Tony Goat",
+          "description": "Finish all manual quests"
+        },
+        "schinese": {
+          "name": "托尼山羊",
+          "description": "完成所有挑战"
+        }
+      }
+    },
+    "ACH_TORNADO_GOAT": {
+      "translations": {
+        "english": {
+          "name": "The Savage",
+          "description": "Paint with all the colors of the wind"
+        },
+        "schinese": {
+          "name": "野蛮人",
+          "description": "用所有风之色绘画"
+        }
+      }
+    },
+    "ACH_DEADGOA7": {
+      "translations": {
+        "english": {
+          "name": "Goats 'n' Stuff",
+          "description": "Hold your own concert"
+        },
+        "schinese": {
+          "name": "山羊东西",
+          "description": "保持你自己的音乐会"
+        }
+      }
+    },
+    "ACH_REPULSIVE_GOAT": {
+      "translations": {
+        "english": {
+          "name": "Disgusting",
+          "description": "Why did you step in that? Yuck"
+        },
+        "schinese": {
+          "name": "恶心",
+          "description": "你为什么插手此事？ 啐"
+        }
+      }
+    },
+    "ACH_HITCHHIKER": {
+      "translations": {
+        "english": {
+          "name": "Don't Panic",
+          "description": "srsly"
+        },
+        "schinese": {
+          "name": "别慌",
+          "description": "真是的"
+        }
+      }
+    },
+    "ACH_SUGAR_LORD": {
+      "translations": {
+        "english": {
+          "name": "Columbian Sugar Lord",
+          "description": "Ride the boat while on a sugar rush"
+        },
+        "schinese": {
+          "name": "哥伦布糖王",
+          "description": "糖糖流搭船进"
+        }
+      }
+    },
+    "ACH_BUILDER_GOAT": {
+      "translations": {
+        "english": {
+          "name": "Builder Goat",
+          "description": "Find all the blocks"
+        },
+        "schinese": {
+          "name": "建筑山羊",
+          "description": "查找所有块"
+        }
+      }
+    },
+    "ACH_GOAT_BUILT": {
+      "translations": {
+        "english": {
+          "name": "GoatBuilt",
+          "description": "Get on top of the Parkour obstacle course"
+        },
+        "schinese": {
+          "name": "山羊造",
+          "description": "在跑酷障碍赛中获得第一名"
+        }
+      }
+    },
+    "ACH_HAT_SIMULATOR": {
+      "translations": {
+        "english": {
+          "name": "Hat Simulator",
+          "description": "Buy all hats"
+        },
+        "schinese": {
+          "name": "帽子模拟器",
+          "description": "买所有帽子"
+        }
+      }
+    },
+    "ACH_ASAMU_ELEVATOR": {
+      "translations": {
+        "english": {
+          "name": "A Story about my elevator",
+          "description": "Get up on the skyscraper without using the elevator"
+        },
+        "schinese": {
+          "name": "关于我的电梯的故事",
+          "description": "不用电梯就上到摩天大楼上"
+        }
+      }
+    },
+    "ACH_TURDLE": {
+      "translations": {
+        "english": {
+          "name": "Ling Ling into battle go",
+          "description": "Fight the turtles"
+        },
+        "schinese": {
+          "name": "陵陵上阵",
+          "description": "与海龟战斗"
+        }
+      }
+    },
+    "ACH_ONE_BALL": {
+      "translations": {
+        "english": {
+          "name": "One Ball",
+          "description": "Ride a bike for 60 sec"
+        },
+        "schinese": {
+          "name": "一球",
+          "description": "骑自行车 60 秒"
+        }
+      }
+    },
+    "ACH_NECKBEARD": {
+      "translations": {
+        "english": {
+          "name": "Neckbeard",
+          "description": "Smell and look like one"
+        },
+        "schinese": {
+          "name": "脖子胡子",
+          "description": "看闻都像"
+        }
+      }
+    },
+    "ACH_JACKPOT": {
+      "translations": {
+        "english": {
+          "name": "Vegas, baby!",
+          "description": "Hit The jackpot."
+        },
+        "schinese": {
+          "name": "维加斯，宝贝！",
+          "description": "中大奖。"
+        }
+      }
+    },
+    "ACH_ALL_COLLECTIBLES_LEVEL_2": {
+      "translations": {
+        "english": {
+          "name": "I freaking love goats",
+          "description": "Find all the trophies in Goat City Bay."
+        },
+        "schinese": {
+          "name": "我就爱山羊",
+          "description": "查找第 2 级的所有收藏"
+        }
+      }
+    },
+    "ACH_ROLLER_COASTER": {
+      "translations": {
+        "english": {
+          "name": "Is that a goat?",
+          "description": "Lick the rollercoaster with 6 batteries attached"
+        },
+        "schinese": {
+          "name": "那是一只山羊？",
+          "description": "舔有 6 节电池的过山车"
+        }
+      }
+    },
+    "ACH_DIG": {
+      "translations": {
+        "english": {
+          "name": "SteamWorld Goat",
+          "description": "Get to a depth of 200 in SteamWorld Goat."
+        },
+        "schinese": {
+          "name": "蒸汽世界山羊",
+          "description": "进入到蒸汽世界山羊深度 200。"
+        }
+      }
+    },
+    "ACH_VALKYRIE": {
+      "translations": {
+        "english": {
+          "name": "Valkyrie",
+          "description": "Go on the catapult with a rider on your back"
+        },
+        "schinese": {
+          "name": "女武神",
+          "description": "背上驮人上弹射器"
+        }
+      }
+    },
+    "ACH_UNCLEGOAT": {
+      "translations": {
+        "english": {
+          "name": "A story about my goat",
+          "description": "I'm sorry about my goat"
+        },
+        "schinese": {
+          "name": "关于我的山羊的故事",
+          "description": "我对我的山羊很抱歉"
+        }
+      }
+    },
+    "ACH_LEVEL_101": {
+      "translations": {
+        "english": {
+          "name": "Better than Warlords of Dredmor",
+          "description": "Reach level 101"
+        },
+        "schinese": {
+          "name": "要比冒险城战神更强",
+          "description": "达到第 101 级"
+        }
+      }
+    },
+    "ACH_BUTTSLAM": {
+      "translations": {
+        "english": {
+          "name": "Butthurt",
+          "description": "Do a lot of hurt. With your butt."
+        },
+        "schinese": {
+          "name": "屁股痛",
+          "description": "做大量伤害。 用你的屁股。"
+        }
+      }
+    },
+    "ACH_ALL_MMO_ZONES": {
+      "translations": {
+        "english": {
+          "name": "Sällskapsresan",
+          "description": "Visit all zones on the MMO level"
+        },
+        "schinese": {
+          "name": "集体旅行",
+          "description": "查看联机级别所有区域"
+        }
+      }
+    },
+    "ACH_STEVES_QUEST": {
+      "translations": {
+        "english": {
+          "name": "Steve's Quest",
+          "description": "Give Steve Works the apples"
+        },
+        "schinese": {
+          "name": "史蒂夫的挑战",
+          "description": "给史蒂夫作品苹果"
+        }
+      }
+    },
+    "ACH_BFF": {
+      "translations": {
+        "english": {
+          "name": "BFF",
+          "description": "Lick a friend"
+        },
+        "schinese": {
+          "name": "BFF",
+          "description": "舔一个朋友"
+        }
+      }
+    },
+    "ACH_JOUST": {
+      "translations": {
+        "english": {
+          "name": "Jousting Goat",
+          "description": "Unlock the jousting mutator"
+        },
+        "schinese": {
+          "name": "口水山羊",
+          "description": "解锁口水变异"
+        }
+      }
+    },
+    "ACH_MERMAID": {
+      "translations": {
+        "english": {
+          "name": "Mermaid Goat",
+          "description": "Unlock the mermaid mutator"
+        },
+        "schinese": {
+          "name": "美人鱼山羊",
+          "description": "解锁美人鱼变异"
+        }
+      }
+    },
+    "ACH_WHEELGOAT": {
+      "translations": {
+        "english": {
+          "name": "Wheel Goat",
+          "description": "Unlock the wheel of time mutator"
+        },
+        "schinese": {
+          "name": "车轮山羊",
+          "description": "解锁时间之轮变异"
+        }
+      }
+    },
+    "ACH_OLDGOAT": {
+      "translations": {
+        "english": {
+          "name": "Old Goat",
+          "description": "OMG IS THAT WHAT I THINK IT IS?"
+        },
+        "schinese": {
+          "name": "老山羊",
+          "description": "哦天哪，我看到的是真的吗？"
+        }
+      }
+    },
+    "ACH_EXCALIGOAT": {
+      "translations": {
+        "english": {
+          "name": "ExcaliGoat",
+          "description": "Unlock the ExcaliGoat mutator"
+        },
+        "schinese": {
+          "name": "神剑山羊",
+          "description": "解锁神剑山羊变异"
+        }
+      }
+    },
+    "ACH_BEAR": {
+      "translations": {
+        "english": {
+          "name": "Jörgen",
+          "description": "Jörgen."
+        },
+        "schinese": {
+          "name": "尤根",
+          "description": "尤根。"
+        }
+      }
+    },
+    "ACH_GRAVITYGOAT": {
+      "translations": {
+        "english": {
+          "name": "Gravity Goat",
+          "description": "Unlock the gravity goat mutator"
+        },
+        "schinese": {
+          "name": "重力山羊",
+          "description": "解锁重力山羊变异"
+        }
+      }
+    },
+    "ACH_TRAPAGAIN": {
+      "translations": {
+        "english": {
+          "name": "Not again...",
+          "description": "Get deviously trapped again"
+        },
+        "schinese": {
+          "name": "别再来了...",
+          "description": "又被迂回困住了"
+        }
+      }
+    },
+    "ACH_BOATRIDE": {
+      "translations": {
+        "english": {
+          "name": "Boat ride",
+          "description": "Enjoy your trip"
+        },
+        "schinese": {
+          "name": "乘船",
+          "description": "旅行愉快"
+        }
+      }
+    },
+    "ACH_GOATPAD": {
+      "translations": {
+        "english": {
+          "name": "Music Non Stop",
+          "description": "Jump on the launchpad"
+        },
+        "schinese": {
+          "name": "连续播放音乐",
+          "description": "跳到发射台"
+        }
+      }
+    },
+    "ACH_ELFSTREETBOYS": {
+      "translations": {
+        "english": {
+          "name": "Elfstreet Boys",
+          "description": "Baa with the choir"
+        },
+        "schinese": {
+          "name": "精灵街男孩",
+          "description": "随唱诗班咩咩叫"
+        }
+      }
+    },
+    "ACH_VOLUNTARYQA": {
+      "translations": {
+        "english": {
+          "name": "Voluntary  QA",
+          "description": "Trash the server room"
+        },
+        "schinese": {
+          "name": "自愿品质保证",
+          "description": "丢弃服务器室"
+        }
+      }
+    },
+    "ACH_INFLATEKNEE": {
+      "translations": {
+        "english": {
+          "name": "One man, two shots and a religion",
+          "description": "Inflate that guy's knee"
+        },
+        "schinese": {
+          "name": "一人，两张照和一个宗教",
+          "description": "让那个家伙的膝盖胀大"
+        }
+      }
+    },
+    "ACH_UNNECESSARYJOURNEY": {
+      "translations": {
+        "english": {
+          "name": "An Unnecessary Journey",
+          "description": "Throw the dwarf Bilbo into the lava"
+        },
+        "schinese": {
+          "name": "非必要的旅行",
+          "description": "将小矮人比尔博扔进熔岩"
+        }
+      }
+    },
+    "ACH_MAGICIAN": {
+      "translations": {
+        "english": {
+          "name": "Steal the show",
+          "description": "Do a card trick at the magician"
+        },
+        "schinese": {
+          "name": "抢风头",
+          "description": "魔术师做一个纸牌戏法"
+        }
+      }
+    },
+    "ACH_GOATA_GET_EM_ALL": {
+      "translations": {
+        "english": {
+          "name": "Goatta catch 'em all!",
+          "description": "How do you catch goats?"
+        },
+        "schinese": {
+          "name": "要把他们全抓住！",
+          "description": "你怎么抓山羊？"
+        }
+      }
+    },
+    "ACH_WITCHBURN": {
+      "translations": {
+        "english": {
+          "name": "Malleus Maleficarum",
+          "description": "Burn them!"
+        },
+        "schinese": {
+          "name": "女巫之锤",
+          "description": "烧死他们！"
+        }
+      }
+    },
+    "ACH_ALL_COLLECTIBLES_MMO": {
+      "translations": {
+        "english": {
+          "name": "Love or Hate?",
+          "description": "Find all the trophies on the MMO Level."
+        },
+        "schinese": {
+          "name": "爱还是恨？",
+          "description": "找到联机级别上的所有奖杯。"
+        }
+      }
+    },
+    "ACH_TROLL_GEISER": {
+      "translations": {
+        "english": {
+          "name": "The Icelandic Experience",
+          "description": "It never erupts when you want it to."
+        },
+        "schinese": {
+          "name": "冰岛体验",
+          "description": "你想要时它从不爆发。"
+        }
+      }
+    },
+    "ACH_CRAFTALLWEAPONS": {
+      "translations": {
+        "english": {
+          "name": "The goa'th amendment",
+          "description": "Craft all the weapons in one game"
+        },
+        "schinese": {
+          "name": "山羊修正案",
+          "description": "在一款游戏中制作所有武器"
+        }
+      }
+    },
+    "ACH_CRAFTALL": {
+      "translations": {
+        "english": {
+          "name": "Survivalist",
+          "description": "Craft all items in one game"
+        },
+        "schinese": {
+          "name": "生存主义者",
+          "description": "在一款游戏中制作所有物品"
+        }
+      }
+    },
+    "ACH_SURVIVELIFE": {
+      "translations": {
+        "english": {
+          "name": "Survive for your life",
+          "description": "Survive 10 days"
+        },
+        "schinese": {
+          "name": "活下去",
+          "description": "存活 10 天"
+        }
+      }
+    },
+    "ACH_SHATTER": {
+      "translations": {
+        "english": {
+          "name": "Shattered dreams",
+          "description": "Crystallize and break 30 zombies in one game"
+        },
+        "schinese": {
+          "name": "破碎的梦",
+          "description": "单场游戏里将 30 只僵尸冻成晶体后击碎"
+        }
+      }
+    },
+    "ACH_KILLZOMBIES": {
+      "translations": {
+        "english": {
+          "name": "Zombie slayer",
+          "description": "Kill 20 zombies in one game"
+        },
+        "schinese": {
+          "name": "僵尸杀手",
+          "description": "单场游戏中杀死 20 只僵尸"
+        }
+      }
+    },
+    "ACH_NOSTARVE": {
+      "translations": {
+        "english": {
+          "name": "Don't starve",
+          "description": "Eat 50 food items in one game"
+        },
+        "schinese": {
+          "name": "饥荒",
+          "description": "单场游戏中吃掉 50 种食物"
+        }
+      }
+    },
+    "ACH_PARACHUTE": {
+      "translations": {
+        "english": {
+          "name": "Hang tight",
+          "description": "Paraglide in the air for 1 minute"
+        },
+        "schinese": {
+          "name": "耐心等待",
+          "description": "在空中用滑翔伞飞行一分钟"
+        }
+      }
+    },
+    "ACH_MINIGUN": {
+      "translations": {
+        "english": {
+          "name": "Too much fun",
+          "description": "Kill 7 zombies with one minifun"
+        },
+        "schinese": {
+          "name": "太好玩了",
+          "description": "用一个秘密玩具杀死 7 个僵尸"
+        }
+      }
+    },
+    "ACH_BULLETDIVE": {
+      "translations": {
+        "english": {
+          "name": "Goat from above",
+          "description": "Hit 5 zombies in one bullet dive"
+        },
+        "schinese": {
+          "name": "从上方看到的山羊",
+          "description": "一枪爆头击中 5 个僵尸"
+        }
+      }
+    },
+    "ACH_LOOKATIT": {
+      "translations": {
+        "english": {
+          "name": "Look at it go!",
+          "description": "Hit 4 at once with a voodoo bomb"
+        },
+        "schinese": {
+          "name": "看它跑的多快",
+          "description": "用巫毒炸弹一次击中 4 个目标"
+        }
+      }
+    },
+    "ACH_I_AM_GOAT": {
+      "translations": {
+        "english": {
+          "name": "I Am Goat",
+          "description": "Play GoatSimSim for 5 minutes"
+        },
+        "schinese": {
+          "name": "我是山羊",
+          "description": "玩 GoatSimSim 5 分钟"
+        }
+      }
+    },
+    "ACH_BIG_IN_JAPAN": {
+      "translations": {
+        "english": {
+          "name": "Big in japan",
+          "description": "Beat the whiplash course without getting wet"
+        },
+        "schinese": {
+          "name": "风靡日本",
+          "description": "通关“甩尾赛道”，全程不沾水"
+        }
+      }
+    },
+    "ACH_MASTER_CHEF": {
+      "translations": {
+        "english": {
+          "name": "Masterchef",
+          "description": "Make the stew taste as good as HUMANLY possible"
+        },
+        "schinese": {
+          "name": "厨艺大师",
+          "description": "尽全力把这道炖菜的口感做到人能做到的最佳程度"
+        }
+      }
+    },
+    "ACH_A_NEW_CHALLENGER": {
+      "translations": {
+        "english": {
+          "name": "A new challenger has appeared",
+          "description": "Clear 25 survival quests in one game"
+        },
+        "schinese": {
+          "name": "一位新的挑战者出现了",
+          "description": "在一个游戏中完成 25 个生存任务"
+        }
+      }
+    },
+    "ACH_WARM_BATH": {
+      "translations": {
+        "english": {
+          "name": "Warm bath",
+          "description": "Use the slippery slide to land in the kiddie pool"
+        },
+        "schinese": {
+          "name": "温水澡",
+          "description": "顺着湿滑滑梯滑下并落入儿童水池"
+        }
+      }
+    },
+    "ACH_ALL_COLLECTIBLES_ZOMBIE": {
+      "translations": {
+        "english": {
+          "name": "Hoarder",
+          "description": "Find all the trophies in GoatZ"
+        },
+        "schinese": {
+          "name": "囤积者",
+          "description": "在 GoatZ 中找到所有的奖杯"
+        }
+      }
+    },
+    "ACH_I_AM_BREAD": {
+      "translations": {
+        "english": {
+          "name": "I am Bread",
+          "description": "Are you bread?"
+        },
+        "schinese": {
+          "name": "我是面包",
+          "description": "你是面包？"
+        }
+      }
+    },
+    "ACH_ALL_COLLECTIBLE_HEIST": {
+      "translations": {
+        "english": {
+          "name": "The Big Score",
+          "description": "Find all the trophies on the Payday Level."
+        },
+        "schinese": {
+          "name": "大干一票",
+          "description": "找到《收获日》关卡中的所有奖杯"
+        }
+      }
+    },
+    "ACH_BLACKJACK": {
+      "translations": {
+        "english": {
+          "name": "What’s the count?",
+          "description": "Win 3 hands at a Blackjack table."
+        },
+        "schinese": {
+          "name": "总数是多少？",
+          "description": "在 21 点牌桌上赢 3 局牌"
+        }
+      }
+    },
+    "ACH_ALL_PRANKS": {
+      "translations": {
+        "english": {
+          "name": "Retirement",
+          "description": "Just finish that one LAST job."
+        },
+        "schinese": {
+          "name": "退休",
+          "description": "就干这最后一票"
+        }
+      }
+    },
+    "ACH_BOOST_FLYING": {
+      "translations": {
+        "english": {
+          "name": "Rocket League",
+          "description": "Show off your vehicle air control skills in the desert."
+        },
+        "schinese": {
+          "name": "火箭联盟",
+          "description": "在沙漠中展示你的车辆空中控制技巧"
+        }
+      }
+    },
+    "ACH_TO_THE_MOON": {
+      "translations": {
+        "english": {
+          "name": "Le Voyage Dans la Lune.",
+          "description": "A Trip to the Moon."
+        },
+        "schinese": {
+          "name": "月球旅行记",
+          "description": "月球之旅"
+        }
+      }
+    },
+    "ACH_ISLAND_IN_THE_AIR": {
+      "translations": {
+        "english": {
+          "name": "Itsamee!",
+          "description": "Use a cannon to travel to the Island in the Sky."
+        },
+        "schinese": {
+          "name": "是我!",
+          "description": "用大炮飞向天空之岛"
+        }
+      }
+    },
+    "ACH_IMPRISON_POLICE": {
+      "translations": {
+        "english": {
+          "name": "Suppress the Suppressor",
+          "description": "Throw 5 police officers into prison."
+        },
+        "schinese": {
+          "name": "镇压镇压者",
+          "description": "将 5 名警察抓进监狱"
+        }
+      }
+    },
+    "ACH_MASKS": {
+      "translations": {
+        "english": {
+          "name": "Plentiful masquerade",
+          "description": "Wear 30 masks at once."
+        },
+        "schinese": {
+          "name": "盛大的化妆舞会",
+          "description": "一次戴上 30 个面具"
+        }
+      }
+    },
+    "ACH_PAN_FLUTE": {
+      "translations": {
+        "english": {
+          "name": "The Song of my People",
+          "description": "Listen to the whole pan flute song."
+        },
+        "schinese": {
+          "name": "我族之歌",
+          "description": "聆听完整的排箫曲"
+        }
+      }
+    },
+    "ACH_HYDRAULIC_CARS": {
+      "translations": {
+        "english": {
+          "name": "Bounce it!",
+          "description": "Enable the hydraulic cars."
+        },
+        "schinese": {
+          "name": "弹跳",
+          "description": "启动液压汽车"
+        }
+      }
+    },
+    "ACH_CHARM_COW": {
+      "translations": {
+        "english": {
+          "name": "The Cow Whisperer",
+          "description": "Charm a cow using Valentino Salami."
+        },
+        "schinese": {
+          "name": "牛语者",
+          "description": "用 Valentino Salami 魅惑一头母牛"
+        }
+      }
+    },
+    "ACH_DOLPH_LIFT": {
+      "translations": {
+        "english": {
+          "name": "You raise me up!",
+          "description": "Use Dolph Spaghetti to lift a crewmember on top of the tallest building."
+        },
+        "schinese": {
+          "name": "你举起了我！",
+          "description": "使用 Dolph Spaghetti 将一名船员抬到最高建筑物的顶部"
+        }
+      }
+    },
+    "ACH_CABLE_TIE": {
+      "translations": {
+        "english": {
+          "name": "Fifty Shades of NPC",
+          "description": "Hogtie 50 NPCs."
+        },
+        "schinese": {
+          "name": "50种色调的NPC",
+          "description": "捆住50个NPC"
+        }
+      }
+    },
+    "ACH_CAMEL_DANCERS": {
+      "translations": {
+        "english": {
+          "name": " Camel Cavalry",
+          "description": "Spray the dancers using Humphrey Ciabatta."
+        },
+        "schinese": {
+          "name": "骆驼骑兵",
+          "description": "用 humphrey ciabatta 向舞者喷雾"
+        }
+      }
+    },
+    "ACH_CREW_LICK": {
+      "translations": {
+        "english": {
+          "name": "Goatipede",
+          "description": "Lick all crew members together to form a Goatipede."
+        },
+        "schinese": {
+          "name": "山羊蜈蚣",
+          "description": "将所有船员舔在一起，形成一只山羊蜈蚣"
+        }
+      }
+    },
+    "ACH_CREW_BIO": {
+      "translations": {
+        "english": {
+          "name": "Goatfellas",
+          "description": "Gather the crew for some drive-in movies."
+        },
+        "schinese": {
+          "name": "山羊兄弟",
+          "description": "召集大家去看露天电影"
+        }
+      }
+    },
+    "ACH_NPC_TRAIN": {
+      "translations": {
+        "english": {
+          "name": "Dastardly",
+          "description": "Place a Hogtied NPC on the train tracks."
+        },
+        "schinese": {
+          "name": "邪恶而残忍",
+          "description": "将一名 NPC 放到火车轨道上"
+        }
+      }
+    },
+    "ACH_GTA": {
+      "translations": {
+        "english": {
+          "name": "Goat Theft Auto",
+          "description": "Headbutt someone out of their car, then run them over!"
+        },
+        "schinese": {
+          "name": "侠盗猎车羊",
+          "description": "把人从车里撞出来，然后把他们撞倒！"
+        }
+      }
+    },
+    "ACH_JEDI_SITH": {
+      "translations": {
+        "english": {
+          "name": "Use the sword, goat",
+          "description": "Pickup a photon sword as father or good goat."
+        },
+        "schinese": {
+          "name": "用剑吧，山羊",
+          "description": "像一只好山羊或爸爸那样拿起激光剑"
+        }
+      }
+    },
+    "ACH_NOT_AFRIGHT": {
+      "translations": {
+        "english": {
+          "name": "Be not afreight",
+          "description": "Destroy all freighters."
+        },
+        "schinese": {
+          "name": "别害怕，也别货运",
+          "description": "摧毁所有货船"
+        }
+      }
+    },
+    "ACH_RULER_OF_SKIES": {
+      "translations": {
+        "english": {
+          "name": "Ruler of the seven skies",
+          "description": "Blow up all pirate ships."
+        },
+        "schinese": {
+          "name": "七重天的统治者",
+          "description": "炸毁所有的海盗船"
+        }
+      }
+    },
+    "ACH_BACON_MARAUDER": {
+      "translations": {
+        "english": {
+          "name": "Bacon marauder",
+          "description": "Shoot down 30 police ships."
+        },
+        "schinese": {
+          "name": "培根掠夺者",
+          "description": "干翻 30 艘警用舰"
+        }
+      }
+    },
+    "ACH_MINER_INCONVENIENCE": {
+      "translations": {
+        "english": {
+          "name": "Miner inconvenience",
+          "description": "Destroy 100 asteroids."
+        },
+        "schinese": {
+          "name": "矿工的麻烦事",
+          "description": "摧毁 100 颗小行星"
+        }
+      }
+    },
+    "ACH_ALIEN_OR_EGG": {
+      "translations": {
+        "english": {
+          "name": "What came first? The alien or the egg?",
+          "description": "Headbutt all alien eggs."
+        },
+        "schinese": {
+          "name": "先有什么？先有外星人还是先有蛋？",
+          "description": "用头撞碎所有外星蛋"
+        }
+      }
+    },
+    "ACH_PUKE_MACHINE": {
+      "translations": {
+        "english": {
+          "name": "The puke machine",
+          "description": "Complete centrifuge event."
+        },
+        "schinese": {
+          "name": "呕吐机",
+          "description": "完成离心机操作流程"
+        }
+      }
+    },
+    "ACH_SWEET_COLLECTION": {
+      "translations": {
+        "english": {
+          "name": "Sweet collection!",
+          "description": "Find 10 trophies."
+        },
+        "schinese": {
+          "name": "甜蜜的收藏",
+          "description": "找到 10 个奖杯"
+        }
+      }
+    },
+    "ACH_LIMITED_EDITION": {
+      "translations": {
+        "english": {
+          "name": "Wow is that a limited edition?",
+          "description": "Find 20 trophies."
+        },
+        "schinese": {
+          "name": "哇哦，那是限量版吗？",
+          "description": "找到 20 个奖杯"
+        }
+      }
+    },
+    "ACH_NERD": {
+      "translations": {
+        "english": {
+          "name": "NERD!",
+          "description": "Find all trophies in Space."
+        },
+        "schinese": {
+          "name": "呆子!",
+          "description": "找到太空中的所有奖杯"
+        }
+      }
+    },
+    "ACH_BAAHLIONAIRE": {
+      "translations": {
+        "english": {
+          "name": "Gather $1000000",
+          "description": "I wanna be a baahlionaire."
+        },
+        "schinese": {
+          "name": "收集 1000000 美元",
+          "description": "我想成为咩万富翁"
+        }
+      }
+    },
+    "ACH_CAPTAIN_INDUSTRY": {
+      "translations": {
+        "english": {
+          "name": "Captain industry",
+          "description": "Mine 10 pieces of channitatium."
+        },
+        "schinese": {
+          "name": "工业巨头",
+          "description": "开采 10 块 channitatium"
+        }
+      }
+    },
+    "ACH_MY_LITTLE_BRONY": {
+      "translations": {
+        "english": {
+          "name": "My little brony",
+          "description": "Find all the pony horses."
+        },
+        "schinese": {
+          "name": "我的小马迷",
+          "description": "找出所有的小马驹"
+        }
+      }
+    },
+    "ACH_TESTAHOLIC": {
+      "translations": {
+        "english": {
+          "name": "Testaholic",
+          "description": "Complete test chambers."
+        },
+        "schinese": {
+          "name": "测试成瘾者",
+          "description": "完成所有测试仓"
+        }
+      }
+    },
+    "ACH_ITS_WORKING": {
+      "translations": {
+        "english": {
+          "name": "It's working... IT'S WORKING!",
+          "description": "Run wild with the podracer."
+        },
+        "schinese": {
+          "name": "成功了….成功了！",
+          "description": "与飞梭赛车一起狂奔"
+        }
+      }
+    },
+    "ACH_FUND_THIS": {
+      "translations": {
+        "english": {
+          "name": "Fund this!",
+          "description": "Headbutt Lawrence S.Windler in his lair."
+        },
+        "schinese": {
+          "name": "资助这个！",
+          "description": "在 Lawrence S.Windler 的老巢里用头撞他"
+        }
+      }
+    },
+    "ACH_SPLISH_SPLASH": {
+      "translations": {
+        "english": {
+          "name": "splishy splashy wibbly wobbly timey wimey",
+          "description": "Visit the badehaus."
+        },
+        "schinese": {
+          "name": "晃晃悠悠、时间弯弯绕绕",
+          "description": "去厕所"
+        }
+      }
+    },
+    "ACH_GRILL_PREP": {
+      "translations": {
+        "english": {
+          "name": "Ready for the grill",
+          "description": "Wrap a garl'eek in tinfoil."
+        },
+        "schinese": {
+          "name": "为烧烤架做好准备",
+          "description": "用锡纸把”菇凉“裹起来"
+        }
+      }
+    },
+    "ACH_CANVAS_WORLD": {
+      "translations": {
+        "english": {
+          "name": "The world is your canvas",
+          "description": "Tag 10 walls."
+        },
+        "schinese": {
+          "name": "世界就是你的画布",
+          "description": "标记 10 面墙"
+        }
+      }
+    },
+    "ACH_SPEND_TO_MAKE": {
+      "translations": {
+        "english": {
+          "name": "Spend money to make money",
+          "description": "Put a money crate in the mining shredder."
+        },
+        "schinese": {
+          "name": "钱生钱",
+          "description": "把钱箱放进矿石粉碎机里"
+        }
+      }
+    },
+    "ACH_FEDORABLE": {
+      "translations": {
+        "english": {
+          "name": "That's Fedorable",
+          "description": "Wear 30 things as a hat at the same time."
+        },
+        "schinese": {
+          "name": "太潮流了",
+          "description": "同时戴着 30 个物品作为帽子"
+        }
+      }
+    }
+  }
+}

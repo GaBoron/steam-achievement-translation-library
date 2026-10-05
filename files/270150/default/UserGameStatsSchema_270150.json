@@ -1,0 +1,552 @@
+{
+  "version": 1,
+  "app_id": "270150",
+  "variant_id": "default",
+  "source_sha256": "f4c3bf462ff45088391dcf077a19c574d2205f4f2de7e5add2158894eb95247e",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "ACH_1ST_MAP_VICTORY": {
+      "translations": {
+        "english": {
+          "name": "First step to world domination ",
+          "description": "Win your first map of the campaign"
+        },
+        "schinese": {
+          "name": "统治世界的第一步",
+          "description": "赢得战役中的第一张地图。"
+        }
+      }
+    },
+    "ACH_KILLER_LVL1": {
+      "translations": {
+        "english": {
+          "name": "Wannabe killer",
+          "description": "Kill 100 enemy soldiers"
+        },
+        "schinese": {
+          "name": "准杀手",
+          "description": "击杀 100 名敌军士兵。"
+        }
+      }
+    },
+    "ACH_KILLER_LVL2": {
+      "translations": {
+        "english": {
+          "name": "Serial killer",
+          "description": "Kill 500 enemy soldiers"
+        },
+        "schinese": {
+          "name": "连环杀手",
+          "description": "击杀 500 名敌军士兵。"
+        }
+      }
+    },
+    "ACH_KILLER_LVL3": {
+      "translations": {
+        "english": {
+          "name": "Elite killer",
+          "description": "Kill 1000 enemy soldiers"
+        },
+        "schinese": {
+          "name": "精英杀手",
+          "description": "击杀 1000 名敌军士兵。"
+        }
+      }
+    },
+    "ACH_DEATHS_LVL1": {
+      "translations": {
+        "english": {
+          "name": "Don't give up!",
+          "description": "Died 100 times"
+        },
+        "schinese": {
+          "name": "别放弃！",
+          "description": "阵亡 100 次。"
+        }
+      }
+    },
+    "ACH_DEATHS_LVL2": {
+      "translations": {
+        "english": {
+          "name": "Again and again!",
+          "description": "Died 200 times"
+        },
+        "schinese": {
+          "name": "一而再再而三！",
+          "description": "阵亡 200 次。"
+        }
+      }
+    },
+    "ACH_DEATHS_LVL3": {
+      "translations": {
+        "english": {
+          "name": "Give up already!",
+          "description": "Died 500 times"
+        },
+        "schinese": {
+          "name": "快放弃吧！",
+          "description": "阵亡 500 次。"
+        }
+      }
+    },
+    "ACH_GREEN_CAMPAIGN_COMPLETE": {
+      "translations": {
+        "english": {
+          "name": "Greenbelts world domination",
+          "description": "Win the Greenbelts campaign "
+        },
+        "schinese": {
+          "name": "绿带的世界统治",
+          "description": "赢得绿带战役。"
+        }
+      }
+    },
+    "ACH_GRAY_CAMPAIGN_COMPLETE": {
+      "translations": {
+        "english": {
+          "name": "Greycollars world domination",
+          "description": "Win the Greycollars campaign"
+        },
+        "schinese": {
+          "name": "灰领的世界统治",
+          "description": "赢得灰领战役。"
+        }
+      }
+    },
+    "ACH_BROWN_CAMPAIGN_COMPLETE": {
+      "translations": {
+        "english": {
+          "name": "Brownpants world domination",
+          "description": "Win the Brownpants campaign"
+        },
+        "schinese": {
+          "name": "褐裤的世界统治",
+          "description": "赢得褐裤战役。"
+        }
+      }
+    },
+    "ACH_DARKCAT_DESTROYED": {
+      "translations": {
+        "english": {
+          "name": "Darkcat is history",
+          "description": "Destroyed the Darkcat tank"
+        },
+        "schinese": {
+          "name": "黑猫成历史",
+          "description": "摧毁黑猫坦克。"
+        }
+      }
+    },
+    "ACH_ROADKILLS_LVL1": {
+      "translations": {
+        "english": {
+          "name": "Roadrage",
+          "description": "Roadkill 5 soldiers"
+        },
+        "schinese": {
+          "name": "路怒",
+          "description": "撞死 5 名士兵。"
+        }
+      }
+    },
+    "ACH_ROADKILLS_LVL2": {
+      "translations": {
+        "english": {
+          "name": "Out of my way!",
+          "description": "Roadkill 20 soldiers"
+        },
+        "schinese": {
+          "name": "别挡道！",
+          "description": "撞死 20 名士兵。"
+        }
+      }
+    },
+    "ACH_ROADKILLS_LVL3": {
+      "translations": {
+        "english": {
+          "name": "Road devil",
+          "description": "Roadkill 100 soldiers"
+        },
+        "schinese": {
+          "name": "公路恶魔",
+          "description": "撞死 100 名士兵。"
+        }
+      }
+    },
+    "ACH_ENEMY_WEAPON_DELIVERED_LVL1": {
+      "translations": {
+        "english": {
+          "name": "Recruit weapon dealer",
+          "description": "Unlock the first enemy weapon"
+        },
+        "schinese": {
+          "name": "新兵军火商",
+          "description": "解锁第一件敌军武器。"
+        }
+      }
+    },
+    "ACH_ENEMY_WEAPON_DELIVERED_LVL2": {
+      "translations": {
+        "english": {
+          "name": "Master weapon dealer",
+          "description": "Unlock 5 enemy weapons"
+        },
+        "schinese": {
+          "name": "军火商大师",
+          "description": "解锁 5 件敌军武器。"
+        }
+      }
+    },
+    "ACH_ENEMY_WEAPON_DELIVERED_LVL3": {
+      "translations": {
+        "english": {
+          "name": "Expert weapon dealer",
+          "description": "Unlock 10 enemy weapons"
+        },
+        "schinese": {
+          "name": "军火商专家",
+          "description": "解锁 10 件敌军武器。"
+        }
+      }
+    },
+    "ACH_BLAST_KILLS_LVL1": {
+      "translations": {
+        "english": {
+          "name": "OMG grenade!",
+          "description": "Kill 100 enemies with blast projectiles"
+        },
+        "schinese": {
+          "name": "天哪，手榴弹！",
+          "description": "用爆炸弹击杀 100 名敌人。"
+        }
+      }
+    },
+    "ACH_BLAST_KILLS_LVL2": {
+      "translations": {
+        "english": {
+          "name": "Badaboom!",
+          "description": "Kill 200 enemies with blast projectiles"
+        },
+        "schinese": {
+          "name": "轰！",
+          "description": "用爆炸弹击杀 200 名敌人。"
+        }
+      }
+    },
+    "ACH_BLAST_KILLS_LVL3": {
+      "translations": {
+        "english": {
+          "name": "You've blown them away!",
+          "description": "Kill 500 enemies with blast projectiles"
+        },
+        "schinese": {
+          "name": "你把他们炸飞了！",
+          "description": "用爆炸弹击杀 500 名敌人。"
+        }
+      }
+    },
+    "ACH_SHOTS_FIRED_LVL1": {
+      "translations": {
+        "english": {
+          "name": "Bullet waster",
+          "description": "10.000 bullets shot"
+        },
+        "schinese": {
+          "name": "弹药浪费者",
+          "description": "射出 10000 发子弹。"
+        }
+      }
+    },
+    "ACH_SHOTS_FIRED_LVL2": {
+      "translations": {
+        "english": {
+          "name": "Trunkful of bullets",
+          "description": "50.000 bullets shot"
+        },
+        "schinese": {
+          "name": "一箱子弹",
+          "description": "射出 50000 发子弹。"
+        }
+      }
+    },
+    "ACH_SHOTS_FIRED_LVL3": {
+      "translations": {
+        "english": {
+          "name": "Truckful of bullets",
+          "description": "100.000 bullets shot"
+        },
+        "schinese": {
+          "name": "一卡车子弹",
+          "description": "射出 100000 发子弹。"
+        }
+      }
+    },
+    "ACH_ANTIAIR_DESTROYED": {
+      "translations": {
+        "english": {
+          "name": "Free Airspace",
+          "description": "Destroy 1 anti-air structure"
+        },
+        "schinese": {
+          "name": "畅通领空",
+          "description": "摧毁 1 座防空设施。"
+        }
+      }
+    },
+    "ACH_DESTROYER_LVL1": {
+      "translations": {
+        "english": {
+          "name": "Destroyer",
+          "description": "Destroy 5 enemy vehicles"
+        },
+        "schinese": {
+          "name": "破坏者",
+          "description": "摧毁 5 辆敌军载具。"
+        }
+      }
+    },
+    "ACH_DESTROYER_LVL2": {
+      "translations": {
+        "english": {
+          "name": "Serious destroyer",
+          "description": "Destroy 10 enemy vehicles"
+        },
+        "schinese": {
+          "name": "严肃破坏者",
+          "description": "摧毁 10 辆敌军载具。"
+        }
+      }
+    },
+    "ACH_DESTROYER_LVL3": {
+      "translations": {
+        "english": {
+          "name": "Wreckage Master",
+          "description": "Destroy 20 enemy vehicles"
+        },
+        "schinese": {
+          "name": "残骸大师",
+          "description": "摧毁 20 辆敌军载具。"
+        }
+      }
+    },
+    "ACH_TARGET_LVL1": {
+      "translations": {
+        "english": {
+          "name": "Rookie saboteur",
+          "description": "Destroy 2 enemy structures"
+        },
+        "schinese": {
+          "name": "菜鸟破坏兵",
+          "description": "摧毁 2 座敌军建筑。"
+        }
+      }
+    },
+    "ACH_TARGET_LVL2": {
+      "translations": {
+        "english": {
+          "name": "Master saboteur",
+          "description": "Destroy 5 enemy structures and 1 communication structure"
+        },
+        "schinese": {
+          "name": "破坏大师",
+          "description": "摧毁 5 座敌军建筑和 1 座通讯设施。"
+        }
+      }
+    },
+    "ACH_TARGET_LVL3": {
+      "translations": {
+        "english": {
+          "name": "Elite saboteur",
+          "description": "Destroy 10 enemy structures and 2 communication structures"
+        },
+        "schinese": {
+          "name": "精英破坏兵",
+          "description": "摧毁 10 座敌军建筑和 2 座通讯设施。"
+        }
+      }
+    },
+    "ACH_TRACKER_LVL1": {
+      "translations": {
+        "english": {
+          "name": "Rookie tracker",
+          "description": "Destroy 2 special crates and deliver 2 secret cargo vehicles"
+        },
+        "schinese": {
+          "name": "菜鸟追踪者",
+          "description": "摧毁 2 个特殊货箱并运回 2 辆秘密货车。"
+        }
+      }
+    },
+    "ACH_TRACKER_LVL2": {
+      "translations": {
+        "english": {
+          "name": "Master tracker",
+          "description": "Destroy 5 special crates and deliver 4 secret cargo vehicles"
+        },
+        "schinese": {
+          "name": "追踪大师",
+          "description": "摧毁 5 个特殊货箱并运回 4 辆秘密货车。"
+        }
+      }
+    },
+    "ACH_TRACKER_LVL3": {
+      "translations": {
+        "english": {
+          "name": "Elite tracker",
+          "description": "Destroy 10 special crates and deliver 8 secret cargo vehicles"
+        },
+        "schinese": {
+          "name": "精英追踪者",
+          "description": "摧毁 10 个特殊货箱并运回 8 辆秘密货车。"
+        }
+      }
+    },
+    "ACH_STEALTH_LVL1": {
+      "translations": {
+        "english": {
+          "name": "Special forces trainee",
+          "description": "Stab 2, kill 10 with a suppressed weapon and spot 2 strategical enemy structures"
+        },
+        "schinese": {
+          "name": "特种部队学员",
+          "description": "捅死 2 人，用消音武器击杀 10 人，并侦察 2 座敌军战略建筑。"
+        }
+      }
+    },
+    "ACH_STEALTH_LVL2": {
+      "translations": {
+        "english": {
+          "name": "Spec Ops Expert",
+          "description": "Stab 5, kill 20 with a suppressed weapon and spot 7 strategical enemy structures"
+        },
+        "schinese": {
+          "name": "特战专家",
+          "description": "捅死 5 人，用消音武器击杀 20 人，并侦察 7 座敌军战略建筑。"
+        }
+      }
+    },
+    "ACH_STEALTH_LVL3": {
+      "translations": {
+        "english": {
+          "name": "Elite Commando",
+          "description": "Stab 10, kill 50 with a suppressed weapon and spot 15 strategical enemy structures"
+        },
+        "schinese": {
+          "name": "精英突击队员",
+          "description": "捅死 10 人，用消音武器击杀 50 人，并侦察 15 座敌军战略建筑。"
+        }
+      }
+    },
+    "ACH_MEDIC_LVL1": {
+      "translations": {
+        "english": {
+          "name": "Who needs a fix?",
+          "description": "Heal 1 wounded soldier"
+        },
+        "schinese": {
+          "name": "谁需要治疗？",
+          "description": "治疗 1 名伤员。"
+        }
+      }
+    },
+    "ACH_MEDIC_LVL2": {
+      "translations": {
+        "english": {
+          "name": "The healing hands",
+          "description": "Heal 5 wounded soldiers"
+        },
+        "schinese": {
+          "name": "妙手回春",
+          "description": "治疗 5 名伤员。"
+        }
+      }
+    },
+    "ACH_MEDIC_LVL3": {
+      "translations": {
+        "english": {
+          "name": "Heal the world",
+          "description": "Heal 10 wounded soldiers"
+        },
+        "schinese": {
+          "name": "治愈世界",
+          "description": "治疗 10 名伤员。"
+        }
+      }
+    },
+    "ACH_MINIBOSS_KILL_LVL1": {
+      "translations": {
+        "english": {
+          "name": "Who's the boss?",
+          "description": "Kill first elite soldier"
+        },
+        "schinese": {
+          "name": "谁是老大？",
+          "description": "击杀第一名精英士兵。"
+        }
+      }
+    },
+    "ACH_MINIBOSS_KILL_LVL2": {
+      "translations": {
+        "english": {
+          "name": "Boss cleaner",
+          "description": "Kill 5 elite soldiers"
+        },
+        "schinese": {
+          "name": "老大清理者",
+          "description": "击杀 5 名精英士兵。"
+        }
+      }
+    },
+    "ACH_MINIBOSS_KILL_LVL3": {
+      "translations": {
+        "english": {
+          "name": "I am the boss!",
+          "description": "Kill 10 elite soldiers"
+        },
+        "schinese": {
+          "name": "我才是老大！",
+          "description": "击杀 10 名精英士兵。"
+        }
+      }
+    },
+    "ACH_PRISON_DESTROYED_LVL1": {
+      "translations": {
+        "english": {
+          "name": "Prison break",
+          "description": "Destroy first prison bus/door"
+        },
+        "schinese": {
+          "name": "越狱",
+          "description": "摧毁第一辆囚车或牢门。"
+        }
+      }
+    },
+    "ACH_PRISON_DESTROYED_LVL2": {
+      "translations": {
+        "english": {
+          "name": "Release your mates",
+          "description": "Destroy 3 prison bus/doors"
+        },
+        "schinese": {
+          "name": "救出战友",
+          "description": "摧毁 3 辆囚车或牢门。"
+        }
+      }
+    },
+    "ACH_PRISON_DESTROYED_LVL3": {
+      "translations": {
+        "english": {
+          "name": "Freedom",
+          "description": "Destroy 5 prison bus/doors"
+        },
+        "schinese": {
+          "name": "自由",
+          "description": "摧毁 5 辆囚车或牢门。"
+        }
+      }
+    }
+  }
+}

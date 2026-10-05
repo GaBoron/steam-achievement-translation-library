@@ -224,10 +224,13 @@ def _write_bytes_atomic(path: Path, data: bytes) -> None:
         temporary.replace(path)
     finally:
         if temporary.exists():
-            temporary.unlink()
+            from recycle_bin import recycle_path
+            recycle_path(temporary, boundary=path.parent)
 
 
 def _remove_obsolete_variant_files(existing_records: list[dict[str, Any]], keep_files: set[str], game_id: str) -> None:
+    from recycle_bin import recycle_path
+
     game_root = (FILES_ROOT / game_id).resolve()
     for record in existing_records:
         schema_file = str(record.get("schema_file") or "")
@@ -238,18 +241,9 @@ def _remove_obsolete_variant_files(existing_records: list[dict[str, Any]], keep_
             path.relative_to(game_root)
         except ValueError as exc:
             raise ValueError(f"版本文件不在 files/{game_id}/ 范围内：{schema_file}") from exc
-        if path.is_file():
-            path.unlink()
-        catalog_path = path.with_name("achievements.md")
-        if catalog_path.is_file():
-            catalog_path.unlink()
-        parent = path.parent
-        while parent != game_root and parent.is_relative_to(game_root):
-            try:
-                parent.rmdir()
-            except OSError:
-                break
-            parent = parent.parent
+        for obsolete in (path, path.with_name("achievements.md"), path.with_suffix(".json")):
+            if obsolete.is_file():
+                recycle_path(obsolete, boundary=game_root)
 
 
 def save_schema_package(

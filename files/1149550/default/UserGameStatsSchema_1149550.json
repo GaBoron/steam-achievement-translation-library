@@ -1,0 +1,894 @@
+{
+  "version": 1,
+  "app_id": "1149550",
+  "variant_id": "default",
+  "source_sha256": "70680eb9ad0242d1024d4e6871d6dedb72f2633e57f141ca36c8af4b9087cd8f",
+  "languages": [
+    "english",
+    "japanese",
+    "schinese",
+    "tchinese"
+  ],
+  "achievements": {
+    "trop000": {
+      "translations": {
+        "english": {
+          "name": "Grandmaster",
+          "description": "Obtained all achievements."
+        },
+        "japanese": {
+          "name": "采配をふるうもの",
+          "description": "全ての実績を獲得した。"
+        },
+        "schinese": {
+          "name": "挥旗下令者",
+          "description": "获得了全部的成就。"
+        },
+        "tchinese": {
+          "name": "揮旗下令者",
+          "description": "獲得了全部的成就。"
+        }
+      }
+    },
+    "trop001": {
+      "translations": {
+        "english": {
+          "name": "The Beginning",
+          "description": "Watched the opening movie."
+        },
+        "japanese": {
+          "name": "物語の始まり",
+          "description": "オープニングムービーを見た。"
+        },
+        "schinese": {
+          "name": "故事的开始",
+          "description": "观看片头动画。"
+        },
+        "tchinese": {
+          "name": "故事的開始",
+          "description": "觀看片頭動畫。"
+        }
+      }
+    },
+    "trop002": {
+      "translations": {
+        "english": {
+          "name": "Test of Will",
+          "description": "\"Test of Will\" completed."
+        },
+        "japanese": {
+          "name": "試される覚悟",
+          "description": "『試される覚悟』をクリアした。"
+        },
+        "schinese": {
+          "name": "受检验的觉悟",
+          "description": "完成「受检验的觉悟」。"
+        },
+        "tchinese": {
+          "name": "受檢驗的覺悟",
+          "description": "完成「受檢驗的覺悟」。"
+        }
+      }
+    },
+    "trop003": {
+      "translations": {
+        "english": {
+          "name": "Extermination",
+          "description": "\"Extermination\" completed."
+        },
+        "japanese": {
+          "name": "害蟲駆除",
+          "description": "『害蟲駆除』をクリアした。"
+        },
+        "schinese": {
+          "name": "驱逐害虫",
+          "description": "完成「驱逐害虫」。"
+        },
+        "tchinese": {
+          "name": "驅逐害蟲",
+          "description": "完成「驅逐害蟲」。"
+        }
+      }
+    },
+    "trop004": {
+      "translations": {
+        "english": {
+          "name": "Familiar Threat",
+          "description": "\"Familiar Threat\" completed."
+        },
+        "japanese": {
+          "name": "伏蟲重来",
+          "description": "『伏蟲重来』をクリアした。"
+        },
+        "schinese": {
+          "name": "潜虫再袭",
+          "description": "完成「潜虫再袭」。"
+        },
+        "tchinese": {
+          "name": "潛蟲再襲",
+          "description": "完成「潛蟲再襲」。"
+        }
+      }
+    },
+    "trop005": {
+      "translations": {
+        "english": {
+          "name": "Bandits",
+          "description": "\"Bandits\" completed."
+        },
+        "japanese": {
+          "name": "賊と賊",
+          "description": "『賊と賊』をクリアした。"
+        },
+        "schinese": {
+          "name": "贼人与贼人",
+          "description": "完成「贼人与贼人」。"
+        },
+        "tchinese": {
+          "name": "賊人與賊人",
+          "description": "完成「賊人與賊人」。"
+        }
+      }
+    },
+    "trop006": {
+      "translations": {
+        "english": {
+          "name": "First Mission",
+          "description": "\"First Mission\" completed."
+        },
+        "japanese": {
+          "name": "最初の任務",
+          "description": "『最初の任務』をクリアした。"
+        },
+        "schinese": {
+          "name": "最初的任务",
+          "description": "完成「最初的任务」。"
+        },
+        "tchinese": {
+          "name": "最初的任務",
+          "description": "完成「最初的任務」。"
+        }
+      }
+    },
+    "trop007": {
+      "translations": {
+        "english": {
+          "name": "Elopement",
+          "description": "\"Elopement\" completed."
+        },
+        "japanese": {
+          "name": "愛の逃避行",
+          "description": "『愛の逃避行』をクリアした。"
+        },
+        "schinese": {
+          "name": "爱的逃亡",
+          "description": "完成「爱的逃亡」。"
+        },
+        "tchinese": {
+          "name": "愛的逃亡",
+          "description": "完成「愛的逃亡」。"
+        }
+      }
+    },
+    "trop008": {
+      "translations": {
+        "english": {
+          "name": "Playing with Fire",
+          "description": "\"Playing with Fire\" completed."
+        },
+        "japanese": {
+          "name": "禁じられた火遊び",
+          "description": "『禁じられた火遊び』をクリアした。"
+        },
+        "schinese": {
+          "name": "禁忌的玩火行为",
+          "description": "完成「禁忌的玩火行为」。"
+        },
+        "tchinese": {
+          "name": "禁忌的玩火行為",
+          "description": "完成「禁忌的玩火行為」。"
+        }
+      }
+    },
+    "trop009": {
+      "translations": {
+        "english": {
+          "name": "Vice and Virtue",
+          "description": "\"Vice and Virtue\" completed."
+        },
+        "japanese": {
+          "name": "悪徳の栄え",
+          "description": "『悪徳の栄え』をクリアした。"
+        },
+        "schinese": {
+          "name": "恶德之荣",
+          "description": "完成「恶德之荣」。"
+        },
+        "tchinese": {
+          "name": "惡德之榮",
+          "description": "完成「惡德之榮」。"
+        }
+      }
+    },
+    "trop010": {
+      "translations": {
+        "english": {
+          "name": "Nakwan",
+          "description": "\"Nakwan\" completed."
+        },
+        "japanese": {
+          "name": "剣奴",
+          "description": "『剣奴』をクリアした。"
+        },
+        "schinese": {
+          "name": "剑奴",
+          "description": "完成「剑奴」。"
+        },
+        "tchinese": {
+          "name": "劍奴",
+          "description": "完成「劍奴」。"
+        }
+      }
+    },
+    "trop011": {
+      "translations": {
+        "english": {
+          "name": "The Prisoners",
+          "description": "\"The Prisoners\" completed."
+        },
+        "japanese": {
+          "name": "囚われしもの",
+          "description": "『囚われしもの』をクリアした。"
+        },
+        "schinese": {
+          "name": "遭囚禁者",
+          "description": "完成「遭囚禁者」。"
+        },
+        "tchinese": {
+          "name": "遭囚禁者",
+          "description": "完成「遭囚禁者」。"
+        }
+      }
+    },
+    "trop012": {
+      "translations": {
+        "english": {
+          "name": "Remnants",
+          "description": "\"Remnants\" completed."
+        },
+        "japanese": {
+          "name": "記憶の残照",
+          "description": "『記憶の残照』をクリアした。"
+        },
+        "schinese": {
+          "name": "记忆残影",
+          "description": "完成「记忆残影」。"
+        },
+        "tchinese": {
+          "name": "記憶殘影",
+          "description": "完成「記憶殘影」。"
+        }
+      }
+    },
+    "trop013": {
+      "translations": {
+        "english": {
+          "name": "Encounter",
+          "description": "\"Encounter\" completed."
+        },
+        "japanese": {
+          "name": "邂逅",
+          "description": "『邂逅』をクリアした。"
+        },
+        "schinese": {
+          "name": "邂逅",
+          "description": "完成「邂逅」。"
+        },
+        "tchinese": {
+          "name": "邂逅",
+          "description": "完成「邂逅」。"
+        }
+      }
+    },
+    "trop014": {
+      "translations": {
+        "english": {
+          "name": "Mononofu",
+          "description": "\"Mononofu\" completed."
+        },
+        "japanese": {
+          "name": "もののふ",
+          "description": "『もののふ』をクリアした。"
+        },
+        "schinese": {
+          "name": "武人",
+          "description": "完成「武人」。"
+        },
+        "tchinese": {
+          "name": "武人",
+          "description": "完成「武人」。"
+        }
+      }
+    },
+    "trop015": {
+      "translations": {
+        "english": {
+          "name": "Shadows",
+          "description": "\"Shadows\" completed."
+        },
+        "japanese": {
+          "name": "影",
+          "description": "『影』をクリアした。"
+        },
+        "schinese": {
+          "name": "影",
+          "description": "完成「影」。"
+        },
+        "tchinese": {
+          "name": "影",
+          "description": "完成「影」。"
+        }
+      }
+    },
+    "trop016": {
+      "translations": {
+        "english": {
+          "name": "The Rescue",
+          "description": "\"The Rescue\" completed."
+        },
+        "japanese": {
+          "name": "救出",
+          "description": "『救出』をクリアした。"
+        },
+        "schinese": {
+          "name": "营救",
+          "description": "完成「营救」。"
+        },
+        "tchinese": {
+          "name": "營救",
+          "description": "完成「營救」。"
+        }
+      }
+    },
+    "trop017": {
+      "translations": {
+        "english": {
+          "name": "Conqueror",
+          "description": "\"Conqueror\" completed."
+        },
+        "japanese": {
+          "name": "覇者たるもの",
+          "description": "『覇者たるもの』をクリアした。"
+        },
+        "schinese": {
+          "name": "身为霸者",
+          "description": "完成「身为霸者」。"
+        },
+        "tchinese": {
+          "name": "身為霸者",
+          "description": "完成「身為霸者」。"
+        }
+      }
+    },
+    "trop018": {
+      "translations": {
+        "english": {
+          "name": "Vurai",
+          "description": "\"Vurai\" completed."
+        },
+        "japanese": {
+          "name": "武頼",
+          "description": "『武頼』をクリアした。"
+        },
+        "schinese": {
+          "name": "武赖",
+          "description": "完成「武赖」。"
+        },
+        "tchinese": {
+          "name": "武賴",
+          "description": "完成「武賴」。"
+        }
+      }
+    },
+    "trop019": {
+      "translations": {
+        "english": {
+          "name": "Mask of Deception",
+          "description": "Witnessed the ending of the game."
+        },
+        "japanese": {
+          "name": "偽りの仮面",
+          "description": "エンディングに到達した。"
+        },
+        "schinese": {
+          "name": "虚伪的假面",
+          "description": "完成故事剧情。"
+        },
+        "tchinese": {
+          "name": "虛偽的假面",
+          "description": "完成故事劇情。"
+        }
+      }
+    },
+    "trop020": {
+      "translations": {
+        "english": {
+          "name": "Behemoth Defeated",
+          "description": "Defeated the Boro-Gigiri."
+        },
+        "japanese": {
+          "name": "巨蟲討伐",
+          "description": "『ボロギギリ』を撃破した。"
+        },
+        "schinese": {
+          "name": "讨伐巨虫",
+          "description": "击败「巨奇利」。"
+        },
+        "tchinese": {
+          "name": "討伐巨蟲",
+          "description": "擊敗「巨奇利」。"
+        }
+      }
+    },
+    "trop021": {
+      "translations": {
+        "english": {
+          "name": "Axetermination",
+          "description": "Destroyed Moznu's axe."
+        },
+        "japanese": {
+          "name": "武器破壊",
+          "description": "『モズヌの斧』を破壊した。"
+        },
+        "schinese": {
+          "name": "破坏武器",
+          "description": "破坏「伯劳的斧头」。"
+        },
+        "tchinese": {
+          "name": "破壞武器",
+          "description": "破壞「伯勞的斧頭」。"
+        }
+      }
+    },
+    "trop022": {
+      "translations": {
+        "english": {
+          "name": "Tatarigami Defeated",
+          "description": "Defeated the Tatari Unkami."
+        },
+        "japanese": {
+          "name": "祟神撃退",
+          "description": "『タタリウンカミ』を撃破した。"
+        },
+        "schinese": {
+          "name": "击退祟神",
+          "description": "击败「祟温凯米」。"
+        },
+        "tchinese": {
+          "name": "擊退祟神",
+          "description": "擊敗「祟溫凱米」。"
+        }
+      }
+    },
+    "trop023": {
+      "translations": {
+        "english": {
+          "name": "Chain Link",
+          "description": "Successfully executed an Action Chain."
+        },
+        "japanese": {
+          "name": "連撃の嗜み",
+          "description": "連撃の入力に成功した。"
+        },
+        "schinese": {
+          "name": "连击素养",
+          "description": "成功输入连击。"
+        },
+        "tchinese": {
+          "name": "連擊素養",
+          "description": "成功輸入連擊。"
+        }
+      }
+    },
+    "trop024": {
+      "translations": {
+        "english": {
+          "name": "Skillshot",
+          "description": "Successfully executed a reactive Skill."
+        },
+        "japanese": {
+          "name": "錬技の嗜み",
+          "description": "錬技の入力に成功した。"
+        },
+        "schinese": {
+          "name": "炼技素养",
+          "description": "成功输入炼技。"
+        },
+        "tchinese": {
+          "name": "鍊技素養",
+          "description": "成功輸入鍊技。"
+        }
+      }
+    },
+    "trop025": {
+      "translations": {
+        "english": {
+          "name": "Critically Acclaimed",
+          "description": "Successfully executed a critical."
+        },
+        "japanese": {
+          "name": "会心の技あり",
+          "description": "クリティカル入力に成功した。"
+        },
+        "schinese": {
+          "name": "此为会心之技",
+          "description": "成功输入会心攻击。"
+        },
+        "tchinese": {
+          "name": "此為會心之技",
+          "description": "成功輸入會心攻擊。"
+        }
+      }
+    },
+    "trop026": {
+      "translations": {
+        "english": {
+          "name": "Grand Finale",
+          "description": "Used a Final Strike."
+        },
+        "japanese": {
+          "name": "連撃極めたり",
+          "description": "必殺技を使用した。"
+        },
+        "schinese": {
+          "name": "此为连击之极",
+          "description": "使用必杀技。"
+        },
+        "tchinese": {
+          "name": "此為連擊之極",
+          "description": "使用必殺技。"
+        }
+      }
+    },
+    "trop027": {
+      "translations": {
+        "english": {
+          "name": "Always Be Prepared",
+          "description": "Equipped an item."
+        },
+        "japanese": {
+          "name": "備えあれば憂いなし",
+          "description": "所持品を装備した。"
+        },
+        "schinese": {
+          "name": "有备而无患",
+          "description": "装备持有物。"
+        },
+        "tchinese": {
+          "name": "有備而無患",
+          "description": "裝備持有物。"
+        }
+      }
+    },
+    "trop028": {
+      "translations": {
+        "english": {
+          "name": "Fruits of your Labor",
+          "description": "Spent a bonus point."
+        },
+        "japanese": {
+          "name": "鍛練の成果",
+          "description": "ボーナスポイントを使用した。"
+        },
+        "schinese": {
+          "name": "锻炼成果",
+          "description": "使用奖励点数。"
+        },
+        "tchinese": {
+          "name": "鍛鍊成果",
+          "description": "使用獎勵點數。"
+        }
+      }
+    },
+    "trop029": {
+      "translations": {
+        "english": {
+          "name": "Recollections",
+          "description": "Played Recollections."
+        },
+        "japanese": {
+          "name": "戦闘回想",
+          "description": "戦闘回想を行った。"
+        },
+        "schinese": {
+          "name": "战斗回想",
+          "description": "进行战斗回想。"
+        },
+        "tchinese": {
+          "name": "戰鬥回想",
+          "description": "進行戰鬥回想。"
+        }
+      }
+    },
+    "trop030": {
+      "translations": {
+        "english": {
+          "name": "Glossary",
+          "description": "Accessed the Glossary."
+        },
+        "japanese": {
+          "name": "用語辞典",
+          "description": "用語辞典を読んだ。"
+        },
+        "schinese": {
+          "name": "用语辞典",
+          "description": "阅读用语辞典。"
+        },
+        "tchinese": {
+          "name": "用語辭典",
+          "description": "閱讀用語辭典。"
+        }
+      }
+    },
+    "trop031": {
+      "translations": {
+        "english": {
+          "name": "Stand and Fight",
+          "description": "Stopped an enemy's movement with ZOC."
+        },
+        "japanese": {
+          "name": "お相手致す",
+          "description": "ＺＯＣで敵の移動を阻止した。"
+        },
+        "schinese": {
+          "name": "你的对手是我",
+          "description": "以ZOC阻止敌人移动。"
+        },
+        "tchinese": {
+          "name": "你的對手是我",
+          "description": "以ZOC阻止敵人移動。"
+        }
+      }
+    },
+    "trop032": {
+      "translations": {
+        "english": {
+          "name": "Breakthrough",
+          "description": "Broke through an enemy's ZOC."
+        },
+        "japanese": {
+          "name": "敵陣突破",
+          "description": "敵のＺＯＣを突破した。"
+        },
+        "schinese": {
+          "name": "突破敌阵",
+          "description": "突破敌人的ZOC。"
+        },
+        "tchinese": {
+          "name": "突破敵陣",
+          "description": "突破敵人的ZOC。"
+        }
+      }
+    },
+    "trop033": {
+      "translations": {
+        "english": {
+          "name": "Super Effective",
+          "description": "Took advantage of an enemy's weak attribute."
+        },
+        "japanese": {
+          "name": "弱点見抜いたり",
+          "description": "敵の弱点属性をついた。"
+        },
+        "schinese": {
+          "name": "看穿弱点",
+          "description": "以敌人的弱点属性攻击敌人。"
+        },
+        "tchinese": {
+          "name": "看穿弱點",
+          "description": "以敵人的弱點屬性攻擊敵人。"
+        }
+      }
+    },
+    "trop034": {
+      "translations": {
+        "english": {
+          "name": "Self-Centered",
+          "description": "Used Action Chain on yourself."
+        },
+        "japanese": {
+          "name": "我田引水",
+          "description": "自分自身に連撃を使用した。"
+        },
+        "schinese": {
+          "name": "独善其身",
+          "description": "对自己使用连击。"
+        },
+        "tchinese": {
+          "name": "獨善其身",
+          "description": "對自己使用連擊。"
+        }
+      }
+    },
+    "trop035": {
+      "translations": {
+        "english": {
+          "name": "All a Dream",
+          "description": "Entered the Dream Arena."
+        },
+        "japanese": {
+          "name": "其れは夢か幻か",
+          "description": "夢幻演武に挑戦した。"
+        },
+        "schinese": {
+          "name": "梦境抑或是现实",
+          "description": "挑战梦幻演武。"
+        },
+        "tchinese": {
+          "name": "夢境抑或是現實",
+          "description": "挑戰夢幻演武。"
+        }
+      }
+    },
+    "trop036": {
+      "translations": {
+        "english": {
+          "name": "Maestro",
+          "description": "Successfully engaged in Critical 100 times."
+        },
+        "japanese": {
+          "name": "達人の技",
+          "description": "クリティカル入力に１００回成功した。"
+        },
+        "schinese": {
+          "name": "达人之技",
+          "description": "成功输入100次会心攻击。"
+        },
+        "tchinese": {
+          "name": "達人之技",
+          "description": "成功輸入100次會心攻擊。"
+        }
+      }
+    },
+    "trop037": {
+      "translations": {
+        "english": {
+          "name": "Fond Memories",
+          "description": "Unlocked all event visuals."
+        },
+        "japanese": {
+          "name": "追憶の時",
+          "description": "全てのイベントビジュアルを見た。"
+        },
+        "schinese": {
+          "name": "追忆之时",
+          "description": "欣赏所有事件图像。"
+        },
+        "tchinese": {
+          "name": "追憶之時",
+          "description": "欣賞所有事件圖像。"
+        }
+      }
+    },
+    "trop038": {
+      "translations": {
+        "english": {
+          "name": "Melodious Heart",
+          "description": "Unlocked all BGM."
+        },
+        "japanese": {
+          "name": "万感の音",
+          "description": "全てのBGMを聴いた。"
+        },
+        "schinese": {
+          "name": "万感之音",
+          "description": "聆听所有BGM。"
+        },
+        "tchinese": {
+          "name": "萬感之音",
+          "description": "聆聽所有BGM。"
+        }
+      }
+    },
+    "trop039": {
+      "translations": {
+        "english": {
+          "name": "Kamunagi of Chaining",
+          "description": "Used Action Chain with all characters."
+        },
+        "japanese": {
+          "name": "連撃百識",
+          "description": "メインキャラ全員の連撃を全て使用した。"
+        },
+        "schinese": {
+          "name": "连击百识",
+          "description": "使用所有主要角色的连击。"
+        },
+        "tchinese": {
+          "name": "連擊百識",
+          "description": "使用所有主要角色的連擊。"
+        }
+      }
+    },
+    "trop040": {
+      "translations": {
+        "english": {
+          "name": "Coup de Grâceful",
+          "description": "Used Final Strike with all characters."
+        },
+        "japanese": {
+          "name": "奥義百識",
+          "description": "メインキャラ全員の必殺技を全て使用した。"
+        },
+        "schinese": {
+          "name": "奥义百识",
+          "description": "使用所有主要角色的必杀技。"
+        },
+        "tchinese": {
+          "name": "奧義百識",
+          "description": "使用所有主要角色的必殺技。"
+        }
+      }
+    },
+    "trop041": {
+      "translations": {
+        "english": {
+          "name": "Master of Masters",
+          "description": "Reached the max level for a unit."
+        },
+        "japanese": {
+          "name": "修練の極",
+          "description": "ユニットが最高レベルに到達した。"
+        },
+        "schinese": {
+          "name": "修练之极",
+          "description": "单位达到最高等级。"
+        },
+        "tchinese": {
+          "name": "修練之極",
+          "description": "單位達到最高等級。"
+        }
+      }
+    },
+    "trop042": {
+      "translations": {
+        "english": {
+          "name": "Ten Outta Ten",
+          "description": "On one map, defeated 10 enemies with 1 unit."
+        },
+        "japanese": {
+          "name": "十人抜き",
+          "description": "一人で十人の敵を倒した。"
+        },
+        "schinese": {
+          "name": "连败十人",
+          "description": "以一人之力打倒十名敌人。"
+        },
+        "tchinese": {
+          "name": "連敗十人",
+          "description": "以一人之力打倒十名敵人。"
+        }
+      }
+    },
+    "trop043": {
+      "translations": {
+        "english": {
+          "name": "Warrior Legend",
+          "description": "Defeated more than 300 enemy units."
+        },
+        "japanese": {
+          "name": "古今無双",
+          "description": "敵の撃破数が３００体を超えた。"
+        },
+        "schinese": {
+          "name": "古今无双",
+          "description": "击败300名敌人。"
+        },
+        "tchinese": {
+          "name": "古今無雙",
+          "description": "擊敗300名敵人。"
+        }
+      }
+    }
+  }
+}

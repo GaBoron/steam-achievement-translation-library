@@ -1,0 +1,2436 @@
+{
+  "version": 1,
+  "app_id": "1944570",
+  "variant_id": "default",
+  "source_sha256": "6d561a58f52402c44a100da4220ed4b3bf5f0090a8437440383cdb353f4e54d8",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "Bone": {
+      "translations": {
+        "english": {
+          "name": "Thy First Boner",
+          "description": "Mommy will be so proud of thee!"
+        },
+        "schinese": {
+          "name": "第一根硬骨头",
+          "description": "妈妈一定会为你骄傲！"
+        }
+      }
+    },
+    "Coffin_Won_Wretch": {
+      "translations": {
+        "english": {
+          "name": "Wretch Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Deprived Wretch class!"
+        },
+        "schinese": {
+          "name": "苦命人：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以穷苦可怜人职业取得333,333+分！"
+        }
+      }
+    },
+    "Coffin_Won_Necro": {
+      "translations": {
+        "english": {
+          "name": "Liche Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Liche Necromancer class!"
+        },
+        "schinese": {
+          "name": "巫妖：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以巫妖死灵法师职业取得333,333+分！"
+        }
+      }
+    },
+    "Coffin_Won_Vampire": {
+      "translations": {
+        "english": {
+          "name": "Vampire Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Vampire Survivor class!"
+        },
+        "schinese": {
+          "name": "吸血鬼：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以吸血鬼幸存者职业取得333,333+分！"
+        }
+      }
+    },
+    "Coffin_Won_Demon": {
+      "translations": {
+        "english": {
+          "name": "Sinned Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Sinned Deamologist class!"
+        },
+        "schinese": {
+          "name": "罪孽者：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以罪孽恶魔学家职业取得333,333+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Wretch": {
+      "translations": {
+        "english": {
+          "name": "Wretch Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Deprived Wretch class!"
+        },
+        "schinese": {
+          "name": "苦命人：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用穷苦可怜人职业取得66,666+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Necro": {
+      "translations": {
+        "english": {
+          "name": "Liche Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Liche Necromancer class!"
+        },
+        "schinese": {
+          "name": "巫妖：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用巫妖死灵法师职业取得66,666+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Vampire": {
+      "translations": {
+        "english": {
+          "name": "Vampire Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Vampire Survivor class!"
+        },
+        "schinese": {
+          "name": "吸血鬼：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用吸血鬼幸存者职业取得66,666+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Demon": {
+      "translations": {
+        "english": {
+          "name": "Sinned Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Sinned Deamologist class!"
+        },
+        "schinese": {
+          "name": "罪孽者：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用罪孽恶魔学家职业取得66,666+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Mausoleum": {
+      "translations": {
+        "english": {
+          "name": "Forsaken Skirmish Supremacy",
+          "description": "In Necrotic Skirmishes attain a score of 99,999+ on the Forsaken Cemetery map!"
+        },
+        "schinese": {
+          "name": "荒弃墓园遭遇战霸主",
+          "description": "在“亡灵遭遇战”中，于“荒弃墓园”地图取得99,999+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Woods": {
+      "translations": {
+        "english": {
+          "name": "Sorrowful Skirmish Supremacy",
+          "description": "In Necrotic Skirmishes attain a score of 99,999+ on the Sorrowful Sullenwods map!"
+        },
+        "schinese": {
+          "name": "悲郁林地遭遇战霸主",
+          "description": "在“亡灵遭遇战”中，于“悲郁林地”地图取得99,999+分！"
+        }
+      }
+    },
+    "Cards_Streak": {
+      "translations": {
+        "english": {
+          "name": "Clashful Winning Streak",
+          "description": "In Clashful Cards attain a 3+ win streak!"
+        },
+        "schinese": {
+          "name": "激战卡牌连胜",
+          "description": "在“激战卡牌”中取得3+连胜！"
+        }
+      }
+    },
+    "Necro_Unseal": {
+      "translations": {
+        "english": {
+          "name": "Liche Necromancer Unsealing",
+          "description": "Unlock the Liche Necromancer class!"
+        },
+        "schinese": {
+          "name": "巫妖死灵法师解封",
+          "description": "解锁巫妖死灵法师职业！"
+        }
+      }
+    },
+    "Vampire_Unseal": {
+      "translations": {
+        "english": {
+          "name": "Vampire Survivor Unsealing",
+          "description": "Unlock the Vampire Survivor class!"
+        },
+        "schinese": {
+          "name": "吸血鬼幸存者解封",
+          "description": "解锁吸血鬼幸存者职业！"
+        }
+      }
+    },
+    "Demon_Unseal": {
+      "translations": {
+        "english": {
+          "name": "Sinned Deamologist Unsealing",
+          "description": "Unlock the Sinned Deamologist class!"
+        },
+        "schinese": {
+          "name": "罪孽恶魔学家解封",
+          "description": "解锁罪孽恶魔学家职业！"
+        }
+      }
+    },
+    "Hats_All": {
+      "translations": {
+        "english": {
+          "name": "Catwalk Fancy Hats",
+          "description": "Collect all the collectable Hat skins!"
+        },
+        "schinese": {
+          "name": "T台华帽",
+          "description": "收集全部可收集的帽子皮肤！"
+        }
+      }
+    },
+    "Cards_All_Hero": {
+      "translations": {
+        "english": {
+          "name": "Heroic Card Collector",
+          "description": "Collect all heroic force Clashful Cards!"
+        },
+        "schinese": {
+          "name": "英雄之力卡牌收藏家",
+          "description": "收集全部英雄之力的“激战卡牌”！"
+        }
+      }
+    },
+    "Cards_All_Minion": {
+      "translations": {
+        "english": {
+          "name": "Boneraiser Card Collector",
+          "description": "Collect all boneraised minion Clashful Cards!"
+        },
+        "schinese": {
+          "name": "唤骨者卡牌收藏家",
+          "description": "收集全部唤骨仆从的“激战卡牌”！"
+        }
+      }
+    },
+    "Comp_RelicItems_All": {
+      "translations": {
+        "english": {
+          "name": "Grimoire Relic Fulfilment",
+          "description": "Collect all Relic items in the Grimoire Compendium!"
+        },
+        "schinese": {
+          "name": "魔典遗物全收集",
+          "description": "收集魔典图鉴中的全部遗物！"
+        }
+      }
+    },
+    "Comp_SpellItems_All": {
+      "translations": {
+        "english": {
+          "name": "Grimoire Spell Fulfilment",
+          "description": "Collect all Spell items in the Grimoire Compendium!"
+        },
+        "schinese": {
+          "name": "魔典法术全收集",
+          "description": "收集魔典图鉴中的全部法术物品！"
+        }
+      }
+    },
+    "Coffin_BigScore": {
+      "translations": {
+        "english": {
+          "name": "Mausoleum Filthy Stinkin Rich",
+          "description": "In Mausoleum Awakens attain a score of 444,444+"
+        },
+        "schinese": {
+          "name": "陵墓富得流油",
+          "description": "在“陵墓苏醒”中取得444,444+分！"
+        }
+      }
+    },
+    "Coffin_FastTime": {
+      "translations": {
+        "english": {
+          "name": "Mausoleum Speed Runner",
+          "description": "Give King Gigald a right good proper pounding in under 13 minutes!"
+        },
+        "schinese": {
+          "name": "陵墓速通者",
+          "description": "在13分钟内狠狠痛揍吉加尔德国王一顿！"
+        }
+      }
+    },
+    "Meta_Class_Wretch": {
+      "translations": {
+        "english": {
+          "name": "Wretch Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Deprived Wretch!"
+        },
+        "schinese": {
+          "name": "苦命人：传承圆满",
+          "description": "解封穷苦可怜人的全部职业传承！"
+        }
+      }
+    },
+    "Meta_Class_Necro": {
+      "translations": {
+        "english": {
+          "name": "Liche Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Liche Necromancer!"
+        },
+        "schinese": {
+          "name": "巫妖：传承圆满",
+          "description": "解封巫妖死灵法师的全部职业传承！"
+        }
+      }
+    },
+    "Meta_Class_Vampire": {
+      "translations": {
+        "english": {
+          "name": "Vampire Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Vampire Survivor!"
+        },
+        "schinese": {
+          "name": "吸血鬼：传承圆满",
+          "description": "解封吸血鬼幸存者的全部职业传承！"
+        }
+      }
+    },
+    "Meta_Class_Demon": {
+      "translations": {
+        "english": {
+          "name": "Sinned Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Sinned Deamologist!"
+        },
+        "schinese": {
+          "name": "罪孽者：传承圆满",
+          "description": "解封罪孽恶魔学家的全部职业传承！"
+        }
+      }
+    },
+    "Meta_Player_Level_1": {
+      "translations": {
+        "english": {
+          "name": "Boneraise Lore Level 1 Learnings",
+          "description": "Unseal all Level 1 Boneraise Lore Meta Progression!"
+        },
+        "schinese": {
+          "name": "唤骨学识等级1全习得",
+          "description": "解封全部1级唤骨学识元进度！"
+        }
+      }
+    },
+    "Meta_Player_Level_2": {
+      "translations": {
+        "english": {
+          "name": "Boneraise Lore Level 2 Learnings",
+          "description": "Unseal all Level 2 Boneraise Lore Meta Progression!"
+        },
+        "schinese": {
+          "name": "唤骨学识等级2全习得",
+          "description": "解封全部2级唤骨学识元进度！"
+        }
+      }
+    },
+    "Meta_Player_Level_3": {
+      "translations": {
+        "english": {
+          "name": "Boneraise Lore Level 3 Learnings",
+          "description": "Unseal all Level 3 Boneraise Lore Meta Progression!"
+        },
+        "schinese": {
+          "name": "唤骨学识等级3全习得",
+          "description": "解封全部3级唤骨学识元进度！"
+        }
+      }
+    },
+    "Meta_Hero_Level_1": {
+      "translations": {
+        "english": {
+          "name": "Heroic Force Level 1 Learnings",
+          "description": "Unseal all Level 1 Heroic Force Meta Progression!"
+        },
+        "schinese": {
+          "name": "英雄之力等级1全习得",
+          "description": "解封全部1级英雄之力元进度！"
+        }
+      }
+    },
+    "Meta_Hero_Level_2": {
+      "translations": {
+        "english": {
+          "name": "Heroic Force Level 2 Learnings",
+          "description": "Unseal all Level 2 Heroic Force Meta Progression!"
+        },
+        "schinese": {
+          "name": "英雄之力等级2全习得",
+          "description": "解封全部2级英雄之力元进度！"
+        }
+      }
+    },
+    "Meta_Hero_Level_3": {
+      "translations": {
+        "english": {
+          "name": "Heroic Force Level 3 Learnings",
+          "description": "Unseal all Level 3 Heroic Force Meta Progression!"
+        },
+        "schinese": {
+          "name": "英雄之力等级3全习得",
+          "description": "解封全部3级英雄之力元进度！"
+        }
+      }
+    },
+    "Survive_Peasant": {
+      "translations": {
+        "english": {
+          "name": "Peasantry Survivor",
+          "description": "In Mausoleum Awakens survive the three stages of Peasants!"
+        },
+        "schinese": {
+          "name": "农民幸存者",
+          "description": "在“陵墓苏醒”中挺过农民的三个阶段！"
+        }
+      }
+    },
+    "Survive_Knight": {
+      "translations": {
+        "english": {
+          "name": "Knightly Survivor",
+          "description": "In Mausoleum Awakens survive the three stages of Knights!"
+        },
+        "schinese": {
+          "name": "骑士幸存者",
+          "description": "在“陵墓苏醒”中挺过骑士的三个阶段！"
+        }
+      }
+    },
+    "Survive_Paladin": {
+      "translations": {
+        "english": {
+          "name": "Paladinal Survivor",
+          "description": "In Mausoleum Awakens survive the three stages of Paladins!"
+        },
+        "schinese": {
+          "name": "圣骑士幸存者",
+          "description": "在“陵墓苏醒”中挺过圣骑士的三个阶段！"
+        }
+      }
+    },
+    "Survive_Beggar": {
+      "translations": {
+        "english": {
+          "name": "Beggars Survival",
+          "description": "In Mausoleum Awakens survive an upgraded wave of the Beggars Revolt!"
+        },
+        "schinese": {
+          "name": "乞丐幸存者",
+          "description": "在“陵墓苏醒”中挺过“乞丐暴动”的强化波次！"
+        }
+      }
+    },
+    "Survive_Rat": {
+      "translations": {
+        "english": {
+          "name": "Ratty Survival",
+          "description": "In Mausoleum Awakens survive an upgraded wave of the Ratty Attacky!"
+        },
+        "schinese": {
+          "name": "鼠鼠幸存者",
+          "description": "在“陵墓苏醒”中挺过“鼠鼠来袭”的强化波次！"
+        }
+      }
+    },
+    "Survive_Slime": {
+      "translations": {
+        "english": {
+          "name": "Slimes Survival",
+          "description": "In Mausoleum Awakens survive an upgraded wave of the Goopily Slimies!"
+        },
+        "schinese": {
+          "name": "史莱姆幸存者",
+          "description": "在“陵墓苏醒”中挺过“黏糊糊的史莱姆”的强化波次！"
+        }
+      }
+    },
+    "Survive_Hobbit": {
+      "translations": {
+        "english": {
+          "name": "Halflings Survival",
+          "description": "In Mausoleum Awakens survive an upgraded wave of the Sneaky Little Hobbitses!"
+        },
+        "schinese": {
+          "name": "半身人幸存者",
+          "description": "在“陵墓苏醒”中挺过“鬼鬼祟祟的小霍比特人”的强化波次！"
+        }
+      }
+    },
+    "Survive_Goblin": {
+      "translations": {
+        "english": {
+          "name": "Gnoblin Survival",
+          "description": "In Mausoleum Awakens survive an upgraded wave of the Gnoblin Lootas!"
+        },
+        "schinese": {
+          "name": "格诺布林幸存者",
+          "description": "在“陵墓苏醒”中挺过“格诺布林劫匪”的强化波次！"
+        }
+      }
+    },
+    "Survive_Dryad": {
+      "translations": {
+        "english": {
+          "name": "Dryad Survival",
+          "description": "In Mausoleum Awakens survive an upgraded wave of The Forest Is Alive!"
+        },
+        "schinese": {
+          "name": "树精幸存者",
+          "description": "在“陵墓苏醒”中挺过“森林活过来了”的强化波次！"
+        }
+      }
+    },
+    "Survive_Cannibal": {
+      "translations": {
+        "english": {
+          "name": "Cannibal Survival",
+          "description": "In Mausoleum Awakens survive an upgraded wave of The Famished Fleshlickers!"
+        },
+        "schinese": {
+          "name": "食人族幸存者",
+          "description": "在“陵墓苏醒”中挺过“饥饿舔肉者”的强化波次！"
+        }
+      }
+    },
+    "Survive_Cyclops": {
+      "translations": {
+        "english": {
+          "name": "Cyclops Survival",
+          "description": "In Mausoleum Awakens survive an upgraded wave of The Mount Eyeball Might!"
+        },
+        "schinese": {
+          "name": "独眼巨人幸存者",
+          "description": "在“陵墓苏醒”中挺过“眼球巨峰之威”的强化波次！"
+        }
+      }
+    },
+    "Kill_BsWizard": {
+      "translations": {
+        "english": {
+          "name": "High Wizard Bosshunter",
+          "description": "Give the High Wizard boss a jolly good pounding!"
+        },
+        "schinese": {
+          "name": "高阶巫师首领猎手",
+          "description": "狠狠痛揍高阶巫师首领一顿！"
+        }
+      }
+    },
+    "Kill_BsKnight": {
+      "translations": {
+        "english": {
+          "name": "Lord of the Land Bosshunter",
+          "description": "Give the Lord of the Land boss a jolly good pounding!"
+        },
+        "schinese": {
+          "name": "领地之主首领猎手",
+          "description": "狠狠痛揍领地之主首领一顿！"
+        }
+      }
+    },
+    "Kill_King": {
+      "translations": {
+        "english": {
+          "name": "King Gigald Pounder",
+          "description": "Give King Gigald a right good proper pounding!"
+        },
+        "schinese": {
+          "name": "吉加尔德国王痛击者",
+          "description": "狠狠痛揍吉加尔德国王一顿！"
+        }
+      }
+    },
+    "Coffin_MeldTime": {
+      "translations": {
+        "english": {
+          "name": "MELDIN TIME",
+          "description": "Pound the King or Queen using a legion containing 3+ Meldus Minions, but no Deamons nor Giants."
+        },
+        "schinese": {
+          "name": "融合时间到！",
+          "description": "用一支含3+个融合体仆从、且不含恶魔与巨型仆从的军团痛揍国王或女王。"
+        }
+      }
+    },
+    "Skirmish_Score_Farm": {
+      "translations": {
+        "english": {
+          "name": "Pumpkiny Skirmish Supremacy",
+          "description": "In Necrotic Skirmishes attain a score of 99,999+ on the Pumpkiny Patch map!"
+        },
+        "schinese": {
+          "name": "南瓜地遭遇战霸主",
+          "description": "在“亡灵遭遇战”中，于“南瓜地”地图取得99,999+分！"
+        }
+      }
+    },
+    "Coffin_Won_Hollow": {
+      "translations": {
+        "english": {
+          "name": "Hollow Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Sorcerer Hollow class!"
+        },
+        "schinese": {
+          "name": "空心术士：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以空心术士职业取得333,333+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Hollow": {
+      "translations": {
+        "english": {
+          "name": "Hollow Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Sorcerer Hollow class!"
+        },
+        "schinese": {
+          "name": "空心术士：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用空心术士职业取得66,666+分！"
+        }
+      }
+    },
+    "Hollow_Unseal": {
+      "translations": {
+        "english": {
+          "name": "Sorcerer Hollow Unsealing",
+          "description": "Unlock the Sorcerer Hollow class!"
+        },
+        "schinese": {
+          "name": "空心术士解封",
+          "description": "解锁空心术士职业！"
+        }
+      }
+    },
+    "Meta_Class_Hollow": {
+      "translations": {
+        "english": {
+          "name": "Hollow Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Sorcerer Hollow!"
+        },
+        "schinese": {
+          "name": "空心术士：传承圆满",
+          "description": "解封空心术士的全部职业传承！"
+        }
+      }
+    },
+    "Coffin_ForgetTime": {
+      "translations": {
+        "english": {
+          "name": "Alzheimer Survivor",
+          "description": "Kill the King or Queen having first forgotten 6+ Boneraise Lore, 6+ Heroic Force, and 6+ Class Heritage meta (for your current class)!"
+        },
+        "schinese": {
+          "name": "阿尔茨海默病幸存者",
+          "description": "先遗忘6+项唤骨学识、6+项英雄之力及当前职业的6+项职业传承，再击败国王或女王！"
+        }
+      }
+    },
+    "Skirmish_Score_Dungeon": {
+      "translations": {
+        "english": {
+          "name": "Dungeon Skirmish Supremacy",
+          "description": "In Necrotic Skirmishes attain a score of 99,999+ on the Dungeon Catacomb map!"
+        },
+        "schinese": {
+          "name": "地牢墓窟遭遇战霸主",
+          "description": "在“亡灵遭遇战”中，于“地牢墓窟”地图取得99,999+分！"
+        }
+      }
+    },
+    "Survive_Warbles": {
+      "translations": {
+        "english": {
+          "name": "Warbles Survival",
+          "description": "In Mausoleum Awakens survive an upgraded wave of the Voraricious Warbles!"
+        },
+        "schinese": {
+          "name": "啼怪幸存者",
+          "description": "在“陵墓苏醒”中挺过“贪食啼怪”的强化波次！"
+        }
+      }
+    },
+    "Kill_KingGigaldPlus": {
+      "translations": {
+        "english": {
+          "name": "Royalty Bosshunter Plus",
+          "description": "Give the King or Queen a right good proper pounding in New Game Plus!"
+        },
+        "schinese": {
+          "name": "王族首领猎手 Plus",
+          "description": "在 New Game Plus 中狠狠痛揍国王或女王一顿！"
+        }
+      }
+    },
+    "Skirmish_Score_Ravine": {
+      "translations": {
+        "english": {
+          "name": "Ravine Skirmish Supremacy",
+          "description": "In Necrotic Skirmishes attain a score of 99,999+ on the Ravenous Ravine map!"
+        },
+        "schinese": {
+          "name": "饥渴裂谷遭遇战霸主",
+          "description": "在“亡灵遭遇战”中，于“饥渴裂谷”地图取得99,999+分！"
+        }
+      }
+    },
+    "Giant_Unseal": {
+      "translations": {
+        "english": {
+          "name": "Gangly Grafted Unsealing",
+          "description": "Unlock the Gangly Grafted class!"
+        },
+        "schinese": {
+          "name": "瘦长嫁接体解封",
+          "description": "解锁瘦长嫁接体职业！"
+        }
+      }
+    },
+    "Coffin_Won_Giant": {
+      "translations": {
+        "english": {
+          "name": "Gangly Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Gangly Grafted class!"
+        },
+        "schinese": {
+          "name": "瘦长体：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以瘦长嫁接体职业取得333,333+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Giant": {
+      "translations": {
+        "english": {
+          "name": "Gangly Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Gangly Grafted class!"
+        },
+        "schinese": {
+          "name": "瘦长体：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用瘦长嫁接体职业取得66,666+分！"
+        }
+      }
+    },
+    "Meta_Class_Giant": {
+      "translations": {
+        "english": {
+          "name": "Gangly Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Gangly Grafted!"
+        },
+        "schinese": {
+          "name": "瘦长体：传承圆满",
+          "description": "解封瘦长嫁接体的全部职业传承！"
+        }
+      }
+    },
+    "Skirmish_Score_Cathedral": {
+      "translations": {
+        "english": {
+          "name": "Cathedral Skirmish Supremacy",
+          "description": "In Necrotic Skirmishes attain a score of 99,999+ on the Accursed Cathedral map!"
+        },
+        "schinese": {
+          "name": "诅咒大教堂遭遇战霸主",
+          "description": "在“亡灵遭遇战”中，于“诅咒大教堂”地图取得99,999+分！"
+        }
+      }
+    },
+    "Escapade_Wretch": {
+      "translations": {
+        "english": {
+          "name": "Wretch Escapade",
+          "description": "As a Deprived Wretch get offered a Relic whilst clutching 33+ Relic Re-rolls!"
+        },
+        "schinese": {
+          "name": "苦命人奇行",
+          "description": "以穷苦可怜人身份，在拥有33+次遗物重掷机会时触发一次遗物选择！"
+        }
+      }
+    },
+    "Escapade_Necro": {
+      "translations": {
+        "english": {
+          "name": "Liche Escapade",
+          "description": "As a Liche Necromancer raise a legion containing 13+ different level 1 Skelly Minions!"
+        },
+        "schinese": {
+          "name": "巫妖奇行",
+          "description": "以巫妖死灵法师身份，让军团同时拥有13+种不同的1级小骷髅仆从！"
+        }
+      }
+    },
+    "Escapade_Vampire": {
+      "translations": {
+        "english": {
+          "name": "Vampire Escapade",
+          "description": "As a Vampire Survivor attain 666+ max health!"
+        },
+        "schinese": {
+          "name": "吸血鬼奇行",
+          "description": "以吸血鬼幸存者身份，将最大生命值提升至666+！"
+        }
+      }
+    },
+    "Escapade_Demon": {
+      "translations": {
+        "english": {
+          "name": "Deamologist Escapade",
+          "description": "As a Sinned Deamologist raise a legion containing 2 Diablos minions!"
+        },
+        "schinese": {
+          "name": "罪孽者奇行",
+          "description": "以罪孽恶魔学家身份，让军团同时拥有2个 Diablos 仆从！"
+        }
+      }
+    },
+    "Escapade_Giant": {
+      "translations": {
+        "english": {
+          "name": "Gangly Escapade",
+          "description": "As a Gangly Grafted raise a legion containing 3 Giantous minions (eg Sinner)!"
+        },
+        "schinese": {
+          "name": "瘦长体奇行",
+          "description": "以瘦长嫁接体身份，让军团同时拥有3个巨型仆从（如 Sinner）！"
+        }
+      }
+    },
+    "Escapade_Hollow": {
+      "translations": {
+        "english": {
+          "name": "Sorcerer Escapade",
+          "description": "As a Sorcerer Hollow attain 8+ Spell Scrolls at the same time!"
+        },
+        "schinese": {
+          "name": "空心术士奇行",
+          "description": "以空心术士身份，同时持有8+张法术卷轴！"
+        }
+      }
+    },
+    "Kill_BsArcher": {
+      "translations": {
+        "english": {
+          "name": "Elven Wayfinder Bosshunter",
+          "description": "Give the Elven Wayfinder boss a jolly good pounding!"
+        },
+        "schinese": {
+          "name": "精灵寻路者首领猎手",
+          "description": "狠狠痛揍精灵寻路者首领一顿！"
+        }
+      }
+    },
+    "Survive_Bandits": {
+      "translations": {
+        "english": {
+          "name": "Bandits Survival",
+          "description": "In Mausoleum Awakens survive an upgraded wave of the Mugger Bandits!"
+        },
+        "schinese": {
+          "name": "强盗幸存者",
+          "description": "在“陵墓苏醒”中挺过“抢掠强盗”的强化波次！"
+        }
+      }
+    },
+    "Survive_Zombies": {
+      "translations": {
+        "english": {
+          "name": "Zombies Survival",
+          "description": "In Mausoleum Awakens survive an upgraded wave of the Shambling Zombies!"
+        },
+        "schinese": {
+          "name": "僵尸幸存者",
+          "description": "在“陵墓苏醒”中挺过“蹒跚僵尸”的强化波次！"
+        }
+      }
+    },
+    "Survive_GhostWatcher": {
+      "translations": {
+        "english": {
+          "name": "Ghost Watcher Survival",
+          "description": "In Mausoleum Awakens survive an upgraded wave of the Ghost Watchers!"
+        },
+        "schinese": {
+          "name": "观鬼者幸存者",
+          "description": "在“陵墓苏醒”中挺过“观鬼者”的强化波次！"
+        }
+      }
+    },
+    "Survive_Selest": {
+      "translations": {
+        "english": {
+          "name": "Heavenly Survival",
+          "description": "In Mausoleum Awakens survive a wave of the Heavenly Intervention!"
+        },
+        "schinese": {
+          "name": "天界幸存者",
+          "description": "在“陵墓苏醒”中挺过一波“天界干预”！"
+        }
+      }
+    },
+    "Meld_Unseal": {
+      "translations": {
+        "english": {
+          "name": "Meldum Afflicted Unsealing",
+          "description": "Unlock the Meldum Afflicted class!"
+        },
+        "schinese": {
+          "name": "融合感染者解封",
+          "description": "解锁融合感染者职业！"
+        }
+      }
+    },
+    "Coffin_Won_Meld": {
+      "translations": {
+        "english": {
+          "name": "Meldum Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Meldum Afflicted class!"
+        },
+        "schinese": {
+          "name": "融合体：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以融合感染者职业取得333,333+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Meld": {
+      "translations": {
+        "english": {
+          "name": "Meldum Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Meldum Afflicted class!"
+        },
+        "schinese": {
+          "name": "融合体：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用融合感染者职业取得66,666+分！"
+        }
+      }
+    },
+    "Meta_Class_Meld": {
+      "translations": {
+        "english": {
+          "name": "Meldum Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Meldum Afflicted!"
+        },
+        "schinese": {
+          "name": "融合体：传承圆满",
+          "description": "解封融合感染者的全部职业传承！"
+        }
+      }
+    },
+    "Skirmish_Score_Bridge": {
+      "translations": {
+        "english": {
+          "name": "Causeway Skirmish Supremacy",
+          "description": "In Necrotic Skirmishes attain a score of 99,999+ on the Royal Causeway map!"
+        },
+        "schinese": {
+          "name": "皇家长堤遭遇战霸主",
+          "description": "在“亡灵遭遇战”中，于“皇家长堤”地图取得99,999+分！"
+        }
+      }
+    },
+    "Escapade_Meld": {
+      "translations": {
+        "english": {
+          "name": "Meldum Escapade",
+          "description": "As a Meldum Afflicted raise a legion containing 6 Mighty meldus minions (eg Manipulor)!"
+        },
+        "schinese": {
+          "name": "融合体奇行",
+          "description": "以融合感染者身份，让军团同时拥有6个强力融合体仆从（如 Manipulor）！"
+        }
+      }
+    },
+    "Meta_Architect_All": {
+      "translations": {
+        "english": {
+          "name": "Contraption Research Fulfilment",
+          "description": "In Architect Mode research all available contraptions!"
+        },
+        "schinese": {
+          "name": "机关研究圆满",
+          "description": "在“建筑师模式”中研究全部可用机关！"
+        }
+      }
+    },
+    "Kill_BsShinobi": {
+      "translations": {
+        "english": {
+          "name": "Kenshi Shinobi Bosshunter",
+          "description": "Give the Kenshi Shinobi boss a jolly good pounding!"
+        },
+        "schinese": {
+          "name": "剑士忍者首领猎手",
+          "description": "狠狠痛揍剑士忍者首领一顿！"
+        }
+      }
+    },
+    "Cyclop_Unseal": {
+      "translations": {
+        "english": {
+          "name": "Cyclop Exile Unsealing",
+          "description": "Unlock the Cyclop Exile class!"
+        },
+        "schinese": {
+          "name": "独眼巨人流放者解封",
+          "description": "解锁独眼巨人流放者职业！"
+        }
+      }
+    },
+    "Coffin_Won_Cyclop": {
+      "translations": {
+        "english": {
+          "name": "Cyclop Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Cyclop Exile class!"
+        },
+        "schinese": {
+          "name": "独眼巨人：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以独眼巨人流放者职业取得333,333+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Cyclop": {
+      "translations": {
+        "english": {
+          "name": "Cyclop Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Cyclop Exile class!"
+        },
+        "schinese": {
+          "name": "独眼巨人：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用独眼巨人流放者职业取得66,666+分！"
+        }
+      }
+    },
+    "Meta_Class_Cyclop": {
+      "translations": {
+        "english": {
+          "name": "Cyclop Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Cyclop Exile!"
+        },
+        "schinese": {
+          "name": "独眼巨人：传承圆满",
+          "description": "解封独眼巨人流放者的全部职业传承！"
+        }
+      }
+    },
+    "Escapade_Cyclop": {
+      "translations": {
+        "english": {
+          "name": "Cyclop Escapade",
+          "description": "As a Cyclop Exile use your Meaty Club to inflict 666+ damage against meanies!"
+        },
+        "schinese": {
+          "name": "独眼巨人奇行",
+          "description": "以独眼巨人流放者身份，用肉槌（Meaty Club）对敌人造成666+伤害！"
+        }
+      }
+    },
+    "Wax_Unseal": {
+      "translations": {
+        "english": {
+          "name": "Doll Maker Unsealing",
+          "description": "Unlock the Doll Maker class!"
+        },
+        "schinese": {
+          "name": "人偶师解封",
+          "description": "解锁人偶师职业！"
+        }
+      }
+    },
+    "Coffin_Won_Wax": {
+      "translations": {
+        "english": {
+          "name": "Doll Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Doll Maker class!"
+        },
+        "schinese": {
+          "name": "人偶：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以人偶师职业取得333,333+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Wax": {
+      "translations": {
+        "english": {
+          "name": "Doll Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Doll Maker class!"
+        },
+        "schinese": {
+          "name": "人偶：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用人偶师职业取得66,666+分！"
+        }
+      }
+    },
+    "Meta_Class_Wax": {
+      "translations": {
+        "english": {
+          "name": "Doll Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Doll Maker!"
+        },
+        "schinese": {
+          "name": "人偶：传承圆满",
+          "description": "解封人偶师的全部职业传承！"
+        }
+      }
+    },
+    "Escapade_Wax": {
+      "translations": {
+        "english": {
+          "name": "Doll Escapade",
+          "description": "As a Doll Maker raise a legion containing a High Wizard, Lord of the Land, and Lunatic Fanatic!"
+        },
+        "schinese": {
+          "name": "人偶奇行",
+          "description": "以人偶师身份，让军团同时拥有高阶巫师、领地之主和疯狂狂信徒！"
+        }
+      }
+    },
+    "Coffin_NoHoro": {
+      "translations": {
+        "english": {
+          "name": "Horoscopeophobia",
+          "description": "Kill the King or Queen while only ever choosing the top option when offered a boneraise, relic, or spell. No re-rolls allowed!"
+        },
+        "schinese": {
+          "name": "占星恐惧症",
+          "description": "每次获得唤骨、遗物或法术选项时都只选择最上方的一项，并在全程不重掷的情况下击败国王或女王！"
+        }
+      }
+    },
+    "Bro_Unseal": {
+      "translations": {
+        "english": {
+          "name": "Sprout Brotatoes Unsealing",
+          "description": "Unlock the Sprout Brotatoes class!"
+        },
+        "schinese": {
+          "name": "萌芽兄薯解封",
+          "description": "解锁萌芽兄薯职业！"
+        }
+      }
+    },
+    "Coffin_Won_Bro": {
+      "translations": {
+        "english": {
+          "name": "Sprout Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Sprout Brotatoes class!"
+        },
+        "schinese": {
+          "name": "萌芽：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以萌芽兄薯职业取得333,333+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Bro": {
+      "translations": {
+        "english": {
+          "name": "Sprout Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Sprout Brotatoes class!"
+        },
+        "schinese": {
+          "name": "萌芽：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用萌芽兄薯职业取得66,666+分！"
+        }
+      }
+    },
+    "Meta_Class_Bro": {
+      "translations": {
+        "english": {
+          "name": "Sprout Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Sprout Brotatoes!"
+        },
+        "schinese": {
+          "name": "萌芽：传承圆满",
+          "description": "解封萌芽兄薯的全部职业传承！"
+        }
+      }
+    },
+    "Escapade_Bro": {
+      "translations": {
+        "english": {
+          "name": "Sprout Escapade",
+          "description": "As a Sprout Brotatoes raise a legion containing 5 Big Bro minions each a different type!"
+        },
+        "schinese": {
+          "name": "萌芽奇行",
+          "description": "以萌芽兄薯身份，让军团同时拥有5个不同类型的大兄弟仆从！"
+        }
+      }
+    },
+    "Ghost_Unseal": {
+      "translations": {
+        "english": {
+          "name": "Psycho Possessed Unsealing",
+          "description": "Unlock the Psycho Possessed class!"
+        },
+        "schinese": {
+          "name": "疯狂附身者解封",
+          "description": "解锁疯狂附身者职业！"
+        }
+      }
+    },
+    "Coffin_Won_Ghost": {
+      "translations": {
+        "english": {
+          "name": "Psycho Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Psycho Possessed class!"
+        },
+        "schinese": {
+          "name": "疯狂者：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以疯狂附身者职业取得333,333+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Ghost": {
+      "translations": {
+        "english": {
+          "name": "Psycho Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Psycho Possessed class!"
+        },
+        "schinese": {
+          "name": "疯狂者：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用疯狂附身者职业取得66,666+分！"
+        }
+      }
+    },
+    "Meta_Class_Ghost": {
+      "translations": {
+        "english": {
+          "name": "Psycho Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Psycho Possessed!"
+        },
+        "schinese": {
+          "name": "疯狂者：传承圆满",
+          "description": "解封疯狂附身者的全部职业传承！"
+        }
+      }
+    },
+    "Escapade_Ghost": {
+      "translations": {
+        "english": {
+          "name": "Psycho Escapade",
+          "description": "As a Psycho Possessed raise a legion containing 13 Boo Bro minions!"
+        },
+        "schinese": {
+          "name": "疯狂者奇行",
+          "description": "以疯狂附身者身份，让军团同时拥有13个鬼兄弟仆从！"
+        }
+      }
+    },
+    "Witch_Unseal": {
+      "translations": {
+        "english": {
+          "name": "Voodoo Shaman Unsealing",
+          "description": "Unlock the Voodoo Shaman class!"
+        },
+        "schinese": {
+          "name": "巫毒萨满解封",
+          "description": "解锁巫毒萨满职业！"
+        }
+      }
+    },
+    "Coffin_Won_Witch": {
+      "translations": {
+        "english": {
+          "name": "Voodoo Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Voodoo Shaman class!"
+        },
+        "schinese": {
+          "name": "巫毒：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以巫毒萨满职业取得333,333+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Witch": {
+      "translations": {
+        "english": {
+          "name": "Voodoo Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Voodoo Shaman class!"
+        },
+        "schinese": {
+          "name": "巫毒：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用巫毒萨满职业取得66,666+分！"
+        }
+      }
+    },
+    "Meta_Class_Witch": {
+      "translations": {
+        "english": {
+          "name": "Voodoo Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Voodoo Shaman!"
+        },
+        "schinese": {
+          "name": "巫毒：传承圆满",
+          "description": "解封巫毒萨满的全部职业传承！"
+        }
+      }
+    },
+    "Escapade_Witch": {
+      "translations": {
+        "english": {
+          "name": "Voodoo Escapade",
+          "description": "As a Voodoo Shaman raise a legion containing 6 Giant Zombroid Bro minions!"
+        },
+        "schinese": {
+          "name": "巫毒奇行",
+          "description": "以巫毒萨满身份，让军团同时拥有6个巨型僵尸兄弟仆从！"
+        }
+      }
+    },
+    "Brain_Unseal": {
+      "translations": {
+        "english": {
+          "name": "Boneworm Brainiac Unsealing",
+          "description": "Unlock the Boneworm Brainiac class!"
+        },
+        "schinese": {
+          "name": "骨虫智者解封",
+          "description": "解锁骨虫智者职业！"
+        }
+      }
+    },
+    "Coffin_Won_Brain": {
+      "translations": {
+        "english": {
+          "name": "Brainiac Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Boneworm Brainiac class!"
+        },
+        "schinese": {
+          "name": "智者：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以骨虫智者职业取得333,333+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Brain": {
+      "translations": {
+        "english": {
+          "name": "Brainiac Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Boneworm Brainiac class!"
+        },
+        "schinese": {
+          "name": "智者：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用骨虫智者职业取得66,666+分！"
+        }
+      }
+    },
+    "Meta_Class_Brain": {
+      "translations": {
+        "english": {
+          "name": "Brainiac Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Boneworm Brainiac!"
+        },
+        "schinese": {
+          "name": "智者：传承圆满",
+          "description": "解封骨虫智者的全部职业传承！"
+        }
+      }
+    },
+    "Escapade_Brain": {
+      "translations": {
+        "english": {
+          "name": "Brainiac Escapade",
+          "description": "As a Boneworm Brainiac raise a legion containing a meldus, deamon, giant, and bro minions!"
+        },
+        "schinese": {
+          "name": "智者奇行",
+          "description": "以骨虫智者身份，让军团同时拥有融合体、恶魔、巨型和兄弟仆从！"
+        }
+      }
+    },
+    "Survive_Lanterns": {
+      "translations": {
+        "english": {
+          "name": "Lanterners Survival",
+          "description": "In Mausoleum Awakens survive an upgraded wave of the Torched Lanterners!"
+        },
+        "schinese": {
+          "name": "提灯人幸存者",
+          "description": "在“陵墓苏醒”中挺过“火炬提灯人”的强化波次！"
+        }
+      }
+    },
+    "Survive_Elves": {
+      "translations": {
+        "english": {
+          "name": "Elven Survival",
+          "description": "In Mausoleum Awakens survive an upgraded wave of the Elven Eyes!"
+        },
+        "schinese": {
+          "name": "精灵幸存者",
+          "description": "在“陵墓苏醒”中挺过“精灵之眼”的强化波次！"
+        }
+      }
+    },
+    "Survive_Ogres": {
+      "translations": {
+        "english": {
+          "name": "Ogre Survival",
+          "description": "In Mausoleum Awakens survive an upgraded wave of the Ogre Juggernauts!"
+        },
+        "schinese": {
+          "name": "食人魔幸存者",
+          "description": "在“陵墓苏醒”中挺过“食人魔巨兽”的强化波次！"
+        }
+      }
+    },
+    "Skirmish_Score_Town": {
+      "translations": {
+        "english": {
+          "name": "Townisle Skirmish Supremacy",
+          "description": "In Necrotic Skirmishes attain a score of 99,999+ on the Untended Townisle map!"
+        },
+        "schinese": {
+          "name": "荒废镇岛遭遇战霸主",
+          "description": "在“亡灵遭遇战”中，于“荒废镇岛”地图取得99,999+分！"
+        }
+      }
+    },
+    "Comp_Evo_All": {
+      "translations": {
+        "english": {
+          "name": "Minion Evolution Fulfilment",
+          "description": "Complete the Minion Evolutionary Boneways in the Grimoire Compendium!"
+        },
+        "schinese": {
+          "name": "仆从进化圆满",
+          "description": "完成魔典图鉴中的全部仆从进化骨径！"
+        }
+      }
+    },
+    "Ultimate_Demon": {
+      "translations": {
+        "english": {
+          "name": "Ultimate Deamonic Lifeform",
+          "description": "Boneraise the peak deamon that is one of the Diablos minions to your legion!"
+        },
+        "schinese": {
+          "name": "究极恶魔生物",
+          "description": "将 Diablos 仆从之一的巅峰恶魔唤入军团！"
+        }
+      }
+    },
+    "Skirmish_Score_Swamp": {
+      "translations": {
+        "english": {
+          "name": "Marshes Skirmish Supremacy",
+          "description": "In Necrotic Skirmishes attain a score of 99,999+ on the Marshes of Madness map!"
+        },
+        "schinese": {
+          "name": "疯狂沼泽遭遇战霸主",
+          "description": "在“亡灵遭遇战”中，于“疯狂沼泽”地图取得99,999+分！"
+        }
+      }
+    },
+    "Imp_Unseal": {
+      "translations": {
+        "english": {
+          "name": "Imp Contraptineer Unsealing",
+          "description": "Unlock the Imp Contraptineer class!"
+        },
+        "schinese": {
+          "name": "小恶魔机关师解封",
+          "description": "解锁小恶魔机关师职业！"
+        }
+      }
+    },
+    "Coffin_Won_Imp": {
+      "translations": {
+        "english": {
+          "name": "Imp Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Imp Contraptineer class!"
+        },
+        "schinese": {
+          "name": "小恶魔：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以小恶魔机关师职业取得333,333+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Imp": {
+      "translations": {
+        "english": {
+          "name": "Imp Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Imp Contraptineer class!"
+        },
+        "schinese": {
+          "name": "小恶魔：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用小恶魔机关师职业取得66,666+分！"
+        }
+      }
+    },
+    "Meta_Class_Imp": {
+      "translations": {
+        "english": {
+          "name": "Imp Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Imp Contraptineer!"
+        },
+        "schinese": {
+          "name": "小恶魔：传承圆满",
+          "description": "解封小恶魔机关师的全部职业传承！"
+        }
+      }
+    },
+    "Escapade_Imp": {
+      "translations": {
+        "english": {
+          "name": "Imp Escapade",
+          "description": "As an Imp Contraptineer attain 9999+ Scrap!"
+        },
+        "schinese": {
+          "name": "小恶魔奇行",
+          "description": "以小恶魔机关师身份，持有9999+废料！"
+        }
+      }
+    },
+    "Ultimate_Meld": {
+      "translations": {
+        "english": {
+          "name": "Ultimate Meldus Lifeform",
+          "description": "Boneraise the peak meldus that is a Mega Meldsumossous to your legion!"
+        },
+        "schinese": {
+          "name": "究极融合生物",
+          "description": "将巅峰融合体 Mega Meldsumossous 唤入军团！"
+        }
+      }
+    },
+    "Coffin_ForgetClass": {
+      "translations": {
+        "english": {
+          "name": "I Don't Even Know Who I Am",
+          "description": "Kill King Gigald having first forgotten all of your Class Heritage!"
+        },
+        "schinese": {
+          "name": "我连自己是谁都不知道",
+          "description": "先遗忘全部职业传承，再击败吉加尔德国王！"
+        }
+      }
+    },
+    "BigBoneBand": {
+      "translations": {
+        "english": {
+          "name": "Big Boner Band",
+          "description": "Boneraise a legion containing a Giantous minion, a Mighty Meldus minion, and a Big Bro minion!"
+        },
+        "schinese": {
+          "name": "大骨乐队",
+          "description": "唤起一支同时拥有巨型仆从、强力融合体仆从和大兄弟仆从的军团！"
+        }
+      }
+    },
+    "Kill_Santa": {
+      "translations": {
+        "english": {
+          "name": "I Make Kiddies Cry",
+          "description": "Give Santa Claus or the Pumpking a proper pounding thus canceling seasonal fun for all! (tip: if it ain't October/December check the general settings for Seasonal Fun)"
+        },
+        "schinese": {
+          "name": "我把小孩都惹哭了",
+          "description": "痛揍圣诞老人或南瓜王，取消所有人的节日欢乐！（提示：若当前不是十月或十二月，请在通用设置中检查“节日欢乐”选项）"
+        }
+      }
+    },
+    "Dark_Unseal": {
+      "translations": {
+        "english": {
+          "name": "Dark Metaman Unsealing",
+          "description": "Unlock the Dark Metaman class!"
+        },
+        "schinese": {
+          "name": "黑暗元能者解封",
+          "description": "解锁黑暗元能者职业！"
+        }
+      }
+    },
+    "Coffin_Won_Dark": {
+      "translations": {
+        "english": {
+          "name": "Metaman Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Dark Metaman class!"
+        },
+        "schinese": {
+          "name": "元能者：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以黑暗元能者职业取得333,333+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Dark": {
+      "translations": {
+        "english": {
+          "name": "Metaman Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Dark Metaman class!"
+        },
+        "schinese": {
+          "name": "元能者：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用黑暗元能者职业取得66,666+分！"
+        }
+      }
+    },
+    "Meta_Class_Dark": {
+      "translations": {
+        "english": {
+          "name": "Metaman Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Dark Metaman!"
+        },
+        "schinese": {
+          "name": "元能者：传承圆满",
+          "description": "解封黑暗元能者的全部职业传承！"
+        }
+      }
+    },
+    "Escapade_Dark": {
+      "translations": {
+        "english": {
+          "name": "Metaman Escapade",
+          "description": "As a Dark Metaman leave 3 Hero Soul Pickups lying on the floor at the same time!"
+        },
+        "schinese": {
+          "name": "元能者奇行",
+          "description": "以黑暗元能者身份，让3个英雄之魂掉落物同时留在地面上！"
+        }
+      }
+    },
+    "Skirmish_Score_Bastion": {
+      "translations": {
+        "english": {
+          "name": "Bastion Skirmish Supremacy",
+          "description": "In Necrotic Skirmishes attain a score of 99,999+ on the Baronial Bastion map!"
+        },
+        "schinese": {
+          "name": "男爵堡垒遭遇战霸主",
+          "description": "在“亡灵遭遇战”中，于“男爵堡垒”地图取得99,999+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Crypt": {
+      "translations": {
+        "english": {
+          "name": "Crypt Skirmish Supremacy",
+          "description": "In Necrotic Skirmishes attain a score of 99,999+ on the Unsanctified Crypt map!"
+        },
+        "schinese": {
+          "name": "未圣化地穴遭遇战霸主",
+          "description": "在“亡灵遭遇战”中，于“未圣化地穴”地图取得99,999+分！"
+        }
+      }
+    },
+    "Kill_BsFanatic": {
+      "translations": {
+        "english": {
+          "name": "Lunatic Fanatic Bosshunter",
+          "description": "Give the Lunatic Fanatic boss a jolly good pounding!"
+        },
+        "schinese": {
+          "name": "疯狂狂信徒首领猎手",
+          "description": "狠狠痛揍疯狂狂信徒首领一顿！"
+        }
+      }
+    },
+    "Beast_Unseal": {
+      "translations": {
+        "english": {
+          "name": "Beast Whisperer Unsealing",
+          "description": "Unlock the Beast Whisperer class!"
+        },
+        "schinese": {
+          "name": "驭兽师解封",
+          "description": "解锁驭兽师职业！"
+        }
+      }
+    },
+    "Coffin_Won_Beast": {
+      "translations": {
+        "english": {
+          "name": "Beast Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Beast Whisperer class!"
+        },
+        "schinese": {
+          "name": "野兽：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以驭兽师职业取得333,333+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Beast": {
+      "translations": {
+        "english": {
+          "name": "Beast Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Beast Whisperer class!"
+        },
+        "schinese": {
+          "name": "野兽：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用驭兽师职业取得66,666+分！"
+        }
+      }
+    },
+    "Meta_Class_Beast": {
+      "translations": {
+        "english": {
+          "name": "Beast Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Beast Whisperer!"
+        },
+        "schinese": {
+          "name": "野兽：传承圆满",
+          "description": "解封驭兽师的全部职业传承！"
+        }
+      }
+    },
+    "Escapade_Beast": {
+      "translations": {
+        "english": {
+          "name": "Beast Escapade",
+          "description": "As a Beast Whisperer raise a legion containing the tamed Werewolf Prince minion!"
+        },
+        "schinese": {
+          "name": "野兽奇行",
+          "description": "以驭兽师身份，让军团拥有驯服的狼人王子仆从！"
+        }
+      }
+    },
+    "Cloaks_All": {
+      "translations": {
+        "english": {
+          "name": "Catwalk Lavish Cloaks",
+          "description": "Collect all the collectable Cloak skins!"
+        },
+        "schinese": {
+          "name": "T台华披风",
+          "description": "收集全部可收集的披风皮肤！"
+        }
+      }
+    },
+    "Kill_BsWolfPrince": {
+      "translations": {
+        "english": {
+          "name": "Werewolf Prince Bosshunter",
+          "description": "Give the Werewolf Prince boss a jolly good pounding!"
+        },
+        "schinese": {
+          "name": "狼人王子首领猎手",
+          "description": "狠狠痛揍狼人王子首领一顿！"
+        }
+      }
+    },
+    "GardenWorld": {
+      "translations": {
+        "english": {
+          "name": "Gardener's World",
+          "description": "In Architect Mode fill each and every burial marker in a map with a contraption!"
+        },
+        "schinese": {
+          "name": "园艺世界",
+          "description": "在“建筑师模式”中，为地图上的每一个墓葬标记设置机关！"
+        }
+      }
+    },
+    "GigaBanish": {
+      "translations": {
+        "english": {
+          "name": "Giga Giga-Banisher",
+          "description": "Ask Goblusious to Giga Banish 9+ items."
+        },
+        "schinese": {
+          "name": "超级超级放逐者",
+          "description": "让 Goblusious 对9+件物品施展“超级放逐”。"
+        }
+      }
+    },
+    "Comp_BoneItems_Skelly": {
+      "translations": {
+        "english": {
+          "name": "Grimoire Necromancy Skelly Fulfilment",
+          "description": "Collect all the Skelly minion related Necromancy items in the Grimoire Compendium!"
+        },
+        "schinese": {
+          "name": "魔典死灵术：小骷髅全收集",
+          "description": "收集魔典图鉴中与小骷髅仆从相关的全部死灵术物品！"
+        }
+      }
+    },
+    "Comp_BoneItems_Barrow": {
+      "translations": {
+        "english": {
+          "name": "Grimoire Necromancy Barrow Fulfilment",
+          "description": "Collect all the Barrow minion related Necromancy items in the Grimoire Compendium!"
+        },
+        "schinese": {
+          "name": "魔典死灵术：墓冢全收集",
+          "description": "收集魔典图鉴中与墓冢仆从相关的全部死灵术物品！"
+        }
+      }
+    },
+    "Comp_BoneItems_Bro": {
+      "translations": {
+        "english": {
+          "name": "Grimoire Necromancy Bro Fulfilment",
+          "description": "Collect all the Bro minion related Necromancy items in the Grimoire Compendium!"
+        },
+        "schinese": {
+          "name": "魔典死灵术：兄弟全收集",
+          "description": "收集魔典图鉴中与兄弟仆从相关的全部死灵术物品！"
+        }
+      }
+    },
+    "Comp_BoneItems_Meldus": {
+      "translations": {
+        "english": {
+          "name": "Grimoire Necromancy Meldus Fulfilment",
+          "description": "Collect all the Meldus minion related Necromancy items in the Grimoire Compendium!"
+        },
+        "schinese": {
+          "name": "魔典死灵术：融合体全收集",
+          "description": "收集魔典图鉴中与融合体仆从相关的全部死灵术物品！"
+        }
+      }
+    },
+    "Comp_BoneItems_Giant": {
+      "translations": {
+        "english": {
+          "name": "Grimoire Necromancy Giant Fulfilment",
+          "description": "Collect all the Giant minion related Necromancy items in the Grimoire Compendium!"
+        },
+        "schinese": {
+          "name": "魔典死灵术：巨型全收集",
+          "description": "收集魔典图鉴中与巨型仆从相关的全部死灵术物品！"
+        }
+      }
+    },
+    "Comp_BoneItems_Deamon": {
+      "translations": {
+        "english": {
+          "name": "Grimoire Necromancy Deamon Fulfilment",
+          "description": "Collect all the Deamon minion related Necromancy items in the Grimoire Compendium!"
+        },
+        "schinese": {
+          "name": "魔典死灵术：恶魔全收集",
+          "description": "收集魔典图鉴中与恶魔仆从相关的全部死灵术物品！"
+        }
+      }
+    },
+    "Comp_BoneItems_Wax": {
+      "translations": {
+        "english": {
+          "name": "Grimoire Necromancy Waxen Fulfilment",
+          "description": "Collect all the Doll Waxen minion related Necromancy items in the Grimoire Compendium!"
+        },
+        "schinese": {
+          "name": "魔典死灵术：蜡偶全收集",
+          "description": "收集魔典图鉴中与蜡偶仆从相关的全部死灵术物品！"
+        }
+      }
+    },
+    "Comp_BoneItems_Tamed": {
+      "translations": {
+        "english": {
+          "name": "Grimoire Necromancy Tamed Fulfilment",
+          "description": "Collect all the Beast Tamed minion related Necromancy items in the Grimoire Compendium!"
+        },
+        "schinese": {
+          "name": "魔典死灵术：驯兽全收集",
+          "description": "收集魔典图鉴中与驯兽仆从相关的全部死灵术物品！"
+        }
+      }
+    },
+    "Radio_All": {
+      "translations": {
+        "english": {
+          "name": "Finished Symphony",
+          "description": "Get all the banging tunes for the Boneraiser FM Radio!"
+        },
+        "schinese": {
+          "name": "乐章终成",
+          "description": "收集“唤骨者 FM 电台”的全部劲爆曲目！"
+        }
+      }
+    },
+    "Survive_Chomper": {
+      "translations": {
+        "english": {
+          "name": "Chomper Survival",
+          "description": "In Mausoleum Awakens survive an upgraded wave of Gaseous Chompers!"
+        },
+        "schinese": {
+          "name": "嚼咬怪幸存者",
+          "description": "在“陵墓苏醒”中挺过“喷气嚼咬怪”的强化波次！"
+        }
+      }
+    },
+    "Survive_Errant": {
+      "translations": {
+        "english": {
+          "name": "Errant Survival",
+          "description": "In Mausoleum Awakens survive a wave of Custodian Errants!"
+        },
+        "schinese": {
+          "name": "流浪守卫幸存者",
+          "description": "在“陵墓苏醒”中挺过一波“流浪守卫”！"
+        }
+      }
+    },
+    "Kill_BsNecarch": {
+      "translations": {
+        "english": {
+          "name": "Immortis Necarch Bosshunter",
+          "description": "Give the Immortis Necarch boss a jolly good pounding!"
+        },
+        "schinese": {
+          "name": "不朽死灵主宰首领猎手",
+          "description": "狠狠痛揍不朽死灵主宰首领一顿！"
+        }
+      }
+    },
+    "Comp_Beastiary_Human": {
+      "translations": {
+        "english": {
+          "name": "Grimoire Human Beastiary Fulfilment",
+          "description": "Collect all the Beastiary Human meanies in the Grimoire Compendium!"
+        },
+        "schinese": {
+          "name": "魔典人类怪物图鉴全收集",
+          "description": "收集魔典图鉴“怪物图鉴”分类中的全部人类敌人！"
+        }
+      }
+    },
+    "Comp_Beastiary_Beast": {
+      "translations": {
+        "english": {
+          "name": "Grimoire Beast Beastiary Fulfilment",
+          "description": "Collect all the Beastiary Beast meanies in the Grimoire Compendium!"
+        },
+        "schinese": {
+          "name": "魔典野兽怪物图鉴全收集",
+          "description": "收集魔典图鉴“怪物图鉴”分类中的全部野兽敌人！"
+        }
+      }
+    },
+    "NiceMeta": {
+      "translations": {
+        "english": {
+          "name": "Nice :]",
+          "description": "Collect 69696 Gold Coins and 69 Hero Soul meta!"
+        },
+        "schinese": {
+          "name": "妙啊 :]",
+          "description": "在元进度中累计收集69696枚金币和69个英雄之魂！"
+        }
+      }
+    },
+    "Conquest_Won_Wretch": {
+      "translations": {
+        "english": {
+          "name": "Wretch Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Deprived Wretch class!"
+        },
+        "schinese": {
+          "name": "苦命人：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以穷苦可怜人职业取得444,444+分！"
+        }
+      }
+    },
+    "Conquest_Won_Necro": {
+      "translations": {
+        "english": {
+          "name": "Liche Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Liche Necromancer class!"
+        },
+        "schinese": {
+          "name": "巫妖：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以巫妖死灵法师职业取得444,444+分！"
+        }
+      }
+    },
+    "Conquest_Won_Vampire": {
+      "translations": {
+        "english": {
+          "name": "Vampire Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Vampire Survivor class!"
+        },
+        "schinese": {
+          "name": "吸血鬼：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以吸血鬼幸存者职业取得444,444+分！"
+        }
+      }
+    },
+    "Conquest_Won_Demon": {
+      "translations": {
+        "english": {
+          "name": "Sinned Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Sinned Deamologist class!"
+        },
+        "schinese": {
+          "name": "罪孽者：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以罪孽恶魔学家职业取得444,444+分！"
+        }
+      }
+    },
+    "Conquest_Won_Hollow": {
+      "translations": {
+        "english": {
+          "name": "Hollow Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Sorcerer Hollow class!"
+        },
+        "schinese": {
+          "name": "空心术士：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以空心术士职业取得444,444+分！"
+        }
+      }
+    },
+    "Conquest_Won_Giant": {
+      "translations": {
+        "english": {
+          "name": "Gangly Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Gangly Grafted class!"
+        },
+        "schinese": {
+          "name": "瘦长体：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以瘦长嫁接体职业取得444,444+分！"
+        }
+      }
+    },
+    "Conquest_Won_Meld": {
+      "translations": {
+        "english": {
+          "name": "Meldum Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Meldum Afflicted class!"
+        },
+        "schinese": {
+          "name": "融合体：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以融合感染者职业取得444,444+分！"
+        }
+      }
+    },
+    "Conquest_Won_Cyclop": {
+      "translations": {
+        "english": {
+          "name": "Cyclop Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Cyclop Exile class!"
+        },
+        "schinese": {
+          "name": "独眼巨人：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以独眼巨人流放者职业取得444,444+分！"
+        }
+      }
+    },
+    "Conquest_Won_Wax": {
+      "translations": {
+        "english": {
+          "name": "Doll Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Doll Maker class!"
+        },
+        "schinese": {
+          "name": "人偶：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以人偶师职业取得444,444+分！"
+        }
+      }
+    },
+    "Conquest_Won_Bro": {
+      "translations": {
+        "english": {
+          "name": "Sprout Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Sprout Brotatoes class!"
+        },
+        "schinese": {
+          "name": "萌芽：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以萌芽兄薯职业取得444,444+分！"
+        }
+      }
+    },
+    "Conquest_Won_Ghost": {
+      "translations": {
+        "english": {
+          "name": "Psycho Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Psycho Possessed class!"
+        },
+        "schinese": {
+          "name": "疯狂者：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以疯狂附身者职业取得444,444+分！"
+        }
+      }
+    },
+    "Conquest_Won_Witch": {
+      "translations": {
+        "english": {
+          "name": "Voodoo Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Voodoo Shaman class!"
+        },
+        "schinese": {
+          "name": "巫毒：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以巫毒萨满职业取得444,444+分！"
+        }
+      }
+    },
+    "Conquest_Won_Brain": {
+      "translations": {
+        "english": {
+          "name": "Brainiac Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Boneworm Brainiac class!"
+        },
+        "schinese": {
+          "name": "智者：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以骨虫智者职业取得444,444+分！"
+        }
+      }
+    },
+    "Conquest_Won_Imp": {
+      "translations": {
+        "english": {
+          "name": "Imp Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Imp Contraptineer class!"
+        },
+        "schinese": {
+          "name": "小恶魔：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以小恶魔机关师职业取得444,444+分！"
+        }
+      }
+    },
+    "Conquest_Won_Dark": {
+      "translations": {
+        "english": {
+          "name": "Metaman Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Dark Metaman class!"
+        },
+        "schinese": {
+          "name": "元能者：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以黑暗元能者职业取得444,444+分！"
+        }
+      }
+    },
+    "Conquest_Won_Beast": {
+      "translations": {
+        "english": {
+          "name": "Beast Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Beast Whisperer class!"
+        },
+        "schinese": {
+          "name": "野兽：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以驭兽师职业取得444,444+分！"
+        }
+      }
+    },
+    "Ultimate_Bro": {
+      "translations": {
+        "english": {
+          "name": "Ultimate Bro Lifeform",
+          "description": "Boneraise the peak bro that is a Brodacious Brozilla to your legion!"
+        },
+        "schinese": {
+          "name": "究极兄弟生物",
+          "description": "将巅峰兄弟 Brodacious Brozilla 唤入军团！"
+        }
+      }
+    },
+    "Skirmish_Score_Ruin": {
+      "translations": {
+        "english": {
+          "name": "Ruin Skirmish Supremacy",
+          "description": "In Necrotic Skirmishes attain a score of 99,999+ on the Rainswept Ruin map!"
+        },
+        "schinese": {
+          "name": "雨蚀废墟遭遇战霸主",
+          "description": "在“亡灵遭遇战”中，于“雨蚀废墟”地图取得99,999+分！"
+        }
+      }
+    },
+    "BothChallenge": {
+      "translations": {
+        "english": {
+          "name": "Neighbourly Boners",
+          "description": "In Boneworld Challenges have an online score in each of the various three Challenges at the same time."
+        },
+        "schinese": {
+          "name": "骨邻好邻居",
+          "description": "在“骨界挑战”的三种挑战中同时保有线上成绩。"
+        }
+      }
+    },
+    "Skirmish_Score_Abyss": {
+      "translations": {
+        "english": {
+          "name": "Abyss Skirmish Supremacy",
+          "description": "In Necrotic Skirmishes attain a score of 99,999+ on the Restless Abyss map!"
+        },
+        "schinese": {
+          "name": "躁动深渊遭遇战霸主",
+          "description": "在“亡灵遭遇战”中，于“躁动深渊”地图取得99,999+分！"
+        }
+      }
+    },
+    "Ultimate_Giant": {
+      "translations": {
+        "english": {
+          "name": "Ultimate Giant Lifeform",
+          "description": "Boneraise the peak giant that is a Magma Gargantuan to your legion!"
+        },
+        "schinese": {
+          "name": "究极巨型生物",
+          "description": "将巅峰巨人 Magma Gargantuan 唤入军团！"
+        }
+      }
+    },
+    "Paints_All": {
+      "translations": {
+        "english": {
+          "name": "Palatial Crypt Fashioneer",
+          "description": "Buy all the collectable Crypt decorations!"
+        },
+        "schinese": {
+          "name": "华美地宫时尚达人",
+          "description": "购买全部可收集的地宫装饰！"
+        }
+      }
+    },
+    "Skirmish_Score_Lift": {
+      "translations": {
+        "english": {
+          "name": "Elevator Skirmish Supremacy",
+          "description": "In Necrotic Skirmishes attain a score of 99,999+ on the Forbidden Elevator map!"
+        },
+        "schinese": {
+          "name": "禁忌升降梯遭遇战霸主",
+          "description": "在“亡灵遭遇战”中，于“禁忌升降梯”地图取得99,999+分！"
+        }
+      }
+    },
+    "Clown_Unseal": {
+      "translations": {
+        "english": {
+          "name": "Courtier Clown Unsealing",
+          "description": "Unlock the Courtier Clown class!"
+        },
+        "schinese": {
+          "name": "宫廷小丑解封",
+          "description": "解锁宫廷小丑职业！"
+        }
+      }
+    },
+    "Meta_Class_Clown": {
+      "translations": {
+        "english": {
+          "name": "Clown Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Courtier Clown!"
+        },
+        "schinese": {
+          "name": "小丑：传承圆满",
+          "description": "解封宫廷小丑的全部职业传承！"
+        }
+      }
+    },
+    "Escapade_Clown": {
+      "translations": {
+        "english": {
+          "name": "Clown Escapade",
+          "description": "As a Courtier Clown raise a legion containing at least 3+ Deamonic Jester minions!"
+        },
+        "schinese": {
+          "name": "小丑奇行",
+          "description": "以宫廷小丑身份，让军团同时拥有至少3个恶魔弄臣仆从！"
+        }
+      }
+    },
+    "Coffin_Won_Clown": {
+      "translations": {
+        "english": {
+          "name": "Clown Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Courtier Clown class!"
+        },
+        "schinese": {
+          "name": "小丑：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以宫廷小丑职业取得333,333+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Clown": {
+      "translations": {
+        "english": {
+          "name": "Clown Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Courtier Clown class!"
+        },
+        "schinese": {
+          "name": "小丑：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用宫廷小丑职业取得66,666+分！"
+        }
+      }
+    },
+    "Conquest_Won_Clown": {
+      "translations": {
+        "english": {
+          "name": "Clown Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Courtier Clown class!"
+        },
+        "schinese": {
+          "name": "小丑：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以宫廷小丑职业取得444,444+分！"
+        }
+      }
+    },
+    "AllAchievements": {
+      "translations": {
+        "english": {
+          "name": "Boneraiser Minions 100%",
+          "description": "For I gazed within its soul.. and saw only perfection!"
+        },
+        "schinese": {
+          "name": "Boneraiser Minions 100%",
+          "description": "因为我凝视了它的灵魂……所见唯有完美！"
+        }
+      }
+    },
+    "Qst_BigScore": {
+      "translations": {
+        "english": {
+          "name": "Conquest Filthy Stinkin Rich",
+          "description": "In Castle Conquest attain a score of 666,666+"
+        },
+        "schinese": {
+          "name": "征服战富得流油",
+          "description": "在“城堡征服战”中取得666,666+分！"
+        }
+      }
+    },
+    "Kill_Queen": {
+      "translations": {
+        "english": {
+          "name": "Queen Gigalicious Pounder (respectfully)",
+          "description": "Give Queen Gigalicious a right good proper pounding (respectfully!)"
+        },
+        "schinese": {
+          "name": "吉加莉茜丝女王痛击者（请保持尊重）",
+          "description": "恭敬地狠狠痛揍吉加莉茜丝女王一顿！"
+        }
+      }
+    },
+    "Celest_Unseal": {
+      "translations": {
+        "english": {
+          "name": "Celestial Vessel Unsealing",
+          "description": "Unlock the Celestial Vessel class!"
+        },
+        "schinese": {
+          "name": "天界容器解封",
+          "description": "解锁天界容器职业！"
+        }
+      }
+    },
+    "Meta_Class_Celest": {
+      "translations": {
+        "english": {
+          "name": "Celestial Heritage Satiation",
+          "description": "Unseal all Class Heritage for the Celestial Vessel!"
+        },
+        "schinese": {
+          "name": "天界：传承圆满",
+          "description": "解封天界容器的全部职业传承！"
+        }
+      }
+    },
+    "Escapade_Celest": {
+      "translations": {
+        "english": {
+          "name": "Celestial Escapade",
+          "description": "As a Celestial Vessel raise a legion containing 3 Godly Vessel minions!"
+        },
+        "schinese": {
+          "name": "天界奇行",
+          "description": "以天界容器身份，让军团同时拥有3个神圣容器仆从！"
+        }
+      }
+    },
+    "Coffin_Won_Celest": {
+      "translations": {
+        "english": {
+          "name": "Celestial Gigald Heist",
+          "description": "In Mausoleum Awakens attain a score of 333,333+ as the Celestial Vessel class!"
+        },
+        "schinese": {
+          "name": "天界：吉加尔德劫案",
+          "description": "在“陵墓苏醒”中，以天界容器职业取得333,333+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Celest": {
+      "translations": {
+        "english": {
+          "name": "Celestial Skirmish Endurer",
+          "description": "In Necrotic Skirmishes attain a score of 66,666+ using the Celestial Vessel class!"
+        },
+        "schinese": {
+          "name": "天界：遭遇战坚守者",
+          "description": "在“亡灵遭遇战”中，使用天界容器职业取得66,666+分！"
+        }
+      }
+    },
+    "Conquest_Won_Celest": {
+      "translations": {
+        "english": {
+          "name": "Celestial Gigalicious Heist",
+          "description": "In Castle Conquest attain a score of 444,444+ as the Celestial Vessel class!"
+        },
+        "schinese": {
+          "name": "天界：吉加莉茜丝劫案",
+          "description": "在“城堡征服战”中，以天界容器职业取得444,444+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Library": {
+      "translations": {
+        "english": {
+          "name": "Library Skirmish Supremacy",
+          "description": "In Necrotic Skirmishes attain a score of 99,999+ on the Wizarding Library map!"
+        },
+        "schinese": {
+          "name": "巫术图书馆遭遇战霸主",
+          "description": "在“亡灵遭遇战”中，于“巫术图书馆”地图取得99,999+分！"
+        }
+      }
+    },
+    "Skirmish_Score_Chamber": {
+      "translations": {
+        "english": {
+          "name": "Princess Skirmish Supremacy",
+          "description": "In Necrotic Skirmishes attain a score of 99,999+ on the Princess Chamber map!"
+        },
+        "schinese": {
+          "name": "公主寝宫遭遇战霸主",
+          "description": "在“亡灵遭遇战”中，于“公主寝宫”地图取得99,999+分！"
+        }
+      }
+    },
+    "Kill_BsGodVessel": {
+      "translations": {
+        "english": {
+          "name": "Godly Vessel Bosshunter",
+          "description": "Give the Godly Vessel boss a jolly good pounding!"
+        },
+        "schinese": {
+          "name": "神圣容器首领猎手",
+          "description": "狠狠痛揍神圣容器首领一顿！"
+        }
+      }
+    },
+    "Comp_BoneItems_Holy": {
+      "translations": {
+        "english": {
+          "name": "Grimoire Necromancy Holy Fulfilment",
+          "description": "Collect all the Holy minion related Necromancy items in the Grimoire Compendium!"
+        },
+        "schinese": {
+          "name": "魔典死灵术：神圣全收集",
+          "description": "收集魔典图鉴中与神圣仆从相关的全部死灵术物品！"
+        }
+      }
+    }
+  }
+}

@@ -101,6 +101,10 @@ UserGameStatsSchema_123456.zip
 
 机器人会根据 app ID 生成商店链接，并检查 ZIP 安全与大小、Binary KeyValues 解析及字节级 roundtrip、成就 ID 唯一性、自动识别的语言覆盖、生成的 `achievements.md` 与更新差异。请只提交你有权分享的翻译成果。
 
+BIN 是翻译库的源文件，继续保留给 SATLI 本体使用；每个 V2 版本额外生成同名 `.json`，供 Millennium 等客户端使用。V1 兼容仅保留默认旧路径的 BIN，不生成 JSON。投稿仍只上传 BIN/ZIP，不要手工修改生成的 JSON。投稿、PR 文件更新、App ID 重命名及 `/force-refresh` 会在 PR 中同步 V2 元数据、版本目录的 BIN/JSON 和默认旧路径的 BIN，并提交生成文件；合并后刷新兼容索引与统计。仓库检查会核对 V2 BIN/JSON 与 V1 BIN 的一致性，并拒绝旧路径的多余 JSON。
+
+每个审核 PR 只能修改 `files/<app_id>/` 内的该游戏数据，待入库元数据保存在自动生成的 `submission.json` 中；PR 不修改 `index-v2.json`、`index.json`、人类可读索引或统计图。检查会严格核对提交元数据与实际 BIN/JSON，不会因为索引尚未刷新而放宽内容校验。合并后自动化汇总主分支上所有待入库游戏，统一生成索引，再将已入库的 `submission.json` 移至回收站。不同游戏的审核顺序不会改变最终索引；同一游戏存在真实冲突时需要维护者处理。`/force-refresh` 通过合并主分支保留投稿历史，App ID 修正仅适用于尚未入库的新游戏。
+
 修改工作流、脚本、Catalog、派生索引或 `files/` 数据时，请在仓库根目录运行：
 
 ```bash

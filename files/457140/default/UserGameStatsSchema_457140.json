@@ -1,0 +1,624 @@
+{
+  "version": 1,
+  "app_id": "457140",
+  "variant_id": "default",
+  "source_sha256": "5d17ec08de5094711452872e4b74082d987c54e9a609f1f9e1eca0802ab34b14",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "WINCONDITION_LEAVE": {
+      "translations": {
+        "english": {
+          "name": "The Great Escape",
+          "description": "Ensure your colony's legacy by fulfilling the requirements of the Escape Imperative."
+        },
+        "schinese": {
+          "name": "大逃亡",
+          "description": "完成「逃逸令」要求，确保殖民地的传承。"
+        }
+      }
+    },
+    "WINCONDITION_STAY": {
+      "translations": {
+        "english": {
+          "name": "Home Sweet Home",
+          "description": "Establish your permanent home by fulfilling the requirements of the Colonize Imperative."
+        },
+        "schinese": {
+          "name": "甜蜜的家",
+          "description": "完成「殖民令」要求，建立你的永久家园。"
+        }
+      }
+    },
+    "NO_PLANTERBOX": {
+      "translations": {
+        "english": {
+          "name": "Locavore",
+          "description": "Have Duplicants consume 400,000kcal of food without planting any seeds in Planter Boxes, Farm Tiles, or Hydroponic Farms."
+        },
+        "schinese": {
+          "name": "本地膳食",
+          "description": "让复制人消耗400,000千卡食物，且不得在种植箱、农地砖或水耕农场中种植任何种子。"
+        }
+      }
+    },
+    "EAT_MEAT": {
+      "translations": {
+        "english": {
+          "name": "Carnivore",
+          "description": "Have Duplicants eat 400,000kcal of critter meat before the 100th cycle."
+        },
+        "schinese": {
+          "name": "肉食者",
+          "description": "在第100周期之前让复制人食用400,000千卡的小动物肉。"
+        }
+      }
+    },
+    "BUILD_NATURE_RESERVES": {
+      "translations": {
+        "english": {
+          "name": "Some Reservations",
+          "description": "Improve Duplicant Morale by designating 4 areas as Nature Reserves."
+        },
+        "schinese": {
+          "name": "保留区",
+          "description": "指定4个区域为自然保护区，提升复制人士气。"
+        }
+      }
+    },
+    "TWENTY_DUPES": {
+      "translations": {
+        "english": {
+          "name": "No Place Like Clone",
+          "description": "Have at least 20 living Duplicants living in the colony at one time."
+        },
+        "schinese": {
+          "name": "克隆之家",
+          "description": "同时拥有至少20名存活的复制人。"
+        }
+      }
+    },
+    "SURVIVE_HUNDRED_CYCLES": {
+      "translations": {
+        "english": {
+          "name": "Turn of the Century",
+          "description": "Reach cycle 100 with at least one living Duplicant."
+        },
+        "schinese": {
+          "name": "世纪之交",
+          "description": "到达第100周期，且至少有一名存活的复制人。"
+        }
+      }
+    },
+    "TAME_GASSYMOO": {
+      "translations": {
+        "english": {
+          "name": "Moovin' On Up",
+          "description": "Find and tame a Gassy Moo."
+        },
+        "schinese": {
+          "name": "更上一层楼",
+          "description": "发现并驯服一只释气牛。"
+        }
+      }
+    },
+    "SIXKELVIN_BUILDING": {
+      "translations": {
+        "english": {
+          "name": "Not 0K, But Pretty Cool",
+          "description": "Reduce the temperature of a building to 6 Kelvin."
+        },
+        "schinese": {
+          "name": "不到绝对零度，但够凉了",
+          "description": "将一栋建筑物的温度降至6开尔文。"
+        }
+      }
+    },
+    "CLEAN_ENERGY": {
+      "translations": {
+        "english": {
+          "name": "Super Sustainable",
+          "description": "Generate 240,000kJ of power without using coal, methane, petrol or wood generators."
+        },
+        "schinese": {
+          "name": "超级可持续",
+          "description": "在不使用燃煤、甲烷、石油或木质发电机的情况下产生240,000千焦电力。"
+        }
+      }
+    },
+    "BUILD_OUTSIDE_BIOME": {
+      "translations": {
+        "english": {
+          "name": "Outdoor Renovations",
+          "description": "Construct a building outside the initial starting biome."
+        },
+        "schinese": {
+          "name": "户外改造",
+          "description": "在初始生态区之外建造一栋建筑物。"
+        }
+      }
+    },
+    "TUBE_TRAVEL_DISTANCE": {
+      "translations": {
+        "english": {
+          "name": "Totally Tubular",
+          "description": "Have Duplicants travel 10,000m by Transit Tube."
+        },
+        "schinese": {
+          "name": "管道达人",
+          "description": "让复制人通过运输管行进10,000米。"
+        }
+      }
+    },
+    "REACH_SPACE_ANY_DESTINATION": {
+      "translations": {
+        "english": {
+          "name": "Space Race",
+          "description": "Launch your first rocket into space."
+        },
+        "schinese": {
+          "name": "太空竞赛",
+          "description": "发射你的第一枚火箭进入太空。"
+        }
+      }
+    },
+    "EQUIP_EIGHT_DUPES": {
+      "translations": {
+        "english": {
+          "name": "And Nowhere to Go",
+          "description": "Have 8 Duplicants wear non-default clothing simultaneously."
+        },
+        "schinese": {
+          "name": "无处可去",
+          "description": "让8名复制人同时穿着非默认服装。"
+        }
+      }
+    },
+    "VARIETY_OF_ROOMS": {
+      "translations": {
+        "english": {
+          "name": "Get a Room",
+          "description": "Build at least one of each of the following rooms in a single colony: A Nature Reserve, a Hospital, a Recreation Room, a Great Hall, a Bedroom, a Washroom, a Greenhouse and a Stable."
+        },
+        "schinese": {
+          "name": "弄个房间",
+          "description": "在单个殖民地中至少建造以下每种房间各一：自然保护区、医院、娱乐室、豪华大厅、卧室、卫生间、温室和畜舍。"
+        }
+      }
+    },
+    "SURVIVE_ONE_YEAR": {
+      "translations": {
+        "english": {
+          "name": "One Year, to be Exact",
+          "description": "Reach cycle 365.25 with a single colony."
+        },
+        "schinese": {
+          "name": "确切地说，是一年",
+          "description": "让单个殖民地到达第365.25周期。"
+        }
+      }
+    },
+    "EXPLORE_OIL_BIOME": {
+      "translations": {
+        "english": {
+          "name": "Slick",
+          "description": "Enter an oil biome for the first time."
+        },
+        "schinese": {
+          "name": "滑入",
+          "description": "首次进入原油生态区。"
+        }
+      }
+    },
+    "TAME_BASIC_CRITTERS": {
+      "translations": {
+        "english": {
+          "name": "Critter Whisperer",
+          "description": "Find and tame one of every critter species in the world. Default morphs only."
+        },
+        "schinese": {
+          "name": "小动物低语者",
+          "description": "发现并驯服世界上每种小动物各一只（仅限默认变种）。"
+        }
+      }
+    },
+    "COMPLETED_SKILL_BRANCH": {
+      "translations": {
+        "english": {
+          "name": "To Pay the Bills",
+          "description": "Use a Duplicant's Skill Points to buy out an entire branch of the Skill Tree."
+        },
+        "schinese": {
+          "name": "养家糊口",
+          "description": "使用一名复制人的技能点买断技能树的整个分支。"
+        }
+      }
+    },
+    "COMPLETED_RESEARCH": {
+      "translations": {
+        "english": {
+          "name": "Honorary Doctorate",
+          "description": "Unlock every item in the Research Tree."
+        },
+        "schinese": {
+          "name": "荣誉博士",
+          "description": "解锁科技树中的每一项。"
+        }
+      }
+    },
+    "COOKED_FOOD": {
+      "translations": {
+        "english": {
+          "name": "It's Not Raw",
+          "description": "Have a Duplicant eat any cooked meal prepared at an Electrical Grill or Gas Range."
+        },
+        "schinese": {
+          "name": "不是生的",
+          "description": "让一名复制人在电烤炉或燃气灶上吃任何熟食。"
+        }
+      }
+    },
+    "PLUMBED_WASHROOMS": {
+      "translations": {
+        "english": {
+          "name": "Royal Flush",
+          "description": "Replace all the Outhouses and Wash Basins in your colony with Lavatories and Sinks."
+        },
+        "schinese": {
+          "name": "同花大顺",
+          "description": "将殖民地中所有的茅厕和洗手盆替换为马桶和洗手池。"
+        }
+      }
+    },
+    "BASIC_COMFORTS": {
+      "translations": {
+        "english": {
+          "name": "One Bed One Bath",
+          "description": "Have at least one bed and one toilet for each Duplicant in the colony."
+        },
+        "schinese": {
+          "name": "一床一浴",
+          "description": "为殖民地中的每名复制人至少配备一张床和一个马桶。"
+        }
+      }
+    },
+    "BASIC_PUMPING": {
+      "translations": {
+        "english": {
+          "name": "Oxygen Not Occluded",
+          "description": "Distribute 1000kg of Oxygen using gas vents."
+        },
+        "schinese": {
+          "name": "氧气不阻",
+          "description": "使用排气口分布1000千克氧气。"
+        }
+      }
+    },
+    "AUTOMATE_A_BUILDING": {
+      "translations": {
+        "english": {
+          "name": "Red Light, Green Light",
+          "description": "Automate a building using sensors or switches from the Automation tab in the Build Menu."
+        },
+        "schinese": {
+          "name": "红灯停，绿灯行",
+          "description": "使用「自动化」类别中的传感器或开关自动化一栋建筑物。"
+        }
+      }
+    },
+    "MASTERPIECE_PAINTING": {
+      "translations": {
+        "english": {
+          "name": "Art Underground",
+          "description": "Have a Duplicant with the Masterworks skill paint a Masterpiece quality painting."
+        },
+        "schinese": {
+          "name": "地下艺术",
+          "description": "让拥有「大师之作」技能的复制人创作一幅「杰作」品质的画作。"
+        }
+      }
+    },
+    "INSPECT_POI": {
+      "translations": {
+        "english": {
+          "name": "Ghosts of Gravitas",
+          "description": "Recover a Database entry by inspecting facility ruins."
+        },
+        "schinese": {
+          "name": "重力之影",
+          "description": "检查设施废墟，恢复一条数据库条目。"
+        }
+      }
+    },
+    "HATCH_A_CRITTER": {
+      "translations": {
+        "english": {
+          "name": "Good Egg",
+          "description": "Hatch a new critter morph from an egg."
+        },
+        "schinese": {
+          "name": "好蛋",
+          "description": "从蛋中孵化出一种新的小动物变种。"
+        }
+      }
+    },
+    "CURED_DISEASE": {
+      "translations": {
+        "english": {
+          "name": "They Got Better",
+          "description": "Cure a sick Duplicant of disease."
+        },
+        "schinese": {
+          "name": "他们痊愈了",
+          "description": "治愈一名生病的复制人。"
+        }
+      }
+    },
+    "GENERATOR_TUNEUP": {
+      "translations": {
+        "english": {
+          "name": "Tune Up For What?",
+          "description": "Perform 100 Tune Ups on power generators."
+        },
+        "schinese": {
+          "name": "调校为何？",
+          "description": "对发电机执行100次调校。"
+        }
+      }
+    },
+    "CLEAR_FOW": {
+      "translations": {
+        "english": {
+          "name": "Pulling Back The Veil",
+          "description": "Reveal 80% of map by exploring outside the starting biome."
+        },
+        "schinese": {
+          "name": "揭开面纱",
+          "description": "探索起始生态区之外的地图，揭示80%的区域。"
+        }
+      }
+    },
+    "HATCH_REFINEMENT": {
+      "translations": {
+        "english": {
+          "name": "Down the Hatch",
+          "description": "Produce 10 t of refined metal by ranching Smooth Hatches."
+        },
+        "schinese": {
+          "name": "向下入腹",
+          "description": "通过养殖滑鳞哈奇产出10吨精炼金属。"
+        }
+      }
+    },
+    "BUNKER_DOOR_DEFENSE": {
+      "translations": {
+        "english": {
+          "name": "Immovable Object",
+          "description": "Block a meteor from hitting your base using a Bunker Door."
+        },
+        "schinese": {
+          "name": "不可移动之物",
+          "description": "使用舱门阻挡陨石撞击基地。"
+        }
+      }
+    },
+    "IDLE_DUPLICANTS": {
+      "translations": {
+        "english": {
+          "name": "Easy Livin'",
+          "description": "Have Auto Sweepers complete more deliveries to machines than Duplicants over 5 cycles."
+        },
+        "schinese": {
+          "name": "安逸生活",
+          "description": "在5个周期内，让自动清扫器比复制人完成更多的机器送货任务。"
+        }
+      }
+    },
+    "EXOSUIT_CYCLES": {
+      "translations": {
+        "english": {
+          "name": "Job Suitability",
+          "description": "For 10 cycles in a row, have every Duplicant in the colony complete at least one chore while wearing an Exosuit."
+        },
+        "schinese": {
+          "name": "工作适配",
+          "description": "连续10个周期，让殖民地中每名复制人至少穿着太空服完成一项杂务。"
+        }
+      }
+    },
+    "FIRST_TELEPORT": {
+      "translations": {
+        "english": {
+          "name": "First Teleport of Call",
+          "description": "Teleport a Duplicant and defrost a Friend on another world."
+        },
+        "schinese": {
+          "name": "第一次传送",
+          "description": "传送一名复制人并在另一个星球上解冻一位朋友。"
+        }
+      }
+    },
+    "SOFT_LAUNCH": {
+      "translations": {
+        "english": {
+          "name": "Soft Launch",
+          "description": "Build a launchpad on a world without a teleporter."
+        },
+        "schinese": {
+          "name": "软发射",
+          "description": "在没有传送器的星球上建造一个发射平台。"
+        }
+      }
+    },
+    "LANDED_ON_ALL_WORLDS": {
+      "translations": {
+        "english": {
+          "name": "Cluster Conquest",
+          "description": "Land dupes or rovers on all worlds in the cluster."
+        },
+        "schinese": {
+          "name": "星团征服",
+          "description": "在星团中的所有星球上降落复制人或漫游者。"
+        }
+      }
+    },
+    "GMO_OK": {
+      "translations": {
+        "english": {
+          "name": "GMO A-OK",
+          "description": "Successfully analyze at least one seed of all mutatable plants."
+        },
+        "schinese": {
+          "name": "转基因成功",
+          "description": "成功分析所有可突变植物的至少一颗种子。"
+        }
+      }
+    },
+    "MINE_THE_GAP": {
+      "translations": {
+        "english": {
+          "name": "Mine the Gap",
+          "description": "Mine 1,000,000kg from space POIs."
+        },
+        "schinese": {
+          "name": "开采缝隙",
+          "description": "从太空POI中开采1,000,000千克资源。"
+        }
+      }
+    },
+    "WINCONDITION_ARTIFACTS": {
+      "translations": {
+        "english": {
+          "name": "Cosmic Archaeology",
+          "description": "Uncover the past to secure your future by fulfilling the requirements of the Exploration Imperative."
+        },
+        "schinese": {
+          "name": "宇宙考古",
+          "description": "完成「探索令」要求，揭示过去以确保你的未来。"
+        }
+      }
+    },
+    "RADICAL_TRIP": {
+      "translations": {
+        "english": {
+          "name": "Radical Trip",
+          "description": "Have radbolts travel a cumulative 10 km."
+        },
+        "schinese": {
+          "name": "激进之旅",
+          "description": "让辐射粒子累计行进10千米。"
+        }
+      }
+    },
+    "SWEETER_THAN_HONEY": {
+      "translations": {
+        "english": {
+          "name": "Sweeter Than Honey",
+          "description": "Extract Uranium from a Beeta hive without getting stung."
+        },
+        "schinese": {
+          "name": "比蜜还甜",
+          "description": "从蜂巢蜂巢穴中提取铀而不被蜇伤。"
+        }
+      }
+    },
+    "SURVIVE_IN_A_ROCKET": {
+      "translations": {
+        "english": {
+          "name": "Morale High Ground",
+          "description": "Have all Duplicants in a rocket survive in space for 10 cycles in a row with a morale of 25 or higher."
+        },
+        "schinese": {
+          "name": "士气高地",
+          "description": "让火箭中所有复制人在太空中连续生存10个周期，且士气达到25或更高。"
+        }
+      }
+    },
+    "REACTOR_USAGE": {
+      "translations": {
+        "english": {
+          "name": "That's Rad!",
+          "description": "Run a Research Reactor at full capacity for 5 cycles."
+        },
+        "schinese": {
+          "name": "辐射太棒了！",
+          "description": "让研究反应堆满负荷运行5个周期。"
+        }
+      }
+    },
+    "WINCONDITION_GEOPLANT": {
+      "translations": {
+        "english": {
+          "name": "Full Steam Ahead",
+          "description": "Secure your colony's industrial future by fulfilling the Power Imperative."
+        },
+        "schinese": {
+          "name": "全速前进",
+          "description": "完成「电力令」要求，确保殖民地的工业未来。"
+        }
+      }
+    },
+    "EFFICIENT_DATAMINING": {
+      "translations": {
+        "english": {
+          "name": "Data Driven",
+          "description": "Produce a Data Bank using a Data Miner operating at maximum efficiency."
+        },
+        "schinese": {
+          "name": "数据驱动",
+          "description": "使用运行于最高效率的数据挖掘机产出数据库。"
+        }
+      }
+    },
+    "ALL_THE_CIRCUITS": {
+      "translations": {
+        "english": {
+          "name": "Most Valuable Bionic",
+          "description": "Install 8 boosters in a single Bionic Duplicant."
+        },
+        "schinese": {
+          "name": "最有价值仿生人",
+          "description": "在单个仿生复制人中安装8个增强器。"
+        }
+      }
+    },
+    "ASTEROID_DESTROYED": {
+      "translations": {
+        "english": {
+          "name": "Blast Line of Defense",
+          "description": "Escape extinction by fulfilling the requirements of the Defense Imperative."
+        },
+        "schinese": {
+          "name": "最后的防线",
+          "description": "完成「防御令」要求，逃离灭绝的命运。"
+        }
+      }
+    },
+    "ASTEROID_SURVIVED": {
+      "translations": {
+        "english": {
+          "name": "The Lab: Life Found A Way",
+          "description": "Survive 100 cycles after Demolior collides with your colony."
+        },
+        "schinese": {
+          "name": "实验室：生命自有出路",
+          "description": "在Demolior与殖民地碰撞后存活100个周期。"
+        }
+      }
+    },
+    "MINNOW_RECRUITED": {
+      "translations": {
+        "english": {
+          "name": "Better Together",
+          "description": "Recruit the only freediver Duplicant in the universe to your colony."
+        },
+        "schinese": {
+          "name": "一起更好",
+          "description": "招募宇宙中唯一一名自由潜水复制人加入你的殖民地。"
+        }
+      }
+    }
+  }
+}
