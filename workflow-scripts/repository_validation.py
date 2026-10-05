@@ -8,6 +8,7 @@ from pathlib import Path, PurePosixPath
 import achievement_catalog
 import catalog_v2
 import translation_json
+from pr_submission_data import with_submissions
 from generate_statistics_svg import build_statistics, render_svg
 from library_index import HUMAN_INDEX_EN_PATH, HUMAN_INDEX_PATH, render_human_index, sort_entries
 from steam_schema import achievement_rows, language_coverage, load_schema, schema_languages, sha256, validate_schema_structure
@@ -154,11 +155,13 @@ def check_repository(
     allow_unindexed_schema_files: bool = False,
     allow_stale_index_metadata: bool = False,
     allow_stale_derived_artifacts: bool = False,
+    allow_pending_submissions: bool = False,
+    strict_game_ids: set[str] | None = None,
 ) -> CheckReport:
     report = CheckReport()
 
     def derived_mismatch(message: str) -> None:
-        if allow_stale_derived_artifacts:
+        if allow_stale_derived_artifacts or allow_pending_submissions:
             report.warn(f"stale derived catalog artifact allowed for translation PR: {message}")
         else:
             report.error(message)
@@ -176,6 +179,15 @@ def check_repository(
             report.error("index-v2.json is not in canonical one-game-per-line format")
     except (OSError, UnicodeError) as exc:
         report.error(f"cannot verify index-v2.json formatting: {exc}")
+
+    try:
+        effective = with_submissions(catalog, root=ROOT)
+        if effective != catalog:
+            derived_mismatch("index-v2.json has unpublished game-local submissions")
+        catalog = effective
+    except (OSError, UnicodeError, ValueError) as exc:
+        report.error(f"invalid game-local submission: {exc}")
+        return report
 
     index = catalog_v2.legacy_index_from_catalog(catalog)
     index["entries"] = sort_entries(index["entries"])
@@ -206,7 +218,7 @@ def check_repository(
                 variant,
                 expected_paths,
                 allow_stale_index_metadata=allow_stale_index_metadata,
-                strict_language_coverage=strict_language_coverage,
+                strict_language_coverage=strict_language_coverage or game_id in (strict_game_ids or set()),
             )
 
     actual_schemas = {path.resolve() for path in FILES_ROOT.rglob("*.bin") if path.is_file()}

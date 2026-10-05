@@ -10,6 +10,7 @@ import catalog_v2
 import translation_json
 from generate_statistics_svg import build_statistics, render_svg, write_if_changed
 from library_index import render_human_index, sort_entries
+from pr_submission_data import with_submissions
 from steam_schema import achievement_rows, load_schema, schema_languages, sha256, validate_schema_structure
 
 
@@ -21,6 +22,7 @@ STATISTICS_PATH = ROOT / "docs" / "statistics" / "library-statistics.svg"
 
 def refresh_catalog(catalog: dict[str, Any], *, root: Path = ROOT) -> dict[str, Any]:
     """Recalculate BIN-derived fields, then refresh every checked-in projection."""
+    catalog = with_submissions(catalog, root=root)
     for game_id, game in catalog["games"].items():
         for variant_id, variant in game["variants"].items():
             relative = catalog_v2.schema_relative_path(game_id, variant_id)

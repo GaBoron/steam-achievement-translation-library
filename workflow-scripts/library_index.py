@@ -10,6 +10,7 @@ from pathlib import Path, PurePosixPath
 from typing import Any
 
 import catalog_v2
+from pr_submission_data import load_submission_catalog, write_submission_entry
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -45,7 +46,7 @@ def clean_variant_note(value: Any, field_name: str) -> str:
 
 
 def load_index() -> dict[str, Any]:
-    catalog = catalog_v2.load_catalog(root=REPO_ROOT)
+    catalog = load_submission_catalog(root=REPO_ROOT)
     index = catalog_v2.legacy_index_from_catalog(catalog)
     index["entries"] = sort_entries(index["entries"])
     return index
@@ -240,17 +241,14 @@ def upsert_index_entry(entry: dict[str, Any]) -> None:
 
 
 def upsert_catalog_entry(entry: dict[str, Any], *, previous_game_id: str = "") -> None:
-    """Update only the authoritative catalog for an in-flight business PR."""
+    """Persist only this game's pending metadata in an in-flight PR."""
     index = load_index()
     game_id = str(entry.get("game_id") or "")
     existing = existing_entry(index, game_id)
     if existing and "schema_files" in existing and "schema_files" not in entry:
         entry = dict(entry)
         entry["schema_files"] = existing["schema_files"]
-    replaced_ids = {game_id, previous_game_id}
-    index["entries"] = [item for item in index.get("entries", []) if str(item.get("game_id")) not in replaced_ids] + [entry]
-    index["entries"] = sort_entries(index["entries"])
-    catalog_v2.write_catalog(catalog_v2.catalog_from_legacy_index(index), root=REPO_ROOT)
+    write_submission_entry(entry, previous_game_id=previous_game_id, root=REPO_ROOT)
 
 
 def escape_table(value: str) -> str:
