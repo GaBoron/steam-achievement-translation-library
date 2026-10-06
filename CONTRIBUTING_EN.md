@@ -6,8 +6,10 @@ Thank you for contributing to the Steam Achievement Translation Library. After y
 
 These tools can produce files in the expected submission format:
 
-- 🖥️ [Steam Achievement Translation Manager](https://github.com/GaBoron/steam-achievement-translation-installer): a visual local editor that exports standard BIN files and submission ZIP files.
+- 🖥️ [Steam Achievement Translation Manager](https://github.com/GaBoron/SATLI): a visual local editor that exports standard BIN files and submission ZIP files.
 - 🤖 [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill): researches, translates, and validates files with Codex; completed files are written to the project's `final/` directory.
+
+SATLI lite can export locally edited translation JSON, but that file is not a submission package. Submissions still require a complete BIN/ZIP prepared with SATLI or another compatible tool; the library generates the JSON sidecars.
 
 Other editors are also supported, but every submission must meet these requirements:
 

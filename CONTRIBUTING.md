@@ -6,8 +6,10 @@
 
 推荐使用以下工具生成符合投稿格式的文件：
 
-- 🖥️ [Steam 成就翻译管理器](https://github.com/GaBoron/steam-achievement-translation-installer)：适合本地可视化编辑，可直接导出标准 BIN 或投稿 ZIP。
+- 🖥️ [Steam 成就翻译管理器](https://github.com/GaBoron/SATLI)：适合本地可视化编辑，可直接导出标准 BIN 或投稿 ZIP。
 - 🤖 [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill)：适合使用 Codex 研究、翻译和验证，成品位于项目的 `final/` 目录。
+
+SATLI lite 可导出本地编辑的翻译 JSON，但该文件不属于投稿格式。投稿仍须提供完整 BIN/ZIP；请使用 SATLI 本体或其他兼容工具制作，配套 JSON 由翻译库自动生成。
 
 也可以使用其他编辑器，但提交前必须满足：
 

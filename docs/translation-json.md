@@ -1,8 +1,10 @@
 # 翻译 JSON 接口
 
+[SATLI lite](https://github.com/GaBoron/SATLI-lite) 使用此接口，在 Steam 内下载、选择和显示社区译本。普通使用者可直接安装插件，操作步骤见 [安装说明](https://github.com/GaBoron/SATLI-lite#安装) 和 [使用指南](https://github.com/GaBoron/SATLI-lite/blob/main/docs/usage.md)。下文面向接入翻译数据的客户端开发者。
+
 BIN 保留为 SATLI 本体使用的源文件，JSON 是新增的派生数据，源文件与投稿约定保持不变。运行 `python workflow-scripts/catalog_refresh.py` 会生成所有 V2 版本的 JSON，同步 V1 默认旧路径的 BIN，回收该路径的多余 JSON，并更新 `index-v2.json` 中各版本的 `json` 元数据。V1 兼容不生成 JSON。文件使用 UTF-8、LF 和结尾换行，输出不含生成时间，重复刷新结果一致。
 
-投稿、PR 文件更新、App ID 重命名和 `/force-refresh` 在 PR 阶段同步并提交上述文件及 V2 元数据。合并后继续生成 `index.json`、人类可读索引和统计；PR 检查允许这些派生索引暂时未刷新，但 V2 BIN/JSON 和 V1 默认 BIN 必须一致，旧路径不能包含 JSON。
+投稿、PR 文件更新、App ID 重命名和 `/force-refresh` 在 PR 阶段只同步该游戏目录中的文件及 `submission.json` 待入库元数据，不修改共享索引。合并后汇总待入库数据，生成 `index-v2.json`、`index.json`、人类可读索引和统计。PR 检查基于待入库元数据核对内容；V2 BIN/JSON 和 V1 默认 BIN 必须一致，旧路径不能包含 JSON。
 
 客户端下载 `index-v2.json` 后，按 App ID 与版本 ID 推导路径：
 
@@ -38,9 +40,11 @@ files/<app_id>/<variant_id>/UserGameStatsSchema_<app_id>.json
 
 ## English
 
+[SATLI lite](https://github.com/GaBoron/SATLI-lite) uses this interface to download, select, and display community translations inside Steam. Users can install the plugin directly; see its [installation guide](https://github.com/GaBoron/SATLI-lite#安装) and [usage guide](https://github.com/GaBoron/SATLI-lite/blob/main/docs/usage.md). This reference is for developers integrating translation data.
+
 BIN remains the source file used by SATLI; JSON is an additional derivative, without changing submissions or the V1/V2 BIN contract. Run `python workflow-scripts/catalog_refresh.py` to regenerate all V2 variant JSON sidecars, synchronize the V1 legacy-default BIN copies, recycle redundant JSON at those legacy paths, and update V2 `json` metadata. V1 compatibility does not generate JSON. Output uses UTF-8, LF, a final newline, and no generated timestamp, so repeated refreshes are deterministic.
 
-Submissions, PR file updates, app ID renames, and `/force-refresh` synchronize and commit these files and V2 metadata in the PR. Post-merge refreshes regenerate `index.json`, human-readable indexes, and statistics. PR checks permit those derived indexes to lag, while V2 BIN/JSON files and V1 default BIN copies must agree. Legacy paths must not contain JSON.
+Submissions, PR file updates, app ID renames, and `/force-refresh` synchronize only the game's files and pending `submission.json` metadata in the PR, without changing shared indexes. After merge, automation collects pending data and generates `index-v2.json`, `index.json`, human-readable indexes, and statistics. PR checks validate content against pending metadata; V2 BIN/JSON files and V1 default BIN copies must agree. Legacy paths must not contain JSON.
 
 Derive `files/<app_id>/<variant_id>/UserGameStatsSchema_<app_id>.json` from Catalog V2. Each variant's `json` object contains `version: 1` and the JSON's UTF-8 byte `size`. The existing variant `sha256` still identifies the source BIN. Older catalogs without `json` metadata do not promise JSON downloads.
 
