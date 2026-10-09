@@ -1,0 +1,3276 @@
+{
+  "version": 1,
+  "app_id": "241930",
+  "variant_id": "default",
+  "source_sha256": "8cd7867a7440c42b570e9e75367943e3a4fb12c1227273b27af9964dec83cb25",
+  "languages": [
+    "brazilian",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "Amature_Collector": {
+      "translations": {
+        "brazilian": {
+          "name": "Caminho dos Mortos",
+          "description": "Recolha 25% dos artefatos."
+        },
+        "english": {
+          "name": "Paths of the Dead",
+          "description": "Collect 25% of the Artifacts."
+        },
+        "french": {
+          "name": "Les Chemins des Morts",
+          "description": "Collectez 25 % des artefacts."
+        },
+        "german": {
+          "name": "Pfade der Toten",
+          "description": "Sammle 25 % aller Artefakte."
+        },
+        "italian": {
+          "name": "Via dei Morti",
+          "description": "Raccogli il 25% dei manufatti."
+        },
+        "japanese": {
+          "name": "死者の道",
+          "description": "アーティファクトを25%集める。"
+        },
+        "polish": {
+          "name": "Ścieżkami zmarłych",
+          "description": "Zbierz 25% artefaktów."
+        },
+        "russian": {
+          "name": "Тропы мертвых",
+          "description": "Собрать 25% артефактов."
+        },
+        "schinese": {
+          "name": "亡者之路",
+          "description": "收集 25% 的宝物"
+        },
+        "spanish": {
+          "name": "Senderos de los Muertos",
+          "description": "Obtén el 25 % de los artefactos."
+        }
+      }
+    },
+    "Armorer": {
+      "translations": {
+        "brazilian": {
+          "name": "A Luz da Vida",
+          "description": "Recolha 50% dos Ithildin."
+        },
+        "english": {
+          "name": "Crowned with Living Light",
+          "description": "Collect 50% of the Ithildin."
+        },
+        "french": {
+          "name": "Couronné de lumière vive",
+          "description": "Collectez 50 % des Ithildin."
+        },
+        "german": {
+          "name": "Die Krone des Lichts",
+          "description": "Sammle 50 % aller Ithildin."
+        },
+        "italian": {
+          "name": "Incoronato di luce viva",
+          "description": "Raccogli il 50% degli Ithildin."
+        },
+        "japanese": {
+          "name": "生の光を戴く",
+          "description": "イシルディンの秘文字を50%集める。"
+        },
+        "polish": {
+          "name": "W koronie z żywego blasku",
+          "description": "Zbierz 50% ithildinów."
+        },
+        "russian": {
+          "name": "Осененный живым светом",
+          "description": "Собрать 50% итильдинов."
+        },
+        "schinese": {
+          "name": "光辉中的加冕",
+          "description": "收集 100% 的宝物"
+        },
+        "spanish": {
+          "name": "Coronado con luz viviente",
+          "description": "Obtén el 50 % de los Ithildin."
+        }
+      }
+    },
+    "Betrayal": {
+      "translations": {
+        "brazilian": {
+          "name": "Rebeldes Malditos",
+          "description": "Marque 5 guarda-costas, para que eles se revoltem contra seu chefe em combate."
+        },
+        "english": {
+          "name": "Stinking Rebels",
+          "description": "Brand 5 Bodyguards of a Warchief, turning them against him in combat."
+        },
+        "french": {
+          "name": "Infâmes rebelles",
+          "description": "Marquez 5 gardes du corps pour qu'ils se retournent contre leur chef de guerre en combat."
+        },
+        "german": {
+          "name": "Stinkendes Rebellenpack",
+          "description": "Brandmarke 5 Leibwächter eines Häuptlings und wende sie im Kampf gegen ihn."
+        },
+        "italian": {
+          "name": "Ribelli schifosi",
+          "description": "Marchia 5 guardie del corpo di un comandante, facendole rivoltare contro di lui in combattimento."
+        },
+        "japanese": {
+          "name": "酷い反乱",
+          "description": "軍団長の5匹の護衛を全てブランドして戦闘で裏切らせる。"
+        },
+        "polish": {
+          "name": "Cuchnący buntownicy",
+          "description": "Naznacz 5 przybocznych wodza, zmuszając ich do zdrady swojego pana."
+        },
+        "russian": {
+          "name": "Вонючие бунтовщики",
+          "description": "Заклеймить 5 телохранителей одного вождя и приказать им обратить оружие против хозяина."
+        },
+        "schinese": {
+          "name": "腐臭的叛军",
+          "description": "烙印一名酋长的 5 名护卫，并让他们对酋长反目成仇"
+        },
+        "spanish": {
+          "name": "Sucios rebeldes",
+          "description": "Marca a 5 guardaespaldas de un caudillo para que se vuelvan contra él en combate."
+        }
+      }
+    },
+    "Bow_Master": {
+      "translations": {
+        "brazilian": {
+          "name": "O Arco do Criador",
+          "description": "Conclua todas as missões de Lendas de Azkâr."
+        },
+        "english": {
+          "name": "The Maker's Bow",
+          "description": "Complete all Azkâr Legend Missions."
+        },
+        "french": {
+          "name": "L'arc du Créateur",
+          "description": "Complétez toutes les missions Légende d'Azkâr."
+        },
+        "german": {
+          "name": "Der Bogen des Schöpfers",
+          "description": "Schließe alle Aufträge zu den Legenden Azkârs ab."
+        },
+        "italian": {
+          "name": "L'arco del Creatore",
+          "description": "Completa tutte le missioni Leggenda di Azkâr."
+        },
+        "japanese": {
+          "name": "作り手の弓",
+          "description": "「アズカルの伝説」ミッションを全て完了する。"
+        },
+        "polish": {
+          "name": "Łuk Twórcy",
+          "description": "Ukończ wszystkie misje legendy Azkâra."
+        },
+        "russian": {
+          "name": "Лук создателя",
+          "description": "Выполнить все задания ''Легенды Азкара''."
+        },
+        "schinese": {
+          "name": "创造者之弓",
+          "description": "完成所有射术精通任务"
+        },
+        "spanish": {
+          "name": "El arco del hacedor",
+          "description": "Completa todas las misiones de la Leyenda de Azkâr."
+        }
+      }
+    },
+    "Bow_Novice": {
+      "translations": {
+        "brazilian": {
+          "name": "A Lenda do Criador",
+          "description": "Conclua uma missão do Arco e comece a expandir a Lenda de Azkâr."
+        },
+        "english": {
+          "name": "Legend of the Maker",
+          "description": "Complete a Bow Mission and begin growing the legend of Azkâr."
+        },
+        "french": {
+          "name": "La légende du Créateur",
+          "description": "Complétez une mission de l'arc pour commencer à forger la Légende d'Azkâr."
+        },
+        "german": {
+          "name": "Legende des Schöpfers",
+          "description": "Schließe einen Bogenauftrag ab und mehre die Legenden um Azkâr."
+        },
+        "italian": {
+          "name": "La leggenda del Creatore",
+          "description": "Completa una missione con l'arco e inizia ad accrescere la Leggenda di Azkâr."
+        },
+        "japanese": {
+          "name": "作り手の伝説",
+          "description": "弓ミッションを1つ完了し、アズカルの伝説を開始する。"
+        },
+        "polish": {
+          "name": "Legenda Twórcy",
+          "description": "Ukończ misję łuku i rozpocznij tworzenie legendy Azkâra."
+        },
+        "russian": {
+          "name": "Легенда о создателе",
+          "description": "Начать создание легенды лука Азкара, выполнив одно из ее заданий."
+        },
+        "schinese": {
+          "name": "创造者传奇",
+          "description": "完成一个弓箭精通任务来逐步成长为射术达人"
+        },
+        "spanish": {
+          "name": "Leyenda del hacedor",
+          "description": "Completa una misión de arco y empieza a acrecentar la Leyenda de Azkâr."
+        }
+      }
+    },
+    "Bring_It_Down": {
+      "translations": {
+        "brazilian": {
+          "name": "Gorthaur, o Cruel",
+          "description": "Destrua o portão do monumento e derrube a estátua de Sauron."
+        },
+        "english": {
+          "name": "Gorthaur the Cruel",
+          "description": "Destroy the Monument Gate and topple the statue of Sauron."
+        },
+        "french": {
+          "name": "Gorthaur le Cruel",
+          "description": "Détruisez la porte monumentale et renversez la statue de Sauron."
+        },
+        "german": {
+          "name": "Gorthaur der Grausame",
+          "description": "Zerstöre das Tor am Monument und stürze Saurons Statue."
+        },
+        "italian": {
+          "name": "Gorthaur il Crudele",
+          "description": "Distruggi i cancelli del monumento e abbatti la statua di Sauron."
+        },
+        "japanese": {
+          "name": "冷血なるゴルサウア",
+          "description": "記念碑の門を破壊し、サウロンの像を倒す。"
+        },
+        "polish": {
+          "name": "Gorthaur Okrutny",
+          "description": "Zniszcz Bramę Pomnika i obal posąg Saurona."
+        },
+        "russian": {
+          "name": "Гортхаур Безжалостный",
+          "description": "Разрушить ворота монумента и опрокинуть статую Саурона."
+        },
+        "schinese": {
+          "name": "残忍的戈索尔",
+          "description": "破坏纪念碑之门并推翻索伦的雕像"
+        },
+        "spanish": {
+          "name": "Gorthaur el Cruel",
+          "description": "Destruye la puerta monumental y derriba la estatua de Sauron."
+        }
+      }
+    },
+    "Dagger_Master": {
+      "translations": {
+        "brazilian": {
+          "name": "A Última Sombra",
+          "description": "Conclua todas as missões de Lendas de Acharn."
+        },
+        "english": {
+          "name": "The Last Shadow",
+          "description": "Complete all Acharn Legend Missions."
+        },
+        "french": {
+          "name": "La dernière ombre",
+          "description": "Complétez toutes les missions Légende d'Acharn."
+        },
+        "german": {
+          "name": "Der letzte Schatten",
+          "description": "Schließe alle Aufträge zu den Legenden Acharns ab."
+        },
+        "italian": {
+          "name": "L'ultima ombra",
+          "description": "Completa tutte le missioni Leggenda di Acharn."
+        },
+        "japanese": {
+          "name": "最後の影",
+          "description": "「アチャーンの伝説」ミッションを全て完了する。"
+        },
+        "polish": {
+          "name": "Ostatni cień",
+          "description": "Ukończ wszystkie misje legendy Acharna."
+        },
+        "russian": {
+          "name": "Последняя тень",
+          "description": "Выполнить все задания ''Легенды Ахарна''."
+        },
+        "schinese": {
+          "name": "最后的暗影",
+          "description": "完成所有刺杀精通任务"
+        },
+        "spanish": {
+          "name": "La última sombra",
+          "description": "Completa todas las misiones de la Leyenda de Acharn."
+        }
+      }
+    },
+    "Dagger_Novice": {
+      "translations": {
+        "brazilian": {
+          "name": "A Lenda das Sombras",
+          "description": "Conclua uma missão da Adaga e comece a expandir a Lenda de Acharn."
+        },
+        "english": {
+          "name": "Legend of Shadow",
+          "description": "Complete a Dagger Mission and begin growing the legend of Acharn."
+        },
+        "french": {
+          "name": "La légende de l'ombre",
+          "description": "Complétez une mission de la dague pour commencer à forger la Légende d'Acharn."
+        },
+        "german": {
+          "name": "Legende des Schattens",
+          "description": "Schließe einen Dolchauftrag ab und mehre die Legenden um Acharn."
+        },
+        "italian": {
+          "name": "Leggenda dell'ombra",
+          "description": "Completa una missione con il pugnale e inizia ad accrescere la Leggenda di Acharn."
+        },
+        "japanese": {
+          "name": "影の伝説",
+          "description": "短剣ミッションを1つ完了し、アチャーンの伝説を開始する。"
+        },
+        "polish": {
+          "name": "Legenda cienia",
+          "description": "Ukończ misję sztyletu i rozpocznij tworzenie legendy Acharna."
+        },
+        "russian": {
+          "name": "Легенда о тени",
+          "description": "Начать создание легенды кинжала Ахарна, выполнив одно из ее заданий."
+        },
+        "schinese": {
+          "name": "暗影传奇",
+          "description": "完成一个匕首精通任务来逐步成长为刺杀达人"
+        },
+        "spanish": {
+          "name": "Leyenda de la sombra",
+          "description": "Completa una misión de daga y empieza a acrecentar la Leyenda de Acharn."
+        }
+      }
+    },
+    "Didnt_See_It_Coming": {
+      "translations": {
+        "brazilian": {
+          "name": "Força Aérea",
+          "description": "Use o Golpe Aéreo vindo de pelo menos 60 pés acima do alvo."
+        },
+        "english": {
+          "name": "Height of Despair",
+          "description": "Use Strike From Above while at least 60 feet above your target."
+        },
+        "french": {
+          "name": "La hauteur du désespoir",
+          "description": "Utilisez l'Élimination aérienne depuis au moins 60 pieds au-dessus de votre cible."
+        },
+        "german": {
+          "name": "Tod aus der Luft",
+          "description": "Verwende Angriff von Oben, während du dich mindestens 60 Fuß über deinem Opfer befindest."
+        },
+        "italian": {
+          "name": "Morte in picchiata",
+          "description": "Usa Colpo dall'alto contro il tuo bersaglio da un'altezza di almeno 60 piedi."
+        },
+        "japanese": {
+          "name": "絶望の高み",
+          "description": "60フィート以上の高さから、標的に頭上攻撃を行う。"
+        },
+        "polish": {
+          "name": "Śmierć z przestworzy",
+          "description": "Użyj zabójczego zeskoku, będąc przynajmniej 60 stóp nad celem."
+        },
+        "russian": {
+          "name": "Отчаянная высота",
+          "description": "Применить удар сверху, будучи не менее чем в 60 футах над целью."
+        },
+        "schinese": {
+          "name": "绝望的高度",
+          "description": "从至少 60 英尺以上的高处袭击你的目标"
+        },
+        "spanish": {
+          "name": "La cima de la desesperación",
+          "description": "Usa Golpe desde arriba desde una altura de al menos 60 pies por encima del objetivo."
+        }
+      }
+    },
+    "Domination": {
+      "translations": {
+        "brazilian": {
+          "name": "Você Obedece",
+          "description": "Marque um Uruk."
+        },
+        "english": {
+          "name": "You Will Obey",
+          "description": "Make an uruk yours."
+        },
+        "french": {
+          "name": "Tu obéiras",
+          "description": "Dominez un Uruk."
+        },
+        "german": {
+          "name": "Gehorche!",
+          "description": "Brandmarke einen Uruk."
+        },
+        "italian": {
+          "name": "Mi obbedirai!",
+          "description": "Assumi il controllo di un Uruk."
+        },
+        "japanese": {
+          "name": "我に従え",
+          "description": "ウルクを1匹従わせる。"
+        },
+        "polish": {
+          "name": "Będziesz posłuszny",
+          "description": "Podporządkuj sobie uruka."
+        },
+        "russian": {
+          "name": "Повинуйся мне",
+          "description": "Подчинить урука."
+        },
+        "schinese": {
+          "name": "遵我之命",
+          "description": "奴役一个兽人"
+        },
+        "spanish": {
+          "name": "Obedéceme",
+          "description": "Marca a un uruk."
+        }
+      }
+    },
+    "Drink_Up": {
+      "translations": {
+        "brazilian": {
+          "name": "Celebração Venenosa",
+          "description": "Envenene um capitão no banquete dele."
+        },
+        "english": {
+          "name": "Black Celebration",
+          "description": "Poison a Captain at his own Feast."
+        },
+        "french": {
+          "name": "Festin macabre",
+          "description": "Empoisonnez un capitaine pendant son propre festin."
+        },
+        "german": {
+          "name": "Ein schwarzes Fest",
+          "description": "Vergifte einen Hauptmann bei seinem eigenen Festmahl."
+        },
+        "italian": {
+          "name": "Banchetto nero",
+          "description": "Avvelena un capitano al suo stesso banchetto."
+        },
+        "japanese": {
+          "name": "黒き祝宴",
+          "description": "小隊長の宴で、小隊長に毒を盛る。"
+        },
+        "polish": {
+          "name": "Ostatnia uczta",
+          "description": "Zatruj kapitana na jego własnej uczcie."
+        },
+        "russian": {
+          "name": "Незабываемый праздник",
+          "description": "Отравить капитана на устроенном им пиру."
+        },
+        "schinese": {
+          "name": "黑暗的庆典",
+          "description": "让一名队长在由他自己举办的宴会上中毒"
+        },
+        "spanish": {
+          "name": "Celebración siniestra",
+          "description": "Envenena a un capitán en su propio festín."
+        }
+      }
+    },
+    "Explorer": {
+      "translations": {
+        "brazilian": {
+          "name": "Memórias de Eregion",
+          "description": "Ative todas as torres da forja."
+        },
+        "english": {
+          "name": "Memories of Eregion",
+          "description": "Activate all Forge Towers."
+        },
+        "french": {
+          "name": "Souvenirs de l'Eregion",
+          "description": "Activez toutes les Tours de forge."
+        },
+        "german": {
+          "name": "Andenken an Eregion",
+          "description": "Aktiviere alle Schmiedetürme."
+        },
+        "italian": {
+          "name": "Ricordi dell'Eregion",
+          "description": "Attiva tutte le Torri della fucina."
+        },
+        "japanese": {
+          "name": "エレギオンの記憶",
+          "description": "鍛造塔を全て有効にする。"
+        },
+        "polish": {
+          "name": "Wspomnienia Eregionu",
+          "description": "Aktywuj wszystkie Wieże Kuźni."
+        },
+        "russian": {
+          "name": "Воспоминания об Эрегионе",
+          "description": "Привести в действие все башни-кузницы."
+        },
+        "schinese": {
+          "name": "伊瑞詹的记忆",
+          "description": "激活所有锻造塔"
+        },
+        "spanish": {
+          "name": "Recuerdos de Eregion",
+          "description": "Activa todas las torres de forja."
+        }
+      }
+    },
+    "Flashback": {
+      "translations": {
+        "brazilian": {
+          "name": "O Senhor Brilhante",
+          "description": "Descubra partes do passado do Espectro."
+        },
+        "english": {
+          "name": "The Bright Master",
+          "description": "Discover some of the Wraith's past."
+        },
+        "french": {
+          "name": "Le Maître de Lumière",
+          "description": "Découvrez une partie du passé du spectre."
+        },
+        "german": {
+          "name": "Der Leuchtende Herr",
+          "description": "Enthülle einen Teil der Vergangenheit des Geistes."
+        },
+        "italian": {
+          "name": "Il Lucente Signore",
+          "description": "Scopri qualcosa sul passato dello Spettro."
+        },
+        "japanese": {
+          "name": "輝ける主",
+          "description": "幽鬼の過去を発見する。"
+        },
+        "polish": {
+          "name": "Jasny Pan",
+          "description": "Odkryj kilka strzępków historii upiora."
+        },
+        "russian": {
+          "name": "Светлый хозяин",
+          "description": "Узнать кое-что из прошлого Призрака."
+        },
+        "schinese": {
+          "name": "光明之主",
+          "description": "揭秘幽魂的过往"
+        },
+        "spanish": {
+          "name": "Amo luminoso",
+          "description": "Descubre parte del pasado del espectro."
+        }
+      }
+    },
+    "Havoc": {
+      "translations": {
+        "brazilian": {
+          "name": "O Espírito de Mordor",
+          "description": "Comande um chefe a atacar outro para iniciar uma revolta."
+        },
+        "english": {
+          "name": "The Spirit of Mordor",
+          "description": "Start a Riot by commanding a Warchief to attack another Warchief."
+        },
+        "french": {
+          "name": "L'esprit du Mordor",
+          "description": "Déclenchez une révolte en ordonnant à un chef de guerre d'en attaquer un autre."
+        },
+        "german": {
+          "name": "Der Geist Mordors",
+          "description": "Beschwöre eine Revolte herauf, indem du einem Häuptling befiehlst, einen anderen anzugreifen."
+        },
+        "italian": {
+          "name": "Lo spirito di Mordor",
+          "description": "Provoca una Rivolta ordinando a un comandante di attaccarne un altro."
+        },
+        "japanese": {
+          "name": "モルドール精神",
+          "description": "軍団長に別の軍団長を攻撃するよう命令して、暴動を引き起こす。"
+        },
+        "polish": {
+          "name": "Duch Mordoru",
+          "description": "Zainicjuj zamieszki, nakazując jednemu wodzowi zaatakowanie innego."
+        },
+        "russian": {
+          "name": "Обычаи Мордора",
+          "description": "Начать бунт, приказав вождю напасть на другого вождя."
+        },
+        "schinese": {
+          "name": "魔多精神",
+          "description": "让一名酋长攻击另一名酋长，创造一个“暴动”任务"
+        },
+        "spanish": {
+          "name": "El espíritu de Mordor",
+          "description": "Inicia una revuelta ordenándole a un caudillo atacar a otro."
+        }
+      }
+    },
+    "Herbalist": {
+      "translations": {
+        "brazilian": {
+          "name": "Batedor de Morannon",
+          "description": "Conclua com êxito um desafio de Sobrevivente."
+        },
+        "english": {
+          "name": "Scout of the Morannon",
+          "description": "Successfully complete a Survivalist Challenge."
+        },
+        "french": {
+          "name": "Éclaireur du Morannon",
+          "description": "Remportez un Défi de survie."
+        },
+        "german": {
+          "name": "Späher von Morannon",
+          "description": "Schließe eine Überlebensherausforderung erfolgreich ab."
+        },
+        "italian": {
+          "name": "Esploratore del Morannon",
+          "description": "Completa con successo una Sfida di sopravvivenza."
+        },
+        "japanese": {
+          "name": "モランノンの斥候",
+          "description": "サバイバリストチャレンジを1つ完了する。"
+        },
+        "polish": {
+          "name": "Zwiadowca Morannonu",
+          "description": "Sprostaj wyzwaniu szkoły przetrwania."
+        },
+        "russian": {
+          "name": "Разведчик из Мораннона",
+          "description": "Успешно пройти испытание на выживание."
+        },
+        "schinese": {
+          "name": "莫拉农的斥候",
+          "description": "成功完成一个生存挑战"
+        },
+        "spanish": {
+          "name": "Explorador del Morannon",
+          "description": "Completa con éxito un desafío de supervivencia."
+        }
+      }
+    },
+    "Hunter": {
+      "translations": {
+        "brazilian": {
+          "name": "Empolgação da Caçada",
+          "description": "Conclua com êxito quatro desafios de Caçada."
+        },
+        "english": {
+          "name": "Thrill of the Hunt",
+          "description": "Successfully complete 4 Hunting Challenges."
+        },
+        "french": {
+          "name": "L'excitation de la chasse",
+          "description": "Remportez 4 Défis de chasse."
+        },
+        "german": {
+          "name": "Jagdgeschick",
+          "description": "Schließe erfolgreich 4 Jagd-Herausforderungen ab."
+        },
+        "italian": {
+          "name": "Il brivido della caccia",
+          "description": "Completa con successo 4 Sfide di caccia."
+        },
+        "japanese": {
+          "name": "狩りの楽しみ",
+          "description": "狩猟チャレンジを4つ完了する。"
+        },
+        "polish": {
+          "name": "Łowiecki zew",
+          "description": "Sprostaj 4 wyzwaniom łowieckim."
+        },
+        "russian": {
+          "name": "Азарт охоты",
+          "description": "Успешно пройти 4 охотничьи испытания."
+        },
+        "schinese": {
+          "name": "狩猎快感",
+          "description": "成功完成 4 个狩猎挑战"
+        },
+        "spanish": {
+          "name": "La emoción de la caza",
+          "description": "Completa con éxito 4 desafíos de caza."
+        }
+      }
+    },
+    "Liberation": {
+      "translations": {
+        "brazilian": {
+          "name": "O Cavaleiro Branco",
+          "description": "Liberte 30 escravos em 180 segundos, montado em um Caragor."
+        },
+        "english": {
+          "name": "The White Rider",
+          "description": "Liberate 30 slaves in 180 seconds while riding a caragor."
+        },
+        "french": {
+          "name": "Le Cavalier Blanc",
+          "description": "Libérez 30 esclaves en 180 secondes à dos de Caragor."
+        },
+        "german": {
+          "name": "Der Weiße Reiter",
+          "description": "Befreie in 180 Sekunden 30 Sklaven, während du auf einem Caragor reitest."
+        },
+        "italian": {
+          "name": "Il Cavaliere Bianco",
+          "description": "Libera 30 schiavi in 180 secondi cavalcando un Caragor."
+        },
+        "japanese": {
+          "name": "白の乗り手",
+          "description": "カラゴルに乗って奴隷を180秒以内に30人解放する。"
+        },
+        "polish": {
+          "name": "Biały Jeździec",
+          "description": "Jadąc na karagorze, wyzwól 30 niewolników w 180 sekund."
+        },
+        "russian": {
+          "name": "Белый всадник",
+          "description": "Освободить 30 рабов за 180 секунд, действуя верхом на карагоре."
+        },
+        "schinese": {
+          "name": "白骑士",
+          "description": "骑乘卡拉格在 180 秒内解放 30 个奴隶"
+        },
+        "spanish": {
+          "name": "El jinete blanco",
+          "description": "Libera a 30 esclavos en 180 segundos montado en un caragor."
+        }
+      }
+    },
+    "Lithariel": {
+      "translations": {
+        "brazilian": {
+          "name": "Além da Esperança",
+          "description": "Salve a vida de Lithariel."
+        },
+        "english": {
+          "name": "Beyond Hope",
+          "description": "Save Lithariel's life."
+        },
+        "french": {
+          "name": "Sans espoir",
+          "description": "Sauvez la vie de Lithariel."
+        },
+        "german": {
+          "name": "Hoffnungslos",
+          "description": "Rette Lithariels Leben."
+        },
+        "italian": {
+          "name": "Oltre ogni speranza",
+          "description": "Salva la vita di Lithariel."
+        },
+        "japanese": {
+          "name": "絶望的",
+          "description": "リサリエルを助ける。"
+        },
+        "polish": {
+          "name": "Nadzieja umiera ostatnia",
+          "description": "Ocal Litharielę."
+        },
+        "russian": {
+          "name": "Когда надежды не осталось",
+          "description": "Спасти жизнь Литариэль."
+        },
+        "schinese": {
+          "name": "希望渺茫",
+          "description": "救下理萨瑞尔"
+        },
+        "spanish": {
+          "name": "Más allá de toda esperanza",
+          "description": "Sálvale la vida a Lithariel."
+        }
+      }
+    },
+    "Lured": {
+      "translations": {
+        "brazilian": {
+          "name": "Dividir e Reinar",
+          "description": "Elimine os guarda-costas de dois chefes, então atraia-os e mate-os."
+        },
+        "english": {
+          "name": "Divide and Conquer",
+          "description": "Eliminate the bodyguards of two Warchiefs, then draw them out and kill them."
+        },
+        "french": {
+          "name": "Diviser pour mieux régner",
+          "description": "Tuez les gardes du corps de deux chefs de guerre, puis attirez-les et tuez-les."
+        },
+        "german": {
+          "name": "Teile und herrsche",
+          "description": "Töte die Leibwächter von zwei Häuptlingen und locke sie dann hervor, um sie zu töten."
+        },
+        "italian": {
+          "name": "Dividi e domina",
+          "description": "Elimina le guardie del corpo di due comandanti, quindi attirali allo scoperto e uccidili."
+        },
+        "japanese": {
+          "name": "分断攻略",
+          "description": "2人の軍団長の護衛を倒してから、軍団長たちをおびき出して倒す。"
+        },
+        "polish": {
+          "name": "Dziel i rządź",
+          "description": "Wywab z ukrycia i wykończ dwóch wodzów po zabiciu ich przybocznych."
+        },
+        "russian": {
+          "name": "Разделяй и властвуй",
+          "description": "Убить телохранителей двух вождей, а затем выманить и убить обоих."
+        },
+        "schinese": {
+          "name": "分而治之",
+          "description": "杀死两名酋长的护卫，再招出他们效忠的酋长并杀死酋长"
+        },
+        "spanish": {
+          "name": "Divide y vencerás",
+          "description": "Elimina a los guardaespaldas de dos caudillos para atraer a los caudillos y acabar con ellos."
+        }
+      }
+    },
+    "Made_In_Mordor": {
+      "translations": {
+        "brazilian": {
+          "name": "Para Todos Governar",
+          "description": "Testemunhe a criação dos Anéis do Poder."
+        },
+        "english": {
+          "name": "To Rule them All",
+          "description": "Witness the creation of The Rings of Power."
+        },
+        "french": {
+          "name": "Pour les gouverner tous",
+          "description": "Assistez à la création des Anneaux de Pouvoir."
+        },
+        "german": {
+          "name": "Ein Ring, sie zu knechten",
+          "description": "Werde Zeuge der Erschaffung der Ringe der Macht."
+        },
+        "italian": {
+          "name": "Per domarli tutti",
+          "description": "Assisti alla creazione degli Anelli del Potere."
+        },
+        "japanese": {
+          "name": "全てを統べよ",
+          "description": "力の指輪の誕生を目撃する。"
+        },
+        "polish": {
+          "name": "By wszystkimi rządzić",
+          "description": "Ujrzyj, jak powstawały Pierścienie Władzy."
+        },
+        "russian": {
+          "name": "Одно Кольцо покорит их",
+          "description": "Увидеть, как создавались Кольца Власти."
+        },
+        "schinese": {
+          "name": "统御众戒",
+          "description": "见证统御魔戒的诞生"
+        },
+        "spanish": {
+          "name": "Para gobernarlos a todos",
+          "description": "Sé testigo de la creación de los Anillos de Poder."
+        }
+      }
+    },
+    "Marked": {
+      "translations": {
+        "brazilian": {
+          "name": "Um Novo Senhor",
+          "description": "Marque um capitão em combate."
+        },
+        "english": {
+          "name": "A New Master",
+          "description": "Brand a Captain while in combat."
+        },
+        "french": {
+          "name": "Un nouveau maître",
+          "description": "Marquez un capitaine en combat."
+        },
+        "german": {
+          "name": "Ein neuer Herr",
+          "description": "Brandmarke einen Hauptmann während eines Kampfes."
+        },
+        "italian": {
+          "name": "Un nuovo padrone",
+          "description": "Marchia un capitano in combattimento."
+        },
+        "japanese": {
+          "name": "新しき主人",
+          "description": "戦闘中に小隊長をブランドする。"
+        },
+        "polish": {
+          "name": "Nowy pan",
+          "description": "Naznacz kapitana podczas walki."
+        },
+        "russian": {
+          "name": "Новый хозяин",
+          "description": "Заклеймить капитана во время боя."
+        },
+        "schinese": {
+          "name": "新主人",
+          "description": "在一场战斗中烙印一名队长"
+        },
+        "spanish": {
+          "name": "Un nuevo amo",
+          "description": "Marca a un capitán en combate."
+        }
+      }
+    },
+    "Master_Armorer": {
+      "translations": {
+        "brazilian": {
+          "name": "Portador da Luz",
+          "description": "Recolha 100% dos Ithildin."
+        },
+        "english": {
+          "name": "Bearer of the Shining Lamp",
+          "description": "Collect 100% of the Ithildin."
+        },
+        "french": {
+          "name": "Porteur de la brillante lumière",
+          "description": "Collectez 100 % des Ithildin."
+        },
+        "german": {
+          "name": "Bringer des Lichts",
+          "description": "Sammle 100 % der Ithildin."
+        },
+        "italian": {
+          "name": "Portatore della lampada",
+          "description": "Raccogli il 100% degli Ithildin."
+        },
+        "japanese": {
+          "name": "輝くランプの持ち手",
+          "description": "イシルディンの秘文字を100%集める。"
+        },
+        "polish": {
+          "name": "Powiernik Lampy Światłości",
+          "description": "Zbierz 100% ithildinów."
+        },
+        "russian": {
+          "name": "Путеводная звезда",
+          "description": "Собрать 100% итильдинов."
+        },
+        "schinese": {
+          "name": "背负闪耀之灯",
+          "description": "获得100%的秘银"
+        },
+        "spanish": {
+          "name": "Portador de la Gran Lámpara",
+          "description": "Obtén el 100 % de los Ithildin."
+        }
+      }
+    },
+    "Master_Herbalist": {
+      "translations": {
+        "brazilian": {
+          "name": "Patrulheiro de Ithilien",
+          "description": "Conclua todos os desafios de Sobrevivente."
+        },
+        "english": {
+          "name": "Ranger of Ithilien",
+          "description": "Complete all Survivalist Challenges."
+        },
+        "french": {
+          "name": "Rôdeur de l'Ihtilien",
+          "description": "Complétez tous les Défis de survie."
+        },
+        "german": {
+          "name": "Waldläufer Ithiliens",
+          "description": "Schließe alle Überlebensherausforderungen ab."
+        },
+        "italian": {
+          "name": "Ramingo di Ithilien",
+          "description": "Completa tutte le Sfide di sopravvivenza."
+        },
+        "japanese": {
+          "name": "イシリアンのレンジャー",
+          "description": "サバイバリストチャレンジを全て完了する。"
+        },
+        "polish": {
+          "name": "Strażnik Ithilien",
+          "description": "Sprostaj wszystkim wyzwaniom szkoły przetrwania."
+        },
+        "russian": {
+          "name": "Следопыт из Итилиена",
+          "description": "Пройти все испытания на выживание."
+        },
+        "schinese": {
+          "name": "伊锡里恩的游侠",
+          "description": "完成所有生存挑战"
+        },
+        "spanish": {
+          "name": "Montaraz de Ithilien",
+          "description": "Completa todos los desafíos de supervivencia."
+        }
+      }
+    },
+    "Master_Hunter": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre da Caçada",
+          "description": "Conclua todos os desafios de Caçada."
+        },
+        "english": {
+          "name": "Master of the Wilds",
+          "description": "Complete all Hunting Challenges."
+        },
+        "french": {
+          "name": "Maître des contrées sauvages",
+          "description": "Complétez tous les Défis de chasse."
+        },
+        "german": {
+          "name": "Herr der Wildnis",
+          "description": "Schließe alle Jagd-Herausforderungen ab."
+        },
+        "italian": {
+          "name": "Campione delle Terre Selvagge",
+          "description": "Completa tutte le Sfide di caccia."
+        },
+        "japanese": {
+          "name": "荒野の主",
+          "description": "狩猟チャレンジを全て完了する。"
+        },
+        "polish": {
+          "name": "Pan dziczy",
+          "description": "Sprostaj wszystkim wyzwaniom łowieckim."
+        },
+        "russian": {
+          "name": "Знаток дикой природы",
+          "description": "Пройти все охотничьи испытания."
+        },
+        "schinese": {
+          "name": "荒野大师",
+          "description": "完成所有的狩猎挑战"
+        },
+        "spanish": {
+          "name": "Amo de las fieras",
+          "description": "Completa todos los desafíos de caza."
+        }
+      }
+    },
+    "Outcast_Rescue": {
+      "translations": {
+        "brazilian": {
+          "name": "Os Povos Livres",
+          "description": "Conclua uma missão de resgate de proscritos."
+        },
+        "english": {
+          "name": "The Free Folk",
+          "description": "Complete an Outcast Rescue Mission."
+        },
+        "french": {
+          "name": "Le peuple libre",
+          "description": "Complétez une mission Sauvetage d'Exilés."
+        },
+        "german": {
+          "name": "Das Freie Volk",
+          "description": "Schließe einen Ausgestoßenen-Rettungsauftrag ab."
+        },
+        "italian": {
+          "name": "Il popolo libero",
+          "description": "Completa una missione di salvataggio dei Reietti."
+        },
+        "japanese": {
+          "name": "自由なる民",
+          "description": "はぐれ者救出ミッションを1つ完了する。"
+        },
+        "polish": {
+          "name": "Wolny lud",
+          "description": "Wypełnij misję ratowania wygnańców."
+        },
+        "russian": {
+          "name": "Вольный народ",
+          "description": "Выполнить задание по спасению изгоев."
+        },
+        "schinese": {
+          "name": "自由之歌",
+          "description": "完成一个的奴隶拯救任务"
+        },
+        "spanish": {
+          "name": "Los pueblos libres",
+          "description": "Completa una misión de rescate de esclavos."
+        }
+      }
+    },
+    "Outcast_Savior": {
+      "translations": {
+        "brazilian": {
+          "name": "Libertador",
+          "description": "Conclua todas as missões de resgate de proscritos."
+        },
+        "english": {
+          "name": "Liberator",
+          "description": "Complete all Outcast Rescue Missions."
+        },
+        "french": {
+          "name": "Libérateur",
+          "description": "Complétez toutes les missions Sauvetage d'Exilés."
+        },
+        "german": {
+          "name": "Befreier",
+          "description": "Schließe alle Ausgestoßenen-Rettungsaufträge ab."
+        },
+        "italian": {
+          "name": "Liberatore",
+          "description": "Completa tutte le missioni di salvataggio dei Reietti."
+        },
+        "japanese": {
+          "name": "解放者",
+          "description": "はぐれ者救出ミッションを全て完了する。"
+        },
+        "polish": {
+          "name": "Wyzwoliciel",
+          "description": "Wypełnij wszystkie misje ratowania wygnańców."
+        },
+        "russian": {
+          "name": "Освободитель",
+          "description": "Выполнить все задания по спасению изгоев."
+        },
+        "schinese": {
+          "name": "救星",
+          "description": "完成所有的奴隶拯救任务"
+        },
+        "spanish": {
+          "name": "Liberador",
+          "description": "Completa todas las misiones de rescate de esclavos."
+        }
+      }
+    },
+    "Payback": {
+      "translations": {
+        "brazilian": {
+          "name": "Acerto de contas",
+          "description": "Conclua uma missão de Vingança."
+        },
+        "english": {
+          "name": "Repaid in Blood",
+          "description": "Complete a Vendetta Mission."
+        },
+        "french": {
+          "name": "Vengeance par le sang",
+          "description": "Complétez une mission Vendetta."
+        },
+        "german": {
+          "name": "Auge um Auge",
+          "description": "Schließe einen Blutrache-Auftrag ab."
+        },
+        "italian": {
+          "name": "Occhio per occhio",
+          "description": "Completa una missione di faida."
+        },
+        "japanese": {
+          "name": "血の報復",
+          "description": "抗争ミッションを1つ完了する。"
+        },
+        "polish": {
+          "name": "Krwawe porachunki",
+          "description": "Ukończ misję wendety."
+        },
+        "russian": {
+          "name": "Кровавая расплата",
+          "description": "Выполнить задание-вендетту."
+        },
+        "schinese": {
+          "name": "血债血还",
+          "description": "完成一个“复仇”任务"
+        },
+        "spanish": {
+          "name": "Ajuste de cuentas",
+          "description": "Completa una misión de revancha."
+        }
+      }
+    },
+    "Professional_Collector": {
+      "translations": {
+        "brazilian": {
+          "name": "Sombras do Passado",
+          "description": "Recolha 100% dos artefatos e escute as memórias deles."
+        },
+        "english": {
+          "name": "Shadows of the Ancient Past",
+          "description": "Collect 100% of the Artifacts and listen to their memories."
+        },
+        "french": {
+          "name": "Les ombres d'un passé lointain",
+          "description": "Collectez 100 % des artefacts et écoutez leurs souvenirs."
+        },
+        "german": {
+          "name": "Schatten der Vergangenheit",
+          "description": "Sammle 100 % der Artefakte und lausche ihren Erinnerungen."
+        },
+        "italian": {
+          "name": "Ombre da un antico passato",
+          "description": "Raccogli il 100% dei manufatti e ascolta i loro ricordi."
+        },
+        "japanese": {
+          "name": "遠い過去の影",
+          "description": "アーティファクトを100%集め、記憶に耳を傾ける。"
+        },
+        "polish": {
+          "name": "Cienie zamierzchłej przeszłości",
+          "description": "Zbierz 100% artefaktów i zapoznaj się ze wspomnieniami z nimi związanymi."
+        },
+        "russian": {
+          "name": "Тени древности",
+          "description": "Собрать 100% артефактов и прослушать хранимые ими воспоминания."
+        },
+        "schinese": {
+          "name": "远古的暗影",
+          "description": "收集 100% 的秘宝并聆听它们的记忆"
+        },
+        "spanish": {
+          "name": "Sombras de un pasado antiguo",
+          "description": "Obtén el 100 % de los artefactos y escucha sus recuerdos."
+        }
+      }
+    },
+    "Ratbag": {
+      "translations": {
+        "brazilian": {
+          "name": "Ratbag, o Grande e Poderoso",
+          "description": "Ajude Ratbag a ascender até chefe."
+        },
+        "english": {
+          "name": "Ratbag the Great and Powerful",
+          "description": "Get Ratbag promoted to Warchief."
+        },
+        "french": {
+          "name": "Ratbag le tout puissant",
+          "description": "Faites en sorte que Ratbag soit promu chef de guerre."
+        },
+        "german": {
+          "name": "Ratbag der Weise und Mächtige",
+          "description": "Sorge dafür, dass Ratbag zum Häuptling ernannt wird."
+        },
+        "italian": {
+          "name": "Il grande e potente Ratbag",
+          "description": "Fai promuovere Ratbag a comandante."
+        },
+        "japanese": {
+          "name": "偉大で強力なるラットバッグ",
+          "description": "ラットバッグを軍団長に昇進させる。"
+        },
+        "polish": {
+          "name": "Szczurnik wielki i potężny",
+          "description": "Pomóż Szczurnikowi zostać wodzem."
+        },
+        "russian": {
+          "name": "Крысарий, Великий и Ужасный",
+          "description": "Помочь Крысарию стать вождем."
+        },
+        "schinese": {
+          "name": "强而有力的懦夫",
+          "description": "将拉特巴格晋升为酋长"
+        },
+        "spanish": {
+          "name": "El grande y poderoso Ratbag",
+          "description": "Logra ascender a Ratbag a caudillo."
+        }
+      }
+    },
+    "Recruit": {
+      "translations": {
+        "brazilian": {
+          "name": "Dificuldade Numérica",
+          "description": "Ajude um capitão a sobreviver a um Recrutamento; em seguida mate-o e a todos os recrutas novos."
+        },
+        "english": {
+          "name": "No Power in Numbers",
+          "description": "Help a Captain survive a Recruitment Power Struggle, and then kill him and all his new recruits."
+        },
+        "french": {
+          "name": "Le nombre ne fait pas la force",
+          "description": "Aidez un capitaine à réussir un recrutement, puis tuez-les, lui et ses nouvelles recrues."
+        },
+        "german": {
+          "name": "Gemeinsam seid ihr schwach!",
+          "description": "Hilf einem Hauptmann, einen Rekrutierungsmachtkampf zu überleben, und töte ihn und seine Rekruten."
+        },
+        "italian": {
+          "name": "L'unione non fa la forza",
+          "description": "Aiuta un capitano durante un Reclutamento, poi uccidilo assieme a tutti i suoi nuovi seguaci."
+        },
+        "japanese": {
+          "name": "数は力にあらず",
+          "description": "小隊長を助けて増員権力抗争に生き残らせ、その後で彼と増員された部下を倒す。"
+        },
+        "polish": {
+          "name": "Więcej nie znaczy lepiej",
+          "description": "Pomóż kapitanowi przetrwać rekrutację, a potem zabij jego i wszystkich nowych rekrutów."
+        },
+        "russian": {
+          "name": "Сила не в числе",
+          "description": "Помочь капитану с вербовкой в борьбе за власть, а затем убить его и всех его новобранцев."
+        },
+        "schinese": {
+          "name": "人多未必势众",
+          "description": "帮助一名队长在新兵招募中活下来，然后杀死他和他招募的所有新兵"
+        },
+        "spanish": {
+          "name": "La unión no hace la fuerza",
+          "description": "Ayuda a un capitán a tener éxito en una lucha de reclutamiento y mátalo a él y a sus adeptos."
+        }
+      }
+    },
+    "Sword_Master": {
+      "translations": {
+        "brazilian": {
+          "name": "A Chama da Justiça",
+          "description": "Conclua todas as missões de Lendas de Urfael."
+        },
+        "english": {
+          "name": "Fire of Justice",
+          "description": "Complete all Urfael Legend Missions."
+        },
+        "french": {
+          "name": "Le feu de la justice",
+          "description": "Complétez toutes les missions Légende d'Urfael."
+        },
+        "german": {
+          "name": "Flamme der Gerechtigkeit",
+          "description": "Schließe alle Aufträge zu den Legenden Urfaels ab."
+        },
+        "italian": {
+          "name": "Fuoco di giustizia",
+          "description": "Completa tutte le missioni Leggenda di Urfael."
+        },
+        "japanese": {
+          "name": "正義の火",
+          "description": "「アーファエルの伝説」ミッションを全て完了する。"
+        },
+        "polish": {
+          "name": "Płomień sprawiedliwości",
+          "description": "Ukończ wszystkie misje legendy Urfaela."
+        },
+        "russian": {
+          "name": "Пламя справедливости",
+          "description": "Выполнить все задания ''Легенды Урфаэля''."
+        },
+        "schinese": {
+          "name": "正义之火",
+          "description": "完成所有剑术精通任务"
+        },
+        "spanish": {
+          "name": "Fuego justiciero",
+          "description": "Completa todas las misiones de la Leyenda de Urfael."
+        }
+      }
+    },
+    "Sword_Novice": {
+      "translations": {
+        "brazilian": {
+          "name": "A Lenda da Vingança",
+          "description": "Conclua uma missão da Espada e comece a expandir a Lenda de Urfael."
+        },
+        "english": {
+          "name": "Legend of Vengeance",
+          "description": "Complete a Sword Mission and begin growing the legend of Urfael."
+        },
+        "french": {
+          "name": "La légende de la vengeance",
+          "description": "Complétez une mission de l'épée pour commencer à forger la Légende d'Urfael."
+        },
+        "german": {
+          "name": "Legende der Vergeltung",
+          "description": "Schließe einen Schwertauftrag ab und mehre die Legenden um Urfael."
+        },
+        "italian": {
+          "name": "La leggenda della vendetta",
+          "description": "Completa una missione con la spada e inizia ad accrescere la Leggenda di Urfael."
+        },
+        "japanese": {
+          "name": "報復の伝説",
+          "description": "剣ミッションを1つ完了し、アーファエルの伝説を開始する。"
+        },
+        "polish": {
+          "name": "Legenda zemsty",
+          "description": "Ukończ misję miecza i rozpocznij tworzenie legendy Urfaela."
+        },
+        "russian": {
+          "name": "Легенда о возмездии",
+          "description": "Начать создание легенды меча Урфаэля, выполнив одно из ее заданий."
+        },
+        "schinese": {
+          "name": "复仇传奇",
+          "description": "完成一个长剑精通任务来逐步成长为剑术达人"
+        },
+        "spanish": {
+          "name": "Leyenda de venganza",
+          "description": "Completa una misión de espada y empieza a acrecentar la Leyenda de Urfael."
+        }
+      }
+    },
+    "The_Banishing": {
+      "translations": {
+        "brazilian": {
+          "name": "O Mago Branco",
+          "description": "Remova a maldição da Senhora Marwen."
+        },
+        "english": {
+          "name": "The White Wizard",
+          "description": "Lift Lady Marwen's curse."
+        },
+        "french": {
+          "name": "Le Magicien Blanc",
+          "description": "Levez la malédiction qui pèse sur Dame Marwen."
+        },
+        "german": {
+          "name": "Der Weiße Zauberer",
+          "description": "Breche Marwens Fluch."
+        },
+        "italian": {
+          "name": "Lo Stregone Bianco",
+          "description": "Spezza la maledizione di Dama Marwen."
+        },
+        "japanese": {
+          "name": "白の魔法使い",
+          "description": "レディ・マルウェンの呪いを解く。"
+        },
+        "polish": {
+          "name": "Biały Czarodziej",
+          "description": "Uwolnij lady Marwenę od jej klątwy."
+        },
+        "russian": {
+          "name": "Белый маг",
+          "description": "Избавить владычицу Марвен от проклятия."
+        },
+        "schinese": {
+          "name": "白袍巫师",
+          "description": "解除玛玟夫人的诅咒"
+        },
+        "spanish": {
+          "name": "El Mago Blanco",
+          "description": "Levanta la maldición de la Dama Marwen."
+        }
+      }
+    },
+    "The_Black_Hand": {
+      "translations": {
+        "brazilian": {
+          "name": "Maneta",
+          "description": "Mate o Mão Negra."
+        },
+        "english": {
+          "name": "The Hand is Severed",
+          "description": "Kill The Black Hand."
+        },
+        "french": {
+          "name": "La Main est coupée",
+          "description": "Tuez la Main Noire."
+        },
+        "german": {
+          "name": "Die abgeschlagene Hand",
+          "description": "Töte die Schwarze Hand."
+        },
+        "italian": {
+          "name": "La mano tagliata",
+          "description": "Uccidi la Mano Nera."
+        },
+        "japanese": {
+          "name": "切り落とされた手",
+          "description": "黒の手を倒す。"
+        },
+        "polish": {
+          "name": "Jak ręką odjął",
+          "description": "Zabij Czarną Dłoń."
+        },
+        "russian": {
+          "name": "Отсеченная рука",
+          "description": "Убить Черную Руку."
+        },
+        "schinese": {
+          "name": "黑手断裂",
+          "description": "杀死黑手"
+        },
+        "spanish": {
+          "name": "La mano amputada",
+          "description": "Mata a la Mano Negra."
+        }
+      }
+    },
+    "The_Great_White": {
+      "translations": {
+        "brazilian": {
+          "name": "Pelo Meu Irmão",
+          "description": "Mate o Lendário Graug Branco."
+        },
+        "english": {
+          "name": "For My Brother",
+          "description": "Kill the Great White Graug."
+        },
+        "french": {
+          "name": "Pour mon frère",
+          "description": "Tuez le grand Graug Blanc."
+        },
+        "german": {
+          "name": "Für meinen Bruder",
+          "description": "Töte den großen, weißen Graug."
+        },
+        "italian": {
+          "name": "Per mio fratello",
+          "description": "Uccidi il Grande Graug bianco."
+        },
+        "japanese": {
+          "name": "兄弟に捧ぐ",
+          "description": "白い大グラウグを倒す。"
+        },
+        "polish": {
+          "name": "Za mego brata",
+          "description": "Zabij wielkiego białego grauga."
+        },
+        "russian": {
+          "name": "Брат за брата",
+          "description": "Убить большого белого грауга."
+        },
+        "schinese": {
+          "name": "为了兄弟",
+          "description": "杀死巨型白色格鲁格"
+        },
+        "spanish": {
+          "name": "Por mi hermano",
+          "description": "Mata al gran graug blanco."
+        }
+      }
+    },
+    "The_Mighty_Fall": {
+      "translations": {
+        "brazilian": {
+          "name": "Ascensão e Queda",
+          "description": "Após um Uruk matar você e se tornar capitão, ajude-o a se tornar chefe e mate-o."
+        },
+        "english": {
+          "name": "Rise and Fall",
+          "description": "After an uruk kills you to become a Captain, help him become a Warchief, then kill him."
+        },
+        "french": {
+          "name": "Grandeur et décadence",
+          "description": "Aidez un Uruk promu capitaine après vous avoir tué à devenir chef de guerre, puis tuez-le."
+        },
+        "german": {
+          "name": "Aufstieg und Niedergang",
+          "description": "Hat dich ein Uruk getötet, um Hauptmann zu werden, hilf ihm, zum Häuptling zu werden, und töte ihn."
+        },
+        "italian": {
+          "name": "Ascesa e declino",
+          "description": "Aiuta un Uruk, promosso capitano per averti ucciso, a diventare comandante, poi ammazzalo."
+        },
+        "japanese": {
+          "name": "栄枯盛衰",
+          "description": "ウルクに倒されて相手を小隊長にした後、彼を助けて軍団長にしてから倒す。"
+        },
+        "polish": {
+          "name": "Wzloty i upadki",
+          "description": "Po tym, jak uruk cię zabije i zostanie kapitanem, pomóż mu zdobyć pozycję wodza, a następnie zabij."
+        },
+        "russian": {
+          "name": "Взлет и падение",
+          "description": "Когда убивший вас урук станет капитаном, помочь ему стать вождем, а затем убить его."
+        },
+        "schinese": {
+          "name": "命运沉浮",
+          "description": "在一个兽人通过杀死你晋升为队长后，帮助他晋升为酋长，然后杀死他"
+        },
+        "spanish": {
+          "name": "Auge y caída",
+          "description": "Ayuda a un uruk que ascendió a capitán después de matarte a convertirse en caudillo, y mátalo."
+        }
+      }
+    },
+    "The_Udun_Story": {
+      "translations": {
+        "brazilian": {
+          "name": "A queda do Marreta",
+          "description": "Mate o Marreta."
+        },
+        "english": {
+          "name": "The Hammer Falls",
+          "description": "Kill The Hammer."
+        },
+        "french": {
+          "name": "Le Marteau tombe",
+          "description": "Tuez le Marteau."
+        },
+        "german": {
+          "name": "Der Hammer fällt",
+          "description": "Töte den Hammer."
+        },
+        "italian": {
+          "name": "Il Martello cade",
+          "description": "Uccidi il Martello."
+        },
+        "japanese": {
+          "name": "落ちた槌",
+          "description": "槌を倒す。"
+        },
+        "polish": {
+          "name": "Hak na Młota",
+          "description": "Zabij Młota."
+        },
+        "russian": {
+          "name": "Крах Молота",
+          "description": "Убить Молота."
+        },
+        "schinese": {
+          "name": "铁锤陨落",
+          "description": "杀死铁锤"
+        },
+        "spanish": {
+          "name": "Cae el Martillo",
+          "description": "Mata al Martillo."
+        }
+      }
+    },
+    "Up_In_Flames": {
+      "translations": {
+        "brazilian": {
+          "name": "Vingança Ígnea",
+          "description": "Realize uma execução em um berserker em chamas."
+        },
+        "english": {
+          "name": "Burning Vengeance",
+          "description": "Perform an Execution on a flaming Berserker."
+        },
+        "french": {
+          "name": "Les flammes de la vengeance",
+          "description": "Effectuez une Exécution sur un berserker en feu."
+        },
+        "german": {
+          "name": "Feurige Rache",
+          "description": "Richte einen brennenden Berserker hin."
+        },
+        "italian": {
+          "name": "Il fuoco della vendetta",
+          "description": "Uccidi un berserker in fiamme con Esecuzione."
+        },
+        "japanese": {
+          "name": "燃える復讐",
+          "description": "燃えている狂戦士を処刑する。"
+        },
+        "polish": {
+          "name": "Płomienie zemsty",
+          "description": "Dokonaj egzekucji na płonącym berserku."
+        },
+        "russian": {
+          "name": "Пылающее возмездие",
+          "description": "Казнить горящего берсерка."
+        },
+        "schinese": {
+          "name": "复仇烈焰",
+          "description": "处决一个着火的狂战士"
+        },
+        "spanish": {
+          "name": "Venganza ardiente",
+          "description": "Realiza una ejecución a un salvaje en llamas."
+        }
+      }
+    },
+    "It_Burns": {
+      "translations": {
+        "brazilian": {
+          "name": "Queima, Queima, Queima",
+          "description": "Use a habilidade Detonar para queimar 50 Uruks."
+        },
+        "english": {
+          "name": "And it Burns, Burns, Burns",
+          "description": "Use the Detonate ability to burn 50 uruks."
+        },
+        "french": {
+          "name": "Grands brûlés",
+          "description": "Utilisez la compétence Détonation pour brûler 50 Uruks."
+        },
+        "german": {
+          "name": "Alles muss brennen!",
+          "description": "Verwende die Fähigkeit Explodieren lassen, um 50 Uruks zu verbrennen."
+        },
+        "italian": {
+          "name": "Tutto brucia",
+          "description": "Usa l'abilità Detona per bruciare 50 Uruk."
+        },
+        "japanese": {
+          "name": "炎の指輪",
+          "description": "爆破アビリティを使ってウルクを50匹燃やす。"
+        },
+        "polish": {
+          "name": "Uruk w ogniu",
+          "description": "Podpal 50 uruków przy użyciu detonacji."
+        },
+        "russian": {
+          "name": "Гори-гори ясно!",
+          "description": "Сжечь 50 уруков, используя способность ''взрыв''."
+        },
+        "schinese": {
+          "name": "烧，烧，烧",
+          "description": "利用“引爆”技能点燃 50 个兽人"
+        },
+        "spanish": {
+          "name": "Y arde, arde, arde",
+          "description": "Usa la habilidad Detonar para quemar a 50 uruks."
+        }
+      }
+    },
+    "Freedom": {
+      "translations": {
+        "brazilian": {
+          "name": "Jaula Aberta",
+          "description": "Liberte 5 Caragors das jaulas."
+        },
+        "english": {
+          "name": "Unleashed",
+          "description": "Free 5 caragors from cages."
+        },
+        "french": {
+          "name": "En liberté",
+          "description": "Faites sortir 5 Caragors de leur cage."
+        },
+        "german": {
+          "name": "Entfesselt",
+          "description": "Befreie 5 Caragor aus ihren Käfigen."
+        },
+        "italian": {
+          "name": "Belve in libertà",
+          "description": "Libera 5 Caragor dalle gabbie."
+        },
+        "japanese": {
+          "name": "放し飼い",
+          "description": "カラゴルを5匹檻から解放する。"
+        },
+        "polish": {
+          "name": "Zerwana smycz",
+          "description": "Uwolnij 5 karagorów z klatek."
+        },
+        "russian": {
+          "name": "С цепи сорвались",
+          "description": "Выпустить из клеток 5 карагоров."
+        },
+        "schinese": {
+          "name": "解下枷锁",
+          "description": "释放 5 个被关在笼子里的卡拉格"
+        },
+        "spanish": {
+          "name": "Desatados",
+          "description": "Libera a 5 caragors de sus jaulas."
+        }
+      }
+    },
+    "Flies": {
+      "translations": {
+        "brazilian": {
+          "name": "Fujam seus tolos!",
+          "description": "Faça com que 20 Uruks fujam derrubando ninhos de moscas Morgai."
+        },
+        "english": {
+          "name": "Fly you fools!",
+          "description": "Make 20 uruks flee by dropping Morgai Fly nests."
+        },
+        "french": {
+          "name": "Fuyez, pauvres fous !",
+          "description": "Faites fuir 20 Uruks en faisant tomber des nids de mouches."
+        },
+        "german": {
+          "name": "Flieht, ihr Narren!",
+          "description": "Schlage 20 Uruks in die Flucht, indem du Fliegennester auf sie herabfallen lässt."
+        },
+        "italian": {
+          "name": "Fuggite, sciocchi!",
+          "description": "Metti in fuga 20 Uruk facendo cadere i nidi di Mosche Morgai."
+        },
+        "japanese": {
+          "name": "逃げろ、愚か者！",
+          "description": "モルグルバエの巣を落として、ウルクを20匹逃亡させる。"
+        },
+        "polish": {
+          "name": "Uciekajcie, głupcy!",
+          "description": "Przegoń 20 uruków, zrzucając gniazda much z Morgai."
+        },
+        "russian": {
+          "name": "Бегите, глупцы!",
+          "description": "Обратить 20 уруков в бегство, скидывая гнезда моргайских мух."
+        },
+        "schinese": {
+          "name": "快跑，你们这些傻瓜！",
+          "description": "通过打落摩盖虫巢驱散 20 名兽人"
+        },
+        "spanish": {
+          "name": "¡Corre insensato!",
+          "description": "Haz huir a 20 uruks dejando caer nidos de moscas morgai."
+        }
+      }
+    },
+    "Feeding_Time": {
+      "translations": {
+        "brazilian": {
+          "name": "Mandíbulas Mortais",
+          "description": "Atraia Caragors com isca por 5 vezes."
+        },
+        "english": {
+          "name": "Jaws of Death",
+          "description": "Attract caragors with bait 5 times."
+        },
+        "french": {
+          "name": "Les mâchoires de la mort",
+          "description": "Attirez des Caragors 5 fois à l'aide d'appâts."
+        },
+        "german": {
+          "name": "Zähne des Todes",
+          "description": "Locke Caragor mithilfe von Ködern 5 Mal an."
+        },
+        "italian": {
+          "name": "Fauci mortali",
+          "description": "Attira 5 volte i Caragor con l'esca."
+        },
+        "japanese": {
+          "name": "死のあぎと",
+          "description": "餌でカラゴルを5回おびき寄せる。"
+        },
+        "polish": {
+          "name": "Zabójcze kły",
+          "description": "Pięciokrotnie zwab karagory przy użyciu przynęty."
+        },
+        "russian": {
+          "name": "Смертоносные челюсти",
+          "description": "5 раз привлечь карагоров с помощью приманки."
+        },
+        "schinese": {
+          "name": "鬼门关",
+          "description": "用诱饵吸引卡拉格 5 次"
+        },
+        "spanish": {
+          "name": "Las fauces de la muerte",
+          "description": "Atrae a caragors con carnada 5 veces."
+        }
+      }
+    },
+    "Follow_Through": {
+      "translations": {
+        "brazilian": {
+          "name": "Jura Mortal",
+          "description": "Lance uma Jura de Morte e em seguida mate o alvo."
+        },
+        "english": {
+          "name": "Iron of Death",
+          "description": "Issue a Death Threat, and then successfully kill the target."
+        },
+        "french": {
+          "name": "Acier de la mort",
+          "description": "Proférez une menace de mort et parvenez à tuer votre cible."
+        },
+        "german": {
+          "name": "Todeseisen",
+          "description": "Sprich eine Todesdrohung aus und setze sie in die Tat um."
+        },
+        "italian": {
+          "name": "Ferro mortale",
+          "description": "Emetti una Minaccia di morte e poi uccidi il bersaglio."
+        },
+        "japanese": {
+          "name": "確実なる死",
+          "description": "死の脅迫を行い、その標的を倒すことに成功する。"
+        },
+        "polish": {
+          "name": "Piętno śmierci",
+          "description": "Zagroź wrogowi śmiercią, a potem spełnij swoją groźbę."
+        },
+        "russian": {
+          "name": "Железная смерть",
+          "description": "Пригрозить врагу смертью, а затем убить."
+        },
+        "schinese": {
+          "name": "死亡铁剑",
+          "description": "释放“死亡威胁”，然后成功地杀死你的目标"
+        },
+        "spanish": {
+          "name": "La presa de la muerte",
+          "description": "Lanza una amenaza de muerte y llévala a cabo."
+        }
+      }
+    },
+    "Vulnerable": {
+      "translations": {
+        "brazilian": {
+          "name": "Calcanhar de Graug",
+          "description": "Aproveite o medo de um chefe."
+        },
+        "english": {
+          "name": "A Graug's Heel",
+          "description": "Capitalize on a Warchief's Fear."
+        },
+        "french": {
+          "name": "Talon de Graug",
+          "description": "Tirez profit de la peur d'un chef de guerre."
+        },
+        "german": {
+          "name": "Eine Graugferse",
+          "description": "Mach dir die Furcht eines Häuptlings zunutze."
+        },
+        "italian": {
+          "name": "Tallone di Graug",
+          "description": "Sfrutta la paura di un comandante."
+        },
+        "japanese": {
+          "name": "グラウグの足下",
+          "description": "軍団長の恐怖につけ込む。"
+        },
+        "polish": {
+          "name": "Graugowa pięta",
+          "description": "Wykorzystaj lęk wodza."
+        },
+        "russian": {
+          "name": "Граугова пята",
+          "description": "Воспользоваться страхами вождя."
+        },
+        "schinese": {
+          "name": "格鲁格之踵",
+          "description": "利用一名酋长的恐惧"
+        },
+        "spanish": {
+          "name": "El talón de graug",
+          "description": "Aprovecha el miedo de un caudillo."
+        }
+      }
+    },
+    "Power_Vacuum": {
+      "translations": {
+        "brazilian": {
+          "name": "Vazio de Poder",
+          "description": "Mate todos os 5 chefes antes que outro Uruk ocupe o lugar deles."
+        },
+        "english": {
+          "name": "Power Vacuum",
+          "description": "Kill all 5 Warchiefs before any uruk take their place."
+        },
+        "french": {
+          "name": "Postes libres",
+          "description": "Tuez les 5 chefs de guerre avant qu'un Uruk prenne leur place."
+        },
+        "german": {
+          "name": "Machtvakuum",
+          "description": "Töte alle 5 Häuptlinge, bevor ein anderer Uruk ihren Platz einnehmen kann."
+        },
+        "italian": {
+          "name": "Vuoto di potere",
+          "description": "Uccidi tutti i 5 comandanti prima che qualsiasi Uruk possa prenderne il posto."
+        },
+        "japanese": {
+          "name": "力の空白",
+          "description": "ウルクが地位を継承する前に、軍団長を5匹全て倒す。"
+        },
+        "polish": {
+          "name": "Kryzys władzy",
+          "description": "Zabij wszystkich 5 wodzów, zanim ktokolwiek zdąży któregoś zastąpić."
+        },
+        "russian": {
+          "name": "Кризис власти",
+          "description": "Убить всех пятерых вождей раньше, чем какой-нибудь урук займет освободившееся место."
+        },
+        "schinese": {
+          "name": "权力真空",
+          "description": "在有兽人篡权之前杀死全部 5 名酋长"
+        },
+        "spanish": {
+          "name": "Vacío de poder",
+          "description": "Mata a los 5 caudillos antes de que un uruk tome uno de sus puestos."
+        }
+      }
+    },
+    "Bow_Smith": {
+      "translations": {
+        "brazilian": {
+          "name": "Precisão Máxima",
+          "description": "Desbloqueie 2 espaços para runas no arco."
+        },
+        "english": {
+          "name": "Strike True",
+          "description": "Unlock 2 Bow Rune slots."
+        },
+        "french": {
+          "name": "Viser juste",
+          "description": "Débloquez 2 emplacements de rune d'arc."
+        },
+        "german": {
+          "name": "Zielgenau",
+          "description": "Schalte 2 Runenplätze für den Bogen frei."
+        },
+        "italian": {
+          "name": "Dritto al bersaglio",
+          "description": "Sblocca 2 slot runa arco."
+        },
+        "japanese": {
+          "name": "真実の矢",
+          "description": "弓のルーンスロットを2つ解除する。"
+        },
+        "polish": {
+          "name": "Bezbłędne strzały",
+          "description": "Odblokuj 2 miejsca na runy na łuku."
+        },
+        "russian": {
+          "name": "Верный выстрел",
+          "description": "Открыть две выемки для рун на луке."
+        },
+        "schinese": {
+          "name": "准击",
+          "description": "解锁 2 个弓的符文槽"
+        },
+        "spanish": {
+          "name": "Disparo certero",
+          "description": "Desbloquea 2 espacios para runas de arco."
+        }
+      }
+    },
+    "Dagger_Smith": {
+      "translations": {
+        "brazilian": {
+          "name": "Cobrado em Sangue",
+          "description": "Desbloqueie 4 espaços para runas na adaga."
+        },
+        "english": {
+          "name": "Paid in Blood",
+          "description": "Unlock 4 Dagger Rune slots."
+        },
+        "french": {
+          "name": "Le prix du sang",
+          "description": "Débloquez 4 emplacements de rune de dague."
+        },
+        "german": {
+          "name": "Der Preis des Blutes",
+          "description": "Schalte 4 Runenplätze für den Dolch frei."
+        },
+        "italian": {
+          "name": "Pagato col sangue",
+          "description": "Sblocca 4 slot runa pugnale."
+        },
+        "japanese": {
+          "name": "血の報酬",
+          "description": "短剣のルーンスロットを4つ解除する。"
+        },
+        "polish": {
+          "name": "Krwawa zapłata",
+          "description": "Odblokuj 4 miejsca na runy na sztylecie."
+        },
+        "russian": {
+          "name": "Оплачено кровью",
+          "description": "Открыть 4 выемки для рун на кинжале."
+        },
+        "schinese": {
+          "name": "血偿",
+          "description": "解锁 4 个匕首的符文槽"
+        },
+        "spanish": {
+          "name": "Pago sangriento",
+          "description": "Desbloquea 4 espacios para runas de daga."
+        }
+      }
+    },
+    "Sword_Smith": {
+      "translations": {
+        "brazilian": {
+          "name": "Luz Fria",
+          "description": "Desbloqueie 3 espaços para runas na espada."
+        },
+        "english": {
+          "name": "The Cold Light",
+          "description": "Unlock 3 Sword Rune slots."
+        },
+        "french": {
+          "name": "La froide lumière",
+          "description": "Débloquez 3 emplacements de rune d'épée."
+        },
+        "german": {
+          "name": "Das kalte Licht",
+          "description": "Schalte 3 Runenplätze für das Schwert frei."
+        },
+        "italian": {
+          "name": "La luce fredda",
+          "description": "Sblocca 3 slot runa spada."
+        },
+        "japanese": {
+          "name": "冷たい光",
+          "description": "剣のルーンスロットを3つ解除する。"
+        },
+        "polish": {
+          "name": "Mroźny blask",
+          "description": "Odblokuj 3 miejsca na runy na mieczu."
+        },
+        "russian": {
+          "name": "Холодный свет",
+          "description": "Открыть 3 выемки для рун на мече."
+        },
+        "schinese": {
+          "name": "寒光",
+          "description": "解锁 3 个剑的符文槽"
+        },
+        "spanish": {
+          "name": "La fría luz",
+          "description": "Desbloquea 3 espacios para runas de espada."
+        }
+      }
+    },
+    "In_Command": {
+      "translations": {
+        "brazilian": {
+          "name": "Senhor e Mestre",
+          "description": "Marque os cinco chefes."
+        },
+        "english": {
+          "name": "Lord and Master",
+          "description": "Brand all 5 Warchiefs."
+        },
+        "french": {
+          "name": "Seigneur et maître",
+          "description": "Marquez les 5 chefs de guerre."
+        },
+        "german": {
+          "name": "Herr und Meister",
+          "description": "Brandmarke alle 5 Häuptlinge."
+        },
+        "italian": {
+          "name": "Signore e padrone",
+          "description": "Marchia tutti e 5 i comandanti."
+        },
+        "japanese": {
+          "name": "権力と支配",
+          "description": "軍団長5匹を全てブランドする。"
+        },
+        "polish": {
+          "name": "Pan i władca",
+          "description": "Naznacz wszystkich 5 wodzów."
+        },
+        "russian": {
+          "name": "Хозяин и властелин",
+          "description": "Заклеймить всех пятерых вождей."
+        },
+        "schinese": {
+          "name": "领袖及主人",
+          "description": "烙印全部 5 名酋长"
+        },
+        "spanish": {
+          "name": "Amo y señor",
+          "description": "Marca a los 5 caudillos."
+        }
+      }
+    },
+    "Powerful": {
+      "translations": {
+        "brazilian": {
+          "name": "Perdição Poderosa",
+          "description": "Consiga uma runa de nível 25."
+        },
+        "english": {
+          "name": "A Mighty Doom",
+          "description": "Acquire a level 25 Rune."
+        },
+        "french": {
+          "name": "Un puissant destin",
+          "description": "Obtenez une rune de niveau 25."
+        },
+        "german": {
+          "name": "Zeichen der Verdammnis",
+          "description": "Erhalte eine Rune der Stufe 25."
+        },
+        "italian": {
+          "name": "Il potere del fato",
+          "description": "Acquisisci una runa di livello 25."
+        },
+        "japanese": {
+          "name": "力強き宿命",
+          "description": "レベル25のルーンを1つ獲得する。"
+        },
+        "polish": {
+          "name": "Widmo zagłady",
+          "description": "Zdobądź runę 25 poziomu."
+        },
+        "russian": {
+          "name": "Роковая мощь",
+          "description": "Получить руну 25-го уровня."
+        },
+        "schinese": {
+          "name": "强力的判决",
+          "description": "获得一个 25 级符文"
+        },
+        "spanish": {
+          "name": "Un gran poder",
+          "description": "Obtén una runa de nivel 25."
+        }
+      }
+    },
+    "The_Tower": {
+      "translations": {
+        "brazilian": {
+          "name": "Torre em Ruínas",
+          "description": "Mate o Torre."
+        },
+        "english": {
+          "name": "The Tower Crumbles",
+          "description": "Kill The Tower."
+        },
+        "french": {
+          "name": "La Tour s'effondre",
+          "description": "Tuez la Tour."
+        },
+        "german": {
+          "name": "Der Turm stürzt ein",
+          "description": "Töte den Turm."
+        },
+        "italian": {
+          "name": "La Torre crolla",
+          "description": "Uccidi la Torre."
+        },
+        "japanese": {
+          "name": "塔の崩壊",
+          "description": "塔を倒す。"
+        },
+        "polish": {
+          "name": "Upadek Wieży",
+          "description": "Zabij Wieżę."
+        },
+        "russian": {
+          "name": "Падение Башни",
+          "description": "Убить Башню."
+        },
+        "schinese": {
+          "name": "坚垒破碎",
+          "description": "杀死坚垒"
+        },
+        "spanish": {
+          "name": "La Torre se derrumba",
+          "description": "Mata a la Torre."
+        }
+      }
+    },
+    "A_Short_Intro": {
+      "translations": {
+        "brazilian": {
+          "name": "Uma Breve Introdução",
+          "description": "Comece uma nova caçada com Torvin."
+        },
+        "english": {
+          "name": "A Short Introduction",
+          "description": "Begin a new hunt with Torvin."
+        },
+        "french": {
+          "name": "Petite présentation",
+          "description": "Commencez une nouvelle chasse avec Torvin."
+        },
+        "german": {
+          "name": "Eine kurze Einleitung",
+          "description": "Beginne eine neue Jagd mit Torvin."
+        },
+        "italian": {
+          "name": "Una breve introduzione",
+          "description": "Inizia una nuova battuta di caccia con Torvin."
+        },
+        "japanese": {
+          "name": "はじめに",
+          "description": "トルビンとともに新しい狩りを始める。"
+        },
+        "polish": {
+          "name": "Krótki wstęp",
+          "description": "Rozpocznij nowe polowanie z Torvinem."
+        },
+        "russian": {
+          "name": "Краткое введение",
+          "description": "Начать новую охоту с Торвином."
+        },
+        "schinese": {
+          "name": "简短介绍",
+          "description": "和 Torvin 开始一个新的狩猎"
+        },
+        "spanish": {
+          "name": "Una breve introducción",
+          "description": "Comienza una nueva cacería con Torvin."
+        }
+      }
+    },
+    "Most_Dangerous": {
+      "translations": {
+        "brazilian": {
+          "name": "A Caçada mais perigosa",
+          "description": "Derrote todos os Chefes Domadores."
+        },
+        "english": {
+          "name": "The Most Dangerous Game",
+          "description": "Defeat all the Beastmaster Warchiefs."
+        },
+        "french": {
+          "name": "Le gibier le plus dangereux",
+          "description": "Éliminez tous les chefs de guerre dresseurs."
+        },
+        "german": {
+          "name": "Das gefährlichste Spiel der Welt",
+          "description": "Besiege alle Bestienmeister-Häuptlinge."
+        },
+        "italian": {
+          "name": "Il gioco più pericoloso",
+          "description": "Sconfiggi tutti i comandanti domatori di bestie."
+        },
+        "japanese": {
+          "name": "最も危険な遊び",
+          "description": "ビーストマスター軍の軍団長を全て倒す。"
+        },
+        "polish": {
+          "name": "Niebezpieczna gra",
+          "description": "Pokonaj wszystkich wodzów władców bestii."
+        },
+        "russian": {
+          "name": "Самая опасная игра",
+          "description": "Победить всех вождей-укротителей."
+        },
+        "schinese": {
+          "name": "最危险的游戏",
+          "description": "打败所有 Beastmaster Warchiefs"
+        },
+        "spanish": {
+          "name": "La presa más peligrosa",
+          "description": "Derrota a todos los caudillos Domadores."
+        }
+      }
+    },
+    "On_The_Prowl": {
+      "translations": {
+        "brazilian": {
+          "name": "Mandíbulas das Sombras",
+          "description": "Execute 25 eliminações furtivas de Caragaths."
+        },
+        "english": {
+          "name": "Jaws of Shadow",
+          "description": "Complete 25 Caragath Stealth Kills."
+        },
+        "french": {
+          "name": "Mâchoires de l'Ombre",
+          "description": "Tuez 25 Uruks avec des Éliminations furtives à dos de Caragath."
+        },
+        "german": {
+          "name": "Schattenzähne",
+          "description": "Erziele 25 Caragath-Schleichtötungen."
+        },
+        "italian": {
+          "name": "Fauci dell'Ombra",
+          "description": "Completa 25 Uccisioni furtive di Caragath."
+        },
+        "japanese": {
+          "name": "影のあぎと",
+          "description": "カラガスステルスキルを25回完了する。"
+        },
+        "polish": {
+          "name": "Szczęki mroku",
+          "description": "Wykonaj 25 zabójstw z ukrycia podczas jazdy na karagacie."
+        },
+        "russian": {
+          "name": "Челюсти тени",
+          "description": "Совершить 25 скрытных убийств верхом на карагате."
+        },
+        "schinese": {
+          "name": "阴影之颚",
+          "description": "骑剑齿虎暗杀 25 个兽人"
+        },
+        "spanish": {
+          "name": "Mandíbulas de sombra",
+          "description": "Completa 25 muertes sigilosas con caragath."
+        }
+      }
+    },
+    "Uruk_Showers": {
+      "translations": {
+        "brazilian": {
+          "name": "Saliva Maldita",
+          "description": "Use o Vômito à distância do Graug Abominável em um Capitão ou Chefe dos Uruks."
+        },
+        "english": {
+          "name": "Wretched Retch",
+          "description": "Use a Wretched Graug's Projectile Vomit on an Uruk Captain or Warchief."
+        },
+        "french": {
+          "name": "Vomi malsain",
+          "description": "Utilisez le vomi à distance d'un Graug Malsain sur un capitaine ou chef de guerre Uruk."
+        },
+        "german": {
+          "name": "Garstiger Auswurf",
+          "description": "Setze Schwallartiges Erbrechen des Garstigen Graugs gegen einen Uruk-Hauptmann oder Häuptling ein."
+        },
+        "italian": {
+          "name": "Vomito orrendo",
+          "description": "Usa il Vomito a getto del Graug orrendo contro un capitano o un comandante Uruk."
+        },
+        "japanese": {
+          "name": "変異の嘔吐物",
+          "description": "変異したグラウグで、ウルクの小隊長または軍団長を嘔吐物投射攻撃する。"
+        },
+        "polish": {
+          "name": "Skażone wymioty",
+          "description": "Użyj chlustających wymiotów skażonego grauga na kapitanie lub wodzu uruków."
+        },
+        "russian": {
+          "name": "Мерзкая отрыжка",
+          "description": "Заставить мерзкого грауга плюнуть рвотой в капитана или вождя уруков."
+        },
+        "schinese": {
+          "name": "可怜的干呕",
+          "description": "骑毒液巨兽向一名兽人队长或酋长喷毒液"
+        },
+        "spanish": {
+          "name": "Vómito proyectil",
+          "description": "Usa el vómito proyectil de un graug horrendo contra un capitán o caudillo uruk."
+        }
+      }
+    },
+    "Ghuls_Gone_Wild": {
+      "translations": {
+        "brazilian": {
+          "name": "Ghûls à Solta",
+          "description": "Mate um Graug mandando seus Ghûls sobre ele."
+        },
+        "english": {
+          "name": "Ghûls Gone Wild",
+          "description": "Kill a Graug by dispatching your Ghûls on him."
+        },
+        "french": {
+          "name": "Ghûls déchaînés",
+          "description": "Tuez un Graug en éradiquant vos Ghûls."
+        },
+        "german": {
+          "name": "Ghûle außer Rand und Band",
+          "description": "Töte einen Graug, indem du deine Ghûle auf ihn hetzt."
+        },
+        "italian": {
+          "name": "Ghûl impazziti",
+          "description": "Uccidi un Graug facendolo assalire dai tuoi Ghûl."
+        },
+        "japanese": {
+          "name": "グールの狂乱",
+          "description": "グールを使ってグラウグを始末する。"
+        },
+        "polish": {
+          "name": "Szaleństwo ghûli",
+          "description": "Zabij grauga, likwidując pobliskie ghûle."
+        },
+        "russian": {
+          "name": "Гхулы разбушевались",
+          "description": "Убить грауга, натравив на него гхулов."
+        },
+        "schinese": {
+          "name": "食尸鬼狂欢",
+          "description": "派遣你的食尸鬼杀死巨兽"
+        },
+        "spanish": {
+          "name": "Gula ghûl",
+          "description": "Mata un graug lanzándole a tus ghûls encima."
+        }
+      }
+    },
+    "Rattle_The_Hive": {
+      "translations": {
+        "brazilian": {
+          "name": "Atiçando a Colmeia",
+          "description": "Atire em 10 ninhos de Ghûls."
+        },
+        "english": {
+          "name": "Rattle the Hive",
+          "description": "Bait 10 Ghûl mounds."
+        },
+        "french": {
+          "name": "Panique dans la colonie",
+          "description": "Tirez sur 10 nids pour attirer des Ghûls."
+        },
+        "german": {
+          "name": "Schikaniere den Schwarm",
+          "description": "Locke Ghûle aus 10 Erdhügeln hervor."
+        },
+        "italian": {
+          "name": "Colpisci il nido",
+          "description": "Attira i Ghûl all'aperto da 10 mucchi di terra."
+        },
+        "japanese": {
+          "name": "巣から追い出す",
+          "description": "グールの丘10個に餌をまく。"
+        },
+        "polish": {
+          "name": "Potrząśnij",
+          "description": "Strzel w 10 gniazd ghûli."
+        },
+        "russian": {
+          "name": "Разворошенный улей",
+          "description": "Выманить гхулов из 10 курганов."
+        },
+        "schinese": {
+          "name": "捅马蜂窝",
+          "description": "引诱 10 个食尸鬼土堆"
+        },
+        "spanish": {
+          "name": "Sacude la colmena",
+          "description": "Atrae ghûls de 10 nidos."
+        }
+      }
+    },
+    "OMother": {
+      "translations": {
+        "brazilian": {
+          "name": "Ó, mamãe, onde andarás?",
+          "description": "Tenha 20 Ghûls marcados de uma só vez."
+        },
+        "english": {
+          "name": "O Mother, Where Art Thou?",
+          "description": "Have 20 Branded Ghûls at one time."
+        },
+        "french": {
+          "name": "Maman, où es-tu ?",
+          "description": "Marquez 20 Ghûls en même temps."
+        },
+        "german": {
+          "name": "Oh Mutter, wo bist du?",
+          "description": "Verfüge über 20 gebrandmarkte Ghûle gleichzeitig."
+        },
+        "italian": {
+          "name": "O madre, dove sei?",
+          "description": "Controlla 20 Ghûl marchiati contemporaneamente."
+        },
+        "japanese": {
+          "name": "オー・マザー！",
+          "description": "1回で20体グールをブランドする。"
+        },
+        "polish": {
+          "name": "Królowo?",
+          "description": "Posiadaj 20 naznaczonych ghûli naraz."
+        },
+        "russian": {
+          "name": "Матушка, где же ты?",
+          "description": "Набрать 20 клейменых гхулов за раз."
+        },
+        "schinese": {
+          "name": "母，汝安在？",
+          "description": "同时拥有 20 个食尸鬼"
+        },
+        "spanish": {
+          "name": "Oh, madre, ¿dónde estás?",
+          "description": "Ten 20 ghûls marcados al mismo tiempo."
+        }
+      }
+    },
+    "I_Had_To_Put_Him_Down": {
+      "translations": {
+        "brazilian": {
+          "name": "Levado para Abate",
+          "description": "Mate um Caragath com uma Execução."
+        },
+        "english": {
+          "name": "I Had To Put Him Down",
+          "description": "Kill a Caragath with an Execution."
+        },
+        "french": {
+          "name": "Il fallait l'abattre",
+          "description": "Tuez un Caragath avec une Exécution."
+        },
+        "german": {
+          "name": "Ich musste ihn einschläfern",
+          "description": "Töte einen Caragath mit einer Hinrichtung."
+        },
+        "italian": {
+          "name": "Ho dovuto abbatterlo",
+          "description": "Uccidi un Caragath con un'Esecuzione."
+        },
+        "japanese": {
+          "name": "制圧",
+          "description": "カラガスを処刑で始末する。"
+        },
+        "polish": {
+          "name": "Musiałem to skończyć",
+          "description": "Dokonaj egzekucji na karagacie."
+        },
+        "russian": {
+          "name": "Пришлось его усыпить",
+          "description": "Казнить карагата."
+        },
+        "schinese": {
+          "name": "我不得不让它安乐死",
+          "description": "处决一只剑齿虎"
+        },
+        "spanish": {
+          "name": "Tuve que hacerlo",
+          "description": "Mata un caragath con una Ejecución."
+        }
+      }
+    },
+    "Flames_Make_It_Go_Faster": {
+      "translations": {
+        "brazilian": {
+          "name": "O Fogo Apressa a Criatura",
+          "description": "Ative o Corcel de Fogo."
+        },
+        "english": {
+          "name": "The Flames Make It Go Faster",
+          "description": "Activate the Blazing Steed."
+        },
+        "french": {
+          "name": "Les flammes, c'est plus rapide",
+          "description": "Activez le destrier ardent."
+        },
+        "german": {
+          "name": "Das Feuer treibt ihn an",
+          "description": "Aktiviere die Macht des Flammenrosses."
+        },
+        "italian": {
+          "name": "Con il fuoco si fa prima",
+          "description": "Attiva Destriero ardente."
+        },
+        "japanese": {
+          "name": "炎による加速",
+          "description": "炎の騎馬を有効にする。"
+        },
+        "polish": {
+          "name": "Płomienie dodają prędkości",
+          "description": "Aktywuj moc ognistego rumaka."
+        },
+        "russian": {
+          "name": "Работаем с огоньком",
+          "description": "Проскакать на пылающем карагате."
+        },
+        "schinese": {
+          "name": "火焰让它变得更快",
+          "description": "激活 Blazing Steed 技能"
+        },
+        "spanish": {
+          "name": "El fuego le da velocidad",
+          "description": "Activa el Corcel ardiente."
+        }
+      }
+    },
+    "Nom_Nom_Nom": {
+      "translations": {
+        "brazilian": {
+          "name": "Chomp Chomp Chomp!",
+          "description": "Devore um capitão com um Graug Abominável."
+        },
+        "english": {
+          "name": "Nom Nom Nom!",
+          "description": "Eat a captain with a Wretched Graug."
+        },
+        "french": {
+          "name": "Miam miam miam !",
+          "description": "Dévorez un capitaine avec un Graug Malsain."
+        },
+        "german": {
+          "name": "Njam-njam-njam!",
+          "description": "Verschlinge einen Hauptmann mit einem Garstigen Graug."
+        },
+        "italian": {
+          "name": "Gnam gnam!",
+          "description": "Fai divorare un capitano da un Graug orrendo."
+        },
+        "japanese": {
+          "name": "むしゃむしゃ！",
+          "description": "変異したグラウグで小隊長を食べる。"
+        },
+        "polish": {
+          "name": "Nom, nom, nom!",
+          "description": "Spraw, żeby skażony graug pożarł kapitana."
+        },
+        "russian": {
+          "name": "Ням-ням-ням!",
+          "description": "Заставить мерзкого грауга сожрать капитана."
+        },
+        "schinese": {
+          "name": "嚼嚼嚼！",
+          "description": "用巨兽吃掉一名兽人队长"
+        },
+        "spanish": {
+          "name": "¡Ñam, ñam, ñam!",
+          "description": "Cómete a un capitán con un graug horrendo."
+        }
+      }
+    },
+    "Hot_Flashes": {
+      "translations": {
+        "brazilian": {
+          "name": "Tendo Calores",
+          "description": "Incendeie uma Matrona Ghûl durante a missão Senhor da Caça."
+        },
+        "english": {
+          "name": "Hot Flashes",
+          "description": "Catch a Ghûl Matron on fire during the Lord of the Hunt campaign."
+        },
+        "french": {
+          "name": "Quelle chaleur !",
+          "description": "Enflammez une Matriarche Ghûl lors de la campagne Seigneur de la Chasse."
+        },
+        "german": {
+          "name": "Hitzeschübe",
+          "description": "Setze während der „Meister der Jagd“-Kampagne eine Ghûl-Matrone in Brand."
+        },
+        "italian": {
+          "name": "Bagliori roventi",
+          "description": "Cattura una Matriarca Ghûl in fiamme durante la campagna del Signore della Caccia."
+        },
+        "japanese": {
+          "name": "ほてり",
+          "description": "「狩りの王」キャンペーンで、グール・メイトロンに火をつける。"
+        },
+        "polish": {
+          "name": "Uf, jak gorąco",
+          "description": "Podpal królową ghûli podczas kampanii Król polowania."
+        },
+        "russian": {
+          "name": "Вспышки пламени",
+          "description": "Поджечь гхула-матриарха в ходе ''Великой охоты''."
+        },
+        "schinese": {
+          "name": "热潮红",
+          "description": "在狩猎竞赛抓住一只着火的食尸鬼头目"
+        },
+        "spanish": {
+          "name": "Destellos candentes",
+          "description": "Prende fuego a una madre ghûl en el Señor de la caza."
+        }
+      }
+    },
+    "The_Collector": {
+      "translations": {
+        "brazilian": {
+          "name": "O Colecionador",
+          "description": "Tenha ao mesmo tempo um Caragath, um Graug Abominável e um Ghûl Cuspidor sob seu domínio."
+        },
+        "english": {
+          "name": "The Collector",
+          "description": "Have a dominated Caragath, Wretched Graug and Spitter Ghûl simultaneously."
+        },
+        "french": {
+          "name": "Le collectionneur",
+          "description": "Dominez un Caragath, un Graug Malsain et un Ghûl cracheur en même temps."
+        },
+        "german": {
+          "name": "Sammelwut",
+          "description": "Beherrsche gleichzeitig einen Caragath, Garstigen Graug und Ghûl-Speier."
+        },
+        "italian": {
+          "name": "Il Collezionista",
+          "description": "Controlla contemporaneamente un Caragath, un Graug orrendo e un Ghûl sputatore."
+        },
+        "japanese": {
+          "name": "収集家",
+          "description": "カラガス、変異したグラウグとスピッター・グールを同時に支配する。"
+        },
+        "polish": {
+          "name": "Zbieracz",
+          "description": "Posiadaj zdominowanego karagata, skażonego grauga i plującego ghûla naraz."
+        },
+        "russian": {
+          "name": "Коллекционер",
+          "description": "Взять под свой контроль одновременно карагата, мерзкого грауга и плюющегося гхула."
+        },
+        "schinese": {
+          "name": "收藏家",
+          "description": "同时控制巨兽，剑齿虎和食尸鬼"
+        },
+        "spanish": {
+          "name": "El coleccionista",
+          "description": "Ten dominados al mismo tiempo a un caragath, un graug horrendo y un escupidor ghûl."
+        }
+      }
+    },
+    "Beast_Master": {
+      "translations": {
+        "brazilian": {
+          "name": "A Caçada é Minha Musa",
+          "description": "Complete todos os objetivos na Prova Selvagem."
+        },
+        "english": {
+          "name": "The Hunt is my Mistress",
+          "description": "Complete all objectives in the Test of the Wild."
+        },
+        "french": {
+          "name": "La chasse est ma maîtresse",
+          "description": "Terminez tous les objectifs de l'Épreuve de la nature."
+        },
+        "german": {
+          "name": "Die Jagd ist meine Geliebte",
+          "description": "Schließe alle Ziele im Test der Wildnis ab."
+        },
+        "italian": {
+          "name": "La caccia è la mia signora",
+          "description": "Completa tutti gli obiettivi nella Prova della Natura."
+        },
+        "japanese": {
+          "name": "狩りは私の女主人",
+          "description": "荒野の試練の全ての目標を達成する。"
+        },
+        "polish": {
+          "name": "Polowanie to moje drugie imię",
+          "description": "Wypełnij wszystkie cele podczas próby instynktu."
+        },
+        "russian": {
+          "name": "Охота - вот дама моего сердца",
+          "description": "Выполнить все задания в испытании дикой природой."
+        },
+        "schinese": {
+          "name": "狩猎是我的情妇",
+          "description": "在野性测试中完成所有目标"
+        },
+        "spanish": {
+          "name": "La caza es mi amante",
+          "description": "Completa todos los objetivos en la Prueba de naturaleza."
+        }
+      }
+    },
+    "Betrayed": {
+      "translations": {
+        "brazilian": {
+          "name": "Traído",
+          "description": "O Um Anel retornou ao seu Criador."
+        },
+        "english": {
+          "name": "Betrayed",
+          "description": "The One Ring has returned to it's Maker."
+        },
+        "french": {
+          "name": "Trahison",
+          "description": "L'anneau Unique est revenu à son Créateur."
+        },
+        "german": {
+          "name": "Verraten",
+          "description": "Der Eine Ring ist zu seinem Schmied zurückgekehrt."
+        },
+        "italian": {
+          "name": "Tradito",
+          "description": "L'Unico Anello è tornato al suo Creatore."
+        },
+        "japanese": {
+          "name": "裏切り",
+          "description": "一つの指輪が作り手に戻った。"
+        },
+        "polish": {
+          "name": "Zdrada",
+          "description": "Jedyny Pierścień powrócił do swego twórcy."
+        },
+        "russian": {
+          "name": "Предательство",
+          "description": "Единое Кольцо вернулось к своему создателю."
+        },
+        "schinese": {
+          "name": "背叛",
+          "description": "指环回到了锻造者那里"
+        },
+        "spanish": {
+          "name": "Traicionado",
+          "description": "El Anillo Único regresó a su forjador."
+        }
+      }
+    },
+    "Scouring": {
+      "translations": {
+        "brazilian": {
+          "name": "O Expurgo de Mordor",
+          "description": "Desafie o Senhor do Escuro em Mordor."
+        },
+        "english": {
+          "name": "The Scouring of Mordor",
+          "description": "Challenge the Dark Lord in Mordor."
+        },
+        "french": {
+          "name": "La purification du Mordor",
+          "description": "Défiez le Seigneur des Ténèbres dans le Mordor."
+        },
+        "german": {
+          "name": "Die Reinigung Mordors",
+          "description": "Fordere den Dunklen Herrscher in Mordor heraus."
+        },
+        "italian": {
+          "name": "La purificazione di Mordor",
+          "description": "Sfida l'Oscuro Signore a Mordor."
+        },
+        "japanese": {
+          "name": "モルドールの愚者",
+          "description": "モルドールの冥王に挑む。"
+        },
+        "polish": {
+          "name": "Czyszczenie Mordoru",
+          "description": "Staw czoła Władcy Ciemności w Mordorze."
+        },
+        "russian": {
+          "name": "Очищение Мордора",
+          "description": "Бросить вызов Темному Властелину в Мордоре."
+        },
+        "schinese": {
+          "name": "魔多的肃清",
+          "description": "在魔多挑战黑魔王"
+        },
+        "spanish": {
+          "name": "El saneamiento de Mordor",
+          "description": "Desafía al Señor Oscuro en Mordor."
+        }
+      }
+    },
+    "Burning_Shadow": {
+      "translations": {
+        "brazilian": {
+          "name": "Sombra Incandescente",
+          "description": "Use a Marca Sombria em 20 Uruks."
+        },
+        "english": {
+          "name": "Burning Shadow",
+          "description": "Shadow Brand 20 Uruks."
+        },
+        "french": {
+          "name": "Ombre brûlante",
+          "description": "Marquez 20 Uruks par l'Ombre."
+        },
+        "german": {
+          "name": "Lodernder Schatten",
+          "description": "Brandmarke 20 Uruks aus den Schatten heraus."
+        },
+        "italian": {
+          "name": "Ombra ardente",
+          "description": "Imponi Marchio ombra su 20 Uruk."
+        },
+        "japanese": {
+          "name": "燃える影",
+          "description": "ウルク20匹に影の焼き印を行う。"
+        },
+        "polish": {
+          "name": "Palący mrok",
+          "description": "Użyj mrocznego naznaczenia na 20 urukach."
+        },
+        "russian": {
+          "name": "Пылающая тень",
+          "description": "Заклеймить тенью 20 уруков."
+        },
+        "schinese": {
+          "name": "燃烧的影子",
+          "description": "暗影控制 20 个兽人"
+        },
+        "spanish": {
+          "name": "Ardiente sombra",
+          "description": "Marca con sombra a 20 uruks."
+        }
+      }
+    },
+    "Dominion": {
+      "translations": {
+        "brazilian": {
+          "name": "Domínio",
+          "description": "Domine 50 Uruks com o Clarão Espectral."
+        },
+        "english": {
+          "name": "Dominion",
+          "description": "Wraith Flash Dominate 50 Uruks."
+        },
+        "french": {
+          "name": "Domination",
+          "description": "Dominez 50 Uruks par l'Éclair spectral."
+        },
+        "german": {
+          "name": "Herrschaft",
+          "description": "Beherrsche 50 Uruks mit Geisterblitz."
+        },
+        "italian": {
+          "name": "Dominio",
+          "description": "Domina 50 Uruk con Marchio fulmineo."
+        },
+        "japanese": {
+          "name": "支配",
+          "description": "幽鬼の光でウルクを50匹支配する。"
+        },
+        "polish": {
+          "name": "Panowanie",
+          "description": "Zdominuj 50 uruków, używając upiornego błysku."
+        },
+        "russian": {
+          "name": "Доминион",
+          "description": "Сломить волю 50 уруков с помощью призрачной вспышки."
+        },
+        "schinese": {
+          "name": "统治",
+          "description": "幽灵闪烁支配 50 个兽人"
+        },
+        "spanish": {
+          "name": "Dominio",
+          "description": "Domina a 50 uruks con Destello espectral."
+        }
+      }
+    },
+    "Battle_Forged": {
+      "translations": {
+        "brazilian": {
+          "name": "Veterano em Batalha",
+          "description": "Maximize o poder do Anel concluindo todas as missões do Um Anel."
+        },
+        "english": {
+          "name": "Battle Forged",
+          "description": "Maximize the power of the Ring by completing all of the One Ring missions."
+        },
+        "french": {
+          "name": "Forgé au combat",
+          "description": "Libérez toute la force de l'anneau en terminant l'ensemble des missions L'anneau Unique."
+        },
+        "german": {
+          "name": "Kampfgeschmiedet",
+          "description": "Maximiere die Macht des Ringes, indem du alle „Der Eine Ring“-Missionen abschließt."
+        },
+        "italian": {
+          "name": "Forgiato dalla battaglia",
+          "description": "Sfrutta al massimo il potere dell'Anello completando tutte le missioni dell'Unico Anello."
+        },
+        "japanese": {
+          "name": "築かれた戦闘",
+          "description": "一つの指輪のミッションを全て完了することで、指輪の力を最大限に引き出そう。"
+        },
+        "polish": {
+          "name": "Zrodzony z bitwy",
+          "description": "Zakończ wszystkie misje Jedynego Pierścienia, by zwiększyć moc Pierścienia."
+        },
+        "russian": {
+          "name": "Боевая закалка",
+          "description": "Завершите все миссии Кольца Всевластья, чтобы увеличить могущество Кольца."
+        },
+        "schinese": {
+          "name": "久经沙场",
+          "description": "通过完成所有指环任务把指环能力升到最大值"
+        },
+        "spanish": {
+          "name": "Forjado en batalla",
+          "description": "Maximiza el poder del Anillo completando todas las misiones del Anillo Único."
+        }
+      }
+    },
+    "Shadow_To_Shadow": {
+      "translations": {
+        "brazilian": {
+          "name": "De Sombra em Sombra",
+          "description": "Marque um capitão furtivamente."
+        },
+        "english": {
+          "name": "From Shadow to Shadow",
+          "description": "Stealth Brand a Captain."
+        },
+        "french": {
+          "name": "D'une Ombre à l'autre",
+          "description": "Utilisez le Marquage furtif sur un capitaine."
+        },
+        "german": {
+          "name": "Von Schatten zu Schatten",
+          "description": "Brandmarke einen Hauptmann aus dem Verborgenen."
+        },
+        "italian": {
+          "name": "Di ombra in ombra",
+          "description": "Imponi Marchio furtivo su un capitano."
+        },
+        "japanese": {
+          "name": "影から影へ",
+          "description": "小隊長をステルスブランドする。"
+        },
+        "polish": {
+          "name": "Z cienia",
+          "description": "Naznacz kapitana z ukrycia."
+        },
+        "russian": {
+          "name": "Из тени в тень",
+          "description": "Скрытно заклеймить капитана."
+        },
+        "schinese": {
+          "name": "从阴影到阴影",
+          "description": "用 Stealth Brand 控制一个小队长"
+        },
+        "spanish": {
+          "name": "De sombra en sombra",
+          "description": "Marca con sigilo a un capitán."
+        }
+      }
+    },
+    "Silver_Fist": {
+      "translations": {
+        "brazilian": {
+          "name": "O Punho de Prata",
+          "description": "Marque 20 Uruks em 60 segundos."
+        },
+        "english": {
+          "name": "The Silver Fist",
+          "description": "Brand 20 Uruks in 60 seconds."
+        },
+        "french": {
+          "name": "Le Poing d'Argent",
+          "description": "Marquez 20 Uruks en 60 secondes."
+        },
+        "german": {
+          "name": "Die Silberne Faust",
+          "description": "Brandmarke 20 Uruks in 60 Sekunden."
+        },
+        "italian": {
+          "name": "Il pugno d'argento",
+          "description": "Marchia 20 Uruk in 60 secondi."
+        },
+        "japanese": {
+          "name": "シルバーフィスト",
+          "description": "60秒以内にウルクを20匹ブランドする。"
+        },
+        "polish": {
+          "name": "Srebrna pięść",
+          "description": "Naznacz 20 uruków w czasie 60 sekund."
+        },
+        "russian": {
+          "name": "Серебряный кулак",
+          "description": "Заклеймить 20 уруков за 60 секунд."
+        },
+        "schinese": {
+          "name": "银色之拳",
+          "description": "在一分钟里控制 20 个兽人"
+        },
+        "spanish": {
+          "name": "El puño argénteo",
+          "description": "Marca a 20 uruks en 60 segundos."
+        }
+      }
+    },
+    "Eregion_Reforged": {
+      "translations": {
+        "brazilian": {
+          "name": "Eregion Reforjada",
+          "description": "Construa todas as Torres da Forja em Udûn."
+        },
+        "english": {
+          "name": "Eregion Reforged",
+          "description": "Build all the Forge Towers in Udun."
+        },
+        "french": {
+          "name": "L'Eregion rebâti",
+          "description": "Construisez toutes les Tours de forge d'Udûn."
+        },
+        "german": {
+          "name": "Eregion in neuem Glanz",
+          "description": "Errichte alle Schmiedetürme in Udûn."
+        },
+        "italian": {
+          "name": "Eregion rinata",
+          "description": "Costruisci tutte le Torri della fucina di Udûn."
+        },
+        "japanese": {
+          "name": "蘇ったエレギオン",
+          "description": "ウドゥンの鍛造塔を全て建設する。"
+        },
+        "polish": {
+          "name": "Eregion przekuty",
+          "description": "Skonstruuj wszystkie Wieże Kuźni w Udûnie."
+        },
+        "russian": {
+          "name": "Кузни Эрегиона",
+          "description": "Построить в Удуне все башни-кузницы."
+        },
+        "schinese": {
+          "name": "伊瑞詹重建‌",
+          "description": "建立起全部塔"
+        },
+        "spanish": {
+          "name": "Eregion reforjado",
+          "description": "Construye todas las torres de forja de Udûn."
+        }
+      }
+    },
+    "Beyond_Epic": {
+      "translations": {
+        "brazilian": {
+          "name": "Além do Épico",
+          "description": "Obtenha uma Runa de nível 30 na Prova do Anel."
+        },
+        "english": {
+          "name": "Beyond Epic",
+          "description": "Get a Level 30 Rune in Test of the Ring."
+        },
+        "french": {
+          "name": "Au-delà de l'épique",
+          "description": "Obtenez une rune de niveau 30 lors de l'Épreuve de l'Anneau."
+        },
+        "german": {
+          "name": "Mehr als episch",
+          "description": "Erhalte eine Rune der Stufe 30 im Test des Ringes."
+        },
+        "italian": {
+          "name": "Più che epico",
+          "description": "Ottieni una runa di livello 30 nella Prova dell'Anello."
+        },
+        "japanese": {
+          "name": "エピックを超えて",
+          "description": "明王のチャレンジでレベル30ルーンを獲得。"
+        },
+        "polish": {
+          "name": "Więcej niż mityczna",
+          "description": "Zdobądź runę 30. poziomu podczas próby Pierścienia."
+        },
+        "russian": {
+          "name": "Эпический размах",
+          "description": "Добыть в испытании Кольца руну 30-го уровня."
+        },
+        "schinese": {
+          "name": "超越史诗",
+          "description": "在戒指的测试获得一个 30 级符文"
+        },
+        "spanish": {
+          "name": "Más allá de lo épico",
+          "description": "Obtén una runa nivel 30 en la Prueba del Anillo."
+        }
+      }
+    },
+    "Lord_Of_The_Ring": {
+      "translations": {
+        "brazilian": {
+          "name": "Senhor do Anel",
+          "description": "Complete todos os objetivos no Teste do Anel."
+        },
+        "english": {
+          "name": "Lord of the Ring",
+          "description": "Complete all objectives in the Test of The Ring."
+        },
+        "french": {
+          "name": "Seigneur de l'Anneau",
+          "description": "Terminez tous les objectifs de l'Épreuve de l'anneau."
+        },
+        "german": {
+          "name": "Herr des Rings",
+          "description": "Erfülle alle Ziele im Test des Rings."
+        },
+        "italian": {
+          "name": "Signore dell'Anello",
+          "description": "Completa tutti gli obiettivi nella Prova dell'Anello."
+        },
+        "japanese": {
+          "name": "ロード・オブ・ザ・リング",
+          "description": "指輪の試練の全ての目標を達成する。"
+        },
+        "polish": {
+          "name": "Władca Pierścienia",
+          "description": "Osiągnij wszystkie cele w próbie Pierścienia."
+        },
+        "russian": {
+          "name": "Властелин Кольца",
+          "description": "Выполнить все задания в испытании Кольца."
+        },
+        "schinese": {
+          "name": "戒指的测试",
+          "description": "达成全部附加条件完成戒指的测试"
+        },
+        "spanish": {
+          "name": "Señor del Anillo",
+          "description": "Completa todos los objetivos de la Prueba del Anillo."
+        }
+      }
+    }
+  }
+}
