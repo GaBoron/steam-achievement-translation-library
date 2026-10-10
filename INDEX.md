@@ -4,7 +4,7 @@
 
 > 下载后请核对索引标注的文件大小；如果文件大小明显不对，请不要替换本地文件。标记为“可能不生效”或“可能过期”的文件请谨慎使用。
 
-当前收录：**442** 个游戏。
+当前收录：**443** 个游戏。
 
 状态说明：可用；可能不生效（文件通过仓库校验，但受游戏或平台机制影响，替换后可能不起作用）；可能过期（游戏更新后，文件内容可能已经失效）。
 
@@ -321,6 +321,7 @@
 | `1580240` | [Rune Factory 4 Special 符文工房4 豪华版](https://store.steampowered.com/app/1580240/) | 可用 | 2026-07-22T14:16:18Z | [@skeyep](https://github.com/skeyep) | english, french, german, japanese, koreana, schinese, tchinese | 38 | [UserGameStatsSchema_1580240.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/1580240/default/UserGameStatsSchema_1580240.bin)（38 KB） | [成就目录](files/1580240/default/achievements.md) |
 | `270150` | [RUNNING WITH RIFLES 奔跑吧！用步枪](https://store.steampowered.com/app/270150/) | 可用 | 2026-08-15T02:34:02Z | [@GaBoron](https://github.com/GaBoron) | english, schinese | 45 | [UserGameStatsSchema_270150.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/270150/default/UserGameStatsSchema_270150.bin)（17 KB） | [成就目录](files/270150/default/achievements.md) |
 | `2666510` | [Rusty's Retirement 锈崽的退休生活](https://store.steampowered.com/app/2666510/) | 可用 | 2026-09-01T09:00:59Z | [@GaBoron](https://github.com/GaBoron) | schinese | 71 | [UserGameStatsSchema_2666510.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2666510/default/UserGameStatsSchema_2666510.bin)（27 KB） | [成就目录](files/2666510/default/achievements.md) |
+| `283640` | [Salt and Sanctuary](https://store.steampowered.com/app/283640/) | 可用 | 2026-10-07T05:23:56Z | [@mimiworldmylove](https://github.com/mimiworldmylove) | english, schinese | 37 | [UserGameStatsSchema_283640.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/283640/default/UserGameStatsSchema_283640.bin)（18 KB） | [成就目录](files/283640/default/achievements.md) |
 | `2719200` | [SAMURAI WARRIORS 4 DX 战国无双4 DX](https://store.steampowered.com/app/2719200/) | 可用 | 2026-07-29T13:14:28Z | [@HideonOcean](https://github.com/HideonOcean) | english, japanese, schinese | 54 | [UserGameStatsSchema_2719200.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/2719200/default/UserGameStatsSchema_2719200.bin)（26 KB） | [成就目录](files/2719200/default/achievements.md) |
 | `348470` | [SAMURAI WARRIORS 4-II 战国无双4-II](https://store.steampowered.com/app/348470/) | 可用 | 2026-07-29T10:36:39Z | [@HideonOcean](https://github.com/HideonOcean) | english, schinese | 54 | [UserGameStatsSchema_348470.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/348470/default/UserGameStatsSchema_348470.bin)（21 KB） | [成就目录](files/348470/default/achievements.md) |
 | `91600` | [Sanctum 幽闭圣地](https://store.steampowered.com/app/91600/) | 可用 | 2026-07-20T12:14:51Z | [@KneeArcher](https://github.com/KneeArcher) | english, schinese | 100 | [UserGameStatsSchema_91600.bin](https://cdn.jsdelivr.net/gh/GaBoron/steam-achievement-translation-library@main/files/91600/default/UserGameStatsSchema_91600.bin)（45 KB） | [成就目录](files/91600/default/achievements.md) |
