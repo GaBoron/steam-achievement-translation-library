@@ -29,11 +29,11 @@ export function createList({ games, locale, state, invalidCount = 0, onReset }) 
     return el('li', {}, el('a', { className: 'game-row', href: `#/game/${game.appId}` },
       cover(game.appId),
       el('div', { className: 'game-text' }, el('h2', {}, game.name),
-        el('p', { className: 'game-meta' }, el('span', {}, `App ID ${game.appId}`),
+        el('p', { className: 'game-meta' }, el('span', { 'aria-label': `Steam App ID ${game.appId}` }, game.appId),
           el('span', {}, t(locale, 'achievements', { count: gameCount(game, locale) })),
-          game.variants.length > 1 && el('span', {}, t(locale, 'variants', { count: game.variants.length })))),
-      el('div', { className: 'game-status' }, statusMark(game.status, locale)),
+          game.variants.length > 1 && el('span', { className: 'game-variant-count' }, t(locale, 'variants', { count: game.variants.length })))),
       el('p', { className: 'game-languages', title: languages.join(', ') }, languagesText),
+      el('div', { className: 'game-status' }, statusMark(game.status, locale)),
       el('time', { className: 'game-date', datetime: game.updatedAt }, formatDate(game.updatedAt, locale)),
       el('span', { className: 'row-arrow' }, icon('arrow')),
     ));
@@ -65,7 +65,11 @@ export function createList({ games, locale, state, invalidCount = 0, onReset }) 
       } }));
   }
 
-  root.append(el('div', { className: 'section-heading' }, el('h1', { id: 'games-title' }, t(locale, 'games')), resultCount),
+  root.append(el('div', { className: 'list-heading' },
+    el('div', { className: 'list-heading-title' }, el('h1', { id: 'games-title' }, t(locale, 'games')), resultCount),
+    el('span', { className: 'list-language-label', 'aria-hidden': 'true' }, t(locale, 'languages')),
+    el('span', { className: 'list-status-label', 'aria-hidden': 'true' }, t(locale, 'status')),
+    el('span', { className: 'list-date-label', 'aria-hidden': 'true' }, t(locale, 'updatedAt'))),
     results, pagination);
   if (invalidCount > 0) results.before(el('p', { className: 'catalog-advisory' }, icon('info'), t(locale, 'invalidEntries', { count: invalidCount })));
   refresh();

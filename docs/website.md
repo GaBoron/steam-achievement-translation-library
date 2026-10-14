@@ -2,7 +2,7 @@
 
 网站位于 [GitHub Pages](https://gaboron.github.io/steam-achievement-translation-library/)，源码在 `web/`。前端使用原生 JavaScript 模块，不需要 npm、框架或后端。资源使用相对路径，游戏详情通过 `#/game/<app_id>` 分享；指定译本时追加 `/<variant_id>`，界面语言使用 `?lang=zh` 或 `?lang=en`。
 
-`web/tokens.css` 集中定义 MD3 色彩角色、字号、形状、动效和状态层，`styles.css` 将它们应用于控件与布局。目录适配、列表、详情和预览分别维护在独立模块中；调整外观时优先修改对应 token，保持浅深主题一致。参照 [Material 色彩角色](https://material-web.dev/theming/color/)与 [Typography](https://material-web.dev/theming/typography/)。
+`web/tokens.css` 集中定义 MD3 色彩角色、字号、形状、动效和状态层，`styles.css` 将它们应用于控件与布局。使用克制的青蓝强调色与冷灰 Surface，内容最大宽度为 1120px；宽屏搜索与筛选并排，列表采用连续行，详情以下载为主区、更新与贡献者为辅助栏。窄屏将筛选放到搜索下方，详情按下载、辅助信息、预览的顺序展示。目录适配、列表、详情和预览分别维护在独立模块中；调整外观时优先修改对应 token，保持浅深主题一致。参照 [Material 色彩角色](https://material-web.dev/theming/color/)与 [Typography](https://material-web.dev/theming/typography/)。
 
 `select.js` 统一选择菜单，`pagination.js` 供列表与预览共用，`languages.js` 将非标准语言代码归入“其他”。顶栏、搜索筛选和底栏常驻，内容独立滚动；`motion.js` 统一内容过渡，并遵循系统的减弱动态效果设置。
 
@@ -31,7 +31,7 @@ python -m http.server 8000 --directory _site
 
 The [GitHub Pages website](https://gaboron.github.io/steam-achievement-translation-library/) is maintained in `web/`. It uses native JavaScript modules, without npm, a framework, or a backend. Assets use relative paths. Share a game through `#/game/<app_id>`, append `/<variant_id>` for a specific variant, and select the interface language with `?lang=zh` or `?lang=en`.
 
-`web/tokens.css` defines the MD3 color, type, shape, motion, and state roles; `styles.css` applies them to controls and layout. Catalog adaptation, lists, details, and previews live in separate modules. Change the relevant tokens first when adjusting appearance, keeping light and dark themes aligned. See [Material color roles](https://material-web.dev/theming/color/) and [Typography](https://material-web.dev/theming/typography/).
+`web/tokens.css` defines the MD3 color, type, shape, motion, and state roles; `styles.css` applies them to controls and layout. A restrained blue accent and cool neutral surfaces frame a maximum content width of 1120px. Wide screens place search and filters together, use continuous list rows, and give downloads the main detail column with updates and contributors alongside. Narrow screens place filters below search and arrange details as downloads, supporting information, then preview. Catalog adaptation, lists, details, and previews live in separate modules. Change the relevant tokens first when adjusting appearance, keeping light and dark themes aligned. See [Material color roles](https://material-web.dev/theming/color/) and [Typography](https://material-web.dev/theming/typography/).
 
 `select.js` provides consistent selection menus, `pagination.js` is shared by lists and previews, and `languages.js` groups nonstandard language codes under “Other.” The header, search, filters, and footer stay visible while content scrolls independently. `motion.js` coordinates content transitions and respects the system's reduced-motion preference.
 

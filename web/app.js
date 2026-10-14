@@ -38,7 +38,7 @@ function renderShell() {
   document.querySelector('.skip-link').textContent = t(locale, 'skip');
   document.querySelector('meta[name="description"]').content = t(locale, 'search');
   headerFields.forEach(field => field.dispose());
-  const themeField = createSelect({ label: t(locale, 'theme'), options: [['auto', t(locale, 'auto')], ['light', t(locale, 'light')], ['dark', t(locale, 'dark')]], value: preferences.theme, onChange: value => preferences.setTheme(value), className: 'header-field' });
+  const themeField = createSelect({ label: t(locale, 'theme'), options: [['auto', t(locale, 'auto')], ['light', t(locale, 'light')], ['dark', t(locale, 'dark')]], value: preferences.theme, onChange: value => preferences.setTheme(value), className: 'header-field theme-field' });
   const localeField = createSelect({ label: t(locale, 'language'), options: [['zh', '简体中文'], ['en', 'English']], value: locale, className: 'header-field locale-field', onChange: value => {
     preferences.setLocale(value);
     renderShell();
@@ -46,13 +46,18 @@ function renderShell() {
     renderRoute(false);
     headerFields[1].focus();
   } });
+  themeField.node.querySelector('.select-trigger').prepend(icon('theme'));
+  localeField.node.querySelector('.select-trigger').prepend(icon('language'));
+  themeField.node.querySelector('.select-trigger').setAttribute('title', t(locale, 'theme'));
+  localeField.node.querySelector('.select-trigger').setAttribute('title', t(locale, 'language'));
   headerFields = [themeField, localeField];
   replaceContent(header, el('div', { className: 'header-inner' },
     el('a', { className: 'brand', href: '#/', 'aria-label': t(locale, 'title') }, el('span', { className: 'brand-icon' }, icon('translate')), el('span', {}, t(locale, 'title'))),
     el('div', { className: 'header-actions' },
       themeField.node, localeField.node,
-      externalLink('GitHub', repository, 'icon-text', 'github'))));
+      externalLink('', repository, 'icon-button', 'github'))));
   header.querySelector('a[target]').setAttribute('aria-label', t(locale, 'github'));
+  header.querySelector('a[target]').setAttribute('title', t(locale, 'github'));
   replaceContent(footer, el('div', { className: 'footer-inner' }, el('p', {}, t(locale, 'footer')),
     el('div', { className: 'footer-links' },
       el('a', { href: `${repository}/blob/main/README${locale === 'en' ? '_EN' : ''}.md`, target: '_blank', rel: 'noopener noreferrer' }, t(locale, 'usageGuide')),

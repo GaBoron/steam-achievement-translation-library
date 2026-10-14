@@ -9,7 +9,7 @@ export function clampPage(page, totalPages) {
 export function pageNumbers(page, totalPages) {
   const last = Math.max(1, Math.trunc(totalPages) || 1);
   const current = clampPage(page, last);
-  if (last <= 9) return Array.from({ length: last }, (_, index) => index + 1);
+  if (last <= 7) return Array.from({ length: last }, (_, index) => index + 1);
   const firstNearby = Math.max(2, Math.min(current - 1, last - 3));
   const lastNearby = Math.min(last - 1, Math.max(current + 1, 4));
   const result = [1];
@@ -26,9 +26,11 @@ export function createPagination({ locale, page, totalPages, onChange, labelKey 
   const choose = value => {
     if (value !== current && value >= 1 && value <= last) onChange(value);
   };
-  const previous = button(t(locale, 'previousPage'), () => choose(current - 1), 'text-button page-button', 'back');
+  const previous = button('', () => choose(current - 1), 'text-button page-button page-direction', 'back');
+  previous.setAttribute('aria-label', t(locale, 'previousPage'));
   previous.disabled = current === 1;
-  const next = button(t(locale, 'nextPage'), () => choose(current + 1), 'text-button page-button', 'arrow');
+  const next = button('', () => choose(current + 1), 'text-button page-button page-direction', 'arrow');
+  next.setAttribute('aria-label', t(locale, 'nextPage'));
   next.disabled = current === last;
   return el('nav', { className: 'pagination', 'aria-label': t(locale, labelKey) },
     el('p', { className: 'pagination-summary muted', role: 'status', 'aria-live': 'polite', 'aria-atomic': 'true' },

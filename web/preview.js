@@ -17,7 +17,7 @@ export function createPreview({ game, locale, variantId, onVariant }) {
   let generation = 0;
   let disposed = false;
   const root = el('section', { className: 'preview-section', 'aria-labelledby': 'preview-title' });
-  const controls = el('div', { className: 'preview-controls' });
+  const controls = el('div', { className: `preview-controls${game.variants.length === 1 ? ' single-variant' : ''}` });
   const content = el('div', { className: 'preview-content' });
   const chooseLanguage = () => {
     if (!selected.languages.includes(language)) {
@@ -62,7 +62,8 @@ export function createPreview({ game, locale, variantId, onVariant }) {
     },
   });
   languagePicker.setDisabled(!selected.languages.length);
-  controls.append(variantPicker.node, languagePicker.node);
+  if (game.variants.length > 1) controls.append(variantPicker.node);
+  controls.append(languagePicker.node);
 
   function renderPrompt() {
     content.setAttribute('aria-busy', 'false');
@@ -118,8 +119,8 @@ export function createPreview({ game, locale, variantId, onVariant }) {
     }));
   }
 
-  root.append(el('h2', { id: 'preview-title' }, t(locale, 'preview')),
-    el('p', { className: 'section-note' }, t(locale, 'previewNote')), controls, content);
+  root.append(el('div', { className: 'preview-heading' }, el('h2', { id: 'preview-title' }, t(locale, 'preview')),
+    el('p', { className: 'section-note' }, t(locale, 'previewNote'))), controls, content);
   renderPrompt();
   return { node: root, dispose: () => {
     disposed = true;
