@@ -10,15 +10,22 @@
     <link rel="stylesheet" href="./tokens.css">
     <link rel="stylesheet" href="./select.css">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./catalog.css">
+    <link rel="stylesheet" href="./detail.css">
     <script type="module" src="./app.js"></script>
   </head>
   <body>
     <a class="skip-link" href="#main">跳到主要内容</a>
     <header id="header" class="site-header"></header>
-    <section id="toolbar" class="library-toolbar"></section>
-    <main id="main" class="main" tabindex="-1" aria-busy="true">
-      <div class="page-state" role="status">正在加载目录…</div>
-    </main>
+    <div id="workspace" class="workspace">
+      <aside id="toolbar" class="catalog-tools"></aside>
+      <div class="workspace-content">
+        <section id="search-toolbar" class="search-toolbar"></section>
+        <main id="main" class="main" tabindex="-1" aria-busy="true">
+          <div class="page-state" role="status">正在加载目录…</div>
+        </main>
+      </div>
+    </div>
     <footer id="footer" class="site-footer"></footer>
     <noscript>浏览游戏目录需要启用 JavaScript。 / Enable JavaScript to browse the catalog.</noscript>
   </body>

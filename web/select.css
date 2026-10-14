@@ -25,22 +25,22 @@
 .select-option.is-selected .select-option-check::after { visibility: visible; }
 .select-group-label { padding: 16px 16px 8px; color: var(--md-sys-color-on-surface-variant); font: var(--md-sys-typescale-label-medium); letter-spacing: 0.5px; }
 .header-field .select-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
-.header-field .select-trigger { width: auto; border-radius: var(--md-sys-shape-corner-full); background: transparent; color: var(--md-sys-color-on-surface-variant); font: var(--md-sys-typescale-label-large); }
+.header-field .select-trigger { width: auto; border-radius: var(--md-sys-shape-corner-small); background: transparent; color: var(--md-sys-color-on-surface-variant); font: var(--md-sys-typescale-label-large); }
 .header-field .select-trigger .icon { width: 20px; height: 20px; }
-.theme-field .select-trigger { width: 48px; height: 48px; justify-content: center; padding: 12px; }
+.theme-field .select-trigger { width: 40px; height: 40px; justify-content: center; padding: 8px; }
 .theme-field .select-trigger .icon { width: 24px; height: 24px; }
 .theme-field .select-value { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
 .theme-field .select-chevron { display: none; }
 
 @media (max-width: 600px) {
-  .locale-field .select-trigger { width: 48px; height: 48px; justify-content: center; padding: 12px; }
+  .locale-field .select-trigger { width: 40px; height: 40px; justify-content: center; padding: 8px; }
   .locale-field .select-trigger .icon { width: 24px; height: 24px; }
   .locale-field .select-value { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
   .locale-field .select-chevron { display: none; }
 }
 
 @media (pointer: coarse) {
-  .header-field .select-trigger { min-height: 48px; }
+  .header-field .select-trigger { min-height: 44px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

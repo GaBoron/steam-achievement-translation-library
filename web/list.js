@@ -7,7 +7,7 @@ import { replaceContent, animateChange } from './motion.js';
 
 const pageSize = 60;
 
-export function createList({ games, locale, state, invalidCount = 0, onReset }) {
+export function createList({ games, locale, state, sortNode, invalidCount = 0, onReset }) {
   const root = el('section', { className: 'catalog-page', 'aria-labelledby': 'games-title' });
   const resultCount = el('p', { className: 'result-count', role: 'status', 'aria-live': 'polite', 'aria-atomic': 'true' });
   const results = el('ul', { className: 'game-list', 'aria-label': t(locale, 'games') });
@@ -23,19 +23,22 @@ export function createList({ games, locale, state, invalidCount = 0, onReset }) 
   const row = game => {
     const languages = displayLanguages(game.languages, locale);
     const languagesText = languages.length
-      ? languages.slice(0, 2).join(locale === 'zh' ? '、' : ', ')
-        + (languages.length > 2 ? ` +${languages.length - 2}` : '')
+      ? languages.slice(0, 4).join(locale === 'zh' ? '、' : ', ')
+        + (languages.length > 4 ? ` +${languages.length - 4}` : '')
       : t(locale, 'unknown');
-    return el('li', {}, el('a', { className: 'game-row', href: `#/game/${game.appId}` },
+    const names = game.contributors.slice(0, 2).join(', ')
+      + (game.contributors.length > 2 ? ` ${t(locale, 'moreContributors', { count: locale === 'zh' ? game.contributors.length : game.contributors.length - 2 })}` : '');
+    const attribution = names && t(locale, 'byContributors', { names });
+    return el('li', {}, el('a', { className: 'resource-row', href: `#/game/${game.appId}` },
       cover(game.appId),
-      el('div', { className: 'game-text' }, el('h2', {}, game.name),
-        el('p', { className: 'game-meta' }, el('span', { 'aria-label': `Steam App ID ${game.appId}` }, game.appId),
+      el('div', { className: 'resource-info' }, el('div', { className: 'resource-title' }, el('h2', {}, game.name),
+          attribution && el('span', { className: 'resource-contributors', title: game.contributors.join(', ') }, attribution)),
+        el('p', { className: 'resource-meta' }, el('span', {}, `Steam App ID ${game.appId}`),
           el('span', {}, t(locale, 'achievements', { count: gameCount(game, locale) })),
-          game.variants.length > 1 && el('span', { className: 'game-variant-count' }, t(locale, 'variants', { count: game.variants.length })))),
-      el('p', { className: 'game-languages', title: languages.join(', ') }, languagesText),
-      el('div', { className: 'game-status' }, statusMark(game.status, locale)),
-      el('time', { className: 'game-date', datetime: game.updatedAt }, formatDate(game.updatedAt, locale)),
-      el('span', { className: 'row-arrow' }, icon('arrow')),
+          el('span', {}, t(locale, 'variants', { count: game.variants.length })))),
+      el('p', { className: 'resource-languages', title: languages.join(', ') }, languagesText),
+      el('div', { className: 'resource-stats' }, statusMark(game.status, locale),
+        el('time', { datetime: game.updatedAt, title: t(locale, 'updatedAt') }, formatDate(game.updatedAt, locale))),
     ));
   };
 
@@ -67,9 +70,7 @@ export function createList({ games, locale, state, invalidCount = 0, onReset }) 
 
   root.append(el('div', { className: 'list-heading' },
     el('div', { className: 'list-heading-title' }, el('h1', { id: 'games-title' }, t(locale, 'games')), resultCount),
-    el('span', { className: 'list-language-label', 'aria-hidden': 'true' }, t(locale, 'languages')),
-    el('span', { className: 'list-status-label', 'aria-hidden': 'true' }, t(locale, 'status')),
-    el('span', { className: 'list-date-label', 'aria-hidden': 'true' }, t(locale, 'updatedAt'))),
+    sortNode),
     results, pagination);
   if (invalidCount > 0) results.before(el('p', { className: 'catalog-advisory' }, icon('info'), t(locale, 'invalidEntries', { count: invalidCount })));
   refresh();

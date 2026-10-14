@@ -1,11 +1,12 @@
 import { createPreview } from './preview.js';
+import { createDetailTabs } from './detail-tabs.js';
 import { el, append, button, cover, externalLink, icon, repository, statusMark } from './elements.js';
 import { t, formatDate, formatSize, variantLabel, gameCount } from './i18n.js';
 import { displayLanguages } from './languages.js';
 import { animateChange, bindDisclosure } from './motion.js';
 
-export function createDetail({ game, locale, revision = 'main', variantId, onVariant }) {
-  const root = el('article', { className: 'detail-page' });
+export function createDetail({ game, locale, revision = 'main', variantId, initialTab, onVariant }) {
+  const root = el('article', { className: 'project-page' });
   const sourceRevision = /^[a-f0-9]{40}$/.test(revision) ? revision : 'main';
   const feedback = el('p', { role: 'status', className: 'share-feedback', 'aria-live': 'polite' });
   const share = button(t(locale, 'share'), async () => {
@@ -14,30 +15,52 @@ export function createDetail({ game, locale, revision = 'main', variantId, onVar
       feedback.textContent = t(locale, 'copied');
     } catch { feedback.textContent = t(locale, 'copyFailed'); }
     animateChange(feedback);
-  }, 'text-button', 'link');
-  append(root, el('div', { className: 'detail-navigation' },
-    el('a', { className: 'button text-button back-button', href: '#/' }, icon('back'), t(locale, 'back')), share),
-    feedback);
+  }, 'tonal', 'link');
+  const direct = game.variants.length === 1 ? game.variants[0] : null;
+  const directPath = direct?.binPath || direct?.jsonPath;
+  const primaryAction = directPath
+    ? el('a', { className: 'button filled', href: `./${directPath}`,
+        download: `UserGameStatsSchema_${game.appId}.${direct.binPath ? 'bin' : 'json'}` },
+      icon('download'), t(locale, direct.binPath ? 'binDownload' : 'jsonDownload'))
+    : button(t(locale, 'viewDownloads'), () => {
+      tabs.show('downloads');
+      const heading = variants.querySelector('h2');
+      heading.focus({ preventScroll: true });
+      variants.scrollIntoView({ block: 'start', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+    }, 'filled', 'download');
 
-  const metadata = el('dl', { className: 'game-facts' });
-  const fact = (label, value) => metadata.append(el('div', {}, el('dt', {}, t(locale, label)), el('dd', {}, value)));
+  append(root, el('div', { className: 'project-breadcrumb' },
+    el('a', { href: '#/' }, icon('back'), t(locale, 'back'))),
+    el('header', { className: 'project-header' },
+      el('div', { className: 'project-identity' }, cover(game.appId, true),
+        el('div', { className: 'project-heading' }, el('h1', {}, game.name),
+          el('div', { className: 'project-summary' }, el('span', {}, `Steam App ID ${game.appId}`), statusMark(game.status, locale)))),
+      el('div', { className: 'project-actions' }, primaryAction, share)), feedback);
+
+  const sidebar = el('aside', { className: 'project-sidebar', 'aria-label': t(locale, 'gameDetails') });
+  const sidebarSection = (key, ...children) => sidebar.append(el('section', { className: 'sidebar-section panel' }, el('h2', {}, t(locale, key)), children));
+  const languages = displayLanguages(game.languages, locale);
+  sidebarSection('languages', languages.length
+    ? el('ul', { className: 'project-languages' }, languages.map(name => el('li', {}, name)))
+    : el('p', { className: 'muted' }, t(locale, 'noLanguages')));
+  sidebarSection('contributors', game.contributors.length
+    ? el('ul', { className: 'project-contributors' }, game.contributors.map(name => el('li', {},
+      el('a', { href: `https://github.com/${encodeURIComponent(name)}`, target: '_blank', rel: 'noopener noreferrer' }, name))))
+    : el('p', { className: 'muted' }, t(locale, 'unknown')));
+  const facts = el('dl', { className: 'project-facts' });
+  const fact = (key, value) => facts.append(el('div', {}, el('dt', {}, t(locale, key)), el('dd', {}, value)));
   fact('updatedAt', el('time', { datetime: game.updatedAt }, formatDate(game.updatedAt, locale)));
-  fact('contributors', game.contributors.length ? game.contributors.map((name, index) => [index ? ', ' : '',
-    el('a', { href: `https://github.com/${encodeURIComponent(name)}`, target: '_blank', rel: 'noopener noreferrer' }, name)]).flat() : t(locale, 'unknown'));
+  fact('achievementCount', gameCount(game, locale));
+  fact('translationCount', String(game.variants.length));
+  sidebarSection('gameDetails', facts);
+  sidebarSection('links', el('div', { className: 'project-links' },
+    externalLink(t(locale, 'steam'), `https://store.steampowered.com/app/${game.appId}/`),
+    externalLink(t(locale, 'source'), `${repository}/tree/${sourceRevision}/files/${game.appId}`)));
 
-  append(root, el('header', { className: 'game-heading' }, cover(game.appId, true),
-    el('div', { className: 'game-heading-text' }, el('h1', {}, game.name),
-      el('p', { className: 'detail-app-id' }, el('span', {}, `Steam App ID ${game.appId}`),
-        el('span', {}, t(locale, 'achievements', { count: gameCount(game, locale) }))),
-      el('div', { className: 'detail-heading-status' }, statusMark(game.status, locale))),
-    externalLink(t(locale, 'steam'), `https://store.steampowered.com/app/${game.appId}/`, 'text-button detail-store-link')),
-    game.status !== 'current' && el('div', { className: 'warning', role: 'note' }, icon('warning'),
-      el('p', {}, t(locale, game.status === 'outdated' ? 'outdatedWarning' : game.status === 'possibly_ineffective' ? 'ineffectiveWarning' : 'unknownWarning'))));
-
-  const variants = el('section', { className: 'detail-downloads variants-section', 'aria-labelledby': 'variants-title' },
-    el('h2', { id: 'variants-title' }, t(locale, 'availableVariants')));
+  const variants = el('section', { className: 'translations-panel panel' },
+    el('h2', { id: 'variants-title', tabindex: '-1' }, t(locale, 'availableVariants')));
   for (const variant of game.variants) {
-    const languageText = displayLanguages(variant.languages, locale).join(' · ') || t(locale, 'noLanguages');
+    const languageText = displayLanguages(variant.languages, locale).join(', ') || t(locale, 'noLanguages');
     const description = variant.description?.[locale];
     const showTitle = game.variants.length > 1 || variant.id !== 'default' || Boolean(variant.label?.[locale]);
     const downloads = el('div', { className: 'variant-downloads' });
@@ -62,21 +85,28 @@ export function createDetail({ game, locale, revision = 'main', variantId, onVar
       sources.append(link);
     }
     if (sources.childElementCount) addDetail(t(locale, 'source'), sources);
-    variants.append(el('article', { className: 'variant', id: `variant-${variant.id}`, 'aria-label': variantLabel(variant, locale) },
+    variants.append(el('article', { className: 'translation-variant', id: `variant-${variant.id}`, 'aria-label': variantLabel(variant, locale) },
       el('div', { className: 'variant-top' },
         el('div', { className: 'variant-text' }, showTitle && el('h3', {}, variantLabel(variant, locale)),
           description && el('p', { className: 'variant-description' }, description),
-          el('p', { className: 'variant-meta' }, t(locale, 'achievements', { count: variant.count ?? t(locale, 'unknown') }), ' · BIN ', formatSize(variant.size, locale)),
-          el('p', { className: 'variant-languages' }, languageText)), downloads),
+          el('p', { className: 'variant-meta' },
+            game.variants.length > 1 && `${t(locale, 'achievements', { count: variant.count ?? t(locale, 'unknown') })} / `,
+            'BIN ', formatSize(variant.size, locale)),
+          game.variants.length > 1 && el('p', { className: 'variant-languages' }, languageText)), downloads),
       el('details', { className: 'file-details' }, el('summary', {}, t(locale, 'fileDetails')), details)));
   }
   if (!game.variants.length) variants.append(el('p', { className: 'muted' }, t(locale, 'noVariants')));
   variants.append(el('p', { className: 'usage-note' }, t(locale, 'usageNote'), ' ',
-    el('a', { className: 'usage-guide', href: `${repository}/blob/main/README${locale === 'en' ? '_EN' : ''}.md`, target: '_blank', rel: 'noopener noreferrer' }, t(locale, 'usageGuide'))));
-  root.append(el('div', { className: 'detail-body' }, variants,
-    el('aside', { className: 'detail-context', 'aria-label': t(locale, 'gameDetails') }, metadata)));
+    el('a', { href: `${repository}/blob/main/README${locale === 'en' ? '_EN' : ''}.md`, target: '_blank', rel: 'noopener noreferrer' }, t(locale, 'usageGuide'))));
   const preview = createPreview({ game, locale, variantId, onVariant });
-  root.append(preview.node);
-  const disclosures = [...root.querySelectorAll('details')].map(bindDisclosure);
-  return { node: root, dispose() { preview.dispose(); disclosures.forEach(dispose => dispose()); } };
+  preview.node.classList.add('panel');
+  const tabs = createDetailTabs({ label: t(locale, 'gameDetails'), initial: initialTab, panels: [
+    { id: 'downloads', label: t(locale, 'downloads'), node: variants },
+    { id: 'preview', label: t(locale, 'preview'), node: preview.node },
+  ] });
+  if (game.status !== 'current') tabs.node.prepend(el('div', { className: 'warning', role: 'note' }, icon('warning'),
+    el('p', {}, t(locale, game.status === 'outdated' ? 'outdatedWarning' : game.status === 'possibly_ineffective' ? 'ineffectiveWarning' : 'unknownWarning'))));
+  root.append(el('div', { className: 'project-body' }, tabs.node, sidebar));
+  const disclosures = [...variants.querySelectorAll('details')].map(bindDisclosure);
+  return { node: root, get tab() { return tabs.selectedId; }, dispose() { preview.dispose(); disclosures.forEach(dispose => dispose()); } };
 }

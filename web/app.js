@@ -13,6 +13,8 @@ const main = document.getElementById('main');
 const header = document.getElementById('header');
 const footer = document.getElementById('footer');
 const toolbar = document.getElementById('toolbar');
+const searchToolbar = document.getElementById('search-toolbar');
+const workspace = document.getElementById('workspace');
 const listState = { query: '', status: '', language: '', sort: 'updated', page: 1 };
 let catalog;
 let view;
@@ -52,10 +54,15 @@ function renderShell() {
   localeField.node.querySelector('.select-trigger').setAttribute('title', t(locale, 'language'));
   headerFields = [themeField, localeField];
   replaceContent(header, el('div', { className: 'header-inner' },
-    el('a', { className: 'brand', href: '#/', 'aria-label': t(locale, 'title') }, el('span', { className: 'brand-icon' }, icon('translate')), el('span', {}, t(locale, 'title'))),
+    el('div', { className: 'header-navigation' },
+      el('a', { className: 'brand', href: '#/', 'aria-label': t(locale, 'title') }, el('span', { className: 'brand-icon' }, icon('translate')), el('span', {}, t(locale, 'title'))),
+      el('nav', { className: 'site-nav', 'aria-label': t(locale, 'games') }, el('a', { href: '#/' }, t(locale, 'games')))),
     el('div', { className: 'header-actions' },
+      button('', focusSearch, 'icon-button header-search', 'search'),
       themeField.node, localeField.node,
       externalLink('', repository, 'icon-button', 'github'))));
+  header.querySelector('.header-search').setAttribute('aria-label', t(locale, 'search'));
+  header.querySelector('.header-search').setAttribute('title', `${t(locale, 'search')} (Ctrl K)`);
   header.querySelector('a[target]').setAttribute('aria-label', t(locale, 'github'));
   header.querySelector('a[target]').setAttribute('title', t(locale, 'github'));
   replaceContent(footer, el('div', { className: 'footer-inner' }, el('p', {}, t(locale, 'footer')),
@@ -77,6 +84,16 @@ function renderControls() {
   } });
   toolbar.setAttribute('aria-label', t(preferences.locale, 'search'));
   replaceContent(toolbar, controls.node);
+  replaceContent(searchToolbar, controls.search);
+}
+
+function focusSearch() {
+  const current = route();
+  if (current.appId || current.invalid) {
+    history.pushState(null, '', '#/');
+    renderRoute();
+  }
+  controls.focusSearch();
 }
 
 function route() {
@@ -88,7 +105,13 @@ function renderRoute(navigating = true) {
   const current = route();
   const locale = preferences.locale;
   const scroll = scroller().scrollTop;
+  const activeTab = !navigating ? view?.tab : undefined;
   if (navigating && !previousGame) listScroll = scroll;
+  const detail = Boolean(current.appId || current.invalid);
+  workspace.dataset.view = detail ? 'detail' : 'catalog';
+  document.body.dataset.view = workspace.dataset.view;
+  toolbar.hidden = detail;
+  searchToolbar.hidden = detail;
   view?.dispose?.();
   view = null;
   main.setAttribute('aria-busy', String(!catalog && !failed));
@@ -104,9 +127,9 @@ function renderRoute(navigating = true) {
     document.title = t(locale, 'title');
     previousGame = true;
   } else {
-    view = game ? createDetail({ game, locale, revision, variantId: current.variantId, onVariant: variantId => {
+    view = game ? createDetail({ game, locale, revision, variantId: current.variantId, initialTab: activeTab, onVariant: variantId => {
       history.replaceState(null, '', `#/game/${game.appId}/${variantId}`);
-    } }) : createList({ ...catalog, locale, state: listState, onReset: () => controls.reset() });
+    } }) : createList({ ...catalog, locale, state: listState, sortNode: controls.sort, onReset: () => controls.reset() });
     replaceContent(main, view.node);
     document.title = game ? `${game.name} · ${t(locale, 'title')}` : t(locale, 'title');
     previousGame = Boolean(game);
@@ -137,7 +160,7 @@ document.querySelector('.skip-link').addEventListener('click', event => {
 document.addEventListener('keydown', event => {
   if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') {
     event.preventDefault();
-    controls.focusSearch();
+    focusSearch();
   }
 });
 renderShell();
