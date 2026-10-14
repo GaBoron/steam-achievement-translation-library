@@ -1,0 +1,637 @@
+{
+  "version": 1,
+  "app_id": "539470",
+  "variant_id": "default",
+  "source_sha256": "8b0f90387ad80029ceb2f8438e75e4e5b5e33e8c998db1e3c6cf58b18d0a9609",
+  "languages": [
+    "english",
+    "russian",
+    "schinese"
+  ],
+  "achievements": {
+    "ACH_FIRST_A": {
+      "translations": {
+        "english": {
+          "name": "Fair Play",
+          "description": "Get the first A."
+        },
+        "russian": {
+          "name": "Игра по правилам",
+          "description": "Получить первую А"
+        },
+        "schinese": {
+          "name": "按规矩来",
+          "description": "拿到第一个 A 评价。"
+        }
+      }
+    },
+    "ACH_FIRST_A_PLUS": {
+      "translations": {
+        "english": {
+          "name": "Flawless",
+          "description": "Get the first A+."
+        },
+        "russian": {
+          "name": "Безупречный",
+          "description": "Получить первую А+"
+        },
+        "schinese": {
+          "name": "无懈可击",
+          "description": "拿到第一个 A+ 评价。"
+        }
+      }
+    },
+    "ACH_COMPLETE_10_MISSION": {
+      "translations": {
+        "english": {
+          "name": "Rookie",
+          "description": "Successfully complete 10 missions."
+        },
+        "russian": {
+          "name": "Новобранец",
+          "description": "Пройти 10 миссий."
+        },
+        "schinese": {
+          "name": "菜鸟",
+          "description": "成功完成 10 个任务。"
+        }
+      }
+    },
+    "ACH_OPEN_ALL_EQIV": {
+      "translations": {
+        "english": {
+          "name": "Gunsmith",
+          "description": "Unlock all equipment."
+        },
+        "russian": {
+          "name": "Оружейник",
+          "description": "Открыть всю экипировку."
+        },
+        "schinese": {
+          "name": "军械士",
+          "description": "解锁全部装备。"
+        }
+      }
+    },
+    "ACH_COMPLETE_STORY_MODE": {
+      "translations": {
+        "english": {
+          "name": "Police Story",
+          "description": "Complete the story."
+        },
+        "russian": {
+          "name": "Полицейская история",
+          "description": "Пройти сюжет целиком."
+        },
+        "schinese": {
+          "name": "警界故事",
+          "description": "通关剧情模式。"
+        }
+      }
+    },
+    "ACH_COMPLETE_STORY_MODE_HIGHER_THAN_A_MINUS": {
+      "translations": {
+        "english": {
+          "name": "Professional",
+          "description": "Complete the story a grade no lower than A-."
+        },
+        "russian": {
+          "name": "Профессионал",
+          "description": "Пройти сюжет целиком не ниже рейтинга А-."
+        },
+        "schinese": {
+          "name": "专业人士",
+          "description": "以不低于 A- 的评价通关剧情模式。"
+        }
+      }
+    },
+    "ACH_DIE_50_TIMES": {
+      "translations": {
+        "english": {
+          "name": "Groundhog Day",
+          "description": "Die 50 times."
+        },
+        "russian": {
+          "name": "День сурка",
+          "description": "Умереть 50 раз."
+        },
+        "schinese": {
+          "name": "土拨鼠之日",
+          "description": "死亡 50 次。"
+        }
+      }
+    },
+    "ACH_KILL_100_ENEMIES": {
+      "translations": {
+        "english": {
+          "name": "I am the Law",
+          "description": "Kill 100 suspects."
+        },
+        "russian": {
+          "name": "Я - закон",
+          "description": "Убейте 100 подозреваемых."
+        },
+        "schinese": {
+          "name": "我就是法律",
+          "description": "击毙 100 名嫌犯。"
+        }
+      }
+    },
+    "ACH_ARREST_100_ENEMIES": {
+      "translations": {
+        "english": {
+          "name": "The right to remain silent",
+          "description": "Secure 100 suspects."
+        },
+        "russian": {
+          "name": "Право хранить молчание",
+          "description": "Связать 100 подозреваемых."
+        },
+        "schinese": {
+          "name": "你有权保持沉默",
+          "description": "制服 100 名嫌犯。"
+        }
+      }
+    },
+    "ACH_SHOOT_1000_BULLETS": {
+      "translations": {
+        "english": {
+          "name": "Weighty argument",
+          "description": "Fire 1000 bullets."
+        },
+        "russian": {
+          "name": "Весомый аргумент",
+          "description": "Выстрелить 1000 пуль."
+        },
+        "schinese": {
+          "name": "有力的道理",
+          "description": "射出 1000 发子弹。"
+        }
+      }
+    },
+    "ACH_EXPLODE_OR_BREAK_100_DOORS": {
+      "translations": {
+        "english": {
+          "name": "Door Kickers",
+          "description": "Blow up, lockpick or break down 100 closed doors."
+        },
+        "russian": {
+          "name": "Доркикерс",
+          "description": "Взорвать, взломать или выбить 100 закрытых дверей."
+        },
+        "schinese": {
+          "name": "破门小队",
+          "description": "炸开、撬开或撞开 100 扇关闭的门。"
+        }
+      }
+    },
+    "ACH_WALK_THROUGH_1000_METERS": {
+      "translations": {
+        "english": {
+          "name": "Tourist",
+          "description": "Walk 1000 meters."
+        },
+        "russian": {
+          "name": "Турист",
+          "description": "Пройти 1000 условных метров."
+        },
+        "schinese": {
+          "name": "观光客",
+          "description": "步行 1000 米。"
+        }
+      }
+    },
+    "ACH_DEFUSE_FIRST_BOMB": {
+      "translations": {
+        "english": {
+          "name": "The Hurt Blocker",
+          "description": "Defuse your first bomb."
+        },
+        "russian": {
+          "name": "Взрыва не будет",
+          "description": "Обезвредить первую бомбу."
+        },
+        "schinese": {
+          "name": "拆弹专家",
+          "description": "拆除你的第一枚炸弹。"
+        }
+      }
+    },
+    "ACH_DEFUSE_25_BOMBS": {
+      "translations": {
+        "english": {
+          "name": "Sapper",
+          "description": "Defuse 10 bombs successfully."
+        },
+        "russian": {
+          "name": "Сапер",
+          "description": "Обезвредить 10 бомб."
+        },
+        "schinese": {
+          "name": "工兵",
+          "description": "成功拆除 10 枚炸弹。"
+        }
+      }
+    },
+    "ACH_DEFUSE_BOMB_CUT_WIRE": {
+      "translations": {
+        "english": {
+          "name": "Soldier of Fortune",
+          "description": "Defuse the bomb by successfully cutting the wire."
+        },
+        "russian": {
+          "name": "Солдат удачи",
+          "description": "Обезвредить бомбу успешно перерезав провод."
+        },
+        "schinese": {
+          "name": "雇佣兵",
+          "description": "剪断正确的电线拆除炸弹。"
+        }
+      }
+    },
+    "ACH_COMPLETE_MISSION_NO_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Mercy",
+          "description": "Complete mission without killing any suspects."
+        },
+        "russian": {
+          "name": "Милосердие",
+          "description": "Пройти миссию никого не убив."
+        },
+        "schinese": {
+          "name": "仁慈",
+          "description": "在不击毙任何嫌犯的情况下完成任务。"
+        }
+      }
+    },
+    "ACH_SHOOT_ENEMY_WITH_TASER": {
+      "translations": {
+        "english": {
+          "name": "Clear!",
+          "description": "Shoot a suspect with the taser."
+        },
+        "russian": {
+          "name": "Разряд!",
+          "description": "Подстрелить подозреваемого из шокера."
+        },
+        "schinese": {
+          "name": "清场！",
+          "description": "用泰瑟枪击中一名嫌犯。"
+        }
+      }
+    },
+    "ACH_SURVIVE_AFTER_3_BULLETS": {
+      "translations": {
+        "english": {
+          "name": "Die Hard",
+          "description": "Stay alive after getting hit by three bullets."
+        },
+        "russian": {
+          "name": "Крепкий орешек",
+          "description": "Останьтесь живым после попадания трех пуль."
+        },
+        "schinese": {
+          "name": "虎胆龙威",
+          "description": "在中三枪后依然存活。"
+        }
+      }
+    },
+    "ACH_STUN_3_ENEMIES_WITH_ONE_FLASH_OR_C4": {
+      "translations": {
+        "english": {
+          "name": "Hat Trick",
+          "description": "Blind or stun more than three suspects with a single flashbang or C4."
+        },
+        "russian": {
+          "name": "Хет-трик",
+          "description": "Ослепить или оглушить более трех подозреваемых одной гранатой или С4."
+        },
+        "schinese": {
+          "name": "帽子戏法",
+          "description": "用一枚闪光弹或 C4 致盲、震晕三名以上嫌犯。"
+        }
+      }
+    },
+    "ACH_DEFUSE_BOMB_10_SECONDS_BEFORE_EXPLOSION": {
+      "translations": {
+        "english": {
+          "name": "Close Shave",
+          "description": "Successfully defuse a bomb with less than 10 seconds remaining"
+        },
+        "russian": {
+          "name": "Едва успели",
+          "description": "Обезвредить бомбу на последних 10 секундах."
+        },
+        "schinese": {
+          "name": "千钧一发",
+          "description": "在剩余不到 10 秒时成功拆除炸弹。"
+        }
+      }
+    },
+    "ACH_KILL_ENEMY_WHILE_FLASHED": {
+      "translations": {
+        "english": {
+          "name": "Blind Fury",
+          "description": "Kill a suspect while you are blinded by a flashbang."
+        },
+        "russian": {
+          "name": "Слепая ярость",
+          "description": "Убить подозреваемого будучи полностью ослепленным."
+        },
+        "schinese": {
+          "name": "盲目之怒",
+          "description": "在被闪光弹致盲的状态下击毙一名嫌犯。"
+        }
+      }
+    },
+    "ACH_REVIVE_MATE_WITH_DEFIBR": {
+      "translations": {
+        "english": {
+          "name": "Not On My Watch",
+          "description": "Revive your teammate using the defibrillator."
+        },
+        "russian": {
+          "name": "Не в мою смену",
+          "description": "Поднять напарника дефибриллятором."
+        },
+        "schinese": {
+          "name": "不许有事",
+          "description": "用除颤器救起你的搭档。"
+        }
+      }
+    },
+    "ACH_DIE_SAME_TIME_WITH_KILLER_ENEMY": {
+      "translations": {
+        "english": {
+          "name": "Retribution",
+          "description": "Die at the same time as the suspect who killed you."
+        },
+        "russian": {
+          "name": "Возмездие",
+          "description": "Умереть одновременно вместе с подозреваемым который тебя убил."
+        },
+        "schinese": {
+          "name": "因果报应",
+          "description": "与杀死你的嫌犯同归于尽。"
+        }
+      }
+    },
+    "ACH_KILL_ENEMY_LAST_BULLET_IN_MAG": {
+      "translations": {
+        "english": {
+          "name": "Last Chance",
+          "description": "Kill a suspect with the last bullet in your magazine."
+        },
+        "russian": {
+          "name": "Последний шанс",
+          "description": "Убить подозреваемого последним патроном в обойме."
+        },
+        "schinese": {
+          "name": "最后的机会",
+          "description": "用弹匣里最后一发子弹击毙嫌犯。"
+        }
+      }
+    },
+    "ACH_KILL_ENEMY_THROUGH_DOOR": {
+      "translations": {
+        "english": {
+          "name": "Without Knocking",
+          "description": "Kill a suspect through the door."
+        },
+        "russian": {
+          "name": "Без стука",
+          "description": "Убить подозреваемого сквозь дверь."
+        },
+        "schinese": {
+          "name": "不请自来",
+          "description": "隔着门击毙一名嫌犯。"
+        }
+      }
+    },
+    "ACH_KILL_ENEMY_THAT_KILLED_MATE": {
+      "translations": {
+        "english": {
+          "name": "Angel of Vengeance",
+          "description": "Kill the suspect who has just killed your teammate."
+        },
+        "russian": {
+          "name": "Ангел мести",
+          "description": "Убейте подозреваемого который до этого убил вашего напарника."
+        },
+        "schinese": {
+          "name": "复仇天使",
+          "description": "击毙刚刚杀害你搭档的嫌犯。"
+        }
+      }
+    },
+    "ACH_KILL_ENEMY_THAT_IS_RELOADING": {
+      "translations": {
+        "english": {
+          "name": "At the Right Time",
+          "description": "Kill a suspect while he is reloading."
+        },
+        "russian": {
+          "name": "В нужное время",
+          "description": "Убить подозреваемого который перезаряжается."
+        },
+        "schinese": {
+          "name": "正当其时",
+          "description": "在嫌犯换弹时击毙他。"
+        }
+      }
+    },
+    "ACH_COMPLETE_MISSION_WITH_MATE_STAYING_AT_SPAWN_POSITION": {
+      "translations": {
+        "english": {
+          "name": "Lone Wolf",
+          "description": "Complete the mission with Rick left standing at the spawn."
+        },
+        "russian": {
+          "name": "Одинокий волк",
+          "description": "Пройти миссию оставив Рика стоять на спавне."
+        },
+        "schinese": {
+          "name": "独狼",
+          "description": "让里克留在出发点，独自完成任务。"
+        }
+      }
+    },
+    "ACH_PICKUP_250_EVIDENCE": {
+      "translations": {
+        "english": {
+          "name": "Collector",
+          "description": "Pick up 250 evidences."
+        },
+        "russian": {
+          "name": "Большой куш",
+          "description": "Подобрать 250 улик (учитываются улики и оружие на земле)"
+        },
+        "schinese": {
+          "name": "收集者",
+          "description": "拾取 250 件证据。"
+        }
+      }
+    },
+    "ACH_SHOUT_1000_TIMES": {
+      "translations": {
+        "english": {
+          "name": "Get down!",
+          "description": "Shout 1000 times."
+        },
+        "russian": {
+          "name": "Get down!",
+          "description": "Крикните 1000 раз"
+        },
+        "schinese": {
+          "name": "趴下！",
+          "description": "喊话 1000 次。"
+        }
+      }
+    },
+    "ACH_COMPLETE_MISSION_TOGETHER": {
+      "translations": {
+        "english": {
+          "name": "Bad Boys",
+          "description": "Complete the mission in any multiplayer mode."
+        },
+        "russian": {
+          "name": "Плохие парни",
+          "description": "Пройти миссию в любом сетевом режиме"
+        },
+        "schinese": {
+          "name": "坏小子",
+          "description": "以任意多人模式完成任务。"
+        }
+      }
+    },
+    "ACH_KILL_ENEMY_WITH_PISTOL_AFTER_SHIELD_DESTROYED": {
+      "translations": {
+        "english": {
+          "name": "Naked Gun",
+          "description": "Kill the suspect with the handgun left after the destruction of your ballistic shield."
+        },
+        "russian": {
+          "name": "Голый пистолет",
+          "description": "Убить врага из оставшегося пистолета после разрушения щита"
+        },
+        "schinese": {
+          "name": "裸枪",
+          "description": "在防弹盾被击毁后，用手枪击毙嫌犯。"
+        }
+      }
+    },
+    "ACH_KILL_ENEMY_MELEE_SURRENDED": {
+      "translations": {
+        "english": {
+          "name": "Police Brutality",
+          "description": "Kill a surrendered or cuffed suspect with the buttstock."
+        },
+        "russian": {
+          "name": "Чрезмерная жестокость",
+          "description": "Убить прикладом сдавшегося или связанного врага"
+        },
+        "schinese": {
+          "name": "警察暴力",
+          "description": "用枪托击毙已投降或被铐住的嫌犯。"
+        }
+      }
+    },
+    "ACH_DIE_WITH_EQIP_IN_HANDS": {
+      "translations": {
+        "english": {
+          "name": "Brought a knife to a gunfight",
+          "description": "Get killed while holding any equipment (excluding the ballistic shield, taser and pepper spray)."
+        },
+        "russian": {
+          "name": "Пришел с ножом на перестрелку",
+          "description": "Умереть от пули со снаряжением в руках (кроме щита, шокера и балончика)"
+        },
+        "schinese": {
+          "name": "带刀赴枪战",
+          "description": "手持任意装备（防弹盾、泰瑟枪、胡椒喷雾除外）时被击毙。"
+        }
+      }
+    },
+    "ACH_BREAK_25_WINDOWS": {
+      "translations": {
+        "english": {
+          "name": "World of Glass",
+          "description": "Break 25 windows."
+        },
+        "russian": {
+          "name": "Стеклянный мир",
+          "description": "Разбить 25 окон"
+        },
+        "schinese": {
+          "name": "玻璃世界",
+          "description": "打碎 25 扇窗户。"
+        }
+      }
+    },
+    "ACH_WATCH_ALL_TUTORIAL_SLIDES": {
+      "translations": {
+        "english": {
+          "name": "Police Academy",
+          "description": "View all tutorial slides."
+        },
+        "russian": {
+          "name": "Полицейская академия",
+          "description": "Посмотреть все слайды обучения"
+        },
+        "schinese": {
+          "name": "警校",
+          "description": "看完所有教学幻灯片。"
+        }
+      }
+    },
+    "ACH_BOMB_EXPLODE_WHILE_DEFUSED_WRONG_WIRE": {
+      "translations": {
+        "english": {
+          "name": "Blown Away",
+          "description": "Detonate a bomb by cutting the wrong wire."
+        },
+        "russian": {
+          "name": "Не мой день",
+          "description": "Взорвать бомбу перерезав не тот провод."
+        },
+        "schinese": {
+          "name": "不走运",
+          "description": "剪错电线引爆炸弹。"
+        }
+      }
+    },
+    "ACH_RAN_MORE_DIST_THAN_WALKED": {
+      "translations": {
+        "english": {
+          "name": "Running Man",
+          "description": "During the mission run more than walk."
+        },
+        "russian": {
+          "name": "Бегущий человек",
+          "description": "Во время миссии пробежать большее расстояние чем пройти пешком."
+        },
+        "schinese": {
+          "name": "奔跑者",
+          "description": "在任务中跑动的距离超过步行的距离。"
+        }
+      }
+    },
+    "ACH_MORE_THAN_50_BLOOD_STEPS_ON_MISSION": {
+      "translations": {
+        "english": {
+          "name": "Dirty Harry",
+          "description": "Leave over 50 bloody steps in one mission."
+        },
+        "russian": {
+          "name": "Грязный Гарри",
+          "description": "Оставить более 50 кровавых шагов за одну миссию"
+        },
+        "schinese": {
+          "name": "肮脏的哈里",
+          "description": "在一次任务中留下 50 个以上血脚印。"
+        }
+      }
+    }
+  }
+}
