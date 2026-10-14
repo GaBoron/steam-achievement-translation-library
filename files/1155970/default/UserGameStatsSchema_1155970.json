@@ -1,0 +1,528 @@
+{
+  "version": 1,
+  "app_id": "1155970",
+  "variant_id": "default",
+  "source_sha256": "5eea4ee563acbdf18fe257688a4a32cc780e9ce2f356270ba9ff245a01d8e183",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "achievement_prologue": {
+      "translations": {
+        "english": {
+          "name": "The New Adventure",
+          "description": "Reached the first crossroads."
+        },
+        "schinese": {
+          "name": "新的冒险",
+          "description": "抵达第一个十字路口。"
+        }
+      }
+    },
+    "achievement_crossroads": {
+      "translations": {
+        "english": {
+          "name": "The Four Crossroads",
+          "description": "Reached the four major crossroads."
+        },
+        "schinese": {
+          "name": "四大路口",
+          "description": "抵达四个主要十字路口。"
+        }
+      }
+    },
+    "achievement_beenineveryvillage": {
+      "translations": {
+        "english": {
+          "name": "The People of the North",
+          "description": "Reached every village."
+        },
+        "schinese": {
+          "name": "北方之民",
+          "description": "抵达所有村庄。"
+        }
+      }
+    },
+    "achievement_pcgoal": {
+      "translations": {
+        "english": {
+          "name": "My Goal",
+          "description": "Completed the personal goal of their journey."
+        },
+        "schinese": {
+          "name": "我的目标",
+          "description": "完成了此行的个人目标。"
+        }
+      }
+    },
+    "achievement_potionsset": {
+      "translations": {
+        "english": {
+          "name": "The Full Set",
+          "description": "Gained access to every potion and powder as a scholar."
+        },
+        "schinese": {
+          "name": "全套",
+          "description": "作为学者获得了所有药水与药粉的使用资格。"
+        }
+      }
+    },
+    "achievement_coins100": {
+      "translations": {
+        "english": {
+          "name": "The Great Wealth",
+          "description": "Gathered 100 dragon bones."
+        },
+        "schinese": {
+          "name": "巨额财富",
+          "description": "积攒 100 枚龙骨币。"
+        }
+      }
+    },
+    "achievement_armorer": {
+      "translations": {
+        "english": {
+          "name": "The Armorer",
+          "description": "Became an expert in armor repairing. "
+        },
+        "schinese": {
+          "name": "修甲师",
+          "description": "成为护甲修缮的专家。"
+        }
+      }
+    },
+    "achievement_battlecounter3": {
+      "translations": {
+        "english": {
+          "name": "The Survivor",
+          "description": "Survived more battles than most travelers."
+        },
+        "schinese": {
+          "name": "幸存者",
+          "description": "经历的战斗比大多数旅人更多。"
+        }
+      }
+    },
+    "achievement_faith1": {
+      "translations": {
+        "english": {
+          "name": "The Faithfull",
+          "description": "Relied on their faith during their journey."
+        },
+        "schinese": {
+          "name": "虔信者",
+          "description": "旅途中始终依赖自己的信仰。"
+        }
+      }
+    },
+    "achievement_faith2": {
+      "translations": {
+        "english": {
+          "name": "The Faithless",
+          "description": "Abandoned their faith during their journey."
+        },
+        "schinese": {
+          "name": "背信者",
+          "description": "旅途中放弃了自己的信仰。"
+        }
+      }
+    },
+    "achievement_bestiary": {
+      "translations": {
+        "english": {
+          "name": "The Bestiary",
+          "description": "Gained insight into methods of defending themselves from beasts."
+        },
+        "schinese": {
+          "name": "兽谱",
+          "description": "掌握了抵御野兽的方法。"
+        }
+      }
+    },
+    "achievement_brokendoors": {
+      "translations": {
+        "english": {
+          "name": "The Breaker",
+          "description": "Wasted no time on getting in \"the right way\"."
+        },
+        "schinese": {
+          "name": "破门者",
+          "description": "从不浪费时间走「正门」。"
+        }
+      }
+    },
+    "achievement_lies": {
+      "translations": {
+        "english": {
+          "name": "The Liar",
+          "description": "Never hesitated to use lies for their own gain."
+        },
+        "schinese": {
+          "name": "说谎者",
+          "description": "为了一己之利，撒谎从不犹豫。"
+        }
+      }
+    },
+    "achievement_coppervein": {
+      "translations": {
+        "english": {
+          "name": "The Copper Vein",
+          "description": "Found the copper vein."
+        },
+        "schinese": {
+          "name": "铜矿脉",
+          "description": "找到铜矿脉。"
+        }
+      }
+    },
+    "achievement_easternpath": {
+      "translations": {
+        "english": {
+          "name": "The Eastern Path",
+          "description": "Managed to make the eastern path safer."
+        },
+        "schinese": {
+          "name": "东路",
+          "description": "成功让东路变得更安全。"
+        }
+      }
+    },
+    "achievement_fish": {
+      "translations": {
+        "english": {
+          "name": "The Fisher",
+          "description": "Caught 10 fish with traps."
+        },
+        "schinese": {
+          "name": "渔夫",
+          "description": "用陷阱捕获 10 条鱼。"
+        }
+      }
+    },
+    "achievement_readyforaction": {
+      "translations": {
+        "english": {
+          "name": "Ready For Action",
+          "description": "Became as prepared to combat as one can be."
+        },
+        "schinese": {
+          "name": "整装待发",
+          "description": "为战斗做好了尽可能充分的准备。"
+        }
+      }
+    },
+    "achievement_rumors": {
+      "translations": {
+        "english": {
+          "name": "The Gossiper",
+          "description": "No secret was safe with them."
+        },
+        "schinese": {
+          "name": "长舌者",
+          "description": "任何秘密都守不住。"
+        }
+      }
+    },
+    "achievement_sea": {
+      "translations": {
+        "english": {
+          "name": "The Coast",
+          "description": "Reached the sea."
+        },
+        "schinese": {
+          "name": "海岸",
+          "description": "抵达海边。"
+        }
+      }
+    },
+    "achievement_shortcut": {
+      "translations": {
+        "english": {
+          "name": "The Shortcut",
+          "description": "Uncovered the entire road through the heart of the woods."
+        },
+        "schinese": {
+          "name": "捷径",
+          "description": "打通穿越森林中心的整条道路。"
+        }
+      }
+    },
+    "achievement_slepteverywhere": {
+      "translations": {
+        "english": {
+          "name": "The Bed Connoisseur",
+          "description": "Slept in every possible area."
+        },
+        "schinese": {
+          "name": "床榻鉴赏家",
+          "description": "在所有可能的地方睡过觉。"
+        }
+      }
+    },
+    "achievement_wildplants": {
+      "translations": {
+        "english": {
+          "name": "The Forager",
+          "description": "Foraged 12 bunches of wild plants."
+        },
+        "schinese": {
+          "name": "觅食者",
+          "description": "采集 12 簇野生植物。"
+        }
+      }
+    },
+    "achievement_ruinsexplored": {
+      "translations": {
+        "english": {
+          "name": "The Explorer",
+          "description": "Thoroughly searched every ruin they could find."
+        },
+        "schinese": {
+          "name": "探索者",
+          "description": "彻底搜查了所能找到的每一处遗迹。"
+        }
+      }
+    },
+    "achievement_foundasterion": {
+      "translations": {
+        "english": {
+          "name": "The Labyrinth",
+          "description": "Found Asterion."
+        },
+        "schinese": {
+          "name": "迷宫",
+          "description": "找到了阿斯特伦。"
+        }
+      }
+    },
+    "achievement_foundbanditshideout": {
+      "translations": {
+        "english": {
+          "name": "The Hideout",
+          "description": "Found the bandits' camp."
+        },
+        "schinese": {
+          "name": "藏身处",
+          "description": "找到强盗营地。"
+        }
+      }
+    },
+    "achievement_fruit1": {
+      "translations": {
+        "english": {
+          "name": "The Egoist",
+          "description": "Ate The Seed. Because why not."
+        },
+        "schinese": {
+          "name": "利己者",
+          "description": "吃掉了种子。何乐而不为呢。"
+        }
+      }
+    },
+    "achievement_fruit2": {
+      "translations": {
+        "english": {
+          "name": "The Savior",
+          "description": "Sacrificed The Seed to help others."
+        },
+        "schinese": {
+          "name": "救世主",
+          "description": "牺牲种子去帮助他人。"
+        }
+      }
+    },
+    "achievement_greenmountaintribe": {
+      "translations": {
+        "english": {
+          "name": "The Hidden Village",
+          "description": "Reached The Tribe of The Green Mountain."
+        },
+        "schinese": {
+          "name": "隐世之村",
+          "description": "抵达青山部族。"
+        }
+      }
+    },
+    "achievement_howlersdelltoken": {
+      "translations": {
+        "english": {
+          "name": "The Token of Appreciation",
+          "description": "Became an ally of Howler's Dell."
+        },
+        "schinese": {
+          "name": "谢礼",
+          "description": "成为吼猴溪谷的盟友。"
+        }
+      }
+    },
+    "achievement_monastery": {
+      "translations": {
+        "english": {
+          "name": "The Library",
+          "description": "Reached the caves of the monastery."
+        },
+        "schinese": {
+          "name": "藏书阁",
+          "description": "抵达修道院的洞穴。"
+        }
+      }
+    },
+    "achievement_murdered": {
+      "translations": {
+        "english": {
+          "name": "The Murderer",
+          "description": "Took the life of another human."
+        },
+        "schinese": {
+          "name": "杀人者",
+          "description": "夺走了一条人命。"
+        }
+      }
+    },
+    "achievement_nomoreundead": {
+      "translations": {
+        "english": {
+          "name": "The Inquisitor",
+          "description": "Stopped the necromancers."
+        },
+        "schinese": {
+          "name": "审判官",
+          "description": "阻止了死灵法师。"
+        }
+      }
+    },
+    "achievement_potionsblock": {
+      "translations": {
+        "english": {
+          "name": "Too Much Of A Good Thing",
+          "description": "Flooded the market with healing potions."
+        },
+        "schinese": {
+          "name": "过犹不及",
+          "description": "用治疗药水淹没了市场。"
+        }
+      }
+    },
+    "achievement_thais_allience": {
+      "translations": {
+        "english": {
+          "name": "The Conspirator",
+          "description": "Joined forces with a malefactor."
+        },
+        "schinese": {
+          "name": "同谋者",
+          "description": "与恶徒联手。"
+        }
+      }
+    },
+    "achievement_thais_defeated": {
+      "translations": {
+        "english": {
+          "name": "The Judge",
+          "description": "Brought a malefactor to justice."
+        },
+        "schinese": {
+          "name": "裁决者",
+          "description": "将恶徒绳之以法。"
+        }
+      }
+    },
+    "achievement_savinganimals": {
+      "translations": {
+        "english": {
+          "name": "The Gentle Heart",
+          "description": "Showed mercy to many beasts and animals."
+        },
+        "schinese": {
+          "name": "慈悲心",
+          "description": "对诸多野兽与动物展现了仁慈。"
+        }
+      }
+    },
+    "achievement_eudociadeal": {
+      "translations": {
+        "english": {
+          "name": "The Deal With The Enchantress",
+          "description": "Was tasked with taking The Golem Glove to the city."
+        },
+        "schinese": {
+          "name": "与女巫的交易",
+          "description": "受托将魔像护手送往城市。"
+        }
+      }
+    },
+    "achievement_glauciabravery": {
+      "translations": {
+        "english": {
+          "name": "The Guts",
+          "description": "Was brave enough to tell Glaucia the truth."
+        },
+        "schinese": {
+          "name": "胆识",
+          "description": "有勇气向格劳西亚说出真相。"
+        }
+      }
+    },
+    "achievement_city1": {
+      "translations": {
+        "english": {
+          "name": "The Roadwarden",
+          "description": "Completed their mission."
+        },
+        "schinese": {
+          "name": "护路人",
+          "description": "完成了自己的使命。"
+        }
+      }
+    },
+    "achievement_city2": {
+      "translations": {
+        "english": {
+          "name": "The Colonizer",
+          "description": "Succeeded a bit too much."
+        },
+        "schinese": {
+          "name": "殖民者",
+          "description": "成功得有些过头了。"
+        }
+      }
+    },
+    "achievement_pyre": {
+      "translations": {
+        "english": {
+          "name": "The Bright Night",
+          "description": "Protected the north from the undead."
+        },
+        "schinese": {
+          "name": "光明之夜",
+          "description": "保护北方免受亡灵侵扰。"
+        }
+      }
+    },
+    "achievement_anticity1": {
+      "translations": {
+        "english": {
+          "name": "The Traitor",
+          "description": "Gave up on their mission."
+        },
+        "schinese": {
+          "name": "叛徒",
+          "description": "放弃了自己的使命。"
+        }
+      }
+    },
+    "achievement_anticity2": {
+      "translations": {
+        "english": {
+          "name": "The Freedom Seeker",
+          "description": "Helped the tribes find strength in working together."
+        },
+        "schinese": {
+          "name": "自由追寻者",
+          "description": "帮助各部族在合作中找到了力量。"
+        }
+      }
+    }
+  }
+}
