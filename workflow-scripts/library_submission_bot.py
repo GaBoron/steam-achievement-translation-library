@@ -51,7 +51,6 @@ from schema_package import (
 
 from library_index import (
     clean_variant_note,
-    contributor_markdown,
     entry_contributors,
     entry_file_size_bytes,
     entry_file_size_label,
@@ -59,32 +58,18 @@ from library_index import (
     entry_sort_key,
     escape_table,
     existing_entry,
-    file_link_with_details,
-    github_item_label,
-    github_link,
-    index_states,
     load_index,
     normalized_schema_file,
-    note_text,
     pinyin_sort_key,
-    pull_request_label,
-    refresh_index_file_sizes,
-    render_human_index,
     report_state,
     repository_path,
     schema_download_url,
-    schema_file_links,
     schema_file_size_bytes,
     schema_file_size_label,
     schema_variant_relative_path,
     sort_entries,
-    status_text,
-    upsert_index_entry,
     upsert_catalog_entry,
     validated_entry_schema_variants,
-    variant_file_size_bytes,
-    write_human_index,
-    write_index,
 )
 
 from submission_inputs import (
@@ -127,9 +112,6 @@ from steam_schema import (
 from achievement_catalog import write_entry_achievement_catalogs
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-INDEX_PATH = REPO_ROOT / "index.json"
-HUMAN_INDEX_PATH = REPO_ROOT / "INDEX.md"
-HUMAN_INDEX_EN_PATH = REPO_ROOT / "INDEX_EN.md"
 FILES_ROOT = REPO_ROOT / "files"
 
 NEW_LABEL = "翻译投稿"
@@ -145,7 +127,6 @@ MAX_PACKAGE_BYTES = 64 * 1024 * 1024
 MAX_MANIFEST_BYTES = 64 * 1024
 MAX_SCHEMA_VARIANTS = 16
 LANGUAGE_RE = re.compile(r"^[a-z][a-z0-9_]{1,31}$")
-STATE_RE = re.compile(r"^[a-z][a-z0-9_]{1,31}$")
 VARIANT_ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]{0,63}$")
 VARIANT_MANIFEST_NAME = "translation-variants.json"
 ATTACHMENT_RE = re.compile(

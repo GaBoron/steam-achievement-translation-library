@@ -6,8 +6,10 @@
 
 推荐使用以下工具生成符合投稿格式的文件：
 
-- 🖥️ [Steam 成就翻译管理器](https://github.com/GaBoron/steam-achievement-translation-installer)：适合本地可视化编辑，可直接导出标准 BIN 或投稿 ZIP。
+- 🖥️ [Steam 成就翻译管理器](https://github.com/GaBoron/SATLI)：适合本地可视化编辑，可直接导出标准 BIN 或投稿 ZIP。
 - 🤖 [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill)：适合使用 Codex 研究、翻译和验证，成品位于项目的 `final/` 目录。
+
+SATLI lite 可导出本地编辑的翻译 JSON，但该文件不属于投稿格式。投稿仍须提供完整 BIN/ZIP；请使用 SATLI 本体或其他兼容工具制作，配套 JSON 由翻译库自动生成。
 
 也可以使用其他编辑器，但提交前必须满足：
 
@@ -20,7 +22,7 @@
 | 语言 | 由机器人从 schema 自动识别；每项成就的名称和描述分别检查，必须在所有识别出的语言中都有内容，或在所有识别出的语言中均为空 |
 | 游戏名 | 使用 Steam 商店名称；需要时可在原名后补充中文译名 |
 
-先在 [INDEX.md](INDEX.md) 搜索 app ID，确认这是新游戏还是已有条目的更新。
+先在 [翻译库网站](https://gaboron.github.io/steam-achievement-translation-library/?lang=zh) 搜索 app ID，确认这是新游戏还是已有条目的更新。
 
 > [!NOTE]
 > 仓库目前处于 V1/V2 并行迁移阶段。投稿者仍只需上传一份 ZIP；自动化会同时生成 V2 权威数据和 V1 兼容数据。迁移截止时间与旧格式移除安排见 [README 的 V2 迁移状态](README.md#-v2-迁移状态)。
@@ -103,7 +105,7 @@ UserGameStatsSchema_123456.zip
 
 BIN 是翻译库的源文件，继续保留给 SATLI 本体使用；每个 V2 版本额外生成同名 `.json`，供 Millennium 等客户端使用。V1 兼容仅保留默认旧路径的 BIN，不生成 JSON。投稿仍只上传 BIN/ZIP，不要手工修改生成的 JSON。投稿、PR 文件更新、App ID 重命名及 `/force-refresh` 会在 PR 中同步 V2 元数据、版本目录的 BIN/JSON 和默认旧路径的 BIN，并提交生成文件；合并后刷新兼容索引与统计。仓库检查会核对 V2 BIN/JSON 与 V1 BIN 的一致性，并拒绝旧路径的多余 JSON。
 
-每个审核 PR 只能修改 `files/<app_id>/` 内的该游戏数据，待入库元数据保存在自动生成的 `submission.json` 中；PR 不修改 `index-v2.json`、`index.json`、人类可读索引或统计图。检查会严格核对提交元数据与实际 BIN/JSON，不会因为索引尚未刷新而放宽内容校验。合并后自动化汇总主分支上所有待入库游戏，统一生成索引，再将已入库的 `submission.json` 移至回收站。不同游戏的审核顺序不会改变最终索引；同一游戏存在真实冲突时需要维护者处理。`/force-refresh` 通过合并主分支保留投稿历史，App ID 修正仅适用于尚未入库的新游戏。
+每个审核 PR 只能修改 `files/<app_id>/` 内的该游戏数据，待入库元数据保存在自动生成的 `submission.json` 中；PR 不修改 `index-v2.json`、`index.json` 或统计图。检查会严格核对提交元数据与实际 BIN/JSON，不会因为索引尚未刷新而放宽内容校验。合并后自动化汇总主分支上所有待入库游戏，统一生成 Catalog 与兼容索引并更新网站，再将已入库的 `submission.json` 移至回收站。不同游戏的审核顺序不会改变最终索引；同一游戏存在真实冲突时需要维护者处理。`/force-refresh` 通过合并主分支保留投稿历史，App ID 修正仅适用于尚未入库的新游戏。
 
 修改工作流、脚本、Catalog、派生索引或 `files/` 数据时，请在仓库根目录运行：
 
@@ -111,5 +113,7 @@ BIN 是翻译库的源文件，继续保留给 SATLI 本体使用；每个 V2 �
 python -m compileall -q workflow-scripts
 python workflow-scripts/check_repository.py
 ```
+
+网站构建、预览与 GitHub Pages 配置见 [网站维护](docs/website.md)。
 
 权利与贡献许可见 [LICENSE.md](LICENSE.md)。

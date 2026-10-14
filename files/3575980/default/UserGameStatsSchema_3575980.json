@@ -1,0 +1,717 @@
+{
+  "version": 1,
+  "app_id": "3575980",
+  "variant_id": "default",
+  "source_sha256": "7189e3433b530c4706d7f63d6e4d165de83ff28f21fbd7793985d1f751182f27",
+  "languages": [
+    "english",
+    "japanese",
+    "schinese"
+  ],
+  "achievements": {
+    "000010_CLEAR_STAGE_01": {
+      "translations": {
+        "english": {
+          "name": "Off to Resolve an Incident!",
+          "description": "Cleared chapter 1"
+        },
+        "japanese": {
+          "name": "異変解決の旅へ！",
+          "description": "第一話をクリアした"
+        },
+        "schinese": {
+          "name": "踏上解决异变之旅！",
+          "description": "通关了第一话"
+        }
+      }
+    },
+    "000020_CLEAR_ED_01": {
+      "translations": {
+        "english": {
+          "name": "Scarlet Soul",
+          "description": "Cleared the Scarlet arc"
+        },
+        "japanese": {
+          "name": "紅の魂",
+          "description": "紅の章をクリアした"
+        },
+        "schinese": {
+          "name": "绯红之魂",
+          "description": "通关了红之章"
+        }
+      }
+    },
+    "000030_CLEAR_STAGE_23": {
+      "translations": {
+        "english": {
+          "name": "Three Winds",
+          "description": "Made peace with the Moriya Shrine"
+        },
+        "japanese": {
+          "name": "三儀の風",
+          "description": "守矢神社と和解した"
+        },
+        "schinese": {
+          "name": "三仪之风",
+          "description": "与守矢神社和解了"
+        }
+      }
+    },
+    "000040_CLEAR_ED_02": {
+      "translations": {
+        "english": {
+          "name": "Mystic Memory",
+          "description": "Cleared the Mystic arc"
+        },
+        "japanese": {
+          "name": "妖の記憶",
+          "description": "妖の章をクリアした"
+        },
+        "schinese": {
+          "name": "妖之记忆",
+          "description": "通关了妖之章"
+        }
+      }
+    },
+    "000050_CLEAR_STAGE_43": {
+      "translations": {
+        "english": {
+          "name": "Lunar Cage",
+          "description": "Resolved the Imperishable Night Incident"
+        },
+        "japanese": {
+          "name": "月の檻",
+          "description": "永夜異変を解決した"
+        },
+        "schinese": {
+          "name": "月之牢笼",
+          "description": "解决了永夜异变"
+        }
+      }
+    },
+    "000060_CLEAR_ED_03": {
+      "translations": {
+        "english": {
+          "name": "Exceeded Eternity",
+          "description": "Cleared the Eternity arc"
+        },
+        "japanese": {
+          "name": "永の彼方",
+          "description": "永の章をクリアした"
+        },
+        "schinese": {
+          "name": "永之彼方",
+          "description": "通关了永之章"
+        }
+      }
+    },
+    "000070_CLEAR_STAGE_68": {
+      "translations": {
+        "english": {
+          "name": "Ancient Lotus",
+          "description": "Rescued Byakuren Hijiri"
+        },
+        "japanese": {
+          "name": "古の蓮花",
+          "description": "聖白蓮を助けた"
+        },
+        "schinese": {
+          "name": "古之莲花",
+          "description": "救了圣白莲"
+        }
+      }
+    },
+    "000080_CLEAR_ED_04": {
+      "translations": {
+        "english": {
+          "name": "Doorway to Dreams",
+          "description": "Cleared the Dream arc"
+        },
+        "japanese": {
+          "name": "夢の軌跡",
+          "description": "夢の章をクリアした"
+        },
+        "schinese": {
+          "name": "梦之轨迹",
+          "description": "通关了梦之章"
+        }
+      }
+    },
+    "000090_CLEAR_ROUTE_REIMU": {
+      "translations": {
+        "english": {
+          "name": "Reimu's Tea-Drinking Buddy",
+          "description": "Cleared the game on the Reimu route"
+        },
+        "japanese": {
+          "name": "霊夢の茶飲み友達",
+          "description": "霊夢ルートでゲームをクリアした"
+        },
+        "schinese": {
+          "name": "灵梦的茶友",
+          "description": "以灵梦路线通关了游戏"
+        }
+      }
+    },
+    "000100_CLEAR_ROUTE_MARISA": {
+      "translations": {
+        "english": {
+          "name": "Marisa's Sworn Friend",
+          "description": "Cleared the game on the Marisa route"
+        },
+        "japanese": {
+          "name": "魔理沙の盟友",
+          "description": "魔理沙ルートでゲームをクリアした"
+        },
+        "schinese": {
+          "name": "魔理沙的盟友",
+          "description": "以魔理沙路线通关了游戏"
+        }
+      }
+    },
+    "000110_CLEAR_ROUTE_SAKUYA": {
+      "translations": {
+        "english": {
+          "name": "Perfect and Elegant Maid",
+          "description": "Cleared the Sakuya arc"
+        },
+        "japanese": {
+          "name": "完全で瀟洒なメイド",
+          "description": "咲夜の章をクリアした"
+        },
+        "schinese": {
+          "name": "完美而潇洒的女仆",
+          "description": "通关了咲夜之章"
+        }
+      }
+    },
+    "000120_CLEAR_ROUTE_DREAMAGAIN": {
+      "translations": {
+        "english": {
+          "name": "Fantasy Maiden Dreamer",
+          "description": "Cleared Dream Again"
+        },
+        "japanese": {
+          "name": "夢宙の幻想少女",
+          "description": "ドリーム・アゲインをクリアした"
+        },
+        "schinese": {
+          "name": "梦宙的幻想少女",
+          "description": "通关了「Dream Again」"
+        }
+      }
+    },
+    "000130_CLEAR_ROUTE_MEHKO": {
+      "translations": {
+        "english": {
+          "name": "First Step Beyond the End",
+          "description": "Unlocked Dream Mode"
+        },
+        "japanese": {
+          "name": "果てより一歩",
+          "description": "ドリームモードを開放した"
+        },
+        "schinese": {
+          "name": "从尽头迈出的一步",
+          "description": "解锁了梦幻模式"
+        }
+      }
+    },
+    "000140_CLEAR_ROUTE_MAKURA": {
+      "translations": {
+        "english": {
+          "name": "A Future Beyond the End",
+          "description": "Cleared the special Dream Mode storyline"
+        },
+        "japanese": {
+          "name": "果てより未来へ",
+          "description": "ドリームモード限定シナリオをクリアした"
+        },
+        "schinese": {
+          "name": "从尽头走向未来",
+          "description": "通关了梦幻模式限定剧本"
+        }
+      }
+    },
+    "000150_LIBRARY_DICT_10": {
+      "translations": {
+        "english": {
+          "name": "Hieda Manor Resident Student",
+          "description": "Unlocked 10% of the Gensokyo Chronicle"
+        },
+        "japanese": {
+          "name": "稗田家の書生",
+          "description": "幻想郷縁起を10％以上開放した"
+        },
+        "schinese": {
+          "name": "稗田家的书生",
+          "description": "已解锁幻想乡缘起的10%以上"
+        }
+      }
+    },
+    "000160_LIBRARY_DICT_50": {
+      "translations": {
+        "english": {
+          "name": "Perfect Memento Maniac",
+          "description": "Unlocked 50% of the Gensokyo Chronicle"
+        },
+        "japanese": {
+          "name": "求聞史紀マニア",
+          "description": "幻想郷縁起を50％以上開放した"
+        },
+        "schinese": {
+          "name": "求闻史纪狂热者",
+          "description": "已解锁幻想乡缘起的50%以上"
+        }
+      }
+    },
+    "000170_LIBRARY_DICT_100": {
+      "translations": {
+        "english": {
+          "name": "Savant",
+          "description": "Unlocked everything in the Gensokyo Chronicle"
+        },
+        "japanese": {
+          "name": "サヴァン",
+          "description": "幻想郷縁起を全て開放した"
+        },
+        "schinese": {
+          "name": "饱学之士",
+          "description": "已解锁幻想乡缘起的全部内容"
+        }
+      }
+    },
+    "000180_LIBRARY_GLOSSARY_10": {
+      "translations": {
+        "english": {
+          "name": "Rental Bookstore Part-Timer",
+          "description": "Unlocked 10% of the glossary"
+        },
+        "japanese": {
+          "name": "貸本屋のバイト",
+          "description": "用語集を10％以上開放した"
+        },
+        "schinese": {
+          "name": "租书店的打工仔",
+          "description": "已解锁用语集的10%以上"
+        }
+      }
+    },
+    "000190_LIBRARY_GLOSSARY_50": {
+      "translations": {
+        "english": {
+          "name": "Rare Book Collector",
+          "description": "Unlocked 50% of the glossary"
+        },
+        "japanese": {
+          "name": "稀覯本コレクター",
+          "description": "用語集を50％以上開放した"
+        },
+        "schinese": {
+          "name": "珍本收藏家",
+          "description": "已解锁用语集的50%以上"
+        }
+      }
+    },
+    "000200_LIBRARY_GLOSSARY_100": {
+      "translations": {
+        "english": {
+          "name": "Bibliophile",
+          "description": "Unlocked everything in the glossary"
+        },
+        "japanese": {
+          "name": "ビブロフィリア",
+          "description": "用語集を全て開放した"
+        },
+        "schinese": {
+          "name": "恋书癖",
+          "description": "已解锁用语集的全部内容"
+        }
+      }
+    },
+    "000210_LIBRARY_MUSIC_10": {
+      "translations": {
+        "english": {
+          "name": "Fantasy Maiden Musician",
+          "description": "Unlocked 10% of the FMW Music Room"
+        },
+        "japanese": {
+          "name": "幻少音樂隊",
+          "description": "幻少音樂室を10％以上開放した"
+        },
+        "schinese": {
+          "name": "幻少音乐队",
+          "description": "已解锁幻少音乐室的10%以上"
+        }
+      }
+    },
+    "000220_LIBRARY_MUSIC_50": {
+      "translations": {
+        "english": {
+          "name": "Fantasy Maiden Ensemble",
+          "description": "Unlocked 50% of the FMW Music Room"
+        },
+        "japanese": {
+          "name": "幻少交響樂団",
+          "description": "幻少音樂室を50％以上開放した"
+        },
+        "schinese": {
+          "name": "幻少交响乐团",
+          "description": "已解锁幻少音乐室的50%以上"
+        }
+      }
+    },
+    "000230_LIBRARY_MUSIC_100": {
+      "translations": {
+        "english": {
+          "name": "Ghostly Wheel Concerto Full Grosso",
+          "description": "Unlocked everything in the FMW Music Room"
+        },
+        "japanese": {
+          "name": "霊車コンチェルトグロッソ皆",
+          "description": "幻少音樂室を全て開放した"
+        },
+        "schinese": {
+          "name": "灵车大协奏曲·全曲",
+          "description": "已解锁幻少音乐室的全部内容"
+        }
+      }
+    },
+    "000240_LIBRARY_ALL_10": {
+      "translations": {
+        "english": {
+          "name": "Library Inspector",
+          "description": "Unlocked 10% of the library"
+        },
+        "japanese": {
+          "name": "蔵書点検",
+          "description": "ライブラリを10％以上開放した"
+        },
+        "schinese": {
+          "name": "藏书盘点",
+          "description": "已解锁图书馆的10%以上"
+        }
+      }
+    },
+    "000250_LIBRARY_ALL_50": {
+      "translations": {
+        "english": {
+          "name": "Growing Compilation",
+          "description": "Unlocked 50% of the library"
+        },
+        "japanese": {
+          "name": "積みあがる蔵書",
+          "description": "ライブラリを50％以上開放した"
+        },
+        "schinese": {
+          "name": "堆积如山的藏书",
+          "description": "已解锁图书馆的50%以上"
+        }
+      }
+    },
+    "000260_LIBRARY_ALL_100": {
+      "translations": {
+        "english": {
+          "name": "Unmoving Great Library",
+          "description": "Unlocked everything in the library"
+        },
+        "japanese": {
+          "name": "動けない大図書館",
+          "description": "ライブラリを全て開放した"
+        },
+        "schinese": {
+          "name": "不动的大图书馆",
+          "description": "已解锁图书馆的全部内容"
+        }
+      }
+    },
+    "000270_EQUIPMENT_ALL_10": {
+      "translations": {
+        "english": {
+          "name": "Kourindou Janitor",
+          "description": "Obtained 10% of all items"
+        },
+        "japanese": {
+          "name": "香霖堂の掃除係",
+          "description": "装備品を10％以上入手した"
+        },
+        "schinese": {
+          "name": "香霖堂的清洁工",
+          "description": "已获得装备品的10%以上"
+        }
+      }
+    },
+    "000280_EQUIPMENT_ALL_50": {
+      "translations": {
+        "english": {
+          "name": "Discerning Shopper",
+          "description": "Obtained 50% of all items"
+        },
+        "japanese": {
+          "name": "里の目利き人",
+          "description": "装備品を50％以上入手した"
+        },
+        "schinese": {
+          "name": "人里的识货人",
+          "description": "已获得装备品的50%以上"
+        }
+      }
+    },
+    "000290_EQUIPMENT_ALL_100": {
+      "translations": {
+        "english": {
+          "name": "Curious Fellow",
+          "description": "Obtained all items"
+        },
+        "japanese": {
+          "name": "キュリオスフェロー",
+          "description": "装備品を全て入手した"
+        },
+        "schinese": {
+          "name": "珍奇爱好者",
+          "description": "已获得全部装备品"
+        }
+      }
+    },
+    "000300_UPGRADE_UNIT_FIRST": {
+      "translations": {
+        "english": {
+          "name": "Get Training!",
+          "description": "Upgraded a unit with points for the first time"
+        },
+        "japanese": {
+          "name": "修行開始！",
+          "description": "はじめて点を使ってユニット強化を行った"
+        },
+        "schinese": {
+          "name": "修行开始！",
+          "description": "首次使用点数强化了单位"
+        }
+      }
+    },
+    "000310_UPGRADE_UNIT_MAX": {
+      "translations": {
+        "english": {
+          "name": "No Stopping Me Now!",
+          "description": "Max upgraded a unit with points for the first time"
+        },
+        "japanese": {
+          "name": "もう止められない！",
+          "description": "点を使ってユニットを最大まで強化した"
+        },
+        "schinese": {
+          "name": "已经停不下来了！",
+          "description": "使用点数将单位强化到了极限"
+        }
+      }
+    },
+    "000320_UPGRADE_EX_FIRST": {
+      "translations": {
+        "english": {
+          "name": "Best Girl",
+          "description": "Performed an EX upgrade for the first time"
+        },
+        "japanese": {
+          "name": "わたしのお気に入り",
+          "description": "はじめてEX強化を行った"
+        },
+        "schinese": {
+          "name": "我的本命",
+          "description": "首次进行了EX强化"
+        }
+      }
+    },
+    "000330_LOUNGE_ACE_FIRST": {
+      "translations": {
+        "english": {
+          "name": "Praiseworthy",
+          "description": "Celebrated an ace for the first time"
+        },
+        "japanese": {
+          "name": "功に賞賛あるべし",
+          "description": "はじめて巧者を祝った"
+        },
+        "schinese": {
+          "name": "论功行赏",
+          "description": "首次为王牌庆贺"
+        }
+      }
+    },
+    "000330_LOUNGE_MEHKO_FIRST": {
+      "translations": {
+        "english": {
+          "name": "Let's Dream and Chat",
+          "description": "Visited Mehko's room for the first time"
+        },
+        "japanese": {
+          "name": "夢を眺めて語らう",
+          "description": "はじめてメーコの部屋を訪れた"
+        },
+        "schinese": {
+          "name": "赏梦夜话",
+          "description": "首次造访了梅可的房间"
+        }
+      }
+    },
+    "001010_ETC_TEKAGEN": {
+      "translations": {
+        "english": {
+          "name": "I Was Just Showing Mercy!",
+          "description": "Reduced an enemy to 10 HP or less without using spirits"
+        },
+        "japanese": {
+          "name": "今のはてかげんしてやったのよ！",
+          "description": "精神コマンドを使わず敵のHPを10以下にした"
+        },
+        "schinese": {
+          "name": "刚才那是手下留情！",
+          "description": "未使用精神指令就把敌人的HP打到了10以下"
+        }
+      }
+    },
+    "001020_ETC_OVERHEAT": {
+      "translations": {
+        "english": {
+          "name": "Overheat!",
+          "description": "Had Utsuho experience a forced cooldown for the first time"
+        },
+        "japanese": {
+          "name": "オーバーヒート！",
+          "description": "空がはじめて強制冷却された"
+        },
+        "schinese": {
+          "name": "过热！",
+          "description": "空首次被强制冷却"
+        }
+      }
+    },
+    "001030_ETC_MUGEN_SHICHO": {
+      "translations": {
+        "english": {
+          "name": "Everywhere You Go, Keep on One-Shotting",
+          "description": "Attacked with a combination of Death Butterfly and Path to Avici"
+        },
+        "japanese": {
+          "name": "どこにいたって一撃必殺",
+          "description": "死蝶と無間の道を組み合わせた攻撃を行った"
+        },
+        "schinese": {
+          "name": "无论在哪都是一击必杀",
+          "description": "使用了死蝶与无间之道的组合攻击"
+        }
+      }
+    },
+    "001040_ETC_SUKIMA_SHIP": {
+      "translations": {
+        "english": {
+          "name": "Shipped Away",
+          "description": "Used Yukari's ability to draw in the Palanquin Ship"
+        },
+        "japanese": {
+          "name": "ぶらり聖輦船の旅",
+          "description": "聖輦船を紫の能力で引き寄せた"
+        },
+        "schinese": {
+          "name": "悠游圣辇船",
+          "description": "用紫的能力将圣辇船拉了过来"
+        }
+      }
+    },
+    "001050_ETC_VEGGIES": {
+      "translations": {
+        "english": {
+          "name": "Vegetable Master of the Four Seasons",
+          "description": "Harvested crops in spring, summer, autumn, and winter"
+        },
+        "japanese": {
+          "name": "四季のベジタブルマスター",
+          "description": "春夏秋冬の季節の野菜を収穫した"
+        },
+        "schinese": {
+          "name": "四季蔬菜大师",
+          "description": "收获了春夏秋冬四季的蔬菜"
+        }
+      }
+    },
+    "001060_ETC_READ_N_LISTEN": {
+      "translations": {
+        "english": {
+          "name": "A Maiden of Culture",
+          "description": "Opened the Gensokyo Chronicle while playing a song"
+        },
+        "japanese": {
+          "name": "これぞ乙な楽しみ方",
+          "description": "楽曲を再生しながら幻想郷縁起を開いた"
+        },
+        "schinese": {
+          "name": "此乃风雅之趣",
+          "description": "一边播放乐曲，一边翻阅幻想乡缘起"
+        }
+      }
+    },
+    "002010_HIDDEN_GENJI": {
+      "translations": {
+        "english": {
+          "name": "The Flying Turtle of Old Paradise",
+          "description": "Discovered Genji at the pond"
+        },
+        "japanese": {
+          "name": "旧き楽園の空飛ぶ亀",
+          "description": "池で玄爺を発見した"
+        },
+        "schinese": {
+          "name": "古老乐园的飞天龟",
+          "description": "在池塘发现了玄爷"
+        }
+      }
+    },
+    "002020_HIDDEN_REIMARI": {
+      "translations": {
+        "english": {
+          "name": "Blast from the Past",
+          "description": "Unlocked Classic Reimu and Classic Marisa equipment"
+        },
+        "japanese": {
+          "name": "時には昔の衣装を",
+          "description": "旧霊夢・旧魔理沙衣装を開放した"
+        },
+        "schinese": {
+          "name": "偶尔也换上旧行头",
+          "description": "解锁了旧版灵梦与旧版魔理沙的服装"
+        }
+      }
+    },
+    "002030_HIDDEN_AKYU": {
+      "translations": {
+        "english": {
+          "name": "The Power of Gumonji Unleashed",
+          "description": "Had Akyu join as a stand-alone unit"
+        },
+        "japanese": {
+          "name": "求聞持の力、本領発揮",
+          "description": "阿求がユニットとして参戦した"
+        },
+        "schinese": {
+          "name": "求闻持之力，大显身手",
+          "description": "阿求作为单位参战了"
+        }
+      }
+    },
+    "999999_ALL": {
+      "translations": {
+        "english": {
+          "name": "Fantasy Maiden Warrior",
+          "description": "Unlocked every achievement"
+        },
+        "japanese": {
+          "name": "幻想少女大戦",
+          "description": "全ての実績を解除した"
+        },
+        "schinese": {
+          "name": "幻想少女大战",
+          "description": "解锁了全部成就"
+        }
+      }
+    }
+  }
+}

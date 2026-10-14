@@ -10,7 +10,7 @@ import catalog_v2
 import translation_json
 from pr_submission_data import with_submissions
 from generate_statistics_svg import build_statistics, render_svg
-from library_index import HUMAN_INDEX_EN_PATH, HUMAN_INDEX_PATH, render_human_index, sort_entries
+from library_index import sort_entries
 from steam_schema import achievement_rows, language_coverage, load_schema, schema_languages, sha256, validate_schema_structure
 
 
@@ -239,11 +239,6 @@ def check_repository(
             report.error(f"orphan achievement catalog: {path.relative_to(ROOT).as_posix()}")
 
     try:
-        expected_zh, expected_en = render_human_index(index)
-        if HUMAN_INDEX_PATH.read_text(encoding="utf-8") != expected_zh:
-            derived_mismatch("INDEX.md is out of sync with index-v2.json")
-        if HUMAN_INDEX_EN_PATH.read_text(encoding="utf-8") != expected_en:
-            derived_mismatch("INDEX_EN.md is out of sync with index-v2.json")
         if STATISTICS_PATH.read_text(encoding="utf-8") != render_svg(build_statistics(index)):
             derived_mismatch("library-statistics.svg is out of sync with index-v2.json")
     except (OSError, UnicodeError, TypeError, ValueError, AttributeError) as exc:

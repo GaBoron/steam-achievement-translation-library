@@ -1,0 +1,73 @@
+import { filterGames } from './catalog.js';
+import { el, button, cover, icon, statusMark } from './elements.js';
+import { t, formatDate, gameCount } from './i18n.js';
+import { displayLanguages } from './languages.js';
+import { clampPage, createPagination } from './pagination.js';
+import { replaceContent, animateChange } from './motion.js';
+
+const pageSize = 60;
+
+export function createList({ games, locale, state, invalidCount = 0, onReset }) {
+  const root = el('section', { className: 'catalog-page', 'aria-labelledby': 'games-title' });
+  const resultCount = el('p', { className: 'result-count', role: 'status', 'aria-live': 'polite', 'aria-atomic': 'true' });
+  const results = el('ul', { className: 'game-list', 'aria-label': t(locale, 'games') });
+  const pagination = el('div', { className: 'list-pagination' });
+  let disposed = false;
+
+  const reset = () => {
+    if (onReset) { onReset(); return; }
+    Object.assign(state, { query: '', status: '', language: '', sort: 'updated', page: 1 });
+    refresh();
+  };
+
+  const row = game => {
+    const languages = displayLanguages(game.languages, locale);
+    const languagesText = languages.length
+      ? languages.slice(0, 2).join(locale === 'zh' ? '、' : ', ')
+        + (languages.length > 2 ? ` +${languages.length - 2}` : '')
+      : t(locale, 'unknown');
+    return el('li', {}, el('a', { className: 'game-row', href: `#/game/${game.appId}` },
+      cover(game.appId),
+      el('div', { className: 'game-text' }, el('h2', {}, game.name),
+        el('p', { className: 'game-meta' }, el('span', {}, `App ID ${game.appId}`),
+          el('span', {}, t(locale, 'achievements', { count: gameCount(game, locale) })),
+          game.variants.length > 1 && el('span', {}, t(locale, 'variants', { count: game.variants.length })))),
+      el('div', { className: 'game-status' }, statusMark(game.status, locale)),
+      el('p', { className: 'game-languages', title: languages.join(', ') }, languagesText),
+      el('time', { className: 'game-date', datetime: game.updatedAt }, formatDate(game.updatedAt, locale)),
+      el('span', { className: 'row-arrow' }, icon('arrow')),
+    ));
+  };
+
+  function refresh() {
+    if (disposed) return;
+    const filtered = filterGames(games, state, locale);
+    const totalPages = Math.ceil(filtered.length / pageSize);
+    state.page = clampPage(state.page, totalPages);
+    const label = t(locale, 'results', { count: filtered.length });
+    if (resultCount.textContent !== label) {
+      resultCount.textContent = label;
+      animateChange(resultCount);
+    }
+    const start = (state.page - 1) * pageSize;
+    replaceContent(results, ...filtered.slice(start, start + pageSize).map(row));
+    if (!filtered.length) {
+      replaceContent(pagination, el('div', { className: 'empty-state' }, icon('search'),
+        el('h2', {}, t(locale, 'noResults')), el('p', {}, t(locale, 'noResultsNote')),
+        button(t(locale, 'resetFilters'), reset)));
+      return;
+    }
+    replaceContent(pagination, createPagination({ locale, page: state.page, totalPages, onChange: page => {
+        state.page = page;
+        refresh();
+        results.querySelector('a')?.focus({ preventScroll: true });
+        results.scrollTo({ top: 0, behavior: 'instant' });
+      } }));
+  }
+
+  root.append(el('div', { className: 'section-heading' }, el('h1', { id: 'games-title' }, t(locale, 'games')), resultCount),
+    results, pagination);
+  if (invalidCount > 0) results.before(el('p', { className: 'catalog-advisory' }, icon('info'), t(locale, 'invalidEntries', { count: invalidCount })));
+  refresh();
+  return { node: root, refresh, dispose: () => { disposed = true; } };
+}
