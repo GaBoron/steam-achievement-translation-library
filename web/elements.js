@@ -40,6 +40,11 @@ const paths = {
   theme: 'M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM12 3v18',
   language: 'M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM3 12h18M12 3a18 18 0 0 1 0 18 18 18 0 0 1 0-18Z',
   filter: 'M4 6h16M7 12h10M10 18h4',
+  check: 'm5 12 4 4L19 6',
+  clock: 'M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM12 7v5l3 2',
+  layers: 'm3 7 9-4 9 4-9 4Zm0 5 9 4 9-4M3 17l9 4 9-4',
+  trophy: 'M8 3h8v7a4 4 0 0 1-8 0ZM8 5H4v3a4 4 0 0 0 4 4M16 5h4v3a4 4 0 0 1-4 4M12 14v6M8 21h8',
+  user: 'M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0ZM4 21v-2a8 8 0 0 1 16 0v2',
   github: 'M6 7v9m0-9a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM18 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM18 7v2a4 4 0 0 1-4 4H6',
 };
 
@@ -65,7 +70,7 @@ export function externalLink(label, href, kind = 'text-button', iconName = 'exte
 
 export function statusMark(status, locale) {
   return el('span', { className: `status ${status === 'current' ? 'current' : 'attention'}` },
-    status !== 'current' && icon('warning'), statusLabel(status, locale));
+    icon(status === 'current' ? 'check' : 'warning'), statusLabel(status, locale));
 }
 
 export function cover(appId, large = false) {

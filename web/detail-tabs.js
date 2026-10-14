@@ -1,13 +1,13 @@
-import { el } from './elements.js';
+import { el, icon } from './elements.js';
 import { animateChange } from './motion.js';
 
 /** Panels stay mounted so preview choices and pending requests survive a tab switch. */
 export function createDetailTabs({ label, panels, initial = 'downloads' }) {
   let selected = Math.max(0, panels.findIndex(panel => panel.id === initial));
-  const buttons = panels.map(({ id, label }, index) => el('button', {
+  const buttons = panels.map(({ id, label, iconName }, index) => el('button', {
     type: 'button', role: 'tab', id: `${id}-tab`, className: 'project-tab',
     'aria-controls': `${id}-panel`, onclick: () => activate(index),
-  }, label));
+  }, iconName && icon(iconName), label));
   const navigation = el('div', { className: 'project-tabs', role: 'tablist', 'aria-label': label,
     onkeydown: event => {
       const current = buttons.indexOf(event.target);

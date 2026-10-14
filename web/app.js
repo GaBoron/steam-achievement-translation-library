@@ -25,7 +25,7 @@ let previousAppId;
 let revision = 'main';
 let controls;
 let headerFields = [];
-const scroller = () => main.querySelector('.game-list') || main;
+const scroller = () => document.scrollingElement;
 
 const metaAbort = new AbortController();
 const metaTimeout = setTimeout(() => metaAbort.abort(), 5000);
@@ -56,7 +56,7 @@ function renderShell() {
   replaceContent(header, el('div', { className: 'header-inner' },
     el('div', { className: 'header-navigation' },
       el('a', { className: 'brand', href: '#/', 'aria-label': t(locale, 'title') }, el('span', { className: 'brand-icon' }, icon('translate')), el('span', {}, t(locale, 'title'))),
-      el('nav', { className: 'site-nav', 'aria-label': t(locale, 'games') }, el('a', { href: '#/' }, t(locale, 'games')))),
+      el('nav', { className: 'site-nav', 'aria-label': t(locale, 'games') }, el('a', { href: '#/' }, icon('search'), t(locale, 'discover')))),
     el('div', { className: 'header-actions' },
       button('', focusSearch, 'icon-button header-search', 'search'),
       themeField.node, localeField.node,
@@ -65,10 +65,19 @@ function renderShell() {
   header.querySelector('.header-search').setAttribute('title', `${t(locale, 'search')} (Ctrl K)`);
   header.querySelector('a[target]').setAttribute('aria-label', t(locale, 'github'));
   header.querySelector('a[target]').setAttribute('title', t(locale, 'github'));
-  replaceContent(footer, el('div', { className: 'footer-inner' }, el('p', {}, t(locale, 'footer')),
-    el('div', { className: 'footer-links' },
-      el('a', { href: `${repository}/blob/main/README${locale === 'en' ? '_EN' : ''}.md`, target: '_blank', rel: 'noopener noreferrer' }, t(locale, 'usageGuide')),
-      el('a', { href: `${repository}/blob/main/CONTRIBUTING${locale === 'en' ? '_EN' : ''}.md`, target: '_blank', rel: 'noopener noreferrer' }, t(locale, 'contribute')))));
+  const footerLink = (key, href) => el('a', { href, target: '_blank', rel: 'noopener noreferrer' }, t(locale, key));
+  replaceContent(footer, el('div', { className: 'footer-inner' },
+    el('div', { className: 'footer-about' },
+      el('a', { className: 'brand', href: '#/' }, el('span', { className: 'brand-icon' }, icon('translate')), t(locale, 'title')),
+      el('p', {}, t(locale, 'footer'))),
+    el('section', { className: 'footer-section' }, el('h2', {}, t(locale, 'resources')),
+      el('div', { className: 'footer-links' },
+        el('a', { href: '#/' }, t(locale, 'games')),
+        footerLink('usageGuide', `${repository}/blob/main/README${locale === 'en' ? '_EN' : ''}.md`))),
+    el('section', { className: 'footer-section' }, el('h2', {}, t(locale, 'community')),
+      el('div', { className: 'footer-links' }, footerLink('github', repository),
+        footerLink('contribute', `${repository}/blob/main/CONTRIBUTING${locale === 'en' ? '_EN' : ''}.md`),
+        footerLink('reportIssue', `${repository}/issues`)))));
 }
 
 function renderControls() {
@@ -80,7 +89,7 @@ function renderControls() {
       history.pushState(null, '', '#/');
       renderRoute(false);
     } else view?.refresh?.();
-    scroller().scrollTo({ top: 0, behavior: 'instant' });
+    searchToolbar.scrollIntoView({ block: 'start', behavior: 'instant' });
   } });
   toolbar.setAttribute('aria-label', t(preferences.locale, 'search'));
   replaceContent(toolbar, controls.node);
@@ -137,7 +146,7 @@ function renderRoute(navigating = true) {
   }
   if (navigating) {
     scroller().scrollTo({ top: previousGame ? 0 : listScroll, behavior: 'instant' });
-    const focus = (!previousGame && previousAppId && main.querySelector(`a[href="#/game/${previousAppId}"]`)) || main.querySelector('h1');
+    const focus = (!previousGame && previousAppId && main.querySelector(`.resource-title-link[href="#/game/${previousAppId}"]`)) || main.querySelector('h1');
     if (focus?.tagName === 'H1') focus.setAttribute('tabindex', '-1');
     focus?.focus({ preventScroll: true });
   } else scroller().scrollTop = scroll;
