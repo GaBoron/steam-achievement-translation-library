@@ -1,6 +1,8 @@
 import { createPreview } from './preview.js';
-import { el, button, cover, externalLink, icon, repository, statusMark } from './elements.js';
-import { t, formatDate, formatSize, languageName, variantLabel, gameCount } from './i18n.js';
+import { el, append, button, cover, externalLink, icon, repository, statusMark } from './elements.js';
+import { t, formatDate, formatSize, variantLabel, gameCount } from './i18n.js';
+import { displayLanguages } from './languages.js';
+import { animateChange, bindDisclosure } from './motion.js';
 
 export function createDetail({ game, locale, revision = 'main', variantId, onVariant }) {
   const root = el('article', { className: 'detail-page' });
@@ -11,8 +13,9 @@ export function createDetail({ game, locale, revision = 'main', variantId, onVar
       await navigator.clipboard.writeText(location.href);
       feedback.textContent = t(locale, 'copied');
     } catch { feedback.textContent = t(locale, 'copyFailed'); }
+    animateChange(feedback);
   }, 'text-button', 'link');
-  root.append(el('div', { className: 'detail-navigation' },
+  append(root, el('div', { className: 'detail-navigation' },
     el('a', { className: 'button text-button back-button', href: '#/' }, icon('back'), t(locale, 'back')), share),
     feedback);
 
@@ -24,7 +27,7 @@ export function createDetail({ game, locale, revision = 'main', variantId, onVar
   fact('contributors', game.contributors.length ? game.contributors.map((name, index) => [index ? ', ' : '',
     el('a', { href: `https://github.com/${encodeURIComponent(name)}`, target: '_blank', rel: 'noopener noreferrer' }, name)]).flat() : t(locale, 'unknown'));
 
-  root.append(el('header', { className: 'game-heading' }, cover(game.appId, true),
+  append(root, el('header', { className: 'game-heading' }, cover(game.appId, true),
     el('div', { className: 'game-heading-text' }, el('h1', {}, game.name),
       el('p', { className: 'detail-app-id' }, `Steam App ID ${game.appId}`), statusMark(game.status, locale)),
     externalLink(t(locale, 'steam'), `https://store.steampowered.com/app/${game.appId}/`, 'outlined')),
@@ -32,12 +35,12 @@ export function createDetail({ game, locale, revision = 'main', variantId, onVar
       el('p', {}, t(locale, game.status === 'outdated' ? 'outdatedWarning' : game.status === 'possibly_ineffective' ? 'ineffectiveWarning' : 'unknownWarning'))),
     metadata,
     el('div', { className: 'detail-languages' }, el('h2', {}, t(locale, 'languages')),
-      el('p', {}, game.languages.length ? game.languages.map(code => languageName(code, locale)).join(locale === 'zh' ? ' · ' : ' · ') : t(locale, 'noLanguages'))));
+      el('p', {}, game.languages.length ? displayLanguages(game.languages, locale).join(' · ') : t(locale, 'noLanguages'))));
 
   const variants = el('section', { className: 'variants-section', 'aria-labelledby': 'variants-title' },
     el('h2', { id: 'variants-title' }, t(locale, 'availableVariants')));
   for (const variant of game.variants) {
-    const languageText = variant.languages.map(code => languageName(code, locale)).join(' · ') || t(locale, 'noLanguages');
+    const languageText = displayLanguages(variant.languages, locale).join(' · ') || t(locale, 'noLanguages');
     const description = variant.description?.[locale];
     const downloads = el('div', { className: 'variant-downloads' });
     if (variant.binPath) downloads.append(el('a', { className: 'button filled', href: `./${variant.binPath}`, download: `UserGameStatsSchema_${game.appId}.bin` }, icon('download'), t(locale, 'binDownload')));
@@ -64,11 +67,12 @@ export function createDetail({ game, locale, revision = 'main', variantId, onVar
       el('details', { className: 'file-details' }, el('summary', {}, t(locale, 'fileDetails')), details)));
   }
   if (!game.variants.length) variants.append(el('p', { className: 'muted' }, t(locale, 'noVariants')));
-  root.append(variants,
+  append(root, variants,
     el('aside', { className: 'usage-note' }, icon('info'), el('div', {}, el('h2', {}, t(locale, 'usageTitle')),
       el('p', {}, t(locale, 'usageNote')),
       externalLink(t(locale, 'usageGuide'), `${repository}/blob/main/README${locale === 'en' ? '_EN' : ''}.md`))));
   const preview = createPreview({ game, locale, variantId, onVariant });
   root.append(preview.node);
-  return { node: root, dispose: preview.dispose };
+  const disclosures = [...root.querySelectorAll('details')].map(bindDisclosure);
+  return { node: root, dispose() { preview.dispose(); disclosures.forEach(dispose => dispose()); } };
 }

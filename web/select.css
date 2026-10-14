@@ -1,0 +1,36 @@
+/* Material 3 menu roles: surface-container, level 2, extra-small corners.
+   https://github.com/material-components/material-web/blob/main/tokens/versions/v0_192/_md-comp-menu.scss */
+.select-field { display: flex; flex-direction: column; gap: 8px; min-width: 0; color: var(--md-sys-color-on-surface-variant); }
+.select-label { font: var(--md-sys-typescale-label-medium); letter-spacing: 0.5px; }
+.select-trigger { position: relative; isolation: isolate; display: flex; align-items: center; justify-content: space-between; gap: 16px; width: 100%; min-width: 0; min-height: 48px; padding: 12px 16px; border: 0; border-radius: var(--md-sys-shape-corner-small); background: var(--md-sys-color-surface-container-high); color: var(--md-sys-color-on-surface); font: var(--md-sys-typescale-body-medium); text-align: left; cursor: pointer; }
+.select-trigger::after { content: ''; position: absolute; inset: 0; border-radius: inherit; background: var(--md-sys-color-on-surface); opacity: 0; pointer-events: none; transition: opacity var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard); z-index: -1; }
+.select-trigger:hover::after { opacity: var(--md-sys-state-hover-opacity); }
+.select-trigger:focus-visible::after, .select-trigger[aria-expanded='true']::after { opacity: var(--md-sys-state-focus-opacity); }
+.select-trigger:active::after { opacity: var(--md-sys-state-pressed-opacity); }
+.select-trigger:disabled::after { opacity: 0; }
+.select-value { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.select-chevron { display: block; width: 8px; height: 8px; flex: 0 0 auto; border-right: 1.8px solid currentColor; border-bottom: 1.8px solid currentColor; transform: translateY(-2px) rotate(45deg); transition: transform var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard); }
+.select-trigger[aria-expanded='true'] .select-chevron { transform: translateY(2px) rotate(225deg); }
+.select-menu { position: fixed; z-index: 100; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; padding-block: 8px; border-radius: var(--md-sys-shape-corner-extra-small, 4px); background: var(--md-sys-color-surface-container); color: var(--md-sys-color-on-surface); box-shadow: 0 2px 6px color-mix(in srgb, var(--md-sys-color-shadow) 15%, transparent), 0 1px 2px color-mix(in srgb, var(--md-sys-color-shadow) 30%, transparent); font: var(--md-sys-typescale-body-large); }
+.select-option { position: relative; isolation: isolate; display: flex; align-items: center; gap: 12px; min-height: 48px; padding: 12px 16px; cursor: pointer; overflow-wrap: anywhere; }
+.select-option::after { content: ''; position: absolute; inset: 0; background: var(--md-sys-color-on-surface); opacity: 0; pointer-events: none; z-index: -1; transition: opacity var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-standard); }
+.select-option:hover::after { opacity: var(--md-sys-state-hover-opacity); }
+.select-option.is-active::after { opacity: var(--md-sys-state-focus-opacity); }
+.select-option.is-active { outline: 2px solid var(--md-sys-color-primary); outline-offset: -2px; }
+.select-option:active::after { opacity: var(--md-sys-state-pressed-opacity); }
+.select-option.is-selected { background: var(--md-sys-color-secondary-container); color: var(--md-sys-color-on-secondary-container); }
+.select-option.is-selected::after { background: var(--md-sys-color-on-secondary-container); }
+.select-option-check { width: 16px; height: 16px; flex: 0 0 16px; }
+.select-option-check::after { content: ''; display: block; width: 11px; height: 6px; margin-top: 3px; border-left: 1.8px solid currentColor; border-bottom: 1.8px solid currentColor; transform: rotate(-45deg); visibility: hidden; }
+.select-option.is-selected .select-option-check::after { visibility: visible; }
+.select-group-label { padding: 16px 16px 8px; color: var(--md-sys-color-on-surface-variant); font: var(--md-sys-typescale-label-medium); letter-spacing: 0.5px; }
+.header-field .select-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.header-field .select-trigger { width: auto; min-height: 40px; padding-block: 10px; border-radius: var(--md-sys-shape-corner-full); background: var(--md-sys-color-surface-container); font: var(--md-sys-typescale-label-large); }
+
+@media (pointer: coarse) {
+  .header-field .select-trigger { min-height: 48px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .select-trigger::after, .select-chevron, .select-option::after { transition: none; }
+}

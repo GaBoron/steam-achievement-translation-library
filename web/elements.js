@@ -12,8 +12,15 @@ export function el(tag, attributes = {}, ...children) {
     else if (key === 'text') node.textContent = value;
     else node.setAttribute(key, value === true ? '' : String(value));
   }
+  append(node, ...children);
+  return node;
+}
+
+export function append(node, ...children) {
   for (const child of children.flat(Infinity)) {
-    if (child !== null && child !== undefined && child !== false) node.append(child instanceof Node ? child : document.createTextNode(String(child)));
+    if (child !== null && child !== undefined && typeof child !== 'boolean') {
+      node.append(child instanceof Node ? child : document.createTextNode(String(child)));
+    }
   }
   return node;
 }
@@ -67,13 +74,6 @@ export function cover(appId, large = false) {
   });
   node.append(image);
   return node;
-}
-
-export function selectField(label, options, value, action, className = '') {
-  const select = el('select', { onchange: event => action(event.target.value) },
-    options.map(([id, text]) => el('option', { value: id }, text)));
-  select.value = value;
-  return el('label', { className: `select-field ${className}` }, el('span', {}, label), select);
 }
 
 export function pageState(locale, titleKey, noteKey, action) {

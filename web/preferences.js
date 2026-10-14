@@ -1,3 +1,5 @@
+import { transitionTheme } from './motion.js';
+
 const key = 'satl-web-preferences';
 
 export function createPreferences() {
@@ -17,7 +19,7 @@ export function createPreferences() {
     try { localStorage.setItem(key, JSON.stringify({ locale, theme })); } catch { /* Private browsing remains usable. */ }
     apply();
   };
-  systemTheme.addEventListener('change', apply);
+  systemTheme.addEventListener('change', () => { if (theme === 'auto') transitionTheme(apply); });
   apply();
   return {
     get locale() { return locale; },
@@ -33,7 +35,7 @@ export function createPreferences() {
     setTheme(value) {
       if (!['auto', 'light', 'dark'].includes(value)) return;
       theme = value;
-      save();
+      transitionTheme(save);
     },
   };
 }

@@ -1,3 +1,5 @@
+import { isStandardLanguage, OTHER_LANGUAGE } from './languages.js';
+
 /** Catalog V2 is the directory; translation JSON is loaded only for previews. */
 const object = value => value !== null && typeof value === 'object' && !Array.isArray(value);
 const text = value => typeof value === 'string' ? value.trim() : '';
@@ -106,7 +108,9 @@ export function filterGames(games, { query = '', status = '', language = '', sor
   const terms = fold(query).replace(/@/g, '').split(/\s+/).filter(Boolean);
   const filtered = games.filter(game => {
     if (status && status !== 'all' && game.status !== status) return false;
-    if (language && language !== 'all' && !game.languages.includes(language)) return false;
+    if (language && language !== 'all') {
+      if (language === OTHER_LANGUAGE ? !game.languages.some(code => !isStandardLanguage(code)) : !game.languages.includes(language)) return false;
+    }
     const haystack = fold(`${game.name} ${game.appId} ${game.contributors.join(' ')}`);
     return terms.every(term => haystack.includes(term));
   });

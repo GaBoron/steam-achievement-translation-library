@@ -6,7 +6,8 @@ const messages = {
     status: '文件状态', allStatuses: '全部状态', current: '可用', outdated: '可能过期',
     possibly_ineffective: '可能不生效', unknownStatus: '未知状态', languages: '支持语言',
     allLanguages: '全部语言', sort: '排序', updated: '最近更新', name: '游戏名称', achievementsSort: '成就数量',
-    results: '{count} 个游戏', showing: '已显示 {shown} / {total}', showMore: '显示更多',
+    results: '{count} 个游戏', pagination: '游戏列表分页', previewPagination: '成就预览分页',
+    previousPage: '上一页', nextPage: '下一页', goToPage: '第 {page} 页', pageSummary: '第 {page} / {total} 页',
     achievements: '{count} 个成就', variants: '{count} 个译本', unknown: '暂无数据',
     loading: '正在加载目录…', loadError: '目录暂时无法加载', loadErrorNote: '请检查网络后重试。',
     retry: '重试', noResults: '没有找到符合条件的游戏', noResultsNote: '尝试其他关键词，或清除筛选。',
@@ -37,7 +38,8 @@ const messages = {
     status: 'File status', allStatuses: 'All statuses', current: 'Current', outdated: 'Possibly outdated',
     possibly_ineffective: 'May not work', unknownStatus: 'Unknown status', languages: 'Languages',
     allLanguages: 'All languages', sort: 'Sort by', updated: 'Recently updated', name: 'Game name', achievementsSort: 'Achievement count',
-    results: '{count} games', showing: 'Showing {shown} of {total}', showMore: 'Show more',
+    results: '{count} games', pagination: 'Game list pagination', previewPagination: 'Achievement preview pagination',
+    previousPage: 'Previous', nextPage: 'Next', goToPage: 'Page {page}', pageSummary: 'Page {page} of {total}',
     achievements: '{count} achievements', variants: '{count} variants', unknown: 'Not available',
     loading: 'Loading the catalog…', loadError: 'The catalog could not be loaded', loadErrorNote: 'Check your connection and try again.',
     retry: 'Retry', noResults: 'No games match your search', noResultsNote: 'Try another search or clear the filters.',
@@ -63,39 +65,8 @@ const messages = {
   },
 };
 
-const languageNames = {
-  arabic: ['阿拉伯语', 'Arabic'], brazilian: ['巴西葡萄牙语', 'Portuguese (Brazil)'],
-  bulgarian: ['保加利亚语', 'Bulgarian'], czech: ['捷克语', 'Czech'], danish: ['丹麦语', 'Danish'],
-  dutch: ['荷兰语', 'Dutch'], english: ['英语', 'English'], finnish: ['芬兰语', 'Finnish'],
-  french: ['法语', 'French'], german: ['德语', 'German'], greek: ['希腊语', 'Greek'],
-  hungarian: ['匈牙利语', 'Hungarian'], indonesian: ['印度尼西亚语', 'Indonesian'],
-  italian: ['意大利语', 'Italian'], japanese: ['日语', 'Japanese'], koreana: ['韩语', 'Korean'],
-  latam: ['拉丁美洲西班牙语', 'Spanish (Latin America)'], norwegian: ['挪威语', 'Norwegian'],
-  polish: ['波兰语', 'Polish'], portuguese: ['葡萄牙语', 'Portuguese'], romanian: ['罗马尼亚语', 'Romanian'],
-  russian: ['俄语', 'Russian'], schinese: ['简体中文', 'Simplified Chinese'],
-  spanish: ['西班牙语', 'Spanish'], swedish: ['瑞典语', 'Swedish'], tchinese: ['繁体中文', 'Traditional Chinese'],
-  thai: ['泰语', 'Thai'], turkish: ['土耳其语', 'Turkish'], ukrainian: ['乌克兰语', 'Ukrainian'],
-  vietnamese: ['越南语', 'Vietnamese'], sc_schinese: ['简体中文（sc_schinese）', 'Simplified Chinese (sc_schinese)'],
-  schiese: ['未标准化语言代码：schiese', 'Nonstandard language code: schiese'],
-  chinese: ['未标准化语言代码：chinese', 'Nonstandard language code: chinese'],
-};
-
-const languageTags = {
-  arabic: 'ar', brazilian: 'pt-BR', bulgarian: 'bg', czech: 'cs', danish: 'da', dutch: 'nl',
-  english: 'en', finnish: 'fi', french: 'fr', german: 'de', greek: 'el', hungarian: 'hu',
-  indonesian: 'id', italian: 'it', japanese: 'ja', koreana: 'ko', latam: 'es-419', norwegian: 'nb',
-  polish: 'pl', portuguese: 'pt-PT', romanian: 'ro', russian: 'ru', schinese: 'zh-CN',
-  spanish: 'es', swedish: 'sv', tchinese: 'zh-TW', thai: 'th', turkish: 'tr', ukrainian: 'uk', vietnamese: 'vi',
-};
-
-export function languageTag(code) { return languageTags[code]; }
-
 export function t(locale, key, values = {}) {
   return (messages[locale]?.[key] ?? messages.en[key] ?? key).replace(/\{(\w+)\}/g, (_, name) => String(values[name] ?? ''));
-}
-
-export function languageName(code, locale) {
-  return languageNames[code]?.[locale === 'zh' ? 0 : 1] ?? code;
 }
 
 export function formatDate(value, locale) {
