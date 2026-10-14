@@ -109,7 +109,7 @@ def indexed_resource_comment(entry: dict[str, Any], game_id: str, repo: str) -> 
         filename = Path(schema_file).name
         lines.append(f"- {note}（`{variant_id}`）：[下载 `{filename}`]({schema_download_url(schema_file, repo)})")
     lines.extend([
-        f"- 翻译库索引：[INDEX.md](https://github.com/{repo}/blob/main/INDEX.md)",
+        f"- 翻译库网站：[查看游戏与全部译本](https://gaboron.github.io/steam-achievement-translation-library/?lang=zh#/game/{game_id})",
         "",
         "此 issue 已自动关闭。",
     ])

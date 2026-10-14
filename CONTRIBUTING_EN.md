@@ -22,7 +22,7 @@ Other editors are also supported, but every submission must meet these requireme
 | Languages | Detected automatically from the schema; for each achievement, names and descriptions are checked independently and each field must either contain text in every detected language or be empty in every detected language |
 | Game name | Uses the Steam store name; a Chinese translation may follow the original name when useful |
 
-Search [INDEX_EN.md](INDEX_EN.md) by app ID first to determine whether you are submitting a new game or updating an accepted entry.
+Search the [library website](https://gaboron.github.io/steam-achievement-translation-library/?lang=en) by app ID first to determine whether you are submitting a new game or updating an accepted entry.
 
 > [!NOTE]
 > The repository is currently in a parallel V1/V2 migration period. Contributors still upload one ZIP; automation generates both authoritative V2 data and V1 compatibility data. See the [V2 migration status in the README](README_EN.md#-v2-migration-status) for the deadline and legacy-format removal schedule.
@@ -105,7 +105,7 @@ Automation derives the store URL from the app ID and checks ZIP safety and size,
 
 BIN remains the source file for SATLI, and each V2 variant additionally generates a same-name `.json` for Millennium and other clients. V1 compatibility keeps only the legacy-default BIN, without JSON. Continue submitting only BIN/ZIP files; do not edit generated JSON. Submissions, PR file updates, app ID renames, and `/force-refresh` synchronize and commit V2 metadata, variant BIN/JSON files, and the legacy-default BIN in the PR. Post-merge refreshes maintain compatibility indexes and statistics. Repository checks verify V2 BIN/JSON files and the V1 BIN copies, and reject redundant JSON at legacy paths.
 
-Each review PR may change only that game's data under `files/<app_id>/`. Automation stores pending catalog metadata in a generated `submission.json`; the PR does not modify `index-v2.json`, `index.json`, human-readable indexes, or statistics. Checks strictly compare submission metadata with the actual BIN/JSON files even while indexes await publication. After merge, automation collects every pending game on main, generates the shared indexes, and moves published `submission.json` files to Trash. Reviewing different games in a different order produces the same final indexes; real conflicts within one game require maintainer resolution. `/force-refresh` merges main while preserving submission history, and app ID corrections are limited to new, unpublished games.
+Each review PR may change only that game's data under `files/<app_id>/`. Automation stores pending catalog metadata in a generated `submission.json`; the PR does not modify `index-v2.json`, `index.json`, or statistics. Checks strictly compare submission metadata with the actual BIN/JSON files even while indexes await publication. After merge, automation collects every pending game on main, generates the catalog and compatibility index, updates the website, and moves published `submission.json` files to Trash. Reviewing different games in a different order produces the same final indexes; real conflicts within one game require maintainer resolution. `/force-refresh` merges main while preserving submission history, and app ID corrections are limited to new, unpublished games.
 
 For workflow, script, catalog, generated index, or `files/` changes, run from the repository root:
 
@@ -113,5 +113,7 @@ For workflow, script, catalog, generated index, or `files/` changes, run from th
 python -m compileall -q workflow-scripts
 python workflow-scripts/check_repository.py
 ```
+
+See [website maintenance](docs/website.md#english) for builds, local previews, and GitHub Pages configuration.
 
 See [LICENSE.md](LICENSE.md) for rights and contribution terms.

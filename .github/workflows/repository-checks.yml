@@ -35,6 +35,23 @@ jobs:
       - name: Compile workflow scripts
         run: python -m compileall -q workflow-scripts
 
+      - name: Set up Node for JavaScript syntax validation
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
+      - name: Check JavaScript module syntax
+        run: |
+          python - <<'PY'
+          import subprocess
+          from pathlib import Path
+
+          for path in sorted(Path("web").rglob("*.js")):
+              print(f"Checking {path}", flush=True)
+              subprocess.run(["node", "--check", "--input-type=module"], input=path.read_bytes(), check=True)
+          PY
+
       - name: Verify translation data and generated indexes
         run: |
           args=()
@@ -42,3 +59,9 @@ jobs:
             args+=(--translation-pr --base-ref "$PR_BASE_SHA" --head-ref "$PR_HEAD_SHA")
           fi
           python workflow-scripts/check_repository.py "${args[@]}"
+
+      # Translation PRs validate pending game metadata without changing Catalog V2.
+      # Their indexed files can legitimately differ until post-merge finalization.
+      - name: Build website and verify published downloads
+        if: ${{ env.TRANSLATION_PR != 'true' }}
+        run: python workflow-scripts/build_website.py --output "$RUNNER_TEMP/translation-library-site"

@@ -1,0 +1,82 @@
+import { statusLabel, t } from './i18n.js';
+
+export const repository = 'https://github.com/GaBoron/steam-achievement-translation-library';
+
+export function el(tag, attributes = {}, ...children) {
+  const node = document.createElement(tag);
+  for (const [key, value] of Object.entries(attributes)) {
+    if (value === undefined || value === null || value === false) continue;
+    if (key === 'className') node.className = value;
+    else if (key.startsWith('on') && typeof value === 'function') node.addEventListener(key.slice(2).toLowerCase(), value);
+    else if (key === 'value') node.value = value;
+    else if (key === 'text') node.textContent = value;
+    else node.setAttribute(key, value === true ? '' : String(value));
+  }
+  for (const child of children.flat(Infinity)) {
+    if (child !== null && child !== undefined && child !== false) node.append(child instanceof Node ? child : document.createTextNode(String(child)));
+  }
+  return node;
+}
+
+// Original SVG strokes on a 24px grid; no icon font or third-party assets.
+const paths = {
+  search: 'M16 16 21 21M18 10.5a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z',
+  close: 'm6 6 12 12M18 6 6 18',
+  arrow: 'M4 12h15m-6-6 6 6-6 6',
+  back: 'M20 12H5m6-6-6 6 6 6',
+  download: 'M12 3v12m-5-5 5 5 5-5M4 17v4h16v-4',
+  external: 'M13 4h7v7m0-7L10 14M9 4H4v16h16v-5',
+  translate: 'M3 4h7a2 2 0 0 1 2 2v14a4 4 0 0 0-4-2H3ZM21 4h-7a2 2 0 0 0-2 2v14a4 4 0 0 1 4-2h5ZM6 8h3M6 12h3M15 8h3M15 12h3',
+  warning: 'm12 3 10 18H2ZM12 9v5m0 3v.1',
+  info: 'M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM12 11v6m0-10v.1',
+  link: 'm9 14 6-4M9 17l-2 1a4 4 0 0 1-4-7l3-2a4 4 0 0 1 5 1m2 4a4 4 0 0 0 5 1l3-2a4 4 0 0 0-4-7l-2 1',
+  github: 'M6 7v9m0-9a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM18 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM18 7v2a4 4 0 0 1-4 4H6',
+};
+
+export function icon(name) {
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('viewBox', '0 0 24 24');
+  svg.setAttribute('class', 'icon');
+  svg.setAttribute('aria-hidden', 'true');
+  svg.setAttribute('focusable', 'false');
+  const path = document.createElementNS(svg.namespaceURI, 'path');
+  path.setAttribute('d', paths[name] || paths.info);
+  svg.append(path);
+  return svg;
+}
+
+export function button(label, action, kind = 'tonal', iconName) {
+  return el('button', { className: `button ${kind}`, type: 'button', onclick: action }, iconName && icon(iconName), label);
+}
+
+export function externalLink(label, href, kind = 'text-button', iconName = 'external') {
+  return el('a', { className: `button ${kind}`, href, target: '_blank', rel: 'noopener noreferrer' }, label, icon(iconName));
+}
+
+export function statusMark(status, locale) {
+  return el('span', { className: `status ${status === 'current' ? 'current' : 'attention'}` },
+    status !== 'current' && icon('warning'), statusLabel(status, locale));
+}
+
+export function cover(appId, large = false) {
+  const node = el('span', { className: `cover${large ? ' cover-large' : ''}`, 'aria-hidden': 'true' }, icon('translate'));
+  const image = el('img', {
+    src: `https://cdn.akamai.steamstatic.com/steam/apps/${encodeURIComponent(appId)}/header.jpg`,
+    alt: '', loading: 'lazy', decoding: 'async', referrerpolicy: 'no-referrer', width: 184, height: 86,
+    onerror: () => image.remove(),
+  });
+  node.append(image);
+  return node;
+}
+
+export function selectField(label, options, value, action, className = '') {
+  const select = el('select', { onchange: event => action(event.target.value) },
+    options.map(([id, text]) => el('option', { value: id }, text)));
+  select.value = value;
+  return el('label', { className: `select-field ${className}` }, el('span', {}, label), select);
+}
+
+export function pageState(locale, titleKey, noteKey, action) {
+  return el('div', { className: 'page-state' }, icon(titleKey === 'loading' ? 'translate' : 'info'),
+    el('h1', {}, t(locale, titleKey)), noteKey && el('p', {}, t(locale, noteKey)), action);
+}

@@ -15,7 +15,7 @@ from pr_submission_data import load_submissions, recycle_published_submissions, 
 
 ROOT = catalog_v2.REPO_ROOT
 PUBLICATION_PATHS = [
-    "files", "index.json", "index-v2.json", "INDEX.md", "INDEX_EN.md",
+    "files", "index.json", "index-v2.json",
     "docs/statistics/library-statistics.svg",
 ]
 
