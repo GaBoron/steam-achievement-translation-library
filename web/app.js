@@ -55,8 +55,7 @@ function renderShell() {
   headerFields = [themeField, localeField];
   replaceContent(header, el('div', { className: 'header-inner' },
     el('div', { className: 'header-navigation' },
-      el('a', { className: 'brand', href: '#/', 'aria-label': t(locale, 'title') }, el('span', { className: 'brand-icon' }, icon('translate')), el('span', {}, t(locale, 'title'))),
-      el('nav', { className: 'site-nav', 'aria-label': t(locale, 'games') }, el('a', { href: '#/' }, icon('search'), t(locale, 'discover')))),
+      el('a', { className: 'brand', href: '#/', 'aria-label': t(locale, 'title') }, el('span', { className: 'brand-icon' }, icon('translate')), el('span', {}, t(locale, 'title')))),
     el('div', { className: 'header-actions' },
       button('', focusSearch, 'icon-button header-search', 'search'),
       themeField.node, localeField.node,
