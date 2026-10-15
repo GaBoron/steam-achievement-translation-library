@@ -4,7 +4,7 @@ from __future__ import annotations
 import re
 from typing import Any
 
-from achievement_catalog import write_entry_achievement_catalogs
+from translation_json import write_entry_translation_json
 
 from close_command import (
     close_command_error,
@@ -36,7 +36,6 @@ from library_index import (
     upsert_catalog_entry,
     validated_entry_schema_variants,
 )
-from legacy_pr_schema import normalize_legacy_pr_schema_paths
 from pr_git import checkout_pr_branch, commit_and_push, push_branch, rename_schema_variants, run
 from pr_metadata import (
     build_outdated_body,
@@ -186,7 +185,7 @@ def force_refresh_pr(repo: str, token: str, event: dict[str, Any]) -> None:
             "`/force-refresh` 已处理完成。",
             "",
             "- 已同步最新 `main` 并保留投稿历史，重新触发自动检查；投稿改动仅涉及该游戏目录。",
-            "- 已根据投稿分支中的当前 schema 重新生成 PR 描述和人类可读成就目录。",
+            "- 已根据投稿分支中的当前 schema 重新生成 PR 描述和翻译 JSON；审核文本见 Repository checks 的附件。",
             "- 已重新请求维护者校对；通过检查和批准后，PR 会继续自动合并与入库推送流程。",
         ]),
     )
@@ -237,10 +236,6 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
         changes.append({"field": field, "before": before, "after": after})
 
     try:
-        if kind != "outdated":
-            previous_schema_file = str(meta.get("schema_file") or "")
-            if normalize_legacy_pr_schema_paths(meta):
-                record_change("schema file", previous_schema_file, meta["schema_file"])
         if command == "doc":
             if not attachment:
                 raise ValueError("`/update doc` 需要在同一条评论中附加 `UserGameStatsSchema_<app_id>.zip`。")
@@ -460,7 +455,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             entry["achievement_count"] = int(str(meta["achievement_count"]))
             rows_by_variant = variant_achievement_rows(entry, list(meta["languages"]))
             pr_title = f"{'Update' if kind == 'update' else 'Add'} achievement translations for {meta['game_name']} ({meta['game_id']})"
-            write_entry_achievement_catalogs(entry)
+            write_entry_translation_json(entry)
             upsert_catalog_entry(entry, previous_game_id=old_game_id)
             pr_body = build_submission_pr_body(
                 kind=kind,
