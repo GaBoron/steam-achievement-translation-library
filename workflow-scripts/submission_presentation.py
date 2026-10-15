@@ -86,10 +86,11 @@ def build_schema_variants_section(entry: dict[str, Any]) -> str:
         size = schema_file_size_label(int(variant.get("file_size_bytes") or 0))
         schema_file = str(variant.get("schema_file") or "")
         json_file = str(PurePosixPath(schema_file).with_suffix(".json"))
+        review_file = str(PurePosixPath(schema_file).with_name("achievements.md"))
         lines.append(
             f"| `{variant.get('variant_id', '')}` | {escape_table(', '.join(variant.get('languages') or []))} | "
             f"{variant.get('achievement_count', '')} | {size} | `{variant.get('sha256', '')}` | "
-            f"[bin]({schema_file}) · [json]({json_file}) |"
+            f"[bin]({schema_file}) · [json]({json_file}) · [review]({review_file}) |"
         )
     lines.extend(["", schema_variants_marker(variants)])
     return "\n".join(lines)
@@ -174,6 +175,6 @@ def build_submission_pr_body(
 
 ## Review
 
-Download `achievement-review` from this PR's **Repository checks** run to review names and descriptions.
+Review `achievements.md` in **Files changed**. Text is grouped by achievement and field; updates show before/after values. Review files are removed during publication.
 Published translations can be previewed on the [library website](https://gaboron.github.io/steam-achievement-translation-library/).{closes}
 """

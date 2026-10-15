@@ -73,7 +73,10 @@ def write_submission_entry(entry: dict[str, Any], *, previous_game_id: str = "",
 
 
 def recycle_published_submissions(catalog: dict[str, Any], *, root: Path = ROOT) -> None:
+    from achievement_catalog import recycle_review_catalogs
+
     for game_id, game in load_submissions(root=root).items():
         if catalog["games"].get(game_id) != game:
             raise ValueError(f"Refusing to consume unpublished submission: {game_id}")
+        recycle_review_catalogs(game_id, game, root=root)
         recycle_path(submission_path(game_id, root=root), boundary=root / "files")
