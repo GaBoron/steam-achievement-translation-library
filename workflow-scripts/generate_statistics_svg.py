@@ -16,7 +16,6 @@ import catalog_v2
 
 
 ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_INDEX_PATH = ROOT / "index.json"
 DEFAULT_OUTPUT_PATH = ROOT / "docs" / "statistics" / "library-statistics.svg"
 FONT_PATH = ROOT / "workflow-scripts" / "assets" / "ZCOOLKuaiLe-Subset.ttf"
 
@@ -49,35 +48,24 @@ def parse_submitted_at(value: Any) -> datetime:
     return parsed.astimezone(timezone.utc)
 
 
-def build_statistics(index_data: dict[str, Any], contributor_limit: int = 10) -> Statistics:
-    entries = index_data.get("entries")
-    if not isinstance(entries, list) or not entries:
-        raise ValueError("index.json must contain a non-empty entries array")
+def build_statistics(catalog: dict[str, Any], contributor_limit: int = 10) -> Statistics:
+    games = catalog_v2.validate_catalog(catalog)["games"]
     if contributor_limit < 1:
         raise ValueError("contributor_limit must be at least 1")
 
     first_submission_by_game: dict[str, date] = {}
     contribution_counts: Counter[str] = Counter()
 
-    for position, entry in enumerate(entries, start=1):
-        if not isinstance(entry, dict):
-            raise ValueError(f"entry {position} must be an object")
-
-        game_id = entry.get("game_id")
-        if not isinstance(game_id, str) or not game_id.strip():
-            raise ValueError(f"entry {position} has an invalid game_id")
-
+    for game_id, entry in games.items():
         submitted_on = parse_submitted_at(entry.get("submitted_at")).date()
         previous = first_submission_by_game.get(game_id)
         if previous is None or submitted_on < previous:
             first_submission_by_game[game_id] = submitted_on
 
         contributors = entry.get("contributors")
-        if not isinstance(contributors, list) or not contributors:
-            contributors = [entry.get("contributor_id")]
         cleaned = {str(value).strip() for value in contributors if isinstance(value, str) and value.strip()}
         if not cleaned:
-            raise ValueError(f"entry {position} has no valid contributors")
+            raise ValueError(f"game {game_id} has no valid contributors")
         contribution_counts.update(cleaned)
 
     submissions_per_day = Counter(first_submission_by_game.values())
@@ -418,7 +406,7 @@ def render_svg(statistics: Statistics) -> str:
     return "\n".join(svg)
 
 
-def load_index(path: Path) -> dict[str, Any]:
+def load_catalog_file(path: Path) -> dict[str, Any]:
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
@@ -438,16 +426,11 @@ def write_if_changed(path: Path, content: str) -> bool:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate the README statistics SVG from authoritative Catalog V2 data.")
-    parser.add_argument("--index", type=Path, help="Legacy compatibility input; defaults to index-v2.json.")
+    parser.add_argument("--catalog", type=Path, default=catalog_v2.CATALOG_PATH, help="Path to a Catalog V2 file.")
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT_PATH, help="Path to the generated SVG.")
     args = parser.parse_args()
 
-    if args.index is None:
-        catalog = catalog_v2.load_catalog(root=ROOT)
-        source = catalog_v2.legacy_index_from_catalog(catalog)
-    else:
-        source = load_index(args.index)
-    statistics = build_statistics(source)
+    statistics = build_statistics(load_catalog_file(args.catalog))
     changed = write_if_changed(args.output, render_svg(statistics))
     state = "updated" if changed else "already up to date"
     print(

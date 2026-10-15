@@ -1,16 +1,13 @@
 """Catalog V2, schema, and generated-artifact repository validation."""
 from __future__ import annotations
 
-import json
 from dataclasses import dataclass, field
 from pathlib import Path, PurePosixPath
 
-import achievement_catalog
 import catalog_v2
 import translation_json
 from pr_submission_data import with_submissions
 from generate_statistics_svg import build_statistics, render_svg
-from library_index import sort_entries
 from steam_schema import achievement_rows, language_coverage, load_schema, schema_languages, sha256, validate_schema_structure
 
 
@@ -38,20 +35,6 @@ def _metadata_mismatch(report: CheckReport, message: str, *, allowed: bool) -> N
         report.warn(f"stale Catalog V2 metadata allowed for translation PR: {message}")
     else:
         report.error(message)
-
-
-def _check_achievement_catalog(report: CheckReport, schema_path: Path, expected: str) -> None:
-    path = schema_path.with_name("achievements.md")
-    if not path.is_file():
-        report.error(f"missing achievement catalog: {path.relative_to(ROOT).as_posix()}")
-        return
-    try:
-        actual = path.read_text(encoding="utf-8")
-    except (OSError, UnicodeError) as exc:
-        report.error(f"cannot read {path.relative_to(ROOT).as_posix()}: {exc}")
-        return
-    if actual != expected:
-        report.error(f"achievement catalog is out of sync: {path.relative_to(ROOT).as_posix()}")
 
 
 def _check_schema(
@@ -101,11 +84,6 @@ def _check_schema(
             f"({', '.join(missing_ids[:5])})"
         )
         report.error(message) if strict_language_coverage else report.warn(message)
-    _check_achievement_catalog(
-        report,
-        path,
-        achievement_catalog.render_achievement_catalog(path.name, checked_rows, derived_languages),
-    )
     expected_json = translation_json.render_translation(game_id, variant_id, data, nodes)
     json_error = translation_json.check_translation(path, expected_json)
     if json_error:
@@ -122,25 +100,13 @@ def _check_unindexed_schemas(report: CheckReport, paths: set[Path], *, allowed: 
             report.error(f"unindexed schema file: {relative}")
             continue
         game_id = path.stem.removeprefix("UserGameStatsSchema_")
-        if relative == catalog_v2.v1_schema_relative_path(game_id):
-            canonical = ROOT / catalog_v2.schema_relative_path(game_id, "default")
-            if not canonical.is_file() or path.read_bytes() != canonical.read_bytes():
-                report.error(f"{game_id}: unindexed compatibility BIN does not match default variant")
-            continue
         try:
             data, nodes = load_schema(path)
             validate_schema_structure(data, nodes)
-            languages = schema_languages(nodes)
-            expected = achievement_catalog.render_achievement_catalog(
-                path.name,
-                achievement_rows(nodes, languages),
-                languages,
-            )
         except (OSError, UnicodeError, EOFError, ValueError, NotImplementedError) as exc:
             report.error(f"invalid unindexed schema {relative}: {exc}")
             continue
         report.checked_files += 1
-        _check_achievement_catalog(report, path, expected)
         # Contribution PRs generate their own JSON before the catalog refresh.
         variant_id = path.parent.name
         expected_json = translation_json.render_translation(game_id, variant_id, data, nodes)
@@ -189,27 +155,12 @@ def check_repository(
         report.error(f"invalid game-local submission: {exc}")
         return report
 
-    index = catalog_v2.legacy_index_from_catalog(catalog)
-    index["entries"] = sort_entries(index["entries"])
-    expected_v1 = catalog_v2.legacy_index_from_catalog(catalog, v1_compatibility_paths=True)
-    expected_v1["entries"] = sort_entries(expected_v1["entries"])
-    try:
-        actual_v1 = json.loads((ROOT / "index.json").read_text(encoding="utf-8"))
-        if actual_v1 != expected_v1:
-            derived_mismatch("index.json is out of sync with index-v2.json")
-    except (OSError, UnicodeError, json.JSONDecodeError) as exc:
-        report.error(f"cannot read generated index.json: {exc}")
+    if (ROOT / "index.json").exists():
+        report.error("Removed V1 index.json must not be reintroduced")
 
     expected_paths: set[Path] = set()
     for game_id, game in catalog["games"].items():
         report.checked_entries += 1
-        compatibility = ROOT / Path(*PurePosixPath(catalog_v2.v1_schema_relative_path(game_id)).parts)
-        expected_paths.add(compatibility.resolve())
-        default_path = ROOT / Path(*PurePosixPath(catalog_v2.schema_relative_path(game_id, "default")).parts)
-        if not compatibility.is_file():
-            report.error(f"{game_id}: missing v1 compatibility schema")
-        elif default_path.is_file() and compatibility.read_bytes() != default_path.read_bytes():
-            report.error(f"{game_id}: v1 compatibility schema does not match default variant")
         for variant_id, variant in game["variants"].items():
             _check_schema(
                 report,
@@ -225,21 +176,14 @@ def check_repository(
     _check_unindexed_schemas(report, actual_schemas - expected_paths, allowed=allow_unindexed_schema_files)
     for path in FILES_ROOT.rglob("UserGameStatsSchema_*.json"):
         if len(path.relative_to(FILES_ROOT).parts) == 2:
-            report.error(f"V1 compatibility path must not contain JSON: {path.relative_to(ROOT).as_posix()}")
+            report.error(f"Translation JSON must be inside a variant directory: {path.relative_to(ROOT).as_posix()}")
         elif not path.with_suffix(".bin").is_file():
             report.error(f"orphan translation JSON: {path.relative_to(ROOT).as_posix()}")
-    actual_catalogs = {path.resolve() for path in FILES_ROOT.rglob("achievements.md") if path.is_file()}
-    expected_catalogs = {
-        (ROOT / Path(*PurePosixPath(catalog_v2.achievement_catalog_relative_path(game_id, variant_id)).parts)).resolve()
-        for game_id, game in catalog["games"].items()
-        for variant_id in game["variants"]
-    }
-    if not allow_unindexed_schema_files:
-        for path in sorted(actual_catalogs - expected_catalogs):
-            report.error(f"orphan achievement catalog: {path.relative_to(ROOT).as_posix()}")
+    for path in FILES_ROOT.rglob("*.md"):
+        report.error(f"Review Markdown does not belong in translation data: {path.relative_to(ROOT).as_posix()}")
 
     try:
-        if STATISTICS_PATH.read_text(encoding="utf-8") != render_svg(build_statistics(index)):
+        if STATISTICS_PATH.read_text(encoding="utf-8") != render_svg(build_statistics(catalog)):
             derived_mismatch("library-statistics.svg is out of sync with index-v2.json")
     except (OSError, UnicodeError, TypeError, ValueError, AttributeError) as exc:
         report.error(f"cannot verify generated catalog projections: {exc}")
