@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 from typing import Any
 
+import catalog_v2
 from steam_schema import achievement_rows, load_schema, schema_languages, sha256, validate_schema_structure
 
 
@@ -63,3 +64,22 @@ def check_translation(path: Path, expected: str) -> str | None:
     except (OSError, UnicodeError) as exc:
         return f"cannot read translation JSON {output.name}: {exc}"
     return None
+
+
+def write_entry_translation_json(entry: dict[str, Any], *, root: Path = catalog_v2.REPO_ROOT) -> list[Path]:
+    """Generate translation JSON and attach its metadata to a submission entry."""
+    from library_index import validated_entry_schema_variants
+
+    game_id = str(entry["game_id"])
+    written: list[Path] = []
+    variants = validated_entry_schema_variants(entry, require_metadata=True)
+    for variant in variants:
+        variant_id = str(variant["variant_id"])
+        schema_path = root / catalog_v2.schema_relative_path(game_id, variant_id)
+        variant["json"] = write_translation(schema_path, game_id, variant_id)
+        written.append(schema_path.with_suffix(".json"))
+        if variant_id == "default":
+            entry["json"] = dict(variant["json"])
+    if isinstance(entry.get("schema_files"), list):
+        entry["schema_files"] = variants
+    return written

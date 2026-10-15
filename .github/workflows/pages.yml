@@ -1,0 +1,92 @@
+name: Translation library website
+
+on:
+  push:
+    branches: [main]
+  workflow_run:
+    workflows: ["Translation library automation", "Translation finalizer watchdog"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    if: >-
+      ${{
+        (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
+        (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') ||
+        (
+          github.event_name == 'workflow_run' &&
+          github.event.workflow_run.conclusion == 'success' &&
+          github.event.workflow_run.head_repository.full_name == github.repository
+        )
+      }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    concurrency:
+      group: translation-library-pages-build
+      cancel-in-progress: true
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      # Catalog finalization can push after the triggering run's original SHA.
+      # Always build trusted, current main; never consume PR code or artifacts.
+      - name: Checkout current main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Set up Node for JavaScript syntax validation
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
+      - name: Check JavaScript module syntax
+        run: |
+          python - <<'PY'
+          import subprocess
+          from pathlib import Path
+
+          for path in sorted(Path("web").rglob("*.js")):
+              print(f"Checking {path}", flush=True)
+              subprocess.run(["node", "--check", "--input-type=module"], input=path.read_bytes(), check=True)
+          PY
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build website and verify published downloads
+        run: python workflow-scripts/build_website.py --output "$RUNNER_TEMP/translation-library-site"
+
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ runner.temp }}/translation-library-site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    concurrency:
+      group: translation-library-pages-deploy
+      cancel-in-progress: false
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -9,8 +9,6 @@ from typing import Any
 
 from github_repository import github_request
 import catalog_v2
-from catalog_v2 import v1_schema_relative_path
-from schema_compatibility import recycle_legacy_translation_json
 from library_index import (
     entry_schema_variants,
     existing_entry,
@@ -100,38 +98,22 @@ def rename_schema_variants(
         destination_relative = schema_variant_relative_path(
             new_game_id,
             str(record["variant_id"]),
-            bool(record.get("primary")),
         )
         destination = repository_path(destination_relative)
         if destination.exists() and destination != source:
             raise ValueError(f"目标 schema 文件已存在：{destination_relative}")
-        for companion in (destination.with_name("achievements.md"), destination.with_suffix(".json")):
+        for companion in (destination.with_suffix(".json"),):
             if companion.exists() and companion.parent != source.parent:
                 raise ValueError(f"目标派生文件已存在：{companion.relative_to(FILES_ROOT.parent).as_posix()}")
         updated = dict(record)
         updated["schema_file"] = destination_relative
         moves.append((source, destination, updated))
-    compatibility_moves: list[tuple[Path, Path]] = []
-    legacy_source = repository_path(v1_schema_relative_path(old_game_id))
-    legacy_destination = repository_path(v1_schema_relative_path(new_game_id))
-    if legacy_source.is_file():
-        if legacy_destination.exists():
-            raise ValueError(f"目标兼容文件已存在：{legacy_destination.relative_to(FILES_ROOT.parent).as_posix()}")
-        compatibility_moves.append((legacy_source, legacy_destination))
-    recycle_legacy_translation_json(old_game_id, root=ROOT)
     for source, destination, _record in moves:
         destination.parent.mkdir(parents=True, exist_ok=True)
         source.replace(destination)
-        source_catalog = source.with_name("achievements.md")
-        destination_catalog = destination.with_name("achievements.md")
-        if source_catalog.is_file():
-            source_catalog.replace(destination_catalog)
         source_json = source.with_suffix(".json")
         if source_json.is_file():
             source_json.replace(destination.with_suffix(".json"))
-    for source, destination in compatibility_moves:
-        destination.parent.mkdir(parents=True, exist_ok=True)
-        source.replace(destination)
     # Empty old directories may remain; Git does not track them.
     updated_records = [record for _source, _destination, record in moves]
     updated_records.sort(key=lambda record: (not bool(record.get("primary")), str(record.get("variant_id"))))

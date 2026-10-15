@@ -5,8 +5,7 @@ import re
 from dataclasses import dataclass
 from typing import Any
 
-from achievement_catalog import write_entry_achievement_catalogs
-from legacy_pr_schema import normalize_legacy_pr_schema_paths
+from translation_json import write_entry_translation_json
 from library_index import existing_entry, load_index, repository_path, upsert_catalog_entry, validated_entry_schema_variants
 from pr_metadata import entry_from_metadata, parse_pr_metadata, reported_entry_from_metadata, validate_store_url
 from steam_schema import achievement_rows, load_schema, require_language_coverage, schema_languages, sha256, validate_schema_structure
@@ -37,7 +36,6 @@ def _replace_section(body: str, heading: str, replacement: str) -> str:
 def _refreshed_entry(meta: dict[str, Any]) -> tuple[dict[str, Any], bool]:
     game_id = str(meta.get("game_id") or "")
     seed = entry_from_metadata(meta)
-    normalize_legacy_pr_schema_paths(seed, context="refresh PR")
     records = validated_entry_schema_variants(seed)
     refreshed: list[dict[str, Any]] = []
     all_languages: set[str] = set()
@@ -92,7 +90,7 @@ def build_refreshed_translation_pr_presentation(pr: dict[str, Any]) -> Refreshed
         return RefreshedPrPresentation(str(pr.get("title") or ""), str(pr.get("body") or ""), False)
     validate_store_url(str(meta.get("game_id") or ""), str(meta.get("store_url") or ""))
     entry, changed = _refreshed_entry(meta)
-    write_entry_achievement_catalogs(entry)
+    write_entry_translation_json(entry)
     upsert_catalog_entry(entry)
     body = str(pr.get("body") or "")
     if "- Languages:" in body and "## Review" in body:
@@ -100,6 +98,11 @@ def build_refreshed_translation_pr_presentation(pr: dict[str, Any]) -> Refreshed
         body = _replace_line(body, "Achievements", str(entry["achievement_count"]))
         body = _replace_line(body, "Variants", str(len(validated_entry_schema_variants(entry))))
         body = _replace_section(body, "## Schema Variants", build_schema_variants_section(entry))
+        review = "## Review\n\nDownload `achievement-review` from this PR's **Repository checks** run to review names and descriptions.\nPublished translations can be previewed on the [library website](https://gaboron.github.io/steam-achievement-translation-library/)."
+        closes = re.search(r"(?mi)^\s*(?:close[sd]?|fix(?:e[sd])?|resolve[sd]?)\s+#\d+\s*$", body)
+        if closes:
+            review += "\n\n" + closes.group(0).strip()
+        body = _replace_section(body, "## Review", review)
     else:
         primary_path = repository_path(str(entry["schema_file"]))
         _data, nodes = load_schema(primary_path)

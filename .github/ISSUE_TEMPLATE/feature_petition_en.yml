@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use this template to request a new feature for the repository, index, contribution flow, automation checks, or maintainer tooling.
+        Use this template to request a new feature for the repository, website, contribution flow, automation checks, or maintainer tooling.
 
         If you want to submit or update achievement translation files for a specific game, use the translation contribution or update template instead.
   - type: textarea
@@ -14,7 +14,7 @@ body:
     attributes:
       label: What feature do you want?
       description: Describe the new capability or workflow change directly.
-      placeholder: "Example: add language filtering to the index, or make the submission bot check another field."
+      placeholder: "Example: add batch downloads to the website, or make the submission bot check another field."
     validations:
       required: true
   - type: textarea
