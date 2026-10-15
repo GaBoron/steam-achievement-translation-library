@@ -1,0 +1,3381 @@
+{
+  "version": 1,
+  "app_id": "43160",
+  "variant_id": "default",
+  "source_sha256": "09138cd1dea51b4dc6ea21d3fbb9272b53dc9ec399d6453a61a8b45827273785",
+  "languages": [
+    "czech",
+    "dutch",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "walking_bank": {
+      "translations": {
+        "czech": {
+          "name": "Chodící banka",
+          "description": "Posbírej 1000 vojenských nábojů."
+        },
+        "dutch": {
+          "name": "Wandelende bank",
+          "description": "Verzamel 1000 legerkogels."
+        },
+        "english": {
+          "name": "Walking Bank",
+          "description": "Collect 1000 Military Rounds."
+        },
+        "french": {
+          "name": "Banque ambulante",
+          "description": "Récupérer 1000 munitions de grade militaire."
+        },
+        "german": {
+          "name": "Wandelnde Bank",
+          "description": "Sammle 1.000 Militärpatronen."
+        },
+        "italian": {
+          "name": "Banca che cammina",
+          "description": "Accumula 1000 proiettili di grado militare."
+        },
+        "japanese": {
+          "name": "資産家",
+          "description": "1000発の軍用弾薬を集める。"
+        },
+        "polish": {
+          "name": "Chodząca skarbonka",
+          "description": "Zbierz 1000 nabojów wojskowych."
+        },
+        "russian": {
+          "name": "Банкир",
+          "description": "Накопить 1000 Армейских патронов."
+        },
+        "schinese": {
+          "name": "移动银行",
+          "description": "收集 1000 发军用子弹。"
+        },
+        "spanish": {
+          "name": "Banco ambulante",
+          "description": "Recoge 1.000 cartuchos militares."
+        }
+      }
+    },
+    "businessman": {
+      "translations": {
+        "czech": {
+          "name": "Obchodník",
+          "description": "Proveď 100 nákupů."
+        },
+        "dutch": {
+          "name": "Zakenman",
+          "description": "Doe 100 aankopen."
+        },
+        "english": {
+          "name": "Businessman",
+          "description": "Make 100 Purchases."
+        },
+        "french": {
+          "name": "Homme d'affaires",
+          "description": "Effectuer 100 achats."
+        },
+        "german": {
+          "name": "Geschäftsmann",
+          "description": "Schließe 100 Käufe ab."
+        },
+        "italian": {
+          "name": "Uomo d'affari",
+          "description": "Completa 100 acquisti."
+        },
+        "japanese": {
+          "name": "ビジネスマン",
+          "description": "100回購入する。"
+        },
+        "polish": {
+          "name": "Biznesmen",
+          "description": "Dokonaj 100 zakupów."
+        },
+        "russian": {
+          "name": "Бизнесмен",
+          "description": "Совершить 100 покупок."
+        },
+        "schinese": {
+          "name": "生意人",
+          "description": "完成 100 次购买。"
+        },
+        "spanish": {
+          "name": "Hombre de negocios",
+          "description": "Haz 100 compras."
+        }
+      }
+    },
+    "weapon_smith": {
+      "translations": {
+        "czech": {
+          "name": "Mistr puškař",
+          "description": "Nainstaluj si na zbraň všechna dostupná vylepšení."
+        },
+        "dutch": {
+          "name": "Wapensmid",
+          "description": "Installeer alle mogelijke aanpassingen voor een wapen."
+        },
+        "english": {
+          "name": "Weapon Smith",
+          "description": "Install all possible Customizations for a Weapon."
+        },
+        "french": {
+          "name": "Armurier",
+          "description": "Installer toutes les personnalisations possibles d'une arme."
+        },
+        "german": {
+          "name": "Waffenschmied",
+          "description": "Bringe an einer Waffe alle möglichen An- und Umbauten an."
+        },
+        "italian": {
+          "name": "Armaiolo",
+          "description": "Installa tutte le possibili modifiche per un arma."
+        },
+        "japanese": {
+          "name": "武器職人",
+          "description": "全てのアップグレードを武器に装着する。"
+        },
+        "polish": {
+          "name": "Rusznikarz",
+          "description": "Zainstaluj wszystkie możliwe ulepszenia do broni."
+        },
+        "russian": {
+          "name": "Оружейник",
+          "description": "Установить все возможные модификации на какое-нибудь оружие."
+        },
+        "schinese": {
+          "name": "武器工匠",
+          "description": "为一把武器装齐所有可用改装件。"
+        },
+        "spanish": {
+          "name": "Maestro armero",
+          "description": "Instala todas las personalizaciones posibles en un arma."
+        }
+      }
+    },
+    "survivalist": {
+      "translations": {
+        "czech": {
+          "name": "Nesmrtelný",
+          "description": "Dokonči hru v Hraničářském režimu v hardcore obtížnosti."
+        },
+        "dutch": {
+          "name": "Overlevende",
+          "description": "Voltooi de game in Ranger Moeilijk."
+        },
+        "english": {
+          "name": "Survivalist",
+          "description": "Complete the game in Ranger Hardcore."
+        },
+        "french": {
+          "name": "Survivaliste",
+          "description": "Terminer le jeu en mode Ranger difficile."
+        },
+        "german": {
+          "name": "Überlebenskämpfer",
+          "description": "Bringe das Spiel in Ranger Hardcore zu Ende."
+        },
+        "italian": {
+          "name": "Sopravvissuto",
+          "description": "Completa il gioco in modalità Ranger difficile"
+        },
+        "japanese": {
+          "name": "サバイバリスト",
+          "description": "レンジャー・ハードコアをクリアする。"
+        },
+        "polish": {
+          "name": "Instynkt przetrwania",
+          "description": "Ukończ grę w trybie „Stalker - Trudny”."
+        },
+        "russian": {
+          "name": "Выживальщик",
+          "description": "Пройти игру в режиме Рейнджер Хардкор."
+        },
+        "schinese": {
+          "name": "生存专家",
+          "description": "以「游骑兵硬核」难度通关游戏。"
+        },
+        "spanish": {
+          "name": "Superviviente",
+          "description": "Completa el juego en Comando Difícil."
+        }
+      }
+    },
+    "shadow_ranger": {
+      "translations": {
+        "czech": {
+          "name": "Mistr hraničář",
+          "description": "Dokonči hru bez zabití jediného člověka, pokud to není nezbytně nutné."
+        },
+        "dutch": {
+          "name": "Schaduwranger",
+          "description": "Voltooi de game zonder mensen te doden, behalve als je daartoe gedwongen wordt."
+        },
+        "english": {
+          "name": "Shadow Ranger",
+          "description": "Complete the game without killing any Humans unless forced to."
+        },
+        "french": {
+          "name": "Ranger de l'ombre",
+          "description": "Terminer le jeu sans tuer aucun humain à moins d'y être forcé."
+        },
+        "german": {
+          "name": "Schattenranger",
+          "description": "Bringe das Spiel zu Ende, ohne Menschen zu töten, es sei denn, du bist dazu gezwungen."
+        },
+        "italian": {
+          "name": "Ranger delle ombre",
+          "description": "Completa il gioco senza uccidere nessun umano tranne se costretto."
+        },
+        "japanese": {
+          "name": "シャドウレンジャー",
+          "description": "やむを得ない場合を除き、人間を殺さずにゲームをクリアする。"
+        },
+        "polish": {
+          "name": "Stalker z cieni",
+          "description": "Ukończ grę, nie zabijając żadnych ludzi, chyba że zostaniesz do tego zmuszony."
+        },
+        "russian": {
+          "name": "Рейнджер-тень",
+          "description": "Пройти игру, убивая людей только в крайнем случае."
+        },
+        "schinese": {
+          "name": "暗影游骑兵",
+          "description": "除被迫应战外，全程不杀死任何人类，通关游戏。"
+        },
+        "spanish": {
+          "name": "Comando en la sombra",
+          "description": "Completa el juego sin matar ningún humano, salvo que sea forzoso."
+        }
+      }
+    },
+    "ranger_elite": {
+      "translations": {
+        "czech": {
+          "name": "Elitní hraničář",
+          "description": "Dokonči hru v Hraničářském režimu."
+        },
+        "dutch": {
+          "name": "Elite Ranger",
+          "description": "Voltooi de game in de Ranger-modus."
+        },
+        "english": {
+          "name": "Ranger Elite",
+          "description": "Complete the game in Ranger Mode."
+        },
+        "french": {
+          "name": "Ranger d'élite",
+          "description": "Terminer le jeu en mode Ranger."
+        },
+        "german": {
+          "name": "Ranger-Elite",
+          "description": "Bringe das Spiel im Ranger-Modus zu Ende."
+        },
+        "italian": {
+          "name": "Ranger d'élite",
+          "description": "Completa il gioco in modalità Ranger."
+        },
+        "japanese": {
+          "name": "レンジャーエリート",
+          "description": "レンジャーモードでゲームをクリアする。"
+        },
+        "polish": {
+          "name": "Elitarny stalker",
+          "description": "Ukończ grę w trybie stalkera."
+        },
+        "russian": {
+          "name": "Элитный рейнджер",
+          "description": "Пройти игру на уровни сложности Рейнджер."
+        },
+        "schinese": {
+          "name": "游骑兵精英",
+          "description": "以「游骑兵」模式通关游戏。"
+        },
+        "spanish": {
+          "name": "Comando de élite",
+          "description": "Completa el juego en Modo Comando."
+        }
+      }
+    },
+    "no_shooting_allowed": {
+      "translations": {
+        "czech": {
+          "name": "Střílení zakázáno",
+          "description": "Zabij 10 nepřátel po sobě pomocí vrhacích nožů."
+        },
+        "dutch": {
+          "name": "Schieten niet toegestaan",
+          "description": "Dood 10 vijanden op rij met werpmessen."
+        },
+        "english": {
+          "name": "No shooting allowed",
+          "description": "Kill 10 enemies in a row with Throwing Knives."
+        },
+        "french": {
+          "name": "Armes à feu interdites",
+          "description": "Tuer 10 ennemis d'affilée avec des couteaux de lancer."
+        },
+        "german": {
+          "name": "Schießen verboten",
+          "description": "Töte 10 Feinde in Folge mit Wurfmessern."
+        },
+        "italian": {
+          "name": "Niente pistole qui dentro",
+          "description": "Uccidi 10 nemici di fila con i coltelli da lancio."
+        },
+        "japanese": {
+          "name": "銃など必要ない",
+          "description": "連続で10体の敵をスローイングナイフで倒す。"
+        },
+        "polish": {
+          "name": "Nie strielać!",
+          "description": "Zabij 10 wrogów pod rząd za pomocą noży do rzucania."
+        },
+        "russian": {
+          "name": "Не стрелять!",
+          "description": "Убить 10 противников метательными ножами."
+        },
+        "schinese": {
+          "name": "禁止开枪",
+          "description": "用飞刀连续杀死 10 名敌人。"
+        },
+        "spanish": {
+          "name": "Prohibido disparar",
+          "description": "Mata a 10 enemigos seguidos con los cuchillos arrojadizos."
+        }
+      }
+    },
+    "gunslinger": {
+      "translations": {
+        "czech": {
+          "name": "Pistolník",
+          "description": "Zabij každou zbraní ve hře alespoň jednoho nepřítele."
+        },
+        "dutch": {
+          "name": "Revolverheld",
+          "description": "Dood met elk wapen dat in de game beschikbaar is, minimaal één vijand."
+        },
+        "english": {
+          "name": "Gunslinger",
+          "description": "Kill at least one Enemy with each Weapon available in the game."
+        },
+        "french": {
+          "name": "Bandit armé",
+          "description": "Tuer au moins un ennemi avec chaque arme disponible dans le jeu."
+        },
+        "german": {
+          "name": "Waffenheld",
+          "description": "Töte mindestens einen Feind mit jeder im Spiel verfügbaren Waffe."
+        },
+        "italian": {
+          "name": "Pistolero",
+          "description": "Uccidi almeno un nemico con ogni arma disponibile in gioco."
+        },
+        "japanese": {
+          "name": "ガンスリンガー",
+          "description": "ゲーム内の全タイプの武器で敵を倒す。"
+        },
+        "polish": {
+          "name": "Trzeba mieć fantazję",
+          "description": "Zabij co najmniej jednego wroga każdym rodzajem broni dostępnym w grze."
+        },
+        "russian": {
+          "name": "Стрелок",
+          "description": "Убить по противнику каждым из доступных видов оружия."
+        },
+        "schinese": {
+          "name": "神枪手",
+          "description": "用游戏中每一种可用武器各杀死至少一名敌人。"
+        },
+        "spanish": {
+          "name": "Pistolero",
+          "description": "Mata al menos a un enemigo con cada arma disponible en el juego."
+        }
+      }
+    },
+    "true_spartan": {
+      "translations": {
+        "czech": {
+          "name": "Pravý Sparťan",
+          "description": "Ubraň nástupiště bez úmrtí."
+        },
+        "dutch": {
+          "name": "Een echte Spartaan",
+          "description": "Verdedig het platform zonder dood te gaan."
+        },
+        "english": {
+          "name": "True Spartan",
+          "description": "Hold the Platform without dying."
+        },
+        "french": {
+          "name": "Spartiate",
+          "description": "Défendre le quai sans mourir."
+        },
+        "german": {
+          "name": "Wahrer Spartaner",
+          "description": "Halte den Bahnsteig, ohne zu sterben."
+        },
+        "italian": {
+          "name": "Vero spartano",
+          "description": "Difendi la piattaforma senza morire."
+        },
+        "japanese": {
+          "name": "真のスパルタン",
+          "description": "死亡することなくホームを守り抜く。"
+        },
+        "polish": {
+          "name": "Spartanin",
+          "description": "Utrzymaj peron, nie ginąc."
+        },
+        "russian": {
+          "name": "Настоящий спартанец",
+          "description": "Удержать платформу, ни разу не погибнув."
+        },
+        "schinese": {
+          "name": "真正的斯巴达人",
+          "description": "不死一次守住平台。"
+        },
+        "spanish": {
+          "name": "Auténtico espartano",
+          "description": "Defiende el andén sin morir."
+        }
+      }
+    },
+    "redemption": {
+      "translations": {
+        "czech": {
+          "name": "Vykoupení",
+          "description": "Zachraň D6."
+        },
+        "dutch": {
+          "name": "Verlossing",
+          "description": "Red D6."
+        },
+        "english": {
+          "name": "Redemption",
+          "description": "Save D6."
+        },
+        "french": {
+          "name": "Rédemption",
+          "description": "Sauver D6."
+        },
+        "german": {
+          "name": "Erlösung",
+          "description": "Rette D6."
+        },
+        "italian": {
+          "name": "Redenzione",
+          "description": "Salva il D6."
+        },
+        "japanese": {
+          "name": "希望の光",
+          "description": "D6を救う。"
+        },
+        "polish": {
+          "name": "Odkupienie",
+          "description": "Ocal D6."
+        },
+        "russian": {
+          "name": "Искупление",
+          "description": "Сохранить Д6."
+        },
+        "schinese": {
+          "name": "救赎",
+          "description": "保住 D6。"
+        },
+        "spanish": {
+          "name": "Redención",
+          "description": "Salva el D6."
+        }
+      }
+    },
+    "cest_la_vie": {
+      "translations": {
+        "czech": {
+          "name": "C'est la vie",
+          "description": "Znič D6."
+        },
+        "dutch": {
+          "name": "C'est la vie",
+          "description": "Vernietig D6."
+        },
+        "english": {
+          "name": "C'est la vie",
+          "description": "Destroy D6."
+        },
+        "french": {
+          "name": "C'est la vie",
+          "description": "Détruire D6."
+        },
+        "german": {
+          "name": "C'est la vie",
+          "description": "Zerstöre D6."
+        },
+        "italian": {
+          "name": "C'est la vie",
+          "description": "Distruggi il D6."
+        },
+        "japanese": {
+          "name": "これが人生さ",
+          "description": "D6を破壊する。"
+        },
+        "polish": {
+          "name": "C'est la vie",
+          "description": "Zniszcz D6."
+        },
+        "russian": {
+          "name": "Такова жизнь",
+          "description": "Уничтожить Д6."
+        },
+        "schinese": {
+          "name": "这就是人生",
+          "description": "摧毁 D6。"
+        },
+        "spanish": {
+          "name": "C'est la vie",
+          "description": "Destruye el D6."
+        }
+      }
+    },
+    "revelation": {
+      "translations": {
+        "czech": {
+          "name": "Zjevení",
+          "description": "Za pomoci Temného přinuť Moskvina povědět pravdu."
+        },
+        "dutch": {
+          "name": "Openbaring",
+          "description": "Zorg met behulp van de Duistere dat Moskvin de waarheid vertelt."
+        },
+        "english": {
+          "name": "Revelation",
+          "description": "Make Moskvin tell the truth with help from the Dark One."
+        },
+        "french": {
+          "name": "Révélation",
+          "description": "Faire avouer la vérité à Moskvin avec l'aide du Sombre."
+        },
+        "german": {
+          "name": "Enthüllung",
+          "description": "Sorge mit Hilfe des Schwarzen dafür, dass Moskwin die Wahrheit sagt."
+        },
+        "italian": {
+          "name": "Rivelazione",
+          "description": "Fai rivelare a Moskvin la verità con l'aiuto del Tetro."
+        },
+        "japanese": {
+          "name": "インセプション",
+          "description": "ダークワンの力を借り、モスクビンに真実を語らせる。"
+        },
+        "polish": {
+          "name": "Incepcja",
+          "description": "Z pomocą cienia zmuś Moskwina do wyjawienia prawdy."
+        },
+        "russian": {
+          "name": "Откровение",
+          "description": "С помощью Черного заставить Москвина рассказать правду."
+        },
+        "schinese": {
+          "name": "真相大白",
+          "description": "借助黑裔之力让莫斯科温说出真相。"
+        },
+        "spanish": {
+          "name": "Revelación",
+          "description": "Haz que Moskvin diga la verdad con ayuda del Oscuro."
+        }
+      }
+    },
+    "forest_guardian": {
+      "translations": {
+        "czech": {
+          "name": "Strážce lesa",
+          "description": "Po boji zachraň medvěda před hlídači."
+        },
+        "dutch": {
+          "name": "Boswachter",
+          "description": "Red de beer na het gevecht van de telepaten."
+        },
+        "english": {
+          "name": "Forest Guardian",
+          "description": "Save the Bear from the Watchmen after the fight."
+        },
+        "french": {
+          "name": "Garde-forestier",
+          "description": "Protéger l'ours contre les hurleurs après le combat."
+        },
+        "german": {
+          "name": "Waldwächter",
+          "description": "Rette den Bären nach dem Kampf vor den Telepathen."
+        },
+        "italian": {
+          "name": "Guardiano della foresta",
+          "description": "Salva l'orso dai Custodi dopo il combattimento."
+        },
+        "japanese": {
+          "name": "森の番人",
+          "description": "戦闘後、ウォッチメンからベアを救う。"
+        },
+        "polish": {
+          "name": "Strażnik lasu",
+          "description": "Ochroń niedźwiedzia przed wartownikami po walce."
+        },
+        "russian": {
+          "name": "Хранитель леса",
+          "description": "После боя защитить Медведя от Стражей."
+        },
+        "schinese": {
+          "name": "森林守护者",
+          "description": "战斗结束后从守望者手中救下熊。"
+        },
+        "spanish": {
+          "name": "Guardián del bosque",
+          "description": "Salva al Oso de los Vigilantes tras la lucha."
+        }
+      }
+    },
+    "revenge": {
+      "translations": {
+        "czech": {
+          "name": "Odplata",
+          "description": "Zabij Pavla."
+        },
+        "dutch": {
+          "name": "Wraak",
+          "description": "Dood Pavel."
+        },
+        "english": {
+          "name": "Revenge",
+          "description": "Kill Pavel."
+        },
+        "french": {
+          "name": "Vengeance",
+          "description": "Tuer Pavel."
+        },
+        "german": {
+          "name": "Rache",
+          "description": "Töte Pawel."
+        },
+        "italian": {
+          "name": "Vendetta",
+          "description": "Uccidi Pavel."
+        },
+        "japanese": {
+          "name": "復讐",
+          "description": "パヴェルを殺す。"
+        },
+        "polish": {
+          "name": "Zemsta",
+          "description": "Zabij Pawła."
+        },
+        "russian": {
+          "name": "Месть",
+          "description": "Убить Павла."
+        },
+        "schinese": {
+          "name": "复仇",
+          "description": "杀死帕维尔。"
+        },
+        "spanish": {
+          "name": "Venganza",
+          "description": "Mata a Pavel."
+        }
+      }
+    },
+    "back_to_the_past": {
+      "translations": {
+        "czech": {
+          "name": "Zpátky do minulosti",
+          "description": "Projdi si všemi vizemi v Mrtvém městě."
+        },
+        "dutch": {
+          "name": "Terug naar het verleden",
+          "description": "Bekijk alle visioenen in de Dode Stad."
+        },
+        "english": {
+          "name": "Back to the Past",
+          "description": "See all Visions in the Dead City."
+        },
+        "french": {
+          "name": "Retour vers le passé",
+          "description": "Voir toutes les visions dans la Ville morte."
+        },
+        "german": {
+          "name": "Zurück in die Vergangenheit",
+          "description": "Schau dir in der Toten Stadt alle Visionen an."
+        },
+        "italian": {
+          "name": "Ritorno al passato",
+          "description": "Vivi tutte le visioni nella Città morta."
+        },
+        "japanese": {
+          "name": "失われし過去",
+          "description": "亡霊の街で全てのビジョンを見る。"
+        },
+        "polish": {
+          "name": "Powrót do przeszłości",
+          "description": "Zobacz wszystkie wizje w Martwym Mieście."
+        },
+        "russian": {
+          "name": "Назад в прошлое",
+          "description": "Просмотреть все видения в мертвом городе."
+        },
+        "schinese": {
+          "name": "回到过去",
+          "description": "看完死城中的全部幻象。"
+        },
+        "spanish": {
+          "name": "Regreso al pasado",
+          "description": "Ve todas las visiones en la Ciudad Muerta."
+        }
+      }
+    },
+    "secret": {
+      "translations": {
+        "czech": {
+          "name": "Tajemství",
+          "description": "Odhal plány Rudých."
+        },
+        "dutch": {
+          "name": "Geheim",
+          "description": "Kom achter de plannen van de Roden."
+        },
+        "english": {
+          "name": "Secret",
+          "description": "Find out about the Reds' plans."
+        },
+        "french": {
+          "name": "Secret",
+          "description": "Découvrir les plans des Rouges."
+        },
+        "german": {
+          "name": "Geheimnis",
+          "description": "Finde heraus, wie die Pläne der Roten lauten."
+        },
+        "italian": {
+          "name": "Segreto",
+          "description": "Scopri il piano dei Rossi."
+        },
+        "japanese": {
+          "name": "恐るべき計画",
+          "description": "共産主義者たちの計画を暴く。"
+        },
+        "polish": {
+          "name": "Sekret",
+          "description": "Odkryj plany czerwonych."
+        },
+        "russian": {
+          "name": "Тайна",
+          "description": "Разведать планы Красных."
+        },
+        "schinese": {
+          "name": "秘密",
+          "description": "查明红线的计划。"
+        },
+        "spanish": {
+          "name": "Secreto",
+          "description": "Descubre los planes de los Rojos."
+        }
+      }
+    },
+    "rain_man": {
+      "translations": {
+        "czech": {
+          "name": "Neviňátko",
+          "description": "Dokonči úroveň MOST bez jediného zabití."
+        },
+        "dutch": {
+          "name": "Plensbui",
+          "description": "Voltooi het niveau DE BRUG zonder iemand te doden."
+        },
+        "english": {
+          "name": "Rain Man",
+          "description": "Complete the BRIDGE level without a kill."
+        },
+        "french": {
+          "name": "Self-control sous la pluie",
+          "description": "Terminer le niveau PONT sans tuer."
+        },
+        "german": {
+          "name": "Rain Man",
+          "description": "Bringe den Level BRÜCKE zu Ende, ohne jemanden zu töten."
+        },
+        "italian": {
+          "name": "Uomo della pioggia",
+          "description": "Completa il livello PONTE senza uccidere nessuno."
+        },
+        "japanese": {
+          "name": "レインマン",
+          "description": "ステージ「終わりなき旅」を、敵を倒すことなくクリアする。"
+        },
+        "polish": {
+          "name": "Rain Man",
+          "description": "Ukończ etap MOST nie zabijając nikogo."
+        },
+        "russian": {
+          "name": "Человек дождя",
+          "description": "Пройти уровень МОСТ, никого не убив."
+        },
+        "schinese": {
+          "name": "雨人",
+          "description": "在「桥」关卡全程不杀死任何人。"
+        },
+        "spanish": {
+          "name": "Hombre de la lluvia",
+          "description": "Completa el nivel PUENTE sin una sola muerte."
+        }
+      }
+    },
+    "van_helsing": {
+      "translations": {
+        "czech": {
+          "name": "Van Helsing",
+          "description": "Zabij Helsingem démona."
+        },
+        "dutch": {
+          "name": "Van Helsing",
+          "description": "Dood een demon met de Helsing."
+        },
+        "english": {
+          "name": "Van Helsing",
+          "description": "Kill a Demon with the Helsing."
+        },
+        "french": {
+          "name": "Van Helsing",
+          "description": "Tuer un démon avec le Helsing."
+        },
+        "german": {
+          "name": "Van Helsing",
+          "description": "Töte einen Dämonen mit der Helsing."
+        },
+        "italian": {
+          "name": "Van Helsing",
+          "description": "Uccidi un demone utilizzando il Khel'sing."
+        },
+        "japanese": {
+          "name": "ヴァン・ヘルシング",
+          "description": "ヘルシングでデーモンを倒す。"
+        },
+        "polish": {
+          "name": "Van Helsing",
+          "description": "Zabij demona Helsingiem."
+        },
+        "russian": {
+          "name": "Ван Хельсинг",
+          "description": "Убить Демона из Хельсинга."
+        },
+        "schinese": {
+          "name": "范海辛",
+          "description": "用 Helsing 杀死一只恶魔。"
+        },
+        "spanish": {
+          "name": "Van Helsing",
+          "description": "Mata a un demonio con el Helsing."
+        }
+      }
+    },
+    "bloodlust": {
+      "translations": {
+        "czech": {
+          "name": "Krvavé šílenství",
+          "description": "Pobij v úrovni HONIČKA všechny Rudé."
+        },
+        "dutch": {
+          "name": "Bloeddorst",
+          "description": "Dood alle Roden in het niveau DE ACHTERVOLGING."
+        },
+        "english": {
+          "name": "Bloodlust",
+          "description": "Kill all the Reds on the THE CHASE level."
+        },
+        "french": {
+          "name": "Soif de sang",
+          "description": "Tuer tous les Rouges du niveau POURSUITE."
+        },
+        "german": {
+          "name": "Blutdurst",
+          "description": "Töte alle Roten im Level DIE VERFOLGUNG."
+        },
+        "italian": {
+          "name": "Sete di sangue",
+          "description": "Uccidi tutti i Rossi nel livello LA RINCORSA."
+        },
+        "japanese": {
+          "name": "血の粛清",
+          "description": "ステージ「チェイス」で、全ての共産主義者を倒す。"
+        },
+        "polish": {
+          "name": "Żądza krwi",
+          "description": "Zabij wszystkich czerwonych na etapie POŚCIG."
+        },
+        "russian": {
+          "name": "Кровожадный",
+          "description": "Убить всех красных на уровне ПОГОНЯ."
+        },
+        "schinese": {
+          "name": "嗜血",
+          "description": "杀死「追逐」关卡中的所有红线成员。"
+        },
+        "spanish": {
+          "name": "Sed de sangre",
+          "description": "Mata a todos los Rojos del nivel LA PERSECUCIÓN."
+        }
+      }
+    },
+    "nobody_home": {
+      "translations": {
+        "czech": {
+          "name": "Nejsme doma",
+          "description": "Nevšímej si zvonícího telefonu v Anomálii."
+        },
+        "dutch": {
+          "name": "Niemand aanwezig",
+          "description": "Neem de telefoon niet op in de anomalie."
+        },
+        "english": {
+          "name": "Nobody's Home",
+          "description": "Ignore the Phone Call in the Anomaly."
+        },
+        "french": {
+          "name": "Abonné absent",
+          "description": "Ignorer l'appel téléphonique dans l'anomalie."
+        },
+        "german": {
+          "name": "Niemand zuhause",
+          "description": "Ignoriere den Telefonanruf in der Anomalie."
+        },
+        "italian": {
+          "name": "Non c'è nessuno in casa",
+          "description": "Ignora la telefonata nell'anomalia."
+        },
+        "japanese": {
+          "name": "留守にしております",
+          "description": "アルチョム宛ての電話を無視する。"
+        },
+        "polish": {
+          "name": "Nagraj się pan",
+          "description": "Nie odbieraj telefonu w anomalii."
+        },
+        "russian": {
+          "name": "Никого нет дома",
+          "description": "Не брать трубку в аномалии."
+        },
+        "schinese": {
+          "name": "无人在家",
+          "description": "在异常点中不要接那通电话。"
+        },
+        "spanish": {
+          "name": "No hay nadie en casa",
+          "description": "Ignora la llamada de teléfono en la anomalía."
+        }
+      }
+    },
+    "savior": {
+      "translations": {
+        "czech": {
+          "name": "Zachránce",
+          "description": "Sundej si masku, jakmile to po tobě Lesnickij bude chtít."
+        },
+        "dutch": {
+          "name": "Redder",
+          "description": "Doe je masker af als Lesnitsky dat zegt."
+        },
+        "english": {
+          "name": "Savior",
+          "description": "Remove your mask when Lesnitsky demands it."
+        },
+        "french": {
+          "name": "Sauveur",
+          "description": "Retirer votre masque quand Lesnitsky le demande."
+        },
+        "german": {
+          "name": "Retter",
+          "description": "Nimm deine Maske ab, wenn Lesnizki es verlangt."
+        },
+        "italian": {
+          "name": "Salvatore",
+          "description": "Togliti la maschera quando Lesnitsky te lo chiede."
+        },
+        "japanese": {
+          "name": "愛という名のもとに",
+          "description": "レスニスキーの指示に従いマスクを外す。"
+        },
+        "polish": {
+          "name": "Zbawca",
+          "description": "Zdejmij maskę, gdy domaga się tego Leśnicki."
+        },
+        "russian": {
+          "name": "Спаситель",
+          "description": "Снять противогаз по требованию Лесницкого."
+        },
+        "schinese": {
+          "name": "救世主",
+          "description": "在列斯尼茨基要求时摘下防毒面具。"
+        },
+        "spanish": {
+          "name": "Redentor",
+          "description": "Quítate la máscara cuando lo demande Lesnitsky."
+        }
+      }
+    },
+    "forgotten": {
+      "translations": {
+        "czech": {
+          "name": "Ztráty a nálezy",
+          "description": "Najdi v úrovni KARANTÉNA munici skrytou v opuštěné části stanice."
+        },
+        "dutch": {
+          "name": "Vergeten",
+          "description": "Vind in het niveau QUARANTAINE de verborgen munitie in het verlaten deel van het station."
+        },
+        "english": {
+          "name": "Forgotten",
+          "description": "Find the Hidden Ammo in the abandoned part of the station on the QUARANTINE level."
+        },
+        "french": {
+          "name": "Oublié",
+          "description": "Trouver les munitions cachées dans la partie abandonnée de la station du niveau QUARANTAINE."
+        },
+        "german": {
+          "name": "Vergessen",
+          "description": "Finde die versteckte Munition im verlassenen Teil der Station im Level QUARANTÄNE."
+        },
+        "italian": {
+          "name": "Tesoro dimenticato",
+          "description": "Trova le munizioni nascoste nella parte abbandonata della stazione nel livello QUARANTENA."
+        },
+        "japanese": {
+          "name": "遺失物",
+          "description": "ステージ「病棟」の廃虚に隠された弾薬を見つける。"
+        },
+        "polish": {
+          "name": "Zapomniane",
+          "description": "Znajdź ukrytą amunicję w opuszczonej części stacji na etapie KWARANTANNA."
+        },
+        "russian": {
+          "name": "Забытое",
+          "description": "Найти спрятанные в заброшенной части станции патроны (уровень КАРАНТИН)."
+        },
+        "schinese": {
+          "name": "被遗忘的",
+          "description": "在「检疫站」关卡车站废弃区域找到隐藏弹药。"
+        },
+        "spanish": {
+          "name": "Olvidado",
+          "description": "Encuentra la munición oculta en la parte abandonada de la estación en el CUARENTENA."
+        }
+      }
+    },
+    "big_momma": {
+      "translations": {
+        "czech": {
+          "name": "Velká máti",
+          "description": "Zabij nosorožce."
+        },
+        "dutch": {
+          "name": "Mammie Mammoet",
+          "description": "Dood Rhino."
+        },
+        "english": {
+          "name": "Big Momma",
+          "description": "Kill the Rhino."
+        },
+        "french": {
+          "name": "Big Mamma",
+          "description": "Tuer le rhino."
+        },
+        "german": {
+          "name": "Dicke Mama",
+          "description": "Töte die Dicke Mama."
+        },
+        "italian": {
+          "name": "Mammona",
+          "description": "Uccidi la Mammona."
+        },
+        "japanese": {
+          "name": "ビッグママ",
+          "description": "ライノを倒す。"
+        },
+        "polish": {
+          "name": "Mamuśka",
+          "description": "Zabij nosorożca."
+        },
+        "russian": {
+          "name": "Большая Мама",
+          "description": "Убить Рино."
+        },
+        "schinese": {
+          "name": "大妈妈",
+          "description": "杀死犀牛。"
+        },
+        "spanish": {
+          "name": "Gran Mamá",
+          "description": "Mata al Rhino."
+        }
+      }
+    },
+    "diver": {
+      "translations": {
+        "czech": {
+          "name": "Potápěč",
+          "description": "Zapadni 10 krát do bažiny."
+        },
+        "dutch": {
+          "name": "Duiker",
+          "description": "Val 10 keer in het moeras."
+        },
+        "english": {
+          "name": "Diver",
+          "description": "Fall in the Swamp 10 times."
+        },
+        "french": {
+          "name": "Plongeur",
+          "description": "Tomber 10 fois dans le marais."
+        },
+        "german": {
+          "name": "Taucher",
+          "description": "Stürze 10 mal in den Sumpf."
+        },
+        "italian": {
+          "name": "Tuffatore",
+          "description": "Cadi 10 volte nella palude."
+        },
+        "japanese": {
+          "name": "ダイバー",
+          "description": "10回沼に落ちる。"
+        },
+        "polish": {
+          "name": "Nurek",
+          "description": "10 razy wpadnij do bagna."
+        },
+        "russian": {
+          "name": "Дайвер",
+          "description": "10 раз упасть в воду."
+        },
+        "schinese": {
+          "name": "潜水员",
+          "description": "掉进沼泽 10 次。"
+        },
+        "spanish": {
+          "name": "Buceador",
+          "description": "Cae 10 veces en el pantano."
+        }
+      }
+    },
+    "equipped": {
+      "translations": {
+        "czech": {
+          "name": "Výbava",
+          "description": "Najdi v bažinách všechny úkryty s výbavou."
+        },
+        "dutch": {
+          "name": "Uitgerust",
+          "description": "Vind alle uitrustingsvoorraden in het moeras."
+        },
+        "english": {
+          "name": "Equipped",
+          "description": "Find all Equipment Stashes in the swamps."
+        },
+        "french": {
+          "name": "Équipé",
+          "description": "Trouver toutes les cachettes d'équipements dans les marais."
+        },
+        "german": {
+          "name": "Ausgerüstet",
+          "description": "Finde alle Ausrüstungslager im Sumpf."
+        },
+        "italian": {
+          "name": "Equipaggiato",
+          "description": "Trova tutto l'equipaggiamento nascosto nelle paludi."
+        },
+        "japanese": {
+          "name": "捜索隊",
+          "description": "沼に隠された装備品を全て見つける。"
+        },
+        "polish": {
+          "name": "Wyposażony",
+          "description": "Znajdź wszystkie skrzynie z ekwipunkiem na bagnach."
+        },
+        "russian": {
+          "name": "Хозяйственный",
+          "description": "Найти все тайники на болотах."
+        },
+        "schinese": {
+          "name": "装备齐全",
+          "description": "找到沼泽中的全部装备藏匿点。"
+        },
+        "spanish": {
+          "name": "Equipado",
+          "description": "Encuentra todos los alijos de equipo en los pantanos."
+        }
+      }
+    },
+    "reunion": {
+      "translations": {
+        "czech": {
+          "name": "Setkání",
+          "description": "Najdi a vrať medvídka plačícímu dítěti."
+        },
+        "dutch": {
+          "name": "Reünie",
+          "description": "Zoek de teddybeer en geef deze terug aan het huilende kind."
+        },
+        "english": {
+          "name": "Reunion",
+          "description": "Find and return the crying child's Teddy Bear."
+        },
+        "french": {
+          "name": "Réunion",
+          "description": "Trouver la peluche de l'enfant et la lui rendre."
+        },
+        "german": {
+          "name": "Wiedervereinigung",
+          "description": "Finde den Teddybären des weinenden Kinds und bringe ihn zurück."
+        },
+        "italian": {
+          "name": "Nostalgia",
+          "description": "Trova e restituisci l'orsetto al bambino che piange."
+        },
+        "japanese": {
+          "name": "運命の再会",
+          "description": "クマのぬいぐるみを持ち主と再会させる。"
+        },
+        "polish": {
+          "name": "Znów razem",
+          "description": "Znajdź i zwróć misia płaczącemu dziecku."
+        },
+        "russian": {
+          "name": "Воссоединение",
+          "description": "Найти и вернуть мишку ребенку."
+        },
+        "schinese": {
+          "name": "重逢",
+          "description": "找到哭泣小孩的泰迪熊并归还。"
+        },
+        "spanish": {
+          "name": "Reencuentro",
+          "description": "Busca y devuelve el osito de peluche al niño desconsolado."
+        }
+      }
+    },
+    "soup": {
+      "translations": {
+        "czech": {
+          "name": "Garnátová polévka",
+          "description": "Zabij 5 garnátů pomocí granátů ."
+        },
+        "dutch": {
+          "name": "Soep",
+          "description": "Dood 5 garnalen met granaten."
+        },
+        "english": {
+          "name": "Soup",
+          "description": "Kill 5 Shrimp with Grenades."
+        },
+        "french": {
+          "name": "Soupe",
+          "description": "Tuer 5 crevettes avec des grenades."
+        },
+        "german": {
+          "name": "Suppe",
+          "description": "Töte 5 Shrimps mit Granaten."
+        },
+        "italian": {
+          "name": "Zuppa",
+          "description": "Uccidi 5 gamberi con una granata."
+        },
+        "japanese": {
+          "name": "エビスープ",
+          "description": "グレネードで5体のシュリンプを倒す。"
+        },
+        "polish": {
+          "name": "Zupa",
+          "description": "Zabij 5 krewetek granatami."
+        },
+        "russian": {
+          "name": "Суп",
+          "description": "Убить 5 креветок гранатами."
+        },
+        "schinese": {
+          "name": "虾汤",
+          "description": "用手榴弹炸死 5 只皮皮虾。"
+        },
+        "spanish": {
+          "name": "Sopa",
+          "description": "Mata a 5 gambas con granadas."
+        }
+      }
+    },
+    "scram": {
+      "translations": {
+        "czech": {
+          "name": "Táhněte",
+          "description": "Pobij všechny hlídače, než se dostanou k drezíně."
+        },
+        "dutch": {
+          "name": "Opkrassen",
+          "description": "Dood alle telepaten voordat ze de motorwagen bereiken."
+        },
+        "english": {
+          "name": "Scram",
+          "description": "Kill all Watchmen before they reach the Railcar."
+        },
+        "french": {
+          "name": "Dégagez !",
+          "description": "Tuer tous les hurleurs avant qu'ils n'atteignent la draisine."
+        },
+        "german": {
+          "name": "Macht euch vom Acker!",
+          "description": "Töte alle Telepathen, bevor sie den Schienenwagen erreichen."
+        },
+        "italian": {
+          "name": "Sbrigati",
+          "description": "Uccidi tutti i Custodi prima che raggiungano il vagone."
+        },
+        "japanese": {
+          "name": "アンタッチャブル",
+          "description": "レールカーを追ってくる全てのウォッチメンを触れられる前に倒す。"
+        },
+        "polish": {
+          "name": "Pryskamy",
+          "description": "Zabij wszystkich wartowników, zanim dotrą do wagonu."
+        },
+        "russian": {
+          "name": "Отвали!",
+          "description": "Не дать ни одному стражу запрыгнуть на дрезину."
+        },
+        "schinese": {
+          "name": "滚开！",
+          "description": "在全部守望者抵达轨道车之前杀死它们。"
+        },
+        "spanish": {
+          "name": "¡Que te pires!",
+          "description": "Mata a todos los Vigilantes antes de llegar al vagón."
+        }
+      }
+    },
+    "commando": {
+      "translations": {
+        "czech": {
+          "name": "Komando",
+          "description": "Zachraň v úrovni BANDITÉ všechny ženy a děti bez spuštění poplachu."
+        },
+        "dutch": {
+          "name": "Stoottroeper",
+          "description": "Red in het niveau BANDIETEN, de vrouwen en kinderen zonder dat er alarm geslagen wordt."
+        },
+        "english": {
+          "name": "Commando",
+          "description": "Rescue the Women and Children on the BANDITS level without raising alarm."
+        },
+        "french": {
+          "name": "Commando",
+          "description": "Sauver les femmes et les enfants du niveau BANDITS sans déclencher l'alarme."
+        },
+        "german": {
+          "name": "Kommando",
+          "description": "Rette die Frauen und Kinder im Level BANDITEN, ohne den Alarm auszulösen."
+        },
+        "italian": {
+          "name": "Commando",
+          "description": "Salva le donne e i bambini nel livello BANDITI senza far scattare l'allarme."
+        },
+        "japanese": {
+          "name": "コマンドー",
+          "description": "ステージ「難民キャンプ」で、警報を鳴らされずに女性と子供を救出する。"
+        },
+        "polish": {
+          "name": "Komandos",
+          "description": "Ocal kobiety i dzieci na etapie BANDYCI nie podnosząc alarmu."
+        },
+        "russian": {
+          "name": "Спецназ",
+          "description": "Спасти женщин и детей на уровне БАНДИТЫ, не подняв тревоги."
+        },
+        "schinese": {
+          "name": "突击队",
+          "description": "在「匪帮」关卡不触发警报救出妇女与儿童。"
+        },
+        "spanish": {
+          "name": "Como una sombra",
+          "description": "Rescata a las mujeres y niños en el nivel BANDIDOS sin levantar la alarma."
+        }
+      }
+    },
+    "invisible_soldier": {
+      "translations": {
+        "czech": {
+          "name": "Neviditelný voják",
+          "description": "Dokonči úroveň REVOLUCE bez jediného zabití a spuštění poplachu."
+        },
+        "dutch": {
+          "name": "Onzichtbare soldaat",
+          "description": "Voltooi het niveau REVOLUTIE zonder te doden en zonder dat er alarm geslagen wordt."
+        },
+        "english": {
+          "name": "Invisible Soldier",
+          "description": "Complete the REVOLUTION level without killing and raising an alarm."
+        },
+        "french": {
+          "name": "Soldat invisible",
+          "description": "Terminer le niveau RÉVOLUTION sans tuer ni déclencher une alarme."
+        },
+        "german": {
+          "name": "Unsichtbarer Soldat",
+          "description": "Bringe den Level REVOLUTION zu Ende, ohne jemanden zu töten oder einen Alarm auszulösen."
+        },
+        "italian": {
+          "name": "Soldato invisibile",
+          "description": "Completa il livello RIVOLUZIONE senza uccidere nessuno e far scattare l'allarme."
+        },
+        "japanese": {
+          "name": "見えざる兵士",
+          "description": "ステージ「レッドライン」を、敵を一人も殺さずに、また警報を鳴らされることなくクリアする。"
+        },
+        "polish": {
+          "name": "Niewidzialny żołnierz",
+          "description": "Ukończ etap REWOLUCJA nie zabijając nikogo, ani nie podnosząc alarmu."
+        },
+        "russian": {
+          "name": "Солдат-невидимка",
+          "description": "Пройти уровень РЕВОЛЮЦИЯ, никого не убив и не подняв тревоги."
+        },
+        "schinese": {
+          "name": "隐形士兵",
+          "description": "在「革命」关卡不杀人且不触发警报通关。"
+        },
+        "spanish": {
+          "name": "Soldado invisible",
+          "description": "Completa el nivel REVOLUCIÓN sin matar ni levantar la alarma."
+        }
+      }
+    },
+    "within_a_hair_of_death": {
+      "translations": {
+        "czech": {
+          "name": "Jen o vlásek",
+          "description": "Uprchni z Rudé trasy."
+        },
+        "dutch": {
+          "name": "Door het oog van de naald",
+          "description": "Ontsnap aan de Rode Linie."
+        },
+        "english": {
+          "name": "Within a Hair of Death",
+          "description": "Escape from the Red Line."
+        },
+        "french": {
+          "name": "À un cheveu près",
+          "description": "S'échapper de la Ligne Rouge."
+        },
+        "german": {
+          "name": "Um Haaresbreite entkommen",
+          "description": "Fliehe von der Roten Linie."
+        },
+        "italian": {
+          "name": "A un passo dalla morte",
+          "description": "Fuggi dalla linea Rossa."
+        },
+        "japanese": {
+          "name": "危機一髪",
+          "description": "レッドラインから脱出する。"
+        },
+        "polish": {
+          "name": "O włos od śmierci",
+          "description": "Ucieknij z Czerwonej Linii."
+        },
+        "russian": {
+          "name": "На волосок от смерти",
+          "description": "Сбежать с Красной Линии."
+        },
+        "schinese": {
+          "name": "九死一生",
+          "description": "从红线手中逃脱。"
+        },
+        "spanish": {
+          "name": "Por los pelos",
+          "description": "Escapa de la Línea Roja."
+        }
+      }
+    },
+    "derailed": {
+      "translations": {
+        "czech": {
+          "name": "Masakr",
+          "description": "Pobij v úrovni REVOLUCE všechny ozbrojené nepřátele, a to včetně posil."
+        },
+        "dutch": {
+          "name": "Ontspoord",
+          "description": "Dood alle gewapende vijanden, inclusief de versterkingen, in het niveau REVOLUTIE."
+        },
+        "english": {
+          "name": "Derailed",
+          "description": "Kill all armed enemies on the REVOLUTION level, including all reinforcements."
+        },
+        "french": {
+          "name": "Déraillé",
+          "description": "Tuer tous les ennemis armés dans le niveau RÉVOLUTION, y compris les renforts."
+        },
+        "german": {
+          "name": "Entgleist",
+          "description": "Töte alle bewaffneten Gegner im Level REVOLUTION - einschließlich der gesamten Verstärkung."
+        },
+        "italian": {
+          "name": "Fuori controllo",
+          "description": "Uccidi tutti i nemici armati, compresi i rinforzi, nel livello RIVOLUZIONE."
+        },
+        "japanese": {
+          "name": "皆殺し",
+          "description": "ステージ「レッドライン」で、増援部隊を含む敵全員を殺す。"
+        },
+        "polish": {
+          "name": "Wykolejony",
+          "description": "Zabij wszystkich uzbrojonych wrogów na etapie REWOLUCJA, włącznie z posiłkami."
+        },
+        "russian": {
+          "name": "Под откос",
+          "description": "Убить всех вооруженных врагов, включая подкрепления (уровень РЕВОЛЮЦИЯ)."
+        },
+        "schinese": {
+          "name": "脱轨",
+          "description": "杀死「革命」关卡中所有武装敌人，包括全部援军。"
+        },
+        "spanish": {
+          "name": "Descarrilamiento",
+          "description": "Mata a todos los enemigos armados en el nivel REVOLUCIÓN, refuerzos incluidos."
+        }
+      }
+    },
+    "patron_of_the_arts": {
+      "translations": {
+        "czech": {
+          "name": "Mecenáš umění",
+          "description": "Zhlédni celé představení."
+        },
+        "dutch": {
+          "name": "Mecenas",
+          "description": "Bekijk de hele theatershow."
+        },
+        "english": {
+          "name": "Patron of the Arts",
+          "description": "Watch the entire Theater Show."
+        },
+        "french": {
+          "name": "Mécène",
+          "description": "Regarder le spectacle du Théâtre en entier."
+        },
+        "german": {
+          "name": "Kunstgenießer",
+          "description": "Schau dir eine gesamte Theateraufführung an."
+        },
+        "italian": {
+          "name": "Mecenate delle arti",
+          "description": "Guarda l'intero spettacolo teatrale."
+        },
+        "japanese": {
+          "name": "芸術愛好家",
+          "description": "ショーを最後まで観る。"
+        },
+        "polish": {
+          "name": "Mecenas sztuki",
+          "description": "Obejrzyj całe przedstawienie w teatrze."
+        },
+        "russian": {
+          "name": "Театрал",
+          "description": "Просмотреть все представление в театре."
+        },
+        "schinese": {
+          "name": "艺术赞助人",
+          "description": "看完整整一场剧院演出。"
+        },
+        "spanish": {
+          "name": "Mecenas de las artes",
+          "description": "Ve entero el espectáculo teatral."
+        }
+      }
+    },
+    "mouse": {
+      "translations": {
+        "czech": {
+          "name": "Jako myš",
+          "description": "Dokonči úroveň OZVĚNY, aniž by si tě všimli hlídači."
+        },
+        "dutch": {
+          "name": "Muis",
+          "description": "Voltooi het niveau ECHO'S zonder dat je ontdekt wordt door de telepaten."
+        },
+        "english": {
+          "name": "Mouse",
+          "description": "Complete the ECHOES level undetected by the Watchmen."
+        },
+        "french": {
+          "name": "Souris",
+          "description": "Terminer le niveau ÉCHOS sans être repéré par les hurleurs."
+        },
+        "german": {
+          "name": "Maus",
+          "description": "Bringe den Level ECHOS zu Ende, ohne von den Telepathen bemerkt zu werden."
+        },
+        "italian": {
+          "name": "Topo",
+          "description": "Completa il livello ECO senza farti individuare dai Custodi."
+        },
+        "japanese": {
+          "name": "マウス",
+          "description": "ステージ「過去の幻影」で、ウォッチメンの群れをやりすごす。"
+        },
+        "polish": {
+          "name": "Myszka",
+          "description": "Ukończ etap ECHO, nie dając się wykryć wartownikom."
+        },
+        "russian": {
+          "name": "Мышь",
+          "description": "Пройти уровень ОТГОЛОСКИ, не потревожив Стражей."
+        },
+        "schinese": {
+          "name": "老鼠",
+          "description": "在不被守望者发现的情况下通过「回声」关卡。"
+        },
+        "spanish": {
+          "name": "Ratón",
+          "description": "Completa el nivel ECOS sin que te detecten los Vigilantes."
+        }
+      }
+    },
+    "tortoise": {
+      "translations": {
+        "czech": {
+          "name": "Na záda",
+          "description": "Otoč 10 pavouků vzhůru nohama."
+        },
+        "dutch": {
+          "name": "Schildpad",
+          "description": "Leg 10 spinnen op hun rug."
+        },
+        "english": {
+          "name": "Tortoise",
+          "description": "Make 10 Spiders flip belly-up."
+        },
+        "french": {
+          "name": "Tortue",
+          "description": "Mettre 10 araignées sur le dos."
+        },
+        "german": {
+          "name": "Schildkröte",
+          "description": "Sorge dafür, dass 10 Spinnen auf dem Rücken landen."
+        },
+        "italian": {
+          "name": "Tartaruga",
+          "description": "Metti pancia all'aria 10 ragni."
+        },
+        "japanese": {
+          "name": "両面焼き",
+          "description": "10体のスパイダーバグをひっくり返す。"
+        },
+        "polish": {
+          "name": "Żółw",
+          "description": "Przerzuć 10 radpająków na plecy."
+        },
+        "russian": {
+          "name": "Черепаха",
+          "description": "Заставить 10 пауков перевернуться на спину."
+        },
+        "schinese": {
+          "name": "乌龟",
+          "description": "让 10 只蜘蛛翻个肚朝天。"
+        },
+        "spanish": {
+          "name": "Tortuga",
+          "description": "Pon a 10 arañas boca abajo."
+        }
+      }
+    },
+    "invisible_savior": {
+      "translations": {
+        "czech": {
+          "name": "Neviditelný zachránce",
+          "description": "Dokonči úroveň SKLADIŠTĚ bez jediného zabití či spuštění poplachu."
+        },
+        "dutch": {
+          "name": "Onzichtbare redder",
+          "description": "Voltooi het niveau FACILITEIT zonder te doden of zonder dat er alarm geslagen wordt."
+        },
+        "english": {
+          "name": "Invisible Savior",
+          "description": "Complete the FACILITY level without killing or raising alarm."
+        },
+        "french": {
+          "name": "Sauveur invisible",
+          "description": "Terminer le niveau INSTALLATION sans tuer ni déclencher une alarme."
+        },
+        "german": {
+          "name": "Unsichtbarer Retter",
+          "description": "Bringe den Level EINRICHTUNG zu Ende, ohne zu töten oder den Alarm auszulösen."
+        },
+        "italian": {
+          "name": "Salvatore invisibile",
+          "description": "Completa il livello MAGAZZINO senza uccidere nessuno o far scattare l'allarme."
+        },
+        "japanese": {
+          "name": "見えざる救世主",
+          "description": "ステージ「救出」を、敵を一人も殺さずに、また警報を鳴らされることなくクリアする。"
+        },
+        "polish": {
+          "name": "Niewidzialny zbawca",
+          "description": "Ukończ etap OŚRODEK nie zabijając nikogo, ani nie podnosząc alarmu."
+        },
+        "russian": {
+          "name": "Невидимый спаситель",
+          "description": "Пройти уровень ЛАГЕРЬ, никого не убив и не подняв тревоги."
+        },
+        "schinese": {
+          "name": "隐形救世主",
+          "description": "在「设施」关卡不杀人且不触发警报通关。"
+        },
+        "spanish": {
+          "name": "Salvador invisible",
+          "description": "Completa el nivel INSTALACIÓN sin matar ni levantar la alarma."
+        }
+      }
+    },
+    "a_present": {
+      "translations": {
+        "czech": {
+          "name": "Dáreček",
+          "description": "Vezmi si ze zamčené krabice upravenou pistoli."
+        },
+        "dutch": {
+          "name": "Een cadeautje",
+          "description": "Pak het superspeciale pistool uit de afgesloten kist."
+        },
+        "english": {
+          "name": "A Present",
+          "description": "Take the Custom Pistol from the Locked Box."
+        },
+        "french": {
+          "name": "Un cadeau",
+          "description": "Prendre le pistolet spécial dans la boîte fermée."
+        },
+        "german": {
+          "name": "Ein Geschenk",
+          "description": "Nimm die Spezialpistole aus der verschlossenen Kiste."
+        },
+        "italian": {
+          "name": "Un regalo",
+          "description": "Raccogli la pistola speciale dalla scatola chiusa."
+        },
+        "japanese": {
+          "name": "宝物",
+          "description": "鍵のかかったロッカーから奪われたカスタム銃を手に入れる。"
+        },
+        "polish": {
+          "name": "Prezent",
+          "description": "Weź zmodyfikowany pistolet z zamkniętej szafki."
+        },
+        "russian": {
+          "name": "Подарок",
+          "description": "Взять модифицированный пистолет из тайника."
+        },
+        "schinese": {
+          "name": "一件礼物",
+          "description": "从锁住的箱子里取走定制手枪。"
+        },
+        "spanish": {
+          "name": "Un regalo",
+          "description": "Toma la pistola personalizada de la caja cerrada."
+        }
+      }
+    },
+    "invisible_intruder": {
+      "translations": {
+        "czech": {
+          "name": "Neviditelný vetřelec",
+          "description": "Dokonči úroveň ROZDĚLENÍ bez jediného zabití či spuštění poplachu."
+        },
+        "dutch": {
+          "name": "Onzichtbare indringer",
+          "description": "Voltooi het niveau GESCHEIDEN zonder te doden of zonder dat er alarm geslagen wordt."
+        },
+        "english": {
+          "name": "Invisible Intruder",
+          "description": "Complete the SEPARATION level without killing or raising alarm."
+        },
+        "french": {
+          "name": "Intrus invisible",
+          "description": "Terminer le niveau SÉPARATION sans tuer ni déclencher une alarme."
+        },
+        "german": {
+          "name": "Unsichtbarer Eindringling",
+          "description": "Bringe den Level TRENNUNG zu Ende, ohne zu töten oder den Alarm auszulösen."
+        },
+        "italian": {
+          "name": "Intruso invisibile",
+          "description": "Completa il livello SEPARAZIONE senza uccidere nessuno o far scattare l'allarme."
+        },
+        "japanese": {
+          "name": "見えざる侵入者",
+          "description": "ステージ「二度目の危機」を、敵を一人も殺さずに、また警報を鳴らされることなくクリアする。"
+        },
+        "polish": {
+          "name": "Niewidzialny intruz",
+          "description": "Ukończ etap ODDZIELENIE nie zabijając nikogo, ani nie podnosząc alarmu."
+        },
+        "russian": {
+          "name": "Человек-невидимка",
+          "description": "Пройти уровень РАССТАВАНИЕ, никого не убив и не подняв тревоги."
+        },
+        "schinese": {
+          "name": "隐形入侵者",
+          "description": "在「分离」关卡不杀人且不触发警报通关。"
+        },
+        "spanish": {
+          "name": "Intruso invisible",
+          "description": "Completa el nivel SEPARACIÓN sin matar ni levantar la alarma."
+        }
+      }
+    },
+    "clean_jailbreak": {
+      "translations": {
+        "czech": {
+          "name": "Mistr útěků",
+          "description": "Uprchni před nacisty v úrovni REICH a nenech se chytit."
+        },
+        "dutch": {
+          "name": "Perfecte ontsnapping",
+          "description": "Ontsnap aan de achtervolgende Fascisten in het niveau RIJK zonder gepakt te worden."
+        },
+        "english": {
+          "name": "Clean Escape",
+          "description": "Escape the chasing Nazis on the REICH level without being caught once."
+        },
+        "french": {
+          "name": "Évasion parfaite",
+          "description": "Échapper aux Fachos dans le niveau LE REICH sans se faire prendre une seule fois."
+        },
+        "german": {
+          "name": "Sauberer Gefängnisausbruch ",
+          "description": "Fliehe vor den verfolgenden Faschisten im Level REICH, ohne auch nur einmal erwischt zu werden."
+        },
+        "italian": {
+          "name": "Evasione perfetta",
+          "description": "Fuggi dagli Imperialisti nel livello IMPERO al primo tentativo."
+        },
+        "japanese": {
+          "name": "鮮やかな逃走劇",
+          "description": "ステージ「帝国」で、追ってくるファシストから一度も捕まらずに逃げ切る。"
+        },
+        "polish": {
+          "name": "Uciekinier",
+          "description": "Ucieknij pościgowi faszystów na etapie RZESZA nie dając się ani razu złapać."
+        },
+        "russian": {
+          "name": "Чистый уход",
+          "description": "Спастись от погони на уровне РЕЙХ, ни разу не попавшись."
+        },
+        "schinese": {
+          "name": "干净越狱",
+          "description": "在「帝国」关卡逃脱追捕的纳粹，一次都不被抓到。"
+        },
+        "spanish": {
+          "name": "Fuga perfecta",
+          "description": "Escapa de los fascistas en el nivel IMPERIO al primer intento."
+        }
+      }
+    },
+    "freedom": {
+      "translations": {
+        "czech": {
+          "name": "Svoboda!",
+          "description": "Osvoboď všechny zajatce."
+        },
+        "dutch": {
+          "name": "Vrij!",
+          "description": "Bevrijd de gevangenen."
+        },
+        "english": {
+          "name": "Freedom!",
+          "description": "Free the Prisoners."
+        },
+        "french": {
+          "name": "Liberté !",
+          "description": "Libérer les prisonniers."
+        },
+        "german": {
+          "name": "Freiheit!",
+          "description": "Befreie die Gefangenen."
+        },
+        "italian": {
+          "name": "Libertà!",
+          "description": "Libera i prigionieri."
+        },
+        "japanese": {
+          "name": "自由だ！",
+          "description": "囚人を解放する。"
+        },
+        "polish": {
+          "name": "Wolność!",
+          "description": "Uwolnij więźniów."
+        },
+        "russian": {
+          "name": "Свобода!",
+          "description": "Освободить пленников."
+        },
+        "schinese": {
+          "name": "自由！",
+          "description": "释放囚犯。"
+        },
+        "spanish": {
+          "name": "¡Libertad!",
+          "description": "Libera a los prisioneros."
+        }
+      }
+    },
+    "not_a_rabbit": {
+      "translations": {
+        "czech": {
+          "name": "Nejsem žádný zajíček",
+          "description": "Dokonči úroveň SPÁLENIŠTĚ, aniž by tě jedinkrát zasáhli."
+        },
+        "dutch": {
+          "name": "Geen konijntje",
+          "description": "Voltooi het niveau PUINHOPEN zonder een schram op te lopen."
+        },
+        "english": {
+          "name": "Not A Rabbit ",
+          "description": "Finish the ASHES level without taking a hit."
+        },
+        "french": {
+          "name": "Pas un lapin",
+          "description": "Terminer le niveau CENDRES sans être blessé."
+        },
+        "german": {
+          "name": "Kein Kaninchen",
+          "description": "Bringe den Level ASCHE zu Ende, ohne einen Treffer zu kassieren."
+        },
+        "italian": {
+          "name": "Non un coniglio",
+          "description": "Termina il livello CENERI senza essere colpito."
+        },
+        "japanese": {
+          "name": "ウサギじゃない！",
+          "description": "ステージ「焼け野原」を、攻撃を受けることなくクリアする。"
+        },
+        "polish": {
+          "name": "Nie jestem przynętką",
+          "description": "Ukończ etap POPIOŁY, nie dając się trafić."
+        },
+        "russian": {
+          "name": "Не кролик",
+          "description": "Пройти уровень ПЕПЕЛИЩЕ, не получив повреждений."
+        },
+        "schinese": {
+          "name": "不是兔子",
+          "description": "在「灰烬」关卡全程不受到任何伤害。"
+        },
+        "spanish": {
+          "name": "No es un gallina ",
+          "description": "Termina el nivel CENIZAS sin recibir ningún impacto."
+        }
+      }
+    },
+    "rabbit": {
+      "translations": {
+        "czech": {
+          "name": "Zajíček",
+          "description": "Dokonči výcvik."
+        },
+        "dutch": {
+          "name": "Konijntje",
+          "description": "Voltooi de training."
+        },
+        "english": {
+          "name": "Rabbit",
+          "description": "Complete training sequence."
+        },
+        "french": {
+          "name": "Lapin",
+          "description": "Terminer la séquence d'entraînement."
+        },
+        "german": {
+          "name": "Kaninchen",
+          "description": "Bringe die Ausbildung zu Ende."
+        },
+        "italian": {
+          "name": "Coniglio",
+          "description": "Completa la sequenza di addestramento."
+        },
+        "japanese": {
+          "name": "ウサギ",
+          "description": "トレーニングをクリアする。"
+        },
+        "polish": {
+          "name": "Przynętka",
+          "description": "Ukończ sekwencję szkolenia."
+        },
+        "russian": {
+          "name": "Кролик",
+          "description": "Завершить тренировку."
+        },
+        "schinese": {
+          "name": "兔子",
+          "description": "完成训练环节。"
+        },
+        "spanish": {
+          "name": "Conejo",
+          "description": "Completa la secuencia de entrenamiento."
+        }
+      }
+    },
+    "soldier": {
+      "translations": {
+        "czech": {
+          "name": "Voják",
+          "description": "Zabij 100 lidských protivníků."
+        },
+        "dutch": {
+          "name": "Soldaat",
+          "description": "Dood 100 menselijke vijanden."
+        },
+        "english": {
+          "name": "Soldier",
+          "description": "Kill 100 Human Enemies."
+        },
+        "french": {
+          "name": "Soldat",
+          "description": "Tuer 100 ennemis humains."
+        },
+        "german": {
+          "name": "Soldat",
+          "description": "Töte 100 menschliche Feinde."
+        },
+        "italian": {
+          "name": "Soldato",
+          "description": "Uccidi 100 nemici umani."
+        },
+        "japanese": {
+          "name": "ソルジャー",
+          "description": "100体の人間を殺す。"
+        },
+        "polish": {
+          "name": "Żołnierz",
+          "description": "Zabij 100 ludzi."
+        },
+        "russian": {
+          "name": "Солдат",
+          "description": "Убить 100 противников-людей."
+        },
+        "schinese": {
+          "name": "士兵",
+          "description": "杀死 100 名人类敌人。"
+        },
+        "spanish": {
+          "name": "Soldado",
+          "description": "Mata a 100 enemigos humanos."
+        }
+      }
+    },
+    "shadow": {
+      "translations": {
+        "czech": {
+          "name": "Stín",
+          "description": "Zabij potichu 15 nepřátel."
+        },
+        "dutch": {
+          "name": "Schaduw",
+          "description": "Dood ongezien 15 vijanden."
+        },
+        "english": {
+          "name": "Shadow",
+          "description": "Stealthily kill 15 Enemies."
+        },
+        "french": {
+          "name": "Ombre",
+          "description": "Tuer furtivement 15 ennemis."
+        },
+        "german": {
+          "name": "Schatten",
+          "description": "Töte heimlich 15 Feinde."
+        },
+        "italian": {
+          "name": "Ombra",
+          "description": "Uccidi furtivamente 15 nemici."
+        },
+        "japanese": {
+          "name": "シャドー",
+          "description": "ステルス状態で15体の敵を殺す。"
+        },
+        "polish": {
+          "name": "W mroku",
+          "description": "Zabij z ukrycia 15 wrogów."
+        },
+        "russian": {
+          "name": "Тень",
+          "description": "Скрытно убить 15 противников."
+        },
+        "schinese": {
+          "name": "幽灵",
+          "description": "潜行暗杀 15 名敌人。"
+        },
+        "spanish": {
+          "name": "Sombra",
+          "description": "Mata sigilosamente a 15 enemigos."
+        }
+      }
+    },
+    "antibiotic": {
+      "translations": {
+        "czech": {
+          "name": "Antibiotikum",
+          "description": "Zabij 100 mutantů."
+        },
+        "dutch": {
+          "name": "Antibiotica",
+          "description": "Dood 100 mutanten."
+        },
+        "english": {
+          "name": "Antibiotic",
+          "description": "Kill 100 Mutants."
+        },
+        "french": {
+          "name": "Antibiotique",
+          "description": "Tuer 100 mutants."
+        },
+        "german": {
+          "name": "Antibiotikum",
+          "description": "Töte 100 Mutanten."
+        },
+        "italian": {
+          "name": "Antibiotico",
+          "description": "Uccidi 100 mutanti."
+        },
+        "japanese": {
+          "name": "ハンター",
+          "description": "100体のミュータントを倒す。"
+        },
+        "polish": {
+          "name": "Antybiotyk",
+          "description": "Zabij 100 mutantów."
+        },
+        "russian": {
+          "name": "Антибиотик",
+          "description": "Убить 100 мутантов."
+        },
+        "schinese": {
+          "name": "抗生素",
+          "description": "杀死 100 只变异体。"
+        },
+        "spanish": {
+          "name": "Antibiótico",
+          "description": "Mata a 100 mutantes."
+        }
+      }
+    },
+    "published": {
+      "translations": {
+        "czech": {
+          "name": "Vydáno",
+          "description": "Posbírej všech 43 skrytých stránek Arťomova deníku."
+        },
+        "dutch": {
+          "name": "Uitgegeven",
+          "description": "Voltooi alle 43 pagina's van Artyoms verborgen dagboek."
+        },
+        "english": {
+          "name": "Published",
+          "description": "Complete all 43 of Artyom's hidden Diary pages."
+        },
+        "french": {
+          "name": "Publié",
+          "description": "Terminer les 43 pages du carnet caché d'Artyom."
+        },
+        "german": {
+          "name": "Veröffentlicht",
+          "description": "Schreibe alle 43 Seiten von Artjoms verstecktem Tagebuch, um es zu vervollständigen."
+        },
+        "italian": {
+          "name": "Pubblicato",
+          "description": "Completa tutte le 43 pagine segrete del taccuino di Artyom."
+        },
+        "japanese": {
+          "name": "校了",
+          "description": "“日記”を全43ページ集める。"
+        },
+        "polish": {
+          "name": "Do wydawcy!",
+          "description": "Zapisz wszystkie 43 ukryte strony dziennika Artema."
+        },
+        "russian": {
+          "name": "Издание",
+          "description": "Написать все 43 страницы дневника Артема."
+        },
+        "schinese": {
+          "name": "出版",
+          "description": "集齐阿尔乔姆隐藏日记的全部 43 页。"
+        },
+        "spanish": {
+          "name": "Publicado",
+          "description": "Completa las 43 páginas del cuaderno oculto de Artyom."
+        }
+      }
+    },
+    "musician": {
+      "translations": {
+        "czech": {
+          "name": "Hudebník",
+          "description": "Použij všechny hudební nástroje ve hře."
+        },
+        "dutch": {
+          "name": "Muzikant",
+          "description": "Gebruik alle muziekinstrumenten in de game."
+        },
+        "english": {
+          "name": "Musician",
+          "description": "Use all Musical Instruments in the game."
+        },
+        "french": {
+          "name": "Musicien",
+          "description": "Utiliser tous les instruments de musique du jeu."
+        },
+        "german": {
+          "name": "Musiker",
+          "description": "Benutze alle Musikinstrumente im Spiel."
+        },
+        "italian": {
+          "name": "Musicista",
+          "description": "Utilizza tutti gli strumenti musicali del gioco."
+        },
+        "japanese": {
+          "name": "ミュージシャン",
+          "description": "ゲーム内の全ての楽器を弾く。"
+        },
+        "polish": {
+          "name": "Muzyk",
+          "description": "Użyj wszystkich instrumentów muzycznych w grze."
+        },
+        "russian": {
+          "name": "Музыкант",
+          "description": "Сыграть на всех музыкальных инструментах в игре."
+        },
+        "schinese": {
+          "name": "音乐家",
+          "description": "使用游戏中的全部乐器。"
+        },
+        "spanish": {
+          "name": "Músico",
+          "description": "Usa todos los instrumentos musicales del juego."
+        }
+      }
+    },
+    "first_draft": {
+      "translations": {
+        "czech": {
+          "name": "Hrubý námět",
+          "description": "Popiš 10 skrytých stránek Arťomova deníku."
+        },
+        "dutch": {
+          "name": "Eerste versie",
+          "description": "Schrijf 10 pagina's van Artyoms verborgen dagboek."
+        },
+        "english": {
+          "name": "First Draft",
+          "description": "Write 10 of Artyom's hidden Diary pages."
+        },
+        "french": {
+          "name": "Première version",
+          "description": "Écrire 10 pages du carnet caché d'Artyom."
+        },
+        "german": {
+          "name": "Erster Entwurf",
+          "description": "Schreibe 10 Seiten von Artjoms verstecktem Tagebuch."
+        },
+        "italian": {
+          "name": "Prima stesura",
+          "description": "Scrivi 10 pagine segrete del taccuino di Artyom."
+        },
+        "japanese": {
+          "name": "版下",
+          "description": "“日記”を10ページ集める。"
+        },
+        "polish": {
+          "name": "Wydanie pierwsze",
+          "description": "Zapisz 10 ukrytych stron dziennika Artema."
+        },
+        "russian": {
+          "name": "Черновик",
+          "description": "Написать 10 страниц дневника Артема."
+        },
+        "schinese": {
+          "name": "初稿",
+          "description": "写下阿尔乔姆隐藏日记中的 10 页。"
+        },
+        "spanish": {
+          "name": "Primer borrador",
+          "description": "Escribe 10 páginas del cuaderno oculto de Artyom."
+        }
+      }
+    },
+    "tesla": {
+      "translations": {
+        "czech": {
+          "name": "Tesla",
+          "description": "Znič 50 světel."
+        },
+        "dutch": {
+          "name": "Tesla",
+          "description": "Breek 50 lampen."
+        },
+        "english": {
+          "name": "Tesla",
+          "description": "Break 50 Lights."
+        },
+        "french": {
+          "name": "Tesla",
+          "description": "Casser 50 lumières."
+        },
+        "german": {
+          "name": "Tesla",
+          "description": "Mache 50 Lampen kaputt."
+        },
+        "italian": {
+          "name": "Tesla",
+          "description": "Distruggi 50 luci."
+        },
+        "japanese": {
+          "name": "テスラ",
+          "description": "50個のライトを壊す。"
+        },
+        "polish": {
+          "name": "Tesla",
+          "description": "Zniszcz 50 źródeł światła."
+        },
+        "russian": {
+          "name": "Тесла",
+          "description": "Разбить 50 лампочек."
+        },
+        "schinese": {
+          "name": "特斯拉",
+          "description": "打碎 50 盏灯。"
+        },
+        "spanish": {
+          "name": "Tesla",
+          "description": "Rompe 50 luces."
+        }
+      }
+    },
+    "inferno": {
+      "translations": {
+        "czech": {
+          "name": "Inferno",
+          "description": "Zapal 2 nepřátele najednou."
+        },
+        "dutch": {
+          "name": "Inferno",
+          "description": "Steek 2 vijanden tegelijk in de fik."
+        },
+        "english": {
+          "name": "Inferno",
+          "description": "Set 2 Enemies on fire at once."
+        },
+        "french": {
+          "name": "Brasier",
+          "description": "Mettre le feu à 2 ennemis en même temps."
+        },
+        "german": {
+          "name": "Inferno",
+          "description": "Setze 2 Feinde gleichzeitig in Brand."
+        },
+        "italian": {
+          "name": "Inferno",
+          "description": "Dai fuoco a 2 nemici contemporaneamente."
+        },
+        "japanese": {
+          "name": "インフェルノ",
+          "description": "同時に2体の敵に火をつける。"
+        },
+        "polish": {
+          "name": "Piekło",
+          "description": "Jednocześnie podpal 2 wrogów."
+        },
+        "russian": {
+          "name": "Пожар ",
+          "description": "Поджечь двух противников одновременно."
+        },
+        "schinese": {
+          "name": "炼狱",
+          "description": "让 2 名敌人同时着火。"
+        },
+        "spanish": {
+          "name": "Infierno",
+          "description": "Prende fuego a 2 enemigos a la vez."
+        }
+      }
+    },
+    "ever_vigilant": {
+      "translations": {
+        "czech": {
+          "name": "Stále ve střehu",
+          "description": "Zneškodni 10 pastí"
+        },
+        "dutch": {
+          "name": "Altijd alert",
+          "description": "Maak 10 vallen onschadelijk."
+        },
+        "english": {
+          "name": "Ever Vigilant ",
+          "description": "Disarm 10 Traps."
+        },
+        "french": {
+          "name": "Vigilance extrême",
+          "description": "Désamorcer 10 pièges."
+        },
+        "german": {
+          "name": "Immer auf der Hut",
+          "description": "Entschärfe 10 Fallen."
+        },
+        "italian": {
+          "name": "Sempre in guardia",
+          "description": "Disattiva 10 trappole."
+        },
+        "japanese": {
+          "name": "爆弾処理班",
+          "description": "10個のトラップを解除する。"
+        },
+        "polish": {
+          "name": "Zawsze czujny",
+          "description": "Rozbrój 10 pułapek."
+        },
+        "russian": {
+          "name": "Сапер",
+          "description": "Обезвредить 10 ловушек."
+        },
+        "schinese": {
+          "name": "时刻警惕",
+          "description": "拆除 10 个陷阱。"
+        },
+        "spanish": {
+          "name": "Siempre vigilante ",
+          "description": "Desmonta 10 trampas."
+        }
+      }
+    },
+    "edison": {
+      "translations": {
+        "czech": {
+          "name": "Edison",
+          "description": "Zhasni 40 světel bez jejich zničení."
+        },
+        "dutch": {
+          "name": "Edison",
+          "description": "Schakel 40 lampen uit zonder ze te breken."
+        },
+        "english": {
+          "name": "Edison",
+          "description": "Turn off 40 Lights without breaking them."
+        },
+        "french": {
+          "name": "Edison",
+          "description": "Éteindre 40 lumières sans les casser."
+        },
+        "german": {
+          "name": "Edison",
+          "description": "Schalte 40 Lampen aus, ohne sie kaputt zu machen."
+        },
+        "italian": {
+          "name": "Edison",
+          "description": "Spegni 40 luci senza distruggerle."
+        },
+        "japanese": {
+          "name": "エジソン",
+          "description": "壊すことなく、40個のライトを消す。"
+        },
+        "polish": {
+          "name": "Edison",
+          "description": "Wyłącz 40 źródeł światła, nie niszcząc ich."
+        },
+        "russian": {
+          "name": "Эдисон",
+          "description": "Выключить 40 лампочек, не разбивая их."
+        },
+        "schinese": {
+          "name": "爱迪生",
+          "description": "在不打碎的前提下关掉 40 盏灯。"
+        },
+        "spanish": {
+          "name": "Edison",
+          "description": "Apaga 40 luces sin romperlas."
+        }
+      }
+    },
+    "dlc_saboteur": {
+      "translations": {
+        "czech": {
+          "name": "Sabotér",
+          "description": "Dokonči level TÝM ODSTŘELOVAČŮ."
+        },
+        "dutch": {
+          "name": "Saboteur",
+          "description": "Voltooi het level SLUIPSCHUTTERSTEAM."
+        },
+        "english": {
+          "name": "Saboteur",
+          "description": "Complete the SNIPER TEAM level."
+        },
+        "french": {
+          "name": "Saboteur",
+          "description": "Terminer le niveau ÉQUIPE TIREUR D'ÉLITE."
+        },
+        "german": {
+          "name": "Saboteur",
+          "description": "Bringe den Level SCHARFSCHÜTZENTEAM zu Ende."
+        },
+        "italian": {
+          "name": "Sabotatore",
+          "description": "Completa il livello SQUADRA CECCHINI."
+        },
+        "japanese": {
+          "name": "サボタージュ",
+          "description": "ステージ「スナイパーチーム」をクリアする。"
+        },
+        "polish": {
+          "name": "Sabotażysta",
+          "description": "Ukończ etap ODDZIAŁ SNAJPERÓW."
+        },
+        "russian": {
+          "name": "Диверсант",
+          "description": "Пройти уровень СНАЙПЕРСКИЙ РАСЧЕТ."
+        },
+        "schinese": {
+          "name": "破坏者",
+          "description": "完成「狙击小队」关卡。"
+        },
+        "spanish": {
+          "name": "Saboteur",
+          "description": "Completa el nivel EQUIPO FRANCOTIRADOR."
+        }
+      }
+    },
+    "dlc_sniper": {
+      "translations": {
+        "czech": {
+          "name": "Odstřelovač",
+          "description": "Zabij 10 nepřátel odstřelovačkou přímou ránou do hlavy."
+        },
+        "dutch": {
+          "name": "Sluipschutter",
+          "description": "Dood 10 vijanden met een hoofdschot uit je sluipschuttersgeweer."
+        },
+        "english": {
+          "name": "Sniper",
+          "description": "Kill 10 enemies with headshots using your sniper rifle."
+        },
+        "french": {
+          "name": "Sniper",
+          "description": "Tuer 10 ennemis avec des tirs en pleine tête avec le fusil de sniper."
+        },
+        "german": {
+          "name": "Scharfschütze",
+          "description": "Töte 10 Feinde mit deinem Scharfschützengewehr durch Kopfschüsse."
+        },
+        "italian": {
+          "name": "Cecchino",
+          "description": "Uccidi 10 nemici con colpi alla testa con il tuo fucile da cecchino."
+        },
+        "japanese": {
+          "name": "スナイパー",
+          "description": "スナイパーライフルのヘッドショットで10人の敵を倒す。"
+        },
+        "polish": {
+          "name": "Snajper",
+          "description": "Zabij 10 wrogów strzałami w głowę ze swojego karabinu snajperskiego."
+        },
+        "russian": {
+          "name": "Снайпер",
+          "description": "Убить 10 врагов выстрелами в голову из снайперской винтовки."
+        },
+        "schinese": {
+          "name": "狙击手",
+          "description": "用狙击步枪爆头杀死 10 名敌人。"
+        },
+        "spanish": {
+          "name": "Francotirador",
+          "description": "Mata a 10 enemigos con disparos a la cabeza usando tu rifle de francotirador."
+        }
+      }
+    },
+    "dlc_kshatriya": {
+      "translations": {
+        "czech": {
+          "name": "Kshatriya",
+          "description": "Dokonči level KSHATRIYA."
+        },
+        "dutch": {
+          "name": "Kshatriya",
+          "description": "Voltooi het level KSHATRIYA."
+        },
+        "english": {
+          "name": "Kshatriya",
+          "description": "Complete the KSHATRIYA level."
+        },
+        "french": {
+          "name": "Kshatriya",
+          "description": "Terminer le niveau KSHATRIYA."
+        },
+        "german": {
+          "name": "Kschatria",
+          "description": "Bringe den Level KSCHATRIA zu Ende."
+        },
+        "italian": {
+          "name": "Kshatriya",
+          "description": "Completa il livello KSHATRIYA."
+        },
+        "japanese": {
+          "name": "クシャトリヤ",
+          "description": "ステージ「クシャトリヤ」をクリアする。"
+        },
+        "polish": {
+          "name": "Kshatriya",
+          "description": "Ukończ etap KSHATRIYA."
+        },
+        "russian": {
+          "name": "Кшатрии",
+          "description": "Пройти уровень КШАТРИЯ."
+        },
+        "schinese": {
+          "name": "刹帝利",
+          "description": "完成「刹帝利」关卡。"
+        },
+        "spanish": {
+          "name": "Kshatriya",
+          "description": "Completa el nivel KSHATRIYA."
+        }
+      }
+    },
+    "dlc_artifact": {
+      "translations": {
+        "czech": {
+          "name": "Artefakt",
+          "description": "Najdi 30 artefaktů."
+        },
+        "dutch": {
+          "name": "Artefact",
+          "description": "Vind 30 artefacten."
+        },
+        "english": {
+          "name": "Artifact",
+          "description": "Find 30 artifacts."
+        },
+        "french": {
+          "name": "Artefact",
+          "description": "Trouver 30 artefacts."
+        },
+        "german": {
+          "name": "Artefakt",
+          "description": "Finde 30 Artefakte."
+        },
+        "italian": {
+          "name": "Manufatto",
+          "description": "Trova 30 manufatti."
+        },
+        "japanese": {
+          "name": "収集癖",
+          "description": "工芸品を30個見つける。"
+        },
+        "polish": {
+          "name": "Artefakt",
+          "description": "Znajdź 30 artefaktów."
+        },
+        "russian": {
+          "name": "Артефакт",
+          "description": "Найти 30 артефактов."
+        },
+        "schinese": {
+          "name": "人工制品",
+          "description": "找到 30 件人工制品。"
+        },
+        "spanish": {
+          "name": "Reliquia",
+          "description": "Encuentra 30 reliquias."
+        }
+      }
+    },
+    "dlc_heil_reich": {
+      "translations": {
+        "czech": {
+          "name": "Reichu zdar! ",
+          "description": "Dokonči level TĚŽKOODĚNCI."
+        },
+        "dutch": {
+          "name": "Heil het Rijk!",
+          "description": "Voltooi het level RIJKSCOMMANDO."
+        },
+        "english": {
+          "name": "Hail Reich! ",
+          "description": "Complete the HEAVY SQUAD level."
+        },
+        "french": {
+          "name": "Vive le Reich !",
+          "description": "Terminer le niveau SECTION LOURDE."
+        },
+        "german": {
+          "name": "Lang lebe das Reich!",
+          "description": "Bringe den Level SCHWERE TRUPPE zu Ende."
+        },
+        "italian": {
+          "name": "Ave, Impero! ",
+          "description": "Completa il livello SQUADRA PESANTE."
+        },
+        "japanese": {
+          "name": "帝国万歳！",
+          "description": "ステージ「突撃兵」をクリアする。"
+        },
+        "polish": {
+          "name": "Niech żyje Rzesza! ",
+          "description": "Ukończ etap CIĘŻKI ODDZIAŁ."
+        },
+        "russian": {
+          "name": "Во славу Рейха!",
+          "description": "Пройти уровень ТЯЖЕЛАЯ ПЕХОТА."
+        },
+        "schinese": {
+          "name": "帝国万岁！",
+          "description": "完成「重装小队」关卡。"
+        },
+        "spanish": {
+          "name": "¡Viva el Imperio! ",
+          "description": "Completa el nivel PELOTÓN PESADO."
+        }
+      }
+    },
+    "dlc_homo_homini": {
+      "translations": {
+        "czech": {
+          "name": "Homo Homini Lupus Est ",
+          "description": "Zabij 100 nepřátel těžkými zbraněmi."
+        },
+        "dutch": {
+          "name": "Homo Homini Lupus Est",
+          "description": "Dood 100 vijanden met zware wapens."
+        },
+        "english": {
+          "name": "Homo Homini Lupus Est ",
+          "description": "Kill 100 enemies with heavy weapons."
+        },
+        "french": {
+          "name": "Homo Homini Lupus Est ",
+          "description": "Tuer 100 ennemis à l'arme lourde."
+        },
+        "german": {
+          "name": "Homo homini lupus est",
+          "description": "Töte 100 Feinde mit schweren Waffen."
+        },
+        "italian": {
+          "name": "Homo Homini Lupus Est ",
+          "description": "Uccidi 100 nemici con armi pesanti."
+        },
+        "japanese": {
+          "name": "マッチョ",
+          "description": "重火器で敵を100体倒す。"
+        },
+        "polish": {
+          "name": "Homo Homini Lupus Est ",
+          "description": "Zabij 100 przeciwników z ciężkiej broni."
+        },
+        "russian": {
+          "name": "Человек человеку - волк",
+          "description": "Убить 100 врагов из тяжелого оружия."
+        },
+        "schinese": {
+          "name": "人对人是狼",
+          "description": "用重武器杀死 100 名敌人。"
+        },
+        "spanish": {
+          "name": "Homo homini lupus est ",
+          "description": "Mata a 100 enemigos con armas pesadas."
+        }
+      }
+    },
+    "dlc_testcomplete": {
+      "translations": {
+        "czech": {
+          "name": "Test kompletní",
+          "description": "Dokonči level Věž."
+        },
+        "dutch": {
+          "name": "Test voltooid",
+          "description": "Voltooi het level TOREN."
+        },
+        "english": {
+          "name": "Test Сomplete",
+          "description": "Complete the TOWER level."
+        },
+        "french": {
+          "name": "Test terminé",
+          "description": "Terminer le niveau TOUR."
+        },
+        "german": {
+          "name": "Test abgeschlossen",
+          "description": "Bringe den Level TURM zu Ende."
+        },
+        "italian": {
+          "name": "Test completato",
+          "description": "Completa il livello TORRE."
+        },
+        "japanese": {
+          "name": "テスト終了",
+          "description": "ステージ「タワー」をクリアする。"
+        },
+        "polish": {
+          "name": "Ukończono test",
+          "description": "Ukończ etap WIEŻA."
+        },
+        "russian": {
+          "name": "Тест пройден",
+          "description": "Пройти уровень БАШНЯ."
+        },
+        "schinese": {
+          "name": "测试完成",
+          "description": "完成「塔」关卡。"
+        },
+        "spanish": {
+          "name": "Prueba completada",
+          "description": "Completa el nivel TORRE."
+        }
+      }
+    },
+    "dlc_willpower": {
+      "translations": {
+        "czech": {
+          "name": "Síla vůle",
+          "description": "Dokonči alespoň jednu OBROVSKOU misi."
+        },
+        "dutch": {
+          "name": "Wilskracht",
+          "description": "Voltooi ten minste één ENORME missie."
+        },
+        "english": {
+          "name": "Willpower",
+          "description": "Сomplete at least one HUGE mission."
+        },
+        "french": {
+          "name": "Volonté",
+          "description": "Terminer au moins une mission IMMENSE."
+        },
+        "german": {
+          "name": "Willenskraft",
+          "description": "Bringe mindestens einen RIESIGEN Auftrag zu Ende."
+        },
+        "italian": {
+          "name": "Forza di volontà",
+          "description": "Completa almeno una missione ENORME."
+        },
+        "japanese": {
+          "name": "自制心",
+          "description": "「超級」のミッションをクリアする。"
+        },
+        "polish": {
+          "name": "Siła woli",
+          "description": "Ukończ przynajmniej jedną misję na BARDZO DUŻYM terenie."
+        },
+        "russian": {
+          "name": "Сила воли",
+          "description": "Пройти хотя бы одно испытание ОГРОМНОГО размера."
+        },
+        "schinese": {
+          "name": "毅力",
+          "description": "完成至少一个「巨大」规格的任务。"
+        },
+        "spanish": {
+          "name": "Voluntad",
+          "description": "Completa al menos una misión ENORME."
+        }
+      }
+    },
+    "dlc_through_fire": {
+      "translations": {
+        "czech": {
+          "name": "Ohněm",
+          "description": "Dokonči level Pavoučí doupě."
+        },
+        "dutch": {
+          "name": "Door het vuur",
+          "description": "Voltooi het level SPINNENHOL."
+        },
+        "english": {
+          "name": "Through the Fire",
+          "description": "Complete the SPIDER LAIR level."
+        },
+        "french": {
+          "name": "Dans les flammes",
+          "description": "Terminer le niveau REPAIRE D'ARAIGNÉES."
+        },
+        "german": {
+          "name": "Durchs Feuer",
+          "description": "Bringe den Level SPINNENHÖHLE zu Ende."
+        },
+        "italian": {
+          "name": "Attraverso le fiamme",
+          "description": "Completa il livello NIDO DEI RAGNI."
+        },
+        "japanese": {
+          "name": "たとえ火の中",
+          "description": "ステージ「スパイダーの巣」をクリアする。"
+        },
+        "polish": {
+          "name": "Poprzez płomienie",
+          "description": "Ukończ etap GNIAZDO PAJĄKÓW."
+        },
+        "russian": {
+          "name": "Сквозь огонь",
+          "description": "Пройти уровень ЛОГОВО ПАУКОВ."
+        },
+        "schinese": {
+          "name": "穿越火场",
+          "description": "完成「蜘蛛巢」关卡。"
+        },
+        "spanish": {
+          "name": "A través del fuego",
+          "description": "Completa el nivel GUARIDA ARÁCNIDA."
+        }
+      }
+    },
+    "dlc_arachnophobia": {
+      "translations": {
+        "czech": {
+          "name": "Arachnofobie",
+          "description": "Zabij plamenometem 20 pavouků."
+        },
+        "dutch": {
+          "name": "Arachnofobie",
+          "description": "Dood 20 spinnen met je vlammenwerper."
+        },
+        "english": {
+          "name": "Arachnophobia",
+          "description": "Kill 20 spiders with your flame thrower."
+        },
+        "french": {
+          "name": "Arachnophobie",
+          "description": "Tuer 20 araignées au lance-flammes."
+        },
+        "german": {
+          "name": "Arachnophobie",
+          "description": "Töte 20 Spinnen mit deinem Flammenwerfer."
+        },
+        "italian": {
+          "name": "Aracnofobia",
+          "description": "Uccidi 20 ragni con il tuo lanciafiamme."
+        },
+        "japanese": {
+          "name": "アラクノフォビア",
+          "description": "火炎放射器でスパイダーバグを20体倒す。"
+        },
+        "polish": {
+          "name": "Arachnofobia",
+          "description": "Zabij 20 pająków miotaczem ognia."
+        },
+        "russian": {
+          "name": "Арахнофобия",
+          "description": "Убить 20 пауков из огнемета."
+        },
+        "schinese": {
+          "name": "蜘蛛恐惧症",
+          "description": "用火焰喷射器杀死 20 只蜘蛛。"
+        },
+        "spanish": {
+          "name": "Aracnofobia",
+          "description": "Mata 20 arañas con el lanzallamas."
+        }
+      }
+    },
+    "dlc_specialist": {
+      "translations": {
+        "czech": {
+          "name": "Specialista",
+          "description": "Dokonči Střelnici a arénu."
+        },
+        "dutch": {
+          "name": "Specialist",
+          "description": "Voltooi de SCHIETBAAN en ARENA."
+        },
+        "english": {
+          "name": "Specialist",
+          "description": "Complete the SHOOTING RANGE and ARENA."
+        },
+        "french": {
+          "name": "Spécialiste",
+          "description": "Terminer le STAND DE TIR et l'ARÈNE."
+        },
+        "german": {
+          "name": "Spezialist",
+          "description": "Bringe die SCHIESSBAHN und die ARENA zu Ende."
+        },
+        "italian": {
+          "name": "Specialista",
+          "description": "Completa il POLIGONO DI TIRO e l'ARENA."
+        },
+        "japanese": {
+          "name": "スペシャリスト",
+          "description": "ステージ「射撃場」と「アリーナ」をクリアする。"
+        },
+        "polish": {
+          "name": "Specjalista",
+          "description": "Ukończ etapy STRZELNICA i ARENA."
+        },
+        "russian": {
+          "name": "Специалист",
+          "description": "Пройти испытания в ТИРЕ и на АРЕНЕ."
+        },
+        "schinese": {
+          "name": "专家",
+          "description": "完成「靶场」与「竞技场」。"
+        },
+        "spanish": {
+          "name": "Especialista",
+          "description": "Completa el CAMPO DE TIRO y ARENA."
+        }
+      }
+    },
+    "dlc_developer": {
+      "translations": {
+        "czech": {
+          "name": "Vývojář ",
+          "description": "Strav 3 hodiny v levelu VÝVOJÁŘ."
+        },
+        "dutch": {
+          "name": "Ontwikkelaar",
+          "description": "Breng 3 uur door in het level ONTWIKKELAAR."
+        },
+        "english": {
+          "name": "Developer ",
+          "description": "Spend 3 hours on the DEVELOPER level."
+        },
+        "french": {
+          "name": "Développeur",
+          "description": "Passer 3 heures dans le niveau DÉVELOPPEUR."
+        },
+        "german": {
+          "name": "Entwickler",
+          "description": "Verbringe 3 Stunden im ENTWICKLER-Level."
+        },
+        "italian": {
+          "name": "Sviluppatore ",
+          "description": "Passa 3 ore nel livello SVILUPPATORE."
+        },
+        "japanese": {
+          "name": "開発者",
+          "description": "ステージ「デベロッパー」を3時間プレイする。"
+        },
+        "polish": {
+          "name": "Programista ",
+          "description": "Spędź 3 godziny na etapie TWÓRCA."
+        },
+        "russian": {
+          "name": "Разработчик",
+          "description": "Провести 3 часа на уровне РАЗРАБОТЧИК."
+        },
+        "schinese": {
+          "name": "开发者",
+          "description": "在「开发者」关卡中待满 3 小时。"
+        },
+        "spanish": {
+          "name": "Desarrollador ",
+          "description": "Pasa 3 horas en el nivel DESARROLLADOR."
+        }
+      }
+    },
+    "dlc_atas": {
+      "translations": {
+        "czech": {
+          "name": "Hlavy vzhůru! ",
+          "description": "Dokonči level PAVEL."
+        },
+        "dutch": {
+          "name": "Let op!",
+          "description": "Voltooi het level PAVEL."
+        },
+        "english": {
+          "name": "Heads Up! ",
+          "description": "Complete the PAVEL level."
+        },
+        "french": {
+          "name": "Attention !",
+          "description": "Terminer le niveau PAVEL."
+        },
+        "german": {
+          "name": "Vorsicht!",
+          "description": "Bringe den Level PAWEL zu Ende."
+        },
+        "italian": {
+          "name": "Attenzione! ",
+          "description": "Completa il livello PAVEL."
+        },
+        "japanese": {
+          "name": "アトス",
+          "description": "ステージ「パヴェル」をクリアする。"
+        },
+        "polish": {
+          "name": "Uwaga! ",
+          "description": "Ukończ etap PAWEŁ."
+        },
+        "russian": {
+          "name": "Атас!",
+          "description": "Пройти уровень ПАВЕЛ."
+        },
+        "schinese": {
+          "name": "小心！",
+          "description": "完成「帕维尔」关卡。"
+        },
+        "spanish": {
+          "name": "¡Atención! ",
+          "description": "Completa el nivel PAVEL."
+        }
+      }
+    },
+    "dlc_safecracker": {
+      "translations": {
+        "czech": {
+          "name": "Lamač sejfů",
+          "description": "Otevři 8 trezorů v levelu PAVEL."
+        },
+        "dutch": {
+          "name": "Brandkastkraker",
+          "description": "Open 8 brandkasten in het level PAVEL."
+        },
+        "english": {
+          "name": "Safe Cracker",
+          "description": "Open 8 safe boxes on the PAVEL level."
+        },
+        "french": {
+          "name": "Casseur de coffres",
+          "description": "Ouvrir 8 coffres-forts dans le niveau PAVEL."
+        },
+        "german": {
+          "name": "Safeknacker",
+          "description": "Öffne 8 Safe-Kisten im Level PAWEL."
+        },
+        "italian": {
+          "name": "Scassinatore di casseforti",
+          "description": "Apri 8 casseforti nel livello PAVEL."
+        },
+        "japanese": {
+          "name": "金庫破り",
+          "description": "ステージ「パヴェル」にて8個のセーフボックスを開ける。"
+        },
+        "polish": {
+          "name": "Kasiarz",
+          "description": "Otwórz 8 sejfów na poziomie PAWEŁ."
+        },
+        "russian": {
+          "name": "Медвежатник",
+          "description": "Открыть 8 сейфов на уровне ПАВЕЛ."
+        },
+        "schinese": {
+          "name": "开保险箱高手",
+          "description": "在「帕维尔」关卡中打开 8 个保险箱。"
+        },
+        "spanish": {
+          "name": "Revientacajas",
+          "description": "Abre 8 cajas fuertes en el nivel PAVEL."
+        }
+      }
+    },
+    "dlc_nowayout": {
+      "translations": {
+        "czech": {
+          "name": "Není cesty ven",
+          "description": "Dokonči level Chán."
+        },
+        "dutch": {
+          "name": "Geen uitgang",
+          "description": "Voltooi het level KHAN."
+        },
+        "english": {
+          "name": "No Way Out",
+          "description": "Complete the KHAN level."
+        },
+        "french": {
+          "name": "Sans issue",
+          "description": "Terminer le niveau KHAN."
+        },
+        "german": {
+          "name": "Kein Ausweg",
+          "description": "Bringe den Level KHAN zu Ende."
+        },
+        "italian": {
+          "name": "Nessuna via d'uscita",
+          "description": "Completa il livello KHAN."
+        },
+        "japanese": {
+          "name": "背水の陣",
+          "description": "ステージ「カーン」をクリアする。"
+        },
+        "polish": {
+          "name": "Bez wyjścia",
+          "description": "Ukończ etap CHAN."
+        },
+        "russian": {
+          "name": "Выхода нет",
+          "description": "Пройти уровень ХАН."
+        },
+        "schinese": {
+          "name": "无路可逃",
+          "description": "完成「可汗」关卡。"
+        },
+        "spanish": {
+          "name": "Sin salida",
+          "description": "Completa el nivel KHAN."
+        }
+      }
+    },
+    "dlc_hunting": {
+      "translations": {
+        "czech": {
+          "name": "Lov",
+          "description": "Zabij 20 nosalidů v levelu CHÁN."
+        },
+        "dutch": {
+          "name": "Jagen",
+          "description": "Dood 20 Nosalis in het KHAN-level."
+        },
+        "english": {
+          "name": "Hunting",
+          "description": "Kill 20 Nosalises on the KHAN level."
+        },
+        "french": {
+          "name": "Chasse",
+          "description": "Tuer 20 nosalis dans le niveau KHAN."
+        },
+        "german": {
+          "name": "Jagd",
+          "description": "Töte 20 Nosalis im Level KHAN."
+        },
+        "italian": {
+          "name": "Caccia",
+          "description": "Uccidi 20 Nosalis nel livello KHAN."
+        },
+        "japanese": {
+          "name": "ハンティング",
+          "description": "ノサリス20体とビッグママを倒す。"
+        },
+        "polish": {
+          "name": "Łowy",
+          "description": "Zabij 20 nosalisów na poziomie CHANA."
+        },
+        "russian": {
+          "name": "Охота",
+          "description": "Убить 20 Носачей на уровне ХАН."
+        },
+        "schinese": {
+          "name": "狩猎",
+          "description": "在「可汗」关卡杀死 20 只诺萨里斯。"
+        },
+        "spanish": {
+          "name": "De caza",
+          "description": "Mata a 20 nosalis en el nivel KHAN."
+        }
+      }
+    },
+    "dlc_eagleeye": {
+      "translations": {
+        "czech": {
+          "name": "Orlí zrak",
+          "description": "Zabij víc strážných než Arťom."
+        },
+        "dutch": {
+          "name": "Adelaarsoog",
+          "description": "Dood meer Telepaten dan Artyom."
+        },
+        "english": {
+          "name": "Eagle Eye",
+          "description": "Kill more Watchmen than Artyom does."
+        },
+        "french": {
+          "name": "Œil de lynx",
+          "description": "Tuer plus de hurleurs qu'Artyom."
+        },
+        "german": {
+          "name": "Adlerauge",
+          "description": "Töte mehr Telepathen als Artjom."
+        },
+        "italian": {
+          "name": "Occhio di lince",
+          "description": "Uccidi più Custodi di Artyom."
+        },
+        "japanese": {
+          "name": "イーグルアイ",
+          "description": "アルチョムより多くのウォッチメンを倒す。"
+        },
+        "polish": {
+          "name": "Sokole oko",
+          "description": "Zabij więcej wartowników niż Artem."
+        },
+        "russian": {
+          "name": "Орлиный Глаз",
+          "description": "Убить больше стражей чем Артем."
+        },
+        "schinese": {
+          "name": "鹰眼",
+          "description": "杀死比阿尔乔姆更多的守望者。"
+        },
+        "spanish": {
+          "name": "Ojo de águila",
+          "description": "Mata a más vigilantes que Artyom."
+        }
+      }
+    },
+    "dlc_sunsetofhope": {
+      "translations": {
+        "czech": {
+          "name": "Západ slunce naděje ",
+          "description": "Dokonči level ANNA."
+        },
+        "dutch": {
+          "name": "Bij het vallen van de hoop",
+          "description": "Voltooi het level ANNA."
+        },
+        "english": {
+          "name": "The Sunset of Hope ",
+          "description": "Сomplete the ANNA level."
+        },
+        "french": {
+          "name": "L'aube de l'espoir",
+          "description": "Terminer le niveau ANNA."
+        },
+        "german": {
+          "name": "Sonnenaufgang der Hoffnung",
+          "description": "Bringe den Level ANNA zu Ende."
+        },
+        "italian": {
+          "name": "Il tramonto della speranza ",
+          "description": "Completa il livello ANNA."
+        },
+        "japanese": {
+          "name": "希望の夕日",
+          "description": "ステージ「アンナ」をクリアする。"
+        },
+        "polish": {
+          "name": "Zmierzch nadziei ",
+          "description": "Ukończ etap ANNA."
+        },
+        "russian": {
+          "name": "Закат Надежды",
+          "description": "Пройти уровень АННА."
+        },
+        "schinese": {
+          "name": "希望的日落",
+          "description": "完成「安娜」关卡。"
+        },
+        "spanish": {
+          "name": "El ocaso de la esperanza ",
+          "description": "Completa el nivel ANNA."
+        }
+      }
+    }
+  }
+}
