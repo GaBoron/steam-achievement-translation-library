@@ -25,7 +25,7 @@ def changed_game(base_ref: str, head_ref: str, *, root: Path = ROOT) -> tuple[st
         allowed = (
             local == "submission.json"
             or re.fullmatch(
-                rf"[a-z0-9][a-z0-9-]{{0,63}}/UserGameStatsSchema_{game_id}\.(?:bin|json)",
+                rf"[a-z0-9][a-z0-9-]{{0,63}}/(?:achievements\.md|UserGameStatsSchema_{game_id}\.(?:bin|json))",
                 local,
             )
         )
@@ -57,5 +57,6 @@ def check_translation_pr(base_ref: str, head_ref: str) -> CheckReport:
         return CheckReport(errors=[str(exc)])
     return check_repository(
         allow_pending_submissions=True,
+        review_base_ref=base_ref,
         strict_game_ids={game_id} if has_schema_changes else set(),
     )

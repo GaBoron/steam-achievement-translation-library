@@ -4,6 +4,7 @@ from __future__ import annotations
 import re
 from typing import Any
 
+from achievement_catalog import write_entry_review_catalogs
 from translation_json import write_entry_translation_json
 
 from close_command import (
@@ -185,7 +186,7 @@ def force_refresh_pr(repo: str, token: str, event: dict[str, Any]) -> None:
             "`/force-refresh` 已处理完成。",
             "",
             "- 已同步最新 `main` 并保留投稿历史，重新触发自动检查；投稿改动仅涉及该游戏目录。",
-            "- 已根据投稿分支中的当前 schema 重新生成 PR 描述和翻译 JSON；审核文本见 Repository checks 的附件。",
+            "- 已根据投稿分支中的当前 schema 重新生成 PR 描述、翻译 JSON 和 Files changed 中的成就审核文件。",
             "- 已重新请求维护者校对；通过检查和批准后，PR 会继续自动合并与入库推送流程。",
         ]),
     )
@@ -456,6 +457,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             rows_by_variant = variant_achievement_rows(entry, list(meta["languages"]))
             pr_title = f"{'Update' if kind == 'update' else 'Add'} achievement translations for {meta['game_name']} ({meta['game_id']})"
             write_entry_translation_json(entry)
+            write_entry_review_catalogs(entry)
             upsert_catalog_entry(entry, previous_game_id=old_game_id)
             pr_body = build_submission_pr_body(
                 kind=kind,
