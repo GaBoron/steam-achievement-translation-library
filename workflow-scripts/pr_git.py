@@ -102,7 +102,7 @@ def rename_schema_variants(
         destination = repository_path(destination_relative)
         if destination.exists() and destination != source:
             raise ValueError(f"目标 schema 文件已存在：{destination_relative}")
-        for companion in (destination.with_suffix(".json"),):
+        for companion in (destination.with_suffix(".json"), destination.with_name("achievements.md")):
             if companion.exists() and companion.parent != source.parent:
                 raise ValueError(f"目标派生文件已存在：{companion.relative_to(FILES_ROOT.parent).as_posix()}")
         updated = dict(record)
@@ -111,6 +111,9 @@ def rename_schema_variants(
     for source, destination, _record in moves:
         destination.parent.mkdir(parents=True, exist_ok=True)
         source.replace(destination)
+        source_review = source.with_name("achievements.md")
+        if source_review.is_file():
+            source_review.replace(destination.with_name("achievements.md"))
         source_json = source.with_suffix(".json")
         if source_json.is_file():
             source_json.replace(destination.with_suffix(".json"))
