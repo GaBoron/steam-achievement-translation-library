@@ -24,9 +24,8 @@ def changed_game(base_ref: str, head_ref: str, *, root: Path = ROOT) -> tuple[st
         game_id, local = match.groups()
         allowed = (
             local == "submission.json"
-            or local == f"UserGameStatsSchema_{game_id}.bin"
             or re.fullmatch(
-                rf"[a-z0-9][a-z0-9-]{{0,63}}/(?:achievements\.md|UserGameStatsSchema_{game_id}\.(?:bin|json))",
+                rf"[a-z0-9][a-z0-9-]{{0,63}}/UserGameStatsSchema_{game_id}\.(?:bin|json)",
                 local,
             )
         )
