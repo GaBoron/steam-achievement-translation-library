@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Search `INDEX_EN.md` and open translation PRs for the Steam app ID before opening this issue. If automation finds a duplicate ID, it will comment and close this issue.
+        Search the [library website](https://gaboron.github.io/steam-achievement-translation-library/?lang=en) and open translation PRs for the Steam app ID before opening this issue. If automation finds a duplicate ID, it will comment and close this issue.
 
         Upload `UserGameStatsSchema_<app_id>.zip`. A single-version ZIP contains one matching `.bin`; a multi-version ZIP declares every version in `translation-variants.json`. Automation derives the store URL from the app ID and detects languages from the schema.
   - type: input

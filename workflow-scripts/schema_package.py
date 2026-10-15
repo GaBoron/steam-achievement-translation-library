@@ -202,7 +202,7 @@ def validated_variant_record(game_id: str, variant: ValidatedSchemaVariant) -> d
     record = {
         "variant_id": variant.variant_id,
         "primary": variant.primary,
-        "schema_file": schema_variant_relative_path(game_id, variant.variant_id, variant.primary),
+        "schema_file": schema_variant_relative_path(game_id, variant.variant_id),
         "note_zh": variant.note_zh,
         "note_en": variant.note_en,
         "file_size_bytes": len(variant.data),
@@ -241,7 +241,7 @@ def _remove_obsolete_variant_files(existing_records: list[dict[str, Any]], keep_
             path.relative_to(game_root)
         except ValueError as exc:
             raise ValueError(f"版本文件不在 files/{game_id}/ 范围内：{schema_file}") from exc
-        for obsolete in (path, path.with_name("achievements.md"), path.with_suffix(".json")):
+        for obsolete in (path, path.with_suffix(".json")):
             if obsolete.is_file():
                 recycle_path(obsolete, boundary=game_root)
 

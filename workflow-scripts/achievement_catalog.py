@@ -1,12 +1,11 @@
-"""Generate human-readable achievement catalogs from Binary KeyValues schemas."""
+"""Generate temporary achievement Markdown for translation PR review."""
 from __future__ import annotations
 
-from pathlib import Path, PurePosixPath
+import argparse
+from pathlib import Path
 from typing import Any
 
 import catalog_v2
-import translation_json
-from schema_compatibility import synchronize_default_schema
 from steam_schema import achievement_rows, load_schema, validate_schema_structure
 
 
@@ -70,46 +69,43 @@ def render_achievement_catalog(schema_name: str, rows: list[dict[str, str]], lan
     return "\n".join(lines) + "\n"
 
 
-def expected_catalog(game_id: str, variant_id: str, variant: dict[str, Any], *, root: Path) -> tuple[Path, str]:
-    schema_relative = catalog_v2.schema_relative_path(game_id, variant_id)
-    schema_path = root / Path(*PurePosixPath(schema_relative).parts)
-    data, nodes = load_schema(schema_path)
-    validate_schema_structure(data, nodes)
-    languages = [str(value) for value in variant["languages"]]
-    rows = achievement_rows(nodes, languages)
-    output = root / Path(*PurePosixPath(catalog_v2.achievement_catalog_relative_path(game_id, variant_id)).parts)
-    return output, render_achievement_catalog(schema_path.name, rows, languages)
+def write_review_catalogs(game_id: str, *, output: Path, root: Path = catalog_v2.REPO_ROOT) -> list[Path]:
+    from pr_submission_data import load_submission_catalog
 
-
-def write_achievement_catalogs(catalog: dict[str, Any], *, root: Path = catalog_v2.REPO_ROOT) -> list[Path]:
-    written: list[Path] = []
-    for game_id, game in catalog["games"].items():
-        for variant_id, variant in game["variants"].items():
-            path, content = expected_catalog(game_id, variant_id, variant, root=root)
-            if not path.is_file() or path.read_text(encoding="utf-8") != content:
-                path.write_text(content, encoding="utf-8", newline="\n")
-            written.append(path)
-    return written
-
-
-def write_entry_achievement_catalogs(entry: dict[str, Any], *, root: Path = catalog_v2.REPO_ROOT) -> list[Path]:
-    """Generate catalogs for an in-flight legacy-shaped PR entry."""
-    from library_index import validated_entry_schema_variants
-
-    game_id = str(entry["game_id"])
-    written: list[Path] = []
-    variants = validated_entry_schema_variants(entry, require_metadata=True)
-    for variant in variants:
-        variant_id = str(variant["variant_id"])
-        path, content = expected_catalog(game_id, variant_id, variant, root=root)
-        if not path.is_file() or path.read_text(encoding="utf-8") != content:
-            path.write_text(content, encoding="utf-8", newline="\n")
-        written.append(path)
+    root = root.resolve()
+    output = output.resolve()
+    if output == root or output in root.parents or output.is_relative_to(root):
+        raise ValueError("Review artifacts must be generated outside the repository.")
+    if output.exists() and (not output.is_dir() or next(output.iterdir(), None) is not None):
+        raise ValueError(f"Review output must be empty: {output}")
+    catalog = load_submission_catalog(root=root)
+    game = catalog["games"][game_id]
+    written = []
+    for variant_id, variant in game["variants"].items():
         schema_path = root / catalog_v2.schema_relative_path(game_id, variant_id)
-        variant["json"] = translation_json.write_translation(schema_path, game_id, variant_id)
-        if variant_id == "default":
-            entry["json"] = dict(variant["json"])
-    if isinstance(entry.get("schema_files"), list):
-        entry["schema_files"] = variants
-    synchronize_default_schema(game_id, root=root)
+        data, nodes = load_schema(schema_path)
+        validate_schema_structure(data, nodes)
+        languages = variant["languages"]
+        content = render_achievement_catalog(schema_path.name, achievement_rows(nodes, languages), languages)
+        path = output / game_id / variant_id / "achievements.md"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(content, encoding="utf-8", newline="\n")
+        written.append(path)
     return written
+
+
+def main() -> None:
+    from translation_pr_validation import changed_game
+
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--base-ref", required=True)
+    parser.add_argument("--head-ref", required=True)
+    parser.add_argument("--output", type=Path, required=True)
+    args = parser.parse_args()
+    game_id, _ = changed_game(args.base_ref, args.head_ref)
+    written = write_review_catalogs(game_id, output=args.output)
+    print(f"Generated {len(written)} review catalog(s) for {game_id}.")
+
+
+if __name__ == "__main__":
+    main()
