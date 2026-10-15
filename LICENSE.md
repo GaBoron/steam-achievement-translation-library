@@ -2,9 +2,9 @@
 
 This repository contains different kinds of material, so a single blanket open-source license is not accurate.
 
-## Workflow Scripts
+## Website And Workflow Scripts
 
-Except for the third-party font assets identified below, files under `.github/` and `workflow-scripts/` are licensed under the MIT License.
+Except for the third-party font assets identified below, files under `web/`, `.github/`, and `workflow-scripts/` are licensed under the MIT License.
 
 ```text
 MIT License
@@ -12,7 +12,7 @@ MIT License
 Copyright (c) 2026 GaBoron
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of the workflow scripts and associated documentation files (the "Software"),
+of the website, workflow scripts, and associated documentation files (the "Software"),
 to deal in the Software without restriction, including without limitation the
 rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is furnished

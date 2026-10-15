@@ -35,6 +35,23 @@ jobs:
       - name: Compile workflow scripts
         run: python -m compileall -q workflow-scripts
 
+      - name: Set up Node for JavaScript syntax validation
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
+      - name: Check JavaScript module syntax
+        run: |
+          python - <<'PY'
+          import subprocess
+          from pathlib import Path
+
+          for path in sorted(Path("web").rglob("*.js")):
+              print(f"Checking {path}", flush=True)
+              subprocess.run(["node", "--check", "--input-type=module"], input=path.read_bytes(), check=True)
+          PY
+
       - name: Verify translation data and generated indexes
         run: |
           args=()
@@ -42,3 +59,22 @@ jobs:
             args+=(--translation-pr --base-ref "$PR_BASE_SHA" --head-ref "$PR_HEAD_SHA")
           fi
           python workflow-scripts/check_repository.py "${args[@]}"
+
+      - name: Generate achievement review files
+        if: ${{ env.TRANSLATION_PR == 'true' }}
+        run: python workflow-scripts/achievement_catalog.py --base-ref "$PR_BASE_SHA" --head-ref "$PR_HEAD_SHA" --output "$RUNNER_TEMP/achievement-review"
+
+      - name: Upload achievement review files
+        if: ${{ env.TRANSLATION_PR == 'true' }}
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: achievement-review
+          path: ${{ runner.temp }}/achievement-review/
+          if-no-files-found: error
+          retention-days: 30
+
+      # Translation PRs validate pending game metadata without changing Catalog V2.
+      # Their indexed files can legitimately differ until post-merge finalization.
+      - name: Build website and verify published downloads
+        if: ${{ env.TRANSLATION_PR != 'true' }}
+        run: python workflow-scripts/build_website.py --output "$RUNNER_TEMP/translation-library-site"

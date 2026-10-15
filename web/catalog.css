@@ -1,0 +1,92 @@
+/* Discovery uses the same 300px facet / flexible resource-card composition. */
+.catalog-tools { min-width: 0; }
+.catalog-filters { position: relative; }
+.filter-panel > summary { display: flex; align-items: center; gap: 8px; min-height: 40px; margin-bottom: 12px; padding: 8px 72px 8px 4px; list-style: none; color: var(--color-heading); font: var(--md-sys-typescale-title-medium); }
+.filter-panel > summary::-webkit-details-marker { display: none; }
+.filter-panel > summary .icon { width: 20px; height: 20px; }
+.filter-panel > summary::after { content: ''; width: 7px; height: 7px; margin-left: 2px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: translateY(-2px) rotate(45deg); }
+.filter-panel[open] > summary::after { transform: translateY(2px) rotate(225deg); }
+.filter-reset { position: absolute; top: 0; right: 0; font-size: 14px; }
+.filter-content { display: flex; flex-direction: column; gap: 12px; }
+.filter-group { min-width: 0; margin: 0; padding: 20px; border: 1px solid var(--color-card-border); border-radius: 16px; background: var(--md-sys-color-surface-container-lowest); }
+.filter-group legend { float: left; width: 100%; padding: 0; margin-bottom: 12px; color: var(--color-heading); font: var(--md-sys-typescale-title-medium); }
+.filter-options { clear: both; }
+.filter-option { display: flex; align-items: center; gap: 12px; min-height: 32px; padding-block: 4px; cursor: pointer; }
+.filter-option:hover { color: var(--color-heading); }
+.filter-option input { appearance: none; display: grid; place-content: center; width: 20px; height: 20px; margin: 0; border: 2px solid var(--color-control-border); border-radius: 6px; background: var(--md-sys-color-surface-container); flex: 0 0 auto; }
+.filter-option input:checked { border-color: var(--md-sys-color-primary); background: var(--md-sys-color-primary); }
+.filter-option input:checked::after { content: ''; width: 9px; height: 5px; border-left: 2px solid var(--md-sys-color-on-primary); border-bottom: 2px solid var(--md-sys-color-on-primary); transform: translateY(-1px) rotate(-45deg); }
+.filter-option span { min-width: 0; overflow-wrap: anywhere; }
+.filter-option:has(input:checked) { color: var(--color-heading); font-weight: 600; }
+.search-bar { display: flex; align-items: center; gap: 12px; min-width: 0; min-height: 48px; padding: 4px 8px 4px 16px; border: 1px solid var(--color-card-border); border-radius: 14px; background: var(--md-sys-color-surface-container-lowest); }
+.search-bar:focus-within { outline: 2px solid var(--color-link); outline-offset: 2px; }
+.search-bar .icon { width: 20px; height: 20px; }
+.search-bar input { width: 100%; min-width: 0; height: 38px; padding: 7px 0; border: 0; outline: none; background: transparent; color: var(--color-heading); }
+.search-bar input::placeholder { color: var(--md-sys-color-on-surface-variant); opacity: 1; }
+.search-bar input::-webkit-search-cancel-button { display: none; }
+.search-bar .icon-button { min-height: 32px; width: 32px; height: 32px; padding: 6px; }
+.search-shortcut { flex-shrink: 0; padding: 2px 6px; border: 1px solid var(--md-sys-color-outline-variant); border-radius: 4px; font: var(--md-sys-typescale-body-small); }
+.list-heading { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-block: 16px 8px; }
+.result-count { margin-bottom: 12px; color: var(--md-sys-color-on-surface-variant); font: var(--md-sys-typescale-body-medium); }
+.sort-field { flex-direction: row; align-items: center; gap: 8px; }
+.sort-field .select-label { font: var(--md-sys-typescale-body-medium); white-space: nowrap; }
+.sort-field .select-trigger { width: 176px; font-size: 14px; }
+.catalog-advisory { display: flex; align-items: center; gap: 8px; padding-block: 8px; }
+.game-list { list-style: none; padding: 0; margin: 0; }
+.game-list > li { container-type: inline-size; }
+.game-list > li + li { margin-top: 12px; }
+.resource-row { position: relative; display: grid; grid-template-columns: 96px minmax(0, 1fr) auto; grid-template-areas: 'cover info stats' 'cover tags tags'; gap: 8px 12px; align-items: start; padding: 16px; border: 1px solid var(--color-card-border); border-radius: 16px; background: var(--md-sys-color-surface-container-lowest); transition: filter 150ms ease; }
+.resource-row:hover { filter: brightness(var(--hover-brightness)); }
+.resource-cover { grid-area: cover; position: relative; z-index: 1; }
+.resource-row .cover { width: 96px; height: 96px; }
+.resource-info { grid-area: info; min-width: 0; }
+.resource-title { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 8px; min-width: 0; }
+.resource-title h2 { max-width: 100%; font-size: 20px; line-height: 24px; font-weight: 600; }
+.resource-title-link { display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; color: var(--color-heading); text-decoration: none; overflow-wrap: anywhere; }
+.resource-title-link::after { content: ''; position: absolute; inset: 0; border-radius: 16px; }
+.resource-title-link:focus-visible { outline: none; }
+.resource-title-link:focus-visible::after { outline: 2px solid var(--color-link); outline-offset: 3px; }
+.resource-row:hover .resource-title-link { text-decoration: underline; }
+.resource-contributors { font-size: 14px; line-height: 20px; }
+.resource-contributors a { position: relative; z-index: 1; color: inherit; font-weight: 500; text-decoration: none; overflow-wrap: anywhere; }
+.resource-contributors a:hover { text-decoration: underline; }
+.resource-summary { margin-top: 8px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; line-height: 24px; overflow-wrap: anywhere; }
+.resource-summary > span { display: block; }
+.resource-tags { grid-area: tags; display: flex; align-items: center; flex-wrap: wrap; gap: 8px 16px; margin-top: auto; font-size: 14px; line-height: 20px; }
+.resource-languages { display: inline-flex; align-items: center; flex-wrap: wrap; gap: 6px 12px; }
+.resource-tags .icon { width: 16px; height: 16px; }
+.resource-stats { grid-area: stats; display: flex; flex-direction: column; align-items: flex-end; gap: 8px; font-size: 14px; line-height: 20px; font-variant-numeric: tabular-nums; }
+.resource-stats > * { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.resource-stats .icon { width: 16px; height: 16px; }
+.list-pagination { margin-top: 16px; }
+@container (width < 850px) {
+  .resource-row { grid-template-columns: 64px minmax(0, 1fr) auto; grid-template-areas: 'cover info stats' 'tags tags tags'; }
+  .resource-row .cover { width: 64px; height: 64px; }
+}
+@container (width < 550px) {
+  .resource-row { grid-template-columns: 64px minmax(0, 1fr); grid-template-areas: 'cover info' 'tags tags' 'stats stats'; }
+  .resource-title h2 { font-size: 16px; line-height: 24px; }
+  .resource-summary { font-size: 14px; line-height: 20px; margin-top: 4px; }
+  .resource-stats { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
+}
+@media (max-width: 1023px) {
+  .catalog-tools { position: relative; z-index: 20; }
+  .filter-panel > summary { margin-bottom: 0; padding-inline: 16px 84px; border-radius: 12px; background: var(--md-sys-color-surface-container-lowest); }
+  .filter-content { position: absolute; top: calc(100% + 8px); left: 0; right: 0; z-index: 20; max-height: min(65dvh, 600px); overflow-y: auto; padding: 12px; border: 1px solid var(--color-card-border); border-radius: 16px; background: var(--md-sys-color-surface-container-low); box-shadow: 0 4px 12px #0003; }
+  .filter-option { min-height: 40px; }
+  .filter-reset { right: 8px; }
+}
+@media (max-width: 600px) {
+  .search-shortcut { display: none; }
+  .search-bar { gap: 8px; padding-left: 12px; }
+  .search-bar input { font-size: 14px; }
+  .list-heading { gap: 12px; }
+  .list-pagination-top { flex: 1; }
+  .list-pagination-top .pagination { justify-content: flex-end; }
+  .sort-field .select-label { display: none; }
+  .sort-field .select-trigger { width: 150px; }
+}
+@media (max-width: 440px) {
+  .list-pagination-top { flex-basis: 100%; }
+  .list-pagination-top .pagination { justify-content: center; }
+}
