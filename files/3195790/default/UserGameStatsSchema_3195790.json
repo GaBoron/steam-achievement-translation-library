@@ -1,0 +1,756 @@
+{
+  "version": 1,
+  "app_id": "3195790",
+  "variant_id": "default",
+  "source_sha256": "25a0ea5822aece8e94e524cb29a7aabca248e489ae93a88e858a89591edb1ad7",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "ACH_TUTORIAL": {
+      "translations": {
+        "english": {
+          "name": "Accidental Hire",
+          "description": "Finish the Tutorial."
+        },
+        "schinese": {
+          "name": "意外入职",
+          "description": "完成教程。"
+        }
+      }
+    },
+    "ACH_250_METERS": {
+      "translations": {
+        "english": {
+          "name": "Urban Boulderer",
+          "description": "Climb 250 Meters in a run."
+        },
+        "schinese": {
+          "name": "城市抱石者",
+          "description": "在一次挑战中攀爬 250 米。"
+        }
+      }
+    },
+    "ACH_500_METERS": {
+      "translations": {
+        "english": {
+          "name": "Proficient Climber",
+          "description": "Climb 500 Meters in a run."
+        },
+        "schinese": {
+          "name": "熟练攀登者",
+          "description": "在一次挑战中攀爬 500 米。"
+        }
+      }
+    },
+    "ACH_1000_METERS": {
+      "translations": {
+        "english": {
+          "name": "Talented Scaler",
+          "description": "Climb 1000 Meters in a run."
+        },
+        "schinese": {
+          "name": "攀岩好手",
+          "description": "在一次挑战中攀爬 1000 米。"
+        }
+      }
+    },
+    "ACH_2000_METERS": {
+      "translations": {
+        "english": {
+          "name": "Expert Clamberer",
+          "description": "Climb 2000 Meters in a run."
+        },
+        "schinese": {
+          "name": "攀登专家",
+          "description": "在一次挑战中攀爬 2000 米。"
+        }
+      }
+    },
+    "ACH_5000_METERS": {
+      "translations": {
+        "english": {
+          "name": "Master Free-Soloist",
+          "description": "Climb 5000 Meters in a run."
+        },
+        "schinese": {
+          "name": "徒手独攀大师",
+          "description": "在一次挑战中攀爬 5000 米。"
+        }
+      }
+    },
+    "ACH_10000_METERS": {
+      "translations": {
+        "english": {
+          "name": "Probably Not Possible",
+          "description": "Climb 10 Kilometers in a run."
+        },
+        "schinese": {
+          "name": "大概不可能吧",
+          "description": "在一次挑战中攀爬 10 千米。"
+        }
+      }
+    },
+    "ACH_PIPEWORKS": {
+      "translations": {
+        "english": {
+          "name": "Plumber",
+          "description": "Reach Pipeworks."
+        },
+        "schinese": {
+          "name": "水管工",
+          "description": "抵达管道区。"
+        }
+      }
+    },
+    "ACH_HABITATION": {
+      "translations": {
+        "english": {
+          "name": "How Deep Are We?",
+          "description": "Reach Habitation Yellow."
+        },
+        "schinese": {
+          "name": "我们到底有多深？",
+          "description": "抵达黄色居住区。"
+        }
+      }
+    },
+    "ACH_ABYSS": {
+      "translations": {
+        "english": {
+          "name": "Clocking out",
+          "description": "Reach The Abyss."
+        },
+        "schinese": {
+          "name": "下班打卡",
+          "description": "抵达深渊。"
+        }
+      }
+    },
+    "ACH_SILOLOOP": {
+      "translations": {
+        "english": {
+          "name": "This place again? ",
+          "description": "Loop back to Silos in endless underworks"
+        },
+        "schinese": {
+          "name": "又回到这里了？",
+          "description": "在无尽地下设施模式中循环返回筒仓。"
+        }
+      }
+    },
+    "ACH_STEAMDEATH": {
+      "translations": {
+        "english": {
+          "name": "A New Hatred",
+          "description": "Die to steam in Pipe Organ"
+        },
+        "schinese": {
+          "name": "新仇旧恨",
+          "description": "在管风琴区域被蒸汽杀死。"
+        }
+      }
+    },
+    "ACH_50ROACHES": {
+      "translations": {
+        "english": {
+          "name": "Middle Class",
+          "description": "Bank 50 Credits. "
+        },
+        "schinese": {
+          "name": "中产阶级",
+          "description": "存入 50 信用点。"
+        }
+      }
+    },
+    "ACH_100ROACHES": {
+      "translations": {
+        "english": {
+          "name": "High Paying Job",
+          "description": "Bank 100 Credits."
+        },
+        "schinese": {
+          "name": "高薪工作",
+          "description": "存入 100 信用点。"
+        }
+      }
+    },
+    "ACH_500ROACHES": {
+      "translations": {
+        "english": {
+          "name": "Too Big to Fail",
+          "description": "Bank 500 Credits."
+        },
+        "schinese": {
+          "name": "大到不能倒",
+          "description": "存入 500 信用点。"
+        }
+      }
+    },
+    "ACH_50GRUBSKILLED": {
+      "translations": {
+        "english": {
+          "name": "Endangered",
+          "description": "Commit 50 crimes."
+        },
+        "schinese": {
+          "name": "濒危物种",
+          "description": "犯下 50 次罪行。"
+        }
+      }
+    },
+    "ACH_ROACHSMASH": {
+      "translations": {
+        "english": {
+          "name": "Exterminator",
+          "description": "Smash 100 Roaches."
+        },
+        "schinese": {
+          "name": "灭虫专家",
+          "description": "拍死 100 只蟑螂。"
+        }
+      }
+    },
+    "ACH_PATHFINDER": {
+      "translations": {
+        "english": {
+          "name": "Pathfinder",
+          "description": "Place 100 navigational tools. "
+        },
+        "schinese": {
+          "name": "探路者",
+          "description": "放置 100 件导航工具。"
+        }
+      }
+    },
+    "ACH_PITONIST": {
+      "translations": {
+        "english": {
+          "name": "Construction Worker",
+          "description": "Place 100 pitons."
+        },
+        "schinese": {
+          "name": "建筑工人",
+          "description": "放置 100 枚岩钉。"
+        }
+      }
+    },
+    "ACH_CRUSHED": {
+      "translations": {
+        "english": {
+          "name": "OSHA Violation",
+          "description": "Get Crushed."
+        },
+        "schinese": {
+          "name": "违反安全条例",
+          "description": "被压扁。"
+        }
+      }
+    },
+    "ACH_BARNACLED": {
+      "translations": {
+        "english": {
+          "name": "What a Snack!",
+          "description": "Get eaten by a Barnacle."
+        },
+        "schinese": {
+          "name": "美味小点心！",
+          "description": "被藤壶吃掉。"
+        }
+      }
+    },
+    "ACH_GRAFFITIFINDER": {
+      "translations": {
+        "english": {
+          "name": "Art Enthusiast",
+          "description": "Somebody else has been here. "
+        },
+        "schinese": {
+          "name": "艺术爱好者",
+          "description": "这里还有别人来过。"
+        }
+      }
+    },
+    "ACH_FANKILL": {
+      "translations": {
+        "english": {
+          "name": "Hair Cut",
+          "description": "Die to a fan in Air Exchange. "
+        },
+        "schinese": {
+          "name": "理发",
+          "description": "在换气区被风扇杀死。"
+        }
+      }
+    },
+    "ACH_BLOODBUGKILL": {
+      "translations": {
+        "english": {
+          "name": "I Hate Those Guys ",
+          "description": "Die to a Bloodbug."
+        },
+        "schinese": {
+          "name": "我讨厌这些家伙",
+          "description": "被血虫杀死。"
+        }
+      }
+    },
+    "ACH_STRIDERPET": {
+      "translations": {
+        "english": {
+          "name": "New Best Friend ",
+          "description": "Pet a Strider."
+        },
+        "schinese": {
+          "name": "新交的好朋友",
+          "description": "抚摸一只漫步者。"
+        }
+      }
+    },
+    "ACH_GASBAGJUMP": {
+      "translations": {
+        "english": {
+          "name": "Combustion Architect",
+          "description": "Bounce off a gasbag."
+        },
+        "schinese": {
+          "name": "燃烧设计师",
+          "description": "借助一个气囊弹起。"
+        }
+      }
+    },
+    "ACH_MOTHER": {
+      "translations": {
+        "english": {
+          "name": "Mother",
+          "description": "Carry a grub in one hand up 500 meters. "
+        },
+        "schinese": {
+          "name": "母亲",
+          "description": "始终用同一只手持有一只幼虫，向上攀爬 500 米。"
+        }
+      }
+    },
+    "ACH_ROCKETJUMP": {
+      "translations": {
+        "english": {
+          "name": "Rocket Scientist",
+          "description": "PHD and everything."
+        },
+        "schinese": {
+          "name": "火箭科学家",
+          "description": "博士学位什么的都有。"
+        }
+      }
+    },
+    "ACH_LONGFALL": {
+      "translations": {
+        "english": {
+          "name": "AAAAAAAAAAA",
+          "description": "Fall 75 Meters"
+        },
+        "schinese": {
+          "name": "啊啊啊啊啊啊啊",
+          "description": "坠落 75 米。"
+        }
+      }
+    },
+    "ACH_RODGOD": {
+      "translations": {
+        "english": {
+          "name": "Rod God",
+          "description": "Throw 100 Rebar Rods."
+        },
+        "schinese": {
+          "name": "钢筋之神",
+          "description": "投掷 100 根钢筋。"
+        }
+      }
+    },
+    "ACH_LOCKEDOUT": {
+      "translations": {
+        "english": {
+          "name": "Locked Out",
+          "description": "Forgot your keys."
+        },
+        "schinese": {
+          "name": "拒之门外",
+          "description": "忘带钥匙了。"
+        }
+      }
+    },
+    "ACH_GETUNSTABLEPERK": {
+      "translations": {
+        "english": {
+          "name": "Experimental Research",
+          "description": "You sure this is safe?"
+        },
+        "schinese": {
+          "name": "实验研究",
+          "description": "你确定这安全吗？"
+        }
+      }
+    },
+    "ACH_SB17LOOP": {
+      "translations": {
+        "english": {
+          "name": "Go Around, Come Around",
+          "description": "Loop Back to Silos in Endless Substructure"
+        },
+        "schinese": {
+          "name": "兜兜转转",
+          "description": "在无尽下层结构模式中循环返回筒仓。"
+        }
+      }
+    },
+    "ACH_LOSTPIER": {
+      "translations": {
+        "english": {
+          "name": "The Day We Died",
+          "description": "Reach the Lost Pier."
+        },
+        "schinese": {
+          "name": "我们死去的那一天",
+          "description": "抵达失落码头。"
+        }
+      }
+    },
+    "ACH_TEETHKILL": {
+      "translations": {
+        "english": {
+          "name": "Get Devoured",
+          "description": "[CENSORED]"
+        },
+        "schinese": {
+          "name": "惨遭吞噬",
+          "description": "[内容已删节]"
+        }
+      }
+    },
+    "ACH_THINGKILL": {
+      "translations": {
+        "english": {
+          "name": "The Thing In The Walls",
+          "description": "You let go."
+        },
+        "schinese": {
+          "name": "墙中之物",
+          "description": "你松手了。"
+        }
+      }
+    },
+    "ACH_REVIVE": {
+      "translations": {
+        "english": {
+          "name": "Reject Mortality",
+          "description": "Plucked from the periphery. Don't forget: it lies."
+        },
+        "schinese": {
+          "name": "拒绝死亡",
+          "description": "被从边缘拽回。别忘了：它会说谎。"
+        }
+      }
+    },
+    "ACH_GETPERK": {
+      "translations": {
+        "english": {
+          "name": "Unnatural Enhancements",
+          "description": "You feel stronger. You've felt this pain before."
+        },
+        "schinese": {
+          "name": "非自然强化",
+          "description": "你感觉更强了。这种痛苦，你曾经体会过。"
+        }
+      }
+    },
+    "ACH_FLAREJUMP": {
+      "translations": {
+        "english": {
+          "name": "Ballistic Trajectory",
+          "description": "Surprisingly useful."
+        },
+        "schinese": {
+          "name": "弹道轨迹",
+          "description": "出乎意料地实用。"
+        }
+      }
+    },
+    "ACH_DELTADREAM": {
+      "translations": {
+        "english": {
+          "name": "Sight, Sea, Light",
+          "description": "Death, Death, Death"
+        },
+        "schinese": {
+          "name": "景象、海洋、光芒",
+          "description": "死亡，死亡，死亡。"
+        }
+      }
+    },
+    "ACH_HARDMODEABYSS": {
+      "translations": {
+        "english": {
+          "name": "Grit",
+          "description": "Reach the Abyss in Hard Mode."
+        },
+        "schinese": {
+          "name": "坚韧不拔",
+          "description": "在困难模式中抵达深渊。"
+        }
+      }
+    },
+    "ACH_CRANECLIMBER": {
+      "translations": {
+        "english": {
+          "name": "Lookout Duty",
+          "description": "Don't look down."
+        },
+        "schinese": {
+          "name": "瞭望任务",
+          "description": "别往下看。"
+        }
+      }
+    },
+    "ACH_CRIMINAL": {
+      "translations": {
+        "english": {
+          "name": "Criminal",
+          "description": "You monster."
+        },
+        "schinese": {
+          "name": "罪犯",
+          "description": "你这个怪物。"
+        }
+      }
+    },
+    "ACH_LADDER": {
+      "translations": {
+        "english": {
+          "name": "The Ladder",
+          "description": "What a Thrill."
+        },
+        "schinese": {
+          "name": "梯子",
+          "description": "真让人心潮澎湃。"
+        }
+      }
+    },
+    "ACH_CHA_GOLD_5": {
+      "translations": {
+        "english": {
+          "name": "Gold Source",
+          "description": "Achieve 5 Gold+ Medals in Challenges"
+        },
+        "schinese": {
+          "name": "黄金之源",
+          "description": "在挑战中获得 5 枚金牌或更高等级的奖牌。"
+        }
+      }
+    },
+    "ACH_CHA_PLAT_5": {
+      "translations": {
+        "english": {
+          "name": "Olympic Grade",
+          "description": "Achieve 5 Platinum Medals in Challenges"
+        },
+        "schinese": {
+          "name": "奥运水准",
+          "description": "在挑战中获得 5 枚白金奖牌。"
+        }
+      }
+    },
+    "ACH_NEST": {
+      "translations": {
+        "english": {
+          "name": "Into Her Grasp",
+          "description": "Reach the Nest"
+        },
+        "schinese": {
+          "name": "落入她的掌心",
+          "description": "抵达巢穴。"
+        }
+      }
+    },
+    "ACH_GETARTIFACT": {
+      "translations": {
+        "english": {
+          "name": "Beyond Understanding",
+          "description": "Find a Powerful Artifact"
+        },
+        "schinese": {
+          "name": "超乎理解",
+          "description": "找到一件强大的神器。"
+        }
+      }
+    },
+    "ACH_RHOSACRIFICE": {
+      "translations": {
+        "english": {
+          "name": "Delusions",
+          "description": "How could you?"
+        },
+        "schinese": {
+          "name": "妄想",
+          "description": "你怎么下得去手？"
+        }
+      }
+    },
+    "ACH_PARASITE": {
+      "translations": {
+        "english": {
+          "name": "Condemned No More",
+          "description": "Escape the Prison Complex in Parasite."
+        },
+        "schinese": {
+          "name": "不再受困",
+          "description": "在“寄生虫”中逃出监狱设施。"
+        }
+      }
+    },
+    "ACH_CHIMNEYI1": {
+      "translations": {
+        "english": {
+          "name": "Getting Merry",
+          "description": "Reach Interlude: Solstice in the Chimney"
+        },
+        "schinese": {
+          "name": "欢庆时刻",
+          "description": "在“烟囱”中抵达间奏：冬至。"
+        }
+      }
+    },
+    "ACH_CHIMNEYLOOP": {
+      "translations": {
+        "english": {
+          "name": "Up On the Housetop",
+          "description": "Loop in the Chimney."
+        },
+        "schinese": {
+          "name": "屋顶之上",
+          "description": "在“烟囱”中完成一次循环。"
+        }
+      }
+    },
+    "ACH_MARIONETTE": {
+      "translations": {
+        "english": {
+          "name": "Dont Forget Me",
+          "description": "Love once lost, lives again?"
+        },
+        "schinese": {
+          "name": "别忘记我",
+          "description": "曾经失去的爱，还能重生吗？"
+        }
+      }
+    },
+    "ACH_BROKENEVERYTHING": {
+      "translations": {
+        "english": {
+          "name": "Call An Ambulance",
+          "description": "Fully Shatter Every Limb in Survival Mode at the Same Time."
+        },
+        "schinese": {
+          "name": "快叫救护车",
+          "description": "在生存模式中，让所有肢体同时完全粉碎性骨折。"
+        }
+      }
+    },
+    "ACH_CORE": {
+      "translations": {
+        "english": {
+          "name": "Escape is no longer an option.",
+          "description": "Reach the Core."
+        },
+        "schinese": {
+          "name": "已经无路可逃。",
+          "description": "抵达核心。"
+        }
+      }
+    },
+    "ACH_GRUBDELIVERY": {
+      "translations": {
+        "english": {
+          "name": "Mother's Embrace",
+          "description": "Deliver a grub to the Mother."
+        },
+        "schinese": {
+          "name": "母亲的怀抱",
+          "description": "将一只幼虫送到母亲身边。"
+        }
+      }
+    },
+    "ACH_MOTHERSWRATH": {
+      "translations": {
+        "english": {
+          "name": "Mother's Wrath",
+          "description": "Monstrous."
+        },
+        "schinese": {
+          "name": "母亲的愤怒",
+          "description": "丧心病狂。"
+        }
+      }
+    },
+    "ACH_BARNACLEHOOK": {
+      "translations": {
+        "english": {
+          "name": "Hefty Reward",
+          "description": "Deliver 3 grubs to the Mother in a run."
+        },
+        "schinese": {
+          "name": "丰厚回报",
+          "description": "在一次挑战中将 3 只幼虫送到母亲身边。"
+        }
+      }
+    },
+    "ACH_BAZAAR": {
+      "translations": {
+        "english": {
+          "name": "Cultural Exchange",
+          "description": "Make a trade at the Bazaar."
+        },
+        "schinese": {
+          "name": "文化交流",
+          "description": "在集市完成一次交易。"
+        }
+      }
+    },
+    "ACH_CLEAVER": {
+      "translations": {
+        "english": {
+          "name": "Suspicious Meat",
+          "description": "Safe, appetizing, delicious. Almost certainly an illusion."
+        },
+        "schinese": {
+          "name": "可疑的肉",
+          "description": "安全、诱人、美味。几乎肯定是幻觉。"
+        }
+      }
+    },
+    "ACH_HANDGUN": {
+      "translations": {
+        "english": {
+          "name": "Just Started Blasting",
+          "description": "Kill five denizens in five seconds with the Handgun."
+        },
+        "schinese": {
+          "name": "上来就开枪",
+          "description": "在 5 秒内用手枪杀死 5 个居民。"
+        }
+      }
+    },
+    "ACH_ROACHMODE": {
+      "translations": {
+        "english": {
+          "name": "Child of Lambda, A Hero",
+          "description": "Save the Mother in Roach Mode, Without going to Hot Zone"
+        },
+        "schinese": {
+          "name": "拉姆达之子，英雄",
+          "description": "在蟑螂模式中救下母亲，且不前往高温区。"
+        }
+      }
+    }
+  }
+}
