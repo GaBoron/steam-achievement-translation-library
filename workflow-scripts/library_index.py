@@ -9,6 +9,7 @@ from pathlib import Path, PurePosixPath
 from typing import Any
 
 import catalog_v2
+from catalog_entries import entries_from_catalog
 from pr_submission_data import load_submission_catalog, write_submission_entry
 
 
@@ -41,9 +42,7 @@ def clean_variant_note(value: Any, field_name: str) -> str:
 
 def load_index() -> dict[str, Any]:
     catalog = load_submission_catalog(root=REPO_ROOT)
-    index = catalog_v2.legacy_index_from_catalog(catalog)
-    index["entries"] = sort_entries(index["entries"])
-    return index
+    return {"entries": sort_entries(entries_from_catalog(catalog))}
 
 
 def pinyin_sort_key(value: str) -> tuple[bytes, str]:
@@ -101,13 +100,12 @@ def schema_file_size_label(size_bytes: int) -> str:
     return f"{math.floor((size_bytes / 1024) + 0.5)} KB"
 
 
-def schema_variant_relative_path(game_id: str, variant_id: str, primary: bool) -> str:
-    del primary  # Kept for compatibility with existing workflow call sites.
+def schema_variant_relative_path(game_id: str, variant_id: str) -> str:
     return catalog_v2.schema_relative_path(game_id, variant_id)
 
 
 def entry_schema_variants(entry: dict[str, Any]) -> list[dict[str, Any]]:
-    """Return normalized variant records while accepting the legacy schema_files shape."""
+    """Normalize the variant records used by submission and PR metadata."""
     primary_file = str(entry.get("schema_file") or "").strip()
     raw_variants = entry.get("schema_files")
     variants = raw_variants if isinstance(raw_variants, list) and raw_variants else [{"schema_file": primary_file}]
@@ -161,7 +159,7 @@ def validated_entry_schema_variants(
     explicit_variants = isinstance(raw_variants, list)
     for record in records:
         variant_id = str(record.get("variant_id") or "")
-        expected_path = schema_variant_relative_path(game_id, variant_id, bool(record.get("primary")))
+        expected_path = schema_variant_relative_path(game_id, variant_id)
         if str(record.get("schema_file") or "") != expected_path:
             raise ValueError(f"版本 {variant_id} 的路径必须是 {expected_path}")
         if explicit_variants and not record.get("primary"):
