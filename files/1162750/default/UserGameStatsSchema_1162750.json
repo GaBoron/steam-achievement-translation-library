@@ -1,0 +1,420 @@
+{
+  "version": 1,
+  "app_id": "1162750",
+  "variant_id": "default",
+  "source_sha256": "36f53b5fc6d79e507329288084af3e8ef51b04a82ec987e935f0e4c51c94df5c",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "INCOMPETENT": {
+      "translations": {
+        "english": {
+          "name": "The Provider",
+          "description": "Produce a lot of stuff natively."
+        },
+        "schinese": {
+          "name": "供给者",
+          "description": "在本地大量生产各类物资。"
+        }
+      }
+    },
+    "BUREAUCRAT": {
+      "translations": {
+        "english": {
+          "name": "The Bureaucrat",
+          "description": "Gained by having your papers in order. Increases admin."
+        },
+        "schinese": {
+          "name": "官僚",
+          "description": "妥善处理文书工作即可获得。提高行政能力。"
+        }
+      }
+    },
+    "CARETAKER": {
+      "translations": {
+        "english": {
+          "name": "The Caretaker",
+          "description": "Gained by having proper access to hospitals. Increases health."
+        },
+        "schinese": {
+          "name": "照护者",
+          "description": "提供充足的医院服务即可获得。提高健康水平。"
+        }
+      }
+    },
+    "CLUMSY": {
+      "translations": {
+        "english": {
+          "name": "The Clumsy",
+          "description": "Gained by living through multiple accidents. Makes people a bit more cautious in your presence."
+        },
+        "schinese": {
+          "name": "笨手笨脚",
+          "description": "经历多次事故并幸存即可获得。让人们在你身边时更谨慎一些。"
+        }
+      }
+    },
+    "DRUNKARD": {
+      "translations": {
+        "english": {
+          "name": "The Drunkard",
+          "description": "Gained by having lots of drunk subjects. Increases drink production."
+        },
+        "schinese": {
+          "name": "酒鬼",
+          "description": "拥有大量醉酒的臣民即可获得。提高酒类产量。"
+        }
+      }
+    },
+    "ENTERTAINER": {
+      "translations": {
+        "english": {
+          "name": "The Entertainer",
+          "description": "Gained by having good access to entertainment and repeatedly shouting 'Are you not entertained?' at the screen. Increases happiness."
+        },
+        "schinese": {
+          "name": "娱乐家",
+          "description": "提供充足的娱乐服务，并反复对着屏幕大喊“你们还不满意吗？”即可获得。提高幸福度。"
+        }
+      }
+    },
+    "GOURMAND": {
+      "translations": {
+        "english": {
+          "name": "The Gourmand",
+          "description": "Gained by having lots of food. Increases food production."
+        },
+        "schinese": {
+          "name": "美食家",
+          "description": "拥有大量食物即可获得。提高食物产量。"
+        }
+      }
+    },
+    "MERCIFUL": {
+      "translations": {
+        "english": {
+          "name": "The Merciful",
+          "description": "Gained by being a saint after battles. Adds some loyalty to your name."
+        },
+        "schinese": {
+          "name": "仁慈者",
+          "description": "战后展现圣人般的仁慈即可获得。为你增添一些忠诚度。"
+        }
+      }
+    },
+    "MERCILESS": {
+      "translations": {
+        "english": {
+          "name": "The merciless",
+          "description": "Gained by being harsh on your conquered foes. Slaves will be more easily controlled."
+        },
+        "schinese": {
+          "name": "无情者",
+          "description": "严厉对待被征服的敌人即可获得。让奴隶更容易控制。"
+        }
+      }
+    },
+    "PLEASURER": {
+      "translations": {
+        "english": {
+          "name": "The Pleasurer",
+          "description": "Gained by having good access to Massage Parlour. Increases happiness."
+        },
+        "schinese": {
+          "name": "取悦者",
+          "description": "提供充足的按摩院服务即可获得。提高幸福度。"
+        }
+      }
+    },
+    "UNDEFEATED": {
+      "translations": {
+        "english": {
+          "name": "The Undefeated",
+          "description": "Gained by being a badass on the field of battle. Increases morale and detriments raids."
+        },
+        "schinese": {
+          "name": "不败者",
+          "description": "在战场上所向披靡即可获得。提高士气并抑制劫掠。"
+        }
+      }
+    },
+    "UNITER": {
+      "translations": {
+        "english": {
+          "name": "The Uniter",
+          "description": "Gained by absorbing a lot of kingdoms."
+        },
+        "schinese": {
+          "name": "统一者",
+          "description": "吞并大量王国即可获得。"
+        }
+      }
+    },
+    "WISE": {
+      "translations": {
+        "english": {
+          "name": "The Wise",
+          "description": "Gained by being a knowledge nerd. Increases knowledge and education rates."
+        },
+        "schinese": {
+          "name": "智者",
+          "description": "醉心学问即可获得。提高知识与教育效率。"
+        }
+      }
+    },
+    "ARTISAN": {
+      "translations": {
+        "english": {
+          "name": "The Artisan",
+          "description": "Gained by workshop output. Increases productivity of all workshops."
+        },
+        "schinese": {
+          "name": "工匠",
+          "description": "凭借工坊产出即可获得。提高所有工坊的生产效率。"
+        }
+      }
+    },
+    "BREAKER_OF_CHAINS": {
+      "translations": {
+        "english": {
+          "name": "Breaker of Chains",
+          "description": "Gained by freeing many slaves."
+        },
+        "schinese": {
+          "name": "碎镣者",
+          "description": "解放大量奴隶即可获得。"
+        }
+      }
+    },
+    "CHILD_OF_THE_SUN": {
+      "translations": {
+        "english": {
+          "name": "The Child of the Sun",
+          "description": "Have loads of farms and orchards."
+        },
+        "schinese": {
+          "name": "太阳之子",
+          "description": "拥有大量农田和果园。"
+        }
+      }
+    },
+    "FIRST_NAME": {
+      "translations": {
+        "english": {
+          "name": "First of Their Name",
+          "description": "Gained by having a large and loyal capital. You have grand plans and a way with words. Your subjects, though skeptical, will do their utmost to witness your success or failure. Requires the utopia play mode to unlock."
+        },
+        "schinese": {
+          "name": "开国之君",
+          "description": "拥有庞大且忠诚的首都即可获得。你胸怀宏图，能言善辩。臣民虽心存疑虑，仍将竭尽全力，见证你的成败。需要在乌托邦模式中解锁。"
+        }
+      }
+    },
+    "HEAVIEST_OF_HANDS": {
+      "translations": {
+        "english": {
+          "name": "Heaviest of Hands",
+          "description": "Gained by a lot of executions. Increases law."
+        },
+        "schinese": {
+          "name": "铁腕统治者",
+          "description": "执行大量处决即可获得。提高治安水平。"
+        }
+      }
+    },
+    "HERDER": {
+      "translations": {
+        "english": {
+          "name": "Herdsman of Entelodonts",
+          "description": "Have loads of Entelodont pastures."
+        },
+        "schinese": {
+          "name": "巨猪牧人",
+          "description": "拥有大量巨猪牧场。"
+        }
+      }
+    },
+    "LIFE_BRINGER": {
+      "translations": {
+        "english": {
+          "name": "Lifebringer",
+          "description": "Cure a lot of people in the hospital."
+        },
+        "schinese": {
+          "name": "生命使者",
+          "description": "在医院中治愈大量病人。"
+        }
+      }
+    },
+    "LORD_SEVEN": {
+      "translations": {
+        "english": {
+          "name": "Lord of the Seven Kingdoms",
+          "description": "Control 7 regions to gain this ancient and prestigious title."
+        },
+        "schinese": {
+          "name": "七国之主",
+          "description": "控制 7 个地区，获得这一古老而尊贵的称号。"
+        }
+      }
+    },
+    "RICHEST_OF_KINGS": {
+      "translations": {
+        "english": {
+          "name": "Richest of Kings",
+          "description": "Decreases inflation, allowing you to amass even greater wealth."
+        },
+        "schinese": {
+          "name": "最富有的君王",
+          "description": "降低通货膨胀，让你积累更多财富。"
+        }
+      }
+    },
+    "RULER_OF_COLD": {
+      "translations": {
+        "english": {
+          "name": "Warden of the North",
+          "description": "Survive and thrive in a cold climate to gain the goodwill of its hardened people."
+        },
+        "schinese": {
+          "name": "北境守护者",
+          "description": "在寒冷气候中生存并繁荣，赢得当地坚韧居民的好感。"
+        }
+      }
+    },
+    "RULER_OF_HOT": {
+      "translations": {
+        "english": {
+          "name": "Ruler of Sedge and Bee",
+          "description": "Survive and thrive in a hot climate to gain the goodwill of its hardened people."
+        },
+        "schinese": {
+          "name": "上下之王",
+          "description": "在炎热气候中生存并繁荣，赢得当地坚韧居民的好感。"
+        }
+      }
+    },
+    "SEER_OF_THE_GODS": {
+      "translations": {
+        "english": {
+          "name": "Seer of the Gods",
+          "description": "A ruler making his people pay homage to the spiritual realm. Surely the gods reward such piety."
+        },
+        "schinese": {
+          "name": "诸神先知",
+          "description": "让臣民敬奉神灵的统治者。诸神想必会回报这份虔诚。"
+        }
+      }
+    },
+    "THE_BUILDER": {
+      "translations": {
+        "english": {
+          "name": "The Builder",
+          "description": "Build a bunch of fancy buildings on the world map."
+        },
+        "schinese": {
+          "name": "建设者",
+          "description": "在世界地图上建造大量精美建筑。"
+        }
+      }
+    },
+    "THE_CONQUERER": {
+      "translations": {
+        "english": {
+          "name": "The Conquerer",
+          "description": "Gained by killing your enemies."
+        },
+        "schinese": {
+          "name": "征服者",
+          "description": "杀死敌人即可获得。"
+        }
+      }
+    },
+    "THE_GREAT": {
+      "translations": {
+        "english": {
+          "name": "The Great",
+          "description": "Gained by having many people follow and love you."
+        },
+        "schinese": {
+          "name": "伟大者",
+          "description": "让众多人民追随并爱戴你即可获得。"
+        }
+      }
+    },
+    "THE_MAD": {
+      "translations": {
+        "english": {
+          "name": "The Mad",
+          "description": "Have a bunch of insane people running around in your city."
+        },
+        "schinese": {
+          "name": "疯狂者",
+          "description": "让一群疯子在你的城市里四处游荡。"
+        }
+      }
+    },
+    "THE_NUDIST": {
+      "translations": {
+        "english": {
+          "name": "The Nudist",
+          "description": "Keep your citizens naked, and gain an extra boost to exposure."
+        },
+        "schinese": {
+          "name": "天体主义者",
+          "description": "让市民赤身裸体，额外提高环境暴露程度。"
+        }
+      }
+    },
+    "THE_RAIDED": {
+      "translations": {
+        "english": {
+          "name": "Protector of the Realm",
+          "description": "Gained by defending against invasions."
+        },
+        "schinese": {
+          "name": "王国守护者",
+          "description": "抵御入侵即可获得。"
+        }
+      }
+    },
+    "THE_SLAVER": {
+      "translations": {
+        "english": {
+          "name": "The Slaver",
+          "description": "Gained by having many slaves."
+        },
+        "schinese": {
+          "name": "奴隶主",
+          "description": "拥有大量奴隶即可获得。"
+        }
+      }
+    },
+    "THE_USURPER": {
+      "translations": {
+        "english": {
+          "name": "The Usurper",
+          "description": "Kill a couple of foreign royalties to gain this lucrative title."
+        },
+        "schinese": {
+          "name": "篡位者",
+          "description": "杀死几位外国王室成员，获得这一收益丰厚的称号。"
+        }
+      }
+    },
+    "RULER_OF_RULER": {
+      "translations": {
+        "english": {
+          "name": "Ruler of Kings",
+          "description": "A master of Syx, a title only granted to the greats."
+        },
+        "schinese": {
+          "name": "万王之王",
+          "description": "希克斯的主宰，唯有伟大者才能获得的称号。"
+        }
+      }
+    }
+  }
+}
