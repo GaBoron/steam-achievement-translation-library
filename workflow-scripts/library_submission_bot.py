@@ -109,6 +109,7 @@ from steam_schema import (
     validate_schema_structure,
     walk,
 )
+from achievement_catalog import write_entry_review_catalogs
 from translation_json import write_entry_translation_json
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -302,6 +303,7 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
         schema_files=schema_files if keep_schema_files else None,
     )
     write_entry_translation_json(entry)
+    write_entry_review_catalogs(entry)
     upsert_catalog_entry(entry)
     rows_by_variant = variant_achievement_rows(entry, languages)
     issue_number = int(issue["number"])
