@@ -32,6 +32,7 @@ const messages = {
     unknownWarning: '此游戏的文件状态尚无法确认，请查看源文件与仓库反馈后下载。',
     usageNote: 'BIN 可通过 SATLI 安装；JSON 适用于 SATLI lite 等兼容工具。',
     usageGuide: '查看使用说明', contribute: '贡献翻译', footer: '社区维护的 Steam 成就译本',
+    footerCreditPrefix: '鸣谢 ', footerCreditSuffix: ' 为网站样式提供参考',
     share: '复制链接', copied: '链接已复制', copyFailed: '无法自动复制，请从地址栏复制链接。',
   },
   en: {
@@ -67,6 +68,7 @@ const messages = {
     unknownWarning: 'The file status for this game is unknown. Check the source files and repository reports before downloading.',
     usageNote: 'Install BIN files with SATLI. JSON works with compatible tools such as SATLI lite.',
     usageGuide: 'Read the installation guide', contribute: 'Contribute a translation', footer: 'Community-maintained Steam achievement translations',
+    footerCreditPrefix: 'Thanks to ', footerCreditSuffix: ' for the site style reference',
     share: 'Copy link', copied: 'Link copied', copyFailed: 'Copying is unavailable. Copy the link from your address bar.',
   },
 };

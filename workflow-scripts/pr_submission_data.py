@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Any
 
 import catalog_v2
+from catalog_entries import catalog_from_entries
 from recycle_bin import recycle_path
 
 
@@ -62,7 +63,7 @@ def write_submission_entry(entry: dict[str, Any], *, previous_game_id: str = "",
         published = catalog_v2.load_catalog(root=root)["games"]
         if previous_game_id in published or game_id in published:
             raise ValueError("App ID changes are only allowed for a new, unpublished game.")
-    game = catalog_v2.catalog_from_legacy_index({"entries": [entry]})["games"][game_id]
+    game = catalog_from_entries([entry])["games"][game_id]
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(submission_text(game_id, game), encoding="utf-8", newline="\n")
     if previous_game_id and previous_game_id != game_id:
