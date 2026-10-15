@@ -104,7 +104,7 @@ jobs:
           if data.get("retry_allowed"):
               print("- 你可以直接编辑 open issue 的描述，或在评论区使用 `/update <类型> <参数>` 修正。")
               print("- 编辑描述时请只改字段内容，不要改 `### 字段标题`，否则机器人可能无法读取。")
-              print("- 具体填写方式请参考 [贡献指南](https://github.com/GaBoron/steam-achievement-translation-library/blob/main/CONTRIBUTING.md)。")
+              print("- 具体填写方式请参考 [贡献指南](https://github.com/GaBoron/steam-achievement-translation-library/blob/main/docs/CONTRIBUTING.md)。")
           print()
           print("## 问题说明")
           print()
