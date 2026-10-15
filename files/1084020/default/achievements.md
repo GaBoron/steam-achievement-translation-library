@@ -1,7 +1,7 @@
 # Achievement review
 
 Schema: `"UserGameStatsSchema_1084020.bin"`
-Source SHA-256: `"ce19aca89205df7024be172f1e0d249291dfde102e8582b81acffb6feb624f7e"`
+Source SHA-256: `"3ee07b659a1b35bec73dc4cbc8533a58b4952f215507ae54c7c2df46cd7083b4"`
 Added: 54; Changed: 0; Removed: 0
 
 ## Added: `"issue_disaster"`
@@ -357,7 +357,7 @@ Added: 54; Changed: 0; Removed: 0
 ### Name
 
 - **english:** `"We’re Going Underground"`
-- **schinese:** `"玩“生命游戏”。"`
+- **schinese:** `"我们要去地下了"`
 
 ### Description
 
@@ -513,7 +513,7 @@ Added: 54; Changed: 0; Removed: 0
 ### Name
 
 - **english:** `"Founding a City"`
-- **schinese:** `"将你的区域上传到在线模式。"`
+- **schinese:** `"建立城市"`
 
 ### Description
 

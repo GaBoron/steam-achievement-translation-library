@@ -1,0 +1,1836 @@
+{
+  "version": 1,
+  "app_id": "3373660",
+  "variant_id": "default",
+  "source_sha256": "c3328c0a3b5559ee136707aa7694c79eaf4b2492262643a8980b31f4a2128a9d",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "Progress_Thirdfloor": {
+      "translations": {
+        "english": {
+          "name": "Exploring",
+          "description": "Stepped out of your home."
+        },
+        "schinese": {
+          "name": "探索",
+          "description": "走出了家门。"
+        }
+      }
+    },
+    "Progress_Secondfloor": {
+      "translations": {
+        "english": {
+          "name": "Down the stairs",
+          "description": "Reached the second floor."
+        },
+        "schinese": {
+          "name": "下楼",
+          "description": "到达了二楼。"
+        }
+      }
+    },
+    "Progress_FirstFloor": {
+      "translations": {
+        "english": {
+          "name": "Labyrinth",
+          "description": "Reached the first floor."
+        },
+        "schinese": {
+          "name": "迷宫",
+          "description": "到达了一层。"
+        }
+      }
+    },
+    "Progress_GroundFloor": {
+      "translations": {
+        "english": {
+          "name": "Terra Firma",
+          "description": "Reached the ground floor."
+        },
+        "schinese": {
+          "name": "脚踏实地",
+          "description": "到达了地面层。"
+        }
+      }
+    },
+    "Progress_Basement": {
+      "translations": {
+        "english": {
+          "name": "Depths",
+          "description": "Reached the basement."
+        },
+        "schinese": {
+          "name": "深处",
+          "description": "到达了地下室。"
+        }
+      }
+    },
+    "Progress_Elevator": {
+      "translations": {
+        "english": {
+          "name": "Shortcut",
+          "description": "Fixed the Elevator"
+        },
+        "schinese": {
+          "name": "捷径",
+          "description": "修好了电梯。"
+        }
+      }
+    },
+    "Progress_Roof": {
+      "translations": {
+        "english": {
+          "name": "Exposure",
+          "description": "Reached the roof."
+        },
+        "schinese": {
+          "name": "暴露",
+          "description": "到达了屋顶。"
+        }
+      }
+    },
+    "Recruit_Joel": {
+      "translations": {
+        "english": {
+          "name": "Teeth Child",
+          "description": "Welcomed Joel into your home."
+        },
+        "schinese": {
+          "name": "长牙小孩",
+          "description": "收留了乔尔。"
+        }
+      }
+    },
+    "Recruit_Leigh": {
+      "translations": {
+        "english": {
+          "name": "Grinner",
+          "description": "Welcomed Leigh into your home."
+        },
+        "schinese": {
+          "name": "笑面人",
+          "description": "收留了丽。"
+        }
+      }
+    },
+    "Recruit_Dan": {
+      "translations": {
+        "english": {
+          "name": "Creep",
+          "description": " Welcomed Dan into your home."
+        },
+        "schinese": {
+          "name": "怪人",
+          "description": "收留了丹。"
+        }
+      }
+    },
+    "Recruit_Hellen": {
+      "translations": {
+        "english": {
+          "name": "Maniac",
+          "description": "Welcomed Hellen into your home."
+        },
+        "schinese": {
+          "name": "狂人",
+          "description": "收留了海伦。"
+        }
+      }
+    },
+    "Recruit_Rat": {
+      "translations": {
+        "english": {
+          "name": "Rodent",
+          "description": "Welcomed Rat into your home."
+        },
+        "schinese": {
+          "name": "鼠辈",
+          "description": "收留了老鼠。"
+        }
+      }
+    },
+    "Recruit_Roaches": {
+      "translations": {
+        "english": {
+          "name": "Vermin",
+          "description": "Welcomed Roaches into your home."
+        },
+        "schinese": {
+          "name": "害虫",
+          "description": "收留了蟑螂。"
+        }
+      }
+    },
+    "Recruit_Ernest": {
+      "translations": {
+        "english": {
+          "name": "Beggar",
+          "description": "Welcomed Ernest into your home."
+        },
+        "schinese": {
+          "name": "乞丐",
+          "description": "收留了欧内斯特。"
+        }
+      }
+    },
+    "Recruit_Sophie": {
+      "translations": {
+        "english": {
+          "name": "Little Menace",
+          "description": "Welcomed Sophie into your home."
+        },
+        "schinese": {
+          "name": "小捣蛋鬼",
+          "description": "收留了苏菲。"
+        }
+      }
+    },
+    "Recruit_Papineau": {
+      "translations": {
+        "english": {
+          "name": "Janitor",
+          "description": "Welcomed Papineau into your home."
+        },
+        "schinese": {
+          "name": "看门人",
+          "description": "收留了帕皮诺。"
+        }
+      }
+    },
+    "Recruit_XariaMonty": {
+      "translations": {
+        "english": {
+          "name": "Troublemakers",
+          "description": "Welcomed Xaria and Montgomery into your home."
+        },
+        "schinese": {
+          "name": "麻烦精",
+          "description": "收留了扎里亚和蒙哥马利。"
+        }
+      }
+    },
+    "Recruit_Morton": {
+      "translations": {
+        "english": {
+          "name": "Scavenger",
+          "description": "Welcomed Morton into your home."
+        },
+        "schinese": {
+          "name": "拾荒者",
+          "description": "收留了莫顿。"
+        }
+      }
+    },
+    "Recruit_Philippe": {
+      "translations": {
+        "english": {
+          "name": "Moth",
+          "description": "Welcomed Philippe into your home."
+        },
+        "schinese": {
+          "name": "飞蛾",
+          "description": "收留了菲利普。"
+        }
+      }
+    },
+    "Recruit_Shadow": {
+      "translations": {
+        "english": {
+          "name": "Shadow",
+          "description": "Welcomed Shadow into your home."
+        },
+        "schinese": {
+          "name": "黑影",
+          "description": "收留了黑影。"
+        }
+      }
+    },
+    "Death_LookOutside": {
+      "translations": {
+        "english": {
+          "name": "Look Outside",
+          "description": "Followed Instructions."
+        },
+        "schinese": {
+          "name": "向外看",
+          "description": "遵循了指示。"
+        }
+      }
+    },
+    "Death_BehindTheMask": {
+      "translations": {
+        "english": {
+          "name": "Behind the Mask",
+          "description": "Embraced the shadow."
+        },
+        "schinese": {
+          "name": "面具之后",
+          "description": "拥抱了黑影。"
+        }
+      }
+    },
+    "Death_Worm": {
+      "translations": {
+        "english": {
+          "name": "Worm debate",
+          "description": "Was killed by Nestor"
+        },
+        "schinese": {
+          "name": "蠕虫辩论",
+          "description": "被内斯托尔杀害。"
+        }
+      }
+    },
+    "Death_Photograph": {
+      "translations": {
+        "english": {
+          "name": "It DID last longer.",
+          "description": "Become trapped in a photograph."
+        },
+        "schinese": {
+          "name": "它确实撑得更久。",
+          "description": "被困在照片中。"
+        }
+      }
+    },
+    "Death_Telescope": {
+      "translations": {
+        "english": {
+          "name": "Through the looking glass",
+          "description": "Killed by a telescope."
+        },
+        "schinese": {
+          "name": "镜中奇遇",
+          "description": "被望远镜杀害。"
+        }
+      }
+    },
+    "Death_Projector": {
+      "translations": {
+        "english": {
+          "name": "Projector Doom",
+          "description": "Projected the negative on the wall"
+        },
+        "schinese": {
+          "name": "投影仪末日",
+          "description": "把底片投影在了墙上。"
+        }
+      }
+    },
+    "Death_Darkroom": {
+      "translations": {
+        "english": {
+          "name": "Dark Room",
+          "description": "Looked at the photograph"
+        },
+        "schinese": {
+          "name": "暗室",
+          "description": "看了那张照片。"
+        }
+      }
+    },
+    "Death_Oculus": {
+      "translations": {
+        "english": {
+          "name": "Oculus",
+          "description": "Stared at the big eye for too long."
+        },
+        "schinese": {
+          "name": "巨眼",
+          "description": "盯着那只大眼睛看了太久。"
+        }
+      }
+    },
+    "Death_Bus": {
+      "translations": {
+        "english": {
+          "name": "Vehicular Manslaughter",
+          "description": "Got run over by the bus."
+        },
+        "schinese": {
+          "name": "肇事致死",
+          "description": "被公交车碾过了。"
+        }
+      }
+    },
+    "Death_SporeQueen": {
+      "translations": {
+        "english": {
+          "name": "One With The Fungus",
+          "description": "Embraced the spore queen."
+        },
+        "schinese": {
+          "name": "与菌同在",
+          "description": "拥抱了孢子女王。"
+        }
+      }
+    },
+    "Death_Hellcar": {
+      "translations": {
+        "english": {
+          "name": "Car Hell",
+          "description": "Was brought to hell (by car)."
+        },
+        "schinese": {
+          "name": "汽车地狱",
+          "description": "被车带入了地狱。"
+        }
+      }
+    },
+    "Ending_Xinamon": {
+      "translations": {
+        "english": {
+          "name": "XIN-AMON",
+          "description": "Defeated the True XIN-AMON"
+        },
+        "schinese": {
+          "name": "XIN-AMON",
+          "description": "击败了真正的 XIN-AMON。"
+        }
+      }
+    },
+    "Ending_RitualTruth": {
+      "translations": {
+        "english": {
+          "name": "Truth",
+          "description": "Looked upon the visitors' true form."
+        },
+        "schinese": {
+          "name": "真相",
+          "description": "直视了访客的真实形态。"
+        }
+      }
+    },
+    "Ending_RitualDenial": {
+      "translations": {
+        "english": {
+          "name": "Denial",
+          "description": "Looked away from the visitor's true form."
+        },
+        "schinese": {
+          "name": "否认",
+          "description": "移开了目光，没有直视访客的真实形态。"
+        }
+      }
+    },
+    "Ending_FlawedRitual": {
+      "translations": {
+        "english": {
+          "name": "Open Your Eyes",
+          "description": "Performed a flawed ritual."
+        },
+        "schinese": {
+          "name": "睁开双眼",
+          "description": "执行了一个有缺陷的仪式。"
+        }
+      }
+    },
+    "Ending_NoGoingBack": {
+      "translations": {
+        "english": {
+          "name": "No Going Back",
+          "description": "Survived 15 days."
+        },
+        "schinese": {
+          "name": "无法回头",
+          "description": "存活了 15 天。"
+        }
+      }
+    },
+    "Ending_ScreamingSky": {
+      "translations": {
+        "english": {
+          "name": "Screaming Sky",
+          "description": "Ran from the exalted four."
+        },
+        "schinese": {
+          "name": "尖叫的天空",
+          "description": "从“崇高四者”手中逃脱。"
+        }
+      }
+    },
+    "Ending_Eternity": {
+      "translations": {
+        "english": {
+          "name": "Eternity",
+          "description": "Was defeated by XIN-AMON"
+        },
+        "schinese": {
+          "name": "永恒",
+          "description": "被 XIN-AMON 击败了。"
+        }
+      }
+    },
+    "Ending_Failure": {
+      "translations": {
+        "english": {
+          "name": "Failure",
+          "description": "Completely failed the ritual."
+        },
+        "schinese": {
+          "name": "失败",
+          "description": "彻底搞砸了仪式。"
+        }
+      }
+    },
+    "Collect_Day": {
+      "translations": {
+        "english": {
+          "name": "One day at a time",
+          "description": "Survived one day."
+        },
+        "schinese": {
+          "name": "活过一天",
+          "description": "存活了一天。"
+        }
+      }
+    },
+    "Collect_10Games": {
+      "translations": {
+        "english": {
+          "name": "Game Collector",
+          "description": "Found 10 game cartidges."
+        },
+        "schinese": {
+          "name": "游戏收藏家",
+          "description": "找到了 10 个游戏卡带。"
+        }
+      }
+    },
+    "Collect_AllGames": {
+      "translations": {
+        "english": {
+          "name": "Completionist",
+          "description": "Found all game cartidges."
+        },
+        "schinese": {
+          "name": "完美主义",
+          "description": "找到了所有游戏卡带。"
+        }
+      }
+    },
+    "Misc_Ben": {
+      "translations": {
+        "english": {
+          "name": "One last game",
+          "description": "Played with Benjamin"
+        },
+        "schinese": {
+          "name": "最后一局",
+          "description": "和本杰明玩了一局。"
+        }
+      }
+    },
+    "Misc_Nestor": {
+      "translations": {
+        "english": {
+          "name": "Would you still love me if...",
+          "description": "Led Nestor to Rafta."
+        },
+        "schinese": {
+          "name": "如果我...你还会爱我吗",
+          "description": "将内斯托尔引向了拉夫塔。"
+        }
+      }
+    },
+    "Misc_Crosswords": {
+      "translations": {
+        "english": {
+          "name": "Unhinged Crossword Maniac",
+          "description": "Completed the crossword book."
+        },
+        "schinese": {
+          "name": "癫狂填字狂魔",
+          "description": "完成了填字游戏书。"
+        }
+      }
+    },
+    "Misc_Danger": {
+      "translations": {
+        "english": {
+          "name": "Living Dangerously",
+          "description": "Stayed away from home for more than 8 hours."
+        },
+        "schinese": {
+          "name": "危险生活",
+          "description": "离家超过8小时。"
+        }
+      }
+    },
+    "Misc_RatChat": {
+      "translations": {
+        "english": {
+          "name": "A Chat with a Rat",
+          "description": "Spoke to a rat."
+        },
+        "schinese": {
+          "name": "与老鼠交谈",
+          "description": "和一只老鼠搭了话。"
+        }
+      }
+    },
+    "Misc_HatTrick": {
+      "translations": {
+        "english": {
+          "name": "Hat Trick",
+          "description": "Was tricked by a hat."
+        },
+        "schinese": {
+          "name": "帽子戏法",
+          "description": "被一顶帽子骗了。"
+        }
+      }
+    },
+    "Misc_GodheadGuy": {
+      "translations": {
+        "english": {
+          "name": "Just some guy",
+          "description": "Got angelic Fred to drop the act."
+        },
+        "schinese": {
+          "name": "只是个普通人",
+          "description": "让天使弗雷德卸下了伪装。"
+        }
+      }
+    },
+    "Misc_KissLyle": {
+      "translations": {
+        "english": {
+          "name": "Smeck",
+          "description": "Kissed Lyle."
+        },
+        "schinese": {
+          "name": "吧唧",
+          "description": "亲吻了莱尔。"
+        }
+      }
+    },
+    "Misc_PeekLyle": {
+      "translations": {
+        "english": {
+          "name": "How could you",
+          "description": "Peeked at Lyle’s true form."
+        },
+        "schinese": {
+          "name": "你怎么能这样",
+          "description": "偷看了莱尔的真实形态。"
+        }
+      }
+    },
+    "Misc_FedTheWall": {
+      "translations": {
+        "english": {
+          "name": "Crunch",
+          "description": "Fed the wall."
+        },
+        "schinese": {
+          "name": "嘎吱",
+          "description": "喂食了墙壁。"
+        }
+      }
+    },
+    "Misc_SavedRat": {
+      "translations": {
+        "english": {
+          "name": "Selfless",
+          "description": "Saved the rat child."
+        },
+        "schinese": {
+          "name": "无私",
+          "description": "救了鼠孩。"
+        }
+      }
+    },
+    "Misc_RatGrown": {
+      "translations": {
+        "english": {
+          "name": "They grow up so fast...",
+          "description": "The Rat child grew big and strong."
+        },
+        "schinese": {
+          "name": "它们长得真快...",
+          "description": "鼠孩长得又大又壮。"
+        }
+      }
+    },
+    "Misc_ReceivedKatana": {
+      "translations": {
+        "english": {
+          "name": "Bestowal",
+          "description": "Exchanged Massacre princess for the katana"
+        },
+        "schinese": {
+          "name": "赐予",
+          "description": "用《屠戮公主》换取了武士刀。"
+        }
+      }
+    },
+    "Misc_PowerFriendship": {
+      "translations": {
+        "english": {
+          "name": "Power of Friendship",
+          "description": "Completed Massacre Princess"
+        },
+        "schinese": {
+          "name": "友情的力量",
+          "description": "通关了《屠戮公主》。"
+        }
+      }
+    },
+    "Misc_PaidRent": {
+      "translations": {
+        "english": {
+          "name": "Model Tenant",
+          "description": "Fully Paid your rent"
+        },
+        "schinese": {
+          "name": "模范租客",
+          "description": "付清了房租。"
+        }
+      }
+    },
+    "Misc_PhilippeDenial": {
+      "translations": {
+        "english": {
+          "name": "He's real god damn it",
+          "description": "In denial about Philippe."
+        },
+        "schinese": {
+          "name": "他是真的，该死的！",
+          "description": "不愿相信菲利普是真的。"
+        }
+      }
+    },
+    "Misc_PlantRejection": {
+      "translations": {
+        "english": {
+          "name": "Heartbroken",
+          "description": "Was rejected by your plant"
+        },
+        "schinese": {
+          "name": "心碎",
+          "description": "被你的植物拒绝了。"
+        }
+      }
+    },
+    "Misc_UltimateGamer": {
+      "translations": {
+        "english": {
+          "name": "Ultimate Gamer",
+          "description": "Beat at least 10 different games in one playthrough."
+        },
+        "schinese": {
+          "name": "终极玩家",
+          "description": "在单次流程中通关了至少 10 款不同的游戏。"
+        }
+      }
+    },
+    "Misc_Roachwar": {
+      "translations": {
+        "english": {
+          "name": "One million little enemies",
+          "description": "At war with the roaches."
+        },
+        "schinese": {
+          "name": "一百万个小敌人",
+          "description": "与蟑螂开战。"
+        }
+      }
+    },
+    "Misc_Roachpeace": {
+      "translations": {
+        "english": {
+          "name": "One million little friends",
+          "description": "Made peace with the roaches"
+        },
+        "schinese": {
+          "name": "一百万个小朋友",
+          "description": "与蟑螂和平共处。"
+        }
+      }
+    },
+    "Misc_SweatAndTears": {
+      "translations": {
+        "english": {
+          "name": "With your sweat and tears",
+          "description": "Bought the trophy from Mutt’s shop"
+        },
+        "schinese": {
+          "name": "用你的血汗",
+          "description": "从马特的商店买下了奖杯。"
+        }
+      }
+    },
+    "Misc_NoShowers": {
+      "translations": {
+        "english": {
+          "name": "Miasma",
+          "description": "Reach an ending without taking a shower."
+        },
+        "schinese": {
+          "name": "瘴气",
+          "description": "达成结局且从未洗过澡。"
+        }
+      }
+    },
+    "Misc_NoFriends": {
+      "translations": {
+        "english": {
+          "name": "Loner",
+          "description": "Reach an ending without making any friends."
+        },
+        "schinese": {
+          "name": "独行者",
+          "description": "达成结局且从未结交任何朋友。"
+        }
+      }
+    },
+    "Misc_NoSleep": {
+      "translations": {
+        "english": {
+          "name": "Insomnia",
+          "description": "Reach an ending without sleeping once."
+        },
+        "schinese": {
+          "name": "失眠",
+          "description": "达成结局且从未睡过觉。"
+        }
+      }
+    },
+    "Misc_NoEat": {
+      "translations": {
+        "english": {
+          "name": "Ascetic",
+          "description": "Reach an ending without eating a single meal."
+        },
+        "schinese": {
+          "name": "苦修者",
+          "description": "达成结局且从未吃过一顿饭。"
+        }
+      }
+    },
+    "Misc_NoGames": {
+      "translations": {
+        "english": {
+          "name": "Gamer's Bane",
+          "description": "Reach an ending without playing a video game."
+        },
+        "schinese": {
+          "name": "玩家的克星",
+          "description": "达成结局且从未玩过电子游戏。"
+        }
+      }
+    },
+    "Misc_3DayClear": {
+      "translations": {
+        "english": {
+          "name": "Long Weekend",
+          "description": "Reach an ending in only 3 days."
+        },
+        "schinese": {
+          "name": "长周末",
+          "description": "仅在 3 天内达成结局。"
+        }
+      }
+    },
+    "Boss_Grin": {
+      "translations": {
+        "english": {
+          "name": "Grin",
+          "description": "Defeated the Grinning Beast"
+        },
+        "schinese": {
+          "name": "咧嘴笑",
+          "description": "击败了咧嘴笑的野兽。"
+        }
+      }
+    },
+    "Boss_Babyteeth": {
+      "translations": {
+        "english": {
+          "name": "Teething",
+          "description": "Defeated Baby Teeth"
+        },
+        "schinese": {
+          "name": "长牙",
+          "description": "击败了乳牙。"
+        }
+      }
+    },
+    "Boss_Shutterbug": {
+      "translations": {
+        "english": {
+          "name": "Photography Enthusiast",
+          "description": "Defeated Shutterbug"
+        },
+        "schinese": {
+          "name": "摄影爱好者",
+          "description": "击败了摄影迷。"
+        }
+      }
+    },
+    "Boss_Painter": {
+      "translations": {
+        "english": {
+          "name": "Identity Crisis",
+          "description": "Defeated Painter"
+        },
+        "schinese": {
+          "name": "身份危机",
+          "description": "击败了画家。"
+        }
+      }
+    },
+    "Boss_Stargazer": {
+      "translations": {
+        "english": {
+          "name": "The stars gazed back",
+          "description": "Defeated Stargazer"
+        },
+        "schinese": {
+          "name": "群星回望",
+          "description": "击败了观星者。"
+        }
+      }
+    },
+    "Boss_Typewrither": {
+      "translations": {
+        "english": {
+          "name": "Writers' Block",
+          "description": "Defeated Typewrither"
+        },
+        "schinese": {
+          "name": "写作瓶颈",
+          "description": "击败了打字机怪"
+        }
+      }
+    },
+    "Boss_Panopticon": {
+      "translations": {
+        "english": {
+          "name": "Surveillance",
+          "description": "Defeated Panopticon"
+        },
+        "schinese": {
+          "name": "监视",
+          "description": "击败了监视者。"
+        }
+      }
+    },
+    "Boss_RatKing": {
+      "translations": {
+        "english": {
+          "name": "Iron Crown",
+          "description": "Defeated the Rat King"
+        },
+        "schinese": {
+          "name": "铁王冠",
+          "description": "击败了鼠王。"
+        }
+      }
+    },
+    "Boss_CrawlingHand": {
+      "translations": {
+        "english": {
+          "name": "Got out of hand quickly",
+          "description": "Defeated Crawling Hand"
+        },
+        "schinese": {
+          "name": "失控得很快",
+          "description": "击败了爬行手。"
+        }
+      }
+    },
+    "Boss_Crawler": {
+      "translations": {
+        "english": {
+          "name": "The Crawler",
+          "description": "Defeated Crawler"
+        },
+        "schinese": {
+          "name": "爬行者",
+          "description": "击败了爬行者。"
+        }
+      }
+    },
+    "Boss_Argot": {
+      "translations": {
+        "english": {
+          "name": "Polyglot",
+          "description": "Defeated Argot"
+        },
+        "schinese": {
+          "name": "通晓多语者",
+          "description": "击败了黑话。"
+        }
+      }
+    },
+    "Boss_Pompom": {
+      "translations": {
+        "english": {
+          "name": "Absolute Zero",
+          "description": "Defeated Pompom"
+        },
+        "schinese": {
+          "name": "绝对零度",
+          "description": "击败了绒球。"
+        }
+      }
+    },
+    "Boss_Gravedigger": {
+      "translations": {
+        "english": {
+          "name": "Foxhole",
+          "description": "Defeated the Grave Digger"
+        },
+        "schinese": {
+          "name": "散兵坑",
+          "description": "击败了掘墓人。"
+        }
+      }
+    },
+    "Boss_BoilerBeast": {
+      "translations": {
+        "english": {
+          "name": "Waterlogged",
+          "description": "Defeated the Boiler Beast"
+        },
+        "schinese": {
+          "name": "水浸",
+          "description": "击败了锅炉兽。"
+        }
+      }
+    },
+    "Boss_Furnace": {
+      "translations": {
+        "english": {
+          "name": "Burned Out",
+          "description": "Defeated the Furnace"
+        },
+        "schinese": {
+          "name": "燃尽",
+          "description": "击败了熔炉。"
+        }
+      }
+    },
+    "Boss_LaughingMold": {
+      "translations": {
+        "english": {
+          "name": "Mycelihumor",
+          "description": "Defeated Laughing Mold"
+        },
+        "schinese": {
+          "name": "菌类幽默",
+          "description": "击败了笑霉菌。"
+        }
+      }
+    },
+    "Boss_Sporemother": {
+      "translations": {
+        "english": {
+          "name": "Mushroom Queen",
+          "description": "Defeated the Spore Mother"
+        },
+        "schinese": {
+          "name": "蘑菇女王",
+          "description": "击败了孢子母体。"
+        }
+      }
+    },
+    "Boss_PoliceCar": {
+      "translations": {
+        "english": {
+          "name": "Traffic Stop",
+          "description": "Defeated The Police Car"
+        },
+        "schinese": {
+          "name": "交通拦截",
+          "description": "击败了警车。"
+        }
+      }
+    },
+    "Boss_PoliceTruck": {
+      "translations": {
+        "english": {
+          "name": "In the Salad Basket",
+          "description": "Defeated SWAT Truck"
+        },
+        "schinese": {
+          "name": "进沙拉篮",
+          "description": "击败了特警车。"
+        }
+      }
+    },
+    "Boss_Hellcar": {
+      "translations": {
+        "english": {
+          "name": "Highway to hell",
+          "description": "Defeated the Hell Car"
+        },
+        "schinese": {
+          "name": "地狱公路",
+          "description": "击败了地狱车。"
+        }
+      }
+    },
+    "Boss_Garbageworm": {
+      "translations": {
+        "english": {
+          "name": "Garbage Disposal",
+          "description": "Defeated Garbage Worm"
+        },
+        "schinese": {
+          "name": "垃圾处理",
+          "description": "击败了垃圾虫。"
+        }
+      }
+    },
+    "Death_HugTeeth": {
+      "translations": {
+        "english": {
+          "name": "All you need is love",
+          "description": "Tried hugging the Fred who bites."
+        },
+        "schinese": {
+          "name": "你需要的只是爱",
+          "description": "试图拥抱会咬人的弗雷德。"
+        }
+      }
+    },
+    "Misc_Frederic": {
+      "translations": {
+        "english": {
+          "name": "Frederic",
+          "description": "Helped Frederic get rid of his portraits."
+        },
+        "schinese": {
+          "name": "弗雷德里克",
+          "description": "帮助弗雷德里克处理掉了他的肖像画。"
+        }
+      }
+    },
+    "Progress_WhereItBegan": {
+      "translations": {
+        "english": {
+          "name": "Where it all began",
+          "description": "Enter the depths of apartment 12."
+        },
+        "schinese": {
+          "name": "一切开始的地方",
+          "description": "进入 12 号公寓的深处。"
+        }
+      }
+    },
+    "Progress_CursedRitual": {
+      "translations": {
+        "english": {
+          "name": "Cursed Ritual",
+          "description": "Complete a perfect ritual in Cursed Mode"
+        },
+        "schinese": {
+          "name": "被诅咒的仪式",
+          "description": "在诅咒模式下完成一次完美的仪式。"
+        }
+      }
+    },
+    "Progress_RankA": {
+      "translations": {
+        "english": {
+          "name": "Rank A",
+          "description": "Complete the game with a Rank of at least A."
+        },
+        "schinese": {
+          "name": "A 级评价",
+          "description": "以至少 A 级的评价通关游戏。"
+        }
+      }
+    },
+    "Progress_RankS": {
+      "translations": {
+        "english": {
+          "name": "Rank S",
+          "description": "Complete the game with a Rank of at least S."
+        },
+        "schinese": {
+          "name": "S 级评价",
+          "description": "以至少 S 级的评价通关游戏。"
+        }
+      }
+    },
+    "Progress_RankX": {
+      "translations": {
+        "english": {
+          "name": "Rank X",
+          "description": "Complete the game with a Rank of at least X."
+        },
+        "schinese": {
+          "name": "X 级评价",
+          "description": "以至少 X 级的评价通关游戏。"
+        }
+      }
+    },
+    "Recruit_Audrey": {
+      "translations": {
+        "english": {
+          "name": "1$ a can",
+          "description": "Welcomed Audrey into your home."
+        },
+        "schinese": {
+          "name": "一美元一罐",
+          "description": "收留了奥黛丽。"
+        }
+      }
+    },
+    "Recruit_Lyle": {
+      "translations": {
+        "english": {
+          "name": "Photography",
+          "description": "Welcomed Lyle into your home."
+        },
+        "schinese": {
+          "name": "摄影",
+          "description": "收留了莱尔。"
+        }
+      }
+    },
+    "Death_Drowning": {
+      "translations": {
+        "english": {
+          "name": "Drowning",
+          "description": "Run out of air."
+        },
+        "schinese": {
+          "name": "溺水",
+          "description": "耗尽了氧气。"
+        }
+      }
+    },
+    "Death_RatKing": {
+      "translations": {
+        "english": {
+          "name": "Successor",
+          "description": "A worthy successor."
+        },
+        "schinese": {
+          "name": "继承者",
+          "description": "一个合格的继承者。"
+        }
+      }
+    },
+    "Death_Obliterated": {
+      "translations": {
+        "english": {
+          "name": "Obliterated",
+          "description": "Get utterly annihilated."
+        },
+        "schinese": {
+          "name": "湮灭",
+          "description": "被彻底歼灭。"
+        }
+      }
+    },
+    "Death_Massacred": {
+      "translations": {
+        "english": {
+          "name": "Massacred",
+          "description": "The party was defeated..."
+        },
+        "schinese": {
+          "name": "惨败",
+          "description": "队伍被击败了..."
+        }
+      }
+    },
+    "Ending_WordsOfPower": {
+      "translations": {
+        "english": {
+          "name": "Words of Power",
+          "description": "Speak the forbidden words."
+        },
+        "schinese": {
+          "name": "力量之言",
+          "description": "说出禁忌之语。"
+        }
+      }
+    },
+    "Ending_Unity": {
+      "translations": {
+        "english": {
+          "name": "Unity",
+          "description": "Truth shall set us free."
+        },
+        "schinese": {
+          "name": "合一",
+          "description": "真相将使我们自由。"
+        }
+      }
+    },
+    "Ending_TrueFinal": {
+      "translations": {
+        "english": {
+          "name": "True Final Ending",
+          "description": "The true canon ending of Look Outside."
+        },
+        "schinese": {
+          "name": "真正的最终结局",
+          "description": "《Look Outside》的真正正统结局。"
+        }
+      }
+    },
+    "Misc_ColdShoulder": {
+      "translations": {
+        "english": {
+          "name": "Cold Shoulder",
+          "description": "Only spoke to Sybil once."
+        },
+        "schinese": {
+          "name": "冷漠",
+          "description": "只和西比尔交谈过一次。"
+        }
+      }
+    },
+    "Misc_VerminsLair": {
+      "translations": {
+        "english": {
+          "name": "Vermins Lair",
+          "description": "Enter Rat Hell."
+        },
+        "schinese": {
+          "name": "害虫巢穴",
+          "description": "进入老鼠地狱。"
+        }
+      }
+    },
+    "Misc_InTheDark": {
+      "translations": {
+        "english": {
+          "name": "In The Dark",
+          "description": "The power went out."
+        },
+        "schinese": {
+          "name": "在黑暗中",
+          "description": "停电了。"
+        }
+      }
+    },
+    "Misc_SewerKids": {
+      "translations": {
+        "english": {
+          "name": "Sewer Kids",
+          "description": "Find the children in the sewers."
+        },
+        "schinese": {
+          "name": "下水道孩童",
+          "description": "在下水道里找到了孩子们。"
+        }
+      }
+    },
+    "Misc_PowerSurge": {
+      "translations": {
+        "english": {
+          "name": "Power Surge",
+          "description": "End the blackout."
+        },
+        "schinese": {
+          "name": "恢复供电",
+          "description": "结束了停电。"
+        }
+      }
+    },
+    "Misc_FaceToFace": {
+      "translations": {
+        "english": {
+          "name": "Face to face",
+          "description": "Speak with Sybil face to face."
+        },
+        "schinese": {
+          "name": "面对面",
+          "description": "与西比尔面对面交谈。"
+        }
+      }
+    },
+    "Misc_Astrolabe": {
+      "translations": {
+        "english": {
+          "name": "Astrolabe",
+          "description": "Solve the planetarium."
+        },
+        "schinese": {
+          "name": "星盘",
+          "description": "解开了天文馆的谜题。"
+        }
+      }
+    },
+    "Misc_Insight": {
+      "translations": {
+        "english": {
+          "name": "Insight",
+          "description": "Shake some memories loose."
+        },
+        "schinese": {
+          "name": "洞察",
+          "description": "唤醒了一些尘封的记忆。"
+        }
+      }
+    },
+    "Misc_Coulrophobia": {
+      "translations": {
+        "english": {
+          "name": "Coulrophobia",
+          "description": "A heart-to-heart with Pierre."
+        },
+        "schinese": {
+          "name": "小丑恐惧症",
+          "description": "与皮埃尔进行了一场谈心。"
+        }
+      }
+    },
+    "Misc_FriendsTillTheEnd": {
+      "translations": {
+        "english": {
+          "name": "Friends Till The End",
+          "description": "Nurse Philippe back to health."
+        },
+        "schinese": {
+          "name": "至死不渝的朋友",
+          "description": "护理菲利普恢复健康。"
+        }
+      }
+    },
+    "Misc_SuitOfShame": {
+      "translations": {
+        "english": {
+          "name": "Suit of Shame",
+          "description": "Killed Eugene and robbed his home."
+        },
+        "schinese": {
+          "name": "羞耻囚服",
+          "description": "杀了尤金并洗劫了他的家。"
+        }
+      }
+    },
+    "Misc_MakeBelieve": {
+      "translations": {
+        "english": {
+          "name": "Make Believe",
+          "description": "Play Mazes and Wizards."
+        },
+        "schinese": {
+          "name": "假想游戏",
+          "description": "游玩《迷宫与巫师》。"
+        }
+      }
+    },
+    "Misc_CampaignsEnd": {
+      "translations": {
+        "english": {
+          "name": "Campaigns End",
+          "description": "Complete a Mazes and Wizards campaign."
+        },
+        "schinese": {
+          "name": "战役结束",
+          "description": "完成一次《迷宫与巫师》战役。"
+        }
+      }
+    },
+    "Misc_MagicTrick": {
+      "translations": {
+        "english": {
+          "name": "Is this your card?",
+          "description": "Completed Juicebox's magic trick."
+        },
+        "schinese": {
+          "name": "这是你的牌吗？",
+          "description": "完成了果汁盒的魔术。"
+        }
+      }
+    },
+    "Misc_WormyDeal": {
+      "translations": {
+        "english": {
+          "name": "Wormy Deal",
+          "description": "Make a deal with Kevin."
+        },
+        "schinese": {
+          "name": "蠕虫交易",
+          "description": "与凯文达成交易。"
+        }
+      }
+    },
+    "Misc_Shoplifting": {
+      "translations": {
+        "english": {
+          "name": "Shoplifting",
+          "description": "Killed Mutt."
+        },
+        "schinese": {
+          "name": "入店行窃",
+          "description": "杀死了马特。"
+        }
+      }
+    },
+    "Misc_Godmutt": {
+      "translations": {
+        "english": {
+          "name": "Godmutt",
+          "description": "Killed Mutt on day 14."
+        },
+        "schinese": {
+          "name": "马特之神",
+          "description": "在第 14 天杀死了马特。"
+        }
+      }
+    },
+    "Misc_BigFriend": {
+      "translations": {
+        "english": {
+          "name": "Big Friend",
+          "description": "Have a chat with Charan."
+        },
+        "schinese": {
+          "name": "大朋友",
+          "description": "与查兰聊了聊天。"
+        }
+      }
+    },
+    "Misc_Meatworld": {
+      "translations": {
+        "english": {
+          "name": "Meat World",
+          "description": "Exploring the other place."
+        },
+        "schinese": {
+          "name": "血肉世界",
+          "description": "探索另一个地方"
+        }
+      }
+    },
+    "Misc_GamersBurden": {
+      "translations": {
+        "english": {
+          "name": "A Gamer's Burden",
+          "description": "Retrieve Dan's NeoDuo."
+        },
+        "schinese": {
+          "name": "玩家的重担",
+          "description": "取回丹的 NeoDuo 掌机。"
+        }
+      }
+    },
+    "Misc_SecretGarden": {
+      "translations": {
+        "english": {
+          "name": "Secret Garden",
+          "description": "Do some gardening with a friend."
+        },
+        "schinese": {
+          "name": "秘密花园",
+          "description": "和朋友一起做些园艺。"
+        }
+      }
+    },
+    "Misc_WrongNumber": {
+      "translations": {
+        "english": {
+          "name": "Wrong Number",
+          "description": "Help someone get some closure on their old life."
+        },
+        "schinese": {
+          "name": "打错电话",
+          "description": "帮助某人放下了过去的生活。"
+        }
+      }
+    },
+    "Misc_RoachQuest": {
+      "translations": {
+        "english": {
+          "name": "Ad Hominem",
+          "description": "Help solve some conflicts in your community."
+        },
+        "schinese": {
+          "name": "人身攻击",
+          "description": "帮忙解决社区里的一些冲突。"
+        }
+      }
+    },
+    "Misc_LookInside": {
+      "translations": {
+        "english": {
+          "name": "Look Inside",
+          "description": "Have some time to yourself and let go."
+        },
+        "schinese": {
+          "name": "向内看",
+          "description": "给自己一点时间，学会放下。"
+        }
+      }
+    },
+    "Boss_APC": {
+      "translations": {
+        "english": {
+          "name": "Personel Carrier",
+          "description": "Defeated the APC"
+        },
+        "schinese": {
+          "name": "人员运输车",
+          "description": "击败了 APC。"
+        }
+      }
+    },
+    "Boss_Syncope": {
+      "translations": {
+        "english": {
+          "name": "Syncope",
+          "description": "Defeated all of Nestors' transformed parts."
+        },
+        "schinese": {
+          "name": "晕厥",
+          "description": "击败了内斯托尔所有变形的部位。"
+        }
+      }
+    },
+    "Boss_JoinThem": {
+      "translations": {
+        "english": {
+          "name": "Join Them",
+          "description": "Defeat the Olm"
+        },
+        "schinese": {
+          "name": "加入它们",
+          "description": "击败了洞螈。"
+        }
+      }
+    },
+    "Boss_Shockipede": {
+      "translations": {
+        "english": {
+          "name": "Electroshocks",
+          "description": "Defeat Shockipede"
+        },
+        "schinese": {
+          "name": "电击",
+          "description": "击败了电击蜈蚣。"
+        }
+      }
+    },
+    "Boss_SewerBeast": {
+      "translations": {
+        "english": {
+          "name": "Sewer Beast",
+          "description": "Defeat the Sewer Beast"
+        },
+        "schinese": {
+          "name": "下水道野兽",
+          "description": "击败了下水道野兽。"
+        }
+      }
+    },
+    "Boss_Formaldehyde": {
+      "translations": {
+        "english": {
+          "name": "Formaldehyde",
+          "description": "Defeat Suture Wire"
+        },
+        "schinese": {
+          "name": "甲醛",
+          "description": "击败了缝合线。"
+        }
+      }
+    },
+    "Boss_RatChimera": {
+      "translations": {
+        "english": {
+          "name": "Chimera",
+          "description": "Defeat the Rat Chimera"
+        },
+        "schinese": {
+          "name": "奇美拉",
+          "description": "击败了老鼠奇美拉。"
+        }
+      }
+    },
+    "Boss_RatChampion": {
+      "translations": {
+        "english": {
+          "name": "Duel",
+          "description": "Defeat the Rat Champion"
+        },
+        "schinese": {
+          "name": "决斗",
+          "description": "击败了鼠族冠军。"
+        }
+      }
+    },
+    "Boss_Megalodon": {
+      "translations": {
+        "english": {
+          "name": "Megalodon",
+          "description": "Defeat Shark Abomination"
+        },
+        "schinese": {
+          "name": "巨齿鲨",
+          "description": "击败了鲨鱼憎恶。"
+        }
+      }
+    },
+    "Boss_Vanguard": {
+      "translations": {
+        "english": {
+          "name": "Vanguard",
+          "description": "Defeat Shrimp Knight"
+        },
+        "schinese": {
+          "name": "先锋",
+          "description": "击败了虾骑士。"
+        }
+      }
+    },
+    "Boss_Stagnation": {
+      "translations": {
+        "english": {
+          "name": "Stagnation",
+          "description": "Defeat Lethargy"
+        },
+        "schinese": {
+          "name": "停滞",
+          "description": "击败了倦怠。"
+        }
+      }
+    },
+    "Boss_HideAndSeek": {
+      "translations": {
+        "english": {
+          "name": "Hide and Seek",
+          "description": "Defeat Darryl"
+        },
+        "schinese": {
+          "name": "捉迷藏",
+          "description": "击败了达里尔。"
+        }
+      }
+    },
+    "Boss_Obsession": {
+      "translations": {
+        "english": {
+          "name": "Obsession",
+          "description": "Defeat Obsession"
+        },
+        "schinese": {
+          "name": "执念",
+          "description": "击败了执念。"
+        }
+      }
+    },
+    "Boss_Whisperblade": {
+      "translations": {
+        "english": {
+          "name": "Whisperblade",
+          "description": "Defeat Swordmaster Comatus"
+        },
+        "schinese": {
+          "name": "低语之刃",
+          "description": "击败了剑术大师科马图斯。"
+        }
+      }
+    },
+    "Boss_DreamEater": {
+      "translations": {
+        "english": {
+          "name": "Dream Eater",
+          "description": "Defeat the Dream Eater"
+        },
+        "schinese": {
+          "name": "食梦者",
+          "description": "击败了食梦者。"
+        }
+      }
+    },
+    "Boss_SpineTaker": {
+      "translations": {
+        "english": {
+          "name": "Spine Taker",
+          "description": "Defeat Spine Taker"
+        },
+        "schinese": {
+          "name": "抽脊者",
+          "description": "击败了抽脊者。"
+        }
+      }
+    },
+    "Boss_HundredMaws": {
+      "translations": {
+        "english": {
+          "name": "Hundred Maws",
+          "description": "Defeat Hundred Maws"
+        },
+        "schinese": {
+          "name": "百颚",
+          "description": "击败了百颚。"
+        }
+      }
+    },
+    "Boss_CrimsonScourge": {
+      "translations": {
+        "english": {
+          "name": "Crimson Scourge",
+          "description": "Defeat The Crimson Scourge"
+        },
+        "schinese": {
+          "name": "猩红灾祸",
+          "description": "击败了猩红灾祸。"
+        }
+      }
+    },
+    "Boss_OraclesEnd": {
+      "translations": {
+        "english": {
+          "name": "Oracle's End",
+          "description": "Defeat Sybil"
+        },
+        "schinese": {
+          "name": "神谕之终",
+          "description": "击败了西比尔。"
+        }
+      }
+    },
+    "Recruit_Aster": {
+      "translations": {
+        "english": {
+          "name": "Astronomy",
+          "description": "Welcomed Aster into your home."
+        },
+        "schinese": {
+          "name": "天文学",
+          "description": "收留了阿斯特。"
+        }
+      }
+    },
+    "Ending_Promise": {
+      "translations": {
+        "english": {
+          "name": "Promise",
+          "description": "Keep your promise."
+        },
+        "schinese": {
+          "name": "承诺",
+          "description": "信守了承诺。"
+        }
+      }
+    },
+    "Boss_WordSalad": {
+      "translations": {
+        "english": {
+          "name": "Word Salad",
+          "description": "Defeat Wilhelmina"
+        },
+        "schinese": {
+          "name": "胡言乱语",
+          "description": "击败了威廉敏娜。"
+        }
+      }
+    }
+  }
+}

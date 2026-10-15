@@ -1,0 +1,525 @@
+{
+  "version": 1,
+  "app_id": "461950",
+  "variant_id": "default",
+  "source_sha256": "eadecca753683c3e03ace38d28d7690eacd56f42057600c88329d61138e2b707",
+  "languages": [
+    "english",
+    "polish",
+    "schinese"
+  ],
+  "achievements": {
+    "achievement_mafia_win": {
+      "translations": {
+        "english": {
+          "name": "Made man",
+          "description": "Beginning of a beautiful friendship..."
+        },
+        "polish": {
+          "name": "Witamy w rodzinie",
+          "description": "To początek pięknej przyjaźni..."
+        },
+        "schinese": {
+          "name": "正式成员",
+          "description": "一段美好友谊的开端……"
+        }
+      }
+    },
+    "achievement_gang_win": {
+      "translations": {
+        "english": {
+          "name": "OG",
+          "description": "They accept you as you are."
+        },
+        "polish": {
+          "name": "Ma się te kocie ruchy",
+          "description": "Chłopaki na dzieli to może nawet trochę Cię lubią."
+        },
+        "schinese": {
+          "name": "老炮儿",
+          "description": "他们接受你本来的样子。"
+        }
+      }
+    },
+    "achievement_police": {
+      "translations": {
+        "english": {
+          "name": "Born to be wild",
+          "description": "Lookin' for adventure and whatever comes our way"
+        },
+        "polish": {
+          "name": "Jadę, jadę na motorze!",
+          "description": "Wiater mi owiewa twarz."
+        },
+        "schinese": {
+          "name": "天生狂野",
+          "description": "寻找冒险，不管前路通向何方。"
+        }
+      }
+    },
+    "achievement_mexico": {
+      "translations": {
+        "english": {
+          "name": "While there is still no wall",
+          "description": "...so go and enjoy some chimichangas."
+        },
+        "polish": {
+          "name": "San Escobar",
+          "description": "...gdzie tequila i naczosy stanowią podstawę diety."
+        },
+        "schinese": {
+          "name": "趁墙还没修好",
+          "description": "……那就赶紧去享用墨西哥卷饼吧。"
+        }
+      }
+    },
+    "achievement_cat": {
+      "translations": {
+        "english": {
+          "name": "Cat person",
+          "description": "Because some people just want to watch the world meow."
+        },
+        "polish": {
+          "name": "Ala ma kota (z powrotem)",
+          "description": "I nie zawaha się go użyć."
+        },
+        "schinese": {
+          "name": "爱猫人士",
+          "description": "因为有些人只想看着世界「喵喵」叫。"
+        }
+      }
+    },
+    "achievement_sesam": {
+      "translations": {
+        "english": {
+          "name": "One for the team",
+          "description": "And can you tell me please how to get to Sesame street?"
+        },
+        "polish": {
+          "name": "Za tatusia",
+          "description": "I za mamusię dwa pączusie."
+        },
+        "schinese": {
+          "name": "为了团队",
+          "description": "那你能不能告诉我，芝麻街怎么走？"
+        }
+      }
+    },
+    "achievement_igor": {
+      "translations": {
+        "english": {
+          "name": "Slav squat",
+          "description": "And remember how to recognize a Western spy!"
+        },
+        "polish": {
+          "name": "Słowiańśki przykuc",
+          "description": "Bo każdy Słowianin wie jak rozpoznać szpiega z Zachodu!"
+        },
+        "schinese": {
+          "name": "斯拉夫蹲",
+          "description": "顺便记住怎么分辨西方间谍！"
+        }
+      }
+    },
+    "achievement_fridge": {
+      "translations": {
+        "english": {
+          "name": "Ice ice baby!",
+          "description": "Just chill out."
+        },
+        "polish": {
+          "name": "Jak jest zima, to musi być zimno!",
+          "description": "Pani kierowniczko, ja to wszystko rozumiem. Ja rozumiem, że wam jest zimno."
+        },
+        "schinese": {
+          "name": "冰冰宝贝！",
+          "description": "放轻松，凉快凉快。"
+        }
+      }
+    },
+    "achievement_cockroach_alive": {
+      "translations": {
+        "english": {
+          "name": "La Cucaracha",
+          "description": "He has a large family to support."
+        },
+        "polish": {
+          "name": "La Cucaracha",
+          "description": "A poza tym Prusakolep strasznie śmierdzi."
+        },
+        "schinese": {
+          "name": "蟑螂歌",
+          "description": "它还有一大家子要养呢。"
+        }
+      }
+    },
+    "achievement_cockroach_dead": {
+      "translations": {
+        "english": {
+          "name": "Someone should debug this game",
+          "description": "...and you just did that!"
+        },
+        "polish": {
+          "name": "Zalej robala",
+          "description": "Bo kto pije i pali ten nie ma robali."
+        },
+        "schinese": {
+          "name": "该给这游戏除虫了",
+          "description": "……而你刚刚做到了！"
+        }
+      }
+    },
+    "achievement_mushroom": {
+      "translations": {
+        "english": {
+          "name": "Use the back door",
+          "description": "Sometimes that's the only way. At least that's what she said."
+        },
+        "polish": {
+          "name": "Wejście od zaplecza",
+          "description": "Czasem inaczej się nie da. Poza tym nikt tego nie widział, więc luzik."
+        },
+        "schinese": {
+          "name": "走后门",
+          "description": "有时候那是唯一的办法。至少她是这么说的。"
+        }
+      }
+    },
+    "achievement_canary": {
+      "translations": {
+        "english": {
+          "name": "Secret sauce",
+          "description": "This is why you should look at ingredients from time to time."
+        },
+        "polish": {
+          "name": "Poproszę na ostro",
+          "description": "Czasem człowiek musi, inaczej się udusi."
+        },
+        "schinese": {
+          "name": "秘制酱料",
+          "description": "这就是为什么你该时不时看看配料表。"
+        }
+      }
+    },
+    "achievement_writer": {
+      "translations": {
+        "english": {
+          "name": "Fahrenheit 451",
+          "description": "Who knows where it comes from?"
+        },
+        "polish": {
+          "name": "451 Stopni Fahrenheita",
+          "description": "Kto kuma skąd ta nazwa?"
+        },
+        "schinese": {
+          "name": "华氏451度",
+          "description": "谁知道这名字是哪来的？"
+        }
+      }
+    },
+    "achievement_devito": {
+      "translations": {
+        "english": {
+          "name": "Raging Bull",
+          "description": "If you win, you win. If you lose, you still win."
+        },
+        "polish": {
+          "name": "Wściekły Byk",
+          "description": "Lubię zapach ringu."
+        },
+        "schinese": {
+          "name": "愤怒的公牛",
+          "description": "赢了就是赢了，输了也还是赢。"
+        }
+      }
+    },
+    "achievement_sect": {
+      "translations": {
+        "english": {
+          "name": "No heaven for you",
+          "description": "He could have washed his pants, not his brain."
+        },
+        "polish": {
+          "name": "Winda do nieba nieczynna",
+          "description": "Ale ponoć da się wejść po schodach."
+        },
+        "schinese": {
+          "name": "天堂与你无缘",
+          "description": "他本可以洗洗裤子，而不是洗脑。"
+        }
+      }
+    },
+    "achievement_dirk": {
+      "translations": {
+        "english": {
+          "name": "Weapon of mass destruction",
+          "description": "And still some dream about having one."
+        },
+        "polish": {
+          "name": "Broń masowego rażenia",
+          "description": "A do tego posiada napęd jądrowy."
+        },
+        "schinese": {
+          "name": "大规模杀伤性武器",
+          "description": "可还有人做梦都想弄一把。"
+        }
+      }
+    },
+    "achievement_dog": {
+      "translations": {
+        "english": {
+          "name": "Fetch",
+          "description": "And let's see what happens. Will PETA intervene?"
+        },
+        "polish": {
+          "name": "Aport",
+          "description": "I zobaczmy co się stanie. Obrońcy cyfrowych zwierząt - baczność!"
+        },
+        "schinese": {
+          "name": "捡回来",
+          "description": "看看会发生什么。善待动物组织会插手吗？"
+        }
+      }
+    },
+    "achievement_argentina": {
+      "translations": {
+        "english": {
+          "name": "Adiós Muchachos",
+          "description": "Und Ich bin mit my friends from old times."
+        },
+        "polish": {
+          "name": "Adiós Muchachos",
+          "description": "Dołącze do kolegów, pośpiewamy piosenki, powspominamy stare czasy."
+        },
+        "schinese": {
+          "name": "再见，小伙子们",
+          "description": "我要去和老朋友们会合，唱唱歌，叙叙旧。"
+        }
+      }
+    },
+    "achievement_krank": {
+      "translations": {
+        "english": {
+          "name": "...And Justice for All",
+          "description": "Sooner or later everyone pays for the sins."
+        },
+        "polish": {
+          "name": "...And Justice for All",
+          "description": "Poza tym Krank skończył się na czarnej płycie."
+        },
+        "schinese": {
+          "name": "……正义为所有人",
+          "description": "迟早每个人都要为罪孽付出代价。"
+        }
+      }
+    },
+    "achievement_platoon": {
+      "translations": {
+        "english": {
+          "name": "Rated R",
+          "description": "Tell them to volunteer. Tell to drop out of college and join infantry."
+        },
+        "polish": {
+          "name": "Tylko dla dorosłych",
+          "description": "Niech się nauczą trochę prawdy o życiu."
+        },
+        "schinese": {
+          "name": "限制级",
+          "description": "叫他们去当志愿兵。叫他们退学去参军。"
+        }
+      }
+    },
+    "achievement_topgun": {
+      "translations": {
+        "english": {
+          "name": "Sword fight",
+          "description": "This is for movie nerds. Who gets it?"
+        },
+        "polish": {
+          "name": "Walka na miecze",
+          "description": "Coś dla maniaków kina. Kto łapie o co chodzi w tej scenie?"
+        },
+        "schinese": {
+          "name": "击剑",
+          "description": "这条是给影迷的。谁看懂了？"
+        }
+      }
+    },
+    "achievement_earhart": {
+      "translations": {
+        "english": {
+          "name": "Amelia Earhart",
+          "description": "Could it be real?"
+        },
+        "polish": {
+          "name": "Amelia Earhart",
+          "description": "Czy to mogło zdarzyć się naprawdę?"
+        },
+        "schinese": {
+          "name": "阿梅莉亚·埃尔哈特",
+          "description": "这有可能是真的吗？"
+        }
+      }
+    },
+    "achievement_end": {
+      "translations": {
+        "english": {
+          "name": "Have a blast",
+          "description": "Well done, Mr. Bond."
+        },
+        "polish": {
+          "name": "Bombowa impreza",
+          "description": "Dobra robota, panie Bond."
+        },
+        "schinese": {
+          "name": "玩得开心",
+          "description": "干得漂亮，邦德先生。"
+        }
+      }
+    },
+    "achievement_ticket_1": {
+      "translations": {
+        "english": {
+          "name": "You've always wanted to do this",
+          "description": "Hit the street and write 50 tickets."
+        },
+        "polish": {
+          "name": "Zawsze chciałeś to zrobić",
+          "description": "Wbij na rewir i wlep 50 mandatów."
+        },
+        "schinese": {
+          "name": "你一直想这么干",
+          "description": "走上街头，开 50 张罚单。"
+        }
+      }
+    },
+    "achievement_ticket_2": {
+      "translations": {
+        "english": {
+          "name": "Chasing pavements",
+          "description": "I bet people love you after issuing 100 tickets."
+        },
+        "polish": {
+          "name": "Szorując chodniki",
+          "description": "Zostań królem mandatów. Wlep okrągłą stówkę."
+        },
+        "schinese": {
+          "name": "开罚单不停",
+          "description": "我打赌开完 100 张罚单，大家一定都很爱你。"
+        }
+      }
+    },
+    "achievement_ticket_3": {
+      "translations": {
+        "english": {
+          "name": "Compulsive ticketer",
+          "description": "You love this job, don't you? That's what 250 issued tickets means."
+        },
+        "polish": {
+          "name": "Mandacik za mandacikiem",
+          "description": "Kochasz tę robotę, prawda? 250 wlepionych mandatów mówi samo za siebie."
+        },
+        "schinese": {
+          "name": "开罚单强迫症",
+          "description": "你爱死这工作了吧？250 张罚单就是这么来的。"
+        }
+      }
+    },
+    "achievement_robber_1": {
+      "translations": {
+        "english": {
+          "name": "Run Kelly, Run!",
+          "description": "Who's faster? You or 10 shoplifters?"
+        },
+        "polish": {
+          "name": "Biegnij Kelly, biegnij!",
+          "description": "Kto szybciej zapiernicza? Krawężnik, czy 10 złodziejaszków?"
+        },
+        "schinese": {
+          "name": "快跑，凯利，快跑！",
+          "description": "谁更快？你还是 10 个顺手牵羊的？"
+        }
+      }
+    },
+    "achievement_robber_2": {
+      "translations": {
+        "english": {
+          "name": "Among thieves",
+          "description": "That's why you graduated from Police Academy. To catch 20 shoplifters."
+        },
+        "polish": {
+          "name": "Pośród złodziei",
+          "description": "Po złapaniu 20 sklepowych złodziejaszków czujesz się jak pitbull, co nie?"
+        },
+        "schinese": {
+          "name": "盗亦有道",
+          "description": "所以你才从警校毕业——为了抓 20 个顺手牵羊的。"
+        }
+      }
+    },
+    "achievement_robber_3": {
+      "translations": {
+        "english": {
+          "name": "Gotta catch'em all",
+          "description": "Stealing bubble gum is a serious crime. Catch 50 shoplifters."
+        },
+        "polish": {
+          "name": "Złap je wszystkie",
+          "description": "Zajumanie gumy owocowej to kryminał. Złap 50 złodziejaszków."
+        },
+        "schinese": {
+          "name": "全部抓到手",
+          "description": "偷泡泡糖可是重罪。抓 50 个顺手牵羊的。"
+        }
+      }
+    },
+    "achievement_bribe_1": {
+      "translations": {
+        "english": {
+          "name": "First time is not a crime",
+          "description": "It's only a bribe if you're caught. Don't get caught 10 times."
+        },
+        "polish": {
+          "name": "Pierwszy grosik dla Jadzi",
+          "description": "10 łapówek to nawet na sajgonki nie styknie."
+        },
+        "schinese": {
+          "name": "初犯无罪",
+          "description": "没被抓到就不算受贿。别被抓到 10 次。"
+        }
+      }
+    },
+    "achievement_bribe_2": {
+      "translations": {
+        "english": {
+          "name": "Sticky fingers",
+          "description": "Take 20 bribes and be happy. And don't worry."
+        },
+        "polish": {
+          "name": "Na waciki",
+          "description": "20 łapówek to już nie przypadek. To styl życia."
+        },
+        "schinese": {
+          "name": "手不干净",
+          "description": "收 20 次贿赂，开心点。别担心。"
+        }
+      }
+    },
+    "achievement_bribe_3": {
+      "translations": {
+        "english": {
+          "name": "Money talks",
+          "description": "After 50 bribes, consider yourself an addict."
+        },
+        "polish": {
+          "name": "500+",
+          "description": "Bierzesz 50 razy w łapę i pozamiatane."
+        },
+        "schinese": {
+          "name": "有钱能使鬼推磨",
+          "description": "收了 50 次贿赂之后，你就算是个瘾君子了。"
+        }
+      }
+    }
+  }
+}
