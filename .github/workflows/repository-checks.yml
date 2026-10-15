@@ -60,19 +60,6 @@ jobs:
           fi
           python workflow-scripts/check_repository.py "${args[@]}"
 
-      - name: Generate achievement review files
-        if: ${{ env.TRANSLATION_PR == 'true' }}
-        run: python workflow-scripts/achievement_catalog.py --base-ref "$PR_BASE_SHA" --head-ref "$PR_HEAD_SHA" --output "$RUNNER_TEMP/achievement-review"
-
-      - name: Upload achievement review files
-        if: ${{ env.TRANSLATION_PR == 'true' }}
-        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
-        with:
-          name: achievement-review
-          path: ${{ runner.temp }}/achievement-review/
-          if-no-files-found: error
-          retention-days: 30
-
       # Translation PRs validate pending game metadata without changing Catalog V2.
       # Their indexed files can legitimately differ until post-merge finalization.
       - name: Build website and verify published downloads

@@ -1,12 +1,14 @@
 """Catalog V2, schema, and generated-artifact repository validation."""
 from __future__ import annotations
 
+import subprocess
 from dataclasses import dataclass, field
 from pathlib import Path, PurePosixPath
 
 import catalog_v2
+from achievement_catalog import expected_review_catalog
 import translation_json
-from pr_submission_data import with_submissions
+from pr_submission_data import load_submissions, with_submissions
 from generate_statistics_svg import build_statistics, render_svg
 from steam_schema import achievement_rows, language_coverage, load_schema, schema_languages, sha256, validate_schema_structure
 
@@ -123,6 +125,7 @@ def check_repository(
     allow_stale_derived_artifacts: bool = False,
     allow_pending_submissions: bool = False,
     strict_game_ids: set[str] | None = None,
+    review_base_ref: str = "origin/main",
 ) -> CheckReport:
     report = CheckReport()
 
@@ -179,8 +182,25 @@ def check_repository(
             report.error(f"Translation JSON must be inside a variant directory: {path.relative_to(ROOT).as_posix()}")
         elif not path.with_suffix(".bin").is_file():
             report.error(f"orphan translation JSON: {path.relative_to(ROOT).as_posix()}")
+    expected_reviews: set[Path] = set()
+    if allow_pending_submissions:
+        for game_id, game in load_submissions(root=ROOT).items():
+            for variant_id in game["variants"]:
+                path = (ROOT / catalog_v2.schema_relative_path(game_id, variant_id)).with_name("achievements.md")
+                expected_reviews.add(path.resolve())
+                if not path.is_file():
+                    if game_id in (strict_game_ids or set()):
+                        report.error(f"Missing achievement review: {path.relative_to(ROOT).as_posix()}")
+                    continue
+                try:
+                    expected = expected_review_catalog(game_id, variant_id, base_ref=review_base_ref, root=ROOT)
+                    if path.read_text(encoding="utf-8") != expected:
+                        report.error(f"Achievement review is out of sync: {path.relative_to(ROOT).as_posix()}")
+                except (OSError, UnicodeError, ValueError, subprocess.CalledProcessError) as exc:
+                    report.error(f"Cannot verify achievement review {game_id}/{variant_id}: {exc}")
     for path in FILES_ROOT.rglob("*.md"):
-        report.error(f"Review Markdown does not belong in translation data: {path.relative_to(ROOT).as_posix()}")
+        if path.resolve() not in expected_reviews:
+            report.error(f"Unexpected review Markdown: {path.relative_to(ROOT).as_posix()}")
 
     try:
         if STATISTICS_PATH.read_text(encoding="utf-8") != render_svg(build_statistics(catalog)):

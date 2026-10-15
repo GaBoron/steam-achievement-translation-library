@@ -1,111 +1,118 @@
-"""Generate temporary achievement Markdown for translation PR review."""
+"""Deterministic, field-oriented Markdown kept only in translation review PRs."""
 from __future__ import annotations
 
-import argparse
+import json
+import re
+import subprocess
 from pathlib import Path
 from typing import Any
 
 import catalog_v2
-from steam_schema import achievement_rows, load_schema, validate_schema_structure
+from recycle_bin import recycle_path
+from steam_schema import load_schema
+from translation_json import render_translation
 
 
-LANGUAGE_TITLES = {
-    "arabic": "العربية",
-    "brazilian": "Português do Brasil",
-    "bulgarian": "Български",
-    "czech": "Čeština",
-    "danish": "Dansk",
-    "dutch": "Nederlands",
-    "english": "English",
-    "finnish": "Suomi",
-    "french": "Français",
-    "german": "Deutsch",
-    "greek": "Ελληνικά",
-    "hungarian": "Magyar",
-    "indonesian": "Bahasa Indonesia",
-    "italian": "Italiano",
-    "japanese": "日本語",
-    "koreana": "한국어",
-    "latam": "Español (Latinoamérica)",
-    "norwegian": "Norsk",
-    "polish": "Polski",
-    "portuguese": "Português",
-    "romanian": "Română",
-    "russian": "Русский",
-    "schinese": "简体中文",
-    "spanish": "Español",
-    "swedish": "Svenska",
-    "tchinese": "繁體中文",
-    "thai": "ไทย",
-    "turkish": "Türkçe",
-    "ukrainian": "Українська",
-    "vietnamese": "Tiếng Việt",
-}
+def _inline(value: str | None) -> str:
+    if value is None:
+        return "(absent)"
+    text = json.dumps(value, ensure_ascii=False)
+    width = max((len(run) for run in re.findall(r"`+", text)), default=0) + 1
+    fence = "`" * width
+    return f"{fence}{text}{fence}"
 
 
-def escape_cell(value: Any) -> str:
-    return str(value or "").replace("\\", "\\\\").replace("|", "\\|").replace("\r", " ").replace("\n", "<br>").strip()
-
-
-def render_achievement_catalog(schema_name: str, rows: list[dict[str, str]], languages: list[str]) -> str:
+def render_achievement_review(
+    schema_name: str,
+    source_sha256: str,
+    current: dict[str, Any],
+    previous: dict[str, Any],
+) -> str:
+    """Keep one field per source line and neighboring languages together."""
+    changes = []
+    for api_name in dict.fromkeys([*current, *previous]):
+        before, after = previous.get(api_name), current.get(api_name)
+        if before == after:
+            continue
+        kind = "Added" if before is None else "Removed" if after is None else "Changed"
+        changes.append((api_name, kind, before, after))
+    counts = {kind: sum(item[1] == kind for item in changes) for kind in ("Added", "Changed", "Removed")}
     lines = [
-        "# Achievement Catalog",
-        "",
-        f"Generated from `{schema_name}`. Do not edit manually.",
+        "# Achievement review", "",
+        f"Schema: {_inline(schema_name)}",
+        f"Source SHA-256: {_inline(source_sha256)}",
+        f"Added: {counts['Added']}; Changed: {counts['Changed']}; Removed: {counts['Removed']}",
     ]
-    for language in languages:
-        lines.extend([
-            "",
-            f"## {LANGUAGE_TITLES.get(language, language)} (`{language}`)",
-            "",
-            "| ID | Name | Description |",
-            "| --- | --- | --- |",
-        ])
-        for row in rows:
-            lines.append(
-                f"| `{escape_cell(row.get('api_name'))}` | {escape_cell(row.get(f'{language}_name'))} | "
-                f"{escape_cell(row.get(f'{language}_description'))} |"
-            )
+    if not changes:
+        lines.extend(["", "No achievement text changes."])
+    for api_name, kind, before, after in changes:
+        lines.extend(["", f"## {kind}: {_inline(api_name)}"])
+        old = (before or {}).get("translations", {})
+        new = (after or {}).get("translations", {})
+        languages = sorted(set(old) | set(new))
+        for field in ("name", "description"):
+            lines.extend(["", f"### {field.title()}", ""])
+            for language in languages:
+                old_value = old.get(language, {}).get(field)
+                new_value = new.get(language, {}).get(field)
+                if kind == "Changed" and old_value != new_value:
+                    lines.append(f"- **{language} / before:** {_inline(old_value)}")
+                    lines.append(f"- **{language} / after:** {_inline(new_value)}")
+                else:
+                    value = old_value if after is None else new_value
+                    lines.append(f"- **{language}:** {_inline(value)}")
     return "\n".join(lines) + "\n"
 
 
-def write_review_catalogs(game_id: str, *, output: Path, root: Path = catalog_v2.REPO_ROOT) -> list[Path]:
-    from pr_submission_data import load_submission_catalog
+def _base_commit(base_ref: str, root: Path) -> str:
+    result = subprocess.run(
+        ["git", "rev-parse", "--verify", "--end-of-options", f"{base_ref}^{{commit}}"],
+        cwd=root, check=True, capture_output=True, text=True,
+    )
+    return result.stdout.strip()
 
-    root = root.resolve()
-    output = output.resolve()
-    if output == root or output in root.parents or output.is_relative_to(root):
-        raise ValueError("Review artifacts must be generated outside the repository.")
-    if output.exists() and (not output.is_dir() or next(output.iterdir(), None) is not None):
-        raise ValueError(f"Review output must be empty: {output}")
-    catalog = load_submission_catalog(root=root)
-    game = catalog["games"][game_id]
+
+def expected_review_catalog(
+    game_id: str, variant_id: str, *, base_ref: str, root: Path = catalog_v2.REPO_ROOT,
+) -> str:
+    relative = catalog_v2.translation_json_relative_path(game_id, variant_id)
+    base = _base_commit(base_ref, root)
+    indexed = subprocess.run(
+        ["git", "ls-tree", "-z", base, "--", relative],
+        cwd=root, check=True, capture_output=True,
+    )
+    previous: dict[str, Any] = {}
+    if indexed.stdout:
+        original = subprocess.run(
+            ["git", "show", f"{base}:{relative}"], cwd=root, check=True, capture_output=True,
+        ).stdout
+        previous = json.loads(original)["achievements"]
+    path = root / catalog_v2.schema_relative_path(game_id, variant_id)
+    data, nodes = load_schema(path)
+    current = json.loads(render_translation(game_id, variant_id, data, nodes))
+    return render_achievement_review(path.name, current["source_sha256"], current["achievements"], previous)
+
+
+def write_entry_review_catalogs(
+    entry: dict[str, Any], *, base_ref: str = "origin/main", root: Path = catalog_v2.REPO_ROOT,
+) -> list[Path]:
+    from library_index import validated_entry_schema_variants
+
+    base = _base_commit(base_ref, root)
+    game_id = str(entry["game_id"])
     written = []
-    for variant_id, variant in game["variants"].items():
-        schema_path = root / catalog_v2.schema_relative_path(game_id, variant_id)
-        data, nodes = load_schema(schema_path)
-        validate_schema_structure(data, nodes)
-        languages = variant["languages"]
-        content = render_achievement_catalog(schema_path.name, achievement_rows(nodes, languages), languages)
-        path = output / game_id / variant_id / "achievements.md"
-        path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(content, encoding="utf-8", newline="\n")
+    for record in validated_entry_schema_variants(entry):
+        variant_id = str(record["variant_id"])
+        path = (root / catalog_v2.schema_relative_path(game_id, variant_id)).with_name("achievements.md")
+        text = expected_review_catalog(game_id, variant_id, base_ref=base, root=root)
+        if not path.is_file() or path.read_text(encoding="utf-8") != text:
+            path.write_text(text, encoding="utf-8", newline="\n")
         written.append(path)
     return written
 
 
-def main() -> None:
-    from translation_pr_validation import changed_game
-
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--base-ref", required=True)
-    parser.add_argument("--head-ref", required=True)
-    parser.add_argument("--output", type=Path, required=True)
-    args = parser.parse_args()
-    game_id, _ = changed_game(args.base_ref, args.head_ref)
-    written = write_review_catalogs(game_id, output=args.output)
-    print(f"Generated {len(written)} review catalog(s) for {game_id}.")
-
-
-if __name__ == "__main__":
-    main()
+def recycle_review_catalogs(game_id: str, game: dict[str, Any], *, root: Path) -> None:
+    for variant_id in game["variants"]:
+        path = (root / catalog_v2.schema_relative_path(game_id, variant_id)).with_name("achievements.md")
+        if path.exists():
+            recycle_path(path, boundary=root / "files" / game_id)
