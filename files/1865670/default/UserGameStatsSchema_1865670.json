@@ -1,0 +1,396 @@
+{
+  "version": 1,
+  "app_id": "1865670",
+  "variant_id": "default",
+  "source_sha256": "8d284146b0a1088ed25cdff526771c1331b5df9a1b81d07159e49ff2e5f99e9b",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "ACH_NORMAL": {
+      "translations": {
+        "english": {
+          "name": "A Normal Day",
+          "description": "Wake up for school"
+        },
+        "schinese": {
+          "name": "平凡的一天",
+          "description": "起床去上学"
+        }
+      }
+    },
+    "ACH_REIMU": {
+      "translations": {
+        "english": {
+          "name": "Maiden's Cappuchino",
+          "description": "Complete the tutorial"
+        },
+        "schinese": {
+          "name": "巫女的卡布奇诺",
+          "description": "完成教程"
+        }
+      }
+    },
+    "ACH_MARISA": {
+      "translations": {
+        "english": {
+          "name": "Master Spark",
+          "description": "Defeat Marisa Kirisame"
+        },
+        "schinese": {
+          "name": "极限火花",
+          "description": "击败雾雨魔理沙"
+        }
+      }
+    },
+    "ACH_KOGASA": {
+      "translations": {
+        "english": {
+          "name": "Mi Kasa Es Tu Kasa",
+          "description": "Defeat Kogasa Tatara"
+        },
+        "schinese": {
+          "name": "我的伞就是你的伞",
+          "description": "击败多多良小伞"
+        }
+      }
+    },
+    "ACH_YUYUKO": {
+      "translations": {
+        "english": {
+          "name": "Best Served Cold",
+          "description": "Defeat Yuyuko Saigyouji"
+        },
+        "schinese": {
+          "name": "冷食最佳",
+          "description": "击败西行寺幽幽子"
+        }
+      }
+    },
+    "ACH_REMILIA": {
+      "translations": {
+        "english": {
+          "name": "Not So Pathétique",
+          "description": "Defeat Remilia Scarlet"
+        },
+        "schinese": {
+          "name": "没那么悲怆",
+          "description": "击败蕾米莉亚·斯卡雷特"
+        }
+      }
+    },
+    "ACH_KAKKOI": {
+      "translations": {
+        "english": {
+          "name": "Cosa Nostra",
+          "description": "Defeat Kakkoi and Utsuho"
+        },
+        "schinese": {
+          "name": "我们的事业",
+          "description": "击败卡科伊与阿空"
+        }
+      }
+    },
+    "ACH_EIRIN": {
+      "translations": {
+        "english": {
+          "name": "Iatrophobia",
+          "description": "Defeat Eirin Yagokoro"
+        },
+        "schinese": {
+          "name": "恐医症",
+          "description": "击败八意永琳"
+        }
+      }
+    },
+    "ACH_CIRNO": {
+      "translations": {
+        "english": {
+          "name": "Clearly Not the Strongest",
+          "description": "Defeat Cirno"
+        },
+        "schinese": {
+          "name": "显然不是最强",
+          "description": "击败琪露诺"
+        }
+      }
+    },
+    "ACH_BITEN": {
+      "translations": {
+        "english": {
+          "name": "No More Monkeys Jumping on the Bed",
+          "description": "Defeat Son Biten"
+        },
+        "schinese": {
+          "name": "别再在床上蹦了",
+          "description": "击败孙美天"
+        }
+      }
+    },
+    "ACH_BYAKUREN": {
+      "translations": {
+        "english": {
+          "name": "Religious Debacle",
+          "description": "Defeat Byakuren Hijiri"
+        },
+        "schinese": {
+          "name": "宗教惨败",
+          "description": "击败圣白莲"
+        }
+      }
+    },
+    "ACH_G2AM": {
+      "translations": {
+        "english": {
+          "name": "Lost, Frightened, Confused?",
+          "description": "Defeat Hisoutensoku"
+        },
+        "schinese": {
+          "name": "迷失、惊惧、困惑？",
+          "description": "击败非想天则"
+        }
+      }
+    },
+    "ACH_OKUU": {
+      "translations": {
+        "english": {
+          "name": "The Nuclear Option",
+          "description": "Defeat Reiuji Utsuho"
+        },
+        "schinese": {
+          "name": "核选项",
+          "description": "击败灵乌路空"
+        }
+      }
+    },
+    "ACH_NEUTRAL": {
+      "translations": {
+        "english": {
+          "name": "Status Quo",
+          "description": "Bring everything back to normal"
+        },
+        "schinese": {
+          "name": "维持现状",
+          "description": "让一切恢复原样"
+        }
+      }
+    },
+    "ACH_TRUE": {
+      "translations": {
+        "english": {
+          "name": "Fruition of Odysseus",
+          "description": "Unite Gensokyo back with Earth"
+        },
+        "schinese": {
+          "name": "奥德修斯的凯旋",
+          "description": "让幻想乡重归地球"
+        }
+      }
+    },
+    "ACH_SAKUYA": {
+      "translations": {
+        "english": {
+          "name": "Combustable Hospitality",
+          "description": "Take the Scarlet Devil Manion's hospitality for granted"
+        },
+        "schinese": {
+          "name": "可燃的款待",
+          "description": "把红魔馆的款待视作理所当然"
+        }
+      }
+    },
+    "ACH_DEAL": {
+      "translations": {
+        "english": {
+          "name": "Hush Money",
+          "description": "Accept Kakkoi's bribe"
+        },
+        "schinese": {
+          "name": "封口费",
+          "description": "接受卡科伊的贿赂"
+        }
+      }
+    },
+    "ACH_APPRENTICE": {
+      "translations": {
+        "english": {
+          "name": "Permanent Study Abroad Program",
+          "description": "Become Eirin's Apprentice"
+        },
+        "schinese": {
+          "name": "永久留学计划",
+          "description": "成为永琳的徒弟"
+        }
+      }
+    },
+    "ACH_FBI": {
+      "translations": {
+        "english": {
+          "name": "What're You In For?",
+          "description": "Get arrested by the FBI in the lamest way possible"
+        },
+        "schinese": {
+          "name": "你犯了什么事？",
+          "description": "以最窝囊的方式被FBI逮捕"
+        }
+      }
+    },
+    "ACH_SKELETON": {
+      "translations": {
+        "english": {
+          "name": "Clever Cartilage",
+          "description": "Solve the Bone Riddle"
+        },
+        "schinese": {
+          "name": "机智的软骨",
+          "description": "解开骸骨谜题"
+        }
+      }
+    },
+    "ACH_HACK": {
+      "translations": {
+        "english": {
+          "name": "Hackerman",
+          "description": "Remember one tiny piece of information"
+        },
+        "schinese": {
+          "name": "黑客侠",
+          "description": "记住一条微不足道的信息"
+        }
+      }
+    },
+    "ACH_ALICE": {
+      "translations": {
+        "english": {
+          "name": "All Mad Down Here",
+          "description": "Defeat Rin Satsuki"
+        },
+        "schinese": {
+          "name": "此处人人皆疯",
+          "description": "击败冴月麟"
+        }
+      }
+    },
+    "ACH_BJ1": {
+      "translations": {
+        "english": {
+          "name": "Beginner's Luck",
+          "description": "Get a thousand dollars in Blackjack"
+        },
+        "schinese": {
+          "name": "新手运气",
+          "description": "在二十一点中赢到一千美元"
+        }
+      }
+    },
+    "ACH_BJ2": {
+      "translations": {
+        "english": {
+          "name": "Winning Streak",
+          "description": "Get 50k in Blackjack"
+        },
+        "schinese": {
+          "name": "连胜",
+          "description": "在二十一点中赢到5万美元"
+        }
+      }
+    },
+    "ACH_BJ3": {
+      "translations": {
+        "english": {
+          "name": "Blackjack God",
+          "description": "Somehow get one million dollars in Blackjack"
+        },
+        "schinese": {
+          "name": "二十一点之神",
+          "description": "不知怎么地在二十一点中赢到一百万美元"
+        }
+      }
+    },
+    "ACH_SLOT": {
+      "translations": {
+        "english": {
+          "name": "Casino Fight",
+          "description": "Get a Jackpot during Kakkoi's fight"
+        },
+        "schinese": {
+          "name": "赌场之战",
+          "description": "在卡科伊之战中拉中头奖"
+        }
+      }
+    },
+    "ACH_YUBOMB": {
+      "translations": {
+        "english": {
+          "name": "Best Served Not At All",
+          "description": "Don't feed Yuyuko anything during her minigame"
+        },
+        "schinese": {
+          "name": "不食最佳",
+          "description": "在幽幽子的小游戏中不喂她吃任何东西"
+        }
+      }
+    },
+    "ACH_LUNAREX": {
+      "translations": {
+        "english": {
+          "name": "Brawn of the Moon",
+          "description": "Defeat Eirin without using Special once"
+        },
+        "schinese": {
+          "name": "月之肌肉",
+          "description": "全程不使用一次特殊技击败永琳"
+        }
+      }
+    },
+    "ACH_SLOW": {
+      "translations": {
+        "english": {
+          "name": "Puck Dynasty",
+          "description": "Defeat Hisoutensoku without using the Slow ability once"
+        },
+        "schinese": {
+          "name": "冰球王朝",
+          "description": "全程不使用一次减速能力击败非想天则"
+        }
+      }
+    },
+    "ACH_LAUNDROMAT": {
+      "translations": {
+        "english": {
+          "name": "Kakkoi's Laundromat",
+          "description": "Complete Kakkoi's Laundromat"
+        },
+        "schinese": {
+          "name": "卡科伊洗衣店",
+          "description": "完成卡科伊洗衣店"
+        }
+      }
+    },
+    "ACH_KLJACKPOT": {
+      "translations": {
+        "english": {
+          "name": "Jackpot!",
+          "description": "Get a jackpot at the slots in the Lounge"
+        },
+        "schinese": {
+          "name": "头奖！",
+          "description": "在休息室的老虎机中拉中头奖"
+        }
+      }
+    },
+    "ACH_RADALICE": {
+      "translations": {
+        "english": {
+          "name": "Straight Outta Wonderland",
+          "description": "Encounter Mad Alice in Kakkoi's Laundromat"
+        },
+        "schinese": {
+          "name": "来自仙境",
+          "description": "在卡科伊洗衣店中邂逅疯爱丽丝"
+        }
+      }
+    }
+  }
+}
