@@ -1,0 +1,1457 @@
+{
+  "version": 1,
+  "app_id": "1486630",
+  "variant_id": "default",
+  "source_sha256": "edf9d69f3b26017f55c7c6a47098276fbdaeafec3a7d1666c1ee994439b9f3ce",
+  "languages": [
+    "english",
+    "german",
+    "koreana",
+    "russian",
+    "schinese",
+    "spanish",
+    "turkish"
+  ],
+  "achievements": {
+    "WHODUNIT": {
+      "translations": {
+        "english": {
+          "name": "Whodunit?",
+          "description": "Take out an enemy that's investigating an enemy body."
+        },
+        "german": {
+          "name": "Wer war das?",
+          "description": "Neutralisiere einen Feind, der einen Körper untersucht."
+        },
+        "koreana": {
+          "name": "대체누가?",
+          "description": "쓰러진 적을 조사하는 중인 적을 처리."
+        },
+        "russian": {
+          "name": "Кто это был?",
+          "description": "Устраните врага, который исследует тело своего напарника."
+        },
+        "schinese": {
+          "name": "谁是凶手？",
+          "description": "干掉一名正在检查同伴尸体的敌人。"
+        },
+        "spanish": {
+          "name": "¿Quien ha sido?",
+          "description": "Encárgate de un enemigo que esté investigando un cuerpo."
+        },
+        "turkish": {
+          "name": "Kim Vurduya Gitti",
+          "description": "Bulduğu cesedi inceleyen bir düşmanın icabına bak."
+        }
+      }
+    },
+    "MASTER_BAITER": {
+      "translations": {
+        "english": {
+          "name": "Master Baiter",
+          "description": "Bait an enemy by talking nonsense, then take them out."
+        },
+        "german": {
+          "name": "Labertasche",
+          "description": "Locke einen Feind an, indem du Schwachsinn laberst und neutralisiere ihn darauf hin."
+        },
+        "koreana": {
+          "name": "낚시의 달인",
+          "description": "헛소리로 적을 유인해 처리."
+        },
+        "russian": {
+          "name": "Драчун",
+          "description": "Привлеките врага говоря бред, после чего нейтрализуйте их."
+        },
+        "schinese": {
+          "name": "钓鱼大师",
+          "description": "用垃圾话引诱敌人，然后干掉他。"
+        },
+        "spanish": {
+          "name": "Maestro de las Distracciones",
+          "description": "Atrae a un enemigo diciendo tonterías, y elimínalo."
+        },
+        "turkish": {
+          "name": "Boş Yapma... Veya Yap",
+          "description": "Boş konuşarak bir düşmanın dikkatini çek ve icabına bak."
+        }
+      }
+    },
+    "GOOD_VOCALS": {
+      "translations": {
+        "english": {
+          "name": "Good Vocals",
+          "description": "Bait an enemy with your microphone, then take them out."
+        },
+        "german": {
+          "name": "Gute Stimmenbänder",
+          "description": "Locke einen Feind an, indem du dein Mikrofon benutzt und neutralisiere ihn darauf hin."
+        },
+        "koreana": {
+          "name": "목소리 좋네",
+          "description": "당신의 마이크로 직접 적을 유인해 처리."
+        },
+        "russian": {
+          "name": "Мастер вокала",
+          "description": "Привлеките врага говоря бред в микрофон, после чего нейтрализуйте их"
+        },
+        "schinese": {
+          "name": "嗓子不错",
+          "description": "用麦克风引诱敌人，然后干掉他。"
+        },
+        "spanish": {
+          "name": "Una voz preciosa",
+          "description": "Engaña a un enemigo usando tu micrófono, y después elimínalo."
+        },
+        "turkish": {
+          "name": "Kadife Sesli",
+          "description": "Mikrofon kullanarak bir düşmanın dikkatini çek ve icabına bak."
+        }
+      }
+    },
+    "SWEET_DREAMS": {
+      "translations": {
+        "english": {
+          "name": "Sweet Dreams",
+          "description": "Choke an enemy out."
+        },
+        "german": {
+          "name": "Schöne Träume",
+          "description": "Erdrossele einen Feind."
+        },
+        "koreana": {
+          "name": "좋은 꿈 꾸셔",
+          "description": "적의 목을 졸라 쓰러뜨리기."
+        },
+        "russian": {
+          "name": "Спокойной ночи",
+          "description": "Придушите врага."
+        },
+        "schinese": {
+          "name": "好梦",
+          "description": "从背后勒晕一名敌人。"
+        },
+        "spanish": {
+          "name": "Dulces Sueños",
+          "description": "Ahoga a un enemigo hasta dejarlo noqueado."
+        },
+        "turkish": {
+          "name": "Tatlı Rüyalar",
+          "description": "Bir düşmanı boğarak etkisizleştir."
+        }
+      }
+    },
+    "RUDE_TO_INTERRUPT": {
+      "translations": {
+        "english": {
+          "name": "Rude to Interrupt",
+          "description": "Knock a startled enemy out"
+        },
+        "german": {
+          "name": "Tut mir leid für die Störung\t\t",
+          "description": "Knocke einen erschrockenen Feind aus."
+        },
+        "koreana": {
+          "name": "어이쿠 실례",
+          "description": "깜짝 놀란 적을 쓰러뜨리기."
+        },
+        "russian": {
+          "name": "Грубые манеры",
+          "description": "Устраните испуганного врага."
+        },
+        "schinese": {
+          "name": "打扰了",
+          "description": "打晕一名受到惊吓的敌人。"
+        },
+        "spanish": {
+          "name": "Siento interrumpir...",
+          "description": "Noquea a un enemigo alertado."
+        },
+        "turkish": {
+          "name": "Çok Kabasın",
+          "description": "Korkmuş bir düşmanın icabına bak."
+        }
+      }
+    },
+    "KNOCK_KNOCK": {
+      "translations": {
+        "english": {
+          "name": "Knock-knock...",
+          "description": "Knock an enemy out with a door bash."
+        },
+        "german": {
+          "name": "Klopf-klopf...",
+          "description": "Knocke einen Feind mit dem Eintreten einer Tür aus."
+        },
+        "koreana": {
+          "name": "똑똑...",
+          "description": "문을 강타해 적을 쓰러뜨리기."
+        },
+        "russian": {
+          "name": "Тук-тук...",
+          "description": "Нокаутируйте врага выбив дверь."
+        },
+        "schinese": {
+          "name": "咚咚咚……",
+          "description": "用撞门撞晕一名敌人。"
+        },
+        "spanish": {
+          "name": "Toc toc...",
+          "description": "Noquea a un enemigo al patear una puerta."
+        },
+        "turkish": {
+          "name": "Tık Tık",
+          "description": "Üzerine kapı tekmeleyerek bir düşmanı yere yık."
+        }
+      }
+    },
+    "DEATH_METAL": {
+      "translations": {
+        "english": {
+          "name": "Death Metal",
+          "description": "Kill someone with the shrapnel from a frag grenade."
+        },
+        "german": {
+          "name": "Death Metal",
+          "description": "Töte einen Feind mit dem Schrapnell einer Granate."
+        },
+        "koreana": {
+          "name": "데스 메탈",
+          "description": "파편 수류탄의 파편으로 아무나 처치."
+        },
+        "russian": {
+          "name": "Железные чипсы",
+          "description": "Убейте врага осколками гранаты."
+        },
+        "schinese": {
+          "name": "死亡金属",
+          "description": "用破片手雷的弹片杀死敌人。"
+        },
+        "spanish": {
+          "name": "Death Metal",
+          "description": "Mata a alguien con la metralla de una granada de fragmentación."
+        },
+        "turkish": {
+          "name": "Şarapnel Yağmuru",
+          "description": "El bombasından fırlayan şarapnellerle bir düşmanı öldür."
+        }
+      }
+    },
+    "LUCKY_SHOT": {
+      "translations": {
+        "english": {
+          "name": "Lucky Shot",
+          "description": "Kill 3 enemies with guns under 5 seconds."
+        },
+        "german": {
+          "name": "Schneller Schütze",
+          "description": "Töte 3 Feinde mit Schusswaffen in unter 5 Sekunden."
+        },
+        "koreana": {
+          "name": "럭키 샷",
+          "description": "총으로 5초 안에 적 3명 처치."
+        },
+        "russian": {
+          "name": "Везунчик",
+          "description": "Убейте 3 врагов используя огнестрельное оружие меньше чем за 5 секунд."
+        },
+        "schinese": {
+          "name": "幸运一枪",
+          "description": "在 5 秒内用枪杀死 3 名敌人。"
+        },
+        "spanish": {
+          "name": "Suerte del principiante",
+          "description": "Mata a 3 enemigos en 5 segundos usando armas de fuego."
+        },
+        "turkish": {
+          "name": "Seri Katil",
+          "description": "Ateşli silahlarla 5 saniyede 3 düşmanı öldür."
+        }
+      }
+    },
+    "SOMEBODY_STOP_ME": {
+      "translations": {
+        "english": {
+          "name": "Somebody Stop Me!",
+          "description": "Kill 6 enemies with guns in under 5 seconds."
+        },
+        "german": {
+          "name": "Jemand soll mich stoppen!",
+          "description": "Töte 6 Feinde mit Schusswaffen in unter 5 Sekunden."
+        },
+        "koreana": {
+          "name": "누가 날 좀 멈춰 줘!",
+          "description": "총으로 5초 안에 적 6명 처치."
+        },
+        "russian": {
+          "name": "Неудержимый",
+          "description": "Убейте 6 врагов используя огнестрельное оружие меньше чем за 5 секунд."
+        },
+        "schinese": {
+          "name": "谁能拦住我！",
+          "description": "在 5 秒内用枪杀死 6 名敌人。"
+        },
+        "spanish": {
+          "name": "¡Que alguien me pare!",
+          "description": "Mata a 6 enemigos en 5 segundos usando armas de fuego."
+        },
+        "turkish": {
+          "name": "Biri Beni Durdursun!",
+          "description": "Ateşli silahlarla 5 saniyede 6 düşmanı öldür."
+        }
+      }
+    },
+    "ROOM_CLEARING_SERVICE": {
+      "translations": {
+        "english": {
+          "name": "Room Clearing Service",
+          "description": "Kill 5 enemies with a shotgun in 10 seconds."
+        },
+        "german": {
+          "name": "Putzdienst",
+          "description": "Töte 5 Feinde mit einer Schrotflinte in unter 10 Sekunden."
+        },
+        "koreana": {
+          "name": "룸 클리닝 서비스",
+          "description": "산탄총으로 10초 안에 적 5명 처치."
+        },
+        "russian": {
+          "name": "Услуга очистки комнаты",
+          "description": "Убейте 5 врагов при помощи дробовика за 10 секунд."
+        },
+        "schinese": {
+          "name": "清房服务",
+          "description": "在 10 秒内用霰弹枪杀死 5 名敌人。"
+        },
+        "spanish": {
+          "name": "Servicio de Limpieza",
+          "description": "Mata a 5 enemigos con una escopeta en 10 segundos."
+        },
+        "turkish": {
+          "name": "Oda Temizleme Servisi",
+          "description": "Pompalı tüfekle 10 saniyede 5 düşmanı öldür."
+        }
+      }
+    },
+    "BEGINNER_TACTICIAN": {
+      "translations": {
+        "english": {
+          "name": "Beginner Tactician",
+          "description": "Kill 3 (or more) enemies with a single frag grenade."
+        },
+        "german": {
+          "name": "Taktiker",
+          "description": "Töte 3 Feinde (oder) mit einer Granate."
+        },
+        "koreana": {
+          "name": "초보 전략가",
+          "description": "파편 수류탄 1개로 3명 이상의 적 처치."
+        },
+        "russian": {
+          "name": "Начинающий тактик",
+          "description": "Убейте 3 (или больше) врагов одной осколочной гранатой."
+        },
+        "schinese": {
+          "name": "初级战术家",
+          "description": "用一枚破片手雷杀死 3 名以上敌人。"
+        },
+        "spanish": {
+          "name": "Táctico Principiante",
+          "description": "Mata a 3 enemigos o más con una única granada de fragmentación."
+        },
+        "turkish": {
+          "name": "Bir Taşla Üç Kuş",
+          "description": "Tek el bombasıyla 3 (veya daha fazla) düşmanı öldür."
+        }
+      }
+    },
+    "PRECIOUS_EXPLOSIVES": {
+      "translations": {
+        "english": {
+          "name": "Precious Explosives",
+          "description": "Kill 5 (or more) enemies with a single frag grenade."
+        },
+        "german": {
+          "name": "Boomendes Geschäft",
+          "description": "Töte 5 Feinde (oder) mit einer Granate."
+        },
+        "koreana": {
+          "name": "귀중한 폭발물",
+          "description": "파편 수류탄 1개로 5명 이상의 적 처치."
+        },
+        "russian": {
+          "name": "Драгоценная взрывчатка",
+          "description": "Убейте 5 (или больше) врагов одной осколочной гранатой."
+        },
+        "schinese": {
+          "name": "珍贵的炸药",
+          "description": "用一枚破片手雷杀死 5 名以上敌人。"
+        },
+        "spanish": {
+          "name": "Preciados explosivos",
+          "description": "Mata a 5 enemigos o más con una única granada de fragmentación."
+        },
+        "turkish": {
+          "name": "Kıymetlimiz",
+          "description": "Tek el bombasıyla 5 (veya daha fazla) düşmanı öldür."
+        }
+      }
+    },
+    "PERFECT_OPPORTUNITY": {
+      "translations": {
+        "english": {
+          "name": "Perfect Opportunity",
+          "description": "Kill 8 (or more) enemies with a single frag grenade."
+        },
+        "german": {
+          "name": "Perfekte Gelegenheit",
+          "description": "Töte 8 Feinde (oder) mit einer Granate."
+        },
+        "koreana": {
+          "name": "완벽한 기회",
+          "description": "파편 수류탄 1개로 8명 이상의 적 처치."
+        },
+        "russian": {
+          "name": "Удобный случай",
+          "description": "Убейте 8 (или больше) врагов одной осколочной гранатой."
+        },
+        "schinese": {
+          "name": "绝佳机会",
+          "description": "用一枚破片手雷杀死 8 名以上敌人。"
+        },
+        "spanish": {
+          "name": "Oportunidad perfecta",
+          "description": "Mata a 8 enemigos o más con una única granada de fragmentación."
+        },
+        "turkish": {
+          "name": "Bu Fırsat Kaçmaz",
+          "description": "Tek el bombasıyla 8 (veya daha fazla) düşmanı öldür."
+        }
+      }
+    },
+    "COLLATERAL_DAMAGE": {
+      "translations": {
+        "english": {
+          "name": "Collateral Damage",
+          "description": "Have a flashbanged enemy accidentally kill his own friend."
+        },
+        "german": {
+          "name": "Kollateralschaden",
+          "description": "Bringe einen, mit einer Blendgranate geblendeten, Feind seinen eigenen Freund zu töten."
+        },
+        "koreana": {
+          "name": "부수적 피해",
+          "description": "섬광폭음탄에 맞은 적이 동료를 사살하게 만들기."
+        },
+        "russian": {
+          "name": "Косвенный урон",
+          "description": "Позвольте ослеплённому врагу нечаянно пристрелить своего друга."
+        },
+        "schinese": {
+          "name": "附带损害",
+          "description": "让被闪光弹致盲的敌人误杀自己的同伴。"
+        },
+        "spanish": {
+          "name": "Daños colaterales",
+          "description": "Haz que un enemigo cegado por una granada cegadora mate a su propio compañero."
+        },
+        "turkish": {
+          "name": "Dost Ateşi",
+          "description": "Flaş bombasına maruz kalan bir düşmanın ekip arkadaşını öldürmesine sebep ol."
+        }
+      }
+    },
+    "OUT_OF_THEIR_MISERY": {
+      "translations": {
+        "english": {
+          "name": "Out of Their Misery",
+          "description": "Neutralize someone while they are under the effect of a flashbang."
+        },
+        "german": {
+          "name": "Vom Elend erlöst",
+          "description": "Neutralisiere einen Feind, während er von einer Blendgranate geblendet ist."
+        },
+        "koreana": {
+          "name": "고통 끝내주기",
+          "description": "섬광폭음탄에 당한 상태의 대상을 무력화."
+        },
+        "russian": {
+          "name": "Не мучайся",
+          "description": "Нейтрализуйте кого-нибудь пока они ослеплены светошумовой гранатой."
+        },
+        "schinese": {
+          "name": "解脱痛苦",
+          "description": "在敌人受闪光弹影响时将其制服。"
+        },
+        "spanish": {
+          "name": "Fuera de su Miseria",
+          "description": "Neutraliza a un enemigo mientras está bajo el efecto de una granada cegadora."
+        },
+        "turkish": {
+          "name": "Beyaz Işığa Yürü",
+          "description": "Flaş bombasına maruz kalan bir düşmanı etkisizleştir."
+        }
+      }
+    },
+    "HOW_DO_I_SHOT_WEB": {
+      "translations": {
+        "english": {
+          "name": "How Do I Shot Web?",
+          "description": "Kill yourself with your own frag grenade."
+        },
+        "german": {
+          "name": "How Do I Shot Web?",
+          "description": "Bringe dich selber, mit einer Granate, um."
+        },
+        "koreana": {
+          "name": "거미줄은 어떻게 쏘지?",
+          "description": "자신의 수류탄에 의해 사망."
+        },
+        "russian": {
+          "name": "Я ничего не понял",
+          "description": "Убейте себя собственной осколочной гранатой."
+        },
+        "schinese": {
+          "name": "我怎么射网？",
+          "description": "用自己的破片手雷炸死自己。"
+        },
+        "spanish": {
+          "name": "¿Pero como funciona esto?",
+          "description": "Muere con tu propia granada de fragmentación."
+        },
+        "turkish": {
+          "name": "How Do I Shot Web?",
+          "description": "Kendi el bomban yüzünden öl."
+        }
+      }
+    },
+    "ILLUSION_OF_SAFETY": {
+      "translations": {
+        "english": {
+          "name": "Illusion of Safety",
+          "description": "Have your frag grenade shrapnel kill you."
+        },
+        "german": {
+          "name": "Eingebildete Sicherheit",
+          "description": "Sterbe von dem Schrapnell deiner eigenen Granate."
+        },
+        "koreana": {
+          "name": "안전이라는 환상",
+          "description": "자신이 던진 수류탄의 파편에 사망."
+        },
+        "russian": {
+          "name": "Совсем небезопасно",
+          "description": "Умрите от осколков собственной гранаты."
+        },
+        "schinese": {
+          "name": "安全的错觉",
+          "description": "被自己破片手雷的弹片炸死。"
+        },
+        "spanish": {
+          "name": "Ilusión de seguridad.",
+          "description": "Muere a causa de la metralla de tu granada de fragmentación."
+        },
+        "turkish": {
+          "name": "Kimse Emniyette Değil",
+          "description": "Kendi attığın el bombasından fırlayan şarapneller yüzünden öl."
+        }
+      }
+    },
+    "MELTED_ICECREAM": {
+      "translations": {
+        "english": {
+          "name": "Melted Ice-cream",
+          "description": "Over-cook a frag grenade."
+        },
+        "german": {
+          "name": "Dran verbrannt",
+          "description": "Überkoche eine Granate."
+        },
+        "koreana": {
+          "name": "녹아버린 아이스크림",
+          "description": "격발시킨 수류탄이 터질 때 까지 손에 들고 있기."
+        },
+        "russian": {
+          "name": "Растаевшее мороженое",
+          "description": "Слишком долго готовьте осколочную гранату."
+        },
+        "schinese": {
+          "name": "融化了的冰淇淋",
+          "description": "把破片手雷温过头。"
+        },
+        "spanish": {
+          "name": "Helado derretido",
+          "description": "Prepara durante demasiado tiempo una granada de fragmentación."
+        },
+        "turkish": {
+          "name": "Erimiş Dondurma",
+          "description": "Pimini çektiğin el bombası elinde patlayana kadar bekle."
+        }
+      }
+    },
+    "PAPARAZZI": {
+      "translations": {
+        "english": {
+          "name": "Paparazzi",
+          "description": "Over-cook a flash grenade."
+        },
+        "german": {
+          "name": "Paparazzi",
+          "description": "Überkoche eine Blendgranate."
+        },
+        "koreana": {
+          "name": "파파라찌",
+          "description": "격발시킨 섬광폭음탄이 터질 때 까지 손에 들고 있기"
+        },
+        "russian": {
+          "name": "Папарацци",
+          "description": "Слишком долго готовьте светошумовую гранату."
+        },
+        "schinese": {
+          "name": "狗仔队",
+          "description": "把闪光弹温过头。"
+        },
+        "spanish": {
+          "name": "Paparazzi",
+          "description": "Prepara durante demasiado tiempo una granada cegadora."
+        },
+        "turkish": {
+          "name": "Gülümse Çekiyorum",
+          "description": "Pimini çektiğin flaş bombası elinde patlayana kadar bekle."
+        }
+      }
+    },
+    "WHOS_THERE": {
+      "translations": {
+        "english": {
+          "name": "...who's there?",
+          "description": "Get killed by a door bash."
+        },
+        "german": {
+          "name": "...wer ist da?",
+          "description": "Sterbe von einem Feind, der eine Tür eintritt."
+        },
+        "koreana": {
+          "name": "...거기 누구 있나?",
+          "description": "문 강타에 맞아 사망."
+        },
+        "russian": {
+          "name": "...кто там?",
+          "description": "Умрите от выбивания двери."
+        },
+        "schinese": {
+          "name": "……谁啊？",
+          "description": "被撞门撞死。"
+        },
+        "spanish": {
+          "name": "...¿quien anda ahí?",
+          "description": "Muere a causa de que un enemigo patee la puerta contigo al otro lado."
+        },
+        "turkish": {
+          "name": "Kim O?",
+          "description": "Üzerine kapı tekmelenmesi sonucu öl."
+        }
+      }
+    },
+    "GHOST": {
+      "translations": {
+        "english": {
+          "name": "Ghost",
+          "description": "Complete a level without being detected."
+        },
+        "german": {
+          "name": "Geist",
+          "description": "Beende ein Level, ohne entdeckt zu werden."
+        },
+        "koreana": {
+          "name": "유령",
+          "description": "탐지되지 않은 상태로 레벨 완료."
+        },
+        "russian": {
+          "name": "Призрак",
+          "description": "Завершите уровень без обнаружений."
+        },
+        "schinese": {
+          "name": "幽灵",
+          "description": "在未被发现的情况下完成一个关卡。"
+        },
+        "spanish": {
+          "name": "Fantasma",
+          "description": "Completa un nivel sin ser detectado."
+        },
+        "turkish": {
+          "name": "Hayalet",
+          "description": "Düşman tarafından hiç fark edilmeden bir bölümü tamamla."
+        }
+      }
+    },
+    "PACIFIST": {
+      "translations": {
+        "english": {
+          "name": "Pacifist",
+          "description": "Complete a level without killing anyone."
+        },
+        "german": {
+          "name": "Pazifist",
+          "description": "Beende ein Level, ohne jemanden zu töten."
+        },
+        "koreana": {
+          "name": "평화주의자",
+          "description": "아무도 죽이지 않고 레벨 완료."
+        },
+        "russian": {
+          "name": "Пацифист",
+          "description": "Пройдите уровень никого не убив."
+        },
+        "schinese": {
+          "name": "和平主义者",
+          "description": "在不杀死任何人的情况下完成一个关卡。"
+        },
+        "spanish": {
+          "name": "Pacifista",
+          "description": "Completa un nivel sin matar a nadie."
+        },
+        "turkish": {
+          "name": "Barışsever",
+          "description": "Kimseyi öldürmeden bir bölümü tamamla."
+        }
+      }
+    },
+    "ELECTRO": {
+      "translations": {
+        "english": {
+          "name": "Electro",
+          "description": "Complete a level whilst using naught but the Taser."
+        },
+        "german": {
+          "name": "Geschockt",
+          "description": "Beende ein Level nur mit dem Taser."
+        },
+        "koreana": {
+          "name": "일렉트로",
+          "description": "테이저만 사용해서 레벨 완료"
+        },
+        "russian": {
+          "name": "Электроник",
+          "description": "Пройдите уровень используя только Тазер."
+        },
+        "schinese": {
+          "name": "电光人",
+          "description": "仅使用泰瑟枪完成一个关卡。"
+        },
+        "spanish": {
+          "name": "Electro",
+          "description": "Completa un nivel sin usar nada más que el Taser."
+        },
+        "turkish": {
+          "name": "Şok Etkisi",
+          "description": "Sadece şok tabancası kullanarak bir bölümü tamamla."
+        }
+      }
+    },
+    "PUGILIST": {
+      "translations": {
+        "english": {
+          "name": "Pugilist",
+          "description": "Complete a level unarmed."
+        },
+        "german": {
+          "name": "Schlägertyp",
+          "description": "Beende ein Level unbewaffnet."
+        },
+        "koreana": {
+          "name": "주먹잡이",
+          "description": "비무장 상태로 레벨 완료."
+        },
+        "russian": {
+          "name": "Драчун",
+          "description": "Пройдите уровень невооружённые."
+        },
+        "schinese": {
+          "name": "拳击手",
+          "description": "在徒手状态下完成一个关卡。"
+        },
+        "spanish": {
+          "name": "Pugilista",
+          "description": "Completa un nivel desarmado."
+        },
+        "turkish": {
+          "name": "Boksör",
+          "description": "Silahsız ve teçhizatsız, sadece çıplak ellerini kullanarak bir bölümü tamamla."
+        }
+      }
+    },
+    "SLEEPING_PILLS": {
+      "translations": {
+        "english": {
+          "name": "Sleeping Pills",
+          "description": "Complete a level whilst using naught but the Tranquilizer Rifle."
+        },
+        "german": {
+          "name": "Schlaftabletten",
+          "description": "Beende ein Level nur mit dem Betäubungsgewehr."
+        },
+        "koreana": {
+          "name": "수면제",
+          "description": "마취 소총만 사용해서 레벨 완료."
+        },
+        "russian": {
+          "name": "Снотворное",
+          "description": "Пройдите уровень используя ничего кроме Транквилизатора."
+        },
+        "schinese": {
+          "name": "安眠药",
+          "description": "仅使用麻醉枪完成一个关卡。"
+        },
+        "spanish": {
+          "name": "Somníferos",
+          "description": "Completa un nivel sin usar nada más que el Rifle Tranquilizante."
+        },
+        "turkish": {
+          "name": "Uyku Hapları",
+          "description": "Sadece sakinleştirici tüfek kullanarak bir bölümü tamamla."
+        }
+      }
+    },
+    "SMOOTH_OPERATOR": {
+      "translations": {
+        "english": {
+          "name": "Smooth Operator",
+          "description": "Finish 'Abandoned Complex' without killing anyone."
+        },
+        "german": {
+          "name": "Wie geschmiert",
+          "description": "Beende das Level 'Verlassener Komplex' ohne jemanden zu töten."
+        },
+        "koreana": {
+          "name": "스무스한 요원",
+          "description": "'버려진 단지' 레벨을 아무도 죽이지 않고 완료."
+        },
+        "russian": {
+          "name": "Ловкий делец",
+          "description": "Пройдите уровень 'Заброшенный Комплекс' не убив никого."
+        },
+        "schinese": {
+          "name": "老练特工",
+          "description": "在不杀死任何人的情况下完成「废弃建筑群」关卡。"
+        },
+        "spanish": {
+          "name": "Operador suave",
+          "description": "Acaba el nivel 'Complejo Abandonado' sin matar a nadie."
+        },
+        "turkish": {
+          "name": "Nezaket İcabı",
+          "description": "Kimseyi öldürmeden 'Metruk Yerleşke' bölümünü tamamla."
+        }
+      }
+    },
+    "UNSCATHED": {
+      "translations": {
+        "english": {
+          "name": "Unscathed",
+          "description": "Complete a level without taking any damage."
+        },
+        "german": {
+          "name": "Ohne einen Kratzer",
+          "description": "Beende ein Level, ohne Schaden zu nehmen."
+        },
+        "koreana": {
+          "name": "상처 하나 없이",
+          "description": "피해를 입지 않고 레벨 완료."
+        },
+        "russian": {
+          "name": "Без царапин",
+          "description": "Пройдите уровень не получив урона."
+        },
+        "schinese": {
+          "name": "毫发无伤",
+          "description": "在不受任何伤害的情况下完成一个关卡。"
+        },
+        "spanish": {
+          "name": "Intacto",
+          "description": "Completa un nivel sin recibir daños."
+        },
+        "turkish": {
+          "name": "Sıyrıksız",
+          "description": "Hiç hasar almadan bir bölümü tamamla."
+        }
+      }
+    },
+    "IRON_MAN": {
+      "translations": {
+        "english": {
+          "name": "Iron Man",
+          "description": "Complete a level without saving once."
+        },
+        "german": {
+          "name": "Eiserner Wille",
+          "description": "Beende ein Level, ohne ein einziges Mal zu speichern."
+        },
+        "koreana": {
+          "name": "철인",
+          "description": "저장하지 않고 레벨 완료."
+        },
+        "russian": {
+          "name": "Стальные нервы",
+          "description": "Пройдите уровень не сохраняясь ни разу."
+        },
+        "schinese": {
+          "name": "钢铁侠",
+          "description": "在不存档的情况下完成一个关卡。"
+        },
+        "spanish": {
+          "name": "Hombre de Hierro",
+          "description": "Completa un nivel sin guardar ni una vez."
+        },
+        "turkish": {
+          "name": "Yürek Yemiş",
+          "description": "İlerlemeni hiç kaydetmeden bir bölümü tamamla."
+        }
+      }
+    },
+    "BEST_SERVED_COLD": {
+      "translations": {
+        "english": {
+          "name": "Best Served Cold",
+          "description": "Kill the Degenerate."
+        },
+        "german": {
+          "name": "Am besten kalt serviert",
+          "description": "Töte den Abschaum."
+        },
+        "koreana": {
+          "name": "차갑게 먹어야 제맛",
+          "description": "인간쓰레기 처치."
+        },
+        "russian": {
+          "name": "Око за око",
+          "description": "Убейте Дегенерата."
+        },
+        "schinese": {
+          "name": "冷盘复仇",
+          "description": "杀死那个败类。"
+        },
+        "spanish": {
+          "name": "...se sirve mejor fría.",
+          "description": "Mata al Degenerado."
+        },
+        "turkish": {
+          "name": "Soğuk Yenen Bir Yemek",
+          "description": "Soysuz'u öldür."
+        }
+      }
+    },
+    "THE_ENEMY_OF_MY_ENEMY": {
+      "translations": {
+        "english": {
+          "name": "The Enemy of my Enemy...",
+          "description": "Spare the Baker."
+        },
+        "german": {
+          "name": "Der Feind meines Feindes...",
+          "description": "Verschone den Bäcker."
+        },
+        "koreana": {
+          "name": "내 적의 적은...",
+          "description": "베이커 살려주기."
+        },
+        "russian": {
+          "name": "Враг моего врага...",
+          "description": "Пощадите Пекаря."
+        },
+        "schinese": {
+          "name": "敌人的敌人……",
+          "description": "放过面包师。"
+        },
+        "spanish": {
+          "name": "El enemigo de mi enemigo...",
+          "description": "Deja vivir al Supervisor."
+        },
+        "turkish": {
+          "name": "Düşmanımın Düşmanı...",
+          "description": "Fırıncı'yı bağışla."
+        }
+      }
+    },
+    "CAUSE_AND_EFFECT": {
+      "translations": {
+        "english": {
+          "name": "Cause and Effect",
+          "description": "Kill the Baker."
+        },
+        "german": {
+          "name": "Kausalität",
+          "description": "Töte den Bäcker."
+        },
+        "koreana": {
+          "name": "원인과 결과",
+          "description": "베이커 죽이기."
+        },
+        "russian": {
+          "name": "Последствия действий",
+          "description": "Убейте Пекаря."
+        },
+        "schinese": {
+          "name": "因果",
+          "description": "杀死面包师。"
+        },
+        "spanish": {
+          "name": "Causa y efecto",
+          "description": "Mata al Supervisor."
+        },
+        "turkish": {
+          "name": "Sebep ve Sonuç",
+          "description": "Fırıncı'yı öldür."
+        }
+      }
+    },
+    "IS_MY_FRIEND": {
+      "translations": {
+        "english": {
+          "name": "...is my Friend",
+          "description": "Finish the campaign with the Baker spared."
+        },
+        "german": {
+          "name": "...ist mein Freund",
+          "description": "Beende die Kampagne mit dem Bäcker verschont."
+        },
+        "koreana": {
+          "name": "...친구지.",
+          "description": "베이커를 살려주고 캠페인 완료."
+        },
+        "russian": {
+          "name": "...мой друг",
+          "description": "Пройдите режим кампании пощадив Пекаря."
+        },
+        "schinese": {
+          "name": "……就是朋友",
+          "description": "在放过面包师的情况下通关战役。"
+        },
+        "spanish": {
+          "name": "...es mi amigo",
+          "description": "Acaba la campaña dejando vivir al Supervisor."
+        },
+        "turkish": {
+          "name": "Yeni Dostum",
+          "description": "Fırıncı'yı bağışlayarak ana hikâyeyi tamamla."
+        }
+      }
+    },
+    "ON_MY_OWN": {
+      "translations": {
+        "english": {
+          "name": "On My Own",
+          "description": "Finish the campaign with the Baker killed."
+        },
+        "german": {
+          "name": "Ganz allein",
+          "description": "Beende die Kampagne mit dem Bäcker tot."
+        },
+        "koreana": {
+          "name": "내 스스로",
+          "description": "베이커를 죽이고 캠페인 완료."
+        },
+        "russian": {
+          "name": "Самостоятельный",
+          "description": "Пройдите режим кампании убив Пекаря."
+        },
+        "schinese": {
+          "name": "独自前行",
+          "description": "在杀死面包师的情况下通关战役。"
+        },
+        "spanish": {
+          "name": "Por mi cuenta",
+          "description": "Acaba la campaña matando al Supervisor."
+        },
+        "turkish": {
+          "name": "Bir Başıma",
+          "description": "Fırıncı'yı öldürerek ana hikâyeyi tamamla."
+        }
+      }
+    },
+    "PROFESSIONAL_BOXER": {
+      "translations": {
+        "english": {
+          "name": "Professional Boxer",
+          "description": "Finish the campaign without using any weapons."
+        },
+        "german": {
+          "name": "Professioneller Boxer",
+          "description": "Beende die Kampagne, ohne irgendwelche Waffen benutzt zu haben."
+        },
+        "koreana": {
+          "name": "프로 복서",
+          "description": "무기를 쓰지 않고 캠페인 완료."
+        },
+        "russian": {
+          "name": "Профессиональный боксёр",
+          "description": "Пройдите режим кампании не используя никаких оружий."
+        },
+        "schinese": {
+          "name": "职业拳手",
+          "description": "在不使用任何武器的情况下通关战役。"
+        },
+        "spanish": {
+          "name": "Boxeador profesional",
+          "description": "Acaba la campaña sin usar armas."
+        },
+        "turkish": {
+          "name": "Demir Yumruk",
+          "description": "Silahsız ve teçhizatsız, sadece çıplak ellerini kullanarak ana hikâyeyi tamamla."
+        }
+      }
+    },
+    "HIPPY": {
+      "translations": {
+        "english": {
+          "name": "Hippy",
+          "description": "Complete the game without killing a single enemy, unless when forced to."
+        },
+        "german": {
+          "name": "Hippy",
+          "description": "Beende das Spiel, ohne einen einzigen Feind zu töten, es sei denn, es wird dazu gezwungen."
+        },
+        "koreana": {
+          "name": "히피",
+          "description": "반드시 죽여야 하는 적 외에는 누구도 죽이지 않고 게임 클리어."
+        },
+        "russian": {
+          "name": "Хиппи",
+          "description": "Пройдите режим кампании не убив никого, не считая случаев, когда вы принуждены это сделать."
+        },
+        "schinese": {
+          "name": "嬉皮士",
+          "description": "除被强制要求的情况外，全程不杀死任何敌人通关游戏。"
+        },
+        "spanish": {
+          "name": "Hippy",
+          "description": "Completa el juego sin matar a ni un solo enemigo al que no estés forzado a matar."
+        },
+        "turkish": {
+          "name": "Hippi",
+          "description": "Zorunda kalmadıkça kimseyi öldürmeden ana hikâyeyi tamamla."
+        }
+      }
+    },
+    "UNRELENTING_ANGER": {
+      "translations": {
+        "english": {
+          "name": "Unrelenting Anger",
+          "description": "Kill everyone throughout the campaign."
+        },
+        "german": {
+          "name": "Zornig und Schießwütig",
+          "description": "Töte jeden in der Kampagne."
+        },
+        "koreana": {
+          "name": "꺼지지 않는 분노",
+          "description": "캠페인 진행간 모조리 처치."
+        },
+        "russian": {
+          "name": "Ярость",
+          "description": "Убейте всех в режиме кампании."
+        },
+        "schinese": {
+          "name": "怒不可遏",
+          "description": "在战役中杀死所有人。"
+        },
+        "spanish": {
+          "name": "Ira Implacable",
+          "description": "Mata a todo el mundo en la campaña."
+        },
+        "turkish": {
+          "name": "Dinmeyen Öfke",
+          "description": "Hikâye boyunca yaşayan herkesi öldür."
+        }
+      }
+    },
+    "GAMES_JOURNALIST": {
+      "translations": {
+        "english": {
+          "name": "Games Journalist",
+          "description": "Complete the game on the 'Easy' difficulty."
+        },
+        "german": {
+          "name": "Spielejournalist",
+          "description": "Beende das Spiel auf dem 'Einfach' Schwierigkeitsgrad."
+        },
+        "koreana": {
+          "name": "게임 저널리스트",
+          "description": "쉬움 난이도로 게임 클리어."
+        },
+        "russian": {
+          "name": "Журналист компьютерных игр",
+          "description": "Пройдите режим кампании на 'Лёгкой' сложности"
+        },
+        "schinese": {
+          "name": "游戏记者",
+          "description": "以「简单」难度通关游戏。"
+        },
+        "spanish": {
+          "name": "Periodista de Videojuegos",
+          "description": "Completa el juego en la dificultad 'Fácil'."
+        },
+        "turkish": {
+          "name": "Oyun Muhabiri",
+          "description": "Ana hikâyeyi 'Kolay' zorlukta tamamla."
+        }
+      }
+    },
+    "TRUE_GRIT": {
+      "translations": {
+        "english": {
+          "name": "True Grit",
+          "description": "Complete the game on the 'True' difficulty."
+        },
+        "german": {
+          "name": "Treuer Spieler",
+          "description": "Beende das Spiel auf dem 'Getreu' Schwierigkeitsgrad."
+        },
+        "koreana": {
+          "name": "진정한 투지",
+          "description": "진짜배기 난이도로 게임 클리어"
+        },
+        "russian": {
+          "name": "Закалённый",
+          "description": "Пройдите режим кампании на 'Истинной' сложности."
+        },
+        "schinese": {
+          "name": "大地惊雷",
+          "description": "以「真实」难度通关游戏。"
+        },
+        "spanish": {
+          "name": "Duro de pelar",
+          "description": "Completa el juego en la dificultad 'Fíel'."
+        },
+        "turkish": {
+          "name": "Esas Kararlılık",
+          "description": "Ana hikâyeyi 'Esas' zorlukta tamamla."
+        }
+      }
+    },
+    "HANDS_ON_EXPERIENCE": {
+      "translations": {
+        "english": {
+          "name": "Hands-on Experience",
+          "description": "Complete the game with ammo auto-grab disabled."
+        },
+        "german": {
+          "name": "Sehr handlich",
+          "description": "Beende das Spiel ohne dem automatischem Munitionsaufheben."
+        },
+        "koreana": {
+          "name": "내 손으로 직접",
+          "description": "자동 탄환 습득을 해제한 상태로 게임 클리어."
+        },
+        "russian": {
+          "name": "Пионер",
+          "description": "Пройдите игру с выключенным автоматическим подбиранием патронов."
+        },
+        "schinese": {
+          "name": "亲身体验",
+          "description": "在关闭弹药自动拾取的情况下通关游戏。"
+        },
+        "spanish": {
+          "name": "Experiencia práctica",
+          "description": "Completa el juego con la opción de recoger la munición automáticamente deshabilitada."
+        },
+        "turkish": {
+          "name": "Elin Alışsın",
+          "description": "'Otomatik cephane toplama' seçeneği devre dışıyken ana hikâyeyi tamamla."
+        }
+      }
+    },
+    "DO_NOT_DISTURB": {
+      "translations": {
+        "english": {
+          "name": "Do Not Disturb",
+          "description": "Complete the level \"Steve's House\" without firing a single shot."
+        },
+        "german": {
+          "name": "Bitte nicht stören",
+          "description": "Beende das Level \"Steves Haus\" ohne einen einzigen Schuss abzufeuern."
+        },
+        "koreana": {
+          "name": "방해하지 마시오",
+          "description": "\"스티브의 집\" 레벨을 총을 쏘지 않고 완료."
+        },
+        "russian": {
+          "name": "Не беспокоить",
+          "description": "Пройдите уровень \"Дом Стива\" не выстрелив ни разу."
+        },
+        "schinese": {
+          "name": "请勿打扰",
+          "description": "在不发射任何子弹的情况下完成「史蒂夫的家」关卡。"
+        },
+        "spanish": {
+          "name": "No molestar",
+          "description": "Completa el nivel \"Casa de Steve\" sin disparar ni una sola bala."
+        },
+        "turkish": {
+          "name": "Rahatsız Etmeyin",
+          "description": "Hiç ateş etmeden \"Steve'in Evi\" bölümünü tamamla."
+        }
+      }
+    },
+    "GUN_NUT": {
+      "translations": {
+        "english": {
+          "name": "Gun Nut",
+          "description": "Unlock all unique weapons."
+        },
+        "german": {
+          "name": "Waffensammler",
+          "description": "Schalte alle einzigartigen Waffen frei."
+        },
+        "koreana": {
+          "name": "총덕후",
+          "description": "모든 고유 무기 해금"
+        },
+        "russian": {
+          "name": "Оружейный энтузиаст",
+          "description": "Откройте все особые оружия."
+        },
+        "schinese": {
+          "name": "枪械狂",
+          "description": "解锁全部独特武器。"
+        },
+        "spanish": {
+          "name": "Loco de las armas",
+          "description": "Desbloquea todas las armas únicas."
+        },
+        "turkish": {
+          "name": "Silah Koleksiyoncusu",
+          "description": "Tüm eşsiz silahların kilidini aç."
+        }
+      }
+    },
+    "CBT": {
+      "translations": {
+        "english": {
+          "name": "CBT",
+          "description": "You must really enjoy pain. Finish the game on 'Masochist' difficulty."
+        },
+        "german": {
+          "name": "CBT",
+          "description": "Schmerz ist wohl dein Ding. Beende das Spiel auf dem 'Masochist' Schwierigkeitsgrad."
+        },
+        "koreana": {
+          "name": "CBT",
+          "description": "당신 정말 고통을 즐기는 자로군요. 마조히스트 난이도로 게임 클리어."
+        },
+        "russian": {
+          "name": "Фетишист",
+          "description": "Вам, видимо, очень нравится боль. Завершите игру на сложности 'Мазохист'."
+        },
+        "schinese": {
+          "name": "CBT",
+          "description": "你一定很享受痛苦吧。以「受虐」难度通关游戏。"
+        },
+        "spanish": {
+          "name": "CBT",
+          "description": "Debes disfrutar el dolor. Completa el juego en la dificultad 'Masoquista'."
+        },
+        "turkish": {
+          "name": "Acının Ta Kendisi",
+          "description": "Acıdan zevk alıyor olmalısın. Ana hikâyeyi 'Mazoşist' zorlukta tamamla."
+        }
+      }
+    },
+    "ALCOHOLICS_UNITED": {
+      "translations": {
+        "english": {
+          "name": "Alcoholics United",
+          "description": "Pass out from drinking too much."
+        },
+        "german": {
+          "name": "Vereinte Alkoholiker",
+          "description": "Werde ohnmächtig vom zu viel trinken."
+        },
+        "koreana": {
+          "name": "알콜중독자 협회",
+          "description": "과음으로 기절하기."
+        },
+        "russian": {
+          "name": "Не алкаш",
+          "description": "Выпейте слишком много и потеряйте сознание."
+        },
+        "schinese": {
+          "name": "醉汉联盟",
+          "description": "因饮酒过量而昏倒。"
+        },
+        "spanish": {
+          "name": "Alcohólicos Anónimos",
+          "description": "Desmayate por beber más de la cuenta."
+        },
+        "turkish": {
+          "name": "Küfelik",
+          "description": "Çok fazla içki içip bilincini kaybet."
+        }
+      }
+    },
+    "CREEP": {
+      "translations": {
+        "english": {
+          "name": "Creep",
+          "description": "You really enjoy listening in on private matters, don't you?"
+        },
+        "german": {
+          "name": "Spanner",
+          "description": "Du findest es toll, bei Sachen zuzuhören, die dich nichts angehen, oder?"
+        },
+        "koreana": {
+          "name": "기분나쁜 찐따",
+          "description": "사생활 엿듣는걸 참 즐기시네요, 그쵸?"
+        },
+        "russian": {
+          "name": "Неадекват",
+          "description": "Вам, видимо, очень нравится слушать личные дела других людей."
+        },
+        "schinese": {
+          "name": "偷窥狂",
+          "description": "你真的很喜欢偷听别人的私事，对吧？"
+        },
+        "spanish": {
+          "name": "Rarito",
+          "description": "Disfrutas escuchando asuntos privados, ¿no es así?"
+        },
+        "turkish": {
+          "name": "Sapık",
+          "description": "İşi pişiren çiftleri gizlice dinlemek sence de ayıp değil mi?"
+        }
+      }
+    },
+    "SNIPER": {
+      "translations": {
+        "english": {
+          "name": "Sniper",
+          "description": "Obtain a 100% accuracy rating with 40 or more shots fired."
+        },
+        "german": {
+          "name": "Scharfschütze",
+          "description": "Bekomme eine 100% Präzisionsbewertung mit 40 oder mehr abgefeuerten Schüssen."
+        },
+        "koreana": {
+          "name": "저격수",
+          "description": "40발 이상 사격한 상태로 100% 명중률 달성."
+        },
+        "russian": {
+          "name": "Снайпер",
+          "description": "Достигните оценку меткости в 100% сделав 40 или больше выстрелов."
+        },
+        "schinese": {
+          "name": "狙击手",
+          "description": "在发射 40 发以上子弹的情况下达成 100% 命中率。"
+        },
+        "spanish": {
+          "name": "Tirador",
+          "description": "Obtén una puntuación del 100% en precisión después de disparar 40 veces o más."
+        },
+        "turkish": {
+          "name": "Keskin Nişancı",
+          "description": "40 (veya daha fazla) el ateş edip %100 isabet oranıyla bir bölümü tamamla."
+        }
+      }
+    }
+  }
+}
