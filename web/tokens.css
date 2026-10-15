@@ -1,0 +1,124 @@
+/* Surface and type values measured from Modrinth's discovery and project pages.
+   Existing color-role names keep shared controls independent of the page layout. */
+@font-face {
+  font-family: 'Inter'; font-style: normal; font-weight: 100 900; font-display: swap;
+  src: url('./fonts/Inter-roman.var.woff2') format('woff2');
+}
+:root {
+  color-scheme: light;
+  --md-sys-color-primary: #00af5c;
+  --md-sys-color-on-primary: #00341d;
+  --md-sys-color-primary-container: #d7f1e5;
+  --md-sys-color-on-primary-container: #0a5d38;
+  --md-sys-color-secondary: #484d54;
+  --md-sys-color-on-secondary: #ffffff;
+  --md-sys-color-secondary-container: #ffffff;
+  --md-sys-color-on-secondary-container: #1a202c;
+  --md-sys-color-error: #b7193d;
+  --md-sys-color-on-error: #ffffff;
+  --md-sys-color-error-container: #fee5e7;
+  --md-sys-color-on-error-container: #841738;
+  --md-sys-color-surface: #ebebeb;
+  --md-sys-color-surface-container-lowest: #f8f8f8;
+  --md-sys-color-surface-container-low: #f5f5f5;
+  --md-sys-color-surface-container: #ffffff;
+  --md-sys-color-surface-container-high: #ededed;
+  --md-sys-color-surface-container-highest: #dddddd;
+  --md-sys-color-on-surface: #2c2e31;
+  --md-sys-color-on-surface-variant: #484d54;
+  --md-sys-color-outline: #83868d;
+  --md-sys-color-outline-variant: #dddddd;
+  --md-sys-color-shadow: #000000;
+  --color-heading: #1a202c;
+  --color-link: #0a7141;
+  --color-card-border: #ffffff;
+  --color-control-border: #bfc1c5;
+  --color-selected: #d7f1e5;
+  --color-on-selected: #0a5d38;
+  --hover-brightness: .97;
+  --md-sys-typescale-font: 'Inter', 'Segoe UI', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+  --md-sys-typescale-headline-medium: 600 24px/32px var(--md-sys-typescale-font);
+  --md-sys-typescale-headline-small: 600 24px/32px var(--md-sys-typescale-font);
+  --md-sys-typescale-title-large: 700 20px/28px var(--md-sys-typescale-font);
+  --md-sys-typescale-title-medium: 600 16px/24px var(--md-sys-typescale-font);
+  --md-sys-typescale-body-large: 400 16px/24px var(--md-sys-typescale-font);
+  --md-sys-typescale-body-medium: 400 14px/20px var(--md-sys-typescale-font);
+  --md-sys-typescale-body-small: 400 12px/16px var(--md-sys-typescale-font);
+  --md-sys-typescale-label-large: 600 16px/20px var(--md-sys-typescale-font);
+  --md-sys-typescale-label-medium: 500 14px/20px var(--md-sys-typescale-font);
+  --md-sys-shape-corner-extra-small: 8px;
+  --md-sys-shape-corner-small: 12px;
+  --md-sys-shape-corner-medium: 16px;
+  --md-sys-motion-duration-short: 150ms;
+  --md-sys-motion-duration-medium: 250ms;
+  --md-sys-motion-easing-standard: cubic-bezier(.2, 0, 0, 1);
+  --md-sys-state-hover-opacity: .08;
+  --md-sys-state-focus-opacity: .12;
+  --md-sys-state-pressed-opacity: .12;
+}
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --md-sys-color-primary: #1bd96a;
+  --md-sys-color-on-primary: #000000;
+  --md-sys-color-primary-container: #244c39;
+  --md-sys-color-on-primary-container: #1bd96a;
+  --md-sys-color-secondary: #96a2b0;
+  --md-sys-color-on-secondary: #16181c;
+  --md-sys-color-secondary-container: #34363c;
+  --md-sys-color-on-secondary-container: #ffffff;
+  --md-sys-color-error: #ff496e;
+  --md-sys-color-on-error: #000000;
+  --md-sys-color-error-container: #502a37;
+  --md-sys-color-on-error-container: #ffb7c6;
+  --md-sys-color-surface: #16181c;
+  --md-sys-color-surface-container-lowest: #27292e;
+  --md-sys-color-surface-container-low: #1d1f23;
+  --md-sys-color-surface-container: #34363c;
+  --md-sys-color-surface-container-high: #34363c;
+  --md-sys-color-surface-container-highest: #42444a;
+  --md-sys-color-on-surface: #b0bac5;
+  --md-sys-color-on-surface-variant: #96a2b0;
+  --md-sys-color-outline: #777b8b;
+  --md-sys-color-outline-variant: #42444a;
+  --color-heading: #ffffff;
+  --color-link: #1bd96a;
+  --color-card-border: #34363c;
+  --color-control-border: #535760;
+  --color-selected: #244c39;
+  --color-on-selected: #1bd96a;
+  --hover-brightness: 1.1;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+    --md-sys-color-primary: #1bd96a;
+    --md-sys-color-on-primary: #000000;
+    --md-sys-color-primary-container: #244c39;
+    --md-sys-color-on-primary-container: #1bd96a;
+    --md-sys-color-secondary: #96a2b0;
+    --md-sys-color-on-secondary: #16181c;
+    --md-sys-color-secondary-container: #34363c;
+    --md-sys-color-on-secondary-container: #ffffff;
+    --md-sys-color-error: #ff496e;
+    --md-sys-color-on-error: #000000;
+    --md-sys-color-error-container: #502a37;
+    --md-sys-color-on-error-container: #ffb7c6;
+    --md-sys-color-surface: #16181c;
+    --md-sys-color-surface-container-lowest: #27292e;
+    --md-sys-color-surface-container-low: #1d1f23;
+    --md-sys-color-surface-container: #34363c;
+    --md-sys-color-surface-container-high: #34363c;
+    --md-sys-color-surface-container-highest: #42444a;
+    --md-sys-color-on-surface: #b0bac5;
+    --md-sys-color-on-surface-variant: #96a2b0;
+    --md-sys-color-outline: #777b8b;
+    --md-sys-color-outline-variant: #42444a;
+    --color-heading: #ffffff;
+    --color-link: #1bd96a;
+    --color-card-border: #34363c;
+    --color-control-border: #535760;
+    --color-selected: #244c39;
+    --color-on-selected: #1bd96a;
+    --hover-brightness: 1.1;
+  }
+}
