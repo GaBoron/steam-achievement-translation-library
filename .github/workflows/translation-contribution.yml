@@ -278,13 +278,12 @@ jobs:
           PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
           for attempt in $(seq 1 180); do
-            MERGED="$(gh api "repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER" --jq '.merged')"
-            if [ "$MERGED" = "true" ]; then
+            STATE="$(gh pr view "$PR_NUMBER" --json state --jq '.state')"
+            if [ "$STATE" = "MERGED" ]; then
               echo "PR #$PR_NUMBER has merged."
               exit 0
             fi
-            STATE="$(gh api "repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER" --jq '.state')"
-            if [ "$STATE" != "open" ]; then
+            if [ "$STATE" != "OPEN" ]; then
               echo "PR #$PR_NUMBER closed without merging."
               exit 1
             fi
