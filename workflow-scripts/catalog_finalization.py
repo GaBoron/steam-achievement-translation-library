@@ -26,8 +26,8 @@ def refresh_merged_pr_catalog(event: dict[str, Any], repo: str, token: str) -> b
         # New PRs carry immutable, game-local proposals. Every retry consumes
         # all proposals currently merged, regardless of which event woke us.
         catalog = refresh_catalog(catalog_v2.load_catalog(root=ROOT), root=ROOT)
-        run([sys.executable, "workflow-scripts/check_repository.py"])
         recycle_published_submissions(catalog, root=ROOT)
+        run([sys.executable, "workflow-scripts/check_repository.py"])
         run(["git", "add", "-A", "--", *PUBLICATION_PATHS])
         if run(["git", "diff", "--cached", "--quiet"], check=False).returncode == 0:
             return False
