@@ -100,7 +100,7 @@ UserGameStatsSchema_123456.zip
 
 机器人根据 app ID 生成商店链接，检查 ZIP 安全与大小、Binary KeyValues 字节级 roundtrip、成就 ID 和语言覆盖。请只提交你有权分享的译本。
 
-每个译本保存于 `files/<app_id>/<variant_id>/`，包含 BIN 和自动生成的同名 JSON。投稿只需提供 BIN/ZIP，不要手工修改 JSON。审核所需的 `achievements.md` 在 PR 的 **Repository checks** 中生成，可从 `achievement-review` 附件下载，有效期 30 天。已收录译本的文本在 [网站](https://gaboron.github.io/steam-achievement-translation-library/?lang=zh) 预览。
+每个译本保存于 `files/<app_id>/<variant_id>/`，包含 BIN 和自动生成的同名 JSON。投稿只需提供 BIN/ZIP，不要手工修改 JSON。机器人在每个版本目录生成 `achievements.md`，直接在 PR 的 **Files changed** 中审核。文本按成就与字段分组，各语言相邻、每个字段独占一行；更新只列有变化的成就，并显示修改前后值。合并入库时自动将审核文件移至回收站。已收录译本的文本在 [网站](https://gaboron.github.io/steam-achievement-translation-library/?lang=zh) 预览。
 
 每个审核 PR 只修改该游戏目录，待入库元数据保存在自动生成的 `submission.json` 中。检查会严格核对元数据与 BIN/JSON。合并后，自动化汇总主分支上的待入库游戏，更新 `index-v2.json`、统计和网站，并将已发布的 `submission.json` 移至回收站。不同游戏可独立审核；同一游戏的内容冲突需要维护者处理。`/force-refresh` 通过合并主分支保留投稿历史；App ID 修正仅适用于尚未入库的新游戏。
 
