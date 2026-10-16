@@ -25,7 +25,7 @@ python -m http.server 8000 --directory _site
 
 `.github/workflows/pages.yml` 在 `main` 推送、手动运行，以及 **Translation library automation** 或 **Translation finalizer watchdog** 成功完成后部署。后两者通过 `workflow_run` 补足机器人以 `GITHUB_TOKEN` 推送时不会触发普通 `push` 工作流的限制。[GitHub Actions 触发规则](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow)
 
-构建始终检出最新 `main`，不执行触发工作流的 PR 代码，也不读取其构件。只接受本仓库成功运行；新构建取消旧构建，部署按顺序执行，失败构建不会覆盖已发布网站。Pages 构件只存于 Actions，不提交到主分支。CI 使用 Node 24 检查 JavaScript 语法，不安装 npm 依赖。翻译 PR 使用现有待入库校验；其他 PR 还会执行完整网站构建。
+构建始终检出最新 `main`，不执行触发工作流的 PR 代码，也不读取其构件。只接受本仓库成功运行；构建和部署共用一个队列，最多保留 100 个等待运行，重复触发不会取消正在执行或已排队的发布。失败构建不会覆盖已发布网站。网站使用自有静态构建脚本，不需要 `configure-pages` 步骤；Pages 仍须按上述方式启用。Pages 构件只存于 Actions，不提交到主分支。CI 使用 Node 24 检查 JavaScript 语法，不安装 npm 依赖。翻译 PR 使用现有待入库校验；其他 PR 还会执行完整网站构建。
 
 ## English
 
@@ -43,4 +43,4 @@ For initial deployment, select **GitHub Actions** under **Settings → Pages →
 
 `.github/workflows/pages.yml` deploys on pushes to `main`, manual runs, and successful completion of **Translation library automation** or **Translation finalizer watchdog**. The `workflow_run` triggers cover Catalog publication when a `GITHUB_TOKEN` push does not trigger a normal `push` workflow. See [GitHub Actions trigger rules](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow).
 
-Builds always check out current `main`, without executing the triggering PR's code or consuming its artifacts. Only successful runs from this repository qualify. New builds cancel older builds, deployments run in sequence, and failed builds leave the published site intact. Pages artifacts stay in Actions rather than main. CI checks JavaScript syntax with Node 24, without installing npm dependencies. Translation PRs retain their pending-submission validation; other PRs also run the full website build.
+Builds always check out current `main`, without executing the triggering PR's code or consuming its artifacts. Only successful runs from this repository qualify. Build and deployment share one queue with room for up to 100 pending runs, so duplicate triggers do not cancel active or queued publications. Failed builds leave the published site intact. The site uses its own static build script and does not need a `configure-pages` step; Pages must still be enabled as described above. Pages artifacts stay in Actions rather than main. CI checks JavaScript syntax with Node 24, without installing npm dependencies. Translation PRs retain their pending-submission validation; other PRs also run the full website build.

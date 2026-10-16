@@ -11,6 +11,13 @@ on:
 permissions:
   contents: read
 
+# A publication can be triggered by both push and workflow_run.
+# Queue build and deploy together so neither trigger cancels a publication.
+concurrency:
+  group: translation-library-pages
+  cancel-in-progress: false
+  queue: max
+
 jobs:
   build:
     if: >-
@@ -25,12 +32,6 @@ jobs:
       }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    concurrency:
-      group: translation-library-pages-build
-      cancel-in-progress: true
-    permissions:
-      contents: read
-      pages: read
     steps:
       # Catalog finalization can push after the triggering run's original SHA.
       # Always build trusted, current main; never consume PR code or artifacts.
@@ -62,9 +63,6 @@ jobs:
               subprocess.run(["node", "--check", "--input-type=module"], input=path.read_bytes(), check=True)
           PY
 
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
       - name: Build website and verify published downloads
         run: python workflow-scripts/build_website.py --output "$RUNNER_TEMP/translation-library-site"
 
@@ -77,9 +75,6 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    concurrency:
-      group: translation-library-pages-deploy
-      cancel-in-progress: false
     permissions:
       pages: write
       id-token: write
