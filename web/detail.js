@@ -1,5 +1,5 @@
 import { createPreview } from './preview.js';
-import { createTranslationFiles } from './translation-files.js';
+import { createPrimaryDownload, createTranslationFiles } from './translation-files.js';
 import { createDetailTabs } from './detail-tabs.js';
 import { el, append, button, externalLink, githubAvatar, icon, repository, statusMark } from './elements.js';
 import { cover } from './game-covers.js';
@@ -18,18 +18,7 @@ export function createDetail({ game, locale, revision = 'main', variantId, initi
     } catch { feedback.textContent = t(locale, 'copyFailed'); }
     animateChange(feedback);
   }, 'tonal', 'link');
-  const direct = game.variants.length === 1 ? game.variants[0] : null;
-  const directPath = direct?.binPath || direct?.jsonPath;
-  const primaryAction = directPath
-    ? el('a', { className: 'button filled', href: `./${directPath}`,
-        download: `UserGameStatsSchema_${game.appId}.${direct.binPath ? 'bin' : 'json'}` },
-      icon('download'), t(locale, direct.binPath ? 'binDownload' : 'jsonDownload'))
-    : button(t(locale, 'viewDownloads'), () => {
-      tabs.show('downloads');
-      const heading = variants.querySelector('h2');
-      heading.focus({ preventScroll: true });
-      variants.scrollIntoView({ block: 'start', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
-    }, 'filled', 'download');
+  const primaryDownload = createPrimaryDownload({ game, locale, variantId });
 
   append(root, el('div', { className: 'project-breadcrumb' },
     el('a', { href: '#/' }, icon('back'), t(locale, 'back'))),
@@ -40,7 +29,7 @@ export function createDetail({ game, locale, revision = 'main', variantId, initi
           el('div', { className: 'project-metadata' },
             el('span', {}, icon('trophy'), t(locale, 'achievements', { count: gameCount(game, locale) })),
             el('span', {}, icon('layers'), t(locale, 'variants', { count: game.variants.length })), statusMark(game.status, locale)))),
-      el('div', { className: 'project-actions' }, primaryAction, share)), feedback);
+      el('div', { className: 'project-actions' }, primaryDownload.node, share)), feedback);
 
   const sidebar = el('aside', { className: 'project-sidebar', 'aria-label': t(locale, 'gameDetails') });
   const sidebarSection = (key, ...children) => sidebar.append(el('section', { className: 'sidebar-section panel' }, el('h2', {}, t(locale, key)), children));
@@ -64,7 +53,10 @@ export function createDetail({ game, locale, revision = 'main', variantId, initi
 
   const files = createTranslationFiles({ game, locale, revision: sourceRevision });
   const variants = files.node;
-  const preview = createPreview({ game, locale, variantId, onVariant });
+  const preview = createPreview({ game, locale, variantId, onVariant: id => {
+    primaryDownload.setVariant(id);
+    onVariant?.(id);
+  } });
   preview.node.classList.add('panel');
   const tabs = createDetailTabs({ label: t(locale, 'gameDetails'), initial: initialTab, panels: [
     { id: 'downloads', label: t(locale, 'downloads'), iconName: 'layers', node: variants },

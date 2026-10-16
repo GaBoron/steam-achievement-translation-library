@@ -106,7 +106,9 @@ export function createSelect({ label, options, value, onChange, className = '' }
     menu.style.width = `${Math.min(Math.max(bounds.width, 180), right - left)}px`;
     const below = bottom - bounds.bottom - 4;
     const above = bounds.top - top - 4;
-    const height = Math.min(menu.scrollHeight, 336);
+    menu.style.maxHeight = '';
+    // scrollHeight includes padding, but the border-box height also needs borders.
+    const height = Math.min(menu.scrollHeight + menu.offsetHeight - menu.clientHeight, 336);
     const downward = below >= Math.min(height, 240) || below >= above;
     const available = Math.max(0, downward ? below : above);
     if (available < 48) return close(false, false);

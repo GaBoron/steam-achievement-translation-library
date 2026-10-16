@@ -3,6 +3,29 @@ import { t, formatSize, variantLabel } from './i18n.js';
 import { displayLanguages } from './languages.js';
 import { bindDisclosure } from './motion.js';
 
+export function createPrimaryDownload({ game, locale, variantId }) {
+  const node = el('a', { className: 'button filled' });
+  function setVariant(id) {
+    const variant = game.variants.find(entry => entry.id === id)
+      || game.variants.find(entry => entry.id === 'default') || game.variants[0];
+    const format = variant?.binPath ? 'bin' : 'json';
+    const path = variant?.binPath || variant?.jsonPath;
+    node.hidden = !path;
+    if (!path) {
+      node.removeAttribute('href');
+      node.removeAttribute('download');
+      return;
+    }
+    const label = t(locale, format === 'bin' ? 'binDownload' : 'jsonDownload');
+    node.setAttribute('href', `./${path}`);
+    node.setAttribute('download', `UserGameStatsSchema_${game.appId}.${format}`);
+    node.setAttribute('title', `${label} · ${variantLabel(variant, locale)}`);
+    node.replaceChildren(icon('download'), label);
+  }
+  setVariant(variantId);
+  return { node, setVariant };
+}
+
 /** Version rows own download presentation and expandable integrity information. */
 export function createTranslationFiles({ game, locale, revision }) {
   const root = el('section', { className: 'translations-panel' },
