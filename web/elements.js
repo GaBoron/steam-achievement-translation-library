@@ -73,11 +73,11 @@ export function statusMark(status, locale) {
     icon(status === 'current' ? 'check' : 'warning'), statusLabel(status, locale));
 }
 
-export function cover(appId, large = false) {
-  const node = el('span', { className: `cover${large ? ' cover-large' : ''}`, 'aria-hidden': 'true' }, icon('translate'));
+export function githubAvatar(name) {
+  const node = el('span', { className: 'contributor-avatar', 'aria-hidden': 'true' }, icon('user'));
   const image = el('img', {
-    src: `https://cdn.akamai.steamstatic.com/steam/apps/${encodeURIComponent(appId)}/header.jpg`,
-    alt: '', loading: 'lazy', decoding: 'async', referrerpolicy: 'no-referrer', width: 184, height: 86,
+    src: `https://github.com/${encodeURIComponent(name)}.png?size=80`,
+    alt: '', loading: 'lazy', decoding: 'async', referrerpolicy: 'no-referrer', width: 40, height: 40,
     onerror: () => image.remove(),
   });
   node.append(image);

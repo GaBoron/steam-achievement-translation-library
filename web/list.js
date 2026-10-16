@@ -1,5 +1,6 @@
 import { filterGames } from './catalog.js';
-import { el, button, cover, icon, statusMark } from './elements.js';
+import { el, button, icon, statusMark } from './elements.js';
+import { cover } from './game-covers.js';
 import { t, formatDate, gameCount, variantLabel } from './i18n.js';
 import { displayLanguages } from './languages.js';
 import { clampPage, createPagination } from './pagination.js';
@@ -7,7 +8,7 @@ import { replaceContent, animateChange } from './motion.js';
 
 const pageSize = 60;
 
-export function createList({ games, locale, state, sortNode, invalidCount = 0, onReset }) {
+export function createList({ games, locale, state, sortNode, invalidCount = 0, onReset, coverImages = {} }) {
   const root = el('section', { className: 'catalog-page', 'aria-labelledby': 'games-title' });
   const resultCount = el('p', { className: 'result-count', role: 'status', 'aria-live': 'polite', 'aria-atomic': 'true' });
   const results = el('ul', { className: 'game-list', 'aria-label': t(locale, 'games') });
@@ -36,7 +37,7 @@ export function createList({ games, locale, state, sortNode, invalidCount = 0, o
     const description = game.variants.map(variant => variant.description?.[locale]).filter(Boolean).join(' / ')
       || (game.variants.length > 1 ? game.variants.map(variant => variantLabel(variant, locale)).join(' / ') : '');
     return el('li', {}, el('article', { className: 'resource-row' },
-      el('a', { className: 'resource-cover', href, tabindex: '-1', 'aria-hidden': 'true' }, cover(game.appId)),
+      el('a', { className: 'resource-cover', href, tabindex: '-1', 'aria-hidden': 'true' }, cover(game.appId, false, coverImages[game.appId])),
       el('div', { className: 'resource-info' },
         el('div', { className: 'resource-title' }, el('h2', {}, el('a', { className: 'resource-title-link', href, title: game.name }, game.name)), contributors),
         el('p', { className: 'resource-summary', title: description }, `Steam App ID ${game.appId}`, description && el('span', {}, description))),

@@ -8,6 +8,8 @@
 
 `index-v2.json` 是唯一游戏目录来源。`workflow-scripts/build_website.py` 调用独立的 `website_build.py`，校验本地资源引用、Catalog 结构及各版本 BIN 的大小、SHA-256、语言和成就数，并将 JSON 与 BIN 派生内容逐字节比较。Windows checkout 产生的 JSON 换行会在构建输出中恢复为标准 LF，源文件不变。构建只复制网页资源、原始 Catalog 和其引用的 V2 BIN/JSON，不修改投稿或源数据。`site-meta.json` 记录构建提交，用于固定 GitHub 源文件链接。
 
+`web/steam-covers.json` 保存 Steam 封面地址快照；`game-covers.js` 供列表和详情共用，兼容带哈希的图片路径。发布构建通过 `--refresh-covers` 批量刷新输出中的地址，Steam 不可用时保留快照，本地默认构建无需联网。图片加载失败时回退旧地址和占位图标。贡献者显示 GitHub 头像，加载失败时保留用户图标。
+
 ## 本地预览
 
 在仓库根目录运行：
@@ -36,6 +38,8 @@ The [GitHub Pages website](https://gaboron.github.io/steam-achievement-translati
 `filter-group.js` supplies single-choice status and language facets. `select.js` provides consistent menus for sorting, themes, interface languages, and previews. `pagination.js` is shared by lists and previews, and `languages.js` groups nonstandard language codes under “Other.” Discovery places filters on the left and search results on the right; narrow screens collapse filters into a floating panel. Project details place supporting information on the left and use `detail-tabs.js` to switch downloads and previews on the right. `translation-files.js` owns variant rows, download links, and expandable integrity details. Narrow screens put supporting information after the main content. The document scrolls as a whole, with pagination above and below search results. Ctrl K returns from a project to discovery and focuses search. `motion.js` coordinates content transitions.
 
 `index-v2.json` is the only game catalog source. `workflow-scripts/build_website.py` calls the separate `website_build.py` module to validate local asset references, Catalog structure, and each BIN's size, SHA-256, languages, and achievement count. JSON is compared byte for byte against its BIN-derived content. JSON line endings expanded by Windows checkout are restored to canonical LF in the output, leaving source files unchanged. The build copies website assets, the original Catalog, and its referenced V2 BIN/JSON files, without modifying submissions or source data. `site-meta.json` records the build commit for pinned GitHub source links.
+
+`web/steam-covers.json` bundles a snapshot of Steam cover URLs. `game-covers.js` serves both list and detail views, including hashed image paths. Deployment builds refresh the output URLs in batches with `--refresh-covers`, retaining the snapshot if Steam is unavailable; default local builds need no network access. Failed images fall back to the legacy URL and placeholder icon. Contributors display their GitHub avatars, with the user icon retained on image failure.
 
 Run the commands above from the repository root, then open `http://localhost:8000/`. JavaScript modules require HTTP; opening the HTML file directly is unsupported. Git ignores `_site/`. Builds refuse nonempty output directories and never clear or delete files. Recycle the old directory before rebuilding, or select a fresh empty directory with `--output` and adjust the server's `--directory`.
 

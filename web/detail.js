@@ -1,12 +1,13 @@
 import { createPreview } from './preview.js';
 import { createTranslationFiles } from './translation-files.js';
 import { createDetailTabs } from './detail-tabs.js';
-import { el, append, button, cover, externalLink, icon, repository, statusMark } from './elements.js';
+import { el, append, button, externalLink, githubAvatar, icon, repository, statusMark } from './elements.js';
+import { cover } from './game-covers.js';
 import { t, formatDate, gameCount } from './i18n.js';
 import { displayLanguages } from './languages.js';
 import { animateChange } from './motion.js';
 
-export function createDetail({ game, locale, revision = 'main', variantId, initialTab, onVariant }) {
+export function createDetail({ game, locale, revision = 'main', variantId, initialTab, onVariant, coverImages = {} }) {
   const root = el('article', { className: 'project-page' });
   const sourceRevision = /^[a-f0-9]{40}$/.test(revision) ? revision : 'main';
   const feedback = el('p', { role: 'status', className: 'share-feedback', 'aria-live': 'polite' });
@@ -33,7 +34,7 @@ export function createDetail({ game, locale, revision = 'main', variantId, initi
   append(root, el('div', { className: 'project-breadcrumb' },
     el('a', { href: '#/' }, icon('back'), t(locale, 'back'))),
     el('header', { className: 'project-header' },
-      el('div', { className: 'project-identity' }, cover(game.appId, true),
+      el('div', { className: 'project-identity' }, cover(game.appId, true, coverImages[game.appId]),
         el('div', { className: 'project-heading' }, el('h1', {}, game.name),
           el('p', { className: 'project-summary' }, `Steam App ID ${game.appId}`),
           el('div', { className: 'project-metadata' },
@@ -49,7 +50,7 @@ export function createDetail({ game, locale, revision = 'main', variantId, initi
     : el('p', { className: 'muted' }, t(locale, 'noLanguages')));
   sidebarSection('contributors', game.contributors.length
     ? el('ul', { className: 'project-contributors' }, game.contributors.map(name => el('li', {},
-      el('a', { href: `https://github.com/${encodeURIComponent(name)}`, target: '_blank', rel: 'noopener noreferrer' }, el('span', { className: 'contributor-avatar' }, icon('user')), name))))
+      el('a', { href: `https://github.com/${encodeURIComponent(name)}`, target: '_blank', rel: 'noopener noreferrer' }, githubAvatar(name), name))))
     : el('p', { className: 'muted' }, t(locale, 'unknown')));
   const facts = el('dl', { className: 'project-facts' });
   const fact = (key, value) => facts.append(el('div', {}, el('dt', {}, t(locale, key)), el('dd', {}, value)));

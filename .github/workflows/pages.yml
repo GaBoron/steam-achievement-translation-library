@@ -64,7 +64,7 @@ jobs:
           PY
 
       - name: Build website and verify published downloads
-        run: python workflow-scripts/build_website.py --output "$RUNNER_TEMP/translation-library-site"
+        run: python workflow-scripts/build_website.py --refresh-covers --output "$RUNNER_TEMP/translation-library-site"
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v4

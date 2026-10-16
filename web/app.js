@@ -2,6 +2,7 @@ import { loadCatalog } from './catalog.js';
 import { createPreferences } from './preferences.js';
 import { createList } from './list.js';
 import { createDetail } from './detail.js';
+import { loadCoverImages } from './game-covers.js';
 import { createCatalogControls } from './controls.js';
 import { createSelect } from './select.js';
 import { replaceContent } from './motion.js';
@@ -17,6 +18,7 @@ const searchToolbar = document.getElementById('search-toolbar');
 const workspace = document.getElementById('workspace');
 const listState = { query: '', status: '', language: '', sort: 'updated', page: 1 };
 let catalog;
+let coverImages = {};
 let view;
 let failed = false;
 let listScroll = 0;
@@ -138,9 +140,9 @@ function renderRoute(navigating = true) {
     document.title = t(locale, 'title');
     previousGame = true;
   } else {
-    view = game ? createDetail({ game, locale, revision, variantId: current.variantId, initialTab: activeTab, onVariant: variantId => {
+    view = game ? createDetail({ game, locale, revision, coverImages, variantId: current.variantId, initialTab: activeTab, onVariant: variantId => {
       history.replaceState(null, '', `#/game/${game.appId}/${variantId}`);
-    } }) : createList({ ...catalog, locale, state: listState, sortNode: controls.sort, onReset: () => controls.reset() });
+    } }) : createList({ ...catalog, coverImages, locale, state: listState, sortNode: controls.sort, onReset: () => controls.reset() });
     replaceContent(main, view.node);
     document.title = game ? `${game.name} · ${t(locale, 'title')}` : t(locale, 'title');
     previousGame = Boolean(game);
@@ -157,7 +159,7 @@ function renderRoute(navigating = true) {
 async function initialize() {
   failed = false;
   renderRoute(false);
-  try { [catalog] = await Promise.all([loadCatalog(), loadRevision]); } catch { failed = true; }
+  try { [catalog, coverImages] = await Promise.all([loadCatalog(), loadCoverImages(), loadRevision]); } catch { failed = true; }
   if (catalog) controls.setGames(catalog.games);
   renderRoute(false);
 }
