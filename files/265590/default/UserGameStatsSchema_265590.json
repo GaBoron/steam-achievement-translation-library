@@ -1,0 +1,888 @@
+{
+  "version": 1,
+  "app_id": "265590",
+  "variant_id": "default",
+  "source_sha256": "eb3677b30d1b761bee0c6c3a46e6eb684b6038b547ab203eb5114c566befe928",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "Survivalist": {
+      "translations": {
+        "english": {
+          "name": "Survivalist",
+          "description": "You have survived, and that's what it counts for!"
+        },
+        "schinese": {
+          "name": "生存主义者",
+          "description": "你活了下来，这才是最关键的！"
+        }
+      }
+    },
+    "gManOfDuty": {
+      "translations": {
+        "english": {
+          "name": "Man of Duty",
+          "description": "You have contributed to salvation of Tharsis, whether for the good of it, or for the bad."
+        },
+        "schinese": {
+          "name": "尽责之人",
+          "description": "你为拯救塔尔西斯做出了贡献，无论结果是好是坏。"
+        }
+      }
+    },
+    "gFirstEncounter": {
+      "translations": {
+        "english": {
+          "name": "First encounter!",
+          "description": "You have seen it, and you have killed it!"
+        },
+        "schinese": {
+          "name": "初次遭遇！",
+          "description": "你见到了它，还干掉了它！"
+        }
+      }
+    },
+    "gVeteran": {
+      "translations": {
+        "english": {
+          "name": "Veteran",
+          "description": "You know your way around, you've been here for some time."
+        },
+        "schinese": {
+          "name": "老兵",
+          "description": "你早已轻车熟路，毕竟在这里待了有一段时间了。"
+        }
+      }
+    },
+    "CallDownTheThunder": {
+      "translations": {
+        "english": {
+          "name": "Call down the thunder!",
+          "description": "You have taken out hellspawn with SHIVA weapon."
+        },
+        "schinese": {
+          "name": "召唤雷霆！",
+          "description": "你使用湿婆武器消灭了地狱孽种。"
+        }
+      }
+    },
+    "Nemesis": {
+      "translations": {
+        "english": {
+          "name": "Nemesis of the dark",
+          "description": "You got on the field, you took them down in one round, 50 high threat kills."
+        },
+        "schinese": {
+          "name": "黑暗克星",
+          "description": "你踏上战场，在单回合内干掉50个高威胁目标。"
+        }
+      }
+    },
+    "Mercs": {
+      "translations": {
+        "english": {
+          "name": "[M.E.R.C.S.]",
+          "description": "Win the game in Hardcore, Primary, Secondary missions with 4 marines, and finish all objectives. Defeat Vivian Parks, or win normal difficulty alone."
+        },
+        "schinese": {
+          "name": "[佣兵]",
+          "description": "以4名陆战队员在硬核难度下完成主线与支线任务并赢得游戏，同时完成所有目标。击败薇薇安·帕克斯，或在普通难度下独自获胜。"
+        }
+      }
+    },
+    "TacticalAdvantage": {
+      "translations": {
+        "english": {
+          "name": "Tactical Advantage",
+          "description": "You have mastered all 8 classes."
+        },
+        "schinese": {
+          "name": "战术优势",
+          "description": "你已精通全部8种职业。"
+        }
+      }
+    },
+    "BronzeStar": {
+      "translations": {
+        "english": {
+          "name": "Bronze Star",
+          "description": "Bronze Star Medal is awarded a person who has distinguished himself or herself by heroic or meritorious achievement. In order to have a chance to earn this medal, you need to complete all primary objectives and finish few secondary missions and objectives."
+        },
+        "schinese": {
+          "name": "铜星勋章",
+          "description": "铜星勋章授予以英勇行为或卓越功绩而表现杰出的人。想要有机会赢得这枚勋章，你需要完成所有主要目标，并完成若干支线任务和目标。"
+        }
+      }
+    },
+    "SilverStar": {
+      "translations": {
+        "english": {
+          "name": "Silver Star",
+          "description": "Silver star placeholder description"
+        },
+        "schinese": {
+          "name": "银星勋章",
+          "description": "银星勋章占位描述"
+        }
+      }
+    },
+    "ForceCross": {
+      "translations": {
+        "english": {
+          "name": "Force Cross",
+          "description": "Lead a team to victory on soldier, as one of the leaders, finish 3 secondary missions and complete storyline."
+        },
+        "schinese": {
+          "name": "部队十字勋章",
+          "description": "以领袖身份带领小队在士兵难度下获胜，完成3个支线任务并完成剧情线。"
+        }
+      }
+    },
+    "CrossOfHonor": {
+      "translations": {
+        "english": {
+          "name": "Cross of Honor",
+          "description": "Win the game on Military sector on Soldier, Vivian Parks and Tyler Hunt must survive. This medal can be awarded to those who have fallen in battle."
+        },
+        "schinese": {
+          "name": "荣誉十字勋章",
+          "description": "在士兵难度下于军事区取胜，薇薇安·帕克斯和泰勒·亨特必须存活。此勋章可追授给在战斗中阵亡者。"
+        }
+      }
+    },
+    "ForceSpecialistCross": {
+      "translations": {
+        "english": {
+          "name": "Force Specialist Cross",
+          "description": "Win project F.L.U.F.F.Y on military.Specialist Cross placeholder description"
+        },
+        "schinese": {
+          "name": "部队专家十字勋章",
+          "description": "在军事区赢得F.L.U.F.F.Y计划。专家十字勋章占位描述"
+        }
+      }
+    },
+    "LegionOfAssault": {
+      "translations": {
+        "english": {
+          "name": "Legion of Assault",
+          "description": "Win Red Storm, Fast mode and complete storyline with 1 secondary mission on Soldier."
+        },
+        "schinese": {
+          "name": "突击军团",
+          "description": "在士兵难度下以快速模式赢得红色风暴，完成1个支线任务并完成剧情线。"
+        }
+      }
+    },
+    "CampaignOrder": {
+      "translations": {
+        "english": {
+          "name": "Campaign Order",
+          "description": "Complete storyline and finish Industrial sector on Soldier."
+        },
+        "schinese": {
+          "name": "战役勋章",
+          "description": "在士兵难度下完成剧情线并通关工业区。"
+        }
+      }
+    },
+    "PurpleHeart": {
+      "translations": {
+        "english": {
+          "name": "Purple Heart",
+          "description": "Awarded to those who have almost fallen, but succeeded."
+        },
+        "schinese": {
+          "name": "紫心勋章",
+          "description": "授予那些几近倒下却最终成功的人。"
+        }
+      }
+    },
+    "FieldServiceAchievement": {
+      "translations": {
+        "english": {
+          "name": "Field Service Achievement",
+          "description": "Finish all objectives on soldier, have 0 casualties among the squad, finish 1 secondary mission and storyline."
+        },
+        "schinese": {
+          "name": "野战服役嘉奖",
+          "description": "在士兵难度下完成所有目标，小队0伤亡，完成1个支线任务并完成剧情线。"
+        }
+      }
+    },
+    "FieldServiceCommendation": {
+      "translations": {
+        "english": {
+          "name": "Field Service Commendation",
+          "description": "Finish all objectives on veteran, have 0 casualties among the squad, finish 1 secondary mission and storyline."
+        },
+        "schinese": {
+          "name": "野战服役表彰",
+          "description": "在老兵难度下完成所有目标，小队0伤亡，完成1个支线任务并完成剧情线。"
+        }
+      }
+    },
+    "ColonialSuperiorService": {
+      "translations": {
+        "english": {
+          "name": "Colonial Superior Service",
+          "description": "Finish all objectives on aetriden, have 0 casualties among the squad, finish 1 secondary mission and storyline."
+        },
+        "schinese": {
+          "name": "殖民地优异服役勋章",
+          "description": "在阿特里登难度下完成所有目标，小队0伤亡，完成1个支线任务并完成剧情线。"
+        }
+      }
+    },
+    "ColonialDistinguishedService": {
+      "translations": {
+        "english": {
+          "name": "Colonial Distinguished Service",
+          "description": "Colonial Distinguished Service placeholder description"
+        },
+        "schinese": {
+          "name": "殖民地杰出服役勋章",
+          "description": "殖民地杰出服役勋章占位描述"
+        }
+      }
+    },
+    "OrderOfColonialForce": {
+      "translations": {
+        "english": {
+          "name": "Order of Colonial Force",
+          "description": "Survive 20 minutes into overrun on veteran and evacuate."
+        },
+        "schinese": {
+          "name": "殖民军勋章",
+          "description": "在老兵难度下，于沦陷模式中坚持20分钟并撤离。"
+        }
+      }
+    },
+    "LegionOfMerit": {
+      "translations": {
+        "english": {
+          "name": "Legion of Merit",
+          "description": "Complete storyline, evacuate all followers and Tyler Hunt,  win fluffy hunt on Aetriden in Military sector."
+        },
+        "schinese": {
+          "name": "军功勋章",
+          "description": "完成主线剧情，撤离所有随从和泰勒·亨特，并在埃特里登难度的军事区中赢得毛毛狩猎。"
+        }
+      }
+    },
+    "CommanderCross": {
+      "translations": {
+        "english": {
+          "name": "Commander Cross",
+          "description": "Lead a team to victory on veteran, as one of the leaders, finish 3 secondary missions and complete storyline."
+        },
+        "schinese": {
+          "name": "指挥官十字",
+          "description": "在老兵难度下以队长之一的身份带领小队取得胜利，完成3个次要任务并完成主线剧情。"
+        }
+      }
+    },
+    "AetridenMedalOfHonor": {
+      "translations": {
+        "english": {
+          "name": "Aetriden Medal of Honor",
+          "description": "Complete storyline in Military sector on Aetriden and evacuate Tyler Hunt, Vivian Parks must survive. This medal can be awarded to those who have fallen in battle."
+        },
+        "schinese": {
+          "name": "埃特里登荣誉勋章",
+          "description": "在埃特里登难度的军事区完成主线剧情并撤离泰勒·亨特，薇薇安·帕克斯必须存活。此勋章可追授给阵亡者。"
+        }
+      }
+    },
+    "SoldiersMedal": {
+      "translations": {
+        "english": {
+          "name": "Soldier's Medal",
+          "description": "Complete storyline on Recruit."
+        },
+        "schinese": {
+          "name": "士兵勋章",
+          "description": "在新兵难度下完成主线剧情。"
+        }
+      }
+    },
+    "AetridensCross": {
+      "translations": {
+        "english": {
+          "name": "Aetriden's Cross",
+          "description": "Lead a team to victory on aetriden, as one of the leaders, finish 3 secondary missions and complete storyline."
+        },
+        "schinese": {
+          "name": "埃特里登十字",
+          "description": "在埃特里登难度下以队长之一的身份带领小队取得胜利，完成3个次要任务并完成主线剧情。"
+        }
+      }
+    },
+    "EliteCampaignOrder": {
+      "translations": {
+        "english": {
+          "name": "Elite Campaign Order",
+          "description": "Win Red Storm, evacuate Tyler Hunt and all followers, finish 3 secondary missions on Military sector."
+        },
+        "schinese": {
+          "name": "精英战役勋章",
+          "description": "在军事区赢得红色风暴，撤离泰勒·亨特和所有随从，并完成3个次要任务。"
+        }
+      }
+    },
+    "VeteranMedic": {
+      "translations": {
+        "english": {
+          "name": "Veteran Medic",
+          "description": "Complete primary storyline and 2 secondary missions on Veteran."
+        },
+        "schinese": {
+          "name": "老兵医疗兵",
+          "description": "在老兵难度下完成主线剧情和2个次要任务。"
+        }
+      }
+    },
+    "VeteranAssault": {
+      "translations": {
+        "english": {
+          "name": "Veteran Assault",
+          "description": "Complete primary storyline and 2 secondary missions on Veteran."
+        },
+        "schinese": {
+          "name": "老兵突击兵",
+          "description": "在老兵难度下完成主线剧情和2个次要任务。"
+        }
+      }
+    },
+    "VeteranTerminator": {
+      "translations": {
+        "english": {
+          "name": "Veteran Terminator",
+          "description": "Complete primary storyline and 2 secondary missions on Veteran."
+        },
+        "schinese": {
+          "name": "老兵终结者",
+          "description": "在老兵难度下完成主线剧情和2个次要任务。"
+        }
+      }
+    },
+    "VeteranHellfire": {
+      "translations": {
+        "english": {
+          "name": "Veteran Hellfire",
+          "description": "Complete primary storyline and 2 secondary missions on Veteran."
+        },
+        "schinese": {
+          "name": "老兵地狱火",
+          "description": "以老兵难度完成主线剧情和2个支线任务。"
+        }
+      }
+    },
+    "VeteranDemolitions": {
+      "translations": {
+        "english": {
+          "name": "Veteran Demolitions",
+          "description": "Complete primary storyline and 2 secondary missions on Veteran."
+        },
+        "schinese": {
+          "name": "老兵爆破手",
+          "description": "以老兵难度完成主线剧情和2个支线任务。"
+        }
+      }
+    },
+    "VeteranRecon": {
+      "translations": {
+        "english": {
+          "name": "Veteran Recon",
+          "description": "Complete primary storyline and 2 secondary missions on Veteran."
+        },
+        "schinese": {
+          "name": "老兵侦察兵",
+          "description": "以老兵难度完成主线剧情和2个支线任务。"
+        }
+      }
+    },
+    "VeteranHeavySupport": {
+      "translations": {
+        "english": {
+          "name": "Veteran Heavy Support",
+          "description": "Complete primary storyline and 2 secondary missions on Veteran."
+        },
+        "schinese": {
+          "name": "老兵重火力支援",
+          "description": "以老兵难度完成主线剧情和2个支线任务。"
+        }
+      }
+    },
+    "VeteranMarksman": {
+      "translations": {
+        "english": {
+          "name": "Veteran Marksman",
+          "description": "Complete primary storyline and 2 secondary missions on Soldier."
+        },
+        "schinese": {
+          "name": "老兵神射手",
+          "description": "以士兵难度完成主线剧情和2个支线任务。"
+        }
+      }
+    },
+    "Frosty": {
+      "translations": {
+        "english": {
+          "name": "Frosty",
+          "description": "You have succesfully activted the distress signal with Frosty!"
+        },
+        "schinese": {
+          "name": "弗罗斯蒂",
+          "description": "你成功激活了弗罗斯蒂的求救信号！"
+        }
+      }
+    },
+    "ProjectTerra": {
+      "translations": {
+        "english": {
+          "name": "Project Terra",
+          "description": "You have completed the Project Terra storyline succesfully."
+        },
+        "schinese": {
+          "name": "泰拉计划",
+          "description": "你成功完成了泰拉计划剧情线。"
+        }
+      }
+    },
+    "DirtyLittleSecret": {
+      "translations": {
+        "english": {
+          "name": "Dirty Little Secret",
+          "description": "You have completed the Insurgents storyline succesfully."
+        },
+        "schinese": {
+          "name": "肮脏的小秘密",
+          "description": "你成功完成了叛军剧情线。"
+        }
+      }
+    },
+    "Scientist": {
+      "translations": {
+        "english": {
+          "name": "Scientist",
+          "description": "You have completed the science sector on soldier difficulty or higher."
+        },
+        "schinese": {
+          "name": "科学家",
+          "description": "你以士兵或更高难度完成了科学区。"
+        }
+      }
+    },
+    "Industrialist": {
+      "translations": {
+        "english": {
+          "name": "Industrialist",
+          "description": "You have completed the industrial sector on soldier difficulty or higher."
+        },
+        "schinese": {
+          "name": "实业家",
+          "description": "你以士兵或更高难度完成了工业区。"
+        }
+      }
+    },
+    "DistinguishedForceSpecialist": {
+      "translations": {
+        "english": {
+          "name": "Distinguished Force Specialist",
+          "description": "Activate project F.L.U.F.F.Y. Finish everything. Rescue everyone. Ammo Efficiency above 75%. Veteran difficulty."
+        },
+        "schinese": {
+          "name": "卓越部队专家",
+          "description": "激活F.L.U.F.F.Y.计划。完成所有任务。救出所有人。弹药效率高于75%。老兵难度。"
+        }
+      }
+    },
+    "OrderOfColonialDefense": {
+      "translations": {
+        "english": {
+          "name": "Order Of Colonial Defense",
+          "description": "Activate all mods except bunker/tactical/point capture, finish storyline and 1 secondary on veteran."
+        },
+        "schinese": {
+          "name": "殖民防御勋章",
+          "description": "激活除碉堡/战术/据点占领外的所有模组，在老兵难度下完成主线剧情和1个支线任务。"
+        }
+      }
+    },
+    "VeteransMedal": {
+      "translations": {
+        "english": {
+          "name": "Veterans Medal",
+          "description": "Complete storyline on Soldier."
+        },
+        "schinese": {
+          "name": "老兵勋章",
+          "description": "在士兵难度下完成主线剧情。"
+        }
+      }
+    },
+    "VeteranCampaignOrder": {
+      "translations": {
+        "english": {
+          "name": "Veteran Campaign Order",
+          "description": "Evacuate Tyler Hunt, evacuate all followers, finish 1 secondary mission on Residental sector."
+        },
+        "schinese": {
+          "name": "老兵战役勋章",
+          "description": "撤离泰勒·亨特，撤离所有随从，在住宅区完成1个支线任务。"
+        }
+      }
+    },
+    "ExperiencedMedic": {
+      "translations": {
+        "english": {
+          "name": "Experienced Medic",
+          "description": "Complete primary storyline and 1 secondary mission on Soldier."
+        },
+        "schinese": {
+          "name": "资深医疗兵",
+          "description": "在士兵难度下完成主线剧情和1个支线任务。"
+        }
+      }
+    },
+    "EliteMedic": {
+      "translations": {
+        "english": {
+          "name": "Elite Medic",
+          "description": "Complete primary storyline and 3 secondary missions on Aetriden."
+        },
+        "schinese": {
+          "name": "精英医疗兵",
+          "description": "在艾特里登完成主线剧情和3个支线任务。"
+        }
+      }
+    },
+    "ExperiencedAssault": {
+      "translations": {
+        "english": {
+          "name": "Experienced Assault",
+          "description": "Complete primary storyline and 1 secondary mission on Soldier."
+        },
+        "schinese": {
+          "name": "资深突击兵",
+          "description": "在士兵难度下完成主线剧情和1个支线任务。"
+        }
+      }
+    },
+    "EliteAssault": {
+      "translations": {
+        "english": {
+          "name": "Elite Assault",
+          "description": "Complete primary storyline and 3 secondary missions on Aetriden."
+        },
+        "schinese": {
+          "name": "精英突击兵",
+          "description": "在艾特里登完成主线剧情和3个支线任务。"
+        }
+      }
+    },
+    "ExperiencedTerminator": {
+      "translations": {
+        "english": {
+          "name": "Experienced Terminator",
+          "description": "Complete primary storyline and 1 secondary mission on Soldier."
+        },
+        "schinese": {
+          "name": "资深终结者",
+          "description": "在士兵难度下完成主线剧情和1个支线任务。"
+        }
+      }
+    },
+    "EliteTerminator": {
+      "translations": {
+        "english": {
+          "name": "Elite Terminator",
+          "description": "Complete primary storyline and 3 secondary mission on Aetriden."
+        },
+        "schinese": {
+          "name": "精英终结者",
+          "description": "在艾特里登完成主线剧情和3个支线任务。"
+        }
+      }
+    },
+    "ExperiencedHellfire": {
+      "translations": {
+        "english": {
+          "name": "Experienced Hellfire",
+          "description": "Complete primary storyline and 1 secondary mission on Soldier."
+        },
+        "schinese": {
+          "name": "地狱火老手",
+          "description": "以士兵难度完成主线剧情和1个支线任务。"
+        }
+      }
+    },
+    "EliteHellfire": {
+      "translations": {
+        "english": {
+          "name": "Elite Hellfire",
+          "description": "Complete primary storyline and 3 secondary mission on Aetriden."
+        },
+        "schinese": {
+          "name": "精英地狱火",
+          "description": "以埃特里登难度完成主线剧情和3个支线任务。"
+        }
+      }
+    },
+    "ExperiencedDemolitions": {
+      "translations": {
+        "english": {
+          "name": "Experienced Demolitions",
+          "description": "Complete primary storyline and 1 secondary mission on Soldier."
+        },
+        "schinese": {
+          "name": "爆破老手",
+          "description": "以士兵难度完成主线剧情和1个支线任务。"
+        }
+      }
+    },
+    "EliteDemolitions": {
+      "translations": {
+        "english": {
+          "name": "Elite Demolitions",
+          "description": "Complete primary storyline and 3 secondary missions on Elite."
+        },
+        "schinese": {
+          "name": "精英爆破",
+          "description": "以精英难度完成主线剧情和3个支线任务。"
+        }
+      }
+    },
+    "ExperiencedRecon": {
+      "translations": {
+        "english": {
+          "name": "Experienced Recon",
+          "description": "Complete primary storyline and 1 secondary mission on Soldier."
+        },
+        "schinese": {
+          "name": "侦察老手",
+          "description": "以士兵难度完成主线剧情和1个支线任务。"
+        }
+      }
+    },
+    "EliteRecon": {
+      "translations": {
+        "english": {
+          "name": "Elite Recon",
+          "description": "Complete primary storyline and 3 secondary missions on Aetriden."
+        },
+        "schinese": {
+          "name": "精英侦察",
+          "description": "以埃特里登难度完成主线剧情和3个支线任务。"
+        }
+      }
+    },
+    "ExperiencedHeavySupport": {
+      "translations": {
+        "english": {
+          "name": "Experienced Heavy Support",
+          "description": "Complete primary storyline and 1 secondary mission on Soldier."
+        },
+        "schinese": {
+          "name": "重装支援老手",
+          "description": "以士兵难度完成主线剧情和1个支线任务。"
+        }
+      }
+    },
+    "EliteHeavySupport": {
+      "translations": {
+        "english": {
+          "name": "Elite Heavy Support",
+          "description": "Complete primary storyline and 3 secondary missions on Aetriden."
+        },
+        "schinese": {
+          "name": "精英重装支援",
+          "description": "以埃特里登难度完成主线剧情和3个支线任务。"
+        }
+      }
+    },
+    "ExperiencedMarksman": {
+      "translations": {
+        "english": {
+          "name": "Experienced Marksman",
+          "description": "Complete primary storyline and 1 secondary mission on Soldier."
+        },
+        "schinese": {
+          "name": "神射手老手",
+          "description": "以士兵难度完成主线剧情和1个支线任务。"
+        }
+      }
+    },
+    "EliteMarksman": {
+      "translations": {
+        "english": {
+          "name": "Elite Marksman",
+          "description": "Complete primary storyline and 3 secondary mission on Soldier."
+        },
+        "schinese": {
+          "name": "精英神射手",
+          "description": "以士兵难度完成主线剧情和3个支线任务。"
+        }
+      }
+    },
+    "Mission1": {
+      "translations": {
+        "english": {
+          "name": "Colony Dark",
+          "description": "You have completed Colony dark mission"
+        },
+        "schinese": {
+          "name": "黑暗殖民地",
+          "description": "你已完成黑暗殖民地任务"
+        }
+      }
+    },
+    "Mission2": {
+      "translations": {
+        "english": {
+          "name": "S.A.R.A.",
+          "description": "You have completed S.A.R.A. mission"
+        },
+        "schinese": {
+          "name": "S.A.R.A.",
+          "description": "你已完成S.A.R.A.任务"
+        }
+      }
+    },
+    "Mission3": {
+      "translations": {
+        "english": {
+          "name": "Stonewall",
+          "description": "You have completed Stonewall mission"
+        },
+        "schinese": {
+          "name": "石墙",
+          "description": "你已完成石墙任务"
+        }
+      }
+    },
+    "Mission4": {
+      "translations": {
+        "english": {
+          "name": "Balance of Power",
+          "description": "You have completed Balance of power mission"
+        },
+        "schinese": {
+          "name": "权力平衡",
+          "description": "你已完成权力平衡任务"
+        }
+      }
+    },
+    "Mission5": {
+      "translations": {
+        "english": {
+          "name": "Chasing Echoes",
+          "description": "You have completed Chasing echoes mission"
+        },
+        "schinese": {
+          "name": "追逐回声",
+          "description": "你已完成追逐回声任务"
+        }
+      }
+    },
+    "Mission6": {
+      "translations": {
+        "english": {
+          "name": "Castel Nuovo",
+          "description": "You have completed Castel nuovo mission"
+        },
+        "schinese": {
+          "name": "新堡",
+          "description": "你已完成新堡任务"
+        }
+      }
+    },
+    "Mission7": {
+      "translations": {
+        "english": {
+          "name": "Bonds Which Bond",
+          "description": "You have completed Bonds which bond mission"
+        },
+        "schinese": {
+          "name": "紧密相连的羁绊",
+          "description": "你已完成“紧密相连的羁绊”任务"
+        }
+      }
+    },
+    "Mission8": {
+      "translations": {
+        "english": {
+          "name": "V.L.A.K. Transport",
+          "description": "You have completed V.L.A.K. transport mission"
+        },
+        "schinese": {
+          "name": "V.L.A.K. 运输",
+          "description": "你已完成 V.L.A.K. 运输任务"
+        }
+      }
+    },
+    "Mission9": {
+      "translations": {
+        "english": {
+          "name": "The fabian strategy",
+          "description": "You have completed The fabian strategy mission"
+        },
+        "schinese": {
+          "name": "费边战略",
+          "description": "你已完成“费边战略”任务"
+        }
+      }
+    },
+    "Mission10": {
+      "translations": {
+        "english": {
+          "name": "Smoke and Mirrors",
+          "description": "You have completed Smoke and mirrors mission"
+        },
+        "schinese": {
+          "name": "障眼法",
+          "description": "你已完成“障眼法”任务"
+        }
+      }
+    },
+    "MercsArmor": {
+      "translations": {
+        "english": {
+          "name": "M.E.R.C.S. Armor",
+          "description": "You have located the hidden M.E.R.C.S. armor"
+        },
+        "schinese": {
+          "name": "佣兵护甲",
+          "description": "你找到了隐藏的佣兵护甲"
+        }
+      }
+    },
+    "MissionHardcore": {
+      "translations": {
+        "english": {
+          "name": "Hardcore",
+          "description": "You have finished single player in hardcore mode"
+        },
+        "schinese": {
+          "name": "硬核",
+          "description": "你以硬核模式完成了单人游戏"
+        }
+      }
+    },
+    "MissionBrutalHardcore": {
+      "translations": {
+        "english": {
+          "name": "Brutal Hardcore",
+          "description": "You have finished single player in brutal hardcore mode"
+        },
+        "schinese": {
+          "name": "残酷硬核",
+          "description": "你以残酷硬核模式完成了单人游戏"
+        }
+      }
+    }
+  }
+}
