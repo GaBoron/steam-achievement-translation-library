@@ -1,0 +1,2256 @@
+{
+  "version": 1,
+  "app_id": "230410",
+  "variant_id": "default",
+  "source_sha256": "949d834d57b800a201a54ad69cb84fc94c31faf090391e02cbe2f7ab3b1fe3bb",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "ACHIEVEMENT_1": {
+      "translations": {
+        "english": {
+          "name": "We Shape Our Tools",
+          "description": "Apply a Mod to a weapon or Warframe."
+        },
+        "schinese": {
+          "name": "我们塑造工具",
+          "description": "为一件武器或战甲装备一张 MOD。"
+        }
+      }
+    },
+    "ACHIEVEMENT_2": {
+      "translations": {
+        "english": {
+          "name": "Our Tools Shape Us",
+          "description": "Apply 4 different Mods to a single weapon or Warframe."
+        },
+        "schinese": {
+          "name": "工具塑造我们",
+          "description": "为同一件武器或战甲装备 4 张不同的 MOD。"
+        }
+      }
+    },
+    "ACHIEVEMENT_3": {
+      "translations": {
+        "english": {
+          "name": "Blade Mastery I",
+          "description": "Reach Rank 10 with any five Longsword or Dual Short Blades weapons."
+        },
+        "schinese": {
+          "name": "利刃精通 I",
+          "description": "使任意五把长剑或双短剑武器达到 10 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_4": {
+      "translations": {
+        "english": {
+          "name": "Blade Mastery II",
+          "description": "Reach Rank 20 with any five Longsword or Dual Short Blades weapons."
+        },
+        "schinese": {
+          "name": "利刃精通 II",
+          "description": "使任意五把长剑或双短剑武器达到 20 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_5": {
+      "translations": {
+        "english": {
+          "name": "Blade Mastery III",
+          "description": "Reach Rank 30 with any five Longsword or Dual Short Blades weapons."
+        },
+        "schinese": {
+          "name": "利刃精通 III",
+          "description": "使任意五把长剑或双短剑武器达到 30 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_6": {
+      "translations": {
+        "english": {
+          "name": "Blade Proficiency I",
+          "description": "Reach Rank 10 with any Longsword or Dual Short Blades weapon."
+        },
+        "schinese": {
+          "name": "利刃娴熟 I",
+          "description": "使任意一把长剑或双短剑武器达到 10 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_7": {
+      "translations": {
+        "english": {
+          "name": "Blade Proficiency II",
+          "description": "Reach Rank 20 with any Longsword or Dual Short Blades weapon."
+        },
+        "schinese": {
+          "name": "利刃娴熟 II",
+          "description": "使任意一把长剑或双短剑武器达到 20 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_8": {
+      "translations": {
+        "english": {
+          "name": "Blade Proficiency III",
+          "description": "Reach Rank 30 with any Longsword or Dual Short Blades weapon."
+        },
+        "schinese": {
+          "name": "利刃娴熟 III",
+          "description": "使任意一把长剑或双短剑武器达到 30 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_9": {
+      "translations": {
+        "english": {
+          "name": "Bow Mastery I",
+          "description": "Reach Rank 10 with any two Bow weapons."
+        },
+        "schinese": {
+          "name": "弓术精通 I",
+          "description": "使任意两把弓类武器达到 10 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_10": {
+      "translations": {
+        "english": {
+          "name": "Bow Mastery II",
+          "description": "Reach Rank 20 with any two Bow weapons."
+        },
+        "schinese": {
+          "name": "弓术精通 II",
+          "description": "使任意两把弓类武器达到 20 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_11": {
+      "translations": {
+        "english": {
+          "name": "Bow Mastery III",
+          "description": "Reach Rank 30 with any two Bow weapons."
+        },
+        "schinese": {
+          "name": "弓术精通 III",
+          "description": "任意两把弓类武器达到30级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_12": {
+      "translations": {
+        "english": {
+          "name": "Bow Proficiency I",
+          "description": "Reach Rank 10 with any Bow weapon."
+        },
+        "schinese": {
+          "name": "弓术娴熟 I",
+          "description": "任意一把弓类武器达到10级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_13": {
+      "translations": {
+        "english": {
+          "name": "Bow Proficiency II",
+          "description": "Reach Rank 20 with any Bow weapon."
+        },
+        "schinese": {
+          "name": "弓术娴熟 II",
+          "description": "任意一把弓类武器达到20级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_14": {
+      "translations": {
+        "english": {
+          "name": "Bow Proficiency III",
+          "description": "Reach Rank 30 with any Bow weapon."
+        },
+        "schinese": {
+          "name": "弓术娴熟 III",
+          "description": "任意一把弓类武器达到30级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_15": {
+      "translations": {
+        "english": {
+          "name": "Brawler Mastery I",
+          "description": "Reach Rank 10 with any three Gauntlets or Hand-to-Hand weapons."
+        },
+        "schinese": {
+          "name": "拳斗精通 I",
+          "description": "任意三把铁甲拳套或徒手搏击武器达到10级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_16": {
+      "translations": {
+        "english": {
+          "name": "Brawler Mastery II",
+          "description": "Reach Rank 20 with any three Gauntlets or Hand-to-Hand weapons."
+        },
+        "schinese": {
+          "name": "拳斗精通 II",
+          "description": "任意三把铁甲拳套或徒手搏击武器达到20级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_17": {
+      "translations": {
+        "english": {
+          "name": "Brawler Mastery III",
+          "description": "Reach Rank 30 with any three Gauntlets or Hand-to-Hand weapons."
+        },
+        "schinese": {
+          "name": "拳斗精通 III",
+          "description": "任意三把铁甲拳套或徒手搏击武器达到30级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_18": {
+      "translations": {
+        "english": {
+          "name": "Brawler Proficiency I",
+          "description": "Reach Rank 10 with any Gauntlets or Hand-to-Hand weapon."
+        },
+        "schinese": {
+          "name": "拳斗娴熟 I",
+          "description": "任意一把铁甲拳套或徒手搏击武器达到10级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_19": {
+      "translations": {
+        "english": {
+          "name": "Brawler Proficiency II",
+          "description": "Reach Rank 20 with any Gauntlets or Hand-to-Hand weapon."
+        },
+        "schinese": {
+          "name": "拳斗娴熟 II",
+          "description": "任意一把铁甲拳套或徒手搏击武器达到20级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_20": {
+      "translations": {
+        "english": {
+          "name": "Brawler Proficiency III",
+          "description": "Reach Rank 30 with any Gauntlets or Hand-to-Hand weapon."
+        },
+        "schinese": {
+          "name": "拳斗娴熟 III",
+          "description": "任意一把铁甲拳套或徒手搏击武器达到30级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_21": {
+      "translations": {
+        "english": {
+          "name": "Weaponsmith",
+          "description": "Build an item in the Foundry."
+        },
+        "schinese": {
+          "name": "武器匠",
+          "description": "在铸造厂中制造一件物品。"
+        }
+      }
+    },
+    "ACHIEVEMENT_22": {
+      "translations": {
+        "english": {
+          "name": "Inventor",
+          "description": "Build 10 items in the Foundry."
+        },
+        "schinese": {
+          "name": "发明家",
+          "description": "在铸造厂中制造 10 件物品。"
+        }
+      }
+    },
+    "ACHIEVEMENT_23": {
+      "translations": {
+        "english": {
+          "name": "Scientist",
+          "description": "Build 20 items in the Foundry."
+        },
+        "schinese": {
+          "name": "科学家",
+          "description": "在铸造厂中制造 20 件物品。"
+        }
+      }
+    },
+    "ACHIEVEMENT_24": {
+      "translations": {
+        "english": {
+          "name": "Tailor Made",
+          "description": "Customize the color of a Warframe."
+        },
+        "schinese": {
+          "name": "量体裁衣",
+          "description": "自定义一件战甲的颜色。"
+        }
+      }
+    },
+    "ACHIEVEMENT_25": {
+      "translations": {
+        "english": {
+          "name": "Dagger Mastery I",
+          "description": "Reach Rank 10 with any three Dagger or Dual Daggers weapons."
+        },
+        "schinese": {
+          "name": "匕首精通 I",
+          "description": "使任意三把匕首或双匕武器达到 10 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_26": {
+      "translations": {
+        "english": {
+          "name": "Dagger Mastery II",
+          "description": "Reach Rank 20 with any three Dagger or Dual Daggers weapons."
+        },
+        "schinese": {
+          "name": "匕首精通 II",
+          "description": "使任意三把匕首或双匕武器达到 20 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_27": {
+      "translations": {
+        "english": {
+          "name": "Dagger Mastery III",
+          "description": "Reach Rank 30 with any three Dagger or Dual Daggers weapons."
+        },
+        "schinese": {
+          "name": "匕首精通 III",
+          "description": "使任意三把匕首或双匕武器达到 30 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_28": {
+      "translations": {
+        "english": {
+          "name": "Dagger Proficiency I",
+          "description": "Reach Rank 10 with any Dagger or Dual Daggers weapon."
+        },
+        "schinese": {
+          "name": "匕首熟练 I",
+          "description": "使任意一把匕首或双匕武器达到 10 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_29": {
+      "translations": {
+        "english": {
+          "name": "Dagger Proficiency II",
+          "description": "Reach Rank 20 with any Dagger or Dual Daggers weapon."
+        },
+        "schinese": {
+          "name": "匕首熟练 II",
+          "description": "使任意一把匕首或双匕武器达到 20 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_30": {
+      "translations": {
+        "english": {
+          "name": "Dagger Proficiency III",
+          "description": "Reach Rank 30 with any Dagger or Dual Daggers weapon."
+        },
+        "schinese": {
+          "name": "匕首熟练 III",
+          "description": "使任意一把匕首或双匕武器达到 30 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_31": {
+      "translations": {
+        "english": {
+          "name": "Payday",
+          "description": "Earn 1,000 Credits."
+        },
+        "schinese": {
+          "name": "发薪日",
+          "description": "获得 1,000 现金。"
+        }
+      }
+    },
+    "ACHIEVEMENT_32": {
+      "translations": {
+        "english": {
+          "name": "Nestegg",
+          "description": "Earn 10,000 Credits."
+        },
+        "schinese": {
+          "name": "私房钱",
+          "description": "获得 10,000 现金。"
+        }
+      }
+    },
+    "ACHIEVEMENT_33": {
+      "translations": {
+        "english": {
+          "name": "Where Credit is Due",
+          "description": "Earn 100,000 Credits."
+        },
+        "schinese": {
+          "name": "论功行赏",
+          "description": "获得 100,000 现金。"
+        }
+      }
+    },
+    "ACHIEVEMENT_34": {
+      "translations": {
+        "english": {
+          "name": "Money is Power",
+          "description": "Earn 1,000,000 Credits."
+        },
+        "schinese": {
+          "name": "金钱就是力量",
+          "description": "获得 1,000,000 现金。"
+        }
+      }
+    },
+    "ACHIEVEMENT_35": {
+      "translations": {
+        "english": {
+          "name": "Secrets of the Orokin",
+          "description": "Find 1 Mod."
+        },
+        "schinese": {
+          "name": "奥罗金的秘密",
+          "description": "找到 1 张 MOD。"
+        }
+      }
+    },
+    "ACHIEVEMENT_36": {
+      "translations": {
+        "english": {
+          "name": "Behold the Possibilities",
+          "description": "Find 20 Mods."
+        },
+        "schinese": {
+          "name": "无限可能",
+          "description": "找到 20 张 MOD。"
+        }
+      }
+    },
+    "ACHIEVEMENT_37": {
+      "translations": {
+        "english": {
+          "name": "Collector",
+          "description": "Find 100 Mods."
+        },
+        "schinese": {
+          "name": "收藏家",
+          "description": "找到 100 张 MOD。"
+        }
+      }
+    },
+    "ACHIEVEMENT_38": {
+      "translations": {
+        "english": {
+          "name": "So Many Choices",
+          "description": "Find 1,000 Mods."
+        },
+        "schinese": {
+          "name": "选择多多",
+          "description": "找到 1,000 张 MOD。"
+        }
+      }
+    },
+    "ACHIEVEMENT_39": {
+      "translations": {
+        "english": {
+          "name": "Greater Than the Sum",
+          "description": "Fuse mods together to create a more powerful mod."
+        },
+        "schinese": {
+          "name": "聚沙成塔",
+          "description": "融合 MOD，打造出更强大的 MOD。"
+        }
+      }
+    },
+    "ACHIEVEMENT_40": {
+      "translations": {
+        "english": {
+          "name": "Heavy Weapon Mastery I",
+          "description": "Reach Rank 10 with any two Heavy Axe, Heavy Hammer, or Heavy Sword weapons."
+        },
+        "schinese": {
+          "name": "重型武器精通 I",
+          "description": "将任意两把重斧、重锤或重剑类武器升到等级 10。"
+        }
+      }
+    },
+    "ACHIEVEMENT_41": {
+      "translations": {
+        "english": {
+          "name": "Heavy Weapon Mastery II",
+          "description": "Reach Rank 20 with any two Heavy Axe, Heavy Hammer, or Heavy Sword weapons."
+        },
+        "schinese": {
+          "name": "重型武器精通 II",
+          "description": "任意两把重斧、重锤或重剑武器达到20级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_42": {
+      "translations": {
+        "english": {
+          "name": "Heavy Weapon Mastery III",
+          "description": "Reach Rank 30 with any two Heavy Axe, Heavy Hammer, or Heavy Sword weapons."
+        },
+        "schinese": {
+          "name": "重型武器精通 III",
+          "description": "任意两把重斧、重锤或重剑武器达到30级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_43": {
+      "translations": {
+        "english": {
+          "name": "Heavy Weapon Proficiency I",
+          "description": "Reach Rank 10 with any Heavy Axe, Heavy Hammer, or Heavy Sword weapon."
+        },
+        "schinese": {
+          "name": "重型武器熟练 I",
+          "description": "任意一把重斧、重锤或重剑武器达到10级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_44": {
+      "translations": {
+        "english": {
+          "name": "Heavy Weapon Proficiency II",
+          "description": "Reach Rank 20 with any Heavy Axe, Heavy Hammer, or Heavy Sword weapon."
+        },
+        "schinese": {
+          "name": "重型武器熟练 II",
+          "description": "任意一把重斧、重锤或重剑武器达到20级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_45": {
+      "translations": {
+        "english": {
+          "name": "Heavy Weapon Proficiency III",
+          "description": "Reach Rank 30 with any Heavy Axe, Heavy Hammer, or Heavy Sword weapon."
+        },
+        "schinese": {
+          "name": "重型武器熟练 III",
+          "description": "任意一把重斧、重锤或重剑武器达到30级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_46": {
+      "translations": {
+        "english": {
+          "name": "Angel of Death",
+          "description": "Get 100 kills in a single mission."
+        },
+        "schinese": {
+          "name": "死亡天使",
+          "description": "在单次任务中取得100次击杀。"
+        }
+      }
+    },
+    "ACHIEVEMENT_47": {
+      "translations": {
+        "english": {
+          "name": "A Watchful Eye",
+          "description": "Obtain a Sentinel."
+        },
+        "schinese": {
+          "name": "守望之眼",
+          "description": "获得一个守护。"
+        }
+      }
+    },
+    "ACHIEVEMENT_48": {
+      "translations": {
+        "english": {
+          "name": "Building a Stable",
+          "description": "Obtain 2 Warframes."
+        },
+        "schinese": {
+          "name": "招兵买马",
+          "description": "获得2个战甲。"
+        }
+      }
+    },
+    "ACHIEVEMENT_49": {
+      "translations": {
+        "english": {
+          "name": "The Right Tool for the Job",
+          "description": "Obtain 5 Warframes."
+        },
+        "schinese": {
+          "name": "工欲善其事",
+          "description": "获得5个战甲。"
+        }
+      }
+    },
+    "ACHIEVEMENT_50": {
+      "translations": {
+        "english": {
+          "name": "Each Tool with Its Own Purpose",
+          "description": "Obtain 10 Warframes."
+        },
+        "schinese": {
+          "name": "各司其职",
+          "description": "获得10个战甲。"
+        }
+      }
+    },
+    "ACHIEVEMENT_51": {
+      "translations": {
+        "english": {
+          "name": "Pistol Mastery I",
+          "description": "Reach Rank 10 with any five Pistol or Akimbo Pistols weapons."
+        },
+        "schinese": {
+          "name": "手枪精通 I",
+          "description": "任意五把手枪或双持手枪达到10级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_52": {
+      "translations": {
+        "english": {
+          "name": "Pistol Mastery II",
+          "description": "Reach Rank 20 with any five Pistol or Akimbo Pistols weapons."
+        },
+        "schinese": {
+          "name": "手枪精通 II",
+          "description": "任意五把手枪或双持手枪达到20级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_53": {
+      "translations": {
+        "english": {
+          "name": "Pistol Mastery III",
+          "description": "Reach Rank 30 with any five Pistol or Akimbo Pistols weapons."
+        },
+        "schinese": {
+          "name": "手枪精通 III",
+          "description": "任意五把手枪或双持手枪达到30级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_54": {
+      "translations": {
+        "english": {
+          "name": "Pistol Proficiency I",
+          "description": "Reach Rank 10 with any Pistol or Akimbo Pistols weapon."
+        },
+        "schinese": {
+          "name": "手枪熟练 I",
+          "description": "任意一把手枪或双持手枪达到10级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_55": {
+      "translations": {
+        "english": {
+          "name": "Pistol Proficiency II",
+          "description": "Reach Rank 20 with any Pistol or Akimbo Pistols weapon."
+        },
+        "schinese": {
+          "name": "手枪熟练 II",
+          "description": "任意一把手枪或双持手枪达到20级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_56": {
+      "translations": {
+        "english": {
+          "name": "Pistol Proficiency III",
+          "description": "Reach Rank 30 with any Pistol or Akimbo Pistols weapon."
+        },
+        "schinese": {
+          "name": "手枪熟练 III",
+          "description": "任意一把手枪或双持手枪达到30级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_57": {
+      "translations": {
+        "english": {
+          "name": "Hooked",
+          "description": "Play for 2 hours."
+        },
+        "schinese": {
+          "name": "上瘾了",
+          "description": "游玩2小时。"
+        }
+      }
+    },
+    "ACHIEVEMENT_58": {
+      "translations": {
+        "english": {
+          "name": "It Keeps Getting Better",
+          "description": "Play for 10 hours."
+        },
+        "schinese": {
+          "name": "渐入佳境",
+          "description": "游玩10小时。"
+        }
+      }
+    },
+    "ACHIEVEMENT_59": {
+      "translations": {
+        "english": {
+          "name": "Pride of The Lotus",
+          "description": "Play for 100 hours."
+        },
+        "schinese": {
+          "name": "莲之骄傲",
+          "description": "游玩100小时。"
+        }
+      }
+    },
+    "ACHIEVEMENT_60": {
+      "translations": {
+        "english": {
+          "name": "Initiate",
+          "description": "Achieve the rank of Initiate."
+        },
+        "schinese": {
+          "name": "新手",
+          "description": "达到新手段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_61": {
+      "translations": {
+        "english": {
+          "name": "Silver Initiate",
+          "description": "Achieve the rank of Silver Initiate."
+        },
+        "schinese": {
+          "name": "白银见习者",
+          "description": "达到白银见习者段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_62": {
+      "translations": {
+        "english": {
+          "name": "Gold Initiate",
+          "description": "Achieve the rank of Gold Initiate."
+        },
+        "schinese": {
+          "name": "黄金见习者",
+          "description": "达到黄金见习者段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_63": {
+      "translations": {
+        "english": {
+          "name": "Novice",
+          "description": "Achieve the rank of Novice."
+        },
+        "schinese": {
+          "name": "新手",
+          "description": "达到新手段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_64": {
+      "translations": {
+        "english": {
+          "name": "Silver Novice",
+          "description": "Achieve the rank of Silver Novice."
+        },
+        "schinese": {
+          "name": "白银新手",
+          "description": "达到白银新手段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_65": {
+      "translations": {
+        "english": {
+          "name": "Gold Novice",
+          "description": "Achieve the rank of Gold Novice."
+        },
+        "schinese": {
+          "name": "黄金新手",
+          "description": "达到黄金新手段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_66": {
+      "translations": {
+        "english": {
+          "name": "Disciple",
+          "description": "Achieve the rank of Disciple."
+        },
+        "schinese": {
+          "name": "门徒",
+          "description": "达到门徒段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_67": {
+      "translations": {
+        "english": {
+          "name": "Silver Disciple",
+          "description": "Achieve the rank of Silver Disciple."
+        },
+        "schinese": {
+          "name": "白银门徒",
+          "description": "达到白银门徒段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_68": {
+      "translations": {
+        "english": {
+          "name": "Gold Disciple",
+          "description": "Achieve the rank of Gold Disciple."
+        },
+        "schinese": {
+          "name": "黄金门徒",
+          "description": "达到黄金门徒段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_69": {
+      "translations": {
+        "english": {
+          "name": "Seeker",
+          "description": "Achieve the rank of Seeker."
+        },
+        "schinese": {
+          "name": "探求者",
+          "description": "达到探求者段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_70": {
+      "translations": {
+        "english": {
+          "name": "Silver Seeker",
+          "description": "Achieve the rank of Silver Seeker."
+        },
+        "schinese": {
+          "name": "白银探求者",
+          "description": "达到白银探求者段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_71": {
+      "translations": {
+        "english": {
+          "name": "Gold Seeker",
+          "description": "Achieve the rank of Gold Seeker."
+        },
+        "schinese": {
+          "name": "黄金探索者",
+          "description": "达到黄金探索者段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_72": {
+      "translations": {
+        "english": {
+          "name": "Hunter",
+          "description": "Achieve the rank of Hunter."
+        },
+        "schinese": {
+          "name": "猎人",
+          "description": "达到猎人段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_73": {
+      "translations": {
+        "english": {
+          "name": "Silver Hunter",
+          "description": "Achieve the rank of Silver Hunter."
+        },
+        "schinese": {
+          "name": "白银猎人",
+          "description": "达到白银猎人段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_74": {
+      "translations": {
+        "english": {
+          "name": "Gold Hunter",
+          "description": "Achieve the rank of Gold Hunter."
+        },
+        "schinese": {
+          "name": "黄金猎人",
+          "description": "达到黄金猎人段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_75": {
+      "translations": {
+        "english": {
+          "name": "Eagle",
+          "description": "Achieve the rank of Eagle."
+        },
+        "schinese": {
+          "name": "雄鹰",
+          "description": "达到雄鹰段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_76": {
+      "translations": {
+        "english": {
+          "name": "Silver Eagle",
+          "description": "Achieve the rank of Silver Eagle."
+        },
+        "schinese": {
+          "name": "白银雄鹰",
+          "description": "达到白银雄鹰段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_77": {
+      "translations": {
+        "english": {
+          "name": "Gold Eagle",
+          "description": "Achieve the rank of Gold Eagle."
+        },
+        "schinese": {
+          "name": "黄金雄鹰",
+          "description": "达到黄金雄鹰段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_78": {
+      "translations": {
+        "english": {
+          "name": "Tiger",
+          "description": "Achieve the rank of Tiger."
+        },
+        "schinese": {
+          "name": "猛虎",
+          "description": "达到猛虎段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_79": {
+      "translations": {
+        "english": {
+          "name": "Silver Tiger",
+          "description": "Achieve the rank of Silver Tiger."
+        },
+        "schinese": {
+          "name": "白银猛虎",
+          "description": "达到白银猛虎段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_80": {
+      "translations": {
+        "english": {
+          "name": "Gold Tiger",
+          "description": "Achieve the rank of Gold Tiger."
+        },
+        "schinese": {
+          "name": "黄金猛虎",
+          "description": "达到黄金猛虎段位。"
+        }
+      }
+    },
+    "ACHIEVEMENT_81": {
+      "translations": {
+        "english": {
+          "name": "Dragon",
+          "description": "Achieve the rank of Dragon."
+        },
+        "schinese": {
+          "name": "龙",
+          "description": "达到龙等级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_82": {
+      "translations": {
+        "english": {
+          "name": "Silver Dragon",
+          "description": "Achieve the rank of Silver Dragon."
+        },
+        "schinese": {
+          "name": "银龙",
+          "description": "达到银龙等级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_83": {
+      "translations": {
+        "english": {
+          "name": "Gold Dragon",
+          "description": "Achieve the rank of Gold Dragon."
+        },
+        "schinese": {
+          "name": "金龙",
+          "description": "达到金龙等级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_84": {
+      "translations": {
+        "english": {
+          "name": "Sage",
+          "description": "Achieve the rank of Sage."
+        },
+        "schinese": {
+          "name": "贤者",
+          "description": "达到贤者等级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_85": {
+      "translations": {
+        "english": {
+          "name": "Silver Sage",
+          "description": "Achieve the rank of Silver Sage."
+        },
+        "schinese": {
+          "name": "银贤者",
+          "description": "达到银贤者等级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_86": {
+      "translations": {
+        "english": {
+          "name": "Gold Sage",
+          "description": "Achieve the rank of Gold Sage."
+        },
+        "schinese": {
+          "name": "金贤者",
+          "description": "达到金贤者等级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_87": {
+      "translations": {
+        "english": {
+          "name": "Master",
+          "description": "Achieve the rank of Master."
+        },
+        "schinese": {
+          "name": "大师",
+          "description": "达到大师等级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_88": {
+      "translations": {
+        "english": {
+          "name": "Middle Master",
+          "description": "Achieve the rank of Middle Master."
+        },
+        "schinese": {
+          "name": "中级大师",
+          "description": "达到中级大师等级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_89": {
+      "translations": {
+        "english": {
+          "name": "Grand Master",
+          "description": "Achieve the rank of Grand Master."
+        },
+        "schinese": {
+          "name": "宗师",
+          "description": "达到宗师等级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_90": {
+      "translations": {
+        "english": {
+          "name": "Pole Weapon Mastery I",
+          "description": "Reach Rank 10 with any three Scythe, Polearm or Staff weapons."
+        },
+        "schinese": {
+          "name": "长柄武器精通 I",
+          "description": "使任意三把镰刀、长柄武器或长棍达到 10 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_91": {
+      "translations": {
+        "english": {
+          "name": "Pole Weapon Mastery II",
+          "description": "Reach Rank 20 with any three Scythe, Polearm or Staff weapons."
+        },
+        "schinese": {
+          "name": "长柄武器精通 II",
+          "description": "任意三把镰刀、长柄刀或长棍类武器达到 20 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_92": {
+      "translations": {
+        "english": {
+          "name": "Pole Weapon Mastery III",
+          "description": "Reach Rank 30 with any three Scythe, Polearm or Staff weapons."
+        },
+        "schinese": {
+          "name": "长柄武器精通 III",
+          "description": "任意三把镰刀、长柄刀或长棍类武器达到 30 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_93": {
+      "translations": {
+        "english": {
+          "name": "Pole Weapon Proficiency I",
+          "description": "Reach Rank 10 with any Scythe, Polearm or Staff weapon."
+        },
+        "schinese": {
+          "name": "长柄武器熟练 I",
+          "description": "任意一把镰刀、长柄刀或长棍类武器达到 10 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_94": {
+      "translations": {
+        "english": {
+          "name": "Pole Weapon Proficiency II",
+          "description": "Reach Rank 20 with any Scythe, Polearm or Staff weapon."
+        },
+        "schinese": {
+          "name": "长柄武器熟练 II",
+          "description": "任意一把镰刀、长柄刀或长棍类武器达到 20 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_95": {
+      "translations": {
+        "english": {
+          "name": "Pole Weapon Proficiency III",
+          "description": "Reach Rank 30 with any Scythe, Polearm or Staff weapon."
+        },
+        "schinese": {
+          "name": "长柄武器熟练 III",
+          "description": "任意一把镰刀、长柄刀或长棍类武器达到 30 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_96": {
+      "translations": {
+        "english": {
+          "name": "All for One",
+          "description": "Revive an ally."
+        },
+        "schinese": {
+          "name": "人人为我",
+          "description": "复活一名队友。"
+        }
+      }
+    },
+    "ACHIEVEMENT_97": {
+      "translations": {
+        "english": {
+          "name": "Healer",
+          "description": "Revive 10 allies."
+        },
+        "schinese": {
+          "name": "治疗者",
+          "description": "复活 10 名队友。"
+        }
+      }
+    },
+    "ACHIEVEMENT_98": {
+      "translations": {
+        "english": {
+          "name": "Field Medic",
+          "description": "Revive 100 allies."
+        },
+        "schinese": {
+          "name": "战地医疗兵",
+          "description": "复活 100 名队友。"
+        }
+      }
+    },
+    "ACHIEVEMENT_99": {
+      "translations": {
+        "english": {
+          "name": "Cheater of Death",
+          "description": "Revive 1,000 allies."
+        },
+        "schinese": {
+          "name": "骗过死神",
+          "description": "复活 1,000 名队友。"
+        }
+      }
+    },
+    "ACHIEVEMENT_100": {
+      "translations": {
+        "english": {
+          "name": "Rifle Mastery I",
+          "description": "Reach Rank 10 with any five Rifle or Machine Gun weapons."
+        },
+        "schinese": {
+          "name": "步枪精通 I",
+          "description": "任意五把步枪或机枪类武器达到 10 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_101": {
+      "translations": {
+        "english": {
+          "name": "Rifle Mastery II",
+          "description": "Reach Rank 20 with any five Rifle or Machine Gun weapons."
+        },
+        "schinese": {
+          "name": "步枪精通 II",
+          "description": "任意五把步枪或机枪达到 20 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_102": {
+      "translations": {
+        "english": {
+          "name": "Rifle Mastery III",
+          "description": "Reach Rank 30 with any five Rifle or Machine Gun weapons."
+        },
+        "schinese": {
+          "name": "步枪精通 III",
+          "description": "任意五把步枪或机枪达到 30 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_103": {
+      "translations": {
+        "english": {
+          "name": "Rifle Proficiency I",
+          "description": "Reach Rank 10 with any Rifle or Machine Gun weapon."
+        },
+        "schinese": {
+          "name": "步枪熟练 I",
+          "description": "任意一把步枪或机枪达到 10 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_104": {
+      "translations": {
+        "english": {
+          "name": "Rifle Proficiency II",
+          "description": "Reach Rank 20 with any Rifle or Machine Gun weapon."
+        },
+        "schinese": {
+          "name": "步枪熟练 II",
+          "description": "任意一把步枪或机枪达到 20 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_105": {
+      "translations": {
+        "english": {
+          "name": "Rifle Proficiency III",
+          "description": "Reach Rank 30 with any Rifle or Machine Gun weapon."
+        },
+        "schinese": {
+          "name": "步枪熟练 III",
+          "description": "任意一把步枪或机枪达到 30 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_106": {
+      "translations": {
+        "english": {
+          "name": "Entrepreneur",
+          "description": "Sell an item in the market."
+        },
+        "schinese": {
+          "name": "企业家",
+          "description": "在商城中出售一件物品。"
+        }
+      }
+    },
+    "ACHIEVEMENT_107": {
+      "translations": {
+        "english": {
+          "name": "Merchant",
+          "description": "Sell 10,000 credits' worth of items."
+        },
+        "schinese": {
+          "name": "商人",
+          "description": "出售价值 10,000 现金的物品。"
+        }
+      }
+    },
+    "ACHIEVEMENT_108": {
+      "translations": {
+        "english": {
+          "name": "Sentinel Mastery I",
+          "description": "Reach Rank 10 with any three Sentinels."
+        },
+        "schinese": {
+          "name": "守护精通 I",
+          "description": "任意三个守护达到 10 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_109": {
+      "translations": {
+        "english": {
+          "name": "Sentinel Mastery II",
+          "description": "Reach Rank 20 with any three Sentinels."
+        },
+        "schinese": {
+          "name": "守护精通 II",
+          "description": "任意三个守护达到 20 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_110": {
+      "translations": {
+        "english": {
+          "name": "Sentinel Mastery III",
+          "description": "Reach Rank 30 with any three Sentinels."
+        },
+        "schinese": {
+          "name": "守护精通 III",
+          "description": "任意三个守护达到 30 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_111": {
+      "translations": {
+        "english": {
+          "name": "Sentinel Proficiency I",
+          "description": "Reach Rank 10 with any Sentinel."
+        },
+        "schinese": {
+          "name": "守护精通 I",
+          "description": "任意守护达到等级 10。"
+        }
+      }
+    },
+    "ACHIEVEMENT_112": {
+      "translations": {
+        "english": {
+          "name": "Sentinel Proficiency II",
+          "description": "Reach Rank 20 with any Sentinel."
+        },
+        "schinese": {
+          "name": "守护精通 II",
+          "description": "任意守护达到等级 20。"
+        }
+      }
+    },
+    "ACHIEVEMENT_113": {
+      "translations": {
+        "english": {
+          "name": "Sentinel Proficiency III",
+          "description": "Reach Rank 30 with any Sentinel."
+        },
+        "schinese": {
+          "name": "守护精通 III",
+          "description": "任意守护达到等级 30。"
+        }
+      }
+    },
+    "ACHIEVEMENT_114": {
+      "translations": {
+        "english": {
+          "name": "Shotgun Mastery I",
+          "description": "Reach Rank 10 with any two Shotgun weapons."
+        },
+        "schinese": {
+          "name": "霰弹枪精通 I",
+          "description": "任意两把霰弹枪达到等级 10。"
+        }
+      }
+    },
+    "ACHIEVEMENT_115": {
+      "translations": {
+        "english": {
+          "name": "Shotgun Mastery II",
+          "description": "Reach Rank 20 with any two Shotgun weapons."
+        },
+        "schinese": {
+          "name": "霰弹枪精通 II",
+          "description": "任意两把霰弹枪达到等级 20。"
+        }
+      }
+    },
+    "ACHIEVEMENT_116": {
+      "translations": {
+        "english": {
+          "name": "Shotgun Mastery III",
+          "description": "Reach Rank 30 with any two Shotgun weapons."
+        },
+        "schinese": {
+          "name": "霰弹枪精通 III",
+          "description": "任意两把霰弹枪达到等级 30。"
+        }
+      }
+    },
+    "ACHIEVEMENT_117": {
+      "translations": {
+        "english": {
+          "name": "Shotgun Proficiency I",
+          "description": "Reach Rank 10 with any Shotgun weapon."
+        },
+        "schinese": {
+          "name": "霰弹枪熟练 I",
+          "description": "任意霰弹枪达到等级 10。"
+        }
+      }
+    },
+    "ACHIEVEMENT_118": {
+      "translations": {
+        "english": {
+          "name": "Shotgun Proficiency II",
+          "description": "Reach Rank 20 with any Shotgun weapon."
+        },
+        "schinese": {
+          "name": "霰弹枪熟练 II",
+          "description": "任意霰弹枪达到等级 20。"
+        }
+      }
+    },
+    "ACHIEVEMENT_119": {
+      "translations": {
+        "english": {
+          "name": "Shotgun Proficiency III",
+          "description": "Reach Rank 30 with any Shotgun weapon."
+        },
+        "schinese": {
+          "name": "霰弹枪熟练 III",
+          "description": "任意霰弹枪达到等级 30。"
+        }
+      }
+    },
+    "ACHIEVEMENT_120": {
+      "translations": {
+        "english": {
+          "name": "Shuriken Mastery I",
+          "description": "Reach Rank 10 with any three Boomerang, Throwing Discs or Throwing Daggers weapon."
+        },
+        "schinese": {
+          "name": "手里剑精通 I",
+          "description": "任意三把回旋镖、投掷飞盘或投掷匕首类武器达到等级 10。"
+        }
+      }
+    },
+    "ACHIEVEMENT_121": {
+      "translations": {
+        "english": {
+          "name": "Shuriken Mastery II",
+          "description": "Reach Rank 20 with any three Boomerang, Throwing Discs or Throwing Daggers weapon."
+        },
+        "schinese": {
+          "name": "手里剑精通 II",
+          "description": "使用任意三把回旋镖、投掷飞盘或投掷匕首类武器达到 20 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_122": {
+      "translations": {
+        "english": {
+          "name": "Shuriken Mastery III",
+          "description": "Reach Rank 30 with any three Boomerang, Throwing Discs or Throwing Daggers weapon."
+        },
+        "schinese": {
+          "name": "手里剑精通 III",
+          "description": "使用任意三把回旋镖、投掷飞盘或投掷匕首类武器达到 30 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_123": {
+      "translations": {
+        "english": {
+          "name": "Shuriken Proficiency I",
+          "description": "Reach Rank 10 with any Boomerang, Throwing Discs or Throwing Daggers weapon."
+        },
+        "schinese": {
+          "name": "手里剑熟练 I",
+          "description": "使用任意一把回旋镖、投掷飞盘或投掷匕首类武器达到 10 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_124": {
+      "translations": {
+        "english": {
+          "name": "Shuriken Proficiency II",
+          "description": "Reach Rank 20 with any Boomerang, Throwing Discs or Throwing Daggers weapon."
+        },
+        "schinese": {
+          "name": "手里剑熟练 II",
+          "description": "使用任意一把回旋镖、投掷飞盘或投掷匕首类武器达到 20 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_125": {
+      "translations": {
+        "english": {
+          "name": "Shuriken Proficiency III",
+          "description": "Reach Rank 30 with any Boomerang, Throwing Discs or Throwing Daggers weapon."
+        },
+        "schinese": {
+          "name": "手里剑熟练 III",
+          "description": "使用任意一把回旋镖、投掷飞盘或投掷匕首类武器达到 30 级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_126": {
+      "translations": {
+        "english": {
+          "name": "Agent",
+          "description": "Solve a Cipher."
+        },
+        "schinese": {
+          "name": "特工",
+          "description": "完成一次密码破解。"
+        }
+      }
+    },
+    "ACHIEVEMENT_127": {
+      "translations": {
+        "english": {
+          "name": "Special Agent",
+          "description": "Solve 10 Ciphers."
+        },
+        "schinese": {
+          "name": "特别特工",
+          "description": "完成 10 次密码破解。"
+        }
+      }
+    },
+    "ACHIEVEMENT_128": {
+      "translations": {
+        "english": {
+          "name": "Operative",
+          "description": "Solve 100 Ciphers."
+        },
+        "schinese": {
+          "name": "行动特工",
+          "description": "完成 100 次密码破解。"
+        }
+      }
+    },
+    "ACHIEVEMENT_129": {
+      "translations": {
+        "english": {
+          "name": "Cryptographer",
+          "description": "Solve 1,000 Ciphers."
+        },
+        "schinese": {
+          "name": "密码学家",
+          "description": "完成 1,000 次密码破解。"
+        }
+      }
+    },
+    "ACHIEVEMENT_130": {
+      "translations": {
+        "english": {
+          "name": "Counter Intelligence",
+          "description": "Solve a Cipher in under 5 seconds."
+        },
+        "schinese": {
+          "name": "反谍",
+          "description": "在 5 秒内完成一次密码破解。"
+        }
+      }
+    },
+    "ACHIEVEMENT_131": {
+      "translations": {
+        "english": {
+          "name": "No Longer a Rookie",
+          "description": "Reach Rank 2 with any Warframe."
+        },
+        "schinese": {
+          "name": "告别菜鸟",
+          "description": "使任意战甲达到2级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_132": {
+      "translations": {
+        "english": {
+          "name": "Practice Makes Perfect",
+          "description": "Reach Rank 2 with any weapon."
+        },
+        "schinese": {
+          "name": "熟能生巧",
+          "description": "使任意武器达到2级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_133": {
+      "translations": {
+        "english": {
+          "name": "Alchemist",
+          "description": "Complete 10 successful Mod Transmutes."
+        },
+        "schinese": {
+          "name": "炼金术士",
+          "description": "成功完成10次MOD转化。"
+        }
+      }
+    },
+    "ACHIEVEMENT_134": {
+      "translations": {
+        "english": {
+          "name": "Combat Specialist",
+          "description": "Complete 3 Sorties."
+        },
+        "schinese": {
+          "name": "战斗专家",
+          "description": "完成3次突击。"
+        }
+      }
+    },
+    "ACHIEVEMENT_135": {
+      "translations": {
+        "english": {
+          "name": "Control Freak",
+          "description": "Complete an Interception node and extract with the enemy capturing 40% or less territory."
+        },
+        "schinese": {
+          "name": "控制狂",
+          "description": "完成一个截击节点任务，并在敌人占领区域不超过40%的情况下撤离。"
+        }
+      }
+    },
+    "ACHIEVEMENT_136": {
+      "translations": {
+        "english": {
+          "name": "Dark Sectors",
+          "description": "Complete 5 missions for a Clan that then wins a contested Dark Sector."
+        },
+        "schinese": {
+          "name": "暗黑区",
+          "description": "为某个氏族完成5次任务，且该氏族随后赢得暗黑区争夺战。"
+        }
+      }
+    },
+    "ACHIEVEMENT_137": {
+      "translations": {
+        "english": {
+          "name": "Egg Timer",
+          "description": "Begin Genetic Lab Incubation for a Kubrow."
+        },
+        "schinese": {
+          "name": "孵蛋计时",
+          "description": "在基因实验室开始孵化库狛。"
+        }
+      }
+    },
+    "ACHIEVEMENT_138": {
+      "translations": {
+        "english": {
+          "name": "Hats off to you!",
+          "description": "Destroy 200 Corpus Crewman helmets."
+        },
+        "schinese": {
+          "name": "向你脱帽致敬！",
+          "description": "击毁200顶科普斯船员的头盔。"
+        }
+      }
+    },
+    "ACHIEVEMENT_139": {
+      "translations": {
+        "english": {
+          "name": "Hive Five!",
+          "description": "Complete any 5 Hive Infestation missions."
+        },
+        "schinese": {
+          "name": "蜂巢击掌！",
+          "description": "完成任意5次蜂巢感染任务。"
+        }
+      }
+    },
+    "ACHIEVEMENT_140": {
+      "translations": {
+        "english": {
+          "name": "Into the Void",
+          "description": "Complete 10 Void Fissure missions."
+        },
+        "schinese": {
+          "name": "深入虚空",
+          "description": "完成10次虚空裂缝任务。"
+        }
+      }
+    },
+    "ACHIEVEMENT_141": {
+      "translations": {
+        "english": {
+          "name": "KABOOM!",
+          "description": "Kill 10 or more enemies with a single explosion (Tonkor, etc)."
+        },
+        "schinese": {
+          "name": "轰然一爆！",
+          "description": "用单次爆炸击杀10名或更多敌人（通科尔等）。"
+        }
+      }
+    },
+    "ACHIEVEMENT_142": {
+      "translations": {
+        "english": {
+          "name": "Liberator",
+          "description": "Set 10 hostages free without triggering the execution timer."
+        },
+        "schinese": {
+          "name": "解放者",
+          "description": "在不触发处决计时器的情况下解救10名人质。"
+        }
+      }
+    },
+    "ACHIEVEMENT_143": {
+      "translations": {
+        "english": {
+          "name": "Mercenary",
+          "description": "Earn Battle Pay from 5 Unique Invasions."
+        },
+        "schinese": {
+          "name": "雇佣兵",
+          "description": "从5场不同的入侵事件中获得战斗报酬。"
+        }
+      }
+    },
+    "ACHIEVEMENT_144": {
+      "translations": {
+        "english": {
+          "name": "No Witnesses",
+          "description": "Successfully perform 100 stealth kills."
+        },
+        "schinese": {
+          "name": "不留活口",
+          "description": "成功完成100次潜行击杀。"
+        }
+      }
+    },
+    "ACHIEVEMENT_145": {
+      "translations": {
+        "english": {
+          "name": "Polarize This",
+          "description": "Polarize a Weapon, Companion, or Warframe."
+        },
+        "schinese": {
+          "name": "极化这个",
+          "description": "对一件武器、同伴或战甲进行极化。"
+        }
+      }
+    },
+    "ACHIEVEMENT_146": {
+      "translations": {
+        "english": {
+          "name": "Polarize That",
+          "description": "Reach Rank 30 with a polarized Weapon, Companion, or Warframe."
+        },
+        "schinese": {
+          "name": "极化那个",
+          "description": "让一件已极化的武器、同伴或战甲达到30级。"
+        }
+      }
+    },
+    "ACHIEVEMENT_147": {
+      "translations": {
+        "english": {
+          "name": "Ride the Wave",
+          "description": "Complete 20 waves of Defense and successfully extract."
+        },
+        "schinese": {
+          "name": "乘风破浪",
+          "description": "完成20波防御任务并成功撤离。"
+        }
+      }
+    },
+    "ACHIEVEMENT_148": {
+      "translations": {
+        "english": {
+          "name": "Saviour of Mercury",
+          "description": "Kill the boss in the Mercury region and get to extraction."
+        },
+        "schinese": {
+          "name": "水星救星",
+          "description": "击杀水星地区的首领并抵达撤离点。"
+        }
+      }
+    },
+    "ACHIEVEMENT_149": {
+      "translations": {
+        "english": {
+          "name": "Saviour of Venus",
+          "description": "Kill the boss in the Venus region and get to extraction."
+        },
+        "schinese": {
+          "name": "金星救星",
+          "description": "击杀金星地区的首领并抵达撤离点。"
+        }
+      }
+    },
+    "ACHIEVEMENT_150": {
+      "translations": {
+        "english": {
+          "name": "Saviour of Uranus",
+          "description": "Kill the boss in the Uranus region and get to extraction."
+        },
+        "schinese": {
+          "name": "天王星救星",
+          "description": "击杀天王星地区的首领并抵达撤离点。"
+        }
+      }
+    },
+    "ACHIEVEMENT_151": {
+      "translations": {
+        "english": {
+          "name": "Saviour of Sedna",
+          "description": "Kill the boss in the Sedna region and get to extraction."
+        },
+        "schinese": {
+          "name": "塞德娜救星",
+          "description": "击杀塞德娜地区的首领并抵达撤离点。"
+        }
+      }
+    },
+    "ACHIEVEMENT_152": {
+      "translations": {
+        "english": {
+          "name": "Shield Saver",
+          "description": "Deflect 1,000 projectiles with your melee weapon."
+        },
+        "schinese": {
+          "name": "护盾守护者",
+          "description": "用近战武器格挡1,000发投射物。"
+        }
+      }
+    },
+    "ACHIEVEMENT_153": {
+      "translations": {
+        "english": {
+          "name": "Tenno and Hooch",
+          "description": "Complete any 10 missions with a Kubrow equipped."
+        },
+        "schinese": {
+          "name": "天诺与库狛",
+          "description": "携带库狛完成任意10个任务。"
+        }
+      }
+    },
+    "ACHIEVEMENT_154": {
+      "translations": {
+        "english": {
+          "name": "Tenno of all Trades",
+          "description": "Score a kill with your equipped primary, secondary and melee weapons in 5 seconds or less."
+        },
+        "schinese": {
+          "name": "全能天诺",
+          "description": "在5秒或更短时间内用主武器、副武器和近战武器各取得一次击杀。"
+        }
+      }
+    },
+    "ACHIEVEMENT_155": {
+      "translations": {
+        "english": {
+          "name": "The 8-fold Path",
+          "description": "Survive 8 waves of Defense using only melee attacks."
+        },
+        "schinese": {
+          "name": "八正道",
+          "description": "在防御任务中仅使用近战攻击存活8波。"
+        }
+      }
+    },
+    "ACHIEVEMENT_156": {
+      "translations": {
+        "english": {
+          "name": "The Camera Adds 10 Pounds",
+          "description": "Destroy 150 Security Cameras."
+        },
+        "schinese": {
+          "name": "摄像头显胖十磅",
+          "description": "摧毁150个监控摄像头。"
+        }
+      }
+    },
+    "ACHIEVEMENT_157": {
+      "translations": {
+        "english": {
+          "name": "The Sword Alone",
+          "description": "Complete 10 missions without any primary or secondary weapons equipped."
+        },
+        "schinese": {
+          "name": "独剑侠",
+          "description": "在不装备主武器和副武器的情况下完成10个任务。"
+        }
+      }
+    },
+    "ACHIEVEMENT_158": {
+      "translations": {
+        "english": {
+          "name": "The War Within",
+          "description": "Complete \"The War Within\" quest."
+        },
+        "schinese": {
+          "name": "内战",
+          "description": "完成“内战”系列任务。"
+        }
+      }
+    },
+    "ACHIEVEMENT_159": {
+      "translations": {
+        "english": {
+          "name": "This is What You Are",
+          "description": "Fully unlock a Focus skill tree."
+        },
+        "schinese": {
+          "name": "这才是真正的你",
+          "description": "完全解锁一个聚焦技能树。"
+        }
+      }
+    },
+    "ACHIEVEMENT_160": {
+      "translations": {
+        "english": {
+          "name": "What a Nightmare",
+          "description": "Complete 10 Nightmare missions."
+        },
+        "schinese": {
+          "name": "真是场噩梦",
+          "description": "完成10个噩梦任务。"
+        }
+      }
+    },
+    "ACHIEVEMENT_161": {
+      "translations": {
+        "english": {
+          "name": "Without a Hitch",
+          "description": "Complete a Hijack mission without allowing the payload to travel backwards."
+        },
+        "schinese": {
+          "name": "一帆风顺",
+          "description": "在不让载具后退的情况下完成一次劫持任务。"
+        }
+      }
+    },
+    "ACHIEVEMENT_162": {
+      "translations": {
+        "english": {
+          "name": "From on High",
+          "description": "Kill 100 grounded enemies while in Archwing Mode above the Plains of Eidolon."
+        },
+        "schinese": {
+          "name": "居高临下",
+          "description": "在夜灵平野上空以空战翼模式击杀100名地面敌人。"
+        }
+      }
+    },
+    "ACHIEVEMENT_163": {
+      "translations": {
+        "english": {
+          "name": "Forged in Fire",
+          "description": "Craft your first Zaw."
+        },
+        "schinese": {
+          "name": "烈火锻造",
+          "description": "锻造你的第一把佐武。"
+        }
+      }
+    },
+    "ACHIEVEMENT_164": {
+      "translations": {
+        "english": {
+          "name": "Champion of the People",
+          "description": "Complete 10 bounties given by Ostron townspeople."
+        },
+        "schinese": {
+          "name": "人民英雄",
+          "description": "完成10个奥斯特伦镇民发布的赏金任务。"
+        }
+      }
+    },
+    "ACHIEVEMENT_165": {
+      "translations": {
+        "english": {
+          "name": "By the Dawn's Early Light",
+          "description": "Survive a night on the Plains of Eidolon."
+        },
+        "schinese": {
+          "name": "晨曦微光",
+          "description": "在夜灵平野上熬过一个夜晚。"
+        }
+      }
+    },
+    "ACHIEVEMENT_166": {
+      "translations": {
+        "english": {
+          "name": "Marathoner",
+          "description": "Travel 100,000 metres across the Plains of Eidolon."
+        },
+        "schinese": {
+          "name": "长跑健将",
+          "description": "在夜灵平野上行进100,000米。"
+        }
+      }
+    },
+    "ACHIEVEMENT_167": {
+      "translations": {
+        "english": {
+          "name": "Sleds of Sunshine",
+          "description": "Travel over 500 metres in a single slide across the Plains of Eidolon."
+        },
+        "schinese": {
+          "name": "阳光滑行",
+          "description": "在夜灵平野上单次滑行超过500米。"
+        }
+      }
+    },
+    "ACHIEVEMENT_168": {
+      "translations": {
+        "english": {
+          "name": "Master Angler",
+          "description": "Catch 10 fish."
+        },
+        "schinese": {
+          "name": "垂钓大师",
+          "description": "钓到10条鱼。"
+        }
+      }
+    },
+    "ACHIEVEMENT_169": {
+      "translations": {
+        "english": {
+          "name": "Sharp Shooter",
+          "description": "Kill an enemy from over 100 metres away across the Plains of Eidolon."
+        },
+        "schinese": {
+          "name": "神射手",
+          "description": "在夜灵平野上从100米开外击杀一名敌人。"
+        }
+      }
+    },
+    "ACHIEVEMENT_170": {
+      "translations": {
+        "english": {
+          "name": "Pest Control",
+          "description": "Kill 100 Plains Beasts."
+        },
+        "schinese": {
+          "name": "清除害兽",
+          "description": "击杀100只平野野兽。"
+        }
+      }
+    },
+    "ACHIEVEMENT_172": {
+      "translations": {
+        "english": {
+          "name": "Plains Prospector",
+          "description": "Unearth 100 Deposits from the Plains of Eidolon."
+        },
+        "schinese": {
+          "name": "平野探矿者",
+          "description": "在夜灵平野挖掘100个矿藏。"
+        }
+      }
+    },
+    "ACHIEVEMENT_173": {
+      "translations": {
+        "english": {
+          "name": "Tomb Looter",
+          "description": "Explore all of the Eidolon Caves."
+        },
+        "schinese": {
+          "name": "盗墓者",
+          "description": "探索所有夜灵洞穴。"
+        }
+      }
+    },
+    "ACHIEVEMENT_174": {
+      "translations": {
+        "english": {
+          "name": "The Great Eidolon Hunt",
+          "description": "Defeat an Eidolon Teralyst."
+        },
+        "schinese": {
+          "name": "夜灵大狩猎",
+          "description": "击败一只夜灵兆力使。"
+        }
+      }
+    },
+    "ACHIEVEMENT_175": {
+      "translations": {
+        "english": {
+          "name": "Saya's Vigil",
+          "description": "Complete \"Saya's Vigil\" quest."
+        },
+        "schinese": {
+          "name": "萨娅的守望",
+          "description": "完成“萨娅的守望”系列任务。"
+        }
+      }
+    },
+    "ACHIEVEMENT_176": {
+      "translations": {
+        "english": {
+          "name": "The Sacrifice",
+          "description": "Complete \"The Sacrifice\" quest."
+        },
+        "schinese": {
+          "name": "牺牲",
+          "description": "完成“牺牲”系列任务。"
+        }
+      }
+    },
+    "ACHIEVEMENT_177": {
+      "translations": {
+        "english": {
+          "name": "Joyride",
+          "description": "Travel over 10,000 meters on a stolen Dargyn across the Plains of Eidolon"
+        },
+        "schinese": {
+          "name": "兜风",
+          "description": "驾驶偷来的达尔金在夜灵平野飞行超过10000米。"
+        }
+      }
+    },
+    "ACHIEVEMENT_178": {
+      "translations": {
+        "english": {
+          "name": "Bounty Hunter",
+          "description": "Complete 6 Bounties within 60 minutes while in Orb Vallis"
+        },
+        "schinese": {
+          "name": "赏金猎人",
+          "description": "在奥布山谷于60分钟内完成6个赏金任务。"
+        }
+      }
+    },
+    "ACHIEVEMENT_179": {
+      "translations": {
+        "english": {
+          "name": "Airborne Exterminator",
+          "description": "Destroy 10 Raknoids in Orb Vallis while airborn"
+        },
+        "schinese": {
+          "name": "空中歼灭者",
+          "description": "在奥布山谷于滞空状态下摧毁10台蛛形机甲。"
+        }
+      }
+    },
+    "ACHIEVEMENT_180": {
+      "translations": {
+        "english": {
+          "name": "Ride or Die",
+          "description": "Reach top standing with Ventkids"
+        },
+        "schinese": {
+          "name": "不骑毋宁死",
+          "description": "达到通风管小子的最高声望。"
+        }
+      }
+    },
+    "ACHIEVEMENT_181": {
+      "translations": {
+        "english": {
+          "name": "Money Can't Buy Happiness",
+          "description": "Reach top standing with Solaris United"
+        },
+        "schinese": {
+          "name": "金钱买不到幸福",
+          "description": "达到索拉里斯联盟的最高声望。"
+        }
+      }
+    },
+    "ACHIEVEMENT_182": {
+      "translations": {
+        "english": {
+          "name": "Moa Money, Moa Problems",
+          "description": "Acquire a Moa pet"
+        },
+        "schinese": {
+          "name": "恐鸟钱财，恐鸟烦恼",
+          "description": "获得一只恐鸟宠物"
+        }
+      }
+    },
+    "ACHIEVEMENT_183": {
+      "translations": {
+        "english": {
+          "name": "K-Driven",
+          "description": "Ride 1,000,000 meters on a K-Drive"
+        },
+        "schinese": {
+          "name": "K板狂飙",
+          "description": "驾驶K式悬浮板滑行1,000,000米"
+        }
+      }
+    },
+    "ACHIEVEMENT_184": {
+      "translations": {
+        "english": {
+          "name": "Hang Tenno",
+          "description": "Make a 50 meter jump on a K-Drive"
+        },
+        "schinese": {
+          "name": "凌空天诺",
+          "description": "驾驶K式悬浮板完成一次50米跳跃"
+        }
+      }
+    },
+    "ACHIEVEMENT_185": {
+      "translations": {
+        "english": {
+          "name": "Stay Frosty",
+          "description": "Fall in coolant on Orb Vallis from 275 meters while on a K-Drive"
+        },
+        "schinese": {
+          "name": "冷静到底",
+          "description": "在奥布山谷驾驶K式悬浮板从275米高处坠入冷却液中"
+        }
+      }
+    },
+    "ACHIEVEMENT_186": {
+      "translations": {
+        "english": {
+          "name": "Vallis Spelunker",
+          "description": "Explore all of the caves in Orb Vallis"
+        },
+        "schinese": {
+          "name": "山谷探洞者",
+          "description": "探索奥布山谷中的所有洞穴"
+        }
+      }
+    },
+    "ACHIEVEMENT_187": {
+      "translations": {
+        "english": {
+          "name": "Race Ace",
+          "description": "Complete all of the K-Drive races in Orb Vallis"
+        },
+        "schinese": {
+          "name": "竞速王牌",
+          "description": "完成奥布山谷中的所有K式悬浮板竞速"
+        }
+      }
+    },
+    "ACHIEVEMENT_188": {
+      "translations": {
+        "english": {
+          "name": "Animal Lover",
+          "description": "Complete 10 perfect Conservation captures in Orb Vallis"
+        },
+        "schinese": {
+          "name": "动物爱好者",
+          "description": "在奥布山谷完成10次完美保育捕捉"
+        }
+      }
+    }
+  }
+}
