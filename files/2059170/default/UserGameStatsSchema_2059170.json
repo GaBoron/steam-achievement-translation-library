@@ -1,0 +1,667 @@
+{
+  "version": 1,
+  "app_id": "2059170",
+  "variant_id": "default",
+  "source_sha256": "2d3367873daa74cdcdea409de19a9d3fde9002004c286b3109fc6ff6dfa95391",
+  "languages": [
+    "schinese"
+  ],
+  "achievements": {
+    "000_leviathan_falls": {
+      "translations": {
+        "schinese": {
+          "name": "利维坦陨落",
+          "description": "完成“玻璃珠游戏”任务。"
+        }
+      }
+    },
+    "001_leviathan_wakes": {
+      "translations": {
+        "schinese": {
+          "name": "利维坦觉醒",
+          "description": "完成“杀戮之神”任务。"
+        }
+      }
+    },
+    "002_spotless_mind": {
+      "translations": {
+        "schinese": {
+          "name": "美丽心灵的永恒阳光",
+          "description": "在“太阳人”任务中，让内律会完成仪式。"
+        }
+      }
+    },
+    "003_become_death": {
+      "translations": {
+        "schinese": {
+          "name": "如今，我化身死神",
+          "description": "在“太阳人”任务中，杀死内律会成员。"
+        }
+      }
+    },
+    "004_burning_cradle": {
+      "translations": {
+        "schinese": {
+          "name": "燃烧的摇篮",
+          "description": "完成“蜂巢觉醒”任务。"
+        }
+      }
+    },
+    "005_spider_kiss": {
+      "translations": {
+        "schinese": {
+          "name": "蜘蛛女之吻",
+          "description": "完成“破碎翡翠”任务。"
+        }
+      }
+    },
+    "006_red_dawn": {
+      "translations": {
+        "schinese": {
+          "name": "赤色黎明",
+          "description": "完成“冰镐”任务。"
+        }
+      }
+    },
+    "007_million_voices": {
+      "translations": {
+        "schinese": {
+          "name": "仿佛千万个声音",
+          "description": "完成“圣焰”任务。"
+        }
+      }
+    },
+    "008_third_wheel": {
+      "translations": {
+        "schinese": {
+          "name": "三人行",
+          "description": "完成“根除”任务。"
+        }
+      }
+    },
+    "009_conqueror_worm": {
+      "translations": {
+        "schinese": {
+          "name": "征服者蠕虫",
+          "description": "完成“毒之试炼”任务。"
+        }
+      }
+    },
+    "010_woody_moves": {
+      "translations": {
+        "schinese": {
+          "name": "像啄木鸟伍迪一样",
+          "description": "完成“食尸鬼之船”任务。"
+        }
+      }
+    },
+    "011_minimal_state": {
+      "translations": {
+        "schinese": {
+          "name": "最小国家",
+          "description": "完成教学任务。"
+        }
+      }
+    },
+    "012_ancap_courts": {
+      "translations": {
+        "schinese": {
+          "name": "无政府资本主义法庭",
+          "description": "完成“复仇的滋味”任务。"
+        }
+      }
+    },
+    "013_origin_story": {
+      "translations": {
+        "schinese": {
+          "name": "一切就这样开始了……",
+          "description": "将“AnCom 的秘密数据”出售给任意派系。"
+        }
+      }
+    },
+    "014_museum_piece": {
+      "translations": {
+        "schinese": {
+          "name": "它应该放进博物馆！",
+          "description": "将命运之颅送到马格南号上。"
+        }
+      }
+    },
+    "015_use_head": {
+      "translations": {
+        "schinese": {
+          "name": "动动脑子",
+          "description": "在“托皮尔津之跃”任务中，站在托皮尔津雕像前，截去自己的头颅。"
+        }
+      }
+    },
+    "016_think_about": {
+      "translations": {
+        "schinese": {
+          "name": "再想一想",
+          "description": "在“要有光！”任务中，引爆相位炸弹，而不是将它安装到核装置上。"
+        }
+      }
+    },
+    "017_full_circle": {
+      "translations": {
+        "schinese": {
+          "name": "回到原点",
+          "description": "在“太阳人”任务中，夏特马胡姆发动最后攻势时，确保内律会成员无一死亡。"
+        }
+      }
+    },
+    "018_true_visage": {
+      "translations": {
+        "schinese": {
+          "name": "真容",
+          "description": "变身为准形体男爵。"
+        }
+      }
+    },
+    "019_blood_signed": {
+      "translations": {
+        "schinese": {
+          "name": "歃血为契",
+          "description": "使用一份准形体契约。"
+        }
+      }
+    },
+    "020_own_hands": {
+      "translations": {
+        "schinese": {
+          "name": "亲手终结",
+          "description": "杀死你的第一个准形体男爵。"
+        }
+      }
+    },
+    "021_orpheus_return": {
+      "translations": {
+        "schinese": {
+          "name": "俄耳甫斯归来",
+          "description": "从深入布拉姆帕图尔的行动中返回。"
+        }
+      }
+    },
+    "022_cbeam_glitter": {
+      "translations": {
+        "schinese": {
+          "name": "黑暗中闪耀的 C 射线",
+          "description": "将马格南号开到土星或它的任意一颗卫星。"
+        }
+      }
+    },
+    "023_market_spoken": {
+      "translations": {
+        "schinese": {
+          "name": "市场说了算",
+          "description": "杀死一家小型公司的首席执行官。"
+        }
+      }
+    },
+    "024_impossible_worlds": {
+      "translations": {
+        "schinese": {
+          "name": "不可能的世界",
+          "description": "使用遥界引擎前往普勒罗玛。"
+        }
+      }
+    },
+    "025_heaven_map": {
+      "translations": {
+        "schinese": {
+          "name": "完整的诸天地图",
+          "description": "造访所有布拉姆帕图尔。"
+        }
+      }
+    },
+    "026_expendable_asset": {
+      "translations": {
+        "schinese": {
+          "name": "可消耗资产",
+          "description": "在任务中死亡。"
+        }
+      }
+    },
+    "027_homo_famelicus": {
+      "translations": {
+        "schinese": {
+          "name": "饥饿人",
+          "description": "死于饥饿。"
+        }
+      }
+    },
+    "028_bleeds_out": {
+      "translations": {
+        "schinese": {
+          "name": "只要它会流血……",
+          "description": "流血而死。"
+        }
+      }
+    },
+    "029_clone_nightmare": {
+      "translations": {
+        "schinese": {
+          "name": "克隆人的噩梦",
+          "description": "死于伊奎特的攻击。"
+        }
+      }
+    },
+    "030_flies_honey": {
+      "translations": {
+        "schinese": {
+          "name": "如蝇逐蜜",
+          "description": "被蝇群击中。"
+        }
+      }
+    },
+    "031_wicked_souls": {
+      "translations": {
+        "schinese": {
+          "name": "罪恶灵魂",
+          "description": "达到最高诅咒等级。"
+        }
+      }
+    },
+    "032_prima_nocta": {
+      "translations": {
+        "schinese": {
+          "name": "初夜权",
+          "description": "死在准形体男爵手中。"
+        }
+      }
+    },
+    "033_retail_investor": {
+      "translations": {
+        "schinese": {
+          "name": "散户投资者",
+          "description": "完成 5 次普通任务。"
+        }
+      }
+    },
+    "034_active_trader": {
+      "translations": {
+        "schinese": {
+          "name": "活跃交易者",
+          "description": "完成 10 次普通任务。"
+        }
+      }
+    },
+    "035_bluechip_operator": {
+      "translations": {
+        "schinese": {
+          "name": "蓝筹行动者",
+          "description": "完成 100 次普通任务。"
+        }
+      }
+    },
+    "036_too_big": {
+      "translations": {
+        "schinese": {
+          "name": "大到不能倒",
+          "description": "完成 1000 次普通任务。"
+        }
+      }
+    },
+    "037_body_count": {
+      "translations": {
+        "schinese": {
+          "name": "清点尸体",
+          "description": "杀死 100 名敌人。"
+        }
+      }
+    },
+    "038_industrial_slaughter": {
+      "translations": {
+        "schinese": {
+          "name": "工业化屠戮",
+          "description": "杀死 1000 名敌人。"
+        }
+      }
+    },
+    "039_extermination_quota": {
+      "translations": {
+        "schinese": {
+          "name": "灭绝配额",
+          "description": "杀死 10000 名敌人。"
+        }
+      }
+    },
+    "040_genocide_dividend": {
+      "translations": {
+        "schinese": {
+          "name": "种族灭绝红利",
+          "description": "杀死 100000 名敌人。"
+        }
+      }
+    },
+    "041_moonshiner": {
+      "translations": {
+        "schinese": {
+          "name": "私酒酿造者",
+          "description": "制作一份沙瓦私酿酒。"
+        }
+      }
+    },
+    "042_final_form": {
+      "translations": {
+        "schinese": {
+          "name": "最终形态",
+          "description": "建造马格南号的全部升级。"
+        }
+      }
+    },
+    "043_alchemist": {
+      "translations": {
+        "schinese": {
+          "name": "炼金术士",
+          "description": "在马格南号上举行契约升级仪式。"
+        }
+      }
+    },
+    "044_expendables": {
+      "translations": {
+        "schinese": {
+          "name": "消耗品",
+          "description": "损失 5 个克隆人。"
+        }
+      }
+    },
+    "045_filed_expenses": {
+      "translations": {
+        "schinese": {
+          "name": "计入开支",
+          "description": "损失 10 个克隆人。"
+        }
+      }
+    },
+    "046_business_cost": {
+      "translations": {
+        "schinese": {
+          "name": "经营成本",
+          "description": "损失 25 个克隆人。"
+        }
+      }
+    },
+    "047_personnel_depreciation": {
+      "translations": {
+        "schinese": {
+          "name": "人员折旧",
+          "description": "损失 50 个克隆人。"
+        }
+      }
+    },
+    "048_replaceable_design": {
+      "translations": {
+        "schinese": {
+          "name": "生来可替换",
+          "description": "损失 100 个克隆人。"
+        }
+      }
+    },
+    "049_die_canada": {
+      "translations": {
+        "schinese": {
+          "name": "我不想死在加拿大",
+          "description": "截去自己的一条腿。"
+        }
+      }
+    },
+    "050_dog_clone": {
+      "translations": {
+        "schinese": {
+          "name": "狗是克隆人最好的朋友",
+          "description": "用食物与一只狗交好。"
+        }
+      }
+    },
+    "051_need_hand": {
+      "translations": {
+        "schinese": {
+          "name": "需要搭把手吗？",
+          "description": "截肢后完成一次任务。"
+        }
+      }
+    },
+    "052_headcase": {
+      "translations": {
+        "schinese": {
+          "name": "脑洞大开",
+          "description": "在自己的皮质炸弹爆炸后幸存。"
+        }
+      }
+    },
+    "053_failed_success": {
+      "translations": {
+        "schinese": {
+          "name": "任务失败得很成功",
+          "description": "在任务过程中死亡，却仍以胜利完成任务。"
+        }
+      }
+    },
+    "054_first_amendment": {
+      "translations": {
+        "schinese": {
+          "name": "第一修正案",
+          "description": "升级一份准形体契约。"
+        }
+      }
+    },
+    "055_six_six_six": {
+      "translations": {
+        "schinese": {
+          "name": "",
+          "description": "获得最佳结果的准形体契约升级。"
+        }
+      }
+    },
+    "056_new_deal": {
+      "translations": {
+        "schinese": {
+          "name": "新政",
+          "description": "制作一份替代准形体契约。"
+        }
+      }
+    },
+    "057_henry_ford": {
+      "translations": {
+        "schinese": {
+          "name": "亨利·福特",
+          "description": "启动所有生产线。"
+        }
+      }
+    },
+    "058_fake_news": {
+      "translations": {
+        "schinese": {
+          "name": "假新闻",
+          "description": "通过监控部门创建 100 次任务。"
+        }
+      }
+    },
+    "059_hasta_vista": {
+      "translations": {
+        "schinese": {
+          "name": "再见，宝贝",
+          "description": "将一名被冻结的敌人打成碎片。"
+        }
+      }
+    },
+    "060_bbq": {
+      "translations": {
+        "schinese": {
+          "name": "烧烤",
+          "description": "在真正的明火上烤肉。"
+        }
+      }
+    },
+    "061_stonks": {
+      "translations": {
+        "schinese": {
+          "name": "大赚一笔",
+          "description": "通过物物交换赚取 50000 尊严点。"
+        }
+      }
+    },
+    "062_never_asked": {
+      "translations": {
+        "schinese": {
+          "name": "这从来不是我想要的",
+          "description": "在每个身体部位都安装植入物。"
+        }
+      }
+    },
+    "063_theseus_ship": {
+      "translations": {
+        "schinese": {
+          "name": "忒修斯之船",
+          "description": "强化每个身体部位。"
+        }
+      }
+    },
+    "064_bookworm": {
+      "translations": {
+        "schinese": {
+          "name": "书虫",
+          "description": "将“学者”技能提升至满级。"
+        }
+      }
+    },
+    "065_its_alive": {
+      "translations": {
+        "schinese": {
+          "name": "它活了！",
+          "description": "为同一个克隆人升级基因组 10 次。"
+        }
+      }
+    },
+    "066_pimped_gun": {
+      "translations": {
+        "schinese": {
+          "name": "改装我的枪",
+          "description": "升级武器 20 次。"
+        }
+      }
+    },
+    "067_flesh_wound": {
+      "translations": {
+        "schinese": {
+          "name": "只是皮肉伤",
+          "description": "失去至少三条肢体后完成一次任务。"
+        }
+      }
+    },
+    "068_cut_losses": {
+      "translations": {
+        "schinese": {
+          "name": "及时止损",
+          "description": "截去受感染的肢体。"
+        }
+      }
+    },
+    "069_pacifist": {
+      "translations": {
+        "schinese": {
+          "name": "和平主义者",
+          "description": "不开一枪清空一个楼层。"
+        }
+      }
+    },
+    "070_spanish_inquisition": {
+      "translations": {
+        "schinese": {
+          "name": "西班牙宗教裁判所",
+          "description": "杀死一个正在燃烧的准形体。"
+        }
+      }
+    },
+    "071_preferred_contractor": {
+      "translations": {
+        "schinese": {
+          "name": "首选承包商",
+          "description": "与任意一位六巨头的关系达到最高等级。"
+        }
+      }
+    },
+    "072_choose_life": {
+      "translations": {
+        "schinese": {
+          "name": "选择人生",
+          "description": "让所有成瘾程度同时达到 100%。"
+        }
+      }
+    },
+    "073_no_eyes": {
+      "translations": {
+        "schinese": {
+          "name": "我们要去的地方，不需要用眼睛看。",
+          "description": "在失明状态下撤离。"
+        }
+      }
+    },
+    "074_no_staying": {
+      "translations": {
+        "schinese": {
+          "name": "我可不打算留在这里！",
+          "description": "进行一次导致任务失败的紧急撤离。"
+        }
+      }
+    },
+    "075_hell_reality": {
+      "translations": {
+        "schinese": {
+          "name": "地狱只是个词，现实要糟糕得多。",
+          "description": "遭遇一个准形体男爵。"
+        }
+      }
+    },
+    "076_annihilation": {
+      "translations": {
+        "schinese": {
+          "name": "湮灭",
+          "description": "让一名敌人彻底解体，不留痕迹。"
+        }
+      }
+    },
+    "077_dead_alive": {
+      "translations": {
+        "schinese": {
+          "name": "无论死活，你都得跟我走。",
+          "description": "给重要目标穿上重甲。"
+        }
+      }
+    },
+    "078_hold_beer": {
+      "translations": {
+        "schinese": {
+          "name": "帮我拿着啤酒",
+          "description": "不携带任何装备开始任务，并完成任务。"
+        }
+      }
+    },
+    "079_hellraiser": {
+      "translations": {
+        "schinese": {
+          "name": "猛鬼追魂",
+          "description": "以最高诅咒等级开始任务，并完成任务。"
+        }
+      }
+    },
+    "080_legend": {
+      "translations": {
+        "schinese": {
+          "name": "传奇",
+          "description": "在“不公平”难度下，零死亡达成一个结局。"
+        }
+      }
+    },
+    "081_go_deeper": {
+      "translations": {
+        "schinese": {
+          "name": "还得再深入一点",
+          "description": "抵达布拉姆帕图尔的第十层。"
+        }
+      }
+    }
+  }
+}
