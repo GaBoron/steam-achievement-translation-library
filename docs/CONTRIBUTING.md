@@ -9,14 +9,14 @@
 - 🖥️ [Steam 成就翻译管理器](https://github.com/GaBoron/SATLI)：适合本地可视化编辑，可直接导出标准 BIN 或投稿 ZIP。
 - 🤖 [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill)：适合研究、翻译和验证，成品位于项目的 `final/` 目录。
 
-可以直接投稿[格式 2 的独立 JSON](translation-json.md#独立-json格式-2)，也可以继续使用 BIN ZIP。SATLI lite 等工具导出的格式 1 JSON 不能独立投稿，须先按格式 2 补齐原文来源与目标语言记录；不要只改版本号。现有 SATLI lite 只支持格式 1，格式 2 需要客户端同步支持。
+可以直接投稿[格式 2 的独立 JSON](translation-json.md)，也可以继续使用 BIN ZIP。SATLI lite 等工具导出的格式 1 JSON 独立投稿时，将 `version` 改为 `2`，移除 `source_sha256`，核对 ID、语言和译文即可；来源说明可写入备注。现有 SATLI lite 只支持格式 1，格式 2 需要客户端同步支持。
 
 也可以使用其他编辑器，但提交前必须满足：
 
 | 检查项 | 要求 |
 | --- | --- |
 | Steam app ID | 与 JSON/BIN 内容及附件文件名中的数字一致；机器人会据此生成商店地址 |
-| 独立 JSON | `UserGameStatsSchema_<app_id>.json`，格式 2，译文完整且非 `draft`；无需 BIN 或打包 |
+| 独立 JSON | `UserGameStatsSchema_<app_id>.json`，格式 2，所有声明语言的文本符合覆盖要求；无需 BIN 或打包 |
 | BIN 文件名 | `UserGameStatsSchema_<app_id>.bin` |
 | ZIP 文件名 | `UserGameStatsSchema_<app_id>.zip` |
 | 单版本 ZIP | 根目录只能包含一个同名 BIN 或格式 2 JSON |
@@ -39,7 +39,7 @@
 ## 📤 3. 提交与修正
 
 1. 填写对应 issue 表单，上传独立 JSON 或 ZIP。
-2. 等待机器人检查文件结构、成就 API name、来源与语言覆盖；BIN 额外检查 Binary KeyValues roundtrip。
+2. 等待机器人检查文件结构、成就 API name 与语言覆盖；BIN 额外检查 Binary KeyValues roundtrip。JSON 来源及译文质量结合投稿备注人工审核。
 3. 检查通过后，机器人会创建 PR 并请求维护者审核。
 
 检查失败时，直接按机器人评论修正。来源 issue 仍打开时可以编辑表单内容；PR 创建后，请在 PR 评论中使用命令：
@@ -100,13 +100,13 @@ UserGameStatsSchema_123456.zip
 
 ## ✅ 自动检查
 
-机器人根据 app ID 生成商店链接，检查附件安全与大小、来源记录、成就 ID 和语言覆盖；BIN 额外检查 Binary KeyValues 字节级 roundtrip。请只提交你有权分享的译本。
+机器人根据 app ID 生成商店链接，检查附件安全与大小、成就 ID 和语言覆盖；BIN 额外检查 Binary KeyValues 字节级 roundtrip。请只提交你有权分享的译本。
 
 每个译本保存于 `files/<app_id>/<variant_id>/`：BIN 版本包含自动生成的同名格式 1 JSON，独立版本只有格式 2 JSON。格式 1 配套文件不可手工修改；格式 2 投稿会严格校验并规范化。机器人在每个版本目录生成 `achievements.md`，直接在 PR 的 **Files changed** 中审核。文本按成就与字段分组，各语言相邻、每个字段独占一行；更新只列有变化的成就，并显示修改前后值。合并入库时自动将审核文件移至回收站。已收录译本的文本在 [网站](https://gaboron.github.io/steam-achievement-translation-library/?lang=zh) 预览。
 
-每个审核 PR 只修改该游戏目录，待入库元数据保存在自动生成的 `submission.json` 中。检查会严格核对元数据与实际 BIN/JSON。合并后，自动化汇总主分支上的待入库游戏，更新 `index-v2.json`、统计和网站，并将已发布的 `submission.json` 移至回收站。不同游戏可独立审核；同一游戏的内容冲突需要维护者处理。`/force-refresh` 通过合并主分支保留投稿历史；BIN App ID 修正仅适用于尚未入库的新游戏。独立 JSON 的 ID 与来源不可自动改写，ID 错误时请关闭错误投稿并以正确 JSON 重新投稿。
+每个审核 PR 只修改该游戏目录，待入库元数据保存在自动生成的 `submission.json` 中。检查会严格核对元数据与实际 BIN/JSON。合并后，自动化汇总主分支上的待入库游戏，更新 `index-v2.json`、统计和网站，并将已发布的 `submission.json` 移至回收站。不同游戏可独立审核；同一游戏的内容冲突需要维护者处理。`/force-refresh` 通过合并主分支保留投稿历史；App ID 修正仅适用于尚未入库的新游戏，并会同步独立 JSON 内的 `app_id`。
 
-已有 JSON-only 版本可通过更新投稿或 `/update doc` 补充真实 BIN，保留版本 ID、贡献者和首次收录时间；BIN 必须保留已接受的目标语言文字，随后重新生成格式 1 JSON。已有 BIN 版本不能被独立 JSON 替换；需要并存时增加新版本。JSON 合法不等于 BIN 通过 Steam 客户端验证。
+已有 JSON-only 版本可通过更新投稿或 `/update doc` 补充真实 BIN，保留版本 ID、贡献者和首次收录时间；BIN 必须保留已接受的各语言文字，随后重新生成格式 1 JSON。已有 BIN 版本不能被独立 JSON 替换；需要并存时增加新版本。JSON 合法不等于 BIN 通过 Steam 客户端验证。
 
 Windows 维护环境需要 `pywin32`，Linux 需要可用的 `gio trash`；回收站不可用时保留待清理文件并报告具体路径。
 

@@ -101,14 +101,7 @@ def expected_review_catalog(
         path = path.with_suffix(".json")
     data, content = load_artifact(path)
     current = content if isinstance(content, dict) else json.loads(render_translation(game_id, variant_id, data, content))
-    review = render_achievement_review(path.name, sha256(data), current["achievements"], previous)
-    if isinstance(content, dict):
-        source = content["source"]
-        review += (f"\n## Recorded source (contributor supplied)\n\n"
-                   f"- Kind: {_inline(source['kind'])}\n- URL: {_inline(source['url'])}\n"
-                   f"- Retrieved: {_inline(source['retrieved_at'])}\n"
-                   "- Display text only; this does not verify a Steam client BIN.\n")
-    return review
+    return render_achievement_review(path.name, sha256(data), current["achievements"], previous)
 
 
 def write_entry_review_catalogs(

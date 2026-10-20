@@ -20,7 +20,7 @@ STATISTICS_PATH = ROOT / "docs" / "statistics" / "library-statistics.svg"
 def refresh_catalog(catalog: dict[str, Any], *, root: Path = ROOT) -> dict[str, Any]:
     """Recalculate artifact metadata, then refresh every checked-in projection."""
     catalog = with_submissions(catalog, root=root)
-    games = catalog_v2.all_games(catalog)
+    games = catalog["games"]
     for game_id, game in games.items():
         for variant_id, variant in game["variants"].items():
             if variant.get("format") == "json":
@@ -41,7 +41,6 @@ def refresh_catalog(catalog: dict[str, Any], *, root: Path = ROOT) -> dict[str, 
             variant["languages"] = schema_languages(nodes)
             variant["achievements"] = len(rows)
             variant["json"] = translation_json.write_translation(path, game_id, variant_id)
-    catalog = catalog_v2.catalog_from_games(games)
     catalog_v2.validate_catalog(catalog)
     catalog_v2.write_catalog(catalog, root=root)
 

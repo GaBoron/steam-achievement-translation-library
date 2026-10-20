@@ -42,7 +42,7 @@ body:
     id: schema_zip
     attributes:
       label: 翻译 JSON 或 schema ZIP
-      description: 上传 UserGameStatsSchema_<app_id>.json（格式 2，完成译文并移除 draft）或同名 ZIP；多版本 ZIP 包含 translation-variants.json，每个版本选择 BIN 或 JSON。
+      description: 上传 UserGameStatsSchema_<app_id>.json（格式 2，完成声明语言的译文）或同名 ZIP；多版本 ZIP 包含 translation-variants.json，每个版本选择 BIN 或 JSON。
       placeholder: 请把 JSON 或 ZIP 拖到这里。
     validations:
       required: true

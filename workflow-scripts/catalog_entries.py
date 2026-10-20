@@ -31,7 +31,7 @@ def _variant_record(game_id: str, variant_id: str, variant: dict[str, Any]) -> d
 def entries_from_catalog(catalog: dict[str, Any]) -> list[dict[str, Any]]:
     catalog_v2.validate_catalog(catalog)
     entries: list[dict[str, Any]] = []
-    for game_id, game in catalog_v2.all_games(catalog).items():
+    for game_id, game in catalog["games"].items():
         records = [
             _variant_record(game_id, variant_id, variant)
             for variant_id, variant in game["variants"].items()
@@ -123,4 +123,4 @@ def catalog_from_entries(entries: list[dict[str, Any]]) -> dict[str, Any]:
         status = str(entry.get("status") or "current")
         if status != "current":
             games[game_id]["status"] = status
-    return catalog_v2.validate_catalog(catalog_v2.catalog_from_games(games))
+    return catalog_v2.validate_catalog({"version": 2, "games": games})

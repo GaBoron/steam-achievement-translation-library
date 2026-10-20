@@ -9,14 +9,14 @@ These tools can produce files in the expected submission format:
 - 🖥️ [Steam Achievement Translation Manager](https://github.com/GaBoron/SATLI): a visual local editor that exports standard BIN files and submission ZIP files.
 - 🤖 [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill): researches, translates, and validates files; completed files are written to the project's `final/` directory.
 
-Submit [standalone format 2 JSON](translation-json.md#standalone-json-format-2) directly, or continue using BIN ZIPs. Format 1 JSON exported by tools such as SATLI lite requires the format 2 source snapshot and target-language fields before standalone submission; changing the version alone is insufficient. Existing SATLI lite supports format 1 only; format 2 requires updated client support.
+Submit [standalone format 2 JSON](translation-json.md#english) directly, or continue using BIN ZIPs. To submit format 1 JSON exported by tools such as SATLI lite independently, set `version` to `2`, remove `source_sha256`, and check IDs, languages and translations. Put source references in the notes. Existing SATLI lite supports format 1 only; format 2 requires updated client support.
 
 Other editors are also supported, but every submission must meet these requirements:
 
 | Check | Requirement |
 | --- | --- |
 | Steam app ID | Matches JSON/BIN content and attachment filenames; automation derives the store URL from it |
-| Standalone JSON | `UserGameStatsSchema_<app_id>.json`, format 2 with completed translations and no active `draft`; no BIN or ZIP required |
+| Standalone JSON | `UserGameStatsSchema_<app_id>.json`, format 2 with complete coverage for declared languages; no BIN or ZIP required |
 | BIN name | `UserGameStatsSchema_<app_id>.bin` |
 | ZIP name | `UserGameStatsSchema_<app_id>.zip` |
 | Single-version ZIP | Contains only the matching BIN or format 2 JSON at its root |
@@ -34,12 +34,12 @@ Search the [library website](https://gaboron.github.io/steam-achievement-transla
 | 🔄 Your translation is complete and the app ID is already indexed | [Update an accepted translation](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_en.yml) |
 | ⚠️ A file may be outdated or ineffective, but you have no replacement | [Report a file issue](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_en.yml) |
 
-Petitions require only an app ID, game name and target languages; attachments are optional and untranslated schemas are not added to the library. Available public data produces a JSON draft with blank target fields; unavailable data leaves the petition open awaiting a source. See [downloads and local generation](translation-json.md#standalone-json-format-2). For an update, briefly describe the added, removed, or changed content.
+Petitions require only an app ID, game name and target languages; attachments are optional and untranslated schemas are not added to the library. Available public data produces a JSON draft with blank target fields; unavailable data leaves the petition open awaiting a source. See [downloads and local generation](translation-json.md#english). For an update, briefly describe the added, removed, or changed content.
 
 ## 📤 3. Submit And Correct
 
 1. Complete the matching issue form and attach standalone JSON or a ZIP.
-2. Wait for checks covering file structure, API names, source records and language coverage; BIN submissions also require Binary KeyValues roundtrip.
+2. Wait for checks covering file structure, API names and language coverage; BIN submissions also require Binary KeyValues roundtrip. Source references and translation quality are reviewed using the submission notes.
 3. After validation passes, automation creates a PR and requests maintainer review.
 
 Follow the bot's comment when validation fails. While the source issue is open, you can edit its form values. After a PR is created, use a PR comment:
@@ -100,13 +100,13 @@ UserGameStatsSchema_123456.zip
 
 ## ✅ Automated Checks
 
-Automation derives the store URL from the app ID and checks attachment safety and size, source records, achievement IDs and language coverage; BIN files also require byte-identical Binary KeyValues roundtrip. Submit only translations you are allowed to share.
+Automation derives the store URL from the app ID and checks attachment safety and size, achievement IDs and language coverage; BIN files also require byte-identical Binary KeyValues roundtrip. Submit only translations you are allowed to share.
 
 Each variant is stored under `files/<app_id>/<variant_id>/` with a BIN and generated format 1 JSON, or standalone format 2 JSON only. Do not edit generated format 1 files; format 2 uploads are strictly validated and canonicalized. Automation generates `achievements.md` in each variant directory for review directly in the PR's **Files changed**. Text is grouped by achievement and field, with neighboring languages and one field per line. Updates include only changed achievements and show before/after values. Publication automatically recycles review files. Preview published text on the [website](https://gaboron.github.io/steam-achievement-translation-library/?lang=en).
 
-Each review PR changes only its game's directory, with pending catalog metadata in generated `submission.json`. Checks strictly compare metadata with BIN/JSON content. After merge, automation collects pending games on main, updates `index-v2.json`, statistics, and the website, and recycles published `submission.json` files. Different games can be reviewed independently; content conflicts within one game require maintainer resolution. `/force-refresh` merges main while preserving submission history; BIN app ID corrections apply only to new, unpublished games. Standalone JSON embeds its ID and source, which cannot be rewritten automatically; close an incorrect submission and resubmit corrected JSON.
+Each review PR changes only its game's directory, with pending catalog metadata in generated `submission.json`. Checks strictly compare metadata with BIN/JSON content. After merge, automation collects pending games on main, updates `index-v2.json`, statistics, and the website, and recycles published `submission.json` files. Different games can be reviewed independently; content conflicts within one game require maintainer resolution. `/force-refresh` merges main while preserving submission history; app ID corrections apply only to new, unpublished games and also update the embedded `app_id` in standalone JSON.
 
-An update submission or `/update doc` can upgrade a JSON-only variant with a real BIN while retaining its variant ID, contributors and first submission time. The BIN must preserve accepted target-language text; automation then generates format 1 JSON. An existing BIN variant cannot be replaced by standalone JSON; add another variant to keep both. Valid display JSON does not certify Steam client BIN compatibility.
+An update submission or `/update doc` can upgrade a JSON-only variant with a real BIN while retaining its variant ID, contributors and first submission time. The BIN must preserve accepted text in every declared language; automation then generates format 1 JSON. An existing BIN variant cannot be replaced by standalone JSON; add another variant to keep both. Valid display JSON does not certify Steam client BIN compatibility.
 
 Windows maintenance requires `pywin32`; Linux requires working `gio trash`. Files remain in place with an exact-path error when recycling is unavailable.
 

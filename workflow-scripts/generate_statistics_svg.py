@@ -49,7 +49,7 @@ def parse_submitted_at(value: Any) -> datetime:
 
 
 def build_statistics(catalog: dict[str, Any], contributor_limit: int = 10) -> Statistics:
-    games = catalog_v2.all_games(catalog_v2.validate_catalog(catalog))
+    games = catalog_v2.validate_catalog(catalog)["games"]
     if contributor_limit < 1:
         raise ValueError("contributor_limit must be at least 1")
 

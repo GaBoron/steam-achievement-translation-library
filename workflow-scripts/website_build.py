@@ -12,7 +12,6 @@ from translation_artifacts import indexed_standalone
 from urllib.parse import unquote, urlsplit
 
 from catalog_v2 import schema_relative_path, translation_json_relative_path, validate_catalog
-from catalog_v2 import all_games
 from steam_schema import load_schema, schema_languages, sha256, validate_schema_structure
 from translation_json import render_translation
 from steam_cover_images import parse_cover_images, refresh_cover_images, render_cover_images
@@ -98,7 +97,7 @@ def _catalog_payloads(root: Path) -> tuple[dict[PurePosixPath, bytes], int, int]
     catalog = validate_catalog(json.loads(catalog_bytes))
     payloads = {PurePosixPath("index-v2.json"): catalog_bytes}
     variants = 0
-    for game_id, game in all_games(catalog).items():
+    for game_id, game in catalog["games"].items():
         for variant_id, variant in game["variants"].items():
             if variant.get("format") == "json":
                 relative = PurePosixPath(translation_json_relative_path(game_id, variant_id))
@@ -131,7 +130,7 @@ def _catalog_payloads(root: Path) -> tuple[dict[PurePosixPath, bytes], int, int]
                     raise ValueError(f"{json_relative}: translation JSON does not match its source BIN")
                 payloads[json_relative] = content
             variants += 1
-    return payloads, len(all_games(catalog)), variants
+    return payloads, len(catalog["games"]), variants
 
 
 def _fresh_output(root: Path, output: Path) -> Path:
@@ -152,7 +151,7 @@ def build_site(output: Path, *, root: Path = ROOT, refresh_covers: bool = False)
     payloads = _asset_payloads(root)
     catalog_payloads, games, variants = _catalog_payloads(root)
     payloads.update(catalog_payloads)
-    app_ids = all_games(json.loads(payloads[PurePosixPath("index-v2.json")]))
+    app_ids = json.loads(payloads[PurePosixPath("index-v2.json")])["games"]
     cover_path = PurePosixPath("steam-covers.json")
     covers = parse_cover_images(json.loads(payloads.get(cover_path, b"{}")), app_ids)
     if refresh_covers:

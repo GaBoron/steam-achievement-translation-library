@@ -37,33 +37,6 @@ def translation_json_relative_path(game_id: str, variant_id: str) -> str:
     return f"files/{game_id}/{variant_id}/UserGameStatsSchema_{game_id}.json"
 
 
-def all_games(catalog: dict[str, Any]) -> dict[str, Any]:
-    """Text-aware readers overlay complete games on the legacy BIN projection."""
-    return {**catalog["games"], **catalog.get("text_games", {})}
-
-
-def catalog_from_games(games: dict[str, Any]) -> dict[str, Any]:
-    if not isinstance(games, dict):
-        raise ValueError("Catalog games must be an object")
-    legacy, text = {}, {}
-    for game_id, game in games.items():
-        if not isinstance(game, dict) or not isinstance(game.get("variants"), dict):
-            raise ValueError(f"{game_id}: game must contain a variants object")
-        if any(not isinstance(variant, dict) for variant in game["variants"].values()):
-            raise ValueError(f"{game_id}: variant must be an object")
-        binary = {key: value for key, value in game["variants"].items() if value.get("format", "bin") == "bin"}
-        if len(binary) == len(game["variants"]):
-            legacy[game_id] = game
-        else:
-            text[game_id] = game
-            if "default" in binary:
-                legacy[game_id] = {**game, "variants": binary}
-    result = {"version": 2, "games": legacy}
-    if text:
-        result["text_games"] = text
-    return result
-
-
 def artifact_relative_path(game_id: str, variant_id: str, variant: dict[str, Any]) -> str:
     return (translation_json_relative_path if variant.get("format") == "json" else schema_relative_path)(game_id, variant_id)
 
@@ -91,9 +64,9 @@ def _bilingual(value: Any, field: str, *, maximum: int) -> dict[str, str]:
 def validate_catalog(catalog: Any) -> dict[str, Any]:
     if not isinstance(catalog, dict) or catalog.get("version") != 2:
         raise ValueError("index-v2.json must be a version 2 object")
-    if not isinstance(catalog.get("games"), dict) or not isinstance(catalog.get("text_games", {}), dict):
-        raise ValueError("Catalog games and text_games must be objects")
-    games = all_games(catalog)
+    if set(catalog) != {"version", "games"} or not isinstance(catalog.get("games"), dict):
+        raise ValueError("Catalog must contain version and a games object")
+    games = catalog["games"]
     if not games:
         raise ValueError("Catalog must contain at least one game")
     for game_id, game in games.items():
@@ -163,8 +136,6 @@ def validate_catalog(catalog: Any) -> dict[str, Any]:
                 json_size = metadata.get("size")
                 if not isinstance(json_size, int) or isinstance(json_size, bool) or not 0 < json_size <= MAX_SCHEMA_BYTES:
                     raise ValueError(f"{game_id}/{variant_id}.json.size is invalid")
-    if catalog_from_games(games) != catalog:
-        raise ValueError("Catalog games must be the BIN-compatible projection; text_games contains complete mixed/JSON games")
     return catalog
 
 
@@ -179,16 +150,12 @@ def load_catalog(*, root: Path = REPO_ROOT) -> dict[str, Any]:
 
 def canonical_catalog_text(catalog: dict[str, Any]) -> str:
     """Serialize Catalog V2 with one compact line per game entry."""
-    lines = ["{", '  "version": 2,']
-    groups = ["games"] + (["text_games"] if catalog.get("text_games") else [])
-    for group_index, group in enumerate(groups):
-        lines.append(f'  "{group}": {{')
-        items = list(catalog[group].items())
-        for position, (game_id, game) in enumerate(items):
-            suffix = "," if position + 1 < len(items) else ""
-            lines.append(f"    {json.dumps(game_id)}: {json.dumps(game, ensure_ascii=False, separators=(',', ':'))}{suffix}")
-        lines.append("  }" + ("," if group_index + 1 < len(groups) else ""))
-    lines.extend(["}", ""])
+    lines = ["{", '  "version": 2,', '  "games": {']
+    items = list(catalog["games"].items())
+    for position, (game_id, game) in enumerate(items):
+        suffix = "," if position + 1 < len(items) else ""
+        lines.append(f"    {json.dumps(game_id)}: {json.dumps(game, ensure_ascii=False, separators=(',', ':'))}{suffix}")
+    lines.extend(["  }", "}", ""])
     return "\n".join(lines)
 
 
@@ -199,9 +166,7 @@ def _game_sort_key(game_id: str, game: dict[str, Any]) -> tuple[bytes, str, int]
 
 def write_catalog(catalog: dict[str, Any], *, root: Path = REPO_ROOT) -> Path:
     validate_catalog(catalog)
-    for group in ("games", "text_games"):
-        if group in catalog:
-            catalog[group] = dict(sorted(catalog[group].items(), key=lambda item: _game_sort_key(*item)))
+    catalog["games"] = dict(sorted(catalog["games"].items(), key=lambda item: _game_sort_key(*item)))
     path = root / CATALOG_PATH.name
     path.write_text(canonical_catalog_text(catalog), encoding="utf-8", newline="\n")
     return path

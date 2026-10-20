@@ -216,10 +216,13 @@ def validate_petition(issue: dict[str, Any], token: str | None) -> dict[str, Any
     source_status = "uploaded-bin" if attachment is not None else "awaiting-source"
     source_detail = ""
     candidate = None
+    public_source = None
     if not errors and attachment is None:
         try:
             source_language = next(code for code in ("english", "schinese", "german", "french") if code not in target_languages)
-            candidate = generate_candidate(game_id, target_languages, language=source_language)
+            draft = generate_candidate(game_id, target_languages, language=source_language)
+            candidate = draft.translation
+            public_source = {"url": draft.source_url, "retrieved_at": draft.retrieved_at, "language": draft.source_language}
             achievement_count = len(candidate["achievements"])
             source_status = "public-draft"
         except Exception as exc:  # Public data is optional; a valid petition stays open.
@@ -234,6 +237,7 @@ def validate_petition(issue: dict[str, Any], token: str | None) -> dict[str, Any
         "source_status": source_status,
         "source_detail": source_detail,
         "candidate": candidate,
+        "public_source": public_source,
     }
 
 
@@ -251,9 +255,12 @@ def received_comment(result: dict[str, Any]) -> str:
     ]
     if result.get("source_detail"):
         lines.append(f"- {result['source_detail']}")
+    if result.get("public_source"):
+        source = result["public_source"]
+        lines.extend([f"- 公开来源：{source['url']}", f"- 原文语言：`{source['language']}`", f"- 获取时间：`{source['retrieved_at']}`"])
     if result.get("candidate"):
         lines.extend(["", "公开列表已生成候选 JSON；只代表该页面公开的成就，不保证隐藏或未公开成就完整。",
-                      "目标语言为空，完成并审核译文后移除 `draft` 标记再投稿。该文件不能安装为 BIN。"])
+                      "目标语言为空，完成并审核译文后再投稿；无需修改格式或状态字段。该文件不能安装为 BIN。"])
         if result.get("candidate_url"):
             lines.append(f"[下载候选 JSON（工作流的 petition-json 附件，保留 30 天）]({result['candidate_url']})")
     return "\n".join(lines)

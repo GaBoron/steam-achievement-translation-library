@@ -174,7 +174,7 @@ def check_repository(
         report.error("Removed V1 index.json must not be reintroduced")
 
     expected_paths: set[Path] = set()
-    for game_id, game in catalog_v2.all_games(catalog).items():
+    for game_id, game in catalog["games"].items():
         report.checked_entries += 1
         for variant_id, variant in game["variants"].items():
             _check_schema(

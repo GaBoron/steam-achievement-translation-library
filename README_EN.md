@@ -28,7 +28,7 @@ For direct downloads, make sure the file name and app ID match. BIN/ZIP files ar
 
 ## 🧩 Developer Integration
 
-`index-v2.json` is the public game catalog. Each translation lives under `files/<app_id>/<variant_id>/` and contains a BIN with format 1 JSON, or standalone format 2 JSON. New clients discover standalone JSON through `text_games`; legacy clients continue reading `games`. Preview names, descriptions, and languages on the website.
+`index-v2.json` is the public game catalog. Each translation lives under `files/<app_id>/<variant_id>/` and contains a BIN with format 1 JSON, or standalone format 2 JSON. All variants share `games/variants`; clients must recognize BIN and JSON-only types. Preview names, descriptions, and languages on the website.
 
 See the [data integration guide](docs/integration.md#english) for catalog fields, download validation, and sample code, and the [translation JSON format](docs/translation-json.md#english) for text fields.
 

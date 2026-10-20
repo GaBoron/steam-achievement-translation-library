@@ -5,12 +5,21 @@ import argparse
 import json
 import re
 import urllib.request
+from dataclasses import dataclass
 from datetime import UTC, datetime
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
 
 from standalone_translation import LANGUAGE_RE, canonical_text, unique_object, validate_translation
+
+
+@dataclass(frozen=True)
+class PublicAchievementDraft:
+    translation: dict[str, Any]
+    source_url: str
+    retrieved_at: str
+    source_language: str
 
 
 class _SteamData(HTMLParser):
@@ -75,7 +84,7 @@ def parse_public_page(html: str, app_id: str, language: str) -> dict[str, dict[s
     return rows
 
 
-def generate_candidate(app_id: str, target_languages: list[str], *, language: str = "english") -> dict[str, Any]:
+def generate_candidate(app_id: str, target_languages: list[str], *, language: str = "english") -> PublicAchievementDraft:
     if not re.fullmatch(r"[1-9][0-9]{0,9}", app_id) or int(app_id) > 4294967295:
         raise ValueError("Invalid Steam app ID")
     targets = sorted(set(target_languages))
@@ -90,16 +99,16 @@ def generate_candidate(app_id: str, target_languages: list[str], *, language: st
     originals = parse_public_page(data.decode("utf-8"), app_id, language)
     languages = sorted({language, *targets})
     candidate = {
-        "version": 2, "app_id": app_id, "variant_id": "default", "draft": True,
-        "languages": languages, "target_languages": targets,
-        "source": {"kind": "steam-public", "url": url,
-                   "retrieved_at": datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
-                   "language": language, "achievements": originals},
+        "version": 2, "app_id": app_id, "variant_id": "default",
+        "languages": languages,
         "achievements": {key: {"translations": {
             code: dict(fields) if code == language else {"name": "", "description": ""}
             for code in languages}} for key, fields in originals.items()},
     }
-    return validate_translation(candidate, allow_draft=True)
+    return PublicAchievementDraft(
+        validate_translation(candidate, allow_incomplete=True), url,
+        datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z"), language,
+    )
 
 
 def main() -> None:
@@ -110,14 +119,16 @@ def main() -> None:
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     try:
-        candidate = generate_candidate(args.app_id, [value.strip() for value in args.targets.split(",")], language=args.language)
+        draft = generate_candidate(args.app_id, [value.strip() for value in args.targets.split(",")], language=args.language)
     except (OSError, UnicodeError, ValueError, KeyError, TypeError, RecursionError) as exc:
         raise SystemExit(f"Cannot generate a public achievement draft: {exc}") from exc
     args.output.parent.mkdir(parents=True, exist_ok=True)
     # Never overwrite an existing contributor's translation.
     with args.output.open("x", encoding="utf-8", newline="\n") as stream:
-        stream.write(canonical_text(candidate))
-    print(f"Wrote draft with {len(candidate['achievements'])} publicly exposed achievements: {args.output}")
+        stream.write(canonical_text(draft.translation))
+    print(f"Source ({draft.source_language}): {draft.source_url}")
+    print(f"Retrieved: {draft.retrieved_at}")
+    print(f"Wrote candidate with {len(draft.translation['achievements'])} publicly exposed achievements: {args.output}")
 
 
 if __name__ == "__main__":

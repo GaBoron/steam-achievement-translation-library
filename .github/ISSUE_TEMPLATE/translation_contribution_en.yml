@@ -8,7 +8,7 @@ body:
       value: |
         Search the [library website](https://gaboron.github.io/steam-achievement-translation-library/?lang=en) and open translation PRs for the Steam app ID before opening this issue. If automation finds a duplicate ID, it will comment and close this issue.
 
-        Upload format 2 `UserGameStatsSchema_<app_id>.json` directly, or the existing BIN ZIP. Multi-version ZIPs use `translation-variants.json`. Automation checks source records and language coverage and creates a review PR. Standalone JSON is display text for compatible clients, not an installable BIN.
+        Upload format 2 `UserGameStatsSchema_<app_id>.json` directly, or the existing BIN ZIP. Multi-version ZIPs use `translation-variants.json`. Automation checks language coverage and creates a review PR. Standalone JSON is display text for compatible clients, not an installable BIN.
   - type: input
     id: game_name
     attributes:
@@ -29,7 +29,7 @@ body:
     id: schema_zip
     attributes:
       label: Translation JSON or schema ZIP
-      description: Upload UserGameStatsSchema_<app_id>.json (format 2, complete translations and remove draft) or the matching ZIP. Multi-version ZIPs include translation-variants.json; each variant contains BIN or JSON.
+      description: Upload UserGameStatsSchema_<app_id>.json (format 2, complete all declared languages) or the matching ZIP. Multi-version ZIPs include translation-variants.json; each variant contains BIN or JSON.
       placeholder: Drag the JSON or ZIP here.
     validations:
       required: true

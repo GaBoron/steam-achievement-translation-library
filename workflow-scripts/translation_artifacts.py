@@ -46,11 +46,11 @@ def indexed_standalone(path: Path, app_id: str, variant_id: str, variant: dict[s
 
 
 def validate_bin_upgrade(previous: Path, content: Any) -> None:
-    """Do not lose accepted target text when adding a real schema to a variant."""
+    """Do not lose accepted text when adding a real schema to a variant."""
     payload = decode_translation(previous.read_bytes())
-    rows = {row["api_name"]: row for row in artifact_rows(content, payload["target_languages"])}
+    rows = {row["api_name"]: row for row in artifact_rows(content, payload["languages"])}
     for api_name, achievement in payload["achievements"].items():
-        for language in payload["target_languages"]:
+        for language in payload["languages"]:
             fields = achievement["translations"][language]
             if api_name not in rows or any(rows[api_name].get(f"{language}_{field}", "") != fields[field] for field in ("name", "description")):
                 raise ValueError(f"BIN upgrade must preserve accepted {language} text for {api_name}")

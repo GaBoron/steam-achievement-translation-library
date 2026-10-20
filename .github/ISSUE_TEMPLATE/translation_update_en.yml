@@ -42,7 +42,7 @@ body:
     id: schema_zip
     attributes:
       label: Translation JSON or schema ZIP
-      description: Upload UserGameStatsSchema_<app_id>.json (format 2, complete translations and remove draft) or the matching ZIP. Multi-version ZIPs include translation-variants.json; each variant contains BIN or JSON.
+      description: Upload UserGameStatsSchema_<app_id>.json (format 2, complete all declared languages) or the matching ZIP. Multi-version ZIPs include translation-variants.json; each variant contains BIN or JSON.
       placeholder: Drag the JSON or ZIP here.
     validations:
       required: true

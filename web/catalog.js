@@ -26,8 +26,7 @@ export function parseCatalog(payload) {
   }
   const games = [];
   let invalidCount = 0;
-  if (payload.text_games !== undefined && !object(payload.text_games)) throw new CatalogError('catalog-format');
-  for (const [appId, game] of Object.entries({ ...payload.games, ...(payload.text_games || {}) })) {
+  for (const [appId, game] of Object.entries(payload.games)) {
     if (!/^\d+$/.test(appId) || !object(game) || !text(game.name) || !object(game.variants)) {
       invalidCount++;
       continue;

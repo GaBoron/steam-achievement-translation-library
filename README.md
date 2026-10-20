@@ -28,7 +28,7 @@
 
 ## 🧩 开发者接入
 
-`index-v2.json` 是公开游戏目录。每个译本位于 `files/<app_id>/<variant_id>/`，保存 BIN 及其格式 1 JSON，或仅保存格式 2 JSON；`text_games` 扩展供新客户端发现独立 JSON，旧客户端继续读取 `games`。名称、描述与语言可在网站中预览。
+`index-v2.json` 是公开游戏目录。每个译本位于 `files/<app_id>/<variant_id>/`，保存 BIN 及其格式 1 JSON，或仅保存格式 2 JSON；所有版本统一收录在 `games/variants`，客户端需识别 BIN 与 JSON-only 类型。名称、描述与语言可在网站中预览。
 
 接口字段、下载校验和示例代码见 [数据接入指南](docs/integration.md)，JSON 字段说明见 [翻译 JSON 格式](docs/translation-json.md)。
 
