@@ -64,7 +64,7 @@ def rename_schema_variants(
 ) -> tuple[str, list[dict[str, Any]] | None]:
     if old_game_id == new_game_id:
         return str(meta["schema_file"]), meta.get("schema_files")
-    published = catalog_v2.load_catalog(root=ROOT)["games"]
+    published = catalog_v2.all_games(catalog_v2.load_catalog(root=ROOT))
     if old_game_id in published or new_game_id in published:
         raise ValueError("只能修正尚未入库的新游戏 App ID；不能移动或覆盖已收录的游戏。")
     schema_files = meta.get("schema_files")
@@ -88,6 +88,8 @@ def rename_schema_variants(
         "achievement_count": meta.get("achievement_count"),
     }
     records = validated_entry_schema_variants(entry)
+    if any(str(record["schema_file"]).endswith(".json") for record in records):
+        raise ValueError("独立 JSON 的 App ID 与来源记录不可自动改写；请关闭错误投稿并以正确 App ID 重新投稿")
     if not records:
         raise ValueError("当前 PR 没有可重命名的 schema 文件。")
     moves: list[tuple[Path, Path, dict[str, Any]]] = []

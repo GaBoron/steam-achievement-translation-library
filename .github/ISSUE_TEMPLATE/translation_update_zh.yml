@@ -1,12 +1,12 @@
 name: 更新已有 Steam 成就翻译
-description: 上传一个已收录游戏的新版 UserGameStatsSchema_<app_id>.zip
+description: 提交独立翻译 JSON 或包含 BIN/JSON 的 schema ZIP
 title: "[翻译更新] 游戏名 (Steam app ID)"
 labels: [更新文件]
 body:
   - type: markdown
     attributes:
       value: |
-        此模板只用于更新已经合并进库的游戏。机器人会按 Steam app ID 检查权威游戏 manifest；正在打开的 PR 不算已收录。
+        此模板只用于更新已经合并进库的游戏。机器人会按 Steam app ID 检查 Catalog V2；正在打开的 PR 不算已收录。
 
         如果上传文件与库里的当前文件完全相同，自动检查会拒绝创建 PR。机器人会根据 app ID 生成商店地址，并从 schema 自动识别语言。
   - type: input
@@ -41,9 +41,9 @@ body:
   - type: textarea
     id: schema_zip
     attributes:
-      label: 成就 schema ZIP
-      description: 单版本更新上传只含同名 `.bin` 的 ZIP；整包更新多个版本时，ZIP 必须包含 `translation-variants.json`。
-      placeholder: 请把 ZIP 拖到这里。
+      label: 翻译 JSON 或 schema ZIP
+      description: 上传 UserGameStatsSchema_<app_id>.json（格式 2，完成译文并移除 draft）或同名 ZIP；多版本 ZIP 包含 translation-variants.json，每个版本选择 BIN 或 JSON。
+      placeholder: 请把 JSON 或 ZIP 拖到这里。
     validations:
       required: true
   - type: textarea

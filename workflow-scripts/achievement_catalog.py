@@ -7,10 +7,12 @@ import subprocess
 from pathlib import Path
 from typing import Any
 
+from translation_artifacts import load_artifact
+
 import catalog_v2
 from recycle_bin import recycle_path
-from steam_schema import load_schema
 from translation_json import render_translation
+from steam_schema import sha256
 
 
 def _inline(value: str | None) -> str:
@@ -72,9 +74,9 @@ def _base_commit(base_ref: str, root: Path) -> str:
     return result.stdout.strip()
 
 
-def expected_review_catalog(
+def _previous_achievements(
     game_id: str, variant_id: str, *, base_ref: str, root: Path = catalog_v2.REPO_ROOT,
-) -> str:
+) -> dict[str, Any]:
     relative = catalog_v2.translation_json_relative_path(game_id, variant_id)
     base = _base_commit(base_ref, root)
     indexed = subprocess.run(
@@ -87,10 +89,26 @@ def expected_review_catalog(
             ["git", "show", f"{base}:{relative}"], cwd=root, check=True, capture_output=True,
         ).stdout
         previous = json.loads(original)["achievements"]
+    return previous
+
+
+def expected_review_catalog(
+    game_id: str, variant_id: str, *, base_ref: str, root: Path = catalog_v2.REPO_ROOT,
+) -> str:
+    previous = _previous_achievements(game_id, variant_id, base_ref=base_ref, root=root)
     path = root / catalog_v2.schema_relative_path(game_id, variant_id)
-    data, nodes = load_schema(path)
-    current = json.loads(render_translation(game_id, variant_id, data, nodes))
-    return render_achievement_review(path.name, current["source_sha256"], current["achievements"], previous)
+    if not path.is_file():
+        path = path.with_suffix(".json")
+    data, content = load_artifact(path)
+    current = content if isinstance(content, dict) else json.loads(render_translation(game_id, variant_id, data, content))
+    review = render_achievement_review(path.name, sha256(data), current["achievements"], previous)
+    if isinstance(content, dict):
+        source = content["source"]
+        review += (f"\n## Recorded source (contributor supplied)\n\n"
+                   f"- Kind: {_inline(source['kind'])}\n- URL: {_inline(source['url'])}\n"
+                   f"- Retrieved: {_inline(source['retrieved_at'])}\n"
+                   "- Display text only; this does not verify a Steam client BIN.\n")
+    return review
 
 
 def write_entry_review_catalogs(

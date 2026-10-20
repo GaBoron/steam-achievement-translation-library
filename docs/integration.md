@@ -52,10 +52,29 @@ https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/
 
 路径由 App ID 和版本 ID 推导。商店链接为 `https://store.steampowered.com/app/<app_id>/`。`submission.json` 是审核中的投稿元数据，客户端只读取 Catalog 中列出的已发布条目。
 
+## JSON-only 兼容扩展
+
+`index-v2.json` 仍是唯一权威目录。新增的可选 `text_games` 保存包含独立 JSON 的完整游戏记录；支持该扩展的客户端按 `{**catalog["games"], **catalog.get("text_games", {})}` 合并，后者覆盖相同 App ID 的记录，不能把两个记录的版本数或统计相加。
+
+`games` 保持旧格式，只包含真实 BIN 版本。混合游戏仅在 `default` 有 BIN 时在 `games` 提供 BIN 子集；完整版本集合保存在 `text_games`。默认版本没有 BIN 时，该游戏仅出现在 `text_games`。所有既有 BIN 路径、哈希及格式 1 JSON 不变，因此旧读者不会因为新条目缺少 BIN 哈希或使用新 JSON 版本而拒绝整份目录。旧客户端看不到独立 JSON；需要显式实现此扩展和格式 2，不能假设当前 SATLI lite 已支持。
+
+独立版本使用以下元数据，其余游戏字段和版本标签规则保持相同：
+
+```json
+{
+  "format": "json",
+  "languages": ["english", "schinese"],
+  "achievements": 1,
+  "json": {"version": 2, "size": 1000, "sha256": "<规范化 JSON 字节的 SHA-256>"}
+}
+```
+
+此版本只有 `.json`，没有 BIN `sha256`、`size` 或 `source_sha256`。下载后先核对 `json.size` 和原始字节 SHA-256，再核对格式、ID、语言、成就数、来源记录及已完成状态。更新缓存键使用 `json.sha256`。来源在 JSON 的 `source` 中，不表示 Steam 客户端验证或保证所有隐藏成就完整。详情见[格式说明](translation-json.md#独立-json格式-2)。
+
 ## 下载与校验
 
 - **完整 schema：** 下载 BIN，核对 `size` 与 `sha256`。它是 Steam Binary KeyValues 数据，安装、备份和恢复由客户端负责。
-- **显示文本：** 确认 `json.version == 1`，下载 JSON，核对 `json.size`、`version`、`app_id`、`variant_id`、`languages`、成就数以及 `source_sha256 == variant.sha256`。`source_sha256` 标识源 BIN，不是 JSON 自身的哈希。
+- **BIN 派生显示文本（格式 1）：** 确认 `json.version == 1`，下载 JSON，核对 `json.size`、`version`、`app_id`、`variant_id`、`languages`、成就数以及 `source_sha256 == variant.sha256`。`source_sha256` 标识源 BIN，不是 JSON 自身的哈希。
 - 单个 BIN 或 JSON 上限为 32 MiB。JSON 使用 UTF-8、LF 与结尾换行；字节数按收到的原始字节计算。
 - 以 `(app_id, API name, language)` 匹配显示文本，保留空字段。JSON 不包含解锁状态、进度、图标或可写回 BIN 的完整节点，详见 [JSON 格式](translation-json.md)。
 - 展示 `possibly_ineffective`、`outdated` 状态供用户判断；语言缺失、文件缺失、格式未知或校验失败时停止应用，保留可用缓存。
@@ -64,6 +83,7 @@ https://raw.githubusercontent.com/GaBoron/steam-achievement-translation-library/
 
 ```python
 import json
+import hashlib
 from urllib.request import Request, urlopen
 
 REPO = "GaBoron/steam-achievement-translation-library"
@@ -83,9 +103,9 @@ base = f"https://raw.githubusercontent.com/{REPO}/{revision}"
 catalog = json.loads(fetch(f"{base}/index-v2.json"))
 if catalog["version"] != 2:
     raise ValueError("Unsupported catalog format")
-game = catalog["games"][APP_ID]
+game = {**catalog["games"], **catalog.get("text_games", {})}[APP_ID]
 variant = game["variants"][VARIANT_ID]
-if variant.get("json", {}).get("version") != 1 or LANGUAGE not in variant["languages"]:
+if variant.get("json", {}).get("version") not in {1, 2} or LANGUAGE not in variant["languages"]:
     raise ValueError("Requested text format or language is unavailable")
 
 file = f"files/{APP_ID}/{VARIANT_ID}/UserGameStatsSchema_{APP_ID}.json"
@@ -93,10 +113,15 @@ raw = fetch(f"{base}/{file}")
 text = json.loads(raw)
 valid = (
     len(raw) == variant["json"]["size"]
-    and text["version"] == 1
+    and text["version"] == variant["json"]["version"]
     and text["app_id"] == APP_ID
     and text["variant_id"] == VARIANT_ID
-    and text["source_sha256"] == variant["sha256"]
+    and (
+        hashlib.sha256(raw).hexdigest() == variant["json"].get("sha256")
+        and variant["json"]["version"] == 2 and not text.get("draft") and "source_sha256" not in text
+        if variant.get("format") == "json" else
+        text["version"] == 1 and text.get("source_sha256") == variant["sha256"]
+    )
     and text["languages"] == variant["languages"]
     and len(text["achievements"]) == variant["achievements"]
 )
@@ -123,8 +148,16 @@ There are 1–16 variants, including the default choice `default`. Variant IDs m
 
 Derive file paths from app and variant IDs using the URLs above. Store links use `https://store.steampowered.com/app/<app_id>/`. Consume only published games listed in the catalog; `submission.json` is pending review metadata.
 
-For BIN downloads, verify byte size and SHA-256. BIN is complete Steam Binary KeyValues data; clients handle installation, backups, and restoration. For JSON, require `json.version == 1` and verify byte size, format version, app and variant IDs, language list, achievement count, and `source_sha256 == variant.sha256`. This identifies the source BIN, rather than hashing the JSON. Each BIN or JSON is limited to 32 MiB. JSON uses UTF-8, LF, and a final newline; measure the received bytes before decoding.
+For BIN downloads, verify byte size and SHA-256. BIN is complete Steam Binary KeyValues data; clients handle installation, backups, and restoration. For BIN-derived JSON, require `json.version == 1` and verify byte size, format version, app and variant IDs, language list, achievement count, and `source_sha256 == variant.sha256`. This identifies the source BIN, rather than hashing the JSON. Each BIN or JSON is limited to 32 MiB. JSON uses UTF-8, LF, and a final newline; measure the received bytes before decoding.
 
 Match display text by `(app_id, API name, language)` and preserve empty fields. JSON contains no unlock state, progress, icons, or complete nodes for writing a BIN; see the [JSON format](translation-json.md#english). Display catalog status to the user. Missing languages or files, unknown formats, and failed integrity checks must stop application while preserving a working cache.
+
+### JSON-only compatibility extension
+
+`index-v2.json` remains the sole authoritative catalog. Optional `text_games` contains complete game records with standalone JSON variants. Extension-aware clients merge `{**catalog["games"], **catalog.get("text_games", {})}`, with `text_games` replacing matching app IDs. Do not add duplicate games, variant counts or statistics together.
+
+`games` remains the legacy BIN-only projection. A mixed game appears there with its BIN subset only when `default` has a BIN; its full variants remain in `text_games`. Games without a BIN default appear only in `text_games`. Existing BIN paths, hashes and format 1 JSON stay unchanged, so legacy readers do not reject the whole catalog because of new versions or missing BIN hashes. They cannot see standalone JSON; implement this extension and format 2 explicitly. Current SATLI lite support must not be assumed.
+
+The standalone metadata example above uses `format: "json"`, languages, achievement count and `json: {version: 2, size, sha256}`. It has only a `.json` file and no BIN `sha256`, `size` or `source_sha256`. Verify received byte size and SHA-256, then format, IDs, languages, count, source records and completed status. Use `json.sha256` for cache updates. Recorded provenance in JSON `source` does not certify Steam client compatibility or complete hidden-achievement coverage. See [format 2](translation-json.md#standalone-json-format-2).
 
 The standard-library Python example above resolves a snapshot and validates text for a selected app, variant, and language. Production clients also need timeout, rate-limit, cache, and UI-escaping handling. Contributor-owned translations use CC BY 4.0; original game content and Steam schema rights belong to their respective holders. Preserve contributor attribution and a library source link; see [license and rights](../LICENSE.md).

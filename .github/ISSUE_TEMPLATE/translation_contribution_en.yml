@@ -1,5 +1,5 @@
 name: Submit Steam achievement translation
-description: Upload a new UserGameStatsSchema_<app_id>.zip
+description: Submit standalone translation JSON or a schema ZIP containing BIN/JSON
 title: "[Translation] Game name (Steam app ID)"
 labels: [翻译投稿]
 body:
@@ -8,7 +8,7 @@ body:
       value: |
         Search the [library website](https://gaboron.github.io/steam-achievement-translation-library/?lang=en) and open translation PRs for the Steam app ID before opening this issue. If automation finds a duplicate ID, it will comment and close this issue.
 
-        Upload `UserGameStatsSchema_<app_id>.zip`. A single-version ZIP contains one matching `.bin`; a multi-version ZIP declares every version in `translation-variants.json`. Automation derives the store URL from the app ID and detects languages from the schema.
+        Upload format 2 `UserGameStatsSchema_<app_id>.json` directly, or the existing BIN ZIP. Multi-version ZIPs use `translation-variants.json`. Automation checks source records and language coverage and creates a review PR. Standalone JSON is display text for compatible clients, not an installable BIN.
   - type: input
     id: game_name
     attributes:
@@ -28,9 +28,9 @@ body:
   - type: textarea
     id: schema_zip
     attributes:
-      label: Uploaded achievement schema ZIP
-      description: Upload `UserGameStatsSchema_<app_id>.zip`; use one matching `.bin` for a single version, or include `translation-variants.json` for multiple versions.
-      placeholder: Drag the ZIP here.
+      label: Translation JSON or schema ZIP
+      description: Upload UserGameStatsSchema_<app_id>.json (format 2, complete translations and remove draft) or the matching ZIP. Multi-version ZIPs include translation-variants.json; each variant contains BIN or JSON.
+      placeholder: Drag the JSON or ZIP here.
     validations:
       required: true
   - type: textarea
