@@ -1,0 +1,509 @@
+{
+  "version": 1,
+  "app_id": "371140",
+  "variant_id": "default",
+  "source_sha256": "52a450f7eb6807a7f728a020775498d61975510154b21aa8f1a3ac7b54dbfde6",
+  "languages": [
+    "english",
+    "japanese",
+    "schinese"
+  ],
+  "achievements": {
+    "COMPLETE_AREA1": {
+      "translations": {
+        "english": {
+          "name": "Activated Aegis",
+          "description": "Complete Area 1"
+        },
+        "japanese": {
+          "name": "イージス、起動",
+          "description": "エリア1をクリアする"
+        },
+        "schinese": {
+          "name": "激活神盾",
+          "description": "完成区域1"
+        }
+      }
+    },
+    "COMPLETE_AREA2": {
+      "translations": {
+        "english": {
+          "name": "Thwarted Imperial Plot",
+          "description": "Complete Area 2"
+        },
+        "japanese": {
+          "name": "阻まれた帝国の陰謀",
+          "description": "エリア2をクリアする"
+        },
+        "schinese": {
+          "name": "挫败帝国阴谋",
+          "description": "完成区域2"
+        }
+      }
+    },
+    "COMPLETE_AREA3": {
+      "translations": {
+        "english": {
+          "name": "Escaped Queen Snowfly",
+          "description": "Complete Area 3"
+        },
+        "japanese": {
+          "name": "女王ユキムシからの逃亡",
+          "description": "エリア3をクリアする"
+        },
+        "schinese": {
+          "name": "逃离雪蝇女王",
+          "description": "完成区域3"
+        }
+      }
+    },
+    "COMPLETE_AREA4": {
+      "translations": {
+        "english": {
+          "name": "Saved a Village, Mostly",
+          "description": "Complete Area 4"
+        },
+        "japanese": {
+          "name": "村（のほとんど）を救出",
+          "description": "エリア4をクリアする"
+        },
+        "schinese": {
+          "name": "拯救了村庄，大概吧",
+          "description": "完成区域4"
+        }
+      }
+    },
+    "COMPLETE_AREA5": {
+      "translations": {
+        "english": {
+          "name": "Hit Rock Bottom",
+          "description": "Complete Area 5"
+        },
+        "japanese": {
+          "name": "ロックボタン",
+          "description": "エリア5をクリアする"
+        },
+        "schinese": {
+          "name": "跌入谷底",
+          "description": "完成区域5"
+        }
+      }
+    },
+    "COMPLETE_AREA6": {
+      "translations": {
+        "english": {
+          "name": "Defended Aegis",
+          "description": "Complete Area 6"
+        },
+        "japanese": {
+          "name": "イージスを守れ",
+          "description": "エリア6をクリアする"
+        },
+        "schinese": {
+          "name": "守卫神盾",
+          "description": "完成区域6"
+        }
+      }
+    },
+    "UNLOCK_CHARACTER_CLU": {
+      "translations": {
+        "english": {
+          "name": "Hungry Hunter",
+          "description": "Clu Joined the Party"
+        },
+        "japanese": {
+          "name": "はらぺこハンター",
+          "description": "クルウをアンロックする"
+        },
+        "schinese": {
+          "name": "饥饿猎人",
+          "description": "克露加入了队伍"
+        }
+      }
+    },
+    "UNLOCK_CHARACTER_BART": {
+      "translations": {
+        "english": {
+          "name": "Grandpa to the Rescue",
+          "description": "Bart Joined the Party"
+        },
+        "japanese": {
+          "name": "お助けじいちゃん",
+          "description": "バートをアンロックする"
+        },
+        "schinese": {
+          "name": "爷爷来救场",
+          "description": "巴特加入了队伍"
+        }
+      }
+    },
+    "UNLOCK_CHARACTER_KAIIM": {
+      "translations": {
+        "english": {
+          "name": "Mysterious Monk",
+          "description": "Kaiim Joined the Party"
+        },
+        "japanese": {
+          "name": "ミステリアスな僧",
+          "description": "カイムをアンロックする"
+        },
+        "schinese": {
+          "name": "神秘僧侣",
+          "description": "凯伊姆加入了队伍"
+        }
+      }
+    },
+    "UNLOCK_CHARACTER_ZULA": {
+      "translations": {
+        "english": {
+          "name": "Princess of Thieves",
+          "description": "Zula Joined the Party"
+        },
+        "japanese": {
+          "name": "盗ゾクのプリンセス",
+          "description": "ズーラをアンロックする"
+        },
+        "schinese": {
+          "name": "盗贼公主",
+          "description": "祖拉加入了队伍"
+        }
+      }
+    },
+    "COLLECTED_RELICS_SMALL": {
+      "translations": {
+        "english": {
+          "name": "Ruinhunter-in-Training",
+          "description": "Collected 5 Relics"
+        },
+        "japanese": {
+          "name": "修行中のルインハンター",
+          "description": "遺物を5つ獲得する"
+        },
+        "schinese": {
+          "name": "见习遗迹猎人",
+          "description": "收集 5 件遗物"
+        }
+      }
+    },
+    "COLLECTED_RELICS_MEDIUM": {
+      "translations": {
+        "english": {
+          "name": "Ruinhunter Rising",
+          "description": "Collected 15 Relics"
+        },
+        "japanese": {
+          "name": "新鋭のルインハンター",
+          "description": "遺物を15個獲得する"
+        },
+        "schinese": {
+          "name": "遗迹猎人新星",
+          "description": "收集 15 件遗物"
+        }
+      }
+    },
+    "COLLECTED_RELICS_LARGE": {
+      "translations": {
+        "english": {
+          "name": "Master Ruinhunter",
+          "description": "Collected All the Relics"
+        },
+        "japanese": {
+          "name": "ルインハンターの巨匠",
+          "description": "遺物をすべて獲得する"
+        },
+        "schinese": {
+          "name": "遗迹猎人大师",
+          "description": "收集全部遗物"
+        }
+      }
+    },
+    "KILLED_ENEMIES_SMALL": {
+      "translations": {
+        "english": {
+          "name": "Amateur Hunter",
+          "description": "Killed 100 Enemies"
+        },
+        "japanese": {
+          "name": "アマチュアハンター",
+          "description": "てきを100体倒す"
+        },
+        "schinese": {
+          "name": "业余猎人",
+          "description": "击杀 100 名敌人"
+        }
+      }
+    },
+    "KILLED_ENEMIES_MEDIUM": {
+      "translations": {
+        "english": {
+          "name": "Expert Hunter",
+          "description": "Killed 200 Enemies"
+        },
+        "japanese": {
+          "name": "エキスパートハンター",
+          "description": "てきを200体倒す"
+        },
+        "schinese": {
+          "name": "专家猎人",
+          "description": "击杀 200 名敌人"
+        }
+      }
+    },
+    "KILLED_ENEMIES_LARGE": {
+      "translations": {
+        "english": {
+          "name": "Master Hunter",
+          "description": "Killed 300 Enemies"
+        },
+        "japanese": {
+          "name": "マスターハンター",
+          "description": "てきを300体倒す"
+        },
+        "schinese": {
+          "name": "猎人大师",
+          "description": "击杀 300 名敌人"
+        }
+      }
+    },
+    "KILLED_KS_DRAGON": {
+      "translations": {
+        "english": {
+          "name": "Dragon Kicker",
+          "description": "Defeat the (KS) Breath Dragon"
+        },
+        "japanese": {
+          "name": "ドラゴン・キッカー",
+          "description": "（KS）Breath Dragonを倒す"
+        },
+        "schinese": {
+          "name": "巨龙克星",
+          "description": "击败（KS）吐息巨龙"
+        }
+      }
+    },
+    "KILLED_KS_SAMURAI": {
+      "translations": {
+        "english": {
+          "name": "Samurai Kicker",
+          "description": "Defeat the Zanoh"
+        },
+        "japanese": {
+          "name": "サムライ・キッカー",
+          "description": "Zanoh（Samurai)を倒す"
+        },
+        "schinese": {
+          "name": "武士克星",
+          "description": "击败扎诺"
+        }
+      }
+    },
+    "KILLED_KS_SPIDER": {
+      "translations": {
+        "english": {
+          "name": "SpiderMech Kicker",
+          "description": "Defeat the MadXArmor"
+        },
+        "japanese": {
+          "name": "スパイダーメック・キッカー",
+          "description": "MadXArmor（Spider Mech）を倒す"
+        },
+        "schinese": {
+          "name": "蜘蛛机甲克星",
+          "description": "击败疯狂X装甲"
+        }
+      }
+    },
+    "COMPLETE_GAME_HARD": {
+      "translations": {
+        "english": {
+          "name": "Machine",
+          "description": "Complete Game on Hard Difficulty"
+        },
+        "japanese": {
+          "name": "キカイ",
+          "description": "ハードモードでゲームをクリアする"
+        },
+        "schinese": {
+          "name": "人形机器",
+          "description": "以困难难度通关"
+        }
+      }
+    },
+    "COMPLETE_GAME_INSANE": {
+      "translations": {
+        "english": {
+          "name": "The Clarent",
+          "description": "Complete Game on Insane Difficulty"
+        },
+        "japanese": {
+          "name": "クラレント",
+          "description": "メチャクチャモードでゲームをクリアする"
+        },
+        "schinese": {
+          "name": "克拉伦特",
+          "description": "以疯狂难度完成游戏"
+        }
+      }
+    },
+    "PURCHASE_ITEMS_SMALL": {
+      "translations": {
+        "english": {
+          "name": "Thrifty",
+          "description": "Purchase 5 items"
+        },
+        "japanese": {
+          "name": "倹約家",
+          "description": "アイテムを5つ買う"
+        },
+        "schinese": {
+          "name": "精打细算",
+          "description": "购买5件物品"
+        }
+      }
+    },
+    "PURCHASE_ITEMS_MEDIUM": {
+      "translations": {
+        "english": {
+          "name": "Retail Therapy",
+          "description": "Purchase 15 items"
+        },
+        "japanese": {
+          "name": "お買い物セラピー",
+          "description": "アイテムを15個買う"
+        },
+        "schinese": {
+          "name": "购物疗法",
+          "description": "购买15件物品"
+        }
+      }
+    },
+    "PURCHASE_ITEMS_LARGE": {
+      "translations": {
+        "english": {
+          "name": "Big Spender",
+          "description": "Purchase all items"
+        },
+        "japanese": {
+          "name": "お得意さま",
+          "description": "すべてのアイテムを買う"
+        },
+        "schinese": {
+          "name": "挥金如土",
+          "description": "购买所有物品"
+        }
+      }
+    },
+    "COLLECTED_DIALOG_RP": {
+      "translations": {
+        "english": {
+          "name": "Sweet Talker",
+          "description": "Earn 50 RP from Dialog Choices"
+        },
+        "japanese": {
+          "name": "おだて上手",
+          "description": "ダイアログの選択で50RPを獲得する"
+        },
+        "schinese": {
+          "name": "巧舌如簧",
+          "description": "通过对话选项获得50点RP"
+        }
+      }
+    },
+    "COMPLETE_AREA_DEATHLESS": {
+      "translations": {
+        "english": {
+          "name": "Death Defying",
+          "description": "Complete an entire area without dying"
+        },
+        "japanese": {
+          "name": "死に抗え",
+          "description": "1つのエリア全体を、1度も死なずにクリアする"
+        },
+        "schinese": {
+          "name": "生死无畏",
+          "description": "无死亡完成整个区域"
+        }
+      }
+    },
+    "COMPLETE_GAME_DEATHLESS": {
+      "translations": {
+        "english": {
+          "name": "Deathless",
+          "description": "Complete the game without dying"
+        },
+        "japanese": {
+          "name": "死なず",
+          "description": "1度も死なずにゲームをクリアする"
+        },
+        "schinese": {
+          "name": "不死之身",
+          "description": "全程无死亡完成游戏"
+        }
+      }
+    },
+    "STORY_EVENT_1_3_START_TD": {
+      "translations": {
+        "english": {
+          "name": "Discovered Aegis",
+          "description": "Discovered Aegis"
+        },
+        "japanese": {
+          "name": "イージス、発見",
+          "description": "イージスを発見する"
+        },
+        "schinese": {
+          "name": "发现神盾",
+          "description": "发现了神盾"
+        }
+      }
+    },
+    "STORY_EVENT_3_2_STOP_TD": {
+      "translations": {
+        "english": {
+          "name": "The Blood of a God",
+          "description": "Obtained The Blood of A God"
+        },
+        "japanese": {
+          "name": "神の血",
+          "description": "神の血を入手する"
+        },
+        "schinese": {
+          "name": "神之血",
+          "description": "获得神之血"
+        }
+      }
+    },
+    "STORY_EVENT_5_2_POST_TD": {
+      "translations": {
+        "english": {
+          "name": "Saved a Princess",
+          "description": "Rescued Shreya"
+        },
+        "japanese": {
+          "name": "王女の救出",
+          "description": "シュレイヤを救出する"
+        },
+        "schinese": {
+          "name": "救下公主",
+          "description": "救出了什蕾雅"
+        }
+      }
+    },
+    "STORY_EVENT_5_3_START_LEVEL": {
+      "translations": {
+        "english": {
+          "name": "Reunited",
+          "description": "Found Kobo and the Clarent"
+        },
+        "japanese": {
+          "name": "再会",
+          "description": "コボとクラレントを見つける"
+        },
+        "schinese": {
+          "name": "重逢",
+          "description": "找到了科波和克拉伦特号"
+        }
+      }
+    }
+  }
+}
