@@ -1,0 +1,624 @@
+{
+  "version": 1,
+  "app_id": "686200",
+  "variant_id": "default",
+  "source_sha256": "84edb5612b80e777ad3d8df2b9217531607cfec47966b1bc1717a2cd10c2113e",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "ACH_HEAT_UP_THE_NIGHT": {
+      "translations": {
+        "english": {
+          "name": "Heating up the Night",
+          "description": "Kill 3 enemies by blowing up one barrel"
+        },
+        "schinese": {
+          "name": "点燃今夜",
+          "description": "用一个油桶炸死3名敌人"
+        }
+      }
+    },
+    "ACH_TWO_IS_A_PARTY": {
+      "translations": {
+        "english": {
+          "name": "Two is a Party",
+          "description": "Win one mission in Coop"
+        },
+        "schinese": {
+          "name": "二人成局",
+          "description": "在合作模式中完成一次任务"
+        }
+      }
+    },
+    "ACH_GANGLAND_PACIFIER": {
+      "translations": {
+        "english": {
+          "name": "Gangland Pacifier",
+          "description": "Successfully complete all missions in Chapter 1"
+        },
+        "schinese": {
+          "name": "黑帮平定者",
+          "description": "成功完成第1章全部任务"
+        }
+      }
+    },
+    "ACH_RADICALIZED": {
+      "translations": {
+        "english": {
+          "name": "Radicalized",
+          "description": "Successfully complete all missions in Chapter 2"
+        },
+        "schinese": {
+          "name": "激进化",
+          "description": "成功完成第2章全部任务"
+        }
+      }
+    },
+    "ACH_KETCHUP": {
+      "translations": {
+        "english": {
+          "name": "Ketchup",
+          "description": "Kill an enemy with an elevator"
+        },
+        "schinese": {
+          "name": "番茄酱",
+          "description": "用电梯击杀一名敌人"
+        }
+      }
+    },
+    "ACH_3STARS_MISSION": {
+      "translations": {
+        "english": {
+          "name": "Warming Up",
+          "description": "Get 3 stars in a mission"
+        },
+        "schinese": {
+          "name": "热身运动",
+          "description": "在一次任务中获得3星"
+        }
+      }
+    },
+    "ACH_CLEANUP_THE_HOOD": {
+      "translations": {
+        "english": {
+          "name": "Cleanup the Hood",
+          "description": "3-Star all missions in Chapter 1"
+        },
+        "schinese": {
+          "name": "清理街区",
+          "description": "第1章全部任务获得3星"
+        }
+      }
+    },
+    "ACH_NO_QUARTER": {
+      "translations": {
+        "english": {
+          "name": "No Quarter",
+          "description": "3-Star all missions in Chapter 2"
+        },
+        "schinese": {
+          "name": "格杀勿论",
+          "description": "第2章全部任务获得3星"
+        }
+      }
+    },
+    "ACH_NO_MERCY": {
+      "translations": {
+        "english": {
+          "name": "No Mercy",
+          "description": "Kill 50 bad guys"
+        },
+        "schinese": {
+          "name": "绝不手软",
+          "description": "击杀50名坏蛋"
+        }
+      }
+    },
+    "ACH_NO_RESPITE": {
+      "translations": {
+        "english": {
+          "name": "No Respite",
+          "description": "Kill 1000 bad guys"
+        },
+        "schinese": {
+          "name": "不得喘息",
+          "description": "击杀1000名坏蛋"
+        }
+      }
+    },
+    "ACH_THE_THIN_BLUE_LINE": {
+      "translations": {
+        "english": {
+          "name": "The Thin Blue Line",
+          "description": "Rescue 50 Wounded Policemen"
+        },
+        "schinese": {
+          "name": "蓝色细线",
+          "description": "救援50名受伤警察"
+        }
+      }
+    },
+    "ACH_EOD": {
+      "translations": {
+        "english": {
+          "name": "EOD",
+          "description": "Disarm 30 bombs"
+        },
+        "schinese": {
+          "name": "排爆专家",
+          "description": "拆除30枚炸弹"
+        }
+      }
+    },
+    "ACH_DOOR_KICKER": {
+      "translations": {
+        "english": {
+          "name": "Door Kicker",
+          "description": "Kick Open 100 Doors"
+        },
+        "schinese": {
+          "name": "破门者",
+          "description": "踹开100扇门"
+        }
+      }
+    },
+    "ACH_DOOR_HATER": {
+      "translations": {
+        "english": {
+          "name": "Door Hater",
+          "description": "Kick Open 1000 Doors"
+        },
+        "schinese": {
+          "name": "恨门者",
+          "description": "踹开1000扇门"
+        }
+      }
+    },
+    "ACH_ATTENTION_GETTER": {
+      "translations": {
+        "english": {
+          "name": "Attention Getter",
+          "description": "Blow Open 100 Doors"
+        },
+        "schinese": {
+          "name": "吸睛专家",
+          "description": "炸开100扇门"
+        }
+      }
+    },
+    "ACH_I_LIKE_THEM_NUMB": {
+      "translations": {
+        "english": {
+          "name": "I Like Them Numb",
+          "description": "Stun 500 enemies"
+        },
+        "schinese": {
+          "name": "就爱麻翻他们",
+          "description": "击晕500名敌人"
+        }
+      }
+    },
+    "ACH_GOOD_BREACH": {
+      "translations": {
+        "english": {
+          "name": "Good Breach",
+          "description": "Kill 3 enemies with one breaching charge"
+        },
+        "schinese": {
+          "name": "漂亮破门",
+          "description": "用一枚破门炸药击杀3名敌人"
+        }
+      }
+    },
+    "ACH_NINJA": {
+      "translations": {
+        "english": {
+          "name": "Ninja",
+          "description": "Complete a level without taking any damage whatsoever"
+        },
+        "schinese": {
+          "name": "忍者",
+          "description": "在不受到任何伤害的情况下完成一个关卡"
+        }
+      }
+    },
+    "ACH_EFFICIENT": {
+      "translations": {
+        "english": {
+          "name": "Efficient",
+          "description": "Use sniper support to kill 100 enemies"
+        },
+        "schinese": {
+          "name": "效率至上",
+          "description": "使用狙击支援击杀100名敌人"
+        }
+      }
+    },
+    "ACH_CLEANSE_BY_FIRE": {
+      "translations": {
+        "english": {
+          "name": "Cleanse by Fire",
+          "description": "Set 20 enemies on fire"
+        },
+        "schinese": {
+          "name": "以火净化",
+          "description": "让20名敌人着火"
+        }
+      }
+    },
+    "ACH_TROUBLEMAKERS_ARRIVING": {
+      "translations": {
+        "english": {
+          "name": "Troublemakers Arriving",
+          "description": "Unlock Chapter 2"
+        },
+        "schinese": {
+          "name": "捣乱者来袭",
+          "description": "解锁第二章"
+        }
+      }
+    },
+    "ACH_THINGS_HEATING_UP": {
+      "translations": {
+        "english": {
+          "name": "Things Heating Up",
+          "description": "Unlock Chapter 3"
+        },
+        "schinese": {
+          "name": "事态升温",
+          "description": "解锁第三章"
+        }
+      }
+    },
+    "ACH_WE_STAND_ON_GUARD": {
+      "translations": {
+        "english": {
+          "name": "We Stand on Guard",
+          "description": "3-Star all missions in Chapter 3"
+        },
+        "schinese": {
+          "name": "严阵以待",
+          "description": "第三章所有任务均获得3星评价"
+        }
+      }
+    },
+    "ACH_CAVALRY_IS_HERE": {
+      "translations": {
+        "english": {
+          "name": "Cavalry is Here",
+          "description": "Rescue 50 hostages"
+        },
+        "schinese": {
+          "name": "援军驾到",
+          "description": "救援50名人质"
+        }
+      }
+    },
+    "ACH_BUILDING_COMMUNITY": {
+      "translations": {
+        "english": {
+          "name": "Building Community",
+          "description": "Rescue 1000 hostages"
+        },
+        "schinese": {
+          "name": "建设社区",
+          "description": "救援1000名人质"
+        }
+      }
+    },
+    "ACH_SLACKER": {
+      "translations": {
+        "english": {
+          "name": "Slacker",
+          "description": "Use sniper support to kill 1000 enemies"
+        },
+        "schinese": {
+          "name": "懒鬼",
+          "description": "使用狙击手支援击杀1000名敌人"
+        }
+      }
+    },
+    "ACH_ALERT_EXTINGUISHED": {
+      "translations": {
+        "english": {
+          "name": "Alert Extinguished",
+          "description": "Successfully complete all missions in Chapter 3"
+        },
+        "schinese": {
+          "name": "警报解除",
+          "description": "成功完成第三章的所有任务"
+        }
+      }
+    },
+    "ACH_DARWIN_AWARD": {
+      "translations": {
+        "english": {
+          "name": "Darwin Award",
+          "description": "Kill yourself with your own explosives"
+        },
+        "schinese": {
+          "name": "达尔文奖",
+          "description": "被自己的炸药炸死"
+        }
+      }
+    },
+    "ACH_BAD_EYESIGHT": {
+      "translations": {
+        "english": {
+          "name": "Bad Eyesight",
+          "description": "Kill 50 Hostages"
+        },
+        "schinese": {
+          "name": "视力不佳",
+          "description": "击杀50名人质"
+        }
+      }
+    },
+    "ACH_TERMINATOR": {
+      "translations": {
+        "english": {
+          "name": "Terminator",
+          "description": "Use 5 extra lives in the same mission"
+        },
+        "schinese": {
+          "name": "终结者",
+          "description": "在同一任务中使用5次额外生命"
+        }
+      }
+    },
+    "ACH_STAY_WITH_ME": {
+      "translations": {
+        "english": {
+          "name": "Stay With Me",
+          "description": "Resurrect another player 5 times in the same mission"
+        },
+        "schinese": {
+          "name": "别丢下我",
+          "description": "在同一次任务中复活其他玩家5次"
+        }
+      }
+    },
+    "ACH_COMPLETIONIST": {
+      "translations": {
+        "english": {
+          "name": "Completionist",
+          "description": "Collect all 20 secret items"
+        },
+        "schinese": {
+          "name": "完美主义者",
+          "description": "收集全部20件秘密物品"
+        }
+      }
+    },
+    "ACH_LOOKS_INTERESTING": {
+      "translations": {
+        "english": {
+          "name": "Looks Interesting",
+          "description": "Collect your first secret item"
+        },
+        "schinese": {
+          "name": "有点意思",
+          "description": "收集你的第一件秘密物品"
+        }
+      }
+    },
+    "ACH_PEST_CONTROL": {
+      "translations": {
+        "english": {
+          "name": "Pest Control",
+          "description": "Kill 50 rats"
+        },
+        "schinese": {
+          "name": "害虫防治",
+          "description": "击杀50只老鼠"
+        }
+      }
+    },
+    "ACH_NICK_OF_TIME": {
+      "translations": {
+        "english": {
+          "name": "In the Nick of Time",
+          "description": "Defuse a bomb in the last 3 seconds"
+        },
+        "schinese": {
+          "name": "千钧一发",
+          "description": "在最后3秒内拆除炸弹"
+        }
+      }
+    },
+    "ACH_BITE_THE_APPLE": {
+      "translations": {
+        "english": {
+          "name": "Bite the Apple",
+          "description": "Successfully complete all missions in Chapter 4"
+        },
+        "schinese": {
+          "name": "咬一口苹果",
+          "description": "成功完成第4章的所有任务"
+        }
+      }
+    },
+    "ACH_NOT_IN_MY_CITY": {
+      "translations": {
+        "english": {
+          "name": "Not in my City",
+          "description": "3-Star all missions in Chapter 4"
+        },
+        "schinese": {
+          "name": "我的城市不容侵犯",
+          "description": "第4章所有任务均获得3星评价"
+        }
+      }
+    },
+    "ACH_METRO_CALLING": {
+      "translations": {
+        "english": {
+          "name": "Metro Calling",
+          "description": "Unlock Chapter 4"
+        },
+        "schinese": {
+          "name": "地铁召唤",
+          "description": "解锁第4章"
+        }
+      }
+    },
+    "ACH_WARRANT_SERVER": {
+      "translations": {
+        "english": {
+          "name": "Warrant Server",
+          "description": "Make 5 VIP Arrests"
+        },
+        "schinese": {
+          "name": "送达逮捕令",
+          "description": "逮捕5名VIP"
+        }
+      }
+    },
+    "ACH_NOT_ON_MY_WATCH": {
+      "translations": {
+        "english": {
+          "name": "Not on My Watch",
+          "description": "Successfully complete all missions in Chapter 5"
+        },
+        "schinese": {
+          "name": "我眼皮底下休想",
+          "description": "成功完成第5章的所有任务"
+        }
+      }
+    },
+    "ACH_CARTEL_ANNIHILATOR": {
+      "translations": {
+        "english": {
+          "name": "Cartel Annihilator",
+          "description": "3-Star all missions in Chapter 5"
+        },
+        "schinese": {
+          "name": "卡特尔歼灭者",
+          "description": "第5章所有任务均获得3星评价"
+        }
+      }
+    },
+    "ACH_HELL_IS_COMING": {
+      "translations": {
+        "english": {
+          "name": "Hell is Coming",
+          "description": "Unlock Chapter 5"
+        },
+        "schinese": {
+          "name": "地狱降临",
+          "description": "解锁第5章"
+        }
+      }
+    },
+    "ACH_DEATH_DEALER": {
+      "translations": {
+        "english": {
+          "name": "Death Dealer",
+          "description": "Get 100 kills as Assaulter"
+        },
+        "schinese": {
+          "name": "死亡贩子",
+          "description": "使用突击手取得100次击杀"
+        }
+      }
+    },
+    "ACH_BUCKSHOT_SEASON": {
+      "translations": {
+        "english": {
+          "name": "Buckshot Season",
+          "description": "Get 100 kills as Breacher"
+        },
+        "schinese": {
+          "name": "鹿弹狩猎季",
+          "description": "使用破门手取得100次击杀"
+        }
+      }
+    },
+    "ACH_LADY_JUSTICE": {
+      "translations": {
+        "english": {
+          "name": "Lady Justice",
+          "description": "Get 100 kills as Shield"
+        },
+        "schinese": {
+          "name": "正义女神",
+          "description": "使用盾卫取得100次击杀"
+        }
+      }
+    },
+    "ACH_I_SEE_THINGS": {
+      "translations": {
+        "english": {
+          "name": "I See Things and I Kill Them",
+          "description": "Get 100 kills as Recon"
+        },
+        "schinese": {
+          "name": "见一个杀一个",
+          "description": "使用侦察兵取得100次击杀"
+        }
+      }
+    },
+    "ACH_FEDERAL_AUTHORITY": {
+      "translations": {
+        "english": {
+          "name": "Federal Authority",
+          "description": "Get 100 kills as Agent Fergie"
+        },
+        "schinese": {
+          "name": "联邦权威",
+          "description": "使用菲姬探员取得100次击杀"
+        }
+      }
+    },
+    "ACH_GRUMPY_MCANGRY": {
+      "translations": {
+        "english": {
+          "name": "Grumpy McAngry",
+          "description": "Get 100 kills as Off-duty Guy"
+        },
+        "schinese": {
+          "name": "暴躁老哥",
+          "description": "使用休班老哥取得100次击杀"
+        }
+      }
+    },
+    "ACH_GOING_HOME": {
+      "translations": {
+        "english": {
+          "name": "Going Home",
+          "description": "Unlock Chapter 7"
+        },
+        "schinese": {
+          "name": "回家",
+          "description": "解锁第7章"
+        }
+      }
+    },
+    "ACH_COURT_IS_CLEAR": {
+      "translations": {
+        "english": {
+          "name": "The Court is Clear",
+          "description": "Complete all missions in chapter 7"
+        },
+        "schinese": {
+          "name": "庭院已肃清",
+          "description": "完成第7章所有任务"
+        }
+      }
+    },
+    "ACH_KING_OF_CASTLE": {
+      "translations": {
+        "english": {
+          "name": "King of my Castle",
+          "description": "3-Star all missions in Chapter 7"
+        },
+        "schinese": {
+          "name": "城堡之王",
+          "description": "第7章所有任务均获得3星评价"
+        }
+      }
+    }
+  }
+}

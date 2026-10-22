@@ -1,0 +1,2472 @@
+{
+  "version": 1,
+  "app_id": "632360",
+  "variant_id": "default",
+  "source_sha256": "8aa97cc78beff05f7c57be0c5f3715bea21d5b654e66f0839a50408200de6b51",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "AttackSpeed": {
+      "translations": {
+        "english": {
+          "name": "Rapidfire",
+          "description": "Reach +200% attack speed."
+        },
+        "schinese": {
+          "name": "疾速射击",
+          "description": "攻击速度达到+200%。"
+        }
+      }
+    },
+    "AutomationActivation": {
+      "translations": {
+        "english": {
+          "name": "Automation Activation",
+          "description": "Activate 6 turrets in a single run."
+        },
+        "schinese": {
+          "name": "自动化启动",
+          "description": "在单局游戏中激活6个炮塔。"
+        }
+      }
+    },
+    "BeatArena": {
+      "translations": {
+        "english": {
+          "name": "...To Be Left Alone",
+          "description": "Stabilize the Cell in the Void Fields."
+        },
+        "schinese": {
+          "name": "……只求独处",
+          "description": "在虚空领域中稳定细胞。"
+        }
+      }
+    },
+    "BurnToDeath": {
+      "translations": {
+        "english": {
+          "name": "Warm For Life",
+          "description": "Die three times while burning."
+        },
+        "schinese": {
+          "name": "一生温暖",
+          "description": "在燃烧状态下死亡3次。"
+        }
+      }
+    },
+    "CaptainBuyMegaDrone": {
+      "translations": {
+        "english": {
+          "name": "Captain: Worth Every Penny",
+          "description": "As Captain, repair and recruit a TC-280 Prototype."
+        },
+        "schinese": {
+          "name": "舰长：物超所值",
+          "description": "使用舰长修复并招募一台TC-280原型机。"
+        }
+      }
+    },
+    "CaptainClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "Captain: Mastery",
+          "description": "As Captain, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "舰长：精通",
+          "description": "使用舰长在季风难度下通关游戏或选择湮灭。"
+        }
+      }
+    },
+    "CaptainVisitSeveralStages": {
+      "translations": {
+        "english": {
+          "name": "Captain: Wanderlust",
+          "description": "As Captain, visit 10 different environments in a single run."
+        },
+        "schinese": {
+          "name": "舰长：漫游癖",
+          "description": "使用舰长在单局游戏中到访10个不同环境。"
+        }
+      }
+    },
+    "CarryLunarItems": {
+      "translations": {
+        "english": {
+          "name": "Moon Worshipper",
+          "description": "Carry 5 Lunar items in a single run."
+        },
+        "schinese": {
+          "name": "拜月者",
+          "description": "在单局游戏中携带5件月球物品。"
+        }
+      }
+    },
+    "ChargeTeleporterWhileNearDeath": {
+      "translations": {
+        "english": {
+          "name": "Glorious Battle",
+          "description": "Charge the Teleporter with less than 10% health."
+        },
+        "schinese": {
+          "name": "光荣之战",
+          "description": "在生命值低于10%时为传送器充能。"
+        }
+      }
+    },
+    "CleanupDuty": {
+      "translations": {
+        "english": {
+          "name": "Cleanup Duty",
+          "description": "Destroy 20 flying rocks in Sky Meadow."
+        },
+        "schinese": {
+          "name": "清理任务",
+          "description": "在天空草原摧毁20个飞行岩石。"
+        }
+      }
+    },
+    "CommandoClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "Commando: Mastery",
+          "description": "As Commando, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "突击队员：精通",
+          "description": "使用突击队员在季风难度下通关或湮灭。"
+        }
+      }
+    },
+    "CommandoFastFirstStageClear": {
+      "translations": {
+        "english": {
+          "name": "Commando: Godspeed",
+          "description": "As Commando, fully charge the first-stage teleporter before the timer hits 5 minutes."
+        },
+        "schinese": {
+          "name": "突击队员：神速",
+          "description": "使用突击队员在计时达到5分钟之前为第一关的传送器完全充能。"
+        }
+      }
+    },
+    "CommandoKillOverloadingWorm": {
+      "translations": {
+        "english": {
+          "name": "Commando: Rolling Thunder",
+          "description": "As Commando, land the killing blow on an Overloading Worm."
+        },
+        "schinese": {
+          "name": "突击队员：滚滚惊雷",
+          "description": "使用突击队员对超载蠕虫造成致命一击。"
+        }
+      }
+    },
+    "CommandoNonLunarEndurance": {
+      "translations": {
+        "english": {
+          "name": "Commando: Incorruptible",
+          "description": "As Commando, clear 20 stages in a single run without picking up any Lunar items."
+        },
+        "schinese": {
+          "name": "突击队员：坚贞不屈",
+          "description": "使用突击队员在一次游戏中完成20个关卡，且不拾取任何月球物品。"
+        }
+      }
+    },
+    "Complete20Stages": {
+      "translations": {
+        "english": {
+          "name": "The Long Road",
+          "description": "Complete 20 stages in a single run."
+        },
+        "schinese": {
+          "name": "漫漫征途",
+          "description": "在一次游戏中完成20个关卡。"
+        }
+      }
+    },
+    "Complete30StagesCareer": {
+      "translations": {
+        "english": {
+          "name": "Engineering Perfection",
+          "description": "Complete 30 stages."
+        },
+        "schinese": {
+          "name": "完美工程",
+          "description": "累计完成30个关卡。"
+        }
+      }
+    },
+    "CompleteMainEnding": {
+      "translations": {
+        "english": {
+          "name": "Washed Away",
+          "description": "Beat the game."
+        },
+        "schinese": {
+          "name": "随波而逝",
+          "description": "通关游戏。"
+        }
+      }
+    },
+    "CompleteMainEndingHard": {
+      "translations": {
+        "english": {
+          "name": "The Calm",
+          "description": "Beat the game on Monsoon difficulty."
+        },
+        "schinese": {
+          "name": "风平浪静",
+          "description": "在季风难度下通关游戏。"
+        }
+      }
+    },
+    "CompleteMultiBossShrine": {
+      "translations": {
+        "english": {
+          "name": "Ascendant",
+          "description": "Defeat the Teleporter bosses after activating 2 Shrines of the Mountain."
+        },
+        "schinese": {
+          "name": "登峰造极",
+          "description": "在激活2座山之祭坛后击败传送器首领。"
+        }
+      }
+    },
+    "CompletePrismaticTrial": {
+      "translations": {
+        "english": {
+          "name": "Prismatically Aligned",
+          "description": "Complete a Prismatic Trial."
+        },
+        "schinese": {
+          "name": "棱镜校准",
+          "description": "完成一次棱镜试炼。"
+        }
+      }
+    },
+    "CompleteTeleporter": {
+      "translations": {
+        "english": {
+          "name": "Advancement",
+          "description": "Complete a Teleporter event."
+        },
+        "schinese": {
+          "name": "进步",
+          "description": "完成一次传送器事件。"
+        }
+      }
+    },
+    "CompleteTeleporterWithoutInjury": {
+      "translations": {
+        "english": {
+          "name": "Flawless",
+          "description": "Fully charge a Teleporter without getting hit."
+        },
+        "schinese": {
+          "name": "完美无瑕",
+          "description": "在不被击中的情况下为传送器完全充能。"
+        }
+      }
+    },
+    "CompleteThreeStages": {
+      "translations": {
+        "english": {
+          "name": "Warrior",
+          "description": "Reach and complete the 3rd Teleporter event without dying."
+        },
+        "schinese": {
+          "name": "勇士",
+          "description": "在不死亡的情况下到达并完成第3次传送器事件。"
+        }
+      }
+    },
+    "CompleteThreeStagesWithoutHealing": {
+      "translations": {
+        "english": {
+          "name": "Naturopath",
+          "description": "Without healing, reach and complete the 3rd Teleporter event."
+        },
+        "schinese": {
+          "name": "自然疗法师",
+          "description": "在不接受治疗的情况下到达并完成第3次传送器事件。"
+        }
+      }
+    },
+    "CompleteUnknownEnding": {
+      "translations": {
+        "english": {
+          "name": "True Respite",
+          "description": "Obliterate yourself at the Obelisk.."
+        },
+        "schinese": {
+          "name": "真正的喘息",
+          "description": "在方尖碑处抹除自己。"
+        }
+      }
+    },
+    "CrocoClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "Acrid: Mastery",
+          "description": "As Acrid, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "酸液：精通",
+          "description": "作为酸液，在季风难度下通关或抹除自己。"
+        }
+      }
+    },
+    "CrocoKillScavenger": {
+      "translations": {
+        "english": {
+          "name": "Acrid: Bad Medicine",
+          "description": "As Acrid, land the final blow on a Scavenger."
+        },
+        "schinese": {
+          "name": "酸液：劣药",
+          "description": "作为酸液，对拾荒者造成最后一击。"
+        }
+      }
+    },
+    "CrocoKillWeakEnemiesMilestone": {
+      "translations": {
+        "english": {
+          "name": "Acrid: Easy Prey",
+          "description": "As Acrid, land the killing blow on 50 total enemies that have 1 hit point left."
+        },
+        "schinese": {
+          "name": "酸液：轻松的猎物",
+          "description": "作为酸液，对总共50个仅剩1点生命值的敌人造成致命一击。"
+        }
+      }
+    },
+    "CrocoTotalInfectionsMilestone": {
+      "translations": {
+        "english": {
+          "name": "Acrid: Pandemic",
+          "description": "As Acrid, inflict Poison 1000 total times."
+        },
+        "schinese": {
+          "name": "酸液：瘟疫",
+          "description": "作为酸液，总共造成1000次中毒。"
+        }
+      }
+    },
+    "DefeatSuperRoboBallBoss": {
+      "translations": {
+        "english": {
+          "name": "Guidance Offline",
+          "description": "Defeat the unique guardian of Siren's Call."
+        },
+        "schinese": {
+          "name": "制导离线",
+          "description": "击败塞壬的呼唤的独特守护者。"
+        }
+      }
+    },
+    "Die5Times": {
+      "translations": {
+        "english": {
+          "name": "Learning Process",
+          "description": "Die 5 times."
+        },
+        "schinese": {
+          "name": "学习过程",
+          "description": "死亡5次。"
+        }
+      }
+    },
+    "Die20Times": {
+      "translations": {
+        "english": {
+          "name": "I Love Dying!",
+          "description": "Die 20 times."
+        },
+        "schinese": {
+          "name": "我爱死亡！",
+          "description": "死亡20次。"
+        }
+      }
+    },
+    "Discover5Equipment": {
+      "translations": {
+        "english": {
+          "name": "Experimenting",
+          "description": "Pick up 5 different types of Equipment."
+        },
+        "schinese": {
+          "name": "实验摸索",
+          "description": "拾取5种不同的装备。"
+        }
+      }
+    },
+    "Discover10UniqueTier1": {
+      "translations": {
+        "english": {
+          "name": "The Basics",
+          "description": "Discover 10 unique white items."
+        },
+        "schinese": {
+          "name": "基础入门",
+          "description": "发现10种不同的白色物品。"
+        }
+      }
+    },
+    "EngiArmy": {
+      "translations": {
+        "english": {
+          "name": "Engineer: Better With Friends",
+          "description": "As Engineer, recruit 12 minions at one time."
+        },
+        "schinese": {
+          "name": "工程师：人多力量大",
+          "description": "作为工程师，同时招募12名随从。"
+        }
+      }
+    },
+    "EngiClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "Engineer: Mastery",
+          "description": "As Engineer, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "工程师：精通",
+          "description": "作为工程师，在季风难度下通关游戏或选择湮灭。"
+        }
+      }
+    },
+    "EngiClearTeleporterWithZeroMonsters": {
+      "translations": {
+        "english": {
+          "name": "Engineer: Zero Sum",
+          "description": "As Engineer, finish charging the teleporter with zero monsters remaining on the stage."
+        },
+        "schinese": {
+          "name": "工程师：零和",
+          "description": "作为工程师，在场上没有剩余怪物的情况下完成传送门充能。"
+        }
+      }
+    },
+    "EngiKillBossQuick": {
+      "translations": {
+        "english": {
+          "name": "Engineer: 100% Calculated",
+          "description": "As Engineer, defeat the teleporter boss in less than 5 seconds after it spawns."
+        },
+        "schinese": {
+          "name": "工程师：算无遗策",
+          "description": "作为工程师，在传送门首领生成后5秒内将其击败。"
+        }
+      }
+    },
+    "FailShrineChance": {
+      "translations": {
+        "english": {
+          "name": "\"Is This Bugged?\"",
+          "description": "Fail the Shrine of Chance 3 times in a row."
+        },
+        "schinese": {
+          "name": "“这是出Bug了吗？”",
+          "description": "连续3次在机遇神龛中失败。"
+        }
+      }
+    },
+    "FindDevilAltar": {
+      "translations": {
+        "english": {
+          "name": "Her Concepts",
+          "description": "Find the Altar to N'kuhana."
+        },
+        "schinese": {
+          "name": "她的理念",
+          "description": "找到奈库哈纳祭坛。"
+        }
+      }
+    },
+    "FindTimedChest": {
+      "translations": {
+        "english": {
+          "name": "[REDACTED]",
+          "description": "Open the Timed Security Chest on Rallypoint Delta."
+        },
+        "schinese": {
+          "name": "[数据删除]",
+          "description": "在三角洲集结点打开计时安全箱。"
+        }
+      }
+    },
+    "FindUniqueNewtStatues": {
+      "translations": {
+        "english": {
+          "name": "Newtist",
+          "description": "Discover and activate 8 unique Newt Altars."
+        },
+        "schinese": {
+          "name": "蝾螈信徒",
+          "description": "发现并激活 8 个不同的蝾螈祭坛。"
+        }
+      }
+    },
+    "FreeMage": {
+      "translations": {
+        "english": {
+          "name": "Pause.",
+          "description": "Free the survivor suspended in time."
+        },
+        "schinese": {
+          "name": "暂停。",
+          "description": "解救被时间冻结的幸存者。"
+        }
+      }
+    },
+    "HardEliteBossKill": {
+      "translations": {
+        "english": {
+          "name": "Deicide",
+          "description": "Defeat an Elite boss on Monsoon difficulty."
+        },
+        "schinese": {
+          "name": "弑神",
+          "description": "在季风难度下击败一名精英首领。"
+        }
+      }
+    },
+    "HardHitter": {
+      "translations": {
+        "english": {
+          "name": "Macho",
+          "description": "Deal 5000 damage in one shot."
+        },
+        "schinese": {
+          "name": "猛男",
+          "description": "一击造成 5000 点伤害。"
+        }
+      }
+    },
+    "HuntressAllGlaiveBouncesKill": {
+      "translations": {
+        "english": {
+          "name": "Huntress: Finishing Touch",
+          "description": "As Huntress, land a killing blow with every possible hit of a single glaive."
+        },
+        "schinese": {
+          "name": "女猎手：点睛之笔",
+          "description": "以女猎手身份，用单枚飞刃的每一次弹射命中都造成致命一击。"
+        }
+      }
+    },
+    "HuntressClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "Huntress: Mastery",
+          "description": "As Huntress, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "女猎手：精通",
+          "description": "以女猎手身份在季风难度下通关游戏，或选择湮灭。"
+        }
+      }
+    },
+    "HuntressCollectCrowbars": {
+      "translations": {
+        "english": {
+          "name": "Huntress: One Shot, One Kill",
+          "description": "As Huntress, collect and carry 12 Crowbars at once."
+        },
+        "schinese": {
+          "name": "女猎手：一击必杀",
+          "description": "以女猎手身份，同时收集并携带 12 根撬棍。"
+        }
+      }
+    },
+    "HuntressMaintainFullHealthOnFrozenWall": {
+      "translations": {
+        "english": {
+          "name": "Huntress: Piercing Wind",
+          "description": "As Huntress, start and finish either Rallypoint Delta or Scorched Acres without falling below 100% health."
+        },
+        "schinese": {
+          "name": "女猎手：刺骨寒风",
+          "description": "以女猎手身份，在三角洲集结点或焦土林地从开始到结束都保持生命值不低于 100%。"
+        }
+      }
+    },
+    "KillBossQuantityInRun": {
+      "translations": {
+        "english": {
+          "name": "Blockade Breaker",
+          "description": "Kill 15 boss monsters in a single run."
+        },
+        "schinese": {
+          "name": "封锁破坏者",
+          "description": "在单局游戏中击杀 15 个首领怪物。"
+        }
+      }
+    },
+    "KillBossQuick": {
+      "translations": {
+        "english": {
+          "name": "Keyed Up",
+          "description": "Defeat the Teleporter boss under 15 seconds."
+        },
+        "schinese": {
+          "name": "蓄势待发",
+          "description": "在15秒内击败传送器首领。"
+        }
+      }
+    },
+    "KillElementalLemurians": {
+      "translations": {
+        "english": {
+          "name": "Death Do Us Part",
+          "description": "Discover the hidden chamber in the Abandoned Aqueduct."
+        },
+        "schinese": {
+          "name": "至死不渝",
+          "description": "发现废弃水道中的隐藏密室。"
+        }
+      }
+    },
+    "KillEliteMonster": {
+      "translations": {
+        "english": {
+          "name": "Elite Slayer",
+          "description": "Defeat an Elite-type monster."
+        },
+        "schinese": {
+          "name": "精英杀手",
+          "description": "击败一只精英怪物。"
+        }
+      }
+    },
+    "KillElitesMilestone": {
+      "translations": {
+        "english": {
+          "name": "Cut Down",
+          "description": "Defeat 500 elite monsters."
+        },
+        "schinese": {
+          "name": "斩落",
+          "description": "击败500个精英怪物。"
+        }
+      }
+    },
+    "KillGoldTitanInOneCycle": {
+      "translations": {
+        "english": {
+          "name": "Blackout",
+          "description": "Defeat the unique guardian of Gilded Coast without any beacons deactivating."
+        },
+        "schinese": {
+          "name": "大停电",
+          "description": "在没有任何信标失效的情况下，击败镀金海岸的独特守护者。"
+        }
+      }
+    },
+    "KillTotalEnemies": {
+      "translations": {
+        "english": {
+          "name": "Slaughter",
+          "description": "Defeat 3000 enemies."
+        },
+        "schinese": {
+          "name": "屠戮",
+          "description": "击败3000名敌人。"
+        }
+      }
+    },
+    "LoaderBigSlam": {
+      "translations": {
+        "english": {
+          "name": "Loader: Earthshatter",
+          "description": "As Loader, land a Charged Gauntlet hit at 300mph or higher."
+        },
+        "schinese": {
+          "name": "装载工：撼地",
+          "description": "以装载工身份，以不低于300英里/小时的速度用充能拳套命中敌人。"
+        }
+      }
+    },
+    "LoaderClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "Loader: Mastery",
+          "description": "As Loader, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "装载工：精通",
+          "description": "以装载工身份在季风难度下通关游戏或选择湮灭。"
+        }
+      }
+    },
+    "LoaderSpeedRun": {
+      "translations": {
+        "english": {
+          "name": "Loader: Swing By",
+          "description": "As Loader, reach and proceed through the Celestial Portal in 25 minutes or less."
+        },
+        "schinese": {
+          "name": "装载工：顺路一荡",
+          "description": "以装载工身份在25分钟内抵达天界传送门并进入其中。"
+        }
+      }
+    },
+    "LogCollector": {
+      "translations": {
+        "english": {
+          "name": "Bookworm",
+          "description": "Collect 10 Monster or Environment Logs."
+        },
+        "schinese": {
+          "name": "书虫",
+          "description": "收集10份怪物或环境日志。"
+        }
+      }
+    },
+    "LoopOnce": {
+      "translations": {
+        "english": {
+          "name": "Deja Vu?",
+          "description": "Loop back to the first stage."
+        },
+        "schinese": {
+          "name": "似曾相识？",
+          "description": "循环回到第一关。"
+        }
+      }
+    },
+    "MageAirborneMultiKill": {
+      "translations": {
+        "english": {
+          "name": "Artificer: Orbital Bombardment",
+          "description": "As Artificer, kill 15 enemies before touching the ground."
+        },
+        "schinese": {
+          "name": "奥术师：轨道轰炸",
+          "description": "以奥术师身份，在落地前击杀15名敌人。"
+        }
+      }
+    },
+    "MageClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "Artificer: Mastery",
+          "description": "As Artificer, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "奥术师：精通",
+          "description": "以奥术师身份，在季风难度下通关游戏或选择湮灭。"
+        }
+      }
+    },
+    "MageFastBoss": {
+      "translations": {
+        "english": {
+          "name": "Artificer: Chunked!",
+          "description": "As Artificer, fully defeat the teleporter boss in a one-second burst of damage."
+        },
+        "schinese": {
+          "name": "奥术师：大卸八块！",
+          "description": "以奥术师身份，在1秒的爆发伤害内完全击败传送器首领。"
+        }
+      }
+    },
+    "MageMultiKill": {
+      "translations": {
+        "english": {
+          "name": "Artificer: Massacre",
+          "description": "As Artificer, perform a multikill of 20 enemies."
+        },
+        "schinese": {
+          "name": "奥术师：屠杀",
+          "description": "以奥术师身份，完成一次20连杀。"
+        }
+      }
+    },
+    "MajorMultikill": {
+      "translations": {
+        "english": {
+          "name": "Multikill!",
+          "description": "Kill 15 enemies simultaneously."
+        },
+        "schinese": {
+          "name": "多重击杀！",
+          "description": "同时击杀15名敌人。"
+        }
+      }
+    },
+    "MaxHealingShrine": {
+      "translations": {
+        "english": {
+          "name": "One with the Woods",
+          "description": "Fully upgrade a Shrine of the Woods."
+        },
+        "schinese": {
+          "name": "与森林合而为一",
+          "description": "完全升级一座森林神龛。"
+        }
+      }
+    },
+    "MercClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "Mercenary: Mastery",
+          "description": "As Mercenary, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "佣兵：精通",
+          "description": "以佣兵身份，在季风难度下通关游戏或选择湮灭。"
+        }
+      }
+    },
+    "MercCompleteTrialWithFullHealth": {
+      "translations": {
+        "english": {
+          "name": "Mercenary: Ethereal",
+          "description": "As Mercenary, complete a Prismatic Trial without falling below 100% health."
+        },
+        "schinese": {
+          "name": "佣兵：空灵",
+          "description": "以佣兵身份，在不使生命值低于100%的情况下完成一次棱镜试炼。"
+        }
+      }
+    },
+    "MercDontTouchGround": {
+      "translations": {
+        "english": {
+          "name": "Mercenary: Demon of the Skies",
+          "description": "As Mercenary, don't touch the ground for 30 seconds."
+        },
+        "schinese": {
+          "name": "佣兵：天空之魔",
+          "description": "以佣兵身份，30秒内不接触地面。"
+        }
+      }
+    },
+    "MoveSpeed": {
+      "translations": {
+        "english": {
+          "name": "Going Fast Recommended",
+          "description": "Reach +300% movespeed (includes sprinting)."
+        },
+        "schinese": {
+          "name": "推荐高速移动",
+          "description": "达到+300%移动速度（包括冲刺）。"
+        }
+      }
+    },
+    "MultiCombatShrine": {
+      "translations": {
+        "english": {
+          "name": "Warmonger",
+          "description": "Complete 3 Combat Shrines in a single stage."
+        },
+        "schinese": {
+          "name": "战争贩子",
+          "description": "在单个关卡内完成3座战斗神龛。"
+        }
+      }
+    },
+    "NeverBackDown": {
+      "translations": {
+        "english": {
+          "name": "Never Back Down",
+          "description": "In 4 consecutive stages don’t leave the teleporter radius until it is fully charged."
+        },
+        "schinese": {
+          "name": "永不退缩",
+          "description": "连续4个关卡在传送器完全充能前不离开其范围。"
+        }
+      }
+    },
+    "ObtainArtifactBomb": {
+      "translations": {
+        "english": {
+          "name": "Trial of Spite",
+          "description": "Complete the Trial of Spite."
+        },
+        "schinese": {
+          "name": "怨恨试炼",
+          "description": "完成怨恨试炼。"
+        }
+      }
+    },
+    "ObtainArtifactCommand": {
+      "translations": {
+        "english": {
+          "name": "Trial of Command",
+          "description": "Complete the Trial of Command."
+        },
+        "schinese": {
+          "name": "命令试炼",
+          "description": "完成命令试炼。"
+        }
+      }
+    },
+    "ObtainArtifactEliteOnly": {
+      "translations": {
+        "english": {
+          "name": "Trial of Honor",
+          "description": "Complete the Trial of Honor."
+        },
+        "schinese": {
+          "name": "荣誉试炼",
+          "description": "完成荣誉试炼。"
+        }
+      }
+    },
+    "ObtainArtifactEnigma": {
+      "translations": {
+        "english": {
+          "name": "Trial of Enigma",
+          "description": "Complete the Trial of Enigma."
+        },
+        "schinese": {
+          "name": "谜团试炼",
+          "description": "完成谜团试炼。"
+        }
+      }
+    },
+    "ObtainArtifactFriendlyFire": {
+      "translations": {
+        "english": {
+          "name": "Trial of Chaos",
+          "description": "Complete the Trial of Chaos."
+        },
+        "schinese": {
+          "name": "混乱试炼",
+          "description": "完成混乱试炼。"
+        }
+      }
+    },
+    "ObtainArtifactGlass": {
+      "translations": {
+        "english": {
+          "name": "Trial of Glass",
+          "description": "Complete the Trial of Glass."
+        },
+        "schinese": {
+          "name": "玻璃试炼",
+          "description": "完成玻璃试炼。"
+        }
+      }
+    },
+    "ObtainArtifactMixEnemy": {
+      "translations": {
+        "english": {
+          "name": "Trial of Dissonance",
+          "description": "Complete the Trial of Dissonance."
+        },
+        "schinese": {
+          "name": "不和谐试炼",
+          "description": "完成不和谐试炼。"
+        }
+      }
+    },
+    "ObtainArtifactMonsterTeamGainsItems": {
+      "translations": {
+        "english": {
+          "name": "Trial of Evolution",
+          "description": "Complete the Trial of Evolution."
+        },
+        "schinese": {
+          "name": "进化的试炼",
+          "description": "完成进化的试炼。"
+        }
+      }
+    },
+    "ObtainArtifactRandomSurvivorOnRespawn": {
+      "translations": {
+        "english": {
+          "name": "Trial of Metamorphosis",
+          "description": "Complete the Trial of Metamorphosis."
+        },
+        "schinese": {
+          "name": "蜕变的试炼",
+          "description": "完成蜕变的试炼。"
+        }
+      }
+    },
+    "ObtainArtifactSacrifice": {
+      "translations": {
+        "english": {
+          "name": "Trial of Sacrifice",
+          "description": "Complete the Trial of Sacrifice."
+        },
+        "schinese": {
+          "name": "献祭的试炼",
+          "description": "完成献祭的试炼。"
+        }
+      }
+    },
+    "ObtainArtifactShadowClone": {
+      "translations": {
+        "english": {
+          "name": "Trial of Vengeance",
+          "description": "Complete the Trial of Vengeance."
+        },
+        "schinese": {
+          "name": "复仇的试炼",
+          "description": "完成复仇的试炼。"
+        }
+      }
+    },
+    "ObtainArtifactSingleMonsterType": {
+      "translations": {
+        "english": {
+          "name": "Trial of Kin",
+          "description": "Complete the Trial of Kin."
+        },
+        "schinese": {
+          "name": "同族的试炼",
+          "description": "完成同族的试炼。"
+        }
+      }
+    },
+    "ObtainArtifactSwarms": {
+      "translations": {
+        "english": {
+          "name": "Trial of Swarms",
+          "description": "Complete the Trial of Swarms."
+        },
+        "schinese": {
+          "name": "蜂群的试炼",
+          "description": "完成蜂群的试炼。"
+        }
+      }
+    },
+    "ObtainArtifactTeamDeath": {
+      "translations": {
+        "english": {
+          "name": "Trial of Death",
+          "description": "Complete the Trial of Death."
+        },
+        "schinese": {
+          "name": "死亡的试炼",
+          "description": "完成死亡的试炼。"
+        }
+      }
+    },
+    "ObtainArtifactWeakAssKnees": {
+      "translations": {
+        "english": {
+          "name": "Trial of Frailty",
+          "description": "Complete the Trial of Frailty."
+        },
+        "schinese": {
+          "name": "脆弱的试炼",
+          "description": "完成脆弱的试炼。"
+        }
+      }
+    },
+    "ObtainArtifactWispOnDeath": {
+      "translations": {
+        "english": {
+          "name": "Trial of Soul",
+          "description": "Complete the Trial of Soul."
+        },
+        "schinese": {
+          "name": "灵魂的试炼",
+          "description": "完成灵魂的试炼。"
+        }
+      }
+    },
+    "RepeatedlyDuplicateItems": {
+      "translations": {
+        "english": {
+          "name": "...Maybe One More.",
+          "description": "Duplicate the same item 7 times in a row with a 3D Printer."
+        },
+        "schinese": {
+          "name": "……也许再来一个。",
+          "description": "用3D打印机连续复制同一个物品7次。"
+        }
+      }
+    },
+    "RepeatFirstTeleporter": {
+      "translations": {
+        "english": {
+          "name": "Verified",
+          "description": "Complete the first Teleporter event 5 times."
+        },
+        "schinese": {
+          "name": "已验证",
+          "description": "完成首个传送器事件5次。"
+        }
+      }
+    },
+    "RescueTreebot": {
+      "translations": {
+        "english": {
+          "name": "Power Plant",
+          "description": "Repair the broken robot with an Escape Pod's Fuel Array."
+        },
+        "schinese": {
+          "name": "发电厂",
+          "description": "用逃生舱的燃料阵列修复损坏的机器人。"
+        }
+      }
+    },
+    "StayAlive1": {
+      "translations": {
+        "english": {
+          "name": "The Lone Survivor",
+          "description": "Stay alive for 30 consecutive minutes."
+        },
+        "schinese": {
+          "name": "孤独幸存者",
+          "description": "连续存活30分钟。"
+        }
+      }
+    },
+    "SuicideHermitCrabs": {
+      "translations": {
+        "english": {
+          "name": "The Demons And The Crabs",
+          "description": "Kill 20 Hermit Crabs by chasing them off the edge of the map."
+        },
+        "schinese": {
+          "name": "恶魔与螃蟹",
+          "description": "将20只寄居蟹赶下地图边缘致死。"
+        }
+      }
+    },
+    "ToolbotClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "MUL-T: Mastery",
+          "description": "As MUL-T, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "MUL-T：精通",
+          "description": "使用MUL-T在季风难度下通关游戏或抹除自身。"
+        }
+      }
+    },
+    "ToolbotGuardTeleporter": {
+      "translations": {
+        "english": {
+          "name": "MUL-T: Pest Control",
+          "description": "As MUL-T, defeat two Beetle Queens without leaving the teleporter zone."
+        },
+        "schinese": {
+          "name": "MUL-T：害虫防治",
+          "description": "使用MUL-T在不离开传送器区域的情况下击败两只甲虫女王。"
+        }
+      }
+    },
+    "ToolbotKillImpBossWithBfg": {
+      "translations": {
+        "english": {
+          "name": "MUL-T: Gotcha!",
+          "description": "As MUL-T, land the killing blow on an Imp Overlord with the Preon Accumulator."
+        },
+        "schinese": {
+          "name": "MUL-T：逮到你了！",
+          "description": "使用MUL-T用前子蓄能器对小鬼霸主造成致命一击。"
+        }
+      }
+    },
+    "TotalDronesRepaired": {
+      "translations": {
+        "english": {
+          "name": "Mechanic",
+          "description": "Repair 30 drones or turrets."
+        },
+        "schinese": {
+          "name": "机械师",
+          "description": "修理30架无人机或炮塔。"
+        }
+      }
+    },
+    "TotalMoneyCollected": {
+      "translations": {
+        "english": {
+          "name": "Funded!",
+          "description": "Collect $30,480 total gold."
+        },
+        "schinese": {
+          "name": "资金到位！",
+          "description": "累计收集$30,480金币。"
+        }
+      }
+    },
+    "TreebotClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "REX: Mastery",
+          "description": "As REX, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "REX：精通",
+          "description": "使用REX在季风难度下通关游戏或抹除自身。"
+        }
+      }
+    },
+    "TreebotDunkClayBoss": {
+      "translations": {
+        "english": {
+          "name": "REX: Dunked",
+          "description": "As REX, kill a Clay Dunestrider on Abandoned Aqueduct by throwing it into a pit."
+        },
+        "schinese": {
+          "name": "REX：扣篮",
+          "description": "作为REX，在废弃水道中将黏土沙行者扔进坑里并击杀。"
+        }
+      }
+    },
+    "TreebotLowHealthTeleporter": {
+      "translations": {
+        "english": {
+          "name": "REX: Bushwhacked",
+          "description": "As REX, complete an entire teleporter event while under 50% health."
+        },
+        "schinese": {
+          "name": "REX：丛林伏击",
+          "description": "作为REX，在生命值低于50%的状态下完成整场传送器事件。"
+        }
+      }
+    },
+    "UseThreePortals": {
+      "translations": {
+        "english": {
+          "name": "Cosmic Explorer",
+          "description": "Discover and enter three unique portals."
+        },
+        "schinese": {
+          "name": "宇宙探索者",
+          "description": "发现并进入三种不同的传送门。"
+        }
+      }
+    },
+    "Bandit2ClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "Bandit: Mastery",
+          "description": "As Bandit, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "强盗：精通",
+          "description": "作为强盗，在季风难度下通关游戏或选择湮灭。"
+        }
+      }
+    },
+    "Bandit2ConsecutiveReset": {
+      "translations": {
+        "english": {
+          "name": "Bandit: Classic Man",
+          "description": "As Bandit, successfully use 'Lights Out' to reset your cooldowns 15 times in a row."
+        },
+        "schinese": {
+          "name": "强盗：经典绅士",
+          "description": "作为强盗，连续15次成功使用“熄灯”重置技能冷却。"
+        }
+      }
+    },
+    "Bandit2RevolverFinale": {
+      "translations": {
+        "english": {
+          "name": "Bandit: B&E",
+          "description": "As Bandit, kill the final boss with 'Lights Out'."
+        },
+        "schinese": {
+          "name": "强盗：破门而入",
+          "description": "作为强盗，使用“熄灯”击杀最终首领。"
+        }
+      }
+    },
+    "Bandit2StackSuperBleed": {
+      "translations": {
+        "english": {
+          "name": "Bandit: Sadist",
+          "description": "As Bandit, kill a monster with 20 stacks of Hemorrhage."
+        },
+        "schinese": {
+          "name": "强盗：施虐狂",
+          "description": "作为强盗，击杀一名带有20层出血效果的怪物。"
+        }
+      }
+    },
+    "CaptainSupplyDropFinale": {
+      "translations": {
+        "english": {
+          "name": "Captain: Smushed",
+          "description": "As Captain, kill the final boss using a Supply Beacon"
+        },
+        "schinese": {
+          "name": "船长：砸扁",
+          "description": "作为船长，使用补给信标击杀最终首领。"
+        }
+      }
+    },
+    "LoaderKillLoaders": {
+      "translations": {
+        "english": {
+          "name": "Loader: The Thunderdome",
+          "description": "As Loader, kill three other Loaders in the Bulwark's Ambry."
+        },
+        "schinese": {
+          "name": "装卸工：雷霆穹顶",
+          "description": "作为装卸工，在堡垒圣器室中击杀另外三名装卸工。"
+        }
+      }
+    },
+    "MercXSkillsInYSeconds": {
+      "translations": {
+        "english": {
+          "name": "Mercenary: Flash of Blades",
+          "description": "As Mercenary, use 20 abilities in 10 seconds."
+        },
+        "schinese": {
+          "name": "雇佣兵：刀光闪现",
+          "description": "作为雇佣兵，在10秒内使用20次技能。"
+        }
+      }
+    },
+    "ToolbotBeatArenaLater": {
+      "translations": {
+        "english": {
+          "name": "MUL-T: Seventh Day",
+          "description": "As MUL-T, clear the Void Fields on Stage 7 or later."
+        },
+        "schinese": {
+          "name": "MUL-T：第七日",
+          "description": "以 MUL-T 身份在第 7 关或之后通关虚空领域。"
+        }
+      }
+    },
+    "TreebotBigHeal": {
+      "translations": {
+        "english": {
+          "name": "REX: Full of Life",
+          "description": "As REX, heal for 1000 health at once."
+        },
+        "schinese": {
+          "name": "REX：生机勃勃",
+          "description": "以 REX 身份一次性治疗 1000 点生命值。"
+        }
+      }
+    },
+    "CompleteVoidEnding": {
+      "translations": {
+        "english": {
+          "name": "Dragged Below",
+          "description": "Escape the Planetarium or complete wave 50 in Simulacrum."
+        },
+        "schinese": {
+          "name": "坠入深渊",
+          "description": "逃离天象馆，或在模拟模式中完成第 50 波。"
+        }
+      }
+    },
+    "RailgunnerDealMassiveDamage": {
+      "translations": {
+        "english": {
+          "name": "Railgunner: Annihiliator",
+          "description": "As Railgunner, deal 1,000,000 damage in one shot."
+        },
+        "schinese": {
+          "name": "轨道炮手：湮灭者",
+          "description": "以轨道炮手身份单发造成 1,000,000 点伤害。"
+        }
+      }
+    },
+    "RailgunnerConsecutiveWeakPoints": {
+      "translations": {
+        "english": {
+          "name": "Railgunner: Marksman",
+          "description": "As Railgunner, fire 30 consecutive sniper shots without missing a Weak Point."
+        },
+        "schinese": {
+          "name": "轨道炮手：神射手",
+          "description": "以轨道炮手身份连续发射 30 次狙击且无一偏离弱点。"
+        }
+      }
+    },
+    "RailgunnerAirborneMultiKill": {
+      "translations": {
+        "english": {
+          "name": "Railgunner: Trickshot",
+          "description": "As Railgunner, get 3 kills with a single Supercharge shot while airborne."
+        },
+        "schinese": {
+          "name": "轨道炮手：特技射击",
+          "description": "以轨道炮手身份在空中用一发超级充能射击击杀 3 名敌人。"
+        }
+      }
+    },
+    "RailgunnerClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "Railgunner: Mastery",
+          "description": "As Railgunner, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "轨道炮手：精通",
+          "description": "以轨道炮手身份在季风难度下通关游戏或抹除自己。"
+        }
+      }
+    },
+    "VoidSurvivorClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "「V??oid Fiend』: Mastery",
+          "description": "As 「V??oid Fiend』, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "「虚??空恶魔』：精通",
+          "description": "以「虚??空恶魔』身份在季风难度下通关游戏或抹除自己。"
+        }
+      }
+    },
+    "DefeatFalseSon": {
+      "translations": {
+        "english": {
+          "name": "King of the Hill",
+          "description": "Journey to the Prime Meridian and defeat the False Son."
+        },
+        "schinese": {
+          "name": "山丘之王",
+          "description": "前往本初子午线并击败伪子。"
+        }
+      }
+    },
+    "UnlockFalseSon": {
+      "translations": {
+        "english": {
+          "name": "Purified Freedom",
+          "description": "Purify the Heart of the False Son using the Halcyon Seed."
+        },
+        "schinese": {
+          "name": "净化后的自由",
+          "description": "使用宁静种子净化伪子之心。"
+        }
+      }
+    },
+    "ActivateChef": {
+      "translations": {
+        "english": {
+          "name": "Order Up!",
+          "description": "Complete the Wok’s recipe in Reformed Altar."
+        },
+        "schinese": {
+          "name": "出餐喽！",
+          "description": "在“重铸祭坛”完成“炒锅”的菜谱。"
+        }
+      }
+    },
+    "ChefClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "CHEF: Mastery",
+          "description": "As CHEF, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "厨师：精通",
+          "description": "以厨师在季风难度下通关游戏或抹除自身。"
+        }
+      }
+    },
+    "BarbecueQuantityBisonInRun": {
+      "translations": {
+        "english": {
+          "name": "CHEF: Barbecued Bison Recipe Complete",
+          "description": "As CHEF complete 10 recipes by searing an oiled bison with Sear."
+        },
+        "schinese": {
+          "name": "厨师：烤野牛菜谱完成",
+          "description": "以厨师对涂油的野牛使用“煎烤”，完成10道菜谱。"
+        }
+      }
+    },
+    "RolyPolyHitFiveAirEnemies": {
+      "translations": {
+        "english": {
+          "name": "CHEF: You’ve Always Been Crazy",
+          "description": "As CHEF hit five airborne enemies with one instance of Roll."
+        },
+        "schinese": {
+          "name": "厨师：你一直都这么疯",
+          "description": "以厨师用单次“翻滚”击中5个空中的敌人。"
+        }
+      }
+    },
+    "BurnMithrix": {
+      "translations": {
+        "english": {
+          "name": "CHEF: It’s Getting Hot In Here!",
+          "description": "As CHEF apply 20 stacks of Burn at once to the final boss."
+        },
+        "schinese": {
+          "name": "厨师：这里越来越热了！",
+          "description": "以厨师同时对最终首领施加20层灼烧。"
+        }
+      }
+    },
+    "FalseSonClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "False Son: Mastery",
+          "description": "As False Son, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "伪子：精通",
+          "description": "以伪子在季风难度下通关游戏或抹除自身。"
+        }
+      }
+    },
+    "FalseSonLaserMultiKill": {
+      "translations": {
+        "english": {
+          "name": "False Son: Stare Them Down",
+          "description": "As False Son, kill 15 enemies with one activation of Laser of the Father."
+        },
+        "schinese": {
+          "name": "伪子：怒目逼视",
+          "description": "以伪子单次发动“父之激光”击杀15名敌人。"
+        }
+      }
+    },
+    "FalseSonKillMithrixWithGoldenGal": {
+      "translations": {
+        "english": {
+          "name": "False Son: Family Bonding",
+          "description": "As False Son, have Aurelionite kill the final boss while the final boss is inflicted with at least one Lunar Ruin."
+        },
+        "schinese": {
+          "name": "伪子：天伦之乐",
+          "description": "以伪子让奥雷利昂击杀至少带有1层“月之毁灭”的最终首领。"
+        }
+      }
+    },
+    "FalseSonGrowthChallenge": {
+      "translations": {
+        "english": {
+          "name": "False Son: Protein Heavy Diet",
+          "description": "As False Son, gain up to 40 Lunar Spikes through Growth."
+        },
+        "schinese": {
+          "name": "伪子：高蛋白饮食",
+          "description": "以伪子通过“成长”获得最多40根“月刺”。"
+        }
+      }
+    },
+    "SeekerClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "Seeker: Mastery",
+          "description": "As Seeker, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "探寻者：精通",
+          "description": "以探寻者在季风难度下通关游戏或抹除自身。"
+        }
+      }
+    },
+    "SeekerPerfect20Meditation": {
+      "translations": {
+        "english": {
+          "name": "Seeker: Clear Mind",
+          "description": "As Seeker, meditate 20 times without missing an input in a single run."
+        },
+        "schinese": {
+          "name": "求索者：心无杂念",
+          "description": "使用求索者，在单局游戏中冥想20次且不出现任何操作失误。"
+        }
+      }
+    },
+    "NukeSojourn": {
+      "translations": {
+        "english": {
+          "name": "Seeker: Scorched Earth",
+          "description": "Deal 500,000% damage with one use of Sojourn's explosion"
+        },
+        "schinese": {
+          "name": "求索者：焦土",
+          "description": "用一次旅居的爆炸造成500,000%伤害。"
+        }
+      }
+    },
+    "SeekerAirMultiHit": {
+      "translations": {
+        "english": {
+          "name": "Seeker: Airborne Souls",
+          "description": "As Seeker, hit three or more airborne enemies with a single use of the exploding third hit of Spirit Punch."
+        },
+        "schinese": {
+          "name": "求索者：凌空之魂",
+          "description": "使用求索者，用灵魂之拳第三击的爆炸单次命中3名或更多处于空中的敌人。"
+        }
+      }
+    },
+    "CrocoClearMeridianEvent": {
+      "translations": {
+        "english": {
+          "name": "Acrid: Cleared Prime Meridian",
+          "description": "As Acrid, complete the Event on Prime Meridian."
+        },
+        "schinese": {
+          "name": "酸液：本初子午线通关",
+          "description": "使用酸液，完成本初子午线上的事件。"
+        }
+      }
+    },
+    "MageClearMeridianEvent": {
+      "translations": {
+        "english": {
+          "name": "Artificer: Cleared Prime Meridian",
+          "description": "As Artificer, complete the Event on Prime Meridian."
+        },
+        "schinese": {
+          "name": "奥术师：本初子午线通关",
+          "description": "使用奥术师，完成本初子午线上的事件。"
+        }
+      }
+    },
+    "Bandit2ClearMeridianEvent": {
+      "translations": {
+        "english": {
+          "name": "Bandit: Cleared Prime Meridian",
+          "description": "As Bandit, complete the Event on Prime Meridian."
+        },
+        "schinese": {
+          "name": "强盗：本初子午线通关",
+          "description": "使用强盗，完成本初子午线上的事件。"
+        }
+      }
+    },
+    "CaptainClearMeridianEvent": {
+      "translations": {
+        "english": {
+          "name": "Captain: Cleared Prime Meridian",
+          "description": "As Captain, complete the Event on Prime Meridian."
+        },
+        "schinese": {
+          "name": "船长：本初子午线通关",
+          "description": "使用船长，完成本初子午线上的事件。"
+        }
+      }
+    },
+    "CommandoClearMeridianEvent": {
+      "translations": {
+        "english": {
+          "name": "Commando: Cleared Prime Meridian",
+          "description": "As Commando, complete the Event on Prime Meridian."
+        },
+        "schinese": {
+          "name": "指挥官：本初子午线通关",
+          "description": "使用指挥官，完成本初子午线上的事件。"
+        }
+      }
+    },
+    "EngiClearMeridianEvent": {
+      "translations": {
+        "english": {
+          "name": "Engineer: Cleared Prime Meridian",
+          "description": "As Engineer, complete the Event on Prime Meridian."
+        },
+        "schinese": {
+          "name": "工程师：本初子午线通关",
+          "description": "使用工程师，完成本初子午线上的事件。"
+        }
+      }
+    },
+    "HuntressClearMeridianEvent": {
+      "translations": {
+        "english": {
+          "name": "Huntress: Cleared Prime Meridian",
+          "description": "As Huntress, complete the Event on Prime Meridian."
+        },
+        "schinese": {
+          "name": "女猎手：本初子午线通关",
+          "description": "使用女猎手，完成本初子午线上的事件。"
+        }
+      }
+    },
+    "LoaderClearMeridianEvent": {
+      "translations": {
+        "english": {
+          "name": "Loader: Cleared Prime Meridian",
+          "description": "As Loader, complete the Event on Prime Meridian."
+        },
+        "schinese": {
+          "name": "装载机：清空本初子午线",
+          "description": "以装载机身份，在本初子午线完成该事件。"
+        }
+      }
+    },
+    "ToolbotClearMeridianEvent": {
+      "translations": {
+        "english": {
+          "name": "MUL-T: Cleared Prime Meridian",
+          "description": "As MUL-T, complete the Event on Prime Meridian."
+        },
+        "schinese": {
+          "name": "MUL-T：清空本初子午线",
+          "description": "以MUL-T身份，在本初子午线完成该事件。"
+        }
+      }
+    },
+    "MercClearMeridianEvent": {
+      "translations": {
+        "english": {
+          "name": "Mercenary: Cleared Prime Meridian",
+          "description": "As Mercenary, complete the Event on Prime Meridian."
+        },
+        "schinese": {
+          "name": "佣兵：清空本初子午线",
+          "description": "以佣兵身份，在本初子午线完成该事件。"
+        }
+      }
+    },
+    "RailgunnerClearMeridianEvent": {
+      "translations": {
+        "english": {
+          "name": "Railgunner: Cleared Prime Meridian",
+          "description": "As Railgunner, complete the Event on Prime Meridian."
+        },
+        "schinese": {
+          "name": "轨道炮手：清空本初子午线",
+          "description": "以轨道炮手身份，在本初子午线完成该事件。"
+        }
+      }
+    },
+    "TreebotClearMeridianEvent": {
+      "translations": {
+        "english": {
+          "name": "REX: Cleared Prime Meridian",
+          "description": "As REX, complete the Event on Prime Meridian."
+        },
+        "schinese": {
+          "name": "REX：清空本初子午线",
+          "description": "以REX身份，在本初子午线完成该事件。"
+        }
+      }
+    },
+    "VoidSurvivorClearMeridianEvent": {
+      "translations": {
+        "english": {
+          "name": "Void Fiend: Cleared Prime Meridian",
+          "description": "As Void Fiend, complete the Event on Prime Meridian."
+        },
+        "schinese": {
+          "name": "虚空恶魔：清空本初子午线",
+          "description": "以虚空恶魔身份，在本初子午线完成该事件。"
+        }
+      }
+    },
+    "ObtainArtifactRebirth": {
+      "translations": {
+        "english": {
+          "name": "Experienced Rebirth",
+          "description": "Gain the power of another life by offering to the Shrine of Rebirth."
+        },
+        "schinese": {
+          "name": "体验重生",
+          "description": "向重生神龛献祭，获得另一段生命的力量。"
+        }
+      }
+    },
+    "ObtainArtifactDevotion": {
+      "translations": {
+        "english": {
+          "name": "Trial of Devotion",
+          "description": "Complete the Trial of Devotion."
+        },
+        "schinese": {
+          "name": "奉献试炼",
+          "description": "完成奉献试炼。"
+        }
+      }
+    },
+    "ObtainArtifactDelusion": {
+      "translations": {
+        "english": {
+          "name": "Trial of Delusion",
+          "description": "Complete the Trial of Delusion."
+        },
+        "schinese": {
+          "name": "妄想试炼",
+          "description": "完成妄想试炼。"
+        }
+      }
+    },
+    "EngiPurge": {
+      "translations": {
+        "english": {
+          "name": "Engineer: Purge",
+          "description": "As Engineer deny the offering of the Collective"
+        },
+        "schinese": {
+          "name": "工程师：净化",
+          "description": "以工程师身份拒绝集合体的供奉。"
+        }
+      }
+    },
+    "Bandit2Decompile": {
+      "translations": {
+        "english": {
+          "name": "Bandit: Accept and Decompile",
+          "description": "As Bandit, accept the offering of the Collective."
+        },
+        "schinese": {
+          "name": "强盗：接受并反编译",
+          "description": "以强盗身份接受集合体的供奉。"
+        }
+      }
+    },
+    "CaptainDecompile": {
+      "translations": {
+        "english": {
+          "name": "Captain: Accept and Decompile",
+          "description": "As Captain accept the offering of the Collective"
+        },
+        "schinese": {
+          "name": "船长：接受并反编译",
+          "description": "以船长身份接受集合体的供奉"
+        }
+      }
+    },
+    "LoaderDecompile": {
+      "translations": {
+        "english": {
+          "name": "Loader: Accept and Decompile",
+          "description": "As Loader accept the offering of the Collective"
+        },
+        "schinese": {
+          "name": "装载工：接受并反编译",
+          "description": "以装载工身份接受集合体的供奉"
+        }
+      }
+    },
+    "MageDecompile": {
+      "translations": {
+        "english": {
+          "name": "Artificer: Accept and Decompile",
+          "description": "As Artificer accept the offering of the Collective"
+        },
+        "schinese": {
+          "name": "工匠：接受并反编译",
+          "description": "以工匠身份接受集合体的供奉"
+        }
+      }
+    },
+    "TreebotDecompile": {
+      "translations": {
+        "english": {
+          "name": "REX: Accept and Decompile",
+          "description": "As REX accept the offering of the Collective"
+        },
+        "schinese": {
+          "name": "REX：接受并反编译",
+          "description": "以REX身份接受集合体的供奉"
+        }
+      }
+    },
+    "CommandoPurge": {
+      "translations": {
+        "english": {
+          "name": "Commando: Purge",
+          "description": "As Commando deny the offering of the Collective"
+        },
+        "schinese": {
+          "name": "突击兵：清除",
+          "description": "以突击兵身份拒绝集合体的供奉"
+        }
+      }
+    },
+    "CrocoPurge": {
+      "translations": {
+        "english": {
+          "name": "Acrid: Purge",
+          "description": "As Acrid deny the offering of the Collective"
+        },
+        "schinese": {
+          "name": "阿克里德：清除",
+          "description": "以阿克里德身份拒绝集合体的供奉"
+        }
+      }
+    },
+    "HuntressPurge": {
+      "translations": {
+        "english": {
+          "name": "Huntress: Purge",
+          "description": "As Huntress deny the offering of the Collective"
+        },
+        "schinese": {
+          "name": "猎手：清除",
+          "description": "以猎手身份拒绝集合体的供奉"
+        }
+      }
+    },
+    "MercPurge": {
+      "translations": {
+        "english": {
+          "name": "Mercenary: Purge",
+          "description": "As Mercenary deny the offering of the Collective"
+        },
+        "schinese": {
+          "name": "佣兵：清除",
+          "description": "以佣兵身份拒绝集合体的供奉"
+        }
+      }
+    },
+    "ToolbotPurge": {
+      "translations": {
+        "english": {
+          "name": "MUL-T: Purge",
+          "description": "As MUL-T deny the offering of the Collective."
+        },
+        "schinese": {
+          "name": "MUL-T：清除",
+          "description": "以MUL-T身份拒绝集合体的供奉。"
+        }
+      }
+    },
+    "DrifterClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "Drifter: Mastery",
+          "description": "As Drifter beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "漂泊者：精通",
+          "description": "以漂泊者在季风难度下通关游戏或湮灭。"
+        }
+      }
+    },
+    "DrifterJunkCubeAchievement": {
+      "translations": {
+        "english": {
+          "name": "Drifter: Trash Compactor",
+          "description": "As Drifter carry 20 temporary items at once."
+        },
+        "schinese": {
+          "name": "漂泊者：垃圾压缩机",
+          "description": "以漂泊者同时携带20个临时物品。"
+        }
+      }
+    },
+    "DrifterTinkerAchievement": {
+      "translations": {
+        "english": {
+          "name": "Drifter: Leave No Trace",
+          "description": "As Drifter claim the contents of the lost backpack in the vault of Solutional Haunt."
+        },
+        "schinese": {
+          "name": "漂泊者：不留痕迹",
+          "description": "以漂泊者取得溶洞幽宅密库中失落背包内的物品。"
+        }
+      }
+    },
+    "DrifterTornadoSlamAchievement": {
+      "translations": {
+        "english": {
+          "name": "Drifter: In The Bag",
+          "description": "As Drifter defeat a boss from the challenge of the Mountain using a Shrine of the Mountain."
+        },
+        "schinese": {
+          "name": "漂泊者：囊中之物",
+          "description": "以漂泊者启用山之圣坛的挑战并击败其中的首领。"
+        }
+      }
+    },
+    "DroneTechUniqueDrones": {
+      "translations": {
+        "english": {
+          "name": "Operator: Putting Together a Team",
+          "description": "As Operator recruit 5 different drones."
+        },
+        "schinese": {
+          "name": "操纵者：组建小队",
+          "description": "以操纵者招募5种不同的无人机。"
+        }
+      }
+    },
+    "DroneTechDefeatVultureBossWhileAirborne": {
+      "translations": {
+        "english": {
+          "name": "Operator: Not So Different",
+          "description": "As Operator defeat the teleporter boss on Conduit Canyon without touching the ground."
+        },
+        "schinese": {
+          "name": "操纵者：并无不同",
+          "description": "以操纵者在不触碰地面的情况下击败导能峡谷的传送器首领。"
+        }
+      }
+    },
+    "DroneTechJuggleLemurian": {
+      "translations": {
+        "english": {
+          "name": "Operator: That Just Happened",
+          "description": "As Operator keep an Elder Lemurian airborne for 10 seconds."
+        },
+        "schinese": {
+          "name": "操纵者：这就发生了？",
+          "description": "以操纵者让一只长老狐猴保持浮空10秒。"
+        }
+      }
+    },
+    "DroneTechTrickshot": {
+      "translations": {
+        "english": {
+          "name": "Operator: That All You Got?",
+          "description": "As Operator kill 4 different types of monsters with a single ricochet."
+        },
+        "schinese": {
+          "name": "操纵者：就这点本事？",
+          "description": "以操纵者用单次跳弹击杀4种不同的怪物。"
+        }
+      }
+    },
+    "DroneTechClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "Operator: Mastery",
+          "description": "As Operator, beat the game or obliterate on Monsoon"
+        },
+        "schinese": {
+          "name": "操纵者：精通",
+          "description": "以操纵者在季风难度下通关游戏或湮灭"
+        }
+      }
+    },
+    "FreeDrifter": {
+      "translations": {
+        "english": {
+          "name": "Lost in Transit",
+          "description": "Free the survivor from the vault in Solutional Haunt"
+        },
+        "schinese": {
+          "name": "遗失途中",
+          "description": "从溶洞幽宅的密库中解救出幸存者"
+        }
+      }
+    },
+    "ObtainArtifactPrestige": {
+      "translations": {
+        "english": {
+          "name": "Trial of Prestige",
+          "description": "Complete the Trial of Prestige"
+        },
+        "schinese": {
+          "name": "威望试炼",
+          "description": "完成威望试炼"
+        }
+      }
+    },
+    "ChampRushRitualCompleted": {
+      "translations": {
+        "english": {
+          "name": "A Broken Ritual",
+          "description": "Revive the survivor within Soulbound Threshold."
+        },
+        "schinese": {
+          "name": "破碎的仪式",
+          "description": "在魂缚阈限中复活幸存者。"
+        }
+      }
+    },
+    "AcolyteClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "Acolyte: Mastery",
+          "description": "As Acolyte, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "侍僧：精通",
+          "description": "使用侍僧，在季风难度下通关游戏或自我抹除。"
+        }
+      }
+    },
+    "AcolyteClearUltima": {
+      "translations": {
+        "english": {
+          "name": "Acolyte: Memento Mori",
+          "description": "As Acolyte, defeat what lies beyond the door of Soulbound Threshold."
+        },
+        "schinese": {
+          "name": "侍僧：终有一死",
+          "description": "使用侍僧，击败魂缚阈限之门后的存在。"
+        }
+      }
+    },
+    "AcolyteReaperMultiKill": {
+      "translations": {
+        "english": {
+          "name": "Acolyte: Bloodbath",
+          "description": "As Acolyte, kill 15 enemies within one transformation into the Anima Harvester."
+        },
+        "schinese": {
+          "name": "侍僧：血洗",
+          "description": "使用侍僧，在单次变身为灵魂收割者期间击杀15名敌人。"
+        }
+      }
+    },
+    "AcolyteJuggleLemurian": {
+      "translations": {
+        "english": {
+          "name": "Acolyte: Not Even Close",
+          "description": "As Acolyte, keep an Elder Lemurian airborne for 11 seconds."
+        },
+        "schinese": {
+          "name": "侍僧：还差得远",
+          "description": "使用侍僧，让一只远古雷姆利安在空中滞留11秒。"
+        }
+      }
+    },
+    "AcolyteUniqueSacrifices": {
+      "translations": {
+        "english": {
+          "name": "Acolyte: Hit List",
+          "description": "As Acolyte, land a killing blow with Sacrifice on 20 different types of monsters in a single run."
+        },
+        "schinese": {
+          "name": "侍僧：猎杀名单",
+          "description": "使用侍僧，在单局内用献祭对20种不同类型的怪物造成最后一击。"
+        }
+      }
+    },
+    "Enforcer2ClearGameMonsoon": {
+      "translations": {
+        "english": {
+          "name": "Enforcer: Mastery",
+          "description": "As Enforcer, beat the game or obliterate on Monsoon."
+        },
+        "schinese": {
+          "name": "执法者：精通",
+          "description": "使用执法者，在季风难度下通关游戏或自我抹除。"
+        }
+      }
+    },
+    "Enforcer2ClearChampRush": {
+      "translations": {
+        "english": {
+          "name": "Enforcer: Dying to Meet You",
+          "description": "As Enforcer, complete Soulbound Threshold before the 4th Teleporter event."
+        },
+        "schinese": {
+          "name": "执法者：死也要见你",
+          "description": "使用执法者，在第4次传送器事件前完成魂缚阈限。"
+        }
+      }
+    },
+    "Enforcer2RepeatedlyDamageMagmaWorm": {
+      "translations": {
+        "english": {
+          "name": "Enforcer: Burning Lead",
+          "description": "As Enforcer, shoot a Magma Worm 24 times in 12 seconds."
+        },
+        "schinese": {
+          "name": "执法者：灼热弹雨",
+          "description": "使用执法者，在12秒内向一只岩浆蠕虫射击24次。"
+        }
+      }
+    },
+    "Enforcer2ParryVagrant": {
+      "translations": {
+        "english": {
+          "name": "Enforcer: +PARRY",
+          "description": "As Enforcer, parry a Wandering Vagrant's supernova."
+        },
+        "schinese": {
+          "name": "执法者：+招架",
+          "description": "使用执法者招架流浪漂浮者的超新星。"
+        }
+      }
+    },
+    "Enforcer2TankTitanLaser": {
+      "translations": {
+        "english": {
+          "name": "Enforcer: Indomitable",
+          "description": "As Enforcer, survive an entire Stone Titan's laser without blocking."
+        },
+        "schinese": {
+          "name": "执法者：不屈不挠",
+          "description": "使用执法者在不格挡的情况下扛过石巨人的整段激光。"
+        }
+      }
+    },
+    "Enforcer2BlockXTeleporter": {
+      "translations": {
+        "english": {
+          "name": "Enforcer: Safe and Sound",
+          "description": "As Enforcer, block the attacks of 12 enemies during a single teleporter event."
+        },
+        "schinese": {
+          "name": "执法者：安然无恙",
+          "description": "使用执法者在单次传送器事件中格挡12名敌人的攻击。"
+        }
+      }
+    },
+    "CommandoClearChampRush": {
+      "translations": {
+        "english": {
+          "name": "Commando: Dying to Meet You",
+          "description": "As Commando, complete Soulbound Threshold before the 4th Teleporter event."
+        },
+        "schinese": {
+          "name": "突击兵：死也要见你",
+          "description": "使用突击兵在第4次传送器事件之前完成灵魂羁绊之阈。"
+        }
+      }
+    },
+    "HuntressClearChampRush": {
+      "translations": {
+        "english": {
+          "name": "Huntress: Dying to Meet You",
+          "description": "As Huntress, complete Soulbound Threshold before the 4th Teleporter event."
+        },
+        "schinese": {
+          "name": "女猎手：死也要见你",
+          "description": "使用女猎手在第4次传送器事件之前完成灵魂羁绊之阈。"
+        }
+      }
+    },
+    "Bandit2ClearUltima": {
+      "translations": {
+        "english": {
+          "name": "Bandit: Memento Mori",
+          "description": "As Bandit, defeat what lies beyond the door of Soulbound Threshold."
+        },
+        "schinese": {
+          "name": "强盗：勿忘终有一死",
+          "description": "使用强盗击败灵魂羁绊之阈大门后的存在。"
+        }
+      }
+    },
+    "ToolbotClearGameHexes": {
+      "translations": {
+        "english": {
+          "name": "MUL-T: Against All Odds",
+          "description": "As MUL-T, complete a run while holding 10 Hexes."
+        },
+        "schinese": {
+          "name": "MUL-T：排除万难",
+          "description": "使用MUL-T在持有10个灾祸的情况下完成一局游戏。"
+        }
+      }
+    },
+    "EngiClearUltima": {
+      "translations": {
+        "english": {
+          "name": "Engineer: Memento Mori",
+          "description": "As Engineer, defeat what lies beyond the door of Soulbound Threshold."
+        },
+        "schinese": {
+          "name": "工程师：勿忘终有一死",
+          "description": "使用工程师击败灵魂羁绊之阈大门后的存在。"
+        }
+      }
+    },
+    "MageClearUltima": {
+      "translations": {
+        "english": {
+          "name": "Artificer: Memento Mori",
+          "description": "As Artificer, defeat what lies beyond the door of Soulbound Threshold."
+        },
+        "schinese": {
+          "name": "工匠：勿忘终有一死",
+          "description": "使用工匠击败灵魂羁绊之阈大门后的存在。"
+        }
+      }
+    },
+    "MercClearGameHexes": {
+      "translations": {
+        "english": {
+          "name": "Mercenary: Against All Odds",
+          "description": "As Mercenary, complete a run while holding 10 Hexes."
+        },
+        "schinese": {
+          "name": "佣兵：排除万难",
+          "description": "使用佣兵在持有10个灾祸的情况下完成一局游戏。"
+        }
+      }
+    },
+    "TreebotClearUltima": {
+      "translations": {
+        "english": {
+          "name": "REX: Memento Mori",
+          "description": "As REX, defeat what lies beyond the door of Soulbound Threshold."
+        },
+        "schinese": {
+          "name": "REX：勿忘终有一死",
+          "description": "以 REX 身份，击败魂缚之阈大门后的存在。"
+        }
+      }
+    },
+    "LoaderClearGameHexes": {
+      "translations": {
+        "english": {
+          "name": "Loader: Against All Odds",
+          "description": "As Loader, complete a run while holding 10 Hexes."
+        },
+        "schinese": {
+          "name": "装载者：排除万难",
+          "description": "以装载者身份，持有 10 个魔咒完成一局游戏。"
+        }
+      }
+    },
+    "CrocoClearChampRush": {
+      "translations": {
+        "english": {
+          "name": "Acrid: Dying to Meet You",
+          "description": "As Acrid, complete Soulbound Threshold before the 4th Teleporter event."
+        },
+        "schinese": {
+          "name": "酸液：死也要见你",
+          "description": "以酸液身份，在第 4 次传送器事件之前完成魂缚之阈。"
+        }
+      }
+    },
+    "CaptainClearUltima": {
+      "translations": {
+        "english": {
+          "name": "Captain: Memento Mori",
+          "description": "As Captain, defeat what lies beyond the door of Soulbound Threshold."
+        },
+        "schinese": {
+          "name": "船长：勿忘终有一死",
+          "description": "以船长身份，击败魂缚之阈大门后的存在。"
+        }
+      }
+    },
+    "RailgunnerClearGameHexes": {
+      "translations": {
+        "english": {
+          "name": "Railgunner: Against All Odds",
+          "description": "As Railgunner, complete a run while holding 10 Hexes."
+        },
+        "schinese": {
+          "name": "磁轨炮手：排除万难",
+          "description": "以磁轨炮手身份，持有 10 个魔咒完成一局游戏。"
+        }
+      }
+    },
+    "VoidSurvivorClearGameHexes": {
+      "translations": {
+        "english": {
+          "name": "?V??oid Fiend?: Against All Odds",
+          "description": "As ?V??oid Fiend?, complete a run while holding 10 Hexes."
+        },
+        "schinese": {
+          "name": "?虚??空恶魔?：排除万难",
+          "description": "以 ?虚??空恶魔? 身份，持有 10 个魔咒完成一局游戏。"
+        }
+      }
+    },
+    "SeekerClearChampRush": {
+      "translations": {
+        "english": {
+          "name": "Seeker: Dying to Meet You",
+          "description": "As Seeker, complete Soulbound Threshold before the 4th Teleporter event."
+        },
+        "schinese": {
+          "name": "追寻者：死也要见你",
+          "description": "以追寻者身份，在第 4 次传送器事件之前完成魂缚之阈。"
+        }
+      }
+    },
+    "FalseSonClearGameHexes": {
+      "translations": {
+        "english": {
+          "name": "False Son: Against All Odds",
+          "description": "As False Son, complete a run while holding 10 Hexes."
+        },
+        "schinese": {
+          "name": "伪子：排除万难",
+          "description": "以伪子身份，持有 10 个魔咒完成一局游戏。"
+        }
+      }
+    },
+    "ChefClearChampRush": {
+      "translations": {
+        "english": {
+          "name": "CHEF: Dying to Meet You",
+          "description": "As CHEF, complete Soulbound Threshold before the 4th Teleporter event."
+        },
+        "schinese": {
+          "name": "主厨：死也要见你",
+          "description": "以主厨身份，在第 4 次传送器事件之前完成魂缚之阈。"
+        }
+      }
+    },
+    "MagePillarSkip": {
+      "translations": {
+        "english": {
+          "name": "Artificer: One Giant Leap",
+          "description": "As Artificer, reach the final boss on the moon without activating a pillar."
+        },
+        "schinese": {
+          "name": "奥术师：一大步",
+          "description": "以奥术师身份，在不激活任何柱子的情况下抵达月球上的最终 首领。"
+        }
+      }
+    },
+    "CommandoBeatBrotherMaxKarma": {
+      "translations": {
+        "english": {
+          "name": "Commando: Retribution",
+          "description": "As Commando, defeat the final boss after earning 8 karma."
+        },
+        "schinese": {
+          "name": "指挥官：报应",
+          "description": "使用指挥官，在获得8点业力后击败最终首领。"
+        }
+      }
+    },
+    "EngiBatteryDrone": {
+      "translations": {
+        "english": {
+          "name": "Engineer: Mad Scientist",
+          "description": "As Engineer, repair an Equipment Drone with an Escape Pod's Fuel Array."
+        },
+        "schinese": {
+          "name": "工程师：疯狂科学家",
+          "description": "使用工程师，用逃生舱的燃料阵列修理一台装备无人机。"
+        }
+      }
+    },
+    "HuntressCollectArtifact": {
+      "translations": {
+        "english": {
+          "name": "Huntress: Tomb Raider",
+          "description": "As Huntress, obtain an Artifact from the Bulwark's Ambry in 25 minutes or less."
+        },
+        "schinese": {
+          "name": "女猎手：古墓丽影",
+          "description": "使用女猎手，在25分钟内从壁垒圣龛中获得一件神器。"
+        }
+      }
+    },
+    "TreebotClearGameWithLunars": {
+      "translations": {
+        "english": {
+          "name": "REX: Invasive Growth",
+          "description": "As REX, beat the game with at least 5 different Lunar items."
+        },
+        "schinese": {
+          "name": "REX：入侵性生长",
+          "description": "使用REX，携带至少5种不同的月球物品通关游戏。"
+        }
+      }
+    },
+    "CrocoClearGameRestack": {
+      "translations": {
+        "english": {
+          "name": "Acrid: Miracle",
+          "description": "As Acrid, beat the game after sequencing your items at least once."
+        },
+        "schinese": {
+          "name": "酸液：奇迹",
+          "description": "使用酸液，在至少重新排列一次物品后通关游戏。"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,660 @@
+{
+  "version": 1,
+  "app_id": "739630",
+  "variant_id": "default",
+  "source_sha256": "fdaf1bbb87487a18377c3c3ba5c6e4a75eb2cc3efcf45b24e607adfdd2459211",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "ACH_REACH_PRESTIGE_THREE": {
+      "translations": {
+        "english": {
+          "name": "III",
+          "description": "Reach Prestige III"
+        },
+        "schinese": {
+          "name": "声望 III",
+          "description": "达到声望 III"
+        }
+      }
+    },
+    "ACH_IDENTIFY_BANSHEE": {
+      "translations": {
+        "english": {
+          "name": "Banshee Discovered",
+          "description": "Successfully identify your first Banshee and survive"
+        },
+        "schinese": {
+          "name": "发现女妖",
+          "description": "首次成功辨认女妖并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_DEMON": {
+      "translations": {
+        "english": {
+          "name": "Demon Discovered",
+          "description": "Successfully identify your first Demon  and survive"
+        },
+        "schinese": {
+          "name": "发现恶魔",
+          "description": "首次成功辨认恶魔并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_DEOGEN": {
+      "translations": {
+        "english": {
+          "name": "Deogen Discovered",
+          "description": "Successfully identify your first Deogen and survive"
+        },
+        "schinese": {
+          "name": "发现雾影",
+          "description": "首次成功辨认雾影并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_GORYO": {
+      "translations": {
+        "english": {
+          "name": "Goryo Discovered",
+          "description": "Successfully identify your first Goryo and survive"
+        },
+        "schinese": {
+          "name": "发现御灵",
+          "description": "首次成功辨认御灵并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_HANTU": {
+      "translations": {
+        "english": {
+          "name": "Hantu Discovered",
+          "description": "Successfully identify your first Hantu and survive"
+        },
+        "schinese": {
+          "name": "发现寒魔",
+          "description": "首次成功辨认寒魔并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_JINN": {
+      "translations": {
+        "english": {
+          "name": "Jinn Discovered",
+          "description": "Successfully identify your first Jinn and survive"
+        },
+        "schinese": {
+          "name": "发现巨灵",
+          "description": "首次成功辨认巨灵并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_MARE": {
+      "translations": {
+        "english": {
+          "name": "Mare Discovered",
+          "description": "Successfully identify your first Mare and survive"
+        },
+        "schinese": {
+          "name": "发现梦魇",
+          "description": "首次成功辨认梦魇并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_Moroi": {
+      "translations": {
+        "english": {
+          "name": "Moroi Discovered",
+          "description": "Successfully identify your first Moroi and survive"
+        },
+        "schinese": {
+          "name": "发现摩洛伊",
+          "description": "首次成功辨认摩洛伊并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_MYLING": {
+      "translations": {
+        "english": {
+          "name": "Myling Discovered",
+          "description": "Successfully identify your first Myling and survive"
+        },
+        "schinese": {
+          "name": "发现鬼婴",
+          "description": "首次成功辨认鬼婴并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_Obake": {
+      "translations": {
+        "english": {
+          "name": "Obake Discovered",
+          "description": "Successfully identify your first Obake and survive"
+        },
+        "schinese": {
+          "name": "发现幻妖",
+          "description": "首次成功辨认幻妖并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_ONI": {
+      "translations": {
+        "english": {
+          "name": "Oni Discovered",
+          "description": "Successfully identify your first Oni and survive"
+        },
+        "schinese": {
+          "name": "发现赤鬼",
+          "description": "首次成功辨认赤鬼并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_ONRYO": {
+      "translations": {
+        "english": {
+          "name": "Onryo Discovered",
+          "description": "Successfully identify your first Onryo and survive"
+        },
+        "schinese": {
+          "name": "发现怨灵",
+          "description": "首次成功辨认怨灵并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_PHANTOM": {
+      "translations": {
+        "english": {
+          "name": "Phantom Discovered",
+          "description": "Successfully identify your first Phantom and survive"
+        },
+        "schinese": {
+          "name": "发现幻影",
+          "description": "首次成功辨认幻影并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_POLTERGEIST": {
+      "translations": {
+        "english": {
+          "name": "Poltergeist Discovered",
+          "description": "Successfully identify your first Poltergeist and survive"
+        },
+        "schinese": {
+          "name": "发现骚灵(捣蛋鬼)",
+          "description": "首次成功辨认骚灵(捣蛋鬼)并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_RAIJU": {
+      "translations": {
+        "english": {
+          "name": "Raiju Discovered",
+          "description": "Successfully identify your first Raiju and survive"
+        },
+        "schinese": {
+          "name": "发现雷魂",
+          "description": "首次成功辨认雷魂并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_REVENANT": {
+      "translations": {
+        "english": {
+          "name": "Revenant Discovered",
+          "description": "Successfully identify your first Revenant and survive"
+        },
+        "schinese": {
+          "name": "发现亡魂",
+          "description": "首次成功辨认亡魂并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_SHADE": {
+      "translations": {
+        "english": {
+          "name": "Shade Discovered",
+          "description": "Successfully identify your first Shade and survive"
+        },
+        "schinese": {
+          "name": "发现暗影",
+          "description": "首次成功辨认暗影并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_SPIRIT": {
+      "translations": {
+        "english": {
+          "name": "Spirit Discovered",
+          "description": "Successfully identify your first Spirit and survive"
+        },
+        "schinese": {
+          "name": "发现幽灵",
+          "description": "首次成功辨认幽灵并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_THAYE": {
+      "translations": {
+        "english": {
+          "name": "Thaye Discovered",
+          "description": "Successfully identify your first Thaye and survive"
+        },
+        "schinese": {
+          "name": "发现刹耶",
+          "description": "首次成功辨认刹耶并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_THE_MIMIC": {
+      "translations": {
+        "english": {
+          "name": "The Mimic Discovered",
+          "description": "Successfully identify The Mimic for the first time"
+        },
+        "schinese": {
+          "name": "发现拟魂",
+          "description": "首次成功辨认拟魂"
+        }
+      }
+    },
+    "ACH_IDENTIFY_THE_TWINS": {
+      "translations": {
+        "english": {
+          "name": "The Twins Discovered",
+          "description": "Successfully identify The Twins for the first time"
+        },
+        "schinese": {
+          "name": "发现孪魂",
+          "description": "首次成功辨认孪魂"
+        }
+      }
+    },
+    "ACH_IDENTIFY_WRAITH": {
+      "translations": {
+        "english": {
+          "name": "Wraith Discovered",
+          "description": "Successfully identify your first Wraith and survive"
+        },
+        "schinese": {
+          "name": "发现魅影",
+          "description": "首次成功辨认魅影并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_YOKAI": {
+      "translations": {
+        "english": {
+          "name": "Yokai Discovered",
+          "description": "Successfully identify your first Yokai and survive"
+        },
+        "schinese": {
+          "name": "发现妖怪",
+          "description": "首次成功辨认妖怪并存活"
+        }
+      }
+    },
+    "ACH_IDENTIFY_YUREI": {
+      "translations": {
+        "english": {
+          "name": "Yurei Discovered",
+          "description": "Successfully identify your first Yurei and survive"
+        },
+        "schinese": {
+          "name": "发现幽灵",
+          "description": "首次成功辨认幽灵并存活"
+        }
+      }
+    },
+    "ACH_REACH_PRESTIGE_ONE": {
+      "translations": {
+        "english": {
+          "name": "I",
+          "description": "Reach Prestige I"
+        },
+        "schinese": {
+          "name": "声望 I",
+          "description": "达到声望 I"
+        }
+      }
+    },
+    "ACH_REACH_PRESTIGE_TWO": {
+      "translations": {
+        "english": {
+          "name": "II",
+          "description": "Reach Prestige II"
+        },
+        "schinese": {
+          "name": "声望 II",
+          "description": "达到声望 II"
+        }
+      }
+    },
+    "ACH_COMPLETE_100_CONTRACTS": {
+      "translations": {
+        "english": {
+          "name": "Boss",
+          "description": "Complete 100 contracts"
+        },
+        "schinese": {
+          "name": "头目",
+          "description": "完成 100 份合同"
+        }
+      }
+    },
+    "ACH_COMPLETE_50_CONTRACTS": {
+      "translations": {
+        "english": {
+          "name": "Professional",
+          "description": "Complete 50 contracts"
+        },
+        "schinese": {
+          "name": "职业级",
+          "description": "完成 50 份合同"
+        }
+      }
+    },
+    "ACH_COMPLETE_10_CONTRACTS": {
+      "translations": {
+        "english": {
+          "name": "Rookie",
+          "description": "Complete 10 contracts"
+        },
+        "schinese": {
+          "name": "新手",
+          "description": "完成 10 份合同"
+        }
+      }
+    },
+    "ACH_SPEND_ONE_DOLLAR": {
+      "translations": {
+        "english": {
+          "name": "Chump Change",
+          "description": "Spend $1"
+        },
+        "schinese": {
+          "name": "零钱",
+          "description": "花掉 1 美元"
+        }
+      }
+    },
+    "ACH_SPEND_TEN_THOUSAND_DOLLARS": {
+      "translations": {
+        "english": {
+          "name": "Fat Stack",
+          "description": "Spend $10,000"
+        },
+        "schinese": {
+          "name": "厚厚一叠",
+          "description": "花掉 10,000 美元"
+        }
+      }
+    },
+    "ACH_SPEND_FIFTY_THOUSAND_DOLLARS": {
+      "translations": {
+        "english": {
+          "name": "Cash Cow",
+          "description": "Spend $50,000"
+        },
+        "schinese": {
+          "name": "摇钱树",
+          "description": "花掉 50,000 美元"
+        }
+      }
+    },
+    "ACH_SPEND_ONE_HUNDRED_THOUSAND_DOLLARS": {
+      "translations": {
+        "english": {
+          "name": "Break The Bank",
+          "description": "Spend $100,000"
+        },
+        "schinese": {
+          "name": "倾家荡产",
+          "description": "花掉 100,000 美元"
+        }
+      }
+    },
+    "ACH_SPEND_COMPLETE_TRAINING": {
+      "translations": {
+        "english": {
+          "name": "No More Training Wheels",
+          "description": "Complete Training"
+        },
+        "schinese": {
+          "name": "拆掉辅助轮",
+          "description": "完成训练"
+        }
+      }
+    },
+    "ACH_COMPLETE_FIFTY_OPTIONAL_OBJECTIVES": {
+      "translations": {
+        "english": {
+          "name": "Extra Mile",
+          "description": "Complete 50 optional objectives"
+        },
+        "schinese": {
+          "name": "多走一英里",
+          "description": "完成 50 个可选目标"
+        }
+      }
+    },
+    "ACH_WITNESS_POLTERGEIST_ABILITY": {
+      "translations": {
+        "english": {
+          "name": "They're here",
+          "description": "Witness a Poltergeist ability"
+        },
+        "schinese": {
+          "name": "它们来了",
+          "description": "目睹骚灵（捣蛋鬼）施展能力"
+        }
+      }
+    },
+    "ACH_COMPLETE_YOUR_FIRST_CONTRACT": {
+      "translations": {
+        "english": {
+          "name": "Work Experience",
+          "description": "Complete your first contract"
+        },
+        "schinese": {
+          "name": "工作经验",
+          "description": "完成你的第一份合同"
+        }
+      }
+    },
+    "ACH_GET_KILLED_BY_A_BANSHEE_IN_MULTIPLAYER": {
+      "translations": {
+        "english": {
+          "name": "The Bait",
+          "description": "Get killed by a Banshee in multiplayer"
+        },
+        "schinese": {
+          "name": "诱饵",
+          "description": "在多人游戏中被女妖杀死"
+        }
+      }
+    },
+    "ACH_DOOM_SLAYED": {
+      "translations": {
+        "english": {
+          "name": "Doom Slayed",
+          "description": "Get killed by a Demon ability within the first minute"
+        },
+        "schinese": {
+          "name": "毁灭战士",
+          "description": "在第一分钟内被恶魔的能力杀死"
+        }
+      }
+    },
+    "ACH_BRONZE_HUNTER": {
+      "translations": {
+        "english": {
+          "name": "Bronze Hunter",
+          "description": "Obtain the Bronze Apocalypse Trophy"
+        },
+        "schinese": {
+          "name": "青铜猎手",
+          "description": "获得青铜天启奖杯"
+        }
+      }
+    },
+    "ACH_SILVER_HUNTER": {
+      "translations": {
+        "english": {
+          "name": "Silver Hunter",
+          "description": "Obtain the Silver Apocalypse Trophy"
+        },
+        "schinese": {
+          "name": "白银猎手",
+          "description": "获得白银天启奖杯"
+        }
+      }
+    },
+    "ACH_GOLD_HUNTER": {
+      "translations": {
+        "english": {
+          "name": "Gold Hunter",
+          "description": "Obtain the Gold Apocalypse Trophy"
+        },
+        "schinese": {
+          "name": "黄金猎手",
+          "description": "获得黄金天启奖杯"
+        }
+      }
+    },
+    "ACH_UNLOCK_TIER_ONE_EQUIPMENT": {
+      "translations": {
+        "english": {
+          "name": "Bare Essentials",
+          "description": "Unlock all tier one equipment"
+        },
+        "schinese": {
+          "name": "基本装备",
+          "description": "解锁全部一级装备"
+        }
+      }
+    },
+    "ACH_UNLOCK_TIER_TWO_EQUIPMENT": {
+      "translations": {
+        "english": {
+          "name": "Tools of the Trade",
+          "description": "Unlock all tier two equipment"
+        },
+        "schinese": {
+          "name": "吃饭的家伙",
+          "description": "解锁全部二级装备"
+        }
+      }
+    },
+    "ACH_UNLOCK_TIER_THREE_EQUIPMENT": {
+      "translations": {
+        "english": {
+          "name": "Fully Loaded",
+          "description": "Unlock all tier three equipment"
+        },
+        "schinese": {
+          "name": "全副武装",
+          "description": "解锁全部三级装备"
+        }
+      }
+    },
+    "ACH_COMPLETE_A_PERFECT_GAME": {
+      "translations": {
+        "english": {
+          "name": "Flawless Execution",
+          "description": "Complete a perfect investigation"
+        },
+        "schinese": {
+          "name": "完美执行",
+          "description": "完成一次完美调查"
+        }
+      }
+    },
+    "ACH_CREATE_A_CUSTOM_DIFFICULTY": {
+      "translations": {
+        "english": {
+          "name": "Director",
+          "description": "Create a custom difficulty"
+        },
+        "schinese": {
+          "name": "导演",
+          "description": "创建一个自定义难度"
+        }
+      }
+    },
+    "ACH_ESCAPE_A_REVENANT": {
+      "translations": {
+        "english": {
+          "name": "Escape Artist",
+          "description": "Escape a Revenant"
+        },
+        "schinese": {
+          "name": "逃脱大师",
+          "description": "从亡魂手中逃脱"
+        }
+      }
+    },
+    "ACH_COMPLETE_30_DAILY_TASKS": {
+      "translations": {
+        "english": {
+          "name": "Dedicated",
+          "description": "Complete 30 daily tasks"
+        },
+        "schinese": {
+          "name": "尽心尽力",
+          "description": "完成 30 个每日任务"
+        }
+      }
+    },
+    "ACH_COMPLETE_10_WEEKLY_TASKS": {
+      "translations": {
+        "english": {
+          "name": "Devoted",
+          "description": "Complete 10 weekly tasks"
+        },
+        "schinese": {
+          "name": "矢志不渝",
+          "description": "完成 10 个每周任务"
+        }
+      }
+    },
+    "ACH_COMPLETE_A_WEEKLY_CHALLENGE_MODE": {
+      "translations": {
+        "english": {
+          "name": "Challenger Approaching",
+          "description": "Complete a weekly challenge mode"
+        },
+        "schinese": {
+          "name": "挑战者登场",
+          "description": "完成一次每周挑战模式"
+        }
+      }
+    },
+    "ACH_COMPLETE_THE_WEEKLY_CHALLENGE_MODE_FIVE_TIMES": {
+      "translations": {
+        "english": {
+          "name": "Rise to the Challenge",
+          "description": "Complete the weekly challenge mode 5 times"
+        },
+        "schinese": {
+          "name": "迎难而上",
+          "description": "完成每周挑战模式 5 次"
+        }
+      }
+    },
+    "ACH_COMPLETE_THE_WEEKLY_CHALLENGE_MODE_TEN_TIMES": {
+      "translations": {
+        "english": {
+          "name": "Taking All Challenges",
+          "description": "Complete the weekly challenge mode 10 times"
+        },
+        "schinese": {
+          "name": "全盘接受",
+          "description": "完成每周挑战模式 10 次"
+        }
+      }
+    }
+  }
+}
