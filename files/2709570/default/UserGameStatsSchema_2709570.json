@@ -1,0 +1,660 @@
+{
+  "version": 1,
+  "app_id": "2709570",
+  "variant_id": "default",
+  "source_sha256": "9af1c2ec429b7c80059bbac732d23c2d1a0b6d1cc7ee5dccf4df9f8e56553ab0",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "0_Millionaire": {
+      "translations": {
+        "english": {
+          "name": "Millionaire's Holiday",
+          "description": "Reach one million dollars in funds"
+        },
+        "schinese": {
+          "name": "百万富翁的假期",
+          "description": "资金达到 100 万美元"
+        }
+      }
+    },
+    "1_RestockerA": {
+      "translations": {
+        "english": {
+          "name": "Basic Restocker",
+          "description": "Placed a total of 1000 products in shelves [Collective]"
+        },
+        "schinese": {
+          "name": "初级理货员",
+          "description": "累计上架 1000 件商品（团队累计）"
+        }
+      }
+    },
+    "2_RestockerB": {
+      "translations": {
+        "english": {
+          "name": "Advanced Restocker",
+          "description": "Placed a total of 10000 products in shelves [Collective]"
+        },
+        "schinese": {
+          "name": "高级理货员",
+          "description": "累计上架 10000 件商品（团队累计）"
+        }
+      }
+    },
+    "3_RestockerC": {
+      "translations": {
+        "english": {
+          "name": "Master Restocker",
+          "description": "Placed a total of 100000 products in shelves [Collective]"
+        },
+        "schinese": {
+          "name": "理货大师",
+          "description": "累计上架 100000 件商品（团队累计）"
+        }
+      }
+    },
+    "4_RecyclerA": {
+      "translations": {
+        "english": {
+          "name": "Basic Recycler",
+          "description": "Recycled a total of 50 boxes [Collective]"
+        },
+        "schinese": {
+          "name": "初级回收员",
+          "description": "累计回收 50 个纸箱（团队累计）"
+        }
+      }
+    },
+    "5_RecyclerB": {
+      "translations": {
+        "english": {
+          "name": "Advanced Recycler",
+          "description": "Recycled a total of 500 boxes [Collective]"
+        },
+        "schinese": {
+          "name": "高级回收员",
+          "description": "累计回收 500 个纸箱（团队累计）"
+        }
+      }
+    },
+    "6_RecyclerC": {
+      "translations": {
+        "english": {
+          "name": "Expert Recycler",
+          "description": "Recycled a total of 2000 boxes [Collective]"
+        },
+        "schinese": {
+          "name": "回收专家",
+          "description": "累计回收 2000 个纸箱（团队累计）"
+        }
+      }
+    },
+    "7_CustomersA": {
+      "translations": {
+        "english": {
+          "name": "Some Success",
+          "description": "500 customers have gone through the store [Collective]"
+        },
+        "schinese": {
+          "name": "小有成就",
+          "description": "累计接待 500 位顾客（团队累计）"
+        }
+      }
+    },
+    "8_CustomersB": {
+      "translations": {
+        "english": {
+          "name": "This Is Rolling",
+          "description": "2000 customers have gone through the store [Collective]"
+        },
+        "schinese": {
+          "name": "渐入佳境",
+          "description": "累计接待 2000 位顾客（团队累计）"
+        }
+      }
+    },
+    "9_CustomersC": {
+      "translations": {
+        "english": {
+          "name": "Sky High",
+          "description": "10000 customers have gone through the store [Collective]"
+        },
+        "schinese": {
+          "name": "直冲云霄",
+          "description": "累计接待 10000 位顾客（团队累计）"
+        }
+      }
+    },
+    "10_CashierA": {
+      "translations": {
+        "english": {
+          "name": "Basic Cashier",
+          "description": "Checked out a total of 500 products [Collective]"
+        },
+        "schinese": {
+          "name": "初级收银员",
+          "description": "累计结账 500 件商品（团队累计）"
+        }
+      }
+    },
+    "11_CashierB": {
+      "translations": {
+        "english": {
+          "name": "Advanced Cashier",
+          "description": "Checked out a total of 2500 products [Collective]"
+        },
+        "schinese": {
+          "name": "高级收银员",
+          "description": "累计结账 2500 件商品（团队累计）"
+        }
+      }
+    },
+    "12_CashierC": {
+      "translations": {
+        "english": {
+          "name": "Expert Cashier",
+          "description": "Checked out a total of 10000 products [Collective]"
+        },
+        "schinese": {
+          "name": "收银专家",
+          "description": "累计结账 10000 件商品（团队累计）"
+        }
+      }
+    },
+    "13_CleanerA": {
+      "translations": {
+        "english": {
+          "name": "Basic Cleaner",
+          "description": "Cleaned 50 trash [Collective]"
+        },
+        "schinese": {
+          "name": "初级清洁工",
+          "description": "累计清理 50 件垃圾（团队累计）"
+        }
+      }
+    },
+    "14_CleanerB": {
+      "translations": {
+        "english": {
+          "name": "Advanced Cleaner",
+          "description": "Cleaned 200 trash [Collective]"
+        },
+        "schinese": {
+          "name": "高级清洁工",
+          "description": "累计清理 200 件垃圾（团队累计）"
+        }
+      }
+    },
+    "15_CleanerC": {
+      "translations": {
+        "english": {
+          "name": "Expert Cleaner",
+          "description": "Cleaned 500 trash [Collective]"
+        },
+        "schinese": {
+          "name": "清洁专家",
+          "description": "累计清理 500 件垃圾（团队累计）"
+        }
+      }
+    },
+    "16_CorrectChange": {
+      "translations": {
+        "english": {
+          "name": "Careful Cashier",
+          "description": "Return the correct change 100 times in a row while being a cashier"
+        },
+        "schinese": {
+          "name": "细心收银员",
+          "description": "担任收银员时连续 100 次找零正确"
+        }
+      }
+    },
+    "17_DutyGuard": {
+      "translations": {
+        "english": {
+          "name": "Not On My Guard",
+          "description": "Hit a thief  with the broom 500 times"
+        },
+        "schinese": {
+          "name": "休想在我眼皮底下",
+          "description": "用扫帚打中小偷 500 次"
+        }
+      }
+    },
+    "18_CollectProducts": {
+      "translations": {
+        "english": {
+          "name": "Can't Someone Else Do It?",
+          "description": "Recover 500 dropped products"
+        },
+        "schinese": {
+          "name": "这活儿不能别人干吗？",
+          "description": "捡回 500 件掉落的商品"
+        }
+      }
+    },
+    "19_CatPetting": {
+      "translations": {
+        "english": {
+          "name": "Welcome Mr. Whiskers",
+          "description": "Pet the cat outside 100 times"
+        },
+        "schinese": {
+          "name": "欢迎你，胡须先生",
+          "description": "在店外抚摸猫咪 100 次"
+        }
+      }
+    },
+    "20_GoodEarnings": {
+      "translations": {
+        "english": {
+          "name": "Gaining Traction!",
+          "description": "Achieve $25.000 or more in earnings in a single day"
+        },
+        "schinese": {
+          "name": "渐有起色！",
+          "description": "单日营业额达到 25000 美元以上"
+        }
+      }
+    },
+    "21_CheckoutMoney": {
+      "translations": {
+        "english": {
+          "name": "KA-CHING!",
+          "description": "Have a customer pay more than 700 dollars"
+        },
+        "schinese": {
+          "name": "叮当进账！",
+          "description": "让一位顾客单笔付款超过 700 美元"
+        }
+      }
+    },
+    "22_DecorationsA": {
+      "translations": {
+        "english": {
+          "name": "Basic Decorator",
+          "description": "Have 50 or more decorations in your store (lights do count)"
+        },
+        "schinese": {
+          "name": "初级装饰师",
+          "description": "店内摆放 50 件以上装饰（灯饰也算）"
+        }
+      }
+    },
+    "23_DecorationsB": {
+      "translations": {
+        "english": {
+          "name": "Advanced Decorator",
+          "description": "Have 100 or more decorations in your store"
+        },
+        "schinese": {
+          "name": "高级装饰师",
+          "description": "店内摆放 100 件以上装饰"
+        }
+      }
+    },
+    "24_DecorationsC": {
+      "translations": {
+        "english": {
+          "name": "Master Decorator",
+          "description": "Have 200 or more decorations in your store"
+        },
+        "schinese": {
+          "name": "装饰大师",
+          "description": "店内摆放 200 件以上装饰"
+        }
+      }
+    },
+    "25_SurveillanceA": {
+      "translations": {
+        "english": {
+          "name": "Observation Duty?",
+          "description": "Analyzed 500 customers with the surveillance desk [Collective]"
+        },
+        "schinese": {
+          "name": "监视值勤？",
+          "description": "用监控台分析 500 位顾客（团队累计）"
+        }
+      }
+    },
+    "26_SurveillanceB": {
+      "translations": {
+        "english": {
+          "name": "Caught Red Handed",
+          "description": "Catch 10 thieves with the surveillance desk [Collective]"
+        },
+        "schinese": {
+          "name": "抓个正着",
+          "description": "用监控台抓到 10 名小偷（团队累计）"
+        }
+      }
+    },
+    "27_Demolition": {
+      "translations": {
+        "english": {
+          "name": "How Is This Still Standing? (A)",
+          "description": "Demolish every possible pillar and beam in the classic layout"
+        },
+        "schinese": {
+          "name": "这怎么还没塌？",
+          "description": "拆掉经典布局里所有能拆的柱子和横梁"
+        }
+      }
+    },
+    "28_Consequences": {
+      "translations": {
+        "english": {
+          "name": "Defaulter",
+          "description": "Suffer the consequences of not paying a bank loan"
+        },
+        "schinese": {
+          "name": "失信者",
+          "description": "尝到拖欠银行贷款的后果"
+        }
+      }
+    },
+    "29_SalesA": {
+      "translations": {
+        "english": {
+          "name": "Good, Pretty, Cheap",
+          "description": "Do at least 10 sales [Collective]"
+        },
+        "schinese": {
+          "name": "好、好看、便宜",
+          "description": "至少进行 10 次促销（团队累计）"
+        }
+      }
+    },
+    "30_SalesB": {
+      "translations": {
+        "english": {
+          "name": "Better, Prettier, Cheaper",
+          "description": "Do at least 50 sales [Collective]"
+        },
+        "schinese": {
+          "name": "更好、更好看、更便宜",
+          "description": "至少进行 50 次促销（团队累计）"
+        }
+      }
+    },
+    "31_CardboardBaler": {
+      "translations": {
+        "english": {
+          "name": "Feed The Machine",
+          "description": "Insert 500 boxes in the cardboard baler [Collective]"
+        },
+        "schinese": {
+          "name": "喂饱这台机器",
+          "description": "往纸板打包机里放入 500 个纸箱（团队累计）"
+        }
+      }
+    },
+    "32_Bales": {
+      "translations": {
+        "english": {
+          "name": "Condensed Recycling",
+          "description": "Recycle 40 cardboard bales [Collective]"
+        },
+        "schinese": {
+          "name": "压缩回收",
+          "description": "回收 40 个纸板包（团队累计）"
+        }
+      }
+    },
+    "33_HiddenCat": {
+      "translations": {
+        "english": {
+          "name": "Might Need Two Ladders",
+          "description": "Find the missing cat in the classic layout"
+        },
+        "schinese": {
+          "name": "可能得用两把梯子",
+          "description": "在经典布局里找到走失的猫"
+        }
+      }
+    },
+    "34_CannotResist": {
+      "translations": {
+        "english": {
+          "name": "Who Could Resist?",
+          "description": "Sell 1000 extra products thanks to sales [Collective]"
+        },
+        "schinese": {
+          "name": "谁能忍住？",
+          "description": "靠促销多卖出 1000 件商品（团队累计）"
+        }
+      }
+    },
+    "35_Taxes": {
+      "translations": {
+        "english": {
+          "name": "Taxes? In my store?",
+          "description": "Pay your first invoice [Collective]"
+        },
+        "schinese": {
+          "name": "税？在我店里？",
+          "description": "支付第一张账单（团队累计）"
+        }
+      }
+    },
+    "36_Responsible": {
+      "translations": {
+        "english": {
+          "name": "A Responsible Owner",
+          "description": "Pay 25 invoices [Collective]"
+        },
+        "schinese": {
+          "name": "负责任的老板",
+          "description": "支付 25 张账单（团队累计）"
+        }
+      }
+    },
+    "37_OnlineServiceA": {
+      "translations": {
+        "english": {
+          "name": "Turning The Router On",
+          "description": "Pack your first online order."
+        },
+        "schinese": {
+          "name": "先把路由器打开",
+          "description": "打包第一笔线上订单"
+        }
+      }
+    },
+    "38_OnlineServiceB": {
+      "translations": {
+        "english": {
+          "name": "Still Connected",
+          "description": "Complete 25 online orders."
+        },
+        "schinese": {
+          "name": "依然在线",
+          "description": "完成 25 笔线上订单"
+        }
+      }
+    },
+    "39_OnlineBenefit": {
+      "translations": {
+        "english": {
+          "name": "Virtual Benefits",
+          "description": "Earn more than 25.000$ with online orders."
+        },
+        "schinese": {
+          "name": "线上红利",
+          "description": "靠线上订单赚到 25000 美元以上"
+        }
+      }
+    },
+    "40_RepairA": {
+      "translations": {
+        "english": {
+          "name": "Let's Get To Work",
+          "description": "Repair your first device"
+        },
+        "schinese": {
+          "name": "开工吧",
+          "description": "修好第一台设备"
+        }
+      }
+    },
+    "41_RepairB": {
+      "translations": {
+        "english": {
+          "name": "Wrench Specialist",
+          "description": "Repair 30 devices [Collective]"
+        },
+        "schinese": {
+          "name": "扳手专家",
+          "description": "修理 30 台设备（团队累计）"
+        }
+      }
+    },
+    "42_DearCustomers": {
+      "translations": {
+        "english": {
+          "name": "Good Morning Dear Customers",
+          "description": "Place an announcement desk in your store"
+        },
+        "schinese": {
+          "name": "早安，亲爱的顾客",
+          "description": "在店里放置一张广播台"
+        }
+      }
+    },
+    "43_FireExtinguisher": {
+      "translations": {
+        "english": {
+          "name": "Tool Of Chaos",
+          "description": "Get your hands on a fire extinguiser"
+        },
+        "schinese": {
+          "name": "混乱之器",
+          "description": "搞到一支灭火器"
+        }
+      }
+    },
+    "44_BystanderConvert": {
+      "translations": {
+        "english": {
+          "name": "Please Check My Prices!!",
+          "description": "'Convince' 10 bystanders to become customers by pushing them inside your store with the fire extinguiser in the classic layout (Double transit door needed)"
+        },
+        "schinese": {
+          "name": "快来看看我的价格！！",
+          "description": "在经典布局里用灭火器把 10 名路人推进店里变成顾客（需要双通道门）"
+        }
+      }
+    },
+    "45_SuperFood": {
+      "translations": {
+        "english": {
+          "name": "Superfood",
+          "description": "Manufacture a recipe with at least 7 extra ingredients"
+        },
+        "schinese": {
+          "name": "超级食物",
+          "description": "制作一份含至少 7 种额外配料的配方"
+        }
+      }
+    },
+    "46_Manufacturing": {
+      "translations": {
+        "english": {
+          "name": "A Wider Array Of Products",
+          "description": "Acquire all manufacturing departments"
+        },
+        "schinese": {
+          "name": "更丰富的商品",
+          "description": "解锁全部生产部门"
+        }
+      }
+    },
+    "47_MRecipes": {
+      "translations": {
+        "english": {
+          "name": "A Good Wares Selection",
+          "description": "Unlock all manufacturing recipes available so far"
+        },
+        "schinese": {
+          "name": "上乘的货源",
+          "description": "解锁目前全部生产配方"
+        }
+      }
+    },
+    "48_DemolitionPlaza": {
+      "translations": {
+        "english": {
+          "name": "How Is This Still Standing Again?",
+          "description": "Demolish every possible pillar and beam in the plaza layout"
+        },
+        "schinese": {
+          "name": "这怎么又没塌？",
+          "description": "拆掉广场布局里所有能拆的柱子和横梁"
+        }
+      }
+    },
+    "49_HiddenCatPlaza": {
+      "translations": {
+        "english": {
+          "name": "Might Need Two Ladders... Or More",
+          "description": "Find the missing cat in the plaza layout"
+        },
+        "schinese": {
+          "name": "可能得用两把梯子……或者更多",
+          "description": "在广场布局里找到走失的猫"
+        }
+      }
+    },
+    "50_EnigmaCube": {
+      "translations": {
+        "english": {
+          "name": "What Is This?",
+          "description": "Build the enigma cube in the plaza layout"
+        },
+        "schinese": {
+          "name": "这是什么？",
+          "description": "在广场布局里搭出谜之立方"
+        }
+      }
+    },
+    "51_SodiumOverdose": {
+      "translations": {
+        "english": {
+          "name": "Sodium Overdose",
+          "description": "Launch a salt firework from the mini transport vehicle"
+        },
+        "schinese": {
+          "name": "钠超标",
+          "description": "用小型运输车发射一支盐焰火"
+        }
+      }
+    },
+    "52_SixAtATime": {
+      "translations": {
+        "english": {
+          "name": "Six At A Time",
+          "description": "Move 100 boxes with the mini transport vehicle"
+        },
+        "schinese": {
+          "name": "一次搬六箱",
+          "description": "用小型运输车搬运 100 个纸箱"
+        }
+      }
+    },
+    "53_MiniVacuum": {
+      "translations": {
+        "english": {
+          "name": "Are Extras Included?",
+          "description": "Vacuum 1000 stolen items with the mini transport vehicle"
+        },
+        "schinese": {
+          "name": "这算附赠吗？",
+          "description": "用小型运输车吸走 1000 件被偷的商品"
+        }
+      }
+    }
+  }
+}
