@@ -1,0 +1,780 @@
+{
+  "version": 1,
+  "app_id": "508440",
+  "variant_id": "default",
+  "source_sha256": "04973b00ad513f5480d09fb86710b4c2d7ae8be1d8da3e3ac5e389cec16d513e",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "FINISH_ALL": {
+      "translations": {
+        "english": {
+          "name": "Campaign Master",
+          "description": "Finish all campaigns"
+        },
+        "schinese": {
+          "name": "战役大师",
+          "description": "完成全部战役"
+        }
+      }
+    },
+    "FINISH_THE_INTRODUCTION": {
+      "translations": {
+        "english": {
+          "name": "Beginner clubber",
+          "description": "Finish The Introduction campaign"
+        },
+        "schinese": {
+          "name": "新手棒手",
+          "description": "完成「序章」战役"
+        }
+      }
+    },
+    "FINISH_THE_ADVENTURE": {
+      "translations": {
+        "english": {
+          "name": "Adventurer",
+          "description": "Finish The Adventure campaign"
+        },
+        "schinese": {
+          "name": "冒险家",
+          "description": "完成「冒险」战役"
+        }
+      }
+    },
+    "FINISH_THE_CHALLENGE": {
+      "translations": {
+        "english": {
+          "name": "More Challenging than you think",
+          "description": "Finish The Challenge campaign"
+        },
+        "schinese": {
+          "name": "比你想的更难",
+          "description": "完成「挑战」战役"
+        }
+      }
+    },
+    "FINISH_DYNASTY": {
+      "translations": {
+        "english": {
+          "name": "Kung Fu Master",
+          "description": "Finish Dynasty campaign"
+        },
+        "schinese": {
+          "name": "功夫大师",
+          "description": "完成「王朝」战役"
+        }
+      }
+    },
+    "FINISH_RENAISSANCE": {
+      "translations": {
+        "english": {
+          "name": "Mona Lisa look at me!",
+          "description": "Finish Renaissance campaign"
+        },
+        "schinese": {
+          "name": "蒙娜丽莎看看我！",
+          "description": "完成「文艺复兴」战役"
+        }
+      }
+    },
+    "FINISH_PIRATE": {
+      "translations": {
+        "english": {
+          "name": "Parlay!!!",
+          "description": "Finish Pirate campaign"
+        },
+        "schinese": {
+          "name": "谈判！！！",
+          "description": "完成「海盗」战役"
+        }
+      }
+    },
+    "FINISH_SPOOKY": {
+      "translations": {
+        "english": {
+          "name": "Halloween party",
+          "description": "Finish Spooky campaign"
+        },
+        "schinese": {
+          "name": "万圣节派对",
+          "description": "完成「惊悚」战役"
+        }
+      }
+    },
+    "FINISH_SIMULATION": {
+      "translations": {
+        "english": {
+          "name": "Improvise and win!",
+          "description": "Finish Simulation campaign"
+        },
+        "schinese": {
+          "name": "临场发挥也能赢！",
+          "description": "完成「模拟」战役"
+        }
+      }
+    },
+    "FINISH_WILD_WEST": {
+      "translations": {
+        "english": {
+          "name": "Bullets in the Saloon",
+          "description": "Finish Wild West campaign"
+        },
+        "schinese": {
+          "name": "酒馆里的子弹",
+          "description": "完成「狂野西部」战役"
+        }
+      }
+    },
+    "FINISH_LEGACY": {
+      "translations": {
+        "english": {
+          "name": "Thunders and bombs are awesome!",
+          "description": "Finish Legacy campaign"
+        },
+        "schinese": {
+          "name": "雷电与炸弹真带劲！",
+          "description": "完成「传承」战役"
+        }
+      }
+    },
+    "FINISH_FANTASY_GOOD": {
+      "translations": {
+        "english": {
+          "name": "Good always wins!",
+          "description": "Finish Fantasy Good campaign"
+        },
+        "schinese": {
+          "name": "正义必胜！",
+          "description": "完成「奇幻·正义」战役"
+        }
+      }
+    },
+    "FINISH_FANTASY_EVIL": {
+      "translations": {
+        "english": {
+          "name": "That Evil plan worked!",
+          "description": "Finish Fantasy Evil campaign"
+        },
+        "schinese": {
+          "name": "邪恶计划成功了！",
+          "description": "完成「奇幻·邪恶」战役"
+        }
+      }
+    },
+    "UNLOCKED_ALL_SECRET": {
+      "translations": {
+        "english": {
+          "name": "Secret Agent",
+          "description": "Find all Secret Units"
+        },
+        "schinese": {
+          "name": "秘密特工",
+          "description": "找到全部秘密单位"
+        }
+      }
+    },
+    "UNLOCKED_ALL_LEGACY": {
+      "translations": {
+        "english": {
+          "name": "Legacy campaign. Hooray!",
+          "description": "Find all hidden units in the Legacy map"
+        },
+        "schinese": {
+          "name": "传承战役，万岁！",
+          "description": "找到「传承」地图里的全部隐藏单位"
+        }
+      }
+    },
+    "FINISH_THE_INTRODUCTION_NO_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "No need of Introduction",
+          "description": "Finish The Introduction campaign without being defeated even once"
+        },
+        "schinese": {
+          "name": "无需序章",
+          "description": "一次不败地完成「序章」战役"
+        }
+      }
+    },
+    "FINISH_THE_ADVENTURE_NO_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Indiana Jones!?",
+          "description": "Finish The Adventure campaign without being defeated even once"
+        },
+        "schinese": {
+          "name": "印第安纳·琼斯！？",
+          "description": "一次不败地完成「冒险」战役"
+        }
+      }
+    },
+    "FINISH_THE_CHALLENGE_NO_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Checkmate",
+          "description": "Finish The Challenge campaign without being defeated even once"
+        },
+        "schinese": {
+          "name": "绝杀",
+          "description": "一次不败地完成「挑战」战役"
+        }
+      }
+    },
+    "FINISH_DYNASTY_NO_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Shogun Sensei",
+          "description": "Finish Dynasty campaign without being defeated even once"
+        },
+        "schinese": {
+          "name": "幕府导师",
+          "description": "一次不败地完成「王朝」战役"
+        }
+      }
+    },
+    "FINISH_RENAISSANCE_NO_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Da Vinci Mastermind",
+          "description": "Finish Renaissance campaign without being defeated even once"
+        },
+        "schinese": {
+          "name": "达·芬奇式天才",
+          "description": "一次不败地完成「文艺复兴」战役"
+        }
+      }
+    },
+    "FINISH_PIRATE_NO_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Blackbeard on board",
+          "description": "Finish Pirate campaign without being defeated even once"
+        },
+        "schinese": {
+          "name": "黑胡子登场",
+          "description": "一次不败地完成「海盗」战役"
+        }
+      }
+    },
+    "FINISH_SPOOKY_NO_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Not afraid of the dark!!",
+          "description": "Finish Spooky campaign without being defeated even once"
+        },
+        "schinese": {
+          "name": "不怕黑！！",
+          "description": "一次不败地完成「惊悚」战役"
+        }
+      }
+    },
+    "FINISH_SIMULATION_NO_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "No terrain no problem!",
+          "description": "Finish Simulation campaign without being defeated even once"
+        },
+        "schinese": {
+          "name": "没有地形也没问题！",
+          "description": "一次不败地完成「模拟」战役"
+        }
+      }
+    },
+    "FINISH_WILD_WEST_NO_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Cactus Conquest",
+          "description": "Finish Wild West campaign without being defeated even once"
+        },
+        "schinese": {
+          "name": "仙人掌征服",
+          "description": "一次不败地完成「狂野西部」战役"
+        }
+      }
+    },
+    "FINISH_LEGACY_NO_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "God or General !?",
+          "description": "Finish Legacy campaign without being defeated even once"
+        },
+        "schinese": {
+          "name": "神还是将军！？",
+          "description": "一次不败地完成「传承」战役"
+        }
+      }
+    },
+    "FINISH_FANTASY_GOOD_NO_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "The Good is defeated",
+          "description": "Finish Fantasy Good campaign without being defeated even once"
+        },
+        "schinese": {
+          "name": "正义被击败",
+          "description": "一次不败地完成「奇幻·正义」战役"
+        }
+      }
+    },
+    "FINISH_FANTASY_EVIL_NO_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "The Evil is defeated",
+          "description": "Finish Fantasy Evil campaign without being defeated even once"
+        },
+        "schinese": {
+          "name": "邪恶被击败",
+          "description": "一次不败地完成「奇幻·邪恶」战役"
+        }
+      }
+    },
+    "FINISH_ALL_NO_DEFEAT": {
+      "translations": {
+        "english": {
+          "name": "Bad ass Campaigner",
+          "description": "Finish all Campaigns without being defeated even once"
+        },
+        "schinese": {
+          "name": "狠角色战役家",
+          "description": "一次不败地完成全部战役"
+        }
+      }
+    },
+    "QUICKDRAW_KILL_UNIT": {
+      "translations": {
+        "english": {
+          "name": "You are Billy the Kid?!",
+          "description": "Kill 100 units in possession with Quick Draw"
+        },
+        "schinese": {
+          "name": "你是比利小子吗？！",
+          "description": "用「快枪」附身击杀 100 个单位"
+        }
+      }
+    },
+    "CATAPULT_KILL_UNIT": {
+      "translations": {
+        "english": {
+          "name": "Stone away!!!",
+          "description": "Kill 10 units with Catapult with one Stone"
+        },
+        "schinese": {
+          "name": "石头来了！！！",
+          "description": "用投石机一次投石击杀 10 个单位"
+        }
+      }
+    },
+    "FLY_UNIT": {
+      "translations": {
+        "english": {
+          "name": "Make them fly!!",
+          "description": "Shoot 100 units and make them fly with Balloon Archer"
+        },
+        "schinese": {
+          "name": "让它们飞起来！！",
+          "description": "用气球弓箭手把 100 个单位射上天"
+        }
+      }
+    },
+    "CLUBBER_KILL_UNIT": {
+      "translations": {
+        "english": {
+          "name": "Baseballer",
+          "description": "Kill 20 units with Clubber"
+        },
+        "schinese": {
+          "name": "棒球手",
+          "description": "用棒手击杀 20 个单位"
+        }
+      }
+    },
+    "WIN_SINLGE_REAPER": {
+      "translations": {
+        "english": {
+          "name": "Reaper Creeper",
+          "description": "Pass 20 levels with only one Reaper"
+        },
+        "schinese": {
+          "name": "死神潜影",
+          "description": "只用一个死神通过 20 关"
+        }
+      }
+    },
+    "HWACHA_KILL_MAMMOTH": {
+      "translations": {
+        "english": {
+          "name": "Arrows from the cart",
+          "description": "Kill 20 Mammoths with Hwacha"
+        },
+        "schinese": {
+          "name": "推车之箭",
+          "description": "用火车击杀 20 头猛犸"
+        }
+      }
+    },
+    "TREEGIANT_KILL_UNIT": {
+      "translations": {
+        "english": {
+          "name": "Timbeeeeeer!!!",
+          "description": "Kill 10 units with Tree Giant with one stroke"
+        },
+        "schinese": {
+          "name": "树倒了！！！",
+          "description": "用树巨人一击击杀 10 个单位"
+        }
+      }
+    },
+    "WIN_NO_DAMAGE_PROGRESSIVE": {
+      "translations": {
+        "english": {
+          "name": "Catch me if you can!",
+          "description": "Win 25 battles without fighting"
+        },
+        "schinese": {
+          "name": "有本事来抓我！",
+          "description": "不战斗赢下 25 场"
+        }
+      }
+    },
+    "LOSE_STREAK": {
+      "translations": {
+        "english": {
+          "name": "HAHAHAHA!!!",
+          "description": "Lose at same battle 10 times in a row"
+        },
+        "schinese": {
+          "name": "哈哈哈哈哈！！！",
+          "description": "同一场战斗连续失败 10 次"
+        }
+      }
+    },
+    "WIN_SINLGE_UNIT": {
+      "translations": {
+        "english": {
+          "name": "Lone Ranger",
+          "description": "Win 10 Battles with only one unit"
+        },
+        "schinese": {
+          "name": "独行侠",
+          "description": "只用一个单位赢下 10 场战斗"
+        }
+      }
+    },
+    "KNIGHT_KILL_VAMPIRE": {
+      "translations": {
+        "english": {
+          "name": "Castlevanic!",
+          "description": "Kill 100 vampires while possesing a Knight unit"
+        },
+        "schinese": {
+          "name": "恶魔城！",
+          "description": "附身骑士时击杀 100 个吸血鬼"
+        }
+      }
+    },
+    "WIN_TANK": {
+      "translations": {
+        "english": {
+          "name": "Tank you",
+          "description": "Win a campaign battle in less than 10 second with a single tank"
+        },
+        "schinese": {
+          "name": "坦克万岁",
+          "description": "用一辆坦克在 10 秒内赢下一场战役"
+        }
+      }
+    },
+    "TWISTED_TWISTER": {
+      "translations": {
+        "english": {
+          "name": "Twisted twister",
+          "description": "Make a Tornado with combining units from Secret faction"
+        },
+        "schinese": {
+          "name": "扭曲旋风",
+          "description": "用秘密阵营的单位合成一个龙卷风"
+        }
+      }
+    },
+    "WIN_NO_DAMAGE": {
+      "translations": {
+        "english": {
+          "name": "Peacemaker",
+          "description": "Finish a level without doing any damage"
+        },
+        "schinese": {
+          "name": "和平使者",
+          "description": "不造成任何伤害通过一关"
+        }
+      }
+    },
+    "KILL_GODS": {
+      "translations": {
+        "english": {
+          "name": "Superior God",
+          "description": "Kill Zeus with Thor (or vice versa)"
+        },
+        "schinese": {
+          "name": "更胜一筹的神",
+          "description": "用托尔击杀宙斯（或反过来）"
+        }
+      }
+    },
+    "WIN_CLERGY": {
+      "translations": {
+        "english": {
+          "name": "Clergy",
+          "description": "Finish a level with 10+ Healers"
+        },
+        "schinese": {
+          "name": "神职人员",
+          "description": "带 10 名以上治疗者通过一关"
+        }
+      }
+    },
+    "WIN_EQUAL_ARMIES": {
+      "translations": {
+        "english": {
+          "name": "Mirror match",
+          "description": "Win a level with the same army as your opponent"
+        },
+        "schinese": {
+          "name": "镜像对决",
+          "description": "用与对手相同的阵容赢下一关"
+        }
+      }
+    },
+    "FINISH_NO_POSSESS": {
+      "translations": {
+        "english": {
+          "name": "Tactician",
+          "description": "Beat a campaign without possessing a unit"
+        },
+        "schinese": {
+          "name": "战术家",
+          "description": "不附身任何单位完成一场战役"
+        }
+      }
+    },
+    "WIN_ALL_TRIBAL": {
+      "translations": {
+        "english": {
+          "name": "Tribal Trial",
+          "description": "Win a battle with each tribal unit"
+        },
+        "schinese": {
+          "name": "部落试炼",
+          "description": "用每个部落单位各赢一场战斗"
+        }
+      }
+    },
+    "WIN_ALL_FARMER": {
+      "translations": {
+        "english": {
+          "name": "Funky Farmer",
+          "description": "Win a battle with each farmer unit"
+        },
+        "schinese": {
+          "name": "古怪农夫",
+          "description": "用每个农民单位各赢一场战斗"
+        }
+      }
+    },
+    "WIN_ALL_MEDIEVAL": {
+      "translations": {
+        "english": {
+          "name": "Madly Medieval ",
+          "description": "Win a battle with each medieval unit"
+        },
+        "schinese": {
+          "name": "疯狂中世纪",
+          "description": "用每个中世纪单位各赢一场战斗"
+        }
+      }
+    },
+    "WIN_ALL_ANCIENT": {
+      "translations": {
+        "english": {
+          "name": "Ancient Aspiration",
+          "description": "Win a battle with each ancient unit"
+        },
+        "schinese": {
+          "name": "远古之志",
+          "description": "用每个远古单位各赢一场战斗"
+        }
+      }
+    },
+    "WIN_ALL_VIKING": {
+      "translations": {
+        "english": {
+          "name": "Viking Valor",
+          "description": "Win a battle with each viking unit"
+        },
+        "schinese": {
+          "name": "维京之勇",
+          "description": "用每个维京单位各赢一场战斗"
+        }
+      }
+    },
+    "WIN_ALL_PIRATE": {
+      "translations": {
+        "english": {
+          "name": "Peculiar Pirate",
+          "description": "Win a battle with each pirate unit"
+        },
+        "schinese": {
+          "name": "古怪海盗",
+          "description": "用每个海盗单位各赢一场战斗"
+        }
+      }
+    },
+    "WIN_ALL_RENAISSANCE": {
+      "translations": {
+        "english": {
+          "name": "Renaissance Ranger",
+          "description": "Win a battle with each renaissance unit"
+        },
+        "schinese": {
+          "name": "文艺复兴游侠",
+          "description": "用每个文艺复兴单位各赢一场战斗"
+        }
+      }
+    },
+    "WIN_ALL_SPOOKY": {
+      "translations": {
+        "english": {
+          "name": "Spooky Scary Skeletons",
+          "description": "Win a battle with each spooky unit"
+        },
+        "schinese": {
+          "name": "阴森骷髅",
+          "description": "用每个惊悚单位各赢一场战斗"
+        }
+      }
+    },
+    "WIN_ALL_WILDWEST": {
+      "translations": {
+        "english": {
+          "name": "Wildly Western",
+          "description": "Win a battle with each wild west unit"
+        },
+        "schinese": {
+          "name": "狂野西部",
+          "description": "用每个西部单位各赢一场战斗"
+        }
+      }
+    },
+    "WIN_ALL_LEGACY": {
+      "translations": {
+        "english": {
+          "name": "Lasting Legacy",
+          "description": "Win a battle with each legacy unit"
+        },
+        "schinese": {
+          "name": "不朽传承",
+          "description": "用每个传承单位各赢一场战斗"
+        }
+      }
+    },
+    "WIN_ALL_FANTASY_GOOD": {
+      "translations": {
+        "english": {
+          "name": "Honorary Angel",
+          "description": "Win a battle with each fantasy good unit"
+        },
+        "schinese": {
+          "name": "荣誉天使",
+          "description": "用每个奇幻·正义单位各赢一场战斗"
+        }
+      }
+    },
+    "WIN_ALL_FANTASY_EVIL": {
+      "translations": {
+        "english": {
+          "name": "Evil spelled backwards",
+          "description": "Win a battle with each fantasy evil unit"
+        },
+        "schinese": {
+          "name": "倒着拼的邪恶",
+          "description": "用每个奇幻·邪恶单位各赢一场战斗"
+        }
+      }
+    },
+    "WIN_ALL_SECRET": {
+      "translations": {
+        "english": {
+          "name": "Secret Shenanigans",
+          "description": "Win a battle with each secret unit"
+        },
+        "schinese": {
+          "name": "秘密恶作剧",
+          "description": "用每个秘密单位各赢一场战斗"
+        }
+      }
+    },
+    "FLY_MAMMOTH": {
+      "translations": {
+        "english": {
+          "name": "Fly Dumbo!!",
+          "description": "Shoot a Mammoth with Baloon Archers and make him fly"
+        },
+        "schinese": {
+          "name": "飞吧小飞象！！",
+          "description": "用气球弓箭手把一头猛犸射上天"
+        }
+      }
+    },
+    "WIN_HALF_BUDGET": {
+      "translations": {
+        "english": {
+          "name": "Accountant",
+          "description": "Win a level with only half of the gold given or less"
+        },
+        "schinese": {
+          "name": "会计",
+          "description": "只用所给金币的一半或更少通过一关"
+        }
+      }
+    },
+    "FREEZE_ICE_GIANT": {
+      "translations": {
+        "english": {
+          "name": "Ice to meet you",
+          "description": "Freeze an ice giant to death"
+        },
+        "schinese": {
+          "name": "冰临天下",
+          "description": "把一头冰巨人冻死"
+        }
+      }
+    },
+    "ZEUS_KILL_UNITS": {
+      "translations": {
+        "english": {
+          "name": "Zip Zap!",
+          "description": "Kill 20 units with Zeus in one set of attack"
+        },
+        "schinese": {
+          "name": "噼啪！",
+          "description": "用宙斯在一次攻击中击杀 20 个单位"
+        }
+      }
+    },
+    "WIN_SINGLE_MUSKETEER": {
+      "translations": {
+        "english": {
+          "name": "Master Musketeer ",
+          "description": "Win 20 campaign battles with a single musketeer"
+        },
+        "schinese": {
+          "name": "火枪大师",
+          "description": "只用一个火枪手赢下 20 场战役"
+        }
+      }
+    }
+  }
+}
