@@ -1,0 +1,1105 @@
+{
+  "version": 1,
+  "app_id": "571310",
+  "variant_id": "default",
+  "source_sha256": "5aa530d45272706edbc1363b3fa24856da5b12a7d3441168233cac2ebfc284ad",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "ach_defeat_totem": {
+      "translations": {
+        "english": {
+          "name": "The Guiding Light",
+          "description": "Defeat the first boss."
+        },
+        "french": {
+          "name": "Une lumière à suivre",
+          "description": "Battez le premier boss."
+        },
+        "german": {
+          "name": "Das Licht der Führung",
+          "description": "Besiege den ersten Boss."
+        },
+        "italian": {
+          "name": "La luce guida",
+          "description": "Sconfiggi il primo boss."
+        },
+        "russian": {
+          "name": "Путеводный свет",
+          "description": "Победить первого босса."
+        },
+        "schinese": {
+          "name": "支配之光",
+          "description": "击败第一个Boss。"
+        },
+        "spanish": {
+          "name": "Sigue la Luz",
+          "description": "Derrota al primer jefe."
+        }
+      }
+    },
+    "ach_find_yarrow": {
+      "translations": {
+        "english": {
+          "name": "A Mysterious Garden",
+          "description": "Enter Yarrow and discover a strangely verdant area."
+        },
+        "french": {
+          "name": "Un jardin mystérieux",
+          "description": "Entrez dans Yarrow et découvrez une zone particulièrement verdoyante."
+        },
+        "german": {
+          "name": "Ein mysteriöser Garten",
+          "description": "Betritt Yarrow und entdecke ein sonderlich grünes Gebiet."
+        },
+        "italian": {
+          "name": "Un giardino misterioso",
+          "description": "Entra a Yarrow e scopri una strana area verdeggiante."
+        },
+        "russian": {
+          "name": "Таинственный сад",
+          "description": "Войти в Ярроу и найти странные заросли."
+        },
+        "schinese": {
+          "name": "神秘花园",
+          "description": "进入雅罗并发现一处奇异青翠之地。"
+        },
+        "spanish": {
+          "name": "El Jardín Misterioso",
+          "description": "Entra en Yarrow y descubre una zona inusualmente cubierta de vegetación."
+        }
+      }
+    },
+    "ach_find_hub": {
+      "translations": {
+        "english": {
+          "name": "A Shining City",
+          "description": "Discover the last refuge of a fallen civilization, The Oasis."
+        },
+        "french": {
+          "name": "La ville de la soif",
+          "description": "Découvrez l’Oasis, le dernier refuge d’une civilisation en perdition."
+        },
+        "german": {
+          "name": "Eine Strahlende Stadt",
+          "description": "Entdecke die letzte Zuflucht einer gefallenen Zivilisation, Die Oase."
+        },
+        "italian": {
+          "name": "Una città scintillante",
+          "description": "Scopri l'Oasi, ultimo rifugio di una civiltà caduta."
+        },
+        "russian": {
+          "name": "Блистающий город",
+          "description": "Найти Оазис, последнее прибежище погибшей цивилизации."
+        },
+        "schinese": {
+          "name": "明媚之城",
+          "description": "发现失落文明的最后避难所，绿洲。"
+        },
+        "spanish": {
+          "name": "La Ciudad de la Luz",
+          "description": "Descubre el último refugio de la civilización perdida, El Oasis."
+        }
+      }
+    },
+    "ach_defeat_priest": {
+      "translations": {
+        "english": {
+          "name": "The Enlightened",
+          "description": "Defeat the Great Prophet."
+        },
+        "french": {
+          "name": "L’Illuminé",
+          "description": "Battez le Grand Prophète."
+        },
+        "german": {
+          "name": "Der Erleuchtete",
+          "description": "Besiege den Großen Propheten."
+        },
+        "italian": {
+          "name": "L'illuminato",
+          "description": "Sconfiggi il Grande Profeta"
+        },
+        "russian": {
+          "name": "Озарение",
+          "description": "Победить Великого пророка"
+        },
+        "schinese": {
+          "name": "启迪之见",
+          "description": "击败大预言家。"
+        },
+        "spanish": {
+          "name": "El Iluminado",
+          "description": "Derrota al Gran Profeta."
+        }
+      }
+    },
+    "ach_escape_vectron": {
+      "translations": {
+        "english": {
+          "name": "Ghost of the Machine",
+          "description": "Escape the grasp of Vectron."
+        },
+        "french": {
+          "name": "Un fantôme dans la machine",
+          "description": "Échappez à Vectron."
+        },
+        "german": {
+          "name": "Geist der Maschine",
+          "description": "Entkomme den Fängen Vectrons."
+        },
+        "italian": {
+          "name": "Il fantasma del macchinario",
+          "description": "Fuggi dalle grinfie di Vectron."
+        },
+        "russian": {
+          "name": "Дух из машины",
+          "description": "Избежать плена Вектрона."
+        },
+        "schinese": {
+          "name": "机械之魄",
+          "description": "逃离维克创的控制。"
+        },
+        "spanish": {
+          "name": "El Fantasma de la Máquina",
+          "description": "Escapa de Vectron."
+        }
+      }
+    },
+    "ach_finish_game": {
+      "translations": {
+        "english": {
+          "name": "A New Frontier",
+          "description": "Leave the Earth with your companion in tow."
+        },
+        "french": {
+          "name": "Une nouvelle frontière",
+          "description": "Quittez la Terre avec votre compagnon."
+        },
+        "german": {
+          "name": "Der Weltraum, unendliche Weiten",
+          "description": "Verlasse die Erde mit deinem Begleiter im Schlepptau."
+        },
+        "italian": {
+          "name": "Una nuova frontiera",
+          "description": "Lascia la Terra con il tuo compagno."
+        },
+        "russian": {
+          "name": "К новым фронтирам",
+          "description": "Покинуть Землю вместе с напарником."
+        },
+        "schinese": {
+          "name": "新的边境",
+          "description": "与你的同伴一起离开地球。"
+        },
+        "spanish": {
+          "name": "Un Nuevo Horizonte",
+          "description": "Abandona la Tierra con tu compañero."
+        }
+      }
+    },
+    "ach_speedrunner": {
+      "translations": {
+        "english": {
+          "name": "Speedrunner",
+          "description": "Finish the game with a gold star in the Time category. How fast is that, exactly? It’s up to you to find out!"
+        },
+        "french": {
+          "name": "Plus vite que la lumière",
+          "description": "Terminez le jeu en obtenant une étoile d’or dans la catégorie « Temps ». En combien de temps exactement ? À vous de trouver !"
+        },
+        "german": {
+          "name": "Speedy Gonzales",
+          "description": "Beende das Spiel mit einem Goldstern in der Kategorie ‚Zeit‘. Wie schnell das genau ist? Es liegt an dir, das herauszufinden!"
+        },
+        "italian": {
+          "name": "Più veloce della luce",
+          "description": "Termina il gioco con una stella d'oro nella categoria Tempo. Che velocità dovresti raggiungere? Scoprilo!"
+        },
+        "russian": {
+          "name": "Скороход",
+          "description": "Пройти игру с золотой звездой за время. Как быстро нужно бегать? Вот заодно и выясните!"
+        },
+        "schinese": {
+          "name": "疾跑者",
+          "description": "完成游戏并在时间分类下拿到金星。具体要多快？就靠你自己去发现！"
+        },
+        "spanish": {
+          "name": "Correcaminos",
+          "description": "Completa el juego con una estrella de oro en la categoría de Tiempo. ¿Cuán rápido hay que ser para conseguirlo? Bueno, ¡lo sabrás cuando lo intentes!"
+        }
+      }
+    },
+    "ach_survivor": {
+      "translations": {
+        "english": {
+          "name": "Hardcore",
+          "description": "Finish the game with a gold star in the Deaths category. You can’t even die once, buddy!"
+        },
+        "french": {
+          "name": "Hardcore",
+          "description": "Terminez le jeu en obtenant une étoile d’or dans la catégorie « Morts ». Zéro, nada, aucune…"
+        },
+        "german": {
+          "name": "Abgebrüht",
+          "description": "Beende das Spiel mit einem Goldstern in der Kategorie ‚Tode‘. Nicht mal ein einziger Tod, Freundchen!"
+        },
+        "italian": {
+          "name": "Sopravvivenza",
+          "description": "Termina il gioco con una stella d'oro nella categoria Morti. Non puoi morire nemmeno una volta!"
+        },
+        "russian": {
+          "name": "Крепкий орешек",
+          "description": "Пройти игру с золотой звездой за количество смертей. Умирать нельзя ни разу - вот как!"
+        },
+        "schinese": {
+          "name": "硬核者",
+          "description": "完成游戏并在死亡分类下拿到金星。你一次都不能死，伙计！"
+        },
+        "spanish": {
+          "name": "Duro de Pelar",
+          "description": "Completa el juego con una estrella de oro en la categoría de Muertes. ¡No puedes morir ni una vez, colega!"
+        }
+      }
+    },
+    "ach_networth": {
+      "translations": {
+        "english": {
+          "name": "Gold Farmer",
+          "description": "Finish the game with a gold star in the Wealth category. Get filthy rich!"
+        },
+        "french": {
+          "name": "Plein aux as",
+          "description": "Terminez le jeu en obtenant une étoile d’or dans la catégorie « Fortune ». Ayez les poches pleines !"
+        },
+        "german": {
+          "name": "Goldfarmer",
+          "description": "Beende das Spiel mit einem Goldstern in der Kategorie ‚Vermögen‘. Werde stinkreich!"
+        },
+        "italian": {
+          "name": "Gallina dalle uova d'oro",
+          "description": "Termina il gioco con una stella d'oro nella categoria Ricchezza. Arricchisciti senza scrupoli!"
+        },
+        "russian": {
+          "name": "Куры не клюют",
+          "description": "Пройти игру с золотой звездой за капитал. Разбогатейте до умопомрачения!"
+        },
+        "schinese": {
+          "name": "金农夫",
+          "description": "完成游戏并在财富分类下拿到金星。富得流油吧！"
+        },
+        "spanish": {
+          "name": "Fiebre del Oro",
+          "description": "Completa el juego con una estrella de oro en la categoría de Riqueza. ¡Hazte asquerosamente rico!"
+        }
+      }
+    },
+    "ach_explorer": {
+      "translations": {
+        "english": {
+          "name": "Explorer",
+          "description": "Finish the game with a gold star in the Secrets category."
+        },
+        "french": {
+          "name": "Explorateur",
+          "description": "Terminez le jeu en obtenant une étoile d’or dans la catégorie « Secrets »."
+        },
+        "german": {
+          "name": "Entdecker",
+          "description": "Beende das Spiel mit einem Goldstern in der Kategorie ‚Geheimnisse‘."
+        },
+        "italian": {
+          "name": "Esplorazione",
+          "description": "Termina il gioco con una medaglia d'oro nella categoria Segreti."
+        },
+        "russian": {
+          "name": "Исследователь",
+          "description": "Пройти игру с золотой звездой за тайны."
+        },
+        "schinese": {
+          "name": "探索者",
+          "description": "完成游戏并在秘密分类下拿到金星。"
+        },
+        "spanish": {
+          "name": "Explorador",
+          "description": "Completa el juego con una estrella de oro en la categoría de Secretos."
+        }
+      }
+    },
+    "ach_gold_stars": {
+      "translations": {
+        "english": {
+          "name": "The Impossible Dream",
+          "description": "Finish the game with a gold star in every category."
+        },
+        "french": {
+          "name": "Le rêve impossible",
+          "description": "Terminez le jeu en obtenant une étoile d’or dans toutes les catégories."
+        },
+        "german": {
+          "name": "Der unmögliche Traum",
+          "description": "Beende das Spiel mit einem Goldstern in jeder Kategorie."
+        },
+        "italian": {
+          "name": "Il sogno impossibile",
+          "description": "Termina il gioco con una medaglia d'oro in tutte le categorie."
+        },
+        "russian": {
+          "name": "Невероятный сон",
+          "description": "Пройти игру с золотыми звездами во всех категориях."
+        },
+        "schinese": {
+          "name": "不可能之梦",
+          "description": "完成游戏并在每个分类下都拿到金星。"
+        },
+        "spanish": {
+          "name": "El Sueño Imposible",
+          "description": "Completa el juego con una estrella de oro en todas las categorías."
+        }
+      }
+    },
+    "ach_more_resources_sold": {
+      "translations": {
+        "english": {
+          "name": "Barnacle’s BFF",
+          "description": "Sell $10,000 worth of resources."
+        },
+        "french": {
+          "name": "Meilleur ami de la Bernache",
+          "description": "Vendez pour 10 000 $ de ressources."
+        },
+        "german": {
+          "name": "Krabbenbeins bester Freund",
+          "description": "Verkaufe Ressourcen mit einem Gesamtwert von 10.000 $."
+        },
+        "italian": {
+          "name": "Compare del cirripede",
+          "description": "Vendi risorse per un valore di 10.000 $"
+        },
+        "russian": {
+          "name": "Лучший друг Джонса",
+          "description": "Продать ресурсы на $10000."
+        },
+        "schinese": {
+          "name": "巴纳科的一生好友",
+          "description": "卖出总价值10000的资源。"
+        },
+        "spanish": {
+          "name": "El Superamigo de Cangrejo",
+          "description": "Vende recursos por valor de 10 000$."
+        }
+      }
+    },
+    "ach_resources_sold": {
+      "translations": {
+        "english": {
+          "name": "It Makes the World Go Round",
+          "description": "Sell $2,500 worth of resources."
+        },
+        "french": {
+          "name": "Ça fait tourner le monde",
+          "description": "Vendez pour 2500 $ de ressources."
+        },
+        "german": {
+          "name": "Es regiert die Welt",
+          "description": "Verkaufe Ressourcen mit einem Gesamtwert von 2.500 $."
+        },
+        "italian": {
+          "name": "Ciò che fa girare il mondo",
+          "description": "Vendi risorse per un valore di 2500 $"
+        },
+        "russian": {
+          "name": "Золото манит нас!",
+          "description": "Продать ресурсы на $2500"
+        },
+        "schinese": {
+          "name": "让世界运转",
+          "description": "卖出价值2500的资源。"
+        },
+        "spanish": {
+          "name": "Lo que Mueve el Mundo",
+          "description": "Vende recursos por valor de 2500 $."
+        }
+      }
+    },
+    "ach_collectibles_one": {
+      "translations": {
+        "english": {
+          "name": "Hobbyist Collector",
+          "description": "Collect 10 artifacts."
+        },
+        "french": {
+          "name": "Collectionneur du dimanche",
+          "description": "Collectez 10 artefacts."
+        },
+        "german": {
+          "name": "Hobbysammler",
+          "description": "Sammle 10 Artefakte."
+        },
+        "italian": {
+          "name": "Collezionista per hobby",
+          "description": "Raccogli 10 manufatti."
+        },
+        "russian": {
+          "name": "Коллекционер-любитель",
+          "description": "Собрать 10 артефактов."
+        },
+        "schinese": {
+          "name": "业余收藏家",
+          "description": "收集10个神器。"
+        },
+        "spanish": {
+          "name": "Coleccionista Aficionado",
+          "description": "Colecciona 10 artefactos."
+        }
+      }
+    },
+    "ach_collectibles_two": {
+      "translations": {
+        "english": {
+          "name": "Skilled Collector",
+          "description": "Collect 25 artifacts."
+        },
+        "french": {
+          "name": "Collectionneur de renom",
+          "description": "Collectez 25 artefacts."
+        },
+        "german": {
+          "name": "Aufstrebender Sammler",
+          "description": "Sammle 25 Artefakte."
+        },
+        "italian": {
+          "name": "Collezionista di talento",
+          "description": "Raccogli 25 manufatti."
+        },
+        "russian": {
+          "name": "Опытный коллекционер",
+          "description": "Собрать 25 артефактов."
+        },
+        "schinese": {
+          "name": "老练收藏家",
+          "description": "收集25个神器。"
+        },
+        "spanish": {
+          "name": "Coleccionista Experto",
+          "description": "Colecciona 25 artefactos."
+        }
+      }
+    },
+    "ach_collectibles_three": {
+      "translations": {
+        "english": {
+          "name": "Master Collector",
+          "description": "Collect 42 artifacts."
+        },
+        "french": {
+          "name": "Maître-collectionneur",
+          "description": "Collectez 42 artefacts."
+        },
+        "german": {
+          "name": "Meistersammler",
+          "description": "Sammle 42 Artefakte."
+        },
+        "italian": {
+          "name": "Collezionista compulsivo",
+          "description": "Raccogli 42 manufatti."
+        },
+        "russian": {
+          "name": "Коллекционер-профи",
+          "description": "Собрать 42 артефакта."
+        },
+        "schinese": {
+          "name": "大师收藏家",
+          "description": "收集42个神器。"
+        },
+        "spanish": {
+          "name": "Maestro Coleccionista",
+          "description": "Colecciona 42 artefactos."
+        }
+      }
+    },
+    "ach_save_yonkers": {
+      "translations": {
+        "english": {
+          "name": "O Brother, Where Art Thou?",
+          "description": "Find all missing Yonker brothers."
+        },
+        "french": {
+          "name": "Ô frère, Où es-tu ?",
+          "description": "Retrouvez les frères Yonker disparus."
+        },
+        "german": {
+          "name": "Oh Bruder, wo bist du?",
+          "description": "Finde alle verschollenen Yonker-Brüder."
+        },
+        "italian": {
+          "name": "Oh fratello, dove sei?",
+          "description": "Trova tutti i fratelli Yonker."
+        },
+        "russian": {
+          "name": "О где же ты, брат?",
+          "description": "Найти всех пропавших братьев Йонкеров."
+        },
+        "schinese": {
+          "name": "老兄，你在哪儿？",
+          "description": "找到所有失踪的约克兄弟。"
+        },
+        "spanish": {
+          "name": "¿Dónde Estás, Hermano?",
+          "description": "Encuentra a todos tus hermanos Yonker perdidos."
+        }
+      }
+    },
+    "ach_lamp_max_level": {
+      "translations": {
+        "english": {
+          "name": "My Very Own Sun",
+          "description": "Upgrade your lamp to the highest level possible."
+        },
+        "french": {
+          "name": "Mon propre soleil",
+          "description": "Améliorez votre lampe au maximum."
+        },
+        "german": {
+          "name": "Meine ganz eigene Sonne",
+          "description": "Werte deine Lampe auf die höchstmögliche Stufe auf."
+        },
+        "italian": {
+          "name": "Il mio sole",
+          "description": "Potenzia la lampada al livello più alto possibile."
+        },
+        "russian": {
+          "name": "А я солнышко поймал!",
+          "description": "Улучшить фонарь до максимума."
+        },
+        "schinese": {
+          "name": "我的自有阳光",
+          "description": "升级你的灯盏到最高等级。"
+        },
+        "spanish": {
+          "name": "El Sol en el Bolsillo",
+          "description": "Mejora tu lámpara al máximo nivel."
+        }
+      }
+    },
+    "ach_vectron_stealth": {
+      "translations": {
+        "english": {
+          "name": "Solid Sneak",
+          "description": "Do not trigger the alarm in Vectron more than twice."
+        },
+        "french": {
+          "name": "Et tout ça sans utiliser de boîtes !",
+          "description": "N’activez pas l’alarme dans Vectron plus de deux fois."
+        },
+        "german": {
+          "name": "Auf Zehenspitzen",
+          "description": "Löse den Alarm in Vectron nicht mehr als 2-mal aus."
+        },
+        "italian": {
+          "name": "Passo felpato",
+          "description": "Non far scattare l'allarme a Vectron più due volte."
+        },
+        "russian": {
+          "name": "Невидимка",
+          "description": "Сигнализация Вектрона должна сработать не больше 2 раз."
+        },
+        "schinese": {
+          "name": "扎实潜入",
+          "description": "在维克创触发警报不超过两次。"
+        },
+        "spanish": {
+          "name": "Solid Snake",
+          "description": "No actives las alarmas en Vectron más de 2 veces."
+        }
+      }
+    },
+    "ach_fallblock_multikill": {
+      "translations": {
+        "english": {
+          "name": "Two Birds, One Stone",
+          "description": "Kill two enemies with one crushing rock."
+        },
+        "french": {
+          "name": "Deux oiseaux, une pierre",
+          "description": "Tuez deux ennemis avec une roche écrasante."
+        },
+        "german": {
+          "name": "Zwei Fliegen, eine Klappe",
+          "description": "Töte zwei Gegner mit dem selben Felsbrocken."
+        },
+        "italian": {
+          "name": "Due piccioni con una pietra",
+          "description": "Uccidi due nemici con la caduta di una pietra."
+        },
+        "russian": {
+          "name": "И того и другого, и можно без хлеба!",
+          "description": "Убить двух врагов одним камнем."
+        },
+        "schinese": {
+          "name": "一石二鸟",
+          "description": "用一颗落石杀死两个敌人。"
+        },
+        "spanish": {
+          "name": "Dos Pájaros de Un Tiro",
+          "description": "Mata a dos enemigos rompiendo una roca."
+        }
+      }
+    },
+    "ach_deflect_kill": {
+      "translations": {
+        "english": {
+          "name": "Right Back At Ya!",
+          "description": "Kill an enemy with its own projectile."
+        },
+        "french": {
+          "name": "Retour à l’envoyeur",
+          "description": "Tuez un ennemi avec son propre projectile."
+        },
+        "german": {
+          "name": "Zurück zum Absender",
+          "description": "Töte einen Gegner mit seinem eigenen Projektil."
+        },
+        "italian": {
+          "name": "Tutto tuo!",
+          "description": "Uccidi un nemico con il suo stesso proiettile."
+        },
+        "russian": {
+          "name": "От меча и погибнешь!",
+          "description": "Убить врага его собственным снарядом."
+        },
+        "schinese": {
+          "name": "还给你呀！",
+          "description": "用敌人自己的投射物杀死它。"
+        },
+        "spanish": {
+          "name": "¡Rebota y En Tu Cara Explota!",
+          "description": "Mata a un enemigo con su propio proyectil."
+        }
+      }
+    },
+    "ach_lazy_person": {
+      "translations": {
+        "english": {
+          "name": "Lazy Person",
+          "description": "Travel a distance of 100 tiles horizontally without touching the controls."
+        },
+        "french": {
+          "name": "Fainéantise",
+          "description": "Parcourez une distance de 100 cases horizontalement sans toucher les contrôles."
+        },
+        "german": {
+          "name": "Faulpelz",
+          "description": "Reise eine Distanz von 100 Feldern in der Waagerechten ohne die Steuerung zu berühren."
+        },
+        "italian": {
+          "name": "Pigrizia",
+          "description": "Percorri orizzontalmente una distanza di 100 caselle senza toccare i controlli."
+        },
+        "russian": {
+          "name": "Лень - двигатель прогресса",
+          "description": "Пройти 100 плиток, не управляя ботом."
+        },
+        "schinese": {
+          "name": "懒惰之人",
+          "description": "不做任何操作，水平移动100格距离。"
+        },
+        "spanish": {
+          "name": "Holgazán",
+          "description": "Viaja una distancia de 100 casillas horizontalmente sin tocar los controles."
+        }
+      }
+    },
+    "ach_silver_medal": {
+      "translations": {
+        "english": {
+          "name": "At Least It’s Shiny",
+          "description": "Collect 10 Silver ore resources."
+        },
+        "french": {
+          "name": "Au moins, ça brille !",
+          "description": "Collectez 10 minerais d’argent."
+        },
+        "german": {
+          "name": "Wenigstens glitzert es",
+          "description": "Sammle 10 Ressourcen vom Typ Silbererz."
+        },
+        "italian": {
+          "name": "Splendido splendente",
+          "description": "Raccogli 10 minerali di Argento."
+        },
+        "russian": {
+          "name": "Не золото, но блестит",
+          "description": "Собрать 10 единиц серебряной руды."
+        },
+        "schinese": {
+          "name": "至少它有光泽",
+          "description": "收集10个银矿资源。"
+        },
+        "spanish": {
+          "name": "Al Menos Brilla",
+          "description": "Recoge 10 recursos de mineral de plata."
+        }
+      }
+    },
+    "ach_pickaxe_max_level": {
+      "translations": {
+        "english": {
+          "name": "Is It Even a Pickaxe Anymore?",
+          "description": "Upgrade your pickaxe to the highest level possible."
+        },
+        "french": {
+          "name": "Est-ce que c’est encore une Pioche à ce stade ?",
+          "description": "Améliorez votre pioche au maximum."
+        },
+        "german": {
+          "name": "Aufgemotzt bis zum Geht-nicht-mehr",
+          "description": "Werte deine Picke auf die höchstmögliche Stufe auf."
+        },
+        "italian": {
+          "name": "È ancora un piccone?",
+          "description": "Potenzia il piccone al livello più alto possibile."
+        },
+        "russian": {
+          "name": "Это все еще кирка?",
+          "description": "Улучшить кирку до максимума."
+        },
+        "schinese": {
+          "name": "它还是尖嘴镐吗？",
+          "description": "升级你的尖嘴镐到最高等级。"
+        },
+        "spanish": {
+          "name": "¿Esto Sigue Siendo un pico?",
+          "description": "Mejora tu pico al máximo nivel."
+        }
+      }
+    },
+    "ach_backpack_max_level": {
+      "translations": {
+        "english": {
+          "name": "Hard Carry",
+          "description": "Upgrade your backpack to the highest level possible."
+        },
+        "french": {
+          "name": "Y’a plus d’un tour dans ce sac",
+          "description": "Améliorez votre sac à dos au maximum."
+        },
+        "german": {
+          "name": "Großgepäck",
+          "description": "Werte deinen Rucksack auf die höchstmögliche Stufe auf."
+        },
+        "italian": {
+          "name": "Carichi pesanti",
+          "description": "Potenzia lo zaino al livello più alto possibile."
+        },
+        "russian": {
+          "name": "Тяжкая ноша",
+          "description": "Улучшить рюкзак до максимума."
+        },
+        "schinese": {
+          "name": "艰难携带",
+          "description": "升级你的背包到最高等级。"
+        },
+        "spanish": {
+          "name": "Mochilero",
+          "description": "Mejora tu mochila al máximo nivel."
+        }
+      }
+    },
+    "ach_armor_max_level": {
+      "translations": {
+        "english": {
+          "name": "That’s Armor-e",
+          "description": "Upgrade your armor to the highest level possible."
+        },
+        "french": {
+          "name": "C’est l’armour",
+          "description": "Améliorez votre armure au maximum."
+        },
+        "german": {
+          "name": "Panzerungsspezialist",
+          "description": "Werte deine Panzerung auf die höchstmögliche Stufe auf."
+        },
+        "italian": {
+          "name": "Questa sì che è un'armatura",
+          "description": "Potenzia l'armatura al livello più alto possibile."
+        },
+        "russian": {
+          "name": "Броня крепка!",
+          "description": "Улучшить броню до максимума."
+        },
+        "schinese": {
+          "name": "那是护甲-衣",
+          "description": "升级你的护甲到最高等级。"
+        },
+        "spanish": {
+          "name": "Dura Armadura",
+          "description": "Mejora tu armadura al máximo nivel."
+        }
+      }
+    },
+    "ach_max_level": {
+      "translations": {
+        "english": {
+          "name": "Maximum Potential",
+          "description": "Reach experience level 14."
+        },
+        "french": {
+          "name": "Potentiel maximum",
+          "description": "Atteignez le niveau d’expérience 14."
+        },
+        "german": {
+          "name": "Maximales Potential",
+          "description": "Erreiche Erfahrungsstufe 14."
+        },
+        "italian": {
+          "name": "Potenziale massimo",
+          "description": "Raggiungi il livello di esperienza 14."
+        },
+        "russian": {
+          "name": "Потенциал реализован",
+          "description": "Достигнуть 14 уровня"
+        },
+        "schinese": {
+          "name": "最高潜能",
+          "description": "达到经验等级14。"
+        },
+        "spanish": {
+          "name": "Máximo Potencial",
+          "description": "Alcanza el nivel 14 de experiencia."
+        }
+      }
+    },
+    "ach_hook_pickups": {
+      "translations": {
+        "english": {
+          "name": "Hook, Line and Sinker",
+          "description": "Collect 15 resources with your Hook Shot."
+        },
+        "french": {
+          "name": "Grappin Dauphinois",
+          "description": "Collectez 15 ressources avec le tir-grappin."
+        },
+        "german": {
+          "name": "Ressourcenangler",
+          "description": "Sammle 15 Ressourcen mit deinem Greifhaken."
+        },
+        "italian": {
+          "name": "Rampino prensile",
+          "description": "Raccogli 15 risorse con il rampino."
+        },
+        "russian": {
+          "name": "Кошки-мышки",
+          "description": "Соберите 15 ресурсов с помощью кошки"
+        },
+        "schinese": {
+          "name": "钩，绳和坠",
+          "description": "用你的钩爪收集15个资源。"
+        },
+        "spanish": {
+          "name": "Mordiendo el Anzuelo",
+          "description": "Recoge 15 recursos disparando tu gancho."
+        }
+      }
+    },
+    "ach_spelunker": {
+      "translations": {
+        "english": {
+          "name": "Cave Diver",
+          "description": "Complete 5 caves."
+        },
+        "french": {
+          "name": "Cavonaute",
+          "description": "Terminez 5 caves."
+        },
+        "german": {
+          "name": "Höhlentaucher",
+          "description": "Meistere 5 Höhlen."
+        },
+        "italian": {
+          "name": "Cavernicolo",
+          "description": "Completa 5 caverne."
+        },
+        "russian": {
+          "name": "Диггер",
+          "description": "Пройти 5 пещер."
+        },
+        "schinese": {
+          "name": "洞穴爱好者",
+          "description": "完成5个洞穴。"
+        },
+        "spanish": {
+          "name": "Buceador de Cuevas",
+          "description": "Completa 5 cuevas."
+        }
+      }
+    },
+    "ach_spelunker_pro": {
+      "translations": {
+        "english": {
+          "name": "Splendiferous Spelunker",
+          "description": "Complete 20 challenge caves."
+        },
+        "french": {
+          "name": "La spéléo, c’est rigolo",
+          "description": "Terminez 20 caves."
+        },
+        "german": {
+          "name": "Prächtiger Höhlenforscher",
+          "description": "Meistere 20 Höhlen."
+        },
+        "italian": {
+          "name": "Talento nella speleologia",
+          "description": "Completa 20 caverne."
+        },
+        "russian": {
+          "name": "Спелеолог",
+          "description": "Пройти 20 пещер."
+        },
+        "schinese": {
+          "name": "美妙的洞窟学家",
+          "description": "完成20个挑战洞穴。"
+        },
+        "spanish": {
+          "name": "Esplendoroso Espeleólogo",
+          "description": "Completa 20 cuevas."
+        }
+      }
+    },
+    "ach_all_workbench_upgrades": {
+      "translations": {
+        "english": {
+          "name": "Hopeless Gearhead",
+          "description": "Buy all upgrades available at the workbench."
+        },
+        "french": {
+          "name": "La mécanique ? C’est ma passion !",
+          "description": "Achetez toutes les améliorations de l’établi."
+        },
+        "german": {
+          "name": "Hoffnungsloser Rädchennerd",
+          "description": "Kaufe alle verfügbaren Verbesserungen an der Werkbank."
+        },
+        "italian": {
+          "name": "Genio della meccanica",
+          "description": "Acquista tutti i potenziamenti disponibili al banco da lavoro."
+        },
+        "russian": {
+          "name": "Гаджетомания не лечится!",
+          "description": "Купить все модификации в мастерской."
+        },
+        "schinese": {
+          "name": "无望的设备迷",
+          "description": "购买工作台提供的所有升级。"
+        },
+        "spanish": {
+          "name": "Caratuerca",
+          "description": "Compra todas las mejoras disponibles en la mesa de trabajo."
+        }
+      }
+    },
+    "ach_hookshot_flyers": {
+      "translations": {
+        "english": {
+          "name": "Friendly Neighborhood Spider-Bot",
+          "description": "Hit 15 flyers with your Hook Shot."
+        },
+        "french": {
+          "name": "Votre sympathique voisin, Spider-bot",
+          "description": "Touchez 15 ennemis volants avec le tir-grappin."
+        },
+        "german": {
+          "name": "Freundliche Spinnenbot-Nachbarn",
+          "description": "Triff 15 fliegende Gegner mit deinem Greifhaken."
+        },
+        "italian": {
+          "name": "Spider-bot",
+          "description": "Colpisci 15 creature volanti con il rampino."
+        },
+        "russian": {
+          "name": "Спайдербот",
+          "description": "Сбейте кошкой 15 летучих монстров."
+        },
+        "schinese": {
+          "name": "友邻蜘蛛机器人",
+          "description": "用你的钩爪击中15个飞行敌人。"
+        },
+        "spanish": {
+          "name": "Tu Amigo y Vecino Spider-Bot",
+          "description": "Acierta a 15 enemigos voladores disparando tu gancho."
+        }
+      }
+    },
+    "ach_sequence_breaker": {
+      "translations": {
+        "english": {
+          "name": "Sequence Breaker",
+          "description": "Destroy all devices without entering Vectron."
+        },
+        "french": {
+          "name": "Brise-tout, le retour",
+          "description": "Détruisez tous les générateurs avant d’entrer dans Vectron."
+        },
+        "german": {
+          "name": "Sequenzbrecher",
+          "description": "Zerstöre alle Maschinen, ohne einen Fuß in Vectron zu setzen."
+        },
+        "italian": {
+          "name": "Irresistibile distruzione",
+          "description": "Distruggi tutti i dispositivi senza entrare a Vectron."
+        },
+        "russian": {
+          "name": "Комбо-брейкер",
+          "description": "Уничтожьте все генераторы, не заходя в Вектрон"
+        },
+        "schinese": {
+          "name": "顺序破坏者",
+          "description": "在不进入维克创的情况下摧毁所有设备。"
+        },
+        "spanish": {
+          "name": "Rompesecuencias",
+          "description": "Destruye todos los generadores sin entrar en Vectron."
+        }
+      }
+    },
+    "ach_hell_cave": {
+      "translations": {
+        "english": {
+          "name": "To Hell and Back",
+          "description": "Survive the Ultimate Trial."
+        },
+        "french": {
+          "name": "Allez-retour en enfer",
+          "description": "Survivez à l’épreuve ultime."
+        },
+        "german": {
+          "name": "Zur Hölle und zurück",
+          "description": "Überlebe die ultimative Prüfung."
+        },
+        "italian": {
+          "name": "Di ritorno dall'inferno",
+          "description": "Sopravvivi alla prova finale."
+        },
+        "russian": {
+          "name": "В ад и обратно",
+          "description": "Выжить в Последнем испытании."
+        },
+        "schinese": {
+          "name": "地狱往返",
+          "description": "在终极试炼中幸存。"
+        },
+        "spanish": {
+          "name": "Regreso del Infierno",
+          "description": "Sobrevive al Último Juicio"
+        }
+      }
+    }
+  }
+}
