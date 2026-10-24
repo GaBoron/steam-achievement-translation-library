@@ -48,12 +48,14 @@ export function createTranslationFiles({ game, locale, revision }) {
     const fact = (label, value) => facts.append(el('div', {}, el('dt', {}, label), el('dd', {}, value)));
     fact(t(locale, 'variantId'), el('code', {}, variant.id));
     fact(t(locale, 'languages'), languages.join(', ') || t(locale, 'noLanguages'));
-    fact(t(locale, 'binSize'), formatSize(variant.size, locale));
+    if (variant.binPath) fact(t(locale, 'binSize'), formatSize(variant.size, locale));
+    else fact(t(locale, 'compatibility'), t(locale, 'jsonOnlyNote'));
     if (variant.jsonPath) {
       fact(t(locale, 'jsonSize'), formatSize(variant.jsonSize, locale));
       fact(t(locale, 'jsonVersion'), variant.jsonVersion ?? t(locale, 'unknown'));
     }
-    fact('BIN SHA-256', el('code', { className: 'checksum' }, variant.sha256 || t(locale, 'unknown')));
+    if (variant.binPath) fact('BIN SHA-256', el('code', { className: 'checksum' }, variant.sha256 || t(locale, 'unknown')));
+    if (variant.jsonSha256) fact('JSON SHA-256', el('code', { className: 'checksum' }, variant.jsonSha256));
     const sources = el('div', { className: 'file-source-links' });
     for (const [format, path] of [['BIN', variant.binPath], ['JSON', variant.jsonPath]]) {
       if (!path) continue;
@@ -66,8 +68,9 @@ export function createTranslationFiles({ game, locale, revision }) {
       el('div', { className: 'variant-identity' }, el('span', { className: 'variant-icon' }, icon('layers')),
         el('div', { className: 'variant-text' }, el('h3', {}, variantLabel(variant, locale)),
           description && el('p', { className: 'variant-description' }, description),
+          !variant.binPath && el('p', { className: 'variant-description' }, t(locale, 'jsonOnlyNote')),
           el('p', { className: 'variant-meta' },
-            t(locale, 'achievements', { count: variant.count ?? t(locale, 'unknown') }), ' · ', formatSize(variant.size, locale)))),
+            t(locale, 'achievements', { count: variant.count ?? t(locale, 'unknown') }), ' · ', formatSize(variant.binPath ? variant.size : variant.jsonSize, locale)))),
       el('div', { className: 'variant-languages', title: languages.join(', '), 'aria-label': languages.join(', ') },
         languages.length ? languages.slice(0, 3).map(name => el('span', {}, name)) : t(locale, 'noLanguages'),
         languages.length > 3 && el('span', {}, `+${languages.length - 3}`)),

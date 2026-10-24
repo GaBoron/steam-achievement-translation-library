@@ -45,12 +45,13 @@ class ValidatedSchemaVariant:
     note_zh: str
     note_en: str
     data: bytes
-    nodes: list[Node]
+    nodes: list[Node] | dict[str, Any]
     rows: list[dict[str, str]]
     coverage: dict[str, int]
     description_zh: str = ""
     description_en: str = ""
     languages: list[str] = field(default_factory=list)
+    format: str = "bin"
 
 
 @dataclass
@@ -82,12 +83,16 @@ def resolve_schema_package(
     output_dir: Path,
 ) -> tuple[list[ResolvedSchemaVariant], bool]:
     expected_name = f"UserGameStatsSchema_{game_id}.bin"
+    expected_json = f"UserGameStatsSchema_{game_id}.json"
     expected_zip = f"UserGameStatsSchema_{game_id}.zip"
+    if not zipfile.is_zipfile(downloaded):
+        if not attachment.filename_from_url and attachment.filename != expected_json:
+            raise ValueError(f"独立 JSON 文件名必须是 {expected_json}")
+        destination = output_dir / expected_json
+        destination.write_bytes(downloaded.read_bytes())
+        return [ResolvedSchemaVariant("default", destination, True)], False
     if not attachment.filename_from_url and attachment.filename != expected_zip:
         raise ValueError(f"上传文件名必须是 {expected_zip}，当前是 {attachment.filename}")
-    if not zipfile.is_zipfile(downloaded):
-        raise ValueError(f"上传文件必须是包含 {expected_name} 的 ZIP")
-
     with zipfile.ZipFile(downloaded) as archive:
         members = safe_archive_members(archive)
         members_by_name = {member.filename.replace("\\", "/"): member for member in members}
@@ -101,11 +106,11 @@ def resolve_schema_package(
                 )
             member = members[0]
             member_name = member.filename.replace("\\", "/")
-            if member_name != expected_name:
-                raise ValueError(f"ZIP 内必须包含 {expected_name}，当前是 {member_name}")
+            if member_name not in {expected_name, expected_json}:
+                raise ValueError(f"ZIP 内必须包含 {expected_name} 或 {expected_json}，当前是 {member_name}")
             if member.file_size > MAX_SCHEMA_BYTES:
                 raise ValueError("ZIP 内的 schema 文件超过 32 MiB 检查上限")
-            output_path = output_dir / expected_name
+            output_path = output_dir / member_name
             output_path.write_bytes(archive.read(member))
             return [ResolvedSchemaVariant("default", output_path, True)], False
 
@@ -143,6 +148,12 @@ def resolve_schema_package(
             primary = variant_id == "default"
             expected_file = expected_name if primary else f"{variant_id}/{expected_name}"
             member = members_by_name.get(expected_file)
+            json_file = expected_json if primary else f"{variant_id}/{expected_json}"
+            if member is not None and json_file in members_by_name:
+                raise ValueError(f"版本 {variant_id} 只能提交 BIN 或 JSON 之一；BIN 的 JSON 由机器人生成")
+            if member is None and json_file in members_by_name:
+                expected_file = json_file
+                member = members_by_name[json_file]
             if member is None:
                 raise ValueError(f"ZIP 缺少版本 {variant_id} 的文件：{expected_file}")
             if member.file_size > MAX_SCHEMA_BYTES:
@@ -202,7 +213,7 @@ def validated_variant_record(game_id: str, variant: ValidatedSchemaVariant) -> d
     record = {
         "variant_id": variant.variant_id,
         "primary": variant.primary,
-        "schema_file": schema_variant_relative_path(game_id, variant.variant_id),
+        "schema_file": str(PurePosixPath(schema_variant_relative_path(game_id, variant.variant_id)).with_suffix("." + variant.format)),
         "note_zh": variant.note_zh,
         "note_en": variant.note_en,
         "file_size_bytes": len(variant.data),
@@ -210,6 +221,8 @@ def validated_variant_record(game_id: str, variant: ValidatedSchemaVariant) -> d
         "achievement_count": len(variant.rows),
         "languages": list(variant.languages),
     }
+    if variant.format == "json":
+        record["json"] = {"version": 2, "size": len(variant.data), "sha256": sha256(variant.data)}
     if variant.description_zh or variant.description_en:
         record["description_zh"] = variant.description_zh
         record["description_en"] = variant.description_en
@@ -264,6 +277,11 @@ def save_schema_package(
         if current is None:
             raise ValueError(f"找不到 variant_id={target_variant_id}；新增版本请提交完整多版本包")
         uploaded = package.variants[0]
+        if str(current["schema_file"]).endswith(".bin") and uploaded.format == "json":
+            raise ValueError("已有 BIN 版本不能被 JSON-only 替换；请保留 BIN 并添加新版本")
+        if str(current["schema_file"]).endswith(".json") and uploaded.format == "bin":
+            from translation_artifacts import validate_bin_upgrade
+            validate_bin_upgrade(repository_path(current["schema_file"]), uploaded.nodes)
         effective = ValidatedSchemaVariant(
             variant_id=target_variant_id,
             primary=bool(current.get("primary")),
@@ -276,13 +294,20 @@ def save_schema_package(
             description_zh=str(current.get("description_zh") or ""),
             description_en=str(current.get("description_en") or ""),
             languages=list(uploaded.languages),
+            format=uploaded.format,
         )
+        if effective.format == "json":
+            from standalone_translation import canonical_text
+            effective.nodes = dict(uploaded.nodes)
+            effective.nodes["variant_id"] = target_variant_id
+            effective.data = canonical_text(effective.nodes).encode("utf-8")
         record = validated_variant_record(game_id, effective)
         existing_by_id[target_variant_id] = record
         records = list(existing_by_id.values())
         records.sort(key=lambda variant: (not bool(variant.get("primary")), str(variant.get("variant_id"))))
         path = repository_path(record["schema_file"])
         _write_bytes_atomic(path, effective.data)
+        _remove_obsolete_variant_files([current], {record["schema_file"]}, game_id)
         return [effective], records
 
     if not package.has_manifest and len(existing_records) > 1:
@@ -293,6 +318,14 @@ def save_schema_package(
     effective_variants = package.variants
     records = [validated_variant_record(game_id, variant) for variant in effective_variants]
     keep_files = {str(record["schema_file"]) for record in records}
+    for record in records:
+        previous = next((item for item in existing_records if item["variant_id"] == record["variant_id"]), None)
+        if previous and str(previous["schema_file"]).endswith(".bin") and str(record["schema_file"]).endswith(".json"):
+            raise ValueError("已有 BIN 版本不能被 JSON-only 替换；请保留 BIN 并添加新版本")
+        if previous and str(previous["schema_file"]).endswith(".json") and str(record["schema_file"]).endswith(".bin"):
+            from translation_artifacts import validate_bin_upgrade
+            uploaded = next(item for item in effective_variants if item.variant_id == record["variant_id"])
+            validate_bin_upgrade(repository_path(previous["schema_file"]), uploaded.nodes)
     for variant, record in zip(effective_variants, records, strict=True):
         _write_bytes_atomic(repository_path(str(record["schema_file"])), variant.data)
     _remove_obsolete_variant_files(existing_records, keep_files, game_id)

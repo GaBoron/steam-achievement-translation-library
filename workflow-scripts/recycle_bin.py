@@ -4,7 +4,23 @@ from __future__ import annotations
 import os
 import shutil
 import subprocess
+import tempfile
+import warnings
+from contextlib import contextmanager
 from pathlib import Path
+
+
+@contextmanager
+def temporary_directory():
+    """Recycle disposable work, retaining the exact directory if Trash is unavailable."""
+    path = Path(tempfile.mkdtemp(prefix="translation-library-"))
+    try:
+        yield path
+    finally:
+        try:
+            recycle_path(path, boundary=path.parent)
+        except (OSError, ValueError, RuntimeError) as exc:
+            warnings.warn(str(exc), RuntimeWarning)
 
 
 def recycle_path(path: Path, *, boundary: Path) -> None:
