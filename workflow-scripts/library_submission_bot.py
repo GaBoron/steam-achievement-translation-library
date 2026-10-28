@@ -17,6 +17,7 @@ from datetime import UTC, datetime
 from pathlib import Path, PurePosixPath
 from typing import Any
 
+from translation_artifacts import load_artifact, artifact_rows
 from submission_validation import (
     build_entry,
     validate_common_fields,
@@ -154,6 +155,7 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
     fields = parse_issue_form(issue.get("body") or "")
     game_name, game_id, store_url, errors = validate_common_fields(fields)
     attachment = extract_attachment(field_value(fields, [
+        "Translation JSON or schema ZIP", "翻译 JSON 或 schema ZIP",
         "Uploaded achievement schema ZIP",
         "Achievement schema ZIP",
         "成就 schema ZIP",
@@ -196,13 +198,13 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
     if target_variant_id and not VARIANT_ID_RE.fullmatch(target_variant_id):
         errors.append("版本 ID 只能包含小写字母、数字和连字符，最长 64 个字符。")
     if not attachment:
-        errors.append("必须附加且只能附加一个 UserGameStatsSchema_<app_id>.zip 文件。")
+        errors.append("必须附加且只能附加一个 UserGameStatsSchema_<app_id>.json 或 .zip 文件。")
     if errors:
         write_failure(errors, retry_allowed=True)
 
     assert attachment is not None
     try:
-        package = validate_schema_package(attachment, token, game_id)
+        package = validate_schema_package(attachment, token, game_id, target_variant_id=target_variant_id)
     except Exception as exc:  # noqa: BLE001 - this becomes a user-facing review message.
         write_failure([f"无法校验上传的 schema：{exc}。"], retry_allowed=True)
     languages = package.languages
@@ -216,22 +218,20 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
         existing_records = validated_entry_schema_variants(existing, require_metadata=True)
         existing_by_id = {str(record["variant_id"]): record for record in existing_records}
         if target_variant_id:
-            if languages != sorted(set(str(item) for item in existing.get("languages", []))):
-                write_failure(["单独更新一个版本时不能修改全局语言列表；请提交完整多版本包。"], retry_allowed=True)
             current = existing_by_id.get(target_variant_id)
             if current is None:
                 write_failure([f"找不到 variant_id={target_variant_id}；新增版本请提交完整多版本包。"], retry_allowed=True)
             if package.has_manifest:
                 write_failure(["指定版本 ID 时只能上传不含多版本清单的单版本 ZIP。"], retry_allowed=True)
-            old_data, old_nodes = load_schema(repository_path(str(current["schema_file"])))
+            old_data, old_nodes = load_artifact(repository_path(str(current["schema_file"])))
             uploaded = package.variants[0]
             previous_hash = sha256(old_data)
             if old_data == uploaded.data:
                 write_failure([f"上传文件与当前 {target_variant_id} 版本字节级完全相同。"], retry_allowed=True)
             diff_languages = sorted(set(languages + list(existing.get("languages", []))))
             update_diff = summarize_update_diff(
-                achievement_rows(old_nodes, diff_languages),
-                achievement_rows(uploaded.nodes, diff_languages),
+                artifact_rows(old_nodes, diff_languages),
+                artifact_rows(uploaded.nodes, diff_languages),
                 diff_languages,
             )
             variant_changes = {"added": [], "removed": [], "changed": [target_variant_id]}
@@ -260,12 +260,12 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
             review_variant = new_by_id[review_variant_id]
             old_record = existing_by_id.get(review_variant_id)
             if old_record:
-                old_data, old_nodes = load_schema(repository_path(str(old_record["schema_file"])))
+                old_data, old_nodes = load_artifact(repository_path(str(old_record["schema_file"])))
                 previous_hash = sha256(old_data)
                 diff_languages = sorted(set(languages + list(existing.get("languages", []))))
                 update_diff = summarize_update_diff(
-                    achievement_rows(old_nodes, diff_languages),
-                    achievement_rows(review_variant.nodes, diff_languages),
+                    artifact_rows(old_nodes, diff_languages),
+                    artifact_rows(review_variant.nodes, diff_languages),
                     diff_languages,
                 )
 
@@ -282,12 +282,13 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
     primary_record = next((record for record in schema_files if record.get("primary")), None)
     if primary_record is None:
         write_failure(["保存后的版本集合缺少主版本。"], retry_allowed=False)
+    languages = sorted({language for record in schema_files for language in record["languages"]})
     review_variant = next((variant for variant in effective_variants if variant.variant_id == review_variant_id), effective_variants[0])
     rows = review_variant.rows
     coverage = review_variant.coverage
 
     timestamp = now_utc()
-    keep_schema_files = package.has_manifest or target_variant_id or isinstance((existing or {}).get("schema_files"), list)
+    keep_schema_files = package.has_manifest or target_variant_id or str(primary_record["schema_file"]).endswith(".json") or isinstance((existing or {}).get("schema_files"), list)
     entry = build_entry(
         existing,
         game_name=game_name,
