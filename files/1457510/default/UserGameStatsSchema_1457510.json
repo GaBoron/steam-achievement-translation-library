@@ -1,0 +1,1287 @@
+{
+  "version": 1,
+  "app_id": "1457510",
+  "variant_id": "default",
+  "source_sha256": "9c2a8fa26a29173362b02f5e3550fc83e5615521597215f4010f821a3293d592",
+  "languages": [
+    "english",
+    "japanese",
+    "koreana",
+    "schinese",
+    "tchinese"
+  ],
+  "achievements": {
+    "TROPHY4_PLATINUM": {
+      "translations": {
+        "english": {
+          "name": "THE LEGEND OF HEROES",
+          "description": "Earned all achievements."
+        },
+        "japanese": {
+          "name": "THE LEGEND OF HEROES",
+          "description": "全ての実績を獲得した。"
+        },
+        "koreana": {
+          "name": "THE LEGEND OF HEROES",
+          "description": "모든 도전 과제를 획득했다."
+        },
+        "schinese": {
+          "name": "THE LEGEND OF HEROES",
+          "description": "获得了所有成就。"
+        },
+        "tchinese": {
+          "name": "THE LEGEND OF HEROES",
+          "description": "獲得了所有成就。"
+        }
+      }
+    },
+    "TROPHY4_MAX_APRANK": {
+      "translations": {
+        "english": {
+          "name": "The Magnificent Class VII",
+          "description": "Achieved a Special Ops rank of A0."
+        },
+        "japanese": {
+          "name": "伝説のⅦ組",
+          "description": "特務科ランクが「甲零級」になった。"
+        },
+        "koreana": {
+          "name": "전설의 Ⅶ반",
+          "description": "특무과 랭크가 「갑0급」이 되었다."
+        },
+        "schinese": {
+          "name": "传说级Ⅶ班",
+          "description": "特务科阶级晋升至「甲零级」。"
+        },
+        "tchinese": {
+          "name": "傳說級Ⅶ班",
+          "description": "特務科階級晉昇至「甲零級」。"
+        }
+      }
+    },
+    "TROPHY4_DECORATION": {
+      "translations": {
+        "english": {
+          "name": "Pride of the Horned Lions",
+          "description": "Achieved a Unity Grade of Unbreakable."
+        },
+        "japanese": {
+          "name": "熾煌なる翼",
+          "description": "再起グレードが「回天」になった。"
+        },
+        "koreana": {
+          "name": "맹렬히 빛나는 날개",
+          "description": "재기 등급이 「회천」이 되었다."
+        },
+        "schinese": {
+          "name": "炽煌之翼",
+          "description": "复兴等级晋升至「回天」。"
+        },
+        "tchinese": {
+          "name": "熾煌之翼",
+          "description": "復興等級晉昇至「回天」。"
+        }
+      }
+    },
+    "TROPHY4_CLEAR_NIHGTMARE": {
+      "translations": {
+        "english": {
+          "name": "Slayer of Nightmares",
+          "description": "Completed the game on nightmare difficulty."
+        },
+        "japanese": {
+          "name": "地獄の栄冠",
+          "description": "難易度ナイトメアでゲームをクリアした。"
+        },
+        "koreana": {
+          "name": "지옥의 영관",
+          "description": "난이도 나이트메어로 게임을 클리어했다."
+        },
+        "schinese": {
+          "name": "地狱之荣冠",
+          "description": "以 NIGHTMARE（噩梦）难度通关。"
+        },
+        "tchinese": {
+          "name": "地獄之榮冠",
+          "description": "以難度NIGHTMARE完成遊戲。"
+        }
+      }
+    },
+    "TROPHY4_COMP_QUEST": {
+      "translations": {
+        "english": {
+          "name": "Wings of Hope",
+          "description": "Completed all quests."
+        },
+        "japanese": {
+          "name": "クエストマスター",
+          "description": "全てのクエスト（依頼）を達成した。"
+        },
+        "koreana": {
+          "name": "퀘스트 마스터",
+          "description": "모든 퀘스트(의뢰)를 달성했다."
+        },
+        "schinese": {
+          "name": "委托大师",
+          "description": "所有委托均成功达成。"
+        },
+        "tchinese": {
+          "name": "委託大師",
+          "description": "所有委託均成功達成。"
+        }
+      }
+    },
+    "TROPHY4_GETALL_TREASURE": {
+      "translations": {
+        "english": {
+          "name": "Empty Chest-er",
+          "description": "Opened every treasure chest."
+        },
+        "japanese": {
+          "name": "トレジャーハンター",
+          "description": "全ての宝箱を開けた。"
+        },
+        "koreana": {
+          "name": "트레저 헌터",
+          "description": "모든 보물 상자를 열었다."
+        },
+        "schinese": {
+          "name": "宝藏猎人",
+          "description": "开启所有宝箱。"
+        },
+        "tchinese": {
+          "name": "寶藏獵人",
+          "description": "開啟所有寶箱。"
+        }
+      }
+    },
+    "TROPHY4_COMP_BATTLENOTE": {
+      "translations": {
+        "english": {
+          "name": "Chronicle of Battle",
+          "description": "Completely filled the battle section in the notebook. (Besides the Extra category)"
+        },
+        "japanese": {
+          "name": "バトルマスター",
+          "description": "戦闘ノートの全情報を埋めた。（ＥＸＴＲＡ以外）"
+        },
+        "koreana": {
+          "name": "배틀 마스터",
+          "description": "전투 노트의 모든 정보를 채웠다. (EXTRA 제외)"
+        },
+        "schinese": {
+          "name": "战斗大师",
+          "description": "收集战斗笔记中的全部信息（EXTRA除外）。"
+        },
+        "tchinese": {
+          "name": "戰鬥大師",
+          "description": "收集戰鬥筆記中的所有資訊（ＥＸＴＲＡ除外）。"
+        }
+      }
+    },
+    "TROPHY4_COMP_CHARANOTE": {
+      "translations": {
+        "english": {
+          "name": "Ally Almanac",
+          "description": "Completely filled the character section in the notebook."
+        },
+        "japanese": {
+          "name": "人物マスター",
+          "description": "人物ノートの全情報を埋めた。"
+        },
+        "koreana": {
+          "name": "인물 마스터",
+          "description": "인물 노트의 모든 정보를 채웠다."
+        },
+        "schinese": {
+          "name": "人物大师",
+          "description": "收集人物笔记中的全部信息。"
+        },
+        "tchinese": {
+          "name": "人物大師",
+          "description": "收集人物筆記中的所有資訊。"
+        }
+      }
+    },
+    "TROPHY4_COMP_VMCARDNOTE": {
+      "translations": {
+        "english": {
+          "name": "Mr. Suitcase",
+          "description": "Completely filled the cards section in the notebook."
+        },
+        "japanese": {
+          "name": "ＶＭコレクター",
+          "description": "カードノートの全情報を埋めた。"
+        },
+        "koreana": {
+          "name": "VM 콜렉터",
+          "description": "카드 노트의 모든 정보를 채웠다."
+        },
+        "schinese": {
+          "name": "VM收藏家",
+          "description": "收集卡片笔记中的全部信息。"
+        },
+        "tchinese": {
+          "name": "ＶＭ收藏家",
+          "description": "收集卡片筆記中的所有資訊。"
+        }
+      }
+    },
+    "TROPHY4_COMP_BOOKNOTE": {
+      "translations": {
+        "english": {
+          "name": "Keeper of the Records",
+          "description": "Completely filled the books section in the notebook."
+        },
+        "japanese": {
+          "name": "ブックマニア",
+          "description": "書物ノートの全情報を埋めた。"
+        },
+        "koreana": {
+          "name": "북 마니아",
+          "description": "도서 노트의 모든 정보를 채웠다."
+        },
+        "schinese": {
+          "name": "爱书成痴",
+          "description": "收集书籍笔记中的全部信息。"
+        },
+        "tchinese": {
+          "name": "愛書成癡",
+          "description": "收集書籍筆記中的所有資訊。"
+        }
+      }
+    },
+    "TROPHY4_COMP_COOKINGNOTE": {
+      "translations": {
+        "english": {
+          "name": "Ashen Chef-alier",
+          "description": "Completely filled the recipe section in the notebook."
+        },
+        "japanese": {
+          "name": "炎の料理人",
+          "description": "料理ノートの全情報を埋めた。"
+        },
+        "koreana": {
+          "name": "불꽃의 요리사",
+          "description": "요리 노트의 모든 정보를 채웠다."
+        },
+        "schinese": {
+          "name": "炎之料理人",
+          "description": "收集料理笔记中的全部信息。"
+        },
+        "tchinese": {
+          "name": "炎之料理人",
+          "description": "收集料理筆記中的所有資訊。"
+        }
+      }
+    },
+    "TROPHY4_COMP_FISHINGNOTE": {
+      "translations": {
+        "english": {
+          "name": "Angler God, Master of the Aqueous Realm",
+          "description": "Completely filled the fishing section in the notebook. (All 30 types of fish + Rod Lv. Max)"
+        },
+        "japanese": {
+          "name": "水界の釣神",
+          "description": "釣りノートの全情報を埋めた。（魚全３０種＋ロッドＬＶ最大）。"
+        },
+        "koreana": {
+          "name": "수계의 낚시신",
+          "description": "낚시 노트의 모든 정보를 채웠다. (물고기 전 30종＋로드 LV 최대)"
+        },
+        "schinese": {
+          "name": "水界钓神",
+          "description": "收集钓鱼笔记中的全部信息（钓齐30种鱼，并将钓竿升级至最高等级）。"
+        },
+        "tchinese": {
+          "name": "水界釣神",
+          "description": "收集釣魚筆記中的所有資訊（共30種魚＋釣竿LV最大）。"
+        }
+      }
+    },
+    "TROPHY4_POMTTP_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Pom! Pom! Pro!",
+          "description": "Won against all opponents in Pom! Pom! Party!"
+        },
+        "japanese": {
+          "name": "ポムっとマスター",
+          "description": "《ポムっと》で全ての対戦者に勝利した。"
+        },
+        "koreana": {
+          "name": "폼폼 마스터",
+          "description": "《폼폼》으로 모든 대전자에게 승리했다."
+        },
+        "schinese": {
+          "name": "波姆碰大师",
+          "description": "《波姆碰》中战胜所有对战者。"
+        },
+        "tchinese": {
+          "name": "波姆碰大師",
+          "description": "《波姆碰》中戰勝所有對戰者。"
+        }
+      }
+    },
+    "TROPHY4_COMP_PHOTO": {
+      "translations": {
+        "english": {
+          "name": "Shutterbug",
+          "description": "Took all landscape photos and reported them to Rex."
+        },
+        "japanese": {
+          "name": "ブロマイドコレクター",
+          "description": "全ての風景写真を撮影し、レックスに報告した。"
+        },
+        "koreana": {
+          "name": "브로마이드 컬렉터",
+          "description": "모든 풍경 사진을 찍어 렉스에게 보고했다."
+        },
+        "schinese": {
+          "name": "照片收藏家",
+          "description": "拍摄所有风景照并向雷克斯回报。"
+        },
+        "tchinese": {
+          "name": "照片收藏家",
+          "description": "拍攝所有風景照並向雷克斯回報。"
+        }
+      }
+    },
+    "TROPHY4_GETALL_MQUARTZ": {
+      "translations": {
+        "english": {
+          "name": "The Legendary Rean QUARTZ-er",
+          "description": "Gathered all 31 varieties of master quartz."
+        },
+        "japanese": {
+          "name": "Ｍクオーツコレクター",
+          "description": "マスタークオーツを全て集めた（全３１種）。"
+        },
+        "koreana": {
+          "name": "M쿼츠 컬렉터",
+          "description": "마스터 쿼츠를 모두 모았다. (전 31종)"
+        },
+        "schinese": {
+          "name": "核心回路收藏家",
+          "description": "收集所有核心回路（共31种）。"
+        },
+        "tchinese": {
+          "name": "核心迴路收藏家",
+          "description": "收集所有核心迴路（共31種）。"
+        }
+      }
+    },
+    "TROPHY4_GETALL_LOSTARTS": {
+      "translations": {
+        "english": {
+          "name": "Raiders of the Lost Arts",
+          "description": "Gathered all 5 lost arts quartz."
+        },
+        "japanese": {
+          "name": "ロストアーツコレクター",
+          "description": "ロストアーツクオーツを全て集めた（全５種）。"
+        },
+        "koreana": {
+          "name": "로스트 아츠 컬렉터",
+          "description": "로스트 아츠를 모두 모았다. (전 5종)"
+        },
+        "schinese": {
+          "name": "失落魔法收藏家",
+          "description": "收集所有失落魔法结晶回路（共5种）。"
+        },
+        "tchinese": {
+          "name": "失落魔法收藏家",
+          "description": "收集所有失落魔法結晶迴路（共5種）。"
+        }
+      }
+    },
+    "TROPHY4_CHALLENGE_BOX": {
+      "translations": {
+        "english": {
+          "name": "Trials in the Chest",
+          "description": "Opened every trial chest."
+        },
+        "japanese": {
+          "name": "試練を越えし者",
+          "description": "全ての試練の箱を開けた。"
+        },
+        "koreana": {
+          "name": "시련을 넘은 자",
+          "description": "모든 시련의 상자를 열었다."
+        },
+        "schinese": {
+          "name": "跨越考验者",
+          "description": "开启所有考验箱。"
+        },
+        "tchinese": {
+          "name": "跨越考驗者",
+          "description": "開啟所有考驗箱。"
+        }
+      }
+    },
+    "TROPHY4_HIGH_MIRA": {
+      "translations": {
+        "english": {
+          "name": "War Coffers",
+          "description": "Acquired over a million mira."
+        },
+        "japanese": {
+          "name": "百万長者",
+          "description": "所持金が１００万ミラ以上になった。"
+        },
+        "koreana": {
+          "name": "백만장자",
+          "description": "소지금이 100만 미라를 넘었다."
+        },
+        "schinese": {
+          "name": "百万富翁",
+          "description": "持有的米拉达到100万以上。"
+        },
+        "tchinese": {
+          "name": "百萬富翁",
+          "description": "持有金錢達到100萬米拉以上。"
+        }
+      }
+    },
+    "TROPHY4_MAX_MQUARTZ": {
+      "translations": {
+        "english": {
+          "name": "Heavenly Jewel",
+          "description": "Raised a master quartz to level 10."
+        },
+        "japanese": {
+          "name": "至境の珠",
+          "description": "いずれかのマスタークオーツをＬＶ１０にした。"
+        },
+        "koreana": {
+          "name": "지고의 구슬",
+          "description": "하나의 마스터 쿼츠를 LV10으로 올렸다."
+        },
+        "schinese": {
+          "name": "至境之珠",
+          "description": "将任何一个核心回路的等级提升至Lv.10。"
+        },
+        "tchinese": {
+          "name": "至境之珠",
+          "description": "將任何一個核心迴路的等級提昇至LV10。"
+        }
+      }
+    },
+    "TROPHY4_BATTLECOUNT_A": {
+      "translations": {
+        "english": {
+          "name": "Clashing Steel",
+          "description": "Won 100 battles."
+        },
+        "japanese": {
+          "name": "力戦の勇士",
+          "description": "戦闘勝利回数１００回達成。"
+        },
+        "koreana": {
+          "name": "역전의 용사",
+          "description": "전투 승리 횟수 100회 달성."
+        },
+        "schinese": {
+          "name": "力战之勇士",
+          "description": "战斗胜利次数达到100次。"
+        },
+        "tchinese": {
+          "name": "力戰之勇士",
+          "description": "戰鬥勝利次數達到100次。"
+        }
+      }
+    },
+    "TROPHY4_BATTLECOUNT_C": {
+      "translations": {
+        "english": {
+          "name": "Fully-Charged Rivalry",
+          "description": "Won 700 battles."
+        },
+        "japanese": {
+          "name": "歴戦の猛者",
+          "description": "戦闘勝利回数７００回達成。"
+        },
+        "koreana": {
+          "name": "역전의 맹자",
+          "description": "전투 승리 횟수 700회 달성."
+        },
+        "schinese": {
+          "name": "历战之猛者",
+          "description": "战斗胜利次数达到700次。"
+        },
+        "tchinese": {
+          "name": "歷戰之猛者",
+          "description": "戰鬥勝利次數達到700次。"
+        }
+      }
+    },
+    "TROPHY4_FASTATTACK": {
+      "translations": {
+        "english": {
+          "name": "The Early Bird Gets the Win",
+          "description": "Initiated 300 advantage encounters. (Including double and triple advantage)"
+        },
+        "japanese": {
+          "name": "雷光一閃",
+          "description": "先制／優勢／奇襲攻撃を計３００回発生させた。"
+        },
+        "koreana": {
+          "name": "뇌광일섬",
+          "description": "선제/우세/기습 공격을 총 300회 발생시켰다."
+        },
+        "schinese": {
+          "name": "雷光一闪",
+          "description": "发动先制／优势／奇袭攻击的次数总计达到300次。"
+        },
+        "tchinese": {
+          "name": "雷光一閃",
+          "description": "發動先制／優勢／奇襲攻擊的次數總計達到300次。"
+        }
+      }
+    },
+    "TROPHY4_SCRAFT": {
+      "translations": {
+        "english": {
+          "name": "Hit the S-Breaks",
+          "description": "Used 100 S-Crafts in battle."
+        },
+        "japanese": {
+          "name": "超絶秘技",
+          "description": "Ｓクラフトを１００回発動した。"
+        },
+        "koreana": {
+          "name": "초절비기",
+          "description": "S크래프트를 100회 발동했다."
+        },
+        "schinese": {
+          "name": "超绝秘技",
+          "description": "发动100次S战技。"
+        },
+        "tchinese": {
+          "name": "超絕秘技",
+          "description": "發動100次S戰技。"
+        }
+      }
+    },
+    "TROPHY4_TBONUS": {
+      "translations": {
+        "english": {
+          "name": "Master Strategist",
+          "description": "Won a battle with a tactical bonus of x3.0 or greater."
+        },
+        "japanese": {
+          "name": "絢爛攻守",
+          "description": "タクティカルボーナスを×３．０以上にした。"
+        },
+        "koreana": {
+          "name": "현란공수",
+          "description": "택티컬 보너스를 ×3.0 이상으로 만들었다."
+        },
+        "schinese": {
+          "name": "绚烂攻守",
+          "description": "战术奖励达到3.0倍以上。"
+        },
+        "tchinese": {
+          "name": "絢爛攻守",
+          "description": "戰術獎勵達到x3.0以上。"
+        }
+      }
+    },
+    "TROPHY4_MASTER_BREAK": {
+      "translations": {
+        "english": {
+          "name": "All Broken Up About It",
+          "description": "Inflicted Break over 800 times."
+        },
+        "japanese": {
+          "name": "ブレイクマスター",
+          "description": "ブレイクを８００回以上行った。"
+        },
+        "koreana": {
+          "name": "브레이크 마스터",
+          "description": "브레이크를 800회 이상 실시했다."
+        },
+        "schinese": {
+          "name": "破防大师",
+          "description": "成功发动800次以上的破防。"
+        },
+        "tchinese": {
+          "name": "破防大師",
+          "description": "成功發動800次以上的破防。"
+        }
+      }
+    },
+    "TROPHY4_MASTER_LINK": {
+      "translations": {
+        "english": {
+          "name": "Unbreakable Bonds",
+          "description": "Raised any two characters to Link Level 7."
+        },
+        "japanese": {
+          "name": "リンクマスター",
+          "description": "誰かと誰かのリンクレベルが７になった。"
+        },
+        "koreana": {
+          "name": "링크 마스터",
+          "description": "누군가와 누군가의 링크 레벨이 7이 되었다."
+        },
+        "schinese": {
+          "name": "连结大师",
+          "description": "任意两名角色之间的连结等级达到7。"
+        },
+        "tchinese": {
+          "name": "連結大師",
+          "description": "任兩位角色間的連結等級達到7。"
+        }
+      }
+    },
+    "TROPHY4_MASTER_CHASE": {
+      "translations": {
+        "english": {
+          "name": "Tag-Team Trouncing",
+          "description": "Used over 500 follow-up attacks in battle."
+        },
+        "japanese": {
+          "name": "追撃マスター",
+          "description": "追撃を５００回以上行った。"
+        },
+        "koreana": {
+          "name": "추격 마스터",
+          "description": "추격을 500회 이상 실시했다."
+        },
+        "schinese": {
+          "name": "追击大师",
+          "description": "成功发动500次以上的追击。"
+        },
+        "tchinese": {
+          "name": "追擊大師",
+          "description": "成功發動500次以上的追擊。"
+        }
+      }
+    },
+    "TROPHY4_MASTER_RUSH": {
+      "translations": {
+        "english": {
+          "name": "Dynamic Duo",
+          "description": "Used Rush in battle 100 times."
+        },
+        "japanese": {
+          "name": "ラッシュマスター",
+          "description": "ラッシュを１００回以上行った。"
+        },
+        "koreana": {
+          "name": "러시 마스터",
+          "description": "러시를 100회 이상 실시했다."
+        },
+        "schinese": {
+          "name": "连续猛攻大师",
+          "description": "成功发动100次以上的连续猛攻。"
+        },
+        "tchinese": {
+          "name": "連續猛攻大師",
+          "description": "成功發動100次以上的連續猛攻。"
+        }
+      }
+    },
+    "TROPHY4_MASTER_BURST": {
+      "translations": {
+        "english": {
+          "name": "Teamwork Makes the Fiends Hurt",
+          "description": "Used Burst in battle 50 times."
+        },
+        "japanese": {
+          "name": "バーストマスター",
+          "description": "バーストを５０回以上行った。"
+        },
+        "koreana": {
+          "name": "버스트 마스터",
+          "description": "버스트를 50회 이상 실시했다."
+        },
+        "schinese": {
+          "name": "爆裂猛攻大师",
+          "description": "成功发动50次以上的爆裂猛攻。"
+        },
+        "tchinese": {
+          "name": "爆裂猛攻大師",
+          "description": "成功發動50次以上的爆裂猛攻。"
+        }
+      }
+    },
+    "TROPHY4_MASTER_ORDER": {
+      "translations": {
+        "english": {
+          "name": "Order Up",
+          "description": "Used Brave Order in battle over 100 times."
+        },
+        "japanese": {
+          "name": "オーダーマスター",
+          "description": "ブレイブオーダーを１００回以上行った。"
+        },
+        "koreana": {
+          "name": "오더 마스터",
+          "description": "브레이브 오더를 100회 이상 실시했다."
+        },
+        "schinese": {
+          "name": "勇气指令大师",
+          "description": "成功发动100次以上的勇气指令。"
+        },
+        "tchinese": {
+          "name": "勇氣指令大師",
+          "description": "成功發動100次以上的勇氣指令。"
+        }
+      }
+    },
+    "TROPHY4_REPORT_SRANK": {
+      "translations": {
+        "english": {
+          "name": "Extra Special Operations",
+          "description": "Earned an S-Rank on any act."
+        },
+        "japanese": {
+          "name": "華麗なる特務科",
+          "description": "いずれかのパートで、評価Ｓを取った。"
+        },
+        "koreana": {
+          "name": "화려한 특무과",
+          "description": "하나의 파트에서 평가 S를 받았다."
+        },
+        "schinese": {
+          "name": "华丽的特务科",
+          "description": "在任何一部中获得S级评价。"
+        },
+        "tchinese": {
+          "name": "華麗的特務科",
+          "description": "在任何一部中獲得S級評價。"
+        }
+      }
+    },
+    "TROPHY4_KIZUNA_JUNA": {
+      "translations": {
+        "english": {
+          "name": "Juna-versal Feelings",
+          "description": "Spent the evening before the final battle with Juna."
+        },
+        "japanese": {
+          "name": "特別な絆・ユウナ",
+          "description": "ユウナと特別な時間を過ごした。"
+        },
+        "koreana": {
+          "name": "특별한 인연・유나",
+          "description": "유나와 특별한 시간을 보냈다."
+        },
+        "schinese": {
+          "name": "特别的羁绊·悠娜",
+          "description": "与悠娜度过一段特别的时光。"
+        },
+        "tchinese": {
+          "name": "特別的羈絆・悠娜",
+          "description": "和悠娜度過一段特別的時光。"
+        }
+      }
+    },
+    "TROPHY4_KIZUNA_ALTINA": {
+      "translations": {
+        "english": {
+          "name": "Bunny Love",
+          "description": "Spent the evening before the final battle with Altina."
+        },
+        "japanese": {
+          "name": "特別な絆・アルティナ",
+          "description": "アルティナと特別な時間を過ごした。"
+        },
+        "koreana": {
+          "name": "특별한 인연・알티나",
+          "description": "알티나와 특별한 시간을 보냈다."
+        },
+        "schinese": {
+          "name": "特别的羁绊·亚尔缇娜",
+          "description": "与亚尔缇娜度过一段特别的时光。"
+        },
+        "tchinese": {
+          "name": "特別的羈絆・亞爾緹娜",
+          "description": "和亞爾緹娜度過一段特別的時光。"
+        }
+      }
+    },
+    "TROPHY4_KIZUNA_MUSSE": {
+      "translations": {
+        "english": {
+          "name": "Musse to My Ears",
+          "description": "Spent the evening before the final battle with Musse."
+        },
+        "japanese": {
+          "name": "特別な絆・ミュゼ",
+          "description": "ミュゼと特別な時間を過ごした。"
+        },
+        "koreana": {
+          "name": "특별한 인연・뮤제",
+          "description": "뮤제와 특별한 시간을 보냈다."
+        },
+        "schinese": {
+          "name": "特别的羁绊·妙婕",
+          "description": "与妙婕度过一段特别的时光。"
+        },
+        "tchinese": {
+          "name": "特別的羈絆・妙婕",
+          "description": "和妙婕度過一段特別的時光。"
+        }
+      }
+    },
+    "TROPHY4_KIZUNA_ALISA": {
+      "translations": {
+        "english": {
+          "name": "Orbal Beau",
+          "description": "Spent the evening before the final battle with Alisa."
+        },
+        "japanese": {
+          "name": "特別な絆・アリサ",
+          "description": "アリサと特別な時間を過ごした。"
+        },
+        "koreana": {
+          "name": "특별한 인연・알리사",
+          "description": "알리사와 특별한 시간을 보냈다."
+        },
+        "schinese": {
+          "name": "特别的羁绊·亚莉莎",
+          "description": "与亚莉莎度过一段特别的时光。"
+        },
+        "tchinese": {
+          "name": "特別的羈絆・亞莉莎",
+          "description": "和亞莉莎度過一段特別的時光。"
+        }
+      }
+    },
+    "TROPHY4_KIZUNA_LAURA": {
+      "translations": {
+        "english": {
+          "name": "Sword-crossed Lovers",
+          "description": "Spent the evening before the final battle with Laura."
+        },
+        "japanese": {
+          "name": "特別な絆・ラウラ",
+          "description": "ラウラと特別な時間を過ごした。"
+        },
+        "koreana": {
+          "name": "특별한 인연・라우라",
+          "description": "라우라와 특별한 시간을 보냈다."
+        },
+        "schinese": {
+          "name": "特别的羁绊·劳拉",
+          "description": "与劳拉度过一段特别的时光。"
+        },
+        "tchinese": {
+          "name": "特別的羈絆・勞拉",
+          "description": "和勞拉度過一段特別的時光。"
+        }
+      }
+    },
+    "TROPHY4_KIZUNA_EMMA": {
+      "translations": {
+        "english": {
+          "name": "Spellbound",
+          "description": "Spent the evening before the final battle with Emma."
+        },
+        "japanese": {
+          "name": "特別な絆・エマ",
+          "description": "エマと特別な時間を過ごした。"
+        },
+        "koreana": {
+          "name": "특별한 인연・엠마",
+          "description": "엠마와 특별한 시간을 보냈다."
+        },
+        "schinese": {
+          "name": "特别的羁绊·艾玛",
+          "description": "与艾玛度过一段特别的时光。"
+        },
+        "tchinese": {
+          "name": "特別的羈絆・艾瑪",
+          "description": "和艾瑪度過一段特別的時光。"
+        }
+      }
+    },
+    "TROPHY4_KIZUNA_FIE": {
+      "translations": {
+        "english": {
+          "name": "Fairy Tale Ending",
+          "description": "Spent the evening before the final battle with Fie."
+        },
+        "japanese": {
+          "name": "特別な絆・フィー",
+          "description": "フィーと特別な時間を過ごした。"
+        },
+        "koreana": {
+          "name": "특별한 인연・피",
+          "description": "피와 특별한 시간을 보냈다."
+        },
+        "schinese": {
+          "name": "特别的羁绊·菲",
+          "description": "与菲度过一段特别的时光。"
+        },
+        "tchinese": {
+          "name": "特別的羈絆・菲",
+          "description": "和菲度過一段特別的時光。"
+        }
+      }
+    },
+    "TROPHY4_KIZUNA_SARA": {
+      "translations": {
+        "english": {
+          "name": "Lifelong Drinking Partner",
+          "description": "Spent the evening before the final battle with Sara."
+        },
+        "japanese": {
+          "name": "特別な絆・サラ",
+          "description": "サラと特別な時間を過ごした。"
+        },
+        "koreana": {
+          "name": "특별한 인연・사라",
+          "description": "사라와 특별한 시간을 보냈다."
+        },
+        "schinese": {
+          "name": "特别的羁绊·莎拉",
+          "description": "与莎拉度过一段特别的时光。"
+        },
+        "tchinese": {
+          "name": "特別的羈絆・莎拉",
+          "description": "和莎拉度過一段特別的時光。"
+        }
+      }
+    },
+    "TROPHY4_KIZUNA_TOWA": {
+      "translations": {
+        "english": {
+          "name": "Him & Herschel",
+          "description": "Spent the evening before the final battle with Towa."
+        },
+        "japanese": {
+          "name": "特別な絆・トワ",
+          "description": "トワと特別な時間を過ごした。"
+        },
+        "koreana": {
+          "name": "특별한 인연・토와",
+          "description": "토와와 특별한 시간을 보냈다."
+        },
+        "schinese": {
+          "name": "特别的羁绊·托娃",
+          "description": "与托娃度过一段特别的时光。"
+        },
+        "tchinese": {
+          "name": "特別的羈絆・托娃",
+          "description": "和托娃度過一段特別的時光。"
+        }
+      }
+    },
+    "TROPHY4_KIZUNA_ELISE": {
+      "translations": {
+        "english": {
+          "name": "Family Ties",
+          "description": "Spent the evening before the final battle with Elise."
+        },
+        "japanese": {
+          "name": "特別な絆・エリゼ",
+          "description": "エリゼと特別な時間を過ごした。"
+        },
+        "koreana": {
+          "name": "특별한 인연・엘리제",
+          "description": "엘리제와 특별한 시간을 보냈다."
+        },
+        "schinese": {
+          "name": "特别的羁绊·爱丽榭",
+          "description": "与爱丽榭度过一段特别的时光。"
+        },
+        "tchinese": {
+          "name": "特別的羈絆・愛麗榭",
+          "description": "和愛麗榭度過一段特別的時光。"
+        }
+      }
+    },
+    "TROPHY4_KIZUNA_ALFIN": {
+      "translations": {
+        "english": {
+          "name": "Arnor Ardor",
+          "description": "Spent the evening before the final battle with Alfin."
+        },
+        "japanese": {
+          "name": "特別な絆・アルフィン",
+          "description": "アルフィンと特別な時間を過ごした。"
+        },
+        "koreana": {
+          "name": "특별한 인연・알핀",
+          "description": "알핀과 특별한 시간을 보냈다."
+        },
+        "schinese": {
+          "name": "特别的羁绊·艾尔芬",
+          "description": "与艾尔芬度过一段特别的时光。"
+        },
+        "tchinese": {
+          "name": "特別的羈絆・艾爾芬",
+          "description": "和艾爾芬度過一段特別的時光。"
+        }
+      }
+    },
+    "TROPHY4_KIZUNA_FRIENDS": {
+      "translations": {
+        "english": {
+          "name": "Tsunderbolts and Lightning",
+          "description": "Forged a strong bond with Celine and Duvalie."
+        },
+        "japanese": {
+          "name": "協力者たちとの絆",
+          "description": "セリーヌとデュバリィとの絆を深めた。"
+        },
+        "koreana": {
+          "name": "조력자들과의 인연",
+          "description": "셀린과 뒤바리와의 인연이 깊어졌다."
+        },
+        "schinese": {
+          "name": "与协力者的羁绊",
+          "description": "与瑟蕾奴和杜巴莉培养出深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和協力者的羈絆",
+          "description": "和瑟蕾奴及杜巴莉培養出深厚的羈絆。"
+        }
+      }
+    },
+    "TROPHY4_KIZUNA_BOYS": {
+      "translations": {
+        "english": {
+          "name": "Playing with the Boys",
+          "description": "Forged a strong bond with Kurt, Ash, Elliot, Machias, Jusis, Gaius, and Crow."
+        },
+        "japanese": {
+          "name": "男たちの絆",
+          "description": "クルト、アッシュ、エリオット、マキアス、ユーシス、ガイウス、クロウとの絆を深めた。"
+        },
+        "koreana": {
+          "name": "남자들의 인연",
+          "description": "쿠르트, 애시, 엘리엇, 마키아스, 유시스, 가이우스, 크로우와의 인연이 깊어졌다."
+        },
+        "schinese": {
+          "name": "男人们的羁绊",
+          "description": "与库尔特、亚修、艾略特、马奇亚斯、尤西斯、盖乌斯、克洛培养出深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "男人們的羈絆",
+          "description": "和庫爾特、亞修、艾略特、馬奇亞斯、尤西斯、蓋烏斯、克洛培養出深厚的羈絆。"
+        }
+      }
+    },
+    "TROPHY4_SCENARIO_START": {
+      "translations": {
+        "english": {
+          "name": "Joint Operation",
+          "description": "Infiltrated Orchis Tower."
+        },
+        "japanese": {
+          "name": "オルキスタワー潜入",
+          "description": "オルキスタワーに潜入した。"
+        },
+        "koreana": {
+          "name": "오르키스 타워 잠입",
+          "description": "오르키스 타워에 잠입했다."
+        },
+        "schinese": {
+          "name": "潜入兰花塔",
+          "description": "潜入兰花塔。"
+        },
+        "tchinese": {
+          "name": "潛入蘭花塔",
+          "description": "潛入蘭花塔。"
+        }
+      }
+    },
+    "TROPHY4_SCENARIO_00": {
+      "translations": {
+        "english": {
+          "name": "Nightfall",
+          "description": "Completed the prologue."
+        },
+        "japanese": {
+          "name": "変わる世界 ～闇の底から～",
+          "description": "序「変わる世界 ～闇の底から～」をクリアした。"
+        },
+        "koreana": {
+          "name": "변하는 세계 ~어둠의 밑에서~",
+          "description": "서막 「변하는 세계 ~어둠의 밑에서~」를 클리어했다."
+        },
+        "schinese": {
+          "name": "变化的世界 ～来自黑暗深渊～",
+          "description": "完成序幕「变化的世界 ～来自黑暗深渊～」。"
+        },
+        "tchinese": {
+          "name": "變化的世界 ～來自黑暗深淵～",
+          "description": "完成序幕「變化的世界 ～來自黑暗深淵～」。"
+        }
+      }
+    },
+    "TROPHY4_SCENARIO_01": {
+      "translations": {
+        "english": {
+          "name": "The Trials of Class VII",
+          "description": "Completed Act 1."
+        },
+        "japanese": {
+          "name": "Ⅶ組の試練",
+          "description": "第Ⅰ部「Ⅶ組の試練」をクリアした。"
+        },
+        "koreana": {
+          "name": "Ⅶ반의 시련",
+          "description": "제Ⅰ부 「Ⅶ반의 시련」을 클리어했다."
+        },
+        "schinese": {
+          "name": "Ⅶ班的考验",
+          "description": "完成第Ⅰ部「Ⅶ班的考验」。"
+        },
+        "tchinese": {
+          "name": "Ⅶ班的考驗",
+          "description": "完成第Ⅰ部「Ⅶ班的考驗」。"
+        }
+      }
+    },
+    "TROPHY4_SCENARIO_02": {
+      "translations": {
+        "english": {
+          "name": "A Shattered Blade",
+          "description": "Completed Fragments."
+        },
+        "japanese": {
+          "name": "折れたる剣、そして──",
+          "description": "断章「折れたる剣、そして──」をクリアした。"
+        },
+        "koreana": {
+          "name": "부러진 검, 그리고──",
+          "description": "단막 「부러진 검, 그리고──」를 클리어했다."
+        },
+        "schinese": {
+          "name": "剑断之后──",
+          "description": "完成断章「剑断之后──」。"
+        },
+        "tchinese": {
+          "name": "劍斷之後──",
+          "description": "完成斷章「劍斷之後──」。"
+        }
+      }
+    },
+    "TROPHY4_SCENARIO_03": {
+      "translations": {
+        "english": {
+          "name": "Guiding Starlight",
+          "description": "Completed Act 2."
+        },
+        "japanese": {
+          "name": "宿命の星たち",
+          "description": "第Ⅱ部「宿命の星たち」をクリアした。"
+        },
+        "koreana": {
+          "name": "숙명의 별들",
+          "description": "제Ⅱ부 「숙명의 별들」을 클리어했다."
+        },
+        "schinese": {
+          "name": "宿命的繁星",
+          "description": "完成第Ⅱ部「宿命的繁星」。"
+        },
+        "tchinese": {
+          "name": "宿命的繁星",
+          "description": "完成第Ⅱ部「宿命的繁星」。"
+        }
+      }
+    },
+    "TROPHY4_SCENARIO_04": {
+      "translations": {
+        "english": {
+          "name": "Seekers of the Dawn",
+          "description": "Completed Act 3."
+        },
+        "japanese": {
+          "name": "獅子ノ刻～閃光の行方～",
+          "description": "第Ⅲ部「獅子ノ刻～閃光の行方～」をクリアした。"
+        },
+        "koreana": {
+          "name": "사자의 각인 ~섬광의 행방~",
+          "description": "제Ⅲ부 「사자의 각인 ~섬광의 행방~」을 클리어했다."
+        },
+        "schinese": {
+          "name": "狮子时刻 ～闪光的行踪～",
+          "description": "完成第Ⅲ部「狮子时刻 ～闪光的行踪～」。"
+        },
+        "tchinese": {
+          "name": "獅子時刻 ～閃光的行蹤～",
+          "description": "完成第Ⅲ部「獅子時刻 ～閃光的行蹤～」。"
+        }
+      }
+    },
+    "TROPHY4_SCENARIO_05": {
+      "translations": {
+        "english": {
+          "name": "Night of Promises",
+          "description": "Completed Eventide."
+        },
+        "japanese": {
+          "name": "せめてこの夜に誓って",
+          "description": "前日譚「せめてこの夜に誓って」をクリアした。"
+        },
+        "koreana": {
+          "name": "그나마 이 밤에 맹세하며",
+          "description": "전일담 「그나마 이 밤에 맹세하며」를 클리어했다."
+        },
+        "schinese": {
+          "name": "至少对这个夜晚发誓",
+          "description": "完成前日谭「至少对这个夜晚发誓」。"
+        },
+        "tchinese": {
+          "name": "至少對這個夜晚發誓",
+          "description": "完成前日譚「至少對這個夜晚發誓」。"
+        }
+      }
+    },
+    "TROPHY4_SCENARIO_06": {
+      "translations": {
+        "english": {
+          "name": "Scattered Petals, Dying Flames",
+          "description": "Completed the finale."
+        },
+        "japanese": {
+          "name": "散り行く花、焔の果てに",
+          "description": "最終幕「散り行く花、焔の果てに」をクリアした。"
+        },
+        "koreana": {
+          "name": "떨어지는 꽃, 불꽃의 끝에",
+          "description": "종막 「떨어지는 꽃, 불꽃의 끝에」를 클리어했다."
+        },
+        "schinese": {
+          "name": "花逝于火焰彼方",
+          "description": "完成最终幕「花逝于火焰彼方」。"
+        },
+        "tchinese": {
+          "name": "花逝於火焰彼方",
+          "description": "完成最終幕「花逝於火焰彼方」。"
+        }
+      }
+    },
+    "TROPHY4_SCENARIO_07": {
+      "translations": {
+        "english": {
+          "name": "A New Dawn",
+          "description": "Reached the true ending."
+        },
+        "japanese": {
+          "name": "未来へ。",
+          "description": "大団円「未来へ。」をクリアした。"
+        },
+        "koreana": {
+          "name": "미래로.",
+          "description": "대단원 「미래로.」를 클리어했다."
+        },
+        "schinese": {
+          "name": "迈向未来。",
+          "description": "完成大团圆「迈向未来。」"
+        },
+        "tchinese": {
+          "name": "邁向未來。",
+          "description": "完成大團圓「邁向未來。」。"
+        }
+      }
+    }
+  }
+}
