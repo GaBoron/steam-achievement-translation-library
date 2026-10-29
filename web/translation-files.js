@@ -72,7 +72,7 @@ export function createTranslationFiles({ game, locale, revision }) {
           el('p', { className: 'variant-meta' },
             t(locale, 'achievements', { count: variant.count ?? t(locale, 'unknown') }), ' · ', formatSize(variant.binPath ? variant.size : variant.jsonSize, locale)),
           el('dl', { className: 'variant-compatibility' }, el('dt', {}, t(locale, 'compatibility')),
-            el('dd', {}, clients.length ? clients.map(client => el('span', {}, client)) : '—')))),
+            el('dd', {}, clients.length ? clients.map(client => el('span', {}, client)) : t(locale, 'noCompatibleClient'))))),
       el('div', { className: 'variant-languages', title: languages.join(', '), 'aria-label': languages.join(', ') },
         languages.length ? languages.slice(0, 3).map(name => el('span', {}, name)) : t(locale, 'noLanguages'),
         languages.length > 3 && el('span', {}, `+${languages.length - 3}`)),

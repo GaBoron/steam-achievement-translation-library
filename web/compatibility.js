@@ -1,8 +1,9 @@
-// Replace placeholders with confirmed minimum releases after client adaptation.
-// Omit unsupported formats; do not infer compatibility from a client's latest version.
+// Minimum released versions: SATLI introduced Catalog V2 in 2.1.0;
+// SATLI lite has supported format 1 since its first release, 0.1.0.
+// Omit unsupported formats until a compatible client release is available.
 const clients = [
-  { name: 'SATLI', bin: 'x.x.x', json: {} },
-  { name: 'SATLI lite', json: { 1: 'x.x.x' } },
+  { name: 'SATLI', bin: '2.1.0', json: {} },
+  { name: 'SATLI lite', json: { 1: '0.1.0' } },
 ];
 
 export function compatibleClients(variant) {
