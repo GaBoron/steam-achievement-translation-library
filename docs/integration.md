@@ -68,7 +68,7 @@ BIN 和 JSON-only 版本统一收录在 `games/<app_id>/variants/<variant_id>`�
 下载独立 JSON 后核对 `json.size` 和原始字节 SHA-256，再核对格式、ID、语言与成就数。更新缓存键使用 `json.sha256`。JSON 的五个文本字段与格式 1 对齐，省去源 BIN 哈希，详见[格式说明](translation-json.md)。
 
 > [!IMPORTANT]
-> 旧版 SATLI lite 会假定每个版本都有 BIN 哈希并只接受格式 1。客户端必须先支持 JSON-only 版本和格式 2，才能读取含这类版本的统一目录；旧客户端可能拒绝整份目录。已有 BIN、路径及格式 1 JSON 的含义保持不变。遇到未知格式时停止应用并保留已验证缓存，不得将 JSON 当作 BIN 安装。
+> SATLI lite 从 0.2.0 起支持 JSON-only 版本与格式 2，并继续兼容格式 1。0.1.x 版本会假定每个版本都有 BIN 哈希并只接受格式 1，可能拒绝含 JSON-only 版本的整份目录，请先升级。其他客户端也须支持相应格式后再读取。已有 BIN、路径及格式 1 JSON 的含义保持不变。遇到未知格式时停止应用并保留已验证缓存，不得将 JSON 当作 BIN 安装。
 
 ## 下载与校验
 
@@ -159,6 +159,6 @@ BIN and JSON-only variants share `games/<app_id>/variants/<variant_id>` and the 
 The standalone metadata example above supplies `languages`, `achievements` and `json: {version: 2, size, sha256}`. Verify received byte size and SHA-256, then format, IDs, languages and achievement count. Use `json.sha256` for cache updates. Its five text fields align with format 1, omitting the source BIN hash; see the [JSON format](translation-json.md#english).
 
 > [!IMPORTANT]
-> Older SATLI lite assumes every variant has a BIN hash and accepts format 1 only. Clients must support JSON-only variants and format 2 before consuming a unified catalog containing them; older readers may reject the entire catalog. Existing BIN files, paths and format 1 semantics remain unchanged. Stop applying unknown formats while retaining validated caches; never install JSON as BIN.
+> SATLI lite 0.2.0 and newer support JSON-only variants and format 2 while remaining compatible with format 1. Versions 0.1.x assume every variant has a BIN hash and accept format 1 only, so they may reject an entire catalog containing JSON-only variants; upgrade first. Other clients must also support the relevant formats before consuming them. Existing BIN files, paths and format 1 semantics remain unchanged. Stop applying unknown formats while retaining validated caches; never install JSON as BIN.
 
 The standard-library Python example above resolves a snapshot and validates text for a selected app, variant, and language. Production clients also need timeout, rate-limit, cache, and UI-escaping handling. Contributor-owned translations use CC BY 4.0; original game content and Steam schema rights belong to their respective holders. Preserve contributor attribution and a library source link; see [license and rights](../LICENSE.md).

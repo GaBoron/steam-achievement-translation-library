@@ -39,7 +39,7 @@
 
 投稿必须包含 1–10000 项成就，每个 API name 非空且不超过 512 字符，每个文本字段不超过 65536 字符，文件不超过 32 MiB。拒绝重复 JSON 键、NUL、未声明语言、错误 ID 和未知版本。每项成就的名称与描述分别检查：每个字段必须在所有声明语言中有内容，或在所有语言中全部为空。机器人规范化合法附件，并在审核与发布时核对文件内容、哈希、大小、语言及成就数。
 
-JSON 只包含显示文本，没有解锁状态、进度、图标或完整 Binary KeyValues 节点。格式 2 不能用于 BIN 覆盖、统计或解锁数据。客户端必须识别 JSON-only Catalog 版本和格式 2 才能使用；仅支持格式 1 的旧版 SATLI lite 需要更新，详见[接入指南](integration.md#json-only-版本)。
+JSON 只包含显示文本，没有解锁状态、进度、图标或完整 Binary KeyValues 节点。格式 2 不能用于 BIN 覆盖、统计或解锁数据。客户端必须识别 JSON-only Catalog 版本和格式 2 才能使用；SATLI lite 需要 0.2.0 或更高版本，并继续兼容格式 1，详见[接入指南](integration.md#json-only-版本)。
 
 ## 生成可翻译草稿
 
@@ -73,7 +73,7 @@ Format 1 `source_sha256` and catalog `variant.sha256` identify the BIN. Standalo
 
 Submissions contain 1–10000 achievements, at most 512 characters per nonempty API name, 65536 per text field and 32 MiB per file. Duplicate JSON keys, NUL, undeclared languages, mismatched IDs and unknown versions are rejected. Names and descriptions are checked independently: each field is populated in every declared language or empty in all of them. Automation canonicalizes uploads and rechecks content, hash, size, languages and counts at review and publication.
 
-JSON contains display text, without unlock state, progress, icons or complete Binary KeyValues nodes. Format 2 is not a BIN replacement, stats or unlock data. Clients must support JSON-only catalog variants and format 2; older SATLI lite versions supporting format 1 only require an update. See [integration](integration.md#json-only-variants).
+JSON contains display text, without unlock state, progress, icons or complete Binary KeyValues nodes. Format 2 is not a BIN replacement, stats or unlock data. Clients must support JSON-only catalog variants and format 2; SATLI lite requires version 0.2.0 or newer and remains compatible with format 1. See [integration](integration.md#json-only-variants).
 
 ### Generate a candidate
 

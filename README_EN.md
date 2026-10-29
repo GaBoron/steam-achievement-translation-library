@@ -24,7 +24,7 @@ A community-maintained repository of translated Steam achievement BIN files and 
 - **Contribute a translation:** Follow the [contribution guide](docs/CONTRIBUTING_EN.md) to [submit a new game](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_contribution_en.yml) or [update an accepted file](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_en.yml).
 - **Report a problem:** Use the [file issue report](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_en.yml) for an outdated or ineffective translation. Submit an update instead if you already have a replacement.
 
-For direct downloads, make sure the file name and app ID match. BIN/ZIP files are for SATLI installation or submissions; format 1 JSON works with existing SATLI lite. Standalone format 2 requires a client supporting it and cannot be installed as BIN. Renaming an extension does not convert between these formats. Use [SATLI](https://github.com/GaBoron/SATLI) for BIN installation, backup, and recovery to avoid replacing the wrong local file.
+For direct downloads, make sure the file name and app ID match. BIN/ZIP files are for SATLI installation or submissions; format 1 JSON works with SATLI lite 0.1.0 or newer, while standalone format 2 requires SATLI lite 0.2.0 or newer and cannot be installed as BIN. Renaming an extension does not convert between these formats. Use [SATLI](https://github.com/GaBoron/SATLI) for BIN installation, backup, and recovery to avoid replacing the wrong local file.
 
 ## 🧩 Developer Integration
 

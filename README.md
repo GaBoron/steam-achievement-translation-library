@@ -24,7 +24,7 @@
 - **贡献译本：** 按照 [贡献指南](docs/CONTRIBUTING.md) 提交 [新游戏](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_contribution_zh.yml)或 [更新已有文件](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=translation_update_zh.yml)。
 - **发现问题：** 使用 [文件错误报告](https://github.com/GaBoron/steam-achievement-translation-library/issues/new?template=outdated_report_zh.yml)标记过期或不生效的译本；有新版文件时请直接提交更新。
 
-直接下载文件时，请确认文件名和 app ID 一致。BIN/ZIP 供 SATLI 本体安装或投稿，格式 1 JSON 供现有 SATLI lite 使用，独立格式 2 JSON 需要支持新格式的客户端，不能安装为 BIN；它们不能仅通过修改扩展名互换。BIN 安装、备份与恢复建议交给 [SATLI](https://github.com/GaBoron/SATLI)，避免手工覆盖错误文件。
+直接下载文件时，请确认文件名和 app ID 一致。BIN/ZIP 供 SATLI 本体安装或投稿；格式 1 JSON 可由 SATLI lite 0.1.0 及更高版本读取，独立格式 2 JSON 需要 SATLI lite 0.2.0 或更高版本，不能安装为 BIN。它们不能仅通过修改扩展名互换。BIN 安装、备份与恢复建议交给 [SATLI](https://github.com/GaBoron/SATLI)，避免手工覆盖错误文件。
 
 ## 🧩 开发者接入
 

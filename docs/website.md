@@ -8,7 +8,7 @@
 
 `index-v2.json` 是唯一游戏目录来源。`workflow-scripts/build_website.py` 调用独立的 `website_build.py`，校验本地资源引用、Catalog 结构及各版本 BIN 的大小、SHA-256、语言和成就数，并将 JSON 与 BIN 派生内容逐字节比较。Windows checkout 产生的 JSON 换行会在构建输出中恢复为标准 LF，源文件不变。构建只复制网页资源、原始 Catalog 和其引用的 V2 BIN/JSON，不修改投稿或源数据。`site-meta.json` 记录构建提交，用于固定 GitHub 源文件链接。
 
-`web/compatibility.js` 集中维护客户端支持的文件格式与真实最低发布版本，每个译本行统一显示“客户端名 版本+”，未支持的客户端省略，没有已适配客户端时显示“暂无适配”。现有 BIN 使用 `SATLI 2.1.0+`（首次支持 Catalog V2），格式 1 JSON 使用 `SATLI lite 0.1.0+`（首次发布版本）。JSON-only 的客户端适配及最低版本登记由 [#925](https://github.com/GaBoron/steam-achievement-translation-library/issues/925) 跟进，不使用版本占位符。
+`web/compatibility.js` 集中维护客户端支持的文件格式与真实最低发布版本，每个译本行统一显示“客户端名 版本+”，未支持的客户端省略，没有已适配客户端时显示“暂无适配”。BIN 使用 `SATLI 2.1.0+`（首次支持 Catalog V2），格式 1 JSON 使用 `SATLI lite 0.1.0+`（首次发布版本），独立格式 2 JSON 使用 `SATLI lite 0.2.0+`。仅在兼容版本正式发布后登记，不使用版本占位符。
 
 `web/steam-covers.json` 保存 Steam 封面地址快照；`game-covers.js` 供列表和详情共用，兼容带哈希的图片路径。发布构建通过 `--refresh-covers` 批量刷新输出中的地址，Steam 不可用时保留快照，本地默认构建无需联网。图片加载失败时回退旧地址和占位图标。贡献者显示 GitHub 头像，加载失败时保留用户图标。
 
@@ -41,7 +41,7 @@ The [GitHub Pages website](https://gaboron.github.io/steam-achievement-translati
 
 `index-v2.json` is the only game catalog source. `workflow-scripts/build_website.py` calls the separate `website_build.py` module to validate local asset references, Catalog structure, and each BIN's size, SHA-256, languages, and achievement count. JSON is compared byte for byte against its BIN-derived content. JSON line endings expanded by Windows checkout are restored to canonical LF in the output, leaving source files unchanged. The build copies website assets, the original Catalog, and its referenced V2 BIN/JSON files, without modifying submissions or source data. `site-meta.json` records the build commit for pinned GitHub source links.
 
-`web/compatibility.js` maintains supported artifact formats and actual minimum released client versions. Every variant row shows “client version+” and omits unsupported clients; variants without a compatible client show “No compatible client yet.” BIN files require SATLI 2.1.0+, which introduced Catalog V2; format 1 JSON requires SATLI lite 0.1.0+, its first release. [#925](https://github.com/GaBoron/steam-achievement-translation-library/issues/925) tracks JSON-only client adaptation and its minimum versions. Do not use version placeholders.
+`web/compatibility.js` maintains supported artifact formats and actual minimum released client versions. Every variant row shows “client version+” and omits unsupported clients; variants without a compatible client show “No compatible client yet.” BIN files require SATLI 2.1.0+, which introduced Catalog V2; format 1 JSON requires SATLI lite 0.1.0+, its first release; standalone format 2 JSON requires SATLI lite 0.2.0+. Register a version only after its compatible client release is published. Do not use version placeholders.
 
 `web/steam-covers.json` bundles a snapshot of Steam cover URLs. `game-covers.js` serves both list and detail views, including hashed image paths. Deployment builds refresh the output URLs in batches with `--refresh-covers`, retaining the snapshot if Steam is unavailable; default local builds need no network access. Failed images fall back to the legacy URL and placeholder icon. Contributors display their GitHub avatars, with the user icon retained on image failure.
 

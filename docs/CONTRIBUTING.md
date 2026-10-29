@@ -9,7 +9,7 @@
 - 🖥️ [Steam 成就翻译管理器](https://github.com/GaBoron/SATLI)：适合本地可视化编辑，可直接导出标准 BIN 或投稿 ZIP。
 - 🤖 [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill)：适合研究、翻译和验证，成品位于项目的 `final/` 目录。
 
-可以直接投稿[格式 2 的独立 JSON](translation-json.md)，也可以继续使用 BIN ZIP。SATLI lite 等工具导出的格式 1 JSON 独立投稿时，将 `version` 改为 `2`，移除 `source_sha256`，核对 ID、语言和译文即可；来源说明可写入备注。现有 SATLI lite 只支持格式 1，格式 2 需要客户端同步支持。
+可以直接投稿[格式 2 的独立 JSON](translation-json.md)，也可以继续使用 BIN ZIP。SATLI lite 等工具导出的格式 1 JSON 独立投稿时，将 `version` 改为 `2`，移除 `source_sha256`，核对 ID、语言和译文即可；来源说明可写入备注。SATLI lite 从 0.2.0 起支持读取格式 2，并继续兼容格式 1。
 
 也可以使用其他编辑器，但提交前必须满足：
 

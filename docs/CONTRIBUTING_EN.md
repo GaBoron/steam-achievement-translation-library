@@ -9,7 +9,7 @@ These tools can produce files in the expected submission format:
 - 🖥️ [Steam Achievement Translation Manager](https://github.com/GaBoron/SATLI): a visual local editor that exports standard BIN files and submission ZIP files.
 - 🤖 [Steam Achievement Localizer Skill](https://github.com/GaBoron/steam-achievement-localizer-skill): researches, translates, and validates files; completed files are written to the project's `final/` directory.
 
-Submit [standalone format 2 JSON](translation-json.md#english) directly, or continue using BIN ZIPs. To submit format 1 JSON exported by tools such as SATLI lite independently, set `version` to `2`, remove `source_sha256`, and check IDs, languages and translations. Put source references in the notes. Existing SATLI lite supports format 1 only; format 2 requires updated client support.
+Submit [standalone format 2 JSON](translation-json.md#english) directly, or continue using BIN ZIPs. To submit format 1 JSON exported by tools such as SATLI lite independently, set `version` to `2`, remove `source_sha256`, and check IDs, languages and translations. Put source references in the notes. SATLI lite 0.2.0 and newer support format 2 and remain compatible with format 1.
 
 Other editors are also supported, but every submission must meet these requirements:
 
