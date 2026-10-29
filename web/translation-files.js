@@ -2,6 +2,7 @@ import { el, icon, externalLink, repository } from './elements.js';
 import { t, formatSize, variantLabel } from './i18n.js';
 import { displayLanguages } from './languages.js';
 import { bindDisclosure } from './motion.js';
+import { compatibleClients } from './compatibility.js';
 
 export function createPrimaryDownload({ game, locale, variantId }) {
   const node = el('a', { className: 'button filled' });
@@ -35,6 +36,7 @@ export function createTranslationFiles({ game, locale, revision }) {
   if (game.variants.length) root.append(columns);
   for (const variant of game.variants) {
     const languages = displayLanguages(variant.languages, locale);
+    const clients = compatibleClients(variant);
     const description = variant.description?.[locale];
     const downloads = el('div', { className: 'variant-downloads' });
     for (const [format, path, key] of [['bin', variant.binPath, 'binDownload'], ['json', variant.jsonPath, 'jsonDownload']]) {
@@ -49,7 +51,6 @@ export function createTranslationFiles({ game, locale, revision }) {
     fact(t(locale, 'variantId'), el('code', {}, variant.id));
     fact(t(locale, 'languages'), languages.join(', ') || t(locale, 'noLanguages'));
     if (variant.binPath) fact(t(locale, 'binSize'), formatSize(variant.size, locale));
-    else fact(t(locale, 'compatibility'), t(locale, 'jsonOnlyNote'));
     if (variant.jsonPath) {
       fact(t(locale, 'jsonSize'), formatSize(variant.jsonSize, locale));
       fact(t(locale, 'jsonVersion'), variant.jsonVersion ?? t(locale, 'unknown'));
@@ -68,9 +69,10 @@ export function createTranslationFiles({ game, locale, revision }) {
       el('div', { className: 'variant-identity' }, el('span', { className: 'variant-icon' }, icon('layers')),
         el('div', { className: 'variant-text' }, el('h3', {}, variantLabel(variant, locale)),
           description && el('p', { className: 'variant-description' }, description),
-          !variant.binPath && el('p', { className: 'variant-description' }, t(locale, 'jsonOnlyNote')),
           el('p', { className: 'variant-meta' },
-            t(locale, 'achievements', { count: variant.count ?? t(locale, 'unknown') }), ' · ', formatSize(variant.binPath ? variant.size : variant.jsonSize, locale)))),
+            t(locale, 'achievements', { count: variant.count ?? t(locale, 'unknown') }), ' · ', formatSize(variant.binPath ? variant.size : variant.jsonSize, locale)),
+          el('dl', { className: 'variant-compatibility' }, el('dt', {}, t(locale, 'compatibility')),
+            el('dd', {}, clients.length ? clients.map(client => el('span', {}, client)) : '—')))),
       el('div', { className: 'variant-languages', title: languages.join(', '), 'aria-label': languages.join(', ') },
         languages.length ? languages.slice(0, 3).map(name => el('span', {}, name)) : t(locale, 'noLanguages'),
         languages.length > 3 && el('span', {}, `+${languages.length - 3}`)),
@@ -78,8 +80,8 @@ export function createTranslationFiles({ game, locale, revision }) {
       el('details', { className: 'file-details' }, el('summary', {}, t(locale, 'fileDetails')), facts)));
   }
   if (!game.variants.length) root.append(el('p', { className: 'panel muted' }, t(locale, 'noVariants')));
-  root.append(el('p', { className: 'usage-note panel' }, icon('info'), el('span', {}, t(locale, 'usageNote'), ' ',
-    el('a', { href: `${repository}/blob/main/README${locale === 'en' ? '_EN' : ''}.md`, target: '_blank', rel: 'noopener noreferrer' }, t(locale, 'usageGuide')))));
+  root.append(el('p', { className: 'usage-note panel' }, icon('info'),
+    el('a', { href: `${repository}/blob/main/README${locale === 'en' ? '_EN' : ''}.md`, target: '_blank', rel: 'noopener noreferrer' }, t(locale, 'usageGuide'))));
   const disclosures = [...root.querySelectorAll('details')].map(bindDisclosure);
   return { node: root, dispose() { disclosures.forEach(dispose => dispose()); } };
 }
