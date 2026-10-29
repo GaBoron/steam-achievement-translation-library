@@ -1,4 +1,4 @@
-"""Recycle exact obsolete variant files; never fall back to permanent deletion."""
+"""Clean disposable workflow data and recycle obsolete local repository files."""
 from __future__ import annotations
 
 import os
@@ -12,22 +12,31 @@ from pathlib import Path
 
 @contextmanager
 def temporary_directory():
-    """Recycle disposable work, retaining the exact directory if Trash is unavailable."""
-    path = Path(tempfile.mkdtemp(prefix="translation-library-"))
+    """Clean owned temporary work without depending on a desktop Trash backend."""
+    temporary = tempfile.TemporaryDirectory(prefix="translation-library-", ignore_cleanup_errors=True)
+    path = Path(temporary.name)
     try:
         yield path
     finally:
         try:
-            recycle_path(path, boundary=path.parent)
-        except (OSError, ValueError, RuntimeError) as exc:
-            warnings.warn(str(exc), RuntimeWarning)
+            temporary.cleanup()
+        except OSError as exc:
+            warnings.warn(f"Could not clean temporary directory {path}: {exc}", RuntimeWarning)
 
 
 def recycle_path(path: Path, *, boundary: Path) -> None:
+    """Remove exact workflow files in Actions; require Trash for local repository files."""
     target = path.resolve(strict=True)
     root = boundary.resolve(strict=True)
     if target == root or not target.is_relative_to(root) or path.is_symlink():
         raise ValueError(f"Refusing to recycle target outside its variant boundary: {path}")
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        # The Actions checkout is disposable and reviewed files remain in Git.
+        # Never recursively remove repository directories or follow file symlinks.
+        if not target.is_file():
+            raise ValueError(f"Workflow cleanup requires a regular file: {path}")
+        target.unlink()
+        return
     if os.name == "nt":
         try:
             import pythoncom
@@ -55,7 +64,11 @@ def recycle_path(path: Path, *, boundary: Path) -> None:
         return
     gio = shutil.which("gio")
     if gio:
-        subprocess.run([gio, "trash", "--", str(target)], check=True, capture_output=True)
+        try:
+            subprocess.run([gio, "trash", "--", str(target)], check=True, capture_output=True, text=True)
+        except subprocess.CalledProcessError as exc:
+            detail = (exc.stderr or exc.stdout or str(exc)).strip()
+            raise RuntimeError(f"Could not move to Trash; file left in place: {target}: {detail}") from exc
         if not target.exists():
             return
     raise RuntimeError(f"Trash unavailable; obsolete file left in place: {target}")
