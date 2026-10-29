@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import re
+import warnings
 import zipfile
 from dataclasses import dataclass, field
 from pathlib import Path, PurePosixPath
@@ -236,9 +237,10 @@ def _write_bytes_atomic(path: Path, data: bytes) -> None:
         temporary.write_bytes(data)
         temporary.replace(path)
     finally:
-        if temporary.exists():
-            from recycle_bin import recycle_path
-            recycle_path(temporary, boundary=path.parent)
+        try:
+            temporary.unlink(missing_ok=True)
+        except OSError as exc:
+            warnings.warn(f"Could not clean temporary file {temporary}: {exc}", RuntimeWarning)
 
 
 def _remove_obsolete_variant_files(existing_records: list[dict[str, Any]], keep_files: set[str], game_id: str) -> None:
