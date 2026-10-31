@@ -1,0 +1,5212 @@
+{
+  "version": 1,
+  "app_id": "325610",
+  "variant_id": "default",
+  "source_sha256": "551c28e9327fada2f7ee7bc1934b1eebf0e3b821bd544ecbe6b06874feb65808",
+  "languages": [
+    "czech",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "polish",
+    "russian",
+    "schinese",
+    "spanish",
+    "turkish"
+  ],
+  "achievements": {
+    "ACHIEVEMENT_ATT_10000_FUNDS_EMBEZZLED": {
+      "translations": {
+        "czech": {
+          "name": "Hluboko do kapsy...",
+          "description": "Zpronevěř 10 000."
+        },
+        "english": {
+          "name": "Resting In My Account...",
+          "description": "Embezzle 10000 in funds."
+        },
+        "french": {
+          "name": "Solde en votre faveur...",
+          "description": "Détournez 10 000 de fonds."
+        },
+        "german": {
+          "name": "Auf meinem Konto...",
+          "description": "Veruntreut Gelder im Wert von 10.000."
+        },
+        "italian": {
+          "name": "Qui nelle mie tasche...",
+          "description": "Appropriati di una somma pari a 10 000."
+        },
+        "polish": {
+          "name": "Spoczywajcie na koncie...",
+          "description": "Zdefrauduj fundusze wysokości 10 000."
+        },
+        "russian": {
+          "name": "Прощай, казна",
+          "description": "Совершите хищение 10 000 монет."
+        },
+        "schinese": {
+          "name": "暂存在我账户里……",
+          "description": "侵吞 10000 资金。"
+        },
+        "spanish": {
+          "name": "¿Corrupto yo?",
+          "description": "Malversa 10.000 en fondos."
+        },
+        "turkish": {
+          "name": "Hesabım Sağlam...",
+          "description": "Zimnetinize 10.000 sermaye geçirin."
+        }
+      }
+    },
+    "ACHIEVEMENT_PSYCHOPATH": {
+      "translations": {
+        "czech": {
+          "name": "Tohle je totální válka!",
+          "description": "Vyhraj hru, ve které vyhlásíš válku každé frakci v tom samém tahu, kdy ji potkáš, a s nikým neuzavřeš mírovou dohodu."
+        },
+        "english": {
+          "name": "This is Total War!",
+          "description": "Win the game having declared war on every faction the turn you encountered them, as well as never negotiating a peace treaty."
+        },
+        "french": {
+          "name": "Ceci est Total War !",
+          "description": "Remportez la partie en déclarant la guerre à chaque faction dès que vous les rencontrez, ainsi qu'en ne négociant aucun traité de paix."
+        },
+        "german": {
+          "name": "Das ist Total War!",
+          "description": "Gewinnt das Spiel, indem Ihr jeder Fraktion in der Runde, in der Ihr dieser begegnet, den Krieg erklärt und kein Friedensabkommen schließt."
+        },
+        "italian": {
+          "name": "Questo è Total war!",
+          "description": "Vinci la partita dopo aver dichiarato guerra a ogni fazione nel turno in cui le incontri e senza aver mai negoziato un trattato di pace."
+        },
+        "polish": {
+          "name": "Wojna totalna!",
+          "description": "Wygraj grę, wypowiadając wojnę każdej frakcji w turze, w której ją spotkasz, i nie prowadząc negocjacji pokojowych."
+        },
+        "russian": {
+          "name": "Это Total War!",
+          "description": "Одержите победу в игре, объявив войну каждой фракции на том же ходу, на каком встретились с ней, и ни разу не вступая в мирные переговоры."
+        },
+        "schinese": {
+          "name": "这就是全面战争！",
+          "description": "在首次接触每个派系的当回合就对其宣战，并且从未缔结和约，最终赢得战役。"
+        },
+        "spanish": {
+          "name": "¡Esto es Total War!",
+          "description": "Gana la partida habiendo declarado la guerra a cada facción en el mismo turno en que entraste en contacto con ellos, además de no haber negociado un solo tratado de paz."
+        },
+        "turkish": {
+          "name": "Burası Total War!",
+          "description": "Savaş açmış bulunduğunuz her ulusu, onlara saldırdığınız turda, hiç barış antlaşması yapmadan yenin."
+        }
+      }
+    },
+    "ACHIEVEMENT_KILL_10000_MEN_IN_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Krvežíznivost",
+          "description": "Zabij 10 000 nepřátel v boji."
+        },
+        "english": {
+          "name": "Bloodthirsty",
+          "description": "Kill 10,000 enemy in battles"
+        },
+        "french": {
+          "name": "Assoiffé de sang",
+          "description": "Tuez 10 000 hommes au combat."
+        },
+        "german": {
+          "name": "Blutrünstig",
+          "description": "Tötet 10.000 Männer im Kampf."
+        },
+        "italian": {
+          "name": "Sanguinario",
+          "description": "Uccidi 10 000 uomini in battaglia."
+        },
+        "polish": {
+          "name": "Żądza krwi",
+          "description": "Zabij w boju 10 tysięcy żołnierzy."
+        },
+        "russian": {
+          "name": "Кровожадный зверь",
+          "description": "Убейте в битвах 10 000 воинов."
+        },
+        "schinese": {
+          "name": "嗜血成性",
+          "description": "在战斗中杀死 10000 名敌军。"
+        },
+        "spanish": {
+          "name": "Sed de sangre",
+          "description": "Mata a 10.000 hombres en batallas."
+        },
+        "turkish": {
+          "name": "Kana susamış",
+          "description": "Muharebede 10.000 düşman öldürün"
+        }
+      }
+    },
+    "ACHIEVEMENT_KILL_100000_MEN_IN_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Řezník",
+          "description": "Zabij 100 000 nepřátel v boji."
+        },
+        "english": {
+          "name": "Butcher",
+          "description": "Kill 100,000 enemy in battles"
+        },
+        "french": {
+          "name": "Boucher",
+          "description": "Tuez 100 000 hommes au combat."
+        },
+        "german": {
+          "name": "Schlächter",
+          "description": "Tötet 100.000 Männer im Kampf."
+        },
+        "italian": {
+          "name": "Macellaio",
+          "description": "Uccidi 100 000 uomini in battaglia."
+        },
+        "polish": {
+          "name": "Rzeźnik",
+          "description": "Zabij w boju 100 tysięcy żołnierzy."
+        },
+        "russian": {
+          "name": "Мясник",
+          "description": "Убейте в битвах 100 000 воинов."
+        },
+        "schinese": {
+          "name": "屠夫",
+          "description": "在战斗中杀死 100000 名敌军。"
+        },
+        "spanish": {
+          "name": "Carnicero",
+          "description": "Mata a 100.000 hombres en batallas."
+        },
+        "turkish": {
+          "name": "Kasap",
+          "description": "Muharebede 100.000 düşman öldürün"
+        }
+      }
+    },
+    "ACHIEVEMENT_KILL_1000000_MEN_IN_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Krví zbrocený",
+          "description": "Zabij 1 000 000 nepřátel v boji."
+        },
+        "english": {
+          "name": "Gore-drenched",
+          "description": "Kill 1,000,000 enemy in battles"
+        },
+        "french": {
+          "name": "Gros carnage",
+          "description": "Tuez 1 000 000 hommes au combat."
+        },
+        "german": {
+          "name": "Blutdurchtränkt",
+          "description": "Tötet 1.000.000 Männer im Kampf."
+        },
+        "italian": {
+          "name": "Eccessivamente sanguinario",
+          "description": "Uccidi 1 000 000 di uomini in battaglia."
+        },
+        "polish": {
+          "name": "Morze krwi",
+          "description": "Zabij w boju milion żołnierzy."
+        },
+        "russian": {
+          "name": "По колено в крови",
+          "description": "Убейте в битвах 1 000 000 воинов."
+        },
+        "schinese": {
+          "name": "浴血之身",
+          "description": "在战斗中杀死 1000000 名敌军。"
+        },
+        "spanish": {
+          "name": "Empapado de sangre",
+          "description": "Mata a 1.000.000 de hombres en batallas."
+        },
+        "turkish": {
+          "name": "Boynuzla ıslatılmış",
+          "description": "Muharebede 1.000.000 düşman öldürün"
+        }
+      }
+    },
+    "ACHIEVEMENT_COMPLETE_AN_ENTIRE_CAMPAIGN_WINNING_EVERY_BATTLE_WITHOUT_AUTORESOLVE": {
+      "translations": {
+        "czech": {
+          "name": "Veni, Vedi, Vici!",
+          "description": "Dokonči celou kampaň s tím, že odehraješ a vyhraješ každou bitvu!"
+        },
+        "english": {
+          "name": "Veni, Vedi, Vici!",
+          "description": "Complete an entire campaign, by playing and winning every battle"
+        },
+        "french": {
+          "name": "À l'ancienne !",
+          "description": "Terminez une campagne entière en remportant toutes les batailles sans résolution automatique."
+        },
+        "german": {
+          "name": "Veni, Vidi, Vici!",
+          "description": "Schließt eine gesamte Kampagne ab, bei der Ihr jedes Gefecht gewinnt und keine automatischen Gefechte ausführt."
+        },
+        "italian": {
+          "name": "Veni, vedi, vici!",
+          "description": "Completa un’intera campagna, vincendo tutte le battaglie, senza usare la risoluzione automatica."
+        },
+        "polish": {
+          "name": "Veni, Vidi, Vici!",
+          "description": "Ukończ główną kampanię, wygrywając wszystkie bitwy."
+        },
+        "russian": {
+          "name": "Пришел, увидел, победил!",
+          "description": "Пройдите кампанию, приняв участие во всех битвах и выиграв их."
+        },
+        "schinese": {
+          "name": "我来，我见，我征服！",
+          "description": "完成一整场战役，所有战斗均亲自指挥并获胜，不使用自动结算。"
+        },
+        "spanish": {
+          "name": "Veni, vidi, vici",
+          "description": "Completa una campaña ganando cada batalla sin usar la resolución automática."
+        },
+        "turkish": {
+          "name": "Veni, Vedi, Vici!",
+          "description": "Her muharebeyi oynayarak ve kazanarak bütün bir seferi tamamlayın"
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_ATTILA_THE_HUN_BORN": {
+      "translations": {
+        "czech": {
+          "name": "Zrodil se Bič boží",
+          "description": "Doveď svůj národ do narození Huna Attily."
+        },
+        "english": {
+          "name": "A Scourge is Born",
+          "description": "Ensure your faction survives until Attila the Hun is born."
+        },
+        "french": {
+          "name": "Un fléau est né",
+          "description": "Faites en sorte que votre faction survive jusqu'à la naissance d'Attila."
+        },
+        "german": {
+          "name": "Die Geburt einer Geißel",
+          "description": "Sichert das Überleben Eurer Fraktion bis zur Geburt von Attila dem Hunnen."
+        },
+        "italian": {
+          "name": "È nato un flagello",
+          "description": "Fai in modo che la tua fazione sopravviva fino alla nascita di Attila."
+        },
+        "polish": {
+          "name": "Zrodził się Bicz Boży",
+          "description": "Spraw, żeby twoja frakcja przetrwała do narodzin Huna Attyli."
+        },
+        "russian": {
+          "name": "Бич Божий",
+          "description": "Проследите, чтобы ваша фракция просуществовала до рождения гунна Аттилы."
+        },
+        "schinese": {
+          "name": "天灾降生",
+          "description": "让你的派系存活到匈人阿提拉出生。"
+        },
+        "spanish": {
+          "name": "El azote de la civilización",
+          "description": "Consigue que tu facción sobreviva hasta el nacimiento de Atila el Huno."
+        },
+        "turkish": {
+          "name": "Bir Kırbaç Doğdu",
+          "description": "Hun Attila doğana kadar ulusunuzun ayakta kalmasını sağlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_FAMILY_MEMBER_ASSIGNED_TO_POST": {
+      "translations": {
+        "czech": {
+          "name": "Společenský šplhoun",
+          "description": "Zajisti povýšení členovi své rodiny."
+        },
+        "english": {
+          "name": "Social Climber",
+          "description": "Arrange a promotion for a member of your family."
+        },
+        "french": {
+          "name": "Veut gravir l'échelle sociale",
+          "description": "Faites en sorte qu'un membre de votre famille obtienne une fonction."
+        },
+        "german": {
+          "name": "Sozialer Aufsteiger",
+          "description": "Arrangiert die Beförderung eines Familienmitgliedes in ein Amt."
+        },
+        "italian": {
+          "name": "Arrivista",
+          "description": "Dai un incarico pubblico ad un membro della tua famiglia."
+        },
+        "polish": {
+          "name": "Parweniusz",
+          "description": "Zapewnij wyższą  pozycję społeczną członkowi rodziny."
+        },
+        "russian": {
+          "name": "Социальный верхолаз",
+          "description": "Организуйте продвижение по службе члену своей семьи."
+        },
+        "schinese": {
+          "name": "步步高升",
+          "description": "为一名家族成员安排晋升。"
+        },
+        "spanish": {
+          "name": "Trepa",
+          "description": "Consigue una promoción a un cargo para un miembro de tu familia."
+        },
+        "turkish": {
+          "name": "İkbal Düşkünü",
+          "description": "Aile üyelerinizden birini bir makama terfi ettirin."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_FOUGHT_BATTLE_KILLED_EVERYONE_AND_KILLED_CAPTIVES": {
+      "translations": {
+        "czech": {
+          "name": "Zajatce nebereme",
+          "description": "Znič celou nepřátelskou armádu, všechny její muže zabij a neber žádné zajatce."
+        },
+        "english": {
+          "name": "Take No Prisoners",
+          "description": "Destroy an entire enemy army, killing everyone and taking no prisoners."
+        },
+        "french": {
+          "name": "Pas de prisonniers",
+          "description": "Détruisez une armée entière en tuant tout le monde et en ne faisant aucun prisonnier."
+        },
+        "german": {
+          "name": "Keine Gefangenen",
+          "description": "Zerstört eine feindliche Armee komplett, tötet jeden und nehmt keine Gefangenen."
+        },
+        "italian": {
+          "name": "Non fate prigionieri",
+          "description": "Distruggi un intero esercito nemico, uccidendo tutti e non facendo prigionieri."
+        },
+        "polish": {
+          "name": "Nie brać jeńców",
+          "description": "Zniszcz całą armię wroga, zabijając wszystkich i nie biorąc żadnych jeńców."
+        },
+        "russian": {
+          "name": "Пленных не брать",
+          "description": "Уничтожьте целую армию противника, убив всех воинов и не взяв ни одного пленного."
+        },
+        "schinese": {
+          "name": "不留俘虏",
+          "description": "彻底消灭一支敌军，杀死所有人，不留任何俘虏。"
+        },
+        "spanish": {
+          "name": "Los quiero muertos",
+          "description": "Destruye a todo un ejército enemigo, matando a todos y sin tomar prisioneros."
+        },
+        "turkish": {
+          "name": "Tutsak Yok",
+          "description": "Bir düşman ordusunu, herkesi öldürerek ve esir almayarak yok edin."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_RESEARCHED_EVERY_TECH_AS_WESTERN_ROMAN_EMPIRE": {
+      "translations": {
+        "czech": {
+          "name": "Scholae Romanes",
+          "description": "Vyzkoumej všechny technologie Západořímské říše."
+        },
+        "english": {
+          "name": "Scholae Romanes",
+          "description": "Research all technologies available to the Western Roman Empire."
+        },
+        "french": {
+          "name": "Scholae romanes",
+          "description": "Recherchez toutes les technologies disponibles dans l'empire romain d'occident."
+        },
+        "german": {
+          "name": "Scholae Romanes",
+          "description": "Erforscht alle Technologien, die dem Weströmischen Reich zur Verfügung stehen."
+        },
+        "italian": {
+          "name": "Scholae romanes",
+          "description": "Ricerca tutte le tecnologie disponibili all’Impero romano d’occidente."
+        },
+        "polish": {
+          "name": "Scholae Romanes",
+          "description": "Opracuj wszystkie technologie dostępne cesarstwu zachodniorzymskiemu."
+        },
+        "russian": {
+          "name": "Римские штудии",
+          "description": "Исследуйте все технологии, доступные Западной Римской империи."
+        },
+        "schinese": {
+          "name": "罗马学派",
+          "description": "研究西罗马帝国的全部科技。"
+        },
+        "spanish": {
+          "name": "Erudito de Occidente",
+          "description": "Investiga todas las tecnologías disponibles del Imperio romano de Occidente."
+        },
+        "turkish": {
+          "name": "Scholae Romanes",
+          "description": "Batı Roma İmparatorluğu'na açık olan tüm teknolojileri araştırın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_ARRANGE_20_MARRIAGES": {
+      "translations": {
+        "czech": {
+          "name": "Amorův šíp",
+          "description": "Dojednej 20 sňatků."
+        },
+        "english": {
+          "name": "Cupid's Arrow",
+          "description": "Arrange 20 Marriages"
+        },
+        "french": {
+          "name": "La flèche de Cupidon",
+          "description": "Arrangez 20 mariages diplomatiques."
+        },
+        "german": {
+          "name": "Amors Pfeil",
+          "description": "Arrangiert 20 diplomatische Hochzeiten."
+        },
+        "italian": {
+          "name": "La freccia di Cupido",
+          "description": "Combina 20 matrimoni diplomatici."
+        },
+        "polish": {
+          "name": "Strzała Kupidyna",
+          "description": "Zaaranżuj 20 małżeństw."
+        },
+        "russian": {
+          "name": "Стрела Купидона",
+          "description": "Заключите 20 браков."
+        },
+        "schinese": {
+          "name": "丘比特之箭",
+          "description": "安排 20 场婚姻。"
+        },
+        "spanish": {
+          "name": "Cupido y el amor",
+          "description": "Consigue realizar 20 enlaces matrimoniales diplomáticos."
+        },
+        "turkish": {
+          "name": "Aşk Oku",
+          "description": "20 evlilik ayarlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_MAX_LEVEL_AGENTS_OF_ALL_TYPES": {
+      "translations": {
+        "czech": {
+          "name": "Plášť a dýka",
+          "description": "Disponuj 1 agentem od každého typu (kněz, zvěd a veterán) na nejvyšší úrovni, a to zároveň."
+        },
+        "english": {
+          "name": "Cloak & Dagger",
+          "description": "Ensure 1 of each agent type (priest, spy and veteran) attains the highest level at the same time."
+        },
+        "french": {
+          "name": "Sous cape",
+          "description": "Faites en sorte qu'un agent de chaque catégorie (prêtre, espion et vétéran) atteignent le plus haut niveau en même temps."
+        },
+        "german": {
+          "name": "Mantel & Dolch",
+          "description": "Erreicht mit jeweils 1 Priester, Spion und Veteranen gleichzeitig die höchste Stufe."
+        },
+        "italian": {
+          "name": "Primo della classe",
+          "description": "Fai in modo che un agente di ogni tipo (sacerdote, spia e veterano) raggiunga il massimo livello nello stesso momento."
+        },
+        "polish": {
+          "name": "Sekretny i zagadkowy",
+          "description": "Spraw, żeby jednocześnie choć 1 agent każdego rodzaju (kapłan, szpieg i weteran) miał najwyższy poziom."
+        },
+        "russian": {
+          "name": "Плащ и кинжал",
+          "description": "Добейтесь, чтобы вам одновременно служило по 1 агенту максимального уровня каждого типа (жрец, соглядатай и ветеран)."
+        },
+        "schinese": {
+          "name": "斗篷与匕首",
+          "description": "同时拥有各一名达到最高等级的祭司、间谍和老兵。"
+        },
+        "spanish": {
+          "name": "Capa y daga",
+          "description": "Consigue que 1 de cada tipo de agente —sacerdote, espía y veterano— alcance el máximo nivel al mismo tiempo."
+        },
+        "turkish": {
+          "name": "Gizli Kapaklı",
+          "description": "Her mümessil türünden birinin (rahip, casus ve kıdemli) aynı anda en üst seviyeye erişmesini sağlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_CAMPAIGN_FIELDING_AN_ARMY_THAT_EXISTED_FROM_START_WITHOUT_REINSTATEMENT_UNDEFEATED": {
+      "translations": {
+        "czech": {
+          "name": "Mazáci",
+          "description": "Dokonči velkou kampaň s armádou nebo flotilou, která od začátku neutrpí žádnou porážku."
+        },
+        "english": {
+          "name": "Grizzled Veterans",
+          "description": "Complete the Grand Campaign whilst fielding an army or fleet undefeated since the start."
+        },
+        "french": {
+          "name": "Vétérans grisonnants",
+          "description": "Remportez la grande campagne en déployant une armée ou une flotte qui n'a perdu aucune bataille."
+        },
+        "german": {
+          "name": "Harte Veteranen",
+          "description": "Schließt die Große Kampagne unter Einsatz einer Armee oder Flotte ab, die seit Beginn ungeschlagen ist."
+        },
+        "italian": {
+          "name": "Veterani brizzolati",
+          "description": "Completa la Campagna imperiale schierando un esercito o una flotta del tutto imbattuti sin dall’inizio."
+        },
+        "polish": {
+          "name": "Sędziwi weterani",
+          "description": "Ukończ główną kampanię, wystawiając armię lub flotę, która nie poniosła klęski od początku gry."
+        },
+        "russian": {
+          "name": "Седые ветераны",
+          "description": "Завершите Большую кампанию с армией или флотом, не потерпевшим ни одного поражения."
+        },
+        "schinese": {
+          "name": "百战老兵",
+          "description": "完成大战役，并保有一支自开局以来从未战败的陆军或舰队。"
+        },
+        "spanish": {
+          "name": "Veteranos con canas",
+          "description": "Completa la gran campaña habiendo desplegado una flota o un ejército que no haya sido vencido desde el comienzo."
+        },
+        "turkish": {
+          "name": "Saçlarına Ak Düşmüş Kıdemli",
+          "description": "Büyük Sefer'i, bir orduyu ya da filoyu hiç başarısızlığa uğratmadan tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_SACK_10_SETTLEMENTS_AS_THE_HUNS": {
+      "translations": {
+        "czech": {
+          "name": "Hoří, má panenko",
+          "description": "Vypleň 10 osad v roli Hunů."
+        },
+        "english": {
+          "name": "Burn Baby Burn",
+          "description": "Sack 10 Settlements as The Huns."
+        },
+        "french": {
+          "name": "Allumez le feu !",
+          "description": "Mettez à sac 10 colonies avec les Huns."
+        },
+        "german": {
+          "name": "Brennendes Verlangen",
+          "description": "Raubt als Hunnen 10 Siedlungen aus."
+        },
+        "italian": {
+          "name": "Bruciate tutti!",
+          "description": "Razzia 10 insediamenti con gli Unni."
+        },
+        "polish": {
+          "name": "Płoń, dziecino, płoń!",
+          "description": "Splądruj 10 osad, grając Hunami."
+        },
+        "russian": {
+          "name": "Гори, детка, гори",
+          "description": "Играя за гуннов, разграбьте 10 поселений. "
+        },
+        "schinese": {
+          "name": "烧吧，宝贝，烧吧",
+          "description": "使用匈人劫掠 10 座城镇。"
+        },
+        "spanish": {
+          "name": "¡Arded, perros, arded!",
+          "description": "Saquea 10 asentamientos jugando con los hunos."
+        },
+        "turkish": {
+          "name": "Yansın Dünya",
+          "description": "Hunlar olarak 10 yerleşim yerini talan edin."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_AS_VANDALS_SACK_ROME": {
+      "translations": {
+        "czech": {
+          "name": "Setnutí hada",
+          "description": "Za Vandaly vypleň Řím."
+        },
+        "english": {
+          "name": "Beheading the Snake",
+          "description": "As the Vandals, sack the city of Roma."
+        },
+        "french": {
+          "name": "Décapiter le serpent",
+          "description": "Vous êtes les Vandales et devez mettre à sac la cité de Rome."
+        },
+        "german": {
+          "name": "Die Schlange köpfen",
+          "description": "Plündert als Vandalen die Stadt Roma."
+        },
+        "italian": {
+          "name": "Il sogno di sempre",
+          "description": "Con i Vandali, saccheggia la città di Roma."
+        },
+        "polish": {
+          "name": "Ukrócenie węża o głowę",
+          "description": "Splądruj Rzym, grając Wandalami."
+        },
+        "russian": {
+          "name": "Обезглавить змею",
+          "description": "Играя за вандалов, разорите город Рим."
+        },
+        "schinese": {
+          "name": "斩断蛇首",
+          "description": "使用汪达尔人劫掠罗马城。"
+        },
+        "spanish": {
+          "name": "Matar a la serpiente",
+          "description": "Con los vándalos, saquea la ciudad de Roma."
+        },
+        "turkish": {
+          "name": "Ez Yılanın Başını",
+          "description": "Vandallar olarak oynarken  Roma şehrini talan edin."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_BATTLE_WON_10_TO_1_BALANCE_OF_POWER": {
+      "translations": {
+        "czech": {
+          "name": "Proti všem",
+          "description": "Vybojuj v kampani vítěznou bitvu, ve které tě nepřítel přečíslí v poměru 10 ku 1."
+        },
+        "english": {
+          "name": "Against All Odds",
+          "description": "Win a campaign battle in which you are outnumbered 10-to-1."
+        },
+        "french": {
+          "name": "Contre toute attente",
+          "description": "Gagnez une bataille de la campagne dans laquelle vous êtes en sous-nombre à une échelle d'un contre dix."
+        },
+        "german": {
+          "name": "Allen Widrigkeiten zum Trotz",
+          "description": "Gewinnt ein Kampagnengefecht, bei dem Ihr 10 zu 1 unterlegen seid."
+        },
+        "italian": {
+          "name": "Contro tutte le probabilità",
+          "description": "Nella campagna, vinci una battaglia in cui il nemico è 10 volte più numeroso di te."
+        },
+        "polish": {
+          "name": "Na przekór wszystkiemu",
+          "description": "Wyjdź zwycięsko z bitwy w trakcie kampanii, w której przewaga liczebna wroga wynosi 10 do 1."
+        },
+        "russian": {
+          "name": "Вопреки всему",
+          "description": "В режиме кампании выиграйте битву с противником, превосходящим вас в 10 раз."
+        },
+        "schinese": {
+          "name": "以一当十",
+          "description": "在战役中赢得一场敌军兵力为己方 10 倍的战斗。"
+        },
+        "spanish": {
+          "name": "Contra todo pronóstico",
+          "description": "Gana una batalla de campaña en la que tus tropas se vean superadas 10 a 1."
+        },
+        "turkish": {
+          "name": "Her Şeye Rağmen",
+          "description": "10 katı az askeriniz varken bir sefer savaşını kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CHANGED_STATE_RELIGION_OTHER": {
+      "translations": {
+        "czech": {
+          "name": "Ať je po jejich",
+          "description": "Změň státní náboženství své frakce na jedno z menších náboženství."
+        },
+        "english": {
+          "name": "The Other Way",
+          "description": "Change your faction's state religion to minor religions."
+        },
+        "french": {
+          "name": "Mauvaise foi",
+          "description": "Changez la religion d'état de votre faction en « religion mineure »."
+        },
+        "german": {
+          "name": "Ein anderer Weg",
+          "description": "Ändert die Staatsreligion Eurer Fraktion auf ‚Kleinere Religionen'."
+        },
+        "italian": {
+          "name": "Cose dell’altro mondo",
+          "description": "Cambia la religione di stato della tua fazione in Religioni minori."
+        },
+        "polish": {
+          "name": "Inna droga",
+          "description": "Zmień religię państwową w swojej frakcji na pomniejsze religie."
+        },
+        "russian": {
+          "name": "Другой путь",
+          "description": "Смените государственную религию своей фракции на одну из второстепенных религий."
+        },
+        "schinese": {
+          "name": "另辟信仰",
+          "description": "将派系的国教改为一种小众宗教。"
+        },
+        "spanish": {
+          "name": "Un nuevo camino",
+          "description": "Cambia la religión del estado a una de las menores."
+        },
+        "turkish": {
+          "name": "Başka Bir Yol",
+          "description": "Ulusunuzun devlet dinini 'küçük dinler' olarak değiştirin."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_AS_HUNS_RECEIVE_2000_STATE_GIFT_FROM_ROMANS": {
+      "translations": {
+        "czech": {
+          "name": "Tributa",
+          "description": "Za Huny se nech od Římanů obdarovat 2.000 talentů."
+        },
+        "english": {
+          "name": "Tribute",
+          "description": "As the Huns, obtain a state gift of 2,000 from the Romans."
+        },
+        "french": {
+          "name": "Tribut",
+          "description": "Vous êtes les Huns et recevez un cadeau diplomatique de 2000 de la part des Romains."
+        },
+        "german": {
+          "name": "Tribut",
+          "description": "Erhaltet als Hunnen ein Staatsgeschenk in Höhe von 2.000 von den Römern."
+        },
+        "italian": {
+          "name": "Tributo",
+          "description": "Con gli Unni, ottieni un regalo di stato di 2000 dai Romani."
+        },
+        "polish": {
+          "name": "Trybut",
+          "description": "Uzyskaj od Rzymian podarunek wysokości 2000, grając Hunami."
+        },
+        "russian": {
+          "name": "Дань",
+          "description": "Играя за гуннов, получите в дар от римлян 2 000 монет."
+        },
+        "schinese": {
+          "name": "贡金",
+          "description": "使用匈人，获得罗马人赠送的 2000 国家礼金。"
+        },
+        "spanish": {
+          "name": "Tributo",
+          "description": "Juega con los hunos y obtén de los romanos un regalo de estado de 2.000 en fondos."
+        },
+        "turkish": {
+          "name": "Haraç",
+          "description": "Hunlar olarak oynarken Romalılardan 2.000 devlet hediyesi alın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_50_PERCENT_RELIGION_ADOPTION_AFTER_STATE_RELIGION_CHANGE": {
+      "translations": {
+        "czech": {
+          "name": "Časy se mění",
+          "description": "Změň státní víru a obrať na ni 50 % obyvatelstva své říše. "
+        },
+        "english": {
+          "name": "The More Things Change",
+          "description": "Change your state religion and convert 50% of your empire's population to it."
+        },
+        "french": {
+          "name": "On ne change pas",
+          "description": "Adoptez une nouvelle religion d'état et convertissez-y 50% de la population de votre empire."
+        },
+        "german": {
+          "name": "Dinge ändern sich",
+          "description": "Wechselt Eure Staatsreligion und konvertiert 50% der Bevölkerung Eures Reiches."
+        },
+        "italian": {
+          "name": "Tempo di cambiamenti",
+          "description": "Cambia la religione di stato e fai convertire il 50% della popolazione del tuo impero."
+        },
+        "polish": {
+          "name": "Im więcej zmian...",
+          "description": "Zmień religię państwową i nawróć 50% mieszkańców cesarstwa na nową wiarę."
+        },
+        "russian": {
+          "name": "Время перемен",
+          "description": "Выберите новую государственную религию и обратите в нее 50% населения своей империи."
+        },
+        "schinese": {
+          "name": "世事变迁",
+          "description": "更改国教，并使帝国中 50% 的人口皈依新国教。"
+        },
+        "spanish": {
+          "name": "Cuanto más cambian las cosas...",
+          "description": "Cambia la religión de tu estado y haz que se convierta a la misma el 50% de la población de tu imperio."
+        },
+        "turkish": {
+          "name": "Değişim Kaçınılmaz",
+          "description": "Devletinizin dinini değiştirin ve imparatorluğunuzun nüfusunun %50'sinin bu dini benimsemesini sağlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_THREE_SUCCESSIVE_GENERATIONS_OF_LEVEL_5_OR_ABOVE_CHARACTERS": {
+      "translations": {
+        "czech": {
+          "name": "Nepotismus",
+          "description": "Postarej se o to, aby příslušníci 3 generací jedné rodiny po sobě dosáhli 5. úrovně."
+        },
+        "english": {
+          "name": "Nepotism",
+          "description": "Ensure that 3 successive generations of characters from the same family reach level 5."
+        },
+        "french": {
+          "name": "Népotisme",
+          "description": "Faites en sorte que trois générations successives de personnages de la même famille atteignent le niveau 5."
+        },
+        "german": {
+          "name": "Vetternwirtschaft",
+          "description": "Lasst 3 Generationen von Charakteren derselben Familie mindestens Stufe 5 erreichen."
+        },
+        "italian": {
+          "name": "Nepotismo",
+          "description": "Fai in modo che 3 generazioni consecutive di personaggi della stessa famiglia raggiungano il livello 5."
+        },
+        "polish": {
+          "name": "Nepotyzm",
+          "description": "Spraw, żeby 3 kolejne pokolenia postaci z tej samej rodziny osiągnęły poziom 5."
+        },
+        "russian": {
+          "name": "Непотизм",
+          "description": "Добейтесь того, чтобы персонажи из одной семьи достигали уровня 5 на протяжении 3 поколений подряд."
+        },
+        "schinese": {
+          "name": "任人唯亲",
+          "description": "让同一家族连续三代的人物都达到 5 级。"
+        },
+        "spanish": {
+          "name": "Nepotismo",
+          "description": "Consigue que 3 generaciones consecutivas de personajes de la misma familia lleguen al nivel 5."
+        },
+        "turkish": {
+          "name": "Nepotizm",
+          "description": "Aynı aileden art arda 3 karakter neslinin 5. seviyeye ulaşmasını sağlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_KILL_ATTILA": {
+      "translations": {
+        "czech": {
+          "name": "Attila Mrtvý",
+          "description": "Zabij Huna Attilu jakýmkoliv způsobem. "
+        },
+        "english": {
+          "name": "Attila the Dead",
+          "description": "Kill Attila the Hun by any means at your disposal."
+        },
+        "french": {
+          "name": "Attila le Déf'Hun",
+          "description": "Tuez Attila le Hun par tous les moyens dont vous disposez."
+        },
+        "german": {
+          "name": "Attila der Tote",
+          "description": "Tötet Attila den Hunnen mit allen Euch verfügbaren Mitteln."
+        },
+        "italian": {
+          "name": "Attila è morto",
+          "description": "Uccidi Attila in qualsiasi modo."
+        },
+        "polish": {
+          "name": "Attyla Martwy",
+          "description": "Zabij Huna Attyle wszelkimi dostępnymi środkami."
+        },
+        "russian": {
+          "name": "Аттила промахнулся",
+          "description": "Убейте гунна Аттилу любыми доступными средствами."
+        },
+        "schinese": {
+          "name": "阿提拉之死",
+          "description": "用任何可行的方法杀死匈人阿提拉。"
+        },
+        "spanish": {
+          "name": "Atila el Muerto",
+          "description": "Mata a Atila el Huno con cualquier medio a tu alcance."
+        },
+        "turkish": {
+          "name": "Ölü Attila",
+          "description": "Ne yapıp edip Hun Attila'yı öldürün."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_USE_PREACH_INTOLERANCE_3_TIMES": {
+      "translations": {
+        "czech": {
+          "name": "Demagogie",
+          "description": "Rozkaž knězi použít na sídlo 3krát schopnost Kázat nesnášenlivost."
+        },
+        "english": {
+          "name": "Demagoguery",
+          "description": "Use a priest's Preach Intolerance ability on a settlement 3 times."
+        },
+        "french": {
+          "name": "Démagogue",
+          "description": "Utilisez trois fois la capacité « Prêcher l'intolérance » d'un prêtre sur une colonie."
+        },
+        "german": {
+          "name": "Volksverhetzer",
+          "description": "Setzt die Fertigkeit ‚Intoleranz predigen' eines Priesters 3 Mal an einer Siedlung ein."
+        },
+        "italian": {
+          "name": "Demagogo",
+          "description": "Usa 3 volte l’abilità Predica l’intolleranza di un sacerdote su un insediamento."
+        },
+        "polish": {
+          "name": "Demagog",
+          "description": "Trzykrotnie użyj umiejętności kapłana, szerzenie nietolerancji, na osadę."
+        },
+        "russian": {
+          "name": "Демагогия",
+          "description": "Трижды используйте умение жреца ''Проповедь нетерпимости'' в отношении поселения."
+        },
+        "schinese": {
+          "name": "煽动人心",
+          "description": "对城镇使用祭司的“宣扬排外”能力 3 次。"
+        },
+        "spanish": {
+          "name": "Demagogo",
+          "description": "Usa la habilidad Predicar la intolerancia de un sacerdote en un asentamiento 3 veces."
+        },
+        "turkish": {
+          "name": "Demagog",
+          "description": "Bir rahibin Vaaz kabiliyetini bir yerleşim yeri üzerinde 3 kez kullanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_USE_SABOTAGE_WALLS_3_TIMES": {
+      "translations": {
+        "czech": {
+          "name": "Sabotér",
+          "description": "Rozkaž veteránovi použít na sídlo 3krát schopnost Poškodit."
+        },
+        "english": {
+          "name": "Saboteur",
+          "description": "Use a veteran's Sabotage ability on a settlement 3 times."
+        },
+        "french": {
+          "name": "Saboteur",
+          "description": "Utilisez trois fois la capacité « Sabotage » d'un vétéran sur une colonie."
+        },
+        "german": {
+          "name": "Saboteur",
+          "description": "Setzt die Sabotage-Fertigkeit eines Veteranen 3 Mal an einer Siedlung ein."
+        },
+        "italian": {
+          "name": "Sabotatore",
+          "description": "Usa 3 volte l’abilità di sabotaggio di un veterano su un insediamento."
+        },
+        "polish": {
+          "name": "Sabotażysta",
+          "description": "Trzykrotnie użyj umiejętności weterana, sabotaż, na osadę."
+        },
+        "russian": {
+          "name": "Диверсант",
+          "description": "Трижды используйте умение ветерана ''Диверсия'' в отношении поселения."
+        },
+        "schinese": {
+          "name": "破坏者",
+          "description": "对城镇使用老兵的“破坏”能力 3 次。"
+        },
+        "spanish": {
+          "name": "Saboteador",
+          "description": "Usa la habilidad Sabotaje de un veterano contra un asentamiento 3 veces."
+        },
+        "turkish": {
+          "name": "Sabotajcı",
+          "description": "Bir kıdemlinin Sabotaj kabiliyetini bir yerleşim yeri üzerinde 3 kez kullanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_USE_POISON_STORES_3_TIMES": {
+      "translations": {
+        "czech": {
+          "name": "Záškodník",
+          "description": "Rozkaž zvědovi použít na sídlo 3krát schopnost Otrávit zásoby."
+        },
+        "english": {
+          "name": "Inside Man",
+          "description": "Use a spy's Poison Stores ability on a settlement 3 times."
+        },
+        "french": {
+          "name": "La taupe",
+          "description": "Utilisez trois fois la capacité « Anéantir les stocks » d'un espion sur une colonie."
+        },
+        "german": {
+          "name": "Spitzel",
+          "description": "Setzt die Fertigkeit ‚Lager ruinieren' eines Spions 3 Mal an einer Siedlung ein."
+        },
+        "italian": {
+          "name": "Insider",
+          "description": "Usa 3 volte l’abilità Danneggia i depositi con una spia su un insediamento."
+        },
+        "polish": {
+          "name": "Krecia robota",
+          "description": "Trzykrotnie użyj umiejętności szpiega, zatrucie zapasów, na osadę."
+        },
+        "russian": {
+          "name": "Вредитель",
+          "description": "Трижды используйте умение соглядатая ''Отравление припасов'' в отношении поселения."
+        },
+        "schinese": {
+          "name": "内应",
+          "description": "对城镇使用间谍的“粮仓投毒”能力 3 次。"
+        },
+        "spanish": {
+          "name": "El hombre en la sombra",
+          "description": "Usa la habilidad Arruinar provisiones de un espía en un asentamiento 3 veces."
+        },
+        "turkish": {
+          "name": "İçerideki Adam",
+          "description": "Bir kıdemlinin Sabotaj kabiliyetini bir yerleşim yeri üzerinde 3 kez kullanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_SUCCESSFUL_BOARDING": {
+      "translations": {
+        "czech": {
+          "name": "Nalodění",
+          "description": "Úspěšně se během námořní bitvy naloď na plavidlo nepřítele. "
+        },
+        "english": {
+          "name": "Boarding Action",
+          "description": "Successfully board a ship during a naval battle."
+        },
+        "french": {
+          "name": "Abordage",
+          "description": "Abordez avec succès un navire durant une bataille navale."
+        },
+        "german": {
+          "name": "Entermanöver",
+          "description": "Entert ein Schiff in einem Seegefecht."
+        },
+        "italian": {
+          "name": "Abbordaggio facile",
+          "description": "Porta a compimento un abbordaggio durante una battaglia navale."
+        },
+        "polish": {
+          "name": "Do abordażu",
+          "description": "Dokonaj udanego abordażu na okręt w trakcie bitwy morskiej."
+        },
+        "russian": {
+          "name": "На абордаж!",
+          "description": "Возьмите корабль на абордаж в ходе морской битвы."
+        },
+        "schinese": {
+          "name": "接舷战",
+          "description": "在海战中成功登上一艘敌船。"
+        },
+        "spanish": {
+          "name": "Acción de abordaje",
+          "description": "Aborda un barco con éxito en una batalla naval."
+        },
+        "turkish": {
+          "name": "Borda Hareketi",
+          "description": "Bir deniz savaşı sırasında bir gemiyi başarılı şekilde bordalayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_RAMMING_KILL": {
+      "translations": {
+        "czech": {
+          "name": "Taranová rychlost!",
+          "description": "Znič nepřátelskou loď taranováním."
+        },
+        "english": {
+          "name": "Ramming Speed!",
+          "description": "Destroy an enemy ship by ramming it."
+        },
+        "french": {
+          "name": "Vitesse d'éperonnage !",
+          "description": "Détruisez un navire ennemi en l'éperonnant."
+        },
+        "german": {
+          "name": "Rammgeschwindigkeit!",
+          "description": "Zerstört ein feindliches Schiff durch Rammen."
+        },
+        "italian": {
+          "name": "Velocità di speronamento!",
+          "description": "Distruggi una nave nemica con il rostro."
+        },
+        "polish": {
+          "name": "Szybkość taranowa!",
+          "description": "Zniszcz wrogi okręt, taranując go."
+        },
+        "russian": {
+          "name": "Скорость тарана!",
+          "description": "Уничтожьте вражеский корабль с помощью тарана."
+        },
+        "schinese": {
+          "name": "全速冲撞！",
+          "description": "用撞击摧毁一艘敌船。"
+        },
+        "spanish": {
+          "name": "¡Velocidad de embestida!",
+          "description": "Destruye un barco enemigo embistiéndolo."
+        },
+        "turkish": {
+          "name": "Tokmaklama Hızı!",
+          "description": "Bir düşman gemisini tokmaklayarak batırın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_NIGHT_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Nyktofilie",
+          "description": "Vybojuj vítěznou noční bitvu."
+        },
+        "english": {
+          "name": "Noctophilia",
+          "description": "Fight and win a battle at night."
+        },
+        "french": {
+          "name": "Nyctophilie",
+          "description": "Livrez et gagnez une bataille de nuit."
+        },
+        "german": {
+          "name": "Nyktophilia",
+          "description": "Gewinnt eine Schlacht bei Nacht."
+        },
+        "italian": {
+          "name": "Vita da nottambulo",
+          "description": "Combatti e vinci una battaglia notturna."
+        },
+        "polish": {
+          "name": "Nyktofilia",
+          "description": "Wyjdź zwycięsko z bitwy, toczonej w nocy."
+        },
+        "russian": {
+          "name": "Ноктофилия",
+          "description": "Проведите и выиграйте ночную битву."
+        },
+        "schinese": {
+          "name": "夜战爱好者",
+          "description": "指挥并赢得一场夜战。"
+        },
+        "spanish": {
+          "name": "Noctambulismo",
+          "description": "Libra y gana una batalla nocturna."
+        },
+        "turkish": {
+          "name": "Niktofili",
+          "description": "Bir savaşı gece oynayın ve kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_HAMMER_AND_ANVIL": {
+      "translations": {
+        "czech": {
+          "name": "Kladivo a kovadlina",
+          "description": "Napadni z týlu nepřátelskou jednotku, která bojuje s jiným tvým oddílem."
+        },
+        "english": {
+          "name": "Hammer & Anvil",
+          "description": "Attack an enemy unit in the rear whilst it is already engaged with another."
+        },
+        "french": {
+          "name": "Marteau et enclume",
+          "description": "Attaquez une unité ennemie par derrière pendant qu'elle est en combat contre une autre."
+        },
+        "german": {
+          "name": "Hammer & Amboss",
+          "description": "reift eine feindliche Einheit von hinten an, während sie bereits im Kampf ist."
+        },
+        "italian": {
+          "name": "Incudine e martello",
+          "description": "Attacca un’unità nemica nelle retrovie mentre è già impegnata con un’altra unità."
+        },
+        "polish": {
+          "name": "Młot i kowadło",
+          "description": "Zaatakuj jednostkę wroga od tyłu, kiedy będzie zajęta walką z inną jednostką."
+        },
+        "russian": {
+          "name": "Молот и наковальня",
+          "description": "Атакуйте с тыла вражеский отряд, ведущий бой с другими вашими войсками."
+        },
+        "schinese": {
+          "name": "锤砧战术",
+          "description": "从背后攻击一支正与其他部队交战的敌军单位。"
+        },
+        "spanish": {
+          "name": "Martillo y yunque",
+          "description": "Ataca a una unidad enemiga por la retaguardia mientras está combatiendo con otra."
+        },
+        "turkish": {
+          "name": "Örs ve Çekiç",
+          "description": "Bir düşman birimi çatışma içerisindeyken ona arkadan saldırın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_1_CAMPAIGN_LAND_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Zelenáč",
+          "description": "Vybojuj v kampani vítězně pozemní bitvu."
+        },
+        "english": {
+          "name": "Raw Recruit",
+          "description": "Fight and win a single campaign land battle."
+        },
+        "french": {
+          "name": "Jeunes recrues",
+          "description": "Livrez et gagnez une seule bataille terrestre de la campagne."
+        },
+        "german": {
+          "name": "Frische Rekruten",
+          "description": "Kämpft und gewinnt ein Landgefecht der Kampagne."
+        },
+        "italian": {
+          "name": "Recluta fresca",
+          "description": "Combatti e vinci una battaglia di terra nella campagna per giocatore singolo."
+        },
+        "polish": {
+          "name": "Nieopierzony rekrut",
+          "description": "Wyjdź zwycięsko z jednej bitwy lądowej w trakcie kampanii."
+        },
+        "russian": {
+          "name": "Новобранец",
+          "description": "Проведите и выиграйте одну наземную битву в режиме кампании."
+        },
+        "schinese": {
+          "name": "新兵入伍",
+          "description": "在战役中亲自指挥并赢得 1 场陆战。"
+        },
+        "spanish": {
+          "name": "Recluta novato",
+          "description": "Libra y gana una batalla terrestre de campaña."
+        },
+        "turkish": {
+          "name": "Acemi Er",
+          "description": "Tek bir kara sefer savaşı oynayın ve kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_1_CAMPAIGN_NAVAL_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Převozník",
+          "description": "Vyhraj 1 námořní bitvu v kampani."
+        },
+        "english": {
+          "name": "Boatmen",
+          "description": "Play and win 1 campaign naval battle"
+        },
+        "french": {
+          "name": "Pied marin",
+          "description": "Livrez et gagnez une seule bataille navale de la campagne."
+        },
+        "german": {
+          "name": "Seebeine",
+          "description": "Kämpft und gewinnt ein Seegefecht der Kampagne."
+        },
+        "italian": {
+          "name": "Lupo di mare",
+          "description": "Combatti e vinci una battaglia navale nella campagna per giocatore singolo."
+        },
+        "polish": {
+          "name": "Prosto po pokładzie",
+          "description": "Wyjdź zwycięsko z jednej bitwy morskiej w trakcie kampanii."
+        },
+        "russian": {
+          "name": "Соленые брызги",
+          "description": "Играя в режиме кампании, примите участие в 1 морской битве и выиграйте ее."
+        },
+        "schinese": {
+          "name": "船夫",
+          "description": "在战役中亲自指挥并赢得 1 场海战。"
+        },
+        "spanish": {
+          "name": "Como pez en el agua",
+          "description": "Libra y gana una batalla de campaña naval de campaña."
+        },
+        "turkish": {
+          "name": "Sallanan Tekne",
+          "description": "Tek bir deniz sefer savaşı oynayın ve kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_1_CAMPAIGN_SIEGE_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Beranidlo, beranidlo, duc",
+          "description": "Vyhraj 1 obléhací bitvu v kampani."
+        },
+        "english": {
+          "name": "Ram has touched the wall",
+          "description": "Play and win 1 campaign siege battle"
+        },
+        "french": {
+          "name": "Mentalité de siège",
+          "description": "Livrez et gagnez une seule bataille de siège de la campagne."
+        },
+        "german": {
+          "name": "Belagerungsgemüt",
+          "description": "Kämpft und gewinnt eine Belagerungsschlacht der Kampagne."
+        },
+        "italian": {
+          "name": "Mentalità d’assedio",
+          "description": "Combatti e vinci un assedio nella campagna per giocatore singolo."
+        },
+        "polish": {
+          "name": "Natura oblężenia",
+          "description": "Wyjdź zwycięsko z jednej bitwy oblężniczej w trakcie kampanii."
+        },
+        "russian": {
+          "name": "Удар тарана",
+          "description": "Играя в режиме кампании, примите участие в 1 осаде и выиграйте ее. "
+        },
+        "schinese": {
+          "name": "攻城锤已抵城下",
+          "description": "在战役中亲自指挥并赢得 1 场攻城战。"
+        },
+        "spanish": {
+          "name": "Mentalidad de asedio",
+          "description": "Libra y gana una batalla de asedio de campaña."
+        },
+        "turkish": {
+          "name": "Duvara tosladı",
+          "description": "Tek bir kuşatma sefer savaşı oynayın ve kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_1_MULTIPLAYER_QUICK_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Čerstvé maso",
+          "description": "Vyhraj 1 rychlou bitvu pro více hráčů"
+        },
+        "english": {
+          "name": "Fresh meat",
+          "description": "Play and win 1 multiplayer Quick Battle"
+        },
+        "french": {
+          "name": "Chair fraîche",
+          "description": "Livrez et gagnez une seule bataille rapide en multijoueur."
+        },
+        "german": {
+          "name": "Frisches Fleisch",
+          "description": "Kämpft und gewinnt ein Schnelles Gefecht im Mehrspieler-Modus."
+        },
+        "italian": {
+          "name": "Carne fresca",
+          "description": "Combatti e vinci una Battaglia veloce."
+        },
+        "polish": {
+          "name": "Świeże mięso",
+          "description": "Wyjdź zwycięsko z jednej szybkiej bitwy w trybie dla wielu graczy."
+        },
+        "russian": {
+          "name": "Свежее мясо",
+          "description": "Примите участие в 1 сетевой быстрой битве и выиграйте ее."
+        },
+        "schinese": {
+          "name": "新鲜血肉",
+          "description": "亲自指挥并赢得 1 场多人快速战斗。"
+        },
+        "spanish": {
+          "name": "Carne fresca",
+          "description": "Libra y gana una batalla rápida multijugador."
+        },
+        "turkish": {
+          "name": "Taze Kan",
+          "description": "Tek bir çok oyunculu hızlı savaş oynayın ve kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_KILL_10_SHIPS": {
+      "translations": {
+        "czech": {
+          "name": "A to je jen začátek",
+          "description": "V námořních bitvách potop 10 nepřátelských lodí."
+        },
+        "english": {
+          "name": "It's a start…",
+          "description": "Sink 10 enemy ships during naval battles."
+        },
+        "french": {
+          "name": "C'est un début...",
+          "description": "Coulez 10 navires ennemis lors des batailles navales."
+        },
+        "german": {
+          "name": "Ein Anfang",
+          "description": "Versenkt 10 feindliche Schiffe in Seegefechten."
+        },
+        "italian": {
+          "name": "È un inizio...",
+          "description": "Affonda 10 navi nemiche."
+        },
+        "polish": {
+          "name": "Dobry początek...",
+          "description": "Zatop 10 statków wroga w trakcie bitew morskich."
+        },
+        "russian": {
+          "name": "Это только началовЂ¦",
+          "description": "Потопите 10 кораблей противника в ходе морских битв."
+        },
+        "schinese": {
+          "name": "千里之行",
+          "description": "在海战中击沉 10 艘敌船。"
+        },
+        "spanish": {
+          "name": "Es el principio...",
+          "description": "Hunde 10 barcos enemigos en batallas navales."
+        },
+        "turkish": {
+          "name": "Bu Bir Başlangıç…",
+          "description": "Deniz savaşlarında 1.000 düşman gemisini batırın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_FOGGY_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Dračí dech",
+          "description": "Vybojuj vítěznou bitvu v mlze."
+        },
+        "english": {
+          "name": "Ride the Dragon's Breath",
+          "description": "Fight and win a battle in foggy conditions."
+        },
+        "french": {
+          "name": "Dans la fumée du dragon",
+          "description": "Livrez et gagnez une bataille dans le brouillard."
+        },
+        "german": {
+          "name": "Der Atem des Drachen",
+          "description": "Kämpft und gewinnt eine Schlacht im Nebel."
+        },
+        "italian": {
+          "name": "Nebbia",
+          "description": "Combatti e vinci una battaglia con la nebbia."
+        },
+        "polish": {
+          "name": "Okiełznaj oddech smoka",
+          "description": "Wyjdź zwycięsko z bitwy, toczonej we mgle."
+        },
+        "russian": {
+          "name": "Туманные перспективы",
+          "description": "Проведите и выиграйте битву в тумане."
+        },
+        "schinese": {
+          "name": "驾驭龙息",
+          "description": "亲自指挥并赢得一场雾天的战斗。"
+        },
+        "spanish": {
+          "name": "La niebla cegadora",
+          "description": "Libra y gana una batalla en condiciones de niebla."
+        },
+        "turkish": {
+          "name": "Ejderin Nefesini Hisset",
+          "description": "Bir savaşı sisli hava koşullarında oynayın ve kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_SIEGE_WITHOUT_DAMAGING_SETTLEMENT": {
+      "translations": {
+        "czech": {
+          "name": "Obléhání? Jaké obléhání?",
+          "description": "Vybojuj vítěznou obléhací bitvu a zabraň přitom poškození budov v sídle."
+        },
+        "english": {
+          "name": "Siege? What Siege?",
+          "description": "Fight and win a siege battle without damaging the settlement in any way."
+        },
+        "french": {
+          "name": "Un siège ? Quel siège ?",
+          "description": "Livrez et gagnez une bataille de siège sans que la colonie ne subisse de dégâts."
+        },
+        "german": {
+          "name": "Belagerung? Welche Belagerung?",
+          "description": "Gewinnt eine Belagerungsschlacht, ohne die Siedlung zu beschädigen."
+        },
+        "italian": {
+          "name": "Assedio? Quale assedio?",
+          "description": "Combatti e vinci un assedio senza danneggiare l’insediamento in alcun modo."
+        },
+        "polish": {
+          "name": "Oblężenie? Jakie oblężenie?",
+          "description": "Wyjdź zwycięsko z bitwy oblężniczej, w której osada nie dozna żadnych uszkodzeń."
+        },
+        "russian": {
+          "name": "Осада? Какая осада?",
+          "description": "Проведите и выиграйте осаду без какого-либо ущерба поселению."
+        },
+        "schinese": {
+          "name": "围城？什么围城？",
+          "description": "赢得一场攻城战，且不对城镇造成任何损坏。"
+        },
+        "spanish": {
+          "name": "¿Asedio? ¿Qué asedio?",
+          "description": "Libra y gana una batalla de asedio sin dañar el asentamiento de ninguna manera."
+        },
+        "turkish": {
+          "name": "Kuşatma Mı? Ne Kuşatması?",
+          "description": "Bir kuşatma savaşını, yerleşim yerine herhangi bir şekilde zarar vermeden kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_RECOVER_FROM_WAVERING_3_TIMES": {
+      "translations": {
+        "czech": {
+          "name": "Nezdolná odvaha",
+          "description": "Tvoje pěší jednotka se během jediné bitvy v rámci kampaně po poklesu morálky 3krát vzchopí."
+        },
+        "english": {
+          "name": "Iron Resolve",
+          "description": "Your infantry unit recovers from wavering 3 times during a single campaign battle."
+        },
+        "french": {
+          "name": "Résolution de fer",
+          "description": "Votre unité d'infanterie se remet d'un moment de faiblesse trois fois lors d'une seule bataille de la campagne."
+        },
+        "german": {
+          "name": "Eiserner Wille",
+          "description": "Eure Infanterie erholt sich 3 Mal in einem einzigen Kampagnengefecht vom Wanken."
+        },
+        "italian": {
+          "name": "Risolutezza di ferro",
+          "description": "La tua unità di fanteria recupera tre volte da una situazione in cui era vicina alla fuga, in una singola battaglia durante la campagna."
+        },
+        "polish": {
+          "name": "Żelazne postanowienie",
+          "description": "W trakcie kampanii twoja jednostka piechoty otrząsa się z załamania trzykrotnie w trakcie bitwy."
+        },
+        "russian": {
+          "name": "Железные нервы",
+          "description": "Добейтесь, чтобы ваш колеблющийся отряд пехоты трижды возвращался в бой за одну битву в режиме кампании."
+        },
+        "schinese": {
+          "name": "钢铁意志",
+          "description": "在同一场战役战斗中，让己方一支步兵单位从士气动摇中恢复 3 次。"
+        },
+        "spanish": {
+          "name": "Férrea resolución",
+          "description": "Tu unidad de infantería recupera la moral 3 veces en una batalla de campaña."
+        },
+        "turkish": {
+          "name": "Büyük Azim",
+          "description": "Bir sefer savaşı esnasında piyade biriminiz 3 kere kararsızlıktan kurtulsun."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_KILL_SHIP_WITH_GREEK_FIRE": {
+      "translations": {
+        "czech": {
+          "name": "Hořící moře",
+          "description": "Znič pomocí řeckého ohně nepřátelskou loď i s posádkou."
+        },
+        "english": {
+          "name": "Burning Seas",
+          "description": "Use Greek Fire to destroy an enemy ship and its crew."
+        },
+        "french": {
+          "name": "Vagues de flamme",
+          "description": "Utilisez le feu grégeois pour détruire un navire ennemi avec son équipage."
+        },
+        "german": {
+          "name": "Brennende See",
+          "description": "Zerstört ein feindliches Schiff samt Besatzung mit Griechischem Feuer."
+        },
+        "italian": {
+          "name": "Mare di fuoco",
+          "description": "Usa il fuoco greco per distruggere una nave nemica e il suo equipaggio."
+        },
+        "polish": {
+          "name": "Płonące morza",
+          "description": "Użyj ognia greckiego, żeby zniszczyć statek wroga razem z załogą."
+        },
+        "russian": {
+          "name": "Пылающее море",
+          "description": "Уничтожьте вражеский корабль вместе с командой, используя греческий огонь."
+        },
+        "schinese": {
+          "name": "燃烧的海洋",
+          "description": "用希腊火摧毁一艘敌船及其船员。"
+        },
+        "spanish": {
+          "name": "Mares ardientes",
+          "description": "Usa el Fuego Griego para destruir un barco enemigo y a su tripulación."
+        },
+        "turkish": {
+          "name": "Yanan Sular",
+          "description": "Yunan Ateşi kabiliyetini kullanarak bir düşman gemisini ve mürettebatını yok edin."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_MIXED_BATTLE_MARINE_KILL_LAND_UNIT": {
+      "translations": {
+        "czech": {
+          "name": "Semper Fi",
+          "description": "Přinuť během bitvy v rámci kampaně pozemní jednotku k úprku pomocí námořní jednotky."
+        },
+        "english": {
+          "name": "Semper Fi",
+          "description": "Rout a land unit with a marine unit during a campaign battle."
+        },
+        "french": {
+          "name": "Marine est là",
+          "description": "Repoussez une unité terrestre avec une unité navale lors d'une bataille de la campagne."
+        },
+        "german": {
+          "name": "Semper Fi",
+          "description": "Treibt eine Landeinheit während eines Kampagnengefechts mit einer Seeeinheit in die Flucht."
+        },
+        "italian": {
+          "name": "Semper fidelis",
+          "description": "Costringi alla ritirata un’unità di terra con un un’unità navale in una battaglia della campagna."
+        },
+        "polish": {
+          "name": "Semper fidelis",
+          "description": "Użyj jednostki lądowej razem z jednostką morską w ciągu bitwy w trakcie kampanii."
+        },
+        "russian": {
+          "name": "Semper Fi",
+          "description": "В ходе битвы в режиме кампании обратите в бегство сухопутный отряд силами моряков."
+        },
+        "schinese": {
+          "name": "永远忠诚",
+          "description": "在战役战斗中，用一支海军陆战部队击溃一支陆军单位。"
+        },
+        "spanish": {
+          "name": "Semper Fi",
+          "description": "Derrota a una unidad de tierra con una unidad naval en una batalla de campaña."
+        },
+        "turkish": {
+          "name": "Daima Sadık",
+          "description": "Bir sefer savaşı sırasında bir kara birimini bir denizci birimi ile bozguna uğratın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_3_RALLIES_PER_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Slyš můj příkaz!",
+          "description": "Úspěšně svolej jednotky 3krát během jedné bitvy v kampani."
+        },
+        "english": {
+          "name": "Obey my command!",
+          "description": "Successfully rally troops 3 times in a campaign battle"
+        },
+        "french": {
+          "name": "Respectez mon autorité !",
+          "description": "Ralliez vos troupes trois fois lors d'une bataille de campagne"
+        },
+        "german": {
+          "name": "Hört auf meinen Befehl!",
+          "description": "Sammelt 3 Mal erfolgreich Einheiten in einem Kampagnengefecht"
+        },
+        "italian": {
+          "name": "Obbedisci!",
+          "description": "Chiama le truppe a raccolta per 3 volte."
+        },
+        "polish": {
+          "name": "Żelazna wola",
+          "description": "W trakcie kampanii twój wódz może trzykrotnie dokonać zbiórki jednostki w ciągu jednej bitwy."
+        },
+        "russian": {
+          "name": "Слушай мою команду!",
+          "description": "Успешно сплотите войска 3 раза за одну битву в режиме кампании."
+        },
+        "schinese": {
+          "name": "听我号令！",
+          "description": "在同一场战役战斗中成功集结部队 3 次。"
+        },
+        "spanish": {
+          "name": "¡Obedece mi orden!",
+          "description": "Reagrupa 3 veces a tus tropas con éxito en una batalla de campaña"
+        },
+        "turkish": {
+          "name": "Emrime itaat et!",
+          "description": "Bir sefer muharebesinde askerleri 3 kez başarıyla topla"
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_ENGAGE_UNIT_WITH_FORMATION": {
+      "translations": {
+        "czech": {
+          "name": "Do formace!",
+          "description": "Zachovej při útoku na nepřítele formaci."
+        },
+        "english": {
+          "name": "To formation!",
+          "description": "Be in a formation while engaging an enemy"
+        },
+        "french": {
+          "name": "En formation !",
+          "description": "Soyez en formation lorsque vous engagez un ennemi."
+        },
+        "german": {
+          "name": "Formation halten!",
+          "description": "Kämpft in Formation gegen eine feindliche Einheit."
+        },
+        "italian": {
+          "name": "In formazione!",
+          "description": "Carica un’unità nemica in formazione."
+        },
+        "polish": {
+          "name": "Utrzymać formację!",
+          "description": "Będąc w formacji, rozpocznij walkę z jednostką wroga."
+        },
+        "russian": {
+          "name": "Стройся!",
+          "description": "Атакуйте врага, используя построение."
+        },
+        "schinese": {
+          "name": "列阵！",
+          "description": "以阵型状态与敌人交战。"
+        },
+        "spanish": {
+          "name": "¡Mantened la formación!",
+          "description": "Ataca a una unidad enemiga conservando la formación."
+        },
+        "turkish": {
+          "name": "Düzen al!",
+          "description": "Bir düşman birimiyle, düzen içerisindeyken karşılaşın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_AGAINST_20_UNITS_STACK_WITH_GARRISON": {
+      "translations": {
+        "czech": {
+          "name": "Hrdinská obrana",
+          "description": "Vyhraj obléhání v kampani jen za použití domobrany proti 20 či více útočícím jednotkám."
+        },
+        "english": {
+          "name": "Heroic defense",
+          "description": "Play and win a campaign siege with only the garrison against 20 or more units of attackers"
+        },
+        "french": {
+          "name": "Défenseur héroïque",
+          "description": "Livrez et gagnez une bataille de siège de la campagne en utilisant seulement la garnison contre 20 unités ou plus."
+        },
+        "german": {
+          "name": "Heldenhafter Verteidiger",
+          "description": "Kämpft und gewinnt eine Belagerungsschlacht der Kampagne ausschließlich mit der Garnison gegen 20 oder mehr angreifende Einheiten."
+        },
+        "italian": {
+          "name": "Difesa eroica",
+          "description": "Combatti e vinci un assedio nella campagna usando solo la guarnigione contro 20 o più unità che attaccano."
+        },
+        "polish": {
+          "name": "Heroiczny obrońca",
+          "description": "Wyjdź zwycięsko z bitwy oblężniczej w trakcie kampanii, używając jedynie garnizonu, przeciwko 20 lub więcej atakującym jednostkom."
+        },
+        "russian": {
+          "name": "Героическая оборона",
+          "description": "Играя в режиме кампании, отразите нападение 20 или более отрядов противника на поселение силами одного только гарнизона."
+        },
+        "schinese": {
+          "name": "英勇防御",
+          "description": "在战役中，仅凭驻军赢得一场对抗至少 20 支进攻部队的守城战。"
+        },
+        "spanish": {
+          "name": "Defensor heroico",
+          "description": "Libra y gana una campaña de asedio usando solo la guarnición contra 20 unidades atacantes o más."
+        },
+        "turkish": {
+          "name": "Cesur Müdafa",
+          "description": "Bir kuşatma sefer savaşını 20 ya da daha fazla düşman birimine karşı sadece garnizon kullanarak oynayın ve kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_AND_BURN_SETTLEMENT": {
+      "translations": {
+        "czech": {
+          "name": "Ožehavý problém",
+          "description": "Spal během obléhání 75 % nepřátelské osady."
+        },
+        "english": {
+          "name": "Burning Convictions ",
+          "description": "Burn down 75% of an enemy Settlement during a siege battle"
+        },
+        "french": {
+          "name": "Brûler les convictions",
+          "description": "Brûlez 75% d'une colonie ennemie durant une bataille de siège."
+        },
+        "german": {
+          "name": "Glühende Überzeugung",
+          "description": "Brennt eine feindliche Siedlung während einer Belagerungsschlacht zu 75% nieder."
+        },
+        "italian": {
+          "name": "Convinzioni ardenti",
+          "description": "Riduci in cenere il 75% di un insediamento nemico durante un assedio."
+        },
+        "polish": {
+          "name": "Palące przekonania",
+          "description": "Spal 75% osady wroga podczas oblężenia."
+        },
+        "russian": {
+          "name": "Огненная кара ",
+          "description": "Сожгите 75% поселения противника в ходе осады"
+        },
+        "schinese": {
+          "name": "烈火信念",
+          "description": "在一场攻城战中烧毁敌方城镇的 75%。"
+        },
+        "spanish": {
+          "name": "Convicciones ardientes",
+          "description": "Quema el 75% de un asentamiento enemigo en una batalla de asedio."
+        },
+        "turkish": {
+          "name": "Kanıtları Yakmak ",
+          "description": "Bir kuşatma savaşı esnasında bir düşman yerleşim yerinin %75’ini yakın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_BURN_10_SHIPS_IN_ONE_CAMPAIGN_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Rudá záře na noční obloze? Admirálův sen!",
+          "description": "Během jediné námořní bitvy v kampani zapal 10 nepřátelských lodí."
+        },
+        "english": {
+          "name": "Red Sky at Night? Admirals' Delight!",
+          "description": "Burn 10 enemy ships during a single campaign battle."
+        },
+        "french": {
+          "name": "Soleil rouge dans la nuit, amiral ravi !",
+          "description": "Brûlez 10 navires ennemis lors d'une seule bataille de campagne."
+        },
+        "german": {
+          "name": "Feuer und Flamme... für Flammen und Feuer!",
+          "description": "Verbrennt mehr als 10 feindliche Schiffe in einem einzelnen Kampagnengefecht."
+        },
+        "italian": {
+          "name": "Rosso di sera? Bel fuoco si spera!",
+          "description": "Brucia 10 navi nemiche in una sola battaglia in una campagna."
+        },
+        "polish": {
+          "name": "Dowódca floty zaciera dłonie, gdy niebo czerwienią płonie!",
+          "description": "Spal 10 okrętów wroga w jednej bitwie w trakcie kampanii."
+        },
+        "russian": {
+          "name": "Если небо красно вечером, моряку бояться нечего!",
+          "description": "Сожгите 10 кораблей противника за одну битву в режиме кампании."
+        },
+        "schinese": {
+          "name": "晚霞满天，海军开颜！",
+          "description": "在同一场战役战斗中烧毁 10 艘敌船。"
+        },
+        "spanish": {
+          "name": "Cielo nocturno y rojo al almirante llena de gozo",
+          "description": "Quema 10 barcos enemigos en una sola batalla de campaña."
+        },
+        "turkish": {
+          "name": "Gökyüzü Kıpkırmızı Mı? Amiraller Eğleniyor İşte!",
+          "description": "Tek bir sefer savaşı sırasında 10 düşman gemisini yakın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_CUSTOM_BATTLE_WITH_FORCE_COSTING_HALF_THAN_ENEMY": {
+      "translations": {
+        "czech": {
+          "name": "Efektivní zabiják",
+          "description": "Vybojuj v kampani vítěznou pozemní bitvu, ve které utratíš za jednotky o polovinu nebo méně než nepřítel."
+        },
+        "english": {
+          "name": "Cost-effective Killer",
+          "description": "Fight and win a campaign land battle where you have spent half or less on units than the enemy."
+        },
+        "french": {
+          "name": "Tueur efficace",
+          "description": "Livrez et gagnez une bataille terrestre de la campagne en utilisant deux fois moins d'unités (ou moins) que l'ennemi."
+        },
+        "german": {
+          "name": "Kostengünstiger Killer",
+          "description": "Kämpft und gewinnt ein Landgefecht der Kampagne und verliert dabei halb so viele oder weniger Einheiten wie der Feind."
+        },
+        "italian": {
+          "name": "Assassino efficiente",
+          "description": "Combatti e vinci una battaglia di terra durante la campagna sacrificando non più della metà delle unità perse dal nemico."
+        },
+        "polish": {
+          "name": "Oszczędny zabójca",
+          "description": "Wyjdź zwycięsko z bitwy lądowej w trakcie kampanii, wydając na jednostki nie więcej niż połowę tego, co wydał wróg."
+        },
+        "russian": {
+          "name": "Экономика убийства",
+          "description": "Проведите и выиграйте наземную битву в режиме кампании  таким образом, чтобы потери противника превосходили ваши как минимум вдвое."
+        },
+        "schinese": {
+          "name": "物美价廉的杀手",
+          "description": "在战役中赢得一场陆战，己方部队花费不超过敌方的一半。"
+        },
+        "spanish": {
+          "name": "Asesino rentable",
+          "description": "Libra y gana una batalla terrestre de campaña en la que hayas gastado la mitad o menos unidades que el enemigo."
+        },
+        "turkish": {
+          "name": "Uygun Maliyetli Katil",
+          "description": "Bir kara sefer savaşını, birimlerinize düşmanınızın yarısı ya da daha azı kadar harcama yaparak kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_5_CAMPAIGN_LAND_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Běžný voják",
+          "description": "Vyhraj 5 pozemních bitev v kampani."
+        },
+        "english": {
+          "name": "Regular solider",
+          "description": "Fight and win 5 campaign land battles."
+        },
+        "french": {
+          "name": "Général chevronné",
+          "description": "Livrez et gagnez 5 batailles terrestres de la campagne."
+        },
+        "german": {
+          "name": "Routinierter General",
+          "description": "Kämpft und gewinnt 5 Landgefechte der Kampagne."
+        },
+        "italian": {
+          "name": "Generale esperto",
+          "description": "Combatti e vinci 5 battaglie di terra nella campagna."
+        },
+        "polish": {
+          "name": "Doświadczony wódz",
+          "description": "Wyjdź zwycięsko z 5 bitew lądowych w trakcie kampanii."
+        },
+        "russian": {
+          "name": "Опытный солдат",
+          "description": "Проведите и выиграйте 5 наземных битв в режиме кампании."
+        },
+        "schinese": {
+          "name": "正规军",
+          "description": "在战役中亲自指挥并赢得 5 场陆战。"
+        },
+        "spanish": {
+          "name": "Soldado normal",
+          "description": "Libra y gana 5 batallas terrestres de campaña."
+        },
+        "turkish": {
+          "name": "Sıradan asker",
+          "description": "5 kara sefer savaşı oynayın ve kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_5_CAMPAIGN_SIEGE_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Zkušený obléhatel",
+          "description": "Vyhraj 5 obléhacích bitev v kampani."
+        },
+        "english": {
+          "name": "Seasoned Besieger",
+          "description": "Fight and win 5 campaign siege battles."
+        },
+        "french": {
+          "name": "Assiégeant chevronné",
+          "description": "Livrez et gagnez 5 batailles de siège de la campagne."
+        },
+        "german": {
+          "name": "Routinierter Belagerer",
+          "description": "Kämpft und gewinnt 5 Belagerungsschlachten der Kampagne."
+        },
+        "italian": {
+          "name": "Esperto negli assedi",
+          "description": "Combatti e vinci 5 assedi nella campagna."
+        },
+        "polish": {
+          "name": "Znawca oblężeń",
+          "description": "Wyjdź zwycięsko z 5 bitew oblężniczych w trakcie kampanii."
+        },
+        "russian": {
+          "name": "Закаленный мастер осад",
+          "description": "Проведите и выиграйте 5 осад в режиме кампании."
+        },
+        "schinese": {
+          "name": "攻城老手",
+          "description": "在战役中亲自指挥并赢得 5 场攻城战。"
+        },
+        "spanish": {
+          "name": "Asediador experimentado",
+          "description": "Libra y gana 5 batallas de asedio de campaña."
+        },
+        "turkish": {
+          "name": "Deneyimli Kuşatmacı",
+          "description": "5 kuşatma sefer savaşı oynayın ve kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_5_MULTIPLAYER_QUICK_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Ostřílený bojovník",
+          "description": "Vybojuj ve hře více hráčů 5 vítězných rychlých bitev."
+        },
+        "english": {
+          "name": "Seasoned Scrapper",
+          "description": "Fight and win 5 multiplayer quick battles."
+        },
+        "french": {
+          "name": "Combattant chevronné",
+          "description": "Livrez et gagnez 5 batailles rapides en multijoueur."
+        },
+        "german": {
+          "name": "Routinierte Kämpfer",
+          "description": "Kämpft und gewinnt 5 Schnelle Gefechte im Mehrspieler."
+        },
+        "italian": {
+          "name": "Attaccabrighe esperto",
+          "description": "Combatti e vinci 5 battaglie veloci multigiocatore."
+        },
+        "polish": {
+          "name": "Doświadczony wojak",
+          "description": "Wyjdź zwycięsko z 5 szybkich bitew w trybie dla wielu graczy."
+        },
+        "russian": {
+          "name": "Закаленный мастер сетевых битв",
+          "description": "Проведите и выиграйте 5 быстрых битв в сети."
+        },
+        "schinese": {
+          "name": "久经战阵",
+          "description": "亲自指挥并赢得 5 场多人快速战斗。"
+        },
+        "spanish": {
+          "name": "Luchador experimentado",
+          "description": "Libra y gana 5 partidas rápidas multijugador."
+        },
+        "turkish": {
+          "name": "Deneyimli Çarpışmacı",
+          "description": "5 çok oyunculu hızlı savaş oynayın ve kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_KILL_100_SHIPS": {
+      "translations": {
+        "czech": {
+          "name": "Mořský hrob",
+          "description": "V námořních bitvách potop 100 nepřátelských lodí."
+        },
+        "english": {
+          "name": "Watery Graves",
+          "description": "Sink 100 enemy ships during naval battles."
+        },
+        "french": {
+          "name": "Tombes sous-marines",
+          "description": "Coulez 100 navires ennemis lors des batailles navales."
+        },
+        "german": {
+          "name": "Feuchte Gräber",
+          "description": "Versenkt 100 feindliche Schiffe in Seegefechten."
+        },
+        "italian": {
+          "name": "Tombe in acqua",
+          "description": "Affonda 100 navi nemiche."
+        },
+        "polish": {
+          "name": "Podwodny grobowiec",
+          "description": "Zatop 100 statków wroga w trakcie bitew morskich."
+        },
+        "russian": {
+          "name": "Погребенные в пучине",
+          "description": "Потопите 100 кораблей противника в ходе морских битв."
+        },
+        "schinese": {
+          "name": "水下坟场",
+          "description": "在海战中击沉 100 艘敌船。"
+        },
+        "spanish": {
+          "name": "Sepulturas marinas",
+          "description": "Hunde 100 barcos enemigos en batallas navales."
+        },
+        "turkish": {
+          "name": "Su Dolu Mezar",
+          "description": "Deniz savaşlarında 100 düşman gemisini batırın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_KILL_1000_WITH_ONE_UNIT_CAMPAIGN_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Vražedné choutky",
+          "description": "S jedinou jednotkou během bitvy v kampani zabij alespoň 1.000 nepřátel. "
+        },
+        "english": {
+          "name": "Killing Mode",
+          "description": "Kill at least 1,000 enemy troops in a campaign battle with a single unit."
+        },
+        "french": {
+          "name": "Mode tueur",
+          "description": "Tuez au moins 10 000 troupes ennemies dans une bataille de la campagne avec une seule unité."
+        },
+        "german": {
+          "name": "Tötungsmodus",
+          "description": "Tötet mindestens 1.000 feindliche Einheiten in einem Kampagnengefecht mit einer einzigen Einheit."
+        },
+        "italian": {
+          "name": "Assassini nati",
+          "description": "Uccidi almeno 1000 truppe nemiche con una sola unità durante una battaglia della campagna."
+        },
+        "polish": {
+          "name": "Tryb zabijania",
+          "description": "Zabij przynajmniej 1000 żołnierzy wroga w bitwie w trakcie kampanii, używając jednej jednostki."
+        },
+        "russian": {
+          "name": "Машина смерти",
+          "description": "В ходе битвы в режиме кампании убейте не менее 1 000 вражеских воинов силами одного отряда."
+        },
+        "schinese": {
+          "name": "杀戮模式",
+          "description": "在同一场战役战斗中，用一支部队杀死至少 1000 名敌军。"
+        },
+        "spanish": {
+          "name": "Modo asesino",
+          "description": "Mata al menos a 1000 soldados enemigos en una batalla de campaña con una sola unidad."
+        },
+        "turkish": {
+          "name": "Öldürme Modu",
+          "description": "Bir sefer savaşında tek bir birim ile en az 1.000 düşman askerini öldürün."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_USE_3_GENERAL_ABILITIES_IN_ONE_CAMPAIGN_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Taktický génius",
+          "description": "Použij během bitvy v kampani 3 schopnosti."
+        },
+        "english": {
+          "name": "Tactical Genius",
+          "description": "Use 3 abilities during a single campaign battle."
+        },
+        "french": {
+          "name": "Génie tactique",
+          "description": "Utilisez trois capacités lors d'une seule bataille de campagne."
+        },
+        "german": {
+          "name": "Taktisches Genie",
+          "description": "Setzt 3 Fertigkeiten in einem einzelnen Kampagnengefecht ein."
+        },
+        "italian": {
+          "name": "Genio tattico",
+          "description": "Usa 3 abilità in una sola battaglia durante una campagna."
+        },
+        "polish": {
+          "name": "Geniusz taktyczny",
+          "description": "Użyj 3 umiejętności w jednej bitwie w trakcie kampanii."
+        },
+        "russian": {
+          "name": "Тактический гений",
+          "description": "Используйте 3 умения за одну битву в режиме кампании."
+        },
+        "schinese": {
+          "name": "战术天才",
+          "description": "在同一场战役战斗中使用 3 项能力。"
+        },
+        "spanish": {
+          "name": "Genio táctico",
+          "description": "Usa 3 habilidades en una sola batalla de campaña."
+        },
+        "turkish": {
+          "name": "Taktiksel Zeka",
+          "description": "Tek bir sefer savaşı esnasında 3 kabiliyet kullanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_SIEGE_AGAINST_20_UNITS_WITHOUT_BEING_INSIDE_WALL": {
+      "translations": {
+        "czech": {
+          "name": "Přístup odepřen!",
+          "description": "Vybojuj vítěznou obléhací bitvu proti 20 a více jednotkám soupeře, přičemž nepřítel se nesmí dostat na hradby ani do sídla. "
+        },
+        "english": {
+          "name": "Access Denied!",
+          "description": "Fight and win a siege battle against 20 or more units without the enemy getting onto the walls or into the settlement."
+        },
+        "french": {
+          "name": "Accès refusé !",
+          "description": "Livrez et gagnez une bataille de siège contre 20 unités ou plus sans que l'ennemi n'envahisse les murs ou la colonie."
+        },
+        "german": {
+          "name": "Zugang verweigert!",
+          "description": "Gewinnt eine Belagerungsschlacht gegen 20 oder mehr Einheiten, ohne dass der Feind die Mauern erklimmt oder in die Siedlung eindringt."
+        },
+        "italian": {
+          "name": "Accesso negato!",
+          "description": "Combatti e vinci un assedio contro 20 o più unità senza che il nemico salga sulle mura o entri nell’insediamento."
+        },
+        "polish": {
+          "name": "Zakaz wstępu!",
+          "description": "Wyjdź zwycięsko z bitwy oblężniczej przeciwko 20 lub więcej jednostkom, nie pozwalając wrogom wejść na mury lub do środka osady."
+        },
+        "russian": {
+          "name": "Доступ запрещен!",
+          "description": "Проведите и выиграйте осаду против 20 или более отрядов, не пропустив ни одного врага на стены или в поселение."
+        },
+        "schinese": {
+          "name": "禁止入内！",
+          "description": "赢得一场对抗至少 20 支敌军部队的守城战，且不让敌人登上城墙或进入城镇。"
+        },
+        "spanish": {
+          "name": "¡Acceso denegado!",
+          "description": "Libra y gana una batalla de asedio contra 20 o más unidades sin que el enemigo se suba a las murallas o entre en el asentamiento."
+        },
+        "turkish": {
+          "name": "Erişim Engellendi!",
+          "description": "Bir kuşatma savaşını 20 ya da daha fazla birime karşı, düşmanı surlardan ya da yerleşim yerinden geçirmeden kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_KILL_10000_IN_ONE_CAMPAIGN_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Žádné slitování!",
+          "description": "Během jedné bitvy v kampani zabij alespoň 1 000 nepřátel."
+        },
+        "english": {
+          "name": "Show No Mercy!",
+          "description": "Kill at least 1,000 enemy troops in a single campaign battle."
+        },
+        "french": {
+          "name": "Pas de pitié !",
+          "description": "Tuez au moins 1000 troupes ennemies lors d'une seule bataille de la campagne."
+        },
+        "german": {
+          "name": "Zeigt keine Gnade!",
+          "description": "Tötet mindestens 1.000 feindliche Einheiten in einem einzelnen Kampagnengefecht."
+        },
+        "italian": {
+          "name": "Senza pietà!",
+          "description": "Uccidi almeno 1000 truppe nemiche in una sola battaglia della campagna."
+        },
+        "polish": {
+          "name": "Nie okazuj litości!",
+          "description": "Zabij przynajmniej 1000 żołnierzy wroga w jednej bitwie w trakcie kampanii."
+        },
+        "russian": {
+          "name": "Никого не щадить!",
+          "description": "Убейте не менее 1 000 вражеских воинов за одну битву в режиме кампании."
+        },
+        "schinese": {
+          "name": "绝不留情！",
+          "description": "在同一场战役战斗中杀死至少 1000 名敌军。"
+        },
+        "spanish": {
+          "name": "¡Sin piedad!",
+          "description": "Mata al menos a 1000 soldados enemigos en una batalla de campaña."
+        },
+        "turkish": {
+          "name": "Merhamet Yok!",
+          "description": "Tek bir sefer savaşında en az 1.000 düşman askerini öldürün."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_LEGNEDARY_CAMPAIGN_NO_AUTORESOLVE": {
+      "translations": {
+        "czech": {
+          "name": "Legendární velitel",
+          "description": "Dokonči velkou kampaň na legendární obtížnost bez použití automatického rozhodování bitev."
+        },
+        "english": {
+          "name": "Legendary General",
+          "description": "Complete the Grand Campaign on legendary difficulty without auto-resolving any battles."
+        },
+        "french": {
+          "name": "Général légendaire",
+          "description": "Terminez la grande campagne en difficulté légendaire sans jamais faire appel à la résolution automatique."
+        },
+        "german": {
+          "name": "Legendärer General",
+          "description": "Schließt die Große Kampagne auf legendärer Schwierigkeit ab, ohne ‚Autom. Gefecht' zu nutzen."
+        },
+        "italian": {
+          "name": "Generale leggendario",
+          "description": "Completa la Campagna imperiale con difficoltà Leggendaria senza utilizzare la risoluzione automatica in nessuna battaglia."
+        },
+        "polish": {
+          "name": "Legendarny wódz",
+          "description": "Ukończ główną kampanię na legendarnym poziomie trudności, nie rozstrzygając przy tym automatycznie żadnej bitwy."
+        },
+        "russian": {
+          "name": "Легендарный полководец",
+          "description": "Пройдите Большую кампанию на легендарной сложности, ни разу не прибегнув к авторасчету."
+        },
+        "schinese": {
+          "name": "传奇将军",
+          "description": "以传奇难度完成大战役，且任何战斗都不使用自动结算。"
+        },
+        "spanish": {
+          "name": "General legendario",
+          "description": "Completa la gran campaña con dificultad legendaria habiendo librado y ganado todas las batallas."
+        },
+        "turkish": {
+          "name": "Efsanevi General",
+          "description": "Büyük Sefer'i efsanevi zorluk seviyesinde, herhangi bir savaşı otomatik olarak sonlandırmadan tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_6_DIFFERENT_HISTORICAL_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Slavný velitel",
+          "description": "Vybojuj 6 různých vítězných historických bitev. "
+        },
+        "english": {
+          "name": "Famous General",
+          "description": "Fight and win 6 different historical battles."
+        },
+        "french": {
+          "name": "Général célèbre",
+          "description": "Livrez et gagnez 6 batailles historiques différentes."
+        },
+        "german": {
+          "name": "Berühmter General",
+          "description": "Kämpft und gewinnt 6 unterschiedliche Historische Schlachten."
+        },
+        "italian": {
+          "name": "Generale famoso",
+          "description": "Combatti e vinci 6 diverse Battaglie storiche."
+        },
+        "polish": {
+          "name": "Słynny wódz",
+          "description": "Wyjdź zwycięsko z 6 różnych bitew historycznych."
+        },
+        "russian": {
+          "name": "Знаменитый полководец",
+          "description": "Проведите и выиграйте 6 разных исторических битв."
+        },
+        "schinese": {
+          "name": "名将",
+          "description": "亲自指挥并赢得 6 场不同的历史战役。"
+        },
+        "spanish": {
+          "name": "General famoso",
+          "description": "Libra y gana 6 batallas históricas distintas."
+        },
+        "turkish": {
+          "name": "Meşhur General",
+          "description": "6 farklı tarihi savaşı oynayın ve kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_25_CAMPAIGN_LAND_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Zkušený velitel",
+          "description": "Vybojuj v kampani 25 vítězných pozemních bitev."
+        },
+        "english": {
+          "name": "Veteran General",
+          "description": "Fight and win 25 campaign land battles."
+        },
+        "french": {
+          "name": "Général vétéran",
+          "description": "Livrez et gagnez 25 batailles terrestres de la campagne."
+        },
+        "german": {
+          "name": "Altgedienter General",
+          "description": "Kämpft und gewinnt 25 Landgefechte."
+        },
+        "italian": {
+          "name": "Generale veterano",
+          "description": "Combatti e vinci 25 battaglie di terra nella campagna."
+        },
+        "polish": {
+          "name": "Wódz weteran",
+          "description": "Wyjdź zwycięsko z 25 bitew lądowych w trakcie kampanii."
+        },
+        "russian": {
+          "name": "Опытный полководец",
+          "description": "Проведите и выиграйте 25 наземных битв в режиме кампании."
+        },
+        "schinese": {
+          "name": "陆战宿将",
+          "description": "在战役中亲自指挥并赢得 25 场陆战。"
+        },
+        "spanish": {
+          "name": "General veterano",
+          "description": "Libra y gana 25 batallas de campaña terrestres."
+        },
+        "turkish": {
+          "name": "Kıdemli General",
+          "description": "25 kara sefer savaşı oynayın ve kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_25_CAMPAIGN_NAVAL_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Zkušený admirál",
+          "description": "Vybojuj v kampani 25 vítězných námořních bitev."
+        },
+        "english": {
+          "name": "Veteran Admiral",
+          "description": "Fight and win 25 campaign naval battles."
+        },
+        "french": {
+          "name": "Amiral vétéran",
+          "description": "Livrez et gagnez 25 batailles navales de la campagne."
+        },
+        "german": {
+          "name": "Altgedienter Admiral",
+          "description": "Kämpft und gewinnt 25 Seegefechte der Kampagne."
+        },
+        "italian": {
+          "name": "Ammiraglio veterano",
+          "description": "Combatti e vinci 25 battaglie navali nella campagna."
+        },
+        "polish": {
+          "name": "Dowódca floty weteran",
+          "description": "Wyjdź zwycięsko z 25 bitew morskich w trakcie kampanii."
+        },
+        "russian": {
+          "name": "Опытный флотоводец",
+          "description": "Проведите и выиграйте 25 морских битв в режиме кампании."
+        },
+        "schinese": {
+          "name": "海军宿将",
+          "description": "在战役中亲自指挥并赢得 25 场海战。"
+        },
+        "spanish": {
+          "name": "Almirante veterano",
+          "description": "Libra y gana 25 batallas de campaña navales."
+        },
+        "turkish": {
+          "name": "Kıdemli Amiral",
+          "description": "25 deniz sefer savaşı oynayın ve kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_25_CAMPAIGN_SIEGE_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Zkušený obléhatel",
+          "description": "Vybojuj v kampani 25 vítězných obléhacích bitev."
+        },
+        "english": {
+          "name": "Veteran Besieger",
+          "description": "Fight and win 25 campaign siege battles."
+        },
+        "french": {
+          "name": "Assiégeant vétéran",
+          "description": "Livrez et gagnez 25 batailles de siège de la campagne."
+        },
+        "german": {
+          "name": "Altgedienter Belagerer",
+          "description": "Kämpft und gewinnt 25 Belagerungsschlachten der Kampagne."
+        },
+        "italian": {
+          "name": "Veterano degli assedi",
+          "description": "Combatti e vinci 25 assedi nella campagna."
+        },
+        "polish": {
+          "name": "Specjalista od oblężeń",
+          "description": "Wyjdź zwycięsko z 25 bitew oblężniczych w trakcie kampanii."
+        },
+        "russian": {
+          "name": "Опытный мастер осад",
+          "description": "Проведите и выиграйте 25 осад в режиме кампании."
+        },
+        "schinese": {
+          "name": "攻城宿将",
+          "description": "在战役中亲自指挥并赢得 25 场攻城战。"
+        },
+        "spanish": {
+          "name": "Asediador veterano",
+          "description": "Libra y gana 25 batallas de asedio de campaña."
+        },
+        "turkish": {
+          "name": "Kıdemli Kuşatmacı",
+          "description": "25 kuşatma sefer savaşı oynayın ve kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_WIN_25_MULTIPLAYER_QUICK_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Zkušený bojovník",
+          "description": "Vybojuj ve hře více hráčů 25 vítězných rychlých bitev."
+        },
+        "english": {
+          "name": "Veteran Scrapper",
+          "description": "Fight and win 25 multiplayer quick battles."
+        },
+        "french": {
+          "name": "Combattant vétéran",
+          "description": "Livrez et gagnez 25 batailles rapides en multijoueur."
+        },
+        "german": {
+          "name": "Altgedienter Kämpfer",
+          "description": "Kämpft und gewinnt 25 Schnelle Gefechte im Mehrspieler."
+        },
+        "italian": {
+          "name": "Attaccabrighe veterano",
+          "description": "Combatti e vinci 25 Battaglie veloci."
+        },
+        "polish": {
+          "name": "Wojak weteran",
+          "description": "Wyjdź zwycięsko z 25 szybkich bitew w trybie dla wielu graczy."
+        },
+        "russian": {
+          "name": "Опытный мастер сетевых битв",
+          "description": "Проведите и выиграйте 25 быстрых битв в сети."
+        },
+        "schinese": {
+          "name": "沙场老将",
+          "description": "亲自指挥并赢得 25 场多人快速战斗。"
+        },
+        "spanish": {
+          "name": "Luchador veterano",
+          "description": "Libra y gana 25 batallas rápidas multijugador."
+        },
+        "turkish": {
+          "name": "Kıdemli Çarpışmacı",
+          "description": "25 çok oyunculu hızlı savaş oynayın ve kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_KILL_1000_SHIPS": {
+      "translations": {
+        "czech": {
+          "name": "Námořní masakr",
+          "description": "V námořních bitvách potop 1 000 nepřátelských lodí."
+        },
+        "english": {
+          "name": "Slaughter at Sea",
+          "description": "Sink 1,000 enemy ships during naval battles."
+        },
+        "french": {
+          "name": "Massacre en mer",
+          "description": "Coulez 1000 navires ennemis lors des batailles navales."
+        },
+        "german": {
+          "name": "Gemetzel auf hoher See",
+          "description": "Versenkt 1.000 feindliche Schiffe in Seegefechten."
+        },
+        "italian": {
+          "name": "Massacro in mare",
+          "description": "Affonda 1000 navi nemiche."
+        },
+        "polish": {
+          "name": "Rzeź na morzu",
+          "description": "Zatop 1000 statków wroga w trakcie bitew morskich."
+        },
+        "russian": {
+          "name": "Резня на море",
+          "description": "Потопите 1 000 кораблей противника в ходе морских битв."
+        },
+        "schinese": {
+          "name": "海上屠戮",
+          "description": "在海战中击沉 1000 艘敌船。"
+        },
+        "spanish": {
+          "name": "Masacre en el mar",
+          "description": "Hunde 1000 barcos enemigos en batallas navales."
+        },
+        "turkish": {
+          "name": "Suda Katliam",
+          "description": "Deniz savaşlarında 1.000 düşman gemisini batırın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAPTURE_3_SETTLEMENTS": {
+      "translations": {
+        "czech": {
+          "name": "Do třetice všeho dobrého",
+          "description": "Během velké kampaně obsaď 3 sídla."
+        },
+        "english": {
+          "name": "The Power of Three",
+          "description": "Capture 3 settlements during the Grand Campaign."
+        },
+        "french": {
+          "name": "Le pouvoir des trois",
+          "description": "Capturez 3 colonies lors de la grande campagne."
+        },
+        "german": {
+          "name": "Aller guten Dinge",
+          "description": "Nutzt mindestens 3 verschiedene Spezialfertigkeiten während eines Kampagnengefechts."
+        },
+        "italian": {
+          "name": "Il potere del tre",
+          "description": "Conquista 3 insediamenti durante la Campagna imperiale."
+        },
+        "polish": {
+          "name": "Moc trzech",
+          "description": "Przejmij 3 osady w trakcie Wielkiej Kampanii."
+        },
+        "russian": {
+          "name": "Сила трех",
+          "description": "Захватите 3 поселения в ходе Большой кампании."
+        },
+        "schinese": {
+          "name": "三城之力",
+          "description": "在大战役中攻占 3 座城镇。"
+        },
+        "spanish": {
+          "name": "El poder del tres",
+          "description": "Captura 3 asentamientos durante la gran campaña."
+        },
+        "turkish": {
+          "name": "Üçün Gücü",
+          "description": "Büyük Sefer boyunca 3 yerleşim yerini ele geçirin.."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_ABANDON_OWN_SETTLEMENT": {
+      "translations": {
+        "czech": {
+          "name": "Taktika spálené země",
+          "description": "Zcela znič jedno ze svých sídel, aby se ho nemohl zmocnit nepřítel."
+        },
+        "english": {
+          "name": "Scorched Earth Policy",
+          "description": "Completely destroy one of your own settlements to prevent it falling into enemy hands."
+        },
+        "french": {
+          "name": "Politique Terre brûlée",
+          "description": "Détruisez entièrement une de vos colonies pour l'empêcher de tomber entre les mains ennemies."
+        },
+        "german": {
+          "name": "Politik der verbrannten Erde",
+          "description": "Zerstört eine Eurer eigenen Siedlungen komplett, um sie nicht in feindliche Hände fallen zu lassen."
+        },
+        "italian": {
+          "name": "Fare terra bruciata",
+          "description": "Distruggi completamente uno dei tuoi insediamenti per impedire che cada nelle mani dei nemici."
+        },
+        "polish": {
+          "name": "Polityka spalonej ziemi",
+          "description": "Całkowicie zniszcz jedną z własnych osad, by nie dostała się w ręce wroga."
+        },
+        "russian": {
+          "name": "Тактика выжженной земли",
+          "description": "Разрушьте до основания свое поселение, чтобы оно не досталось врагу."
+        },
+        "schinese": {
+          "name": "焦土政策",
+          "description": "彻底摧毁自己的一座城镇，防止它落入敌手。"
+        },
+        "spanish": {
+          "name": "Política de tierra quemada",
+          "description": "Destruye completamente uno de tus propios asentamientos para evitar que caiga en manos enemigas."
+        },
+        "turkish": {
+          "name": "Yakıp Yıkma Politikası",
+          "description": "Düşman eline düşmesini engellemek için kendi yerleşim yerlerinizden birini tamamen yok edin."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_FIELD_BALLISTA_OR_ONAGER_IN_SIEGE_CAMPAIGN_BATTLE": {
+      "translations": {
+        "czech": {
+          "name": "Obléhací expert",
+          "description": "Během obléhací bitvy v rámci kampaně nasaď balistu nebo onager. "
+        },
+        "english": {
+          "name": "Siege Engineer ",
+          "description": "Field a ballista or onager unit during a campaign siege battle."
+        },
+        "french": {
+          "name": "Ingénieur de siège",
+          "description": "Déployez une baliste ou une unité d'onagres lors d'une bataille de siège de la campagne."
+        },
+        "german": {
+          "name": "Belagerungsexperte",
+          "description": "Setzt in einer Belagerungsschlacht während eines Kampagnenspiels eine Balliste oder große Onager-Artillerieeinheit ein."
+        },
+        "italian": {
+          "name": "Ingegnere d’assedio",
+          "description": "Schiera un’unità con balista o con onagro durante un assedio della campagna."
+        },
+        "polish": {
+          "name": "Inżynier machin oblężniczych",
+          "description": "Wystaw jednostkę z balistą lub onagerem w bitwie oblężniczej w trakcie kampanii."
+        },
+        "russian": {
+          "name": "Инженер осадных машин ",
+          "description": "Используйте баллисту или онагр в ходе осады в режиме кампании."
+        },
+        "schinese": {
+          "name": "攻城工程师",
+          "description": "在一场战役攻城战中部署一支弩炮或野驴投石机部队。"
+        },
+        "spanish": {
+          "name": "Ingeniero de asedio",
+          "description": "Despliega una balista o un onagro en una batalla de asedio de campaña."
+        },
+        "turkish": {
+          "name": "Kuşatma Mühendisi ",
+          "description": "Bir sefer kuşatma savaşı sırasında bir balista ya da onager konumlandırın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_ISSUE_10_EDICTS_IN_CAMPAIGN": {
+      "translations": {
+        "czech": {
+          "name": "Guvernér",
+          "description": "Během jediné kampaně vydej 10 výnosů."
+        },
+        "english": {
+          "name": "Governor",
+          "description": "Issue 10 edicts during a single campaign."
+        },
+        "french": {
+          "name": "Gouverneur",
+          "description": "Mettez en place 10 édits lors d'une seule campagne."
+        },
+        "german": {
+          "name": "Statthalter",
+          "description": "Erteilt 10 Erlasse in einer einzelnen Kampagne."
+        },
+        "italian": {
+          "name": "Governatore",
+          "description": "Emetti 10 editti in una campagna."
+        },
+        "polish": {
+          "name": "Gubernator",
+          "description": "Wydaj 10 edyktów w trakcie jednej kampanii."
+        },
+        "russian": {
+          "name": "Губернатор",
+          "description": "Издайте 10 эдиктов в ходе одной кампании."
+        },
+        "schinese": {
+          "name": "总督",
+          "description": "在同一场战役中颁布 10 道敕令。"
+        },
+        "spanish": {
+          "name": "Gobernador",
+          "description": "Proclama 10 edictos en una sola campaña."
+        },
+        "turkish": {
+          "name": "Vali",
+          "description": "Bir sefer süresince 10 tebliğ yayınlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_FACTION_PROVINCE_SLAVE_INCOME_HIGHER_THAN_5_PERCENT": {
+      "translations": {
+        "czech": {
+          "name": "Levná pracovní síla",
+          "description": "Ovládej provincii, ve které 5 % příjmů vytvářejí otroci. "
+        },
+        "english": {
+          "name": "Very Cheap Labour",
+          "description": "Control a province in which 5% of its income is derived from slaves."
+        },
+        "french": {
+          "name": "Main d'œuvre vraiment pas chère",
+          "description": "Contrôlez une province dont 5% des revenus proviennent des esclaves."
+        },
+        "german": {
+          "name": "Sehr billige Arbeitskraft",
+          "description": "Kontrolliert eine Provinz, deren Einkommen zu 5% von Sklaven generiert wird."
+        },
+        "italian": {
+          "name": "Manodopera a basso prezzo",
+          "description": "Controlla una provincia in cui il 5% dei profitti deriva dallo sfruttamento degli schiavi."
+        },
+        "polish": {
+          "name": "Bardzo tania siła robocza",
+          "description": "Zarządzaj prowincją, w której 5% przychodów pochodzi z niewolnictwa."
+        },
+        "russian": {
+          "name": "Дешевая рабочая сила",
+          "description": "Управляйте провинцией, 5% дохода которой приносят рабы."
+        },
+        "schinese": {
+          "name": "廉价劳动力",
+          "description": "控制一个收入中有 5% 来自奴隶的行省。"
+        },
+        "spanish": {
+          "name": "Mano de obra baratísima",
+          "description": "Controla una provincia en la que el 5% de los ingresos provenga de los esclavos."
+        },
+        "turkish": {
+          "name": "Çok Ucuz İş Gücü",
+          "description": "Gelirinin %5'ini kölelerden sağlayan bir eyaletin kontrolünü alın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_RESEARCHED_AT_LEAST_1_TECH_IN_EACH_CATEGORY": {
+      "translations": {
+        "czech": {
+          "name": "Od všeho trochu",
+          "description": "Vyzkoumej alespoň 1 technologii z každé kategorie."
+        },
+        "english": {
+          "name": "All-Rounder",
+          "description": "Research at least 1 technology from each research category."
+        },
+        "french": {
+          "name": "Polyvalent",
+          "description": "Recherchez au moins une technologie dans chaque catégorie de recherche."
+        },
+        "german": {
+          "name": "Alleskönner",
+          "description": "Erforscht mindestens 1 Technologie jeder Forschungskategorie."
+        },
+        "italian": {
+          "name": "Tuttofare",
+          "description": "Ricerca almeno una tecnologia da ogni categoria di ricerca."
+        },
+        "polish": {
+          "name": "Wszechstronny",
+          "description": "Opracuj przynajmniej 1 technologię z każdej kategorii badań."
+        },
+        "russian": {
+          "name": "Мастер на все руки",
+          "description": "Исследуйте хотя бы по 1 технологии из каждой категории."
+        },
+        "schinese": {
+          "name": "全能型人才",
+          "description": "每个科技类别都至少研究 1 项科技。"
+        },
+        "spanish": {
+          "name": "Experto general",
+          "description": "Investiga al menos 1 tecnología de cada categoría de investigación."
+        },
+        "turkish": {
+          "name": "Çok Yönlü",
+          "description": "Her araştırma kategorisinden en az 1 teknolojiyi araştırın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_PROVINCE_70_PERCENT_SLAVES_POSITIVE_PUBLIC_ORDER": {
+      "translations": {
+        "czech": {
+          "name": "Svatyně",
+          "description": "Ovládej provincii, ve které tvoří 70 % obyvatelstva uprchlíci, a přesto je veřejný pořádek kladný."
+        },
+        "english": {
+          "name": "Sanctuary",
+          "description": "Control a province in which 70% of the population are refugees yet public order remains positive."
+        },
+        "french": {
+          "name": "Sanctuaire",
+          "description": "Contrôlez une province dans laquelle 70% des habitants sont des réfugiés mais dans laquelle l'ordre public reste positif."
+        },
+        "german": {
+          "name": "Zuflucht",
+          "description": "Kontrolliert eine Provinz, die zu 70% aus Flüchtlingen besteht und dennoch eine positive öffentliche Ordnung hat."
+        },
+        "italian": {
+          "name": "Rifugio",
+          "description": "Controlla una provincia in cui il 70% della popolazione è costituito da rifugiati, eppure l’ordine pubblico è positivo."
+        },
+        "polish": {
+          "name": "Schronienie",
+          "description": "Zarządzaj prowincją, w której 70% mieszkańców to uchodźcy, a mimo tego ład publiczny pozostaje zachowany."
+        },
+        "russian": {
+          "name": "Побежденное племя",
+          "description": "Управляйте провинцией, 70% населения которой составляют беженцы, сохраняя положительное значение общественного порядка."
+        },
+        "schinese": {
+          "name": "避难所",
+          "description": "控制一个难民占人口 70%、但公共秩序仍为正值的行省。"
+        },
+        "spanish": {
+          "name": "Santuario",
+          "description": "Controla una provincia en la que el 70% de la población esté formada por refugiados y en la que el orden público se mantenga en valores positivos."
+        },
+        "turkish": {
+          "name": "Sığınak",
+          "description": "%70'i mülteci olan, buna rağmen asayişi olumlu seviyede olan bir eyaletin kontrolünü alın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_RANSOM_10000_ENEMY_SOLDIERS": {
+      "translations": {
+        "czech": {
+          "name": "Obchodní duch",
+          "description": "Propusť za výkupné 10 000 nepřátelských vojáků."
+        },
+        "english": {
+          "name": "Head For Business",
+          "description": "Ransom 10,000 enemy soldiers."
+        },
+        "french": {
+          "name": "Sens des affaires",
+          "description": "Prenez 10 000 soldats ennemis en otage."
+        },
+        "german": {
+          "name": "Riecher fürs Geschäft",
+          "description": "Fordert Lösegeld für 10.000 feindliche Soldaten."
+        },
+        "italian": {
+          "name": "Gran negoziatore",
+          "description": "Incassa il riscatto per 10 000 soldati nemici."
+        },
+        "polish": {
+          "name": "Głowa do interesów",
+          "description": "Uwolnij 10000 żołnierzy wroga za okupem."
+        },
+        "russian": {
+          "name": "Деловая хватка",
+          "description": "Получите выкуп за 10 000 вражеских воинов."
+        },
+        "schinese": {
+          "name": "生意头脑",
+          "description": "释放 10000 名敌军士兵并收取赎金。"
+        },
+        "spanish": {
+          "name": "Cabeza para los negocios",
+          "description": "Captura 10.000 soldados enemigos."
+        },
+        "turkish": {
+          "name": "İş Zekası",
+          "description": "10.000 düşman askerini fidye karşılığında bırakın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_ASSASSINATE_10_AGENTS": {
+      "translations": {
+        "czech": {
+          "name": "Chuť na vraždu",
+          "description": "Zavraždi 10 nepřátelských osob."
+        },
+        "english": {
+          "name": "A Taste for Murder",
+          "description": "Assassinate 10 enemy characters."
+        },
+        "french": {
+          "name": "Le goût du crime",
+          "description": "Assassinez 10 personnages ennemis."
+        },
+        "german": {
+          "name": "Alle meine Agenten...",
+          "description": "Meuchelt 10 feindliche Charaktere."
+        },
+        "italian": {
+          "name": "Un debole per l’omicidio",
+          "description": "Assassina 10 personaggi nemici."
+        },
+        "polish": {
+          "name": "Smak morderstwa",
+          "description": "Dokonaj zamachu na 10 postaciach wroga."
+        },
+        "russian": {
+          "name": "Вкус к убийствам",
+          "description": "Организуйте заказные убийства 10 вражеских персонажей."
+        },
+        "schinese": {
+          "name": "杀戮之味",
+          "description": "暗杀 10 名敌方人物。"
+        },
+        "spanish": {
+          "name": "Debilidad por matar",
+          "description": "Asesina a 10 personajes enemigos."
+        },
+        "turkish": {
+          "name": "Cinayetin Tadı",
+          "description": "10 düşman karakterine suikast düzenleyin."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_DOMINATION_VICTORY": {
+      "translations": {
+        "czech": {
+          "name": "Veni, Vedi, Vici!",
+          "description": "Dokonči velkou kampaň a ve všech bitvách dosáhni vítězství. "
+        },
+        "english": {
+          "name": "Veni, Vedi, Vici!",
+          "description": "Complete the Grand Campaign by fighting and winning every battle."
+        },
+        "french": {
+          "name": "Veni, Vidi, Vici !",
+          "description": "Terminez la grande campagne en gagnant toutes les batailles."
+        },
+        "german": {
+          "name": "Ich kam, sah und siegte!",
+          "description": "Schließt die Große Kampagne ab, indem Ihr jede Schlacht bestreitet und gewinnt."
+        },
+        "italian": {
+          "name": "Venni, vidi, vinsi!",
+          "description": "Completa la Campagna imperiale combattendo e vincendo tutte le battaglie."
+        },
+        "polish": {
+          "name": "Veni, Vidi, Vici!",
+          "description": "Ukończ główną kampanię, wychodząc zwycięsko ze wszystkich bitew."
+        },
+        "russian": {
+          "name": "Пришел, увидел, победил!",
+          "description": "Пройдите Большую кампанию, приняв участие во всех битвах и выиграв их."
+        },
+        "schinese": {
+          "name": "我来，我见，我征服！",
+          "description": "完成大战役，所有战斗均亲自指挥并获胜。"
+        },
+        "spanish": {
+          "name": "Vine, vi y vencí",
+          "description": "Completa la gran campaña habiendo librado y ganado todas las batallas."
+        },
+        "turkish": {
+          "name": "Veni, Vedi, Vici!",
+          "description": "Büyük Sefer'i bütün savaşları oynayıp kazanarak tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_DOMINATION_VICTORY_LEGENDARY": {
+      "translations": {
+        "czech": {
+          "name": "Caesarovo zmrtvýchvstání",
+          "description": "Dokonči velkou kampaň na legendární obtížnost a ve všech bitvách dosáhni vítězství. "
+        },
+        "english": {
+          "name": "Caesar Reborn",
+          "description": "Complete the Grand Campaign on legendary difficulty by fighting and winning every battle."
+        },
+        "french": {
+          "name": "César renaît",
+          "description": "Terminez la grande campagne en difficulté légendaire en gagnant toutes les batailles."
+        },
+        "german": {
+          "name": "Wiedergeborener Cäsar",
+          "description": "Schließt die Große Kampagne auf Legendärer Schwierigkeit ab, indem Ihr jede Schlacht bestreitet und gewinnt."
+        },
+        "italian": {
+          "name": "Un nuovo Cesare",
+          "description": "Completa la Campagna imperiale con difficoltà Leggendaria combattendo e vincendo tutte le battaglie."
+        },
+        "polish": {
+          "name": "Wcielenie Cezara",
+          "description": "Ukończ główną kampanię na legendarnym poziomie trudności, wychodząc zwycięsko ze wszystkich bitew."
+        },
+        "russian": {
+          "name": "Новый Цезарь",
+          "description": "Пройдите Большую кампанию на легендарной сложности, приняв участие во всех битвах и выиграв их."
+        },
+        "schinese": {
+          "name": "凯撒重生",
+          "description": "以传奇难度完成大战役，所有战斗均亲自指挥并获胜。"
+        },
+        "spanish": {
+          "name": "César renacido",
+          "description": "Completa la gran campaña con dificultad legendaria habiendo librado y ganado todas las batallas."
+        },
+        "turkish": {
+          "name": "Yeni Sezar",
+          "description": "Büyük Sefer'i, efsanevi zorluk seviyesinde, bütün savaşları oynayıp kazanarak tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_WIN_CAMPAIGN_ON_LEGENDARY": {
+      "translations": {
+        "czech": {
+          "name": "Imperátor",
+          "description": "Vyhraj kampaň na legendární obtížnost."
+        },
+        "english": {
+          "name": "Imperator",
+          "description": "Win a campaign on legendary difficulty."
+        },
+        "french": {
+          "name": "Imperator",
+          "description": "Remportez une bataille en difficulté légendaire."
+        },
+        "german": {
+          "name": "Imperator",
+          "description": "Gewinnt eine Kampagne mit legendärer Schwierigkeit."
+        },
+        "italian": {
+          "name": "Imperatore",
+          "description": "Vinci una campagna con difficoltà Leggendaria."
+        },
+        "polish": {
+          "name": "Imperator",
+          "description": "Win a campaign on legendary difficulty."
+        },
+        "russian": {
+          "name": "Император",
+          "description": "Одержите победу в кампании на легендарном уровне сложности."
+        },
+        "schinese": {
+          "name": "统帅",
+          "description": "以传奇难度赢得一场战役。"
+        },
+        "spanish": {
+          "name": "Imperator",
+          "description": "Gana una campaña en la dificultad Legendaria."
+        },
+        "turkish": {
+          "name": "Imperator",
+          "description": "Bir seferi efsanevi zorlukta kazanın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_ALANI": {
+      "translations": {
+        "czech": {
+          "name": "Život na stepi",
+          "description": "Dokonči velkou kampaň za Alany."
+        },
+        "english": {
+          "name": "Steppe Survivors",
+          "description": "Complete the Grand Campaign as the Alani."
+        },
+        "french": {
+          "name": "Alains jacta est",
+          "description": "Terminez la grande campagne avec les Alains."
+        },
+        "german": {
+          "name": "Überlebende der Steppe",
+          "description": "Schließt die Große Kampagne als die Alaner ab."
+        },
+        "italian": {
+          "name": "Sopravvissuti delle steppe",
+          "description": "Completa la Campagna imperiale con gli Alani."
+        },
+        "polish": {
+          "name": "Ocaleli ze stepów",
+          "description": "Ukończ główną kampanię, grając Alanami."
+        },
+        "russian": {
+          "name": "Выжившие в степи",
+          "description": "Пройдите Большую кампанию за аланов."
+        },
+        "schinese": {
+          "name": "草原幸存者",
+          "description": "使用阿兰人完成大战役。"
+        },
+        "spanish": {
+          "name": "Supervivientes de las estepas",
+          "description": "Completa la gran campaña con los alanos."
+        },
+        "turkish": {
+          "name": "Bozkır Mücadelecileri",
+          "description": "Büyük Sefer'i Alanlar olarak tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_DANI": {
+      "translations": {
+        "czech": {
+          "name": "Úsvit Vikingů",
+          "description": "Dokonči velkou kampaň za Dány."
+        },
+        "english": {
+          "name": "Viking Dawn",
+          "description": "Complete the Grand Campaign as the Danes."
+        },
+        "french": {
+          "name": "Veni, vidi, Viking",
+          "description": "Terminez la grande campagne avec les Danois."
+        },
+        "german": {
+          "name": "Morgendämmerung der Wikinger",
+          "description": "Schließt die Große Kampagne als die Dänen ab."
+        },
+        "italian": {
+          "name": "Alba vichinga",
+          "description": "Completa la Campagna imperiale con i Dani."
+        },
+        "polish": {
+          "name": "Świt Wikingów",
+          "description": "Ukończ główną kampanię, grając Danami."
+        },
+        "russian": {
+          "name": "Рассвет викингов",
+          "description": "Пройдите Большую кампанию за данов."
+        },
+        "schinese": {
+          "name": "维京黎明",
+          "description": "使用丹麦人完成大战役。"
+        },
+        "spanish": {
+          "name": "Amanecer vikingo",
+          "description": "Completa la gran campaña con los danos."
+        },
+        "turkish": {
+          "name": "Vikinglerin Şafağı",
+          "description": "Büyük Sefer'i Danlar olarak tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_EASTERN_ROMAN_EMPIRE": {
+      "translations": {
+        "czech": {
+          "name": "Věčný orel",
+          "description": "Dokonči velkou kampaň za Východořímskou říši."
+        },
+        "english": {
+          "name": "Eternal Eagle",
+          "description": "Complete the Grand Campaign as the Eastern Roman Empire."
+        },
+        "french": {
+          "name": "L'aigle éternel",
+          "description": "Terminez la grande campagne avec l'empire romain oriental."
+        },
+        "german": {
+          "name": "Ewiger Adler",
+          "description": "Schließt die Große Kampagne als Oströmisches Reich ab."
+        },
+        "italian": {
+          "name": "L’aquila eterna",
+          "description": "Completa la Campagna imperiale con l’Impero romano d’oriente."
+        },
+        "polish": {
+          "name": "Wieczny orzeł",
+          "description": "Ukończ główną kampanię, grając Cesarstwem Wschodniorzymskim."
+        },
+        "russian": {
+          "name": "Вечный орел",
+          "description": "Пройдите Большую кампанию за Восточную Римскую империю."
+        },
+        "schinese": {
+          "name": "永恒之鹰",
+          "description": "使用东罗马帝国完成大战役。"
+        },
+        "spanish": {
+          "name": "Águila eterna",
+          "description": "Completa la gran campaña con el Imperio romano de Oriente."
+        },
+        "turkish": {
+          "name": "Baki Kartal",
+          "description": "Büyük Sefer'i Doğu Roma İmparatorluğu olarak tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_FRANCI": {
+      "translations": {
+        "czech": {
+          "name": "Franci, drahá, kašlu na to!",
+          "description": "Dokonči velkou kampaň za Franky."
+        },
+        "english": {
+          "name": "Franci, My Dear, I Couldn't Give a Damn!",
+          "description": "Complete the Grand Campaign as the Franks."
+        },
+        "french": {
+          "name": "Un Franc succès",
+          "description": "Terminez la grande campagne avec les Francs."
+        },
+        "german": {
+          "name": "Zanken mit Franken",
+          "description": "Schließt die Große Kampagne als die Franken ab."
+        },
+        "italian": {
+          "name": "Franchi all’assalto",
+          "description": "Completa la Campagna imperiale con i Franchi."
+        },
+        "polish": {
+          "name": "To nie było warte złamanego Franka.",
+          "description": "Ukończ główną kampanię, grając Frankami."
+        },
+        "russian": {
+          "name": "Франки навсегда",
+          "description": "Пройдите Большую кампанию за франков."
+        },
+        "schinese": {
+          "name": "亲爱的法兰克，我才不在乎！",
+          "description": "使用法兰克人完成大战役。"
+        },
+        "spanish": {
+          "name": "Francamente, querida, me importa un bledo",
+          "description": "Completa la gran campaña con los francos."
+        },
+        "turkish": {
+          "name": "Frenk, Canım, Bunlar Vız Gelir Tırıs Gider!",
+          "description": "Büyük Sefer'i Frenkler olarak tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_GAUTI": {
+      "translations": {
+        "czech": {
+          "name": "Gótské války",
+          "description": "Dokonči velkou kampaň za Góty."
+        },
+        "english": {
+          "name": "Gothic War",
+          "description": "Complete the Grand Campaign as the Geats."
+        },
+        "french": {
+          "name": "Guerre gothe",
+          "description": "Terminez la grande campagne avec les Geats."
+        },
+        "german": {
+          "name": "Gotenkrieg",
+          "description": "Schließt die Große Kampagne als die Gauten ab."
+        },
+        "italian": {
+          "name": "Guerra gotica",
+          "description": "Completa la Campagna imperiale con i Geati."
+        },
+        "polish": {
+          "name": "Wojna gocka",
+          "description": "Ukończ główną kampanię, grając Gotami."
+        },
+        "russian": {
+          "name": "Готская война",
+          "description": "Пройдите Большую кампанию за гетов."
+        },
+        "schinese": {
+          "name": "哥特战争",
+          "description": "使用盖特人完成大战役。"
+        },
+        "spanish": {
+          "name": "Guerra gótica",
+          "description": "Completa la gran campaña con los gautas."
+        },
+        "turkish": {
+          "name": "Got Savaşı",
+          "description": "Büyük Sefer'i Getler olarak tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_HUNNI": {
+      "translations": {
+        "czech": {
+          "name": "Zhouba civilizace",
+          "description": "Dokonči velkou kampaň za Huny."
+        },
+        "english": {
+          "name": "Scourge of Civilisation",
+          "description": "Complete the Grand Campaign as the Huns."
+        },
+        "french": {
+          "name": "Hun terrible fléau",
+          "description": "Terminez la grande campagne avec les Huns."
+        },
+        "german": {
+          "name": "Geißel der Zivilisation",
+          "description": "Schließt die Große Kampagne als die Hunnen ab."
+        },
+        "italian": {
+          "name": "I flagelli della civiltà",
+          "description": "Completa la Campagna imperiale con gli Unni."
+        },
+        "polish": {
+          "name": "Cywilizacja Bicza Bożego",
+          "description": "Ukończ główną kampanię, grając Hunami."
+        },
+        "russian": {
+          "name": "Бич цивилизации",
+          "description": "Пройдите Большую кампанию за гуннов."
+        },
+        "schinese": {
+          "name": "文明之灾",
+          "description": "使用匈人完成大战役。"
+        },
+        "spanish": {
+          "name": "El azote de la civilización",
+          "description": "Completa la gran campaña con los hunos."
+        },
+        "turkish": {
+          "name": "Medeniyetin Kırbacı",
+          "description": "Büyük Sefer'i Hunlar olarak tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_IUTI": {
+      "translations": {
+        "czech": {
+          "name": "Jutová koruna!",
+          "description": "Dokonči velkou kampaň za Juty."
+        },
+        "english": {
+          "name": "Jute a Minute!",
+          "description": "Complete the Grand Campaign as the Jutes."
+        },
+        "french": {
+          "name": "C'est pas Jute!",
+          "description": "Terminez la grande campagne avec les Jutes."
+        },
+        "german": {
+          "name": "Moment!",
+          "description": "Schließt die Große Kampagne als die Jüten ab."
+        },
+        "italian": {
+          "name": "Juti e giusti",
+          "description": "Completa la Campagna imperiale con gli Juti."
+        },
+        "polish": {
+          "name": "Lepsze jutro Jutów",
+          "description": "Ukończ główną kampanię, grając Jutami."
+        },
+        "russian": {
+          "name": "Юты, вперед!",
+          "description": "Пройдите Большую кампанию за ютов."
+        },
+        "schinese": {
+          "name": "朱特且慢！",
+          "description": "使用朱特人完成大战役。"
+        },
+        "spanish": {
+          "name": "Jutos al poder",
+          "description": "Completa la gran campaña con los jutos."
+        },
+        "turkish": {
+          "name": "Jutiler Kadar Büyük",
+          "description": "Büyük Sefer'i Jutiler olarak tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_OSTROGOTHI": {
+      "translations": {
+        "czech": {
+          "name": "Ostrogótské království",
+          "description": "Dokonči velkou kampaň za Ostrogóty."
+        },
+        "english": {
+          "name": "Ostrogothic Kingdom",
+          "description": "Complete the Grand Campaign as the Ostrogoths."
+        },
+        "french": {
+          "name": "Royaume ostrogoth",
+          "description": "Terminez la grande campagne avec les Ostrogoths."
+        },
+        "german": {
+          "name": "Königreich der Ostgoten",
+          "description": "Schließt die Große Kampagne als die Ostgoten ab."
+        },
+        "italian": {
+          "name": "Regno degli Ostrogoti",
+          "description": "Completa la Campagna imperiale con gli Ostrogoti."
+        },
+        "polish": {
+          "name": "Królestwo Ostrogotów",
+          "description": "Ukończ główną kampanię, grając Ostrogotami."
+        },
+        "russian": {
+          "name": "Остготское царство",
+          "description": "Пройдите Большую кампанию за остготов."
+        },
+        "schinese": {
+          "name": "东哥特王国",
+          "description": "使用东哥特人完成大战役。"
+        },
+        "spanish": {
+          "name": "Reino ostrogodo",
+          "description": "Completa la gran campaña con los ostrogodos."
+        },
+        "turkish": {
+          "name": "Ostrogot Krallığı",
+          "description": "Büyük Sefer'i Ostrogotlar olarak tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_SASSANID_EMPIRE": {
+      "translations": {
+        "czech": {
+          "name": "Sásánovská nadvláda",
+          "description": "Dokonči velkou kampaň za Sásánovce."
+        },
+        "english": {
+          "name": "Sassanid Supremacy",
+          "description": "Complete the Grand Campaign as the Sassanid Empire."
+        },
+        "french": {
+          "name": "Suprématie sassanide",
+          "description": "Terminez la grande campagne avec l'empire sassanide."
+        },
+        "german": {
+          "name": "Überlegenheit der Sassaniden",
+          "description": "Schließt die Große Kampagne als das Sassanidenreich ab."
+        },
+        "italian": {
+          "name": "Supremazia sasanide",
+          "description": "Completa la Campagna imperiale con l’Impero sasanide."
+        },
+        "polish": {
+          "name": "Wyższość Sasanidów",
+          "description": "Ukończ główną kampanię, grając imperium Sasanidów."
+        },
+        "russian": {
+          "name": "Превосходство Сасанидов",
+          "description": "Пройдите Большую кампанию за империю Сасанидов."
+        },
+        "schinese": {
+          "name": "萨珊霸权",
+          "description": "使用萨珊帝国完成大战役。"
+        },
+        "spanish": {
+          "name": "Supremacía sasánida",
+          "description": "Completa la gran campaña con el Imperio sasánida."
+        },
+        "turkish": {
+          "name": "Sasani Hakimiyeti",
+          "description": "Büyük Sefer'i Sasani İmparatorluğu olarak tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_SAXONES": {
+      "translations": {
+        "czech": {
+          "name": "Saské břehy",
+          "description": "Dokonči velkou kampaň za Sasy."
+        },
+        "english": {
+          "name": "Saxon Shores",
+          "description": "Complete the Grand Campaign as the Saxons."
+        },
+        "french": {
+          "name": "Rivages saxons",
+          "description": "Terminez la grande campagne avec les Saxons."
+        },
+        "german": {
+          "name": "Sachsenküste",
+          "description": "Schließt die Große Kampagne als die Sachsen ab."
+        },
+        "italian": {
+          "name": "Costa sassone",
+          "description": "Completa la Campagna imperiale con i Sassoni."
+        },
+        "polish": {
+          "name": "Saskie wybrzeża",
+          "description": "Ukończ główną kampanię, grając Sasami."
+        },
+        "russian": {
+          "name": "Саксонские берега",
+          "description": "Пройдите Большую кампанию за саксов."
+        },
+        "schinese": {
+          "name": "撒克逊海岸",
+          "description": "使用撒克逊人完成大战役。"
+        },
+        "spanish": {
+          "name": "Costas sajonas",
+          "description": "Completa la gran campaña con los sajones."
+        },
+        "turkish": {
+          "name": "Sakson Kıyıları",
+          "description": "Büyük Sefer'i Saksonlar olarak tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_VANDALI": {
+      "translations": {
+        "czech": {
+          "name": "Bohapusté vandalství",
+          "description": "Dokonči velkou kampaň za Vandaly."
+        },
+        "english": {
+          "name": "Sheer Vandalism",
+          "description": "Complete the Grand Campaign as the Vandals."
+        },
+        "french": {
+          "name": "Vandalisme pur et simple",
+          "description": "Terminez la grande campagne avec les Vandales."
+        },
+        "german": {
+          "name": "Vandalen",
+          "description": "Schließt die Große Kampagne als die Vandalen ab."
+        },
+        "italian": {
+          "name": "Vandalismo puro",
+          "description": "Completa la Campagna imperiale con i Vandali."
+        },
+        "polish": {
+          "name": "Czysty wandalizm",
+          "description": "Ukończ główną kampanię, grając Wandalami."
+        },
+        "russian": {
+          "name": "Вандализм как он есть",
+          "description": "Пройдите Большую кампанию за вандалов."
+        },
+        "schinese": {
+          "name": "纯粹的汪达尔式破坏",
+          "description": "使用汪达尔人完成大战役。"
+        },
+        "spanish": {
+          "name": "Puro vandalismo",
+          "description": "Completa la gran campaña con los vándalos."
+        },
+        "turkish": {
+          "name": "Büsbütün Vandalizm",
+          "description": "Büyük Sefer'i Vandallar olarak tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_VISIGOTHI": {
+      "translations": {
+        "czech": {
+          "name": "Vizigótské království",
+          "description": "Dokonči velkou kampaň za Vizigóty."
+        },
+        "english": {
+          "name": "Visigothic Kingdom",
+          "description": "Complete the Grand Campaign as the Visigoths."
+        },
+        "french": {
+          "name": "Royaume wisigoth",
+          "description": "Terminez la grande campagne avec les Wisigoths."
+        },
+        "german": {
+          "name": "Königreich der Westgoten",
+          "description": "Schließt die Große Kampagne als die Westgoten ab."
+        },
+        "italian": {
+          "name": "Regno dei Visigoti",
+          "description": "Completa la Campagna imperiale con i Visigoti."
+        },
+        "polish": {
+          "name": "Królestwo Wizygotów",
+          "description": "Ukończ główną kampanię, grając Wizygotami."
+        },
+        "russian": {
+          "name": "Вестготское царство",
+          "description": "Пройдите Большую кампанию за вестготов."
+        },
+        "schinese": {
+          "name": "西哥特王国",
+          "description": "使用西哥特人完成大战役。"
+        },
+        "spanish": {
+          "name": "Reino visigodo",
+          "description": "Completa la gran campaña con los visigodos."
+        },
+        "turkish": {
+          "name": "Vizigot Krallığı",
+          "description": "Büyük Sefer'i Vizigotlar olarak tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_WESTERN_ROMAN_EMPIRE": {
+      "translations": {
+        "czech": {
+          "name": "Nás nepokoří",
+          "description": "Dokonči velkou kampaň za Západořímskou říši."
+        },
+        "english": {
+          "name": "I'm Still Standing",
+          "description": "Complete the Grand Campaign as the Western Roman Empire."
+        },
+        "french": {
+          "name": "Pas encore mort",
+          "description": "Terminez la grande campagne avec l'empire romain d'occident."
+        },
+        "german": {
+          "name": "Noch nicht geschlagen",
+          "description": "Schließt die Große Kampagne als Weströmisches Reich ab."
+        },
+        "italian": {
+          "name": "Ancora in piedi",
+          "description": "Completa la Campagna imperiale con l’Impero romano d’occidente."
+        },
+        "polish": {
+          "name": "Nie upadnę",
+          "description": "Ukończ główną kampanię, grając Cesarstwem Zachodniorzymskim."
+        },
+        "russian": {
+          "name": "Мы еще стоим",
+          "description": "Пройдите Большую кампанию за Западную Римскую империю."
+        },
+        "schinese": {
+          "name": "我仍屹立不倒",
+          "description": "使用西罗马帝国完成大战役。"
+        },
+        "spanish": {
+          "name": "Aún en pie",
+          "description": "Completa la gran campaña con el Imperio romano de Occidente."
+        },
+        "turkish": {
+          "name": "Hala Ayaktayım",
+          "description": "Büyük Sefer'i Batı Roma İmparatorluğu olarak tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_COMPLETE_PROLOGUE": {
+      "translations": {
+        "czech": {
+          "name": "Gótské války",
+          "description": "Dohraj úvodní kampaň."
+        },
+        "english": {
+          "name": "The Gothic War",
+          "description": "Complete the Prologue Campaign."
+        },
+        "french": {
+          "name": "La guerre des Goths",
+          "description": "Terminez la campagne du prologue."
+        },
+        "german": {
+          "name": "Der Gotenkrieg",
+          "description": "Schließt die Prolog-Kampagne ab."
+        },
+        "italian": {
+          "name": "La guerra gotica",
+          "description": "Completa la campagna Prologo."
+        },
+        "polish": {
+          "name": "Wojna gocka",
+          "description": "Ukończ kampanię prologu."
+        },
+        "russian": {
+          "name": "Готская война",
+          "description": "Пройдите кампанию 'Пролог'"
+        },
+        "schinese": {
+          "name": "哥特之战",
+          "description": "完成序章战役。"
+        },
+        "spanish": {
+          "name": "La guerra gótica",
+          "description": "Completa la campaña del prólogo."
+        },
+        "turkish": {
+          "name": "Got Savaşı",
+          "description": "Giriş Seferini tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_ALAMANS": {
+      "translations": {
+        "czech": {
+          "name": "Dohraj kampaň za Alemány.",
+          "description": "Všichni chlapi. Někteří s mečem"
+        },
+        "english": {
+          "name": "All men. Some swords",
+          "description": "Complete a campaign as the Alemanni."
+        },
+        "french": {
+          "name": "Tous les hommes. Certaines épées",
+          "description": "Terminez une campagne en incarnant les Alamans."
+        },
+        "german": {
+          "name": "Alle Männer. Manche Schwerter",
+          "description": "Schließt eine Kampagne als Alemannen ab."
+        },
+        "italian": {
+          "name": "Tanti uomini. Tante spade.",
+          "description": "Completa una campagna con gli Alemanni."
+        },
+        "polish": {
+          "name": "Wszyscy ludzie. Niektórzy z mieczami.",
+          "description": "Ukończ kampanię jako Alemanowie."
+        },
+        "russian": {
+          "name": "Общечеловеческие ценности",
+          "description": "Пройдите кампанию за алеманов."
+        },
+        "schinese": {
+          "name": "人人皆兵，刀剑在手",
+          "description": "使用阿勒曼尼人完成一场战役。"
+        },
+        "spanish": {
+          "name": "Todos los hombres y algunas espadas.",
+          "description": "Completa una campaña con los alamanes."
+        },
+        "turkish": {
+          "name": "Hepsi insan. Bazıları asker.",
+          "description": "Alamanlar olarak oynayarak bir sefer tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_BURGUNDIANS": {
+      "translations": {
+        "czech": {
+          "name": "Červený dvorec",
+          "description": "Dohraj kampaň za Burgunďany."
+        },
+        "english": {
+          "name": "The House Red",
+          "description": "Complete a campaign as the Burgundii."
+        },
+        "french": {
+          "name": "La maison Rouge",
+          "description": "Terminez une campagne en incarnant les Burgondes."
+        },
+        "german": {
+          "name": "Das Haus Rot",
+          "description": "Schließt eine Kampagne als Burgunder ab."
+        },
+        "italian": {
+          "name": "Vedo rosso",
+          "description": "Completa una campagna con i Burgundi."
+        },
+        "polish": {
+          "name": "Czerwony Ród",
+          "description": "Ukończ kampanię jako Burgundowie."
+        },
+        "russian": {
+          "name": "Бордовые тона",
+          "description": "Пройдите кампанию за бургундов."
+        },
+        "schinese": {
+          "name": "勃艮第红",
+          "description": "使用勃艮第人完成一场战役。"
+        },
+        "spanish": {
+          "name": "La casa roja",
+          "description": "Completa una campaña con los burgundios."
+        },
+        "turkish": {
+          "name": "Kızıl Hane",
+          "description": "Burgundiyalılar olarak oynayarak bir sefer tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_LANGOBARDS": {
+      "translations": {
+        "czech": {
+          "name": "Godanovi vyvolení",
+          "description": "Dohraj kampaň za Langobardy."
+        },
+        "english": {
+          "name": "Godan's Chosen",
+          "description": "Complete a campaign as the Langobardi."
+        },
+        "french": {
+          "name": "Les Élus de Godan",
+          "description": "Terminez une campagne en incarnant les Lombards."
+        },
+        "german": {
+          "name": "Die Auserwählten Godans",
+          "description": "Schließt eine Kampagne als Langobarden ab."
+        },
+        "italian": {
+          "name": "I Prescelti di Godan",
+          "description": "Completa una campagna con i Longobardi."
+        },
+        "polish": {
+          "name": "Wybrańcy Godana",
+          "description": "Ukończ kampanię jako Longobardowie."
+        },
+        "russian": {
+          "name": "Избранники Годана",
+          "description": "Пройдите кампанию за лангобардов."
+        },
+        "schinese": {
+          "name": "戈丹的选民",
+          "description": "使用伦巴第人完成一场战役。"
+        },
+        "spanish": {
+          "name": "Los elegidos de Godan",
+          "description": "Completa una campaña con los longobardos."
+        },
+        "turkish": {
+          "name": "Godan'ın Seçtikleri",
+          "description": "Langobardlar olarak oynayarak bir sefer tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_CALEDONIANS": {
+      "translations": {
+        "czech": {
+          "name": "Druhé vojsko",
+          "description": "Dohraj velkou kampaň za Kaledoňany."
+        },
+        "english": {
+          "name": "A Second Force",
+          "description": "Complete the Grand Campaign as the Caledonians."
+        },
+        "french": {
+          "name": "Une deuxième force",
+          "description": "Terminez la grande campagne avec les Calédoniens."
+        },
+        "german": {
+          "name": "Zweite Streitkraft",
+          "description": "Schließt die Große Kampagne als die Kaledonier ab."
+        },
+        "italian": {
+          "name": "Una seconda forza",
+          "description": "Completa la Campagna imperiale con i Caledoni."
+        },
+        "polish": {
+          "name": "Druga siła",
+          "description": "Ukończ wielką kampanię jako Kaledończycy."
+        },
+        "russian": {
+          "name": "Вторая сила",
+          "description": "Пройдите Большую кампанию за каледонцев."
+        },
+        "schinese": {
+          "name": "另一股力量",
+          "description": "使用喀里多尼亚人完成大战役。"
+        },
+        "spanish": {
+          "name": "Segunda fuerza",
+          "description": "Completa la gran campaña con los caledonios."
+        },
+        "turkish": {
+          "name": "İkincil Bir Kuvvet",
+          "description": "Kaledonyalılar olarak Büyük Seferi'i tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_EBDANIANS": {
+      "translations": {
+        "czech": {
+          "name": "Do Irska a zase zpátky",
+          "description": "Dohraj velkou kampaň za Ebdanijce."
+        },
+        "english": {
+          "name": "Eire & Back Again",
+          "description": "Complete the Grand Campaign as the Ebdanians."
+        },
+        "french": {
+          "name": "Ils manquent pas d'Eire",
+          "description": "Terminez la grande campagne avec les Eblani."
+        },
+        "german": {
+          "name": "Ebdanistan",
+          "description": "Schließt die Große Kampagne als die Ebdani ab."
+        },
+        "italian": {
+          "name": "Fino alla fine",
+          "description": "Completa la Campagna imperiale con gli Ebdani."
+        },
+        "polish": {
+          "name": "Zielona wyspa",
+          "description": "Ukończ główną kampanię, grając Ebdanami."
+        },
+        "russian": {
+          "name": "Ирландия навеки",
+          "description": "Пройдите Большую кампанию за эбданов."
+        },
+        "schinese": {
+          "name": "往返爱尔兰",
+          "description": "使用埃布丹人完成大战役。"
+        },
+        "spanish": {
+          "name": "Victoria ebdana",
+          "description": "Completa la gran campaña con los ebdanos."
+        },
+        "turkish": {
+          "name": "İrlanda'da Bulundum ve Döndüm",
+          "description": "Ebdanlılar olarak Büyük Sefer'i tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_PICTS": {
+      "translations": {
+        "czech": {
+          "name": "Rozpiktění",
+          "description": "Dohraj velkou kampaň za Pikty."
+        },
+        "english": {
+          "name": "Pict Apart",
+          "description": "Complete the Grand Campaign as the Picts."
+        },
+        "french": {
+          "name": "Pictes au gramme",
+          "description": "Terminez la grande campagne avec les Pictes."
+        },
+        "german": {
+          "name": "Pack die Pikten",
+          "description": "Schließt die Große Kampagne als die Pikten ab."
+        },
+        "italian": {
+          "name": "Pitti alla riscossa",
+          "description": "Completa la Campagna imperiale con i Pitti."
+        },
+        "polish": {
+          "name": "Piktografia",
+          "description": "Ukończ wielką kampanię jako Piktowie."
+        },
+        "russian": {
+          "name": "Независимость пиктов",
+          "description": "Пройдите Большую кампанию за пиктов."
+        },
+        "schinese": {
+          "name": "皮克特，势不可挡",
+          "description": "使用皮克特人完成大战役。"
+        },
+        "spanish": {
+          "name": "¡Pictoria!",
+          "description": "Completa la gran campaña con los pictos."
+        },
+        "turkish": {
+          "name": "Piktler Dağıldı",
+          "description": "Piktler olarak Büyük Sefer'i tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_BEL_CAMPAIGN_VICTORY_BYZANTINE_EXPEDITION": {
+      "translations": {
+        "czech": {
+          "name": "Poslední Říman",
+          "description": "Zůstaň věrný Říši a dohraj kampaň „Poslední Říman“ za římskou výpravu ."
+        },
+        "english": {
+          "name": "The Last Roman",
+          "description": "Remain loyal to the Empire, completing the Last Roman Campaign as the Roman Expedition."
+        },
+        "french": {
+          "name": "Le dernier Romain",
+          "description": "Restez loyal envers l'empire, terminez la dernière campagne romaine avec l'expédition romaine."
+        },
+        "german": {
+          "name": "Der letzte Römer",
+          "description": "Bleibt dem Imperium treu, schließt die Kampagne „Der letzte Römer“ als römische Expedition ab."
+        },
+        "italian": {
+          "name": "L’ultimo romano",
+          "description": "Rimani leale all’Impero, completando la campagna L’ultimo romano con la spedizione romana."
+        },
+        "polish": {
+          "name": "Ostatni Rzymianin",
+          "description": "Pozostań lojalny cesarstwu, kończąc kompanię „Ostatni Rzymianin” jako rzymska ekspedycja."
+        },
+        "russian": {
+          "name": "Последний римлянин",
+          "description": "Сохраните верность империи, пройдя кампанию 'Последний римлянин' за римскую экспедицию."
+        },
+        "schinese": {
+          "name": "最后的罗马人",
+          "description": "效忠帝国，使用罗马远征军完成“最后的罗马人”战役。"
+        },
+        "spanish": {
+          "name": "El último romano",
+          "description": "Permanece leal al imperio para completar la última campaña romana como la expedición romana."
+        },
+        "turkish": {
+          "name": "Son Romalı",
+          "description": "Son Roma Senaryosu'nu Roma Seferi ile tamamlayarak İmparatorluğa Sadık Kalın."
+        }
+      }
+    },
+    "ACHIEVEMENT_BEL_CAMPAIGN_VICTORY_FRANKISH_KINGDOM": {
+      "translations": {
+        "czech": {
+          "name": "Barbarské kraje za Rýnem",
+          "description": "Dohraj kampaň „Poslední Říman“ za Franky."
+        },
+        "english": {
+          "name": "Barbaricum Trans Rhenum",
+          "description": "Complete the Last Roman Campaign as the Franks."
+        },
+        "french": {
+          "name": "Barbaricum trans Rhenum",
+          "description": "Terminez la dernière campagne romaine avec les Francs."
+        },
+        "german": {
+          "name": "Barbaricum Trans Rhenum",
+          "description": "Schließt die Kampagne „Der letzte Römer“ als die Franken ab."
+        },
+        "italian": {
+          "name": "Barbaricum trans Rhenum",
+          "description": "Completa la campagna L’ultimo romano con i Franchi."
+        },
+        "polish": {
+          "name": "Barbaricum Trans Rhenum",
+          "description": "Ukończ kampanię „Ostatni Rzymianin”, grając Frankami."
+        },
+        "russian": {
+          "name": "Barbaricum Trans Rhenum",
+          "description": "Пройдите кампанию 'Последний римлянин' за франков."
+        },
+        "schinese": {
+          "name": "莱茵河彼岸的蛮族",
+          "description": "使用法兰克人完成“最后的罗马人”战役。"
+        },
+        "spanish": {
+          "name": "Barbaricum Trans Rhenum",
+          "description": "Completa la última campaña romana con los francos."
+        },
+        "turkish": {
+          "name": "Barbaricum Trans Rhenum",
+          "description": "Son Roma Senaryosu'nu Frenkler ile tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_BEL_CAMPAIGN_VICTORY_ITALIAN_KINGDOM": {
+      "translations": {
+        "czech": {
+          "name": "Král Itálie",
+          "description": "Vyhlas nezávislost a dohraj kampaň „Poslední Říman“ za Belisaria."
+        },
+        "english": {
+          "name": "King of Italy",
+          "description": "Declare independence, completing the Last Roman Campaign as Belisarius."
+        },
+        "french": {
+          "name": "Roi de l'Italie",
+          "description": "Déclarez l'indépendance, terminez la campagne du Dernier Romain avec Bélisaire."
+        },
+        "german": {
+          "name": "König von Italien",
+          "description": "Erklärt die Unabhängigkeit, schließt die Kampagne „Der letzte Römer“ als Belisar ab."
+        },
+        "italian": {
+          "name": "“Re d’Italia”",
+          "description": "Dichiara l’indipendenza, completando la campagna L’ultimo romano con Belisario."
+        },
+        "polish": {
+          "name": "Król Italii",
+          "description": "Ogłoś niepodległość, kończąc kompanię „Ostatni Rzymianin” jako Belizariusz."
+        },
+        "russian": {
+          "name": "Король Италии",
+          "description": "Объявите независимость, пройдя кампанию 'Последний римлянин' за Велисария."
+        },
+        "schinese": {
+          "name": "意大利之王",
+          "description": "宣布独立，以贝利撒留的身份完成“最后的罗马人”战役。"
+        },
+        "spanish": {
+          "name": "Rey de Italia",
+          "description": "Declara la independencia para completar la última campaña romana como Belisario."
+        },
+        "turkish": {
+          "name": "İtalya Kralı",
+          "description": "Belisarius ile Son Roma Senaryosunu tamamlayarak bağımsızlığınızı ilan edin."
+        }
+      }
+    },
+    "ACHIEVEMENT_BEL_CAMPAIGN_VICTORY_OSTROGOTHIC_KINGDOM": {
+      "translations": {
+        "czech": {
+          "name": "Duchovní a světské",
+          "description": "Dohraj kampaň „Poslední Říman“ za Ostrogóty."
+        },
+        "english": {
+          "name": "The Sacred & Profane",
+          "description": "Complete the Last Roman Campaign as the Ostrogoths."
+        },
+        "french": {
+          "name": "Le sacré et le profane",
+          "description": "Terminez la dernière campagne romaine avec les Ostrogoths."
+        },
+        "german": {
+          "name": "Das Heilige und Profane",
+          "description": "Schließt die Kampagne „Der letzte Römer“ als die Ostgoten ab."
+        },
+        "italian": {
+          "name": "Il sacro e il profano",
+          "description": "Completa la campagna L’ultimo romano con gli Ostrogoti."
+        },
+        "polish": {
+          "name": "Święci i profani",
+          "description": "Ukończ kampanię „Ostatni Rzymianin”, grając Ostrogotami."
+        },
+        "russian": {
+          "name": "Священное и мирское",
+          "description": "Пройдите кампанию 'Последний римлянин' за остготов."
+        },
+        "schinese": {
+          "name": "神圣与世俗",
+          "description": "使用东哥特人完成“最后的罗马人”战役。"
+        },
+        "spanish": {
+          "name": "Lo sagrado y lo profano",
+          "description": "Completa la última campaña romana con los ostrogodos."
+        },
+        "turkish": {
+          "name": "Kutsal ve Kafir",
+          "description": "Son Roma Senaryosu'nu Ostrogotlar ile tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_BEL_CAMPAIGN_VICTORY_VANDALIC_KINGDOM": {
+      "translations": {
+        "czech": {
+          "name": "Opovrženíhodný vandalismus",
+          "description": "Dohraj kampaň „Poslední Říman“ za Vandaly."
+        },
+        "english": {
+          "name": "Abject Vandalism",
+          "description": "Complete the Last Roman Campaign as the Vandals."
+        },
+        "french": {
+          "name": "Vandalisme misérable",
+          "description": "Terminez la dernière campagne romaine avec les Vandales."
+        },
+        "german": {
+          "name": "Elende Vandalen",
+          "description": "Schließt die Kampagne „Der letzte Römer“ als die Vandalen ab."
+        },
+        "italian": {
+          "name": "Vile vandalismo",
+          "description": "Completa la campagna L’ultimo romano con i Vandali."
+        },
+        "polish": {
+          "name": "Prawdziwy wandalizm",
+          "description": "Ukończ kampanię „Ostatni Rzymianin”, grając Wandalami."
+        },
+        "russian": {
+          "name": "Вандализм без границ",
+          "description": "Пройдите кампанию 'Последний римлянин' за вандалов."
+        },
+        "schinese": {
+          "name": "彻底的汪达尔式破坏",
+          "description": "使用汪达尔人完成“最后的罗马人”战役。"
+        },
+        "spanish": {
+          "name": "Vandalismo deplorable",
+          "description": "Completa la última campaña romana con los vándalos."
+        },
+        "turkish": {
+          "name": "Aşağılık Vandalizm",
+          "description": "Son Roma Senaryosu'nu Vandallar ile tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_BEL_CAMPAIGN_VICTORY_VISIGOTHIC_KINGDOM": {
+      "translations": {
+        "czech": {
+          "name": "Regnum Tolosanum",
+          "description": "Dohraj kampaň „Poslední Říman“ za Vizigóty."
+        },
+        "english": {
+          "name": "Tolosanisches Reich",
+          "description": "Complete the Last Roman Campaign as the Visigoths."
+        },
+        "french": {
+          "name": "Regnum Tolosanum",
+          "description": "Terminez la dernière campagne romaine avec les Wisigoths."
+        },
+        "german": {
+          "name": "Tolosanisches Reich",
+          "description": "Schließt die Kampagne „Der letzte Römer“ als die Westgoten ab."
+        },
+        "italian": {
+          "name": "Regnum Tolosanum",
+          "description": "Completa la campagna L’ultimo romano con i Visigoti."
+        },
+        "polish": {
+          "name": "Regnum Tolosanum",
+          "description": "Ukończ kampanię „Ostatni Rzymianin”, grając Wizygotami."
+        },
+        "russian": {
+          "name": "Regnum Tolosanum",
+          "description": "Пройдите кампанию 'Последний римлянин' за вестготов."
+        },
+        "schinese": {
+          "name": "图卢兹王国",
+          "description": "使用西哥特人完成“最后的罗马人”战役。"
+        },
+        "spanish": {
+          "name": "Regnum Tolosanum",
+          "description": "Completa la última campaña romana con los visigodos."
+        },
+        "turkish": {
+          "name": "Regnum Tolosanum",
+          "description": "Son Roma Senaryosu'nu Vizigotlar ile tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_SUEBI": {
+      "translations": {
+        "czech": {
+          "name": "Galicijské království",
+          "description": "Dohraj kampaň „poslední Říman“ za Svéby."
+        },
+        "english": {
+          "name": "Kingdom of Gallaecia",
+          "description": "Complete the Grand Campaign as the Suebi."
+        },
+        "french": {
+          "name": "Royaume de Gallaecia",
+          "description": "Terminez la grande campagne avec les Suèves."
+        },
+        "german": {
+          "name": "Königreich Gallaecia",
+          "description": "Schließt die Große Kampagne als Sueben ab."
+        },
+        "italian": {
+          "name": "Regno di Gallaecia",
+          "description": "Completa la Campagna imperiale con i Suebi."
+        },
+        "polish": {
+          "name": "Królestwo Gallaecji",
+          "description": "Ukończ wielką kampanię jako Swebowie."
+        },
+        "russian": {
+          "name": "Галлецийское царство",
+          "description": "Пройдите Большую кампанию за свебов."
+        },
+        "schinese": {
+          "name": "加利西亚王国",
+          "description": "使用苏维汇人完成大战役。"
+        },
+        "spanish": {
+          "name": "Reino de Gallaecia",
+          "description": "Completa la gran campaña con los suevos."
+        },
+        "turkish": {
+          "name": "Galiçya Krallığı",
+          "description": "Büyük Sefer'i Süevler olarak tamamlayın."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_AKSUM": {
+      "translations": {
+        "czech": {
+          "name": "Obelisky věčnosti",
+          "description": "Dohraj velkou kampaň za Aksum."
+        },
+        "english": {
+          "name": "Obelisks to Eternity",
+          "description": "Complete the Grand Campaign as Aksum."
+        },
+        "french": {
+          "name": "Des obélisques pour l'éternité",
+          "description": "Terminez la grande campagne avec Aksoum."
+        },
+        "german": {
+          "name": "Obelisk der Ewigkeit",
+          "description": "Schließt die Große Kampagne als Aksum ab."
+        },
+        "italian": {
+          "name": "Obelischi per l’eternità",
+          "description": "Completa la Campagna imperiale con Aksum."
+        },
+        "polish": {
+          "name": "Obeliski na wieki",
+          "description": "Ukończ wielką kampanię jako Aksum."
+        },
+        "russian": {
+          "name": "Обелиски вечности",
+          "description": "Пройдите Большую кампанию за Аксум."
+        },
+        "schinese": {
+          "name": "永恒的方尖碑",
+          "description": "使用阿克苏姆完成大战役。"
+        },
+        "spanish": {
+          "name": "Obeliscos para la eternidad",
+          "description": "Completa la gran campaña con Aksum."
+        },
+        "turkish": {
+          "name": "Sonsuzluk Dikilitaşı",
+          "description": "Büyük Seferi Aksum olarak tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_HIMYAR": {
+      "translations": {
+        "czech": {
+          "name": "Přítel císařů",
+          "description": "Dohraj velkou kampaň za Himyar."
+        },
+        "english": {
+          "name": "A Friend to Emperors",
+          "description": "Complete the Grand Campaign as Himyar."
+        },
+        "french": {
+          "name": "L'ami des empereurs",
+          "description": "Terminez la grande campagne avec Himyar."
+        },
+        "german": {
+          "name": "Ein Freund der Kaiser",
+          "description": "Schließt die Große Kampagne als Himjar ab."
+        },
+        "italian": {
+          "name": "Amico degli Imperatori",
+          "description": "Completa la Campagna imperiale con Himyar."
+        },
+        "polish": {
+          "name": "Przyjaciel cesarzy",
+          "description": "Ukończ wielką kampanię jako Himjaryci."
+        },
+        "russian": {
+          "name": "Друг императоров",
+          "description": "Пройдите Большую кампанию за Химьяр."
+        },
+        "schinese": {
+          "name": "帝王之友",
+          "description": "使用希木叶尔完成大战役。"
+        },
+        "spanish": {
+          "name": "Amigo imperial",
+          "description": "Completa la gran campaña con Himyar."
+        },
+        "turkish": {
+          "name": "İmparatorların Bir Dostu",
+          "description": "Büyük Seferi Himyar olarak tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_TANUKHIDS": {
+      "translations": {
+        "czech": {
+          "name": "Nejste Tanukové",
+          "description": "Dohraj velkou kampaň za Tanuky."
+        },
+        "english": {
+          "name": "Tanukhid You Not",
+          "description": "Complete the Grand Campaign as the Tanukhids."
+        },
+        "french": {
+          "name": "Tanukhidement vôtre",
+          "description": "Terminez la grande campagne avec les Tanukhides."
+        },
+        "german": {
+          "name": "Sieg der Tanukhiden",
+          "description": "Schließt die Große Kampagne als die Tanukhiden ab."
+        },
+        "italian": {
+          "name": "Io sto con i Tanukhidi",
+          "description": "Completa la Campagna imperiale con i Tanukhidi."
+        },
+        "polish": {
+          "name": "Tanuchidzi górą",
+          "description": "Ukończ wielką kampanię jako Tanuchidzi."
+        },
+        "russian": {
+          "name": "Танухиды навсегда",
+          "description": "Пройдите Большую кампанию за танухидов."
+        },
+        "schinese": {
+          "name": "塔努赫，绝非戏言",
+          "description": "使用塔努赫完成大战役。"
+        },
+        "spanish": {
+          "name": "Tanúkhidas al poder",
+          "description": "Completa la gran campaña con los tanúkhidas."
+        },
+        "turkish": {
+          "name": "Tanukidmedim Seni",
+          "description": "Tanukidlerle Büyük Seferi tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_LAKHMIDS": {
+      "translations": {
+        "czech": {
+          "name": "Jeden den v Al-Hirah",
+          "description": "Dohraj velkou kampaň za Lachmidy."
+        },
+        "english": {
+          "name": "One Day in Al-Hirah",
+          "description": "Complete the Grand Campaign as the Lakhmids."
+        },
+        "french": {
+          "name": "Un jour à Al-Hirah",
+          "description": "Terminez la grande campagne avec les Lakhmides."
+        },
+        "german": {
+          "name": "Eines Tages in Al-Hira",
+          "description": "Schließt die Große Kampagne als die Lachmiden ab."
+        },
+        "italian": {
+          "name": "Un giorno ad al-Hirah",
+          "description": "Completa la Campagna imperiale con i Lakhmidi."
+        },
+        "polish": {
+          "name": "Jeden dzień w Al-Hirze",
+          "description": "Ukończ wielką kampanię jako Lachmidzi."
+        },
+        "russian": {
+          "name": "Один день в Аль-Хире",
+          "description": "Пройдите Большую кампанию за лахмидов."
+        },
+        "schinese": {
+          "name": "希拉的一天",
+          "description": "使用拉赫姆完成大战役。"
+        },
+        "spanish": {
+          "name": "Un día en al-Hira",
+          "description": "Completa la gran campaña con los lájmidas."
+        },
+        "turkish": {
+          "name": "Al-Hira'da Bir Gün",
+          "description": "Lakhmidlerle Büyük Seferi tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_PROVINCE_VICTORY_ARABIA_FELIX": {
+      "translations": {
+        "czech": {
+          "name": "Arabia Felix",
+          "description": "Zaber historickou provincii „Arabia Felix“, která se skládá z těchto oblastí: Eudémon, Omán a Zafar."
+        },
+        "english": {
+          "name": "Arabia Felix",
+          "description": "Capture the historical province of Arabia Felix, consisting of the following regions: Eudaemon, Omana, and Zafar."
+        },
+        "french": {
+          "name": "Arabia Felix",
+          "description": "Capturez la province historique Arabia Felix, composée des régions suivantes : Eudaemon, Omana, et Zafar."
+        },
+        "german": {
+          "name": "Arabia Felix",
+          "description": "Erobert die historische Provinz Arabia Felix, bestehend aus diesen Regionen: Eudaemon, Omana und Zafar."
+        },
+        "italian": {
+          "name": "Arabia Felix",
+          "description": "Conquista la provincia storica di Arabia Felix, che consiste delle seguenti regioni: Eudaemon, Omana e Zafar."
+        },
+        "polish": {
+          "name": "Arabia Felix",
+          "description": "Zdobądź historyczną prowincję Arabia Felix, w skład której wchodzą następujące regiony: Eudaemon, Oman i Zafar."
+        },
+        "russian": {
+          "name": "Аравия Феликс",
+          "description": "Захватите историческую провинцию Аравия Феликс, состоящую из следующих регионов: Эвдемон, Омана и Зафар."
+        },
+        "schinese": {
+          "name": "幸福阿拉伯",
+          "description": "攻占历史行省“幸福阿拉伯”，包括欧代蒙、阿曼纳和扎法尔三个地区。"
+        },
+        "spanish": {
+          "name": "Arabia Felix",
+          "description": "Captura la provincia histórica de Arabia Felix que consta de las siguientes regiones: Eudaemon, Omana y Zafar."
+        },
+        "turkish": {
+          "name": "Bahtiyar Arabistan",
+          "description": "Şu bölgeleri içeren tarihi Bahtiyar Arabistan eyaletini ele geçir: Eudaemon, Omana ve Zafar."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_PROVINCE_VICTORY_ARABIA_MAGNA": {
+      "translations": {
+        "czech": {
+          "name": "Arabia Magna",
+          "description": "Zaber historickou provincii „Arabia Magna“, která se skládá z těchto oblastí: Dumata, Hirah a Jatrib."
+        },
+        "english": {
+          "name": "Arabia Magna",
+          "description": "Capture the historical province of Arabia Magna, consisting of the following regions: Dumatha, Hira, and Yathrib."
+        },
+        "french": {
+          "name": "Arabia Magna",
+          "description": "Capturez la province historique Arabia Magna, composée des régions suivantes : Dumatha, Hira, et Yathrib."
+        },
+        "german": {
+          "name": "Arabia Magna",
+          "description": "Erobert die historische Provinz Arabia Magna, bestehend aus diesen Regionen: Dumatha, Hira und Yathrib."
+        },
+        "italian": {
+          "name": "Arabia Magna",
+          "description": "Conquista la provincia storica di Arabia Magna, che consiste delle seguenti regioni: Dumatha, Hira e Yathrib."
+        },
+        "polish": {
+          "name": "Arabia Magna",
+          "description": "Zdobądź historyczną prowincję Arabia Magna, w skład której wchodzą następujące regiony: Dumatha, Hira i Jasrib."
+        },
+        "russian": {
+          "name": "Аравия Магна",
+          "description": "Захватите историческую провинцию Аравия Магна, состоящую из следующих регионов: Думат, Хира и Ясриб."
+        },
+        "schinese": {
+          "name": "大阿拉伯",
+          "description": "攻占历史行省“大阿拉伯”，包括杜马塔、希拉和雅斯里布三个地区。"
+        },
+        "spanish": {
+          "name": "Arabia Magna",
+          "description": "Captura la provincia histórica de Arabia Magna que consta de las siguientes regiones: Dumatha, Hira, y Yatrib."
+        },
+        "turkish": {
+          "name": "Büyük Arabistan",
+          "description": "Şu bölgeleri içeren tarihi Büyük Arabistan eyaletini ele geçir: Dumatha, Hira ve Yesrib."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_PROVINCE_VICTORY_ARABIA_PETRAEA": {
+      "translations": {
+        "czech": {
+          "name": "Arabia Petraea",
+          "description": "Zaber historickou provincii „Arabia Petraea“, která se skládá z těchto oblastí: Aelia Capitolina, Aila, a Nova Trajana Bostra."
+        },
+        "english": {
+          "name": "Arabia Petraea",
+          "description": "Capture the historical province of Arabia Petraea, consisting of the following regions: Aelia Capitolina, Aila, and Nova Trajana Bostra."
+        },
+        "french": {
+          "name": "Arabia Petraea",
+          "description": "Capturez la province historique Arabia Petraea, composée des régions suivantes : Aelia Capitolina, Aila, et Nova Trajana Bostra."
+        },
+        "german": {
+          "name": "Arabia Petraea",
+          "description": "Erobert die historische Provinz Arabia Petraea, bestehend aus diesen Regionen: Aelia Capitolina, Aila und Nova Trajana Bostra."
+        },
+        "italian": {
+          "name": "Arabia Petraea",
+          "description": "Conquista la provincia storica di Arabia Petraea, che consiste delle seguenti regioni: Aelia Capitolina, Aila e Nova Traiana Bostra."
+        },
+        "polish": {
+          "name": "Arabia Petraea",
+          "description": "Zdobądź historyczną prowincję Arabia Petraea, w skład której wchodzą następujące regiony: Aelia Capitolina, Aila i Nova Trajana Bostra."
+        },
+        "russian": {
+          "name": "Аравия Петрея",
+          "description": "Захватите историческую провинцию Аравия Петрея, состоящую из следующих регионов: Элия Капитолина, Айла и Нова Траяна Бостра."
+        },
+        "schinese": {
+          "name": "佩特拉阿拉伯",
+          "description": "攻占历史行省“佩特拉阿拉伯”，包括埃利亚卡皮托利纳、艾拉和新图拉真博斯特拉三个地区。"
+        },
+        "spanish": {
+          "name": "Arabia Pétrea",
+          "description": "Captura la provincia histórica de Arabia Pétrea que consta de las siguientes regiones: Aelia Capitolina, Aila y Nova Trajana Bostra."
+        },
+        "turkish": {
+          "name": "Arabia Petraea",
+          "description": "Şu bölgeleri içeren tarihi Arabia Petraea eyaletini ele geçir: Aelia Capitolina, Aila ve Nova Trajana Bostra."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_CHARLEMAGNE": {
+      "translations": {
+        "czech": {
+          "name": "Pater Europae",
+          "description": "Dohraj kampaň Doba Karla Velikého za Království Karla Velikého."
+        },
+        "english": {
+          "name": "Pater Europae",
+          "description": "Complete the Age of Charlemagne Campaign as the Kingdom of Charlemagne."
+        },
+        "french": {
+          "name": "Pater Europae",
+          "description": "Terminer la campagne l'Âge de Charlemagne avec le royaume de Charlemagne."
+        },
+        "german": {
+          "name": "Pater Europae",
+          "description": "Schließt die Kampagne „Zeitalter Karls des Großen“ als Königreich Karls des Großen ab."
+        },
+        "italian": {
+          "name": "Pater Europae",
+          "description": "Completa la campagna L’Era di Carlo Magno con il Regno di Carlo Magno."
+        },
+        "polish": {
+          "name": "Pater Europae",
+          "description": "Ukończ kampanię „Era Karola Wielkiego”, grając Królestwem Karola Wielkiego."
+        },
+        "russian": {
+          "name": "Отец Европы",
+          "description": "Пройдите кампанию 'Эпоха Карла Великого' за королевство Карла Великого."
+        },
+        "schinese": {
+          "name": "欧洲之父",
+          "description": "使用查理曼王国完成“查理曼时代”战役。"
+        },
+        "spanish": {
+          "name": "Pater Europae",
+          "description": "Completa la campaña 'Época de Carlomagno' con el Reino de Carlomagno."
+        },
+        "turkish": {
+          "name": "Peter Europae",
+          "description": "Şarlman Krallığı olarak Şarlman Çağı Seferi’ni tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_ASTURIAS": {
+      "translations": {
+        "czech": {
+          "name": "Regnum Asturorum",
+          "description": "Dohraj kampaň Doba Karla Velikého za Asturijská knížectví."
+        },
+        "english": {
+          "name": "Regnum Asturorum",
+          "description": "Complete the Age of Charlemagne Campaign as the Kingdom of Asturias."
+        },
+        "french": {
+          "name": "Regnum Asturorum",
+          "description": "Terminer la campagne l'Âge de Charlemagne avec le royaume des Asturies."
+        },
+        "german": {
+          "name": "Regnum Asturorum",
+          "description": "Schließt die Kampagne „Zeitalter Karls des Großen“ als Königreich Asturien ab."
+        },
+        "italian": {
+          "name": "Regnum asturorum",
+          "description": "Completa la campagna L’Era di Carlo Magno con il Regno delle Asturie."
+        },
+        "polish": {
+          "name": "Regnum Asturorum",
+          "description": "Ukończ kampanię „Era Karola Wielkiego”, grając Królestwem Asturii."
+        },
+        "russian": {
+          "name": "Астурийская империя",
+          "description": "Пройдите кампанию 'Эпоха Карла Великого' за королевство Астурия."
+        },
+        "schinese": {
+          "name": "阿斯图里亚斯王国",
+          "description": "使用阿斯图里亚斯王国完成“查理曼时代”战役。"
+        },
+        "spanish": {
+          "name": "Regnum Asturorum",
+          "description": "Completa la campaña 'Época de Carlomagno' con el Reino de Asturias."
+        },
+        "turkish": {
+          "name": "Regnum Asturorum",
+          "description": "Asturias Krallığı olarak Şarlman Çağı Seferi’ni tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_AVARS": {
+      "translations": {
+        "czech": {
+          "name": "Tak pojďte, Avaři, pokud si myslíte, že na to máte!",
+          "description": "Dohraj kampaň Doba Karla Velikého za Avary."
+        },
+        "english": {
+          "name": "Avar Go If You Think You're Hard Enough",
+          "description": "Complete the Age of Charlemagne Campaign as the Avars."
+        },
+        "french": {
+          "name": "Au diable l'Avarice !",
+          "description": "Terminer la campagne l'Âge de Charlemagne avec les Avares."
+        },
+        "german": {
+          "name": "Awarens nur noch neun",
+          "description": "Schließt die Kampagne „Zeitalter Karls des Großen“ als die Awaren ab."
+        },
+        "italian": {
+          "name": "Avaro, vai se credi di essere abbastanza duro",
+          "description": "Completa la campagna L’Era di Carlo Magno con gli Avari."
+        },
+        "polish": {
+          "name": "Awara stąd!",
+          "description": "Ukończ kampanię „Era Karola Wielkiego”, grając Awarami."
+        },
+        "russian": {
+          "name": "Каганат на века",
+          "description": "Пройдите кампанию 'Эпоха Карла Великого' за аваров."
+        },
+        "schinese": {
+          "name": "阿瓦尔，不服来战",
+          "description": "使用阿瓦尔人完成“查理曼时代”战役。"
+        },
+        "spanish": {
+          "name": "Gran Kanato ávaro",
+          "description": "Completa la campaña 'Época de Carlomagno' con los ávaros."
+        },
+        "turkish": {
+          "name": "Eğer Yeterince Sertsen Avar Ol Yürü",
+          "description": "Avarlar olarak Şarlman Çağı Seferi’ni tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_CORDOBA": {
+      "translations": {
+        "czech": {
+          "name": "Na roveň Umajjovcům",
+          "description": "Dohraj kampaň Doba Karla Velikého za Córdobský emirát."
+        },
+        "english": {
+          "name": "Don't Get Umayyad, Get Even",
+          "description": "Complete the Age of Charlemagne Campaign as the Emirate of Cordoba."
+        },
+        "french": {
+          "name": "Omeyyade du monde, ici",
+          "description": "Terminer la campagne l'Âge de Charlemagne avec l'émirat de Cordoue."
+        },
+        "german": {
+          "name": "Das Land gehört Emir",
+          "description": "Schließt die Kampagne „Zeitalter Karls des Großen“ als Emirat von Cordoba ab."
+        },
+        "italian": {
+          "name": "Fino alla vittoria",
+          "description": "Completa la campagna L’Era di Carlo Magno con l’Emirato di Cordova."
+        },
+        "polish": {
+          "name": "Nie pluj Umajjadem",
+          "description": "Ukończ kampanię „Era Karola Wielkiego”, grając Emiratem Kordoby."
+        },
+        "russian": {
+          "name": "Месть Омейядов",
+          "description": "Пройдите кампанию 'Эпоха Карла Великого' за Кордовский эмират."
+        },
+        "schinese": {
+          "name": "倭马亚，绝不善罢甘休",
+          "description": "使用科尔多瓦埃米尔国完成“查理曼时代”战役。"
+        },
+        "spanish": {
+          "name": "Triunfal Emirato de Córdoba",
+          "description": "Completa la campaña 'Época de Carlomagno' con el Emirato de Córdoba."
+        },
+        "turkish": {
+          "name": "Emevi'lenme, Eşitle",
+          "description": "Korduba Emirliği olarak Şarlman Çağı Seferi’ni tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_DANES": {
+      "translations": {
+        "czech": {
+          "name": "Furore Normannorum",
+          "description": "Dohraj kampaň Doba Karla Velikého za Dánské království."
+        },
+        "english": {
+          "name": "Furore Normannorum",
+          "description": "Complete the Age of Charlemagne Campaign as the Kingdom of the Danes."
+        },
+        "french": {
+          "name": "Furore Normannorum",
+          "description": "Terminer la campagne l'Âge de Charlemagne avec le royaume des Danois."
+        },
+        "german": {
+          "name": "Furore Normannorum",
+          "description": "Schließt die Kampagne „Zeitalter Karls des Großen“ als Königreich der Dänen ab."
+        },
+        "italian": {
+          "name": "Furore Normannorum",
+          "description": "Completa la campagna L’Era di Carlo Magno con il Regno dei Dani."
+        },
+        "polish": {
+          "name": "Furore Normannorum",
+          "description": "Ukończ kampanię „Era Karola Wielkiego”, grając Królestwem Danii."
+        },
+        "russian": {
+          "name": "Неистовство норманнов",
+          "description": "Пройдите кампанию 'Эпоха Карла Великого' за королевство данов."
+        },
+        "schinese": {
+          "name": "诺曼狂怒",
+          "description": "使用丹麦王国完成“查理曼时代”战役。"
+        },
+        "spanish": {
+          "name": "Furore Normannorum",
+          "description": "Completa la campaña 'Época de Carlomagno' con el Reino de los danos."
+        },
+        "turkish": {
+          "name": "Norman Gazabı",
+          "description": "Danlar Krallığı olarak Şarlman Çağı Seferi’ni tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_LOMBARDS": {
+      "translations": {
+        "czech": {
+          "name": "Corona Ferrea",
+          "description": "Dohraj kampaň Doba Karla Velikého za Lombardské království."
+        },
+        "english": {
+          "name": "Corona Ferrea",
+          "description": "Complete the Age of Charlemagne Campaign as the Kingdom of the Lombards."
+        },
+        "french": {
+          "name": "Corona Ferrea",
+          "description": "Terminer la campagne l'Âge de Charlemagne avec le royaume des Lombards."
+        },
+        "german": {
+          "name": "Corona Ferrea",
+          "description": "Schließt die Kampagne „Zeitalter Karls des Großen“ als Königreich der Langobarden ab."
+        },
+        "italian": {
+          "name": "Corona Ferrea",
+          "description": "Completa la campagna L’Era di Carlo Magno con il Regno dei Longobardi."
+        },
+        "polish": {
+          "name": "Corona Ferrea",
+          "description": "Ukończ kampanię „Era Karola Wielkiego”, grając Królestwem Lombardów."
+        },
+        "russian": {
+          "name": "Железная корона",
+          "description": "Пройдите кампанию 'Эпоха Карла Великого' за королевство Ломбардия."
+        },
+        "schinese": {
+          "name": "铁王冠",
+          "description": "使用伦巴第王国完成“查理曼时代”战役。"
+        },
+        "spanish": {
+          "name": "Corona férrea",
+          "description": "Completa la campaña 'Época de Carlomagno' con el Reino de los lombardos."
+        },
+        "turkish": {
+          "name": "Ferrea Tacı",
+          "description": "Lombard Krallığı olarak Şarlman Çağı Seferi’ni tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_MERCIA": {
+      "translations": {
+        "czech": {
+          "name": "Mercijská svrchovanost",
+          "description": "Dohraj kampaň Doba Karla Velikého za Mercijské království."
+        },
+        "english": {
+          "name": "The Mercian Supremacy",
+          "description": "Complete the Age of Charlemagne Campaign as the Kingdom of Mercia."
+        },
+        "french": {
+          "name": "Suprême Mercie",
+          "description": "Terminer la campagne l'Âge de Charlemagne avec le royaume de Mercie."
+        },
+        "german": {
+          "name": "Die Überlegenheit Mercias",
+          "description": "Schließt die Kampagne „Zeitalter Karls des Großen“ als Königreich Mercia ab."
+        },
+        "italian": {
+          "name": "La supremazia di Mercia",
+          "description": "Completa la campagna L’Era di Carlo Magno con il Regno di Mercia."
+        },
+        "polish": {
+          "name": "Dominacja Mercji",
+          "description": "Ukończ kampanię „Era Karola Wielkiego”, grając Królestwem Mercji."
+        },
+        "russian": {
+          "name": "Мерсийское господство",
+          "description": "Пройдите кампанию 'Эпоха Карла Великого' за королевство Мерсия."
+        },
+        "schinese": {
+          "name": "麦西亚霸权",
+          "description": "使用麦西亚王国完成“查理曼时代”战役。"
+        },
+        "spanish": {
+          "name": "La supremacía de Mercia",
+          "description": "Completa la campaña 'Época de Carlomagno' con el Reino de Mercia."
+        },
+        "turkish": {
+          "name": "Mercialı Üstünlüğü",
+          "description": "Mercia Krallığı olarak Şarlman Çağı Seferi’ni tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_WESTPHALIA": {
+      "translations": {
+        "czech": {
+          "name": "Epické Vestfálsko",
+          "description": "Dohraj kampaň Doba Karla Velikého za Vestfálsko."
+        },
+        "english": {
+          "name": "Epic Westphalia",
+          "description": "Complete the Age of Charlemagne Campaign as Westphalia"
+        },
+        "french": {
+          "name": "Westphalie épique",
+          "description": "Terminer la campagne l'Âge de Charlemagne avec la Westphalie."
+        },
+        "german": {
+          "name": "Glorreiche Westfalen",
+          "description": "Schließt die Kampagne „Zeitalter Karls des Großen“ als die Westfalen ab."
+        },
+        "italian": {
+          "name": "Vestfalia epica",
+          "description": "Completa la campagna L’Era di Carlo Magno con la Vestfalia."
+        },
+        "polish": {
+          "name": "Wielka Westfalia",
+          "description": "Ukończ kampanię „Era Karola Wielkiego”, grając Westfalią."
+        },
+        "russian": {
+          "name": "Великая Вестфалия",
+          "description": "Пройдите кампанию 'Эпоха Карла Великого' за Вестфалию."
+        },
+        "schinese": {
+          "name": "威斯特伐利亚史诗",
+          "description": "使用威斯特伐利亚完成“查理曼时代”战役。"
+        },
+        "spanish": {
+          "name": "Westfalia épica",
+          "description": "Completa la campaña 'Época de Carlomagno' con Westfalia."
+        },
+        "turkish": {
+          "name": "Destansı Westphalia",
+          "description": "Westphalia olarak Şarlman Çağı Seferi’ni tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_WHITEHUNS": {
+      "translations": {
+        "czech": {
+          "name": "Heftalitská pohroma",
+          "description": "Dokonči velkou kampaň za Bílé Huny."
+        },
+        "english": {
+          "name": "Hephthalite Scourge",
+          "description": "Complete the Grand Campaign as the White Huns"
+        },
+        "french": {
+          "name": "Fléau héphtalite",
+          "description": "Terminer la grande campagne avec les Huns blancs."
+        },
+        "german": {
+          "name": "Hephthalitische Geißel",
+          "description": "Schließt die Große Kampagne als die Weißen Hunnen ab."
+        },
+        "italian": {
+          "name": "Piaga eftalita",
+          "description": "Completa la Campagna imperiale con gli Unni Bianchi."
+        },
+        "polish": {
+          "name": "Heftalicka Plaga",
+          "description": "Ukończ główną kampanię, grając Białymi Hunami."
+        },
+        "russian": {
+          "name": "Ярость эфталитов",
+          "description": "Пройдите большую кампанию за белых гуннов."
+        },
+        "schinese": {
+          "name": "嚈哒之灾",
+          "description": "使用白匈人完成大战役。"
+        },
+        "spanish": {
+          "name": "El azote heftalita",
+          "description": "Completa la gran campaña con los hunos blancos."
+        },
+        "turkish": {
+          "name": "Heptalite Musibeti",
+          "description": "Beyaz Hunlarla Büyük Seferi tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_ANTEANS": {
+      "translations": {
+        "czech": {
+          "name": "Zvýšení laťky",
+          "description": "Dohraj velkou kampaň za Anteany."
+        },
+        "english": {
+          "name": "Upping the Antes",
+          "description": "Complete the Grand Campaign as the Anteans."
+        },
+        "french": {
+          "name": "Surpassement des Antes",
+          "description": "Terminez la grande campagne avec les Antes."
+        },
+        "german": {
+          "name": "Antritt der Anten",
+          "description": "Schließt die Große Kampagne als die Anten ab."
+        },
+        "italian": {
+          "name": "Anti vittoriosi",
+          "description": "Completa la Campagna imperiale con gli Anti."
+        },
+        "polish": {
+          "name": "Tańczący z Antami",
+          "description": "Ukończ wielką kampanię jako Antowie."
+        },
+        "russian": {
+          "name": "Возвышение антов",
+          "description": "Пройдите Большую кампанию за антов."
+        },
+        "schinese": {
+          "name": "安特加码",
+          "description": "使用安特人完成大战役。"
+        },
+        "spanish": {
+          "name": "Aumentando a los antae",
+          "description": "Completa la gran campaña con los Antae."
+        },
+        "turkish": {
+          "name": "Antes'e Karşı Gelmek",
+          "description": "Anteslilerle Büyük Seferi tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_VENEDIANS": {
+      "translations": {
+        "czech": {
+          "name": "Venedská Visla",
+          "description": "Dohraj velkou kampaň za Venedy."
+        },
+        "english": {
+          "name": "Vistula Veneti",
+          "description": "Complete the Grand Campaign as the Venedians."
+        },
+        "french": {
+          "name": "Vistula Veneti",
+          "description": "Terminez la grande campagne avec les Wendes."
+        },
+        "german": {
+          "name": "Veni, Vidi, Veneter",
+          "description": "Schließt die Große Kampagne als die Veneter ab."
+        },
+        "italian": {
+          "name": "Vittoria sulla Vistola",
+          "description": "Completa la Campagna imperiale con i Venedi."
+        },
+        "polish": {
+          "name": "Vistula Veneti",
+          "description": "Ukończ wielką kampanię jako Wenedowie."
+        },
+        "russian": {
+          "name": "Vistula Veneti",
+          "description": "Пройдите Большую кампанию за венедов."
+        },
+        "schinese": {
+          "name": "维斯瓦河的维内德人",
+          "description": "使用维内德人完成大战役。"
+        },
+        "spanish": {
+          "name": "Vénetos del Vístula",
+          "description": "Completa la gran campaña con los Venedianos."
+        },
+        "turkish": {
+          "name": "Vistula Veneti",
+          "description": "Venedialılarla Büyük Seferi tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_GARAMANTIANS": {
+      "translations": {
+        "czech": {
+          "name": "Garamantes In Excelsis",
+          "description": "Dohraj velkou kampaň za Garamanty."
+        },
+        "english": {
+          "name": "Garamantes In Excelsis",
+          "description": "Complete the Grand Campaign as the Garamantians."
+        },
+        "french": {
+          "name": "Les Garamantes In Excelsis",
+          "description": "Terminez la grande campagne avec les Garamantes."
+        },
+        "german": {
+          "name": "Garamanten garantiert",
+          "description": "Schließt die Große Kampagne als die Garamanten ab."
+        },
+        "italian": {
+          "name": "Potere ai Garamanti",
+          "description": "Completa la Campagna imperiale con i Garamanti."
+        },
+        "polish": {
+          "name": "Garamantes In Excelsis",
+          "description": "Ukończ wielką kampanię jako Garamantowie."
+        },
+        "russian": {
+          "name": "Garamantes In Excelsis",
+          "description": "Пройдите Большую кампанию за гарамантов."
+        },
+        "schinese": {
+          "name": "加拉曼特，高高在上",
+          "description": "使用加拉曼特人完成大战役。"
+        },
+        "spanish": {
+          "name": "Garamantes In Excelsis",
+          "description": "Completa la gran campaña con los Garamantes."
+        },
+        "turkish": {
+          "name": "Yükselen Garamantiya",
+          "description": "Garamanlarla Büyük Sefer'i tamamla."
+        }
+      }
+    },
+    "ACHIEVEMENT_ATT_CAMPAIGN_VICTORY_SCLAVENIANS": {
+      "translations": {
+        "czech": {
+          "name": "Synové hyperborejští",
+          "description": "Dohraj velkou kampaň za Slovany."
+        },
+        "english": {
+          "name": "The Sons of Hyperborea",
+          "description": "Complete the Grand Campaign as the Schlavenians."
+        },
+        "french": {
+          "name": "Les Fils d'Hyperborea",
+          "description": "Terminez la grande campagne avec les Sklavinies."
+        },
+        "german": {
+          "name": "Die Söhne von Hyperborea",
+          "description": "Schließt die Große Kampagne als die Sklavinier ab."
+        },
+        "italian": {
+          "name": "I Figli di Iperborea",
+          "description": "Completa la Campagna imperiale con gli Sclaveni."
+        },
+        "polish": {
+          "name": "Synowie Hyperborei",
+          "description": "Ukończ wielką kampanię jako Sklawinowie."
+        },
+        "russian": {
+          "name": "Сыны Гипербореи",
+          "description": "Пройдите Большую кампанию за склавинов."
+        },
+        "schinese": {
+          "name": "极北之子",
+          "description": "使用斯克拉文人完成大战役。"
+        },
+        "spanish": {
+          "name": "Los hijos de Hiperbórea",
+          "description": "Completa la gran campaña con los Esclavenos."
+        },
+        "turkish": {
+          "name": "Hiperborea'nın Oğulları",
+          "description": "Slavenyalılarla Büyük Seferi tamamla."
+        }
+      }
+    }
+  }
+}

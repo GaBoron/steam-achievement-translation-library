@@ -5,11 +5,12 @@ import re
 from dataclasses import dataclass
 from typing import Any
 
+from translation_artifacts import load_artifact, artifact_rows, artifact_languages, validate_artifact
 from achievement_catalog import write_entry_review_catalogs
 from translation_json import write_entry_translation_json
 from library_index import existing_entry, load_index, repository_path, upsert_catalog_entry, validated_entry_schema_variants
 from pr_metadata import entry_from_metadata, parse_pr_metadata, reported_entry_from_metadata, validate_store_url
-from steam_schema import achievement_rows, load_schema, require_language_coverage, schema_languages, sha256, validate_schema_structure
+from steam_schema import require_language_coverage, sha256
 from submission_presentation import build_schema_variants_section, build_submission_pr_body
 
 
@@ -41,10 +42,10 @@ def _refreshed_entry(meta: dict[str, Any]) -> tuple[dict[str, Any], bool]:
     refreshed: list[dict[str, Any]] = []
     all_languages: set[str] = set()
     for record in records:
-        data, nodes = load_schema(repository_path(str(record["schema_file"])))
-        validate_schema_structure(data, nodes)
-        languages = schema_languages(nodes)
-        rows = achievement_rows(nodes, languages)
+        data, nodes = load_artifact(repository_path(str(record["schema_file"])))
+        validate_artifact(data, nodes)
+        languages = artifact_languages(nodes)
+        rows = artifact_rows(nodes, languages)
         require_language_coverage(rows, languages)
         updated = dict(record)
         updated.update({
@@ -107,8 +108,8 @@ def build_refreshed_translation_pr_presentation(pr: dict[str, Any]) -> Refreshed
         body = _replace_section(body, "## Review", review)
     else:
         primary_path = repository_path(str(entry["schema_file"]))
-        _data, nodes = load_schema(primary_path)
-        rows = achievement_rows(nodes, entry["languages"])
+        _data, nodes = load_artifact(primary_path)
+        rows = artifact_rows(nodes, entry["languages"])
         body = build_submission_pr_body(
             kind=kind,
             entry=entry,

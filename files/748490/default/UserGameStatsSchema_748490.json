@@ -1,0 +1,1034 @@
+{
+  "version": 1,
+  "app_id": "748490",
+  "variant_id": "default",
+  "source_sha256": "acbe0c1caad6bc2a1f4f15d18478b6a595e3c842feaf426ceb3b399340d1c067",
+  "languages": [
+    "english",
+    "japanese",
+    "schinese",
+    "tchinese"
+  ],
+  "achievements": {
+    "TROPHY2_PLATINUM": {
+      "translations": {
+        "english": {
+          "name": "The Ashen Chevalier",
+          "description": "Mastered Trails of Cold Steel II and earned every achievement."
+        },
+        "japanese": {
+          "name": "THE LEGEND OF HEROES",
+          "description": "全ての実績を獲得した。"
+        },
+        "schinese": {
+          "name": "THE LEGEND OF HEROES",
+          "description": "取得全部成就。"
+        },
+        "tchinese": {
+          "name": "THE LEGEND OF HEROES",
+          "description": "取得全部成就。"
+        }
+      }
+    },
+    "TROPHY2_MAX_APRANK": {
+      "translations": {
+        "english": {
+          "name": "Honor Roll",
+          "description": "Achieved student rank A0."
+        },
+        "japanese": {
+          "name": "甲零級学生",
+          "description": "学生ランクが甲零級になった。"
+        },
+        "schinese": {
+          "name": "甲零级学生",
+          "description": "学生阶级提升至甲零级。"
+        },
+        "tchinese": {
+          "name": "甲零級學生",
+          "description": "學生階級提升至甲零級。"
+        }
+      }
+    },
+    "TROPHY2_DECORATION": {
+      "translations": {
+        "english": {
+          "name": "Phoenix Ascendant",
+          "description": "Received the Grand Cordon of the Order of the Phoenix Wings from Emperor Eugent III."
+        },
+        "japanese": {
+          "name": "凰翼紅蓮大綬章",
+          "description": "ユーゲント皇帝から『凰翼紅蓮大綬章』を授与された。"
+        },
+        "schinese": {
+          "name": "凰翼红莲大勋章",
+          "description": "从尤根特皇帝手中获颁「凰翼红莲大勋章」。"
+        },
+        "tchinese": {
+          "name": "凰翼紅蓮大勳章",
+          "description": "從尤根特皇帝手中獲頒「凰翼紅蓮大勳章」。"
+        }
+      }
+    },
+    "TROPHY2_COMP_QUEST": {
+      "translations": {
+        "english": {
+          "name": "Divine Knight Errant",
+          "description": "Completed all 39 quests."
+        },
+        "japanese": {
+          "name": "クエストマスター",
+          "description": "全てのクエスト（依頼）を達成した（全３９種）。"
+        },
+        "schinese": {
+          "name": "委托大师",
+          "description": "完成全部39项委托。"
+        },
+        "tchinese": {
+          "name": "委託大師",
+          "description": "完成全部39項委託。"
+        }
+      }
+    },
+    "TROPHY2_COMP_BATTLENOTE": {
+      "translations": {
+        "english": {
+          "name": "Face of the Enemy",
+          "description": "Completely filled the monster guide (excluding EX sections)."
+        },
+        "japanese": {
+          "name": "バトルマスター",
+          "description": "戦闘ノートの全情報を埋めた（ＥＸＴＲＡ以外）。"
+        },
+        "schinese": {
+          "name": "战斗大师",
+          "description": "收集完整的战斗笔记本信息（不含EXTRA）。"
+        },
+        "tchinese": {
+          "name": "戰鬥大師",
+          "description": "收集完整的戰鬥筆記本資訊（不含EXTRA）。"
+        }
+      }
+    },
+    "TROPHY2_COMP_COOKINGNOTE": {
+      "translations": {
+        "english": {
+          "name": "Wartime Rationer",
+          "description": "Obtained all 22 recipes."
+        },
+        "japanese": {
+          "name": "炎の料理人",
+          "description": "全てのレシピを入手した（全２２種）。"
+        },
+        "schinese": {
+          "name": "炎之料理人",
+          "description": "收集全部22种料理食谱。"
+        },
+        "tchinese": {
+          "name": "炎之料理人",
+          "description": "收集全部22種料理食譜。"
+        }
+      }
+    },
+    "TROPHY2_COMP_FISHINGNOTE": {
+      "translations": {
+        "english": {
+          "name": "The Reel Deal",
+          "description": "Caught all 24 varieties of fish."
+        },
+        "japanese": {
+          "name": "爆釣王",
+          "description": "全ての魚を釣った（全２４種）。"
+        },
+        "schinese": {
+          "name": "爆钓王",
+          "description": "钓获全部24种鱼类。"
+        },
+        "tchinese": {
+          "name": "爆釣王",
+          "description": "釣獲全部24種魚類。"
+        }
+      }
+    },
+    "TROPHY2_COMP_CHARANOTE": {
+      "translations": {
+        "english": {
+          "name": "Intelligence Agent",
+          "description": "Completed all of the character profiles in the notebook."
+        },
+        "japanese": {
+          "name": "人物マスター",
+          "description": "人物ノートの全情報を埋めた。"
+        },
+        "schinese": {
+          "name": "人物大师",
+          "description": "收集完整的人物笔记本信息。"
+        },
+        "tchinese": {
+          "name": "人物大師",
+          "description": "收集完整的人物筆記本資訊。"
+        }
+      }
+    },
+    "TROPHY2_COMP_BOOKNOTE": {
+      "translations": {
+        "english": {
+          "name": "Lending Library",
+          "description": "Completely filled the book section of the notebook (excluding books only available in NG+)."
+        },
+        "japanese": {
+          "name": "ブックマニア",
+          "description": "書物ノートの全情報を埋めた（ＥＸＴＲＡ以外）。"
+        },
+        "schinese": {
+          "name": "爱书成痴",
+          "description": "收集完整的书籍笔记本信息（不含EXTRA）。"
+        },
+        "tchinese": {
+          "name": "愛書成癡",
+          "description": "收集完整的書籍筆記本資訊（不含EXTRA）。"
+        }
+      }
+    },
+    "TROPHY2_GETALL_TREASURE": {
+      "translations": {
+        "english": {
+          "name": "Spoils of War",
+          "description": "Opened every chest between the Prologue and the Finale."
+        },
+        "japanese": {
+          "name": "トレジャーハンター",
+          "description": "全ての宝箱を開けた（序章～終章）。"
+        },
+        "schinese": {
+          "name": "宝藏猎人",
+          "description": "开启序章至终章之间的全部宝箱。"
+        },
+        "tchinese": {
+          "name": "寶藏獵人",
+          "description": "開啟序章至終章之間的全部寶箱。"
+        }
+      }
+    },
+    "TROPHY2_GETALL_MQUARTZ": {
+      "translations": {
+        "english": {
+          "name": "The Return of Rean QUARTZ-er",
+          "description": "Gathered all 31 varieties of master quartz."
+        },
+        "japanese": {
+          "name": "Ｍクオーツコレクター",
+          "description": "マスタークオーツを全て集めた（全３１種）。"
+        },
+        "schinese": {
+          "name": "核心回路收藏家",
+          "description": "取得全部31种核心回路。"
+        },
+        "tchinese": {
+          "name": "核心迴路收藏家",
+          "description": "取得全部31種核心迴路。"
+        }
+      }
+    },
+    "TROPHY2_CLEAR_NIHGTMARE": {
+      "translations": {
+        "english": {
+          "name": "Banisher of Nightmares",
+          "description": "Completed the game on nightmare difficulty."
+        },
+        "japanese": {
+          "name": "地獄の栄冠",
+          "description": "難易度ナイトメアでゲームをクリアした。"
+        },
+        "schinese": {
+          "name": "地狱之荣冠",
+          "description": "以噩梦难度通关游戏。"
+        },
+        "tchinese": {
+          "name": "地獄之榮冠",
+          "description": "以惡夢難度通關遊戲。"
+        }
+      }
+    },
+    "TROPHY2_CLEAR_HARD": {
+      "translations": {
+        "english": {
+          "name": "Conquering Hero",
+          "description": "Completed the game on hard or nightmare difficulty."
+        },
+        "japanese": {
+          "name": "剛毅の栄冠",
+          "description": "難易度ハード以上でゲームをクリアした。"
+        },
+        "schinese": {
+          "name": "刚毅之荣冠",
+          "description": "以困难或更高难度通关游戏。"
+        },
+        "tchinese": {
+          "name": "剛毅之榮冠",
+          "description": "以困難或更高難度通關遊戲。"
+        }
+      }
+    },
+    "TROPHY2_HIGH_MIRA": {
+      "translations": {
+        "english": {
+          "name": "Imperial Treasury",
+          "description": "Acquired over a million mira."
+        },
+        "japanese": {
+          "name": "百万長者",
+          "description": "所持金が１００万ミラ以上になった。"
+        },
+        "schinese": {
+          "name": "百万富翁",
+          "description": "持有的米拉达到100万以上。"
+        },
+        "tchinese": {
+          "name": "百萬富翁",
+          "description": "持有的米拉達到100萬以上。"
+        }
+      }
+    },
+    "TROPHY2_MAX_MQUARTZ": {
+      "translations": {
+        "english": {
+          "name": "Transcendent Jewel",
+          "description": "Raised a master quartz to level 5."
+        },
+        "japanese": {
+          "name": "至境の珠",
+          "description": "いずれかのマスタークオーツをＬＶ５にした。"
+        },
+        "schinese": {
+          "name": "至境之珠",
+          "description": "将任意一个核心回路提升至LV5。"
+        },
+        "tchinese": {
+          "name": "至境之珠",
+          "description": "將任意一個核心迴路提升至LV5。"
+        }
+      }
+    },
+    "TROPHY2_STRONGEST_WEAPON": {
+      "translations": {
+        "english": {
+          "name": "Forging the Future",
+          "description": "Acquired the strongest weapon for any character."
+        },
+        "japanese": {
+          "name": "至高の剣",
+          "description": "最強武器を作成した。"
+        },
+        "schinese": {
+          "name": "至高之剑",
+          "description": "制作任意角色的最强武器。"
+        },
+        "tchinese": {
+          "name": "至高之劍",
+          "description": "製作任意角色的最強武器。"
+        }
+      }
+    },
+    "TROPHY2_BATTLECOUNT_A": {
+      "translations": {
+        "english": {
+          "name": "Born to the Battlefield",
+          "description": "Won 100 battles."
+        },
+        "japanese": {
+          "name": "力戦の勇士",
+          "description": "戦闘勝利回数１００回達成。"
+        },
+        "schinese": {
+          "name": "力战之勇士",
+          "description": "累计赢得100场战斗。"
+        },
+        "tchinese": {
+          "name": "力戰之勇士",
+          "description": "累計贏得100場戰鬥。"
+        }
+      }
+    },
+    "TROPHY2_BATTLECOUNT_C": {
+      "translations": {
+        "english": {
+          "name": "The Manway Method",
+          "description": "Won 600 battles."
+        },
+        "japanese": {
+          "name": "歴戦の猛者",
+          "description": "戦闘勝利回数６００回達成。"
+        },
+        "schinese": {
+          "name": "历战之胜者",
+          "description": "累计赢得600场战斗。"
+        },
+        "tchinese": {
+          "name": "歷戰之勝者",
+          "description": "累計贏得600場戰鬥。"
+        }
+      }
+    },
+    "TROPHY2_FASTATTACK": {
+      "translations": {
+        "english": {
+          "name": "Taking the Initiative",
+          "description": "Initiated 300 advantage encounters (including double and triple advantage)."
+        },
+        "japanese": {
+          "name": "雷光一閃",
+          "description": "先制／優勢／奇襲攻撃を計３００回発生させた。"
+        },
+        "schinese": {
+          "name": "雷光一闪",
+          "description": "累计发动300次先制、优势或奇袭攻击。"
+        },
+        "tchinese": {
+          "name": "雷光一閃",
+          "description": "累計發動300次先制、優勢或奇襲攻擊。"
+        }
+      }
+    },
+    "TROPHY2_SBREAK": {
+      "translations": {
+        "english": {
+          "name": "Mind if I Cut In?",
+          "description": "Used 100 S-Breaks in battle."
+        },
+        "japanese": {
+          "name": "超絶秘技",
+          "description": "Ｓブレイクを１００回発動した。"
+        },
+        "schinese": {
+          "name": "超绝秘技",
+          "description": "在战斗中累计发动100次S-Break。"
+        },
+        "tchinese": {
+          "name": "超絕秘技",
+          "description": "在戰鬥中累計發動100次S-Break。"
+        }
+      }
+    },
+    "TROPHY2_DRIVECANCELL": {
+      "translations": {
+        "english": {
+          "name": "Shutdown Phenomenon",
+          "description": "Canceled enemy arts and crafts 100 times."
+        },
+        "japanese": {
+          "name": "百花迎撃",
+          "description": "敵の技・アーツの駆動を１００回阻止した。"
+        },
+        "schinese": {
+          "name": "百花迎击",
+          "description": "累计100次打断敌人正在驱动的战技或魔法。"
+        },
+        "tchinese": {
+          "name": "百花迎擊",
+          "description": "累計100次打斷敵人正在驅動的戰技或魔法。"
+        }
+      }
+    },
+    "TROPHY2_TBONUS": {
+      "translations": {
+        "english": {
+          "name": "Tactician",
+          "description": "Won a battle with a tactical bonus of x3.0 or greater."
+        },
+        "japanese": {
+          "name": "絢爛攻守",
+          "description": "タクティカルボーナスを×３．０以上にした。"
+        },
+        "schinese": {
+          "name": "绚烂攻守",
+          "description": "使战术奖励倍率达到3.0倍以上。"
+        },
+        "tchinese": {
+          "name": "絢爛攻守",
+          "description": "使戰術獎勵倍率達到3.0倍以上。"
+        }
+      }
+    },
+    "TROPHY2_MASSIVE_BASTER": {
+      "translations": {
+        "english": {
+          "name": "Pieces of Eight",
+          "description": "Defeated 8 enemies at once."
+        },
+        "japanese": {
+          "name": "八頭撃滅",
+          "description": "敵８体を同時に倒した。"
+        },
+        "schinese": {
+          "name": "八头击灭",
+          "description": "在同一场战斗中同时击倒8名敌人。"
+        },
+        "tchinese": {
+          "name": "八頭擊滅",
+          "description": "在同一場戰鬥中同時擊倒8名敵人。"
+        }
+      }
+    },
+    "TROPHY2_MASTER_LINK": {
+      "translations": {
+        "english": {
+          "name": "Inseparable",
+          "description": "Raised any two characters to Link Level 7."
+        },
+        "japanese": {
+          "name": "リンクマスター",
+          "description": "誰かと誰かのリンクレベルが７になった。"
+        },
+        "schinese": {
+          "name": "连结大师",
+          "description": "使任意两名角色之间的连结等级达到7。"
+        },
+        "tchinese": {
+          "name": "連結大師",
+          "description": "使任意兩名角色之間的連結等級達到7。"
+        }
+      }
+    },
+    "TROPHY2_MASTER_CHASE": {
+      "translations": {
+        "english": {
+          "name": "One Good Burn Deserves Another",
+          "description": "Used over 500 follow-up attacks in battle."
+        },
+        "japanese": {
+          "name": "追撃マスター",
+          "description": "追撃を５００回以上行った。"
+        },
+        "schinese": {
+          "name": "追击大师",
+          "description": "在战斗中累计发动500次以上的追击。"
+        },
+        "tchinese": {
+          "name": "追擊大師",
+          "description": "在戰鬥中累計發動500次以上的追擊。"
+        }
+      }
+    },
+    "TROPHY2_MASTER_RUSH": {
+      "translations": {
+        "english": {
+          "name": "Double the Trouble",
+          "description": "Used Rush in battle 100 times."
+        },
+        "japanese": {
+          "name": "ラッシュマスター",
+          "description": "ラッシュを１００回以上行った。"
+        },
+        "schinese": {
+          "name": "连续猛攻大师",
+          "description": "在战斗中累计发动100次以上的连续猛攻。"
+        },
+        "tchinese": {
+          "name": "連續猛攻大師",
+          "description": "在戰鬥中累計發動100次以上的連續猛攻。"
+        }
+      }
+    },
+    "TROPHY2_MASTER_BURST": {
+      "translations": {
+        "english": {
+          "name": "Smells Like Team Spirit",
+          "description": "Used Burst in battle 50 times."
+        },
+        "japanese": {
+          "name": "バーストマスター",
+          "description": "バーストを５０回以上行った。"
+        },
+        "schinese": {
+          "name": "爆裂猛攻大师",
+          "description": "在战斗中累计发动50次以上的爆裂猛攻。"
+        },
+        "tchinese": {
+          "name": "爆裂猛攻大師",
+          "description": "在戰鬥中累計發動50次以上的爆裂猛攻。"
+        }
+      }
+    },
+    "TROPHY2_MASTER_OVERRISE": {
+      "translations": {
+        "english": {
+          "name": "Overdriven to Win",
+          "description": "Used Overdrive in battle 100 times."
+        },
+        "japanese": {
+          "name": "オーバーライザー",
+          "description": "オーバーライズを１００回以上行った。"
+        },
+        "schinese": {
+          "name": "增幅强化大师",
+          "description": "在战斗中累计发动100次以上的增幅强化。"
+        },
+        "tchinese": {
+          "name": "增幅強化大師",
+          "description": "在戰鬥中累計發動100次以上的增幅強化。"
+        }
+      }
+    },
+    "TROPHY2_BASTER_ICEDEVIL": {
+      "translations": {
+        "english": {
+          "name": "Frozen Heart",
+          "description": "Slayed Isra-Zamiel in Glacia Shrine."
+        },
+        "japanese": {
+          "name": "氷魔の狩人",
+          "description": "魔煌兵イスラ＝ザミエルを倒した。"
+        },
+        "schinese": {
+          "name": "冰魔狩猎者",
+          "description": "打倒魔煌兵伊斯拉・死天使。"
+        },
+        "tchinese": {
+          "name": "冰魔狩獵者",
+          "description": "打倒魔煌兵伊斯拉・死天使。"
+        }
+      }
+    },
+    "TROPHY2_BLACKBOOK": {
+      "translations": {
+        "english": {
+          "name": "Scholar of the Truth",
+          "description": "Read the decoded Black Records and had an encounter you'll never forget."
+        },
+        "japanese": {
+          "name": "真なる歴史の探求者",
+          "description": "解析された黒の史書を読み、とある人物と邂逅した。"
+        },
+        "schinese": {
+          "name": "真实历史探求者",
+          "description": "阅读解析后的黑色史书，并与某位人物相遇。"
+        },
+        "tchinese": {
+          "name": "真實歷史探求者",
+          "description": "閱讀解析後的黑色史書，並與某位人物相遇。"
+        }
+      }
+    },
+    "TROPHY2_REPORT_SRANK": {
+      "translations": {
+        "english": {
+          "name": "Star Pupil",
+          "description": "Earned an S rank during part of any chapter."
+        },
+        "japanese": {
+          "name": "特別優等生",
+          "description": "いずれかのパートで、評価Ｓを取った。"
+        },
+        "schinese": {
+          "name": "特优生",
+          "description": "在任意剧情段落取得S级评价。"
+        },
+        "tchinese": {
+          "name": "特優生",
+          "description": "在任意劇情段落取得S級評價。"
+        }
+      }
+    },
+    "TROPHY2_KIZUNA_ALISA": {
+      "translations": {
+        "english": {
+          "name": "A Lease on Love",
+          "description": "Spent the evening before the final battle with Alisa."
+        },
+        "japanese": {
+          "name": "アリサとの絆",
+          "description": "アリサとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和亚莉莎的羁绊",
+          "description": "与亚莉莎建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和亞莉莎的羈絆",
+          "description": "與亞莉莎建立深厚的羈絆。"
+        }
+      }
+    },
+    "TROPHY2_KIZUNA_ELIOT": {
+      "translations": {
+        "english": {
+          "name": "Perfect Harmony",
+          "description": "Spent the evening before the final battle with Elliot."
+        },
+        "japanese": {
+          "name": "エリオットとの絆",
+          "description": "エリオットとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和艾略特的羁绊",
+          "description": "与艾略特建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和艾略特的羈絆",
+          "description": "與艾略特建立深厚的羈絆。"
+        }
+      }
+    },
+    "TROPHY2_KIZUNA_LAURA": {
+      "translations": {
+        "english": {
+          "name": "Arseid School of Courtsmanship",
+          "description": "Spent the evening before the final battle with Laura."
+        },
+        "japanese": {
+          "name": "ラウラとの絆",
+          "description": "ラウラとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和劳拉的羁绊",
+          "description": "与劳拉建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和勞拉的羈絆",
+          "description": "與勞拉建立深厚的羈絆。"
+        }
+      }
+    },
+    "TROPHY2_KIZUNA_MACHIAS": {
+      "translations": {
+        "english": {
+          "name": "The People's Choice",
+          "description": "Spent the evening before the final battle with Machias."
+        },
+        "japanese": {
+          "name": "マキアスとの絆",
+          "description": "マキアスとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和马奇亚斯的羁绊",
+          "description": "与马奇亚斯建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和馬奇亞斯的羈絆",
+          "description": "與馬奇亞斯建立深厚的羈絆。"
+        }
+      }
+    },
+    "TROPHY2_KIZUNA_EMMA": {
+      "translations": {
+        "english": {
+          "name": "Witchy Woman",
+          "description": "Spent the evening before the final battle with Emma."
+        },
+        "japanese": {
+          "name": "エマとの絆",
+          "description": "エマとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和艾玛的羁绊",
+          "description": "与艾玛建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和艾瑪的羈絆",
+          "description": "與艾瑪建立深厚的羈絆。"
+        }
+      }
+    },
+    "TROPHY2_KIZUNA_JUSIS": {
+      "translations": {
+        "english": {
+          "name": "House of All-bro-ea",
+          "description": "Spent the evening before the final battle with Jusis."
+        },
+        "japanese": {
+          "name": "ユーシスとの絆",
+          "description": "ユーシスとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和尤西斯的羁绊",
+          "description": "与尤西斯建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和尤西斯的羈絆",
+          "description": "與尤西斯建立深厚的羈絆。"
+        }
+      }
+    },
+    "TROPHY2_KIZUNA_FIE": {
+      "translations": {
+        "english": {
+          "name": "Jaeger Mister",
+          "description": "Spent the evening before the final battle with Fie."
+        },
+        "japanese": {
+          "name": "フィーとの絆",
+          "description": "フィーとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和菲的羁绊",
+          "description": "与菲建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和菲的羈絆",
+          "description": "與菲建立深厚的羈絆。"
+        }
+      }
+    },
+    "TROPHY2_KIZUNA_GAIUS": {
+      "translations": {
+        "english": {
+          "name": "Winderlust",
+          "description": "Spent the evening before the final battle with Gaius."
+        },
+        "japanese": {
+          "name": "ガイウスとの絆",
+          "description": "ガイウスとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和盖乌斯的羁绊",
+          "description": "与盖乌斯建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和蓋烏斯的羈絆",
+          "description": "與蓋烏斯建立深厚的羈絆。"
+        }
+      }
+    },
+    "TROPHY2_KIZUNA_MILLIUM": {
+      "translations": {
+        "english": {
+          "name": "One in a Millium",
+          "description": "Spent the evening before the final battle with Millium."
+        },
+        "japanese": {
+          "name": "ミリアムとの絆",
+          "description": "ミリアムとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和米莉亚姆的羁绊",
+          "description": "与米莉亚姆建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和米莉亞姆的羈絆",
+          "description": "與米莉亞姆建立深厚的羈絆。"
+        }
+      }
+    },
+    "TROPHY2_KIZUNA_SARA": {
+      "translations": {
+        "english": {
+          "name": "Worth the Wait",
+          "description": "Spent the evening before the final battle with Sara."
+        },
+        "japanese": {
+          "name": "サラとの絆",
+          "description": "サラ教官との絆を深めた。"
+        },
+        "schinese": {
+          "name": "和莎拉的羁绊",
+          "description": "与莎拉教官建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和莎拉的羈絆",
+          "description": "與莎拉教官建立深厚的羈絆。"
+        }
+      }
+    },
+    "TROPHY2_KIZUNA_TOWA": {
+      "translations": {
+        "english": {
+          "name": "You're Atowable",
+          "description": "Spent the evening before the final battle with Towa."
+        },
+        "japanese": {
+          "name": "トワとの絆",
+          "description": "トワ会長との絆を深めた。"
+        },
+        "schinese": {
+          "name": "和托娃的羁绊",
+          "description": "与托娃会长建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和托娃的羈絆",
+          "description": "與托娃會長建立深厚的羈絆。"
+        }
+      }
+    },
+    "TROPHY2_KIZUNA_ALFIN": {
+      "translations": {
+        "english": {
+          "name": "National Treasure",
+          "description": "Spent the evening before the final battle with Alfin."
+        },
+        "japanese": {
+          "name": "アルフィンとの絆",
+          "description": "アルフィン皇女との絆を深めた。"
+        },
+        "schinese": {
+          "name": "和艾尔芬的羁绊",
+          "description": "与艾尔芬皇女建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和艾爾芬的羈絆",
+          "description": "與艾爾芬皇女建立深厚的羈絆。"
+        }
+      }
+    },
+    "TROPHY2_SCENARIO_START": {
+      "translations": {
+        "english": {
+          "name": "Unexpected Surroundings",
+          "description": "Woke up in the Eisengard Range."
+        },
+        "japanese": {
+          "name": "目を覚ませばそこは…",
+          "description": "アイゼンガルド連峰で目が覚めた。"
+        },
+        "schinese": {
+          "name": "醒来后目睹的光景是……",
+          "description": "在艾辛格特山脉苏醒。"
+        },
+        "tchinese": {
+          "name": "醒來後目睹的光景是……",
+          "description": "在艾辛格特山脈甦醒。"
+        }
+      }
+    },
+    "TROPHY2_SCENARIO_00": {
+      "translations": {
+        "english": {
+          "name": "The Depths of Despair",
+          "description": "Completed the Prologue."
+        },
+        "japanese": {
+          "name": "帰郷～失意の果てに",
+          "description": "序章「帰郷～失意の果てに」をクリアした。"
+        },
+        "schinese": {
+          "name": "归乡～失意的尽头～",
+          "description": "通过序章「归乡～失意的尽头～」。"
+        },
+        "tchinese": {
+          "name": "歸鄉～失意的盡頭～",
+          "description": "通過序章「歸鄉～失意的盡頭～」。"
+        }
+      }
+    },
+    "TROPHY2_SCENARIO_01": {
+      "translations": {
+        "english": {
+          "name": "Ashen Chronicles",
+          "description": "Completed Act 1."
+        },
+        "japanese": {
+          "name": "灰色の戦記",
+          "description": "第Ⅰ部「灰色の戦記」をクリアした。"
+        },
+        "schinese": {
+          "name": "灰色战记",
+          "description": "通过第Ⅰ部「灰色战记」。"
+        },
+        "tchinese": {
+          "name": "灰色戰記",
+          "description": "通過第Ⅰ部「灰色戰記」。"
+        }
+      }
+    },
+    "TROPHY2_SCENARIO_INTER": {
+      "translations": {
+        "english": {
+          "name": "Aboard the Pantagruel",
+          "description": "Completed the Intermission."
+        },
+        "japanese": {
+          "name": "白銀の巨船",
+          "description": "幕間「白銀の巨船」をクリアした。"
+        },
+        "schinese": {
+          "name": "白银巨船",
+          "description": "通过幕间「白银巨船」。"
+        },
+        "tchinese": {
+          "name": "白銀巨船",
+          "description": "通過幕間「白銀巨船」。"
+        }
+      }
+    },
+    "TROPHY2_SCENARIO_02": {
+      "translations": {
+        "english": {
+          "name": "The Awakening Lions",
+          "description": "Completed Act 2."
+        },
+        "japanese": {
+          "name": "紅き翼～目覚める獅子たち",
+          "description": "第Ⅱ部「紅き翼～目覚める獅子たち」をクリアした。"
+        },
+        "schinese": {
+          "name": "红翼～苏醒的狮子们",
+          "description": "通过第Ⅱ部「红翼～苏醒的狮子们」。"
+        },
+        "tchinese": {
+          "name": "紅翼～甦醒的獅子們",
+          "description": "通過第Ⅱ部「紅翼～甦醒的獅子們」。"
+        }
+      }
+    },
+    "TROPHY2_SCENARIO_LAST": {
+      "translations": {
+        "english": {
+          "name": "Forward, Relentlessly",
+          "description": "Completed the Finale."
+        },
+        "japanese": {
+          "name": "ただひたすらに、前へ",
+          "description": "終章「ただひたすらに、前へ」をクリアした。"
+        },
+        "schinese": {
+          "name": "只管不断向前",
+          "description": "通过终章「只管不断向前」。"
+        },
+        "tchinese": {
+          "name": "只管不斷向前",
+          "description": "通過終章「只管不斷向前」。"
+        }
+      }
+    },
+    "TROPHY2_SCENARIO_EXTRA": {
+      "translations": {
+        "english": {
+          "name": "The Occupation",
+          "description": "Completed the Divertissement."
+        },
+        "japanese": {
+          "name": "クロスベル占領",
+          "description": "外伝「クロスベル占領」をクリアした。"
+        },
+        "schinese": {
+          "name": "占领下的克洛斯贝尔",
+          "description": "通过外传「占领下的克洛斯贝尔」。"
+        },
+        "tchinese": {
+          "name": "佔領下的克洛斯貝爾",
+          "description": "通過外傳「佔領下的克洛斯貝爾」。"
+        }
+      }
+    },
+    "TROPHY2_SCENARIO_AFTER": {
+      "translations": {
+        "english": {
+          "name": "Winter's End",
+          "description": "Completed the Epilogue."
+        },
+        "japanese": {
+          "name": "冬の終わり",
+          "description": "後日譚「冬の終わり」をクリアした。"
+        },
+        "schinese": {
+          "name": "冬日的尾声",
+          "description": "通过后话「冬日的尾声」。"
+        },
+        "tchinese": {
+          "name": "冬日的尾聲",
+          "description": "通過後話「冬日的尾聲」。"
+        }
+      }
+    }
+  }
+}

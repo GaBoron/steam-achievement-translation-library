@@ -5,6 +5,8 @@ import subprocess
 from dataclasses import dataclass, field
 from pathlib import Path, PurePosixPath
 
+from translation_artifacts import indexed_standalone
+
 import catalog_v2
 from achievement_catalog import expected_review_catalog
 import translation_json
@@ -49,6 +51,16 @@ def _check_schema(
     allow_stale_index_metadata: bool,
     strict_language_coverage: bool,
 ) -> None:
+    if variant.get("format") == "json":
+        relative = catalog_v2.translation_json_relative_path(game_id, variant_id)
+        path = ROOT / relative
+        expected_paths.add(path.resolve())
+        try:
+            indexed_standalone(path, game_id, variant_id, variant)
+            report.checked_files += 1
+        except (OSError, UnicodeError, ValueError) as exc:
+            report.error(f"{game_id}/{variant_id}: invalid standalone translation: {exc}")
+        return
     relative = catalog_v2.schema_relative_path(game_id, variant_id)
     path = ROOT / Path(*PurePosixPath(relative).parts)
     expected_paths.add(path.resolve())
@@ -180,7 +192,7 @@ def check_repository(
     for path in FILES_ROOT.rglob("UserGameStatsSchema_*.json"):
         if len(path.relative_to(FILES_ROOT).parts) == 2:
             report.error(f"Translation JSON must be inside a variant directory: {path.relative_to(ROOT).as_posix()}")
-        elif not path.with_suffix(".bin").is_file():
+        elif not path.with_suffix(".bin").is_file() and path.resolve() not in expected_paths:
             report.error(f"orphan translation JSON: {path.relative_to(ROOT).as_posix()}")
     expected_reviews: set[Path] = set()
     if allow_pending_submissions:
