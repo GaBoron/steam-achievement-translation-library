@@ -1,0 +1,1573 @@
+# Achievement review
+
+Schema: `"UserGameStatsSchema_351970.bin"`
+Source SHA-256: `"a31008357e4ed63d024dc766808cf2183757b2ea7fd1352ef94566f8b8221a19"`
+Added: 56; Changed: 0; Removed: 0
+
+## Added: `"TROPHY_ID_000"`
+
+### Name
+
+- **brazilian:** `"Mestre de Zestiria"`
+- **english:** `"Master of Zestiria"`
+- **french:** `"Maître de Zestiria"`
+- **german:** `"Meister von Zestiria"`
+- **italian:** `"Maestro di Zestiria"`
+- **japanese:** `"ゼスティリアマスター"`
+- **russian:** `"Мастер Зестирии"`
+- **schinese:** `"热情巅峰"`
+- **spanish:** `"Maestro de Zestiria"`
+- **tchinese:** `"熱情巔峰"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você obteve todos os troféus. Estamos empolgados que tenha gostado tanto do jogo, e esperamos ver você de novo em títulos futuros!"`
+- **english:** `"This is proof that you've obtained all trophies. We're thrilled you like the game so much, and we hope to meet you again in future titles!"`
+- **french:** `"Ceci prouve que vous avez obtenu tous les trophées. Nous sommes ravis que le jeu vous ait autant plu et nous espérons vous retrouver dans nos prochains titres !"`
+- **german:** `"Das ist der Beweis, dass du alle Trophäen erhalten hast. Wir freuen uns sehr, dass dir das Spiel so gut gefällt, und hoffen, dich in zukünftigen Titeln wiederzusehen!"`
+- **italian:** `"Attesta che hai ottenuto tutti i trofei. Siamo felici che tu abbia veramente apprezzato il gioco. L'appuntamento è per i prossimi titoli!"`
+- **japanese:** `"全てのトロフィーを得た証です。これからもテイルズ オブ ゼスティリアとこれから生まれる新しい作品をよろしくお願いします！"`
+- **russian:** `"Доказательство того, что вы получили все призы. Мы рады, что игра вам так понравилась, до встречи в будущих частях!"`
+- **schinese:** `"获得全部奖杯的证明。今后也请继续支持《Tales of Zestiria》以及未来推出的新作品！"`
+- **spanish:** `"Esta es la prueba de que has conseguido todos los trofeos. Nos emociona que te guste tanto el juego y esperamos volver a verte en futuras entregas."`
+- **tchinese:** `"獲得所有獎盃的證明。今後也請繼續支持 「Tales of Zestiria」和未來推出的新作品！"`
+
+## Added: `"TROPHY_ID_001"`
+
+### Name
+
+- **brazilian:** `"Amanhecer do Pastor"`
+- **english:** `"Dawn of the Shepherd"`
+- **french:** `"Aube du Berger"`
+- **german:** `"Der Weg des Hirten beginnt"`
+- **italian:** `"L'alba del Redentore"`
+- **japanese:** `"導師、その始まり"`
+- **russian:** `"Заря Пастыря"`
+- **schinese:** `"迈向导师之路"`
+- **spanish:** `"El amanecer del Pastor"`
+- **tchinese:** `"邁向導師之路"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você formou o pacto e conquistou o poder do Pastor. Agora, sua jornada e provações começam para valer!"`
+- **english:** `"This is proof that you've formed the pact and earned the power of the Shepherd. Now your journey and trials really begin!"`
+- **french:** `"Ceci prouve que vous avez conclu le pacte et obtenu le pouvoir du Berger. Votre périple et vos épreuves vont vraiment commencer !"`
+- **german:** `"Das ist der Beweis, dass du den Pakt eingegangen bist und die Kraft des Hirten erlangt hast. Jetzt gehen deine Reise und deine Prüfungen erst richtig los!"`
+- **italian:** `"Attesta che hai stretto il patto e acquisito il potere del Redentore. La tua avventura inizia ora!"`
+- **japanese:** `"契約を交わし、導師の力を得た証。導師の試練と冒険の旅が、ついに幕を開ける！"`
+- **russian:** `"Доказательство того, что вы заключили союз и получили силу Пастыря."`
+- **schinese:** `"订立契约，获得导师之力的证明。导师的试炼与冒险之旅终于拉开序幕！"`
+- **spanish:** `"Esta es la prueba de que has forjado el pacto y has ganado el poder del Pastor. ¡Ahora empiezan el viaje y las pruebas de verdad!"`
+- **tchinese:** `"訂下契約，獲得導師之力的證明。 導師的試煉和冒險之旅終於揭開序幕！"`
+
+## Added: `"TROPHY_ID_002"`
+
+### Name
+
+- **brazilian:** `"Juventude"`
+- **english:** `"Youth"`
+- **french:** `"Jeunesse"`
+- **german:** `"Jugend"`
+- **italian:** `"Quant'è bella giovinezza"`
+- **japanese:** `"僕たちの"`
+- **russian:** `"Молодость"`
+- **schinese:** `"我们的羁绊"`
+- **spanish:** `"Juventud"`
+- **tchinese:** `"我們的羈絆"`
+
+### Description
+
+- **brazilian:** `"Você passou por muita coisa, mas isso prova que ainda está no caminho certo. Ou no receptáculo certo. Ou algo parecido. A juventude pode ser atribulada."`
+- **english:** `"You've been through a lot, but this is proof that you're still on the right track. Or in the right vessel. Or something. Youth can be tumultuous."`
+- **french:** `"Vous avez vécu beaucoup de choses, mais ceci prouve que vous êtes toujours sur la bonne voie. Ou dans le bon réceptacle. Ou quelque chose comme ça. Ah, la passion de la jeunesse !"`
+- **german:** `"Du hast viel durchgemacht, aber dies ist der Beweis, dass du noch auf dem richtigen Weg bist. Oder im richtigen Träger. Oder so. In der Jugend kann es drunter- und drübergehen."`
+- **italian:** `"Hai affrontato mille vicissitudini, ma questa e' la prova che sei sulla strada giusta. O sul giusto vettore. O qualcos'altro. La gioventù puo' essere molto movimentata."`
+- **japanese:** `"いろいろあったけど、元の鞘に戻った証。……正確には『新たな器に入った』ですが。いろいろあるのが青春だ。"`
+- **russian:** `"Вы через многое прошли, но это доказывает, что вы все еще на правильном пути. Или все еще верны себе. Или еще что-то. В юности все очень сумбурно и непонятно."`
+- **schinese:** `"历经波折，终于重归于好的证明。……不过，准确地说应该是“进入了新的容器”。青春就是这样丰富多彩。"`
+- **spanish:** `"Has pasado por mucho, pero esta es la prueba de que sigues por el buen camino. O en el buen receptáculo. O lo que sea. La juventud puede ser turbulenta."`
+- **tchinese:** `"幾經波折後，終於重修舊好證明。 ……但正確來說應該是「進入新的容器」。 青春就該如此多采多姿。"`
+
+## Added: `"TROPHY_ID_003"`
+
+### Name
+
+- **brazilian:** `"Provações Completadas"`
+- **english:** `"Trials Overcome"`
+- **french:** `"Épreuves surmontées"`
+- **german:** `"Bestandene Prüfungen"`
+- **italian:** `"Oltre la sfida"`
+- **japanese:** `"試練を超えて"`
+- **russian:** `"Испытания"`
+- **schinese:** `"通过试炼"`
+- **spanish:** `"Pruebas superadas"`
+- **tchinese:** `"通過試煉"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você conquistou os meios de se levantar contra aqueles que merecem. Mas cuidado... Seus inimigos são mais poderosos do que você imagina. Não há como saber se você pode triunfar sem confrontá-los diretamente."`
+- **english:** `"This is proof that you've earned the means to stand up against those whom you must. But beware... Your enemies are more powerful than you can imagine. There's no way to know whether you can triumph without confronting them directly."`
+- **french:** `"Ceci prouve que vous avez obtenu les moyens de vous dresser contre vos ennemis. Mais attention... Ils sont plus puissants que vous ne pouvez l'imaginer. Nul ne saurait dire si vous pouvez triompher sans les affronter directement."`
+- **german:** `"Das ist der Beweis, dass du die Mittel erworben hast, um deinen Gegnern entgegenzutreten. Aber Vorsicht ... sie sind mächtiger, als du dir vorstellen kannst. Ob du gegen sie bestehen kannst, weißt du erst, wenn es so weit ist."`
+- **italian:** `"Attesta che hai ottenuto i poteri necessari per affrontare i tuoi antagonisti. Ma ricorda, i nemici sono più potenti di quanto tu possa immaginare, e non potrai trionfare senza un confronto diretto."`
+- **japanese:** `"戦うべき相手に対抗するだけの力を身につけた証。だが、敵は強大。勝てるかどうかは戦ってみなければわからない。"`
+- **russian:** `"Доказательство того, что вы обрели силы, необходимые для победы. Но будьте осторожны... Ваши враги сильнее, чем кажутся. И пока вы не сразитесь с ними, вы не узнаете, на что вы способны."`
+- **schinese:** `"获得足以与强敌抗衡的力量的证明。不过，敌人十分强大，只有真正交手后才能见分晓。"`
+- **spanish:** `"Esta es la prueba de que has adquirido los medios para enfrentarte contra quien debes. Pero cuidado... los enemigos son más poderosos de lo que imaginas. No hay manera de saber si triunfarás sin una confrontación directa con ellos."`
+- **tchinese:** `"獲得足以對抗敵人之力的證明。 但敵人十分強大，實際交手過後才能見真章。"`
+
+## Added: `"TROPHY_ID_004"`
+
+### Name
+
+- **brazilian:** `"Tudo Acaba Aqui"`
+- **english:** `"It All Ends Here"`
+- **french:** `"Tout prend fin ici"`
+- **german:** `"Es ist soweit"`
+- **italian:** `"Sipario!"`
+- **japanese:** `"決戦の意志"`
+- **russian:** `"Все закончится здесь"`
+- **schinese:** `"决战的决心"`
+- **spanish:** `"Todo acaba aquí"`
+- **tchinese:** `"決戰的決心"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você se comprometeu a enfrentar a batalha final. Não há mais volta. Siga adiante para o lugar onde tudo vai acabar!"`
+- **english:** `"This is proof that you're committed to engaging in the final battle. There's no going back. Onward to the place where it all ends!"`
+- **french:** `"Ceci prouve que vous avez décidé de participer à la bataille finale. Vous ne pouvez plus reculer. En avant, vers la fin de l'histoire !"`
+- **german:** `"Das ist der Beweis, dass du dich auf den Endkampf eingelassen hast. Jetzt gibt es kein Zurück mehr. Also vorwärts - dorthin, wo alles endet!"`
+- **italian:** `"Attesta che hai deciso di affrontare la battaglia finale. Da qui non si torna più indietro. È il momento della resa dei conti!"`
+- **japanese:** `"全ての準備を終え、あとは決戦に挑むだけとなった証。もう迷いはない。ただ彼の地に進むのみ！"`
+- **russian:** `"Доказательство того, что вы готовы вступить в решающий бой. Пути назад нет. Скоро все закончится!"`
+- **schinese:** `"做好万全准备，即将迎接最终决战的证明。已经没有丝毫迷茫，只管朝目标前进！"`
+- **spanish:** `"Esta es la prueba de que estás comprometido a enfrentarte en el combate final. No hay vuelta atrás. ¡Adelante, hacia el lugar donde termina todo!"`
+- **tchinese:** `"做好萬全準備，即將邁向決戰的證明。 已無任何一絲迷惘，只管朝目標前進！"`
+
+## Added: `"TROPHY_ID_005"`
+
+### Name
+
+- **brazilian:** `"Crepúsculo do Pastor"`
+- **english:** `"Dusk of the Shepherd"`
+- **french:** `"Crépuscule du Berger"`
+- **german:** `"Der Weg des Hirten endet"`
+- **italian:** `"Il tramonto del Redentore"`
+- **japanese:** `"導師、その結末"`
+- **russian:** `"Закат пастыря"`
+- **schinese:** `"迈向导师结局"`
+- **spanish:** `"El crepúsculo del Pastor"`
+- **tchinese:** `"邁向導師結局"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você testemunhou a conclusão dessa história. Agora, você pode tentar jogar novamente com diversas mudanças na jogabilidade, ou pode se aventurar nos assustadores calabouços bônus."`
+- **english:** `"This is proof that you've witnessed the resolution of this story. Now you can try playing again with various changes to the gameplay, or you might venture into the daunting bonus dungeons."`
+- **french:** `"Ceci prouve que vous avez assisté au dénouement de cette histoire. Vous pouvez maintenant rejouer avec différentes modifications des paramètres, ou vous aventurer dans les terrifiants donjons bonus."`
+- **german:** `"Das ist der Beweis, dass du die Auflösung der Geschichte miterlebt hast. Jetzt kannst du das Spiel von vorn anfangen und dabei ein paar Änderungen vornehmen oder dich an die furchterregenden Bonusverliese wagen."`
+- **italian:** `"Attesta che hai assistito all'epilogo di questa storia. Ora potrai affrontare di nuovo l'avventura con varie modifiche al sistema di gioco o avventurarti nei temibili sotterranei bonus."`
+- **japanese:** `"物語の結末を君の目で確かめた証。２周目を遊ぶもよし。エクストラダンジョンを探すもよし。"`
+- **russian:** `"Доказательство того, что вы видели финал этой истории. Теперь можете пройти игру еще раз с новыми настройками или рискнуть и отправиться в устрашающие бонусные подземелья."`
+- **schinese:** `"亲眼见证故事结局的证明。接下来可以开启二周目，也可以探索隐藏迷宫。"`
+- **spanish:** `"Esta es la prueba de que has visto cómo acaba esta historia. Ahora puedes probar a volver a jugar introduciendo varios cambios en el juego o aventurarte en las aterradoras mazmorras adicionales."`
+- **tchinese:** `"親眼見證故事結局的證明。 可以遊玩第二輪，也可以探索隱藏迷宮。"`
+
+## Added: `"TROPHY_ID_006"`
+
+### Name
+
+- **brazilian:** `"Em Farrapos"`
+- **english:** `"In Shreds and Tatters"`
+- **french:** `"En lambeaux"`
+- **german:** `"In Fetzen"`
+- **italian:** `"Furore"`
+- **japanese:** `"うちほろぼろす"`
+- **russian:** `"В лохмотьях"`
+- **schinese:** `"衔尾之战"`
+- **spanish:** `"Hecho un guiñapo"`
+- **tchinese:** `"銜尾之戰"`
+
+### Description
+
+- **brazilian:** `"Em (pelo menos) sua segunda partida ou na dificuldade Difícil (ou superior), vença a terrível batalha na Encosta Falkewin sem usar itens! É um desafio íngreme, mas você dá conta!"`
+- **english:** `"Either on (at least) your 2nd playthrough or in Hard (or greater) difficulty, conquer the fierce battle at Falkewin Hillside without using any items! It's a steep challenge, but you've got what it takes!"`
+- **french:** `"Pendant votre 2e partie (au moins) ou en difficulté Difficile (ou supérieure), triomphez dans le combat du Coteau de Falkewin sans utiliser d'objets ! Le défi est de taille, mais vous en êtes capable !"`
+- **german:** `"Sichere dir (frühestens) im 2. Spieldurchgang oder im Schwierigkeitsgrad \"Schwer\" (oder höher) den Sieg in dem erbitterten Kampf am Falkewin-Hang, ohne Gegenstände zu benutzen! Leicht wird das nicht, aber du kannst es schaffen!"`
+- **italian:** `"Supera la sanguinosa battaglia del pendio di Falkewin senza usare oggetti durante la seconda partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)! È una sfida impegnativa, ma puoi uscirne vincitore!"`
+- **japanese:** `"難易度ハード以上か２周目以上でフォルクエン丘陵での激戦を、アイテムを使用せず撃破！腕にあわせた条件で達成を目指しましょう。"`
+- **russian:** `"Завершите суровый бой на склоне горы Фалквин либо во время второго (по меньшей мере) прохождения, либо на сложном (или выше) уровне, не пользуясь предметами! Это сложное испытание, но вам оно под силу!"`
+- **schinese:** `"在困难或更高难度下，或在二周目及之后，于弗尔温丘陵的激战中不使用道具击败敌人！选择适合自己的条件，努力达成目标吧！"`
+- **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Difícil (o más) supera el combate encarnizado en la ladera de Falkewin sin utilizar objetos. Es un gran desafío, pero tú tienes lo que hay que tener."`
+- **tchinese:** `"用困難以上難度，或在第二輪之後， 於弗爾溫丘陵的激戰中，不使用道具擊破敵人！ 選擇適合的條件，設法達成目標吧！"`
+
+## Added: `"TROPHY_ID_007"`
+
+### Name
+
+- **brazilian:** `"Superteste de Colisão"`
+- **english:** `"Super Collision Course"`
+- **french:** `"En route vers l'affrontement"`
+- **german:** `"Kollisionskurs"`
+- **italian:** `"Vittoria d'impatto"`
+- **japanese:** `"全力走行中十字路でぶつかる"`
+- **russian:** `"Навстречу катастрофе"`
+- **schinese:** `"冲撞师团"`
+- **spanish:** `"Superconfrontación"`
+- **tchinese:** `"衝撞師團"`
+
+### Description
+
+- **brazilian:** `"Ou em (pelo menos) sua segunda partida ou na dificuldade Difícil (ou superior), conquiste a terrível batalha na Bacia Glaivend sem usar itens!"`
+- **english:** `"Either on (at least) your 2nd playthrough or in Hard (or greater) difficulty, conquer the fierce battle at Glaivend Basin without using any items!"`
+- **french:** `"Pendant votre 2e partie (au moins) ou en difficulté Difficile (ou supérieure), triomphez dans le combat du Bassin de Glaivend sans utiliser d'objets !"`
+- **german:** `"Sichere dir (frühestens) im 2. Spieldurchgang oder im Schwierigkeitsgrad \"Schwer\" (oder höher) den Sieg in dem erbitterten Kampf in der Glefehd-Senke, ohne Gegenstände zu benutzen!"`
+- **italian:** `"Supera la sanguinosa battaglia del bacino di Glaivend senza usare oggetti durante la seconda partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)!"`
+- **japanese:** `"難易度ハード以上か２周目以上でグレイブガント盆地での激戦を、アイテムを使用せず撃破！"`
+- **russian:** `"Завершите суровый бой у впадины Глайвенд либо во время второго (по меньшей мере) прохождения, либо на сложном (или выше) уровне, не пользуясь предметами!"`
+- **schinese:** `"在困难或更高难度下，或在二周目及之后，于古雷弗坎盆地的激战中不使用道具击败敌人！"`
+- **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Difícil (o más) supera el combate encarnizado en la cuenca de Glaivend sin utilizar objetos."`
+- **tchinese:** `"用困難以上難度，或在第二輪之後， 於古雷弗坎盆地的激戰中，不使用道具擊破敵人！"`
+
+## Added: `"TROPHY_ID_008"`
+
+### Name
+
+- **brazilian:** `"Provação Fogosa"`
+- **english:** `"Fiery Trial"`
+- **french:** `"Épreuve ardente"`
+- **german:** `"Feurige Prüfung"`
+- **italian:** `"Sfida infuocata"`
+- **japanese:** `"皿・男・叫び"`
+- **russian:** `"Испытание огнем"`
+- **schinese:** `"火与蜥蜴的交会"`
+- **spanish:** `"Prueba de fuego"`
+- **tchinese:** `"火與蜥蜴的交會"`
+
+### Description
+
+- **brazilian:** `"Ou em (pelo menos) sua segunda partida ou na dificuldade Difícil (ou superior), conquiste a terrível batalha em Igraine, o Templo da Provação do Fogo, sem usar itens!"`
+- **english:** `"Either on (at least) your 2nd playthrough or in Hard (or greater) difficulty, conquer the fierce battle at Igraine, the Shrine of the Fire Trial, without using any items!"`
+- **french:** `"Pendant votre 2e partie (au moins) ou en difficulté Difficile (ou supérieure), triomphez dans le combat du sanctuaire de l'épreuve du feu d'Ygraine sans utiliser d'objets !"`
+- **german:** `"Sichere dir (frühestens) im 2. Spieldurchgang oder im Schwierigkeitsgrad \"Schwer\" (oder höher) den Sieg in dem erbitterten Kampf bei Igraine, dem Schrein der Feuerprüfung, ohne Gegenstände zu benutzen!"`
+- **italian:** `"Supera la sanguinosa battaglia di Igraine, il santuario della sfida del fuoco, senza usare oggetti durante la seconda partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)!"`
+- **japanese:** `"難易度ハード以上か２周目以上で試練遺跡イグレインでの激戦を、アイテムを使用せず撃破！"`
+- **russian:** `"Завершите суровый бой в Игрейне, Храме Испытания Огнем либо во время второго (по меньшей мере) прохождения, либо на сложном (или выше) уровне, не пользуясь предметами!"`
+- **schinese:** `"在困难或更高难度下，或在二周目及之后，于试炼遗迹伊格兰的激战中不使用道具击败敌人！"`
+- **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Difícil (o más) supera el combate encarnizado en el santuario de Igraine de la prueba de fuego sin utilizar objetos."`
+- **tchinese:** `"用困難以上難度，或在第二輪之後， 於試煉遺跡伊格蘭的激戰中，不使用道具擊破敵人！"`
+
+## Added: `"TROPHY_ID_009"`
+
+### Name
+
+- **brazilian:** `"Se Retorcendo de Agonia"`
+- **english:** `"Writhe in Agony"`
+- **french:** `"Douleur insupportable"`
+- **german:** `"Schmerzgekrümmt"`
+- **italian:** `"Agonia dolorosa"`
+- **japanese:** `"のたうち回ろうっす"`
+- **russian:** `"Страшные муки"`
+- **schinese:** `"斗牛之战"`
+- **spanish:** `"Retorcerse de dolor"`
+- **tchinese:** `"鬥牛之戰"`
+
+### Description
+
+- **brazilian:** `"Ou em (pelo menos) sua segunda partida ou na dificuldade Difícil (ou superior), conquiste a terrível batalha em Morgause, o Templo da Provação da Terra, sem usar itens!"`
+- **english:** `"Either on (at least) your 2nd playthrough or in Hard (or greater) difficulty, conquer the fierce battle at Morgause, the Shrine of the Earth Trial, without using any items!"`
+- **french:** `"Pendant votre 2e partie (au moins) ou en difficulté Difficile (ou supérieure), triomphez dans le combat du sanctuaire de l'épreuve de la terre de Morgause sans utiliser d'objets !"`
+- **german:** `"Sichere dir (frühestens) im 2. Spieldurchgang oder im Schwierigkeitsgrad \"Schwer\" (oder höher) den Sieg in dem erbitterten Kampf bei Morgause, dem Schrein der Erdenprüfung, ohne Gegenstände zu benutzen!"`
+- **italian:** `"Supera la sanguinosa battaglia di Morgause, il santuario della sfida della terra, senza usare oggetti durante la seconda partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)!"`
+- **japanese:** `"難易度ハード以上か２周目以上で試練遺跡モルゴースでの激戦を、アイテムを使用せず撃破！"`
+- **russian:** `"Завершите суровый бой в Моргаузе, Храме Испытания Землей либо во время второго (по меньшей мере) прохождения, либо на сложном (или выше) уровне, не пользуясь предметами!"`
+- **schinese:** `"在困难或更高难度下，或在二周目及之后，于试炼遗迹莫格斯的激战中不使用道具击败敌人！"`
+- **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Difícil (o más) supera el combate encarnizado en el santuario de Morgause de la prueba de tierra sin utilizar objetos."`
+- **tchinese:** `"用困難以上難度，或在第二輪之後， 於試煉遺跡莫格斯的激戰中，不使用道具擊破敵人！"`
+
+## Added: `"TROPHY_ID_010"`
+
+### Name
+
+- **brazilian:** `"Tudo Azul"`
+- **english:** `"Rest Azure'd"`
+- **french:** `"Azur-ance"`
+- **german:** `"Nasse Herausforderung"`
+- **italian:** `"Tormento fluente"`
+- **japanese:** `"バスター＆ドロップ"`
+- **russian:** `"Кристально чистая уверенность"`
+- **schinese:** `"六臂强敌"`
+- **spanish:** `"Descanso azul"`
+- **tchinese:** `"六臂強敵"`
+
+### Description
+
+- **brazilian:** `"Ou em (pelo menos) sua segunda partida ou na dificuldade Difícil (ou superior), conquiste a terrível batalha em Lefay, o Templo da Provação da Água, sem usar itens!"`
+- **english:** `"Either on (at least) your 2nd playthrough or in Hard (or greater) difficulty, conquer the fierce battle at Lefay, the Shrine of the Water Trial, without using any items!"`
+- **french:** `"Pendant votre 2e partie (au moins) ou en difficulté Difficile (ou supérieure), triomphez dans le combat du sanctuaire de l'épreuve de l'eau de Lefay sans utiliser d'objets !"`
+- **german:** `"Sichere dir (frühestens) im 2. Spieldurchgang oder im Schwierigkeitsgrad \"Schwer\" (oder höher) den Sieg in dem erbitterten Kampf bei Lefay, dem Schrein der Wasserprüfung, ohne Gegenstände zu benutzen!"`
+- **italian:** `"Supera la sanguinosa battaglia di Lefay, il santuario della sfida dell'acqua, senza usare oggetti durante la seconda partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)!"`
+- **japanese:** `"難易度ハード以上か２周目以上で試練遺跡ルーフェイでの激戦を、アイテムを使用せず撃破！"`
+- **russian:** `"Завершите суровый бой в Лефэе, Храме Испытания Водой либо во время второго (по меньшей мере) прохождения, либо на сложном (или выше) уровне, не пользуясь предметами!"`
+- **schinese:** `"在困难或更高难度下，或在二周目及之后，于试炼遗迹勒菲的激战中不使用道具击败敌人！"`
+- **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Difícil (o más) supera el combate encarnizado en el santuario de Lefay de la prueba de agua sin utilizar objetos."`
+- **tchinese:** `"用困難以上難度，或在第二輪之後， 於試煉遺跡勒菲的激戰中，不使用道具擊破敵人！"`
+
+## Added: `"TROPHY_ID_011"`
+
+### Name
+
+- **brazilian:** `"Desafio do Iniciante"`
+- **english:** `"Newcomer Challenge"`
+- **french:** `"Défi du nouveau venu"`
+- **german:** `"Herausforderung für ein Nachwuchstalent"`
+- **italian:** `"Il vento della vittoria"`
+- **japanese:** `"イッツアニューフェイス"`
+- **russian:** `"Испытание для новичка"`
+- **schinese:** `"新面孔"`
+- **spanish:** `"Desafío para recién llegados"`
+- **tchinese:** `"新面孔"`
+
+### Description
+
+- **brazilian:** `"Ou em (pelo menos) sua segunda partida ou na dificuldade Difícil (ou superior), conquiste a terrível batalha em Guinevere, o Templo da Provação do Vento, sem usar itens!"`
+- **english:** `"Either on (at least) your 2nd playthrough or in Hard (or greater) difficulty, conquer the fierce battle at Guinevere, the Shrine of the Wind Trial, without using any items!"`
+- **french:** `"Pendant votre 2e partie (au moins) ou en difficulté Difficile (ou supérieure), triomphez dans le combat du sanctuaire de l'épreuve du vent de Guenièvre sans utiliser d'objets !"`
+- **german:** `"Sichere dir (frühestens) im 2. Spieldurchgang oder im Schwierigkeitsgrad \"Schwer\" (oder höher) den Sieg in dem erbitterten Kampf bei Guinevere, dem Schrein der Windprüfung, ohne Gegenstände zu benutzen!"`
+- **italian:** `"Supera la sanguinosa battaglia di Guinevere, il santuario della sfida del vento, senza usare oggetti durante la seconda partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)!"`
+- **japanese:** `"難易度ハード以上か２周目以上で試練遺跡ギネヴィアでの激戦を、アイテムを使用せず撃破！"`
+- **russian:** `"Завершите суровый бой в Гвиневере, Храме Испытания Ветром либо во время второго (по меньшей мере) прохождения, либо на сложном (или выше) уровне, не пользуясь предметами!"`
+- **schinese:** `"在困难或更高难度下，或在二周目及之后，于试炼遗迹桂妮薇尔的激战中不使用道具击败敌人！"`
+- **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Difícil (o más) supera el combate encarnizado en el santuario de Ginebra de la prueba de viento sin utilizar objetos."`
+- **tchinese:** `"用困難以上難度，或在第二輪之後， 於試煉遺跡桂妮薇爾的激戰中，不使用道具擊破敵人！"`
+
+## Added: `"TROPHY_ID_012"`
+
+### Name
+
+- **brazilian:** `"Campo de Batalha Inundado de Lágrimas"`
+- **english:** `"Tear-Soaked Battlefield"`
+- **french:** `"Champ de bataille baigné de larmes"`
+- **german:** `"Tränengetränktes Schlachtfeld"`
+- **italian:** `"Bacino di lacrime"`
+- **japanese:** `"零した涙が絨毯に落ちる"`
+- **russian:** `"Залитое слезами поле боя"`
+- **schinese:** `"潸然泪下"`
+- **spanish:** `"Un campo de batalla cubierto de lágrimas"`
+- **tchinese:** `"潸然淚下"`
+
+### Description
+
+- **brazilian:** `"Ou em (pelo menos) sua segunda partida ou na dificuldade Difícil (ou superior), conquiste a segunda terrível batalha na Bacia Glaivend sem usar itens!"`
+- **english:** `"Either on (at least) your 2nd playthrough or in Hard (or greater) difficulty, conquer the second fierce battle at Glaivend Basin without using any items!"`
+- **french:** `"Soit pendant votre 2e partie (au moins) soit en difficulté Difficile (ou supérieure), venez à bout du deuxième combat ardu du Bassin de Glaivend sans utiliser d'objets !"`
+- **german:** `"Sichere dir (frühestens) im 2. Spieldurchgang oder im Schwierigkeitsgrad \"Schwer\" (oder höher) den Sieg in dem zweiten erbitterten Kampf in der Glefehd-Senke, ohne Gegenstände zu benutzen!"`
+- **italian:** `"Supera la seconda sanguinosa battaglia del bacino di Glaivend senza usare oggetti durante la seconda partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)!"`
+- **japanese:** `"難易度ハード以上か２周目以上でグレイブガント盆地での再度の激戦を、アイテムを使用せず撃破！"`
+- **russian:** `"Завершите второй суровый бой у впадины Глайвенд либо во время второго (по меньшей мере) прохождения, либо на сложном (или выше) уровне, не пользуясь предметами!"`
+- **schinese:** `"在困难或更高难度下，或在二周目及之后，于古雷弗坎盆地的第二场激战中不使用道具击败敌人！"`
+- **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Difícil (o más) supera el segundo combate encarnizado en la cuenca de Glaivend sin utilizar objetos."`
+- **tchinese:** `"用困難以上難度，或在第二輪之後， 於古雷弗坎盆地的再次激戰中，不使用道具擊破敵人！"`
+
+## Added: `"TROPHY_ID_013"`
+
+### Name
+
+- **brazilian:** `"Matando com Bondade"`
+- **english:** `"Killing with Kindness"`
+- **french:** `"Euthanasie"`
+- **german:** `"Sieg mit leeren Händen"`
+- **italian:** `"Scontro spirituale"`
+- **japanese:** `"私は禅の心を身につけた"`
+- **russian:** `"Убийство из доброты"`
+- **schinese:** `"爱、杰出与恩典"`
+- **spanish:** `"Matar con amabilidad"`
+- **tchinese:** `"愛、傑出與恩典"`
+
+### Description
+
+- **brazilian:** `"Ou em (pelo menos) sua segunda partida ou na dificuldade Difícil (ou superior), conquiste a terrível batalha no Cume dos Espíritos Rayfalke sem usar itens!"`
+- **english:** `"Either on (at least) your 2nd playthrough or in Hard (or greater) difficulty, conquer the fierce battle at the Spiritcrest Rayfalke without using any items!"`
+- **french:** `"Pendant votre 2e partie (au moins) ou en difficulté Difficile (ou supérieure), triomphez dans le combat de Rayfalke, la Crête des esprits, sans utiliser d'objets !"`
+- **german:** `"Sichere dir (frühestens) im 2. Spieldurchgang oder im Schwierigkeitsgrad \"Schwer\" (oder höher) den Sieg in dem erbitterten Kampf am Ehrwürdigen Falkenkamm, ohne Gegenstände zu benutzen!"`
+- **italian:** `"Supera la sanguinosa battaglia della vetta dello spirito di Rayfalke senza usare oggetti durante la seconda partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)!"`
+- **japanese:** `"難易度ハード以上か２周目以上で霊峰レイフォルクでの激戦を、アイテムを使用せず撃破！"`
+- **russian:** `"Завершите суровый бой на Священном пике Рейфалк либо во время второго (по меньшей мере) прохождения, либо на сложном (или выше) уровне, не пользуясь предметами!"`
+- **schinese:** `"在困难或更高难度下，或在二周目及之后，于灵峰雷弗克的激战中不使用道具击败敌人！"`
+- **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Difícil (o más) supera el combate encarnizado en la cima espiritual de Rayfalke sin utilizar objetos."`
+- **tchinese:** `"用困難以上難度，或在第二輪之後， 於靈峰雷弗克的激戰中，不使用道具擊破敵人！"`
+
+## Added: `"TROPHY_ID_014"`
+
+### Name
+
+- **brazilian:** `"Um Conto Não Específico"`
+- **english:** `"A Non-Specific Tale"`
+- **french:** `"Histoire sans précisions"`
+- **german:** `"Vage Trophäe"`
+- **italian:** `"Una storia, molte storie"`
+- **japanese:** `"こーるたーる"`
+- **russian:** `"История без подробностей"`
+- **schinese:** `"神秘二人组"`
+- **spanish:** `"Un cuento sin pormenores"`
+- **tchinese:** `"神秘二人組"`
+
+### Description
+
+- **brazilian:** `"Você derrotou algum tipo de pessoa que veio de algum tipo de lugar usando algum tipo de meio. Isso é algum tipo de prova disso. Tipo isso."`
+- **english:** `"You defeated some sort of people who came from some sort of place using some sort of means. This is some sort of proof of that. Sort of."`
+- **french:** `"Vous avez vaincu une sorte de personne venue d'une sorte d'endroit par une sorte de moyen. Ceci en est une sorte de preuve. En quelque sorte."`
+- **german:** `"Du hast mit irgendwelchen Mitteln irgendwelche Leute besiegt, die von irgendwo herkamen. Das hier ist irgendwie eine Art Beweis dafür. Sozusagen."`
+- **italian:** `"Hai sconfitto un determinato nemico proveniente da un determinato luogo in un determinato modo. E questa è la prova determinante, giustappunto."`
+- **japanese:** `"とあるところから来たとある二人をとある方法でとある撃破をしたとある証。と、ある。"`
+- **russian:** `"Каким-то образом вы победили каких-то людей, пришедших откуда-то. И это как-то доказывает это событие. Вроде как."`
+- **schinese:** `"使用某种方法击败了来自某个地方的某两个人——这就是某种意义上的证明。"`
+- **spanish:** `"Has derrotado a cierto tipo de personas que venían de algún lado utilizando algún medio. Esta es una especie de prueba de ello. O algo así."`
+- **tchinese:** `"用某種方法擊破從某個地方來的 某兩個人的某種證明。 "`
+
+## Added: `"TROPHY_ID_015"`
+
+### Name
+
+- **brazilian:** `"Uma Vida de Moderação"`
+- **english:** `"A Life of Moderation"`
+- **french:** `"Une vie de modération"`
+- **german:** `"Ein Leben auf dem Mittelweg"`
+- **italian:** `"Una vita moderata"`
+- **japanese:** `"第二の人生"`
+- **russian:** `"Умеренная жизнь"`
+- **schinese:** `"第二人生"`
+- **spanish:** `"Una vida de moderación"`
+- **tchinese:** `"第二人生"`
+
+### Description
+
+- **brazilian:** `"Ou em (pelo menos) sua segunda partida ou na dificuldade Moderada (ou superior), vença a batalha final sem tentar novamente! Se você conhece o jogo, que tal começar sua primeira partida já na dificuldade Moderada? Você ganhará mais Grau que na Normal!"`
+- **english:** `"Either on (at least) your 2nd playthrough or in Moderate (or greater) difficulty, win the final battle without retrying! If you're familiar with the game, why not start your first playthrough in Moderate right away? You'll earn more Grade than in Normal!"`
+- **french:** `"Pendant votre 2e partie (au moins) ou en difficulté Moyenne (ou supérieure), remportez le combat final du premier coup ! Si vous connaissez le jeu, essayez de commencer votre première partie directement en difficulté Moyenne ! Vous gagnerez plus de points qu'en Normale !"`
+- **german:** `"Hol dir (frühestens) im 3. Spieldurchgang oder im Schwierigkeitsgrad \"Schwer\" (oder höher) den Sieg im Endkampf im ersten Versuch! Wenn du dich ohne den eisigen Blick des Todes im Rücken nicht lebendig fühlst, fang am besten gleich im Schwierigkeitsgrad \"Schwer\" oder höher an! Beim Spielen im Schwierigkeitsgrad \"Schwer\" oder höher wächst die Wahrscheinlichkeit, Ausrüstung mit zwei Fertigkeiten zu erhalten!"`
+- **italian:** `"Supera la battaglia finale senza riprovare durante la seconda partita (o successiva) oppure a livello di difficoltà Moderato (o superiore)! Se sei un veterano di questo genere di giochi, perché non affronti la prima partita a livello di difficoltà Moderato? Otterrai più gradi del livello Normale!"`
+- **japanese:** `"難易度セカンド以上、または２周目以上での最終決戦をリトライせずに勝利！常連さんは１周目からセカンドで始めてみては？グレードなどの獲得量が、ノーマルよりも上がりますよ！"`
+- **russian:** `"Одержите победу в финальной битве с первой попытки либо во время второго (по меньшей мере) прохождения, либо на умеренном (или выше) уровне! Если вы хорошо знакомы с игрой, попробуйте начать первое прохождение сразу на умеренном уровне. Так вы сможете получать больше очков рейтинга!"`
+- **schinese:** `"在进阶或更高难度下，或在二周目及之后，不使用重试功能赢得最终决战！熟悉游戏的话，不妨在一周目就挑战进阶难度。获得的积分也比普通难度更多哦！"`
+- **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Moderada (o más) gana el combate final sin reintentarlo. Si estás familiarizado con el juego, ¿por qué no empiezas la primera partida directamente en Moderada? Ganarás más rango que en Normal."`
+- **tchinese:** `"用進階以上難度，或在第二輪之後，未使用再次挑戰於最終決戰獲勝！ 熟悉遊戲的您，不妨在第一輪就嘗試進階難度。 積分獲得量也比普通難度多喔！"`
+
+## Added: `"TROPHY_ID_016"`
+
+### Name
+
+- **brazilian:** `"Uma Vida de Dificuldade"`
+- **english:** `"A Life of Struggle"`
+- **french:** `"Une vie de lutte"`
+- **german:** `"Ein Leben des Kampfes"`
+- **italian:** `"Una vita complicata"`
+- **japanese:** `"苦難に満ちた人生"`
+- **russian:** `"Жизнь - это борьба"`
+- **schinese:** `"对抗噩梦折磨的人生"`
+- **spanish:** `"Una vida de luchas"`
+- **tchinese:** `"苦難重重的人生"`
+
+### Description
+
+- **brazilian:** `"Ou em (pelo menos) sua terceira partida ou na dificuldade Difícil (ou superior), vença a batalha final sem tentar novamente! Se não consegue se sentir vivo sem o olhar gelado da morte nas suas costas, recomendamos que você comece o jogo já na dificuldade Difícil! Jogar em Difícil ou superior aumenta suas chances de obter equipamento de habilidade dupla!"`
+- **english:** `"Either on (at least) your 3rd playthrough or in Hard (or greater) difficulty, win the final battle without retrying! If you can't feel alive without the icy glare of death at your back, we recommend you start the game in Hard right away! Playing in Hard or higher increases your likelihood of obtaining double-skill equipment!"`
+- **french:** `"Pendant votre 3e partie (au moins) ou en difficulté Difficile (ou supérieure), remportez le combat final du premier coup ! Si vous avez besoin de sentir la mort vous souffler dans le cou pour apprécier, essayez de commencer votre première partie directement en difficulté Difficile ! Vous aurez plus de chances d'obtenir de l'équipement à double capacité !"`
+- **german:** `"Hol dir (frühestens) im 3. Spieldurchgang oder im Schwierigkeitsgrad \"Schwer\" (oder höher) den Sieg im Endkampf im ersten Versuch! Wenn du dich ohne den eisigen Blick des Todes im Rücken nicht lebendig fühlst, fang am besten gleich im Schwierigkeitsgrad \"Schwer\" oder höher an! Beim Spielen im Schwierigkeitsgrad \"Schwer\" oder höher wächst die Wahrscheinlichkeit, Ausrüstung mit zwei Fertigkeiten zu erhalten!"`
+- **italian:** `"Supera la battaglia finale senza riprovare durante la terza partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)! Vivi per provare l'ebbrezza della morte che ti sfiora? Il consiglio è di iniziare il gioco a livello di difficoltà Difficile! Giocare a livello Difficile o superiore incrementa le probabilità di ottenere equipaggiamento con abilità doppie."`
+- **japanese:** `"難易度ハード以上、または３周目以上での最終決戦をリトライせずに勝利！命の危険がないと生きてる実感がない人はこの難易度から始めましょう。ハード以上でのみ「ダブルスキル」の発生確率があります！"`
+- **russian:** `"Одержите победу в финальной битве с первой попытки либо во время третьего (по меньшей мере) прохождения, либо на сложном (или выше) уровне! Если жизнь кажется вам пустой, когда смерть не поджидает за каждым углом, попробуйте начать игру сразу на сложном уровне! Играя на сложном уровне и выше, вы имеете больше шансов найти снаряжение с двойными навыками!"`
+- **schinese:** `"在困难或更高难度下，或在三周目及之后，不使用重试功能赢得最终决战！如果不面临生命危险就感受不到生存价值，不妨直接挑战困难难度。只有在困难或更高难度下，才有机会获得“双重技能”装备！"`
+- **spanish:** `"Bien en la tercera partida (al menos) o en dificultad Difícil (o más) gana el combate final sin reintentarlo. Si no te sientes vivo sin el gélido aliento de la muerte en la nuca, te recomendamos que empieces el juego directamente en Difícil. Jugar en esta dificultad o más aumenta la probabilidad de que encuentres equipo con dos habilidades."`
+- **tchinese:** `"用困難以上難度，或在第三輪之後，未使用再次挑戰於最終決戰獲勝！ 若沒有生命危險就感受不到生存價值的人，歡迎選擇此難度開始遊玩。 「雙重技能」只有在困難以上難度才有機會出現！"`
+
+## Added: `"TROPHY_ID_017"`
+
+### Name
+
+- **brazilian:** `"Uma Vida Enfrentando Malícia"`
+- **english:** `"A Life Facing Malice"`
+- **french:** `"Une vie contre le mal"`
+- **german:** `"Im Angesicht der Bosheit"`
+- **italian:** `"Una vita intensa"`
+- **japanese:** `"悪意の眼差しに抗う人生"`
+- **russian:** `"Жизнь, полная опасностей"`
+- **schinese:** `"对抗噩梦折磨的人生"`
+- **spanish:** `"Una vida enfrentándose a la malicia"`
+- **tchinese:** `"對抗惡夢折磨的人生"`
+
+### Description
+
+- **brazilian:** `"Ou em (pelo menos) sua quarta partida ou na dificuldade Intensa (ou superior), vença a batalha final sem tentar novamente! Jogue o suficiente em Difícil para habilitar essa opção de dificuldade mais desafiadora."`
+- **english:** `"Either on (at least) your 4th playthrough or in Intense (or greater) difficulty, win the final battle without retrying! Play long enough in Hard to unlock this more challenging difficulty setting."`
+- **french:** `"Pendant votre 4e partie (au moins) ou en difficulté Intense (ou supérieure), remportez le combat final du premier coup ! Jouez assez longtemps en difficulté Difficile pour avoir accès à ce mode plus ardu encore."`
+- **german:** `"Hol dir (frühestens) im 4. Spieldurchgang oder im Schwierigkeitsgrad \"Hoch\" (oder höher) den Sieg im Endkampf im ersten Versuch! Spiele lange genug im Schwierigkeitsgrad \"Schwer\", um diese anspruchsvollere Schwierigkeitseinstellung freizuschalten."`
+- **italian:** `"Supera la battaglia finale senza riprovare durante la quarta partita (o successiva) oppure a livello di difficoltà Intenso (o superiore)! Gioca a lungo a livello Difficile per sbloccare questo livello di difficoltà ancora più impegnativo."`
+- **japanese:** `"難易度イヴィル以上か４周目以上での最終決戦をリトライせずに勝利！難易度ハードでたっぷり戦闘すると新しい難易度が開放されます。"`
+- **russian:** `"Одержите победу в финальной битве с первой попытки либо во время четвертого (по меньшей мере) прохождения, либо на напряженном (или выше) уровне! Если будете играть достаточно долго на сложном уровне, вы откроете этот более высокий уровень сложности."`
+- **schinese:** `"在噩梦或更高难度下，或在四周目及之后，不使用重试功能赢得最终决战！在困难难度下经历一定数量的战斗，即可解锁这个新难度。"`
+- **spanish:** `"Bien en la cuarta partida (al menos) o en dificultad Intensa (o más) gana el combate final sin reintentarlo. Juega lo suficiente en Difícil para desbloquear este ajuste de dificultad todavía más desafiante."`
+- **tchinese:** `"用惡夢以上難度，或在第四輪之後，未使用再次挑戰於最終決戰獲勝！ 使用困難難度戰鬥多次後，將解鎖新的難度。"`
+
+## Added: `"TROPHY_ID_018"`
+
+### Name
+
+- **brazilian:** `"Uma Vida Dividida entre Ordem e Caos"`
+- **english:** `"A Life Torn Between Order and Chaos"`
+- **french:** `"Une vie déchirée entre l'ordre et le chaos"`
+- **german:** `"Zwischen Ordnung und Chaos"`
+- **italian:** `"Una vita tra caos e ordine"`
+- **japanese:** `"混沌と秩序の狭間の人生"`
+- **russian:** `"Жизнь на грани порядка и хаоса"`
+- **schinese:** `"混沌与秩序夹缝中的人生"`
+- **spanish:** `"Una vida dividida entre el Orden y el Caos"`
+- **tchinese:** `"混沌與秩序夾縫中的人生"`
+
+### Description
+
+- **brazilian:** `"Ou em (pelo menos) sua quinta partida ou na dificuldade Caos, vença a batalha final sem tentar novamente! Jogue o suficiente em Intensa para habilitar essa opção de dificuldade aterrorizante. É a única dificuldade que oferece chance de obter equipamento de habilidade tripla!"`
+- **english:** `"Either on (at least) your 5th playthrough or in Chaos difficulty, win the final battle without retrying! Play long enough in Intense to unlock this ghastly difficulty setting. It's the only difficulty that offers a chance of obtaining triple-skill equipment!"`
+- **french:** `"Pendant votre 5e partie (au moins) ou en difficulté Chaos, remportez le combat final du premier coup ! Jouez assez longtemps en difficulté Intense pour avoir accès à ce mode terriblement ardu. C'est le seul niveau de difficulté qui vous permette d'obtenir de l'équipement à triple capacité !"`
+- **german:** `"Hol dir (frühestens) im 5. Spieldurchgang oder im Schwierigkeitsgrad \"Chaos\" den Sieg im Endkampf im ersten Versuch! Spiele lange genug im Schwierigkeitsgrad \"Hoch\", um diese grausige Schwierigkeitseinstellung freizuschalten. Das ist der einzige Schwierigkeitsgrad, der eine Chance auf Ausrüstung mit dreifachen Fertigkeiten bietet!"`
+- **italian:** `"Supera la battaglia finale senza riprovare durante la quinta partita (o successiva) oppure a livello di difficoltà Caotico (o superiore)! Gioca a lungo a livello Intenso per sbloccare questo livello di difficoltà ancora più impegnativo. È l'unico livello che garantisce la possibilità di ottenere equipaggiamento con abilità triple!"`
+- **japanese:** `"難易度カオスか５周目以上での最終決戦をリトライせずに勝利！難易度イヴィルでごっそり戦闘すると新しい難易度が開放されます。カオスでのみ「トリプルスキル」の発生確率があります！"`
+- **russian:** `"Одержите победу в финальной битве с первой попытки либо во время пятого (по меньшей мере) прохождения, либо на уровне \"Хаос\"! Если будете играть достаточно долго на напряженном уровне, вы откроете этот пугающий уровень сложности. Только на нем можно получить снаряжение с тройными навыками!"`
+- **schinese:** `"在混沌难度下，或在五周目及之后，不使用重试功能赢得最终决战！在噩梦难度下经历一定数量的战斗，即可解锁这个新难度。只有在混沌难度下，才有机会获得“三重技能”装备！"`
+- **spanish:** `"Bien en la quinta partida (al menos) o en dificultad Caos gana el combate final sin reintentarlo. Juega lo suficiente en Intensa para desbloquear este ajuste de dificultad aterradora. ¡Es el único nivel de dificultad que ofrece la posibilidad de conseguir equipo con tres habilidades!"`
+- **tchinese:** `"用混沌以上難度，或在第五輪之後，未使用再次挑戰於最終決戰獲勝！ 使用惡夢難度不斷戰鬥後，將解鎖新的難度。 「三重技能」只有在混沌以上難度才有機會出現！"`
+
+## Added: `"TROPHY_ID_019"`
+
+### Name
+
+- **brazilian:** `"Não É Um Cliente Ordinário"`
+- **english:** `"No Ordinary Customer"`
+- **french:** `"Pas un client ordinaire"`
+- **german:** `"Kein gewöhnlicher Kunde"`
+- **italian:** `"Cliente straordinario"`
+- **japanese:** `"お得意サマー"`
+- **russian:** `"Необычный покупатель"`
+- **schinese:** `"常客"`
+- **spanish:** `"Cliente extraordinario"`
+- **tchinese:** `"常客"`
+
+### Description
+
+- **brazilian:** `"Níveis de Loja aumentam quando você compra, vende ou funde equipamento em lojas. Isso é a prova de que você deu um tapinha nas costas invisíveis do capitalismo o suficiente para atingir o Nível de Loja máximo. Menus secretos liberados!"`
+- **english:** `"Shop Level will increase when you buy, sell, or fuse equipment at shops. This is proof that you've fist-bumped the invisible hand of capitalism enough to achieve maximum Shop Level. Secret menus unleashed!"`
+- **french:** `"Le Niveau de magasin augmente quand vous achetez, vendez ou fusionnez de l'équipement dans les magasins. Ceci prouve que vous maîtrisez suffisamment les principes du capitalisme pour atteindre le Niveau de magasin maximum. Les menus secrets sont accessibles !"`
+- **german:** `"Das Ladenlevel erhöht sich, wenn du Ausrüstung in Läden kaufst, verkaufst oder verschmilzt. Das ist der Beweis, dass du dich mit dem Kapitalismus eng genug verbrüdert hast, um das maximale Ladenlevel zu erreichen. Geheimmenüs freigeschaltet!"`
+- **italian:** `"Il livello negozio aumenta quando acquisti, vendi o fondi equipaggiamento nei negozi. È la prova che hai stretto l'invisibile mano del capitalismo, raggiungendo il livello negozio massimo. Menu segreti sbloccati!"`
+- **japanese:** `"武具屋で売っても買っても融合してもショップランクが上がっていきます。そうして何処かのショップランクをＭＡＸまで上げきった証。裏メニューも出しまくり。"`
+- **russian:** `"Уровень магазина повышается, когда вы покупаете, продаете или объединяете предметы в магазине. Это доказательство того, что вы жали невидимую руку капитализма так много раз, что достигли максимального уровня магазина. Встречайте секретные меню!"`
+- **schinese:** `"在武器店购买、出售或融合装备，都能提升商店等级。将任意一家商店的等级提升至 MAX 的证明。届时还会解锁许多隐藏商品哦。"`
+- **spanish:** `"El nivel de las tiendas aumentará cuando compres, vendas o fusiones equipo en ellas. Esta es la prueba de que has chocado los cinco con la mano invisible del capitalismo las veces suficientes para conseguir el nivel de tienda máximo. ¡Y se han desbloqueado menús secretos!"`
+- **tchinese:** `"在武器店購買、出售和融合都能提昇商店階級。 用此方式將任一商店階級昇至ＭＡＸ的證明。 將會出現許多隱藏項目喔。"`
+
+## Added: `"TROPHY_ID_020"`
+
+### Name
+
+- **brazilian:** `"36 Desafios"`
+- **english:** `"36 Challenges"`
+- **french:** `"36 défis"`
+- **german:** `"36 Herausforderungen"`
+- **italian:** `"Anomalia 36"`
+- **japanese:** `"三十六計逃げぬ数々"`
+- **russian:** `"36 испытаний"`
+- **schinese:** `"三十六计绝不逃走"`
+- **spanish:** `"36 retos"`
+- **tchinese:** `"三十六計絕不逃走"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você obteve todos os 36 orbes anômalos. Você cutucou cada cantinho, você riu, você chorou, você questionou suas crenças… Mas você conseguiu!"`
+- **english:** `"This is proof that you've collected all 36 anomalous orbs. You've poked around in every nook and cranny, you've laughed, you've cried, you've questioned your assumptions... But you made it!"`
+- **french:** `"Ceci prouve que vous avez réuni les 36 orbes anormaux. Vous avez fouillé dans tous les coins et recoins, ri, pleuré, remis en doute vos hypothèses... Mais vous avez réussi !"`
+- **german:** `"Das ist der Beweis, dass du alle 36 anormalen Kugeln gesammelt hast. Du hast in jedem Eckchen und Winkel herumgestochert, du hast gelacht, geweint, deine Vermutungen hinterfragt ... aber du hast es geschafft!"`
+- **italian:** `"Attesta che hai raccolto i 36 globi anomali. Hai esplorato ogni angolo del mondo, hai riso, hai pianto, hai persino dubitato delle tue intuizioni... Ma alla fine ne sei uscito vincitore!"`
+- **japanese:** `"異形の宝珠を３６個取得した証。寄り道、やりこみ要素……様々な困難を経て、勝ち抜いた証です！"`
+- **russian:** `"Доказательство того, что вы собрали все 36 аномальных сфер. Вы искали по всем углам, залезли в каждую щель, вы смеялись, плакали, ставили под вопрос свою картину мира... Но вы справились!"`
+- **schinese:** `"获得全部36个异形宝珠的证明。四处探索、深入钻研……这正是战胜重重困难、一路过关斩将的证明！"`
+- **spanish:** `"Esta es la prueba de que has reunido 36 orbes anómalos. Has rebuscado por todos los rincones, has reído, has llorado, te has cuestionado lo que sabías... ¡pero lo has conseguido!"`
+- **tchinese:** `"取得３６個異形寶珠的證明。四處探索、深入鑽研…… 這是戰勝種種困難，一路過關斬將的證明！"`
+
+## Added: `"TROPHY_ID_021"`
+
+### Name
+
+- **brazilian:** `"Centena de Ervas"`
+- **english:** `"An 'undred Herbs"`
+- **french:** `"Centaine de plantes"`
+- **german:** `"Hundert Kräuter"`
+- **italian:** `"Erba di casa mia"`
+- **japanese:** `"薬草１００本"`
+- **russian:** `"Сотня трав"`
+- **schinese:** `"100株药草"`
+- **spanish:** `"Un centenar de hierbas"`
+- **tchinese:** `"１００株藥草"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você coletou mais de 100 ervas. Não hesite em usá-las quando sua CE inicial baixar e você estiver longe de uma cidade."`
+- **english:** `"This is proof that you've picked more than 100 herbs. Don't hesitate to use them when your initial SC gets low and you're stranded far from town."`
+- **french:** `"Ceci prouve que vous avez récolté plus de 100 plantes médicinales. N'hésitez pas à vous en servir quand votre jauge CS initiale commence à faiblir et que vous êtes loin de la ville."`
+- **german:** `"Das ist der Beweis, dass du über 100 Kräuter gesammelt hast. Zögere nicht, sie anzuwenden, wenn deine SK abnimmt und du fern der Stadt in Not geraten bist."`
+- **italian:** `"Attesta che hai raccolto più di 100 erbe. Non esitare a usarle quando i punti CS si riducono e non puoi tornare in città."`
+- **japanese:** `"薬草を１００本以上引っこ抜いた証。初期SCが減って街に帰れないときには惜しまず使おう。"`
+- **russian:** `"Доказательство того, что вы собрали более 100 трав. Не бойтесь использовать их, если у вас сильно упадет исходное количество ОСД вдали от города."`
+- **schinese:** `"采集超过100株药草的证明。当初始 SC 降低、又无法返回城镇时，就别舍不得使用了。"`
+- **spanish:** `"Esta es la prueba de que has recogido más de 100 hierbas. No dudes en usarlas cuando tu CE inicial baje y estés lejos de cualquier ciudad."`
+- **tchinese:** `"採集超過１００株藥草的證明。 起始ＳＣ降低又無法回到城鎮時，請不要吝於使用。"`
+
+## Added: `"TROPHY_ID_022"`
+
+### Name
+
+- **brazilian:** `"Hospedando com Frequência"`
+- **english:** `"Checking Inn"`
+- **french:** `"Auberge de mon cœur"`
+- **german:** `"Gasthaustour"`
+- **italian:** `"Sogni d'oro"`
+- **japanese:** `"連夜のホテル暮らし"`
+- **russian:** `"Поход по трактирам"`
+- **schinese:** `"连夜投宿"`
+- **spanish:** `"Vida re-posada"`
+- **tchinese:** `"連夜投宿"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você ficou nas hospedarias por um total de 10 noites. Descansar nas hospedarias dá a você efeitos extras de habilidade graças aos misteriosos ingredientes nas refeições lá servidas. Você também pode bater papo com seus companheiros e recuperar sua CE inicial para 100. Quanta hospitalidade!"`
+- **english:** `"This is proof that you've stayed at inns for a total of 10 nights. Resting at inns can give you extra skill effects in battle thanks to mysterious ingredients in the meals you're served. You can also engage in chitchat with your companions and restore your initial SC to 100. Such hospitality!"`
+- **french:** `"Ceci prouve que vous avez passé un total de 10 nuits à l'auberge. Les séjours à l'auberge peuvent vous donner des effets de capacités supplémentaires au combat grâce aux mystérieux ingrédients des plats proposés. Vous pouvez également discuter avec vos compagnons et rétablir votre jauge CS initiale à 100. Quelle hospitalité !"`
+- **german:** `"Das ist der Beweis, dass du insgesamt 10 Nächte in Gasthäusern verbracht hast. Eine Rast in einem Gasthaus kann dir dank geheimnisvoller Zutaten in den servierten Gerichten zusätzliche Fertigkeitseffekte im Kampf verleihen. Noch dazu kannst du mit deinen Gefährten plaudern und deine SK wieder auf 100 regenerieren. Das ist echte Gastlichkeit!"`
+- **italian:** `"Attesta che hai trascorso dieci notti nelle locande. Riposando nelle locande, puoi ottenere abilità extra in battaglia, attraverso i misteriosi ingredienti dei pasti che ti vengono serviti. Puoi inoltre chiacchierare con i tuoi compagni e ripristinare i punti CS al valore di 100. Questa è ospitalità, gente!"`
+- **japanese:** `"宿屋に通算１０泊した証です。宿屋に泊まると、食べた料理により戦闘時のスキル効果が付加されたり仲間同士の会話が発生したり、初期ＳCが１００に全快したりとよいことずくめ。"`
+- **russian:** `"Доказательство того, что вы провели в трактирах в общей сложности 10 ночей. Отдых в трактирах дает вам дополнительное преимущество в бою благодаря мистическим эффектам блюд, которые в них подают. Кроме этого вы можете поболтать со своими друзьями и восстановить исходное количество ОСД до 100. Вот что такое гостеприимство!"`
+- **schinese:** `"累计在旅馆住宿10次的证明。在旅馆用餐可以获得战斗技能效果，还能触发伙伴间的对话，并将初始 SC 恢复至100，好处多多！"`
+- **spanish:** `"Esta es la prueba de que te has alojado en posadas durante 10 noches en total. Descansar en posadas te otorga efectos de habilidades adicionales en combate gracias a los ingredientes misteriosos de los platos que te sirven allí. También te puedes poner a charlar con tus compañeros y volver a poner en 100 tu CE inicial. ¡Qué hospitalidad!"`
+- **tchinese:** `"總計在旅館投宿１０次的證明。 投宿旅館可以透過用餐附加戰鬥時的技能效果， 可以觸發夥伴間的對話，起始ＳＣ也會恢復到１００，好處多多喔！"`
+
+## Added: `"TROPHY_ID_023"`
+
+### Name
+
+- **brazilian:** `"Demonstração de Talento"`
+- **english:** `"Show of Talent"`
+- **french:** `"Démonstration de talent"`
+- **german:** `"Talent"`
+- **italian:** `"Professorino"`
+- **japanese:** `"殊勝な師匠"`
+- **russian:** `"Шоу талантов"`
+- **schinese:** `"拜师学艺"`
+- **spanish:** `"Una muestra de talento"`
+- **tchinese:** `"拜師學藝"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você aperfeiçoou um certo Talento de Suporte o suficiente para ensiná-lo aos outros na hospedaria. Quem pode, faz. Quem pode ainda mais, ensina!"`
+- **english:** `"This is proof that you've honed a certain Support Talent enough to be able to teach it to others at the inn. Those who can, do. Those who can even better, teach!"`
+- **french:** `"Ceci prouve que vous avez maîtrisé un talent de soutien à tel point que vous pouvez l'enseigner aux autres à l'auberge. Celui qui peut agit. Celui qui peut mieux enseigne !"`
+- **german:** `"Das ist der Beweis, dass du eine gewisse Begabung zur Unterstützung entwickelt hast, sodass du sie anderen im Gasthaus beibringen kannst. Wer was kann, tut's. Wer's noch besser kann, bringt's anderen bei!"`
+- **italian:** `"Attesta che hai affinato un determinato talento di supporto, al punto da poterlo insegnare agli altri nella locanda. Chi sa, agisce. Chi sa più di tutti, insegna!"`
+- **japanese:** `"特定のサポートタレントを鍛えることで、宿屋にてサポートタレントの伝授が行われた証。頑張って鍛えて、弟子を作ろうデシ！"`
+- **russian:** `"Доказательство того, что вы достаточно хорошо освоили вспомогательный талант и теперь можете передать его другим в трактире. Тот, кто умеет, делает. Настоящие мастера - учат!"`
+- **schinese:** `"将特定支援能力锻炼到一定程度后，在旅馆把这种能力传授给其他人的证明。努力锻炼，收个徒弟吧！"`
+- **spanish:** `"Esta es la prueba de que has perfeccionado tanto un talento de apoyo que se lo puedes enseñar a los demás en la posada. Los que pueden, lo hacen. ¡Los que lo hacen mejor, enseñan!"`
+- **tchinese:** `"鍛鍊特定支援能力後，在旅館傳授特殊能力的證明。 努力鍛鍊，收個徒弟吧！"`
+
+## Added: `"TROPHY_ID_024"`
+
+### Name
+
+- **brazilian:** `"Monomania Monolítica"`
+- **english:** `"Monolith Monomania"`
+- **french:** `"Monomaniaque des monolithes"`
+- **german:** `"Monolithenmanie"`
+- **italian:** `"Ossessione monolitica"`
+- **japanese:** `"石碑の気品"`
+- **russian:** `"Увлечение монолитами"`
+- **schinese:** `"石碑的奥妙"`
+- **spanish:** `"Monomanía monolitera"`
+- **tchinese:** `"石碑的奧妙"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você encontrou todos os monólitos de pedra e ruminou sobre seu autor. Use as ações de batalha adquiridas para desferir as ars místicas derradeiras!"`
+- **english:** `"This is proof that you've found all the stone monoliths and ruminated on their author. Use the battle actions you've acquired to unleash the ultimate mystic artes!"`
+- **french:** `"Ceci prouve que vous avez trouvé tous les monolithes et réfléchi à leur auteur. Utilisez les actions en combat que vous avez obtenues pour déchaîner les artes mystiques suprêmes !"`
+- **german:** `"Das ist der Beweis, dass du alle Steinmonolithen gefunden und über ihren Urheber nachgegrübelt hast. Nutze die Kampfaktionen, die du erworben hast, um die ultimativen mystischen Artes zu entfesseln!"`
+- **italian:** `"Attesta che hai trovato tutti i monoliti di pietra e che hai riflettuto a lungo circa il loro autore. Usa le azioni di battaglia acquisite per scatenare le arti mistiche definitive!"`
+- **japanese:** `"全ての石碑を発見し、書き主に思いを馳せた証。獲得したバトルアクトで、究極の秘奥義を繰り出せ！"`
+- **russian:** `"Доказательство того, что вы нашли все каменные монолиты и крепко задумались, кто же их создал. Используйте полученные боевые действия, чтобы обрушить на врагов сокрушительные магические приемы. "`
+- **schinese:** `"找到全部石碑，追忆刻下碑文之人的证明。利用获得的战斗效果，施展究极秘奥义吧！"`
+- **spanish:** `"Esta es la prueba de que has encontrado todos los monolitos de piedra y has cavilado acerca de su autoría. Utiliza las acciones de combate que has adquirido para desatar grandes artes místicas."`
+- **tchinese:** `"找到所有石碑，追思刻下石碑之人的證明。 用獲得的戰鬥效果施展究極的秘奧義！"`
+
+## Added: `"TROPHY_ID_025"`
+
+### Name
+
+- **brazilian:** `"Adestrador de Normin"`
+- **english:** `"Normin Tamer"`
+- **french:** `"Dresseur de normins"`
+- **german:** `"Norminzähmer"`
+- **italian:** `"Ispiratore di normin"`
+- **japanese:** `"のるみんていまーず"`
+- **russian:** `"Укротитель норминов"`
+- **schinese:** `"诺尔敏好朋友"`
+- **spanish:** `"Domador de normin"`
+- **tchinese:** `"諾爾敏好朋友"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você encontrou pelo menos 40 normins e os convenceu a te ajudar. Você é ótimo em fazer novos amigos! Mas lembre-se, há mais vindo aí."`
+- **english:** `"This is proof that you've found at least 40 normin and convinced them to help out. You're great at making new friends! But remember, there's more to come."`
+- **french:** `"Ceci prouve que vous avez trouvé au moins 40 normins et que vous les avez persuadés de vous aider. Vous vous faites facilement de nouveaux amis ! Mais n'oubliez pas, il en reste."`
+- **german:** `"Das ist der Beweis, dass du mindestens 40 Normin gefunden und überzeugt hast, dir zu helfen. Du hast echt ein Händchen dafür, neue Freunde zu gewinnen! Aber denk daran, noch ist es nicht zu Ende."`
+- **italian:** `"Attesta che hai trovato almeno 40 normin e che li hai convinti ad assisterti. Che persona affabile! Ma non dimenticare che, in giro per il mondo, altri normin ti attendono."`
+- **japanese:** `"ノルミンを４０人以上発見し、協力してくれるようになった証。ともだちたくさんできました。まだまだいるよ。"`
+- **russian:** `"Доказательство того, что вы нашли не меньше 40 норминов и убедили их помочь вам. Вы умеете заводить друзей! Но помните, что это еще не все."`
+- **schinese:** `"找到至少40位诺尔敏，并获得它们协助的证明。虽然已经交到了不少朋友，但还有更多诺尔敏等着你哦。"`
+- **spanish:** `"Esta es la prueba de que te has encontrado al menos con 40 normin y los has convencido para que te ayudaran. ¡Se te da muy bien hacer nuevos amigos! Pero recuerda: quedan más por venir."`
+- **tchinese:** `"找到超過４０位諾爾敏，並獲得協助的證明。 結交到許多朋友了，但還有更多喔。"`
+
+## Added: `"TROPHY_ID_026"`
+
+### Name
+
+- **brazilian:** `"Aristocracia Rural"`
+- **english:** `"Landed Gentry"`
+- **french:** `"Noblesse seigneuriale"`
+- **german:** `"Landadel"`
+- **italian:** `"Venti benedetti"`
+- **japanese:** `"この地に骨をうずめる覚悟"`
+- **russian:** `"Дворянин"`
+- **schinese:** `"与此地共进退"`
+- **spanish:** `"Señorío con los pies en la tierra"`
+- **tchinese:** `"與此地共進退"`
+
+### Description
+
+- **brazilian:** `"Isso é prova que pelo menos um Senhor da Terra atingiu Nível de Bênção 20. Mesmo quando passam às estrelas, eles acham difícil abandonar aqueles que vigiam. Parece que algum resquício de sua bênção permanece até depois de você terminar o jogo."`
+- **english:** `"This is proof that at least one Lord of the Land has reached Blessing Level 20. Even when they pass to the stars, they find it hard to abandon those over whom they watch. It seems some remnant of their blessing remains even after you finish the game."`
+- **french:** `"Ceci prouve qu'au moins un Seigneur de la terre a atteint le niveau de bénédiction 20. Même quand ils rejoignent les étoiles, ils ont du mal à abandonner ceux qui sont sous leur garde. Il semblerait qu'un vestige de leur bénédiction reste en place même après la fin de la partie."`
+- **german:** `"Das ist der Beweis, dass mindestens ein Herrscher des Landes die Segensstufe 20 erreicht hat. Selbst, wenn sie zu den Sternen gehen, möchten sie die, über die sie wachen, nicht im Stich lassen. Anscheinend bleibt etwas von ihrem Segen zurück, selbst wenn du das Spiel beendet hast."`
+- **italian:** `"Attesta che almeno un Dominus della terra ha raggiunto il livello di benedizione 20. Anche quando volano oltre le stelle, i Dominus non abbandonano mai i loro protetti. Si dice che l'aura della loro benedizione permanga persino dopo la fine del gioco..."`
+- **japanese:** `"いずれかの地の主の加護レベルを２０にした証。お星さまとなって温かく見守るのも捨てがたい。一度ゲームクリアすると、あともうちょっとだけ続くらしい。"`
+- **russian:** `"Доказательство того, что по крайней мере один Хранитель достиг 20 уровня благодати. Даже когда он уйдет к звездам, он не сможет забыть о своих подопечных. Похоже, часть благодати останется даже после того, как вы пройдете игру."`
+- **schinese:** `"任意一位地之主的庇佑等级达到20的证明。即使化作星辰，也不忘温柔地守护众人。通关后，这份庇佑似乎还会持续一段时间。"`
+- **spanish:** `"Esta es la prueba de que al menos un Señor de la Tierra ha llegado a nivel 20 de bendición. Hasta cuando ascienden a las estrellas encuentran difícil abandonar del todo a las personas que cuidan. Parece que algo de sus bendiciones permanece incluso después de que acabes el juego."`
+- **tchinese:** `"任一地之主的庇佑等級到達２０的證明。 即使成為星星也不忘溫情守護。 遊戲通關後，庇佑好像還會持續一陣子喔。"`
+
+## Added: `"TROPHY_ID_027"`
+
+### Name
+
+- **brazilian:** `"Chefe da União-G"`
+- **english:** `"Boss of the G-Union"`
+- **french:** `"État de l'Union"`
+- **german:** `"F-Bündel-Boss"`
+- **italian:** `"La forza del gruppo"`
+- **japanese:** `"ファイブレンジャー"`
+- **russian:** `"Руководитель группы"`
+- **schinese:** `"五联结"`
+- **spanish:** `"Jefe de la unión-g."`
+- **tchinese:** `"五聯結"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você equipou itens que ativam habilidades-bônus de União de Grupo. Cada grupo de habilidade básica tem uma habilidade correspondente a cada um dos cinco elementos. Não importa onde em seu equipamento a habilidade está instalada; só equipe todas as cinco habilidades em um grupo para formar uma União de Grupo!"`
+- **english:** `"This is proof that you've equipped items that activate a Group Union bonus skill. Each basic skill group has a skill corresponding to each of the five elements. It doesn't matter where on your equipment you have the skills equipped; just equip all five skills in a group to form a Group Union!"`
+- **french:** `"Ceci prouve que vous vous êtes équipé d'éléments qui activent la capacité bonus Union. Chaque groupe de capacités de base a une capacité correspondant à l'un des cinq éléments. Peu importe à quel emplacement vous équipez les capacités ; il vous suffit d'équiper les cinq capacités d'un groupe pour former une Union !"`
+- **german:** `"Das ist der Beweis, dass du Gegenstände ausgerüstet hast, die eine Bonusfertigkeit für Fertigkeitenbündel aktivieren. Jede Gruppe von Grundfertigkeiten hält für jedes der fünf Elemente eine entsprechende Fertigkeit parat. Es ist egal, bei welchem Ausrüstungsteil du die Fertigkeiten ausgerüstet hast. Rüste einfach alle fünf Fertigkeiten in einer Gruppe aus, um ein Fertigkeitenbündel zu bilden!"`
+- **italian:** `"Attesta che hai equipaggiato oggetti che attivano un'abilità bonus Unione gruppo. Ogni gruppo di abilità base comprende un'abilità per ciascuno dei cinque elementi. La loro posizione sull'equipaggiamento non è importante: equipaggia tutte e cinque le abilità di un gruppo per formare un'Unione gruppo!"`
+- **japanese:** `"装備の組み合わせでボーナススキル「ユニオン」が発現した装備品を装備した証。スキルはグループごとに５つの属性に対応した効果を持ちます。装備箇所は別でもよいので、同グループの５種のスキルを全て装備すると「ユニオン」系スキルが新たに発動！　"`
+- **russian:** `"Доказательство того, что вы использовали снаряжение, которое активирует бонусный навык связки по группе. В каждой группе базовых навыков есть навык, связанный с одной из пяти стихий. Неважно, какие именно предметы вашего снаряжения обладают навыками, - просто используйте все пять навыков вместе, чтобы создать связку по группе!"`
+- **schinese:** `"通过搭配装备激活奖励技能“联结”，并装备该套装备的证明。每组基本技能都有对应5种属性的技能。无论装备位置如何，只要凑齐同一组的5种技能，就能发动“联结”系的新技能！"`
+- **spanish:** `"Esta es la prueba de que te has equipado con objetos que activan una habilidad de bonificación por unión grupal. Cada grupo de habilidades básicas tiene una habilidad que se corresponde con cada uno de los cinco elementos. No importa en qué parte de tu equipo tengas puestas las habilidades, basta con que te equipes con las cinco habilidades del grupo para formar una unión grupal."`
+- **tchinese:** `"在搭配裝備時發現獎勵技能「聯結」，並裝備該裝備的證明。 技能依照類別，具有對應５種屬性的效果。 裝備位置不同也沒關係，只要裝備同一類５種技能， 就能發動「聯結」系的新技能！"`
+
+## Added: `"TROPHY_ID_028"`
+
+### Name
+
+- **brazilian:** `"Elemental, Meu Caro Watson"`
+- **english:** `"Elle Mental Marta"`
+- **french:** `"Elle \"Mentaire\" Marta"`
+- **german:** `"Elementar!"`
+- **italian:** `"Elementale, Sorey"`
+- **japanese:** `"エル・メル・マータ"`
+- **russian:** `"Стихийное бедствие"`
+- **schinese:** `"元素相伴"`
+- **spanish:** `"Elle Mental Marta"`
+- **tchinese:** `"元素相伴"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você equipou itens que ativam habilidades-bônus de União Elemental. Habilidades básicas correspondem a um de cinco elementos diferentes. Equipe habilidades do mesmo elemento alinhadas adjacentes umas às outras, e você formará uma União Elemental baseada em quantas habilidades existem na linha. Confira na folha de habilidade!"`
+- **english:** `"This is proof that you've equipped items that activate an Elemental Union bonus skill. Basic skills all correspond to one of five different elements. Equip skills of the same element that line up directly adjacent to each other, and you'll form an Elemental Union based on how many skills are in the line. Check it out on the skill sheet!"`
+- **french:** `"Ceci prouve que vous vous êtes équipé d'éléments qui activent la capacité bonus Élémentaire. Les capacités de base correspondent toutes à l'un des cinq éléments. Équipez-vous de capacités du même élément qui s'alignent les unes à côté des autres, et vous obtiendrez un Élémentaire en fonction du nombre de capacités alignées. Consultez la page des capacités !"`
+- **german:** `"Das ist der Beweis, dass du Gegenstände ausgerüstet hast, die eine Bonusfertigkeit für Elementbündel aktivieren. Alle Grundfertigkeiten entsprechen einem der fünf verschiedenen Elemente. Wenn du Fertigkeiten desselben Elements ausrüstest und alle direkt aneinander angrenzen, bildest du ein Elementbündel, das darauf basiert, wie viele Fertigkeiten aufeinanderfolgen. Sieh es dir auf dem Fertigkeitsblatt an!"`
+- **italian:** `"Attesta che hai equipaggiato oggetti che attivano un'abilità bonus Unione elementale. Ogni abilità base appartiene a uno dei cinque elementi. Allinea abilità dello stesso elemento per formare un'Unione elementale! Il risultato dipende dal numero di abilità allineate. Consulta la tabella abilità!"`
+- **japanese:** `"装備の組み合わせでボーナススキル「エルム」が発現した装備品を装備した証。スキルはそれぞれ５つの属性に対応しています。同じ属性のスキルをグループ順に並べるように装備をすることで、連結した数によって「エルム」系ボーナススキルが発動します！　スキルシートで確認しましょう。"`
+- **russian:** `"Доказательство того, что вы использовали снаряжение, которое активирует бонусный навык связки по стихии. Все базовые навыки связаны с одной из пяти различных стихий. Используйте навыки одной стихии (соседние навыки одного ряда) - и построите ту или иную связку по стихии - в зависимости от количества навыков в ряду. Подробнее - на листе навыков."`
+- **schinese:** `"通过搭配装备激活奖励技能“元素”，并装备该套装备的证明。技能分别对应5种属性，将同属性技能在技能表中连续排列，就能根据相连数量发动“元素”系奖励技能。快去查看技能表吧！"`
+- **spanish:** `"Esta es la prueba de que te has equipado con objetos que activan una habilidad de bonificación por unión elemental. Cada habilidad básica se corresponde con uno de los cinco elementos distintos. Equípate con habilidades del mismo elemento que se alineen directamente adyacentes entre sí y formarás una unión elemental basada en el número de habilidades que haya en la línea. Compruébalo en la hoja de habilidades."`
+- **tchinese:** `"在搭配裝備時發現獎勵技能「元素」，並裝備該裝備的證明。 技能分別對應５種不同屬性，依類別排出同屬性技能加以裝備， 就能視連結數量發動「元素」系的獎勵技能！ 快確認技能表吧。"`
+
+## Added: `"TROPHY_ID_029"`
+
+### Name
+
+- **brazilian:** `"Empilhando o Baralho"`
+- **english:** `"Stacking the Deck"`
+- **french:** `"Cumul des mandats"`
+- **german:** `"Kumulative Stapelei"`
+- **italian:** `"Tutto sommato"`
+- **japanese:** `"相席お願いします"`
+- **russian:** `"Связующее звено"`
+- **schinese:** `"相连相同"`
+- **spanish:** `"Acumulador de ventajas"`
+- **tchinese:** `"相連相同"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você equipou itens que ativam habilidades-bônus de Pilha. Você pode obter bônus de Pilha equipando mais de uma cópia da mesma habilidade de uma vez. Quanto mais cópias da habilidade equipar, mais legal será seu bônus de Pilha!"`
+- **english:** `"This is proof that you've equipped items that activate a Stack bonus skill. You can get Stack bonuses by equipping more than one copy of the same skill at once. The more copies of that skill you equip, the cooler your Stack bonus will be!"`
+- **french:** `"Ceci prouve que vous vous êtes équipé d'éléments qui activent la capacité bonus Cumul. Vous pouvez obtenir des Cumuls en équipant plus d'un exemplaire de la même capacité. Plus vous en équipez à la fois, plus votre bonus Cumul sera intéressant !"`
+- **german:** `"Das ist der Beweis, dass du Gegenstände ausgerüstet hast, die eine Bonusfertigkeit aktivieren, die auf Kumulation beruht. Du kannst Kumulationsboni erhalten, indem du mehr als ein Exemplar derselben Fertigkeit gleichzeitig ausrüstest. Je mehr Exemplare dieser Fertigkeit du ausrüstest, desto besser ist dein Kumulationsbonus!"`
+- **italian:** `"Attesta che hai equipaggiato oggetti che attivano un'abilità bonus Somma. Ottieni bonus Somma equipaggiando più copie della stessa abilità contemporaneamente. Più ne equipaggerai, più fenomenale sarà il bonus Somma!"`
+- **japanese:** `"装備の組み合わせでボーナススキル「セイム」が発現した装備品を装備した証。別装備でも、同じスキルを装備すれば新たなスキル効果が発動！重ねれば重ねるほど新たな効果に変化します！"`
+- **russian:** `"Доказательство того, что вы использовали снаряжение, которое активирует бонусный навык набора. Бонусы связки можно получить, если одновременно использовать снаряжение с несколькими копиями одного и того же навыка. Чем больше копий навыка вы используете, тем лучше будет бонус связки!"`
+- **schinese:** `"通过搭配装备激活奖励技能“相同”，并装备该套装备的证明。即使装备不同，只要带有相同技能，就能触发新的技能效果！叠加的数量越多，效果也会越丰富！"`
+- **spanish:** `"Esta es la prueba de que te has equipado con objetos que activan una habilidad de bonificación por acumulación. Puedes obtener bonificaciones por acumulación si te equipas con más de una muestra de la misma habilidad a la vez. A mayor cantidad de copias de esa habilidad que te equipes, mejores serán tus bonificaciones por acumulación."`
+- **tchinese:** `"在搭配裝備時發現獎勵技能「相同」，並裝備該裝備的證明。 即使是不同的裝備，只要裝備相同技能就能發動新的技能效果！ 堆疊越多，就能變化出更多新的效果！"`
+
+## Added: `"TROPHY_ID_030"`
+
+### Name
+
+- **brazilian:** `"Detonação Total"`
+- **english:** `"Having a Blast"`
+- **french:** `"Puissance maximale"`
+- **german:** `"Stoßzeit"`
+- **italian:** `"Esplosività da vendere"`
+- **japanese:** `"僕と私のブラスティア"`
+- **russian:** `"Культурный удар"`
+- **schinese:** `"相同爆发"`
+- **spanish:** `"Estallido de felicidad"`
+- **tchinese:** `"相同爆發"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você atingiu o Medidor de Explosão máximo de 9. Você pode aumentar seu ME usando a habilidade com bônus de Pilha 3 \"Eksplod\". Coordene seu equipamento do jeito certo e você será propelido a novas alturas."`
+- **english:** `"This is proof that you've reached the maximum Blast Gauge of 9. You can increase your BG using the Stack 3 bonus skill \"Blasst\". Coordinate your equipment just right, and you can blast off to new heights."`
+- **french:** `"Ceci prouve que vous avez atteint le maximum de la jauge de puissance : 9. Vous pouvez augmenter votre JP à l'aide de la capacité bonus Cumul 3 \"Jauge de puissance\". Coordonnez correctement votre équipement et vous pourrez atteindre des sommets de puissance."`
+- **german:** `"Das ist der Beweis, dass du die maximale Stoßanzeige von 9 erreicht hast. Du kannst deine SA mit der Kumulation-3-Bonusfertigkeit \"Blasst\" erhöhen. Stelle deine Ausrüstung richtig zusammen, und schon wächst du über dich hinaus!"`
+- **italian:** `"Attesta che hai raggiunto la quota massima di nove barre esplosione. Incrementa la BE usando l'abilità bonus Somma 3 \"Blasst\". Scegli l'equipaggiamento con criterio e raggiungerai nuove vette."`
+- **japanese:** `"ブラストゲージの最大値を９まで伸ばした証。ブラストゲージの最大値はボーナススキル「セイム３：ブラスト」によって増加します。装備品のコーディネイトの素晴らしさが眩しいです。"`
+- **russian:** `"Доказательство того, что вы достигли максимального значения силы взрыва: 9. Увеличить ОСВ можно при помощи бонусного навыка \"Ударр\" связки 3. Научитесь обращаться со своим снаряжением, и сможете обрести невероятную силу."`
+- **schinese:** `"将爆发槽上限提升至9的证明。可以通过奖励技能“相同3：爆发”来增加爆发槽上限。合理搭配装备的好处可不止这一点！"`
+- **spanish:** `"Esta es la prueba de que has llegado al máximo de 9 en la barra de estallido. Puedes aumentar la BE usando la habilidad de bonificación por acumulación de nivel 3 \"Blasst\". Coordina bien tu equipo y tus estallidos alcanzarán nuevas cotas."`
+- **tchinese:** `"將爆發量表上限增加至９的證明。 爆發量表上限可透過獎勵技能「相同３：爆發」增加。 搭配裝備的好處多到數不清。"`
+
+## Added: `"TROPHY_ID_031"`
+
+### Name
+
+- **brazilian:** `"Empilhador Pilhado"`
+- **english:** `"A Knack for Stacks"`
+- **french:** `"Pro du Cumul"`
+- **german:** `"Stapelkünstler"`
+- **italian:** `"Quaterna"`
+- **japanese:** `"四つ子の魂百まで"`
+- **russian:** `"Надежная связка"`
+- **schinese:** `"四人连心，其利断金"`
+- **spanish:** `"Acumulador nato"`
+- **tchinese:** `"四人連心其利斷金"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você criou um item de equipamento com a mesma habilidade em todos quatro espaços. Isso é pelo menos um bônus Pilha 4 de habilidade aí! Você pode fazer a Dança de Bônus. Não vamos julgar você."`
+- **english:** `"This is proof that you've created an item of equipment with the same skill in all four slots. That's at least a Stack 4 bonus skill right there! You can do the Bonus Dance. We won't judge you."`
+- **french:** `"Ceci prouve que vous avez créé un équipement avec la même capacité dans les quatre emplacements. C'est au moins un bonus Cumul 4 pour vous ! Vous pouvez faire la danse du bonus, on ne vous jugera pas."`
+- **german:** `"Das ist der Beweis, dass du ein Ausrüstungsstück mit der gleichen Fertigkeit in allen vier Feldern geschaffen hast. Das ist mindestens eine Kumulation-4-Bonusfertigkeit! Du kannst ruhig ein Bonustänzchen wagen! Das kann dir keiner verübeln."`
+- **italian:** `"Attesta che hai creato un pezzo di equipaggiamento con la stessa abilità nei quattro slot. Parliamo almeno di un'abilità bonus Somma 4! Ora puoi scatenarti nella tua danza di vittoria. Non ti giudicheremo per questo..."`
+- **japanese:** `"４つのスキル全てを同じに揃えた装備を作った証。「セイム４」以上確定！完成した瞬間にガッツポーズをしたとしても責められますまい。"`
+- **russian:** `"Доказательство того, что вы создали предмет снаряжения с одинаковым навыком в каждой из четырех ячеек. А это, по меньшей мере, бонус набора 4! Можете исполнить свой \"бонусный танец\". Мы не будем вас судить."`
+- **schinese:** `"打造出四个技能槽全部拥有相同技能的装备的证明。这样至少能发动“相同4”！完成时摆出胜利姿势，也不会有人笑话你的！"`
+- **spanish:** `"Esta es la prueba de que has creado un objeto de equipo que tiene la misma habilidad en los cuatro espacios. ¡Ahí tienes al menos una habilidad de bonificación por acumulación de 4! Puedes bailar para celebrarlo, no te juzgaremos."`
+- **tchinese:** `"打造湊齊四個相同技能的裝備的證明。肯定達到「相同４」以上！ 完成的那瞬間做出勝利動作也不會有人笑您的！"`
+
+## Added: `"TROPHY_ID_032"`
+
+### Name
+
+- **brazilian:** `"Intervenção Divina"`
+- **english:** `"Divine Intervention"`
+- **french:** `"Intervention divine"`
+- **german:** `"Göttliches Eingreifen"`
+- **italian:** `"Intervento divino"`
+- **japanese:** `"天の加護"`
+- **russian:** `"Божественное вмешательство"`
+- **schinese:** `"天之庇佑"`
+- **spanish:** `"Intervención divina"`
+- **tchinese:** `"天之庇佑"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você equipou toda a habilidade de um certo elemento para atingir um bônus de habilidade União-E 10. Esse zunido estranho que você está ouvindo? São seus inimigos tremendo de medo."`
+- **english:** `"This is proof that you've equipped every skill for a certain element to achieve an E-Union 10 bonus skill. That strange buzzing you hear? It's your enemies quivering in fear."`
+- **french:** `"Ceci prouve que vous avez équipé toutes les capacités d'un certain élément pour obtenir une capacité bonus Élémentaire 10. Ce drôle de bruit que vous entendez ? Ce sont vos ennemis qui grelottent de peur."`
+- **german:** `"Das ist der Beweis, dass du jede Fertigkeit für ein bestimmtes Element ausgerüstet hast, um eine E-Bündel-10-Bonusfertigkeit zu erlangen. Was das wohl für ein komisches Geräusch ist? Ach, bloß deine Gegner, die vor Angst bibbern."`
+- **italian:** `"Attesta che hai equipaggiato ogni abilità di un determinato elemento per raggiungere un bonus abilità Unione elementale 10. Senti questo strano rumore? Sono i nemici che tremano al sol pensiero..."`
+- **japanese:** `"１０個同属性並びのスキルである「エルム１０」を達成した証。生まれた効果で、強敵を圧倒しに参りましょう。"`
+- **russian:** `"Доказательство того, что вы использовали каждый навык определенной стихии, чтобы получить бонусный навык С-связки 10. Слышите это странное жужжание? Это ваши враги трясутся от страха."`
+- **schinese:** `"将同一属性的10种技能连成一排，发动“元素10”的证明。用它带来的效果压制强敌吧！"`
+- **spanish:** `"Esta es la prueba de que te has equipado con todas las habilidades de un elemento determinado para conseguir una habilidad de bonificación por unión e. 10. ¿Ese extraño rumor que oyes? Son tus enemigos, temblando de miedo."`
+- **tchinese:** `"１０個同屬性技能並排，達成「元素１０」的證明。 用產生的效果壓制強敵吧！"`
+
+## Added: `"TROPHY_ID_033"`
+
+### Name
+
+- **brazilian:** `"Empilhador Debutante"`
+- **english:** `"Sweet 16"`
+- **french:** `"Expert du Cumul"`
+- **german:** `"Süße 16"`
+- **italian:** `"Se dici sedici"`
+- **japanese:** `"忍法十六影分身"`
+- **russian:** `"16 звезд"`
+- **schinese:** `"忍术十六影分身"`
+- **spanish:** `"Los dulces 16"`
+- **tchinese:** `"忍術十六影分身"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você atingiu bônus de habilidade Pilha 16, o mais alto patamar de bônus de Pilha. Se isso é o fim ou só o começo, cabe a você decidir."`
+- **english:** `"This is proof that you've achieved the Stack 16 bonus skill, the highest echelon of Stack bonuses. Whether this is the end or just the beginning is up to you."`
+- **french:** `"Ceci prouve que vous avez atteint la capacité bonus Cumul 16, le plus haut échelon possible. À vous de voir si c'est une fin ou seulement un début."`
+- **german:** `"Das ist der Beweis, dass du die Kumulation-16-Bonusfertigkeit erlangt hast, die Krönung der Kumulationsboni. Ob das schon das Ende ist oder erst der Anfang, liegt ganz bei dir."`
+- **italian:** `"Attesta che hai ottenuto l'abilità bonus Somma 16, il più elevato dei bonus Somma. Se è la fine o solo l'inizio dipenderà da te."`
+- **japanese:** `"同名スキルの最高峰「セイム１６」を達成した証。ここが終着駅か、始発駅かは、あなた次第。"`
+- **russian:** `"Доказательство того, что вы получили бонусный навык набора 16 - высшего разряда. И только вам решать, начало это или конец."`
+- **schinese:** `"达成最高等级的同名技能奖励“相同16”的证明。这里究竟是终点还是起点，全由你决定。"`
+- **spanish:** `"Esta es la prueba de que has conseguido una habilidad de bonificación por acumulación de 16, el mayor grado de las bonificaciones por acumulación. Tú decides si esto es el fin o solo el principio."`
+- **tchinese:** `"達成同名技能最高級的「相同１６」的證明。 這裡究竟是終點還是起點，全由您決定。"`
+
+## Added: `"TROPHY_ID_034"`
+
+### Name
+
+- **brazilian:** `"O Sino que Abençoa"`
+- **english:** `"The Blessing Bell"`
+- **french:** `"Cloche de bénédiction"`
+- **german:** `"Segensglocke"`
+- **italian:** `"Consacrato e felice"`
+- **japanese:** `"祝福の鐘"`
+- **russian:** `"Колокол благословения"`
+- **schinese:** `"祝福之钟"`
+- **spanish:** `"Primeras bendiciones"`
+- **tchinese:** `"祝福之鐘"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você santificou pelo menos um equipamento. Um lance superlegal que dobra o efeito da habilidade no primeiro espaço! É claro, se você é particularmente devoto, também pode oferecer esse item ao Lorde da Terra e conquistar um futuro mais abençoado para nossas crianças."`
+- **english:** `"This is proof that you've sanctified at least one piece of equipment. A super deal that doubles the effect of the skill in the first slot! Of course, if you're particularly devout, you can also offer this item to the Lord of the Land and secure a more blessed future for our children."`
+- **french:** `"Ceci prouve que vous avez sanctifié au moins un équipement. Une excellente idée qui double l'effet de la capacité du premier emplacement ! Bien sûr, si vous êtes particulièrement pieux, vous pouvez aussi offrir cet objet au Seigneur de la terre et assurer un avenir béni à nos enfants."`
+- **german:** `"Das ist der Beweis, dass du mindestens ein Ausrüstungsteil geheiligt hast. Eine tolle Sache, und damit hast du den Effekt der Fertigkeit im ersten Feld verdoppelt! Wenn du besonders fromm bist, kannst du diesen Gegenstand natürlich auch dem Herrscher des Landes darbieten und eine gesegnetere Zukunft für die nachkommenden Generationen sichern."`
+- **italian:** `"Attesta che hai consacrato almeno un pezzo di equipaggiamento. Un'operazione straordinaria, che raddoppia l'effetto dell'abilità nel primo slot! Se sei particolarmente devoto, puoi sempre offrire questo oggetto al Dominus della terra e assicurare un futuro migliore ai tuoi figli."`
+- **japanese:** `"祝福銘の装備品をひとつ作った証。１番目のスキルが「ダブルスキル」になって大変お得！地の主に捧げて、更なる未来を掴み取るも、またよし。"`
+- **russian:** `"Доказательство того, что вы освятили хотя бы один предмет снаряжения и вдвое усилили действие навыка в первой ячейке! Разумеется, если вы особенно преданы своему делу, вы можете отдать этот предмет Хранителю и обеспечить вашим детям более \"благодатное\" будущее."`
+- **schinese:** `"打造出一件带有祝福铭的装备的证明。第一个技能将变为“双重技能”，非常实用！也可以把它献给地之主，换取更美好的未来。"`
+- **spanish:** `"Esta es la prueba de que has santificado un objeto del equipo al menos. Es un superchollo que dobla el efecto de la habilidad que hay en el primer espacio. Obviamente, si eres especialmente devoto, además puedes ofrecer este objeto al Señor de la Tierra y conseguir un futuro más dichoso para nuestros hijos."`
+- **tchinese:** `"打造一個具有祝福銘的裝備的證明。 第一個技能是「雙重技能」，非常有用！ 也可以獻給地之主，獲得更美好的未來。"`
+
+## Added: `"TROPHY_ID_035"`
+
+### Name
+
+- **brazilian:** `"Mais Uma Vez"`
+- **english:** `"A Double Take"`
+- **french:** `"Double prise"`
+- **german:** `"Doppelmoppel"`
+- **italian:** `"Doppio godimento"`
+- **japanese:** `"で、魅せダブル"`
+- **russian:** `"Двойная выгода"`
+- **schinese:** `"双重魅力"`
+- **spanish:** `"Doble presa"`
+- **tchinese:** `"雙重魅力"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você adquiriu equipamento com habilidade dobrada solto por um inimigo. Muito difícil, a não ser que esteja jogando na dificuldade Difícil ou superior! Dizem que oferecer equipamento santificado a um Lorde da Terra pode aumentar as chances..."`
+- **english:** `"This is proof that you've acquired equipment with a doubled skill from an enemy drop. Very difficult unless you're playing in Hard difficulty or higher! There's a rumor that offering sanctified equipment to a Lord of the Land may increase the chances..."`
+- **french:** `"Ceci prouve que vous avez obtenu un équipement avec une capacité doublée grâce à l'abandon d'un ennemi. C'est très rare, à moins de jouer en difficulté Difficile ou supérieure ! Il paraît qu'offrir de l'équipement sanctifié à un Seigneur de la terre peut augmenter cette probabilité..."`
+- **german:** `"Das ist der Beweis, dass du Ausrüstung mit verdoppelter Fertigkeit von einem Gegner erhalten hast. Sehr schwierig, wenn du nicht auf der Schwierigkeitsstufe \"Schwer\" oder höher spielst! Man munkelt ja, dass sich die Chancen auf Gegenstände womöglich erhöhen, wenn man einem Herrscher des Landes geheiligte Ausrüstung anbietet ..."`
+- **italian:** `"Attesta che hai acquisito equipaggiamento con un'abilità doppia da un rilascio dei nemici. Improbabile, a meno che tu non stia giocando a livello di difficoltà Difficile o superiore! Si dice che offrendo equipaggiamento consacrato al Dominus della terra la frequenza di rilascio possa aumentare..."`
+- **japanese:** `"通常の２倍効果である「ダブルスキル」を敵ドロップで獲得した証。難易度をハード以上にしないと発見すら困難なシロモノですぞ。地の主に祝福装備を捧げることで、世界の確率がアップするそうな。"`
+- **russian:** `"Доказательство того, что вы получили снаряжение с двойным навыком, которое оставил враг после смерти. Это непростая задача, если вы играете на уровне ниже сложного! Однако ходят слухи, что подношение освященного снаряжения Хранителю, может увеличить ваши шансы... "`
+- **schinese:** `"从敌人掉落的装备上获得效果翻倍的“双重技能”的证明。在困难或更高难度下，才比较有机会发现这样的好东西。把祝福装备献给地之主，或许还能提高获得概率。"`
+- **spanish:** `"Esta es la prueba de que te has hecho con un objeto con dos habilidades que ha dejado caer un enemigo. Cuesta mucho conseguirlo a menos que estés jugando en dificultad Difícil o más. Se rumorea que ofrecer equipo santificado a un Señor de la Tierra puede aumentar tus posibilidades..."`
+- **tchinese:** `"透過敵方掉落獲得具有雙倍效果的「雙重技能」的證明。 這可是難度若不在困難以上，幾乎無法發現的好東西喔。 將祝福裝備獻給地之主，或許可以提高機率。"`
+
+## Added: `"TROPHY_ID_036"`
+
+### Name
+
+- **brazilian:** `"Última Parada no Trem da Fusão"`
+- **english:** `"Last Stop on the Fusion Train"`
+- **french:** `"Capitale de la fusion"`
+- **german:** `"Besser geht's nicht"`
+- **italian:** `"Università della fusione"`
+- **japanese:** `"融合の終着駅"`
+- **russian:** `"Конечная станция - объединение"`
+- **schinese:** `"融合终点站"`
+- **spanish:** `"Última parada del tren de la fusión"`
+- **tchinese:** `"融合終點站"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você adquiriu um equipamento com um modificador +99. Santifique-o, e uma nova vida te aguarda. Aspire por fusões 9900! Não, espera, isso provavelmente não é necessário."`
+- **english:** `"This is proof that you've acquired a piece of equipment with a +99 modifier. Sanctify it, and a whole new life awaits you. Aim for 9900 fusions! No, wait, that's probably not necessary."`
+- **french:** `"Ceci prouve que vous avez obtenu un équipement avec un modificateur +99. Sanctifiez-le et découvrez une toute nouvelle vie ! Visez les 9900 fusions ! Non, une seconde, ce n'est peut-être pas nécessaire."`
+- **german:** `"Das ist der Beweis, dass du ein Ausrüstungsteil mit einem +99-Modifikator erworben hast. Wenn du das heiligst, bricht für dich ein ganz neues Leben an! Versuche, 9900 Fusionen zu erreichen! Nein, warte, das ist wahrscheinlich gar nicht nötig."`
+- **italian:** `"Attesta che hai acquisito un pezzo di equipaggiamento con modificatore +99. Consacralo e la tua vita cambierà per sempre. Prossimo obiettivo, quota 9900! No, aspetta, forse non è necessario..."`
+- **japanese:** `"名前に「＋９９」のついた装備品を作成した証。祝福銘にすれば第二の人生を歩むこともできます。目指せ９９００回融合！　と言いたいけどそこまでしなくていい気も。"`
+- **russian:** `"Доказательство того, что вы получили предмет снаряжения с модификатором +99. Освятите его, и у вас начнется совсем другая жизнь. Старайтесь добиться объединения на 9900! Хотя постойте, это, наверное, ни к чему. "`
+- **schinese:** `"打造出一件名称带有“+99”的装备的证明。如果再为它加上祝福铭，或许就能迎来第二人生。目标是融合9900次！……虽然想这么说，但似乎没必要做到那一步。"`
+- **spanish:** `"Esta es la prueba de que has conseguido un objeto de equipo con un modificador de +99. Santifícalo y te aguardará una nueva vida. ¡Busca las 9900 fusiones! No, espera. Posiblemente eso no sea necesario."`
+- **tchinese:** `"打造名稱附帶「＋９９」的裝備的證明。 若加上祝福銘，想必能夠邁向第二人生。 目標是融合９９００次！……雖然想這麼說，但好像不用到這種程度。"`
+
+## Added: `"TROPHY_ID_037"`
+
+### Name
+
+- **brazilian:** `"Desejos Transferidos"`
+- **english:** `"Wishes Transferred"`
+- **french:** `"Transfert de vœux"`
+- **german:** `"Übertragene Wünsche"`
+- **italian:** `"Eredità nel tempo"`
+- **japanese:** `"想いは受け継がれた"`
+- **russian:** `"Передача по наследству"`
+- **schinese:** `"继承的意念"`
+- **spanish:** `"Deseos transferidos"`
+- **tchinese:** `"繼承的意念"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você readquiriu o equipamento que veio da sua partida anterior no Planalto de Lakehaven. Seu Eu do futuro está torcendo por você, esperando para te encontrar no fim do jogo novamente."`
+- **english:** `"This is proof that you've reacquired the equipment you carried over from your last playthrough in Lakehaven Heights. Future You is cheering you on, waiting to meet you at the end of the game once more."`
+- **french:** `"Ceci prouve que vous avez à nouveau obtenu l'équipement que vous avez récupéré de votre dernière partie aux Hauts de Havrelac. Votre vous futur vous félicite, et a hâte de vous retrouver à nouveau à la fin de la partie."`
+- **german:** `"Das ist der Beweis, dass du die Ausrüstung zurückerhalten hast, die du von deinem letzten Spieldurchgang in Seehafenhöhe übertragen hattest. Dein zukünftiges Du jubelt dir zu und wartet darauf, dich am Ende des Spiels wiederzusehen."`
+- **italian:** `"Attesta che hai riacquisito l'equipaggiamento della partita precedente sulle vette di Lakehaven. Il tuo io del futuro si prodiga in incoraggiamenti verso il tuo io del presente, in attesa di incontrarti ancora una volta alla fine del gioco."`
+- **japanese:** `"レイクピロー高地にて、前周回から引き継いだ装備を見事獲得した証。次周の自分が更なるパスを求めてこちらに視線を送っています。"`
+- **russian:** `"Доказательство того, что вы вернули снаряжение из предыдущего прохождения игры в Озерных вершинах. Будущий вы торжествует, благодарит вас и ждет новой встречи с вами в конце игры. "`
+- **schinese:** `"在瑞克比洛高地成功取回从上一周目继承的装备的证明。希望下一周目的自己，也能向更加完美的通关迈进。"`
+- **spanish:** `"Esta es la prueba de que has recuperado el equipo que has traspasado de tu última partida en los altos de Lakehaven. Tu yo futuro te está animando y espera encontrarse contigo una vez más al final del juego."`
+- **tchinese:** `"在瑞克比洛高地順利獲得 上一輪繼承下來的裝備的證明。 希望下一輪的自己能追求更進一步的完美通關。"`
+
+## Added: `"TROPHY_ID_038"`
+
+### Name
+
+- **brazilian:** `"Agente de Talentos"`
+- **english:** `"Talent Management"`
+- **french:** `"Gestion de talents"`
+- **german:** `"Talentmanagement"`
+- **italian:** `"Talento naturale"`
+- **japanese:** `"サポートの達人"`
+- **russian:** `"Поиск талантов"`
+- **schinese:** `"支援专家"`
+- **spanish:** `"Gestión de talentos"`
+- **tchinese:** `"支援專家"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você dominou pelo menos um Talento de Suporte. Lentamente e com calma. Você vai conseguir. Acreditamos em você."`
+- **english:** `"This is proof that you've mastered at least one of the Support Talents. Slow and steady. You can do it. We believe in you."`
+- **french:** `"Ceci prouve que vous avez maîtrisé au moins un talent de soutien. Lentement mais sûrement. Vous allez y arriver. On croit en vous."`
+- **german:** `"Das ist der Beweis, dass du mindestens ein Unterstützungstalent gemeistert hast. Langsam und bedächtig. Das schaffst du schon. Wir glauben an dich."`
+- **italian:** `"Attesta che sei un esperto di almeno uno dei talenti di supporto. Calma e sangue freddo. Puoi farcela, crediamo in te!"`
+- **japanese:** `"いずれかのサポートの熟練度をマスターまで育てた証。のんびり育てましょう。　のんびりですよ。"`
+- **russian:** `"Доказательство того, что вы освоили хотя бы 1 вспомогательный талант. Медленно, но верно, вы своего добьетесь. Мы в вас верим. "`
+- **schinese:** `"将任意一项支援能力的熟练度提升至上限的证明。慢慢培养就好，不用着急！"`
+- **spanish:** `"Esta es la prueba de que has dominado al menos un talento de apoyo. Con calma y perseverancia, puedes hacerlo. Creemos en ti."`
+- **tchinese:** `"將任一支援能力的熟練度提昇至上限的證明。 慢慢培育吧，不用急！"`
+
+## Added: `"TROPHY_ID_039"`
+
+### Name
+
+- **brazilian:** `"Colação de Grau"`
+- **english:** `"Making the Grade"`
+- **french:** `"Zestiria, 50 points"`
+- **german:** `"Rangsammler"`
+- **italian:** `"Cinquanta gradi all'ombra"`
+- **japanese:** `"グレード配達人"`
+- **russian:** `"Хорошая репутация"`
+- **schinese:** `"积分高手"`
+- **spanish:** `"De alto rango"`
+- **tchinese:** `"積分高手"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você recebeu mais de 50 Graus em uma batalha. Todos estão surpresos que você não cedeu sob pressão. Você foi tão longe."`
+- **english:** `"This is proof that you've received over 50 Grade from one battle. Everyone's amazed that you didn't buckle under the pressure. You've come so far."`
+- **french:** `"Ceci prouve que vous avez reçu plus de 50 points au cours d'un seul combat. Vous n'avez pas cédé sous la pression, bravo."`
+- **german:** `"Das ist der Beweis, dass du in einem einzigen Kampf über 50 Ränge erworben hast. Alle sind beeindruckt, dass du bei dem Druck nicht in die Knie gegangen bist. Du bist schon so weit gekommen!"`
+- **italian:** `"Attesta che hai ricevuto oltre 50 gradi da una battaglia. Sai mantenere la calma anche nelle situazioni più difficili. Ah, ne hai fatta di strada!"`
+- **japanese:** `"1回の戦闘で獲得したグレード値が５０を超えた証。プレッシャーに耐えながら、よくぞここまでたどり着きました。"`
+- **russian:** `"Доказательство того, что вы получили более 50 очков рейтинга за один бой. Все поражены, что вы не дрогнули и выдержали такое давление. Вы многого добились."`
+- **schinese:** `"在单场战斗中获得超过50点积分的证明。顶住压力，终于走到了这一步。"`
+- **spanish:** `"Esta es la prueba de que has recibido 50 de rango o más por un combate. Todo el mundo está impresionado porque no te dejaste vencer por la presión. Has llegado muy lejos."`
+- **tchinese:** `"在一場戰鬥中獲得的積分值超過５０的證明。 承受著壓力，終於走到了這一步。"`
+
+## Added: `"TROPHY_ID_040"`
+
+### Name
+
+- **brazilian:** `"Pesadelo do Nutricionista"`
+- **english:** `"Dietician's Nightmare"`
+- **french:** `"Cauchemar de diététicien"`
+- **german:** `"Albtraum des Diätkochs"`
+- **italian:** `"L'incubo del dietologo"`
+- **japanese:** `"オヤッツァー・フォー"`
+- **russian:** `"Кошмар диетолога"`
+- **schinese:** `"点心满天下"`
+- **spanish:** `"La pesadilla de un dietista"`
+- **tchinese:** `"點心滿天下"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você preparou todos os lanches disponíveis. \"As pessoas no meu joguinho não comem nada além de bolo, então, desculpa, Doutor, você não manja nada.\""`
+- **english:** `"This is proof that you've prepared all available snacks. \"The people in my video game eat nothing but cake all day, so I'm sorry, Doctor, you're full of it.\""`
+- **french:** `"Ceci prouve que vous avez préparé tous les en-cas disponibles. \"Les personnages de mon jeu vidéo passent leur temps à manger des gâteaux, alors désolé, docteur, mais vous dites n'importe quoi.\""`
+- **german:** `"Das ist der Beweis, dass du alle verfügbaren Snacks zubereitet hast. \"Die Leute in meinem Videospiel essen den ganzen Tag nichts als Kuchen, also erzählen Sie doch keinen Unsinn, Doktor.\""`
+- **italian:** `"Attesta che hai preparato ogni tipologia di spuntino. \"I personaggi del mio videogioco mangiano dolci in continuazione e stanno benissimo. Mi spiace, dottore, si sbaglia di grosso\"."`
+- **japanese:** `"おやつ作りで可能なアイテムを全て作成した証。毎日のおやつライフをエンジョイした後は、適度な運動とおまけの運動。"`
+- **russian:** `"Доказательство того, что вы приготовили все доступные в игре закуски. \"У меня в игре все едят одни только сладости, так что простите, доктор, но вы несете чепуху\"."`
+- **schinese:** `"制作过“制作点心”能力能够做出的全部道具的证明。享受每天吃点心的生活之余，也别忘了多运动哦。"`
+- **spanish:** `"Esta es la prueba de que has preparado todos los aperitivos disponibles. \"En mi videojuego, la gente solo come pastelillos todo el día. Así que lo siento, doctor, eso es un cuento chino\"."`
+- **tchinese:** `"製作過所有能透過「製作點心」做成的道具的證明。 享受過每天吃點心的生活後，記得適當運動、多多運動。"`
+
+## Added: `"TROPHY_ID_041"`
+
+### Name
+
+- **brazilian:** `"Eu Sou o Vento"`
+- **english:** `"I Am the Wind"`
+- **french:** `"Je suis le vent"`
+- **german:** `"Ich bin der Wind"`
+- **italian:** `"Io sono il vento"`
+- **japanese:** `"風になったワタシ"`
+- **russian:** `"Я - ветер"`
+- **schinese:** `"我乘风而去"`
+- **spanish:** `"Yo soy el viento"`
+- **tchinese:** `"我乘風而去"`
+
+### Description
+
+- **brazilian:** `"Isso (ZUUM) prova que você atingiu (VRUUUUUUUUUUM) velocidade máxima com o (PIIIIIIIIIIIIIIIUUUUUU) talento de Passo de Vento."`
+- **english:** `"This is (WHOOSH) proof that you've attained (NEEEAAAROOOOMMM) maximum speed with the (BEEEOOOWWWWWWWW) Windstepping talent."`
+- **french:** `"Ceci prouve (WOOOSH) que vous avez atteint (NIIIIHOUUUUM) la vitesse maximale avec le (BIIIIHOOOM) talent Pas du vent."`
+- **german:** `"Das ist (WHUUUSCH) der Beweis, dass du mit dem (WIUUUUUU) Talent \"Windschreiten\" (WRUUUUUUMMMMM) die maximale Geschwindigkeit erreicht hast."`
+- **italian:** `"Attesta (SWOSH) che hai raggiunto (SWOOOSH) la massima velocità (SWOOOOOOSH) con il talento Cavalcaventi."`
+- **japanese:** `"サポートタレント「速駆け」で移動速度が最高速度に達した証。今日も僕らに速さをありがとう！　また来てね！"`
+- **russian:** `"Доказательство (В-У-У-У-У-УХ) того, что вы развили (ВЖ-Ж-Ж-Ж-Ж-Ж-Ж-Ж) максимальную скорость при помощи таланта (П-И-И-И-И-И-ИУ) \"Воздушные шаги\". "`
+- **schinese:** `"使用支援能力“乘风而行”，达到最高移动速度的证明。感谢你今天又为大家带来速度！下次还要再来哦！"`
+- **spanish:** `"Esta es (¡FIUUU!) la prueba de que has conseguido (¡BRRUUUUUM!) la velocidad máxima con el (¡SHIUNNNN!) talento Paso al viento."`
+- **tchinese:** `"使用支援能力「乘風而行」達到最高移動速度的證明。 謝謝你今天也為我們帶來速度！下次還要再來喔！"`
+
+## Added: `"TROPHY_ID_042"`
+
+### Name
+
+- **brazilian:** `"Microgerenciador"`
+- **english:** `"Micromanager"`
+- **french:** `"Microgestion"`
+- **german:** `"Mikromanager"`
+- **italian:** `"Microgestione"`
+- **japanese:** `"多重憑依者"`
+- **russian:** `"Ручное управление"`
+- **schinese:** `"多重凭依者"`
+- **spanish:** `"As de la microgestión"`
+- **tchinese:** `"多重憑依者"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você lutou muitas batalhas enquanto controlava muitos personagens. Você pode ir com calma trocando personagens no Menu Principal, mas se quiser engatar a quinta, há ações de batalha que deixam você trocar no meio da luta!"`
+- **english:** `"This is proof that you've fought many battles while controlling many characters. You can take it slow by changing characters in the Top Menu, but if you want to kick it into high gear, there are battle actions that let you switch in battle on the fly!"`
+- **french:** `"Ceci prouve que vous avez participé à de nombreux combats en contrôlant différents personnages. Vous pouvez y aller doucement en changeant de personnage dans le menu principal, mais si vous voulez passer la cinquième, certaines actions en combat vous permettent de le faire directement en vous battant !"`
+- **german:** `"Das ist der Beweis dafür, dass du viele Kämpfe ausgefochten und viele Figuren gesteuert hast. Du kannst es bedächtig angehen und Figuren im Menü wechseln, wenn du aber einen Zahn zulegen möchtest, kannst du auch Kampfaktionen verwenden, um deine Figuren mitten im Kampfgetümmel zu wechseln!"`
+- **italian:** `"Attesta che hai combattuto molte battaglie, controllando molti personaggi. Se vuoi procedere con calma, cambia personaggio dal relativo menu. Se invece vuoi spaccare il mondo, cambia personaggio al volo, sfruttando le azioni di battaglia!"`
+- **japanese:** `"たくさんの操作キャラでたくさん戦った証。キャラチェンジは、ゆっくり派はメニューを開いて、あくせく派にはリアルタイムで切り替えられるバトルアクトもあります！"`
+- **russian:** `"Доказательство того, что вы провели множество боев, управляя разными персонажами. Можно не спешить и менять персонажей в верхнем меню, но если вы предпочитаете действовать быстро, то существуют боевые действия, которые позволяют переключаться на лету!"`
+- **schinese:** `"操控多名角色经历大量战斗的证明。喜欢慢节奏的话，可以打开菜单切换角色；如果喜欢迅速出手，也有能够在战斗中即时切换角色的战斗效果！"`
+- **spanish:** `"Esta es la prueba de que has librado muchos combates controlando a diversos personajes. Puedes hacerlo de la manera lenta, cambiando de personajes en el menú superior, pero si quieres puedes poner la directa, ya que hay acciones de combate que te permiten hacerlo directamente sobre la marcha mientras combates."`
+- **tchinese:** `"操作許多角色經歷許多場戰鬥的證明。 悠閒派可以開啟選單更換角色， 但也有能即時變換角色的戰鬥效果供急性派選擇！"`
+
+## Added: `"TROPHY_ID_043"`
+
+### Name
+
+- **brazilian:** `"Tagarela"`
+- **english:** `"Chatterbox"`
+- **french:** `"Commérage"`
+- **german:** `"Quasselstrippe"`
+- **italian:** `"Chiacchierone"`
+- **japanese:** `"オレは雑談フリークス"`
+- **russian:** `"Болтун"`
+- **schinese:** `"我是闲聊迷"`
+- **spanish:** `"Cotorra"`
+- **tchinese:** `"我是閒聊迷"`
+
+### Description
+
+- **brazilian:** `"Às vezes, depois de encontrar um ponto de descoberta ou quando está em ponto de salvar, você tem a oportunidade de apertar SELECT para dar início a uma conversa entre seus companheiros. Isso prova que você vivenciou muitas Coisas e teve muitas Opiniões sobre elas."`
+- **english:** `"Sometimes, after you've found a discovery point or when you're at a save point, you have the opportunity to press Enter/Back to initiate a conversation between your companions. This is proof that you've experienced many Things and had a lot of Opinions about them."`
+- **french:** `"Parfois, lorsque vous avez trouvé un point de découverte ou un point de  sauvegarde, vous pouvez lancer une conversation entre vos compagnons. Ceci prouve que vous avez vécu bien des choses et reçu bien des avis à leur sujet."`
+- **german:** `"Manchmal kannst du an einer Fundstätte oder einem Speicherpunkt die Back-Taste (Controller)/Entertaste (Tastatur) drücken, um ein Gespräch zwischen deinen Gefährten auszulösen. Das ist der Beweis, dass du vieles erfahren und viele Meinungen dazu gehört hast."`
+- **italian:** `"Occasionalmente, dopo aver scoperto un punto d'interesse o quando ti  trovi in un punto di salvataggio, avrai la possibilità di conversare con i tuoi compagni di viaggio. È la prova che  hai fatto molta strada e hai opinioni da condividere con loro."`
+- **japanese:** `"ディスカバリー発見後や、セーブポイントに触れている時にSELECTボタンを押すことで、場所にまつわったりまつわらなかったりするチャットを聞くことができます。それらをたくさん発生させたお話好きの証。"`
+- **russian:** `"Иногда, когда вы обнаруживаете находку или оказываетесь у точки сохранения, вы можете начать диалог между персонажами. Это доказательство того, что вы многое повидали и у вас было что обсудить."`
+- **schinese:** `"发现探索点后，或接触存档点时，按下 L3 键就可能触发与当前情境有关的特殊对话。这是触发大量对话、热爱聊天的证明。"`
+- **spanish:** `"A veces, al encontrar un punto de descubrimiento o cuando estás en un punto de guardado, tienes la posibilidad de iniciar una conversación con los compañeros. Esta es la prueba de que has compartido muchas cosas con ellos y que habéis tenido un montón de opiniones sobre ellas."`
+- **tchinese:** `"找到探索點後，還有接觸保存點的時候， 按下L3按鈕可以欣賞可能與情境有關的特殊對話。 這是觸發許多對話，喜歡聊天的證明。"`
+
+## Added: `"TROPHY_ID_044"`
+
+### Name
+
+- **brazilian:** `"O Colecionador de Itens"`
+- **english:** `"The Item Collector"`
+- **french:** `"Collectionneur"`
+- **german:** `"Sachensucher"`
+- **italian:** `"Collezionista di oggetti"`
+- **japanese:** `"アイテムアツマッタ―"`
+- **russian:** `"Собиратель"`
+- **schinese:** `"道具收集家"`
+- **spanish:** `"Coleccionista de objetos"`
+- **tchinese:** `"道具收集家"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você obteve todos os itens, a maior parte deles são equipamentos. O conceito básico do equipamento é a combinação de melhorias de atributos e habilidades embutidas. Itens que você inicialmente ignorou podem ser a chave para derrotar os inimigos mais formidáveis."`
+- **english:** `"This is proof that you've collected all items, most of which is equipment. The core concept of equipment is the combination of stat boosts and embedded skills. Items you initially dismissed might in fact hold the key to defeating the most formidable foes."`
+- **french:** `"Ceci prouve que vous avez réuni tous les objets, comprenant principalement de l'équipement. Le principe même de l'équipement, c'est l'association de bonus de statistiques et de capacités incluses. Les objets que vous avez délaissés peuvent s'avérer essentiels pour vaincre les ennemis les plus redoutables."`
+- **german:** `"Das ist der Beweis, dass du alle Gegenstände gesammelt hast. Das Meiste war wohl Ausrüstung. Das Kernkonzept der Ausrüstung besteht in der Kombination von Werteverbesserungen und den enthaltenen Fertigkeiten. Gegenstände, die du erst abgelegt hast, könnten tatsächlich der Schlüssel zum Sieg über die stärksten Gegner sein."`
+- **italian:** `"Attesta che hai raccolto tutti gli oggetti, molti dei quali sono equipaggiamento. L'equipaggiamento incrementa le statistiche e vanta abilità integrate. Oggetti inizialmente considerati superflui potrebbero rivelarsi fondamentali per sconfiggere i nemici più temibili."`
+- **japanese:** `"アイテムを、というか主に装備品を、たくさん集めた証。装備品は能力値よりスキルとその組み合わせ。意外な装備が強敵を打破できる切り札になるかも。"`
+- **russian:** `"Доказательство того, что вы собрали много предметов, и в основном снаряжения. Главная идея снаряжения - в комбинации навыков и улучшений характеристик. Предметы, которые вы когда-то выбросили, могли стать залогом победы над самыми сильными врагами. "`
+- **schinese:** `"收集大量道具——准确地说，是收集大量装备的证明。装备上的技能及其搭配方式比基础属性更加重要。看似不起眼的装备，说不定就是战胜强敌的王牌！"`
+- **spanish:** `"Esta es la prueba de que has reunido todos los objetos, la mayoría de los cuales son equipo. El concepto esencial de equipo es la combinación de mejoras de los atributos y habilidades incorporadas. De hecho, los objetos que descartaste en un principio pueden ser la clave para derrotar a los oponentes más formidables."`
+- **tchinese:** `"收集許多道具，正確來說是收集許多裝備的證明。 裝備的技能和搭配方式比原本的能力值重要。 也許能擊敗強敵的王牌，就是最出乎意料的那個裝備喔！"`
+
+## Added: `"TROPHY_ID_045"`
+
+### Name
+
+- **brazilian:** `"Procurando Encrenca"`
+- **english:** `"Cruisin' for a Bruisin'"`
+- **french:** `"Quand on aime la bagarre"`
+- **german:** `"Auf Krawall gebürstet"`
+- **italian:** `"Violenza chiama violenza"`
+- **japanese:** `"強敵百人できたかな"`
+- **russian:** `"Кулаки чешутся"`
+- **schinese:** `"击破数百强敌"`
+- **spanish:** `"Buscabullas"`
+- **tchinese:** `"擊破數百強敵"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você batalhou contra uma enorme variedade de inimigos. Aliás, quanto mais do mesmo inimigo você derrotar, maior é a chance do inimigo soltar equipamento com habilidades embutidas. Tá na hora de fazer controle da população!"`
+- **english:** `"This is proof that you've battled a wide swath of enemies. By the way, the more of the same enemy you defeat, the more likely that enemy becomes to drop equipment with skills attached. Time for some population control!"`
+- **french:** `"Ceci prouve que vous avez affronté une belle bande d'ennemis. Au fait, plus vous battez le même ennemi, plus il a de chances de vous fournir de l'équipement doté de capacités. Il est temps de maîtriser cette population !"`
+- **german:** `"Das ist der Beweis, dass du gegen viele verschiedene Gegner gekämpft hast. Übrigens, je mehr Gegner eines Typs du besiegst, desto wahrscheinlicher wird es, dass dieser Gegner Ausrüstung mit Fertigkeiten fallen lässt. Das schreit doch nach einer Bevölkerungskontrolle!"`
+- **italian:** `"Attesta che hai combattuto contro un enorme numero di nemici. Più nemici dello stesso tipo sconfiggerai, più aumenterà la probabilità che rilascino equipaggiamento con abilità. È il momento di mietere vittime!"`
+- **japanese:** `"様々な敵に遭遇した証。ちなみに、同名の敵をたくさん倒すほど、その敵が落とす装備品のスキルが付加されやすくなります。レッツ討伐！"`
+- **russian:** `"Доказательство того, что вы успели сразиться с большим количеством врагов. Кстати, чем больше врагов одного типа вы победите, тем больше вероятность того, что после их смерти будет выпадать снаряжение с навыками. Пора заняться контролем численности! "`
+- **schinese:** `"与许多不同种类的敌人交战的证明。顺便一提，击败同一种敌人的次数越多，它掉落的装备就越容易附带技能。努力讨伐吧！"`
+- **spanish:** `"Esta es la prueba de que has combatido contra gran variedad de enemigos. Por cierto, cuantos más enemigos del mismo tipo derrotes, más probable será que estos dejen caer equipo con habilidades incorporadas. ¡Es hora de hacer un poco de control de población!"`
+- **tchinese:** `"遭遇過許多不同敵人的證明。 附帶一提，打倒越多同名的敵人， 該敵人掉落裝備也越容易附加技能。努力討伐吧！"`
+
+## Added: `"TROPHY_ID_046"`
+
+### Name
+
+- **brazilian:** `"CDF"`
+- **english:** `"Bookwyrm"`
+- **french:** `"Rat de bibliothèque"`
+- **german:** `"Bücherwurm"`
+- **italian:** `"Topo da biblioteca"`
+- **japanese:** `"ライブラブラリ"`
+- **russian:** `"Книжный змей"`
+- **schinese:** `"资料库博士"`
+- **spanish:** `"Ratón de biblioteca"`
+- **tchinese:** `"資料庫博士"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você se familiarizou bem com a Biblioteca. Como obter isso é meio que um segredo, mas se você parar para ler um pouco de vez em quando, deve ter uma surpresa agradável."`
+- **english:** `"This is proof that you've become quite familiar with the Library. How to obtain this is kind of a secret, but if you take the time to do a bit of reading now and then, you should be pleasantly surprised."`
+- **french:** `"Ceci prouve que vous connaissez bien la Bibliothèque. La façon de l'obtenir est relativement secrète, mais si vous prenez le temps de lire un peu par-ci par-là, vous devriez avoir une agréable surprise."`
+- **german:** `"Das ist der Beweis, dass du dich mittlerweile recht gut mit der Bibliothek auskennst. Wie man dieses Wissen erwirbt, ist sozusagen geheim, aber wenn du dir die Zeit nimmst, hin und wieder ein wenig zu lesen, dürftest du eine angenehme Überraschung erleben."`
+- **italian:** `"Attesta la tua familiarità con la libreria. Come ottenere questo riconoscimento è un segreto, ma se di tanto in tanto ti dedicherai alla lettura, potresti rimanere gradevolmente sorpreso."`
+- **japanese:** `"ライブラリをきちんと閲覧しているとみなされた証です。どうしたら獲得できるかは秘密にしますので、ちょくちょく見に行ってもらえると、いつのまにか獲得していることでしょう。"`
+- **russian:** `"Доказательство того, что вы хорошо познакомились с библиотекой. Как получить этот приз - большая тайна, но вы всегда можете поискать ответ в книгах. Когда найдете, он вас приятно удивит. "`
+- **schinese:** `"认真阅读资料库的证明。具体获得方式暂时保密，不过只要经常翻阅，说不定就会在不知不觉中解锁。"`
+- **spanish:** `"Esta es la prueba de que te has familiarizado bastante con la biblioteca. Cómo se consigue esto es secreto, pero si te tomas la molestia de leer un poco de vez en cuando, tendrás una grata sorpresa."`
+- **tchinese:** `"仔細閱覽資料庫的證明。 獲得方式暫且保密，不過，只要常常去看， 想必能在不知不覺中獲得。"`
+
+## Added: `"TROPHY_ID_047"`
+
+### Name
+
+- **brazilian:** `"Oito Encontros com o Ódio"`
+- **english:** `"Eight Dates With Hate"`
+- **french:** `"Huit rencards avec la haine"`
+- **german:** `"Acht Verabredungen mit dem Hass"`
+- **italian:** `"Otto volante"`
+- **japanese:** `"エイト戦士図"`
+- **russian:** `"Восемь дней ненависти"`
+- **schinese:** `"八勇士"`
+- **spanish:** `"Ocho citas con odio"`
+- **tchinese:** `"八勇士"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você voltou com vida depois de desafiar todos os oito Cadinhos de Malevolência. Já que cada um só permite que certos personagens entrem, você precisará de maestria de técnicas e conhecimento de cada um deles."`
+- **english:** `"This is proof that you've returned alive from challenging all eight Malevolent Crucibles. Since each one only allows certain characters to enter, you'll need mastery of techniques and knowledge for each one of them."`
+- **french:** `"Ceci prouve que vous avez survécu aux huit Creusets de malveillance. Comme chacun d'entre eux ne laisse passer que certains personnages, vous devez maîtriser les techniques et connaissances de tous vos compagnons."`
+- **german:** `"Das ist der Beweis, dass du die Herausforderung aller acht Schmelztiegel der Bosheit überlebt hast. Da jeder nur bestimmte Charaktere zulässt, musst du dich in den Techniken und dem Wissen all dieser Figuren auskennen."`
+- **italian:** `"Attesta che sei sopravvissuto agli otto crogioli di malevolenza. L'accesso è consentito solo a determinati personaggi: dovrai padroneggiare le tecniche di ognuno per uscirne vincitore."`
+- **japanese:** `"各地に眠る８つの『穢れの坩堝』に挑戦し、全てを生き残った証。挑めるキャラクターは決められているため、様々なキャラクターを操れる技量と知識が必要になるかも。"`
+- **russian:** `"Доказательство того, что вы прошли все восемь Горнил Зла и выжили. Так как в каждое из них может войти только один конкретный персонаж, вам придется освоить каждого из них."`
+- **schinese:** `"挑战散布在各地的全部8座“污秽的熔炉”，并平安归来的证明。每座熔炉允许进入的角色固定，需要熟练掌握各个角色的操作技巧。"`
+- **spanish:** `"Esta es la prueba de que has vuelto con vida después de desafiar a los ocho crisoles de malicia. Como cada uno de ellos solo permite entrar a ciertos personajes, necesitarás dominar las técnicas y saberes de cada uno de ellos."`
+- **tchinese:** `"挑戰沉睡在各地的８個『汙穢的熔爐』並全身而退的證明。 參與挑戰的角色是固定的， 或許需要操作各角色的技術與知識。"`
+
+## Added: `"TROPHY_ID_048"`
+
+### Name
+
+- **brazilian:** `"O Céu é o Limite"`
+- **english:** `"The Sky's the Limit"`
+- **french:** `"Rien ne l'arrête"`
+- **german:** `"Nach oben ist alles offen"`
+- **italian:** `"Il cielo è il limite"`
+- **japanese:** `"果てなき強さ"`
+- **russian:** `"Все выше и выше"`
+- **schinese:** `"无尽的强者"`
+- **spanish:** `"El cielo es el límite."`
+- **tchinese:** `"無盡的強者"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você completou todos os calabouços extras no nível de dificuldade Normal ou superior. Mas outros desafiadores te aguardam em lugares onde você esteve e lugares aonde ainda irá."`
+- **english:** `"This is proof that you've completed all the extra dungeons at difficulty level Normal or above. But further challengers await you, in places you've been and places you have yet to be."`
+- **french:** `"Ceci prouve que vous avez terminé tous les donjons supplémentaires en difficulté Normale ou supérieure. Mais d'autres concurrents vous attendent, dans des endroits connus ou qu'il vous reste à visiter."`
+- **german:** `"Das ist der Beweis, dass du alle zusätzlichen Verliese im Schwierigkeitsgrad \"Normal\" oder höher abgeschlossen hast. Doch dich erwarten noch weitere Herausforderungen an Orten, wo du bereits gewesen bist, und an Orten, wo du noch nie warst."`
+- **italian:** `"Attesta che hai completato tutti i sotterranei bonus a livello di difficoltà Normale o superiore. Altre sfide ti attendono, in luoghi già esplorati o ancora da visitare."`
+- **japanese:** `"エクストラダンジョンを難易度ノーマル以上で全クリアした証。更なる強敵が、これから倒せる、倒したことがある気がする場所で待っています。"`
+- **russian:** `"Доказательство того, что вы прошли все дополнительные подземелья на среднем уровне и выше. Но вас ждут новые испытания - в тех местах, где вы были, и в тех, где еще не ступали. "`
+- **schinese:** `"以普通或更高难度通关全部隐藏迷宫的证明。不过，更强大的敌人仍在你曾经到访或尚未探索的地方等待着你。"`
+- **spanish:** `"Esta es la prueba de que has completado todas las mazmorras adicionales en nivel de dificultad Normal o superior. Pero te esperan más desafíos en lugares en los que has estado y en lugares por los que aún tienes que pasar."`
+- **tchinese:** `"用普通以上難度通過所有隱藏迷宮的證明。 更強的強敵就在今後即將挑戰，或是曾經挑戰過的那個地方等您。"`
+
+## Added: `"TROPHY_ID_049"`
+
+### Name
+
+- **brazilian:** `"Superou os Piores"`
+- **english:** `"Bested the Worst"`
+- **french:** `"Vainqueur du pire"`
+- **german:** `"Den Schlimmsten bezwungen"`
+- **italian:** `"Migliore del peggiore"`
+- **japanese:** `"最強を超えた最強、を超えた"`
+- **russian:** `"Выдающаяся победа"`
+- **schinese:** `"击败超越最强的最强霸者"`
+- **spanish:** `"Mejor que el peor"`
+- **tchinese:** `"擊敗超越最強的最強霸者"`
+
+### Description
+
+- **brazilian:** `"Isso prova que você derrotou um certo \"alguém\" turbinado. Nada mais pode ser dito, nem precisa ser."`
+- **english:** `"This is proof that you've defeated a certain powered-up \"someone\". Nothing more can be said, nor does it need to be."`
+- **french:** `"Ceci prouve que vous avez vaincu une certaine personne survitaminée. On ne peut rien en dire de plus, mais ce n'est pas nécessaire."`
+- **german:** `"Das ist der Beweis, dass du einen gewissen gestärkten \"Jemand\" besiegt hast. Mehr muss dazu nicht gesagt werden, und das ist auch gar nicht nötig."`
+- **italian:** `"Attesta che hai sconfitto un certo \"qualcuno\" potenziato. Non c'è altro da aggiungere, sarebbe superfluo."`
+- **japanese:** `"強化した「とある存在」を難易度ハード以上で撃破した証。もはや何も言いますまい。"`
+- **russian:** `"Доказательство того, что вы одержали победу над сильным \"кое-кем\". Это все, что мы можем вам сказать, и все, что вам стоит знать."`
+- **schinese:** `"以困难或更高难度击败强化后的“某个敌人”的证明。想必一切尽在不言中。"`
+- **spanish:** `"Esta es la prueba de que has derrotado a \"alguien\" muy poderoso. No se puede decir nada más ni es necesario hacerlo."`
+- **tchinese:** `"用困難以上難度擊敗強化過後的「某個敵人」的證明。 想必一切盡在不言中吧。"`
+
+## Added: `"TROPHY_ID_050"`
+
+### Name
+
+- **brazilian:** `"Pacto do Escudeiro Renovado"`
+- **english:** `"The Squire's Pact Renewed"`
+- **french:** `"Le pacte de l'Écuyère renouvelé"`
+- **german:** `"Der erneuerte Provisorpakt"`
+- **italian:** `"Il nuovo patto dell'Adepta"`
+- **japanese:** `"再びの従士契約"`
+- **russian:** `"Снова оруженосец"`
+- **schinese:** `"第二次从士契约"`
+- **spanish:** `"El pacto de la Escudera renovado"`
+- **tchinese:** `"第二次從士契約"`
+
+### Description
+
+- **brazilian:** `"O pacto de escudeiro que você lembrava com carinho é formado de novo. Que tipo de jornada lhe aguarda desta vez?"`
+- **english:** `"The squire's pact you'd remembered so fondly is enacted again. What kind of journey will await you this time?"`
+- **french:** `"Le pacte de l'Écuyère, si cher à votre cœur, est renouvelé. Quel genre de périple allez-vous vivre, cette fois ?"`
+- **german:** `"Der Pakt des Provisors, den du noch in bester Erinnerung hast, lebt wieder auf. Was für eine Reise erwartet dich dieses Mal?"`
+- **italian:** `"Il patto dell'Adepta di cui serbavi un così lieto ricordo è stato rinnovato. Che viaggio ti attende questa volta?"`
+- **japanese:** `"思い出の従士契約再び。今度はどんな旅が待っているか。"`
+- **russian:** `"Договор оруженосца, что вы вспоминали с такой теплотой, возобновлен. Что теперь ждет в конце пути?"`
+- **schinese:** `"再次缔结那份熟悉的从士契约。这一次，又将迎来怎样的旅程呢？"`
+- **spanish:** `"El pacto de la escudera que tan afectuosamente recordabas vuelve a estar activo. ¿Qué clase de viaje te aguardará en esta ocasión?"`
+- **tchinese:** `"再次締結熟悉的從士契約。 這次將要面對的是什麼樣的旅程呢？"`
+
+## Added: `"TROPHY_ID_051"`
+
+### Name
+
+- **brazilian:** `"Cortando os Laços do Passado"`
+- **english:** `"Severing the Bonds of the Past"`
+- **french:** `"Rompre les liens avec le passé"`
+- **german:** `"Gelöste Bande der Vergangenheit"`
+- **italian:** `"Recidere i legami con il passato"`
+- **japanese:** `"再びの師弟対決"`
+- **russian:** `"Узы прошлого"`
+- **schinese:** `"第二次师徒对决"`
+- **spanish:** `"Cortando lazos con el pasado"`
+- **tchinese:** `"第二次師徒對決"`
+
+### Description
+
+- **brazilian:** `"A hora, o lugar e o oponente são outros, mas as contas foram acertadas mais uma vez. Esta é a prova de seus esforços."`
+- **english:** `"The time, place, and opponent are different, but the same score has been settled again. This is proof of your efforts."`
+- **french:** `"Le moment, le lieu et l'adversaire sont différents, mais les comptes ont à nouveau été réglés. Ceci est la preuve de vos efforts."`
+- **german:** `"Zeit, Ort und Gegner unterscheiden sich, aber die gleiche Rechnung wurde von Neuem beglichen. Dies ist der Beweis für deine Bemühungen."`
+- **italian:** `"L'occasione, il luogo e l'avversario sono cambiati, ma ancora una volta la giustizia ha trionfato. Questo è un riconoscimento dei tuoi sforzi."`
+- **japanese:** `"一度つけた決着を、時と場所と相手を変え、再びつけた証。"`
+- **russian:** `"Новое время и место, новый враг, но старые счеты никуда не делись. И в этот раз вы получите свою расплату."`
+- **schinese:** `"时间、地点和对手虽已改变，但你再次完成了那场决斗。这就是努力的证明。"`
+- **spanish:** `"El tiempo, el lugar y los rivales son distintos, pero has logrado poner fin a todo otra vez. Esta es la prueba de tus esfuerzos."`
+- **tchinese:** `"時間、地點與對手更迭， 再次挑戰決鬥的證明。"`
+
+## Added: `"TROPHY_ID_052"`
+
+### Name
+
+- **brazilian:** `"Reencontro com Karma"`
+- **english:** `"Reencounter with Karma"`
+- **french:** `"Retrouvailles bienvenues"`
+- **german:** `"Wiederbegegnung mit dem Karma"`
+- **italian:** `"Un nuovo incontro con il karma"`
+- **japanese:** `"再びの巡り合い"`
+- **russian:** `"Карма"`
+- **schinese:** `"第二次命运相遇"`
+- **spanish:** `"Reencuentro con el karma"`
+- **tchinese:** `"第二次命運相遇"`
+
+### Description
+
+- **brazilian:** `"Não era bem o que você esperava, não é? Mesmo assim, isso prova que você sobreviveu a uma certa batalha."`
+- **english:** `"It wasn't quite what you'd expected, was it? Nevertheless, this proves you survived a certain battle."`
+- **french:** `"Ce n'était pas vraiment ce que vous aviez prévu, n'est-ce pas ? Ceci prouve que vous avez néanmoins survécu à un certain combat."`
+- **german:** `"Nicht ganz, was du erwartet hattest, oder? Doch dies ist der Beweis, dass du einen gewissen Kampf überlebt hast."`
+- **italian:** `"Non è andata come ti aspettavi, vero? Tuttavia, questo dimostra che sei sopravvissuta a una determinata battaglia."`
+- **japanese:** `"おいしいところを持って行かれたけれどとある決戦を勝ち抜いた証。"`
+- **russian:** `"Не такого вы ждали, верно? Но это подтверждает: вы выжили в битве."`
+- **schinese:** `"虽然风头被抢尽，却仍然赢下了某场决战的证明。"`
+- **spanish:** `"No fue lo que esperabas, ¿verdad? Aun así, esto demuestra que sobreviviste a cierto combate."`
+- **tchinese:** `"雖然鋒頭被搶盡， 但仍戰勝某場決戰的證明。"`
+
+## Added: `"TROPHY_ID_053"`
+
+### Name
+
+- **brazilian:** `"A Dupla Dinâmica"`
+- **english:** `"The Dynamic Duo"`
+- **french:** `"Le duo dynamique"`
+- **german:** `"Das dynamische Duo"`
+- **italian:** `"Il duo dinamico"`
+- **japanese:** `"勝ち抜いた二人"`
+- **russian:** `"Улетная парочка"`
+- **schinese:** `"并肩作战的两人"`
+- **spanish:** `"El dúo dinámico"`
+- **tchinese:** `"並肩作戰的兩人"`
+
+### Description
+
+- **brazilian:** `"Prova que você terminou Naraka no Cadinho de Malevolência. Você e sua parceira formam uma bela equipe!"`
+- **english:** `"Proof that you've cleared Naraka in the Malevolent Crucible. You and your partner make quite a team!"`
+- **french:** `"Preuve que vous avez terminé Naraka dans le Creuset de malveillance. Vous formez une belle équipe avec votre partenaire !"`
+- **german:** `"Dies ist der Beweis, dass du Naraka im Schmelztiegel der Bosheit besiegt hast. Du und dein Partner, ihr seid ein starkes Team!"`
+- **italian:** `"Attesta che hai superato Naraka nel crogiolo di malevolenza. Siete una squadra imbattibile!"`
+- **japanese:** `"穢れの坩堝・奈落を制覇した証。コンビネーション炸裂。"`
+- **russian:** `"Доказательство: вы очистили Нарака в Горниле Зла. А из вас вышла неплохая команда!"`
+- **schinese:** `"成功通过污秽的熔炉·奈洛的证明。两人的配合天衣无缝。"`
+- **spanish:** `"Prueba de que has acabado Naraka en el crisol de malicia. ¡Tu compañero y tú formáis un gran equipo!"`
+- **tchinese:** `"稱霸汙穢的熔爐・奈洛的證明。 兩人合作無間。"`
+
+## Added: `"TROPHY_ID_054"`
+
+### Name
+
+- **brazilian:** `"A Dupla Veloz"`
+- **english:** `"The Speedy Duo"`
+- **french:** `"Le duo rapide"`
+- **german:** `"Das schnelle Duo"`
+- **italian:** `"Il duo fulmineo"`
+- **japanese:** `"そそくさな二人"`
+- **russian:** `"Быстрая парочка"`
+- **schinese:** `"速战速决的两人"`
+- **spanish:** `"El dúo veloz"`
+- **tchinese:** `"速戰速決的兩人"`
+
+### Description
+
+- **brazilian:** `"Prova que você terminou Naraka no Cadinho de Malevolência em um curto intervalo de tempo. Você estava com pressa, hein?"`
+- **english:** `"Proof that you've cleared Naraka in the Malevolent Crucible in a short amount of time. You speed demon, you!"`
+- **french:** `"Preuve que vous avez terminé Naraka dans le Creuset de malveillance en un temps très court. Vous êtes drôlement rapide !"`
+- **german:** `"Dies ist der Beweis, dass du Naraka im Schmelztiegel der Bosheit innerhalb kurzer Zeit besiegt hast. Da warst du wohl im Temporausch!"`
+- **italian:** `"Attesta che hai superato Naraka nel crogiolo di malevolenza in tempi rapidi. Ehi, sei veloce come un fulmine!"`
+- **japanese:** `"穢れの坩堝・奈落を短時間で制覇した証。スピーディでワンダラー。"`
+- **russian:** `"Доказательство: вы быстро очистили Нарака в Горниле Зла. Да вы просто молнии ходячие!"`
+- **schinese:** `"在短时间内通过污秽的熔炉·奈洛的证明。两人动作之快，令人目不暇接！"`
+- **spanish:** `"Prueba de haber acabado Naraka en el crisol de malicia en poco tiempo. ¡Estás hecho un hacha!"`
+- **tchinese:** `"短時間稱霸汙穢的熔爐・奈洛的證明。 動作迅雷不及掩耳。"`
+
+## Added: `"TROPHY_ID_055"`
+
+### Name
+
+- **brazilian:** `"A Décima-primeira Dupla"`
+- **english:** `"The Eleventh Duo"`
+- **french:** `"Le onzième duo"`
+- **german:** `"Das elfte Duo"`
+- **italian:** `"Il duo estremo"`
+- **japanese:** `"イレブン二人"`
+- **russian:** `"Одиннадцатая парочка"`
+- **schinese:** `"两人身影如同11"`
+- **spanish:** `"El dúo decimoprimero"`
+- **tchinese:** `"兩人身影如同１１"`
+
+### Description
+
+- **brazilian:** `"Prova que você terminou Naraka no Cadinho de Malevolência 11 vezes."`
+- **english:** `"Proof that you've cleared Naraka in the Malevolent Crucible 11 times."`
+- **french:** `"Preuve que vous avez terminé Naraka dans le Creuset de malveillance à 11 reprises."`
+- **german:** `"Dies ist der Beweis, dass du Naraka im Schmelztiegel der Bosheit 11 Mal besiegt hast."`
+- **italian:** `"Attesta che hai superato Naraka nel crogiolo di malevolenza per undici volte."`
+- **japanese:** `"穢れの坩堝・奈落を１１回制覇した証。"`
+- **russian:** `"Доказательство: вы очистили Нарака в Горниле Зла 11 раз."`
+- **schinese:** `"成功通过污秽的熔炉·奈洛11次的证明。"`
+- **spanish:** `"Prueba de que has acabado Naraka en el crisol de malicia 11 veces."`
+- **tchinese:** `"稱霸汙穢的熔爐・奈洛１１次的證明。"`
