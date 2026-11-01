@@ -1,7 +1,7 @@
 # Achievement review
 
 Schema: `"UserGameStatsSchema_351970.bin"`
-Source SHA-256: `"2406780f5aaba71c86b60a4de1c55d18f4c3a72759da67f31f67c6430205446c"`
+Source SHA-256: `"993439da6f1e24a8e54bb4d57eee2c361c27d6c203055fc3ac32213115f38a79"`
 Added: 56; Changed: 0; Removed: 0
 
 ## Added: `"TROPHY_ID_000"`
@@ -28,7 +28,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai ottenuto tutti i trofei. Siamo felici che tu abbia veramente apprezzato il gioco. L'appuntamento è per i prossimi titoli!"`
 - **japanese:** `"全てのトロフィーを得た証です。これからもテイルズ オブ ゼスティリアとこれから生まれる新しい作品をよろしくお願いします！"`
 - **russian:** `"Доказательство того, что вы получили все призы. Мы рады, что игра вам так понравилась, до встречи в будущих частях!"`
-- **schinese:** `"获得所有奖杯的证明。今后也请继续支持 「Tales of Zestiria」和未来推出的新作品！"`
+- **schinese:** `"获得所有奖杯的证明。今后也请继续支持「Tales of Zestiria」和未来推出的新作品！"`
 - **spanish:** `"Esta es la prueba de que has conseguido todos los trofeos. Nos emociona que te guste tanto el juego y esperamos volver a verte en futuras entregas."`
 - **tchinese:** `"獲得所有獎盃的證明。今後也請繼續支持 「Tales of Zestiria」和未來推出的新作品！"`
 
@@ -84,7 +84,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Hai affrontato mille vicissitudini, ma questa e' la prova che sei sulla strada giusta. O sul giusto vettore. O qualcos'altro. La gioventù puo' essere molto movimentata."`
 - **japanese:** `"いろいろあったけど、元の鞘に戻った証。……正確には『新たな器に入った』ですが。いろいろあるのが青春だ。"`
 - **russian:** `"Вы через многое прошли, но это доказывает, что вы все еще на правильном пути. Или все еще верны себе. Или еще что-то. В юности все очень сумбурно и непонятно."`
-- **schinese:** `"几经波折后，终于重修旧好证明。 ……但正确来说应该是「进入新的容器」。青春就该如此多采多姿。"`
+- **schinese:** `"几经波折后，终于重修旧好证明。……但正确来说应该是「进入新的容器」。青春就该如此多采多姿。"`
 - **spanish:** `"Has pasado por mucho, pero esta es la prueba de que sigues por el buen camino. O en el buen receptáculo. O lo que sea. La juventud puede ser turbulenta."`
 - **tchinese:** `"幾經波折後，終於重修舊好證明。 ……但正確來說應該是「進入新的容器」。 青春就該如此多采多姿。"`
 
@@ -420,7 +420,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Hai sconfitto un determinato nemico proveniente da un determinato luogo in un determinato modo. E questa è la prova determinante, giustappunto."`
 - **japanese:** `"とあるところから来たとある二人をとある方法でとある撃破をしたとある証。と、ある。"`
 - **russian:** `"Каким-то образом вы победили каких-то людей, пришедших откуда-то. И это как-то доказывает это событие. Вроде как."`
-- **schinese:** `"用某种方法击破从某个地方来的 某两个人的某种证明。"`
+- **schinese:** `"用某种方法击破从某个地方来的某两个人的某种证明。"`
 - **spanish:** `"Has derrotado a cierto tipo de personas que venían de algún lado utilizando algún medio. Esta es una especie de prueba de ello. O algo así."`
 - **tchinese:** `"用某種方法擊破從某個地方來的 某兩個人的某種證明。 "`
 
@@ -588,7 +588,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai raccolto i 36 globi anomali. Hai esplorato ogni angolo del mondo, hai riso, hai pianto, hai persino dubitato delle tue intuizioni... Ma alla fine ne sei uscito vincitore!"`
 - **japanese:** `"異形の宝珠を３６個取得した証。寄り道、やりこみ要素……様々な困難を経て、勝ち抜いた証です！"`
 - **russian:** `"Доказательство того, что вы собрали все 36 аномальных сфер. Вы искали по всем углам, залезли в каждую щель, вы смеялись, плакали, ставили под вопрос свою картину мира... Но вы справились!"`
-- **schinese:** `"取得 36 个异形宝珠的证明。四处探索、深入钻研…… 这是战胜种种困难，一路过关斩将的证明！"`
+- **schinese:** `"取得 36 个异形宝珠的证明。四处探索、深入钻研……这是战胜种种困难，一路过关斩将的证明！"`
 - **spanish:** `"Esta es la prueba de que has reunido 36 orbes anómalos. Has rebuscado por todos los rincones, has reído, has llorado, te has cuestionado lo que sabías... ¡pero lo has conseguido!"`
 - **tchinese:** `"取得３６個異形寶珠的證明。四處探索、深入鑽研…… 這是戰勝種種困難，一路過關斬將的證明！"`
 
@@ -1064,7 +1064,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai riacquisito l'equipaggiamento della partita precedente sulle vette di Lakehaven. Il tuo io del futuro si prodiga in incoraggiamenti verso il tuo io del presente, in attesa di incontrarti ancora una volta alla fine del gioco."`
 - **japanese:** `"レイクピロー高地にて、前周回から引き継いだ装備を見事獲得した証。次周の自分が更なるパスを求めてこちらに視線を送っています。"`
 - **russian:** `"Доказательство того, что вы вернули снаряжение из предыдущего прохождения игры в Озерных вершинах. Будущий вы торжествует, благодарит вас и ждет новой встречи с вами в конце игры. "`
-- **schinese:** `"在瑞克比洛高地顺利获得 上一轮继承下来的装备的证明。希望下一轮的自己能追求更进一步的完美通关。"`
+- **schinese:** `"在瑞克比洛高地顺利获得上一轮继承下来的装备的证明。希望下一轮的自己能追求更进一步的完美通关。"`
 - **spanish:** `"Esta es la prueba de que has recuperado el equipo que has traspasado de tu última partida en los altos de Lakehaven. Tu yo futuro te está animando y espera encontrarse contigo una vez más al final del juego."`
 - **tchinese:** `"在瑞克比洛高地順利獲得 上一輪繼承下來的裝備的證明。 希望下一輪的自己能追求更進一步的完美通關。"`
 
