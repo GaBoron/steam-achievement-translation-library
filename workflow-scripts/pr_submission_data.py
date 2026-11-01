@@ -29,8 +29,10 @@ def load_submissions(*, root: Path = ROOT) -> dict[str, dict[str, Any]]:
         if path != submission_path(game_id, root=root):
             raise ValueError(f"Invalid submission path: {path}")
         value = json.loads(path.read_text(encoding="utf-8"))
-        if not isinstance(value, dict) or set(value) != {"version", "games"}:
+        if (not isinstance(value, dict) or set(value) != {"version", "games"}
+                or type(value.get("version")) is not int or value["version"] != 2):
             raise ValueError(f"Invalid submission envelope: {path}")
+        # Proposals always carry the complete game, regardless of artifact type.
         catalog_v2.validate_catalog(value)
         if set(value["games"]) != {game_id}:
             raise ValueError(f"Submission must describe only app ID {game_id}: {path}")
