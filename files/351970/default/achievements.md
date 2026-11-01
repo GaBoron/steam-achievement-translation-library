@@ -1,7 +1,7 @@
 # Achievement review
 
 Schema: `"UserGameStatsSchema_351970.bin"`
-Source SHA-256: `"a31008357e4ed63d024dc766808cf2183757b2ea7fd1352ef94566f8b8221a19"`
+Source SHA-256: `"2406780f5aaba71c86b60a4de1c55d18f4c3a72759da67f31f67c6430205446c"`
 Added: 56; Changed: 0; Removed: 0
 
 ## Added: `"TROPHY_ID_000"`
@@ -28,7 +28,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai ottenuto tutti i trofei. Siamo felici che tu abbia veramente apprezzato il gioco. L'appuntamento è per i prossimi titoli!"`
 - **japanese:** `"全てのトロフィーを得た証です。これからもテイルズ オブ ゼスティリアとこれから生まれる新しい作品をよろしくお願いします！"`
 - **russian:** `"Доказательство того, что вы получили все призы. Мы рады, что игра вам так понравилась, до встречи в будущих частях!"`
-- **schinese:** `"获得全部奖杯的证明。今后也请继续支持《Tales of Zestiria》以及未来推出的新作品！"`
+- **schinese:** `"获得所有奖杯的证明。今后也请继续支持 「Tales of Zestiria」和未来推出的新作品！"`
 - **spanish:** `"Esta es la prueba de que has conseguido todos los trofeos. Nos emociona que te guste tanto el juego y esperamos volver a verte en futuras entregas."`
 - **tchinese:** `"獲得所有獎盃的證明。今後也請繼續支持 「Tales of Zestiria」和未來推出的新作品！"`
 
@@ -56,7 +56,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai stretto il patto e acquisito il potere del Redentore. La tua avventura inizia ora!"`
 - **japanese:** `"契約を交わし、導師の力を得た証。導師の試練と冒険の旅が、ついに幕を開ける！"`
 - **russian:** `"Доказательство того, что вы заключили союз и получили силу Пастыря."`
-- **schinese:** `"订立契约，获得导师之力的证明。导师的试炼与冒险之旅终于拉开序幕！"`
+- **schinese:** `"订下契约，获得导师之力的证明。导师的试炼和冒险之旅终于揭开序幕！"`
 - **spanish:** `"Esta es la prueba de que has forjado el pacto y has ganado el poder del Pastor. ¡Ahora empiezan el viaje y las pruebas de verdad!"`
 - **tchinese:** `"訂下契約，獲得導師之力的證明。 導師的試煉和冒險之旅終於揭開序幕！"`
 
@@ -84,7 +84,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Hai affrontato mille vicissitudini, ma questa e' la prova che sei sulla strada giusta. O sul giusto vettore. O qualcos'altro. La gioventù puo' essere molto movimentata."`
 - **japanese:** `"いろいろあったけど、元の鞘に戻った証。……正確には『新たな器に入った』ですが。いろいろあるのが青春だ。"`
 - **russian:** `"Вы через многое прошли, но это доказывает, что вы все еще на правильном пути. Или все еще верны себе. Или еще что-то. В юности все очень сумбурно и непонятно."`
-- **schinese:** `"历经波折，终于重归于好的证明。……不过，准确地说应该是“进入了新的容器”。青春就是这样丰富多彩。"`
+- **schinese:** `"几经波折后，终于重修旧好证明。 ……但正确来说应该是「进入新的容器」。青春就该如此多采多姿。"`
 - **spanish:** `"Has pasado por mucho, pero esta es la prueba de que sigues por el buen camino. O en el buen receptáculo. O lo que sea. La juventud puede ser turbulenta."`
 - **tchinese:** `"幾經波折後，終於重修舊好證明。 ……但正確來說應該是「進入新的容器」。 青春就該如此多采多姿。"`
 
@@ -112,7 +112,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai ottenuto i poteri necessari per affrontare i tuoi antagonisti. Ma ricorda, i nemici sono più potenti di quanto tu possa immaginare, e non potrai trionfare senza un confronto diretto."`
 - **japanese:** `"戦うべき相手に対抗するだけの力を身につけた証。だが、敵は強大。勝てるかどうかは戦ってみなければわからない。"`
 - **russian:** `"Доказательство того, что вы обрели силы, необходимые для победы. Но будьте осторожны... Ваши враги сильнее, чем кажутся. И пока вы не сразитесь с ними, вы не узнаете, на что вы способны."`
-- **schinese:** `"获得足以与强敌抗衡的力量的证明。不过，敌人十分强大，只有真正交手后才能见分晓。"`
+- **schinese:** `"获得足以对抗敌人之力的证明。但敌人十分强大，实际交手过后才能见真章。"`
 - **spanish:** `"Esta es la prueba de que has adquirido los medios para enfrentarte contra quien debes. Pero cuidado... los enemigos son más poderosos de lo que imaginas. No hay manera de saber si triunfarás sin una confrontación directa con ellos."`
 - **tchinese:** `"獲得足以對抗敵人之力的證明。 但敵人十分強大，實際交手過後才能見真章。"`
 
@@ -140,7 +140,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai deciso di affrontare la battaglia finale. Da qui non si torna più indietro. È il momento della resa dei conti!"`
 - **japanese:** `"全ての準備を終え、あとは決戦に挑むだけとなった証。もう迷いはない。ただ彼の地に進むのみ！"`
 - **russian:** `"Доказательство того, что вы готовы вступить в решающий бой. Пути назад нет. Скоро все закончится!"`
-- **schinese:** `"做好万全准备，即将迎接最终决战的证明。已经没有丝毫迷茫，只管朝目标前进！"`
+- **schinese:** `"做好万全准备，即将迈向决战的证明。已无任何一丝迷惘，只管朝目标前进！"`
 - **spanish:** `"Esta es la prueba de que estás comprometido a enfrentarte en el combate final. No hay vuelta atrás. ¡Adelante, hacia el lugar donde termina todo!"`
 - **tchinese:** `"做好萬全準備，即將邁向決戰的證明。 已無任何一絲迷惘，只管朝目標前進！"`
 
@@ -168,7 +168,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai assistito all'epilogo di questa storia. Ora potrai affrontare di nuovo l'avventura con varie modifiche al sistema di gioco o avventurarti nei temibili sotterranei bonus."`
 - **japanese:** `"物語の結末を君の目で確かめた証。２周目を遊ぶもよし。エクストラダンジョンを探すもよし。"`
 - **russian:** `"Доказательство того, что вы видели финал этой истории. Теперь можете пройти игру еще раз с новыми настройками или рискнуть и отправиться в устрашающие бонусные подземелья."`
-- **schinese:** `"亲眼见证故事结局的证明。接下来可以开启二周目，也可以探索隐藏迷宫。"`
+- **schinese:** `"亲眼见证故事结局的证明。可以游玩二周目，也可以探索隐藏迷宫。"`
 - **spanish:** `"Esta es la prueba de que has visto cómo acaba esta historia. Ahora puedes probar a volver a jugar introduciendo varios cambios en el juego o aventurarte en las aterradoras mazmorras adicionales."`
 - **tchinese:** `"親眼見證故事結局的證明。 可以遊玩第二輪，也可以探索隱藏迷宮。"`
 
@@ -196,7 +196,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Supera la sanguinosa battaglia del pendio di Falkewin senza usare oggetti durante la seconda partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)! È una sfida impegnativa, ma puoi uscirne vincitore!"`
 - **japanese:** `"難易度ハード以上か２周目以上でフォルクエン丘陵での激戦を、アイテムを使用せず撃破！腕にあわせた条件で達成を目指しましょう。"`
 - **russian:** `"Завершите суровый бой на склоне горы Фалквин либо во время второго (по меньшей мере) прохождения, либо на сложном (или выше) уровне, не пользуясь предметами! Это сложное испытание, но вам оно под силу!"`
-- **schinese:** `"在困难或更高难度下，或在二周目及之后，于弗尔温丘陵的激战中不使用道具击败敌人！选择适合自己的条件，努力达成目标吧！"`
+- **schinese:** `"用困难以上难度，或在二周目及以后，于弗尔温丘陵的激战中，不使用道具击破敌人！选择适合的条件，设法达成目标吧！"`
 - **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Difícil (o más) supera el combate encarnizado en la ladera de Falkewin sin utilizar objetos. Es un gran desafío, pero tú tienes lo que hay que tener."`
 - **tchinese:** `"用困難以上難度，或在第二輪之後， 於弗爾溫丘陵的激戰中，不使用道具擊破敵人！ 選擇適合的條件，設法達成目標吧！"`
 
@@ -224,7 +224,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Supera la sanguinosa battaglia del bacino di Glaivend senza usare oggetti durante la seconda partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)!"`
 - **japanese:** `"難易度ハード以上か２周目以上でグレイブガント盆地での激戦を、アイテムを使用せず撃破！"`
 - **russian:** `"Завершите суровый бой у впадины Глайвенд либо во время второго (по меньшей мере) прохождения, либо на сложном (или выше) уровне, не пользуясь предметами!"`
-- **schinese:** `"在困难或更高难度下，或在二周目及之后，于古雷弗坎盆地的激战中不使用道具击败敌人！"`
+- **schinese:** `"用困难以上难度，或在二周目及以后，于古雷弗坎盆地的激战中，不使用道具击破敌人！"`
 - **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Difícil (o más) supera el combate encarnizado en la cuenca de Glaivend sin utilizar objetos."`
 - **tchinese:** `"用困難以上難度，或在第二輪之後， 於古雷弗坎盆地的激戰中，不使用道具擊破敵人！"`
 
@@ -252,7 +252,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Supera la sanguinosa battaglia di Igraine, il santuario della sfida del fuoco, senza usare oggetti durante la seconda partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)!"`
 - **japanese:** `"難易度ハード以上か２周目以上で試練遺跡イグレインでの激戦を、アイテムを使用せず撃破！"`
 - **russian:** `"Завершите суровый бой в Игрейне, Храме Испытания Огнем либо во время второго (по меньшей мере) прохождения, либо на сложном (или выше) уровне, не пользуясь предметами!"`
-- **schinese:** `"在困难或更高难度下，或在二周目及之后，于试炼遗迹伊格兰的激战中不使用道具击败敌人！"`
+- **schinese:** `"用困难以上难度，或在二周目及以后，于试炼遗迹伊格兰的激战中，不使用道具击破敌人！"`
 - **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Difícil (o más) supera el combate encarnizado en el santuario de Igraine de la prueba de fuego sin utilizar objetos."`
 - **tchinese:** `"用困難以上難度，或在第二輪之後， 於試煉遺跡伊格蘭的激戰中，不使用道具擊破敵人！"`
 
@@ -280,7 +280,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Supera la sanguinosa battaglia di Morgause, il santuario della sfida della terra, senza usare oggetti durante la seconda partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)!"`
 - **japanese:** `"難易度ハード以上か２周目以上で試練遺跡モルゴースでの激戦を、アイテムを使用せず撃破！"`
 - **russian:** `"Завершите суровый бой в Моргаузе, Храме Испытания Землей либо во время второго (по меньшей мере) прохождения, либо на сложном (или выше) уровне, не пользуясь предметами!"`
-- **schinese:** `"在困难或更高难度下，或在二周目及之后，于试炼遗迹莫格斯的激战中不使用道具击败敌人！"`
+- **schinese:** `"用困难以上难度，或在二周目及以后，于试炼遗迹莫格斯的激战中，不使用道具击破敌人！"`
 - **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Difícil (o más) supera el combate encarnizado en el santuario de Morgause de la prueba de tierra sin utilizar objetos."`
 - **tchinese:** `"用困難以上難度，或在第二輪之後， 於試煉遺跡莫格斯的激戰中，不使用道具擊破敵人！"`
 
@@ -308,7 +308,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Supera la sanguinosa battaglia di Lefay, il santuario della sfida dell'acqua, senza usare oggetti durante la seconda partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)!"`
 - **japanese:** `"難易度ハード以上か２周目以上で試練遺跡ルーフェイでの激戦を、アイテムを使用せず撃破！"`
 - **russian:** `"Завершите суровый бой в Лефэе, Храме Испытания Водой либо во время второго (по меньшей мере) прохождения, либо на сложном (или выше) уровне, не пользуясь предметами!"`
-- **schinese:** `"在困难或更高难度下，或在二周目及之后，于试炼遗迹勒菲的激战中不使用道具击败敌人！"`
+- **schinese:** `"用困难以上难度，或在二周目及以后，于试炼遗迹勒菲的激战中，不使用道具击破敌人！"`
 - **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Difícil (o más) supera el combate encarnizado en el santuario de Lefay de la prueba de agua sin utilizar objetos."`
 - **tchinese:** `"用困難以上難度，或在第二輪之後， 於試煉遺跡勒菲的激戰中，不使用道具擊破敵人！"`
 
@@ -336,7 +336,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Supera la sanguinosa battaglia di Guinevere, il santuario della sfida del vento, senza usare oggetti durante la seconda partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)!"`
 - **japanese:** `"難易度ハード以上か２周目以上で試練遺跡ギネヴィアでの激戦を、アイテムを使用せず撃破！"`
 - **russian:** `"Завершите суровый бой в Гвиневере, Храме Испытания Ветром либо во время второго (по меньшей мере) прохождения, либо на сложном (или выше) уровне, не пользуясь предметами!"`
-- **schinese:** `"在困难或更高难度下，或在二周目及之后，于试炼遗迹桂妮薇尔的激战中不使用道具击败敌人！"`
+- **schinese:** `"用困难以上难度，或在二周目及以后，于试炼遗迹桂妮薇尔的激战中，不使用道具击破敌人！"`
 - **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Difícil (o más) supera el combate encarnizado en el santuario de Ginebra de la prueba de viento sin utilizar objetos."`
 - **tchinese:** `"用困難以上難度，或在第二輪之後， 於試煉遺跡桂妮薇爾的激戰中，不使用道具擊破敵人！"`
 
@@ -364,7 +364,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Supera la seconda sanguinosa battaglia del bacino di Glaivend senza usare oggetti durante la seconda partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)!"`
 - **japanese:** `"難易度ハード以上か２周目以上でグレイブガント盆地での再度の激戦を、アイテムを使用せず撃破！"`
 - **russian:** `"Завершите второй суровый бой у впадины Глайвенд либо во время второго (по меньшей мере) прохождения, либо на сложном (или выше) уровне, не пользуясь предметами!"`
-- **schinese:** `"在困难或更高难度下，或在二周目及之后，于古雷弗坎盆地的第二场激战中不使用道具击败敌人！"`
+- **schinese:** `"用困难以上难度，或在二周目及以后，于古雷弗坎盆地的再次激战中，不使用道具击破敌人！"`
 - **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Difícil (o más) supera el segundo combate encarnizado en la cuenca de Glaivend sin utilizar objetos."`
 - **tchinese:** `"用困難以上難度，或在第二輪之後， 於古雷弗坎盆地的再次激戰中，不使用道具擊破敵人！"`
 
@@ -392,7 +392,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Supera la sanguinosa battaglia della vetta dello spirito di Rayfalke senza usare oggetti durante la seconda partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)!"`
 - **japanese:** `"難易度ハード以上か２周目以上で霊峰レイフォルクでの激戦を、アイテムを使用せず撃破！"`
 - **russian:** `"Завершите суровый бой на Священном пике Рейфалк либо во время второго (по меньшей мере) прохождения, либо на сложном (или выше) уровне, не пользуясь предметами!"`
-- **schinese:** `"在困难或更高难度下，或在二周目及之后，于灵峰雷弗克的激战中不使用道具击败敌人！"`
+- **schinese:** `"用困难以上难度，或在二周目及以后，于灵峰雷弗克的激战中，不使用道具击破敌人！"`
 - **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Difícil (o más) supera el combate encarnizado en la cima espiritual de Rayfalke sin utilizar objetos."`
 - **tchinese:** `"用困難以上難度，或在第二輪之後， 於靈峰雷弗克的激戰中，不使用道具擊破敵人！"`
 
@@ -420,7 +420,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Hai sconfitto un determinato nemico proveniente da un determinato luogo in un determinato modo. E questa è la prova determinante, giustappunto."`
 - **japanese:** `"とあるところから来たとある二人をとある方法でとある撃破をしたとある証。と、ある。"`
 - **russian:** `"Каким-то образом вы победили каких-то людей, пришедших откуда-то. И это как-то доказывает это событие. Вроде как."`
-- **schinese:** `"使用某种方法击败了来自某个地方的某两个人——这就是某种意义上的证明。"`
+- **schinese:** `"用某种方法击破从某个地方来的 某两个人的某种证明。"`
 - **spanish:** `"Has derrotado a cierto tipo de personas que venían de algún lado utilizando algún medio. Esta es una especie de prueba de ello. O algo así."`
 - **tchinese:** `"用某種方法擊破從某個地方來的 某兩個人的某種證明。 "`
 
@@ -448,7 +448,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Supera la battaglia finale senza riprovare durante la seconda partita (o successiva) oppure a livello di difficoltà Moderato (o superiore)! Se sei un veterano di questo genere di giochi, perché non affronti la prima partita a livello di difficoltà Moderato? Otterrai più gradi del livello Normale!"`
 - **japanese:** `"難易度セカンド以上、または２周目以上での最終決戦をリトライせずに勝利！常連さんは１周目からセカンドで始めてみては？グレードなどの獲得量が、ノーマルよりも上がりますよ！"`
 - **russian:** `"Одержите победу в финальной битве с первой попытки либо во время второго (по меньшей мере) прохождения, либо на умеренном (или выше) уровне! Если вы хорошо знакомы с игрой, попробуйте начать первое прохождение сразу на умеренном уровне. Так вы сможете получать больше очков рейтинга!"`
-- **schinese:** `"在进阶或更高难度下，或在二周目及之后，不使用重试功能赢得最终决战！熟悉游戏的话，不妨在一周目就挑战进阶难度。获得的积分也比普通难度更多哦！"`
+- **schinese:** `"用进阶以上难度，或在二周目及以后，未使用再次挑战于最终决战获胜！熟悉游戏的您，不妨在第一轮就尝试进阶难度。积分获得量也比普通难度多喔！"`
 - **spanish:** `"Bien en la segunda partida (al menos) o en dificultad Moderada (o más) gana el combate final sin reintentarlo. Si estás familiarizado con el juego, ¿por qué no empiezas la primera partida directamente en Moderada? Ganarás más rango que en Normal."`
 - **tchinese:** `"用進階以上難度，或在第二輪之後，未使用再次挑戰於最終決戰獲勝！ 熟悉遊戲的您，不妨在第一輪就嘗試進階難度。 積分獲得量也比普通難度多喔！"`
 
@@ -463,7 +463,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Una vita complicata"`
 - **japanese:** `"苦難に満ちた人生"`
 - **russian:** `"Жизнь - это борьба"`
-- **schinese:** `"对抗噩梦折磨的人生"`
+- **schinese:** `"苦难重重的人生"`
 - **spanish:** `"Una vida de luchas"`
 - **tchinese:** `"苦難重重的人生"`
 
@@ -476,7 +476,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Supera la battaglia finale senza riprovare durante la terza partita (o successiva) oppure a livello di difficoltà Difficile (o superiore)! Vivi per provare l'ebbrezza della morte che ti sfiora? Il consiglio è di iniziare il gioco a livello di difficoltà Difficile! Giocare a livello Difficile o superiore incrementa le probabilità di ottenere equipaggiamento con abilità doppie."`
 - **japanese:** `"難易度ハード以上、または３周目以上での最終決戦をリトライせずに勝利！命の危険がないと生きてる実感がない人はこの難易度から始めましょう。ハード以上でのみ「ダブルスキル」の発生確率があります！"`
 - **russian:** `"Одержите победу в финальной битве с первой попытки либо во время третьего (по меньшей мере) прохождения, либо на сложном (или выше) уровне! Если жизнь кажется вам пустой, когда смерть не поджидает за каждым углом, попробуйте начать игру сразу на сложном уровне! Играя на сложном уровне и выше, вы имеете больше шансов найти снаряжение с двойными навыками!"`
-- **schinese:** `"在困难或更高难度下，或在三周目及之后，不使用重试功能赢得最终决战！如果不面临生命危险就感受不到生存价值，不妨直接挑战困难难度。只有在困难或更高难度下，才有机会获得“双重技能”装备！"`
+- **schinese:** `"用困难以上难度，或在三周目及以后，未使用再次挑战于最终决战获胜！若没有生命危险就感受不到生存价值的人，欢迎选择此难度开始游玩。「双重技能」只有在困难以上难度才有机会出现！"`
 - **spanish:** `"Bien en la tercera partida (al menos) o en dificultad Difícil (o más) gana el combate final sin reintentarlo. Si no te sientes vivo sin el gélido aliento de la muerte en la nuca, te recomendamos que empieces el juego directamente en Difícil. Jugar en esta dificultad o más aumenta la probabilidad de que encuentres equipo con dos habilidades."`
 - **tchinese:** `"用困難以上難度，或在第三輪之後，未使用再次挑戰於最終決戰獲勝！ 若沒有生命危險就感受不到生存價值的人，歡迎選擇此難度開始遊玩。 「雙重技能」只有在困難以上難度才有機會出現！"`
 
@@ -491,7 +491,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Una vita intensa"`
 - **japanese:** `"悪意の眼差しに抗う人生"`
 - **russian:** `"Жизнь, полная опасностей"`
-- **schinese:** `"对抗噩梦折磨的人生"`
+- **schinese:** `"对抗恶梦折磨的人生"`
 - **spanish:** `"Una vida enfrentándose a la malicia"`
 - **tchinese:** `"對抗惡夢折磨的人生"`
 
@@ -504,7 +504,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Supera la battaglia finale senza riprovare durante la quarta partita (o successiva) oppure a livello di difficoltà Intenso (o superiore)! Gioca a lungo a livello Difficile per sbloccare questo livello di difficoltà ancora più impegnativo."`
 - **japanese:** `"難易度イヴィル以上か４周目以上での最終決戦をリトライせずに勝利！難易度ハードでたっぷり戦闘すると新しい難易度が開放されます。"`
 - **russian:** `"Одержите победу в финальной битве с первой попытки либо во время четвертого (по меньшей мере) прохождения, либо на напряженном (или выше) уровне! Если будете играть достаточно долго на сложном уровне, вы откроете этот более высокий уровень сложности."`
-- **schinese:** `"在噩梦或更高难度下，或在四周目及之后，不使用重试功能赢得最终决战！在困难难度下经历一定数量的战斗，即可解锁这个新难度。"`
+- **schinese:** `"用恶梦以上难度，或在四周目及以后，未使用再次挑战于最终决战获胜！使用困难难度战斗多次后，将解锁新的难度。"`
 - **spanish:** `"Bien en la cuarta partida (al menos) o en dificultad Intensa (o más) gana el combate final sin reintentarlo. Juega lo suficiente en Difícil para desbloquear este ajuste de dificultad todavía más desafiante."`
 - **tchinese:** `"用惡夢以上難度，或在第四輪之後，未使用再次挑戰於最終決戰獲勝！ 使用困難難度戰鬥多次後，將解鎖新的難度。"`
 
@@ -532,7 +532,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Supera la battaglia finale senza riprovare durante la quinta partita (o successiva) oppure a livello di difficoltà Caotico (o superiore)! Gioca a lungo a livello Intenso per sbloccare questo livello di difficoltà ancora più impegnativo. È l'unico livello che garantisce la possibilità di ottenere equipaggiamento con abilità triple!"`
 - **japanese:** `"難易度カオスか５周目以上での最終決戦をリトライせずに勝利！難易度イヴィルでごっそり戦闘すると新しい難易度が開放されます。カオスでのみ「トリプルスキル」の発生確率があります！"`
 - **russian:** `"Одержите победу в финальной битве с первой попытки либо во время пятого (по меньшей мере) прохождения, либо на уровне \"Хаос\"! Если будете играть достаточно долго на напряженном уровне, вы откроете этот пугающий уровень сложности. Только на нем можно получить снаряжение с тройными навыками!"`
-- **schinese:** `"在混沌难度下，或在五周目及之后，不使用重试功能赢得最终决战！在噩梦难度下经历一定数量的战斗，即可解锁这个新难度。只有在混沌难度下，才有机会获得“三重技能”装备！"`
+- **schinese:** `"用混沌以上难度，或在五周目及以后，未使用再次挑战于最终决战获胜！使用恶梦难度不断战斗后，将解锁新的难度。「三重技能」只有在混沌以上难度才有机会出现！"`
 - **spanish:** `"Bien en la quinta partida (al menos) o en dificultad Caos gana el combate final sin reintentarlo. Juega lo suficiente en Intensa para desbloquear este ajuste de dificultad aterradora. ¡Es el único nivel de dificultad que ofrece la posibilidad de conseguir equipo con tres habilidades!"`
 - **tchinese:** `"用混沌以上難度，或在第五輪之後，未使用再次挑戰於最終決戰獲勝！ 使用惡夢難度不斷戰鬥後，將解鎖新的難度。 「三重技能」只有在混沌以上難度才有機會出現！"`
 
@@ -560,7 +560,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Il livello negozio aumenta quando acquisti, vendi o fondi equipaggiamento nei negozi. È la prova che hai stretto l'invisibile mano del capitalismo, raggiungendo il livello negozio massimo. Menu segreti sbloccati!"`
 - **japanese:** `"武具屋で売っても買っても融合してもショップランクが上がっていきます。そうして何処かのショップランクをＭＡＸまで上げきった証。裏メニューも出しまくり。"`
 - **russian:** `"Уровень магазина повышается, когда вы покупаете, продаете или объединяете предметы в магазине. Это доказательство того, что вы жали невидимую руку капитализма так много раз, что достигли максимального уровня магазина. Встречайте секретные меню!"`
-- **schinese:** `"在武器店购买、出售或融合装备，都能提升商店等级。将任意一家商店的等级提升至 MAX 的证明。届时还会解锁许多隐藏商品哦。"`
+- **schinese:** `"在武器店购买、出售和融合都能提升商店阶级。用此方式将任一商店阶级升至 MAX 的证明。将会出现许多隐藏项目喔。"`
 - **spanish:** `"El nivel de las tiendas aumentará cuando compres, vendas o fusiones equipo en ellas. Esta es la prueba de que has chocado los cinco con la mano invisible del capitalismo las veces suficientes para conseguir el nivel de tienda máximo. ¡Y se han desbloqueado menús secretos!"`
 - **tchinese:** `"在武器店購買、出售和融合都能提昇商店階級。 用此方式將任一商店階級昇至ＭＡＸ的證明。 將會出現許多隱藏項目喔。"`
 
@@ -588,7 +588,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai raccolto i 36 globi anomali. Hai esplorato ogni angolo del mondo, hai riso, hai pianto, hai persino dubitato delle tue intuizioni... Ma alla fine ne sei uscito vincitore!"`
 - **japanese:** `"異形の宝珠を３６個取得した証。寄り道、やりこみ要素……様々な困難を経て、勝ち抜いた証です！"`
 - **russian:** `"Доказательство того, что вы собрали все 36 аномальных сфер. Вы искали по всем углам, залезли в каждую щель, вы смеялись, плакали, ставили под вопрос свою картину мира... Но вы справились!"`
-- **schinese:** `"获得全部36个异形宝珠的证明。四处探索、深入钻研……这正是战胜重重困难、一路过关斩将的证明！"`
+- **schinese:** `"取得 36 个异形宝珠的证明。四处探索、深入钻研…… 这是战胜种种困难，一路过关斩将的证明！"`
 - **spanish:** `"Esta es la prueba de que has reunido 36 orbes anómalos. Has rebuscado por todos los rincones, has reído, has llorado, te has cuestionado lo que sabías... ¡pero lo has conseguido!"`
 - **tchinese:** `"取得３６個異形寶珠的證明。四處探索、深入鑽研…… 這是戰勝種種困難，一路過關斬將的證明！"`
 
@@ -603,7 +603,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Erba di casa mia"`
 - **japanese:** `"薬草１００本"`
 - **russian:** `"Сотня трав"`
-- **schinese:** `"100株药草"`
+- **schinese:** `"100 株药草"`
 - **spanish:** `"Un centenar de hierbas"`
 - **tchinese:** `"１００株藥草"`
 
@@ -616,7 +616,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai raccolto più di 100 erbe. Non esitare a usarle quando i punti CS si riducono e non puoi tornare in città."`
 - **japanese:** `"薬草を１００本以上引っこ抜いた証。初期SCが減って街に帰れないときには惜しまず使おう。"`
 - **russian:** `"Доказательство того, что вы собрали более 100 трав. Не бойтесь использовать их, если у вас сильно упадет исходное количество ОСД вдали от города."`
-- **schinese:** `"采集超过100株药草的证明。当初始 SC 降低、又无法返回城镇时，就别舍不得使用了。"`
+- **schinese:** `"采集超过 100 株药草的证明。初始 SC 降低又无法回到城镇时，请不要吝于使用。"`
 - **spanish:** `"Esta es la prueba de que has recogido más de 100 hierbas. No dudes en usarlas cuando tu CE inicial baje y estés lejos de cualquier ciudad."`
 - **tchinese:** `"採集超過１００株藥草的證明。 起始ＳＣ降低又無法回到城鎮時，請不要吝於使用。"`
 
@@ -644,7 +644,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai trascorso dieci notti nelle locande. Riposando nelle locande, puoi ottenere abilità extra in battaglia, attraverso i misteriosi ingredienti dei pasti che ti vengono serviti. Puoi inoltre chiacchierare con i tuoi compagni e ripristinare i punti CS al valore di 100. Questa è ospitalità, gente!"`
 - **japanese:** `"宿屋に通算１０泊した証です。宿屋に泊まると、食べた料理により戦闘時のスキル効果が付加されたり仲間同士の会話が発生したり、初期ＳCが１００に全快したりとよいことずくめ。"`
 - **russian:** `"Доказательство того, что вы провели в трактирах в общей сложности 10 ночей. Отдых в трактирах дает вам дополнительное преимущество в бою благодаря мистическим эффектам блюд, которые в них подают. Кроме этого вы можете поболтать со своими друзьями и восстановить исходное количество ОСД до 100. Вот что такое гостеприимство!"`
-- **schinese:** `"累计在旅馆住宿10次的证明。在旅馆用餐可以获得战斗技能效果，还能触发伙伴间的对话，并将初始 SC 恢复至100，好处多多！"`
+- **schinese:** `"累计在旅馆住宿 10 次的证明。在旅馆用餐可以获得战斗技能效果，还能触发伙伴间的对话，并将初始 SC 恢复至 100，好处多多！"`
 - **spanish:** `"Esta es la prueba de que te has alojado en posadas durante 10 noches en total. Descansar en posadas te otorga efectos de habilidades adicionales en combate gracias a los ingredientes misteriosos de los platos que te sirven allí. También te puedes poner a charlar con tus compañeros y volver a poner en 100 tu CE inicial. ¡Qué hospitalidad!"`
 - **tchinese:** `"總計在旅館投宿１０次的證明。 投宿旅館可以透過用餐附加戰鬥時的技能效果， 可以觸發夥伴間的對話，起始ＳＣ也會恢復到１００，好處多多喔！"`
 
@@ -672,7 +672,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai affinato un determinato talento di supporto, al punto da poterlo insegnare agli altri nella locanda. Chi sa, agisce. Chi sa più di tutti, insegna!"`
 - **japanese:** `"特定のサポートタレントを鍛えることで、宿屋にてサポートタレントの伝授が行われた証。頑張って鍛えて、弟子を作ろうデシ！"`
 - **russian:** `"Доказательство того, что вы достаточно хорошо освоили вспомогательный талант и теперь можете передать его другим в трактире. Тот, кто умеет, делает. Настоящие мастера - учат!"`
-- **schinese:** `"将特定支援能力锻炼到一定程度后，在旅馆把这种能力传授给其他人的证明。努力锻炼，收个徒弟吧！"`
+- **schinese:** `"锻炼特定支援能力后，在旅馆传授特殊能力的证明。努力锻炼，收个徒弟吧！"`
 - **spanish:** `"Esta es la prueba de que has perfeccionado tanto un talento de apoyo que se lo puedes enseñar a los demás en la posada. Los que pueden, lo hacen. ¡Los que lo hacen mejor, enseñan!"`
 - **tchinese:** `"鍛鍊特定支援能力後，在旅館傳授特殊能力的證明。 努力鍛鍊，收個徒弟吧！"`
 
@@ -700,7 +700,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai trovato tutti i monoliti di pietra e che hai riflettuto a lungo circa il loro autore. Usa le azioni di battaglia acquisite per scatenare le arti mistiche definitive!"`
 - **japanese:** `"全ての石碑を発見し、書き主に思いを馳せた証。獲得したバトルアクトで、究極の秘奥義を繰り出せ！"`
 - **russian:** `"Доказательство того, что вы нашли все каменные монолиты и крепко задумались, кто же их создал. Используйте полученные боевые действия, чтобы обрушить на врагов сокрушительные магические приемы. "`
-- **schinese:** `"找到全部石碑，追忆刻下碑文之人的证明。利用获得的战斗效果，施展究极秘奥义吧！"`
+- **schinese:** `"找到所有石碑，追思刻下石碑之人的证明。用获得的战斗效果施展究极的秘奥义！"`
 - **spanish:** `"Esta es la prueba de que has encontrado todos los monolitos de piedra y has cavilado acerca de su autoría. Utiliza las acciones de combate que has adquirido para desatar grandes artes místicas."`
 - **tchinese:** `"找到所有石碑，追思刻下石碑之人的證明。 用獲得的戰鬥效果施展究極的秘奧義！"`
 
@@ -728,7 +728,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai trovato almeno 40 normin e che li hai convinti ad assisterti. Che persona affabile! Ma non dimenticare che, in giro per il mondo, altri normin ti attendono."`
 - **japanese:** `"ノルミンを４０人以上発見し、協力してくれるようになった証。ともだちたくさんできました。まだまだいるよ。"`
 - **russian:** `"Доказательство того, что вы нашли не меньше 40 норминов и убедили их помочь вам. Вы умеете заводить друзей! Но помните, что это еще не все."`
-- **schinese:** `"找到至少40位诺尔敏，并获得它们协助的证明。虽然已经交到了不少朋友，但还有更多诺尔敏等着你哦。"`
+- **schinese:** `"找到超过 40 位诺尔敏，并获得协助的证明。结交到许多朋友了，但还有更多喔。"`
 - **spanish:** `"Esta es la prueba de que te has encontrado al menos con 40 normin y los has convencido para que te ayudaran. ¡Se te da muy bien hacer nuevos amigos! Pero recuerda: quedan más por venir."`
 - **tchinese:** `"找到超過４０位諾爾敏，並獲得協助的證明。 結交到許多朋友了，但還有更多喔。"`
 
@@ -756,7 +756,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che almeno un Dominus della terra ha raggiunto il livello di benedizione 20. Anche quando volano oltre le stelle, i Dominus non abbandonano mai i loro protetti. Si dice che l'aura della loro benedizione permanga persino dopo la fine del gioco..."`
 - **japanese:** `"いずれかの地の主の加護レベルを２０にした証。お星さまとなって温かく見守るのも捨てがたい。一度ゲームクリアすると、あともうちょっとだけ続くらしい。"`
 - **russian:** `"Доказательство того, что по крайней мере один Хранитель достиг 20 уровня благодати. Даже когда он уйдет к звездам, он не сможет забыть о своих подопечных. Похоже, часть благодати останется даже после того, как вы пройдете игру."`
-- **schinese:** `"任意一位地之主的庇佑等级达到20的证明。即使化作星辰，也不忘温柔地守护众人。通关后，这份庇佑似乎还会持续一段时间。"`
+- **schinese:** `"任一地之主的庇佑等级到达 20 的证明。即使成为星星也不忘温情守护。游戏通关后，庇佑好像还会持续一阵子喔。"`
 - **spanish:** `"Esta es la prueba de que al menos un Señor de la Tierra ha llegado a nivel 20 de bendición. Hasta cuando ascienden a las estrellas encuentran difícil abandonar del todo a las personas que cuidan. Parece que algo de sus bendiciones permanece incluso después de que acabes el juego."`
 - **tchinese:** `"任一地之主的庇佑等級到達２０的證明。 即使成為星星也不忘溫情守護。 遊戲通關後，庇佑好像還會持續一陣子喔。"`
 
@@ -784,7 +784,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai equipaggiato oggetti che attivano un'abilità bonus Unione gruppo. Ogni gruppo di abilità base comprende un'abilità per ciascuno dei cinque elementi. La loro posizione sull'equipaggiamento non è importante: equipaggia tutte e cinque le abilità di un gruppo per formare un'Unione gruppo!"`
 - **japanese:** `"装備の組み合わせでボーナススキル「ユニオン」が発現した装備品を装備した証。スキルはグループごとに５つの属性に対応した効果を持ちます。装備箇所は別でもよいので、同グループの５種のスキルを全て装備すると「ユニオン」系スキルが新たに発動！　"`
 - **russian:** `"Доказательство того, что вы использовали снаряжение, которое активирует бонусный навык связки по группе. В каждой группе базовых навыков есть навык, связанный с одной из пяти стихий. Неважно, какие именно предметы вашего снаряжения обладают навыками, - просто используйте все пять навыков вместе, чтобы создать связку по группе!"`
-- **schinese:** `"通过搭配装备激活奖励技能“联结”，并装备该套装备的证明。每组基本技能都有对应5种属性的技能。无论装备位置如何，只要凑齐同一组的5种技能，就能发动“联结”系的新技能！"`
+- **schinese:** `"在搭配装备时发现奖励技能「联结」，并装备该装备的证明。技能依照类别，具有对应 5 种属性的效果。装备位置不同也没关系，只要装备同一类 5 种技能，就能发动「联结」系的新技能！"`
 - **spanish:** `"Esta es la prueba de que te has equipado con objetos que activan una habilidad de bonificación por unión grupal. Cada grupo de habilidades básicas tiene una habilidad que se corresponde con cada uno de los cinco elementos. No importa en qué parte de tu equipo tengas puestas las habilidades, basta con que te equipes con las cinco habilidades del grupo para formar una unión grupal."`
 - **tchinese:** `"在搭配裝備時發現獎勵技能「聯結」，並裝備該裝備的證明。 技能依照類別，具有對應５種屬性的效果。 裝備位置不同也沒關係，只要裝備同一類５種技能， 就能發動「聯結」系的新技能！"`
 
@@ -812,7 +812,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai equipaggiato oggetti che attivano un'abilità bonus Unione elementale. Ogni abilità base appartiene a uno dei cinque elementi. Allinea abilità dello stesso elemento per formare un'Unione elementale! Il risultato dipende dal numero di abilità allineate. Consulta la tabella abilità!"`
 - **japanese:** `"装備の組み合わせでボーナススキル「エルム」が発現した装備品を装備した証。スキルはそれぞれ５つの属性に対応しています。同じ属性のスキルをグループ順に並べるように装備をすることで、連結した数によって「エルム」系ボーナススキルが発動します！　スキルシートで確認しましょう。"`
 - **russian:** `"Доказательство того, что вы использовали снаряжение, которое активирует бонусный навык связки по стихии. Все базовые навыки связаны с одной из пяти различных стихий. Используйте навыки одной стихии (соседние навыки одного ряда) - и построите ту или иную связку по стихии - в зависимости от количества навыков в ряду. Подробнее - на листе навыков."`
-- **schinese:** `"通过搭配装备激活奖励技能“元素”，并装备该套装备的证明。技能分别对应5种属性，将同属性技能在技能表中连续排列，就能根据相连数量发动“元素”系奖励技能。快去查看技能表吧！"`
+- **schinese:** `"在搭配装备时发现奖励技能「元素」，并装备该装备的证明。技能分别对应 5 种不同属性，依类别排出同属性技能加以装备，就能视连结数量发动「元素」系的奖励技能！快确认技能表吧。"`
 - **spanish:** `"Esta es la prueba de que te has equipado con objetos que activan una habilidad de bonificación por unión elemental. Cada habilidad básica se corresponde con uno de los cinco elementos distintos. Equípate con habilidades del mismo elemento que se alineen directamente adyacentes entre sí y formarás una unión elemental basada en el número de habilidades que haya en la línea. Compruébalo en la hoja de habilidades."`
 - **tchinese:** `"在搭配裝備時發現獎勵技能「元素」，並裝備該裝備的證明。 技能分別對應５種不同屬性，依類別排出同屬性技能加以裝備， 就能視連結數量發動「元素」系的獎勵技能！ 快確認技能表吧。"`
 
@@ -840,7 +840,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai equipaggiato oggetti che attivano un'abilità bonus Somma. Ottieni bonus Somma equipaggiando più copie della stessa abilità contemporaneamente. Più ne equipaggerai, più fenomenale sarà il bonus Somma!"`
 - **japanese:** `"装備の組み合わせでボーナススキル「セイム」が発現した装備品を装備した証。別装備でも、同じスキルを装備すれば新たなスキル効果が発動！重ねれば重ねるほど新たな効果に変化します！"`
 - **russian:** `"Доказательство того, что вы использовали снаряжение, которое активирует бонусный навык набора. Бонусы связки можно получить, если одновременно использовать снаряжение с несколькими копиями одного и того же навыка. Чем больше копий навыка вы используете, тем лучше будет бонус связки!"`
-- **schinese:** `"通过搭配装备激活奖励技能“相同”，并装备该套装备的证明。即使装备不同，只要带有相同技能，就能触发新的技能效果！叠加的数量越多，效果也会越丰富！"`
+- **schinese:** `"在搭配装备时发现奖励技能「相同」，并装备该装备的证明。即使是不同的装备，只要装备相同技能就能发动新的技能效果！堆叠越多，就能变化出更多新的效果！"`
 - **spanish:** `"Esta es la prueba de que te has equipado con objetos que activan una habilidad de bonificación por acumulación. Puedes obtener bonificaciones por acumulación si te equipas con más de una muestra de la misma habilidad a la vez. A mayor cantidad de copias de esa habilidad que te equipes, mejores serán tus bonificaciones por acumulación."`
 - **tchinese:** `"在搭配裝備時發現獎勵技能「相同」，並裝備該裝備的證明。 即使是不同的裝備，只要裝備相同技能就能發動新的技能效果！ 堆疊越多，就能變化出更多新的效果！"`
 
@@ -868,7 +868,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai raggiunto la quota massima di nove barre esplosione. Incrementa la BE usando l'abilità bonus Somma 3 \"Blasst\". Scegli l'equipaggiamento con criterio e raggiungerai nuove vette."`
 - **japanese:** `"ブラストゲージの最大値を９まで伸ばした証。ブラストゲージの最大値はボーナススキル「セイム３：ブラスト」によって増加します。装備品のコーディネイトの素晴らしさが眩しいです。"`
 - **russian:** `"Доказательство того, что вы достигли максимального значения силы взрыва: 9. Увеличить ОСВ можно при помощи бонусного навыка \"Ударр\" связки 3. Научитесь обращаться со своим снаряжением, и сможете обрести невероятную силу."`
-- **schinese:** `"将爆发槽上限提升至9的证明。可以通过奖励技能“相同3：爆发”来增加爆发槽上限。合理搭配装备的好处可不止这一点！"`
+- **schinese:** `"将爆发量表上限增加至 9 的证明。爆发量表上限可透过奖励技能「相同 3：爆发」增加。搭配装备的好处多到数不清。"`
 - **spanish:** `"Esta es la prueba de que has llegado al máximo de 9 en la barra de estallido. Puedes aumentar la BE usando la habilidad de bonificación por acumulación de nivel 3 \"Blasst\". Coordina bien tu equipo y tus estallidos alcanzarán nuevas cotas."`
 - **tchinese:** `"將爆發量表上限增加至９的證明。 爆發量表上限可透過獎勵技能「相同３：爆發」增加。 搭配裝備的好處多到數不清。"`
 
@@ -883,7 +883,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Quaterna"`
 - **japanese:** `"四つ子の魂百まで"`
 - **russian:** `"Надежная связка"`
-- **schinese:** `"四人连心，其利断金"`
+- **schinese:** `"四人连心其利断金"`
 - **spanish:** `"Acumulador nato"`
 - **tchinese:** `"四人連心其利斷金"`
 
@@ -896,7 +896,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai creato un pezzo di equipaggiamento con la stessa abilità nei quattro slot. Parliamo almeno di un'abilità bonus Somma 4! Ora puoi scatenarti nella tua danza di vittoria. Non ti giudicheremo per questo..."`
 - **japanese:** `"４つのスキル全てを同じに揃えた装備を作った証。「セイム４」以上確定！完成した瞬間にガッツポーズをしたとしても責められますまい。"`
 - **russian:** `"Доказательство того, что вы создали предмет снаряжения с одинаковым навыком в каждой из четырех ячеек. А это, по меньшей мере, бонус набора 4! Можете исполнить свой \"бонусный танец\". Мы не будем вас судить."`
-- **schinese:** `"打造出四个技能槽全部拥有相同技能的装备的证明。这样至少能发动“相同4”！完成时摆出胜利姿势，也不会有人笑话你的！"`
+- **schinese:** `"打造凑齐四个相同技能的装备的证明。肯定达到「相同 4」以上！完成的那瞬间做出胜利动作也不会有人笑您的！"`
 - **spanish:** `"Esta es la prueba de que has creado un objeto de equipo que tiene la misma habilidad en los cuatro espacios. ¡Ahí tienes al menos una habilidad de bonificación por acumulación de 4! Puedes bailar para celebrarlo, no te juzgaremos."`
 - **tchinese:** `"打造湊齊四個相同技能的裝備的證明。肯定達到「相同４」以上！ 完成的那瞬間做出勝利動作也不會有人笑您的！"`
 
@@ -924,7 +924,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai equipaggiato ogni abilità di un determinato elemento per raggiungere un bonus abilità Unione elementale 10. Senti questo strano rumore? Sono i nemici che tremano al sol pensiero..."`
 - **japanese:** `"１０個同属性並びのスキルである「エルム１０」を達成した証。生まれた効果で、強敵を圧倒しに参りましょう。"`
 - **russian:** `"Доказательство того, что вы использовали каждый навык определенной стихии, чтобы получить бонусный навык С-связки 10. Слышите это странное жужжание? Это ваши враги трясутся от страха."`
-- **schinese:** `"将同一属性的10种技能连成一排，发动“元素10”的证明。用它带来的效果压制强敌吧！"`
+- **schinese:** `"10 个同属性技能并排，达成「元素 10」的证明。用产生的效果压制强敌吧！"`
 - **spanish:** `"Esta es la prueba de que te has equipado con todas las habilidades de un elemento determinado para conseguir una habilidad de bonificación por unión e. 10. ¿Ese extraño rumor que oyes? Son tus enemigos, temblando de miedo."`
 - **tchinese:** `"１０個同屬性技能並排，達成「元素１０」的證明。 用產生的效果壓制強敵吧！"`
 
@@ -952,7 +952,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai ottenuto l'abilità bonus Somma 16, il più elevato dei bonus Somma. Se è la fine o solo l'inizio dipenderà da te."`
 - **japanese:** `"同名スキルの最高峰「セイム１６」を達成した証。ここが終着駅か、始発駅かは、あなた次第。"`
 - **russian:** `"Доказательство того, что вы получили бонусный навык набора 16 - высшего разряда. И только вам решать, начало это или конец."`
-- **schinese:** `"达成最高等级的同名技能奖励“相同16”的证明。这里究竟是终点还是起点，全由你决定。"`
+- **schinese:** `"达成同名技能最高级的「相同 16」的证明。这里究竟是终点还是起点，全由您决定。"`
 - **spanish:** `"Esta es la prueba de que has conseguido una habilidad de bonificación por acumulación de 16, el mayor grado de las bonificaciones por acumulación. Tú decides si esto es el fin o solo el principio."`
 - **tchinese:** `"達成同名技能最高級的「相同１６」的證明。 這裡究竟是終點還是起點，全由您決定。"`
 
@@ -980,7 +980,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai consacrato almeno un pezzo di equipaggiamento. Un'operazione straordinaria, che raddoppia l'effetto dell'abilità nel primo slot! Se sei particolarmente devoto, puoi sempre offrire questo oggetto al Dominus della terra e assicurare un futuro migliore ai tuoi figli."`
 - **japanese:** `"祝福銘の装備品をひとつ作った証。１番目のスキルが「ダブルスキル」になって大変お得！地の主に捧げて、更なる未来を掴み取るも、またよし。"`
 - **russian:** `"Доказательство того, что вы освятили хотя бы один предмет снаряжения и вдвое усилили действие навыка в первой ячейке! Разумеется, если вы особенно преданы своему делу, вы можете отдать этот предмет Хранителю и обеспечить вашим детям более \"благодатное\" будущее."`
-- **schinese:** `"打造出一件带有祝福铭的装备的证明。第一个技能将变为“双重技能”，非常实用！也可以把它献给地之主，换取更美好的未来。"`
+- **schinese:** `"打造一个具有祝福铭的装备的证明。第一个技能是「双重技能」，非常有用！也可以献给地之主，获得更美好的未来。"`
 - **spanish:** `"Esta es la prueba de que has santificado un objeto del equipo al menos. Es un superchollo que dobla el efecto de la habilidad que hay en el primer espacio. Obviamente, si eres especialmente devoto, además puedes ofrecer este objeto al Señor de la Tierra y conseguir un futuro más dichoso para nuestros hijos."`
 - **tchinese:** `"打造一個具有祝福銘的裝備的證明。 第一個技能是「雙重技能」，非常有用！ 也可以獻給地之主，獲得更美好的未來。"`
 
@@ -1008,7 +1008,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai acquisito equipaggiamento con un'abilità doppia da un rilascio dei nemici. Improbabile, a meno che tu non stia giocando a livello di difficoltà Difficile o superiore! Si dice che offrendo equipaggiamento consacrato al Dominus della terra la frequenza di rilascio possa aumentare..."`
 - **japanese:** `"通常の２倍効果である「ダブルスキル」を敵ドロップで獲得した証。難易度をハード以上にしないと発見すら困難なシロモノですぞ。地の主に祝福装備を捧げることで、世界の確率がアップするそうな。"`
 - **russian:** `"Доказательство того, что вы получили снаряжение с двойным навыком, которое оставил враг после смерти. Это непростая задача, если вы играете на уровне ниже сложного! Однако ходят слухи, что подношение освященного снаряжения Хранителю, может увеличить ваши шансы... "`
-- **schinese:** `"从敌人掉落的装备上获得效果翻倍的“双重技能”的证明。在困难或更高难度下，才比较有机会发现这样的好东西。把祝福装备献给地之主，或许还能提高获得概率。"`
+- **schinese:** `"透过敌方掉落获得具有双倍效果的「双重技能」的证明。这可是难度若不在困难以上，几乎无法发现的好东西喔。将祝福装备献给地之主，或许可以提高机率。"`
 - **spanish:** `"Esta es la prueba de que te has hecho con un objeto con dos habilidades que ha dejado caer un enemigo. Cuesta mucho conseguirlo a menos que estés jugando en dificultad Difícil o más. Se rumorea que ofrecer equipo santificado a un Señor de la Tierra puede aumentar tus posibilidades..."`
 - **tchinese:** `"透過敵方掉落獲得具有雙倍效果的「雙重技能」的證明。 這可是難度若不在困難以上，幾乎無法發現的好東西喔。 將祝福裝備獻給地之主，或許可以提高機率。"`
 
@@ -1036,7 +1036,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai acquisito un pezzo di equipaggiamento con modificatore +99. Consacralo e la tua vita cambierà per sempre. Prossimo obiettivo, quota 9900! No, aspetta, forse non è necessario..."`
 - **japanese:** `"名前に「＋９９」のついた装備品を作成した証。祝福銘にすれば第二の人生を歩むこともできます。目指せ９９００回融合！　と言いたいけどそこまでしなくていい気も。"`
 - **russian:** `"Доказательство того, что вы получили предмет снаряжения с модификатором +99. Освятите его, и у вас начнется совсем другая жизнь. Старайтесь добиться объединения на 9900! Хотя постойте, это, наверное, ни к чему. "`
-- **schinese:** `"打造出一件名称带有“+99”的装备的证明。如果再为它加上祝福铭，或许就能迎来第二人生。目标是融合9900次！……虽然想这么说，但似乎没必要做到那一步。"`
+- **schinese:** `"打造名称附带「+99」的装备的证明。若加上祝福铭，想必能够迈向第二人生。目标是融合 9900 次！……虽然想这么说，但好像不用到这种程度。"`
 - **spanish:** `"Esta es la prueba de que has conseguido un objeto de equipo con un modificador de +99. Santifícalo y te aguardará una nueva vida. ¡Busca las 9900 fusiones! No, espera. Posiblemente eso no sea necesario."`
 - **tchinese:** `"打造名稱附帶「＋９９」的裝備的證明。 若加上祝福銘，想必能夠邁向第二人生。 目標是融合９９００次！……雖然想這麼說，但好像不用到這種程度。"`
 
@@ -1064,7 +1064,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai riacquisito l'equipaggiamento della partita precedente sulle vette di Lakehaven. Il tuo io del futuro si prodiga in incoraggiamenti verso il tuo io del presente, in attesa di incontrarti ancora una volta alla fine del gioco."`
 - **japanese:** `"レイクピロー高地にて、前周回から引き継いだ装備を見事獲得した証。次周の自分が更なるパスを求めてこちらに視線を送っています。"`
 - **russian:** `"Доказательство того, что вы вернули снаряжение из предыдущего прохождения игры в Озерных вершинах. Будущий вы торжествует, благодарит вас и ждет новой встречи с вами в конце игры. "`
-- **schinese:** `"在瑞克比洛高地成功取回从上一周目继承的装备的证明。希望下一周目的自己，也能向更加完美的通关迈进。"`
+- **schinese:** `"在瑞克比洛高地顺利获得 上一轮继承下来的装备的证明。希望下一轮的自己能追求更进一步的完美通关。"`
 - **spanish:** `"Esta es la prueba de que has recuperado el equipo que has traspasado de tu última partida en los altos de Lakehaven. Tu yo futuro te está animando y espera encontrarse contigo una vez más al final del juego."`
 - **tchinese:** `"在瑞克比洛高地順利獲得 上一輪繼承下來的裝備的證明。 希望下一輪的自己能追求更進一步的完美通關。"`
 
@@ -1092,7 +1092,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che sei un esperto di almeno uno dei talenti di supporto. Calma e sangue freddo. Puoi farcela, crediamo in te!"`
 - **japanese:** `"いずれかのサポートの熟練度をマスターまで育てた証。のんびり育てましょう。　のんびりですよ。"`
 - **russian:** `"Доказательство того, что вы освоили хотя бы 1 вспомогательный талант. Медленно, но верно, вы своего добьетесь. Мы в вас верим. "`
-- **schinese:** `"将任意一项支援能力的熟练度提升至上限的证明。慢慢培养就好，不用着急！"`
+- **schinese:** `"将任一支援能力的熟练度提升至上限的证明。慢慢培育吧，不用急！"`
 - **spanish:** `"Esta es la prueba de que has dominado al menos un talento de apoyo. Con calma y perseverancia, puedes hacerlo. Creemos en ti."`
 - **tchinese:** `"將任一支援能力的熟練度提昇至上限的證明。 慢慢培育吧，不用急！"`
 
@@ -1120,7 +1120,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai ricevuto oltre 50 gradi da una battaglia. Sai mantenere la calma anche nelle situazioni più difficili. Ah, ne hai fatta di strada!"`
 - **japanese:** `"1回の戦闘で獲得したグレード値が５０を超えた証。プレッシャーに耐えながら、よくぞここまでたどり着きました。"`
 - **russian:** `"Доказательство того, что вы получили более 50 очков рейтинга за один бой. Все поражены, что вы не дрогнули и выдержали такое давление. Вы многого добились."`
-- **schinese:** `"在单场战斗中获得超过50点积分的证明。顶住压力，终于走到了这一步。"`
+- **schinese:** `"在一场战斗中获得的积分值超过 50 的证明。承受着压力，终于走到了这一步。"`
 - **spanish:** `"Esta es la prueba de que has recibido 50 de rango o más por un combate. Todo el mundo está impresionado porque no te dejaste vencer por la presión. Has llegado muy lejos."`
 - **tchinese:** `"在一場戰鬥中獲得的積分值超過５０的證明。 承受著壓力，終於走到了這一步。"`
 
@@ -1148,7 +1148,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai preparato ogni tipologia di spuntino. \"I personaggi del mio videogioco mangiano dolci in continuazione e stanno benissimo. Mi spiace, dottore, si sbaglia di grosso\"."`
 - **japanese:** `"おやつ作りで可能なアイテムを全て作成した証。毎日のおやつライフをエンジョイした後は、適度な運動とおまけの運動。"`
 - **russian:** `"Доказательство того, что вы приготовили все доступные в игре закуски. \"У меня в игре все едят одни только сладости, так что простите, доктор, но вы несете чепуху\"."`
-- **schinese:** `"制作过“制作点心”能力能够做出的全部道具的证明。享受每天吃点心的生活之余，也别忘了多运动哦。"`
+- **schinese:** `"制作过所有能透过「制作点心」做成的道具的证明。享受过每天吃点心的生活后，记得适当运动、多多运动。"`
 - **spanish:** `"Esta es la prueba de que has preparado todos los aperitivos disponibles. \"En mi videojuego, la gente solo come pastelillos todo el día. Así que lo siento, doctor, eso es un cuento chino\"."`
 - **tchinese:** `"製作過所有能透過「製作點心」做成的道具的證明。 享受過每天吃點心的生活後，記得適當運動、多多運動。"`
 
@@ -1176,7 +1176,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta (SWOSH) che hai raggiunto (SWOOOSH) la massima velocità (SWOOOOOOSH) con il talento Cavalcaventi."`
 - **japanese:** `"サポートタレント「速駆け」で移動速度が最高速度に達した証。今日も僕らに速さをありがとう！　また来てね！"`
 - **russian:** `"Доказательство (В-У-У-У-У-УХ) того, что вы развили (ВЖ-Ж-Ж-Ж-Ж-Ж-Ж-Ж) максимальную скорость при помощи таланта (П-И-И-И-И-И-ИУ) \"Воздушные шаги\". "`
-- **schinese:** `"使用支援能力“乘风而行”，达到最高移动速度的证明。感谢你今天又为大家带来速度！下次还要再来哦！"`
+- **schinese:** `"使用支援能力「乘风而行」达到最高移动速度的证明。谢谢你今天也为我们带来速度！下次还要再来喔！"`
 - **spanish:** `"Esta es (¡FIUUU!) la prueba de que has conseguido (¡BRRUUUUUM!) la velocidad máxima con el (¡SHIUNNNN!) talento Paso al viento."`
 - **tchinese:** `"使用支援能力「乘風而行」達到最高移動速度的證明。 謝謝你今天也為我們帶來速度！下次還要再來喔！"`
 
@@ -1204,7 +1204,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai combattuto molte battaglie, controllando molti personaggi. Se vuoi procedere con calma, cambia personaggio dal relativo menu. Se invece vuoi spaccare il mondo, cambia personaggio al volo, sfruttando le azioni di battaglia!"`
 - **japanese:** `"たくさんの操作キャラでたくさん戦った証。キャラチェンジは、ゆっくり派はメニューを開いて、あくせく派にはリアルタイムで切り替えられるバトルアクトもあります！"`
 - **russian:** `"Доказательство того, что вы провели множество боев, управляя разными персонажами. Можно не спешить и менять персонажей в верхнем меню, но если вы предпочитаете действовать быстро, то существуют боевые действия, которые позволяют переключаться на лету!"`
-- **schinese:** `"操控多名角色经历大量战斗的证明。喜欢慢节奏的话，可以打开菜单切换角色；如果喜欢迅速出手，也有能够在战斗中即时切换角色的战斗效果！"`
+- **schinese:** `"操作许多角色经历许多场战斗的证明。悠闲派可以开启选单更换角色，但也有能即时变换角色的战斗效果供急性派选择！"`
 - **spanish:** `"Esta es la prueba de que has librado muchos combates controlando a diversos personajes. Puedes hacerlo de la manera lenta, cambiando de personajes en el menú superior, pero si quieres puedes poner la directa, ya que hay acciones de combate que te permiten hacerlo directamente sobre la marcha mientras combates."`
 - **tchinese:** `"操作許多角色經歷許多場戰鬥的證明。 悠閒派可以開啟選單更換角色， 但也有能即時變換角色的戰鬥效果供急性派選擇！"`
 
@@ -1232,7 +1232,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Occasionalmente, dopo aver scoperto un punto d'interesse o quando ti  trovi in un punto di salvataggio, avrai la possibilità di conversare con i tuoi compagni di viaggio. È la prova che  hai fatto molta strada e hai opinioni da condividere con loro."`
 - **japanese:** `"ディスカバリー発見後や、セーブポイントに触れている時にSELECTボタンを押すことで、場所にまつわったりまつわらなかったりするチャットを聞くことができます。それらをたくさん発生させたお話好きの証。"`
 - **russian:** `"Иногда, когда вы обнаруживаете находку или оказываетесь у точки сохранения, вы можете начать диалог между персонажами. Это доказательство того, что вы многое повидали и у вас было что обсудить."`
-- **schinese:** `"发现探索点后，或接触存档点时，按下 L3 键就可能触发与当前情境有关的特殊对话。这是触发大量对话、热爱聊天的证明。"`
+- **schinese:** `"找到探索点后，还有接触保存点的时候，按下 L3 按钮可以欣赏可能与情境有关的特殊对话。这是触发许多对话，喜欢聊天的证明。"`
 - **spanish:** `"A veces, al encontrar un punto de descubrimiento o cuando estás en un punto de guardado, tienes la posibilidad de iniciar una conversación con los compañeros. Esta es la prueba de que has compartido muchas cosas con ellos y que habéis tenido un montón de opiniones sobre ellas."`
 - **tchinese:** `"找到探索點後，還有接觸保存點的時候， 按下L3按鈕可以欣賞可能與情境有關的特殊對話。 這是觸發許多對話，喜歡聊天的證明。"`
 
@@ -1260,7 +1260,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai raccolto tutti gli oggetti, molti dei quali sono equipaggiamento. L'equipaggiamento incrementa le statistiche e vanta abilità integrate. Oggetti inizialmente considerati superflui potrebbero rivelarsi fondamentali per sconfiggere i nemici più temibili."`
 - **japanese:** `"アイテムを、というか主に装備品を、たくさん集めた証。装備品は能力値よりスキルとその組み合わせ。意外な装備が強敵を打破できる切り札になるかも。"`
 - **russian:** `"Доказательство того, что вы собрали много предметов, и в основном снаряжения. Главная идея снаряжения - в комбинации навыков и улучшений характеристик. Предметы, которые вы когда-то выбросили, могли стать залогом победы над самыми сильными врагами. "`
-- **schinese:** `"收集大量道具——准确地说，是收集大量装备的证明。装备上的技能及其搭配方式比基础属性更加重要。看似不起眼的装备，说不定就是战胜强敌的王牌！"`
+- **schinese:** `"收集许多道具，正确来说是收集许多装备的证明。装备的技能和搭配方式比原本的能力值重要。也许能击败强敌的王牌，就是最出乎意料的那个装备喔！"`
 - **spanish:** `"Esta es la prueba de que has reunido todos los objetos, la mayoría de los cuales son equipo. El concepto esencial de equipo es la combinación de mejoras de los atributos y habilidades incorporadas. De hecho, los objetos que descartaste en un principio pueden ser la clave para derrotar a los oponentes más formidables."`
 - **tchinese:** `"收集許多道具，正確來說是收集許多裝備的證明。 裝備的技能和搭配方式比原本的能力值重要。 也許能擊敗強敵的王牌，就是最出乎意料的那個裝備喔！"`
 
@@ -1288,7 +1288,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai combattuto contro un enorme numero di nemici. Più nemici dello stesso tipo sconfiggerai, più aumenterà la probabilità che rilascino equipaggiamento con abilità. È il momento di mietere vittime!"`
 - **japanese:** `"様々な敵に遭遇した証。ちなみに、同名の敵をたくさん倒すほど、その敵が落とす装備品のスキルが付加されやすくなります。レッツ討伐！"`
 - **russian:** `"Доказательство того, что вы успели сразиться с большим количеством врагов. Кстати, чем больше врагов одного типа вы победите, тем больше вероятность того, что после их смерти будет выпадать снаряжение с навыками. Пора заняться контролем численности! "`
-- **schinese:** `"与许多不同种类的敌人交战的证明。顺便一提，击败同一种敌人的次数越多，它掉落的装备就越容易附带技能。努力讨伐吧！"`
+- **schinese:** `"遭遇过许多不同敌人的证明。附带一提，打倒越多同名的敌人，该敌人掉落装备也越容易附加技能。努力讨伐吧！"`
 - **spanish:** `"Esta es la prueba de que has combatido contra gran variedad de enemigos. Por cierto, cuantos más enemigos del mismo tipo derrotes, más probable será que estos dejen caer equipo con habilidades incorporadas. ¡Es hora de hacer un poco de control de población!"`
 - **tchinese:** `"遭遇過許多不同敵人的證明。 附帶一提，打倒越多同名的敵人， 該敵人掉落裝備也越容易附加技能。努力討伐吧！"`
 
@@ -1316,7 +1316,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta la tua familiarità con la libreria. Come ottenere questo riconoscimento è un segreto, ma se di tanto in tanto ti dedicherai alla lettura, potresti rimanere gradevolmente sorpreso."`
 - **japanese:** `"ライブラリをきちんと閲覧しているとみなされた証です。どうしたら獲得できるかは秘密にしますので、ちょくちょく見に行ってもらえると、いつのまにか獲得していることでしょう。"`
 - **russian:** `"Доказательство того, что вы хорошо познакомились с библиотекой. Как получить этот приз - большая тайна, но вы всегда можете поискать ответ в книгах. Когда найдете, он вас приятно удивит. "`
-- **schinese:** `"认真阅读资料库的证明。具体获得方式暂时保密，不过只要经常翻阅，说不定就会在不知不觉中解锁。"`
+- **schinese:** `"仔细阅览资料库的证明。获得方式暂且保密，不过，只要常常去看，想必能在不知不觉中获得。"`
 - **spanish:** `"Esta es la prueba de que te has familiarizado bastante con la biblioteca. Cómo se consigue esto es secreto, pero si te tomas la molestia de leer un poco de vez en cuando, tendrás una grata sorpresa."`
 - **tchinese:** `"仔細閱覽資料庫的證明。 獲得方式暫且保密，不過，只要常常去看， 想必能在不知不覺中獲得。"`
 
@@ -1344,7 +1344,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che sei sopravvissuto agli otto crogioli di malevolenza. L'accesso è consentito solo a determinati personaggi: dovrai padroneggiare le tecniche di ognuno per uscirne vincitore."`
 - **japanese:** `"各地に眠る８つの『穢れの坩堝』に挑戦し、全てを生き残った証。挑めるキャラクターは決められているため、様々なキャラクターを操れる技量と知識が必要になるかも。"`
 - **russian:** `"Доказательство того, что вы прошли все восемь Горнил Зла и выжили. Так как в каждое из них может войти только один конкретный персонаж, вам придется освоить каждого из них."`
-- **schinese:** `"挑战散布在各地的全部8座“污秽的熔炉”，并平安归来的证明。每座熔炉允许进入的角色固定，需要熟练掌握各个角色的操作技巧。"`
+- **schinese:** `"挑战沉睡在各地的 8 个『污秽的熔炉』并全身而退的证明。参与挑战的角色是固定的，或许需要操作各角色的技术与知识。"`
 - **spanish:** `"Esta es la prueba de que has vuelto con vida después de desafiar a los ocho crisoles de malicia. Como cada uno de ellos solo permite entrar a ciertos personajes, necesitarás dominar las técnicas y saberes de cada uno de ellos."`
 - **tchinese:** `"挑戰沉睡在各地的８個『汙穢的熔爐』並全身而退的證明。 參與挑戰的角色是固定的， 或許需要操作各角色的技術與知識。"`
 
@@ -1372,7 +1372,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai completato tutti i sotterranei bonus a livello di difficoltà Normale o superiore. Altre sfide ti attendono, in luoghi già esplorati o ancora da visitare."`
 - **japanese:** `"エクストラダンジョンを難易度ノーマル以上で全クリアした証。更なる強敵が、これから倒せる、倒したことがある気がする場所で待っています。"`
 - **russian:** `"Доказательство того, что вы прошли все дополнительные подземелья на среднем уровне и выше. Но вас ждут новые испытания - в тех местах, где вы были, и в тех, где еще не ступали. "`
-- **schinese:** `"以普通或更高难度通关全部隐藏迷宫的证明。不过，更强大的敌人仍在你曾经到访或尚未探索的地方等待着你。"`
+- **schinese:** `"用普通以上难度通过所有隐藏迷宫的证明。更强的强敌就在今后即将挑战，或是曾经挑战过的那个地方等您。"`
 - **spanish:** `"Esta es la prueba de que has completado todas las mazmorras adicionales en nivel de dificultad Normal o superior. Pero te esperan más desafíos en lugares en los que has estado y en lugares por los que aún tienes que pasar."`
 - **tchinese:** `"用普通以上難度通過所有隱藏迷宮的證明。 更強的強敵就在今後即將挑戰，或是曾經挑戰過的那個地方等您。"`
 
@@ -1400,7 +1400,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai sconfitto un certo \"qualcuno\" potenziato. Non c'è altro da aggiungere, sarebbe superfluo."`
 - **japanese:** `"強化した「とある存在」を難易度ハード以上で撃破した証。もはや何も言いますまい。"`
 - **russian:** `"Доказательство того, что вы одержали победу над сильным \"кое-кем\". Это все, что мы можем вам сказать, и все, что вам стоит знать."`
-- **schinese:** `"以困难或更高难度击败强化后的“某个敌人”的证明。想必一切尽在不言中。"`
+- **schinese:** `"用困难以上难度击败强化过后的「某个敌人」的证明。想必一切尽在不言中吧。"`
 - **spanish:** `"Esta es la prueba de que has derrotado a \"alguien\" muy poderoso. No se puede decir nada más ni es necesario hacerlo."`
 - **tchinese:** `"用困難以上難度擊敗強化過後的「某個敵人」的證明。 想必一切盡在不言中吧。"`
 
@@ -1428,7 +1428,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Il patto dell'Adepta di cui serbavi un così lieto ricordo è stato rinnovato. Che viaggio ti attende questa volta?"`
 - **japanese:** `"思い出の従士契約再び。今度はどんな旅が待っているか。"`
 - **russian:** `"Договор оруженосца, что вы вспоминали с такой теплотой, возобновлен. Что теперь ждет в конце пути?"`
-- **schinese:** `"再次缔结那份熟悉的从士契约。这一次，又将迎来怎样的旅程呢？"`
+- **schinese:** `"再次缔结熟悉的从士契约。这次将要面对的是什么样的旅程呢？"`
 - **spanish:** `"El pacto de la escudera que tan afectuosamente recordabas vuelve a estar activo. ¿Qué clase de viaje te aguardará en esta ocasión?"`
 - **tchinese:** `"再次締結熟悉的從士契約。 這次將要面對的是什麼樣的旅程呢？"`
 
@@ -1456,7 +1456,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"L'occasione, il luogo e l'avversario sono cambiati, ma ancora una volta la giustizia ha trionfato. Questo è un riconoscimento dei tuoi sforzi."`
 - **japanese:** `"一度つけた決着を、時と場所と相手を変え、再びつけた証。"`
 - **russian:** `"Новое время и место, новый враг, но старые счеты никуда не делись. И в этот раз вы получите свою расплату."`
-- **schinese:** `"时间、地点和对手虽已改变，但你再次完成了那场决斗。这就是努力的证明。"`
+- **schinese:** `"时间、地点与对手更迭，再次挑战决斗的证明。"`
 - **spanish:** `"El tiempo, el lugar y los rivales son distintos, pero has logrado poner fin a todo otra vez. Esta es la prueba de tus esfuerzos."`
 - **tchinese:** `"時間、地點與對手更迭， 再次挑戰決鬥的證明。"`
 
@@ -1484,7 +1484,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Non è andata come ti aspettavi, vero? Tuttavia, questo dimostra che sei sopravvissuta a una determinata battaglia."`
 - **japanese:** `"おいしいところを持って行かれたけれどとある決戦を勝ち抜いた証。"`
 - **russian:** `"Не такого вы ждали, верно? Но это подтверждает: вы выжили в битве."`
-- **schinese:** `"虽然风头被抢尽，却仍然赢下了某场决战的证明。"`
+- **schinese:** `"虽然锋头被抢尽，但仍战胜某场决战的证明。"`
 - **spanish:** `"No fue lo que esperabas, ¿verdad? Aun así, esto demuestra que sobreviviste a cierto combate."`
 - **tchinese:** `"雖然鋒頭被搶盡， 但仍戰勝某場決戰的證明。"`
 
@@ -1512,7 +1512,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai superato Naraka nel crogiolo di malevolenza. Siete una squadra imbattibile!"`
 - **japanese:** `"穢れの坩堝・奈落を制覇した証。コンビネーション炸裂。"`
 - **russian:** `"Доказательство: вы очистили Нарака в Горниле Зла. А из вас вышла неплохая команда!"`
-- **schinese:** `"成功通过污秽的熔炉·奈洛的证明。两人的配合天衣无缝。"`
+- **schinese:** `"称霸污秽的熔炉・奈洛的证明。两人合作无间。"`
 - **spanish:** `"Prueba de que has acabado Naraka en el crisol de malicia. ¡Tu compañero y tú formáis un gran equipo!"`
 - **tchinese:** `"稱霸汙穢的熔爐・奈洛的證明。 兩人合作無間。"`
 
@@ -1540,7 +1540,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai superato Naraka nel crogiolo di malevolenza in tempi rapidi. Ehi, sei veloce come un fulmine!"`
 - **japanese:** `"穢れの坩堝・奈落を短時間で制覇した証。スピーディでワンダラー。"`
 - **russian:** `"Доказательство: вы быстро очистили Нарака в Горниле Зла. Да вы просто молнии ходячие!"`
-- **schinese:** `"在短时间内通过污秽的熔炉·奈洛的证明。两人动作之快，令人目不暇接！"`
+- **schinese:** `"短时间称霸污秽的熔炉・奈洛的证明。动作迅雷不及掩耳。"`
 - **spanish:** `"Prueba de haber acabado Naraka en el crisol de malicia en poco tiempo. ¡Estás hecho un hacha!"`
 - **tchinese:** `"短時間稱霸汙穢的熔爐・奈洛的證明。 動作迅雷不及掩耳。"`
 
@@ -1555,7 +1555,7 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Il duo estremo"`
 - **japanese:** `"イレブン二人"`
 - **russian:** `"Одиннадцатая парочка"`
-- **schinese:** `"两人身影如同11"`
+- **schinese:** `"两人身影如同 11"`
 - **spanish:** `"El dúo decimoprimero"`
 - **tchinese:** `"兩人身影如同１１"`
 
@@ -1568,6 +1568,6 @@ Added: 56; Changed: 0; Removed: 0
 - **italian:** `"Attesta che hai superato Naraka nel crogiolo di malevolenza per undici volte."`
 - **japanese:** `"穢れの坩堝・奈落を１１回制覇した証。"`
 - **russian:** `"Доказательство: вы очистили Нарака в Горниле Зла 11 раз."`
-- **schinese:** `"成功通过污秽的熔炉·奈洛11次的证明。"`
+- **schinese:** `"称霸污秽的熔炉・奈洛 11 次的证明。"`
 - **spanish:** `"Prueba de que has acabado Naraka en el crisol de malicia 11 veces."`
 - **tchinese:** `"稱霸汙穢的熔爐・奈洛１１次的證明。"`
