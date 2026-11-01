@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "app_id": "270550",
+  "variant_id": "default",
+  "source_sha256": "7e3a52f95bb5cf76238171d4a634f6741924f5a7e051d85a56648263d5b93dd9",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "no_buying": {
+      "translations": {
+        "english": {
+          "name": "Saving up",
+          "description": "Survive 6 nights without buying anything"
+        },
+        "schinese": {
+          "name": "攒钱",
+          "description": "在不购买任何物品的情况下存活6晚"
+        }
+      }
+    },
+    "no_barricades": {
+      "translations": {
+        "english": {
+          "name": "Kiting mastery",
+          "description": "Survive 10 nights without any barricades, turrets or mines"
+        },
+        "schinese": {
+          "name": "风筝大师",
+          "description": "在没有任何路障、炮塔或地雷的情况下存活10晚"
+        }
+      }
+    },
+    "no_damage": {
+      "translations": {
+        "english": {
+          "name": "Untouchable",
+          "description": "Survive 10 nights without taking any damage"
+        },
+        "schinese": {
+          "name": "无人能碰",
+          "description": "在不受到任何伤害的情况下存活10晚"
+        }
+      }
+    },
+    "sniper": {
+      "translations": {
+        "english": {
+          "name": "One shot, many kills",
+          "description": "Kill 8 zombies with a single sniper rifle bullet in defense mode"
+        },
+        "schinese": {
+          "name": "一发多杀",
+          "description": "在防御模式下用一发狙击枪子弹击杀8只僵尸"
+        }
+      }
+    },
+    "rocket": {
+      "translations": {
+        "english": {
+          "name": "Demolition",
+          "description": "Kill 8 zombies with a single rocket in defense mode"
+        },
+        "schinese": {
+          "name": "爆破专家",
+          "description": "在防御模式下用一枚火箭弹击杀8只僵尸"
+        }
+      }
+    },
+    "shotgun": {
+      "translations": {
+        "english": {
+          "name": "Cheap and reliable",
+          "description": "Kill 300 zombies with shotgun in a single game in defense mode"
+        },
+        "schinese": {
+          "name": "价廉物美",
+          "description": "在防御模式下的单局游戏中用霰弹枪击杀300只僵尸"
+        }
+      }
+    },
+    "perfect": {
+      "translations": {
+        "english": {
+          "name": "Efficient usage",
+          "description": "Use no more than 6 clips during the first night"
+        },
+        "schinese": {
+          "name": "高效利用",
+          "description": "在第一晚使用不超过6个弹匣"
+        }
+      }
+    },
+    "turrets": {
+      "translations": {
+        "english": {
+          "name": "Come get some",
+          "description": "Build and equip four turrets"
+        },
+        "schinese": {
+          "name": "放马过来",
+          "description": "建造并装备四座炮塔"
+        }
+      }
+    },
+    "score1": {
+      "translations": {
+        "english": {
+          "name": "Private",
+          "description": "Score 10,000 points in defense mode"
+        },
+        "schinese": {
+          "name": "列兵",
+          "description": "在防御模式下获得10,000分"
+        }
+      }
+    },
+    "score2": {
+      "translations": {
+        "english": {
+          "name": "Corporal",
+          "description": "Score 30,000 points in defense mode"
+        },
+        "schinese": {
+          "name": "下士",
+          "description": "在防御模式下获得30,000分"
+        }
+      }
+    },
+    "score3": {
+      "translations": {
+        "english": {
+          "name": "Sergeant",
+          "description": "Score 80,000 points in defense mode"
+        },
+        "schinese": {
+          "name": "中士",
+          "description": "在防御模式中取得 80,000 分"
+        }
+      }
+    },
+    "score4": {
+      "translations": {
+        "english": {
+          "name": "Lieutenant",
+          "description": "Score 150,000 points in defense mode"
+        },
+        "schinese": {
+          "name": "中尉",
+          "description": "在防御模式中取得 150,000 分"
+        }
+      }
+    },
+    "score5": {
+      "translations": {
+        "english": {
+          "name": "Captain",
+          "description": "Score 250,000 points in defense mode"
+        },
+        "schinese": {
+          "name": "上尉",
+          "description": "在防御模式中取得 250,000 分"
+        }
+      }
+    },
+    "score6": {
+      "translations": {
+        "english": {
+          "name": "Major",
+          "description": "Score 500,000 points in defense mode"
+        },
+        "schinese": {
+          "name": "少校",
+          "description": "在防御模式中取得 500,000 分"
+        }
+      }
+    },
+    "score7": {
+      "translations": {
+        "english": {
+          "name": "Colonel",
+          "description": "Score 1,000,000 points in defense mode"
+        },
+        "schinese": {
+          "name": "上校",
+          "description": "在防御模式中取得 1,000,000 分"
+        }
+      }
+    },
+    "endless1": {
+      "translations": {
+        "english": {
+          "name": "Beginner",
+          "description": "Survive for 2:00 in endless night mode"
+        },
+        "schinese": {
+          "name": "新手",
+          "description": "在无尽黑夜模式中存活 2:00"
+        }
+      }
+    },
+    "endless2": {
+      "translations": {
+        "english": {
+          "name": "Survivor",
+          "description": "Survive for 3:30 in endless night mode"
+        },
+        "schinese": {
+          "name": "幸存者",
+          "description": "在无尽黑夜模式中存活 3:30"
+        }
+      }
+    },
+    "endless3": {
+      "translations": {
+        "english": {
+          "name": "Veteran",
+          "description": "Survive for 5:00 in endless night mode"
+        },
+        "schinese": {
+          "name": "老兵",
+          "description": "在无尽黑夜模式中存活 5:00"
+        }
+      }
+    }
+  }
+}
