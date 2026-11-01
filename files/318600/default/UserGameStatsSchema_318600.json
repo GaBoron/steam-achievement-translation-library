@@ -1,0 +1,444 @@
+{
+  "version": 1,
+  "app_id": "318600",
+  "variant_id": "default",
+  "source_sha256": "9f894fd551d98507710d166fdfbd07e94515a5d32a18f0506c50e01b54b15cac",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "AnimalFriend": {
+      "translations": {
+        "english": {
+          "name": "Animal Friend",
+          "description": "Complete the campaign without killing any animals"
+        },
+        "schinese": {
+          "name": "动物之友",
+          "description": "在不杀害任何动物的情况下完成战役"
+        }
+      }
+    },
+    "Vegetarian": {
+      "translations": {
+        "english": {
+          "name": "Vegetarian",
+          "description": "Survive the first 20 days in Endless Mode without killing any animals"
+        },
+        "schinese": {
+          "name": "素食主义者",
+          "description": "在无尽模式下不杀害任何动物度过最初20天"
+        }
+      }
+    },
+    "PaleoDiet": {
+      "translations": {
+        "english": {
+          "name": "Paleo Diet",
+          "description": "Survive the first 40 days in Endless Mode without eating any plants"
+        },
+        "schinese": {
+          "name": "旧石器饮食",
+          "description": "在无尽模式下不吃任何植物度过最初40天"
+        }
+      }
+    },
+    "PackRat": {
+      "translations": {
+        "english": {
+          "name": "Pack Rat",
+          "description": "Expand your inventory to the maximum"
+        },
+        "schinese": {
+          "name": "囤积癖",
+          "description": "将背包扩容至最大"
+        }
+      }
+    },
+    "ArcticSurvivor": {
+      "translations": {
+        "english": {
+          "name": "Artic Survivor",
+          "description": "Equip a full set of Bear Hide clothing"
+        },
+        "schinese": {
+          "name": "极地幸存者",
+          "description": "装备一整套熊皮衣物"
+        }
+      }
+    },
+    "Seafarer": {
+      "translations": {
+        "english": {
+          "name": "Seafarer",
+          "description": "Fully upgrade your raft in a single playthrough"
+        },
+        "schinese": {
+          "name": "航海家",
+          "description": "在单次游戏中将木筏升至满级"
+        }
+      }
+    },
+    "Crafty": {
+      "translations": {
+        "english": {
+          "name": "Crafty",
+          "description": "Craft every item"
+        },
+        "schinese": {
+          "name": "心灵手巧",
+          "description": "制作所有物品"
+        }
+      }
+    },
+    "UnderTheStars": {
+      "translations": {
+        "english": {
+          "name": "Under the Stars",
+          "description": "Survive 40 days in Endless Mode without sleeping in a shelter"
+        },
+        "schinese": {
+          "name": "星空之下",
+          "description": "在无尽模式下不睡在庇护所中存活40天"
+        }
+      }
+    },
+    "TheLongestRiver": {
+      "translations": {
+        "english": {
+          "name": "The Longest River",
+          "description": "Survive 100 miles in Endless Mode"
+        },
+        "schinese": {
+          "name": "最长之河",
+          "description": "在无尽模式下存活100英里"
+        }
+      }
+    },
+    "Rivergod": {
+      "translations": {
+        "english": {
+          "name": "Rivergod",
+          "description": "Survive 200 miles in Endless Mode"
+        },
+        "schinese": {
+          "name": "河神",
+          "description": "在无尽模式下存活200英里"
+        }
+      }
+    },
+    "Chatty": {
+      "translations": {
+        "english": {
+          "name": "Chatty",
+          "description": "Speak with every river resident"
+        },
+        "schinese": {
+          "name": "话匣子",
+          "description": "与所有河流居民交谈"
+        }
+      }
+    },
+    "LearnedTheHardWay": {
+      "translations": {
+        "english": {
+          "name": "Learned the Hard Way",
+          "description": "Die in every possible way"
+        },
+        "schinese": {
+          "name": "血的教训",
+          "description": "以所有可能的方式死亡"
+        }
+      }
+    },
+    "TheGrey": {
+      "translations": {
+        "english": {
+          "name": "The Grey",
+          "description": "Kill a wolf"
+        },
+        "schinese": {
+          "name": "人狼大战",
+          "description": "杀死一匹狼"
+        }
+      }
+    },
+    "FieldMedic": {
+      "translations": {
+        "english": {
+          "name": "Field Medic",
+          "description": "Cure 30 afflictions in a single playthrough"
+        },
+        "schinese": {
+          "name": "战地医生",
+          "description": "单次游戏中治愈30种病症"
+        }
+      }
+    },
+    "HighGround": {
+      "translations": {
+        "english": {
+          "name": "High Ground",
+          "description": "Reach High Ground in the Campaign Mode"
+        },
+        "schinese": {
+          "name": "制高点",
+          "description": "在战役模式中抵达制高点"
+        }
+      }
+    },
+    "ThePathUp": {
+      "translations": {
+        "english": {
+          "name": "The Path Up",
+          "description": "Reach Angel Yards in Campaign Mode"
+        },
+        "schinese": {
+          "name": "上行之路",
+          "description": "在战役模式中抵达天使园"
+        }
+      }
+    },
+    "TheKingdom": {
+      "translations": {
+        "english": {
+          "name": "The Kingdom",
+          "description": "Reach The Kingdom in Campaign Mode"
+        },
+        "schinese": {
+          "name": "王国",
+          "description": "在战役模式中抵达王国"
+        }
+      }
+    },
+    "Mechanic": {
+      "translations": {
+        "english": {
+          "name": "Mechanic",
+          "description": "Repair 1000 points of raft health"
+        },
+        "schinese": {
+          "name": "机械师",
+          "description": "修复1000点木筏耐久度"
+        }
+      }
+    },
+    "CanBearlyTakeIt": {
+      "translations": {
+        "english": {
+          "name": "Can Bearly Take It",
+          "description": "Killl a Bear"
+        },
+        "schinese": {
+          "name": "不堪熊负",
+          "description": "杀死一头熊"
+        }
+      }
+    },
+    "IBeenEverywhereMan": {
+      "translations": {
+        "english": {
+          "name": "I been everywhere, man",
+          "description": "Visit every location type"
+        },
+        "schinese": {
+          "name": "哪儿都去过",
+          "description": "造访所有类型的地点"
+        }
+      }
+    },
+    "PayItForward": {
+      "translations": {
+        "english": {
+          "name": "Pay It Forward",
+          "description": "Start a new game with items in Aesop's bag"
+        },
+        "schinese": {
+          "name": "薪火相传",
+          "description": "带着伊索包里的物品开始新游戏"
+        }
+      }
+    },
+    "Invincible": {
+      "translations": {
+        "english": {
+          "name": "Invincible",
+          "description": "After 20 days of travel, have every stat at 100% and no afflictions"
+        },
+        "schinese": {
+          "name": "无敌",
+          "description": "旅行20天后，所有状态值均达到100%且无任何病症"
+        }
+      }
+    },
+    "SpeedBoat": {
+      "translations": {
+        "english": {
+          "name": "Speed Boat",
+          "description": "Travel 20 miles with the raft motor running"
+        },
+        "schinese": {
+          "name": "疾速快艇",
+          "description": "开着木筏马达航行20英里"
+        }
+      }
+    },
+    "Sickly": {
+      "translations": {
+        "english": {
+          "name": "Sickly",
+          "description": "Contract Every Affliction"
+        },
+        "schinese": {
+          "name": "病秧子",
+          "description": "染上所有病症"
+        }
+      }
+    },
+    "Terraphobia": {
+      "translations": {
+        "english": {
+          "name": "Terraphobia",
+          "description": "Travel 10 miles on the river without stopping"
+        },
+        "schinese": {
+          "name": "恐地症",
+          "description": "在河上不间断航行10英里"
+        }
+      }
+    },
+    "Hallelujah": {
+      "translations": {
+        "english": {
+          "name": "Hallelujah",
+          "description": "Sleep in 20 churches"
+        },
+        "schinese": {
+          "name": "哈利路亚",
+          "description": "在20座教堂里睡过觉"
+        }
+      }
+    },
+    "ByAThread": {
+      "translations": {
+        "english": {
+          "name": "By A Thread",
+          "description": "Have 10 stacked afflictions"
+        },
+        "schinese": {
+          "name": "命悬一线",
+          "description": "同时身患10种病症"
+        }
+      }
+    },
+    "StayWarm": {
+      "translations": {
+        "english": {
+          "name": "Stay Warm",
+          "description": "Build a campfire"
+        },
+        "schinese": {
+          "name": "保持温暖",
+          "description": "生起一堆篝火"
+        }
+      }
+    },
+    "IronStomach": {
+      "translations": {
+        "english": {
+          "name": "Iron Stomach",
+          "description": "Eat all the bad stuff in a single playthrough (tainted bait, spoiled fish, raw meat, spoiled meat, devil's trumpet)"
+        },
+        "schinese": {
+          "name": "铁胃",
+          "description": "在单次游戏中吃遍所有坏东西（受污染的诱饵、变质的鱼、生肉、腐肉、曼陀罗）"
+        }
+      }
+    },
+    "DeathOnTheTrail": {
+      "translations": {
+        "english": {
+          "name": "Death on the Trail",
+          "description": "Die from dehydration with suffering from dysentery"
+        },
+        "schinese": {
+          "name": "命丧旅途",
+          "description": "在患有痢疾的情况下死于脱水"
+        }
+      }
+    },
+    "Seamstress": {
+      "translations": {
+        "english": {
+          "name": "Seamstress",
+          "description": "Make 50 articles of clothing"
+        },
+        "schinese": {
+          "name": "裁缝",
+          "description": "制作50件衣物"
+        }
+      }
+    },
+    "InWolfsClothing": {
+      "translations": {
+        "english": {
+          "name": "In Wolf's Clothing",
+          "description": "Equip a full set of Wolf Hide clothing"
+        },
+        "schinese": {
+          "name": "披着狼皮",
+          "description": "装备一整套狼皮衣物"
+        }
+      }
+    },
+    "Locusta": {
+      "translations": {
+        "english": {
+          "name": "Locusta",
+          "description": "Poison 20 wolves with tainted meat"
+        },
+        "schinese": {
+          "name": "洛库斯塔",
+          "description": "用变质肉毒杀20只狼"
+        }
+      }
+    },
+    "snakecharmer": {
+      "translations": {
+        "english": {
+          "name": "Snake Charmer",
+          "description": "Lure a hostile animal into a snake"
+        },
+        "schinese": {
+          "name": "耍蛇人",
+          "description": "将一只敌对动物引到蛇的身边"
+        }
+      }
+    },
+    "deadeye": {
+      "translations": {
+        "english": {
+          "name": "Dead-Eye",
+          "description": "Kill every animal type with arrows"
+        },
+        "schinese": {
+          "name": "神射手",
+          "description": "用箭矢击杀所有种类的动物"
+        }
+      }
+    },
+    "Forager": {
+      "translations": {
+        "english": {
+          "name": "Forager",
+          "description": "Eat every type of plant"
+        },
+        "schinese": {
+          "name": "觅食者",
+          "description": "吃遍所有种类的植物"
+        }
+      }
+    }
+  }
+}
