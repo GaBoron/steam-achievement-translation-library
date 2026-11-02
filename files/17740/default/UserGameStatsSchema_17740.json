@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "app_id": "17740",
+  "variant_id": "default",
+  "source_sha256": "53e4372754255fd2de21dccb8a5def28efc8927bd6d4ed302d0e1a76a4eafdd4",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "EMPIRES_FREE_MARKET": {
+      "translations": {
+        "english": {
+          "name": "Free Market",
+          "description": "Build a tank even though your commander has restricted vehicle creation."
+        },
+        "schinese": {
+          "name": "自由市场",
+          "description": "即使指挥官已限制载具生产，仍建造出一辆坦克。"
+        }
+      }
+    },
+    "EMPIRES_JUST_IN_TIME": {
+      "translations": {
+        "english": {
+          "name": "Just in Time",
+          "description": "Leave your vehicle just before it explodes."
+        },
+        "schinese": {
+          "name": "及时脱身",
+          "description": "在载具爆炸前一刻离开。"
+        }
+      }
+    },
+    "EMPIRES_DRIVE_ME_CLOSER": {
+      "translations": {
+        "english": {
+          "name": "Drive Me Closer",
+          "description": "Get a melee kill while in a vehicle."
+        },
+        "schinese": {
+          "name": "开近点",
+          "description": "在载具内完成一次近战击杀。"
+        }
+      }
+    },
+    "EMPIRES_PARTYBUS": {
+      "translations": {
+        "english": {
+          "name": "Partybus",
+          "description": "This won't end well."
+        },
+        "schinese": {
+          "name": "派对巴士",
+          "description": "这结局恐怕不会太妙。"
+        }
+      }
+    },
+    "EMPIRES_PACIFIST": {
+      "translations": {
+        "english": {
+          "name": "Pacifist",
+          "description": "Have the highest score without any kills."
+        },
+        "schinese": {
+          "name": "和平主义者",
+          "description": "在零击杀的情况下获得全场最高分。"
+        }
+      }
+    },
+    "EMPIRES_BACKFROMTHEDEAD": {
+      "translations": {
+        "english": {
+          "name": "Back from the Dead",
+          "description": "Kill an enemy just after being revived."
+        },
+        "schinese": {
+          "name": "死而复生",
+          "description": "刚被复活后便击杀一名敌人。"
+        }
+      }
+    },
+    "EMPIRES_QUIDPROQUOPRO": {
+      "translations": {
+        "english": {
+          "name": "Quid Pro Quo Pro",
+          "description": "Revive a friendly engineer who recently revived you."
+        },
+        "schinese": {
+          "name": "投桃报李",
+          "description": "复活一名刚刚复活过你的友方工程师。"
+        }
+      }
+    },
+    "EMPIRES_NEVERGIVEUP": {
+      "translations": {
+        "english": {
+          "name": "Never Give Up, Never Surrender",
+          "description": "Defeat the enemy team before they run out of tickets, despite having no tickets of your own."
+        },
+        "schinese": {
+          "name": "永不放弃，永不投降",
+          "description": "在己方票数已耗尽的情况下，赶在敌方票数耗尽之前击败敌方队伍。"
+        }
+      }
+    }
+  }
+}
