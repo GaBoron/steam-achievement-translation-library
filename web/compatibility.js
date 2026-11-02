@@ -1,8 +1,8 @@
-// Minimum released versions: SATLI introduced Catalog V2 in 2.1.0;
+// Minimum released versions: SATLI introduced Catalog V2 in 2.1.0 and JSON formats 1/2 in 3.0.0.
 // SATLI lite introduced format 1 in 0.1.0 and standalone format 2 in 0.2.0.
 // Omit unsupported formats until a compatible client release is available.
 const clients = [
-  { name: 'SATLI', bin: '2.1.0', json: {} },
+  { name: 'SATLI', bin: '2.1.0', json: { 1: '3.0.0', 2: '3.0.0' } },
   { name: 'SATLI lite', json: { 1: '0.1.0', 2: '0.2.0' } },
 ];
 
