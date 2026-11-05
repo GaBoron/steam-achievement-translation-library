@@ -1,0 +1,1034 @@
+{
+  "version": 1,
+  "app_id": "538680",
+  "variant_id": "default",
+  "source_sha256": "e66fad42e141dd83633c98981b6a970bb718d4757a4e2b05b4042419f8ce8449",
+  "languages": [
+    "english",
+    "japanese",
+    "schinese",
+    "tchinese"
+  ],
+  "achievements": {
+    "STROPHY_PLATINUM": {
+      "translations": {
+        "english": {
+          "name": "Cold Steel Conqueror",
+          "description": "Mastered Trails of Cold Steel and earned every achievement."
+        },
+        "japanese": {
+          "name": "THE LEGEND OF HEROES",
+          "description": "全ての実績を獲得した。"
+        },
+        "schinese": {
+          "name": "THE LEGEND OF HEROES",
+          "description": "取得全部成就。"
+        },
+        "tchinese": {
+          "name": "THE LEGEND OF HEROES",
+          "description": "取得全部成就。"
+        }
+      }
+    },
+    "STROPHY_MAX_APRANK": {
+      "translations": {
+        "english": {
+          "name": "Valedictorian",
+          "description": "Achieved student rank A0."
+        },
+        "japanese": {
+          "name": "甲零級学生",
+          "description": "学生ランクが甲零級になった。"
+        },
+        "schinese": {
+          "name": "甲零级学生",
+          "description": "学生阶级提升至甲零级。"
+        },
+        "tchinese": {
+          "name": "甲零級學生",
+          "description": "學生階級提升至甲零級。"
+        }
+      }
+    },
+    "STROPHY_DECORATION": {
+      "translations": {
+        "english": {
+          "name": "Heart of a Lion",
+          "description": "Received the Lionheart Medal of Heroism from Principal Vandyck."
+        },
+        "japanese": {
+          "name": "獅子心英雄章",
+          "description": "学院長から『獅子心英雄章』を授与された。"
+        },
+        "schinese": {
+          "name": "狮子心英雄章",
+          "description": "从学院长手中获颁「狮子心英雄章」。"
+        },
+        "tchinese": {
+          "name": "獅子心英雄章",
+          "description": "從學院長手中獲頒「獅子心英雄章」。"
+        }
+      }
+    },
+    "STROPHY_COMP_QUEST": {
+      "translations": {
+        "english": {
+          "name": "Class Act",
+          "description": "Completed all quests, both extra-curricular and during field studies."
+        },
+        "japanese": {
+          "name": "クエストマスター",
+          "description": "全てのクエスト（課外活動、実習課題）を達成した。"
+        },
+        "schinese": {
+          "name": "委托大师",
+          "description": "完成所有委托，包括课外活动及实习课题。"
+        },
+        "tchinese": {
+          "name": "委託大師",
+          "description": "完成所有委託，包括課外活動及實習課題。"
+        }
+      }
+    },
+    "STROPHY_COMP_BATTLENOTE": {
+      "translations": {
+        "english": {
+          "name": "Field Guide to Erebonian Wildlife",
+          "description": "Completely filled the monster guide."
+        },
+        "japanese": {
+          "name": "バトルマスター",
+          "description": "戦闘ノートの全情報を埋めた。"
+        },
+        "schinese": {
+          "name": "战斗大师",
+          "description": "收集完整的战斗笔记本信息。"
+        },
+        "tchinese": {
+          "name": "戰鬥大師",
+          "description": "收集完整的戰鬥筆記本資訊。"
+        }
+      }
+    },
+    "STROPHY_COMP_COOKINGNOTE": {
+      "translations": {
+        "english": {
+          "name": "Cafeteria Commando",
+          "description": "Obtained all recipes."
+        },
+        "japanese": {
+          "name": "炎の料理人",
+          "description": "全てのレシピを入手した。"
+        },
+        "schinese": {
+          "name": "炎之料理人",
+          "description": "收集全部料理食谱。"
+        },
+        "tchinese": {
+          "name": "炎之料理人",
+          "description": "收集全部料理食譜。"
+        }
+      }
+    },
+    "STROPHY_COMP_FISHINGNOTE": {
+      "translations": {
+        "english": {
+          "name": "Lake Lord",
+          "description": "Caught all varieties of fish."
+        },
+        "japanese": {
+          "name": "爆釣王",
+          "description": "全ての魚を釣った。"
+        },
+        "schinese": {
+          "name": "爆钓王",
+          "description": "钓获所有种类的鱼。"
+        },
+        "tchinese": {
+          "name": "爆釣王",
+          "description": "釣獲所有種類的魚。"
+        }
+      }
+    },
+    "STROPHY_COMP_CHARANOTE": {
+      "translations": {
+        "english": {
+          "name": "Social Note-working",
+          "description": "Completed all of the character profiles in the notebook."
+        },
+        "japanese": {
+          "name": "人物マスター",
+          "description": "人物ノートの全情報を埋めた。"
+        },
+        "schinese": {
+          "name": "人物大师",
+          "description": "收集完整的人物笔记本信息。"
+        },
+        "tchinese": {
+          "name": "人物大師",
+          "description": "收集完整的人物筆記本資訊。"
+        }
+      }
+    },
+    "STROPHY_COMP_BOOKNOTE": {
+      "translations": {
+        "english": {
+          "name": "Honorary Literature Club Member",
+          "description": "Completely filled the book section of the notebook."
+        },
+        "japanese": {
+          "name": "ブックマニア",
+          "description": "書物ノートの全情報を埋めた。"
+        },
+        "schinese": {
+          "name": "爱书成痴",
+          "description": "收集完整的书籍笔记本信息。"
+        },
+        "tchinese": {
+          "name": "愛書成癡",
+          "description": "收集完整的書籍筆記本資訊。"
+        }
+      }
+    },
+    "STROPHY_GETALL_TREASURE": {
+      "translations": {
+        "english": {
+          "name": "Chest Grabber",
+          "description": "Opened every treasure chest in a single playthrough."
+        },
+        "japanese": {
+          "name": "トレジャーハンター",
+          "description": "全ての宝箱を開けた。"
+        },
+        "schinese": {
+          "name": "宝藏猎人",
+          "description": "开启游戏中的全部宝箱。"
+        },
+        "tchinese": {
+          "name": "寶藏獵人",
+          "description": "開啟遊戲中的全部寶箱。"
+        }
+      }
+    },
+    "STROPHY_GETALL_MQUARTZ": {
+      "translations": {
+        "english": {
+          "name": "More Like Rean QUARTZ-er",
+          "description": "Gathered all 28 varieties of master quartz."
+        },
+        "japanese": {
+          "name": "Ｍクオーツコレクター",
+          "description": "２８種あるマスタークオーツを全て集めた。"
+        },
+        "schinese": {
+          "name": "核心回路收藏家",
+          "description": "取得全部28种核心回路。"
+        },
+        "tchinese": {
+          "name": "核心迴路收藏家",
+          "description": "取得全部28種核心迴路。"
+        }
+      }
+    },
+    "STROPHY_CLEAR_NIHGTMARE": {
+      "translations": {
+        "english": {
+          "name": "Crown of Nightmares",
+          "description": "Completed the game on nightmare difficulty."
+        },
+        "japanese": {
+          "name": "地獄の栄冠",
+          "description": "難易度ナイトメアでゲームをクリアした。"
+        },
+        "schinese": {
+          "name": "地狱之荣冠",
+          "description": "以噩梦难度通关游戏。"
+        },
+        "tchinese": {
+          "name": "地獄之榮冠",
+          "description": "以惡夢難度通關遊戲。"
+        }
+      }
+    },
+    "STROPHY_CLEAR_HARD": {
+      "translations": {
+        "english": {
+          "name": "Crown of Fortitude",
+          "description": "Completed the game on hard or nightmare difficulty."
+        },
+        "japanese": {
+          "name": "剛毅の栄冠",
+          "description": "難易度ハード以上でゲームをクリアした。"
+        },
+        "schinese": {
+          "name": "刚毅之荣冠",
+          "description": "以困难或更高难度通关游戏。"
+        },
+        "tchinese": {
+          "name": "剛毅之榮冠",
+          "description": "以困難或更高難度通關遊戲。"
+        }
+      }
+    },
+    "STROPHY_HIGH_MIRA": {
+      "translations": {
+        "english": {
+          "name": "International Bank of Rean",
+          "description": "Acquired over a million mira."
+        },
+        "japanese": {
+          "name": "百万長者",
+          "description": "所持金が１００万ミラ以上になった。"
+        },
+        "schinese": {
+          "name": "百万富翁",
+          "description": "持有的米拉达到100万以上。"
+        },
+        "tchinese": {
+          "name": "百萬富翁",
+          "description": "持有的米拉達到100萬以上。"
+        }
+      }
+    },
+    "STROPHY_HIGH_PLAYTIME": {
+      "translations": {
+        "english": {
+          "name": "Trails in the Couch",
+          "description": "Played for over 100 hours."
+        },
+        "japanese": {
+          "name": "継続の粋人",
+          "description": "プレイ時間が１００時間以上になった。"
+        },
+        "schinese": {
+          "name": "延续之雅士",
+          "description": "累计游玩时间达到100小时。"
+        },
+        "tchinese": {
+          "name": "延續之雅士",
+          "description": "累計遊玩時間達到100小時。"
+        }
+      }
+    },
+    "STROPHY_MAX_MQUARTZ": {
+      "translations": {
+        "english": {
+          "name": "Flawless Jewel",
+          "description": "Raised a master quartz to level 5."
+        },
+        "japanese": {
+          "name": "至境の珠",
+          "description": "いずれかのマスタークオーツをＬＶ５にした。"
+        },
+        "schinese": {
+          "name": "至境之珠",
+          "description": "将任意一个核心回路提升至LV5。"
+        },
+        "tchinese": {
+          "name": "至境之珠",
+          "description": "將任意一個核心迴路提升至LV5。"
+        }
+      }
+    },
+    "STROPHY_STRONGEST_WEAPON": {
+      "translations": {
+        "english": {
+          "name": "The Cutting Edge",
+          "description": "Acquired the strongest weapon for any character."
+        },
+        "japanese": {
+          "name": "至高の剣",
+          "description": "最強武器を作成した。"
+        },
+        "schinese": {
+          "name": "至高之剑",
+          "description": "制作任意角色的最强武器。"
+        },
+        "tchinese": {
+          "name": "至高之劍",
+          "description": "製作任意角色的最強武器。"
+        }
+      }
+    },
+    "STROPHY_BATTLECOUNT_A": {
+      "translations": {
+        "english": {
+          "name": "Frequent Fighter",
+          "description": "Won 100 battles."
+        },
+        "japanese": {
+          "name": "力戦の勇士",
+          "description": "戦闘勝利回数１００回達成。"
+        },
+        "schinese": {
+          "name": "力战之勇士",
+          "description": "累计赢得100场战斗。"
+        },
+        "tchinese": {
+          "name": "力戰之勇士",
+          "description": "累計贏得100場戰鬥。"
+        }
+      }
+    },
+    "STROPHY_BATTLECOUNT_B": {
+      "translations": {
+        "english": {
+          "name": "Advanced Beatonomics",
+          "description": "Won 500 battles."
+        },
+        "japanese": {
+          "name": "奮戦の猛者",
+          "description": "戦闘勝利回数５００回達成。"
+        },
+        "schinese": {
+          "name": "奋战之猛者",
+          "description": "累计赢得500场战斗。"
+        },
+        "tchinese": {
+          "name": "奮戰之猛者",
+          "description": "累計贏得500場戰鬥。"
+        }
+      }
+    },
+    "STROPHY_BATTLECOUNT_C": {
+      "translations": {
+        "english": {
+          "name": "Neithardt Would Be Proud",
+          "description": "Won 1000 battles."
+        },
+        "japanese": {
+          "name": "歴戦の勝者",
+          "description": "戦闘勝利回数１０００回達成。"
+        },
+        "schinese": {
+          "name": "历战之胜者",
+          "description": "累计赢得1000场战斗。"
+        },
+        "tchinese": {
+          "name": "歷戰之勝者",
+          "description": "累計贏得1000場戰鬥。"
+        }
+      }
+    },
+    "STROPHY_FASTATTACK": {
+      "translations": {
+        "english": {
+          "name": "Quick as a Flash",
+          "description": "Initiated 300 advantage encounters (including double and triple advantage)."
+        },
+        "japanese": {
+          "name": "雷光一閃",
+          "description": "先制／優勢／奇襲攻撃を計３００回発生させた。"
+        },
+        "schinese": {
+          "name": "雷光一闪",
+          "description": "累计发动300次先制、优势或奇袭攻击。"
+        },
+        "tchinese": {
+          "name": "雷光一閃",
+          "description": "累計發動300次先制、優勢或奇襲攻擊。"
+        }
+      }
+    },
+    "STROPHY_SBREAK": {
+      "translations": {
+        "english": {
+          "name": "Breakout Performance",
+          "description": "Used 100 S-Breaks in battle."
+        },
+        "japanese": {
+          "name": "超絶秘技",
+          "description": "Ｓブレイクを１００回発動した。"
+        },
+        "schinese": {
+          "name": "超绝秘技",
+          "description": "在战斗中累计发动100次S-Break。"
+        },
+        "tchinese": {
+          "name": "超絕秘技",
+          "description": "在戰鬥中累計發動100次S-Break。"
+        }
+      }
+    },
+    "STROPHY_DRIVECANCELL": {
+      "translations": {
+        "english": {
+          "name": "Can't Touch This!",
+          "description": "Canceled enemy arts and crafts 100 times."
+        },
+        "japanese": {
+          "name": "百花迎撃",
+          "description": "敵の技・アーツの駆動を１００回阻止した。"
+        },
+        "schinese": {
+          "name": "百花迎击",
+          "description": "累计100次打断敌人正在驱动的战技或魔法。"
+        },
+        "tchinese": {
+          "name": "百花迎擊",
+          "description": "累計100次打斷敵人正在驅動的戰技或魔法。"
+        }
+      }
+    },
+    "STROPHY_TBONUS": {
+      "translations": {
+        "english": {
+          "name": "Tactical Thinker",
+          "description": "Won a battle with a tactical bonus of x2.0 or greater."
+        },
+        "japanese": {
+          "name": "絢爛攻守",
+          "description": "タクティカルボーナスを×２．０以上にした。"
+        },
+        "schinese": {
+          "name": "绚烂攻守",
+          "description": "使战术奖励倍率达到2.0倍以上。"
+        },
+        "tchinese": {
+          "name": "絢爛攻守",
+          "description": "使戰術獎勵倍率達到2.0倍以上。"
+        }
+      }
+    },
+    "STROPHY_MASSIVE_BASTER": {
+      "translations": {
+        "english": {
+          "name": "Eightfold Obliteration",
+          "description": "Defeated 8 enemies at once."
+        },
+        "japanese": {
+          "name": "八頭撃滅",
+          "description": "敵８体を同時に倒した。"
+        },
+        "schinese": {
+          "name": "八头击灭",
+          "description": "在同一场战斗中同时击倒8名敌人。"
+        },
+        "tchinese": {
+          "name": "八頭擊滅",
+          "description": "在同一場戰鬥中同時擊倒8名敵人。"
+        }
+      }
+    },
+    "STROPHY_MASTER_LINK": {
+      "translations": {
+        "english": {
+          "name": "Link Master",
+          "description": "Raised any two characters to Link Level 5."
+        },
+        "japanese": {
+          "name": "リンクマスター",
+          "description": "誰かと誰かのリンクレベルが５になった。"
+        },
+        "schinese": {
+          "name": "连结大师",
+          "description": "使任意两名角色之间的连结等级达到5。"
+        },
+        "tchinese": {
+          "name": "連結大師",
+          "description": "使任意兩名角色之間的連結等級達到5。"
+        }
+      }
+    },
+    "STROPHY_MASTER_CHASE": {
+      "translations": {
+        "english": {
+          "name": "Follow-Up Master",
+          "description": "Used over 500 follow-up attacks in battle."
+        },
+        "japanese": {
+          "name": "追撃マスター",
+          "description": "追撃を５００回以上行った。"
+        },
+        "schinese": {
+          "name": "追击大师",
+          "description": "在战斗中累计发动500次以上的追击。"
+        },
+        "tchinese": {
+          "name": "追擊大師",
+          "description": "在戰鬥中累計發動500次以上的追擊。"
+        }
+      }
+    },
+    "STROPHY_MASTER_RUSH": {
+      "translations": {
+        "english": {
+          "name": "Rush Master",
+          "description": "Used Rush in battle 100 times."
+        },
+        "japanese": {
+          "name": "ラッシュマスター",
+          "description": "ラッシュを１００回以上行った。"
+        },
+        "schinese": {
+          "name": "连续猛攻大师",
+          "description": "在战斗中累计发动100次以上的连续猛攻。"
+        },
+        "tchinese": {
+          "name": "連續猛攻大師",
+          "description": "在戰鬥中累計發動100次以上的連續猛攻。"
+        }
+      }
+    },
+    "STROPHY_MASTER_BURST": {
+      "translations": {
+        "english": {
+          "name": "Burst Master",
+          "description": "Used Burst in battle 50 times."
+        },
+        "japanese": {
+          "name": "バーストマスター",
+          "description": "バーストを５０回以上行った。"
+        },
+        "schinese": {
+          "name": "爆裂猛攻大师",
+          "description": "在战斗中累计发动50次以上的爆裂猛攻。"
+        },
+        "tchinese": {
+          "name": "爆裂猛攻大師",
+          "description": "在戰鬥中累計發動50次以上的爆裂猛攻。"
+        }
+      }
+    },
+    "STROPHY_REPORT_SRANK": {
+      "translations": {
+        "english": {
+          "name": "Making the Grade",
+          "description": "Earned an S-Rank on any chapter."
+        },
+        "japanese": {
+          "name": "特別優等生",
+          "description": "いずれかの章で、評価Ｓを取った。"
+        },
+        "schinese": {
+          "name": "特优生",
+          "description": "在任意章节取得S级评价。"
+        },
+        "tchinese": {
+          "name": "特優生",
+          "description": "在任意章節取得S級評價。"
+        }
+      }
+    },
+    "STROPHY_KIZUNA_ALISA": {
+      "translations": {
+        "english": {
+          "name": "R is for Romance",
+          "description": "Forged a strong bond with Alisa."
+        },
+        "japanese": {
+          "name": "アリサとの絆",
+          "description": "アリサとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和亚莉莎的羁绊",
+          "description": "与亚莉莎建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和亞莉莎的羈絆",
+          "description": "與亞莉莎建立深厚的羈絆。"
+        }
+      }
+    },
+    "STROPHY_KIZUNA_ELIOT": {
+      "translations": {
+        "english": {
+          "name": "Music to My Ears",
+          "description": "Forged a strong bond with Elliot."
+        },
+        "japanese": {
+          "name": "エリオットとの絆",
+          "description": "エリオットとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和艾略特的羁绊",
+          "description": "与艾略特建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和艾略特的羈絆",
+          "description": "與艾略特建立深厚的羈絆。"
+        }
+      }
+    },
+    "STROPHY_KIZUNA_LAURA": {
+      "translations": {
+        "english": {
+          "name": "Here With You To Knight",
+          "description": "Forged a strong bond with Laura."
+        },
+        "japanese": {
+          "name": "ラウラとの絆",
+          "description": "ラウラとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和劳拉的羁绊",
+          "description": "与劳拉建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和勞拉的羈絆",
+          "description": "與勞拉建立深厚的羈絆。"
+        }
+      }
+    },
+    "STROPHY_KIZUNA_MACHIAS": {
+      "translations": {
+        "english": {
+          "name": "Equal Opportunity",
+          "description": "Forged a strong bond with Machias."
+        },
+        "japanese": {
+          "name": "マキアスとの絆",
+          "description": "マキアスとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和马奇亚斯的羁绊",
+          "description": "与马奇亚斯建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和馬奇亞斯的羈絆",
+          "description": "與馬奇亞斯建立深厚的羈絆。"
+        }
+      }
+    },
+    "STROPHY_KIZUNA_EMMA": {
+      "translations": {
+        "english": {
+          "name": "Magic Moment",
+          "description": "Forged a strong bond with Emma."
+        },
+        "japanese": {
+          "name": "エマとの絆",
+          "description": "エマとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和艾玛的羁绊",
+          "description": "与艾玛建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和艾瑪的羈絆",
+          "description": "與艾瑪建立深厚的羈絆。"
+        }
+      }
+    },
+    "STROPHY_KIZUNA_JUSIS": {
+      "translations": {
+        "english": {
+          "name": "Noblesse Oblige",
+          "description": "Forged a strong bond with Jusis."
+        },
+        "japanese": {
+          "name": "ユーシスとの絆",
+          "description": "ユーシスとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和尤西斯的羁绊",
+          "description": "与尤西斯建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和尤西斯的羈絆",
+          "description": "與尤西斯建立深厚的羈絆。"
+        }
+      }
+    },
+    "STROPHY_KIZUNA_FIE": {
+      "translations": {
+        "english": {
+          "name": "More Than a Fie-ling",
+          "description": "Forged a strong bond with Fie."
+        },
+        "japanese": {
+          "name": "フィーとの絆",
+          "description": "フィーとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和菲的羁绊",
+          "description": "与菲建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和菲的羈絆",
+          "description": "與菲建立深厚的羈絆。"
+        }
+      }
+    },
+    "STROPHY_KIZUNA_GAIUS": {
+      "translations": {
+        "english": {
+          "name": "Wind Beneath My Wings",
+          "description": "Forged a strong bond with Gaius."
+        },
+        "japanese": {
+          "name": "ガイウスとの絆",
+          "description": "ガイウスとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和盖乌斯的羁绊",
+          "description": "与盖乌斯建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和蓋烏斯的羈絆",
+          "description": "與蓋烏斯建立深厚的羈絆。"
+        }
+      }
+    },
+    "STROPHY_KIZUNA_MILLIUM": {
+      "translations": {
+        "english": {
+          "name": "The Young and the Reckless",
+          "description": "Forged a strong bond with Millium."
+        },
+        "japanese": {
+          "name": "ミリアムとの絆",
+          "description": "ミリアムとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和米莉亚姆的羁绊",
+          "description": "与米莉亚姆建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和米莉亞姆的羈絆",
+          "description": "與米莉亞姆建立深厚的羈絆。"
+        }
+      }
+    },
+    "STROPHY_KIZUNA_CROW": {
+      "translations": {
+        "english": {
+          "name": "Bad Crowmance",
+          "description": "Forged a strong bond with Crow."
+        },
+        "japanese": {
+          "name": "クロウとの絆",
+          "description": "クロウとの絆を深めた。"
+        },
+        "schinese": {
+          "name": "和克洛的羁绊",
+          "description": "与克洛建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和克洛的羈絆",
+          "description": "與克洛建立深厚的羈絆。"
+        }
+      }
+    },
+    "STROPHY_KIZUNA_SARA": {
+      "translations": {
+        "english": {
+          "name": "Hot for Teacher",
+          "description": "Forged a strong bond with Sara."
+        },
+        "japanese": {
+          "name": "サラとの絆",
+          "description": "サラ教官との絆を深めた。"
+        },
+        "schinese": {
+          "name": "和莎拉的羁绊",
+          "description": "与莎拉教官建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和莎拉的羈絆",
+          "description": "與莎拉教官建立深厚的羈絆。"
+        }
+      }
+    },
+    "STROPHY_KIZUNA_TOWA": {
+      "translations": {
+        "english": {
+          "name": "Mentorship",
+          "description": "Forged a strong bond with Towa."
+        },
+        "japanese": {
+          "name": "トワとの絆",
+          "description": "トワ会長との絆を深めた。"
+        },
+        "schinese": {
+          "name": "和托娃的羁绊",
+          "description": "与托娃会长建立深厚的羁绊。"
+        },
+        "tchinese": {
+          "name": "和托娃的羈絆",
+          "description": "與托娃會長建立深厚的羈絆。"
+        }
+      }
+    },
+    "STROPHY_SCENARIO_START": {
+      "translations": {
+        "english": {
+          "name": "Freshman Orientation",
+          "description": "Arrived in Trista for the first day of school."
+        },
+        "japanese": {
+          "name": "士官学院入学",
+          "description": "トリスタの街に到着した。"
+        },
+        "schinese": {
+          "name": "军官学院入学",
+          "description": "抵达托利斯塔市街。"
+        },
+        "tchinese": {
+          "name": "軍官學院入學",
+          "description": "抵達托利斯塔市街。"
+        }
+      }
+    },
+    "STROPHY_SCENARIO_00": {
+      "translations": {
+        "english": {
+          "name": "The Way to Thors",
+          "description": "Completed the prologue."
+        },
+        "japanese": {
+          "name": "トールズ士官学院",
+          "description": "序章「トールズ士官学院」をクリアした。"
+        },
+        "schinese": {
+          "name": "托尔兹军官学院",
+          "description": "通过序章「托尔兹军官学院」。"
+        },
+        "tchinese": {
+          "name": "托爾茲軍官學院",
+          "description": "通過序章「托爾茲軍官學院」。"
+        }
+      }
+    },
+    "STROPHY_SCENARIO_01": {
+      "translations": {
+        "english": {
+          "name": "Unconventional Studies",
+          "description": "Completed Chapter 1."
+        },
+        "japanese": {
+          "name": "新学期～初めての実習～",
+          "description": "\t第１章「新学期～初めての実習～」をクリアした。"
+        },
+        "schinese": {
+          "name": "新学期～首次实习～",
+          "description": "通过第一章「新学期～首次实习～」。"
+        },
+        "tchinese": {
+          "name": "新學期～首次實習～",
+          "description": "通過第一章「新學期～首次實習～」。"
+        }
+      }
+    },
+    "STROPHY_SCENARIO_02": {
+      "translations": {
+        "english": {
+          "name": "The Verdant City",
+          "description": "Completed Chapter 2."
+        },
+        "japanese": {
+          "name": "麗しき翡翠の都",
+          "description": "第２章「麗しき翡翠の都」をクリアした。"
+        },
+        "schinese": {
+          "name": "美丽的翡翠之都",
+          "description": "通过第二章「美丽的翡翠之都」。"
+        },
+        "tchinese": {
+          "name": "美麗的翡翠之都",
+          "description": "通過第二章「美麗的翡翠之都」。"
+        }
+      }
+    },
+    "STROPHY_SCENARIO_03": {
+      "translations": {
+        "english": {
+          "name": "Beyond the Railways",
+          "description": "Completed Chapter 3."
+        },
+        "japanese": {
+          "name": "鉄路を越えて～蒼穹の大地～",
+          "description": "第３章「鉄路を越えて～蒼穹の大地～」をクリアした。"
+        },
+        "schinese": {
+          "name": "横跨铁路～苍穹的大地～",
+          "description": "通过第三章「横跨铁路～苍穹的大地～」。"
+        },
+        "tchinese": {
+          "name": "橫跨鐵路～蒼穹的大地～",
+          "description": "通過第三章「橫跨鐵路～蒼穹的大地～」。"
+        }
+      }
+    },
+    "STROPHY_SCENARIO_04": {
+      "translations": {
+        "english": {
+          "name": "A Midsummer's Revels",
+          "description": "Completed Chapter 4."
+        },
+        "japanese": {
+          "name": "緋の帝都～夏至祭～",
+          "description": "第４章「緋の帝都～夏至祭～」をクリアした。"
+        },
+        "schinese": {
+          "name": "绯红帝都～仲夏节～",
+          "description": "通过第四章「绯红帝都～仲夏节～」。"
+        },
+        "tchinese": {
+          "name": "緋紅帝都～仲夏節～",
+          "description": "通過第四章「緋紅帝都～仲夏節～」。"
+        }
+      }
+    },
+    "STROPHY_SCENARIO_05": {
+      "translations": {
+        "english": {
+          "name": "Signs and Omens",
+          "description": "Completed Chapter 5."
+        },
+        "japanese": {
+          "name": "動き始めた意志",
+          "description": "第５章「動き始めた意志」をクリアした。"
+        },
+        "schinese": {
+          "name": "开始行动的意志",
+          "description": "通过第五章「开始行动的意志」。"
+        },
+        "tchinese": {
+          "name": "開始行動的意志",
+          "description": "通過第五章「開始行動的意志」。"
+        }
+      }
+    },
+    "STROPHY_SCENARIO_06": {
+      "translations": {
+        "english": {
+          "name": "Progressive Chaos",
+          "description": "Completed Chapter 6."
+        },
+        "japanese": {
+          "name": "黒と銀～鋼都動乱～",
+          "description": "第６章「黒と銀～鋼都動乱～」をクリアした。"
+        },
+        "schinese": {
+          "name": "黑与银～钢都动乱～",
+          "description": "通过第六章「黑与银～钢都动乱～」。"
+        },
+        "tchinese": {
+          "name": "黑與銀～鋼都動亂～",
+          "description": "通過第六章「黑與銀～鋼都動亂～」。"
+        }
+      }
+    },
+    "STROPHY_SCENARIO_CLEAR": {
+      "translations": {
+        "english": {
+          "name": "Put to the Test",
+          "description": "Completed the final chapter."
+        },
+        "japanese": {
+          "name": "士官学院祭、そして──",
+          "description": "終章「士官学院祭、そして──」をクリアした。"
+        },
+        "schinese": {
+          "name": "军官学院祭，然后──",
+          "description": "通过终章「军官学院祭，然后──」。"
+        },
+        "tchinese": {
+          "name": "軍官學院祭，然後──",
+          "description": "通過終章「軍官學院祭，然後──」。"
+        }
+      }
+    }
+  }
+}

@@ -83,7 +83,7 @@ FIELD_LABELS = {
     "reason": ["错误说明", "Issue details", "过期说明", "Why do you think the file is outdated?"],
     "reference": ["参考来源", "Reference or source"],
     "notes": ["备注", "Notes"],
-    "doc": ["成就 schema ZIP", "Uploaded achievement schema ZIP", "Achievement schema ZIP"],
+    "doc": ["翻译 JSON 或 schema ZIP", "Translation JSON or schema ZIP", "成就 schema ZIP", "Uploaded achievement schema ZIP", "Achievement schema ZIP"],
     "variant": ["要更新的版本 ID", "Version ID to update"],
 }
 ATTACHMENT_RE = re.compile(
@@ -162,7 +162,7 @@ def infer_issue_kind(issue: dict[str, Any]) -> str | None:
         return "update"
     if "### 需要翻译的成就 schema ZIP" in text or "### Achievement schema ZIP to translate" in text:
         return "translation-petition"
-    if "### 成就 schema ZIP" in text or "### Uploaded achievement schema ZIP" in text:
+    if any(heading in text for heading in ("### 翻译 JSON 或 schema ZIP", "### Translation JSON or schema ZIP", "### 成就 schema ZIP", "### Uploaded achievement schema ZIP")):
         return "translation-contribution"
     return None
 

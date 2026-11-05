@@ -160,6 +160,8 @@ def validated_entry_schema_variants(
     for record in records:
         variant_id = str(record.get("variant_id") or "")
         expected_path = schema_variant_relative_path(game_id, variant_id)
+        if str(record.get("schema_file") or "").endswith(".json"):
+            expected_path = catalog_v2.translation_json_relative_path(game_id, variant_id)
         if str(record.get("schema_file") or "") != expected_path:
             raise ValueError(f"版本 {variant_id} 的路径必须是 {expected_path}")
         if explicit_variants and not record.get("primary"):
