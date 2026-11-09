@@ -11,11 +11,11 @@ def _variant_record(game_id: str, variant_id: str, variant: dict[str, Any]) -> d
     record: dict[str, Any] = {
         "variant_id": variant_id,
         "primary": variant_id == "default",
-        "schema_file": catalog_v2.schema_relative_path(game_id, variant_id),
+        "schema_file": catalog_v2.artifact_relative_path(game_id, variant_id, variant),
         "note_zh": str(label.get("zh") or ""),
         "note_en": str(label.get("en") or ""),
-        "file_size_bytes": variant["size"],
-        "sha256": variant["sha256"],
+        "file_size_bytes": (variant["json"] if variant.get("format") == "json" else variant)["size"],
+        "sha256": (variant["json"] if variant.get("format") == "json" else variant)["sha256"],
         "achievement_count": variant["achievements"],
         "languages": list(variant["languages"]),
     }
@@ -53,7 +53,7 @@ def entries_from_catalog(catalog: dict[str, Any]) -> list[dict[str, Any]]:
             "updated_at": game["updated_at"],
             "status": game.get("status") or "current",
         }
-        if len(records) > 1:
+        if len(records) > 1 or primary["schema_file"].endswith(".json"):
             entry["schema_files"] = records
         if "json" in primary:
             entry["json"] = dict(primary["json"])
@@ -98,6 +98,10 @@ def catalog_from_entries(entries: list[dict[str, Any]]) -> dict[str, Any]:
             }
             if isinstance(record.get("json"), dict):
                 variant["json"] = dict(record["json"])
+            if str(record.get("schema_file") or "").endswith(".json"):
+                variant["format"] = "json"
+                variant.pop("sha256")
+                variant.pop("size")
             if len(_records(entry)) > 1 or label_zh or label_en:
                 variant["label"] = {"zh": label_zh or variant_id, "en": label_en or variant_id}
             description_zh = str(record.get("description_zh") or "").strip()
