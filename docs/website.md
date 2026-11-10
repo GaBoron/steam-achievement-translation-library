@@ -1,16 +1,10 @@
 # 网站维护
 
-网站位于 [GitHub Pages](https://gaboron.github.io/steam-achievement-translation-library/)，源码在 `web/`。前端使用原生 JavaScript 模块，不需要 npm、框架或后端。资源使用相对路径，游戏详情通过 `#/game/<app_id>` 分享；指定译本时追加 `/<variant_id>`，界面语言使用 `?lang=zh` 或 `?lang=en`。
+[返回首页](../README.md) · [English](#english)
 
-`web/tokens.css` 集中定义色彩角色、字号、形状、动效和状态层，`styles.css` 维护共用控件与应用外壳，`catalog.css`、`detail.css` 分别负责检索和详情布局。页面按 Modrinth 的检索页与项目页组织，使用灰色层级、绿色操作按钮、方形封面与 16px 圆角资源卡片。外框最大宽度为 1280px，左右留白 24px，检索侧栏宽度为 300px，栏间距为 12px。Inter 3.19 可变字体自托管于 `web/fonts/`，来源为 [Inter 官方发行版](https://github.com/rsms/inter/tree/v3.19)，同目录保留 SIL OFL 许可证。目录适配、列表、详情和预览分别维护在独立模块中；调整外观时保持浅深主题一致。交互沿用可见焦点、状态层与减弱动态效果支持。
+[翻译库网站](https://gaboron.github.io/steam-achievement-translation-library/) 的源码位于 `web/`，使用原生 JavaScript 模块，无需 npm、框架或后端。网站消费已发布 Catalog 和译本；投稿处理与 Catalog 发布见 [开发与维护](development.md)。
 
-`filter-group.js` 提供状态与语言的单选筛选，`select.js` 统一排序、主题、界面语言与预览选择菜单；`pagination.js` 供列表与预览共用，`languages.js` 将非标准语言代码归入“其他”。检索页左侧显示筛选，右侧显示搜索与资源条目；窄屏筛选折叠为弹出面板。详情页左侧展示资料，右侧通过 `detail-tabs.js` 切换下载与预览；`translation-files.js` 负责译本行、下载链接与展开的校验信息。窄屏将资料放在主内容之后。页面整体滚动，检索结果上下均提供页码；Ctrl K 在详情页返回检索并聚焦搜索。`motion.js` 统一内容过渡。
-
-`index-v2.json` 是唯一游戏目录来源。`workflow-scripts/build_website.py` 调用独立的 `website_build.py`，校验本地资源引用、Catalog 结构及各版本 BIN 的大小、SHA-256、语言和成就数，并将 JSON 与 BIN 派生内容逐字节比较。Windows checkout 产生的 JSON 换行会在构建输出中恢复为标准 LF，源文件不变。构建只复制网页资源、原始 Catalog 和其引用的 V2 BIN/JSON，不修改投稿或源数据。`site-meta.json` 记录构建提交，用于固定 GitHub 源文件链接。
-
-`web/steam-covers.json` 保存 Steam 封面地址快照；`game-covers.js` 供列表和详情共用，兼容带哈希的图片路径。发布构建通过 `--refresh-covers` 批量刷新输出中的地址，Steam 不可用时保留快照，本地默认构建无需联网。图片加载失败时回退旧地址和占位图标。贡献者显示 GitHub 头像，加载失败时保留用户图标。
-
-## 本地预览
+## 本地构建与预览
 
 在仓库根目录运行：
 
@@ -19,32 +13,110 @@ python workflow-scripts/build_website.py
 python -m http.server 8000 --directory _site
 ```
 
-打开 `http://localhost:8000/`。JavaScript 模块需要 HTTP，不能直接打开 HTML 文件。`_site/` 已被 Git 忽略；构建拒绝非空输出目录，不会清空或删除文件。再次构建前将旧目录移至系统回收站，或用 `--output` 指定新的空目录，并相应调整服务器的 `--directory`。
+打开 `http://localhost:8000/`。模块需要通过 HTTP 加载，不能直接打开 HTML 文件。构建输出默认是已被 Git 忽略的 `_site/`，不修改源文件。
 
-## 部署
+构建要求输出目录不存在或为空，不会清空已有文件。再次构建时，将旧输出移至系统回收站，或选择新的空目录：
 
-首次启用时，在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**，然后在 Actions 中手动运行 **Translation library website**。`github-pages` 环境如有部署分支限制，应允许 `main`。部署地址保持仓库子路径，无需新仓库、发布分支或自定义域名。[GitHub Pages 配置说明](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+```bash
+python workflow-scripts/build_website.py --output _site/preview
+python -m http.server 8000 --directory _site/preview
+```
 
-`.github/workflows/pages.yml` 在 `main` 推送、手动运行，以及 **Translation library automation** 或 **Translation finalizer watchdog** 成功完成后部署。后两者通过 `workflow_run` 补足机器人以 `GITHUB_TOKEN` 推送时不会触发普通 `push` 工作流的限制。[GitHub Actions 触发规则](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow)
+仓库内的自定义输出必须位于 `_site/` 下，也可使用仓库外的新目录；服务器的 `--directory` 与构建路径保持一致。`--refresh-covers` 会联网刷新输出中的 Steam 封面地址，失败时保留快照；默认构建无需联网。
 
-构建始终检出最新 `main`，不执行触发工作流的 PR 代码，也不读取其构件。只接受本仓库成功运行；构建和部署共用一个队列，最多保留 100 个等待运行，重复触发不会取消正在执行或已排队的发布。失败构建不会覆盖已发布网站。网站使用自有静态构建脚本，不需要 `configure-pages` 步骤；Pages 仍须按上述方式启用。Pages 构件只存于 Actions，不提交到主分支。CI 使用 Node 24 检查 JavaScript 语法，不安装 npm 依赖。翻译 PR 使用现有待入库校验；其他 PR 还会执行完整网站构建。
+## 前端职责与约束
+
+| 模块 | 职责 |
+| --- | --- |
+| `app.js`、`preferences.js`、`i18n.js` | 路由与页面组合、界面偏好、中英文文案 |
+| `catalog.js`、`translation-integrity.js` | Catalog 适配、检索、预览读取与格式对应的完整性校验 |
+| `list.js`、`detail.js`、`detail-tabs.js`、`preview.js` | 检索列表、游戏详情、下载与预览标签页、语言文本预览 |
+| `translation-files.js`、`compatibility.js` | 文件下载项、校验信息、已发布客户端的格式兼容性 |
+| `controls.js`、`filter-group.js`、`select.js`、`pagination.js` | 筛选、选择菜单与共用分页 |
+| `tokens.css`、`styles.css`、`catalog.css`、`detail.css` | 设计变量、共用控件与页面布局 |
+| `game-covers.js`、`steam-covers.json` | 列表和详情共用的封面加载与地址快照 |
+
+资源使用相对路径，保证仓库子路径部署正常。分享链接采用 `#/game/<app_id>`，指定版本时追加 `/<variant_id>`；界面语言使用 `?lang=zh` 或 `?lang=en`。
+
+修改界面时保留浅深主题、窄屏布局、可见焦点和减弱动态效果支持。可选菜单、分页和过渡复用现有模块；尺寸与样式以 CSS 为准，避免在文档中维护另一份样式规格。Inter 字体自托管，字体来源与完整许可见 [LICENSE.md](../LICENSE.md#bundled-fonts)。
+
+`compatibility.js` 是下载项客户端兼容性说明的来源。它按文件类型显示真实最低发布版本，未适配客户端省略，没有适配客户端时显示“暂无适配”。只在兼容客户端正式发布后更新登记；格式定义与旧客户端限制见 [接入指南](integration.md)。
+
+## 构建的数据边界
+
+`build_website.py` 调用 `website_build.py`，先检查资源引用和 Catalog，再打包网站及其引用的译本：
+
+- BIN 校验大小、SHA-256、语言与成就数；格式 1 JSON 与 BIN 派生内容逐字节比较。
+- 独立格式 2 JSON 按 Catalog 中的 JSON 大小、哈希、语言和成就数校验，不要求不存在的 BIN。
+- Windows checkout 扩展的 JSON 换行在输出中恢复为标准 LF，源文件不变。
+- 输出仅含网站资源、Catalog、引用的 BIN/JSON 和构建元数据。`site-meta.json` 记录构建提交，用于固定 GitHub 源文件链接；构建不处理投稿或更新源 Catalog。
+
+运行 [开发文档中的仓库检查](development.md#环境与验证入口) 可先定位数据错误。成功构建和 JavaScript 语法检查不替代实际页面验收；界面修改需在本地检查检索、筛选、详情、两类 JSON 预览与下载，兼顾中英文、浅深主题和窄屏。
+
+## GitHub Pages 部署
+
+维护者首次配置时，在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**，再在 Actions 手动运行 **Translation library website**。`github-pages` 环境如有部署分支限制，应允许 `main`。继续使用仓库子路径，无需额外发布分支或自定义域名；参阅 [GitHub Pages 配置说明](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)。
+
+[pages.yml](../.github/workflows/pages.yml) 在以下事件构建部署：
+
+- `main` 推送或在 `main` 上手动运行。
+- 本仓库 **Translation library automation** 或 **Translation finalizer watchdog** 成功完成。
+
+后者使用 `workflow_run`，确保 Catalog 发布可触发网站更新，覆盖 `GITHUB_TOKEN` 推送不会触发普通 `push` 工作流的情形；参阅 [GitHub Actions 触发规则](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow)。
+
+构建总是检出最新 `main`，不执行触发工作流的 PR 代码或读取其构件。构建与部署共用串行队列，重复触发不取消已有运行。Pages 构件保存在 Actions，不提交到主分支；失败构建不覆盖已发布网站。该静态构建无需 `configure-pages` 步骤，Pages 仍须按上述方式启用。
+
+## 常见维护问题
+
+- **输出目录非空：** 选择新的输出路径或回收旧输出，不要清理源目录来重试。
+- **本地预览无法加载：** 确认使用 HTTP，服务器指向实际构建目录；查看开发者工具中的具体资源或 Catalog 错误。
+- **译本合并后网站没有更新：** 先按 [发布故障定位](development.md#维护与故障定位) 检查 Catalog 终结流程，再检查 Pages 运行和部署环境。
+- **封面或头像加载失败：** 检查远程图片可达性。封面有旧地址与占位图回退，头像失败时保留用户图标；这不等同于译本下载失败。
 
 ## English
 
-The [GitHub Pages website](https://gaboron.github.io/steam-achievement-translation-library/) is maintained in `web/`. It uses native JavaScript modules, without npm, a framework, or a backend. Assets use relative paths. Share a game through `#/game/<app_id>`, append `/<variant_id>` for a specific variant, and select the interface language with `?lang=zh` or `?lang=en`.
+[Home](../README_EN.md)
 
-`web/tokens.css` defines color, type, shape, motion, and state roles. `styles.css` maintains shared controls and the application shell; `catalog.css` and `detail.css` own discovery and project layouts. The pages follow Modrinth's discovery and project layouts with layered gray surfaces, green actions, square covers, and resource cards with 16px corners. The outer frame is limited to 1280px with 24px side padding, a 300px discovery sidebar, and a 12px column gap. Inter 3.19 is self-hosted in `web/fonts/`, sourced from the [official Inter release](https://github.com/rsms/inter/tree/v3.19) with its SIL OFL license alongside the font. Catalog adaptation, lists, details, and previews live in separate modules. Keep light and dark themes aligned when changing appearance. Interactions retain visible focus, state layers, and reduced-motion support.
+The [library website](https://gaboron.github.io/steam-achievement-translation-library/) lives in `web/` and uses native JavaScript modules, without npm, a framework, or a backend. It consumes published catalog and translation data. See [development and maintenance](development.md#english) for submissions and catalog publication.
 
-`filter-group.js` supplies single-choice status and language facets. `select.js` provides consistent menus for sorting, themes, interface languages, and previews. `pagination.js` is shared by lists and previews, and `languages.js` groups nonstandard language codes under “Other.” Discovery places filters on the left and search results on the right; narrow screens collapse filters into a floating panel. Project details place supporting information on the left and use `detail-tabs.js` to switch downloads and previews on the right. `translation-files.js` owns variant rows, download links, and expandable integrity details. Narrow screens put supporting information after the main content. The document scrolls as a whole, with pagination above and below search results. Ctrl K returns from a project to discovery and focuses search. `motion.js` coordinates content transitions.
+### Local build and preview
 
-`index-v2.json` is the only game catalog source. `workflow-scripts/build_website.py` calls the separate `website_build.py` module to validate local asset references, Catalog structure, and each BIN's size, SHA-256, languages, and achievement count. JSON is compared byte for byte against its BIN-derived content. JSON line endings expanded by Windows checkout are restored to canonical LF in the output, leaving source files unchanged. The build copies website assets, the original Catalog, and its referenced V2 BIN/JSON files, without modifying submissions or source data. `site-meta.json` records the build commit for pinned GitHub source links.
+Run the first build and HTTP-server commands above from the repository root, then open `http://localhost:8000/`. Modules require HTTP; do not open the HTML directly. The default output `_site/` is Git-ignored, and source files stay unchanged.
 
-`web/steam-covers.json` bundles a snapshot of Steam cover URLs. `game-covers.js` serves both list and detail views, including hashed image paths. Deployment builds refresh the output URLs in batches with `--refresh-covers`, retaining the snapshot if Steam is unavailable; default local builds need no network access. Failed images fall back to the legacy URL and placeholder icon. Contributors display their GitHub avatars, with the user icon retained on image failure.
+Builds require a missing or empty output directory and never clear existing content. Before rebuilding, recycle the old output or use a new empty location such as `_site/preview`, as shown above. Custom output inside the repository must be under `_site/`; a new directory outside it is also supported. Point the HTTP server at the matching output directory. Default builds are offline; `--refresh-covers` refreshes Steam cover URLs in the output and retains the snapshot on failure.
 
-Run the commands above from the repository root, then open `http://localhost:8000/`. JavaScript modules require HTTP; opening the HTML file directly is unsupported. Git ignores `_site/`. Builds refuse nonempty output directories and never clear or delete files. Recycle the old directory before rebuilding, or select a fresh empty directory with `--output` and adjust the server's `--directory`.
+### Frontend responsibilities
 
-For initial deployment, select **GitHub Actions** under **Settings → Pages → Build and deployment → Source**, then manually run **Translation library website** in Actions. If the `github-pages` environment restricts deployment branches, allow `main`. Keep the repository subpath; no separate repository, publishing branch, or custom domain is required. See [GitHub Pages configuration](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+The module map above separates routing and preferences (`app.js`, `preferences.js`, `i18n.js`), catalog and integrity (`catalog.js`, `translation-integrity.js`), list/detail/preview views, file downloads and compatibility, shared controls, CSS, and cover data.
 
-`.github/workflows/pages.yml` deploys on pushes to `main`, manual runs, and successful completion of **Translation library automation** or **Translation finalizer watchdog**. The `workflow_run` triggers cover Catalog publication when a `GITHUB_TOKEN` push does not trigger a normal `push` workflow. See [GitHub Actions trigger rules](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow).
+Use relative asset paths for repository-subpath deployment. Routes use `#/game/<app_id>`, with `/<variant_id>` for a particular variant; `?lang=zh` or `?lang=en` selects the interface language.
 
-Builds always check out current `main`, without executing the triggering PR's code or consuming its artifacts. Only successful runs from this repository qualify. Build and deployment share one queue with room for up to 100 pending runs, so duplicate triggers do not cancel active or queued publications. Failed builds leave the published site intact. The site uses its own static build script and does not need a `configure-pages` step; Pages must still be enabled as described above. Pages artifacts stay in Actions rather than main. CI checks JavaScript syntax with Node 24, without installing npm dependencies. Translation PRs retain their pending-submission validation; other PRs also run the full website build.
+Preserve light and dark themes, narrow-screen layouts, visible focus, and reduced-motion support. Reuse existing menus, pagination, and transitions. CSS owns dimensions and styling; avoid maintaining a second style specification in documentation. Inter is self-hosted; see [font attribution and licenses](../LICENSE.md#bundled-fonts).
+
+`compatibility.js` owns download-row client support. It shows actual minimum released versions per artifact type, omits unsupported clients, and shows “No compatible client yet” if none are adapted. Register support only after the compatible client release is published. See [integration](integration.md#english) for formats and older-client limitations.
+
+### Build boundaries
+
+`build_website.py` delegates to `website_build.py`, validating assets and catalog before packaging:
+
+- BIN size, SHA-256, languages, and achievement counts are checked. Format 1 JSON is compared byte for byte with BIN-derived content.
+- Standalone format 2 JSON is checked against catalog JSON size, hash, languages, and counts, without requiring a nonexistent BIN.
+- JSON line endings expanded by Windows checkout are restored to canonical LF in output, leaving sources untouched.
+- Output contains website assets, catalog, referenced BIN/JSON, and build metadata. `site-meta.json` records the source commit for pinned GitHub links. Builds do not process submissions or update the source catalog.
+
+Use the [repository checks](development.md#environment-and-validation) to locate data errors. A build and syntax checks do not establish real page behavior. For interface changes, check search, filters, details, both JSON preview types, and downloads locally, covering both languages, themes, and narrow screens.
+
+### Pages deployment
+
+For initial setup, a maintainer selects **GitHub Actions** under **Settings → Pages → Build and deployment → Source**, then manually runs **Translation library website** in Actions. Allow `main` if the `github-pages` environment restricts branches. Keep the repository subpath; no extra publishing branch or custom domain is needed. See [GitHub Pages configuration](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+
+[pages.yml](../.github/workflows/pages.yml) deploys on pushes or manual runs on `main`, and successful runs of this repository's **Translation library automation** or **Translation finalizer watchdog**. The `workflow_run` triggers cover catalog publication when a `GITHUB_TOKEN` push does not trigger a normal `push` workflow; see [GitHub Actions trigger rules](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow).
+
+Builds always check out current `main`, without running triggering PR code or consuming its artifacts. Build and deployment share a serial queue, and duplicate triggers do not cancel queued runs. Pages artifacts stay in Actions rather than main; failed builds leave the published site intact. The static build needs no `configure-pages` step, but Pages must still be enabled as described above.
+
+### Maintenance problems
+
+- **Nonempty output:** Choose a fresh location or recycle the old output; do not clear source directories to retry.
+- **Preview fails to load:** Use HTTP and point the server at the actual output. Inspect concrete resource or catalog errors in developer tools.
+- **Merged translation missing:** Check [publication diagnosis](development.md#maintenance-and-diagnosis) before checking Pages runs and deployment restrictions.
+- **Cover or avatar fails:** Check remote image availability. Covers fall back to legacy URLs and placeholders; avatars retain a user icon. An image failure does not establish a translation-download failure.
