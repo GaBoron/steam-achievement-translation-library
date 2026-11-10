@@ -75,8 +75,15 @@ def write_entry_translation_json(entry: dict[str, Any], *, root: Path = catalog_
     variants = validated_entry_schema_variants(entry, require_metadata=True)
     for variant in variants:
         variant_id = str(variant["variant_id"])
-        schema_path = root / catalog_v2.schema_relative_path(game_id, variant_id)
-        variant["json"] = write_translation(schema_path, game_id, variant_id)
+        schema_path = root / str(variant["schema_file"])
+        if schema_path.suffix == ".json":
+            from standalone_translation import canonical_text, decode_translation
+            payload = decode_translation(schema_path.read_bytes(), app_id=game_id, variant_id=variant_id)
+            text = canonical_text(payload)
+            schema_path.write_text(text, encoding="utf-8", newline="\n")
+            variant["json"] = {"version": 2, "size": len(text.encode("utf-8")), "sha256": sha256(text.encode("utf-8"))}
+        else:
+            variant["json"] = write_translation(schema_path, game_id, variant_id)
         written.append(schema_path.with_suffix(".json"))
         if variant_id == "default":
             entry["json"] = dict(variant["json"])
