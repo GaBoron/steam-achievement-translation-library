@@ -1,0 +1,960 @@
+{
+  "version": 1,
+  "app_id": "714010",
+  "variant_id": "default",
+  "source_sha256": "3ad12f4861132935929c67f69b6e42c726cc44358ba82c68ad7925713debcc98",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "founder_achievement": {
+      "translations": {
+        "english": {
+          "name": "Founder",
+          "description": "Aim Lab Founder"
+        },
+        "schinese": {
+          "name": "创始人",
+          "description": "Aim Lab 创始人"
+        }
+      }
+    },
+    "ea_achievement": {
+      "translations": {
+        "english": {
+          "name": "Early Access User",
+          "description": "Aim Lab Early Access User"
+        },
+        "schinese": {
+          "name": "抢先体验用户",
+          "description": "Aim Lab 抢先体验用户"
+        }
+      }
+    },
+    "SPIDERSHOT_NOOB": {
+      "translations": {
+        "english": {
+          "name": "Spidershot Noob",
+          "description": "Played Spidershot 1 Time"
+        },
+        "schinese": {
+          "name": "蜘蛛速射新手",
+          "description": "玩过 1 次蜘蛛速射"
+        }
+      }
+    },
+    "SPIDERSHOT_ROOKIE": {
+      "translations": {
+        "english": {
+          "name": "Spidershot Rookie",
+          "description": "Played Spidershot 5 Times"
+        },
+        "schinese": {
+          "name": "蜘蛛速射初学者",
+          "description": "玩过 5 次蜘蛛速射"
+        }
+      }
+    },
+    "SPIDERSHOT_COMPETENT": {
+      "translations": {
+        "english": {
+          "name": "Spidershot Competent",
+          "description": "Played Spidershot 15 Times"
+        },
+        "schinese": {
+          "name": "蜘蛛速射熟手",
+          "description": "玩过 15 次蜘蛛速射"
+        }
+      }
+    },
+    "SPIDERSHOT_PRO": {
+      "translations": {
+        "english": {
+          "name": "Spidershot Pro",
+          "description": "Played Spidershot 30 Times"
+        },
+        "schinese": {
+          "name": "蜘蛛速射高手",
+          "description": "玩过 30 次蜘蛛速射"
+        }
+      }
+    },
+    "SPIDERSHOT_EXPERT": {
+      "translations": {
+        "english": {
+          "name": "Spidershot Expert",
+          "description": "Played Spidershot 50"
+        },
+        "schinese": {
+          "name": "蜘蛛速射专家",
+          "description": "玩过 50 次蜘蛛速射"
+        }
+      }
+    },
+    "SPIDERSHOT_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Spidershot Master",
+          "description": "Played Spidershot 75"
+        },
+        "schinese": {
+          "name": "蜘蛛速射大师",
+          "description": "玩过 75 次蜘蛛速射"
+        }
+      }
+    },
+    "SPIDERSHOT_LEGEND": {
+      "translations": {
+        "english": {
+          "name": "Spidershot Legend",
+          "description": "Played Spidershot 100 Times"
+        },
+        "schinese": {
+          "name": "蜘蛛速射传奇",
+          "description": "玩过 100 次蜘蛛速射"
+        }
+      }
+    },
+    "REFLEXSHOT_NOOB": {
+      "translations": {
+        "english": {
+          "name": "Reflexshot Noob",
+          "description": "Played Reflexshot 1 Time"
+        },
+        "schinese": {
+          "name": "反射速射新手",
+          "description": "玩过 1 次反射速射"
+        }
+      }
+    },
+    "REFLEXSHOT_ROOKIE": {
+      "translations": {
+        "english": {
+          "name": "Reflexshot Rookie",
+          "description": "Played Reflexshot 5 Times"
+        },
+        "schinese": {
+          "name": "反射射击新手",
+          "description": "完成反射射击 5 次"
+        }
+      }
+    },
+    "REFLEXSHOT_COMPETENT": {
+      "translations": {
+        "english": {
+          "name": "Reflexshot Competent",
+          "description": "Played Reflexshot 15 Times"
+        },
+        "schinese": {
+          "name": "反射射击熟手",
+          "description": "完成反射射击 15 次"
+        }
+      }
+    },
+    "REFLEXSHOT_PRO": {
+      "translations": {
+        "english": {
+          "name": "Reflexshot Pro",
+          "description": "Played Reflexshot 30 Times"
+        },
+        "schinese": {
+          "name": "反射射击高手",
+          "description": "完成反射射击 30 次"
+        }
+      }
+    },
+    "REFLEXSHOT_EXPERT": {
+      "translations": {
+        "english": {
+          "name": "Reflexshot Expert",
+          "description": "Played Reflexshot 50 Times"
+        },
+        "schinese": {
+          "name": "反射射击专家",
+          "description": "完成反射射击 50 次"
+        }
+      }
+    },
+    "REFLEXSHOT_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Reflexshot Master",
+          "description": "Played Reflexshot 75 Times"
+        },
+        "schinese": {
+          "name": "反射射击大师",
+          "description": "完成反射射击 75 次"
+        }
+      }
+    },
+    "REFLEXSHOT_LEGEND": {
+      "translations": {
+        "english": {
+          "name": "Reflexshot Legend",
+          "description": "Played Reflexshot 100 Times"
+        },
+        "schinese": {
+          "name": "反射射击传奇",
+          "description": "完成反射射击 100 次"
+        }
+      }
+    },
+    "STRAFESHOT_NOOB": {
+      "translations": {
+        "english": {
+          "name": "Strafeshot Noob",
+          "description": "Played Strafeshot 1 Time"
+        },
+        "schinese": {
+          "name": "平移射击菜鸟",
+          "description": "完成平移射击 1 次"
+        }
+      }
+    },
+    "STRAFESHOT_ROOKIE": {
+      "translations": {
+        "english": {
+          "name": "Strafeshot Rookie",
+          "description": "Played Strafeshot 5 Times"
+        },
+        "schinese": {
+          "name": "平移射击新手",
+          "description": "完成平移射击 5 次"
+        }
+      }
+    },
+    "STRAFESHOT_COMPETENT": {
+      "translations": {
+        "english": {
+          "name": "Strafeshot Competent",
+          "description": "Played Strafeshot 15 Times"
+        },
+        "schinese": {
+          "name": "平移射击熟手",
+          "description": "完成平移射击 15 次"
+        }
+      }
+    },
+    "STRAFESHOT_PRO": {
+      "translations": {
+        "english": {
+          "name": "Strafeshot Pro",
+          "description": "Played Strafeshot 30 Times"
+        },
+        "schinese": {
+          "name": "平移射击高手",
+          "description": "完成平移射击 30 次"
+        }
+      }
+    },
+    "STRAFESHOT_EXPERT": {
+      "translations": {
+        "english": {
+          "name": "Strafeshot Expert",
+          "description": "Played Strafeshot 50 Times"
+        },
+        "schinese": {
+          "name": "横移射击专家",
+          "description": "游玩横移射击 50 次"
+        }
+      }
+    },
+    "STRAFESHOT_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Strafeshot Master",
+          "description": "Played Strafeshot 75 Times"
+        },
+        "schinese": {
+          "name": "横移射击大师",
+          "description": "游玩横移射击 75 次"
+        }
+      }
+    },
+    "STRAFESHOT_LEGEND": {
+      "translations": {
+        "english": {
+          "name": "Strafeshot Legend",
+          "description": "Played Strafeshot 100 Times"
+        },
+        "schinese": {
+          "name": "横移射击传奇",
+          "description": "游玩横移射击 100 次"
+        }
+      }
+    },
+    "PENTAKILL_NOOB": {
+      "translations": {
+        "english": {
+          "name": "Pentakill Noob",
+          "description": "Played Pentakill 1 Time"
+        },
+        "schinese": {
+          "name": "五杀菜鸟",
+          "description": "游玩五杀 1 次"
+        }
+      }
+    },
+    "PENTAKILL_ROOKIE": {
+      "translations": {
+        "english": {
+          "name": "Pentakill Rookie",
+          "description": "Played Pentakill 5 Times"
+        },
+        "schinese": {
+          "name": "五杀新手",
+          "description": "游玩五杀 5 次"
+        }
+      }
+    },
+    "PENTAKILL_COMPETENT": {
+      "translations": {
+        "english": {
+          "name": "Pentakill Competent",
+          "description": "Played Pentakill 15 TImes"
+        },
+        "schinese": {
+          "name": "五杀熟手",
+          "description": "游玩五杀 15 次"
+        }
+      }
+    },
+    "PENTAKILL_PRO": {
+      "translations": {
+        "english": {
+          "name": "Pentakill Pro",
+          "description": "Played Pentakill 30 Times"
+        },
+        "schinese": {
+          "name": "五杀高手",
+          "description": "游玩五杀 30 次"
+        }
+      }
+    },
+    "PENTAKILL_EXPERT": {
+      "translations": {
+        "english": {
+          "name": "Pentakill Expert",
+          "description": "Played Pentakill 50 Times"
+        },
+        "schinese": {
+          "name": "五杀专家",
+          "description": "游玩五杀 50 次"
+        }
+      }
+    },
+    "PENTAKILL_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Pentakill Master",
+          "description": "Played Pentakill 75 Times"
+        },
+        "schinese": {
+          "name": "五杀大师",
+          "description": "游玩五杀 75 次"
+        }
+      }
+    },
+    "PENTAKILL_LEGEND": {
+      "translations": {
+        "english": {
+          "name": "Pentakill Legend",
+          "description": "Played Pentakill 100 Times"
+        },
+        "schinese": {
+          "name": "五杀传奇",
+          "description": "游玩五杀 100 次"
+        }
+      }
+    },
+    "STRAFETRACK_NOOB": {
+      "translations": {
+        "english": {
+          "name": "Strafetrack Noob",
+          "description": "Played Strafetrack 1 Time"
+        },
+        "schinese": {
+          "name": "平移追踪菜鸟",
+          "description": "游玩平移追踪 1 次"
+        }
+      }
+    },
+    "STRAFETRACK_ROOKIE": {
+      "translations": {
+        "english": {
+          "name": "Strafetrack Rookie",
+          "description": "Played Strafetrack 5 Times"
+        },
+        "schinese": {
+          "name": "平移追踪新手",
+          "description": "游玩平移追踪 5 次"
+        }
+      }
+    },
+    "STRAFETRACK_COMPETENT": {
+      "translations": {
+        "english": {
+          "name": "Strafetrack Competent",
+          "description": "Played Strafetrack 15 Times"
+        },
+        "schinese": {
+          "name": "平移追踪熟手",
+          "description": "游玩平移追踪 15 次"
+        }
+      }
+    },
+    "STRAFETRACK_PRO": {
+      "translations": {
+        "english": {
+          "name": "Strafetrack Pro",
+          "description": "Played Strafetrack 30 Times"
+        },
+        "schinese": {
+          "name": "平移追踪高手",
+          "description": "游玩平移追踪 30 次"
+        }
+      }
+    },
+    "STRAFETRACK_EXPERT": {
+      "translations": {
+        "english": {
+          "name": "Strafetrack Expert",
+          "description": "Played Strafetrack 50 Times"
+        },
+        "schinese": {
+          "name": "平移追踪专家",
+          "description": "游玩平移追踪 50 次"
+        }
+      }
+    },
+    "STRAFETRACK_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Strafetrack Master",
+          "description": "Played Strafetrack 75 Times"
+        },
+        "schinese": {
+          "name": "平移追踪大师",
+          "description": "游玩平移追踪 75 次"
+        }
+      }
+    },
+    "STRAFETRACK_LEGEND": {
+      "translations": {
+        "english": {
+          "name": "Strafetrack Legend",
+          "description": "Played Strafetrack 100 Times"
+        },
+        "schinese": {
+          "name": "平移追踪传奇",
+          "description": "游玩平移追踪 100 次"
+        }
+      }
+    },
+    "CIRCLETRACK_NOOB": {
+      "translations": {
+        "english": {
+          "name": "Circletrack Noob",
+          "description": "Played Circletrack 1 Time"
+        },
+        "schinese": {
+          "name": "圆形追踪菜鸟",
+          "description": "游玩圆形追踪 1 次"
+        }
+      }
+    },
+    "CIRCLETRACK_ROOKIE": {
+      "translations": {
+        "english": {
+          "name": "Circletrack Rookie",
+          "description": "Played Circletrack 5 Times"
+        },
+        "schinese": {
+          "name": "圆形追踪新手",
+          "description": "游玩圆形追踪 5 次"
+        }
+      }
+    },
+    "CIRCLETRACK_COMPETENT": {
+      "translations": {
+        "english": {
+          "name": "Circletrack Competent",
+          "description": "Played Circletrack 15 Times"
+        },
+        "schinese": {
+          "name": "圆形追踪熟手",
+          "description": "游玩圆形追踪 15 次"
+        }
+      }
+    },
+    "CIRCLETRACK_PRO": {
+      "translations": {
+        "english": {
+          "name": "Circletrack Pro",
+          "description": "Played Circletrack 30 Times"
+        },
+        "schinese": {
+          "name": "圆形追踪职业",
+          "description": "玩圆形追踪 30 次"
+        }
+      }
+    },
+    "CIRCLETRACK_EXPERT": {
+      "translations": {
+        "english": {
+          "name": "Circletrack Expert",
+          "description": "Played Circletrack 50 Times"
+        },
+        "schinese": {
+          "name": "圆形追踪专家",
+          "description": "玩圆形追踪 50 次"
+        }
+      }
+    },
+    "CIRCLETRACK_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Circletrack Master",
+          "description": "Played Circletrack 75 Times"
+        },
+        "schinese": {
+          "name": "圆形追踪大师",
+          "description": "玩圆形追踪 75 次"
+        }
+      }
+    },
+    "CIRCLETRACK_LEGEND": {
+      "translations": {
+        "english": {
+          "name": "Circletrack Legend",
+          "description": "Played Circletrack 100 Times"
+        },
+        "schinese": {
+          "name": "圆形追踪传奇",
+          "description": "玩圆形追踪 100 次"
+        }
+      }
+    },
+    "BLINKSHOT_NOOB": {
+      "translations": {
+        "english": {
+          "name": "Blinkshot Noob",
+          "description": "Played Blinkshot 1 Time"
+        },
+        "schinese": {
+          "name": "闪现射击菜鸟",
+          "description": "玩闪现射击 1 次"
+        }
+      }
+    },
+    "BLINKSHOT_ROOKIE": {
+      "translations": {
+        "english": {
+          "name": "Blinkshot Rookie",
+          "description": "Played Blinkshot 5 Times"
+        },
+        "schinese": {
+          "name": "闪现射击新手",
+          "description": "玩闪现射击 5 次"
+        }
+      }
+    },
+    "BLINKSHOT_COMPETENT": {
+      "translations": {
+        "english": {
+          "name": "Blinkshot Competent",
+          "description": "Played Blinkshot 15 Times"
+        },
+        "schinese": {
+          "name": "闪现射击熟手",
+          "description": "玩闪现射击 15 次"
+        }
+      }
+    },
+    "BLINKSHOT_PRO": {
+      "translations": {
+        "english": {
+          "name": "Blinkshot Pro",
+          "description": "Played Blinkshot 30 TImes"
+        },
+        "schinese": {
+          "name": "闪现射击职业",
+          "description": "玩闪现射击 30 次"
+        }
+      }
+    },
+    "BLINKSHOT_EXPERT": {
+      "translations": {
+        "english": {
+          "name": "Blinkshot Expert",
+          "description": "Played Blinkshot 50 Times"
+        },
+        "schinese": {
+          "name": "闪现射击专家",
+          "description": "玩闪现射击 50 次"
+        }
+      }
+    },
+    "BLINKSHOT_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Blinkshot Master",
+          "description": "Played Blinkshot 75 Times"
+        },
+        "schinese": {
+          "name": "闪现射击大师",
+          "description": "玩闪现射击 75 次"
+        }
+      }
+    },
+    "BLINKSHOT_LEGEND": {
+      "translations": {
+        "english": {
+          "name": "Blinkshot Legend",
+          "description": "Played Blinkshot 100 Times"
+        },
+        "schinese": {
+          "name": "闪狙传奇",
+          "description": "进行 100 次“闪狙”"
+        }
+      }
+    },
+    "NINJASHOT_NOOB": {
+      "translations": {
+        "english": {
+          "name": "Ninjashot Noob",
+          "description": "Played Ninjashot 1 Time"
+        },
+        "schinese": {
+          "name": "忍者狙菜鸟",
+          "description": "进行 1 次“忍者狙”"
+        }
+      }
+    },
+    "NINJASHOT_ROOKIE": {
+      "translations": {
+        "english": {
+          "name": "Ninjashot Rookie",
+          "description": "Played Ninjashot 5 Times"
+        },
+        "schinese": {
+          "name": "忍者狙新手",
+          "description": "进行 5 次“忍者狙”"
+        }
+      }
+    },
+    "NINJASHOT_COMPETENT": {
+      "translations": {
+        "english": {
+          "name": "Ninjashot Competent",
+          "description": "Played Ninjashot 15 Times"
+        },
+        "schinese": {
+          "name": "忍者狙熟手",
+          "description": "进行 15 次“忍者狙”"
+        }
+      }
+    },
+    "NINJASHOT_PRO": {
+      "translations": {
+        "english": {
+          "name": "Ninjashot Pro",
+          "description": "Played Ninjashot 30 Times"
+        },
+        "schinese": {
+          "name": "忍者狙高手",
+          "description": "进行 30 次“忍者狙”"
+        }
+      }
+    },
+    "NINJASHOT_EXPERT": {
+      "translations": {
+        "english": {
+          "name": "Ninjashot Expert",
+          "description": "Played Ninjashot 50 Times"
+        },
+        "schinese": {
+          "name": "忍者狙专家",
+          "description": "进行 50 次“忍者狙”"
+        }
+      }
+    },
+    "NINJASHOT_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Ninjashot Master",
+          "description": "Played Ninjashot 75 Times"
+        },
+        "schinese": {
+          "name": "忍者狙大师",
+          "description": "进行 75 次“忍者狙”"
+        }
+      }
+    },
+    "NINJASHOT_LEGEND": {
+      "translations": {
+        "english": {
+          "name": "Ninjashot Legend",
+          "description": "Played Ninjashot 100 Times"
+        },
+        "schinese": {
+          "name": "忍者狙传奇",
+          "description": "进行 100 次“忍者狙”"
+        }
+      }
+    },
+    "DETECTION_NOOB": {
+      "translations": {
+        "english": {
+          "name": "Detection Noob",
+          "description": "Played Detection 1 Time"
+        },
+        "schinese": {
+          "name": "侦测菜鸟",
+          "description": "进行 1 次“侦测”"
+        }
+      }
+    },
+    "DETECTION_ROOKIE": {
+      "translations": {
+        "english": {
+          "name": "Detection Rookie",
+          "description": "Played Detection 5 Times"
+        },
+        "schinese": {
+          "name": "侦测新手",
+          "description": "进行 5 次“侦测”"
+        }
+      }
+    },
+    "DETECTION_COMPETENT": {
+      "translations": {
+        "english": {
+          "name": "Detection Competent",
+          "description": "Played Detection 15 Times"
+        },
+        "schinese": {
+          "name": "检测熟练者",
+          "description": "游玩检测15次"
+        }
+      }
+    },
+    "DETECTION_PRO": {
+      "translations": {
+        "english": {
+          "name": "Detection Pro",
+          "description": "Played Detection 30 Times"
+        },
+        "schinese": {
+          "name": "检测高手",
+          "description": "游玩检测30次"
+        }
+      }
+    },
+    "DETECTION_EXPERT": {
+      "translations": {
+        "english": {
+          "name": "Detection Expert",
+          "description": "Played Detection 50 Times"
+        },
+        "schinese": {
+          "name": "检测专家",
+          "description": "游玩检测50次"
+        }
+      }
+    },
+    "DETECTION_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Detection Master",
+          "description": "Played Detection 75 Times"
+        },
+        "schinese": {
+          "name": "检测大师",
+          "description": "游玩检测75次"
+        }
+      }
+    },
+    "DETECTION_LEGEND": {
+      "translations": {
+        "english": {
+          "name": "Detection Legend",
+          "description": "Played Detection 100 Times"
+        },
+        "schinese": {
+          "name": "检测传奇",
+          "description": "游玩检测100次"
+        }
+      }
+    },
+    "MICROSHOT_NOOB": {
+      "translations": {
+        "english": {
+          "name": "Microshot Noob",
+          "description": "Played Microshot 1 Time"
+        },
+        "schinese": {
+          "name": "微射菜鸟",
+          "description": "游玩微射1次"
+        }
+      }
+    },
+    "MICROSHOT_ROOKIE": {
+      "translations": {
+        "english": {
+          "name": "Microshot Rookie",
+          "description": "Played Microshot 5 Times"
+        },
+        "schinese": {
+          "name": "微射新手",
+          "description": "游玩微射5次"
+        }
+      }
+    },
+    "MICROSHOT_COMPETENT": {
+      "translations": {
+        "english": {
+          "name": "Microshot Competent",
+          "description": "Played Microshot 15 Time"
+        },
+        "schinese": {
+          "name": "微射熟练者",
+          "description": "游玩微射15次"
+        }
+      }
+    },
+    "MICROSHOT_PRO": {
+      "translations": {
+        "english": {
+          "name": "Microshot Pro",
+          "description": "Played Microshot 30 Times"
+        },
+        "schinese": {
+          "name": "微射高手",
+          "description": "游玩微射30次"
+        }
+      }
+    },
+    "MICROSHOT_EXPERT": {
+      "translations": {
+        "english": {
+          "name": "Microshot Expert",
+          "description": "Played Microshot 50 Times"
+        },
+        "schinese": {
+          "name": "微射专家",
+          "description": "游玩微射50次"
+        }
+      }
+    },
+    "MICROSHOT_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Microshot Master",
+          "description": "Played Microshot 75 Times"
+        },
+        "schinese": {
+          "name": "微型射击大师",
+          "description": "游玩微型射击 75 次"
+        }
+      }
+    },
+    "MICROSHOT_LEGEND": {
+      "translations": {
+        "english": {
+          "name": "Microshot Legend",
+          "description": "Played Microshot 100 Times"
+        },
+        "schinese": {
+          "name": "微型射击传奇",
+          "description": "游玩微型射击 100 次"
+        }
+      }
+    },
+    "FREETRACK_NOOB": {
+      "translations": {
+        "english": {
+          "name": "Freetrack Noob",
+          "description": "Played Freetrack 1 Time"
+        },
+        "schinese": {
+          "name": "自由追踪菜鸟",
+          "description": "游玩自由追踪 1 次"
+        }
+      }
+    },
+    "FREETRACK_ROOKIE": {
+      "translations": {
+        "english": {
+          "name": "Freetrack Rookie",
+          "description": "Played Freetrack 5 Times"
+        },
+        "schinese": {
+          "name": "自由追踪新手",
+          "description": "游玩自由追踪 5 次"
+        }
+      }
+    },
+    "FREETRACK_COMPETENT": {
+      "translations": {
+        "english": {
+          "name": "Freetrack Competent",
+          "description": "Played Freetrack 15 Times"
+        },
+        "schinese": {
+          "name": "自由追踪熟手",
+          "description": "游玩自由追踪 15 次"
+        }
+      }
+    },
+    "FREETRACK_PRO": {
+      "translations": {
+        "english": {
+          "name": "Freetrack Pro",
+          "description": "Played Freetrack 30 Times"
+        },
+        "schinese": {
+          "name": "自由追踪高手",
+          "description": "游玩自由追踪 30 次"
+        }
+      }
+    },
+    "FREETRACK_EXPERT": {
+      "translations": {
+        "english": {
+          "name": "Freetrack Expert",
+          "description": "Played Freetrack 50 Times"
+        },
+        "schinese": {
+          "name": "自由追踪专家",
+          "description": "游玩自由追踪 50 次"
+        }
+      }
+    },
+    "FREETRACK_MASTER": {
+      "translations": {
+        "english": {
+          "name": "Freetrack Master",
+          "description": "Played Freetrack 75 Times"
+        },
+        "schinese": {
+          "name": "自由追踪大师",
+          "description": "游玩自由追踪 75 次"
+        }
+      }
+    },
+    "FREETRACK_LEGEND": {
+      "translations": {
+        "english": {
+          "name": "Freetrack Legend",
+          "description": "Played Freetrack 100 Times"
+        },
+        "schinese": {
+          "name": "自由追踪传奇",
+          "description": "游玩自由追踪 100 次"
+        }
+      }
+    }
+  }
+}
