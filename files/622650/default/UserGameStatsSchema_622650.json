@@ -1,0 +1,744 @@
+{
+  "version": 1,
+  "app_id": "622650",
+  "variant_id": "default",
+  "source_sha256": "71efb22923cfafe32e8305da4e3a8ece3869a679d8cacefffe76b61bb5e047f7",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "PICKING_UP_THE_PIECES": {
+      "translations": {
+        "english": {
+          "name": "Picking Up the Pieces",
+          "description": "Collect all the items."
+        },
+        "schinese": {
+          "name": "收拾残局",
+          "description": "收集全部物品。"
+        }
+      }
+    },
+    "HELLO_BENDY": {
+      "translations": {
+        "english": {
+          "name": "Hello Bendy",
+          "description": "Fall through the floor."
+        },
+        "schinese": {
+          "name": "你好，班迪",
+          "description": "从地板掉了下去。"
+        }
+      }
+    },
+    "CROONER_TUNER": {
+      "translations": {
+        "english": {
+          "name": "Crooner Tuner",
+          "description": "Turn on the radio in Chapter One."
+        },
+        "schinese": {
+          "name": "老歌调频",
+          "description": "在第一章打开收音机。"
+        }
+      }
+    },
+    "THE_CREATOR": {
+      "translations": {
+        "english": {
+          "name": "The Creator",
+          "description": "Visit theMeatly."
+        },
+        "schinese": {
+          "name": "创作者",
+          "description": "拜访 theMeatly。"
+        }
+      }
+    },
+    "MY_FAVORITE_SONG": {
+      "translations": {
+        "english": {
+          "name": "My Favorite Song",
+          "description": "Solve the musical puzzle."
+        },
+        "schinese": {
+          "name": "我最爱的歌",
+          "description": "解开音乐谜题。"
+        }
+      }
+    },
+    "STRIKE_UP_THE_BAND": {
+      "translations": {
+        "english": {
+          "name": "Strike Up The Band",
+          "description": "Get all the Bendys on stage."
+        },
+        "schinese": {
+          "name": "乐队开演",
+          "description": "把所有班迪都弄上舞台。"
+        }
+      }
+    },
+    "COAST_TO_COAST": {
+      "translations": {
+        "english": {
+          "name": "Coast to Coast",
+          "description": "Turn on the radio in Chapter Two."
+        },
+        "schinese": {
+          "name": "横跨两岸",
+          "description": "在第二章打开收音机。"
+        }
+      }
+    },
+    "CANADIAN_BACON": {
+      "translations": {
+        "english": {
+          "name": "Canadian Bacon",
+          "description": "Collect all the Bacon Soup in Chapter Two."
+        },
+        "schinese": {
+          "name": "加拿大培根",
+          "description": "收集第二章的全部培根汤。"
+        }
+      }
+    },
+    "THE_BELIEVER": {
+      "translations": {
+        "english": {
+          "name": "The Believer",
+          "description": "Survive being chased by Bendy."
+        },
+        "schinese": {
+          "name": "信徒",
+          "description": "从班迪的追杀中活下来。"
+        }
+      }
+    },
+    "MAN_BEHIND_THE_CURTAIN": {
+      "translations": {
+        "english": {
+          "name": "Man Behind the Curtain",
+          "description": "Visit theMeatly."
+        },
+        "schinese": {
+          "name": "帷幕之后",
+          "description": "拜访 theMeatly。"
+        }
+      }
+    },
+    "JOHNNYS_BROKEN_HEART": {
+      "translations": {
+        "english": {
+          "name": "Johnny's Broken Heart",
+          "description": "Play the pipe organ 5 times."
+        },
+        "schinese": {
+          "name": "约翰尼的碎心",
+          "description": "弹奏管风琴 5 次。"
+        }
+      }
+    },
+    "A_TASTE_OF_HOME": {
+      "translations": {
+        "english": {
+          "name": "A Taste of Home",
+          "description": "Collected all the Bacon Soup in Chapter One."
+        },
+        "schinese": {
+          "name": "家的味道",
+          "description": "收集第一章的全部培根汤。"
+        }
+      }
+    },
+    "THE_PAST_SPEAKS": {
+      "translations": {
+        "english": {
+          "name": "The Past Speaks",
+          "description": "Listened to All Audio Logs in Chapter One."
+        },
+        "schinese": {
+          "name": "往昔低语",
+          "description": "听完第一章的全部录音。"
+        }
+      }
+    },
+    "OLD_PROBLEMS": {
+      "translations": {
+        "english": {
+          "name": "Old Problems",
+          "description": "Listened to All Audio Logs in Chapter Two"
+        },
+        "schinese": {
+          "name": "旧日的麻烦",
+          "description": "听完第二章的全部录音。"
+        }
+      }
+    },
+    "HEARING_VOICES": {
+      "translations": {
+        "english": {
+          "name": "Hearing Voices",
+          "description": "Listened to All Audio Logs in Chapter Three."
+        },
+        "schinese": {
+          "name": "幻听",
+          "description": "听完第三章的全部录音。"
+        }
+      }
+    },
+    "LONG_FORGOTTEN_SELF": {
+      "translations": {
+        "english": {
+          "name": "Long Forgotten Self",
+          "description": "Unearthed the sunken room."
+        },
+        "schinese": {
+          "name": "被遗忘的自我",
+          "description": "掘出沉没的房间。"
+        }
+      }
+    },
+    "SPARE_PARTS": {
+      "translations": {
+        "english": {
+          "name": "Spare Parts",
+          "description": "Found all of Alice Angel's gears."
+        },
+        "schinese": {
+          "name": "备用零件",
+          "description": "找齐爱丽丝·安吉尔的所有齿轮。"
+        }
+      }
+    },
+    "FEELING_THE_PRESSURE": {
+      "translations": {
+        "english": {
+          "name": "Feeling the Pressure",
+          "description": "Solved all valve panel puzzles."
+        },
+        "schinese": {
+          "name": "压力山大",
+          "description": "解开全部阀门面板谜题。"
+        }
+      }
+    },
+    "ANGER_MANAGEMENT": {
+      "translations": {
+        "english": {
+          "name": "Anger Management",
+          "description": "Destroyed all Bendy cardboard cutouts in Chapter Three."
+        },
+        "schinese": {
+          "name": "情绪管理",
+          "description": "摧毁第三章的全部班迪纸板立牌。"
+        }
+      }
+    },
+    "FRONT_LINES": {
+      "translations": {
+        "english": {
+          "name": "Front Lines",
+          "description": "Survived the Butcher Gang's attack."
+        },
+        "schinese": {
+          "name": "前线",
+          "description": "在屠夫帮的袭击中活下来。"
+        }
+      }
+    },
+    "ULTIMATE_STOMACHACHE": {
+      "translations": {
+        "english": {
+          "name": "Ultimate Stomachache",
+          "description": "Hunted down all Swollen Searchers."
+        },
+        "schinese": {
+          "name": "终极胃痛",
+          "description": "猎杀全部肿胀搜索者。"
+        }
+      }
+    },
+    "DARKER_PLACES": {
+      "translations": {
+        "english": {
+          "name": "Darker Places",
+          "description": "Survived the inky abyss."
+        },
+        "schinese": {
+          "name": "更暗之处",
+          "description": "在墨水深渊中活下来。"
+        }
+      }
+    },
+    "BRING_HOME_THE_BACON": {
+      "translations": {
+        "english": {
+          "name": "Bring Home the Bacon",
+          "description": "Collected all Bacon Soup in Chapter Three."
+        },
+        "schinese": {
+          "name": "把培根带回家",
+          "description": "收集第三章的全部培根汤。"
+        }
+      }
+    },
+    "INNER_CHILD": {
+      "translations": {
+        "english": {
+          "name": "Inner Child",
+          "description": "Play with 25 Bendy Dolls."
+        },
+        "schinese": {
+          "name": "童心",
+          "description": "和 25 个班迪玩偶玩耍。"
+        }
+      }
+    },
+    "NORMANS_FATE": {
+      "translations": {
+        "english": {
+          "name": "Norman's Fate",
+          "description": "Brought down The Projectionist."
+        },
+        "schinese": {
+          "name": "诺曼的结局",
+          "description": "击倒放映员。"
+        }
+      }
+    },
+    "TURN_IT_UP": {
+      "translations": {
+        "english": {
+          "name": "Turn It Up",
+          "description": "Turn on the radio in Chapter Three."
+        },
+        "schinese": {
+          "name": "声音开大",
+          "description": "在第三章打开收音机。"
+        }
+      }
+    },
+    "THE_PATH_OF_THE_ANGEL": {
+      "translations": {
+        "english": {
+          "name": "The Path of the Angel",
+          "description": "Chose the way of Alice."
+        },
+        "schinese": {
+          "name": "天使之路",
+          "description": "选择爱丽丝的道路。"
+        }
+      }
+    },
+    "THE_PATH_OF_THE_DEMON": {
+      "translations": {
+        "english": {
+          "name": "The Path of the Demon",
+          "description": "Chose the way of Bendy."
+        },
+        "schinese": {
+          "name": "恶魔之路",
+          "description": "选择班迪的道路。"
+        }
+      }
+    },
+    "BLAZING_METAL": {
+      "translations": {
+        "english": {
+          "name": "Blazing Metal",
+          "description": "Unleashed the Tommy Gun."
+        },
+        "schinese": {
+          "name": "枪林弹雨",
+          "description": "端起汤姆逊冲锋枪。"
+        }
+      }
+    },
+    "KNICK_KNACK_PADDYWHACK": {
+      "translations": {
+        "english": {
+          "name": "Knick-Knack Paddywhack",
+          "description": "Got the poor doggie a bone."
+        },
+        "schinese": {
+          "name": "叮叮当当",
+          "description": "给可怜的小狗一根骨头。"
+        }
+      }
+    },
+    "TEA_TIME": {
+      "translations": {
+        "english": {
+          "name": "Tea Time",
+          "description": "Kicked back with theMeatly."
+        },
+        "schinese": {
+          "name": "下午茶时间",
+          "description": "和 theMeatly 一起放松一下。"
+        }
+      }
+    },
+    "A_SPECIAL_HAT": {
+      "translations": {
+        "english": {
+          "name": "A Special Hat",
+          "description": "Run into Jack Fain."
+        },
+        "schinese": {
+          "name": "特别的帽子",
+          "description": "撞见杰克·费恩。"
+        }
+      }
+    },
+    "A_HAUNTING_WE_WILL_GO": {
+      "translations": {
+        "english": {
+          "name": "A Haunting We Will Go",
+          "description": "Restore Power to the Haunted House."
+        },
+        "schinese": {
+          "name": "我们去闹鬼",
+          "description": "为鬼屋恢复供电。"
+        }
+      }
+    },
+    "AROUND_AND_AROUND": {
+      "translations": {
+        "english": {
+          "name": "Around And Around",
+          "description": "Defeat Bertrum."
+        },
+        "schinese": {
+          "name": "转啊转",
+          "description": "击败伯特伦。"
+        }
+      }
+    },
+    "FINGER_WAGGIN": {
+      "translations": {
+        "english": {
+          "name": "Finger Waggin",
+          "description": "Find the Radio in Chapter Four."
+        },
+        "schinese": {
+          "name": "摇手指",
+          "description": "在第四章找到收音机。"
+        }
+      }
+    },
+    "STILL_LISTENING": {
+      "translations": {
+        "english": {
+          "name": "Still Listening",
+          "description": "Listen to All Audio Logs in Chapter Four."
+        },
+        "schinese": {
+          "name": "还在听",
+          "description": "听完第四章的全部录音。"
+        }
+      }
+    },
+    "BARBECUED": {
+      "translations": {
+        "english": {
+          "name": "Barbecued ",
+          "description": "Visit theMeatly."
+        },
+        "schinese": {
+          "name": "烤焦了",
+          "description": "拜访 theMeatly。"
+        }
+      }
+    },
+    "REUNITED": {
+      "translations": {
+        "english": {
+          "name": "Reunited",
+          "description": "Found Boris."
+        },
+        "schinese": {
+          "name": "重逢",
+          "description": "找到鲍里斯。"
+        }
+      }
+    },
+    "JUST_LIKE_MOM_USED_TO_MAKE": {
+      "translations": {
+        "english": {
+          "name": "Just Like Mom Used To Make",
+          "description": "Collect all the Bacon Soup in Chapter Four."
+        },
+        "schinese": {
+          "name": "就像妈妈做的那样",
+          "description": "收集第四章的全部培根汤。"
+        }
+      }
+    },
+    "WASTING_TIME": {
+      "translations": {
+        "english": {
+          "name": "Wasting Time",
+          "description": "Ring the bell."
+        },
+        "schinese": {
+          "name": "浪费时间",
+          "description": "敲响铃铛。"
+        }
+      }
+    },
+    "BULLS_EYE": {
+      "translations": {
+        "english": {
+          "name": "Bulls Eye",
+          "description": "Get a perfect score on Bull's Eye Bonanaza."
+        },
+        "schinese": {
+          "name": "正中靶心",
+          "description": "在「靶心大挑战」里拿到满分。"
+        }
+      }
+    },
+    "CALL_THE_MILK_MAN": {
+      "translations": {
+        "english": {
+          "name": "Call The Milk Man",
+          "description": "Get a perfect score on Bottle Wallop."
+        },
+        "schinese": {
+          "name": "叫送奶工来",
+          "description": "在「砸瓶大赛」里拿到满分。"
+        }
+      }
+    },
+    "A_LITTLE_SOUVENIR": {
+      "translations": {
+        "english": {
+          "name": "A Little Souvenier",
+          "description": "Take a Photo at the Photo Cutout."
+        },
+        "schinese": {
+          "name": "小纪念品",
+          "description": "在拍照板前拍一张照片。"
+        }
+      }
+    },
+    "UNLIKELY_VICTORY": {
+      "translations": {
+        "english": {
+          "name": "Unlikely Victory",
+          "description": "Complete Chapter Four with the Plunger."
+        },
+        "schinese": {
+          "name": "意外的胜利",
+          "description": "用皮搋子通关第四章。"
+        }
+      }
+    },
+    "GOING_TO_BE_SICK": {
+      "translations": {
+        "english": {
+          "name": "Going To Be Sick",
+          "description": "Go for a wild ride."
+        },
+        "schinese": {
+          "name": "要吐了",
+          "description": "来一趟疯狂的旅程。"
+        }
+      }
+    },
+    "THE_VOICE_COLLECTOR": {
+      "translations": {
+        "english": {
+          "name": "The Voice Collector",
+          "description": "Listen to All Audio Logs in the Game."
+        },
+        "schinese": {
+          "name": "声音收藏家",
+          "description": "听完游戏中的全部录音。"
+        }
+      }
+    },
+    "NOW_HEAR_THIS": {
+      "translations": {
+        "english": {
+          "name": "Now Hear This!",
+          "description": "Listen to All Audio Logs in Chapter Five."
+        },
+        "schinese": {
+          "name": "听好了！",
+          "description": "听完第五章的全部录音。"
+        }
+      }
+    },
+    "TOE_TAPPIN": {
+      "translations": {
+        "english": {
+          "name": "Toe Tappin",
+          "description": "Find the Radio in Chapter Five."
+        },
+        "schinese": {
+          "name": "跟着打拍子",
+          "description": "在第五章找到收音机。"
+        }
+      }
+    },
+    "GOLD_RECORD": {
+      "translations": {
+        "english": {
+          "name": "Gold Record",
+          "description": "Find all the Hidden Radios in the Game."
+        },
+        "schinese": {
+          "name": "金唱片",
+          "description": "找齐游戏中的全部隐藏收音机。"
+        }
+      }
+    },
+    "NO_NEED_FOR_A_SPOON": {
+      "translations": {
+        "english": {
+          "name": "No Need for a Spoon",
+          "description": "Collect all the Bacon Soup in Chapter Five."
+        },
+        "schinese": {
+          "name": "不用勺子",
+          "description": "收集第五章的全部培根汤。"
+        }
+      }
+    },
+    "MASTER_OF_BACON": {
+      "translations": {
+        "english": {
+          "name": "Master of Bacon",
+          "description": "Collect all the Bacon Soup in the Game."
+        },
+        "schinese": {
+          "name": "培根大师",
+          "description": "收集游戏中的全部培根汤。"
+        }
+      }
+    },
+    "TO_HELL_AND_BACK": {
+      "translations": {
+        "english": {
+          "name": "To Hell and Back",
+          "description": "Complete the Main Story."
+        },
+        "schinese": {
+          "name": "地狱往返",
+          "description": "通关主线剧情。"
+        }
+      }
+    },
+    "GOLDBRICKING": {
+      "translations": {
+        "english": {
+          "name": "Goldbricking",
+          "description": "Let others do the work."
+        },
+        "schinese": {
+          "name": "偷懒",
+          "description": "让别人去干活。"
+        }
+      }
+    },
+    "SHADOWS_AND_SUFFERING": {
+      "translations": {
+        "english": {
+          "name": "Shadows and Suffering",
+          "description": "Discover what's living below."
+        },
+        "schinese": {
+          "name": "阴影与苦难",
+          "description": "发现下面住着什么。"
+        }
+      }
+    },
+    "PIPES_AND_PROBLEMS": {
+      "translations": {
+        "english": {
+          "name": "Pipes and Problems",
+          "description": "Found a new way through."
+        },
+        "schinese": {
+          "name": "管道与麻烦",
+          "description": "找到一条新通路。"
+        }
+      }
+    },
+    "A_SWEET_DISCOVERY": {
+      "translations": {
+        "english": {
+          "name": "A Sweet Discovery",
+          "description": "Say Hello to an Old Friend."
+        },
+        "schinese": {
+          "name": "甜蜜的发现",
+          "description": "向一位老朋友问好。"
+        }
+      }
+    },
+    "STANDING_PROUD": {
+      "translations": {
+        "english": {
+          "name": "Standing Proud",
+          "description": "Find out where you belong."
+        },
+        "schinese": {
+          "name": "昂首挺立",
+          "description": "弄明白自己属于哪里。"
+        }
+      }
+    },
+    "GRAND_PUPPETEER": {
+      "translations": {
+        "english": {
+          "name": "Grand Puppeteer",
+          "description": "Find theMeatly in All Chapters."
+        },
+        "schinese": {
+          "name": "大傀儡师",
+          "description": "在所有章节中找到 theMeatly。"
+        }
+      }
+    },
+    "VALUED_EMPLOYEE": {
+      "translations": {
+        "english": {
+          "name": "Valued Employee",
+          "description": "Take a longer walk."
+        },
+        "schinese": {
+          "name": "优秀员工",
+          "description": "多走一段路。"
+        }
+      }
+    },
+    "AGGRESSION": {
+      "translations": {
+        "english": {
+          "name": "Aggression",
+          "description": "Bathe in violence."
+        },
+        "schinese": {
+          "name": "侵略性",
+          "description": "沐浴在暴力之中。"
+        }
+      }
+    },
+    "SEASONAL_INK_DEMONS_EVE": {
+      "translations": {
+        "english": {
+          "name": "Vintage Scares",
+          "description": "Visit Heavenly Toys during Ink Demon's Eve"
+        },
+        "schinese": {
+          "name": "复古惊魂",
+          "description": "在墨水恶魔之夜造访天堂玩具店。"
+        }
+      }
+    }
+  }
+}

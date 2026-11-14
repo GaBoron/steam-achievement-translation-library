@@ -3,23 +3,17 @@ from __future__ import annotations
 
 import json
 import re
-import tempfile
 from pathlib import Path
 from typing import Any
 
+from translation_artifacts import load_artifact, artifact_languages, artifact_rows, validate_artifact
 from library_index import entry_contributors, schema_file_size_bytes
 from schema_package import ValidatedSchemaPackage, ValidatedSchemaVariant, resolve_schema_package
-from steam_schema import (
-    Node,
-    achievement_rows,
-    load_schema,
-    require_language_coverage,
-    schema_languages,
-    sha256,
-    validate_schema_structure,
-)
+from steam_schema import Node, require_language_coverage, sha256
 from submission_inputs import Attachment, download_attachment, field_value, first_line
 from submission_presentation import steam_store_url
+from standalone_translation import decode_translation
+from recycle_bin import temporary_directory
 
 
 def write_failure(errors: list[str], retry_allowed: bool = False) -> None:
@@ -49,8 +43,9 @@ def validate_schema_package(
     attachment: Attachment,
     token: str | None,
     game_id: str,
+    *, target_variant_id: str = "",
 ) -> ValidatedSchemaPackage:
-    with tempfile.TemporaryDirectory() as tmp:
+    with temporary_directory() as tmp:
         tmp_dir = Path(tmp)
         # The Markdown label is untrusted user input; never use it as a path.
         downloaded = tmp_dir / "attachment.zip"
@@ -59,13 +54,19 @@ def validate_schema_package(
         variants: list[ValidatedSchemaVariant] = []
         package_languages: set[str] = set()
         for resolved in resolved_variants:
-            data, nodes = load_schema(resolved.path)
-            validate_schema_structure(data, nodes)
-            languages = schema_languages(nodes)
+            data, nodes = load_artifact(resolved.path)
+            if isinstance(nodes, dict):
+                decode_translation(data, app_id=game_id)
+                if has_manifest and nodes["variant_id"] != resolved.variant_id:
+                    raise ValueError("JSON variant_id 与多版本包目录不一致")
+                if not has_manifest and nodes["variant_id"] not in {"default", target_variant_id}:
+                    raise ValueError("独立 JSON 使用 default；替换其他版本请指定要更新的版本 ID")
+            validate_artifact(data, nodes)
+            languages = artifact_languages(nodes)
             if not languages:
                 raise ValueError(f"版本 {resolved.variant_id} 未检测到完整的 Steam 语言")
             package_languages.update(languages)
-            rows = achievement_rows(nodes, languages)
+            rows = artifact_rows(nodes, languages)
             coverage = require_language_coverage(rows, languages)
             variants.append(ValidatedSchemaVariant(
                 variant_id=resolved.variant_id,
@@ -79,6 +80,7 @@ def validate_schema_package(
                 description_zh=resolved.description_zh,
                 description_en=resolved.description_en,
                 languages=languages,
+                format="json" if isinstance(nodes, dict) else "bin",
             ))
         hashes: dict[str, str] = {}
         for variant in variants:
