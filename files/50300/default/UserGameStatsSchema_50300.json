@@ -1,0 +1,1818 @@
+{
+  "version": 1,
+  "app_id": "50300",
+  "variant_id": "default",
+  "source_sha256": "8a1147ba570e2c30670167c86a24a582c98b65f34458121ef417d3963bb6a7d0",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "Achievement_YEA_STORY_01": {
+      "translations": {
+        "english": {
+          "name": "They Live",
+          "description": "What's lost is found."
+        },
+        "french": {
+          "name": "Ils sont vivants !",
+          "description": "Ce qui est perdu est retrouvé."
+        },
+        "german": {
+          "name": "Sie leben",
+          "description": "Suche nach Überlebenden."
+        },
+        "italian": {
+          "name": "Essi vivono",
+          "description": "Ritrova ciò che hai perso."
+        },
+        "japanese": {
+          "name": "生存者",
+          "description": "砂嵐にのまれたドバイで生存者を探せ。"
+        },
+        "russian": {
+          "name": "Они живы",
+          "description": "Найти уцелевших."
+        },
+        "schinese": {
+          "name": "他们还活着",
+          "description": "失而复得。"
+        },
+        "spanish": {
+          "name": "Están vivos",
+          "description": "Lo que se ha perdido se encuentra."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_02": {
+      "translations": {
+        "english": {
+          "name": "Treacherous Ground",
+          "description": "Look out below."
+        },
+        "french": {
+          "name": "Terrain dangereux",
+          "description": "Attention en dessous."
+        },
+        "german": {
+          "name": "Trügerischer Untergrund",
+          "description": "Pass auf, wo du stehst."
+        },
+        "italian": {
+          "name": "Terreno pericoloso",
+          "description": "Guarda dove metti i piedi."
+        },
+        "japanese": {
+          "name": "危険な土地",
+          "description": "足元に気をつけろ。"
+        },
+        "russian": {
+          "name": "Зыбучие пески",
+          "description": "Смотреть под ноги."
+        },
+        "schinese": {
+          "name": "险恶之地",
+          "description": "小心脚下。"
+        },
+        "spanish": {
+          "name": "Terreno peligroso",
+          "description": "Mira dónde pisas."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_03": {
+      "translations": {
+        "english": {
+          "name": "The Lost Battalion",
+          "description": "We have contact."
+        },
+        "french": {
+          "name": "Le bataillon perdu",
+          "description": "Je vois quelqu'un."
+        },
+        "german": {
+          "name": "Das verlorene Bataillon",
+          "description": "Wir haben Kontakt."
+        },
+        "italian": {
+          "name": "Il battaglione perduto",
+          "description": "Stabilisci il contatto."
+        },
+        "japanese": {
+          "name": "正体不明の敵",
+          "description": "CIAと接触せよ。"
+        },
+        "russian": {
+          "name": "Потерянный батальон",
+          "description": "Засечь противника."
+        },
+        "schinese": {
+          "name": "失落的营队",
+          "description": "我们已取得联系。"
+        },
+        "spanish": {
+          "name": "El batallón perdido",
+          "description": "Hay contacto."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_04": {
+      "translations": {
+        "english": {
+          "name": "Desert Storm",
+          "description": "Engineer an exit strategy."
+        },
+        "french": {
+          "name": "Tempête du désert",
+          "description": "Élaborez une stratégie pour sortir."
+        },
+        "german": {
+          "name": "Wüstensturm",
+          "description": "Finde eine Ausstiegsstrategie."
+        },
+        "italian": {
+          "name": "Tempesta nel deserto",
+          "description": "Elabora una via d'uscita."
+        },
+        "japanese": {
+          "name": "砂嵐",
+          "description": "脱出する方法を考え出せ。"
+        },
+        "russian": {
+          "name": "Буря в пустыне",
+          "description": "Продумать стратегию выхода."
+        },
+        "schinese": {
+          "name": "沙漠风暴",
+          "description": "策划一条脱身之计。"
+        },
+        "spanish": {
+          "name": "Tormenta del Desierto",
+          "description": "Ingenia una estrategia de salida."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_05": {
+      "translations": {
+        "english": {
+          "name": "The Horror",
+          "description": "Face the horrors of war."
+        },
+        "french": {
+          "name": "L'horreur",
+          "description": "Affrontez les horreurs de la guerre."
+        },
+        "german": {
+          "name": "Der Horror",
+          "description": "Stell dich den Schrecken des Krieges."
+        },
+        "italian": {
+          "name": "L'orrore",
+          "description": "Affronta gli orrori della guerra."
+        },
+        "japanese": {
+          "name": "この世の地獄",
+          "description": "戦争の恐怖と向き合え。"
+        },
+        "russian": {
+          "name": "Ужас",
+          "description": "Взглянуть в лицо ужасам войны."
+        },
+        "schinese": {
+          "name": "恐怖",
+          "description": "直面战争的恐怖。"
+        },
+        "spanish": {
+          "name": "El horror",
+          "description": "Afronta los horrores de la guerra."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_06": {
+      "translations": {
+        "english": {
+          "name": "Three Kings",
+          "description": "Stand united."
+        },
+        "french": {
+          "name": "Les rois du désert",
+          "description": "Solidarité"
+        },
+        "german": {
+          "name": "Three Kings",
+          "description": "Vereint stehen wir."
+        },
+        "italian": {
+          "name": "I tre re",
+          "description": "Restate uniti."
+        },
+        "japanese": {
+          "name": "三人寄れば...",
+          "description": "仲間と再会しろ。"
+        },
+        "russian": {
+          "name": "Три короля",
+          "description": "Держаться вместе."
+        },
+        "schinese": {
+          "name": "三王",
+          "description": "团结一致。"
+        },
+        "spanish": {
+          "name": "Los tres reyes",
+          "description": "Permaneced unidos."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_07": {
+      "translations": {
+        "english": {
+          "name": "The Great Escape",
+          "description": "Get out of here!"
+        },
+        "french": {
+          "name": "La grande évasion",
+          "description": "Tirez-vous de là !"
+        },
+        "german": {
+          "name": "Die große Flucht",
+          "description": "Verschwinde von hier!"
+        },
+        "italian": {
+          "name": "La grande fuga",
+          "description": "Scappa da qui!"
+        },
+        "japanese": {
+          "name": "空中からの大脱走",
+          "description": "ヘリで脱出しろ。"
+        },
+        "russian": {
+          "name": "Большой побег",
+          "description": "Подальше от всего этого!"
+        },
+        "schinese": {
+          "name": "大逃亡",
+          "description": "离开这里！"
+        },
+        "spanish": {
+          "name": "La gran evasión",
+          "description": "¡Salid de aquí!"
+        }
+      }
+    },
+    "Achievement_YEA_STORY_08": {
+      "translations": {
+        "english": {
+          "name": "A Bridge Too Far",
+          "description": "The end of the line."
+        },
+        "french": {
+          "name": "Un pont trop loin",
+          "description": "La fin."
+        },
+        "german": {
+          "name": "Eine Brücke - zu weit",
+          "description": "Endstation."
+        },
+        "italian": {
+          "name": "Quell'ultimo ponte",
+          "description": "Raggiungi il limite."
+        },
+        "japanese": {
+          "name": "越えてはならぬ一線",
+          "description": "長い旅の終着点にたどりつけ。"
+        },
+        "russian": {
+          "name": "Мост слишком далеко",
+          "description": "Это конец."
+        },
+        "schinese": {
+          "name": "遥远的桥",
+          "description": "一线的尽头。"
+        },
+        "spanish": {
+          "name": "Un puente muy lejano",
+          "description": "El final de la línea."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_09": {
+      "translations": {
+        "english": {
+          "name": "A Man of Action",
+          "description": "Play it loose."
+        },
+        "french": {
+          "name": "Un homme d'action",
+          "description": "Restez calme."
+        },
+        "german": {
+          "name": "Ein Mann der Tat",
+          "description": "Auf die lässige Tour."
+        },
+        "italian": {
+          "name": "Un uomo d'azione",
+          "description": "Gioca in libertà."
+        },
+        "japanese": {
+          "name": "行動の男",
+          "description": "正面から突入しろ。"
+        },
+        "russian": {
+          "name": "Человек действия",
+          "description": "Идти напролом."
+        },
+        "schinese": {
+          "name": "行动派",
+          "description": "放手去打。"
+        },
+        "spanish": {
+          "name": "Un hombre de acción",
+          "description": "Juega tranquilo."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_10": {
+      "translations": {
+        "english": {
+          "name": "A Man of Patience",
+          "description": "Play it smart."
+        },
+        "french": {
+          "name": "Un homme patient",
+          "description": "Soyez malin."
+        },
+        "german": {
+          "name": "Ein Mann mit Geduld",
+          "description": "Auf die clevere Tour."
+        },
+        "italian": {
+          "name": "Un uomo paziente",
+          "description": "Usa la testa."
+        },
+        "japanese": {
+          "name": "忍耐の男",
+          "description": "敵の裏をかけ。"
+        },
+        "russian": {
+          "name": "Поспешишь - людей насмешишь",
+          "description": "Действовать с умом."
+        },
+        "schinese": {
+          "name": "耐心派",
+          "description": "智取为上。"
+        },
+        "spanish": {
+          "name": "Un hombre paciente",
+          "description": "Juega de manera inteligente."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_11": {
+      "translations": {
+        "english": {
+          "name": "Damned if You Do",
+          "description": "Follow your orders."
+        },
+        "french": {
+          "name": "Obéissance aveugle",
+          "description": "Suivez les ordres."
+        },
+        "german": {
+          "name": "Zwickmühle",
+          "description": "Befolge deine Befehle."
+        },
+        "italian": {
+          "name": "Fregato se lo fai",
+          "description": "Esegui gli ordini."
+        },
+        "japanese": {
+          "name": "絶対服従",
+          "description": "命令に従え。"
+        },
+        "russian": {
+          "name": "Нур зольдат",
+          "description": "Исполнять все приказы."
+        },
+        "schinese": {
+          "name": "做也该死",
+          "description": "服从你的命令。"
+        },
+        "spanish": {
+          "name": "Si lo haces, mal",
+          "description": "Sigue tus órdenes."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_12": {
+      "translations": {
+        "english": {
+          "name": "Damned if You Don't",
+          "description": "Buck the chain of command."
+        },
+        "french": {
+          "name": "Rébellion",
+          "description": "Brisez la chaîne de commandement."
+        },
+        "german": {
+          "name": "Erneute Zwickmühle ",
+          "description": "Widersetz dich der Befehlskette."
+        },
+        "italian": {
+          "name": "Fregato se non lo fai",
+          "description": "Ignora le gerarchie."
+        },
+        "japanese": {
+          "name": "反逆精神",
+          "description": "命令に逆らえ。"
+        },
+        "russian": {
+          "name": "Сам себе голова",
+          "description": "Нарушить субординацию."
+        },
+        "schinese": {
+          "name": "不做也该死",
+          "description": "违抗上级命令。"
+        },
+        "spanish": {
+          "name": "Si no lo haces, peor",
+          "description": "Rebélate contra la cadena de mando."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_13": {
+      "translations": {
+        "english": {
+          "name": "Friendly Fire",
+          "description": "Show mercy."
+        },
+        "french": {
+          "name": "Tir allié",
+          "description": "Faites preuve de clémence."
+        },
+        "german": {
+          "name": "Friendly Fire",
+          "description": "Lass Gnade walten."
+        },
+        "italian": {
+          "name": "Fuoco amico",
+          "description": "Mostra pietà."
+        },
+        "japanese": {
+          "name": "最後の頼み",
+          "description": "最後の頼みを聞け。"
+        },
+        "russian": {
+          "name": "Стрельба по своим",
+          "description": "Проявить милосердие."
+        },
+        "schinese": {
+          "name": "友军火力",
+          "description": "展现仁慈。"
+        },
+        "spanish": {
+          "name": "Fuego amigo",
+          "description": "Ten piedad."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_14": {
+      "translations": {
+        "english": {
+          "name": "Unfriendly Fire",
+          "description": "Save a bullet."
+        },
+        "french": {
+          "name": "Tir avare",
+          "description": "Économisez une balle."
+        },
+        "german": {
+          "name": "Unfriendly Fire",
+          "description": "Heb dir eine Kugel auf."
+        },
+        "italian": {
+          "name": "Fuoco poco amico",
+          "description": "Risparmia un proiettile."
+        },
+        "japanese": {
+          "name": "無情な仕打ち",
+          "description": "何もせずに最期を見届けろ。"
+        },
+        "russian": {
+          "name": "Каждый патрон на счету",
+          "description": "Пожалеть патроны."
+        },
+        "schinese": {
+          "name": "敌意火力",
+          "description": "省下一颗子弹。"
+        },
+        "spanish": {
+          "name": "Fuego poco amigo",
+          "description": "Ahorra munición."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_15": {
+      "translations": {
+        "english": {
+          "name": "A Line, Crossed",
+          "description": "Choose vengeance."
+        },
+        "french": {
+          "name": "Ligne franchie",
+          "description": "Choisissez la vengeance."
+        },
+        "german": {
+          "name": "Eine überschrittene Linie",
+          "description": "Wähle Vergeltung."
+        },
+        "italian": {
+          "name": "Supera il limite",
+          "description": "Scegli la vendetta."
+        },
+        "japanese": {
+          "name": "復讐",
+          "description": "復讐を選べ。"
+        },
+        "russian": {
+          "name": "За гранью, дальше некуда",
+          "description": "Отомстить."
+        },
+        "schinese": {
+          "name": "越过底线",
+          "description": "选择复仇。"
+        },
+        "spanish": {
+          "name": "Línea cruzada",
+          "description": "Elige vengarte."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_16": {
+      "translations": {
+        "english": {
+          "name": "A Line, Held",
+          "description": "Choose restraint."
+        },
+        "french": {
+          "name": "Ligne respectée",
+          "description": "Choisissez la modération."
+        },
+        "german": {
+          "name": "Eine gehaltene Linie",
+          "description": "Wähle Zurückhaltung."
+        },
+        "italian": {
+          "name": "Rispetta il limite",
+          "description": "Scegli la moderazione."
+        },
+        "japanese": {
+          "name": "自制",
+          "description": "自制を選べ。"
+        },
+        "russian": {
+          "name": "У края пропасти, вовремя остановиться",
+          "description": "Проявить самообладание."
+        },
+        "schinese": {
+          "name": "守住底线",
+          "description": "选择克制。"
+        },
+        "spanish": {
+          "name": "Línea respetada",
+          "description": "Elige contención."
+        }
+      }
+    },
+    "Achievement_YEA_FINISHGAME_01": {
+      "translations": {
+        "english": {
+          "name": "Boot",
+          "description": "Complete game on \"Walk on the Beach\" difficulty."
+        },
+        "french": {
+          "name": "Bleu",
+          "description": "Terminer le jeu en niveau de difficulté \"Promenade de santé\"."
+        },
+        "german": {
+          "name": "Frischling",
+          "description": "Absolviere das Spiel auf dem Schwierigkeitsgrad \"Strandspaziergang\"."
+        },
+        "italian": {
+          "name": "Scarpone",
+          "description": "Completa il gioco al livello di difficoltà \"Passeggiata\"."
+        },
+        "japanese": {
+          "name": "ブートキャンプ",
+          "description": "難易度 \"EASY\" でゲームをクリアする。"
+        },
+        "russian": {
+          "name": "Курсант",
+          "description": "Пройти игру на уровне сложности ''Прогулка''."
+        },
+        "schinese": {
+          "name": "新兵",
+          "description": "在“海滩漫步”难度下完成游戏。"
+        },
+        "spanish": {
+          "name": "Novato",
+          "description": "Termina el juego en dificultad \"Paseo militar\"."
+        }
+      }
+    },
+    "Achievement_YEA_FINISHGAME_02": {
+      "translations": {
+        "english": {
+          "name": "We Were Soldiers",
+          "description": "Complete game on \"Combat Op\" difficulty."
+        },
+        "french": {
+          "name": "Nous étions des soldats",
+          "description": "Terminez le jeu en difficulté \"Opération spéciale\"."
+        },
+        "german": {
+          "name": "Wir waren Soldaten",
+          "description": "Absolviere das Spiel auf dem Schwierigkeitsgrad \"Kampfeinsatz\"."
+        },
+        "italian": {
+          "name": "Fino all'ultimo uomo",
+          "description": "Completa il gioco al livello di difficoltà \"Combattente\"."
+        },
+        "japanese": {
+          "name": "熟練の兵士",
+          "description": "難易度 \"NORMAL\" でゲームをクリアする。"
+        },
+        "russian": {
+          "name": "Мы были солдатами",
+          "description": "Пройти игру на уровне сложности ''Боевая операция''."
+        },
+        "schinese": {
+          "name": "我们曾是士兵",
+          "description": "在“战斗行动”难度下完成游戏。"
+        },
+        "spanish": {
+          "name": "Cuando éramos soldados",
+          "description": "Termina el juego en dificultad \"Operación de combate\"."
+        }
+      }
+    },
+    "Achievement_YEA_FINISHGAME_03": {
+      "translations": {
+        "english": {
+          "name": "The Devil's Disciple",
+          "description": "Complete game on \"Suicide Mission\" difficulty."
+        },
+        "french": {
+          "name": "Le disciple du Diable",
+          "description": "Terminez le jeu en difficulté \"Mission suicide\"."
+        },
+        "german": {
+          "name": "Der Schüler des Teufels",
+          "description": "Absolviere das Spiel auf dem Schwierigkeitsgrad \"Selbstmordmission\"."
+        },
+        "italian": {
+          "name": "Il discepolo del demonio",
+          "description": "Completa il gioco al livello di difficoltà \"Missione suicida\"."
+        },
+        "japanese": {
+          "name": "悪魔の使い",
+          "description": "難易度 \"HARD\" でゲームをクリアする。"
+        },
+        "russian": {
+          "name": "Ученик дьявола",
+          "description": "Пройти игру на уровне сложности ''Верная смерть''."
+        },
+        "schinese": {
+          "name": "魔鬼的门徒",
+          "description": "在“自杀任务”难度下完成游戏。"
+        },
+        "spanish": {
+          "name": "Discípulo del Diablo",
+          "description": "Termina el juego en dificultad \"Misión suicida\"."
+        }
+      }
+    },
+    "Achievement_YEA_WEAPONRIFLE": {
+      "translations": {
+        "english": {
+          "name": "Marksman - Rifle",
+          "description": "Kill 350 enemies with any rifle. (campaign only)"
+        },
+        "french": {
+          "name": "Expert - Fusil",
+          "description": "Tuez 350 ennemis - Fusil. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Scharfschütze - Gewehr",
+          "description": "Erledige 350 Gegner mit einem beliebigen Gewehr (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Tiratore scelto - Carabine",
+          "description": "Uccidi 350 nemici con qualsiasi carabina (solo campagna)."
+        },
+        "japanese": {
+          "name": "ライフルの達人",
+          "description": "ライフルで敵を350人倒す（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Стрелок: винтовка",
+          "description": "Убить 350 противников из любой винтовки (в кампании)."
+        },
+        "schinese": {
+          "name": "神射手 - 步枪",
+          "description": "用任意步枪击杀 350 名敌人。（仅限战役）"
+        },
+        "spanish": {
+          "name": "Puntería: fusil",
+          "description": "Mata a 350 enemigos con cualquier fusil (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_WEAPONSMALL": {
+      "translations": {
+        "english": {
+          "name": "Marksman - Small Arms",
+          "description": "Kill 100 enemies with any pistol or SMG. (campaign only)"
+        },
+        "french": {
+          "name": "Expert - Armes légères",
+          "description": "Tuez 100 ennemis avec un pistolet ou un pistolet-mitrailleur. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Scharfschütze - Leichte Waffen",
+          "description": "Erledige 100 Gegner mit einer beliebigen Pistole oder SMG (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Tiratore scelto - Armi leggere",
+          "description": "Uccidi 100 nemici con qualsiasi pistola o mitra (solo campagna)."
+        },
+        "japanese": {
+          "name": "小火器の達人",
+          "description": "ハンドガンもしくはサブマシンガンで敵を100人倒す（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Стрелок: пистолет и ПП",
+          "description": "Убить 100 противников из любого пистолета или ПП (в кампании)."
+        },
+        "schinese": {
+          "name": "神射手 - 轻武器",
+          "description": "使用任意手枪或冲锋枪击杀100名敌人。（仅限战役）"
+        },
+        "spanish": {
+          "name": "Puntería: armas cortas",
+          "description": "Mata a 100 enemigos con cualquier pistola o subfusil (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_WEAPONSHOTGUN": {
+      "translations": {
+        "english": {
+          "name": "Marksman - Shotgun ",
+          "description": "Kill 75 enemies with any shotgun. (campaign only)"
+        },
+        "french": {
+          "name": "Expert - Fusil à pompe ",
+          "description": "Tuez 75 ennemis - Fusil à pompe. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Scharfschütze - Schrotflinte",
+          "description": "Erledige 75 Gegner mit einer beliebigen Schrotflinte (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Tiratore scelto - Fucile ",
+          "description": "Uccidi 75 nemici con qualsiasi fucile (solo campagna)."
+        },
+        "japanese": {
+          "name": "ショットガンの達人",
+          "description": "ショットガンで敵を75人倒す（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Стрелок: дробовик",
+          "description": "Убить 75 противников из любого дробовика (в кампании)."
+        },
+        "schinese": {
+          "name": "神射手 - 霰弹枪",
+          "description": "使用任意霰弹枪击杀75名敌人。（仅限战役）"
+        },
+        "spanish": {
+          "name": "Puntería: escopeta ",
+          "description": "Mata a 75 enemigos con cualquier escopeta (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_WEAPONSNIPER": {
+      "translations": {
+        "english": {
+          "name": "Marksman - Sniper",
+          "description": "Kill 50 enemies with any sniper rifle. (campaign only)"
+        },
+        "french": {
+          "name": "Expert - Fusil de précision",
+          "description": "Tuez 50 ennemis - Fusil de précision. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Scharfschütze - Präzisionsgewehr",
+          "description": "Erledige 50 Gegner mit einem beliebigen Präzisionsgewehr (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Tiratore scelto - Cecchino",
+          "description": "Uccidi 50 nemici con qualsiasi fucile da cecchino (solo campagna)."
+        },
+        "japanese": {
+          "name": "スナイプの達人",
+          "description": "スナイパーライフルで敵を50人倒す（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Стрелок: снайпер",
+          "description": "Убить 50 противников из любой снайперской винтовки (в кампании)."
+        },
+        "schinese": {
+          "name": "神射手 - 狙击枪",
+          "description": "使用任意狙击步枪击杀50名敌人。（仅限战役）"
+        },
+        "spanish": {
+          "name": "Puntería: francotirador",
+          "description": "Mata a 50 enemigos con cualquier fusil de precisión (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_WEAPONGRENADE": {
+      "translations": {
+        "english": {
+          "name": "Marksman - Grenade",
+          "description": "Kill 50 enemies with grenades. (campaign only)"
+        },
+        "french": {
+          "name": "Expert - Grenade",
+          "description": "Tuez 50 ennemis avec des grenades. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Scharfschütze - Granate",
+          "description": "Erledige 50 Gegner mit Granaten (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Tiratore scelto - Granate",
+          "description": "Uccidi 50 nemici con le granate (solo campagna)."
+        },
+        "japanese": {
+          "name": "グレネードの達人",
+          "description": "グレネードで敵を50人倒す（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Стрелок: граната",
+          "description": "Убить 50 противников с помощью гранат (в кампании)."
+        },
+        "schinese": {
+          "name": "神射手 - 手榴弹",
+          "description": "使用手榴弹击杀50名敌人。（仅限战役）"
+        },
+        "spanish": {
+          "name": "Puntería: granada",
+          "description": "Mata a 50 enemigos con granadas (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_HEADSHOT": {
+      "translations": {
+        "english": {
+          "name": "Aim High",
+          "description": "Kill 250 enemies with headshots. (campaign only)"
+        },
+        "french": {
+          "name": "Viser haut",
+          "description": "Tuez 250 ennemis avec des tirs à la tête. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Hoch zielen",
+          "description": "Erledige 250 Gegner mit kritischen Treffern (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Mira in alto",
+          "description": "Uccidi 250 nemici con un colpo alla testa (solo campagna)."
+        },
+        "japanese": {
+          "name": "頭を狙え",
+          "description": "ヘッドショットで敵を250人倒す（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Высокая цель",
+          "description": "Убить 250 противников выстрелами в голову (в кампании)."
+        },
+        "schinese": {
+          "name": "瞄得更高",
+          "description": "通过爆头击杀250名敌人。（仅限战役）"
+        },
+        "spanish": {
+          "name": "Apunta alto",
+          "description": "Mata a 250 enemigos con tiros a la cabeza (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_BLINDFIRE": {
+      "translations": {
+        "english": {
+          "name": "Blind Luck",
+          "description": "Kill 5 enemies using blind fire. (campaign only)"
+        },
+        "french": {
+          "name": "Bon jugement",
+          "description": "Tuez 5 ennemis en utilisant le tir au jugé. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Blindes Glück",
+          "description": "Schalte 5 Gegner nur mit Blindfeuer aus (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Fortuna cieca",
+          "description": "Uccidi 5 nemici usando il fuoco alla cieca (solo campagna)."
+        },
+        "japanese": {
+          "name": "幸運にかけろ",
+          "description": "ブラインドファイアだけで敵を5人倒す（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Стрельба вслепую",
+          "description": "Убить 5 противников неприцельным огнем (в кампании)."
+        },
+        "schinese": {
+          "name": "盲射好运",
+          "description": "使用盲射击杀5名敌人。（仅限战役）"
+        },
+        "spanish": {
+          "name": "Pura suerte",
+          "description": "Mata a 5 enemigos usando Disparar a ciegas (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_COVERDASH": {
+      "translations": {
+        "english": {
+          "name": "Good Training",
+          "description": "Sprint into cover 10 times while under fire. (campaign only)"
+        },
+        "french": {
+          "name": "Bon entraînement",
+          "description": "Courez pour vous mettre à couvert 10 fois sous le feu ennemi. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Gutes Training",
+          "description": "Sprinte 10 Mal in Deckung, während du unter Beschuss stehst (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Buon allenamento",
+          "description": "Scatta in copertura 10 volte mentre sei sotto fuoco (solo campagna)."
+        },
+        "japanese": {
+          "name": "実践訓練",
+          "description": "敵の銃撃をかいくぐりながらカバーダッシュを10回行う（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Хорошая подготовка",
+          "description": "10 раз прыгнуть в укрытие на бегу, находясь под обстрелом (в кампании)."
+        },
+        "schinese": {
+          "name": "训练有素",
+          "description": "在遭受火力压制时冲刺进入掩体10次。（仅限战役）"
+        },
+        "spanish": {
+          "name": "Buena instrucción",
+          "description": "Corre a cubierto 10 veces mientras te disparan (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_MULTIPLEGRENADE": {
+      "translations": {
+        "english": {
+          "name": "Army of One",
+          "description": "Kill 3 enemies with a single grenade. (campaign only)"
+        },
+        "french": {
+          "name": "Armée d'un homme",
+          "description": "Tuez 3 ennemis avec une seule grenade. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Ein-Mann-Armee",
+          "description": "Erledige 3 Gegner mit einer einzigen Granate (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Un uomo, un esercito",
+          "description": "Uccidi 3 nemici con una singola granata (solo campagna)."
+        },
+        "japanese": {
+          "name": "アーミー・オブ・ワン",
+          "description": "グレネード1発で敵を3人倒す（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Волк-одиночка",
+          "description": "Убить 3 противников одной гранатой (в кампании)."
+        },
+        "schinese": {
+          "name": "一人军团",
+          "description": "用一颗手榴弹击杀3名敌人。（仅限战役）"
+        },
+        "spanish": {
+          "name": "Ejército de un solo hombre",
+          "description": "Mata a 3 enemigos con una sola granada (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_PRECISIONSHOOTING": {
+      "translations": {
+        "english": {
+          "name": "All You Can Be",
+          "description": "Complete any chapter with 60%+ accuracy without dying or reloading a checkpoint."
+        },
+        "french": {
+          "name": "Dextérité",
+          "description": "Terminez un chapitre avec une précision +60% sans mourir ni recharger au dernier point de contrôle."
+        },
+        "german": {
+          "name": "Mach das Beste aus dir",
+          "description": "Beende ein Kapitel mit einer Trefferquote von 60%+ ohne zu sterben od. einen Kontrollpunkt zu laden."
+        },
+        "italian": {
+          "name": "Mano ferma",
+          "description": "Completa un capitolo con una precisione almeno del 60% senza morire o ricaricare un checkpoint."
+        },
+        "japanese": {
+          "name": "最高の出来",
+          "description": "死亡したり、チェックポイントをリロードすることなく60%以上の命中率を保ってチャプターをクリアする。"
+        },
+        "russian": {
+          "name": "А вам слабо?",
+          "description": "Пройти любую главу с меткостью не менее 60%, ни разу не погибнув и не загрузив игру с контрольной точки."
+        },
+        "schinese": {
+          "name": "尽己所能",
+          "description": "在不死亡或读取检查点的情况下，以60%以上的命中率完成任意章节。"
+        },
+        "spanish": {
+          "name": "Sé todo lo que puedas ser",
+          "description": "Completa cualquier capítulo con un 60% o más de precisión sin morir o cargar un punto de control."
+        }
+      }
+    },
+    "Achievement_YEA_NODEATH": {
+      "translations": {
+        "english": {
+          "name": "Sierra Hotel",
+          "description": "Complete three chapters in a row without being killed or reloading a checkpoint."
+        },
+        "french": {
+          "name": "Sierra Hotel",
+          "description": "Terminez trois chapitres à la suite sans vous faire tuer ni recharger à un point de contrôle."
+        },
+        "german": {
+          "name": "Sierra Hotel",
+          "description": "Absolviere drei Kapitel hintereinander, ohne getötet zu werden oder einen Kontrollpunkt zu laden."
+        },
+        "italian": {
+          "name": "Sierra Echo",
+          "description": "Completa tre capitoli di fila senza morire o ricaricare un checkpoint."
+        },
+        "japanese": {
+          "name": "無敵の男",
+          "description": "倒されたり、チェックポイントをリロードすることなくチャプターを3つ続けてクリアする。"
+        },
+        "russian": {
+          "name": "Без ''двухсотых''",
+          "description": "Пройти три главы подряд, ни разу не погибнув и не загрузив игру с контрольной точки."
+        },
+        "schinese": {
+          "name": "犀利至极",
+          "description": "连续完成三个章节，期间未被击杀或读取检查点。"
+        },
+        "spanish": {
+          "name": "Sierra Hotel",
+          "description": "Termina tres capítulos seguidos sin morir ni recargar un punto de control."
+        }
+      }
+    },
+    "Achievement_YEA_QUICKKILLS": {
+      "translations": {
+        "english": {
+          "name": "Close Combat Carnage",
+          "description": "Kill 4 enemies with a shotgun in 10 seconds or less. (campaign only)"
+        },
+        "french": {
+          "name": "Carnage rapproché",
+          "description": "Tuez 4 ennemis avec le fusil à pompe en 10 secondes ou moins. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Nahkampf-Gemetzel",
+          "description": "Erledige 4 Gegner in max. 10 Sekunden mit einer Schrotflinte (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Massacro corpo a corpo",
+          "description": "Uccidi 4 nemici con un fucile in 10 secondi o meno (solo campagna)."
+        },
+        "japanese": {
+          "name": "近接攻撃ラッシュ",
+          "description": "10秒以内にショットガンで敵を4人倒す（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Мастер ближнего боя",
+          "description": "Убить 4 противников из дробовика за 10 или менее секунд (в кампании)."
+        },
+        "schinese": {
+          "name": "贴身屠戮",
+          "description": "在10秒内用霰弹枪击杀4名敌人。（仅限战役模式）"
+        },
+        "spanish": {
+          "name": "Matanza cuerpo a cuerpo",
+          "description": "Mata a 4 enemigos con una escopeta en un máximo de 10 segundos (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_ATTACKCOMMAND": {
+      "translations": {
+        "english": {
+          "name": "Battle Management",
+          "description": "Kill 50 enemies using only the Attack Command. (campaign only)"
+        },
+        "french": {
+          "name": "Manager du combat",
+          "description": "Tuez 50 ennemis avec uniquement l'ordre Attaquer. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Gefechtsführung",
+          "description": "Schalte 50 Gegner nur mit dem Angriffsbefehl aus (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Gestione della battaglia",
+          "description": "Uccidi 50 nemici usando solamente il comando di attacco (solo campagna)."
+        },
+        "japanese": {
+          "name": "参謀",
+          "description": "攻撃コマンドだけで敵を50人倒す（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Командир",
+          "description": "Убить 50 противников, используя только приказ ''Атака'' (в кампании)."
+        },
+        "schinese": {
+          "name": "战场管理",
+          "description": "仅使用攻击指令击杀50名敌人。（仅限战役模式）"
+        },
+        "spanish": {
+          "name": "Gestión de combate",
+          "description": "Mata a 50 enemigos usando solo la orden Atacar (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_INTEL_01": {
+      "translations": {
+        "english": {
+          "name": "Spotter",
+          "description": "Recover one Intel Item."
+        },
+        "french": {
+          "name": "Observateur",
+          "description": "Récupérez une information."
+        },
+        "german": {
+          "name": "Aufklärer",
+          "description": "Hole ein Info-Objekt zurück."
+        },
+        "italian": {
+          "name": "Osservatore",
+          "description": "Recupera un documento."
+        },
+        "japanese": {
+          "name": "スポッター",
+          "description": "機密情報を1つ回収する。"
+        },
+        "russian": {
+          "name": "Зоркий глаз",
+          "description": "Добыть первый фрагмент разведданных."
+        },
+        "schinese": {
+          "name": "观察员",
+          "description": "找回1件情报物品。"
+        },
+        "spanish": {
+          "name": "Observador",
+          "description": "Recupera un documento de inteligencia."
+        }
+      }
+    },
+    "Achievement_YEA_INTEL_02": {
+      "translations": {
+        "english": {
+          "name": "Recon",
+          "description": "Recover 12 Intel Items."
+        },
+        "french": {
+          "name": "Reconnaissance",
+          "description": "Récupérez 12 informations."
+        },
+        "german": {
+          "name": "Kundschafter",
+          "description": "Hole 12 Info-Objekte zurück."
+        },
+        "italian": {
+          "name": "Ricognitore",
+          "description": "Recupera 12 documenti."
+        },
+        "japanese": {
+          "name": "諜報部員",
+          "description": "機密情報を12個回収する。"
+        },
+        "russian": {
+          "name": "Разведчик",
+          "description": "Добыть 12 фрагментов разведданных."
+        },
+        "schinese": {
+          "name": "侦察兵",
+          "description": "找回12件情报物品。"
+        },
+        "spanish": {
+          "name": "Reconocimiento",
+          "description": "Recupera 12 documentos de inteligencia."
+        }
+      }
+    },
+    "Achievement_YEA_INTEL_03": {
+      "translations": {
+        "english": {
+          "name": "Intel Operative",
+          "description": "Recover all Intel Items."
+        },
+        "french": {
+          "name": "Agent des renseignements",
+          "description": "Récupérez toutes les informations."
+        },
+        "german": {
+          "name": "Spion",
+          "description": "Hole alle Info-Objekte zurück."
+        },
+        "italian": {
+          "name": "Operativo intelligence",
+          "description": "Recupera tutti i documenti."
+        },
+        "japanese": {
+          "name": "工作員",
+          "description": "すべての機密情報を回収する。"
+        },
+        "russian": {
+          "name": "Архивариус",
+          "description": "Добыть все фрагменты разведданных."
+        },
+        "schinese": {
+          "name": "情报特工",
+          "description": "找回所有情报物品。"
+        },
+        "spanish": {
+          "name": "Agente de inteligencia",
+          "description": "Recupera todos los documentos de inteligencia."
+        }
+      }
+    },
+    "Achievement_YEA_STICKYGRENADE": {
+      "translations": {
+        "english": {
+          "name": "The Human Factor",
+          "description": "Kill an enemy by tagging him with a sticky grenade. (campaign only)"
+        },
+        "french": {
+          "name": "Le facteur humain",
+          "description": "Tuez un ennemi en lui lançant directement une grenade adhésive. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Der menschliche Faktor",
+          "description": "Erledige einen Gegner, indem du ihm eine Haftgranate anhängst (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Fattore umano",
+          "description": "Uccidi un nemico lanciandogli addosso una granata adesiva (solo campagna)."
+        },
+        "japanese": {
+          "name": "人間爆弾",
+          "description": "粘着グレネードを貼りつけて敵を倒す（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Человеческий фактор",
+          "description": "Убить противника, прилепив к нему гранату-липучку (в кампании)."
+        },
+        "schinese": {
+          "name": "人为因素",
+          "description": "将粘性手雷贴在敌人身上并将其击杀。（仅限战役模式）"
+        },
+        "spanish": {
+          "name": "El factor humano",
+          "description": "Mata a un enemigo al pegarle una granada adhesiva (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_FINISHGAME_04": {
+      "translations": {
+        "english": {
+          "name": "MFWIC",
+          "description": "Complete game on \"FUBAR\" difficulty."
+        },
+        "french": {
+          "name": "LE GRAND BOSS",
+          "description": "Terminez le jeu en difficulté \"FUBAR\"."
+        },
+        "german": {
+          "name": "Oberbefehlshaber",
+          "description": "Absolviere das Spiel auf dem Schwierigkeitsgrad \"FUBAR\"."
+        },
+        "italian": {
+          "name": "IL CAPO",
+          "description": "Completa il gioco al livello di difficoltà \"FUBAR\"."
+        },
+        "japanese": {
+          "name": "指揮官殿！",
+          "description": "難易度 \"VETERAN\" でゲームをクリアする。"
+        },
+        "russian": {
+          "name": "Генерал Армии",
+          "description": "Пройти игру на уровне сложности ''Мясорубка''."
+        },
+        "schinese": {
+          "name": "管事的混蛋",
+          "description": "以“彻底搞砸”难度完成游戏。"
+        },
+        "spanish": {
+          "name": "HPAM",
+          "description": "Termina el juego en dificultad \"FUBAR\"."
+        }
+      }
+    },
+    "Achievement_YEA_WEAPONHEAVY": {
+      "translations": {
+        "english": {
+          "name": "Marksman - Heavy Arms",
+          "description": "Kill 150 enemies with any heavy weapon. (campaign only)"
+        },
+        "french": {
+          "name": "Expert - Armes lourdes",
+          "description": "Tuez 150 ennemis - Arme lourde. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Scharfschütze - Schwere Waffen",
+          "description": "Erledige 150 Gegner mit einer beliebigen schweren Waffe (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Tiratore scelto - Armi pesanti",
+          "description": "Uccidi 150 nemici con qualsiasi arma pesante (solo campagna)."
+        },
+        "japanese": {
+          "name": "重火器の達人",
+          "description": "重火器で敵を150人倒す（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Стрелок: тяжелое вооружение",
+          "description": "Убить 150 противников из любого тяжелого вооружения (в кампании)."
+        },
+        "schinese": {
+          "name": "神射手：重火力",
+          "description": "使用任意重型武器击杀150名敌人。（仅限战役模式）"
+        },
+        "spanish": {
+          "name": "Puntería: armamento pesado",
+          "description": "Mata a 150 enemigos con cualquier arma pesada (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_COMMANDOKILL": {
+      "translations": {
+        "english": {
+          "name": "Damn Close",
+          "description": "Kill an Edged Weapon Expert while he is up to 5 meters away. (campaign only)"
+        },
+        "french": {
+          "name": "Un peu trop près",
+          "description": "Tuez un expert Baïonnette à moins de 5 mètres. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Verdammt nah",
+          "description": "Erledige einen Nahkampfexperten, während er maximal 5 Meter entfernt ist (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Per un pelo",
+          "description": "Uccidi un esperto arma bianca a una distanza massima di 5 metri (solo campagna)."
+        },
+        "japanese": {
+          "name": "接近戦",
+          "description": "コンバット部隊員を5メートル以内の距離で倒す（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "В двух шагах",
+          "description": "Убить специалиста по ближнему бою на дистанции менее 5 метров (в кампании)."
+        },
+        "schinese": {
+          "name": "千钧一发",
+          "description": "在利刃专家距自己5米以内时将其击杀。（仅限战役模式）"
+        },
+        "spanish": {
+          "name": "Por poco",
+          "description": "Mata a un Experto en armas blancas mientras está a hasta 5 metros de distancia (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_GRENADETHROWKILL": {
+      "translations": {
+        "english": {
+          "name": "Preventive Diplomacy",
+          "description": "Kill an enemy just as they are throwing a grenade. (campaign only)"
+        },
+        "french": {
+          "name": "Diplomatie préventive",
+          "description": "Tuez un ennemi qui lance une grenade. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Präventive Diplomatie",
+          "description": "Schalte einen Feind aus, der gerade eine Granate wirft (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Diplomazia preventiva",
+          "description": "Uccidi un nemico mentre sta lanciando una granata (solo campagna)."
+        },
+        "japanese": {
+          "name": "予防措置",
+          "description": "グレネード投てき中の敵を倒す（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Превентивные меры",
+          "description": "Убить противника в тот момент, когда он бросает гранату (в кампании)."
+        },
+        "schinese": {
+          "name": "预防性外交",
+          "description": "在敌人正要投掷手雷的瞬间将其击杀。（仅限战役模式）"
+        },
+        "spanish": {
+          "name": "Diplomacia preventiva",
+          "description": "Mata a un enemigo justo cuando lance una granada (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_ORYX": {
+      "translations": {
+        "english": {
+          "name": "Deer Hunter",
+          "description": "Kill an oryx. (campaign only)"
+        },
+        "french": {
+          "name": "Chasseur de cerf",
+          "description": "Tuez un oryx. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Großwildjäger",
+          "description": "Erlege eine Oryx (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Il cacciatore",
+          "description": "Uccidi un orice (solo campagna)."
+        },
+        "japanese": {
+          "name": "狩人",
+          "description": "オリックスを倒す（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Охотник на оленей",
+          "description": "Убить антилопу (в кампании)."
+        },
+        "schinese": {
+          "name": "猎鹿人",
+          "description": "击杀一只剑羚。（仅限战役模式）"
+        },
+        "spanish": {
+          "name": "Cazador",
+          "description": "Mata a un órix (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_TRAVERSALKILL": {
+      "translations": {
+        "english": {
+          "name": "Airspace Control",
+          "description": "Kill 10 enemies while they use zip lines or are rappelling. (campaign only)"
+        },
+        "french": {
+          "name": "Contrôle de l'espace aérien",
+          "description": "Tuez 10 ennemis qui utilisent une tyrolienne ou descendent en rappel. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Luftraumkontrolle",
+          "description": "Erledige 10 Gegner, während sie Seilrutschen oder Abseilvorrichtungen benutzen (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Controllo dello spazio aereo",
+          "description": "Uccidi 10 nemici mentre scivolano o scendono usando una corda (solo campagna)."
+        },
+        "japanese": {
+          "name": "制空権",
+          "description": "ジップラインで移動中またはロープで降下中の敵を10人倒す（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "ПВО",
+          "description": "Убить 10 противников, пока те используют канат или трос (в кампании)."
+        },
+        "schinese": {
+          "name": "制空权",
+          "description": "击杀10名正在使用滑索或速降的敌人。（仅限战役模式）"
+        },
+        "spanish": {
+          "name": "Control del espacio aéreo",
+          "description": "Mata a 10 enemigos mientras usan tirolinas o hacen rapel (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_MELEE": {
+      "translations": {
+        "english": {
+          "name": "Applied Force",
+          "description": "Hit 10 enemies with your melee attack. (campaign only)"
+        },
+        "french": {
+          "name": "Force brute",
+          "description": "Frappez 10 ennemis avec une attaque au corps à corps. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Krafteinwirkung",
+          "description": "Erledige 10 Gegner mit deiner Nahkampfattacke (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Forza bruta",
+          "description": "Colpisci 10 nemici con un attacco corpo a corpo (solo campagna)."
+        },
+        "japanese": {
+          "name": "作用・反作用",
+          "description": "格闘攻撃で敵を10人攻撃する（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Грубая сила",
+          "description": "Ударить 10 противников в ближнем бою (в кампании)."
+        },
+        "schinese": {
+          "name": "作用力",
+          "description": "用近战攻击命中10名敌人。（仅限战役模式）"
+        },
+        "spanish": {
+          "name": "Fuerza aplicada",
+          "description": "Golpea a 10 enemigos con tu ataque cuerpo a cuerpo (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_SANDBOMB": {
+      "translations": {
+        "english": {
+          "name": "Situational Awareness",
+          "description": "Stun an enemy by dumping sand on their head. (campaign only)"
+        },
+        "french": {
+          "name": "Connaître le terrain",
+          "description": "Assommez un ennemi en le noyant sous le sable. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Situationsbewusstsein",
+          "description": "Betäube einen Gegner, indem du ihm Sand auf den Kopf beförderst (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Consapevolezza totale",
+          "description": "Stordisci un nemico facendogli cadere la sabbia in testa (solo campagna)."
+        },
+        "japanese": {
+          "name": "状況把握",
+          "description": "敵の頭に砂を落として行動不能にする（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Используй обстановку",
+          "description": "Оглушить или убить противника с помощью песчаной ловушки (в кампании)."
+        },
+        "schinese": {
+          "name": "态势感知",
+          "description": "将沙子倒在敌人头上使其眩晕。（仅限战役模式）"
+        },
+        "spanish": {
+          "name": "Conciencia contextual",
+          "description": "Aturde a un enemigo tirándole arena a la cabeza (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_VAULTKICK": {
+      "translations": {
+        "english": {
+          "name": "In Your Face",
+          "description": "Kick an enemy by vaulting over a cover. (campaign only)"
+        },
+        "french": {
+          "name": "Et bim !",
+          "description": "Donnez un coup de pied en sautant par-dessus un abri. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "In die Fresse",
+          "description": "Tritt einen Feind, indem du über eine Deckung springst (nur Kampagne)."
+        },
+        "italian": {
+          "name": "In piena faccia",
+          "description": "Calcia un nemico saltando oltre un riparo (solo campagna)."
+        },
+        "japanese": {
+          "name": "クリーンヒット",
+          "description": "遮蔽物を飛び越えて敵を蹴る（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Вот тебе",
+          "description": "Убить противника, перепрыгнув через укрытие (в кампании)."
+        },
+        "schinese": {
+          "name": "迎面一脚",
+          "description": "翻越掩体时踢中一名敌人。（仅限战役模式）"
+        },
+        "spanish": {
+          "name": "En toda la cara",
+          "description": "Golpea a un enemigo saltando por encima de una cobertura (solo en Campaña)."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_17": {
+      "translations": {
+        "english": {
+          "name": "A Farewell To Arms",
+          "description": "You are relieved."
+        },
+        "french": {
+          "name": "L'adieu aux armes",
+          "description": "Vous êtes soulagé."
+        },
+        "german": {
+          "name": "Lebt wohl, ihr Waffen",
+          "description": "Du bist entlastet."
+        },
+        "italian": {
+          "name": "Addio alle armi",
+          "description": "Fatti esonerare."
+        },
+        "japanese": {
+          "name": "武器を捨てろ",
+          "description": "苦悩からの解放を選べ。"
+        },
+        "russian": {
+          "name": "Прощай, оружие",
+          "description": "Вольно, рядовой."
+        },
+        "schinese": {
+          "name": "永别了，武器",
+          "description": "你已被解除职务。"
+        },
+        "spanish": {
+          "name": "Adiós a las armas",
+          "description": "Queda relevado."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_18": {
+      "translations": {
+        "english": {
+          "name": "Too Late The Hero",
+          "description": "Carry on, soldier."
+        },
+        "french": {
+          "name": "Trop tard pour les héros",
+          "description": "Continuez, soldat."
+        },
+        "german": {
+          "name": "Der Held - zu spät",
+          "description": "Weitermachen, Soldat."
+        },
+        "italian": {
+          "name": "Eroe troppo tardi",
+          "description": "Continua così, soldato."
+        },
+        "japanese": {
+          "name": "遅すぎた目覚め",
+          "description": "まだ終わりではない。"
+        },
+        "russian": {
+          "name": "Не время для героев",
+          "description": "Так держать, боец!"
+        },
+        "schinese": {
+          "name": "英雄已迟",
+          "description": "继续，士兵。"
+        },
+        "spanish": {
+          "name": "Así luchan los héroes",
+          "description": "Adelante, soldado."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_19": {
+      "translations": {
+        "english": {
+          "name": "The Road Back",
+          "description": "Live and let live."
+        },
+        "french": {
+          "name": "La route du retour",
+          "description": "Vivre et laisser vivre."
+        },
+        "german": {
+          "name": "Der Weg zurück",
+          "description": "Leben und leben lassen."
+        },
+        "italian": {
+          "name": "La via del ritorno",
+          "description": "Vivi e lascia vivere."
+        },
+        "japanese": {
+          "name": "帰還への道",
+          "description": "帰るための選択をしろ。"
+        },
+        "russian": {
+          "name": "Дорога домой",
+          "description": "Живешь сам - дай жить другим."
+        },
+        "schinese": {
+          "name": "归途",
+          "description": "自己活，也让别人活。"
+        },
+        "spanish": {
+          "name": "Camino de vuelta",
+          "description": "Vive y deja vivir."
+        }
+      }
+    },
+    "Achievement_YEA_STORY_20": {
+      "translations": {
+        "english": {
+          "name": "The Road To Glory",
+          "description": "Live and let die."
+        },
+        "french": {
+          "name": "La route vers la victoire",
+          "description": "Vivre et laisser mourir."
+        },
+        "german": {
+          "name": "Die Straße des Ruhms",
+          "description": "Leben und sterben lassen."
+        },
+        "italian": {
+          "name": "La via per la gloria",
+          "description": "Vivi e lascia morire."
+        },
+        "japanese": {
+          "name": "栄光への道",
+          "description": "真実を闇に葬れ。"
+        },
+        "russian": {
+          "name": "Путь к славе",
+          "description": "Живи сам и дай другим умереть."
+        },
+        "schinese": {
+          "name": "荣耀之路",
+          "description": "自己活，让别人死。"
+        },
+        "spanish": {
+          "name": "Camino a la gloria",
+          "description": "Vive y deja morir."
+        }
+      }
+    },
+    "Achievement_YEA_EXPLOSIVE": {
+      "translations": {
+        "english": {
+          "name": "Adapt and Overcome",
+          "description": "Blow up 10 explosive objects, killing at least one enemy each time. (campaign only)"
+        },
+        "french": {
+          "name": "Savoir s'adapter",
+          "description": "Faites sauter 10 objets explosifs en tuant au moins un ennemi à chaque fois. (mode campagne uniquement)"
+        },
+        "german": {
+          "name": "Anpassen und überwinden",
+          "description": "Jage 10 explosive Objekte in die Luft und erledige dabei jeweils mindestens 1 Gegner (nur Kampagne)."
+        },
+        "italian": {
+          "name": "Adattarsi e sopraffare",
+          "description": "Fai saltare 10 oggetti esplosivi, uccidendo almeno un nemico ogni volta (solo campagna)."
+        },
+        "japanese": {
+          "name": "順応と勝利",
+          "description": "10個の爆発物を使い、1個につき少なくとも1人の敵を倒す（キャンペーンモードのみ）。"
+        },
+        "russian": {
+          "name": "Приспособление ради выживания",
+          "description": "Взорвать 10 предметов, убивая каждым взрывом как минимум одного противника (в кампании)."
+        },
+        "schinese": {
+          "name": "随机应变",
+          "description": "炸毁10个爆炸物，每次至少炸死一名敌人。（仅限战役模式）"
+        },
+        "spanish": {
+          "name": "Adaptarse y vencer",
+          "description": "Detona 10 objetos explosivos y mata a al menos un enemigo cada vez (solo en Campaña)."
+        }
+      }
+    }
+  }
+}
