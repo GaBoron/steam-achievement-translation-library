@@ -1,0 +1,1780 @@
+{
+  "version": 1,
+  "app_id": "289690",
+  "variant_id": "default",
+  "source_sha256": "cfd9862d44e5ac0e36419547cce85a436b94e9b512fa1071b094e74c2b4b4006",
+  "languages": [
+    "brazilian",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "portuguese",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "NEW_ACHIEVEMENT_1_1": {
+      "translations": {
+        "brazilian": {
+          "name": "O que há na caixa?",
+          "description": "Destranque um baú de tesouro."
+        },
+        "english": {
+          "name": "What's in the box?",
+          "description": "Unlock a treasure chest"
+        },
+        "french": {
+          "name": "Qu'y a-t-il dans la boîte ?",
+          "description": "Déverrouillez un coffre à trésor"
+        },
+        "german": {
+          "name": "Was ist in der Kiste?",
+          "description": "Öffne eine Schatztruhe"
+        },
+        "italian": {
+          "name": "Cosa c'è nella cassa?",
+          "description": "Sblocca uno scrigno del tesoro"
+        },
+        "japanese": {
+          "name": "箱の中には何がある？",
+          "description": "宝箱をアンロックする。"
+        },
+        "portuguese": {
+          "name": "O que há na caixa?",
+          "description": "Destranque um baú de tesouro."
+        },
+        "russian": {
+          "name": "Что же внутри?",
+          "description": "Открыть сундук с сокровищами"
+        },
+        "schinese": {
+          "name": "盒子里有什么？",
+          "description": "解锁一个宝箱"
+        },
+        "spanish": {
+          "name": "¿Qué hay en la caja?",
+          "description": "Desbloquea un cofre del tesoro."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_2": {
+      "translations": {
+        "brazilian": {
+          "name": "Prepare-se para um desafio",
+          "description": "Complete uma Tumba de Desafio."
+        },
+        "english": {
+          "name": "Up for a challenge",
+          "description": "Complete a Challenge Tomb"
+        },
+        "french": {
+          "name": "Soif de défi",
+          "description": "Terminez un tombeau Défi"
+        },
+        "german": {
+          "name": "Zu allem bereit",
+          "description": "Meistere ein Herausforderungsgrab"
+        },
+        "italian": {
+          "name": "Pronto alla sfida",
+          "description": "Completa una tomba sfida"
+        },
+        "japanese": {
+          "name": "チャレンジャー",
+          "description": "チャレンジトゥームをクリアする。"
+        },
+        "portuguese": {
+          "name": "Prepare-se para um desafio",
+          "description": "Complete uma Tumba de Desafio."
+        },
+        "russian": {
+          "name": "К испытаниям готова",
+          "description": "Пройти гробницу с испытанием"
+        },
+        "schinese": {
+          "name": "接受挑战",
+          "description": "完成一座挑战古墓"
+        },
+        "spanish": {
+          "name": "Me apetece un desafío",
+          "description": "Completa una Tumba de desafío."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_3": {
+      "translations": {
+        "brazilian": {
+          "name": "Tem que começar em algum lugar",
+          "description": "Encontre sua primeira arma."
+        },
+        "english": {
+          "name": "Gotta start somewhere",
+          "description": "Find your first weapon"
+        },
+        "french": {
+          "name": "C'est un début",
+          "description": "Trouvez votre première arme"
+        },
+        "german": {
+          "name": "Irgendwo muss man anfangen",
+          "description": "Finde deine erste Waffe"
+        },
+        "italian": {
+          "name": "C'è sempre un inizio",
+          "description": "Trova la tua prima arma"
+        },
+        "japanese": {
+          "name": "戦闘開始",
+          "description": "最初の武器を見つける。"
+        },
+        "portuguese": {
+          "name": "Tem que começar em algum lugar",
+          "description": "Encontre sua primeira arma."
+        },
+        "russian": {
+          "name": "Когда-то надо начинать",
+          "description": "Найти первое оружие"
+        },
+        "schinese": {
+          "name": "万事开头难",
+          "description": "找到你的第一把武器"
+        },
+        "spanish": {
+          "name": "Por alguna parte hay que empezar",
+          "description": "Encuentra tu primera arma."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_4": {
+      "translations": {
+        "brazilian": {
+          "name": "Eu amo tumbas!",
+          "description": "Complete todas as Tumbas de Desafio."
+        },
+        "english": {
+          "name": "I love tombs!",
+          "description": "Complete all Challenge Tombs"
+        },
+        "french": {
+          "name": "J'aime les tombeaux !",
+          "description": "Terminez tous les tombeaux Défi"
+        },
+        "german": {
+          "name": "Ich liebe Gräber!",
+          "description": "Meistere alle Herausforderungsgräber"
+        },
+        "italian": {
+          "name": "Amo le tombe!",
+          "description": "Completa tutte le tombe sfida"
+        },
+        "japanese": {
+          "name": "トゥームマスター",
+          "description": "すべてのチャレンジトゥームをクリアする。"
+        },
+        "portuguese": {
+          "name": "Eu amo tumbas!",
+          "description": "Complete todas as Tumbas de Desafio."
+        },
+        "russian": {
+          "name": "Я люблю гробницы!",
+          "description": "Пройти все гробницы с испытаниями"
+        },
+        "schinese": {
+          "name": "我爱古墓！",
+          "description": "完成所有挑战古墓"
+        },
+        "spanish": {
+          "name": "¡Me encantan las tumbas!",
+          "description": "Completa todas las Tumbas de desafío."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_5": {
+      "translations": {
+        "brazilian": {
+          "name": "Ostentação!",
+          "description": "Usar dois anéis e um amuleto."
+        },
+        "english": {
+          "name": "Bling me up!",
+          "description": "Wear two rings and an amulet"
+        },
+        "french": {
+          "name": "Je veux du clinquant !",
+          "description": "Portez deux anneaux et une amulette"
+        },
+        "german": {
+          "name": "Klunker gefällig?",
+          "description": "Trage zwei Ringe und ein Amulett"
+        },
+        "italian": {
+          "name": "Voglio brillare!",
+          "description": "Indossa due anelli e un amuleto"
+        },
+        "japanese": {
+          "name": "考古学者の身だしなみ",
+          "description": "2つの指輪とアミュレットを装備する。"
+        },
+        "portuguese": {
+          "name": "Ostentação!",
+          "description": "Usar dois anéis e um amuleto."
+        },
+        "russian": {
+          "name": "Укрась меня!",
+          "description": "Надеть два кольца и амулет"
+        },
+        "schinese": {
+          "name": "给我闪起来！",
+          "description": "同时佩戴两枚戒指和一条护身符"
+        },
+        "spanish": {
+          "name": "¡Enjóyame!",
+          "description": "Equipa dos anillos y un amuleto."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_6": {
+      "translations": {
+        "brazilian": {
+          "name": "Sua morte não será em vão!",
+          "description": "Colete vasos canópicos suficientes para desbloquear uma arma de ônix."
+        },
+        "english": {
+          "name": "Your death won't be in vain!",
+          "description": "Collect enough canopic jars to unlock an onyx weapon"
+        },
+        "french": {
+          "name": "Ta mort ne sera vaine !",
+          "description": "Récupérez assez de vases funéraires pour déverrouiller une arme onyx"
+        },
+        "german": {
+          "name": "Dein Tod wird nicht umsonst sein!",
+          "description": "Sammle genügend Kanopen, um eine Onyxwaffe freizuschalten"
+        },
+        "italian": {
+          "name": "Non morirai invano!",
+          "description": "Raccogli vasi canopi sufficienti per sbloccare un'arma in onice"
+        },
+        "japanese": {
+          "name": "その死は無駄にしない",
+          "description": "カノプスの壺を集めてオニキスの武器をアンロックする。"
+        },
+        "portuguese": {
+          "name": "Sua morte não será em vão!",
+          "description": "Colete vasos canópicos suficientes para desbloquear uma arma de ônix."
+        },
+        "russian": {
+          "name": "Твоя смерть не будет напрасной!",
+          "description": "Собрать достаточно погребальных урн, чтобы разблокировать ониксовое оружие"
+        },
+        "schinese": {
+          "name": "你的死不会白费！",
+          "description": "收集足够的卡诺卜坛以解锁一件玛瑙武器"
+        },
+        "spanish": {
+          "name": "Tu muerte no habrá sido en vano",
+          "description": "Reúne los vasos canopes necesarios para desbloquear un arma de ónice."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_8": {
+      "translations": {
+        "brazilian": {
+          "name": "Tomb Raider",
+          "description": "Complete todos os desafios."
+        },
+        "english": {
+          "name": "Tomb Raider",
+          "description": "Complete all challenges"
+        },
+        "french": {
+          "name": "Tomb Raider",
+          "description": "Terminez tous les défis"
+        },
+        "german": {
+          "name": "Tomb Raider",
+          "description": "Meistere alle Herausforderungen"
+        },
+        "italian": {
+          "name": "Tomb Raider",
+          "description": "Completa tutte le sfide"
+        },
+        "japanese": {
+          "name": "トゥームレイダー",
+          "description": "すべてのチャレンジをクリアする。"
+        },
+        "portuguese": {
+          "name": "Tomb Raider",
+          "description": "Complete todos os desafios."
+        },
+        "russian": {
+          "name": "Tomb Raider",
+          "description": "Пройти все испытания"
+        },
+        "schinese": {
+          "name": "古墓丽影",
+          "description": "完成所有挑战"
+        },
+        "spanish": {
+          "name": "Tomb Raider",
+          "description": "Completa todos los desafíos."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_9": {
+      "translations": {
+        "brazilian": {
+          "name": "Esquema pirâmide",
+          "description": "Complete todos os desafios da Pirâmide de Osíris."
+        },
+        "english": {
+          "name": "Pyramid scheme",
+          "description": "Complete all Pyramid of Osiris challenges"
+        },
+        "french": {
+          "name": "Système pyramidal",
+          "description": "Terminez tous les défis de la pyramide d'Osiris"
+        },
+        "german": {
+          "name": "Pyramidenkrise",
+          "description": "Meistere alle Herausforderungen in der Pyramide des Osiris"
+        },
+        "italian": {
+          "name": "Schema a piramide",
+          "description": "Completa tutte le sfide nella piramide di Osiride"
+        },
+        "japanese": {
+          "name": "ピラミッドレイダー",
+          "description": "オシリスのピラミッドのチャレンジをすべてクリアする。"
+        },
+        "portuguese": {
+          "name": "Esquema pirâmide",
+          "description": "Complete todos os desafios da Pirâmide de Osíris."
+        },
+        "russian": {
+          "name": "Финансовая пирамида",
+          "description": "Пройти все испытания в пирамиде Осириса"
+        },
+        "schinese": {
+          "name": "金字塔骗局",
+          "description": "完成奥西里斯金字塔的所有挑战"
+        },
+        "spanish": {
+          "name": "Plano de la pirámide",
+          "description": "Completa todos los desafíos de la Pirámide de Osiris."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_10": {
+      "translations": {
+        "brazilian": {
+          "name": "Para o futuro",
+          "description": "Complete todos os desafios da Tumba do Guardião do Tempo."
+        },
+        "english": {
+          "name": "Into the future",
+          "description": "Complete all Tomb of the Timekeeper challenges"
+        },
+        "french": {
+          "name": "Direction le futur",
+          "description": "Terminez tous les défis du tombeau du Maître du temps"
+        },
+        "german": {
+          "name": "Auf in die Zukunft",
+          "description": "Meistere alle Herausforderungen im Grab des Zeitmessers"
+        },
+        "italian": {
+          "name": "Verso il futuro",
+          "description": "Completa tutte le sfide nella tomba del custode del tempo"
+        },
+        "japanese": {
+          "name": "時空の旅人",
+          "description": "時の番人の墓所のチャレンジをすべてクリアする。"
+        },
+        "portuguese": {
+          "name": "Para o futuro",
+          "description": "Complete todos os desafios da Tumba do Guardião do Tempo."
+        },
+        "russian": {
+          "name": "Путешествие в будущее",
+          "description": "Пройти все испытания в гробнице Хранителя Времени"
+        },
+        "schinese": {
+          "name": "迈向未来",
+          "description": "完成时间守护者之墓的所有挑战"
+        },
+        "spanish": {
+          "name": "Hacia el futuro",
+          "description": "Completa todos los desafíos de la Tumba del guardián del tiempo."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_11": {
+      "translations": {
+        "brazilian": {
+          "name": "Encantador de cobras",
+          "description": "Complete todos os desafios da Tumba do Ourives."
+        },
+        "english": {
+          "name": "Snake charmer",
+          "description": "Complete all Tomb of the Silversmith challenges"
+        },
+        "french": {
+          "name": "Charmeur de serpent",
+          "description": "Terminez tous les défis du tombeau de l'Orfèvre"
+        },
+        "german": {
+          "name": "Schlangenbeschwörer",
+          "description": "Meistere alle Herausforderungen im Grab des Silberschmieds"
+        },
+        "italian": {
+          "name": "Incantatore di serpenti",
+          "description": "Completa tutte le sfide nella tomba dell'argentiere"
+        },
+        "japanese": {
+          "name": "蛇使い",
+          "description": "銀細工師の墓所のチャレンジをすべてクリアする。"
+        },
+        "portuguese": {
+          "name": "Encantador de cobras",
+          "description": "Complete todos os desafios da Tumba do Ourives."
+        },
+        "russian": {
+          "name": "Заклинатель змей",
+          "description": "Пройти все испытания в гробнице Ювелира"
+        },
+        "schinese": {
+          "name": "耍蛇人",
+          "description": "完成银匠之墓的所有挑战"
+        },
+        "spanish": {
+          "name": "Encantador de serpientes",
+          "description": "Completa todos los desafíos de la Tumba del platero."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_12": {
+      "translations": {
+        "brazilian": {
+          "name": "No que estávamos pisando?",
+          "description": "Complete todos os desafios de Khepri."
+        },
+        "english": {
+          "name": "What were we standing on?",
+          "description": "Complete all Khepri challenges"
+        },
+        "french": {
+          "name": "Où avons-nous posé les pieds ?",
+          "description": "Terminez tous les défis de Khépri"
+        },
+        "german": {
+          "name": "Kammerjäger",
+          "description": "Meistere alle Khepri-Herausforderungen"
+        },
+        "italian": {
+          "name": "Cos'è questa puzza?",
+          "description": "Completa tutte le sfide di Khepri"
+        },
+        "japanese": {
+          "name": "玉乗り名人",
+          "description": "ケプリのチャレンジをすべてクリアする。"
+        },
+        "portuguese": {
+          "name": "No que estávamos pisando?",
+          "description": "Complete todos os desafios de Khepri."
+        },
+        "russian": {
+          "name": "На чем мы остановились?",
+          "description": "Пройти все испытания Хепри"
+        },
+        "schinese": {
+          "name": "我们刚才站在什么上面？",
+          "description": "完成所有凯布利挑战"
+        },
+        "spanish": {
+          "name": "¿Qué estábamos pisando?",
+          "description": "Completa todos los desafíos de Khepri."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_13": {
+      "translations": {
+        "brazilian": {
+          "name": "Me disseram que ia ter barcos",
+          "description": "Complete todos os desafios da Tumba do Barqueiro."
+        },
+        "english": {
+          "name": "I was told there would be boats",
+          "description": "Complete all Tomb of the Ferryman challenges"
+        },
+        "french": {
+          "name": "Je me suis fait mener en bateau",
+          "description": "Terminez tous les défis du tombeau du Passeur"
+        },
+        "german": {
+          "name": "Ich hatte Boote erwartet",
+          "description": "Meistere alle Herausforderungen im Grab des Fährmanns"
+        },
+        "italian": {
+          "name": "Dove sono le barche?",
+          "description": "Completa tutte le sfide nella tomba del traghettatore"
+        },
+        "japanese": {
+          "name": "舟はどこ？",
+          "description": "渡し守の墓所のチャレンジをすべてクリアする。"
+        },
+        "portuguese": {
+          "name": "Me disseram que ia ter barcos",
+          "description": "Complete todos os desafios da Tumba do Barqueiro."
+        },
+        "russian": {
+          "name": "А говорили, будут лодки",
+          "description": "Пройти все испытания в гробнице Перевозчика"
+        },
+        "schinese": {
+          "name": "说好会有船的",
+          "description": "完成所有摆渡人之墓挑战"
+        },
+        "spanish": {
+          "name": "Me dijeron que habría barcos",
+          "description": "Completa todos los desafíos de la Tumba del capitán."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_15": {
+      "translations": {
+        "brazilian": {
+          "name": "Azia",
+          "description": "Complete todos os desafios de Sobek."
+        },
+        "english": {
+          "name": "Heartburn",
+          "description": "Complete all Sobek challenges"
+        },
+        "french": {
+          "name": "Brûlures d'estomac",
+          "description": "Terminez tous les défis de Sobek"
+        },
+        "german": {
+          "name": "Sodbrennen",
+          "description": "Meistere alle Sobek-Herausforderungen"
+        },
+        "italian": {
+          "name": "Bruciore di stomaco",
+          "description": "Completa tutte le sfide di Sobek"
+        },
+        "japanese": {
+          "name": "もう食べられない",
+          "description": "ソベクのチャレンジをすべてクリアする。"
+        },
+        "portuguese": {
+          "name": "Azia",
+          "description": "Complete todos os desafios de Sobek."
+        },
+        "russian": {
+          "name": "Изжога",
+          "description": "Пройти все испытания Себека"
+        },
+        "schinese": {
+          "name": "烧心",
+          "description": "完成所有索贝克挑战"
+        },
+        "spanish": {
+          "name": "Acidez de estómago",
+          "description": "Completa todos los desafíos de Sobek."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_16": {
+      "translations": {
+        "brazilian": {
+          "name": "Quem constrói a própria tumba?",
+          "description": "Complete todos os desafios da Tumba do Arquiteto."
+        },
+        "english": {
+          "name": "Who builds their own tomb?",
+          "description": "Complete all Tomb of the Architect challenges"
+        },
+        "french": {
+          "name": "Qui construit son propre tombeau ?",
+          "description": "Terminez tous les défis du tombeau de l'Architecte"
+        },
+        "german": {
+          "name": "Wer baut sein eigenes Grab?",
+          "description": "Meistere alle Herausforderungen im Grab des Architekten"
+        },
+        "italian": {
+          "name": "Chi si costruisce la propria tomba?",
+          "description": "Completa tutte le sfide nella tomba dell'architetto"
+        },
+        "japanese": {
+          "name": "その墓は誰が作る？",
+          "description": "建築士の墓所のチャレンジをすべてクリアする。"
+        },
+        "portuguese": {
+          "name": "Quem constrói a própria tumba?",
+          "description": "Complete todos os desafios da Tumba do Arquiteto."
+        },
+        "russian": {
+          "name": "Кто строит гробницу самому себе?",
+          "description": "Пройти все испытания в гробнице Архитектора"
+        },
+        "schinese": {
+          "name": "谁会给自己修墓？",
+          "description": "完成所有建筑师之墓挑战"
+        },
+        "spanish": {
+          "name": "¿Quién construye su tumba?",
+          "description": "Completa todos los desafíos de la Tumba del arquitecto."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_18": {
+      "translations": {
+        "brazilian": {
+          "name": "A tumba das surpresas afiadas",
+          "description": "Complete todos os desafios da Tumba do Torturador."
+        },
+        "english": {
+          "name": "The stabbiest tomb of all",
+          "description": "Complete all Tomb of the Torturer challenges"
+        },
+        "french": {
+          "name": "Le plus tranchant des tombeaux",
+          "description": "Terminez tous les défis du tombeau du Bourreau"
+        },
+        "german": {
+          "name": "Das tödlichste aller Gräber",
+          "description": "Meistere alle Herausforderungen im Grab des Folterknechts"
+        },
+        "italian": {
+          "name": "La tomba più affilata",
+          "description": "Completa tutte le sfide nella tomba del torturatore"
+        },
+        "japanese": {
+          "name": "世界で一番痛い墓所",
+          "description": "拷問者の墓所のチャレンジをすべてクリアする。"
+        },
+        "portuguese": {
+          "name": "A tumba das surpresas afiadas",
+          "description": "Complete todos os desafios da Tumba do Torturador."
+        },
+        "russian": {
+          "name": "Самая колкая гробница",
+          "description": "Пройти все испытания в гробнице Мучителя"
+        },
+        "schinese": {
+          "name": "尖刺最多的古墓",
+          "description": "完成所有拷问者之墓挑战"
+        },
+        "spanish": {
+          "name": "La tumba más peliaguda de todas",
+          "description": "Completa todos los desafíos de la Tumba del torturador."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_19": {
+      "translations": {
+        "brazilian": {
+          "name": "Cão que ladra...",
+          "description": "Complete todos os desafios de Set."
+        },
+        "english": {
+          "name": "All bark and...",
+          "description": "Complete all Set challenges"
+        },
+        "french": {
+          "name": "Les chiens aboient...",
+          "description": "Terminez tous les défis de Seth"
+        },
+        "german": {
+          "name": "Hunde die bellen ...",
+          "description": "Meistere alle Set-Herausforderungen"
+        },
+        "italian": {
+          "name": "Can che abbaia...",
+          "description": "Completa tutte le sfide di Seth"
+        },
+        "japanese": {
+          "name": "弱い犬ほどよく吠える",
+          "description": "セトのチャレンジをすべてクリアする。"
+        },
+        "portuguese": {
+          "name": "Cão que ladra...",
+          "description": "Complete todos os desafios de Set."
+        },
+        "russian": {
+          "name": "Собака лает, но не кусает...",
+          "description": "Пройти все испытания Сета"
+        },
+        "schinese": {
+          "name": "光叫不咬……",
+          "description": "完成所有赛特挑战"
+        },
+        "spanish": {
+          "name": "Perro ladrador...",
+          "description": "Completa todos los desafíos de Set."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_20": {
+      "translations": {
+        "brazilian": {
+          "name": "Tempo é fundamental",
+          "description": "Complete o desafio de tempo de qualquer fase."
+        },
+        "english": {
+          "name": "Time is of the essence",
+          "description": "Complete any level time challenge"
+        },
+        "french": {
+          "name": "Pas un instant à perdre",
+          "description": "Terminez un défi chronométré"
+        },
+        "german": {
+          "name": "Zeit ist Geld",
+          "description": "Meistere eine beliebige Zeit-Herausforderung"
+        },
+        "italian": {
+          "name": "Il tempo è la chiave",
+          "description": "Completa una sfida a tempo di qualsiasi livello"
+        },
+        "japanese": {
+          "name": "時は金なり",
+          "description": "時間制限チャレンジをひとつクリアする。"
+        },
+        "portuguese": {
+          "name": "Tempo é fundamental",
+          "description": "Complete o desafio de tempo de qualquer fase."
+        },
+        "russian": {
+          "name": "Время дорого",
+          "description": "Пройти испытание со временем на любом уровне"
+        },
+        "schinese": {
+          "name": "分秒必争",
+          "description": "完成任意关卡的时间挑战"
+        },
+        "spanish": {
+          "name": "El tiempo es oro",
+          "description": "Completa el desafío de tiempo de cualquier nivel."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_21": {
+      "translations": {
+        "brazilian": {
+          "name": "Temos que pegar",
+          "description": "Complete qualquer desafio da caveira vermelha."
+        },
+        "english": {
+          "name": "Gotta have them all",
+          "description": "Complete any red skull challenge"
+        },
+        "french": {
+          "name": "Attrapez-les tous",
+          "description": "Terminez un défi de crâne rouge"
+        },
+        "german": {
+          "name": "Komm schnapp sie dir!",
+          "description": "Meistere eine beliebige Rote-Schädel-Herausforderung"
+        },
+        "italian": {
+          "name": "Devo averli tutti",
+          "description": "Completa una sfida del teschio rosso"
+        },
+        "japanese": {
+          "name": "スカルコレクター",
+          "description": "レッドスカルのチャレンジをひとつクリアする。"
+        },
+        "portuguese": {
+          "name": "Temos que pegar",
+          "description": "Complete qualquer desafio da caveira vermelha."
+        },
+        "russian": {
+          "name": "Они мне все нужны",
+          "description": "Пройти любое испытание с красными черепами"
+        },
+        "schinese": {
+          "name": "一个都不能少",
+          "description": "完成任意红骷髅挑战"
+        },
+        "spanish": {
+          "name": "Hay que tenerlas todas",
+          "description": "Completa cualquier desafío de calavera roja."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_22": {
+      "translations": {
+        "brazilian": {
+          "name": "Aprendeu com o melhor",
+          "description": "Complete qualquer desafio com pontuação dourada."
+        },
+        "english": {
+          "name": "Learn from the best",
+          "description": "Complete any gold score challenge"
+        },
+        "french": {
+          "name": "Apprentissage avec les meilleurs",
+          "description": "Terminez un défi de score or"
+        },
+        "german": {
+          "name": "Lerne von den Besten",
+          "description": "Meistere eine beliebige Gold-Punkteherausforderung"
+        },
+        "italian": {
+          "name": "Impara dal migliore",
+          "description": "Completa una sfida punti oro"
+        },
+        "japanese": {
+          "name": "最高峰の技量",
+          "description": "ゴールドポイントチャレンジをひとつクリアする。"
+        },
+        "portuguese": {
+          "name": "Aprendeu com o melhor",
+          "description": "Complete qualquer desafio com pontuação dourada."
+        },
+        "russian": {
+          "name": "Учиться у лучших",
+          "description": "Пройти любое испытание с золотым счетом"
+        },
+        "schinese": {
+          "name": "向高手学习",
+          "description": "完成任意金牌得分挑战"
+        },
+        "spanish": {
+          "name": "Aprende de los mejores",
+          "description": "Completa cualquier desafío de puntos de oro."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_24": {
+      "translations": {
+        "brazilian": {
+          "name": "Canhão humano",
+          "description": "Exploda um jogador usando um escudo mágico nos modos multijogador online ou local."
+        },
+        "english": {
+          "name": "Human cannonball",
+          "description": "Bomb a player in a Magic Shield in a local or online multiplayer game"
+        },
+        "french": {
+          "name": "Boulet de canon humain",
+          "description": "Bombardez un joueur dans une boule magique dans une partie en ligne ou en coopération locale"
+        },
+        "german": {
+          "name": "Menschliche Kanonenkugel",
+          "description": "Sprenge im lokalen oder Online-Multiplayer-Modus einen Spieler in einem magischen Schild in die Luft"
+        },
+        "italian": {
+          "name": "Palla di cannone umana",
+          "description": "Colpisci con una bomba un giocatore che usa lo scudo magico (co-op locale o multigiocatore online)"
+        },
+        "japanese": {
+          "name": "人間爆弾",
+          "description": "ローカルまたはオンラインによるマルチプレイで、シールドに包まれているプレイヤーを爆弾で爆破する。"
+        },
+        "portuguese": {
+          "name": "Canhão humano",
+          "description": "Exploda um jogador usando um escudo mágico nos modos multijogador online ou local."
+        },
+        "russian": {
+          "name": "Человек-ядро",
+          "description": "Взорвать бомбой игрока в локальном или онлайн мультиплеере, укрытого магическим щитом"
+        },
+        "schinese": {
+          "name": "人体炮弹",
+          "description": "在本地或在线多人游戏中炸飞处于魔法护盾中的玩家"
+        },
+        "spanish": {
+          "name": "Bala de cañón humana",
+          "description": "Vuela por los aires a un jugador con escudo mágico en una partida multijugador local o en línea."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_26": {
+      "translations": {
+        "brazilian": {
+          "name": "Não no meu turno!",
+          "description": "Reviva outro jogador nos modos multijogador online ou local."
+        },
+        "english": {
+          "name": "Not on my watch!",
+          "description": "Revive another player in a local or online multiplayer game"
+        },
+        "french": {
+          "name": "Ça ne se passera comme ça !",
+          "description": "Réanimez un joueur dans une partie en ligne ou en coopération locale"
+        },
+        "german": {
+          "name": "Nicht unter meiner Aufsicht!",
+          "description": "Belebe im lokalen oder Online-Multiplayer-Modus einen anderen Spieler wieder"
+        },
+        "italian": {
+          "name": "Non finché ci sono io!",
+          "description": "Rianima un altro giocatore (co-op locale o multigiocatore online)"
+        },
+        "japanese": {
+          "name": "友は見捨てない",
+          "description": "ローカルまたはオンラインによるマルチプレイで、他のプレイヤーを蘇生させる。"
+        },
+        "portuguese": {
+          "name": "Não no meu turno!",
+          "description": "Reviva outro jogador nos modos multijogador online ou local."
+        },
+        "russian": {
+          "name": "Только не в мою смену!",
+          "description": "Оживить другого игрока в локальном или онлайн мультиплеере"
+        },
+        "schinese": {
+          "name": "有我在，休想！",
+          "description": "在本地或在线多人游戏中复活另一名玩家"
+        },
+        "spanish": {
+          "name": "¡No mientras esté de guardia!",
+          "description": "Reanima a otro jugador en una partida multijugador local o en línea."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_27": {
+      "translations": {
+        "brazilian": {
+          "name": "Relação a longa distância",
+          "description": "Termine qualquer tumba em multijogador online."
+        },
+        "english": {
+          "name": "Long distance relationship",
+          "description": "Finish any tomb in online multiplayer"
+        },
+        "french": {
+          "name": "Relation longue distance",
+          "description": "Terminez un tombeau en multijoueur en ligne"
+        },
+        "german": {
+          "name": "Fernbeziehung",
+          "description": "Meistere ein beliebiges Grab im Online-Multiplayer-Modus"
+        },
+        "italian": {
+          "name": "Relazione a distanza",
+          "description": "Completa una tomba qualsiasi in modalità multigiocatore online"
+        },
+        "japanese": {
+          "name": "離れていても心はひとつ",
+          "description": "オンラインによるマルチプレイで、墓所をひとつクリアする。"
+        },
+        "portuguese": {
+          "name": "Relação a longa distância",
+          "description": "Termine qualquer tumba em multijogador online."
+        },
+        "russian": {
+          "name": "Отношения на расстоянии",
+          "description": "Пройти любую гробницу в онлайн мультиплеере"
+        },
+        "schinese": {
+          "name": "异地恋",
+          "description": "在在线多人模式中完成任意一座古墓"
+        },
+        "spanish": {
+          "name": "Relación a larga distancia",
+          "description": "Termina cualquier tumba en multijugador en línea."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_28": {
+      "translations": {
+        "brazilian": {
+          "name": "Festa no sofá",
+          "description": "Termine uma tumba em modo local de 4 jogadores."
+        },
+        "english": {
+          "name": "Couch party",
+          "description": "Finish a tomb in a 4-player local multiplayer game"
+        },
+        "french": {
+          "name": "Fiesta sur le canap'",
+          "description": "Terminez un tombeau à 4 joueurs en coopération locale"
+        },
+        "german": {
+          "name": "Couchparty",
+          "description": "Meistere ein Grab im lokalen Multiplayer-Modus mit 4 Spielern"
+        },
+        "italian": {
+          "name": "Quattro sul divano",
+          "description": "Completa una tomba in modalità co-op locale con 4 partecipanti"
+        },
+        "japanese": {
+          "name": "カウチパーティー",
+          "description": "4人によるローカルマルチプレイで、墓所をひとつクリアする。"
+        },
+        "portuguese": {
+          "name": "Festa no sofá",
+          "description": "Termine uma tumba em modo local de 4 jogadores."
+        },
+        "russian": {
+          "name": "Тусовка на диване",
+          "description": "Пройти гробницу в локальной совместной игре для 4 игроков"
+        },
+        "schinese": {
+          "name": "沙发派对",
+          "description": "在4人本地多人游戏中完成一座古墓"
+        },
+        "spanish": {
+          "name": "Fiesta en el sofá",
+          "description": "Termina una tumba en el modo cooperativo local con 4 jugadores."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_29": {
+      "translations": {
+        "brazilian": {
+          "name": "Relaxa, eu cuido disso!",
+          "description": "Em um jogo local de 4 jogadores ou multijogador online, ser o único a não morrer em uma tumba."
+        },
+        "english": {
+          "name": "No worries, I got this!",
+          "description": "In a 4-player local or online multiplayer game, be the only player to not die in a tomb"
+        },
+        "french": {
+          "name": "Pas de souci, je gère !",
+          "description": "Dans une partie en ligne ou locale à 4 joueurs, soyez le seul à ne pas mourir dans un tombeau"
+        },
+        "german": {
+          "name": "Kein Problem, alles im Griff!",
+          "description": "Sei in einem lokalen oder Online-Spiel mit 4 Spielern der einzige, der in einem Grab nicht stirbt"
+        },
+        "italian": {
+          "name": "Niente paura, ci penso io!",
+          "description": "Sii l'unico a non morire in una partita a 4 giocatori (co-op locale o multigiocatore online)"
+        },
+        "japanese": {
+          "name": "最後の砦",
+          "description": "4人によるローカルまたはオンラインによるマルチプレイで、墓所の中で唯一死亡しなかったプレイヤーになる。"
+        },
+        "portuguese": {
+          "name": "Relaxa, eu cuido disso!",
+          "description": "Em um jogo local de 4 jogadores ou multijogador online, ser o único a não morrer em uma tumba."
+        },
+        "russian": {
+          "name": "Ничего, я справлюсь",
+          "description": "Вам нужно быть единственным выжившим в гробнице в локальном или онлайн мультиплеере для 4 игроков\n"
+        },
+        "schinese": {
+          "name": "放心，交给我！",
+          "description": "在4人本地或在线多人游戏中，成为古墓中唯一没有死亡的玩家"
+        },
+        "spanish": {
+          "name": "¡Lo tengo todo controlado!",
+          "description": "En una partida multijugador local o en línea de 4 jugadores, sé el único que no muera en una tumba."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_30": {
+      "translations": {
+        "brazilian": {
+          "name": "Tínhamos que compartilhar isso?",
+          "description": "Em um jogo multijogador online ou local, pegue mais joias que os outros jogadores."
+        },
+        "english": {
+          "name": "Oh, were we supposed to share these?",
+          "description": "Get the most gems in a tomb in a local or online multiplayer game"
+        },
+        "french": {
+          "name": "Ah, on était censés partager ?",
+          "description": "Obtenez le plus de gemmes dans un tombeau en multijoueur en ligne ou en coopération locale"
+        },
+        "german": {
+          "name": "Oh, sollten wir die eigentlich teilen?",
+          "description": "Sammle im lokalen oder Online-Multiplayer-Modus in einem Grab die meisten Edelsteine"
+        },
+        "italian": {
+          "name": "Oh, queste dovevamo dividercele?",
+          "description": "Ottieni il maggior numero di gemme (co-op locale o multigiocatore online)"
+        },
+        "japanese": {
+          "name": "あなたのものは私のもの",
+          "description": "ローカルまたはオンラインによるマルチプレイで、ひとつの墓所内で最も多くの宝珠を獲得したプレイヤーになる。"
+        },
+        "portuguese": {
+          "name": "Tínhamos que compartilhar isso?",
+          "description": "Em um jogo multijogador online ou local, pegue mais joias que os outros jogadores."
+        },
+        "russian": {
+          "name": "А разве нужно было делиться?",
+          "description": "Собрать больше всех драгоценных камней в гробнице в локальном или онлайн мультиплеере"
+        },
+        "schinese": {
+          "name": "哦，这些是拿来分享的？",
+          "description": "在本地或在线多人游戏中的一座古墓里获得最多的宝石"
+        },
+        "spanish": {
+          "name": "Anda, ¿teníamos que compartir?",
+          "description": "Consigue el mayor número de gemas en una tumba de una partida multijugador local o en línea."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_31": {
+      "translations": {
+        "brazilian": {
+          "name": "Primus Inter Pares",
+          "description": "Em um jogo multijogador online ou  local, mate mais inimigos que os outros jogadores."
+        },
+        "english": {
+          "name": "Primus Inter Pares",
+          "description": "Get the most kills in a tomb in a local or online multiplayer game"
+        },
+        "french": {
+          "name": "Primus inter pares",
+          "description": "Obtenez le plus d'éliminations dans un tombeau en multijoueur en ligne ou en coopération locale"
+        },
+        "german": {
+          "name": "Primus inter pares",
+          "description": "Erziele im lokalen oder Online-Multiplayer-Modus in einem Grab die meisten Kills"
+        },
+        "italian": {
+          "name": "Primo tra i pari",
+          "description": "Ottieni il maggior numero di uccisioni (co-op locale o multigiocatore online)"
+        },
+        "japanese": {
+          "name": "キリングリーダー",
+          "description": "ローカルまたはオンラインによるマルチプレイで、ひとつの墓所内で最も多くのキルを達成したプレイヤーになる。"
+        },
+        "portuguese": {
+          "name": "Primus Inter Pares",
+          "description": "Em um jogo multijogador online ou  local, mate mais inimigos que os outros jogadores."
+        },
+        "russian": {
+          "name": "Первый среди равных",
+          "description": "Убить больше всех врагов в гробнице в локальном или онлайн мультиплеере"
+        },
+        "schinese": {
+          "name": "同侪之首",
+          "description": "在本地或在线多人游戏中的一座古墓里获得最多的击杀"
+        },
+        "spanish": {
+          "name": "Primus Inter Pares",
+          "description": "Consigue el mayor número de bajas en una tumba de una partida multijugador local o en línea."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_0": {
+      "translations": {
+        "brazilian": {
+          "name": "Olha, você é o melhor em algo!",
+          "description": "Em um jogo multijogador online ou local, morra mais que os outros jogadores."
+        },
+        "english": {
+          "name": "Hey, at least you are the best at something!",
+          "description": "Have the most deaths in a tomb in a local or online multiplayer game"
+        },
+        "french": {
+          "name": "Bah, au moins vous prédominez quelque part !",
+          "description": "Mourez le plus de fois dans un tombeau en multijoueur en ligne ou en coopération locale"
+        },
+        "german": {
+          "name": "Hey, wenigstens das kannst du!",
+          "description": "Stirb im lokalen oder Online-Multiplayer-Modus in einem Grab am häufigsten"
+        },
+        "italian": {
+          "name": "Ehi, in questo almeno sei il migliore!",
+          "description": "Ottieni il maggior numero di morti (co-op locale o multigiocatore online)"
+        },
+        "japanese": {
+          "name": "一番であることに変わりはない",
+          "description": "ローカルまたはオンラインによるマルチプレイで、ひとつの墓所内で最も多く死亡したプレイヤーになる。"
+        },
+        "portuguese": {
+          "name": "Olha, você é o melhor em algo!",
+          "description": "Em um jogo multijogador online ou local, morra mais que os outros jogadores."
+        },
+        "russian": {
+          "name": "Хотя бы в чем-то вы лучший!",
+          "description": "Чаще всех умереть в гробнице в локальном или онлайн мультиплеере"
+        },
+        "schinese": {
+          "name": "嘿，至少你也有项第一！",
+          "description": "在本地或在线多人游戏中的一座古墓里死亡次数最多"
+        },
+        "spanish": {
+          "name": "¡Al menos eres el mejor en algo!",
+          "description": "Sé el que más veces muera en una tumba de una partida multijugador local o en línea."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_1": {
+      "translations": {
+        "brazilian": {
+          "name": "Começa uma jornada",
+          "description": "Escape da Pirâmide de Osíris."
+        },
+        "english": {
+          "name": "A journey begins",
+          "description": "Escape the Pyramid of Osiris"
+        },
+        "french": {
+          "name": "Le périple commence",
+          "description": "Échappez-vous de la pyramide d'Osiris"
+        },
+        "german": {
+          "name": "Beginn einer Reise",
+          "description": "Entkomme aus der Pyramide des Osiris"
+        },
+        "italian": {
+          "name": "L'inizio del viaggio",
+          "description": "Fuggi dalla piramide di Osiride"
+        },
+        "japanese": {
+          "name": "冒険が始まった",
+          "description": "オシリスのピラミッドから脱出する。"
+        },
+        "portuguese": {
+          "name": "Começa uma jornada",
+          "description": "Escape da Pirâmide de Osíris."
+        },
+        "russian": {
+          "name": "Путешествие начинается",
+          "description": "Сбежать из пирамиды Осириса"
+        },
+        "schinese": {
+          "name": "旅程开始",
+          "description": "逃出奥西里斯金字塔"
+        },
+        "spanish": {
+          "name": "Comienza el viaje",
+          "description": "Escapa de la Pirámide de Osiris."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_2": {
+      "translations": {
+        "brazilian": {
+          "name": "O tempo passa, o tempo voa...",
+          "description": "Complete a Tumba do Guardião do Tempo."
+        },
+        "english": {
+          "name": "Time keeps on ticking, ticking, ticking",
+          "description": "Complete the Tomb of the Timekeeper"
+        },
+        "french": {
+          "name": "Le temps file, file, file",
+          "description": "Terminez le tombeau du Maître du temps"
+        },
+        "german": {
+          "name": "Die Uhr tickt und tickt und tickt",
+          "description": "Meistere das Grab des Zeitmessers"
+        },
+        "italian": {
+          "name": "Il tempo scorre, scorre, scorre",
+          "description": "Completa la tomba del custode del tempo"
+        },
+        "japanese": {
+          "name": "時の流れの中で",
+          "description": "時の番人の墓所をクリアする。"
+        },
+        "portuguese": {
+          "name": "O tempo passa, o tempo voa...",
+          "description": "Complete a Tumba do Guardião do Tempo."
+        },
+        "russian": {
+          "name": "А время идет и идет",
+          "description": "Пройти гробницу Хранителя Времени"
+        },
+        "schinese": {
+          "name": "时间滴答滴答流逝",
+          "description": "完成时间守护者之墓"
+        },
+        "spanish": {
+          "name": "El reloj sigue haciendo tictac",
+          "description": "Completa la Tumba del guardián del tiempo."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_3": {
+      "translations": {
+        "brazilian": {
+          "name": "Por que tem que ter cobras?",
+          "description": "Complete a Tumba do Ourives."
+        },
+        "english": {
+          "name": "Why's it have to be snakes?",
+          "description": "Complete the Tomb of the Silversmith"
+        },
+        "french": {
+          "name": "Des serpents, mais pourquoi ?",
+          "description": "Terminez le tombeau de l'Orfèvre"
+        },
+        "german": {
+          "name": "Warum immer Schlangen?",
+          "description": "Meistere das Grab des Silberschmieds"
+        },
+        "italian": {
+          "name": "Serpenti. Perché i serpenti?",
+          "description": "Completa la tomba dell'argentiere"
+        },
+        "japanese": {
+          "name": "蛇はもうこりごり",
+          "description": "銀細工師の墓所をクリアする。"
+        },
+        "portuguese": {
+          "name": "Por que tem que ter cobras?",
+          "description": "Complete a Tumba do Ourives."
+        },
+        "russian": {
+          "name": "Ну почему змеи?",
+          "description": "Пройти гробницу Ювелира"
+        },
+        "schinese": {
+          "name": "为什么偏偏是蛇？",
+          "description": "完成银匠之墓"
+        },
+        "spanish": {
+          "name": "¿Por qué serpientes?",
+          "description": "Completa la Tumba del platero."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_4": {
+      "translations": {
+        "brazilian": {
+          "name": "Essas botas esmagam insetos!",
+          "description": "Derrote Khepri."
+        },
+        "english": {
+          "name": "No bug is too big for these boots!",
+          "description": "Defeat Khepri"
+        },
+        "french": {
+          "name": "Pas de bête trop grande pour mes bottes !",
+          "description": "Battez Khépri"
+        },
+        "german": {
+          "name": "Diesen Stiefeln ist kein Käfer zu groß!",
+          "description": "Besiege Khepri"
+        },
+        "italian": {
+          "name": "Nessun insetto è troppo grosso!",
+          "description": "Sconfiggi Khepri"
+        },
+        "japanese": {
+          "name": "大きくたって虫は虫",
+          "description": "ケプリを倒す。"
+        },
+        "portuguese": {
+          "name": "Essas botas esmagam insetos!",
+          "description": "Derrote Khepri."
+        },
+        "russian": {
+          "name": "Раздавить жука!",
+          "description": "Победить Хепри"
+        },
+        "schinese": {
+          "name": "再大的虫子也怕这双靴子！",
+          "description": "击败凯布利"
+        },
+        "spanish": {
+          "name": "Ningún bicho es demasiado grande",
+          "description": "Derrota a Khepri."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_5": {
+      "translations": {
+        "brazilian": {
+          "name": "Eu devia comprar um barco",
+          "description": "Complete a Tumba do Barqueiro."
+        },
+        "english": {
+          "name": "I should buy a boat",
+          "description": "Complete the Tomb of the Ferryman"
+        },
+        "french": {
+          "name": "Je devrais m'acheter un bateau",
+          "description": "Terminez le tombeau du Passeur"
+        },
+        "german": {
+          "name": "Ich sollte ein Boot kaufen",
+          "description": "Meistere das Grab des Fährmanns"
+        },
+        "italian": {
+          "name": "Dovrei comprare una barca",
+          "description": "Completa la tomba del traghettatore"
+        },
+        "japanese": {
+          "name": "舟さえあれば",
+          "description": "渡し守の墓所をクリアする。"
+        },
+        "portuguese": {
+          "name": "Eu devia comprar um barco",
+          "description": "Complete a Tumba do Barqueiro."
+        },
+        "russian": {
+          "name": "Надо купить лодку",
+          "description": "Пройти гробницу Перевозчика"
+        },
+        "schinese": {
+          "name": "我该买条船了",
+          "description": "完成摆渡人之墓"
+        },
+        "spanish": {
+          "name": "Debería comprar un barco",
+          "description": "Completa la Tumba del capitán."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_6": {
+      "translations": {
+        "brazilian": {
+          "name": "Queime com fogo!",
+          "description": "Complete a Tumba do Lanterneiro"
+        },
+        "english": {
+          "name": "Burn it with fire!",
+          "description": "Complete the Tomb of the Lamplighter"
+        },
+        "french": {
+          "name": "Brûlez-le dans les flammes !",
+          "description": "Terminez le tombeau du Garde-lumière"
+        },
+        "german": {
+          "name": "Feuer frei!",
+          "description": "Meistere das Grab des Lampenentzünders"
+        },
+        "italian": {
+          "name": "Bisogna usare il fuoco!",
+          "description": "Completa la tomba del lampionaio"
+        },
+        "japanese": {
+          "name": "暗闇に灯を！",
+          "description": "点灯夫の墓所をクリアする。"
+        },
+        "portuguese": {
+          "name": "Queime com fogo!",
+          "description": "Complete a Tumba do Lanterneiro"
+        },
+        "russian": {
+          "name": "Сжечь его!",
+          "description": "Пройти гробницу Фонарщика"
+        },
+        "schinese": {
+          "name": "放把火烧了它！",
+          "description": "完成点灯人之墓"
+        },
+        "spanish": {
+          "name": "¡Quémalo con fuego!",
+          "description": "Completa la Tumba del farolero."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_7": {
+      "translations": {
+        "brazilian": {
+          "name": "Por essa ele não esperava",
+          "description": "Derrote o Oráculo de Osíris."
+        },
+        "english": {
+          "name": "Didn't see that coming",
+          "description": "Defeat the Oracle of Osiris"
+        },
+        "french": {
+          "name": "Elle ne l'a pas vu venir",
+          "description": "Battez l'Oracle d'Osiris"
+        },
+        "german": {
+          "name": "Das habe ich nicht kommen sehen",
+          "description": "Besiege Osiris' Orakel"
+        },
+        "italian": {
+          "name": "Questo non l'avevi previsto",
+          "description": "Sconfiggi l'oracolo di Osiride"
+        },
+        "japanese": {
+          "name": "これは預言できなかった？",
+          "description": "オシリスの預言者を倒す。"
+        },
+        "portuguese": {
+          "name": "Por essa ele não esperava",
+          "description": "Derrote o Oráculo de Osíris."
+        },
+        "russian": {
+          "name": "Этого он не предвидел",
+          "description": "Победить оракула Осириса"
+        },
+        "schinese": {
+          "name": "这可没料到",
+          "description": "击败奥西里斯神谕者"
+        },
+        "spanish": {
+          "name": "No lo vi venir",
+          "description": "Derrota al oráculo de Osiris."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_8": {
+      "translations": {
+        "brazilian": {
+          "name": "Um carinho na barriga resolve",
+          "description": "Derrote Sobek."
+        },
+        "english": {
+          "name": "Nothing a belly rub can't fix",
+          "description": "Defeat Sobek"
+        },
+        "french": {
+          "name": "Un massage du ventre et ça va mieux",
+          "description": "Battez Sobek"
+        },
+        "german": {
+          "name": "Auch nur eine Handtasche",
+          "description": "Besiege Sobek"
+        },
+        "italian": {
+          "name": "Una grattatina e passa tutto",
+          "description": "Sconfiggi Sobek"
+        },
+        "japanese": {
+          "name": "お腹弱いタイプ？",
+          "description": "ソベクを倒す。"
+        },
+        "portuguese": {
+          "name": "Um carinho na barriga resolve",
+          "description": "Derrote Sobek."
+        },
+        "russian": {
+          "name": "Почесать ему пузико",
+          "description": "Победить Себека"
+        },
+        "schinese": {
+          "name": "揉揉肚子啥都能解决",
+          "description": "击败索贝克"
+        },
+        "spanish": {
+          "name": "Masaje de barriga",
+          "description": "Derrota a Sobek."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_9": {
+      "translations": {
+        "brazilian": {
+          "name": "Engrenado",
+          "description": "Complete a Tumba do Arquiteto."
+        },
+        "english": {
+          "name": "You know what grinds my gears?",
+          "description": "Complete the Tomb of the Architect"
+        },
+        "french": {
+          "name": "Comme un grain de sable dans l'engrenage",
+          "description": "Terminez le tombeau de l'Architecte"
+        },
+        "german": {
+          "name": "Weißt du, was mich antreibt?",
+          "description": "Meistere das Grab des Architekten"
+        },
+        "italian": {
+          "name": "Oliando gli ingranaggi",
+          "description": "Completa la tomba dell'architetto"
+        },
+        "japanese": {
+          "name": "歯車の力",
+          "description": "建築士の墓所をクリアする。"
+        },
+        "portuguese": {
+          "name": "Engrenado",
+          "description": "Complete a Tumba do Arquiteto."
+        },
+        "russian": {
+          "name": "Скрежет шестеренок",
+          "description": "Пройти гробницу Архитектора"
+        },
+        "schinese": {
+          "name": "你知道什么最让我抓狂吗？",
+          "description": "完成建筑师之墓"
+        },
+        "spanish": {
+          "name": "Eso me aprieta las tuercas",
+          "description": "Completa la Tumba del arquitecto."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_10": {
+      "translations": {
+        "brazilian": {
+          "name": "É o fim",
+          "description": "Derrote o Faraó."
+        },
+        "english": {
+          "name": "That's a wrap",
+          "description": "Defeat the Pharaoh"
+        },
+        "french": {
+          "name": "C'est dans la boîte",
+          "description": "Battez le Pharaon"
+        },
+        "german": {
+          "name": "Eingewickelt",
+          "description": "Besiege den Pharao"
+        },
+        "italian": {
+          "name": "Con questo abbiamo finito!",
+          "description": "Sconfiggi il Faraone"
+        },
+        "japanese": {
+          "name": "君主の死",
+          "description": "ファラオを倒す。"
+        },
+        "portuguese": {
+          "name": "É o fim",
+          "description": "Derrote o Faraó."
+        },
+        "russian": {
+          "name": "Бинты не помогут",
+          "description": "Победить Фараона"
+        },
+        "schinese": {
+          "name": "裹好收工",
+          "description": "击败法老"
+        },
+        "spanish": {
+          "name": "Se acabó",
+          "description": "Derrota al faraón."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_11": {
+      "translations": {
+        "brazilian": {
+          "name": "Espeta-se com o lado pontudo!",
+          "description": "Complete a Tumba do Torturador."
+        },
+        "english": {
+          "name": "Stick'em with the pointy end!",
+          "description": "Complete the Tomb of the Torturer"
+        },
+        "french": {
+          "name": "Piquez-leur la couenne !",
+          "description": "Terminez le tombeau du Bourreau"
+        },
+        "german": {
+          "name": "Mit der spitzen Seite zuerst",
+          "description": "Meistere das Grab des Folterknechts"
+        },
+        "italian": {
+          "name": "Usa la parte appuntita!",
+          "description": "Completa la tomba del torturatore"
+        },
+        "japanese": {
+          "name": "トゲがなんだって言うの？",
+          "description": "拷問者の墓所をクリアする。"
+        },
+        "portuguese": {
+          "name": "Espeta-se com o lado pontudo!",
+          "description": "Complete a Tumba do Torturador."
+        },
+        "russian": {
+          "name": "Тычь острым концом",
+          "description": "Пройти гробницу Мучителя"
+        },
+        "schinese": {
+          "name": "用尖的那头捅他们！",
+          "description": "完成拷问者之墓"
+        },
+        "spanish": {
+          "name": "¡Atraviésalos con la punta!",
+          "description": "Completa la Tumba del torturador."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_2_12": {
+      "translations": {
+        "brazilian": {
+          "name": "Cachorro mau!",
+          "description": "Derrote Set."
+        },
+        "english": {
+          "name": "Bad...Doggy?",
+          "description": "Defeat Set"
+        },
+        "french": {
+          "name": "Méchant... chien ?",
+          "description": "Battez Seth"
+        },
+        "german": {
+          "name": "Böses ... Hündchen?",
+          "description": "Besiege Set"
+        },
+        "italian": {
+          "name": "Cattivo... cane?",
+          "description": "Sconfiggi Seth"
+        },
+        "japanese": {
+          "name": "悪い犬ね",
+          "description": "セトを倒す。"
+        },
+        "portuguese": {
+          "name": "Cachorro mau!",
+          "description": "Derrote Set."
+        },
+        "russian": {
+          "name": "Плохой... песик?",
+          "description": "Победить Сета"
+        },
+        "schinese": {
+          "name": "坏……狗狗？",
+          "description": "击败塞特"
+        },
+        "spanish": {
+          "name": "¡Perrito malo!",
+          "description": "Derrota a Set."
+        }
+      }
+    },
+    "NEW_ACHIEVEMENT_1_14": {
+      "translations": {
+        "brazilian": {
+          "name": "Acenda tudo!",
+          "description": "Complete todos os desafios da Tumba do Lanterneiro."
+        },
+        "english": {
+          "name": "Lit all the things!",
+          "description": "Complete all Tomb of the Lamplighter challenges"
+        },
+        "french": {
+          "name": "Allumez tout !",
+          "description": "Terminez tous les défis du tombeau du Garde-Lumière"
+        },
+        "german": {
+          "name": "Es werde Licht!",
+          "description": "Meistere alle Herausforderungen im Grab des Lampenentzünders"
+        },
+        "italian": {
+          "name": "Accendiamo tutto!",
+          "description": "Completa tutte le sfide nella tomba del lampionaio"
+        },
+        "japanese": {
+          "name": "すべてのものに灯を",
+          "description": "点灯夫の墓所のチャレンジをすべてクリアする。"
+        },
+        "portuguese": {
+          "name": "Acenda tudo!",
+          "description": "Complete todos os desafios da Tumba do Lanterneiro."
+        },
+        "russian": {
+          "name": "Зажигаем все подряд!",
+          "description": "Пройти все испытания в гробнице Фонарщика"
+        },
+        "schinese": {
+          "name": "点亮所有东西！",
+          "description": "完成点灯人之墓的全部挑战"
+        },
+        "spanish": {
+          "name": "¡Préndelo todo!",
+          "description": "Completa todos los desafíos de la Tumba del farolero."
+        }
+      }
+    }
+  }
+}
