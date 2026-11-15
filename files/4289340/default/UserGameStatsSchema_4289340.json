@@ -1,0 +1,1175 @@
+{
+  "version": 2,
+  "app_id": "4289340",
+  "variant_id": "default",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "ACH_FIRST_KILL": {
+      "translations": {
+        "english": {
+          "name": "FIRST CONTACT",
+          "description": "Kill your first enemy."
+        },
+        "schinese": {
+          "name": "初次接触",
+          "description": "击杀你的第一个敌人。"
+        }
+      }
+    },
+    "ACH_FIRST_WARDEN": {
+      "translations": {
+        "english": {
+          "name": "SIGNAL SEVERED",
+          "description": "Defeat your first Warden."
+        },
+        "schinese": {
+          "name": "信号切断",
+          "description": "击败你的第一个看守者。"
+        }
+      }
+    },
+    "ACH_FIRST_PRESTIGE": {
+      "translations": {
+        "english": {
+          "name": "FIRST UPGRADE",
+          "description": "Prestige for the first time."
+        },
+        "schinese": {
+          "name": "首次升级",
+          "description": "第一次进行声望重置。"
+        }
+      }
+    },
+    "ACH_FIRST_MYTHIC": {
+      "translations": {
+        "english": {
+          "name": "IMPOSSIBLE SIGNAL",
+          "description": "Witness a mythic item drop."
+        },
+        "schinese": {
+          "name": "不可能的信号",
+          "description": "见证神话级物品掉落。"
+        }
+      }
+    },
+    "ACH_FIRST_GAMBLE": {
+      "translations": {
+        "english": {
+          "name": "BEGINNER'S LUCK",
+          "description": "Flip your first coin with a trader."
+        },
+        "schinese": {
+          "name": "新手好运",
+          "description": "与一名商人进行第一次抛硬币。"
+        }
+      }
+    },
+    "ACH_KILLS_100": {
+      "translations": {
+        "english": {
+          "name": "PEST CONTROL",
+          "description": "Kill 100 enemies."
+        },
+        "schinese": {
+          "name": "害虫防治",
+          "description": "击杀 100 名敌人。"
+        }
+      }
+    },
+    "ACH_KILLS_500": {
+      "translations": {
+        "english": {
+          "name": "EXTERMINATOR",
+          "description": "Kill 500 enemies."
+        },
+        "schinese": {
+          "name": "灭绝者",
+          "description": "击杀 500 名敌人。"
+        }
+      }
+    },
+    "ACH_KILLS_1000": {
+      "translations": {
+        "english": {
+          "name": "BODY COUNT",
+          "description": "Kill 1,000 enemies."
+        },
+        "schinese": {
+          "name": "尸体计数",
+          "description": "击杀 1,000 名敌人。"
+        }
+      }
+    },
+    "ACH_KILLS_5000": {
+      "translations": {
+        "english": {
+          "name": "WALKING PLAGUE",
+          "description": "Kill 5,000 enemies."
+        },
+        "schinese": {
+          "name": "行走的瘟疫",
+          "description": "击杀 5,000 名敌人。"
+        }
+      }
+    },
+    "ACH_KILLS_10000": {
+      "translations": {
+        "english": {
+          "name": "UNHUMAN",
+          "description": "Kill 10,000 enemies."
+        },
+        "schinese": {
+          "name": "非人",
+          "description": "击杀 10,000 名敌人。"
+        }
+      }
+    },
+    "ACH_EXTRACTS_10": {
+      "translations": {
+        "english": {
+          "name": "SURVIVOR",
+          "description": "Extract successfully 10 times."
+        },
+        "schinese": {
+          "name": "幸存者",
+          "description": "成功撤离 10 次。"
+        }
+      }
+    },
+    "ACH_EXTRACTS_50": {
+      "translations": {
+        "english": {
+          "name": "REGULAR",
+          "description": "Extract successfully 50 times."
+        },
+        "schinese": {
+          "name": "老手",
+          "description": "成功撤离 50 次。"
+        }
+      }
+    },
+    "ACH_EXTRACTS_100": {
+      "translations": {
+        "english": {
+          "name": "VETERAN",
+          "description": "Extract successfully 100 times."
+        },
+        "schinese": {
+          "name": "资深者",
+          "description": "成功撤离 100 次。"
+        }
+      }
+    },
+    "ACH_EXTRACTS_250": {
+      "translations": {
+        "english": {
+          "name": "GHOST IN THE STATIC",
+          "description": "Extract successfully 250 times."
+        },
+        "schinese": {
+          "name": "静电中的幽灵",
+          "description": "成功撤离 250 次。"
+        }
+      }
+    },
+    "ACH_EXTRACTS_500": {
+      "translations": {
+        "english": {
+          "name": "EXTRACTION PROTOCOL",
+          "description": "Extract successfully 500 times."
+        },
+        "schinese": {
+          "name": "撤离协议",
+          "description": "成功撤离 500 次。"
+        }
+      }
+    },
+    "ACH_WARDEN_CL5": {
+      "translations": {
+        "english": {
+          "name": "DOUBLE OR NOTHING",
+          "description": "Defeat a dual-phase Warden at Corruption Level 5 or higher."
+        },
+        "schinese": {
+          "name": "孤注一掷",
+          "description": "在腐化等级 5 或更高时击败双阶段看守者。"
+        }
+      }
+    },
+    "ACH_WARDEN_CL10": {
+      "translations": {
+        "english": {
+          "name": "INTO THE VOID",
+          "description": "Defeat a Warden at Corruption Level 10."
+        },
+        "schinese": {
+          "name": "深入虚空",
+          "description": "在腐化等级 10 时击败看守者。"
+        }
+      }
+    },
+    "ACH_WARDEN_ALL": {
+      "translations": {
+        "english": {
+          "name": "NO SAFE HAVEN",
+          "description": "Defeat a Warden on every map."
+        },
+        "schinese": {
+          "name": "无处安全",
+          "description": "在每张地图上都击败看守者。"
+        }
+      }
+    },
+    "ACH_PRESTIGE_3": {
+      "translations": {
+        "english": {
+          "name": "LETTING GO",
+          "description": "Reach Prestige 3."
+        },
+        "schinese": {
+          "name": "放手",
+          "description": "达到声望 3。"
+        }
+      }
+    },
+    "ACH_PRESTIGE_5": {
+      "translations": {
+        "english": {
+          "name": "HALFWAY TO NOWHERE",
+          "description": "Reach Prestige 5."
+        },
+        "schinese": {
+          "name": "半途无归",
+          "description": "达到声望 5。"
+        }
+      }
+    },
+    "ACH_PRESTIGE_10": {
+      "translations": {
+        "english": {
+          "name": "NOTHING LEFT TO GIVE",
+          "description": "Reach Prestige 10."
+        },
+        "schinese": {
+          "name": "一无所予",
+          "description": "达到声望 10。"
+        }
+      }
+    },
+    "ACH_LEVEL_25": {
+      "translations": {
+        "english": {
+          "name": "GETTING STRONGER",
+          "description": "Reach level 25."
+        },
+        "schinese": {
+          "name": "变得更强",
+          "description": "达到等级 25。"
+        }
+      }
+    },
+    "ACH_LEVEL_50": {
+      "translations": {
+        "english": {
+          "name": "SEASONED OPERATIVE",
+          "description": "Reach level 50."
+        },
+        "schinese": {
+          "name": "身经百战的行动员",
+          "description": "达到等级 50。"
+        }
+      }
+    },
+    "ACH_LEVEL_88": {
+      "translations": {
+        "english": {
+          "name": "PEAK CONDITION",
+          "description": "Reach level 88."
+        },
+        "schinese": {
+          "name": "巅峰状态",
+          "description": "达到等级 88。"
+        }
+      }
+    },
+    "ACH_LEVEL_100": {
+      "translations": {
+        "english": {
+          "name": "TERMINAL VELOCITY",
+          "description": "Reach level 100."
+        },
+        "schinese": {
+          "name": "终端速度",
+          "description": "达到等级 100。"
+        }
+      }
+    },
+    "ACH_CL_3": {
+      "translations": {
+        "english": {
+          "name": "INTERFERENCE",
+          "description": "Deploy at Corruption Level 3."
+        },
+        "schinese": {
+          "name": "干扰",
+          "description": "以腐化等级 3 出击。"
+        }
+      }
+    },
+    "ACH_CL_7": {
+      "translations": {
+        "english": {
+          "name": "MELTDOWN",
+          "description": "Deploy at Corruption Level 7."
+        },
+        "schinese": {
+          "name": "熔毁",
+          "description": "以腐化等级 7 出击。"
+        }
+      }
+    },
+    "ACH_CL_10": {
+      "translations": {
+        "english": {
+          "name": "VOID",
+          "description": "Deploy at Corruption Level 10."
+        },
+        "schinese": {
+          "name": "虚空",
+          "description": "以腐化等级 10 出击。"
+        }
+      }
+    },
+    "ACH_QUESTS_10": {
+      "translations": {
+        "english": {
+          "name": "ERRAND RUNNER",
+          "description": "Complete 10 quests."
+        },
+        "schinese": {
+          "name": "跑腿员",
+          "description": "完成 10 个任务。"
+        }
+      }
+    },
+    "ACH_QUESTS_25": {
+      "translations": {
+        "english": {
+          "name": "FIXER",
+          "description": "Complete 25 quests."
+        },
+        "schinese": {
+          "name": "中间人",
+          "description": "完成 25 个任务。"
+        }
+      }
+    },
+    "ACH_QUESTS_50": {
+      "translations": {
+        "english": {
+          "name": "MOST WANTED CONTRACTOR",
+          "description": "Complete 50 quests."
+        },
+        "schinese": {
+          "name": "头号通缉承包商",
+          "description": "完成 50 个任务。"
+        }
+      }
+    },
+    "ACH_QUESTS_AUGMENT_ALL": {
+      "translations": {
+        "english": {
+          "name": "CHROME COMPLETE",
+          "description": "Complete every augment quest."
+        },
+        "schinese": {
+          "name": "义体全收集",
+          "description": "完成所有义体任务。"
+        }
+      }
+    },
+    "ACH_ENDGAME": {
+      "translations": {
+        "english": {
+          "name": "APEX PROTOCOL",
+          "description": "Complete the Ripperdoc's endgame contracts."
+        },
+        "schinese": {
+          "name": "巅峰协议",
+          "description": "完成义体医生的终局合约。"
+        }
+      }
+    },
+    "ACH_STANDING_MAX": {
+      "translations": {
+        "english": {
+          "name": "TRUSTED",
+          "description": "Reach maximum standing with any trader."
+        },
+        "schinese": {
+          "name": "受信任者",
+          "description": "与任意商人的关系达到最高。"
+        }
+      }
+    },
+    "ACH_STANDING_ALL": {
+      "translations": {
+        "english": {
+          "name": "EVERYONE'S FAVORITE MONSTER",
+          "description": "Reach maximum standing with every trader."
+        },
+        "schinese": {
+          "name": "人人喜爱的怪物",
+          "description": "与所有商人的关系达到最高。"
+        }
+      }
+    },
+    "ACH_SKILL_MAXBUY": {
+      "translations": {
+        "english": {
+          "name": "FULL CORTEX",
+          "description": "Buy every Skill Point Drive the Ripperdoc has to offer."
+        },
+        "schinese": {
+          "name": "完整皮层",
+          "description": "买下义体医生提供的所有技能点驱动器。"
+        }
+      }
+    },
+    "ACH_EQUIP_GLITCH": {
+      "translations": {
+        "english": {
+          "name": "CORRUPTED LOADOUT",
+          "description": "Equip a glitched item."
+        },
+        "schinese": {
+          "name": "损坏的装具",
+          "description": "装备一件故障物品。"
+        }
+      }
+    },
+    "ACH_EQUIP_PROTO": {
+      "translations": {
+        "english": {
+          "name": "FIELD TESTED",
+          "description": "Equip a prototype item."
+        },
+        "schinese": {
+          "name": "实地测试",
+          "description": "装备一件原型物品。"
+        }
+      }
+    },
+    "ACH_EQUIP_MYTHIC": {
+      "translations": {
+        "english": {
+          "name": "MYTHIC THINGS",
+          "description": "Equip a mythic item."
+        },
+        "schinese": {
+          "name": "神话之物",
+          "description": "装备一件神话级物品。"
+        }
+      }
+    },
+    "ACH_EXTRACT_PROTO": {
+      "translations": {
+        "english": {
+          "name": "PROTOTYPE THIEF",
+          "description": "Extract with a prototype item in your bag."
+        },
+        "schinese": {
+          "name": "原型窃贼",
+          "description": "携带一件原型物品撤离。"
+        }
+      }
+    },
+    "ACH_EXTRACT_MYTHIC": {
+      "translations": {
+        "english": {
+          "name": "SMUGGLING A MIRACLE",
+          "description": "Extract with a mythic item in your bag."
+        },
+        "schinese": {
+          "name": "走私奇迹",
+          "description": "携带一件神话级物品撤离。"
+        }
+      }
+    },
+    "ACH_MYTHIC_UPGRADE": {
+      "translations": {
+        "english": {
+          "name": "EXPANDING THE IMPOSSIBLE",
+          "description": "Upgrade a mythic item's grid."
+        },
+        "schinese": {
+          "name": "拓展不可能",
+          "description": "升级一件神话级物品的网格。"
+        }
+      }
+    },
+    "ACH_MYTHIC_REROLL": {
+      "translations": {
+        "english": {
+          "name": "TEMPTING FATE",
+          "description": "Reroll a mythic ability slot."
+        },
+        "schinese": {
+          "name": "引火烧身",
+          "description": "重掷一个神话能力栏位。"
+        }
+      }
+    },
+    "ACH_MYTHIC_ALL_ABILITIES": {
+      "translations": {
+        "english": {
+          "name": "THE FULL SPECTRUM",
+          "description": "Roll every mythic ability at least once."
+        },
+        "schinese": {
+          "name": "完整光谱",
+          "description": "至少掷出过每一种神话能力。"
+        }
+      }
+    },
+    "ACH_AUG_3": {
+      "translations": {
+        "english": {
+          "name": "ENHANCED",
+          "description": "Upgrade an augment to +3."
+        },
+        "schinese": {
+          "name": "强化",
+          "description": "将一件义体升级至 +3。"
+        }
+      }
+    },
+    "ACH_AUG_5": {
+      "translations": {
+        "english": {
+          "name": "OPTIMIZED",
+          "description": "Upgrade an augment to +5."
+        },
+        "schinese": {
+          "name": "优化",
+          "description": "将一件义体升级至 +5。"
+        }
+      }
+    },
+    "ACH_AUG_10": {
+      "translations": {
+        "english": {
+          "name": "TRANSCENDENT",
+          "description": "Upgrade an augment to +10."
+        },
+        "schinese": {
+          "name": "超越",
+          "description": "将一件义体升级至 +10。"
+        }
+      }
+    },
+    "ACH_RIG_1": {
+      "translations": {
+        "english": {
+          "name": "HOBBY MINER",
+          "description": "Buy your first mining rig."
+        },
+        "schinese": {
+          "name": "业余矿工",
+          "description": "购买你的第一台采矿机。"
+        }
+      }
+    },
+    "ACH_RIG_3": {
+      "translations": {
+        "english": {
+          "name": "SERVER ROOM",
+          "description": "Own 3 mining rigs."
+        },
+        "schinese": {
+          "name": "服务器机房",
+          "description": "拥有 3 台采矿机。"
+        }
+      }
+    },
+    "ACH_RIG_5": {
+      "translations": {
+        "english": {
+          "name": "INDUSTRIAL OPERATION",
+          "description": "Own 5 mining rigs."
+        },
+        "schinese": {
+          "name": "工业运作",
+          "description": "拥有 5 台采矿机。"
+        }
+      }
+    },
+    "ACH_TECH_1": {
+      "translations": {
+        "english": {
+          "name": "FIRST INJECTION",
+          "description": "Install your first module at the tech table."
+        },
+        "schinese": {
+          "name": "首次注入",
+          "description": "在科技台安装你的第一个模块。"
+        }
+      }
+    },
+    "ACH_TECH_10": {
+      "translations": {
+        "english": {
+          "name": "CODE SURGEON",
+          "description": "Install 10 modules at the tech table."
+        },
+        "schinese": {
+          "name": "代码外科医生",
+          "description": "在科技台安装 10 个模块。"
+        }
+      }
+    },
+    "ACH_TECH_50": {
+      "translations": {
+        "english": {
+          "name": "SYSTEM ARCHITECT",
+          "description": "Install 50 modules at the tech table."
+        },
+        "schinese": {
+          "name": "系统架构师",
+          "description": "在科技台安装 50 个模块。"
+        }
+      }
+    },
+    "ACH_CODE_10": {
+      "translations": {
+        "english": {
+          "name": "DISCOVERY",
+          "description": "Discover 10 codes."
+        },
+        "schinese": {
+          "name": "发现",
+          "description": "发现 10 个代码。"
+        }
+      }
+    },
+    "ACH_CODE_50": {
+      "translations": {
+        "english": {
+          "name": "DATA HOARDER",
+          "description": "Discover 50 codes."
+        },
+        "schinese": {
+          "name": "数据囤积者",
+          "description": "发现 50 个代码。"
+        }
+      }
+    },
+    "ACH_CODE_250": {
+      "translations": {
+        "english": {
+          "name": "THE LIBRARIAN",
+          "description": "Discover 250 codes."
+        },
+        "schinese": {
+          "name": "图书管理员",
+          "description": "发现 250 个代码。"
+        }
+      }
+    },
+    "ACH_MONEY_1M": {
+      "translations": {
+        "english": {
+          "name": "MILLIONAIRE",
+          "description": "Earn $1,000,000 in total."
+        },
+        "schinese": {
+          "name": "百万富翁",
+          "description": "累计赚取 $1,000,000。"
+        }
+      }
+    },
+    "ACH_MONEY_10M": {
+      "translations": {
+        "english": {
+          "name": "CRIME PAYS",
+          "description": "Earn $10,000,000 in total."
+        },
+        "schinese": {
+          "name": "犯罪致富",
+          "description": "累计赚取 $10,000,000。"
+        }
+      }
+    },
+    "ACH_MONEY_100M": {
+      "translations": {
+        "english": {
+          "name": "SIGNAL BARON",
+          "description": "Earn $100,000,000 in total."
+        },
+        "schinese": {
+          "name": "信号大亨",
+          "description": "累计赚取 $100,000,000。"
+        }
+      }
+    },
+    "ACH_FLUX_100K": {
+      "translations": {
+        "english": {
+          "name": "CONDUIT",
+          "description": "Earn 100,000 flux in total."
+        },
+        "schinese": {
+          "name": "导管",
+          "description": "累计获得 100,000 点通量。"
+        }
+      }
+    },
+    "ACH_SALVAGE_500": {
+      "translations": {
+        "english": {
+          "name": "NOTHING WASTED",
+          "description": "Salvage 500 items."
+        },
+        "schinese": {
+          "name": "物尽其用",
+          "description": "回收 500 件物品。"
+        }
+      }
+    },
+    "ACH_GAMBLE_50": {
+      "translations": {
+        "english": {
+          "name": "FLIP",
+          "description": "Play 50 coin flips."
+        },
+        "schinese": {
+          "name": "抛硬币",
+          "description": "进行 50 次抛硬币。"
+        }
+      }
+    },
+    "ACH_GAMBLE_BIGWIN": {
+      "translations": {
+        "english": {
+          "name": "THE HOUSE BLINKED",
+          "description": "Win $100,000 or more on a single coin flip."
+        },
+        "schinese": {
+          "name": "庄家眨眼了",
+          "description": "单次抛硬币赢得 $100,000 或更多。"
+        }
+      }
+    },
+    "ACH_IG_LAYER_50": {
+      "translations": {
+        "english": {
+          "name": "GOING UNDER",
+          "description": "Reach layer 50 in INSANITY."
+        },
+        "schinese": {
+          "name": "深入其中",
+          "description": "在疯狂模式中到达第 50 层。"
+        }
+      }
+    },
+    "ACH_IG_LAYER_100": {
+      "translations": {
+        "english": {
+          "name": "DEEP STATIC",
+          "description": "Reach layer 100 in INSANITY."
+        },
+        "schinese": {
+          "name": "深层静电",
+          "description": "在疯狂模式中到达第 100 层。"
+        }
+      }
+    },
+    "ACH_IG_LAYER_250": {
+      "translations": {
+        "english": {
+          "name": "ROCK BOTTOM",
+          "description": "Reach layer 250 in INSANITY."
+        },
+        "schinese": {
+          "name": "跌入谷底",
+          "description": "在疯狂模式中到达第 250 层。"
+        }
+      }
+    },
+    "ACH_IG_REBIRTH": {
+      "translations": {
+        "english": {
+          "name": "BORN AGAIN",
+          "description": "Rebirth for the first time in INSANITY."
+        },
+        "schinese": {
+          "name": "重获新生",
+          "description": "在疯狂模式中首次重生。"
+        }
+      }
+    },
+    "ACH_IG_REBIRTH_10": {
+      "translations": {
+        "english": {
+          "name": "SERIAL RESURRECTOR",
+          "description": "Rebirth 10 times in INSANITY."
+        },
+        "schinese": {
+          "name": "轮回不止",
+          "description": "在疯狂模式中重生 10 次。"
+        }
+      }
+    },
+    "ACH_IG_ALL_CASES": {
+      "translations": {
+        "english": {
+          "name": "COLLECTOR OF MADNESS",
+          "description": "Open every type of cache in INSANITY."
+        },
+        "schinese": {
+          "name": "疯狂收藏家",
+          "description": "在疯狂模式中打开每种类型的缓存。"
+        }
+      }
+    },
+    "ACH_IG_ALL_PERMA": {
+      "translations": {
+        "english": {
+          "name": "PERFECTLY SANE",
+          "description": "Buy every permanent upgrade in INSANITY."
+        },
+        "schinese": {
+          "name": "绝对清醒",
+          "description": "在疯狂模式中购买所有永久升级。"
+        }
+      }
+    },
+    "ACH_LOOTTREE_FULL": {
+      "translations": {
+        "english": {
+          "name": "SIGNAL HARVEST COMPLETE",
+          "description": "Unlock every node of the loot tree."
+        },
+        "schinese": {
+          "name": "信号收割完成",
+          "description": "解锁战利品树的所有节点。"
+        }
+      }
+    },
+    "ACH_DOG_FOUND": {
+      "translations": {
+        "english": {
+          "name": "NOT ALL SIGNALS ARE HOSTILE",
+          "description": "Find your companion."
+        },
+        "schinese": {
+          "name": "并非所有信号都怀有敌意",
+          "description": "找到你的伙伴。"
+        }
+      }
+    },
+    "ACH_DOG_ADULT": {
+      "translations": {
+        "english": {
+          "name": "ALL GROWN UP",
+          "description": "Raise your companion to adulthood."
+        },
+        "schinese": {
+          "name": "长大成人",
+          "description": "将你的伙伴养大。"
+        }
+      }
+    },
+    "ACH_DOG_PET": {
+      "translations": {
+        "english": {
+          "name": "BEST FRIEND",
+          "description": "Pet your dog 50 times."
+        },
+        "schinese": {
+          "name": "最好的朋友",
+          "description": "抚摸你的狗 50 次。"
+        }
+      }
+    },
+    "ACH_END_KILL": {
+      "translations": {
+        "english": {
+          "name": "THE LAST TRANSMISSION",
+          "description": "Kill Vahlen."
+        },
+        "schinese": {
+          "name": "最后的传输",
+          "description": "击杀瓦伦。"
+        }
+      }
+    },
+    "ACH_END_REST": {
+      "translations": {
+        "english": {
+          "name": "SILENCE, AT LAST",
+          "description": "Take a rest."
+        },
+        "schinese": {
+          "name": "终于，安静了",
+          "description": "休息一次。"
+        }
+      }
+    },
+    "ACH_DOG_TRADE": {
+      "translations": {
+        "english": {
+          "name": "THE PRICE",
+          "description": "Give up what you love most."
+        },
+        "schinese": {
+          "name": "代价",
+          "description": "舍弃你最珍爱之物。"
+        }
+      }
+    },
+    "ACH_CRIMSON_GAZE": {
+      "translations": {
+        "english": {
+          "name": "IT LOOKED BACK",
+          "description": "Kill an enemy with the Crimson Gaze."
+        },
+        "schinese": {
+          "name": "它回望了我",
+          "description": "用绯红凝视击杀一名敌人。"
+        }
+      }
+    },
+    "ACH_MYTHIC_SALVAGE": {
+      "translations": {
+        "english": {
+          "name": "HERESY",
+          "description": "Salvage a mythic item."
+        },
+        "schinese": {
+          "name": "异端",
+          "description": "回收一件神话级物品。"
+        }
+      }
+    },
+    "ACH_MAX_HIT": {
+      "translations": {
+        "english": {
+          "name": "OVERKILL PROTOCOL",
+          "description": "Deal 1,000,000 damage in a single hit."
+        },
+        "schinese": {
+          "name": "过量杀伤协议",
+          "description": "单次攻击造成 1,000,000 点伤害。"
+        }
+      }
+    },
+    "ACH_DEATHS_100": {
+      "translations": {
+        "english": {
+          "name": "OCCUPATIONAL HAZARD",
+          "description": "Die 100 times."
+        },
+        "schinese": {
+          "name": "职业危害",
+          "description": "死亡 100 次。"
+        }
+      }
+    },
+    "ACH_FAILED_50": {
+      "translations": {
+        "english": {
+          "name": "TUITION FEES",
+          "description": "Fail 50 raids."
+        },
+        "schinese": {
+          "name": "学费",
+          "description": "失败 50 次突袭。"
+        }
+      }
+    },
+    "ACH_EMPTY_EXTRACT": {
+      "translations": {
+        "english": {
+          "name": "TACTICAL RETREAT",
+          "description": "Extract without looting a single item."
+        },
+        "schinese": {
+          "name": "战术撤退",
+          "description": "不拾取任何物品就撤离。"
+        }
+      }
+    },
+    "ACH_FIRST_EXTRACT": {
+      "translations": {
+        "english": {
+          "name": "BREACH AND RETURN",
+          "description": "Complete your first successful extraction."
+        },
+        "schinese": {
+          "name": "突破并返回",
+          "description": "第一次成功撤离。"
+        }
+      }
+    },
+    "ACH_ABYSS_UNLOCK": {
+      "translations": {
+        "english": {
+          "name": "THE SIGNAL BELOW",
+          "description": "Unlock the Nullpoint Abyss."
+        },
+        "schinese": {
+          "name": "信号之下",
+          "description": "解锁零点深渊。"
+        }
+      }
+    },
+    "ACH_ABYSS_25": {
+      "translations": {
+        "english": {
+          "name": "SHALLOW END",
+          "description": "Clear Corruption Level 25 in the Abyss."
+        },
+        "schinese": {
+          "name": "浅尝辄止",
+          "description": "在深渊中清除腐化等级 25。"
+        }
+      }
+    },
+    "ACH_ABYSS_100": {
+      "translations": {
+        "english": {
+          "name": "FIRST CLAIM",
+          "description": "Clear Corruption Level 100 in the Abyss."
+        },
+        "schinese": {
+          "name": "首次占有",
+          "description": "在深渊中清除腐化等级 100。"
+        }
+      }
+    },
+    "ACH_ABYSS_500": {
+      "translations": {
+        "english": {
+          "name": "NO BOTTOM",
+          "description": "Clear Corruption Level 500 in the Abyss."
+        },
+        "schinese": {
+          "name": "无底深渊",
+          "description": "在深渊中清除腐化等级 500。"
+        }
+      }
+    },
+    "ACH_ABYSS_1000": {
+      "translations": {
+        "english": {
+          "name": "TERMINAL DEPTH",
+          "description": "Clear Corruption Level 1000 in the Abyss."
+        },
+        "schinese": {
+          "name": "终端深度",
+          "description": "在深渊中清除腐化等级 1000。"
+        }
+      }
+    },
+    "ACH_HERALD": {
+      "translations": {
+        "english": {
+          "name": "THE MESSENGER",
+          "description": "Kill The Nullpoint Herald."
+        },
+        "schinese": {
+          "name": "信使",
+          "description": "击杀零点先驱。"
+        }
+      }
+    },
+    "ACH_UNDERLORD": {
+      "translations": {
+        "english": {
+          "name": "UNDERLORD DOWN",
+          "description": "Kill the Underlord."
+        },
+        "schinese": {
+          "name": "霸主陨落",
+          "description": "击杀霸主。"
+        }
+      }
+    },
+    "ACH_UNDERLORD_10": {
+      "translations": {
+        "english": {
+          "name": "UNDERLORD HUNTER",
+          "description": "Kill the Underlord 10 times."
+        },
+        "schinese": {
+          "name": "霸主猎人",
+          "description": "击杀霸主 10 次。"
+        }
+      }
+    },
+    "ACH_FRAG_FIRST": {
+      "translations": {
+        "english": {
+          "name": "FRAGMENTED",
+          "description": "Find an Abyss Fragment."
+        },
+        "schinese": {
+          "name": "碎片化",
+          "description": "找到一块深渊碎片。"
+        }
+      }
+    },
+    "ACH_FRAG_CORRUPT": {
+      "translations": {
+        "english": {
+          "name": "TWIST THE SIGNAL",
+          "description": "Corrupt a fragment with a Null Injector."
+        },
+        "schinese": {
+          "name": "扭曲信号",
+          "description": "使用零点注入器腐化一块碎片。"
+        }
+      }
+    },
+    "ACH_INF_FIRST": {
+      "translations": {
+        "english": {
+          "name": "AN IMPOSSIBLE THING",
+          "description": "Find an Infinity Fragment."
+        },
+        "schinese": {
+          "name": "不可能之物",
+          "description": "找到一块无限碎片。"
+        }
+      }
+    },
+    "ACH_INF_ALL": {
+      "translations": {
+        "english": {
+          "name": "THE SNAP",
+          "description": "Find all six Infinity Fragments."
+        },
+        "schinese": {
+          "name": "骤然崩裂",
+          "description": "找到全部六块无限碎片。"
+        }
+      }
+    },
+    "ACH_RELIQUARY": {
+      "translations": {
+        "english": {
+          "name": "SIX HOLLOW SOCKETS",
+          "description": "Find the Null Reliquary."
+        },
+        "schinese": {
+          "name": "六个空插槽",
+          "description": "找到零点圣匣。"
+        }
+      }
+    }
+  }
+}
