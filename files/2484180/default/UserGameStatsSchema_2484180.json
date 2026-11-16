@@ -1,0 +1,444 @@
+{
+  "version": 1,
+  "app_id": "2484180",
+  "variant_id": "default",
+  "source_sha256": "a84981781d6f64c47d37549ff152afd4305bafd94f8acc864e71c3482830394e",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "ACH_CHAPTER1": {
+      "translations": {
+        "english": {
+          "name": "Freedom?",
+          "description": "Complete chapter 1"
+        },
+        "schinese": {
+          "name": "自由？",
+          "description": "完成第1章"
+        }
+      }
+    },
+    "ACH_CHAPTER2": {
+      "translations": {
+        "english": {
+          "name": "Ubexer",
+          "description": "Complete chapter 2"
+        },
+        "schinese": {
+          "name": "乌贝克瑟",
+          "description": "完成第2章"
+        }
+      }
+    },
+    "ACH_CHAPTER3": {
+      "translations": {
+        "english": {
+          "name": "Dead end",
+          "description": "Complete chapter 3"
+        },
+        "schinese": {
+          "name": "死路",
+          "description": "完成第3章"
+        }
+      }
+    },
+    "ACH_SECRETS": {
+      "translations": {
+        "english": {
+          "name": "Secrets?",
+          "description": "Find a secret"
+        },
+        "schinese": {
+          "name": "秘密？",
+          "description": "找到一个秘密"
+        }
+      }
+    },
+    "ACH_HUNTER": {
+      "translations": {
+        "english": {
+          "name": "Hunter",
+          "description": "Get all kills in a level"
+        },
+        "schinese": {
+          "name": "猎人",
+          "description": "在一个关卡中取得全部击杀"
+        }
+      }
+    },
+    "ACH_SPEEDRUN": {
+      "translations": {
+        "english": {
+          "name": "Gotta go fast",
+          "description": "Beat a level in under 1 minute"
+        },
+        "schinese": {
+          "name": "风驰电掣",
+          "description": "在1分钟内通关一个关卡"
+        }
+      }
+    },
+    "ACH_BOOM": {
+      "translations": {
+        "english": {
+          "name": "KaBoom",
+          "description": "Kill 5 enemies with 1 explosion"
+        },
+        "schinese": {
+          "name": "轰！",
+          "description": "用1次爆炸击杀5名敌人"
+        }
+      }
+    },
+    "ACH_APOCALYPSE": {
+      "translations": {
+        "english": {
+          "name": "Unkillable",
+          "description": "Beat the game on apocalypse difficulty"
+        },
+        "schinese": {
+          "name": "杀不死",
+          "description": "在末日难度下通关游戏"
+        }
+      }
+    },
+    "ACH_TANK_BOSS": {
+      "translations": {
+        "english": {
+          "name": "Not so tanky now",
+          "description": "Defeat the chapter 1 boss"
+        },
+        "schinese": {
+          "name": "现在不抗揍了吧",
+          "description": "击败第1章头目"
+        }
+      }
+    },
+    "ACH_ALLIGATOR_BOSS": {
+      "translations": {
+        "english": {
+          "name": "100% Gator",
+          "description": "Defeat the chapter 2 boss"
+        },
+        "schinese": {
+          "name": "100%短吻鳄",
+          "description": "击败第2章头目"
+        }
+      }
+    },
+    "ACH_TENTACLE_BOSS": {
+      "translations": {
+        "english": {
+          "name": "Portal-chop",
+          "description": "Defeat the chapter 3 boss"
+        },
+        "schinese": {
+          "name": "劈开传送门",
+          "description": "击败第三章首领"
+        }
+      }
+    },
+    "ACH_PISTOL": {
+      "translations": {
+        "english": {
+          "name": "A GUN!!",
+          "description": "Acquire the pistol"
+        },
+        "schinese": {
+          "name": "一把枪！！",
+          "description": "获得手枪"
+        }
+      }
+    },
+    "ACH_SHOTGUN": {
+      "translations": {
+        "english": {
+          "name": "Chuc Chuc",
+          "description": "Acquire the shotgun"
+        },
+        "schinese": {
+          "name": "咔嚓咔嚓",
+          "description": "获得霰弹枪"
+        }
+      }
+    },
+    "ACH_RIFLE": {
+      "translations": {
+        "english": {
+          "name": "Pepper spray",
+          "description": "Acquire the assault rifle"
+        },
+        "schinese": {
+          "name": "胡椒喷雾",
+          "description": "获得突击步枪"
+        }
+      }
+    },
+    "ACH_RPG": {
+      "translations": {
+        "english": {
+          "name": "Don't face rocket",
+          "description": "Acquire the rocket launcher"
+        },
+        "schinese": {
+          "name": "别用脸接火箭弹",
+          "description": "获得火箭筒"
+        }
+      }
+    },
+    "ACH_SUPER_SHOTGUN": {
+      "translations": {
+        "english": {
+          "name": "Doombringer",
+          "description": "Acquire the super shotgun"
+        },
+        "schinese": {
+          "name": "毁灭使者",
+          "description": "获得超级霰弹枪"
+        }
+      }
+    },
+    "ACH_SNIPER": {
+      "translations": {
+        "english": {
+          "name": "Headshot",
+          "description": "Acquire the sniper rifle"
+        },
+        "schinese": {
+          "name": "爆头",
+          "description": "获得狙击步枪"
+        }
+      }
+    },
+    "ACH_PISTOL_ATTACHMENT": {
+      "translations": {
+        "english": {
+          "name": "Freeze",
+          "description": "Acquire the pistol attachment"
+        },
+        "schinese": {
+          "name": "冻住别动",
+          "description": "获得手枪配件"
+        }
+      }
+    },
+    "ACH_SHOTGUN_ATTACHMENT": {
+      "translations": {
+        "english": {
+          "name": "2 in 1",
+          "description": "Acquire the shotgun attachment"
+        },
+        "schinese": {
+          "name": "二合一",
+          "description": "获得霰弹枪配件"
+        }
+      }
+    },
+    "ACH_RIFLE_ATTACHMENT": {
+      "translations": {
+        "english": {
+          "name": "Fire in the hole!",
+          "description": "Acquire the assault rifle attachment"
+        },
+        "schinese": {
+          "name": "小心手雷！",
+          "description": "获得突击步枪配件"
+        }
+      }
+    },
+    "ACH_SNIPER_ATTACHMENT": {
+      "translations": {
+        "english": {
+          "name": "BOOM! Headshot",
+          "description": "Acquire the sniper attachment"
+        },
+        "schinese": {
+          "name": "砰！爆头",
+          "description": "获得狙击镜配件"
+        }
+      }
+    },
+    "ACH_RAYGUN": {
+      "translations": {
+        "english": {
+          "name": "That's a Big F*****g Gun",
+          "description": "Acquire the raygun"
+        },
+        "schinese": {
+          "name": "真他妈是把大枪",
+          "description": "获得射线枪"
+        }
+      }
+    },
+    "ACH_PIERCING": {
+      "translations": {
+        "english": {
+          "name": "2 birds with 1 stone",
+          "description": "Kill 2 mutated pigeons with 1 piercing bullet"
+        },
+        "schinese": {
+          "name": "一石二鸟",
+          "description": "用1发穿透子弹击杀2只变异鸽子"
+        }
+      }
+    },
+    "ACH_OVERKILL": {
+      "translations": {
+        "english": {
+          "name": "Overkill, or bad aim",
+          "description": "Kill a single mutant with the raygun"
+        },
+        "schinese": {
+          "name": "火力过剩，还是枪法太烂",
+          "description": "用射线枪击杀单个变异体"
+        }
+      }
+    },
+    "ACH_AMMOBOX": {
+      "translations": {
+        "english": {
+          "name": "Fully loaded",
+          "description": "Find an ammo box"
+        },
+        "schinese": {
+          "name": "弹药满载",
+          "description": "找到一个弹药箱"
+        }
+      }
+    },
+    "ACH_STUN": {
+      "translations": {
+        "english": {
+          "name": "What are you gonna do about it?",
+          "description": "Kill a stunned enemy with the knife"
+        },
+        "schinese": {
+          "name": "你能拿我怎样？",
+          "description": "用小刀击杀一名被眩晕的敌人"
+        }
+      }
+    },
+    "ACH_KEBAB": {
+      "translations": {
+        "english": {
+          "name": "Shish Kebab",
+          "description": "Kill 10 enemies with a single raygun shot"
+        },
+        "schinese": {
+          "name": "烤肉串",
+          "description": "用射线枪一枪击杀10个敌人"
+        }
+      }
+    },
+    "ACH_EDUCATED": {
+      "translations": {
+        "english": {
+          "name": "Educated",
+          "description": "Find every paper note"
+        },
+        "schinese": {
+          "name": "博览群书",
+          "description": "找到所有纸质便签"
+        }
+      }
+    },
+    "ACH_KEYCARD": {
+      "translations": {
+        "english": {
+          "name": "Unlimited access",
+          "description": "Get every keycard"
+        },
+        "schinese": {
+          "name": "畅行无阻",
+          "description": "获得所有门禁卡"
+        }
+      }
+    },
+    "ACH_ARSENAL": {
+      "translations": {
+        "english": {
+          "name": "Walking arsenal",
+          "description": "Get every weapon and attachment"
+        },
+        "schinese": {
+          "name": "行走的军火库",
+          "description": "获得所有武器与配件"
+        }
+      }
+    },
+    "ACH_COMPLETIONIST": {
+      "translations": {
+        "english": {
+          "name": "Completionist",
+          "description": "Find every secret and kill every enemy in a level"
+        },
+        "schinese": {
+          "name": "完美主义者",
+          "description": "在关卡中找到所有秘密并消灭所有敌人"
+        }
+      }
+    },
+    "ACH_POWER": {
+      "translations": {
+        "english": {
+          "name": "Unlimited power",
+          "description": "Turn on the power core"
+        },
+        "schinese": {
+          "name": "无限力量",
+          "description": "启动能量核心"
+        }
+      }
+    },
+    "ACH_FAST_TRAVEL": {
+      "translations": {
+        "english": {
+          "name": "Fast travel",
+          "description": "Travel with the subway train"
+        },
+        "schinese": {
+          "name": "快速旅行",
+          "description": "乘坐地铁列车旅行"
+        }
+      }
+    },
+    "ACH_FUSE": {
+      "translations": {
+        "english": {
+          "name": "Limited power",
+          "description": "Turn on all 3 generators"
+        },
+        "schinese": {
+          "name": "有限电力",
+          "description": "启动全部 3 台发电机"
+        }
+      }
+    },
+    "ACH_THIRSTY": {
+      "translations": {
+        "english": {
+          "name": "Thirsty",
+          "description": "Use every drinking fountain"
+        },
+        "schinese": {
+          "name": "口渴难耐",
+          "description": "使用每一个饮水机"
+        }
+      }
+    },
+    "ACH_GOAL": {
+      "translations": {
+        "english": {
+          "name": "GOOOOAL!!!!!",
+          "description": "Score a goal"
+        },
+        "schinese": {
+          "name": "球进啦！！！",
+          "description": "攻入一球"
+        }
+      }
+    }
+  }
+}
