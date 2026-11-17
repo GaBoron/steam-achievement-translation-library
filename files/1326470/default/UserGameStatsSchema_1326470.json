@@ -1,0 +1,396 @@
+{
+  "version": 1,
+  "app_id": "1326470",
+  "variant_id": "default",
+  "source_sha256": "2ec67fefa159010d74578c7e36996844dd8bc1fa6de4290d696848b2f5a53c16",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "ACH_THIS_CANT_BE_HEALTHY": {
+      "translations": {
+        "english": {
+          "name": "THIS CAN’T BE HEALTHY",
+          "description": "Drink 50 cans of Fi-Z"
+        },
+        "schinese": {
+          "name": "这可不健康",
+          "description": "喝下 50 罐能量饮料"
+        }
+      }
+    },
+    "ACH_WEAR_TECH_ARMOR": {
+      "translations": {
+        "english": {
+          "name": "DYNAMO",
+          "description": "Wear a full set of Tech Armor"
+        },
+        "schinese": {
+          "name": "精力充沛",
+          "description": "穿上一整套科技护甲"
+        }
+      }
+    },
+    "ACH_COLLECT_WATCHES": {
+      "translations": {
+        "english": {
+          "name": "COLLECTOR",
+          "description": "Pickup 50 Drogue watches"
+        },
+        "schinese": {
+          "name": "收藏家",
+          "description": "捡起 50 块手表"
+        }
+      }
+    },
+    "ACH_COLLECT_MONEY": {
+      "translations": {
+        "english": {
+          "name": "1%",
+          "description": "Collect $1000"
+        },
+        "schinese": {
+          "name": "百分之一",
+          "description": "累计拾取 1000 美元"
+        }
+      }
+    },
+    "ACH_EAT_ALL_EDIBLES": {
+      "translations": {
+        "english": {
+          "name": "FOODIE",
+          "description": "Eat one of each type of edible in the game"
+        },
+        "schinese": {
+          "name": "美食家",
+          "description": "吃遍游戏中每一种可食用物品"
+        }
+      }
+    },
+    "ACH_SURVIVE_DAY_1": {
+      "translations": {
+        "english": {
+          "name": "SURVIVOR",
+          "description": "Survive Day 1"
+        },
+        "schinese": {
+          "name": "幸存者",
+          "description": "活过第 1 天"
+        }
+      }
+    },
+    "ACH_SURVIVE_DAY_10": {
+      "translations": {
+        "english": {
+          "name": "WHAT COULD GO WRONG",
+          "description": "Survive Day 10"
+        },
+        "schinese": {
+          "name": "能出什么事",
+          "description": "活过第 10 天"
+        }
+      }
+    },
+    "ACH_SURVIVE_DAY_25": {
+      "translations": {
+        "english": {
+          "name": "THIS PLACE ISN’T SO BAD",
+          "description": "Survive Day 25"
+        },
+        "schinese": {
+          "name": "这地方还不赖",
+          "description": "活过第 25 天"
+        }
+      }
+    },
+    "ACH_SURVIVE_DAY_50": {
+      "translations": {
+        "english": {
+          "name": "NEVER GOING HOME",
+          "description": "Survive Day 50"
+        },
+        "schinese": {
+          "name": "再也不回家了",
+          "description": "活过第 50 天"
+        }
+      }
+    },
+    "ACH_TRUSTED": {
+      "translations": {
+        "english": {
+          "name": "TRUSTED",
+          "description": "Become an admin in a multiplayer game"
+        },
+        "schinese": {
+          "name": "值得信赖",
+          "description": "在多人游戏中成为管理员"
+        }
+      }
+    },
+    "ACH_OWN_ALL_CLOTHING": {
+      "translations": {
+        "english": {
+          "name": "FASHIONISTA",
+          "description": "Own every piece of clothing"
+        },
+        "schinese": {
+          "name": "时尚达人",
+          "description": "拥有每一件服装"
+        }
+      }
+    },
+    "ACH_STRUCTURE_50_LOGS": {
+      "translations": {
+        "english": {
+          "name": "TRADESMAN",
+          "description": "Place 50 logs"
+        },
+        "schinese": {
+          "name": "工匠",
+          "description": "放置 50 根原木"
+        }
+      }
+    },
+    "ACH_STRUCTURE_100_LOGS": {
+      "translations": {
+        "english": {
+          "name": "CONTRACTOR",
+          "description": "Place 100 logs"
+        },
+        "schinese": {
+          "name": "承包商",
+          "description": "放置 100 根原木"
+        }
+      }
+    },
+    "ACH_STRUCTURE_500_LOGS": {
+      "translations": {
+        "english": {
+          "name": "ARCHITECT",
+          "description": "Place 500 logs"
+        },
+        "schinese": {
+          "name": "建筑师",
+          "description": "放置 500 根原木"
+        }
+      }
+    },
+    "ACH_STRUCTURE_1000_LOGS": {
+      "translations": {
+        "english": {
+          "name": "CITY PLANNER",
+          "description": "Place 1000 logs"
+        },
+        "schinese": {
+          "name": "城市规划师",
+          "description": "放置 1000 根原木"
+        }
+      }
+    },
+    "ACH_KILL_SLUGGIE": {
+      "translations": {
+        "english": {
+          "name": "PINATA",
+          "description": "Blow up a Sluggy"
+        },
+        "schinese": {
+          "name": "皮纳塔",
+          "description": "炸掉一只 Sluggy（洞穴中堵门大肉块）"
+        }
+      }
+    },
+    "ACH_KICKED_BY_HEAVY": {
+      "translations": {
+        "english": {
+          "name": "SUCKER FOR PUNISHMENT",
+          "description": "Get kicked by a heavy cannibal 5 times"
+        },
+        "schinese": {
+          "name": "自讨苦吃",
+          "description": "被壮硕的食人族踢中 5 次"
+        }
+      }
+    },
+    "ACH_VIRGINIA_GPS": {
+      "translations": {
+        "english": {
+          "name": "EVERY MOVE YOU MAKE",
+          "description": "Give a GPS locator to Virginia"
+        },
+        "schinese": {
+          "name": "你的一举一动",
+          "description": "把 GPS 定位器交给 Virginia（女野人）"
+        }
+      }
+    },
+    "ACH_CRAFT_ALL_WEAPONS": {
+      "translations": {
+        "english": {
+          "name": "MC CRAFTY",
+          "description": "Craft all weapons"
+        },
+        "schinese": {
+          "name": "巧手先生",
+          "description": "制作出全部武器"
+        }
+      }
+    },
+    "ACH_EAT_RAW_FISH": {
+      "translations": {
+        "english": {
+          "name": "I DREAM OF SUSHI",
+          "description": "Eat 20 raw fish"
+        },
+        "schinese": {
+          "name": "我梦见寿司了",
+          "description": "吃掉 20 条生鱼"
+        }
+      }
+    },
+    "ACH_DIG_HOLES_100": {
+      "translations": {
+        "english": {
+          "name": "BADGER",
+          "description": "Dig 100 holes"
+        },
+        "schinese": {
+          "name": "獾",
+          "description": "挖 100 个坑"
+        }
+      }
+    },
+    "ACH_DIG_HOLES_1000": {
+      "translations": {
+        "english": {
+          "name": "I LIKE BLISTERS",
+          "description": "Dig 1000 holes"
+        },
+        "schinese": {
+          "name": "我喜欢手上起泡",
+          "description": "挖 1000 个坑"
+        }
+      }
+    },
+    "ACH_KILLED_BY_SHARK": {
+      "translations": {
+        "english": {
+          "name": "NEED A BIGGER BOAT",
+          "description": "Get killed by a shark"
+        },
+        "schinese": {
+          "name": "得有艘更大的船",
+          "description": "被鲨鱼杀死"
+        }
+      }
+    },
+    "ACH_PRINT_ALL_ITEMS": {
+      "translations": {
+        "english": {
+          "name": "MAKER",
+          "description": "Print one of every item"
+        },
+        "schinese": {
+          "name": "创造者",
+          "description": "打印出每一种物品"
+        }
+      }
+    },
+    "ACH_VIRGINIA_MAX_SENTIMENT": {
+      "translations": {
+        "english": {
+          "name": "CHIVALRY IS NOT DEAD",
+          "description": "Reach max sentiment with Virginia"
+        },
+        "schinese": {
+          "name": "骑士精神未死",
+          "description": "与 Virginia （女野人）的好感度达到最高"
+        }
+      }
+    },
+    "ACH_LEAVE_THE_ISLAND": {
+      "translations": {
+        "english": {
+          "name": "FOUGHT DEMONS",
+          "description": "Leave the Island"
+        },
+        "schinese": {
+          "name": "曾与恶魔搏斗",
+          "description": "离开岛屿"
+        }
+      }
+    },
+    "ACH_STAY_BEHIND": {
+      "translations": {
+        "english": {
+          "name": "FIGHT DEMONS",
+          "description": "Stay on the Island"
+        },
+        "schinese": {
+          "name": "与恶魔搏斗",
+          "description": "留在岛上"
+        }
+      }
+    },
+    "ACH_FINISH_STORY_WITH_ALL_NPCS": {
+      "translations": {
+        "english": {
+          "name": "KEEP YOUR FRIENDS CLOSE",
+          "description": "Complete the story with all friendly NPCs still alive"
+        },
+        "schinese": {
+          "name": "把朋友留在身边",
+          "description": "在所有友好 NPC 都存活的情况下完成剧情"
+        }
+      }
+    },
+    "ACH_PLATED_WEAPONS": {
+      "translations": {
+        "english": {
+          "name": "OOOH SHINY",
+          "description": "Plate all valid weapons with Solafite"
+        },
+        "schinese": {
+          "name": "哇，好闪",
+          "description": "用索拉菲特矿石为所有可镀武器的表面镀层"
+        }
+      }
+    },
+    "ACH_DISCOVERED_BLUEPRINTS": {
+      "translations": {
+        "english": {
+          "name": "INTERIOR DESIGNER",
+          "description": "Find all the discoverable blueprints"
+        },
+        "schinese": {
+          "name": "室内设计师",
+          "description": "找到全部可发现的蓝图"
+        }
+      }
+    },
+    "ACH_FOUND_FOOTAGE": {
+      "translations": {
+        "english": {
+          "name": "BLOCKBUSTER",
+          "description": "Watch all the found footage recordings"
+        },
+        "schinese": {
+          "name": "大片",
+          "description": "看完所有拾获的录像"
+        }
+      }
+    },
+    "ACH_NOTE_PAGES": {
+      "translations": {
+        "english": {
+          "name": "GUMSHOE",
+          "description": "Collect all the note pages"
+        },
+        "schinese": {
+          "name": "侦探",
+          "description": "收集所有笔记纸页"
+        }
+      }
+    }
+  }
+}

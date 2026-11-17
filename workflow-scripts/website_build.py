@@ -7,6 +7,8 @@ import re
 import subprocess
 from html.parser import HTMLParser
 from pathlib import Path, PurePosixPath
+
+from translation_artifacts import indexed_standalone
 from urllib.parse import unquote, urlsplit
 
 from catalog_v2 import schema_relative_path, translation_json_relative_path, validate_catalog
@@ -97,6 +99,11 @@ def _catalog_payloads(root: Path) -> tuple[dict[PurePosixPath, bytes], int, int]
     variants = 0
     for game_id, game in catalog["games"].items():
         for variant_id, variant in game["variants"].items():
+            if variant.get("format") == "json":
+                relative = PurePosixPath(translation_json_relative_path(game_id, variant_id))
+                payloads[relative] = indexed_standalone(_source_file(root, relative), game_id, variant_id, variant)
+                variants += 1
+                continue
             relative = PurePosixPath(schema_relative_path(game_id, variant_id))
             path = _source_file(root, relative)
             binary, nodes = load_schema(path)

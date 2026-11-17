@@ -1,14 +1,14 @@
 name: 翻译请愿
-description: 上传包含待翻译 BIN 的 UserGameStatsSchema_<app_id>.zip，并在翻译收录后接收通知
+description: 填写游戏和目标语言即可请愿；原始 schema ZIP 可选
 title: "[翻译请愿] 游戏名 (Steam app ID)"
 labels: [翻译请愿]
 body:
   - type: markdown
     attributes:
       value: |
-        此模板用于请求社区翻译尚未收录的 Steam 成就 schema。GitHub 不支持直接上传 `.bin`，请先把 Steam 生成的原始文件压缩为 ZIP。
+        填写 App ID、游戏名和目标语言即可请愿，无需拥有或安装游戏。有原始 BIN 时可压缩为 ZIP 附上。
 
-        机器人成功识别文件后会确认请愿已收到；同一 Steam app ID 的翻译投稿 PR 合并后，会在此通知并自动关闭 issue。
+        机器人会尝试从 Steam 公开页面生成候选 JSON；数据不可获取时标记待补充来源，仍保留请愿。同一 Steam app ID 的翻译投稿 PR 合并后，会在此通知并自动关闭 issue。
 
         如果该 app ID 已经收录或已有正在审核的翻译 PR，机器人会评论现有下载地址或 PR 地址，并自动关闭此 issue。
   - type: input
@@ -23,7 +23,7 @@ body:
     id: app_id
     attributes:
       label: Steam app ID
-      description: 只填写数字，并确保与 ZIP 和其中 BIN 的文件名一致。
+      description: 只填写数字；如有附件，其文件名须与此 ID 一致。
       placeholder: "123456"
     validations:
       required: true
@@ -39,10 +39,10 @@ body:
     id: schema_zip
     attributes:
       label: 需要翻译的成就 schema ZIP
-      description: 上传 `UserGameStatsSchema_<app_id>.zip`；ZIP 内必须且只能包含同名 `UserGameStatsSchema_<app_id>.bin`。
+      description: 可选；上传 UserGameStatsSchema_<app_id>.zip，内含同名 BIN。无文件可留空。
       placeholder: 请把 ZIP 文件拖到这里。
     validations:
-      required: true
+      required: false
   - type: textarea
     id: notes
     attributes:
