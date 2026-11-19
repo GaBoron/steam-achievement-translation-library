@@ -10,6 +10,7 @@ import translation_json
 from generate_statistics_svg import build_statistics, render_svg, write_if_changed
 from pr_submission_data import with_submissions
 from steam_schema import load_schema, schema_languages, sha256, validate_schema_structure
+from standalone_translation import canonical_text, decode_translation
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -17,10 +18,20 @@ STATISTICS_PATH = ROOT / "docs" / "statistics" / "library-statistics.svg"
 
 
 def refresh_catalog(catalog: dict[str, Any], *, root: Path = ROOT) -> dict[str, Any]:
-    """Recalculate BIN-derived fields, then refresh every checked-in projection."""
+    """Recalculate artifact metadata, then refresh every checked-in projection."""
     catalog = with_submissions(catalog, root=root)
-    for game_id, game in catalog["games"].items():
+    games = catalog["games"]
+    for game_id, game in games.items():
         for variant_id, variant in game["variants"].items():
+            if variant.get("format") == "json":
+                path = root / catalog_v2.translation_json_relative_path(game_id, variant_id)
+                payload = decode_translation(path.read_bytes(), app_id=game_id, variant_id=variant_id)
+                content = canonical_text(payload)
+                path.write_text(content, encoding="utf-8", newline="\n")
+                variant["json"] = {"version": 2, "size": len(content.encode("utf-8")), "sha256": sha256(content.encode("utf-8"))}
+                variant["languages"] = payload["languages"]
+                variant["achievements"] = len(payload["achievements"])
+                continue
             relative = catalog_v2.schema_relative_path(game_id, variant_id)
             path = root / Path(*PurePosixPath(relative).parts)
             data, nodes = load_schema(path)

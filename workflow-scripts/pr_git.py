@@ -4,10 +4,12 @@ from __future__ import annotations
 import subprocess
 import sys
 import urllib.parse
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 from typing import Any
 
 from github_repository import github_request
+from standalone_translation import canonical_text, decode_translation
+from steam_schema import sha256
 import catalog_v2
 from library_index import (
     entry_schema_variants,
@@ -90,7 +92,7 @@ def rename_schema_variants(
     records = validated_entry_schema_variants(entry)
     if not records:
         raise ValueError("当前 PR 没有可重命名的 schema 文件。")
-    moves: list[tuple[Path, Path, dict[str, Any]]] = []
+    moves: list[tuple[Path, Path, dict[str, Any], bytes | None]] = []
     for record in records:
         source = repository_path(str(record["schema_file"]))
         if not source.is_file():
@@ -99,6 +101,7 @@ def rename_schema_variants(
             new_game_id,
             str(record["variant_id"]),
         )
+        destination_relative = str(PurePosixPath(destination_relative).with_suffix(source.suffix))
         destination = repository_path(destination_relative)
         if destination.exists() and destination != source:
             raise ValueError(f"目标 schema 文件已存在：{destination_relative}")
@@ -107,10 +110,20 @@ def rename_schema_variants(
                 raise ValueError(f"目标派生文件已存在：{companion.relative_to(FILES_ROOT.parent).as_posix()}")
         updated = dict(record)
         updated["schema_file"] = destination_relative
-        moves.append((source, destination, updated))
-    for source, destination, _record in moves:
+        content = None
+        if source.suffix == ".json":
+            payload = decode_translation(source.read_bytes(), app_id=old_game_id, variant_id=str(record["variant_id"]))
+            payload["app_id"] = new_game_id
+            content = canonical_text(payload).encode("utf-8")
+            decode_translation(content, app_id=new_game_id)
+            updated.update({"sha256": sha256(content), "file_size_bytes": len(content),
+                            "json": {"version": 2, "sha256": sha256(content), "size": len(content)}})
+        moves.append((source, destination, updated, content))
+    for source, destination, _record, content in moves:
         destination.parent.mkdir(parents=True, exist_ok=True)
         source.replace(destination)
+        if content is not None:
+            destination.write_bytes(content)
         source_review = source.with_name("achievements.md")
         if source_review.is_file():
             source_review.replace(destination.with_name("achievements.md"))
@@ -118,7 +131,7 @@ def rename_schema_variants(
         if source_json.is_file():
             source_json.replace(destination.with_suffix(".json"))
     # Empty old directories may remain; Git does not track them.
-    updated_records = [record for _source, _destination, record in moves]
+    updated_records = [record for _source, _destination, record, _content in moves]
     updated_records.sort(key=lambda record: (not bool(record.get("primary")), str(record.get("variant_id"))))
     primary = next(record for record in updated_records if record.get("primary"))
     keep_records = updated_records if schema_files is not None else None

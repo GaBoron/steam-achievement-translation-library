@@ -1,12 +1,12 @@
 name: Update existing Steam achievement translation
-description: Upload a newer schema ZIP for an accepted game
+description: Submit standalone translation JSON or a schema ZIP containing BIN/JSON
 title: "[Translation update] Game name (Steam app ID)"
 labels: [更新文件]
 body:
   - type: markdown
     attributes:
       value: |
-        Use this template only for games already accepted into the library's authoritative manifests. Open PRs do not count as accepted entries.
+        Use this template only for games already accepted into Catalog V2. Open PRs do not count as accepted entries.
 
         If the uploaded file is identical to the current library file, automation will reject the update. Automation derives the store URL from the app ID and detects languages from the schema.
   - type: input
@@ -41,9 +41,9 @@ body:
   - type: textarea
     id: schema_zip
     attributes:
-      label: Uploaded achievement schema ZIP
-      description: For one version, upload a ZIP containing one matching `.bin`. To replace the complete version set, include `translation-variants.json` in the ZIP.
-      placeholder: Drag the ZIP here.
+      label: Translation JSON or schema ZIP
+      description: Upload UserGameStatsSchema_<app_id>.json (format 2, complete all declared languages) or the matching ZIP. Multi-version ZIPs include translation-variants.json; each variant contains BIN or JSON.
+      placeholder: Drag the JSON or ZIP here.
     validations:
       required: true
   - type: textarea
