@@ -1,4 +1,5 @@
 import { isStandardLanguage, OTHER_LANGUAGE } from './languages.js';
+import { matchesTranslation } from './translation-integrity.js';
 
 /** Catalog V2 is the directory; translation JSON is loaded only for previews. */
 const object = value => value !== null && typeof value === 'object' && !Array.isArray(value);
@@ -39,6 +40,12 @@ export function parseCatalog(payload) {
       }
       const stem = `files/${appId}/${id}/UserGameStatsSchema_${appId}`;
       const json = object(value.json) ? value.json : {};
+      const standalone = value.format === 'json';
+      if ((value.format && !['bin', 'json'].includes(value.format)) ||
+          (standalone && (json.version !== 2 || !/^[a-f0-9]{64}$/.test(json.sha256)))) {
+        invalidVariant = true;
+        continue;
+      }
       variants.push({
         id,
         label: bilingual(value.label),
@@ -49,7 +56,8 @@ export function parseCatalog(payload) {
         sha256: /^[a-f0-9]{64}$/.test(value.sha256) ? value.sha256 : null,
         jsonVersion: integer(json.version),
         jsonSize: integer(json.size),
-        binPath: `${stem}.bin`,
+        jsonSha256: /^[a-f0-9]{64}$/.test(json.sha256) ? json.sha256 : null,
+        binPath: standalone ? null : `${stem}.bin`,
         jsonPath: object(value.json) ? `${stem}.json` : null,
       });
     }
@@ -79,7 +87,7 @@ export function parseCatalog(payload) {
   return { games, invalidCount };
 }
 
-async function fetchJSON(path, code) {
+async function fetchPayload(path, code) {
   let response;
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 20000);
@@ -87,7 +95,9 @@ async function fetchJSON(path, code) {
     response = await fetch(new URL(path, document.baseURI), { cache: 'no-cache', signal: controller.signal });
     if (!response.ok) throw new CatalogError(code);
     try {
-      return await response.json();
+      const bytes = await response.arrayBuffer();
+      if (bytes.byteLength > 32 * 1024 * 1024) throw new Error('Download exceeds 32 MiB');
+      return { payload: JSON.parse(new TextDecoder('utf-8', { fatal: true }).decode(bytes)), bytes };
     } catch {
       throw new CatalogError(code === 'catalog-load' ? 'catalog-format' : 'preview-format');
     }
@@ -99,7 +109,7 @@ async function fetchJSON(path, code) {
 }
 
 export async function loadCatalog() {
-  return parseCatalog(await fetchJSON('index-v2.json', 'catalog-load'));
+  return parseCatalog((await fetchPayload('index-v2.json', 'catalog-load')).payload);
 }
 
 const fold = value => value.normalize('NFKC').toLocaleLowerCase().trim();
@@ -126,13 +136,12 @@ export function filterGames(games, { query = '', status = '', language = '', sor
 const previews = new Map();
 
 export async function loadPreview(game, variant) {
-  if (!variant.jsonPath || variant.jsonVersion !== 1) throw new CatalogError('preview-format');
-  const key = `${game.appId}/${variant.id}/${variant.sha256}`;
+  if (!variant.jsonPath || ![1, 2].includes(variant.jsonVersion)) throw new CatalogError('preview-format');
+  const key = `${game.appId}/${variant.id}/${variant.jsonSha256 || variant.sha256}`;
   if (previews.has(key)) return previews.get(key);
   const pending = (async () => {
-    const payload = await fetchJSON(variant.jsonPath, 'preview-load');
-    if (!object(payload) || payload.version !== 1 || payload.app_id !== game.appId ||
-        payload.variant_id !== variant.id || !variant.sha256 || payload.source_sha256 !== variant.sha256 ||
+    const { payload, bytes } = await fetchPayload(variant.jsonPath, 'preview-load');
+    if (!object(payload) || !await matchesTranslation(payload, bytes, game, variant) ||
         !object(payload.achievements) || !Array.isArray(payload.languages) ||
         payload.languages.length !== variant.languages.length ||
         new Set(payload.languages).size !== payload.languages.length ||
