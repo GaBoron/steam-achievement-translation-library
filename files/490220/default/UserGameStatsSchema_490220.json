@@ -1,0 +1,1260 @@
+{
+  "version": 1,
+  "app_id": "490220",
+  "variant_id": "default",
+  "source_sha256": "db835f72558731f0bff6d565c06720b80281c6c24d482728c7faffe9dbb5b984",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "Outbreak Complete": {
+      "translations": {
+        "english": {
+          "name": "Outbreak Complete",
+          "description": "Complete campaign Episode 1: Outbreak."
+        },
+        "schinese": {
+          "name": "爆发篇完成",
+          "description": "完成战役第一章：爆发。"
+        }
+      }
+    },
+    "Recombination Complete": {
+      "translations": {
+        "english": {
+          "name": "Recombination Complete",
+          "description": "Complete campaign Episode 2: Recombination."
+        },
+        "schinese": {
+          "name": "重组篇完成",
+          "description": "完成战役第二章：重组。"
+        }
+      }
+    },
+    "Outbreak Master": {
+      "translations": {
+        "english": {
+          "name": "Outbreak Master",
+          "description": "Earn all the expert medals in Episode 1: Outbreak."
+        },
+        "schinese": {
+          "name": "爆发篇大师",
+          "description": "获得第一章：爆发的全部专家奖章。"
+        }
+      }
+    },
+    "Recombination Master": {
+      "translations": {
+        "english": {
+          "name": "Recombination Master",
+          "description": "Earn all the expert medals in Episode 2: Recombination."
+        },
+        "schinese": {
+          "name": "重组篇大师",
+          "description": "获得第二章：重组的全部专家奖章。"
+        }
+      }
+    },
+    "Novice Challenges Complete": {
+      "translations": {
+        "english": {
+          "name": "Beginner Lessons Complete",
+          "description": "Complete all the Beginner Lessons in Combat Training."
+        },
+        "schinese": {
+          "name": "新手课程完成",
+          "description": "完成战斗训练中的所有新手课程。"
+        }
+      }
+    },
+    "Intermediate Challenges Complete": {
+      "translations": {
+        "english": {
+          "name": "Intermediate Practice Complete",
+          "description": "Complete all the Intermediate Practice stages in Combat Training."
+        },
+        "schinese": {
+          "name": "中级练习完成",
+          "description": "完成战斗训练中的所有中级练习关卡。"
+        }
+      }
+    },
+    "Expert Challenges Complete": {
+      "translations": {
+        "english": {
+          "name": "Advanced Exercises Complete",
+          "description": "Complete all the Advanced Exercises in Combat Training."
+        },
+        "schinese": {
+          "name": "高级演习完成",
+          "description": "完成战斗训练中的所有高级演习。"
+        }
+      }
+    },
+    "Master Puzzle Challenges Complete": {
+      "translations": {
+        "english": {
+          "name": "Expert Scenarios Complete",
+          "description": "Complete all Master Puzzle Challenges in combat training."
+        },
+        "schinese": {
+          "name": "专家场景完成",
+          "description": "完成战斗训练中的所有大师谜题挑战。"
+        }
+      }
+    },
+    "Master Versus Challenges Complete": {
+      "translations": {
+        "english": {
+          "name": "Master Challenges Complete",
+          "description": "Complete all Master Challenges in Combat Training."
+        },
+        "schinese": {
+          "name": "大师挑战完成",
+          "description": "完成战斗训练中的所有大师挑战。"
+        }
+      }
+    },
+    "Hot Streak": {
+      "translations": {
+        "english": {
+          "name": "Hot Streak",
+          "description": "Win 5 games in a row in Ranked Play."
+        },
+        "schinese": {
+          "name": "连胜狂潮",
+          "description": "在排位对战中连胜 5 场。"
+        }
+      }
+    },
+    "Unstoppable": {
+      "translations": {
+        "english": {
+          "name": "Unstoppable",
+          "description": "Win 8 games in a row in Ranked Play."
+        },
+        "schinese": {
+          "name": "势不可挡",
+          "description": "在排位赛中连胜 8 场。"
+        }
+      }
+    },
+    "Legendary": {
+      "translations": {
+        "english": {
+          "name": "Legendary",
+          "description": "Win 10 games in a row in Ranked Play."
+        },
+        "schinese": {
+          "name": "传奇",
+          "description": "在排位赛中连胜 10 场。"
+        }
+      }
+    },
+    "Honorable Victory": {
+      "translations": {
+        "english": {
+          "name": "Honorable Victory",
+          "description": "Win a Ranked Play, Casual Match, or Master Bot game."
+        },
+        "schinese": {
+          "name": "光荣胜利",
+          "description": "在排位赛、休闲赛或大师机器人对局中获胜 1 次。"
+        }
+      }
+    },
+    "10 Honorable Victories": {
+      "translations": {
+        "english": {
+          "name": "10 Honorable Victories",
+          "description": "Win 10 Ranked Play, Casual Match, or Master Bot games."
+        },
+        "schinese": {
+          "name": "10 次光荣胜利",
+          "description": "在排位赛、休闲赛或大师机器人对局中获胜 10 次。"
+        }
+      }
+    },
+    "20 Honorable Victories": {
+      "translations": {
+        "english": {
+          "name": "20 Honorable Victories",
+          "description": "Win 20 Ranked Play, Casual Match, or Master Bot games."
+        },
+        "schinese": {
+          "name": "20 次光荣胜利",
+          "description": "在排位赛、休闲赛或大师机器人对局中获胜 20 次。"
+        }
+      }
+    },
+    "50 Honorable Victories": {
+      "translations": {
+        "english": {
+          "name": "50 Honorable Victories",
+          "description": "Win 50 Ranked Play, Casual Match, or Master Bot games."
+        },
+        "schinese": {
+          "name": "50 次光荣胜利",
+          "description": "在排位赛、休闲赛或大师机器人对局中获胜 50 次。"
+        }
+      }
+    },
+    "100 Honorable Victories": {
+      "translations": {
+        "english": {
+          "name": "100 Honorable Victories",
+          "description": "Win 100 Ranked Play, Casual Match, or Master Bot games."
+        },
+        "schinese": {
+          "name": "100 次光荣胜利",
+          "description": "在排位赛、休闲赛或大师机器人对局中获胜 100 次。"
+        }
+      }
+    },
+    "200 Honorable Victories": {
+      "translations": {
+        "english": {
+          "name": "200 Honorable Victories",
+          "description": "Win 200 Ranked Play, Casual Match, or Master Bot games."
+        },
+        "schinese": {
+          "name": "200 次光荣胜利",
+          "description": "在排位赛、休闲赛或大师机器人对局中获胜 200 次。"
+        }
+      }
+    },
+    "500 Honorable Victories": {
+      "translations": {
+        "english": {
+          "name": "500 Honorable Victories",
+          "description": "Win 500 Ranked Play, Casual Match, or Master Bot games."
+        },
+        "schinese": {
+          "name": "500 次光荣胜利",
+          "description": "在排位赛、休闲赛或大师机器人对局中获胜 500 次。"
+        }
+      }
+    },
+    "1000 Honorable Victories": {
+      "translations": {
+        "english": {
+          "name": "1000 Honorable Victories",
+          "description": "Win 1000 Ranked Play, Casual Match, or Master Bot games."
+        },
+        "schinese": {
+          "name": "1000 次光荣胜利",
+          "description": "在排位赛、休闲赛或大师机器人对局中获胜 1000 次。"
+        }
+      }
+    },
+    "Warning: This One Is Hard": {
+      "translations": {
+        "english": {
+          "name": "Warning: This One Is Hard",
+          "description": "Defeat Master Bot Honorably with a handicap of 5 gold."
+        },
+        "schinese": {
+          "name": "警告：这个有点难",
+          "description": "以让5金币的让子条件，光明正大地击败大师机器人。"
+        }
+      }
+    },
+    "Blitz Wits": {
+      "translations": {
+        "english": {
+          "name": "Blitz Wits",
+          "description": "Defeat Master Bot Honorably with the time control set to 12 seconds per turn or less."
+        },
+        "schinese": {
+          "name": "闪电急智",
+          "description": "在每回合12秒或更短的时间控制下，光明正大地击败大师机器人。"
+        }
+      }
+    },
+    "Bullet Boldness": {
+      "translations": {
+        "english": {
+          "name": "Bullet Boldness",
+          "description": "Win a bullet (6 seconds per turn) game in Ranked Play."
+        },
+        "schinese": {
+          "name": "子弹胆识",
+          "description": "在排位赛中赢下一局子弹棋（每回合6秒）对局。"
+        }
+      }
+    },
+    "The Kappa Challenge": {
+      "translations": {
+        "english": {
+          "name": "The Kappa Challenge",
+          "description": "Win five Honorable Master Bot games with the time control set to 3 seconds per turn or less."
+        },
+        "schinese": {
+          "name": "卡帕挑战",
+          "description": "在每回合3秒或更短的时间控制下，赢下五局光明正大的大师机器人对局。"
+        }
+      }
+    },
+    "Eventful Game": {
+      "translations": {
+        "english": {
+          "name": "Eventful Game",
+          "description": "Win an Event Mode game."
+        },
+        "schinese": {
+          "name": "精彩活动局",
+          "description": "赢下一局活动模式对局。"
+        }
+      }
+    },
+    "You Are Not Alone": {
+      "translations": {
+        "english": {
+          "name": "You Are Not Alone",
+          "description": "Become mutual friends with another player."
+        },
+        "schinese": {
+          "name": "你并不孤单",
+          "description": "与另一名玩家互加好友。"
+        }
+      }
+    },
+    "Friendly Gamer": {
+      "translations": {
+        "english": {
+          "name": "Friendly Gamer",
+          "description": "Finish a friendly game with another player."
+        },
+        "schinese": {
+          "name": "友好玩家",
+          "description": "与另一名玩家完成一局友谊赛。"
+        }
+      }
+    },
+    "Secret Fan": {
+      "translations": {
+        "english": {
+          "name": "Secret Fan",
+          "description": "Follow another player and observe them playing a game."
+        },
+        "schinese": {
+          "name": "秘密粉丝",
+          "description": "关注另一名玩家，并观战其正在进行的对局。"
+        }
+      }
+    },
+    "Super Spectator": {
+      "translations": {
+        "english": {
+          "name": "Super Spectator",
+          "description": "Observe a top live game from the main menu."
+        },
+        "schinese": {
+          "name": "超级观众",
+          "description": "从主菜单观战一场顶尖直播对局。"
+        }
+      }
+    },
+    "Second Look": {
+      "translations": {
+        "english": {
+          "name": "Second Look",
+          "description": "Watch one of your own replays."
+        },
+        "schinese": {
+          "name": "再看一遍",
+          "description": "观看一段你自己的对局回放。"
+        }
+      }
+    },
+    "The Code Is The Key": {
+      "translations": {
+        "english": {
+          "name": "The Code Is The Key",
+          "description": "Watch another player's replay by entering a replay code."
+        },
+        "schinese": {
+          "name": "代码即钥匙",
+          "description": "输入回放代码观看其他玩家的对局回放。"
+        }
+      }
+    },
+    "Flair Up": {
+      "translations": {
+        "english": {
+          "name": "Flair Up",
+          "description": "Equip 3 Badges."
+        },
+        "schinese": {
+          "name": "炫出风采",
+          "description": "装备 3 枚徽章。"
+        }
+      }
+    },
+    "Daily Dose": {
+      "translations": {
+        "english": {
+          "name": "Daily Dose",
+          "description": "Obtain all three Daily Bonuses rewards in one day."
+        },
+        "schinese": {
+          "name": "每日一剂",
+          "description": "在一天内获得全部三项每日奖励。"
+        }
+      }
+    },
+    "Platinum Player": {
+      "translations": {
+        "english": {
+          "name": "Platinum Player",
+          "description": "Start a Platinum Ticket in Ranked Play."
+        },
+        "schinese": {
+          "name": "白金玩家",
+          "description": "在排位赛中开启一张白金券。"
+        }
+      }
+    },
+    "Omnipotence": {
+      "translations": {
+        "english": {
+          "name": "Omnipotence",
+          "description": "Obtain an Omnipower Core."
+        },
+        "schinese": {
+          "name": "无所不能",
+          "description": "获得一枚全能核心。"
+        }
+      }
+    },
+    "Mysterious Card": {
+      "translations": {
+        "english": {
+          "name": "Mysterious Card",
+          "description": "Obtain a certain dark-coloured rectangular object."
+        },
+        "schinese": {
+          "name": "神秘卡片",
+          "description": "获得某件深色的矩形物品。"
+        }
+      }
+    },
+    "Armory Jackpot": {
+      "translations": {
+        "english": {
+          "name": "Armory Jackpot",
+          "description": "Bring a Power Core to the Armory and reveal four red cards in your first five flips."
+        },
+        "schinese": {
+          "name": "军械库头奖",
+          "description": "将一枚能量核心带到军械库，并在前五次翻牌中翻出四张红色卡牌。"
+        }
+      }
+    },
+    "I Want It All": {
+      "translations": {
+        "english": {
+          "name": "I Want It All",
+          "description": "Flip over at least ten cards in a single Armory session."
+        },
+        "schinese": {
+          "name": "我全都要",
+          "description": "在单次军械库翻牌中翻开至少十张卡牌。"
+        }
+      }
+    },
+    "Loonark Pls": {
+      "translations": {
+        "english": {
+          "name": "Loonark Pls",
+          "description": "Have a score of exactly 99 in the Armory after opening a Power Core."
+        },
+        "schinese": {
+          "name": "卢纳克保佑",
+          "description": "开启能量核心后，在军械库中获得恰好 99 分。"
+        }
+      }
+    },
+    "Never Lucky": {
+      "translations": {
+        "english": {
+          "name": "Never Lucky",
+          "description": "Achieve a feat of truly horrible luck."
+        },
+        "schinese": {
+          "name": "从未走运",
+          "description": "达成一项运气烂到极点的壮举。"
+        }
+      }
+    },
+    "Prismatic Power": {
+      "translations": {
+        "english": {
+          "name": "Prismatic Power",
+          "description": "Win a Prismatic reward by uncovering six white keys."
+        },
+        "schinese": {
+          "name": "棱镜之力",
+          "description": "揭开六把白色钥匙，赢得一项棱镜奖励。"
+        }
+      }
+    },
+    "Potent Infusion": {
+      "translations": {
+        "english": {
+          "name": "Potent Infusion",
+          "description": "Upgrade an Emote to level 100."
+        },
+        "schinese": {
+          "name": "强效灌注",
+          "description": "将一个表情升级到100级。"
+        }
+      }
+    },
+    "Architect": {
+      "translations": {
+        "english": {
+          "name": "Architect",
+          "description": "Discover 50 Blueprints."
+        },
+        "schinese": {
+          "name": "建筑师",
+          "description": "发现50张蓝图。"
+        }
+      }
+    },
+    "Check Out These Skins": {
+      "translations": {
+        "english": {
+          "name": "Check Out These Skins",
+          "description": "Collect every skin in a skin collection and view it in the skin browser."
+        },
+        "schinese": {
+          "name": "看看这些皮肤",
+          "description": "收集某个皮肤系列中的全部皮肤，并在皮肤浏览器中查看。"
+        }
+      }
+    },
+    "But... How?": {
+      "translations": {
+        "english": {
+          "name": "But... How?",
+          "description": "Lose to Pacifist Bot."
+        },
+        "schinese": {
+          "name": "但是……怎么可能？",
+          "description": "输给和平主义机器人。"
+        }
+      }
+    },
+    "Dressed For Success": {
+      "translations": {
+        "english": {
+          "name": "Dressed For Success",
+          "description": "Have non-default skins equipped for all Random Set units in a Ranked Play game."
+        },
+        "schinese": {
+          "name": "盛装赴胜",
+          "description": "在一场排位赛中，为随机单位集的所有单位装备非默认皮肤。"
+        }
+      }
+    },
+    "Swift Victory": {
+      "translations": {
+        "english": {
+          "name": "Swift Victory",
+          "description": "Defeat Basic Bot Honorably by destroying all enemy units by turn 10."
+        },
+        "schinese": {
+          "name": "速战速决",
+          "description": "在第10回合前消灭所有敌方单位，光明正大地击败基础机器人。"
+        }
+      }
+    },
+    "Who Needs ABCs": {
+      "translations": {
+        "english": {
+          "name": "Who Needs ABCs",
+          "description": "Defeat Master Bot Honorably without ever buying an Animus, Blastforge, or Conduit."
+        },
+        "schinese": {
+          "name": "谁还需要ABC",
+          "description": "在不购买阿尼姆斯、爆裂锻炉或导能体的情况下，光明正大地击败大师机器人。"
+        }
+      }
+    },
+    "Trick Shot": {
+      "translations": {
+        "english": {
+          "name": "Trick Shot",
+          "description": "Snipe a Gauss Cannon with Apollo."
+        },
+        "schinese": {
+          "name": "神狙",
+          "description": "用阿波罗狙击一门高斯加农炮。"
+        }
+      }
+    },
+    "Snowstorm": {
+      "translations": {
+        "english": {
+          "name": "Snowstorm",
+          "description": "Freeze 20 or more health worth of units in one turn."
+        },
+        "schinese": {
+          "name": "暴风雪",
+          "description": "在一回合内冻结总生命值达20或以上的单位。"
+        }
+      }
+    },
+    "Executioner": {
+      "translations": {
+        "english": {
+          "name": "Executioner",
+          "description": "Win a Ranked Play game in which you dealt at least 150 total damage."
+        },
+        "schinese": {
+          "name": "处刑人",
+          "description": "在一局排位赛中获得胜利，且总共造成至少150点伤害。"
+        }
+      }
+    },
+    "But There Are Only Ten": {
+      "translations": {
+        "english": {
+          "name": "But There Are Only Ten",
+          "description": "Attack with at least 20 Gauss Cannons on one turn."
+        },
+        "schinese": {
+          "name": "可是只有十个啊",
+          "description": "在同一回合以至少20门高斯炮发起攻击。"
+        }
+      }
+    },
+    "So Much Defense": {
+      "translations": {
+        "english": {
+          "name": "So Much Defense",
+          "description": "Block with at least 60 health worth of units on one turn."
+        },
+        "schinese": {
+          "name": "固若金汤",
+          "description": "在同一回合用总生命值至少60的单位进行格挡。"
+        }
+      }
+    },
+    "Superior Army Composition": {
+      "translations": {
+        "english": {
+          "name": "Superior Army Composition",
+          "description": "Control 20 different units on one turn."
+        },
+        "schinese": {
+          "name": "兵种构成占优",
+          "description": "在同一回合控制20种不同的单位。"
+        }
+      }
+    },
+    "Become Legendary": {
+      "translations": {
+        "english": {
+          "name": "Become Legendary",
+          "description": "Build three 1-supply units on the same turn."
+        },
+        "schinese": {
+          "name": "成为传奇",
+          "description": "在同一回合建造三个供应量为1的单位。"
+        }
+      }
+    },
+    "Maximum Amporilla": {
+      "translations": {
+        "english": {
+          "name": "Maximum Amporilla",
+          "description": "Attack with at least four Amporillas and ten Tarsiers on one turn."
+        },
+        "schinese": {
+          "name": "安波猩猩火力全开",
+          "description": "在同一回合以至少4只安波猩猩和10只眼镜猴发起攻击。"
+        }
+      }
+    },
+    "Laser Show": {
+      "translations": {
+        "english": {
+          "name": "Laser Show",
+          "description": "Deal 25 or more damage with an Antima Comet in one turn."
+        },
+        "schinese": {
+          "name": "激光秀",
+          "description": "让1颗反物质彗星在单回合内造成25点或更多伤害。"
+        }
+      }
+    },
+    "Rhino Perfection": {
+      "translations": {
+        "english": {
+          "name": "Rhino Perfection",
+          "description": "Deal 20 damage with Rhinos in one game."
+        },
+        "schinese": {
+          "name": "完美犀牛",
+          "description": "在单局对战中用犀牛造成20点伤害。"
+        }
+      }
+    },
+    "The Bone Drone Zone": {
+      "translations": {
+        "english": {
+          "name": "The Bone Drone Zone",
+          "description": "Create at least 20 Ossified Drones in one game."
+        },
+        "schinese": {
+          "name": "骨化无人机专区",
+          "description": "在单局对战中制造至少20架骨化无人机。"
+        }
+      }
+    },
+    "Deadeye Ranger": {
+      "translations": {
+        "english": {
+          "name": "Deadeye Ranger",
+          "description": "Snipe 10 or more Drones using Deadeye Operatives in one game."
+        },
+        "schinese": {
+          "name": "死眼游侠",
+          "description": "在单局对战中用死眼特工狙杀至少10架无人机。"
+        }
+      }
+    },
+    "Close Call": {
+      "translations": {
+        "english": {
+          "name": "Close Call",
+          "description": "Win a Ranked Play game with 20 or less health worth of units remaining."
+        },
+        "schinese": {
+          "name": "千钧一发",
+          "description": "在排位赛对局中获胜，且剩余单位的生命值总和不超过20点。"
+        }
+      }
+    },
+    "Comeback King": {
+      "translations": {
+        "english": {
+          "name": "Comeback King",
+          "description": "Defeat Adept Bot Honorably without clicking any Drones on your first turn."
+        },
+        "schinese": {
+          "name": "逆转之王",
+          "description": "在第一回合不点击任何无人机的情况下，光荣地击败精英机器人。"
+        }
+      }
+    },
+    "Rush Master": {
+      "translations": {
+        "english": {
+          "name": "Rush Master",
+          "description": "Defeat Master Bot Honorably by purchasing an Animus or Blastforge on your first turn."
+        },
+        "schinese": {
+          "name": "速攻大师",
+          "description": "在第一回合购买阿尼姆斯或爆裂熔炉的情况下，光荣地击败大师机器人。"
+        }
+      }
+    },
+    "Dragon Sisters": {
+      "translations": {
+        "english": {
+          "name": "Dragon Sisters",
+          "description": "Click Tia Thurnax and Vai Mauronax on the same turn."
+        },
+        "schinese": {
+          "name": "龙之姐妹",
+          "description": "在同一回合点击蒂娅·瑟纳克斯和瓦伊·莫罗纳克斯。"
+        }
+      }
+    },
+    "Millionaire": {
+      "translations": {
+        "english": {
+          "name": "Millionaire",
+          "description": "Produce one million Gold in Honorable games."
+        },
+        "schinese": {
+          "name": "百万富翁",
+          "description": "在光荣对局中累计生产一百万黄金。"
+        }
+      }
+    },
+    "Century Club": {
+      "translations": {
+        "english": {
+          "name": "Century Club",
+          "description": "Buy 100 Centurions."
+        },
+        "schinese": {
+          "name": "百夫俱乐部",
+          "description": "购买100个百夫长。"
+        }
+      }
+    },
+    "Tank Commander": {
+      "translations": {
+        "english": {
+          "name": "Tank Commander",
+          "description": "Buy 200 Chieftains."
+        },
+        "schinese": {
+          "name": "坦克指挥官",
+          "description": "购买200个酋长。"
+        }
+      }
+    },
+    "Cerberus Lord": {
+      "translations": {
+        "english": {
+          "name": "Cerberus Lord",
+          "description": "Buy 500 Hellhounds."
+        },
+        "schinese": {
+          "name": "刻耳柏洛斯之主",
+          "description": "购买500只地狱犬。"
+        }
+      }
+    },
+    "Doomed Economy": {
+      "translations": {
+        "english": {
+          "name": "Doomed Economy",
+          "description": "Buy 1000 Doomed Drones."
+        },
+        "schinese": {
+          "name": "末日经济",
+          "description": "购买1000架末日无人机。"
+        }
+      }
+    },
+    "Bringer of the Void": {
+      "translations": {
+        "english": {
+          "name": "Bringer of the Void",
+          "description": "Click Zemora Voidbringer 333 times."
+        },
+        "schinese": {
+          "name": "虚空使者",
+          "description": "点击泽莫拉·虚空使者333次。"
+        }
+      }
+    },
+    "New Contender": {
+      "translations": {
+        "english": {
+          "name": "New Contender",
+          "description": "Unlock Ranked Play."
+        },
+        "schinese": {
+          "name": "新晋挑战者",
+          "description": "解锁排位赛。"
+        }
+      }
+    },
+    "Neophyte": {
+      "translations": {
+        "english": {
+          "name": "Neophyte",
+          "description": "Reach Tier II in Ranked Play."
+        },
+        "schinese": {
+          "name": "新手",
+          "description": "在排位赛中达到 II 级。"
+        }
+      }
+    },
+    "Cadet": {
+      "translations": {
+        "english": {
+          "name": "Cadet",
+          "description": "Reach Tier III in Ranked Play."
+        },
+        "schinese": {
+          "name": "学员",
+          "description": "在排位赛中达到 III 级。"
+        }
+      }
+    },
+    "Apprentice": {
+      "translations": {
+        "english": {
+          "name": "Apprentice",
+          "description": "Reach Tier IV in Ranked Play."
+        },
+        "schinese": {
+          "name": "学徒",
+          "description": "在排位赛中达到 IV 级。"
+        }
+      }
+    },
+    "Swarm Shepherd": {
+      "translations": {
+        "english": {
+          "name": "Swarm Shepherd",
+          "description": "Reach Tier V in Ranked Play."
+        },
+        "schinese": {
+          "name": "虫群牧者",
+          "description": "在排位赛中达到 V 级。"
+        }
+      }
+    },
+    "Guardian": {
+      "translations": {
+        "english": {
+          "name": "Guardian",
+          "description": "Reach Tier VI in Ranked Play."
+        },
+        "schinese": {
+          "name": "守护者",
+          "description": "在排位赛中达到 VI 级。"
+        }
+      }
+    },
+    "Swarmwielder": {
+      "translations": {
+        "english": {
+          "name": "Swarmwielder",
+          "description": "Reach Tier VII in Ranked Play."
+        },
+        "schinese": {
+          "name": "驭虫者",
+          "description": "在排位赛中达到 VII 级。"
+        }
+      }
+    },
+    "Officer": {
+      "translations": {
+        "english": {
+          "name": "Officer",
+          "description": "Reach Tier VIII in Ranked Play."
+        },
+        "schinese": {
+          "name": "军官",
+          "description": "在排位赛中达到 VIII 级。"
+        }
+      }
+    },
+    "Captain of the Swarm": {
+      "translations": {
+        "english": {
+          "name": "Captain of the Swarm",
+          "description": "Reach Tier IX in Ranked Play."
+        },
+        "schinese": {
+          "name": "虫群统领",
+          "description": "在排位赛中达到 IX 级。"
+        }
+      }
+    },
+    "Prismata Master": {
+      "translations": {
+        "english": {
+          "name": "Prismata Master",
+          "description": "Achieve the title of Master in Ranked Play."
+        },
+        "schinese": {
+          "name": "Prismata 大师",
+          "description": "在排位赛中赢得大师称号。"
+        }
+      }
+    },
+    "Fully Synced": {
+      "translations": {
+        "english": {
+          "name": "Fully Synced",
+          "description": "Attack with 10 Iso Kronuses on the same turn."
+        },
+        "schinese": {
+          "name": "完全同步",
+          "description": "在同一回合用10个同位克罗诺斯发起攻击。"
+        }
+      }
+    },
+    "Stream In My Sights": {
+      "translations": {
+        "english": {
+          "name": "Stream In My Sights",
+          "description": "View a live Twitch stream from within Prismata."
+        },
+        "schinese": {
+          "name": "直播尽收眼底",
+          "description": "在Prismata游戏内观看Twitch直播。"
+        }
+      }
+    },
+    "Exact Vengeance": {
+      "translations": {
+        "english": {
+          "name": "Exact Vengeance",
+          "description": "Build at least 6 Venge Cannons on the same turn."
+        },
+        "schinese": {
+          "name": "大仇得报",
+          "description": "在同一回合建造至少6座复仇加农炮。"
+        }
+      }
+    },
+    "Defender": {
+      "translations": {
+        "english": {
+          "name": "Defender",
+          "description": "Buy 50 Walls."
+        },
+        "schinese": {
+          "name": "防御者",
+          "description": "购买50面墙。"
+        }
+      }
+    },
+    "Gaussite Tycoon": {
+      "translations": {
+        "english": {
+          "name": "Gaussite Tycoon",
+          "description": "Produce 10,000 Gaussite in Honorable games."
+        },
+        "schinese": {
+          "name": "高斯矿大亨",
+          "description": "在荣誉模式对局中生产10,000点高斯矿。"
+        }
+      }
+    },
+    "Metallurgist": {
+      "translations": {
+        "english": {
+          "name": "Metallurgist",
+          "description": "Produce 10,000 Behemium in Honorable games."
+        },
+        "schinese": {
+          "name": "冶金师",
+          "description": "在荣誉模式对局中生产10,000点贝希姆矿。"
+        }
+      }
+    },
+    "Minister of Energy": {
+      "translations": {
+        "english": {
+          "name": "Minister of Energy",
+          "description": "Produce 25,000 Energy in Honorable games."
+        },
+        "schinese": {
+          "name": "能源部长",
+          "description": "在荣誉模式对局中生产25,000点能量。"
+        }
+      }
+    },
+    "Biotechnologist": {
+      "translations": {
+        "english": {
+          "name": "Biotechnologist",
+          "description": "Produce 10,000 Replicase in Honorable games."
+        },
+        "schinese": {
+          "name": "生物科技专家",
+          "description": "在荣誉模式对局中生产10,000点复制酶。"
+        }
+      }
+    },
+    "Crank It Up To 11": {
+      "translations": {
+        "english": {
+          "name": "Crank It Up To 11",
+          "description": "Win a Ranked Play game that features 11 random units."
+        },
+        "schinese": {
+          "name": "把旋钮拧到11",
+          "description": "赢得一局包含11个随机单位的排位赛。"
+        }
+      }
+    },
+    "Third Possible Outcome": {
+      "translations": {
+        "english": {
+          "name": "Third Possible Outcome",
+          "description": "Achieve a drawn game in Ranked Play mode."
+        },
+        "schinese": {
+          "name": "第三种结果",
+          "description": "在排位赛模式中达成一局平局。"
+        }
+      }
+    },
+    "Ampo Shmampo": {
+      "translations": {
+        "english": {
+          "name": "Ampo Shmampo",
+          "description": "Clear the Amporilla Challenge mission in Combat Training without buying an Amporilla."
+        },
+        "schinese": {
+          "name": "安波算什么",
+          "description": "在战斗训练中通关“安波金刚挑战”任务，且不购买任何安波金刚。"
+        }
+      }
+    },
+    "But Fear Itself": {
+      "translations": {
+        "english": {
+          "name": "But Fear Itself",
+          "description": "Defeat Fearless Bot Honorably without attacking before Turn 10."
+        },
+        "schinese": {
+          "name": "唯有恐惧本身",
+          "description": "光荣地击败无畏机器人，且在第10回合之前不发动攻击。"
+        }
+      }
+    },
+    "Crush Those Casuals": {
+      "translations": {
+        "english": {
+          "name": "Crush Those Casuals",
+          "description": "Win 25 Casual Match games."
+        },
+        "schinese": {
+          "name": "吊打休闲玩家",
+          "description": "在休闲对战中赢得25场胜利。"
+        }
+      }
+    },
+    "Final Countdown": {
+      "translations": {
+        "english": {
+          "name": "Final Countdown",
+          "description": "Clear the Countdown mission in Combat Training without losing any Drones or building a Wall."
+        },
+        "schinese": {
+          "name": "最终倒计时",
+          "description": "在战斗训练中通关“倒计时”任务，且不损失任何无人机，也不建造任何墙。"
+        }
+      }
+    },
+    "Quick Dispatch": {
+      "translations": {
+        "english": {
+          "name": "Quick Dispatch",
+          "description": "Clear the second phase of the Squarewave mission in at most 9 turns."
+        },
+        "schinese": {
+          "name": "快速派遣",
+          "description": "在至多9回合内完成“方波”任务的第二阶段。"
+        }
+      }
+    },
+    "No Time To Waste": {
+      "translations": {
+        "english": {
+          "name": "No Time To Waste",
+          "description": "In The Solar Fields mission, breach the enemy defenses by the end of turn 9."
+        },
+        "schinese": {
+          "name": "时不我待",
+          "description": "在“太阳原野”任务中，于第9回合结束前突破敌方防线。"
+        }
+      }
+    },
+    "Optimal Blocking": {
+      "translations": {
+        "english": {
+          "name": "Optimal Blocking",
+          "description": "Complete the Scrap and Scrutiny mission without losing any Hellhounds."
+        },
+        "schinese": {
+          "name": "最优格挡",
+          "description": "完成“拆解与审视”任务，且不损失任何地狱犬。"
+        }
+      }
+    },
+    "Concept Pack Complete": {
+      "translations": {
+        "english": {
+          "name": "Concept Pack Complete",
+          "description": "Complete every challenge in the Concept Pack in Combat Training."
+        },
+        "schinese": {
+          "name": "概念包全清",
+          "description": "在战斗训练中完成“概念包”中的所有挑战。"
+        }
+      }
+    },
+    "Pacifist": {
+      "translations": {
+        "english": {
+          "name": "Shouldn't Have Done That",
+          "description": "Get punished for your empathy."
+        },
+        "schinese": {
+          "name": "不该那么做",
+          "description": "因你的恻隐之心而受到惩罚。"
+        }
+      }
+    },
+    "Botstreak": {
+      "translations": {
+        "english": {
+          "name": "Master Monster",
+          "description": "Win 5 Honourable games in a row against Master Bot."
+        },
+        "schinese": {
+          "name": "大师克星",
+          "description": "连续5场光荣地击败大师机器人。"
+        }
+      }
+    },
+    "They Didn't Stand a Chance": {
+      "translations": {
+        "english": {
+          "name": "They Didn't Stand a Chance",
+          "description": "In the Tandem mission, defeat the entire final wave of enemies in a single turn."
+        },
+        "schinese": {
+          "name": "他们毫无胜算",
+          "description": "在“协力”任务中，于单个回合内击败最后一波的全部敌人。"
+        }
+      }
+    },
+    "Defense Budget Savings": {
+      "translations": {
+        "english": {
+          "name": "Defense Budget Savings",
+          "description": "In the Five-Cycle mission, destroy the enemy Overheat Ray before it fires three times."
+        },
+        "schinese": {
+          "name": "省下的军费",
+          "description": "在“五循环”任务中，在敌方“过热射线”开火三次之前将其摧毁。"
+        }
+      }
+    },
+    "But I Survived": {
+      "translations": {
+        "english": {
+          "name": "But I Survived",
+          "description": "Use a meat shield to deal with your problems."
+        },
+        "schinese": {
+          "name": "但我活下来了",
+          "description": "用肉盾来解决你的麻烦。"
+        }
+      }
+    },
+    "No Thanks": {
+      "translations": {
+        "english": {
+          "name": "No Thanks",
+          "description": "Decline a free gift."
+        },
+        "schinese": {
+          "name": "不用了，谢谢",
+          "description": "拒绝一份免费赠礼。"
+        }
+      }
+    }
+  }
+}
