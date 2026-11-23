@@ -41,6 +41,8 @@ jobs:
           contains(github.event.issue.labels.*.name, '翻译投稿') ||
           contains(github.event.issue.labels.*.name, '更新文件') ||
           contains(github.event.issue.labels.*.name, '报告错误') ||
+          contains(github.event.issue.body, '### 翻译 JSON 或 schema ZIP') ||
+          contains(github.event.issue.body, '### Translation JSON or schema ZIP') ||
           contains(github.event.issue.body, '### 成就 schema ZIP') ||
           contains(github.event.issue.body, '### Uploaded achievement schema ZIP') ||
           contains(github.event.issue.body, '### 错误类型') ||
@@ -211,6 +213,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python workflow-scripts/translation_petition_bot.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN"
+
+      - name: Upload public achievement JSON draft
+        uses: actions/upload-artifact@v4
+        with:
+          name: petition-json
+          path: ${{ runner.temp }}/petition-json/*.json
+          if-no-files-found: ignore
+          retention-days: 30
 
   pr-review-requested-changes:
     if: ${{ github.event_name == 'pull_request_review' && github.event.review.state == 'changes_requested' && github.event.pull_request.base.ref == 'main' && startsWith(github.event.pull_request.head.ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}

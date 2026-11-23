@@ -72,7 +72,7 @@ def parse_update_command(body: str) -> tuple[str, str, str]:
 def extract_attachment_markdown(body: str) -> str:
     matches = list(ATTACHMENT_RE.finditer(body))
     if len(matches) != 1:
-        raise ValueError("`/update doc` 需要在同一条评论中附加一个 `UserGameStatsSchema_<app_id>.zip`。")
+        raise ValueError("`/update doc` 需要在同一条评论中附加一个 `UserGameStatsSchema_<app_id>.json` 或 `.zip`。")
     match = matches[0]
     label = (match.group(1) or "UserGameStatsSchema_<app_id>.zip").strip()
     url = match.group(2) or match.group("url")
@@ -146,7 +146,7 @@ def update_error_comment(message: str) -> str:
         "`/update` 未通过检查，issue 描述未更新。",
         "",
         f"- 错误：{escape_table(message)}",
-        "- 用法：`/update <类型> <参数>`。替换文件时使用 `/update doc`，并在同一条评论中附加 ZIP。",
+        "- 用法：`/update <类型> <参数>`。替换文件时使用 `/update doc`，并在同一条评论中附加 JSON 或 ZIP。",
         "- 商店地址由 App ID 生成，语言列表由上传的 schema 自动识别。",
         f"- {UPDATE_HELP}",
     ])
