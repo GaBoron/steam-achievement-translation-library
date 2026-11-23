@@ -7,6 +7,7 @@ import re
 from pathlib import PurePosixPath
 from typing import Any
 
+from translation_artifacts import load_artifact, artifact_rows, validate_artifact
 from library_index import (
     entry_contributors,
     escape_table,
@@ -14,7 +15,7 @@ from library_index import (
     schema_file_size_label,
     validated_entry_schema_variants,
 )
-from steam_schema import achievement_rows, load_schema, require_language_coverage, validate_schema_structure
+from steam_schema import require_language_coverage
 
 
 UPDATE_LABEL = "更新文件"
@@ -87,10 +88,13 @@ def build_schema_variants_section(entry: dict[str, Any]) -> str:
         schema_file = str(variant.get("schema_file") or "")
         json_file = str(PurePosixPath(schema_file).with_suffix(".json"))
         review_file = str(PurePosixPath(schema_file).with_name("achievements.md"))
+        files = f"[json]({json_file}) · [review]({review_file})"
+        if schema_file.endswith(".bin"):
+            files = f"[bin]({schema_file}) · " + files
         lines.append(
             f"| `{variant.get('variant_id', '')}` | {escape_table(', '.join(variant.get('languages') or []))} | "
             f"{variant.get('achievement_count', '')} | {size} | `{variant.get('sha256', '')}` | "
-            f"[bin]({schema_file}) · [json]({json_file}) · [review]({review_file}) |"
+            f"{files} |"
         )
     lines.extend(["", schema_variants_marker(variants)])
     return "\n".join(lines)
@@ -103,10 +107,10 @@ def variant_achievement_rows(
     rows_by_variant: dict[str, list[dict[str, str]]] = {}
     for variant in validated_entry_schema_variants(entry):
         schema_file = str(variant["schema_file"])
-        data, nodes = load_schema(repository_path(schema_file))
-        validate_schema_structure(data, nodes)
+        data, nodes = load_artifact(repository_path(schema_file))
+        validate_artifact(data, nodes)
         variant_languages = [str(value) for value in variant.get("languages") or languages]
-        rows = achievement_rows(nodes, variant_languages)
+        rows = artifact_rows(nodes, variant_languages)
         require_language_coverage(rows, variant_languages)
         rows_by_variant[str(variant["variant_id"])] = rows
     return rows_by_variant
