@@ -29,13 +29,16 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-## Bundled Font
+## Bundled Fonts
 
-`workflow-scripts/assets/ZCOOLKuaiLe-Subset.ttf` is a subset of [ZCOOL KuaiLe](https://github.com/google/fonts/tree/main/ofl/zcoolkuaile), copyright 2018 The ZCOOL KuaiLe Project Authors. It is distributed under the SIL Open Font License, Version 1.1, rather than the MIT License above. The complete font license is included at `workflow-scripts/assets/ZCOOLKuaiLe-OFL.txt`.
+- [`workflow-scripts/assets/ZCOOLKuaiLe-Subset.ttf`](workflow-scripts/assets/ZCOOLKuaiLe-Subset.ttf) is a subset of [ZCOOL KuaiLe](https://github.com/google/fonts/tree/main/ofl/zcoolkuaile), copyright 2018 The ZCOOL KuaiLe Project Authors. Its complete copyright and SIL Open Font License, Version 1.1 are included in [ZCOOLKuaiLe-OFL.txt](workflow-scripts/assets/ZCOOLKuaiLe-OFL.txt).
+- [`web/fonts/Inter-roman.var.woff2`](web/fonts/Inter-roman.var.woff2) is bundled from [Inter 3.19](https://github.com/rsms/inter/tree/v3.19), copyright 2016–2020 The Inter Project Authors. “Inter” is a trademark of Rasmus Andersson. Its complete notice and SIL Open Font License, Version 1.1 are included in [web/fonts/LICENSE.txt](web/fonts/LICENSE.txt).
+
+These font assets use their accompanying SIL OFL terms rather than the MIT License above. Retain their notices and license texts when redistributing the fonts.
 
 ## Translation Data
 
-Contributor-owned translation portions are made available under the Creative Commons Attribution 4.0 International License (CC BY 4.0), to the extent the contributor has the right to license those portions.
+Contributor-owned translation portions are made available under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/), to the extent the contributor has the right to license those portions.
 
 By submitting a translation file to this repository, contributors grant this repository permission to display, index, store, distribute, and maintain the submitted file for community localization purposes.
 

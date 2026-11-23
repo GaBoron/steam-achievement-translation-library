@@ -1,0 +1,918 @@
+{
+  "version": 1,
+  "app_id": "63500",
+  "variant_id": "default",
+  "source_sha256": "a0d3f098a4c61ca7c6060fb4c1a8b248e1a8eb05fa9a286b5b9d15fda33fefde",
+  "languages": [
+    "dutch",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "Achievement_BoulderKillsCastle": {
+      "translations": {
+        "dutch": {
+          "name": "Hi ha hunebed",
+          "description": "Verniel de vijandelijke basis met een rotsblok."
+        },
+        "english": {
+          "name": "RickRolled",
+          "description": "Destroy the enemy castle with a boulder."
+        },
+        "french": {
+          "name": "Roc fort",
+          "description": "Détruis la base ennemie avec un rocher."
+        },
+        "german": {
+          "name": "RickRolled",
+          "description": "Zerschmettere ein gegnerisches Lager mit einem Felsbrocken."
+        },
+        "italian": {
+          "name": "Caterpillar",
+          "description": "Distruggi il castello nemico con un masso."
+        },
+        "russian": {
+          "name": "Насмешка богов",
+          "description": "Разрушьте вражеский замок при помощи булыжника."
+        },
+        "schinese": {
+          "name": "瑞克摇",
+          "description": "用巨石摧毁敌方城堡。"
+        },
+        "spanish": {
+          "name": "Rodando voy",
+          "description": "Destruye el castillo enemigo con una roca."
+        }
+      }
+    },
+    "Achievement_CompleteViking": {
+      "translations": {
+        "dutch": {
+          "name": "Geboren carnivoor",
+          "description": "Voltooi de krijgstocht van de Vikingen."
+        },
+        "english": {
+          "name": "Cooking by the Book",
+          "description": "Complete the Viking campaign."
+        },
+        "french": {
+          "name": "Envoyez la sauce !",
+          "description": "Termine la campagne des Vikings."
+        },
+        "german": {
+          "name": "Kochen mit Knochen",
+          "description": "Schaffe den Wikingerfeldzug"
+        },
+        "italian": {
+          "name": "Tutto secondo i piani",
+          "description": "Completa la campagna dei Vichinghi."
+        },
+        "russian": {
+          "name": "Кулинарная книга",
+          "description": "Завершите кампанию за викингов."
+        },
+        "schinese": {
+          "name": "照谱烹饪",
+          "description": "完成维京战役。"
+        },
+        "spanish": {
+          "name": "Barbacoa hacia el cielo",
+          "description": "Completa la campaña vikinga."
+        }
+      }
+    },
+    "Achievement_CompleteAztec": {
+      "translations": {
+        "dutch": {
+          "name": "Konijnenvoer",
+          "description": "Voltooi de krijgstocht van de Azteken."
+        },
+        "english": {
+          "name": "V for Veggies",
+          "description": "Complete the Aztec campaign."
+        },
+        "french": {
+          "name": "Règne végétal",
+          "description": "Termine la campagne des Aztèques."
+        },
+        "german": {
+          "name": "V wie Vegetarisch",
+          "description": "Schaffe den Aztekenfeldzug."
+        },
+        "italian": {
+          "name": "V come Verdura",
+          "description": "Completa la campagna degli Aztechi."
+        },
+        "russian": {
+          "name": "В значит 'Веган'",
+          "description": "Завершите кампанию за ацтеков."
+        },
+        "schinese": {
+          "name": "V字蔬菜队",
+          "description": "完成阿兹特克战役。"
+        },
+        "spanish": {
+          "name": "V de vegetales",
+          "description": "Completa la campaña azteca."
+        }
+      }
+    },
+    "Achievement_CompleteAsian": {
+      "translations": {
+        "dutch": {
+          "name": "Ik heb de zwarte band!",
+          "description": "Voltooi de krijgstocht van de Chinezen."
+        },
+        "english": {
+          "name": "I'm No Kung, Fool!",
+          "description": "Complete the Chinese campaign."
+        },
+        "french": {
+          "name": "Chinoiseries",
+          "description": "Termine la campagne des Chinois."
+        },
+        "german": {
+          "name": "Pass auf, ich kann Mikado!",
+          "description": "Schaffe den Chinesenfeldzug."
+        },
+        "italian": {
+          "name": "Non faccio il kung-furbo!",
+          "description": "Completa la campagna dell'Impero cinese."
+        },
+        "russian": {
+          "name": "Кунг-Фунтик",
+          "description": "Завершите кампанию за китайцев."
+        },
+        "schinese": {
+          "name": "我可不是功夫蠢货！",
+          "description": "完成中国战役。"
+        },
+        "spanish": {
+          "name": "¡Qué kunfusión!",
+          "description": "Completa la campaña china."
+        }
+      }
+    },
+    "Achievement_RageKillsTowerUnderConstruction": {
+      "translations": {
+        "dutch": {
+          "name": "Raggende mannen",
+          "description": "Vernietig een toren in aanbouw met razernij."
+        },
+        "english": {
+          "name": "Uncontrolled Demolition",
+          "description": "Destroy a tower under construction with Rage."
+        },
+        "french": {
+          "name": "Au quart de tour",
+          "description": "Détruis une tour en cours de construction avec la compétence Furie."
+        },
+        "german": {
+          "name": "Abrisskommando",
+          "description": "Zerstöre im Kampfrausch einen Turm in der Bauphase."
+        },
+        "italian": {
+          "name": "Demolizione incontrollata",
+          "description": "Distruggi una torre in costruzione utilizzando l'incantesimo Furia."
+        },
+        "russian": {
+          "name": "Неконтролируемый взрыв",
+          "description": "Уничтожьте строящуюся башню при помощи ярости."
+        },
+        "schinese": {
+          "name": "失控拆迁",
+          "description": "用狂暴摧毁一座建造中的塔楼。"
+        },
+        "spanish": {
+          "name": "Derribo descontrolado",
+          "description": "Destruye la torre en construcción con furia."
+        }
+      }
+    },
+    "Achievement_BoulderNoDamage": {
+      "translations": {
+        "dutch": {
+          "name": "Olifant in porseleinkast",
+          "description": "Gooi een rotsblok zonder iemand te raken."
+        },
+        "english": {
+          "name": "Bull in a China shop",
+          "description": "Cast a boulder that does not damage a single unit."
+        },
+        "french": {
+          "name": "Roulé-boulé-raté",
+          "description": "Lance un rocher sans qu'il touche la moindre unité."
+        },
+        "german": {
+          "name": "Elefant im Porzellanladen",
+          "description": "Schleudere einen Felsen, der keiner einzigen Einheit Schaden zufügt. "
+        },
+        "italian": {
+          "name": "Elefante tra le Porcellane",
+          "description": "Lancia un masso e fai in modo che non danneggi nessuna unità."
+        },
+        "russian": {
+          "name": "Слон в посудной лавке",
+          "description": "Вызванный вами булыжник не причинит вреда ни одному воину."
+        },
+        "schinese": {
+          "name": "瓷器店里的公牛",
+          "description": "施放一颗未伤害任何单位的巨石。"
+        },
+        "spanish": {
+          "name": "Toro en una tienda china",
+          "description": "Lanza una roca y no daña ni una sola unidad."
+        }
+      }
+    },
+    "Achievement_UnitKillsMany": {
+      "translations": {
+        "dutch": {
+          "name": "Menhirdrager",
+          "description": "Versla 36 soldaten met 1 soldaat."
+        },
+        "english": {
+          "name": "Son of Norris",
+          "description": "Kill 36 units with a single unit."
+        },
+        "french": {
+          "name": "Fils de Chuck",
+          "description": "Tue 36 ennemis avec la même unité."
+        },
+        "german": {
+          "name": "Sohn von Norris",
+          "description": "Töte 36 Gegner mit einer einzigen Einheit."
+        },
+        "italian": {
+          "name": "Discepolo di Norris",
+          "description": "Elimina 36 unità nemiche con una sola unità."
+        },
+        "russian": {
+          "name": "Норрис-младший",
+          "description": "Убейте 36 врагов одним воином."
+        },
+        "schinese": {
+          "name": "诺里斯之子",
+          "description": "用单个单位击杀36个单位。"
+        },
+        "spanish": {
+          "name": "¡Hijo de Chuck!",
+          "description": "Mata a 36 unidades con una sola unidad."
+        }
+      }
+    },
+    "Achievement_BerserkerRunDistance": {
+      "translations": {
+        "dutch": {
+          "name": "Wad een loop!",
+          "description": "Haal het einde van de stormloop."
+        },
+        "english": {
+          "name": "Techno Viking Dances Away",
+          "description": "Reach the maximum distance in a Berserker Run game."
+        },
+        "french": {
+          "name": "Sauvé !",
+          "description": "Atteins la distance maximale dans le défi Sauve qui peut."
+        },
+        "german": {
+          "name": "Lauf, Forrest, lauf!",
+          "description": "Schaffe im Berserkermodus die maximale Distanz."
+        },
+        "italian": {
+          "name": "Là, dove mai prima!",
+          "description": "Percorri la massima distanza nella Prova del berserker"
+        },
+        "russian": {
+          "name": "Викинг-марафонец",
+          "description": "Пробегите максимальное расстояние в режиме забега берсерков."
+        },
+        "schinese": {
+          "name": "铁克诺维京舞步远去",
+          "description": "在狂战士狂奔模式中达到最大距离。"
+        },
+        "spanish": {
+          "name": "Huida del frikivikingo",
+          "description": "Alcanza la mayor distancia posible en una partida de ¡Enloquecido!"
+        }
+      }
+    },
+    "Achievement_SurvivalModeLong": {
+      "translations": {
+        "dutch": {
+          "name": "Als een dijk",
+          "description": "Overleef meer dan 30 minuten in Overleven."
+        },
+        "english": {
+          "name": "At First I Was Afraid",
+          "description": "Survive over 30 minutes in a Castle Defense game."
+        },
+        "french": {
+          "name": "Je te survivrai",
+          "description": "Reste en jeu plus de 30 minutes dans le défi Survie."
+        },
+        "german": {
+          "name": "Du kommst hier net rein!",
+          "description": "Überstehe mindestens eine halbe Stunde im Durchhaltemodus."
+        },
+        "italian": {
+          "name": "Aspra resistenza",
+          "description": "Resisti per oltre 30 minuti nella sfida Sopravvivenza."
+        },
+        "russian": {
+          "name": "Поначалу было страшно",
+          "description": "Продержитесь как минимум 30 минут в режиме не выживание."
+        },
+        "schinese": {
+          "name": "起初我很害怕",
+          "description": "在城堡防御模式中存活超过30分钟。"
+        },
+        "spanish": {
+          "name": "Al principio tenía miedo",
+          "description": "Sobrevive más de 30 minutos en una partida de Castillo de defensa."
+        }
+      }
+    },
+    "Achievement_BoulderModePerfect": {
+      "translations": {
+        "dutch": {
+          "name": "Klootschieten",
+          "description": "Raak alle Vikingen in Rotsblokrollen zonder een eigen soldaat te raken"
+        },
+        "english": {
+          "name": "King of the Stone Age",
+          "description": "Kill all Vikings in a Boulder Mode game without killing any of your own."
+        },
+        "french": {
+          "name": "Bien roulé",
+          "description": "Dans le défi Roc'n'roll, écrase tous les Vikings sans toucher tes unités."
+        },
+        "german": {
+          "name": "König der Steinzeit",
+          "description": "Töte alle Wikinger im Felsbrockenmodus ohne eigene Verluste."
+        },
+        "italian": {
+          "name": "Re dell'età della pietra",
+          "description": "Elimina tutti i Vichinghi in una partita in modalità Macigno senza toccare le tue unità."
+        },
+        "russian": {
+          "name": "Царь горы",
+          "description": "Уничтожьте всех викингов в режиме булыжника, не убив никого из своих."
+        },
+        "schinese": {
+          "name": "石器时代之王",
+          "description": "在巨石模式中击杀所有维京人，且不误杀任何己方单位。"
+        },
+        "spanish": {
+          "name": "El Señor de las rocas",
+          "description": "Mata a todos los vikingos en una partida del modo Roca sin matar a ninguno de los tuyos."
+        }
+      }
+    },
+    "Achievement_Aztec8NoBoulder": {
+      "translations": {
+        "dutch": {
+          "name": "Rotzooi",
+          "description": "Voltooi level 8 van de Azteekse krijgstocht zonder een rots te gebruiken."
+        },
+        "english": {
+          "name": "Lacking Balls",
+          "description": "Complete Aztec Campaign level 8 without using a Boulder."
+        },
+        "french": {
+          "name": "Interdit aux boulets",
+          "description": "Termine le niveau 8 de la campagne des Aztèques sans utiliser le rocher."
+        },
+        "german": {
+          "name": "Felsen? Welcher Felsen?",
+          "description": "Schaffe den 8. Level des Aztekenfeldzugs, ohne einen Felsen einzusetzen."
+        },
+        "italian": {
+          "name": "Niente Massi",
+          "description": "Completa il livello 8 dell'Aztechi senza utilizzare il Macigno."
+        },
+        "russian": {
+          "name": "Шары в шароварах",
+          "description": "Завершите 8-й уровень кампании за ацтеков, не пользуясь булыжником."
+        },
+        "schinese": {
+          "name": "没石没胆",
+          "description": "在不使用巨石的情况下完成阿兹特克战役第8关。"
+        },
+        "spanish": {
+          "name": "No hay pelotas",
+          "description": "Completa el nivel 8 de la campaña azteca sin usar ninguna roca."
+        }
+      }
+    },
+    "Achievement_Viking7NoTowerDead": {
+      "translations": {
+        "dutch": {
+          "name": "Ivoren toren",
+          "description": "Voltooi level 7 van de Viking-krijgstocht zonder een toren te verliezen."
+        },
+        "english": {
+          "name": "Fourtification",
+          "description": "Complete Viking Campaign level 7 with all Towers intact."
+        },
+        "french": {
+          "name": "Tour opérator",
+          "description": "Termine le niveau 7 de la campagne des Vikings sans perdre de tour."
+        },
+        "german": {
+          "name": "4 Türme? Ist das Schach?",
+          "description": "Schaffe den 7. Level des Wikingerfeldzugs mit allen vier Türmen unversehrt."
+        },
+        "italian": {
+          "name": "Fortificazioni",
+          "description": "Completa il livello 7 della Vichinghi con tutte le torri intatte."
+        },
+        "russian": {
+          "name": "Мастер обороны",
+          "description": "Завершите 7-й уровень кампании за викингов, не потеряв ни одной башни."
+        },
+        "schinese": {
+          "name": "四防工事",
+          "description": "在所有箭塔完好的情况下完成维京战役第7关。"
+        },
+        "spanish": {
+          "name": "El gran defensor",
+          "description": "Completa el nivel 7 de la campaña vikinga con todas las torres intactas."
+        }
+      }
+    },
+    "Achievement_Viking10NoThor": {
+      "translations": {
+        "dutch": {
+          "name": "Van god los",
+          "description": "Overleef level 10 van de Viking-krijgstocht zonder de hulp van Thor."
+        },
+        "english": {
+          "name": "Pity the Fool!",
+          "description": "Survive Viking Campaign level 10 without the help of Mr. Thor."
+        },
+        "french": {
+          "name": "Ils n'ont pas Thor",
+          "description": "Survis au niveau 10 de la campagne des Vikings sans l'aide de Thor."
+        },
+        "german": {
+          "name": "Gottlose Bande",
+          "description": "Schaffe den 10. Level des Wikingerfeldzugs ohne die Hilfe von Herrn Thor."
+        },
+        "italian": {
+          "name": "Povero, povero lui!",
+          "description": "Sopravvivi al livello 10 della Vichinghi senza l'aiuto del divino Thor."
+        },
+        "russian": {
+          "name": "Жаль дурака",
+          "description": "Завершите 10-й уровень кампании за викингов без помощи мистера Тора."
+        },
+        "schinese": {
+          "name": "可怜的家伙！",
+          "description": "在没有托尔先生帮助的情况下挺过维京战役第10关。"
+        },
+        "spanish": {
+          "name": "Sin Thor ni son",
+          "description": "Sobrevive al nivel 10 de la campaña vikinga sin la ayuda del señor Thor."
+        }
+      }
+    },
+    "Achievement_Viking4Destroy": {
+      "translations": {
+        "dutch": {
+          "name": "Waar zijn de kangoeroes?",
+          "description": "Voltooi level 4 van Viking-krijgstocht door de basis te vernietigen."
+        },
+        "english": {
+          "name": "Where are the Kangaroos?",
+          "description": "Complete Viking Campaign level 4 by destroying the enemy base."
+        },
+        "french": {
+          "name": "Pas de quartier",
+          "description": "Termine le niveau 4 de la campagne des Vikings en détruisant le fort ennemi."
+        },
+        "german": {
+          "name": "Wo sind die Kängurus?",
+          "description": "Schaffe den 4. Level des Wikingerfeldzugs, indem du das Feindlager zerstörst."
+        },
+        "italian": {
+          "name": "Dove sono i canguri?",
+          "description": "Completa il livello 4 della Vichinghi distruggendo la base nemica."
+        },
+        "russian": {
+          "name": "А где же кенгуру?",
+          "description": "Завершите 4-й уровень кампании за викингов, уничтожив вражескую базу."
+        },
+        "schinese": {
+          "name": "袋鼠都去哪了？",
+          "description": "通过摧毁敌方基地完成维京战役第4关。"
+        },
+        "spanish": {
+          "name": "¿Dónde están los gamusinos?",
+          "description": "Completa el nivel 4 de la campaña vikinga destruyendo el campamento enemigo."
+        }
+      }
+    },
+    "Achievement_Aztec2EarlyKillGiant": {
+      "translations": {
+        "dutch": {
+          "name": "Kredietcrisis",
+          "description": "Voorkom dat de reus in level 2 van de Azteekse krijgstocht bij de goudmijn komt."
+        },
+        "english": {
+          "name": "Fort Knox'd",
+          "description": "Prevent the Giant in Aztec Campaign level 2 from reaching the Goldmine."
+        },
+        "french": {
+          "name": "Mine de rien",
+          "description": "Dans la campagne Aztèque nv. 2, empêche le colosse d'atteindre la mine."
+        },
+        "german": {
+          "name": "Sicher wie Fort Knox",
+          "description": "Verhindere im 2. Level des Aztekenfeldzugs, dass der Riese die Mine erreicht."
+        },
+        "italian": {
+          "name": "Difendi la miniera",
+          "description": "Impedisci al Gigante del sole di arrivare alla miniera d'oro nel livello 2 dell'Aztechi."
+        },
+        "russian": {
+          "name": "Праведная жадность",
+          "description": "Не дайте гиганту из 2-го уровня кампании за ацтеков достигнуть золотой шахты."
+        },
+        "schinese": {
+          "name": "诺克斯堡",
+          "description": "阻止阿兹特克战役第2关中的巨人抵达金矿。"
+        },
+        "spanish": {
+          "name": "Protege el tesoro",
+          "description": "Evita que el gigante del nivel 2 de la campaña azteca llegue a la mina de oro."
+        }
+      }
+    },
+    "Achievement_Aztec10NoVikingArmy": {
+      "translations": {
+        "dutch": {
+          "name": "Doe-het-zelver",
+          "description": "Voltooi level 10 van de Azteekse krijgstocht zonder het Viking-leger te hersenspoelen."
+        },
+        "english": {
+          "name": "Keep Your Lousy Army",
+          "description": "Complete Aztec Campaign level 10 without taking control of the Viking army."
+        },
+        "french": {
+          "name": "Des Vikings ? Pourquoi ?",
+          "description": "Termine le niveau 10 de la campagne Aztèque sans utiliser les Vikings."
+        },
+        "german": {
+          "name": "Behalt doch das doofe Heer",
+          "description": "Schaffe den 10. Level des Aztekenfeldzugs, ohne die Wikingerarmee zu übernehmen."
+        },
+        "italian": {
+          "name": "Tieniti i tuoi Guerrieri",
+          "description": "Completa il livello 10 dell'Aztechi senza prendere il controllo dei guerrieri vichinghi."
+        },
+        "russian": {
+          "name": "Мне эти слабаки не нужны",
+          "description": "Завершите 10-й уровень кампании за ацтеков, не принимая командование над армией викингов."
+        },
+        "schinese": {
+          "name": "收起你的破军队",
+          "description": "在不控制维京军队的情况下完成阿兹特克战役第10关。"
+        },
+        "spanish": {
+          "name": "Manten tu terrible ejercito",
+          "description": "Completa el nivel 10 de la campaña azteca sin hacerte con el control del ejército vikingo."
+        }
+      }
+    },
+    "Achievement_Asian3NoNinjasDie": {
+      "translations": {
+        "dutch": {
+          "name": "Apenkooi",
+          "description": "Voltooi level 3 van de Chinese krijgstocht zonder een aap te verliezen."
+        },
+        "english": {
+          "name": "Planet of the Ninja Apes",
+          "description": "Complete Chinese Campaign level 3 without a single Ninja death."
+        },
+        "french": {
+          "name": "Singeries",
+          "description": "Termine le niveau 3 de la campagne des Chinois sans perdre un seul ninja."
+        },
+        "german": {
+          "name": "Der Planet der Ninjaaffen",
+          "description": "Schaffe den 3. Level des Chinafeldzugs, ohne einen  Ninjaaffen zu verlieren."
+        },
+        "italian": {
+          "name": "Pianeta di scimmie ninja",
+          "description": "Completa il livello 3 dell'Impero cinese senza perdere neanche una scimmietta ninja."
+        },
+        "russian": {
+          "name": "Планета ниндзя-обезьян",
+          "description": "Завершите 3-й уровень кампании за китайцев, не потеряв ни одного ниндзя."
+        },
+        "schinese": {
+          "name": "忍者猿星球",
+          "description": "在没有一名忍者阵亡的情况下完成中国战役第3关。"
+        },
+        "spanish": {
+          "name": "Planeta de los simiorais",
+          "description": "Completa el nivel 3 de la campaña china sin matar a ningún ninja."
+        }
+      }
+    },
+    "Achievement_Asian7ManyRocketeers": {
+      "translations": {
+        "dutch": {
+          "name": "Je bent een rund",
+          "description": "Voltooi level 7 van de Chinese krijgstocht met 15 overlevende raketwerpers."
+        },
+        "english": {
+          "name": "Blotting out the sun",
+          "description": "Complete Chinese Campaign level 7 with 15 or more Rocketeers alive."
+        },
+        "french": {
+          "name": "Y a du pétard !",
+          "description": "Termine le niveau 7 de la campagne des chinois avec au moins 15 artificiers."
+        },
+        "german": {
+          "name": "Den Himmel verdunkeln",
+          "description": "Im 7. Level des Chinafeldzugs müssen mindestens 15 Raketenträger überleben."
+        },
+        "italian": {
+          "name": "Oscurando il sole",
+          "description": "Completa il livello 7 dell'Impero cinese con almeno 15 unità lanciarazzi ancora vive."
+        },
+        "russian": {
+          "name": "Затмевая солнце",
+          "description": "Завершите 7-й уровень кампании за китайцев с 15 или более живыми ракетчиками."
+        },
+        "schinese": {
+          "name": "遮天蔽日",
+          "description": "在15名或更多火箭兵存活的情况下完成中国战役第7关。"
+        },
+        "spanish": {
+          "name": "Tapando el Sol",
+          "description": "Completa el nivel 7 de la campaña china con 15 o más lanzacohetes vivos."
+        }
+      }
+    },
+    "Achievement_Asian8NoBerserkersDie": {
+      "translations": {
+        "dutch": {
+          "name": "Vamos a la playa!",
+          "description": "Voltooi level 3 van Viking-krijgstocht door alle soldaten te verslaan."
+        },
+        "english": {
+          "name": "Vamos a la playa!",
+          "description": "Complete Viking Campaign level 3 by Killing all units."
+        },
+        "french": {
+          "name": "Vamos a la playa!",
+          "description": "Tue tous ennemis dans le niveau 3 de la campagne des Vikings."
+        },
+        "german": {
+          "name": "Vamos a la playa!",
+          "description": "Töte alle Gegner in den 3. Level des Wikingerfeldzugs."
+        },
+        "italian": {
+          "name": "Vamos a la playa!",
+          "description": "Completa il livello 3 della campagna dei Vichinghi elimina tutte unità. "
+        },
+        "russian": {
+          "name": "Vamos a la playa!",
+          "description": "Завершите 3-й уровень кампании за викингов, Убейте всех врагов."
+        },
+        "schinese": {
+          "name": "一起去海滩吧！",
+          "description": "通过消灭所有单位完成维京战役第3关。"
+        },
+        "spanish": {
+          "name": "Vamos a la playa!",
+          "description": "Completa el nivel 3 de la campaña vikinga mata a todas las unidades."
+        }
+      }
+    },
+    "Achievement_OnlineMatches": {
+      "translations": {
+        "dutch": {
+          "name": "Sociale Viking",
+          "description": "Speel 10 potjes online"
+        },
+        "english": {
+          "name": "Social Viking",
+          "description": "Play 10 matches online."
+        },
+        "french": {
+          "name": "Viking sociable",
+          "description": "Fais 10 parties en ligne."
+        },
+        "german": {
+          "name": "Geselliger Wikinger",
+          "description": "Spiele 10 Runden online."
+        },
+        "italian": {
+          "name": "Vichingo socievole",
+          "description": "Gioca 10 partite online."
+        },
+        "russian": {
+          "name": "Общительный викинг",
+          "description": "Завершите 10 многопользовательских игр"
+        },
+        "schinese": {
+          "name": "爱社交的维京人",
+          "description": "进行10场线上对战。"
+        },
+        "spanish": {
+          "name": "Vikingo social",
+          "description": "Juega 10 partidas en línea."
+        }
+      }
+    },
+    "Achievement_MindcontrolInOnlineMatch": {
+      "translations": {
+        "dutch": {
+          "name": "All I Want For Christmas Is You",
+          "description": "Gebruik de Azteekse Hersenspoelspreuk vijf keer tijdens 1 online potje. "
+        },
+        "english": {
+          "name": "All I Want For Christmas Is You",
+          "description": "Use the Aztec Mindcontrol spell five times in a single online match. "
+        },
+        "french": {
+          "name": "All I Want For Christmas Is You",
+          "description": "Utilisez le sort Envoûtement aztèques cinq fois en une seul partie multijoueur. "
+        },
+        "german": {
+          "name": "All I Want For Christmas Is You",
+          "description": "Verwenden Sie den Azteken Gedankenkontrollen Zauber fünfmal in einer Mehrspielerpartie. "
+        },
+        "italian": {
+          "name": "All I Want For Christmas Is You",
+          "description": "Usare l'incantesimo Controllo mente azteco cinque volte a una singola partita multigiocatore. "
+        },
+        "russian": {
+          "name": "All I Want For Christmas Is You",
+          "description": "Используйте заклинание ацтеков Гипноз пять раз в одной онлайн матча. "
+        },
+        "schinese": {
+          "name": "圣诞节我只想要你",
+          "description": "在一场线上对战中使用五次阿兹特克精神控制法术。"
+        },
+        "spanish": {
+          "name": "All I Want For Christmas Is You",
+          "description": "Utiliza el hechizo Controlamentes azteca cinco veces en una partida multijugador único. "
+        }
+      }
+    },
+    "Achievement_ChiefMeat3Monkeys": {
+      "translations": {
+        "dutch": {
+          "name": "Dierenvriend",
+          "description": "Bescherm alle 6 apen in level 3 van de Baas Slager krijgstocht."
+        },
+        "english": {
+          "name": "Animal Lover",
+          "description": "Protect all 6 monkeys in level 3 of the Chief Meat Campaign."
+        },
+        "french": {
+          "name": "Ami des animaux",
+          "description": "Protéger tous les 6 singes dans le niveau 3 de Campagne Chef Viandard."
+        },
+        "german": {
+          "name": "Tierfreund",
+          "description": "Schützen Sie alle 6 Affen in 3. Level des Slager Schnetzels Feldzug."
+        },
+        "italian": {
+          "name": "Amico animali",
+          "description": "Proteggere tutti i 6 scimmie a livello 3 di Campagna Capitan Braciola."
+        },
+        "russian": {
+          "name": "Animal Lover",
+          "description": "Protect all 6 monkeys in level 3 of the Chief Meat Campaign."
+        },
+        "schinese": {
+          "name": "动物爱好者",
+          "description": "在肉酋长战役第3关保护全部6只猴子。"
+        },
+        "spanish": {
+          "name": "Amigo animal",
+          "description": "Proteger a todos los 6 monos en el nivel 3 de la Campaña Jefe Carnicero."
+        }
+      }
+    },
+    "Achievement_ChiefMeat6Workers": {
+      "translations": {
+        "dutch": {
+          "name": "Goudkoorts",
+          "description": "Houdt alle mijnwerkers in leven in level 6 van de Baas Slager krijgstocht."
+        },
+        "english": {
+          "name": "Gold Rush",
+          "description": "Keep all gold-diggers alive in level 6 of the Chief Meat Campaign."
+        },
+        "french": {
+          "name": "Ruée vers l'or",
+          "description": "Gardez tous les mineurs en vie dans le niveau 6 de Campagne Chef Viandard."
+        },
+        "german": {
+          "name": "Goldrausch",
+          "description": "Halten Sie alle Goldgräber am Leben in 6. Level des Slager Schnetzels Feldzug."
+        },
+        "italian": {
+          "name": "La febbre dell'oro",
+          "description": "Tenere tutti i cercatori d'oro vivo a livello 6 di Campagna Capitan Braciola."
+        },
+        "russian": {
+          "name": "Gold Rush",
+          "description": "Keep all gold-diggers alive in level 6 of the Chief Meat Campaign."
+        },
+        "schinese": {
+          "name": "淘金热",
+          "description": "在肉酋长战役第6关让所有淘金者存活。"
+        },
+        "spanish": {
+          "name": "La fiebre del oro",
+          "description": "Mantenga todos los buscadores de oro con vida en el nivel 6 de la Campaña Jefe Carnicero."
+        }
+      }
+    },
+    "Achievement_ChiefMeatSSSF": {
+      "translations": {
+        "dutch": {
+          "name": "Vleesfanaat",
+          "description": "Win het Super Sappig Saucijzen Feest."
+        },
+        "english": {
+          "name": "Meat Lover",
+          "description": "Win the Super Saucy Sausage Fest."
+        },
+        "french": {
+          "name": "Amateur de viande",
+          "description": "Gagnez le Festival des Supers Saucisses en Sauce."
+        },
+        "german": {
+          "name": "Fleisch-Liebhaber",
+          "description": "Gewinnen Sie den Super Sossigen Schmierwürstchen Festival."
+        },
+        "italian": {
+          "name": "Carne entusiasti",
+          "description": "Vinci la Sagra della Super Salsiccia Piccante."
+        },
+        "russian": {
+          "name": "Meat Lover",
+          "description": "Win the Super Saucy Sausage Fest."
+        },
+        "schinese": {
+          "name": "肉食爱好者",
+          "description": "赢得超级多汁香肠节的胜利。"
+        },
+        "spanish": {
+          "name": "Carne entusiasta",
+          "description": "Ganar el Festival de la Super Salchicha Sabrosa."
+        }
+      }
+    },
+    "Achievement_BoulderXL": {
+      "translations": {
+        "dutch": {
+          "name": "Verrader XL",
+          "description": "Haal een negatieve score bij het Rotsblokrollen XL."
+        },
+        "english": {
+          "name": "Traitor XL",
+          "description": "Get a negative score in the Boulder XL challenge."
+        },
+        "french": {
+          "name": "Traître XL",
+          "description": "Obtenez un score négatif au Roc'n'roll XL."
+        },
+        "german": {
+          "name": "Verräter XL",
+          "description": "Holen Sie sich eine negative Punktzahl am Felsbrocken XL."
+        },
+        "italian": {
+          "name": "Traditore XL",
+          "description": "Ottenere un punteggio negativo alla Macigno XL."
+        },
+        "russian": {
+          "name": "Traitor XL",
+          "description": "Get a negative score in the Boulder XL challenge."
+        },
+        "schinese": {
+          "name": "叛徒XL",
+          "description": "在巨石XL挑战中获得负分。"
+        },
+        "spanish": {
+          "name": "Traidor XL",
+          "description": "Consigue una puntuación negativa al Roca XL."
+        }
+      }
+    }
+  }
+}

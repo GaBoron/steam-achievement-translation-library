@@ -6,6 +6,7 @@ import urllib.parse
 from pathlib import Path
 from typing import Any
 
+from translation_artifacts import load_artifact, artifact_rows, validate_artifact
 from library_index import (
     entry_file_size_label,
     entry_schema_variants,
@@ -17,7 +18,7 @@ from library_index import (
     schema_file_size_bytes,
     validated_entry_schema_variants,
 )
-from steam_schema import achievement_rows, load_schema, require_language_coverage, validate_schema_structure
+from steam_schema import require_language_coverage
 from submission_inputs import field_value, first_line, now_utc, parse_issue_form
 from submission_presentation import parse_schema_variants_marker, steam_store_id, steam_store_url
 
@@ -237,9 +238,9 @@ def validate_languages_for_schema(schema_file: str, languages: list[str]) -> tup
         raise ValueError("无效的 Steam 语言代码：" + ", ".join(invalid))
     if not languages:
         raise ValueError("至少填写一个 Steam 语言代码。")
-    data, nodes = load_schema(repository_path(schema_file))
-    validate_schema_structure(data, nodes)
-    rows = achievement_rows(nodes, languages)
+    data, nodes = load_artifact(repository_path(schema_file))
+    validate_artifact(data, nodes)
+    rows = artifact_rows(nodes, languages)
     coverage = require_language_coverage(rows, languages)
     return rows, coverage
 
