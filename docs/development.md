@@ -44,7 +44,7 @@ python workflow-scripts/check_repository.py
 ## 投稿如何进入公开目录
 
 1. `.github/ISSUE_TEMPLATE/` 收集投稿、更新、请愿和错误报告。**Translation library automation** 处理 issue、评论命令、PR 审核和合并后的发布。创建及维护 PR 使用内置的 `github-actions[bot]` 身份。
-2. 投稿校验后生成只涉及 `files/<app_id>/` 的审核 PR。`submission.json` 保存该游戏的待入库 Catalog 提案；每个版本的 `achievements.md` 提供审核对照。创建或更新投稿分支后，自动化在该分支上主动运行 **Repository checks**，为分支最新提交产生必需的 `validate` 检查。投稿人无需操作 Actions。
+2. 投稿校验后生成只涉及 `files/<app_id>/` 的审核 PR。`submission.json` 保存该游戏的待入库 Catalog 提案，每个版本的 `achievements.md` 提供审核对照。创建或更新投稿分支后，**Repository checks** 可提前给出校验结果。维护者批准 PR 后，同一工作流对被批准的提交运行关联到 PR 的必需 `validate`。投稿人无需操作 Actions。
 3. 投稿 PR 检查在内存中叠加待入库提案，并核对实际文件。审核期间的文件可能与正式 Catalog 不同，因此不能用修改正式索引的方式规避检查。
 4. 维护者批准且必需检查通过后，自动化合并 PR，并在 `main` 上启动发布。发布任务读取最新 `main` 上的所有待入库提案，刷新 Catalog、派生 JSON 和统计图，再清理已发布的临时审核元数据。部署密钥用于推送 Catalog 提交，该次推送触发 Pages 部署。
 
@@ -67,7 +67,7 @@ python workflow-scripts/check_repository.py
 
 刷新命令会写入 Catalog、JSON 和统计图，应检查完整差异。不要手改 BIN 派生格式 1 JSON 或统计 SVG。单独修改说明文档无需重新生成这些数据。
 
-- **投稿检查失败时**，从 issue/PR 的具体错误定位附件、表单或对应校验模块。若分支已更新但缺少 `validate`，可在该投稿分支上手动运行 **Repository checks**。提交者的修正入口见 [贡献指南](CONTRIBUTING.md)。
+- **投稿检查失败时**，从 issue/PR 的具体错误定位附件、表单或对应校验模块。若批准后缺少必需的 `validate`，查看由该 PR 审核触发的 **Repository checks**，确认审核指向当前提交。提交者的修正入口见 [贡献指南](CONTRIBUTING.md)。
 - **PR 已合并但网站未出现译本时**，先检查 **Translation library automation** 的 `finalize-merged-pr` 是否完成 Catalog 发布，再检查 **Translation library website** 的部署。
 - **发布未完成时**，维护者可在 `main` 上手动运行 **Translation library automation**，指定已合并的翻译 PR 编号 `pr_number` 或投稿分支 `head_branch`。此操作会发布待入库数据并完成该 PR 的通知和锁定。
 - **网站构建失败：** 按 [网站维护](website.md) 的本地构建方式复现，检查 Catalog、文件校验与资源路径；不要直接修改生成的网站目录来修复源数据。
@@ -109,7 +109,7 @@ Preserve these constraints when changing the relevant processing:
 ### From submission to public catalog
 
 1. Issue templates collect submissions, updates, petitions, and reports. **Translation library automation** handles issues, comment commands, PR review, and post-merge publication. It uses the built-in `github-actions[bot]` identity to create and maintain PRs.
-2. A validated submission creates a review PR limited to `files/<app_id>/`. Generated `submission.json` holds the game's pending catalog proposal, and per-variant `achievements.md` files support review. When automation creates or updates the submission branch, it runs **Repository checks** on that branch to attach the required `validate` check to its latest commit. Contributors can submit without using Actions directly.
+2. A validated submission creates a review PR limited to `files/<app_id>/`. Generated `submission.json` holds the game's pending catalog proposal, and per-variant `achievements.md` files support review. **Repository checks** provides early feedback when the submission branch is created or updated. A maintainer's approval triggers the same workflow to report the required `validate` check on the PR for the approved commit. Contributors can submit without using Actions directly.
 3. PR checks overlay proposals in memory and compare them with the actual files. Pending files can differ from the published catalog; changing the shared index early is not a way to fix this.
 4. Automation merges the PR after maintainer approval and required checks pass, then starts publication on `main`. Publication consumes all pending proposals on current `main`, refreshes the catalog, derived JSON, and statistics, and removes published temporary review metadata. The job pushes the catalog commit using a deploy key. That push triggers Pages deployment.
 
@@ -125,7 +125,7 @@ In repository settings, add a deploy key with write access and store its private
 
 After changing source data, use `catalog_refresh.py` and then `check_repository.py` as shown above when generated data needs updating. Refresh writes the catalog, JSON, and statistics; inspect the complete diff. Do not hand-edit BIN-derived format 1 JSON or the statistics SVG. Documentation-only changes do not need regeneration.
 
-- **Submission check fails.** Follow the issue or PR error to the attachment, form, or validation module. If the updated branch is missing `validate`, run **Repository checks** manually on that branch. For contributor corrections, see [Contributing](CONTRIBUTING_EN.md).
+- **Submission check fails.** Follow the issue or PR error to the attachment, form, or validation module. If the required `validate` is missing after approval, check **Repository checks** for that review and verify that the approval applies to the current commit. For contributor corrections, see [Contributing](CONTRIBUTING_EN.md).
 - **Merged translation is missing from the site.** Check the `finalize-merged-pr` job in **Translation library automation**, then check deployment in **Translation library website**.
 - **Publication did not complete.** A maintainer can run **Translation library automation** on `main` with the merged translation `pr_number` or submission `head_branch`. This publishes pending data and completes the PR notification and locking.
 - **Website build fails:** Reproduce with the [local build](website.md#english), checking catalog data, artifact validation, and resource paths. Editing generated output does not repair source data.

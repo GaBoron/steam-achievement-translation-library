@@ -270,7 +270,17 @@ jobs:
         run: python workflow-scripts/translation_pr_maintenance.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --mark-wait-for-update
 
   pr-review-approved:
-    if: ${{ github.event_name == 'pull_request_review' && github.event.review.state == 'approved' && github.event.pull_request.base.ref == 'main' && startsWith(github.event.pull_request.head.ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
+    if: >-
+      ${{
+        github.event_name == 'pull_request_review' &&
+        github.event.review.state == 'approved' &&
+        github.event.review.commit_id == github.event.pull_request.head.sha &&
+        github.event.pull_request.state == 'open' &&
+        !github.event.pull_request.draft &&
+        github.event.pull_request.base.ref == 'main' &&
+        startsWith(github.event.pull_request.head.ref, 'translation-library/') &&
+        github.event.pull_request.head.repo.full_name == github.repository
+      }}
     runs-on: ubuntu-latest
     timeout-minutes: 35
     permissions:
@@ -322,9 +332,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_HEAD_SHA: ${{ github.event.review.commit_id }}
         run: |
           for attempt in $(seq 1 180); do
-            STATE="$(gh pr view "$PR_NUMBER" --json state --jq '.state')"
+            STATUS="$(gh pr view "$PR_NUMBER" --json state,isDraft,headRefOid --jq '[.state, (.isDraft | tostring), .headRefOid] | @tsv')"
+            IFS=$'\t' read -r STATE IS_DRAFT CURRENT_HEAD <<< "$STATUS"
             if [ "$STATE" = "MERGED" ]; then
               echo "PR #$PR_NUMBER has merged."
               echo 'merged=true' >> "$GITHUB_OUTPUT"
@@ -334,6 +346,10 @@ jobs:
               echo "PR #$PR_NUMBER closed without merging."
               exit 1
             fi
+            if [ "$IS_DRAFT" = "true" ] || [ "$CURRENT_HEAD" != "$PR_HEAD_SHA" ]; then
+              echo "PR #$PR_NUMBER has a newer head or is now a draft. This review is no longer eligible for automatic merge."
+              exit 0
+            fi
             FAILED_CHECKS="$(
               gh pr checks "$PR_NUMBER" --required --json name,bucket \
                 --jq '[.[] | select(.bucket == "fail") | .name] | join(", ")' 2>/dev/null || true
@@ -342,7 +358,7 @@ jobs:
               echo "Required checks failed for PR #$PR_NUMBER: $FAILED_CHECKS"
               exit 1
             fi
-            echo "PR #$PR_NUMBER is waiting for required checks; attempt $attempt/180."
+            echo "Waiting for GitHub to merge PR #$PR_NUMBER after its requirements pass; attempt $attempt/180."
             sleep 10
           done
           echo "Timed out waiting for PR #$PR_NUMBER to merge."

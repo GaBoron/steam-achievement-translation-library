@@ -3,6 +3,8 @@ name: Repository checks
 on:
   pull_request:
     branches: [main]
+  pull_request_review:
+    types: [submitted]
   workflow_dispatch:
 
 permissions:
@@ -14,18 +16,48 @@ concurrency:
   queue: max
 
 jobs:
-  validate:
+  repository-validation:
+    # Use a different name for skipped reviews so they cannot satisfy the required check.
+    name: >-
+      ${{
+        (
+          github.event_name != 'pull_request_review' ||
+          (
+            github.event.review.state == 'approved' &&
+            github.event.review.commit_id == github.event.pull_request.head.sha &&
+            github.event.pull_request.state == 'open' &&
+            !github.event.pull_request.draft &&
+            github.event.pull_request.base.ref == 'main' &&
+            startsWith(github.event.pull_request.head.ref, 'translation-library/') &&
+            github.event.pull_request.head.repo.full_name == github.repository
+          )
+        ) && 'validate' || 'skip translation review'
+      }}
+    if: >-
+      ${{
+        github.event_name != 'pull_request_review' ||
+        (
+          github.event.review.state == 'approved' &&
+          github.event.review.commit_id == github.event.pull_request.head.sha &&
+          github.event.pull_request.state == 'open' &&
+          !github.event.pull_request.draft &&
+          github.event.pull_request.base.ref == 'main' &&
+          startsWith(github.event.pull_request.head.ref, 'translation-library/') &&
+          github.event.pull_request.head.repo.full_name == github.repository
+        )
+      }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      # Dispatch on the submission branch attaches the same validate check to its head SHA.
+      # The review event reports validate on the PR. Branch dispatch gives early feedback.
       TRANSLATION_PR: >-
         ${{
+          github.event_name == 'pull_request_review' ||
           (github.event_name == 'pull_request' && startsWith(github.head_ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository) ||
           (github.event_name == 'workflow_dispatch' && startsWith(github.ref, 'refs/heads/translation-library/'))
         }}
       PR_BASE_SHA: ${{ github.event.pull_request.base.sha || 'origin/main' }}
-      PR_HEAD_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+      PR_HEAD_SHA: ${{ github.event.review.commit_id || github.event.pull_request.head.sha || github.sha }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
