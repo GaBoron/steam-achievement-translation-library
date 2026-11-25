@@ -9,19 +9,31 @@ on:
     types: [submitted]
   pull_request:
     types: [closed]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: Merged translation PR number to finalize
+        type: string
+      head_branch:
+        description: Translation head branch to finalize (for example translation-library/issue-14)
+        type: string
 
 permissions:
-  contents: write
-  issues: write
-  pull-requests: write
+  contents: read
 
 concurrency:
   group: translation-library-${{ github.event.issue.number || github.event.pull_request.number || github.run_id }}
   cancel-in-progress: false
+  queue: max
 
 jobs:
   issue-review:
     needs: issue-comment-maintenance
+    permissions:
+      actions: write
+      contents: write
+      issues: write
+      pull-requests: write
     if: >-
       ${{
         always() &&
@@ -140,22 +152,12 @@ jobs:
               print(f"{key}={data[key]}")
           PY
 
-      - name: Generate short-lived PR bot token
-        id: pr-bot-token
-        if: ${{ steps.validate.outcome == 'success' }}
-        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
-        with:
-          app-id: ${{ secrets.SATL_PR_BOT_APP_ID }}
-          private-key: ${{ secrets.SATL_PR_BOT_PRIVATE_KEY }}
-          owner: ${{ github.repository_owner }}
-          repositories: steam-achievement-translation-library
-
       - name: Create pull request
         id: cpr
         if: ${{ steps.validate.outcome == 'success' }}
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
-          token: ${{ steps.pr-bot-token.outputs.token }}
+          token: ${{ github.token }}
           branch: ${{ steps.meta.outputs.branch }}
           title: ${{ steps.meta.outputs.pr_title }}
           body-path: pr_body.md
@@ -165,6 +167,19 @@ jobs:
           reviewers: GaBoron
           add-paths: |
             files/${{ steps.meta.outputs.game_id }}/**
+
+      - name: Run required checks on the submission branch
+        if: ${{ steps.cpr.outcome == 'success' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_BRANCH: ${{ steps.cpr.outputs.pull-request-branch }}
+          PR_URL: ${{ steps.cpr.outputs.pull-request-url }}
+        run: |
+          if [ -z "$PR_URL" ]; then
+            echo "No submission PR was created."
+            exit 1
+          fi
+          gh workflow run repository-checks.yml --ref "$PR_BRANCH"
 
       - name: Close and lock source issue
         if: ${{ steps.validate.outcome == 'success' }}
@@ -185,7 +200,7 @@ jobs:
             exit 0
           fi
           gh issue comment "$ISSUE_NUMBER" --body-file issue-comment.md
-          if [ "$ISSUE_STATE" != "CLOSED" ]; then
+          if [ "$ISSUE_STATE" != "closed" ]; then
             gh issue close "$ISSUE_NUMBER" --reason "completed"
           fi
           gh api -X PUT "repos/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER/lock" -f lock_reason=resolved
@@ -193,9 +208,15 @@ jobs:
   translation-petition-review:
     if: ${{ (github.event_name == 'issues' || (github.event_name == 'issue_comment' && github.event.comment.body == '/force-refresh')) && !github.event.issue.pull_request && github.event.issue.state == 'open' && (contains(github.event.issue.labels.*.name, '翻译请愿') || contains(github.event.issue.body, '### 需要翻译的成就 schema ZIP') || contains(github.event.issue.body, '### Achievement schema ZIP to translate')) }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: read
     steps:
       - name: Checkout translation library
         uses: actions/checkout@v6
+        with:
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -225,9 +246,15 @@ jobs:
   pr-review-requested-changes:
     if: ${{ github.event_name == 'pull_request_review' && github.event.review.state == 'changes_requested' && github.event.pull_request.base.ref == 'main' && startsWith(github.event.pull_request.head.ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -244,14 +271,19 @@ jobs:
     if: ${{ github.event_name == 'pull_request_review' && github.event.review.state == 'approved' && github.event.pull_request.base.ref == 'main' && startsWith(github.event.pull_request.head.ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
     runs-on: ubuntu-latest
     timeout-minutes: 35
-    concurrency:
-      group: translation-library-approve-${{ github.event.pull_request.number }}
-      cancel-in-progress: false
+    permissions:
+      checks: read
+      contents: write
+      pull-requests: write
+      statuses: read
+    outputs:
+      merged: ${{ steps.wait-for-merge.outputs.merged }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -282,6 +314,7 @@ jobs:
           gh pr merge "$PR_NUMBER" --auto --merge --match-head-commit "$PR_HEAD_SHA" --delete-branch --subject "$TITLE" --body "Automatically merged after approval by @$REVIEW_AUTHOR."
 
       - name: Wait for automatic merge
+        id: wait-for-merge
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -291,6 +324,7 @@ jobs:
             STATE="$(gh pr view "$PR_NUMBER" --json state --jq '.state')"
             if [ "$STATE" = "MERGED" ]; then
               echo "PR #$PR_NUMBER has merged."
+              echo 'merged=true' >> "$GITHUB_OUTPUT"
               exit 0
             fi
             if [ "$STATE" != "OPEN" ]; then
@@ -314,21 +348,16 @@ jobs:
   pr-comment-maintenance:
     if: ${{ github.event_name == 'issue_comment' && github.event.issue.pull_request }}
     runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: write
+      issues: write
+      pull-requests: write
     steps:
-      - name: Generate short-lived PR bot token
-        id: pr-bot-token
-        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
-        with:
-          app-id: ${{ secrets.SATL_PR_BOT_APP_ID }}
-          private-key: ${{ secrets.SATL_PR_BOT_PRIVATE_KEY }}
-          owner: ${{ github.repository_owner }}
-          repositories: steam-achievement-translation-library
-
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-          token: ${{ steps.pr-bot-token.outputs.token }}
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -344,11 +373,16 @@ jobs:
   issue-comment-maintenance:
     if: ${{ github.event_name == 'issue_comment' && !github.event.issue.pull_request }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
     outputs:
       review-required: ${{ steps.command-result.outputs.review-required }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -373,21 +407,42 @@ jobs:
           print(f"review-required={str(bool(result.get('review_required'))).lower()}")
           PY
 
-  refresh-catalog-after-merge:
-    if: ${{ github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main' && startsWith(github.event.pull_request.head.ref, 'translation-library/') && github.event.pull_request.head.repo.full_name == github.repository }}
+  finalize-merged-pr:
+    needs: pr-review-approved
+    if: >-
+      ${{
+        always() && !cancelled() &&
+        (
+          (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') ||
+          needs.pr-review-approved.outputs.merged == 'true' ||
+          (
+            github.event_name == 'pull_request' && github.event.pull_request.merged &&
+            github.event.pull_request.base.ref == 'main' &&
+            startsWith(github.event.pull_request.head.ref, 'translation-library/') &&
+            github.event.pull_request.head.repo.full_name == github.repository
+          )
+        )
+      }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
     concurrency:
       group: translation-library-main-finalize
       cancel-in-progress: false
+      queue: max
     steps:
-      - name: Generate short-lived finalizer token
+      # Only catalog publication needs to push directly to protected main.
+      - name: Generate Catalog publication token
         id: finalizer-token
         uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
         with:
           app-id: ${{ secrets.SATL_PR_BOT_APP_ID }}
           private-key: ${{ secrets.SATL_PR_BOT_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
-          repositories: steam-achievement-translation-library
+          repositories: ${{ github.event.repository.name }}
+          permission-contents: write
 
       - name: Checkout main
         uses: actions/checkout@v6
@@ -401,8 +456,17 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Refresh all Catalog V2 derivatives
+      - name: Publish Catalog V2 and finish merged PR
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python workflow-scripts/translation_pr_maintenance.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --refresh-merged-pr --lock-merged-pr
+          PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
+          HEAD_BRANCH: ${{ inputs.head_branch }}
+        run: |
+          if [ -n "$PR_NUMBER" ]; then
+            python workflow-scripts/translation_pr_maintenance.py --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --finalize-pr "$PR_NUMBER"
+          elif [ -n "$HEAD_BRANCH" ]; then
+            python workflow-scripts/translation_pr_maintenance.py --repo "$GITHUB_REPOSITORY" --token "$GITHUB_TOKEN" --finalize-head-branch "$HEAD_BRANCH"
+          else
+            echo 'Provide a merged translation PR number or head branch.'
+            exit 1
+          fi

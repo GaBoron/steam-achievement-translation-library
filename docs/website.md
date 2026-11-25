@@ -57,12 +57,7 @@ python -m http.server 8000 --directory _site/preview
 
 维护者首次配置时，在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**，再在 Actions 手动运行 **Translation library website**。`github-pages` 环境如有部署分支限制，应允许 `main`。继续使用仓库子路径，无需额外发布分支或自定义域名；参阅 [GitHub Pages 配置说明](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)。
 
-[pages.yml](../.github/workflows/pages.yml) 在以下事件构建部署：
-
-- `main` 推送或在 `main` 上手动运行。
-- 本仓库 **Translation library automation** 或 **Translation finalizer watchdog** 成功完成。
-
-后者使用 `workflow_run`，确保 Catalog 发布可触发网站更新，覆盖 `GITHUB_TOKEN` 推送不会触发普通 `push` 工作流的情形；参阅 [GitHub Actions 触发规则](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow)。
+有提交推送到 `main`（包括 Catalog 发布），或维护者在 `main` 上手动运行时，[pages.yml](../.github/workflows/pages.yml) 构建并部署网站。
 
 构建总是检出最新 `main`，不执行触发工作流的 PR 代码或读取其构件。构建与部署共用串行队列，重复触发不取消已有运行。Pages 构件保存在 Actions，不提交到主分支；失败构建不覆盖已发布网站。该静态构建无需 `configure-pages` 步骤，Pages 仍须按上述方式启用。
 
@@ -110,7 +105,7 @@ Use the [repository checks](development.md#environment-and-validation) to locate
 
 For initial setup, a maintainer selects **GitHub Actions** under **Settings → Pages → Build and deployment → Source**, then manually runs **Translation library website** in Actions. Allow `main` if the `github-pages` environment restricts branches. Keep the repository subpath; no extra publishing branch or custom domain is needed. See [GitHub Pages configuration](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-[pages.yml](../.github/workflows/pages.yml) deploys on pushes or manual runs on `main`, and successful runs of this repository's **Translation library automation** or **Translation finalizer watchdog**. The `workflow_run` triggers cover catalog publication when a `GITHUB_TOKEN` push does not trigger a normal `push` workflow; see [GitHub Actions trigger rules](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow).
+[pages.yml](../.github/workflows/pages.yml) builds and deploys the site on pushes to `main`, including catalog publication, and on manual runs on `main`.
 
 Builds always check out current `main`, without running triggering PR code or consuming its artifacts. Build and deployment share a serial queue, and duplicate triggers do not cancel queued runs. Pages artifacts stay in Actions rather than main; failed builds leave the published site intact. The static build needs no `configure-pages` step, but Pages must still be enabled as described above.
 

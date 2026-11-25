@@ -56,6 +56,16 @@ def pr_labels(pr_or_issue: dict[str, Any]) -> set[str]:
     return {str(label.get("name") or "") for label in pr_or_issue.get("labels", []) if isinstance(label, dict)}
 
 
+def is_translation_pr(pr: dict[str, Any], repo: str) -> bool:
+    head = pr.get("head") or {}
+    base = pr.get("base") or {}
+    return (
+        base.get("ref") == "main"
+        and (head.get("repo") or {}).get("full_name") == repo
+        and str(head.get("ref") or "").startswith("translation-library/")
+    )
+
+
 def pr_kind(pr: dict[str, Any]) -> str:
     labels = pr_labels(pr)
     if labels & OUTDATED_LABELS:

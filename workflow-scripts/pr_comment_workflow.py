@@ -21,6 +21,7 @@ from github_repository import (
     add_issue_label,
     close_pull_request,
     comment_issue,
+    dispatch_translation_checks,
     github_request,
     issue_comments,
     lock_issue,
@@ -46,6 +47,7 @@ from pr_metadata import (
     entry_from_metadata,
     is_bot,
     is_force_refresh_command,
+    is_translation_pr,
     is_update_command,
     parse_pr_metadata,
     parse_update_command_detail,
@@ -142,13 +144,7 @@ def force_refresh_pr(repo: str, token: str, event: dict[str, Any]) -> None:
     if not pr or str(pr.get("state") or "") != "open":
         comment_issue(repo, token, pr_number, "`/force-refresh` 只能用于打开状态的翻译 PR。")
         return
-    head = pr.get("head") or {}
-    base = pr.get("base") or {}
-    if (
-        str(base.get("ref") or "") != "main"
-        or str((head.get("repo") or {}).get("full_name") or "") != repo
-        or not str(head.get("ref") or "").startswith("translation-library/")
-    ):
+    if not is_translation_pr(pr, repo):
         comment_issue(repo, token, pr_number, "`/force-refresh` 只适用于本仓库以 `translation-library/` 开头、目标为 `main` 的翻译 PR。")
         return
     try:
@@ -158,13 +154,10 @@ def force_refresh_pr(repo: str, token: str, event: dict[str, Any]) -> None:
         run(["git", "add", "-A", "--", f"files/{game_id}"])
         run(["git", "commit", "--allow-empty", "-m", f"chore: force refresh PR #{pr_number}"])
         push_branch(branch)
-        update_pr_title_and_body(
-            repo,
-            token,
-            pr_number,
-            presentation.title,
-            presentation.body,
-        )
+        try:
+            update_pr_title_and_body(repo, token, pr_number, presentation.title, presentation.body)
+        finally:
+            dispatch_translation_checks(repo, token, branch)
         github_request(
             "POST",
             repo,
@@ -210,6 +203,9 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
     pr = github_request("GET", repo, token, f"/pulls/{pr_number}")
     if not pr or str(pr.get("state") or "") != "open":
         comment_issue(repo, token, pr_number, "`/update` 只能用于打开状态的翻译 PR。")
+        return
+    if not is_translation_pr(pr, repo):
+        comment_issue(repo, token, pr_number, "`/update` 只适用于本仓库以 `translation-library/` 开头、目标为 `main` 的翻译 PR。")
         return
 
     meta = parse_pr_metadata(pr)
@@ -482,7 +478,11 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
 
     add_paths = [f"files/{game_id}" for game_id in sorted({old_game_id, str(entry["game_id"])})]
     changed = commit_and_push(branch, f"data: apply PR update command #{pr_number}", add_paths)
-    update_pr_title_and_body(repo, token, pr_number, pr_title, pr_body)
+    try:
+        update_pr_title_and_body(repo, token, pr_number, pr_title, pr_body)
+    finally:
+        if changed:
+            dispatch_translation_checks(repo, token, branch)
     suffix = "投稿分支和 PR 描述已更新。" if changed else "PR 描述已更新；文件内容没有产生新的提交。"
     if not changes:
         changes.append({"field": "requested update", "before": "未记录", "after": "已处理"})

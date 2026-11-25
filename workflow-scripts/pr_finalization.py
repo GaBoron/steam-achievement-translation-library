@@ -66,8 +66,7 @@ def notify_fulfilled_translation_petitions(pr: dict[str, Any], repo: str, token:
     return notified
 
 
-def finalize_merged_pr(event: dict[str, Any], repo: str, token: str) -> None:
-    pr = event.get("pull_request") or {}
+def finalize_merged_pr(pr: dict[str, Any], repo: str, token: str) -> None:
     pr_number = int(pr["number"])
     comment_issue_once(
         repo,
