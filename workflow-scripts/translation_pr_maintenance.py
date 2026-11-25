@@ -8,6 +8,7 @@ import urllib.parse
 from pathlib import Path
 
 from catalog_finalization import publish_pending_catalog
+from contribution_attribution import merge_commit_body
 from github_repository import github_request
 from pr_comment_workflow import handle_comment, mark_wait_for_update
 from pr_finalization import finalize_merged_pr
@@ -56,6 +57,7 @@ def main() -> None:
     mode = parser.add_mutually_exclusive_group(required=True)
     mode.add_argument("--mark-wait-for-update", action="store_true")
     mode.add_argument("--handle-comment", action="store_true")
+    mode.add_argument("--merge-commit-body", action="store_true", help="Print the merge message with contribution credits")
     mode.add_argument("--finalize-pr", type=int, help="Fetch and finalize a merged PR by number")
     mode.add_argument("--finalize-head-branch", help="Find and finalize merged PRs from a head branch")
     args = parser.parse_args()
@@ -75,6 +77,8 @@ def main() -> None:
     event = json.loads(args.event.read_text(encoding="utf-8"))
     if args.mark_wait_for_update:
         mark_wait_for_update(args.repo, args.token, event)
+    elif args.merge_commit_body:
+        print(merge_commit_body(args.repo, args.token, event))
     else:
         handle_comment(args.repo, args.token, event)
 

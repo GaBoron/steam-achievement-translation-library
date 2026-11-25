@@ -4,6 +4,7 @@ from __future__ import annotations
 import re
 from typing import Any
 
+from contribution_attribution import github_commit_author
 from translation_artifacts import load_artifact, artifact_rows
 from achievement_catalog import write_entry_review_catalogs
 from translation_json import write_entry_translation_json
@@ -477,7 +478,12 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
         return
 
     add_paths = [f"files/{game_id}" for game_id in sorted({old_game_id, str(entry["game_id"])})]
-    changed = commit_and_push(branch, f"data: apply PR update command #{pr_number}", add_paths)
+    changed = commit_and_push(
+        branch,
+        f"data: apply PR update command #{pr_number}",
+        add_paths,
+        author=github_commit_author(comment.get("user")),
+    )
     try:
         update_pr_title_and_body(repo, token, pr_number, pr_title, pr_body)
     finally:

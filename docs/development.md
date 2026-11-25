@@ -50,6 +50,8 @@ python workflow-scripts/check_repository.py
 
 不同游戏可以独立审核。发布遇到推送竞争时，从最新 `main` 重新生成共享数据；不要把旧 PR 正文覆盖回已发布的条目。同一游戏的真实内容冲突需要维护者处理，`/force-refresh` 不保证解决此类冲突。
 
+投稿内容提交以来源 issue 的 GitHub 账号署名，通过 `/update` 写入的内容提交以执行命令的账号署名。自动合并时为来源 issue 作者和本次 PR 的内容提交者添加 `Co-authored-by`，使用 GitHub 的 `noreply` 地址。同步主分支和发布 Catalog 的提交由自动化署名。
+
 `/update` 与 `/force-refresh` 有投稿归属、用户权限和打开状态检查。保留这些边界；PR 刷新通过合并主分支保留历史。App ID 修正仅适用于尚未入库的新游戏，并须同步独立 JSON 内的 ID。JSON-only 升级 BIN 的文本保留约束见 [贡献指南](CONTRIBUTING.md#-更新时的格式限制)。
 
 ## 维护与故障定位
@@ -112,6 +114,8 @@ Preserve these constraints when changing the relevant processing:
 4. Automation merges the PR after maintainer approval and required checks pass, then starts publication on `main`. Publication consumes all pending proposals on current `main`, refreshes the catalog, derived JSON, and statistics, and removes published temporary review metadata. The job pushes the catalog commit using a deploy key. That push triggers Pages deployment.
 
 Different games can be reviewed independently. Push races regenerate shared data from current `main`; do not replay old PR bodies over published entries. Real conflicts within one game need maintainer resolution; `/force-refresh` does not guarantee a resolution.
+
+Submission content commits credit the source issue author, and content commits created by `/update` credit the account that ran the command. Automated merge commits add `Co-authored-by` trailers for the source issue author and the people who authored content commits in that PR, using GitHub `noreply` addresses. Automation authors main-branch sync and catalog publication commits.
 
 Preserve submission ownership, user authorization, and open-state checks on `/update` and `/force-refresh`. PR refresh merges main while preserving history. App ID corrections apply only to new, unpublished games and also update standalone JSON IDs. See [Contributing](CONTRIBUTING_EN.md#-format-restrictions-on-updates) for text-preservation requirements when upgrading JSON-only variants to BIN.
 

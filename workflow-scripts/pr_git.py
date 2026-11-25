@@ -55,7 +55,8 @@ def checkout_pr_branch(pr: dict[str, Any]) -> str:
     if expected_head and actual_head != expected_head:
         raise RuntimeError("The PR changed while its command was being processed; retry against its current head.")
     run(["git", "checkout", "-b", branch, f"origin/{branch}"])
-    run(["git", "merge", "--no-commit", "--no-ff", "origin/main"])
+    # Keep synchronization separate from content commits so authorship stays attributable.
+    run(["git", "merge", "--no-ff", "--no-edit", "origin/main"])
     return branch
 
 
@@ -138,14 +139,24 @@ def rename_schema_variants(
     return str(primary["schema_file"]), keep_records
 
 
-def commit_and_push(branch: str, message: str, add_paths: list[str] | None = None) -> bool:
+def commit_and_push(
+    branch: str,
+    message: str,
+    add_paths: list[str] | None = None,
+    *,
+    author: str = "",
+) -> bool:
     configure_git_identity()
     if not add_paths:
         raise ValueError("PR commits require explicit game-local paths.")
     run(["git", "add", "-A", "--", *add_paths])
-    if run(["git", "diff", "--cached", "--quiet"], check=False).returncode == 0:
+    if run(["git", "diff", "--cached", "--quiet"], check=False).returncode != 0:
+        commit = ["git", "commit", "-m", message]
+        if author:
+            commit.extend(["--author", author])
+        run(commit)
+    if run(["git", "rev-list", "--count", f"origin/{branch}..HEAD"]).stdout.strip() == "0":
         return False
-    run(["git", "commit", "-m", message])
     push_branch(branch)
     return True
 

@@ -148,7 +148,7 @@ jobs:
           from pathlib import Path
 
           data = json.loads(Path("submission_result.json").read_text(encoding="utf-8"))
-          for key in ("branch", "pr_labels", "commit_message", "pr_title", "game_id"):
+          for key in ("branch", "pr_labels", "commit_message", "commit_author", "pr_title", "game_id"):
               print(f"{key}={data[key]}")
           PY
 
@@ -162,7 +162,9 @@ jobs:
           title: ${{ steps.meta.outputs.pr_title }}
           body-path: pr_body.md
           commit-message: ${{ steps.meta.outputs.commit_message }}
-          sign-commits: true
+          author: ${{ steps.meta.outputs.commit_author || 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>' }}
+          # GitHub's signed-commit API sets the bot as the author.
+          sign-commits: ${{ steps.meta.outputs.commit_author == '' }}
           labels: ${{ steps.meta.outputs.pr_labels }}
           reviewers: GaBoron
           add-paths: |
@@ -274,6 +276,7 @@ jobs:
     permissions:
       checks: read
       contents: write
+      issues: read
       pull-requests: write
       statuses: read
     outputs:
@@ -295,7 +298,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
-          REVIEW_AUTHOR: ${{ github.event.review.user.login }}
           PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
           PR_HEAD_SHA: ${{ github.event.review.commit_id }}
         run: |
@@ -311,7 +313,8 @@ jobs:
           fi
           python workflow-scripts/check_repository.py --translation-pr --base-ref "$PR_BASE_SHA" --head-ref "$PR_HEAD_SHA"
           TITLE="$(gh pr view "$PR_NUMBER" --json title --jq '.title')"
-          gh pr merge "$PR_NUMBER" --auto --merge --match-head-commit "$PR_HEAD_SHA" --delete-branch --subject "$TITLE" --body "Automatically merged after approval by @$REVIEW_AUTHOR."
+          BODY="$(python workflow-scripts/translation_pr_maintenance.py --event "$GITHUB_EVENT_PATH" --repo "$GITHUB_REPOSITORY" --token "$GH_TOKEN" --merge-commit-body)"
+          gh pr merge "$PR_NUMBER" --auto --merge --match-head-commit "$PR_HEAD_SHA" --delete-branch --subject "$TITLE" --body "$BODY"
 
       - name: Wait for automatic merge
         id: wait-for-merge

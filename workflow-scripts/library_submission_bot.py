@@ -17,6 +17,7 @@ from datetime import UTC, datetime
 from pathlib import Path, PurePosixPath
 from typing import Any
 
+from contribution_attribution import github_commit_author
 from translation_artifacts import load_artifact, artifact_rows
 from submission_validation import (
     build_entry,
@@ -317,6 +318,7 @@ def validate_translation_or_update(event: dict[str, Any], token: str | None, kin
         "pr_title": f"{title_prefix} achievement translations for {game_name} ({game_id})",
         "pr_labels": f"{NEW_LABEL},{UPDATE_LABEL}" if kind == "update" else NEW_LABEL,
         "commit_message": f"data: {'update' if kind == 'update' else 'add'} achievement translations from issue #{issue_number}",
+        "commit_author": github_commit_author(issue.get("user")),
         "game_id": game_id,
         "game_name": game_name,
         "schema_variant_count": len(schema_files),
@@ -387,6 +389,7 @@ def validate_outdated_report(event: dict[str, Any]) -> dict[str, Any]:
         "pr_title": f"Report achievement translation issue for {entry['game_name']} ({game_id})",
         "pr_labels": OUTDATED_LABEL,
         "commit_message": f"data: report achievement translation issue from issue #{issue_number}",
+        "commit_author": github_commit_author(issue.get("user")),
         "game_id": game_id,
         "game_name": entry["game_name"],
         "report_state": state,
