@@ -407,13 +407,12 @@ jobs:
           print(f"review-required={str(bool(result.get('review_required'))).lower()}")
           PY
 
-  finalize-merged-pr:
+  request-catalog-publication:
     needs: pr-review-approved
     if: >-
       ${{
         always() && !cancelled() &&
         (
-          (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') ||
           needs.pr-review-approved.outputs.merged == 'true' ||
           (
             github.event_name == 'pull_request' && github.event.pull_request.merged &&
@@ -425,6 +424,20 @@ jobs:
       }}
     runs-on: ubuntu-latest
     permissions:
+      actions: write
+    steps:
+      # The publication environment only accepts runs targeting main.
+      - name: Request publication on main
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: gh workflow run translation-contribution.yml --repo "$GITHUB_REPOSITORY" --ref main -f "pr_number=$PR_NUMBER"
+
+  finalize-merged-pr:
+    if: ${{ github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    environment: catalog-publication
+    permissions:
       contents: write
       issues: write
       pull-requests: write
@@ -433,23 +446,21 @@ jobs:
       cancel-in-progress: false
       queue: max
     steps:
-      # Only catalog publication needs to push directly to protected main.
-      - name: Generate Catalog publication token
-        id: finalizer-token
-        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
-        with:
-          app-id: ${{ secrets.SATL_PR_BOT_APP_ID }}
-          private-key: ${{ secrets.SATL_PR_BOT_PRIVATE_KEY }}
-          owner: ${{ github.repository_owner }}
-          repositories: ${{ github.event.repository.name }}
-          permission-contents: write
+      - name: Check publication credential
+        env:
+          CATALOG_DEPLOY_KEY: ${{ secrets.CATALOG_DEPLOY_KEY }}
+        run: |
+          if [ -z "$CATALOG_DEPLOY_KEY" ]; then
+            echo '::error::Set CATALOG_DEPLOY_KEY in the catalog-publication environment.'
+            exit 1
+          fi
 
       - name: Checkout main
         uses: actions/checkout@v6
         with:
           ref: main
           fetch-depth: 0
-          token: ${{ steps.finalizer-token.outputs.token }}
+          ssh-key: ${{ secrets.CATALOG_DEPLOY_KEY }}
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -459,7 +470,7 @@ jobs:
       - name: Publish Catalog V2 and finish merged PR
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
+          PR_NUMBER: ${{ inputs.pr_number }}
           HEAD_BRANCH: ${{ inputs.head_branch }}
         run: |
           if [ -n "$PR_NUMBER" ]; then

@@ -46,13 +46,15 @@ python workflow-scripts/check_repository.py
 1. `.github/ISSUE_TEMPLATE/` 收集投稿、更新、请愿和错误报告。**Translation library automation** 处理 issue、评论命令、PR 审核和合并后的发布。创建及维护 PR 使用内置的 `github-actions[bot]` 身份。
 2. 投稿校验后生成只涉及 `files/<app_id>/` 的审核 PR。`submission.json` 保存该游戏的待入库 Catalog 提案；每个版本的 `achievements.md` 提供审核对照。创建或更新投稿分支后，自动化在该分支上主动运行 **Repository checks**，为分支最新提交产生必需的 `validate` 检查。投稿人无需操作 Actions。
 3. 投稿 PR 检查在内存中叠加待入库提案，并核对实际文件。审核期间的文件可能与正式 Catalog 不同，因此不能用修改正式索引的方式规避检查。
-4. 维护者批准且必需检查通过后，自动化合并 PR，读取最新 `main` 上的所有待入库提案，刷新 Catalog、派生 JSON 和统计图，再清理已发布的临时审核元数据。发布任务使用现有 GitHub App 的短期 `contents: write` 凭据推送到受保护的 `main`，由该次推送触发 Pages 部署。
+4. 维护者批准且必需检查通过后，自动化合并 PR，并在 `main` 上启动发布。发布任务读取最新 `main` 上的所有待入库提案，刷新 Catalog、派生 JSON 和统计图，再清理已发布的临时审核元数据。部署密钥用于推送 Catalog 提交，该次推送触发 Pages 部署。
 
 不同游戏可以独立审核。发布遇到推送竞争时，从最新 `main` 重新生成共享数据；不要把旧 PR 正文覆盖回已发布的条目。同一游戏的真实内容冲突需要维护者处理，`/force-refresh` 不保证解决此类冲突。
 
 `/update` 与 `/force-refresh` 有投稿归属、用户权限和打开状态检查。保留这些边界；PR 刷新通过合并主分支保留历史。App ID 修正仅适用于尚未入库的新游戏，并须同步独立 JSON 内的 ID。JSON-only 升级 BIN 的文本保留约束见 [贡献指南](CONTRIBUTING.md#-更新时的格式限制)。
 
 ## 维护与故障定位
+
+维护者在仓库设置中配置一个有写权限的 Deploy key，把私钥存为 `catalog-publication` 环境的 `CATALOG_DEPLOY_KEY` secret，并将环境的部署分支限制为 `main`。在 **Require PR and checks** 规则集的绕过名单为 **Deploy keys** 选择 **Always allow**。该例外适用于仓库的所有可写部署密钥，因此只保留 Catalog 发布所需的可写密钥。**Protect main** 继续拦截删除和非快进推送。
 
 需要更新已提交的派生数据时，在修改源文件后运行：
 
@@ -107,13 +109,15 @@ Preserve these constraints when changing the relevant processing:
 1. Issue templates collect submissions, updates, petitions, and reports. **Translation library automation** handles issues, comment commands, PR review, and post-merge publication. It uses the built-in `github-actions[bot]` identity to create and maintain PRs.
 2. A validated submission creates a review PR limited to `files/<app_id>/`. Generated `submission.json` holds the game's pending catalog proposal, and per-variant `achievements.md` files support review. When automation creates or updates the submission branch, it runs **Repository checks** on that branch to attach the required `validate` check to its latest commit. Contributors can submit without using Actions directly.
 3. PR checks overlay proposals in memory and compare them with the actual files. Pending files can differ from the published catalog; changing the shared index early is not a way to fix this.
-4. Automation merges the PR after maintainer approval and required checks pass. Publication consumes all pending proposals on current `main`, refreshes the catalog, derived JSON, and statistics, and removes published temporary review metadata. The publication job uses a short-lived `contents: write` credential from the existing GitHub App to push to protected `main`. That push triggers Pages deployment.
+4. Automation merges the PR after maintainer approval and required checks pass, then starts publication on `main`. Publication consumes all pending proposals on current `main`, refreshes the catalog, derived JSON, and statistics, and removes published temporary review metadata. The job pushes the catalog commit using a deploy key. That push triggers Pages deployment.
 
 Different games can be reviewed independently. Push races regenerate shared data from current `main`; do not replay old PR bodies over published entries. Real conflicts within one game need maintainer resolution; `/force-refresh` does not guarantee a resolution.
 
 Preserve submission ownership, user authorization, and open-state checks on `/update` and `/force-refresh`. PR refresh merges main while preserving history. App ID corrections apply only to new, unpublished games and also update standalone JSON IDs. See [Contributing](CONTRIBUTING_EN.md#-format-restrictions-on-updates) for text-preservation requirements when upgrading JSON-only variants to BIN.
 
 ### Maintenance and diagnosis
+
+In repository settings, add a deploy key with write access and store its private key as the `CATALOG_DEPLOY_KEY` secret in the `catalog-publication` environment. Restrict the environment to the `main` branch. In the **Require PR and checks** ruleset, give **Deploy keys** the **Always allow** bypass. The exception covers every write-enabled deploy key in the repository, so keep only the write-enabled key used for catalog publication. **Protect main** enforces deletion and non-fast-forward restrictions.
 
 After changing source data, use `catalog_refresh.py` and then `check_repository.py` as shown above when generated data needs updating. Refresh writes the catalog, JSON, and statistics; inspect the complete diff. Do not hand-edit BIN-derived format 1 JSON or the statistics SVG. Documentation-only changes do not need regeneration.
 
