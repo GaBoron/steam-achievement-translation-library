@@ -1,0 +1,2528 @@
+{
+  "version": 1,
+  "app_id": "387290",
+  "variant_id": "default",
+  "source_sha256": "cce6c670ea6b3f1c8c022391a5df1c4d3f9e2cc0e886c3f74c1fbe3bfbaa9ee8",
+  "languages": [
+    "brazilian",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "portuguese",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "completePrologue": {
+      "translations": {
+        "brazilian": {
+          "name": "A jornada tem início",
+          "description": "Conclua o prólogo"
+        },
+        "english": {
+          "name": "The Journey Begins",
+          "description": "Complete the Prologue"
+        },
+        "french": {
+          "name": "Le périple commence",
+          "description": "Termine le prologue"
+        },
+        "german": {
+          "name": "Die Reise beginnt",
+          "description": "Beende den Prolog"
+        },
+        "italian": {
+          "name": "Inizio del viaggio",
+          "description": "Completa il prologo"
+        },
+        "japanese": {
+          "name": "旅の始まり",
+          "description": "プロローグを完了しましょう"
+        },
+        "portuguese": {
+          "name": "A jornada tem início",
+          "description": "Conclua o prólogo"
+        },
+        "russian": {
+          "name": "Путешествие начинается",
+          "description": "Завершите пролог"
+        },
+        "schinese": {
+          "name": "旅途开始",
+          "description": "完成序章"
+        },
+        "spanish": {
+          "name": "El viaje comienza",
+          "description": "Completa el prólogo."
+        }
+      }
+    },
+    "reachSpiritTree": {
+      "translations": {
+        "brazilian": {
+          "name": "A Criatura Anciã",
+          "description": "Conheça a Criatura Anciã"
+        },
+        "english": {
+          "name": "The Ancient Being ",
+          "description": "Meet the Ancient Being"
+        },
+        "french": {
+          "name": "L'Ancien",
+          "description": "Rencontre l'Ancien"
+        },
+        "german": {
+          "name": "Das uralte Wesen",
+          "description": "Begegne dem uralten Wesen"
+        },
+        "italian": {
+          "name": "L'antica creatura",
+          "description": "Incontra l'antica creatura"
+        },
+        "japanese": {
+          "name": "時代を知る者",
+          "description": "「時代を知る者」に会いましょう"
+        },
+        "portuguese": {
+          "name": "A Criatura Anciã",
+          "description": "Conheça a Criatura Anciã"
+        },
+        "russian": {
+          "name": "Древний ",
+          "description": "Повстречайте Древнего"
+        },
+        "schinese": {
+          "name": "古老存在",
+          "description": "会见古老存在"
+        },
+        "spanish": {
+          "name": "El ser ancestral",
+          "description": "Conoce al ser ancestral."
+        }
+      }
+    },
+    "meetGumo": {
+      "translations": {
+        "brazilian": {
+          "name": "Volte aqui!",
+          "description": "Descubra o personagem nas sombras"
+        },
+        "english": {
+          "name": "Get Back Here!",
+          "description": "Discover the character in the shadows"
+        },
+        "french": {
+          "name": "Reviens ici !",
+          "description": "Découvre l'être qui se cache dans l'ombre"
+        },
+        "german": {
+          "name": "Komm zurück!",
+          "description": "Finde den Charakter in den Schatten"
+        },
+        "italian": {
+          "name": "Torna qui!",
+          "description": "Scopri il personaggio nell'ombra"
+        },
+        "japanese": {
+          "name": "戻っておいで!",
+          "description": "影の中にいるキャラクターを見つけましょう"
+        },
+        "portuguese": {
+          "name": "Volte aqui!",
+          "description": "Descubra o personagem nas sombras"
+        },
+        "russian": {
+          "name": "Вернись!",
+          "description": "Найдите персонажа в тени"
+        },
+        "schinese": {
+          "name": "回到这里！",
+          "description": "发现潜藏在阴影中的角色"
+        },
+        "spanish": {
+          "name": "¡Vuelve aquí!",
+          "description": "Descubre al personaje en las sombras."
+        }
+      }
+    },
+    "retrieveWaterVein": {
+      "translations": {
+        "brazilian": {
+          "name": "Vamos ser amigos",
+          "description": "Faça um amigo inesperado"
+        },
+        "english": {
+          "name": "Let's be Friends",
+          "description": "Make an unexpected friend"
+        },
+        "french": {
+          "name": "Soyons amis",
+          "description": "Noue une amitié improbable"
+        },
+        "german": {
+          "name": "Lass uns Freunde sein",
+          "description": "Schließe eine unverhoffte Freundschaft"
+        },
+        "italian": {
+          "name": "Diventiamo amici",
+          "description": "Fai un'amicizia inaspettata"
+        },
+        "japanese": {
+          "name": "友達になろうよ",
+          "description": "「意外な友達」を作りましょう"
+        },
+        "portuguese": {
+          "name": "Vamos ser amigos",
+          "description": "Faça um amigo inesperado"
+        },
+        "russian": {
+          "name": "Будем друзьями",
+          "description": "Найдите неожиданного друга"
+        },
+        "schinese": {
+          "name": "结交朋友",
+          "description": "结交意外之友"
+        },
+        "spanish": {
+          "name": "Seamos amigos",
+          "description": "Haz un amigo inesperado."
+        }
+      }
+    },
+    "enterGinsoTree": {
+      "translations": {
+        "brazilian": {
+          "name": "Podre por dentro",
+          "description": "Entre na Árvore de Ginso"
+        },
+        "english": {
+          "name": "Rotten Inside",
+          "description": "Enter the Ginso Tree"
+        },
+        "french": {
+          "name": "Pourri de l'intérieur",
+          "description": "Pénètre dans l'Arbre de Ginso"
+        },
+        "german": {
+          "name": "Innen verfault",
+          "description": "Betritt den Ginsobaum"
+        },
+        "italian": {
+          "name": "Corrotto dentro",
+          "description": "Entra nell'Albero Ginso"
+        },
+        "japanese": {
+          "name": "荒れ果てた内部",
+          "description": "ギンソウ樹に潜入しましょう"
+        },
+        "portuguese": {
+          "name": "Podre por dentro",
+          "description": "Entre na Árvore de Ginso"
+        },
+        "russian": {
+          "name": "Гнилое внутри",
+          "description": "Войдите в Древо Гинзо"
+        },
+        "schinese": {
+          "name": "腐败的内部",
+          "description": "进入银之树"
+        },
+        "spanish": {
+          "name": "Podrido por dentro",
+          "description": "Entra en el árbol Ginso."
+        }
+      }
+    },
+    "ressurectedGinsoHeart": {
+      "translations": {
+        "brazilian": {
+          "name": "Corra por sua vida",
+          "description": "Purifique o Coração da Árvore de Ginso"
+        },
+        "english": {
+          "name": "Run for Your Life",
+          "description": "Cleanse the Ginso Tree's Heart"
+        },
+        "french": {
+          "name": "Sauve-qui-peut",
+          "description": "Purifie le cœur de l'Arbre de Ginso"
+        },
+        "german": {
+          "name": "Lauf um dein Leben",
+          "description": "Reinige das Herz des Ginsobaums"
+        },
+        "italian": {
+          "name": "Fuga a gambe levate",
+          "description": "Ripulisci il cuore dell'Albero Ginso"
+        },
+        "japanese": {
+          "name": "命がけの走行",
+          "description": "ギンソウ樹のハートを清めましょう"
+        },
+        "portuguese": {
+          "name": "Corra para salvar sua vida",
+          "description": "Purifique o Coração da Árvore de Ginso"
+        },
+        "russian": {
+          "name": "Спасайтесь бегством",
+          "description": "Очистите сердце Древа Гинзо"
+        },
+        "schinese": {
+          "name": "逃出生天",
+          "description": "净化银之树的心"
+        },
+        "spanish": {
+          "name": "Corre por tu vida",
+          "description": "Purifica el corazón del árbol Ginso."
+        }
+      }
+    },
+    "escapeGinsoTree": {
+      "translations": {
+        "brazilian": {
+          "name": "Por pouco",
+          "description": "Escape de uma situação perigosa"
+        },
+        "english": {
+          "name": "Close Call",
+          "description": "Escape a dangerous situation  "
+        },
+        "french": {
+          "name": "Moins une",
+          "description": "Tire-toi d'une situation épineuse"
+        },
+        "german": {
+          "name": "Das war knapp",
+          "description": "Entkomme aus einer gefährlichen Situation"
+        },
+        "italian": {
+          "name": "Per un pelo",
+          "description": "Fuggi da una situazione pericolosa"
+        },
+        "japanese": {
+          "name": "危機一髪",
+          "description": "ピンチを切り抜けましょう"
+        },
+        "portuguese": {
+          "name": "Por pouco",
+          "description": "Escape de uma situação perigosa"
+        },
+        "russian": {
+          "name": "Опасная ситуация",
+          "description": "Спаситесь от опасности  "
+        },
+        "schinese": {
+          "name": "千钧一发",
+          "description": "逃离危险的境地"
+        },
+        "spanish": {
+          "name": "Por muy poco",
+          "description": "Escapa de una situación peligrosa."
+        }
+      }
+    },
+    "clearMistyWoods": {
+      "translations": {
+        "brazilian": {
+          "name": "Obtendo clareza",
+          "description": "Elimine o nevoeiro da Floresta da neblina"
+        },
+        "english": {
+          "name": "Obtaining Clarity",
+          "description": "Clear the haze from the Misty Woods"
+        },
+        "french": {
+          "name": "Un peu de clarté",
+          "description": "Dissipe le brouillard des Bois brumeux"
+        },
+        "german": {
+          "name": "Klarheit gewinnen",
+          "description": "Vertreibe den Nebel aus dem Nebelforst"
+        },
+        "italian": {
+          "name": "In cerca di chiarezza",
+          "description": "Fai sparire la foschia dal Bosco nebbioso"
+        },
+        "japanese": {
+          "name": "すっきり爽快",
+          "description": "霧の森のモヤを晴らしましょう"
+        },
+        "portuguese": {
+          "name": "Obtendo clareza",
+          "description": "Elimine o nevoeiro da Floresta da neblina"
+        },
+        "russian": {
+          "name": "Прояснение картины",
+          "description": "Очистите Туманный лес от тумана"
+        },
+        "schinese": {
+          "name": "清晰视野",
+          "description": "清除迷雾森林的雾"
+        },
+        "spanish": {
+          "name": "En busca de la claridad",
+          "description": "Despeja la neblina de los Bosques nublados."
+        }
+      }
+    },
+    "restoreWind": {
+      "translations": {
+        "brazilian": {
+          "name": "Terra firme",
+          "description": "Restaure os ventos de Nibel"
+        },
+        "english": {
+          "name": "Solid Ground",
+          "description": "Restore the winds of Nibel"
+        },
+        "french": {
+          "name": "Terre ferme",
+          "description": "Ravive les vents de Nibel"
+        },
+        "german": {
+          "name": "Fester Boden",
+          "description": "Stelle den Wind von Nibel wieder her"
+        },
+        "italian": {
+          "name": "Terra ferma",
+          "description": "Ripristina i venti di Nibel"
+        },
+        "japanese": {
+          "name": "力強い大地",
+          "description": "ニブルの風を呼び戻しましょう"
+        },
+        "portuguese": {
+          "name": "Terra firme",
+          "description": "Restaure os ventos de Nibel"
+        },
+        "russian": {
+          "name": "Твердая земля",
+          "description": "Восстановите ветра Нибела"
+        },
+        "schinese": {
+          "name": "踏上平地",
+          "description": "恢复尼博尔山的风"
+        },
+        "spanish": {
+          "name": "Tierra firme",
+          "description": "Restaura los vientos de Nibel."
+        }
+      }
+    },
+    "escapedKuro": {
+      "translations": {
+        "brazilian": {
+          "name": "Lute para viver outro dia",
+          "description": "Faça um contato imediato"
+        },
+        "english": {
+          "name": "Fight to Live Another Day",
+          "description": "Have a close encounter"
+        },
+        "french": {
+          "name": "Lutte pour la survie",
+          "description": "Frôle la mort"
+        },
+        "german": {
+          "name": "Kämpfe, um den nächsten Tag noch zu erleben",
+          "description": "Bringe eine gefährliche Begegnung hinter dich"
+        },
+        "italian": {
+          "name": "Lotta per sopravvivere",
+          "description": "Fai un incontro ravvicinato"
+        },
+        "japanese": {
+          "name": "生き延びるための奮闘",
+          "description": "未知との遭遇の時です"
+        },
+        "portuguese": {
+          "name": "Lute para viver outro dia",
+          "description": "Faça um contato imediato"
+        },
+        "russian": {
+          "name": "Сразитесь, чтобы выжить",
+          "description": "Сразитесь в ближнем бою"
+        },
+        "schinese": {
+          "name": "改日再战",
+          "description": "近距离接触"
+        },
+        "spanish": {
+          "name": "Pelea hoy para vivir mañana",
+          "description": "Ten un encuentro cercano."
+        }
+      }
+    },
+    "recoverSunstone": {
+      "translations": {
+        "brazilian": {
+          "name": "No topo do mundo",
+          "description": "Suba até o topo de Nibel"
+        },
+        "english": {
+          "name": "Top of the world",
+          "description": "Climb to the top of Nibel"
+        },
+        "french": {
+          "name": "Au-dessus de tout",
+          "description": "Grimpe au sommet de Nibel"
+        },
+        "german": {
+          "name": "Der Gipfel der Welt",
+          "description": "Erklimme Nibels Höhen"
+        },
+        "italian": {
+          "name": "In cima al mondo",
+          "description": "Sali fino alla cima di Nibel"
+        },
+        "japanese": {
+          "name": "世界の頂上",
+          "description": "ニブルで一番高いところに登りましょう"
+        },
+        "portuguese": {
+          "name": "No topo do mundo",
+          "description": "Suba até o topo de Nibel"
+        },
+        "russian": {
+          "name": "Вершина мира",
+          "description": "Вскарабкайтесь на вершину Нибела"
+        },
+        "schinese": {
+          "name": "世界之巅",
+          "description": "攀爬到尼博尔山顶端"
+        },
+        "spanish": {
+          "name": "La cima del mundo",
+          "description": "Sube a la cima de Nibel."
+        }
+      }
+    },
+    "enterMountHoru": {
+      "translations": {
+        "brazilian": {
+          "name": "No fogo",
+          "description": "Entre no Monte Horu"
+        },
+        "english": {
+          "name": "Into the Fire",
+          "description": "Enter Mt. Horu"
+        },
+        "french": {
+          "name": "Dans la fournaise",
+          "description": "Pénètre dans le mont Horu"
+        },
+        "german": {
+          "name": "Ins Feuer",
+          "description": "Betritt den Horuberg"
+        },
+        "italian": {
+          "name": "Tra le fiamme",
+          "description": "Entra nel monte Horu"
+        },
+        "japanese": {
+          "name": "炎の中へ",
+          "description": "ホルー山に入りましょう"
+        },
+        "portuguese": {
+          "name": "No fogo",
+          "description": "Entre no Monte Horu"
+        },
+        "russian": {
+          "name": "В огонь",
+          "description": "Войдите в гору Хору"
+        },
+        "schinese": {
+          "name": "深入火海",
+          "description": "进入掘之山"
+        },
+        "spanish": {
+          "name": "En el fuego",
+          "description": "Entra en el monte Horu."
+        }
+      }
+    },
+    "restoreFire": {
+      "translations": {
+        "brazilian": {
+          "name": "Reacender",
+          "description": "Atice as chamas"
+        },
+        "english": {
+          "name": "Rekindle",
+          "description": "Fan the flames"
+        },
+        "french": {
+          "name": "Braises",
+          "description": "Ravive les flammes"
+        },
+        "german": {
+          "name": "Wiederentfachung",
+          "description": "Schüre die Flammen"
+        },
+        "italian": {
+          "name": "Riaccensione",
+          "description": "Alimenta le fiamme"
+        },
+        "japanese": {
+          "name": "再点火",
+          "description": "火をおこしましょう"
+        },
+        "portuguese": {
+          "name": "Reacender",
+          "description": "Atice as chamas"
+        },
+        "russian": {
+          "name": "Возрождение тепла",
+          "description": "Раздуйте пламя"
+        },
+        "schinese": {
+          "name": "重新点燃",
+          "description": "煽风点火"
+        },
+        "spanish": {
+          "name": "Reavivar",
+          "description": "Atiza las llamas."
+        }
+      }
+    },
+    "naruReunion": {
+      "translations": {
+        "brazilian": {
+          "name": "Amor",
+          "description": "Uma ligação de amor"
+        },
+        "english": {
+          "name": "Love",
+          "description": "A beloved bond"
+        },
+        "french": {
+          "name": "Amour",
+          "description": "Un lien fort"
+        },
+        "german": {
+          "name": "Liebe",
+          "description": "Eine geliebte Bande"
+        },
+        "italian": {
+          "name": "Amore",
+          "description": "Un legame d'amore"
+        },
+        "japanese": {
+          "name": "愛",
+          "description": "愛の絆を見つけましょう"
+        },
+        "portuguese": {
+          "name": "Amor",
+          "description": "Uma ligação de amor"
+        },
+        "russian": {
+          "name": "Любовь",
+          "description": "Обет возлюбленных"
+        },
+        "schinese": {
+          "name": "爱",
+          "description": "爱之羁绊"
+        },
+        "spanish": {
+          "name": "Amor",
+          "description": "Un vínculo de amor."
+        }
+      }
+    },
+    "completeGame": {
+      "translations": {
+        "brazilian": {
+          "name": "A jornada chega ao fim",
+          "description": "Complete o jogo"
+        },
+        "english": {
+          "name": "The Journey Ends",
+          "description": "Complete the game"
+        },
+        "french": {
+          "name": "La fin du périple",
+          "description": "Termine le jeu"
+        },
+        "german": {
+          "name": "Die Reise endet",
+          "description": "Spiele das Spiel durch"
+        },
+        "italian": {
+          "name": "Fine del viaggio",
+          "description": "Finisci il gioco"
+        },
+        "japanese": {
+          "name": "旅の終わり",
+          "description": "ゲームをクリアしましょう"
+        },
+        "portuguese": {
+          "name": "A jornada chega ao fim",
+          "description": "Complete o jogo"
+        },
+        "russian": {
+          "name": "Конец путешествия",
+          "description": "Пройдите игру"
+        },
+        "schinese": {
+          "name": "旅途终点",
+          "description": "完成游戏"
+        },
+        "spanish": {
+          "name": "El viaje termina",
+          "description": "Completa el juego."
+        }
+      }
+    },
+    "createLotsOfSoulLinks": {
+      "translations": {
+        "brazilian": {
+          "name": "Salva-vidas",
+          "description": "Crie 50 Elos da alma"
+        },
+        "english": {
+          "name": "Life Saver",
+          "description": "Create 50 Soul Links"
+        },
+        "french": {
+          "name": "Sauveur",
+          "description": "Crée 50 Liens d'âme"
+        },
+        "german": {
+          "name": "Lebensretter",
+          "description": "Erzeuge 50 Seelenverbindungen"
+        },
+        "italian": {
+          "name": "Salvatore",
+          "description": "Crea 50 Collegamenti dell'anima"
+        },
+        "japanese": {
+          "name": "ライフセーバー",
+          "description": "50 のソウルリンクを作りましょう"
+        },
+        "portuguese": {
+          "name": "Salva-vidas",
+          "description": "Crie 50 Elos da alma"
+        },
+        "russian": {
+          "name": "Спаситель",
+          "description": "Создайте 50 духовных связей"
+        },
+        "schinese": {
+          "name": "救命之物",
+          "description": "建立 50 个灵魂链接"
+        },
+        "spanish": {
+          "name": "Salvador de vidas",
+          "description": "Crea 50 vínculos de alma."
+        }
+      }
+    },
+    "killManyWithChargeFlame": {
+      "translations": {
+        "brazilian": {
+          "name": "Detonação mortal",
+          "description": "Mate 4 inimigos simultaneamente usando Chama de carga."
+        },
+        "english": {
+          "name": "Deadly Detonation",
+          "description": "Kill 4 enemies simultaneously using Charge Flame."
+        },
+        "french": {
+          "name": "Explosion meurtrière",
+          "description": "Élimine 4 ennemis en même temps avec une Flamme attisée"
+        },
+        "german": {
+          "name": "Tödliche Detonation",
+          "description": "Besiege 4 Feinde mit einer Stichflamme auf einmal"
+        },
+        "italian": {
+          "name": "Esplosione mortale",
+          "description": "Uccidi 4 nemici contemporaneamente usando la Fiamma caricata"
+        },
+        "japanese": {
+          "name": "命がけの爆撃",
+          "description": "4 体の敵をチャージフレイムを使って同時に倒しましょう"
+        },
+        "portuguese": {
+          "name": "Detonação mortal",
+          "description": "Mate 4 inimigos simultaneamente usando Chama de carga."
+        },
+        "russian": {
+          "name": "Смертельный взрыв",
+          "description": "Убейте одновременно 4 противников одним усиленным пламенем."
+        },
+        "schinese": {
+          "name": "致命爆炸",
+          "description": "使用充能烈焰同时杀掉 4 名敌人"
+        },
+        "spanish": {
+          "name": "Detonación letal",
+          "description": "Mata a 4 enemigos a la vez con llama cargada."
+        }
+      }
+    },
+    "killManyWithBashRedirect": {
+      "translations": {
+        "brazilian": {
+          "name": "Defesa mortal",
+          "description": "Mate 25 inimigos usando Golpear para refletir projéteis"
+        },
+        "english": {
+          "name": "Deadly Deflection",
+          "description": "Kill 25 enemies using Bash to reflect projectiles"
+        },
+        "french": {
+          "name": "Déviation meurtrière",
+          "description": "Élimine 25 ennemis en Frappant pour renvoyer des projectiles"
+        },
+        "german": {
+          "name": "Tödliche Reflexion",
+          "description": "Nutze den Stoß zum Zurückschleudern von Geschossen und besiege so 25 Feinde"
+        },
+        "italian": {
+          "name": "Diversione mortale",
+          "description": "Uccidi 25 nemici usando il Colpo per deviare i proiettili"
+        },
+        "japanese": {
+          "name": "命がけの軌道修正",
+          "description": "打撃で発射物を跳ね返し 25 体の敵を倒しましょう"
+        },
+        "portuguese": {
+          "name": "Defesa mortal",
+          "description": "Mate 25 inimigos usando Golpear para refletir projéteis"
+        },
+        "russian": {
+          "name": "Смертельное отражение",
+          "description": "Убейте 25 противников, используя удар, чтобы отразить в них снаряды"
+        },
+        "schinese": {
+          "name": "致命反弹",
+          "description": "使用猛击反射投射物杀死 25 个敌人"
+        },
+        "spanish": {
+          "name": "Desvío letal",
+          "description": "Mata a 25 enemigos usando golpe para desviar proyectiles."
+        }
+      }
+    },
+    "openShortcutsWithChargeFlame": {
+      "translations": {
+        "brazilian": {
+          "name": "Um novo caminho",
+          "description": "Abra 5 atalhos à força usando a Chama de carga"
+        },
+        "english": {
+          "name": "A New Path",
+          "description": "Break open 5 shortcuts using the Charge Flame"
+        },
+        "french": {
+          "name": "Une nouvelle voie",
+          "description": "Crée 5 raccourcis avec la Flamme attisée"
+        },
+        "german": {
+          "name": "Ein neuer Weg",
+          "description": "Öffne 5 Abkürzungen mit der Stichflamme"
+        },
+        "italian": {
+          "name": "Una nuova via",
+          "description": "Apri 5 scorciatoie utilizzando la Fiamma caricata"
+        },
+        "japanese": {
+          "name": "新たな道",
+          "description": "チャージフレイムで 5 つのショートカットを切り開きましょう"
+        },
+        "portuguese": {
+          "name": "Um novo caminho",
+          "description": "Abra 5 atalhos à força usando a Chama de carga"
+        },
+        "russian": {
+          "name": "Новый путь",
+          "description": "5 раз сократите путь с помощью усиленного пламени"
+        },
+        "schinese": {
+          "name": "另辟捷径",
+          "description": "使用充能烈焰打开 5 条捷径"
+        },
+        "spanish": {
+          "name": "Una nueva senda",
+          "description": "Abre 5 atajos usando la llama cargada."
+        }
+      }
+    },
+    "activateFirstSkill": {
+      "translations": {
+        "brazilian": {
+          "name": "Escolhas, escolhas",
+          "description": "Use seu primeiro ponto de habilidade"
+        },
+        "english": {
+          "name": "Choices Choices",
+          "description": "Use your first ability point"
+        },
+        "french": {
+          "name": "L'embarras du choix",
+          "description": "Dépense ton premier Point de compétence"
+        },
+        "german": {
+          "name": "Entscheidungen über Entscheidungen",
+          "description": "Setze deinen ersten Fähigkeitenpunkt ein"
+        },
+        "italian": {
+          "name": "Imbarazzo della scelta",
+          "description": "Usa il tuo primo punto abilità"
+        },
+        "japanese": {
+          "name": "どれにしようかな",
+          "description": "最初の能力ポイントを使いましょう"
+        },
+        "portuguese": {
+          "name": "Escolhas, escolhas",
+          "description": "Use seu primeiro ponto de habilidade"
+        },
+        "russian": {
+          "name": "Сколько возможностей",
+          "description": "Используйте первое очко умений"
+        },
+        "schinese": {
+          "name": "众多抉择",
+          "description": "使用第一个能力点数"
+        },
+        "spanish": {
+          "name": "Decisiones y más decisiones",
+          "description": "Usa tu primer punto de habilidad."
+        }
+      }
+    },
+    "chargeJumpIntoManyEnemies": {
+      "translations": {
+        "brazilian": {
+          "name": "Corrida mortal",
+          "description": "Mate 5 inimigos com Pulo de carga"
+        },
+        "english": {
+          "name": "Deadly Dash",
+          "description": "Kill 5 enemies with Charge Jump"
+        },
+        "french": {
+          "name": "Ruée meurtrière",
+          "description": "Élimine 5 ennemis avec des Sauts avec élan"
+        },
+        "german": {
+          "name": "Tödlicher Spurt",
+          "description": "Besiege 5 Feinde mit dem Supersprung"
+        },
+        "italian": {
+          "name": "Balzo mortale",
+          "description": "Uccidi 5 nemici con il Salto caricato"
+        },
+        "japanese": {
+          "name": "命がけのダッシュ",
+          "description": "チャージジャンプで 5 体の敵を倒しましょう"
+        },
+        "portuguese": {
+          "name": "Corrida mortal",
+          "description": "Mate 5 inimigos com Pulo de carga"
+        },
+        "russian": {
+          "name": "Смертельный рывок",
+          "description": "Убейте 5 противников с помощью мощного прыжка"
+        },
+        "schinese": {
+          "name": "致命冲撞",
+          "description": "使用充能跳跃杀掉 5 名敌人"
+        },
+        "spanish": {
+          "name": "Carrera letal",
+          "description": "Mata a 5 enemigos con salto cargado."
+        }
+      }
+    },
+    "findSecret": {
+      "translations": {
+        "brazilian": {
+          "name": "Tantos segredos",
+          "description": "Encontre o primeiro segredo"
+        },
+        "english": {
+          "name": "So Many Secrets",
+          "description": "Find your first secret"
+        },
+        "french": {
+          "name": "Tant de secrets",
+          "description": "Découvre ton premier secret"
+        },
+        "german": {
+          "name": "So viele Geheimnisse",
+          "description": "Finde dein erstes Geheimnis"
+        },
+        "italian": {
+          "name": "Tutti quei segreti",
+          "description": "Trova il tuo primo segreto"
+        },
+        "japanese": {
+          "name": "秘密のごほうびがいっぱい",
+          "description": "秘密のごほうびを 1 つ見つけましょう"
+        },
+        "portuguese": {
+          "name": "Tantos segredos",
+          "description": "Encontre seu primeiro segredo"
+        },
+        "russian": {
+          "name": "Столько секретов",
+          "description": "Найдите первый секрет"
+        },
+        "schinese": {
+          "name": "无数的秘密",
+          "description": "找出第一个秘密"
+        },
+        "spanish": {
+          "name": "Cuántos secretos",
+          "description": "Encuentra tu primer secreto."
+        }
+      }
+    },
+    "findHalfOfSecrets": {
+      "translations": {
+        "brazilian": {
+          "name": "Explorador experiente",
+          "description": "Encontre 50% de todos os segredos"
+        },
+        "english": {
+          "name": "Seasoned Explorer",
+          "description": "Find 50% of all secrets"
+        },
+        "french": {
+          "name": "Explorateur expert",
+          "description": "Découvre 50 % de tous les secrets"
+        },
+        "german": {
+          "name": "Erfahrener Erforscher",
+          "description": "Finde 50 % aller Geheimnisse"
+        },
+        "italian": {
+          "name": "Esploratore esperto",
+          "description": "Trova il 50% dei segreti"
+        },
+        "japanese": {
+          "name": "熟練の探検家",
+          "description": "全体の 50% の秘密のごほうびを見つけましょう"
+        },
+        "portuguese": {
+          "name": "Explorador experiente",
+          "description": "Encontre 50% de todos os segredos"
+        },
+        "russian": {
+          "name": "Бывалый исследователь",
+          "description": "Найдите 50% всех секретов"
+        },
+        "schinese": {
+          "name": "经验老到的探险家",
+          "description": "找出 50% 的秘密"
+        },
+        "spanish": {
+          "name": "Explorador avezado",
+          "description": "Encuentra el 50 % de los secretos."
+        }
+      }
+    },
+    "findAllSecrets": {
+      "translations": {
+        "brazilian": {
+          "name": "Não restou pedra sobre pedra",
+          "description": "Encontre todos os segredos"
+        },
+        "english": {
+          "name": "No Stone Unturned",
+          "description": "Find all secrets"
+        },
+        "french": {
+          "name": "Investigateur invétéré",
+          "description": "Découvre tous les secrets"
+        },
+        "german": {
+          "name": "Jeden Stein umdrehen",
+          "description": "Finde alle Geheimnisse"
+        },
+        "italian": {
+          "name": "Per mari e monti",
+          "description": "Trova tutti i segreti"
+        },
+        "japanese": {
+          "name": "そして全ては明らかに",
+          "description": "全ての秘密のごほうびを見つけましょう"
+        },
+        "portuguese": {
+          "name": "Não restou pedra sobre pedra",
+          "description": "Encontre todos os segredos"
+        },
+        "russian": {
+          "name": "Под каждым камушком",
+          "description": "Найдите все секреты"
+        },
+        "schinese": {
+          "name": "翻遍每一寸土地",
+          "description": "找出所有秘密"
+        },
+        "spanish": {
+          "name": "Hasta en el último rincón",
+          "description": "Encuentra todos los secretos."
+        }
+      }
+    },
+    "findMapStone": {
+      "translations": {
+        "brazilian": {
+          "name": "Marcando o caminho",
+          "description": "Restaure sua primeira Pedra do Mapa"
+        },
+        "english": {
+          "name": "Marking the way",
+          "description": "Restore your first Map Stone"
+        },
+        "french": {
+          "name": "Petit Poucet",
+          "description": "Replace ta première pierre-carte"
+        },
+        "german": {
+          "name": "Wegmarkierungen",
+          "description": "Stelle deinen ersten Kartenstein wieder her"
+        },
+        "italian": {
+          "name": "Segnando la via",
+          "description": "Ripristina la prima Mappa di pietra"
+        },
+        "japanese": {
+          "name": "道しるべ",
+          "description": "最初のマップストーンを取り戻しましょう"
+        },
+        "portuguese": {
+          "name": "Marcando o caminho",
+          "description": "Restaure sua primeira Pedra do Mapa"
+        },
+        "russian": {
+          "name": "В поисках дороги",
+          "description": "Восстановите первую каменную карту"
+        },
+        "schinese": {
+          "name": "标记前路",
+          "description": "恢复第一颗地图石"
+        },
+        "spanish": {
+          "name": "Por el buen camino",
+          "description": "Restaura tu primera piedra de mapa."
+        }
+      }
+    },
+    "findHalfOfMapStones": {
+      "translations": {
+        "brazilian": {
+          "name": "Na metade do caminho",
+          "description": "Restaure 50% de todas as Pedras do Mapa"
+        },
+        "english": {
+          "name": "Halfway There",
+          "description": "Restore 50% of all Map Stones"
+        },
+        "french": {
+          "name": "À mi-chemin",
+          "description": "Replace la moitié des pierres-cartes"
+        },
+        "german": {
+          "name": "Die Hälfte geschafft",
+          "description": "Stelle 50 % aller Kartensteine wieder her"
+        },
+        "italian": {
+          "name": "A metà dell'opera",
+          "description": "Ripristina il 50% delle Mappe di pietra"
+        },
+        "japanese": {
+          "name": "折り返し地点",
+          "description": "全体の 50% のマップストーンを取り戻しましょう"
+        },
+        "portuguese": {
+          "name": "Na metade do caminho",
+          "description": "Restaure 50% de todas as Pedras do Mapa"
+        },
+        "russian": {
+          "name": "В середине пути",
+          "description": "Восстановите 50% всех каменных карт"
+        },
+        "schinese": {
+          "name": "再接再厉",
+          "description": "恢复 50% 的地图石"
+        },
+        "spanish": {
+          "name": "A medio camino",
+          "description": "Restaura el 50 % de las piedras de mapa."
+        }
+      }
+    },
+    "findAllMapStones": {
+      "translations": {
+        "brazilian": {
+          "name": "O mundo a seus pés",
+          "description": "Restaure todas as Pedras do Mapa"
+        },
+        "english": {
+          "name": "World at Your Feet",
+          "description": "Restore all Map Stones"
+        },
+        "french": {
+          "name": "Le monde à tes pieds",
+          "description": "Replace toutes les pierres-cartes"
+        },
+        "german": {
+          "name": "Die Welt liegt dir zu Füßen",
+          "description": "Stelle alle Kartensteine wieder her"
+        },
+        "italian": {
+          "name": "Il mondo ai tuoi piedi",
+          "description": "Ripristina tutte le Mappe di pietra"
+        },
+        "japanese": {
+          "name": "世界はあなたの足元に",
+          "description": "全てのマップストーンを取り戻しましょう"
+        },
+        "portuguese": {
+          "name": "O mundo a seus pés",
+          "description": "Restaure todas as Pedras do Mapa"
+        },
+        "russian": {
+          "name": "Весь мир у ваших ног",
+          "description": "Восстановите все каменные карты"
+        },
+        "schinese": {
+          "name": "世界在你脚下",
+          "description": "恢复所有的地图石"
+        },
+        "spanish": {
+          "name": "El mundo a tus pies",
+          "description": "Restaura todos las piedras de mapa."
+        }
+      }
+    },
+    "findLostCorridor": {
+      "translations": {
+        "brazilian": {
+          "name": "Ótima visão",
+          "description": "Encontre o corredor perdido na Floresta da neblina"
+        },
+        "english": {
+          "name": "Good Eye",
+          "description": "Find the lost corridor in the Misty Woods"
+        },
+        "french": {
+          "name": "Œil de lynx",
+          "description": "Trouve le passage oublié des Bois brumeux"
+        },
+        "german": {
+          "name": "Gutes Auge",
+          "description": "Finde den verlorenen Pfad im Nebelforst"
+        },
+        "italian": {
+          "name": "Occhio di lince",
+          "description": "Trova il passaggio perduto nel Bosco nebbioso"
+        },
+        "japanese": {
+          "name": "良い目",
+          "description": "霧の森で荒れた回廊を見つけましょう"
+        },
+        "portuguese": {
+          "name": "Ótima visão",
+          "description": "Encontre o corredor perdido na Floresta da neblina"
+        },
+        "russian": {
+          "name": "Зоркий",
+          "description": "Отыщите потерянный коридор в Туманном лесу"
+        },
+        "schinese": {
+          "name": "好眼力",
+          "description": "找到迷雾森林里的失落走廊"
+        },
+        "spanish": {
+          "name": "Buen ojo",
+          "description": "Encuentra el pasillo perdido en los Bosques nublados."
+        }
+      }
+    },
+    "useEverySavePedestal": {
+      "translations": {
+        "brazilian": {
+          "name": "São e salvo",
+          "description": "Salve em todas as Fontes espirituais"
+        },
+        "english": {
+          "name": "Safe and Sound",
+          "description": "Save at every Spirit Portal "
+        },
+        "french": {
+          "name": "Sain et sauf",
+          "description": "Sauvegarde ta partie à chaque Puits aux esprits"
+        },
+        "german": {
+          "name": "Abgesichert",
+          "description": "Speichere bei jedem Geisterportal"
+        },
+        "italian": {
+          "name": "Sano e salvo",
+          "description": "Salva presso tutti i Pozzi dello spirito"
+        },
+        "japanese": {
+          "name": "どうぞご無事で",
+          "description": "全ての精霊の泉でセーブしましょう"
+        },
+        "portuguese": {
+          "name": "São e salvo",
+          "description": "Salve em todas as Fontes espirituais"
+        },
+        "russian": {
+          "name": "В безопасности",
+          "description": "Сохранитесь в каждом колодце духов "
+        },
+        "schinese": {
+          "name": "步步为营",
+          "description": "在每个精灵之井都保存游戏"
+        },
+        "spanish": {
+          "name": "Sano y salvo",
+          "description": "Guarda la partida en todos los pozos de espíritu."
+        }
+      }
+    },
+    "discoverAllMap": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre da floresta",
+          "description": "Visite 100% do mapa"
+        },
+        "english": {
+          "name": "Master of the Forest ",
+          "description": "Visit 100% of the map"
+        },
+        "french": {
+          "name": "Maître sylvestre",
+          "description": "Explore entièrement la carte"
+        },
+        "german": {
+          "name": "Herr des Waldes",
+          "description": "Besuche 100 % der Karte"
+        },
+        "italian": {
+          "name": "Signore della foresta",
+          "description": "Esplora il 100% della mappa"
+        },
+        "japanese": {
+          "name": "森の主",
+          "description": "マップの場所を全て訪れましょう"
+        },
+        "portuguese": {
+          "name": "Mestre da floresta",
+          "description": "Visite 100% do mapa"
+        },
+        "russian": {
+          "name": "Лесничий ",
+          "description": "Посетите 100% карты"
+        },
+        "schinese": {
+          "name": "森林大王",
+          "description": "探索 100% 的地图"
+        },
+        "spanish": {
+          "name": "Maestro del bosque",
+          "description": "Recorre el 100 % del mapa."
+        }
+      }
+    },
+    "collectLotsOfEnergy": {
+      "translations": {
+        "brazilian": {
+          "name": "Jogador energizado",
+          "description": "Colete 200 Fragmentos de energia"
+        },
+        "english": {
+          "name": "Power Player",
+          "description": "Collect 200 Energy Shards"
+        },
+        "french": {
+          "name": "Une énergie débordante",
+          "description": "Récupère 200 Fragments d'énergie"
+        },
+        "german": {
+          "name": "Energiebündel",
+          "description": "Sammle 200 Energiesplitter ein"
+        },
+        "italian": {
+          "name": "Power player",
+          "description": "Raccogli 200 Frammenti di energia"
+        },
+        "japanese": {
+          "name": "パワープレイヤー",
+          "description": "200 のエナジーのかけらを集めましょう"
+        },
+        "portuguese": {
+          "name": "Jogador energizado",
+          "description": "Collect 200 Energy Shards"
+        },
+        "russian": {
+          "name": "Сильный игрок",
+          "description": "Соберите 200 осколков энергии"
+        },
+        "schinese": {
+          "name": "强力玩家",
+          "description": "收集 200 个能量碎片"
+        },
+        "spanish": {
+          "name": "Jugador enérgico",
+          "description": "Consigue 200 fragmentos de energía."
+        }
+      }
+    },
+    "collectBranchOneSkills": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre da alma",
+          "description": "Ganhe todas as Habilidades de eficiência da Árvore de habilidades"
+        },
+        "english": {
+          "name": "Soul Master",
+          "description": "Earn all Efficiency Skills in the Ability Tree"
+        },
+        "french": {
+          "name": "Maître des âmes",
+          "description": "Obtiens toutes les compétences d'efficacité"
+        },
+        "german": {
+          "name": "Seelenmeister",
+          "description": "Meistere alle Effizienzfähigkeiten des Fähigkeitenbaums"
+        },
+        "italian": {
+          "name": "Signore dell'anima",
+          "description": "Ottieni tutte le abilità di efficienza dell'albero delle abilità"
+        },
+        "japanese": {
+          "name": "ソウルマスター",
+          "description": "能力ツリーの効率化スキルを全て獲得しましょう"
+        },
+        "portuguese": {
+          "name": "Mestre da alma",
+          "description": "Ganhe todas as Habilidades de eficiência da Árvore de habilidades"
+        },
+        "russian": {
+          "name": "Духовных дел мастер",
+          "description": "Освойте все эффективные навыки в древе умений"
+        },
+        "schinese": {
+          "name": "灵魂大师",
+          "description": "学会能力之树当中所有的效率技能"
+        },
+        "spanish": {
+          "name": "Maestro del alma",
+          "description": "Obtén todas las habilidades de eficiencia del árbol de habilidades."
+        }
+      }
+    },
+    "collectBranchTwoSkills": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre dos utilitários",
+          "description": "Ganhe todas as Habilidades utilitárias da Árvore de habilidades"
+        },
+        "english": {
+          "name": "Utility Master",
+          "description": "Earn all Utility Skills in the Ability Tree"
+        },
+        "french": {
+          "name": "Maître de l'utilitaire",
+          "description": "Obtiens toutes les compétences utilitaires"
+        },
+        "german": {
+          "name": "Nutzungsmeister",
+          "description": "Meistere alle Nutzungsfähigkeiten des Fähigkeitenbaums"
+        },
+        "italian": {
+          "name": "Signore dell'utilità",
+          "description": "Ottieni tutte le abilità di utilità dell'albero delle abilità"
+        },
+        "japanese": {
+          "name": "ユーティリティマスター",
+          "description": "能力ツリーのユーティリティスキルを全て獲得しましょう"
+        },
+        "portuguese": {
+          "name": "Mestre dos utilitários",
+          "description": "Ganhe todas as Habilidades utilitárias da Árvore de habilidades"
+        },
+        "russian": {
+          "name": "Функциональный мастер",
+          "description": "Освойте все функциональные навыки в древе умений"
+        },
+        "schinese": {
+          "name": "功效大师",
+          "description": "学会能力之树当中所有的功效技能"
+        },
+        "spanish": {
+          "name": "Maestro de la utilidad",
+          "description": "Obtén todas las habilidades de utilidad del árbol de habilidades."
+        }
+      }
+    },
+    "collectBranchThreeSkills": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre do combate",
+          "description": "Ganhe todas as Habilidades de combate da Árvore de habilidades"
+        },
+        "english": {
+          "name": "Combat Master",
+          "description": "Earn all Combat Skills in the Ability Tree"
+        },
+        "french": {
+          "name": "Maître martial",
+          "description": "Obtiens toutes les compétences de combat"
+        },
+        "german": {
+          "name": "Kampfmeister",
+          "description": "Meistere alle Kampffähigkeiten des Fähigkeitenbaums"
+        },
+        "italian": {
+          "name": "Signore del combattimento",
+          "description": "Ottieni tutte le abilità di combattimento dell'albero delle abilità"
+        },
+        "japanese": {
+          "name": "戦闘マスター",
+          "description": "能力ツリーの戦闘スキルを全て獲得しましょう"
+        },
+        "portuguese": {
+          "name": "Mestre do combate",
+          "description": "Ganhe todas as Habilidades de combate da Árvore de habilidades"
+        },
+        "russian": {
+          "name": "Мастер боя",
+          "description": "Освойте все боевые навыки в древе умений"
+        },
+        "schinese": {
+          "name": "战斗大师",
+          "description": "学会能力之树当中所有的战斗技能"
+        },
+        "spanish": {
+          "name": "Maestro del combate",
+          "description": "Obtén todas las habilidades de combate del árbol de habilidades."
+        }
+      }
+    },
+    "collectAllSkills": {
+      "translations": {
+        "brazilian": {
+          "name": "Fenomenal",
+          "description": "Ganhe todas as Habilidades da Árvore de habilidades"
+        },
+        "english": {
+          "name": "Phenom",
+          "description": "Earn all skills in the Ability Tree"
+        },
+        "french": {
+          "name": "Prodige",
+          "description": "Obtiens toutes les compétences"
+        },
+        "german": {
+          "name": "Phänomen",
+          "description": "Meistere alle Fähigkeiten des Fähigkeitenbaums"
+        },
+        "italian": {
+          "name": "Fenomeno",
+          "description": "Ottieni tutte le abilità dell'albero delle abilità"
+        },
+        "japanese": {
+          "name": "天性の才能",
+          "description": "能力ツリーのスキルを全て獲得しましょう"
+        },
+        "portuguese": {
+          "name": "Fenomenal",
+          "description": "Ganhe todas as Habilidades da Árvore de habilidades"
+        },
+        "russian": {
+          "name": "Одаренный",
+          "description": "Освойте все навыки в древе умений"
+        },
+        "schinese": {
+          "name": "国士无双",
+          "description": "学会能力之树当中所有的技能"
+        },
+        "spanish": {
+          "name": "Fenómeno",
+          "description": "Obtén todas las habilidades del árbol de habilidades."
+        }
+      }
+    },
+    "collectAllEnergyCells": {
+      "translations": {
+        "brazilian": {
+          "name": "Poderoso",
+          "description": "Colete todas as Células de energia"
+        },
+        "english": {
+          "name": "Powerhouse ",
+          "description": "Collect all Energy Cells"
+        },
+        "french": {
+          "name": "Centrale énergétique",
+          "description": "Récupère toutes les Cellules d'énergie"
+        },
+        "german": {
+          "name": "Kraftwerk",
+          "description": "Sammle alle Energiezellen ein"
+        },
+        "italian": {
+          "name": "Centrale elettrica",
+          "description": "Raccogli tutte le Cellule energetiche"
+        },
+        "japanese": {
+          "name": "パワーハウス",
+          "description": "エナジーセルを全て集めましょう"
+        },
+        "portuguese": {
+          "name": "Poderoso",
+          "description": "Colete todas as Células de energia"
+        },
+        "russian": {
+          "name": "Мощный игрок ",
+          "description": "Соберите все ячейки энергии"
+        },
+        "schinese": {
+          "name": "精力旺盛",
+          "description": "收集所有的能量核心"
+        },
+        "spanish": {
+          "name": "Pura energía",
+          "description": "Consigue todas las células de energía."
+        }
+      }
+    },
+    "collectAllHealthCells": {
+      "translations": {
+        "brazilian": {
+          "name": "Guardião mestre",
+          "description": "Colete todas as Células de vitalidade"
+        },
+        "english": {
+          "name": "Master Guardian",
+          "description": "Collect all Health Cells"
+        },
+        "french": {
+          "name": "Gardien suprême",
+          "description": "Récupère toutes les Cellules de vitalité"
+        },
+        "german": {
+          "name": "Meisterwächter",
+          "description": "Sammle alle Lebenszellen ein"
+        },
+        "italian": {
+          "name": "Signore protettore",
+          "description": "Raccogli tutte le Cellule vitali"
+        },
+        "japanese": {
+          "name": "マスターガーディアン",
+          "description": "ライフセルを全て集めましょう"
+        },
+        "portuguese": {
+          "name": "Guardião mestre",
+          "description": "Colete todas as Células de vitalidade"
+        },
+        "russian": {
+          "name": "Настоящий страж",
+          "description": "Соберите все ячейки жизни"
+        },
+        "schinese": {
+          "name": "超级卫士",
+          "description": "收集所有的生命核心"
+        },
+        "spanish": {
+          "name": "Maestro guardián",
+          "description": "Consigue todas las células de vida."
+        }
+      }
+    },
+    "juggleRock": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre do malabarismo",
+          "description": "Jogue uma pedra ao ar 5 vezes sem deixar que ela caia no chão"
+        },
+        "english": {
+          "name": "Juggle Master",
+          "description": "Juggle a rock 5 times without it hitting the ground"
+        },
+        "french": {
+          "name": "Jongleur habile",
+          "description": "Jongle 5 fois sans faire tomber la pierre"
+        },
+        "german": {
+          "name": "Jonglagemeister",
+          "description": "Jongliere 5-Mal mit einem Fels, ohne dass er zu Boden fällt"
+        },
+        "italian": {
+          "name": "Signore giocoliere",
+          "description": "Fai acrobazie con una pietra 5 volte senza farla cadere a terra"
+        },
+        "japanese": {
+          "name": "ジャグリングマスター",
+          "description": "岩を地面に落とすことなく 5 回ジャグリングしましょう"
+        },
+        "portuguese": {
+          "name": "Mestre do malabarismo",
+          "description": "Jogue uma pedra ao ar 5 vezes sem deixar que ela caia no chão"
+        },
+        "russian": {
+          "name": "Жонглер",
+          "description": "5 раз подбросьте камень в воздух так, чтобы он не коснулся земли"
+        },
+        "schinese": {
+          "name": "杂耍大师",
+          "description": "杂耍一块岩石 5 次而不落到地面"
+        },
+        "spanish": {
+          "name": "Maestro malabarista",
+          "description": "Haz malabares con una roca 5 veces sin que toque el suelo."
+        }
+      }
+    },
+    "bashEnemyALotInARow": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre dos golpes",
+          "description": "Golpeie inimigos 10 vezes em seguida sem tocar no chão"
+        },
+        "english": {
+          "name": "Bash Master",
+          "description": "Bash off enemies 10 times in a row without touching the ground"
+        },
+        "french": {
+          "name": "Roi de la castagne",
+          "description": "Frappe des ennemis à 10 reprises sans toucher le sol"
+        },
+        "german": {
+          "name": "Stoßmeister",
+          "description": "Schlage 10-Mal in Folge Feinde weg, ohne den Boden zu berühren"
+        },
+        "italian": {
+          "name": "Signore dei colpi",
+          "description": "Respingi i nemici con il Colpo per 10 volte di seguito senza toccare terra"
+        },
+        "japanese": {
+          "name": "打撃マスター",
+          "description": "地面に触れずに 10 回連続で敵を打撃しましょう"
+        },
+        "portuguese": {
+          "name": "Mestre dos golpes",
+          "description": "Golpeie inimigos 10 vezes em seguida sem tocar no chão"
+        },
+        "russian": {
+          "name": "Мастер ударов",
+          "description": "10 раз подряд ударьте врагов, не касаясь земли"
+        },
+        "schinese": {
+          "name": "猛击大师",
+          "description": "连续对敌人使用 10 次猛击而不落到地面"
+        },
+        "spanish": {
+          "name": "Maestro golpeador",
+          "description": "Golpea 10 veces seguidas a tus enemigos sin tocar el suelo."
+        }
+      }
+    },
+    "trickEnemiesToKillEachOther": {
+      "translations": {
+        "brazilian": {
+          "name": "Desviando da morte",
+          "description": "Faça 5 inimigos matarem outro inimigo"
+        },
+        "english": {
+          "name": "Deadly Dodge",
+          "description": "Trick 5 enemies into killing another enemy"
+        },
+        "french": {
+          "name": "Esquive meurtrière",
+          "description": "Amène 5 ennemis à éliminer l'un de leurs alliés"
+        },
+        "german": {
+          "name": "Tödlicher Ausweicher",
+          "description": "Verleite 5 Feinde dazu, einen anderen Feind zu besiegen"
+        },
+        "italian": {
+          "name": "Schivata mortale",
+          "description": "Spingi 5 nemici a uccidere uno di loro"
+        },
+        "japanese": {
+          "name": "命がけの回避",
+          "description": "5 体の敵を同士討ちさせましょう"
+        },
+        "portuguese": {
+          "name": "Desviando da morte",
+          "description": "Faça 5 inimigos matarem outro inimigo"
+        },
+        "russian": {
+          "name": "Смертельный уворот",
+          "description": "5 раз заставьте противника убить другого противника"
+        },
+        "schinese": {
+          "name": "致命闪避",
+          "description": "使 5 名敌人误杀掉他的同伙"
+        },
+        "spanish": {
+          "name": "Evasión letal",
+          "description": "Logra que 5 enemigos maten a otro de ellos."
+        }
+      }
+    },
+    "killEnemiesWithoutTouchingGround": {
+      "translations": {
+        "brazilian": {
+          "name": "Fúria voadora",
+          "description": "Mate 3 inimigos sem tocar no chão"
+        },
+        "english": {
+          "name": "Flying Fury",
+          "description": "Kill 3 enemies without touching the ground"
+        },
+        "french": {
+          "name": "Fureur éthérée",
+          "description": "Élimine 3 ennemis sans toucher le sol"
+        },
+        "german": {
+          "name": "Kampfflieger",
+          "description": "Besiege 3 Feinde, ohne den Boden zu berühren"
+        },
+        "italian": {
+          "name": "Furia volante",
+          "description": "Uccidi 3 nemici senza toccare terra"
+        },
+        "japanese": {
+          "name": "空飛ぶ猛威",
+          "description": "地面に触れずに 3 体の敵を倒しましょう"
+        },
+        "portuguese": {
+          "name": "Fúria voadora",
+          "description": "Mate 3 inimigos sem tocar no chão"
+        },
+        "russian": {
+          "name": "Летящая смерть",
+          "description": "Убейте 3-х противников, не касаясь земли"
+        },
+        "schinese": {
+          "name": "翱翔之怒",
+          "description": "在不接触地面的情况下杀掉 3 名敌人"
+        },
+        "spanish": {
+          "name": "Furia voladora",
+          "description": "Mata a 3 enemigos sin tocar el suelo."
+        }
+      }
+    },
+    "trickEnemyIntoKillingItself": {
+      "translations": {
+        "brazilian": {
+          "name": "Autodestruição",
+          "description": "Faça um inimigo destruir a si mesmo"
+        },
+        "english": {
+          "name": "Self Destruction",
+          "description": "Cause an enemy to destroy itself"
+        },
+        "french": {
+          "name": "Autodestruction",
+          "description": "Pousse un ennemi à s'autodétruire"
+        },
+        "german": {
+          "name": "Selbstzerstörung",
+          "description": "Bringe einen Feind dazu, sich selbst zu vernichten"
+        },
+        "italian": {
+          "name": "Autodistruzione",
+          "description": "Porta un nemico ad autodistruggersi"
+        },
+        "japanese": {
+          "name": "自滅",
+          "description": "敵を自滅させましょう"
+        },
+        "portuguese": {
+          "name": "Autodestruição",
+          "description": "Faça um inimigo destruir a si mesmo"
+        },
+        "russian": {
+          "name": "Самоуничтожение",
+          "description": "Заставьте противника убить самого себя"
+        },
+        "schinese": {
+          "name": "自我毁灭",
+          "description": "使 1 名敌人杀掉他自己"
+        },
+        "spanish": {
+          "name": "Autodestrucción",
+          "description": "Haz que un enemigo se destruya solo."
+        }
+      }
+    },
+    "crushRamWithStomper": {
+      "translations": {
+        "brazilian": {
+          "name": "Pancada esmagadora",
+          "description": "Destrua um Aríete esmagado"
+        },
+        "english": {
+          "name": "Crushing Blow",
+          "description": "Crush a Ram with a Stomper"
+        },
+        "french": {
+          "name": "Coup écrasant",
+          "description": "Écrase un Bélier avec un Écrabouilleur"
+        },
+        "german": {
+          "name": "Niederschmetternd",
+          "description": "Zermalme einen Rammbock mit einem Quetscher"
+        },
+        "italian": {
+          "name": "Colpo devastante",
+          "description": "Distruggi un ariete con un macigno"
+        },
+        "japanese": {
+          "name": "クラッシュブロウ",
+          "description": "ストンパーでラムを倒しましょう"
+        },
+        "portuguese": {
+          "name": "Pancada esmagadora",
+          "description": "Destrua um Aríete esmagado"
+        },
+        "russian": {
+          "name": "Уничтожающий удар",
+          "description": "Ударьте по тарану"
+        },
+        "schinese": {
+          "name": "粉碎一击",
+          "description": "利用砸落物砸碎 1 个冲撞者"
+        },
+        "spanish": {
+          "name": "Golpe aplastante",
+          "description": "Destroza un ariete con un pisoteador."
+        }
+      }
+    },
+    "killFiftyEnemiesWithStomp": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre esmagador",
+          "description": "Mate 50 inimigos com o Pisão"
+        },
+        "english": {
+          "name": "Stomp Master",
+          "description": "Kill 50 enemies with Stomp"
+        },
+        "french": {
+          "name": "Maître écrabouilleur",
+          "description": "Élimine 50 ennemis en les écrasant"
+        },
+        "german": {
+          "name": "Stampfmeister",
+          "description": "Besiege 50 Feinde mit dem Stampfer"
+        },
+        "italian": {
+          "name": "Signore del Colpo a terra",
+          "description": "Uccidi 50 nemici con il Colpo a terra"
+        },
+        "japanese": {
+          "name": "踏みつけマスター",
+          "description": "踏みつけで 50 体の敵を倒しましょう"
+        },
+        "portuguese": {
+          "name": "Mestre esmagador",
+          "description": "Mate 50 inimigos com o Pisão"
+        },
+        "russian": {
+          "name": "Топотун",
+          "description": "Растопчите 50 противников"
+        },
+        "schinese": {
+          "name": "践踏攻击大师",
+          "description": "使用践踏攻击杀掉 50 名敌人"
+        },
+        "spanish": {
+          "name": "Maestro del pisotón",
+          "description": "Mata a 50 enemigos con pisotón."
+        }
+      }
+    },
+    "killAHundredEnemiesWithChargeFlame": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre das explosões",
+          "description": "Mate 100 inimigos com Chama de carga"
+        },
+        "english": {
+          "name": "Blast Master",
+          "description": "Kill 100 enemies with Charge Flame"
+        },
+        "french": {
+          "name": "Maître en explosifs",
+          "description": "Élimine 100 ennemis avec la Flamme attisée"
+        },
+        "german": {
+          "name": "Brandmeister",
+          "description": "Besiege 100 Feinde mit der Stichflamme"
+        },
+        "italian": {
+          "name": "Signore delle esplosioni",
+          "description": "Uccidi 100 nemici con la Fiamma caricata"
+        },
+        "japanese": {
+          "name": "ブラストマスター",
+          "description": "チャージフレイムで 100 体の敵を倒しましょう"
+        },
+        "portuguese": {
+          "name": "Mestre das explosões",
+          "description": "Mate 100 inimigos com Chama de carga"
+        },
+        "russian": {
+          "name": "Подрывник",
+          "description": "Убейте 100 противников усиленным пламенем"
+        },
+        "schinese": {
+          "name": "爆炸大师",
+          "description": "使用充能烈焰杀掉 100 名敌人"
+        },
+        "spanish": {
+          "name": "Maestro deflagrador",
+          "description": "Mata a 100 enemigos con llama cargada."
+        }
+      }
+    },
+    "killFiveHundredEnemiesWithSpiritFlame": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre das chamas",
+          "description": "Mate 500 inimigos com Chama espiritual"
+        },
+        "english": {
+          "name": "Flame Master",
+          "description": "Kill 500 enemies with Spirit Flame"
+        },
+        "french": {
+          "name": "Maître des flammes",
+          "description": "Élimine 500 ennemis avec la Flamme spirituelle"
+        },
+        "german": {
+          "name": "Flammenmeister",
+          "description": "Besiege 500 Feinde mit der Geisterflamme"
+        },
+        "italian": {
+          "name": "Signore delle fiamme",
+          "description": "Uccidi 500 nemici con la Fiamma dello spirito"
+        },
+        "japanese": {
+          "name": "フレイムマスター",
+          "description": "精霊の炎で 500 体の敵を倒しましょう"
+        },
+        "portuguese": {
+          "name": "Mestre das chamas",
+          "description": "Mate 500 inimigos com Chama espiritual"
+        },
+        "russian": {
+          "name": "Факир",
+          "description": "Убейте 500 противников духовным пламенем"
+        },
+        "schinese": {
+          "name": "火焰大师",
+          "description": "使用精灵之火杀掉 500 名敌人"
+        },
+        "spanish": {
+          "name": "Maestro de las llamas",
+          "description": "Mata a 500 enemigos con llama de espíritu."
+        }
+      }
+    },
+    "finishWholeGameFast": {
+      "translations": {
+        "brazilian": {
+          "name": "Supersônico",
+          "description": "Termine o jogo em menos de 3 horas"
+        },
+        "english": {
+          "name": "Supersonic ",
+          "description": "Finish the game in under 3 hours"
+        },
+        "french": {
+          "name": "Supersonique",
+          "description": "Termine le jeu en moins de 3 heures"
+        },
+        "german": {
+          "name": "Überschall",
+          "description": "Spiele das Spiel in weniger als 3 Stunden durch"
+        },
+        "italian": {
+          "name": "Supersonico",
+          "description": "Finisci il gioco in meno di 3 ore"
+        },
+        "japanese": {
+          "name": "スーパーソニック",
+          "description": "3 時間以内にゲームをクリアしましょう"
+        },
+        "portuguese": {
+          "name": "Supersônico",
+          "description": "Termine o jogo em menos de 3 horas"
+        },
+        "russian": {
+          "name": "Сверхскоростной ",
+          "description": "Пройдите игру меньше, чем за 3 часов"
+        },
+        "schinese": {
+          "name": "音速狂飙",
+          "description": "在 3 个小时以内完成游戏"
+        },
+        "spanish": {
+          "name": "Supersónico",
+          "description": "Termina el juego en menos de 3 horas."
+        }
+      }
+    },
+    "doubleJumpConsecutively": {
+      "translations": {
+        "brazilian": {
+          "name": "Aéreo",
+          "description": "Dê 5 Pulos duplos consecutivamente sem tocar no chão"
+        },
+        "english": {
+          "name": "Airborne",
+          "description": "Double Jump 5 times consecutively without touching the ground"
+        },
+        "french": {
+          "name": "Voltigeur",
+          "description": "Fais 5 Doubles sauts consécutifs sans toucher le sol"
+        },
+        "german": {
+          "name": "Luftikus",
+          "description": "Führe 5 Doppelsprünge in Folge aus, ohne den Boden zu berühren"
+        },
+        "italian": {
+          "name": "Aereo",
+          "description": "Esegui 5 Doppi salti consecutivi senza toccare terra"
+        },
+        "japanese": {
+          "name": "空中歩行",
+          "description": "地面に触れずに 5 回連続二段ジャンプしましょう"
+        },
+        "portuguese": {
+          "name": "Aéreo",
+          "description": "Dê 5 Pulos duplos consecutivamente sem tocar no chão"
+        },
+        "russian": {
+          "name": "Летчик",
+          "description": "Сделайте 5 двойных прыжков подряд, не касаясь земли"
+        },
+        "schinese": {
+          "name": "御风而行",
+          "description": "在不接触地面的情况下连续施展 5 次二段跳"
+        },
+        "spanish": {
+          "name": "Volador",
+          "description": "Haz un doble salto 5 veces seguidas sin tocar el suelo."
+        }
+      }
+    },
+    "completeGameWithoutDying": {
+      "translations": {
+        "brazilian": {
+          "name": "Imortal",
+          "description": "Complete o jogo inteiro sem morrer"
+        },
+        "english": {
+          "name": "Immortal",
+          "description": "Complete whole game without dying"
+        },
+        "french": {
+          "name": "Immortel",
+          "description": "Termine le jeu sans mourir une seule fois"
+        },
+        "german": {
+          "name": "Unsterblich",
+          "description": "Spiele das gesamte Spiel durch, ohne zu sterben"
+        },
+        "italian": {
+          "name": "Immortale",
+          "description": "Finisci il gioco senza morire"
+        },
+        "japanese": {
+          "name": "無敵",
+          "description": "死亡することなくゲームをクリアしましょう"
+        },
+        "portuguese": {
+          "name": "Imortal",
+          "description": "Complete o jogo inteiro sem morrer"
+        },
+        "russian": {
+          "name": "Бессмертный",
+          "description": "Пройдите игру, ни разу не умерев"
+        },
+        "schinese": {
+          "name": "不死之身",
+          "description": "在没有死亡过的情况下完成整个游戏"
+        },
+        "spanish": {
+          "name": "Inmortal",
+          "description": "Completa el juego entero sin morir."
+        }
+      }
+    },
+    "completeGameWithoutUsingAbilityPoint": {
+      "translations": {
+        "brazilian": {
+          "name": "Elite",
+          "description": "Complete o jogo inteiro sem usar Pontos de habilidade"
+        },
+        "english": {
+          "name": "Elite",
+          "description": "Complete the whole game without using an Ability Point"
+        },
+        "french": {
+          "name": "Élite",
+          "description": "Termine le jeu sans dépenser de Point de compétence"
+        },
+        "german": {
+          "name": "Elite",
+          "description": "Spiele das gesamte Spiel durch, ohne Fähigkeitenpunkte zu nutzen"
+        },
+        "italian": {
+          "name": "Elite",
+          "description": "Finisci il gioco senza usare punti abilità"
+        },
+        "japanese": {
+          "name": "エリート",
+          "description": "能力ポイントを使わずにゲームをクリアしましょう"
+        },
+        "portuguese": {
+          "name": "Elite",
+          "description": "Complete o jogo inteiro sem usar Pontos de habilidade"
+        },
+        "russian": {
+          "name": "Элитный",
+          "description": "Пройдите игру, не воспользовавшись ни одним очком умений"
+        },
+        "schinese": {
+          "name": "天生精英",
+          "description": "在不使用任何能力点数的情况下完成整个游戏"
+        },
+        "spanish": {
+          "name": "Élite",
+          "description": "Completa el juego sin usar un punto de habilidad."
+        }
+      }
+    },
+    "escapeTheBoulder": {
+      "translations": {
+        "brazilian": {
+          "name": "Corrida do saqueador",
+          "description": "Escape da rocha em Black Root Burrows"
+        },
+        "english": {
+          "name": "Raider Run",
+          "description": "Escape the Boulder in Black Root Burrows"
+        },
+        "french": {
+          "name": "Course-poursuite",
+          "description": "Échappe au rocher du Terrier de Noiracine"
+        },
+        "german": {
+          "name": "Jägerlauf",
+          "description": "Entkomme dem Fels in den Schwarzwurzelgängen"
+        },
+        "italian": {
+          "name": "La grande fuga",
+          "description": "Scappa dal macigno nelle Tane della radice nera"
+        },
+        "japanese": {
+          "name": "レイダーラン",
+          "description": "黒い根っこの巣穴のボウルダーから逃れましょう"
+        },
+        "portuguese": {
+          "name": "Fuga do invasor",
+          "description": "Escape do Rochedo nas Galerias da Raiz Negra"
+        },
+        "russian": {
+          "name": "Набег",
+          "description": "Убегите от валуна в Норах меж черных корней"
+        },
+        "schinese": {
+          "name": "突袭逃亡",
+          "description": "在黑根地下道中躲过巨石的追击"
+        },
+        "spanish": {
+          "name": "Huida legendaria",
+          "description": "Escapa de la roca en los Túneles de raíz negra."
+        }
+      }
+    },
+    "completeLostGrove": {
+      "translations": {
+        "brazilian": {
+          "name": "O ciclo",
+          "description": "Descubra os mistérios de Naru"
+        },
+        "english": {
+          "name": "The Cycle",
+          "description": "Uncover the mysteries of Naru"
+        },
+        "french": {
+          "name": "Le cycle",
+          "description": "Découvre les secrets de Naru"
+        },
+        "german": {
+          "name": "Der Kreislauf",
+          "description": "Lüfte Narus Geheimnisse"
+        },
+        "italian": {
+          "name": "Il ciclo",
+          "description": "Scopri i segreti di Naru"
+        },
+        "japanese": {
+          "name": "サイクル",
+          "description": "ナルの謎を解き明かしましょう"
+        },
+        "portuguese": {
+          "name": "O ciclo",
+          "description": "Revele os mistérios de Naru"
+        },
+        "russian": {
+          "name": "Цикл",
+          "description": "Откройте тайны Нару"
+        },
+        "schinese": {
+          "name": "生命循环",
+          "description": "揭开纳鲁身世的秘密"
+        },
+        "spanish": {
+          "name": "El ciclo",
+          "description": "Descubre los misterios de Naru."
+        }
+      }
+    },
+    "chargeDashFiveTimes": {
+      "translations": {
+        "brazilian": {
+          "name": "Rápido como um raio",
+          "description": "Mate 5 inimigos usando o Impulso de Carga"
+        },
+        "english": {
+          "name": "Lightning Fast",
+          "description": "Kill 5 enemies using Charge Dash"
+        },
+        "french": {
+          "name": "Rapide comme l'éclair",
+          "description": "Élimine 5 ennemis avec Sprinter avec élan"
+        },
+        "german": {
+          "name": "Blitzschnell",
+          "description": "Erledige 5 Gegner mit dem Turbosprint"
+        },
+        "italian": {
+          "name": "Veloce come una saetta",
+          "description": "Uccidi 5 nemici usando la Rapidità caricata"
+        },
+        "japanese": {
+          "name": "電光石火",
+          "description": "チャージダッシュで 5 体の敵を倒しましょう"
+        },
+        "portuguese": {
+          "name": "Rápido como um raio",
+          "description": "Mate 5 inimigos usando a Corrida de carga"
+        },
+        "russian": {
+          "name": "Молниеносный",
+          "description": "Убейте 5 врагов с помощью скорости с зарядом"
+        },
+        "schinese": {
+          "name": "电光石火",
+          "description": "使用充能冲刺杀掉 5 名敌人"
+        },
+        "spanish": {
+          "name": "Como un rayo",
+          "description": "Mata a 5 enemigos usando Deslizamiento cargado."
+        }
+      }
+    },
+    "activateGrenadeSwitches": {
+      "translations": {
+        "brazilian": {
+          "name": "Arremesso explosivo",
+          "description": "Ative 3 tochas usando a Explosão de Luz"
+        },
+        "english": {
+          "name": "Explosive Lobb",
+          "description": "Activate 3 torches using Light Burst"
+        },
+        "french": {
+          "name": "Lob explosif",
+          "description": "Allume 3 torches avec Éclat de lumière"
+        },
+        "german": {
+          "name": "Zündend",
+          "description": "Zünde 3 Fackeln mit dem Lichtstrahl an"
+        },
+        "italian": {
+          "name": "Luce esplosiva",
+          "description": "Accendi 3 torce usando l'Esplosione di luce"
+        },
+        "japanese": {
+          "name": "派手な点火",
+          "description": "ライトバーストで 3 本のたいまつに明かりを灯しましょう"
+        },
+        "portuguese": {
+          "name": "Acenda a tocha",
+          "description": "Acenda 3 tochas usando a Explosão de luz"
+        },
+        "russian": {
+          "name": "Разрывной снаряд",
+          "description": "Зажгите 3 факела с помощью светового всплеска"
+        },
+        "schinese": {
+          "name": "爆破点烛",
+          "description": "使用光爆点亮 3 支火把"
+        },
+        "spanish": {
+          "name": "Bomba casera",
+          "description": "Activa 3 antorchas usando ráfaga de luz."
+        }
+      }
+    },
+    "kill50EnemiesWithGrenade": {
+      "translations": {
+        "brazilian": {
+          "name": "Mestre da explosão de luz",
+          "description": "Mate 50 inimigos usando a Explosão de Luz"
+        },
+        "english": {
+          "name": "Light Burst Master",
+          "description": "Kill 50 enemies with Light Burst"
+        },
+        "french": {
+          "name": "Maître des éclats",
+          "description": "Élimine 50 ennemis avec Éclat de lumière"
+        },
+        "german": {
+          "name": "Meister des Lichtstrahls",
+          "description": "Erledige 50 Gegner mit dem Lichtstrahl"
+        },
+        "italian": {
+          "name": "Maestro dell'esplosione di luce",
+          "description": "Uccidi 50 nemici usando l'Esplosione di luce"
+        },
+        "japanese": {
+          "name": "ライトバーストマスター",
+          "description": "ライトバーストで 50 体の敵を倒しましょう"
+        },
+        "portuguese": {
+          "name": "Mestre da explosão de luz",
+          "description": "Mate 50 inimigos com a Explosão de luz"
+        },
+        "russian": {
+          "name": "Виртуоз светового всплеска",
+          "description": "Убейте 50 врагов с помощью светового всплеска"
+        },
+        "schinese": {
+          "name": "光爆大师",
+          "description": "使用光爆杀掉 50 名敌人"
+        },
+        "spanish": {
+          "name": "Maestro de la ráfaga de luz",
+          "description": "Mata a 50 enemigos con ráfaga de luz."
+        }
+      }
+    },
+    "beatHardMode": {
+      "translations": {
+        "brazilian": {
+          "name": "Formidável",
+          "description": "Complete o jogo na dificuldade Difícil"
+        },
+        "english": {
+          "name": "Formidable",
+          "description": " Complete the game on Hard Difficulty"
+        },
+        "french": {
+          "name": "Formidable",
+          "description": "Termine le jeu en mode Difficile"
+        },
+        "german": {
+          "name": "Beeindruckend",
+          "description": "Beende das Spiel im Schw.-Grad \"Schwierig\""
+        },
+        "italian": {
+          "name": "Formidabile",
+          "description": "Completa il gioco in modalità Difficile"
+        },
+        "japanese": {
+          "name": "苦戦必至",
+          "description": "難易度「ハード」でゲームをクリアしましょう"
+        },
+        "portuguese": {
+          "name": "Formidável",
+          "description": "Complete o jogo na dificuldade Difícil"
+        },
+        "russian": {
+          "name": "Грозный",
+          "description": " Пройдите игру на высокой сложности"
+        },
+        "schinese": {
+          "name": "望而生畏",
+          "description": "以「困难」难度完成游戏"
+        },
+        "spanish": {
+          "name": "Formidable",
+          "description": "Completa el juego en dificultad Difícil."
+        }
+      }
+    },
+    "beatOneLifeMode": {
+      "translations": {
+        "brazilian": {
+          "name": "Desajustado",
+          "description": "Complete o jogo na dificuldade Uma Vida"
+        },
+        "english": {
+          "name": "Unhinged",
+          "description": "Complete the game on One Life Difficulty"
+        },
+        "french": {
+          "name": "Déjanté",
+          "description": "Termine le jeu en mode Vie unique"
+        },
+        "german": {
+          "name": "Lebensbewahrer",
+          "description": "Beende das Spiel im Schwierigkeitsgrad \"Ein Leben\""
+        },
+        "italian": {
+          "name": "Fuori controllo",
+          "description": "Completa il gioco in modalità Una vita"
+        },
+        "japanese": {
+          "name": "ドキドキハラハラ",
+          "description": "難易度「一度きりの人生」でゲームをクリアしましょう"
+        },
+        "portuguese": {
+          "name": "À beira do abismo",
+          "description": "Complete o jogo na dificuldade Vida única"
+        },
+        "russian": {
+          "name": "Спятивший",
+          "description": "Пройдите игру на сложности \"Одна жизнь\""
+        },
+        "schinese": {
+          "name": "命悬一线",
+          "description": "以「一条命」难度完成游戏"
+        },
+        "spanish": {
+          "name": "Trastornado",
+          "description": "Completa el juego en dificultad Una vida."
+        }
+      }
+    }
+  }
+}

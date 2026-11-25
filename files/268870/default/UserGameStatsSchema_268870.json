@@ -1,0 +1,492 @@
+{
+  "version": 1,
+  "app_id": "268870",
+  "variant_id": "default",
+  "source_sha256": "f5c45ce80245ed3f8fb6f3e4b7be179b9aa523d40a9b9f1df67214320a151848",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "FIRST_BLOOD": {
+      "translations": {
+        "english": {
+          "name": "First Blood",
+          "description": "Killed a Corp Soldier"
+        },
+        "schinese": {
+          "name": "第一滴血",
+          "description": "击杀一名企业士兵"
+        }
+      }
+    },
+    "FISH_IN_BARREL": {
+      "translations": {
+        "english": {
+          "name": "Fish in a Barrel",
+          "description": "Kill 100 Civilians"
+        },
+        "schinese": {
+          "name": "桶中之鱼",
+          "description": "击杀100名平民"
+        }
+      }
+    },
+    "NO_BIG_BROTHER_TUTORIAL": {
+      "translations": {
+        "english": {
+          "name": "No Big Brother: Tutorial",
+          "description": "Destroy all cameras in the Tutorial"
+        },
+        "schinese": {
+          "name": "无老大哥：教程",
+          "description": "在教程中摧毁所有摄像头"
+        }
+      }
+    },
+    "NO_BIG_BROTHER_DOWNTOWN": {
+      "translations": {
+        "english": {
+          "name": "No Big Brother: Downtown",
+          "description": "Destroy all CCTV cameras in Downtown"
+        },
+        "schinese": {
+          "name": "无老大哥：市中心",
+          "description": "摧毁市中心的所有监控摄像头"
+        }
+      }
+    },
+    "NO_BIG_BROTHER_INDUSTRIAL": {
+      "translations": {
+        "english": {
+          "name": "No Big Brother: Industrial",
+          "description": "Destroy all CCTV cameras in the Industrial District"
+        },
+        "schinese": {
+          "name": "无老大哥：工业区",
+          "description": "摧毁工业区的所有监控摄像头"
+        }
+      }
+    },
+    "NO_BIG_BROTHER_GRID": {
+      "translations": {
+        "english": {
+          "name": "No Big Brother: Grid",
+          "description": "Destroy all CCTV cameras in the Grid District"
+        },
+        "schinese": {
+          "name": "无老大哥：网格区",
+          "description": "摧毁网格区的所有监控摄像头"
+        }
+      }
+    },
+    "NO_BIG_BROTHER_CBD": {
+      "translations": {
+        "english": {
+          "name": "No Big Brother: CBD",
+          "description": "Destroy all CCTV cameras in the CBD"
+        },
+        "schinese": {
+          "name": "无老大哥：中央商务区",
+          "description": "摧毁中央商务区的所有监控摄像头"
+        }
+      }
+    },
+    "NO_BIG_BROTHER_DRACOGENICS": {
+      "translations": {
+        "english": {
+          "name": "No Big Brother: Dracogenics",
+          "description": "Destroy all CCTV cameras in the final boss area"
+        },
+        "schinese": {
+          "name": "无老大哥：德拉科基因",
+          "description": "摧毁最终首领区域的所有监控摄像头"
+        }
+      }
+    },
+    "TEN_RESEARCHERS": {
+      "translations": {
+        "english": {
+          "name": "Science, bitch!",
+          "description": "Acquire ten scientists"
+        },
+        "schinese": {
+          "name": "科学，婊子！",
+          "description": "获得十名科学家"
+        }
+      }
+    },
+    "KILLED_THE_DEVS": {
+      "translations": {
+        "english": {
+          "name": "No More Lives",
+          "description": "Found and killed all 5 Lives devs"
+        },
+        "schinese": {
+          "name": "再无余命",
+          "description": "找到并杀死全部5名5 Lives开发者"
+        }
+      }
+    },
+    "CLONED_THE_DEVS": {
+      "translations": {
+        "english": {
+          "name": "Infinite Lives",
+          "description": "Find and capture all 5 Lives devs for cloning"
+        },
+        "schinese": {
+          "name": "无限生命",
+          "description": "找到并抓捕 5 Lives 的全部开发者用于克隆"
+        }
+      }
+    },
+    "TEN_STEALTH_KILLS": {
+      "translations": {
+        "english": {
+          "name": "5 Stealth Kills in a row",
+          "description": "Kills in a row without being seen being suspicious"
+        },
+        "schinese": {
+          "name": "连续潜行击杀 5 人",
+          "description": "连续击杀且不被目击、不引起怀疑"
+        }
+      }
+    },
+    "FIFTY_STEALTH_KILLS": {
+      "translations": {
+        "english": {
+          "name": "10 Stealth Kills in a row",
+          "description": "Kills in a row without being seen being suspicious"
+        },
+        "schinese": {
+          "name": "连续潜行击杀 10 人",
+          "description": "连续击杀且不被目击、不引起怀疑"
+        }
+      }
+    },
+    "HUNDRED_STEALTH_KILLS": {
+      "translations": {
+        "english": {
+          "name": "15 Stealth Kills in a row",
+          "description": "Kills in a row without being seen being suspicious"
+        },
+        "schinese": {
+          "name": "连续潜行击杀 15 人",
+          "description": "连续击杀且不被目击、不引起怀疑"
+        }
+      }
+    },
+    "INDUSTRIAL_PACIFIST": {
+      "translations": {
+        "english": {
+          "name": "Industrial Pacifist",
+          "description": "Make it to the Industrial District without getting blood on your hands"
+        },
+        "schinese": {
+          "name": "工业区和平主义者",
+          "description": "双手不沾血抵达工业区"
+        }
+      }
+    },
+    "DOWNTOWN_PACIFIST": {
+      "translations": {
+        "english": {
+          "name": "Downtown Pacifist",
+          "description": "Make it to Downtown without getting blood on your hands"
+        },
+        "schinese": {
+          "name": "市中心和平主义者",
+          "description": "双手不沾血抵达市中心"
+        }
+      }
+    },
+    "CBD_PACIFIST": {
+      "translations": {
+        "english": {
+          "name": "CBD Pacifist",
+          "description": "Make it to the CBD without getting blood on your hands"
+        },
+        "schinese": {
+          "name": "中央商务区和平主义者",
+          "description": "双手不沾血抵达中央商务区"
+        }
+      }
+    },
+    "GRID_PACIFIST": {
+      "translations": {
+        "english": {
+          "name": "Grid Pacifist",
+          "description": "Make it to The Grid without getting blood on your hands"
+        },
+        "schinese": {
+          "name": "网格区和平主义者",
+          "description": "双手不沾血抵达网格区"
+        }
+      }
+    },
+    "DRACOGENICS_PACIFIST": {
+      "translations": {
+        "english": {
+          "name": "Dracogenics Pacifist",
+          "description": "Make it to the Dracogenics district without getting blood on your hands"
+        },
+        "schinese": {
+          "name": "德拉科根尼克斯和平主义者",
+          "description": "双手不沾血抵达德拉科根尼克斯区"
+        }
+      }
+    },
+    "HUNDRED_HIJACKED_KILLS": {
+      "translations": {
+        "english": {
+          "name": "100 Kills By Hijacked",
+          "description": "Use Hijacked to kill 100 Enemies"
+        },
+        "schinese": {
+          "name": "劫持击杀 100 人",
+          "description": "使用被劫持的单位击杀 100 名敌人"
+        }
+      }
+    },
+    "COLD_WAR": {
+      "translations": {
+        "english": {
+          "name": "Cold War",
+          "description": "Kill 100 Uzy Korps"
+        },
+        "schinese": {
+          "name": "冷战",
+          "description": "击杀100名乌兹军团成员"
+        }
+      }
+    },
+    "HOLY_WAR": {
+      "translations": {
+        "english": {
+          "name": "Holy War",
+          "description": "Kill 100 Eternals"
+        },
+        "schinese": {
+          "name": "圣战",
+          "description": "击杀100名永恒会成员"
+        }
+      }
+    },
+    "TEN_IN_ONE": {
+      "translations": {
+        "english": {
+          "name": "10 Kills One Explosion",
+          "description": "Get 10 kills with a single explosion"
+        },
+        "schinese": {
+          "name": "一爆十杀",
+          "description": "单次爆炸击杀10名敌人"
+        }
+      }
+    },
+    "CLOAKED_KILLS": {
+      "translations": {
+        "english": {
+          "name": "Invisible Death",
+          "description": "Kill 20 enemies while cloaked"
+        },
+        "schinese": {
+          "name": "隐形杀机",
+          "description": "在隐形状态下击杀20名敌人"
+        }
+      }
+    },
+    "MELEE_KILLS": {
+      "translations": {
+        "english": {
+          "name": "I know Kung Fu",
+          "description": "50 Melee Kills"
+        },
+        "schinese": {
+          "name": "我会功夫",
+          "description": "近战击杀50名敌人"
+        }
+      }
+    },
+    "KILL_DENGLER": {
+      "translations": {
+        "english": {
+          "name": "Fire the CEO",
+          "description": "With extreme prejudice."
+        },
+        "schinese": {
+          "name": "解雇CEO",
+          "description": "以极端手段。"
+        }
+      }
+    },
+    "ENTER_GRID": {
+      "translations": {
+        "english": {
+          "name": "Enter The Grid",
+          "description": "Enter The Grid"
+        },
+        "schinese": {
+          "name": "进入网格区",
+          "description": "进入网格区"
+        }
+      }
+    },
+    "ENTER_INDUSTRIAL": {
+      "translations": {
+        "english": {
+          "name": "Enter the Industrial area",
+          "description": "Enter the Industrial area"
+        },
+        "schinese": {
+          "name": "进入工业区",
+          "description": "进入工业区"
+        }
+      }
+    },
+    "ENTER_DRACOGENICS": {
+      "translations": {
+        "english": {
+          "name": "Enter Dracogenics",
+          "description": "Enter Dracogenics"
+        },
+        "schinese": {
+          "name": "进入德拉科基因",
+          "description": "进入德拉科基因公司"
+        }
+      }
+    },
+    "ENTER_CBD": {
+      "translations": {
+        "english": {
+          "name": "Enter the CBD",
+          "description": "Enter the CBD"
+        },
+        "schinese": {
+          "name": "进入中央商务区",
+          "description": "进入中央商务区"
+        }
+      }
+    },
+    "ALL_ATMS_GAME": {
+      "translations": {
+        "english": {
+          "name": "Master of Coin",
+          "description": "Place a syphon on every ATM in the city"
+        },
+        "schinese": {
+          "name": "敛财大师",
+          "description": "在城内每一台ATM上安装吸金器"
+        }
+      }
+    },
+    "ALL_ATMS_DOWNTOWN": {
+      "translations": {
+        "english": {
+          "name": "Easy Money: Downtown",
+          "description": "Place a syphon on every ATM in the Downtown District"
+        },
+        "schinese": {
+          "name": "轻松来钱：市中心区",
+          "description": "在市中心区的每一台ATM上安装吸金器"
+        }
+      }
+    },
+    "ALL_ATMS_GRID": {
+      "translations": {
+        "english": {
+          "name": "Easy Money: Grid",
+          "description": "Place a syphon on every ATM in the Grid District"
+        },
+        "schinese": {
+          "name": "轻松来钱：网格区",
+          "description": "在网格区的每一台ATM上安装吸金器"
+        }
+      }
+    },
+    "ALL_ATMS_INDUSTRIAL": {
+      "translations": {
+        "english": {
+          "name": "Easy Money: Industrial",
+          "description": "Place a syphon on every ATM in the Industrial District"
+        },
+        "schinese": {
+          "name": "轻松来钱：工业区",
+          "description": "在工业区的每一台ATM上安装吸金器"
+        }
+      }
+    },
+    "ALL_ATMS_CBD": {
+      "translations": {
+        "english": {
+          "name": "Easy Money: CBD",
+          "description": "Place a syphon on every ATM in the CBD"
+        },
+        "schinese": {
+          "name": "轻松来钱：中央商务区",
+          "description": "在中央商务区的每一台ATM上安装吸金器"
+        }
+      }
+    },
+    "ALL_TERMINALS_GAME": {
+      "translations": {
+        "english": {
+          "name": "Key Logger",
+          "description": "Access all data terminals in the city"
+        },
+        "schinese": {
+          "name": "键盘记录器",
+          "description": "访问城内的所有数据终端"
+        }
+      }
+    },
+    "ALL_TERMINALS_DOWNTOWN": {
+      "translations": {
+        "english": {
+          "name": "Script Kiddie: Downtown",
+          "description": "Access all data terminals in the Downtown District"
+        },
+        "schinese": {
+          "name": "脚本小子：市中心区",
+          "description": "访问市中心区的所有数据终端"
+        }
+      }
+    },
+    "ALL_TERMINALS_GRID": {
+      "translations": {
+        "english": {
+          "name": "Script Kiddie: Grid",
+          "description": "Access all data terminals in the Grid District"
+        },
+        "schinese": {
+          "name": "脚本小子：网格区",
+          "description": "访问网格区的所有数据终端"
+        }
+      }
+    },
+    "ALL_TERMINALS_INDUSTRIAL": {
+      "translations": {
+        "english": {
+          "name": "Script Kiddie: Industrial",
+          "description": "Access all data terminals in the Industrial District"
+        },
+        "schinese": {
+          "name": "脚本小子：工业区",
+          "description": "访问工业区的所有数据终端"
+        }
+      }
+    },
+    "ALL_TERMINALS_CBD": {
+      "translations": {
+        "english": {
+          "name": "Script Kiddie: CBD",
+          "description": "Access all data terminals in the CBD"
+        },
+        "schinese": {
+          "name": "脚本小子：中央商务区",
+          "description": "访问中央商务区的所有数据终端"
+        }
+      }
+    }
+  }
+}
