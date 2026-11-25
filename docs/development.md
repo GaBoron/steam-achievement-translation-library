@@ -68,7 +68,7 @@ python workflow-scripts/check_repository.py
 刷新命令会写入 Catalog、JSON 和统计图，应检查完整差异。不要手改 BIN 派生格式 1 JSON 或统计 SVG。单独修改说明文档无需重新生成这些数据。
 
 - **投稿检查失败时**，从 issue/PR 的具体错误定位附件、表单或对应校验模块。若批准后缺少必需的 `validate`，查看由该 PR 审核触发的 **Repository checks**，确认审核指向当前提交。提交者的修正入口见 [贡献指南](CONTRIBUTING.md)。
-- **PR 已合并但网站未出现译本时**，先检查 **Translation library automation** 的 `finalize-merged-pr` 是否完成 Catalog 发布，再检查 **Translation library website** 的部署。
+- **PR 已合并但网站未出现译本时**，先检查 **Translation library automation** 的 `finalize-merged-pr` 是否完成 Catalog 发布，再检查 **Translation library website** 的部署。旧投稿的审批运行若漏发发布请求，**Catalog publication recovery** 会核对已合并的 PR 和提交，再从 `main` 补发请求。
 - **发布未完成时**，维护者可在 `main` 上手动运行 **Translation library automation**，指定已合并的翻译 PR 编号 `pr_number` 或投稿分支 `head_branch`。此操作会发布待入库数据并完成该 PR 的通知和锁定。
 - **网站构建失败：** 按 [网站维护](website.md) 的本地构建方式复现，检查 Catalog、文件校验与资源路径；不要直接修改生成的网站目录来修复源数据。
 
@@ -126,7 +126,7 @@ In repository settings, add a deploy key with write access and store its private
 After changing source data, use `catalog_refresh.py` and then `check_repository.py` as shown above when generated data needs updating. Refresh writes the catalog, JSON, and statistics; inspect the complete diff. Do not hand-edit BIN-derived format 1 JSON or the statistics SVG. Documentation-only changes do not need regeneration.
 
 - **Submission check fails.** Follow the issue or PR error to the attachment, form, or validation module. If the required `validate` is missing after approval, check **Repository checks** for that review and verify that the approval applies to the current commit. For contributor corrections, see [Contributing](CONTRIBUTING_EN.md).
-- **Merged translation is missing from the site.** Check the `finalize-merged-pr` job in **Translation library automation**, then check deployment in **Translation library website**.
+- **Merged translation is missing from the site.** Check the `finalize-merged-pr` job in **Translation library automation**, then check deployment in **Translation library website**. If an older approval run missed the publication request, **Catalog publication recovery** verifies the merged PR and commit before requesting publication on `main`.
 - **Publication did not complete.** A maintainer can run **Translation library automation** on `main` with the merged translation `pr_number` or submission `head_branch`. This publishes pending data and completes the PR notification and locking.
 - **Website build fails:** Reproduce with the [local build](website.md#english), checking catalog data, artifact validation, and resource paths. Editing generated output does not repair source data.
 

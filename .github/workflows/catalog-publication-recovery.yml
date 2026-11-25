@@ -1,0 +1,62 @@
+name: Catalog publication recovery
+
+on:
+  workflow_run:
+    workflows: [Translation library automation]
+    types: [completed]
+    branches: ['translation-library/**']
+
+permissions: {}
+
+jobs:
+  recover-publication:
+    if: >-
+      ${{
+        github.event.workflow_run.event == 'pull_request_review' &&
+        github.event.workflow_run.head_repository.full_name == github.repository
+      }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      actions: write
+      pull-requests: read
+    steps:
+      # Older submission branches can run approval workflows without a publication job.
+      # Resolve the merged PR through GitHub and dispatch the current finalizer on main.
+      - name: Recover missing publication request
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REVIEW_RUN: ${{ github.event.workflow_run.id }}
+          REVIEW_ATTEMPT: ${{ github.event.workflow_run.run_attempt }}
+          REVIEW_BRANCH: ${{ github.event.workflow_run.head_branch }}
+          REVIEW_SHA: ${{ github.event.workflow_run.head_sha }}
+          REVIEW_CREATED_AT: ${{ github.event.workflow_run.created_at }}
+        run: |
+          NEEDS_RECOVERY="$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$REVIEW_RUN/attempts/$REVIEW_ATTEMPT/jobs?per_page=100" \
+            --jq '[.jobs[] | select(.conclusion == "success") | .name] | (index("pr-review-approved") != null and index("request-catalog-publication") == null)')"
+          if [ "$NEEDS_RECOVERY" != "true" ]; then
+            echo "The approval run does not need publication recovery."
+            exit 0
+          fi
+
+          MERGED_PRS="$(gh pr list --repo "$GITHUB_REPOSITORY" --state merged --base main --head "$REVIEW_BRANCH" --limit 100 \
+            --json number,headRefOid,mergedAt,isCrossRepository \
+            --jq '.[] | [.number, .headRefOid, .mergedAt, (.isCrossRepository | tostring)] | @tsv')"
+          PR_NUMBER=''
+          while IFS=$'\t' read -r number head merged_at cross_repository; do
+            if [ "$cross_repository" != "false" ] || [ "$head" != "$REVIEW_SHA" ] || [[ "$merged_at" < "$REVIEW_CREATED_AT" ]]; then
+              continue
+            fi
+            if [ -n "$PR_NUMBER" ]; then
+              echo "::error::More than one recently merged PR matches this approval run."
+              exit 1
+            fi
+            PR_NUMBER="$number"
+          done <<< "$MERGED_PRS"
+
+          if [ -z "$PR_NUMBER" ]; then
+            echo "No merged translation PR matched the approval run."
+            exit 0
+          fi
+          gh workflow run translation-contribution.yml --repo "$GITHUB_REPOSITORY" --ref main -f "pr_number=$PR_NUMBER"
