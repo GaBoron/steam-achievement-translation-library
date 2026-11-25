@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate translation-petition ZIPs and acknowledge recognized schemas."""
+"""Validate petitions with optional original schemas or public JSON drafts."""
 from __future__ import annotations
 
 import argparse
@@ -7,11 +7,15 @@ import hashlib
 import json
 import os
 import re
-import tempfile
 import urllib.error
 import urllib.request
 from pathlib import Path
 from typing import Any
+
+from recycle_bin import temporary_directory
+from steam_public_achievements import generate_candidate
+from standalone_translation import canonical_text
+from issue_commands import comment_is_authorized
 
 from library_submission_bot import (
     LANGUAGE_RE,
@@ -172,9 +176,8 @@ def validate_petition(issue: dict[str, Any], token: str | None) -> dict[str, Any
     game_name = first_line(field_value(fields, ["Game name", "游戏名"]))
     game_id = first_line(field_value(fields, ["Steam app ID"]))
     target_text = field_value(fields, ["Requested target languages", "希望翻译到的语言"])
-    attachment = extract_attachment(
-        field_value(fields, ["Achievement schema ZIP to translate", "需要翻译的成就 schema ZIP"])
-    )
+    attachment_text = field_value(fields, ["Achievement schema ZIP to translate", "需要翻译的成就 schema ZIP"])
+    attachment = extract_attachment(attachment_text)
     errors: list[str] = []
 
     if not game_name:
@@ -192,15 +195,15 @@ def validate_petition(issue: dict[str, Any], token: str | None) -> dict[str, Any
         errors.append("目标语言必须使用半角逗号 `,` 分隔。")
 
     expected_name = f"UserGameStatsSchema_{game_id}.zip" if game_id else "UserGameStatsSchema_<app_id>.zip"
-    if attachment is None:
-        errors.append("必须附加且只能附加一个 UserGameStatsSchema_<app_id>.zip 文件。")
-    elif attachment.filename != expected_name:
+    if attachment is None and first_line(attachment_text):
+        errors.append("附件可留空；提供时只能附加一个 UserGameStatsSchema_<app_id>.zip 文件。")
+    elif attachment is not None and attachment.filename != expected_name:
         errors.append(f"上传文件名必须是 {expected_name}，当前识别为 {attachment.filename}。")
 
     achievement_count = 0
     if not errors and attachment is not None:
         try:
-            with tempfile.TemporaryDirectory() as tmp:
+            with temporary_directory() as tmp:
                 tmp_path = Path(tmp)
                 archive_path = tmp_path / "petition-schema.zip"
                 download_attachment(attachment, token, archive_path)
@@ -210,6 +213,20 @@ def validate_petition(issue: dict[str, Any], token: str | None) -> dict[str, Any
         except Exception as exc:  # noqa: BLE001 - reported as an actionable issue validation error.
             errors.append(f"无法识别上传的 ZIP：{exc}")
 
+    source_status = "uploaded-bin" if attachment is not None else "awaiting-source"
+    source_detail = ""
+    candidate = None
+    public_source = None
+    if not errors and attachment is None:
+        try:
+            source_language = next(code for code in ("english", "schinese", "german", "french") if code not in target_languages)
+            draft = generate_candidate(game_id, target_languages, language=source_language)
+            candidate = draft.translation
+            public_source = {"url": draft.source_url, "retrieved_at": draft.retrieved_at, "language": draft.source_language}
+            achievement_count = len(candidate["achievements"])
+            source_status = "public-draft"
+        except Exception as exc:  # Public data is optional; a valid petition stays open.
+            source_detail = f"待补充来源数据：{exc}"
     return {
         "ok": not errors,
         "errors": errors,
@@ -217,12 +234,16 @@ def validate_petition(issue: dict[str, Any], token: str | None) -> dict[str, Any
         "game_id": game_id,
         "target_languages": target_languages,
         "achievement_count": achievement_count,
+        "source_status": source_status,
+        "source_detail": source_detail,
+        "candidate": candidate,
+        "public_source": public_source,
     }
 
 
 def received_comment(result: dict[str, Any]) -> str:
     languages = ", ".join(f"`{item}`" for item in result["target_languages"])
-    return "\n".join([
+    lines = [
         RECEIVED_MARKER,
         "翻译请愿已收到；若有人上传并通过审核，机器人会在这里通知你。",
         "",
@@ -230,7 +251,19 @@ def received_comment(result: dict[str, Any]) -> str:
         f"- Steam app ID：`{result['game_id']}`",
         f"- 已识别成就数：{result['achievement_count']}",
         f"- 目标语言：{languages}",
-    ])
+        f"- 来源状态：{result.get('source_status', 'uploaded-bin')}",
+    ]
+    if result.get("source_detail"):
+        lines.append(f"- {result['source_detail']}")
+    if result.get("public_source"):
+        source = result["public_source"]
+        lines.extend([f"- 公开来源：{source['url']}", f"- 原文语言：`{source['language']}`", f"- 获取时间：`{source['retrieved_at']}`"])
+    if result.get("candidate"):
+        lines.extend(["", "公开列表已生成候选 JSON；只代表该页面公开的成就，不保证隐藏或未公开成就完整。",
+                      "目标语言为空，完成并审核译文后再投稿；无需修改格式或状态字段。该文件不能安装为 BIN。"])
+        if result.get("candidate_url"):
+            lines.append(f"[下载候选 JSON（工作流的 petition-json 附件，保留 30 天）]({result['candidate_url']})")
+    return "\n".join(lines)
 
 
 def invalid_comment(errors: list[str]) -> tuple[str, str]:
@@ -250,6 +283,10 @@ def invalid_comment(errors: list[str]) -> tuple[str, str]:
 
 def handle_petition(event: dict[str, Any], repo: str, token: str) -> dict[str, Any]:
     issue = event.get("issue") or {}
+    if issue.get("state", "open") != "open":
+        return {"ok": False, "reason": "closed", "errors": []}
+    if event.get("comment") and not comment_is_authorized(event):
+        return {"ok": False, "reason": "unauthorized", "errors": []}
     issue_number = int(issue["number"])
     try:
         resource_result = close_if_resource_exists(issue, repo, token)
@@ -262,7 +299,16 @@ def handle_petition(event: dict[str, Any], repo: str, token: str) -> dict[str, A
         return resource_result
     result = validate_petition(issue, token)
     if result["ok"]:
-        comment_issue_once(repo, token, issue_number, received_comment(result), RECEIVED_MARKER)
+        if result.get("candidate") and os.environ.get("RUNNER_TEMP"):
+            output = Path(os.environ["RUNNER_TEMP"]) / "petition-json" / f"UserGameStatsSchema_{result['game_id']}.json"
+            output.parent.mkdir(parents=True, exist_ok=True)
+            output.write_text(canonical_text(result["candidate"]), encoding="utf-8", newline="\n")
+            run_id = os.environ.get("GITHUB_RUN_ID")
+            if run_id:
+                result["candidate_url"] = f"https://github.com/{repo}/actions/runs/{run_id}#artifacts"
+        # Refresh acknowledgements when edited fields, source availability or run links change.
+        marker = RECEIVED_MARKER[:-4] + ":" + hashlib.sha256(received_comment(result).encode()).hexdigest()[:12] + " -->"
+        comment_issue_once(repo, token, issue_number, received_comment(result) + "\n" + marker, marker)
     else:
         body, marker = invalid_comment(result["errors"])
         comment_issue_once(repo, token, issue_number, body, marker)

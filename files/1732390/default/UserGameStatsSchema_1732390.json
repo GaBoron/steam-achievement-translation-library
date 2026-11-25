@@ -1,0 +1,1167 @@
+{
+  "version": 1,
+  "app_id": "1732390",
+  "variant_id": "default",
+  "source_sha256": "5edbe5cd216cd553ce3fdc5bce3cc8d844ead5899c7cf4c605c2c21ba1eb8b3c",
+  "languages": [
+    "english",
+    "japanese",
+    "koreana",
+    "schinese",
+    "tchinese"
+  ],
+  "achievements": {
+    "PLATINUM": {
+      "translations": {
+        "english": {
+          "name": "Nayuta no Kiseki Mastery",
+          "description": "Earned all achievements."
+        },
+        "japanese": {
+          "name": "那由多の軌跡・制覇",
+          "description": "全ての実績を入手した。"
+        },
+        "koreana": {
+          "name": "나유타의 궤적 · 제패",
+          "description": "모든 도전 과제를 획득했다."
+        },
+        "schinese": {
+          "name": "称霸《那由多之轨迹》",
+          "description": "获得了所有成就"
+        },
+        "tchinese": {
+          "name": "稱霸《那由多之軌跡》",
+          "description": "獲得了所有成就"
+        }
+      }
+    },
+    "GAMESTART": {
+      "translations": {
+        "english": {
+          "name": "Start of a Handyman!",
+          "description": "Start job as a Handyman."
+        },
+        "japanese": {
+          "name": "便利屋始動！",
+          "description": "便利屋の仕事を開始した。"
+        },
+        "koreana": {
+          "name": "해결사 시작!",
+          "description": "해결사 일을 시작했다."
+        },
+        "schinese": {
+          "name": "万事屋开工！",
+          "description": "开始万事屋的工作"
+        },
+        "tchinese": {
+          "name": "萬事屋開工！",
+          "description": "開始萬事屋的工作"
+        }
+      }
+    },
+    "ALL_QUEST": {
+      "translations": {
+        "english": {
+          "name": "Hero of Remnant Island",
+          "description": "Complete all quests."
+        },
+        "japanese": {
+          "name": "残され島の英雄",
+          "description": "全てのクエストを達成した。"
+        },
+        "koreana": {
+          "name": "남겨진 섬의 영웅",
+          "description": "모든 퀘스트를 달성했다."
+        },
+        "schinese": {
+          "name": "失落之岛的英雄",
+          "description": "达成所有委托"
+        },
+        "tchinese": {
+          "name": "失落之島的英雄",
+          "description": "達成所有委託"
+        }
+      }
+    },
+    "ALL_ENEMY": {
+      "translations": {
+        "english": {
+          "name": "Teller of Battles",
+          "description": "Show all enemies in the Enemy Info section."
+        },
+        "japanese": {
+          "name": "戦記の語り部",
+          "description": "全ての敵の情報を開示した。"
+        },
+        "koreana": {
+          "name": "전기를 이야기하는 자",
+          "description": "모든 적의 정보를 해금했다."
+        },
+        "schinese": {
+          "name": "战记传承者",
+          "description": "解锁所有的敌人资讯"
+        },
+        "tchinese": {
+          "name": "戰記傳承者",
+          "description": "解鎖所有的敵人資訊"
+        }
+      }
+    },
+    "ALL_COOKING": {
+      "translations": {
+        "english": {
+          "name": "Gourmet Master",
+          "description": "Learn all recipes."
+        },
+        "japanese": {
+          "name": "グルメマスター",
+          "description": "全てのお弁当を教わった。"
+        },
+        "koreana": {
+          "name": "미식 마스터",
+          "description": "모든 도시락을 배웠다."
+        },
+        "schinese": {
+          "name": "美食大师",
+          "description": "学会所有便当作法"
+        },
+        "tchinese": {
+          "name": "美食大師",
+          "description": "學會所有便當作法"
+        }
+      }
+    },
+    "ALL_EQUIP": {
+      "translations": {
+        "english": {
+          "name": "Weapon Master",
+          "description": "Collect all pieces of equipment."
+        },
+        "japanese": {
+          "name": "ウェポンマスター",
+          "description": "全ての装備品を手に入れた。"
+        },
+        "koreana": {
+          "name": "웨폰 마스터",
+          "description": "모든 장비품을 입수했다."
+        },
+        "schinese": {
+          "name": "武器大师",
+          "description": "获得所有装备"
+        },
+        "tchinese": {
+          "name": "武器大師",
+          "description": "獲得所有裝備"
+        }
+      }
+    },
+    "ALL_MAGIC": {
+      "translations": {
+        "english": {
+          "name": "Hand of All Creation",
+          "description": "Obtain all arts."
+        },
+        "japanese": {
+          "name": "万象の繰り手",
+          "description": "全てのアーツを手に入れた。"
+        },
+        "koreana": {
+          "name": "삼라만상을 잣는 자",
+          "description": "모든 아츠를 입수했다."
+        },
+        "schinese": {
+          "name": "操纵万象者",
+          "description": "获得所有魔法"
+        },
+        "tchinese": {
+          "name": "操縱萬象者",
+          "description": "獲得所有魔法"
+        }
+      }
+    },
+    "ALL_COLLECT": {
+      "translations": {
+        "english": {
+          "name": "Top-Class Collector",
+          "description": "Donate all collectible items."
+        },
+        "japanese": {
+          "name": "一流コレクター",
+          "description": "全てのコレクトアイテムを寄贈した。"
+        },
+        "koreana": {
+          "name": "일류 수집가",
+          "description": "모든 컬렉션 아이템을 기증했다."
+        },
+        "schinese": {
+          "name": "一流收藏家",
+          "description": "捐赠所有收藏道具"
+        },
+        "tchinese": {
+          "name": "一流收藏家",
+          "description": "捐贈所有收藏道具"
+        }
+      }
+    },
+    "ALL_CRAFT": {
+      "translations": {
+        "english": {
+          "name": "Fully Licensed",
+          "description": "Complete all training from your master."
+        },
+        "japanese": {
+          "name": "免許皆伝",
+          "description": "師匠からの鍛錬を全て完了した。"
+        },
+        "koreana": {
+          "name": "면허개전",
+          "description": "스승님의 모든 단련을 완료했다."
+        },
+        "schinese": {
+          "name": "尽得真传",
+          "description": "完成师父的所有锻炼项目"
+        },
+        "tchinese": {
+          "name": "盡得真傳",
+          "description": "完成師父的所有鍛鍊項目"
+        }
+      }
+    },
+    "ALL_STAGE": {
+      "translations": {
+        "english": {
+          "name": "Otherworldly Traveler",
+          "description": "Complete all stages."
+        },
+        "japanese": {
+          "name": "異世界の踏破者",
+          "description": "全てのステージをクリアした。"
+        },
+        "koreana": {
+          "name": "이세계를 주파한 자",
+          "description": "모든 스테이지를 클리어했다."
+        },
+        "schinese": {
+          "name": "踏遍异世界",
+          "description": "完成所有关卡"
+        },
+        "tchinese": {
+          "name": "踏遍異世界",
+          "description": "完成所有關卡"
+        }
+      }
+    },
+    "ALL_STAR": {
+      "translations": {
+        "english": {
+          "name": "Star Shard Observer",
+          "description": "Analyze all star shards."
+        },
+        "japanese": {
+          "name": "星片観測士",
+          "description": "全ての星の欠片を解析した。"
+        },
+        "koreana": {
+          "name": "별조각 관측사",
+          "description": "모든 별의 조각을 분석했다."
+        },
+        "schinese": {
+          "name": "星辰碎片观测士",
+          "description": "解析所有星辰碎片"
+        },
+        "tchinese": {
+          "name": "星辰碎片觀測士",
+          "description": "解析所有星辰碎片"
+        }
+      }
+    },
+    "NORMAL": {
+      "translations": {
+        "english": {
+          "name": "Beginner Scholar",
+          "description": "Beat the game on Normal difficulty or higher."
+        },
+        "japanese": {
+          "name": "学者の卵",
+          "description": "難易度ノーマル以上でクリアした。"
+        },
+        "koreana": {
+          "name": "학자 꿈나무",
+          "description": "노멀 이상의 난이도로 클리어했다."
+        },
+        "schinese": {
+          "name": "初出茅庐",
+          "description": "以NORMAL以上难度完成游戏"
+        },
+        "tchinese": {
+          "name": "初出茅廬",
+          "description": "以NORMAL以上難度完成遊戲"
+        }
+      }
+    },
+    "HARD": {
+      "translations": {
+        "english": {
+          "name": "Future Talent",
+          "description": "Beat the game on Hard difficulty or higher."
+        },
+        "japanese": {
+          "name": "未来の逸材",
+          "description": "難易度ハード以上でクリアした。"
+        },
+        "koreana": {
+          "name": "미래의 인재",
+          "description": "하드 이상의 난이도로 클리어했다."
+        },
+        "schinese": {
+          "name": "明日之星",
+          "description": "以HARD以上难度完成游戏"
+        },
+        "tchinese": {
+          "name": "明日之星",
+          "description": "以HARD以上難度完成遊戲"
+        }
+      }
+    },
+    "NIGHTMARE": {
+      "translations": {
+        "english": {
+          "name": "God of the Sea of Stars",
+          "description": "Beat the game on Infinity difficulty."
+        },
+        "japanese": {
+          "name": "星海を識る者",
+          "description": "難易度インフィニティでクリアした。"
+        },
+        "koreana": {
+          "name": "별의 바다를 아는 자",
+          "description": "인피니티 난이도로 클리어했다."
+        },
+        "schinese": {
+          "name": "星海智者",
+          "description": "以INFINITY难度完成游戏"
+        },
+        "tchinese": {
+          "name": "星海智者",
+          "description": "以INFINITY難度完成遊戲"
+        }
+      }
+    },
+    "LV50": {
+      "translations": {
+        "english": {
+          "name": "Little Giant",
+          "description": "Reach level 50."
+        },
+        "japanese": {
+          "name": "小さな巨人",
+          "description": "レベルを５０まで上げた。"
+        },
+        "koreana": {
+          "name": "작은 거인",
+          "description": "레벨을 50까지 올렸다."
+        },
+        "schinese": {
+          "name": "小小巨人",
+          "description": "将等级提升至50"
+        },
+        "tchinese": {
+          "name": "小小巨人",
+          "description": "將等級提升至50"
+        }
+      }
+    },
+    "ALL_GOLD": {
+      "translations": {
+        "english": {
+          "name": "Millionaire",
+          "description": "Hold 1,000,000+ mira."
+        },
+        "japanese": {
+          "name": "百万長者",
+          "description": "所持金が1，000，000ミラ以上になった。"
+        },
+        "koreana": {
+          "name": "백만장자",
+          "description": "소지금이 1,000,000미라 이상이 되었다."
+        },
+        "schinese": {
+          "name": "百万富翁",
+          "description": "持有金钱达到100万米拉以上"
+        },
+        "tchinese": {
+          "name": "百萬富翁",
+          "description": "持有金錢達到100萬米拉以上"
+        }
+      }
+    },
+    "ALL_MICHY": {
+      "translations": {
+        "english": {
+          "name": "Friend to Mishy",
+          "description": "Find Mishy in every chapter."
+        },
+        "japanese": {
+          "name": "みっしぃの友",
+          "description": "全タイミングでみっしぃを見つけた。"
+        },
+        "koreana": {
+          "name": "밋시의 친구",
+          "description": "모든 타이밍에서 밋시를 발견했다."
+        },
+        "schinese": {
+          "name": "咪西之友",
+          "description": "掌握时机找到所有咪西"
+        },
+        "tchinese": {
+          "name": "咪西之友",
+          "description": "掌握時機找到所有咪西"
+        }
+      }
+    },
+    "STAGE_1": {
+      "translations": {
+        "english": {
+          "name": "Diligent Curiosity",
+          "description": "Complete 10 stages."
+        },
+        "japanese": {
+          "name": "弛まぬ好奇心",
+          "description": "ステージを１０回クリアした。"
+        },
+        "koreana": {
+          "name": "끊임없는 호기심",
+          "description": "스테이지를 10회 클리어했다."
+        },
+        "schinese": {
+          "name": "充满好奇心",
+          "description": "完成关卡10次"
+        },
+        "tchinese": {
+          "name": "充滿好奇心",
+          "description": "完成關卡10次"
+        }
+      }
+    },
+    "STAGE_2": {
+      "translations": {
+        "english": {
+          "name": "Inquisitive Spirit of Steel",
+          "description": "Complete 50 stages."
+        },
+        "japanese": {
+          "name": "鋼鉄の探究心",
+          "description": "ステージを５０回クリアした。"
+        },
+        "koreana": {
+          "name": "강철의 탐구심",
+          "description": "스테이지를 50회 클리어했다."
+        },
+        "schinese": {
+          "name": "钢铁探究心",
+          "description": "完成关卡50次"
+        },
+        "tchinese": {
+          "name": "鋼鐵探究心",
+          "description": "完成關卡50次"
+        }
+      }
+    },
+    "KILL_1": {
+      "translations": {
+        "english": {
+          "name": "Fierce Warrior",
+          "description": "Defeat 200 enemies."
+        },
+        "japanese": {
+          "name": "果敢な戦士",
+          "description": "敵を２００体倒した。"
+        },
+        "koreana": {
+          "name": "과감한 전사",
+          "description": "적을 200회 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "果敢战士",
+          "description": "打倒200个敌人"
+        },
+        "tchinese": {
+          "name": "果敢戰士",
+          "description": "打倒200個敵人"
+        }
+      }
+    },
+    "KILL_2": {
+      "translations": {
+        "english": {
+          "name": "Historic Warrior",
+          "description": "Defeat 2,000 enemies."
+        },
+        "japanese": {
+          "name": "歴戦の闘士",
+          "description": "敵を２０００体倒した。"
+        },
+        "koreana": {
+          "name": "역전의 투사",
+          "description": "적을 2,000회 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "历战斗士",
+          "description": "打倒2000个敌人"
+        },
+        "tchinese": {
+          "name": "歷戰鬥士",
+          "description": "打倒2000個敵人"
+        }
+      }
+    },
+    "KILL_3": {
+      "translations": {
+        "english": {
+          "name": "Intense Warrior",
+          "description": "Defeat 5,000 enemies."
+        },
+        "japanese": {
+          "name": "獅子奮迅の猛者",
+          "description": "敵を５０００体倒した。"
+        },
+        "koreana": {
+          "name": "분투의 용자",
+          "description": "적을 5,000회 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "骁勇强者",
+          "description": "打倒5000个敌人"
+        },
+        "tchinese": {
+          "name": "驍勇強者",
+          "description": "打倒5000個敵人"
+        }
+      }
+    },
+    "KILL_A": {
+      "translations": {
+        "english": {
+          "name": "Peerless Magic",
+          "description": "Defeat 1,000 enemies using magic (arts)."
+        },
+        "japanese": {
+          "name": "魔道無双",
+          "description": "魔法（アーツ）で敵を１０００体倒した。"
+        },
+        "koreana": {
+          "name": "마도무쌍",
+          "description": "마법(아츠)으로 적을 1,000회 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "魔道无双",
+          "description": "以魔法打倒1000个敌人"
+        },
+        "tchinese": {
+          "name": "魔道無雙",
+          "description": "以魔法打倒1000個敵人"
+        }
+      }
+    },
+    "KILL_C": {
+      "translations": {
+        "english": {
+          "name": "Secret Sword Dancer",
+          "description": "Defeat 100 enemies with a sword (skills)."
+        },
+        "japanese": {
+          "name": "秘剣乱舞",
+          "description": "剣技（スキル）で敵を１００体倒した。"
+        },
+        "koreana": {
+          "name": "비검난무",
+          "description": "검기(스킬)로 적을 100회 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "秘剑乱舞",
+          "description": "以剑技打倒100个敌人"
+        },
+        "tchinese": {
+          "name": "祕劍亂舞",
+          "description": "以劍技打倒100個敵人"
+        }
+      }
+    },
+    "GUARD": {
+      "translations": {
+        "english": {
+          "name": "A Hundred Counters",
+          "description": "Block 100 attacks using Guard."
+        },
+        "japanese": {
+          "name": "百花迎撃",
+          "description": "ガードで攻撃を１００回防いだ。"
+        },
+        "koreana": {
+          "name": "백화영격",
+          "description": "카드로 공격을 100회 방어했다."
+        },
+        "schinese": {
+          "name": "百花迎击",
+          "description": "防御100次攻击"
+        },
+        "tchinese": {
+          "name": "百花迎擊",
+          "description": "防禦100次攻擊"
+        }
+      }
+    },
+    "SLIP": {
+      "translations": {
+        "english": {
+          "name": "Indomitable Spirit",
+          "description": "Fall into pits 20 times."
+        },
+        "japanese": {
+          "name": "不屈の精神",
+          "description": "２０回滑落した。"
+        },
+        "koreana": {
+          "name": "불굴의 정신",
+          "description": "20회 추락했다."
+        },
+        "schinese": {
+          "name": "不屈不挠",
+          "description": "滑落20次"
+        },
+        "tchinese": {
+          "name": "不屈不撓",
+          "description": "滑落20次"
+        }
+      }
+    },
+    "BREAK": {
+      "translations": {
+        "english": {
+          "name": "Avatar of Destruction",
+          "description": "Destroy 1,000 objects."
+        },
+        "japanese": {
+          "name": "破壊の化身",
+          "description": "オブジェを１０００個破壊した。"
+        },
+        "koreana": {
+          "name": "파괴의 화신",
+          "description": "물체 1,000개를 파괴했다."
+        },
+        "schinese": {
+          "name": "破坏的化身",
+          "description": "破坏1000个物件"
+        },
+        "tchinese": {
+          "name": "破壞的化身",
+          "description": "破壞1000個物件"
+        }
+      }
+    },
+    "STAR": {
+      "translations": {
+        "english": {
+          "name": "Crystal Maniac",
+          "description": "Collect 5,000 shining stones."
+        },
+        "japanese": {
+          "name": "晶石マニア",
+          "description": "小さい晶石を５０００個拾った。"
+        },
+        "koreana": {
+          "name": "결정석 마니아",
+          "description": "작은 결정석 5,000개를 주웠다."
+        },
+        "schinese": {
+          "name": "晶石狂热者",
+          "description": "拾取5000个小型晶石"
+        },
+        "tchinese": {
+          "name": "晶石狂熱者",
+          "description": "拾取5000個小型晶石"
+        }
+      }
+    },
+    "NO_DAMAGE": {
+      "translations": {
+        "english": {
+          "name": "Spirited Advance",
+          "description": "Complete 10 stages without taking damage."
+        },
+        "japanese": {
+          "name": "快進気鋭",
+          "description": "ステージをノーダメージで１０回クリアした。"
+        },
+        "koreana": {
+          "name": "쾌속진격",
+          "description": "스테이지를 노 대미지로 10회 클리어했다."
+        },
+        "schinese": {
+          "name": "锋头正健",
+          "description": "无伤完成关卡10次"
+        },
+        "tchinese": {
+          "name": "鋒頭正健",
+          "description": "無傷完成關卡10次"
+        }
+      }
+    },
+    "COMBO_100": {
+      "translations": {
+        "english": {
+          "name": "Hundred Cuts",
+          "description": "Reach a Chain of 100."
+        },
+        "japanese": {
+          "name": "百花連撃",
+          "description": "ＣＨＡＩＮ１００を達成した。"
+        },
+        "koreana": {
+          "name": "백화연격",
+          "description": "100 CHAIN을 달성했다."
+        },
+        "schinese": {
+          "name": "百花连击",
+          "description": "达成100 CHAIN"
+        },
+        "tchinese": {
+          "name": "百花連擊",
+          "description": "達成100 CHAIN"
+        }
+      }
+    },
+    "COMBO_200": {
+      "translations": {
+        "english": {
+          "name": "Like a Rain of Stars",
+          "description": "Reach a Chain of 200."
+        },
+        "japanese": {
+          "name": "星雨の如し",
+          "description": "ＣＨＡＩＮ２００を達成した。"
+        },
+        "koreana": {
+          "name": "별비처럼",
+          "description": "200 CHAIN을 달성했다."
+        },
+        "schinese": {
+          "name": "宛如星雨",
+          "description": "达成200 CHAIN"
+        },
+        "tchinese": {
+          "name": "宛如星雨",
+          "description": "達成200 CHAIN"
+        }
+      }
+    },
+    "SPEEDCLEAR_1": {
+      "translations": {
+        "english": {
+          "name": "Lightning Speed",
+          "description": "Clear a stage in under 60 seconds."
+        },
+        "japanese": {
+          "name": "電光石火",
+          "description": "ステージを１分以内にクリアした。"
+        },
+        "koreana": {
+          "name": "전광석화",
+          "description": "스테이지를 1분 내에 클리어했다."
+        },
+        "schinese": {
+          "name": "电光石火",
+          "description": "在1分钟内完成关卡"
+        },
+        "tchinese": {
+          "name": "電光石火",
+          "description": "在1分鐘內完成關卡"
+        }
+      }
+    },
+    "GAMETIME50H": {
+      "translations": {
+        "english": {
+          "name": "Expert Player",
+          "description": "Reach 50 hours of playtime."
+        },
+        "japanese": {
+          "name": "継続の粋人",
+          "description": "プレイ時間が５０時間を越えた。"
+        },
+        "koreana": {
+          "name": "계속의 달인",
+          "description": "플레이 시간 50시간을 초과했다."
+        },
+        "schinese": {
+          "name": "持之以恒",
+          "description": "游玩时间超过50小时"
+        },
+        "tchinese": {
+          "name": "持之以恆",
+          "description": "遊玩時間超過50小時"
+        }
+      }
+    },
+    "BOSS01": {
+      "translations": {
+        "english": {
+          "name": "Twin Colossi",
+          "description": "Defeat the \"Twin Colossi\", Duoqurois."
+        },
+        "japanese": {
+          "name": "《双たる巨岩》",
+          "description": "《双たる巨岩》デュオクロイズを倒した。"
+        },
+        "koreana": {
+          "name": "《쌍둥이 거암》",
+          "description": "《쌍둥이 거암》 듀오 크로이즈를 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "《双生巨岩》",
+          "description": "打倒《双生巨岩》孪生克洛伊兹"
+        },
+        "tchinese": {
+          "name": "《雙生巨岩》",
+          "description": "打倒《雙生巨岩》孿生克洛伊茲"
+        }
+      }
+    },
+    "BOSS02": {
+      "translations": {
+        "english": {
+          "name": "Caller of Lightning",
+          "description": "Defeat the \"Caller of Lightning\", Palreschia."
+        },
+        "japanese": {
+          "name": "《招雷水君》",
+          "description": "《招雷水君》パルレイシアを倒した。"
+        },
+        "koreana": {
+          "name": "《초뢰수군》",
+          "description": "《초뢰수군》 팔레이시아를 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "《招雷水君》",
+          "description": "打倒《招雷水君》帕尔雷席亚"
+        },
+        "tchinese": {
+          "name": "《招雷水君》",
+          "description": "打倒《招雷水君》帕爾雷席亞"
+        }
+      }
+    },
+    "BOSS03": {
+      "translations": {
+        "english": {
+          "name": "Armor of Annihilation",
+          "description": "Defeat the \"Armor of Annihilation\", Krabaltarf."
+        },
+        "japanese": {
+          "name": "《殲滅の魔甲》",
+          "description": "《殲滅の魔甲》クラヴァタルフを倒した。"
+        },
+        "koreana": {
+          "name": "《섬멸의 마갑》",
+          "description": "《섬멸의 마갑》 크라바탈프를 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "《歼灭魔甲》",
+          "description": "打倒《歼灭魔甲》库拉巴塔尔夫"
+        },
+        "tchinese": {
+          "name": "《殲滅魔甲》",
+          "description": "打倒《殲滅魔甲》庫拉巴塔爾夫"
+        }
+      }
+    },
+    "BOSS04": {
+      "translations": {
+        "english": {
+          "name": "Scorching Fury",
+          "description": "Defeat the \"Scorching Fury\", Sagiscellan."
+        },
+        "japanese": {
+          "name": "《灼熱凶獣》",
+          "description": "《灼熱凶獣》サジェスケイロンを倒した。"
+        },
+        "koreana": {
+          "name": "《작열흉수》",
+          "description": "《작열흉수》 서제스 케이론을 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "《灼热凶兽》",
+          "description": "打倒《灼热凶兽》萨杰斯凯隆"
+        },
+        "tchinese": {
+          "name": "《灼熱凶獸》",
+          "description": "打倒《灼熱凶獸》薩傑斯凱隆"
+        }
+      }
+    },
+    "BOSS05": {
+      "translations": {
+        "english": {
+          "name": "Wheel of Judgement",
+          "description": "Defeat the \"Wheel of Judgement\", Libradigger."
+        },
+        "japanese": {
+          "name": "《審判の車輪》",
+          "description": "《審判の車輪》リヴァドリガーを倒した。"
+        },
+        "koreana": {
+          "name": "《심판의 수레바퀴》",
+          "description": "《심판의 수레바퀴》 리바드리거를 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "《审判车轮》",
+          "description": "打倒《审判车轮》里巴德里格"
+        },
+        "tchinese": {
+          "name": "《審判車輪》",
+          "description": "打倒《審判車輪》里巴德里格"
+        }
+      }
+    },
+    "BOSS06": {
+      "translations": {
+        "english": {
+          "name": "Amber Wing",
+          "description": "Defeat the \"Amber Wing\", Raegipan."
+        },
+        "japanese": {
+          "name": "《琥珀の暴翼》",
+          "description": "《琥珀の暴翼》ライギヴァーンを倒した。"
+        },
+        "koreana": {
+          "name": "《호박의 폭익》",
+          "description": "《호박의 폭익》 라이기번을 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "《琥珀暴翼》",
+          "description": "打倒《琥珀暴翼》莱奇巴恩"
+        },
+        "tchinese": {
+          "name": "《琥珀暴翼》",
+          "description": "打倒《琥珀暴翼》萊奇巴恩"
+        }
+      }
+    },
+    "BOSS07": {
+      "translations": {
+        "english": {
+          "name": "Azure Ogre",
+          "description": "Defeat the \"Azure Ogre\", Ishtauros."
+        },
+        "japanese": {
+          "name": "《紺碧の剛鬼》",
+          "description": "《紺碧の剛鬼》イシュタロスを倒した。"
+        },
+        "koreana": {
+          "name": "《푸른 강귀》",
+          "description": "《푸른 강귀》 이슈타로스를 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "《碧蓝刚鬼》",
+          "description": "打倒《碧蓝刚鬼》伊修塔洛斯"
+        },
+        "tchinese": {
+          "name": "《碧藍剛鬼》",
+          "description": "打倒《碧藍剛鬼》伊修塔洛斯"
+        }
+      }
+    },
+    "BOSS08": {
+      "translations": {
+        "english": {
+          "name": "Jade Sword King",
+          "description": "Defeat the \"Jade Sword King\", Armadalleos."
+        },
+        "japanese": {
+          "name": "《翡翠の剣王》",
+          "description": "《翡翠の剣王》アルマダリエスを倒した。"
+        },
+        "koreana": {
+          "name": "《비취의 검왕》",
+          "description": "《비취의 검왕》 아르마 다리에스을 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "《翡翠剑王》",
+          "description": "打倒《翡翠剑王》格兰德里恩"
+        },
+        "tchinese": {
+          "name": "《翡翠劍王》",
+          "description": "打倒《翡翠劍王》格蘭德里恩"
+        }
+      }
+    },
+    "BOSS09": {
+      "translations": {
+        "english": {
+          "name": "Crimson Demon Lord",
+          "description": "Defeat the \"Crimson Demon Lord\", Gladarieon."
+        },
+        "japanese": {
+          "name": "《紅蓮の魔帝》",
+          "description": "《紅蓮の魔帝》グラドリオンを倒した。"
+        },
+        "koreana": {
+          "name": "《홍련의 마제》",
+          "description": "《홍련의 마제》 그라드리온를 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "《红莲魔帝》",
+          "description": "打倒《红莲魔帝》阿玛达利埃斯"
+        },
+        "tchinese": {
+          "name": "《紅蓮魔帝》",
+          "description": "打倒《紅蓮魔帝》阿瑪達利埃斯"
+        }
+      }
+    },
+    "BOSS10": {
+      "translations": {
+        "english": {
+          "name": "Starfall Knight",
+          "description": "Defeat the \"Starfall Knight\", Selam EI Ordeen."
+        },
+        "japanese": {
+          "name": "《星伐騎士》",
+          "description": "《星伐騎士》セラム・イル・オルディーンを倒した。"
+        },
+        "koreana": {
+          "name": "《성벌기사》",
+          "description": "《성벌기사》 세럼 일 오르딘을 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "《星伐骑士》",
+          "description": "打倒《星伐骑士》瑟拉姆・伊尔・奥尔丁"
+        },
+        "tchinese": {
+          "name": "《星伐騎士》",
+          "description": "打倒《星伐騎士》瑟拉姆・伊爾・奧爾丁"
+        }
+      }
+    },
+    "BOSS11": {
+      "translations": {
+        "english": {
+          "name": "Mythic Leader",
+          "description": "Defeat the \"Mythic Leader\", Zext di Quarius."
+        },
+        "japanese": {
+          "name": "《神話を導く者》",
+          "description": "《神話を導く者》ゼクスト・ジ・キュリアスを倒した。"
+        },
+        "koreana": {
+          "name": "《신화를 인도하는 자》",
+          "description": "《신화를 인도하는 자》 젝스트 디 큐리어스를 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "《神话引导者》",
+          "description": "打倒《神话引导者》杰克斯特・吉・居里亚斯"
+        },
+        "tchinese": {
+          "name": "《神話引導者》",
+          "description": "打倒《神話引導者》傑克斯特・吉・居里亞斯"
+        }
+      }
+    },
+    "BOSS12": {
+      "translations": {
+        "english": {
+          "name": "Vacuous Planetary Core",
+          "description": "Defeat the \"Vacuous Planetary Core\", Stell Alacran."
+        },
+        "japanese": {
+          "name": "《虚無なる星核》",
+          "description": "《虚無なる星核》ステル・アラクランを倒した。"
+        },
+        "koreana": {
+          "name": "《허무한 성핵》",
+          "description": "《허무한 성핵》 스텔 아라크란을 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "《虚无星核》",
+          "description": "打倒《虚无星核》斯特尔・亚拉克兰"
+        },
+        "tchinese": {
+          "name": "《虛無星核》",
+          "description": "打倒《虛無星核》斯特爾・亞拉克蘭"
+        }
+      }
+    },
+    "AFTERSTART": {
+      "translations": {
+        "english": {
+          "name": "A New Day",
+          "description": "Begin the epilogue chapter."
+        },
+        "japanese": {
+          "name": "新たなる日々",
+          "description": "後日譚を開始した。"
+        },
+        "koreana": {
+          "name": "새로운 나날",
+          "description": "후일담을 시작했다."
+        },
+        "schinese": {
+          "name": "全新的每一天",
+          "description": "开始游玩后日谭"
+        },
+        "tchinese": {
+          "name": "全新的每一天",
+          "description": "開始遊玩後日譚"
+        }
+      }
+    },
+    "BOSS13": {
+      "translations": {
+        "english": {
+          "name": "Pure Celestial Armor",
+          "description": "Defeat the \"Pure Celestial Armor\", Labe Virgos."
+        },
+        "japanese": {
+          "name": "《純潔の神鎧》",
+          "description": "《純潔の神鎧》ラーベ・ヴァルゴスを倒した。"
+        },
+        "koreana": {
+          "name": "《순결의 신갑》",
+          "description": "《순결의 신갑》 라베 바르고스를 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "《纯洁神铠》",
+          "description": "打倒《纯洁神铠》拉贝・巴尔格斯"
+        },
+        "tchinese": {
+          "name": "《純潔神鎧》",
+          "description": "打倒《純潔神鎧》拉貝・巴爾格斯"
+        }
+      }
+    },
+    "BOSS14": {
+      "translations": {
+        "english": {
+          "name": "Weaver of Paradise",
+          "description": "Defeat the \"Weaver of Paradise\", Noi Stelladia."
+        },
+        "japanese": {
+          "name": "《楽園の紡ぎ手》",
+          "description": "《楽園の紡ぎ手》ノイ・ステラディアを倒した。"
+        },
+        "koreana": {
+          "name": "《낙원의 이야기꾼》",
+          "description": "《낙원의 이야기꾼》 노이 스텔라디어를 쓰러트렸다."
+        },
+        "schinese": {
+          "name": "《乐园编织者》",
+          "description": "打倒《乐园编织者》诺伊・斯特拉迪雅"
+        },
+        "tchinese": {
+          "name": "《樂園編織者》",
+          "description": "打倒《樂園編織者》諾伊・斯特拉迪雅"
+        }
+      }
+    }
+  }
+}

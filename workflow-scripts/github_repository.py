@@ -55,6 +55,16 @@ def ensure_label(repo: str, token: str, name: str) -> None:
     )
 
 
+def dispatch_translation_checks(repo: str, token: str, branch: str) -> None:
+    github_request(
+        "POST",
+        repo,
+        token,
+        "/actions/workflows/repository-checks.yml/dispatches",
+        {"ref": branch},
+    )
+
+
 def add_issue_label(repo: str, token: str, issue_number: int, label: str) -> None:
     ensure_label(repo, token, label)
     github_request("POST", repo, token, f"/issues/{issue_number}/labels", {"labels": [label]})

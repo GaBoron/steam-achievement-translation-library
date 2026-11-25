@@ -1,0 +1,939 @@
+{
+  "version": 1,
+  "app_id": "334210",
+  "variant_id": "default",
+  "source_sha256": "572a70da3a3b1cf45efef5fc12d6f3cb1505a9ade1d3112c294706d31715853f",
+  "languages": [
+    "brazilian",
+    "english",
+    "french",
+    "german",
+    "italian",
+    "portuguese",
+    "schinese",
+    "spanish",
+    "turkish"
+  ],
+  "achievements": {
+    "ACH_2": {
+      "translations": {
+        "brazilian": {
+          "name": "Jogador de elite",
+          "description": "Completar um mapa, que não seja Easy Street, sem que a base sofra dano"
+        },
+        "english": {
+          "name": "Ivy Leaguer",
+          "description": "Complete a map other than Easy Street without the base taking damage"
+        },
+        "french": {
+          "name": "L'élite",
+          "description": "Complétez une carte autre que Easy Street sans que la base ne soit endommagée"
+        },
+        "german": {
+          "name": "Ivy Leaguer",
+          "description": "Karte mit Ausnahme von Easy Street ohne Beschädigung der Basis abgeschlossen"
+        },
+        "italian": {
+          "name": "Giocatore della lega dell'edera",
+          "description": "Completata una mappa che non sia Easy Street senza che la base abbia riportato danni"
+        },
+        "portuguese": {
+          "name": "Jogador de elite",
+          "description": "Completar um mapa, que não seja Easy Street, sem que a base sofra dano"
+        },
+        "schinese": {
+          "name": "常春藤精英",
+          "description": "完成除安逸街外的任意地图，且基地未受到任何伤害"
+        },
+        "spanish": {
+          "name": "Jugador de la liga de la hiedra",
+          "description": "Completa un mapa que no sea Easy Street sin que la base sufra daños "
+        },
+        "turkish": {
+          "name": "Toz Dokunmaz",
+          "description": "Rokete zarar gelmeden bölümü geç  (Easy Street hariç)"
+        }
+      }
+    },
+    "ACH_3": {
+      "translations": {
+        "brazilian": {
+          "name": "Ícone nacional",
+          "description": "Alcançar nível 20"
+        },
+        "english": {
+          "name": "National Icon",
+          "description": "Reach level 20"
+        },
+        "french": {
+          "name": "Icône national",
+          "description": "Atteignez le niveau 20"
+        },
+        "german": {
+          "name": "Nationale Ikone",
+          "description": "Level 20 erreicht"
+        },
+        "italian": {
+          "name": "Icona Nazionale",
+          "description": "Raggiunto livello 20"
+        },
+        "portuguese": {
+          "name": "Ícone nacional",
+          "description": "Alcançar nível 20"
+        },
+        "schinese": {
+          "name": "国家偶像",
+          "description": "达到20级"
+        },
+        "spanish": {
+          "name": "Símbolo nacional",
+          "description": "Alcanza el nivel 20"
+        },
+        "turkish": {
+          "name": "Milli Kahraman",
+          "description": "Yirminci seviyeye eriş"
+        }
+      }
+    },
+    "ACH_4": {
+      "translations": {
+        "brazilian": {
+          "name": "Defensores da liberdade",
+          "description": "Alcançar nível 20 com todos os personagens"
+        },
+        "english": {
+          "name": "Defenders of Freedom",
+          "description": "Reach level 20 with all player characters"
+        },
+        "french": {
+          "name": "Défenseurs de la Liberté",
+          "description": "Atteignez le niveau 20 avec tous le personnages du jeu"
+        },
+        "german": {
+          "name": "Verteidiger der Freiheit",
+          "description": "Level 20 mit allen Charakteren erreicht"
+        },
+        "italian": {
+          "name": "Difensori della Libertà",
+          "description": "Raggiunto livello 20 con tutti i personaggi"
+        },
+        "portuguese": {
+          "name": "Defensores da liberdade",
+          "description": "Alcançar nível 20 com todos os personagens"
+        },
+        "schinese": {
+          "name": "自由卫士",
+          "description": "使用全部玩家角色达到20级"
+        },
+        "spanish": {
+          "name": "Defensores de la Libertad",
+          "description": "Alcanza el nivel 20 con todos los personajes del jugador"
+        },
+        "turkish": {
+          "name": "Egemenliğin Koruyucuları",
+          "description": "Bütün karakterleri yirminci seviyeye eriştir"
+        }
+      }
+    },
+    "ACH_5": {
+      "translations": {
+        "brazilian": {
+          "name": "Não passarão!",
+          "description": "Completar um mapa em modo Difícil, que não seja Easy Street, sem sofrer dano"
+        },
+        "english": {
+          "name": "They Shall Not Pass",
+          "description": "Complete any map on hard, other than Easy Street without taking damage"
+        },
+        "french": {
+          "name": "Ils ne passeront pas",
+          "description": "Complétez une carte en mode difficile autre que Easy Street sans que la base ne soit endommagée"
+        },
+        "german": {
+          "name": "Kein Durchkommen",
+          "description": "Karte mit Ausnahme von Easy Street auf Schwer ohne Beschädigung der Basis abgeschlossen"
+        },
+        "italian": {
+          "name": "Non Passeranno",
+          "description": "Completata una mappa in modalità difficile, che non siano Easy Street senza aver riportato danni"
+        },
+        "portuguese": {
+          "name": "Não passarão!",
+          "description": "Completar um mapa em modo Difícil, que não seja Easy Street, sem sofrer dano"
+        },
+        "schinese": {
+          "name": "休想通过",
+          "description": "在困难难度下完成除安逸街外的任意地图，且未受到任何伤害"
+        },
+        "spanish": {
+          "name": "No tendrán pase",
+          "description": "Completa cualquier mapa en difícil, que no sea Easy Street sin sufrir daño"
+        },
+        "turkish": {
+          "name": "Geç geçebilirsen",
+          "description": "Yüksek zorlukta, hasar görmeden bir bölüm geç  (Easy Street hariç)"
+        }
+      }
+    },
+    "ACH_8": {
+      "translations": {
+        "brazilian": {
+          "name": "Pau na máquina!",
+          "description": "Destrua um Annihilator antes dele desenrolar"
+        },
+        "english": {
+          "name": "Goose It!",
+          "description": "Destroy an Annihilator before it deploys"
+        },
+        "french": {
+          "name": "Secouez le !",
+          "description": "Détruisez un Annihilateur avant qu'il ne se déploie"
+        },
+        "german": {
+          "name": "Erledige ihn!",
+          "description": "Vernichter zerstört, bevor er sich postierte"
+        },
+        "italian": {
+          "name": "Fallo e basta!",
+          "description": "Distrutto un Annientatore prima che fosse schierato"
+        },
+        "portuguese": {
+          "name": "Pau na máquina!",
+          "description": "Destrua um Annihilator antes dele desenrolar"
+        },
+        "schinese": {
+          "name": "加速冲啊！",
+          "description": "在歼灭者部署之前将其摧毁"
+        },
+        "spanish": {
+          "name": "¡Hazlo!",
+          "description": "Destruye un Aniquilador antes de que se despliegue"
+        },
+        "turkish": {
+          "name": "Çantada keklik",
+          "description": "Bir Annihilatorü açılmadan yok et"
+        }
+      }
+    },
+    "ACH_9": {
+      "translations": {
+        "brazilian": {
+          "name": "Chovendo grana",
+          "description": "Gaste mais de $7.500 em qualquer mapa que não seja Easy Street"
+        },
+        "english": {
+          "name": "Big Spender",
+          "description": "Spend more than $7,500 in any map other than Easy Street"
+        },
+        "french": {
+          "name": "Flambeur",
+          "description": "Dépensez plus de 7 500 $ sur n'importe quelle carte autre que Easy Street"
+        },
+        "german": {
+          "name": "Verschwender",
+          "description": "Auf einer Karte mit Ausnahme von Easy Street mehr als 7.500 $ ausgegeben"
+        },
+        "italian": {
+          "name": "Gran Spendaccione",
+          "description": "Spesi più di $ 7.500 in tutte le mappe che non siano Easy Street"
+        },
+        "portuguese": {
+          "name": "Chovendo grana",
+          "description": "Gaste mais de $7.500 em qualquer mapa que não seja Easy Street"
+        },
+        "schinese": {
+          "name": "挥金如土",
+          "description": "在除安逸街外的任意地图中花费超过7,500美元"
+        },
+        "spanish": {
+          "name": "El gran gastador",
+          "description": "Gastar más de $ 7.500 en cualquier mapa que no sea Easy Street"
+        },
+        "turkish": {
+          "name": "Bonkör",
+          "description": "Bir bölümde 7500 dolardan fazla para harca  (Easy Street hariç)"
+        }
+      }
+    },
+    "ACH_10": {
+      "translations": {
+        "brazilian": {
+          "name": "Pseudo-intelectual meio de esquerda",
+          "description": "Completar um mapa, que não seja Easy Street, sem nenhum inimigo destruído por estruturas"
+        },
+        "english": {
+          "name": "Beatnik",
+          "description": "Complete any map other than Easy Street without any structure kills"
+        },
+        "french": {
+          "name": "Beatnik",
+          "description": "Complétez n'importe quelle carte autre que Easy Street sans pertes structurelles"
+        },
+        "german": {
+          "name": "Halbstarker",
+          "description": "Karte mit Ausnahme von Easy Street ohne Gebäudeschäden abgeschlossen"
+        },
+        "italian": {
+          "name": "Beatnik",
+          "description": "Completate tutte le mappe oltre a Easy Street senza che nessuna struttura abbia ucciso"
+        },
+        "portuguese": {
+          "name": "Pseudo-intelectual meio de esquerda",
+          "description": "Completar um mapa, que não seja Easy Street, sem nenhum inimigo destruído por estruturas"
+        },
+        "schinese": {
+          "name": "垮掉派",
+          "description": "完成除安逸街外的任意地图，且防御建筑未取得任何击杀"
+        },
+        "spanish": {
+          "name": "Beatnik",
+          "description": "Completar cualquier mapa que no sea Easy Street sin ninguna muerte de estructura "
+        },
+        "turkish": {
+          "name": "Fedai",
+          "description": "Bir bölümü yapı kullanmadan bitir  (Easy Street hariç)"
+        }
+      }
+    },
+    "ACH_11": {
+      "translations": {
+        "brazilian": {
+          "name": "Atirador de elite",
+          "description": "Destruir 10 inimigos usando o Rifle em 5 segundos"
+        },
+        "english": {
+          "name": "Sharpshooter",
+          "description": "Destroy 10 enemies with the Rifle in 5 seconds"
+        },
+        "french": {
+          "name": "Tireur d'élite",
+          "description": "Détruisez 10 ennemis avec le fusil en 5 secondes"
+        },
+        "german": {
+          "name": "Scharfschütze",
+          "description": "10 Feinde mit dem Gewehr in 5 Sekunden vernichtet"
+        },
+        "italian": {
+          "name": "Tiratore Scelto",
+          "description": "Distrutti 10 nemici con la Carabina in 5 secondi"
+        },
+        "portuguese": {
+          "name": "Atirador de elite",
+          "description": "Destruir 10 inimigos usando o Rifle em 5 segundos"
+        },
+        "schinese": {
+          "name": "神枪手",
+          "description": "在5秒内用步枪消灭10个敌人"
+        },
+        "spanish": {
+          "name": "Francotirador",
+          "description": "Destruye a 10 enemigos con el rifle en 5 segundos"
+        },
+        "turkish": {
+          "name": "Keskin Nişancı",
+          "description": "Tüfekle 5 saniyede 10 robot yok et"
+        }
+      }
+    },
+    "ACH_12": {
+      "translations": {
+        "brazilian": {
+          "name": "Aquela espingarda amiga",
+          "description": "Destruir 5 inimigos voadores em 5 segundos usando a Shotgun"
+        },
+        "english": {
+          "name": "Slugger",
+          "description": "Destroy 5 flying enemies in 5 seconds with the shotgun"
+        },
+        "french": {
+          "name": "Cogneur",
+          "description": "Détruisez 5 ennemis volants en 5 secondes avec la carabine"
+        },
+        "german": {
+          "name": "Schläger",
+          "description": "5 feindliche Flugeinheiten in 5 Sekunden mit der Schrotflinte zur Strecke gebracht"
+        },
+        "italian": {
+          "name": "Battitore",
+          "description": "Distrutti 5 nemici volanti in 5 secondi con il fucile"
+        },
+        "portuguese": {
+          "name": "Aquela espingarda amiga",
+          "description": "Destruir 5 inimigos voadores em 5 segundos usando a Shotgun"
+        },
+        "schinese": {
+          "name": "重击手",
+          "description": "在5秒内用霰弹枪消灭5个飞行敌人"
+        },
+        "spanish": {
+          "name": "Slugger",
+          "description": "Destruye 5 enemigos voladores con la escopeta en 5 segundos "
+        },
+        "turkish": {
+          "name": "Çifte Telli",
+          "description": "Çifte tüfekle 5 uçan robotu 5 saniyede yok ettin"
+        }
+      }
+    },
+    "ACH_13": {
+      "translations": {
+        "brazilian": {
+          "name": "Alistando para batalha",
+          "description": "Completar um mapa, que não seja Easy Street, usando apenas infantaria"
+        },
+        "english": {
+          "name": "Reporting For Duty",
+          "description": "Complete any map other than Easy Street using only infantry"
+        },
+        "french": {
+          "name": "Soldat au rapport",
+          "description": "Complétez n'importe quelle carte autre que Easy Street en utilisant uniquement l'infanterie"
+        },
+        "german": {
+          "name": "Dienstantritt",
+          "description": "Karte mit Ausnahme von Easy Street nur durch Einsatz der Infanterie abgeschlossen"
+        },
+        "italian": {
+          "name": "Presentarsi a Rapporto",
+          "description": "Completate tutte le mappe che non sono Easy Street usando solo la fanteria"
+        },
+        "portuguese": {
+          "name": "Alistando para batalha",
+          "description": "Completar um mapa, que não seja Easy Street, usando apenas infantaria"
+        },
+        "schinese": {
+          "name": "前来报到",
+          "description": "仅使用步兵完成除安逸街外的任意地图"
+        },
+        "spanish": {
+          "name": "Reportar",
+          "description": "Completar cualquier mapa que no sea  de Easy Street  usando sólo la infantería"
+        },
+        "turkish": {
+          "name": "Emret Komutanım",
+          "description": "Bir bölümü sadece askerlerle bitir (Easy Street hariç)"
+        }
+      }
+    },
+    "ACH_14": {
+      "translations": {
+        "brazilian": {
+          "name": "Bronco!",
+          "description": "Destruir 20 inimigos em 1 segundo"
+        },
+        "english": {
+          "name": "Cranked!",
+          "description": "Destroy 20 enemies within 1 second"
+        },
+        "french": {
+          "name": "Vous êtes remonté à fond !",
+          "description": "Détruisez 20 ennemis en 1 seconde"
+        },
+        "german": {
+          "name": "Durchgezogen!",
+          "description": "20 Feinde in 1 Sekunde vernichtet"
+        },
+        "italian": {
+          "name": "Arrabbiato!",
+          "description": "Distrutti 20 nemici in 1 secondo"
+        },
+        "portuguese": {
+          "name": "Bronco!",
+          "description": "Destruir 20 inimigos em 1 segundo"
+        },
+        "schinese": {
+          "name": "火力全开！",
+          "description": "1秒内消灭20名敌人"
+        },
+        "spanish": {
+          "name": "¡Maniático!",
+          "description": "Destruye a 20 enemigos en 1 segundo"
+        },
+        "turkish": {
+          "name": "Azgın Manyak",
+          "description": "Bir saniyede 20 robot yok et"
+        }
+      }
+    },
+    "ACH_15": {
+      "translations": {
+        "brazilian": {
+          "name": "Quebrando o gelo",
+          "description": "Congelar 10 inimigos em 1 segundo"
+        },
+        "english": {
+          "name": "Ice to Meet You",
+          "description": "Freeze 10 enemies within 1 second"
+        },
+        "french": {
+          "name": "Salutations congelées",
+          "description": "Congelez 10 ennemis en 1 seconde"
+        },
+        "german": {
+          "name": "Eiskalt",
+          "description": "10 Feinde in 1 Sekunde eingefroren"
+        },
+        "italian": {
+          "name": "Felice di Rompere il Ghiaccio",
+          "description": "Congelati 10 nemici in 1 secondo"
+        },
+        "portuguese": {
+          "name": "Quebrando o gelo",
+          "description": "Congelar 10 inimigos em 1 segundo"
+        },
+        "schinese": {
+          "name": "以冰会友",
+          "description": "1秒内冻结10名敌人"
+        },
+        "spanish": {
+          "name": "Frio de conocerte",
+          "description": "Congela a 10 enemigos en 1 segundo"
+        },
+        "turkish": {
+          "name": "Dondurmam Kaymak",
+          "description": "Bir saniye 10 robotu dondur"
+        }
+      }
+    },
+    "ACH_16": {
+      "translations": {
+        "brazilian": {
+          "name": "Prova de fogo",
+          "description": "Atear fogo em 10 inimigos simultaneamente"
+        },
+        "english": {
+          "name": "Great Balls of Fire",
+          "description": "Set fire to 10 enemies simultaneously"
+        },
+        "french": {
+          "name": "Great Balls of Fire",
+          "description": "Mettez le feu à 10 ennemis simultanément"
+        },
+        "german": {
+          "name": "Groβer Feuerball",
+          "description": "10 Feinde gleichzeitig in Brand gesteckt"
+        },
+        "italian": {
+          "name": "Grandi Palle di Fuoco",
+          "description": "Dato fuoco a 10 nemici contemporaneamente"
+        },
+        "portuguese": {
+          "name": "Prova de fogo",
+          "description": "Atear fogo em 10 inimigos simultaneamente"
+        },
+        "schinese": {
+          "name": "烈焰滔天",
+          "description": "同时点燃10名敌人"
+        },
+        "spanish": {
+          "name": "Grandes bolas de fuego",
+          "description": "Prender fuego a 10 enemigos al mismo tiempo"
+        },
+        "turkish": {
+          "name": "Yangın fırtınası",
+          "description": "Bir saniyede 10 robotu ateşe ver"
+        }
+      }
+    },
+    "ACH_17": {
+      "translations": {
+        "brazilian": {
+          "name": "Curto-circuito",
+          "description": "Destruir 50 inimigos usando Tesla Coils em um mapa que não seja Easy Street"
+        },
+        "english": {
+          "name": "Circuit Breaker",
+          "description": "Destroy 50 enemies using Tesla Coils in any single map other than Easy Street"
+        },
+        "french": {
+          "name": "Disjoncteur",
+          "description": "Détruisez 50 ennemis avec des bobines de Tesla sur n'importe quelle carte  autre que Easy Street"
+        },
+        "german": {
+          "name": "Ausschalter",
+          "description": "50 Feinde auf einer Karte mit Ausnahme von Easy Street mit Tesla-Spulen vernichtet"
+        },
+        "italian": {
+          "name": "Interruttore",
+          "description": "Distrutti 50 nemici usando Tesla Coils in ciascuna mappa che non sia Easy Street"
+        },
+        "portuguese": {
+          "name": "Curto-circuito",
+          "description": "Destruir 50 inimigos usando Tesla Coils em um mapa que não seja Easy Street"
+        },
+        "schinese": {
+          "name": "断路器",
+          "description": "在除安逸街外的任意单张地图上使用特斯拉线圈消灭50名敌人"
+        },
+        "spanish": {
+          "name": "Cortacircuitos",
+          "description": "Destruye a 50 enemigos usando Tesla Coils en cualquier mapa que no sea Easy Street"
+        },
+        "turkish": {
+          "name": "Sigorta Attı",
+          "description": "Tesla kulesiyle 50 robot yok et  (Easy Street hariç)"
+        }
+      }
+    },
+    "ACH_18": {
+      "translations": {
+        "brazilian": {
+          "name": "Cryongelados",
+          "description": "Lançar 10 inimigos ao mesmo tempo com o tiro secundário do Cryo Blaster "
+        },
+        "english": {
+          "name": "Cryo Baby",
+          "description": "Throw 10 enemies at once with the Cryo Blaster secondary attack"
+        },
+        "french": {
+          "name": "Cryo Baby",
+          "description": "Jetez 10 ennemis à la fois avec l'attaque secondaire Cryo Blaster"
+        },
+        "german": {
+          "name": "Cryo Baby",
+          "description": "Mit dem sekundären Angriff des Cryo Blasters 10 Feinde auf einmal ausgeschaltet"
+        },
+        "italian": {
+          "name": "Cryo Baby",
+          "description": "Lanciati 10 nemici alla volta con l'attacco secondario del Cryo Blaster"
+        },
+        "portuguese": {
+          "name": "Cryongelados",
+          "description": "Lançar 10 inimigos ao mesmo tempo com o tiro secundário do Cryo Blaster "
+        },
+        "schinese": {
+          "name": "冻哭宝宝",
+          "description": "用急冻喷射枪的次要攻击一次抛起10名敌人"
+        },
+        "spanish": {
+          "name": "Cryo bebé",
+          "description": "Lanza a 10 enemigos a la vez con el ataque secundario de Cryo Blaster"
+        },
+        "turkish": {
+          "name": "Rüzgar aldı götürdü",
+          "description": "Cryo Blaster ikinci fonksiyonuyla 10 robotu aynı anda uçur"
+        }
+      }
+    },
+    "ACH_20": {
+      "translations": {
+        "brazilian": {
+          "name": "Pra cima dele!",
+          "description": "Derrotar o Juggernaut"
+        },
+        "english": {
+          "name": "Bring Him Down!",
+          "description": "Defeat the Juggernaut"
+        },
+        "french": {
+          "name": "Détruisez le !",
+          "description": "Battez le Champion"
+        },
+        "german": {
+          "name": "Hol ihn vom Himmel!",
+          "description": "Moloch besiegt"
+        },
+        "italian": {
+          "name": "Buttalo Giù!",
+          "description": "Sconfitto il Titano"
+        },
+        "portuguese": {
+          "name": "Pra cima dele!",
+          "description": "Derrotar o Juggernaut"
+        },
+        "schinese": {
+          "name": "放倒他！",
+          "description": "击败重装兵"
+        },
+        "spanish": {
+          "name": "¡Derríbalo!",
+          "description": "Derrota al gigante"
+        },
+        "turkish": {
+          "name": "Demir Bilek",
+          "description": "Juggernaut'ı yok et"
+        }
+      }
+    },
+    "ACH_23": {
+      "translations": {
+        "brazilian": {
+          "name": "Transpiração negativa",
+          "description": "Sobreviver 10 ondas no modo Invasão"
+        },
+        "english": {
+          "name": "Negative Perspiration",
+          "description": "Survive 10 waves of Invasion Mode"
+        },
+        "french": {
+          "name": "Transpiration négative",
+          "description": "Survivez à 10 vagues en mode invasion"
+        },
+        "german": {
+          "name": "Negativer Schweißausbruch",
+          "description": "10 Wellen des Invasionsmodus überlebt"
+        },
+        "italian": {
+          "name": "Traspirazione Negativa",
+          "description": "Sopravvissuto a 10 ondate in Modalità Invasione "
+        },
+        "portuguese": {
+          "name": "Transpiração negativa",
+          "description": "Sobreviver 10 ondas no modo Invasão"
+        },
+        "schinese": {
+          "name": "汗都不流",
+          "description": "在入侵模式中存活10波"
+        },
+        "spanish": {
+          "name": "Transpiración negativa",
+          "description": "Sobrevive 10 oleadas en modo Invasión"
+        },
+        "turkish": {
+          "name": "Dalga Geçiyorsun",
+          "description": "İstila modunda 10 dalga hayatta kal"
+        }
+      }
+    },
+    "ACH_24": {
+      "translations": {
+        "brazilian": {
+          "name": "Ouvindo sininhos",
+          "description": "Derrotar o Stalker"
+        },
+        "english": {
+          "name": "Clanked!",
+          "description": "Defeat the Stalker"
+        },
+        "french": {
+          "name": "Trop fort !",
+          "description": "Battez le pisteur"
+        },
+        "german": {
+          "name": "Gescheppert!",
+          "description": "Verfolger besiegt"
+        },
+        "italian": {
+          "name": "Imprigionato!",
+          "description": "Sconfitto lo Stalker"
+        },
+        "portuguese": {
+          "name": "Ouvindo sininhos",
+          "description": "Derrotar o Stalker"
+        },
+        "schinese": {
+          "name": "哐当一声！",
+          "description": "击败潜行者"
+        },
+        "spanish": {
+          "name": "¡Sonido metálico!",
+          "description": "Derrota al acosador"
+        },
+        "turkish": {
+          "name": "Boyun Eğmez Ele Gelmez",
+          "description": "Stalker'ı yok et"
+        }
+      }
+    },
+    "ACH_26": {
+      "translations": {
+        "brazilian": {
+          "name": "Até os dentes",
+          "description": "Destravar todas as estruturas e armas"
+        },
+        "english": {
+          "name": "Stacked",
+          "description": "Unlock every structure and weapon"
+        },
+        "french": {
+          "name": "Chargé à block !",
+          "description": "Déverrouillez toutes les structures et toutes les armes"
+        },
+        "german": {
+          "name": "Gestapelt",
+          "description": "Alle Gebäude und Waffen freigeschaltet"
+        },
+        "italian": {
+          "name": "Muscoloso",
+          "description": "Sbloccate tutte le strutture e le armi"
+        },
+        "portuguese": {
+          "name": "Até os dentes",
+          "description": "Destravar todas as estruturas e armas"
+        },
+        "schinese": {
+          "name": "应有尽有",
+          "description": "解锁所有建筑与武器"
+        },
+        "spanish": {
+          "name": "Apilados",
+          "description": "Desbloquear todas las estructuras y el arma"
+        },
+        "turkish": {
+          "name": "Ortaya Karışık",
+          "description": "Bütün silah ve yapılara sahip ol"
+        }
+      }
+    },
+    "ACH_27": {
+      "translations": {
+        "brazilian": {
+          "name": "Rei do bairro",
+          "description": "Completar todos os mapas na dificuldade Normal"
+        },
+        "english": {
+          "name": "Square",
+          "description": "Complete every map on normal difficulty"
+        },
+        "french": {
+          "name": "Bien",
+          "description": "Complétez toutes les cartes en mode de difficulté normale"
+        },
+        "german": {
+          "name": "Spieβer",
+          "description": "Alle Karten auf normalem Schwierigkeitsgrad abgeschlossen"
+        },
+        "italian": {
+          "name": "Piazza",
+          "description": "Completate tutte le mappe in modalità normale"
+        },
+        "portuguese": {
+          "name": "Rei do bairro",
+          "description": "Completar todos os mapas na dificuldade Normal"
+        },
+        "schinese": {
+          "name": "四平八稳",
+          "description": "以普通难度完成所有地图"
+        },
+        "spanish": {
+          "name": "Cuadrado",
+          "description": "Completar todos los mapas en dificultad normal"
+        },
+        "turkish": {
+          "name": "Tamam oldu",
+          "description": "Normal zorlukta bütün bölümleri bitir"
+        }
+      }
+    },
+    "ACH_28": {
+      "translations": {
+        "brazilian": {
+          "name": "Protetor da Terra",
+          "description": "Completar todos os mapas na dificuldade Difícil"
+        },
+        "english": {
+          "name": "Earth's Protector",
+          "description": "Complete every map on hard"
+        },
+        "french": {
+          "name": "Le protecteur de la terre",
+          "description": "Complétez toutes les cartes en mode difficile"
+        },
+        "german": {
+          "name": "Beschützer der Welt",
+          "description": "Alle Karten auf Schwer abgeschlossen"
+        },
+        "italian": {
+          "name": "Protettore della Terra",
+          "description": "Completate tutte le mappe in modalità difficile"
+        },
+        "portuguese": {
+          "name": "Protetor da Terra",
+          "description": "Completar todos os mapas na dificuldade Difícil"
+        },
+        "schinese": {
+          "name": "地球守护者",
+          "description": "在困难难度下完成所有地图"
+        },
+        "spanish": {
+          "name": "Protector de la Tierra",
+          "description": "Completar todos los mapas en modo dificil"
+        },
+        "turkish": {
+          "name": "Milli Gurur",
+          "description": "Zor modda bütün bölümleri bitir"
+        }
+      }
+    },
+    "ACH_29": {
+      "translations": {
+        "brazilian": {
+          "name": "Fortificado!",
+          "description": "Completar todos os mapas na dificuldade Insano"
+        },
+        "english": {
+          "name": "Fortified!",
+          "description": "Complete all maps on insane"
+        },
+        "french": {
+          "name": "Fortifié !",
+          "description": "Complétez toutes les cartes en mode de difficulté hors normes"
+        },
+        "german": {
+          "name": "Fortified!",
+          "description": "Alle Karten auf Wahnsinnig abgeschlossen"
+        },
+        "italian": {
+          "name": "Fortified!",
+          "description": "Completate tutte le mappe in modalità folle"
+        },
+        "portuguese": {
+          "name": "Fortificado!",
+          "description": "Completar todos os mapas na dificuldade Insano"
+        },
+        "schinese": {
+          "name": "固若金汤！",
+          "description": "在疯狂难度下完成所有地图"
+        },
+        "spanish": {
+          "name": "Fortified!",
+          "description": "Completa todos los mapas en modo locura"
+        },
+        "turkish": {
+          "name": "Fortified!",
+          "description": "Manyak modunda bütün bölümleri bitir"
+        }
+      }
+    },
+    "ACH_30": {
+      "translations": {
+        "brazilian": {
+          "name": "Andando nas Nuvens",
+          "description": "Sobreviver 20 ondas no modo Invasão"
+        },
+        "english": {
+          "name": "Cloud Nine",
+          "description": "Survive to wave 20 in Invasion mode on hard"
+        },
+        "french": {
+          "name": "L'être suprême",
+          "description": "Survivez à la vague 20 en mode invasion difficile"
+        },
+        "german": {
+          "name": "Wolke Sieben",
+          "description": "Bis Welle 20 im Invasionsmodus auf Schwer überlebt"
+        },
+        "italian": {
+          "name": "Nuvola Nove",
+          "description": "Sopravvissuto a 20 ondate in modalità Invasione a livello difficile"
+        },
+        "portuguese": {
+          "name": "Andando nas Nuvens",
+          "description": "Sobreviver 20 ondas no modo Invasão"
+        },
+        "schinese": {
+          "name": "乐上九霄",
+          "description": "在困难难度的入侵模式中存活至第 20 波"
+        },
+        "spanish": {
+          "name": "Nube nueve",
+          "description": "Sobrevivir a ola 20 en el modo de invasión en difícil"
+        },
+        "turkish": {
+          "name": "İmkansız",
+          "description": "Zor istila modunda 20'inci dalgayı geç"
+        }
+      }
+    }
+  }
+}

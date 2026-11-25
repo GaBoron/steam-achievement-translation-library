@@ -1,5 +1,5 @@
 name: 提交 Steam 成就翻译
-description: 上传一个新的 UserGameStatsSchema_<app_id>.zip
+description: 提交独立翻译 JSON 或包含 BIN/JSON 的 schema ZIP
 title: "[翻译投稿] 游戏名 (Steam app ID)"
 labels: [翻译投稿]
 body:
@@ -8,7 +8,7 @@ body:
       value: |
         请先在 [翻译库网站](https://gaboron.github.io/steam-achievement-translation-library/?lang=zh) 和正在打开的翻译投稿 PR 中搜索 Steam app ID，确认没有相同游戏。自动化发现重复 ID 后会评论并关闭此 issue。
 
-        上传文件必须是 `UserGameStatsSchema_<app_id>.zip`。单版本 ZIP 只放一个同名 `.bin`；多版本 ZIP 使用 `translation-variants.json` 声明全部版本。机器人会根据 app ID 生成商店地址，并从 schema 自动识别语言。
+        可直接上传格式 2 的 `UserGameStatsSchema_<app_id>.json`，或上传原有 BIN ZIP；多版本 ZIP 使用 `translation-variants.json`。机器人校验语言覆盖并创建审核 PR。独立 JSON 仅用于兼容客户端的文字显示，不能安装为 BIN。
   - type: input
     id: game_name
     attributes:
@@ -28,9 +28,9 @@ body:
   - type: textarea
     id: schema_zip
     attributes:
-      label: 成就 schema ZIP
-      description: 上传 `UserGameStatsSchema_<app_id>.zip`；单版本包只含一个同名 `.bin`，多版本包还需包含 `translation-variants.json`。
-      placeholder: 请把 ZIP 拖到这里。
+      label: 翻译 JSON 或 schema ZIP
+      description: 上传 UserGameStatsSchema_<app_id>.json（格式 2，完成声明语言的译文）或同名 ZIP；多版本 ZIP 包含 translation-variants.json，每个版本选择 BIN 或 JSON。
+      placeholder: 请把 JSON 或 ZIP 拖到这里。
     validations:
       required: true
   - type: textarea

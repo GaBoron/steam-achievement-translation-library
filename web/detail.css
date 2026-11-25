@@ -54,6 +54,10 @@
 .variant-text h3 { overflow-wrap: anywhere; }
 .variant-description { margin-top: 6px; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 14px; line-height: 20px; }
 .variant-meta { margin-top: 6px; font-size: 12px; line-height: 18px; }
+.variant-compatibility { margin: 8px 0 0; font-size: 12px; line-height: 18px; }
+.variant-compatibility dt { color: var(--md-sys-color-on-surface-variant); }
+.variant-compatibility dd { display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 2px 0 0; color: var(--color-heading); }
+.variant-compatibility dd span { white-space: nowrap; }
 .variant-languages { display: flex; flex-wrap: wrap; gap: 6px; }
 .variant-languages > span { font-size: 12px; }
 .variant-downloads { display: flex; gap: 8px; }
