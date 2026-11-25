@@ -45,6 +45,8 @@
 
 ## 📈 收录统计
 
+[历史翻译贡献者名单](docs/contributors.md)
+
 ![收录游戏数量趋势与贡献者贡献量排行](docs/statistics/library-statistics.svg)
 
 ## 💬 联系支持
