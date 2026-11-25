@@ -1,0 +1,2652 @@
+{
+  "version": 1,
+  "app_id": "1207650",
+  "variant_id": "default",
+  "source_sha256": "f8023ff54cd1fe2d94822db0d57b67d8ac9e2d0fae866299288ab03cdb01b6a3",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "Prologue_Finish": {
+      "translations": {
+        "english": {
+          "name": "Prologue: Rise to Power",
+          "description": "Completed the Prologue"
+        },
+        "schinese": {
+          "name": "序章：崛起之路",
+          "description": "完成序章"
+        }
+      }
+    },
+    "Chapter1_Finish": {
+      "translations": {
+        "english": {
+          "name": "Chapter I: President Rayne",
+          "description": "Completed Chapter I"
+        },
+        "schinese": {
+          "name": "第一章：莱恩总统",
+          "description": "完成第一章"
+        }
+      }
+    },
+    "Chapter2_Finish": {
+      "translations": {
+        "english": {
+          "name": "Chapter II: A New Sordland",
+          "description": "Completed Chapter II"
+        },
+        "schinese": {
+          "name": "第二章：崭新的索德兰",
+          "description": "完成第二章"
+        }
+      }
+    },
+    "Chapter3_Finish": {
+      "translations": {
+        "english": {
+          "name": "Chapter III: Victim of Changes",
+          "description": "Completed Chapter III"
+        },
+        "schinese": {
+          "name": "第三章：变革的牺牲品",
+          "description": "完成第三章"
+        }
+      }
+    },
+    "Chapter4_Finish": {
+      "translations": {
+        "english": {
+          "name": "Chapter IV: Checkmate",
+          "description": "Completed Chapter IV"
+        },
+        "schinese": {
+          "name": "第四章：将死",
+          "description": "完成第四章"
+        }
+      }
+    },
+    "Epilogue_Couped": {
+      "translations": {
+        "english": {
+          "name": "Coup d’État",
+          "description": " "
+        },
+        "schinese": {
+          "name": "政变",
+          "description": ""
+        }
+      }
+    },
+    "Epilogue_Impeached": {
+      "translations": {
+        "english": {
+          "name": "Impeached",
+          "description": " "
+        },
+        "schinese": {
+          "name": "遭到弹劾",
+          "description": ""
+        }
+      }
+    },
+    "Epilogue_WorldWar": {
+      "translations": {
+        "english": {
+          "name": "World At War",
+          "description": " "
+        },
+        "schinese": {
+          "name": "世界大战",
+          "description": ""
+        }
+      }
+    },
+    "Epilogue_WonRumburgWar": {
+      "translations": {
+        "english": {
+          "name": "Vectern sis da!",
+          "description": "Won the war against Rumburg"
+        },
+        "schinese": {
+          "name": "胜利就在眼前！",
+          "description": "赢得对朗伯格的战争"
+        }
+      }
+    },
+    "Epilogue_LostRumburgWar": {
+      "translations": {
+        "english": {
+          "name": "Hail the Queen",
+          "description": "Lost the war against Rumburg"
+        },
+        "schinese": {
+          "name": "女王万岁",
+          "description": "输掉对朗伯格的战争"
+        }
+      }
+    },
+    "Epilogue_ElectionWon": {
+      "translations": {
+        "english": {
+          "name": "A Morgna her coren!",
+          "description": "Won a 2nd term"
+        },
+        "schinese": {
+          "name": "晨光必将到来！",
+          "description": "赢得第二任期"
+        }
+      }
+    },
+    "Epilogue_ElectionWonVP": {
+      "translations": {
+        "english": {
+          "name": "Demoted",
+          "description": "Became the VP"
+        },
+        "schinese": {
+          "name": "降职为副",
+          "description": "成为副总统"
+        }
+      }
+    },
+    "Epilogue_ElectionForcedOut": {
+      "translations": {
+        "english": {
+          "name": "Forced Out",
+          "description": "Forced out of party politics"
+        },
+        "schinese": {
+          "name": "被迫出局",
+          "description": "被逐出党内政坛"
+        }
+      }
+    },
+    "Epilogue_ElectionLoseContinue": {
+      "translations": {
+        "english": {
+          "name": "A New Hope",
+          "description": "Continued politics with your own party"
+        },
+        "schinese": {
+          "name": "新的希望",
+          "description": "组建自己的政党继续从政"
+        }
+      }
+    },
+    "Epilogue_ElectionRetirement": {
+      "translations": {
+        "english": {
+          "name": "Just Another Sordish President",
+          "description": "Retired after losing the elections"
+        },
+        "schinese": {
+          "name": "又一位索德兰总统",
+          "description": "败选后隐退"
+        }
+      }
+    },
+    "Epilogue_Retirement": {
+      "translations": {
+        "english": {
+          "name": "Early Retirement",
+          "description": " "
+        },
+        "schinese": {
+          "name": "提前退休",
+          "description": ""
+        }
+      }
+    },
+    "Epilogue_Exiled": {
+      "translations": {
+        "english": {
+          "name": "Path To Exile",
+          "description": " "
+        },
+        "schinese": {
+          "name": "流亡之路",
+          "description": ""
+        }
+      }
+    },
+    "Epilogue_Assassinated": {
+      "translations": {
+        "english": {
+          "name": "Assassinated",
+          "description": " "
+        },
+        "schinese": {
+          "name": "惨遭暗杀",
+          "description": ""
+        }
+      }
+    },
+    "Game_NewConstitution": {
+      "translations": {
+        "english": {
+          "name": "The Constitution of '56",
+          "description": "Successfully amend the Constitution of Sordland"
+        },
+        "schinese": {
+          "name": "56年宪法",
+          "description": "成功修订索德兰宪法"
+        }
+      }
+    },
+    "Game_PassedAssembly": {
+      "translations": {
+        "english": {
+          "name": "Grand National Assembly",
+          "description": "Have your proposal reach 2/3rds majority"
+        },
+        "schinese": {
+          "name": "大国民议会",
+          "description": "让你的提案获得三分之二多数通过"
+        }
+      }
+    },
+    "Game_DeclaredEmergency": {
+      "translations": {
+        "english": {
+          "name": "Article 100",
+          "description": "Declare a state of emergency"
+        },
+        "schinese": {
+          "name": "宪法第100条",
+          "description": "宣布进入紧急状态"
+        }
+      }
+    },
+    "Game_EconomicRecovery": {
+      "translations": {
+        "english": {
+          "name": "Sordish Economic Recovery",
+          "description": " "
+        },
+        "schinese": {
+          "name": "索德兰经济复苏",
+          "description": ""
+        }
+      }
+    },
+    "Game_EconomicDepression": {
+      "translations": {
+        "english": {
+          "name": "Sordish Depression",
+          "description": " "
+        },
+        "schinese": {
+          "name": "索德兰经济大萧条",
+          "description": ""
+        }
+      }
+    },
+    "Game_WealthSurplus": {
+      "translations": {
+        "english": {
+          "name": "Rags to Riches",
+          "description": "On a non-wealthy start, save at least 5 personal wealth points"
+        },
+        "schinese": {
+          "name": "白手起家",
+          "description": "在非富裕出身的开局下，积攒至少5点个人财富"
+        }
+      }
+    },
+    "Game_BearTrap": {
+      "translations": {
+        "english": {
+          "name": "Operation Bear Trap",
+          "description": "Join the military operation against the BFF with Wehlen"
+        },
+        "schinese": {
+          "name": "“捕熊陷阱”行动",
+          "description": "与维伦联手参与打击布鲁德自由阵线（BFF）的军事行动"
+        }
+      }
+    },
+    "Game_IslandInvasion": {
+      "translations": {
+        "english": {
+          "name": "Rightful Claim",
+          "description": "Support the Valgslandian Invasion of Heljiland as an ally"
+        },
+        "schinese": {
+          "name": "正当诉求",
+          "description": "作为盟友支持瓦尔格斯兰进攻赫尔吉兰岛"
+        }
+      }
+    },
+    "Game_JoinedATO": {
+      "translations": {
+        "english": {
+          "name": "United Against Communism",
+          "description": "Join the Arcasian Treaty Organisation"
+        },
+        "schinese": {
+          "name": "联合反共",
+          "description": "加入阿卡西亚条约组织（ATO）"
+        }
+      }
+    },
+    "Game_JoinedCSP": {
+      "translations": {
+        "english": {
+          "name": "United Against Capitalism",
+          "description": "Join the Contanan Security Pact"
+        },
+        "schinese": {
+          "name": "联合反资",
+          "description": "加入康塔纳安全公约（CSP）"
+        }
+      }
+    },
+    "Game_Divorced": {
+      "translations": {
+        "english": {
+          "name": "This Can't Go On Like This, Anton",
+          "description": "Break up with Monica"
+        },
+        "schinese": {
+          "name": "安东，不能再这样下去了",
+          "description": "与莫妮卡离婚"
+        }
+      }
+    },
+    "Game_Alone": {
+      "translations": {
+        "english": {
+          "name": "Yes I'm Alone But Then Again I Always Was",
+          "description": "Have dinner by yourself"
+        },
+        "schinese": {
+          "name": "没错，我独自一人，不过我向来如此",
+          "description": "独自享用晚餐"
+        }
+      }
+    },
+    "Game_Bribe": {
+      "translations": {
+        "english": {
+          "name": "“Donations”",
+          "description": "Accept a bribe"
+        },
+        "schinese": {
+          "name": "“捐款”",
+          "description": "接受贿赂"
+        }
+      }
+    },
+    "Game_BFFUnrest": {
+      "translations": {
+        "english": {
+          "name": "Yollak Bluderat!",
+          "description": "Cause a Bludish insurgency in Sordland"
+        },
+        "schinese": {
+          "name": "布鲁迪亚万岁！",
+          "description": "在索德兰引发布鲁德人起义"
+        }
+      }
+    },
+    "Game_ViolentUnrest": {
+      "translations": {
+        "english": {
+          "name": "Down with Rayne!",
+          "description": "Cause a civil unrest in Sordland"
+        },
+        "schinese": {
+          "name": "打倒莱恩！",
+          "description": "在索德兰引发民间动乱"
+        }
+      }
+    },
+    "Game_PFJPAlliance": {
+      "translations": {
+        "english": {
+          "name": "Freedom and Justice",
+          "description": "Enter an alliance with the People's Freedom and Justice Party"
+        },
+        "schinese": {
+          "name": "自由与正义",
+          "description": "与人民自由正义党结盟"
+        }
+      }
+    },
+    "Game_NFPAlliance": {
+      "translations": {
+        "english": {
+          "name": "Purple Blood",
+          "description": "Enter an alliance with the National Front Party"
+        },
+        "schinese": {
+          "name": "紫色血脉",
+          "description": "与民族阵线党结盟"
+        }
+      }
+    },
+    "Game_WelfareState": {
+      "translations": {
+        "english": {
+          "name": "Welfare State",
+          "description": " "
+        },
+        "schinese": {
+          "name": "福利国家",
+          "description": ""
+        }
+      }
+    },
+    "Game_MilitaristState": {
+      "translations": {
+        "english": {
+          "name": "Militarist State",
+          "description": " "
+        },
+        "schinese": {
+          "name": "军国主义国家",
+          "description": ""
+        }
+      }
+    },
+    "Game_PoliceState": {
+      "translations": {
+        "english": {
+          "name": "Police State",
+          "description": " "
+        },
+        "schinese": {
+          "name": "警察国家",
+          "description": ""
+        }
+      }
+    },
+    "Game_SSP": {
+      "translations": {
+        "english": {
+          "name": "Sssh!",
+          "description": "Form the Secret State Police"
+        },
+        "schinese": {
+          "name": "嘘——！",
+          "description": "组建国家秘密警察"
+        }
+      }
+    },
+    "Game_ACP": {
+      "translations": {
+        "english": {
+          "name": "Drain the Swamp",
+          "description": "Form the Anti-Corruption Police"
+        },
+        "schinese": {
+          "name": "排干沼泽",
+          "description": "组建反腐败警察"
+        }
+      }
+    },
+    "Game_BludishRights": {
+      "translations": {
+        "english": {
+          "name": "We Are All Citizens Of Sordland",
+          "description": "Form the Commission for Bludish Rights"
+        },
+        "schinese": {
+          "name": "我们都是索德兰公民",
+          "description": "设立布鲁德人权利委员会"
+        }
+      }
+    },
+    "Game_Malenyevist": {
+      "translations": {
+        "english": {
+          "name": "Malenyevist",
+          "description": " "
+        },
+        "schinese": {
+          "name": "马勒尼耶夫主义者",
+          "description": ""
+        }
+      }
+    },
+    "Game_Sollist": {
+      "translations": {
+        "english": {
+          "name": "Sollist",
+          "description": " "
+        },
+        "schinese": {
+          "name": "索尔主义者",
+          "description": ""
+        }
+      }
+    },
+    "Game_Capitalist": {
+      "translations": {
+        "english": {
+          "name": "Capitalist",
+          "description": " "
+        },
+        "schinese": {
+          "name": "资本主义者",
+          "description": ""
+        }
+      }
+    },
+    "Game_Democrat": {
+      "translations": {
+        "english": {
+          "name": "Democrat",
+          "description": " "
+        },
+        "schinese": {
+          "name": "民主主义者",
+          "description": ""
+        }
+      }
+    },
+    "Game_Authoritarian": {
+      "translations": {
+        "english": {
+          "name": "Authoritarian",
+          "description": " "
+        },
+        "schinese": {
+          "name": "威权主义者",
+          "description": ""
+        }
+      }
+    },
+    "Game_Centrist": {
+      "translations": {
+        "english": {
+          "name": "Centrist",
+          "description": "Support nothing"
+        },
+        "schinese": {
+          "name": "中间派",
+          "description": "什么都不支持"
+        }
+      }
+    },
+    "Game_NoSordlandForOldMen": {
+      "translations": {
+        "english": {
+          "name": "No Sordland For Old Men",
+          "description": "Have the Supreme Court sentence Tarquin Soll with the death penalty"
+        },
+        "schinese": {
+          "name": "索德兰老无所依",
+          "description": "让最高法院判处塔昆·索尔死刑"
+        }
+      }
+    },
+    "Game_EndOfAnEra": {
+      "translations": {
+        "english": {
+          "name": "End of an Era",
+          "description": "Have the Supreme Court sentence Tarquin Soll to imprisonment"
+        },
+        "schinese": {
+          "name": "一个时代的终结",
+          "description": "让最高法院判处塔昆·索尔监禁"
+        }
+      }
+    },
+    "Game_Isolated": {
+      "translations": {
+        "english": {
+          "name": "No Friends But Sords",
+          "description": "Have no alliances"
+        },
+        "schinese": {
+          "name": "唯有索德人为友",
+          "description": "不缔结任何同盟"
+        }
+      }
+    },
+    "Game_FamilyMan": {
+      "translations": {
+        "english": {
+          "name": "Family Man",
+          "description": " "
+        },
+        "schinese": {
+          "name": "顾家之人",
+          "description": ""
+        }
+      }
+    },
+    "Game_Murder": {
+      "translations": {
+        "english": {
+          "name": "By Any Means Necessary",
+          "description": "Order the death of someone"
+        },
+        "schinese": {
+          "name": "不择手段",
+          "description": "下令除掉某人"
+        }
+      }
+    },
+    "Game_Highway": {
+      "translations": {
+        "english": {
+          "name": "Grand H-3 Opening",
+          "description": "Open the H-3 highway without complications"
+        },
+        "schinese": {
+          "name": "H-3高速公路盛大通车",
+          "description": "顺利开通H-3高速公路"
+        }
+      }
+    },
+    "Game_Railway": {
+      "translations": {
+        "english": {
+          "name": "Grand L-1 Opening",
+          "description": "Open the L-1 railway without complications"
+        },
+        "schinese": {
+          "name": "L-1铁路盛大通车",
+          "description": "顺利开通L-1铁路"
+        }
+      }
+    },
+    "Game_NewYoungSords": {
+      "translations": {
+        "english": {
+          "name": "New Generation of Sords",
+          "description": "Fund Young Sords as a former member"
+        },
+        "schinese": {
+          "name": "新一代索德人",
+          "description": "以前成员身份资助青年索德人"
+        }
+      }
+    },
+    "Game_NewRedYouth": {
+      "translations": {
+        "english": {
+          "name": "Revolutionary Generation",
+          "description": "Fund Red Youth as a former member"
+        },
+        "schinese": {
+          "name": "革命新一代",
+          "description": "以前成员身份资助红色青年团"
+        }
+      }
+    },
+    "Game_Underhall": {
+      "translations": {
+        "english": {
+          "name": "Underhall Once Again #1",
+          "description": "Buy shares from Underhall Construction"
+        },
+        "schinese": {
+          "name": "安德霍尔重回第一",
+          "description": "购买安德霍尔建筑公司的股份"
+        }
+      }
+    },
+    "Game_FCAnrica": {
+      "translations": {
+        "english": {
+          "name": "FC Anrica",
+          "description": "Invest in FC Anrica"
+        },
+        "schinese": {
+          "name": "安里卡足球俱乐部",
+          "description": "投资安里卡足球俱乐部"
+        }
+      }
+    },
+    "Game_BudgetSurplus": {
+      "translations": {
+        "english": {
+          "name": "Frugal",
+          "description": "Save 10 government budget points"
+        },
+        "schinese": {
+          "name": "厉行节俭",
+          "description": "积攒10点政府预算"
+        }
+      }
+    },
+    "Game_GiraltRibery": {
+      "translations": {
+        "english": {
+          "name": "Giralt of Ribery",
+          "description": "Bought Giralt Haute-Bellasorde's wineyard in Erlory"
+        },
+        "schinese": {
+          "name": "利贝里的吉拉尔特",
+          "description": "在埃洛里买下吉拉尔特·奥特-贝拉索德的葡萄园"
+        }
+      }
+    },
+    "Game_NeoSollist": {
+      "translations": {
+        "english": {
+          "name": "Soll's Legacy",
+          "description": "Pass a new constitution with no limit to presidential vetoes, no presidential impeachment and stronger presidential decrees"
+        },
+        "schinese": {
+          "name": "索尔的遗产",
+          "description": "通过一部不限制总统否决权、取消总统弹劾并强化总统法令的新宪法"
+        }
+      }
+    },
+    "Game_UnfairElection15": {
+      "translations": {
+        "english": {
+          "name": "Merkopa's Most Unfair Election System",
+          "description": "Sign Campaign Finance Bill and increase election threshold to 15%"
+        },
+        "schinese": {
+          "name": "梅尔科帕最不公平的选举制度",
+          "description": "签署《竞选资金法案》并将选举门槛提高至15%"
+        }
+      }
+    },
+    "Game_Pluralist": {
+      "translations": {
+        "english": {
+          "name": "Pluralist",
+          "description": "Veto Campaign Finance Bill and decrease election threshold to 3%"
+        },
+        "schinese": {
+          "name": "多元主义者",
+          "description": "否决《竞选资金法案》并将选举门槛降低至3%"
+        }
+      }
+    },
+    "Game_HawkerPlan": {
+      "translations": {
+        "english": {
+          "name": "Hawker's Plan",
+          "description": "Extend the state of emergency 2 times"
+        },
+        "schinese": {
+          "name": "霍克的计划",
+          "description": "将紧急状态延长2次"
+        }
+      }
+    },
+    "Game_638Ways": {
+      "translations": {
+        "english": {
+          "name": "638 Ways to Kill Rayne",
+          "description": "Survive two assassination attempts"
+        },
+        "schinese": {
+          "name": "刺杀莱恩的638种方法",
+          "description": "在两次暗杀企图中幸存"
+        }
+      }
+    },
+    "Game_ThanksSerge": {
+      "translations": {
+        "english": {
+          "name": "Thank You Serge",
+          "description": " "
+        },
+        "schinese": {
+          "name": "谢谢你，塞尔日",
+          "description": ""
+        }
+      }
+    },
+    "Game_Doggo": {
+      "translations": {
+        "english": {
+          "name": "Alexius Maximus Reginald the Third",
+          "description": "Cause Orso Hawker's dog to die"
+        },
+        "schinese": {
+          "name": "亚历克修斯·马克西穆斯·雷吉纳尔德三世",
+          "description": "导致奥索·霍克的爱犬身亡"
+        }
+      }
+    },
+    "Game_BFFDam": {
+      "translations": {
+        "english": {
+          "name": "Revenge of Izzam",
+          "description": "Cause the BFF to organize a bomb attack at Soll Dam"
+        },
+        "schinese": {
+          "name": "伊扎姆的复仇",
+          "description": "导致布鲁德自由阵线（BFF）在索尔大坝策划炸弹袭击"
+        }
+      }
+    },
+    "Game_SuccessfulRitual": {
+      "translations": {
+        "english": {
+          "name": "First Step To Golconda",
+          "description": "Successfully partake in the Descension Day ceremonies"
+        },
+        "schinese": {
+          "name": "通往戈尔康达的第一步",
+          "description": "顺利参与降临节仪式"
+        }
+      }
+    },
+    "Game_ManOfPeople": {
+      "translations": {
+        "english": {
+          "name": "Man of the People",
+          "description": "Veto the campaign finance bill, improve workers' rights, focus and fund health or education and provide stimulus checks to the people"
+        },
+        "schinese": {
+          "name": "人民公仆",
+          "description": "否决《竞选资金法案》、改善工人权利、重点投入并资助医疗或教育，并向民众发放纾困支票"
+        }
+      }
+    },
+    "Game_MonicaLove": {
+      "translations": {
+        "english": {
+          "name": "I Still Love You",
+          "description": " "
+        },
+        "schinese": {
+          "name": "我依然爱你",
+          "description": ""
+        }
+      }
+    },
+    "Game_Lawmaker": {
+      "translations": {
+        "english": {
+          "name": "Lawmaker",
+          "description": "Sign 10 bills"
+        },
+        "schinese": {
+          "name": "立法者",
+          "description": "签署10项法案"
+        }
+      }
+    },
+    "Game_Obstructionist": {
+      "translations": {
+        "english": {
+          "name": "Obstructionist",
+          "description": "Veto 8 bills"
+        },
+        "schinese": {
+          "name": "阻挠者",
+          "description": "否决8项法案"
+        }
+      }
+    },
+    "Game_Vodka": {
+      "translations": {
+        "english": {
+          "name": "Valgslandian Vodka",
+          "description": "Drink Valgslandian Vodka with Comrade Hegel"
+        },
+        "schinese": {
+          "name": "瓦尔格斯兰伏特加",
+          "description": "与黑格尔同志共饮瓦尔格斯兰伏特加"
+        }
+      }
+    },
+    "Game_AMorgna": {
+      "translations": {
+        "english": {
+          "name": "Catchphrase",
+          "description": "Say \"A'Morgna wes core\" 7 times"
+        },
+        "schinese": {
+          "name": "口头禅",
+          "description": "说7次“A'Morgna wes core”（晨光必将到来）"
+        }
+      }
+    },
+    "Game_1Vote": {
+      "translations": {
+        "english": {
+          "name": "Every Vote Matters",
+          "description": "Lose the vote on the constitutional amendments in the Grand National Assembly by only one vote"
+        },
+        "schinese": {
+          "name": "每一票都至关重要",
+          "description": "在大国民议会修宪表决中仅以一票之差落败"
+        }
+      }
+    },
+    "Game_DeclareWarRumburg": {
+      "translations": {
+        "english": {
+          "name": "Sordish War Machine",
+          "description": "Declare war against Rumburg"
+        },
+        "schinese": {
+          "name": "索德兰战争机器",
+          "description": "向朗伯格宣战"
+        }
+      }
+    },
+    "Game_LespiaAlliance": {
+      "translations": {
+        "english": {
+          "name": "\"Fortune, Strength, Liberty\"",
+          "description": "Make a military alliance with Lespia"
+        },
+        "schinese": {
+          "name": "“财富、力量、自由”",
+          "description": "与莱斯皮亚缔结军事同盟"
+        }
+      }
+    },
+    "Game_AgnoliaAlliance": {
+      "translations": {
+        "english": {
+          "name": "\"Freedom or Peril\"",
+          "description": "Make a military alliance with Agnolia"
+        },
+        "schinese": {
+          "name": "“自由或危亡”",
+          "description": "与阿格诺利亚缔结军事同盟"
+        }
+      }
+    },
+    "Game_ValgslandAlliance": {
+      "translations": {
+        "english": {
+          "name": "\"Through Broken Shackles\"",
+          "description": "Make a military alliance with Valgsland"
+        },
+        "schinese": {
+          "name": "“挣脱枷锁”",
+          "description": "与瓦尔格斯兰缔结军事同盟"
+        }
+      }
+    },
+    "Game_RumburgPeace": {
+      "translations": {
+        "english": {
+          "name": "Reconciliation",
+          "description": "Hold a peace summit with Rumburg"
+        },
+        "schinese": {
+          "name": "和解",
+          "description": "与朗伯格举行和平峰会"
+        }
+      }
+    },
+    "Game_3Funerals": {
+      "translations": {
+        "english": {
+          "name": "Just Another Funeral",
+          "description": "Attend 3 funerals"
+        },
+        "schinese": {
+          "name": "又一场葬礼",
+          "description": "参加3场葬礼"
+        }
+      }
+    },
+    "Game_Crocodile": {
+      "translations": {
+        "english": {
+          "name": "Crocodile Tears",
+          "description": "Order the murder of Petr Vectern and organize a state funeral for him"
+        },
+        "schinese": {
+          "name": "鳄鱼的眼泪",
+          "description": "下令谋杀彼得·维克特恩并为其举办国葬"
+        }
+      }
+    },
+    "Game_CarbDiet": {
+      "translations": {
+        "english": {
+          "name": "Carb Diet",
+          "description": "Order pasta and rice at the Esteria restaurant"
+        },
+        "schinese": {
+          "name": "碳水大餐",
+          "description": "在埃斯特里亚餐厅同时点意面和米饭"
+        }
+      }
+    },
+    "Game_MediaDeal": {
+      "translations": {
+        "english": {
+          "name": "An Offer You Cannot Refuse",
+          "description": "Make a backroom deal with Marcel Koronti to control media outlets"
+        },
+        "schinese": {
+          "name": "你无法拒绝的条件",
+          "description": "与马塞尔·科朗蒂达成幕后交易以控制媒体"
+        }
+      }
+    },
+    "Game_LoudRayne": {
+      "translations": {
+        "english": {
+          "name": "Speaking Louder Makes You Right",
+          "description": "Shout four times"
+        },
+        "schinese": {
+          "name": "嗓门大就有理",
+          "description": "大声吼叫四次"
+        }
+      }
+    },
+    "Game_AnotherAlphonso": {
+      "translations": {
+        "english": {
+          "name": "Another Alphonso",
+          "description": "Make the USP obstruct you and trigger the Sordish Depression"
+        },
+        "schinese": {
+          "name": "又一个阿方索",
+          "description": "遭索德兰统一党（USP）掣肘并引发索德兰经济大萧条"
+        }
+      }
+    },
+    "Game_MasterOfCrisis": {
+      "translations": {
+        "english": {
+          "name": "Master of Crisis",
+          "description": "Trigger four late-game crisis events"
+        },
+        "schinese": {
+          "name": "危机大师",
+          "description": "触发四起游戏后期危机事件"
+        }
+      }
+    },
+    "Game_KissMyGas": {
+      "translations": {
+        "english": {
+          "name": "Kiss My Gas",
+          "description": "Get very high Gasom returns and then revert EPA to 10 percent"
+        },
+        "schinese": {
+          "name": "亲我的天然气吧",
+          "description": "从加索姆获取极高回报后，将《能源保护法》（EPA）上限回调至10%"
+        }
+      }
+    },
+    "Game_Chessmaster": {
+      "translations": {
+        "english": {
+          "name": "Chessmaster",
+          "description": "Lose a chess match against Lucian, don't pick him as VP, and get betrayed at Congress or Supreme Court"
+        },
+        "schinese": {
+          "name": "棋艺大师",
+          "description": "在对弈中输给卢西安、未选他担任副总统，并在党代会或最高法院遭其背叛"
+        }
+      }
+    },
+    "Game_FeelMyEnergy": {
+      "translations": {
+        "english": {
+          "name": "Feel My Energy",
+          "description": "Lead Sordland to energy independence"
+        },
+        "schinese": {
+          "name": "感受我的能量",
+          "description": "带领索德兰实现能源独立"
+        }
+      }
+    },
+    "Game_ExecutiveHoarder": {
+      "translations": {
+        "english": {
+          "name": "Executive Hoarder",
+          "description": "Collect all 15 collectibles"
+        },
+        "schinese": {
+          "name": "总统囤积狂",
+          "description": "集齐全部15件收藏品"
+        }
+      }
+    },
+    "Game_SaveTheWorld": {
+      "translations": {
+        "english": {
+          "name": "Save the World",
+          "description": "Fund all philanthropic opportunities"
+        },
+        "schinese": {
+          "name": "拯救世界",
+          "description": "资助所有慈善项目"
+        }
+      }
+    },
+    "Game_TheBludishDream": {
+      "translations": {
+        "english": {
+          "name": "The Bludish Dream",
+          "description": "Create the autonomous zone, pass Articles 6 and 7 of the Bludish amendment, and establish the minority rights committee"
+        },
+        "schinese": {
+          "name": "布鲁德之梦",
+          "description": "建立自治区、通过关于布鲁德人的宪法第6、7条修正案，并设立少数族裔权利委员会"
+        }
+      }
+    },
+    "Game_MakeSordlandGreatAgain": {
+      "translations": {
+        "english": {
+          "name": "Make Sordland Great Again",
+          "description": "Centralize the Bergia Special Zone, increase the budget of the ministry of the interior, and destroy the BFF"
+        },
+        "schinese": {
+          "name": "让索德兰再次伟大",
+          "description": "收回贝尔吉亚特区管辖权、增加内政部预算，并彻底消灭布鲁德自由阵线（BFF）"
+        }
+      }
+    },
+    "Game_SordlandForAll": {
+      "translations": {
+        "english": {
+          "name": "A Sordland For All",
+          "description": "Amend the Articles 6 and 7 of the Constitution"
+        },
+        "schinese": {
+          "name": "属于所有人的索德兰",
+          "description": "修订宪法第6条和第7条"
+        }
+      }
+    },
+    "Game_FCAnricaRises": {
+      "translations": {
+        "english": {
+          "name": "Goated",
+          "description": "Make FC Anrica qualify for the quarter finals of the Merkopan Cup"
+        },
+        "schinese": {
+          "name": "史上最佳",
+          "description": "让安里卡足球俱乐部晋级梅尔科帕杯八强"
+        }
+      }
+    },
+    "RiziaPrologue_Finish": {
+      "translations": {
+        "english": {
+          "name": "Rizia Prologue: Ascension to the Throne",
+          "description": "Completed the Rizia Prologue"
+        },
+        "schinese": {
+          "name": "里齐亚序章：登基称王",
+          "description": "完成里齐亚序章"
+        }
+      }
+    },
+    "RiziaChapter1_Finish": {
+      "translations": {
+        "english": {
+          "name": "Chapter I: King Romus",
+          "description": "Completed Rizia Chapter I"
+        },
+        "schinese": {
+          "name": "第一章：罗穆斯国王",
+          "description": "完成里齐亚第一章"
+        }
+      }
+    },
+    "RiziaChapter2_Finish": {
+      "translations": {
+        "english": {
+          "name": "Chapter II: Between-Seas",
+          "description": "Completed Rizia Chapter II"
+        },
+        "schinese": {
+          "name": "第二章：间海之间",
+          "description": "完成里齐亚第二章"
+        }
+      }
+    },
+    "RiziaChapter3_Finish": {
+      "translations": {
+        "english": {
+          "name": "Chapter III: Leviathan",
+          "description": "Completed Rizia Chapter III"
+        },
+        "schinese": {
+          "name": "第三章：利维坦",
+          "description": "完成里齐亚第三章"
+        }
+      }
+    },
+    "RiziaChapter4_Finish": {
+      "translations": {
+        "english": {
+          "name": "Chapter IV: Sila Orica",
+          "description": "Completed Rizia Chapter IV"
+        },
+        "schinese": {
+          "name": "第四章：黄金御座",
+          "description": "完成里齐亚第四章"
+        }
+      }
+    },
+    "Rizia_GreatUnification": {
+      "translations": {
+        "english": {
+          "name": "Great Unification",
+          "description": "Oversee the succesful return of both Pales and Zille back to Rizia"
+        },
+        "schinese": {
+          "name": "大一统",
+          "description": "促成帕莱斯与齐勒双双顺利回归里齐亚"
+        }
+      }
+    },
+    "Rizia_Intermerkopum": {
+      "translations": {
+        "english": {
+          "name": "Intermerkopum Alliance",
+          "description": "Form the Intermerkopum Alliance"
+        },
+        "schinese": {
+          "name": "泛梅尔科帕联盟",
+          "description": "组建泛梅尔科帕联盟"
+        }
+      }
+    },
+    "Rizia_PalesWarLost": {
+      "translations": {
+        "english": {
+          "name": "Father's Son",
+          "description": "Invade the Grand Duchy of Pales and suffer a humiliating defeat"
+        },
+        "schinese": {
+          "name": "有其父必有其子",
+          "description": "入侵帕莱斯大公国并遭遇惨败"
+        }
+      }
+    },
+    "Rizia_SayMyName": {
+      "translations": {
+        "english": {
+          "name": "Say My Name",
+          "description": "Complete 3 Romus Toras construction projects"
+        },
+        "schinese": {
+          "name": "念出我的名字",
+          "description": "完成3项以罗穆斯·托拉斯命名的建设项目"
+        }
+      }
+    },
+    "Rizia_PowerProjection": {
+      "translations": {
+        "english": {
+          "name": "The Force in South Merkopa",
+          "description": "Accomplish overwhelming power projection in Southern Merkopa"
+        },
+        "schinese": {
+          "name": "南梅尔科帕的霸主",
+          "description": "在南梅尔科帕实现压倒性的力量投射"
+        }
+      }
+    },
+    "Rizia_ANSanctions": {
+      "translations": {
+        "english": {
+          "name": "The World Against Us",
+          "description": "Get heavily sanctioned by the AN"
+        },
+        "schinese": {
+          "name": "举世皆敌",
+          "description": "遭到国家联盟（AN）的严厉制裁"
+        }
+      }
+    },
+    "Rizia_GoldenAge": {
+      "translations": {
+        "english": {
+          "name": "Golden Age of Rizia",
+          "description": "Achieve high living standards, strong welfare, great workers rights, business growth and no instability"
+        },
+        "schinese": {
+          "name": "里齐亚的黄金时代",
+          "description": "实现高生活水平、强有力福利、优良工人权利、商业繁荣且国内无动荡"
+        }
+      }
+    },
+    "Rizia_Sordland": {
+      "translations": {
+        "english": {
+          "name": "Sords, Our Friends",
+          "description": "Accomplish all trade deals with Sordland successfuly"
+        },
+        "schinese": {
+          "name": "索德人，我们的朋友",
+          "description": "顺利达成与索德兰的全部贸易协定"
+        }
+      }
+    },
+    "Rizia_ArmsExporter": {
+      "translations": {
+        "english": {
+          "name": "Arms Exporter",
+          "description": "Export military equipment and vehicles 7 times"
+        },
+        "schinese": {
+          "name": "军火出口商",
+          "description": "出口军事装备与载具7次"
+        }
+      }
+    },
+    "Rizia_ArmsImporter": {
+      "translations": {
+        "english": {
+          "name": "Arms Importer",
+          "description": "Import military equipment and vehicles 7 times"
+        },
+        "schinese": {
+          "name": "军火进口商",
+          "description": "进口军事装备与载具7次"
+        }
+      }
+    },
+    "Rizia_Theocracy": {
+      "translations": {
+        "english": {
+          "name": "Wruhec's Second Coming",
+          "description": "Declare a theocracy"
+        },
+        "schinese": {
+          "name": "鲁赫克再临",
+          "description": "宣布建立神权国家"
+        }
+      }
+    },
+    "Rizia_RescuedVina": {
+      "translations": {
+        "english": {
+          "name": "Save the Princess",
+          "description": "Successfully rescue Princess Vina from the enemy"
+        },
+        "schinese": {
+          "name": "拯救公主",
+          "description": "成功从敌人手中救出维娜公主"
+        }
+      }
+    },
+    "Rizia_Executions": {
+      "translations": {
+        "english": {
+          "name": "Completely Justified",
+          "description": "Order and watch the execution of 5 \"traitors\""
+        },
+        "schinese": {
+          "name": "师出有名",
+          "description": "下令并亲眼观看处决5名“叛国者”"
+        }
+      }
+    },
+    "Rizia_Reform": {
+      "translations": {
+        "english": {
+          "name": "Rizian Charter of Fundamental Law",
+          "description": "Successfully execute democratic reforms"
+        },
+        "schinese": {
+          "name": "里齐亚基本法宪章",
+          "description": "成功推行民主改革"
+        }
+      }
+    },
+    "Rizia_NoCrisis": {
+      "translations": {
+        "english": {
+          "name": "True Master of Crisis",
+          "description": "Avoid all crises"
+        },
+        "schinese": {
+          "name": "真正的危机大师",
+          "description": "避免所有危机"
+        }
+      }
+    },
+    "Riza_PeacefulUnification": {
+      "translations": {
+        "english": {
+          "name": "Glovurius axa Rizia axa Pales",
+          "description": "Unified Pales with Rizia peacefully"
+        },
+        "schinese": {
+          "name": "荣耀归于里齐亚与帕莱斯",
+          "description": "和平统一帕莱斯与里齐亚"
+        }
+      }
+    },
+    "Rizia_NewHeir": {
+      "translations": {
+        "english": {
+          "name": "The Prince",
+          "description": "Have a son and declare him heir"
+        },
+        "schinese": {
+          "name": "王子",
+          "description": "诞下一子并立其为继承人"
+        }
+      }
+    },
+    "Rizia_Manpower": {
+      "translations": {
+        "english": {
+          "name": "People's Army",
+          "description": "Have massive manpower"
+        },
+        "schinese": {
+          "name": "人民军队",
+          "description": "拥有庞大的人力储备"
+        }
+      }
+    },
+    "Rizia_ZilleReturn": {
+      "translations": {
+        "english": {
+          "name": "Trustworthy Friends",
+          "description": "Succesfully convince President Smolak to return Zille peacefully without a referandum and be given a gift of friendship"
+        },
+        "schinese": {
+          "name": "值得信赖的朋友",
+          "description": "成功说服斯莫拉克总统无需公投即和平归还齐勒，并获赠友谊之礼"
+        }
+      }
+    },
+    "Rizia_Collectibles": {
+      "translations": {
+        "english": {
+          "name": "Royal Hoarder",
+          "description": "Collect all collectible items from Rizia"
+        },
+        "schinese": {
+          "name": "王室囤积狂",
+          "description": "集齐里齐亚篇全部收藏品"
+        }
+      }
+    },
+    "Rizia_ValeroSaved": {
+      "translations": {
+        "english": {
+          "name": "Not Losing You Again",
+          "description": "Successfully rescue your flagship RRN Valero at the expense of Palesian sailors"
+        },
+        "schinese": {
+          "name": "绝不再失去你",
+          "description": "以牺牲帕莱斯水兵为代价，成功保住旗舰里齐亚皇家海军“瓦莱罗号”"
+        }
+      }
+    },
+    "Rizia_Conqueror": {
+      "translations": {
+        "english": {
+          "name": "Romus The Conqueror",
+          "description": "Personally lead the invasion of Pales and win"
+        },
+        "schinese": {
+          "name": "征服者罗穆斯",
+          "description": "亲自率军入侵帕莱斯并赢得胜利"
+        }
+      }
+    },
+    "Rizia_Nerve": {
+      "translations": {
+        "english": {
+          "name": "You've Got Nerve",
+          "description": "Use Rumburgian experimental weapons during war"
+        },
+        "schinese": {
+          "name": "好大的“毒”胆",
+          "description": "在战争中使用朗伯格实验性武器"
+        }
+      }
+    },
+    "Rizia_LeaveGrace": {
+      "translations": {
+        "english": {
+          "name": "Fall from GRACE",
+          "description": "Leave GRACE"
+        },
+        "schinese": {
+          "name": "恩宠不再",
+          "description": "退出王室商业交流联盟（GRACE）"
+        }
+      }
+    },
+    "Rizia_Authority": {
+      "translations": {
+        "english": {
+          "name": "Domineering",
+          "description": "Have 15 Authority"
+        },
+        "schinese": {
+          "name": "大权独揽",
+          "description": "拥有15点权威值"
+        }
+      }
+    },
+    "Rizia_NoRomance": {
+      "translations": {
+        "english": {
+          "name": "It's Not You, It's Me",
+          "description": "Reject two romantic advances in the same night"
+        },
+        "schinese": {
+          "name": "不是你的问题，是我的问题",
+          "description": "在同一晚拒绝两次求爱"
+        }
+      }
+    },
+    "Rizia_Duel": {
+      "translations": {
+        "english": {
+          "name": "Romus the Generous",
+          "description": "Participate in a Derdian Duel of Generosity and lose"
+        },
+        "schinese": {
+          "name": "慷慨的罗穆斯",
+          "description": "参加德尔迪亚慷慨决斗并落败"
+        }
+      }
+    },
+    "Rizia_MomDad": {
+      "translations": {
+        "english": {
+          "name": "Mom and Dad",
+          "description": "Reinstate Duchess Angelica Sazon and Taddeus Azaro to their former positions"
+        },
+        "schinese": {
+          "name": "爸爸妈妈",
+          "description": "恢复安吉莉卡·萨松女公爵与塔迪乌斯·阿扎罗的原职"
+        }
+      }
+    },
+    "Rizia_NationalizedRRG": {
+      "translations": {
+        "english": {
+          "name": "Mine All Mine",
+          "description": "Nationalize Rizian Royal Gold"
+        },
+        "schinese": {
+          "name": "全都是我的矿",
+          "description": "将里齐亚皇家黄金公司收归国有"
+        }
+      }
+    },
+    "Rizia_Bruno": {
+      "translations": {
+        "english": {
+          "name": "A King's Best Friend",
+          "description": "Adopt Bruno"
+        },
+        "schinese": {
+          "name": "国王最好的朋友",
+          "description": "收养布鲁诺"
+        }
+      }
+    },
+    "Rizia_WeddingRing": {
+      "translations": {
+        "english": {
+          "name": "Ready To Love Again",
+          "description": "Give your wife's wedding ring to Lucita"
+        },
+        "schinese": {
+          "name": "准备好再次去爱",
+          "description": "将妻子的结婚戒指赠予露西塔"
+        }
+      }
+    },
+    "Rizia_Epilogue_Death": {
+      "translations": {
+        "english": {
+          "name": "The King Is Dead",
+          "description": " "
+        },
+        "schinese": {
+          "name": "国王已逝",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_Epilogue_ContinuedReign": {
+      "translations": {
+        "english": {
+          "name": "My Rule Continues",
+          "description": " "
+        },
+        "schinese": {
+          "name": "统治延续",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_Epilogue_Exiled": {
+      "translations": {
+        "english": {
+          "name": "Away from My Land",
+          "description": " "
+        },
+        "schinese": {
+          "name": "远离故土",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_Epilogue_CivilWar": {
+      "translations": {
+        "english": {
+          "name": "Fragmentation",
+          "description": " "
+        },
+        "schinese": {
+          "name": "分崩离析",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_OutOfCloset": {
+      "translations": {
+        "english": {
+          "name": "Out And Proud",
+          "description": "Publicize your relationship with Pabel"
+        },
+        "schinese": {
+          "name": "坦然出柜",
+          "description": "公开你与帕贝尔的恋情"
+        }
+      }
+    },
+    "Rizia_CaseClosed": {
+      "translations": {
+        "english": {
+          "name": "Case Closed",
+          "description": "Solve the Zille Friendship Day bombing "
+        },
+        "schinese": {
+          "name": "案情告破",
+          "description": "侦破齐勒友谊日爆炸案"
+        }
+      }
+    },
+    "Rizia_PalesAlliance": {
+      "translations": {
+        "english": {
+          "name": "Peace to the Duke",
+          "description": "Form a military alliance with Pales"
+        },
+        "schinese": {
+          "name": "和平归于公爵",
+          "description": "与帕莱斯缔结军事同盟"
+        }
+      }
+    },
+    "Rizia_LetItRayne": {
+      "translations": {
+        "english": {
+          "name": "Let it Rayne",
+          "description": "Maximize Sordland bond investment returns"
+        },
+        "schinese": {
+          "name": "财如莱恩雨",
+          "description": "使索德兰债券投资回报最大化"
+        }
+      }
+    },
+    "Rizia_HighTea": {
+      "translations": {
+        "english": {
+          "name": "Game of Spoons",
+          "description": "Correctly finish high tea in Rumburg"
+        },
+        "schinese": {
+          "name": "汤匙的游戏",
+          "description": "在朗伯格正确完成下午茶礼仪"
+        }
+      }
+    },
+    "Rizia_Halaita": {
+      "translations": {
+        "english": {
+          "name": "So It Is",
+          "description": "Say \"Halaita\" 10 times"
+        },
+        "schinese": {
+          "name": "本应如此",
+          "description": "说10次“Halaita”（本应如此）"
+        }
+      }
+    },
+    "Rizia_Glovurius": {
+      "translations": {
+        "english": {
+          "name": "Blaze of Glory",
+          "description": "Say \"Glovurius axa Rizia\" 10 times"
+        },
+        "schinese": {
+          "name": "荣耀之焰",
+          "description": "说10次“Glovurius axa Rizia”（荣耀归于里齐亚）"
+        }
+      }
+    },
+    "Rizia_FlipOff": {
+      "translations": {
+        "english": {
+          "name": "Two Birds For Beatrice",
+          "description": "Flip off the Queen as Anton Rayne and Romus Toras"
+        },
+        "schinese": {
+          "name": "送给碧翠丝的双中指",
+          "description": "分别以安东·莱恩和罗穆斯·托拉斯的身份向女王竖中指"
+        }
+      }
+    },
+    "Rizia_Great": {
+      "translations": {
+        "english": {
+          "name": "Make Yourself Great Again",
+          "description": "Be remembered as Romus the Great"
+        },
+        "schinese": {
+          "name": "让自己再次伟大",
+          "description": "以“罗穆斯大帝”之名载入史册"
+        }
+      }
+    },
+    "Rizia_Nur": {
+      "translations": {
+        "english": {
+          "name": "Wruhecs Chosen",
+          "description": "Be remembered as the Scourge of Nur"
+        },
+        "schinese": {
+          "name": "鲁赫克的天选之人",
+          "description": "以“努尔之鞭”之名载入史册"
+        }
+      }
+    },
+    "Rizia_Funny": {
+      "translations": {
+        "english": {
+          "name": "Funny Man",
+          "description": "Be remembered as the Romus the Funny King"
+        },
+        "schinese": {
+          "name": "滑稽之人",
+          "description": "以“滑稽国王罗穆斯”之名载入史册"
+        }
+      }
+    },
+    "Rizia_Lawgiver": {
+      "translations": {
+        "english": {
+          "name": "I hereby declare...",
+          "description": "Be remembered as Romus the Lawgiver"
+        },
+        "schinese": {
+          "name": "兹此颁布……",
+          "description": "以“立法者罗穆斯”之名载入史册"
+        }
+      }
+    },
+    "Rizia_Sober": {
+      "translations": {
+        "english": {
+          "name": "No Alcohol for me Please",
+          "description": "Be remembered as Romus the Sober"
+        },
+        "schinese": {
+          "name": "请别给我倒酒",
+          "description": "以“清醒者罗穆斯”之名载入史册"
+        }
+      }
+    },
+    "Rizia_CollectionItem_BullFigurine": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Bull Figurine",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：公牛雕像",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_CollectionItem_ChessPiece": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Azaro Chess Piece",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：阿扎罗棋子",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_CollectionItem_DastScepter": {
+      "translations": {
+        "english": {
+          "name": "Collectible: St. Dast's Scepter",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：圣达斯特权杖",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_CollectionItem_DogToy": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Bruno's Dog Toy",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：布鲁诺的狗玩具",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_CollectionItem_FabergeEgg": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Hattersley Egg",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：哈特斯利彩蛋",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_CollectionItem_GasCorpPlaque": {
+      "translations": {
+        "english": {
+          "name": "Collectible: ROG Plaque",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：里齐亚油气公司铭牌",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_CollectionItem_IntermerkopumPlaque": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Intermerkopum Rings",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：泛梅尔科帕指环",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_CollectionItem_IzaKey": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Iza Gate Key",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：伊扎城门钥匙",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_CollectionItem_KorontiResortPostcard": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Valenqiris Postcard",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：瓦伦奇里斯明信片",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_CollectionItem_LucitaDagger": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Lucita's Dagger",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：露西塔的匕首",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_CollectionItem_MandragoraExtract": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Mandragora Extract",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：曼德拉草提取物",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_CollectionItem_MechanicalBird": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Morellan Tin Bird",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：莫雷拉锡鸟",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_CollectionItem_MiniYacht": {
+      "translations": {
+        "english": {
+          "name": "Collectible: RRN Rizania Model",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：里齐亚皇家海军“里扎尼亚号”模型",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_CollectionItem_PalesCrown": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Crown of Pales",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：帕莱斯王冠",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_CollectionItem_PoemScroll": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Pabel's Poem",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：帕贝尔的诗稿",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_CollectionItem_WeddingRing": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Lena's Wedding Ring",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：莱娜的结婚戒指",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_CollectionItem_WehzekDoorstop": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Wehzek Doorstop",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：维伦门挡",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_CollectionItem_WruhecistMedallion": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Wruhecist Medallion",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：鲁赫克教派徽章",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_AnricaTrophy": {
+      "translations": {
+        "english": {
+          "name": "Collectible: FC Anrica Trophy",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：安里卡足球俱乐部奖杯",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_ArmadineRadio": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Armadine Radio",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：阿马丁收音机",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_AschrafCandle": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Aschraf Candle",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：阿什拉夫蜡烛",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_CarKey": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Car Key",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：车钥匙",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_CeremonialScissors": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Ceremonial Scissors",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：剪彩仪式剪刀",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_CigarBox": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Cigar Box",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：雪茄盒",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_Dagger": {
+      "translations": {
+        "english": {
+          "name": "Collectible: King Egmund's Dagger",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：埃格蒙德国王的匕首",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_GoatStatue": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Sordish Goat Statue",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：索德兰山羊雕像",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_Gun": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Gun",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：手枪",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_Headphones": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Headphones",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：耳机",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_KesaroLighter": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Kesaro's Lighter",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：凯萨罗的打火机",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_PhotoFrameTorn": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Torn Family Photo",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：撕裂的全家福",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_Pocketwatch": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Serge's Pocket Watch",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：塞尔日的怀表",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_PoemBook": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Circas's Poem Book",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：瑟卡斯的诗集",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_UnderhallTrophy": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Underhall Trophy",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：安德霍尔奖杯",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_USPBrooch": {
+      "translations": {
+        "english": {
+          "name": "Collectible: USP Brooch",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：索德兰统一党胸针",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_WhiskeyBottle": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Whiskey Bottle",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：威士忌酒瓶",
+          "description": ""
+        }
+      }
+    },
+    "Game_CollectionItem_WineBottle": {
+      "translations": {
+        "english": {
+          "name": "Collectible: Wine Bottle",
+          "description": " "
+        },
+        "schinese": {
+          "name": "收藏品：葡萄酒瓶",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_SordVictory": {
+      "translations": {
+        "english": {
+          "name": "Not So Fun Anymore",
+          "description": "Win the Rumburg war as Anton, die in it as Romus"
+        },
+        "schinese": {
+          "name": "这下不好玩了吧",
+          "description": "以安东的身份赢得朗伯格战争，并以罗穆斯的身份死于该场战争"
+        }
+      }
+    },
+    "Rizia_Arbitration": {
+      "translations": {
+        "english": {
+          "name": "A Little Help From My Friends",
+          "description": "Win the AN arbitration case on the Aureus dispute"
+        },
+        "schinese": {
+          "name": "老友略施援手",
+          "description": "在国家联盟（AN）关于奥雷乌斯气田争端的仲裁案中胜诉"
+        }
+      }
+    },
+    "Rizia_HouseCleaning": {
+      "translations": {
+        "english": {
+          "name": "House Cleaning",
+          "description": "Execute a successful strike against all three noble houses"
+        },
+        "schinese": {
+          "name": "清理门户",
+          "description": "成功对三大贵族家族发动打击"
+        }
+      }
+    },
+    "Rizia_PipelineSabotage": {
+      "translations": {
+        "english": {
+          "name": "Pipe Nightmares",
+          "description": "Have one of your pipelines get sabotaged "
+        },
+        "schinese": {
+          "name": "管道噩梦",
+          "description": "你的某条输气管道遭到破坏"
+        }
+      }
+    },
+    "Rizia_UFO": {
+      "translations": {
+        "english": {
+          "name": "I Want to Believe",
+          "description": "Spread the news of UFO sightings"
+        },
+        "schinese": {
+          "name": "我愿相信",
+          "description": "散布不明飞行物（UFO）目击消息"
+        }
+      }
+    },
+    "Rizia_Epilogue_Prison": {
+      "translations": {
+        "english": {
+          "name": "The King Behind Bars",
+          "description": " "
+        },
+        "schinese": {
+          "name": "铁窗后的国王",
+          "description": ""
+        }
+      }
+    },
+    "Rizia_Revolt": {
+      "translations": {
+        "english": {
+          "name": "The Second Revolt",
+          "description": "Make Rizian people revolt against you"
+        },
+        "schinese": {
+          "name": "第二次起义",
+          "description": "引发里齐亚民众反抗你的起义"
+        }
+      }
+    },
+    "Rizia_ReformOrDie": {
+      "translations": {
+        "english": {
+          "name": "Reform Or Die",
+          "description": "Force the nobles to sign the reforms through violent means"
+        },
+        "schinese": {
+          "name": "不改革，毋宁死",
+          "description": "通过暴力手段迫使贵族签署改革方案"
+        }
+      }
+    },
+    "Rizia_KillAdarfo": {
+      "translations": {
+        "english": {
+          "name": "Arcasia Did It",
+          "description": "\"Deal with\" Adarfo Sotelato without leaving evidence"
+        },
+        "schinese": {
+          "name": "阿卡西亚干的",
+          "description": "不留证据地“处理”掉阿达尔福·索特拉托"
+        }
+      }
+    },
+    "Rizia_Sotelato": {
+      "translations": {
+        "english": {
+          "name": "Long Live the Revolution",
+          "description": "Have Adarfo lead a revolution in Rizia"
+        },
+        "schinese": {
+          "name": "革命万岁",
+          "description": "让阿达尔福在里齐亚领导一场革命"
+        }
+      }
+    },
+    "Rizia_Sanctuary": {
+      "translations": {
+        "english": {
+          "name": "Sanctuary! Sanctuary!",
+          "description": "Build, expand or restore 5 or more houses of worship"
+        },
+        "schinese": {
+          "name": "圣所！圣所！",
+          "description": "新建、扩建或修复5座及以上宗教场所"
+        }
+      }
+    },
+    "Rizia_DividedRizia": {
+      "translations": {
+        "english": {
+          "name": "Tattered Kingdom",
+          "description": "Lose Zille and Pales Admin. District, lease Port of Monqiz and Caleqabiz"
+        },
+        "schinese": {
+          "name": "支离破碎的王国",
+          "description": "失去齐勒与帕莱斯行政区，并租出蒙奇兹港与卡莱卡比兹"
+        }
+      }
+    },
+    "Rizia_FreeZille": {
+      "translations": {
+        "english": {
+          "name": "South Merkopa's Newest Member",
+          "description": "Fail to unify with Zille, and see its independence"
+        },
+        "schinese": {
+          "name": "南梅尔科帕的新成员",
+          "description": "未能收复齐勒，并眼看其走向独立"
+        }
+      }
+    },
+    "Rizia_RumVassal": {
+      "translations": {
+        "english": {
+          "name": "Long Arm of Tzarborough",
+          "description": "Become a puppet state of Rumburg"
+        },
+        "schinese": {
+          "name": "察尔堡的长臂",
+          "description": "成为朗伯格的傀儡国"
+        }
+      }
+    },
+    "Rizia_DerdianMissiles": {
+      "translations": {
+        "english": {
+          "name": "Power of the Heavens",
+          "description": "Obtain Derdian missiles"
+        },
+        "schinese": {
+          "name": "天降神威",
+          "description": "获得德尔迪亚导弹"
+        }
+      }
+    },
+    "Rizia_Blitzkrieg": {
+      "translations": {
+        "english": {
+          "name": "Blitzkrieg",
+          "description": "Win Operation Golden Shield in a single phase"
+        },
+        "schinese": {
+          "name": "闪电战",
+          "description": "在单个阶段内赢得“黄金之盾”行动"
+        }
+      }
+    },
+    "Rizia_GreenKingdom": {
+      "translations": {
+        "english": {
+          "name": "The Green Kingdom",
+          "description": "Fund Arufelde reparation and cleanup, invest in Zpana and renewable industry, don't expand Esqiris or import Wehlen oil"
+        },
+        "schinese": {
+          "name": "绿色王国",
+          "description": "资助阿鲁菲尔德的赔偿与治理、投资兹帕纳水电站及可再生能源产业，且不扩建埃斯基里斯气田、不进口维伦石油"
+        }
+      }
+    },
+    "Rizia_NuristsUnited": {
+      "translations": {
+        "english": {
+          "name": "Nurists United",
+          "description": "Unite every religious group under your reign, keeping each one happy"
+        },
+        "schinese": {
+          "name": "努尔教派大团结",
+          "description": "在你的统治下团结所有宗教派别，并令每一派都感到满意"
+        }
+      }
+    },
+    "Rizia_NurDecrees": {
+      "translations": {
+        "english": {
+          "name": "By Nur's Will, I Decree!",
+          "description": "Enact every late-game theocratic decree available"
+        },
+        "schinese": {
+          "name": "奉努尔之旨，朕兹颁布！",
+          "description": "颁布所有可用的游戏后期神权法令"
+        }
+      }
+    },
+    "Rizia_HighProduction": {
+      "translations": {
+        "english": {
+          "name": "Through Machinery and Industry",
+          "description": "Reach high production capacity in the Golden Kingdom"
+        },
+        "schinese": {
+          "name": "以机械与工业为基",
+          "description": "在黄金王国实现高产能"
+        }
+      }
+    },
+    "Rizia_NoPowder": {
+      "translations": {
+        "english": {
+          "name": "The End of Powder and Blood",
+          "description": "Crush the drug trade and enforce strong internal security"
+        },
+        "schinese": {
+          "name": "终结毒粉与血腥",
+          "description": "粉碎毒品交易并建立强有力的国内安全体系"
+        }
+      }
+    },
+    "Rizia_PayDebts": {
+      "translations": {
+        "english": {
+          "name": "A Toras Pays His Debts",
+          "description": "Take a major loan from Rusty, and repay it in full"
+        },
+        "schinese": {
+          "name": "托拉斯有债必偿",
+          "description": "向拉斯蒂借取一笔巨额贷款并全额还清"
+        }
+      }
+    },
+    "Rizia_Growth": {
+      "translations": {
+        "english": {
+          "name": "Economic Wonder of South Merkopa",
+          "description": "Attain peak economic growth metrics in the Golden Kingdom"
+        },
+        "schinese": {
+          "name": "南梅尔科帕的经济奇迹",
+          "description": "在黄金王国达到巅峰经济增长指标"
+        }
+      }
+    },
+    "Rizia_PorteDrazon": {
+      "translations": {
+        "english": {
+          "name": "Pearl of the Between-Seas",
+          "description": "Launch the Porte Drazon Tourism Campaign and achieve maximum results"
+        },
+        "schinese": {
+          "name": "间海明珠",
+          "description": "发起德拉宗港旅游推广活动并取得最佳成效"
+        }
+      }
+    },
+    "Rizia_Bells": {
+      "translations": {
+        "english": {
+          "name": "The Golden Bells Ring",
+          "description": "Form the Porte Drazon Exchange and reach the best possible stock market opening"
+        },
+        "schinese": {
+          "name": "金钟鸣响",
+          "description": "成立德拉宗港证券交易所并迎来最佳开盘表现"
+        }
+      }
+    },
+    "Rizia_Workers": {
+      "translations": {
+        "english": {
+          "name": "What's Mined Is Yours",
+          "description": "Form the first worker-led state corporation by nationalizing and redistributing Rizian Royal Gold"
+        },
+        "schinese": {
+          "name": "矿产皆为你所有",
+          "description": "将里齐亚皇家黄金公司国有化并重新分配，组建首个由工人主导的国有企业"
+        }
+      }
+    },
+    "Rizia_Khisha": {
+      "translations": {
+        "english": {
+          "name": "Smolak's Smokes",
+          "description": "Import Wehzek tobacco and distribute free cigarettes to the population"
+        },
+        "schinese": {
+          "name": "斯莫拉克的香烟",
+          "description": "进口维伦烟草并向民众免费发放香烟"
+        }
+      }
+    },
+    "Rizia_Rusty": {
+      "translations": {
+        "english": {
+          "name": "The Kingdom Incorporated",
+          "description": "Give tax credits to businesses and stay allied with Rusty"
+        },
+        "schinese": {
+          "name": "王国股份有限公司",
+          "description": "向企业提供税收抵免并与拉斯蒂保持结盟"
+        }
+      }
+    },
+    "Rizia_Tradition": {
+      "translations": {
+        "english": {
+          "name": "Tradition is Our Compass, the Past Our Strength. ",
+          "description": "Maintain the cultural and institutional traditions of the Kingdom throughout your entire rule"
+        },
+        "schinese": {
+          "name": "传统为指南，过往铸吾力",
+          "description": "在整个统治期间始终维护王国的文化与制度传统"
+        }
+      }
+    },
+    "Rizia_HugoIgo": {
+      "translations": {
+        "english": {
+          "name": "Hugo, I Go ",
+          "description": "Be exiled by your uncle"
+        },
+        "schinese": {
+          "name": "雨果留，我走",
+          "description": "被你的叔父流放"
+        }
+      }
+    },
+    "Rizia_ReturnOfTheKing": {
+      "translations": {
+        "english": {
+          "name": "Return of the King",
+          "description": "Win the Rizian Civil War"
+        },
+        "schinese": {
+          "name": "王者归来",
+          "description": "赢得里齐亚内战"
+        }
+      }
+    },
+    "Rizia_AzarosDead": {
+      "translations": {
+        "english": {
+          "name": "Like Father, Like Daughter",
+          "description": "Execute both Taddeus and Lucita"
+        },
+        "schinese": {
+          "name": "有其父必有其女",
+          "description": "处决塔迪乌斯与露西塔两人"
+        }
+      }
+    },
+    "Rizia_EtTuTitus": {
+      "translations": {
+        "english": {
+          "name": "Et Tu Titus?",
+          "description": "Get betrayed by Titus and the Golden Guard"
+        },
+        "schinese": {
+          "name": "提图斯，连你也是吗？",
+          "description": "遭到提图斯与黄金卫队的背叛"
+        }
+      }
+    },
+    "Rizia_OfficerSazon": {
+      "translations": {
+        "english": {
+          "name": "Lieutenant Commander Sazon",
+          "description": "Turn Manus into a war hero"
+        },
+        "schinese": {
+          "name": "萨松少校",
+          "description": "将马努斯培养成战争英雄"
+        }
+      }
+    }
+  }
+}
