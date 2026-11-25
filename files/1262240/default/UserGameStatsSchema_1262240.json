@@ -1,0 +1,611 @@
+{
+  "version": 2,
+  "app_id": "1262240",
+  "variant_id": "default",
+  "languages": [
+    "schinese",
+    "tchinese"
+  ],
+  "achievements": {
+    "Achievement_GOSCC_1": {
+      "translations": {
+        "schinese": {
+          "name": "豌豆守护者",
+          "description": "使用豌豆射手取得 200 个击败数"
+        },
+        "tchinese": {
+          "name": "豌豆守護者",
+          "description": "使用豌豆射手取得 200 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_2": {
+      "translations": {
+        "schinese": {
+          "name": "野蛮生长",
+          "description": "使用向日葵提供 1000 点额外生命值"
+        },
+        "tchinese": {
+          "name": "生長過盛",
+          "description": "使用向日葵給出 1000 次爆表生命值"
+        }
+      }
+    },
+    "Achievement_GOSCC_3": {
+      "translations": {
+        "schinese": {
+          "name": "仙人掌行家",
+          "description": "使用仙人掌取得 200 个击败数"
+        },
+        "tchinese": {
+          "name": "掌握訣竅",
+          "description": "使用仙人掌取得 200 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_4": {
+      "translations": {
+        "schinese": {
+          "name": "点心时间",
+          "description": "使用大嘴花取得 200 个击败数"
+        },
+        "tchinese": {
+          "name": "點心時間",
+          "description": "使用大嘴花取得 200 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_5": {
+      "translations": {
+        "schinese": {
+          "name": "爆爆爆！",
+          "description": "使用玉米上校取得 200 个击败数"
+        },
+        "tchinese": {
+          "name": "爆爆爆！",
+          "description": "使用玉米粒取得 200 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_6": {
+      "translations": {
+        "schinese": {
+          "name": "强中带劲",
+          "description": "使用香橼猎手以果皮护盾挡下 1000 点伤害"
+        },
+        "tchinese": {
+          "name": "強中帶勁",
+          "description": "使用香櫞以果皮護盾擋下 1000 點傷害"
+        }
+      }
+    },
+    "Achievement_GOSCC_7": {
+      "translations": {
+        "schinese": {
+          "name": "玫瑰登场",
+          "description": "使用玫瑰取得 200 个击败数"
+        },
+        "tchinese": {
+          "name": "玫瑰站起來",
+          "description": "使用玫瑰取得 200 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_8": {
+      "translations": {
+        "schinese": {
+          "name": "小心帽子",
+          "description": "使用暗夜菇队长取得 200 个击败数"
+        },
+        "tchinese": {
+          "name": "當心睡帽",
+          "description": "使用睡帽取得 200 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_9": {
+      "translations": {
+        "schinese": {
+          "name": "要烤肉吗？",
+          "description": "使用火龙草取得 200 个击败数"
+        },
+        "tchinese": {
+          "name": "要烤肉嗎？",
+          "description": "使用龍頭花取得 200 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_10": {
+      "translations": {
+        "schinese": {
+          "name": "彻底疯狂",
+          "description": "使用橡果取得 200 个击败数"
+        },
+        "tchinese": {
+          "name": "實在有夠瘋",
+          "description": "使用橡實取得 200 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_11": {
+      "translations": {
+        "schinese": {
+          "name": "步步为营",
+          "description": "使用步兵僵尸取得 200 个击败数"
+        },
+        "tchinese": {
+          "name": "步步為營",
+          "description": "使用步兵取得 200 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_12": {
+      "translations": {
+        "schinese": {
+          "name": "医疗奇迹",
+          "description": "使用科学家僵尸提供 1000 点额外生命值"
+        },
+        "tchinese": {
+          "name": "醫療奇蹟",
+          "description": "使用科學家給予 1000 次爆表生命值"
+        }
+      }
+    },
+    "Achievement_GOSCC_13": {
+      "translations": {
+        "schinese": {
+          "name": "干得漂亮",
+          "description": "使用工程师僵尸取得 200 个击败数"
+        },
+        "tchinese": {
+          "name": "做得好",
+          "description": "使用工程師取得 200 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_14": {
+      "translations": {
+        "schinese": {
+          "name": "防守！鼓掌！防守！",
+          "description": "使用全明星僵尸以呆瓜护盾挡下 1000 点伤害"
+        },
+        "tchinese": {
+          "name": "防守！拍拍手！防守！",
+          "description": "使用全明星以傀儡盾牌擋下 1000 點傷害"
+        }
+      }
+    },
+    "Achievement_GOSCC_15": {
+      "translations": {
+        "schinese": {
+          "name": "不可思议",
+          "description": "使用小鬼取得 200 个击败数"
+        },
+        "tchinese": {
+          "name": "不思議驚奇",
+          "description": "使用小殭屍取得 200 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_16": {
+      "translations": {
+        "schinese": {
+          "name": "超级大脑",
+          "description": "使用超级大脑僵尸取得 200 个击败数"
+        },
+        "tchinese": {
+          "name": "王牌超級腦",
+          "description": "使用超級腦袋取得 200 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_17": {
+      "translations": {
+        "schinese": {
+          "name": "小眼间谍",
+          "description": "使用死胡子船长取得 200 个击败数"
+        },
+        "tchinese": {
+          "name": "小眼間諜",
+          "description": "使用死鬚船長取得 200 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_18": {
+      "translations": {
+        "schinese": {
+          "name": "往日爆破",
+          "description": "使用 80 年代动作英雄取得 200 个击败数"
+        },
+        "tchinese": {
+          "name": "往日爆破",
+          "description": "使用 80 年代動作英雄達成 200 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_19": {
+      "translations": {
+        "schinese": {
+          "name": "舞池清场",
+          "description": "使用电光滑步取得 200 个击败数"
+        },
+        "tchinese": {
+          "name": "舞池清場",
+          "description": "使用電擊滑步取得 200 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_20": {
+      "translations": {
+        "schinese": {
+          "name": "僵尸的一大步",
+          "description": "使用宇航员僵尸取得 200 个击败数"
+        },
+        "tchinese": {
+          "name": "殭屍的一大步",
+          "description": "使用太空學員取得 200 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_21": {
+      "translations": {
+        "schinese": {
+          "name": "露营去咯！",
+          "description": "在怪诞林木完成「僵尸准备就绪」任务"
+        },
+        "tchinese": {
+          "name": "去露營了！",
+          "description": "在怪誕林木完成「殭屍準備就緒」任務"
+        }
+      }
+    },
+    "Achievement_GOSCC_22": {
+      "translations": {
+        "schinese": {
+          "name": "心胸开阔",
+          "description": "在怪诞林木完成「与笨蛋融为一体」任务"
+        },
+        "tchinese": {
+          "name": "心胸寬廣",
+          "description": "在怪誕林木完成「成為笨笨的一員」任務"
+        }
+      }
+    },
+    "Achievement_GOSCC_23": {
+      "translations": {
+        "schinese": {
+          "name": "请倒带，好心人",
+          "description": "在怪诞林木完成「善意倒带！」任务"
+        },
+        "tchinese": {
+          "name": "帶好倒，人好做",
+          "description": "在怪誕林木完成「做好人，倒好帶」任務"
+        }
+      }
+    },
+    "Achievement_GOSCC_24": {
+      "translations": {
+        "schinese": {
+          "name": "锯木头",
+          "description": "击败威严大树"
+        },
+        "tchinese": {
+          "name": "鉅木材",
+          "description": "擊敗恐怖巨木"
+        }
+      }
+    },
+    "Achievement_GOSCC_25": {
+      "translations": {
+        "schinese": {
+          "name": "镇上的新警长",
+          "description": "在陡峭山完成「你愿意加入我的队伍吗？」任务"
+        },
+        "tchinese": {
+          "name": "鎮上的新警長",
+          "description": "在陡峭山完成「你願意加入我的團隊嗎？」任務"
+        }
+      }
+    },
+    "Achievement_GOSCC_26": {
+      "translations": {
+        "schinese": {
+          "name": "播客订阅者",
+          "description": "在陡峭山完成「寻宝」任务"
+        },
+        "tchinese": {
+          "name": "Podcast 訂閱戶",
+          "description": "在陡峭山完成「尋寳記」任務"
+        }
+      }
+    },
+    "Achievement_GOSCC_27": {
+      "translations": {
+        "schinese": {
+          "name": "真材实料",
+          "description": "在陡峭山完成「货真价实」任务"
+        },
+        "tchinese": {
+          "name": "最真誠的決心",
+          "description": "在陡峭山完成「真跡文章」任務"
+        }
+      }
+    },
+    "Achievement_GOSCC_28": {
+      "translations": {
+        "schinese": {
+          "name": "冷静一下！",
+          "description": "击败问题少校"
+        },
+        "tchinese": {
+          "name": "問題冷卻！",
+          "description": "擊敗問題少校"
+        }
+      }
+    },
+    "Achievement_GOSCC_29": {
+      "translations": {
+        "schinese": {
+          "name": "帽子到此为止！",
+          "description": "在日落丘完成「狂欢男爵」任务"
+        },
+        "tchinese": {
+          "name": "帽此為止啦！",
+          "description": "在日落丘完成「狂歡男爵」任務"
+        }
+      }
+    },
+    "Achievement_GOSCC_30": {
+      "translations": {
+        "schinese": {
+          "name": "街头混战",
+          "description": "在日落丘完成「抗击士绅化」任务"
+        },
+        "tchinese": {
+          "name": "市區鬥毆",
+          "description": "在日落丘完成「對抗禪化」任務"
+        }
+      }
+    },
+    "Achievement_GOSCC_31": {
+      "translations": {
+        "schinese": {
+          "name": "铁哥们与锁链",
+          "description": "在日落丘完成「我珍惜你」任务"
+        },
+        "tchinese": {
+          "name": "誘餌與鍊子",
+          "description": "在日落丘完成「我很寶貝你」任務"
+        }
+      }
+    },
+    "Achievement_GOSCC_32": {
+      "translations": {
+        "schinese": {
+          "name": "晚安俱乐部",
+          "description": "击败酷老僵尸"
+        },
+        "tchinese": {
+          "name": "晚安俱樂部",
+          "description": "擊敗酷炫老頭"
+        }
+      }
+    },
+    "Achievement_GOSCC_33": {
+      "translations": {
+        "schinese": {
+          "name": "豌豆钢琴家",
+          "description": "在钢琴上弹奏《植物大战僵尸》主题曲（G# A G# A F D）"
+        },
+        "tchinese": {
+          "name": "古典碗豆鋼琴家",
+          "description": "在鋼琴上彈奏《植物大戰殭屍》主題曲（G# A G# A F D）"
+        }
+      }
+    },
+    "Achievement_GOSCC_34": {
+      "translations": {
+        "schinese": {
+          "name": "有样学样",
+          "description": "在服从舞厅拿到 25 分以上"
+        },
+        "tchinese": {
+          "name": "殭屍快來跟著做",
+          "description": "在服從舞廳達成 25 分以上"
+        }
+      }
+    },
+    "Achievement_GOSCC_35": {
+      "translations": {
+        "schinese": {
+          "name": "勋章中的勋章！",
+          "description": "收集 75 枚勋章"
+        },
+        "tchinese": {
+          "name": "勳章中的勳章！",
+          "description": "收集 75 面勳章"
+        }
+      }
+    },
+    "Achievement_GOSCC_36": {
+      "translations": {
+        "schinese": {
+          "name": "重返战场！",
+          "description": "复活 10 名队友"
+        },
+        "tchinese": {
+          "name": "快回到場上！",
+          "description": "復活 10 名隊友"
+        }
+      }
+    },
+    "Achievement_GOSCC_37": {
+      "translations": {
+        "schinese": {
+          "name": "破冰",
+          "description": "使用 25 个表情"
+        },
+        "tchinese": {
+          "name": "破冰",
+          "description": "使用 25 個語句"
+        }
+      }
+    },
+    "Achievement_GOSCC_38": {
+      "translations": {
+        "schinese": {
+          "name": "豆子神射手",
+          "description": "在靶场摧毁 20 个目标"
+        },
+        "tchinese": {
+          "name": "目光如豆",
+          "description": "在標靶靶場摧毀 20 個目標"
+        }
+      }
+    },
+    "Achievement_GOSCC_39": {
+      "translations": {
+        "schinese": {
+          "name": "茁壮成长",
+          "description": "召唤 25 个盆栽"
+        },
+        "tchinese": {
+          "name": "生長就緒",
+          "description": "產生 25 個盆栽"
+        }
+      }
+    },
+    "Achievement_GOSCC_40": {
+      "translations": {
+        "schinese": {
+          "name": "拼装好伙伴",
+          "description": "召唤 25 个机器人"
+        },
+        "tchinese": {
+          "name": "打造好夥伴",
+          "description": "產生 25 個機器人"
+        }
+      }
+    },
+    "Achievement_GOSCC_41": {
+      "translations": {
+        "schinese": {
+          "name": "神话缔造者",
+          "description": "击败 35 只地精"
+        },
+        "tchinese": {
+          "name": "神話製造者",
+          "description": "殲滅 35 名地精"
+        }
+      }
+    },
+    "Achievement_GOSCC_42": {
+      "translations": {
+        "schinese": {
+          "name": "哇——！",
+          "description": "在飘飘然公园的游乐设施上击败 25 名敌人"
+        },
+        "tchinese": {
+          "name": "耶咿咿咿！",
+          "description": "在飄飄然公園遊樂設施上殲滅 25 名敵人"
+        }
+      }
+    },
+    "Achievement_GOSCC_43": {
+      "translations": {
+        "schinese": {
+          "name": "天堂铺路人",
+          "description": "在 PvP 中击败 100 株植物"
+        },
+        "tchinese": {
+          "name": "天堂鋪路人",
+          "description": "在 PvP 中殲滅 100 棵植物"
+        }
+      }
+    },
+    "Achievement_GOSCC_44": {
+      "translations": {
+        "schinese": {
+          "name": "大脑难求",
+          "description": "在 PvP 中击败 100 只僵尸"
+        },
+        "tchinese": {
+          "name": "腦袋未達標",
+          "description": "在 PvP 中殲滅 100 隻殭屍"
+        }
+      }
+    },
+    "Achievement_GOSCC_45": {
+      "translations": {
+        "schinese": {
+          "name": "真该出门走走了",
+          "description": "将 20 名角色提升至「大师」等级"
+        },
+        "tchinese": {
+          "name": "該認真出去走走了",
+          "description": "將 20 名角色升階至「大師」階級"
+        }
+      }
+    },
+    "Achievement_GOSCC_46": {
+      "translations": {
+        "schinese": {
+          "name": "天生二十",
+          "description": "使用橡树以「翻滚伤害」取得 20 次多杀"
+        },
+        "tchinese": {
+          "name": "嗨翻天",
+          "description": "使用橡樹以「翻滾傷害」取得 20 個多重殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_47": {
+      "translations": {
+        "schinese": {
+          "name": "策马奔腾",
+          "description": "使用 80 年代动作英雄以「火箭顺风车」取得 20 个击败数"
+        },
+        "tchinese": {
+          "name": "出發",
+          "description": "使用 80 年代動作英雄以「火箭沖天」取得 20 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_48": {
+      "translations": {
+        "schinese": {
+          "name": "午夜慢跑",
+          "description": "使用暗夜菇队长以「暗影突袭」移动 1000 英尺"
+        },
+        "tchinese": {
+          "name": "午夜慢跑",
+          "description": "使用睡帽以「暗影潛行」移動 1000 英呎"
+        }
+      }
+    },
+    "Achievement_GOSCC_49": {
+      "translations": {
+        "schinese": {
+          "name": "科学摩擦",
+          "description": "使用太空站以「巨坑重击」取得 20 个击败数"
+        },
+        "tchinese": {
+          "name": "科學與隕石",
+          "description": "使用太空站以「隕石坑製造機」取得 20 個殲滅數"
+        }
+      }
+    },
+    "Achievement_GOSCC_50": {
+      "translations": {
+        "schinese": {
+          "name": "龙卷探戈",
+          "description": "使用电光滑步以「迪斯科飓风」取得 20 个击败数"
+        },
+        "tchinese": {
+          "name": "龍捲舞王",
+          "description": "使用電擊滑步以「迪斯可龍捲風」取得 20 個殲滅數"
+        }
+      }
+    }
+  }
+}

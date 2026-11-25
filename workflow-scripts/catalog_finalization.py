@@ -3,7 +3,6 @@ from __future__ import annotations
 
 import sys
 import time
-from typing import Any
 
 import catalog_v2
 from catalog_refresh import refresh_catalog
@@ -19,10 +18,7 @@ PUBLICATION_PATHS = [
 PUBLICATION_ATTEMPTS = 8
 
 
-def refresh_merged_pr_catalog(event: dict[str, Any], repo: str, token: str) -> bool:
-    pr = event.get("pull_request") or {}
-    if not pr.get("merged") or (pr.get("base") or {}).get("ref") != "main":
-        return False
+def publish_pending_catalog() -> bool:
     configure_git_identity()
     for attempt in range(PUBLICATION_ATTEMPTS):
         # New PRs carry immutable, game-local proposals. Every retry consumes

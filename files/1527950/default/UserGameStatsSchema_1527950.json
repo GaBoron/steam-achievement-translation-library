@@ -1,0 +1,2832 @@
+{
+  "version": 1,
+  "app_id": "1527950",
+  "variant_id": "default",
+  "source_sha256": "6aa3b24e5dd625494d7a4607124920a59f94f3b6a9d44d0c3f6b2b9083b33217",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "fellowship": {
+      "translations": {
+        "english": {
+          "name": "A fledgling fellowship",
+          "description": "Have a troop of 10 companions"
+        },
+        "schinese": {
+          "name": "初出茅庐的伙伴团",
+          "description": "让队伍拥有 10 名同伴。"
+        }
+      }
+    },
+    "family": {
+      "translations": {
+        "english": {
+          "name": "One big happy family",
+          "description": "Have a troop of 20 companions (humans and/or animals)"
+        },
+        "schinese": {
+          "name": "幸福大家庭",
+          "description": "让队伍拥有 20 名同伴（人类和动物均可）。"
+        }
+      }
+    },
+    "elite": {
+      "translations": {
+        "english": {
+          "name": "You don't scare me",
+          "description": "Defeat a Champion"
+        },
+        "schinese": {
+          "name": "你吓不倒我",
+          "description": "击败一名冠军。"
+        }
+      }
+    },
+    "scenario": {
+      "translations": {
+        "english": {
+          "name": "Sightseer",
+          "description": "Complete all quests in a region"
+        },
+        "schinese": {
+          "name": "观光客",
+          "description": "完成一个地区的全部任务。"
+        }
+      }
+    },
+    "region": {
+      "translations": {
+        "english": {
+          "name": "In conclusion...",
+          "description": "Complete all scenario and secondary quests"
+        },
+        "schinese": {
+          "name": "结论是……",
+          "description": "完成全部剧情任务与支线任务。"
+        }
+      }
+    },
+    "contract": {
+      "translations": {
+        "english": {
+          "name": "A job’s a job",
+          "description": "Complete a contract"
+        },
+        "schinese": {
+          "name": "工作就是工作",
+          "description": "完成一份契约。"
+        }
+      }
+    },
+    "constracts100": {
+      "translations": {
+        "english": {
+          "name": "Workaholic",
+          "description": "Complete 100 contracts in one game"
+        },
+        "schinese": {
+          "name": "工作狂",
+          "description": "在同一局游戏中完成 100 份契约。"
+        }
+      }
+    },
+    "campmaterial": {
+      "translations": {
+        "english": {
+          "name": "A taste for comfort",
+          "description": "Build 5 different camp tools"
+        },
+        "schinese": {
+          "name": "舒适生活的滋味",
+          "description": "建造 5 种不同的营地工具。"
+        }
+      }
+    },
+    "explorer": {
+      "translations": {
+        "english": {
+          "name": "Explorers",
+          "description": "Complete a Tomb of the Ancients"
+        },
+        "schinese": {
+          "name": "探索者",
+          "description": "探索完一座古代陵墓。"
+        }
+      }
+    },
+    "rats": {
+      "translations": {
+        "english": {
+          "name": "Pest control",
+          "description": "Clean a rat invasion"
+        },
+        "schinese": {
+          "name": "灭鼠行动",
+          "description": "清除一处鼠患。"
+        }
+      }
+    },
+    "legendarywp": {
+      "translations": {
+        "english": {
+          "name": "The legend starts here",
+          "description": "Acquire 1 legendary weapon"
+        },
+        "schinese": {
+          "name": "传奇由此开始",
+          "description": "获得 1 把传奇武器。"
+        }
+      }
+    },
+    "arena": {
+      "translations": {
+        "english": {
+          "name": "Are you not entertained?!",
+          "description": "Triumph in an arena"
+        },
+        "schinese": {
+          "name": "你们还不满意吗？！",
+          "description": "在一座竞技场中获胜。"
+        }
+      }
+    },
+    "ghosthound": {
+      "translations": {
+        "english": {
+          "name": "Who you gonna call?",
+          "description": "Defeat the Ghost pack"
+        },
+        "schinese": {
+          "name": "你要找谁来帮忙？",
+          "description": "击败幽灵兽群。"
+        }
+      }
+    },
+    "quality3": {
+      "translations": {
+        "english": {
+          "name": "One hell of a hammering",
+          "description": "Craft an item of superior quality at forge"
+        },
+        "schinese": {
+          "name": "千锤百炼",
+          "description": "在锻造台上制作一件精良品质的物品。"
+        }
+      }
+    },
+    "death": {
+      "translations": {
+        "english": {
+          "name": "Tis but a scratch",
+          "description": "Have a companion die"
+        },
+        "schinese": {
+          "name": "只是擦伤罢了",
+          "description": "有一名同伴死亡。"
+        }
+      }
+    },
+    "retreat": {
+      "translations": {
+        "english": {
+          "name": "Not today, Death!",
+          "description": "Retreat from combat"
+        },
+        "schinese": {
+          "name": "死神，今天不行！",
+          "description": "从战斗中撤退。"
+        }
+      }
+    },
+    "survive": {
+      "translations": {
+        "english": {
+          "name": "Survivors",
+          "description": "Reach day 100 in expert difficulty"
+        },
+        "schinese": {
+          "name": "幸存者",
+          "description": "以专家难度生存到第 100 天。"
+        }
+      }
+    },
+    "multikill": {
+      "translations": {
+        "english": {
+          "name": "Please observe social distancing",
+          "description": "Kill 3 enemies with a single AoE attack"
+        },
+        "schinese": {
+          "name": "请保持社交距离",
+          "description": "用一次范围攻击杀死 3 名敌人。"
+        }
+      }
+    },
+    "secretfound": {
+      "translations": {
+        "english": {
+          "name": "Well, well, well, what have we here?",
+          "description": "Find a secret"
+        },
+        "schinese": {
+          "name": "瞧瞧，这是什么？",
+          "description": "发现一个秘密。"
+        }
+      }
+    },
+    "wealth": {
+      "translations": {
+        "english": {
+          "name": "Started from the bottom... ",
+          "description": "Have a total of 5000 krowns"
+        },
+        "schinese": {
+          "name": "白手起家……",
+          "description": "拥有总计 5000 克朗。"
+        }
+      }
+    },
+    "relation_love": {
+      "translations": {
+        "english": {
+          "name": "Souls mates",
+          "description": "Two companions have declared their love for each other"
+        },
+        "schinese": {
+          "name": "灵魂伴侣",
+          "description": "两名同伴互相表白。"
+        }
+      }
+    },
+    "relation_hate": {
+      "translations": {
+        "english": {
+          "name": "A Hate/Hate Relationship…",
+          "description": "Two companions hate each other"
+        },
+        "schinese": {
+          "name": "相看两相厌……",
+          "description": "两名同伴互相憎恨。"
+        }
+      }
+    },
+    "prisoner_escape_then_capture": {
+      "translations": {
+        "english": {
+          "name": "The Great Escape",
+          "description": "Catch a prisoner that had escaped"
+        },
+        "schinese": {
+          "name": "大逃亡",
+          "description": "抓回一名逃跑的囚犯。"
+        }
+      }
+    },
+    "killed_by_whip": {
+      "translations": {
+        "english": {
+          "name": "Brought a blade to a whip fight",
+          "description": "Kill a prisoner with a whip"
+        },
+        "schinese": {
+          "name": "带刀赴鞭斗",
+          "description": "用鞭子杀死一名囚犯。"
+        }
+      }
+    },
+    "mosquito_captured": {
+      "translations": {
+        "english": {
+          "name": "What's the buzz?",
+          "description": "Capture a cardinal mosquito"
+        },
+        "schinese": {
+          "name": "嗡嗡作响",
+          "description": "捕获一只红衣蚊。"
+        }
+      }
+    },
+    "warpaint": {
+      "translations": {
+        "english": {
+          "name": "The Colour of War",
+          "description": "Use War Paint on a companion"
+        },
+        "schinese": {
+          "name": "战争之色",
+          "description": "给一名同伴使用战纹。"
+        }
+      }
+    },
+    "tiltren_setting_completed": {
+      "translations": {
+        "english": {
+          "name": "The fate of Tiltren",
+          "description": "Finish the Tiltren scenario"
+        },
+        "schinese": {
+          "name": "提尔特伦的命运",
+          "description": "完成提尔特伦的剧情。"
+        }
+      }
+    },
+    "tiltren_champion_completed": {
+      "translations": {
+        "english": {
+          "name": "Fatherly Love",
+          "description": "Defeat the champion of Tiltren"
+        },
+        "schinese": {
+          "name": "父爱",
+          "description": "击败提尔特伦的冠军。"
+        }
+      }
+    },
+    "tiltren_poi_completed": {
+      "translations": {
+        "english": {
+          "name": "The Tiltren Dream",
+          "description": "Complete all points of interest in Tiltren"
+        },
+        "schinese": {
+          "name": "提尔特伦之梦",
+          "description": "完成提尔特伦的所有兴趣点。"
+        }
+      }
+    },
+    "arthes_setting_completed": {
+      "translations": {
+        "english": {
+          "name": "The fate of Arthes",
+          "description": "Finish the Arthes scenario"
+        },
+        "schinese": {
+          "name": "阿尔泰斯的命运",
+          "description": "完成阿尔泰斯的剧情。"
+        }
+      }
+    },
+    "arthes_champion_completed": {
+      "translations": {
+        "english": {
+          "name": "The Ghost of Harag",
+          "description": "Defeat the champion of Arthes"
+        },
+        "schinese": {
+          "name": "哈拉格之魂",
+          "description": "击败阿尔泰斯的冠军。"
+        }
+      }
+    },
+    "arthes_poi_completed": {
+      "translations": {
+        "english": {
+          "name": "Territory at war",
+          "description": "Complete all points of interest in Arthes"
+        },
+        "schinese": {
+          "name": "战火之地",
+          "description": "完成阿尔泰斯的所有兴趣点。"
+        }
+      }
+    },
+    "vertruse_setting_completed": {
+      "translations": {
+        "english": {
+          "name": "The fate of Vertruse",
+          "description": "Finish the Vertruse scenario"
+        },
+        "schinese": {
+          "name": "维特鲁斯的命运",
+          "description": "完成维特鲁斯的剧情。"
+        }
+      }
+    },
+    "vertruse_champion_completed": {
+      "translations": {
+        "english": {
+          "name": "Survive THIS!",
+          "description": "Defeat the champion of Vertruse"
+        },
+        "schinese": {
+          "name": "有本事活下来！",
+          "description": "击败维特鲁斯的冠军。"
+        }
+      }
+    },
+    "vertruse_poi_completed": {
+      "translations": {
+        "english": {
+          "name": "Blood of the vines",
+          "description": "Complete all points of interest in Vertruse"
+        },
+        "schinese": {
+          "name": "葡萄藤之血",
+          "description": "完成维特鲁斯的所有兴趣点。"
+        }
+      }
+    },
+    "ludern_setting_completed": {
+      "translations": {
+        "english": {
+          "name": "The fate of Ludern",
+          "description": "Finish the Ludern scenario"
+        },
+        "schinese": {
+          "name": "卢登的命运",
+          "description": "完成卢登的剧情。"
+        }
+      }
+    },
+    "ludern_champion_completed": {
+      "translations": {
+        "english": {
+          "name": "28 years later",
+          "description": "Defeat the champion of Ludern"
+        },
+        "schinese": {
+          "name": "二十八年后",
+          "description": "击败卢登的冠军。"
+        }
+      }
+    },
+    "ludern_poi_completed": {
+      "translations": {
+        "english": {
+          "name": "This is my swamp.",
+          "description": "Complete all points of interest in Ludern"
+        },
+        "schinese": {
+          "name": "这是我的沼泽。",
+          "description": "完成卢登的所有兴趣点。"
+        }
+      }
+    },
+    "merchant_heist": {
+      "translations": {
+        "english": {
+          "name": "Heist of the century",
+          "description": "Attack a Golden Merchant Caravan and win, without letting any merchants flee"
+        },
+        "schinese": {
+          "name": "世纪大劫案",
+          "description": "袭击一支黄金商队并获胜，且不让任何商人逃走。"
+        }
+      }
+    },
+    "wiping_slate_clean": {
+      "translations": {
+        "english": {
+          "name": "Wiping the slate clean",
+          "description": "Go from 600 Suspicion to 0 Suspicion"
+        },
+        "schinese": {
+          "name": "一笔勾销",
+          "description": "将嫌疑值从 600 降至 0。"
+        }
+      }
+    },
+    "public_enemy": {
+      "translations": {
+        "english": {
+          "name": "Public enemy #1",
+          "description": "Defeat a guard whilst you are wanted"
+        },
+        "schinese": {
+          "name": "头号公敌",
+          "description": "在被通缉时击败一队卫兵。"
+        }
+      }
+    },
+    "tiltren_ruins_done": {
+      "translations": {
+        "english": {
+          "name": "Eternal work of art",
+          "description": "Complete the Tomb of the Ancients in Tiltren"
+        },
+        "schinese": {
+          "name": "永恒的艺术品",
+          "description": "探索完提尔特伦的古代陵墓。"
+        }
+      }
+    },
+    "arthes_ruins_done": {
+      "translations": {
+        "english": {
+          "name": "Built to last",
+          "description": "Complete the Tomb of the Ancients in Arthes"
+        },
+        "schinese": {
+          "name": "坚固耐用",
+          "description": "探索完阿尔泰斯的古代陵墓。"
+        }
+      }
+    },
+    "ludern_ruins_done": {
+      "translations": {
+        "english": {
+          "name": "Those about to die will salute you",
+          "description": "Complete the Tomb of the Ancients in Ludern"
+        },
+        "schinese": {
+          "name": "将死之人向你致意",
+          "description": "探索完卢登的古代陵墓。"
+        }
+      }
+    },
+    "for_money": {
+      "translations": {
+        "english": {
+          "name": "In it for the money",
+          "description": "Have 1,000 krowns in less than 1 month"
+        },
+        "schinese": {
+          "name": "只为赚钱",
+          "description": "在不到一个月内拥有 1000 克朗。"
+        }
+      }
+    },
+    "forge_master": {
+      "translations": {
+        "english": {
+          "name": "A job well done",
+          "description": "Complete 5 forges in a row perfectly"
+        },
+        "schinese": {
+          "name": "干得漂亮",
+          "description": "连续完美完成 5 次锻造。"
+        }
+      }
+    },
+    "battle_no_damage": {
+      "translations": {
+        "english": {
+          "name": "In and out, nobody gets hurt",
+          "description": "Do not lose any HP in a fight where you are outnumbered"
+        },
+        "schinese": {
+          "name": "来去自如，无人受伤",
+          "description": "在己方人数少于敌方的战斗中，不损失任何生命值。"
+        }
+      }
+    },
+    "save_action_points": {
+      "translations": {
+        "english": {
+          "name": "Victory favours the brave... and the bold\"",
+          "description": "Win a fight using only temporary VPs"
+        },
+        "schinese": {
+          "name": "胜利眷顾勇敢……与大胆之人",
+          "description": "仅使用临时勇气点赢得一场战斗。"
+        }
+      }
+    },
+    "grinmeer_champion_completed": {
+      "translations": {
+        "english": {
+          "name": "End of freedom",
+          "description": "Defeat the champion of Grinmeer"
+        },
+        "schinese": {
+          "name": "自由的终结",
+          "description": "击败格林米尔的冠军。"
+        }
+      }
+    },
+    "grinmeer_setting_completed": {
+      "translations": {
+        "english": {
+          "name": "The fate of Grinmeer",
+          "description": "Finish the Grinmeer scenario"
+        },
+        "schinese": {
+          "name": "格林米尔的命运",
+          "description": "完成格林米尔的剧情。"
+        }
+      }
+    },
+    "grinmeer_poi_completed": {
+      "translations": {
+        "english": {
+          "name": "Influence of Brokers",
+          "description": "Complete all points of interest in Grinmeer"
+        },
+        "schinese": {
+          "name": "掮客的影响力",
+          "description": "完成格林米尔的所有兴趣点。"
+        }
+      }
+    },
+    "grinmeer_ambassy_enter": {
+      "translations": {
+        "english": {
+          "name": "Let me in!",
+          "description": "Find a way to enter Alazar's Embassy, in Grinmeer"
+        },
+        "schinese": {
+          "name": "让我进去！",
+          "description": "找到进入格林米尔境内阿拉扎使馆的方法。"
+        }
+      }
+    },
+    "grinmeer_rooks_code": {
+      "translations": {
+        "english": {
+          "name": "Secret code",
+          "description": "Unmask Rooks"
+        },
+        "schinese": {
+          "name": "秘密暗号",
+          "description": "揭穿鲁克斯的身份。"
+        }
+      }
+    },
+    "grinmeer_hoevendorp_arena": {
+      "translations": {
+        "english": {
+          "name": "Massive weapon incoming",
+          "description": "Triumph in the Hoevendorp arena"
+        },
+        "schinese": {
+          "name": "重型武器登场",
+          "description": "在霍文多普竞技场中获胜。"
+        }
+      }
+    },
+    "grinmeer_bernna_arena": {
+      "translations": {
+        "english": {
+          "name": "Prepare for trouble... And make it double",
+          "description": "Triumph in the Bernna arena"
+        },
+        "schinese": {
+          "name": "为了防止世界被破坏……为了守护世界的和平",
+          "description": "在伯纳竞技场中获胜。"
+        }
+      }
+    },
+    "vertruse_arena": {
+      "translations": {
+        "english": {
+          "name": "Poison you said?",
+          "description": "Triumph in the Smot arena"
+        },
+        "schinese": {
+          "name": "你说有毒？",
+          "description": "在斯莫特竞技场中获胜。"
+        }
+      }
+    },
+    "feast_food": {
+      "translations": {
+        "english": {
+          "name": "A taste for luxury",
+          "description": "Eat a feast"
+        },
+        "schinese": {
+          "name": "奢华的滋味",
+          "description": "享用一顿盛宴。"
+        }
+      }
+    },
+    "pack_spirit": {
+      "translations": {
+        "english": {
+          "name": "Leader of the pack",
+          "description": "Get a company with 1 bear, 1 wolf, 1 boar and 1 crocswine"
+        },
+        "schinese": {
+          "name": "兽群领袖",
+          "description": "让队伍中同时拥有 1 只熊、1 只狼、1 头野猪和 1 头鳄猪。"
+        }
+      }
+    },
+    "prisoner_trust_recruited": {
+      "translations": {
+        "english": {
+          "name": "Stockholm syndrome",
+          "description": "One of your prisoners wanted to join your company, and you accepted it"
+        },
+        "schinese": {
+          "name": "斯德哥尔摩综合征",
+          "description": "一名囚犯提出加入你的队伍，而你接受了。"
+        }
+      }
+    },
+    "budding_trader": {
+      "translations": {
+        "english": {
+          "name": "Savvy businessman ",
+          "description": "Gain 2.000 Krowns by selling Trading Goods"
+        },
+        "schinese": {
+          "name": "精明商人",
+          "description": "通过出售贸易货物赚取 2000 克朗。"
+        }
+      }
+    },
+    "grinmeer_treasures": {
+      "translations": {
+        "english": {
+          "name": "Treasure hunter",
+          "description": "Collect every treasure hidden in Grinmeer"
+        },
+        "schinese": {
+          "name": "宝藏猎人",
+          "description": "收集格林米尔隐藏的全部宝藏。"
+        }
+      }
+    },
+    "cat_petted": {
+      "translations": {
+        "english": {
+          "name": "Soft kitty, warm kitty...",
+          "description": "Pet 9 cats"
+        },
+        "schinese": {
+          "name": "软软小猫，暖暖小猫……",
+          "description": "抚摸 9 只猫。"
+        }
+      }
+    },
+    "friendship_power": {
+      "translations": {
+        "english": {
+          "name": "The power of friendship",
+          "description": "Complete a bounty in co-op"
+        },
+        "schinese": {
+          "name": "友谊的力量",
+          "description": "在合作模式中完成一次悬赏。"
+        }
+      }
+    },
+    "team_work": {
+      "translations": {
+        "english": {
+          "name": "Teamwork makes the dream work",
+          "description": "Defeat a Champion in co-op"
+        },
+        "schinese": {
+          "name": "团结就是力量",
+          "description": "在合作模式中击败一名冠军。"
+        }
+      }
+    },
+    "first_aid": {
+      "translations": {
+        "english": {
+          "name": "First aid",
+          "description": "As a group, save a companion from dying 10 times in co-op"
+        },
+        "schinese": {
+          "name": "急救",
+          "description": "在合作模式中，全队累计将濒死同伴救回 10 次。"
+        }
+      }
+    },
+    "entertainment": {
+      "translations": {
+        "english": {
+          "name": "Are you still not entertained?",
+          "description": "Complete 10 minigames in co-op"
+        },
+        "schinese": {
+          "name": "你们还是不满意吗？",
+          "description": "在合作模式中完成 10 次小游戏。"
+        }
+      }
+    },
+    "alazar_arena_done": {
+      "translations": {
+        "english": {
+          "name": "High and mighty",
+          "description": "Triumph in the Lisbeth arena"
+        },
+        "schinese": {
+          "name": "高高在上",
+          "description": "在莉丝贝特竞技场中获胜。"
+        }
+      }
+    },
+    "alazar_poi_completed": {
+      "translations": {
+        "english": {
+          "name": "Eye to eye",
+          "description": "Complete all points of interest in Drombach"
+        },
+        "schinese": {
+          "name": "针锋相对",
+          "description": "完成德龙巴赫的所有兴趣点。"
+        }
+      }
+    },
+    "alazar_champion_completed": {
+      "translations": {
+        "english": {
+          "name": "Got some rare things on sale, stranger!",
+          "description": "Defeat the champion of Drombach"
+        },
+        "schinese": {
+          "name": "陌生人，有些稀罕货要卖！",
+          "description": "击败德龙巴赫的冠军。"
+        }
+      }
+    },
+    "capture_snow_crawler": {
+      "translations": {
+        "english": {
+          "name": "Breaking the ice",
+          "description": "Capture a snow crawler"
+        },
+        "schinese": {
+          "name": "打破坚冰",
+          "description": "捕获一只雪地爬行兽。"
+        }
+      }
+    },
+    "alazar_truth_dragon": {
+      "translations": {
+        "english": {
+          "name": "Pale ontology",
+          "description": "Discover the truth about dragons"
+        },
+        "schinese": {
+          "name": "古生物学",
+          "description": "发现关于龙的真相。"
+        }
+      }
+    },
+    "alazar_truth_eye": {
+      "translations": {
+        "english": {
+          "name": "God is playing dice",
+          "description": "Discover the truth about the Eye’s punishment"
+        },
+        "schinese": {
+          "name": "上帝也掷骰子",
+          "description": "发现圣眼惩罚的真相。"
+        }
+      }
+    },
+    "alazar_setting_completed": {
+      "translations": {
+        "english": {
+          "name": "The fate of Drombach ",
+          "description": "Finish the Drombach scenario"
+        },
+        "schinese": {
+          "name": "德龙巴赫的命运",
+          "description": "完成德龙巴赫的剧情。"
+        }
+      }
+    },
+    "alazar_ruins_done": {
+      "translations": {
+        "english": {
+          "name": "Destroyer of worlds",
+          "description": "Complete the Tomb of the Ancients in Drombach"
+        },
+        "schinese": {
+          "name": "世界毁灭者",
+          "description": "探索完德龙巴赫的古代陵墓。"
+        }
+      }
+    },
+    "vertruse_ruins_done": {
+      "translations": {
+        "english": {
+          "name": "Coming from old money",
+          "description": "Complete the Tomb of the Ancients in Vertruse"
+        },
+        "schinese": {
+          "name": "世代富有",
+          "description": "探索完维特鲁斯的古代陵墓。"
+        }
+      }
+    },
+    "gosenberg_ruins_done": {
+      "translations": {
+        "english": {
+          "name": "This ship has sailed",
+          "description": "Complete the Tomb of the Ancients in Grinmeer"
+        },
+        "schinese": {
+          "name": "木已成舟",
+          "description": "探索完格林米尔的古代陵墓。"
+        }
+      }
+    },
+    "ludern_arena_done": {
+      "translations": {
+        "english": {
+          "name": "No good to man or beast",
+          "description": "Triumph in the Nairolf arena"
+        },
+        "schinese": {
+          "name": "人兽皆不宜",
+          "description": "在奈罗夫竞技场中获胜。"
+        }
+      }
+    },
+    "ludern_beast_done": {
+      "translations": {
+        "english": {
+          "name": "Its vision is based on movement",
+          "description": "Behold the beast"
+        },
+        "schinese": {
+          "name": "它靠动静来辨认目标",
+          "description": "亲眼见证那头巨兽。"
+        }
+      }
+    },
+    "arthes_arena_done": {
+      "translations": {
+        "english": {
+          "name": "This isn’t even my final form",
+          "description": "Triumph in the Kriskhed arena"
+        },
+        "schinese": {
+          "name": "这还不是我的最终形态",
+          "description": "在克里斯凯德竞技场中获胜。"
+        }
+      }
+    },
+    "team_defeated_grinmeer": {
+      "translations": {
+        "english": {
+          "name": "Embrace tradition",
+          "description": "Defeat the Grinmeerian team in a game of rouste"
+        },
+        "schinese": {
+          "name": "遵循传统",
+          "description": "在一场角球赛中击败格林米尔队。"
+        }
+      }
+    },
+    "team_defeated_drombach": {
+      "translations": {
+        "english": {
+          "name": "Sport in a storm",
+          "description": "Defeat the Drombachian team in a game of rouste"
+        },
+        "schinese": {
+          "name": "风暴中的运动",
+          "description": "在一场角球赛中击败德龙巴赫队。"
+        }
+      }
+    },
+    "team_defeated_vertruse": {
+      "translations": {
+        "english": {
+          "name": "Can’t touch it",
+          "description": "Defeat the Vertrusian team in a game of rouste"
+        },
+        "schinese": {
+          "name": "碰都碰不到",
+          "description": "在一场角球赛中击败维特鲁斯队。"
+        }
+      }
+    },
+    "team_defeated_tiltren": {
+      "translations": {
+        "english": {
+          "name": "The balls are in your court",
+          "description": "Defeat the Tiltrenian team in a game of rouste"
+        },
+        "schinese": {
+          "name": "球在你手里",
+          "description": "在一场角球赛中击败提尔特伦队。"
+        }
+      }
+    },
+    "team_defeated_ludern": {
+      "translations": {
+        "english": {
+          "name": "Running of the boar",
+          "description": "Defeat the Ludernian team in a game of rouste"
+        },
+        "schinese": {
+          "name": "野猪奔腾",
+          "description": "在一场角球赛中击败卢登队。"
+        }
+      }
+    },
+    "team_defeated_arthes": {
+      "translations": {
+        "english": {
+          "name": "Maze runner",
+          "description": "Defeat the Arthesian team in a game of rouste"
+        },
+        "schinese": {
+          "name": "移动迷宫",
+          "description": "在一场角球赛中击败阿尔泰斯队。"
+        }
+      }
+    },
+    "sport_team_knockdown": {
+      "translations": {
+        "english": {
+          "name": "Break a leg",
+          "description": "In a game of rouste, have every oponent on the ground at once"
+        },
+        "schinese": {
+          "name": "祝你断条腿",
+          "description": "在一场角球赛中，让所有对手同时倒地。"
+        }
+      }
+    },
+    "hunt_tiltren": {
+      "translations": {
+        "english": {
+          "name": "Big bad wolf",
+          "description": "Complete the Tiltrenian hunt"
+        },
+        "schinese": {
+          "name": "大灰狼",
+          "description": "完成提尔特伦的狩猎。"
+        }
+      }
+    },
+    "hunt_vertruse": {
+      "translations": {
+        "english": {
+          "name": "Not a ghost of a chance",
+          "description": "Complete the Vertrusian hunt"
+        },
+        "schinese": {
+          "name": "毫无胜算",
+          "description": "完成维特鲁斯的狩猎。"
+        }
+      }
+    },
+    "hunt_arthes": {
+      "translations": {
+        "english": {
+          "name": "The phantom pain",
+          "description": "Complete the Arthesian hunt"
+        },
+        "schinese": {
+          "name": "幻痛",
+          "description": "完成阿尔泰斯的狩猎。"
+        }
+      }
+    },
+    "hunt_grinmeer": {
+      "translations": {
+        "english": {
+          "name": "Animal control",
+          "description": "Complete the Grinmeerian hunt"
+        },
+        "schinese": {
+          "name": "动物管制",
+          "description": "完成格林米尔的狩猎。"
+        }
+      }
+    },
+    "hunt_drombach": {
+      "translations": {
+        "english": {
+          "name": "Elected dogcatcher",
+          "description": "Complete the Drombachian hunt"
+        },
+        "schinese": {
+          "name": "捕犬员当选",
+          "description": "完成德龙巴赫的狩猎。"
+        }
+      }
+    },
+    "hunt_ludern": {
+      "translations": {
+        "english": {
+          "name": "In the wolf’s mouth",
+          "description": "Complete the Ludernian hunt"
+        },
+        "schinese": {
+          "name": "深入狼口",
+          "description": "完成卢登的狩猎。"
+        }
+      }
+    },
+    "comptoir_tiltren": {
+      "translations": {
+        "english": {
+          "name": "Feels like home",
+          "description": "Build a travel post in Tiltren"
+        },
+        "schinese": {
+          "name": "宾至如归",
+          "description": "在提尔特伦建造一座旅行站。"
+        }
+      }
+    },
+    "comptoir_vertruse": {
+      "translations": {
+        "english": {
+          "name": "Where the water tastes like wine",
+          "description": "Build a travel post in Vertruse"
+        },
+        "schinese": {
+          "name": "水尝起来像酒的地方",
+          "description": "在维特鲁斯建造一座旅行站。"
+        }
+      }
+    },
+    "comptoir_arthes": {
+      "translations": {
+        "english": {
+          "name": "War is the most profitable business",
+          "description": "Build a travel post in Arthes"
+        },
+        "schinese": {
+          "name": "战争是最赚钱的生意",
+          "description": "在阿尔泰斯建造一座旅行站。"
+        }
+      }
+    },
+    "comptoir_grinmeer": {
+      "translations": {
+        "english": {
+          "name": "Rags to riches",
+          "description": "Build a travel post in Grinmeer"
+        },
+        "schinese": {
+          "name": "从贫穷到富有",
+          "description": "在格林米尔建造一座旅行站。"
+        }
+      }
+    },
+    "comptoir_drombach": {
+      "translations": {
+        "english": {
+          "name": "In all weathers",
+          "description": "Build a travel post in Drombach"
+        },
+        "schinese": {
+          "name": "风雨无阻",
+          "description": "在德龙巴赫建造一座旅行站。"
+        }
+      }
+    },
+    "comptoir_ludern": {
+      "translations": {
+        "english": {
+          "name": "Off the beaten track",
+          "description": "Build a travel post in Ludern"
+        },
+        "schinese": {
+          "name": "另辟蹊径",
+          "description": "在卢登建造一座旅行站。"
+        }
+      }
+    },
+    "codex_builder": {
+      "translations": {
+        "english": {
+          "name": "Rock solid",
+          "description": "Find the Builder’s treasure"
+        },
+        "schinese": {
+          "name": "坚如磐石",
+          "description": "找到建造者的宝藏。"
+        }
+      }
+    },
+    "codex_merchant": {
+      "translations": {
+        "english": {
+          "name": "Et tu, Brute?",
+          "description": "Find the Merchant’s treasure"
+        },
+        "schinese": {
+          "name": "布鲁图，连你也……",
+          "description": "找到商人的宝藏。"
+        }
+      }
+    },
+    "codex_general": {
+      "translations": {
+        "english": {
+          "name": "I am become death",
+          "description": "Find the General’s treasure"
+        },
+        "schinese": {
+          "name": "我已化身死神",
+          "description": "找到将军的宝藏。"
+        }
+      }
+    },
+    "codex_fighters": {
+      "translations": {
+        "english": {
+          "name": "Born to fight",
+          "description": "Find the Fighters’ treasure"
+        },
+        "schinese": {
+          "name": "为战而生",
+          "description": "找到战士们的宝藏。"
+        }
+      }
+    },
+    "codex_artist": {
+      "translations": {
+        "english": {
+          "name": "Memento mori",
+          "description": "Find the Artist’s treasure"
+        },
+        "schinese": {
+          "name": "勿忘终有一死",
+          "description": "找到艺术家的宝藏。"
+        }
+      }
+    },
+    "codex_explorer": {
+      "translations": {
+        "english": {
+          "name": "Written in the stars",
+          "description": "Find the Explorer’s treasure"
+        },
+        "schinese": {
+          "name": "命中注定",
+          "description": "找到探索者的宝藏。"
+        }
+      }
+    },
+    "tool_assigned_companions": {
+      "translations": {
+        "english": {
+          "name": "The beehive",
+          "description": "Have at least 10 companions assigned to different tools in your camp"
+        },
+        "schinese": {
+          "name": "井然有序",
+          "description": "在营地中，将至少 10 名同伴分配到不同的工具上。"
+        }
+      }
+    },
+    "craft_unique_tools": {
+      "translations": {
+        "english": {
+          "name": "Travelling light",
+          "description": "Build 15 different camp tools"
+        },
+        "schinese": {
+          "name": "轻装上阵",
+          "description": "建造 15 种不同的营地工具。"
+        }
+      }
+    },
+    "upgrade_unique_tools": {
+      "translations": {
+        "english": {
+          "name": "All modern comforts",
+          "description": "Upgrade 10 different camp tools"
+        },
+        "schinese": {
+          "name": "现代生活的舒适",
+          "description": "升级 10 种不同的营地工具。"
+        }
+      }
+    },
+    "t2_unique_weapons": {
+      "translations": {
+        "english": {
+          "name": "Dead aim",
+          "description": "Craft every ghost weapon"
+        },
+        "schinese": {
+          "name": "精准瞄准",
+          "description": "制作所有幽灵武器。"
+        }
+      }
+    },
+    "t3_unique_weapons": {
+      "translations": {
+        "english": {
+          "name": "On our way to slay Hrimgandr",
+          "description": "Craft every rimesteel weapon"
+        },
+        "schinese": {
+          "name": "踏上讨伐霜巨蛇之路",
+          "description": "制作所有霜钢武器。"
+        }
+      }
+    },
+    "only_oiled_weapons": {
+      "translations": {
+        "english": {
+          "name": "Only your strongest potions",
+          "description": "Equip your whole troupe with oiled weapons"
+        },
+        "schinese": {
+          "name": "只要你最强的药剂",
+          "description": "让全体队员都装备涂油的武器。"
+        }
+      }
+    },
+    "apprentice_unique_jobs": {
+      "translations": {
+        "english": {
+          "name": "Jack of all trades",
+          "description": "Reach the apprentice level in 8 different jobs"
+        },
+        "schinese": {
+          "name": "多面手",
+          "description": "在 8 种不同职业中达到学徒等级。"
+        }
+      }
+    },
+    "prepare_delicious_meals": {
+      "translations": {
+        "english": {
+          "name": "Spice wars",
+          "description": "Prepare 10 delicious meals"
+        },
+        "schinese": {
+          "name": "香料战争",
+          "description": "准备 10 份美味佳肴。"
+        }
+      }
+    },
+    "full_exigence_arena": {
+      "translations": {
+        "english": {
+          "name": "The only show in town",
+          "description": "Triumph in an arena without failing a single requirement"
+        },
+        "schinese": {
+          "name": "全城唯一的好戏",
+          "description": "不违反任何一项要求，在竞技场中获胜。"
+        }
+      }
+    },
+    "rat_invasion_cleaned": {
+      "translations": {
+        "english": {
+          "name": "The rat pack",
+          "description": "Clean 5 different rat invasions"
+        },
+        "schinese": {
+          "name": "鼠群",
+          "description": "清除 5 处不同的鼠患。"
+        }
+      }
+    },
+    "fast_codex_restoration": {
+      "translations": {
+        "english": {
+          "name": "Judging the book by its cover",
+          "description": "Restore a codex in less than 6 guesses"
+        },
+        "schinese": {
+          "name": "以貌取书",
+          "description": "在少于 6 次猜测内修复一部古籍。"
+        }
+      }
+    },
+    "full_helmet": {
+      "translations": {
+        "english": {
+          "name": "Safety first",
+          "description": "Equip your whole troupe with helmet"
+        },
+        "schinese": {
+          "name": "安全第一",
+          "description": "让全体队员都装备头盔。"
+        }
+      }
+    },
+    "interregion_arena_done": {
+      "translations": {
+        "english": {
+          "name": "Those guys again?",
+          "description": "Triumph in the Arena of Legends"
+        },
+        "schinese": {
+          "name": "又是这帮家伙？",
+          "description": "在传奇竞技场中获胜。"
+        }
+      }
+    },
+    "might_path_completed": {
+      "translations": {
+        "english": {
+          "name": "Down in history",
+          "description": "Finish the Power and Glory path"
+        },
+        "schinese": {
+          "name": "载入史册",
+          "description": "完成“力量与荣耀”路径。"
+        }
+      }
+    },
+    "trade_road_built": {
+      "translations": {
+        "english": {
+          "name": "A run for your money",
+          "description": "Establish a trade route"
+        },
+        "schinese": {
+          "name": "物有所值",
+          "description": "建立一条贸易路线。"
+        }
+      }
+    },
+    "trade_path_completed": {
+      "translations": {
+        "english": {
+          "name": "The rich get richer",
+          "description": "Finish the Trade and Craftsmanship path"
+        },
+        "schinese": {
+          "name": "富者愈富",
+          "description": "完成“贸易与工艺”路径。"
+        }
+      }
+    },
+    "burglary_done": {
+      "translations": {
+        "english": {
+          "name": "Property is theft",
+          "description": "Perform a burglary"
+        },
+        "schinese": {
+          "name": "财产即盗窃",
+          "description": "实施一次入室盗窃。"
+        }
+      }
+    },
+    "crime_path_completed": {
+      "translations": {
+        "english": {
+          "name": "Crime and accomplishment",
+          "description": "Finish the Crime and Chaos path"
+        },
+        "schinese": {
+          "name": "罪与功",
+          "description": "完成“犯罪与混乱”路径。"
+        }
+      }
+    },
+    "vernacular_artifact_found": {
+      "translations": {
+        "english": {
+          "name": "It belongs in a museum",
+          "description": "Find a vernacular artifact"
+        },
+        "schinese": {
+          "name": "它应该放进博物馆",
+          "description": "找到一件乡土文物。"
+        }
+      }
+    },
+    "mystery_path_completed": {
+      "translations": {
+        "english": {
+          "name": "Guardians of the Ancient secrets",
+          "description": "Finish the Mysteries and Wisdom path"
+        },
+        "schinese": {
+          "name": "远古秘密的守护者",
+          "description": "完成“奥秘与智慧”路径。"
+        }
+      }
+    },
+    "belerion_arena_done": {
+      "translations": {
+        "english": {
+          "name": "Show of hands",
+          "description": "Triumph in the Oris arena"
+        },
+        "schinese": {
+          "name": "举手表决",
+          "description": "在奥里斯竞技场中获胜。"
+        }
+      }
+    },
+    "belerion_ruins_done": {
+      "translations": {
+        "english": {
+          "name": "Be like water",
+          "description": "Complete the Tomb of the Ancients in Belerion"
+        },
+        "schinese": {
+          "name": "上善若水",
+          "description": "探索完贝勒里恩的古代陵墓。"
+        }
+      }
+    },
+    "belerion_champion_completed": {
+      "translations": {
+        "english": {
+          "name": "Hopping mad",
+          "description": "Defeat the champion of Belerion"
+        },
+        "schinese": {
+          "name": "暴跳如雷",
+          "description": "击败贝勒里恩的冠军。"
+        }
+      }
+    },
+    "hunt_belerion": {
+      "translations": {
+        "english": {
+          "name": "Smoke on the water",
+          "description": "Complete the Belerian hunt"
+        },
+        "schinese": {
+          "name": "水上烟云",
+          "description": "完成贝勒里恩的狩猎。"
+        }
+      }
+    },
+    "visit_all_wind_zones": {
+      "translations": {
+        "english": {
+          "name": "Hic Sunt Dracones",
+          "description": "Visit every wind zone in Belerion"
+        },
+        "schinese": {
+          "name": "此处有龙",
+          "description": "造访贝勒里恩的所有风区。"
+        }
+      }
+    },
+    "enter_sealords_ranking": {
+      "translations": {
+        "english": {
+          "name": "Billboard Hot 10",
+          "description": "Enter the Lords of the Sea ranking"
+        },
+        "schinese": {
+          "name": "十大金榜",
+          "description": "进入海上领主排行榜。"
+        }
+      }
+    },
+    "treasure_sealord": {
+      "translations": {
+        "english": {
+          "name": "Treasure Island",
+          "description": "Find the treasure of a Lord of the Sea"
+        },
+        "schinese": {
+          "name": "金银岛",
+          "description": "找到一位海上领主的宝藏。"
+        }
+      }
+    },
+    "top_sealords_ranking": {
+      "translations": {
+        "english": {
+          "name": "Most Wanted",
+          "description": "Reach the top of the Lords of the Sea ranking"
+        },
+        "schinese": {
+          "name": "头号通缉犯",
+          "description": "登上海上领主排行榜榜首。"
+        }
+      }
+    },
+    "all_fish_species": {
+      "translations": {
+        "english": {
+          "name": "Gotta Catch 'Em All",
+          "description": "Catch 12 different species of fish"
+        },
+        "schinese": {
+          "name": "全都钓到手",
+          "description": "钓到 12 种不同的鱼。"
+        }
+      }
+    },
+    "team_defeated_belerion": {
+      "translations": {
+        "english": {
+          "name": "My job is just beach",
+          "description": "Defeat the Belerian team in a game of rouste"
+        },
+        "schinese": {
+          "name": "我的工作就是海滩",
+          "description": "在一场角球赛中击败贝勒里恩队。"
+        }
+      }
+    },
+    "max_repair_boat": {
+      "translations": {
+        "english": {
+          "name": "Back at sea",
+          "description": "Repair your boat after each of its components was damaged"
+        },
+        "schinese": {
+          "name": "重返大海",
+          "description": "在船上每个部件都受损后，将船修好。"
+        }
+      }
+    },
+    "all_boat_comp_upgraded": {
+      "translations": {
+        "english": {
+          "name": "Wonder of the seas",
+          "description": "Upgrade every component of your boat"
+        },
+        "schinese": {
+          "name": "海洋奇迹",
+          "description": "升级船上的每个部件。"
+        }
+      }
+    },
+    "all_boat_comp_built": {
+      "translations": {
+        "english": {
+          "name": "Fully equipped",
+          "description": "Build all different boat components"
+        },
+        "schinese": {
+          "name": "装备齐全",
+          "description": "建造所有不同的船舶部件。"
+        }
+      }
+    },
+    "boat_max_speed": {
+      "translations": {
+        "english": {
+          "name": "Wave Race",
+          "description": "Reach a speed of 10 knots with your boat"
+        },
+        "schinese": {
+          "name": "乘风破浪",
+          "description": "让船速达到 10 节。"
+        }
+      }
+    },
+    "ballista_landing_shots": {
+      "translations": {
+        "english": {
+          "name": "Battleship",
+          "description": "Land 25 shots with the ballista"
+        },
+        "schinese": {
+          "name": "战舰",
+          "description": "用弩炮命中 25 次。"
+        }
+      }
+    },
+    "one_human_on_board": {
+      "translations": {
+        "english": {
+          "name": "Single-handed sailor",
+          "description": "Set sail with just one human on board"
+        },
+        "schinese": {
+          "name": "独自掌舵",
+          "description": "船上只有一名人类时扬帆起航。"
+        }
+      }
+    },
+    "emergency_exit": {
+      "translations": {
+        "english": {
+          "name": "Emergency exit",
+          "description": "Use a rope to jump into the sea"
+        },
+        "schinese": {
+          "name": "紧急出口",
+          "description": "用绳索跳入海中。"
+        }
+      }
+    },
+    "comptoir_belerion": {
+      "translations": {
+        "english": {
+          "name": "Via Maris",
+          "description": "Build a travel post in Belerion"
+        },
+        "schinese": {
+          "name": "海上之路",
+          "description": "在贝勒里恩建造一座旅行站。"
+        }
+      }
+    },
+    "visit_all_islands": {
+      "translations": {
+        "english": {
+          "name": "Adventure is just bad planning",
+          "description": "Visit every island in Belerion"
+        },
+        "schinese": {
+          "name": "冒险只是计划不周",
+          "description": "造访贝勒里恩的每一座岛屿。"
+        }
+      }
+    },
+    "belerion_poi_completed": {
+      "translations": {
+        "english": {
+          "name": "Explorers of the seven seas",
+          "description": "Complete every point of interest in Belerion"
+        },
+        "schinese": {
+          "name": "七海探索者",
+          "description": "完成贝勒里恩的所有兴趣点。"
+        }
+      }
+    },
+    "belerion_setting_completed": {
+      "translations": {
+        "english": {
+          "name": "The Miraculous Catch of Fish",
+          "description": "Finish the Belerion scenario"
+        },
+        "schinese": {
+          "name": "神奇的渔获",
+          "description": "完成贝勒里恩的剧情。"
+        }
+      }
+    },
+    "codex_admiral": {
+      "translations": {
+        "english": {
+          "name": "Beyond the Sea",
+          "description": "Find the Admiral's treasure"
+        },
+        "schinese": {
+          "name": "大海彼端",
+          "description": "找到海军上将的宝藏。"
+        }
+      }
+    },
+    "tavern_upgrade_lvl1": {
+      "translations": {
+        "english": {
+          "name": "Anyone can cook",
+          "description": "Open a tavern"
+        },
+        "schinese": {
+          "name": "人人都能做大厨",
+          "description": "开办一家酒馆。"
+        }
+      }
+    },
+    "tavern_first_star": {
+      "translations": {
+        "english": {
+          "name": "Best plonk in town",
+          "description": "Earn your first Taverners' Guild star"
+        },
+        "schinese": {
+          "name": "全城最好的酒",
+          "description": "获得你的第一颗酒馆公会星级。"
+        }
+      }
+    },
+    "tavern_upgrade_lvl2": {
+      "translations": {
+        "english": {
+          "name": "Scaling up",
+          "description": "Move your tavern to Marheim"
+        },
+        "schinese": {
+          "name": "扩大规模",
+          "description": "将酒馆迁至马尔海姆。"
+        }
+      }
+    },
+    "tavern_upgrade_lvl3": {
+      "translations": {
+        "english": {
+          "name": "Reaching the top",
+          "description": "Move your tavern to Gosenberg"
+        },
+        "schinese": {
+          "name": "更上层楼",
+          "description": "将酒馆迁至戈森堡。"
+        }
+      }
+    },
+    "tavern_weapon_rack": {
+      "translations": {
+        "english": {
+          "name": "Retired heroes",
+          "description": "Fill a weapons rack with legendary weapons"
+        },
+        "schinese": {
+          "name": "退休英雄",
+          "description": "用传奇武器摆满一个武器架。"
+        }
+      }
+    },
+    "tavern_let_him_cook": {
+      "translations": {
+        "english": {
+          "name": "Let him cook",
+          "description": "Have a companion become a Master in their craft while working in the tavern"
+        },
+        "schinese": {
+          "name": "让他尽情发挥",
+          "description": "让一名同伴在酒馆工作时将其职业提升至大师等级。"
+        }
+      }
+    },
+    "tavern_krowns_retrieved": {
+      "translations": {
+        "english": {
+          "name": "Flourishing business",
+          "description": "Retrieve a total of 1000 krowns from your tavern"
+        },
+        "schinese": {
+          "name": "生意兴隆",
+          "description": "从酒馆累计取回 1000 克朗。"
+        }
+      }
+    },
+    "tavern_secret_food_recipes": {
+      "translations": {
+        "english": {
+          "name": "Food for thought",
+          "description": "Steal every secret cooking recipe"
+        },
+        "schinese": {
+          "name": "食物引人深思",
+          "description": "偷取所有秘密烹饪食谱。"
+        }
+      }
+    },
+    "tavern_secret_drink_recipes": {
+      "translations": {
+        "english": {
+          "name": "Trouble brewing",
+          "description": "Steal every secret brewing recipe"
+        },
+        "schinese": {
+          "name": "麻烦正在酝酿",
+          "description": "偷取所有秘密酿酒配方。"
+        }
+      }
+    },
+    "tavern_faction_rewards": {
+      "translations": {
+        "english": {
+          "name": "My friend's enemy is also my friend",
+          "description": "Obtain every faction's reward"
+        },
+        "schinese": {
+          "name": "朋友的敌人也是朋友",
+          "description": "获得每个派系的奖励。"
+        }
+      }
+    },
+    "tavern_first_rank": {
+      "translations": {
+        "english": {
+          "name": "Heaven's kitchen",
+          "description": "Top the taverns' ranking"
+        },
+        "schinese": {
+          "name": "天堂厨房",
+          "description": "登上酒馆排行榜榜首。"
+        }
+      }
+    },
+    "tavern_first_feast": {
+      "translations": {
+        "english": {
+          "name": "Haute Cuisine",
+          "description": "Serve your first feast"
+        },
+        "schinese": {
+          "name": "高级料理",
+          "description": "供应你的第一场盛宴。"
+        }
+      }
+    },
+    "tavern_brandon_help": {
+      "translations": {
+        "english": {
+          "name": "That rat skewer is raw !",
+          "description": "Get some help from Brandon Lesley"
+        },
+        "schinese": {
+          "name": "这老鼠串还是生的！",
+          "description": "得到布兰登·莱斯利的帮助。"
+        }
+      }
+    },
+    "tavern_first_max_aging": {
+      "translations": {
+        "english": {
+          "name": "Patience is a virtue",
+          "description": "Bring an alcohol to its maximum aging level"
+        },
+        "schinese": {
+          "name": "耐心是美德",
+          "description": "让一种酒达到最高陈酿等级。"
+        }
+      }
+    },
+    "tavern_animal_tools": {
+      "translations": {
+        "english": {
+          "name": "The pint glass menagerie",
+          "description": "Have a cat, a chicken and a pig in your tavern at the same time"
+        },
+        "schinese": {
+          "name": "酒杯动物园",
+          "description": "让酒馆里同时拥有一只猫、一只鸡和一头猪。"
+        }
+      }
+    },
+    "tavern_forcing_uprank": {
+      "translations": {
+        "english": {
+          "name": "The price of fame",
+          "description": "Surpass a tavern's ranking after taking prestige from it"
+        },
+        "schinese": {
+          "name": "成名的代价",
+          "description": "夺取一家酒馆的声望后，在排名中超过它。"
+        }
+      }
+    },
+    "tavern_honor_thieves": {
+      "translations": {
+        "english": {
+          "name": "There's honor among thieves",
+          "description": "Reach the tolerated security level while 3 or more thieves are assigned"
+        },
+        "schinese": {
+          "name": "盗亦有道",
+          "description": "分配至少 3 名盗贼工作时，仍达到可容忍的安全等级。"
+        }
+      }
+    },
+    "tavern_multiple_factions": {
+      "translations": {
+        "english": {
+          "name": "Pleasing everyone",
+          "description": "Have 10 different factions visit your tavern on the same day"
+        },
+        "schinese": {
+          "name": "皆大欢喜",
+          "description": "让 10 个不同派系在同一天光顾酒馆。"
+        }
+      }
+    },
+    "tavern_benefits_upscaled": {
+      "translations": {
+        "english": {
+          "name": "Eat, drink and be merry",
+          "description": "Make at least 100 coins in a rest with an Upscale tavern"
+        },
+        "schinese": {
+          "name": "吃喝尽欢",
+          "description": "经营高档酒馆，在一次休息中赚取至少 100 枚硬币。"
+        }
+      }
+    },
+    "tavern_benefits_rustic": {
+      "translations": {
+        "english": {
+          "name": "If it's expensive, it must be good",
+          "description": "Make at least 100 coins in a rest with a Working class tavern"
+        },
+        "schinese": {
+          "name": "贵的肯定好",
+          "description": "经营工人阶级酒馆，在一次休息中赚取至少 100 枚硬币。"
+        }
+      }
+    },
+    "tavern_rebranding": {
+      "translations": {
+        "english": {
+          "name": "Rebranding",
+          "description": "Upgrade your tavern's walls and floor"
+        },
+        "schinese": {
+          "name": "焕新品牌",
+          "description": "升级酒馆的墙面和地板。"
+        }
+      }
+    },
+    "blackmarket_e1_finished": {
+      "translations": {
+        "english": {
+          "name": "Men of Steel",
+          "description": "Triumph in the pit of Arthes"
+        },
+        "schinese": {
+          "name": "钢铁之躯",
+          "description": "在阿尔泰斯的地下斗场中获胜。"
+        }
+      }
+    },
+    "blackmarket_s1_finished": {
+      "translations": {
+        "english": {
+          "name": "Mithridatism",
+          "description": "Triumph in the pit of Tiltren"
+        },
+        "schinese": {
+          "name": "以毒攻毒",
+          "description": "在提尔特伦的地下斗场中获胜。"
+        }
+      }
+    },
+    "blackmarket_g1_finished": {
+      "translations": {
+        "english": {
+          "name": "Hot Ones",
+          "description": "Triumph in the pit of Vertruse"
+        },
+        "schinese": {
+          "name": "火辣挑战",
+          "description": "在维特鲁斯的地下斗场中获胜。"
+        }
+      }
+    },
+    "blackmarket_h1_finished": {
+      "translations": {
+        "english": {
+          "name": "Eye of the Cyclone",
+          "description": "Triumph in the pit of Ludern"
+        },
+        "schinese": {
+          "name": "风暴之眼",
+          "description": "在卢登的地下斗场中获胜。"
+        }
+      }
+    },
+    "blackmarket_g2_finished": {
+      "translations": {
+        "english": {
+          "name": "With your eyes closed!",
+          "description": "Triumph in the pit of Grinmeer"
+        },
+        "schinese": {
+          "name": "闭着眼都行！",
+          "description": "在格林米尔的地下斗场中获胜。"
+        }
+      }
+    },
+    "blackmarket_all_finished": {
+      "translations": {
+        "english": {
+          "name": "Champions of the Black market",
+          "description": "Triumph in all the pits"
+        },
+        "schinese": {
+          "name": "黑市冠军",
+          "description": "在所有地下斗场中获胜。"
+        }
+      }
+    },
+    "blackmarket_no_attack": {
+      "translations": {
+        "english": {
+          "name": "Not my fault!",
+          "description": "Win a pit fight in Arthes without hitting a single enemy"
+        },
+        "schinese": {
+          "name": "不是我的错！",
+          "description": "在阿尔泰斯的地下斗场中，不击中任何敌人并赢得战斗。"
+        }
+      }
+    },
+    "blackmarket_poison_neutral_kills": {
+      "translations": {
+        "english": {
+          "name": "Hostile environment",
+          "description": "Win a pit fight in Tiltren by letting neutral units deal all the final blows"
+        },
+        "schinese": {
+          "name": "险恶环境",
+          "description": "在提尔特伦的地下斗场中，让中立单位完成全部最后一击并赢得战斗。"
+        }
+      }
+    },
+    "blackmarket_push_distance": {
+      "translations": {
+        "english": {
+          "name": "Long-distance relationship",
+          "description": "In Vertuse's pit, push an enemy 10 meters away."
+        },
+        "schinese": {
+          "name": "异地关系",
+          "description": "在维特鲁斯的地下斗场中，将一名敌人推至 10 米外。"
+        }
+      }
+    },
+    "blackmarket_lightning_engaged": {
+      "translations": {
+        "english": {
+          "name": "The mercenary strikes back",
+          "description": "In Ludern's pit, 2 engaged units have been struck by lighting."
+        },
+        "schinese": {
+          "name": "佣兵反击战",
+          "description": "在卢登的地下斗场中，让 2 个交战中的单位被雷电击中。"
+        }
+      }
+    },
+    "blackmarket_unit_in_dark": {
+      "translations": {
+        "english": {
+          "name": "What do we do in the Shadows",
+          "description": "In Grinmeer's pit, leave at least one unit in the shadows for an entire fight."
+        },
+        "schinese": {
+          "name": "我们在阴影中做什么",
+          "description": "在格林米尔的地下斗场中，让至少一名单位整场战斗都留在阴影里。"
+        }
+      }
+    },
+    "ormance_arena_done": {
+      "translations": {
+        "english": {
+          "name": "Two for the show",
+          "description": "Triumph in the Attia arena"
+        },
+        "schinese": {
+          "name": "双人登台",
+          "description": "在阿蒂亚竞技场中获胜。"
+        }
+      }
+    },
+    "ormance_ruins_done": {
+      "translations": {
+        "english": {
+          "name": "As good as old",
+          "description": "Complete the Tomb of the Ancients in Ormance"
+        },
+        "schinese": {
+          "name": "古老如初",
+          "description": "探索完奥曼斯的古代陵墓。"
+        }
+      }
+    },
+    "ormance_champion_completed": {
+      "translations": {
+        "english": {
+          "name": "The coward’s way out",
+          "description": "Defeat the champion of Ormance"
+        },
+        "schinese": {
+          "name": "懦夫的退路",
+          "description": "击败奥曼斯的冠军。"
+        }
+      }
+    },
+    "ormance_hunt": {
+      "translations": {
+        "english": {
+          "name": "Master hunter",
+          "description": "Complete the Ormance hunt"
+        },
+        "schinese": {
+          "name": "狩猎大师",
+          "description": "完成奥曼斯的狩猎。"
+        }
+      }
+    },
+    "ormance_poi_completed": {
+      "translations": {
+        "english": {
+          "name": "My job here is done",
+          "description": "Complete every point of interest in Ormance"
+        },
+        "schinese": {
+          "name": "这里的工作完成了",
+          "description": "完成奥曼斯的所有兴趣点。"
+        }
+      }
+    },
+    "ormance_setting_completed": {
+      "translations": {
+        "english": {
+          "name": "The Fate of Ormance",
+          "description": "Finish the Ormance scenario"
+        },
+        "schinese": {
+          "name": "奥曼斯的命运",
+          "description": "完成奥曼斯的剧情。"
+        }
+      }
+    },
+    "comptoir_ormance": {
+      "translations": {
+        "english": {
+          "name": "Back in business",
+          "description": "Build a travel post in Ormance"
+        },
+        "schinese": {
+          "name": "重操旧业",
+          "description": "在奥曼斯建造一座旅行站。"
+        }
+      }
+    },
+    "codex_citizen": {
+      "translations": {
+        "english": {
+          "name": "Friendship is magic",
+          "description": "Find the Citizen's treasure"
+        },
+        "schinese": {
+          "name": "友谊就是魔法",
+          "description": "找到市民的宝藏。"
+        }
+      }
+    },
+    "arbalist_multiple_shot": {
+      "translations": {
+        "english": {
+          "name": "I had to do it to em",
+          "description": "Shoot 6 times in one turn with a crossbow"
+        },
+        "schinese": {
+          "name": "我非做不可",
+          "description": "在一个回合内用弩射击 6 次。"
+        }
+      }
+    },
+    "man_power_skill": {
+      "translations": {
+        "english": {
+          "name": "The more the merrier",
+          "description": "Use a man power skill"
+        },
+        "schinese": {
+          "name": "人多力量大",
+          "description": "使用一项人力技能。"
+        }
+      }
+    },
+    "level_15": {
+      "translations": {
+        "english": {
+          "name": "I’m too old for this",
+          "description": "Reach level 15"
+        },
+        "schinese": {
+          "name": "我老了，干不动了",
+          "description": "达到 15 级。"
+        }
+      }
+    },
+    "capture_smilodon": {
+      "translations": {
+        "english": {
+          "name": "Beware of the cat",
+          "description": "Capture a smilodon"
+        },
+        "schinese": {
+          "name": "当心大猫",
+          "description": "捕获一只剑齿虎。"
+        }
+      }
+    },
+    "recruit_skelmar": {
+      "translations": {
+        "english": {
+          "name": "I got friends on the other side",
+          "description": "Recruit a Skelmar"
+        },
+        "schinese": {
+          "name": "彼岸有我的朋友",
+          "description": "招募一名斯凯尔玛人。"
+        }
+      }
+    },
+    "win_siege": {
+      "translations": {
+        "english": {
+          "name": "Knock Knock",
+          "description": "Win a siege"
+        },
+        "schinese": {
+          "name": "咚咚敲门",
+          "description": "赢得一场攻城战。"
+        }
+      }
+    },
+    "free_zone": {
+      "translations": {
+        "english": {
+          "name": "Land of the free",
+          "description": "Free a barony"
+        },
+        "schinese": {
+          "name": "自由之地",
+          "description": "解放一个男爵领。"
+        }
+      }
+    },
+    "rebuilt_place": {
+      "translations": {
+        "english": {
+          "name": "Rising from the ashes",
+          "description": "Rebuild a point of interest in Ormance"
+        },
+        "schinese": {
+          "name": "浴火重生",
+          "description": "重建奥曼斯的一处兴趣点。"
+        }
+      }
+    },
+    "defeat_sven": {
+      "translations": {
+        "english": {
+          "name": "King of terrors",
+          "description": "Defeat the High-Jarl Sven"
+        },
+        "schinese": {
+          "name": "恐惧之王",
+          "description": "击败大领主斯文。"
+        }
+      }
+    },
+    "rebuilt_all_places": {
+      "translations": {
+        "english": {
+          "name": "Disciple of Saint Lenaid",
+          "description": "Rebuild all points of interest in Ormance"
+        },
+        "schinese": {
+          "name": "圣勒内德的门徒",
+          "description": "重建奥曼斯的所有兴趣点。"
+        }
+      }
+    },
+    "brigga_setting_completed": {
+      "translations": {
+        "english": {
+          "name": "The fate of Brigga",
+          "description": "Finish the Brigga scenario"
+        },
+        "schinese": {
+          "name": "布里加的命运",
+          "description": "完成布里加的剧情。"
+        }
+      }
+    },
+    "brigga_beast_killed_no_trap": {
+      "translations": {
+        "english": {
+          "name": "Perseverance is a quality",
+          "description": "Defeat The Beast without using a Master Trap"
+        },
+        "schinese": {
+          "name": "坚持是好品质",
+          "description": "不使用大师陷阱击败巨兽。"
+        }
+      }
+    },
+    "kill_fierce_no_bonus": {
+      "translations": {
+        "english": {
+          "name": "No need for assistance",
+          "description": "Defeat an animal group in a hunt without a trace bonus"
+        },
+        "schinese": {
+          "name": "无需协助",
+          "description": "在没有踪迹加成的情况下，于狩猎中击败一群动物。"
+        }
+      }
+    },
+    "kill_fierce_with_fierce": {
+      "translations": {
+        "english": {
+          "name": "There can be only one!",
+          "description": "Have an allied fierce animal kill an enemy fierce animal"
+        },
+        "schinese": {
+          "name": "只能留下一个！",
+          "description": "让一只友方凶猛野兽杀死一只敌方凶猛野兽。"
+        }
+      }
+    },
+    "heal_animal_influence": {
+      "translations": {
+        "english": {
+          "name": "Spirited away",
+          "description": "Prevent an animal from being transformed into a ghost pack monster after a rest"
+        },
+        "schinese": {
+          "name": "千与千寻",
+          "description": "阻止一只动物在休息后变成幽灵兽群的怪物。"
+        }
+      }
+    },
+    "kill_beast_twice": {
+      "translations": {
+        "english": {
+          "name": "The curse of Brigga",
+          "description": "Defeat the Beast a second time"
+        },
+        "schinese": {
+          "name": "布里加的诅咒",
+          "description": "第二次击败巨兽。"
+        }
+      }
+    },
+    "craft_all_beast_weapons": {
+      "translations": {
+        "english": {
+          "name": "Ossuary",
+          "description": "Craft all the Beast weapons"
+        },
+        "schinese": {
+          "name": "藏骨堂",
+          "description": "制作全部巨兽武器。"
+        }
+      }
+    },
+    "wake_up_in_mist": {
+      "translations": {
+        "english": {
+          "name": "This is fine",
+          "description": "Wake up in the middle of the Beast's mist after a rest"
+        },
+        "schinese": {
+          "name": "一切安好",
+          "description": "休息后在巨兽的迷雾中醒来。"
+        }
+      }
+    },
+    "fief_the_fairest_kingdom": {
+      "translations": {
+        "english": {
+          "name": "The Fairest Kingdom",
+          "description": "Reach the maximum fief level"
+        },
+        "schinese": {
+          "name": "最美的王国",
+          "description": "将封地提升至最高等级。"
+        }
+      }
+    },
+    "fief_diversity-rules": {
+      "translations": {
+        "english": {
+          "name": "Diversity Rules",
+          "description": "Have a fief with all building types"
+        },
+        "schinese": {
+          "name": "多元至上",
+          "description": "让封地拥有所有类型的建筑。"
+        }
+      }
+    },
+    "fief_loyal_subjects": {
+      "translations": {
+        "english": {
+          "name": "Loyal Subjects",
+          "description": "Start 50 mandates"
+        },
+        "schinese": {
+          "name": "忠诚的臣民",
+          "description": "启动 50 项委任。"
+        }
+      }
+    },
+    "fief_factory": {
+      "translations": {
+        "english": {
+          "name": "Factory",
+          "description": "Produce a total of 1,000 items"
+        },
+        "schinese": {
+          "name": "工厂",
+          "description": "累计生产 1000 件物品。"
+        }
+      }
+    },
+    "fief_paradise_on_earth": {
+      "translations": {
+        "english": {
+          "name": "Paradise on Earth",
+          "description": "Reach 90% in all needs"
+        },
+        "schinese": {
+          "name": "人间天堂",
+          "description": "所有需求都达到 90%。"
+        }
+      }
+    },
+    "fief_i_have_heard_you": {
+      "translations": {
+        "english": {
+          "name": "I have heard you!",
+          "description": "Complete 50 audiences"
+        },
+        "schinese": {
+          "name": "我听见你们的诉求了！",
+          "description": "完成 50 次觐见。"
+        }
+      }
+    },
+    "fief_you_got_a_friend_in_me": {
+      "translations": {
+        "english": {
+          "name": "You got a friend in me",
+          "description": "Reach maximum relation with a kingdom"
+        },
+        "schinese": {
+          "name": "我是你的好朋友",
+          "description": "与一个王国的关系达到最高等级。"
+        }
+      }
+    },
+    "fief_caligula": {
+      "translations": {
+        "english": {
+          "name": "Caligula",
+          "description": "Make a pony General"
+        },
+        "schinese": {
+          "name": "卡利古拉",
+          "description": "任命一匹矮种马为将军。"
+        }
+      }
+    },
+    "rigel_setting_completed": {
+      "translations": {
+        "english": {
+          "name": "The fate of Rigel",
+          "description": "Finish the Rigel Scenario"
+        },
+        "schinese": {
+          "name": "里格尔的命运",
+          "description": "完成里格尔的剧情。"
+        }
+      }
+    },
+    "rigel_arena_done": {
+      "translations": {
+        "english": {
+          "name": "Together stronger",
+          "description": "Triumph in the Rigel arena"
+        },
+        "schinese": {
+          "name": "齐心协力",
+          "description": "在里格尔竞技场中获胜。"
+        }
+      }
+    },
+    "rigel_ruins_done": {
+      "translations": {
+        "english": {
+          "name": "Belit's Knowledge",
+          "description": "Complete the Tomb of the Ancients in Rigel"
+        },
+        "schinese": {
+          "name": "贝莉特的知识",
+          "description": "探索完里格尔的古代陵墓。"
+        }
+      }
+    },
+    "rigel_champion_killed": {
+      "translations": {
+        "english": {
+          "name": "Plagueridden survivors",
+          "description": "Defeat the champion of Rigel"
+        },
+        "schinese": {
+          "name": "染疫幸存者",
+          "description": "击败里格尔的冠军。"
+        }
+      }
+    },
+    "rigel_hunt": {
+      "translations": {
+        "english": {
+          "name": "Lesser preys",
+          "description": "Complete the Rigel hunt"
+        },
+        "schinese": {
+          "name": "弱小的猎物",
+          "description": "完成里格尔的狩猎。"
+        }
+      }
+    },
+    "rigel_poi_completed": {
+      "translations": {
+        "english": {
+          "name": "Sons of the forest",
+          "description": "Complete every POI in Rigel"
+        },
+        "schinese": {
+          "name": "森林之子",
+          "description": "完成里格尔的所有兴趣点。"
+        }
+      }
+    },
+    "rigel_comptoir": {
+      "translations": {
+        "english": {
+          "name": "Insane deals",
+          "description": "Build a travel post in Rigel"
+        },
+        "schinese": {
+          "name": "疯狂交易",
+          "description": "在里格尔建造一座旅行站。"
+        }
+      }
+    },
+    "codex_hermit": {
+      "translations": {
+        "english": {
+          "name": "First in class",
+          "description": "Find the Hermit's treasure"
+        },
+        "schinese": {
+          "name": "名列前茅",
+          "description": "找到隐士的宝藏。"
+        }
+      }
+    },
+    "a2_cure_companions": {
+      "translations": {
+        "english": {
+          "name": "Stay with me",
+          "description": "Cure 5 companions before they become lycanthropes"
+        },
+        "schinese": {
+          "name": "别离开我",
+          "description": "在 5 名同伴变成狼人前治愈他们。"
+        }
+      }
+    },
+    "a2_infect_companion": {
+      "translations": {
+        "english": {
+          "name": "Mad scientist",
+          "description": "Give lycanthropy to a companion with an item"
+        },
+        "schinese": {
+          "name": "疯狂科学家",
+          "description": "使用物品让一名同伴感染狼人症。"
+        }
+      }
+    },
+    "rigel_ponies": {
+      "translations": {
+        "english": {
+          "name": "Shepherd",
+          "description": "Bring all ponies home safely"
+        },
+        "schinese": {
+          "name": "牧人",
+          "description": "将所有矮种马安全带回家。"
+        }
+      }
+    },
+    "rigel_cats": {
+      "translations": {
+        "english": {
+          "name": "Catperson",
+          "description": "Talk to all the cats"
+        },
+        "schinese": {
+          "name": "爱猫人士",
+          "description": "与所有猫交谈。"
+        }
+      }
+    },
+    "a2_frankenstein": {
+      "translations": {
+        "english": {
+          "name": "Frankenstein",
+          "description": "Apply all grafts to a lycan"
+        },
+        "schinese": {
+          "name": "弗兰肯斯坦",
+          "description": "给一名狼人施加全部移植物。"
+        }
+      }
+    },
+    "a2_impossible_love": {
+      "translations": {
+        "english": {
+          "name": "Impossible love",
+          "description": "Have a human companion in a relationship with a lycanthrope"
+        },
+        "schinese": {
+          "name": "不可能的爱情",
+          "description": "让一名人类同伴与一名狼人相恋。"
+        }
+      }
+    },
+    "rigel_all_researches": {
+      "translations": {
+        "english": {
+          "name": "For Science",
+          "description": "Complete all Rigel research"
+        },
+        "schinese": {
+          "name": "为了科学",
+          "description": "完成里格尔的全部研究。"
+        }
+      }
+    },
+    "lombelle_setting_completed": {
+      "translations": {
+        "english": {
+          "name": "The fate of Lombelle",
+          "description": "Finish the Lombelle Scenario"
+        },
+        "schinese": {
+          "name": "隆贝勒的命运",
+          "description": "完成隆贝勒的剧情。"
+        }
+      }
+    },
+    "lombelle_hunt": {
+      "translations": {
+        "english": {
+          "name": "City Hunter",
+          "description": "Complete the Lombelle hunt"
+        },
+        "schinese": {
+          "name": "城市猎人",
+          "description": "完成隆贝勒的狩猎。"
+        }
+      }
+    },
+    "comptoir_lombelle": {
+      "translations": {
+        "english": {
+          "name": "Risky investment",
+          "description": "Build a travel post in Lombelle"
+        },
+        "schinese": {
+          "name": "风险投资",
+          "description": "在隆贝勒建造一座旅行站。"
+        }
+      }
+    },
+    "lombelle_poi_completed": {
+      "translations": {
+        "english": {
+          "name": "Urban exploration",
+          "description": "Complete every POI in Lombelle"
+        },
+        "schinese": {
+          "name": "城市探索",
+          "description": "完成隆贝勒的所有兴趣点。"
+        }
+      }
+    },
+    "stone_death": {
+      "translations": {
+        "english": {
+          "name": "Who threw that stone?",
+          "description": "Kill an enemy using a thrown cobblestone"
+        },
+        "schinese": {
+          "name": "谁扔的石头？",
+          "description": "用投掷的鹅卵石杀死一名敌人。"
+        }
+      }
+    },
+    "chicken_catch": {
+      "translations": {
+        "english": {
+          "name": "Chicken Run",
+          "description": "Catch Ginger 3 times"
+        },
+        "schinese": {
+          "name": "小鸡快跑",
+          "description": "抓住金吉尔 3 次。"
+        }
+      }
+    },
+    "general_song": {
+      "translations": {
+        "english": {
+          "name": "General's voice",
+          "description": "Sing 5 times the Ode to the Good General"
+        },
+        "schinese": {
+          "name": "将军之声",
+          "description": "演唱 5 次《好将军颂歌》。"
+        }
+      }
+    },
+    "save_civillians": {
+      "translations": {
+        "english": {
+          "name": "White Knights",
+          "description": "Save at least 10 civilians in Lombelle's fights"
+        },
+        "schinese": {
+          "name": "白衣骑士",
+          "description": "在隆贝勒的战斗中救下至少 10 名平民。"
+        }
+      }
+    }
+  }
+}
