@@ -45,8 +45,6 @@ The public interface consists of `index-v2.json` and the BIN/JSON files it refer
 
 ## 📈 Library Statistics
 
-[Historical translation contributors](docs/contributors.md)
-
 ![Library growth and contributor ranking](docs/statistics/library-statistics.svg)
 
 ## 💬 Support
