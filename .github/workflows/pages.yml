@@ -3,16 +3,12 @@ name: Translation library website
 on:
   push:
     branches: [main]
-  workflow_run:
-    workflows: ["Translation library automation", "Translation finalizer watchdog"]
-    types: [completed]
   workflow_dispatch:
 
 permissions:
   contents: read
 
-# A publication can be triggered by both push and workflow_run.
-# Queue build and deploy together so neither trigger cancels a publication.
+# Queue build and deploy together so a new main push cannot cancel a deployment.
 concurrency:
   group: translation-library-pages
   cancel-in-progress: false
@@ -20,21 +16,11 @@ concurrency:
 
 jobs:
   build:
-    if: >-
-      ${{
-        (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
-        (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') ||
-        (
-          github.event_name == 'workflow_run' &&
-          github.event.workflow_run.conclusion == 'success' &&
-          github.event.workflow_run.head_repository.full_name == github.repository
-        )
-      }}
+    if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      # Catalog finalization can push after the triggering run's original SHA.
-      # Always build trusted, current main; never consume PR code or artifacts.
+      # Build current main in case another publication finished while this run queued.
       - name: Checkout current main
         uses: actions/checkout@v6
         with:

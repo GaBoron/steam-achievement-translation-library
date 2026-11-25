@@ -1,0 +1,1818 @@
+{
+  "version": 1,
+  "app_id": "67370",
+  "variant_id": "default",
+  "source_sha256": "67c5c160cd36bdf9419d697f55977af7fef469245b3cc5f41059398cc52342a2",
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "italian",
+    "japanese",
+    "russian",
+    "schinese",
+    "spanish"
+  ],
+  "achievements": {
+    "ACHIEVEMENT_0": {
+      "translations": {
+        "english": {
+          "name": "Cheque Please!",
+          "description": "Survive the hit"
+        },
+        "french": {
+          "name": "L'addition, s'il vous plaît !",
+          "description": "Survivez à l'attaque."
+        },
+        "german": {
+          "name": "Zahlen bitte!",
+          "description": "Überlebe den Überfall"
+        },
+        "italian": {
+          "name": "Il conto, prego!",
+          "description": "Sopravvivi all'attentato"
+        },
+        "japanese": {
+          "name": "チェック・プリーズ！",
+          "description": "襲撃をしのぐ"
+        },
+        "russian": {
+          "name": "Счет, пожалуйста!",
+          "description": "Пережить налет"
+        },
+        "schinese": {
+          "name": "买单！",
+          "description": "在暗杀中幸存"
+        },
+        "spanish": {
+          "name": "¡La cuenta, por favor!",
+          "description": "Sobrevive al ataque"
+        }
+      }
+    },
+    "ACHIEVEMENT_1": {
+      "translations": {
+        "english": {
+          "name": "I'm Just Getting Started",
+          "description": "Find and interrogate Swifty"
+        },
+        "french": {
+          "name": "Ce n'est qu'un début",
+          "description": "Trouvez et interrogez Swifty."
+        },
+        "german": {
+          "name": "Das ist erst der Anfang",
+          "description": "Finde und befrage Swifty"
+        },
+        "italian": {
+          "name": "Sto appena cominciando",
+          "description": "Trova e interroga Swifty"
+        },
+        "japanese": {
+          "name": "まだまだこれから",
+          "description": "スイフティを見つけて尋問する"
+        },
+        "russian": {
+          "name": "Все только начинается",
+          "description": "Найти и допросить Свифти"
+        },
+        "schinese": {
+          "name": "好戏才刚开始",
+          "description": "找到并审问斯威夫蒂"
+        },
+        "spanish": {
+          "name": "Esto es solo el principio",
+          "description": "Encuentra a Swifty e interrógalo"
+        }
+      }
+    },
+    "ACHIEVEMENT_2": {
+      "translations": {
+        "english": {
+          "name": "Escape the Brotherhood",
+          "description": "Survive the interrogation"
+        },
+        "french": {
+          "name": "Fuir la Confrérie",
+          "description": "Survivez à l'interrogatoire."
+        },
+        "german": {
+          "name": "Flucht vor der Bruderschaft",
+          "description": "Überlebe die Befragung"
+        },
+        "italian": {
+          "name": "Sfuggi alla Fratellanza",
+          "description": "Sopravvivi all'interrogatori"
+        },
+        "japanese": {
+          "name": "ブラザーフッドの脅威",
+          "description": "拷問を耐えしのぐ"
+        },
+        "russian": {
+          "name": "Побег от Братства",
+          "description": "Пережить допрос"
+        },
+        "schinese": {
+          "name": "逃出兄弟会",
+          "description": "在审讯中活下来"
+        },
+        "spanish": {
+          "name": "Escapa de la Hermandad",
+          "description": "Sobrevive al interrogatorio"
+        }
+      }
+    },
+    "ACHIEVEMENT_3": {
+      "translations": {
+        "english": {
+          "name": "Storm the Mansion",
+          "description": "Take back your mansion"
+        },
+        "french": {
+          "name": "Prise du manoir",
+          "description": "Reprenez votre manoir."
+        },
+        "german": {
+          "name": "Sturm auf das Anwesen",
+          "description": "Erobere das Anwesen zurück"
+        },
+        "italian": {
+          "name": "Assalta la casa",
+          "description": "Riconquista la tua casa"
+        },
+        "japanese": {
+          "name": "エスタカード邸襲撃",
+          "description": "屋敷を取り戻す"
+        },
+        "russian": {
+          "name": "Штурм особняка",
+          "description": "Отбить особняк"
+        },
+        "schinese": {
+          "name": "强攻宅邸",
+          "description": "夺回你的宅邸"
+        },
+        "spanish": {
+          "name": "Asalta la mansión",
+          "description": "Recupera tu mansión"
+        }
+      }
+    },
+    "ACHIEVEMENT_4": {
+      "translations": {
+        "english": {
+          "name": "One Flew Over...",
+          "description": "Return to reality...?"
+        },
+        "french": {
+          "name": "Vol au-dessus...",
+          "description": "Retour à la... réalité ?"
+        },
+        "german": {
+          "name": "Einer flog übers ...",
+          "description": "Zurück in die Realität?"
+        },
+        "italian": {
+          "name": "Qualcuno volò sul nido...",
+          "description": "Ritorno alla realtà...?"
+        },
+        "japanese": {
+          "name": "夢か幻か",
+          "description": "現実に戻る...？"
+        },
+        "russian": {
+          "name": "Беглец",
+          "description": "Возвращение к реальности?"
+        },
+        "schinese": {
+          "name": "飞越……",
+          "description": "回到现实……？"
+        },
+        "spanish": {
+          "name": "Alguien voló sobre...",
+          "description": "¿Vuelta a la realidad?"
+        }
+      }
+    },
+    "ACHIEVEMENT_5": {
+      "translations": {
+        "english": {
+          "name": "Sweet Revenge",
+          "description": "Avenge your Aunt Sarah"
+        },
+        "french": {
+          "name": "Douce vengeance",
+          "description": "Vengez votre tante Sarah."
+        },
+        "german": {
+          "name": "Süße Rache",
+          "description": "Räche deine Tante Sarah"
+        },
+        "italian": {
+          "name": "Dolce vendetta",
+          "description": "Vendica tua zia Sarah"
+        },
+        "japanese": {
+          "name": "復讐",
+          "description": "サラおばさんの仇を取る"
+        },
+        "russian": {
+          "name": "Сладкая месть",
+          "description": "Отомстить за тетушку Сару"
+        },
+        "schinese": {
+          "name": "甜蜜复仇",
+          "description": "为你的莎拉姨妈报仇"
+        },
+        "spanish": {
+          "name": "Dulce venganza",
+          "description": "Venga a tu tía Sarah"
+        }
+      }
+    },
+    "ACHIEVEMENT_6": {
+      "translations": {
+        "english": {
+          "name": "Date Night",
+          "description": "Protect Jenny"
+        },
+        "french": {
+          "name": "Le rendez-vous",
+          "description": "Protégez Jenny."
+        },
+        "german": {
+          "name": "Ausgeh-Abend",
+          "description": "Beschütze Jenny"
+        },
+        "italian": {
+          "name": "L'appuntamento",
+          "description": "Proteggi Jenny"
+        },
+        "japanese": {
+          "name": "デートの夜",
+          "description": "ジェニーを守る"
+        },
+        "russian": {
+          "name": "Ночь свидания",
+          "description": "Защитить Дженни"
+        },
+        "schinese": {
+          "name": "约会之夜",
+          "description": "保护珍妮"
+        },
+        "spanish": {
+          "name": "Secretos de familia",
+          "description": "Protege a Jenny"
+        }
+      }
+    },
+    "ACHIEVEMENT_7": {
+      "translations": {
+        "english": {
+          "name": "Allies in Strange Places",
+          "description": "Escape the asylum with help from the inside"
+        },
+        "french": {
+          "name": "Des alliés inattendus",
+          "description": "Évadez-vous de l'asile en vous faisant aider."
+        },
+        "german": {
+          "name": "Verbündete an seltsamen Orten",
+          "description": "Entkomme mit Hilfe von Innen aus der Anstalt"
+        },
+        "italian": {
+          "name": "Alleati inaspettati",
+          "description": "Fuggi dal manicomio sfruttando l'aiuto dall'interno"
+        },
+        "japanese": {
+          "name": "苦境の友",
+          "description": "協力者の力を借りて病院を脱出する"
+        },
+        "russian": {
+          "name": "Странные союзники",
+          "description": "Сбежать из клиники с посторонней помощью"
+        },
+        "schinese": {
+          "name": "意外的盟友",
+          "description": "在内部人员的帮助下逃出精神病院"
+        },
+        "spanish": {
+          "name": "Aliados inesperados",
+          "description": "Escapa del manicomio con ayuda de dentro"
+        }
+      }
+    },
+    "ACHIEVEMENT_8": {
+      "translations": {
+        "english": {
+          "name": "Back in the Saddle",
+          "description": "Rescue Jackie from the Iron Maiden"
+        },
+        "french": {
+          "name": "Se remettre en selle",
+          "description": "Sortez Jackie de la vierge de fer."
+        },
+        "german": {
+          "name": "Wieder im Sattel",
+          "description": "Rette Jackie aus der eisernen Jungfrau"
+        },
+        "italian": {
+          "name": "Di nuovo in sella",
+          "description": "Libera Jackie dalla Vergine di Norimberga"
+        },
+        "japanese": {
+          "name": "反撃ののろ",
+          "description": "鉄の処女'からジャッキーを救出する"
+        },
+        "russian": {
+          "name": "Снова в седле",
+          "description": "Спасти Джеки из ловушки"
+        },
+        "schinese": {
+          "name": "重出江湖",
+          "description": "从铁处女中救出杰基"
+        },
+        "spanish": {
+          "name": "De vuelta al ruedo",
+          "description": "Rescata a Jackie de la dama de hierro"
+        }
+      }
+    },
+    "ACHIEVEMENT_9": {
+      "translations": {
+        "english": {
+          "name": "Step into Hell...",
+          "description": "Defeat Victor"
+        },
+        "french": {
+          "name": "Un avant-goût de l'enfer...",
+          "description": "Éliminez Victor."
+        },
+        "german": {
+          "name": "Abstieg in die Hölle ...",
+          "description": "Besiege Victor"
+        },
+        "italian": {
+          "name": "Due passi all'inferno",
+          "description": "Sconfiggi Victor"
+        },
+        "japanese": {
+          "name": "地獄へようこそ",
+          "description": "ヴィクターを倒す"
+        },
+        "russian": {
+          "name": "Шаг в преисподнюю",
+          "description": "Одолеть Виктора."
+        },
+        "schinese": {
+          "name": "踏入地狱……",
+          "description": "击败维克托"
+        },
+        "spanish": {
+          "name": "Entra en el Infierno...",
+          "description": "Derrota a Victor"
+        }
+      }
+    },
+    "ACHIEVEMENT_10": {
+      "translations": {
+        "english": {
+          "name": "Free the Mind",
+          "description": "Finish the game on any difficulty"
+        },
+        "french": {
+          "name": "Libre d'esprit",
+          "description": "Terminez le jeu dans n'importe quel niveau de difficulté."
+        },
+        "german": {
+          "name": "Bewusstseinserweiterung",
+          "description": "Beende das Spiel auf einem beliebigen Schwierigkeitsgrad"
+        },
+        "italian": {
+          "name": "Libera la mente",
+          "description": "Finisci il gioco in qualsiasi difficoltà"
+        },
+        "japanese": {
+          "name": "魂の救済",
+          "description": "いずれかの難易度でゲームをクリアする"
+        },
+        "russian": {
+          "name": "Свобода разума",
+          "description": "Пройти игру на любом уровне сложности"
+        },
+        "schinese": {
+          "name": "解放心灵",
+          "description": "以任意难度通关游戏"
+        },
+        "spanish": {
+          "name": "Libera tu mente",
+          "description": "Termina el juego en cualquier dificultad."
+        }
+      }
+    },
+    "ACHIEVEMENT_11": {
+      "translations": {
+        "english": {
+          "name": "Don of Darkness",
+          "description": "Finish the game on Don difficulty"
+        },
+        "french": {
+          "name": "Maître du Darkness",
+          "description": "Terminez le jeu en difficulté Parrain."
+        },
+        "german": {
+          "name": "Der Härteste",
+          "description": "Meistere das Spiel mit dem Schwierigkeitsgrad 'Don'"
+        },
+        "italian": {
+          "name": "Don della Tenebra",
+          "description": "Finisci il gioco in difficoltà Don"
+        },
+        "japanese": {
+          "name": "ダークネスの支配者",
+          "description": "難易度HARDでゲームをクリアする"
+        },
+        "russian": {
+          "name": "Темный дон",
+          "description": "Пройти игру на уровне Темный дон"
+        },
+        "schinese": {
+          "name": "黑暗教父",
+          "description": "以教父难度通关游戏"
+        },
+        "spanish": {
+          "name": "El don de la Oscuridad",
+          "description": "Termina el juego en nivel de dificultad Don."
+        }
+      }
+    },
+    "ACHIEVEMENT_12": {
+      "translations": {
+        "english": {
+          "name": "At Home in the Dark",
+          "description": "Finish all chapters in New Game+ on any difficulty"
+        },
+        "french": {
+          "name": "L'ombre est mon foyer",
+          "description": "Terminez tous les chapitres en Nouvelle Partie + dans n'importe quel mode de difficulté."
+        },
+        "german": {
+          "name": "Zu Hause in der Finsternis",
+          "description": "Beende alle Kapitel in einem neuen Spiel+ auf einem beliebigen Schwierigkeitsgrad"
+        },
+        "italian": {
+          "name": "Di casa nell'oscurità",
+          "description": "Finisci tutti i capitoli di una Nuova partita+ in qualsiasi difficoltà"
+        },
+        "japanese": {
+          "name": "アットホーム・イン・ザ・ダーク",
+          "description": "「New Game+」の全チャプターをいずれかの難易度でクリアする"
+        },
+        "russian": {
+          "name": "Во Тьме как дома",
+          "description": "Пройти игру в режиме 'Новая игра+' на любой сложности"
+        },
+        "schinese": {
+          "name": "暗中老手",
+          "description": "在任意难度下以新游戏+完成所有章节"
+        },
+        "spanish": {
+          "name": "En la oscuridad, como en casa",
+          "description": "Completa todos los capítulos de una Nueva partida+ en cualquier nivel de dificultad."
+        }
+      }
+    },
+    "ACHIEVEMENT_13": {
+      "translations": {
+        "english": {
+          "name": "One Man Army",
+          "description": "Kill 25 enemies while being dragged from the restaurant, without dying or restarting checkpoint"
+        },
+        "french": {
+          "name": "Une armée à moi seul",
+          "description": "Tuez 25 ennemis dans le restaurant, sans mourir ni reprendre au point de contrôle."
+        },
+        "german": {
+          "name": "Ein-Mann-Armee",
+          "description": "Töte 25 Gegner, während du aus dem Restaurant gezerrt wirst, ohne zu sterben oder neu zu starten"
+        },
+        "italian": {
+          "name": "Esercito di un sol uomo",
+          "description": "Uccidi 25 nemici mentre ti trascinano via dal ristorante, senza morire o ripartire da un checkpoint"
+        },
+        "japanese": {
+          "name": "一騎当千",
+          "description": "レストランで引きずられている間に一度も死亡、もしくはチェックポイントからやり直すことなく、敵を25人倒す"
+        },
+        "russian": {
+          "name": "Один в поле воин",
+          "description": "Убить 25 врагов, пока Джеки вытаскивают из ресторана. При этом при этом сам Джеки не должен умереть, а начинать игру заново у контрольной точки нельзя"
+        },
+        "schinese": {
+          "name": "一夫当关",
+          "description": "在被拖离餐馆的过程中击杀25名敌人，期间不得死亡或重启检查点"
+        },
+        "spanish": {
+          "name": "Ejército de un solo hombre",
+          "description": "Mata a 25 enemigos mientras te sacan del restaurante sin morir ni empezar desde un punto de control."
+        }
+      }
+    },
+    "ACHIEVEMENT_14": {
+      "translations": {
+        "english": {
+          "name": "Decisions, Decisions",
+          "description": "Refuse to cooperate with Victor in the Interrogation"
+        },
+        "french": {
+          "name": "Un choix difficile",
+          "description": "Refusez de coopérer avec Victor durant l'interrogatoire."
+        },
+        "german": {
+          "name": "Entscheidungen, Entscheidungen",
+          "description": "Weigere dich, bei der Befragung mit Victor zu kooperieren"
+        },
+        "italian": {
+          "name": "Decisioni, decisioni",
+          "description": "Rifiuta di cooperare con Victor durante l'interrogatorio"
+        },
+        "japanese": {
+          "name": "究極の選択",
+          "description": "拷問中にヴィクターへの協力を拒否する"
+        },
+        "russian": {
+          "name": "Решающий выбор",
+          "description": "На допросе отказаться помогать Виктору."
+        },
+        "schinese": {
+          "name": "抉择，抉择",
+          "description": "在审讯中拒绝与维克多合作"
+        },
+        "spanish": {
+          "name": "Decisiones, decisiones",
+          "description": "No cooperes con Victor durante el interrogatorio"
+        }
+      }
+    },
+    "ACHIEVEMENT_15": {
+      "translations": {
+        "english": {
+          "name": "The Bird is the Word",
+          "description": "Avoid being run over in the parking garage"
+        },
+        "french": {
+          "name": "Le parking de la mort",
+          "description": "Évitez de vous faire écraser dans le parking."
+        },
+        "german": {
+          "name": "Verdammt harter Kerl",
+          "description": "Vermeide, im Parkhaus überfahren zu werden"
+        },
+        "italian": {
+          "name": "Uccel di bosco",
+          "description": "Evita di farti investire nel garage"
+        },
+        "japanese": {
+          "name": "言葉より雄弁なジェスチャー",
+          "description": "駐車場で轢かれないようにする"
+        },
+        "russian": {
+          "name": "Рок-н-ролл",
+          "description": "Не попасть под колеса в гараже."
+        },
+        "schinese": {
+          "name": "鸟儿至上",
+          "description": "在停车场避开被车辆碾压"
+        },
+        "spanish": {
+          "name": "Las imprudencias se pagan",
+          "description": "Evita que te atropellen en el garaje"
+        }
+      }
+    },
+    "ACHIEVEMENT_16": {
+      "translations": {
+        "english": {
+          "name": "Carnie Kid",
+          "description": "Earn a score of over 1000 in each of the carnival games"
+        },
+        "french": {
+          "name": "Roi de la fête foraine",
+          "description": "Obtenez 1000 points ou plus à tous les jeux de la fête foraine."
+        },
+        "german": {
+          "name": "Schausteller-Kind",
+          "description": "Erlange bei jedem der Jahrmarktspiele mehr als 1000 Punkte"
+        },
+        "italian": {
+          "name": "Bambino felice",
+          "description": "Ottieni un punteggio superiore a 1000 in ciascuna attrazione del luna park"
+        },
+        "japanese": {
+          "name": "お祭り小僧",
+          "description": "遊園地の全てのゲームで1000ポイントより高い得点を獲得する"
+        },
+        "russian": {
+          "name": "Счастливчик",
+          "description": "Заработать более 1000 очков в каждой игре на карнавале."
+        },
+        "schinese": {
+          "name": "游园小将",
+          "description": "在每个嘉年华小游戏中的得分均超过1000"
+        },
+        "spanish": {
+          "name": "Perrito piloto",
+          "description": "Obtén más de 1.000 puntos en cada uno de los juegos de la feria"
+        }
+      }
+    },
+    "ACHIEVEMENT_17": {
+      "translations": {
+        "english": {
+          "name": "Impish Delight",
+          "description": "Kill 15 enemies while playing as the Darkling"
+        },
+        "french": {
+          "name": "Délice espiègle",
+          "description": "Tuez 15 ennemis en incarnant le Darkling."
+        },
+        "german": {
+          "name": "Teuflisches Vergnügen",
+          "description": "Töte 15 Gegner, während du als Finsterling spielst"
+        },
+        "italian": {
+          "name": "Delizia diabolica",
+          "description": "Uccidi 15 nemici mentre impersoni il Darkling"
+        },
+        "japanese": {
+          "name": "小悪魔の喜び",
+          "description": "ダークリング操作時に敵を15体倒す"
+        },
+        "russian": {
+          "name": "Злые шутки",
+          "description": "Убить 20 врагов, управляя бесом."
+        },
+        "schinese": {
+          "name": "小妖之乐",
+          "description": "操作黑暗小妖击杀15名敌人"
+        },
+        "spanish": {
+          "name": "Delicia demoníaca",
+          "description": "Mata a 15 enemigos mientras juegas como el Oscuro"
+        }
+      }
+    },
+    "ACHIEVEMENT_18": {
+      "translations": {
+        "english": {
+          "name": "Executioner",
+          "description": "Kill 50 enemies with Executions while playing as Jackie"
+        },
+        "french": {
+          "name": "Exécuteur",
+          "description": "Exécutez 50 ennemis en incarnant Jackie."
+        },
+        "german": {
+          "name": "Henker",
+          "description": "Töte 50 Gegner mit Hinrichtungen, während du als Jackie spielst"
+        },
+        "italian": {
+          "name": "Boia",
+          "description": "Uccidi 50 nemici con delle Esecuzioni impersonando Jackie"
+        },
+        "japanese": {
+          "name": "処刑人",
+          "description": "処刑で敵を50人倒す（ジャッキー使用時）"
+        },
+        "russian": {
+          "name": "Палач",
+          "description": "Казнить 50 врагов, играя за Джеки."
+        },
+        "schinese": {
+          "name": "处刑人",
+          "description": "操作杰基以处决方式击杀50名敌人"
+        },
+        "spanish": {
+          "name": "Ejecutor",
+          "description": "Mata a 50 enemigos con ejecuciones mientras juegas como Jackie"
+        }
+      }
+    },
+    "ACHIEVEMENT_19": {
+      "translations": {
+        "english": {
+          "name": "The Swarm King",
+          "description": "Kill 50 enemies who are swarmed while playing as Jackie"
+        },
+        "french": {
+          "name": "Roi de la nuée",
+          "description": "Tuez 50 ennemis touchés par la Nuée en incarnant Jackie."
+        },
+        "german": {
+          "name": "Der Schwarm-König",
+          "description": "Töte 50 Gegner im Schwarm, während du als Jackie spielst"
+        },
+        "italian": {
+          "name": "Re dello Sciame",
+          "description": "Uccidi 50 nemici attaccati dallo Sciame impersonando Jackie"
+        },
+        "japanese": {
+          "name": "虫の王",
+          "description": "スウォームに取りつかれた敵を50人倒す（ジャッキー使用時）"
+        },
+        "russian": {
+          "name": "Убийственный рой",
+          "description": "При игре за Джеки убить 50 врагов, атакованных роем."
+        },
+        "schinese": {
+          "name": "虫群之王",
+          "description": "操作杰基击杀50名被虫群缠身的敌人"
+        },
+        "spanish": {
+          "name": "El rey del enjambre",
+          "description": "Mata a 50 enemigos atosigados por un enjambre mientras juegas como Jackie"
+        }
+      }
+    },
+    "ACHIEVEMENT_20": {
+      "translations": {
+        "english": {
+          "name": "The Old Gibber",
+          "description": "Kill 100 enemies with Gun Channeling while playing as Jackie"
+        },
+        "french": {
+          "name": "Le vieux blagueur",
+          "description": "Tuez 100 ennemis avec la Canalisation des Armes en incarnant Jackie."
+        },
+        "german": {
+          "name": "Die alte Leier",
+          "description": "Töte 100 Gegner mit Waffenkanalisierung, während du als Jackie spielst"
+        },
+        "italian": {
+          "name": "La vecchia sputafuoco",
+          "description": "Uccidi 100 nemici con i Proiettili di Tenebra impersonando Jackie"
+        },
+        "japanese": {
+          "name": "手当たり次第",
+          "description": "ガン・チャネリングを使用して敵を100人倒す（ジャッキー使用時）"
+        },
+        "russian": {
+          "name": "Старый ковбой",
+          "description": "При игре за Джеки убить 50 врагов умением 'Оружие Тьмы'."
+        },
+        "schinese": {
+          "name": "老牌碎尸匠",
+          "description": "游玩杰基时，用枪械灌注击杀100名敌人"
+        },
+        "spanish": {
+          "name": "Las carga el Diablo",
+          "description": "Mata a 100 enemigos con la Canalización por armas de fuego mientras juegas como Jackie"
+        }
+      }
+    },
+    "ACHIEVEMENT_21": {
+      "translations": {
+        "english": {
+          "name": "Suck It Up",
+          "description": "Kill 50 enemies with Black Hole while playing as Jackie"
+        },
+        "french": {
+          "name": "Aspiration",
+          "description": "Tuez 50 ennemis avec un Trou noir en incarnant Jackie."
+        },
+        "german": {
+          "name": "Verreck dran",
+          "description": "Töte 50 Gegner mit Schwarzen Löchern, während du als Jackie spielst"
+        },
+        "italian": {
+          "name": "Risucchio cosmico",
+          "description": "Uccidi 50 nemici con il Buco nero impersonando Jackie"
+        },
+        "japanese": {
+          "name": "超吸引力",
+          "description": "ブラックホールを使用して敵を50人倒す（ジャッキー使用時）"
+        },
+        "russian": {
+          "name": "Засос",
+          "description": "Играя за Джеки, убить 50 врагов черной дырой."
+        },
+        "schinese": {
+          "name": "吸个精光",
+          "description": "游玩杰基时，用黑洞击杀50名敌人"
+        },
+        "spanish": {
+          "name": "Trágatelo",
+          "description": "Mata a 50 enemigos con agujeros negros mientras juegas como Jackie"
+        }
+      }
+    },
+    "ACHIEVEMENT_22": {
+      "translations": {
+        "english": {
+          "name": "Cut and Run",
+          "description": "Kill 50 enemies with the Demon Arm Slash attack"
+        },
+        "french": {
+          "name": "Découper et courir",
+          "description": "Tuez 50 ennemis avec la Balafre du Démon."
+        },
+        "german": {
+          "name": "Schneiden und weg",
+          "description": "Töte 50 Gegner mit dem Dämonenarm-Hieb"
+        },
+        "italian": {
+          "name": "Taglia e fuggi",
+          "description": "Uccidi 50 nemici con una Sferzata del Braccio Demoniaco"
+        },
+        "japanese": {
+          "name": "カマイタチ",
+          "description": "デーモンアーム・スラッシュで敵を50人倒す"
+        },
+        "russian": {
+          "name": "Чистый разрез",
+          "description": "Убить 50 врагов ударом демонической руки."
+        },
+        "schinese": {
+          "name": "快刀斩乱麻",
+          "description": "用恶魔之臂劈砍攻击击杀50名敌人"
+        },
+        "spanish": {
+          "name": "Cortar y huir",
+          "description": "Mata a 50 enemigos con tajos de los brazos demoníacos"
+        }
+      }
+    },
+    "ACHIEVEMENT_23": {
+      "translations": {
+        "english": {
+          "name": "Ready for the Big Leagues",
+          "description": "Kill 50 enemies with thrown objects"
+        },
+        "french": {
+          "name": "Champion du lancer",
+          "description": "Tuez 50 ennemis avec des projectiles."
+        },
+        "german": {
+          "name": "Bereit für die erste Liga",
+          "description": "Töte 50 Gegner mit Wurfobjekten"
+        },
+        "italian": {
+          "name": "Campionato di baseball",
+          "description": "Uccidi 50 nemici con oggetti scagliati"
+        },
+        "japanese": {
+          "name": "ナイスなピッチング",
+          "description": "物を投げて敵を50人倒す"
+        },
+        "russian": {
+          "name": "Почти бейсбол",
+          "description": "Убить 50 врагов брошенными предметами."
+        },
+        "schinese": {
+          "name": "准备进军大联盟",
+          "description": "用投掷物击杀50名敌人"
+        },
+        "spanish": {
+          "name": "Listo para la primera división",
+          "description": "Mata a 50 enemigos lanzándoles objetos"
+        }
+      }
+    },
+    "ACHIEVEMENT_24": {
+      "translations": {
+        "english": {
+          "name": "Dark Akimbo",
+          "description": "Kill 100 enemies while dual wielding 2 different guns while playing as Jackie"
+        },
+        "french": {
+          "name": "Akimbo obscur",
+          "description": "Tuez 100 ennemis avec le double maniement et deux armes différentes en incarnant Jackie."
+        },
+        "german": {
+          "name": "Dunkles Akimbo",
+          "description": "Töte 100 Gegner, während du 2 verschiedene Waffen zugleich als Jackie benutzt"
+        },
+        "italian": {
+          "name": "Mani occupate",
+          "description": "Uccidi 100 nemici impersonando Jackie e impugnando due armi diverse"
+        },
+        "japanese": {
+          "name": "二丁拳銃",
+          "description": "２種類の武器を使ったデュアル・ウィールドで100人の敵を倒す（ジャッキー使用時）"
+        },
+        "russian": {
+          "name": "Фокусник",
+          "description": "При игре за Джеки убить 50 врагов, стреляя с двух рук из разных видов оружия."
+        },
+        "schinese": {
+          "name": "黑暗双枪",
+          "description": "游玩杰基时，双持两把不同的枪击杀100名敌人"
+        },
+        "spanish": {
+          "name": "Doble diversión",
+          "description": "Mata a 100 enemigos con dos armas mientras juegas como Jackie"
+        }
+      }
+    },
+    "ACHIEVEMENT_25": {
+      "translations": {
+        "english": {
+          "name": "That's Why I'm the Boss",
+          "description": "Impress Dolfo in two different ways"
+        },
+        "french": {
+          "name": "C'est moi le boss",
+          "description": "Impressionnez Dolfo de deux façons différentes."
+        },
+        "german": {
+          "name": "Deswegen bin ich der Boss",
+          "description": "Beeindrucke Dolfo auf zwei verschiedene Arten"
+        },
+        "italian": {
+          "name": "È per questo che io sono il Capo",
+          "description": "Impressiona Dolfo in due modi diversi"
+        },
+        "japanese": {
+          "name": "俺はボスだからな",
+          "description": "ドルフォを別の方法で２回感心させる"
+        },
+        "russian": {
+          "name": "Максимальное разнообразие",
+          "description": "Произвести впечатление на Дольфо - двумя разными способами"
+        },
+        "schinese": {
+          "name": "所以说我是老大",
+          "description": "以两种不同的方式给多尔福留下深刻印象"
+        },
+        "spanish": {
+          "name": "Por eso yo soy el jefe",
+          "description": "Impresiona a Dolfo de dos maneras distintas."
+        }
+      }
+    },
+    "ACHIEVEMENT_26": {
+      "translations": {
+        "english": {
+          "name": "Karma's a Bitch",
+          "description": "Kill a shielded enemy with his own shield"
+        },
+        "french": {
+          "name": "Saleté de karma",
+          "description": "Tuez un ennemi avec son propre bouclier."
+        },
+        "german": {
+          "name": "Karma ist ein Arschloch",
+          "description": "Töte einen Gegner mit seinem eigenen Schild"
+        },
+        "italian": {
+          "name": "Chi di scudo ferisce",
+          "description": "Uccidi un cultista munito di scudo usando il suo stesso scudo"
+        },
+        "japanese": {
+          "name": "因果応報",
+          "description": "盾を持った敵を、その盾で倒す"
+        },
+        "russian": {
+          "name": "Сука-судьба",
+          "description": "Убить защищенного члена Братства его собственным щитом."
+        },
+        "schinese": {
+          "name": "现世报",
+          "description": "用敌人自己的盾牌杀死一名持盾敌人"
+        },
+        "spanish": {
+          "name": "El karma es una putada",
+          "description": "Mata a un enemigo escudado con su propio escudo"
+        }
+      }
+    },
+    "ACHIEVEMENT_27": {
+      "translations": {
+        "english": {
+          "name": "2 Guys 1 Pole",
+          "description": "Kill 2 enemies with one javelin"
+        },
+        "french": {
+          "name": "2 gars 1 lance",
+          "description": "Tuez 2 ennemis avec une lance."
+        },
+        "german": {
+          "name": "2 Mann am Stock",
+          "description": "Töte 2 Gegner mit demselben Speer"
+        },
+        "italian": {
+          "name": "2 picciotti con una fava",
+          "description": "Uccidi 2 nemici con un solo giavellotto"
+        },
+        "japanese": {
+          "name": "一石二鳥",
+          "description": "槍状の物で敵を一度に２人倒す"
+        },
+        "russian": {
+          "name": "Пронзающий кол",
+          "description": "Убить двух врагов одним копьем."
+        },
+        "schinese": {
+          "name": "一杆双雕",
+          "description": "用一根标枪杀死2名敌人"
+        },
+        "spanish": {
+          "name": "2 hombres, 1 pértiga",
+          "description": "Mata a 2 enemigos con una jabalina"
+        }
+      }
+    },
+    "ACHIEVEMENT_28": {
+      "translations": {
+        "english": {
+          "name": "Versatile Killer",
+          "description": "Kill enemies in 5 different ways within 30 seconds"
+        },
+        "french": {
+          "name": "Tueur versatile",
+          "description": "Tuez des ennemis de 5 manières différentes en moins de 30 secondes."
+        },
+        "german": {
+          "name": "Vielseitiger Killer",
+          "description": "Töte Gegner auf 5 verschiedene Weisen innerhalb von 30 Sekunden"
+        },
+        "italian": {
+          "name": "Assassino versatile",
+          "description": "Uccidi 5 nemici in 5 modi diversi entro 30 secondi"
+        },
+        "japanese": {
+          "name": "オールラウンドキラー",
+          "description": "30秒以内に５種類の方法で敵を倒す"
+        },
+        "russian": {
+          "name": "На все руки мастер",
+          "description": "Использовать пять способов убийства в течение 30 секунд."
+        },
+        "schinese": {
+          "name": "全能杀手",
+          "description": "在30秒内以5种不同的方式击杀敌人"
+        },
+        "spanish": {
+          "name": "Asesino versátil",
+          "description": "Mata enemigos de 5 formas distintas en 30 segundos."
+        }
+      }
+    },
+    "ACHIEVEMENT_29": {
+      "translations": {
+        "english": {
+          "name": "Skeet Shoot",
+          "description": "Throw an enemy into the air and kill him with gunfire before he lands"
+        },
+        "french": {
+          "name": "Ball-trap",
+          "description": "Jetez un ennemi dans les airs et tuez-le avant qu'il ne touche le sol."
+        },
+        "german": {
+          "name": "Tontaubenschießen",
+          "description": "Wirf einen Gegner in die Luft und töte ihn durch Beschuss, bevor er landet"
+        },
+        "italian": {
+          "name": "Tiro al piattello",
+          "description": "Lancia in aria un nemico e uccidilo sparando prima che tocchi terra"
+        },
+        "japanese": {
+          "name": "アクロバット射撃",
+          "description": "敵の体を宙に投げ、地面に落ちるまでに銃で倒す"
+        },
+        "russian": {
+          "name": "Стрельба по тарелочкам",
+          "description": "Подбросить врага в воздух и застрелить его, пока он не упал на землю"
+        },
+        "schinese": {
+          "name": "飞靶射击",
+          "description": "把一名敌人抛向空中，在他落地前用枪火将其击杀"
+        },
+        "spanish": {
+          "name": "Tiro al plato",
+          "description": "Lanza a un enemigo por los aires y mátalo con disparos antes de que aterrice"
+        }
+      }
+    },
+    "ACHIEVEMENT_30": {
+      "translations": {
+        "english": {
+          "name": "Jackie's Got Talent",
+          "description": "Purchase a Talent in the single player campaign"
+        },
+        "french": {
+          "name": "Quel talent !",
+          "description": "Achetez 1 compétence en mode Campagne solo."
+        },
+        "german": {
+          "name": "Jackie hat Talent",
+          "description": "Kauf ein Talent in der Einzelspieler-Kampagne"
+        },
+        "italian": {
+          "name": "Jackie ha Talento",
+          "description": "Acquista un Talento nella campagna a giocatore singolo"
+        },
+        "japanese": {
+          "name": "凡才ジャッキー",
+          "description": "ストーリーモードでスキルを獲得する"
+        },
+        "russian": {
+          "name": "Талантливый мистер Эстакадо",
+          "description": "Приобрести умение в одиночной кампании."
+        },
+        "schinese": {
+          "name": "杰基有天赋",
+          "description": "在单人战役中购买一项天赋"
+        },
+        "spanish": {
+          "name": "Jackie tiene talento",
+          "description": "Adquiere un talento en la campaña individual"
+        }
+      }
+    },
+    "ACHIEVEMENT_31": {
+      "translations": {
+        "english": {
+          "name": "This Kid's Got Potential",
+          "description": "Max out 1 of Jackie's Talent Trees"
+        },
+        "french": {
+          "name": "Ce gamin a du potentiel",
+          "description": "Maximisez 1 des arbres de compétences de Jackie."
+        },
+        "german": {
+          "name": "Der Junge hat Potenzial",
+          "description": "Komplettiere 1 von Jackies Talentbäumen"
+        },
+        "italian": {
+          "name": "Il ragazzo ha potenziale",
+          "description": "Completa uno degli alberi dei Talenti di Jackie"
+        },
+        "japanese": {
+          "name": "秀才ジャッキー",
+          "description": "ジャッキーのスキルツリーのうち１つを極める"
+        },
+        "russian": {
+          "name": "Толковый паренек",
+          "description": "Заполнить до конца 1 ветвь умений Джеки"
+        },
+        "schinese": {
+          "name": "这小子有潜力",
+          "description": "将杰基的1棵天赋树升至满级"
+        },
+        "spanish": {
+          "name": "El chico tiene potencial",
+          "description": "Completa uno de los árboles de talentos de Jackie"
+        }
+      }
+    },
+    "ACHIEVEMENT_32": {
+      "translations": {
+        "english": {
+          "name": "Truly Talented",
+          "description": "Max out 3 of Jackie's Talent Trees"
+        },
+        "french": {
+          "name": "Petit prodige",
+          "description": "Maximisez 3 des arbres de compétences de Jackie."
+        },
+        "german": {
+          "name": "Naturtalent",
+          "description": "Komplettiere 3 von Jackies Talentbäumen"
+        },
+        "italian": {
+          "name": "Davvero pieno di talento",
+          "description": "Completa 3 alberi dei Talenti di Jackie"
+        },
+        "japanese": {
+          "name": "天才ジャッキー",
+          "description": "ジャッキーのスキルツリーのうち３つを極める"
+        },
+        "russian": {
+          "name": "Умница",
+          "description": "Заполнить до конца 3 ветви умений Джеки"
+        },
+        "schinese": {
+          "name": "真有天赋",
+          "description": "将杰基的3棵天赋树升至满级"
+        },
+        "spanish": {
+          "name": "Muy talentoso",
+          "description": "Completa tres de los árboles de talentos de Jackie"
+        }
+      }
+    },
+    "ACHIEVEMENT_33": {
+      "translations": {
+        "english": {
+          "name": "Talent Show",
+          "description": "Max out all of Jackie's Talent Trees"
+        },
+        "french": {
+          "name": "Du talent à revendre",
+          "description": "Maximisez tous les arbres de compétences de Jackie."
+        },
+        "german": {
+          "name": "Talentshow",
+          "description": "Komplettiere alle Talentbäume von Jackie"
+        },
+        "italian": {
+          "name": "Talent show",
+          "description": "Completa tutti gli alberi dei Talenti di Jackie"
+        },
+        "japanese": {
+          "name": "鬼才ジャッキー",
+          "description": "ジャッキーのスキルツリーを全て極める"
+        },
+        "russian": {
+          "name": "Гений смерти",
+          "description": "Заполнить до конца все ветви умений Джеки"
+        },
+        "schinese": {
+          "name": "天赋秀",
+          "description": "将杰基的所有天赋树升至满级"
+        },
+        "spanish": {
+          "name": "Sobrado de talento",
+          "description": "Completa todos los árboles de talentos de Jackie"
+        }
+      }
+    },
+    "ACHIEVEMENT_34": {
+      "translations": {
+        "english": {
+          "name": "Mmmm Essence!",
+          "description": "Pick up 5 Relics in the single player campaign"
+        },
+        "french": {
+          "name": "Mmm, de l'essence !",
+          "description": "Récupérez 5 reliques en mode Campagne solo."
+        },
+        "german": {
+          "name": "Mhm - Essenz!",
+          "description": "Sammle 5 Relikte in der Einzelspieler-Kampagne"
+        },
+        "italian": {
+          "name": "Mmmh, Essenza!",
+          "description": "Raccogli 5 reliquie nella campagna a giocatore singolo"
+        },
+        "japanese": {
+          "name": "はじめの一歩",
+          "description": "ストーリーモードでレリックを５個手に入れる"
+        },
+        "russian": {
+          "name": "Моя прелес-сть!",
+          "description": "Подобрать 5 артефактов"
+        },
+        "schinese": {
+          "name": "嗯，精华！",
+          "description": "在单人战役中拾取5个遗物"
+        },
+        "spanish": {
+          "name": "¡Mmm, esencia!",
+          "description": "Recoge 5 reliquias en la campaña individual"
+        }
+      }
+    },
+    "ACHIEVEMENT_35": {
+      "translations": {
+        "english": {
+          "name": "Relic Hunter",
+          "description": "Find all 29 Relics in the single player campaign"
+        },
+        "french": {
+          "name": "Chasseur de reliques",
+          "description": "Trouvez les 29 reliques du mode Campagne solo."
+        },
+        "german": {
+          "name": "Reliktjäger",
+          "description": "Finde alle 29 Relikte in der Einzelspieler-Kampagne"
+        },
+        "italian": {
+          "name": "Cacciatore di Reliquie",
+          "description": "Trova tutte le 29 reliquie nella campagna in giocatore singolo"
+        },
+        "japanese": {
+          "name": "トレジャーハンター",
+          "description": "ストーリーモードでレリックを29個見つける"
+        },
+        "russian": {
+          "name": "Охотник за сокровищами",
+          "description": "Найти все 29 артефактов в одиночной кампании"
+        },
+        "schinese": {
+          "name": "遗物猎人",
+          "description": "在单人战役中找到全部29个遗物"
+        },
+        "spanish": {
+          "name": "Cazador de reliquias",
+          "description": "Encuentra las 29 reliquias en la campaña individual"
+        }
+      }
+    },
+    "ACHIEVEMENT_36": {
+      "translations": {
+        "english": {
+          "name": "Burned His Mansion",
+          "description": "Kill Luigi Palladino"
+        },
+        "french": {
+          "name": "Boom !",
+          "description": "Tuez Luigi Palladino."
+        },
+        "german": {
+          "name": "Niedergebranntes Anwesen",
+          "description": "Töte Luigi Palladino"
+        },
+        "italian": {
+          "name": "Una casa in fiamme",
+          "description": "Uccidi Luigi Palladino"
+        },
+        "japanese": {
+          "name": "爆弾魔",
+          "description": "ルイージ・パラディーノを倒す"
+        },
+        "russian": {
+          "name": "Особняк сожжен",
+          "description": "Убить Луиджи Палладино."
+        },
+        "schinese": {
+          "name": "烧了他的豪宅",
+          "description": "杀死路易吉·帕拉迪诺"
+        },
+        "spanish": {
+          "name": "Quemó su mansión",
+          "description": "Mata a Luigi Palladino."
+        }
+      }
+    },
+    "ACHIEVEMENT_37": {
+      "translations": {
+        "english": {
+          "name": "Coward",
+          "description": "Kill Cedro Valdez"
+        },
+        "french": {
+          "name": "Le lâche",
+          "description": "Tuez Cedro Valdez."
+        },
+        "german": {
+          "name": "Feigling",
+          "description": "Töte Cedro Valdez"
+        },
+        "italian": {
+          "name": "Codardo",
+          "description": "Uccidi Cedro Valdez"
+        },
+        "japanese": {
+          "name": "チキン野郎",
+          "description": "セドロ・ヴァルディーズを倒す"
+        },
+        "russian": {
+          "name": "Трус",
+          "description": "Убить Седро Вальдеса."
+        },
+        "schinese": {
+          "name": "懦夫",
+          "description": "杀死塞德罗·巴尔德斯"
+        },
+        "spanish": {
+          "name": "Cobarde",
+          "description": "Mata a Cedro Valdez."
+        }
+      }
+    },
+    "ACHIEVEMENT_38": {
+      "translations": {
+        "english": {
+          "name": "Whipping Boy",
+          "description": "Kill Frank Marshall"
+        },
+        "french": {
+          "name": "Souffre-douleur",
+          "description": "Tuez Frank Marshal."
+        },
+        "german": {
+          "name": "Prügelknabe",
+          "description": "Töte Frank Marshal"
+        },
+        "italian": {
+          "name": "Capro espiatorio",
+          "description": "Uccidi Frank Marshall"
+        },
+        "japanese": {
+          "name": "スケープゴート",
+          "description": "フランク・マーシャルを倒す"
+        },
+        "russian": {
+          "name": "Мальчик для битья",
+          "description": "Убить Фрэнка Маршалла."
+        },
+        "schinese": {
+          "name": "替罪羊",
+          "description": "杀死弗兰克·马歇尔"
+        },
+        "spanish": {
+          "name": "Chivo expiatorio",
+          "description": "Mata a Frank Marshall."
+        }
+      }
+    },
+    "ACHIEVEMENT_39": {
+      "translations": {
+        "english": {
+          "name": "Bonnie & Clyde Wannabes",
+          "description": "Kill Jean-Luc Lambert and Amelie Dubois"
+        },
+        "french": {
+          "name": "Bonnie & Clyde ?",
+          "description": "Tuez Jean-Luc Lambert et Amélie Dubois."
+        },
+        "german": {
+          "name": "Möchtegern Bonnie & Clyde",
+          "description": "Töte Jean-Luc Lambert und Amelie Dubois"
+        },
+        "italian": {
+          "name": "Aspiranti Bonnie & Clyde",
+          "description": "Uccidi Jean-Luc Lambert e Amelie Dubois"
+        },
+        "japanese": {
+          "name": "憧れのボニーとクライド",
+          "description": "リュック・ランベールとアメリー・デュボワを倒す"
+        },
+        "russian": {
+          "name": "Пародия на Бонни и Клайда",
+          "description": "Убить Жана-Люка Ламбера и Амели Дюбуа."
+        },
+        "schinese": {
+          "name": "邦妮与克莱德模仿犯",
+          "description": "杀死让-吕克·兰贝特和阿梅莉·杜波依斯"
+        },
+        "spanish": {
+          "name": "Aprendices de Bonnie y Clyde",
+          "description": "Mata a Jean-Luc Lambert y Amélie Dubois."
+        }
+      }
+    },
+    "ACHIEVEMENT_40": {
+      "translations": {
+        "english": {
+          "name": "Technical Difficulties",
+          "description": "Kill the NewsWatch 6 team of Tom Dawson, Bud Langley and Sara Stephens"
+        },
+        "french": {
+          "name": "Problèmes techniques",
+          "description": "Tuez l'équipe de NewsWatch 6 : Tom Dawson, Bud Langley et Sara Stephens."
+        },
+        "german": {
+          "name": "Technische Schwierigkeiten",
+          "description": "Töte das Team von NewsWatch 6 aus Tom Dawson, Bud Langley und Sara Stephens"
+        },
+        "italian": {
+          "name": "Problemi tecnici",
+          "description": "Uccidi la squadra di NewsWatch 6 di Tom Dawson, Bud Langley e Sara Stephens"
+        },
+        "japanese": {
+          "name": "ハットトリック",
+          "description": "ニュースウォッチ６のスタジオでトム・ドーソン、バド・ラングレー、サラ・ステファンズを暗殺する"
+        },
+        "russian": {
+          "name": "Технические проблемы",
+          "description": "Убить новостную команду: Том Доусона, Бада Лэнгли и Сара Стивенс"
+        },
+        "schinese": {
+          "name": "技术故障",
+          "description": "击杀新闻观察6台的汤姆·道森、巴德·兰利与莎拉·斯蒂芬斯团队"
+        },
+        "spanish": {
+          "name": "Problemas técnicos",
+          "description": "Mata al equipo de NewsWatch 6 compuesto por Tom Dawson, Bud Langley y Sara Stephens"
+        }
+      }
+    },
+    "ACHIEVEMENT_41": {
+      "translations": {
+        "english": {
+          "name": "Should Have Called 555-2368…",
+          "description": "Survive the battle against the Hell Beast"
+        },
+        "french": {
+          "name": "Il fallait appeler le 555-2368...",
+          "description": "Survivez au combat contre la Créature de l'enfer."
+        },
+        "german": {
+          "name": "Hättest du 555-2368 angerufen ...",
+          "description": "Überlebe den Kampf gegen das Höllenbiest"
+        },
+        "italian": {
+          "name": "Dovevo chiamare il 555-2368...",
+          "description": "Sopravvivi alla battaglia contro la Bestia Infernale"
+        },
+        "japanese": {
+          "name": "ゴーストバスターズを呼べばよかった…",
+          "description": "魔獣との戦いで生き残る"
+        },
+        "russian": {
+          "name": "Где охотники за привидениями?",
+          "description": "Пережить битву с адским отродьем"
+        },
+        "schinese": {
+          "name": "早该拨打555-2368…",
+          "description": "在与地狱兽的战斗中存活下来"
+        },
+        "spanish": {
+          "name": "¿Por qué no llamé al 555-2368?",
+          "description": "Sobrevive al combate contra la bestia infernal."
+        }
+      }
+    },
+    "ACHIEVEMENT_42": {
+      "translations": {
+        "english": {
+          "name": "The Brotherhood Crumbles",
+          "description": "Complete Vendettas Campaign"
+        },
+        "french": {
+          "name": "La fin de La Confrérie",
+          "description": "Terminez la campagne Vendettas."
+        },
+        "german": {
+          "name": "Die Bruderschaft zerfällt",
+          "description": "Beende die Blutrachen-Kampagne"
+        },
+        "italian": {
+          "name": "Fratellanza in pezzi",
+          "description": "Completa la Campagna Vendette"
+        },
+        "japanese": {
+          "name": "ブラザーフッド滅亡",
+          "description": "ヴェンデッタをクリアする"
+        },
+        "russian": {
+          "name": "Братство содрогнулось",
+          "description": "Пройти кампанию 'Вендетта'."
+        },
+        "schinese": {
+          "name": "兄弟会崩塌",
+          "description": "完成复仇行动战役"
+        },
+        "spanish": {
+          "name": "La Hermandad se desmorona",
+          "description": "Completa la campaña Vendetta."
+        }
+      }
+    },
+    "ACHIEVEMENT_43": {
+      "translations": {
+        "english": {
+          "name": "Dark Ninjutsu",
+          "description": "Complete a mission as Inugami"
+        },
+        "french": {
+          "name": "Ninjutsu sombre",
+          "description": "Terminez une mission en incarnant Inugami."
+        },
+        "german": {
+          "name": "Dunkler Ninjutsu",
+          "description": "Schließe eine Mission als Inugami ab"
+        },
+        "italian": {
+          "name": "Ninjutsu oscuro",
+          "description": "Completa una missione con Inugami"
+        },
+        "japanese": {
+          "name": "闇の忍術",
+          "description": "イヌガミで１つのミッションをクリアする"
+        },
+        "russian": {
+          "name": "Темное ниндзюцу",
+          "description": "Пройти задание за Инугами."
+        },
+        "schinese": {
+          "name": "黑暗忍术",
+          "description": "使用犬神完成一次任务"
+        },
+        "spanish": {
+          "name": "Ninjutsu oscuro",
+          "description": "Completa una misión como Inugami."
+        }
+      }
+    },
+    "ACHIEVEMENT_44": {
+      "translations": {
+        "english": {
+          "name": "Hell Hath No Fury...",
+          "description": "Complete a mission as Shoshanna"
+        },
+        "french": {
+          "name": "L'enfer c'est les autres",
+          "description": "Terminez une mission en incarnant Shoshanna."
+        },
+        "german": {
+          "name": "Die Hölle selbst wütet nicht...",
+          "description": "Schließe eine Mission als Shoshanna ab"
+        },
+        "italian": {
+          "name": "L'inferno non conosce furia...",
+          "description": "Completa una missione con Shoshanna"
+        },
+        "japanese": {
+          "name": "女ほど恐ろしいものはない…",
+          "description": "ショーシャナで１つのミッションをクリアする"
+        },
+        "russian": {
+          "name": "Не злите женщину",
+          "description": "Пройти задание за Шошанну."
+        },
+        "schinese": {
+          "name": "地狱之怒莫过怨女…",
+          "description": "使用肖莎娜完成一次任务"
+        },
+        "spanish": {
+          "name": "Mujer despechada...",
+          "description": "Completa una misión como Shoshanna."
+        }
+      }
+    },
+    "ACHIEVEMENT_45": {
+      "translations": {
+        "english": {
+          "name": "It's 12pm Somewhere!",
+          "description": "Complete a mission as Jimmy"
+        },
+        "french": {
+          "name": "Il est toujours minuit quelque part !",
+          "description": "Terminez une mission en incarnant Jimmy."
+        },
+        "german": {
+          "name": "Irgendwo ist Mitternacht!",
+          "description": "Schließe eine Mission als Jimmy ab"
+        },
+        "italian": {
+          "name": "Sono le 12 da qualche parte!",
+          "description": "Completa una missione con Jimmy"
+        },
+        "japanese": {
+          "name": "思い立ったがお昼どき！",
+          "description": "ジミー・ウィルソンで１つのミッションをクリアする"
+        },
+        "russian": {
+          "name": "В пьянстве замечен не был...",
+          "description": "Пройти задание за Джимми."
+        },
+        "schinese": {
+          "name": "总有地方是中午12点！",
+          "description": "使用吉米完成一次任务"
+        },
+        "spanish": {
+          "name": "¡Son las 12 en algún lugar!",
+          "description": "Completa una misión como Jimmy."
+        }
+      }
+    },
+    "ACHIEVEMENT_46": {
+      "translations": {
+        "english": {
+          "name": "Voodoo is More Than Dolls",
+          "description": "Complete a mission as JP"
+        },
+        "french": {
+          "name": "Le vaudou c'est plus que des poupées",
+          "description": "Terminez une mission en incarnant J.P."
+        },
+        "german": {
+          "name": "Voodoo ist mehr als nur Puppen",
+          "description": "Schließe eine Mission als J.P. ab"
+        },
+        "italian": {
+          "name": "Il voodoo non sono solo bambole",
+          "description": "Completa una missione con JP"
+        },
+        "japanese": {
+          "name": "ブードゥーの呪い",
+          "description": "J.P.デュモンで１つのミッションをクリアする"
+        },
+        "russian": {
+          "name": "Вуду: не только куклы",
+          "description": "Пройти задание за Дюмона."
+        },
+        "schinese": {
+          "name": "巫毒不止玩偶",
+          "description": "使用JP完成一次任务"
+        },
+        "spanish": {
+          "name": "El vudú es más que una muñeca",
+          "description": "Completa una misión como J.P."
+        }
+      }
+    },
+    "ACHIEVEMENT_47": {
+      "translations": {
+        "english": {
+          "name": "Embraced the Darkness",
+          "description": "In Vendettas, acquire all the talents for one character"
+        },
+        "french": {
+          "name": "Disciple du Darkness",
+          "description": "Achetez toutes les compétences d'un personnage en mode Vendettas."
+        },
+        "german": {
+          "name": "Die Finsternis umarmt",
+          "description": "Erlange bei den Blutrachen alle Talente für einen Charakter"
+        },
+        "italian": {
+          "name": "La Tenebra accolta",
+          "description": "Acquisisci tutti i talenti di un personaggio nella campagna Vendette"
+        },
+        "japanese": {
+          "name": "闇を極めし者",
+          "description": "ヴェンデッタでいずれかのキャラクターのスキルツリーを極める"
+        },
+        "russian": {
+          "name": "Постигшие Тьму",
+          "description": "Заполнить до конца дерево умений одного персонажа."
+        },
+        "schinese": {
+          "name": "拥抱黑暗",
+          "description": "在复仇行动中，为一名角色习得全部天赋"
+        },
+        "spanish": {
+          "name": "Has abrazado la Oscuridad",
+          "description": "Adquiere todos los talentos de un personaje en Vendetta."
+        }
+      }
+    },
+    "ACHIEVEMENT_48": {
+      "translations": {
+        "english": {
+          "name": "You've Made My Hit List",
+          "description": "Complete 6 Hit List exclusive missions"
+        },
+        "french": {
+          "name": "La Liste Noire",
+          "description": "Terminez 6 missions de la Liste Noire."
+        },
+        "german": {
+          "name": "Abschusslisten-Held",
+          "description": "Schließe 6 Exklusivmissionen der Abschussliste ab"
+        },
+        "italian": {
+          "name": "Sei nella lista",
+          "description": "Completa 6 missioni esclusive della Lista di bersagli"
+        },
+        "japanese": {
+          "name": "依頼コンプリート",
+          "description": "依頼リストのミッションを６個すべてクリアする"
+        },
+        "russian": {
+          "name": "Черная метка",
+          "description": "Выполнить 6 эксклюзивных заданий из черного списка."
+        },
+        "schinese": {
+          "name": "你上了我的猎杀名单",
+          "description": "完成6个猎杀名单专属任务"
+        },
+        "spanish": {
+          "name": "Has dado el gran golpe",
+          "description": "Completa 6 misiones exclusivas de golpes."
+        }
+      }
+    },
+    "ACHIEVEMENT_49": {
+      "translations": {
+        "english": {
+          "name": "Romantic",
+          "description": "Real guys know how to dance"
+        },
+        "french": {
+          "name": "Romantique",
+          "description": "Les vrais hommes savent danser."
+        },
+        "german": {
+          "name": "Romantisch",
+          "description": "Echte Kerle können tanzen"
+        },
+        "italian": {
+          "name": "Romanticone",
+          "description": "I veri uomini sanno ballare"
+        },
+        "japanese": {
+          "name": "ロマンチックな奴",
+          "description": "ダンスは男のたしなみ"
+        },
+        "russian": {
+          "name": "Искатели приключений",
+          "description": "Завершить приключения одного задания"
+        },
+        "schinese": {
+          "name": "浪漫",
+          "description": "真正的男人懂得跳舞"
+        },
+        "spanish": {
+          "name": "Romántico",
+          "description": "Los tíos de verdad saben bailar."
+        }
+      }
+    }
+  }
+}

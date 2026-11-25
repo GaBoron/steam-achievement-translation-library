@@ -4,6 +4,8 @@ from __future__ import annotations
 import re
 from typing import Any
 
+from contribution_attribution import github_commit_author
+from translation_artifacts import load_artifact, artifact_rows
 from achievement_catalog import write_entry_review_catalogs
 from translation_json import write_entry_translation_json
 
@@ -20,6 +22,7 @@ from github_repository import (
     add_issue_label,
     close_pull_request,
     comment_issue,
+    dispatch_translation_checks,
     github_request,
     issue_comments,
     lock_issue,
@@ -45,6 +48,7 @@ from pr_metadata import (
     entry_from_metadata,
     is_bot,
     is_force_refresh_command,
+    is_translation_pr,
     is_update_command,
     parse_pr_metadata,
     parse_update_command_detail,
@@ -58,7 +62,7 @@ from pr_metadata import (
 )
 from pr_presentation_refresh import build_refreshed_translation_pr_presentation
 from schema_package import save_schema_package
-from steam_schema import achievement_rows, load_schema, sha256, summarize_update_diff
+from steam_schema import sha256, summarize_update_diff
 from submission_inputs import extract_attachment, now_utc
 from submission_presentation import build_submission_pr_body, steam_store_url, variant_achievement_rows
 from submission_validation import validate_schema_package
@@ -141,13 +145,7 @@ def force_refresh_pr(repo: str, token: str, event: dict[str, Any]) -> None:
     if not pr or str(pr.get("state") or "") != "open":
         comment_issue(repo, token, pr_number, "`/force-refresh` 只能用于打开状态的翻译 PR。")
         return
-    head = pr.get("head") or {}
-    base = pr.get("base") or {}
-    if (
-        str(base.get("ref") or "") != "main"
-        or str((head.get("repo") or {}).get("full_name") or "") != repo
-        or not str(head.get("ref") or "").startswith("translation-library/")
-    ):
+    if not is_translation_pr(pr, repo):
         comment_issue(repo, token, pr_number, "`/force-refresh` 只适用于本仓库以 `translation-library/` 开头、目标为 `main` 的翻译 PR。")
         return
     try:
@@ -157,13 +155,10 @@ def force_refresh_pr(repo: str, token: str, event: dict[str, Any]) -> None:
         run(["git", "add", "-A", "--", f"files/{game_id}"])
         run(["git", "commit", "--allow-empty", "-m", f"chore: force refresh PR #{pr_number}"])
         push_branch(branch)
-        update_pr_title_and_body(
-            repo,
-            token,
-            pr_number,
-            presentation.title,
-            presentation.body,
-        )
+        try:
+            update_pr_title_and_body(repo, token, pr_number, presentation.title, presentation.body)
+        finally:
+            dispatch_translation_checks(repo, token, branch)
         github_request(
             "POST",
             repo,
@@ -210,6 +205,9 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
     if not pr or str(pr.get("state") or "") != "open":
         comment_issue(repo, token, pr_number, "`/update` 只能用于打开状态的翻译 PR。")
         return
+    if not is_translation_pr(pr, repo):
+        comment_issue(repo, token, pr_number, "`/update` 只适用于本仓库以 `translation-library/` 开头、目标为 `main` 的翻译 PR。")
+        return
 
     meta = parse_pr_metadata(pr)
     original_meta = dict(meta)
@@ -239,11 +237,11 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
     try:
         if command == "doc":
             if not attachment:
-                raise ValueError("`/update doc` 需要在同一条评论中附加 `UserGameStatsSchema_<app_id>.zip`。")
+                raise ValueError("`/update doc` 需要在同一条评论中附加 `UserGameStatsSchema_<app_id>.json` 或 `.zip`。")
             target_variant_id = value.lower()
             if target_variant_id and not re.fullmatch(r"^[a-z0-9][a-z0-9-]{0,63}$", target_variant_id):
                 raise ValueError("variant_id 只能包含小写字母、数字和连字符，最长 64 个字符。")
-            package = validate_schema_package(attachment, token, old_game_id)
+            package = validate_schema_package(attachment, token, old_game_id, target_variant_id=target_variant_id)
             previous_languages = list(meta["languages"])
             detected_languages = package.languages
             current_entry = {
@@ -263,16 +261,14 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
                     raise ValueError(f"找不到 variant_id={target_variant_id}；新增版本请提交完整多版本包。")
                 if package.has_manifest:
                     raise ValueError("指定 variant_id 时只能上传不含多版本清单的单版本 ZIP。")
-                if detected_languages != previous_languages:
-                    raise ValueError("单独更新一个版本时不能修改自动识别的全局语言；请提交完整多版本包。")
-                old_data, old_nodes = load_schema(repository_path(str(current["schema_file"])))
+                old_data, old_nodes = load_artifact(repository_path(str(current["schema_file"])))
                 uploaded = package.variants[0]
                 previous_hash = sha256(old_data)
                 if old_data == uploaded.data:
                     raise ValueError(f"上传文件与当前 {target_variant_id} 版本字节级完全相同。")
                 update_diff = summarize_update_diff(
-                    achievement_rows(old_nodes, previous_languages),
-                    achievement_rows(uploaded.nodes, previous_languages),
+                    artifact_rows(old_nodes, previous_languages),
+                    artifact_rows(uploaded.nodes, previous_languages),
                     previous_languages,
                 )
                 variant_changes = {"added": [], "removed": [], "changed": [target_variant_id]}
@@ -301,12 +297,12 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
                 review_variant_id = changed_ids[0] if changed_ids else ("default" if "default" in new_by_id else sorted(new_ids)[0])
                 old_record = existing_by_id.get(review_variant_id)
                 if old_record:
-                    old_data, old_nodes = load_schema(repository_path(str(old_record["schema_file"])))
+                    old_data, old_nodes = load_artifact(repository_path(str(old_record["schema_file"])))
                     previous_hash = sha256(old_data)
                     diff_languages = sorted(set(previous_languages + detected_languages))
                     update_diff = summarize_update_diff(
-                        achievement_rows(old_nodes, diff_languages),
-                        achievement_rows(new_by_id[review_variant_id].nodes, diff_languages),
+                        artifact_rows(old_nodes, diff_languages),
+                        artifact_rows(new_by_id[review_variant_id].nodes, diff_languages),
                         diff_languages,
                     )
                 else:
@@ -330,13 +326,12 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             previous_count = str(meta.get("achievement_count") or "")
             previous_updated_at = str(meta.get("updated_at") or "")
             meta["schema_file"] = str(primary_record["schema_file"])
-            meta["schema_files"] = schema_files if package.has_manifest or target_variant_id or meta.get("schema_files") is not None else None
+            meta["schema_files"] = schema_files if package.has_manifest or target_variant_id or str(primary_record["schema_file"]).endswith(".json") or meta.get("schema_files") is not None else None
             meta["file_size"] = schema_file_size_label(int(primary_record["file_size_bytes"]))
             meta["sha256"] = str(primary_record["sha256"])
             meta["achievement_count"] = str(primary_record["achievement_count"])
             meta["updated_at"] = now_utc()
-            if not target_variant_id:
-                meta["languages"] = detected_languages
+            meta["languages"] = sorted({language for record in schema_files for language in record["languages"]})
             record_change("schema file", previous_schema_file, meta["schema_file"])
             record_change("file size", previous_file_size, meta["file_size"])
             record_change(
@@ -346,7 +341,7 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
             )
             record_change("achievement count", previous_count, meta["achievement_count"])
             record_change("updated at", previous_updated_at, meta["updated_at"])
-            if not target_variant_id and previous_languages != meta["languages"]:
+            if previous_languages != meta["languages"]:
                 record_change("automatically detected languages", previous_languages, meta["languages"])
             record_change(
                 "schema variants",
@@ -483,8 +478,17 @@ def apply_pr_update(repo: str, token: str, event: dict[str, Any]) -> None:
         return
 
     add_paths = [f"files/{game_id}" for game_id in sorted({old_game_id, str(entry["game_id"])})]
-    changed = commit_and_push(branch, f"data: apply PR update command #{pr_number}", add_paths)
-    update_pr_title_and_body(repo, token, pr_number, pr_title, pr_body)
+    changed = commit_and_push(
+        branch,
+        f"data: apply PR update command #{pr_number}",
+        add_paths,
+        author=github_commit_author(comment.get("user")),
+    )
+    try:
+        update_pr_title_and_body(repo, token, pr_number, pr_title, pr_body)
+    finally:
+        if changed:
+            dispatch_translation_checks(repo, token, branch)
     suffix = "投稿分支和 PR 描述已更新。" if changed else "PR 描述已更新；文件内容没有产生新的提交。"
     if not changes:
         changes.append({"field": "requested update", "before": "未记录", "after": "已处理"})

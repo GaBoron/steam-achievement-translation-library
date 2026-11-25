@@ -32,7 +32,7 @@ def changed_game(base_ref: str, head_ref: str, *, root: Path = ROOT) -> tuple[st
         if not allowed:
             raise ValueError(f"Unexpected translation PR file: {path}")
         game_ids.add(game_id)
-        has_schema_changes |= path.endswith(".bin")
+        has_schema_changes |= path.endswith((".bin", ".json")) and not path.endswith("/submission.json")
     if len(game_ids) != 1:
         raise ValueError("A translation PR must change exactly one game's directory.")
     game_id = next(iter(game_ids))
