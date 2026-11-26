@@ -1,0 +1,767 @@
+{
+  "version": 2,
+  "app_id": "326460",
+  "variant_id": "default",
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "achievements": {
+    "play5": {
+      "translations": {
+        "english": {
+          "name": "Player",
+          "description": "Play 5 rounds"
+        },
+        "schinese": {
+          "name": "玩家",
+          "description": "玩5场游戏"
+        }
+      }
+    },
+    "play50": {
+      "translations": {
+        "english": {
+          "name": "Committed",
+          "description": "Play 20 rounds"
+        },
+        "schinese": {
+          "name": "坚定的玩家",
+          "description": "玩20场游戏"
+        }
+      }
+    },
+    "play500": {
+      "translations": {
+        "english": {
+          "name": "Dedicated",
+          "description": "Play 100 rounds"
+        },
+        "schinese": {
+          "name": "投入的玩家",
+          "description": "玩100场游戏"
+        }
+      }
+    },
+    "play5000": {
+      "translations": {
+        "english": {
+          "name": "Devoted",
+          "description": "Play 500 rounds"
+        },
+        "schinese": {
+          "name": "忠实的玩家",
+          "description": "玩500场游戏"
+        }
+      }
+    },
+    "play10000": {
+      "translations": {
+        "english": {
+          "name": "Ultimate Player",
+          "description": "Play 2,000 rounds"
+        },
+        "schinese": {
+          "name": "终极玩家",
+          "description": "玩2000场游戏"
+        }
+      }
+    },
+    "win5": {
+      "translations": {
+        "english": {
+          "name": "Big Winner",
+          "description": "Win 5 rounds"
+        },
+        "schinese": {
+          "name": "大赢家",
+          "description": "赢5场游戏"
+        }
+      }
+    },
+    "win50": {
+      "translations": {
+        "english": {
+          "name": "Great Success",
+          "description": "Win 20 rounds"
+        },
+        "schinese": {
+          "name": "巨大成功",
+          "description": "赢20场游戏"
+        }
+      }
+    },
+    "win500": {
+      "translations": {
+        "english": {
+          "name": "Victor",
+          "description": "Win 100 rounds"
+        },
+        "schinese": {
+          "name": "胜利者",
+          "description": "赢100场游戏"
+        }
+      }
+    },
+    "win5000": {
+      "translations": {
+        "english": {
+          "name": "Triumph",
+          "description": "Win 500 rounds"
+        },
+        "schinese": {
+          "name": "伟大胜利",
+          "description": "赢500场游戏"
+        }
+      }
+    },
+    "win10000": {
+      "translations": {
+        "english": {
+          "name": "Ultimate Champion",
+          "description": "Win 2,000 rounds"
+        },
+        "schinese": {
+          "name": "终极冠军",
+          "description": "赢2000场游戏"
+        }
+      }
+    },
+    "mis_play100": {
+      "translations": {
+        "english": {
+          "name": "Perseverance",
+          "description": "Attempt missions 100 times"
+        },
+        "schinese": {
+          "name": "坚持不懈",
+          "description": "尝试100次任务"
+        }
+      }
+    },
+    "mis_win15": {
+      "translations": {
+        "english": {
+          "name": "Following Orders",
+          "description": "Complete 15 missions"
+        },
+        "schinese": {
+          "name": "跟随命令",
+          "description": "完成15次任务"
+        }
+      }
+    },
+    "mis_win45": {
+      "translations": {
+        "english": {
+          "name": "Call the Shots",
+          "description": "Complete 45 missions"
+        },
+        "schinese": {
+          "name": "发号施令",
+          "description": "完成45次任务"
+        }
+      }
+    },
+    "mis_win75": {
+      "translations": {
+        "english": {
+          "name": "Duty Calls",
+          "description": "Complete 75 missions"
+        },
+        "schinese": {
+          "name": "使命召唤",
+          "description": "完成75次任务"
+        }
+      }
+    },
+    "xp1000": {
+      "translations": {
+        "english": {
+          "name": "XP Grabber",
+          "description": "Earn 1,000 XP"
+        },
+        "schinese": {
+          "name": "经验掠夺者",
+          "description": "获取1000经验"
+        }
+      }
+    },
+    "xp10000": {
+      "translations": {
+        "english": {
+          "name": "XP Acculumator",
+          "description": "Earn 10,000 XP"
+        },
+        "schinese": {
+          "name": "经验累积者",
+          "description": "获取10000经验"
+        }
+      }
+    },
+    "xp100000": {
+      "translations": {
+        "english": {
+          "name": "XP Collector",
+          "description": "Earn 100,000 XP"
+        },
+        "schinese": {
+          "name": "经验收集者",
+          "description": "获取100000经验"
+        }
+      }
+    },
+    "xp1000000": {
+      "translations": {
+        "english": {
+          "name": "XP Hoarder",
+          "description": "Earn 1,000,000 XP"
+        },
+        "schinese": {
+          "name": "经验囤积者",
+          "description": "获取1000000经验"
+        }
+      }
+    },
+    "x2_hit_1": {
+      "translations": {
+        "english": {
+          "name": "Two Birds",
+          "description": "Hit two enemies in one shot"
+        },
+        "schinese": {
+          "name": "一石二鸟",
+          "description": "一次击中两个敌人"
+        }
+      }
+    },
+    "x2_hit_10": {
+      "translations": {
+        "english": {
+          "name": "Twenty Birds",
+          "description": "Hit two enemies in one shot 10 times"
+        },
+        "schinese": {
+          "name": "二十只鸟",
+          "description": "“一次击中两个敌人”10次"
+        }
+      }
+    },
+    "x2_hit_100": {
+      "translations": {
+        "english": {
+          "name": "Two Hundred Birds",
+          "description": "Hit two enemies in one shot 100 times"
+        },
+        "schinese": {
+          "name": "两百只鸟",
+          "description": "“一次击中两个敌人”100次"
+        }
+      }
+    },
+    "x3_hit_1": {
+      "translations": {
+        "english": {
+          "name": "Triple Threat",
+          "description": "Hit three enemies in one shot"
+        },
+        "schinese": {
+          "name": "三重威胁",
+          "description": "一次击中三个敌人"
+        }
+      }
+    },
+    "x3_hit_10": {
+      "translations": {
+        "english": {
+          "name": "Max Efficiency",
+          "description": "Hit three enemies in one shot 10 times"
+        },
+        "schinese": {
+          "name": "最大效率",
+          "description": "一次击中三个敌人10次"
+        }
+      }
+    },
+    "kill_100": {
+      "translations": {
+        "english": {
+          "name": "Serial Killer",
+          "description": "Destroy 50 enemy tanks"
+        },
+        "schinese": {
+          "name": "连环杀手",
+          "description": "击毁50辆敌方坦克"
+        }
+      }
+    },
+    "kill_500": {
+      "translations": {
+        "english": {
+          "name": "Mass Murderer",
+          "description": "Destroy 200 enemy tanks"
+        },
+        "schinese": {
+          "name": "杀人狂",
+          "description": "击毁200辆敌方坦克"
+        }
+      }
+    },
+    "kill_2500": {
+      "translations": {
+        "english": {
+          "name": "Tank Genocide",
+          "description": "Destroy 1,000 enemy tanks"
+        },
+        "schinese": {
+          "name": "坦克屠杀",
+          "description": "击毁1000辆敌方坦克"
+        }
+      }
+    },
+    "dmg_1shot_200": {
+      "translations": {
+        "english": {
+          "name": "Ouch!",
+          "description": "Deal 200+ damage in one shot"
+        },
+        "schinese": {
+          "name": "哎呦！",
+          "description": "一次击中造成200+的伤害"
+        }
+      }
+    },
+    "dmg_1shot_300": {
+      "translations": {
+        "english": {
+          "name": "Yowzers!",
+          "description": "Deal 300+ damage in one shot"
+        },
+        "schinese": {
+          "name": "我的天啊！",
+          "description": "一次击中造成300+的伤害"
+        }
+      }
+    },
+    "crate50": {
+      "translations": {
+        "english": {
+          "name": "Scavenger",
+          "description": "Pick up 50 crates"
+        },
+        "schinese": {
+          "name": "拾荒者",
+          "description": "拾取50个箱子"
+        }
+      }
+    },
+    "crate250": {
+      "translations": {
+        "english": {
+          "name": "King of the Loot",
+          "description": "Pick up 250 crates"
+        },
+        "schinese": {
+          "name": "乱世之王",
+          "description": "捡起250个箱子"
+        }
+      }
+    },
+    "savegear_250": {
+      "translations": {
+        "english": {
+          "name": "Filthy Rich",
+          "description": "Save up 250 Gears"
+        },
+        "schinese": {
+          "name": "大富豪",
+          "description": "积累250个齿轮"
+        }
+      }
+    },
+    "mp_play": {
+      "translations": {
+        "english": {
+          "name": "Rolling In It",
+          "description": "Save up 1,000 Gears"
+        },
+        "schinese": {
+          "name": "财源滚滚",
+          "description": "积累1000个齿轮"
+        }
+      }
+    },
+    "savegear_2500": {
+      "translations": {
+        "english": {
+          "name": "Scrooge McTank",
+          "description": "Save up 2,500 Gears"
+        },
+        "schinese": {
+          "name": "坦克吝啬鬼",
+          "description": "积累2500个齿轮"
+        }
+      }
+    },
+    "beatkchamp": {
+      "translations": {
+        "english": {
+          "name": "Dev Destroyer",
+          "description": "Beat the dev (kChamp) OR beat a lv.100 who has the achievement"
+        },
+        "schinese": {
+          "name": "开发商破坏者",
+          "description": "打败开发者（kChamp）或者打败有这个成就的100级玩家"
+        }
+      }
+    },
+    "win_dm_100": {
+      "translations": {
+        "english": {
+          "name": "Deathmatch Veteran",
+          "description": "Win 25 Deathmatch rounds"
+        },
+        "schinese": {
+          "name": "死亡竞赛老兵",
+          "description": "赢得25场死亡竞赛"
+        }
+      }
+    },
+    "win_pt_100": {
+      "translations": {
+        "english": {
+          "name": "Points Veteran",
+          "description": "Win 25 Points rounds"
+        },
+        "schinese": {
+          "name": "得分模式老兵",
+          "description": "赢得25场得分模式"
+        }
+      }
+    },
+    "win_as_100": {
+      "translations": {
+        "english": {
+          "name": "Assassin Veteran",
+          "description": "Win 25 Assassin rounds"
+        },
+        "schinese": {
+          "name": "刺杀模式老兵",
+          "description": "赢得25场刺杀模式"
+        }
+      }
+    },
+    "win_jg_100": {
+      "translations": {
+        "english": {
+          "name": "Juggernaut Veteran",
+          "description": "Win 25 Juggernaut rounds"
+        },
+        "schinese": {
+          "name": "主宰模式老兵",
+          "description": "赢得25场主宰模式"
+        }
+      }
+    },
+    "as_50": {
+      "translations": {
+        "english": {
+          "name": "Hit Man",
+          "description": "Assassinate 50 enemy tanks"
+        },
+        "schinese": {
+          "name": "职业杀手",
+          "description": "刺杀50辆敌方坦克"
+        }
+      }
+    },
+    "as_250": {
+      "translations": {
+        "english": {
+          "name": "Follow the Creed",
+          "description": "Assassinate 250 enemy tanks"
+        },
+        "schinese": {
+          "name": "遵循信条",
+          "description": "刺杀250辆敌方坦克"
+        }
+      }
+    },
+    "winas8pjg": {
+      "translations": {
+        "english": {
+          "name": "Beast",
+          "description": "Win an 8 player round as the Juggernaut"
+        },
+        "schinese": {
+          "name": "野兽",
+          "description": "作为主宰赢得一次8名玩家的主宰模式游戏"
+        }
+      }
+    },
+    "ss_ptl_5": {
+      "translations": {
+        "english": {
+          "name": "Dimensional",
+          "description": "Land 5 Portal Skill Shots"
+        },
+        "schinese": {
+          "name": "维度",
+          "description": "完成5次传送门技术射击"
+        }
+      }
+    },
+    "ss_ptl_25": {
+      "translations": {
+        "english": {
+          "name": "The Cake is a Lie",
+          "description": "Land 25 Portal Skill Shots"
+        },
+        "schinese": {
+          "name": "蛋糕是个谎言",
+          "description": "完成25次传送门技术射击"
+        }
+      }
+    },
+    "ss_ptl_100": {
+      "translations": {
+        "english": {
+          "name": "Space-Time God",
+          "description": "Land 100 Portal Skill Shots"
+        },
+        "schinese": {
+          "name": "时空之神",
+          "description": "完成100次传送门技术射击"
+        }
+      }
+    },
+    "ss_buf_5": {
+      "translations": {
+        "english": {
+          "name": "Double Damage",
+          "description": "Land 5 Buff Skill Shots"
+        },
+        "schinese": {
+          "name": "双倍伤害",
+          "description": "完成5次增益效果技术射击"
+        }
+      }
+    },
+    "ss_buf_25": {
+      "translations": {
+        "english": {
+          "name": "Opportunist",
+          "description": "Land 25 Buff Skill Shots"
+        },
+        "schinese": {
+          "name": "机会主义者",
+          "description": "完成25次增益效果技术射击"
+        }
+      }
+    },
+    "ss_buf_100": {
+      "translations": {
+        "english": {
+          "name": "Mr. X2",
+          "description": "Land 100 Buff Skill Shots"
+        },
+        "schinese": {
+          "name": "X2先生",
+          "description": "完成100次增益效果技术射击"
+        }
+      }
+    },
+    "ss_bmp_5": {
+      "translations": {
+        "english": {
+          "name": "Bouncy",
+          "description": "Land 5 Bumper Skill Shots"
+        },
+        "schinese": {
+          "name": "有弹性的",
+          "description": "完成5次反弹器技术射击"
+        }
+      }
+    },
+    "ss_bmp_25": {
+      "translations": {
+        "english": {
+          "name": "Ricochet",
+          "description": "Land 25 Bumper Skill Shots"
+        },
+        "schinese": {
+          "name": "跳弹",
+          "description": "完成25次反弹器技术射击"
+        }
+      }
+    },
+    "ss_bmp_100": {
+      "translations": {
+        "english": {
+          "name": "Master of Geometry",
+          "description": "Land 100 Bumper Skill Shots"
+        },
+        "schinese": {
+          "name": "几何大师",
+          "description": "完成100次反弹器技术射击"
+        }
+      }
+    },
+    "win_rb_100": {
+      "translations": {
+        "english": {
+          "name": "Rebound Veteran",
+          "description": "Win 25 Rebound rounds"
+        },
+        "schinese": {
+          "name": "反弹模式老兵",
+          "description": "赢得25场反弹模式"
+        }
+      }
+    },
+    "win_mm_100": {
+      "translations": {
+        "english": {
+          "name": "Marksman Veteran",
+          "description": "Win 25 Marksman rounds"
+        },
+        "schinese": {
+          "name": "神射手模式老兵",
+          "description": "赢得25场神射手模式"
+        }
+      }
+    },
+    "win_ch_100": {
+      "translations": {
+        "english": {
+          "name": "Charge Veteran",
+          "description": "Win 25 Charge rounds"
+        },
+        "schinese": {
+          "name": "充电模式老兵",
+          "description": "赢得25场充电模式"
+        }
+      }
+    },
+    "win_sc_100": {
+      "translations": {
+        "english": {
+          "name": "Shoccer Veteran",
+          "description": "Win 25 Shoccer rounds"
+        },
+        "schinese": {
+          "name": "足球模式老兵",
+          "description": "赢得25场足球模式"
+        }
+      }
+    },
+    "ss_bothbmp_1": {
+      "translations": {
+        "english": {
+          "name": "Around the World",
+          "description": "Land a shot that hits both side bumpers"
+        },
+        "schinese": {
+          "name": "环绕世界",
+          "description": "完成一次击中地图两侧反弹器的射击"
+        }
+      }
+    },
+    "ss_tripleplay_1": {
+      "translations": {
+        "english": {
+          "name": "Triple Play",
+          "description": "Land a shot that hits a bumper, a portal, and an X2"
+        },
+        "schinese": {
+          "name": "三重乐趣",
+          "description": "完成一次击中一个反弹器、一个传送门和一个X2的射击"
+        }
+      }
+    },
+    "mm_survive_25": {
+      "translations": {
+        "english": {
+          "name": "Bullseye",
+          "description": "Survive 25 shots in Marksman"
+        },
+        "schinese": {
+          "name": "正中靶心",
+          "description": "在神射手模式中活过25次射击"
+        }
+      }
+    },
+    "win_tourney_1": {
+      "translations": {
+        "english": {
+          "name": "Bracketeer",
+          "description": "Win a 16 player tournament"
+        },
+        "schinese": {
+          "name": "联赛冠军",
+          "description": "赢得一次有16名玩家参与的联赛"
+        }
+      }
+    },
+    "dronekill_5": {
+      "translations": {
+        "english": {
+          "name": "Autonomous Combat",
+          "description": "Destroy 5 tanks with a drone"
+        },
+        "schinese": {
+          "name": "自主作战",
+          "description": "用攻击无人机摧毁5辆坦克"
+        }
+      }
+    },
+    "heal_ally_25": {
+      "translations": {
+        "english": {
+          "name": "Medic",
+          "description": "Heal allies 25 times"
+        },
+        "schinese": {
+          "name": "医疗兵",
+          "description": "治疗盟友25次"
+        }
+      }
+    },
+    "complete_task_5": {
+      "translations": {
+        "english": {
+          "name": "Weekday Warrior",
+          "description": "Complete and claim 5 daily challenges"
+        },
+        "schinese": {
+          "name": "工作日勇士",
+          "description": "完成并领取5个每日挑战"
+        }
+      }
+    },
+    "complete_task_50": {
+      "translations": {
+        "english": {
+          "name": "Daily Dominator",
+          "description": "Complete and claim 50 daily challenges"
+        },
+        "schinese": {
+          "name": "每日霸主",
+          "description": "完成并领取50个每日挑战"
+        }
+      }
+    },
+    "elo": {
+      "translations": {
+        "english": {
+          "name": "Doggone-It",
+          "description": "Unlock 5 Daily Dogtags"
+        },
+        "schinese": {
+          "name": "见鬼",
+          "description": "解锁5个每日狗牌"
+        }
+      }
+    }
+  }
+}
